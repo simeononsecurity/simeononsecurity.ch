@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>软件工程 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>软件工程 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</link></image><link>https://zh.simeononsecurity.com/genre/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</link><description>Recent content in 软件工程 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>AI 代理委派：分配工作并审查结果</title><link>https://zh.simeononsecurity.com/articles/effective-ai-agent-delegation/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/effective-ai-agent-delegation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+判断何时需要第二个 AI 代理，为每位工作代理分配边界明确的任务，避免编辑冲突，并在主会话中整合证据。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/effective-ai-agent-delegation.webp" length="133510" type="image/webp"/></item><item><title>AI 工作流课程设置：终端、Git 与练习实验室</title><link>https://zh.simeononsecurity.com/articles/effective-ai-course-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "软件工程"
+, "教育"</category><guid>https://zh.simeononsecurity.com/articles/effective-ai-course-setup/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+准备安全的 AI 练习环境，学习课程中的终端和 Git 术语，并运行入门实验室。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/effective-ai-course-setup.webp" length="112168" type="image/webp"/></item><item><title>AI 工作流综合实践：构建并验证 JSON 报告</title><link>https://zh.simeononsecurity.com/articles/effective-ai-capstone/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "软件工程"
+, "教育"</category><guid>https://zh.simeononsecurity.com/articles/effective-ai-capstone/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+创建一份新的 JSON 任务报告，包含项目背景、范围明确的代理请求、独立测试、来源审查，以及交给新会话的交接记录。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/effective-ai-capstone.webp" length="96772" type="image/webp"/></item><item><title>AI 任务包：更好的提示词与验收标准</title><link>https://zh.simeononsecurity.com/articles/effective-ai-task-packets/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "效率"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/effective-ai-task-packets/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+将含糊的 AI 请求整理成任务包，明确结果、来源、文件范围、检查项和停止条件。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/effective-ai-task-packets.webp" length="93042" type="image/webp"/></item><item><title>AI 上下文窗口管理：让编码代理保持专注</title><link>https://zh.simeononsecurity.com/articles/effective-ai-context-window-management/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/effective-ai-context-window-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过选择文件、精简交接记录和简短工作代理输出来控制 AI 任务的活动上下文，同时保留决定和证据。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/effective-ai-context-window-management.webp" length="78984" type="image/webp"/></item><item><title>OpenClaw 与 Hermes Agent：实践评估</title><link>https://zh.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "软件工程"
+, "生产力"</category><guid>https://zh.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过访问清单、触发条件检查、数据流记录和试点决策，评估专用型与持久运行的 AI 代理。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/effective-ai-specialized-agent-evaluation.webp" length="115550" type="image/webp"/></item><item><title>如何验证 AI 输出、来源、测试和成本</title><link>https://zh.simeononsecurity.com/articles/effective-ai-output-verification/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/effective-ai-output-verification/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过核查来源、文件范围、测试证据、隐私和用量，为 AI 结果建立验收记录。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/effective-ai-output-verification.webp" length="109102" type="image/webp"/></item><item><title>如何有效使用 AI：适合初学者的可靠工作流程</title><link>https://zh.simeononsecurity.com/articles/effective-ai-workflow-foundations/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "效率"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/effective-ai-workflow-foundations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+学习可重复的 AI 工作流程：明确任务、提供相关背景、检查证据，并在使用结果前进行验证。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/effective-ai-workflow-foundations.webp" length="98694" type="image/webp"/></item><item><title>使用编程代理完成你的第一个代码仓库任务</title><link>https://zh.simeononsecurity.com/articles/effective-ai-coding-agent-first-task/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/effective-ai-coding-agent-first-task/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+选择编程代理界面，打开示例代码仓库，检查建议的更改，并在保留更改前运行检查。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/effective-ai-coding-agent-first-task.webp" length="85038" type="image/webp"/></item><item><title>为编程代理编写 AGENTS.md 和 CLAUDE.md</title><link>https://zh.simeononsecurity.com/articles/effective-ai-agents-md-context/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/effective-ai-agents-md-context/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+编写一份简短的仓库地图，注明权威需求来源和测试命令，让编程代理从正确的上下文开始。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/effective-ai-agents-md-context.webp" length="124018" type="image/webp"/></item><item><title>有界 AI 代理循环：检查、重试与停止规则</title><link>https://zh.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "软件工程"
+, "生产力"</category><guid>https://zh.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+定义一个 AI 目标循环，包含可观察状态、检查、重试上限、停止条件，以及向人员清晰移交任务的方式。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/effective-ai-bounded-agent-loops.webp" length="94174" type="image/webp"/></item><item><title>AI 代理偏差恢复与交接工作流</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-drift-recovery-handoffs/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-drift-recovery-handoffs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+识别过时的来源和策略适配器，恢复中断的发布，并验证代理之间的独立交接。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>AI 代理治理试点：章程、权威来源与测试</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+连接 AI 工具前，先定义试点角色、权威来源、策略模板和验收测试。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>AI 来源检索：地图、搜索与可选 RAG</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+先用来源地图查找，再用原生搜索并核验当前来源。可选评估 RAG，但不要改变来源的权威性。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>AI 协作综合实践：GitHub、Confluence 与 Jira</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过以 GitHub 为先的工作流以及 Confluence/Jira 工作流交付合成数据保留期限变更，并记录失败证据和独立审查结果。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>Confluence 与 Jira AI 设置：权限与职责</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-confluence-jira-setup/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-confluence-jira-setup/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+配置 Confluence 正式依据页面和公司管理的 Jira 权限，以支持经过审查的跨团队协作。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>GitHub AI 协作：代码库与审查边界</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-github-repository/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-github-repository/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+为经过审查的 AI 贡献建立来源地图、文件所有权和受保护的发布边界。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>GitHub AI 智能体工作流：AGENTS.md、清单与 Actions</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-github-agents-actions/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-github-agents-actions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+记录上下文清单，加载智能体策略，并通过基于可信基线的 GitHub Actions 检查验证保留期限提案。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>GitHub、Confluence 与 Jira 的 AI 发布工作流</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-confluence-jira-publication/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-confluence-jira-publication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过版本检查和部分发布恢复，在 Confluence、GitHub 与 Jira 中发布固定的保留期限提案。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>非编码人员的 GitHub AI 工作流：Issues 与拉取请求</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-github-browser-workflow/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-github-browser-workflow/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+无需本地开发环境，即可使用浏览器编辑、Issues、聊天上下文包和经过审查的拉取请求。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>Visual Studio Code 与 Visual Studio 对比</title><link>https://zh.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"开发工具"
+, "集成开发环境"
+, "软件开发"
+, "编程"
+, "代码编辑器"
+, "Visual Studio"
+, "VS Code"
+, "微软开发"
+, "开发者工具"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年全面比较 Visual Studio Code 与 Visual Studio Community/Professional/Enterprise，包括功能、性能、价格和使用场景，帮助开发者选择合适的IDE。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/visual-studio-code-vs-visual-studio-comparison.webp" length="147806" type="image/webp"/></item></channel></rss>

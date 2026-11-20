@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>量化 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>量化 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E9%87%8F%E5%8C%96/</link></image><link>https://zh.simeononsecurity.com/tags/%E9%87%8F%E5%8C%96/</link><description>Recent content in 量化 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E9%87%8F%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>如何选择不受审查的本地 AI 模型</title><link>https://zh.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "自托管 AI"
+, "AI 安全"
+, "GPU 设备"</category><guid>https://zh.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+根据完整回答、能力保留、上下文占用、量化方式和 VRAM 需求比较本地模型变体。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>OpenRouter 提供商路由：模型质量、令牌限制与实际成本</title><link>https://zh.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "基础设施"
+, "开源软件"</category><guid>https://zh.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+诊断 OpenRouter 回答不一致的问题，比较端点限制与缓存成本，并配置提供商路由，避免意外关闭质量控制。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp" length="117470" type="image/webp"/></item></channel></rss>

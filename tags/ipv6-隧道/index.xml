@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IPv6 隧道 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>IPv6 隧道 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/ipv6-%E9%9A%A7%E9%81%93/</link></image><link>https://zh.simeononsecurity.com/tags/ipv6-%E9%9A%A7%E9%81%93/</link><description>Recent content in IPv6 隧道 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 18 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/ipv6-%E9%9A%A7%E9%81%93/index.xml" rel="self" type="application/rss+xml"/><item><title>IPv4 到 IPv6 的过渡机制：完整指南</title><link>https://zh.simeononsecurity.com/articles/ipv4-to-ipv6-transition-mechanisms/</link><pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate><category>
+"IPv4"
+, "IPv6"
+, "网络"
+, "过渡机制"
+, "双栈"
+, "NAT64"
+, "DNS64"
+, "IPv6 隧道"
+, "ISATAP"
+, "6to4"
+, "DS-Lite"
+, "MAP-T"
+, "IPv6 迁移"
+, "网络协议"
+, "互联网协议"
+, "网络架构"
+, "路由"
+, "子网划分"
+, "寻址"</category><guid>https://zh.simeononsecurity.com/articles/ipv4-to-ipv6-transition-mechanisms/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+本指南介绍从 IPv4 迁移到 IPv6 时使用的不同机制。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.webp" length="56020" type="image/webp"/></item></channel></rss>

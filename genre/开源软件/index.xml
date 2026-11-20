@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>开源软件 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>开源软件 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/</link></image><link>https://zh.simeononsecurity.com/genre/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/</link><description>Recent content in 开源软件 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenCode 与 Claude Code：2026 年编程代理对比</title><link>https://zh.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "开源软件"</category><guid>https://zh.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从模型选择、本地推理、价格、权限、项目说明和日常编程流程等方面比较 OpenCode 与 Claude Code。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>OpenRouter 提供商路由：模型质量、令牌限制与实际成本</title><link>https://zh.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "基础设施"
+, "开源软件"</category><guid>https://zh.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+诊断 OpenRouter 回答不一致的问题，比较端点限制与缓存成本，并配置提供商路由，避免意外关闭质量控制。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp" length="117470" type="image/webp"/></item><item><title>操作系统比较：Windows、Linux 与 macOS 的功能与安全性</title><link>https://zh.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><category>
+"操作系统"
+, "技术评测"
+, "软件比较"
+, "计算机安全"
+, "用户体验设计"
+, "系统性能"
+, "开源软件"
+, "技术指南"
+, "个人计算"
+, "IT 解决方案"</category><guid>https://zh.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+揭示哪款操作系统在安全性与易用性上领先：Windows、Linux 还是 macOS？获取您做决定所需的关键见解，帮助您在投入使用前做出明智选择。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/operating-systems_-windows-linux-and-macos-compared.webp" length="44424" type="image/webp"/></item><item><title>SyncThing 与 FreeFileSync 对比</title><link>https://zh.simeononsecurity.com/articles/syncthing-vs-freefilesync-comparison/</link><pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "软件"
+, "文件同步"
+, "数据管理"
+, "比较"
+, "软件工具"
+, "数字效率"
+, "开源软件"
+, "数据备份"
+, "隐私与安全"
+, "跨平台解决方案"</category><guid>https://zh.simeononsecurity.com/articles/syncthing-vs-freefilesync-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从隐私、平台兼容性、自动化、界面、功能和费用方面比较 SyncThing 与 FreeFileSync。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/SyncThing-vs-FreeFileSync-Symbolic-Sync.webp" length="127636" type="image/webp"/></item><item><title>使用 Homebox 提高生产力：开源库存和资产管理</title><link>https://zh.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "库存管理"
+, "资产管理"
+, "开源软件"
+, "生产效率"
+, "小型企业"
+, "家庭管理"
+, "自托管"
+, "软件"
+, "整理"</category><guid>https://zh.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Homebox 的强大功能，这是一款用于高效库存和资产管理的开源软件，可提高家庭或小型企业的生产力。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp" length="60896" type="image/webp"/></item></channel></rss>

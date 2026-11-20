@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>移动安全 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>移动安全 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E7%A7%BB%E5%8A%A8%E5%AE%89%E5%85%A8/</link></image><link>https://zh.simeononsecurity.com/genre/%E7%A7%BB%E5%8A%A8%E5%AE%89%E5%85%A8/</link><description>Recent content in 移动安全 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E7%A7%BB%E5%8A%A8%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>GrapheneOS 的 Sandboxed Google Play 详解</title><link>https://zh.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"隐私"
+, "移动安全"
+, "开源"</category><guid>https://zh.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Sandboxed Google Play 在 GrapheneOS 上带来的变化、单独配置用户资料的适用场景，以及账号、通知和应用兼容性的关系。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp"/></item><item><title>Orbic RCL400 的 DagShell 定制固件：2026 指南</title><link>https://zh.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"定制固件"
+, "移动安全"
+, "隐私工具"
+, "网络安全"
+, "巡行扫描"
+, "渗透测试"
+, "IoT 安全"
+, "安全研究"
+, "硬件安全"
+, "隐私技术"</category><guid>https://zh.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Orbic RCL400 DagShell 固件技术指南，介绍安装、隐私工具、巡行扫描和研究限制。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>保护移动设备免受恶意软件侵害</title><link>https://zh.simeononsecurity.com/articles/the-rise-of-mobile-malware_-staying-safe-on-the-go/</link><pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate><category>
+"移动恶意软件"
+, "网络安全威胁"
+, "移动安全"
+, "恶意软件的发展"
+, "网络安全防范"
+, "复杂恶意软件"
+, "移动恶意软件防护"
+, "新兴网络威胁"
+, "网络安全最佳实践"
+, "安全措施"</category><guid>https://zh.simeononsecurity.com/articles/the-rise-of-mobile-malware_-staying-safe-on-the-go/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过实用措施，保护移动设备免受木马、勒索软件、间谍软件、网络钓鱼、恶意应用、不安全网络和账户盗窃的侵害。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/the-rise-of-mobile-malware_-staying-safe-on-the-go.webp" length="59624" type="image/webp"/></item><item><title>移动设备安全：保护数据安全的有效技巧</title><link>https://zh.simeononsecurity.com/articles/secure-your-mobile-device-tips-for-keeping-your-data-safe/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络安全"
+, "移动安全"
+, "数据保护"
+, "在线安全"
+, "隐私权"
+, "网络钓鱼攻击"
+, "恶意软件"
+, "Wi-Fi 安全"
+, "密码安全"</category><guid>https://zh.simeononsecurity.com/articles/secure-your-mobile-device-tips-for-keeping-your-data-safe/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过这些有效的移动设备安全提示，了解如何保护您的移动设备和数据免受网络威胁。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/secure-your-mobile-device.webp" length="102858" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>网络威胁缓解 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>网络威胁缓解 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E7%BD%91%E7%BB%9C%E5%A8%81%E8%83%81%E7%BC%93%E8%A7%A3/</link></image><link>https://zh.simeononsecurity.com/tags/%E7%BD%91%E7%BB%9C%E5%A8%81%E8%83%81%E7%BC%93%E8%A7%A3/</link><description>Recent content in 网络威胁缓解 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 06 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E7%BD%91%E7%BB%9C%E5%A8%81%E8%83%81%E7%BC%93%E8%A7%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>掌握安全自动化：策略与工具</title><link>https://zh.simeononsecurity.com/articles/deep-dive-into-security-automation_-strategies-and-implementation/</link><pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate><category>
+"安全自动化"
+, "网络安全策略"
+, "自动化框架"
+, "安全领域的机器学习"
+, "事件响应"
+, "持续改进"
+, "开源与商业工具"
+, "网络韧性"
+, "数字威胁"
+, "安全指标"</category><guid>https://zh.simeononsecurity.com/articles/deep-dive-into-security-automation_-strategies-and-implementation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+介绍安全自动化策略、工具、指标、实施限制以及 AI 辅助工作流程。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/deep-dive-into-security-automation_-strategies-and-implementation.webp" length="257448" type="image/webp"/></item><item><title>FedRAMP：面向政府的安全云解决方案</title><link>https://zh.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</link><pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络安全"
+, "政府"
+, "云服务"
+, "合规"
+, "联邦法规"
+, "信息安全"
+, "风险管理"
+, "云计算"
+, "数据保护"</category><guid>https://zh.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+FedRAMP 加强美国政府所用云解决方案的安全性。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Secure-Cloud-Government-Shield.webp" length="63200" type="image/webp"/></item><item><title>掌握最小权限原则</title><link>https://zh.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "Linux 安全"
+, "访问控制"
+, "IT 安全"
+, "网络防护"
+, "信息保护"
+, "数据隐私"
+, "网络威胁"
+, "风险管理"
+, "安全最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过在 Linux 上实施最小权限访问控制来强化网络安全。了解实施步骤、最佳实践和问题排查方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item></channel></rss>

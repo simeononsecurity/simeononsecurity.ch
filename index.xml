@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>simeononsecurity</title><link>https://zh.simeononsecurity.com/</link></image><link>https://zh.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Home Assistant Core 2026.11 回退到 2026.10.4：修复 HTTP 存储版本 3</title><link>https://zh.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"家庭自动化"
+, "故障排查"</category><guid>https://zh.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Home Assistant Core 2026.11 在 Yellow 上回退到 2026.10.4 后，修复 HTTP 存储版本 3 错误。包含带保护措施的命令和经过验证的输出。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp" length="32856" type="image/webp"/></item><item><title>如何选择不受审查的本地 AI 模型</title><link>https://zh.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "自托管 AI"
+, "AI 安全"
+, "GPU 设备"</category><guid>https://zh.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+根据完整回答、能力保留、上下文占用、量化方式和 VRAM 需求比较本地模型变体。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Octominer X12 Ultra 电源兼容性：Chicony 与 LiteOn 实测</title><link>https://zh.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><category>
+"挖矿硬件"
+, "计算机硬件"</category><guid>https://zh.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+在五风扇、三电源的 Octominer X12 Ultra 上进行测试后发现，一台 Chicony 电源能启动设备，而测试过的 LiteOn 电源亮琥珀色灯且无法启动。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp" length="34962" type="image/webp"/></item><item><title>Proxmox VE 9：减少虚拟磁盘占用并回收空间</title><link>https://zh.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"虚拟化"
+, "Linux 管理"
+, "Proxmox VE 平台"
+, "存储"
+, "家庭实验室"</category><guid>https://zh.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+减少 Proxmox VE 9 VM 和 LXC 的存储占用。比较磁盘格式与存储后端，启用 discard，在 Windows 和 Linux 客户机中执行 trim，并在回收空间前检查快照。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Tailscale Aperture：2026 年配置 AI 客户端的推理和 MCP</title><link>https://zh.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "开发工具"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过 Tailscale Aperture 转发模型请求和 MCP 工具。为另一台设备或网关配置 Codex、Claude Code、Claude Desktop、OpenCode 和 Hermes。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>自托管 Hindsight：本地智能体记忆与私有模型路由</title><link>https://zh.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "自托管 AI"
+, "AI 智能体"
+, "AI 基础设施"
+, "隐私"</category><guid>https://zh.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过一个自托管 Hindsight 案例，介绍观察到的本地 Qwen 路由，以及在已检查路径上无需订阅托管推理服务的按请求 GPU 任务。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Chrome 156 安全更新：验证 10 月补丁</title><link>https://zh.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"浏览器"
+, "安全"
+, "补丁管理"</category><guid>https://zh.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+检查 Windows、macOS、Linux 和 Android 上 10 月 27 日发布的 Chrome 156 安全版本。对比已安装的构建版本，完成待处理的重启，并单独检查受管理设备。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp"/></item><item><title>Open WebUI v0.12.4：升级与访问控制检查清单 2026</title><link>https://zh.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"自托管 AI"
+, "网络安全"
+, "系统管理"</category><guid>https://zh.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+备份并将 Open WebUI 升级到 v0.12.4，然后测试聊天共享、导出权限、资源授权、账户和网络访问。</description></item><item><title>Thunderbird 153.6：Windows NTLM 凭据泄露与更新方法（2026）</title><link>https://zh.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "电子邮件安全"
+, "Windows 安全"</category><guid>https://zh.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+显示特制邮件时，Thunderbird 的两项严重漏洞可能泄露 Windows NTLM 身份验证数据。本文介绍两种触发路径、版本检查方法，以及更新期间限制出站 SMB 的措施。</description></item><item><title>从 Pi-hole 到本地 AI，分 10 个阶段搭建家庭实验室</title><link>https://zh.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"家庭实验室"
+, "自托管"
+, "本地 AI"
+, "家庭网络"</category><guid>https://zh.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+分十个实用阶段搭建家庭实验室，从全网 DNS 过滤到本地 AI，并介绍各阶段的硬件、成本、技能和取舍。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Hermes 本地模型基准测试：我会选择的 GPU 与模型组合</title><link>https://zh.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "本地 AI"
+, "硬件"</category><guid>https://zh.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+我对 Hermes 模型的建议来自在 RTX 5060 Ti、RTX 2000E Ada、RTX 3060 Ti 和 RTX 3070 系统上进行的长上下文、工具、流式输出和视觉测试。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>深入了解我们的混合式智能体 AI 集群：Hermes、LiteLLM 与 Tailscale</title><link>https://zh.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "自托管 AI"
+, "AI 智能体"
+, "AI 基础设施"
+, "GPU 挖矿"</category><guid>https://zh.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解经过验证的按需加载本地 AI 集群，以及使用 Hermes、LiteLLM、Tailscale Aperture 和 Pearl 挖矿的 T0 至 T4 控制平面。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>1Password SSH Agent 和 CLI：只读 AI 代理访问</title><link>https://zh.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"系统管理"
+, "云安全"
+, "自动化"</category><guid>https://zh.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用 1Password CLI、SSH Agent 和 MCP 设计只读 SSH 工作流。使用合成命令、窄权限，并在实时测试前进行人工审批。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Bitbucket Cloud SSH 密钥：面向 AI 代理的只读 Git 访问</title><link>https://zh.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"云安全"
+, "开发工具"
+, "系统管理"</category><guid>https://zh.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+为 AI 代理的只读工作流配置 Bitbucket Cloud SSH 密钥、Git CLI 访问、REST API 令牌、1Password 和 MCP 工具。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>Proxmox VM 恢复演练：验证来宾系统能够正常运行</title><link>https://zh.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"虚拟化"
+, "备份与恢复"
+, "家庭实验室"</category><guid>https://zh.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过隔离恢复测试 Proxmox VM 备份。无需触碰生产环境，即可检查磁盘覆盖范围、备份模式、来宾数据、服务状态和恢复时间。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>测试 Mesh Wi-Fi 网络中的访客与 IoT 隔离</title><link>https://zh.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"家庭网络"
+, "Wi-Fi 安全"
+, "智能家居"</category><guid>https://zh.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+检查 Mesh Wi-Fi 的访客网络和 IoT 网络是否阻止访问家中设备。使用一个正常运行的服务测试每个网络，并记录隔离边界。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp" length="102600" type="image/webp"/></item><item><title>将 Hyper-V 虚拟机迁移到 Proxmox VE：可回退检查清单</title><link>https://zh.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"虚拟化"
+, "系统管理"
+, "家庭实验室"</category><guid>https://zh.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过停机源导出、匹配固件、导入磁盘、隔离启动测试和回滚方案，将一台 Hyper-V 虚拟机迁移到 Proxmox VE。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>使用 VPN 检查浏览器的 DNS 和 WebRTC 泄漏</title><link>https://zh.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"隐私"
+, "浏览器"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+连接 VPN 前后检查浏览器的公网 IP、DNS 解析器和 WebRTC 地址。解读结果并排查路由问题。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>为什么 DNS 过滤会被绕过：检查解析器路径</title><link>https://zh.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"家庭网络"
+, "DNS"
+, "隐私"</category><guid>https://zh.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+查明设备或浏览器绕过 DNS 过滤的原因。比较直接查询和默认查询，检查日志，再核对加密 DNS、VPN、IPv6 和路由器设置。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>2026 年 AI 基础设施热潮：需求、债务、电力与证据</title><link>https://zh.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "AI 经济学"
+, "数据中心"
+, "云基础设施"
+, "网络安全"</category><guid>https://zh.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对 AI 基础设施支出、数据中心电力需求、融资结构、企业价值，以及在称市场为泡沫前所需证据的事实核查。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>2x RTX 5060 Ti 对比 GB10：256K 上下文下五款模型的本地 AI 基准测试</title><link>https://zh.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "本地 AI"
+, "GPU 硬件"
+, "基准测试"
+, "计算机硬件"</category><guid>https://zh.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对比 RTX 5060 Ti 与 GB10 上的五款模型，并展示同一主机上 Qwen3.8 Flash-Next Strata 运行至 256K 上下文的基准测试。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>AI 代理委派：分配工作并审查结果</title><link>https://zh.simeononsecurity.com/articles/effective-ai-agent-delegation/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/effective-ai-agent-delegation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+判断何时需要第二个 AI 代理，为每位工作代理分配边界明确的任务，避免编辑冲突，并在主会话中整合证据。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/effective-ai-agent-delegation.webp" length="133510" type="image/webp"/></item><item><title>AI 工作流课程设置：终端、Git 与练习实验室</title><link>https://zh.simeononsecurity.com/articles/effective-ai-course-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "软件工程"
+, "教育"</category><guid>https://zh.simeononsecurity.com/articles/effective-ai-course-setup/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+准备安全的 AI 练习环境，学习课程中的终端和 Git 术语，并运行入门实验室。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/effective-ai-course-setup.webp" length="112168" type="image/webp"/></item><item><title>AI 工作流综合实践：构建并验证 JSON 报告</title><link>https://zh.simeononsecurity.com/articles/effective-ai-capstone/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "软件工程"
+, "教育"</category><guid>https://zh.simeononsecurity.com/articles/effective-ai-capstone/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+创建一份新的 JSON 任务报告，包含项目背景、范围明确的代理请求、独立测试、来源审查，以及交给新会话的交接记录。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/effective-ai-capstone.webp" length="96772" type="image/webp"/></item><item><title>AI 任务包：更好的提示词与验收标准</title><link>https://zh.simeononsecurity.com/articles/effective-ai-task-packets/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "效率"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/effective-ai-task-packets/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+将含糊的 AI 请求整理成任务包，明确结果、来源、文件范围、检查项和停止条件。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/effective-ai-task-packets.webp" length="93042" type="image/webp"/></item></channel></rss>

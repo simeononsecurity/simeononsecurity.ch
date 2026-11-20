@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows 注册表编辑器 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>Windows 注册表编辑器 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/windows-%E6%B3%A8%E5%86%8C%E8%A1%A8%E7%BC%96%E8%BE%91%E5%99%A8/</link></image><link>https://zh.simeononsecurity.com/tags/windows-%E6%B3%A8%E5%86%8C%E8%A1%A8%E7%BC%96%E8%BE%91%E5%99%A8/</link><description>Recent content in Windows 注册表编辑器 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/windows-%E6%B3%A8%E5%86%8C%E8%A1%A8%E7%BC%96%E8%BE%91%E5%99%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>禁用 SSL 和 TLS 1.1 及更早版本以加固计算机安全</title><link>https://zh.simeononsecurity.com/articles/hardening-tls-and-ssl/</link><pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate><category>
+"加固计算机安全"
+, "禁用 SSL 和 TLS"
+, "数据安全"
+, "POODLE"
+, "BEAST"
+, "Heartbleed"
+, "Windows 注册表编辑器"
+, "Linux OpenSSL 配置"
+, "Apache"
+, "Nginx"</category><guid>https://zh.simeononsecurity.com/articles/hardening-tls-and-ssl/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+停用 SSL 和旧版 TLS，同时保留 TLS 1.2 或更新版本。本文介绍 Windows Schannel、.NET 和 Linux 服务。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp" length="106014" type="image/webp"/></item></channel></rss>

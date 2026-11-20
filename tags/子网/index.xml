@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>子网 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>子网 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%AD%90%E7%BD%91/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%AD%90%E7%BD%91/</link><description>Recent content in 子网 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%AD%90%E7%BD%91/index.xml" rel="self" type="application/rss+xml"/><item><title>规划并测试 homelab 的 VLAN 分段</title><link>https://zh.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "网络安全"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+为 homelab 制定 VLAN 方案，将可信设备、服务器、IoT 和访客分隔开。记录允许的流量，分阶段配置网络，并测试隔离效果。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>网络基础：子网、子网划分与 VLAN 设计</title><link>https://zh.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</link><pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate><category>
+"网络基础"
+, "子网划分"
+, "VLAN"
+, "网络管理"
+, "网络安全"
+, "IP 编址"
+, "网络分段"
+, "资源高效利用"
+, "网络性能"
+, "IPv4"</category><guid>https://zh.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解子网、子网划分和 VLAN 的基础知识，以便高效管理网络并增强安全性。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_comp.webp" length="200202" type="image/webp"/></item><item><title>网络基础：交换机、路由器、防火墙与 DMZ</title><link>https://zh.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"网络"
+, "IT 基础设施"
+, "网络安全"
+, "网络架构"
+, "网络防护"
+, "数据通信"
+, "信息技术"
+, "IT 基础"
+, "网络管理"
+, "互联网连接"</category><guid>https://zh.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解交换机、路由器、网关、子网、防火墙和 DMZ 如何划分网络流量并建立安全边界。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item></channel></rss>

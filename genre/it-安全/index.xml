@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT 安全 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>IT 安全 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/it-%E5%AE%89%E5%85%A8/</link></image><link>https://zh.simeononsecurity.com/genre/it-%E5%AE%89%E5%85%A8/</link><description>Recent content in IT 安全 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 21 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/it-%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>事件响应规划：分步指南</title><link>https://zh.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "事件响应"
+, "企业安全"
+, "网络威胁"
+, "风险管理"
+, "安全规划"
+, "数据保护"
+, "IT 安全"
+, "数字韧性"
+, "危机管理"</category><guid>https://zh.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+制定事件响应计划，明确职责、沟通渠道、操作手册、工具、演练、指标和持续更新流程。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.webp" length="96088" type="image/webp"/></item><item><title>Windows 注册表与 Linux 配置文件对比</title><link>https://zh.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link><pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "操作系统"
+, "安全管理"
+, "计算机技术"
+, "数据保护"
+, "系统配置"
+, "IT 安全"
+, "网络安全"
+, "技术比较"
+, "信息安全"</category><guid>https://zh.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较 Windows 注册表与 Linux 配置文件的安全特性，并了解强化这两类系统的实用措施。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp"/></item><item><title>强化防御：了解 EDR 网络安全解决方案</title><link>https://zh.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "技术"
+, "威胁检测"
+, "终端安全"
+, "事件响应"
+, "数据保护"
+, "网络防护"
+, "数字防御"
+, "IT 安全"
+, "网络韧性"</category><guid>https://zh.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 EDR 解决方案如何保护终端、检测威胁，并帮助组织选择合适的方案。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp"/></item><item><title>掌握 EDR 安全：端点保护指南</title><link>https://zh.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "端点保护"
+, "EDR 解决方案"
+, "威胁检测"
+, "事件响应"
+, "端点安全"
+, "网络威胁"
+, "IT 安全"
+, "数字防御"
+, "安全策略"</category><guid>https://zh.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 EDR 安全的工作原理、优势和实施挑战，以及保护端点的最佳做法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp"/></item><item><title>增强网络安全</title><link>https://zh.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "Windows 组策略"
+, "缩小攻击面"
+, "IT 安全"
+, "网络防护"
+, "数据保护"
+, "数字韧性"
+, "系统加固"
+, "安全最佳实践"
+, "风险缓解"</category><guid>https://zh.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何通过 Windows 组策略设置缩小攻击面并增强防护。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Cybersecurity_Shield_Defense.webp" length="129592" type="image/webp"/></item><item><title>掌握最小权限原则</title><link>https://zh.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "Linux 安全"
+, "访问控制"
+, "IT 安全"
+, "网络防护"
+, "信息保护"
+, "数据隐私"
+, "网络威胁"
+, "风险管理"
+, "安全最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过在 Linux 上实施最小权限访问控制来强化网络安全。了解实施步骤、最佳实践和问题排查方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>掌握 Windows Server 安全</title><link>https://zh.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "IT 安全"
+, "服务器管理"
+, "网络安全"
+, "网络防护"
+, "数据完整性"
+, "IT 基础设施"
+, "最佳实践"
+, "服务器加固"
+, "Windows Server"</category><guid>https://zh.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何保护 Windows Server，从基础加固到高级防护技术，维护基础设施安全。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Windows_Server_Security_Shield_Protection.webp" length="101056" type="image/webp"/></item></channel></rss>

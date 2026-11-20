@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ollama on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>Ollama on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/ollama/</link></image><link>https://zh.simeononsecurity.com/tags/ollama/</link><description>Recent content in Ollama on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/ollama/index.xml" rel="self" type="application/rss+xml"/><item><title>如何选择不受审查的本地 AI 模型</title><link>https://zh.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "自托管 AI"
+, "AI 安全"
+, "GPU 设备"</category><guid>https://zh.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+根据完整回答、能力保留、上下文占用、量化方式和 VRAM 需求比较本地模型变体。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>从 Pi-hole 到本地 AI，分 10 个阶段搭建家庭实验室</title><link>https://zh.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"家庭实验室"
+, "自托管"
+, "本地 AI"
+, "家庭网络"</category><guid>https://zh.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+分十个实用阶段搭建家庭实验室，从全网 DNS 过滤到本地 AI，并介绍各阶段的硬件、成本、技能和取舍。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Hermes 本地模型基准测试：我会选择的 GPU 与模型组合</title><link>https://zh.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "本地 AI"
+, "硬件"</category><guid>https://zh.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+我对 Hermes 模型的建议来自在 RTX 5060 Ti、RTX 2000E Ada、RTX 3060 Ti 和 RTX 3070 系统上进行的长上下文、工具、流式输出和视觉测试。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>深入了解我们的混合式智能体 AI 集群：Hermes、LiteLLM 与 Tailscale</title><link>https://zh.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "自托管 AI"
+, "AI 智能体"
+, "AI 基础设施"
+, "GPU 挖矿"</category><guid>https://zh.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解经过验证的按需加载本地 AI 集群，以及使用 Hermes、LiteLLM、Tailscale Aperture 和 Pearl 挖矿的 T0 至 T4 控制平面。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>OpenCode 与 Claude Code：2026 年编程代理对比</title><link>https://zh.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "开源软件"</category><guid>https://zh.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从模型选择、本地推理、价格、权限、项目说明和日常编程流程等方面比较 OpenCode 与 Claude Code。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>2026 年本地 AI：27B 模型超越 Sonnet 4.6，硬件购买窗口正在关闭</title><link>https://zh.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "自托管 AI"
+, "开源模型"
+, "AI 硬件"
+, "机器学习"
+, "量化"
+, "家庭实验室"
+, "隐私"
+, "AI 经济"
+, "消费级硬件"</category><guid>https://zh.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+根据模型大小、VRAM、内存带宽、功耗、成本和升级选项规划 2026 年本地 AI 主机。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>哪些 AI 模型能在 Raspberry Pi 4 或 5 上运行？</title><link>https://zh.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "人工智能"
+, "自托管"</category><guid>https://zh.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+根据 Raspberry Pi 4 和 5 的实测结果，按内存、速度和工作负载选择本地语言模型，从小型 LFM2.5 到 3B 及更大模型。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item><item><title>为 Meshtastic 构建保护隐私的 AI 助手</title><link>https://zh.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "隐私"
+, "开源"
+, "自动化"</category><guid>https://zh.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+介绍为 Meshtastic 构建本地 AI 助手的实践经验，涵盖私密配置、排队处理的 TCP 访问、信息检索工具和更安全的仪表板。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item></channel></rss>

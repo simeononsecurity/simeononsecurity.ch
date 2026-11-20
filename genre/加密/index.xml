@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>加密 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>加密 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E5%8A%A0%E5%AF%86/</link></image><link>https://zh.simeononsecurity.com/genre/%E5%8A%A0%E5%AF%86/</link><description>Recent content in 加密 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E5%8A%A0%E5%AF%86/index.xml" rel="self" type="application/rss+xml"/><item><title>现场部署连接与边缘节点数据安全</title><link>https://zh.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"边缘计算"
+, "现场 IT"
+, "网络安全"
+, "VPN"
+, "加密"
+, "物理安全"
+, "灾难恢复"</category><guid>https://zh.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+介绍如何通过蜂窝、卫星、LoRa、VPN、MFA、网络分段、日志、加密和失窃响应，连接并保护现场边缘计算节点。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item><item><title>安全电子邮件服务：使用 StartMail 增强隐私保护</title><link>https://zh.simeononsecurity.com/articles/secure-email-service-startmail/</link><pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "隐私权"
+, "电子邮件服务"
+, "在线安全"
+, "数字隐私"
+, "加密"
+, "数据保护"
+, "电子邮件隐私"
+, "身份保护"
+, "在线隐私"</category><guid>https://zh.simeononsecurity.com/articles/secure-email-service-startmail/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 StartMail，这是一种安全的电子邮件服务，具有先进的加密和电子邮件屏蔽功能，可确保最大限度地保护隐私和免受网络威胁。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/secure_email_guard.webp" length="45872" type="image/webp"/></item><item><title>使用 vTPM 提高虚拟机安全性：分步指南</title><link>https://zh.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "虚拟化"
+, "虚拟软件"
+, "vSphere"
+, "安全"
+, "可信平台模块"
+, "vTPM"
+, "访客操作系统"
+, "加密"
+, "平台认证"</category><guid>https://zh.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过我们全面的分步指南，使用 vTPM 增强虚拟机安全性，提供平台验证和 BitLocker 加密支持。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/enhanced-vm-security.webp" length="99734" type="image/webp"/></item><item><title>安全电子邮件对决：StartMail、ProtonMail 与 Tutanota</title><link>https://zh.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</link><pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络安全"
+, "数据隐私"
+, "电子邮件服务"
+, "在线安全"
+, "加密"
+, "互联网工具"
+, "比较"
+, "数字防护"
+, "在线隐私"</category><guid>https://zh.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解适合您的安全电子邮件服务！本文详细比较 StartMail、ProtonMail 与 Tutanota，帮助您保护在线隐私。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/secure-email-showdown.webp" length="84184" type="image/webp"/></item><item><title>AWS、Azure 与 Google Cloud：2026 年完整对比</title><link>https://zh.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"云计算"
+, "云安全"
+, "AWS"
+, "天蓝色"
+, "谷歌云计算平台"
+, "数据安全"
+, "加密"
+, "身份和访问管理"
+, "合规性"
+, "威胁检测"</category><guid>https://zh.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 AWS、Azure 和 Google Cloud Platform 的顶级云安全功能和认证，为您的企业选择最佳的安全云解决方案。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.webp" length="89242" type="image/webp"/></item><item><title>2026年最佳密码管理器：Bitwarden 与 KeePassXC 对比</title><link>https://zh.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络安全"
+, "密码管理"
+, "在线安全"
+, "数据保护"
+, "加密"
+, "数字隐私"
+, "互联网工具"
+, "云存储"
+, "软件比较"</category><guid>https://zh.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年密码管理器比较，涵盖 Bitwarden、KeePassXC、1Password、LastPass、Dashlane 和 Proton Pass。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/bitwarden-and-keepassxc-vs-the-rest.webp" length="241120" type="image/webp"/></item></channel></rss>

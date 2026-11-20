@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>云计算 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>云计算 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E4%BA%91%E8%AE%A1%E7%AE%97/</link></image><link>https://zh.simeononsecurity.com/genre/%E4%BA%91%E8%AE%A1%E7%AE%97/</link><description>Recent content in 云计算 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E4%BA%91%E8%AE%A1%E7%AE%97/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansible 与 Puppet 与 Chef 2026：配置管理</title><link>https://zh.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "基础设施自动化"
+, "配置管理"
+, "IT 运维"
+, "云计算"
+, "系统管理"
+, "企业 IT"
+, "软件开发"
+, "IT 基础设施"
+, "自动化工具"</category><guid>https://zh.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026 年 Ansible、Puppet 和 Chef 对比，涵盖架构、功能、学习曲线、性能、价格和使用场景。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>虚拟化：提升 IT 效率与扩展能力</title><link>https://zh.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</link><pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate><category>
+"虚拟化指南"
+, "IT 基础设施"
+, "技术创新"
+, "云计算"
+, "数据中心管理"
+, "计算效率"
+, "网络解决方案"
+, "网络安全"
+, "软件进展"
+, "硬件优化"</category><guid>https://zh.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解虚拟化如何改善 IT 性能，并掌握其类型、优势以及基础设施管理的实用方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/understanding-virtualization_-concepts-and-applications.webp" length="103918" type="image/webp"/></item><item><title>最佳数据存储方案：HDD、SSD 与云存储详解</title><link>https://zh.simeononsecurity.com/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</link><pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate><category>
+"数据存储"
+, "技术"
+, "数字解决方案"
+, "HDD 指南"
+, "SSD 解析"
+, "云计算"
+, "IT 管理"
+, "硬件评测"
+, "软件技巧"
+, "个人计算"</category><guid>https://zh.simeononsecurity.com/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何在 HDD、SSD 与云存储之间做出选择。哪种方案适合你？</description><enclosure url="https://zh.simeononsecurity.com/img/cover/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options.webp" length="118244" type="image/webp"/></item><item><title>VMware vs Hyper-V vs Proxmox：虚拟化对比</title><link>https://zh.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link><pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "虚拟化"
+, "IT 基础设施"
+, "服务器虚拟化"
+, "企业软件"
+, "云计算"
+, "数据中心解决方案"
+, "开源虚拟化"
+, "虚拟机管理"
+, "虚拟化对比"</category><guid>https://zh.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+轻松比较 VMware ESXi、Citrix XenServer、Hyper-V、Proxmox VE 和 XCP-NG，选择理想的虚拟化解决方案，实现业务成功。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp"/></item><item><title>FedRAMP：面向政府的安全云解决方案</title><link>https://zh.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</link><pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络安全"
+, "政府"
+, "云服务"
+, "合规"
+, "联邦法规"
+, "信息安全"
+, "风险管理"
+, "云计算"
+, "数据保护"</category><guid>https://zh.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+FedRAMP 加强美国政府所用云解决方案的安全性。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Secure-Cloud-Government-Shield.webp" length="63200" type="image/webp"/></item><item><title>通过 Azure for Students 发挥你的潜力</title><link>https://zh.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "云计算"
+, "学生资源"
+, "软件开发"
+, "Microsoft Azure"
+, "Windows Server"
+, "Windows 10"
+, "Windows 11"
+, "Visual Studio"
+, "学习工具"</category><guid>https://zh.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Microsoft Azure for Students 的资格要求、包含的软件、账户限制以及开始使用的实用步骤。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/azure_for_students_animated_cloud.webp" length="73614" type="image/webp"/></item><item><title>掌握用于 vSphere 管理的 PowerCLI</title><link>https://zh.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "虚拟化"
+, "VMware"
+, "IT 管理"
+, "自动化"
+, "命令行界面"
+, "脚本编写"
+, "系统管理"
+, "云计算"
+, "数据中心管理"</category><guid>https://zh.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何使用 PowerCLI 管理 VMware vSphere、自动执行任务并提高效率。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>面向网络安全和 IT 专业人员的免费 Oracle 认证</title><link>https://zh.simeononsecurity.com/articles/free-oracle-certifications-cybersecurity-it-professionals/</link><pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "IT 认证"
+, "职业发展"
+, "Oracle 认证"
+, "云计算"
+, "数据管理"
+, "职业晋升"
+, "在线学习"
+, "技术教育"</category><guid>https://zh.simeononsecurity.com/articles/free-oracle-certifications-cybersecurity-it-professionals/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解面向网络安全和 IT 岗位的免费 Oracle 认证，涵盖 OCI 主题、先修要求和职业发展方向。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_animated_image_featuring_a_professional_cyb.webp" length="87826" type="image/webp"/></item><item><title>Network Plus 课程：探索网络服务、连接选项和架构</title><link>https://zh.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "联网"
+, "连接性"
+, "数据交换"
+, "网络架构"
+, "云计算"
+, "网络服务"
+, "DNS"
+, "DHCP"
+, "NTP"</category><guid>https://zh.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+探索 DHCP、DNS 和 NTP 服务的功能，了解企业和数据中心网络架构，探索云概念和连接选项，以实现无缝通信和数据管理。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_various_networks.webp" length="250792" type="image/webp"/></item><item><title>AWS、Azure 与 Google Cloud：2026 年完整对比</title><link>https://zh.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"云计算"
+, "云安全"
+, "AWS"
+, "天蓝色"
+, "谷歌云计算平台"
+, "数据安全"
+, "加密"
+, "身份和访问管理"
+, "合规性"
+, "威胁检测"</category><guid>https://zh.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 AWS、Azure 和 Google Cloud Platform 的顶级云安全功能和认证，为您的企业选择最佳的安全云解决方案。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.webp" length="89242" type="image/webp"/></item><item><title>高效信息系统经理的关键技能</title><link>https://zh.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</link><pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "商业"
+, "管理"
+, "信息技术"
+, "职业发展"
+, "数字化转型"
+, "数据分析"
+, "云计算"
+, "项目管理"
+, "领导力"</category><guid>https://zh.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解每位信息系统经理在当今商业环境中取得成功所需的五项关键技能。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.webp" length="179058" type="image/webp"/></item></channel></rss>

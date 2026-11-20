@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>硬件指南 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>硬件指南 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E7%A1%AC%E4%BB%B6%E6%8C%87%E5%8D%97/</link></image><link>https://zh.simeononsecurity.com/genre/%E7%A1%AC%E4%BB%B6%E6%8C%87%E5%8D%97/</link><description>Recent content in 硬件指南 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E7%A1%AC%E4%BB%B6%E6%8C%87%E5%8D%97/index.xml" rel="self" type="application/rss+xml"/><item><title>ECC 内存：预防数据损坏和内存错误</title><link>https://zh.simeononsecurity.com/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/</link><pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate><category>
+"技术教育"
+, "数据安全"
+, "硬件指南"
+, "系统可靠性"
+, "IT 维护"
+, "技术解决方案"
+, "企业计算"
+, "服务器技术"
+, "组件分析"
+, "技术研究"</category><guid>https://zh.simeononsecurity.com/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 ECC 内存如何检测并纠正错误，以及它如何保护服务器、工作站和嵌入式系统中的数据并提升可靠性。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/the-role-of-ecc-memory-in-mitigating-data-corruption.webp" length="137916" type="image/webp"/></item><item><title>主板电池：CMOS、BIOS 与电脑计时</title><link>https://zh.simeononsecurity.com/articles/the-little-battery-on-the-motherboard_-why-its-crucial-for-your-pc/</link><pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate><category>
+"电脑组件"
+, "电脑维护"
+, "硬件指南"
+, "技术指南"
+, "电脑维修"
+, "DIY 技术支持"
+, "主板"
+, "BIOS 配置"
+, "电脑组装基础"
+, "电子设备故障排除"</category><guid>https://zh.simeononsecurity.com/articles/the-little-battery-on-the-motherboard_-why-its-crucial-for-your-pc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解主板电池在 CMOS 供电、保存 BIOS 设置、维持时间、系统启动和硬件检测方面的作用。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/the-little-battery-on-the-motherboard_-why-its-crucial-for-your-pc.webp" length="68448" type="image/webp"/></item><item><title>解决常见打印机问题</title><link>https://zh.simeononsecurity.com/articles/printers-demystified_-how-to-solve-the-most-common-printing-issues/</link><pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate><category>
+"打印机故障排除"
+, "办公设备"
+, "家庭办公支持"
+, "技术解决方案"
+, "DIY打印机维修"
+, "硬件指南"
+, "改善打印质量"
+, "文档管理"
+, "墨水与碳粉技巧"
+, "技术支持"</category><guid>https://zh.simeononsecurity.com/articles/printers-demystified_-how-to-solve-the-most-common-printing-issues/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何处理卡纸、打印质量和连接等问题，按照实用步骤恢复稳定打印。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/printers-demystified_-how-to-solve-the-most-common-printing-issues.webp" length="87032" type="image/webp"/></item></channel></rss>

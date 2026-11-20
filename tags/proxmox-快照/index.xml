@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Proxmox 快照 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>Proxmox 快照 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/proxmox-%E5%BF%AB%E7%85%A7/</link></image><link>https://zh.simeononsecurity.com/tags/proxmox-%E5%BF%AB%E7%85%A7/</link><description>Recent content in Proxmox 快照 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/proxmox-%E5%BF%AB%E7%85%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9：减少虚拟磁盘占用并回收空间</title><link>https://zh.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"虚拟化"
+, "Linux 管理"
+, "Proxmox VE 平台"
+, "存储"
+, "家庭实验室"</category><guid>https://zh.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+减少 Proxmox VE 9 VM 和 LXC 的存储占用。比较磁盘格式与存储后端，启用 discard，在 Windows 和 Linux 客户机中执行 trim，并在回收空间前检查快照。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item></channel></rss>

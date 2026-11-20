@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>隐私 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>隐私 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E9%9A%90%E7%A7%81/</link></image><link>https://zh.simeononsecurity.com/genre/%E9%9A%90%E7%A7%81/</link><description>Recent content in 隐私 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E9%9A%90%E7%A7%81/index.xml" rel="self" type="application/rss+xml"/><item><title>自托管 Hindsight：本地智能体记忆与私有模型路由</title><link>https://zh.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "自托管 AI"
+, "AI 智能体"
+, "AI 基础设施"
+, "隐私"</category><guid>https://zh.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过一个自托管 Hindsight 案例，介绍观察到的本地 Qwen 路由，以及在已检查路径上无需订阅托管推理服务的按请求 GPU 任务。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>使用 VPN 检查浏览器的 DNS 和 WebRTC 泄漏</title><link>https://zh.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"隐私"
+, "浏览器"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+连接 VPN 前后检查浏览器的公网 IP、DNS 解析器和 WebRTC 地址。解读结果并排查路由问题。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>为什么 DNS 过滤会被绕过：检查解析器路径</title><link>https://zh.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"家庭网络"
+, "DNS"
+, "隐私"</category><guid>https://zh.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+查明设备或浏览器绕过 DNS 过滤的原因。比较直接查询和默认查询，检查日志，再核对加密 DNS、VPN、IPv6 和路由器设置。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>本地 AI 隐私边界：哪些内容留在你的电脑上，哪些不会</title><link>https://zh.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "隐私"
+, "自托管 AI"
+, "网络安全"
+, "AI 经济学"</category><guid>https://zh.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+在选择本地推理或托管 AI 服务前，追踪提示词、模型文件、工具、日志、网络暴露面和电力成本。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>2026个人安全清单：从哪里开始，哪些可以跳过</title><link>https://zh.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><category>
+"个人安全"
+, "隐私"
+, "数字安全习惯"
+, "账户安全"
+, "威胁建模"
+, "消费者安全"
+, "密码管理"
+, "数据保护"</category><guid>https://zh.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+按防御效果安排个人安全措施，从账户保护和备份到隐私与账户恢复。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/personal-security-checklist-2026-tiered-structure.webp" length="98938" type="image/webp"/></item><item><title>2026 年本地 AI：27B 模型超越 Sonnet 4.6，硬件购买窗口正在关闭</title><link>https://zh.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "自托管 AI"
+, "开源模型"
+, "AI 硬件"
+, "机器学习"
+, "量化"
+, "家庭实验室"
+, "隐私"
+, "AI 经济"
+, "消费级硬件"</category><guid>https://zh.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+根据模型大小、VRAM、内存带宽、功耗、成本和升级选项规划 2026 年本地 AI 主机。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>使用本地模型运行 Claude Cowork 和 Claude Code：2026 设置指南</title><link>https://zh.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "AI 编程工具"
+, "自托管 AI"
+, "开发者工具"
+, "隐私"
+, "开源模型"
+, "自动化"
+, "AI 硬件"</category><guid>https://zh.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过兼容 Anthropic 的 API 配置 Ollama 与 Claude Desktop、Claude Code。了解 2026 年的模型选择和云端专属功能。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>为 Meshtastic 构建保护隐私的 AI 助手</title><link>https://zh.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "隐私"
+, "开源"
+, "自动化"</category><guid>https://zh.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+介绍为 Meshtastic 构建本地 AI 助手的实践经验，涵盖私密配置、排队处理的 TCP 访问、信息检索工具和更安全的仪表板。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>GrapheneOS 的 Sandboxed Google Play 详解</title><link>https://zh.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"隐私"
+, "移动安全"
+, "开源"</category><guid>https://zh.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Sandboxed Google Play 在 GrapheneOS 上带来的变化、单独配置用户资料的适用场景，以及账号、通知和应用兼容性的关系。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp"/></item><item><title>Meshtastic、MeshCore 与 Reticulum 对比</title><link>https://zh.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "网状网络"
+, "离网通信"
+, "应急通信"
+, "业余无线电"
+, "开源"
+, "灾害准备"
+, "无线网络"
+, "隐私"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从路由、空中占用时间、基础设施、传输方式和离网用途比较 Meshtastic、MeshCore 与 Reticulum。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Flock摄像头：公共安全工具还是无证监控机器？</title><link>https://zh.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"隐私"
+, "监控"
+, "公民自由"
+, "执法技术"
+, "数字权利"</category><guid>https://zh.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对Flock Safety ALPR摄像头的独立分析：它们的实际工作原理、除车牌之外收集的数据、数据共享如何创建隐蔽的全国数据库，以及为何搜查令问题才是真正的核心问题。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-safety-cameras-public-safety-surveillance.webp" length="257030" type="image/webp"/></item><item><title>MeshCore 与 Meshtastic 对比</title><link>https://zh.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "网状网络"
+, "离网通信"
+, "应急通信"
+, "战术通信"
+, "业余无线电"
+, "开源"
+, "灾害准备"
+, "无线网络"
+, "隐私"</category><guid>https://zh.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从路由、覆盖范围、发射时间、基础设施、设备支持和部署场景比较 MeshCore 与 Meshtastic。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/meshcore-vs-meshtastic-comparison-guide.webp" length="173676" type="image/webp"/></item><item><title>网络安全术语通俗解读</title><link>https://zh.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</link><pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "技术"
+, "数字安全"
+, "在线威胁"
+, "互联网安全"
+, "数据保护"
+, "隐私"
+, "在线防护"
+, "信息技术安全"
+, "网络威胁"</category><guid>https://zh.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+清晰介绍网络安全术语、威胁、技术和隐私法规。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/cybersecurity-jargon-illustration.webp" length="150724" type="image/webp"/></item><item><title>Mullvad 与 ProtonVPN：哪款 VPN 适合你？</title><link>https://zh.simeononsecurity.com/articles/mullvad-vs-protonvpn/</link><pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "安全"
+, "隐私"
+, "VPN 对比"
+, "在线匿名"
+, "数字安全"
+, "互联网安全"
+, "网络安全"
+, "数据保护"
+, "VPN 服务"</category><guid>https://zh.simeononsecurity.com/articles/mullvad-vs-protonvpn/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从安全、隐私、性能和易用性方面比较 Mullvad VPN 与 ProtonVPN，帮助你选择合适的服务。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/mullvad-protonvpn-security-race.webp" length="148320" type="image/webp"/></item><item><title>保护易受侵害群体</title><link>https://zh.simeononsecurity.com/articles/securing-vulnerable-groups-cyber-threats-protection-strategies/</link><pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "隐私"
+, "数字安全"
+, "在线威胁"
+, "数据保护"
+, "技术"
+, "数字权利"
+, "信息安全"
+, "网络间谍"
+, "在线隐私"</category><guid>https://zh.simeononsecurity.com/articles/securing-vulnerable-groups-cyber-threats-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解外国势力发动的网络攻击如何影响易受侵害群体，以及哪些有效策略能够保护他们。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/securing_vulnerable_groups_cyber_threats.webp" length="98410" type="image/webp"/></item><item><title>LibreWolf 与 Firefox 对比</title><link>https://zh.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "隐私"
+, "网页浏览器"
+, "网络安全"
+, "开源"
+, "数字隐私"
+, "软件"
+, "对比"
+, "网络安全"
+, "互联网隐私"</category><guid>https://zh.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+探索 LibreWolf 和 Firefox 两款注重隐私的浏览器的功能，帮助您做出明智选择，提升在线安全与隐私保护。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp"/></item><item><title>用于访问控制的生物识别安全技术</title><link>https://zh.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</link><pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "安全"
+, "生物识别"
+, "访问控制"
+, "指纹扫描仪"
+, "人脸识别"
+, "Amazon 产品"
+, "数字安全"
+, "创新"
+, "隐私"</category><guid>https://zh.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Amazon 上提供的指纹扫描仪和人脸识别设备，借助先进的生物识别技术加强访问控制并提升安全感。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/biometric-access-control-fingerprint-facial-recognition-devices-amazon.webp" length="183044" type="image/webp"/></item><item><title>安全的智能家居中枢</title><link>https://zh.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</link><pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "家庭安全"
+, "智能家居"
+, "家庭自动化"
+, "隐私"
+, "物联网"
+, "数字安全"
+, "联网设备"
+, "家居改善"
+, "消费电子产品"</category><guid>https://zh.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解安全的智能家居中枢，打造安全又便捷的家庭自动化体验。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/secure-smart-home-hubs.webp" length="49576" type="image/webp"/></item><item><title>移动安全终极指南</title><link>https://zh.simeononsecurity.com/articles/ultimate-guide-mobile-security-laptop-privacy-webcam-covers/</link><pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络安全"
+, "隐私"
+, "远程办公"
+, "移动计算"
+, "数字安全"
+, "效率"
+, "在线隐私"
+, "数据保护"
+, "科技配件"</category><guid>https://zh.simeononsecurity.com/articles/ultimate-guide-mobile-security-laptop-privacy-webcam-covers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用笔记本电脑防窥屏、摄像头盖和便携式加密设备保护移动办公，安全高效地工作。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/mobile-security-illustration.webp" length="57304" type="image/webp"/></item><item><title>加强数据隐私保护</title><link>https://zh.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</link><pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "数据安全"
+, "隐私"
+, "网络安全"
+, "数字保护"
+, "科技配件"
+, "数据加密"
+, "在线安全"
+, "即插即用设备"
+, "数字隐私"</category><guid>https://zh.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+在 Amazon 了解 USB 硬件数据阻断器和加密存储设备，进一步保护数据安全。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/usb-data-lock-vault.webp" length="94076" type="image/webp"/></item><item><title>NextDNS 与 AdGuard 对比：哪款 DNS 广告拦截器更好？</title><link>https://zh.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络安全"
+, "广告拦截"
+, "DNS"
+, "隐私"
+, "互联网安全"
+, "在线保护"
+, "数字安全"
+, "浏览解决方案"
+, "在线隐私"</category><guid>https://zh.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较两款基于 DNS 的广告拦截服务 NextDNS 和 AdGuard，选择适合自己浏览需求的方案。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp"/></item><item><title>2026年最佳隐私浏览器：LibreWolf vs Brave vs Tor</title><link>https://zh.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"浏览器"
+, "隐私"
+, "安全"
+, "互联网"
+, "技术"
+, "数字隐私"
+, "网络安全"
+, "开源"
+, "匿名"
+, "网页浏览"</category><guid>https://zh.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年最全面的隐私浏览器对比：LibreWolf、Brave、Firefox、Tor等。详细的隐私测试、性能基准和安全分析，保护您的在线数据。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp"/></item><item><title>通过 optoutprescreen 退出预先批准的信用优惠</title><link>https://zh.simeononsecurity.com/articles/opting-out-of-unauthorized-credit-offers-with-credit-opt-outs/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"个人理财"
+, "身份保护"
+, "消费者权益"
+, "金融安全"
+, "信用管理"
+, "隐私"
+, "防范欺诈"
+, "数据安全"
+, "金融教育"
+, "个人信息"</category><guid>https://zh.simeononsecurity.com/articles/opting-out-of-unauthorized-credit-offers-with-credit-opt-outs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过 optoutprescreen 退出预先批准的信用优惠，降低身份盗用风险，并保护个人信息免遭未经授权的访问。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp" length="108062" type="image/webp"/></item></channel></rss>

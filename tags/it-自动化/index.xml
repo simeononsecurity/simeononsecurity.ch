@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT 自动化 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>IT 自动化 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/it-%E8%87%AA%E5%8A%A8%E5%8C%96/</link></image><link>https://zh.simeononsecurity.com/tags/it-%E8%87%AA%E5%8A%A8%E5%8C%96/</link><description>Recent content in IT 自动化 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/it-%E8%87%AA%E5%8A%A8%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansible 与 Puppet 与 Chef 2026：配置管理</title><link>https://zh.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "基础设施自动化"
+, "配置管理"
+, "IT 运维"
+, "云计算"
+, "系统管理"
+, "企业 IT"
+, "软件开发"
+, "IT 基础设施"
+, "自动化工具"</category><guid>https://zh.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026 年 Ansible、Puppet 和 Chef 对比，涵盖架构、功能、学习曲线、性能、价格和使用场景。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>理解 WMI 筛选</title><link>https://zh.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows 管理"
+, "组策略"
+, "系统管理"
+, "网络管理"
+, "IT 基础设施"
+, "策略管理"
+, "IT 治理"
+, "IT 自动化"
+, "Active Directory"
+, "安全合规"</category><guid>https://zh.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何使用 WMI 筛选将组策略对象 (GPO) 应用于目标计算机，并查看实用示例和最佳实践。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item><item><title>你应该学习 IT 和网络安全编程吗？</title><link>https://zh.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"信息技术和网络安全"
+, "编程技能"
+, "职业发展"
+, "自动化"
+, "命令行"
+, "脚本"
+, "基础设施部署"
+, "数据分析"
+, "安全测试"
+, "专业发展"</category><guid>https://zh.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解为什么掌握编程技能会对您的 IT 和网络安全事业大有裨益，以及如何开始学习 PowerShell、Bash、Python、Ansible、Packer 和 Terraform。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp" length="111480" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>硬盘 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>硬盘 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E7%A1%AC%E7%9B%98/</link></image><link>https://zh.simeononsecurity.com/tags/%E7%A1%AC%E7%9B%98/</link><description>Recent content in 硬盘 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 04 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E7%A1%AC%E7%9B%98/index.xml" rel="self" type="application/rss+xml"/><item><title>计算机文件系统详解：FAT32、NTFS、exFAT 等</title><link>https://zh.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</link><pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate><category>
+"计算机科学"
+, "数据存储"
+, "技术指南"
+, "文件管理"
+, "操作系统"
+, "数字化整理"
+, "技术教育"
+, "软件信息"
+, "系统优化"
+, "技术资源"</category><guid>https://zh.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过这份 FAT32、NTFS、exFAT 等文件系统概览了解它们的功能、限制和兼容性，帮助你更好地管理数据。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/computer-file-systems-explained_-fat32,-ntfs,-exfat,-and-more.webp" length="132294" type="image/webp"/></item><item><title>NIST认可的可移动介质清除方法</title><link>https://zh.simeononsecurity.com/articles/nist-800-88-ways-of-sanitizing-removable-media/</link><pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate><category>
+"NIST认可的方法"
+, "可移动介质清除"
+, "硬盘"
+, "SSD"
+, "USB闪存盘"
+, "CD"
+, "DVD"
+, "蓝光光盘"
+, "数据安全"
+, "敏感数据保护"</category><guid>https://zh.simeononsecurity.com/articles/nist-800-88-ways-of-sanitizing-removable-media/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解NIST认可的硬盘、SSD、USB闪存盘和光盘清除方法，防止敏感数据遭未经授权访问。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp" length="91898" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安全审计 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>安全审计 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E5%AE%A1%E8%AE%A1/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E5%AE%A1%E8%AE%A1/</link><description>Recent content in 安全审计 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E5%AE%A1%E8%AE%A1/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Safety 摄像头安全漏洞：发现 50 多项缺陷</title><link>https://zh.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"安全研究"
+, "漏洞分析"
+, "监控技术"
+, "网络安全"
+, "隐私保护"
+, "物联网安全"
+, "物理安全"
+, "网络安全"
+, "关键基础设施"
+, "政府技术"</category><guid>https://zh.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对 Flock Safety 摄像头漏洞的研究分析了暴露的凭据、薄弱的防护、物理访问风险和披露流程的局限。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>小型企业网络钓鱼防护：完整指南</title><link>https://zh.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "小型企业保护"
+, "网络钓鱼诈骗"
+, "员工培训"
+, "电子邮件安全"
+, "多因素身份验证"
+, "安全审计"
+, "社会工程学策略"
+, "数字威胁"
+, "网络安全"</category><guid>https://zh.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过员工培训、电子邮件控制、验证流程、举报步骤和经过测试的事件响应，保护小型企业免受网络钓鱼攻击。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/how-to-protect-your-small-business-from-phishing-scams.webp" length="88634" type="image/webp"/></item><item><title>区块链安全：不止于加密货币</title><link>https://zh.simeononsecurity.com/articles/demystifying-blockchain-security_-more-than-just-cryptocurrency/</link><pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate><category>
+"区块链安全"
+, "加密货币技术"
+, "数字安全"
+, "去中心化网络"
+, "区块链开发"
+, "智能合约审计"
+, "密码学知识"
+, "数据隐私措施"
+, "新兴安全技术"
+, "安全审计"</category><guid>https://zh.simeononsecurity.com/articles/demystifying-blockchain-security_-more-than-just-cryptocurrency/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解区块链安全如何依赖共识、密码学、智能合约控制、密钥保护、监控和健全的治理。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/demystifying-blockchain-security_-more-than-just-cryptocurrency.webp" length="194346" type="image/webp"/></item><item><title>解读网络威胁</title><link>https://zh.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</link><pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate><category>
+"网络威胁"
+, "黑客技术"
+, "数字安全"
+, "网络攻击策略"
+, "数据外传技术"
+, "网络钓鱼攻击"
+, "恶意软件感染"
+, "权限提升"
+, "横向移动"
+, "安全措施"</category><guid>https://zh.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解网络攻击从初始访问到权限提升、横向移动、持久化和数据外传的全过程，并查看每个阶段的防御措施。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses.webp" length="296326" type="image/webp"/></item><item><title>揭开密码学的奥秘：加密技术详解</title><link>https://zh.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><category>
+"密码学历史"
+, "加密技术"
+, "对称加密"
+, "非对称加密"
+, "RSA算法"
+, "椭圆曲线密码学"
+, "Diffie-Hellman密钥交换"
+, "数据机密性"
+, "数据完整性"
+, "数据认证"
+, "量子计算威胁"
+, "安全审计"
+, "数字钱包安全"</category><guid>https://zh.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解对称、非对称和混合加密如何保护数据，密钥交换如何运作，以及现代密码学方法的实际用途。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques.webp" length="291054" type="image/webp"/></item><item><title>网络安全准备：保护企业数据</title><link>https://zh.simeononsecurity.com/articles/cybersecurity-readiness-guide/</link><pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "企业安全"
+, "数据保护"
+, "风险评估"
+, "信息安全"
+, "数字安全"
+, "数据隐私"
+, "网络威胁"
+, "网络安全防护"
+, "供应商风险管理"</category><guid>https://zh.simeononsecurity.com/articles/cybersecurity-readiness-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+在分享敏感信息或开展业务前，评估公司的网络安全准备情况。保护数据，降低风险。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/cybersecurity-shield-protection2.webp" length="102208" type="image/webp"/></item><item><title>保护 Active Directory</title><link>https://zh.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "网络管理"
+, "信息技术"
+, "数据保护"
+, "企业安全"
+, "数字基础设施"
+, "访问控制"
+, "用户身份验证"
+, "IT 最佳实践"
+, "安全意识"</category><guid>https://zh.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解保护 Active Directory、保障数据安全并防止网络基础设施遭受入侵的关键方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item><item><title>掌握最小权限原则</title><link>https://zh.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "Linux 安全"
+, "访问控制"
+, "IT 安全"
+, "网络防护"
+, "信息保护"
+, "数据隐私"
+, "网络威胁"
+, "风险管理"
+, "安全最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过在 Linux 上实施最小权限访问控制来强化网络安全。了解实施步骤、最佳实践和问题排查方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>不断演变的网络安全威胁：趋势与对策</title><link>https://zh.simeononsecurity.com/articles/the-evolving-landcape-of-cybersecurity-threats/</link><pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate><category>
+"网络安全威胁"
+, "新兴趋势"
+, "对策"
+, "网络威胁格局"
+, "技术风险"
+, "数据泄露"
+, "勒索软件攻击"
+, "网络钓鱼技术"
+, "物联网漏洞"
+, "内部威胁"</category><guid>https://zh.simeononsecurity.com/articles/the-evolving-landcape-of-cybersecurity-threats/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+随时了解不断变化的网络安全形势、新出现的威胁以及防范网络攻击的有效对策。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/the-evolving-landscape-of-cybersecurity-threats.webp" length="43798" type="image/webp"/></item><item><title>防止信息泄漏：加强安全的最佳做法和策略</title><link>https://zh.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</link><pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate><category>
+"信息安全"
+, "数据保护"
+, "机密信息"
+, "信息泄漏"
+, "预防策略"
+, "最佳做法"
+, "访问控制"
+, "加密"
+, "员工培训"
+, "网络安全"
+, "防止数据丢失"
+, "安全评估"
+, "政府法规"
+, "NIST"
+, "内部威胁"
+, "网络安全漏洞"
+, "人为错误"
+, "宣传计划"
+, "网络钓鱼意识"
+, "DLP 解决方案"
+, "基于角色的访问控制"
+, "多因素认证"
+, "加密密钥管理"
+, "端点保护"
+, "内容检查"
+, "安全审计"
+, "渗透测试"
+, "事件响应规划"
+, "安全协议"
+, "信息保护"</category><guid>https://zh.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解防止信息外泄和保护敏感数据的最佳实践和策略，确保加强安全和保护。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/best-practices-to-prevent-spillage.webp" length="195784" type="image/webp"/></item><item><title>开源安全工具的优势与挑战</title><link>https://zh.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</link><pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate><category>
+"开源安全工具"
+, "网络安全"
+, "社区支持"
+, "透明度"
+, "节约成本"
+, "灵活性"
+, "专有工具"
+, "安全风险"
+, "技能"
+, "软件许可费"
+, "总拥有成本"
+, "商业支持"
+, "编程语言"
+, "集成"
+, "安全测试"
+, "安全审计"
+, "NIST"
+, "CISA"
+, "OWASP"
+, "美国国家标准技术研究院"</category><guid>https://zh.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+探索使用开源安全工具改善组织安全状况的好处和挑战。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.webp" length="58998" type="image/webp"/></item><item><title>保护患者数据</title><link>https://zh.simeononsecurity.com/articles/cybersecurity-challenges-in-the-healthcare-industry/</link><pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "医疗"
+, "患者数据"
+, "数据隐私"
+, "合规"
+, "HIPAA"
+, "GDPR"
+, "安全审计"
+, "访问控制"
+, "加密"
+, "培训"
+, "内部威胁"
+, "网络钓鱼攻击"
+, "物联网设备"
+, "网络安全"
+, "数据泄露"
+, "远程医疗"
+, "恶意软件"
+, "安全事件"
+, "法规"</category><guid>https://zh.simeononsecurity.com/articles/cybersecurity-challenges-in-the-healthcare-industry/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解医疗行业面临的网络安全挑战，以及保护患者数据和满足合规要求的实用策略。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.webp" length="192016" type="image/webp"/></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://zh.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"自动化"
+, "合规性"
+, "Ansible"
+, "Ansible 操作手册"
+, "Ansible 套件"
+, "视窗安全"
+, "视窗管理"
+, "安全合规"
+, "IT 自动化"
+, "配置管理"</category><guid>https://zh.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;SimeonOnSecurity 今天了解到并觉得有趣**&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity 今天学习并发现了几件与 Windows 安全和使用 Ansible 进行自动化有关的有趣事情。&lt;/p&gt;
+&lt;p&gt;首先，我们发现了两个新的更新版本库。Windows_STIG_Ansible 资源库为使用 Ansible 自动化平台配置 Windows 系统以满足《安全技术实施指南》（STIG）要求提供了完整的解决方案。windows_stigs 资源库是用于配置 Windows 系统以满足 STIG 要求的 Ansible 角色的集合，可在 Ansible Galaxy（一个用于共享 Ansible 内容的中央资源库）上使用。&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity 还找到了几个与使用 Ansible 进行 Windows 自动化相关的学习资源。ansible.windows.win_copy 模块文档提供了如何使用 Ansible 在 Windows 系统上复制文件的信息。ansible blocks 文档提供了有关如何使用块的信息，这是 Ansible 的一项强大功能，允许您将多个任务组合在一起并应用条件执行。ansible galaxy 用户指南提供了如何使用 Ansible Galaxy 的信息，ansible installing content 文档提供了如何从 Ansible Galaxy 安装内容的信息。&lt;/p&gt;
+&lt;h3 id="新的更新的-repos"&gt;
+&lt;a href="#%e6%96%b0%e7%9a%84%e6%9b%b4%e6%96%b0%e7%9a%84-repos" title="新的/更新的 Repos："&gt;新的/更新的 Repos：&lt;/a&gt;
+&lt;a href="#%e6%96%b0%e7%9a%84%e6%9b%b4%e6%96%b0%e7%9a%84-repos" class="h-anchor" aria-hidden="true" title="新的/更新的 Repos："&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible"&gt;
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible"&gt;
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+&gt;simeononsecurity/Windows_STIG_Ansible&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs"&gt;
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs"&gt;
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+&gt;simeononsecurity/windows_stigs&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="学习资源"&gt;
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" title="学习资源："&gt;学习资源：&lt;/a&gt;
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" class="h-anchor" aria-hidden="true" title="学习资源："&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="ansible.windows.win_copy module"&gt;
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_copy_module.html"&gt;
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_copy_module.html"
+rel="noopener external" target="_blank"
+&gt;ansible.windows.win_copy module&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="ansible blocks"&gt;
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/user_guide/playbooks_blocks.html"&gt;
+&lt;a href="https://docs.ansible.com/ansible/latest/user_guide/playbooks_blocks.html"
+rel="noopener external" target="_blank"
+&gt;ansible blocks&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="ansible galaxy user guide"&gt;
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/galaxy/user_guide.html"&gt;
+&lt;a href="https://docs.ansible.com/ansible/latest/galaxy/user_guide.html"
+rel="noopener external" target="_blank"
+&gt;ansible galaxy user guide&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="ansible installing content"&gt;
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/docs/using/installing.html"&gt;
+&lt;a href="https://galaxy.ansible.com/docs/using/installing.html"
+rel="noopener external" target="_blank"
+&gt;ansible installing content&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

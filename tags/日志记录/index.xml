@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日志记录 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>日志记录 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95/</link></image><link>https://zh.simeononsecurity.com/tags/%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95/</link><description>Recent content in 日志记录 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 04 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml"/><item><title>计算机文件系统详解：FAT32、NTFS、exFAT 等</title><link>https://zh.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</link><pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate><category>
+"计算机科学"
+, "数据存储"
+, "技术指南"
+, "文件管理"
+, "操作系统"
+, "数字化整理"
+, "技术教育"
+, "软件信息"
+, "系统优化"
+, "技术资源"</category><guid>https://zh.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过这份 FAT32、NTFS、exFAT 等文件系统概览了解它们的功能、限制和兼容性，帮助你更好地管理数据。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/computer-file-systems-explained_-fat32,-ntfs,-exfat,-and-more.webp" length="132294" type="image/webp"/></item><item><title>如何保护 Docker 和 Kubernetes 环境</title><link>https://zh.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link><pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate><category>
+"Docker"
+, "Kubernetes"
+, "安全"
+, "容器"
+, "网络安全"
+, "RBAC"
+, "API 服务器"
+, "漏洞"
+, "监控"
+, "日志记录"
+, "防火墙"
+, "TLS"
+, "Anchore"
+, "Clair"
+, "Aqua Security"
+, "ELK Stack"
+, "Splunk"
+, "Prometheus"
+, "网络空间安全"
+, "最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解保护 Docker 和 Kubernetes 环境的最佳做法，包括使用官方镜像、限制权限以及实施网络安全措施。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp" length="126938" type="image/webp"/></item></channel></rss>

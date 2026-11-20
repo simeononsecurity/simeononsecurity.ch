@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>家庭网络 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>家庭网络 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C/</link></image><link>https://zh.simeononsecurity.com/genre/%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C/</link><description>Recent content in 家庭网络 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml"/><item><title>从 Pi-hole 到本地 AI，分 10 个阶段搭建家庭实验室</title><link>https://zh.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"家庭实验室"
+, "自托管"
+, "本地 AI"
+, "家庭网络"</category><guid>https://zh.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+分十个实用阶段搭建家庭实验室，从全网 DNS 过滤到本地 AI，并介绍各阶段的硬件、成本、技能和取舍。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>测试 Mesh Wi-Fi 网络中的访客与 IoT 隔离</title><link>https://zh.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"家庭网络"
+, "Wi-Fi 安全"
+, "智能家居"</category><guid>https://zh.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+检查 Mesh Wi-Fi 的访客网络和 IoT 网络是否阻止访问家中设备。使用一个正常运行的服务测试每个网络，并记录隔离边界。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp" length="102600" type="image/webp"/></item><item><title>为什么 DNS 过滤会被绕过：检查解析器路径</title><link>https://zh.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"家庭网络"
+, "DNS"
+, "隐私"</category><guid>https://zh.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+查明设备或浏览器绕过 DNS 过滤的原因。比较直接查询和默认查询，检查日志，再核对加密 DNS、VPN、IPv6 和路由器设置。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>解决 Wi-Fi 问题：常见故障的实用处理方法</title><link>https://zh.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</link><pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate><category>
+"Wi-Fi 故障排除"
+, "无线解决方案"
+, "技术支持"
+, "连接建议"
+, "家庭网络"
+, "互联网指南"
+, "Wi-Fi 优化"
+, "网络安全"
+, "实用技术"
+, "网络性能"</category><guid>https://zh.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过改善信号、减少断连和加强安全的建议，解决 Wi-Fi 问题。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/wireless-connectivity_-troubleshooting-common-wi-fi-problems.webp" length="61888" type="image/webp"/></item><item><title>增强 WiFi 信号：提升连接质量的完整指南</title><link>https://zh.simeononsecurity.com/articles/boosting-wifi-signal-strength_-strategies-for-a-stronger-connection/</link><pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate><category>
+"WiFi 优化"
+, "连接解决方案"
+, "家庭网络"
+, "互联网技术建议"
+, "无线优化"
+, "数码设备指南"
+, "数字生活"
+, "智能家居技术"
+, "技术 DIY"
+, "网络增强"</category><guid>https://zh.simeononsecurity.com/articles/boosting-wifi-signal-strength_-strategies-for-a-stronger-connection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过 WiFi 信号增强策略改善互联网连接，为流畅的流媒体播放和游戏提供更稳定的网络。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/boosting-wifi-signal-strength_-strategies-for-a-stronger-connection.webp" length="148620" type="image/webp"/></item><item><title>Ubiquiti UniFi 适合家庭网络吗？</title><link>https://zh.simeononsecurity.com/articles/ubiquiti-unifi-good-for-home-use/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><category>
+"家庭网络"
+, "Wi-Fi 解决方案"
+, "网络硬件"
+, "Ubiquiti 产品"
+, "科技评测"
+, "家庭科技"
+, "无线连接"
+, "网络管理"
+, "消费电子"
+, "无线解决方案"</category><guid>https://zh.simeononsecurity.com/articles/ubiquiti-unifi-good-for-home-use/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Ubiquiti UniFi 是否适合家庭使用，并评估其网络优势、成本和管理要求。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/ubiquiti-unifi-home-wifi.webp" length="49076" type="image/webp"/></item><item><title>Ubiquiti UniFi 防火墙与 pfSense 对比</title><link>https://zh.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "防火墙解决方案"
+, "网络防护"
+, "路由器比较"
+, "技术"
+, "IT 解决方案"
+, "开源防火墙"
+, "Ubiquiti 与 pfSense"
+, "企业网络"
+, "家庭网络"</category><guid>https://zh.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较 Ubiquiti UniFi 防火墙与 pfSense，了解两者如何保护家庭和企业网络。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Ubiquiti_UniFi_Firewall_vs_pfSense.webp" length="192366" type="image/webp"/></item><item><title>pfSense vs Firewalla vs OPNsense</title><link>https://zh.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</link><pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "防火墙比较"
+, "网络安全解决方案"
+, "网络管理"
+, "家庭网络"
+, "企业安全"
+, "防火墙功能"
+, "安全软件"
+, "VPN解决方案"
+, "物联网设备安全"</category><guid>https://zh.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年pfSense、Firewalla和OPNsense防火墙解决方案的全面比较，适用于家庭和企业网络安全。为您的需求找到最佳选择。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Network-Security-Shield.webp" length="111246" type="image/webp"/></item><item><title>Firewalla 家庭网络安全：保护家庭与家庭实验室</title><link>https://zh.simeononsecurity.com/articles/firewalla-home-network-security-guide/</link><pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络安全"
+, "家庭网络"
+, "网络安全防护"
+, "物联网安全"
+, "在线安全"
+, "家庭实验室"
+, "数字保护"
+, "入侵检测"
+, "内容过滤"</category><guid>https://zh.simeononsecurity.com/articles/firewalla-home-network-security-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Firewalla 如何帮助保护家庭网络、是否适合家庭实验室，以及需要权衡的优点与限制。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/firewalla-home-network-security.webp" length="57452" type="image/webp"/></item><item><title>强化家庭网络安全</title><link>https://zh.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</link><pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "家庭网络"
+, "硬件推荐"
+, "网络防护"
+, "数字隐私"
+, "在线安全"
+, "互联网安全"
+, "家庭组网"
+, "技术"
+, "智能家居"</category><guid>https://zh.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解保护家庭网络免受网络威胁所需的硬件，包括硬件防火墙、接入点和监控工具。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/fortified-network-security.webp" length="61592" type="image/webp"/></item><item><title>2026 年最佳 WiFi Mesh 系统：购买指南与精选推荐</title><link>https://zh.simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/</link><pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate><category>
+"WiFi Mesh 系统"
+, "家庭网络"
+, "无线技术"
+, "互联网连接"
+, "消费电子产品"
+, "智能家居"
+, "网络设备"
+, "物联网 (IoT)"
+, "无线路由器"
+, "家庭连接"</category><guid>https://zh.simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026 年面向消费者的 WiFi 6E 和 WiFi 7 mesh 系统指南，比较覆盖范围、性能、设置方式和购买标准。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_home_with.webp" length="127732" type="image/webp"/></item><item><title>如何部署无线接入点以优化 Wi-Fi 覆盖</title><link>https://zh.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络"
+, "无线网络"
+, "无线接入点"
+, "Wi-Fi 安装"
+, "网络优化"
+, "家庭网络"
+, "无线连接"
+, "物联网"
+, "网络解决方案"</category><guid>https://zh.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何合理部署无线接入点，改善无线连接、减少干扰，并保持网络稳定运行。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp"/></item></channel></rss>

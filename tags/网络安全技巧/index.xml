@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>网络安全技巧 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>网络安全技巧 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%8A%80%E5%B7%A7/</link></image><link>https://zh.simeononsecurity.com/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%8A%80%E5%B7%A7/</link><description>Recent content in 网络安全技巧 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>不安全的 C# 函数：安全编码实践</title><link>https://zh.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"软件开发"
+, "C# 编程"
+, "网络安全"
+, "代码安全"
+, "安全编程"
+, "编程最佳实践"
+, "软件漏洞"
+, "密码学"
+, "Web 开发"
+, "应用程序安全"</category><guid>https://zh.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解不安全 C# 函数的安全替代方案，识别内存安全风险并替换易受攻击的操作。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item></channel></rss>

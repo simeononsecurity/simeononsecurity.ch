@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>自托管 AI on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>自托管 AI on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E8%87%AA%E6%89%98%E7%AE%A1-ai/</link></image><link>https://zh.simeononsecurity.com/tags/%E8%87%AA%E6%89%98%E7%AE%A1-ai/</link><description>Recent content in 自托管 AI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E8%87%AA%E6%89%98%E7%AE%A1-ai/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture：2026 年配置 AI 客户端的推理和 MCP</title><link>https://zh.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "开发工具"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过 Tailscale Aperture 转发模型请求和 MCP 工具。为另一台设备或网关配置 Codex、Claude Code、Claude Desktop、OpenCode 和 Hermes。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>Open WebUI v0.12.4：升级与访问控制检查清单 2026</title><link>https://zh.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"自托管 AI"
+, "网络安全"
+, "系统管理"</category><guid>https://zh.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+备份并将 Open WebUI 升级到 v0.12.4，然后测试聊天共享、导出权限、资源授权、账户和网络访问。</description></item><item><title>深入了解我们的混合式智能体 AI 集群：Hermes、LiteLLM 与 Tailscale</title><link>https://zh.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "自托管 AI"
+, "AI 智能体"
+, "AI 基础设施"
+, "GPU 挖矿"</category><guid>https://zh.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解经过验证的按需加载本地 AI 集群，以及使用 Hermes、LiteLLM、Tailscale Aperture 和 Pearl 挖矿的 T0 至 T4 控制平面。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>本地 AI 隐私边界：哪些内容留在你的电脑上，哪些不会</title><link>https://zh.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "隐私"
+, "自托管 AI"
+, "网络安全"
+, "AI 经济学"</category><guid>https://zh.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+在选择本地推理或托管 AI 服务前，追踪提示词、模型文件、工具、日志、网络暴露面和电力成本。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>OpenCode 与 Claude Code：2026 年编程代理对比</title><link>https://zh.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "开源软件"</category><guid>https://zh.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从模型选择、本地推理、价格、权限、项目说明和日常编程流程等方面比较 OpenCode 与 Claude Code。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>为 Meshtastic 构建保护隐私的 AI 助手</title><link>https://zh.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "隐私"
+, "开源"
+, "自动化"</category><guid>https://zh.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+介绍为 Meshtastic 构建本地 AI 助手的实践经验，涵盖私密配置、排队处理的 TCP 访问、信息检索工具和更安全的仪表板。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>威胁检测 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>威胁检测 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%A8%81%E8%83%81%E6%A3%80%E6%B5%8B/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%A8%81%E8%83%81%E6%A3%80%E6%B5%8B/</link><description>Recent content in 威胁检测 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%A8%81%E8%83%81%E6%A3%80%E6%B5%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>企业内部威胁防护策略</title><link>https://zh.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</link><pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "企业安全"
+, "内部威胁"
+, "数据保护"
+, "员工培训"
+, "安全措施"
+, "事件响应"
+, "行为分析"
+, "用户活动监控"
+, "安全文化"</category><guid>https://zh.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过访问控制、活动监控、举报渠道、离职流程和以安全为核心的职场文化，降低内部威胁风险。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/protecting-against-insider-threats_-strategies-for-your-company.webp" length="87882" type="image/webp"/></item><item><title>有效保障云安全</title><link>https://zh.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</link><pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate><category>
+"云安全"
+, "业务韧性"
+, "CSPM 实施"
+, "主动威胁检测"
+, "合规管理"
+, "安全策略"
+, "跨职能协作"
+, "云基础设施"
+, "自动化安全"
+, "风险缓解"</category><guid>https://zh.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用云安全态势管理发现错误配置、执行策略、管理警报、支持合规，并指导多个云账户中的修复工作。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/leveraging-cloud-security-posture-management-%28cspm%29-for-your-business.webp" length="234272" type="image/webp"/></item><item><title>事件响应规划：分步指南</title><link>https://zh.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "事件响应"
+, "企业安全"
+, "网络威胁"
+, "风险管理"
+, "安全规划"
+, "数据保护"
+, "IT 安全"
+, "数字韧性"
+, "危机管理"</category><guid>https://zh.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+制定事件响应计划，明确职责、沟通渠道、操作手册、工具、演练、指标和持续更新流程。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.webp" length="96088" type="image/webp"/></item><item><title>解读网络威胁</title><link>https://zh.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</link><pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate><category>
+"网络威胁"
+, "黑客技术"
+, "数字安全"
+, "网络攻击策略"
+, "数据外传技术"
+, "网络钓鱼攻击"
+, "恶意软件感染"
+, "权限提升"
+, "横向移动"
+, "安全措施"</category><guid>https://zh.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解网络攻击从初始访问到权限提升、横向移动、持久化和数据外传的全过程，并查看每个阶段的防御措施。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses.webp" length="296326" type="image/webp"/></item><item><title>AI 提升网络威胁检测与响应的 5 种方式</title><link>https://zh.simeononsecurity.com/articles/5-ways-ai-is-transforming-cyber-threat-detection/</link><pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate><category>
+"网络安全中的 AI"
+, "威胁检测"
+, "变革性技术"
+, "网络安全创新"
+, "数据分析"
+, "实时监控"
+, "安全中的机器学习"
+, "自然语言处理"
+, "深度学习"
+, "自动化响应"</category><guid>https://zh.simeononsecurity.com/articles/5-ways-ai-is-transforming-cyber-threat-detection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 AI 在威胁检测中的五种用途，包括异常分析、行为模型、恶意软件分类、实时监控和响应支持。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/5-ways-ai-is-transforming-cyber-threat-detection.webp" length="242224" type="image/webp"/></item><item><title>安全自动化：强化数字防御指南</title><link>https://zh.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><category>
+"安全自动化"
+, "网络安全"
+, "安全领域的机器学习"
+, "自动化合规监控"
+, "安全编排"
+, "事件响应"
+, "持续改进"
+, "安全人工监督"
+, "威胁检测与响应"
+, "安全最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过明确的使用场景、工具集成、人工审核、告警调优、指标和机器学习系统控制来规划安全自动化。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/mastering-security-automation_-streamlining-processes-for-enhanced-protection.webp" length="253188" type="image/webp"/></item><item><title>掌握安全自动化：策略与工具</title><link>https://zh.simeononsecurity.com/articles/deep-dive-into-security-automation_-strategies-and-implementation/</link><pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate><category>
+"安全自动化"
+, "网络安全策略"
+, "自动化框架"
+, "安全领域的机器学习"
+, "事件响应"
+, "持续改进"
+, "开源与商业工具"
+, "网络韧性"
+, "数字威胁"
+, "安全指标"</category><guid>https://zh.simeononsecurity.com/articles/deep-dive-into-security-automation_-strategies-and-implementation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+介绍安全自动化策略、工具、指标、实施限制以及 AI 辅助工作流程。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/deep-dive-into-security-automation_-strategies-and-implementation.webp" length="257448" type="image/webp"/></item><item><title>如何开启网络安全职业生涯</title><link>https://zh.simeononsecurity.com/articles/cybersecurity-career-coding-opportunities/</link><pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络安全"
+, "职业"
+, "编程"
+, "信息技术"
+, "技能"
+, "机会"
+, "学习"
+, "代码编写"
+, "数字化"</category><guid>https://zh.simeononsecurity.com/articles/cybersecurity-career-coding-opportunities/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解网络安全岗位、编程的作用和主要编程语言，然后选择适合自己的职业方向。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/cybersecurity_cape_guard.webp" length="95142" type="image/webp"/></item><item><title>保护组织：安全事件管理软件的优势</title><link>https://zh.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "事件管理"
+, "数据保护"
+, "数字安全"
+, "威胁缓解"
+, "技术解决方案"
+, "网络防御"
+, "信息安全"
+, "业务连续性"
+, "风险管理"</category><guid>https://zh.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解安全事件管理软件如何改进响应、跟踪和合规管理，从而保护数字资产。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/benefits-of-security-incident-management-software.webp" length="227836" type="image/webp"/></item><item><title>最大限度提升网络与云安全</title><link>https://zh.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络安全"
+, "云安全"
+, "网络防护"
+, "数字安全"
+, "数据隐私"
+, "IT安全"
+, "企业技术"
+, "数字防御"
+, "网络威胁"</category><guid>https://zh.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解威胁、防护措施和案例，强化网络与云安全。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp"/></item><item><title>构建有韧性的 SOC</title><link>https://zh.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "技术"
+, "商业"
+, "数据保护"
+, "事件响应"
+, "IT 管理"
+, "网络安全"
+, "威胁检测"
+, "信息安全"
+, "风险管理"</category><guid>https://zh.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+建立稳健的安全运营中心（SOC），以应对网络威胁、发现安全事件并保护组织资产。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>强化防御：了解 EDR 网络安全解决方案</title><link>https://zh.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "技术"
+, "威胁检测"
+, "终端安全"
+, "事件响应"
+, "数据保护"
+, "网络防护"
+, "数字防御"
+, "IT 安全"
+, "网络韧性"</category><guid>https://zh.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 EDR 解决方案如何保护终端、检测威胁，并帮助组织选择合适的方案。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp"/></item><item><title>掌握 EDR 安全：端点保护指南</title><link>https://zh.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "端点保护"
+, "EDR 解决方案"
+, "威胁检测"
+, "事件响应"
+, "端点安全"
+, "网络威胁"
+, "IT 安全"
+, "数字防御"
+, "安全策略"</category><guid>https://zh.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 EDR 安全的工作原理、优势和实施挑战，以及保护端点的最佳做法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp"/></item><item><title>降低内部威胁风险</title><link>https://zh.simeononsecurity.com/articles/mitigating-insider-threats-strategies-prevention/</link><pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "数据保护"
+, "内部威胁"
+, "信息安全"
+, "数字安全"
+, "员工行为"
+, "风险管理"
+, "数据隐私"
+, "企业安全"
+, "预防措施"</category><guid>https://zh.simeononsecurity.com/articles/mitigating-insider-threats-strategies-prevention/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何有效预防内部威胁、保护敏感数据，并在组织中建立安全文化。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Security_Shield_Network_Protection.webp" length="94966" type="image/webp"/></item><item><title>掌握网络安全事件应对方法</title><link>https://zh.simeononsecurity.com/articles/cybersecurity-incident-response-plan/</link><pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "事件响应"
+, "数据泄露"
+, "恶意软件攻击"
+, "勒索软件"
+, "财务损失"
+, "声誉管理"
+, "法律合规"
+, "业务连续性"
+, "风险缓解"</category><guid>https://zh.simeononsecurity.com/articles/cybersecurity-incident-response-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何制定完善的网络安全事件响应计划，以降低事件影响并保护组织免受网络威胁。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/cybersecurity_superheroes_shield.webp" length="111036" type="image/webp"/></item><item><title>NextDNS、AdGuard、Quad9、Cloudflare 与 Pi-hole：2026 年 DNS 对比</title><link>https://zh.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "DNS 对比"
+, "隐私保护"
+, "广告拦截"
+, "网络安全"
+, "互联网安全"
+, "DNS 解析器"
+, "在线隐私"
+, "网站安全"
+, "DNS 过滤"</category><guid>https://zh.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026 年 NextDNS、AdGuard DNS、Quad9、Cloudflare DNS 与 Pi-hole 的安全、隐私和性能对比。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp"/></item><item><title>AWS、Azure 与 Google Cloud：2026 年完整对比</title><link>https://zh.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"云计算"
+, "云安全"
+, "AWS"
+, "天蓝色"
+, "谷歌云计算平台"
+, "数据安全"
+, "加密"
+, "身份和访问管理"
+, "合规性"
+, "威胁检测"</category><guid>https://zh.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 AWS、Azure 和 Google Cloud Platform 的顶级云安全功能和认证，为您的企业选择最佳的安全云解决方案。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.webp" length="89242" type="image/webp"/></item><item><title>网络安全设备</title><link>https://zh.simeononsecurity.com/articles/fortinet-vs-cisco-comparing-network-security-applicances/</link><pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate><category>
+"网络安全设备"
+, "Fortinet"
+, "Cisco"
+, "网络安全"
+, "防火墙"
+, "入侵防御系统"
+, "虚拟专用网络"
+, "网页过滤"
+, "高级威胁防护"
+, "网络性能"</category><guid>https://zh.simeononsecurity.com/articles/fortinet-vs-cisco-comparing-network-security-applicances/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较 Fortinet 与 Cisco，为组织选择合适的网络安全设备。本文详细分析其功能、性能和价格。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_a_strong_shield_protecting_a.webp" length="190946" type="image/webp"/></item><item><title>机器学习对网络安全的影响</title><link>https://zh.simeononsecurity.com/articles/the-impact-of-machine-learning-on-cybersecurity/</link><pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate><category>
+"机器学习"
+, "网络安全"
+, "适应"
+, "人工智能"
+, "威胁检测"
+, "数据保护"
+, "实时"
+, "监督学习"
+, "无监督学习"
+, "强化学习"
+, "误报"
+, "假阴性"
+, "员工培训"
+, "安全解决方案"
+, "数据分析"
+, "网络安全"
+, "云安全"
+, "模式识别"
+, "异常检测"
+, "网络威胁"</category><guid>https://zh.simeononsecurity.com/articles/the-impact-of-machine-learning-on-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解机器学习如何帮助检测、分流并响应威胁，以及部署限制和安全风险。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_robot_standing_guard_in_front.webp" length="56498" type="image/webp"/></item><item><title>人工智能在威胁检测和响应中的力量</title><link>https://zh.simeononsecurity.com/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/</link><pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "网络安全"
+, "威胁检测"
+, "威胁应对"
+, "机器学习"
+, "深度学习"
+, "自然语言处理"
+, "人工智能算法"
+, "网络安全"
+, "数据安全"
+, "网络防御"
+, "事件响应"
+, "内部威胁"
+, "安保团队"
+, "实时监控"
+, "基于规则的系统"
+, "网络犯罪"
+, "脆弱性"
+, "自适应安全"
+, "网络复原力"</category><guid>https://zh.simeononsecurity.com/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解人工智能如何彻底改变威胁检测和响应领域，以及它带来的挑战和限制。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.webp" length="130814" type="image/webp"/></item><item><title>保护组织免受内部威胁</title><link>https://zh.simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/</link><pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate><category>
+"内部威胁"
+, "网络空间安全"
+, "数据保护"
+, "员工培训"
+, "技术控制"
+, "访问控制"
+, "策略制定"
+, "数据丢失防护"
+, "事件响应"
+, "IT安全"
+, "风险管理"
+, "特权访问"
+, "安全意识"
+, "网络攻击"
+, "网络安全"
+, "信息安全"
+, "威胁检测"
+, "风险评估"
+, "安全策略"
+, "网络犯罪"</category><guid>https://zh.simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过最小权限、监控、职责分离、报告机制和经过测试的事件响应，降低可信用户带来的风险，保护敏感系统。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.webp" length="119818" type="image/webp"/></item><item><title>后疫情时代网络安全的未来</title><link>https://zh.simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/</link><pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "大流行后"
+, "未来"
+, "远程工作"
+, "人工智能"
+, "机器学习"
+, "物联网"
+, "软件更新"
+, "密码"
+, "双因素认证"
+, "教育"
+, "虚拟专用网"
+, "固件更新"
+, "网络钓鱼"
+, "勒索软件"
+, "云安全"
+, "数据保护"
+, "网络安全"
+, "威胁检测"
+, "数字隐私"</category><guid>https://zh.simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何在大流行后的世界中为未来的网络安全做好准备，并降低成为网络攻击受害者的风险。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.webp" length="71136" type="image/webp"/></item><item><title>Automate-Sysmon：简化 Sysmon 部署和配置</title><link>https://zh.simeononsecurity.com/github/automate-sysmon/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"自动化 Sysmon"
+, "如何自动化 Sysmon"
+, "如何自动化 Sysmon 配置"
+, "如何安装 Sysmon"
+, "电源外壳"
+, "脚本"
+, "系统部署"
+, "系统配置"
+, "系统日志"
+, "威胁检测"
+, "恶意活动"
+, "SwiftOnSecurity 系统配置"
+, "微软系统内部"
+, "GitHub 资料库"
+, "BHIS"
+, "系统监控"
+, "安全研究"
+, "进程创建"
+, "网络连接"</category><guid>https://zh.simeononsecurity.com/github/automate-sysmon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何使用 Automate-Sysmon 脚本部署和配置 Sysmon 以提高系统的安全性，该脚本甚至可以为新手用户简化流程。</description></item><item><title>今天我学习了 Auditpol、Sysmon 和 Sysmon 配置</title><link>https://zh.simeononsecurity.com/til/2021-05-11/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "自动化"
+, "Sysmon"
+, "配置"
+, "视窗安全"
+, "事件监测"
+, "视窗管理"
+, "安全审计"
+, "威胁猎杀"
+, "恶意软件分析"</category><guid>https://zh.simeononsecurity.com/til/2021-05-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;&lt;strong&gt;SimeonOnSecurity 今天了解到的有趣内容&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity 今天学习并发现了几件与 Windows 安全和事件监控有关的有趣事情。&lt;/p&gt;
+&lt;p&gt;首先，我们发现了两个新的和更新的资源库。Automate-Sysmon 资源库为 Sysmon 的自动化安装、配置和管理提供了解决方案，Sysmon 是一种用于监控和记录 Windows 系统上系统活动的流行工具。Windows-Audit-Policy 资源库为 Windows 审计策略的自动化配置提供了解决方案，该策略可控制对 Windows 系统上各种安全相关事件的审计。&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity 还找到了一些与 Windows 安全和事件监控相关的学习资源。Sysmon 入门》一文全面介绍了 Sysmon，包括其功能、优点以及如何有效使用。Malware Archaeology Cheat Sheets 提供了与恶意软件分析和威胁猎取相关的各种主题的简明可行的信息。Microsoft Sysinternals - Sysmon 文档提供有关 Sysmon 功能和使用的信息。sysmon-config 资源库提供一组预配置的 Sysmon 规则，可用作自定义 Sysmon 配置的起点。&lt;/p&gt;
+&lt;p&gt;最后，SimeonOnSecurity 找到了几个与 Windows 审计策略命令行工具 (auditpol) 相关的资源。auditpol backup、auditpol clear、auditpol list 和 auditpol restore 文档提供了如何使用这些命令管理 Windows 审计策略的信息。auditpol 文档全面介绍了 auditpol 工具及其功能。最后，sysmon-modular 资源库提供了一种配置 Sysmon 的模块化方法，这对具有复杂安全需求的大型企业非常有用。&lt;/p&gt;
+&lt;h2 id="新版本库更新版本库"&gt;
+&lt;a href="#%e6%96%b0%e7%89%88%e6%9c%ac%e5%ba%93%e6%9b%b4%e6%96%b0%e7%89%88%e6%9c%ac%e5%ba%93" title="新版本库/更新版本库："&gt;新版本库/更新版本库：&lt;/a&gt;
+&lt;a href="#%e6%96%b0%e7%89%88%e6%9c%ac%e5%ba%93%e6%9b%b4%e6%96%b0%e7%89%88%e6%9c%ac%e5%ba%93" class="h-anchor" aria-hidden="true" title="新版本库/更新版本库："&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="simeononsecurity/Automate-Sysmon"&gt;
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Automate-Sysmon"&gt;
+&lt;a href="https://github.com/simeononsecurity/Automate-Sysmon"
+rel="noopener external" target="_blank"
+&gt;simeononsecurity/Automate-Sysmon&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="simeononsecurity/Windows-Audit-Policy"&gt;
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows-Audit-Policy"&gt;
+&lt;a href="https://github.com/simeononsecurity/Windows-Audit-Policy"
+rel="noopener external" target="_blank"
+&gt;simeononsecurity/Windows-Audit-Policy&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="学习资源"&gt;
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" title="学习资源："&gt;学习资源：&lt;/a&gt;
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" class="h-anchor" aria-hidden="true" title="学习资源："&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="BHIS - Getting Started With Sysmon"&gt;
+&lt;meta itemprop="url" content="https://www.blackhillsinfosec.com/getting-started-with-sysmon/"&gt;
+&lt;a href="https://www.blackhillsinfosec.com/getting-started-with-sysmon/"
+rel="noopener external" target="_blank"
+&gt;BHIS - Getting Started With Sysmon&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="Malware Archaeology Cheat Sheets"&gt;
+&lt;meta itemprop="url" content="https://www.malwarearchaeology.com/cheat-sheets"&gt;
+&lt;a href="https://www.malwarearchaeology.com/cheat-sheets"
+rel="noopener external" target="_blank"
+&gt;Malware Archaeology Cheat Sheets&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="Microsoft Sysinternals - Sysmon"&gt;
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon"&gt;
+&lt;a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon"
+rel="noopener external" target="_blank"
+&gt;Microsoft Sysinternals - Sysmon&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="SwiftOnSecurity/sysmon-config"&gt;
+&lt;meta itemprop="url" content="https://github.com/SwiftOnSecurity/sysmon-config"&gt;
+&lt;a href="https://github.com/SwiftOnSecurity/sysmon-config"
+rel="noopener external" target="_blank"
+&gt;SwiftOnSecurity/sysmon-config&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="auditpol backup"&gt;
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-backup"&gt;
+&lt;a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-backup"
+rel="noopener external" target="_blank"
+&gt;auditpol backup&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="auditpol clear"&gt;
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-clear"&gt;
+&lt;a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-clear"
+rel="noopener external" target="_blank"
+&gt;auditpol clear&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="auditpol list"&gt;
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-list"&gt;
+&lt;a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-list"
+rel="noopener external" target="_blank"
+&gt;auditpol list&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="auditpol restore"&gt;
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-restore"&gt;
+&lt;a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-restore"
+rel="noopener external" target="_blank"
+&gt;auditpol restore&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="auditpol"&gt;
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol"&gt;
+&lt;a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol"
+rel="noopener external" target="_blank"
+&gt;auditpol&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="olafhartong/sysmon-modular"&gt;
+&lt;meta itemprop="url" content="https://github.com/olafhartong/sysmon-modular"&gt;
+&lt;a href="https://github.com/olafhartong/sysmon-modular"
+rel="noopener external" target="_blank"
+&gt;olafhartong/sysmon-modular&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

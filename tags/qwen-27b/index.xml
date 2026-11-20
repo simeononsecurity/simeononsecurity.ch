@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qwen 27B on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>Qwen 27B on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/qwen-27b/</link></image><link>https://zh.simeononsecurity.com/tags/qwen-27b/</link><description>Recent content in Qwen 27B on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 03 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/qwen-27b/index.xml" rel="self" type="application/rss+xml"/><item><title>Qwen 27B 的 32GB VRAM：2026 年 10 月本地 AI 硬件指南</title><link>https://zh.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "AI 硬件"
+, "GPU 基准测试"
+, "自托管 AI"
+, "计算机硬件"
+, "AI 成本"</category><guid>https://zh.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+这份 2026 年 10 月实用指南介绍如何用 32GB 加速器内存运行 Qwen 27B，并比较单卡、多卡、统一内存、二手加速卡、云租用和上下文限制。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

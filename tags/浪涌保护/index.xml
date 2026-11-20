@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>浪涌保护 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>浪涌保护 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E6%B5%AA%E6%B6%8C%E4%BF%9D%E6%8A%A4/</link></image><link>https://zh.simeononsecurity.com/tags/%E6%B5%AA%E6%B6%8C%E4%BF%9D%E6%8A%A4/</link><description>Recent content in 浪涌保护 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E6%B5%AA%E6%B6%8C%E4%BF%9D%E6%8A%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>为家庭实验室选择 UPS 容量并测试自动关机</title><link>https://zh.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"家庭实验室"
+, "电源保护"
+, "系统管理"</category><guid>https://zh.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+测量家庭实验室的用电量，比较 UPS 的瓦数与 VA 限值，检查实际负载下的续航时间，并在依赖电池供电前测试安全关机。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>现场部署的供电与环境韧性</title><link>https://zh.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"边缘计算"
+, "现场 IT"
+, "供电系统"
+, "硬件"
+, "灾难恢复"
+, "坚固型计算"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+为现场边缘计算规划供电和环境防护。了解 UPS 容量计算、太阳能板、电池、时间同步、防护等级、接地和浪涌保护。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>选择最佳浪涌保护器：您的全面指南</title><link>https://zh.simeononsecurity.com/articles/protecting-your-tech_-the-best-surge-protectors/</link><pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate><category>
+"电子设备保护"
+, "浪涌保护器评测"
+, "技术安全"
+, "家庭办公设置"
+, "电源管理"
+, "智能家居设备"
+, "设备维护"
+, "节能工具"
+, "家电安全"
+, "设备安全解决方案"</category><guid>https://zh.simeononsecurity.com/articles/protecting-your-tech_-the-best-surge-protectors/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+用顶级浪涌保护器保护您的电子设备！了解关键选择技巧，防止电压尖峰损坏电子产品。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/protecting-your-tech_-the-best-surge-protectors.webp" length="180618" type="image/webp"/></item><item><title>保障不间断供电和运行的最佳 UPS 型号</title><link>https://zh.simeononsecurity.com/articles/best-ups-models-for-uninterrupted-connectivity/</link><pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "小工具"
+, "电子产品"
+, "电源解决方案"
+, "家庭办公室"
+, "生产力"
+, "能源效率"
+, "数据保护"
+, "备份系统"
+, "连接性"</category><guid>https://zh.simeononsecurity.com/articles/best-ups-models-for-uninterrupted-connectivity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解可为设备提供不间断电力的顶级 UPS 型号。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/best-ups-models-for-uninterrupted-connectivity.webp" length="160168" type="image/webp"/></item></channel></rss>

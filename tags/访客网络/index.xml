@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>访客网络 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>访客网络 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E8%AE%BF%E5%AE%A2%E7%BD%91%E7%BB%9C/</link></image><link>https://zh.simeononsecurity.com/tags/%E8%AE%BF%E5%AE%A2%E7%BD%91%E7%BB%9C/</link><description>Recent content in 访客网络 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E8%AE%BF%E5%AE%A2%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml"/><item><title>规划并测试 homelab 的 VLAN 分段</title><link>https://zh.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "网络安全"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+为 homelab 制定 VLAN 方案，将可信设备、服务器、IoT 和访客分隔开。记录允许的流量，分阶段配置网络，并测试隔离效果。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>如何创建安全的 Wi-Fi 网络</title><link>https://zh.simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/</link><pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate><category>
+"安全 Wi-Fi 网络"
+, "Wi-Fi 安全"
+, "网络加密"
+, "Wi-Fi 密码"
+, "路由器固件更新"
+, "防火墙保护"
+, "禁用远程管理"
+, "路由器默认登录凭据"
+, "MAC 地址过滤"
+, "禁用 WPS"
+, "访客网络"
+, "监控网络活动"
+, "在线安全"
+, "数据保护"
+, "网络隐私"
+, "网络安全"
+, "无线网络"
+, "互联网安全"
+, "网络防护措施"
+, "网络漏洞"</category><guid>https://zh.simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何创建安全的 Wi-Fi 网络，保护数据并安全地使用互联网。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.webp" length="54236" type="image/webp"/></item></channel></rss>

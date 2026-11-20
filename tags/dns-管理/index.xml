@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNS 管理 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>DNS 管理 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/dns-%E7%AE%A1%E7%90%86/</link></image><link>https://zh.simeononsecurity.com/tags/dns-%E7%AE%A1%E7%90%86/</link><description>Recent content in DNS 管理 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 26 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/dns-%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>NextDNS：通过 DNS 过滤和拦截威胁提升在线安全</title><link>https://zh.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</link><pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "DNS 过滤"
+, "互联网安全"
+, "云服务"
+, "在线防护"
+, "网页过滤"
+, "隐私保护"
+, "DNS 拦截替代方案"
+, "网络防护"
+, "上网安全"</category><guid>https://zh.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 NextDNS。这项易用的 DNS 拦截服务通过自动更新和可自定义的过滤策略提升在线安全。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/nextdns_cybersecurity_shield.webp" length="98890" type="image/webp"/></item><item><title>DNS 如何工作：根 DNS 的作用与故障排查</title><link>https://zh.simeononsecurity.com/articles/how-does-dns-work/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><category>
+"DNS 基础"
+, "根 DNS"
+, "域名系统"
+, "DNS 解析"
+, "DNS 层级"
+, "DNS 缓存"
+, "DNS 故障排查"
+, "DNS 记录"
+, "DNS 管理"
+, "DNS 命令"</category><guid>https://zh.simeononsecurity.com/articles/how-does-dns-work/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 DNS 与根 DNS 的层级结构、名称解析流程、缓存机制和故障排查方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_image_depicting_interconnected_computer_ne.webp" length="167680" type="image/webp"/></item></channel></rss>

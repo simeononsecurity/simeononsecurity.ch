@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>离线 AI 编程 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>离线 AI 编程 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E7%A6%BB%E7%BA%BF-ai-%E7%BC%96%E7%A8%8B/</link></image><link>https://zh.simeononsecurity.com/tags/%E7%A6%BB%E7%BA%BF-ai-%E7%BC%96%E7%A8%8B/</link><description>Recent content in 离线 AI 编程 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E7%A6%BB%E7%BA%BF-ai-%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>使用本地模型运行 Claude Cowork 和 Claude Code：2026 设置指南</title><link>https://zh.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "AI 编程工具"
+, "自托管 AI"
+, "开发者工具"
+, "隐私"
+, "开源模型"
+, "自动化"
+, "AI 硬件"</category><guid>https://zh.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过兼容 Anthropic 的 API 配置 Ollama 与 Claude Desktop、Claude Code。了解 2026 年的模型选择和云端专属功能。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item></channel></rss>

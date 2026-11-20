@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>编程安全技巧 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>编程安全技巧 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E7%BC%96%E7%A8%8B%E5%AE%89%E5%85%A8%E6%8A%80%E5%B7%A7/</link></image><link>https://zh.simeononsecurity.com/tags/%E7%BC%96%E7%A8%8B%E5%AE%89%E5%85%A8%E6%8A%80%E5%B7%A7/</link><description>Recent content in 编程安全技巧 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E7%BC%96%E7%A8%8B%E5%AE%89%E5%85%A8%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>Python 安全编码</title><link>https://zh.simeononsecurity.com/articles/secure-python-coding-insecure-functions/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><category>
+"编程"
+, "网络安全"
+, "软件开发"
+, "Python"
+, "编码"
+, "Web 开发"
+, "安全编码"
+, "技术"
+, "计算机科学"
+, "数据安全"</category><guid>https://zh.simeononsecurity.com/articles/secure-python-coding-insecure-functions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+学习如何编写安全的 Python 代码，避免不安全函数，并采用最佳实践构建稳健可靠的应用程序。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/secure-python-coding-wall.webp" length="111414" type="image/webp"/></item></channel></rss>
