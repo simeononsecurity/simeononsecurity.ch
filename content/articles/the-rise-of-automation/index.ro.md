@@ -1,11 +1,12 @@
 ---
 title: "Ascensiunea automatizării: Transformarea industriilor și a oportunităților de angajare"
 date: 2023-06-26
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Explorați evoluția tehnologiei de automatizare, industriile care o adoptă și impactul acesteia asupra oportunităților de angajare."
 genre: ["Tehnologia de automatizare", "Revoluția industrială", "Progrese tehnologice", "Inteligența artificială", "Învățare automată", "Fabricarea", "Asistență medicală", "Transport", "Comerț cu amănuntul", "Agricultură"]
-tags: ["tehnologie de automatizare", "industrii", "oportunități de angajare", "evoluție", "inteligența artificială", "învățare automată", "de fabricație", "asistență medicală", "transport", "vehicule care se conduc singure", "vânzare cu amănuntul", "comerț electronic", "agricultură", "agricultură inteligentă", "impactul asupra pieței muncii", "schimbarea locului de muncă", "competențe tehnice", "perfecționare", "recalificare", "inițiative educaționale", "Programe STEM", "politici guvernamentale", "reglementări", "venitul universal de bază", "programe de reconversie profesională", "confidențialitatea datelor", "securitatea datelor", "decalajul digital", "considerații etice"]
+tags: ["tehnologie de automatizare", "industrii", "oportunități de angajare", "evoluție", "inteligența artificială", "învățare automată", "de fabricație", "asistență medicală", "transport", "vehicule care se conduc singure", "vânzare cu amănuntul", "comerț electronic", "agricultură", "agricultură inteligentă", "impactul asupra pieței muncii", "dispariția locurilor de muncă", "competențe tehnice", "perfecționare", "recalificare", "inițiative educaționale", "Programe STEM", "politici guvernamentale", "reglementări", "venitul universal de bază", "programe de reconversie profesională", "confidențialitatea datelor", "securitatea datelor", "decalajul digital", "considerații etice"]
 cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.webp"
 coverAlt: "O imagine animată care prezintă diverse industrii și tehnologii interconectate."
 coverCaption: "Îmbrățișați viitorul automatizat cu optimism și adaptabilitate."
@@ -106,6 +107,8 @@ Cu toate acestea, **inițiativele educaționale și programele STEM nu sunt sufi
 În concluzie, pregătirea pentru un viitor automatizat necesită un efort de colaborare între guverne, întreprinderi și indivizi. **Investind în inițiative educaționale și în programe STEM, implementând politici și reglementări solide și colaborând pentru a crea o forță de muncă sustenabilă, putem asigura o tranziție ușoară către un viitor automatizat care să ne avantajeze pe toți.**
 
 ### Considerațiile etice ale automatizării
+
+{{< figure src="automation-ethics-employment-privacy-digital-divide.webp" alt="Diagramă despre dilemele etice ale automatizării: ocuparea forței de muncă, confidențialitate, securitatea datelor și decalajul digital" >}}
 
 Creșterea tehnologiei de automatizare ridică, de asemenea, considerații etice importante care trebuie abordate.
 
