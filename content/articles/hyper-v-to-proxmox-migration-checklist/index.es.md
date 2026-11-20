@@ -1,12 +1,12 @@
 ---
 title: "Migrar una VM de Hyper-V a Proxmox VE: lista de verificación reversible"
 date: 2026-10-11
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Migre una máquina virtual de Hyper-V a Proxmox VE mediante una exportación con el origen apagado, firmware equivalente, importación de discos, prueba de arranque aislada y un plan de reversión."
-genre: ["Virtualización", "Administración de sistemas", "Homelab"]
-tags: ["Migración de Hyper-V a Proxmox", "Migración de Hyper-V", "Migración a Proxmox VE", "Importación de VHDX", "qm disk import", "Cambio de máquina virtual", "Exportación de Hyper-V", "VM Windows en Proxmox", "VirtIO de Proxmox", "Reversión de VM", "Migración UEFI", "Puntos de control de Hyper-V", "TPM virtual", "Recuperación de BitLocker", "Migración de homelab"]
+genre: ["Virtualización", "Administración de sistemas", "Laboratorio doméstico"]
+tags: ["Migración de Hyper-V a Proxmox", "Migración de Hyper-V", "Migración a Proxmox VE", "Importación de VHDX", "qm disk import", "Cambio de VM", "Exportación de Hyper-V", "VM Windows en Proxmox", "VirtIO en Proxmox", "Reversión de VM", "Migración UEFI", "Puntos de control de Hyper-V", "TPM virtual", "Recuperación de BitLocker", "Migración de laboratorio doméstico"]
 cover: "/img/cover/hyper-v-to-proxmox-migration-checklist.webp"
 coverAlt: "Un disco cruza un puente entre un bastidor de servidores azul y otro naranja, con una ruta de regreso separada y un escudo junto al destino."
 coverCaption: "Mantenga disponible la VM de origen hasta que el nuevo huésped supere las comprobaciones del cambio."
@@ -43,12 +43,12 @@ Generation 1 usa BIOS heredado. Generation 2 usa la Interfaz de firmware extensi
 
 **SeaBIOS** proporciona firmware BIOS heredado. **OVMF** proporciona firmware UEFI. **VirtIO** es una interfaz de dispositivo virtual rápida que requiere controladores en el huésped. Un **initramfs** es el sistema de archivos inicial de Linux que carga controladores antes del sistema principal.
 
-## Inventariar la VM de Hyper-V
+## Hacer inventario de la máquina virtual en Hyper-V
 
 Ejecute estos comandos de solo lectura en una sesión elevada de PowerShell en el host de Hyper-V. Son ejemplos no probados. Confirme cada comando con el módulo Hyper-V instalado y su procedimiento de cambios antes de usarlos. Escriba el nombre de la VM cuando se le solicite:
 
 ```powershell
-$vmName = Read-Host "Hyper-V VM name"
+$vmName = Read-Host "Nombre de la VM de Hyper-V"
 Get-VM -Name $vmName | Select-Object Name, State, Generation, ProcessorCount, MemoryAssigned
 Get-VMHardDiskDrive -VMName $vmName | Select-Object ControllerType, ControllerNumber, ControllerLocation, Path
 Get-VMSnapshot -VMName $vmName | Select-Object Name, CreationTime
@@ -72,13 +72,13 @@ Para un huésped Windows que use **BitLocker** o un **TPM virtual**, obtenga y v
 
 ## Exportar una VM apagada
 
-Apague el huésped de forma ordenada. Confirme que Hyper-V muestre **Off**, no Saved. Espere a que termine cualquier combinación de puntos de control y luego exporte la VM a una ubicación con espacio libre suficiente. En Hyper-V Manager, haga clic con el botón derecho en la VM, elija **Export** y seleccione el destino. El equivalente de PowerShell es:
+Apague el huésped de forma ordenada. Confirme que Hyper-V muestre **Off** (apagada), no Saved (guardada). Espere a que termine cualquier combinación de puntos de control y luego exporte la VM a una ubicación con espacio libre suficiente. En Hyper-V Manager, haga clic con el botón derecho en la VM, elija **Export** (exportar) y seleccione el destino. El equivalente de PowerShell es:
 
 ```powershell
-$vmName = Read-Host "Stopped Hyper-V VM name"
-$exportPath = Read-Host "Export destination directory"
+$vmName = Read-Host "Nombre de la VM de Hyper-V apagada"
+$exportPath = Read-Host "Directorio de destino de la exportación"
 $vm = Get-VM -Name $vmName -ErrorAction Stop
-if ($vm.State -ne 'Off') { throw "Stop the VM and wait for Hyper-V to show Off before exporting." }
+if ($vm.State -ne 'Off') { throw "Apague la VM y espere a que Hyper-V indique Off (apagada) antes de exportarla." }
 Export-VM -Name $vmName -Path $exportPath
 ```
 
@@ -86,7 +86,7 @@ La [guía de exportación de Microsoft](https://learn.microsoft.com/en-us/window
 
 Transfiera los archivos VHDX a una ruta accesible desde el host Proxmox. Trate la exportación como datos confidenciales del huésped. Use transporte cifrado, limite el acceso a la ubicación de transferencia y al almacenamiento de destino, y elimine las copias temporales después de validarlas. Compruebe la capacidad disponible tanto en el área de transferencia como en el almacenamiento de destino. Conserve una exportación intacta para la reversión. Si la exportación contiene archivos **`.avhdx`**, no elija un **`.vhdx`** base por su nombre suponiendo que incluye las escrituras más recientes. Resuelva la cadena de discos en Hyper-V antes de continuar.
 
-## Crear el contenedor de Proxmox
+## Crear la máquina virtual de destino en Proxmox
 
 Cree una VM nueva en la interfaz web de Proxmox con el tipo de sistema operativo, la CPU y la memoria registrados antes. Elija un ID de VM nuevo y sin usar. No instale un sistema operativo nuevo. Quite el disco vacío creado por el asistente antes de importar el disco de origen. Mantenga desconectado el adaptador de red del puente de producción durante el primer arranque, o conéctelo a una red de prueba aislada.
 
@@ -99,11 +99,11 @@ Cree una VM nueva en la interfaz web de Proxmox con el tipo de sistema operativo
 
 La [guía de generación de VM de Microsoft](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/plan/Should-I-create-a-generation-1-or-2-virtual-machine-in-Hyper-V) relaciona Generation 1 con BIOS heredado y Generation 2 con UEFI. La [documentación de VM de Proxmox](https://github.com/proxmox/pve-docs/blob/master/qm.adoc) documenta SeaBIOS, OVMF y el disco EFI que conserva los ajustes UEFI. **Iguale el modo de arranque del origen.** Cambiarlo durante la migración crea otro problema de arranque que deberá diagnosticar.
 
-Para un origen Generation 2, iguale si **Secure Boot** estaba habilitado. Compruebe la plantilla del origen y seleccione claves inscritas compatibles con el huésped. Los nombres de plantilla de Hyper-V no se transfieren a Proxmox. El disco EFI de 4 MB de Proxmox y la opción **Pre-Enroll keys** proporcionan claves Secure Boot y habilitan Secure Boot de forma predeterminada. Verifique el arranque del destino antes del cambio. La [referencia de firmware de Microsoft](https://learn.microsoft.com/en-us/powershell/module/hyper-v/set-vmfirmware) describe el requisito de plantilla del origen. La [documentación del disco EFI de Proxmox](https://github.com/proxmox/pve-docs/blob/master/qm.adoc) describe las claves del destino.
+Para un origen Generation 2, iguale si **Secure Boot** estaba habilitado. Compruebe la plantilla del origen y seleccione claves inscritas compatibles con el huésped. Los nombres de plantilla de Hyper-V no se transfieren a Proxmox. El disco EFI de 4 MB de Proxmox y la opción **Pre-Enroll keys** (inscribir previamente las claves) proporcionan claves Secure Boot y habilitan Secure Boot de forma predeterminada. Verifique el arranque del destino antes del cambio. La [referencia de firmware de Microsoft](https://learn.microsoft.com/en-us/powershell/module/hyper-v/set-vmfirmware) describe el requisito de plantilla del origen. La [documentación del disco EFI de Proxmox](https://github.com/proxmox/pve-docs/blob/master/qm.adoc) describe las claves del destino.
 
 Antes de cambiar las claves EFI, verifique que la clave de recuperación esté guardada y anote los ID de protectores actuales. Siga la documentación instalada de Proxmox VE y OVMF para inscribir claves EFI. Vuelva a confirmar la clave de recuperación y verifique `manage-bde -status` antes del primer arranque. No suspenda, deshabilite ni elimine protectores como paso genérico de migración. Registre la versión del paquete de firmware, el estado de Secure Boot y la versión de firmware, y el estado de BitLocker.
 
-Si el origen usa un **vTPM**, agregue **TPM State** en el panel Hardware de Proxmox antes del primer arranque. Seleccione la **versión 2.0**, salvo que el huésped tenga un requisito documentado para la versión 1.2. Esto crea un estado TPM nuevo, no una copia del vTPM de Hyper-V. Un huésped BitLocker necesita su clave de recuperación verificada en el primer arranque. La [documentación TPM de Proxmox](https://github.com/proxmox/pve-docs/blob/master/qm.adoc) describe la acción Hardware y las versiones.
+Si el origen usa un **vTPM**, agregue **TPM State** (estado del TPM) en el panel Hardware (componentes) de Proxmox antes del primer arranque. Seleccione la **versión 2.0**, salvo que el huésped tenga un requisito documentado para la versión 1.2. Esto crea un estado TPM nuevo, no una copia del vTPM de Hyper-V. Un huésped BitLocker necesita su clave de recuperación verificada en el primer arranque. La [documentación TPM de Proxmox](https://github.com/proxmox/pve-docs/blob/master/qm.adoc) describe la acción Hardware (componentes) y las versiones.
 
 Para Windows, comience con un disco de arranque SATA, salvo que el huésped ya tenga el controlador de almacenamiento VirtIO requerido. Tras un arranque correcto, instale los controladores VirtIO compatibles y cambie un dispositivo virtual a la vez. Proxmox recomienda VirtIO SCSI por su rendimiento, pero la falta de un controlador de arranque impide que Windows acceda al disco del sistema. Para Linux, compruebe que initramfs incluya el controlador de almacenamiento de destino antes de cambiar el bus. La [documentación de VM de Proxmox](https://github.com/proxmox/pve-docs/blob/master/qm.adoc) describe los controladores de disco.
 
@@ -117,7 +117,7 @@ qm disk import 230 /path/to/exported/boot.vhdx local-lvm
 
 La referencia [**`qm disk import`** de Proxmox](https://github.com/proxmox/pve-docs/blob/master/generated/qm.1-synopsis.adoc) indica que la imagen de origen se importa como un **disco sin usar**. La [documentación de imágenes de QEMU](https://www.qemu.org/docs/master/system/images) incluye VHDX entre los formatos de conversión compatibles. Importe cada disco de datos adicional por separado. Espere a que termine cada tarea de importación y compare los tamaños importados con el inventario de origen.
 
-En el panel **Hardware** de la VM, conecte el disco de arranque sin usar como **SATA** para el primer arranque de Windows. Conecte los discos de datos en el orden documentado. En **Options > Boot Order**, seleccione el disco de arranque. Para un huésped Generation 2, verifique **OVMF** y el disco EFI. Mantenga intactos los archivos de importación y la VM de origen hasta superar la validación.
+En el panel **Hardware** (componentes) de la VM, conecte el disco de arranque sin usar como **SATA** para el primer arranque de Windows. Conecte los discos de datos en el orden documentado. En **Options > Boot Order** (opciones > orden de arranque), seleccione el disco de arranque. Para un huésped Generation 2, verifique **OVMF** y el disco EFI. Mantenga intactos los archivos de importación y la VM de origen hasta superar la validación.
 
 ## Probar antes del cambio
 
