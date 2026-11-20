@@ -1,7 +1,7 @@
 ---
 title: "オープンソースセキュリティツールの利点と課題"
 date: 2023-04-05
-lastmod: 2026-11-11
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "オープンソースのセキュリティツールを使用して、組織のセキュリティ態勢を改善するメリットと課題を探ります。"
@@ -57,14 +57,11 @@ ______
 
 ## 参考文献
 
-- [Open Source Security Tools](https://opensource.com/tags/security)
-- [Open Source Security Foundation](https://openSSF.org/)
-- [National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [Cybersecurity and Infrastructure Security Agency (CISA) Cyber Essentials](https://www.cisa.gov/cyber-essentials)
-- [Open-Source vs. Commercial Security Tools: Pros and Cons Explained](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
-- [Benefits of Open Source Software](https://opensource.com/resources/what-open-source)
-- [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
-- [Open Web Application Security Project (OWASP)](https://owasp.org/)
-
-
-lastmod: 2026-10-11
+- [オープンソースのセキュリティツール](https://opensource.com/tags/security)
+- [オープンソースソフトウェアセキュリティ財団 (OpenSSF)](https://openSSF.org/)
+- [米国国立標準技術研究所 (NIST) のサイバーセキュリティフレームワーク](https://www.nist.gov/cyberframework)
+- [サイバーセキュリティ・社会基盤安全保障庁 (CISA) のサイバー基本事項](https://www.cisa.gov/cyber-essentials)
+- [オープンソースと商用のセキュリティツール: 利点と欠点](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
+- [オープンソースソフトウェアの利点](https://opensource.com/resources/what-open-source)
+- [米国国立標準技術研究所 (NIST)](https://www.nist.gov/)
+- [オープンウェブアプリケーションセキュリティプロジェクト (OWASP)](https://owasp.org/)

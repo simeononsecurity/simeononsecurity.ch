@@ -1,7 +1,7 @@
 ---
 title: "Ventajas y desafíos de las herramientas de seguridad de código abierto"
 date: 2023-04-05
-lastmod: 2026-11-11
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Explore las ventajas y los retos de utilizar herramientas de seguridad de código abierto para mejorar la seguridad de su organización."
@@ -57,14 +57,11 @@ Las herramientas de seguridad de código abierto ofrecen muchas ventajas, como e
 
 ## Referencias
 
-- [Open Source Security Tools](https://opensource.com/tags/security)
-- [Open Source Security Foundation](https://openSSF.org/)
-- [National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [Cybersecurity and Infrastructure Security Agency (CISA) Cyber Essentials](https://www.cisa.gov/cyber-essentials)
-- [Open-Source vs. Commercial Security Tools: Pros and Cons Explained](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
-- [Benefits of Open Source Software](https://opensource.com/resources/what-open-source)
-- [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
-- [Open Web Application Security Project (OWASP)](https://owasp.org/)
-
-
-lastmod: 2026-10-11
+- [Herramientas de seguridad de código abierto](https://opensource.com/tags/security)
+- [Fundación para la Seguridad del Software de Código Abierto (OpenSSF)](https://openSSF.org/)
+- [Marco de ciberseguridad del Instituto Nacional de Estándares y Tecnología (NIST)](https://www.nist.gov/cyberframework)
+- [Fundamentos de ciberseguridad de la Agencia de Seguridad de Infraestructura y Ciberseguridad (CISA)](https://www.cisa.gov/cyber-essentials)
+- [Herramientas de seguridad de código abierto y comerciales: ventajas e inconvenientes](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
+- [Ventajas del software de código abierto](https://opensource.com/resources/what-open-source)
+- [Instituto Nacional de Estándares y Tecnología (NIST)](https://www.nist.gov/)
+- [Proyecto Abierto de Seguridad de Aplicaciones Web (OWASP)](https://owasp.org/)

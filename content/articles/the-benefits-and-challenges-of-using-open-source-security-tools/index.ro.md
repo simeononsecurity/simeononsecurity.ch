@@ -1,7 +1,7 @@
 ---
 title: "Beneficiile și provocările instrumentelor de securitate open source"
 date: 2023-04-05
-lastmod: 2026-11-11
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Explorați beneficiile și provocările legate de utilizarea instrumentelor de securitate open source pentru a îmbunătăți poziția de securitate a organizației dumneavoastră."
@@ -15,7 +15,7 @@ coverCaption: ""
 
 Instrumentele de securitate open source au devenit din ce în ce mai populare pentru organizațiile care doresc să-și îmbunătățească poziția de securitate. În acest articol, vom discuta despre **beneficiile și provocările** utilizării instrumentelor de securitate open source pentru organizația dumneavoastră.
 
-## Beneficiile utilizării instrumentelor de securitate open source
+## Beneficiile instrumentelor de securitate cu sursă deschisă
 
 ### Economii de costuri
 
@@ -33,7 +33,7 @@ Instrumentele de securitate open source sunt de obicei dezvoltate și întrețin
 
 Un alt beneficiu al utilizării instrumentelor de securitate open source este **transparența**. Instrumentele open source sunt adesea mai transparente decât instrumentele proprietare, deoarece codul lor sursă este disponibil pentru revizuire. Acest lucru permite organizațiilor să evalueze securitatea instrumentelor pe care le folosesc și să identifice orice vulnerabilități sau probleme potențiale.
 
-## Provocările legate de utilizarea instrumentelor de securitate cu sursă deschisă
+## Provocările instrumentelor de securitate cu sursă deschisă
 
 ### Suport
 
@@ -57,14 +57,11 @@ Instrumentele de securitate open source oferă multe avantaje, inclusiv economii
 
 ## Referințe
 
-- [Open Source Security Tools](https://opensource.com/tags/security)
-- [Open Source Security Foundation](https://openSSF.org/)
-- [National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [Cybersecurity and Infrastructure Security Agency (CISA) Cyber Essentials](https://www.cisa.gov/cyber-essentials)
-- [Open-Source vs. Commercial Security Tools: Pros and Cons Explained](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
-- [Benefits of Open Source Software](https://opensource.com/resources/what-open-source)
-- [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
-- [Open Web Application Security Project (OWASP)](https://owasp.org/)
-
-
-lastmod: 2026-10-11
+- [Instrumente de securitate cu sursă deschisă](https://opensource.com/tags/security)
+- [Fundația pentru securitatea software-ului cu sursă deschisă (OpenSSF)](https://openSSF.org/)
+- [Cadrul de securitate cibernetică al National Institute of Standards and Technology (NIST)](https://www.nist.gov/cyberframework)
+- [Principii esențiale de securitate cibernetică ale Cybersecurity and Infrastructure Security Agency (CISA)](https://www.cisa.gov/cyber-essentials)
+- [Instrumente de securitate cu sursă deschisă și comerciale: avantaje și dezavantaje](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
+- [Beneficiile software-ului cu sursă deschisă](https://opensource.com/resources/what-open-source)
+- [Institutul Național de Standarde și Tehnologie (NIST)](https://www.nist.gov/)
+- [Proiectul Deschis pentru Securitatea Aplicațiilor Web (OWASP)](https://owasp.org/)

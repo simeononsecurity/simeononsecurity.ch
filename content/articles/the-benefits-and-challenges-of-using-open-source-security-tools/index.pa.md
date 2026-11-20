@@ -1,7 +1,7 @@
 ---
 title: "ਓਪਨ ਸੋਰਸ ਸੁਰੱਖਿਆ ਟੂਲਾਂ ਦੇ ਫਾਇਦੇ ਅਤੇ ਚੁਣੌਤੀਆਂ"
 date: 2023-04-05
-lastmod: 2026-11-11
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "ਓਪਨ ਸੋਰਸ ਸੁਰੱਖਿਆ ਟੂਲਾਂ ਦੇ ਫਾਇਦੇ ਅਤੇ ਚੁਣੌਤੀਆਂ ਜਾਣੋ ਅਤੇ ਆਪਣੇ ਸੰਗਠਨ ਦੀ ਸੁਰੱਖਿਆ ਸੁਧਾਰਨ ਲਈ ਉਨ੍ਹਾਂ ਦਾ ਮੁਲਾਂਕਣ ਕਰੋ।"
@@ -57,14 +57,11 @@ ______
 
 ## ਹਵਾਲੇ
 
-- [Open Source Security Tools](https://opensource.com/tags/security)
-- [Open Source Security Foundation](https://openSSF.org/)
-- [National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [Cybersecurity and Infrastructure Security Agency (CISA) Cyber Essentials](https://www.cisa.gov/cyber-essentials)
-- [Open-Source vs. Commercial Security Tools: Pros and Cons Explained](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
-- [Benefits of Open Source Software](https://opensource.com/resources/what-open-source)
-- [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
-- [Open Web Application Security Project (OWASP)](https://owasp.org/)
-
-
-lastmod: 2026-10-11
+- [ਓਪਨ ਸੋਰਸ ਸੁਰੱਖਿਆ ਟੂਲ](https://opensource.com/tags/security)
+- [ਓਪਨ ਸੋਰਸ ਸਾਫਟਵੇਅਰ ਸੁਰੱਖਿਆ ਫਾਊਂਡੇਸ਼ਨ (OpenSSF)](https://openSSF.org/)
+- [ਨੈਸ਼ਨਲ ਇੰਸਟੀਚਿਊਟ ਆਫ ਸਟੈਂਡਰਡਜ਼ ਐਂਡ ਟੈਕਨਾਲੋਜੀ (NIST) ਦਾ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਢਾਂਚਾ](https://www.nist.gov/cyberframework)
+- [ਸਾਈਬਰਸਿਕਿਉਰਿਟੀ ਐਂਡ ਇਨਫਰਾਸਟਰੱਕਚਰ ਸਿਕਿਉਰਿਟੀ ਏਜੰਸੀ (CISA) ਦੇ ਸਾਈਬਰ ਜ਼ਰੂਰੀ ਨਿਯਮ](https://www.cisa.gov/cyber-essentials)
+- [ਓਪਨ ਸੋਰਸ ਅਤੇ ਵਪਾਰਕ ਸੁਰੱਖਿਆ ਟੂਲ: ਫਾਇਦੇ ਅਤੇ ਨੁਕਸਾਨ](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
+- [ਓਪਨ ਸੋਰਸ ਸਾਫਟਵੇਅਰ ਦੇ ਫਾਇਦੇ](https://opensource.com/resources/what-open-source)
+- [ਨੈਸ਼ਨਲ ਇੰਸਟੀਚਿਊਟ ਆਫ ਸਟੈਂਡਰਡਜ਼ ਐਂਡ ਟੈਕਨਾਲੋਜੀ (NIST)](https://www.nist.gov/)
+- [ਓਪਨ ਵੈੱਬ ਐਪਲੀਕੇਸ਼ਨ ਸੁਰੱਖਿਆ ਪ੍ਰੋਜੈਕਟ (OWASP)](https://owasp.org/)

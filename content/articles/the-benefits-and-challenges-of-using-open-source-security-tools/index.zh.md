@@ -1,7 +1,7 @@
 ---
 title: "开源安全工具的优势与挑战"
 date: 2023-04-05
-lastmod: 2026-11-11
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "探索使用开源安全工具改善组织安全状况的好处和挑战。"
@@ -57,14 +57,11 @@ ______
 
 ## 参考文献
 
-- [Open Source Security Tools](https://opensource.com/tags/security)
-- [Open Source Security Foundation](https://openSSF.org/)
-- [National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [Cybersecurity and Infrastructure Security Agency (CISA) Cyber Essentials](https://www.cisa.gov/cyber-essentials)
-- [Open-Source vs. Commercial Security Tools: Pros and Cons Explained](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
-- [Benefits of Open Source Software](https://opensource.com/resources/what-open-source)
-- [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
-- [Open Web Application Security Project (OWASP)](https://owasp.org/)
-
-
-lastmod: 2026-10-11
+- [开源安全工具](https://opensource.com/tags/security)
+- [开源软件安全基金会 (OpenSSF)](https://openSSF.org/)
+- [美国国家标准与技术研究院 (NIST) 网络安全框架](https://www.nist.gov/cyberframework)
+- [网络安全与基础设施安全局 (CISA) 网络安全要点](https://www.cisa.gov/cyber-essentials)
+- [开源与商业安全工具：优点与缺点](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
+- [开源软件的优势](https://opensource.com/resources/what-open-source)
+- [美国国家标准与技术研究院 (NIST)](https://www.nist.gov/)
+- [开放式 Web 应用程序安全项目 (OWASP)](https://owasp.org/)

@@ -1,7 +1,7 @@
 ---
 title: "Avantatges i reptes de les eines de seguretat de codi obert"
 date: 2023-04-05
-lastmod: 2026-11-11
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Descobreix els avantatges i els reptes de les eines de seguretat de codi obert i com valorar-les per millorar la seguretat de la teva organització."
@@ -57,14 +57,11 @@ Les eines de seguretat de codi obert ofereixen avantatges com l'estalvi de costo
 
 ## Referències
 
-- [Open Source Security Tools](https://opensource.com/tags/security)
-- [Open Source Security Foundation](https://openSSF.org/)
-- [National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [Cybersecurity and Infrastructure Security Agency (CISA) Cyber Essentials](https://www.cisa.gov/cyber-essentials)
-- [Open-Source vs. Commercial Security Tools: Pros and Cons Explained](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
-- [Benefits of Open Source Software](https://opensource.com/resources/what-open-source)
-- [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
-- [Open Web Application Security Project (OWASP)](https://owasp.org/)
-
-
-lastmod: 2026-10-11
+- [Eines de seguretat de codi obert](https://opensource.com/tags/security)
+- [Fundació per a la Seguretat del Programari de Codi Obert (OpenSSF)](https://openSSF.org/)
+- [Marc de ciberseguretat de l’Institut Nacional d’Estàndards i Tecnologia (NIST)](https://www.nist.gov/cyberframework)
+- [Conceptes essencials de ciberseguretat de l’Agència de Ciberseguretat i Seguretat de les Infraestructures (CISA)](https://www.cisa.gov/cyber-essentials)
+- [Eines de seguretat de codi obert i comercials: avantatges i inconvenients](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
+- [Beneficis del programari de codi obert](https://opensource.com/resources/what-open-source)
+- [Institut Nacional d’Estàndards i Tecnologia (NIST)](https://www.nist.gov/)
+- [Projecte Obert de Seguretat d’Aplicacions Web (OWASP)](https://owasp.org/)

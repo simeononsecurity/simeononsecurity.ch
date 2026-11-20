@@ -1,7 +1,7 @@
 ---
 title: "Benefícios e desafios das ferramentas de segurança de código aberto"
 date: 2023-04-05
-lastmod: 2026-11-11
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Conheça os benefícios e desafios das ferramentas de segurança de código aberto e avalie como elas podem melhorar a segurança da sua organização."
@@ -57,14 +57,11 @@ As ferramentas de segurança de código aberto oferecem benefícios como reduç�
 
 ## Referências
 
-- [Open Source Security Tools](https://opensource.com/tags/security)
-- [Open Source Security Foundation](https://openSSF.org/)
-- [National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [Cybersecurity and Infrastructure Security Agency (CISA) Cyber Essentials](https://www.cisa.gov/cyber-essentials)
-- [Open-Source vs. Commercial Security Tools: Pros and Cons Explained](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
-- [Benefits of Open Source Software](https://opensource.com/resources/what-open-source)
-- [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
-- [Open Web Application Security Project (OWASP)](https://owasp.org/)
-
-
-lastmod: 2026-10-11
+- [Ferramentas de segurança de código aberto](https://opensource.com/tags/security)
+- [Fundação para a Segurança do Software de Código Aberto (OpenSSF)](https://openSSF.org/)
+- [Estrutura de cibersegurança do National Institute of Standards and Technology (NIST)](https://www.nist.gov/cyberframework)
+- [Fundamentos de cibersegurança da Cybersecurity and Infrastructure Security Agency (CISA)](https://www.cisa.gov/cyber-essentials)
+- [Ferramentas de segurança de código aberto e comerciais: vantagens e desvantagens](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
+- [Benefícios do software de código aberto](https://opensource.com/resources/what-open-source)
+- [Instituto Nacional de Padrões e Tecnologia (NIST)](https://www.nist.gov/)
+- [Projeto Aberto de Segurança de Aplicações Web (OWASP)](https://owasp.org/)

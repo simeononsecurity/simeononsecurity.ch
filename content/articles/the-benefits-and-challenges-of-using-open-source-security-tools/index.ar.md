@@ -1,7 +1,7 @@
 ---
 title: "فوائد وتحديات أدوات الأمن مفتوحة المصدر"
 date: 2023-04-05
-lastmod: 2026-11-11
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "تعرّف على مزايا أدوات الأمن مفتوحة المصدر وتحدياتها، وكيفية تقييمها لتحسين مستوى أمن مؤسستك."
@@ -57,14 +57,11 @@ ______
 
 ## المراجع
 
-- [Open Source Security Tools](https://opensource.com/tags/security)
-- [Open Source Security Foundation](https://openSSF.org/)
-- [National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [Cybersecurity and Infrastructure Security Agency (CISA) Cyber Essentials](https://www.cisa.gov/cyber-essentials)
-- [Open-Source vs. Commercial Security Tools: Pros and Cons Explained](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
-- [Benefits of Open Source Software](https://opensource.com/resources/what-open-source)
-- [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
-- [Open Web Application Security Project (OWASP)](https://owasp.org/)
-
-
-lastmod: 2026-10-11
+- [أدوات أمن مفتوحة المصدر](https://opensource.com/tags/security)
+- [مؤسسة أمن البرمجيات مفتوحة المصدر (OpenSSF)](https://openSSF.org/)
+- [إطار الأمن السيبراني للمعهد الوطني للمعايير والتقنية (NIST)](https://www.nist.gov/cyberframework)
+- [أساسيات الأمن السيبراني لدى وكالة الأمن السيبراني وأمن البنية التحتية (CISA)](https://www.cisa.gov/cyber-essentials)
+- [أدوات الأمن مفتوحة المصدر مقابل التجارية: شرح المزايا والعيوب](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
+- [مزايا البرمجيات مفتوحة المصدر](https://opensource.com/resources/what-open-source)
+- [المعهد الوطني للمعايير والتقنية (NIST)](https://www.nist.gov/)
+- [مشروع أمن تطبيقات الويب المفتوح (OWASP)](https://owasp.org/)

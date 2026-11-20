@@ -1,7 +1,7 @@
 ---
 title: "ওপেন সোর্স নিরাপত্তা সরঞ্জামের সুবিধা ও চ্যালেঞ্জ"
 date: 2023-04-05
-lastmod: 2026-11-11
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "ওপেন সোর্স নিরাপত্তা সরঞ্জামের সুবিধা ও চ্যালেঞ্জ জানুন এবং প্রতিষ্ঠানের নিরাপত্তা উন্নত করতে সেগুলো মূল্যায়ন করুন।"
@@ -57,14 +57,11 @@ ______
 
 ## তথ্যসূত্র
 
-- [Open Source Security Tools](https://opensource.com/tags/security)
-- [Open Source Security Foundation](https://openSSF.org/)
-- [National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [Cybersecurity and Infrastructure Security Agency (CISA) Cyber Essentials](https://www.cisa.gov/cyber-essentials)
-- [Open-Source vs. Commercial Security Tools: Pros and Cons Explained](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
-- [Benefits of Open Source Software](https://opensource.com/resources/what-open-source)
-- [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
-- [Open Web Application Security Project (OWASP)](https://owasp.org/)
-
-
-lastmod: 2026-10-11
+- [ওপেন সোর্স নিরাপত্তা সরঞ্জাম](https://opensource.com/tags/security)
+- [ওপেন সোর্স সফটওয়্যার নিরাপত্তা ফাউন্ডেশন (OpenSSF)](https://openSSF.org/)
+- [ন্যাশনাল ইনস্টিটিউট অব স্ট্যান্ডার্ডস অ্যান্ড টেকনোলজি (NIST) সাইবার নিরাপত্তা কাঠামো](https://www.nist.gov/cyberframework)
+- [সাইবারসিকিউরিটি অ্যান্ড ইনফ্রাস্ট্রাকচার সিকিউরিটি এজেন্সি (CISA) সাইবার এসেনশিয়ালস](https://www.cisa.gov/cyber-essentials)
+- [ওপেন সোর্স ও বাণিজ্যিক নিরাপত্তা সরঞ্জাম: সুবিধা ও অসুবিধার ব্যাখ্যা](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
+- [ওপেন সোর্স সফটওয়্যারের সুবিধা](https://opensource.com/resources/what-open-source)
+- [ন্যাশনাল ইনস্টিটিউট অব স্ট্যান্ডার্ডস অ্যান্ড টেকনোলজি (NIST)](https://www.nist.gov/)
+- [ওপেন ওয়েব অ্যাপ্লিকেশন নিরাপত্তা প্রকল্প (OWASP)](https://owasp.org/)
