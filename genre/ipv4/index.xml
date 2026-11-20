@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IPv4 on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>IPv4 on simeononsecurity</title><link>https://de.simeononsecurity.com/genre/ipv4/</link></image><link>https://de.simeononsecurity.com/genre/ipv4/</link><description>Recent content in IPv4 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/genre/ipv4/index.xml" rel="self" type="application/rss+xml"/><item><title>Netzwerkgrundlagen: Subnetze, Subnetzbildung und VLAN-Design</title><link>https://de.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</link><pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate><category>
+"Netzwerkgrundlagen"
+, "Subnetzbildung"
+, "VLANs"
+, "Netzwerkverwaltung"
+, "Netzwerksicherheit"
+, "IP-Adressierung"
+, "Netzwerksegmentierung"
+, "Effiziente Ressourcennutzung"
+, "Netzwerkleistung"
+, "IPv4"</category><guid>https://de.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie mehr über Subnetze, Subnetzbildung und VLANs für eine effiziente Netzwerkverwaltung und höhere Sicherheit.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_comp.webp" length="200202" type="image/webp"/></item><item><title>Netzwerkgrundlagen: Was ist eine IP-Adresse und was sind IPv4 und IPv6?</title><link>https://de.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><category>
+"Netzwerke"
+, "IP-Adressen"
+, "Internetprotokolle"
+, "IPv4"
+, "IPv6"
+, "Netzwerkkommunikation"
+, "Internetverbindung"
+, "Technologie"
+, "Netzwerkinfrastruktur"
+, "Internetsicherheit"</category><guid>https://de.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahre, was IP-Adressen sind, worin sich IPv4 und IPv6 unterscheiden und warum die Einführung von IPv6 wichtig ist.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_cartoon_image_of_two_devices_with_speech_bub.webp" length="90028" type="image/webp"/></item><item><title>Network+ Kurs: ARP und Neighbor Discovery Protocol</title><link>https://de.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Netzwerke"
+, "Protokolle"
+, "Network+ Zertifizierung"
+, "Fehlerbehebung"
+, "Netzwerksicherheit"
+, "IPv4"
+, "IPv6"
+, "Netzwerkkommunikation"
+, "Adressauflösung"</category><guid>https://de.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie Sie das Address Resolution Protocol (ARP) und das Neighbor Discovery Protocol (NDP) effektiv nutzen, um IP-Adressen in MAC-Adressen aufzulösen, IPv6-Netzwerke zu navigieren und häufige Probleme zu beheben, um eine optimierte Netzwerkleistung und Sicherheit zu gewährleisten.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_the_seamless.webp" length="89092" type="image/webp"/></item></channel></rss>

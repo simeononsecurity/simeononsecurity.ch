@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qwen3.8 on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Qwen3.8 on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/qwen3.8/</link></image><link>https://de.simeononsecurity.com/tags/qwen3.8/</link><description>Recent content in Qwen3.8 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/qwen3.8/index.xml" rel="self" type="application/rss+xml"/><item><title>So wählen Sie ein ungefiltertes lokales KI-Modell aus</title><link>https://de.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Selbst gehostete KI"
+, "KI-Sicherheit"
+, "GPU-Komponenten"</category><guid>https://de.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergleichen Sie lokale Modellvarianten nach vollständigen Antworten, erhaltenen Fähigkeiten, Kontextnutzung, Quantisierung und passendem VRAM-Bedarf.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Hermes-Modelltests lokal: Welche GPU- und Modellkombinationen ich wählen würde</title><link>https://de.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"Künstliche Intelligenz"
+, "Lokale KI"
+, "Computerhardware"</category><guid>https://de.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Meine Empfehlungen für Hermes beruhen auf Tests mit langem Kontext, Werkzeugen, Streaming und Vision auf RTX-5060-Ti-, RTX-2000E-Ada-, RTX-3060-Ti- und RTX-3070-Systemen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>2x RTX 5060 Ti gegen GB10: Lokaler KI-Benchmark mit fünf Modellen und 256K Kontext</title><link>https://de.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Künstliche Intelligenz"
+, "Lokale KI"
+, "GPU-Hardware"
+, "Benchmarks"
+, "Computerhardware"</category><guid>https://de.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergleich von RTX 5060 Ti und GB10 mit fünf Modellen sowie ein Qwen3.8-Flash-Next-Benchmark mit Strata auf demselben Host und bis zu 256K Kontext.</description><enclosure url="https://de.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Claude Cowork und Claude Code mit lokalen Modellen: Einrichtungsleitfaden 2026</title><link>https://de.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "KI-Programmierwerkzeuge"
+, "Selbst gehostete KI"
+, "Entwicklerwerkzeuge"
+, "Datenschutz"
+, "Open-Source-Modelle"
+, "Automatisierung"
+, "KI-Hardware"</category><guid>https://de.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Richte Ollama mit Claude Desktop und Claude Code über eine Anthropic-kompatible API ein. Erfahre mehr über Modellauswahl und Cloud-Funktionen im Jahr 2026.</description><enclosure url="https://de.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>Lokale KI 2026: Ein 27B-Modell schlägt Sonnet 4.6, während sich das Hardwarefenster schließt</title><link>https://de.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Selbstgehostete KI"
+, "Modelle mit offenen Gewichten"
+, "KI-Hardware"
+, "Maschinelles Lernen"
+, "Quantisierung"
+, "Heimlabor"
+, "Datenschutz"
+, "KI-Ökonomie"
+, "Verbraucherhardware"</category><guid>https://de.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Plane ein lokales KI-System für 2026 anhand von Modellgröße, VRAM, Speicherbandbreite, Strombedarf, Kosten und Aufrüstoptionen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

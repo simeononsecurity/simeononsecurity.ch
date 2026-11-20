@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Prüfprozess on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Prüfprozess on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/pr%C3%BCfprozess/</link></image><link>https://de.simeononsecurity.com/tags/pr%C3%BCfprozess/</link><description>Recent content in Prüfprozess on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/pr%C3%BCfprozess/index.xml" rel="self" type="application/rss+xml"/><item><title>Berechtigungen in vCenter mit PowerCLI prüfen</title><link>https://de.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link><pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate><category>
+"Prüfung von vCenter-Berechtigungen"
+, "PowerCLI-Automatisierung"
+, "VMware-Sicherheit"
+, "Verwaltung virtueller Infrastruktur"
+, "Berechtigungszuweisungen"
+, "Benutzerzugriffskontrolle"
+, "Sicherheitslücken"
+, "PowerShell-Automatisierung"
+, "Verwaltung von vSphere-Umgebungen"
+, "Überprüfung von Benutzerberechtigungen"</category><guid>https://de.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie Sie Berechtigungen in vCenter mit PowerCLI wirksam prüfen und Ihre virtuelle Infrastruktur schützen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/audit-permissions-vcenter-powercli.webp" length="171996" type="image/webp"/></item></channel></rss>

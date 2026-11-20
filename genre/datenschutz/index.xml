@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Datenschutz on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Datenschutz on simeononsecurity</title><link>https://de.simeononsecurity.com/genre/datenschutz/</link></image><link>https://de.simeononsecurity.com/genre/datenschutz/</link><description>Recent content in Datenschutz on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/genre/datenschutz/index.xml" rel="self" type="application/rss+xml"/><item><title>Self-hosted Hindsight: Lokales Agentengedächtnis und privates Modell-Routing</title><link>https://de.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Selbst gehostete KI"
+, "KI-Agenten"
+, "KI-Infrastruktur"
+, "Datenschutz"</category><guid>https://de.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Fallstudie zu selbst gehostetem Hindsight, beobachteten lokalen Qwen-Routen und GPU-Arbeit pro Anfrage ohne gehostetes Modell-Abo auf den geprüften Routen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Browser-DNS- und WebRTC-Lecks mit einem VPN testen</title><link>https://de.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Datenschutz"
+, "Browser"
+, "Netzwerke"</category><guid>https://de.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prüfe die öffentliche IP-Adresse, den DNS-Resolver und die WebRTC-Adressen deines Browsers vor und nach der VPN-Verbindung. Werte die Ergebnisse aus und grenze Routingprobleme ein.</description><enclosure url="https://de.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>Warum DNS-Filter umgangen werden: Den Resolverpfad prüfen</title><link>https://de.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Heimnetzwerke"
+, "DNS"
+, "Datenschutz"</category><guid>https://de.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Finde heraus, warum ein Gerät oder Browser deinen DNS-Filter umgeht. Vergleiche direkte und normale Abfragen, prüfe Protokolle sowie verschlüsseltes DNS, VPN, IPv6 und Routereinstellungen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>Datenschutz bei lokaler KI: Was auf Ihrem Computer bleibt und was nicht</title><link>https://de.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Datenschutz"
+, "selbstgehostete KI"
+, "Cybersicherheit"
+, "KI-Ökonomie"</category><guid>https://de.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verfolgen Sie Prompts, Modelldateien, Tools, Protokolle, Netzwerkzugriff und Stromkosten, bevor Sie lokale Inferenz oder einen gehosteten KI-Dienst wählen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Checkliste zur persönlichen Sicherheit 2026: Wo anfangen und was auslassen</title><link>https://de.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><category>
+"Persönliche Sicherheit"
+, "Privatsphäre"
+, "Digitale Hygiene"
+, "Kontosicherheit"
+, "Bedrohungsmodellierung"
+, "Verbrauchersicherheit"
+, "Passwortverwaltung"
+, "Datenschutz"</category><guid>https://de.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Priorisiere Maßnahmen zur persönlichen Sicherheit nach ihrer Wirkung auf Angriffe, vom Schutz von Konten und Backups bis zu Privatsphäre und Kontowiederherstellung.</description><enclosure url="https://de.simeononsecurity.com/img/cover/personal-security-checklist-2026-tiered-structure.webp" length="98938" type="image/webp"/></item><item><title>Claude Cowork und Claude Code mit lokalen Modellen: Einrichtungsleitfaden 2026</title><link>https://de.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "KI-Programmierwerkzeuge"
+, "Selbst gehostete KI"
+, "Entwicklerwerkzeuge"
+, "Datenschutz"
+, "Open-Source-Modelle"
+, "Automatisierung"
+, "KI-Hardware"</category><guid>https://de.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Richte Ollama mit Claude Desktop und Claude Code über eine Anthropic-kompatible API ein. Erfahre mehr über Modellauswahl und Cloud-Funktionen im Jahr 2026.</description><enclosure url="https://de.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>Lokale KI 2026: Ein 27B-Modell schlägt Sonnet 4.6, während sich das Hardwarefenster schließt</title><link>https://de.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Selbstgehostete KI"
+, "Modelle mit offenen Gewichten"
+, "KI-Hardware"
+, "Maschinelles Lernen"
+, "Quantisierung"
+, "Heimlabor"
+, "Datenschutz"
+, "KI-Ökonomie"
+, "Verbraucherhardware"</category><guid>https://de.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Plane ein lokales KI-System für 2026 anhand von Modellgröße, VRAM, Speicherbandbreite, Strombedarf, Kosten und Aufrüstoptionen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Einen datenschutzfreundlichen KI-Assistenten für Meshtastic bauen</title><link>https://de.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Netzwerksicherheit"
+, "Datenschutz"
+, "Open-Source-Software"
+, "Automatisierung"</category><guid>https://de.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Praxisbericht über einen lokalen KI-Assistenten für Meshtastic mit privater Konfiguration, eingereihtem TCP-Zugriff, Abrufwerkzeugen und einem sichereren Dashboard.</description><enclosure url="https://de.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Sandboxed Google Play auf GrapheneOS erklärt</title><link>https://de.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Datenschutz"
+, "Mobile Sicherheit"
+, "Open Source"</category><guid>https://de.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahre, was Sandboxed Google Play auf GrapheneOS ändert, wann ein separates Profil hilft und wie Konten, Benachrichtigungen und App-Kompatibilität zusammenwirken.</description><enclosure url="https://de.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp"/></item><item><title>Meshtastic vs. MeshCore vs. Reticulum</title><link>https://de.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "Mesh-Netzwerke"
+, "Kommunikation ohne Infrastruktur"
+, "Notfallkommunikation"
+, "Amateurfunk"
+, "Open Source"
+, "Katastrophenvorsorge"
+, "Drahtlosnetzwerke"
+, "Datenschutz"
+, "Netzwerke"</category><guid>https://de.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergleiche Meshtastic, MeshCore und Reticulum nach Routing, Sendezeit, Infrastruktur, Transport und Einsatz ohne Internetverbindung.</description><enclosure url="https://de.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Flock-Kameras: Werkzeug der öffentlichen Sicherheit oder anlasslose Überwachungsmaschine?</title><link>https://de.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"Datenschutz"
+, "Überwachung"
+, "Bürgerrechte"
+, "Strafverfolgungstechnologie"
+, "Digitale Rechte"</category><guid>https://de.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Eine unabhängige Analyse der ALPR-Kameras von Flock Safety: wie sie tatsächlich funktionieren, welche Daten sie über Kennzeichen hinaus erfassen, wie die Datenweitergabe eine schattenhafte nationale Datenbank schafft und warum die Frage des Durchsuchungsbefehls das eigentliche Problem ist.</description><enclosure url="https://de.simeononsecurity.com/img/cover/flock-safety-cameras-public-safety-surveillance.webp" length="257030" type="image/webp"/></item><item><title>MeshCore oder Meshtastic: Vergleich</title><link>https://de.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "Mesh-Netzwerke"
+, "Offline-Kommunikation"
+, "Notfallkommunikation"
+, "Taktische Kommunikation"
+, "Amateurfunk"
+, "Open Source"
+, "Katastrophenvorsorge"
+, "Drahtlosnetzwerke"
+, "Datenschutz"</category><guid>https://de.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergleich von MeshCore und Meshtastic nach Routing, Reichweite, Sendezeit, Infrastruktur, Geräteunterstützung und geeignetem Einsatz.</description><enclosure url="https://de.simeononsecurity.com/img/cover/meshcore-vs-meshtastic-comparison-guide.webp" length="173676" type="image/webp"/></item><item><title>Flock Safety Kameraüberwachung: Privatsphäre und Schutz</title><link>https://de.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Datenschutztechnologie"
+, "Überwachungssysteme"
+, "Digitale Rechte"
+, "Strafverfolgungstechnologie"
+, "Datenschutz"
+, "Gegenüberwachung"
+, "Bürgerrechte"
+, "Technologieethik"
+, "Smart-City-Infrastruktur"
+, "Sicherheitshardware"</category><guid>https://de.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entdecke die weit verbreitete Nutzung von Flock Safety ALPR-Kameras im Jahr 2026, verstehe die Datenschutzimplikationen und lerne effektive Gegenüberwachungsstrategien einschließlich Erkennungsgeräten.</description><enclosure url="https://de.simeononsecurity.com/img/cover/flock-safety-camera-surveillance-prevalence-privacy-protection-2026.webp" length="316668" type="image/webp"/></item><item><title>Schwachstellen in Flock-Safety-Kameras: Über 50 Fehler entdeckt</title><link>https://de.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Sicherheitsforschung"
+, "Schwachstellenanalyse"
+, "Überwachungstechnologie"
+, "IT-Sicherheit"
+, "Datenschutz"
+, "IoT-Sicherheit"
+, "Physische Sicherheit"
+, "Netzwerksicherheit"
+, "Kritische Infrastruktur"
+, "Behördentechnologie"</category><guid>https://de.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Die Untersuchung der Schwachstellen in Flock-Safety-Kameras behandelt offengelegte Zugangsdaten, schwache Schutzmaßnahmen, physischen Zugriff und Grenzen der Offenlegung.</description><enclosure url="https://de.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>Leitfaden zur DSGVO-Konformität für Unternehmen außerhalb der EU im Jahr 2024</title><link>https://de.simeononsecurity.com/articles/understanding-gdpr_-a-guide-for-non-eu-businesses/</link><pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate><category>
+"Datenschutz"
+, "Cybersicherheit"
+, "Leitfaden zur Compliance"
+, "DSGVO-Grundlagen"
+, "Datenschutzrecht"
+, "Unternehmenssicherheit"
+, "Internationale Datenschutzvorschriften"
+, "Digitale Compliance"
+, "Vertrauen von EU-Kunden"
+, "Bewährte Verfahren für Datensicherheit"</category><guid>https://de.simeononsecurity.com/articles/understanding-gdpr_-a-guide-for-non-eu-businesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wann die DSGVO für Unternehmen außerhalb der EU gilt und wie sie Daten rechtmäßig verarbeiten, Betroffenenrechte wahren, Datenschutzverletzungen melden, Daten übermitteln und Aufzeichnungen führen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/understanding-gdpr_-a-guide-for-non-eu-businesses.webp" length="68080" type="image/webp"/></item><item><title>Leitfaden zur Endpunktsicherheit für Remote-Teams</title><link>https://de.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><category>
+"Endpunktsicherheit"
+, "Sicherheit bei Remote-Arbeit"
+, "Leitfaden zur Cybersicherheit"
+, "Datenschutz"
+, "IT-Sicherheitspraktiken"
+, "Zukünftige Sicherheitstrends"
+, "Sicheres Remote-Arbeiten"
+, "Prävention von Cyberbedrohungen"
+, "Maßnahmen zum Datenschutz"
+, "IT-Sicherheitslösungen"</category><guid>https://de.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Schützen Sie Remote-Endpunkte mit Geräteinventar, Härtung, Patches, MFA, Verschlüsselung, EDR, Zugriffsrichtlinien, Überwachung und Reaktionsplanung.</description><enclosure url="https://de.simeononsecurity.com/img/cover/the-ultimate-guide-to-endpoint-security-for-remote-teams.webp" length="58154" type="image/webp"/></item><item><title>Stärke die Sicherheit deines E-Commerce</title><link>https://de.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</link><pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate><category>
+"E-Commerce-Sicherheit"
+, "Cybersicherheit"
+, "Datenschutz"
+, "Onlinegeschäft"
+, "Website-Sicherheit"
+, "Kundenvertrauen"
+, "Sichere Transaktionen"
+, "SSL-Verschlüsselung"
+, "Passwortrichtlinien"
+, "Bewährte Sicherheitspraktiken"</category><guid>https://de.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Schütze deinen Online-Shop mit TLS, MFA für Administratoren, Updates, Zahlungskontrollen, Verschlüsselung, Überwachung, Mitarbeiterschulungen, Betrugsabwehr und Reaktion auf Sicherheitsvorfälle.</description><enclosure url="https://de.simeononsecurity.com/img/cover/the-2024-checklist-for-securing-your-e-commerce-site.webp" length="88770" type="image/webp"/></item><item><title>Strategien zum Schutz Ihres Unternehmens vor Insiderbedrohungen</title><link>https://de.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</link><pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Unternehmenssicherheit"
+, "Insiderbedrohungen"
+, "Datenschutz"
+, "Mitarbeiterschulung"
+, "Sicherheitsmaßnahmen"
+, "Reaktion auf Vorfälle"
+, "Verhaltensanalyse"
+, "Überwachung von Benutzeraktivitäten"
+, "Sicherheitskultur"</category><guid>https://de.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Senken Sie Insider-Risiken durch Zugriffskontrollen, Aktivitätsüberwachung, Meldewege, Offboarding-Verfahren und eine sicherheitsorientierte Arbeitskultur.</description><enclosure url="https://de.simeononsecurity.com/img/cover/protecting-against-insider-threats_-strategies-for-your-company.webp" length="87882" type="image/webp"/></item><item><title>Planung der Reaktion auf Sicherheitsvorfälle: Schritt für Schritt</title><link>https://de.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Reaktion auf Sicherheitsvorfälle"
+, "Unternehmenssicherheit"
+, "Cyberbedrohungen"
+, "Risikomanagement"
+, "Sicherheitsplanung"
+, "Datenschutz"
+, "IT-Sicherheit"
+, "Digitale Resilienz"
+, "Krisenmanagement"</category><guid>https://de.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erstelle einen Plan zur Reaktion auf Sicherheitsvorfälle mit klaren Rollen, Kommunikationswegen, Verfahren, Werkzeugen, Übungen, Kennzahlen und regelmäßigen Aktualisierungen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.webp" length="96088" type="image/webp"/></item><item><title>Cybersicherheit beherrschen</title><link>https://de.simeononsecurity.com/articles/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe/</link><pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate><category>
+"Cybersicherheitspraktiken"
+, "Digitale Sicherheit"
+, "Online-Sicherheit"
+, "Prävention von Cyberbedrohungen"
+, "Datenschutz"
+, "Internet-Privatsphäre"
+, "Sicherheitsmaßnahmen"
+, "Technologiesicherheit"
+, "Informationssicherheit"
+, "Cyberhygiene"</category><guid>https://de.simeononsecurity.com/articles/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entwickeln Sie tägliche Gewohnheiten für Passwörter, MFA, Updates, Phishing-Schutz, Heimnetzwerk, Mobilgeräte, VPN und Datenschutz.</description><enclosure url="https://de.simeononsecurity.com/img/cover/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe.webp" length="175160" type="image/webp"/></item><item><title>10 essenzielle Cybersicherheits-Checks für Ihr Heimnetzwerk</title><link>https://de.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</link><pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate><category>
+"Heimnetzwerksicherheit"
+, "Cybersicherheits-Checks"
+, "Digitale Verteidigung"
+, "Netzwerkschutz"
+, "IoT-Sicherheit"
+, "Datenschutz"
+, "Prävention von Cyberbedrohungen"
+, "Wi-Fi-Sicherheit"
+, "Schutz personenbezogener Informationen"
+, "Tipps für digitale Sicherheit"</category><guid>https://de.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prüfen Sie Ihr Heimnetzwerk mit zehn praktischen Checks zu Router-Updates, Wi-Fi-Verschlüsselung, DNS-Sicherheit, Gerätebestand, Backups und Monitoring.</description><enclosure url="https://de.simeononsecurity.com/img/cover/10-essential-cybersecurity-checks-for-your-home-network.webp" length="141312" type="image/webp"/></item><item><title>Warum Nutzerschulungen in der Cybersicherheit wichtiger sind als moderne Technik</title><link>https://de.simeononsecurity.com/articles/user-training-vs-advanced-tech-cybersecurity/</link><pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Nutzerschulung"
+, "Digitale Sicherheit"
+, "Datenschutz"
+, "Phishing-Prävention"
+, "Soziale Manipulation"
+, "Einhaltung von Vorschriften"
+, "Mitarbeiterschulung"
+, "Sicherheit im Internet"
+, "Informationssicherheit"</category><guid>https://de.simeononsecurity.com/articles/user-training-vs-advanced-tech-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahre, warum Nutzerschulungen in der Cybersicherheit wichtiger sind als moderne Technik und wie sie den digitalen Schutz stärken.</description><enclosure url="https://de.simeononsecurity.com/img/cover/user-training-cybersecurity-defense.webp" length="105250" type="image/webp"/></item><item><title>Warum regulatorische Compliance keine Sicherheit garantiert</title><link>https://de.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</link><pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Compliance"
+, "Sicherheitspraktiken"
+, "Datenschutz"
+, "Cyberbedrohungen"
+, "Regulierungsstandards"
+, "Informationssicherheit"
+, "Risikomanagement"
+, "Unternehmenssicherheit"
+, "Digitale Privatsphäre"</category><guid>https://de.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, welche Sicherheitslücken Compliance-Checklisten offenlassen. Stärken Sie den Schutz mit Risikobewertungen, Tests, Überwachung, Schulungen und Audits.</description><enclosure url="https://de.simeononsecurity.com/img/cover/compliance-security-shield.webp" length="87866" type="image/webp"/></item><item><title>Menschliches Versagen: Eine häufige Ursache für Datenschutzverletzungen</title><link>https://de.simeononsecurity.com/articles/mitigating-human-error-data-breaches/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Datensicherheit"
+, "Menschliches Versagen"
+, "Datenschutzverletzungen"
+, "Datenschutz"
+, "Cyberbedrohungen"
+, "Privatsphäre"
+, "Informationssicherheit"
+, "Digitale Sicherheit"
+, "Sicherheitsschulungen"</category><guid>https://de.simeononsecurity.com/articles/mitigating-human-error-data-breaches/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie menschliche Fehler zu Datenschutzverletzungen beitragen und wie Sie dieses Risiko senken.</description><enclosure url="https://de.simeononsecurity.com/img/cover/data-breach-prevention.webp" length="143036" type="image/webp"/></item><item><title>Warum Open-Source-Software proprietäre Software in Sachen Sicherheit übertrifft</title><link>https://de.simeononsecurity.com/articles/open-source-software-security/</link><pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Quelloffene Software"
+, "Softwaresicherheit"
+, "Staatliche Vorschriften"
+, "Kollaborative Entwicklung"
+, "Digitaler Schutz"
+, "IT-Sicherheit"
+, "Technologietrends"
+, "Online-Sicherheit"
+, "Datenschutz"</category><guid>https://de.simeononsecurity.com/articles/open-source-software-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahre, warum Open-Source-Software als sicherer als proprietäre Software gilt und wie Transparenz und Zusammenarbeit deine digitalen Werte schützen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/open-source-software-security.webp" length="61142" type="image/webp"/></item></channel></rss>

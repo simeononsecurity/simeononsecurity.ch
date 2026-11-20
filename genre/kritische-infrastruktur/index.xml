@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kritische Infrastruktur on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Kritische Infrastruktur on simeononsecurity</title><link>https://de.simeononsecurity.com/genre/kritische-infrastruktur/</link></image><link>https://de.simeononsecurity.com/genre/kritische-infrastruktur/</link><description>Recent content in Kritische Infrastruktur on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/genre/kritische-infrastruktur/index.xml" rel="self" type="application/rss+xml"/><item><title>Schwachstellen in Flock-Safety-Kameras: Über 50 Fehler entdeckt</title><link>https://de.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Sicherheitsforschung"
+, "Schwachstellenanalyse"
+, "Überwachungstechnologie"
+, "IT-Sicherheit"
+, "Datenschutz"
+, "IoT-Sicherheit"
+, "Physische Sicherheit"
+, "Netzwerksicherheit"
+, "Kritische Infrastruktur"
+, "Behördentechnologie"</category><guid>https://de.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Die Untersuchung der Schwachstellen in Flock-Safety-Kameras behandelt offengelegte Zugangsdaten, schwache Schutzmaßnahmen, physischen Zugriff und Grenzen der Offenlegung.</description><enclosure url="https://de.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item></channel></rss>

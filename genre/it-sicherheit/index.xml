@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT-Sicherheit on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>IT-Sicherheit on simeononsecurity</title><link>https://de.simeononsecurity.com/genre/it-sicherheit/</link></image><link>https://de.simeononsecurity.com/genre/it-sicherheit/</link><description>Recent content in IT-Sicherheit on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/genre/it-sicherheit/index.xml" rel="self" type="application/rss+xml"/><item><title>Schwachstellen in Flock-Safety-Kameras: Über 50 Fehler entdeckt</title><link>https://de.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Sicherheitsforschung"
+, "Schwachstellenanalyse"
+, "Überwachungstechnologie"
+, "IT-Sicherheit"
+, "Datenschutz"
+, "IoT-Sicherheit"
+, "Physische Sicherheit"
+, "Netzwerksicherheit"
+, "Kritische Infrastruktur"
+, "Behördentechnologie"</category><guid>https://de.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Die Untersuchung der Schwachstellen in Flock-Safety-Kameras behandelt offengelegte Zugangsdaten, schwache Schutzmaßnahmen, physischen Zugriff und Grenzen der Offenlegung.</description><enclosure url="https://de.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>Planung der Reaktion auf Sicherheitsvorfälle: Schritt für Schritt</title><link>https://de.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Reaktion auf Sicherheitsvorfälle"
+, "Unternehmenssicherheit"
+, "Cyberbedrohungen"
+, "Risikomanagement"
+, "Sicherheitsplanung"
+, "Datenschutz"
+, "IT-Sicherheit"
+, "Digitale Resilienz"
+, "Krisenmanagement"</category><guid>https://de.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erstelle einen Plan zur Reaktion auf Sicherheitsvorfälle mit klaren Rollen, Kommunikationswegen, Verfahren, Werkzeugen, Übungen, Kennzahlen und regelmäßigen Aktualisierungen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.webp" length="96088" type="image/webp"/></item><item><title>Warum Open-Source-Software proprietäre Software in Sachen Sicherheit übertrifft</title><link>https://de.simeononsecurity.com/articles/open-source-software-security/</link><pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Quelloffene Software"
+, "Softwaresicherheit"
+, "Staatliche Vorschriften"
+, "Kollaborative Entwicklung"
+, "Digitaler Schutz"
+, "IT-Sicherheit"
+, "Technologietrends"
+, "Online-Sicherheit"
+, "Datenschutz"</category><guid>https://de.simeononsecurity.com/articles/open-source-software-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahre, warum Open-Source-Software als sicherer als proprietäre Software gilt und wie Transparenz und Zusammenarbeit deine digitalen Werte schützen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/open-source-software-security.webp" length="61142" type="image/webp"/></item><item><title>Cybersecurity-Fachbegriffe verständlich erklärt</title><link>https://de.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</link><pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Technologie"
+, "Digitale Sicherheit"
+, "Online-Bedrohungen"
+, "Internetsicherheit"
+, "Datenschutz"
+, "Privatsphäre"
+, "Online-Abwehr"
+, "IT-Sicherheit"
+, "Cyberbedrohungen"</category><guid>https://de.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ein verständlicher Leitfaden zu Cybersecurity-Begriffen, Bedrohungen, Technologien und Datenschutzvorschriften.</description><enclosure url="https://de.simeononsecurity.com/img/cover/cybersecurity-jargon-illustration.webp" length="150724" type="image/webp"/></item><item><title>Windows-Registrierung vs. Linux-Konfigurationsdateien</title><link>https://de.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link><pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Betriebssysteme"
+, "Sicherheitsverwaltung"
+, "Computertechnik"
+, "Datenschutz"
+, "Systemkonfiguration"
+, "IT-Sicherheit"
+, "Netzwerksicherheit"
+, "Technikvergleiche"
+, "Informationssicherheit"</category><guid>https://de.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergleiche die Sicherheitsmerkmale der Windows-Registrierung und der Linux-Konfigurationsdateien sowie bewährte Maßnahmen zur Absicherung beider Systeme.</description><enclosure url="https://de.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp"/></item><item><title>Cybersicherheit meistern</title><link>https://de.simeononsecurity.com/articles/mastering-risk-management-framework-cybersecurity/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Risikomanagement"
+, "Informationssicherheit"
+, "Staatliche Vorschriften"
+, "Cyberabwehr"
+, "IT-Sicherheit"
+, "Datenschutz"
+, "Sicherheitskontrollen"
+, "NIST-Richtlinien"
+, "Kontinuierliche Überwachung"</category><guid>https://de.simeononsecurity.com/articles/mastering-risk-management-framework-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lernen Sie das zentrale Rahmenwerk zum Risikomanagement (RMF) der Cybersicherheit, seine Bestandteile und seine Bedeutung kennen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/cybersecurity_shield_protection.webp" length="120532" type="image/webp"/></item><item><title>Netzwerk- und Cloud-Sicherheit maximieren</title><link>https://de.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Cybersicherheit"
+, "Cloud-Sicherheit"
+, "Netzwerkschutz"
+, "Digitale Sicherheit"
+, "Datenschutz"
+, "IT-Sicherheit"
+, "Unternehmenstechnologie"
+, "Digitale Abwehr"
+, "Cyberbedrohungen"</category><guid>https://de.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie mehr über Bedrohungen, Schutzmaßnahmen und Fallstudien für eine starke Netzwerk- und Cloud-Sicherheit.</description><enclosure url="https://de.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp"/></item><item><title>EDR-Sicherheit meistern: Ein Leitfaden zum Endpunktschutz</title><link>https://de.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Endpunktschutz"
+, "EDR-Lösungen"
+, "Bedrohungserkennung"
+, "Reaktion auf Sicherheitsvorfälle"
+, "Endpunktsicherheit"
+, "Cyberbedrohungen"
+, "IT-Sicherheit"
+, "Digitale Verteidigung"
+, "Sicherheitsstrategien"</category><guid>https://de.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie EDR-Sicherheit funktioniert, welche Vorteile sie bietet, welche Herausforderungen bei der Einführung auftreten und welche bewährten Verfahren Endpunkte schützen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp"/></item><item><title>Ihre Abwehr stärken: EDR-Cybersicherheitslösungen verstehen</title><link>https://de.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Technologie"
+, "Bedrohungserkennung"
+, "Endgerätesicherheit"
+, "Incident Response"
+, "Datenschutz"
+, "Netzwerksicherheit"
+, "Digitale Verteidigung"
+, "IT-Sicherheit"
+, "Cyberresilienz"</category><guid>https://de.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie EDR-Lösungen Endgeräte schützen, Bedrohungen erkennen und Unternehmen bei der Auswahl einer passenden Lösung unterstützen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp"/></item><item><title>Cybersecurity-Incident-Response meistern</title><link>https://de.simeononsecurity.com/articles/mastering-cybersecurity-incident-response-guide/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Vorfallreaktion"
+, "Informationssicherheit"
+, "Datenschutz"
+, "Cyberabwehr"
+, "Digitale Bedrohungen"
+, "IT-Sicherheit"
+, "Digitale Sicherheit"
+, "Datenpanne"
+, "Notfallreaktion"</category><guid>https://de.simeononsecurity.com/articles/mastering-cybersecurity-incident-response-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dieser umfassende Leitfaden zeigt, wie eine wirksame Reaktion auf Cybersecurity-Vorfälle Organisationen vor Bedrohungen schützt und ihre Widerstandsfähigkeit stärkt.</description><enclosure url="https://de.simeononsecurity.com/img/cover/Cybersecurity_Incident_Response_Fortress.webp" length="137924" type="image/webp"/></item><item><title>Programme gegen Insiderbedrohungen: Bestandteile und Risikominderung</title><link>https://de.simeononsecurity.com/articles/enhancing-security-insider-threat-programs/</link><pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Risikomanagement"
+, "Sicherheitsstrategie"
+, "Insiderbedrohungen"
+, "Mitarbeiterschulung"
+, "Datenschutz"
+, "IT-Sicherheit"
+, "Organisationssicherheit"
+, "Bedrohungsminderung"
+, "Sicherheitskultur"</category><guid>https://de.simeononsecurity.com/articles/enhancing-security-insider-threat-programs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie Programme gegen Insiderbedrohungen die Sicherheit stärken und Risiken aus dem eigenen Unternehmen mindern. Lernen Sie die wichtigsten Bestandteile, Herausforderungen und Erfolgsbeispiele kennen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/Insider_Threat_Protection_Shield.webp" length="82326" type="image/webp"/></item><item><title>Schutz vor Ransomware</title><link>https://de.simeononsecurity.com/articles/ransomware-protection-strategies/</link><pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Technologie"
+, "Digitale Bedrohungen"
+, "Datensicherheit"
+, "Online-Sicherheit"
+, "Cyberkriminalität"
+, "IT-Sicherheit"
+, "Schadsoftware"
+, "Internetsicherheit"
+, "Datenschutz"</category><guid>https://de.simeononsecurity.com/articles/ransomware-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie Ransomware funktioniert und welche Folgen sie hat. Mit vorbeugenden Maßnahmen stärken Sie Ihre Cybersicherheit.</description><enclosure url="https://de.simeononsecurity.com/img/cover/ransomware-protection-shield.webp" length="62160" type="image/webp"/></item><item><title>Cybersicherheit verbessern</title><link>https://de.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Windows-Gruppenrichtlinie"
+, "Reduzierung der Angriffsfläche"
+, "IT-Sicherheit"
+, "Netzwerkschutz"
+, "Datenschutz"
+, "Digitale Resilienz"
+, "Systemhärtung"
+, "Bewährte Sicherheitsverfahren"
+, "Risikominderung"</category><guid>https://de.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie Windows-Gruppenrichtlinien die Angriffsfläche verkleinern und den Schutz verbessern.</description><enclosure url="https://de.simeononsecurity.com/img/cover/Cybersecurity_Shield_Defense.webp" length="129592" type="image/webp"/></item><item><title>Das Prinzip der minimalen Rechte meistern</title><link>https://de.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Linux-Sicherheit"
+, "Zugriffskontrolle"
+, "IT-Sicherheit"
+, "Netzwerksicherheit"
+, "Informationsschutz"
+, "Datenschutz"
+, "Cyberbedrohungen"
+, "Risikomanagement"
+, "Bewährte Sicherheitsverfahren"</category><guid>https://de.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verbessere die Cybersicherheit mit Zugriffskontrollen nach dem Prinzip der minimalen Rechte unter Linux. Lerne die Umsetzung, bewährte Verfahren und Fehlerbehebung kennen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>Windows-Server-Sicherheit meistern</title><link>https://de.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "IT-Sicherheit"
+, "Serververwaltung"
+, "Cybersicherheit"
+, "Netzwerkschutz"
+, "Datenintegrität"
+, "IT-Infrastruktur"
+, "Bewährte Verfahren"
+, "Serverhärtung"
+, "Windows Server"</category><guid>https://de.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lernen Sie wirksame Sicherheitsmaßnahmen für Windows Server kennen. Der Leitfaden reicht von grundlegender Härtung bis zu fortgeschrittenen Techniken zum Schutz Ihrer Infrastruktur.</description><enclosure url="https://de.simeononsecurity.com/img/cover/Windows_Server_Security_Shield_Protection.webp" length="101056" type="image/webp"/></item><item><title>Bewährte Python-Sicherheitspraktiken: Schützen Sie Ihren Code und Ihre Daten</title><link>https://de.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><category>
+"Python-Sicherheit"
+, "Code Sicherheit"
+, "Datenschutz"
+, "Software-Entwicklung"
+, "Cybersicherheit"
+, "Sichere Kodierung"
+, "Web-Entwicklung"
+, "Datenschutz"
+, "Anwendungssicherheit"
+, "IT-Sicherheit"</category><guid>https://de.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lernen Sie bewährte Vorgehensweisen für Python-Sicherheit kennen, um Ihren Code und Ihre Daten vor potenziellen Bedrohungen zu schützen, Datenschutz und Systemintegrität zu gewährleisten und Vertrauen aufzubauen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.webp" length="115818" type="image/webp"/></item><item><title>10 bewährte PowerShell-Sicherheitspraktiken zum Schutz von Skripten</title><link>https://de.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Bewährte PowerShell-Sicherheitspraktiken"
+, "Skripting-Sicherheit"
+, "Passwortsicherheit"
+, "IT-Sicherheit"
+, "Cybersecurity"
+, "Windows-Verwaltung"
+, "Automatisierung"
+, "Sichere Kodierung"
+, "Sicherheit im Netz"
+, "Datenschutz"</category><guid>https://de.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lernen Sie die 10 wichtigsten PowerShell-Sicherheits-Best-Practices zum Schutz Ihrer Skripts, Kennwörter und sensiblen Informationen kennen. Verbessern Sie die Sicherheit Ihrer PowerShell-Umgebung und schützen Sie sich vor unbefugtem Zugriff und potenziellen Sicherheitsverletzungen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp" length="76288" type="image/webp"/></item><item><title>Heute habe ich gelernt, wie man JSON in PowerShell und Bash manipuliert und parst</title><link>https://de.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatisierung"
+, "Einhaltung der Vorschriften"
+, "Windows-Sicherheit"
+, "Ansible Playbooks"
+, "Ansible-Sammlungen"
+, "IT-Sicherheit"
+, "Konfigurationsmanagement"
+, "DevOps"
+, "Windows-Verwaltung"
+, "System-Konfiguration"</category><guid>https://de.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;&lt;strong&gt;Was SimeonOnSecurity heute erfahren und interessant gefunden hat&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity hat eine Seite auf seiner Website aktualisiert und sich über einige Ressourcen informiert, die er interessant findet. Bei der aktualisierten Seite handelt es sich um den Bericht über die Invite Challenge auf HackTheBox. Diese Seite bietet eine eingehende Analyse des Prozesses zur Lösung der Herausforderung sowohl auf Windows- als auch auf Linux-Systemen.&lt;/p&gt;
+&lt;p&gt;Zusätzlich zu der aktualisierten Seite hat SimeonOnSecurity auch einige nützliche Lernressourcen entdeckt. Eine dieser Ressourcen ist ein Blogbeitrag von Cameron Nokes, der sich auf die Arbeit mit JSON in Bash unter Verwendung des jq-Tools konzentriert. Das jq-Tool ist ein Befehlszeilendienstprogramm, mit dem sich JSON-Daten leicht analysieren, filtern und manipulieren lassen.&lt;/p&gt;</description></item></channel></rss>

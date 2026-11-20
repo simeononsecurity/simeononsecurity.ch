@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Homelab on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Homelab on simeononsecurity</title><link>https://de.simeononsecurity.com/genre/homelab/</link></image><link>https://de.simeononsecurity.com/genre/homelab/</link><description>Recent content in Homelab on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/genre/homelab/index.xml" rel="self" type="application/rss+xml"/><item><title>Ein Homelab in 10 Stufen aufbauen, von Pi-hole bis lokaler KI</title><link>https://de.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Self-Hosting"
+, "Lokale KI"
+, "Heimnetzwerke"</category><guid>https://de.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Baue ein Homelab in zehn praktischen Stufen auf, von netzwerkweiter DNS-Filterung bis lokaler KI, mit Hardware, Kosten, Fähigkeiten und Kompromissen pro Stufe.</description><enclosure url="https://de.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>VLAN-Segmentierung im Homelab planen und testen</title><link>https://de.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Netzwerksicherheit"
+, "Netzwerke"</category><guid>https://de.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erstelle einen VLAN-Plan für vertrauenswürdige Geräte, Server, IoT und Gäste. Erfasse erlaubten Datenverkehr, konfiguriere das Netzwerk schrittweise und prüfe die Isolation.</description><enclosure url="https://de.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Wiederherstellung einer Homelab-Sicherung mit Restic testen</title><link>https://de.simeononsecurity.com/articles/homelab-backup-restore-drill/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Datensicherung"
+, "Notfallwiederherstellung"</category><guid>https://de.simeononsecurity.com/articles/homelab-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prüfe, ob eine Homelab-Sicherung nutzbare Dateien wiederherstellt. Lege ein Wiederherstellungsziel fest, spiele die Daten mit Restic an einem anderen Ort ein, prüfe sie und protokolliere das Ergebnis.</description><enclosure url="https://de.simeononsecurity.com/img/cover/homelab-backup-restore-drill.webp" length="80454" type="image/webp"/></item><item><title>Proxmox VE 8 auf 9 Upgrade-Anleitung: In-Place-Upgrade mit automatisiertem Skript</title><link>https://de.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Virtualisierung"
+, "Linux-Administration"
+, "Proxmox"
+, "Serververwaltung"
+, "Open Source"
+, "Homelab"</category><guid>https://de.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vollständige Anleitung zum Upgrade von Proxmox VE 8 (Debian Bookworm) auf Proxmox VE 9 (Debian Trixie). Behandelt Voraussetzungen, schrittweises manuelles Upgrade, das Automatisierungsskript pve8to9-upgrade.sh, grundlegende Änderungen und bekannte Probleme.</description><enclosure url="https://de.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item></channel></rss>

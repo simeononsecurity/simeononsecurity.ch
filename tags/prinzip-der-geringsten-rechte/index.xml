@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Prinzip Der Geringsten Rechte on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Prinzip Der Geringsten Rechte on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/prinzip-der-geringsten-rechte/</link></image><link>https://de.simeononsecurity.com/tags/prinzip-der-geringsten-rechte/</link><description>Recent content in Prinzip Der Geringsten Rechte on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/prinzip-der-geringsten-rechte/index.xml" rel="self" type="application/rss+xml"/><item><title>1Password SSH Agent und CLI: Nur-Lese-Zugriff für KI-Agenten</title><link>https://de.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Systemadministration"
+, "Cloud-Sicherheit"
+, "Automatisierung"</category><guid>https://de.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entwerfen Sie einen nur-lesbaren SSH-Workflow mit 1Password CLI, dem SSH Agent und MCP. Verwenden Sie synthetische Befehle, eingeschränkte Berechtigungen und menschliche Genehmigung vor dem Live-Test.</description><enclosure url="https://de.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Windows-Aufgabenplanung oder Linux-Cron: Sicherheitsvergleich</title><link>https://de.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Betriebssysteme"
+, "Systemautomatisierung"
+, "Sicherheitswerkzeuge"
+, "Computertechnik"
+, "Aufgabenplanung"
+, "Netzwerksicherheit"
+, "Systemadministration"
+, "Cyberabwehr"
+, "IT-Verwaltung"</category><guid>https://de.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergleiche Windows-Aufgabenplanung und Linux-Cron aus Sicht der Cybersicherheit und Systemhärtung.</description><enclosure url="https://de.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>Active Directory absichern</title><link>https://de.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Netzwerkverwaltung"
+, "Informationstechnologie"
+, "Datenschutz"
+, "Unternehmenssicherheit"
+, "Digitale Infrastruktur"
+, "Zugriffskontrolle"
+, "Benutzerauthentifizierung"
+, "IT-Best Practices"
+, "Sicherheitsbewusstsein"</category><guid>https://de.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahre, wie du Active Directory absicherst, Daten schützt und Angriffe auf deine Netzwerkinfrastruktur verhinderst.</description><enclosure url="https://de.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item></channel></rss>

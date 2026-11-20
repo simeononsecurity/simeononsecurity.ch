@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IoT-Sicherheit on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>IoT-Sicherheit on simeononsecurity</title><link>https://de.simeononsecurity.com/genre/iot-sicherheit/</link></image><link>https://de.simeononsecurity.com/genre/iot-sicherheit/</link><description>Recent content in IoT-Sicherheit on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/genre/iot-sicherheit/index.xml" rel="self" type="application/rss+xml"/><item><title>Eye Spy: Passiver ESP32-Detektor für Überwachung und Tracker</title><link>https://de.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"Datenschutz-Tools"
+, "Gegenüberwachung"
+, "IoT-Sicherheit"
+, "Eingebettete Systeme"
+, "Sicherheitsforschung"
+, "WiFi-Sicherheit"
+, "Bluetooth-Sicherheit"
+, "ESP32-Projekte"
+, "Hardware-Sicherheit"
+, "Open-Source-Sicherheit"</category><guid>https://de.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Eine vollständige technische Referenz für Eye Spy v1.1 - ein Open-Source-passiver BLE- und WiFi-Überwachungsdetektor, der auf dem M5Stack Atom Lite (ESP32-PICO-D4) läuft und nach Bodycams, ALPR-Systemen, AirTags, Drohnen und versteckten Kameras mit einem Konfidenz-Score-Bedrohungsmodell und einer einzigen RGB-LED sucht.</description><enclosure url="https://de.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>ESP32 WiFi Canary: Passive Bedrohungserkennung im 2,4-GHz-Band</title><link>https://de.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Netzwerksicherheit"
+, "WiFi-Sicherheit"
+, "IoT-Sicherheit"
+, "Sicherheitsforschung"
+, "Eingebettete Systeme"
+, "Datenschutz-Tools"
+, "ESP32-Projekte"
+, "Hardware-Sicherheit"
+, "Drahtlose Sicherheit"
+, "Open-Source-Sicherheit"</category><guid>https://de.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Eine detaillierte Analyse des ESP32 WiFi Canary-Projekts - ein kompakter, passiver 2,4-GHz-Bewusstseinssensor für den M5Stack Atom Lite, der still nach Evil-Twin-APs, Deauthentifizierungsangriffen, Sicherheits-Downgrades und Beacon-Floods sucht und ein Konfidenz-Bewertungs-Bedrohungsmodell sowie eine einzige RGB-LED verwendet.</description><enclosure url="https://de.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>Schwachstellen in Flock-Safety-Kameras: Über 50 Fehler entdeckt</title><link>https://de.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Sicherheitsforschung"
+, "Schwachstellenanalyse"
+, "Überwachungstechnologie"
+, "IT-Sicherheit"
+, "Datenschutz"
+, "IoT-Sicherheit"
+, "Physische Sicherheit"
+, "Netzwerksicherheit"
+, "Kritische Infrastruktur"
+, "Behördentechnologie"</category><guid>https://de.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Die Untersuchung der Schwachstellen in Flock-Safety-Kameras behandelt offengelegte Zugangsdaten, schwache Schutzmaßnahmen, physischen Zugriff und Grenzen der Offenlegung.</description><enclosure url="https://de.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>10 essenzielle Cybersicherheits-Checks für Ihr Heimnetzwerk</title><link>https://de.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</link><pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate><category>
+"Heimnetzwerksicherheit"
+, "Cybersicherheits-Checks"
+, "Digitale Verteidigung"
+, "Netzwerkschutz"
+, "IoT-Sicherheit"
+, "Datenschutz"
+, "Prävention von Cyberbedrohungen"
+, "Wi-Fi-Sicherheit"
+, "Schutz personenbezogener Informationen"
+, "Tipps für digitale Sicherheit"</category><guid>https://de.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prüfen Sie Ihr Heimnetzwerk mit zehn praktischen Checks zu Router-Updates, Wi-Fi-Verschlüsselung, DNS-Sicherheit, Gerätebestand, Backups und Monitoring.</description><enclosure url="https://de.simeononsecurity.com/img/cover/10-essential-cybersecurity-checks-for-your-home-network.webp" length="141312" type="image/webp"/></item><item><title>Einblicke von Insidern: Expertenmeinungen zu Cybersicherheitstrends</title><link>https://de.simeononsecurity.com/articles/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity/</link><pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate><category>
+"Einblicke in die Cybersicherheit"
+, "Digitale Bedrohungslage"
+, "Sicherheitsmaßnahmen"
+, "Regulatorische Compliance"
+, "Herausforderungen der Cybersicherheit"
+, "Technologische Fortschritte"
+, "KI und maschinelles Lernen in der Sicherheit"
+, "Blockchain-Technologie"
+, "IoT-Sicherheit"
+, "Zukunftstrends der Cybersicherheit"
+, "Biometrische Authentifizierung"</category><guid>https://de.simeononsecurity.com/articles/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Überblick zu aktuellen Cyberbedrohungen, Fachkräftelücken, Datenschutz, KI, Blockchain, IoT-Sicherheit, Quantencomputing, Automatisierung und biometrischer Authentifizierung.</description><enclosure url="https://de.simeononsecurity.com/img/cover/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity.webp" length="117650" type="image/webp"/></item><item><title>Firewalla für das Heimnetz: Sicherheit und Einsatz im Homelab</title><link>https://de.simeononsecurity.com/articles/firewalla-home-network-security-guide/</link><pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Cybersicherheit"
+, "Heimnetzwerk"
+, "Netzwerksicherheit"
+, "IoT-Sicherheit"
+, "Online-Sicherheit"
+, "Homelabs"
+, "Digitaler Schutz"
+, "Einbruchserkennung"
+, "Inhaltsfilterung"</category><guid>https://de.simeononsecurity.com/articles/firewalla-home-network-security-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie Firewalla die Sicherheit im Heimnetz unterstützt, wie es sich für Homelabs eignet und welche Vorteile und Grenzen zu beachten sind.</description><enclosure url="https://de.simeononsecurity.com/img/cover/firewalla-home-network-security.webp" length="57452" type="image/webp"/></item></channel></rss>

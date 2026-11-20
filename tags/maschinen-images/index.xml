@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Maschinen-Images on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Maschinen-Images on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/maschinen-images/</link></image><link>https://de.simeononsecurity.com/tags/maschinen-images/</link><description>Recent content in Maschinen-Images on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/maschinen-images/index.xml" rel="self" type="application/rss+xml"/><item><title>Packer für Infrastruktur als Code: Vorteile und bewährte Praktiken</title><link>https://de.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"Packer"
+, "Infrastruktur als Code"
+, "Entwicklung und Betrieb"
+, "Automatisierung"
+, "Sicherheit"
+, "Reproduzierbarkeit"
+, "Skalierbarkeit"
+, "Multiplattform"
+, "Versionskontrolle"
+, "Cloud Computing in der Cloud"
+, "Maschinen-Images"
+, "Virtualisierung"
+, "Konfigurationsmanagement"
+, "Kontinuierliche Integration"
+, "Kontinuierliche Bereitstellung"
+, "Softwareentwicklung"
+, "Bewährte Praktiken"
+, "Tests"
+, "Offener Quellcode"
+, "Mehrere Clouds"</category><guid>https://de.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie Sie mit Packer leicht zu wartende und sichere Maschinen-Images erstellen können.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.webp" length="175658" type="image/webp"/></item></channel></rss>
