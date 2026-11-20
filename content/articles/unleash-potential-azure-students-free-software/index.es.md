@@ -46,9 +46,9 @@ Visual Studio ofrece un *amplio conjunto de herramientas*, *capacidades de depur
 
 ## **Conclusión**
 
-**Microsoft Azure for Students** ofrece a los *estudiantes interesados en la tecnología* y el desarrollo acceso a la plataforma en la nube de Microsoft. *También incluye licencias gratuitas* *de algunos* productos, como **Windows Server**, **Windows 10**, **Windows 11** y **Visual Studio**.
+**Microsoft Azure for Students** es una *gran oportunidad para estudiantes apasionados por la tecnología y el desarrollo*. El programa da acceso a la *potente plataforma en la nube de Microsoft* y también concede *licencias gratuitas* para **Windows Server**, **Windows 10**, **Windows 11** para equipos de escritorio, **Visual Studio** y otros productos.
 
-*Al participar, puedes adquirir* **experiencia práctica**, aprender **nuevas habilidades** *y crear proyectos* *sin asumir el* costo de esos recursos. Antes de registrarte, consulta los *requisitos y las ofertas de* software vigentes.
+Al participar en el programa **Azure for Students**, puedes adquirir una *valiosa experiencia práctica*, *aprender nuevas habilidades* y *crear proyectos interesantes* sin preocuparte por los costes asociados. Si eres estudiante y aún no has explorado **Azure for Students**, *es el momento de aprovechar este excelente recurso y desarrollar todo tu potencial como desarrollador*!
 
 ______
 

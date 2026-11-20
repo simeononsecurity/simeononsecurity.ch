@@ -46,9 +46,9 @@ Visual Studio ofereix un *conjunt complet d’eines*, *capacitats de depuració*
 
 ## **Conclusió**
 
-**Microsoft Azure for Students** ofereix als *estudiants interessats en tecnologia i* desenvolupament accés a la plataforma al núvol de Microsoft. *També inclou llicències gratuïtes* *d’alguns productes*, com **Windows Server**, **Windows 10**, **Windows 11** i **Visual Studio**.
+**Microsoft Azure for Students** és una *gran oportunitat per als estudiants apassionats per la tecnologia i el desenvolupament*. El programa dona accés a la *potent plataforma al núvol de Microsoft* i concedeix *llicències gratuïtes* per a **Windows Server**, **Windows 10**, **Windows 11** per a ordinadors, **Visual Studio** i altres productes.
 
-Amb *el programa pots adquirir* **experiència pràctica**, aprendre **noves habilitats** *i crear projectes* *sense preocupar-te* pel cost d’aquests recursos. Abans d’inscriure-t’hi, consulta els *requisits i les ofertes de* programari vigents.
+En participar en el programa **Azure for Students**, pots adquirir una *valuosa experiència pràctica*, *aprendre noves habilitats* i *crear projectes engrescadors* sense preocupar-te pels costos associats. Si ets estudiant i encara no has explorat **Azure for Students**, *és el moment d’aprofitar aquest excel·lent recurs i desenvolupar tot el teu potencial com a desenvolupador*!
 
 ______
 
