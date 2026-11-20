@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Носители Данных on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Носители Данных on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BD%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D0%B8-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BD%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D0%B8-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/</link>
+
+    <description>Recent content in Носители Данных on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 04 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BD%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D0%B8-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Файловые системы: от FAT32 до NTFS и других форматов</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</link>
+        
+        <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Информатика"
+            
+              , "Хранение данных"
+            
+              , "Технические руководства"
+            
+              , "Управление файлами"
+            
+              , "Операционные системы"
+            
+              , "Цифровая организация"
+            
+              , "Техническое образование"
+            
+              , "Сведения о программном обеспечении"
+            
+              , "Оптимизация системы"
+            
+              , "Технические ресурсы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите файловые системы на примере FAT32, NTFS, exFAT и других форматов. Сравните их функции, ограничения и совместимость для эффективного управления данными.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/computer-file-systems-explained_-fat32,-ntfs,-exfat,-and-more.webp" length="132294" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

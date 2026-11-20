@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Задержка Ретранслятора on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Задержка Ретранслятора on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%B7%D0%B0%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D1%80%D0%B5%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%B0/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%B7%D0%B0%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D1%80%D0%B5%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%B0/</link>
+
+    <description>Recent content in Задержка Ретранслятора on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%B7%D0%B0%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D1%80%D0%B5%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Почему Tailscale использует ретранслятор: прямые соединения, DERP и пиринговые ретрансляторы</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</link>
+        
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Networking"
+            
+              , "Network Security"
+            
+              , "Self-Hosted"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему Tailscale использует ретранслятор, как читать вывод status и netcheck и когда следует изучить соединение через DERP или пиринговый ретранслятор.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/why-tailscale-uses-a-relay.webp" length="103974" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

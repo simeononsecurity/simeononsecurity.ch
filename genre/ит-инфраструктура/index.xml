@@ -1,0 +1,1410 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ИТ-Инфраструктура on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>ИТ-Инфраструктура on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%B8%D1%82-%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%B8%D1%82-%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0/</link>
+
+    <description>Recent content in ИТ-Инфраструктура on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%B8%D1%82-%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible vs Puppet vs Chef 2026: управление конфигурацией</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "Автоматизация инфраструктуры"
+            
+              , "Управление конфигурацией"
+            
+              , "ИТ-операции"
+            
+              , "Облачные вычисления"
+            
+              , "Системное администрирование"
+            
+              , "Корпоративные ИТ"
+            
+              , "Разработка ПО"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Инструменты автоматизации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение Ansible, Puppet и Chef в 2026 году: архитектура, функции, обучение, производительность, цены и сценарии использования.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Fortinet против Cisco: полное сравнение сетевой безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сетевая безопасность"
+            
+              , "Кибербезопасность"
+            
+              , "Корпоративные сети"
+            
+              , "Сравнение межсетевых экранов"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Сетевое оборудование"
+            
+              , "Решения по безопасности"
+            
+              , "Управление сетью"
+            
+              , "Сравнение технологий"
+            
+              , "Принятие ИТ-решений"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Всестороннее сравнение решений Fortinet и Cisco для сетевой безопасности, включая межсетевые экраны, коммутаторы, SD-WAN, цены, показатели производительности и рекомендации по развертыванию на 2026 год.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Виртуализация: эффективность и масштабируемость ИТ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</link>
+        
+        <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Руководство по виртуализации"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Технологические инновации"
+            
+              , "Облачные вычисления"
+            
+              , "Управление центрами обработки данных"
+            
+              , "Эффективность вычислений"
+            
+              , "Сетевые решения"
+            
+              , "Кибербезопасность"
+            
+              , "Развитие программного обеспечения"
+            
+              , "Оптимизация оборудования"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите виртуализацию, чтобы повысить производительность ИТ. Узнайте о ее видах, преимуществах и рекомендациях по управлению инфраструктурой.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/understanding-virtualization_-concepts-and-applications.webp" length="103918" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Надежные решения для сетей на больших расстояниях</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/networking-over-long-distances_-understanding-cabling-types/</link>
+        
+        <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Компьютерные сети"
+            
+              , "Технологии связи"
+            
+              , "Кабельные системы передачи данных"
+            
+              , "Оптоволокно"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Сети Ethernet"
+            
+              , "Телекоммуникации"
+            
+              , "Беспроводные сети"
+            
+              , "ИТ-решения для бизнеса"
+            
+              , "Сетевые технологии"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/networking-over-long-distances_-understanding-cabling-types/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, какие сетевые кабели подходят для больших расстояний и как улучшить связь. Это руководство поможет ИТ-специалистам выбрать надежное решение.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/networking-over-long-distances_-understanding-cabling-types.webp" length="59222" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NAT и PAT: руководство по основам сетевого взаимодействия</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link>
+        
+        <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Основы сетей"
+            
+              , "Кибербезопасность"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Технические руководства"
+            
+              , "Управление сетями"
+            
+              , "Интернет-протоколы"
+            
+              , "Технологии связи"
+            
+              , "Системное администрирование"
+            
+              , "Сетевая инженерия"
+            
+              , "Цифровые сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Разберитесь в NAT и PAT, чтобы обеспечить бесперебойную цифровую связь.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизация сети: проектирование и топологии</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</link>
+        
+        <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сетевая инженерия"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Технологические руководства"
+            
+              , "Сетевые решения"
+            
+              , "Кибербезопасность"
+            
+              , "Информатика"
+            
+              , "Технологическое образование"
+            
+              , "Архитектура систем"
+            
+              , "Оптимизация сетей"
+            
+              , "Технологические инновации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите проекты и топологии сетей и оцените, какие решения обеспечивают максимальную эффективность.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/decoding-network-designs_-types-and-topologies-explained.webp" length="121144" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизация сети: настройка DNS</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link>
+        
+        <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Администрирование сетей"
+            
+              , "Кибербезопасность"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Технические решения"
+            
+              , "Интернет-технологии"
+            
+              , "Оптимизация DNS"
+            
+              , "Производительность сети"
+            
+              , "Цифровая безопасность"
+            
+              , "Подключение к Интернету"
+            
+              , "Технические руководства"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как DNS влияет на подключение, производительность и безопасность сети, и оптимизируйте его конфигурацию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>VMware против Hyper-V против Proxmox: сравнение виртуализации</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link>
+        
+        <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Виртуализация"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Виртуализация серверов"
+            
+              , "Корпоративное программное обеспечение"
+            
+              , "Облачные вычисления"
+            
+              , "Решения для дата-центров"
+            
+              , "Виртуализация с открытым исходным кодом"
+            
+              , "Управление виртуальными машинами"
+            
+              , "Сравнение виртуализации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя простое сравнение VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE и XCP-NG и выберите идеальное решение для виртуализации для успеха вашего бизнеса.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Комплексная защита Windows Server</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</link>
+        
+        <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "ИТ-безопасность"
+            
+              , "Администрирование серверов"
+            
+              , "Кибербезопасность"
+            
+              , "Защита сети"
+            
+              , "Целостность данных"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Рекомендации"
+            
+              , "Укрепление серверов"
+            
+              , "Windows Server"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите меры защиты Windows Server: от основ укрепления конфигурации до передовых методов защиты инфраструктуры.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Windows_Server_Security_Shield_Protection.webp" length="101056" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Synology против TerraMaster и QNAP</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/synology-terramaster-qnap-nas-comparison/</link>
+        
+        <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Сетевое хранилище"
+            
+              , "Сравнение NAS"
+            
+              , "Управление данными"
+            
+              , "Обзоры техники"
+            
+              , "Сетевые решения"
+            
+              , "Оборудование"
+            
+              , "Защита данных"
+            
+              , "Системы хранения"
+            
+              , "ИТ-инфраструктура"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/synology-terramaster-qnap-nas-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните NAS-системы Synology, TerraMaster и QNAP по функциям, производительности, программному обеспечению и защите данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/nas_comparison_race.webp" length="88326" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освойте защиту VMware</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link>
+        
+        <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Виртуализация"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Автоматизация"
+            
+              , "PowerShell"
+            
+              , "VMware"
+            
+              , "STIG"
+            
+              , "Соответствие требованиям"
+            
+              , "Скрипты"
+            
+              , "Центр обработки данных"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом подробном руководстве вы узнаете, как применять VMware STIG с помощью PowerCLI и защищать среду VMware.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение киберустойчивости с помощью управления изменениями</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/change-management-cyber-security-enhancing-resilience-evolving-landscape/</link>
+        
+        <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Управление изменениями"
+            
+              , "Устойчивость"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Оценка рисков"
+            
+              , "Соответствие требованиям"
+            
+              , "Реагирование на инциденты"
+            
+              , "Рекомендации"
+            
+              , "ITIL"
+            
+              , "Меры безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/change-management-cyber-security-enhancing-resilience-evolving-landscape/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему управление изменениями важно для кибербезопасности и как повысить устойчивость организации к меняющимся угрозам.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_team_of_professionals_working_together_to_bu.webp" length="141276" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как работает фильтрация WMI</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Управление Windows"
+            
+              , "Групповая политика"
+            
+              , "Системное администрирование"
+            
+              , "Управление сетями"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Управление политиками"
+            
+              , "ИТ-управление"
+            
+              , "ИТ-автоматизация"
+            
+              , "Active Directory"
+            
+              , "Соответствие требованиям безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как с помощью фильтрации WMI точнее применять объекты групповой политики (GPO). В статье приведены практические примеры и рекомендации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Системы управления уязвимостями: снижение рисков безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Снижение рисков"
+            
+              , "Соответствие требованиям"
+            
+              , "Безопасность данных"
+            
+              , "Оценка уязвимости"
+            
+              , "Позиция в области безопасности"
+            
+              , "Автоматизация"
+            
+              , "Интеграция"
+            
+              , "Отчетность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Укрепление безопасности организации и снижение рисков с помощью систем управления уязвимостями. Узнайте об их преимуществах и важности в современном цифровом ландшафте.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.webp" length="122958" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основы сетей: коммутаторы, маршрутизаторы, брандмауэры и DMZ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link>
+        
+        <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сети"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Безопасность сетей"
+            
+              , "Сетевая архитектура"
+            
+              , "Кибербезопасность"
+            
+              , "Передача данных"
+            
+              , "Информационные технологии"
+            
+              , "Основы ИТ"
+            
+              , "Управление сетями"
+            
+              , "Подключение к интернету"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как коммутаторы, маршрутизаторы, шлюзы, подсети, брандмауэры и DMZ разделяют сетевой трафик и устанавливают границы безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Курс Сеть плюс: Понимание модели OSI, топологий и типов сетей</title>
+        
+          <link>https://ru.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Работа в сети"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Сетевая архитектура"
+            
+              , "Информатика"
+            
+              , "Передача данных"
+            
+              , "Информационные технологии"
+            
+              , "Сетевая безопасность"
+            
+              , "Управление сетью"
+            
+              , "Интернет"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучить важность основ сетевых технологий, включая модель OSI, сетевые топологии и различные типы сетей, для построения эффективных и надежных инфраструктур.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_nodes.webp" length="91778" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Противостояние средств автоматизации: Ansible vs. Puppet vs. Chef - сравнение основных средств автоматизации</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link>
+        
+        <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Средства автоматизации"
+            
+              , "Управление конфигурацией"
+            
+              , "ИТ-инфраструктура"
+            
+              , "DevOps"
+            
+              , "ИТ-операции"
+            
+              , "Облачная автоматизация"
+            
+              , "Развертывание программного обеспечения"
+            
+              , "Управление инфраструктурой"
+            
+              , "Инструменты с открытым исходным кодом"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом комплексном сравнении вы узнаете о различиях между Ansible, Puppet и Chef, чтобы выбрать подходящее средство автоматизации для нужд вашей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef.webp" length="227428" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Объекты групповой политики (GPOs): руководство по управлению Windows</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link>
+        
+        <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Управление сетью"
+            
+              , "Объекты групповой политики"
+            
+              , "GPO"
+            
+              , "Администрирование Windows"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Безопасность сети"
+            
+              , "Active Directory"
+            
+              , "Управление конфигурациями"
+            
+              , "Управление групповой политикой"
+            
+              , "Оптимизация сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности объектов групповой политики (GPO) и научитесь эффективно управлять и оптимизировать настройки и политики вашей сети для повышения безопасности и упрощения операций.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp" length="133218" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>CheckMK: комплексное решение по мониторингу для эффективного управления ИТ-инфраструктурой</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/what-is-check-mk/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Мониторинг сети"
+            
+              , "Мониторинг приложений"
+            
+              , "ИТ-операции"
+            
+              , "Аналитика производительности"
+            
+              , "Автоматизация"
+            
+              , "Управление событиями"
+            
+              , "Масштабируемость"
+            
+              , "Гибкость"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/what-is-check-mk/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с возможностями, преимуществами и вариантами использования CheckMK, комплексного решения для проактивного управления ИТ-инфраструктурой.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.webp" length="151812" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегодня я узнал больше об условных сигналах Ansible и управлении переменными</title>
+        
+          <link>https://ru.simeononsecurity.com/til/2022-05-04/</link>
+        
+        <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Ansible"
+            
+              , "Управление конфигурацией"
+            
+              , "ИТ-инфраструктура"
+            
+              , "DevOps"
+            
+              , "Разработка игровых книг"
+            
+              , "Управление переменными"
+            
+              , "Условное выполнение"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/til/2022-05-04/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сегодня я узнал больше об условных сигналах Ansible и управлении переменными
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Подсети on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Подсети on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D0%B4%D1%81%D0%B5%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D0%B4%D1%81%D0%B5%D1%82%D0%B8/</link>
+
+    <description>Recent content in Подсети on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D0%B4%D1%81%D0%B5%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основы сетей: подсети, разделение на подсети и проектирование VLAN</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</link>
+        
+        <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Основы сетей"
+            
+              , "Разделение на подсети"
+            
+              , "VLAN"
+            
+              , "Управление сетью"
+            
+              , "Безопасность сети"
+            
+              , "IP-адресация"
+            
+              , "Сегментация сети"
+            
+              , "Эффективное использование ресурсов"
+            
+              , "Производительность сети"
+            
+              , "IPv4"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите основы подсетей, их разделения и VLAN для эффективного управления сетью и повышения безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_comp.webp" length="200202" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основы сетей: коммутаторы, маршрутизаторы, брандмауэры и DMZ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link>
+        
+        <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сети"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Безопасность сетей"
+            
+              , "Сетевая архитектура"
+            
+              , "Кибербезопасность"
+            
+              , "Передача данных"
+            
+              , "Информационные технологии"
+            
+              , "Основы ИТ"
+            
+              , "Управление сетями"
+            
+              , "Подключение к интернету"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как коммутаторы, маршрутизаторы, шлюзы, подсети, брандмауэры и DMZ разделяют сетевой трафик и устанавливают границы безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

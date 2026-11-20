@@ -1,0 +1,319 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Контейнеры on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Контейнеры on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%D1%8B/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%D1%8B/</link>
+
+    <description>Recent content in Контейнеры on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как защитить среду Docker и Kubernetes</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link>
+        
+        <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Kubernetes"
+            
+              , "Безопасность"
+            
+              , "Контейнеры"
+            
+              , "Сетевая безопасность"
+            
+              , "RBAC"
+            
+              , "API-сервер"
+            
+              , "Уязвимости"
+            
+              , "Мониторинг"
+            
+              , "Журналирование"
+            
+              , "Межсетевые экраны"
+            
+              , "TLS"
+            
+              , "Anchore"
+            
+              , "Clair"
+            
+              , "Aqua Security"
+            
+              , "ELK Stack"
+            
+              , "Splunk"
+            
+              , "Prometheus"
+            
+              , "Кибербезопасность"
+            
+              , "Рекомендации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о лучших практиках защиты среды Docker и Kubernetes: использовании официальных образов, ограничении разрешений и настройке сетевой безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp" length="126938" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Docker и виртуальные машины в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/docker-vs-vms/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Виртуальные машины"
+            
+              , "ВМ"
+            
+              , "Облачные вычисления"
+            
+              , "Контейнеры"
+            
+              , "Kubernetes"
+            
+              , "Простота"
+            
+              , "Масштабируемость"
+            
+              , "Безопасность"
+            
+              , "Экономичность"
+            
+              , "Dockerfile"
+            
+              , "Docker или ВМ"
+            
+              , "Контейнеры или ВМ"
+            
+              , "Контейнеры Docker"
+            
+              , "Виртуализация"
+            
+              , "Контейнеризация"
+            
+              , "Сборка, тестирование и развертывание"
+            
+              , "Изоляция"
+            
+              , "История безопасности"
+            
+              , "Сравнение стоимости"
+            
+              , "VMware"
+            
+              , "Hyper-V"
+            
+              , "KVM"
+            
+              , "Оркестрация контейнеров"
+            
+              , "Микросервисы"
+            
+              , "DevOps"
+            
+              , "Инфраструктура"
+            
+              , "Облачные приложения"
+            
+              , "Сравнение производительности"
+            
+              , "Эффективность ресурсов"
+            
+              , "Гибридный подход"
+            
+              , "Производительность Docker"
+            
+              , "Производительность ВМ"
+            
+              , "Когда использовать Docker"
+            
+              , "Когда использовать ВМ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/docker-vs-vms/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение контейнеров Docker и виртуальных машин в 2026 году по производительности, безопасности, стоимости, сценариям использования и развертыванию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.webp" length="90762" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Раскрытие возможностей Docker: основное руководство по трансформации предприятия</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-power-of-docker/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Трансформация предприятия"
+            
+              , "Переносимость приложений"
+            
+              , "Повышение эффективности"
+            
+              , "Повышенная безопасность"
+            
+              , "Упрощенная разработка и развертывание"
+            
+              , "Программные приложения"
+            
+              , "Контейнеры"
+            
+              , "Производительность"
+            
+              , "Время выхода на рынок"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-power-of-docker/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Docker и его преимущества для трансформации предприятий в этом комплексном руководстве по улучшению переносимости, безопасности, эффективности и разработки приложений.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/a_blue_whale_giving_off_lighting.webp" length="99856" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,1767 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Киберугрозы on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Киберугрозы on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D1%83%D0%B3%D1%80%D0%BE%D0%B7%D1%8B/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D1%83%D0%B3%D1%80%D0%BE%D0%B7%D1%8B/</link>
+
+    <description>Recent content in Киберугрозы on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D1%83%D0%B3%D1%80%D0%BE%D0%B7%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита мобильных устройств от вредоносных программ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-rise-of-mobile-malware_-staying-safe-on-the-go/</link>
+        
+        <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Мобильные вредоносные программы"
+            
+              , "Киберугрозы"
+            
+              , "Мобильная безопасность"
+            
+              , "Развитие вредоносных программ"
+            
+              , "Меры предосторожности для мобильных устройств"
+            
+              , "Сложные вредоносные программы"
+            
+              , "Защита от мобильных вредоносных программ"
+            
+              , "Новые киберугрозы"
+            
+              , "Рекомендации по кибербезопасности"
+            
+              , "Меры безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-rise-of-mobile-malware_-staying-safe-on-the-go/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите мобильные устройства от троянов, программ-вымогателей, шпионских программ, фишинга, вредоносных приложений, небезопасных сетей и кражи учетных записей с помощью практических мер.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-rise-of-mobile-malware_-staying-safe-on-the-go.webp" length="59624" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Планирование реагирования на инциденты: пошаговое руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</link>
+        
+        <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Реагирование на инциденты"
+            
+              , "Безопасность бизнеса"
+            
+              , "Киберугрозы"
+            
+              , "Управление рисками"
+            
+              , "Планирование безопасности"
+            
+              , "Защита данных"
+            
+              , "ИТ-безопасность"
+            
+              , "Цифровая устойчивость"
+            
+              , "Управление кризисами"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Составьте план реагирования на инциденты с определёнными ролями, каналами связи, сценариями, инструментами, учениями, метриками и регулярным обновлением.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.webp" length="96088" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство по безопасности SSL/TLS: защитите данные своего сайта</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</link>
+        
+        <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Технологии"
+            
+              , "Веб-безопасность"
+            
+              , "Шифрование данных"
+            
+              , "Интернет-протоколы"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Безопасность в сети"
+            
+              , "Внедрение SSL/TLS"
+            
+              , "Киберугрозы"
+            
+              , "Будущее кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как SSL/TLS защищает сайт с помощью надежного шифрования. Изучите уязвимости, рекомендации и будущее кибербезопасности, чтобы уже сегодня повысить безопасность сайта.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/TLS_%20Securing%20Your%20Website%20Data.webp" length="171950" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Анатомия кибератаки: как хакеры обходят защиту</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</link>
+        
+        <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Киберугрозы"
+            
+              , "Тактика хакеров"
+            
+              , "Цифровая безопасность"
+            
+              , "Стратегии кибератак"
+            
+              , "Методы эксфильтрации данных"
+            
+              , "Фишинговые атаки"
+            
+              , "Заражение вредоносным ПО"
+            
+              , "Повышение привилегий"
+            
+              , "Боковое перемещение"
+            
+              , "Меры безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проследите путь кибератаки от первоначального доступа через повышение привилегий, боковое перемещение и закрепление до эксфильтрации данных. Узнайте о мерах защиты на каждом этапе.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses.webp" length="296326" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Почему соблюдение нормативных требований не гарантирует безопасность</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</link>
+        
+        <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Соответствие требованиям"
+            
+              , "Практики безопасности"
+            
+              , "Защита данных"
+            
+              , "Киберугрозы"
+            
+              , "Нормативные стандарты"
+            
+              , "Информационная безопасность"
+            
+              , "Управление рисками"
+            
+              , "Безопасность бизнеса"
+            
+              , "Цифровая конфиденциальность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, какие пробелы в безопасности оставляют контрольные списки соответствия требованиям. Усильте защиту с помощью оценки рисков, тестирования, мониторинга, обучения и аудитов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/compliance-security-shield.webp" length="87866" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Человеческая ошибка: одна из главных причин утечек данных</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mitigating-human-error-data-breaches/</link>
+        
+        <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Безопасность данных"
+            
+              , "Человеческая ошибка"
+            
+              , "Утечки данных"
+            
+              , "Защита данных"
+            
+              , "Киберугрозы"
+            
+              , "Конфиденциальность данных"
+            
+              , "Информационная безопасность"
+            
+              , "Цифровая безопасность"
+            
+              , "Обучение безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mitigating-human-error-data-breaches/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как ошибки людей приводят к утечкам данных и как снизить этот риск.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/data-breach-prevention.webp" length="143036" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Государства как ключевые участники кибервойны</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/nation-states-major-players-cyber-warfare/</link>
+        
+        <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Национальная безопасность"
+            
+              , "Кибератаки при поддержке государств"
+            
+              , "Цифровая война"
+            
+              , "Кибершпионаж"
+            
+              , "Кампании влияния"
+            
+              , "Атаки вредоносного ПО"
+            
+              , "Национальная оборона"
+            
+              , "Киберугрозы"
+            
+              , "Геополитика"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/nation-states-major-players-cyber-warfare/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, зачем государства проводят кибероперации и как шпионаж, диверсии и кампании влияния влияют на безопасность мира.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/nation_states_cyber_warfare.webp" length="177960" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Кибербезопасность в космосе: защита сигналов GPS</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/cybersecurity-in-space-protecting-gps-signals/</link>
+        
+        <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Космические технологии"
+            
+              , "Безопасность GPS"
+            
+              , "Киберугрозы"
+            
+              , "Военные технологии"
+            
+              , "Безопасность спутников"
+            
+              , "Космическая навигация"
+            
+              , "Спуфинг GPS"
+            
+              , "Наземные станции GPS"
+            
+              , "Государственное регулирование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/cybersecurity-in-space-protecting-gps-signals/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об угрозах космическим сигналам GPS, рисках спуфинга и мерах защиты критически важных систем.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity-in-space-protecting-gps.webp" length="132354" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Термины кибербезопасности простыми словами</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</link>
+        
+        <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Технологии"
+            
+              , "Цифровая безопасность"
+            
+              , "Онлайн-угрозы"
+            
+              , "Безопасность в Интернете"
+            
+              , "Защита данных"
+            
+              , "Конфиденциальность"
+            
+              , "Онлайн-защита"
+            
+              , "ИТ-безопасность"
+            
+              , "Киберугрозы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Понятный справочник по терминам кибербезопасности, угрозам, технологиям и правилам конфиденциальности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity-jargon-illustration.webp" length="150724" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие мемы о кибербезопасности и отсылки к поп-культуре</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/best-cybersecurity-memes-pop-culture-references/</link>
+        
+        <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Интернет-культура"
+            
+              , "Мемы"
+            
+              , "Поп-культура"
+            
+              , "Безопасность в сети"
+            
+              , "Цифровой юмор"
+            
+              , "Обучение кибербезопасности"
+            
+              , "Киберугрозы"
+            
+              , "Безопасность интернета"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/best-cybersecurity-memes-pop-culture-references/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Мемы и отсылки к поп-культуре помогают доступно и с юмором говорить о кибербезопасности и защите в интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/hacker-cat-meme.webp" length="113576" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие фильмы о кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/best-cybersecurity-movies/</link>
+        
+        <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность: фильмы"
+            
+              , "Триллеры"
+            
+              , "Кино о хакерах"
+            
+              , "Цифровой шпионаж"
+            
+              , "Безопасность в интернете"
+            
+              , "Технологические триллеры"
+            
+              , "Фильмы о компьютерных преступлениях"
+            
+              , "Киберугрозы"
+            
+              , "Боевики и драмы"
+            
+              , "Защита данных"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/best-cybersecurity-movies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Подборка лучших фильмов о кибербезопасности, которые увлекательно рассказывают о цифровых интригах и бдительности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity-movies-digital-fortress.webp" length="233658" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита Windows и Linux</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link>
+        
+        <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Языки сценариев"
+            
+              , "Безопасность систем"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "Государственные нормативы"
+            
+              , "Киберугрозы"
+            
+              , "Безопасное написание сценариев"
+            
+              , "Соответствие требованиям"
+            
+              , "Программирование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как PowerShell и Python помогают усилить защиту систем, в этом подробном анализе кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>FISMA: укрепление кибербезопасности федеральных органов и защита данных</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</link>
+        
+        <pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Государственное регулирование"
+            
+              , "Обеспечение информационной безопасности"
+            
+              , "Защита данных"
+            
+              , "Федеральные ведомства"
+            
+              , "Управление рисками"
+            
+              , "Стандарты безопасности"
+            
+              , "Непрерывный мониторинг"
+            
+              , "Киберугрозы"
+            
+              , "Цифровое управление"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как FISMA укрепляет федеральную кибербезопасность. Изучите основные особенности, процесс и влияние закона на защиту данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/secure-shield-fisma.webp" length="118222" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Максимальное усиление безопасности сетей и облачной среды</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link>
+        
+        <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасность облака"
+            
+              , "Защита сетей"
+            
+              , "Цифровая безопасность"
+            
+              , "Конфиденциальность данных"
+            
+              , "ИТ-безопасность"
+            
+              , "Бизнес-технологии"
+            
+              , "Цифровая защита"
+            
+              , "Киберугрозы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об угрозах, мерах защиты и примерах инцидентов, чтобы усилить безопасность сетей и облачной среды.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Осваиваем защиту EDR: руководство по безопасности конечных точек</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link>
+        
+        <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Защита конечных точек"
+            
+              , "Решения EDR"
+            
+              , "Обнаружение угроз"
+            
+              , "Реагирование на инциденты"
+            
+              , "Безопасность конечных точек"
+            
+              , "Киберугрозы"
+            
+              , "ИТ-безопасность"
+            
+              , "Цифровая защита"
+            
+              , "Стратегии безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как работает защита EDR, какие преимущества и сложности внедрения она дает и какие практики помогают защищать конечные точки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Готовность к кибербезопасности: защита данных бизнеса</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/cybersecurity-readiness-guide/</link>
+        
+        <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Безопасность бизнеса"
+            
+              , "Защита данных"
+            
+              , "Оценка рисков"
+            
+              , "Информационная безопасность"
+            
+              , "Цифровая безопасность"
+            
+              , "Конфиденциальность данных"
+            
+              , "Киберугрозы"
+            
+              , "Безопасность сети"
+            
+              , "Управление рисками поставщиков"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/cybersecurity-readiness-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оцените готовность компаний к киберугрозам до передачи конфиденциальной информации или начала деловых отношений. Защитите свои данные.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity-shield-protection2.webp" length="102208" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освойте принцип минимальных привилегий</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link>
+        
+        <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Безопасность Linux"
+            
+              , "Контроль доступа"
+            
+              , "ИТ-безопасность"
+            
+              , "Сетевая безопасность"
+            
+              , "Защита информации"
+            
+              , "Конфиденциальность данных"
+            
+              , "Киберугрозы"
+            
+              , "Управление рисками"
+            
+              , "Лучшие практики безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Укрепите кибербезопасность с помощью контроля доступа по принципу минимальных привилегий в Linux. Изучите этапы внедрения, лучшие практики и устранение проблем.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Программы bug bounty: краудсорсинговое тестирование безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</link>
+        
+        <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Программы bug bounty"
+            
+              , "Краудсорсинговое тестирование"
+            
+              , "Управление уязвимостями"
+            
+              , "Цифровая безопасность"
+            
+              , "Этичный хакинг"
+            
+              , "Киберугрозы"
+            
+              , "Тестирование безопасности"
+            
+              , "Киберзащита"
+            
+              , "Уязвимости программного обеспечения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как программы bug bounty помогают сообщать об уязвимостях, проводить тестирование безопасности и ответственно раскрывать информацию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/bug-bounty-programs-engaging-the-crowd-in-security-testing.webp" length="238912" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Аутсорсинг кибербезопасности: Плюсы, минусы и лучшие практики для эффективного партнерства</title>
+        
+          <link>https://ru.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/outsourcing-cybersecurity-efforts-is-it-a-good-idea/</link>
+        
+        <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Аутсорсинг"
+            
+              , "Информационная безопасность"
+            
+              , "Управляемые услуги безопасности"
+            
+              , "Защита информации"
+            
+              , "Управление рисками"
+            
+              , "ИТ-услуги"
+            
+              , "Безопасность бизнеса"
+            
+              , "Технология"
+            
+              , "Киберугрозы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/outsourcing-cybersecurity-efforts-is-it-a-good-idea/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о преимуществах, проблемах и лучших практиках аутсорсинга кибербезопасности для усиления защиты от эволюционирующих угроз и обеспечения экономически эффективных решений.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_group_of_professionals_working_together_to_protect_a_shie.webp" length="129068" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Разработка политики кибербезопасности: Лучшие практики и процедуры</title>
+        
+          <link>https://ru.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Безопасность"
+            
+              , "Соответствие требованиям"
+            
+              , "Управление рисками"
+            
+              , "Защита информации"
+            
+              , "Информационное управление"
+            
+              , "Реагирование на инциденты"
+            
+              , "Непрерывность бизнеса"
+            
+              , "Киберугрозы"
+            
+              , "Разработка политики"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как разработать комплексную политику кибербезопасности, соответствующую отраслевым стандартам и нормативным требованиям, для защиты конфиденциальной информации организации и снижения киберрисков.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.webp" length="206064" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение NIST Cybersecurity Framework и ISO 27001</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</link>
+        
+        <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Информационная безопасность"
+            
+              , "Модели кибербезопасности"
+            
+              , "Управление рисками"
+            
+              , "Защита данных"
+            
+              , "Соответствие требованиям"
+            
+              , "ИТ-управление"
+            
+              , "Киберугрозы"
+            
+              , "Киберзащита"
+            
+              , "Киберриск"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, чем отличаются NIST Cybersecurity Framework и ISO 27001, чтобы обоснованно выбрать подходящую модель кибербезопасности для вашей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_shield_protecting_a_network_of.webp" length="102920" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Распознавание попыток фишинга: Общие признаки и советы по безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/</link>
+        
+        <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Информированность о фишинге"
+            
+              , "Безопасность в Интернете"
+            
+              , "Кибербезопасность"
+            
+              , "Хищение персональных данных"
+            
+              , "Интернет-мошенничество"
+            
+              , "Цифровая безопасность"
+            
+              , "Киберугрозы"
+            
+              , "Защита данных"
+            
+              , "Предотвращение фишинга"
+            
+              , "Онлайн-мошенничество"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как распознать общие признаки попыток фишинга и защитить себя в Интернете с помощью практических советов по повышению уровня кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_image_depicting_a_person_receiving_a_suspicious_email.webp" length="112710" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>7 основных мер сетевой безопасности для защиты бизнеса от киберугроз</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/seven-essential-network-security-measures-to-protect-your-business/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "меры по обеспечению безопасности сети"
+            
+              , "безопасность бизнес-сети"
+            
+              , "киберугрозы"
+            
+              , "политика сетевой безопасности"
+            
+              , "межсетевые экраны и системы предотвращения вторжений"
+            
+              , "безопасность беспроводных сетей"
+            
+              , "обновление программного и аппаратного обеспечения"
+            
+              , "многофакторная аутентификация"
+            
+              , "мониторинг сетевой активности"
+            
+              , "реагирование на нарушения безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/seven-essential-network-security-measures-to-protect-your-business/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с семью основными мерами сетевой безопасности, которые позволят обезопасить ваш бизнес от киберугроз и обеспечить защиту данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/7-essential-network-security-measures.webp" length="46910" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основы кибербезопасности: руководство по защите цифровой жизни</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/cybersecurity-for-beginners-a-non-technical-guide/</link>
+        
+        <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Безопасность в интернете"
+            
+              , "Цифровая безопасность"
+            
+              , "Киберугрозы"
+            
+              , "Конфиденциальность в интернете"
+            
+              , "Защита данных"
+            
+              , "Информационная безопасность"
+            
+              , "Технологии"
+            
+              , "Киберзащита"
+            
+              , "Осведомленность о кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/cybersecurity-for-beginners-a-non-technical-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите основы кибербезопасности и практические способы защиты цифровой жизни от киберугроз.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity-for-beginners.webp" length="31318" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox или TryHackMe: что выбрать?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hackthebox-vs-tryhackme-what-is-best/</link>
+        
+        <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Тестирование на проникновение"
+            
+              , "Этичный хакинг"
+            
+              , "Информационная безопасность"
+            
+              , "Цифровая криминалистика"
+            
+              , "Безопасность сетей"
+            
+              , "Киберзащита"
+            
+              , "Безопасность веб-приложений"
+            
+              , "Киберугрозы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hackthebox-vs-tryhackme-what-is-best/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните HackTheBox и TryHackMe по сложности, поддержке, сообществу и структуре обучения тестированию на проникновение.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_hacker_in_a_lab_coat_standing_between_two_doors.webp" length="87086" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,183 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Учебник Ansible 2026 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Учебник Ansible 2026 on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA-ansible-2026/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA-ansible-2026/</link>
+
+    <description>Recent content in Учебник Ansible 2026 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA-ansible-2026/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible для начинающих 2026</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ansible-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Введение в Ansible"
+            
+              , "Автоматизация управления ИТ-инфраструктурой"
+            
+              , "Основы Ansible"
+            
+              , "Автоматизация ИТ-инфраструктуры"
+            
+              , "Управление конфигурацией"
+            
+              , "Развертывание приложений"
+            
+              , "Подготовка инфраструктуры"
+            
+              , "Непрерывная доставка"
+            
+              , "Безопасность и соответствие требованиям"
+            
+              , "Оркестрация"
+            
+              , "YAML"
+            
+              , "Модули Ansible"
+            
+              , "Роли"
+            
+              , "Лучшие практики"
+            
+              , "Контроль версий"
+            
+              , "Тестирование"
+            
+              , "Red Hat"
+            
+              , "Системные администраторы"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Windows"
+            
+              , "Установка Ansible"
+            
+              , "Инвентаризация Ansible"
+            
+              , "Плейбуки Ansible"
+            
+              , "Модули Ansible"
+            
+              , "Роли Ansible"
+            
+              , "Лучшие практики Ansible"
+            
+              , "Тестирование Ansible"
+            
+              , "Инструмент автоматизации ИТ-инфраструктуры"
+            
+              , "Учебник по Ansible"
+            
+              , "Автоматизация управления инфраструктурой"
+            
+              , "Ansible для начинающих"
+            
+              , "Изучение Ansible"
+            
+              , "Учебник Ansible 2026"
+            
+              , "Ansible и Terraform"
+            
+              , "Ansible и Puppet"
+            
+              , "Примеры плейбуков Ansible"
+            
+              , "Автоматизация Ansible"
+            
+              , "Инструменты DevOps"
+            
+              , "Инфраструктура как код"
+            
+              , "Ansible AWX"
+            
+              , "Ansible Tower"
+            
+              , "Коллекции Ansible"
+            
+              , "Ansible Galaxy"
+            
+              , "Ansible Vault"
+            
+              , "Облачная автоматизация Ansible"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ansible-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Руководство по Ansible на 2026 год: установка, плейбуки, роли, примеры, лучшие практики и сравнение с Terraform, Puppet и Chef.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ansible-for-beginners.webp" length="153600" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

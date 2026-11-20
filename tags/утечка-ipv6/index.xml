@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Утечка IPv6 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Утечка IPv6 on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%83%D1%82%D0%B5%D1%87%D0%BA%D0%B0-ipv6/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%83%D1%82%D0%B5%D1%87%D0%BA%D0%B0-ipv6/</link>
+
+    <description>Recent content in Утечка IPv6 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%83%D1%82%D0%B5%D1%87%D0%BA%D0%B0-ipv6/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Проверьте утечки DNS и WebRTC в браузере при использовании VPN</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Конфиденциальность"
+            
+              , "Браузеры"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проверьте публичный IP-адрес, DNS-резолвер и адреса WebRTC в браузере до и после подключения VPN. Разберите результаты и исследуйте проблемы маршрутизации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

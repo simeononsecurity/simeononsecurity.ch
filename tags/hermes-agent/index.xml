@@ -1,0 +1,211 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hermes Agent on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Hermes Agent on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/hermes-agent/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/hermes-agent/</link>
+
+    <description>Recent content in Hermes Agent on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/hermes-agent/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Локальные тесты моделей Hermes: какие сочетания GPU и моделей я бы выбрал</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link>
+        
+        <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Локальный ИИ"
+            
+              , "Аппаратное обеспечение"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Мои рекомендации по моделям Hermes основаны на тестах длинного контекста, инструментов, потоковой передачи и зрения на системах RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti и RTX 3070.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Гибридный парк ИИ-агентов изнутри: Hermes, LiteLLM и Tailscale</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link>
+        
+        <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "ИИ на собственных ресурсах"
+            
+              , "ИИ-агенты"
+            
+              , "ИИ-инфраструктура"
+            
+              , "Майнинг на GPU"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о проверенном локальном парке ИИ с загрузкой по запросу и его ступенчатой плоскости управления T0–T4 на базе Hermes, LiteLLM, Tailscale Aperture и майнинга Pearl.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>OpenClaw и Hermes Agent: практическая оценка</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Разработка программного обеспечения"
+            
+              , "Производительность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оцените специализированных и постоянно работающих ИИ-агентов с помощью описи доступа, проверки триггеров, записи о потоках данных и решения о пилотном запуске.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/effective-ai-specialized-agent-evaluation.webp" length="115550" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ядро Linux on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Ядро Linux on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%8F%D0%B4%D1%80%D0%BE-linux/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%8F%D0%B4%D1%80%D0%BE-linux/</link>
+
+    <description>Recent content in Ядро Linux on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%8F%D0%B4%D1%80%D0%BE-linux/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение ОС: Windows, Linux и macOS. Функции и безопасность</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</link>
+        
+        <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Операционные системы"
+            
+              , "Технические обзоры"
+            
+              , "Сравнение программного обеспечения"
+            
+              , "Компьютерная безопасность"
+            
+              , "Дизайн пользовательского опыта"
+            
+              , "Производительность системы"
+            
+              , "Программное обеспечение с открытым исходным кодом"
+            
+              , "Технические руководства"
+            
+              , "Персональные вычисления"
+            
+              , "ИТ-решения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, какая ОС лидирует по безопасности и удобству: Windows, Linux или macOS? Получите ключевые сведения, которые НУЖНЫ для выбора. Сделайте это прежде чем принять решение!
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/operating-systems_-windows-linux-and-macos-compared.webp" length="44424" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Топ-5 техник безопасности и укрепления Linux</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link>
+        
+        <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Linux"
+            
+              , "Безопасность системы"
+            
+              , "Открытый исходный код"
+            
+              , "Укрепление"
+            
+              , "ИТ"
+            
+              , "Защита данных"
+            
+              , "Сетевая безопасность"
+            
+              , "Информатика"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя топ-5 техник безопасности Linux, чтобы укрепить вашу систему против угроз. Повышайте целостность системы и защищайте конфиденциальные данные с помощью экспертных мер по укреплению.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,394 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MacOS on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>MacOS on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/macos/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/macos/</link>
+
+    <description>Recent content in MacOS on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 20 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как работает DNS: корневая зона DNS, ее значение и устранение неполадок</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-does-dns-work/</link>
+        
+        <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Основы DNS"
+            
+              , "Корневая зона DNS"
+            
+              , "Система доменных имен"
+            
+              , "Разрешение DNS"
+            
+              , "Иерархия DNS"
+            
+              , "Кеширование DNS"
+            
+              , "Диагностика DNS"
+            
+              , "Записи DNS"
+            
+              , "Управление DNS"
+            
+              , "Команды DNS"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-does-dns-work/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как работают DNS и корневая зона DNS, как устроены их иерархия, разрешение имен и кеширование, а также как диагностировать проблемы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_image_depicting_interconnected_computer_ne.webp" length="167680" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible для начинающих 2026</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ansible-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Введение в Ansible"
+            
+              , "Автоматизация управления ИТ-инфраструктурой"
+            
+              , "Основы Ansible"
+            
+              , "Автоматизация ИТ-инфраструктуры"
+            
+              , "Управление конфигурацией"
+            
+              , "Развертывание приложений"
+            
+              , "Подготовка инфраструктуры"
+            
+              , "Непрерывная доставка"
+            
+              , "Безопасность и соответствие требованиям"
+            
+              , "Оркестрация"
+            
+              , "YAML"
+            
+              , "Модули Ansible"
+            
+              , "Роли"
+            
+              , "Лучшие практики"
+            
+              , "Контроль версий"
+            
+              , "Тестирование"
+            
+              , "Red Hat"
+            
+              , "Системные администраторы"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Windows"
+            
+              , "Установка Ansible"
+            
+              , "Инвентаризация Ansible"
+            
+              , "Плейбуки Ansible"
+            
+              , "Модули Ansible"
+            
+              , "Роли Ansible"
+            
+              , "Лучшие практики Ansible"
+            
+              , "Тестирование Ansible"
+            
+              , "Инструмент автоматизации ИТ-инфраструктуры"
+            
+              , "Учебник по Ansible"
+            
+              , "Автоматизация управления инфраструктурой"
+            
+              , "Ansible для начинающих"
+            
+              , "Изучение Ansible"
+            
+              , "Учебник Ansible 2026"
+            
+              , "Ansible и Terraform"
+            
+              , "Ansible и Puppet"
+            
+              , "Примеры плейбуков Ansible"
+            
+              , "Автоматизация Ansible"
+            
+              , "Инструменты DevOps"
+            
+              , "Инфраструктура как код"
+            
+              , "Ansible AWX"
+            
+              , "Ansible Tower"
+            
+              , "Коллекции Ansible"
+            
+              , "Ansible Galaxy"
+            
+              , "Ansible Vault"
+            
+              , "Облачная автоматизация Ansible"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ansible-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Руководство по Ansible на 2026 год: установка, плейбуки, роли, примеры, лучшие практики и сравнение с Terraform, Puppet и Chef.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ansible-for-beginners.webp" length="153600" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита Windows от спекулятивных атак по побочным каналам</title>
+        
+          <link>https://ru.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link>
+        
+        <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сценарий предотвращения аварийного восстановления Windows Spectre"
+            
+              , "Спекулятивные атаки по побочным каналам"
+            
+              , "Майкрософт"
+            
+              , "Интел"
+            
+              , "AMD"
+            
+              , "С ПОМОЩЬЮ"
+            
+              , "РУКА"
+            
+              , "Андроид"
+            
+              , "Хром"
+            
+              , "iOS"
+            
+              , "macOS"
+            
+              , "Внедрение целевых ветвей"
+            
+              , "Обход проверки границ"
+            
+              , "Мошенническая загрузка кэша данных"
+            
+              , "Спекулятивный обход магазина"
+            
+              , "Микроархитектурная выборка данных"
+            
+              , "CVE"
+            
+              , "Обновления прошивки"
+            
+              , "Репозиторий GitHub"
+            
+              , "PowerShell"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить свою систему Windows от спекулятивных атак по сторонним каналам с помощью сценария смягчения последствий Microsoft и обновлений встроенного ПО.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемый антивирус</title>
+        
+          <link>https://ru.simeononsecurity.com/recommendations/anti-virus/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемый антивирус"
+            
+              , "AV"
+            
+              , "Антивирус"
+            
+              , "Антивирус"
+            
+              , "Домашнее использование"
+            
+              , "Использование в бизнесе"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "MacOS"
+            
+              , "Кибербезопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/recommendations/anti-virus/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В данной статье представлен список рекомендуемых антивирусных продуктов для домашнего и корпоративного использования, составленный компанией SimeonOnSecurity. Рейтинг составлен на основе профессионального мнения и тестирования на вредоносных образцах и учитывает только возможности антивируса, его обнаружение, удобство использования и производительность. Пользователи Windows могут выбирать как платные, так и бесплатные варианты, в то время как пользователи Linux и MacOS ограничены в выборе, причем платные варианты доступны только для Linux. Отметим, что использование антивируса в Linux и MacOS не является обязательным, а использование VPN или менеджера паролей, поставляемых вместе с антивирусным пакетом, не рекомендуется. В статье также даны рекомендации по VPN-провайдерам. Рекомендации по использованию в бизнесе находятся в стадии разработки.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

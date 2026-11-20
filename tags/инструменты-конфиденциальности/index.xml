@@ -1,0 +1,488 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Инструменты Конфиденциальности on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Инструменты Конфиденциальности on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+
+    <description>Recent content in Инструменты Конфиденциальности on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Чек-лист личной безопасности 2026: с чего начать и что пропустить</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</link>
+        
+        <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Личная безопасность"
+            
+              , "Конфиденциальность"
+            
+              , "Цифровая гигиена"
+            
+              , "Безопасность учетных записей"
+            
+              , "Моделирование угроз"
+            
+              , "Безопасность потребителей"
+            
+              , "Управление паролями"
+            
+              , "Защита данных"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Расставьте приоритеты в мерах личной безопасности по их влиянию на атаки: от защиты учетных записей и резервных копий до конфиденциальности и восстановления доступа.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/personal-security-checklist-2026-tiered-structure.webp" length="98938" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Flock Finder: Картирование камер ALPR Flock Safety</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link>
+        
+        <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии конфиденциальности"
+            
+              , "Контрнаблюдение"
+            
+              , "Проекты с открытым исходным кодом"
+            
+              , "Цифровые права"
+            
+              , "Сетевая безопасность"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Аппаратный хакинг"
+            
+              , "Исследования безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Flock Finder — это инструмент с открытым исходным кодом, который картирует более 40 000 камер ALPR Flock Safety по всему миру с использованием данных WiFi от WiGLE и отпечатков OUI. Узнайте, как это работает, его ограничения и аппаратные инструменты для обнаружения в реальном времени.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>DagShell: кастомная прошивка для Orbic RCL400, руководство 2026</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link>
+        
+        <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кастомная прошивка"
+            
+              , "Мобильная безопасность"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Сетевая безопасность"
+            
+              , "Вардрайвинг"
+            
+              , "Тестирование на проникновение"
+            
+              , "Взлом IoT"
+            
+              , "Исследования безопасности"
+            
+              , "Аппаратный хакинг"
+            
+              , "Технологии конфиденциальности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Техническое руководство по прошивке DagShell для Orbic RCL400. Установка, инструменты защиты конфиденциальности, вар-драйвинг и ограничения исследований.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Видеонаблюдение Flock Safety: Конфиденциальность и Защита</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии конфиденциальности"
+            
+              , "Системы видеонаблюдения"
+            
+              , "Цифровые права"
+            
+              , "Правоохранительные технологии"
+            
+              , "Защита конфиденциальности"
+            
+              , "Противодействие слежке"
+            
+              , "Гражданские свободы"
+            
+              , "Технологическая этика"
+            
+              , "Инфраструктура умного города"
+            
+              , "Оборудование безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о широком распространении камер ALPR Flock Safety в 2026 году, разберитесь в последствиях для конфиденциальности и изучите эффективные стратегии противодействия слежке, включая устройства обнаружения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-safety-camera-surveillance-prevalence-privacy-protection-2026.webp" length="316668" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>RayHunter 2026: расширенные методы и диагностика</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/advanced-rayhunter-techniques-troubleshooting-2026/</link>
+        
+        <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Rayhunter"
+            
+              , "расширенные методы"
+            
+              , "диагностика"
+            
+              , "экспертная конфигурация"
+            
+              , "IMSI-catcher"
+            
+              , "обнаружение наблюдения"
+            
+              , "оптимизация эвристик"
+            
+              , "интеграция API"
+            
+              , "сценарии анализа"
+            
+              , "моделирование угроз"
+            
+              , "безопасность сотовой связи"
+            
+              , "криминалистика беспроводных сетей"
+            
+              , "оптимизация обнаружения"
+            
+              , "собственные конфигурации"
+            
+              , "расширенное развертывание"
+            
+              , "исследования безопасности"
+            
+              , "сетевой анализ"
+            
+              , "радиочастотный анализ"
+            
+              , "защита от наблюдения"
+            
+              , "инструменты конфиденциальности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/advanced-rayhunter-techniques-troubleshooting-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Техническое руководство по расширенным методам RayHunter, диагностике, собственным конфигурациям, интеграции API и обнаружению IMSI-catcher.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/advanced-rayhunter-techniques-troubleshooting-2026.webp" length="278838" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как прошить устройства Rayhunter: полное руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-flash-rayhunter-devices-complete-guide/</link>
+        
+        <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Rayhunter"
+            
+              , "IMSI-catcher"
+            
+              , "имитатор базовой станции"
+            
+              , "безопасность мобильных устройств"
+            
+              , "обнаружение слежки"
+            
+              , "защита конфиденциальности"
+            
+              , "Orbic RC400L"
+            
+              , "TP-Link M7350"
+            
+              , "мобильная точка доступа"
+            
+              , "прошивка устройств"
+            
+              , "кибербезопасность"
+            
+              , "безопасность беспроводных сетей"
+            
+              , "противодействие слежке"
+            
+              , "EFF"
+            
+              , "инструменты конфиденциальности"
+            
+              , "купить Rayhunter"
+            
+              , "руководство по установке"
+            
+              , "настройка"
+            
+              , "поддерживаемые устройства"
+            
+              , "безопасность сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-flash-rayhunter-devices-complete-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Прошейте и настройте Rayhunter для обнаружения IMSI-catcher. Проверьте поддержку устройств, установите прошивку, убедитесь в работоспособности и устраните распространённые неполадки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/rayhunter.webp" length="275320" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,249 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SEO on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>SEO on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/seo/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/seo/</link>
+
+    <description>Recent content in SEO on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 04 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/seo/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Осваиваем Google Dorks</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-google-dorks-osint-hacking-power/</link>
+        
+        <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "SEO"
+            
+              , "Кибербезопасность"
+            
+              , "Поиск в интернете"
+            
+              , "Google Dorks"
+            
+              , "Разведка по открытым источникам"
+            
+              , "Методы взлома"
+            
+              , "Цифровые навыки"
+            
+              , "Веб-поиск"
+            
+              , "Безопасность интернета"
+            
+              , "Поиск данных"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-google-dorks-osint-hacking-power/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Используйте операторы Google для авторизованного OSINT: примеры запросов, границы сбора данных и рекомендации по защитному сообщению об уязвимостях.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cartoon-magnifying-glass-uncovering-data.webp" length="158948" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Google Dorks: точный поиск в интернете</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-google-dorks-enhanced-search-techniques/</link>
+        
+        <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "SEO"
+            
+              , "Кибербезопасность"
+            
+              , "Поиск в интернете"
+            
+              , "Google Dorks"
+            
+              , "Методы поиска"
+            
+              , "Цифровые навыки"
+            
+              , "Поиск в вебе"
+            
+              , "Советы по интернету"
+            
+              , "Онлайн-исследования"
+            
+              , "Поиск данных"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-google-dorks-enhanced-search-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как уточнять поиск в интернете с помощью Google Dorks и операторов, а затем безопасно проверять результаты.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cartoon-magnifying-glass-computer-search.webp" length="173604" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизация изображений с помощью Python</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</link>
+        
+        <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Веб-разработка"
+            
+              , "Программирование на Python"
+            
+              , "Оптимизация изображений"
+            
+              , "SEO"
+            
+              , "Производительность веб-сайта"
+            
+              , "Пользовательский опыт"
+            
+              , "Разработка ПО"
+            
+              , "Автоматизация"
+            
+              , "Программирование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оптимизируйте изображения с помощью Python: меняйте размер, сжимайте и преобразуйте форматы в воспроизводимых сценариях Pillow.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_illustration_of_a_Python_script_optimizing.webp" length="146766" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

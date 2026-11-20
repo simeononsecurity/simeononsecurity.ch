@@ -1,0 +1,323 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tailscale on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Tailscale on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/tailscale/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/tailscale/</link>
+
+    <description>Recent content in Tailscale on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/tailscale/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tailscale Aperture: настройка ИИ-клиентов для инференса и MCP в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link>
+        
+        <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Инструменты разработчика"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Направляйте запросы к моделям и инструменты MCP через Tailscale Aperture. Настройте Codex, Claude Code, Claude Desktop, OpenCode и Hermes на другом устройстве или шлюзе.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Соберите домашнюю лабораторию за 10 уровней: от Pi-hole до локального ИИ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/build-home-lab-10-levels/</link>
+        
+        <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Домашняя лаборатория"
+            
+              , "Самостоятельный хостинг"
+            
+              , "Локальный ИИ"
+            
+              , "Домашние сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/build-home-lab-10-levels/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Соберите домашнюю лабораторию в десять практических этапов: от DNS-фильтрации всей сети до локального ИИ, с описанием оборудования, затрат, навыков и компромиссов для каждого уровня.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Гибридный парк ИИ-агентов изнутри: Hermes, LiteLLM и Tailscale</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link>
+        
+        <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "ИИ на собственных ресурсах"
+            
+              , "ИИ-агенты"
+            
+              , "ИИ-инфраструктура"
+            
+              , "Майнинг на GPU"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о проверенном локальном парке ИИ с загрузкой по запросу и его ступенчатой плоскости управления T0–T4 на базе Hermes, LiteLLM, Tailscale Aperture и майнинга Pearl.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Почему Tailscale использует ретранслятор: прямые соединения, DERP и пиринговые ретрансляторы</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</link>
+        
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Networking"
+            
+              , "Network Security"
+            
+              , "Self-Hosted"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему Tailscale использует ретранслятор, как читать вывод status и netcheck и когда следует изучить соединение через DERP или пиринговый ретранслятор.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/why-tailscale-uses-a-relay.webp" length="103974" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Почему переадресация портов не работает в T-Mobile Home Internet</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</link>
+        
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Networking"
+            
+              , "Self-Hosted"
+            
+              , "Network Security"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об ограничениях переадресации портов в T-Mobile 5G Home Internet, NAT оператора и способах доступа к домашнему серверу без публичного входящего порта.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/t-mobile-home-internet-port-forwarding.webp" length="103506" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

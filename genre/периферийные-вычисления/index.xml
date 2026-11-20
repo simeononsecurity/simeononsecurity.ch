@@ -1,0 +1,294 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Периферийные Вычисления on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Периферийные Вычисления on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%BF%D0%B5%D1%80%D0%B8%D1%84%D0%B5%D1%80%D0%B8%D0%B9%D0%BD%D1%8B%D0%B5-%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%BF%D0%B5%D1%80%D0%B8%D1%84%D0%B5%D1%80%D0%B8%D0%B9%D0%BD%D1%8B%D0%B5-%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F/</link>
+
+    <description>Recent content in Периферийные Вычисления on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%BF%D0%B5%D1%80%D0%B8%D1%84%D0%B5%D1%80%D0%B8%D0%B9%D0%BD%D1%8B%D0%B5-%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Питание и устойчивость к условиям среды для полевых систем</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Периферийные вычисления"
+            
+              , "Полевые ИТ-системы"
+            
+              , "Системы питания"
+            
+              , "Оборудование"
+            
+              , "Аварийное восстановление"
+            
+              , "Защищенные компьютеры"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Спланируйте питание и защиту от условий среды для полевых edge-узлов. Рассчитайте ИБП, аккумуляторы и солнечные панели, синхронизацию времени, класс защиты корпуса, заземление и защиту от перенапряжений.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Полевые edge-системы: выбор оборудования и корпуса</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Периферийные вычисления"
+            
+              , "ИТ в полевых условиях"
+            
+              , "Оборудование"
+            
+              , "Домашняя лаборатория"
+            
+              , "Защищенные компьютеры"
+            
+              , "Сети"
+            
+              , "Аварийное восстановление"
+            
+              , "ИТ для малого бизнеса"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Руководство по оборудованию и корпусам для edge-вычислений в полевых условиях: вычислительные узлы, стойки, охлаждение, хранилища, управление, кабели и совместимость питания.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Практические советы для полевой ИТ: за пределами мини-центра обработки данных</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Полевая ИТ"
+            
+              , "Периферийные вычисления"
+            
+              , "ИТ-операции"
+            
+              , "Аварийное восстановление"
+            
+              , "Оборудование"
+            
+              , "Рекомендации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Практические советы по полевой ИТ: запасные части, документация, защита от ESD, прошивки, загрузочные носители, лицензии, физическая безопасность, поездки и страхование.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Связь и защита данных для полевых периферийных узлов</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Периферийные вычисления"
+            
+              , "Полевые ИТ-системы"
+            
+              , "Сетевая безопасность"
+            
+              , "VPN"
+            
+              , "Шифрование"
+            
+              , "Физическая безопасность"
+            
+              , "Аварийное восстановление"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Подключайте и защищайте периферийные вычислительные узлы в полевых условиях с помощью сотовой и спутниковой связи, LoRa, VPN, MFA, сегментации, журналирования, шифрования и защиты от кражи.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

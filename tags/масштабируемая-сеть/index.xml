@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Масштабируемая Сеть on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Масштабируемая Сеть on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BC%D0%B0%D1%81%D1%88%D1%82%D0%B0%D0%B1%D0%B8%D1%80%D1%83%D0%B5%D0%BC%D0%B0%D1%8F-%D1%81%D0%B5%D1%82%D1%8C/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BC%D0%B0%D1%81%D1%88%D1%82%D0%B0%D0%B1%D0%B8%D1%80%D1%83%D0%B5%D0%BC%D0%B0%D1%8F-%D1%81%D0%B5%D1%82%D1%8C/</link>
+
+    <description>Recent content in Масштабируемая Сеть on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BC%D0%B0%D1%81%D1%88%D1%82%D0%B0%D0%B1%D0%B8%D1%80%D1%83%D0%B5%D0%BC%D0%B0%D1%8F-%D1%81%D0%B5%D1%82%D1%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Подходит ли Ubiquiti UniFi для домашней сети?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ubiquiti-unifi-good-for-home-use/</link>
+        
+        <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Домашние сети"
+            
+              , "Решения Wi-Fi"
+            
+              , "Сетевое оборудование"
+            
+              , "Продукты Ubiquiti"
+            
+              , "Обзоры технологий"
+            
+              , "Домашние технологии"
+            
+              , "Беспроводное подключение"
+            
+              , "Управление сетью"
+            
+              , "Бытовая электроника"
+            
+              , "Беспроводные решения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ubiquiti-unifi-good-for-home-use/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оцените, подходит ли Ubiquiti UniFi для дома, узнайте о преимуществах сети, расходах и требованиях к управлению.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ubiquiti-unifi-home-wifi.webp" length="49076" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubiquiti Unifi и TP-Link Omada: какую сетевую систему выбрать?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</link>
+        
+        <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сетевые системы"
+            
+              , "Управление сетью"
+            
+              , "Сравнение оборудования"
+            
+              , "Веб-управление сетью"
+            
+              , "Масштабируемые сетевые решения"
+            
+              , "Функции сетевой безопасности"
+            
+              , "Надежное сетевое оборудование"
+            
+              , "Конкурентные цены на сетевое оборудование"
+            
+              , "Поддержка клиентов"
+            
+              , "Дополнительные предложения продуктов"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните сетевые системы Ubiquiti Unifi и TP-Link Omada по управлению, оборудованию, поддержке, функциям и ценам, чтобы выбрать подходящий вариант.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_split-screen_illustration_of_a_complex_network.webp" length="236442" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

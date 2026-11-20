@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Новые Технологии on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Новые Технологии on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8/</link>
+
+    <description>Recent content in Новые Технологии on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основные языки программирования для современных разработчиков</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</link>
+        
+        <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Разработка ПО"
+            
+              , "Обучение программированию"
+            
+              , "Технические профессии"
+            
+              , "Уроки программирования"
+            
+              , "Цифровые навыки"
+            
+              , "Создание приложений"
+            
+              , "Информатика"
+            
+              , "Новые технологии"
+            
+              , "Языки программирования"
+            
+              , "Инструменты разработки"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, какие языки программирования нужны для создания динамичного ПО.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/fundamentals-of-coding_-languages-you-should-know.webp" length="71288" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Архитектуры шин для высокоскоростной передачи данных</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</link>
+        
+        <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Передача данных"
+            
+              , "Технологические инновации"
+            
+              , "Архитектура систем"
+            
+              , "Высокопроизводительные вычисления"
+            
+              , "Компьютерное оборудование"
+            
+              , "Проектирование шин"
+            
+              , "Связь"
+            
+              , "Новые технологии"
+            
+              , "Эффективность вычислений"
+            
+              , "Техническая оптимизация"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об архитектурах шин и способах ускорения передачи данных. В руководстве рассматриваются типы шин, оптимизация, новые решения и вопросы производительности и безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures.webp" length="305084" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

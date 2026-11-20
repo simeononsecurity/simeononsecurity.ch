@@ -1,0 +1,289 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bitwarden on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Bitwarden on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/bitwarden/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/bitwarden/</link>
+
+    <description>Recent content in Bitwarden on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/bitwarden/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как выбрать менеджер паролей: полное руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-choose-a-password-manager/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "менеджер паролей"
+            
+              , "выбор менеджера паролей"
+            
+              , "Bitwarden"
+            
+              , "KeePassXC"
+            
+              , "безопасность в интернете"
+            
+              , "безопасность паролей"
+            
+              , "управление паролями"
+            
+              , "надежные пароли"
+            
+              , "уникальные пароли"
+            
+              , "утечки данных"
+            
+              , "шифрование"
+            
+              , "кроссплатформенная совместимость"
+            
+              , "синхронизация паролей"
+            
+              , "резервное копирование"
+            
+              , "интерфейс пользователя"
+            
+              , "генератор паролей"
+            
+              , "2FA"
+            
+              , "сквозное шифрование"
+            
+              , "архитектура нулевого разглашения"
+            
+              , "открытый исходный код"
+            
+              , "безопасный обмен паролями"
+            
+              , "автоматический ввод"
+            
+              , "поддержка вложений"
+            
+              , "плагины"
+            
+              , "рекомендации менеджеров паролей"
+            
+              , "сравнение менеджеров паролей"
+            
+              , "советы по безопасности паролей"
+            
+              , "функции менеджеров паролей"
+            
+              , "преимущества менеджеров паролей"
+            
+              , "скачать менеджер паролей"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-choose-a-password-manager/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, на что обратить внимание при выборе менеджера паролей и почему мы рекомендуем Bitwarden и KeePassXC.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.webp" length="40028" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие менеджеры паролей в 2026 году: Bitwarden против KeePassXC</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/</link>
+        
+        <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Управление паролями"
+            
+              , "Безопасность в интернете"
+            
+              , "Защита данных"
+            
+              , "Шифрование"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Интернет-инструменты"
+            
+              , "Облачное хранилище"
+            
+              , "Сравнение программ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение менеджеров паролей за 2026 год: Bitwarden, KeePassXC, 1Password, LastPass, Dashlane и Proton Pass.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/bitwarden-and-keepassxc-vs-the-rest.webp" length="241120" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемые услуги по защите конфиденциальности</title>
+        
+          <link>https://ru.simeononsecurity.com/recommendations/services/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемые услуги по защите конфиденциальности"
+            
+              , "Маскирование информации"
+            
+              , "Онлайновые менеджеры паролей"
+            
+              , "Удаление брокера данных"
+            
+              , "Abine DeleteMe"
+            
+              , "OneRep"
+            
+              , "Optery"
+            
+              , "Abine Blur"
+            
+              , "Privacy.com"
+            
+              , "Bitwarden"
+            
+              , "LastPass"
+            
+              , "Безопасность в Интернете"
+            
+              , "Защита личности"
+            
+              , "Защита информации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/recommendations/services/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с рекомендуемыми SimeonOnSecurity услугами по обеспечению конфиденциальности для защиты ваших персональных данных и безопасности в Интернете. Узнайте об услугах по удалению личной информации у брокеров данных, маскировке информации и управлению паролями. Найдите надежные варианты обеспечения конфиденциальности в Интернете и уменьшите риск кражи личных данных и утечки информации.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

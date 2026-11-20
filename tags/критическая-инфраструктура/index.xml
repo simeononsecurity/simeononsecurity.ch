@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Критическая Инфраструктура on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Критическая Инфраструктура on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BA%D1%80%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BA%D1%80%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0/</link>
+
+    <description>Recent content in Критическая Инфраструктура on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 16 Oct 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BA%D1%80%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как защититься от программ-вымогателей</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ransomware-protection-strategies/</link>
+        
+        <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Технологии"
+            
+              , "Цифровые угрозы"
+            
+              , "Защита данных"
+            
+              , "Безопасность в интернете"
+            
+              , "Киберпреступность"
+            
+              , "ИТ-безопасность"
+            
+              , "Вредоносные программы"
+            
+              , "Интернет-безопасность"
+            
+              , "Защита информации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ransomware-protection-strategies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как работают программы-вымогатели, к чему приводят их атаки и какие меры помогают укрепить кибербезопасность.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ransomware-protection-shield.webp" length="62160" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение NIST Cybersecurity Framework и ISO 27001</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</link>
+        
+        <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Информационная безопасность"
+            
+              , "Модели кибербезопасности"
+            
+              , "Управление рисками"
+            
+              , "Защита данных"
+            
+              , "Соответствие требованиям"
+            
+              , "ИТ-управление"
+            
+              , "Киберугрозы"
+            
+              , "Киберзащита"
+            
+              , "Киберриск"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, чем отличаются NIST Cybersecurity Framework и ISO 27001, чтобы обоснованно выбрать подходящую модель кибербезопасности для вашей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_shield_protecting_a_network_of.webp" length="102920" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

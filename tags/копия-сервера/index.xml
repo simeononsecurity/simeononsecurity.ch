@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Копия Сервера on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Копия Сервера on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0/</link>
+
+    <description>Recent content in Копия Сервера on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Проведите тест восстановления резервной копии Homelab с Restic</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/homelab-backup-restore-drill/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Homelab"
+            
+              , "Резервное копирование"
+            
+              , "Аварийное восстановление"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/homelab-backup-restore-drill/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проверьте, восстанавливает ли резервная копия Homelab пригодные файлы. Определите цель восстановления, восстановите данные Restic в отдельное место, проверьте их и запишите результат.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/homelab-backup-restore-drill.webp" length="80454" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

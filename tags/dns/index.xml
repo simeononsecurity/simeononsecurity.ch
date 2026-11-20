@@ -1,0 +1,304 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DNS on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>DNS on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/dns/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/dns/</link>
+
+    <description>Recent content in DNS on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/dns/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Планирование и проверка сегментации VLAN в homelab</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Homelab"
+            
+              , "Безопасность сети"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Создайте план VLAN, чтобы разделить доверенные устройства, серверы, IoT и гостевые устройства в homelab. Определите разрешенный трафик, настраивайте сеть поэтапно и проверьте изоляцию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизация сети: настройка DNS</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link>
+        
+        <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Администрирование сетей"
+            
+              , "Кибербезопасность"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Технические решения"
+            
+              , "Интернет-технологии"
+            
+              , "Оптимизация DNS"
+            
+              , "Производительность сети"
+            
+              , "Цифровая безопасность"
+            
+              , "Подключение к Интернету"
+            
+              , "Технические руководства"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как DNS влияет на подключение, производительность и безопасность сети, и оптимизируйте его конфигурацию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как работает DNS: корневая зона DNS, ее значение и устранение неполадок</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-does-dns-work/</link>
+        
+        <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Основы DNS"
+            
+              , "Корневая зона DNS"
+            
+              , "Система доменных имен"
+            
+              , "Разрешение DNS"
+            
+              , "Иерархия DNS"
+            
+              , "Кеширование DNS"
+            
+              , "Диагностика DNS"
+            
+              , "Записи DNS"
+            
+              , "Управление DNS"
+            
+              , "Команды DNS"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-does-dns-work/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как работают DNS и корневая зона DNS, как устроены их иерархия, разрешение имен и кеширование, а также как диагностировать проблемы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_image_depicting_interconnected_computer_ne.webp" length="167680" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Курс Сеть плюс: Изучение сетевых сервисов, возможностей подключения и архитектуры</title>
+        
+          <link>https://ru.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</link>
+        
+        <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Работа в сети"
+            
+              , "Связь"
+            
+              , "Обмен данными"
+            
+              , "Сетевая архитектура"
+            
+              , "Облачные вычисления"
+            
+              , "Сетевые услуги"
+            
+              , "DNS"
+            
+              , "DHCP"
+            
+              , "NTP"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Вы узнаете о функциональных возможностях служб DHCP, DNS и NTP, поймете архитектуру корпоративных сетей и сетей центров обработки данных, а также изучите концепции облачных вычислений и варианты подключения для обеспечения бесперебойной связи и управления данными.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_various_networks.webp" length="250792" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

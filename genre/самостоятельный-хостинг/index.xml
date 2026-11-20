@@ -1,0 +1,278 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Самостоятельный Хостинг on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Самостоятельный Хостинг on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D1%81%D0%B0%D0%BC%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D1%81%D0%B0%D0%BC%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3/</link>
+
+    <description>Recent content in Самостоятельный Хостинг on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D1%81%D0%B0%D0%BC%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Соберите домашнюю лабораторию за 10 уровней: от Pi-hole до локального ИИ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/build-home-lab-10-levels/</link>
+        
+        <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Домашняя лаборатория"
+            
+              , "Самостоятельный хостинг"
+            
+              , "Локальный ИИ"
+            
+              , "Домашние сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/build-home-lab-10-levels/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Соберите домашнюю лабораторию в десять практических этапов: от DNS-фильтрации всей сети до локального ИИ, с описанием оборудования, затрат, навыков и компромиссов для каждого уровня.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Какие модели ИИ работают на Raspberry Pi 4 или 5?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link>
+        
+        <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Raspberry Pi"
+            
+              , "Искусственный интеллект"
+            
+              , "Самостоятельный хостинг"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните результаты Raspberry Pi 4 и 5 и выберите локальную языковую модель по памяти, скорости и задачам: от компактных LFM2.5 до вариантов 3B и крупнее.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Cloudflare Tunnel и Access: нужны ли вам оба сервиса?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link>
+        
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сетевая безопасность"
+            
+              , "Самостоятельный хостинг"
+            
+              , "Безопасность облака"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Разберитесь в различиях между Cloudflare Tunnel и Access, выберите защиту для домашней панели и не публикуйте частное приложение без аутентификации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение производительности с помощью Homebox: Управление запасами и активами с открытым исходным кодом</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Управление запасами"
+            
+              , "Управление активами"
+            
+              , "Открытый исходный код"
+            
+              , "Производительность"
+            
+              , "Малый бизнес"
+            
+              , "Управление домом"
+            
+              , "Самостоятельный хостинг"
+            
+              , "Программное обеспечение"
+            
+              , "Организация"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Homebox, программного обеспечения с открытым исходным кодом для эффективного управления запасами и активами, повышающего производительность вашего дома или малого предприятия.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp" length="60896" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

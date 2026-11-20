@@ -1,0 +1,105 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Питание Сервера 12 В on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Питание Сервера 12 В on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0-12-%D0%B2/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0-12-%D0%B2/</link>
+
+    <description>Recent content in Питание Сервера 12 В on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0-12-%D0%B2/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Питание и устойчивость к условиям среды для полевых систем</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Периферийные вычисления"
+            
+              , "Полевые ИТ-системы"
+            
+              , "Системы питания"
+            
+              , "Оборудование"
+            
+              , "Аварийное восстановление"
+            
+              , "Защищенные компьютеры"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Спланируйте питание и защиту от условий среды для полевых edge-узлов. Рассчитайте ИБП, аккумуляторы и солнечные панели, синхронизацию времени, класс защиты корпуса, заземление и защиту от перенапряжений.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Система Кибербезопасности on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Система Кибербезопасности on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+
+    <description>Recent content in Система Кибербезопасности on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PCI-DSS: требования к безопасным карточным транзакциям</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link>
+        
+        <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Безопасность платежных карт"
+            
+              , "Защита данных"
+            
+              , "Соответствие требованиям"
+            
+              , "Информационная безопасность"
+            
+              , "Технологии"
+            
+              , "Бизнес"
+            
+              , "Управление рисками"
+            
+              , "Нормативные требования"
+            
+              , "Электронная торговля"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о PCI-DSS, его компонентах, требованиях соответствия и преимуществах защиты данных платежных карт.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/pci-dss-security-vault.webp" length="88546" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,168 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pi-Hole on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Pi-Hole on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/pi-hole/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/pi-hole/</link>
+
+    <description>Recent content in Pi-Hole on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/pi-hole/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Соберите домашнюю лабораторию за 10 уровней: от Pi-hole до локального ИИ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/build-home-lab-10-levels/</link>
+        
+        <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Домашняя лаборатория"
+            
+              , "Самостоятельный хостинг"
+            
+              , "Локальный ИИ"
+            
+              , "Домашние сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/build-home-lab-10-levels/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Соберите домашнюю лабораторию в десять практических этапов: от DNS-фильтрации всей сети до локального ИИ, с описанием оборудования, затрат, навыков и компромиссов для каждого уровня.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS, AdGuard, Quad9 и Cloudflare: сравнение DNS в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link>
+        
+        <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Сравнение DNS"
+            
+              , "Защита конфиденциальности"
+            
+              , "Блокировка рекламы"
+            
+              , "Безопасность сети"
+            
+              , "Безопасность Интернета"
+            
+              , "DNS-резолвер"
+            
+              , "Конфиденциальность в сети"
+            
+              , "Веб-безопасность"
+            
+              , "Фильтрация DNS"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение NextDNS, AdGuard DNS, Quad9, Cloudflare DNS и Pi-hole в 2026 году по безопасности, конфиденциальности и производительности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Безопасность Открытого Кода on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Безопасность Открытого Кода on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D0%B3%D0%BE-%D0%BA%D0%BE%D0%B4%D0%B0/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D0%B3%D0%BE-%D0%BA%D0%BE%D0%B4%D0%B0/</link>
+
+    <description>Recent content in Безопасность Открытого Кода on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D0%B3%D0%BE-%D0%BA%D0%BE%D0%B4%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubiquiti UniFi Firewall и pfSense</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</link>
+        
+        <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность сети"
+            
+              , "Решения для межсетевых экранов"
+            
+              , "Кибербезопасность"
+            
+              , "Сравнение маршрутизаторов"
+            
+              , "Технологии"
+            
+              , "ИТ-решения"
+            
+              , "Межсетевой экран с открытым кодом"
+            
+              , "Ubiquiti и pfSense"
+            
+              , "Корпоративная сеть"
+            
+              , "Домашняя сеть"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните Ubiquiti UniFi Firewall и pfSense для надежной защиты сети.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Ubiquiti_UniFi_Firewall_vs_pfSense.webp" length="192366" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,156 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GSQ-RCO on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>GSQ-RCO on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/gsq-rco/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/gsq-rco/</link>
+
+    <description>Recent content in GSQ-RCO on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/gsq-rco/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>2x RTX 5060 Ti против GB10: локальный тест ИИ на пяти моделях с контекстом 256K</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Локальный ИИ"
+            
+              , "Оборудование GPU"
+            
+              , "Тестирование"
+            
+              , "Компьютерное оборудование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение RTX 5060 Ti и GB10 на пяти моделях, а также тест Qwen3.8 Flash-Next в Strata на одном хосте с контекстом до 256K.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Достаточно ли 16 ГБ VRAM для серьёзной работы с локальной LLM?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link>
+        
+        <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "Компьютерное оборудование"
+            
+              , "Самостоятельный хостинг ИИ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Рассчитайте конфигурацию локальной LLM на 16 ГБ с учётом весов модели, KV-кэша и обработки промпта. Сравните бюджет памяти Qwen3.8 27B, пропускную способность GPU и стоимость владения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

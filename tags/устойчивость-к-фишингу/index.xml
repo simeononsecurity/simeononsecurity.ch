@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Устойчивость К Фишингу on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Устойчивость К Фишингу on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%83%D1%81%D1%82%D0%BE%D0%B9%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%8C-%D0%BA-%D1%84%D0%B8%D1%88%D0%B8%D0%BD%D0%B3%D1%83/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%83%D1%81%D1%82%D0%BE%D0%B9%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%8C-%D0%BA-%D1%84%D0%B8%D1%88%D0%B8%D0%BD%D0%B3%D1%83/</link>
+
+    <description>Recent content in Устойчивость К Фишингу on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 15 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%83%D1%81%D1%82%D0%BE%D0%B9%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%8C-%D0%BA-%D1%84%D0%B8%D1%88%D0%B8%D0%BD%D0%B3%D1%83/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защитите свои транзакции</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/secure-transactions-amazon-hardware-tokens/</link>
+        
+        <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасность в интернете"
+            
+              , "Цифровые транзакции"
+            
+              , "Двухфакторная аутентификация"
+            
+              , "Устройства Amazon"
+            
+              , "Защита данных"
+            
+              , "Безопасность в сети"
+            
+              , "Электронная коммерция"
+            
+              , "Соблюдение нормативных требований"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/secure-transactions-amazon-hardware-tokens/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о физических аппаратных токенах, рекомендованных Amazon, и о том, как они усиливают проверку учетных записей.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/secure_transactions_shield.webp" length="69502" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

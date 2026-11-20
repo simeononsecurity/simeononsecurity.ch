@@ -1,0 +1,235 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DHCP on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>DHCP on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/dhcp/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/dhcp/</link>
+
+    <description>Recent content in DHCP on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/dhcp/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Планирование и проверка сегментации VLAN в homelab</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Homelab"
+            
+              , "Безопасность сети"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Создайте план VLAN, чтобы разделить доверенные устройства, серверы, IoT и гостевые устройства в homelab. Определите разрешенный трафик, настраивайте сеть поэтапно и проверьте изоляцию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основы сетей: что такое IP-адрес, IPv4 и IPv6</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</link>
+        
+        <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сети"
+            
+              , "IP-адреса"
+            
+              , "Интернет-протоколы"
+            
+              , "IPv4"
+            
+              , "IPv6"
+            
+              , "Сетевая связь"
+            
+              , "Подключение к интернету"
+            
+              , "Технологии"
+            
+              , "Сетевая инфраструктура"
+            
+              , "Безопасность интернета"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, что такое IP-адреса, чем IPv4 отличается от IPv6, почему они важны и зачем нужен переход на IPv6.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_image_of_two_devices_with_speech_bub.webp" length="90028" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Курс Сеть плюс: Изучение сетевых сервисов, возможностей подключения и архитектуры</title>
+        
+          <link>https://ru.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</link>
+        
+        <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Работа в сети"
+            
+              , "Связь"
+            
+              , "Обмен данными"
+            
+              , "Сетевая архитектура"
+            
+              , "Облачные вычисления"
+            
+              , "Сетевые услуги"
+            
+              , "DNS"
+            
+              , "DHCP"
+            
+              , "NTP"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Вы узнаете о функциональных возможностях служб DHCP, DNS и NTP, поймете архитектуру корпоративных сетей и сетей центров обработки данных, а также изучите концепции облачных вычислений и варианты подключения для обеспечения бесперебойной связи и управления данными.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_various_networks.webp" length="250792" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

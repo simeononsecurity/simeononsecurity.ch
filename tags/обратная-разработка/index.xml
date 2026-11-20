@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Обратная Разработка on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Обратная Разработка on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</link>
+
+    <description>Recent content in Обратная Разработка on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 02 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Мир аппаратного хакинга и его инструменты</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hardware-hacker-essential-tools-techniques/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии и хакинг"
+            
+              , "Кибербезопасность"
+            
+              , "Аппаратный хакинг"
+            
+              , "Инструменты хакера"
+            
+              , "Электроника"
+            
+              , "Интернет вещей"
+            
+              , "Самостоятельный хакинг"
+            
+              , "Обратная разработка"
+            
+              , "Микроконтроллеры"
+            
+              , "Беспроводной хакинг"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hardware-hacker-essential-tools-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об аппаратном хакинге, а также об основных инструментах и методах анализа и модификации электронных устройств.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_art_style_depicting_a_hacker_surrou.webp" length="181862" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освойте тестирование на проникновение: продвинутые методы и реальные примеры</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link>
+        
+        <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Тестирование на проникновение"
+            
+              , "Этичный хакинг"
+            
+              , "Безопасность сетей"
+            
+              , "Безопасность веб-приложений"
+            
+              , "Безопасность беспроводных сетей"
+            
+              , "Социальная инженерия"
+            
+              , "Безопасность мобильных приложений"
+            
+              , "Облачная безопасность"
+            
+              , "Развитие карьеры"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите продвинутые методы, инструменты и реальные примеры тестирования на проникновение, чтобы развить навыки и карьеру в кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

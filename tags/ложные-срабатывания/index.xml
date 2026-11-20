@@ -1,0 +1,442 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ложные Срабатывания on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Ложные Срабатывания on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%B5-%D1%81%D1%80%D0%B0%D0%B1%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%B5-%D1%81%D1%80%D0%B0%D0%B1%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F/</link>
+
+    <description>Recent content in Ложные Срабатывания on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%B5-%D1%81%D1%80%D0%B0%D0%B1%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Мы нанесли на карту 146 526 «камер Flock». 50 278 оказались системами ClickShare</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link>
+        
+        <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Исследования безопасности"
+            
+              , "Технологии конфиденциальности"
+            
+              , "Проекты с открытым кодом"
+            
+              , "Дата-журналистика"
+            
+              , "Противодействие слежке"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Аудит Flock Finder выявил ClickShare и другие ложные срабатывания, объяснил доказательства и задокументировал изменения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Осваиваем защиту EDR: руководство по безопасности конечных точек</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link>
+        
+        <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Защита конечных точек"
+            
+              , "Решения EDR"
+            
+              , "Обнаружение угроз"
+            
+              , "Реагирование на инциденты"
+            
+              , "Безопасность конечных точек"
+            
+              , "Киберугрозы"
+            
+              , "ИТ-безопасность"
+            
+              , "Цифровая защита"
+            
+              , "Стратегии безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как работает защита EDR, какие преимущества и сложности внедрения она дает и какие практики помогают защищать конечные точки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ручное и автоматизированное тестирование программного обеспечения: Выбор правильной стратегии</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/software-testing-strategies-manual-vs-automated/</link>
+        
+        <pubDate>Sat, 03 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "тестирование программного обеспечения"
+            
+              , "ручное тестирование"
+            
+              , "автоматизированное тестирование"
+            
+              , "стратегии тестирования"
+            
+              , "разработка программного обеспечения"
+            
+              , "обеспечение качества"
+            
+              , "тестовые примеры"
+            
+              , "покрытие тестами"
+            
+              , "исследовательское тестирование"
+            
+              , "пользовательский опыт"
+            
+              , "эффективность"
+            
+              , "возможность многократного использования"
+            
+              , "адаптивность"
+            
+              , "человеческий фактор"
+            
+              , "ложные срабатывания"
+            
+              , "ложноотрицательные результаты"
+            
+              , "автоматизация тестирования"
+            
+              , "гибридное тестирование"
+            
+              , "оптимизация ресурсов"
+            
+              , "практика тестирования программного обеспечения"
+            
+              , "выбор правильной стратегии тестирования программного обеспечения"
+            
+              , "преимущества ручного тестирования"
+            
+              , "недостатки автоматизированного тестирования"
+            
+              , "сочетание ручного и автоматизированного тестирования"
+            
+              , "оптимизация процесса тестирования программного обеспечения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/software-testing-strategies-manual-vs-automated/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о преимуществах и недостатках ручного и автоматизированного тестирования программного обеспечения, чтобы принять обоснованное решение для своей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp" length="114932" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Охота за угрозами: Проактивная защита от кибератак</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-role-of-threat-hunting-in-proactive-cybersecurity/</link>
+        
+        <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "поиск угроз"
+            
+              , "кибербезопасность"
+            
+              , "проактивная защита"
+            
+              , "кибернетические атаки"
+            
+              , "безопасность сети"
+            
+              , "безопасность конечных точек"
+            
+              , "анализ журнала"
+            
+              , "анализ поведения"
+            
+              , "разведка угроз"
+            
+              , "ручное расследование"
+            
+              , "автоматизированное расследование"
+            
+              , "снижение риска"
+            
+              , "ложные срабатывания"
+            
+              , "требования к квалификации"
+            
+              , "требования к ресурсам"
+            
+              , "более быстрое время отклика"
+            
+              , "улучшенное обнаружение"
+            
+              , "снижение риска"
+            
+              , "финансовые учреждения"
+            
+              , "медицинские работники"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-role-of-threat-hunting-in-proactive-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как поиск угроз может предотвратить кибератаки, а также о преимуществах и проблемах его применения в качестве проактивной меры кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.webp" length="112446" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Влияние машинного обучения на кибербезопасность</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-impact-of-machine-learning-on-cybersecurity/</link>
+        
+        <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Машинное обучение"
+            
+              , "Кибербезопасность"
+            
+              , "Адаптация"
+            
+              , "Искусственный интеллект"
+            
+              , "Обнаружение угроз"
+            
+              , "Защита информации"
+            
+              , "В режиме реального времени"
+            
+              , "Контролируемое обучение"
+            
+              , "Неконтролируемое обучение"
+            
+              , "Обучение с применением подкрепления"
+            
+              , "Ложные срабатывания"
+            
+              , "Ложные отрицательные результаты"
+            
+              , "Обучение сотрудников"
+            
+              , "Решения в области безопасности"
+            
+              , "Аналитика данных"
+            
+              , "Сетевая безопасность"
+            
+              , "Облачная безопасность"
+            
+              , "Распознавание образов"
+            
+              , "Обнаружение аномалий"
+            
+              , "Киберугрозы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-impact-of-machine-learning-on-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как машинное обучение помогает выявлять угрозы, определять их приоритет и реагировать на них, а также о пределах внедрения и рисках безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_robot_standing_guard_in_front.webp" length="56498" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

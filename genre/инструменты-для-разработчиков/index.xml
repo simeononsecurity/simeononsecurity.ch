@@ -1,0 +1,166 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Инструменты Для Разработчиков on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Инструменты Для Разработчиков on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%BE%D0%B2/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%BE%D0%B2/</link>
+
+    <description>Recent content in Инструменты Для Разработчиков on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%BE%D0%B2/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>9 проектов AI Agent Skill для исследований, дизайна и разработки</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Инструменты для разработчиков"
+            
+              , "Разработка программного обеспечения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните девять проектов agent skills по рабочему процессу, поддержке хоста, зависимостям и стоимости. Узнайте, как устанавливать, проверять и тестировать нужные вам skills.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/agent-skill-workflow-library.webp" length="230146" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Visual Studio Code против Visual Studio</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Инструменты разработки"
+            
+              , "IDE"
+            
+              , "Разработка программного обеспечения"
+            
+              , "Программирование"
+            
+              , "Редакторы кода"
+            
+              , "Visual Studio"
+            
+              , "VS Code"
+            
+              , "Разработка Microsoft"
+            
+              , "Инструменты для разработчиков"
+            
+              , "Программная инженерия"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Полное сравнение 2026 года Visual Studio Code и Visual Studio Community/Professional/Enterprise, включая функции, производительность, цены и сценарии использования, чтобы помочь разработчикам выбрать подходящую IDE.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/visual-studio-code-vs-visual-studio-comparison.webp" length="147806" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

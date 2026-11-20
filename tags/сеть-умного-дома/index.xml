@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Сеть Умного Дома on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Сеть Умного Дома on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%81%D0%B5%D1%82%D1%8C-%D1%83%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B4%D0%BE%D0%BC%D0%B0/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%81%D0%B5%D1%82%D1%8C-%D1%83%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B4%D0%BE%D0%BC%D0%B0/</link>
+
+    <description>Recent content in Сеть Умного Дома on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%81%D0%B5%D1%82%D1%8C-%D1%83%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B4%D0%BE%D0%BC%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Проверка изоляции гостевой сети и сети IoT в Mesh Wi-Fi</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Домашние сети"
+            
+              , "Безопасность Wi-Fi"
+            
+              , "Умный дом"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проверьте, блокируют ли гостевая сеть и сеть IoT в вашей Mesh Wi-Fi-системе доступ к домашним устройствам. Протестируйте каждую сеть с работающей службой и зафиксируйте ограничения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp" length="102600" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Повышение Привилегий on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Повышение Привилегий on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%B8%D0%B2%D0%B8%D0%BB%D0%B5%D0%B3%D0%B8%D0%B9/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%B8%D0%B2%D0%B8%D0%BB%D0%B5%D0%B3%D0%B8%D0%B9/</link>
+
+    <description>Recent content in Повышение Привилегий on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%B8%D0%B2%D0%B8%D0%BB%D0%B5%D0%B3%D0%B8%D0%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Анатомия кибератаки: как хакеры обходят защиту</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</link>
+        
+        <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Киберугрозы"
+            
+              , "Тактика хакеров"
+            
+              , "Цифровая безопасность"
+            
+              , "Стратегии кибератак"
+            
+              , "Методы эксфильтрации данных"
+            
+              , "Фишинговые атаки"
+            
+              , "Заражение вредоносным ПО"
+            
+              , "Повышение привилегий"
+            
+              , "Боковое перемещение"
+            
+              , "Меры безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проследите путь кибератаки от первоначального доступа через повышение привилегий, боковое перемещение и закрепление до эксфильтрации данных. Узнайте о мерах защиты на каждом этапе.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses.webp" length="296326" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

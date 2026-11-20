@@ -1,0 +1,235 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DNS on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>DNS on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/dns/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/dns/</link>
+
+    <description>Recent content in DNS on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/dns/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Почему DNS-фильтр обходят: проверьте путь резолвера</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Домашние сети"
+            
+              , "DNS"
+            
+              , "Конфиденциальность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему устройство или браузер обходят DNS-фильтр. Сравните прямые и обычные запросы, проверьте журналы, зашифрованный DNS, VPN, IPv6 и настройки маршрутизатора.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS против AdGuard: какой DNS-блокировщик рекламы лучше?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link>
+        
+        <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Блокировка рекламы"
+            
+              , "DNS"
+            
+              , "Конфиденциальность"
+            
+              , "Безопасность в интернете"
+            
+              , "Защита в сети"
+            
+              , "Цифровая безопасность"
+            
+              , "Решения для браузера"
+            
+              , "Конфиденциальность в сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните NextDNS и AdGuard, два DNS-блокировщика рекламы, и выберите сервис для своих привычек просмотра сайтов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Курс Сеть плюс: Изучение сетевых сервисов, возможностей подключения и архитектуры</title>
+        
+          <link>https://ru.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</link>
+        
+        <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Работа в сети"
+            
+              , "Связь"
+            
+              , "Обмен данными"
+            
+              , "Сетевая архитектура"
+            
+              , "Облачные вычисления"
+            
+              , "Сетевые услуги"
+            
+              , "DNS"
+            
+              , "DHCP"
+            
+              , "NTP"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Вы узнаете о функциональных возможностях служб DHCP, DNS и NTP, поймете архитектуру корпоративных сетей и сетей центров обработки данных, а также изучите концепции облачных вычислений и варианты подключения для обеспечения бесперебойной связи и управления данными.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_various_networks.webp" length="250792" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

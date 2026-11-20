@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Конфигурация OpenSSL В Linux on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Конфигурация OpenSSL В Linux on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8F-openssl-%D0%B2-linux/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8F-openssl-%D0%B2-linux/</link>
+
+    <description>Recent content in Конфигурация OpenSSL В Linux on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8F-openssl-%D0%B2-linux/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Укрепите защиту компьютера, отключив SSL и TLS 1.1 и более ранние версии</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hardening-tls-and-ssl/</link>
+        
+        <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Укрепление защиты компьютера"
+            
+              , "Отключение SSL и TLS"
+            
+              , "Защита данных"
+            
+              , "POODLE"
+            
+              , "BEAST"
+            
+              , "Heartbleed"
+            
+              , "Редактор реестра Windows"
+            
+              , "Конфигурация OpenSSL в Linux"
+            
+              , "Apache"
+            
+              , "Nginx"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hardening-tls-and-ssl/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Отключите SSL и старые версии TLS, сохранив TLS 1.2 или новее. Рассматриваются Schannel и .NET в Windows, а также службы Linux.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp" length="106014" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

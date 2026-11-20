@@ -1,0 +1,249 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Корпоративные ИТ on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Корпоративные ИТ on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D0%B8%D1%82/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D0%B8%D1%82/</link>
+
+    <description>Recent content in Корпоративные ИТ on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D0%B8%D1%82/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible vs Puppet vs Chef 2026: управление конфигурацией</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "Автоматизация инфраструктуры"
+            
+              , "Управление конфигурацией"
+            
+              , "ИТ-операции"
+            
+              , "Облачные вычисления"
+            
+              , "Системное администрирование"
+            
+              , "Корпоративные ИТ"
+            
+              , "Разработка ПО"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Инструменты автоматизации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение Ansible, Puppet и Chef в 2026 году: архитектура, функции, обучение, производительность, цены и сценарии использования.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Технология RAID: объяснение</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/understanding-raid_-types-and-their-uses-in-data-storage/</link>
+        
+        <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Решения для резервного копирования данных"
+            
+              , "Технологии хранения данных"
+            
+              , "Технические советы для бизнеса"
+            
+              , "Серверная инфраструктура"
+            
+              , "Защита данных в ИТ"
+            
+              , "Компьютерные сети"
+            
+              , "Обзор компьютерного оборудования"
+            
+              , "Управление центрами обработки данных"
+            
+              , "Стратегии облачного хранения"
+            
+              , "Корпоративные ИТ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/understanding-raid_-types-and-their-uses-in-data-storage/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Повышайте целостность данных и доступность системы с помощью конфигураций RAID. В этом руководстве описаны уровни RAID и их применение для хранения данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/understanding-raid_-types-and-their-uses-in-data-storage.webp" length="117364" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как обновить старые серверы и модернизировать устаревшие системы</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/reviving-old-servers_-tips-for-upgrading-legacy-systems/</link>
+        
+        <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Модернизация серверов"
+            
+              , "Модернизация ИТ"
+            
+              , "Обслуживание центров обработки данных"
+            
+              , "Технологическая инфраструктура"
+            
+              , "Модернизация устаревших систем"
+            
+              , "Оптимизация систем"
+            
+              , "Управление ИТ"
+            
+              , "Стратегии обновления технологий"
+            
+              , "Корпоративные ИТ"
+            
+              , "Корпоративные вычислительные системы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/reviving-old-servers_-tips-for-upgrading-legacy-systems/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как модернизировать старые серверы, повысить производительность, безопасность и совместимость и грамотно спланировать обновление.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/reviving-old-servers_-tips-for-upgrading-legacy-systems.webp" length="94936" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

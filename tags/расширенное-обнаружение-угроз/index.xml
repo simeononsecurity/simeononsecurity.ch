@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Расширенное Обнаружение Угроз on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Расширенное Обнаружение Угроз on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BD%D0%B0%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D1%83%D0%B3%D1%80%D0%BE%D0%B7/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BD%D0%B0%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D1%83%D0%B3%D1%80%D0%BE%D0%B7/</link>
+
+    <description>Recent content in Расширенное Обнаружение Угроз on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 25 Oct 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BD%D0%B0%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D1%83%D0%B3%D1%80%D0%BE%D0%B7/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Осваиваем защиту EDR: руководство по безопасности конечных точек</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link>
+        
+        <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Защита конечных точек"
+            
+              , "Решения EDR"
+            
+              , "Обнаружение угроз"
+            
+              , "Реагирование на инциденты"
+            
+              , "Безопасность конечных точек"
+            
+              , "Киберугрозы"
+            
+              , "ИТ-безопасность"
+            
+              , "Цифровая защита"
+            
+              , "Стратегии безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как работает защита EDR, какие преимущества и сложности внедрения она дает и какие практики помогают защищать конечные точки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Программы защиты от внутренних угроз: компоненты и снижение рисков</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/enhancing-security-insider-threat-programs/</link>
+        
+        <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Управление рисками"
+            
+              , "Стратегия безопасности"
+            
+              , "Внутренние угрозы"
+            
+              , "Обучение сотрудников"
+            
+              , "Защита данных"
+            
+              , "ИТ-безопасность"
+            
+              , "Безопасность организации"
+            
+              , "Снижение угроз"
+            
+              , "Культура безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/enhancing-security-insider-threat-programs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как программы защиты от внутренних угроз укрепляют безопасность и снижают риски, возникающие внутри организации. Рассмотрим их основные компоненты, трудности внедрения и примеры успеха.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Insider_Threat_Protection_Shield.webp" length="82326" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

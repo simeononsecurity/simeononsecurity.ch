@@ -1,0 +1,747 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Протоколы Безопасности on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Протоколы Безопасности on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D1%8B-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D1%8B-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+
+    <description>Recent content in Протоколы Безопасности on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D1%8B-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Укрепите безопасность интернет-магазина</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</link>
+        
+        <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность электронной торговли"
+            
+              , "Кибербезопасность"
+            
+              , "Защита данных"
+            
+              , "Онлайн-бизнес"
+            
+              , "Безопасность сайта"
+            
+              , "Доверие клиентов"
+            
+              , "Безопасные транзакции"
+            
+              , "SSL-шифрование"
+            
+              , "Правила паролей"
+            
+              , "Рекомендации по безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите интернет-магазин с помощью TLS, MFA администраторов, обновлений, контроля платежей, шифрования, мониторинга, обучения сотрудников, защиты от мошенничества и реагирования на инциденты.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-2024-checklist-for-securing-your-e-commerce-site.webp" length="88770" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Стратегии защиты компании от внутренних угроз</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</link>
+        
+        <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Корпоративная безопасность"
+            
+              , "Внутренние угрозы"
+            
+              , "Защита данных"
+            
+              , "Обучение сотрудников"
+            
+              , "Меры безопасности"
+            
+              , "Реагирование на инциденты"
+            
+              , "Аналитика поведения"
+            
+              , "Мониторинг активности пользователей"
+            
+              , "Культура безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Снизьте риск внутренних угроз с помощью контроля доступа, мониторинга активности, каналов сообщений, процедур увольнения и культуры безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/protecting-against-insider-threats_-strategies-for-your-company.webp" length="87882" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Планирование реагирования на инциденты: пошаговое руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</link>
+        
+        <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Реагирование на инциденты"
+            
+              , "Безопасность бизнеса"
+            
+              , "Киберугрозы"
+            
+              , "Управление рисками"
+            
+              , "Планирование безопасности"
+            
+              , "Защита данных"
+            
+              , "ИТ-безопасность"
+            
+              , "Цифровая устойчивость"
+            
+              , "Управление кризисами"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Составьте план реагирования на инциденты с определёнными ролями, каналами связи, сценариями, инструментами, учениями, метриками и регулярным обновлением.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.webp" length="96088" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как снизить внутренние угрозы</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mitigating-insider-threats-strategies-prevention/</link>
+        
+        <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Защита данных"
+            
+              , "Внутренние угрозы"
+            
+              , "Информационная безопасность"
+            
+              , "Цифровая безопасность"
+            
+              , "Поведение сотрудников"
+            
+              , "Управление рисками"
+            
+              , "Конфиденциальность данных"
+            
+              , "Корпоративная безопасность"
+            
+              , "Профилактические меры"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mitigating-insider-threats-strategies-prevention/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите эффективные способы предотвращать внутренние угрозы, защищать конфиденциальные данные и развивать культуру безопасности в организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Security_Shield_Network_Protection.webp" length="94966" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Эволюционирующие угрозы кибербезопасности: Тенденции и меры противодействия</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-evolving-landcape-of-cybersecurity-threats/</link>
+        
+        <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Угрозы кибербезопасности"
+            
+              , "Новые тенденции"
+            
+              , "Меры противодействия"
+            
+              , "Ландшафт киберугроз"
+            
+              , "Технологические риски"
+            
+              , "Нарушения данных"
+            
+              , "Ransomware-атаки"
+            
+              , "Методы фишинга"
+            
+              , "Уязвимости IoT"
+            
+              , "Инсайдерские угрозы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-evolving-landcape-of-cybersecurity-threats/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Быть в курсе изменений в сфере кибербезопасности, возникающих угроз и эффективных мер по защите от кибератак.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-evolving-landscape-of-cybersecurity-threats.webp" length="43798" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Предотвращение утечки информации: Лучшие практики и стратегии повышения безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</link>
+        
+        <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "информационная безопасность"
+            
+              , "защита информации"
+            
+              , "секретная информация"
+            
+              , "утечка информации"
+            
+              , "стратегии профилактики"
+            
+              , "передовой опыт"
+            
+              , "контроль доступа"
+            
+              , "шифрование"
+            
+              , "обучение сотрудников"
+            
+              , "кибербезопасность"
+            
+              , "предотвращение потери данных"
+            
+              , "оценки безопасности"
+            
+              , "постановления правительства"
+            
+              , "NIST"
+            
+              , "внутренние угрозы"
+            
+              , "уязвимости кибербезопасности"
+            
+              , "человеческий фактор"
+            
+              , "информационные программы"
+            
+              , "информированность о фишинге"
+            
+              , "DLP-решения"
+            
+              , "управление доступом на основе ролей"
+            
+              , "многофакторная аутентификация"
+            
+              , "управление ключами шифрования"
+            
+              , "защита конечных точек"
+            
+              , "проверка содержания"
+            
+              , "аудиты безопасности"
+            
+              , "тестирование на проникновение"
+            
+              , "планирование мер реагирования на инциденты"
+            
+              , "протоколы безопасности"
+            
+              , "защита информации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о лучших методах и стратегиях предотвращения утечки информации и защиты конфиденциальных данных, обеспечивающих повышенную безопасность и защиту.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/best-practices-to-prevent-spillage.webp" length="195784" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как провести оценку рисков безопасности в организации</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-conduct-a-security-risk-assessment/</link>
+        
+        <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Оценка рисков безопасности"
+            
+              , "Кибербезопасность"
+            
+              , "Оценка уязвимостей"
+            
+              , "Выявление угроз"
+            
+              , "Управление рисками"
+            
+              , "Стратегии снижения рисков"
+            
+              , "Физическая безопасность"
+            
+              , "Информационная безопасность"
+            
+              , "Защита активов"
+            
+              , "Защита данных"
+            
+              , "Приоритизация рисков"
+            
+              , "Протоколы безопасности"
+            
+              , "ИТ-системы"
+            
+              , "Обучение сотрудников"
+            
+              , "Пересмотр оценки рисков"
+            
+              , "Внутренние угрозы"
+            
+              , "Внешние угрозы"
+            
+              , "Угрозы безопасности"
+            
+              , "Предотвращение утечек данных"
+            
+              , "Анализ рисков"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-conduct-a-security-risk-assessment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как провести комплексную оценку рисков безопасности, чтобы защитить конфиденциальную информацию и активы организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.webp" length="98508" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Проблемы и возможности политики BYOD</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-challenges-and-opportunities-of-implementing-a-byod-policy/</link>
+        
+        <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Политика BYOD"
+            
+              , "bring-your-own-device"
+            
+              , "управление мобильными устройствами"
+            
+              , "производительность"
+            
+              , "риски безопасности"
+            
+              , "экономия средств"
+            
+              , "обучение сотрудников"
+            
+              , "протоколы безопасности"
+            
+              , "шифрование данных"
+            
+              , "техническая поддержка"
+            
+              , "производственные задачи"
+            
+              , "удовлетворенность работой"
+            
+              , "политика компании"
+            
+              , "удаленное стирание"
+            
+              , "Программное обеспечение MDM"
+            
+              , "устройства для сотрудников"
+            
+              , "меры безопасности"
+            
+              , "использование устройства"
+            
+              , "соответствие"
+            
+              , "надлежащее использование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-challenges-and-opportunities-of-implementing-a-byod-policy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о преимуществах, проблемах и лучших практиках внедрения политики BYOD в вашей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.webp" length="72614" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Искусство обратного инжиниринга: Раскрытие уязвимостей сетевой безопасности IoT</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-art-of-reverse-engineering/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "обратное проектирование"
+            
+              , "Безопасность IoT"
+            
+              , "уязвимости"
+            
+              , "протоколы безопасности"
+            
+              , "анализ устройств"
+            
+              , "Сети IoT"
+            
+              , "внутреннее устройство"
+            
+              , "вредоносный код"
+            
+              , "меры по шифрованию"
+            
+              , "меры аутентификации"
+            
+              , "межсетевые экраны"
+            
+              , "обновление программного обеспечения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-art-of-reverse-engineering/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности обратного проектирования для выявления недостатков в защите сетей IoT и повышения общей безопасности системы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.webp" length="239958" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

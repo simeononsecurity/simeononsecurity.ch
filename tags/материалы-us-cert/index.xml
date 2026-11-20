@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Материалы US-CERT on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Материалы US-CERT on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B-us-cert/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B-us-cert/</link>
+
+    <description>Recent content in Материалы US-CERT on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 21 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B-us-cert/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как защититься от атак социальной инженерии</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-protect-yourself-from-social-engineering/</link>
+        
+        <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Атаки социальной инженерии"
+            
+              , "Защита от социальной инженерии"
+            
+              , "Стратегии кибербезопасности"
+            
+              , "Профилактика фишинга"
+            
+              , "Укрепление паролей"
+            
+              , "Защита от фишинговых атак"
+            
+              , "Защита устройств"
+            
+              , "Распознавание подозрительных писем и звонков"
+            
+              , "Сообщение об инцидентах"
+            
+              , "Осведомленность и обучение кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-protect-yourself-from-social-engineering/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защититься от социальной инженерии с помощью действенных стратегий и рекомендаций.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_shield_protecting_a_person_from_social_engineering_attack.webp" length="146720" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

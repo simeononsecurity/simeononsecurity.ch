@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Castle on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Castle on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/castle/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/castle/</link>
+
+    <description>Recent content in Castle on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 29 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/castle/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Забавные мифы о кибербезопасности: голливудские фантазии о взломе</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hilarious-cybersecurity-myths-hollywood-hacking-antics/</link>
+        
+        <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Взлом"
+            
+              , "Развлечения"
+            
+              , "Поп-культура"
+            
+              , "Телесериалы"
+            
+              , "Кино"
+            
+              , "Технологии"
+            
+              , "Юмор"
+            
+              , "Цифровой мир"
+            
+              , "Медиа"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hilarious-cybersecurity-myths-hollywood-hacking-antics/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о самых смешных мифах киберпоп-культуры: от двух человек за одной клавиатурой до «Zoom Enhance» из CSI.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity-hackers-cartoon.webp" length="164288" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

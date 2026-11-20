@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>API Anthropic Messages on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>API Anthropic Messages on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/api-anthropic-messages/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/api-anthropic-messages/</link>
+
+    <description>Recent content in API Anthropic Messages on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/api-anthropic-messages/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tailscale Aperture: настройка ИИ-клиентов для инференса и MCP в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link>
+        
+        <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Инструменты разработчика"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Направляйте запросы к моделям и инструменты MCP через Tailscale Aperture. Настройте Codex, Claude Code, Claude Desktop, OpenCode и Hermes на другом устройстве или шлюзе.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

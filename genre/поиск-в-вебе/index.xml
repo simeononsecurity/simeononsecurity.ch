@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Поиск В Вебе on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Поиск В Вебе on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D0%B2-%D0%B2%D0%B5%D0%B1%D0%B5/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D0%B2-%D0%B2%D0%B5%D0%B1%D0%B5/</link>
+
+    <description>Recent content in Поиск В Вебе on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 03 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D0%B2-%D0%B2%D0%B5%D0%B1%D0%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Google Dorks: точный поиск в интернете</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-google-dorks-enhanced-search-techniques/</link>
+        
+        <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "SEO"
+            
+              , "Кибербезопасность"
+            
+              , "Поиск в интернете"
+            
+              , "Google Dorks"
+            
+              , "Методы поиска"
+            
+              , "Цифровые навыки"
+            
+              , "Поиск в вебе"
+            
+              , "Советы по интернету"
+            
+              , "Онлайн-исследования"
+            
+              , "Поиск данных"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-google-dorks-enhanced-search-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как уточнять поиск в интернете с помощью Google Dorks и операторов, а затем безопасно проверять результаты.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cartoon-magnifying-glass-computer-search.webp" length="173604" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

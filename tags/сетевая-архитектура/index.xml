@@ -1,0 +1,473 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Сетевая Архитектура on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Сетевая Архитектура on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%B0%D1%8F-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%B0%D1%8F-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0/</link>
+
+    <description>Recent content in Сетевая Архитектура on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%B0%D1%8F-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Fortinet против Cisco: полное сравнение сетевой безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сетевая безопасность"
+            
+              , "Кибербезопасность"
+            
+              , "Корпоративные сети"
+            
+              , "Сравнение межсетевых экранов"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Сетевое оборудование"
+            
+              , "Решения по безопасности"
+            
+              , "Управление сетью"
+            
+              , "Сравнение технологий"
+            
+              , "Принятие ИТ-решений"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Всестороннее сравнение решений Fortinet и Cisco для сетевой безопасности, включая межсетевые экраны, коммутаторы, SD-WAN, цены, показатели производительности и рекомендации по развертыванию на 2026 год.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основы сетей: коммутаторы, маршрутизаторы, брандмауэры и DMZ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link>
+        
+        <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сети"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Безопасность сетей"
+            
+              , "Сетевая архитектура"
+            
+              , "Кибербезопасность"
+            
+              , "Передача данных"
+            
+              , "Информационные технологии"
+            
+              , "Основы ИТ"
+            
+              , "Управление сетями"
+            
+              , "Подключение к интернету"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как коммутаторы, маршрутизаторы, шлюзы, подсети, брандмауэры и DMZ разделяют сетевой трафик и устанавливают границы безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие идеи проектов для домашней лаборатории: откройте новые возможности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/home-lab-project-ideas/</link>
+        
+        <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "проекты для домашней лаборатории"
+            
+              , "среда виртуализации"
+            
+              , "лаборатория сетевой безопасности"
+            
+              , "домашний медиасервер"
+            
+              , "система домашней автоматизации"
+            
+              , "практический опыт"
+            
+              , "навыки ИТ"
+            
+              , "технологии"
+            
+              , "программное обеспечение"
+            
+              , "оборудование"
+            
+              , "эксперименты"
+            
+              , "обучение"
+            
+              , "сетевая архитектура"
+            
+              , "конфигурации программного обеспечения"
+            
+              , "кибербезопасность"
+            
+              , "межсетевой экран"
+            
+              , "маршрутизатор"
+            
+              , "потоковое мультимедиа"
+            
+              , "домашняя сеть"
+            
+              , "умные устройства"
+            
+              , "автоматизация"
+            
+              , "Raspberry Pi"
+            
+              , "Z-Wave"
+            
+              , "Zigbee"
+            
+              , "Plex"
+            
+              , "Kodi"
+            
+              , "Emby"
+            
+              , "VMware vSphere"
+            
+              , "Microsoft Hyper-V"
+            
+              , "Proxmox VE"
+            
+              , "создайте дома среду виртуализации"
+            
+              , "создайте лабораторию сетевой безопасности с pfSense"
+            
+              , "настройте домашний медиасервер с Plex"
+            
+              , "создайте систему домашней автоматизации с Raspberry Pi"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/home-lab-project-ideas/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите новые идеи проектов для домашней лаборатории, расширьте знания и улучшите навыки в сфере ИТ.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_image_depicting_a_person_working.webp" length="205010" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегментация сети: как повысить безопасность организации</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-perform-network-segmentation-for-improved-security/</link>
+        
+        <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "сегментация сети"
+            
+              , "повышение безопасности"
+            
+              , "снижение рисков"
+            
+              , "производительность сети"
+            
+              , "управление сетью"
+            
+              , "меры безопасности"
+            
+              , "межсетевые экраны"
+            
+              , "контроль доступа"
+            
+              , "минимальные привилегии"
+            
+              , "аутентификация"
+            
+              , "тестирование"
+            
+              , "мониторинг"
+            
+              , "киберугрозы"
+            
+              , "утечки данных"
+            
+              , "сетевая архитектура"
+            
+              , "комплексная безопасность"
+            
+              , "многоуровневая защита"
+            
+              , "уязвимости"
+            
+              , "кибератаки"
+            
+              , "обучение сотрудников"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-perform-network-segmentation-for-improved-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Руководство по сегментации сети, повышению безопасности и снижению рисков в организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.webp" length="144774" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Механизмы перехода с IPv4 на IPv6: подробное руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ipv4-to-ipv6-transition-mechanisms/</link>
+        
+        <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IPv4"
+            
+              , "IPv6"
+            
+              , "сетевые технологии"
+            
+              , "механизмы перехода"
+            
+              , "двойной стек"
+            
+              , "NAT64"
+            
+              , "DNS64"
+            
+              , "туннелирование IPv6"
+            
+              , "ISATAP"
+            
+              , "6to4"
+            
+              , "DS-Lite"
+            
+              , "MAP-T"
+            
+              , "миграция IPv6"
+            
+              , "сетевые протоколы"
+            
+              , "интернет-протокол"
+            
+              , "сетевая архитектура"
+            
+              , "маршрутизация"
+            
+              , "разбиение на подсети"
+            
+              , "адресация"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ipv4-to-ipv6-transition-mechanisms/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом подробном руководстве описаны разные механизмы перехода с IPv4 на IPv6.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.webp" length="56020" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,200 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Защита В Сети on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Защита В Сети on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8/</link>
+
+    <description>Recent content in Защита В Сети on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mullvad или ProtonVPN: какой VPN выбрать?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mullvad-vs-protonvpn/</link>
+        
+        <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Безопасность"
+            
+              , "Конфиденциальность"
+            
+              , "Сравнение VPN"
+            
+              , "Анонимность в сети"
+            
+              , "Цифровая безопасность"
+            
+              , "Безопасность интернета"
+            
+              , "Кибербезопасность"
+            
+              , "Защита данных"
+            
+              , "Сервисы VPN"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mullvad-vs-protonvpn/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните Mullvad VPN и ProtonVPN по безопасности, конфиденциальности, скорости и удобству, чтобы выбрать подходящий сервис.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/mullvad-protonvpn-security-race.webp" length="148320" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство по лучшим практикам защиты и управления паролями</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/</link>
+        
+        <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "безопасность паролей"
+            
+              , "управление паролями"
+            
+              , "безопасность в сети"
+            
+              , "киберугрозы"
+            
+              , "надежные пароли"
+            
+              , "двухфакторная аутентификация"
+            
+              , "менеджер паролей"
+            
+              , "безопасность данных"
+            
+              , "кража личности"
+            
+              , "фишинговые аферы"
+            
+              , "общественные сети Wi-Fi"
+            
+              , "конфиденциальность в Интернете"
+            
+              , "безопасность пользователей в сети"
+            
+              , "цифровая безопасность"
+            
+              , "безопасность Интернета"
+            
+              , "кибербезопасность"
+            
+              , "защита данных"
+            
+              , "безопасность учетной записи"
+            
+              , "онлайн-учетные записи"
+            
+              , "защита в сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о важности безопасности паролей и ознакомьтесь с лучшими методами управления паролями для защиты вашей личной информации и идентификации в Интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.webp" length="81294" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,443 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Киберпреступники on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Киберпреступники on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%BF%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%B8%D0%BA%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%BF%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%B8%D0%BA%D0%B8/</link>
+
+    <description>Recent content in Киберпреступники on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 25 Oct 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%BF%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%B8%D0%BA%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Осваиваем защиту EDR: руководство по безопасности конечных точек</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link>
+        
+        <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Защита конечных точек"
+            
+              , "Решения EDR"
+            
+              , "Обнаружение угроз"
+            
+              , "Реагирование на инциденты"
+            
+              , "Безопасность конечных точек"
+            
+              , "Киберугрозы"
+            
+              , "ИТ-безопасность"
+            
+              , "Цифровая защита"
+            
+              , "Стратегии безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как работает защита EDR, какие преимущества и сложности внедрения она дает и какие практики помогают защищать конечные точки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Исследование даркнета: скрытые сервисы и риски</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/exploring-the-dark-web/</link>
+        
+        <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии и интернет"
+            
+              , "Кибербезопасность"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Преступная деятельность"
+            
+              , "Криптовалюты"
+            
+              , "Онлайн-площадки"
+            
+              , "Коммуникационные платформы"
+            
+              , "Разоблачение нарушений"
+            
+              , "Цифровые права"
+            
+              , "Правоохранительные органы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/exploring-the-dark-web/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о даркнете, его скрытых сервисах и возможных рисках менее заметной части интернета.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_cartoon-style_image_depicting_a_locked_door_with.webp" length="214932" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Кибербезопасность при удаленной работе: Исчерпывающее руководство.</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-role-of-cybersecurity-in-the-era-of-remote-work/</link>
+        
+        <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "удалённая работа"
+            
+              , "утечки данных"
+            
+              , "VPN"
+            
+              , "двухфакторная аутентификация"
+            
+              , "меры безопасности"
+            
+              , "безопасная связь"
+            
+              , "киберугрозы"
+            
+              , "антивирусное программное обеспечение"
+            
+              , "фишинговые письма"
+            
+              , "управление паролями"
+            
+              , "работа на дому"
+            
+              , "защита информации"
+            
+              , "безопасность в Интернете"
+            
+              , "безопасность сотрудников"
+            
+              , "удаленная рабочая сила"
+            
+              , "киберпреступники"
+            
+              , "видеоконференции"
+            
+              , "обмен зашифрованными сообщениями"
+            
+              , "виртуальная частная сеть"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-role-of-cybersecurity-in-the-era-of-remote-work/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Комплексное руководство для организаций по обеспечению безопасности удаленных сотрудников в эпоху удаленной работы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.webp" length="110408" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение безопасности и конфиденциальности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/debloat-windows-for-improved-privacy-and-security/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Укрепление Windows"
+            
+              , "Удаление ненужных программ из Windows"
+            
+              , "Повышение безопасности"
+            
+              , "Конфиденциальность"
+            
+              , "Кибератаки"
+            
+              , "Безопасность операционной системы"
+            
+              , "Операционная система Windows"
+            
+              , "Конфиденциальность данных"
+            
+              , "Киберпреступники"
+            
+              , "Поверхность атаки"
+            
+              , "Уязвимости"
+            
+              , "Обновления безопасности"
+            
+              , "Механизмы аутентификации"
+            
+              , "Нежелательные программы"
+            
+              , "Повышение производительности"
+            
+              , "Сбор данных"
+            
+              , "Двухфакторная аутентификация"
+            
+              , "Антивирусные программы"
+            
+              , "Антивредоносные программы"
+            
+              , "Конфиденциальная информация"
+            
+              , "Полное руководство"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/debloat-windows-for-improved-privacy-and-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оставайтесь в безопасности в сети. Узнайте, почему укрепление Windows и удаление ненужных программ повышают безопасность и конфиденциальность.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/debloat-windows-for-improved-privacy-and-security.webp" length="202664" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемые ресурсы по защите персональных данных</title>
+        
+          <link>https://ru.simeononsecurity.com/recommendations/privacy/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемые ресурсы по защите персональных данных"
+            
+              , "Права на частную жизнь"
+            
+              , "Защита от хищения персональных данных"
+            
+              , "Цифровая безопасность"
+            
+              , "Киберпреступники"
+            
+              , "Массовое наблюдение"
+            
+              , "Защита персональных данных"
+            
+              , "Семейная конфиденциальность"
+            
+              , "Конфиденциальность детей"
+            
+              , "Конфиденциальность подростков"
+            
+              , "Гигиена цифровой безопасности"
+            
+              , "Кредитный отчет"
+            
+              , "Замораживание кредита"
+            
+              , "Контрольный список защитных вычислений"
+            
+              , "Удаление персональных данных"
+            
+              , "Отчетность о мошенничестве"
+            
+              , "Услуги по защите персональных данных"
+            
+              , "Маскирование информации"
+            
+              , "Управление счетами"
+            
+              , "Запросы по GDPR"
+            
+              , "Удаление счета"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/recommendations/privacy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с рекомендуемыми ресурсами по защите своих прав, семьи и личной информации, включая защиту от кражи личных данных, цифровую безопасность и права на неприкосновенность частной жизни, чтобы оставаться в безопасности от киберпреступников и массовой слежки.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

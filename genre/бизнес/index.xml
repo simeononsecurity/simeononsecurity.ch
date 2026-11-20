@@ -1,0 +1,387 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Бизнес on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Бизнес on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/</link>
+
+    <description>Recent content in Бизнес on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PCI-DSS: требования к безопасным карточным транзакциям</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link>
+        
+        <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Безопасность платежных карт"
+            
+              , "Защита данных"
+            
+              , "Соответствие требованиям"
+            
+              , "Информационная безопасность"
+            
+              , "Технологии"
+            
+              , "Бизнес"
+            
+              , "Управление рисками"
+            
+              , "Нормативные требования"
+            
+              , "Электронная торговля"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о PCI-DSS, его компонентах, требованиях соответствия и преимуществах защиты данных платежных карт.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/pci-dss-security-vault.webp" length="88546" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание GDPR: руководство по правилам защиты данных</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/what-is-gdpr-overview-explanation/</link>
+        
+        <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Конфиденциальность данных"
+            
+              , "Нормативные требования"
+            
+              , "Соответствие требованиям"
+            
+              , "Технологии"
+            
+              , "Бизнес"
+            
+              , "Право ЕС"
+            
+              , "Конфиденциальность в интернете"
+            
+              , "Цифровые права"
+            
+              , "Защита данных"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/what-is-gdpr-overview-explanation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как GDPR защищает персональные данные, какие принципы и права он устанавливает и как влияет на компании.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/GDPR_Data_Vault_Security.webp" length="52018" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Создание устойчивого SOC</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link>
+        
+        <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Технологии"
+            
+              , "Бизнес"
+            
+              , "Защита данных"
+            
+              , "Реагирование на инциденты"
+            
+              , "ИТ-менеджмент"
+            
+              , "Безопасность сетей"
+            
+              , "Обнаружение угроз"
+            
+              , "Информационная безопасность"
+            
+              , "Управление рисками"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Создайте надежный центр мониторинга и реагирования на инциденты (SOC), чтобы противостоять киберугрозам, выявлять инциденты и защищать ресурсы организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Хостинг OrangeWebsite: Развертывание успеха в Интернете с помощью скорости и безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/orangwebsite-web-hosting/</link>
+        
+        <pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Веб-хостинг"
+            
+              , "Кибербезопасность"
+            
+              , "Бизнес"
+            
+              , "Цифровые услуги"
+            
+              , "Управление сайтом"
+            
+              , "Интернет"
+            
+              , "Электронная коммерция"
+            
+              , "Облачный хостинг"
+            
+              , "Хостинг серверов"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/orangwebsite-web-hosting/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности хостинга OrangeWebsite - быстрые, безопасные и надежные решения для всех ваших веб-сайтов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/OrangeWebsite-rocket.webp" length="58398" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ключевые навыки эффективного руководителя информационных систем</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Бизнес"
+            
+              , "Менеджмент"
+            
+              , "ИТ"
+            
+              , "Профессиональное развитие"
+            
+              , "Цифровая трансформация"
+            
+              , "Анализ данных"
+            
+              , "Облачные вычисления"
+            
+              , "Управление проектами"
+            
+              , "Лидерство"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о пяти ключевых навыках, которые нужны каждому руководителю информационных систем для успеха в современной деловой среде.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.webp" length="179058" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

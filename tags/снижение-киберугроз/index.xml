@@ -1,0 +1,318 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Снижение Киберугроз on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Снижение Киберугроз on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%81%D0%BD%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D1%83%D0%B3%D1%80%D0%BE%D0%B7/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%81%D0%BD%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D1%83%D0%B3%D1%80%D0%BE%D0%B7/</link>
+
+    <description>Recent content in Снижение Киберугроз on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 06 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%81%D0%BD%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D1%83%D0%B3%D1%80%D0%BE%D0%B7/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Осваиваем автоматизацию информационной безопасности: стратегии и инструменты</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/deep-dive-into-security-automation_-strategies-and-implementation/</link>
+        
+        <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация безопасности"
+            
+              , "Стратегии кибербезопасности"
+            
+              , "Платформы автоматизации"
+            
+              , "Машинное обучение в безопасности"
+            
+              , "Реагирование на инциденты"
+            
+              , "Непрерывное совершенствование"
+            
+              , "Открытые и коммерческие инструменты"
+            
+              , "Киберустойчивость"
+            
+              , "Цифровые угрозы"
+            
+              , "Метрики безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/deep-dive-into-security-automation_-strategies-and-implementation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Руководство по стратегиям и инструментам автоматизации безопасности, метрикам, ограничениям внедрения и рабочим процессам с поддержкой ИИ.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/deep-dive-into-security-automation_-strategies-and-implementation.webp" length="257448" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>FedRAMP: безопасные облачные решения для правительства</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</link>
+        
+        <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Государство"
+            
+              , "Облачные сервисы"
+            
+              , "Соответствие требованиям"
+            
+              , "Федеральные нормы"
+            
+              , "Информационная безопасность"
+            
+              , "Управление рисками"
+            
+              , "Облачные вычисления"
+            
+              , "Защита данных"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          FedRAMP повышает безопасность облачных решений, используемых правительством США.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Secure-Cloud-Government-Shield.webp" length="63200" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>FISMA: укрепление кибербезопасности федеральных органов и защита данных</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</link>
+        
+        <pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Государственное регулирование"
+            
+              , "Обеспечение информационной безопасности"
+            
+              , "Защита данных"
+            
+              , "Федеральные ведомства"
+            
+              , "Управление рисками"
+            
+              , "Стандарты безопасности"
+            
+              , "Непрерывный мониторинг"
+            
+              , "Киберугрозы"
+            
+              , "Цифровое управление"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как FISMA укрепляет федеральную кибербезопасность. Изучите основные особенности, процесс и влияние закона на защиту данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/secure-shield-fisma.webp" length="118222" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освойте принцип минимальных привилегий</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link>
+        
+        <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Безопасность Linux"
+            
+              , "Контроль доступа"
+            
+              , "ИТ-безопасность"
+            
+              , "Сетевая безопасность"
+            
+              , "Защита информации"
+            
+              , "Конфиденциальность данных"
+            
+              , "Киберугрозы"
+            
+              , "Управление рисками"
+            
+              , "Лучшие практики безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Укрепите кибербезопасность с помощью контроля доступа по принципу минимальных привилегий в Linux. Изучите этапы внедрения, лучшие практики и устранение проблем.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,212 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jellyfin on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Jellyfin on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/jellyfin/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/jellyfin/</link>
+
+    <description>Recent content in Jellyfin on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/jellyfin/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Соберите домашнюю лабораторию за 10 уровней: от Pi-hole до локального ИИ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/build-home-lab-10-levels/</link>
+        
+        <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Домашняя лаборатория"
+            
+              , "Самостоятельный хостинг"
+            
+              , "Локальный ИИ"
+            
+              , "Домашние сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/build-home-lab-10-levels/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Соберите домашнюю лабораторию в десять практических этапов: от DNS-фильтрации всей сети до локального ИИ, с описанием оборудования, затрат, навыков и компромиссов для каждого уровня.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jellyfin против Plex Media Server</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/plex-media-server-vs-jellyfin/</link>
+        
+        <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Jellyfin против Plex"
+            
+              , "Plex Media Server"
+            
+              , "Jellyfin"
+            
+              , "сравнение медиасерверов"
+            
+              , "потоковое мультимедиа"
+            
+              , "личная медиатека"
+            
+              , "организация медиатеки"
+            
+              , "удобный интерфейс"
+            
+              , "открытый исходный код"
+            
+              , "выгодная цена"
+            
+              , "доступная цена"
+            
+              , "премиум-функции"
+            
+              , "бесплатный медиасервер"
+            
+              , "функции медиасервера"
+            
+              , "потоковая передача мультимедиа"
+            
+              , "управление медиатекой"
+            
+              , "альтернативы Plex"
+            
+              , "функции Jellyfin"
+            
+              , "Plex против Jellyfin"
+            
+              , "стоимость медиасервера"
+            
+              , "платформы медиасерверов"
+            
+              , "лучший медиасервер"
+            
+              , "программное обеспечение медиасервера"
+            
+              , "сервер потоковой передачи"
+            
+              , "настройка медиасервера"
+            
+              , "приложение для медиасервера"
+            
+              , "решения для медиасервера"
+            
+              , "руководство по медиасерверам"
+            
+              , "медиасервер потоковой передачи"
+            
+              , "сравнить Plex и Jellyfin"
+            
+              , "обзор Plex"
+            
+              , "обзор Jellyfin"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/plex-media-server-vs-jellyfin/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте различия между Plex Media Server и Jellyfin, двумя популярными вариантами медиасерверов, и сделайте осознанный выбор на основе функций и стоимости.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/plex-vs-jellyfin.webp" length="95538" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

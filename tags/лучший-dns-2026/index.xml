@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Лучший DNS 2026 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Лучший DNS 2026 on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9-dns-2026/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9-dns-2026/</link>
+
+    <description>Recent content in Лучший DNS 2026 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 30 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9-dns-2026/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS, AdGuard, Quad9 и Cloudflare: сравнение DNS в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link>
+        
+        <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Сравнение DNS"
+            
+              , "Защита конфиденциальности"
+            
+              , "Блокировка рекламы"
+            
+              , "Безопасность сети"
+            
+              , "Безопасность Интернета"
+            
+              , "DNS-резолвер"
+            
+              , "Конфиденциальность в сети"
+            
+              , "Веб-безопасность"
+            
+              , "Фильтрация DNS"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение NextDNS, AdGuard DNS, Quad9, Cloudflare DNS и Pi-hole в 2026 году по безопасности, конфиденциальности и производительности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

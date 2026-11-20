@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Серверная Инфраструктура on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Серверная Инфраструктура on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0/</link>
+
+    <description>Recent content in Серверная Инфраструктура on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 09 Mar 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Технология RAID: объяснение</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/understanding-raid_-types-and-their-uses-in-data-storage/</link>
+        
+        <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Решения для резервного копирования данных"
+            
+              , "Технологии хранения данных"
+            
+              , "Технические советы для бизнеса"
+            
+              , "Серверная инфраструктура"
+            
+              , "Защита данных в ИТ"
+            
+              , "Компьютерные сети"
+            
+              , "Обзор компьютерного оборудования"
+            
+              , "Управление центрами обработки данных"
+            
+              , "Стратегии облачного хранения"
+            
+              , "Корпоративные ИТ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/understanding-raid_-types-and-their-uses-in-data-storage/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Повышайте целостность данных и доступность системы с помощью конфигураций RAID. В этом руководстве описаны уровни RAID и их применение для хранения данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/understanding-raid_-types-and-their-uses-in-data-storage.webp" length="117364" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,624 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Технологии Конфиденциальности on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Технологии Конфиденциальности on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+
+    <description>Recent content in Технологии Конфиденциальности on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Мы нанесли на карту 146 526 «камер Flock». 50 278 оказались системами ClickShare</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link>
+        
+        <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Исследования безопасности"
+            
+              , "Технологии конфиденциальности"
+            
+              , "Проекты с открытым кодом"
+            
+              , "Дата-журналистика"
+            
+              , "Противодействие слежке"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Аудит Flock Finder выявил ClickShare и другие ложные срабатывания, объяснил доказательства и задокументировал изменения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекламное предложение Flock Safety: доступ к каждому перемещению без ордера</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-safety-sales-pitch-warrantless-access-2026/</link>
+        
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии конфиденциальности"
+            
+              , "Цифровые права"
+            
+              , "Наблюдение"
+            
+              , "Юридический анализ"
+            
+              , "Противодействие наблюдению"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-safety-sales-pitch-warrantless-access-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Разберите рекламные заявления Flock Safety, доступ к данным о перемещениях и конституционные вопросы, связанные с обысками без ордера.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-safety-warrantless-access-surveillance-database.webp" length="440804" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Гонка обнаружения камер Flock: что изменилось в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link>
+        
+        <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии конфиденциальности"
+            
+              , "Противодействие слежке"
+            
+              , "Проекты с открытым исходным кодом"
+            
+              , "Цифровые права"
+            
+              , "Сетевая безопасность"
+            
+              , "Исследования безопасности"
+            
+              , "Модификация оборудования"
+            
+              , "Инструменты конфиденциальности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Обзор изменений в обнаружении Flock Safety, о которых сообщали пользователи, ответов сообщества и инфракрасных способов выявления камер.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>ATS Resume Improver: бесплатная оптимизация резюме с ИИ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</link>
+        
+        <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Инструменты для карьеры"
+            
+              , "Проекты с открытым исходным кодом"
+            
+              , "Искусственный интеллект"
+            
+              , "Технологии конфиденциальности"
+            
+              , "Инструменты разработчика"
+            
+              , "Поиск работы"
+            
+              , "Продуктивность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          ATS Resume Improver — бесплатный инструмент с открытым исходным кодом, который работает в браузере и анализирует, оценивает, сопоставляет, оптимизирует и экспортирует резюме с помощью облачных или локальных моделей.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp" length="158574" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Flock Finder: Картирование камер ALPR Flock Safety</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link>
+        
+        <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии конфиденциальности"
+            
+              , "Контрнаблюдение"
+            
+              , "Проекты с открытым исходным кодом"
+            
+              , "Цифровые права"
+            
+              , "Сетевая безопасность"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Аппаратный хакинг"
+            
+              , "Исследования безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Flock Finder — это инструмент с открытым исходным кодом, который картирует более 40 000 камер ALPR Flock Safety по всему миру с использованием данных WiFi от WiGLE и отпечатков OUI. Узнайте, как это работает, его ограничения и аппаратные инструменты для обнаружения в реальном времени.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>DagShell: кастомная прошивка для Orbic RCL400, руководство 2026</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link>
+        
+        <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кастомная прошивка"
+            
+              , "Мобильная безопасность"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Сетевая безопасность"
+            
+              , "Вардрайвинг"
+            
+              , "Тестирование на проникновение"
+            
+              , "Взлом IoT"
+            
+              , "Исследования безопасности"
+            
+              , "Аппаратный хакинг"
+            
+              , "Технологии конфиденциальности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Техническое руководство по прошивке DagShell для Orbic RCL400. Установка, инструменты защиты конфиденциальности, вар-драйвинг и ограничения исследований.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Видеонаблюдение Flock Safety: Конфиденциальность и Защита</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии конфиденциальности"
+            
+              , "Системы видеонаблюдения"
+            
+              , "Цифровые права"
+            
+              , "Правоохранительные технологии"
+            
+              , "Защита конфиденциальности"
+            
+              , "Противодействие слежке"
+            
+              , "Гражданские свободы"
+            
+              , "Технологическая этика"
+            
+              , "Инфраструктура умного города"
+            
+              , "Оборудование безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о широком распространении камер ALPR Flock Safety в 2026 году, разберитесь в последствиях для конфиденциальности и изучите эффективные стратегии противодействия слежке, включая устройства обнаружения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-safety-camera-surveillance-prevalence-privacy-protection-2026.webp" length="316668" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Обнаружение Flock-You: Руководство по настройке контрнаблюдения</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защитное оборудование"
+            
+              , "Контрнаблюдение"
+            
+              , "Технологии конфиденциальности"
+            
+              , "Проекты с открытым исходным кодом"
+            
+              , "Разработка ESP32"
+            
+              , "Мониторинг WiFi"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Цифровые права"
+            
+              , "Аппаратный хакинг"
+            
+              , "Сетевая безопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Полное техническое руководство по открытому проекту Flock-You для обнаружения ALPR-камер Flock Safety с использованием оборудования на базе ESP32. Включает инструкции по настройке, детали прошивки и варианты покупки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Криптовалюты: от появления биткоина до наших дней</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-evolution-of-cryptocurrency_-a-technical-perspective/</link>
+        
+        <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Развитие криптовалют"
+            
+              , "Технология блокчейн"
+            
+              , "Истоки биткоина"
+            
+              , "Майнинг криптовалют"
+            
+              , "Механизмы консенсуса"
+            
+              , "Безопасность криптовалют"
+            
+              , "Технологии конфиденциальности"
+            
+              , "Решения для масштабирования"
+            
+              , "Новые сценарии использования"
+            
+              , "Цифровые финансы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-evolution-of-cryptocurrency_-a-technical-perspective/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проследите развитие криптовалют от биткоина до новых приложений. Узнайте о технических изменениях, рисках и ограничениях децентрализованных цифровых активов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-evolution-of-cryptocurrency_-a-technical-perspective.webp" length="173358" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

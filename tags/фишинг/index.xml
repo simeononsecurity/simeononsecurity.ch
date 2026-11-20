@@ -1,0 +1,1245 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Фишинг on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Фишинг on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%84%D0%B8%D1%88%D0%B8%D0%BD%D0%B3/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%84%D0%B8%D1%88%D0%B8%D0%BD%D0%B3/</link>
+
+    <description>Recent content in Фишинг on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%84%D0%B8%D1%88%D0%B8%D0%BD%D0%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Самые распространённые виды кибератак и способы их обнаружения</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link>
+        
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Обнаружение угроз"
+            
+              , "Blue Team"
+            
+              , "Операции безопасности"
+            
+              , "Профессиональное развитие"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите распространённые виды кибератак, найдите оставляемые ими следы в журналах и телеметрии и потренируйтесь обнаруживать их в домашней лаборатории безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Киберугрозы: контекст 2024 года и защитный список действий на 2026 год</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2024/</link>
+        
+        <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Угрозы"
+            
+              , "Программы-вымогатели"
+            
+              , "Фишинг"
+            
+              , "Безопасность IoT"
+            
+              , "Внутренние угрозы"
+            
+              , "Облачная безопасность"
+            
+              , "Резервное копирование данных"
+            
+              , "Многофакторная аутентификация"
+            
+              , "Исправления безопасности"
+            
+              , "Обучение сотрудников"
+            
+              , "Контроль доступа"
+            
+              , "Проверка биографии"
+            
+              , "Предотвращение утечек данных"
+            
+              , "Облачные провайдеры"
+            
+              , "Шифрование данных"
+            
+              , "Безопасность сети"
+            
+              , "Защита конечных точек"
+            
+              , "Мониторинг сети"
+            
+              , "Сканирование уязвимостей"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2024/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Обзор категорий угроз, обсуждавшихся в 2024 году, и датированный список мер защиты на 2026 год от программ-вымогателей, фишинга, рисков IoT, внутренних угроз и облачных рисков.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.webp" length="115136" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Термины кибербезопасности простыми словами</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</link>
+        
+        <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Технологии"
+            
+              , "Цифровая безопасность"
+            
+              , "Онлайн-угрозы"
+            
+              , "Безопасность в Интернете"
+            
+              , "Защита данных"
+            
+              , "Конфиденциальность"
+            
+              , "Онлайн-защита"
+            
+              , "ИТ-безопасность"
+            
+              , "Киберугрозы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Понятный справочник по терминам кибербезопасности, угрозам, технологиям и правилам конфиденциальности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity-jargon-illustration.webp" length="150724" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основы кибербезопасности: руководство по защите в цифровом мире</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</link>
+        
+        <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Цифровая безопасность"
+            
+              , "Безопасность в интернете"
+            
+              , "Защита информации"
+            
+              , "Конфиденциальность данных"
+            
+              , "Цифровые угрозы"
+            
+              , "Советы по безопасности в интернете"
+            
+              , "Киберзащита"
+            
+              , "Безопасная работа с компьютером"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о ключевых практиках кибербезопасности для защиты цифровой жизни и активов. Разберитесь в угрозах и безопасной работе в интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Cybersecurity-Shield-Protection.webp" length="114598" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Исследование даркнета: скрытые сервисы и риски</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/exploring-the-dark-web/</link>
+        
+        <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии и интернет"
+            
+              , "Кибербезопасность"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Преступная деятельность"
+            
+              , "Криптовалюты"
+            
+              , "Онлайн-площадки"
+            
+              , "Коммуникационные платформы"
+            
+              , "Разоблачение нарушений"
+            
+              , "Цифровые права"
+            
+              , "Правоохранительные органы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/exploring-the-dark-web/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о даркнете, его скрытых сервисах и возможных рисках менее заметной части интернета.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_cartoon-style_image_depicting_a_locked_door_with.webp" length="214932" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание распространенных угроз кибербезопасности: Защита физических и юридических лиц</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/understanding-common-cybersecurity-threats/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Угрозы кибербезопасности"
+            
+              , "Важность кибербезопасности"
+            
+              , "Виды угроз"
+            
+              , "Влияние угроз"
+            
+              , "Защита от угроз"
+            
+              , "Роль государства в обеспечении кибербезопасности"
+            
+              , "Роль промышленности в обеспечении кибербезопасности"
+            
+              , "Нормативно-правовое регулирование и соблюдение требований"
+            
+              , "Государственно-частное партнерство"
+            
+              , "Исследования и разработки в области кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/understanding-common-cybersecurity-threats/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучить распространенные угрозы кибербезопасности, их влияние на частных лиц и предприятия, а также эффективные способы защиты от них.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/understanding-common-cybersecurity-threats.webp" length="35880" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание основ кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/understanding-the-basics-of-cybersecurity/</link>
+        
+        <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Понимание основ кибербезопасности"
+            
+              , "Важность кибербезопасности"
+            
+              , "Защита персональной информации"
+            
+              , "Защита деловой информации"
+            
+              , "Вопросы национальной безопасности"
+            
+              , "Ключевая терминология в области кибербезопасности"
+            
+              , "Виды кибер-атак"
+            
+              , "Лучшие практики в области кибербезопасности"
+            
+              , "Роль шифрования в обеспечении кибербезопасности"
+            
+              , "Кибербезопасность для бизнеса"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/understanding-the-basics-of-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя важность кибербезопасности и узнайте, как защитить личную, деловую и национальную безопасность от развивающихся киберугроз.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/understanding-the-basics-of-cybersecurity.webp" length="27204" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание угроз Ransomware: Меры по предотвращению</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-rise-of-ransomware-understanding-the-threat-and-preventive-measures/</link>
+        
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "программы-вымогатели"
+            
+              , "кибербезопасность"
+            
+              , "предотвращение"
+            
+              , "резервное копирование"
+            
+              , "антивирус"
+            
+              , "VPN"
+            
+              , "многофакторная аутентификация"
+            
+              , "государственные нормативы"
+            
+              , "фишинг"
+            
+              , "социальная инженерия"
+            
+              , "вредоносное ПО"
+            
+              , "киберпреступность"
+            
+              , "безопасность данных"
+            
+              , "безопасность сети"
+            
+              , "кибератака"
+            
+              , "шифрование"
+            
+              , "кибергигиена"
+            
+              , "реагирование на инциденты"
+            
+              , "защита данных"
+            
+              , "осведомлённость о кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-rise-of-ransomware-understanding-the-threat-and-preventive-measures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об угрозах, связанных с вымогательством, и о превентивных мерах, которые можно предпринять для защиты от них.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_computer_with_a_lock_and_chain_around_it.webp" length="86456" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защитите кредитные карты: меры против скимминга RFID</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-protect-yourself-from-physical-credit-fraud/</link>
+        
+        <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "скимминг RFID"
+            
+              , "защита кредитных карт"
+            
+              , "кошельки с блокировкой RFID"
+            
+              , "кредитные карты с чипом"
+            
+              , "фишинг"
+            
+              , "кибербезопасность"
+            
+              , "кража личности"
+            
+              , "конфиденциальность"
+            
+              , "бесконтактная оплата"
+            
+              , "мобильные платежи"
+            
+              , "финансовая безопасность"
+            
+              , "смарт-карты"
+            
+              , "NFC"
+            
+              , "шифрование"
+            
+              , "защита данных"
+            
+              , "считыватели RFID"
+            
+              , "технология RFID"
+            
+              , "электронное карманное воровство"
+            
+              , "Silent Pocket"
+            
+              , "Hunter-CAT"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-protect-yourself-from-physical-credit-fraud/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защититься от скимминга RFID и сохранить данные кредитной карты в безопасности с помощью простых советов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.webp" length="73834" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Эффективное обучение удаленных сотрудников мерам безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/</link>
+        
+        <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "удаленные сотрудники"
+            
+              , "информированность о безопасности"
+            
+              , "кибербезопасность"
+            
+              , "обучение"
+            
+              , "удаленная рабочая сила"
+            
+              , "фишинг"
+            
+              , "передовой опыт"
+            
+              , "культура безопасности"
+            
+              , "геймификация"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "SANS Security Awareness"
+            
+              , "Институт Инфосек"
+            
+              , "KnowBe4"
+            
+              , "непрерывное обучение"
+            
+              , "реальные сценарии"
+            
+              , "интерактивное обучение"
+            
+              , "киберугрозы"
+            
+              , "учебные платформы по безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Усилить безопасность удаленных сотрудников можно с помощью эффективного обучения по вопросам безопасности, а также узнать, как его успешно реализовать.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.webp" length="150566" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Обеспечение безопасности образования: Роль кибербезопасности в защите данных учащихся</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-role-of-cybersecurity-in-the-education-industry/</link>
+        
+        <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "образование"
+            
+              , "данные о студентах"
+            
+              , "защита информации"
+            
+              , "конфиденциальность"
+            
+              , "FERPA"
+            
+              , "NIST"
+            
+              , "HEISC"
+            
+              , "Internet2"
+            
+              , "Институт SANS"
+            
+              , "политики безопасности"
+            
+              , "фишинг"
+            
+              , "повышение осведомленности"
+            
+              , "оценка рисков"
+            
+              , "многофакторная аутентификация"
+            
+              , "шифрование"
+            
+              , "реагирование на инциденты"
+            
+              , "безопасность сети"
+            
+              , "безопасный доступ"
+            
+              , "межсетевые экраны"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-role-of-cybersecurity-in-the-education-industry/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя важность кибербезопасности в образовательной отрасли и узнайте, как защитить конфиденциальные данные студентов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.webp" length="61008" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 распространенных ошибок в области кибербезопасности и как их избежать</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-top-ten-most-common-cybersecurity-mistakes/</link>
+        
+        <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "безопасность в Интернете"
+            
+              , "киберугрозы"
+            
+              , "взлом"
+            
+              , "фишинг"
+            
+              , "вредоносное ПО"
+            
+              , "пароли"
+            
+              , "общественный Wi-Fi"
+            
+              , "антивирус"
+            
+              , "социальные сети"
+            
+              , "резервное копирование данных"
+            
+              , "предупреждения о безопасности"
+            
+              , "общественные зарядные станции"
+            
+              , "компьютерная безопасность"
+            
+              , "предотвращение киберпреступлений"
+            
+              , "хищение персональных данных"
+            
+              , "цифровая конфиденциальность"
+            
+              , "безопасность сети"
+            
+              , "обновления программного обеспечения"
+            
+              , "безопасность в Интернете"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-top-ten-most-common-cybersecurity-mistakes/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить себя от киберугроз, избегая этих 10 распространенных ошибок в области кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp" length="68332" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Будущее кибербезопасности в постпандемическом мире</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/</link>
+        
+        <pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "постпандемический период"
+            
+              , "будущее"
+            
+              , "удалённая работа"
+            
+              , "AI"
+            
+              , "машинное обучение"
+            
+              , "IoT"
+            
+              , "обновления программного обеспечения"
+            
+              , "пароли"
+            
+              , "двухфакторная аутентификация"
+            
+              , "образование"
+            
+              , "VPN"
+            
+              , "обновления прошивки"
+            
+              , "фишинг"
+            
+              , "ransomware"
+            
+              , "облачная безопасность"
+            
+              , "защита информации"
+            
+              , "безопасность сети"
+            
+              , "обнаружение угроз"
+            
+              , "цифровая конфиденциальность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как подготовиться к будущему кибербезопасности в условиях постпандемического мира и снизить риск стать жертвой кибератак.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.webp" length="71136" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как распознать фишинговые письма, сообщения и звонки</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-identify-phishing/</link>
+        
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "фишинг"
+            
+              , "безопасность в интернете"
+            
+              , "безопасность электронной почты"
+            
+              , "кибербезопасность"
+            
+              , "безопасность в сети"
+            
+              , "фишинговые письма"
+            
+              , "фишинговые сообщения"
+            
+              , "фишинговые звонки"
+            
+              , "цифровые угрозы"
+            
+              , "кража личности"
+            
+              , "защита персональных данных"
+            
+              , "интернет-мошенничество"
+            
+              , "онлайн-обман"
+            
+              , "конфиденциальность в интернете"
+            
+              , "советы по безопасности в сети"
+            
+              , "киберпреступность"
+            
+              , "информационная безопасность"
+            
+              , "безопасность паролей"
+            
+              , "безопасность данных"
+            
+              , "осведомлённость о безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-identify-phishing/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Научитесь распознавать фишинговые письма, текстовые сообщения и звонки, чтобы защитить личные данные.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp" length="63564" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Плюсы и минусы многофакторной аутентификации (MFA)</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</link>
+        
+        <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "многофакторная аутентификация"
+            
+              , "МИД"
+            
+              , "безопасность бизнеса"
+            
+              , "кибербезопасность"
+            
+              , "защита информации"
+            
+              , "соблюдение нормативных требований"
+            
+              , "пользовательский опыт"
+            
+              , "фишинг"
+            
+              , "атаки методом грубой силы"
+            
+              , "техническая сложность"
+            
+              , "сопротивление пользователя"
+            
+              , "смартфоны"
+            
+              , "токен"
+            
+              , "смарт-карта"
+            
+              , "отпечаток пальца"
+            
+              , "распознавание лиц"
+            
+              , "распознавание голоса"
+            
+              , "PCI DSS"
+            
+              , "HIPAA"
+            
+              , "утечка данных"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с преимуществами и недостатками многофакторной аутентификации (MFA) и узнайте, как выбрать правильное решение для обеспечения безопасности вашего бизнеса.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.webp" length="57990" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

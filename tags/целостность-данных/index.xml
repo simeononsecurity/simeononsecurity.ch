@@ -1,0 +1,909 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Целостность Данных on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Целостность Данных on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%86%D0%B5%D0%BB%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%86%D0%B5%D0%BB%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/</link>
+
+    <description>Recent content in Целостность Данных on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%86%D0%B5%D0%BB%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Проведите тест восстановления резервной копии Homelab с Restic</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/homelab-backup-restore-drill/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Homelab"
+            
+              , "Резервное копирование"
+            
+              , "Аварийное восстановление"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/homelab-backup-restore-drill/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проверьте, восстанавливает ли резервная копия Homelab пригодные файлы. Определите цель восстановления, восстановите данные Restic в отдельное место, проверьте их и запишите результат.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/homelab-backup-restore-drill.webp" length="80454" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Память ECC: защита от повреждения данных и ошибок памяти</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/</link>
+        
+        <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Обучение технологиям"
+            
+              , "Безопасность данных"
+            
+              , "Руководства по оборудованию"
+            
+              , "Надежность систем"
+            
+              , "Обслуживание ИТ"
+            
+              , "Технологические решения"
+            
+              , "Корпоративные вычисления"
+            
+              , "Серверные технологии"
+            
+              , "Анализ компонентов"
+            
+              , "Технологические исследования"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как память ECC защищает данные от ошибок. Разберитесь в обнаружении и исправлении ошибок для надежной работы компьютерных систем.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-role-of-ecc-memory-in-mitigating-data-corruption.webp" length="137916" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как устранить ошибки диска: полное руководство по проверке накопителей</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/navigating-disk-errors_-tools-and-techniques-for-disk-checks/</link>
+        
+        <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Обслуживание компьютера"
+            
+              , "Восстановление данных"
+            
+              , "Технические решения"
+            
+              , "Управление дисками"
+            
+              , "Оптимизация системы"
+            
+              , "Обслуживание оборудования"
+            
+              , "Устранение неполадок"
+            
+              , "Рекомендации по ИТ"
+            
+              , "Программные утилиты"
+            
+              , "Цифровая гигиена"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/navigating-disk-errors_-tools-and-techniques-for-disk-checks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите практические методы диагностики и обслуживания накопителей. Защитите данные с помощью надежных резервных копий и целевых проверок.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/navigating-disk-errors_-tools-and-techniques-for-disk-checks.webp" length="36266" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Файловые системы: от FAT32 до NTFS и других форматов</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</link>
+        
+        <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Информатика"
+            
+              , "Хранение данных"
+            
+              , "Технические руководства"
+            
+              , "Управление файлами"
+            
+              , "Операционные системы"
+            
+              , "Цифровая организация"
+            
+              , "Техническое образование"
+            
+              , "Сведения о программном обеспечении"
+            
+              , "Оптимизация системы"
+            
+              , "Технические ресурсы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите файловые системы на примере FAT32, NTFS, exFAT и других форматов. Сравните их функции, ограничения и совместимость для эффективного управления данными.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/computer-file-systems-explained_-fat32,-ntfs,-exfat,-and-more.webp" length="132294" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Криптография без тайн: методы шифрования</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</link>
+        
+        <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "История криптографии"
+            
+              , "Методы шифрования"
+            
+              , "Симметричное шифрование"
+            
+              , "Асимметричное шифрование"
+            
+              , "Алгоритм RSA"
+            
+              , "Криптография на эллиптических кривых"
+            
+              , "Обмен ключами Диффи — Хеллмана"
+            
+              , "Конфиденциальность данных"
+            
+              , "Целостность данных"
+            
+              , "Аутентификация данных"
+            
+              , "Угрозы квантовых вычислений"
+            
+              , "Аудиты безопасности"
+            
+              , "Безопасность криптокошельков"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как симметричное, асимметричное и гибридное шифрование защищает данные, как работает обмен ключами и где применяются современные криптографические методы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques.webp" length="291054" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Максимальное усиление безопасности сетей и облачной среды</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link>
+        
+        <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасность облака"
+            
+              , "Защита сетей"
+            
+              , "Цифровая безопасность"
+            
+              , "Конфиденциальность данных"
+            
+              , "ИТ-безопасность"
+            
+              , "Бизнес-технологии"
+            
+              , "Цифровая защита"
+            
+              , "Киберугрозы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об угрозах, мерах защиты и примерах инцидентов, чтобы усилить безопасность сетей и облачной среды.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита контролируемой несекретной информации</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</link>
+        
+        <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность данных"
+            
+              , "Защита информации"
+            
+              , "Управление конфиденциальностью"
+            
+              , "Обработка чувствительной информации"
+            
+              , "Кибербезопасность"
+            
+              , "Соответствие требованиям"
+            
+              , "Управление рисками"
+            
+              , "Управление информацией"
+            
+              , "Конфиденциальность данных"
+            
+              , "Обеспечение безопасности информации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему контролируемая несекретная информация (CUI) нуждается в защите и как эффективно защищать чувствительные данные.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/CUI-Safeguarding-Sensitive-Data.webp" length="96388" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS, AdGuard, Quad9 и Cloudflare: сравнение DNS в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link>
+        
+        <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Сравнение DNS"
+            
+              , "Защита конфиденциальности"
+            
+              , "Блокировка рекламы"
+            
+              , "Безопасность сети"
+            
+              , "Безопасность Интернета"
+            
+              , "DNS-резолвер"
+            
+              , "Конфиденциальность в сети"
+            
+              , "Веб-безопасность"
+            
+              , "Фильтрация DNS"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение NextDNS, AdGuard DNS, Quad9, Cloudflare DNS и Pi-hole в 2026 году по безопасности, конфиденциальности и производительности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сила SSH: безопасный удаленный доступ и управление с легкостью</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/what-is-ssh/</link>
+        
+        <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "SSH"
+            
+              , "Secure Shell"
+            
+              , "удаленный доступ"
+            
+              , "удаленное управление"
+            
+              , "шифрование"
+            
+              , "аутентификация"
+            
+              , "целостность данных"
+            
+              , "портативность"
+            
+              , "передача файлов"
+            
+              , "SCP"
+            
+              , "SSH-ключи"
+            
+              , "Конфигурация SSH"
+            
+              , "сетевой протокол"
+            
+              , "удаленное выполнение команд"
+            
+              , "OpenSSH"
+            
+              , "двухфакторная аутентификация"
+            
+              , "криптография с открытым ключом"
+            
+              , "IP-адрес"
+            
+              , "доменное имя"
+            
+              , "терминал"
+            
+              , "командная строка"
+            
+              , "безопасность"
+            
+              , "системные администраторы"
+            
+              , "разработчики"
+            
+              , "универсальность"
+            
+              , "методы аутентификации"
+            
+              , "хэш-функции"
+            
+              , "проходка"
+            
+              , "пользовательские опции"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/what-is-ssh/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя преимущества SSH, научитесь генерировать SSH-ключи, подключаться к удаленным серверам, безопасно передавать файлы и настраивать конфигурации SSH.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.webp" length="86174" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Выбор правильной системы управления базами данных: SQL против NoSQL</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/sql-vs-nosql-choosing-the-right-database-management-system/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "система управления базами данных"
+            
+              , "SQL против NoSQL"
+            
+              , "Базы данных SQL"
+            
+              , "Базы данных NoSQL"
+            
+              , "Соответствие требованиям ACID"
+            
+              , "модель данных"
+            
+              , "масштабируемость"
+            
+              , "язык запросов"
+            
+              , "производительность"
+            
+              , "эволюция схем"
+            
+              , "структурированные данные"
+            
+              , "неструктурированные данные"
+            
+              , "целостность данных"
+            
+              , "горизонтальная масштабируемость"
+            
+              , "Язык запросов SQL"
+            
+              , "MongoDB"
+            
+              , "базы данных документов"
+            
+              , "хранилища ключевых значений"
+            
+              , "столбчатые базы данных"
+            
+              , "графовые базы данных"
+            
+              , "управление данными"
+            
+              , "структура данных"
+            
+              , "аналитические запросы"
+            
+              , "моделирование данных"
+            
+              , "гибкие схемы"
+            
+              , "высокая пропускная способность считывания"
+            
+              , "высокая пропускная способность при записи"
+            
+              , "сложные операции присоединения"
+            
+              , "гибкая разработка"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/sql-vs-nosql-choosing-the-right-database-management-system/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о ключевых различиях между базами данных SQL и NoSQL и примите взвешенное решение о выборе оптимальной системы управления базами данных для ваших нужд.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_image_depicting_a_puzzle_piece_representing_data.webp" length="51596" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Полное руководство: Хеширование файлов в Windows с помощью PowerShell</title>
+        
+          <link>https://ru.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</link>
+        
+        <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "хэши файлов"
+            
+              , "PowerShell"
+            
+              , "хэш SHA256"
+            
+              , "MD5-хэш"
+            
+              , "SHA1-хэш"
+            
+              , "целостность файлов"
+            
+              , "аутентификация данных"
+            
+              , "проверка файлов"
+            
+              , "алгоритмы хэширования"
+            
+              , "Операционная система Windows"
+            
+              , "скриптовый язык"
+            
+              , "оболочка командной строки"
+            
+              , "безопасность данных"
+            
+              , "цифровая криминалистика"
+            
+              , "кибербезопасность"
+            
+              , "вычисление хэша"
+            
+              , "фальсификация файлов"
+            
+              , "целостность данных"
+            
+              , "подлинность файлов"
+            
+              , "Безопасность Windows"
+            
+              , "идентификация файлов"
+            
+              , "кибернетическая защита"
+            
+              , "защита файлов"
+            
+              , "защита информации"
+            
+              , "проверка данных"
+            
+              , "проверка файлов"
+            
+              , "Windows PowerShell"
+            
+              , "генерация хэша"
+            
+              , "хэш-алгоритмы"
+            
+              , "хэш-функции"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как получить хэши файлов в Windows с помощью PowerShell, включая SHA256, MD5 и SHA1, с помощью пошаговых инструкций и примеров.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.webp" length="46546" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

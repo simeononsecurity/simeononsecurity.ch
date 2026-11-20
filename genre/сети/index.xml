@@ -1,0 +1,749 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Сети on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Сети on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D1%81%D0%B5%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D1%81%D0%B5%D1%82%D0%B8/</link>
+
+    <description>Recent content in Сети on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D1%81%D0%B5%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tailscale Aperture: настройка ИИ-клиентов для инференса и MCP в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link>
+        
+        <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Инструменты разработчика"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Направляйте запросы к моделям и инструменты MCP через Tailscale Aperture. Настройте Codex, Claude Code, Claude Desktop, OpenCode и Hermes на другом устройстве или шлюзе.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Проверьте утечки DNS и WebRTC в браузере при использовании VPN</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Конфиденциальность"
+            
+              , "Браузеры"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проверьте публичный IP-адрес, DNS-резолвер и адреса WebRTC в браузере до и после подключения VPN. Разберите результаты и исследуйте проблемы маршрутизации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Планирование и проверка сегментации VLAN в homelab</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Homelab"
+            
+              , "Безопасность сети"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Создайте план VLAN, чтобы разделить доверенные устройства, серверы, IoT и гостевые устройства в homelab. Определите разрешенный трафик, настраивайте сеть поэтапно и проверьте изоляцию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Meshtastic, MeshCore и Reticulum: сравнение</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link>
+        
+        <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "LoRa"
+            
+              , "Mesh-сети"
+            
+              , "Автономная связь"
+            
+              , "Экстренная связь"
+            
+              , "Любительское радио"
+            
+              , "Открытый исходный код"
+            
+              , "Готовность к катастрофам"
+            
+              , "Беспроводные сети"
+            
+              , "Конфиденциальность"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните Meshtastic, MeshCore и Reticulum по маршрутизации, времени в эфире, инфраструктуре, транспортам и сценариям автономной связи.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Питание и устойчивость к условиям среды для полевых систем</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Периферийные вычисления"
+            
+              , "Полевые ИТ-системы"
+            
+              , "Системы питания"
+            
+              , "Оборудование"
+            
+              , "Аварийное восстановление"
+            
+              , "Защищенные компьютеры"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Спланируйте питание и защиту от условий среды для полевых edge-узлов. Рассчитайте ИБП, аккумуляторы и солнечные панели, синхронизацию времени, класс защиты корпуса, заземление и защиту от перенапряжений.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Полевые edge-системы: выбор оборудования и корпуса</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Периферийные вычисления"
+            
+              , "ИТ в полевых условиях"
+            
+              , "Оборудование"
+            
+              , "Домашняя лаборатория"
+            
+              , "Защищенные компьютеры"
+            
+              , "Сети"
+            
+              , "Аварийное восстановление"
+            
+              , "ИТ для малого бизнеса"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Руководство по оборудованию и корпусам для edge-вычислений в полевых условиях: вычислительные узлы, стойки, охлаждение, хранилища, управление, кабели и совместимость питания.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие авторы контента о домашней лаборатории</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link>
+        
+        <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Сети"
+            
+              , "Сделай сам"
+            
+              , "Виртуализация"
+            
+              , "Домашние лаборатории"
+            
+              , "Любители технологий"
+            
+              , "Сообщество"
+            
+              , "Обучение"
+            
+              , "Инновации"
+            
+              , "Руководства"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Познакомьтесь с авторами о домашних лабораториях, найдите единомышленников и начните техническое путешествие.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как разместить точки доступа для оптимального покрытия Wi-Fi</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link>
+        
+        <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Сети"
+            
+              , "Беспроводные сети"
+            
+              , "Точки доступа"
+            
+              , "Установка Wi-Fi"
+            
+              , "Оптимизация сети"
+            
+              , "Домашние сети"
+            
+              , "Беспроводное соединение"
+            
+              , "Интернет вещей"
+            
+              , "Сетевые решения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как разместить точки доступа, улучшить беспроводное соединение, уменьшить помехи и обеспечить стабильную работу сети.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основы сетей: что такое IP-адрес, IPv4 и IPv6</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</link>
+        
+        <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сети"
+            
+              , "IP-адреса"
+            
+              , "Интернет-протоколы"
+            
+              , "IPv4"
+            
+              , "IPv6"
+            
+              , "Сетевая связь"
+            
+              , "Подключение к интернету"
+            
+              , "Технологии"
+            
+              , "Сетевая инфраструктура"
+            
+              , "Безопасность интернета"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, что такое IP-адреса, чем IPv4 отличается от IPv6, почему они важны и зачем нужен переход на IPv6.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_image_of_two_devices_with_speech_bub.webp" length="90028" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основы сетей: коммутаторы, маршрутизаторы, брандмауэры и DMZ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link>
+        
+        <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сети"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Безопасность сетей"
+            
+              , "Сетевая архитектура"
+            
+              , "Кибербезопасность"
+            
+              , "Передача данных"
+            
+              , "Информационные технологии"
+            
+              , "Основы ИТ"
+            
+              , "Управление сетями"
+            
+              , "Подключение к интернету"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как коммутаторы, маршрутизаторы, шлюзы, подсети, брандмауэры и DMZ разделяют сетевой трафик и устанавливают границы безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Соединение-ориентированная и бессоединительная связь</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Сети"
+            
+              , "Связь"
+            
+              , "Протоколы"
+            
+              , "Информатика"
+            
+              , "Передача данных"
+            
+              , "Сетевая инфраструктура"
+            
+              , "Интернет"
+            
+              , "Информационные технологии"
+            
+              , "Телекоммуникации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о различиях между соединение-ориентированной и бессоединительной связью, их протоколах, службах и методах маршрутизации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_illustration_showing_two_devices_connected.webp" length="39168" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

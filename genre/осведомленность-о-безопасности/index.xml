@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Осведомленность О Безопасности on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Осведомленность О Безопасности on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%BE%D1%81%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%BE-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%BE%D1%81%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%BE-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+
+    <description>Recent content in Осведомленность О Безопасности on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%BE%D1%81%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%BE-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Создание человеческого фаервола: обучение сотрудников безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/building-a-human-firewall_-training-employees-in-cybersecurity/</link>
+        
+        <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Обучение кибербезопасности"
+            
+              , "Расширение возможностей сотрудников"
+            
+              , "Стратегии человеческого фаервола"
+            
+              , "Осведомленность о безопасности"
+            
+              , "Методы цифровой защиты"
+            
+              , "Снижение угроз"
+            
+              , "Имитация кибератак"
+            
+              , "Разработка учебной программы"
+            
+              , "Измерение результатов обучения"
+            
+              , "Постоянное улучшение"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/building-a-human-firewall_-training-employees-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Создайте человеческий фаервол с помощью обучения по ролям, реалистичных фишинговых упражнений, понятных процедур сообщения, полезных показателей и регулярного повторения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/building-a-human-firewall_-training-employees-in-cybersecurity.webp" length="118578" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита Active Directory</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/active-directory-security-best-practices/</link>
+        
+        <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Управление сетью"
+            
+              , "Информационные технологии"
+            
+              , "Защита данных"
+            
+              , "Корпоративная безопасность"
+            
+              , "Цифровая инфраструктура"
+            
+              , "Контроль доступа"
+            
+              , "Аутентификация пользователей"
+            
+              , "Рекомендации по IT"
+            
+              , "Осведомленность о безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/active-directory-security-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить Active Directory, сохранить данные и предотвратить вторжения в сетевую инфраструктуру.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

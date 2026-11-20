@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Просмотр Сайтов on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Просмотр Сайтов on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BF%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80-%D1%81%D0%B0%D0%B9%D1%82%D0%BE%D0%B2/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BF%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80-%D1%81%D0%B0%D0%B9%D1%82%D0%BE%D0%B2/</link>
+
+    <description>Recent content in Просмотр Сайтов on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BF%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80-%D1%81%D0%B0%D0%B9%D1%82%D0%BE%D0%B2/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS против AdGuard: какой DNS-блокировщик рекламы лучше?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link>
+        
+        <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Блокировка рекламы"
+            
+              , "DNS"
+            
+              , "Конфиденциальность"
+            
+              , "Безопасность в интернете"
+            
+              , "Защита в сети"
+            
+              , "Цифровая безопасность"
+            
+              , "Решения для браузера"
+            
+              , "Конфиденциальность в сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните NextDNS и AdGuard, два DNS-блокировщика рекламы, и выберите сервис для своих привычек просмотра сайтов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

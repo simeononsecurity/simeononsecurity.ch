@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sandboxed Google Play on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Sandboxed Google Play on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/sandboxed-google-play/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/sandboxed-google-play/</link>
+
+    <description>Recent content in Sandboxed Google Play on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/sandboxed-google-play/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Sandboxed Google Play в GrapheneOS: объяснение</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link>
+        
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Конфиденциальность"
+            
+              , "Безопасность мобильных устройств"
+            
+              , "Открытый исходный код"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, что меняет Sandboxed Google Play в GrapheneOS, когда полезен отдельный профиль и как связаны учетные записи, уведомления и совместимость приложений.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

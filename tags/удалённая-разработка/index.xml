@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Удалённая Разработка on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Удалённая Разработка on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%83%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D0%B0%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%83%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D0%B0%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</link>
+
+    <description>Recent content in Удалённая Разработка on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%83%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D0%B0%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Codex CLI против Desktop: сравнение рабочих процессов 2026</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/codex-cli-vs-desktop/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Инструменты разработчика"
+            
+              , "Искусственный интеллект"
+            
+              , "Разработка ПО"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Выберите между Codex в терминале и настольной средой программирования OpenAI. Сравните скрипты, worktree, визуальный обзор, расписания и среды выполнения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

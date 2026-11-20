@@ -1,0 +1,364 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Исследования Безопасности on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Исследования Безопасности on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+
+    <description>Recent content in Исследования Безопасности on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Мы нанесли на карту 146 526 «камер Flock». 50 278 оказались системами ClickShare</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link>
+        
+        <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Исследования безопасности"
+            
+              , "Технологии конфиденциальности"
+            
+              , "Проекты с открытым кодом"
+            
+              , "Дата-журналистика"
+            
+              , "Противодействие слежке"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Аудит Flock Finder выявил ClickShare и другие ложные срабатывания, объяснил доказательства и задокументировал изменения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Гонка обнаружения камер Flock: что изменилось в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link>
+        
+        <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии конфиденциальности"
+            
+              , "Противодействие слежке"
+            
+              , "Проекты с открытым исходным кодом"
+            
+              , "Цифровые права"
+            
+              , "Сетевая безопасность"
+            
+              , "Исследования безопасности"
+            
+              , "Модификация оборудования"
+            
+              , "Инструменты конфиденциальности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Обзор изменений в обнаружении Flock Safety, о которых сообщали пользователи, ответов сообщества и инфракрасных способов выявления камер.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Flock Finder: Картирование камер ALPR Flock Safety</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link>
+        
+        <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии конфиденциальности"
+            
+              , "Контрнаблюдение"
+            
+              , "Проекты с открытым исходным кодом"
+            
+              , "Цифровые права"
+            
+              , "Сетевая безопасность"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Аппаратный хакинг"
+            
+              , "Исследования безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Flock Finder — это инструмент с открытым исходным кодом, который картирует более 40 000 камер ALPR Flock Safety по всему миру с использованием данных WiFi от WiGLE и отпечатков OUI. Узнайте, как это работает, его ограничения и аппаратные инструменты для обнаружения в реальном времени.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>DagShell: кастомная прошивка для Orbic RCL400, руководство 2026</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link>
+        
+        <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кастомная прошивка"
+            
+              , "Мобильная безопасность"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Сетевая безопасность"
+            
+              , "Вардрайвинг"
+            
+              , "Тестирование на проникновение"
+            
+              , "Взлом IoT"
+            
+              , "Исследования безопасности"
+            
+              , "Аппаратный хакинг"
+            
+              , "Технологии конфиденциальности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Техническое руководство по прошивке DagShell для Orbic RCL400. Установка, инструменты защиты конфиденциальности, вар-драйвинг и ограничения исследований.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Уязвимости камер Flock Safety: обнаружено более 50 проблем</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Исследования безопасности"
+            
+              , "Анализ уязвимостей"
+            
+              , "Технологии наблюдения"
+            
+              , "Кибербезопасность"
+            
+              , "Защита конфиденциальности"
+            
+              , "Безопасность IoT"
+            
+              , "Физическая безопасность"
+            
+              , "Сетевая безопасность"
+            
+              , "Критическая инфраструктура"
+            
+              , "Государственные технологии"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Исследование уязвимостей камер Flock Safety рассматривает раскрытые учетные данные, слабые средства защиты, физический доступ и ограничения раскрытия информации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

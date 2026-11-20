@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Defender for Cloud on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Defender for Cloud on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/defender-for-cloud/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/defender-for-cloud/</link>
+
+    <description>Recent content in Defender for Cloud on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/defender-for-cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Домашняя SOC-лаборатория Microsoft: опыт в кибербезопасности в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link>
+        
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Облачная безопасность"
+            
+              , "Развитие карьеры"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Создайте SOC-лабораторию Microsoft с Sentinel, Defender, Intune и Entra. Практикуйте расследование инцидентов, проверяйте политики ключей доступа и документируйте материалы для портфолио.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
