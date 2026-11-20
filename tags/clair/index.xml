@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Clair on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>Clair on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/clair/</link></image><link>https://hi.simeononsecurity.com/tags/clair/</link><description>Recent content in Clair on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/clair/index.xml" rel="self" type="application/rss+xml"/><item><title>अपने Docker और Kubernetes वातावरण को सुरक्षित कैसे करें</title><link>https://hi.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link><pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate><category>
+"Docker"
+, "Kubernetes"
+, "सुरक्षा"
+, "कंटेनर"
+, "नेटवर्क सुरक्षा"
+, "RBAC"
+, "API सर्वर"
+, "कमज़ोरियाँ"
+, "निगरानी"
+, "लॉगिंग"
+, "फ़ायरवॉल"
+, "TLS"
+, "Anchore"
+, "Clair"
+, "Aqua Security"
+, "ELK Stack"
+, "Splunk"
+, "Prometheus"
+, "साइबर सुरक्षा"
+, "सर्वोत्तम विधियाँ"</category><guid>https://hi.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+आधिकारिक इमेज का उपयोग, अनुमतियों को सीमित करना और नेटवर्क सुरक्षा लागू करना सहित Docker और Kubernetes वातावरण को सुरक्षित करने की सर्वोत्तम विधियाँ जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp" length="126938" type="image/webp"/></item></channel></rss>

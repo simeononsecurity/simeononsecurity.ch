@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>वर्चुअलाइजेशन on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>वर्चुअलाइजेशन on simeononsecurity</title><link>https://hi.simeononsecurity.com/genre/%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%9A%E0%A5%81%E0%A4%85%E0%A4%B2%E0%A4%BE%E0%A4%87%E0%A4%9C%E0%A5%87%E0%A4%B6%E0%A4%A8/</link></image><link>https://hi.simeononsecurity.com/genre/%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%9A%E0%A5%81%E0%A4%85%E0%A4%B2%E0%A4%BE%E0%A4%87%E0%A4%9C%E0%A5%87%E0%A4%B6%E0%A4%A8/</link><description>Recent content in वर्चुअलाइजेशन on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/genre/%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%9A%E0%A5%81%E0%A4%85%E0%A4%B2%E0%A4%BE%E0%A4%87%E0%A4%9C%E0%A5%87%E0%A4%B6%E0%A4%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9: वर्चुअल डिस्क का उपयोग घटाएँ और जगह वापस पाएँ</title><link>https://hi.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"वर्चुअलाइजेशन"
+, "Linux प्रशासन"
+, "Proxmox VE प्लेटफ़ॉर्म"
+, "स्टोरेज"
+, "घरेलू लैब"</category><guid>https://hi.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proxmox VE 9 में VM और LXC कंटेनरों की स्टोरेज खपत घटाएँ। फ़ॉर्मैट और बैकएंड की तुलना करें, discard सक्षम करें, trim चलाएँ और जगह वापस पाने से पहले snapshots जाँचें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Hyper-V VM को Proxmox VE पर माइग्रेट करें: वापस लौटने योग्य चेकलिस्ट</title><link>https://hi.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"वर्चुअलाइजेशन"
+, "सिस्टम प्रशासन"
+, "होम लैब"</category><guid>https://hi.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+बंद स्रोत VM का निर्यात, फर्मवेयर मिलान, डिस्क आयात, अलग नेटवर्क पर बूट परीक्षण और वापसी योजना के साथ Hyper-V VM को Proxmox VE पर ले जाएँ।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>2026 में कंटेनर अब सुरक्षा सीमा नहीं रहे</title><link>https://hi.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"कंटेनर सुरक्षा"
+, "Linux"
+, "कर्नेल सुरक्षा"
+, "वर्चुअलाइजेशन"
+, "क्लाउड सुरक्षा"
+, "खतरा अनुसंधान"
+, "ब्लू टीम"
+, "DevSecOps"</category><guid>https://hi.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026 की कर्नेल कमजोरियाँ दिखाती हैं कि मल्टी-टेनेंट कंटेनर आइसोलेशन पर्याप्त क्यों नहीं है। Copy Fail, Dirty Frag, Fragnesia और CVE-2026-80521 को समझें, और मजबूत कंटेनरों की तुलना microVM सीमा से करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>VMware बनाम Hyper-V बनाम Proxmox: वर्चुअलाइजेशन की तुलना</title><link>https://hi.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link><pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "वर्चुअलाइजेशन"
+, "आईटी इन्फ्रास्ट्रक्चर"
+, "सर्वर वर्चुअलाइजेशन"
+, "एंटरप्राइज सॉफ्टवेयर"
+, "क्लाउड कंप्यूटिंग"
+, "डेटा सेंटर समाधान"
+, "ओपन सोर्स वर्चुअलाइजेशन"
+, "वर्चुअल मशीन प्रबंधन"
+, "वर्चुअलाइजेशन तुलना"</category><guid>https://hi.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE, और XCP-NG की सहज तुलना खोजें और अपने व्यवसाय की सफलता के लिए आदर्श वर्चुअलाइजेशन समाधान चुनें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp"/></item><item><title>शीर्ष होमलैब कंटेंट क्रिएटर</title><link>https://hi.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"तकनीक"
+, "नेटवर्किंग"
+, "स्वयं करें"
+, "वर्चुअलाइजेशन"
+, "होमलैब"
+, "तकनीक प्रेमी"
+, "समुदाय"
+, "सीखना"
+, "नवाचार"
+, "मार्गदर्शिकाएँ"</category><guid>https://hi.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+प्रमुख होमलैब क्रिएटर जानें, उत्साही लोगों से जुड़ें और तकनीक की खोज शुरू करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item><item><title>VMware सुरक्षा में निपुण बनें</title><link>https://hi.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"साइबर सुरक्षा"
+, "वर्चुअलाइजेशन"
+, "आईटी अवसंरचना"
+, "स्वचालन"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "अनुपालन"
+, "स्क्रिप्टिंग"
+, "डेटा सेंटर"</category><guid>https://hi.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+इस व्यापक मार्गदर्शिका में जानें कि PowerCLI से VMware STIG लागू करके VMware वातावरण को कैसे सुरक्षित करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>होम लैब क्या है? आईटी पेशेवरों के लिए एक सेटअप मार्गदर्शिका</title><link>https://hi.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"होम लैब"
+, "आईटी पेशेवर"
+, "छात्र"
+, "शौकिया"
+, "नेटवर्किंग"
+, "वर्चुअलाइजेशन"
+, "स्वचालन"
+, "हार्डवेयर"
+, "सॉफ्टवेयर"
+, "सर्वोत्तम प्रथाएं"</category><guid>https://hi.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+अपने होम लैब की क्षमता को इस व्यापक मार्गदर्शिका के साथ अनलॉक करें, जो आईटी पेशेवरों, छात्रों और शौकिया लोगों के लिए डिज़ाइन की गई है, जिसमें सेटअप, घटक, उन्नत विषय और सर्वोत्तम प्रथाओं को शामिल किया गया है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp" length="167376" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gemma 4 on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>Gemma 4 on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/gemma-4/</link></image><link>https://hi.simeononsecurity.com/tags/gemma-4/</link><description>Recent content in Gemma 4 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/gemma-4/index.xml" rel="self" type="application/rss+xml"/><item><title>बिना सेंसर वाला स्थानीय AI मॉडल कैसे चुनें</title><link>https://hi.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "स्वयं होस्ट किया गया AI"
+, "AI सुरक्षा"
+, "GPU उपकरण"</category><guid>https://hi.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+पूरे उत्तर, बची हुई क्षमताएँ, संदर्भ का उपयोग, क्वांटाइज़ेशन और VRAM की ज़रूरत के आधार पर स्थानीय मॉडल संस्करणों की तुलना करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>हमारे हाइब्रिड एजेंटिक AI फ्लीट के भीतर: Hermes, LiteLLM और Tailscale</title><link>https://hi.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "स्व-होस्टेड AI"
+, "AI एजेंट"
+, "AI अवसंरचना"
+, "GPU माइनिंग"</category><guid>https://hi.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hermes, LiteLLM, Tailscale Aperture और Pearl माइनिंग वाला सत्यापित lazy-loaded स्थानीय AI फ्लीट और उसका T0 से T4 नियंत्रण तल देखें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item></channel></rss>

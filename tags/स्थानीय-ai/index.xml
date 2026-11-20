@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>स्थानीय AI on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>स्थानीय AI on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8%E0%A5%80%E0%A4%AF-ai/</link></image><link>https://hi.simeononsecurity.com/tags/%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8%E0%A5%80%E0%A4%AF-ai/</link><description>Recent content in स्थानीय AI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8%E0%A5%80%E0%A4%AF-ai/index.xml" rel="self" type="application/rss+xml"/><item><title>स्व-होस्टेड Hindsight: एजेंटों की स्थानीय स्मृति और निजी मॉडल रूटिंग</title><link>https://hi.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "स्व-होस्टेड AI"
+, "AI एजेंट"
+, "AI अवसंरचना"
+, "गोपनीयता"</category><guid>https://hi.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+स्व-होस्टेड Hindsight, देखे गए स्थानीय Qwen मार्गों और जाँचे गए मार्गों पर होस्टेड मॉडल सदस्यता के बिना प्रति-अनुरोध GPU कार्य का केस अध्ययन।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Pi-hole से स्थानीय AI तक, 10 स्तरों में होम लैब बनाएँ</title><link>https://hi.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"होम लैब"
+, "सेल्फ़-होस्टिंग"
+, "स्थानीय AI"
+, "होम नेटवर्किंग"</category><guid>https://hi.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+पूरे नेटवर्क की DNS फ़िल्टरिंग से स्थानीय AI तक, दस व्यावहारिक चरणों में होम लैब बनाएँ। हर स्तर के हार्डवेयर, लागत, कौशल और समझौतों को जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>क्या गंभीर स्थानीय LLM काम के लिए 16GB VRAM पर्याप्त है?</title><link>https://hi.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "कंप्यूटर हार्डवेयर"
+, "स्व-होस्टेड AI"</category><guid>https://hi.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+मॉडल वेट, KV कैश और प्रॉम्प्ट प्रोसेसिंग के आधार पर 16GB स्थानीय LLM सेटअप का आकार तय करें। Qwen3.8 27B के मेमोरी बजट, GPU बैंडविड्थ और स्वामित्व लागत की तुलना करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>OpenCode बनाम Claude Code: 2026 कोडिंग एजेंट तुलना</title><link>https://hi.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"डेवलपर टूल"
+, "कृत्रिम बुद्धिमत्ता"
+, "ओपन सोर्स"</category><guid>https://hi.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+मॉडल चयन, स्थानीय इन्फरेंस, कीमत, अनुमतियों, प्रोजेक्ट निर्देशों और दैनिक कोडिंग वर्कफ़्लो के आधार पर OpenCode और Claude Code की तुलना करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>64GB DGX Spark स्थानीय AI हार्डवेयर कीमतों के लिए चेतावनी संकेत है</title><link>https://hi.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "AI हार्डवेयर"
+, "सेमीकंडक्टर"
+, "कंप्यूटर हार्डवेयर"
+, "AI अर्थशास्त्र"
+, "स्व-होस्टेड AI"</category><guid>https://hi.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+NVIDIA का 64GB DGX Spark स्तर दिखाता है कि मेमोरी आपूर्ति का दबाव स्थानीय AI हार्डवेयर को कैसे आकार दे रहा है। यह गाइड क्षमता में कटौती, यूनिफाइड मेमोरी के समझौतों और 2027 के अंत से पहले DRAM राहत की कम संभावना को समझाती है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>2026 में स्थानीय AI: 27B मॉडल Sonnet 4.6 से आगे, हार्डवेयर खरीदने का अवसर घट रहा है</title><link>https://hi.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "स्व-होस्टेड AI"
+, "ओपन-सोर्स मॉडल"
+, "AI हार्डवेयर"
+, "मशीन लर्निंग"
+, "क्वांटाइज़ेशन"
+, "होम लैब"
+, "गोपनीयता"
+, "AI अर्थव्यवस्था"
+, "उपभोक्ता हार्डवेयर"</category><guid>https://hi.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+मॉडल आकार, VRAM, मेमोरी बैंडविड्थ, बिजली, लागत और अपग्रेड विकल्पों के आधार पर 2026 का स्थानीय AI कंप्यूटर चुनें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Raspberry Pi 4 या 5 पर कौन से AI मॉडल चल सकते हैं?</title><link>https://hi.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "कृत्रिम बुद्धिमत्ता"
+, "स्व-होस्टिंग"</category><guid>https://hi.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Raspberry Pi 4 और 5 के मापे गए परिणामों से मेमोरी, गति और काम के अनुसार स्थानीय भाषा मॉडल चुनें, छोटे LFM2.5 से 3B और बड़े विकल्पों तक।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item><item><title>Meshtastic के लिए निजता-सुरक्षित AI सहायक बनाना</title><link>https://hi.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"नेटवर्क सुरक्षा"
+, "निजता"
+, "ओपन सोर्स"
+, "स्वचालन"</category><guid>https://hi.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Meshtastic के लिए स्थानीय AI सहायक बनाने का व्यावहारिक अनुभव, जिसमें निजी कॉन्फ़िगरेशन, कतारबद्ध TCP पहुँच, सूचना-प्राप्ति टूल और अधिक सुरक्षित डैशबोर्ड शामिल हैं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item></channel></rss>

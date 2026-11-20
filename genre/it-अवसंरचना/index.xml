@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT अवसंरचना on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>IT अवसंरचना on simeononsecurity</title><link>https://hi.simeononsecurity.com/genre/it-%E0%A4%85%E0%A4%B5%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%9A%E0%A4%A8%E0%A4%BE/</link></image><link>https://hi.simeononsecurity.com/genre/it-%E0%A4%85%E0%A4%B5%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%9A%E0%A4%A8%E0%A4%BE/</link><description>Recent content in IT अवसंरचना on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/genre/it-%E0%A4%85%E0%A4%B5%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%9A%E0%A4%A8%E0%A4%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>अपना नेटवर्क बेहतर बनाएँ: डिज़ाइन और टोपोलॉजी समझें</title><link>https://hi.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><category>
+"नेटवर्क इंजीनियरिंग"
+, "IT अवसंरचना"
+, "तकनीकी मार्गदर्शिकाएँ"
+, "नेटवर्क समाधान"
+, "साइबर सुरक्षा"
+, "कंप्यूटर विज्ञान"
+, "तकनीकी शिक्षा"
+, "सिस्टम आर्किटेक्चर"
+, "नेटवर्क अनुकूलन"
+, "तकनीकी नवाचार"</category><guid>https://hi.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+नेटवर्क डिज़ाइन और टोपोलॉजी के बारे में जानें और समझें कि कौन सा विकल्प अधिक दक्षता देता है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/decoding-network-designs_-types-and-topologies-explained.webp" length="121144" type="image/webp"/></item><item><title>WMI फ़िल्टरिंग को समझना</title><link>https://hi.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows प्रबंधन"
+, "Group Policy"
+, "सिस्टम प्रशासन"
+, "नेटवर्क प्रबंधन"
+, "IT अवसंरचना"
+, "नीति प्रबंधन"
+, "IT शासन"
+, "IT स्वचालन"
+, "Active Directory"
+, "सुरक्षा अनुपालन"</category><guid>https://hi.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+जानें कि WMI फ़िल्टरिंग से Group Policy Object (GPO) को सही कंप्यूटरों पर कैसे लागू करें। इसमें व्यावहारिक उदाहरण और बेहतर तरीके शामिल हैं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item><item><title>नेटवर्क की बुनियादी बातें: स्विच, राउटर, फ़ायरवॉल और DMZ</title><link>https://hi.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"नेटवर्किंग"
+, "IT अवसंरचना"
+, "नेटवर्क सुरक्षा"
+, "नेटवर्क आर्किटेक्चर"
+, "साइबर सुरक्षा"
+, "डेटा संचार"
+, "सूचना प्रौद्योगिकी"
+, "IT की बुनियादी बातें"
+, "नेटवर्क प्रबंधन"
+, "इंटरनेट कनेक्टिविटी"</category><guid>https://hi.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+जानें कि स्विच, राउटर, गेटवे, सबनेट, फ़ायरवॉल और DMZ नेटवर्क ट्रैफ़िक को कैसे बाँटते हैं और सुरक्षा सीमाएँ कैसे लागू करते हैं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item></channel></rss>

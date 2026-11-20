@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>विकास और संचालन on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>विकास और संचालन on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%B8-%E0%A4%94%E0%A4%B0-%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8/</link></image><link>https://hi.simeononsecurity.com/tags/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%B8-%E0%A4%94%E0%A4%B0-%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8/</link><description>Recent content in विकास और संचालन on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%B8-%E0%A4%94%E0%A4%B0-%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>इन्फ्रास्ट्रक्चर ऐज़ कोड के लिए Packer का परिचय</title><link>https://hi.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"Packer"
+, "इन्फ्रास्ट्रक्चर ऐज़ कोड"
+, "विकास और संचालन"
+, "स्वचालन"
+, "सुरक्षा"
+, "पुनरावृत्तीयता"
+, "स्केलेबिलिटी"
+, "बहु-प्लेटफ़ॉर्म"
+, "संस्करण नियंत्रण"
+, "क्लाउड कंप्यूटिंग"
+, "मशीन इमेज"
+, "वर्चुअलाइज़ेशन"
+, "कॉन्फ़िगरेशन प्रबंधन"
+, "निरंतर एकीकरण"
+, "निरंतर डिलीवरी"
+, "सॉफ़्टवेयर विकास"
+, "सर्वोत्तम अभ्यास"
+, "परीक्षण"
+, "ओपन सोर्स"
+, "मल्टी-क्लाउड"</category><guid>https://hi.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+जानें कि आसानी से बनाए रखने योग्य और सुरक्षित मशीन इमेज बनाने के लिए Packer का उपयोग कैसे करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.webp" length="175658" type="image/webp"/></item></channel></rss>

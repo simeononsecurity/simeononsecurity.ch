@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>सबनेट on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>सबनेट on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/%E0%A4%B8%E0%A4%AC%E0%A4%A8%E0%A5%87%E0%A4%9F/</link></image><link>https://hi.simeononsecurity.com/tags/%E0%A4%B8%E0%A4%AC%E0%A4%A8%E0%A5%87%E0%A4%9F/</link><description>Recent content in सबनेट on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/%E0%A4%B8%E0%A4%AC%E0%A4%A8%E0%A5%87%E0%A4%9F/index.xml" rel="self" type="application/rss+xml"/><item><title>होमलैब VLAN सेगमेंटेशन की योजना बनाएं और जांचें</title><link>https://hi.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"होमलैब"
+, "नेटवर्क सुरक्षा"
+, "नेटवर्किंग"</category><guid>https://hi.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+होमलैब में भरोसेमंद डिवाइस, सर्वर, IoT और मेहमानों को अलग रखने के लिए VLAN योजना बनाएं। अनुमत ट्रैफ़िक दर्ज करें, नेटवर्क को चरणों में कॉन्फ़िगर करें और अलगाव की जांच करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>नेटवर्क की मूल बातें: सबनेट, सबनेटिंग और VLAN डिज़ाइन</title><link>https://hi.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</link><pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate><category>
+"नेटवर्क की मूल बातें"
+, "सबनेटिंग"
+, "VLAN"
+, "नेटवर्क प्रबंधन"
+, "नेटवर्क सुरक्षा"
+, "IP पता योजना"
+, "नेटवर्क विभाजन"
+, "संसाधनों का कुशल उपयोग"
+, "नेटवर्क प्रदर्शन"
+, "IPv4"</category><guid>https://hi.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+कुशल नेटवर्क प्रबंधन और बेहतर सुरक्षा के लिए सबनेट, सबनेटिंग और VLAN की मूल बातें जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_comp.webp" length="200202" type="image/webp"/></item><item><title>नेटवर्क की बुनियादी बातें: स्विच, राउटर, फ़ायरवॉल और DMZ</title><link>https://hi.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"नेटवर्किंग"
+, "IT अवसंरचना"
+, "नेटवर्क सुरक्षा"
+, "नेटवर्क आर्किटेक्चर"
+, "साइबर सुरक्षा"
+, "डेटा संचार"
+, "सूचना प्रौद्योगिकी"
+, "IT की बुनियादी बातें"
+, "नेटवर्क प्रबंधन"
+, "इंटरनेट कनेक्टिविटी"</category><guid>https://hi.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+जानें कि स्विच, राउटर, गेटवे, सबनेट, फ़ायरवॉल और DMZ नेटवर्क ट्रैफ़िक को कैसे बाँटते हैं और सुरक्षा सीमाएँ कैसे लागू करते हैं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item></channel></rss>

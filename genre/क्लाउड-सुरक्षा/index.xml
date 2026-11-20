@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>क्लाउड सुरक्षा on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>क्लाउड सुरक्षा on simeononsecurity</title><link>https://hi.simeononsecurity.com/genre/%E0%A4%95%E0%A5%8D%E0%A4%B2%E0%A4%BE%E0%A4%89%E0%A4%A1-%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE/</link></image><link>https://hi.simeononsecurity.com/genre/%E0%A4%95%E0%A5%8D%E0%A4%B2%E0%A4%BE%E0%A4%89%E0%A4%A1-%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE/</link><description>Recent content in क्लाउड सुरक्षा on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/genre/%E0%A4%95%E0%A5%8D%E0%A4%B2%E0%A4%BE%E0%A4%89%E0%A4%A1-%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>1Password SSH Agent और CLI: AI एजेंटों के लिए केवल-पठन पहुँच</title><link>https://hi.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"सिस्टम प्रशासन"
+, "क्लाउड सुरक्षा"
+, "स्वचालन"</category><guid>https://hi.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+1Password CLI, SSH Agent और MCP के साथ read-only SSH वर्कफ़्लो डिज़ाइन करें। लाइव टेस्टिंग से पहले सिंथेटिक कमांड्स, संकीर्ण अनुमतियाँ और मानवीय अनुमोदन का उपयोग करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Bitbucket Cloud SSH कुंजियाँ: AI एजेंटों के लिए केवल-पठन Git पहुँच</title><link>https://hi.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"क्लाउड सुरक्षा"
+, "डेवलपर उपकरण"
+, "सिस्टम प्रशासन"</category><guid>https://hi.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+केवल-पठन AI एजेंट कार्यप्रवाह के लिए Bitbucket Cloud SSH कुंजियाँ, Git CLI पहुँच, REST API टोकन, 1Password और MCP उपकरण सेट करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>2026 में कंटेनर अब सुरक्षा सीमा नहीं रहे</title><link>https://hi.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"कंटेनर सुरक्षा"
+, "Linux"
+, "कर्नेल सुरक्षा"
+, "वर्चुअलाइजेशन"
+, "क्लाउड सुरक्षा"
+, "खतरा अनुसंधान"
+, "ब्लू टीम"
+, "DevSecOps"</category><guid>https://hi.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026 की कर्नेल कमजोरियाँ दिखाती हैं कि मल्टी-टेनेंट कंटेनर आइसोलेशन पर्याप्त क्यों नहीं है। Copy Fail, Dirty Frag, Fragnesia और CVE-2026-80521 को समझें, और मजबूत कंटेनरों की तुलना microVM सीमा से करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>Cloudflare Tunnel और Access: क्या आपको दोनों चाहिए?</title><link>https://hi.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"नेटवर्क सुरक्षा"
+, "स्व-होस्टिंग"
+, "क्लाउड सुरक्षा"</category><guid>https://hi.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Cloudflare Tunnel और Access का अंतर समझें, घरेलू डैशबोर्ड के लिए सुरक्षा चुनें और निजी ऐप को बिना प्रमाणीकरण सार्वजनिक करने से बचें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>Microsoft SOC होम लैब: 2026 में साइबर सुरक्षा का अनुभव बनाएँ</title><link>https://hi.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"साइबर सुरक्षा"
+, "क्लाउड सुरक्षा"
+, "करियर विकास"</category><guid>https://hi.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Sentinel, Defender, Intune और Entra के साथ Microsoft SOC लैब बनाएँ। घटनाओं की जाँच करें, passkey नीतियाँ परखें और पोर्टफोलियो के लिए सबूत दर्ज करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>क्लाउड सुरक्षा को प्रभावी ढंग से सुरक्षित करें</title><link>https://hi.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</link><pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate><category>
+"क्लाउड सुरक्षा"
+, "व्यावसायिक लचीलापन"
+, "CSPM कार्यान्वयन"
+, "सक्रिय खतरा पहचान"
+, "अनुपालन प्रबंधन"
+, "सुरक्षा नीतियाँ"
+, "विभागों के बीच सहयोग"
+, "क्लाउड अवसंरचना"
+, "स्वचालित सुरक्षा"
+, "जोखिम कम करना"</category><guid>https://hi.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+क्लाउड सुरक्षा स्थिति प्रबंधन से गलत कॉन्फ़िगरेशन खोजें, नीतियाँ लागू करें, अलर्ट प्रबंधित करें, अनुपालन में सहायता करें और क्लाउड खातों में सुधार का मार्ग तय करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/leveraging-cloud-security-posture-management-%28cspm%29-for-your-business.webp" length="234272" type="image/webp"/></item><item><title>नेटवर्क और क्लाउड सुरक्षा को अधिकतम करना</title><link>https://hi.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "साइबर सुरक्षा"
+, "क्लाउड सुरक्षा"
+, "नेटवर्क सुरक्षा"
+, "डिजिटल सुरक्षा"
+, "डेटा गोपनीयता"
+, "आईटी सुरक्षा"
+, "व्यावसायिक प्रौद्योगिकी"
+, "डिजिटल रक्षा"
+, "साइबर खतरे"</category><guid>https://hi.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+नेटवर्क और क्लाउड सुरक्षा मज़बूत करने के लिए खतरों, सुरक्षा उपायों और मामलों के उदाहरण जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp"/></item><item><title>साइबर सुरक्षा करियर के लिए Microsoft प्रमाणन</title><link>https://hi.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"साइबर सुरक्षा"
+, "Microsoft प्रमाणन"
+, "पेशेवर विकास"
+, "सूचना प्रौद्योगिकी"
+, "क्लाउड सुरक्षा"
+, "डेटा प्रबंधन"
+, "पहचान और अभिगम प्रबंधन"
+, "कृत्रिम बुद्धिमत्ता"
+, "मशीन लर्निंग"
+, "रोजगार बाजार"</category><guid>https://hi.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+कौशल क्षेत्र, लक्षित पद, पूर्वापेक्षाओं और Azure की प्रासंगिकता के आधार पर साइबर सुरक्षा भूमिकाओं के लिए Microsoft प्रमाणन चुनें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_cartoon_illustration_featuring_a_professiona.webp" length="94814" type="image/webp"/></item><item><title>AWS बनाम Azure बनाम Google Cloud 2026: पूरी तुलना</title><link>https://hi.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"क्लाउड कंप्यूटिंग"
+, "क्लाउड सुरक्षा"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "डेटा सुरक्षा"
+, "एन्क्रिप्शन"
+, "पहचान और पहुँच प्रबंधन"
+, "अनुपालन"
+, "खतरा पहचान"</category><guid>https://hi.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AWS, Azure और Google Cloud की 2026 की तुलना, जिसमें मूल्य, सुरक्षा, अनुपालन, सेवाएँ, प्रदर्शन और प्रदाता का चयन शामिल है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item><item><title>साइबर सुरक्षा करियर गाइड 2026</title><link>https://hi.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</link><pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate><category>
+"साइबर सुरक्षा"
+, "प्रौद्योगिकी"
+, "करियर विकास"
+, "सूचना सुरक्षा"
+, "डिजिटल सुरक्षा"
+, "कौशल और प्रमाणपत्र"
+, "रोजगार के अवसर"
+, "नेटवर्क सुरक्षा"
+, "क्लाउड सुरक्षा"
+, "करियर योजना"</category><guid>https://hi.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026 की साइबर सुरक्षा करियर गाइड में कौशल, प्रमाणपत्र, वेतन, करियर पथ और नौकरी बाजार का शोध शामिल है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/cybersecurity-career-guide-essential-skills-and-certifications.webp" length="298156" type="image/webp"/></item><item><title>पेनिट्रेशन टेस्टिंग में महारत: उन्नत तकनीकें</title><link>https://hi.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><category>
+"साइबर सुरक्षा"
+, "पेनिट्रेशन टेस्टिंग"
+, "एथिकल हैकिंग"
+, "नेटवर्क सुरक्षा"
+, "वेब एप्लिकेशन सुरक्षा"
+, "वायरलेस सुरक्षा"
+, "सोशल इंजीनियरिंग"
+, "मोबाइल एप्लिकेशन सुरक्षा"
+, "क्लाउड सुरक्षा"
+, "करियर विकास"</category><guid>https://hi.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+उन्नत तकनीकों, उपकरणों और वास्तविक उदाहरणों से पेनिट्रेशन टेस्टिंग सीखें और साइबर सुरक्षा कौशल व करियर को आगे बढ़ाएँ।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp"/></item></channel></rss>

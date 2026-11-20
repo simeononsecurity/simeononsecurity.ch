@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Server on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>Windows Server on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/windows-server/</link></image><link>https://hi.simeononsecurity.com/tags/windows-server/</link><description>Recent content in Windows Server on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/windows-server/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell से केवल-पठन Active Directory सूची तैयार करें</title><link>https://hi.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Active Directory"
+, "PowerShell"
+, "सिस्टम प्रशासन"</category><guid>https://hi.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+सीमित PowerShell क्वेरी से Active Directory की संगठनात्मक इकाइयों, उपयोगकर्ताओं और कंप्यूटरों की सूची बनाएँ। निर्देशिका ऑब्जेक्ट बदले बिना जाँच योग्य CSV फ़ाइलें निर्यात करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/active-directory-powershell-read-only-inventory.webp" length="101842" type="image/webp"/></item><item><title>Windows Server सुरक्षा को बेहतर बनाएँ</title><link>https://hi.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "आईटी सुरक्षा"
+, "सर्वर प्रशासन"
+, "साइबर सुरक्षा"
+, "नेटवर्क सुरक्षा"
+, "डेटा अखंडता"
+, "आईटी अवसंरचना"
+, "सर्वोत्तम तरीके"
+, "सर्वर हार्डनिंग"
+, "Windows Server"</category><guid>https://hi.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows Server को सुरक्षित करने के तरीके जानें। इसमें हार्डनिंग की बुनियादी बातों से लेकर उन्नत अवसंरचना सुरक्षा तक शामिल है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/Windows_Server_Security_Shield_Protection.webp" length="101056" type="image/webp"/></item><item><title>Azure for Students के साथ अपनी क्षमता को आगे बढ़ाएँ</title><link>https://hi.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "क्लाउड कंप्यूटिंग"
+, "छात्र संसाधन"
+, "सॉफ़्टवेयर विकास"
+, "Microsoft Azure"
+, "Windows Server"
+, "Windows 10"
+, "Windows 11"
+, "Visual Studio"
+, "अधिगम उपकरण"</category><guid>https://hi.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Microsoft Azure for Students की पात्रता, शामिल सॉफ़्टवेयर, खाते की सीमाएँ और शुरुआत के व्यावहारिक चरण जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/azure_for_students_animated_cloud.webp" length="73614" type="image/webp"/></item><item><title>Offline Install RSAT ActiveDirectory PowerShell Module</title><link>https://hi.simeononsecurity.com/github/offline-ps-activedirectory-install/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><category>
+"Remote Server Administration Toolkit"
+, "PowerShell RSAT ActiveDirectory Module"
+, "Windows 10"
+, "Offline Installer"
+, "PowerShell Script"
+, "PowerShell Module"
+, "ActiveDirectory"
+, "Windows"
+, "Offline"
+, "Install"
+, "Server"
+, "Administration"
+, "Toolkit"
+, "Scripting"
+, "Module"
+, "Windows Server"
+, "PowerShell Core"
+, "Windows PowerShell"
+, "Microsoft"
+, "IT Administration"</category><guid>https://hi.simeononsecurity.com/github/offline-ps-activedirectory-install/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to install the RSAT ActiveDirectory PowerShell Module offline with a simple PowerShell script.</description></item></channel></rss>

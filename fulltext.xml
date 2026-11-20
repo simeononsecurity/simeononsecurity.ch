@@ -1,0 +1,2248 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://hi.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>hi</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>Home Assistant Core 2026.11 से 2026.10.4 पर रोलबैक: HTTP स्टोरेज संस्करण 3 की मरम्मत</title><link>https://hi.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><description>Yellow पर Home Assistant Core 2026.11 के 2026.10.4 पर लौटने के बाद HTTP स्टोरेज संस्करण 3 की त्रुटि ठीक करें। इसमें सुरक्षित कमांड और सत्यापित आउटपुट शामिल हैं।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p>Home Assistant Core 2026.11 का अपडेट विफल हुआ और मेरे Yellow CM4 को 2026.10.4 पर वापस ले गया। Yellow नेटवर्क पर उपलब्ध रहा, लेकिन डैशबोर्ड दिखाना बंद कर दिया। रोलबैक के बाद HTTP सेटिंग्स फ़ाइल स्टोरेज संस्करण 3.1 में थी, जबकि Core 2026.10.4 संस्करण 2.2 का समर्थन करता है। मैंने फ़ाइल सुरक्षित रखी, सख्त जाँच के तहत उसकी एक प्रति बदली, HTTP पहुँच बहाल की, फिर Core को 2026.11.1 पर अपडेट किया।</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" class="h-anchor" aria-hidden="true" title="मुख्य बातें">#</a>
+</h2>
+<ul>
+<li><strong>असंगति की पुष्टि करें।</strong> Core लॉग की त्रुटि को इंस्टॉल किए गए रिलीज़ और HTTP स्टोरेज संस्करण से मिलाएँ।</li>
+<li><strong>फ़ाइल सुरक्षित रखें।</strong> रिकवरी से पहले एक अपरिवर्तित प्रति और डिवाइस से बाहर बैकअप रखें।</li>
+<li><strong>परिणाम जाँचें।</strong> Core की स्थिति, सुरक्षित श्रोता-पोर्ट, डैशबोर्ड और इंस्टॉल किए गए संस्करण की जाँच करें।</li>
+</ul>
+<p><strong>इसी मामले के लिए समाधान:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <me
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>बिना सेंसर वाला स्थानीय AI मॉडल कैसे चुनें</title><link>https://hi.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><description>पूरे उत्तर, बची हुई क्षमताएँ, संदर्भ का उपयोग, क्वांटाइज़ेशन और VRAM की ज़रूरत के आधार पर स्थानीय मॉडल संस्करणों की तुलना करें।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p><strong>मॉडल चुनना:</strong> हर संस्करण को इस आधार पर परखें कि वह कितने उपयोगी उत्तर पूरे करता है, कितनी गुणवत्ता बनाए रखता है और आपके काम के लिए कितनी मेमोरी चाहिए। कम अस्वीकार या लोकप्रिय मॉडल कार्ड इन नतीजों का प्रमाण नहीं है।</p>
+<p><strong>बिना सेंसर</strong> लेबल का कोई मानक प्रदर्शन पैमाना नहीं है। मॉडल प्रकाशित करने वाले इस शब्द का उपयोग वज़न में अलग-अलग बदलाव, फ़ाइन-ट्यून और चैट टेम्पलेट के लिए करते हैं। हर विकल्प की तुलना उसके मूल मॉडल से करें और उन कामों पर जाँचें जिन्हें आप चलाना चाहते हैं।</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+ 
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Octominer X12 Ultra PSU संगतता: Chicony और LiteOn का फील्ड टेस्ट</title><link>https://hi.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><description>पाँच पंखों और तीन PSU वाले Octominer X12 Ultra पर किए गए परीक्षण में Chicony PSU ने सिस्टम चालू किया, जबकि जाँचे गए LiteOn यूनिट एम्बर रंग दिखाकर चालू नहीं हुए।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p><strong>Chicony R12-1K6P2A ने मेरे पाँच-पंखों और तीन-PSU वाले Octominer X12 Ultra को चालू किया।</strong> मेरे द्वारा जाँची गई LiteOn PS-2142-2L सप्लाई पहले हरी दिखीं, फिर एम्बर हुईं और सिस्टम चालू नहीं हुआ। यह परिणाम मेरी उस यूनिट पर लागू है जिसमें <strong>OCTOMINER (12PIN) 3x DPS1200 rev. 20</strong> पावर बैकप्लेन लगा है। समान वाट क्षमता या किसी अलग X12 ब्रेकआउट बोर्ड की सूची, Octominer बैकप्लेन के साथ संगतता साबित नहीं करती।</p>
+<p>चेसिस को तीन PSU बे के साथ <strong>3,600 W कॉन्फ़िगरेशन</strong> के रूप में बेचा गया था। 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Octominer, X12 Ultra के लिए तीन 1,200 W सप्लाई का विकल्प सूचीबद्ध करता है">
+    <meta itemprop="url" content="https://octominer.eu/product/octominer-x12-ultra-used/">
+    <a href="https://octominer.eu/product/octominer-x12-ultra-used/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Octominer, X12 Ultra के लिए तीन 1,200 W सप्लाई का विकल्प सूचीबद्ध करता है</a>
+</span>
+, साथ में दूसरे कॉन्फ़िगरेशन भी हैं। इन नतीजों को अपने सिस्टम पर लागू करने से पहले उसका लेबल और पावर बोर्ड जाँचें।</p>
+<h2 id="परकषण-क-नतज">
+  <a href="#%e0%a4
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proxmox VE 9: वर्चुअल डिस्क का उपयोग घटाएँ और जगह वापस पाएँ</title><link>https://hi.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><description>Proxmox VE 9 में VM और LXC कंटेनरों की स्टोरेज खपत घटाएँ। फ़ॉर्मैट और बैकएंड की तुलना करें, discard सक्षम करें, trim चलाएँ और जगह वापस पाने से पहले snapshots जाँचें।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p><strong>गेस्ट फ़ाइल सिस्टम छोटा होने से Proxmox पर स्टोरेज उपयोग हमेशा कम नहीं होता।</strong> होस्ट पर जगह खाली करने के लिए पतला आवंटन समर्थित डिस्क, VM के लिए काम करने वाला discard पथ और स्नैपशॉट द्वारा रोके गए ब्लॉकों से मुक्त बैकएंड चाहिए। यह मार्गदर्शिका Proxmox VE 9 VM और LXC कंटेनरों की सेटिंग और जाँच बताती है।</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" class="h-anchor" aria-hidden="true" title="मुख्य बातें">#</a>
+</h2>
+<ul>
+<li><strong>पहले बैकिंग स्टोरेज चुनें।</strong> वर्चुअल डिस्क का बताया गया आकार होस्ट पर आवंटित जगह से तभी अलग होता है, जब इमेज फ़ॉर्मैट या बैकएंड पतला आवंटन समर्थित करे।</li>
+<li><strong>VM पर discard चालू करें, फिर गेस्ट के भीतर trim चलाएँ।</strong> Windows ReTrim और Linux <code>fstrim</code> वर्चुअल डिस्क के ज़रिए खाली ब्लॉकों के अनुरोध भेजते हैं।</li>
+<li><strong>स्नैपशॉट और बैकअप अलग-अलग जाँचें।</strong> किसी स्नैपशॉट में संदर्भित पुराने ब्लॉक तब तक आवंटित रहते हैं। बैकअप फ़ाइलें और PBS डेटा खंड अपनी retention नीति से चलते हैं।</li>
+<li><strong>LXC माउंट को उनके प्रकार के अनुसार देखें।</strong> प्रबंधित rootfs और माउंट-point वॉल्यूम, bind माउंट और device मा�
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Tailscale Aperture: 2026 में इन्फ़रेंस और MCP के लिए AI क्लाइंट कॉन्फ़िगर करें</title><link>https://hi.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><description>Tailscale Aperture के ज़रिए मॉडल अनुरोध और MCP टूल रूट करें। किसी दूसरे डिवाइस या गेटवे पर Codex, Claude Code, Claude Desktop, OpenCode और Hermes सेट अप करें।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <h2 id="परचय">
+  <a href="#%e0%a4%aa%e0%a4%b0%e0%a4%9a%e0%a4%af" title="परिचय">परिचय</a>
+  <a href="#%e0%a4%aa%e0%a4%b0%e0%a4%9a%e0%a4%af" class="h-anchor" aria-hidden="true" title="परिचय">#</a>
+</h2>
+<p>Tailscale Aperture मॉडल इन्फ़रेंस और मॉडल Context प्रोटोकॉल (MCP) टूल के लिए AI क्लाइंट को tailnet से जुड़ा एक गेटवे देता है। हर क्लाइंट को अपने API प्रोटोकॉल से मेल खाने वाला मार्ग इस्तेमाल करना चाहिए। MCP टूल अलग एंडपॉइंट का उपयोग करते हैं। Aperture के अनुदान तय करते हैं कि हर Tailscale पहचान किन मॉडल और कनेक्टर तक पहुँच सकती है।</p>
+<p>यह गाइड macOS, Linux और Windows पर Codex, Claude Code, Claude Desktop, OpenCode और Hermes सेट अप करने का तरीका बताती है। इसमें CLI और डेस्कटॉप सेटिंग, अपनी पहचान के लिए उपलब्ध मॉडल ID ढूँढ़ने के चरण और किसी दूसरे डिवाइस या Aperture इंस्टेंस को सेट अप करने के लिए दोबारा उपयोग करने योग्य अनाम प्रॉम्प्ट शामिल हैं।</p>
+<p><strong>मार्ग चुनें:</strong> एंडपॉइंट पथ गेटवे और API प्रोटोकॉल पर निर्भर करते हैं। <code>/codex</code> जैसा Responses मार्ग Anthropic Messages या MCP ट्रैफ़िक नहीं संभालता। गेटवे का hostname और हर क्लाइंट का इन्फ़रेंस मार्ग जाँचें। क्लाइंट सेटिंग बदलने से पहले अपने Aperture एक्सेस से मॉडल ID ढूँढ़ें।</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>स्व-होस्टेड Hindsight: एजेंटों की स्थानीय स्मृति और निजी मॉडल रूटिंग</title><link>https://hi.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/self-hosted-hindsight/</guid><description>स्व-होस्टेड Hindsight, देखे गए स्थानीय Qwen मार्गों और जाँचे गए मार्गों पर होस्टेड मॉडल सदस्यता के बिना प्रति-अनुरोध GPU कार्य का केस अध्ययन।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/self-hosted-hindsight/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p><strong>हमारी Hindsight मेमोरी सेवा उस हार्डवेयर पर चलती है जिसे हम नियंत्रित करते हैं।</strong> मेमोरी इंजन, डेटाबेस, एम्बेडिंग मॉडल और री-रैंकर एक स्व-होस्टेड डिप्लॉयमेंट में चलते हैं। Hindsight जनरेशन अनुरोध निजी गेटवे को भेजता है। जाँचा गया साझा Qwen बैकएंड और परीक्षण किया गया पृष्ठ-रिफ्रेश मार्ग स्थानीय मॉडल सर्वर उपयोग करते हैं, बिना होस्टेड इन्फरेंस सदस्यता के।</p>
+<p>यह एक काम कर रहे डिप्लॉयमेंट का विवरण है। <strong>स्व-होस्टेड का अर्थ ऑफ़लाइन नहीं है।</strong> VPN बाहरी समन्वय सेवा उपयोग करता है, और सॉफ़्टवेयर इमेज तथा मॉडल वज़न डाउनलोड करने पड़ते हैं। यह दावा मेमोरी प्रसंस्करण और मॉडल इन्फरेंस तक सीमित है, हमारे उपकरणों या अन्य एजेंट टूल के हर नेटवर्क कनेक्शन तक नहीं।</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" class="h-anchor" aria-hidden="true" title="मुख्य बातें">#</a>
+</h2>
+<ul>
+<li><strong>Hindsight मेमोरी कार्यप्रवाह संभालता है।</strong> Docker कंटेनर API, वर्कर और कंट्रोल प्लेन चलाता है। स्थायी वॉल्यूम बैंक डेटा रखता है।</li>
+<li><strong>छोटे पुनर्प्राप्ति मॉडल स्थानीय रहते हैं।</strong> एम्बेडिं
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/self-hosted-hindsight/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Chrome 156 सुरक्षा अपडेट: अक्टूबर पैच की पुष्टि करें</title><link>https://hi.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><description>Windows, macOS, Linux और Android पर 27 अक्टूबर का Chrome 156 सुरक्षा रिलीज़ जाँचें। इंस्टॉल किए गए बिल्ड की तुलना करें, लंबित रीस्टार्ट पूरा करें और प्रबंधित डिवाइस अलग से जाँचें।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p><strong>27 अक्टूबर 2026 के Chrome सुरक्षा रिलीज़</strong> में 52 सुधार शामिल हैं। अपने इंस्टॉलेशन की जाँच के लिए पूरा संस्करण नंबर अपने ऑपरेटिंग सिस्टम के रिलीज़ से मिलाएँ। फिर लंबित अपडेट पूरा करने के लिए Chrome रीस्टार्ट करें। किसी संस्करण की घोषणा यह साबित नहीं करती कि आपके डिवाइस को अपडेट मिल चुका है। (
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="डेस्कटॉप Chrome रिलीज़">
+    <meta itemprop="url" content="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html">
+    <a href="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >डेस्कटॉप Chrome रिलीज़</a>
+</span>
+)</p>
+<h2 id="कन-स-ससकरण-दखन-चहए">
+  <a href="#%e0%a4%95%e0%a4%a8-%e0%a4%b8-%e0%a4%b8%e0%a4%b8%e0%a4%95%e0%a4%b0%e0%a4%a3-%e0%a4%a6%e0%a4%96%e0%a4%a8-%e0%a4%9a%e0%a4%b9%e0%a4%8f" title="कौन सा संस्करण दिखना चाहिए?">कौन सा संस्करण दिखना चाहिए?</a>
+  <a href="#%e0%a4%95%e0%a4%a8-%e0%a4%b8-%e0%a4%b8%e0%a4%b8%e0%a4%95%e0%a4%b0%e0%a4%a3-%e0%a4%a6%e0%a4%96%e0%a4%a8-%e0%a4%9a%e0%a4%b9%e0%a4%8f" class="h-anchor" aria-hidden="true" title="कौन सा संस्करण दिखना चाहिए?">#</a>
+</h2>
+<p>Google ने 27 अक्टूबर 2026 को Stable चैनल के ये संस्करण प्रकाशित किए। डेस्कट�
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Open WebUI v0.12.4: अपग्रेड और पहुँच नियंत्रण जाँच-सूची 2026</title><link>https://hi.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><description>Open WebUI का बैकअप लें और उसे v0.12.4 पर अपग्रेड करें। फिर चैट साझा करना, निर्यात अनुमतियाँ, संसाधन पहुँच, खाते और नेटवर्क पहुँच जाँचें।</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p><strong>Open WebUI v0.12.4 में सुरक्षा सुधार हैं, जिनकी रखरखावकर्ताओं ने अभी पूरी सूची नहीं दी है।</strong> रिलीज़ नोट जल्द अपडेट करने की सलाह देते हैं और कहते हैं कि CVE मिलने के बाद सलाह जारी की जाएगी। नीचे नामित चैट-साझाकरण और अनुमति बदलाव रिलीज़ नोट में दिखने वाले बिंदु हैं। ये अप्रकाशित सुरक्षा सुधारों की पूरी सूची नहीं हैं। 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Open WebUI v0.12.4 रिलीज़ नोट">
+    <meta itemprop="url" content="https://github.com/open-webui/open-webui/releases/tag/v0.12.4">
+    <a href="https://github.com/open-webui/open-webui/releases/tag/v0.12.4"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Open WebUI v0.12.4 रिलीज़ नोट</a>
+</span>
+</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" class="h-anchor" aria-hidden="true" title="मुख्य बातें">#</a>
+</h2>
+<ul>
+<li><strong>पहले बैकअप लें।</strong> ऐप बदलने से पहले डेटा वॉल्यूम या डेटाबेस और अपलोड की पुनर्स्थापित की जा सकने वाली प्रति रखें।</li>
+<li><strong>आधिकारिक रिलीज़ पिन करें।</strong> मानक Docker इमेज के लिए <code>ghcr.io/open-webui/open-webui:v0
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Thunderbird 153.6: Windows में NTLM क्रेडेंशियल उजागर होना और अपडेट करने का तरीका (2026)</title><link>https://hi.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><description>विशेष रूप से तैयार ईमेल दिखाने पर Thunderbird की दो गंभीर खामियाँ Windows में NTLM प्रमाणीकरण डेटा उजागर करती हैं। दोनों तरीकों को समझें, संस्करण जाँचें और अपडेट के दौरान बाहर जाने वाले SMB को सीमित करें।</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p>Mozilla ने Thunderbird 153.6 में Windows क्रेडेंशियल उजागर करने वाली दो <strong>गंभीर खामियाँ</strong> ठीक कीं। 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="MFSA 2026-122">
+    <meta itemprop="url" content="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/">
+    <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >MFSA 2026-122</a>
+</span>
+ में बताए गए नेटवर्क अनुरोधों में से किसी एक को शुरू करने के लिए दुर्भावनापूर्ण ईमेल दिखाना ही पर्याप्त था। एडवाइजरी NTLM डेटा के संभावित खुलासे की बात करती है, हर प्राप्तकर्ता के क्रेडेंशियल चोरी होने की पुष्टि नहीं।</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" class="h-anchor" aria-hidden="true" title="मुख्य बातें">#</a>
+</h2>
+<ul>
+<li><strong>CVE-2026-118174</strong> में बाहरी होस्ट पर रखा OpenPGP कुंजी अटैचमेंट शामिल था। दूरस्थ सामग्री अवरुद्ध होने पर भी संदेश दिखाने से बिना उपयोगकर्ता कार्रवाई अनुरोध जाता था।</li>
+<li><strong>CVE-2026-118176</strong> में विस्तारित UNC पथ वाला विशेष रूप से बनाया गया <code>m
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Pi-hole से स्थानीय AI तक, 10 स्तरों में होम लैब बनाएँ</title><link>https://hi.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><description>पूरे नेटवर्क की DNS फ़िल्टरिंग से स्थानीय AI तक, दस व्यावहारिक चरणों में होम लैब बनाएँ। हर स्तर के हार्डवेयर, लागत, कौशल और समझौतों को जानें।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/build-home-lab-10-levels/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <h1 id="pi-hole-स-सथनय-ai-तक-10-सतर-म-हम-लब-बनए">
+  <a href="#pi-hole-%e0%a4%b8-%e0%a4%b8%e0%a4%a5%e0%a4%a8%e0%a4%af-ai-%e0%a4%a4%e0%a4%95-10-%e0%a4%b8%e0%a4%a4%e0%a4%b0-%e0%a4%ae-%e0%a4%b9%e0%a4%ae-%e0%a4%b2%e0%a4%ac-%e0%a4%ac%e0%a4%a8%e0%a4%8f" title="Pi-hole से स्थानीय AI तक, 10 स्तरों में होम लैब बनाएँ">Pi-hole से स्थानीय AI तक, 10 स्तरों में होम लैब बनाएँ</a>
+  <a href="#pi-hole-%e0%a4%b8-%e0%a4%b8%e0%a4%a5%e0%a4%a8%e0%a4%af-ai-%e0%a4%a4%e0%a4%95-10-%e0%a4%b8%e0%a4%a4%e0%a4%b0-%e0%a4%ae-%e0%a4%b9%e0%a4%ae-%e0%a4%b2%e0%a4%ac-%e0%a4%ac%e0%a4%a8%e0%a4%8f" class="h-anchor" aria-hidden="true" title="Pi-hole से स्थानीय AI तक, 10 स्तरों में होम लैब बनाएँ">#</a>
+</h1>
+<p><strong>होम लैब</strong> कंप्यूटर और सेवाओं का ऐसा समूह है जिसे आप रोज़मर्रा की समस्याएँ हल करने और वास्तविक सिस्टम चलाना सीखने के लिए संचालित करते हैं। आप विज्ञापन रोक सकते हैं, लाइटें स्वचालित कर सकते हैं, परिवार की मीडिया फ़ाइलें रख सकते हैं या वर्चुअल मशीनें जाँच सकते हैं। <strong>एक उपयोगी काम से शुरुआत करें।</strong> वास्तविक सीमा दिखने पर हार्डवेयर बढ़ाएँ।</p>
+<p>यह गाइड Pi-hole चलाने वाले छोटे Raspberry Pi से स्थानीय AI मॉडल चलाने वाले सर्वर तक जाती है। <strong>हर स्तर नई क्षमता और नई ज़िम्मेदारी जोड़ता है।</strong> नीचे की लागत के अनुमान उदाहरण के बिजली उपयोग और $0.15 प्रति किलोवाट-घंटे की दर पर आधारित हैं। और खरीदने से पहले स्थानीय दर जाँचें और उपकर
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/build-home-lab-10-levels/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Hermes स्थानीय मॉडल बेंचमार्क: मैं GPU और मॉडल के कौन से संयोजन चुनूँगा</title><link>https://hi.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><description>RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti और RTX 3070 सिस्टम पर लंबा संदर्भ, टूल, स्ट्रीमिंग और विज़न परीक्षणों से मिली मेरी Hermes मॉडल सिफ़ारिशें।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p>लंबे संदर्भ वाले Hermes काम के लिए मैं दो 16GB RTX 5060 Ti कार्ड पर Qwen3.5 35B से शुरुआत करूँगा। परीक्षण किए गए रूट ने LiteLLM के माध्यम से 239,153 इनपुट टोकन बनाए रखे और टूल, स्ट्रीमिंग, विज़न, कतार में लगे अनुरोधों तथा रद्दीकरण की अलग-अलग जाँचें पास कीं। एक कार्ड के विकल्प के रूप में Qwen3.6 मेरी पसंद है। RTX 3060 Ti और RTX 3070 सिस्टम पर मैं Qwen3.5 2B या 4B से शुरुआत करूँगा।</p>
+<p>ये विकल्प एजेंट द्वारा इस्तेमाल किए जाने वाले इन्फ़रेंस पथों पर मॉडल चलाने से मिले। मैंने लंबे इनपुट को बनाए रखना, टूल के साथ राउंड ट्रिप, स्ट्रीम किए गए जवाब, छवियों पर सवाल और मॉडल को मुक्त करना जाँचा। मैंने रूट के पीछे के मोड और मेमरी सेटिंग्स भी जाँचीं, क्योंकि मॉडल का सफलतापूर्वक लोड होना लंबे एजेंट अनुरोध के दौरान उसकी उपयोगिता के बारे में कम बताता है।</p>
+<p>टूल वाले एजेंट उपयोग के लिए Hermes को कम से कम 64,000 टोकन संदर्भ चाहिए। लंबे संदर्भ की योग्यता के लिए मैंने 65,536 वास्तविक इनपुट टोकन की सीमा रखी। सर्वर द्वारा घोषित संदर्भ आकार से इनपुट टोकन की संख्या अधिक मायने रखती है। (
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>हमारे हाइब्रिड एजेंटिक AI फ्लीट के भीतर: Hermes, LiteLLM और Tailscale</title><link>https://hi.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><description>Hermes, LiteLLM, Tailscale Aperture और Pearl माइनिंग वाला सत्यापित lazy-loaded स्थानीय AI फ्लीट और उसका T0 से T4 नियंत्रण तल देखें।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p><strong>हमने अनुरोध के अनुसार स्थानीय GPU संसाधन देने वाला फ्लीट तैनात किया और उसका हाइब्रिड नियंत्रण तल बनाया।</strong> सत्यापित मार्ग LiteLLM से शुरू होता है, मॉडल पूल चुनता है और एक समय में एक GPU पर स्थानीय मॉडल लोड करता है। Hermes की tier policy प्रस्तावित है और Tailscale Aperture का configuration artifact अगले integration test के लिए तैयार है। दोनों में से किसी को भी एक संपूर्ण end-to-end मार्ग का हिस्सा होने के रूप में सत्यापित नहीं किया गया।</p>
+<p>निष्क्रिय कार्ड Pearl माइन करते हैं। AI अनुरोध केवल lease पर लिए गए कार्ड की माइनिंग रोकता है, अनुरोध पूरा करता है, मॉडल unload करता है और कार्ड को miner में वापस कर देता है।</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" class="h-anchor" aria-hidden="true" title="मुख्य बातें">#</a>
+</h2>
+<ul>
+<li><strong>T0 से T2 महंगे या कठिन काम संभालते हैं।</strong> ये मार्ग hosted frontier मॉडल और क्रमबद्ध fallback chain को प्राथमिकता देते हैं।</li>
+<li><strong>T3 बड़े स्थानीय काम संभालता है।</strong> फ्लीट planning, coding, review और vision को 4B से 12B मॉडल पर भेजता है।</li>
+<li><strong>T4 अधिक मात्रा वाले स्थानीय काम संभालता है।</strong> छोटे मॉडल routing, classification, extraction, embedding और सीमित code task करते हैं।</li>
+<l
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>1Password SSH Agent और CLI: AI एजेंटों के लिए केवल-पठन पहुँच</title><link>https://hi.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><description>1Password CLI, SSH Agent और MCP के साथ read-only SSH वर्कफ़्लो डिज़ाइन करें। लाइव टेस्टिंग से पहले सिंथेटिक कमांड्स, संकीर्ण अनुमतियाँ और मानवीय अनुमोदन का उपयोग करें।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p><strong>कमांड-लाइन एजेंट को उपयोगी एक्सेस की आवश्यकता होती है, हर क्रेडेंशियल की कॉपी की नहीं।</strong> यह गाइड 1Password CLI, 1Password SSH Agent, Bitbucket Git एक्सेस, और Model Context Protocol (MCP) के लिए एक सीमित डिज़ाइन प्रस्तुत करती है। पहला वर्कफ्लो सिंथेटिक नाम, रीड-ओनली एक्शन, और SSH बाउंड्री पर मानव स्वीकृति का उपयोग करता है।</p>
+<p>मुख्य भेद सरल है। <strong>इंटरैक्टिव SSH 1Password SSH Agent के माध्यम से सहमति का उपयोग करता है। अनटेंडेड ऑटोमेशन को एक अलग पहचान, संकीर्ण एक्सेस, और एक अलग की लाइफसाइकिल की आवश्यकता होती है।</strong> MCP कनेक्शन को किसी भी वर्कफ्लो को चलाने की अनुमति के रूप में न मानें।</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" class="h-anchor" aria-hidden="true" title="मुख्य बातें">#</a>
+</h2>
+<ul>
+<li><strong>प्राइवेट-की सुरक्षा:</strong> 1Password SSH Agent SSH प्रमाणीकरण करता है, जबकि प्राइवेट की 1Password ऐप के अंदर ही रहती हैं।</li>
+<li><strong>पब्लिक-की प्रबंधन:</strong> Bitbucket या रिमोट अकाउंट केवल एक पब्लिक की प्रकाशित करें। प्राइवेट आधा हिस्सा एक SSH Key आइटम में रखें।</li>
+<li><strong>इंटरैक्टिव सहमति:</strong> SSH Agent की का उपयोग करने से पहले एक व्यक्ति क्लाइंट या टर्मिन
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Bitbucket Cloud SSH कुंजियाँ: AI एजेंटों के लिए केवल-पठन Git पहुँच</title><link>https://hi.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><description>केवल-पठन AI एजेंट कार्यप्रवाह के लिए Bitbucket Cloud SSH कुंजियाँ, Git CLI पहुँच, REST API टोकन, 1Password और MCP उपकरण सेट करें।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p><strong>सीमित एजेंट कार्यप्रवाह रिपॉज़िटरी पठन, API पठन, गुप्त जानकारी प्रबंधन और दूरस्थ लेखन को अलग रखता है।</strong> स्रोत तक पहुँचने के लिए Secure Shell (SSH) पर Git का उपयोग करें, स्वचालित checkout के लिए केवल-पठन Bitbucket पहुँच कुंजी, मेटाडेटा के लिए REST API और अनुमोदित उपकरणों के लिए Model Context Protocol (MCP) सर्वर का उपयोग करें। निजी कुंजियाँ और API टोकन 1Password में रखें। लिखने से पहले मानव अनुमोदन लें।</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" class="h-anchor" aria-hidden="true" title="मुख्य बातें">#</a>
+</h2>
+<ul>
+<li><strong>डिफ़ॉल्ट रूप से केवल-पठन:</strong> एजेंट checkout के लिए रिपॉज़िटरी या प्रोजेक्ट पहुँच कुंजी का उपयोग करें। इनमें से कोई push पहुँच नहीं देती।</li>
+<li><strong>व्यक्तिगत पहचान:</strong> उपयोगकर्ता खाते से जुड़े इंटरैक्टिव कार्य के लिए व्यक्तिगत SSH कुंजी का उपयोग करें।</li>
+<li><strong>गुप्त जानकारी की अभिरक्षा:</strong> 1Password SSH Agent का उपयोग करें, ताकि Git निजी कुंजी पढ़े बिना अधिकृत हस्ताक्षर अनुरोध कर सके।</li>
+<li><strong>CLI का अर्थ:</strong> <code>git</code>, <code>curl</code> और छोटे ऑडिट किए गए API wrapper को व्यावहारिक Bitbucket कमांड लाइन मानें।</li>
+<li><strong>MCP सीमा:</strong> सीमित दाय
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>DNS फ़िल्टर को क्यों बायपास किया जा रहा है: रिज़ॉल्वर पथ जाँचें</title><link>https://hi.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><description>जानें कि कोई डिवाइस या ब्राउज़र DNS फ़िल्टर को क्यों छोड़ रहा है। सीधे और सामान्य क्वेरी की तुलना करें, लॉग देखें और एन्क्रिप्टेड DNS, VPN, IPv6 तथा राउटर सेटिंग जाँचें।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p>आपने फ़िल्टरिंग रिज़ॉल्वर सेट किया है, फिर भी कोई डिवाइस उस डोमेन तक पहुँच रहा है जिसे आपकी नीति रोकती है। कारण नियम, डिवाइस को दिया गया Domain Name System (DNS), ब्राउज़र का एन्क्रिप्टेड रिज़ॉल्वर या VPN हो सकता है। <strong>सेटिंग बदलने से पहले पथ जाँचें।</strong> फ़िल्टर को सीधी क्वेरी और डिवाइस की सामान्य क्वेरी अलग-अलग सवालों के जवाब देती हैं।</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" class="h-anchor" aria-hidden="true" title="मुख्य बातें">#</a>
+</h2>
+<ul>
+<li><strong>पहले नियम की जाँच करें:</strong> पुष्टि करें कि फ़िल्टर सुरक्षित परीक्षण डोमेन को प्राप्त करके रोकता है।</li>
+<li><strong>हर परत देखें:</strong> राउटर, ऑपरेटिंग सिस्टम, ब्राउज़र, VPN और मोबाइल सेटिंग DNS रूटिंग को प्रभावित करते हैं।</li>
+<li><strong>नई क्वेरी इस्तेमाल करें:</strong> नए होस्टनाम और समय को फ़िल्टर के क्वेरी लॉग से मिलाएँ।</li>
+<li><strong>सीमा बताएँ:</strong> एक देखी गई क्वेरी एक पथ का प्रमाण है, हर ऐप या डिवाइस के व्यवहार का नहीं।</li>
+</ul>
+<h2 id="शर-करन-स-पहल">
+  <a href="#%e0%a4%b6%e0%a4%b0-%e0%a4%95%e0%a4%b0%e0%a4%a8-%e0%a4%b8-%e0%a4%aa%e0%a4%b9%e0%a4%b2" title="शुरू करने से पहले">शुरू करने से पहले</a>
+  <a href="#%e0%a4%b6%e0%a4%b0-%e0%a4%95%e0%a4%b0%e0%a4%a8
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Hyper-V VM को Proxmox VE पर माइग्रेट करें: वापस लौटने योग्य चेकलिस्ट</title><link>https://hi.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><description>बंद स्रोत VM का निर्यात, फर्मवेयर मिलान, डिस्क आयात, अलग नेटवर्क पर बूट परीक्षण और वापसी योजना के साथ Hyper-V VM को Proxmox VE पर ले जाएँ।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p><strong>Hyper-V निर्यात</strong> वर्चुअल मशीन की फ़ाइलें बचाता है, जबकि Proxmox VE को नई अतिथि मशीन सेटिंग और आयात की हुई VHDX वर्चुअल डिस्क फ़ाइलें चाहिए। कॉपी सफल होने से यह साबित नहीं होता कि अतिथि मशीन बूट होगी या उपयोगकर्ताओं को सेवा देगी। यह चेकलिस्ट एक VM को बंद स्रोत से निर्यात, नियंत्रित बूट परीक्षण और स्पष्ट वापसी मार्ग के साथ स्विच करती है।</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" class="h-anchor" aria-hidden="true" title="मुख्य बातें">#</a>
+</h2>
+<ul>
+<li><strong>स्रोत दर्ज करें:</strong> निर्यात से पहले फर्मवेयर पीढ़ी, डिस्क पथ, चेकपॉइंट, नेटवर्क सेटिंग और एन्क्रिप्शन लिखें।</li>
+<li><strong>लिखना रोकें:</strong> अंतिम निर्यात से पहले Hyper-V VM बंद करें और Proxmox परीक्षण के दौरान भी बंद रखें।</li>
+<li><strong>बूट तरीका मिलाएँ:</strong> Hyper-V पीढ़ी 1 पुराना BIOS चलाता है। पीढ़ी 2 UEFI चलाता है।</li>
+<li><strong>सेवा जाँचें:</strong> स्रोत हटाने से पहले डेटा, नेटवर्क पहुँच, बैकअप और अतिथि स्वास्थ्य जाँचें।</li>
+</ul>
+<h2 id="शर-करन-स-पहल">
+  <a href="#%e0%a4%b6%e0%a4%b0-%e0%a4%95%e0%a4%b0%e0%a4%a8-%e0%a4%b8-%e0%a4%aa%e0%a4%b9%e0%a4%b2" title="शुरू करने से पहले">शुरू करने से पहले</a>
+  <a href="#%e0%a4%b6%e0%a4%b0-%e0%a4%95%e0%a4%b0%e0%a4%a8-%e0%a4%b8-%e0%a4%aa
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proxmox VM पुनर्स्थापन अभ्यास: साबित करें कि गेस्ट सिस्टम काम करता है</title><link>https://hi.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><description>अलग नेटवर्क में पुनर्स्थापन करके Proxmox VM बैकअप जाँचें। प्रोडक्शन को छुए बिना डिस्क कवरेज, बैकअप मोड, गेस्ट डेटा, सेवा की स्थिति और पुनर्प्राप्ति समय जाँचें।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p>हरा बैकअप कार्य बताता है कि Proxmox ने बैकअप लिखा। इससे यह पता नहीं चलता कि गेस्ट चालू होता है, उसका डेटा नया है या उसकी मुख्य सेवा काम करती है। <strong>नई VM ID के साथ अलग नेटवर्क पर एक प्रति पुनर्स्थापित करें।</strong> किसी आउटेज के कारण जाँच करनी पड़े, उससे पहले परिणाम आपको पुनर्प्राप्ति का प्रमाण देता है।</p>
+<p>यह अभ्यास एक <strong>Proxmox VE वर्चुअल मशीन</strong> के लिए है। कंटेनरों के बैकअप नियम अलग हैं, खासकर bind mount और device mount के लिए। साइट का 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="होम लैब बैकअप पुनर्स्थापन अभ्यास">
+    <meta itemprop="url" content="/articles/homelab-backup-restore-drill/">
+    <a href="/articles/homelab-backup-restore-drill/"
+    
+        rel="follow me"
+    >होम लैब बैकअप पुनर्स्थापन अभ्यास</a>
+</span>
+ फ़ाइल पुनर्प्राप्ति के व्यापक पहलुओं को कवर करता है। यहाँ आप Proxmox VM बैकअप और उसके वर्कलोड की जाँच करेंगे।</p>
+<p><strong>गेस्ट</strong> वह ऑपरेटिंग सिस्टम है जो वर्चुअल मशीन के अंदर चलता है। <strong>Bind mount</strong> और <strong>device mount</strong> गेस्ट को होस्ट के संसाधन दिखाते हैं। इन संसा�
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>VPN के साथ ब्राउज़र में DNS और WebRTC लीक जाँचें</title><link>https://hi.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><description>VPN से जुड़ने से पहले और बाद में ब्राउज़र का सार्वजनिक IP, DNS resolver और WebRTC पते जाँचें। नतीजों को समझें और रूटिंग समस्याओं की पड़ताल करें।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p>वर्चुअल प्राइवेट नेटवर्क (VPN) का कनेक्शन आइकन यह साबित नहीं करता कि ब्राउज़र की हर request एक ही रास्ते से जाती है। अपना <strong>सार्वजनिक IP</strong>, <strong>Domain Name System (DNS) resolver</strong> और <strong>WebRTC पते</strong> अलग-अलग जाँचें। हर नतीजा अलग सवाल का उत्तर देता है। यह गाइड बार-बार की जा सकने वाली जाँच और अप्रत्याशित नतीजे की पड़ताल का तरीका देती है।</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" class="h-anchor" aria-hidden="true" title="मुख्य बातें">#</a>
+</h2>
+<ul>
+<li><strong>दो स्थितियों की तुलना करें:</strong> VPN जोड़ने से पहले और बाद में वही जाँचें दर्ज करें।</li>
+<li><strong>हर नतीजे को अलग समझें:</strong> सार्वजनिक IP बदलने से यह पता नहीं चलता कि DNS query कहाँ गई।</li>
+<li><strong>WebRTC उम्मीदवार देखें:</strong> अपने तय रास्ते से बाहर का सार्वजनिक पता खोजें। निजी पते का अर्थ अलग है।</li>
+<li><strong>एक बार में एक सेटिंग बदलें:</strong> VPN, ब्राउज़र या DNS में हर बदलाव के बाद फिर जाँचें।</li>
+</ul>
+<h2 id="शर-करन-स-पहल">
+  <a href="#%e0%a4%b6%e0%a4%b0-%e0%a4%95%e0%a4%b0%e0%a4%a8-%e0%a4%b8-%e0%a4%aa%e0%a4%b9%e0%a4%b2" title="शुरू करने से पहले">शुरू करने से पहले</a>
+  <a href="#%e0%a4%b6%e0%a4%b0-%e0%a4%95%e0%a4%b0%e0%a4%a8-%e0%a4%b8-%e0%a4%aa%e0%a4%b9%e0%a4%b2" class="h-anchor" aria-hidden="true" title="शुरू करने से पहले">#</a>
+</h2>
+<p>व
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>मेश Wi-Fi नेटवर्क पर गेस्ट और IoT आइसोलेशन की जाँच करें</title><link>https://hi.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><description>जाँचें कि आपके मेश Wi-Fi के गेस्ट और IoT नेटवर्क घर के डिवाइसों तक पहुँच रोकते हैं या नहीं। चालू सेवा से हर नेटवर्क का परीक्षण करें और सीमाएँ दर्ज करें।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p>अलग Wi-Fi नाम से यह पता नहीं चलता कि कौन-से डिवाइस आपस में संचार करते हैं। मेश सिस्टम <strong>गेस्ट नेटवर्क</strong>, <strong>IoT नेटवर्क</strong> और <strong>वायरलेस क्लाइंट आइसोलेशन</strong> को अलग-अलग नियंत्रण मान सकता है। यह गाइड आपके अपने उपकरणों पर रास्तों की जाँच करने में मदद करती है। यह न मानें कि निर्माता का लेबल उसकी लागू नीति बताता है।</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" class="h-anchor" aria-hidden="true" title="मुख्य बातें">#</a>
+</h2>
+<ul>
+<li><strong>पहले लक्ष्य के काम करने की पुष्टि करें:</strong> ब्लॉक किए गए रास्ते की जाँच से पहले मुख्य नेटवर्क से किसी ज्ञात सेवा तक पहुँचें।</li>
+<li><strong>हर सीमा जाँचें:</strong> गेस्ट से मुख्य नेटवर्क, IoT से मुख्य नेटवर्क और गेस्ट से गेस्ट का संचार अलग-अलग सवालों के जवाब देता है।</li>
+<li><strong>कॉन्फ़िगरेशन दर्ज करें:</strong> मॉडल, फ़र्मवेयर, राउटर या एक्सेस पॉइंट मोड और जुड़ा मेश नोड परिणाम की व्याख्या बदल सकते हैं।</li>
+<li><strong>बदलाव के बाद फिर जाँचें:</strong> साफ़ परिणाम सिर्फ़ जाँचे गए डिवाइस, सेवा, एड्रेस फ़ैमिली और कॉन्फ़िगरेशन पर लागू होता है।</li>
+</ul>
+<h2 id="शर-करन-स-पहल">
+  <
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2026 में AI इन्फ्रास्ट्रक्चर का उछाल: मांग, कर्ज, बिजली और प्रमाण</title><link>https://hi.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><description>AI इन्फ्रास्ट्रक्चर खर्च, डेटा सेंटर बिजली मांग, वित्तीय संरचनाओं, कंपनी मूल्य और बाजार को बुलबुला कहने से पहले जरूरी प्रमाण की तथ्य-जांच समीक्षा।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p><strong>AI इन्फ्रास्ट्रक्चर उस गति से बढ़ रहा है जिसे बहुत कम तकनीकी बाजारों ने देखा है।</strong> खर्च वास्तविक है। बिजली की मांग वास्तविक है। वित्तपोषण जोखिम वास्तविक है। प्रतिफल कम निश्चित है।</p>
+<p>उपयोगी सवाल यह नहीं है कि कृत्रिम बुद्धिमत्ता मौजूद है या नहीं। सवाल यह है कि भविष्य का राजस्व और उत्पादकता लाभ उस हार्डवेयर, डेटा सेंटर, बिजली अनुबंध, लीज और कर्ज को उचित ठहराएगा या नहीं जो इस विस्तार को सहारा देते हैं।</p>
+<p>यह लेख AI बुलबुले की बहस के पीछे मौजूद सार्वजनिक प्रमाण की जांच करता है। पूर्वानुमान को पूर्वानुमान के रूप में रखा गया है। कंपनी के दावों को स्वतंत्र शोध से अलग रखा गया है। परिणाम निकट भविष्य में गिरावट साबित नहीं करता। यह वित्तीय और संचालन संबंधी दबाव की जगह दिखाता है।</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-vis
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2x RTX 5060 Ti बनाम GB10: 256K कॉन्टेक्स्ट पर पाँच मॉडलों का स्थानीय AI बेंचमार्क</title><link>https://hi.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><description>पाँच मॉडलों की RTX 5060 Ti और GB10 तुलना, साथ में 256K कॉन्टेक्स्ट तक समान होस्ट पर Qwen3.8 Flash-Next Strata बेंचमार्क।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p><strong>दो RTX 5060 Ti 16 GB कार्ड मिलकर 32 GB कुल VRAM देते हैं।</strong> NVIDIA GB10 सिस्टम में 128 GB सुसंगत यूनिफाइड मेमोरी है। पाँच मॉडलों का नया बेंचमार्क पहले के केवल Qwen वाले परीक्षण से अधिक संतुलित तस्वीर दिखाता है।</p>
+<p>256K सेटिंग पर पाँच में से चार मॉडलों की जनरेशन गति में दो कार्ड वाला सिस्टम आगे है। Qwen3.8 27B पर GB10 स्पष्ट रूप से आगे है और मॉडल, कॉन्टेक्स्ट तथा रनटाइम आवंटन के लिए अधिक मेमोरी खाली रखता है। सही विकल्प मॉडल और कार्यभार पर निर्भर करता है।</p>
+<p>एक अलग समान-होस्ट परीक्षण में Strata पर Qwen3.8-Flash-Next IQ2_XS की तुलना Ollama पर dense Qwen3.8 27B Q4_K_M से की गई। वार्मअप के बाद जनरेशन का माध्य Flash-Next के लिए 92.8 टोकन प्रति सेकंड था, जिसमें प्रॉम्प्ट 260,446 टोकन का था। Dense Qwen3.8 ने 260,444 टोकन के प्रॉम्प्ट पर 0.939 टोकन प्रति सेकंड हासिल किए।</p>
+<p>NVIDIA GB10 में 128 GB सुसंगत यूनिफाइड मेमोरी है। NVIDIA GB10 प्लेटफ़ॉर्म के लिए 128 GB LPDDR5x यूनिफाइड मेमोरी और 140 W चिप TDP सूचीबद्ध करता है। RTX 5060 Ti में हर कार्ड पर 16 GB GDDR7, 128-बिट मेमोरी इंटरफ़ेस और 180 W कुल ग्राफ़िक्स पावर है। 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+ 
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI आउटपुट, स्रोत, टेस्ट और लागत की जाँच कैसे करें</title><link>https://hi.simeononsecurity.com/articles/effective-ai-output-verification/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/effective-ai-output-verification/</guid><description>स्रोत, फ़ाइल दायरा, टेस्ट प्रमाण, गोपनीयता समीक्षा और उपयोग की जाँच करके AI परिणाम के लिए स्वीकृति रिकॉर्ड बनाएँ।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/effective-ai-output-verification.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/effective-ai-output-verification/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="व्यावहारिक AI कार्यप्रवाह पाठ्यक्रम पर लौटें">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >व्यावहारिक AI कार्यप्रवाह पाठ्यक्रम पर लौटें</a>
+</span>
+</p>
+<p><strong>AI परिणाम तभी स्वीकार करें जब आप कार्य के अनुरूप प्रमाण जाँच लें।</strong> सुस्पष्ट व्याख्या, कॉन्फ़िगर किया गया टूल और हरे टेस्ट संकेतक अलग-अलग सवालों के जवाब देते हैं। यह पाठ कार्यशाला लैब के लिए एक साझा समीक्षा रिकॉर्ड बनाता है।</p>
+<p><strong>सीखने का लक्ष्य:</strong> आप स्रोत, फ़ाइल दायरा, टेस्ट, गोपनीयता और उपयोग के लिए स्वीकृति रिकॉर्ड तैयार करेंगे।</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" class="h-anchor" aria-hidden="true" title="मुख्य बातें">#</a>
+</h2>
+<ul>
+<li><strong>स्रोत जाँच:</strong> तथ्यात्मक दावे की तुलना वर्तमान और प्रामाणिक रिकॉर्ड से करें।</li>
+<li><strong>दायरा जाँच:</strong> देखें कि कौन-सी फ़ाइलें या प्रणालियाँ बदलीं।</li>
+<li><strong>व्यवहार जाँ�
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/effective-ai-output-verification/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI एजेंट कार्य-वितरण: काम सौंपें और परिणामों की समीक्षा करें</title><link>https://hi.simeononsecurity.com/articles/effective-ai-agent-delegation/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/effective-ai-agent-delegation/</guid><description>जानें कि दूसरा AI एजेंट कब मददगार है, हर कार्यकर्ता को सीमित काम दें, संपादन टकराव रोकें और मुख्य सत्र में साक्ष्य जोड़ें।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/effective-ai-agent-delegation.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/effective-ai-agent-delegation/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="व्यावहारिक AI कार्यप्रवाह पाठ्यक्रम पर लौटें">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >व्यावहारिक AI कार्यप्रवाह पाठ्यक्रम पर लौटें</a>
+</span>
+</p>
+<p><strong>जब किसी स्वतंत्र प्रश्न के लिए अलग सत्र उचित हो, तब काम सौंपें।</strong> कार्यकर्ता एजेंट अपने संदर्भ में स्रोत देखता है, परीक्षणों की समीक्षा करता है या सीमित बदलाव का मसौदा बनाता है। मुख्य एजेंट परिणाम जाँचता और जोड़ता है। इस पाठ में दस्तावेज़ों की तुलना होगी और आपका मुख्य सत्र छोटी लैब का काम संभालेगा।</p>
+<p><strong>सीखने का लक्ष्य:</strong> आप स्वतंत्र समीक्षा का काम किसी कार्यकर्ता को देंगे और उसकी छोटी साक्ष्य-रिपोर्ट जाँचेंगे।</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" class="h-anchor" aria-hidden="true" title="मुख्य बातें">#</a>
+</h2>
+<ul>
+<li><strong>समन्वयक:</strong> मुख्य एजेंट, जो काम और अंतिम समीक्षा का समन्वय करता है।</li>
+<li><strong>कार्यक
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/effective-ai-agent-delegation/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI का प्रभावी उपयोग कैसे करें: शुरुआती लोगों के लिए भरोसेमंद कार्यप्रवाह</title><link>https://hi.simeononsecurity.com/articles/effective-ai-workflow-foundations/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/effective-ai-workflow-foundations/</guid><description>दोहराने योग्य AI कार्यप्रवाह सीखें: काम तय करें, प्रासंगिक संदर्भ दें, प्रमाण देखें और परिणाम इस्तेमाल करने से पहले उसकी पुष्टि करें।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/effective-ai-workflow-foundations.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/effective-ai-workflow-foundations/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="व्यावहारिक AI कार्यप्रवाह पाठ्यक्रम पर लौटें">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >व्यावहारिक AI कार्यप्रवाह पाठ्यक्रम पर लौटें</a>
+</span>
+</p>
+<p><strong>AI को ऐसे सहायक की तरह इस्तेमाल करें जिसके परिणाम की जाँच जरूरी है।</strong> पहले स्पष्ट परिणाम तय करें, केवल उपयोगी सामग्री दें और उत्तर की तुलना स्रोत से करें। यह पाठ चैट, शोध और कोड के कामों के लिए कार्यप्रवाह बताता है।</p>
+<p><strong>सीखने का लक्ष्य:</strong> अंत तक आप कार्यशाला का सुधारा हुआ ईमेल और चार जाँचों का समीक्षा रिकॉर्ड बनाएँगे।</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" class="h-anchor" aria-hidden="true" title="मुख्य बातें">#</a>
+</h2>
+<ul>
+<li><strong>कार्य:</strong> जरूरी परिणाम और उसकी सीमाएँ बताएँ।</li>
+<li><strong>संदर्भ:</strong> इस काम से जुड़ी फ़ाइलें, तथ्य और उदाहरण दें।</li>
+<li><strong>प्रमाण:</strong> पूछें कि महत्वपूर्ण दावे और बदलाव कहाँ से आए।</li>
+<li><strong>सत�
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/effective-ai-workflow-foundations/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI कार्य पैकेट: बेहतर निर्देश और स्वीकृति मानदंड</title><link>https://hi.simeononsecurity.com/articles/effective-ai-task-packets/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://hi.simeononsecurity.com/articles/effective-ai-task-packets/</guid><description>अस्पष्ट AI अनुरोधों को ऐसे कार्य पैकेट में बदलें जिनमें परिणाम, स्रोत, फ़ाइल दायरा, जाँच और रुकने की शर्त स्पष्ट हों।</description><content:encoded><![CDATA[
+        
+            <img src="https://hi.simeononsecurity.com/img/cover/effective-ai-task-packets.webp">
+            
+        
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/effective-ai-task-packets/">Read the full article at https://hi.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="व्यावहारिक AI कार्यप्रवाह पाठ्यक्रम पर लौटें">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >व्यावहारिक AI कार्यप्रवाह पाठ्यक्रम पर लौटें</a>
+</span>
+</p>
+<p><strong>अच्छा निर्देश काम और उसके मूल्यांकन का तरीका बताता है।</strong> अधिक शब्द जोड़ने से अस्पष्ट दायरा स्पष्ट नहीं होता। यह पाठ इस पाठ्यक्रम की प्रयोगशाला के लिए अस्पष्ट अनुरोध को कार्य पैकेट में बदलता है।</p>
+<p><strong>सीखने का लक्ष्य:</strong> आप स्रोत, फ़ाइल दायरा, जाँच और रुकने की शर्त वाला सीमित कार्य पैकेट लिखेंगे।</p>
+<h2 id="मखय-बत">
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" title="मुख्य बातें">मुख्य बातें</a>
+  <a href="#%e0%a4%ae%e0%a4%96%e0%a4%af-%e0%a4%ac%e0%a4%a4" class="h-anchor" aria-hidden="true" title="मुख्य बातें">#</a>
+</h2>
+<ul>
+<li><strong>परिणाम</strong> इच्छित आर्टिफ़ैक्ट या व्यवहार बताता है।</li>
+<li><strong>दायरा</strong> अनुमत फ़ाइलें और निषिद्ध कार्रवाइयाँ बताता है।</li>
+<li><strong>स्रोत</strong> स्वीकृत आवश्यकता की पहचान करता है।</li>
+<li><strong>स्वीकृति जाँच</strong> सफलता को 
+
+        <br>
+        <a href="https://hi.simeononsecurity.com/articles/effective-ai-task-packets/">Read More at https://hi.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>

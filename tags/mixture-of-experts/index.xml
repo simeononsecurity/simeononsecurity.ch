@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mixture of Experts on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>Mixture of Experts on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/mixture-of-experts/</link></image><link>https://hi.simeononsecurity.com/tags/mixture-of-experts/</link><description>Recent content in Mixture of Experts on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/mixture-of-experts/index.xml" rel="self" type="application/rss+xml"/><item><title>16GB GPU पर स्थानीय AI कोडिंग: Strata, OpenCode और Qwen3.8</title><link>https://hi.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "डेवलपर टूल"
+, "स्व-होस्टेड AI"
+, "AI हार्डवेयर"</category><guid>https://hi.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Strata और OpenCode के साथ स्थानीय कोडिंग एजेंट चलाएँ। रिपोर्ट किए गए RTX 4060 Ti परिणामों, RAM आवश्यकताओं, प्रॉम्प्ट पुनःउपयोग, रीजनिंग बजट और भुगतान वाली सदस्यता बदलने की सीमाओं को देखें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>आपको कौन सा लोकल AI मॉडल चलाना चाहिए? अक्टूबर 2026 के लिए GPU, कॉन्टेक्स्ट और कोडिंग गाइड</title><link>https://hi.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"लोकल AI"
+, "AI हार्डवेयर"
+, "सेल्फ-होस्टेड AI"
+, "GPU बेंचमार्किंग"
+, "डेवलपर टूल"
+, "AI अर्थशास्त्र"</category><guid>https://hi.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+कोडिंग एजेंटों के लिए लोकल AI मॉडल चुनने की अक्टूबर 2026 की व्यावहारिक गाइड। GPU मेमोरी, KV-कैश वृद्धि, कॉन्टेक्स्ट आकार, क्वांटाइजेशन गुणवत्ता, प्रॉम्प्ट प्रोसेसिंग, रीजनिंग सेटिंग और क्लाउड रेंटल लागत की तुलना करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

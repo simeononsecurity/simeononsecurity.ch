@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cross-Site Scripting on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>Cross-Site Scripting on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/cross-site-scripting/</link></image><link>https://hi.simeononsecurity.com/tags/cross-site-scripting/</link><description>Recent content in Cross-Site Scripting on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/cross-site-scripting/index.xml" rel="self" type="application/rss+xml"/><item><title>Python में सुरक्षित कोडिंग की सर्वोत्तम प्रक्रियाएँ</title><link>https://hi.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"प्रोग्रामिंग"
+, "एप्लिकेशन सुरक्षा"
+, "Python विकास"
+, "सुरक्षित कोडिंग"
+, "वेब विकास"
+, "डेटा विश्लेषण"
+, "कृत्रिम बुद्धिमत्ता"
+, "सॉफ्टवेयर विकास"
+, "साइबर सुरक्षा"
+, "प्रोग्रामिंग भाषाएँ"</category><guid>https://hi.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SQL injection, cross-site scripting और अन्य एप्लिकेशन कमजोरियों को घटाने के लिए Python में सुरक्षित कोडिंग की प्रक्रियाएँ।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pi-Hole on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>Pi-Hole on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/pi-hole/</link></image><link>https://hi.simeononsecurity.com/tags/pi-hole/</link><description>Recent content in Pi-Hole on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/pi-hole/index.xml" rel="self" type="application/rss+xml"/><item><title>Pi-hole से स्थानीय AI तक, 10 स्तरों में होम लैब बनाएँ</title><link>https://hi.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"होम लैब"
+, "सेल्फ़-होस्टिंग"
+, "स्थानीय AI"
+, "होम नेटवर्किंग"</category><guid>https://hi.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+पूरे नेटवर्क की DNS फ़िल्टरिंग से स्थानीय AI तक, दस व्यावहारिक चरणों में होम लैब बनाएँ। हर स्तर के हार्डवेयर, लागत, कौशल और समझौतों को जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>NextDNS बनाम AdGuard बनाम Quad9 बनाम Cloudflare: 2026 DNS तुलना</title><link>https://hi.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"साइबर सुरक्षा"
+, "DNS तुलना"
+, "गोपनीयता सुरक्षा"
+, "विज्ञापन अवरोधन"
+, "नेटवर्क सुरक्षा"
+, "इंटरनेट सुरक्षा"
+, "DNS रिज़ॉल्वर"
+, "ऑनलाइन गोपनीयता"
+, "वेब सुरक्षा"
+, "DNS फ़िल्टरिंग"</category><guid>https://hi.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+सुरक्षा, गोपनीयता और प्रदर्शन के आधार पर NextDNS, AdGuard DNS, Quad9, Cloudflare DNS और Pi-hole की 2026 की तुलना।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp"/></item></channel></rss>
