@@ -1,11 +1,11 @@
 ---
 title: "IoT ਡਿਵਾਈਸਾਂ ਦੀ ਸੁਰੱਖਿਆ: ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੀਆਂ ਚੁਣੌਤੀਆਂ ਅਤੇ ਹੱਲ"
 date: 2023-03-27
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਉੱਤੇ IoT ਦੇ ਅਸਰ ਬਾਰੇ ਜਾਣੋ ਅਤੇ ਆਪਣੇ ਜੁੜੇ ਹੋਏ ਡਿਵਾਈਸਾਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਦੀਆਂ ਅਸਰਦਾਰ ਰਣਨੀਤੀਆਂ ਸਿੱਖੋ।"
-tags: ["IoT", "cybersecurity", "security", "Internet of Things", "IoT devices", "network security", "data protection", "privacy", "smart devices", "best practices", "IoT risks", "authentication", "firmware updates", "monitoring", "industry standards", "regulations", "IoT security guidelines", "network segmentation", "threat landscape", "vulnerabilities"]
+tags: ["IoT","ਸਾਈਬਰ ਸੁਰੱਖਿਆ","ਸੁਰੱਖਿਆ","ਚੀਜ਼ਾਂ ਦਾ ਇੰਟਰਨੈੱਟ","IoT ਡਿਵਾਈਸਾਂ","ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ","ਡਾਟਾ ਸੁਰੱਖਿਆ","ਪਰਦੇਦਾਰੀ","ਸਮਾਰਟ ਡਿਵਾਈਸਾਂ","ਚੰਗੇ ਤਰੀਕੇ","IoT ਦੇ ਖਤਰੇ","ਪ੍ਰਮਾਣੀਕਰਨ","ਫਰਮਵੇਅਰ ਅੱਪਡੇਟ","ਨਿਗਰਾਨੀ","ਉਦਯੋਗਿਕ ਮਿਆਰ","ਨਿਯਮ","IoT ਸੁਰੱਖਿਆ ਲਈ ਹਦਾਇਤਾਂ","ਨੈੱਟਵਰਕ ਵੰਡ","ਖਤਰਿਆਂ ਦਾ ਦ੍ਰਿਸ਼","ਕਮਜ਼ੋਰੀਆਂ"]
 cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.webp"
 coverAlt: "ਜੁੜੇ ਹੋਏ IoT ਡਿਵਾਈਸਾਂ ਦੇ ਸਮੂਹ ਦੀ ਰੱਖਿਆ ਕਰਦੀ ਤਿੰਨ-ਆਯਾਮੀ ਢਾਲ ਦੀ ਤਸਵੀਰ, ਜੋ IoT ਨੈੱਟਵਰਕਾਂ ਲਈ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੀ ਅਹਿਮੀਅਤ ਦਿਖਾਉਂਦੀ ਹੈ।"
 coverCaption: ""

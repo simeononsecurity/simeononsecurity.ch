@@ -1,11 +1,11 @@
 ---
 title: "Protegir els dispositius IoT: reptes i solucions de ciberseguretat"
 date: 2023-03-27
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Descobreix l'impacte de l'IoT en la ciberseguretat i aprèn estratègies eficaces per protegir els teus dispositius connectats."
-tags: ["IoT", "cybersecurity", "security", "Internet of Things", "IoT devices", "network security", "data protection", "privacy", "smart devices", "best practices", "IoT risks", "authentication", "firmware updates", "monitoring", "industry standards", "regulations", "IoT security guidelines", "network segmentation", "threat landscape", "vulnerabilities"]
+tags: ["IoT","ciberseguretat","seguretat","Internet de les coses","dispositius IoT","seguretat de xarxa","protecció de dades","privacitat","dispositius intel·ligents","bones pràctiques","riscos de l’IoT","autenticació","actualitzacions del microprogramari","supervisió","estàndards del sector","normativa","guies de seguretat de l’IoT","segmentació de xarxa","panorama d’amenaces","vulnerabilitats"]
 cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.webp"
 coverAlt: "Imatge 3D d'un escut que protegeix un grup de dispositius IoT connectats i representa la importància de la ciberseguretat per a aquestes xarxes."
 coverCaption: ""

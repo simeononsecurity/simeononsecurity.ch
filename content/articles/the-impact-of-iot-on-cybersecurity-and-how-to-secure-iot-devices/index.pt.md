@@ -1,11 +1,11 @@
 ---
 title: "Como Proteger Dispositivos IoT: Desafios e Soluções de Cibersegurança"
 date: 2023-03-27
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Conheça o impacto da IoT na cibersegurança e aprenda estratégias eficazes para proteger seus dispositivos conectados."
-tags: ["IoT", "cybersecurity", "security", "Internet of Things", "IoT devices", "network security", "data protection", "privacy", "smart devices", "best practices", "IoT risks", "authentication", "firmware updates", "monitoring", "industry standards", "regulations", "IoT security guidelines", "network segmentation", "threat landscape", "vulnerabilities"]
+tags: ["IoT","cibersegurança","segurança","Internet das Coisas","dispositivos IoT","segurança de rede","proteção de dados","privacidade","dispositivos inteligentes","boas práticas","riscos de IoT","autenticação","atualizações de firmware","monitoramento","normas do setor","regulamentos","diretrizes de segurança de IoT","segmentação de rede","cenário de ameaças","vulnerabilidades"]
 cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.webp"
 coverAlt: "Imagem 3D de um escudo que protege um grupo de dispositivos IoT conectados e representa a importância da cibersegurança para essas redes."
 coverCaption: ""

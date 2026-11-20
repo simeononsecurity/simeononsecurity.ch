@@ -1,23 +1,23 @@
 ---
 title: "Securizarea dispozitivelor IoT: Provocări și soluții de securitate cibernetică"
 date: 2023-03-27
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Descoperiți impactul IoT asupra securității cibernetice și învățați strategii eficiente pentru a vă proteja dispozitivele conectate."
-tags: ["IoT", "securitate cibernetică", "securitate", "Internetul lucrurilor", "Dispozitive IoT", "securitatea rețelei", "protecția datelor", "confidențialitate", "dispozitive inteligente", "cele mai bune practici", "Riscurile IoT", "autentificare", "actualizări de firmware", "monitorizare", "standarde industriale", "reglementări", "Orientări privind securitatea IoT", "segmentarea rețelei", "peisajul amenințărilor", "vulnerabilități"]
+tags: ["IoT","securitate cibernetică","securitate","Internetul lucrurilor","dispozitive IoT","securitatea rețelei","protecția datelor","confidențialitate","dispozitive inteligente","bune practici","riscuri IoT","autentificare","actualizări de firmware","monitorizare","standarde industriale","reglementări","ghiduri de securitate IoT","segmentarea rețelei","amenințări","vulnerabilități"]
 cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.webp"
 coverAlt: "O imagine animată 3D a unui scut care protejează un grup de dispozitive IoT conectate, simbolizând importanța securității cibernetice pentru rețelele IoT."
 coverCaption: ""
 ---
 
-**IoT Cybersecurity: Evaluarea riscurilor și protejarea dispozitivelor**
+**Securitatea cibernetică a IoT: evaluarea riscurilor și protejarea dispozitivelor**
 
 Acest articol analizează impactul Internetului obiectelor (IoT) asupra securității cibernetice și oferă sfaturi practice pentru securizarea dispozitivelor IoT.
 
 ## Introducere
 
-**Internet of Things (IoT)** a revoluționat modul în care interacționăm cu lumea noastră, conectând obiectele de zi cu zi la internet și permițându-le să comunice între ele. Cu toate acestea, această conectivitate sporită prezintă, de asemenea, noi provocări pentru **securitatea cibernetică**. În acest articol, vom explora impactul IoT asupra securității cibernetice și vom oferi îndrumări cu privire la modul în care să vă protejați dispozitivele IoT.
+**Internetul lucrurilor (IoT)** a revoluționat modul în care interacționăm cu lumea din jurul nostru, conectând obiectele de zi cu zi la internet și permițându-le să comunice între ele. Totuși, această conectivitate sporită aduce și noi provocări pentru **securitatea cibernetică**. În acest articol, vom explora impactul IoT asupra securității cibernetice și vom oferi îndrumări pentru protejarea dispozitivelor IoT.
 
 ______
 
@@ -62,6 +62,6 @@ ______
 
 ### Referințe
 
-1. [NIST - IoT Security](https://www.nist.gov/topics/internet-things-iot)
-2. [ISO/IEC 27400:2022 - IoT Security and Privacy Guidelines](https://www.iso.org/standard/44373.html)
+1. [NIST - Securitatea IoT](https://www.nist.gov/topics/internet-things-iot)
+2. [ISO/IEC 27400:2022 - Ghid privind securitatea și confidențialitatea IoT](https://www.iso.org/standard/44373.html)
 

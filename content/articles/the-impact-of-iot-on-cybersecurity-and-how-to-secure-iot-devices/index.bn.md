@@ -1,11 +1,11 @@
 ---
 title: "IoT ডিভাইস সুরক্ষিত করা: সাইবার নিরাপত্তার চ্যালেঞ্জ ও সমাধান"
 date: 2023-03-27
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "সাইবার নিরাপত্তায় IoT-এর প্রভাব জানুন এবং সংযুক্ত ডিভাইস সুরক্ষিত রাখার কার্যকর কৌশল শিখুন।"
-tags: ["IoT", "cybersecurity", "security", "Internet of Things", "IoT devices", "network security", "data protection", "privacy", "smart devices", "best practices", "IoT risks", "authentication", "firmware updates", "monitoring", "industry standards", "regulations", "IoT security guidelines", "network segmentation", "threat landscape", "vulnerabilities"]
+tags: ["IoT","সাইবার নিরাপত্তা","নিরাপত্তা","ইন্টারনেট অব থিংস","IoT ডিভাইস","নেটওয়ার্ক নিরাপত্তা","তথ্য সুরক্ষা","গোপনীয়তা","স্মার্ট ডিভাইস","সেরা পদ্ধতি","IoT ঝুঁকি","প্রমাণীকরণ","ফার্মওয়্যার আপডেট","পর্যবেক্ষণ","শিল্পমান","বিধিবিধান","IoT নিরাপত্তা নির্দেশিকা","নেটওয়ার্ক বিভাজন","হুমকির পরিসর","দুর্বলতা"]
 cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.webp"
 coverAlt: "সংযুক্ত IoT ডিভাইসের একটি দলকে রক্ষা করা ত্রিমাত্রিক ঢালের ছবি, যা IoT নেটওয়ার্কের সাইবার নিরাপত্তার গুরুত্ব বোঝায়।"
 coverCaption: ""
