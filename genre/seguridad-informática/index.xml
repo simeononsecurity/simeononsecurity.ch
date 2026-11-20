@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Seguridad Informática on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Seguridad Informática on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/seguridad-inform%C3%A1tica/</link></image><link>https://es.simeononsecurity.com/genre/seguridad-inform%C3%A1tica/</link><description>Recent content in Seguridad Informática on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/seguridad-inform%C3%A1tica/index.xml" rel="self" type="application/rss+xml"/><item><title>Comparación de SO: Características y Seguridad de Windows, Linux y macOS</title><link>https://es.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><category>
+"Sistemas Operativos"
+, "Reseñas Tecnológicas"
+, "Comparación de Software"
+, "Seguridad Informática"
+, "Diseño de Experiencia de Usuario"
+, "Rendimiento del Sistema"
+, "Software de Código Abierto"
+, "Guías Tecnológicas"
+, "Computación Personal"
+, "Soluciones TI"</category><guid>https://es.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre qué SO es el mejor en seguridad y facilidad: ¿Windows, Linux o macOS? Obtén las claves que NECESITAS para decidir antes de comprometerte.</description><enclosure url="https://es.simeononsecurity.com/img/cover/operating-systems_-windows-linux-and-macos-compared.webp" length="44424" type="image/webp"/></item><item><title>Por qué el software de código abierto supera al software propietario en seguridad</title><link>https://es.simeononsecurity.com/articles/open-source-software-security/</link><pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Código abierto"
+, "Seguridad del software"
+, "Normativa gubernamental"
+, "Desarrollo colaborativo"
+, "Protección digital"
+, "Seguridad informática"
+, "Tendencias tecnológicas"
+, "Seguridad en línea"
+, "Privacidad de datos"</category><guid>https://es.simeononsecurity.com/articles/open-source-software-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre por qué se considera más seguro el software de código abierto que el propietario, y cómo la transparencia y la colaboración protegen tus activos digitales.</description><enclosure url="https://es.simeononsecurity.com/img/cover/open-source-software-security.webp" length="61142" type="image/webp"/></item><item><title>Desmitificando la jerga de ciberseguridad</title><link>https://es.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</link><pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Tecnología"
+, "Seguridad digital"
+, "Amenazas en línea"
+, "Seguridad en Internet"
+, "Protección de datos"
+, "Privacidad"
+, "Defensa en línea"
+, "Seguridad informática"
+, "Amenazas cibernéticas"</category><guid>https://es.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía clara de términos de ciberseguridad, amenazas, tecnologías y normas de privacidad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/cybersecurity-jargon-illustration.webp" length="150724" type="image/webp"/></item><item><title>Registro de Windows frente a archivos de configuración de Linux</title><link>https://es.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link><pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Sistemas operativos"
+, "Gestión de seguridad"
+, "Tecnología informática"
+, "Protección de datos"
+, "Configuración del sistema"
+, "Seguridad informática"
+, "Seguridad de redes"
+, "Comparativas tecnológicas"
+, "Seguridad de la información"</category><guid>https://es.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara la seguridad del Registro de Windows y los archivos de configuración de Linux, junto con medidas prácticas para reforzar ambos sistemas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp"/></item><item><title>Maximizar la seguridad de redes y de la nube</title><link>https://es.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Ciberseguridad"
+, "Seguridad en la nube"
+, "Protección de redes"
+, "Seguridad digital"
+, "Privacidad de datos"
+, "Seguridad informática"
+, "Tecnología empresarial"
+, "Defensa digital"
+, "Ciberamenazas"</category><guid>https://es.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conozca las amenazas, las medidas de protección y los casos prácticos para reforzar la seguridad de redes y de la nube.</description><enclosure url="https://es.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp"/></item><item><title>Dominar la seguridad EDR: guía de protección de endpoints</title><link>https://es.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Protección de endpoints"
+, "Soluciones EDR"
+, "Detección de amenazas"
+, "Respuesta ante incidentes"
+, "Seguridad de endpoints"
+, "Ciberamenazas"
+, "Seguridad informática"
+, "Defensa digital"
+, "Estrategias de seguridad"</category><guid>https://es.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conoce el funcionamiento, las ventajas y los retos de implementación de la seguridad EDR, además de las prácticas que protegen los endpoints.</description><enclosure url="https://es.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp"/></item><item><title>Refuerza tu defensa: conoce las soluciones de ciberseguridad EDR</title><link>https://es.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Tecnología"
+, "Detección de amenazas"
+, "Seguridad de endpoints"
+, "Respuesta a incidentes"
+, "Protección de datos"
+, "Seguridad de redes"
+, "Defensa digital"
+, "Seguridad informática"
+, "Resiliencia cibernética"</category><guid>https://es.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conoce cómo las soluciones EDR protegen los endpoints, detectan amenazas y ayudan a las organizaciones a elegir una solución adecuada.</description><enclosure url="https://es.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp"/></item><item><title>Programas contra amenazas internas: componentes y reducción de riesgos</title><link>https://es.simeononsecurity.com/articles/enhancing-security-insider-threat-programs/</link><pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Gestión de riesgos"
+, "Estrategia de seguridad"
+, "Amenazas internas"
+, "Formación de empleados"
+, "Protección de datos"
+, "Seguridad informática"
+, "Seguridad organizacional"
+, "Reducción de amenazas"
+, "Cultura de seguridad"</category><guid>https://es.simeononsecurity.com/articles/enhancing-security-insider-threat-programs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra cómo los programas contra amenazas internas refuerzan la seguridad al reducir los riesgos que surgen dentro de la organización. Conozca sus componentes principales, desafíos y ejemplos de éxito.</description><enclosure url="https://es.simeononsecurity.com/img/cover/Insider_Threat_Protection_Shield.webp" length="82326" type="image/webp"/></item><item><title>Cómo protegerse del ransomware</title><link>https://es.simeononsecurity.com/articles/ransomware-protection-strategies/</link><pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Tecnología"
+, "Amenazas digitales"
+, "Seguridad de datos"
+, "Seguridad en línea"
+, "Ciberdelincuencia"
+, "Seguridad informática"
+, "Software malicioso"
+, "Seguridad en Internet"
+, "Protección de datos"</category><guid>https://es.simeononsecurity.com/articles/ransomware-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda cómo funciona el ransomware, qué consecuencias tiene y qué medidas preventivas refuerzan su ciberseguridad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/ransomware-protection-shield.webp" length="62160" type="image/webp"/></item><item><title>Mejora de la ciberseguridad</title><link>https://es.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Directiva de grupo de Windows"
+, "Reducción de la superficie de ataque"
+, "Seguridad informática"
+, "Protección de redes"
+, "Protección de datos"
+, "Resiliencia digital"
+, "Refuerzo de sistemas"
+, "Buenas prácticas de seguridad"
+, "Mitigación de riesgos"</category><guid>https://es.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende cómo la directiva de grupo de Windows reduce la superficie de ataque y refuerza la protección.</description><enclosure url="https://es.simeononsecurity.com/img/cover/Cybersecurity_Shield_Defense.webp" length="129592" type="image/webp"/></item><item><title>Dominar el principio de mínimo privilegio</title><link>https://es.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Seguridad de Linux"
+, "Control de acceso"
+, "Seguridad informática"
+, "Seguridad de redes"
+, "Protección de la información"
+, "Privacidad de datos"
+, "Amenazas cibernéticas"
+, "Gestión de riesgos"
+, "Buenas prácticas de seguridad"</category><guid>https://es.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Refuerza la ciberseguridad con controles de acceso basados en el mínimo privilegio en Linux. Aprende a implementarlos, aplicar buenas prácticas y resolver problemas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>Dominar la seguridad de Windows Server</title><link>https://es.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Seguridad informática"
+, "Administración de servidores"
+, "Ciberseguridad"
+, "Protección de redes"
+, "Integridad de datos"
+, "Infraestructura de TI"
+, "Buenas prácticas"
+, "Endurecimiento de servidores"
+, "Windows Server"</category><guid>https://es.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a proteger Windows Server, desde los fundamentos del endurecimiento hasta técnicas avanzadas para salvaguardar su infraestructura.</description><enclosure url="https://es.simeononsecurity.com/img/cover/Windows_Server_Security_Shield_Protection.webp" length="101056" type="image/webp"/></item><item><title>Buenas prácticas de seguridad en Python: Proteja su código y sus datos</title><link>https://es.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><category>
+"Seguridad en Python"
+, "Código de seguridad"
+, "Protección de datos"
+, "Desarrollo de software"
+, "Ciberseguridad"
+, "Codificación segura"
+, "Desarrollo web"
+, "Protección de datos"
+, "Seguridad de las aplicaciones"
+, "Seguridad informática"</category><guid>https://es.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda las mejores prácticas de seguridad esenciales de Python para salvaguardar su código y sus datos de posibles amenazas, garantizando la protección de los datos, la integridad del sistema y la creación de confianza.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.webp" length="115818" type="image/webp"/></item><item><title>Las mejores soluciones de cifrado de disco completo para PC con Windows</title><link>https://es.simeononsecurity.com/articles/best-full-disk-encryption-solutions-windows/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><category>
+"Seguridad de datos"
+, "Ciberseguridad"
+, "Cifrado de Windows"
+, "Cifrado de disco"
+, "Protección de datos"
+, "Software de cifrado"
+, "Soluciones de seguridad"
+, "Seguridad de Windows"
+, "Privacidad de datos"
+, "Seguridad informática"</category><guid>https://es.simeononsecurity.com/articles/best-full-disk-encryption-solutions-windows/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conozca las principales soluciones de cifrado de disco completo para Windows que protegen sus datos confidenciales frente al acceso no autorizado.</description><enclosure url="https://es.simeononsecurity.com/img/cover/best-full-disk-encryption-solutions-windows.webp" length="243946" type="image/webp"/></item><item><title>10 buenas prácticas de seguridad de PowerShell para proteger scripts</title><link>https://es.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Prácticas recomendadas de seguridad de PowerShell"
+, "Seguridad de las secuencias de comandos"
+, "Seguridad mediante contraseña"
+, "Seguridad informática"
+, "Ciberseguridad"
+, "Administración de Windows"
+, "Automatización"
+, "Codificación segura"
+, "Seguridad de la red"
+, "Protección de datos"</category><guid>https://es.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conozca las 10 mejores prácticas de seguridad esenciales de PowerShell para proteger sus scripts, contraseñas e información confidencial. Mejore la seguridad de su entorno PowerShell y protéjase frente a accesos no autorizados y posibles brechas de seguridad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp" length="76288" type="image/webp"/></item><item><title>Comprender los troyanos de acceso remoto: Riesgos, prevención y protección</title><link>https://es.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Software malicioso"
+, "Seguridad informática"
+, "Amenazas digitales"
+, "Troyanos de acceso remoto"
+, "Protección de datos"
+, "Privacidad"
+, "Ciberdelincuencia"
+, "Seguridad de las redes"
+, "Seguridad de la información"</category><guid>https://es.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra los riesgos que plantean los troyanos de acceso remoto (RAT) y aprenda medidas eficaces de prevención y protección para salvaguardar sus sistemas informáticos y sus datos.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.webp" length="140888" type="image/webp"/></item><item><title>Hoy he aprendido a manipular y analizar JSON en PowerShell y Bash</title><link>https://es.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Conformidad"
+, "Seguridad de Windows"
+, "Guías Ansible"
+, "Colecciones Ansible"
+, "Seguridad informática"
+, "Gestión de la configuración"
+, "DevOps"
+, "Administración de Windows"
+, "Configuración del sistema"</category><guid>https://es.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;&lt;strong&gt;Lo que SimeonOnSecurity ha descubierto y encontrado interesante hoy&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity ha actualizado una página de su sitio web y se ha enterado de algunos recursos que le parecen interesantes. La página actualizada es el resumen del Invite Challenge en HackTheBox. Esta página ofrece un análisis en profundidad del proceso de resolución del desafío tanto en sistemas Windows como Linux.&lt;/p&gt;
+&lt;p&gt;Además de la página actualizada, SimeonOnSecurity también descubrió algunos recursos de aprendizaje útiles. Uno de estos recursos es una entrada de blog de Cameron Nokes que se centra en el trabajo con JSON en bash utilizando la herramienta jq. La herramienta jq es una utilidad de línea de comandos que facilita el análisis, filtrado y manipulación de datos JSON.&lt;/p&gt;</description></item></channel></rss>

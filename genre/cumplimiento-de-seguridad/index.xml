@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cumplimiento De Seguridad on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Cumplimiento De Seguridad on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/cumplimiento-de-seguridad/</link></image><link>https://es.simeononsecurity.com/genre/cumplimiento-de-seguridad/</link><description>Recent content in Cumplimiento De Seguridad on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/cumplimiento-de-seguridad/index.xml" rel="self" type="application/rss+xml"/><item><title>Entender el filtrado WMI</title><link>https://es.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Administración de Windows"
+, "Directiva de grupo"
+, "Administración de sistemas"
+, "Gestión de redes"
+, "Infraestructura de TI"
+, "Gestión de directivas"
+, "Gobernanza de TI"
+, "Automatización de TI"
+, "Active Directory"
+, "Cumplimiento de seguridad"</category><guid>https://es.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende a usar el filtrado WMI para mejorar la selección de destinos de los objetos de directiva de grupo (GPO), con ejemplos prácticos y buenas prácticas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item></channel></rss>

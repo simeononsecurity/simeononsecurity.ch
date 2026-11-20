@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Subredes on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Subredes on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/subredes/</link></image><link>https://es.simeononsecurity.com/tags/subredes/</link><description>Recent content in Subredes on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/subredes/index.xml" rel="self" type="application/rss+xml"/><item><title>Conceptos básicos de redes: subredes, subdivisión en subredes y diseño de VLAN</title><link>https://es.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</link><pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate><category>
+"Fundamentos de redes"
+, "Subdivisión en subredes"
+, "VLAN"
+, "Administración de redes"
+, "Seguridad de redes"
+, "Direccionamiento IP"
+, "Segmentación de redes"
+, "Uso eficiente de recursos"
+, "Rendimiento de red"
+, "IPv4"</category><guid>https://es.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende los fundamentos de subredes, subdivisión en subredes y VLAN para administrar redes con eficiencia y mejorar su seguridad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_comp.webp" length="200202" type="image/webp"/></item><item><title>Fundamentos de redes: switches, routers, firewalls y DMZ</title><link>https://es.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"Redes"
+, "Infraestructura de TI"
+, "Seguridad de redes"
+, "Arquitectura de redes"
+, "Ciberseguridad"
+, "Comunicación de datos"
+, "Tecnología de la información"
+, "Fundamentos de TI"
+, "Administración de redes"
+, "Conectividad a internet"</category><guid>https://es.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende cómo switches, routers, puertas de enlace, subredes, firewalls y DMZ dividen el tráfico de red y aplican límites de seguridad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item><item><title>Mecanismos de transición de IPv4 a IPv6: Guía completa</title><link>https://es.simeononsecurity.com/articles/ipv4-to-ipv6-transition-mechanisms/</link><pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate><category>
+"IPv4"
+, "IPv6"
+, "red"
+, "mecanismos de transición"
+, "doble pila"
+, "NAT64"
+, "DNS64"
+, "Túnel IPv6"
+, "ISATAP"
+, "6to4"
+, "DS-lite"
+, "MAP-T"
+, "Migración a IPv6"
+, "protocolos de red"
+, "protocolo de internet"
+, "arquitectura de red"
+, "enrutamiento"
+, "subredes"
+, "direccionamiento"</category><guid>https://es.simeononsecurity.com/articles/ipv4-to-ipv6-transition-mechanisms/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conozca los distintos mecanismos utilizados para la transición de IPv4 a IPv6 en esta completa guía.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.webp" length="56020" type="image/webp"/></item></channel></rss>

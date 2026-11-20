@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Consejos De Programación on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Consejos De Programación on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/consejos-de-programaci%C3%B3n/</link></image><link>https://es.simeononsecurity.com/tags/consejos-de-programaci%C3%B3n/</link><description>Recent content in Consejos De Programación on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/consejos-de-programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml"/><item><title>Programación segura en Python</title><link>https://es.simeononsecurity.com/articles/secure-python-coding-insecure-functions/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><category>
+"Programación"
+, "Ciberseguridad"
+, "Desarrollo de software"
+, "Python"
+, "Codificación"
+, "Desarrollo web"
+, "Programación segura"
+, "Tecnología"
+, "Informática"
+, "Seguridad de datos"</category><guid>https://es.simeononsecurity.com/articles/secure-python-coding-insecure-functions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende a escribir código seguro en Python, evitar funciones inseguras y crear aplicaciones robustas y fiables.</description><enclosure url="https://es.simeononsecurity.com/img/cover/secure-python-coding-wall.webp" length="111414" type="image/webp"/></item><item><title>Funciones de C# inseguras: prácticas de programación segura</title><link>https://es.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Desarrollo de software"
+, "Programación en C#"
+, "Ciberseguridad"
+, "Seguridad del código"
+, "Programación segura"
+, "Buenas prácticas de programación"
+, "Vulnerabilidades de software"
+, "Criptografía"
+, "Desarrollo web"
+, "Seguridad de aplicaciones"</category><guid>https://es.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Alternativas seguras a las funciones de C# inseguras. Aprende a identificar riesgos para la seguridad de la memoria y sustituir operaciones vulnerables.</description><enclosure url="https://es.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item></channel></rss>

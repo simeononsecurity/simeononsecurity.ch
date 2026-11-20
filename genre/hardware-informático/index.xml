@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hardware Informático on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Hardware Informático on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/hardware-inform%C3%A1tico/</link></image><link>https://es.simeononsecurity.com/genre/hardware-inform%C3%A1tico/</link><description>Recent content in Hardware Informático on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/hardware-inform%C3%A1tico/index.xml" rel="self" type="application/rss+xml"/><item><title>Compatibilidad de fuentes del Octominer X12 Ultra: prueba de campo de Chicony y LiteOn</title><link>https://es.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><category>
+"Hardware de minería"
+, "Hardware informático"</category><guid>https://es.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Una prueba con cinco ventiladores y tres fuentes en un Octominer X12 Ultra mostró que una fuente Chicony arrancó el equipo, mientras las unidades LiteOn probadas marcaron ámbar y no arrancaron.</description><enclosure url="https://es.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp" length="34962" type="image/webp"/></item><item><title>2x RTX 5060 Ti frente a GB10: benchmark local de IA con cinco modelos y contexto 256K</title><link>https://es.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligencia artificial"
+, "IA local"
+, "Hardware GPU"
+, "Benchmarking"
+, "Hardware informático"</category><guid>https://es.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparación de RTX 5060 Ti y GB10 con cinco modelos, más un benchmark de Qwen3.8 Flash-Next en Strata en el mismo host hasta 256K de contexto.</description><enclosure url="https://es.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>¿Son suficientes 16GB de VRAM para trabajar en serio con LLM locales?</title><link>https://es.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Hardware informático"
+, "IA autoalojada"</category><guid>https://es.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dimensiona una configuración de LLM local de 16GB según los pesos del modelo, la caché KV y el procesamiento de prompts. Compara los presupuestos de memoria, el ancho de banda de GPU y el coste de propiedad de Qwen3.8 27B.</description><enclosure url="https://es.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>32 GB de VRAM para Qwen 27B: guía de hardware de IA local para octubre de 2026</title><link>https://es.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Hardware de IA"
+, "Pruebas de GPU"
+, "IA autoalojada"
+, "Hardware informático"
+, "Economía de la IA"</category><guid>https://es.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía práctica de octubre de 2026 para ejecutar un modelo Qwen 27B con 32 GB de memoria utilizable del acelerador. Compara GPU individuales, equipos con dos tarjetas, memoria unificada, tarjetas usadas de centros de datos, cómputo alquilado, soporte de software y límites de contexto completo.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>El DGX Spark de 64 GB es una señal de advertencia para los precios del hardware de IA local</title><link>https://es.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Hardware de IA"
+, "Semiconductores"
+, "Hardware informático"
+, "Economía de la IA"
+, "IA autoalojada"</category><guid>https://es.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+La versión de 64 GB del DGX Spark de NVIDIA muestra cómo la presión sobre el suministro de memoria está moldeando el hardware de IA local. Esta guía explica la reducción de capacidad, las concesiones de la memoria unificada y por qué el alivio de la DRAM es poco probable antes de finales de 2027.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Maximiza la conectividad con la guía de estándares y puertos USB</title><link>https://es.simeononsecurity.com/articles/usb-standards-and-ports_-a-users-guide/</link><pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate><category>
+"Tutoriales tecnológicos"
+, "Conectividad USB"
+, "Guías de electrónica"
+, "Hardware informático"
+, "Perspectivas tecnológicas"
+, "Tecnología fácil de usar"
+, "Sincronización de dispositivos"
+, "Consejos para transferir datos"
+, "Soluciones de carga"
+, "Avances tecnológicos"</category><guid>https://es.simeononsecurity.com/articles/usb-standards-and-ports_-a-users-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre la evolución de las tecnologías y los puertos USB para obtener el mejor rendimiento de tus dispositivos. Aprende sobre USB Type-C y USB 4.0. ¿Listo para actualizarte?</description><enclosure url="https://es.simeononsecurity.com/img/cover/usb-standards-and-ports_-a-users-guide.webp" length="14270" type="image/webp"/></item><item><title>Silencia tu PC: cómo solucionar el ruido de los ventiladores</title><link>https://es.simeononsecurity.com/articles/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud/</link><pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate><category>
+"Hardware informático"
+, "Mantenimiento del PC"
+, "Consejos tecnológicos"
+, "Reparación de ordenadores por cuenta propia"
+, "Cuidado de dispositivos"
+, "Reducción del ruido"
+, "Solución de problemas de hardware"
+, "Tecnología DIY"
+, "Ventiladores de ordenador"
+, "Actualizaciones del sistema"</category><guid>https://es.simeononsecurity.com/articles/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+¿Te molestan los ventiladores ruidosos del ordenador? Conoce sus causas y soluciones para disfrutar de un equipo silencioso. Empieza hoy.</description><enclosure url="https://es.simeononsecurity.com/img/cover/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud.webp" length="244306" type="image/webp"/></item><item><title>Arquitecturas de bus para transferencias de datos rápidas</title><link>https://es.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</link><pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate><category>
+"Guía de transferencia de datos"
+, "Innovación tecnológica"
+, "Arquitectura de sistemas"
+, "Computación de alto rendimiento"
+, "Hardware informático"
+, "Diseño de buses"
+, "Conectividad"
+, "Tecnologías emergentes"
+, "Eficiencia informática"
+, "Optimización técnica"</category><guid>https://es.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conoce las arquitecturas de bus y las técnicas para acelerar la transferencia de datos. Esta guía cubre los tipos de bus, la optimización, las nuevas soluciones y los retos de rendimiento y seguridad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures.webp" length="305084" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ciberseguridad on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Ciberseguridad on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/ciberseguridad/</link></image><link>https://es.simeononsecurity.com/genre/ciberseguridad/</link><description>Recent content in Ciberseguridad on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/ciberseguridad/index.xml" rel="self" type="application/rss+xml"/><item><title>Open WebUI v0.12.4: lista de actualización y control de acceso 2026</title><link>https://es.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA autoalojada"
+, "Ciberseguridad"
+, "Administración de sistemas"</category><guid>https://es.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Haz una copia de seguridad y actualiza Open WebUI a v0.12.4. Después, prueba el uso compartido de chats, los permisos de exportación, las concesiones de recursos, las cuentas y el acceso a la red.</description></item><item><title>Thunderbird 153.6: exposición de credenciales NTLM en Windows y cómo actualizar (2026)</title><link>https://es.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Seguridad del correo electrónico"
+, "Seguridad de Windows"</category><guid>https://es.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dos fallos graves de Thunderbird pueden exponer datos de autenticación NTLM en Windows al mostrar un correo preparado. Conoce las dos vías, comprueba tu versión y limita el SMB saliente mientras actualizas.</description></item><item><title>El auge de la infraestructura de IA en 2026: demanda, deuda, energía y pruebas</title><link>https://es.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligencia artificial"
+, "Economía de la IA"
+, "Centros de datos"
+, "Infraestructura en la nube"
+, "Ciberseguridad"</category><guid>https://es.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Una revisión verificada de los gastos en infraestructura de IA, la demanda eléctrica de los centros de datos, las estructuras de financiación, el valor empresarial y las pruebas necesarias antes de llamar burbuja al mercado.</description><enclosure url="https://es.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>Privacidad de la IA local: qué permanece en su ordenador y qué no</title><link>https://es.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Privacidad"
+, "IA autoalojada"
+, "Ciberseguridad"
+, "Economía de la IA"</category><guid>https://es.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Trace prompts, archivos de modelos, herramientas, registros, exposición de red y costes de energía antes de elegir inferencia local o un servicio de IA alojado.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>¿Qué carrera de ciberseguridad encaja contigo? 16 puntos de partida y muchos caminos</title><link>https://es.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Carreras profesionales"</category><guid>https://es.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explora un video inspirado en los tipos de personalidad, varios puestos de ciberseguridad para cada tipo y ejercicios prácticos para comparar carreras según el trabajo real.</description><enclosure url="https://es.simeononsecurity.com/img/cover/cybersecurity-careers-personality-paths.webp" length="155796" type="image/webp"/></item><item><title>Laboratorio SOC de Microsoft en casa: adquiere experiencia en ciberseguridad en 2026</title><link>https://es.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Seguridad en la nube"
+, "Desarrollo profesional"</category><guid>https://es.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Crea un laboratorio SOC de Microsoft con Sentinel, Defender, Intune y Entra. Investiga incidentes, valida políticas de passkeys y documenta evidencias para tu portfolio.</description><enclosure url="https://es.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>Los tipos de ciberataque más comunes y cómo detectarlos</title><link>https://es.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Detección de amenazas"
+, "Blue Team"
+, "Operaciones de seguridad"
+, "Desarrollo profesional"</category><guid>https://es.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende cuáles son los ciberataques más comunes, qué rastros dejan en los registros y la telemetría, y practica su detección en un laboratorio de seguridad doméstico.</description><enclosure url="https://es.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item><item><title>Comparación de certificaciones de ciberseguridad 2026</title><link>https://es.simeononsecurity.com/articles/cybersecurity-certifications-comparison-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Certificaciones de TI"
+, "Desarrollo profesional"
+, "Formación profesional"
+, "Seguridad de la información"
+, "Educación tecnológica"
+, "Formación en seguridad"
+, "Trayectoria profesional de TI"
+, "Desarrollo profesional"
+, "Guía de certificaciones"</category><guid>https://es.simeononsecurity.com/articles/cybersecurity-certifications-comparison-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparativa de 2026 sobre proveedores de certificaciones de ciberseguridad, precios, retorno de inversión y adecuación a distintas trayectorias profesionales.</description><enclosure url="https://es.simeononsecurity.com/img/cover/cybersecurity-certifications-comparison-guide-2026.webp" length="276310" type="image/webp"/></item><item><title>Fortinet frente a Cisco: comparación completa de seguridad de red</title><link>https://es.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Seguridad de Red"
+, "Ciberseguridad"
+, "Redes Empresariales"
+, "Comparación de Firewalls"
+, "Infraestructura TI"
+, "Hardware de Red"
+, "Soluciones de Seguridad"
+, "Gestión de Red"
+, "Comparación Tecnológica"
+, "Toma de Decisiones TI"</category><guid>https://es.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparación exhaustiva de las soluciones de seguridad de red de Fortinet y Cisco que incluye firewalls, switches, SD-WAN, precios, benchmarks de rendimiento y recomendaciones de despliegue para 2026.</description><enclosure url="https://es.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp"/></item><item><title>Vulnerabilidades en las cámaras de Flock Safety: más de 50 fallos descubiertos</title><link>https://es.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Investigación de seguridad"
+, "Análisis de vulnerabilidades"
+, "Tecnología de vigilancia"
+, "Ciberseguridad"
+, "Privacidad y seguridad"
+, "Seguridad de IoT"
+, "Seguridad física"
+, "Seguridad de redes"
+, "Infraestructura crítica"
+, "Tecnología gubernamental"</category><guid>https://es.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esta investigación sobre vulnerabilidades de las cámaras Flock Safety analiza credenciales expuestas, protecciones débiles, acceso físico y límites de divulgación.</description><enclosure url="https://es.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>Soluciona problemas de Wi-Fi: arreglos prácticos para fallos comunes</title><link>https://es.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</link><pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate><category>
+"Solución de problemas de Wi-Fi"
+, "Soluciones inalámbricas"
+, "Asistencia técnica"
+, "Consejos de conectividad"
+, "Redes domésticas"
+, "Guía de Internet"
+, "Optimización de Wi-Fi"
+, "Ciberseguridad"
+, "Tecnología práctica"
+, "Rendimiento de red"</category><guid>https://es.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Resuelve problemas de Wi-Fi con consejos para mejorar la señal, evitar desconexiones y reforzar la seguridad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/wireless-connectivity_-troubleshooting-common-wi-fi-problems.webp" length="61888" type="image/webp"/></item><item><title>Descubre la virtualización: más eficiencia y escalabilidad de TI</title><link>https://es.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</link><pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate><category>
+"Guía de virtualización"
+, "Infraestructura de TI"
+, "Innovación tecnológica"
+, "Computación en la nube"
+, "Gestión de centros de datos"
+, "Eficiencia informática"
+, "Soluciones de red"
+, "Ciberseguridad"
+, "Evolución del software"
+, "Optimización del hardware"</category><guid>https://es.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Domina la virtualización para mejorar el rendimiento de TI. Conoce sus tipos, ventajas y prácticas recomendadas para gestionar infraestructuras.</description><enclosure url="https://es.simeononsecurity.com/img/cover/understanding-virtualization_-concepts-and-applications.webp" length="103918" type="image/webp"/></item><item><title>Soluciona los problemas de conexión de red para lograr un rendimiento fiable</title><link>https://es.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</link><pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate><category>
+"Consejos de redes"
+, "Soluciones de TI"
+, "Continuidad empresarial"
+, "Ciberseguridad"
+, "Solución de problemas técnicos"
+, "Infraestructura digital"
+, "Fiabilidad de Internet"
+, "Recuperación de sistemas"
+, "Gestión de redes"
+, "Asistencia técnica"</category><guid>https://es.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Estabiliza tu red con técnicas probadas para diagnosticar problemas de conexión y mantener un rendimiento fiable.</description><enclosure url="https://es.simeononsecurity.com/img/cover/ensuring-network-reliability_-how-to-troubleshoot-connection-issues.webp" length="200054" type="image/webp"/></item><item><title>Descubre NAT y PAT: Guías esenciales para la comunicación en redes</title><link>https://es.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"Fundamentos de redes"
+, "Ciberseguridad"
+, "Infraestructura de TI"
+, "Guías tecnológicas"
+, "Administración de redes"
+, "Protocolos de Internet"
+, "Tecnologías de comunicación"
+, "Administración de sistemas"
+, "Ingeniería de redes"
+, "Redes digitales"</category><guid>https://es.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre los secretos de NAT y PAT para lograr comunicaciones digitales fluidas. ¡Conócelos ahora!</description><enclosure url="https://es.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item><item><title>Optimiza tu red: conoce los diseños y las topologías</title><link>https://es.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><category>
+"Ingeniería de redes"
+, "Infraestructura de TI"
+, "Guías tecnológicas"
+, "Soluciones de red"
+, "Ciberseguridad"
+, "Informática"
+, "Educación tecnológica"
+, "Arquitectura de sistemas"
+, "Optimización de redes"
+, "Innovación tecnológica"</category><guid>https://es.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conoce los diseños y las topologías de red, y evalúa cuáles ofrecen la máxima eficiencia.</description><enclosure url="https://es.simeononsecurity.com/img/cover/decoding-network-designs_-types-and-topologies-explained.webp" length="121144" type="image/webp"/></item><item><title>Optimiza tu red: domina la configuración de DNS</title><link>https://es.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><category>
+"Administración de redes"
+, "Ciberseguridad"
+, "Infraestructura de TI"
+, "Soluciones tecnológicas"
+, "Tecnología de Internet"
+, "Optimización de DNS"
+, "Rendimiento de redes"
+, "Seguridad digital"
+, "Conectividad a Internet"
+, "Guías técnicas"</category><guid>https://es.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Mejora tu red con información sobre DNS. Aprende cómo DNS influye en la conectividad, el rendimiento y la seguridad, y optimiza la configuración.</description><enclosure url="https://es.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp"/></item><item><title>Guía de cumplimiento del RGPD para empresas fuera de la UE en 2024</title><link>https://es.simeononsecurity.com/articles/understanding-gdpr_-a-guide-for-non-eu-businesses/</link><pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate><category>
+"Protección de datos"
+, "Ciberseguridad"
+, "Guía de cumplimiento"
+, "Fundamentos del RGPD"
+, "Leyes de privacidad"
+, "Seguridad empresarial"
+, "Normativa internacional sobre datos"
+, "Cumplimiento digital"
+, "Confianza de los clientes de la UE"
+, "Buenas prácticas de seguridad de datos"</category><guid>https://es.simeononsecurity.com/articles/understanding-gdpr_-a-guide-for-non-eu-businesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre cuándo se aplica el RGPD a las empresas fuera de la UE y cómo tratar los datos legalmente, respetar los derechos de las personas, notificar brechas y mantener registros.</description><enclosure url="https://es.simeononsecurity.com/img/cover/understanding-gdpr_-a-guide-for-non-eu-businesses.webp" length="68080" type="image/webp"/></item><item><title>Refuerza la seguridad de tu comercio electrónico</title><link>https://es.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</link><pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate><category>
+"Seguridad del comercio electrónico"
+, "Ciberseguridad"
+, "Protección de datos"
+, "Negocio en línea"
+, "Seguridad de sitios web"
+, "Confianza del cliente"
+, "Transacciones seguras"
+, "Cifrado SSL"
+, "Políticas de contraseñas"
+, "Buenas prácticas de seguridad"</category><guid>https://es.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Protege tu tienda en línea con TLS, MFA para administradores, actualizaciones, controles de pago, cifrado, supervisión, formación del personal, defensas contra el fraude y respuesta a incidentes.</description><enclosure url="https://es.simeononsecurity.com/img/cover/the-2024-checklist-for-securing-your-e-commerce-site.webp" length="88770" type="image/webp"/></item><item><title>Estrategias para proteger a su empresa frente a amenazas internas</title><link>https://es.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</link><pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Seguridad corporativa"
+, "Amenazas internas"
+, "Protección de datos"
+, "Formación de empleados"
+, "Medidas de seguridad"
+, "Respuesta a incidentes"
+, "Análisis del comportamiento"
+, "Supervisión de actividad de usuarios"
+, "Cultura de seguridad"</category><guid>https://es.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Reduzca el riesgo de amenazas internas con controles de acceso, supervisión de actividades, canales de denuncia, pasos de desvinculación y una cultura laboral centrada en la seguridad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/protecting-against-insider-threats_-strategies-for-your-company.webp" length="87882" type="image/webp"/></item><item><title>Firewalls de nueva generación: funciones esenciales para tu empresa</title><link>https://es.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</link><pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Seguridad de redes"
+, "Tecnología de firewalls"
+, "Seguridad empresarial"
+, "Integración en la nube"
+, "Amenazas digitales"
+, "Administración de redes"
+, "Soluciones de seguridad"
+, "Seguridad en línea"
+, "Información tecnológica"</category><guid>https://es.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Elige un firewall de nueva generación según el control de aplicaciones, la prevención de intrusiones, la protección contra amenazas, el soporte en la nube, el rendimiento, la resiliencia y la gestión.</description><enclosure url="https://es.simeononsecurity.com/img/cover/next-gen-firewalls_-features-you-can%27t-ignore-for-your-business.webp" length="128018" type="image/webp"/></item><item><title>Los secretos al descubierto</title><link>https://es.simeononsecurity.com/articles/navigating-the-dark-web-safely_-a-beginners-guide/</link><pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Ciberseguridad"
+, "Privacidad en Internet"
+, "Exploración de la web oscura"
+, "Seguridad en línea"
+, "Anonimato digital"
+, "Seguridad web"
+, "Ética en Internet"
+, "Guía de VPN"
+, "Red Tor"</category><guid>https://es.simeononsecurity.com/articles/navigating-the-dark-web-safely_-a-beginners-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Navega por la web oscura con más seguridad mediante Tor, controles de privacidad, defensas contra estafas y malware, límites legales, protección de identidad y pautas para denunciar actividades.</description><enclosure url="https://es.simeononsecurity.com/img/cover/navigating-the-dark-web-safely_-a-beginners-guide.webp" length="90360" type="image/webp"/></item><item><title>Planificación de respuesta a incidentes: guía paso a paso</title><link>https://es.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Respuesta a incidentes"
+, "Seguridad empresarial"
+, "Amenazas cibernéticas"
+, "Gestión de riesgos"
+, "Planificación de seguridad"
+, "Protección de datos"
+, "Seguridad de TI"
+, "Resiliencia digital"
+, "Gestión de crisis"</category><guid>https://es.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Crea un plan de respuesta a incidentes con funciones, canales de comunicación, procedimientos, herramientas, ejercicios, métricas y un proceso de actualización continua.</description><enclosure url="https://es.simeononsecurity.com/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.webp" length="96088" type="image/webp"/></item><item><title>Protección contra el phishing para pequeñas empresas: guía completa</title><link>https://es.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Protección de pequeñas empresas"
+, "Estafas de phishing"
+, "Capacitación de empleados"
+, "Seguridad del correo electrónico"
+, "Autenticación multifactor"
+, "Auditorías de seguridad"
+, "Tácticas de ingeniería social"
+, "Amenazas digitales"
+, "Seguridad en línea"</category><guid>https://es.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proteja una pequeña empresa contra el phishing mediante capacitación del personal, controles de correo electrónico, procedimientos de verificación, pasos para denunciar incidentes y una respuesta a incidentes probada.</description><enclosure url="https://es.simeononsecurity.com/img/cover/how-to-protect-your-small-business-from-phishing-scams.webp" length="88634" type="image/webp"/></item><item><title>Guía de seguridad SSL/TLS: protege los datos de tu sitio web</title><link>https://es.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Tecnología"
+, "Seguridad web"
+, "Cifrado de datos"
+, "Protocolos de Internet"
+, "Privacidad digital"
+, "Seguridad en línea"
+, "Implementación de SSL/TLS"
+, "Amenazas cibernéticas"
+, "Futuro de la ciberseguridad"</category><guid>https://es.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende cómo SSL/TLS protege tu sitio web con cifrado sólido. Conoce sus vulnerabilidades, las prácticas recomendadas y el futuro de la ciberseguridad. Refuerza hoy la seguridad de tu sitio.</description><enclosure url="https://es.simeononsecurity.com/img/cover/TLS_%20Securing%20Your%20Website%20Data.webp" length="171950" type="image/webp"/></item><item><title>Automatización de la seguridad: guía para reforzar las defensas digitales</title><link>https://es.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><category>
+"Automatización de la seguridad"
+, "Ciberseguridad"
+, "Aprendizaje automático en seguridad"
+, "Supervisión automatizada del cumplimiento"
+, "Orquestación de seguridad"
+, "Respuesta a incidentes"
+, "Mejora continua"
+, "Supervisión humana de la seguridad"
+, "Detección y respuesta ante amenazas"
+, "Buenas prácticas de seguridad"</category><guid>https://es.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planifica la automatización de la seguridad con casos de uso claros, integración de herramientas, revisión humana, ajuste de alertas, métricas y controles para sistemas de aprendizaje automático.</description><enclosure url="https://es.simeononsecurity.com/img/cover/mastering-security-automation_-streamlining-processes-for-enhanced-protection.webp" length="253188" type="image/webp"/></item></channel></rss>

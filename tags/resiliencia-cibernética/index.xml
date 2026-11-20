@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resiliencia Cibernética on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Resiliencia Cibernética on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/resiliencia-cibern%C3%A9tica/</link></image><link>https://es.simeononsecurity.com/tags/resiliencia-cibern%C3%A9tica/</link><description>Recent content in Resiliencia Cibernética on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sat, 06 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/resiliencia-cibern%C3%A9tica/index.xml" rel="self" type="application/rss+xml"/><item><title>Dominio de la automatización de seguridad: estrategias y herramientas</title><link>https://es.simeononsecurity.com/articles/deep-dive-into-security-automation_-strategies-and-implementation/</link><pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate><category>
+"Automatización de seguridad"
+, "Estrategias de ciberseguridad"
+, "Marcos de automatización"
+, "Aprendizaje automático en seguridad"
+, "Respuesta a incidentes"
+, "Mejora continua"
+, "Herramientas de código abierto frente a comerciales"
+, "Resiliencia cibernética"
+, "Amenazas digitales"
+, "Métricas de seguridad"</category><guid>https://es.simeononsecurity.com/articles/deep-dive-into-security-automation_-strategies-and-implementation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía de estrategias, herramientas, métricas, límites de implementación y flujos de trabajo con asistencia de IA para la automatización de seguridad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/deep-dive-into-security-automation_-strategies-and-implementation.webp" length="257448" type="image/webp"/></item><item><title>Para partirse de risa: chistes divertidos sobre ciberseguridad</title><link>https://es.simeononsecurity.com/articles/cybersecurity-jokes-humor-insights/</link><pubDate>Fri, 22 Dec 2023 00:00:00 +0000</pubDate><category>
+"Humor sobre ciberseguridad"
+, "Comedia sobre seguridad de la información"
+, "Chistes tecnológicos"
+, "Seguridad en línea"
+, "Defensa digital"</category><guid>https://es.simeononsecurity.com/articles/cybersecurity-jokes-humor-insights/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre humor ligero e ideas útiles en el mundo de los chistes sobre ciberseguridad. ¡Chistes de ciberseguridad al alcance de todos!</description><enclosure url="https://es.simeononsecurity.com/img/cover/cybersecurity-jokes-cartoon-hacker.webp" length="72728" type="image/webp"/></item><item><title>Proteger Windows y Linux</title><link>https://es.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Lenguajes de scripting"
+, "Seguridad de sistemas"
+, "Windows"
+, "Linux"
+, "Normativas gubernamentales"
+, "Amenazas cibernéticas"
+, "Scripting seguro"
+, "Cumplimiento"
+, "Programación"</category><guid>https://es.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre cómo reforzar la seguridad de los sistemas con PowerShell y Python en este análisis completo de ciberseguridad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp"/></item><item><title>FISMA: refuerzo de la ciberseguridad federal para proteger los datos</title><link>https://es.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</link><pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Normativa gubernamental"
+, "Aseguramiento de la información"
+, "Protección de datos"
+, "Agencias federales"
+, "Gestión de riesgos"
+, "Estándares de seguridad"
+, "Supervisión continua"
+, "Amenazas cibernéticas"
+, "Gobernanza digital"</category><guid>https://es.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra cómo FISMA refuerza la ciberseguridad federal. Conozca sus características, proceso e impacto en la protección de datos.</description><enclosure url="https://es.simeononsecurity.com/img/cover/secure-shield-fisma.webp" length="118222" type="image/webp"/></item><item><title>Proteja su organización: ventajas del software de gestión de incidentes</title><link>https://es.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Gestión de incidentes"
+, "Protección de datos"
+, "Seguridad digital"
+, "Mitigación de amenazas"
+, "Soluciones tecnológicas"
+, "Ciberdefensa"
+, "Seguridad de la información"
+, "Continuidad del negocio"
+, "Gestión de riesgos"</category><guid>https://es.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra cómo el software de gestión de incidentes de seguridad mejora la respuesta, el seguimiento y el cumplimiento para proteger sus activos digitales.</description><enclosure url="https://es.simeononsecurity.com/img/cover/benefits-of-security-incident-management-software.webp" length="227836" type="image/webp"/></item><item><title>Cómo crear un SOC resiliente</title><link>https://es.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Tecnología"
+, "Negocios"
+, "Protección de datos"
+, "Respuesta a incidentes"
+, "Gestión de TI"
+, "Seguridad de redes"
+, "Detección de amenazas"
+, "Seguridad de la información"
+, "Gestión de riesgos"</category><guid>https://es.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Establece un Centro de Operaciones de Seguridad (SOC) sólido para defenderte de las ciberamenazas, detectar incidentes y proteger los activos de tu organización.</description><enclosure url="https://es.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>Refuerza tu defensa: conoce las soluciones de ciberseguridad EDR</title><link>https://es.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Tecnología"
+, "Detección de amenazas"
+, "Seguridad de endpoints"
+, "Respuesta a incidentes"
+, "Protección de datos"
+, "Seguridad de redes"
+, "Defensa digital"
+, "Seguridad informática"
+, "Resiliencia cibernética"</category><guid>https://es.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conoce cómo las soluciones EDR protegen los endpoints, detectan amenazas y ayudan a las organizaciones a elegir una solución adecuada.</description><enclosure url="https://es.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp"/></item><item><title>Cómo protegerse del ransomware</title><link>https://es.simeononsecurity.com/articles/ransomware-protection-strategies/</link><pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Tecnología"
+, "Amenazas digitales"
+, "Seguridad de datos"
+, "Seguridad en línea"
+, "Ciberdelincuencia"
+, "Seguridad informática"
+, "Software malicioso"
+, "Seguridad en Internet"
+, "Protección de datos"</category><guid>https://es.simeononsecurity.com/articles/ransomware-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda cómo funciona el ransomware, qué consecuencias tiene y qué medidas preventivas refuerzan su ciberseguridad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/ransomware-protection-shield.webp" length="62160" type="image/webp"/></item><item><title>Domina la ciberseguridad: guía para un mundo digital más seguro</title><link>https://es.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Ciberseguridad"
+, "Seguridad digital"
+, "Seguridad en línea"
+, "Protección de la información"
+, "Privacidad de datos"
+, "Amenazas digitales"
+, "Consejos de seguridad en línea"
+, "Ciberdefensa"
+, "Informática segura"</category><guid>https://es.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conoce prácticas esenciales de ciberseguridad para proteger tu vida digital y tus activos. Aprende sobre las amenazas y mantente seguro en línea.</description><enclosure url="https://es.simeononsecurity.com/img/cover/Cybersecurity-Shield-Protection.webp" length="114598" type="image/webp"/></item></channel></rss>

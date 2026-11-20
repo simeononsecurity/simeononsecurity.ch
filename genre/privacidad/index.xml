@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privacidad on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Privacidad on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/privacidad/</link></image><link>https://es.simeononsecurity.com/genre/privacidad/</link><description>Recent content in Privacidad on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/privacidad/index.xml" rel="self" type="application/rss+xml"/><item><title>Hindsight autohospedado: memoria local para agentes y enrutamiento privado de modelos</title><link>https://es.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autohospedada"
+, "Agentes de IA"
+, "Infraestructura de IA"
+, "Privacidad"</category><guid>https://es.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Caso de estudio de Hindsight autohospedado, rutas locales de Qwen observadas y trabajo de GPU por solicitud sin una suscripción a modelos alojados en las rutas inspeccionadas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Cómo comprobar fugas de DNS y WebRTC en el navegador con una VPN</title><link>https://es.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Privacidad"
+, "Navegadores"
+, "Redes"</category><guid>https://es.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprueba la IP pública, el resolvedor DNS y las direcciones WebRTC del navegador antes y después de conectar una VPN. Interpreta los resultados e investiga problemas de enrutamiento.</description><enclosure url="https://es.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>Por qué se omite el filtrado DNS: comprueba la ruta del resolver</title><link>https://es.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Redes domésticas"
+, "DNS"
+, "Privacidad"</category><guid>https://es.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Averigua por qué un dispositivo o navegador omite tu filtro DNS. Compara consultas directas y normales, revisa los registros y comprueba DNS cifrado, VPN, IPv6 y ajustes del router.</description><enclosure url="https://es.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>Privacidad de la IA local: qué permanece en su ordenador y qué no</title><link>https://es.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Privacidad"
+, "IA autoalojada"
+, "Ciberseguridad"
+, "Economía de la IA"</category><guid>https://es.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Trace prompts, archivos de modelos, herramientas, registros, exposición de red y costes de energía antes de elegir inferencia local o un servicio de IA alojado.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Lista de seguridad personal 2026: por dónde empezar y qué omitir</title><link>https://es.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><category>
+"Seguridad personal"
+, "Privacidad"
+, "Higiene digital"
+, "Seguridad de cuentas"
+, "Modelado de amenazas"
+, "Seguridad del consumidor"
+, "Gestión de contraseñas"
+, "Protección de datos"</category><guid>https://es.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prioriza las medidas de seguridad personal según su impacto en los ataques, desde la protección de cuentas y copias de seguridad hasta la privacidad y recuperación.</description><enclosure url="https://es.simeononsecurity.com/img/cover/personal-security-checklist-2026-tiered-structure.webp" length="98938" type="image/webp"/></item><item><title>Claude Cowork y Claude Code con modelos locales: guía de configuración 2026</title><link>https://es.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Herramientas de programación con IA"
+, "IA autohospedada"
+, "Herramientas para desarrolladores"
+, "Privacidad"
+, "Modelos de código abierto"
+, "Automatización"
+, "Hardware para IA"</category><guid>https://es.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Configura Ollama con Claude Desktop y Claude Code mediante una API compatible con Anthropic. Revisa los modelos y las funciones exclusivas de la nube en 2026.</description><enclosure url="https://es.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>IA local en 2026: un modelo 27B supera a Sonnet 4.6 mientras se cierra la ventana para comprar equipos</title><link>https://es.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autoalojada"
+, "Modelos de pesos abiertos"
+, "Equipos para IA"
+, "Aprendizaje automático"
+, "Cuantización"
+, "Laboratorio doméstico"
+, "Privacidad"
+, "Economía de la IA"
+, "Equipos de consumo"</category><guid>https://es.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planifica un equipo de IA local para 2026 según el tamaño del modelo, la VRAM, el ancho de banda de memoria, el consumo, el coste y las opciones de ampliación.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Crear un asistente de IA que proteja la privacidad para Meshtastic</title><link>https://es.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Seguridad de redes"
+, "Privacidad"
+, "Código abierto"
+, "Automatización"</category><guid>https://es.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Experiencia práctica al crear un asistente de IA local para Meshtastic, con configuración privada, acceso TCP en cola, herramientas de recuperación y un panel más seguro.</description><enclosure url="https://es.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Sandboxed Google Play en GrapheneOS, explicado</title><link>https://es.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Privacidad"
+, "Seguridad móvil"
+, "Código abierto"</category><guid>https://es.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra qué cambia Sandboxed Google Play en GrapheneOS, cuándo conviene usar un perfil separado y cómo se relacionan las cuentas, las notificaciones y la compatibilidad de las aplicaciones.</description><enclosure url="https://es.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp"/></item><item><title>Meshtastic vs. MeshCore vs. Reticulum</title><link>https://es.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "Redes malladas"
+, "Comunicaciones sin conexión"
+, "Comunicaciones de emergencia"
+, "Radioafición"
+, "Código abierto"
+, "Preparación ante desastres"
+, "Redes inalámbricas"
+, "Privacidad"
+, "Redes"</category><guid>https://es.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Meshtastic, MeshCore y Reticulum según el enrutamiento, el tiempo de transmisión, la infraestructura, el transporte y los usos sin conexión a internet.</description><enclosure url="https://es.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Cámaras Flock: ¿Herramienta de Seguridad Pública o Máquina de Vigilancia sin Orden Judicial?</title><link>https://es.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"Privacidad"
+, "Vigilancia"
+, "Libertades Civiles"
+, "Tecnología para la Aplicación de la Ley"
+, "Derechos Digitales"</category><guid>https://es.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Un análisis independiente de las cámaras ALPR de Flock Safety: cómo funcionan realmente, qué datos recopilan más allá de las matrículas, cómo el intercambio de datos crea una base de datos nacional en la sombra, y por qué la cuestión de la orden judicial es el problema real.</description><enclosure url="https://es.simeononsecurity.com/img/cover/flock-safety-cameras-public-safety-surveillance.webp" length="257030" type="image/webp"/></item><item><title>MeshCore frente a Meshtastic</title><link>https://es.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "Redes malladas"
+, "Comunicaciones sin conexión"
+, "Comunicaciones de emergencia"
+, "Comunicaciones tácticas"
+, "Radioafición"
+, "Código abierto"
+, "Preparación ante desastres"
+, "Redes inalámbricas"
+, "Privacidad"</category><guid>https://es.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara MeshCore y Meshtastic según el enrutamiento, alcance, tiempo de transmisión, infraestructura, compatibilidad de dispositivos y tipo de despliegue.</description><enclosure url="https://es.simeononsecurity.com/img/cover/meshcore-vs-meshtastic-comparison-guide.webp" length="173676" type="image/webp"/></item><item><title>Desmitificando la jerga de ciberseguridad</title><link>https://es.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</link><pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Tecnología"
+, "Seguridad digital"
+, "Amenazas en línea"
+, "Seguridad en Internet"
+, "Protección de datos"
+, "Privacidad"
+, "Defensa en línea"
+, "Seguridad informática"
+, "Amenazas cibernéticas"</category><guid>https://es.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía clara de términos de ciberseguridad, amenazas, tecnologías y normas de privacidad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/cybersecurity-jargon-illustration.webp" length="150724" type="image/webp"/></item><item><title>Mullvad frente a ProtonVPN: ¿qué VPN elegir?</title><link>https://es.simeononsecurity.com/articles/mullvad-vs-protonvpn/</link><pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Seguridad"
+, "Privacidad"
+, "Comparativa de VPN"
+, "Anonimato en línea"
+, "Seguridad digital"
+, "Seguridad de Internet"
+, "Ciberseguridad"
+, "Protección de datos"
+, "Servicios VPN"</category><guid>https://es.simeononsecurity.com/articles/mullvad-vs-protonvpn/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Mullvad VPN y ProtonVPN en seguridad, privacidad, rendimiento y facilidad de uso para elegir el servicio adecuado.</description><enclosure url="https://es.simeononsecurity.com/img/cover/mullvad-protonvpn-security-race.webp" length="148320" type="image/webp"/></item><item><title>Protección de los grupos vulnerables</title><link>https://es.simeononsecurity.com/articles/securing-vulnerable-groups-cyber-threats-protection-strategies/</link><pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Privacidad"
+, "Seguridad digital"
+, "Amenazas en línea"
+, "Protección de datos"
+, "Tecnología"
+, "Derechos digitales"
+, "Seguridad de la información"
+, "Ciberespionaje"
+, "Privacidad en línea"</category><guid>https://es.simeononsecurity.com/articles/securing-vulnerable-groups-cyber-threats-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre cómo los ciberataques de potencias extranjeras afectan a los grupos vulnerables y qué estrategias eficaces ayudan a protegerlos.</description><enclosure url="https://es.simeononsecurity.com/img/cover/securing_vulnerable_groups_cyber_threats.webp" length="98410" type="image/webp"/></item><item><title>LibreWolf vs Firefox</title><link>https://es.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Privacidad"
+, "Navegadores Web"
+, "Seguridad en Línea"
+, "Código Abierto"
+, "Privacidad Digital"
+, "Software"
+, "Comparación"
+, "Ciberseguridad"
+, "Privacidad en Internet"</category><guid>https://es.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explora las características de LibreWolf y Firefox, dos navegadores enfocados en la privacidad, para tomar una decisión informada que mejore la seguridad y privacidad en línea.</description><enclosure url="https://es.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp"/></item><item><title>Seguridad biométrica para el control de acceso</title><link>https://es.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</link><pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Seguridad"
+, "Biometría"
+, "Control de acceso"
+, "Lectores de huellas"
+, "Reconocimiento facial"
+, "Productos de Amazon"
+, "Seguridad digital"
+, "Innovación"
+, "Privacidad"</category><guid>https://es.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre la seguridad biométrica avanzada con lectores de huellas y dispositivos de reconocimiento facial disponibles en Amazon, para un control de acceso eficaz y mayor tranquilidad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/biometric-access-control-fingerprint-facial-recognition-devices-amazon.webp" length="183044" type="image/webp"/></item><item><title>Centros domésticos inteligentes seguros</title><link>https://es.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</link><pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Seguridad del hogar"
+, "Hogar inteligente"
+, "Automatización del hogar"
+, "Privacidad"
+, "Internet de las cosas"
+, "Seguridad digital"
+, "Dispositivos conectados"
+, "Mejoras del hogar"
+, "Electrónica de consumo"</category><guid>https://es.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre centros domésticos inteligentes seguros para disfrutar de una automatización cómoda y protegida.</description><enclosure url="https://es.simeononsecurity.com/img/cover/secure-smart-home-hubs.webp" length="49576" type="image/webp"/></item><item><title>Guía definitiva de seguridad móvil</title><link>https://es.simeononsecurity.com/articles/ultimate-guide-mobile-security-laptop-privacy-webcam-covers/</link><pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Ciberseguridad"
+, "Privacidad"
+, "Trabajo remoto"
+, "Computación móvil"
+, "Seguridad digital"
+, "Productividad"
+, "Privacidad en línea"
+, "Protección de datos"
+, "Accesorios tecnológicos"</category><guid>https://es.simeononsecurity.com/articles/ultimate-guide-mobile-security-laptop-privacy-webcam-covers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Protege el trabajo móvil con filtros de privacidad para portátiles, cubiertas para cámaras web y dispositivos de cifrado portátiles. Mantente seguro y productivo.</description><enclosure url="https://es.simeononsecurity.com/img/cover/mobile-security-illustration.webp" length="57304" type="image/webp"/></item><item><title>Mejora la privacidad de tus datos</title><link>https://es.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</link><pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Seguridad de datos"
+, "Privacidad"
+, "Ciberseguridad"
+, "Protección digital"
+, "Accesorios tecnológicos"
+, "Cifrado de datos"
+, "Seguridad en línea"
+, "Dispositivos listos para usar"
+, "Privacidad digital"</category><guid>https://es.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre bloqueadores USB de hardware y unidades cifradas en Amazon para reforzar la seguridad de tus datos.</description><enclosure url="https://es.simeononsecurity.com/img/cover/usb-data-lock-vault.webp" length="94076" type="image/webp"/></item><item><title>Servicio de correo electrónico seguro: Mejora de la privacidad con StartMail</title><link>https://es.simeononsecurity.com/articles/secure-email-service-startmail/</link><pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Privacidad"
+, "Servicios de correo electrónico"
+, "Seguridad en línea"
+, "Privacidad digital"
+, "Cifrado"
+, "Protección de datos"
+, "Privacidad del correo electrónico"
+, "Protección de la identidad"
+, "Privacidad en línea"</category><guid>https://es.simeononsecurity.com/articles/secure-email-service-startmail/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra StartMail, un servicio de correo electrónico seguro con cifrado avanzado y enmascaramiento del correo electrónico, que garantiza la máxima privacidad y protección frente a las ciberamenazas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/secure_email_guard.webp" length="45872" type="image/webp"/></item><item><title>NextDNS vs. AdGuard: ¿qué bloqueador DNS gana?</title><link>https://es.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Ciberseguridad"
+, "Bloqueo de anuncios"
+, "DNS"
+, "Privacidad"
+, "Seguridad en Internet"
+, "Protección en línea"
+, "Seguridad digital"
+, "Soluciones de navegación"
+, "Privacidad en línea"</category><guid>https://es.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara NextDNS y AdGuard, dos bloqueadores de anuncios basados en DNS, y descubre cuál se adapta mejor a tu navegación.</description><enclosure url="https://es.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp"/></item><item><title>Mejores navegadores de privacidad 2026: LibreWolf vs Brave vs Firefox vs Tor – Comparación completa</title><link>https://es.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"Navegadores"
+, "Privacidad"
+, "Seguridad"
+, "Internet"
+, "Tecnología"
+, "Privacidad digital"
+, "Seguridad en línea"
+, "Código abierto"
+, "Anonimato"
+, "Navegación web"</category><guid>https://es.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparación completa 2026 de los mejores navegadores centrados en la privacidad: LibreWolf, Brave, Firefox, Tor y más. Pruebas detalladas de privacidad, benchmarks de rendimiento y análisis de seguridad para proteger sus datos en línea.</description><enclosure url="https://es.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp"/></item><item><title>Comprender los troyanos de acceso remoto: Riesgos, prevención y protección</title><link>https://es.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Software malicioso"
+, "Seguridad informática"
+, "Amenazas digitales"
+, "Troyanos de acceso remoto"
+, "Protección de datos"
+, "Privacidad"
+, "Ciberdelincuencia"
+, "Seguridad de las redes"
+, "Seguridad de la información"</category><guid>https://es.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra los riesgos que plantean los troyanos de acceso remoto (RAT) y aprenda medidas eficaces de prevención y protección para salvaguardar sus sistemas informáticos y sus datos.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.webp" length="140888" type="image/webp"/></item><item><title>Autenticación biométrica: casos de uso y seguridad</title><link>https://es.simeononsecurity.com/articles/biometric-authentication-use-cases-and-security-considerations/</link><pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Ciberseguridad"
+, "Biometría"
+, "Autenticación"
+, "Seguridad digital"
+, "Verificación de identidad"
+, "Protección de datos"
+, "Privacidad"
+, "Tendencias emergentes"
+, "Experiencia de usuario"</category><guid>https://es.simeononsecurity.com/articles/biometric-authentication-use-cases-and-security-considerations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Revisa los casos de uso y las consideraciones de seguridad de la autenticación biométrica para proteger datos sensibles.</description><enclosure url="https://es.simeononsecurity.com/img/cover/biometric-authentication-use-cases-and-security-considerations.webp" length="228916" type="image/webp"/></item></channel></rss>

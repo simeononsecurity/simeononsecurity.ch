@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Computación en La Nube on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Computación en La Nube on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/computaci%C3%B3n-en-la-nube/</link></image><link>https://es.simeononsecurity.com/genre/computaci%C3%B3n-en-la-nube/</link><description>Recent content in Computación en La Nube on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/computaci%C3%B3n-en-la-nube/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansible vs Puppet vs Chef 2026: gestión de configuración</title><link>https://es.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "Automatización de infraestructura"
+, "Gestión de configuración"
+, "Operaciones de TI"
+, "Computación en la nube"
+, "Administración de sistemas"
+, "TI empresarial"
+, "Desarrollo de software"
+, "Infraestructura de TI"
+, "Herramientas de automatización"</category><guid>https://es.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparativa de Ansible, Puppet y Chef en 2026 sobre arquitectura, funciones, curva de aprendizaje, rendimiento, precios y casos de uso.</description><enclosure url="https://es.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>Descubre la virtualización: más eficiencia y escalabilidad de TI</title><link>https://es.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</link><pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate><category>
+"Guía de virtualización"
+, "Infraestructura de TI"
+, "Innovación tecnológica"
+, "Computación en la nube"
+, "Gestión de centros de datos"
+, "Eficiencia informática"
+, "Soluciones de red"
+, "Ciberseguridad"
+, "Evolución del software"
+, "Optimización del hardware"</category><guid>https://es.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Domina la virtualización para mejorar el rendimiento de TI. Conoce sus tipos, ventajas y prácticas recomendadas para gestionar infraestructuras.</description><enclosure url="https://es.simeononsecurity.com/img/cover/understanding-virtualization_-concepts-and-applications.webp" length="103918" type="image/webp"/></item><item><title>Las mejores soluciones de almacenamiento de datos: HDD, SSD y nube</title><link>https://es.simeononsecurity.com/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</link><pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate><category>
+"Almacenamiento de datos"
+, "Tecnología"
+, "Soluciones digitales"
+, "Guías de HDD"
+, "Información sobre SSD"
+, "Computación en la nube"
+, "Gestión de TI"
+, "Análisis de hardware"
+, "Consejos de software"
+, "Informática personal"</category><guid>https://es.simeononsecurity.com/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre cómo elegir entre HDD, SSD y almacenamiento en la nube. ¿Cuál es la opción adecuada para ti?</description><enclosure url="https://es.simeononsecurity.com/img/cover/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options.webp" length="118244" type="image/webp"/></item><item><title>VMware vs Hyper-V vs Proxmox: Virtualización Comparada</title><link>https://es.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link><pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Virtualización"
+, "Infraestructura TI"
+, "Virtualización de Servidores"
+, "Software Empresarial"
+, "Computación en la Nube"
+, "Soluciones para Centros de Datos"
+, "Virtualización de Código Abierto"
+, "Gestión de Máquinas Virtuales"
+, "Comparación de Virtualización"</category><guid>https://es.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra la comparación sencilla de VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE y XCP-NG y elija su solución de virtualización ideal para el éxito empresarial.</description><enclosure url="https://es.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp"/></item><item><title>FedRAMP: seguridad en la nube para el gobierno</title><link>https://es.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</link><pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Ciberseguridad"
+, "Gobierno"
+, "Servicios en la nube"
+, "Cumplimiento"
+, "Normativa federal"
+, "Seguridad de la información"
+, "Gestión de riesgos"
+, "Computación en la nube"
+, "Protección de datos"</category><guid>https://es.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+FedRAMP refuerza la seguridad de las soluciones en la nube usadas por el gobierno de EE. UU.</description><enclosure url="https://es.simeononsecurity.com/img/cover/Secure-Cloud-Government-Shield.webp" length="63200" type="image/webp"/></item><item><title>Desarrolla tu potencial con Azure for Students</title><link>https://es.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Computación en la nube"
+, "Recursos para estudiantes"
+, "Desarrollo de software"
+, "Microsoft Azure"
+, "Windows Server"
+, "Windows 10"
+, "Windows 11"
+, "Visual Studio"
+, "Herramientas de aprendizaje"</category><guid>https://es.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conoce Microsoft Azure for Students, incluidos los requisitos, el software incluido, los límites de la cuenta y los pasos prácticos para empezar.</description><enclosure url="https://es.simeononsecurity.com/img/cover/azure_for_students_animated_cloud.webp" length="73614" type="image/webp"/></item><item><title>Domina PowerCLI para administrar vSphere</title><link>https://es.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Virtualización"
+, "VMware"
+, "Gestión de TI"
+, "Automatización"
+, "Interfaz de línea de comandos"
+, "Programación de scripts"
+, "Administración de sistemas"
+, "Computación en la nube"
+, "Gestión de centros de datos"</category><guid>https://es.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende a usar PowerCLI para administrar VMware vSphere, automatizar tareas y mejorar la productividad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>Certificaciones Oracle gratuitas para ciberseguridad y TI</title><link>https://es.simeononsecurity.com/articles/free-oracle-certifications-cybersecurity-it-professionals/</link><pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Certificaciones de TI"
+, "Desarrollo profesional"
+, "Certificaciones Oracle"
+, "Computación en la nube"
+, "Gestión de datos"
+, "Progreso profesional"
+, "Aprendizaje en línea"
+, "Educación tecnológica"</category><guid>https://es.simeononsecurity.com/articles/free-oracle-certifications-cybersecurity-it-professionals/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Revisa certificaciones Oracle gratuitas para puestos de ciberseguridad y TI, con temas de OCI, requisitos previos y opciones profesionales.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_animated_image_featuring_a_professional_cyb.webp" length="87826" type="image/webp"/></item></channel></rss>

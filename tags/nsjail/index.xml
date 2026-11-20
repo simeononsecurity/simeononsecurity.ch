@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nsjail on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Nsjail on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/nsjail/</link></image><link>https://es.simeononsecurity.com/tags/nsjail/</link><description>Recent content in Nsjail on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/nsjail/index.xml" rel="self" type="application/rss+xml"/><item><title>En 2026, los contenedores dejaron de ser una frontera de seguridad</title><link>https://es.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"Seguridad de contenedores"
+, "Linux"
+, "Seguridad del kernel"
+, "Virtualización"
+, "Seguridad en la nube"
+, "Investigación de amenazas"
+, "Equipo azul"
+, "DevSecOps"</category><guid>https://es.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Las vulnerabilidades del kernel de 2026 muestran por qué el aislamiento de contenedores multiinquilino no basta. Conoce Copy Fail, Dirty Frag, Fragnesia y CVE-2026-80521, y compara los contenedores reforzados con el límite de una microVM.</description><enclosure url="https://es.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item></channel></rss>

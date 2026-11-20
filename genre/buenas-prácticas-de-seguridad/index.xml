@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Buenas Prácticas De Seguridad on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Buenas Prácticas De Seguridad on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/buenas-pr%C3%A1cticas-de-seguridad/</link></image><link>https://es.simeononsecurity.com/genre/buenas-pr%C3%A1cticas-de-seguridad/</link><description>Recent content in Buenas Prácticas De Seguridad on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/buenas-pr%C3%A1cticas-de-seguridad/index.xml" rel="self" type="application/rss+xml"/><item><title>Refuerza la seguridad de tu comercio electrónico</title><link>https://es.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</link><pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate><category>
+"Seguridad del comercio electrónico"
+, "Ciberseguridad"
+, "Protección de datos"
+, "Negocio en línea"
+, "Seguridad de sitios web"
+, "Confianza del cliente"
+, "Transacciones seguras"
+, "Cifrado SSL"
+, "Políticas de contraseñas"
+, "Buenas prácticas de seguridad"</category><guid>https://es.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Protege tu tienda en línea con TLS, MFA para administradores, actualizaciones, controles de pago, cifrado, supervisión, formación del personal, defensas contra el fraude y respuesta a incidentes.</description><enclosure url="https://es.simeononsecurity.com/img/cover/the-2024-checklist-for-securing-your-e-commerce-site.webp" length="88770" type="image/webp"/></item><item><title>Automatización de la seguridad: guía para reforzar las defensas digitales</title><link>https://es.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><category>
+"Automatización de la seguridad"
+, "Ciberseguridad"
+, "Aprendizaje automático en seguridad"
+, "Supervisión automatizada del cumplimiento"
+, "Orquestación de seguridad"
+, "Respuesta a incidentes"
+, "Mejora continua"
+, "Supervisión humana de la seguridad"
+, "Detección y respuesta ante amenazas"
+, "Buenas prácticas de seguridad"</category><guid>https://es.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planifica la automatización de la seguridad con casos de uso claros, integración de herramientas, revisión humana, ajuste de alertas, métricas y controles para sistemas de aprendizaje automático.</description><enclosure url="https://es.simeononsecurity.com/img/cover/mastering-security-automation_-streamlining-processes-for-enhanced-protection.webp" length="253188" type="image/webp"/></item><item><title>Mejora de la ciberseguridad</title><link>https://es.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Directiva de grupo de Windows"
+, "Reducción de la superficie de ataque"
+, "Seguridad informática"
+, "Protección de redes"
+, "Protección de datos"
+, "Resiliencia digital"
+, "Refuerzo de sistemas"
+, "Buenas prácticas de seguridad"
+, "Mitigación de riesgos"</category><guid>https://es.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende cómo la directiva de grupo de Windows reduce la superficie de ataque y refuerza la protección.</description><enclosure url="https://es.simeononsecurity.com/img/cover/Cybersecurity_Shield_Defense.webp" length="129592" type="image/webp"/></item><item><title>Dominar el principio de mínimo privilegio</title><link>https://es.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Seguridad de Linux"
+, "Control de acceso"
+, "Seguridad informática"
+, "Seguridad de redes"
+, "Protección de la información"
+, "Privacidad de datos"
+, "Amenazas cibernéticas"
+, "Gestión de riesgos"
+, "Buenas prácticas de seguridad"</category><guid>https://es.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Refuerza la ciberseguridad con controles de acceso basados en el mínimo privilegio en Linux. Aprende a implementarlos, aplicar buenas prácticas y resolver problemas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>Hoy he aprendido más sobre la creación y aplicación de políticas del WDAC</title><link>https://es.simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Seguridad de Windows"
+, "Control de aplicaciones"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Protección frente a amenazas"
+, "Windows Server 2019"
+, "Seguridad de las empresas"
+, "Gestión de políticas"
+, "Buenas prácticas de seguridad"</category><guid>https://es.simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hoy he aprendido más sobre los condicionales de Ansible y la gestión de variables</description></item></channel></rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Inferencia Local on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Inferencia Local on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/inferencia-local/</link></image><link>https://es.simeononsecurity.com/tags/inferencia-local/</link><description>Recent content in Inferencia Local on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/inferencia-local/index.xml" rel="self" type="application/rss+xml"/><item><title>2x RTX 5060 Ti frente a GB10: benchmark local de IA con cinco modelos y contexto 256K</title><link>https://es.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligencia artificial"
+, "IA local"
+, "Hardware GPU"
+, "Benchmarking"
+, "Hardware informático"</category><guid>https://es.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparación de RTX 5060 Ti y GB10 con cinco modelos, más un benchmark de Qwen3.8 Flash-Next en Strata en el mismo host hasta 256K de contexto.</description><enclosure url="https://es.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Privacidad de la IA local: qué permanece en su ordenador y qué no</title><link>https://es.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Privacidad"
+, "IA autoalojada"
+, "Ciberseguridad"
+, "Economía de la IA"</category><guid>https://es.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Trace prompts, archivos de modelos, herramientas, registros, exposición de red y costes de energía antes de elegir inferencia local o un servicio de IA alojado.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>IA local frente a ChatGPT: ¿Qué tan cerca estamos?</title><link>https://es.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Inteligencia artificial"
+, "Hardware de IA"
+, "Herramientas para desarrolladores"</category><guid>https://es.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara la IA local con ChatGPT y Claude mediante puntuaciones de referencia, estimaciones de memoria, velocidad de servicio y verificación de agentes. Incluye escenarios con RTX 5090, DGX Spark y Mac Studio.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Programación de IA local en una GPU de 16 GB: Strata, OpenCode y Qwen3.8</title><link>https://es.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Herramientas para desarrolladores"
+, "IA autoalojada"
+, "Hardware de IA"</category><guid>https://es.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ejecuta un agente de programación local con Strata y OpenCode. Examina los resultados publicados de la RTX 4060 Ti, los requisitos de RAM, la reutilización de prompts, los presupuestos de razonamiento y los límites de sustituir una suscripción de pago.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>IA local en 2026: un modelo 27B supera a Sonnet 4.6 mientras se cierra la ventana para comprar equipos</title><link>https://es.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autoalojada"
+, "Modelos de pesos abiertos"
+, "Equipos para IA"
+, "Aprendizaje automático"
+, "Cuantización"
+, "Laboratorio doméstico"
+, "Privacidad"
+, "Economía de la IA"
+, "Equipos de consumo"</category><guid>https://es.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planifica un equipo de IA local para 2026 según el tamaño del modelo, la VRAM, el ancho de banda de memoria, el consumo, el coste y las opciones de ampliación.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
