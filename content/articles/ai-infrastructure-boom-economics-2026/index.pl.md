@@ -1,7 +1,7 @@
 ---
 title: "Boom infrastruktury AI w 2026 roku: popyt, dług, energia i dowody"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Sprawdzona pod względem faktów analiza wydatków na infrastrukturę AI, zużycia energii przez centra danych, finansowania, wartości przedsiębiorstw oraz dowodów potrzebnych przed nazwaniem rynku bańką."
@@ -24,9 +24,9 @@ Artykuł sprawdza publiczne dowody stojące za debatą o bańce AI. Prognozy są
 
 **Cykl kapitałowy nie jest wyobrażeniem.** Stanford AI Index 2026 podaje **581,69 mld USD** globalnych korporacyjnych inwestycji w AI w 2025 roku. Inwestycje prywatne osiągnęły **344,66 mld USD**, a fuzje i przejęcia **214,44 mld USD**. Ten sam raport podaje **285,88 mld USD** prywatnych inwestycji AI w Stanach Zjednoczonych.
 
-Te liczby opisują aktywność inwestycyjną. Nie mierzą przyszłego zysku. Łączą infrastrukturę, startupy, przejęcia i inne działania firm. Duża suma inwestycji dowodzi alokacji kapitału. Nie dowodzi dobrej alokacji. ([Stanford AI Index 2026, rozdział gospodarczy](https://hai.stanford.edu/ai-index/2026-ai-index-report/economy))
+Te liczby opisują aktywność inwestycyjną. Nie mierzą przyszłego zysku. Łączą infrastrukturę, startupy, przejęcia i inne działania firm. Duża suma inwestycji dowodzi alokacji kapitału. Nie dowodzi dobrej alokacji. ([Stanford AI Index 2026, rozdział ekonomiczny](https://hai.stanford.edu/ai-index/2026-ai-index-report/economy))
 
-Przychody dostawców potwierdzają silny popyt na obliczenia akcelerowane. NVIDIA podała **115,2 mld USD** przychodów Data Center w roku fiskalnym 2025, o **142%** więcej niż rok wcześniej. Duzi dostawcy usług chmurowych odpowiadali za około **50%** przychodów Data Center w czwartym kwartale. Liczba NVIDIA mierzy wysłane systemy i ujętą sprzedaż. Nie pokazuje, jaka część zainstalowanej mocy obsługuje użyteczne obciążenia lub przynosi dodatni zwrot. ([NVIDIA fiscal 2025 CFO commentary](https://investor.nvidia.com/files/doc_financials/2025/Q425/Q4FY25-CFO-Commentary.pdf))
+Przychody dostawców potwierdzają silny popyt na obliczenia akcelerowane. NVIDIA podała **115,2 mld USD** przychodów Data Center w roku fiskalnym 2025, o **142%** więcej niż rok wcześniej. Duzi dostawcy usług chmurowych odpowiadali za około **50%** przychodów Data Center w czwartym kwartale. Liczba NVIDIA mierzy wysłane systemy i ujętą sprzedaż. Nie pokazuje, jaka część zainstalowanej mocy obsługuje użyteczne obciążenia lub przynosi dodatni zwrot. ([Komentarz finansowy NVIDIA za rok fiskalny 2025](https://investor.nvidia.com/files/doc_financials/2025/Q425/Q4FY25-CFO-Commentary.pdf))
 
 Największe firmy chmurowe ujawniają także duże zobowiązania infrastrukturalne:
 
@@ -37,17 +37,17 @@ Największe firmy chmurowe ujawniają także duże zobowiązania infrastruktural
 | **Meta** | Prognozowane **115 do 135 mld USD** nakładów kapitałowych w 2026 roku | Plan skierowany do działań AI i podstawowej działalności firmy |
 | **Microsoft** | Około **190 mld USD** prognozowanych nakładów kapitałowych w 2026 roku | Deklarowany przez kierownictwo plan dotyczący mocy, chmury i infrastruktury AI |
 
-Te liczby nie tworzą jednej czystej sumy branżowej. Okresy sprawozdawcze się różnią. Różnią się definicje. Niektóre liczby obejmują całą infrastrukturę chmurową i technologiczną, a nie tylko AI. Ostrożny wniosek jest węższy: **duże firmy zobowiązują ogromne kwoty na moc, zanim znany będzie pełny zwrot gospodarczy.** ([Alphabet 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm), [Meta 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1326801/000162828026025534/meta-12312025x10kars.htm), [Microsoft fiscal 2026 earnings call](https://www.microsoft.com/en-us/Investor/events/fy-2026/earnings-fy-2026-q3))
+Te liczby nie tworzą jednej czystej sumy branżowej. Okresy sprawozdawcze się różnią. Różnią się definicje. Niektóre liczby obejmują całą infrastrukturę chmurową i technologiczną, a nie tylko AI. Ostrożny wniosek jest węższy: **duże firmy zobowiązują ogromne kwoty na moc, zanim znany będzie pełny zwrot gospodarczy.** ([Raport roczny Alphabet 2025, formularz 10-K](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm), [Raport roczny Meta 2025, formularz 10-K](https://www.sec.gov/Archives/edgar/data/1326801/000162828026025534/meta-12312025x10kars.htm), [Telekonferencja wynikowa Microsoft za rok fiskalny 2026](https://www.microsoft.com/en-us/Investor/events/fy-2026/earnings-fy-2026-q3))
 
 ## Energia jest ograniczeniem fizycznym
 
 **Serwery AI potrzebują energii, zanim wytworzą przychód.** IEA szacuje, że centra danych na świecie zużyły około **415 terawatogodzin** w 2024 roku, czyli około **1,5%** globalnego zużycia energii elektrycznej. Scenariusz bazowy przewiduje około **945 terawatogodzin** w 2030 roku, nieco mniej niż **3%** światowego zużycia.
 
-Globalny odsetek pozostaje umiarkowany, ponieważ świat zużywa dużo energii. Lokalne skutki są ostrzejsze. Obiekty skupione na AI koncentrują popyt w niewielu regionach. Duży obiekt pobiera energię podobną do ciężkiego zakładu przemysłowego. Przyłącza, przesył, podstacje, chłodzenie, woda i pozwolenia powstają wolniej niż produkty programistyczne. ([IEA, Energy demand from AI](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai))
+Globalny odsetek pozostaje umiarkowany, ponieważ świat zużywa dużo energii. Lokalne skutki są ostrzejsze. Obiekty skupione na AI koncentrują popyt w niewielu regionach. Duży obiekt pobiera energię podobną do ciężkiego zakładu przemysłowego. Przyłącza, przesył, podstacje, chłodzenie, woda i pozwolenia powstają wolniej niż produkty programistyczne. ([IEA, zapotrzebowanie AI na energię](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai))
 
 Stany Zjednoczone mają szerszy zakres prognoz. Aktualizacja Lawrence Berkeley National Laboratory z 2026 roku szacuje **649 terawatogodzin** zużycia energii przez amerykańskie centra danych w 2030 roku w scenariuszu referencyjnym. Scenariusze wrażliwości obejmują **521 do 843 terawatogodzin**. Raport szacuje udział centrów danych na **11,8%** całego zużycia energii elektrycznej USA w 2030 roku, przy zakresie **9,5% do 15,3%**.
 
-Zakres ma znaczenie. Raport używa planowanych dostaw sprzętu, modeli mocy urządzeń, symulacji chłodzenia, danych obiektowych oraz alternatywnych założeń dotyczących dostaw chipów, okresu działania, mocy bezczynnej i wykorzystania. Te dane tworzą model planistyczny. Nie ustalają przyszłego zużycia. ([Lawrence Berkeley National Laboratory, United States Data Center Energy Usage Report: 2025 Update](https://datacenters.lbl.gov/publications/united-states-data-center-energy-2025))
+Zakres ma znaczenie. Raport używa planowanych dostaw sprzętu, modeli mocy urządzeń, symulacji chłodzenia, danych obiektowych oraz alternatywnych założeń dotyczących dostaw chipów, okresu działania, mocy bezczynnej i wykorzystania. Te dane tworzą model planistyczny. Nie ustalają przyszłego zużycia. ([Lawrence Berkeley National Laboratory, raport o energii centrów danych 2025](https://datacenters.lbl.gov/publications/united-states-data-center-energy-2025))
 
 **Skutek operacyjny:** finansowanie i umowa z najemcą nie gwarantują użytecznej mocy sieciowej dla projektu centrum danych. Zespoły bezpieczeństwa powinny traktować energię, chłodzenie, paliwo i połączenie sieciowe jako zależności dostępności. Usługa bez ścieżki zasilania nie ma ścieżki odtworzenia.
 
@@ -57,11 +57,11 @@ Określenie **ukryty dług** wymaga ostrożności. Firma może ujawniać leasing
 
 BIS podaje, że emisja obligacji korporacyjnych hyperskalerów przekroczyła **100 mld USD** w 2025 roku. Raport opisuje także spółki celowe i joint ventures finansowane kredytem prywatnym. W typowej strukturze hyperskaler obejmuje mniejszościowy udział, zobowiązuje się do długoterminowego leasingu lub zakupów mocy i udziela gwarancji. Dług znajduje się w pojeździe, a hyperskaler ponosi długoterminowe zobowiązanie ekonomiczne.
 
-BIS nazywa te układy **shadow borrowing**, ponieważ przypominają dług ekonomicznie, lecz pozostają poza typowym bilansem firmy. Struktura łączy hyperskalerów, operatorów centrów danych, banki, fundusze kredytu prywatnego, ubezpieczycieli i innych inwestorów. Presja refinansowania i wezwania z gwarancji przenoszą stres poza sam projekt. ([BIS, Financing the AI infrastructure boom](https://www.bis.org/publications/qr-202603/financing-ai-infrastructure-boom-on-and-off-balance-sheet-borrowing))
+BIS nazywa te układy **zadłużeniem pozabilansowym** (ang. shadow borrowing), ponieważ przypominają dług ekonomicznie, lecz pozostają poza typowym bilansem firmy. Struktura łączy hyperskalerów, operatorów centrów danych, banki, fundusze kredytu prywatnego, ubezpieczycieli i innych inwestorów. Presja refinansowania i wezwania z gwarancji przenoszą stres poza sam projekt. ([BIS, finansowanie boomu infrastruktury AI](https://www.bis.org/publications/qr-202603/financing-ai-infrastructure-boom-on-and-off-balance-sheet-borrowing))
 
 IMF dochodzi do podobnego, lecz wyważonego wniosku. Ostrzega przed finansowanymi długiem inwestycjami AI o słabych zwrotach, po których następują przeszacowanie akcji, straty majątkowe i zwolnienia. Raport wskazuje także finansowanie okrężne, w którym firmy z łańcucha AI są dla siebie klientami, inwestorami i finansującymi.
 
-**Publiczne dowody nie potwierdzają jednej sumy 3 bln USD ukrytego długu.** Liczba zależy od definicji, założeń i prywatnych umów. Rzetelna analiza wymaga nazw zobowiązań, odpowiedzialnej jednostki, terminu zapadalności, gwarancji, zabezpieczenia i źródła przychodu służącego spłacie. ([IMF, AI: Deployment and Disruption](https://www.imf.org/annual-report/2026/in-focus/ai-deployment-and-disruption/))
+**Publiczne dowody nie potwierdzają jednej sumy 3 bln USD ukrytego długu.** Liczba zależy od definicji, założeń i prywatnych umów. Rzetelna analiza wymaga nazw zobowiązań, odpowiedzialnej jednostki, terminu zapadalności, gwarancji, zabezpieczenia i źródła przychodu służącego spłacie. ([MFW, wdrażanie AI i zakłócenia](https://www.imf.org/annual-report/2026/in-focus/ai-deployment-and-disruption/))
 
 ## Adopcja nie oznacza zwrotu
 
@@ -69,7 +69,7 @@ IMF dochodzi do podobnego, lecz wyważonego wniosku. Ostrzega przed finansowanym
 
 Ten sam raport podsumowuje badania pokazujące wzrost produktywności o **14% do 15%** w obsłudze klienta, **26%** w tworzeniu oprogramowania i **50%** w produkcji marketingowej. Są to zmierzone wyniki zadań lub produkcji. Nie oznaczają zysku netto. Firma nadal potrzebuje przygotowania danych, integracji, przeglądu, bezpieczeństwa, szkoleń, kontroli dostępu i bieżących kosztów modeli.
 
-Stanford Digital Economy Lab Enterprise AI Playbook analizuje **51 udanych wdrożeń przedsiębiorstw** i skupia się na wzorcach organizacyjnych wdrożeń dostarczających wartość biznesową. Raport podważa twierdzenie, że każdy projekt AI kończy się porażką. Badanie wspiera też bardziej rygorystyczny wniosek: **udane wdrożenia wymagają przeprojektowania procesów, jasnej odpowiedzialności i mierzalnych wyników.** ([Stanford Digital Economy Lab, Enterprise AI Playbook](https://digitaleconomy.stanford.edu/publication/enterprise-ai-playbook/))
+Stanford Digital Economy Lab Enterprise AI Playbook analizuje **51 udanych wdrożeń przedsiębiorstw** i skupia się na wzorcach organizacyjnych wdrożeń dostarczających wartość biznesową. Raport podważa twierdzenie, że każdy projekt AI kończy się porażką. Badanie wspiera też bardziej rygorystyczny wniosek: **udane wdrożenia wymagają przeprojektowania procesów, jasnej odpowiedzialności i mierzalnych wyników.** ([Stanford Digital Economy Lab, przewodnik po AI w firmach](https://digitaleconomy.stanford.edu/publication/enterprise-ai-playbook/))
 
 Często powtarzane twierdzenie, że **95% korporacyjnych projektów AI nie przynosi wartości**, wymaga źródła i przeglądu metod przed publikacją. W sprawdzonym zestawie źródeł nie znalazłem pierwotnego publicznego raportu wspierającego to twierdzenie w szerokiej formie używanej w transkrypcji wideo. Zweryfikowane dowody pokazują nierówne wyniki, wczesne wdrożenia agentów i realny wzrost produktywności w wybranych pracach. Nie wspierają uniwersalnego wskaźnika sukcesu ani porażki.
 
@@ -77,7 +77,7 @@ Często powtarzane twierdzenie, że **95% korporacyjnych projektów AI nie przyn
 
 Reuters podał we wrześniu 2026 roku prognozowane **278 mld USD** ujemnego wolnego przepływu pieniężnego OpenAI w latach 2026–2030. Raport przypisał tę liczbę prezentacji firmy widzianej przez Financial Times. Reuters podał też prognozowany wzrost przychodów z **36 mld USD** w 2026 roku do **350 mld USD** w 2030 roku oraz około **856 mld USD** wydatków na infrastrukturę i obliczenia do 2030 roku.
 
-Te liczby zasługują na uwagę. Wymagają też właściwej etykiety. Są prognozami zarządu przedstawionymi na podstawie prywatnych materiałów inwestorskich. Nie są zbadanymi wynikami historycznymi. Zależą od wzrostu przychodów, cen, popytu klientów, kosztów modeli, dostępu do chipów, leasingu centrów danych i przyszłego finansowania. ([Reuters report syndicated by MarketScreener](https://www.marketscreener.com/news/openai-forecasts-cash-burn-near-280-billion-ft-reports-ce785adade89f226))
+Te liczby zasługują na uwagę. Wymagają też właściwej etykiety. Są prognozami zarządu przedstawionymi na podstawie prywatnych materiałów inwestorskich. Nie są zbadanymi wynikami historycznymi. Zależą od wzrostu przychodów, cen, popytu klientów, kosztów modeli, dostępu do chipów, leasingu centrów danych i przyszłego finansowania. ([Reuters w MarketScreener, prognoza przepływów pieniężnych OpenAI](https://www.marketscreener.com/news/openai-forecasts-cash-burn-near-280-billion-ft-reports-ce785adade89f226))
 
 **Prognozowane spalanie gotówki nie dowodzi porażki firmy.** Prognoza dowodzi planu biznesowego z dużym zapotrzebowaniem na finansowanie. Test następuje przez jakość przychodów, marżę brutto, generowanie gotówki, trwałość umów i koszt wymiany każdej generacji sprzętu obliczeniowego.
 
@@ -85,9 +85,9 @@ Te liczby zasługują na uwagę. Wymagają też właściwej etykiety. Są progno
 
 Debata finansowa i debata o bezpieczeństwie łączą się w jednym miejscu: obie zależą od dowodów. Nie należy sprowadzać ich do jednego twierdzenia.
 
-OpenAI zgłosiło incydent podczas oceny cyberbezpieczeństwa, w którym modele działające z ograniczonymi zabezpieczeniami uzyskały dostęp do internetu i dotarły do systemów stron trzecich. Anthropic zgłosił trzy incydenty po przeglądzie **141 006** uruchomień ewaluacyjnych. Anthropic podał, że oceny miały dostęp do internetu na żywo z powodu błędnej konfiguracji zakresu testowego. Modelom przydzielono otwarte zadania capture-the-flag, a dotknięte systemy nie były złożonymi celami zero-day.
+OpenAI zgłosiło incydent podczas oceny cyberbezpieczeństwa, w którym modele działające z ograniczonymi zabezpieczeniami uzyskały dostęp do internetu i dotarły do systemów stron trzecich. Anthropic zgłosił trzy incydenty po przeglądzie **141 006** uruchomień ewaluacyjnych. Anthropic podał, że oceny miały dostęp do internetu na żywo z powodu błędnej konfiguracji zakresu testowego. Modelom przydzielono zadania o otwartym celu z konkursów CTF, czyli wyzwań cyberbezpieczeństwa polegających na odnalezieniu ukrytego znacznika, a dotknięte systemy nie były złożonymi celami zero-day.
 
-Raporty dokumentują poważne błędy testów i realne ryzyko bezpieczeństwa. Nie dowodzą wyginięcia ludzi. Ustalenia pokazują praktyczny wymóg: **środowiska oceny AI potrzebują izolacji sieciowej, kontroli zakresu, monitorowania, granic poświadczeń i reagowania na incydenty.** ([OpenAI incident report](https://openai.com/index/hugging-face-incident-and-the-road-ahead/), [Anthropic evaluation incident report](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals))
+Raporty dokumentują poważne błędy testów i realne ryzyko bezpieczeństwa. Nie dowodzą wyginięcia ludzi. Ustalenia pokazują praktyczny wymóg: **środowiska oceny AI potrzebują izolacji sieciowej, kontroli zakresu, monitorowania, granic poświadczeń i reagowania na incydenty.** ([Raport OpenAI o incydencie](https://openai.com/index/hugging-face-incident-and-the-road-ahead/), [Raport Anthropic o incydentach w testach cyberbezpieczeństwa](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals))
 
 Warto też zbadać bodźce finansowe, gdy firma prosi o regulacje, wsparcie publiczne lub korzystniejszy dostęp do infrastruktury. Twierdzenie o bezpieczeństwie wymaga dowodów technicznych. Wniosek o finansowanie wymaga dowodów finansowych. Jedno nie potwierdza drugiego.
 
@@ -116,7 +116,7 @@ Te pytania zmieniają szeroki argument rynkowy w przegląd dowodów. Działają 
 - **Testuj tryby awarii.** Przeprowadź ćwiczenia awarii dostawcy, limitu żądań, wycofania modelu, przejętego konektora, prompt injection i eksportu danych.
 - **Zachowaj kontrolę człowieka dla działań o dużym wpływie.** Wymagaj zatwierdzenia zmian dostępu, połączeń kodu produkcyjnego, płatności, odzyskiwania kont i zmian kontroli bezpieczeństwa.
 
-Ocena [AI Cybersecurity in 2026](/articles/state-of-ai-cybersecurity-2026/) omawia ryzyka warstwy aplikacji stojące za tymi kontrolami. Pytanie infrastrukturalne należy umieścić w tym samym rejestrze ryzyka co tożsamość, kopie zapasowe i ciągłość dostawcy.
+Ocena [Cyberbezpieczeństwo AI w 2026 roku](/articles/state-of-ai-cybersecurity-2026/) omawia ryzyka warstwy aplikacji stojące za tymi kontrolami. Pytanie infrastrukturalne należy umieścić w tym samym rejestrze ryzyka co tożsamość, kopie zapasowe i ciągłość dostawcy.
 
 ## Werdykt weryfikacji faktów
 
@@ -135,16 +135,16 @@ Ocena [AI Cybersecurity in 2026](/articles/state-of-ai-cybersecurity-2026/) omaw
 
 ## Źródła
 
-1. [IEA, Energy demand from AI](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai)
-2. [Lawrence Berkeley National Laboratory, United States Data Center Energy Usage Report: 2025 Update](https://datacenters.lbl.gov/publications/united-states-data-center-energy-2025)
-3. [Stanford HAI, 2026 AI Index Report, Economy](https://hai.stanford.edu/ai-index/2026-ai-index-report/economy)
-4. [Stanford Digital Economy Lab, The Enterprise AI Playbook](https://digitaleconomy.stanford.edu/publication/enterprise-ai-playbook/)
-5. [Bank for International Settlements, Financing the AI infrastructure boom](https://www.bis.org/publications/qr-202603/financing-ai-infrastructure-boom-on-and-off-balance-sheet-borrowing)
-6. [International Monetary Fund, AI: Deployment and Disruption](https://www.imf.org/annual-report/2026/in-focus/ai-deployment-and-disruption/)
-7. [Alphabet 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm)
-8. [Meta 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1326801/000162828026025534/meta-12312025x10kars.htm)
-9. [Microsoft fiscal 2026 third quarter earnings call](https://www.microsoft.com/en-us/Investor/events/fy-2026/earnings-fy-2026-q3)
-10. [NVIDIA fiscal 2025 CFO commentary](https://investor.nvidia.com/files/doc_financials/2025/Q425/Q4FY25-CFO-Commentary.pdf)
-11. [Reuters report on OpenAI's projected cash burn, syndicated by MarketScreener](https://www.marketscreener.com/news/openai-forecasts-cash-burn-near-280-billion-ft-reports-ce785adade89f226)
-12. [OpenAI, The Hugging Face incident and the road ahead](https://openai.com/index/hugging-face-incident-and-the-road-ahead/)
-13. [Anthropic, Investigating three incidents in our cybersecurity evaluations](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals)
+1. [IEA, zapotrzebowanie AI na energię](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai)
+2. [Lawrence Berkeley National Laboratory, raport o energii centrów danych 2025](https://datacenters.lbl.gov/publications/united-states-data-center-energy-2025)
+3. [Stanford AI Index 2026, rozdział ekonomiczny](https://hai.stanford.edu/ai-index/2026-ai-index-report/economy)
+4. [Stanford Digital Economy Lab, przewodnik po AI w firmach](https://digitaleconomy.stanford.edu/publication/enterprise-ai-playbook/)
+5. [BIS, finansowanie boomu infrastruktury AI](https://www.bis.org/publications/qr-202603/financing-ai-infrastructure-boom-on-and-off-balance-sheet-borrowing)
+6. [MFW, wdrażanie AI i zakłócenia](https://www.imf.org/annual-report/2026/in-focus/ai-deployment-and-disruption/)
+7. [Raport roczny Alphabet 2025, formularz 10-K](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm)
+8. [Raport roczny Meta 2025, formularz 10-K](https://www.sec.gov/Archives/edgar/data/1326801/000162828026025534/meta-12312025x10kars.htm)
+9. [Telekonferencja wynikowa Microsoft za rok fiskalny 2026](https://www.microsoft.com/en-us/Investor/events/fy-2026/earnings-fy-2026-q3)
+10. [Komentarz finansowy NVIDIA za rok fiskalny 2025](https://investor.nvidia.com/files/doc_financials/2025/Q425/Q4FY25-CFO-Commentary.pdf)
+11. [Reuters w MarketScreener, prognoza przepływów pieniężnych OpenAI](https://www.marketscreener.com/news/openai-forecasts-cash-burn-near-280-billion-ft-reports-ce785adade89f226)
+12. [Raport OpenAI o incydencie](https://openai.com/index/hugging-face-incident-and-the-road-ahead/)
+13. [Raport Anthropic o incydentach w testach cyberbezpieczeństwa](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals)
