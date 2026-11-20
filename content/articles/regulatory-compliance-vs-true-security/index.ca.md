@@ -1,12 +1,12 @@
 ---
 title: "Per què el compliment normatiu no garanteix la seguretat"
 date: 2023-12-21
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Descobreix les mancances que deixen les llistes de compliment i reforça la protecció amb avaluacions de riscos, proves, supervisió, formació i auditories."
-genre: ["Ciberseguretat", "Compliment", "Pràctiques de seguretat", "Protecció de dades", "Amenaces cibernètiques", "Normes reguladores", "Seguretat de la informació", "Gestió de riscos", "Seguretat empresarial", "Privadesa digital"]
-tags: ["Compliment normatiu", "Seguretat", "Ciberseguretat", "Normes de compliment", "Protecció de dades", "Amenaces cibernètiques", "Compliment i seguretat", "Seguretat de la informació", "Normes reguladores", "Privadesa digital", "HIPAA", "GDPR", "Programari maliciós", "Ransomware", "Atacs de pesca", "Marc de ciberseguretat del NIST", "Controls crítics de seguretat CIS", "Bones pràctiques de ciberseguretat", "Formació en ciberseguretat", "Seguretat proactiva", "Col·laboració", "Auditories", "Proves de penetració", "Seguretat integral", "Panorama d’amenaces cibernètiques", "Vulnerabilitats", "Seguretat de dades", "Requisits reguladors", "Mesures de seguretat", "Seguretat empresarial"]
+genre: ["Ciberseguretat","Compliment","Pràctiques de seguretat","Protecció de dades","Amenaces cibernètiques","Normes reguladores","Seguretat de la informació","Gestió de riscos","Seguretat empresarial","Privadesa digital"]
+tags: ["Compliment normatiu","Seguretat","Ciberseguretat","Normes de compliment","Protecció de dades","Amenaces cibernètiques","Compliment i seguretat","Seguretat de la informació","Normes reguladores","Privadesa digital","HIPAA","RGPD","Programari maliciós","Ransomware","Atacs de pesca","Marc de ciberseguretat del NIST","Controls crítics de seguretat CIS","Bones pràctiques de ciberseguretat","Formació en ciberseguretat","Seguretat proactiva","Col·laboració","Auditories","Proves de penetració","Seguretat integral","Panorama d’amenaces cibernètiques","Vulnerabilitats","Seguretat de dades","Requisits reguladors","Mesures de seguretat","Seguretat empresarial"]
 cover: "/img/cover/compliance-security-shield.webp"
 coverAlt: "Un escut que representa el compliment, amb una esquerda que simbolitza les vulnerabilitats de seguretat."
 coverCaption: "El compliment no és suficient. Busca una seguretat real."
@@ -20,7 +20,7 @@ En el complex àmbit de la ciberseguretat, la relació entre compliment normatiu
 
 ## La falsa sensació de seguretat del compliment
 
-Les empreses han de seguir moltes normes, des de **HIPAA** en l’àmbit sanitari fins a **GDPR** per a la protecció de dades. De vegades es considera que complir aquests estàndards és una defensa contra les ciberamenaces. Però el compliment normatiu només representa un conjunt **mínim** de mesures.
+Les empreses han de seguir moltes normes, des de **HIPAA** en l’àmbit sanitari fins a **RGPD** per a la protecció de dades. De vegades es considera que complir aquests estàndards és una defensa contra les ciberamenaces. Però el compliment normatiu només representa un conjunt *mínim* de mesures.
 
 Les mesures imposades per les normes solen ser reactives i potser no inclouen les amenaces o vulnerabilitats més recents. Això crea una falsa sensació de seguretat. Una organització pot pensar que marcar tots els punts de compliment equival a estar completament protegida.
 
@@ -82,7 +82,7 @@ Si entenen els límits del compliment i prenen la iniciativa d’aplicar mesures
 
 ## Referències
 
-1. [HIPAA - HealthIT.gov](https://www.healthit.gov/)
-2. [GDPR - Comissió Europea](https://ec.europa.eu/)
+1. [Informació sobre HIPAA a HealthIT.gov](https://www.healthit.gov/)
+2. [RGPD - Comissió Europea](https://ec.europa.eu/)
 3. [Marc de ciberseguretat del NIST](https://www.nist.gov/cyberframework)
 4. [Controls crítics de seguretat CIS](https://www.cisecurity.org/)

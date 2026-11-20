@@ -1,12 +1,12 @@
 ---
 title: "De ce conformitatea cu reglementările nu garantează securitatea"
 date: 2023-12-21
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Află ce lacune de securitate lasă listele de conformitate și consolidează protecția prin evaluarea riscurilor, testare, monitorizare, instruire și audituri."
-genre: ["Securitate cibernetică", "Conformitate", "Practici de securitate", "Protecția datelor", "Amenințări cibernetice", "Standarde de reglementare", "Securitatea informațiilor", "Gestionarea riscurilor", "Securitatea afacerii", "Confidențialitate digitală"]
-tags: ["Conformitate cu reglementările", "Securitate", "Securitate cibernetică", "Standarde de conformitate", "Protecția datelor", "Amenințări cibernetice", "Conformitate și securitate", "Securitatea informațiilor", "Standarde de reglementare", "Confidențialitate digitală", "HIPAA", "GDPR", "Malware", "Ransomware", "Atacuri de phishing", "Cadrul de securitate cibernetică NIST", "CIS Critical Security Controls", "Bune practici de securitate cibernetică", "Instruire în securitate cibernetică", "Securitate proactivă", "Colaborare", "Audituri", "Teste de penetrare", "Securitate cuprinzătoare", "Peisajul amenințărilor cibernetice", "Vulnerabilități", "Securitatea datelor", "Cerințe de reglementare", "Măsuri de securitate", "Securitatea afacerii"]
+genre: ["Securitate cibernetică","Conformitate","Practici de securitate","Protecția datelor","Amenințări cibernetice","Standarde de reglementare","Securitatea informațiilor","Gestionarea riscurilor","Securitatea afacerii","Confidențialitate digitală"]
+tags: ["Conformitate cu reglementările","Securitate","Securitate cibernetică","Standarde de conformitate","Protecția datelor","Amenințări cibernetice","Conformitate și securitate","Securitatea informațiilor","Standarde de reglementare","Confidențialitate digitală","HIPAA","GDPR","Software rău intenționat","Ransomware","Atacuri de phishing","Cadrul de securitate cibernetică NIST","Controale de securitate critice CIS","Bune practici de securitate cibernetică","Instruire în securitate cibernetică","Securitate proactivă","Colaborare","Audituri","Teste de penetrare","Securitate cuprinzătoare","Peisajul amenințărilor cibernetice","Vulnerabilități","Securitatea datelor","Cerințe de reglementare","Măsuri de securitate","Securitatea afacerii"]
 cover: "/img/cover/compliance-security-shield.webp"
 coverAlt: "Un scut care simbolizează conformitatea, cu o fisură ce reprezintă vulnerabilitățile de securitate."
 coverCaption: "Conformitatea nu este suficientă. Urmărește securitatea reală."
@@ -20,7 +20,7 @@ coverCaption: "Conformitatea nu este suficientă. Urmărește securitatea reală
 
 ## Iluzia de securitate oferită de conformitate
 
-Companiile trebuie să respecte numeroase reguli, de la **HIPAA** în domeniul sănătății până la **GDPR** pentru protecția datelor. Respectarea acestor standarde este văzută uneori ca un scut împotriva amenințărilor cibernetice. În realitate, conformitatea cu reglementările reprezintă doar un set **minim** de măsuri.
+Companiile trebuie să respecte numeroase reguli, de la **HIPAA** în domeniul sănătății până la **GDPR** pentru protecția datelor. Respectarea acestor standarde este văzută uneori ca un scut împotriva amenințărilor cibernetice. În realitate, conformitatea cu reglementările reprezintă doar un set *minim* de măsuri.
 
 Măsurile de securitate impuse de reglementări sunt adesea reactive și este posibil să nu acopere cele mai noi amenințări sau vulnerabilități. Astfel apare un fals sentiment de siguranță. O organizație poate presupune că bifarea tuturor cerințelor de conformitate înseamnă protecție completă.
 
@@ -52,13 +52,13 @@ Fiecare sector are propriile standarde de conformitate, ceea ce poate fragmenta 
 
 Organizațiile trebuie să depășească limitele conformității pentru a construi o securitate cibernetică robustă. Acest lucru cere o schimbare de mentalitate și de abordare.
 
-### 1. Măsuri proactive de securitate
+### 1. Măsuri preventive de securitate
 
 Pentru a ține pasul cu amenințările cibernetice, organizațiile trebuie să își evalueze continuu vulnerabilitățile și să aplice măsuri solide. Acest lucru include monitorizare continuă, evaluări periodice de securitate și urmărirea celor mai noi amenințări.
 
 ### 2. Bune practici de securitate
 
-Aplicarea bunelor practici din domeniu, precum **Cadrul de securitate cibernetică NIST** sau **CIS Critical Security Controls**, oferă o bază mai cuprinzătoare. Acestea depășesc conformitatea și includ o gamă mai largă de amenințări și măsuri de protecție.
+Aplicarea bunelor practici din domeniu, precum **Cadrul de securitate cibernetică NIST** sau **Controale de securitate critice CIS**, oferă o bază mai cuprinzătoare. Acestea depășesc conformitatea și includ o gamă mai largă de amenințări și măsuri de protecție.
 
 ### 3. Instruire în securitate cibernetică
 
@@ -82,7 +82,7 @@ Conformitatea cu reglementările este o bază valoroasă pentru securitate, dar 
 
 ## Referințe
 
-1. [HIPAA - HealthIT.gov](https://www.healthit.gov/)
+1. [Informații despre HIPAA pe HealthIT.gov](https://www.healthit.gov/)
 2. [GDPR - Comisia Europeană](https://ec.europa.eu/)
 3. [Cadrul de securitate cibernetică NIST](https://www.nist.gov/cyberframework)
-4. [CIS Critical Security Controls](https://www.cisecurity.org/)
+4. [Controale de securitate critice CIS](https://www.cisecurity.org/)

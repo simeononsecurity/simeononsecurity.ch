@@ -1,12 +1,12 @@
 ---
 title: "Por qué el cumplimiento normativo no garantiza la seguridad"
 date: 2023-12-21
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Descubre las brechas que dejan las listas de cumplimiento y refuerza la protección con evaluaciones de riesgos, pruebas, supervisión, capacitación y auditorías."
-genre: ["Ciberseguridad", "Cumplimiento", "Prácticas de seguridad", "Protección de datos", "Amenazas cibernéticas", "Normas regulatorias", "Seguridad de la información", "Gestión de riesgos", "Seguridad empresarial", "Privacidad digital"]
-tags: ["Cumplimiento normativo", "Seguridad", "Ciberseguridad", "Normas de cumplimiento", "Protección de datos", "Amenazas cibernéticas", "Cumplimiento y seguridad", "Seguridad de la información", "Normas regulatorias", "Privacidad digital", "HIPAA", "RGPD", "Malware", "Ransomware", "Ataques de phishing", "Marco de Ciberseguridad del NIST", "Controles Críticos de Seguridad de CIS", "Buenas prácticas de ciberseguridad", "Capacitación en ciberseguridad", "Seguridad proactiva", "Colaboración", "Auditorías", "Pruebas de penetración", "Seguridad integral", "Panorama de amenazas cibernéticas", "Vulnerabilidades", "Seguridad de datos", "Requisitos regulatorios", "Medidas de seguridad", "Seguridad empresarial"]
+genre: ["Ciberseguridad","Cumplimiento","Prácticas de seguridad","Protección de datos","Amenazas cibernéticas","Normas regulatorias","Seguridad de la información","Gestión de riesgos","Seguridad empresarial","Privacidad digital"]
+tags: ["Cumplimiento normativo","Seguridad","Ciberseguridad","Normas de cumplimiento","Protección de datos","Amenazas cibernéticas","Cumplimiento y seguridad","Seguridad de la información","Normas regulatorias","Privacidad digital","HIPAA","RGPD","Software malicioso","Ransomware","Ataques de phishing","Marco de Ciberseguridad del NIST","Controles Críticos de Seguridad de CIS","Buenas prácticas de ciberseguridad","Capacitación en ciberseguridad","Seguridad proactiva","Colaboración","Auditorías","Pruebas de penetración","Seguridad integral","Panorama de amenazas cibernéticas","Vulnerabilidades","Seguridad de datos","Requisitos regulatorios","Medidas de seguridad","Seguridad empresarial"]
 cover: "/img/cover/compliance-security-shield.webp"
 coverAlt: "Un escudo que representa el cumplimiento, con una grieta que simboliza las vulnerabilidades de seguridad."
 coverCaption: "El cumplimiento no basta. Apuesta por la seguridad real."
@@ -20,7 +20,7 @@ En el complejo ámbito de la ciberseguridad, la relación entre el cumplimiento 
 
 ## La ilusión de seguridad del cumplimiento
 
-Las empresas deben atender numerosas normas, desde **HIPAA** en el sector sanitario hasta el **RGPD** para la protección de datos. A menudo se considera que cumplir estos estándares protege frente a las ciberamenazas, pero el cumplimiento normativo representa un conjunto **mínimo** de medidas.
+Las empresas deben atender numerosas normas, desde **HIPAA** en el sector sanitario hasta el **RGPD** para la protección de datos. A menudo se considera que cumplir estos estándares protege frente a las ciberamenazas, pero el cumplimiento normativo representa un conjunto *mínimo* de medidas.
 
 Las medidas exigidas por las normas suelen ser reactivas y quizá no incluyan las amenazas o vulnerabilidades más recientes. Esto crea una falsa sensación de seguridad. Una organización podría pensar que marcar todas las casillas del cumplimiento equivale a estar totalmente protegida.
 
@@ -82,7 +82,7 @@ Al comprender los límites del cumplimiento y tomar la iniciativa de aplicar med
 
 ## Referencias
 
-1. [HIPAA - HealthIT.gov](https://www.healthit.gov/)
+1. [Información sobre HIPAA en HealthIT.gov](https://www.healthit.gov/)
 2. [RGPD - Comisión Europea](https://ec.europa.eu/)
 3. [Marco de Ciberseguridad del NIST](https://www.nist.gov/cyberframework)
 4. [Controles Críticos de Seguridad de CIS](https://www.cisecurity.org/)

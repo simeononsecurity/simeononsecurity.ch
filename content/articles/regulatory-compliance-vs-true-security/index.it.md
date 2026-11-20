@@ -1,12 +1,12 @@
 ---
 title: "Perché la conformità normativa non garantisce la sicurezza"
 date: 2023-12-21
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Scopri le lacune lasciate dalle liste di conformità e rafforza la protezione con valutazioni dei rischi, test, monitoraggio, formazione e audit."
-genre: ["Sicurezza informatica", "Conformità", "Pratiche di sicurezza", "Protezione dei dati", "Minacce informatiche", "Standard normativi", "Sicurezza delle informazioni", "Gestione dei rischi", "Sicurezza aziendale", "Privacy digitale"]
-tags: ["Conformità normativa", "Sicurezza", "Sicurezza informatica", "Standard di conformità", "Protezione dei dati", "Minacce informatiche", "Conformità e sicurezza", "Sicurezza delle informazioni", "Standard normativi", "Privacy digitale", "HIPAA", "GDPR", "Malware", "Ransomware", "Attacchi di phishing", "Framework per la cybersicurezza del NIST", "CIS Critical Security Controls", "Buone pratiche di sicurezza informatica", "Formazione sulla sicurezza informatica", "Sicurezza proattiva", "Collaborazione", "Audit", "Test di penetrazione", "Sicurezza completa", "Panorama delle minacce informatiche", "Vulnerabilità", "Sicurezza dei dati", "Requisiti normativi", "Misure di sicurezza", "Sicurezza aziendale"]
+genre: ["Sicurezza informatica","Conformità","Pratiche di sicurezza","Protezione dei dati","Minacce informatiche","Standard normativi","Sicurezza delle informazioni","Gestione dei rischi","Sicurezza aziendale","Privacy digitale"]
+tags: ["Conformità normativa","Sicurezza","Sicurezza informatica","Standard di conformità","Protezione dei dati","Minacce informatiche","Conformità e sicurezza","Sicurezza delle informazioni","Standard normativi","Privacy digitale","HIPAA","GDPR","Software dannoso","Ransomware","Attacchi di phishing","Framework per la cybersicurezza del NIST","Controlli critici di sicurezza CIS","Buone pratiche di sicurezza informatica","Formazione sulla sicurezza informatica","Sicurezza proattiva","Collaborazione","Audit","Test di penetrazione","Sicurezza completa","Panorama delle minacce informatiche","Vulnerabilità","Sicurezza dei dati","Requisiti normativi","Misure di sicurezza","Sicurezza aziendale"]
 cover: "/img/cover/compliance-security-shield.webp"
 coverAlt: "Uno scudo che rappresenta la conformità, con una crepa che simboleggia le vulnerabilità di sicurezza."
 coverCaption: "La conformità non basta. Punta sulla sicurezza reale."
@@ -20,7 +20,7 @@ Nel complesso ambito della sicurezza informatica, il rapporto tra conformità no
 
 ## L’illusione di sicurezza data dalla conformità
 
-Le aziende devono gestire numerose norme, da **HIPAA** nel settore sanitario al **GDPR** per la protezione dei dati. A volte si considera il rispetto di questi standard uno scudo contro le minacce informatiche. In realtà la conformità normativa rappresenta un insieme **minimo** di misure.
+Le aziende devono gestire numerose norme, da **HIPAA** nel settore sanitario al **GDPR** per la protezione dei dati. A volte si considera il rispetto di questi standard uno scudo contro le minacce informatiche. In realtà la conformità normativa rappresenta un insieme *minimo* di misure.
 
 Le misure di sicurezza imposte dalle norme sono spesso reattive e potrebbero non comprendere le minacce o le vulnerabilità più recenti. Si crea così un falso senso di sicurezza. Un’organizzazione può pensare che spuntare tutte le caselle di conformità equivalga a essere completamente protetta.
 
@@ -58,7 +58,7 @@ Per anticipare le minacce informatiche, le organizzazioni devono valutare contin
 
 ### 2. Buone pratiche di sicurezza
 
-Applicare le buone pratiche del settore, come il **Framework per la cybersicurezza del NIST** o i **CIS Critical Security Controls**, fornisce una base più completa. Questi riferimenti vanno oltre la conformità e coprono più minacce e misure di protezione.
+Applicare le buone pratiche del settore, come il **Framework per la cybersicurezza del NIST** o i **Controlli critici di sicurezza CIS**, fornisce una base più completa. Questi riferimenti vanno oltre la conformità e coprono più minacce e misure di protezione.
 
 ### 3. Formazione sulla sicurezza informatica
 
@@ -82,7 +82,7 @@ Comprendendo i limiti della conformità e adottando misure di sicurezza avanzate
 
 ## Riferimenti
 
-1. [HIPAA - HealthIT.gov](https://www.healthit.gov/)
+1. [Informazioni su HIPAA su HealthIT.gov](https://www.healthit.gov/)
 2. [GDPR - Commissione europea](https://ec.europa.eu/)
 3. [Framework per la cybersicurezza del NIST](https://www.nist.gov/cyberframework)
-4. [CIS Critical Security Controls](https://www.cisecurity.org/)
+4. [Controlli critici di sicurezza CIS](https://www.cisecurity.org/)

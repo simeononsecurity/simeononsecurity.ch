@@ -1,12 +1,12 @@
 ---
 title: "Por que a conformidade regulatória não garante segurança"
 date: 2023-12-21
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Entenda as lacunas deixadas pelas listas de conformidade e reforce a proteção com avaliações de risco, testes, monitoramento, treinamento e auditorias."
-genre: ["Cibersegurança", "Conformidade", "Práticas de segurança", "Proteção de dados", "Ameaças cibernéticas", "Padrões regulatórios", "Segurança da informação", "Gestão de riscos", "Segurança empresarial", "Privacidade digital"]
-tags: ["Conformidade regulatória", "Segurança", "Cibersegurança", "Padrões de conformidade", "Proteção de dados", "Ameaças cibernéticas", "Conformidade e segurança", "Segurança da informação", "Padrões regulatórios", "Privacidade digital", "HIPAA", "GDPR", "Malware", "Ransomware", "Ataques de phishing", "Framework de Cibersegurança do NIST", "CIS Critical Security Controls", "Boas práticas de cibersegurança", "Treinamento em cibersegurança", "Segurança proativa", "Colaboração", "Auditorias", "Testes de penetração", "Segurança abrangente", "Cenário de ameaças cibernéticas", "Vulnerabilidades", "Segurança de dados", "Requisitos regulatórios", "Medidas de segurança", "Segurança empresarial"]
+genre: ["Cibersegurança","Conformidade","Práticas de segurança","Proteção de dados","Ameaças cibernéticas","Padrões regulatórios","Segurança da informação","Gestão de riscos","Segurança empresarial","Privacidade digital"]
+tags: ["Conformidade regulatória","Segurança","Cibersegurança","Padrões de conformidade","Proteção de dados","Ameaças cibernéticas","Conformidade e segurança","Segurança da informação","Padrões regulatórios","Privacidade digital","HIPAA","RGPD","Software malicioso","Ransomware","Ataques de phishing","Framework de Cibersegurança do NIST","Controles críticos de segurança do CIS","Boas práticas de cibersegurança","Treinamento em cibersegurança","Segurança proativa","Colaboração","Auditorias","Testes de penetração","Segurança abrangente","Cenário de ameaças cibernéticas","Vulnerabilidades","Segurança de dados","Requisitos regulatórios","Medidas de segurança","Segurança empresarial"]
 cover: "/img/cover/compliance-security-shield.webp"
 coverAlt: "Um escudo que representa conformidade, com uma rachadura que simboliza vulnerabilidades de segurança."
 coverCaption: "Conformidade não basta. Busque segurança de verdade."
@@ -20,7 +20,7 @@ No complexo campo da cibersegurança, a relação entre conformidade regulatóri
 
 ## A ilusão de segurança da conformidade
 
-As empresas precisam lidar com diversas regras, da **HIPAA** na área de saúde ao **GDPR** para proteção de dados. Às vezes, o cumprimento desses padrões é visto como uma barreira contra ameaças cibernéticas. Porém, a conformidade regulatória representa apenas um conjunto **mínimo** de medidas.
+As empresas precisam lidar com diversas regras, da **HIPAA** na área de saúde ao **RGPD** para proteção de dados. Às vezes, o cumprimento desses padrões é visto como uma barreira contra ameaças cibernéticas. Porém, a conformidade regulatória representa apenas um conjunto *mínimo* de medidas.
 
 As medidas exigidas pelas normas costumam ser reativas e podem não contemplar as ameaças ou vulnerabilidades mais recentes. Isso cria uma falsa sensação de segurança. Uma organização pode acreditar que marcar todos os itens de conformidade significa estar totalmente protegida.
 
@@ -58,7 +58,7 @@ Para se antecipar às ameaças, as organizações devem avaliar continuamente su
 
 ### 2. Boas práticas de segurança
 
-Adotar boas práticas do setor, como o **Framework de Cibersegurança do NIST** ou o **CIS Critical Security Controls**, oferece uma base de segurança mais ampla. Essas referências vão além da conformidade e abrangem mais ameaças e medidas de proteção.
+Adotar boas práticas do setor, como o **Framework de Cibersegurança do NIST** ou os **Controles críticos de segurança do CIS**, oferece uma base de segurança mais ampla. Essas referências vão além da conformidade e abrangem mais ameaças e medidas de proteção.
 
 ### 3. Treinamento em cibersegurança
 
@@ -82,7 +82,7 @@ Ao entender os limites da conformidade e tomar a iniciativa de implementar medid
 
 ## Referências
 
-1. [HIPAA - HealthIT.gov](https://www.healthit.gov/)
-2. [GDPR - Comissão Europeia](https://ec.europa.eu/)
+1. [Informações sobre HIPAA no HealthIT.gov](https://www.healthit.gov/)
+2. [RGPD - Comissão Europeia](https://ec.europa.eu/)
 3. [Framework de Cibersegurança do NIST](https://www.nist.gov/cyberframework)
-4. [CIS Critical Security Controls](https://www.cisecurity.org/)
+4. [Controles críticos de segurança do CIS](https://www.cisecurity.org/)
