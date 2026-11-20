@@ -1,71 +1,71 @@
 ---
-title: "So erkennen Sie Phishing-E-Mails, -SMS und -Anrufe"
+title: "Phishing-E-Mails, SMS und Anrufe erkennen"
 date: 2023-03-01
 lastmod: 2026-11-20
 toc: true
 draft: false
-description: "Erfahren Sie, wie Sie Phishing-Versuche in E-Mails, SMS und Anrufen erkennen können, um Ihre persönlichen Daten zu schützen."
-tags: ["Phishing", "Online-Sicherheit", "E-Mail-Sicherheit", "Cybersicherheit", "Internet-Sicherheit", "Phishing-Mails", "Phishing-Texte", "Phishing-Anrufe", "digitale Bedrohungen", "Identitätsdiebstahl", "Datenschutz", "Online-Betrug", "Online-Betrügereien", "Online-Datenschutz", "Tipps zur Online-Sicherheit", "Internetkriminalität", "Informationssicherheit", "Passwortsicherheit", "Datensicherheit", "Sicherheitsbewusstsein"]
+description: "Erfahren Sie, wie Sie Phishing per E-Mail, SMS und Telefon erkennen und Ihre persönlichen Daten schützen."
+tags: ["Phishing-Angriffe", "Online-Sicherheit", "E-Mail-Sicherheit", "Cybersicherheit", "Internetsicherheit", "Phishing-E-Mails", "Phishing-SMS", "Phishing-Anrufe", "digitale Bedrohungen", "Identitätsdiebstahl", "Datenschutz", "Online-Betrug", "Internetbetrug", "Online-Datenschutz", "Tipps zur Online-Sicherheit", "Cyberkriminalität", "Informationssicherheit", "Passwortsicherheit", "Datensicherheit", "Sicherheitsbewusstsein"]
 cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
-coverAlt: "Ein Bild einer Zeichentrickfigur mit Superheldenkostüm und Schild, die eine Angelrute mit einer Phishing-E-Mail abwehrt."
+coverAlt: "Eine Comicfigur im Superheldenkostüm hält mit einem Schild eine Angel mit einer Phishing-E-Mail auf."
 coverCaption: ""
 ---
 {{< youtube id="GVv833KHqZc" >}}
 
 
-In der heutigen digitalen Welt ist es wichtiger denn je, **Phishing**-E-Mails, SMS und Anrufe zu erkennen. Diese betrügerischen Nachrichten zielen darauf ab, Ihre persönlichen Daten zu stehlen, z. B. Ihre Kennwörter, Kreditkartennummern oder Sozialversicherungsnummern. Im Folgenden finden Sie einige Tipps, wie Sie Phishing-Versuche erkennen können, damit Sie Ihre Daten schützen können.
+**Phishing-E-Mails**, SMS und Anrufe sollen persönliche Daten wie Kennwörter, Kreditkartennummern oder Sozialversicherungsnummern stehlen. Lernen Sie, verdächtige Nachrichten zu erkennen, bevor Sie darauf reagieren.
 
 ## Erinnern
 
-Wenn es darum geht, Phishing-Versuche zu erkennen, besteht der erste Schritt darin, sich zu **erinnern**, dass es sie gibt. Phishing-Versuche sind weit verbreitet und können in E-Mails, SMS und Anrufen vorkommen. Sie sollten immer misstrauisch sein, wenn Sie nach persönlichen Daten gefragt werden, auch wenn sie scheinbar von einer vertrauenswürdigen Quelle stammen.
+**Denken Sie daran**, dass Phishing per E-Mail, SMS und Telefon vorkommt. Seien Sie bei jeder Nachricht vorsichtig, die nach persönlichen Daten fragt, auch wenn sie von einer vertrauenswürdigen Quelle zu stammen scheint.
 
-## Verständnis
+## Verstehen
 
-Der nächste Schritt besteht darin, die Arten von Nachrichten, die bei Phishing-Versuchen verwendet werden, zu **verstehen**. Es gibt ein paar gängige Arten, darunter:
+**Erkennen Sie** die häufigen Arten von Phishing-Nachrichten:
 
-- E-Mails, die den Anschein erwecken, von einem Finanzinstitut zu stammen, und Sie auffordern, Ihre Kontodaten zu aktualisieren
-- Textnachrichten, die einen Link zu einer gefälschten Website enthalten und Sie auffordern, Ihre Anmeldedaten einzugeben
-- Telefonanrufe von Personen, die sich als Mitarbeiter eines Unternehmens ausgeben und nach persönlichen Daten fragen
+- E-Mails, die scheinbar von einem Finanzinstitut stammen und Sie auffordern, Ihre Kontodaten zu aktualisieren.
+- SMS mit einem Link zu einer gefälschten Website, die nach Ihren Anmeldedaten fragt.
+- Anrufe von Personen, die behaupten, für ein Unternehmen zu arbeiten, und persönliche Daten verlangen.
 
 ## Analysieren
 
-Bei der Analyse einer Nachricht auf Anzeichen von Phishing gibt es ein paar **Schlüsselmerkmale**, auf die Sie achten sollten. Hier sind einige Tipps, wie Sie Phishing-E-Mails, -SMS und -Anrufe erkennen können.
+Achten Sie auf **wichtige Hinweise**. Prüfen Sie den Absender, den Inhalt sowie Links und Anhänge.
 
 ### Betrügerische E-Mails
 
-Phishing-E-Mails sind so gestaltet, dass sie aussehen, als kämen sie von einem seriösen Unternehmen, aber sie haben oft **verräterische Anzeichen**, dass sie es nicht sind. Hier sind einige Dinge, auf die Sie achten sollten:
+Phishing-E-Mails sehen oft so aus, als kämen sie von einem seriösen Unternehmen. Sie enthalten aber häufig **Warnzeichen**:
 
-- Die E-Mail-Adresse des Absenders stammt nicht von dem Unternehmen, für das er sich ausgibt.
-- In der E-Mail werden Sie aufgefordert, Ihre Kontoinformationen zu aktualisieren oder persönliche Daten anzugeben
-- Die E-Mail enthält Rechtschreib- oder Grammatikfehler
-- Die E-Mail enthält eine allgemeine Begrüßung, wie z. B. "Sehr geehrter Kunde", anstelle Ihres Namens
-- Die E-Mail enthält einen verdächtigen Anhang oder Link
+- Die Absenderadresse gehört nicht zu dem Unternehmen, für das sich der Absender ausgibt.
+- Die E-Mail fordert Sie auf, Kontodaten zu aktualisieren oder persönliche Daten anzugeben.
+- Die E-Mail enthält Rechtschreib- oder Grammatikfehler.
+- Die E-Mail verwendet eine allgemeine Anrede wie „Sehr geehrte Kundin, sehr geehrter Kunde“ statt Ihres Namens.
+- Die E-Mail enthält einen verdächtigen Anhang oder Link.
 
 ### Betrügerische SMS
 
-Phishing-SMS ähneln Phishing-E-Mails, enthalten aber oft einen **Link** zu einer gefälschten Website. Hier sind einige Dinge, auf die Sie achten sollten:
+Phishing-SMS ähneln Phishing-E-Mails, enthalten aber oft einen **Link** zu einer gefälschten Website. Achten Sie auf diese Hinweise:
 
-- Die SMS fordert Sie auf, auf einen Link zu einer Website zu klicken
-- Die Website verwendet keine sichere Verbindung (https)
-- Die Website fordert Sie auf, Ihre Anmeldedaten oder persönlichen Daten einzugeben
-- Die Website enthält Rechtschreib- oder Grammatikfehler
+- Die Nachricht fordert Sie auf, einen Website-Link zu öffnen.
+- Die Website verwendet keine sichere Verbindung (https).
+- Die Website fragt nach Ihren Anmeldedaten oder anderen persönlichen Daten.
+- Die Website enthält Rechtschreib- oder Grammatikfehler.
 
 ### Betrügerische Anrufe
 
-Phishing-Anrufe kommen oft von **unbekannten Nummern** oder von Nummern, die den Anschein erwecken, von einem seriösen Unternehmen zu stammen. Hier sind einige Dinge, auf die Sie achten sollten:
+Phishing-Anrufe kommen oft von **unbekannten Nummern** oder von Nummern, die scheinbar zu einem seriösen Unternehmen gehören. Achten Sie auf diese Hinweise:
 
-- Der Anrufer bittet um persönliche Informationen, wie Ihre Sozialversicherungsnummer oder Kreditkartennummer
-- Der Anrufer behauptet, von einem Unternehmen zu sein, liefert aber keine Beweise
-- Der Anrufer droht Ihnen mit rechtlichen Schritten, wenn Sie die angeforderten Informationen nicht bereitstellen.
+- Die anrufende Person fragt nach persönlichen Daten wie Ihrer Sozialversicherungsnummer oder Kreditkartennummer.
+- Die Person behauptet, ein Unternehmen zu vertreten, legt aber keinen Nachweis vor.
+- Die Person droht mit rechtlichen Schritten, wenn Sie die verlangten Daten nicht herausgeben.
 
-## Anwenden
+## Wissen anwenden
 
-Jetzt, da Sie die Arten von Nachrichten kennen, die bei Phishing-Versuchen verwendet werden, ist es an der Zeit, dieses Wissen **anzuwenden**. Wenn Sie eine Nachricht erhalten, die auf einen dieser Typen passt, seien Sie misstrauisch. Wenn die Nachricht von einem Finanzinstitut oder einem anderen Unternehmen stammt, klicken Sie nicht auf Links und geben Sie keine persönlichen Daten an. Rufen Sie stattdessen den Kundendienst des Unternehmens an, um die Echtheit der Nachricht zu überprüfen.
+**Wenden Sie Ihr Wissen an**, wenn eine Nachricht einem dieser Beispiele ähnelt. Seien Sie misstrauisch. Wenn eine Nachricht angeblich von einem Finanzinstitut oder einem anderen Unternehmen stammt, klicken Sie keine Links an und geben Sie keine persönlichen Daten weiter. Rufen Sie das Unternehmen über die offizielle Kundendienstnummer an, um die Nachricht zu überprüfen.
 
-## Verbreiten Sie die Nachricht
+## Wissen weitergeben
 
-Nachdem Sie nun gelernt haben, wie Sie Phishing-E-Mails, -SMS und -Anrufe erkennen können, ist es wichtig, dass Sie Ihr Wissen mit anderen teilen. Eine der effektivsten Methoden, dies zu tun, ist, mit Ihren Freunden und Familienmitgliedern über das zu sprechen, was Sie gelernt haben.
+Teilen Sie Ihre Erkenntnisse mit Freunden und Familie. Erklären Sie, was Phishing ist und wie es funktioniert. Zeigen Sie Beispiele für Phishing-E-Mails und SMS und weisen Sie auf die Anzeichen hin, an denen sie sich erkennen lassen.
 
-Erklären Sie zunächst, was Phishing ist und wie es funktioniert. Zeigen Sie ihnen Beispiele für Phishing-E-Mails und -Nachrichten und weisen Sie sie auf die verräterischen Anzeichen hin, die darauf hindeuten, dass sie nicht echt sind. Betonen Sie, wie wichtig es ist, niemals auf Links zu klicken oder Anhänge von unbekannten Quellen herunterzuladen, und ermutigen Sie sie, den Kundendienst des Unternehmens anzurufen, wenn sie sich jemals unsicher sind, ob eine Nachricht echt ist.
+Betonen Sie, dass niemand Links anklicken oder Anhänge aus unbekannten Quellen herunterladen sollte. Empfehlen Sie, bei Zweifeln an der Echtheit einer Nachricht den offiziellen Kundendienst des Unternehmens anzurufen.
 
-Wenn Sie ältere oder weniger technikaffine Angehörige haben, sollten Sie besonders wachsam sein. Sie sind möglicherweise anfälliger für diese Art von Angriffen und sind sich der damit verbundenen Risiken nicht bewusst. Indem Sie Ihr Wissen weitergeben und ihnen helfen, sicher im Internet zu bleiben, können Sie ihr Leben wirklich verändern.
+Achten Sie besonders auf ältere Angehörige und Menschen mit wenig technischer Erfahrung. Sie sind möglicherweise stärker gefährdet und kennen die Risiken eventuell nicht. Wenn Sie Ihr Wissen teilen, helfen Sie ihnen, online sicher zu bleiben.

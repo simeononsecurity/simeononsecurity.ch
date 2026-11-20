@@ -1,71 +1,71 @@
 ---
-title: "Hoe herkent u phishing-e-mails, sms'jes en telefoontjes?"
+title: "Phishingmails, sms'jes en telefoontjes herkennen"
 date: 2023-03-01
 lastmod: 2026-11-20
 toc: true
 draft: false
-description: "Leer hoe u pogingen tot phishing in e-mails, sms'jes en telefoontjes kunt herkennen om uw persoonlijke gegevens veilig te houden."
-tags: ["phishing", "online beveiliging", "e-mailbeveiliging", "cyberbeveiliging", "internetveiligheid", "phishing-e-mails", "phishing sms-berichten", "phishing oproepen", "digitale bedreigingen", "identiteitsdiefstal", "gegevensbescherming", "online fraude", "online oplichting", "privacy op internet", "tips voor online veiligheid", "cybercriminaliteit", "informatiebeveiliging", "wachtwoordbeveiliging", "gegevensbeveiliging", "veiligheidsbewustzijn"]
+description: "Leer phishingpogingen via e-mail, sms en telefoontjes herkennen en bescherm uw persoonlijke gegevens."
+tags: ["phishingaanvallen", "onlinebeveiliging", "e-mailbeveiliging", "cyberbeveiliging", "internetveiligheid", "phishingmails", "phishing-sms", "phishingtelefoontjes", "digitale bedreigingen", "identiteitsdiefstal", "gegevensbescherming", "onlinefraude", "onlineoplichting", "onlineprivacy", "tips voor onlineveiligheid", "cybercriminaliteit", "informatiebeveiliging", "wachtwoordbeveiliging", "gegevensbeveiliging", "veiligheidsbewustzijn"]
 cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
-coverAlt: "Een afbeelding van een stripfiguur met een superheldenkostuum en een schild die een hengel met een phishingmail erop blokkeert."
+coverAlt: "Een tekenfilmfiguur in een superheldenkostuum gebruikt een schild om een vishengel met een phishingmail tegen te houden."
 coverCaption: ""
 ---
 {{< youtube id="GVv833KHqZc" >}}
 
 
-In de huidige digitale wereld is het belangrijker dan ooit om **phishing** e-mails, sms'jes en oproepen te herkennen. Deze frauduleuze berichten zijn bedoeld om uw persoonlijke gegevens te stelen, zoals uw wachtwoorden, creditcardnummers of burgerservicenummer. Hier volgen enkele tips over hoe u phishing-pogingen kunt herkennen, zodat u uw informatie veilig kunt houden.
+**Phishingmails**, sms'jes en telefoontjes proberen persoonlijke gegevens te stelen, zoals wachtwoorden, creditcardnummers of burgerservicenummers. Leer verdachte berichten herkennen voordat u reageert.
 
 ## Onthouden
 
-Als het gaat om het herkennen van phishing-pogingen, is de eerste stap om **te onthouden** dat ze bestaan. Phishing-pogingen komen vaak voor in e-mails, sms'jes en telefoontjes. U moet altijd wantrouwig staan tegenover elk bericht waarin om persoonlijke informatie wordt gevraagd, zelfs als het van een betrouwbare bron lijkt te komen.
+Begin met **onthouden** dat phishing via e-mail, sms en telefoongesprekken voorkomt. Wees voorzichtig met elk bericht dat om persoonlijke gegevens vraagt, ook als het van een vertrouwde bron lijkt te komen.
 
-## Begrip
+## Begrijpen
 
-De volgende stap is het **begrijpen** van de soorten berichten die bij phishingpogingen worden gebruikt. Er zijn een paar veel voorkomende soorten, waaronder:
+**Begrijp** welke soorten berichten vaak bij phishing worden gebruikt:
 
-- E-mails die van een financiële instelling lijken te komen en u vragen om uw rekeninggegevens bij te werken.
-- Tekstberichten met een link naar een valse website, waarin u wordt gevraagd uw inloggegevens in te voeren.
-- Telefoontjes van mensen die beweren van een bedrijf te zijn en u om persoonlijke informatie vragen.
+- E-mails die van een financiële instelling lijken te komen en vragen om uw accountgegevens bij te werken.
+- Sms'jes met een link naar een nepwebsite die om uw inloggegevens vraagt.
+- Telefoontjes van mensen die zeggen dat ze voor een bedrijf werken en om persoonlijke gegevens vragen.
 
 ## Analyseren
 
-Bij het analyseren van een bericht op tekenen van phishing zijn er een paar **belangrijke dingen** waar u op moet letten. Hier zijn enkele tips om phishing-e-mails, sms-berichten en telefoontjes te herkennen.
+Let bij het analyseren van een bericht op **belangrijke aanwijzingen**. Controleer de afzender, de inhoud en eventuele links of bijlagen.
 
 ### Frauduleuze e-mails
 
-Phishing-e-mails zijn zo ontworpen dat het lijkt alsof ze van een legitiem bedrijf afkomstig zijn, maar vaak hebben ze **waarschuwingssignalen** dat ze dat niet zijn. Hier zijn enkele dingen waar u op moet letten:
+Phishingmails lijken afkomstig van een echt bedrijf, maar bevatten vaak **waarschuwingssignalen**:
 
-- Het e-mailadres van de afzender is niet van het bedrijf waar hij beweert vandaan te komen.
-- De e-mail vraagt u uw accountgegevens bij te werken of persoonlijke gegevens te verstrekken
-- De e-mail bevat spelling- en grammaticafouten
-- De e-mail heeft een algemene begroeting, zoals "Beste klant" in plaats van uw naam.
-- De e-mail bevat een verdachte bijlage of link
+- Het e-mailadres van de afzender hoort niet bij het bedrijf dat de afzender zegt te vertegenwoordigen.
+- De e-mail vraagt u accountgegevens bij te werken of persoonlijke gegevens te verstrekken.
+- De e-mail bevat spelfouten of grammaticale fouten.
+- De e-mail begint met een algemene aanhef, zoals "Beste klant", in plaats van uw naam.
+- De e-mail bevat een verdachte bijlage of link.
 
-### Frauduleuze sms-berichten
+### Frauduleuze sms'jes
 
-Phishing-sms-berichten lijken op phishing-e-mails, maar bevatten vaak een **link** naar een valse website. Hier zijn enkele dingen waar u op moet letten:
+Phishing-sms'jes lijken op phishingmails, maar bevatten vaak een **link** naar een nepwebsite. Let op deze aanwijzingen:
 
-- De sms vraagt u te klikken op een link naar een website
-- De website maakt geen gebruik van een beveiligde verbinding (https)
-- De website vraagt u uw inloggegevens of persoonlijke informatie in te voeren
-- De website bevat spelling- en grammaticafouten
+- Het bericht vraagt u op een websitelink te klikken.
+- De website gebruikt geen beveiligde verbinding (https).
+- De website vraagt om uw inloggegevens of andere persoonlijke informatie.
+- De website bevat spelfouten of grammaticale fouten.
 
 ### Frauduleuze telefoontjes
 
-Phishing-oproepen komen vaak van **onbekende nummers** of nummers die van een legitiem bedrijf lijken te zijn. Hier zijn enkele dingen waar u op moet letten:
+Phishingtelefoontjes komen vaak van **onbekende nummers** of nummers die van een echt bedrijf lijken te zijn. Let op deze signalen:
 
-- De beller vraagt om persoonlijke informatie, zoals uw burgerservicenummer of creditcardnummer.
-- De beller beweert van een bedrijf te zijn, maar geeft geen bewijs.
-- De beller dreigt u met juridische stappen als u de gevraagde informatie niet geeft.
+- De beller vraagt om persoonlijke gegevens, zoals uw burgerservicenummer of creditcardnummer.
+- De beller zegt voor een bedrijf te werken, maar geeft geen bewijs.
+- De beller dreigt met juridische stappen als u de gevraagde informatie niet verstrekt.
 
 ## Toepassen
 
-Nu u weet welke soorten berichten bij phishingpogingen worden gebruikt, is het tijd om die kennis **toe te passen**. Als u een bericht ontvangt dat voldoet aan een van deze typen, wees dan achterdochtig. Als het bericht afkomstig is van een financiële instelling of een ander bedrijf, klik dan niet op links en geef geen persoonlijke informatie. Bel in plaats daarvan de klantenservice van het bedrijf om de echtheid van het bericht te verifiëren.
+**Pas uw kennis toe** zodra een bericht op een van deze voorbeelden lijkt. Wees op uw hoede. Klik niet op links en verstrek geen persoonlijke gegevens als een bericht zogenaamd van een financiële instelling of ander bedrijf komt. Bel het bedrijf via het officiële klantenservicenummer om het bericht te controleren.
 
-## Verspreid het woord
+## Deel uw kennis
 
-Nu u hebt geleerd hoe u phishing-e-mails, sms'jes en telefoontjes kunt herkennen, is het belangrijk om uw kennis met anderen te delen. Een van de meest effectieve manieren om dit te doen is om met uw vrienden en familieleden te praten over wat u hebt geleerd.
+Deel wat u hebt geleerd met vrienden en familie. Leg uit wat phishing is en hoe het werkt. Laat voorbeelden van phishingmails en sms'jes zien en wijs op de signalen die erop duiden dat ze niet echt zijn.
 
-Begin met uit te leggen wat phishing is en hoe het werkt. Laat hen voorbeelden zien van phishing-e-mails en sms-berichten en wijs hen op de tekenen die erop wijzen dat deze niet legitiem zijn. Benadruk het belang om nooit op links te klikken of bijlagen van onbekende bronnen te downloaden, en moedig hen aan om de klantenservice van het bedrijf te bellen als ze twijfelen aan de echtheid van een bericht.
+Benadruk dat niemand op links moet klikken of bijlagen van onbekende bronnen moet downloaden. Raad mensen aan de klantenservice van het bedrijf te bellen als ze twijfelen aan de echtheid van een bericht.
 
-Als u oudere of minder technisch onderlegde dierbaren hebt, wees dan extra waakzaam. Zij kunnen kwetsbaarder zijn voor dit soort aanvallen en zijn zich misschien niet bewust van de risico's die ermee gepaard gaan. Door uw kennis te delen en hen te helpen veilig online te gaan, kunt u echt een verschil maken in hun leven.
+Let extra op bij oudere familieleden en mensen die minder vertrouwd zijn met technologie. Zij zijn mogelijk kwetsbaarder en kennen de risico's misschien niet. Door kennis te delen, helpt u hen online veilig te blijven.

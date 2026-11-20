@@ -1,71 +1,71 @@
 ---
-title: "Jak rozpoznać phishingowe e-maile, SMS-y i telefony"
+title: "Jak rozpoznać phishingowe e-maile, SMS-y i połączenia telefoniczne"
 date: 2023-03-01
 lastmod: 2026-11-20
 toc: true
 draft: false
-description: "Dowiedz się, jak rozpoznać próby wyłudzenia informacji w wiadomościach e-mail, SMS-ach i rozmowach telefonicznych, aby zachować bezpieczeństwo swoich danych osobowych."
-tags: ["phishing", "bezpieczeństwo w sieci", "bezpieczeństwo poczty elektronicznej", "cyberbezpieczeństwo", "bezpieczeństwo internetu", "maile phishingowe", "SMS-y phishingowe", "rozmowy phishingowe", "zagrożenia cyfrowe", "kradzież tożsamości", "ochrona danych", "oszustwo internetowe", "oszustwa internetowe", "prywatność w sieci", "wskazówki dotyczące bezpieczeństwa w sieci", "cyberprzestępczość", "bezpieczeństwo informacji", "bezpieczeństwo haseł", "bezpieczeństwo danych", "świadomość bezpieczeństwa"]
+description: "Dowiedz się, jak rozpoznawać próby phishingu w e-mailach, SMS-ach i rozmowach telefonicznych, aby chronić dane osobowe."
+tags: ["wyłudzanie danych", "bezpieczeństwo online", "bezpieczeństwo poczty elektronicznej", "cyberbezpieczeństwo", "bezpieczeństwo w internecie", "phishingowe e-maile", "phishingowe SMS-y", "połączenia phishingowe", "zagrożenia cyfrowe", "kradzież tożsamości", "ochrona danych", "oszustwa internetowe", "oszustwa online", "prywatność online", "porady dotyczące bezpieczeństwa online", "cyberprzestępczość", "bezpieczeństwo informacji", "bezpieczeństwo haseł", "bezpieczeństwo danych", "świadomość bezpieczeństwa"]
 cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
-coverAlt: "Obraz postaci z kreskówki w kostiumie superbohatera i z tarczą blokującą wędkę, na której znajduje się e-mail phishingowy."
+coverAlt: "Postać z kreskówki w kostiumie superbohatera osłania się tarczą przed wędką z wiadomością phishingową."
 coverCaption: ""
 ---
 {{< youtube id="GVv833KHqZc" >}}
 
 
-W dzisiejszym cyfrowym świecie bardziej niż kiedykolwiek ważna jest umiejętność rozpoznawania **phishingowych** e-maili, SMS-ów i połączeń. Te fałszywe wiadomości mają na celu kradzież danych osobowych, takich jak hasła, numery kart kredytowych czy numery ubezpieczenia społecznego. Oto kilka wskazówek, jak rozpoznać próby phishingu, aby zachować bezpieczeństwo swoich informacji.
+**Wiadomości phishingowe**, SMS-y i połączenia telefoniczne mają wyłudzić dane osobowe, takie jak hasła, numery kart kredytowych lub numery ubezpieczenia społecznego. Naucz się rozpoznawać podejrzane wiadomości, zanim na nie odpowiesz.
 
-## Zapamiętaj
+## Pamiętaj
 
-Jeśli chodzi o identyfikację prób phishingu, pierwszym krokiem jest **pamiętanie** o ich istnieniu. Próby phishingu są powszechne i można je znaleźć w e-mailach, SMS-ach i rozmowach telefonicznych. Zawsze należy być podejrzliwym wobec każdej wiadomości, która prosi o podanie danych osobowych, nawet jeśli wydaje się pochodzić z zaufanego źródła.
+**Pamiętaj**, że phishing występuje w e-mailach, SMS-ach i rozmowach telefonicznych. Zachowaj ostrożność wobec każdej wiadomości z prośbą o dane osobowe, nawet jeśli wygląda na wysłaną przez zaufane źródło.
 
-## Zrozumienie
+## Zrozum
 
-Następnym krokiem jest **zrozumienie** typów wiadomości, które są wykorzystywane w próbach phishingu. Istnieje kilka popularnych typów, w tym:
+**Rozpoznaj** typowe rodzaje wiadomości wykorzystywanych w phishingu:
 
-- Wiadomości e-mail, które wydają się pochodzić od instytucji finansowej, z prośbą o aktualizację informacji o koncie.
-- SMS-y zawierające link do fałszywej strony internetowej z prośbą o podanie danych do logowania
-- Telefony od osób podających się za przedstawicieli firmy, proszących o podanie danych osobowych
+- E-maile wyglądające na wysłane przez instytucję finansową, które proszą o aktualizację danych konta.
+- SMS-y z linkiem do fałszywej strony proszącej o dane logowania.
+- Telefony od osób podających się za pracowników firmy i proszących o dane osobowe.
 
-## Analizując
+## Analizuj
 
-Analizując wiadomość pod kątem oznak phishingu, należy zwrócić uwagę na kilka **kluczowych rzeczy**. Oto kilka wskazówek, jak rozpoznać phishingowe e-maile, SMS-y i telefony.
+Szukaj **ważnych sygnałów ostrzegawczych**. Sprawdź nadawcę, treść oraz linki i załączniki.
 
-### Wiadomości e-mail wyłudzające dane
+### Fałszywe e-maile
 
-Wiadomości phishingowe są zaprojektowane tak, aby wyglądały na pochodzące z legalnej firmy, ale często zawierają **sygnały ostrzegawcze**, które wskazują na próbę oszustwa. Oto kilka rzeczy, których należy szukać:
+Wiadomości phishingowe często udają korespondencję od prawdziwej firmy, ale zwykle zawierają **sygnały ostrzegawcze**:
 
-- Adres e-mail nadawcy nie pochodzi od firmy, za którą się podaje
-- E-mail prosi o aktualizację informacji o koncie lub podanie danych osobowych
-- E-mail zawiera błędy ortograficzne lub gramatyczne
-- E-mail zawiera ogólne pozdrowienie, takie jak "Drogi Kliencie" zamiast Twojego imienia
-- E-mail zawiera podejrzany załącznik lub link
+- Adres nadawcy nie należy do firmy, za którą podaje się nadawca.
+- E-mail prosi o aktualizację danych konta lub podanie danych osobowych.
+- E-mail zawiera błędy ortograficzne lub gramatyczne.
+- E-mail zaczyna się od ogólnego powitania, na przykład „Szanowny Kliencie”, zamiast od Twojego imienia.
+- E-mail zawiera podejrzany załącznik lub link.
 
-### SMS-y wyłudzające dane
+### Fałszywe SMS-y
 
-Phishingowe SMS-y są podobne do phishingowych e-maili, ale często zawierają **link** do fałszywej strony internetowej. Oto kilka rzeczy, których należy szukać:
+Phishingowe SMS-y przypominają e-maile tego typu, ale często zawierają **link** do fałszywej strony. Zwróć uwagę na następujące sygnały:
 
-- SMS prosi o kliknięcie na link do strony internetowej
-- Strona nie korzysta z bezpiecznego połączenia (https)
-- Strona prosi o wprowadzenie danych do logowania lub danych osobowych
-- Strona zawiera błędy ortograficzne lub gramatyczne
+- Wiadomość prosi o kliknięcie linku do strony internetowej.
+- Strona nie korzysta z bezpiecznego połączenia (https).
+- Strona prosi o dane logowania lub inne dane osobowe.
+- Strona zawiera błędy ortograficzne lub gramatyczne.
 
-### Połączenia wyłudzające dane
+### Podejrzane połączenia
 
-Połączenia phishingowe często pochodzą z **nieznanych numerów** lub numerów, które wydają się być z legalnej firmy. Oto kilka rzeczy, na które należy zwrócić uwagę:
+Połączenia phishingowe często pochodzą z **nieznanych numerów** albo numerów wyglądających na firmowe. Uważaj na następujące sygnały:
 
-- Osoba dzwoniąca prosi o podanie danych osobowych, takich jak numer ubezpieczenia społecznego lub numer karty kredytowej
-- Osoba dzwoniąca twierdzi, że jest z firmy, ale nie przedstawia żadnego dowodu
-- Osoba dzwoniąca grozi podjęciem działań prawnych, jeśli nie poda żądanych informacji
+- Rozmówca prosi o dane osobowe, takie jak numer ubezpieczenia społecznego lub numer karty kredytowej.
+- Rozmówca twierdzi, że reprezentuje firmę, ale nie przedstawia dowodu.
+- Rozmówca grozi konsekwencjami prawnymi, jeśli nie podasz żądanych informacji.
 
-## Zastosowanie
+## Zastosuj wiedzę
 
-Teraz, gdy już rozumiesz rodzaje wiadomości wykorzystywanych w próbach phishingu, nadszedł czas na **stosowanie** tej wiedzy. Jeśli otrzymasz wiadomość, która pasuje do jednego z tych typów, bądź podejrzliwy. Jeśli wiadomość pochodzi od instytucji finansowej lub innej firmy, nie klikaj na żadne linki ani nie podawaj żadnych danych osobowych. Zamiast tego zadzwoń na linię obsługi klienta firmy, aby zweryfikować autentyczność wiadomości.
+**Zastosuj tę wiedzę**, gdy otrzymasz wiadomość przypominającą jeden z opisanych przykładów. Zachowaj ostrożność. Jeśli wiadomość rzekomo pochodzi od instytucji finansowej lub innej firmy, nie klikaj linków i nie podawaj danych osobowych. Zadzwoń na oficjalny numer obsługi klienta firmy, aby zweryfikować wiadomość.
 
-## Podziel się zdobytą wiedzą
+## Podziel się wiedzą
 
-Teraz, gdy nauczyłeś się już, jak rozpoznawać phishingowe e-maile, SMS-y i telefony, ważne jest, abyś podzielił się swoją wiedzą z innymi. Jednym z najbardziej efektywnych sposobów jest rozmowa z przyjaciółmi i członkami rodziny o tym, czego się nauczyłeś.
+Przekaż zdobytą wiedzę rodzinie i znajomym. Wyjaśnij, czym jest phishing i jak działa. Pokaż przykłady phishingowych e-maili i SMS-ów oraz wskaż sygnały, które świadczą o ich fałszywym charakterze.
 
-Zacznij od wyjaśnienia, czym jest phishing i jak działa. Pokaż im przykłady phishingowych e-maili i SMS-ów oraz wskaż znaki ostrzegawcze, że nie są one legalne. Podkreśl, jak ważne jest, by nigdy nie klikać linków ani nie pobierać załączników z nieznanych źródeł, i zachęć ich, by w razie wątpliwości co do autentyczności wiadomości zadzwonili na linię obsługi klienta firmy.
+Podkreśl, że nie należy klikać linków ani pobierać załączników z nieznanych źródeł. Zachęć bliskich, by w razie wątpliwości zadzwonili na oficjalną infolinię firmy.
 
-Jeśli masz starszych lub mniej obeznanych z technologią bliskich, bądź szczególnie czujny. Osoby te mogą być bardziej narażone na tego typu ataki i mogą nie być świadome związanych z nimi zagrożeń. Dzieląc się swoją wiedzą i pomagając im zachować bezpieczeństwo w sieci, możesz dokonać prawdziwej zmiany w ich życiu.
+Zwróć szczególną uwagę na starszych bliskich i osoby mniej obeznane z technologią. Mogą być bardziej narażone na takie ataki i nie znać związanych z nimi zagrożeń. Dzieląc się wiedzą, pomagasz im bezpiecznie korzystać z internetu.

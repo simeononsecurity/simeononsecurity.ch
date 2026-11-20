@@ -1,71 +1,71 @@
 ---
-title: "Cómo identificar correos electrónicos, mensajes SMS y llamadas de phishing"
+title: "Cómo reconocer correos, SMS y llamadas de phishing"
 date: 2023-03-01
 lastmod: 2026-11-20
 toc: true
 draft: false
-description: "Aprenda a identificar los intentos de phishing en correos electrónicos, mensajes SMS y llamadas para mantener a salvo su información personal."
-tags: ["phishing", "seguridad en línea", "seguridad del correo electrónico", "ciberseguridad", "seguridad en internet", "correos electrónicos de phishing", "mensajes SMS de phishing", "llamadas de phishing", "amenazas digitales", "robo de identidad", "protección de datos", "fraude en línea", "estafas en línea", "privacidad en línea", "consejos de seguridad en línea", "ciberdelincuencia", "seguridad de la información", "seguridad de contraseñas", "seguridad de los datos", "concienciación sobre seguridad"]
+description: "Aprenda a reconocer intentos de phishing por correo, SMS y teléfono para proteger sus datos personales."
+tags: ["suplantación de identidad", "seguridad en línea", "seguridad del correo electrónico", "ciberseguridad", "seguridad en internet", "correos de phishing", "SMS de phishing", "llamadas de phishing", "amenazas digitales", "robo de identidad", "protección de datos", "fraude en línea", "estafas en línea", "privacidad en línea", "consejos de seguridad en línea", "ciberdelincuencia", "seguridad de la información", "seguridad de contraseñas", "seguridad de datos", "concienciación sobre seguridad"]
 cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
-coverAlt: "Una imagen de un personaje de dibujos animados con un traje de superhéroe y un escudo bloqueando una caña de pescar con un correo electrónico de phishing."
+coverAlt: "Un personaje de dibujos animados con traje de superhéroe usa un escudo para bloquear una caña de pescar con un correo de phishing."
 coverCaption: ""
 ---
 {{< youtube id="GVv833KHqZc" >}}
 
 
-En el mundo digital actual, es más importante que nunca ser capaz de identificar los correos electrónicos, mensajes SMS y llamadas de **phishing**. Estos mensajes fraudulentos están diseñados para robar su información personal, como contraseñas, números de tarjetas de crédito o números de la Seguridad Social. He aquí algunos consejos sobre cómo identificar los intentos de phishing, para que pueda mantener su información a salvo.
+Los correos, SMS y llamadas de **phishing** intentan robar datos personales, como contraseñas, números de tarjetas de crédito o números de la Seguridad Social. Aprenda a reconocer mensajes sospechosos antes de responder.
 
 ## Recordar
 
-Cuando se trata de identificar intentos de phishing, el primer paso es **recordar** que existen. Los intentos de phishing son comunes y pueden encontrarse en correos electrónicos, mensajes SMS y llamadas telefónicas. Desconfíe siempre de cualquier mensaje que le pida información personal, aunque parezca proceder de una fuente de confianza.
+**Recuerde** que el phishing llega por correo electrónico, SMS y llamadas telefónicas. Desconfíe de cualquier mensaje que solicite datos personales, aunque parezca proceder de una fuente de confianza.
 
-## Comprensión
+## Comprender
 
-El siguiente paso es **comprender** los tipos de mensajes que se utilizan en los intentos de phishing. Hay algunos tipos comunes, incluyendo:
+**Reconozca** los tipos de mensajes que se usan con frecuencia en el phishing:
 
-- Correos electrónicos que parecen proceder de una institución financiera y le piden que actualice la información de su cuenta.
-- Mensajes SMS que contienen un enlace a un sitio web falso y le piden que introduzca sus datos de acceso.
-- Llamadas telefónicas de personas que dicen ser de una empresa y le piden información personal.
+- Correos que parecen proceder de una entidad financiera y piden actualizar los datos de la cuenta.
+- SMS con un enlace a un sitio web falso que solicita sus credenciales.
+- Llamadas de personas que dicen trabajar para una empresa y piden información personal.
 
-## Análisis
+## Analizar
 
-Al analizar un mensaje en busca de indicios de phishing, hay que tener en cuenta **algunas cosas clave**. He aquí algunos consejos para identificar los correos electrónicos, los mensajes SMS y las llamadas de phishing.
+Busque **señales importantes**. Revise quién envía el mensaje, su contenido y los enlaces o archivos adjuntos.
 
-### Correos electrónicos fraudulentos
+### Correos fraudulentos
 
-Los correos electrónicos de phishing están diseñados para que parezcan de una empresa legítima, pero a menudo tienen **signos reveladores** de que no lo son. Estas son algunas de las cosas que debe tener en cuenta:
+Los correos de phishing imitan los mensajes de empresas legítimas, pero suelen incluir **señales de alerta**:
 
-- La dirección de correo electrónico del remitente no es de la empresa de la que dicen proceder.
-- El correo electrónico le pide que actualice la información de su cuenta o que facilite datos personales.
-- El correo electrónico contiene errores ortográficos o gramaticales.
-- El mensaje contiene un saludo genérico, como "Estimado cliente", en lugar de su nombre.
-- El correo electrónico contiene un archivo adjunto o un enlace sospechoso.
+- La dirección del remitente no pertenece a la empresa que dice representar.
+- El correo pide actualizar los datos de la cuenta o facilitar información personal.
+- El correo contiene errores ortográficos o gramaticales.
+- El correo usa un saludo genérico, como «Estimado cliente», en vez de su nombre.
+- El correo contiene un archivo adjunto o un enlace sospechoso.
 
-### Mensajes SMS fraudulentos
+### SMS fraudulentos
 
-Los mensajes SMS de phishing son similares a los correos electrónicos de phishing, pero a menudo contienen un **enlace** a un sitio web falso. Estas son algunas de las cosas que hay que tener en cuenta:
+Los SMS de phishing se parecen a los correos de phishing, pero suelen incluir un **enlace** a un sitio falso. Preste atención a estas señales:
 
-- El SMS le pide que haga clic en un enlace a un sitio web.
-- El sitio web no utiliza una conexión segura (https).
-- El sitio web le pide que introduzca sus datos de acceso o información personal.
+- El mensaje le pide abrir un enlace a un sitio web.
+- El sitio web no usa una conexión segura (https).
+- El sitio web solicita sus credenciales u otros datos personales.
 - El sitio web contiene errores ortográficos o gramaticales.
 
 ### Llamadas fraudulentas
 
-Las llamadas de phishing suelen proceder de **números desconocidos** o de números que parecen ser de una empresa legítima. He aquí algunas cosas en las que fijarse:
+Las llamadas de phishing suelen proceder de **números desconocidos** o de números que parecen pertenecer a una empresa legítima. Tenga en cuenta estas señales:
 
-- La persona que llama solicita información personal, como el número de la seguridad social o el de la tarjeta de crédito.
-- La persona que llama afirma pertenecer a una empresa, pero no aporta ninguna prueba.
-- La persona que llama le amenaza con emprender acciones legales si no facilita la información solicitada.
+- La persona que llama pide datos personales, como su número de la Seguridad Social o de tarjeta de crédito.
+- La persona afirma representar a una empresa, pero no aporta pruebas.
+- La persona amenaza con emprender acciones legales si no facilita la información solicitada.
 
-## Aplicar
+## Aplicar lo aprendido
 
-Ahora que conoce los tipos de mensajes utilizados en los intentos de phishing, es hora de **aplicar** esos conocimientos. Si recibe un mensaje que se ajusta a uno de estos tipos, desconfíe. Si el mensaje procede de una entidad financiera u otra empresa, no haga clic en ningún enlace ni facilite información personal. Llame al servicio de atención al cliente de la empresa para verificar la autenticidad del mensaje.
+**Aplique estos consejos** cuando reciba un mensaje parecido a los ejemplos. Desconfíe. Si el mensaje parece proceder de una entidad financiera u otra empresa, no abra enlaces ni facilite datos personales. Llame a la empresa mediante su número oficial de atención al cliente para verificar el mensaje.
 
-## Corre la voz
+## Compartir lo aprendido
 
-Ahora que ha aprendido a identificar los correos electrónicos, los mensajes SMS y las llamadas de phishing, es importante que comparta sus conocimientos con los demás. Una de las formas más eficaces de hacerlo es hablar con sus amigos y familiares sobre lo que ha aprendido.
+Comparta estos conocimientos con sus amistades y familiares. Explique qué es el phishing y cómo funciona. Muestre ejemplos de correos y SMS de phishing e indique las señales que permiten reconocerlos.
 
-Empiece explicándoles qué es el phishing y cómo funciona. Muéstreles ejemplos de correos electrónicos y mensajes SMS de phishing y señale las señales que indican que no son legítimos. Haga hincapié en la importancia de no hacer nunca clic en enlaces ni descargar archivos adjuntos de fuentes desconocidas, y anímelos a llamar al teléfono de atención al cliente de la empresa si alguna vez tienen dudas sobre la autenticidad de un mensaje.
+Insista en que no se debe abrir enlaces ni descargar archivos adjuntos de fuentes desconocidas. Si alguien duda de la autenticidad de un mensaje, recomiéndele llamar al servicio oficial de atención al cliente de la empresa.
 
-Si tiene seres queridos mayores o con menos conocimientos tecnológicos, esté especialmente atento. Pueden ser más vulnerables a este tipo de ataques y no ser conscientes de los riesgos que entrañan. Si comparte con ellos sus conocimientos y les ayuda a mantenerse seguros en Internet, puede marcar una verdadera diferencia en sus vidas.
+Preste especial atención a familiares mayores o con menos experiencia tecnológica. Pueden estar más expuestos a estos ataques y desconocer los riesgos. Compartir sus conocimientos les ayuda a mantenerse seguros en internet.

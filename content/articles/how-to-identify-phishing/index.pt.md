@@ -1,71 +1,71 @@
 ---
-title: "Como identificar e-mails, mensagens e ligações de phishing"
+title: "Como identificar e-mails, mensagens e chamadas de phishing"
 date: 2023-03-01
 lastmod: 2026-11-20
 toc: true
 draft: false
-description: "Aprenda a reconhecer tentativas de phishing em e-mails, mensagens de texto e ligações para proteger suas informações pessoais."
-tags: ["phishing", "segurança online", "segurança de e-mail", "cibersegurança", "segurança na internet", "e-mails de phishing", "mensagens de phishing", "ligações de phishing", "ameaças digitais", "roubo de identidade", "proteção de dados", "fraude online", "golpes online", "privacidade online", "dicas de segurança online", "cibercrime", "segurança da informação", "segurança de senhas", "segurança de dados", "conscientização sobre segurança"]
+description: "Aprenda a identificar tentativas de phishing por e-mail, mensagem e telefone para proteger seus dados pessoais."
+tags: ["fraude por personificação", "segurança online", "segurança de e-mail", "cibersegurança", "segurança na internet", "e-mails de phishing", "mensagens de phishing", "chamadas de phishing", "ameaças digitais", "roubo de identidade", "proteção de dados", "fraude online", "golpes online", "privacidade online", "dicas de segurança online", "cibercrime", "segurança da informação", "segurança de senhas", "segurança de dados", "conscientização sobre segurança"]
 cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
-coverAlt: "Personagem de desenho animado vestido de super-herói usa um escudo para bloquear uma vara de pesca com um e-mail de phishing."
+coverAlt: "Um personagem de desenho animado vestido de super-herói usa um escudo para bloquear uma vara de pesca com um e-mail de phishing."
 coverCaption: ""
 ---
 {{< youtube id="GVv833KHqZc" >}}
 
 
-Hoje, saber identificar e-mails, mensagens e ligações de **phishing** é mais importante do que nunca. Essas mensagens fraudulentas tentam roubar informações pessoais, como senhas, números de cartão de crédito ou número do Seguro Social. Veja algumas maneiras de reconhecer tentativas de phishing e manter seus dados protegidos.
+E-mails, mensagens e chamadas de **phishing** tentam roubar dados pessoais, como senhas, números de cartão de crédito ou números de previdência social. Aprenda a reconhecer mensagens suspeitas antes de responder.
 
-## Lembre-se
+## Lembrar
 
-O primeiro passo para identificar tentativas de phishing é **lembrar** que elas existem. Elas aparecem com frequência em e-mails, mensagens de texto e ligações telefônicas. Desconfie sempre de qualquer mensagem que peça informações pessoais, mesmo que pareça vir de uma fonte confiável.
+**Lembre-se** de que o phishing chega por e-mail, mensagem de texto e ligação telefônica. Desconfie de qualquer mensagem que peça dados pessoais, mesmo quando parecer vir de uma fonte confiável.
 
-## Entenda
+## Entender
 
-O próximo passo é **entender** os tipos de mensagem usados em tentativas de phishing. Alguns tipos comuns são:
+**Reconheça** os tipos de mensagem usados com frequência em tentativas de phishing:
 
-- E-mails que parecem vir de uma instituição financeira e pedem que você atualize os dados da conta
-- Mensagens de texto com um link para um site falso que pedem seus dados de acesso
-- Ligações de pessoas que dizem representar uma empresa e pedem informações pessoais
+- E-mails que parecem vir de uma instituição financeira e pedem a atualização dos dados da conta.
+- Mensagens de texto com um link para um site falso que solicita seus dados de acesso.
+- Ligações de pessoas que dizem trabalhar para uma empresa e pedem informações pessoais.
 
-## Analise
+## Analisar
 
-Ao analisar uma mensagem em busca de sinais de phishing, observe alguns **pontos importantes**. Estas dicas ajudam a identificar e-mails, mensagens e ligações suspeitos.
+Procure **sinais importantes**. Confira quem enviou a mensagem, o conteúdo, os links e os anexos.
 
 ### E-mails fraudulentos
 
-E-mails de phishing tentam parecer enviados por uma empresa legítima, mas muitas vezes apresentam **sinais reveladores**. Observe estes pontos:
+E-mails de phishing imitam mensagens de empresas legítimas, mas costumam apresentar **sinais de alerta**:
 
-- O endereço de e-mail do remetente não pertence à empresa que ele diz representar
-- O e-mail pede que você atualize os dados da conta ou forneça informações pessoais
-- O e-mail contém erros de ortografia ou gramática
-- O e-mail usa uma saudação genérica, como “Prezado cliente”, em vez do seu nome
-- O e-mail contém um anexo ou link suspeito
+- O endereço do remetente não pertence à empresa que ele diz representar.
+- O e-mail pede que você atualize os dados da conta ou informe dados pessoais.
+- O e-mail contém erros de ortografia ou gramática.
+- O e-mail usa uma saudação genérica, como “Prezado cliente”, em vez do seu nome.
+- O e-mail contém um anexo ou link suspeito.
 
-### Mensagens de texto fraudulentas
+### Mensagens fraudulentas
 
-As mensagens de phishing são parecidas com os e-mails e muitas vezes contêm um **link** para um site falso. Observe estes pontos:
+Mensagens de phishing se parecem com e-mails desse tipo, mas costumam trazer um **link** para um site falso. Fique atento a estes sinais:
 
-- A mensagem pede que você clique em um link para um site
-- O site não usa uma conexão segura (https)
-- O site pede que você informe seus dados de acesso ou informações pessoais
-- O site contém erros de ortografia ou gramática
+- A mensagem pede que você abra um link para um site.
+- O site não usa uma conexão segura (https).
+- O site solicita seus dados de acesso ou outras informações pessoais.
+- O site contém erros de ortografia ou gramática.
 
-### Ligações fraudulentas
+### Chamadas fraudulentas
 
-As ligações de phishing muitas vezes vêm de **números desconhecidos** ou de números que parecem pertencer a uma empresa legítima. Observe estes pontos:
+Chamadas de phishing costumam vir de **números desconhecidos** ou de números que parecem pertencer a uma empresa legítima. Observe estes sinais:
 
-- A pessoa pede informações pessoais, como seu número do Seguro Social ou do cartão de crédito
-- A pessoa diz representar uma empresa, mas não apresenta nenhuma prova
-- A pessoa ameaça tomar medidas legais se você não fornecer as informações solicitadas
+- A pessoa que liga pede dados pessoais, como seu número de previdência social ou de cartão de crédito.
+- A pessoa afirma representar uma empresa, mas não apresenta provas.
+- A pessoa ameaça tomar medidas legais se você não fornecer as informações solicitadas.
 
-## Coloque em prática
+## Aplicar o que aprendeu
 
-Agora que você entende os tipos de mensagem usados em tentativas de phishing, é hora de **colocar** esse conhecimento em prática. Desconfie se receber uma mensagem que se encaixe em um desses tipos. Se ela parecer vir de uma instituição financeira ou de outra empresa, não clique nos links nem forneça informações pessoais. Ligue para o atendimento ao cliente da empresa e confirme se a mensagem é autêntica.
+**Aplique** estas orientações ao receber uma mensagem parecida com os exemplos. Tenha cautela. Se ela parecer vir de uma instituição financeira ou de outra empresa, não abra links nem informe dados pessoais. Ligue para a empresa usando o número oficial do atendimento ao cliente para verificar a mensagem.
 
-## Compartilhe o que aprendeu
+## Compartilhar o conhecimento
 
-Depois de aprender a identificar e-mails, mensagens e ligações de phishing, compartilhe esse conhecimento com outras pessoas. Conversar com amigos e familiares sobre o que você aprendeu é uma das maneiras mais eficazes de fazer isso.
+Compartilhe o que aprendeu com amigos e familiares. Explique o que é phishing e como funciona. Mostre exemplos de e-mails e mensagens de phishing e aponte os sinais que indicam que são falsos.
 
-Comece explicando o que é phishing e como funciona. Mostre exemplos de e-mails e mensagens de phishing e indique os sinais de que não são legítimos. Explique por que não se deve clicar em links nem baixar anexos de fontes desconhecidas. Se alguém tiver dúvidas sobre a autenticidade de uma mensagem, incentive essa pessoa a ligar para o atendimento ao cliente da empresa.
+Reforce que ninguém deve abrir links nem baixar anexos de fontes desconhecidas. Se alguém duvidar da autenticidade de uma mensagem, recomende que ligue para o atendimento oficial da empresa.
 
-Tenha atenção especial se você convive com idosos ou pessoas com menos familiaridade com tecnologia. Elas podem estar mais vulneráveis a esses ataques e talvez não conheçam os riscos. Compartilhe o que sabe e ajude-as a se manter seguras online. Isso pode fazer uma diferença real na vida delas.
+Preste atenção especial a familiares idosos e a pessoas com menos familiaridade com tecnologia. Elas podem estar mais expostas a esses ataques e desconhecer os riscos. Compartilhar conhecimento ajuda essas pessoas a se manterem seguras online.

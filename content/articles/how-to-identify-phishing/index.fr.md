@@ -1,71 +1,71 @@
 ---
-title: "Comment identifier les courriels, les SMS et les appels de hameçonnage ?"
+title: "Comment reconnaître les e-mails, SMS et appels de phishing"
 date: 2023-03-01
 lastmod: 2026-11-20
 toc: true
 draft: false
-description: "Apprenez à identifier les tentatives d'hameçonnage dans les courriels, les SMS et les appels afin de protéger vos informations personnelles."
-tags: ["hameçonnage", "sécurité en ligne", "Sécurité du courrier électronique", "cybersécurité", "sécurité sur internet", "courriels d'hameçonnage", "SMS d'hameçonnage", "appels de hameçonnage", "menaces numériques", "vol d'identité", "protection des données", "fraude en ligne", "escroqueries en ligne", "vie privée en ligne", "Conseils de sécurité en ligne", "cybercriminalité", "la sécurité de l'information", "sécurité du mot de passe", "la sécurité des données", "sensibilisation à la sécurité"]
+description: "Apprenez à reconnaître le phishing par e-mail, SMS et téléphone afin de protéger vos informations personnelles."
+tags: ["hameçonnage", "sécurité en ligne", "sécurité des e-mails", "cybersécurité", "sécurité sur internet", "e-mails d'hameçonnage", "SMS d'hameçonnage", "appels d'hameçonnage", "menaces numériques", "vol d'identité", "protection des données", "fraude en ligne", "arnaques en ligne", "vie privée en ligne", "conseils de sécurité en ligne", "cybercriminalité", "sécurité de l'information", "sécurité des mots de passe", "sécurité des données", "sensibilisation à la sécurité"]
 cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
-coverAlt: "Image d'un personnage de dessin animé portant un costume de super-héros et un bouclier, bloquant une canne à pêche sur laquelle figure un courriel de hameçonnage."
+coverAlt: "Un personnage de dessin animé en costume de super-héros bloque avec un bouclier une canne à pêche portant un e-mail d'hameçonnage."
 coverCaption: ""
 ---
 {{< youtube id="GVv833KHqZc" >}}
 
 
-Dans le monde numérique d'aujourd'hui, il est plus important que jamais d'être capable d'identifier les courriels, les SMS et les appels de **hameçonnage**. Ces messages frauduleux sont conçus pour voler vos informations personnelles, telles que vos mots de passe, vos numéros de carte de crédit ou votre numéro de sécurité sociale. Voici quelques conseils pour identifier les tentatives d'hameçonnage et protéger vos informations.
+Les e-mails, SMS et appels de **phishing** cherchent à voler des informations personnelles, comme des mots de passe, des numéros de carte bancaire ou des numéros de sécurité sociale. Apprenez à repérer les messages suspects avant d'y répondre.
 
 ## Se souvenir
 
-Lorsqu'il s'agit d'identifier les tentatives d'hameçonnage, la première étape consiste à **se souvenir** qu'elles existent. Les tentatives d'hameçonnage sont courantes et se présentent sous la forme d'e-mails, de SMS et d'appels téléphoniques. Vous devez toujours vous méfier de tout message demandant des informations personnelles, même s'il semble provenir d'une source fiable.
+**Souvenez-vous** que le phishing existe par e-mail, SMS et téléphone. Méfiez-vous de tout message qui demande des informations personnelles, même s'il semble provenir d'une source fiable.
 
 ## Comprendre
 
-L'étape suivante consiste à **comprendre** les types de messages utilisés dans les tentatives de hameçonnage. Il existe quelques types courants, notamment
+**Reconnaissez** les types de messages souvent utilisés pour le phishing :
 
-- des courriels semblant provenir d'une institution financière et vous demandant de mettre à jour les informations relatives à votre compte.
-- des SMS contenant un lien vers un faux site web et vous demandant vos informations de connexion.
-- des appels téléphoniques de personnes se présentant comme des représentants d'une entreprise et demandant des informations personnelles.
+- Des e-mails qui semblent provenir d'un établissement financier et demandent une mise à jour des informations du compte.
+- Des SMS contenant un lien vers un faux site qui demande vos identifiants.
+- Des appels de personnes qui prétendent travailler pour une entreprise et demandent des informations personnelles.
 
 ## Analyser
 
-Lorsqu'on analyse un message pour y déceler des signes d'hameçonnage, il y a quelques **éléments clés** à rechercher. Voici quelques conseils pour identifier les courriels, les SMS et les appels de hameçonnage.
+Recherchez les **indices importants**. Vérifiez l'expéditeur, le contenu, ainsi que les liens et les pièces jointes.
 
-### Courriels d’hameçonnage
+### Courriels frauduleux
 
-Les courriels de hameçonnage sont conçus pour donner l'impression qu'ils proviennent d'une entreprise légitime, mais ils présentent souvent des **signes révélateurs** qui indiquent que ce n'est pas le cas. Voici quelques éléments à vérifier :
+Les e-mails de phishing imitent souvent ceux d'une entreprise légitime, mais présentent des **signes révélateurs** :
 
-- L'adresse électronique de l'expéditeur n'est pas celle de l'entreprise dont il se réclame.
-- L'e-mail vous demande de mettre à jour les informations de votre compte ou de fournir des informations personnelles.
-- Le courriel contient des fautes d'orthographe ou de grammaire
-- L'e-mail contient une formule de salutation générique, telle que "Cher client", au lieu de votre nom.
+- L'adresse de l'expéditeur n'appartient pas à l'entreprise qu'il prétend représenter.
+- L'e-mail demande une mise à jour des informations du compte ou la communication de données personnelles.
+- L'e-mail contient des fautes d'orthographe ou de grammaire.
+- L'e-mail utilise une formule générique, comme « Cher client », au lieu de votre nom.
 - L'e-mail contient une pièce jointe ou un lien suspect.
 
-### SMS d’hameçonnage
+### SMS frauduleux
 
-Les SMS d’hameçonnage sont similaires aux courriels d’hameçonnage, mais ils contiennent souvent un **lien** vers un faux site web. Voici quelques éléments à vérifier :
+Les SMS de phishing ressemblent aux e-mails de phishing, mais comprennent souvent un **lien** vers un faux site. Repérez ces indices :
 
-- Le SMS vous demande de cliquer sur un lien vers un site web.
-- Le site web n'utilise pas une connexion sécurisée (https)
-- Le site web vous demande de saisir vos informations de connexion ou vos informations personnelles.
-- Le site web contient des fautes d'orthographe ou de grammaire
+- Le message vous demande d'ouvrir un lien vers un site web.
+- Le site n'utilise pas de connexion sécurisée (https).
+- Le site demande vos identifiants ou d'autres informations personnelles.
+- Le site contient des fautes d'orthographe ou de grammaire.
 
 ### Appels frauduleux
 
-Les appels de hameçonnage proviennent souvent de numéros **inconnus** ou de numéros qui semblent provenir d'une entreprise légitime. Voici quelques éléments à vérifier :
+Les appels de phishing proviennent souvent de **numéros inconnus** ou de numéros qui semblent appartenir à une entreprise légitime. Soyez attentif aux signes suivants :
 
-- L'appelant vous demande des informations personnelles, telles que votre numéro de sécurité sociale ou de carte de crédit.
-- L'appelant prétend provenir d'une entreprise, mais ne fournit aucune preuve.
-- L'appelant vous menace de poursuites judiciaires si vous ne fournissez pas les informations demandées.
+- L'appelant demande des informations personnelles, comme votre numéro de sécurité sociale ou de carte bancaire.
+- L'appelant prétend représenter une entreprise sans en fournir la preuve.
+- L'appelant menace d'engager des poursuites si vous ne communiquez pas les informations demandées.
 
-## Appliquer
+## Appliquer ces conseils
 
-Maintenant que vous connaissez les types de messages utilisés dans les tentatives d'hameçonnage, il est temps d’**appliquer** ces connaissances. Si vous recevez un message qui correspond à l'un de ces types, méfiez-vous. Si le message provient d'une institution financière ou d'une autre entreprise, ne cliquez sur aucun lien et ne fournissez aucune information personnelle. Appelez plutôt le service clientèle de l'entreprise pour vérifier l'authenticité du message.
+**Appliquez ces conseils** dès qu'un message ressemble à l'un des exemples. Restez prudent. Si un message semble provenir d'un établissement financier ou d'une entreprise, ne cliquez sur aucun lien et ne communiquez aucune information personnelle. Appelez l'entreprise à son numéro officiel de service client pour vérifier le message.
 
-## Passez le mot
+## Partager ces connaissances
 
-Maintenant que vous avez appris à identifier les courriels, les SMS et les appels de hameçonnage, il est important de partager vos connaissances avec les autres. L'un des moyens les plus efficaces est de parler à vos amis et aux membres de votre famille de ce que vous avez appris.
+Transmettez ce que vous avez appris à vos proches. Expliquez ce qu'est le phishing et comment il fonctionne. Montrez des exemples d'e-mails et de SMS de phishing, puis indiquez les signes qui permettent de les repérer.
 
-Commencez par leur expliquer ce qu'est le hameçonnage et comment il fonctionne. Montrez-leur des exemples de courriels et de SMS de hameçonnage et indiquez-leur les signes révélateurs qu'ils ne sont pas légitimes. Insistez sur l'importance de ne jamais cliquer sur des liens ou télécharger des pièces jointes provenant de sources inconnues, et encouragez-les à appeler le service clientèle de l'entreprise s'ils ont des doutes sur l'authenticité d'un message.
+Insistez sur le fait qu'il ne faut pas cliquer sur des liens ni télécharger des pièces jointes provenant de sources inconnues. En cas de doute sur l'authenticité d'un message, conseillez d'appeler le service client officiel de l'entreprise.
 
-Si vous avez des proches âgés ou moins à l'aise avec la technologie, soyez particulièrement vigilants. Ils peuvent être plus vulnérables à ce type d'attaques et ne pas être conscients des risques encourus. En partageant vos connaissances et en les aidant à rester en sécurité en ligne, vous pouvez faire une réelle différence dans leur vie.
+Soyez particulièrement attentif aux proches âgés ou peu à l'aise avec la technologie. Ils sont parfois plus exposés à ces attaques et peuvent en ignorer les risques. En partageant vos connaissances, vous les aidez à rester en sécurité en ligne.
