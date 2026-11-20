@@ -1,7 +1,7 @@
 ---
 title: "Wytyczne bezpiecznego kodowania dla Ansible: Najlepsze praktyki"
 date: 2023-03-02
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Poznaj najlepsze praktyki pisania bezpiecznego kodu za pomocą Ansible, popularnego narzędzia do zarządzania konfiguracją i wdrażania."
@@ -35,7 +35,7 @@ Zasada **najmniejszych uprawnień** jest podstawową zasadą bezpieczeństwa, kt
 
 Na przykład, jeśli playbook wymaga tylko dostępu do odczytu do określonego pliku, deweloperzy powinni przyznać tylko dostęp do odczytu do pliku, a nie do zapisu lub wykonywania. Programiści powinni również ograniczyć liczbę użytkowników z dostępem do Ansible. Dostęp powinien być ograniczony do autoryzowanych użytkowników, którzy muszą zarządzać infrastrukturą za pomocą Ansible.
 
-Ansible udostępnia kilka mechanizmów implementujących zasadę najmniejszych uprawnień, takich jak `become` dyrektywa. Dyrektywa `become` pozwala programistom uruchamiać zadania z uprawnieniami innego użytkownika, np. `sudo` Deweloperzy powinni używać `become` tylko wtedy, gdy jest to wymagane i zapewnić tylko niezbędny poziom uprawnień.
+Ansible udostępnia kilka mechanizmów wdrażania zasady najmniejszych uprawnień, w tym dyrektywę `become`. Pozwala ona uruchamiać zadania z uprawnieniami innego użytkownika, na przykład za pomocą `sudo`. Używaj `become` tylko wtedy, gdy jest to konieczne, i przyznawaj wyłącznie niezbędne uprawnienia.
 
 Wdrażając zasadę najmniejszych uprawnień, programiści mogą ograniczyć potencjalne szkody wyrządzone przez atakującego w przypadku naruszenia bezpieczeństwa. Ta wytyczna może znacznie poprawić bezpieczeństwo infrastruktury zarządzanej przez Ansible.
 
@@ -43,13 +43,15 @@ Wdrażając zasadę najmniejszych uprawnień, programiści mogą ograniczyć pot
 
 Wrażliwe informacje, takie jak hasła, klucze API i certyfikaty, nie powinny być przechowywane w postaci zwykłego tekstu w playbookach Ansible. Przechowywanie wrażliwych informacji w postaci zwykłego tekstu może zagrozić bezpieczeństwu infrastruktury zarządzanej przez Ansible. Ansible zapewnia **Vault** do bezpiecznego przechowywania poufnych informacji.
 
-Vault szyfruje poufne informacje za pomocą hasła lub pliku klucza. Programiści mogą korzystać z `ansible-vault` aby utworzyć nowy zaszyfrowany plik, edytować istniejący zaszyfrowany plik lub wyświetlić zaszyfrowany plik. Polecenie `ansible-vault` może być również używane do szyfrowania lub odszyfrowywania poszczególnych zmiennych. Na przykład, aby utworzyć nowy zaszyfrowany plik, programiści mogą użyć następującego polecenia:
+Vault szyfruje poufne informacje za pomocą hasła lub pliku klucza. Deweloperzy mogą używać polecenia `ansible-vault` do tworzenia nowych zaszyfrowanych plików, edytowania istniejących plików lub wyświetlania ich zawartości. Polecenie to służy także do szyfrowania lub odszyfrowywania pojedynczych zmiennych. Aby utworzyć nowy zaszyfrowany plik, można wykonać następujące polecenie:
 
 ```bash
 ansible-vault create secret.yml
 ```
 
-To polecenie utworzy nowy zaszyfrowany plik o nazwie `secret.yml` Programiści mogą edytować ten plik za pomocą `ansible-vault edit` polecenie. Zostaną poproszeni o wprowadzenie hasła do skarbca.
+
+
+To polecenie tworzy nowy zaszyfrowany plik o nazwie `secret.yml`. Deweloperzy mogą go edytować poleceniem `ansible-vault edit`. Następnie zostaną poproszeni o podanie hasła do Vault.
 
 Programiści powinni również upewnić się, że hasła i pliki kluczy są bezpiecznie przechowywane. Hasła i pliki kluczy nie powinny być przechowywane w postaci zwykłego tekstu. Powinny być przechowywane w bezpiecznej lokalizacji, takiej jak menedżer haseł lub bezpieczny serwer plików.
 
@@ -66,7 +68,9 @@ Hasła używane w playbookach powinny być przechowywane w zaszyfrowanym formaci
 db_password: "{{ vault_db_password }}"
 ```
 
-Ta składnia będzie odwoływać się do `db_password` z zaszyfrowanego pliku i odszyfrować go za pomocą Vault.
+
+
+Ta składnia odwołuje się do zmiennej `db_password` w zaszyfrowanym pliku i odszyfrowuje jej wartość przy użyciu Vault.
 
 Używając silnych haseł i bezpiecznie je przechowując, programiści mogą zapobiec nieautoryzowanemu dostępowi do infrastruktury zarządzanej przez Ansible. Ta wytyczna to prosty krok, który może znacznie poprawić bezpieczeństwo infrastruktury zarządzanej przez Ansible.
 
@@ -109,17 +113,17 @@ Programiści powinni przestrzegać **bezpiecznych praktyk kodowania**, takich ja
 
 Programiści powinni oczyszczać dane wejściowe użytkownika, aby zapobiec **wstrzykiwaniu kodu** i innym lukom w zabezpieczeniach. Wstrzykiwanie kodu to rodzaj ataku, w którym atakujący wstrzykuje złośliwy kod do aplikacji, wykorzystując luki w danych wejściowych użytkownika. Programiści powinni również używać zweryfikowanych danych wejściowych, gdy tylko jest to możliwe, aby zmniejszyć ryzyko luk w zabezpieczeniach.
 
-Deweloperzy mogą korzystać z funkcji `regex_replace` w Ansible do oczyszczania danych wprowadzanych przez użytkownika. Filtr `regex_replace` umożliwia programistom zastępowanie wzorców w ciągach innymi wzorcami. Na przykład, aby zastąpić wszystkie znaki niealfanumeryczne w ciągu pustym ciągiem, programiści mogą użyć następującego kodu:
+Deweloperzy mogą użyć filtra Ansible `regex_replace` do oczyszczania danych wejściowych użytkownika. Filtr zastępuje wzorce w ciągach innymi wzorcami. Poniższy kod zastępuje na przykład wszystkie znaki niealfanumeryczne w ciągu pustym ciągiem:
 
 ```yaml
 - name: Oczyść dane wejściowe użytkownika
   vars:
-    user_input: "Hello! This is a string with non-alphanumeric characters."
+    user_input: "Cześć! To ciąg znaków zawierający znaki inne niż alfanumeryczne."
     sanitized_input: "{{ user_input | regex_replace('[^A-Za-z0-9]', '') }}"
   debug:
     var: sanitized_input
 ```
-W tym przykładzie `regex_replace` jest używany do zastępowania wszystkich znaków niealfanumerycznych w polu `user_input` z pustym ciągiem znaków. Oczyszczone dane wejściowe są przechowywane w zmiennej `sanitized_input` zmienna.
+W tym przykładzie filtr `regex_replace` zastępuje wszystkie znaki niealfanumeryczne w zmiennej `user_input` pustym ciągiem. Oczyszczone dane wejściowe są zapisywane w `sanitized_input`.
 
 Programiści mogą również korzystać z walidacji danych wejściowych, aby zmniejszyć ryzyko wystąpienia luk w zabezpieczeniach. Walidacja danych wejściowych obejmuje sprawdzanie danych wprowadzanych przez użytkownika w celu upewnienia się, że spełniają one określone kryteria. Na przykład deweloperzy mogą sprawdzać poprawność danych wejściowych użytkownika, aby upewnić się, że zawierają one tylko znaki alfanumeryczne. Walidację danych wejściowych można zaimplementować za pomocą wyrażeń warunkowych i wyrażeń regularnych Ansible.
 
@@ -138,9 +142,9 @@ Integrując te **najlepsze praktyki**, organizacje mogą śmiało wykorzystać z
 
 ## Referencje
 
-- [Ansible Documentation](https://docs.ansible.com/)
-- [Ansible Vault Documentation](https://docs.ansible.com/ansible/latest/user_guide/vault.html)
-- [Git Documentation](https://git-scm.com/doc)
-- [OpenSSH Documentation](https://www.openssh.com/)
-- [Transport Layer Security (TLS) Documentation](https://tools.ietf.org/html/rfc8446)
-- [OWASP Code Injection Documentation](https://owasp.org/www-community/attacks/Code_Injection)
+- [Dokumentacja Ansible](https://docs.ansible.com/)
+- [Dokumentacja Ansible Vault](https://docs.ansible.com/ansible/latest/user_guide/vault.html)
+- [Dokumentacja Git](https://git-scm.com/doc)
+- [Dokumentacja OpenSSH](https://www.openssh.com/)
+- [Dokumentacja Transport Layer Security (TLS)](https://tools.ietf.org/html/rfc8446)
+- [Dokumentacja OWASP dotycząca wstrzykiwania kodu](https://owasp.org/www-community/attacks/Code_Injection)

@@ -1,7 +1,7 @@
 ---
 title: "Linee guida per la codifica sicura di Ansible: Migliori pratiche"
 date: 2023-03-02
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Imparate le migliori pratiche per scrivere codice sicuro con Ansible, un popolare strumento per la gestione della configurazione e la distribuzione."
@@ -35,7 +35,7 @@ Il **principio del minimo privilegio** è un principio fondamentale di sicurezza
 
 Ad esempio, se un playbook richiede solo l'accesso in lettura a un file specifico, gli sviluppatori dovrebbero concedere solo l'accesso in lettura al file e non l'accesso in scrittura o in esecuzione. Gli sviluppatori devono anche limitare il numero di utenti che hanno accesso ad Ansible. L'accesso deve essere limitato agli utenti autorizzati che devono gestire l'infrastruttura con Ansible.
 
-Ansible fornisce diversi meccanismi per implementare il principio del minimo privilegio, come ad esempio la funzione `become` direttiva. Il `become` consente agli sviluppatori di eseguire attività con i privilegi di un altro utente, come ad esempio `sudo` Gli sviluppatori dovrebbero utilizzare `become` solo se necessario e fornire solo il livello di privilegi necessario.
+Ansible offre diversi meccanismi per applicare il principio del privilegio minimo, tra cui la direttiva `become`. Questa consente di eseguire attività con i privilegi di un altro utente, ad esempio tramite `sudo`. Usate `become` solo quando necessario e concedete soltanto i privilegi necessari.
 
 Implementando il principio del minimo privilegio, gli sviluppatori possono limitare il danno potenziale causato da un attaccante in caso di violazione della sicurezza. Questa linea guida può migliorare significativamente la sicurezza dell'infrastruttura gestita da Ansible.
 
@@ -43,13 +43,15 @@ Implementando il principio del minimo privilegio, gli sviluppatori possono limit
 
 Le informazioni sensibili come password, chiavi API e certificati non dovrebbero essere memorizzate in testo normale nei playbook di Ansible. La memorizzazione di informazioni sensibili in testo normale può compromettere la sicurezza dell'infrastruttura gestita da Ansible. Ansible fornisce il **Vault** per archiviare in modo sicuro le informazioni sensibili.
 
-Il Vault cripta le informazioni sensibili con una password o un file chiave. Gli sviluppatori possono utilizzare il `ansible-vault` per creare un nuovo file crittografato, modificare un file crittografato esistente o visualizzare un file crittografato. Il comando `ansible-vault` può essere usato anche per criptare o decriptare singole variabili. Ad esempio, per creare un nuovo file crittografato, gli sviluppatori possono usare il seguente comando:
+Vault cifra le informazioni sensibili con una password o un file chiave. Gli sviluppatori possono usare il comando `ansible-vault` per creare un nuovo file cifrato, modificare un file esistente o visualizzare un file cifrato. Il comando consente anche di cifrare o decifrare singole variabili. Ad esempio, per creare un nuovo file cifrato, gli sviluppatori possono eseguire il comando seguente:
 
 ```bash
 ansible-vault create secret.yml
 ```
 
-Questo comando creerà un nuovo file crittografato chiamato `secret.yml` Gli sviluppatori possono modificare questo file utilizzando il metodo `ansible-vault edit` comando. Verrà richiesto di inserire la password per il Vault.
+
+
+Questo comando crea un nuovo file cifrato denominato `secret.yml`. Gli sviluppatori possono modificarlo con il comando `ansible-vault edit`. A quel punto verrà chiesto loro di inserire la password di Vault.
 
 Gli sviluppatori devono inoltre assicurarsi che le password e i file chiave siano archiviati in modo sicuro. Le password e i file chiave non devono essere memorizzati in chiaro. Devono essere memorizzati in un luogo sicuro, come un gestore di password o un file server sicuro.
 
@@ -66,7 +68,9 @@ Le password utilizzate nei playbook devono essere memorizzate in formato crittog
 db_password: "{{ vault_db_password }}"
 ```
 
-Questa sintassi farà riferimento al file `db_password` dal file crittografato e decifrarlo utilizzando il Vault.
+
+
+Questa sintassi fa riferimento alla variabile `db_password` nel file cifrato e ne decifra il valore usando Vault.
 
 Utilizzando password forti e conservandole in modo sicuro, gli sviluppatori possono impedire l'accesso non autorizzato all'infrastruttura gestita da Ansible. Questa linea guida è un semplice passo che può migliorare significativamente la sicurezza dell'infrastruttura gestita da Ansible.
 
@@ -101,25 +105,25 @@ La verifica dell'identità dei nodi gestiti è un passo fondamentale per la sicu
 
 ## Linea guida 8: Sanitizzare l'input dell'utente
 
-Gli sviluppatori dovrebbero sanificare l'input dell'utente per prevenire **code injection** e altre vulnerabilità di sicurezza. Gli sviluppatori dovrebbero anche utilizzare **input validati** quando possibile per ridurre il rischio di vulnerabilità della sicurezza.
+Gli sviluppatori dovrebbero sanificare l'input dell'utente per prevenire **iniezione di codice** e altre vulnerabilità di sicurezza. Gli sviluppatori dovrebbero anche utilizzare **input validati** quando possibile per ridurre il rischio di vulnerabilità della sicurezza.
 
 ## Linea guida 9: Seguire pratiche di codifica sicure
 
 Gli sviluppatori devono seguire **pratiche di codifica sicure** come la **convalida dell'input**, la **gestione degli errori** e la **sanitizzazione** dell'input. Gli sviluppatori devono anche seguire le **linee guida di codifica sicura** per il linguaggio di programmazione utilizzato in Ansible.
 
-Gli sviluppatori devono sanificare l'input dell'utente per prevenire la **code injection** e altre vulnerabilità di sicurezza. L'iniezione di codice è un tipo di attacco in cui un aggressore inietta codice dannoso in un'applicazione sfruttando le vulnerabilità nell'input dell'utente. Gli sviluppatori dovrebbero anche utilizzare input convalidati ogni volta che è possibile per ridurre il rischio di vulnerabilità di sicurezza.
+Gli sviluppatori devono sanificare l'input dell'utente per prevenire l’**iniezione di codice** e altre vulnerabilità di sicurezza. L'iniezione di codice è un tipo di attacco in cui un aggressore inietta codice dannoso in un'applicazione sfruttando le vulnerabilità nell'input dell'utente. Gli sviluppatori dovrebbero anche utilizzare input convalidati ogni volta che è possibile per ridurre il rischio di vulnerabilità di sicurezza.
 
-Gli sviluppatori possono utilizzare l'opzione `regex_replace` in Ansible per sanificare l'input dell'utente. Il filtro `regex_replace` consente agli sviluppatori di sostituire i pattern nelle stringhe con altri pattern. Ad esempio, per sostituire tutti i caratteri non alfanumerici di una stringa con una stringa vuota, gli sviluppatori possono utilizzare il seguente codice:
+Gli sviluppatori possono usare il filtro `regex_replace` di Ansible per sanificare l’input dell’utente. Il filtro consente di sostituire determinati modelli nelle stringhe con altri modelli. Ad esempio, il codice seguente sostituisce tutti i caratteri non alfanumerici di una stringa con una stringa vuota:
 
 ```yaml
 - name: Sanificare l'input utente
   vars:
-    user_input: "Hello! This is a string with non-alphanumeric characters."
+    user_input: "Ciao! Questa è una stringa con caratteri non alfanumerici."
     sanitized_input: "{{ user_input | regex_replace('[^A-Za-z0-9]', '') }}"
   debug:
     var: sanitized_input
 ```
-In questo esempio, il `regex_replace` viene utilizzato per sostituire tutti i caratteri non alfanumerici nel file `user_input` con una stringa vuota. L'input sanificato viene memorizzato nella variabile `sanitized_input` variabile.
+In questo esempio, il filtro `regex_replace` sostituisce tutti i caratteri non alfanumerici nella variabile `user_input` con una stringa vuota. L’input sanificato viene salvato in `sanitized_input`.
 
 Gli sviluppatori possono anche usare la convalida dell'input per ridurre il rischio di vulnerabilità della sicurezza. La convalida dell'input consiste nel verificare che l'input dell'utente soddisfi determinati criteri. Ad esempio, gli sviluppatori possono convalidare l'input dell'utente per assicurarsi che contenga solo caratteri alfanumerici. La convalida dell'input può essere implementata utilizzando i condizionali e le espressioni regolari di Ansible.
 
@@ -138,9 +142,9 @@ Integrando queste **best practice**, le organizzazioni possono sfruttare con fid
 
 ## Riferimenti
 
-- [Ansible Documentation](https://docs.ansible.com/)
-- [Ansible Vault Documentation](https://docs.ansible.com/ansible/latest/user_guide/vault.html)
-- [Git Documentation](https://git-scm.com/doc)
-- [OpenSSH Documentation](https://www.openssh.com/)
-- [Transport Layer Security (TLS) Documentation](https://tools.ietf.org/html/rfc8446)
-- [OWASP Code Injection Documentation](https://owasp.org/www-community/attacks/Code_Injection)
+- [Documentazione di Ansible](https://docs.ansible.com/)
+- [Documentazione di Ansible Vault](https://docs.ansible.com/ansible/latest/user_guide/vault.html)
+- [Documentazione di Git](https://git-scm.com/doc)
+- [Documentazione di OpenSSH](https://www.openssh.com/)
+- [Documentazione sulla Transport Layer Security (TLS)](https://tools.ietf.org/html/rfc8446)
+- [Documentazione OWASP sull’iniezione di codice](https://owasp.org/www-community/attacks/Code_Injection)

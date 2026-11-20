@@ -1,7 +1,7 @@
 ---
 title: "Orientări de codare securizată pentru Ansible: Cele mai bune practici"
 date: 2023-03-02
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Aflați cele mai bune practici pentru scrierea de cod securizat cu Ansible, un instrument popular pentru gestionarea și implementarea configurației."
@@ -31,11 +31,11 @@ Dezvoltatorii ar trebui să verifice în mod regulat dacă există actualizări 
 
 ## Orientarea 2: Urmați principiul celui mai mic privilegiu
 
-Principiul **least privilege principle** este un principiu fundamental de securitate care se aplică la Ansible. Acest principiu afirmă că un utilizator ar trebui să aibă doar nivelul minim de acces necesar pentru a-și îndeplini funcția de lucru. Acest principiu se aplică și în cazul Ansible. Dezvoltatorii ar trebui să acorde nodurilor gestionate nivelul minim de acces necesar pentru a îndeplini sarcinile necesare.
+Principiul **privilegiilor minime** este un principiu fundamental de securitate care se aplică la Ansible. Acest principiu afirmă că un utilizator ar trebui să aibă doar nivelul minim de acces necesar pentru a-și îndeplini funcția de lucru. Acest principiu se aplică și în cazul Ansible. Dezvoltatorii ar trebui să acorde nodurilor gestionate nivelul minim de acces necesar pentru a îndeplini sarcinile necesare.
 
 De exemplu, dacă un playbook necesită doar acces de citire la un anumit fișier, dezvoltatorii ar trebui să acorde doar acces de citire la fișier și nu acces de scriere sau de execuție. De asemenea, dezvoltatorii ar trebui să limiteze numărul de utilizatori cu acces la Ansible. Accesul ar trebui să fie limitat la utilizatorii autorizați care trebuie să gestioneze infrastructura cu ajutorul Ansible.
 
-Ansible oferă mai multe mecanisme pentru a pune în aplicare principiul celui mai mic privilegiu, cum ar fi `become` directivă. Site-ul `become` permite dezvoltatorilor să ruleze sarcini cu privilegiile unui alt utilizator, cum ar fi `sudo` Dezvoltatorii ar trebui să utilizeze `become` numai atunci când este necesar și să ofere numai nivelul necesar de privilegii.
+Ansible oferă mai multe mecanisme pentru aplicarea principiului privilegiilor minime, inclusiv directiva `become`. Aceasta le permite dezvoltatorilor să ruleze sarcini cu privilegiile altui utilizator, de exemplu prin `sudo`. Folosiți `become` numai când este necesar și acordați doar privilegiile necesare.
 
 Prin punerea în aplicare a principiului celui mai mic privilegiu, dezvoltatorii pot limita daunele potențiale cauzate de un atacator în cazul unei breșe de securitate. Această directivă poate îmbunătăți semnificativ securitatea infrastructurii gestionate de Ansible.
 
@@ -43,13 +43,15 @@ Prin punerea în aplicare a principiului celui mai mic privilegiu, dezvoltatorii
 
 Informațiile sensibile, cum ar fi parolele, cheile API și certificatele, nu ar trebui să fie stocate în text simplu în playbook-urile Ansible. Stocarea informațiilor sensibile în text simplu poate compromite securitatea infrastructurii gestionate de Ansible. Ansible oferă **Vault** pentru stocarea în siguranță a informațiilor sensibile.
 
-Vault criptează informațiile sensibile cu o parolă sau cu un fișier cheie. Dezvoltatorii pot utiliza aplicația `ansible-vault` pentru a crea un nou fișier criptat, a edita un fișier criptat existent sau a vizualiza un fișier criptat. Comanda `ansible-vault` poate fi, de asemenea, utilizată pentru a cripta sau decripta variabile individuale. De exemplu, pentru a crea un nou fișier criptat, dezvoltatorii pot utiliza următoarea comandă:
+Vault criptează informațiile sensibile cu o parolă sau cu un fișier-cheie. Dezvoltatorii pot folosi comanda `ansible-vault` pentru a crea un fișier criptat nou, a edita unul existent sau a afișa conținutul unui fișier criptat. Comanda permite și criptarea sau decriptarea variabilelor individuale. De exemplu, pentru a crea un fișier criptat nou, dezvoltatorii pot rula comanda următoare:
 
 ```bash
 ansible-vault create secret.yml
 ```
 
-Această comandă va crea un nou fișier criptat numit `secret.yml` Dezvoltatorii pot edita acest fișier folosind aplicația `ansible-vault edit` comandă. Aceștia vor fi invitați să introducă parola pentru Vault.
+
+
+Această comandă creează un fișier criptat nou numit `secret.yml`. Dezvoltatorii îl pot edita cu comanda `ansible-vault edit`. Apoi li se va cere parola Vault.
 
 De asemenea, dezvoltatorii trebuie să se asigure că parolele și fișierele cheie sunt stocate în siguranță. Parolele și fișierele cheie nu ar trebui să fie stocate în text simplu. Acestea ar trebui să fie stocate într-o locație sigură, cum ar fi un manager de parole sau un server de fișiere securizat.
 
@@ -57,23 +59,25 @@ Utilizarea Vault pentru a stoca informații sensibile este un pas crucial în se
 
 ## Orientarea 4: Utilizați parole puternice
 
-Parolele utilizate pentru autentificare trebuie să fie **puternice** și **unice**. Utilizarea unor parole slabe sau comune poate compromite securitatea infrastructurii gestionate de Ansible. De asemenea, dezvoltatorii ar trebui să evite să folosească parole implicite sau să codifice parolele în manualele de execuție. Parolele ar trebui să fie stocate în siguranță folosind Vault.
+Parolele utilizate pentru autentificare trebuie să fie **puternice** și **unice**. Utilizarea unor parole slabe sau comune poate compromite securitatea infrastructurii gestionate de Ansible. De asemenea, dezvoltatorii ar trebui să evite să folosească parole implicite sau să codifice parolele în playbook-uri. Parolele ar trebui să fie stocate în siguranță folosind Vault.
 
 O parolă puternică trebuie să aibă minimum 12 caractere și să conțină o combinație de litere majuscule și minuscule, numere și caractere speciale. De asemenea, dezvoltatorii ar trebui să evite utilizarea în parole a unor informații ușor de ghicit, cum ar fi numele sau zilele de naștere. Aceștia pot utiliza un manager de parole pentru a genera parole puternice și unice.
 
-Parolele utilizate în playbook-uri ar trebui să fie stocate în format criptat cu ajutorul Vault. De asemenea, dezvoltatorii ar trebui să evite să codifice parolele în hardcoding în playbook-uri. În schimb, ar trebui să utilizeze variabile pentru a stoca parolele și să le menționeze în manualele de joc. De exemplu, dezvoltatorii pot defini o variabilă numită `db_password` într-un fișier criptat separat și faceți trimitere la acesta în playbook folosind următoarea sintaxă:
+Parolele utilizate în playbook-uri trebuie stocate în format criptat cu ajutorul Vault. Dezvoltatorii ar trebui să evite introducerea directă a parolelor în playbook-uri. În schimb, pot stoca parolele în variabile și pot face referire la acestea în playbook-uri. De exemplu, pot defini variabila `db_password` într-un fișier criptat separat și pot face referire la ea în playbook folosind următoarea sintaxă:
 ```yml
 db_password: "{{ vault_db_password }}"
 ```
 
-Această sintaxă va face referire la `db_password` din fișierul criptat și îl decriptează folosind Vault.
+
+
+Această sintaxă face referire la variabila `db_password` din fișierul criptat și îi decriptează valoarea cu Vault.
 
 Utilizând parole puternice și stocându-le în siguranță, dezvoltatorii pot preveni accesul neautorizat la infrastructura gestionată de Ansible. Această îndrumare este un pas simplu care poate îmbunătăți semnificativ securitatea infrastructurii gestionate de Ansible.
 
 
-## Linia directoare 5: Limitați accesul la manualele de execuție
+## Linia directoare 5: Limitați accesul la playbook-uri
 
-Accesul la manualele de execuție Ansible ar trebui să fie limitat la utilizatorii autorizați. Dezvoltatorii ar trebui să utilizeze un **sistem de control al versiunilor**, cum ar fi **Git**, pentru a gestiona playbook-urile. Git oferă funcții de **control al accesului** și **audit** care pot ajuta la aplicarea politicilor de securitate.
+Accesul la playbook-uri Ansible ar trebui să fie limitat la utilizatorii autorizați. Dezvoltatorii ar trebui să utilizeze un **sistem de control al versiunilor**, cum ar fi **Git**, pentru a gestiona playbook-urile. Git oferă funcții de **control al accesului** și **audit** care pot ajuta la aplicarea politicilor de securitate.
 
 ## Orientarea 6: Utilizați protocoale de comunicare securizate
 
@@ -109,17 +113,17 @@ Dezvoltatorii ar trebui să urmeze **practici de codare securizată**, cum ar fi
 
 Dezvoltatorii ar trebui să igienizeze intrările utilizatorilor pentru a preveni **injectarea de cod** și alte vulnerabilități de securitate. Injectarea de cod este un tip de atac prin care un atacator injectează cod malițios într-o aplicație prin exploatarea vulnerabilităților din intrările utilizatorului. De asemenea, dezvoltatorii ar trebui să utilizeze intrări validate ori de câte ori este posibil pentru a reduce riscul de vulnerabilități de securitate.
 
-Dezvoltatorii pot utiliza `regex_replace` în Ansible pentru a curăța datele de intrare ale utilizatorului. Adresa `regex_replace` permite dezvoltatorilor să înlocuiască modelele din șiruri cu alte modele. De exemplu, pentru a înlocui toate caracterele non-alfanumerice dintr-un șir cu un șir gol, dezvoltatorii pot utiliza următorul cod:
+Dezvoltatorii pot utiliza filtrul Ansible `regex_replace` pentru a sanitiza datele introduse de utilizator. Filtrul înlocuiește tipare din șiruri cu alte tipare. De exemplu, codul următor înlocuiește toate caracterele nealfanumerice dintr-un șir cu un șir gol:
 
 ```yaml
 - name: Igienizați datele de intrare ale utilizatorului
   vars:
-    user_input: "Hello! This is a string with non-alphanumeric characters."
+    user_input: "Salut! Acesta este un șir cu caractere nealfanumerice."
     sanitized_input: "{{ user_input | regex_replace('[^A-Za-z0-9]', '') }}"
   debug:
     var: sanitized_input
 ```
-În acest exemplu, se utilizează `regex_replace` este utilizat pentru a înlocui toate caracterele non-alfanumerice din `user_input` cu un șir gol. Intrarea curățată este stocată în fișierul `sanitized_input` variabilă.
+În acest exemplu, filtrul `regex_replace` înlocuiește toate caracterele nealfanumerice din variabila `user_input` cu un șir gol. Datele sanitizate sunt stocate în `sanitized_input`.
 
 De asemenea, dezvoltatorii pot utiliza validarea intrărilor pentru a reduce riscul de vulnerabilități de securitate. Validarea intrărilor implică verificarea intrărilor utilizatorului pentru a se asigura că acestea îndeplinesc anumite criterii. De exemplu, dezvoltatorii pot valida intrările utilizatorului pentru a se asigura că acestea conțin numai caractere alfanumerice. Validarea intrărilor poate fi implementată utilizând condiționale Ansible și expresii regulate.
 
@@ -138,9 +142,9 @@ Prin integrarea acestor **cele mai bune practici**, organizațiile pot valorific
 
 ## Referințe
 
-- [Ansible Documentation](https://docs.ansible.com/)
-- [Ansible Vault Documentation](https://docs.ansible.com/ansible/latest/user_guide/vault.html)
-- [Git Documentation](https://git-scm.com/doc)
-- [OpenSSH Documentation](https://www.openssh.com/)
-- [Transport Layer Security (TLS) Documentation](https://tools.ietf.org/html/rfc8446)
-- [OWASP Code Injection Documentation](https://owasp.org/www-community/attacks/Code_Injection)
+- [Documentația Ansible](https://docs.ansible.com/)
+- [Documentația Ansible Vault](https://docs.ansible.com/ansible/latest/user_guide/vault.html)
+- [Documentația Git](https://git-scm.com/doc)
+- [Documentația OpenSSH](https://www.openssh.com/)
+- [Documentație despre Transport Layer Security (TLS)](https://tools.ietf.org/html/rfc8446)
+- [Documentația OWASP despre injectarea codului](https://owasp.org/www-community/attacks/Code_Injection)
