@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automação on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Automação on simeononsecurity</title><link>https://pt.simeononsecurity.com/genre/automa%C3%A7%C3%A3o/</link></image><link>https://pt.simeononsecurity.com/genre/automa%C3%A7%C3%A3o/</link><description>Recent content in Automação on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/genre/automa%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml"/><item><title>1Password SSH Agent e CLI: Acesso de Agente de IA Somente Leitura</title><link>https://pt.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Administração de Sistemas"
+, "Segurança em Nuvem"
+, "Automação"</category><guid>https://pt.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Projete um fluxo de trabalho SSH somente leitura com 1Password CLI, o SSH Agent e o MCP. Use comandos sintéticos, permissões restritas e aprovação humana antes de testes ao vivo.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Claude Cowork e Claude Code com modelos locais: guia de configuração 2026</title><link>https://pt.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Ferramentas de programação com IA"
+, "IA auto-hospedada"
+, "Ferramentas para desenvolvedores"
+, "Privacidade"
+, "Modelos de código aberto"
+, "Automação"
+, "Hardware de IA"</category><guid>https://pt.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Configure o Ollama com Claude Desktop e Claude Code por meio de uma API compatível com Anthropic. Veja modelos e recursos exclusivos da nuvem em 2026.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>Criar um assistente de IA com privacidade para Meshtastic</title><link>https://pt.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Segurança de redes"
+, "Privacidade"
+, "Código aberto"
+, "Automação"</category><guid>https://pt.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Relato prático da criação de um assistente local de IA para Meshtastic, com configuração privada, acesso TCP em fila, ferramentas de busca e um painel mais seguro.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Livros essenciais para profissionais de cibersegurança e TI</title><link>https://pt.simeononsecurity.com/articles/essential-books-cybersecurity-it-professionals/</link><pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Educação"
+, "Livros"
+, "Cibersegurança"
+, "Programação"
+, "TI"
+, "Automação"
+, "Desenvolvimento profissional"
+, "Crescimento na carreira"
+, "Aprendizagem"</category><guid>https://pt.simeononsecurity.com/articles/essential-books-cybersecurity-it-professionals/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprimore suas habilidades com livros de referência sobre cibersegurança, automação, programação e TI.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/coding_conqueror.webp" length="96864" type="image/webp"/></item><item><title>Domine a segurança do VMware</title><link>https://pt.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Virtualização"
+, "Infraestrutura de TI"
+, "Automação"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "Conformidade"
+, "Scripting"
+, "Data center"</category><guid>https://pt.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a usar o PowerCLI para aplicar os STIGs do VMware e proteger seu ambiente VMware com este guia abrangente.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>Domine o PowerCLI para gerenciar o vSphere</title><link>https://pt.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Virtualização"
+, "VMware"
+, "Gestão de TI"
+, "Automação"
+, "Interface de linha de comando"
+, "Scripting"
+, "Administração de sistemas"
+, "Computação em nuvem"
+, "Gestão de datacenter"</category><guid>https://pt.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a usar o PowerCLI para gerenciar VMware vSphere, automatizar tarefas e aumentar a produtividade.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>Administração do Active Directory com PowerShell</title><link>https://pt.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Windows"
+, "PowerShell"
+, "Active Directory"
+, "Administração"
+, "Scripting"
+, "TI"
+, "Automação"
+, "Windows Server"
+, "Microsoft"</category><guid>https://pt.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra como instalar e usar efetivamente o módulo do Active Directory para PowerShell para simplificar suas tarefas de administração do Active Directory no Windows.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/active-directory-module-powershell-installation-usage-guide.webp" length="86330" type="image/webp"/></item><item><title>Otimizar imagens com Python</title><link>https://pt.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Desenvolvimento web"
+, "Programação Python"
+, "Otimização de imagens"
+, "SEO"
+, "Desempenho web"
+, "Experiência do usuário"
+, "Desenvolvimento de software"
+, "Automação"
+, "Programação"</category><guid>https://pt.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Otimize imagens com Python por meio de redimensionamento, compressão, conversão de formato e fluxos de trabalho repetíveis com Pillow.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/An_illustration_of_a_Python_script_optimizing.webp" length="146766" type="image/webp"/></item><item><title>Ansible, Semaphore e Tower: comparação de automação</title><link>https://pt.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automação"
+, "Gestão de infraestrutura"
+, "Gestão de configuração"
+, "DevOps"
+, "Operações de TI"
+, "Código aberto"
+, "Gestão de fluxo de trabalho"
+, "Escalabilidade"
+, "Colaboração"
+, "Ferramentas Ansible"</category><guid>https://pt.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare o Ansible simples, o Ansible Tower e o Ansible Semaphore pelos fluxos de trabalho, recursos de gestão e casos de uso de infraestrutura.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/ansible-vs-ansible-semaphore-vs-ansible-tower.webp" length="132234" type="image/webp"/></item></channel></rss>

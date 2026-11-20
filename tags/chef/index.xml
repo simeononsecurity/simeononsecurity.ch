@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chef on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Chef on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/chef/</link></image><link>https://pt.simeononsecurity.com/tags/chef/</link><description>Recent content in Chef on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/chef/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansible vs Puppet vs Chef 2026: gestão de configuração</title><link>https://pt.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "Automação de infraestrutura"
+, "Gestão de configuração"
+, "Operações de TI"
+, "Computação em nuvem"
+, "Administração de sistemas"
+, "TI empresarial"
+, "Desenvolvimento de software"
+, "Infraestrutura de TI"
+, "Ferramentas de automação"</category><guid>https://pt.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparação de 2026 entre Ansible, Puppet e Chef sobre arquitetura, recursos, curva de aprendizado, desempenho, preços e casos de uso.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>Ansible vs. Puppet vs. Chef: comparação de ferramentas de automação</title><link>https://pt.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Ferramentas de automação"
+, "Gerenciamento de configuração"
+, "Infraestrutura de TI"
+, "DevOps"
+, "Operações de TI"
+, "Automação em nuvem"
+, "Implantação de software"
+, "Gerenciamento de infraestrutura"
+, "Ferramentas de código aberto"</category><guid>https://pt.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare Ansible, Puppet e Chef para escolher a ferramenta de automação adequada às necessidades da sua organização.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef.webp" length="227428" type="image/webp"/></item></channel></rss>

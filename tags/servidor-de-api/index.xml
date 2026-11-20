@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Servidor De API on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Servidor De API on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/servidor-de-api/</link></image><link>https://pt.simeononsecurity.com/tags/servidor-de-api/</link><description>Recent content in Servidor De API on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/servidor-de-api/index.xml" rel="self" type="application/rss+xml"/><item><title>Como proteger seu ambiente Docker e Kubernetes</title><link>https://pt.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link><pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate><category>
+"Docker"
+, "Kubernetes"
+, "Segurança"
+, "Contêineres"
+, "Segurança de rede"
+, "RBAC"
+, "Servidor de API"
+, "Vulnerabilidades"
+, "Monitoramento"
+, "Registro de logs"
+, "Firewalls"
+, "TLS"
+, "Anchore"
+, "Clair"
+, "Aqua Security"
+, "ELK Stack"
+, "Splunk"
+, "Prometheus"
+, "Cibersegurança"
+, "Melhores práticas"</category><guid>https://pt.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça as melhores práticas para proteger seu ambiente Docker e Kubernetes, incluindo o uso de imagens oficiais, a limitação de permissões e a implementação da segurança de rede.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp" length="126938" type="image/webp"/></item></channel></rss>

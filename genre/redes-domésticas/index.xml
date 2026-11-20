@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Redes Domésticas on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Redes Domésticas on simeononsecurity</title><link>https://pt.simeononsecurity.com/genre/redes-dom%C3%A9sticas/</link></image><link>https://pt.simeononsecurity.com/genre/redes-dom%C3%A9sticas/</link><description>Recent content in Redes Domésticas on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/genre/redes-dom%C3%A9sticas/index.xml" rel="self" type="application/rss+xml"/><item><title>Monte um laboratório doméstico em 10 níveis, do Pi-hole à IA local</title><link>https://pt.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Laboratório doméstico"
+, "Hospedagem própria"
+, "IA local"
+, "Redes domésticas"</category><guid>https://pt.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Monte um laboratório doméstico em dez etapas práticas, da filtragem DNS de toda a rede à IA local, com hardware, custos, habilidades e compensações em cada nível.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Por que a filtragem de DNS é contornada: verifique o caminho do resolvedor</title><link>https://pt.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Redes domésticas"
+, "DNS"
+, "Privacidade"</category><guid>https://pt.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra por que um dispositivo ou navegador ignora seu filtro DNS. Compare consultas diretas e padrão, examine os registros e confira DNS criptografado, VPN, IPv6 e configurações do roteador.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>Teste o isolamento de redes de convidados e IoT em uma rede Wi-Fi mesh</title><link>https://pt.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Redes domésticas"
+, "Segurança Wi-Fi"
+, "Casas inteligentes"</category><guid>https://pt.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verifique se as redes de convidados e IoT da sua rede Wi-Fi mesh bloqueiam o acesso aos dispositivos da sua casa. Teste cada rede com um serviço ativo e registre os limites.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp" length="102600" type="image/webp"/></item><item><title>Resolva problemas de Wi-Fi: soluções práticas para falhas comuns</title><link>https://pt.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</link><pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate><category>
+"Solução de problemas de Wi-Fi"
+, "Soluções sem fio"
+, "Assistência técnica"
+, "Dicas de conectividade"
+, "Redes domésticas"
+, "Guia de Internet"
+, "Otimização de Wi-Fi"
+, "Cibersegurança"
+, "Tecnologia prática"
+, "Desempenho de rede"</category><guid>https://pt.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Resolva problemas de Wi-Fi com dicas para melhorar o sinal, reduzir desconexões e reforçar a segurança.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/wireless-connectivity_-troubleshooting-common-wi-fi-problems.webp" length="61888" type="image/webp"/></item><item><title>Turbine seu WiFi: guia definitivo para ampliar o sinal</title><link>https://pt.simeononsecurity.com/articles/boosting-wifi-signal-strength_-strategies-for-a-stronger-connection/</link><pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate><category>
+"Melhoria do WiFi"
+, "Soluções de conectividade"
+, "Redes domésticas"
+, "Dicas de tecnologia para internet"
+, "Otimização sem fio"
+, "Guias de gadgets"
+, "Estilo de vida digital"
+, "Tecnologia para casa inteligente"
+, "Faça você mesmo em tecnologia"
+, "Aprimoramento de redes"</category><guid>https://pt.simeononsecurity.com/articles/boosting-wifi-signal-strength_-strategies-for-a-stronger-connection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Melhore sua internet com estratégias para ampliar o sinal WiFi. Tenha uma conexão mais estável para streaming e jogos.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/boosting-wifi-signal-strength_-strategies-for-a-stronger-connection.webp" length="148620" type="image/webp"/></item><item><title>Ubiquiti UniFi é uma boa opção para sua rede doméstica?</title><link>https://pt.simeononsecurity.com/articles/ubiquiti-unifi-good-for-home-use/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><category>
+"Redes domésticas"
+, "Soluções Wi-Fi"
+, "Hardware de rede"
+, "Produtos Ubiquiti"
+, "Análises de tecnologia"
+, "Tecnologia doméstica"
+, "Conectividade sem fio"
+, "Gerenciamento de rede"
+, "Eletrônicos de consumo"
+, "Soluções sem fio"</category><guid>https://pt.simeononsecurity.com/articles/ubiquiti-unifi-good-for-home-use/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Avalie se o Ubiquiti UniFi atende à sua casa e conheça seus benefícios, custos e requisitos de gerenciamento de rede.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/ubiquiti-unifi-home-wifi.webp" length="49076" type="image/webp"/></item><item><title>Reforce a segurança da sua rede doméstica</title><link>https://pt.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</link><pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Rede doméstica"
+, "Recomendações de hardware"
+, "Segurança de redes"
+, "Privacidade digital"
+, "Segurança online"
+, "Segurança da Internet"
+, "Redes domésticas"
+, "Tecnologia"
+, "Casa inteligente"</category><guid>https://pt.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça os equipamentos essenciais para proteger sua rede doméstica contra ameaças cibernéticas, incluindo firewalls de hardware, pontos de acesso e ferramentas de monitoramento.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/fortified-network-security.webp" length="61592" type="image/webp"/></item><item><title>Melhores sistemas WiFi Mesh de 2026: guia de compra e principais escolhas</title><link>https://pt.simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/</link><pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate><category>
+"Sistemas mesh WiFi"
+, "Redes domésticas"
+, "Tecnologia sem fio"
+, "Conectividade à internet"
+, "Eletrônicos de consumo"
+, "Casas inteligentes"
+, "Dispositivos de rede"
+, "Internet das Coisas (IoT)"
+, "Roteadores sem fio"
+, "Conectividade doméstica"</category><guid>https://pt.simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Um guia de 2026 sobre sistemas mesh WiFi 6E e WiFi 7 para consumidores, com comparações de cobertura, desempenho, instalação e critérios de compra.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_home_with.webp" length="127732" type="image/webp"/></item><item><title>Como posicionar pontos de acesso para otimizar a cobertura Wi-Fi</title><link>https://pt.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Redes"
+, "Redes sem fio"
+, "Pontos de acesso"
+, "Instalação de Wi-Fi"
+, "Otimização de redes"
+, "Redes domésticas"
+, "Conectividade sem fio"
+, "Internet das Coisas"
+, "Soluções de rede"</category><guid>https://pt.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a posicionar pontos de acesso para melhorar a conectividade sem fio, reduzir interferências e manter o bom desempenho da rede.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp"/></item></channel></rss>

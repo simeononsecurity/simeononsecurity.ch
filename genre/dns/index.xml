@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNS on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>DNS on simeononsecurity</title><link>https://pt.simeononsecurity.com/genre/dns/</link></image><link>https://pt.simeononsecurity.com/genre/dns/</link><description>Recent content in DNS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/genre/dns/index.xml" rel="self" type="application/rss+xml"/><item><title>Por que a filtragem de DNS é contornada: verifique o caminho do resolvedor</title><link>https://pt.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Redes domésticas"
+, "DNS"
+, "Privacidade"</category><guid>https://pt.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra por que um dispositivo ou navegador ignora seu filtro DNS. Compare consultas diretas e padrão, examine os registros e confira DNS criptografado, VPN, IPv6 e configurações do roteador.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>NextDNS vs. AdGuard: qual bloqueador DNS é melhor?</title><link>https://pt.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Cibersegurança"
+, "Bloqueio de anúncios"
+, "DNS"
+, "Privacidade"
+, "Segurança na Internet"
+, "Proteção online"
+, "Segurança digital"
+, "Soluções de navegação"
+, "Privacidade online"</category><guid>https://pt.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare NextDNS e AdGuard, dois bloqueadores de anúncios baseados em DNS, e escolha o serviço adequado à sua navegação.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp"/></item></channel></rss>

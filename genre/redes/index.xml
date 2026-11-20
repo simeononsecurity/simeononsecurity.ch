@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Redes on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Redes on simeononsecurity</title><link>https://pt.simeononsecurity.com/genre/redes/</link></image><link>https://pt.simeononsecurity.com/genre/redes/</link><description>Recent content in Redes on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/genre/redes/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture: configure clientes de IA para inferência e MCP em 2026</title><link>https://pt.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Inteligência artificial"
+, "Ferramentas para desenvolvedores"
+, "Redes"</category><guid>https://pt.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Encaminhe solicitações de modelos e ferramentas MCP pelo Tailscale Aperture. Configure Codex, Claude Code, Claude Desktop, OpenCode e Hermes em outro dispositivo ou gateway.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>Teste vazamentos de DNS e WebRTC no navegador com uma VPN</title><link>https://pt.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Privacidade"
+, "Navegadores"
+, "Redes"</category><guid>https://pt.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verifique o IP público, o resolvedor DNS e os endereços WebRTC do navegador antes e depois de conectar uma VPN. Interprete os resultados e investigue problemas de roteamento.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>Planeje e teste a segmentação VLAN de um homelab</title><link>https://pt.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Segurança de rede"
+, "Redes"</category><guid>https://pt.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Crie um plano VLAN para dispositivos confiáveis, servidores, IoT e visitantes. Registre o tráfego permitido, configure a rede por etapas e teste o isolamento.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Meshtastic vs. MeshCore vs. Reticulum</title><link>https://pt.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "Redes mesh"
+, "Comunicação fora da rede"
+, "Comunicação de emergência"
+, "Radioamadorismo"
+, "Código aberto"
+, "Preparação para desastres"
+, "Redes sem fio"
+, "Privacidade"
+, "Redes"</category><guid>https://pt.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare Meshtastic, MeshCore e Reticulum por roteamento, tempo de transmissão, infraestrutura, transporte e casos de uso offline.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Computação de borda implantável em campo: escolha de equipamentos e gabinete</title><link>https://pt.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Computação de borda"
+, "TI de campo"
+, "Equipamentos"
+, "Laboratório doméstico"
+, "Computação robusta"
+, "Redes"
+, "Recuperação de desastres"
+, "TI para pequenas empresas"</category><guid>https://pt.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia de hardware de edge computing para uso em campo e seleção de gabinetes, com computação, racks, refrigeração, armazenamento, gerenciamento, cabeamento e compatibilidade elétrica.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>Energia em Campo e Resiliência Ambiental</title><link>https://pt.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Computação de borda"
+, "TI em campo"
+, "Sistemas de energia"
+, "Hardware"
+, "Recuperação de desastres"
+, "Computação robusta"
+, "Redes"</category><guid>https://pt.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planeje energia e proteção ambiental para computação de borda em campo. Veja como dimensionar um UPS e lidar com painéis solares, baterias, sincronização de horário, classificações de proteção, aterramento e surtos elétricos.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>Principais criadores de conteúdo sobre homelab</title><link>https://pt.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Redes"
+, "Faça você mesmo"
+, "Virtualização"
+, "Homelabs"
+, "Entusiastas de tecnologia"
+, "Comunidade"
+, "Aprendizado"
+, "Inovação"
+, "Guias"</category><guid>https://pt.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça criadores influentes de homelab, conecte-se com entusiastas e comece sua jornada tecnológica.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item><item><title>Como posicionar pontos de acesso para otimizar a cobertura Wi-Fi</title><link>https://pt.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Redes"
+, "Redes sem fio"
+, "Pontos de acesso"
+, "Instalação de Wi-Fi"
+, "Otimização de redes"
+, "Redes domésticas"
+, "Conectividade sem fio"
+, "Internet das Coisas"
+, "Soluções de rede"</category><guid>https://pt.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a posicionar pontos de acesso para melhorar a conectividade sem fio, reduzir interferências e manter o bom desempenho da rede.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp"/></item><item><title>Curso Network Plus: Dominando Ferramentas de Software de Rede...</title><link>https://pt.simeononsecurity.com/network-plus/network-plus-course-network-software-tools-commands/</link><pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate><category>
+"Redes"
+, "Ferramentas de Rede"
+, "Utilitários de Linha de Comando"
+, "Solução de Problemas em Redes"
+, "Certificação CompTIA Network+"
+, "Gerenciamento de Rede"
+, "Configuração de Rede"
+, "Análise WiFi"
+, "Captura de Pacotes"
+, "Teste de Largura de Banda"</category><guid>https://pt.simeononsecurity.com/network-plus/network-plus-course-network-software-tools-commands/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore ferramentas essenciais de software de rede e utilitários de linha de comando, aprenda seu uso e resolva problemas como um profissional com este curso completo para o Exame de Certificação Network+.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/An_engaging_cartoon-style_illustration_showing_a_network_professional.webp" length="147920" type="image/webp"/></item><item><title>Fundamentos de redes: o que é um endereço IP e o que são IPv4 e IPv6?</title><link>https://pt.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><category>
+"Redes"
+, "Endereços IP"
+, "Protocolos de Internet"
+, "IPv4"
+, "IPv6"
+, "Comunicação de rede"
+, "Conectividade à Internet"
+, "Tecnologia"
+, "Infraestrutura de rede"
+, "Segurança na Internet"</category><guid>https://pt.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entenda os endereços IP, as diferenças entre IPv4 e IPv6 e por que a adoção do IPv6 é importante.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_cartoon_image_of_two_devices_with_speech_bub.webp" length="90028" type="image/webp"/></item><item><title>Fundamentos de redes: switches, roteadores, firewalls e DMZs</title><link>https://pt.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"Redes"
+, "Infraestrutura de TI"
+, "Segurança de redes"
+, "Arquitetura de redes"
+, "Cibersegurança"
+, "Comunicação de dados"
+, "Tecnologia da informação"
+, "Fundamentos de TI"
+, "Gerenciamento de redes"
+, "Conectividade com a internet"</category><guid>https://pt.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entenda como switches, roteadores, gateways, sub-redes, firewalls e DMZs dividem o tráfego de rede e impõem limites de segurança.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item><item><title>Curso Network+: ARP e Protocolo de Descoberta de Vizinhos</title><link>https://pt.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Redes"
+, "Protocolos"
+, "Certificação Network+"
+, "Solução de Problemas"
+, "Segurança de Rede"
+, "IPv4"
+, "IPv6"
+, "Comunicação de Rede"
+, "Resolução de Endereços"</category><guid>https://pt.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a utilizar eficazmente o Protocolo de Resolução de Endereços (ARP) e o Protocolo de Descoberta de Vizinhos (NDP) para resolver endereços IP em endereços MAC, navegar em redes IPv6 e solucionar problemas comuns para otimizar o desempenho e a segurança da rede.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_the_seamless.webp" length="89092" type="image/webp"/></item><item><title>Comunicação orientada à conexão e sem conexão</title><link>https://pt.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Redes"
+, "Comunicação"
+, "Protocolos"
+, "Ciência da computação"
+, "Transmissão de dados"
+, "Infraestrutura de rede"
+, "Internet"
+, "Tecnologia da informação"
+, "Telecomunicações"</category><guid>https://pt.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça as diferenças entre comunicação orientada à conexão e sem conexão, incluindo protocolos, serviços e métodos de roteamento.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/An_illustration_showing_two_devices_connected.webp" length="39168" type="image/webp"/></item></channel></rss>

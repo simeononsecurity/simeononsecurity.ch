@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>UDP on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>UDP on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/udp/</link></image><link>https://pt.simeononsecurity.com/tags/udp/</link><description>Recent content in UDP on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/udp/index.xml" rel="self" type="application/rss+xml"/><item><title>Por que o Tailscale usa um relay: conexões diretas, DERP e relays de pares</title><link>https://pt.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Network Security"
+, "Self-Hosted"</category><guid>https://pt.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Saiba por que o Tailscale usa um relay, como ler as saídas de status e netcheck e quando investigar uma conexão DERP ou por relay de pares.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/why-tailscale-uses-a-relay.webp" length="103974" type="image/webp"/></item><item><title>Comunicação orientada à conexão e sem conexão</title><link>https://pt.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Redes"
+, "Comunicação"
+, "Protocolos"
+, "Ciência da computação"
+, "Transmissão de dados"
+, "Infraestrutura de rede"
+, "Internet"
+, "Tecnologia da informação"
+, "Telecomunicações"</category><guid>https://pt.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça as diferenças entre comunicação orientada à conexão e sem conexão, incluindo protocolos, serviços e métodos de roteamento.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/An_illustration_showing_two_devices_connected.webp" length="39168" type="image/webp"/></item></channel></rss>

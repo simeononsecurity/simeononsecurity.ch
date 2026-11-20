@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Conformidade on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Conformidade on simeononsecurity</title><link>https://pt.simeononsecurity.com/genre/conformidade/</link></image><link>https://pt.simeononsecurity.com/genre/conformidade/</link><description>Recent content in Conformidade on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Thu, 21 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/genre/conformidade/index.xml" rel="self" type="application/rss+xml"/><item><title>Por que a conformidade regulatória não garante segurança</title><link>https://pt.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</link><pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Conformidade"
+, "Práticas de segurança"
+, "Proteção de dados"
+, "Ameaças cibernéticas"
+, "Padrões regulatórios"
+, "Segurança da informação"
+, "Gestão de riscos"
+, "Segurança empresarial"
+, "Privacidade digital"</category><guid>https://pt.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entenda as lacunas deixadas pelas listas de conformidade e reforce a proteção com avaliações de risco, testes, monitoramento, treinamento e auditorias.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/compliance-security-shield.webp" length="87866" type="image/webp"/></item><item><title>Proteger Windows e Linux</title><link>https://pt.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Linguagens de script"
+, "Segurança de sistemas"
+, "Windows"
+, "Linux"
+, "Regulamentações governamentais"
+, "Ameaças cibernéticas"
+, "Scripts seguros"
+, "Conformidade"
+, "Programação"</category><guid>https://pt.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Saiba como reforçar a segurança dos sistemas com PowerShell e Python nesta análise abrangente de cibersegurança.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp"/></item><item><title>FedRAMP: soluções de nuvem seguras para o governo</title><link>https://pt.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</link><pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Cibersegurança"
+, "Governo"
+, "Serviços em nuvem"
+, "Conformidade"
+, "Regulamentação federal"
+, "Segurança da informação"
+, "Gestão de riscos"
+, "Computação em nuvem"
+, "Proteção de dados"</category><guid>https://pt.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+O FedRAMP fortalece a segurança das soluções de nuvem usadas pelo governo dos EUA.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/Secure-Cloud-Government-Shield.webp" length="63200" type="image/webp"/></item><item><title>PCI-DSS explicado: conformidade segura em transações com cartão</title><link>https://pt.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link><pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Segurança de cartões de pagamento"
+, "Proteção de dados"
+, "Conformidade"
+, "Segurança da informação"
+, "Tecnologia"
+, "Negócios"
+, "Gestão de riscos"
+, "Regulamentações"
+, "Comércio eletrônico"</category><guid>https://pt.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça o PCI-DSS, seus componentes, a conformidade e os benefícios para proteger os dados de cartões de pagamento.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/pci-dss-security-vault.webp" length="88546" type="image/webp"/></item><item><title>Entenda o RGPD: guia sobre as regras de privacidade de dados</title><link>https://pt.simeononsecurity.com/articles/what-is-gdpr-overview-explanation/</link><pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Privacidade de dados"
+, "Regulamentação"
+, "Conformidade"
+, "Tecnologia"
+, "Negócios"
+, "Direito da UE"
+, "Privacidade online"
+, "Direitos digitais"
+, "Proteção de dados"</category><guid>https://pt.simeononsecurity.com/articles/what-is-gdpr-overview-explanation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Saiba como o RGPD protege dados pessoais, quais princípios e direitos estabelece e como afeta as empresas.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/GDPR_Data_Vault_Security.webp" length="52018" type="image/webp"/></item><item><title>Proteção de informações não classificadas controladas</title><link>https://pt.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</link><pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate><category>
+"Segurança de dados"
+, "Proteção da informação"
+, "Gestão da privacidade"
+, "Tratamento de informações sensíveis"
+, "Cibersegurança"
+, "Conformidade"
+, "Gestão de riscos"
+, "Governança da informação"
+, "Confidencialidade dos dados"
+, "Garantia da informação"</category><guid>https://pt.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entenda a importância de proteger as informações não classificadas controladas (CUI) e saiba como proteger dados sensíveis de forma eficaz.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/CUI-Safeguarding-Sensitive-Data.webp" length="96388" type="image/webp"/></item><item><title>Domine a segurança do VMware</title><link>https://pt.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Virtualização"
+, "Infraestrutura de TI"
+, "Automação"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "Conformidade"
+, "Scripting"
+, "Data center"</category><guid>https://pt.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a usar o PowerCLI para aplicar os STIGs do VMware e proteger seu ambiente VMware com este guia abrangente.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>Fortaleça a resiliência da cibersegurança com a gestão de mudanças</title><link>https://pt.simeononsecurity.com/articles/change-management-cyber-security-enhancing-resilience-evolving-landscape/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Gestão de mudanças"
+, "Resiliência"
+, "Infraestrutura de TI"
+, "Avaliação de riscos"
+, "Conformidade"
+, "Resposta a incidentes"
+, "Boas práticas"
+, "ITIL"
+, "Controles de segurança"</category><guid>https://pt.simeononsecurity.com/articles/change-management-cyber-security-enhancing-resilience-evolving-landscape/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça a importância da gestão de mudanças na cibersegurança e saiba como fortalecer a resiliência diante do cenário de ameaças em evolução.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_team_of_professionals_working_together_to_bu.webp" length="141276" type="image/webp"/></item><item><title>AWS, Azure e Google Cloud 2026: comparação completa de plataformas de nuvem</title><link>https://pt.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Computação em nuvem"
+, "Segurança na nuvem"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "Segurança de dados"
+, "Criptografia"
+, "Gerenciamento de identidade e acesso"
+, "Conformidade"
+, "Detecção de ameaças"</category><guid>https://pt.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare AWS, Azure e Google Cloud em 2026, incluindo preços, segurança, conformidade, serviços, desempenho e escolha do provedor.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item><item><title>NIST Cybersecurity Framework e ISO 27001</title><link>https://pt.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Segurança da informação"
+, "Frameworks de segurança"
+, "Gestão de riscos"
+, "Proteção de dados"
+, "Conformidade"
+, "Governança de TI"
+, "Ameaças cibernéticas"
+, "Defesa cibernética"
+, "Risco cibernético"</category><guid>https://pt.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare o NIST Cybersecurity Framework e a ISO 27001 para escolher o framework de segurança adequado à sua organização.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_shield_protecting_a_network_of.webp" length="102920" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Editor Do Registro Do Windows on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Editor Do Registro Do Windows on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/editor-do-registro-do-windows/</link></image><link>https://pt.simeononsecurity.com/tags/editor-do-registro-do-windows/</link><description>Recent content in Editor Do Registro Do Windows on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/editor-do-registro-do-windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Reforce a segurança do computador desativando SSL e TLS 1.1 e anteriores</title><link>https://pt.simeononsecurity.com/articles/hardening-tls-and-ssl/</link><pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate><category>
+"Reforço da segurança do computador"
+, "Desativação de SSL e TLS"
+, "Segurança dos dados"
+, "POODLE"
+, "BEAST"
+, "Heartbleed"
+, "Editor do Registro do Windows"
+, "Configuração do OpenSSL no Linux"
+, "Apache"
+, "Nginx"</category><guid>https://pt.simeononsecurity.com/articles/hardening-tls-and-ssl/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Desative SSL e versões antigas do TLS mantendo TLS 1.2 ou superior. O guia aborda Schannel e .NET no Windows e serviços Linux.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp" length="106014" type="image/webp"/></item></channel></rss>

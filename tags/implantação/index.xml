@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Implantação on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Implantação on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/implanta%C3%A7%C3%A3o/</link></image><link>https://pt.simeononsecurity.com/tags/implanta%C3%A7%C3%A3o/</link><description>Recent content in Implantação on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/implanta%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml"/><item><title>Comece a usar Terraform para infraestrutura como código</title><link>https://pt.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"Terraform"
+, "Infraestrutura como código"
+, "IaC"
+, "Computação em nuvem"
+, "DevOps"
+, "Automação"
+, "AWS"
+, "Azure"
+, "Google Cloud"
+, "Provedores de nuvem"
+, "Gerenciamento de configuração"
+, "Implantação"
+, "Provisionamento"
+, "Gerenciamento de recursos"
+, "Escalabilidade"
+, "Resiliência"
+, "Segurança"
+, "Conformidade"
+, "Boas práticas"</category><guid>https://pt.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda os fundamentos do Terraform, uma ferramenta popular de infraestrutura como código, e como usá-la para gerenciar a infraestrutura com eficiência.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp" length="122182" type="image/webp"/></item></channel></rss>

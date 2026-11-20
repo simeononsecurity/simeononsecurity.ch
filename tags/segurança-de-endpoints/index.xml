@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Segurança De Endpoints on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Segurança De Endpoints on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/seguran%C3%A7a-de-endpoints/</link></image><link>https://pt.simeononsecurity.com/tags/seguran%C3%A7a-de-endpoints/</link><description>Recent content in Segurança De Endpoints on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/seguran%C3%A7a-de-endpoints/index.xml" rel="self" type="application/rss+xml"/><item><title>Laboratório SOC Microsoft em casa: desenvolva experiência em cibersegurança em 2026</title><link>https://pt.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Segurança em nuvem"
+, "Desenvolvimento profissional"</category><guid>https://pt.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Monte um laboratório SOC Microsoft com Sentinel, Defender, Intune e Entra. Investigue incidentes, valide políticas de passkeys e documente evidências para seu portfólio.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>Ameaças à cibersegurança: contexto de 2024 e lista defensiva de 2026</title><link>https://pt.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2024/</link><pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Ameaças"
+, "Ransomware"
+, "Phishing"
+, "Segurança de IoT"
+, "Ameaças internas"
+, "Segurança em nuvem"
+, "Backup de dados"
+, "Autenticação multifator"
+, "Correções de segurança"
+, "Treinamento de funcionários"
+, "Controles de acesso"
+, "Verificação de antecedentes"
+, "Prevenção contra perda de dados"
+, "Provedores de nuvem"
+, "Criptografia de dados"
+, "Segurança de rede"
+, "Segurança de endpoints"
+, "Monitoramento de rede"
+, "Varredura de vulnerabilidades"</category><guid>https://pt.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2024/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Revise as categorias de ameaças discutidas em 2024 e aplique uma lista defensiva datada para 2026 contra ransomware, phishing, riscos de IoT, ameaças internas e riscos de nuvem.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.webp" length="115136" type="image/webp"/></item><item><title>Guia de segurança de endpoints para equipes remotas</title><link>https://pt.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><category>
+"Segurança de endpoints"
+, "Segurança no trabalho remoto"
+, "Guia de cibersegurança"
+, "Proteção de dados"
+, "Práticas de segurança de TI"
+, "Tendências futuras de segurança"
+, "Trabalho remoto seguro"
+, "Prevenção de ameaças cibernéticas"
+, "Medidas de privacidade de dados"
+, "Soluções de segurança de TI"</category><guid>https://pt.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proteja endpoints remotos com inventário de dispositivos, fortalecimento, atualizações, MFA, criptografia, EDR, políticas de acesso, monitoramento e planejamento de resposta.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/the-ultimate-guide-to-endpoint-security-for-remote-teams.webp" length="58154" type="image/webp"/></item><item><title>Dominar a segurança EDR: guia de proteção de endpoints</title><link>https://pt.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Proteção de endpoints"
+, "Soluções EDR"
+, "Deteção de ameaças"
+, "Resposta a incidentes"
+, "Segurança de endpoints"
+, "Ameaças cibernéticas"
+, "Segurança de TI"
+, "Defesa digital"
+, "Estratégias de segurança"</category><guid>https://pt.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça o funcionamento, as vantagens e os desafios de implementação da segurança EDR, além das boas práticas para proteger endpoints.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp"/></item><item><title>Reforce a defesa: soluções de cibersegurança EDR</title><link>https://pt.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Tecnologia"
+, "Deteção de ameaças"
+, "Segurança de endpoints"
+, "Resposta a incidentes"
+, "Proteção de dados"
+, "Segurança de rede"
+, "Defesa digital"
+, "Segurança de TI"
+, "Resiliência cibernética"</category><guid>https://pt.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Saiba como as soluções EDR protegem endpoints, detetam ameaças e ajudam as organizações a escolher uma solução adequada.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp"/></item></channel></rss>

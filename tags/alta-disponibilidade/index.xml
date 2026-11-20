@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alta Disponibilidade on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Alta Disponibilidade on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/alta-disponibilidade/</link></image><link>https://pt.simeononsecurity.com/tags/alta-disponibilidade/</link><description>Recent content in Alta Disponibilidade on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/alta-disponibilidade/index.xml" rel="self" type="application/rss+xml"/><item><title>Orquestração de contêineres em ambientes DevOps modernos</title><link>https://pt.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</link><pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate><category>
+"orquestração de contêineres"
+, "DevOps"
+, "Kubernetes"
+, "Docker Swarm"
+, "Apache Mesos"
+, "escalabilidade"
+, "alta disponibilidade"
+, "balanceamento de carga"
+, "segurança"
+, "implantação automatizada de aplicativos"
+, "HIPAA"
+, "SOX"
+, "RGPD"
+, "conformidade"
+, "desenvolvimento de software"
+, "computação em nuvem"
+, "conteinerização"
+, "tecnologia"
+, "automação"</category><guid>https://pt.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Saiba como a orquestração de contêineres gerencia implantação, escalabilidade, rede e recuperação, além de conhecer ferramentas populares e normas relacionadas.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp" length="120220" type="image/webp"/></item></channel></rss>

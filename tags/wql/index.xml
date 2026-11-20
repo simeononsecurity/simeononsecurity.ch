@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WQL on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>WQL on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/wql/</link></image><link>https://pt.simeononsecurity.com/tags/wql/</link><description>Recent content in WQL on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/wql/index.xml" rel="self" type="application/rss+xml"/><item><title>Entenda a filtragem WMI</title><link>https://pt.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Gerenciamento do Windows"
+, "Política de Grupo"
+, "Administração de sistemas"
+, "Gerenciamento de redes"
+, "Infraestrutura de TI"
+, "Gerenciamento de políticas"
+, "Governança de TI"
+, "Automação de TI"
+, "Active Directory"
+, "Conformidade de segurança"</category><guid>https://pt.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a usar a filtragem WMI para direcionar objetos de Política de Grupo (GPOs) aos computadores certos, com exemplos práticos e boas práticas.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item></channel></rss>

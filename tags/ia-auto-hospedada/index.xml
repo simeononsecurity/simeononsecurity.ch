@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IA Auto-Hospedada on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>IA Auto-Hospedada on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/ia-auto-hospedada/</link></image><link>https://pt.simeononsecurity.com/tags/ia-auto-hospedada/</link><description>Recent content in IA Auto-Hospedada on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/ia-auto-hospedada/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture: configure clientes de IA para inferência e MCP em 2026</title><link>https://pt.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Inteligência artificial"
+, "Ferramentas para desenvolvedores"
+, "Redes"</category><guid>https://pt.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Encaminhe solicitações de modelos e ferramentas MCP pelo Tailscale Aperture. Configure Codex, Claude Code, Claude Desktop, OpenCode e Hermes em outro dispositivo ou gateway.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>Open WebUI v0.12.4: checklist de atualização e controle de acesso 2026</title><link>https://pt.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA auto-hospedada"
+, "Cibersegurança"
+, "Administração de sistemas"</category><guid>https://pt.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Faça backup e atualize o Open WebUI para a versão v0.12.4. Em seguida, teste o compartilhamento de conversas, as permissões de exportação, as concessões de recursos, as contas e o acesso à rede.</description></item><item><title>Por dentro da nossa frota híbrida de agentes de IA: Hermes, LiteLLM e Tailscale</title><link>https://pt.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA auto-hospedada"
+, "Agentes de IA"
+, "Infraestrutura de IA"
+, "Mineração de GPU"</category><guid>https://pt.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça uma frota local de IA verificada com carregamento sob demanda e seu plano de controle T0 a T4 com Hermes, LiteLLM, Tailscale Aperture e mineração Pearl.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>Privacidade da IA local: o que permanece no seu computador e o que não permanece</title><link>https://pt.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Privacidade"
+, "IA auto-hospedada"
+, "Cibersegurança"
+, "Economia da IA"</category><guid>https://pt.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Rastreie prompts, arquivos de modelos, ferramentas, logs, exposição de rede e custos de energia antes de escolher inferência local ou um serviço de IA hospedado.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>OpenCode versus Claude Code: comparação de agentes de programação em 2026</title><link>https://pt.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Ferramentas para desenvolvedores"
+, "Inteligência artificial"
+, "Código aberto"</category><guid>https://pt.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare OpenCode e Claude Code na escolha de modelos, inferência local, preços, permissões, instruções de projeto e fluxos diários de programação.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>Programação local com IA em uma GPU de 16 GB: Strata, OpenCode e Qwen3.8</title><link>https://pt.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Ferramentas de desenvolvimento"
+, "IA auto-hospedada"
+, "Hardware para IA"</category><guid>https://pt.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Execute um agente de programação local com Strata e OpenCode. Examine os resultados relatados da RTX 4060 Ti, os requisitos de RAM, a reutilização de prompts, os limites de raciocínio e os limites de substituir uma assinatura paga.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>Criar um assistente de IA com privacidade para Meshtastic</title><link>https://pt.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Segurança de redes"
+, "Privacidade"
+, "Código aberto"
+, "Automação"</category><guid>https://pt.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Relato prático da criação de um assistente local de IA para Meshtastic, com configuração privada, acesso TCP em fila, ferramentas de busca e um painel mais seguro.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item></channel></rss>

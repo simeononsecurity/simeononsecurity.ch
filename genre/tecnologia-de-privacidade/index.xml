@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tecnologia De Privacidade on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Tecnologia De Privacidade on simeononsecurity</title><link>https://pt.simeononsecurity.com/genre/tecnologia-de-privacidade/</link></image><link>https://pt.simeononsecurity.com/genre/tecnologia-de-privacidade/</link><description>Recent content in Tecnologia De Privacidade on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/genre/tecnologia-de-privacidade/index.xml" rel="self" type="application/rss+xml"/><item><title>Mapeamos 146.526 «câmeras Flock». 50.278 eram sistemas ClickShare</title><link>https://pt.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link><pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate><category>
+"Pesquisa de segurança"
+, "Tecnologia de privacidade"
+, "Projetos de código aberto"
+, "Jornalismo de dados"
+, "Contravigilância"</category><guid>https://pt.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Uma auditoria do Flock Finder identifica ClickShare e outros falsos positivos, explica as evidências e registra as mudanças.</description></item><item><title>O discurso de vendas da Flock Safety: acesso a cada movimento sem mandado</title><link>https://pt.simeononsecurity.com/articles/flock-safety-sales-pitch-warrantless-access-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Tecnologia de privacidade"
+, "Direitos digitais"
+, "Vigilância"
+, "Análise jurídica"
+, "Contravigilância"</category><guid>https://pt.simeononsecurity.com/articles/flock-safety-sales-pitch-warrantless-access-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Examine a mensagem de vendas da Flock Safety, o acesso a dados de deslocamento e as questões constitucionais levantadas por buscas sem mandado.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/flock-safety-warrantless-access-surveillance-database.webp" length="440804" type="image/webp"/></item><item><title>ATS Resume Improver: Otimizador de Currículos com IA Gratuito</title><link>https://pt.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Ferramenta de carreira"
+, "Projetos de código aberto"
+, "Inteligência artificial"
+, "Tecnologia de privacidade"
+, "Ferramenta para desenvolvedores"
+, "Busca de emprego"
+, "Produtividade"</category><guid>https://pt.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ATS Resume Improver é uma ferramenta gratuita, de código aberto e executada no cliente para analisar, pontuar, comparar, otimizar e exportar currículos com modelos na nuvem ou locais.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp" length="158574" type="image/webp"/></item><item><title>Flock Finder: Mapeie Câmeras ALPR do Flock Safety</title><link>https://pt.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Tecnologia de Privacidade"
+, "Contra-Vigilância"
+, "Projetos de Código Aberto"
+, "Direitos Digitais"
+, "Segurança de Rede"
+, "Ferramentas de Privacidade"
+, "Hacking de Hardware"
+, "Pesquisa de Segurança"</category><guid>https://pt.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+O Flock Finder é uma ferramenta de código aberto que mapeia mais de 40.000 câmeras ALPR do Flock Safety em todo o mundo usando dados WiFi do WiGLE e impressão digital OUI. Saiba como funciona, suas limitações e as ferramentas de hardware para detecção em tempo real.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Firmware personalizado DagShell para Orbic RCL400: guia de 2026</title><link>https://pt.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"Firmware personalizado"
+, "Segurança móvel"
+, "Ferramentas de privacidade"
+, "Segurança de rede"
+, "Wardriving"
+, "Testes de penetração"
+, "Hacking de IoT"
+, "Pesquisa de segurança"
+, "Hacking de hardware"
+, "Tecnologia de privacidade"</category><guid>https://pt.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia técnico do firmware DagShell para Orbic RCL400, com instalação, ferramentas de privacidade, wardriving e limites de pesquisa.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>Flock-You Detection: Guia de Configuração para Contra-Vigilância</title><link>https://pt.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Hardware de Segurança"
+, "Contra-Vigilância"
+, "Tecnologia de Privacidade"
+, "Projetos Open Source"
+, "Desenvolvimento ESP32"
+, "Monitoramento WiFi"
+, "Ferramentas de Privacidade"
+, "Direitos Digitais"
+, "Modificação de Hardware"
+, "Segurança de Rede"</category><guid>https://pt.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia técnico completo do projeto open-source Flock-You para detectar câmeras ALPR da Flock Safety usando hardware baseado em ESP32. Inclui instruções de configuração, detalhes de firmware e opções de compra.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>Vigilância por Câmeras Flock Safety: Privacidade e Proteção</title><link>https://pt.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Tecnologia de Privacidade"
+, "Sistemas de Vigilância"
+, "Direitos Digitais"
+, "Tecnologia de Aplicação da Lei"
+, "Proteção de Privacidade"
+, "Contravigilância"
+, "Liberdades Civis"
+, "Ética Tecnológica"
+, "Infraestrutura de Cidade Inteligente"
+, "Hardware de Segurança"</category><guid>https://pt.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra a ampla implantação das câmeras ALPR da Flock Safety em 2026, compreenda as implicações para a privacidade e aprenda estratégias eficazes de contravigilância, incluindo dispositivos de detecção.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/flock-safety-camera-surveillance-prevalence-privacy-protection-2026.webp" length="316668" type="image/webp"/></item></channel></rss>
