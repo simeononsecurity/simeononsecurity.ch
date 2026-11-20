@@ -1,7 +1,7 @@
 ---
 title: "サイバーセキュリティの人気ミームとポップカルチャーの引用"
 date: 2023-11-30
-lastmod: 2026-11-08
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "ミームやポップカルチャーの引用を通じて、サイバーセキュリティとオンライン安全を楽しく分かりやすく学べます。"
@@ -21,7 +21,7 @@ canonical: ""
 
 {{< figure src="hackercat.webp" alt="ハッカー猫のミーム" >}}
 
-有名なサイバーセキュリティのミームに、サングラスをかけた猫がコンピューターの前に座り、「I'm in」と表示されるものがあります。ハッカーを謎めいて追跡不能な存在として描く冗談です。実際には、[サイバーセキュリティの専門家](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/)が、[政府の規制](https://simeononsecurity.com/search/?q=regulations)や[デジタルフォレンジックツール](https://simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/)も活用しながら、サイバー犯罪者の身元を特定します。
+有名なサイバーセキュリティのミームに、サングラスをかけた猫がコンピューターの前に座り、「侵入した」と表示されるものがあります。ハッカーを謎めいて追跡不能な存在として描く冗談です。実際には、[サイバーセキュリティの専門家](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/)が、[政府の規制](https://simeononsecurity.com/search/?q=regulations)や[デジタルフォレンジックツール](https://simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/)も活用しながら、サイバー犯罪者の身元を特定します。
 
 ## マトリックス：赤い薬か青い薬か
 
@@ -39,7 +39,7 @@ canonical: ""
 
 {{< figure src="Security Awareness.webp" alt="フィッシングメールにだまされる人を描いたミーム" >}}
 
-フィッシングは依然として一般的な脅威です。「Hook, Line, and Sinker」のような文言とともに、偽メールにだまされる人を描いたミームは、ネット上で慎重に行動するよう促します。メールが本物か確認し、不審なリンクをクリックしないよう周囲に伝えましょう。詳しくは[フィッシングメールの見分け方](https://simeononsecurity.com/articles/how-to-identify-phishing/)をご覧ください。
+フィッシングは依然として一般的な脅威です。「まんまとだまされた」のような文言とともに、偽メールにだまされる人を描いたミームは、ネット上で慎重に行動するよう促します。メールが本物か確認し、不審なリンクをクリックしないよう周囲に伝えましょう。詳しくは[フィッシングメールの見分け方](https://simeononsecurity.com/articles/how-to-identify-phishing/)をご覧ください。
 
 ______
 

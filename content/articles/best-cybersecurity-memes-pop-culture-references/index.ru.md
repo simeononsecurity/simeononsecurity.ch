@@ -1,7 +1,7 @@
 ---
 title: "Лучшие мемы о кибербезопасности и отсылки к поп-культуре"
 date: 2023-11-30
-lastmod: 2026-11-08
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Мемы и отсылки к поп-культуре помогают доступно и с юмором говорить о кибербезопасности и защите в интернете."
@@ -21,7 +21,7 @@ canonical: ""
 
 {{< figure src="hackercat.webp" alt="Мем с котом-хакером" >}}
 
-В одном из самых известных мемов кот в солнцезащитных очках сидит за компьютером, а рядом написано: «I'm in». Шутка изображает хакеров загадочными и неуловимыми. В действительности [специалисты по кибербезопасности](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/) устанавливают личности киберпреступников, в том числе с помощью [государственных норм](https://simeononsecurity.com/search/?q=regulations) и [инструментов компьютерной криминалистики](https://simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/).
+В одном из самых известных мемов кот в солнцезащитных очках сидит за компьютером, а рядом написано: «Я внутри». Шутка изображает хакеров загадочными и неуловимыми. В действительности [специалисты по кибербезопасности](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/) устанавливают личности киберпреступников, в том числе с помощью [государственных норм](https://simeononsecurity.com/search/?q=regulations) и [инструментов компьютерной криминалистики](https://simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/).
 
 ## «Матрица»: красная или синяя таблетка
 
@@ -39,7 +39,7 @@ canonical: ""
 
 {{< figure src="Security Awareness.webp" alt="Мемы о людях, которые попались на фишинговое сообщение" >}}
 
-Фишинг остаётся распространённой угрозой. Мемы о людях, попавшихся на фишинговые письма, с подписями вроде «Hook, Line, and Sinker» напоминают о необходимости осторожности в интернете. Предлагайте знакомым проверять подлинность писем и не переходить по подозрительным ссылкам. Подробнее читайте в [руководстве по распознаванию фишинговых писем](https://simeononsecurity.com/articles/how-to-identify-phishing/).
+Фишинг остаётся распространённой угрозой. Мемы о людях, попавшихся на фишинговые письма, с подписями вроде «попались на удочку» напоминают о необходимости осторожности в интернете. Предлагайте знакомым проверять подлинность писем и не переходить по подозрительным ссылкам. Подробнее читайте в [руководстве по распознаванию фишинговых писем](https://simeononsecurity.com/articles/how-to-identify-phishing/).
 
 ______
 

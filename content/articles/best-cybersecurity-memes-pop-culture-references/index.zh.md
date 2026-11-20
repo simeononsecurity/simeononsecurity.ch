@@ -1,7 +1,7 @@
 ---
 title: "最有趣的网络安全梗图与流行文化引用"
 date: 2023-11-30
-lastmod: 2026-11-08
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "通过梗图和流行文化引用，以轻松易懂的方式了解网络安全与在线防护。"
@@ -21,7 +21,7 @@ canonical: ""
 
 {{< figure src="hackercat.webp" alt="黑客猫梗图" >}}
 
-一张经典梗图中，戴墨镜的猫坐在电脑前，配文是“I'm in”。这个笑话把黑客描绘成神秘且无法追踪的人。现实中，[网络安全专业人员](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/)会努力查明网络犯罪者的身份，也会借助[政府法规](https://simeononsecurity.com/search/?q=regulations)和[数字取证工具](https://simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/)。
+一张经典梗图中，戴墨镜的猫坐在电脑前，配文是“我已经进来了”。这个笑话把黑客描绘成神秘且无法追踪的人。现实中，[网络安全专业人员](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/)会努力查明网络犯罪者的身份，也会借助[政府法规](https://simeononsecurity.com/search/?q=regulations)和[数字取证工具](https://simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/)。
 
 ## 黑客帝国：红色药丸还是蓝色药丸
 
@@ -39,7 +39,7 @@ canonical: ""
 
 {{< figure src="Security Awareness.webp" alt="描绘人们被钓鱼消息骗到的梗图" >}}
 
-钓鱼攻击仍是常见威胁。梗图用“Hook, Line, and Sinker”之类的文字描绘受骗者，提醒大家上网时要谨慎。请提醒他人核实邮件真伪，避开可疑链接。更多内容请阅读[识别钓鱼邮件指南](https://simeononsecurity.com/articles/how-to-identify-phishing/)。
+钓鱼攻击仍是常见威胁。梗图用“彻底上钩”之类的文字描绘受骗者，提醒大家上网时要谨慎。请提醒他人核实邮件真伪，避开可疑链接。更多内容请阅读[识别钓鱼邮件指南](https://simeononsecurity.com/articles/how-to-identify-phishing/)。
 
 ______
 

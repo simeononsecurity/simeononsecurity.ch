@@ -1,7 +1,7 @@
 ---
 title: "أفضل الميمات والإشارات إلى الثقافة الشعبية في الأمن السيبراني"
 date: 2023-11-30
-lastmod: 2026-11-08
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "تجعل الميمات والإشارات إلى الثقافة الشعبية موضوع الأمن السيبراني والسلامة عبر الإنترنت أكثر قربًا ومتعة."
@@ -21,7 +21,7 @@ canonical: ""
 
 {{< figure src="hackercat.webp" alt="ميم القط المخترق" >}}
 
-يُظهر أحد أشهر الميمات قطًا يرتدي نظارة شمسية أمام حاسوب، مع عبارة "I'm in". يصور الميم المخترقين بطريقة فكاهية كأشخاص غامضين يصعب تعقبهم. في الواقع، يعمل [متخصصو الأمن السيبراني](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/) على كشف هويات المجرمين، مستعينين أحيانًا بـ[اللوائح الحكومية](https://simeononsecurity.com/search/?q=regulations) و[أدوات التحليل الجنائي الرقمي](https://simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/).
+يُظهر أحد أشهر الميمات قطًا يرتدي نظارة شمسية أمام حاسوب، مع عبارة "أنا بالداخل". يصور الميم المخترقين بطريقة فكاهية كأشخاص غامضين يصعب تعقبهم. في الواقع، يعمل [متخصصو الأمن السيبراني](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/) على كشف هويات المجرمين، مستعينين أحيانًا بـ[اللوائح الحكومية](https://simeononsecurity.com/search/?q=regulations) و[أدوات التحليل الجنائي الرقمي](https://simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/).
 
 ## ماتريكس: الحبة الحمراء أم الزرقاء
 
@@ -39,7 +39,7 @@ canonical: ""
 
 {{< figure src="Security Awareness.webp" alt="ميمات عن أشخاص يقعون في رسائل التصيد الاحتيالي" >}}
 
-لا يزال التصيد الاحتيالي تهديدًا شائعًا. وتذكّر الميمات التي تعرض أشخاصًا يقعون في رسائل مزيفة، مع عبارات مثل "Hook, Line, and Sinker"، بضرورة الحذر عبر الإنترنت. شجّع الآخرين على التحقق من صحة الرسائل وتجنب الروابط المشبوهة. اقرأ [دليل التعرف على رسائل التصيد](https://simeononsecurity.com/articles/how-to-identify-phishing/).
+لا يزال التصيد الاحتيالي تهديدًا شائعًا. وتذكّر الميمات التي تعرض أشخاصًا يقعون في رسائل مزيفة، مع عبارات مثل "وقعوا في الفخ بالكامل"، بضرورة الحذر عبر الإنترنت. شجّع الآخرين على التحقق من صحة الرسائل وتجنب الروابط المشبوهة. اقرأ [دليل التعرف على رسائل التصيد](https://simeononsecurity.com/articles/how-to-identify-phishing/).
 
 ______
 

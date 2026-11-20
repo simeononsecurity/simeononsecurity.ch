@@ -1,7 +1,7 @@
 ---
 title: "Els millors mems de ciberseguretat i referències a la cultura pop"
 date: 2023-11-30
-lastmod: 2026-11-08
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Els mems i les referències a la cultura pop fan que la ciberseguretat i la seguretat en línia siguin més accessibles i divertides."
@@ -21,7 +21,7 @@ En l'era digital, la ciberseguretat és més important que mai. L'amenaça const
 
 {{< figure src="hackercat.webp" alt="El mem del gat hacker" >}}
 
-Un mem conegut mostra un gat amb ulleres de sol davant d'un ordinador i el text «I'm in». La broma presenta els hackers com a misteriosos i impossibles de rastrejar. En realitat, els [professionals de la ciberseguretat](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/) treballen per identificar els ciberdelinqüents, amb l'ajuda de la [normativa governamental](https://simeononsecurity.com/search/?q=regulations) i les [eines d'informàtica forense](https://simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/).
+Un mem conegut mostra un gat amb ulleres de sol davant d'un ordinador i el text «Ja hi soc». La broma presenta els hackers com a misteriosos i impossibles de rastrejar. En realitat, els [professionals de la ciberseguretat](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/) treballen per identificar els ciberdelinqüents, amb l'ajuda de la [normativa governamental](https://simeononsecurity.com/search/?q=regulations) i les [eines d'informàtica forense](https://simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/).
 
 ## Matrix: la píndola vermella o la blava
 
@@ -39,7 +39,7 @@ Aquesta frase coneguda destaca que una actualització de programari no pot corre
 
 {{< figure src="Security Awareness.webp" alt="Mems de persones que cauen en missatges de phishing" >}}
 
-El phishing continua sent una amenaça habitual. Els mems de persones que cauen en correus falsos, amb frases com «Hook, Line, and Sinker», recorden que cal anar amb compte en línia. Anima els altres a verificar que els correus siguin autèntics i a evitar els enllaços sospitosos. Consulta aquesta [guia per identificar correus de phishing](https://simeononsecurity.com/articles/how-to-identify-phishing/).
+El phishing continua sent una amenaça habitual. Els mems de persones que cauen en correus falsos, amb frases com «han caigut de ple a la trampa», recorden que cal anar amb compte en línia. Anima els altres a verificar que els correus siguin autèntics i a evitar els enllaços sospitosos. Consulta aquesta [guia per identificar correus de phishing](https://simeononsecurity.com/articles/how-to-identify-phishing/).
 
 ______
 

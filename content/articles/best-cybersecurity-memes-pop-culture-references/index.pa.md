@@ -1,7 +1,7 @@
 ---
 title: "ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੇ ਵਧੀਆ ਮੀਮ ਅਤੇ ਪੌਪ ਸੱਭਿਆਚਾਰ ਦੇ ਹਵਾਲੇ"
 date: 2023-11-30
-lastmod: 2026-11-08
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "ਮੀਮ ਅਤੇ ਪੌਪ ਸੱਭਿਆਚਾਰ ਦੇ ਹਵਾਲੇ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਅਤੇ ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ ਨੂੰ ਸੌਖੇ ਤੇ ਮਨੋਰੰਜਕ ਢੰਗ ਨਾਲ ਸਮਝਾਉਂਦੇ ਹਨ।"
@@ -21,7 +21,7 @@ canonical: ""
 
 {{< figure src="hackercat.webp" alt="ਹੈਕਰ ਬਿੱਲੀ ਦਾ ਮੀਮ" >}}
 
-ਇੱਕ ਮਸ਼ਹੂਰ ਮੀਮ ਵਿੱਚ ਧੁੱਪ ਦੀਆਂ ਐਨਕਾਂ ਪਾਈ ਬਿੱਲੀ ਕੰਪਿਊਟਰ ਅੱਗੇ ਬੈਠੀ ਹੁੰਦੀ ਹੈ ਅਤੇ ਨਾਲ “I'm in” ਲਿਖਿਆ ਹੁੰਦਾ ਹੈ। ਇਹ ਮਜ਼ਾਕ ਹੈਕਰਾਂ ਨੂੰ ਰਹੱਸਮਈ ਅਤੇ ਲੱਭਣ ਤੋਂ ਬਾਹਰ ਦਿਖਾਉਂਦਾ ਹੈ। ਅਸਲ ਵਿੱਚ, [ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਮਾਹਿਰ](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/) ਸਾਈਬਰ ਅਪਰਾਧੀਆਂ ਦੀ ਪਛਾਣ ਕਰਨ ਲਈ ਕੰਮ ਕਰਦੇ ਹਨ। ਇਸ ਵਿੱਚ [ਸਰਕਾਰੀ ਨਿਯਮ](https://simeononsecurity.com/search/?q=regulations) ਅਤੇ [ਡਿਜ਼ਿਟਲ ਫੋਰੈਂਸਿਕ ਸੰਦ](https://simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/) ਮਦਦ ਕਰਦੇ ਹਨ।
+ਇੱਕ ਮਸ਼ਹੂਰ ਮੀਮ ਵਿੱਚ ਧੁੱਪ ਦੀਆਂ ਐਨਕਾਂ ਪਾਈ ਬਿੱਲੀ ਕੰਪਿਊਟਰ ਅੱਗੇ ਬੈਠੀ ਹੁੰਦੀ ਹੈ ਅਤੇ ਨਾਲ “ਮੈਂ ਅੰਦਰ ਆ ਗਿਆ ਹਾਂ” ਲਿਖਿਆ ਹੁੰਦਾ ਹੈ। ਇਹ ਮਜ਼ਾਕ ਹੈਕਰਾਂ ਨੂੰ ਰਹੱਸਮਈ ਅਤੇ ਲੱਭਣ ਤੋਂ ਬਾਹਰ ਦਿਖਾਉਂਦਾ ਹੈ। ਅਸਲ ਵਿੱਚ, [ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਮਾਹਿਰ](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/) ਸਾਈਬਰ ਅਪਰਾਧੀਆਂ ਦੀ ਪਛਾਣ ਕਰਨ ਲਈ ਕੰਮ ਕਰਦੇ ਹਨ। ਇਸ ਵਿੱਚ [ਸਰਕਾਰੀ ਨਿਯਮ](https://simeononsecurity.com/search/?q=regulations) ਅਤੇ [ਡਿਜ਼ਿਟਲ ਫੋਰੈਂਸਿਕ ਸੰਦ](https://simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/) ਮਦਦ ਕਰਦੇ ਹਨ।
 
 ## ਦ ਮੈਟ੍ਰਿਕਸ: ਲਾਲ ਗੋਲੀ ਜਾਂ ਨੀਲੀ ਗੋਲੀ
 
@@ -39,7 +39,7 @@ canonical: ""
 
 {{< figure src="Security Awareness.webp" alt="ਫਿਸ਼ਿੰਗ ਸੁਨੇਹੇ ਵਿੱਚ ਫਸੇ ਲੋਕਾਂ ਬਾਰੇ ਮੀਮ" >}}
 
-ਫਿਸ਼ਿੰਗ ਹਾਲੇ ਵੀ ਆਮ ਖਤਰਾ ਹੈ। ਨਕਲੀ ਈਮੇਲਾਂ ਵਿੱਚ ਫਸੇ ਲੋਕਾਂ ਨੂੰ ਦਿਖਾਉਂਦੇ ਮੀਮ, “Hook, Line, and Sinker” ਵਰਗੀਆਂ ਲਾਈਨਾਂ ਨਾਲ, ਆਨਲਾਈਨ ਸਾਵਧਾਨ ਰਹਿਣ ਦੀ ਯਾਦ ਦਿਵਾਉਂਦੇ ਹਨ। ਹੋਰਨਾਂ ਨੂੰ ਈਮੇਲ ਦੀ ਅਸਲੀਅਤ ਜਾਂਚਣ ਅਤੇ ਸ਼ੱਕੀ ਲਿੰਕਾਂ ਤੋਂ ਬਚਣ ਲਈ ਕਹੋ। ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ [ਫਿਸ਼ਿੰਗ ਈਮੇਲ ਪਛਾਣਨ ਦੀ ਗਾਈਡ](https://simeononsecurity.com/articles/how-to-identify-phishing/) ਪੜ੍ਹੋ।
+ਫਿਸ਼ਿੰਗ ਹਾਲੇ ਵੀ ਆਮ ਖਤਰਾ ਹੈ। ਨਕਲੀ ਈਮੇਲਾਂ ਵਿੱਚ ਫਸੇ ਲੋਕਾਂ ਨੂੰ ਦਿਖਾਉਂਦੇ ਮੀਮ, “ਪੂਰੀ ਤਰ੍ਹਾਂ ਝਾਂਸੇ ਵਿੱਚ ਆ ਗਏ” ਵਰਗੀਆਂ ਲਾਈਨਾਂ ਨਾਲ, ਆਨਲਾਈਨ ਸਾਵਧਾਨ ਰਹਿਣ ਦੀ ਯਾਦ ਦਿਵਾਉਂਦੇ ਹਨ। ਹੋਰਨਾਂ ਨੂੰ ਈਮੇਲ ਦੀ ਅਸਲੀਅਤ ਜਾਂਚਣ ਅਤੇ ਸ਼ੱਕੀ ਲਿੰਕਾਂ ਤੋਂ ਬਚਣ ਲਈ ਕਹੋ। ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ [ਫਿਸ਼ਿੰਗ ਈਮੇਲ ਪਛਾਣਨ ਦੀ ਗਾਈਡ](https://simeononsecurity.com/articles/how-to-identify-phishing/) ਪੜ੍ਹੋ।
 
 ______
 
@@ -57,7 +57,7 @@ ______
 
 [**Amazon Prime Video ਉੱਤੇ ਮਿਸਟਰ ਰੋਬੋਟ ਦੇਖੋ**](https://amzn.to/3Q92yMJ)
 
-## ਪਾਸਵਰਡ ਦੀ ਦਿਲਚਸਪ ਸਮੱਸਿਆ: “123456” ਅਤੇ “Password”
+## ਪਾਸਵਰਡ ਦੀ ਦੁਵਿਧਾ: “123456” ਅਤੇ “Password”
 
 {{< figure src="password.webp" alt="Password ਨੂੰ ਪਾਸਵਰਡ ਬਣਾਉਣ ਵਾਲਾ ਮੀਮ" link="https://paac-it.com/123456-as-password/" >}}
 

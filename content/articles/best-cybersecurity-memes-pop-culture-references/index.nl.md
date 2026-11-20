@@ -1,12 +1,12 @@
 ---
 title: "De beste cybersecuritymemes en verwijzingen naar popcultuur"
 date: 2023-11-30
-lastmod: 2026-11-08
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Ontdek hoe cybersecuritymemes en popcultuurverwijzingen online veiligheid op een luchtige manier bespreekbaar maken."
 genre: ["Technologie", "Cyberbeveiliging", "Internetcultuur", "Memes", "Popcultuur", "Online veiligheid", "Digitale humor", "Cybereducatie", "Cyberdreigingen", "Internetveiligheid"]
-tags: ["Cybersecuritymemes", "Popcultuurverwijzingen", "Hackerkat", "The Matrix", "Phishingmemes", "Zwakke wachtwoorden", "Dark web", "Cybersecurityeducatie", "Online veiligheid", "Digitale humor", "Security awareness", "Mr. Robot", "This Is Fine-hond", "Cybersecurityjargon", "Internetbeveiliging", "Digitale forensische analyse", "Overheidsregels", "Phishingaanvallen", "Wachtwoordmanagers", "Multifactorauthenticatie", "Cybersecuritydreigingen", "Mythen over het dark web", "Digitale beveiliging", "Online privacy", "Cybercriminaliteit", "IT Crowd", "Securitytraining", "Incidentrespons", "Cyberonderzoek", "Ethisch hacken"]
+tags: ["Cybersecuritymemes", "Popcultuurverwijzingen", "Hackerkat", "The Matrix", "Phishingmemes", "Zwakke wachtwoorden", "Darknet", "Cybersecurityeducatie", "Online veiligheid", "Digitale humor", "Veiligheidsbewustzijn", "Mr. Robot", "This Is Fine-hond", "Cybersecurityjargon", "Internetbeveiliging", "Digitale forensische analyse", "Overheidsregels", "Phishingaanvallen", "Wachtwoordmanagers", "Multifactorauthenticatie", "Cybersecuritydreigingen", "Mythen over het darknet", "Digitale beveiliging", "Privacy online", "Cybercriminaliteit", "IT Crowd", "Veiligheidstraining", "Incidentrespons", "Cyberonderzoek", "Ethisch hacken"]
 cover: "/img/cover/hacker-cat-meme.webp"
 coverAlt: "Een humoristische cartoon van een kat met zonnebril achter een computer, omringd door tekstballonnen die naar de hackerkatmem verwijzen."
 coverCaption: "Veiligheid met een glimlach: cybersecurity met humor."
@@ -21,7 +21,7 @@ Cybersecurity is in het digitale tijdperk belangrijker dan ooit. Door de voortdu
 
 {{< figure src="hackercat.webp" alt="De hackerkatmem" >}}
 
-Een bekende cybersecuritymem toont een kat met zonnebril achter een computer en de tekst "I'm in." De grap stelt hackers voor als mysterieus en ontraceerbaar. In werkelijkheid werken [cybersecurityprofessionals](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/) hard om cybercriminelen te identificeren, met hulp van [overheidsregels](https://simeononsecurity.com/search/?q=regulations) en [digitale forensische hulpmiddelen](https://simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/).
+Een bekende cybersecuritymem toont een kat met zonnebril achter een computer en de tekst "Ik ben binnen." De grap stelt hackers voor als mysterieus en ontraceerbaar. In werkelijkheid werken [cybersecurityprofessionals](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/) hard om cybercriminelen te identificeren, met hulp van [overheidsregels](https://simeononsecurity.com/search/?q=regulations) en [digitale forensische hulpmiddelen](https://simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/).
 
 ## The Matrix: rode pil versus blauwe pil
 
@@ -39,7 +39,7 @@ Deze bekende uitspraak benadrukt dat een softwarepatch menselijke fouten niet op
 
 {{< figure src="Security Awareness.webp" alt="Phishingmemes over mensen die op een phishingbericht klikken" >}}
 
-Phishing blijft een veelvoorkomende dreiging. Memes over mensen die in phishingmails trappen, met bijschriften als "Hook, Line, and Sinker", herinneren je eraan online voorzichtig te zijn. Moedig anderen aan e-mails te controleren en verdachte links te vermijden. Lees deze [gids voor het herkennen van phishingmails](https://simeononsecurity.com/articles/how-to-identify-phishing/).
+Phishing blijft een veelvoorkomende dreiging. Memes over mensen die in phishingmails trappen, met bijschriften als "er met open ogen ingetrapt", herinneren je eraan online voorzichtig te zijn. Moedig anderen aan e-mails te controleren en verdachte links te vermijden. Lees deze [gids voor het herkennen van phishingmails](https://simeononsecurity.com/articles/how-to-identify-phishing/).
 
 ______
 
@@ -51,7 +51,7 @@ De hond die koffie drinkt terwijl de kamer in brand staat, lijkt op organisaties
 
 ## Mr. Robot: hacken als tweesnijdend zwaard
 
-{{< figure src="mrrobot.webp" alt="Mr. Robot" >}}
+{{< figure src="mrrobot.webp" alt="De afbeelding verwijst naar de serie Mr. Robot" >}}
 
 De serie Mr. Robot staat bekend om de realistische weergave van hacken. De serie laat zien dat hacken zowel voor rechtvaardigheid als voor misbruik kan worden ingezet. Die dubbelzinnigheid onderstreept de noodzaak van duidelijke ethische richtlijnen en regels in cybersecurity.
 
@@ -71,11 +71,11 @@ Deze klassieke IT-supportgrap uit The IT Crowd laat zien hoe eenvoudig sommige t
 
 ______
 
-## Het dark web: mythen en werkelijkheid
+## Het darknet: mythen en werkelijkheid
 
-{{< figure src="darkweb.webp" alt="Mythen en werkelijkheid over het dark web" link="https://hackernoon.com/6-dark-web-myths-that-you-still-believe-in-2q5xa3149" >}}
+{{< figure src="darkweb.webp" alt="Mythen en werkelijkheid over het darknet" link="https://hackernoon.com/6-dark-web-myths-that-you-still-believe-in-2q5xa3149" >}}
 
-Het [dark web](https://simeononsecurity.com/articles/the-dark-web-and-cybercrime-a-look/) wordt in de popcultuur vaak afgeschilderd als een centrum van criminaliteit. In werkelijkheid is het een complex en weinig toegankelijk deel van het internet. Leg uit wat de nuances zijn en waarom het dark web relevant is voor cybersecurity. Bespreek overheidsregels tegen illegale activiteiten op het dark web.
+Het [darknet](https://simeononsecurity.com/articles/the-dark-web-and-cybercrime-a-look/) wordt in de popcultuur vaak afgeschilderd als een centrum van criminaliteit. In werkelijkheid is het een complex en weinig toegankelijk deel van het internet. Leg uit wat de nuances zijn en waarom het darknet relevant is voor cybersecurity. Bespreek overheidsregels tegen illegale activiteiten op het darknet.
 
 ## De hond die "Ik heb geen idee wat ik doe" zegt
 
