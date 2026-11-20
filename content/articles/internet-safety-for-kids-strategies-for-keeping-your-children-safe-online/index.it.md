@@ -1,7 +1,7 @@
 ---
 title: "Sicurezza in Internet per i bambini: suggerimenti e strategie per mantenere i vostri figli al sicuro online"
 date: 2023-05-13
-lastmod: 2026-11-13
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Proteggete i vostri figli dai pericoli online con questi consigli e strategie di sicurezza su Internet."
@@ -13,23 +13,23 @@ coverCaption: ""
 
 **Sicurezza su Internet per i bambini: consigli e strategie per mantenere i vostri figli al sicuro online**
 
-Mentre il mondo diventa sempre più digitale, i bambini trascorrono sempre più tempo online. Se da un lato Internet offre una grande quantità di informazioni e intrattenimento, dall'altro può essere un luogo pericoloso per i bambini. I genitori devono prendere provvedimenti per garantire che i loro figli siano al sicuro quando sono online. In questo articolo discuteremo alcuni **punti e strategie** per mantenere i vostri figli al sicuro online.
+Mentre il mondo diventa sempre più digitale, i bambini trascorrono sempre più tempo online. Se da un lato Internet offre una grande quantità di informazioni e intrattenimento, dall'altro può essere un luogo pericoloso per i bambini. I genitori devono prendere provvedimenti per garantire che i loro figli siano al sicuro quando sono online. In questo articolo parleremo di alcuni **consigli e strategie** per mantenere i vostri figli al sicuro online.
 
-## Stabilire regole e limiti chiari
+## Stabilite regole e limiti chiari
 
 Il primo passo per mantenere i vostri figli al sicuro online è stabilire regole e limiti chiari. Assicuratevi che i vostri figli capiscano qual è il comportamento accettabile online e quale no. Discutete dei rischi legati alla condivisione di informazioni personali e sottolineate l'importanza di mantenere private le password. È anche importante stabilire dei limiti alla quantità di tempo che i vostri figli trascorrono online.
 
-## Monitorate l'attività online dei vostri figli
+## Seguite le attività dei vostri figli su Internet
 
-Anche se vi fidate dei vostri figli, è comunque importante monitorare la loro attività online. Tenete il computer in una posizione centrale dove possiate vedere facilmente cosa fanno i vostri figli. Potete anche utilizzare un software di controllo parentale per limitare l'accesso a determinati siti web e monitorare l'attività online di vostro figlio.
+Anche se vi fidate dei vostri figli, è comunque importante monitorare la loro attività online. Tenete il computer in una posizione centrale dove possiate vedere facilmente cosa fanno i vostri figli. Potete anche utilizzare un software di controllo parentale per limitare l'accesso a determinati siti web e monitorare l'attività online dei vostri figli.
 
 Uno di questi programmi è [Norton Family](https://us.norton.com/norton-family-premier), che offre diverse funzioni per aiutare i genitori a monitorare le attività online dei figli. Tra queste figurano il filtro dei siti web, la gestione del tempo e il rilevamento della posizione. È inoltre possibile ricevere avvisi se un figlio tenta di accedere a un sito web o a un’app bloccata.
 
-## Insegnare ai bambini a riconoscere le situazioni di pericolo
+## Insegnate ai vostri figli a riconoscere le situazioni di pericolo
 
 Insegnate ai vostri figli a riconoscere le situazioni pericolose online, come il cyberbullismo o i predatori online. Assicuratevi che sappiano come bloccare e segnalare qualsiasi comportamento inappropriato. È anche importante sottolineare l'importanza di non incontrare di persona nessuno che si è conosciuto solo online.
 
-## Utilizzare un software di controllo parentale
+## Usate un software di controllo parentale
 
 Il software di controllo parentale può essere uno strumento utile per proteggere i vostri figli online. Sono disponibili molte opzioni diverse, ciascuna con le proprie funzioni. Tra le opzioni più diffuse ci sono [Norton Family](https://us.norton.com/norton-family-premier), [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids) e [Net Nanny](https://www.netnanny.com/).
 
@@ -39,11 +39,11 @@ Il software di controllo parentale può essere uno strumento utile per protegger
 
 È importante avere conversazioni aperte e oneste con i vostri figli sulla sicurezza online. Incoraggiateli a rivolgersi a voi se si sentono a disagio o minacciati mentre sono online. Assicuratevi che sappiano che possono fidarsi di voi per aiutarli in qualsiasi situazione.
 
-## Mantieni il tuo computer sicuro
+## Proteggete il vostro computer
 
 La sicurezza del computer è una parte importante della sicurezza online. Assicuratevi che il vostro computer sia dotato di un software antivirus aggiornato e che siano installati tutti gli aggiornamenti di sicurezza. Incoraggiate i vostri figli a usare [password forti](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) e a non condividerle mai con nessuno.
 
-## Utilizzare l'autenticazione a due fattori
+## Usate l'autenticazione a due fattori
 
 L'autenticazione a due fattori è una funzione di sicurezza che aggiunge un ulteriore livello di protezione ai vostri account online. Con l'autenticazione a due fattori, gli utenti devono inserire un codice inviato al telefono o all'e-mail oltre alla password. In questo modo è possibile impedire l'accesso non autorizzato ai propri account.
 

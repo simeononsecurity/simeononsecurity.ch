@@ -1,7 +1,7 @@
 ---
 title: "Bezpieczeństwo w Internecie dla dzieci: Porady i strategie zapewnienia dzieciom bezpieczeństwa w sieci"
 date: 2023-05-13
-lastmod: 2026-11-13
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Chroń swoje dzieci przed niebezpieczeństwami w sieci za pomocą tych wskazówek i strategii dotyczących bezpieczeństwa w Internecie."
@@ -37,7 +37,7 @@ Oprogramowanie do kontroli rodzicielskiej może pomóc chronić dzieci w sieci. 
 
 ## Rozmawiaj z dziećmi
 
-Ważne jest, aby prowadzić otwarte i szczere rozmowy z dziećmi na temat bezpieczeństwa w sieci. Zachęcaj je, aby zgłaszały się do Ciebie, jeśli kiedykolwiek poczują się niekomfortowo lub zagrożone w sieci. Upewnij się, że wiedzą, że mogą Ci zaufać i pomóc w każdej sytuacji.
+Ważne jest, aby prowadzić otwarte i szczere rozmowy z dziećmi na temat bezpieczeństwa w sieci. Zachęcaj je, aby zgłaszały się do Ciebie, jeśli kiedykolwiek poczują się niekomfortowo lub zagrożone w sieci. Upewnij się, że wiedzą, że mogą Ci zaufać i liczyć na Twoją pomoc w każdej sytuacji.
 
 ## Zadbaj o bezpieczeństwo komputera
 

@@ -1,7 +1,7 @@
 ---
 title: "Sécurité des enfants sur Internet : conseils et stratégies pour assurer la sécurité de vos enfants en ligne"
 date: 2023-05-13
-lastmod: 2026-11-13
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Protégez vos enfants des dangers en ligne grâce à ces conseils et stratégies de sécurité sur Internet."
@@ -25,11 +25,11 @@ Même si vous faites confiance à vos enfants, il est important de surveiller le
 
 L'un de ces logiciels est [Norton Family](https://us.norton.com/norton-family-premier), qui propose plusieurs fonctions pour aider les parents à surveiller l'activité en ligne de leurs enfants. Il comprend le filtrage des sites web, la gestion du temps et le suivi de la localisation. Vous pouvez aussi recevoir une alerte si votre enfant tente d'accéder à un site web ou à une application bloquée.
 
-## Apprenez à vos enfants à reconnaître les situations dangereuses
+## Apprenez à vos enfants à repérer les dangers en ligne
 
 Apprenez à vos enfants à reconnaître les situations dangereuses en ligne, comme la cyberintimidation ou les prédateurs en ligne. Assurez-vous qu'ils savent comment bloquer et signaler tout comportement inapproprié. Il est également important d'insister sur le fait qu'il ne faut pas rencontrer en personne quelqu'un que l'on n'a rencontré qu'en ligne.
 
-## Utiliser un logiciel de contrôle parental
+## Utilisez un logiciel de contrôle parental
 
 Les logiciels de contrôle parental peuvent être utiles pour assurer la sécurité de vos enfants en ligne. Il existe de nombreuses options, chacune dotée de ses propres fonctionnalités. Parmi les options populaires figurent [Norton Family](https://us.norton.com/norton-family-premier), [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids) et [Net Nanny](https://www.netnanny.com/).
 
@@ -51,6 +51,6 @@ L'authentification à deux facteurs est une fonction de sécurité qui ajoute un
 
 Apprenez à vos enfants à réfléchir avant de cliquer sur un lien ou de télécharger un fichier en ligne. Assurez-vous qu'ils savent que tout ce qui se trouve sur Internet n'est pas sûr ou digne de confiance. Encouragez-les à vous demander de l'aide s'ils ne sont pas sûrs de quelque chose.
 
-## Conclusion
+## À retenir
 
 L'internet peut être une ressource précieuse pour les enfants, mais il peut aussi être dangereux. En fixant des règles et des limites claires, en surveillant l'activité en ligne de votre enfant et en utilisant un logiciel de contrôle parental, vous pouvez contribuer à la sécurité de vos enfants en ligne. Il est également important d'avoir des conversations ouvertes et honnêtes avec vos enfants sur la sécurité en ligne et de leur apprendre à reconnaître et à éviter les situations dangereuses. En prenant ces mesures, vous pouvez faire en sorte que vos enfants aient une expérience positive et sûre en ligne.

@@ -1,11 +1,11 @@
 ---
 title: "Veiligheid op internet voor kinderen: tips en strategieën om uw kinderen online veilig te houden"
 date: 2023-05-13
-lastmod: 2026-11-13
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Bescherm uw kinderen tegen online gevaren met deze tips en strategieën voor internetveiligheid."
-tags: ["Veiligheid op het internet", "online veiligheid", "kinderveiligheid", "ouderlijk toezicht", "cyberpesten", "digitale geletterdheid", "online roofdieren", "sociale media", "online gamen", "mobiele apparaten", "privacy", "beveiliging", "veilig internetgebruik", "tips voor internetbeveiliging", "bescherming van kinderen online", "ouderschap in het digitale tijdperk", "online privacy voor kinderen", "online gevaren voor kinderen", "veilige internetgewoonten", "voorlichting over internetveiligheid"]
+tags: ["Veiligheid op het internet", "online veiligheid", "kinderveiligheid", "ouderlijk toezicht", "cyberpesten", "digitale geletterdheid", "online roofdieren", "sociale media", "online gamen", "mobiele apparaten", "privacybescherming", "beveiliging", "veilig internetgebruik", "tips voor internetbeveiliging", "bescherming van kinderen online", "ouderschap in het digitale tijdperk", "online privacy voor kinderen", "online gevaren voor kinderen", "veilige internetgewoonten", "voorlichting over internetveiligheid"]
 cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.webp"
 coverAlt: "Een cartoonbeeld van een ouder en een kind die samen een computer gebruiken, waarbij het kind een vergrootglas vasthoudt en de ouder naar het scherm wijst."
 coverCaption: ""
@@ -19,7 +19,7 @@ Nu de wereld steeds digitaler wordt, brengen kinderen steeds meer tijd online do
 
 De eerste stap om uw kinderen online veilig te houden is het stellen van duidelijke regels en grenzen. Zorg ervoor dat uw kinderen begrijpen wat wel en niet aanvaardbaar gedrag is online. Bespreek de risico's van het delen van persoonlijke informatie en benadruk het belang van het geheim houden van wachtwoorden. Het is ook belangrijk om grenzen te stellen aan de tijd die uw kinderen online doorbrengen.
 
-## Houd de online activiteiten van uw kind in de gaten
+## Houd in de gaten wat uw kind op internet doet
 
 Zelfs als u uw kinderen vertrouwt, blijft het belangrijk om hun online activiteiten in de gaten te houden. Zet de computer op een centrale plaats waar u gemakkelijk kunt zien wat uw kinderen doen. U kunt ook software voor ouderlijk toezicht gebruiken om de toegang tot bepaalde websites te beperken en de online activiteiten van uw kind te controleren.
 
@@ -29,7 +29,7 @@ Een voorbeeld van zulke software is [Norton Family](https://us.norton.com/norton
 
 Leer uw kinderen gevaarlijke situaties online te herkennen, zoals cyberpesten of online roofdieren. Zorg ervoor dat ze weten hoe ze ongepast gedrag kunnen blokkeren en melden. Het is ook belangrijk te benadrukken dat ze niemand persoonlijk mogen ontmoeten die ze alleen online hebben ontmoet.
 
-## Gebruik software voor ouderlijk toezicht
+## Gebruik een programma voor ouderlijk toezicht
 
 Software voor ouderlijk toezicht kan een nuttig hulpmiddel zijn om uw kinderen online veilig te houden. Er zijn veel verschillende opties beschikbaar, elk met eigen functies. Populaire opties zijn [Norton Family](https://us.norton.com/norton-family-premier), [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids) en [Net Nanny](https://www.netnanny.com/).
 
@@ -39,11 +39,11 @@ Software voor ouderlijk toezicht kan een nuttig hulpmiddel zijn om uw kinderen o
 
 Het is belangrijk om open en eerlijke gesprekken met uw kinderen te voeren over online veiligheid. Moedig hen aan naar u toe te komen als ze zich ongemakkelijk of bedreigd voelen terwijl ze online zijn. Zorg ervoor dat ze weten dat ze u kunnen vertrouwen om hen in elke situatie te helpen.
 
-## Houd uw computer veilig
+## Beveilig uw pc
 
 Het beveiligen van uw computer is een belangrijk onderdeel van online veiligheid. Zorg ervoor dat uw computer is uitgerust met up-to-date antivirussoftware en dat alle beveiligingsupdates zijn geïnstalleerd. Moedig uw kinderen aan [sterke wachtwoorden](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) te gebruiken en deze nooit met anderen te delen.
 
-## Gebruik twee-factor authenticatie
+## Schakel tweestapsverificatie in
 
 Twee-factor authenticatie is een beveiligingsfunctie die een extra beschermingslaag toevoegt aan uw online accounts. Met twee-factor authenticatie moeten gebruikers naast hun wachtwoord een code invoeren die naar hun telefoon of e-mail wordt gestuurd. Dit kan ongeoorloofde toegang tot uw accounts helpen voorkomen.
 
