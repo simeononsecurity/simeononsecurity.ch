@@ -1,20 +1,19 @@
 ---
 title: "Normen voor veilig coderen in Python: Beste praktijken"
 date: 2023-02-26
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Leer de beste praktijken voor veilig coderen in Python om het risico van beveiligingslekken te minimaliseren en gevoelige gegevens te beschermen."
-tags: ["Python", "Veilige codering", "Veiligheidsrisico's", "Invoer validatie", "Cryptografie bibliotheken", "Minste voorrecht", "Statische code-analyzer", "Webtoepassingen", "Python kaders", "Django", "Flash", "Authenticatiesysteem", "Wachtwoord hashing", "Sjabloon systeem", "Beheer van sessies", "MarkupSafe", "WTForms", "Blinker", "Gegevensbescherming", "Kwetsbaarheden"]
+tags: ["Python", "Veilig coderen", "Beveiligingsrisico’s", "Invoervalidatie", "Cryptografiebibliotheken", "Minimale bevoegdheden", "Statische codeanalyse", "Webapplicaties", "Python-frameworks", "Django", "Flask", "Authenticatiesysteem", "Wachtwoordhashing", "Templatesysteem", "Sessiebeheer", "MarkupSafe", "WTForms", "Blinker", "Gegevensbescherming", "Kwetsbaarheden", "Veilig coderen", "Python", "Beveiligingsrisico’s", "Invoervalidatie", "Cryptografiebibliotheken", "Minimale bevoegdheden", "Statische codeanalyse", "Webapplicaties", "Python-frameworks", "Django", "Flask", "Authenticatiesysteem", "Wachtwoordhashing", "Templatesysteem", "Sessiebeheer", "MarkupSafe", "WTForms", "Blinker", "Gegevensbescherming", "Kwetsbaarheden", "Python-codebeveiliging", "Codebeoordeling", "Statische analysetools", "Veilige webontwikkeling", "Veilige codeerpraktijken", "Beveiligingskwetsbaarheden", "Best practices voor codebeveiliging", "Gegevensversleuteling", "Principe van minimale bevoegdheden", "Codeanalyse", "Webbeveiliging"]
 cover: "/img/cover/A_cartoon_shield_with_the_word_Python.webp"
 coverAlt: "Een cartoonschild met het woord Python erop geschreven om veilige coderingsnormen voor te stellen"
 coverCaption: ""
 ---
- Praktijken voor veilige codeerstandaarden in Python**
+**Praktijken voor veilige codeerstandaarden in Python**
 
 ### 1. Input Validatie
 
-### Invoercontrole
 
 Gebruikersinvoer is vaak een belangrijke bron van beveiligingsrisico's. **Invoervalidatie** is het proces waarbij wordt gecontroleerd of de invoer van de gebruiker aan de verwachte criteria voldoet en veilig in de toepassing kan worden gebruikt.
 
@@ -77,7 +76,7 @@ Als een applicatie bijvoorbeeld alleen-lezen toegang tot een database nodig heef
 
 ### 5. Houd bibliotheken en raamwerken bijgewerkt
 
-Bibliotheken en raamwerken kunnen beveiligingsproblemen bevatten die door aanvallers kunnen worden uitgebuit. Ontwikkelaars moeten hun bibliotheken en raamwerken bijwerken** naar de laatste versie om mogelijke beveiligingsproblemen te voorkomen.
+Bibliotheken en raamwerken kunnen beveiligingsproblemen bevatten die door aanvallers kunnen worden uitgebuit. Ontwikkelaars moeten hun bibliotheken en raamwerken **bijwerken** naar de laatste versie om mogelijke beveiligingsproblemen te voorkomen.
 
 Als de toepassing bijvoorbeeld een bibliotheek van derden gebruikt, zoals[`Requests`](https://pypi.org/project/requests/) die een beveiligingslek heeft, moet de ontwikkelaar updaten naar de laatste versie van de bibliotheek die het beveiligingslek verhelpt.
 
@@ -89,7 +88,7 @@ Bijvoorbeeld,[`bandit`](https://pypi.org/project/bandit/) is een populaire stati
 
 ### 7. Gebruik veilige codeerpraktijken voor webtoepassingen
 
-Webtoepassingen zijn kwetsbaar voor verschillende veiligheidsrisico's zoals cross-site scripting, SQL-injectie en opdrachtinjectie. Ontwikkelaars moeten veilige codeerpraktijken** volgen, zoals invoervalidatie, uitvoercodering en query's met parameters om ervoor te zorgen dat webtoepassingen veilig zijn.
+Webtoepassingen zijn kwetsbaar voor verschillende veiligheidsrisico's zoals cross-site scripting, SQL-injectie en opdrachtinjectie. Ontwikkelaars moeten **veilige codeerpraktijken** volgen, zoals invoervalidatie, uitvoercodering en query's met parameters om ervoor te zorgen dat webtoepassingen veilig zijn.
 
 Gebruik bijvoorbeeld bij het schrijven van SQL-query's **geparametriseerde query's** in plaats van gebruikersinvoer aan de query te koppelen. Geparameteriseerde query's voorkomen SQL-injectie aanvallen door gebruikersinvoer te behandelen als gegevens en niet als uitvoerbare code.
 

@@ -1,20 +1,19 @@
 ---
 title: "Normas de codificación segura para Python: Buenas prácticas"
 date: 2023-02-26
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Aprenda las mejores prácticas de codificación segura en Python para minimizar el riesgo de brechas de seguridad y proteger los datos sensibles."
-tags: ["Python", "Codificación segura", "Riesgos de seguridad", "Validación de las entradas", "Bibliotecas criptográficas", "Menor privilegio", "Analizador de código estático", "Aplicaciones web", "Marcos de trabajo de Python", "Django", "Flash", "Sistema de autenticación", "Cifrado de contraseñas", "Sistema de plantillas", "Gestión de sesiones", "MarkupSafe", "WTForms", "Intermitente", "Protección de datos", "Vulnerabilidades", "Codificación segura", "Python", "Riesgos de seguridad", "Validación de entradas", "Bibliotecas criptográficas", "Menor privilegio", "Analizador de código estático", "Aplicaciones web", "Marcos de trabajo de Python", "Django", "Flash", "Sistema de autenticación", "Cifrado de contraseñas", "Sistema de plantillas", "Gestión de sesiones", "MarkupSafe", "WTForms", "Intermitente", "Protección de datos", "Vulnerabilidades", "Seguridad del código Python", "Revisión del código", "Herramientas de análisis estático", "Desarrollo web seguro", "Prácticas de codificación seguras", "Vulnerabilidades de seguridad", "Buenas prácticas de seguridad del código", "Cifrado de datos", "Principio del menor privilegio", "Análisis del código", "Seguridad web"]
+tags: ["Python", "Codificación segura", "Riesgos de seguridad", "Validación de las entradas", "Bibliotecas criptográficas", "Menor privilegio", "Analizador de código estático", "Aplicaciones web", "Marcos de trabajo de Python", "Django", "Flask", "Sistema de autenticación", "Cifrado de contraseñas", "Sistema de plantillas", "Gestión de sesiones", "MarkupSafe", "WTForms", "Blinker", "Protección de datos", "Vulnerabilidades", "Codificación segura", "Python", "Riesgos de seguridad", "Validación de entradas", "Bibliotecas criptográficas", "Menor privilegio", "Analizador de código estático", "Aplicaciones web", "Marcos de trabajo de Python", "Django", "Flask", "Sistema de autenticación", "Cifrado de contraseñas", "Sistema de plantillas", "Gestión de sesiones", "MarkupSafe", "WTForms", "Blinker", "Protección de datos", "Vulnerabilidades", "Seguridad del código Python", "Revisión del código", "Herramientas de análisis estático", "Desarrollo web seguro", "Prácticas de codificación seguras", "Vulnerabilidades de seguridad", "Buenas prácticas de seguridad del código", "Cifrado de datos", "Principio del menor privilegio", "Análisis del código", "Seguridad web"]
 cover: "/img/cover/A_cartoon_shield_with_the_word_Python.webp"
 coverAlt: "Un escudo de dibujos animados con la palabra Python escrita en él para representar las normas de codificación segura"
 coverCaption: ""
 ---
- Prácticas para normas de codificación segura en Python**
+**Prácticas para normas de codificación segura en Python**
 
 ### 1. Validación de Entrada
 
-### Validación de Entrada
 
 La entrada de datos por parte del usuario suele ser una fuente importante de riesgos para la seguridad. **La validación de entrada** es el proceso de verificar que la entrada del usuario cumple los criterios esperados y es segura para su uso en la aplicación.
 
@@ -112,7 +111,7 @@ Los frameworks de Python como [Django](https://www.djangoproject.com/) y [Flask]
 [Django](https://www.djangoproject.com/) es un framework web popular para Python. Aquí tienes algunos estándares de codificación segura para [Django](https://www.djangoproject.com/):
 
 - Utilización [Django](https://www.djangoproject.com/) sistema de **autenticación** integrado en lugar de crear un sistema de autenticación personalizado.
-- Utilización [Django](https://www.djangoproject.com/) funciones de hash de contraseña** integradas en lugar de crear métodos de hash de contraseña personalizados.
+- Utilización [Django](https://www.djangoproject.com/) **funciones de hash de contraseña** integradas en lugar de crear métodos de hash de contraseña personalizados.
 - Utilice [Django](https://www.djangoproject.com/) **sistema de plantillas** para garantizar que la salida es segura y está libre de vulnerabilidades de secuencias de comandos en sitios cruzados.
 
 Por ejemplo, para usar la función integrada de hash de contraseñas de [Django](https://www.djangoproject.com/), utiliza `make_password()` del módulo `django.contrib.auth.hashers`.
@@ -127,7 +126,7 @@ hashed_password = make_password(password)
 ### 2. [Flask](https://flask.palletsprojects.com/)
 [Flask](https://flask.palletsprojects.com/) es un framework web ligero para Python. Aquí tienes algunos estándares de codificación segura para [Flask](https://flask.palletsprojects.com/):
 
-- Utilización [Flask](https://flask.palletsprojects.com/) Sistema de gestión de sesiones** integrado para garantizar la gestión segura de las sesiones.
+- Utilización [Flask](https://flask.palletsprojects.com/) **Sistema de gestión de sesiones** integrado para garantizar la gestión segura de las sesiones.
 - Utilice [Flask](https://flask.palletsprojects.com/) junto con la biblioteca [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) para garantizar que la salida sea segura y esté libre de vulnerabilidades de secuencias de comandos en sitios cruzados.
 - Utilice [Flask](https://flask.palletsprojects.com/) con la biblioteca [`WTForms`](https://pypi.org/project/WTForms/) para validar las entradas de los usuarios y evitar riesgos de seguridad.
 - Utilice [Flask](https://flask.palletsprojects.com/) junto con la biblioteca [`Blinker`](https://pypi.org/project/blinker/) para procesar señales de forma segura.

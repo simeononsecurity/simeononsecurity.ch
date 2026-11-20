@@ -1,20 +1,19 @@
 ---
 title: "Normes de codage sécurisé pour Python : Meilleures pratiques"
 date: 2023-02-26
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Apprenez les meilleures pratiques de codage sécurisé en Python pour minimiser le risque de failles de sécurité et protéger les données sensibles."
-tags: ["Python", "Codage sécurisé", "Risques pour la sécurité", "Validation des entrées", "Bibliothèques de cryptographie", "Le moindre privilège", "Analyseur de code statique", "Web applications", "Cadres Python", "Django", "Flash", "Système d'authentification", "Hachage de mot de passe", "Système de modèles", "Session management", "MarkupSafe", "WTForms", "Clignotant", "Protection des données", "Vulnérabilités", "Codage sécurisé", "Python", "Risques pour la sécurité", "Validation des entrées", "Bibliothèques de cryptographie", "Le moindre privilège", "Analyseur de code statique", "Web applications", "Cadres Python", "Django", "Flash", "Système d'authentification", "Hachage de mot de passe", "Système de modèles", "Session management", "MarkupSafe", "WTForms", "Clignotant", "Protection des données", "Vulnérabilités", "Sécurité du code Python", "Examen du code", "Outils d'analyse statique", "Développement web sécurisé", "Pratiques de codage sécurisées", "Vulnérabilités en matière de sécurité", "Meilleures pratiques en matière de sécurité du code", "Data encryption", "Principe du moindre privilège", "Analyse du code", "Sécurité du web"]
+tags: ["Python", "Codage sécurisé", "Risques pour la sécurité", "Validation des entrées", "Bibliothèques de cryptographie", "Le moindre privilège", "Analyseur de code statique", "Applications web", "Cadres Python", "Django", "Flask", "Système d'authentification", "Hachage de mot de passe", "Système de modèles", "Gestion des sessions", "MarkupSafe", "WTForms", "Blinker", "Protection des données", "Vulnérabilités", "Codage sécurisé", "Python", "Risques pour la sécurité", "Validation des entrées", "Bibliothèques de cryptographie", "Le moindre privilège", "Analyseur de code statique", "Applications web", "Cadres Python", "Django", "Flask", "Système d'authentification", "Hachage de mot de passe", "Système de modèles", "Gestion des sessions", "MarkupSafe", "WTForms", "Blinker", "Protection des données", "Vulnérabilités", "Sécurité du code Python", "Examen du code", "Outils d'analyse statique", "Développement web sécurisé", "Pratiques de codage sécurisées", "Vulnérabilités en matière de sécurité", "Meilleures pratiques en matière de sécurité du code", "Chiffrement des données", "Principe du moindre privilège", "Analyse du code", "Sécurité du web"]
 cover: "/img/cover/A_cartoon_shield_with_the_word_Python.webp"
 coverAlt: "Un bouclier de bande dessinée sur lequel est inscrit le mot Python pour représenter les normes de codage sécurisées"
 coverCaption: ""
 ---
- Pratiques pour des normes de codage sécurisées en Python**.
+**Pratiques pour des normes de codage sécurisées en Python**.
 
 ### 1. Validation des entrées
 
-### Validation des entrées
 
 Les données saisies par l'utilisateur constituent souvent une source importante de risques pour la sécurité. **La validation des entrées** consiste à vérifier que les données saisies par l'utilisateur répondent aux critères attendus et qu'elles peuvent être utilisées en toute sécurité dans l'application.
 

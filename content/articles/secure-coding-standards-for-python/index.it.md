@@ -1,20 +1,19 @@
 ---
 title: "Standard di codifica sicura per Python: Migliori pratiche"
 date: 2023-02-26
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Imparate le migliori pratiche di codifica sicura in Python per ridurre al minimo il rischio di violazioni della sicurezza e proteggere i dati sensibili."
-tags: ["Pitone", "Codifica sicura", "Rischi per la sicurezza", "Convalida dell'ingresso", "Librerie di crittografia", "Privilegio minimo", "Analizzatore di codice statico", "Applicazioni web", "Quadri Python", "Django", "Flash", "Sistema di autenticazione", "Hashing della password", "Sistema di template", "Gestione della sessione", "MarkupSafe", "WTForms", "Lampeggiante", "Protezione dei dati", "Vulnerabilità"]
+tags: ["Python", "Codifica sicura", "Rischi per la sicurezza", "Convalida degli input", "Librerie crittografiche", "Privilegio minimo", "Analizzatore statico del codice", "Applicazioni web", "Framework Python", "Django", "Flask", "Sistema di autenticazione", "Hashing delle password", "Sistema di template", "Gestione delle sessioni", "MarkupSafe", "WTForms", "Blinker", "Protezione dei dati", "Vulnerabilità", "Codifica sicura", "Python", "Rischi per la sicurezza", "Convalida degli input", "Librerie crittografiche", "Privilegio minimo", "Analizzatore statico del codice", "Applicazioni web", "Framework Python", "Django", "Flask", "Sistema di autenticazione", "Hashing delle password", "Sistema di template", "Gestione delle sessioni", "MarkupSafe", "WTForms", "Blinker", "Protezione dei dati", "Vulnerabilità", "Sicurezza del codice Python", "Revisione del codice", "Strumenti di analisi statica", "Sviluppo web sicuro", "Pratiche di codifica sicura", "Vulnerabilità di sicurezza", "Migliori pratiche per la sicurezza del codice", "Crittografia dei dati", "Principio del privilegio minimo", "Analisi del codice", "Sicurezza web"]
 cover: "/img/cover/A_cartoon_shield_with_the_word_Python.webp"
 coverAlt: "Uno scudo a fumetti con la parola Python scritta sopra per rappresentare gli standard di codifica sicuri."
 coverCaption: ""
 ---
- Pratiche per gli standard di codifica sicura in Python**
+**Pratiche per gli standard di codifica sicura in Python**
 
 ### 1. Convalida dell'input
 
-### Convalida dell'ingresso
 
 L'input dell'utente è spesso una fonte significativa di rischi per la sicurezza. La **convalida dell'input** è il processo di verifica che l'input dell'utente soddisfi i criteri previsti e sia sicuro da usare nell'applicazione.
 
@@ -112,7 +111,7 @@ Framework Python come [Django](https://www.djangoproject.com/) e [Flask](https:/
 [Django](https://www.djangoproject.com/) è un framework web molto diffuso per Python. Ecco alcuni standard di codifica sicura per [Django](https://www.djangoproject.com/):
 
 - Utilizzo[Django](https://www.djangoproject.com/) sistema di **autenticazione** integrato, invece di creare un sistema di autenticazione personalizzato.
-- Utilizzare[Django](https://www.djangoproject.com/) funzioni di hashing delle password** integrate, invece di creare metodi di hashing delle password personalizzati.
+- Utilizzare [Django](https://www.djangoproject.com/) **funzioni di hashing delle password** integrate, invece di creare metodi di hashing delle password personalizzati.
 - Utilizzare[Django](https://www.djangoproject.com/) **sistema di template** per garantire che l'output sia sicuro e privo di vulnerabilità di cross-site scripting.
 
 Ad esempio, per usare la funzione integrata di hashing delle password di [Django](https://www.djangoproject.com/), usa `make_password()` dal modulo `django.contrib.auth.hashers`.
@@ -127,7 +126,7 @@ hashed_password = make_password(password)
 ### 2.[Flask](https://flask.palletsprojects.com/)
 [Flask](https://flask.palletsprojects.com/) è un framework web leggero per Python. Ecco alcuni standard di codifica sicura per [Flask](https://flask.palletsprojects.com/):
 
-- Utilizzo[Flask](https://flask.palletsprojects.com/) sistema di gestione delle sessioni** integrato per garantire una gestione sicura delle sessioni.
+- Utilizzo [Flask](https://flask.palletsprojects.com/) **sistema di gestione delle sessioni** integrato per garantire una gestione sicura delle sessioni.
 - Usate [Flask](https://flask.palletsprojects.com/) insieme alla libreria [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) per rendere l’output sicuro e privo di vulnerabilità cross-site scripting.
 - Usate [Flask](https://flask.palletsprojects.com/) con la libreria [`WTForms`](https://pypi.org/project/WTForms/) per convalidare gli input degli utenti ed evitare rischi per la sicurezza.
 - Usate [Flask](https://flask.palletsprojects.com/) insieme alla libreria [`Blinker`](https://pypi.org/project/blinker/) per gestire i segnali in modo sicuro.
