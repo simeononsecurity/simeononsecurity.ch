@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sicurezza Open Source on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Sicurezza Open Source on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/sicurezza-open-source/</link></image><link>https://it.simeononsecurity.com/tags/sicurezza-open-source/</link><description>Recent content in Sicurezza Open Source on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/sicurezza-open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>La corsa al rilevamento delle telecamere Flock: cosa è cambiato nel 2026</title><link>https://it.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"Tecnologie per la privacy"
+, "Controsorveglianza"
+, "Progetti open source"
+, "Diritti digitali"
+, "Sicurezza di rete"
+, "Ricerca sulla sicurezza"
+, "Modifica hardware"
+, "Strumenti per la privacy"</category><guid>https://it.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esamina i cambiamenti segnalati nel rilevamento Flock Safety, le risposte della comunità e i metodi a infrarossi per identificare i sistemi di telecamere.</description><enclosure url="https://it.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>Flock Finder: Mappa delle telecamere ALPR di Flock Safety</title><link>https://it.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Tecnologia della privacy"
+, "Contro-sorveglianza"
+, "Progetti open source"
+, "Diritti digitali"
+, "Sicurezza delle reti"
+, "Strumenti per la privacy"
+, "Modifica dell’hardware"
+, "Ricerca sulla sicurezza"</category><guid>https://it.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder è uno strumento open source che mappa oltre 40.000 telecamere Flock Safety ALPR in tutto il mondo utilizzando i dati WiFi di WiGLE e il fingerprinting OUI. Scopri come funziona, i suoi limiti e gli strumenti hardware per il rilevamento in tempo reale.</description><enclosure url="https://it.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Firmware personalizzato DagShell per Orbic RCL400: guida 2026</title><link>https://it.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"Firmware personalizzato"
+, "Sicurezza mobile"
+, "Strumenti per la privacy"
+, "Sicurezza di rete"
+, "Wardriving"
+, "Penetration testing"
+, "Hacking IoT"
+, "Ricerca sulla sicurezza"
+, "Hacking hardware"
+, "Tecnologie per la privacy"</category><guid>https://it.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guida tecnica al firmware DagShell per Orbic RCL400. Descrive installazione, strumenti per la privacy, wardriving e limiti della ricerca.</description><enclosure url="https://it.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>Ubiquiti UniFi Firewall e pfSense a confronto</title><link>https://it.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza di rete"
+, "Soluzioni firewall"
+, "Sicurezza informatica"
+, "Confronto router"
+, "Tecnologia"
+, "Soluzioni IT"
+, "Firewall open source"
+, "Ubiquiti e pfSense"
+, "Rete aziendale"
+, "Rete domestica"</category><guid>https://it.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronta Ubiquiti UniFi Firewall e pfSense per proteggere la rete in modo efficace.</description><enclosure url="https://it.simeononsecurity.com/img/cover/Ubiquiti_UniFi_Firewall_vs_pfSense.webp" length="192366" type="image/webp"/></item><item><title>Strumenti di sicurezza open source e commerciali: Pro e contro spiegati</title><link>https://it.simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/</link><pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate><category>
+"sicurezza open-source"
+, "strumenti di sicurezza commerciali"
+, "efficacia dei costi"
+, "flessibilità"
+, "personalizzazione"
+, "sostegno alla comunità"
+, "supporto limitato"
+, "documentazione"
+, "sfide di integrazione"
+, "qualità e affidabilità"
+, "Integrazione perfetta"
+, "blocco del fornitore"
+, "Risorse IT"
+, "infrastruttura di sicurezza"
+, "soluzioni di sicurezza"
+, "vincoli di bilancio"
+, "requisiti unici"
+, "compatibilità del software"
+, "obiettivi di sicurezza"
+, "processo decisionale"</category><guid>https://it.simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esplorate i vantaggi e gli svantaggi degli strumenti di sicurezza open-source e commerciali, aiutandovi a prendere decisioni informate per la strategia di sicurezza della vostra organizzazione.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon-style_image_of_two_contrasting_characters.webp" length="54028" type="image/webp"/></item></channel></rss>

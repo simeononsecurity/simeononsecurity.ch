@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNS Sicuro on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>DNS Sicuro on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/dns-sicuro/</link></image><link>https://it.simeononsecurity.com/tags/dns-sicuro/</link><description>Recent content in DNS Sicuro on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/dns-sicuro/index.xml" rel="self" type="application/rss+xml"/><item><title>Verifica le perdite DNS e WebRTC del browser con una VPN</title><link>https://it.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Privacy"
+, "Browser"
+, "Reti"</category><guid>https://it.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Controlla l'IP pubblico, il resolver DNS e gli indirizzi WebRTC del browser prima e dopo aver collegato una VPN. Interpreta i risultati e individua i problemi di instradamento.</description><enclosure url="https://it.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>NextDNS: filtraggio DNS e blocco delle minacce per la sicurezza online</title><link>https://it.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</link><pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Filtraggio DNS"
+, "Sicurezza Internet"
+, "Servizio cloud"
+, "Protezione online"
+, "Filtraggio web"
+, "Protezione della privacy"
+, "Alternativa al blocco DNS"
+, "Sicurezza di rete"
+, "Sicurezza su Internet"</category><guid>https://it.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri NextDNS, un servizio di blocco DNS facile da usare che migliora la sicurezza online con aggiornamenti automatici e criteri di filtraggio personalizzabili.</description><enclosure url="https://it.simeononsecurity.com/img/cover/nextdns_cybersecurity_shield.webp" length="98890" type="image/webp"/></item></channel></rss>

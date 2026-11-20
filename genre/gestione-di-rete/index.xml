@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gestione Di Rete on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Gestione Di Rete on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/gestione-di-rete/</link></image><link>https://it.simeononsecurity.com/genre/gestione-di-rete/</link><description>Recent content in Gestione Di Rete on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/gestione-di-rete/index.xml" rel="self" type="application/rss+xml"/><item><title>Fortinet contro Cisco: confronto completo sulla sicurezza di rete</title><link>https://it.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Sicurezza di Rete"
+, "Cybersecurity"
+, "Networking Aziendale"
+, "Confronto Firewall"
+, "Infrastruttura IT"
+, "Hardware di Rete"
+, "Soluzioni di Sicurezza"
+, "Gestione di Rete"
+, "Confronto Tecnologico"
+, "Decisioni IT"</category><guid>https://it.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronto completo delle soluzioni di sicurezza di rete Fortinet e Cisco, inclusi firewall, switch, SD-WAN, prezzi, benchmark di prestazioni e raccomandazioni di implementazione per il 2026.</description><enclosure url="https://it.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp"/></item><item><title>NAT e PAT: guide essenziali alla comunicazione di rete</title><link>https://it.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"Fondamenti di rete"
+, "Sicurezza informatica"
+, "Infrastruttura IT"
+, "Guide tecnologiche"
+, "Gestione di rete"
+, "Protocolli Internet"
+, "Tecnologie di comunicazione"
+, "Amministrazione di sistema"
+, "Ingegneria di rete"
+, "Reti digitali"</category><guid>https://it.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come NAT e PAT rendono fluide le comunicazioni digitali.</description><enclosure url="https://it.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item><item><title>Firewall di nuova generazione: funzionalità essenziali per la tua azienda</title><link>https://it.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</link><pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Sicurezza di rete"
+, "Tecnologia firewall"
+, "Sicurezza aziendale"
+, "Integrazione cloud"
+, "Minacce digitali"
+, "Gestione di rete"
+, "Soluzioni di sicurezza"
+, "Sicurezza online"
+, "Approfondimenti tecnologici"</category><guid>https://it.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scegli un firewall di nuova generazione valutando controllo delle applicazioni, prevenzione delle intrusioni, protezione dalle minacce, supporto cloud, throughput, resilienza e gestione.</description><enclosure url="https://it.simeononsecurity.com/img/cover/next-gen-firewalls_-features-you-can%27t-ignore-for-your-business.webp" length="128018" type="image/webp"/></item><item><title>Ubiquiti UniFi è adatto alla rete di casa?</title><link>https://it.simeononsecurity.com/articles/ubiquiti-unifi-good-for-home-use/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><category>
+"Reti domestiche"
+, "Soluzioni Wi-Fi"
+, "Hardware di rete"
+, "Prodotti Ubiquiti"
+, "Recensioni tecnologiche"
+, "Tecnologia domestica"
+, "Connettività wireless"
+, "Gestione di rete"
+, "Elettronica di consumo"
+, "Soluzioni wireless"</category><guid>https://it.simeononsecurity.com/articles/ubiquiti-unifi-good-for-home-use/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri se Ubiquiti UniFi è adatto a casa e valuta i vantaggi di rete, i costi e le esigenze di gestione.</description><enclosure url="https://it.simeononsecurity.com/img/cover/ubiquiti-unifi-home-wifi.webp" length="49076" type="image/webp"/></item><item><title>Proteggere Active Directory</title><link>https://it.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Gestione di rete"
+, "Tecnologia dell'informazione"
+, "Protezione dei dati"
+, "Sicurezza aziendale"
+, "Infrastruttura digitale"
+, "Controllo degli accessi"
+, "Autenticazione degli utenti"
+, "Best practice IT"
+, "Consapevolezza della sicurezza"</category><guid>https://it.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come proteggere Active Directory, salvaguardare i dati e prevenire le intrusioni nell'infrastruttura di rete.</description><enclosure url="https://it.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item><item><title>Capire il filtraggio WMI</title><link>https://it.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Gestione Windows"
+, "Criteri di gruppo"
+, "Amministrazione di sistema"
+, "Gestione di rete"
+, "Infrastruttura IT"
+, "Gestione dei criteri"
+, "Governance IT"
+, "Automazione IT"
+, "Active Directory"
+, "Conformità di sicurezza"</category><guid>https://it.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come usare il filtraggio WMI per indirizzare meglio gli oggetti Criteri di gruppo (GPO), con esempi pratici e buone pratiche.</description><enclosure url="https://it.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item></channel></rss>

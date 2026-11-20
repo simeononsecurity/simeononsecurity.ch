@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Connettività Di Rete on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Connettività Di Rete on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/connettivit%C3%A0-di-rete/</link></image><link>https://it.simeononsecurity.com/tags/connettivit%C3%A0-di-rete/</link><description>Recent content in Connettività Di Rete on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/connettivit%C3%A0-di-rete/index.xml" rel="self" type="application/rss+xml"/><item><title>Ottimizza la rete: capire progetti e topologie</title><link>https://it.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><category>
+"Ingegneria di rete"
+, "Infrastruttura IT"
+, "Guide tecnologiche"
+, "Soluzioni di rete"
+, "Sicurezza informatica"
+, "Informatica"
+, "Formazione tecnologica"
+, "Architettura di sistema"
+, "Ottimizzazione di rete"
+, "Innovazioni tecnologiche"</category><guid>https://it.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri i progetti e le topologie di rete e valuta quali garantiscono la massima efficienza.</description><enclosure url="https://it.simeononsecurity.com/img/cover/decoding-network-designs_-types-and-topologies-explained.webp" length="121144" type="image/webp"/></item><item><title>Corso Network Plus: Metodologia di risoluzione dei problemi di rete</title><link>https://it.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Formazione IT"
+, "Risoluzione dei problemi di rete"
+, "Certificazione di rete"
+, "Formazione IT"
+, "Reti di computer"
+, "Competenze informatiche"
+, "Conoscenze tecniche"
+, "Professionisti IT"
+, "Concetti di rete"
+, "Supporto di rete"</category><guid>https://it.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Una guida completa alla metodologia di risoluzione dei problemi di rete, che include i passaggi, gli strumenti e le best practice per risolvere i problemi di rete in modo efficiente ed efficace.</description><enclosure url="https://it.simeononsecurity.com/img/cover/An_illustration_depicting_a_network_engineer_u.webp" length="159928" type="image/webp"/></item><item><title>Fondamenti di rete: cosa sono le sottoreti e le VLAN</title><link>https://it.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</link><pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate><category>
+"Fondamenti di rete"
+, "Suddivisione in subnet"
+, "VLAN"
+, "Gestione della rete"
+, "Sicurezza della rete"
+, "Indirizzamento IP"
+, "Segmentazione della rete"
+, "Uso efficiente delle risorse"
+, "Prestazioni di rete"
+, "IPv4"</category><guid>https://it.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri le basi delle sottoreti e delle VLAN, come suddividere una rete e come migliorarne l’efficienza e la sicurezza.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_comp.webp" length="200202" type="image/webp"/></item><item><title>Fondamenti di rete: switch, router, firewall e DMZ</title><link>https://it.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"Reti"
+, "Infrastruttura IT"
+, "Sicurezza di rete"
+, "Architettura di rete"
+, "Sicurezza informatica"
+, "Comunicazione dei dati"
+, "Tecnologia dell'informazione"
+, "Fondamenti IT"
+, "Gestione delle reti"
+, "Connettività Internet"</category><guid>https://it.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come switch, router, gateway, sottoreti, firewall e DMZ suddividono il traffico di rete e applicano i confini di sicurezza.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item><item><title>Corso Network+: ARP e Neighbor Discovery Protocol</title><link>https://it.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Reti"
+, "Protocolli"
+, "Certificazione Network+"
+, "Risoluzione dei Problemi"
+, "Sicurezza di Rete"
+, "IPv4"
+, "IPv6"
+, "Comunicazione di Rete"
+, "Risoluzione Indirizzi"</category><guid>https://it.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Impara a utilizzare efficacemente il Address Resolution Protocol (ARP) e il Neighbor Discovery Protocol (NDP) per risolvere gli indirizzi IP in indirizzi MAC, navigare nelle reti IPv6 e risolvere problemi comuni per ottimizzare le prestazioni e la sicurezza della rete.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_the_seamless.webp" length="89092" type="image/webp"/></item></channel></rss>

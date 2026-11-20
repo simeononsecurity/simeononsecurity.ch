@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MFA on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>MFA on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/mfa/</link></image><link>https://it.simeononsecurity.com/tags/mfa/</link><description>Recent content in MFA on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/mfa/index.xml" rel="self" type="application/rss+xml"/><item><title>Cloudflare Tunnel e Access: servono entrambi?</title><link>https://it.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Sicurezza di rete"
+, "Self-hosting"
+, "Sicurezza cloud"</category><guid>https://it.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri le differenze tra Cloudflare Tunnel e Access, scegli la protezione per una dashboard domestica ed evita di pubblicare un'app privata senza autenticazione.</description><enclosure url="https://it.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>Telecamere Flock: Strumento di Sicurezza Pubblica o Macchina di Sorveglianza senza Mandato?</title><link>https://it.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"Privacy"
+, "Sorveglianza"
+, "Libertà Civili"
+, "Tecnologia delle Forze dell'Ordine"
+, "Diritti Digitali"</category><guid>https://it.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Un'analisi indipendente delle telecamere ALPR di Flock Safety: come funzionano realmente, quali dati raccolgono oltre alle targhe, come la condivisione dei dati crea un database nazionale ombra, e perché la questione del mandato è il vero problema.</description><enclosure url="https://it.simeononsecurity.com/img/cover/flock-safety-cameras-public-safety-surveillance.webp" length="257030" type="image/webp"/></item><item><title>Proteggi il tuo ambiente cloud con Microsoft Defender for Cloud</title><link>https://it.simeononsecurity.com/articles/how-to-secure-your-cloud-environment-with-azure-security-center/</link><pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate><category>
+"Azure"
+, "Security Center"
+, "sicurezza cloud"
+, "Azure Sentinel"
+, "Azure Defender"
+, "sicurezza di rete"
+, "gestione delle identità"
+, "sicurezza dei dati"
+, "rilevamento delle minacce"
+, "risposta alle minacce"
+, "MFA"
+, "RBAC"
+, "NSGs"
+, "Azure Firewall"
+, "WAF"
+, "Azure AD"
+, "Azure Information Protection"
+, "Azure Storage Service Encryption"
+, "Azure Disk Encryption"</category><guid>https://it.simeononsecurity.com/articles/how-to-secure-your-cloud-environment-with-azure-security-center/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proteggi i carichi di lavoro Azure con Microsoft Defender for Cloud. Consulta i termini storici di Azure Security Center, le raccomandazioni, i criteri e i passaggi di risposta.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_shield_icon_surrounded_by_cloud_symbols.webp" length="100186" type="image/webp"/></item><item><title>Vantaggi e svantaggi dell'autenticazione a più fattori (MFA)</title><link>https://it.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</link><pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate><category>
+"autenticazione a più fattori"
+, "MFA"
+, "sicurezza aziendale"
+, "sicurezza informatica"
+, "protezione dei dati"
+, "conformità normativa"
+, "esperienza dell'utente"
+, "phishing"
+, "attacchi di forza bruta"
+, "complessità tecnica"
+, "resistenza dell'utente"
+, "smartphone"
+, "gettone"
+, "smart card"
+, "impronta digitale"
+, "riconoscimento facciale"
+, "riconoscimento vocale"
+, "PCI DSS"
+, "HIPAA"
+, "violazione dei dati"</category><guid>https://it.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite i vantaggi e gli svantaggi dell'autenticazione a più fattori (MFA) e imparate a scegliere la soluzione giusta per la sicurezza della vostra azienda.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.webp" length="57990" type="image/webp"/></item></channel></rss>

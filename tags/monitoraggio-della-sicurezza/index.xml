@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Monitoraggio Della Sicurezza on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Monitoraggio Della Sicurezza on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/monitoraggio-della-sicurezza/</link></image><link>https://it.simeononsecurity.com/tags/monitoraggio-della-sicurezza/</link><description>Recent content in Monitoraggio Della Sicurezza on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/monitoraggio-della-sicurezza/index.xml" rel="self" type="application/rss+xml"/><item><title>Guida alla sicurezza degli endpoint per i team da remoto</title><link>https://it.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><category>
+"Sicurezza degli endpoint"
+, "Sicurezza del lavoro da remoto"
+, "Guida alla cybersecurity"
+, "Protezione dei dati"
+, "Pratiche di sicurezza IT"
+, "Tendenze future della sicurezza"
+, "Lavoro da remoto sicuro"
+, "Prevenzione delle minacce informatiche"
+, "Misure per la privacy dei dati"
+, "Soluzioni di sicurezza IT"</category><guid>https://it.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proteggi gli endpoint remoti con inventario dei dispositivi, hardening, patch, MFA, cifratura, EDR, criteri di accesso, monitoraggio e pianificazione della risposta agli incidenti.</description><enclosure url="https://it.simeononsecurity.com/img/cover/the-ultimate-guide-to-endpoint-security-for-remote-teams.webp" length="58154" type="image/webp"/></item><item><title>Proteggere Active Directory</title><link>https://it.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Gestione di rete"
+, "Tecnologia dell'informazione"
+, "Protezione dei dati"
+, "Sicurezza aziendale"
+, "Infrastruttura digitale"
+, "Controllo degli accessi"
+, "Autenticazione degli utenti"
+, "Best practice IT"
+, "Consapevolezza della sicurezza"</category><guid>https://it.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come proteggere Active Directory, salvaguardare i dati e prevenire le intrusioni nell'infrastruttura di rete.</description><enclosure url="https://it.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item><item><title>Padroneggiare il principio del privilegio minimo</title><link>https://it.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Sicurezza Linux"
+, "Controllo degli accessi"
+, "Sicurezza IT"
+, "Sicurezza di rete"
+, "Protezione delle informazioni"
+, "Privacy dei dati"
+, "Minacce informatiche"
+, "Gestione dei rischi"
+, "Buone pratiche di sicurezza"</category><guid>https://it.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Rafforza la sicurezza informatica con il controllo degli accessi basato sul privilegio minimo in Linux. Scopri i passaggi, le buone pratiche e la risoluzione dei problemi.</description><enclosure url="https://it.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VRAM on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>VRAM on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/vram/</link></image><link>https://it.simeononsecurity.com/tags/vram/</link><description>Recent content in VRAM on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/vram/index.xml" rel="self" type="application/rss+xml"/><item><title>Come scegliere un modello AI locale senza censure</title><link>https://it.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"AI locale"
+, "AI autogestita"
+, "Sicurezza dell'AI"
+, "Componenti GPU"</category><guid>https://it.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronta le varianti locali in base a risposte complete, capacità mantenute, uso del contesto, quantizzazione e memoria VRAM necessaria.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>2x RTX 5060 Ti contro GB10: benchmark AI locale di cinque modelli con contesto 256K</title><link>https://it.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligenza artificiale"
+, "AI locale"
+, "Hardware GPU"
+, "Benchmark"
+, "Hardware per computer"</category><guid>https://it.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronto tra RTX 5060 Ti e GB10 su cinque modelli, più un benchmark Qwen3.8 Flash-Next su Strata eseguito sullo stesso host fino a un contesto di 256K.</description><enclosure url="https://it.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>IA locale contro ChatGPT: quanto siamo davvero vicini?</title><link>https://it.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Intelligenza artificiale"
+, "Hardware IA"
+, "Strumenti per sviluppatori"</category><guid>https://it.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronta l'IA locale con ChatGPT e Claude usando punteggi benchmark, stime della memoria, velocità di servizio e verifica degli agenti. Include scenari con RTX 5090, DGX Spark e Mac Studio.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Quale modello di IA locale dovresti eseguire? Guida a GPU, contesto e programmazione per ottobre 2026</title><link>https://it.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Hardware IA"
+, "IA self-hosted"
+, "Benchmark GPU"
+, "Strumenti per sviluppatori"
+, "Economia dell'IA"</category><guid>https://it.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guida pratica di ottobre 2026 alla scelta di modelli di IA locali per gli agenti di programmazione. Confronta memoria GPU, crescita della cache KV, dimensione del contesto, qualità della quantizzazione, elaborazione dei prompt, livelli di ragionamento e costi del noleggio cloud.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>32 GB di VRAM per Qwen 27B: guida all'hardware IA locale per ottobre 2026</title><link>https://it.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Hardware IA"
+, "Benchmark GPU"
+, "IA self-hosted"
+, "Hardware informatico"
+, "Economia dell'IA"</category><guid>https://it.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guida pratica di ottobre 2026 per eseguire un modello Qwen 27B con 32 GB di memoria dell'acceleratore utilizzabile. Confronta GPU singole, sistemi a due schede, memoria unificata, schede usate da data center, calcolo a noleggio, supporto software e limiti del contesto completo.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>AI locale nel 2026: un modello 27B supera Sonnet 4.6 mentre la finestra hardware si chiude</title><link>https://it.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"AI locale"
+, "AI self-hosted"
+, "Modelli a pesi aperti"
+, "Hardware AI"
+, "Apprendimento automatico"
+, "Quantizzazione"
+, "Laboratorio domestico"
+, "Riservatezza"
+, "Economia dell'AI"
+, "Hardware consumer"</category><guid>https://it.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Pianifica un sistema AI locale per il 2026 in base a dimensioni del modello, VRAM, banda di memoria, potenza, costo e opzioni di aggiornamento.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

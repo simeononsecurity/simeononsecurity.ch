@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNS on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>DNS on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/dns/</link></image><link>https://it.simeononsecurity.com/tags/dns/</link><description>Recent content in DNS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/dns/index.xml" rel="self" type="application/rss+xml"/><item><title>Pianificare e testare la segmentazione VLAN di un homelab</title><link>https://it.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Sicurezza di rete"
+, "Networking"</category><guid>https://it.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Crea un piano VLAN per separare dispositivi fidati, server, IoT e ospiti nel tuo homelab. Definisci il traffico consentito, configura la rete per fasi e verifica l'isolamento.</description><enclosure url="https://it.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Ottimizzare la rete: configurare il DNS al meglio</title><link>https://it.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><category>
+"Amministrazione di rete"
+, "Sicurezza informatica"
+, "Infrastruttura IT"
+, "Soluzioni tecnologiche"
+, "Tecnologie Internet"
+, "Ottimizzazione DNS"
+, "Prestazioni di rete"
+, "Sicurezza digitale"
+, "Connettività Internet"
+, "Guide tecniche"</category><guid>https://it.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Migliora la rete con le informazioni sul DNS. Scopri come il DNS influenza connettività, prestazioni e sicurezza, poi ottimizzane la configurazione.</description><enclosure url="https://it.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp"/></item><item><title>Come funziona il DNS: DNS root, importanza e risoluzione dei problemi</title><link>https://it.simeononsecurity.com/articles/how-does-dns-work/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><category>
+"Fondamenti DNS"
+, "DNS root"
+, "Sistema dei nomi di dominio"
+, "Risoluzione DNS"
+, "Gerarchia DNS"
+, "Cache DNS"
+, "Diagnosi DNS"
+, "Record DNS"
+, "Gestione DNS"
+, "Comandi DNS"</category><guid>https://it.simeononsecurity.com/articles/how-does-dns-work/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri il funzionamento del DNS e del DNS root, la loro gerarchia, il processo di risoluzione, la cache e i suggerimenti per la diagnosi.</description><enclosure url="https://it.simeononsecurity.com/img/cover/An_image_depicting_interconnected_computer_ne.webp" length="167680" type="image/webp"/></item><item><title>Corso Network Plus: Esplorare i servizi di rete, le opzioni di connettività e l'architettura</title><link>https://it.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Collegamento in rete"
+, "Connettività"
+, "Scambio di dati"
+, "Architettura di rete"
+, "Cloud Computing"
+, "Servizi di rete"
+, "DNS"
+, "DHCP"
+, "NTP"</category><guid>https://it.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite le funzionalità dei servizi DHCP, DNS e NTP, comprendete l'architettura di rete aziendale e dei data center ed esplorate i concetti di cloud e le opzioni di connettività per una comunicazione e una gestione dei dati senza interruzioni.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_various_networks.webp" length="250792" type="image/webp"/></item></channel></rss>

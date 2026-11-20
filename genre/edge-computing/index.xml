@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Edge Computing on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Edge Computing on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/edge-computing/</link></image><link>https://it.simeononsecurity.com/genre/edge-computing/</link><description>Recent content in Edge Computing on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/edge-computing/index.xml" rel="self" type="application/rss+xml"/><item><title>Alimentazione e resilienza ambientale per sistemi da campo</title><link>https://it.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Edge computing"
+, "IT sul campo"
+, "Sistemi di alimentazione"
+, "Hardware"
+, "Ripristino dopo disastri"
+, "Informatica rugged"
+, "Reti"</category><guid>https://it.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Pianifica l'alimentazione e la protezione ambientale per nodi edge sul campo. Dimensiona UPS, batterie e pannelli solari, sincronizzazione dell'ora, grado di protezione degli involucri, messa a terra e protezione dalle sovratensioni.</description><enclosure url="https://it.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>Connettività e sicurezza dei dati per nodi edge da campo</title><link>https://it.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Edge computing"
+, "IT sul campo"
+, "Sicurezza di rete"
+, "VPN"
+, "Crittografia"
+, "Sicurezza fisica"
+, "Ripristino di emergenza"</category><guid>https://it.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Connetti e proteggi i nodi edge in campo con reti cellulari, satellitari, LoRa, VPN, MFA, segmentazione, registri, crittografia e protezione dai furti.</description><enclosure url="https://it.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item><item><title>Consigli per l'IT sul campo: oltre il mini data center</title><link>https://it.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"IT sul campo"
+, "Edge computing"
+, "Operazioni IT"
+, "Ripristino di emergenza"
+, "Hardware"
+, "Buone pratiche"</category><guid>https://it.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Indicazioni pratiche per l'IT sul campo: ricambi, documentazione, ESD, firmware, supporti di avvio, licenze, sicurezza fisica, viaggi e assicurazione.</description><enclosure url="https://it.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp"/></item></channel></rss>

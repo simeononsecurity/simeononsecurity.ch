@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gestione Dei Rischi on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Gestione Dei Rischi on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/gestione-dei-rischi/</link></image><link>https://it.simeononsecurity.com/genre/gestione-dei-rischi/</link><description>Recent content in Gestione Dei Rischi on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sun, 21 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/gestione-dei-rischi/index.xml" rel="self" type="application/rss+xml"/><item><title>Pianificazione della risposta agli incidenti: guida passo passo</title><link>https://it.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Risposta agli incidenti"
+, "Sicurezza aziendale"
+, "Minacce informatiche"
+, "Gestione dei rischi"
+, "Pianificazione della sicurezza"
+, "Protezione dei dati"
+, "Sicurezza IT"
+, "Resilienza digitale"
+, "Gestione delle crisi"</category><guid>https://it.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Crea un piano di risposta agli incidenti con ruoli, canali di comunicazione, procedure, strumenti, esercitazioni, metriche e aggiornamenti continui.</description><enclosure url="https://it.simeononsecurity.com/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.webp" length="96088" type="image/webp"/></item><item><title>Perché la conformità normativa non garantisce la sicurezza</title><link>https://it.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</link><pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Conformità"
+, "Pratiche di sicurezza"
+, "Protezione dei dati"
+, "Minacce informatiche"
+, "Standard normativi"
+, "Sicurezza delle informazioni"
+, "Gestione dei rischi"
+, "Sicurezza aziendale"
+, "Privacy digitale"</category><guid>https://it.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri le lacune lasciate dalle liste di conformità e rafforza la protezione con valutazioni dei rischi, test, monitoraggio, formazione e audit.</description><enclosure url="https://it.simeononsecurity.com/img/cover/compliance-security-shield.webp" length="87866" type="image/webp"/></item><item><title>FedRAMP: cloud sicuri per la pubblica amministrazione</title><link>https://it.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</link><pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Sicurezza informatica"
+, "Governo"
+, "Servizi cloud"
+, "Conformità"
+, "Normativa federale"
+, "Sicurezza delle informazioni"
+, "Gestione dei rischi"
+, "Elaborazione in cloud"
+, "Protezione dei dati"</category><guid>https://it.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+FedRAMP rafforza la sicurezza delle soluzioni cloud usate dal governo statunitense.</description><enclosure url="https://it.simeononsecurity.com/img/cover/Secure-Cloud-Government-Shield.webp" length="63200" type="image/webp"/></item><item><title>FISMA: rafforzare la cybersicurezza federale per proteggere i dati</title><link>https://it.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</link><pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersicurezza"
+, "Normative governative"
+, "Garanzia delle informazioni"
+, "Protezione dei dati"
+, "Agenzie federali"
+, "Gestione dei rischi"
+, "Standard di sicurezza"
+, "Monitoraggio continuo"
+, "Minacce informatiche"
+, "Governance digitale"</category><guid>https://it.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come FISMA rafforza la cybersicurezza federale. Approfondisci caratteristiche, processo e impatto sulla protezione dei dati.</description><enclosure url="https://it.simeononsecurity.com/img/cover/secure-shield-fisma.webp" length="118222" type="image/webp"/></item><item><title>Padroneggiare la cybersicurezza</title><link>https://it.simeononsecurity.com/articles/mastering-risk-management-framework-cybersecurity/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersicurezza"
+, "Gestione dei rischi"
+, "Sicurezza delle informazioni"
+, "Normative governative"
+, "Difesa informatica"
+, "Sicurezza IT"
+, "Protezione dei dati"
+, "Controlli di sicurezza"
+, "Linee guida NIST"
+, "Monitoraggio continuo"</category><guid>https://it.simeononsecurity.com/articles/mastering-risk-management-framework-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri il Quadro di gestione dei rischi (RMF) essenziale per la cybersicurezza, i suoi componenti e la sua importanza.</description><enclosure url="https://it.simeononsecurity.com/img/cover/cybersecurity_shield_protection.webp" length="120532" type="image/webp"/></item><item><title>PCI-DSS spiegato: conformità sicura delle transazioni con carta</title><link>https://it.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link><pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Sicurezza delle carte di pagamento"
+, "Protezione dei dati"
+, "Conformità"
+, "Sicurezza delle informazioni"
+, "Tecnologia"
+, "Imprese"
+, "Gestione dei rischi"
+, "Normative"
+, "Commercio elettronico"</category><guid>https://it.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri PCI-DSS, i suoi componenti, la conformità e i vantaggi per proteggere i dati delle carte di pagamento.</description><enclosure url="https://it.simeononsecurity.com/img/cover/pci-dss-security-vault.webp" length="88546" type="image/webp"/></item><item><title>Costruire un SOC resiliente</title><link>https://it.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Tecnologia"
+, "Aziende"
+, "Protezione dei dati"
+, "Risposta agli incidenti"
+, "Gestione IT"
+, "Sicurezza di rete"
+, "Rilevamento delle minacce"
+, "Sicurezza delle informazioni"
+, "Gestione dei rischi"</category><guid>https://it.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Crea un Security Operations Center (SOC) solido per contrastare le minacce informatiche, rilevare gli incidenti e proteggere le risorse della tua organizzazione.</description><enclosure url="https://it.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>Proteggere le informazioni non classificate controllate</title><link>https://it.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</link><pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza dei dati"
+, "Protezione delle informazioni"
+, "Gestione della privacy"
+, "Gestione delle informazioni sensibili"
+, "Sicurezza informatica"
+, "Conformità"
+, "Gestione dei rischi"
+, "Governance delle informazioni"
+, "Riservatezza dei dati"
+, "Garanzia delle informazioni"</category><guid>https://it.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri perché le informazioni non classificate controllate (CUI) vanno protette e come tutelare efficacemente i dati sensibili.</description><enclosure url="https://it.simeononsecurity.com/img/cover/CUI-Safeguarding-Sensitive-Data.webp" length="96388" type="image/webp"/></item><item><title>Programmi contro le minacce interne: componenti e riduzione dei rischi</title><link>https://it.simeononsecurity.com/articles/enhancing-security-insider-threat-programs/</link><pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Gestione dei rischi"
+, "Strategia di sicurezza"
+, "Minacce interne"
+, "Formazione dei dipendenti"
+, "Protezione dei dati"
+, "Sicurezza IT"
+, "Sicurezza organizzativa"
+, "Riduzione delle minacce"
+, "Cultura della sicurezza"</category><guid>https://it.simeononsecurity.com/articles/enhancing-security-insider-threat-programs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come i programmi contro le minacce interne rafforzano la sicurezza riducendo i rischi provenienti dall'interno. Esamina i componenti principali, le sfide e gli esempi di successo.</description><enclosure url="https://it.simeononsecurity.com/img/cover/Insider_Threat_Protection_Shield.webp" length="82326" type="image/webp"/></item><item><title>Padroneggiare il principio del privilegio minimo</title><link>https://it.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Sicurezza Linux"
+, "Controllo degli accessi"
+, "Sicurezza IT"
+, "Sicurezza di rete"
+, "Protezione delle informazioni"
+, "Privacy dei dati"
+, "Minacce informatiche"
+, "Gestione dei rischi"
+, "Buone pratiche di sicurezza"</category><guid>https://it.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Rafforza la sicurezza informatica con il controllo degli accessi basato sul privilegio minimo in Linux. Scopri i passaggi, le buone pratiche e la risoluzione dei problemi.</description><enclosure url="https://it.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item></channel></rss>

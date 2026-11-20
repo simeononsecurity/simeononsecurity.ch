@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Progetti Open Source on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Progetti Open Source on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/progetti-open-source/</link></image><link>https://it.simeononsecurity.com/genre/progetti-open-source/</link><description>Recent content in Progetti Open Source on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/progetti-open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Abbiamo mappato 146.526 «telecamere Flock». 50.278 erano sistemi ClickShare</title><link>https://it.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link><pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate><category>
+"Ricerca sulla sicurezza"
+, "Tecnologia della privacy"
+, "Progetti open source"
+, "Giornalismo dei dati"
+, "Controsorveglianza"</category><guid>https://it.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Un audit di Flock Finder individua ClickShare e altri falsi positivi, spiega le prove e documenta le modifiche apportate.</description></item><item><title>La corsa al rilevamento delle telecamere Flock: cosa è cambiato nel 2026</title><link>https://it.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"Tecnologie per la privacy"
+, "Controsorveglianza"
+, "Progetti open source"
+, "Diritti digitali"
+, "Sicurezza di rete"
+, "Ricerca sulla sicurezza"
+, "Modifica hardware"
+, "Strumenti per la privacy"</category><guid>https://it.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esamina i cambiamenti segnalati nel rilevamento Flock Safety, le risposte della comunità e i metodi a infrarossi per identificare i sistemi di telecamere.</description><enclosure url="https://it.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>ATS Resume Improver: ottimizzatore CV gratuito con IA</title><link>https://it.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Strumenti per la carriera"
+, "Progetti open source"
+, "Intelligenza artificiale"
+, "Tecnologie per la privacy"
+, "Strumenti per sviluppatori"
+, "Ricerca di lavoro"
+, "Produttività"</category><guid>https://it.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ATS Resume Improver è uno strumento gratuito e open source per ottimizzare i CV. Senza chiave IA, il testo viene elaborato nel browser. Con OpenAI o Anthropic, CV e descrizione dell'offerta vengono inviati direttamente al provider. Ollama può funzionare in locale.</description><enclosure url="https://it.simeononsecurity.com/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp" length="158574" type="image/webp"/></item><item><title>Flock Finder: Mappa delle telecamere ALPR di Flock Safety</title><link>https://it.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Tecnologia della privacy"
+, "Contro-sorveglianza"
+, "Progetti open source"
+, "Diritti digitali"
+, "Sicurezza delle reti"
+, "Strumenti per la privacy"
+, "Modifica dell’hardware"
+, "Ricerca sulla sicurezza"</category><guid>https://it.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder è uno strumento open source che mappa oltre 40.000 telecamere Flock Safety ALPR in tutto il mondo utilizzando i dati WiFi di WiGLE e il fingerprinting OUI. Scopri come funziona, i suoi limiti e gli strumenti hardware per il rilevamento in tempo reale.</description><enclosure url="https://it.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Flock-You Detection: Guida alla Configurazione del Contro-Sorveglianza</title><link>https://it.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Hardware di Sicurezza"
+, "Contro Sorveglianza"
+, "Tecnologia per la Privacy"
+, "Progetti Open Source"
+, "Sviluppo ESP32"
+, "Monitoraggio WiFi"
+, "Strumenti per la Privacy"
+, "Diritti Digitali"
+, "Hardware Hacking"
+, "Sicurezza di Rete"</category><guid>https://it.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guida tecnica completa al progetto open-source Flock-You per il rilevamento delle telecamere ALPR di Flock Safety tramite hardware basato su ESP32. Include istruzioni di configurazione, dettagli firmware e opzioni di acquisto.</description><enclosure url="https://it.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item></channel></rss>

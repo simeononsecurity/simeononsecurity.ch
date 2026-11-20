@@ -1,0 +1,3862 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://it.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>it</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>Come scegliere un modello AI locale senza censure</title><link>https://it.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><description>Confronta le varianti locali in base a risposte complete, capacità mantenute, uso del contesto, quantizzazione e memoria VRAM necessaria.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p><strong>Scelta del modello:</strong> valuta ogni variante in base alle risposte utili che completa, alla qualità che mantiene e alla memoria richiesta dal tuo carico di lavoro. Un basso numero di rifiuti o una scheda modello popolare non dimostrano questi risultati.</p>
+<p>L&rsquo;etichetta <strong>senza censure</strong> non ha una scala standard di prestazioni. Chi pubblica i modelli la usa per modifiche diverse ai pesi, messa a punto e schema della conversazione. Confronta ogni candidato con il modello originale e provalo sulle attività che vuoi eseguire.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <meta itemprop="name" content="Ho provato tutti i modelli AI locali senza censure (da 8 GB a 32 GB di VRAM)">
+  <meta itemprop="description" content="Confronto tra varianti di modelli locali, completamento delle risposte, impostazioni del contesto e livelli di memoria GPU.">
+  <meta itemprop="thumbnailUrl" content="https://img.youtube.com/vi/j-VqPVjztJE/m
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Rollback da Home Assistant Core 2026.11 a 2026.10.4: correggere la versione 3 dello storage HTTP</title><link>https://it.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><description>Correggi l'errore della versione 3 dello storage HTTP dopo il rollback di Home Assistant Core 2026.11 a 2026.10.4 su Yellow. Include comandi protetti e risultati verificati.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p>Un aggiornamento non riuscito di Home Assistant Core 2026.11 ha riportato il mio Yellow CM4 alla versione 2026.10.4. Yellow era ancora raggiungibile in rete, ma non mostrava più la dashboard. Il rollback ha lasciato un file delle impostazioni HTTP con versione di storage 3.1, mentre Core 2026.10.4 supporta la versione 2.2. Ho conservato il file, convertito una copia con controlli rigorosi, ripristinato l&rsquo;accesso HTTP e poi aggiornato Core alla versione 2026.11.1.</p>
+<h2 id="punti-principali">
+  <a href="#punti-principali" title="Punti principali">Punti principali</a>
+  <a href="#punti-principali" class="h-anchor" aria-hidden="true" title="Punti principali">#</a>
+</h2>
+<ul>
+<li><strong>Conferma l&rsquo;incompatibilità.</strong> Confronta l&rsquo;errore del log di Core con la versione installata e la versione dello storage HTTP.</li>
+<li><strong>Conserva il file.</strong> Prima del ripristino, mantieni una copia invariata e un backup fuori dal dispositivo.</li>
+<li><strong>Verifica il risultato.</strong> Controlla lo stato di Core, la porta di ascolto salvata, la dashboard e la versione installata.</li>
+</ul>
+<p><strong>Correzione per questo caso specifico:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Conserva il file HTTP">
+    <meta itemprop="url" content="#preserve-recovery-options">
+    <a href="#preserve-recovery-options"
+    
+        rel="follow me"
+    >Conserva il file HTTP</a>
+</span>
+, 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="crea e convalida un candidato versione 2.2">
+    <meta itemprop="url" content="#apply-the-tested-fix-for-version-31">
+    <a href="#apply-the-tested-fix-for-version-31"
+    
+        rel="follow me"
+    >crea e
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Compatibilità degli alimentatori Octominer X12 Ultra: prova sul campo Chicony e LiteOn</title><link>https://it.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><description>Una prova con cinque ventole e tre alimentatori su un Octominer X12 Ultra ha mostrato che un alimentatore Chicony avviava il sistema, mentre le unità LiteOn testate segnalavano l’ambra e non partivano.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p><strong>Il Chicony R12-1K6P2A ha avviato il mio Octominer X12 Ultra con cinque ventole e tre alimentatori.</strong> Gli alimentatori LiteOn PS-2142-2L provati hanno mostrato una luce verde, sono passati all’ambra e non hanno avviato il sistema. Il risultato riguarda la mia unità con una scheda di alimentazione <strong>OCTOMINER (12PIN) 3x DPS1200 rev. 20</strong>. La stessa potenza nominale o una lista per una scheda breakout X12 separata non dimostrano la compatibilità con una scheda Octominer.</p>
+<p>Lo chassis era venduto come <strong>configurazione da 3.600 W</strong> con tre alloggiamenti per alimentatori. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Octominer propone un’opzione con tre alimentatori da 1.200 W">
+    <meta itemprop="url" content="https://octominer.eu/product/octominer-x12-ultra-used/">
+    <a href="https://octominer.eu/product/octominer-x12-ultra-used/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Octominer propone un’opzione con tre alimentatori da 1.200 W</a>
+</span>
+ per l’X12 Ultra, oltre ad altre configurazioni. Controlla l’etichetta e la scheda di alimentazione del tuo sistema prima di applicare questi risultati.</p>
+<h2 id="risultati-della-prova">
+  <a href="#risultati-della-prova" title="Risultati della prova">Risultati della prova</a>
+  <a href="#risultati-della-prova" class="h-anchor" aria-hidden="true" title="Risultati della prova">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Alimentatore</th>
+					<th>Risultato in questo sistema</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Chicony R12-1K6P2A, 1.600 W</strong></td>
+					<td>Ha avviato il sistema nella mia prova. L’articolo non ha misurato il carico prolungato né il funzionamento in tutti gli alloggiamenti.</td>
+			</tr>
+			<tr>
+					<td><strong>LiteOn PS-2142-2L, 1.400 W</strong></td>
+					<td>Le unità provate si sono illuminate di verde, poi di ambra. Il sistema non è partito.</td>
+			</tr>
+			<tr>
+					<td><strong>Dell/Delta D1200E-S0, Dell 0
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proxmox VE 9: ridurre l'uso dei dischi virtuali e recuperare spazio</title><link>https://it.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><description>Riduci lo spazio usato da VM e container LXC in Proxmox VE 9. Confronta formati e backend, abilita discard, esegui trim e controlla gli snapshot prima di recuperare spazio.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p><strong>Un filesystem guest più piccolo non riduce sempre lo spazio di archiviazione usato da Proxmox.</strong> Per liberare spazio sull&rsquo;host servono un disco compatibile con il thin provisioning, un percorso discard funzionante per le VM e uno storage backend senza blocchi trattenuti dagli snapshot. Questa guida descrive impostazioni e controlli per VM e container LXC in Proxmox VE 9.</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>Scegli prima lo storage backend.</strong> La dimensione dichiarata di un disco virtuale differisce dallo spazio allocato sull&rsquo;host solo se il formato o il backend supporta il thin provisioning.</li>
+<li><strong>Abilita discard sulla VM, poi esegui trim nel guest.</strong> Windows ReTrim e Linux <code>fstrim</code> inviano richieste per i blocchi inutilizzati attraverso il disco virtuale.</li>
+<li><strong>Controlla separatamente snapshot e backup.</strong> I blocchi vecchi restano allocati finché uno snapshot li referenzia. I file di backup e i chunk PBS seguono regole di conservazione proprie.</li>
+<li><strong>Classifica i mount LXC in base al tipo.</strong> Volumi rootfs e mount point gestiti, bind mount e mount di dispositivi hanno proprietà e comportamento di backup diversi.</li>
+</ul>
+<h2 id="prima-di-iniziare">
+  <a href="#prima-di-iniziare" title="Prima di iniziare">Prima di iniziare</a>
+  <a href="#prima-di-iniziare" class="h-anchor" aria-hidden="true" title="Prima di iniziare">#</a>
+</h2>
+<p>Servono <strong>accesso amministrativo a Proxmox VE 9</strong>, un backup verificato per ogni guest interessato e spazio libero sufficiente nel pool per l&rsquo;operazione. Prima di modificare impostazioni, annota ID del guest, bus del disco, ID del volume, ID dello storage, snapshot e allocazione corrente. Usa il 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="test di ripristino di una VM">
+    <meta itemprop="url" content="/articles/proxmox-vm-backup-restore-drill/">
+
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Tailscale Aperture: configurare i client IA per inferenza e MCP nel 2026</title><link>https://it.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><description>Instrada le richieste dei modelli e gli strumenti MCP tramite Tailscale Aperture. Configura Codex, Claude Code, Claude Desktop, OpenCode e Hermes su un altro dispositivo o gateway.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <h2 id="introduzione">
+  <a href="#introduzione" title="Introduzione">Introduzione</a>
+  <a href="#introduzione" class="h-anchor" aria-hidden="true" title="Introduzione">#</a>
+</h2>
+<p>Tailscale Aperture offre ai client IA un gateway collegato alla tailnet per l&rsquo;inferenza dei modelli e gli strumenti Model Context Protocol (MCP). Ogni client deve usare un percorso compatibile con il proprio protocollo API. Gli strumenti MCP usano un endpoint separato e le autorizzazioni Aperture controllano quali modelli e connettori ogni identità Tailscale può usare.</p>
+<p>Questa guida spiega come configurare Codex, Claude Code, Claude Desktop, OpenCode e Hermes su macOS, Linux e Windows. Copre le impostazioni della CLI e delle app desktop, mostra come individuare gli ID dei modelli disponibili per la propria identità e include un prompt anonimizzato riutilizzabile quando si configura un altro dispositivo o un&rsquo;altra istanza Aperture.</p>
+<p><strong>Scelta del percorso:</strong> I percorsi degli endpoint dipendono dal gateway e da ciascun protocollo API. Un percorso Responses come <code>/codex</code> non gestisce traffico Anthropic Messages o MCP. Conferma il nome host del gateway e il percorso di inferenza di ciascun client. Individua gli ID dei modelli tramite il tuo accesso Aperture prima di modificare le impostazioni del client.</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>Il traffico dei modelli</strong> richiede il percorso API previsto dal protocollo del client.</li>
+<li><strong>Il traffico MCP</strong> usa l&rsquo;endpoint separato <code>/v1/mcp</code>.</li>
+<li><strong>Le autorizzazioni del gateway</strong> devono consentire alla tua identità Tailscale di usare ogni modello e connettore.</li>
+<li><strong>La configurazione del client</strong> prova solo che le impostazioni sono state salvate. Verifica una richiesta reale e una chiamata a uno strumento MCP.</li>
+</ul>
+<h2 id="come-funzionano-i-percorsi">
+  <a href="#come-funzionano-i-percorsi" title="Come funzionano i percorsi">Come funzionano i percorsi</a>
+  <a href="#come-funzionano-i-percorsi" class="h-anchor" aria-hidden="true" title="Come funzionano i percorsi">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Scopo</th>
+					<th>Richiesta del client</th>
+					<th>Percorso Aperture</th>
+					<th>Servizio offerto</th>
+			</tr>
+	</thead>
+	<tbody
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Hindsight self-hosted: memoria locale per agenti e instradamento privato dei modelli</title><link>https://it.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/self-hosted-hindsight/</guid><description>Caso di studio su Hindsight self-hosted, percorsi Qwen locali osservati e lavoro GPU per richiesta senza abbonamento a modelli ospitati nei percorsi ispezionati.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/self-hosted-hindsight/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p><strong>Il nostro servizio di memoria Hindsight funziona su hardware che controlliamo.</strong> Il motore di memoria, il database, il modello di embedding e il reranker funzionano in un unico deployment self-hosted. Hindsight invia le richieste di generazione a un gateway privato. Il backend Qwen condiviso ispezionato e il percorso di aggiornamento delle pagine testato usano server di modelli locali, senza un abbonamento a inferenza ospitata.</p>
+<p>Questa è la descrizione di un deployment operativo. <strong>Self-hosted non significa offline.</strong> La VPN usa un servizio esterno di coordinamento, e le immagini software e i pesi dei modelli devono essere scaricati. L’affermazione riguarda l’elaborazione della memoria e l’inferenza del modello, non ogni connessione di rete dei nostri dispositivi o degli altri strumenti degli agenti.</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>Hindsight gestisce il flusso della memoria.</strong> Un container Docker serve API, worker e piano di controllo. Un volume persistente conserva i dati dei banchi.</li>
+<li><strong>I piccoli modelli di recupero restano locali.</strong> Embedding e reranking funzionano nel processo Hindsight sulla CPU.</li>
+<li><strong>Qwen genera il testo.</strong> Retain, Reflect e Consolidation richiedono l’alias privato Qwen3.5-4B con ragionamento disattivato e output limitato. Il backend ispezionato lo serve localmente.</li>
+<li><strong>L’aggiornamento lento delle pagine riceve una GPU.</strong> Un alias separato prende in prestito una scheda per una richiesta in background e la rilascia al termine.</li>
+<li><strong>Il gateway nasconde la posizione fisica.</strong> Hindsight sceglie un alias del modello. I servizi di instradamento privati scelgono l’endpoint di servizio.</li>
+</ul>
+<h2 id="definisci-i-confini-prima-di-scegliere-i-modelli">
+  <a href="#definisci-i-confini-prima-di-scegliere-i-modelli" title="Definisci i confini prima di scegliere i modelli">Definisci i confini prima di scegliere i modelli</a>
+  <a href="#definisci-i-confini-prima-di-scegliere-i-modelli" class="h-anchor" aria-hidden="true" title="Definisci i confini prima di scegliere i modelli">#</a>
+</h2>
+<p><strong>Hindsight è il motore di memoria, non il server dei modelli.</strong> L’immagine Docker completa include modelli locali per embedding e rerank
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/self-hosted-hindsight/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Aggiornamento di sicurezza di Chrome 156: verifica la patch di ottobre</title><link>https://it.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><description>Verifica il rilascio di sicurezza di Chrome 156 del 27 ottobre su Windows, macOS, Linux e Android. Confronta la build installata, completa un riavvio in sospeso e controlla separatamente i dispositivi gestiti.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p><strong>Il rilascio di sicurezza di Chrome del 27 ottobre 2026</strong> include 52 correzioni. Per verificare la tua installazione, confronta la versione completa con quella pubblicata per il tuo sistema operativo, poi riavvia Chrome per completare gli aggiornamenti in sospeso. L&rsquo;annuncio di una versione non dimostra che il dispositivo abbia ricevuto l&rsquo;aggiornamento. (
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Rilascio di Chrome per desktop">
+    <meta itemprop="url" content="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html">
+    <a href="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Rilascio di Chrome per desktop</a>
+</span>
+)</p>
+<h2 id="quale-versione-dovresti-vedere">
+  <a href="#quale-versione-dovresti-vedere" title="Quale versione dovresti vedere?">Quale versione dovresti vedere?</a>
+  <a href="#quale-versione-dovresti-vedere" class="h-anchor" aria-hidden="true" title="Quale versione dovresti vedere?">#</a>
+</h2>
+<p>Google ha pubblicato queste versioni del canale Stable il 27 ottobre 2026. L&rsquo;annuncio per desktop elenca build separate per Windows e macOS e per Linux. Il 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="rilascio per Android">
+    <meta itemprop="url" content="https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_0160078013.html">
+    <a href="https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_0160078013.html"
+    
+        
+            
+          
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Open WebUI v0.12.4: checklist per aggiornamento e controllo degli accessi 2026</title><link>https://it.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><description>Esegui il backup e aggiorna Open WebUI alla versione v0.12.4. Poi prova la condivisione delle chat, le autorizzazioni di esportazione, le concessioni delle risorse, gli account e l'accesso alla rete.</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p><strong>Open WebUI v0.12.4 include correzioni di sicurezza che i responsabili non hanno ancora descritto nel dettaglio.</strong> Le note di rilascio raccomandano di aggiornare presto le installazioni e dichiarano che seguiranno avvisi dopo l&rsquo;assegnazione dei CVE. Le modifiche indicate di seguito alla condivisione delle chat e alle autorizzazioni sono quelle visibili nelle note, non un elenco completo delle correzioni di sicurezza non ancora divulgate. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Note di rilascio Open WebUI v0.12.4">
+    <meta itemprop="url" content="https://github.com/open-webui/open-webui/releases/tag/v0.12.4">
+    <a href="https://github.com/open-webui/open-webui/releases/tag/v0.12.4"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Note di rilascio Open WebUI v0.12.4</a>
+</span>
+</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>Esegui prima il backup.</strong> Conserva una copia ripristinabile del volume dati o del database e dei caricamenti prima di modificare l&rsquo;applicazione.</li>
+<li><strong>Fissa il rilascio ufficiale.</strong> Usa <code>ghcr.io/open-webui/open-webui:v0.12.4</code> per l&rsquo;immagine Docker standard oppure <code>open-webui==0.12.4</code> per pip.</li>
+<li><strong>Prova le autorizzazioni con ruoli utente reali.</strong> Un pulsante nascosto non dimostra che l&rsquo;API esegua un controllo di autorizzazione.</li>
+<li><strong>Mantieni privato l&rsquo;accesso.</strong> Richiedi l&rsquo;autenticazione dell&rsquo;applicazione e limita l&rsquo;accesso alla rete tramite VPN o proxy inverso autenticato.</li>
+</ul>
+<h2 id="prima-dellaggiornamento">
+  <a href="#prima-dellaggiornamento" title="Prima dell&rsquo;aggiornamento">Prima dell&rsquo;aggiornamento</a>
+  <a href="#prima-dellaggiornamento" class="h-anchor" aria-hidden="true" title="Prima dell&rsquo;aggiornamento
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Thunderbird 153.6: esposizione delle credenziali NTLM su Windows e come aggiornare (2026)</title><link>https://it.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><description>Due gravi vulnerabilità di Thunderbird espongono dati di autenticazione NTLM su Windows quando viene visualizzata un’e-mail preparata ad arte. Scopri i due percorsi, verifica la versione e limita l’SMB in uscita durante l’aggiornamento.</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p>Mozilla ha corretto due <strong>gravi vulnerabilità che espongono credenziali Windows</strong> in Thunderbird 153.6. Bastava visualizzare un’e-mail malevola per attivare una delle richieste di rete descritte in 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="MFSA 2026-122">
+    <meta itemprop="url" content="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/">
+    <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >MFSA 2026-122</a>
+</span>
+. L’avviso descrive una possibile divulgazione di dati NTLM, non una compromissione confermata delle credenziali di ogni destinatario.</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>CVE-2026-118174</strong> riguardava un allegato di chiave OpenPGP ospitato esternamente. Visualizzare il messaggio avviava una richiesta senza intervento dell’utente, anche con i contenuti remoti bloccati.</li>
+<li><strong>CVE-2026-118176</strong> riguardava un URL <code>mailbox:</code> appositamente creato con un percorso UNC esteso. Visualizzare il messaggio avviava una connessione SMB a un server scelto dal mittente.</li>
+<li><strong>Aggiorna Thunderbird su Windows</strong> e verifica la versione installata. L’avviso indica Thunderbird 153.6 come versione corretta. Le note di rilascio di Thunderbird indicano la build corrispondente 153.6.0esr.</li>
+</ul>
+<h2 id="cosa-attiva-le-mail">
+  <a href="#cosa-attiva-le-mail" title="Cosa attiva l’e-mail">Cosa attiva l’e-mail</a>
+  <a href="#cosa-attiva-le-mail" class="h-anchor" aria-hidden="true" title="Cosa attiva l’e-mail">#</a>
+</h2>
+<p><strong>Le due vulnerabilità hanno punti di ingresso diversi.</strong> Secondo le descrizioni di Mozilla, nessuna richiede che il destinatario faccia clic su un collegamento nell’e-mail. Il rischio per le credenziali 
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Costruisci un home lab in 10 livelli, da Pi-hole all'IA locale</title><link>https://it.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><description>Costruisci un home lab in dieci fasi pratiche, dal filtraggio DNS dell'intera rete all'IA locale, con hardware, costi, competenze e compromessi per ogni livello.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/build-home-lab-10-levels/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <h1 id="costruisci-un-home-lab-in-10-livelli-da-pi-hole-allia-locale">
+  <a href="#costruisci-un-home-lab-in-10-livelli-da-pi-hole-allia-locale" title="Costruisci un home lab in 10 livelli, da Pi-hole all&rsquo;IA locale">Costruisci un home lab in 10 livelli, da Pi-hole all&rsquo;IA locale</a>
+  <a href="#costruisci-un-home-lab-in-10-livelli-da-pi-hole-allia-locale" class="h-anchor" aria-hidden="true" title="Costruisci un home lab in 10 livelli, da Pi-hole all&rsquo;IA locale">#</a>
+</h1>
+<p>Un <strong>home lab</strong> è un insieme di computer e servizi che gestisci per risolvere problemi quotidiani e imparare a usare sistemi reali. Puoi bloccare annunci, automatizzare le luci, archiviare i contenuti multimediali della famiglia o provare macchine virtuali. <strong>Inizia con un&rsquo;attività utile.</strong> Aggiungi hardware quando emerge un limite concreto.</p>
+<p>Questa guida parte da un piccolo Raspberry Pi con Pi-hole e arriva a un server che esegue modelli di IA locali. <strong>Ogni livello aggiunge funzionalità e una nuova responsabilità.</strong> Le stime dei costi usano un consumo illustrativo e una tariffa di esempio pari a $0.15 per kilowattora. Controlla la tariffa locale e misura le apparecchiature prima di acquistare altro hardware.</p>
+<h2 id="livello-1-blocca-gli-annunci-in-tutta-la-rete-domestica">
+  <a href="#livello-1-blocca-gli-annunci-in-tutta-la-rete-domestica" title="Livello 1: Blocca gli annunci in tutta la rete domestica">Livello 1: Blocca gli annunci in tutta la rete domestica</a>
+  <a href="#livello-1-blocca-gli-annunci-in-tutta-la-rete-domestica" class="h-anchor" aria-hidden="true" title="Livello 1: Blocca gli annunci in tutta la rete domestica">#</a>
+</h2>
+<p>Installa 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Pi-hole">
+    <meta itemprop="url" content="https://docs.pi-hole.net/">
+    <a href="https://docs.pi-hole.net/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Pi-hole</a>
+</span>
+ su un Raspberry Pi o un altro piccolo c
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/build-home-lab-10-levels/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Benchmark locali dei modelli Hermes: quali combinazioni di GPU e modelli sceglierei</title><link>https://it.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><description>Le mie raccomandazioni per Hermes derivano da test di contesto lungo, strumenti, streaming e visione su sistemi RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti e RTX 3070.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p>Per le attività Hermes con contesto lungo, partirei da Qwen3.5 35B su due RTX 5060 Ti da 16 GB. La route testata ha conservato 239.153 token di input tramite LiteLLM e superato verifiche separate di strumenti, streaming, visione, coda e annullamento. Qwen3.6 è la mia alternativa con una scheda. Sui sistemi RTX 3060 Ti e RTX 3070 partirei da Qwen3.5 2B o 4B.</p>
+<p>Queste scelte derivano dall&rsquo;esecuzione dei modelli attraverso i percorsi di inferenza usati dall&rsquo;agente. Ho verificato la conservazione degli input lunghi, i cicli degli strumenti, le risposte in streaming, le domande sulle immagini e il rilascio del modello. Ho provato anche modalità e impostazioni di memoria, perché il caricamento corretto dice poco sull&rsquo;utilità durante una lunga richiesta dell&rsquo;agente.</p>
+<p>Hermes richiede almeno 64.000 token di contesto per usare strumenti da agente. Ho usato 65.536 token di input effettivi come soglia per il contesto lungo. Il conteggio dell&rsquo;input conta più del contesto dichiarato dal server. (
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Documentazione dei provider Hermes Agent">
+    <meta itemprop="url" content="https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md">
+    <a href="https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Documentazione dei provider Hermes Agent</a>
+</span>
+)</p>
+<h2 id="gpu-in-ciascun-sistema">
+  <a href="#gpu-in-ciascun-sistema" title="GPU in ciascun sistema">GPU in ciascun sistema</a>
+  <a href="#gpu-in-ciascun-sistema" class="h-anchor" aria-hidden="true" title="GPU in ciascun sistema">#</a>
+</h2>
+<p>Le lettere dei sistemi indicano queste combinazioni hardware nei risultati.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Sistema</th>
+					<th>GPU usate nel benchmark</th>
+					<th>Modello iniziale che sceglierei</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>A</td>
+					<td
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Dentro la nostra flotta ibrida di agenti IA: Hermes, LiteLLM e Tailscale</title><link>https://it.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><description>Scopri una flotta IA locale verificata con caricamento su richiesta e il suo piano di controllo T0-T4 con Hermes, LiteLLM, Tailscale Aperture e mining Pearl.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p><strong>Abbiamo distribuito una flotta GPU locale con assegnazione legata alla richiesta e progettato il suo piano di controllo ibrido.</strong> Il percorso verificato parte da LiteLLM, seleziona un gruppo di modelli e carica un modello locale su una sola GPU per volta. La policy a livelli di Hermes è proposta. Un artefatto di configurazione Tailscale Aperture è pronto per il prossimo test d’integrazione. Nessuno dei due è stato verificato come parte di un unico percorso end-to-end.</p>
+<p>Le schede inattive minano Pearl. Una richiesta IA sospende il mining solo sulla scheda in leasing, gestisce la richiesta, scarica il modello e restituisce la scheda al miner.</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>T0-T2 gestiscono il lavoro oneroso o impegnativo.</strong> Questi percorsi privilegiano modelli frontier ospitati e catene di fallback ordinate.</li>
+<li><strong>T3 gestisce una parte sostanziale del lavoro locale.</strong> La flotta assegna pianificazione, codice, revisione e visione a modelli da 4B a 12B.</li>
+<li><strong>T4 gestisce attività locali frequenti e numerose.</strong> I modelli piccoli instradano, classificano, estraggono, creano embedding e completano attività di codice circoscritte.</li>
+<li><strong>Ogni GPU è una risorsa indipendente.</strong> Una scheda serve le richieste IA mentre le altre continuano a minare.</li>
+<li><strong>I modelli locali restano scaricati quando sono inattivi.</strong> Nessun modello occupa memoria GPU tra le finestre di richiesta.</li>
+<li><strong>Ogni gateway espone lo stesso catalogo logico.</strong> Gli alias condivisi distribuiscono il lavoro sui sistemi idonei. Gli alias con prefisso del nodo mantengono il posizionamento esatto quando necessario.</li>
+<li><strong>Il broker sperimentale non è entrato in produzione.</strong> Il suo canary ha servito una richiesta, poi ha fallito un test di arresto pulito. LiteLLM è rimasto sul percorso verificato per richiesta.</li>
+<li><strong>Hermes e Aperture sono ancora in preparazione.</strong> Il design obiettivo esiste, mentre i test di accettazione end-to-end sono ancora aperti.</li>
+</ul>
+<p><strong>Prerequisiti:</strong> diversi host Linux con GPU, driver NVIDIA stabili, un tailnet Tailscale, systemd, un miner operativo, spazio per i modelli e test di accettazione per ogni percorso modello.</p>
+<p><
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>1Password SSH Agent and CLI: Accesso in sola lettura per agenti AI</title><link>https://it.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><description>Progetta un flusso di lavoro SSH in sola lettura con 1Password CLI, SSH Agent e MCP. Utilizza comandi sintetici, permessi ristretti e approvazione umana prima dei test live.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p><strong>Un agente da riga di comando necessita di un accesso utile, non di una copia di ogni credenziale.</strong> Questa guida presenta un design delimitato per 1Password CLI, l&rsquo;Agente SSH di 1Password, l&rsquo;accesso Git a Bitbucket e il Model Context Protocol (MCP). Il primo flusso di lavoro utilizza nomi sintetici, azioni solo di lettura e l&rsquo;approvazione umana al confine SSH.</p>
+<p>La distinzione chiave è semplice. <strong>L&rsquo;SSH interattivo utilizza il consenso tramite l&rsquo;Agente SSH di 1Password. L&rsquo;automazione non presidiata richiede un&rsquo;identità separata, un accesso ristretto e un ciclo di vita delle chiavi diverso.</strong> Non considerare una connessione MCP come autorizzazione per eseguire uno di questi due flussi di lavoro.</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>Protezione della chiave privata:</strong> L&rsquo;Agente SSH di 1Password esegue l&rsquo;autenticazione SSH mantenendo le chiavi private all&rsquo;interno dell&rsquo;app 1Password.</li>
+<li><strong>Gestione della chiave pubblica:</strong> Pubblicare solo una chiave pubblica su Bitbucket o su un account remoto. Conservare la metà privata in un elemento Chiave SSH.</li>
+<li><strong>Consenso interattivo:</strong> Una persona approva un client o una sessione terminale prima che l&rsquo;Agente SSH utilizzi una chiave.</li>
+<li><strong>Separazione non presidiata:</strong> Un lavoro pianificato richiede un account di servizio dedicato e un ambito vault ristretto. Un&rsquo;approvazione dell&rsquo;Agente SSH interattivo non soddisfa questo requisito.</li>
+<li><strong>Confini MCP:</strong> MCP collega un agente a strumenti e risorse. Il client, il server, il sistema operativo e la policy di 1Password controllano comunque l&rsquo;accesso.</li>
+</ul>
+<h2 id="prima-di-iniziare">
+  <a href="#prima-di-iniziare" title="Prima di iniziare">Prima di iniziare</a>
+  <a href="#prima-di-iniziare" class="h-anchor" aria-hidden="true" title="Prima di iniziare">#</a>
+</h2>
+<p><strong>Prerequisiti:</strong> Installare 1Password 8 e 1Password CLI 2.20.0 o versioni successive. Accedere tramite un account 1Password supportato. Utilizzare un client OpenSSH. Creare un repository di test Bitbucket o un altro target non di produzione. Tenere disponibile un percorso amministrativo secondario per il rollback.</p>
+<p><strong
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Chiavi SSH di Bitbucket Cloud: accesso Git in sola lettura per agenti AI</title><link>https://it.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><description>Configura chiavi SSH di Bitbucket Cloud, accesso Git CLI, token REST API, 1Password e strumenti MCP per flussi di lavoro degli agenti AI in sola lettura.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p><strong>Un flusso di lavoro limitato per gli agenti separa le letture del repository, le letture API, la gestione dei segreti e le scritture remote.</strong> Usa Git tramite Secure Shell (SSH) per accedere ai sorgenti, una chiave di accesso Bitbucket in sola lettura per il checkout automatizzato, l’API REST per i metadati e un server Model Context Protocol (MCP) per gli strumenti approvati. Conserva le chiavi private e i token API in 1Password. Mantieni le scritture dietro un passaggio di approvazione umana.</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>Sola lettura come impostazione predefinita:</strong> usa una chiave di accesso al repository o al progetto per il checkout dell’agente. Nessuna delle due consente il push.</li>
+<li><strong>Identità personale:</strong> usa una chiave SSH personale per il lavoro interattivo legato a un account utente.</li>
+<li><strong>Custodia dei segreti:</strong> usa 1Password SSH Agent affinché Git riceva un’operazione di firma senza leggere la chiave privata.</li>
+<li><strong>Significato di CLI:</strong> considera <code>git</code>, <code>curl</code> e un piccolo wrapper API verificato come gli strumenti pratici da riga di comando per Bitbucket.</li>
+<li><strong>Confine MCP:</strong> esponi strumenti di lettura circoscritti. Disabilita gli strumenti di scrittura o mettili dietro un processo di approvazione separato.</li>
+<li><strong>Gate di scrittura:</strong> consenti all’agente di ispezionare, confrontare e preparare una modifica. Richiedi l’approvazione umana prima di un push, pull request, merge o aggiornamento delle impostazioni.</li>
+</ul>
+<h2 id="prima-di-iniziare">
+  <a href="#prima-di-iniziare" title="Prima di iniziare">Prima di iniziare</a>
+  <a href="#prima-di-iniziare" class="h-anchor" aria-hidden="true" title="Prima di iniziare">#</a>
+</h2>
+<p><strong>Prerequisiti:</strong> accesso a Bitbucket Cloud, Git, un client OpenSSH, 1Password 8, 1Password CLI, una CLI autenticata o un account di servizio approvato e un host MCP con controlli di approvazione dei server. Prevedi 45 minuti. Difficoltà: intermedia.</p>
+<p>Per il primo test usa un repository di prova. Sostituisci tutti i segnaposto negli esempi. I comandi seguenti sono esempi non testati. Non si riferiscono a un account Bitbucket o a un repository attivo.</p>
+<p><strong>Versioni:</strong
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Migrare una VM Hyper-V a Proxmox VE: checklist reversibile</title><link>https://it.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><description>Sposta una macchina virtuale Hyper-V su Proxmox VE con un'esportazione a sorgente spenta, firmware corrispondente, importazione dei dischi, avvio di prova isolato e piano di rollback.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p>Un&rsquo;<strong>esportazione Hyper-V</strong> conserva i file di una macchina virtuale, mentre Proxmox VE richiede una nuova configurazione del guest e file di disco virtuale VHDX importati. Una copia riuscita non dimostra che il guest si avvierà o fornirà il servizio. Questa checklist guida una VM attraverso un&rsquo;esportazione con la sorgente spenta, un avvio di prova controllato e un cutover con una chiara procedura di ritorno.</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>Registra la sorgente:</strong> annota generazione del firmware, percorsi dei dischi, checkpoint, rete e crittografia prima dell&rsquo;esportazione.</li>
+<li><strong>Ferma le scritture:</strong> spegni la VM Hyper-V prima dell&rsquo;esportazione finale e mantienila spenta durante la prova su Proxmox.</li>
+<li><strong>Allinea il percorso di avvio:</strong> Hyper-V Generation 1 usa il BIOS legacy. Generation 2 usa UEFI.</li>
+<li><strong>Convalida il servizio:</strong> controlla dati, accesso di rete, backup e stato del guest prima di ritirare la sorgente.</li>
+</ul>
+<h2 id="prima-di-iniziare">
+  <a href="#prima-di-iniziare" title="Prima di iniziare">Prima di iniziare</a>
+  <a href="#prima-di-iniziare" class="h-anchor" aria-hidden="true" title="Prima di iniziare">#</a>
+</h2>
+<p>Pianifica una finestra di manutenzione e prova prima la procedura su una VM eliminabile. Servono accesso amministrativo a Hyper-V e Proxmox VE, spazio per l&rsquo;esportazione e un backup verificato separato dalla copia di migrazione. Prevedi tempo per trasferire ogni disco virtuale e provare l&rsquo;applicazione del guest. Dimensione dei dischi e velocità di trasferimento determinano il tempo di inattività.</p>
+<p>La procedura copre una VM convenzionale con dischi virtuali. <strong>VM schermate, dischi pass-through, dischi condivisi, workload in cluster e licenze vincolate all&rsquo;hardware</strong> richiedono piani specifici. Registra chi decide il cutover e l&rsquo;ora limite per il rollback. Non avviare entrambe le copie sulla rete di produzione con la stessa identità macchina.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Dettaglio sorgente</th>
+					<th>Perché serve</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Generazione e firmware VM</strong></td>
+					<td>Scegliere SeaBIOS o OVMF in Proxmox</td>
+			</tr>
+			<tr>
+					<td><strong>Stato
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Perché il filtro DNS viene aggirato: verifica il percorso del resolver</title><link>https://it.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><description>Scopri perché un dispositivo o un browser ignora il filtro DNS. Confronta le query dirette e predefinite, controlla i log e verifica DNS crittografato, VPN, IPv6 e impostazioni del router.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p>Hai configurato un resolver con filtro, ma un dispositivo continua a raggiungere un dominio bloccato dalle tue regole. La causa potrebbe essere la regola, l’assegnazione del Domain Name System (DNS) al dispositivo, un resolver crittografato del browser o una VPN. <strong>Verifica il percorso prima di modificare le impostazioni.</strong> Una query diretta al filtro risponde a una domanda diversa rispetto a una normale query del dispositivo.</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>Controlla prima la regola:</strong> Verifica che il filtro riceva e blocchi un dominio di test sicuro.</li>
+<li><strong>Traccia ogni livello:</strong> Router, sistema operativo, browser, VPN e impostazioni mobili influiscono sull’instradamento DNS.</li>
+<li><strong>Usa query nuove:</strong> Abbina un nuovo nome host e l’orario al registro delle query del filtro.</li>
+<li><strong>Dichiara il limite:</strong> Una query osservata dimostra un solo percorso, non il comportamento di ogni app o dispositivo.</li>
+</ul>
+<h2 id="prima-di-iniziare">
+  <a href="#prima-di-iniziare" title="Prima di iniziare">Prima di iniziare</a>
+  <a href="#prima-di-iniziare" class="h-anchor" aria-hidden="true" title="Prima di iniziare">#</a>
+</h2>
+<p>Prevedi circa 20 minuti. Ti servono l’accesso al registro delle query del resolver filtrante, un dispositivo con il problema e una copia delle impostazioni DNS del router. Gli esempi usano un portatile Windows e <strong>Pi-hole</strong>, ma lo stesso confronto funziona con qualsiasi resolver che registra le query per client. Individua prima l’indirizzo esatto del filtro. Non includere indirizzi privati dei client, registri delle query o regole in un rapporto pubblico.</p>
+<p>Scegli un <strong>dominio di test innocuo</strong> già bloccato dalle tue regole. In alternativa, aggiungi temporaneamente una regola di rifiuto esatta per un dominio che controlli in un profilo di test. Annota la regola e rimuovila dopo il test. Non usare come sonda un dominio malware attivo. Una pagina bloccata è un sintomo utile, ma il registro del resolver fornisce prove più solide sul percorso.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Livello</th>
+					<th>Domanda</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Filtro</strong></td>
+					<td>Una query diretta raggiunge il resolver previsto e corrisponde all
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Prova di ripristino di una VM Proxmox: verifica che il sistema guest funzioni</title><link>https://it.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><description>Verifica un backup di una VM Proxmox con un ripristino isolato. Controlla i dischi inclusi, la modalità di backup, i dati del guest, lo stato del servizio e i tempi di ripristino senza toccare la produzione.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p>Un&rsquo;attività di backup verde indica che Proxmox ha scritto un backup. Non mostra se il guest si avvia, se i dati sono aggiornati o se il servizio principale funziona. <strong>Ripristina una copia con un nuovo ID VM su una rete isolata.</strong> Il risultato fornisce una prova del ripristino prima che un&rsquo;interruzione ti costringa a fare il test.</p>
+<p>Questa esercitazione riguarda una <strong>macchina virtuale Proxmox VE</strong>. I container seguono regole di backup diverse, soprattutto per i mount bind e i mount dei dispositivi. La 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="prova di backup e ripristino dell&rsquo;homelab">
+    <meta itemprop="url" content="/articles/homelab-backup-restore-drill/">
+    <a href="/articles/homelab-backup-restore-drill/"
+    
+        rel="follow me"
+    >prova di backup e ripristino dell&rsquo;homelab</a>
+</span>
+ del sito tratta un recupero di file più ampio. Qui verificherai un backup di una VM Proxmox e il relativo carico di lavoro.</p>
+<p>Un <strong>guest</strong> è il sistema operativo in esecuzione all&rsquo;interno di una macchina virtuale. I <strong>mount bind</strong> e i <strong>mount dei dispositivi</strong> espongono risorse dell&rsquo;host al guest. Verifica queste risorse con un piano di ripristino separato.</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>Definisci prima il successo:</strong> scegli un elemento di dati, un controllo del servizio e un tempo di ripristino accettabile.</li>
+<li><strong>Controlla la copertura:</strong> il backup di una VM ignora i dischi contrassegnati <strong>No backup</strong> e non ricrea servizi esterni o dati esclusi.</li>
+<li><strong>Ripristina separatamente:</strong> usa un ID VM libero e mantieni la rete ripristinata isolata dalla produzione.</li>
+<li><strong>Registra le prove:</strong> misura l&rsquo;età del backup, il tempo di ripristino, l&rsquo;avvio, la presenza dei dischi e un controllo reale dell&rs
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Verifica l’isolamento di ospiti e dispositivi IoT su una rete Wi-Fi mesh</title><link>https://it.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><description>Verifica se le reti ospiti e IoT del tuo Wi-Fi mesh bloccano l’accesso ai dispositivi domestici. Prova ogni rete con un servizio funzionante e registra i limiti.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p>Un nome Wi-Fi distinto non rivela quali dispositivi comunicano tra loro. Un sistema mesh potrebbe trattare la <strong>rete ospiti</strong>, la <strong>rete IoT</strong> e l’<strong>isolamento dei client wireless</strong> come controlli diversi. Questa guida ti aiuta a provare i percorsi sui tuoi dispositivi senza presumere che l’etichetta del produttore descriva la regola applicata.</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>Verifica prima che la destinazione funzioni:</strong> raggiungi un servizio noto dalla rete principale prima di provare un percorso bloccato.</li>
+<li><strong>Prova ogni confine:</strong> l’accesso da ospiti alla rete principale, da IoT alla rete principale e tra ospiti risponde a domande diverse.</li>
+<li><strong>Registra la configurazione:</strong> modello, firmware, modalità router o access point e nodo mesh connesso incidono sull’interpretazione.</li>
+<li><strong>Ripeti dopo ogni modifica:</strong> un risultato valido riguarda solo i dispositivi, il servizio, la famiglia di indirizzi e la configurazione provati.</li>
+</ul>
+<h2 id="prima-di-iniziare">
+  <a href="#prima-di-iniziare" title="Prima di iniziare">Prima di iniziare</a>
+  <a href="#prima-di-iniziare" class="h-anchor" aria-hidden="true" title="Prima di iniziare">#</a>
+</h2>
+<p>Dedica circa 20 minuti. Ti serve un laptop che possa collegarsi alle reti Wi-Fi principale, ospiti e IoT. Ti serve anche un dispositivo attendibile sulla rete principale con un <strong>servizio TCP aperto noto</strong>, ad esempio l’interfaccia web di un NAS. Un servizio TCP è un servizio di rete in ascolto su una porta numerata, per esempio la porta 443 di una pagina web NAS. Usa un servizio di tua proprietà o che amministri. Annota il suo indirizzo locale e la porta, senza pubblicarli. Mantieni il servizio attivo per tutta la prova.</p>
+<p>Annota modello mesh, versione firmware, modalità operativa e impostazioni di accesso ospiti, accesso IoT, dispositivi condivisi e isolamento client. Controlla il nome Wi-Fi del laptop dopo ogni cambio di rete. Se le tue regole abituali lo consentono, disconnetti la VPN o il proxy per questa prova del percorso locale, poi ripristinali. Una VPN modifica il percorso in esame.</p>
+<blockquote>
+<p><strong>Avviso:</strong> prova solo i tuoi dispositivi o quelli che hai il permesso di amministrare.
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Verifica le perdite DNS e WebRTC del browser con una VPN</title><link>https://it.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><description>Controlla l'IP pubblico, il resolver DNS e gli indirizzi WebRTC del browser prima e dopo aver collegato una VPN. Interpreta i risultati e individua i problemi di instradamento.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p>L&rsquo;icona di connessione di una rete privata virtuale (VPN) non dimostra che ogni richiesta del browser segua lo stesso percorso. Verifica separatamente il tuo <strong>IP pubblico</strong>, il <strong>resolver del Domain Name System (DNS)</strong> e gli <strong>indirizzi WebRTC</strong>. Ogni risultato risponde a una domanda diversa. Questa guida propone una verifica ripetibile e un metodo per indagare un risultato inatteso.</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>Confronta due condizioni:</strong> Registra gli stessi test prima e dopo aver collegato la VPN.</li>
+<li><strong>Leggi ogni risultato a sé:</strong> Un IP pubblico diverso non indica dove siano finite le richieste DNS.</li>
+<li><strong>Controlla i candidati WebRTC:</strong> Cerca un indirizzo pubblico fuori dal percorso previsto. Un indirizzo privato ha un significato diverso.</li>
+<li><strong>Modifica un&rsquo;impostazione per volta:</strong> Ripeti il test dopo ogni modifica a VPN, browser o DNS.</li>
+</ul>
+<h2 id="prima-di-iniziare">
+  <a href="#prima-di-iniziare" title="Prima di iniziare">Prima di iniziare</a>
+  <a href="#prima-di-iniziare" class="h-anchor" aria-hidden="true" title="Prima di iniziare">#</a>
+</h2>
+<p>Usa il browser e la connessione di rete che vuoi proteggere. Stabilisci se la VPN deve coprire l&rsquo;intero dispositivo o solo alcune app. Se la VPN usa lo split tunneling, annota se il browser di test passa dal tunnel. Tieni a disposizione la policy DNS del client VPN per il confronto.</p>
+<p>Lo <strong>split tunneling</strong> invia alcune app tramite la VPN e lascia che altre usino la rete normale.</p>
+<p>La procedura usa le pagine 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="IP di BrowserLeaks">
+    <meta itemprop="url" content="https://browserleaks.com/ip">
+    <a href="https://browserleaks.com/ip"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+         
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2x RTX 5060 Ti contro GB10: benchmark AI locale di cinque modelli con contesto 256K</title><link>https://it.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><description>Confronto tra RTX 5060 Ti e GB10 su cinque modelli, più un benchmark Qwen3.8 Flash-Next su Strata eseguito sullo stesso host fino a un contesto di 256K.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p><strong>Due schede RTX 5060 Ti da 16 GB offrono complessivamente 32 GB di VRAM.</strong> Un sistema NVIDIA GB10 offre 128 GB di memoria unificata coerente. Il nuovo benchmark su cinque modelli presenta un quadro più equilibrato rispetto al precedente test limitato a Qwen.</p>
+<p>Con l&rsquo;impostazione 256K, il sistema a doppia scheda genera più velocemente su quattro dei cinque modelli. Il GB10 prevale nettamente su Qwen3.8 27B e conserva più memoria per i modelli, il contesto e le allocazioni del runtime. La scelta migliore dipende dal modello e dal carico di lavoro.</p>
+<p>Un test separato sullo stesso host ha confrontato Qwen3.8-Flash-Next IQ2_XS su Strata con Qwen3.8 27B Q4_K_M denso su Ollama. La mediana di generazione dopo il riscaldamento è stata di 92.8 token al secondo per Flash-Next, con un prompt di 260,446 token. Qwen3.8 denso ha raggiunto 0.939 token al secondo con un prompt di 260,444 token.</p>
+<p>NVIDIA GB10 usa 128 GB di memoria unificata coerente. NVIDIA indica per la piattaforma GB10 128 GB di memoria unificata LPDDR5x e un TDP del chip di 140 W. Ogni RTX 5060 Ti usa 16 GB di GDDR7, un&rsquo;interfaccia di memoria a 128 bit e una potenza grafica totale dichiarata di 180 W. Le 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="specifiche NVIDIA RTX 5060 Ti">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/">
+    <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >specifiche NVIDIA RTX 5060 Ti</a>
+</span>
+ e le 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https:/
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Capstone del flusso di lavoro IA: creare e verificare un rapporto JSON</title><link>https://it.simeononsecurity.com/articles/effective-ai-capstone/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/effective-ai-capstone/</guid><description>Crea un nuovo rapporto JSON con il contesto del progetto, una richiesta circoscritta per l’agente, test indipendenti, revisione delle fonti e passaggio a una nuova sessione.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/effective-ai-capstone.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/effective-ai-capstone/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Torna al corso sul flusso di lavoro pratico con IA">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Torna al corso sul flusso di lavoro pratico con IA</a>
+</span>
+</p>
+<p><strong>Crea un nuovo formato di output e dimostrane il comportamento.</strong> In precedenza hai aggiunto un filtro di stato. Questo capstone parte da un laboratorio nuovo e aggiunge un rapporto JSON leggibile da un altro programma. Il nuovo requisito verifica se sai trasferire il tuo flusso di lavoro a una funzione diversa.</p>
+<p><strong>Obiettivo didattico:</strong> consegnerai un rapporto JSON verificato, un registro delle prove relative a fonti e strumenti e un passaggio che una nuova sessione possa comprendere.</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>Un requisito separato</strong> definisce la funzione del capstone.</li>
+<li><strong>La modifica di un agente di programmazione</strong> resta nei file indicati.</li>
+<li><strong>Verifiche indipendenti</strong> determinano l’accettazione.</li>
+<li><strong>Un passaggio a una nuova sessione</strong> permette di ricostruire il risultato.</li>
+</ul>
+<h2 id="prima-di-iniziare">
+  <a href="#prima-di-iniziare" title="Prima di iniziare">Prima di iniziare</a>
+  <a href="#prima-di-iniziare" class="h-anchor" aria-hidden="true" title="Prima di iniziare">#</a>
+</h2>
+<p><strong>Prerequisiti:</strong> completa le lezioni da 0 a 10, inclusi il contesto del repository, il primo compito di programmazione, MCP o l’alternativa nel browser, la delega e i cicli delimitati. La lezione 11 è facoltativa. Dedica da 90 a 120 minuti. Difficoltà intermedia.</p>
+<p><strong>Usa una nuova estrazione</strong> del 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/effective-ai-capstone/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Cicli delimitati per agenti IA: controlli, nuovi tentativi e regole di arresto</title><link>https://it.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</guid><description>Definisci un ciclo obiettivo per l'IA con stato osservabile, controlli, limiti ai nuovi tentativi, condizioni di arresto e un chiaro passaggio a una persona.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/effective-ai-bounded-agent-loops.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Torna al corso pratico sui flussi di lavoro IA">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Torna al corso pratico sui flussi di lavoro IA</a>
+</span>
+</p>
+<p><strong>Un ciclo orientato a un obiettivo ripete il lavoro finché un risultato definito supera un controllo o scatta una regola di arresto.</strong> Un ciclo utile legge lo stato corrente, esegue un&rsquo;azione delimitata, controlla il risultato e registra ciò che è accaduto. Un&rsquo;istruzione aperta come «continua a provare» non ha una regola di completamento affidabile.</p>
+<p><strong>Obiettivo di apprendimento:</strong> eseguirai un ciclo di laboratorio delimitato con un controllo che si sa essere fallito e registrerai la decisione di arresto.</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>Obiettivo:</strong> un risultato descritto in termini osservabili.</li>
+<li><strong>Stato:</strong> i file, gli output, gli errori e la revisione del codice sorgente correnti.</li>
+<li><strong>Controllo:</strong> un test o una revisione legati all&rsquo;obiettivo.</li>
+<li><strong>Budget di nuovi tentativi:</strong> il numero massimo di tentativi consentiti per un errore.</li>
+<li><strong>Regola di arresto:</strong> una condizione che richiede di concludere o chiedere una decisione umana.</li>
+</ul>
+<h2 id="prima-di-iniziare">
+  <a href="#prima-di-iniziare" title="Prima di iniziare">Prima di iniziare</a>
+  <a href="#prima-di-iniziare" class="h-anchor" aria-hidden="true" title="Prima di iniziare">#</a>
+</h2>
+<p><strong>Prerequisiti:</strong> il 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Come usare bene l’IA: un flusso di lavoro affidabile per principianti</title><link>https://it.simeononsecurity.com/articles/effective-ai-workflow-foundations/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/effective-ai-workflow-foundations/</guid><description>Impara un flusso di lavoro ripetibile per l’IA: definisci il compito, fornisci il contesto pertinente, esamina le prove e verifica il risultato prima di usarlo.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/effective-ai-workflow-foundations.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/effective-ai-workflow-foundations/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Torna al corso Flusso di lavoro pratico con l’IA">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Torna al corso Flusso di lavoro pratico con l’IA</a>
+</span>
+</p>
+<p><strong>Usa l’IA come un collaboratore il cui risultato va controllato.</strong> Parti dal risultato desiderato, fornisci solo il materiale pertinente e confronta la risposta con la fonte. Questa lezione presenta un flusso di lavoro per chat, ricerca e codice.</p>
+<p><strong>Obiettivo di apprendimento:</strong> preparerai un’email corretta per il laboratorio e un registro di revisione con quattro verifiche.</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>Compito:</strong> indica il risultato necessario e i suoi limiti.</li>
+<li><strong>Contesto:</strong> fornisci file, fatti ed esempi pertinenti.</li>
+<li><strong>Prove:</strong> chiedi da dove provengono le affermazioni e le modifiche importanti.</li>
+<li><strong>Verifica:</strong> controlla il risultato finito, non la sicurezza dell’assistente.</li>
+</ul>
+<h2 id="prima-di-iniziare">
+  <a href="#prima-di-iniziare" title="Prima di iniziare">Prima di iniziare</a>
+  <a href="#prima-di-iniziare" class="h-anchor" aria-hidden="true" title="Prima di iniziare">#</a>
+</h2>
+<p><strong>Prerequisiti:</strong> accesso a un qualsiasi strumento di chat IA e un’attività innocua che già conosci. Non servono codice né un piano a pagamento. Dedica 25 minuti. Difficoltà: principiante.</p>
+<p><strong>Scenario di esercitazione:</strong> gestisci un laboratorio comunitario immaginario. Una bozza di email dice che la prossima lezione inizia alle 18:00. Il programma approvato indica le 19:00. Vuoi un’email corretta e un registro delle modifiche. Non inserire dati reali dei clienti.</p>
+<h2 id="conoscere-gli-elementi">
+  <a href="#conoscere-gli-elementi" title="Co
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/effective-ai-workflow-foundations/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Come verificare risultati, fonti, test e costi dell’IA</title><link>https://it.simeononsecurity.com/articles/effective-ai-output-verification/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/effective-ai-output-verification/</guid><description>Crea un verbale di accettazione per un risultato dell’IA verificando fonti, ambito dei file, prove dei test, privacy e utilizzo.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/effective-ai-output-verification.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/effective-ai-output-verification/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Torna al corso Flusso di lavoro pratico con l’IA">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Torna al corso Flusso di lavoro pratico con l’IA</a>
+</span>
+</p>
+<p><strong>Accetta un risultato dell’IA solo dopo aver verificato le prove adatte all’attività.</strong> Una spiegazione curata, uno strumento configurato e un indicatore verde dei test rispondono a domande diverse. Questa lezione crea un unico verbale di revisione per il laboratorio del corso.</p>
+<p><strong>Obiettivo di apprendimento:</strong> produrrai un verbale di accettazione per fonti, ambito dei file, test, privacy e utilizzo.</p>
+<h2 id="punti-chiave">
+  <a href="#punti-chiave" title="Punti chiave">Punti chiave</a>
+  <a href="#punti-chiave" class="h-anchor" aria-hidden="true" title="Punti chiave">#</a>
+</h2>
+<ul>
+<li><strong>Verifica delle fonti:</strong> confronta un’affermazione fattuale con una fonte autorevole e aggiornata.</li>
+<li><strong>Verifica dell’ambito:</strong> controlla quali file o sistemi sono cambiati.</li>
+<li><strong>Verifica del comportamento:</strong> esegui test e casi manuali pertinenti.</li>
+<li><strong>Verifica della privacy:</strong> controlla quali dati sono arrivati allo strumento o al fornitore.</li>
+<li><strong>Verifica dell’utilizzo:</strong> registra token, chiamate agli strumenti e tariffa usata per il calcolo dei costi.</li>
+</ul>
+<h2 id="prima-di-iniziare">
+  <a href="#prima-di-iniziare" title="Prima di iniziare">Prima di iniziare</a>
+  <a href="#prima-di-iniziare" class="h-anchor" aria-hidden="true" title="Prima di iniziare">#</a>
+</h2>
+<p><strong>Prerequisiti:</strong> il laboratorio del corso, <code>docs/requirements.md</code>, uno snapshot Git locale e la 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/effective-ai-output-verification/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Configurare un server MCP: autorizzazioni, test degli strumenti e rimozione sicura</title><link>https://it.simeononsecurity.com/articles/effective-ai-mcp-server-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://it.simeononsecurity.com/articles/effective-ai-mcp-server-setup/</guid><description>Collega un server MCP di documentazione in sola lettura, esamina gli strumenti, esegui una lettura reale e rimuovi la connessione.</description><content:encoded><![CDATA[
+        
+            <img src="https://it.simeononsecurity.com/img/cover/effective-ai-mcp-server-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/effective-ai-mcp-server-setup/">Read the full article at https://it.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Torna al corso Flusso di lavoro pratico con l’IA">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Torna al corso Flusso di lavoro pratico con l’IA</a>
+</span>
+</p>
+<p><strong>Usa un server MCP quando un’attività richiede uno strumento riutilizzabile o informazioni aggiornate fuori dal progetto.</strong> Model Context Protocol, o MCP, definisce come client e server scambiano informazioni su strumenti, risorse e prompt. Una voce del server non dimostra che lo strumento funzioni. Questa lezione verifica una connessione documentale in sola lettura.</p>
+<p><strong>Obiettivo di apprendimento:</strong> distinguere la configurazione da una lettura MCP reale e documentare la rimozione sicura.</p>
+<h2 id="concetti-chiave">
+  <a href="#concetti-chiave" title="Concetti chiave">Concetti chiave</a>
+  <a href="#concetti-chiave" class="h-anchor" aria-hidden="true" title="Concetti chiave">#</a>
+</h2>
+<ul>
+<li><strong>Host MCP:</strong> applicazione IA che coordina utenti, modelli, autorizzazioni e client.</li>
+<li><strong>Client MCP:</strong> componente del protocollo che comunica con un server.</li>
+<li><strong>Server MCP:</strong> programma o servizio remoto che offre strumenti, risorse o prompt.</li>
+<li><strong>Rilevamento degli strumenti:</strong> prova che nel client compare una capacità nominata.</li>
+<li><strong>Esecuzione dello strumento:</strong> prova di una chiamata reale e dei contenuti restituiti.</li>
+<li><strong>Ambito delle autorizzazioni:</strong> accesso concesso da host, server, account e utente.</li>
+</ul>
+<h2 id="prima-di-iniziare">
+  <a href="#prima-di-iniziare" title="Prima di iniziare">Prima di iniziare</a>
+  <a href="#prima-di-iniziare" class="h-anchor" aria-hidden="true" title="Prima di iniziare">#</a>
+</h2>
+<p><strong>Prerequisiti:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+ 
+
+        <br>
+        <a href="https://it.simeononsecurity.com/articles/effective-ai-mcp-server-setup/">Read More at https://it.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>

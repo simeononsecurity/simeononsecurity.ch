@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hardware on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Hardware on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/hardware/</link></image><link>https://it.simeononsecurity.com/genre/hardware/</link><description>Recent content in Hardware on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/hardware/index.xml" rel="self" type="application/rss+xml"/><item><title>Alimentazione e resilienza ambientale per sistemi da campo</title><link>https://it.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Edge computing"
+, "IT sul campo"
+, "Sistemi di alimentazione"
+, "Hardware"
+, "Ripristino dopo disastri"
+, "Informatica rugged"
+, "Reti"</category><guid>https://it.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Pianifica l'alimentazione e la protezione ambientale per nodi edge sul campo. Dimensiona UPS, batterie e pannelli solari, sincronizzazione dell'ora, grado di protezione degli involucri, messa a terra e protezione dalle sovratensioni.</description><enclosure url="https://it.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>Consigli per l'IT sul campo: oltre il mini data center</title><link>https://it.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"IT sul campo"
+, "Edge computing"
+, "Operazioni IT"
+, "Ripristino di emergenza"
+, "Hardware"
+, "Buone pratiche"</category><guid>https://it.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Indicazioni pratiche per l'IT sul campo: ricambi, documentazione, ESD, firmware, supporti di avvio, licenze, sicurezza fisica, viaggi e assicurazione.</description><enclosure url="https://it.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp"/></item><item><title>Confronto tra Synology, TerraMaster e QNAP</title><link>https://it.simeononsecurity.com/articles/synology-terramaster-qnap-nas-comparison/</link><pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Archiviazione di rete"
+, "Confronto NAS"
+, "Gestione dei dati"
+, "Recensioni tecnologiche"
+, "Soluzioni di rete"
+, "Hardware"
+, "Sicurezza dei dati"
+, "Soluzioni di archiviazione"
+, "Infrastruttura IT"</category><guid>https://it.simeononsecurity.com/articles/synology-terramaster-qnap-nas-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronta i sistemi NAS di Synology, TerraMaster e QNAP per funzioni, prestazioni, software e sicurezza dei dati.</description><enclosure url="https://it.simeononsecurity.com/img/cover/nas_comparison_race.webp" length="88326" type="image/webp"/></item><item><title>Sostituzione della scheda SD di Nebra Helium Miner: Guida passo passo</title><link>https://it.simeononsecurity.com/other/replacing-nebra-outdoor-indoor-miner-emmc-key/</link><pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Criptovalute"
+, "Hardware"
+, "Miniere di elio"
+, "Risoluzione dei problemi"
+, "Sostituzione della scheda SD"
+, "Problemi di sincronizzazione"
+, "Raspberry Pi"
+, "Balena Etcher"
+, "Minatore di elio Nebra"</category><guid>https://it.simeononsecurity.com/other/replacing-nebra-outdoor-indoor-miner-emmc-key/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come sostituire o riflashare la scheda SD Nebra Indoor e Outdoor, di prima e seconda generazione, EMMC Key e risolvere i problemi di sincronizzazione di Helium Miner con questa guida.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_holding_a_Nebra_Helium_M.webp" length="96808" type="image/webp"/></item></channel></rss>

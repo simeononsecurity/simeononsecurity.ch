@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reti Mesh on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Reti Mesh on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/reti-mesh/</link></image><link>https://it.simeononsecurity.com/genre/reti-mesh/</link><description>Recent content in Reti Mesh on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/reti-mesh/index.xml" rel="self" type="application/rss+xml"/><item><title>Meshtastic vs MeshCore vs Reticulum</title><link>https://it.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "Reti mesh"
+, "Comunicazioni fuori rete"
+, "Comunicazioni di emergenza"
+, "Radioamatori"
+, "Open source"
+, "Preparazione alle emergenze"
+, "Reti wireless"
+, "Privacy"
+, "Networking"</category><guid>https://it.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronta Meshtastic, MeshCore e Reticulum in base a routing, tempo di trasmissione, infrastruttura, trasporto e casi d’uso offline.</description><enclosure url="https://it.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>MeshCore o Meshtastic: confronto</title><link>https://it.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "Reti mesh"
+, "Comunicazioni offline"
+, "Comunicazioni di emergenza"
+, "Comunicazioni tattiche"
+, "Radioamatori"
+, "Open source"
+, "Preparazione alle calamità"
+, "Reti wireless"
+, "Privacy"</category><guid>https://it.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronta MeshCore e Meshtastic per instradamento, portata, tempo di trasmissione, infrastruttura, dispositivi supportati e impiego ideale.</description><enclosure url="https://it.simeononsecurity.com/img/cover/meshcore-vs-meshtastic-comparison-guide.webp" length="173676" type="image/webp"/></item></channel></rss>

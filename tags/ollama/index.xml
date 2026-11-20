@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ollama on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Ollama on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/ollama/</link></image><link>https://it.simeononsecurity.com/tags/ollama/</link><description>Recent content in Ollama on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/ollama/index.xml" rel="self" type="application/rss+xml"/><item><title>Come scegliere un modello AI locale senza censure</title><link>https://it.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"AI locale"
+, "AI autogestita"
+, "Sicurezza dell'AI"
+, "Componenti GPU"</category><guid>https://it.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronta le varianti locali in base a risposte complete, capacità mantenute, uso del contesto, quantizzazione e memoria VRAM necessaria.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Costruisci un home lab in 10 livelli, da Pi-hole all'IA locale</title><link>https://it.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Home lab"
+, "Self-hosting"
+, "IA locale"
+, "Reti domestiche"</category><guid>https://it.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Costruisci un home lab in dieci fasi pratiche, dal filtraggio DNS dell'intera rete all'IA locale, con hardware, costi, competenze e compromessi per ogni livello.</description><enclosure url="https://it.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Benchmark locali dei modelli Hermes: quali combinazioni di GPU e modelli sceglierei</title><link>https://it.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligenza artificiale"
+, "IA locale"
+, "Componenti hardware"</category><guid>https://it.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Le mie raccomandazioni per Hermes derivano da test di contesto lungo, strumenti, streaming e visione su sistemi RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti e RTX 3070.</description><enclosure url="https://it.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>Dentro la nostra flotta ibrida di agenti IA: Hermes, LiteLLM e Tailscale</title><link>https://it.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "IA self-hosted"
+, "Agenti IA"
+, "Infrastruttura IA"
+, "Mining GPU"</category><guid>https://it.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri una flotta IA locale verificata con caricamento su richiesta e il suo piano di controllo T0-T4 con Hermes, LiteLLM, Tailscale Aperture e mining Pearl.</description><enclosure url="https://it.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>OpenCode contro Claude Code: confronto degli agenti di coding nel 2026</title><link>https://it.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Strumenti per sviluppatori"
+, "Intelligenza artificiale"
+, "Open source"</category><guid>https://it.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronta OpenCode e Claude Code per scelta dei modelli, inferenza locale, prezzi, permessi, istruzioni del progetto e flussi di lavoro quotidiani per il coding.</description><enclosure url="https://it.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>Quale modello di IA locale dovresti eseguire? Guida a GPU, contesto e programmazione per ottobre 2026</title><link>https://it.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Hardware IA"
+, "IA self-hosted"
+, "Benchmark GPU"
+, "Strumenti per sviluppatori"
+, "Economia dell'IA"</category><guid>https://it.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guida pratica di ottobre 2026 alla scelta di modelli di IA locali per gli agenti di programmazione. Confronta memoria GPU, crescita della cache KV, dimensione del contesto, qualità della quantizzazione, elaborazione dei prompt, livelli di ragionamento e costi del noleggio cloud.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Benchmark GPU di Llama 3.1 8B e Qwen3.8 27B su Vast.ai</title><link>https://it.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Benchmark GPU"
+, "IA self-hosted"
+, "Cloud computing"
+, "Intelligenza artificiale"
+, "Economia dell'IA"</category><guid>https://it.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Benchmark Ollama misurati di Llama 3.1 8B e Qwen3.8 27B sulle principali GPU Vast.ai. Confronta velocità di decodifica, contesto lungo, costo di noleggio, self-hosting, crediti API e abbonamenti.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>AI locale nel 2026: un modello 27B supera Sonnet 4.6 mentre la finestra hardware si chiude</title><link>https://it.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"AI locale"
+, "AI self-hosted"
+, "Modelli a pesi aperti"
+, "Hardware AI"
+, "Apprendimento automatico"
+, "Quantizzazione"
+, "Laboratorio domestico"
+, "Riservatezza"
+, "Economia dell'AI"
+, "Hardware consumer"</category><guid>https://it.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Pianifica un sistema AI locale per il 2026 in base a dimensioni del modello, VRAM, banda di memoria, potenza, costo e opzioni di aggiornamento.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Quali modelli AI funzionano su Raspberry Pi 4 o 5?</title><link>https://it.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "Intelligenza artificiale"
+, "Self-hosting"</category><guid>https://it.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Usa i risultati misurati su Raspberry Pi 4 e 5 per scegliere modelli linguistici locali in base a memoria, velocità e carico, dai piccoli modelli LFM2.5 alle opzioni 3B e superiori.</description><enclosure url="https://it.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item><item><title>Creare un assistente AI rispettoso della privacy per Meshtastic</title><link>https://it.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Sicurezza di rete"
+, "Riservatezza"
+, "Software open source"
+, "Automazione"</category><guid>https://it.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Resoconto pratico di un assistente AI locale per Meshtastic con configurazione privata, accesso TCP in coda, strumenti di recupero delle fonti e dashboard più sicura.</description><enclosure url="https://it.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item></channel></rss>

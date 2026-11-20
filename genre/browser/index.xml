@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Browser on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Browser on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/browser/</link></image><link>https://it.simeononsecurity.com/genre/browser/</link><description>Recent content in Browser on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/browser/index.xml" rel="self" type="application/rss+xml"/><item><title>Aggiornamento di sicurezza di Chrome 156: verifica la patch di ottobre</title><link>https://it.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Browser"
+, "Sicurezza"
+, "Gestione delle patch"</category><guid>https://it.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verifica il rilascio di sicurezza di Chrome 156 del 27 ottobre su Windows, macOS, Linux e Android. Confronta la build installata, completa un riavvio in sospeso e controlla separatamente i dispositivi gestiti.</description><enclosure url="https://it.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp"/></item><item><title>Verifica le perdite DNS e WebRTC del browser con una VPN</title><link>https://it.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Privacy"
+, "Browser"
+, "Reti"</category><guid>https://it.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Controlla l'IP pubblico, il resolver DNS e gli indirizzi WebRTC del browser prima e dopo aver collegato una VPN. Interpreta i risultati e individua i problemi di instradamento.</description><enclosure url="https://it.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>I Migliori Browser per la Privacy 2026: LibreWolf vs Brave vs Tor</title><link>https://it.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"Browser"
+, "Privacy"
+, "Sicurezza"
+, "Internet"
+, "Tecnologia"
+, "Privacy Digitale"
+, "Sicurezza Online"
+, "Open Source"
+, "Anonimato"
+, "Navigazione Web"</category><guid>https://it.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronto completo 2026 dei migliori browser focalizzati sulla privacy: LibreWolf, Brave, Firefox, Tor e altri. Test dettagliati sulla privacy, benchmark di prestazioni e analisi di sicurezza per proteggere i tuoi dati online.</description><enclosure url="https://it.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp"/></item></channel></rss>

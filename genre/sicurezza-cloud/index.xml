@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sicurezza Cloud on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Sicurezza Cloud on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/sicurezza-cloud/</link></image><link>https://it.simeononsecurity.com/genre/sicurezza-cloud/</link><description>Recent content in Sicurezza Cloud on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/sicurezza-cloud/index.xml" rel="self" type="application/rss+xml"/><item><title>1Password SSH Agent and CLI: Accesso in sola lettura per agenti AI</title><link>https://it.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Amministrazione dei sistemi"
+, "Sicurezza cloud"
+, "Automazione"</category><guid>https://it.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Progetta un flusso di lavoro SSH in sola lettura con 1Password CLI, SSH Agent e MCP. Utilizza comandi sintetici, permessi ristretti e approvazione umana prima dei test live.</description><enclosure url="https://it.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Chiavi SSH di Bitbucket Cloud: accesso Git in sola lettura per agenti AI</title><link>https://it.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Sicurezza cloud"
+, "Strumenti per sviluppatori"
+, "Amministrazione di sistema"</category><guid>https://it.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Configura chiavi SSH di Bitbucket Cloud, accesso Git CLI, token REST API, 1Password e strumenti MCP per flussi di lavoro degli agenti AI in sola lettura.</description><enclosure url="https://it.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>I container non sono più un confine di sicurezza: le evasioni dal kernel nel 2026</title><link>https://it.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"Sicurezza dei container"
+, "Linux"
+, "Sicurezza del kernel"
+, "Virtualizzazione"
+, "Sicurezza cloud"
+, "Ricerca sulle minacce"
+, "Blue team"
+, "DevSecOps"</category><guid>https://it.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esamina la ricerca del 2026 sulle evasioni dai container, i limiti dell'isolamento del kernel, la pressione sulle patch e il ruolo delle microVM.</description><enclosure url="https://it.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>Cloudflare Tunnel e Access: servono entrambi?</title><link>https://it.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Sicurezza di rete"
+, "Self-hosting"
+, "Sicurezza cloud"</category><guid>https://it.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri le differenze tra Cloudflare Tunnel e Access, scegli la protezione per una dashboard domestica ed evita di pubblicare un'app privata senza autenticazione.</description><enclosure url="https://it.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>Laboratorio SOC Microsoft domestico: acquisisci esperienza in cybersicurezza nel 2026</title><link>https://it.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cybersicurezza"
+, "Sicurezza cloud"
+, "Sviluppo professionale"</category><guid>https://it.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Crea un laboratorio SOC Microsoft con Sentinel, Defender, Intune ed Entra. Analizza incidenti, verifica le policy delle passkey e documenta prove per il portfolio.</description><enclosure url="https://it.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>Proteggere il cloud in modo efficace</title><link>https://it.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</link><pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate><category>
+"Sicurezza cloud"
+, "Resilienza aziendale"
+, "Implementazione CSPM"
+, "Rilevamento proattivo delle minacce"
+, "Gestione della conformità"
+, "Criteri di sicurezza"
+, "Collaborazione interfunzionale"
+, "Infrastruttura cloud"
+, "Sicurezza automatizzata"
+, "Mitigazione dei rischi"</category><guid>https://it.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Usa la gestione della postura di sicurezza cloud per trovare configurazioni errate, applicare criteri, gestire avvisi, sostenere la conformità e guidare la correzione degli account cloud.</description><enclosure url="https://it.simeononsecurity.com/img/cover/leveraging-cloud-security-posture-management-%28cspm%29-for-your-business.webp" length="234272" type="image/webp"/></item><item><title>Certificazioni Microsoft per una carriera nella cybersicurezza</title><link>https://it.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cybersicurezza"
+, "Certificazioni Microsoft"
+, "Sviluppo professionale"
+, "Tecnologie dell'informazione"
+, "Sicurezza cloud"
+, "Gestione dei dati"
+, "Gestione delle identità e degli accessi"
+, "Intelligenza artificiale"
+, "Apprendimento automatico"
+, "Mercato del lavoro"</category><guid>https://it.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scegli le certificazioni Microsoft per i ruoli di cybersicurezza in base alle competenze, al lavoro desiderato, ai prerequisiti e alla rilevanza di Azure.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_illustration_featuring_a_professiona.webp" length="94814" type="image/webp"/></item><item><title>Guida alla carriera nella cybersecurity 2026</title><link>https://it.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</link><pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Tecnologia"
+, "Sviluppo professionale"
+, "Sicurezza delle informazioni"
+, "Sicurezza digitale"
+, "Competenze e certificazioni"
+, "Opportunità di lavoro"
+, "Sicurezza di rete"
+, "Sicurezza cloud"
+, "Pianificazione professionale"</category><guid>https://it.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Una guida alla carriera nella cybersecurity nel 2026, con competenze, certificazioni, dati sugli stipendi, percorsi professionali e analisi del mercato del lavoro.</description><enclosure url="https://it.simeononsecurity.com/img/cover/cybersecurity-career-guide-essential-skills-and-certifications.webp" length="298156" type="image/webp"/></item><item><title>Padroneggiare i test di penetrazione: tecniche avanzate</title><link>https://it.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Test di penetrazione"
+, "Hacking etico"
+, "Sicurezza di rete"
+, "Sicurezza delle applicazioni web"
+, "Sicurezza wireless"
+, "Ingegneria sociale"
+, "Sicurezza delle applicazioni mobili"
+, "Sicurezza cloud"
+, "Sviluppo professionale"</category><guid>https://it.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esplora tecniche avanzate, strumenti ed esempi reali di test di penetrazione per sviluppare le tue competenze di cybersecurity e la tua carriera.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp"/></item></channel></rss>

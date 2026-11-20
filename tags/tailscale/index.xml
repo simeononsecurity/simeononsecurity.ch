@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tailscale on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Tailscale on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/tailscale/</link></image><link>https://it.simeononsecurity.com/tags/tailscale/</link><description>Recent content in Tailscale on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/tailscale/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture: configurare i client IA per inferenza e MCP nel 2026</title><link>https://it.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Intelligenza artificiale"
+, "Strumenti per sviluppatori"
+, "Reti"</category><guid>https://it.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Instrada le richieste dei modelli e gli strumenti MCP tramite Tailscale Aperture. Configura Codex, Claude Code, Claude Desktop, OpenCode e Hermes su un altro dispositivo o gateway.</description><enclosure url="https://it.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>Costruisci un home lab in 10 livelli, da Pi-hole all'IA locale</title><link>https://it.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Home lab"
+, "Self-hosting"
+, "IA locale"
+, "Reti domestiche"</category><guid>https://it.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Costruisci un home lab in dieci fasi pratiche, dal filtraggio DNS dell'intera rete all'IA locale, con hardware, costi, competenze e compromessi per ogni livello.</description><enclosure url="https://it.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Dentro la nostra flotta ibrida di agenti IA: Hermes, LiteLLM e Tailscale</title><link>https://it.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "IA self-hosted"
+, "Agenti IA"
+, "Infrastruttura IA"
+, "Mining GPU"</category><guid>https://it.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri una flotta IA locale verificata con caricamento su richiesta e il suo piano di controllo T0-T4 con Hermes, LiteLLM, Tailscale Aperture e mining Pearl.</description><enclosure url="https://it.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>Perché il port forwarding non funziona con T-Mobile Home Internet</title><link>https://it.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Self-Hosted"
+, "Network Security"</category><guid>https://it.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri i limiti del port forwarding su T-Mobile 5G Home Internet, il NAT dell'operatore e le opzioni pratiche per raggiungere un server domestico senza una porta pubblica in ingresso.</description><enclosure url="https://it.simeononsecurity.com/img/cover/t-mobile-home-internet-port-forwarding.webp" length="103506" type="image/webp"/></item><item><title>Perché Tailscale usa un relay: connessioni dirette, DERP e peer relay</title><link>https://it.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Network Security"
+, "Self-Hosted"</category><guid>https://it.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri perché Tailscale usa un relay, come leggere l'output di status e netcheck e quando una connessione DERP o peer relay richiede un'indagine.</description><enclosure url="https://it.simeononsecurity.com/img/cover/why-tailscale-uses-a-relay.webp" length="103974" type="image/webp"/></item></channel></rss>
