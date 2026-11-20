@@ -1,22 +1,74 @@
 ---
-title: "Microsoft Defender for Cloud से अपने क्लाउड वातावरण को सुरक्षित करें"
+title: "Microsoft Defender for Cloud के साथ अपने क्लाउड परिवेश को सुरक्षित करें"
 date: 2023-04-10
-lastmod: 2026-11-14
+lastmod: 2026-11-20
 toc: true
 draft: false
-description: "Microsoft Defender for Cloud से Azure workloads सुरक्षित करें। Azure Security Center के पुराने नामों, सुझावों, नीतियों और प्रतिक्रिया चरणों की समीक्षा करें।"
-tags: ["Azure", "Security Center", "क्लाउड सुरक्षा", "Azure Sentinel", "Azure Defender", "नेटवर्क सुरक्षा", "पहचान प्रबंधन", "डेटा सुरक्षा", "खतरे का पता लगाना", "खतरे पर प्रतिक्रिया", "MFA", "RBAC", "NSGs", "Azure Firewall", "WAF", "Azure AD", "Azure Information Protection", "Azure Storage Service Encryption", "Azure Disk Encryption"]
+description: "Microsoft Defender for Cloud से Azure वर्कलोड सुरक्षित करें। पुराने Azure Security Center नामों, सुझावों, नीतियों और प्रतिक्रिया चरणों की समीक्षा करें।"
+tags: ["Azure", "Security Center", "क्लाउड सुरक्षा", "Azure Sentinel", "Azure Defender", "नेटवर्क सुरक्षा", "पहचान प्रबंधन", "डेटा सुरक्षा", "खतरे का पता लगाना", "खतरे पर प्रतिक्रिया", "बहु-कारक प्रमाणीकरण", "भूमिका-आधारित अभिगम नियंत्रण", "नेटवर्क सुरक्षा समूह", "Azure Firewall", "वेब एप्लिकेशन फ़ायरवॉल", "Azure AD", "Azure Information Protection", "Azure Storage Service Encryption", "Azure Disk Encryption"]
 cover: "/img/cover/A_shield_icon_surrounded_by_cloud_symbols.webp"
-coverAlt: "क्लाउड चिह्नों से घिरी ढाल सुरक्षित क्लाउड वातावरण को दर्शाती है। ढाल पर Azure Security Center का लोगो है।"
+coverAlt: "क्लाउड चिह्नों से घिरी ढाल, जो सुरक्षित क्लाउड परिवेश दर्शाती है। ढाल पर Azure Security Center का लोगो है।"
 coverCaption: ""
 ---
+
+**Azure Security Center के साथ अपने क्लाउड परिवेश को कैसे सुरक्षित करें**
+
+अपने संगठन के डेटा, एप्लिकेशन और बुनियादी ढाँचे को खतरों से बचाने के लिए क्लाउड परिवेश सुरक्षित रखना आवश्यक है। Microsoft का **Azure Security Center** एक ऐसा टूल है जो आपकी सुरक्षा स्थिति मजबूत करने और Azure परिवेश में संभावित जोखिमों की शीघ्र पहचान करने में मदद करता है। इस लेख में हम Azure Security Center से क्लाउड परिवेश सुरक्षित करने और अलग-अलग सुरक्षा सुविधाएँ लागू करने के अच्छे तरीकों पर चर्चा करेंगे। तकनीकी विवरण और उदाहरण भी दिए गए हैं, ताकि आप सुरक्षा के चरणों को बेहतर समझ सकें।
+
+*इस लेख के मूल प्रकाशन के बाद उत्पादों के नाम बदले हैं। Microsoft Azure Security Center अब Microsoft Defender for Cloud कहलाता है। Azure Active Directory अब Microsoft Entra ID है। Azure Sentinel अब Microsoft Sentinel है। Azure Defender, Defender for Cloud के अंतर्गत Defender योजनाओं और वर्कलोड सुरक्षा को संदर्भित करता है। नीचे पुराने नाम वहाँ रखे गए हैं जहाँ वे 2023 की शब्दावली बताते हैं।*
+
+वर्तमान [Defender for Cloud परिचय](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction) इसे क्लाउड सुरक्षा स्थिति प्रबंधन, DevSecOps और क्लाउड वर्कलोड सुरक्षा वाला Cloud Native Application Protection Platform बताता है। सुविधाएँ और लाइसेंसिंग क्लाउड, संसाधन प्रकार, सदस्यता और योजना पर निर्भर करते हैं।
+
+______
+
+## Azure Security Center को समझना
+
+Azure Security Center एक **एकीकृत बुनियादी ढाँचा सुरक्षा प्रबंधन प्रणाली** है, जो क्लाउड परिवेश की संभावित कमजोरियों की पहचान करने और उन्हें दूर करने में मदद करती है। इसमें खतरे का पता लगाना, सुरक्षा स्थिति प्रबंधन और अनुपालन प्रबंधन जैसी सुविधाएँ हैं, जो आपके Azure परिवेश को सुरक्षित रखने में मदद करती हैं।
+
+**निरंतर सुरक्षा आकलन** और **उन्नत खतरा सुरक्षा** Azure Security Center की दो प्रमुख सुविधाएँ हैं। निरंतर सुरक्षा आकलन आपके परिवेश में संभावित सुरक्षा समस्याएँ पहचानने में मदद करता है। उन्नत खतरा सुरक्षा संभावित खतरों का पता लगाने और उन पर प्रतिक्रिया देने में मदद करती है।
+
+______
+
+## सुरक्षा नीतियाँ और अनुपालन मानक लागू करना
+
+Azure Security Center से आप अपने क्लाउड परिवेश में सुरक्षा नीतियाँ लागू और प्रबंधित कर सकते हैं। कस्टम सुरक्षा नीतियाँ बनाने या अच्छे तरीकों और अनुपालन मानकों को लागू करने के लिए अंतर्निहित नीतियों का उपयोग करने हेतु **Azure Policy** सेवा अपनाएँ। आप [NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final), [CIS](https://www.cisecurity.org/) और [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html) जैसे उद्योग मानकों के अनुसार अपनी सुरक्षा स्थिति का आकलन भी कर सकते हैं।
+
+Azure Security Center में अनुपालन प्रबंधन की सुविधाएँ भी हैं। इनसे आप अपने संगठन की अनुपालन स्थिति को [GDPR](https://gdpr.eu/), [HIPAA](https://www.hhs.gov/hipaa/index.html) और [PCI DSS](https://www.pcisecuritystandards.org/) जैसे अलग-अलग नियामक ढाँचों के अनुसार देख सकते हैं।
+
+______
+
+## Azure संसाधनों को सुरक्षित करना
+
+**संसाधनों की सुरक्षा-संबंधी स्वच्छता** क्लाउड परिवेश सुरक्षित रखने का अहम हिस्सा है। Azure Security Center **Secure Score** देता है, जो आपकी सुरक्षा स्थिति का माप है और संसाधनों की समग्र सुरक्षा समझने में मदद करता है। Azure Security Center के सुझावों पर कार्रवाई करके आप अपना Secure Score बेहतर कर सकते हैं।
+
+### नेटवर्क सुरक्षा
+
+अपने Azure परिवेश को संभावित खतरों से बचाने के लिए **Network Security Groups (NSG)**, **Azure Firewall** और **Web Application Firewall (WAF)** जैसे उचित नेटवर्क सुरक्षा उपाय लागू करना आवश्यक है। ये टूल आने-जाने वाले नेटवर्क ट्रैफ़िक को नियंत्रित करते हैं और अनधिकृत पहुँच तथा संभावित हमलों से संसाधनों की रक्षा करते हैं।
+
+#### Network Security Groups (NSG)
+
+NSG आपके Azure संसाधनों के लिए वर्चुअल फ़ायरवॉल की तरह काम करते हैं। इनके नियम तय करते हैं कि आपके संसाधनों तक और उनसे कौन-सा नेटवर्क ट्रैफ़िक जा सकता है। उदाहरण के लिए, विशिष्ट ट्रैफ़िक की अनुमति देने या उसे रोकने के नियमों वाला NSG बनाएँ:
+
 ```azurecli
 # नेटवर्क सुरक्षा समूह बनाएँ
 az network nsg create --name MyNSG --resource-group MyResourceGroup
 
-# ट्रैफ़िक की अनुमति या अस्वीकृति के लिए नियम जोड़ें
+# ट्रैफ़िक की अनुमति देने या उसे रोकने के नियम जोड़ें
 az network nsg rule create --name MyNSGRule --nsg-name MyNSG --priority 100 --resource-group MyResourceGroup --access Allow --protocol Tcp --direction Inbound --source-address-prefixes '*' --source-port-ranges '*' --destination-address-prefixes '*' --destination-port-ranges '80'
 ```
+आधिकारिक दस्तावेज़ में [Network Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview) के बारे में जानें।
+
+ऊपर दिया गया उदाहरण हर IPv4 स्रोत से आने वाले TCP पोर्ट 80 ट्रैफ़िक की अनुमति देता है। उत्पादन ट्रैफ़िक के लिए ज्ञात स्रोत सीमा, निजी एंडपॉइंट या लोड बैलेंसर मार्ग का उपयोग करें। उदाहरण अपनाने से पहले वर्तमान [NSG सुरक्षा परिचय](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview) देखें।
+
+#### Azure Firewall
+
+Azure Firewall एक प्रबंधित, क्लाउड-आधारित नेटवर्क सुरक्षा सेवा है, जो आपके Azure संसाधनों की रक्षा करती है। इसमें खतरे की जानकारी पर आधारित फ़िल्टरिंग, वेब श्रेणियाँ और केंद्रीकृत लॉगिंग तथा विश्लेषण जैसी उन्नत सुविधाएँ हैं। Azure Firewall स्थापित करने के लिए ये [त्वरित शुरुआत के निर्देश](https://learn.microsoft.com/en-us/azure/firewall-manager/quick-firewall-policy-bicep) अपनाएँ।
+
+#### Web Application Firewall (WAF)
+
+Web Application Firewall (WAF), **Azure Application Gateway** की एक सुविधा है। यह SQL इंजेक्शन और क्रॉस-साइट स्क्रिप्टिंग और अन्य आम वेब हमलों से वेब एप्लिकेशन की रक्षा करती है। WAF को मौजूदा वेब एप्लिकेशन के साथ जोड़ा जा सकता है। विशिष्ट हमलों से बचाव के लिए कस्टम नियम भी बनाए जा सकते हैं।
+
+WAF सक्षम करके Application Gateway बनाने का उदाहरण:
 ```azurecli
 # WAF नीति बनाएँ
 az network application-gateway waf-policy create --name MyWafPolicy --resource-group MyResourceGroup --location EastUS
@@ -32,68 +84,136 @@ az network public-ip create --name MyPublicIP --resource-group MyResourceGroup -
 az network application-gateway create --name MyAppGateway --resource-group MyResourceGroup --location EastUS --vnet-name MyVNet --subnet MySubnet --public-ip-address MyPublicIP --http-settings-cookie-based-affinity Enabled --sku WAF_v2 --waf-policy MyWafPolicy
 
 ```
+आधिकारिक दस्तावेज़ में [Web Application Firewall](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview) के बारे में जानें।
+
+### पहचान और पहुँच प्रबंधन
+
+**Microsoft Entra ID, जिसे पहले Azure Active Directory (Azure AD) कहा जाता था,** क्लाउड परिवेश को सुरक्षित रखने का अहम हिस्सा है। Defender for Cloud पहचान और पहुँच प्रबंधन बेहतर करने के लिए सुझाव देता है, जैसे **बहु-कारक प्रमाणीकरण (MFA)** चालू करना, **भूमिका-आधारित अभिगम नियंत्रण (RBAC)** लागू करना और संदिग्ध गतिविधियों पर नज़र रखना।
+
+#### बहु-कारक प्रमाणीकरण (MFA)
+
+MFA, पहुँच देने से पहले उपयोगकर्ता से सत्यापन के दो या अधिक तरीके माँगकर Azure AD खातों की सुरक्षा की एक अतिरिक्त परत जोड़ता है। अपने संगठन के लिए MFA चालू करने हेतु Microsoft की [चरण-दर-चरण मार्गदर्शिका](https://docs.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-azure-mfa) अपनाएँ।
+
+उदाहरण: किसी उपयोगकर्ता के लिए MFA चालू करें
+
 ```powershell
 # Azure AD से कनेक्ट करें
 Connect-AzureAD
 
-# किसी विशिष्ट उपयोगकर्ता के लिए MFA सक्षम करें
+# किसी विशिष्ट उपयोगकर्ता के लिए MFA चालू करें
 $UserPrincipalName = "johndoe@example.com"
 $StsUserObjectID = (Get-AzureADUser -Filter "UserPrincipalName eq '$UserPrincipalName'").ObjectId
 $StrongAuthRequirements = @(@{"Location"=""; "SatisfactionFactor"="2"; "VerificationMethod"="1"};@{"Location"=""; "SatisfactionFactor"="2"; "VerificationMethod"="2"})
 Set-AzureADUser -ObjectId $StsUserObjectID -StrongAuthenticationRequirements $StrongAuthRequirements
 ```
+#### भूमिका-आधारित अभिगम नियंत्रण (RBAC)
+
+RBAC से आप Azure संसाधनों के लिए बारीक अनुमतियाँ तय कर सकते हैं, ताकि उपयोगकर्ताओं को उचित स्तर की पहुँच मिले। संगठन के संसाधनों तक उनकी पहुँच प्रबंधित करने के लिए उपयोगकर्ताओं, समूहों या एप्लिकेशन को भूमिकाएँ दें। RBAC लागू करने के लिए Microsoft की [आधिकारिक मार्गदर्शिका](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) अपनाएँ।
+
+उदाहरण: किसी उपयोगकर्ता को भूमिका दें
 ```azurecli
 # किसी उपयोगकर्ता को Reader भूमिका दें
 az role assignment create --assignee johndoe@example.com --role "Reader" --scope "/subscriptions/your_subscription_id/resourceGroups/your_resource_group"
 ```
+#### संदिग्ध गतिविधियों पर नज़र रखना
+
+Azure AD में **Identity Protection** और **Conditional Access** जैसी सुविधाएँ हैं, जो संदिग्ध गतिविधियों पर नज़र रखने और प्रतिक्रिया देने में मदद करती हैं। Identity Protection मशीन लर्निंग एल्गोरिदम से असामान्य गतिविधियों और जोखिम वाले साइन-इन प्रयासों का पता लगाता है। Conditional Access से आप डिवाइस, स्थान और जोखिम जैसे कारकों के आधार पर पहुँच नियंत्रित करने वाली नीतियाँ तय कर सकते हैं।
+
+Azure AD Identity Protection सेट करने के लिए Microsoft की [आधिकारिक मार्गदर्शिका](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-b2b) अपनाएँ।
+
+उदाहरण: Conditional Access नीति बनाएँ
+
 ```powershell
 # Azure AD से कनेक्ट करें
 Connect-AzureAD
 
-# सशर्त पहुँच (Conditional Access) नीति बनाएँ
+# Conditional Access नीति बनाएँ
 $PolicyName = "BlockSignInFromUnknownLocations"
-$PolicyDescription = "अज्ञात स्थानों से उपयोगकर्ताओं के साइन-इन को ब्लॉक करें।"
+$PolicyDescription = "अज्ञात स्थानों से उपयोगकर्ताओं के साइन-इन रोकें।"
 $PolicyState = "Enabled"
 $Conditions = @{
-"SignInRiskLevels" = @("medium","high");
-"Locations" = @{
-"Included" = @();
-"Excluded" = @("AllTrusted")
-}
+    "SignInRiskLevels" = @("medium","high");
+    "Locations" = @{
+        "Included" = @();
+        "Excluded" = @("AllTrusted")
+    }
 }
 $GrantControls = @{
-"Operator" = "OR";
-"BuiltInControls" = @("Block")
+    "Operator" = "OR";
+    "BuiltInControls" = @("Block")
 }
 New-AzureADMSConditionalAccessPolicy -DisplayName $PolicyName -State $PolicyState -Conditions $Conditions -GrantControls $GrantControls -Description $PolicyDescription
 
 ```
+आधिकारिक दस्तावेज़ में [Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview) और [Conditional Access](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/overview) के बारे में जानें।
+
+### डेटा सुरक्षा
+
+क्लाउड में अपने डेटा की रक्षा करना आवश्यक है। Azure Security Center डेटा सुरक्षा की कई सुविधाएँ देता है, जैसे **Azure Information Protection**, **Azure Storage Service Encryption** और **Azure Disk Encryption**। ये सुविधाएँ डेटा को एन्क्रिप्ट करने और उसकी पहुँच प्रबंधित करने में मदद करती हैं, ताकि संवेदनशील जानकारी सुरक्षित रहे।
+
+#### Azure Information Protection
+
+**Azure Information Protection (AIP)** क्लाउड-आधारित समाधान है, जो संवेदनशील दस्तावेज़ों और ईमेल का वर्गीकरण, लेबलिंग और सुरक्षा करने में मदद करता है। AIP में "गोपनीय" और "निजी" जैसे अंतर्निहित लेबल हैं, जिन्हें आपके संगठन की ज़रूरतों के अनुसार बदला जा सकता है। तय नियमों के आधार पर लेबल अपने-आप लागू करने के लिए भी AIP कॉन्फ़िगर किया जा सकता है। AIP शुरू करने के लिए [आधिकारिक मार्गदर्शिका](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection) अपनाएँ।
+
+उदाहरण: कस्टम लेबल बनाएँ
+
 ```powershell
 # AIP सेवा से कनेक्ट करें
 Connect-AipService
 
 # सुरक्षा सेटिंग्स वाला कस्टम लेबल बनाएँ
-$LabelName = "Sensitive - Internal Use Only"
+$LabelName = "संवेदनशील - केवल आंतरिक उपयोग"
 $LabelDescription = "यह लेबल केवल आंतरिक उपयोग के लिए एन्क्रिप्शन और पहुँच नीति लागू करता है।"
 $LabelProtectionSettings = @{
-"ContentExpirationDate" = (Get-Date).AddMonths(6).ToUniversalTime();
-"OfflineAccessInterval" = "P7D";
-"UserRights" = @("domain\GroupA=View", "domain\GroupB=View,Edit,Print")
+    "ContentExpirationDate" = (Get-Date).AddMonths(6).ToUniversalTime();
+    "OfflineAccessInterval" = "P7D";
+    "UserRights" = @("domain\GroupA=View", "domain\GroupB=View,Edit,Print")
 }
 New-AipServiceLabel -Name $LabelName -Description $LabelDescription -ProtectionSettings $LabelProtectionSettings
 ```
+#### Azure Storage Service Encryption
+
+**Azure Storage Service Encryption (SSE)** Azure Storage खातों में संग्रहीत डेटा को अपने-आप एन्क्रिप्ट करता है। इसमें Blob, File, Table और कतार संग्रहण शामिल हैं। SSE, स्टोरेज खाते के स्तर पर एन्क्रिप्शन के लिए Azure-प्रबंधित या ग्राहक-प्रबंधित कुंजियों का उपयोग करता है। SSE चालू करने के लिए Microsoft की [चरण-दर-चरण मार्गदर्शिका](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption) अपनाएँ।
+
+Azure Information Protection ऐतिहासिक उत्पाद नाम है। Microsoft के वर्तमान Sentinel सुविधा दस्तावेज़ Azure Information Protection को अप्रचलित बताते हैं। नई लेबलिंग तैनाती शुरू करने से पहले वर्तमान Microsoft Purview Information Protection दस्तावेज़ देखें।
+
+उदाहरण: स्टोरेज खाते के लिए SSE चालू करें
+
 ```azurecli
-# Azure द्वारा प्रबंधित कुंजियों से SSE सक्षम करें
+# Azure-प्रबंधित कुंजियों से SSE चालू करें
 az storage account update --name mystorageaccount --resource-group myresourcegroup --encryption-services blob file
 ```
+#### Azure Disk Encryption
+
+**Azure Disk Encryption** वर्चुअल मशीन डिस्क को BitLocker (Windows) या dm-crypt (Linux) से एन्क्रिप्ट करके सुरक्षित रखने में मदद करता है। एन्क्रिप्शन कुंजियाँ और सीक्रेट Azure Key Vault में सुरक्षित रखे जाते हैं, जिससे डेटा संग्रहीत अवस्था में सुरक्षित रहता है। Azure Disk Encryption चालू करने के लिए Microsoft की [आधिकारिक मार्गदर्शिका](https://learn.microsoft.com/en-us/azure/virtual-machines/disk-encryption-overview) अपनाएँ।
+
+उदाहरण: वर्चुअल मशीन के लिए Azure Disk Encryption चालू करें
 ```azurecli
-# Windows VM के लिए Azure Disk Encryption सक्षम करें
+# Windows VM के लिए Azure Disk Encryption चालू करें
 az vm encryption enable --resource-group myResourceGroup --name myVM --disk-encryption-keyvault myKeyVault
 ```
+आधिकारिक दस्तावेज़ में [Azure Information Protection](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection), [Azure Storage Service Encryption](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption) और [Azure Disk Encryption](https://learn.microsoft.com/en-us/azure/virtual-machines/disk-encryption-overview) के बारे में जानें।
+______
+
+## खतरों का पता लगाना और उन पर प्रतिक्रिया देना
+
+Azure Security Center संभावित खतरों की पहचान करने और आपको उनके बारे में सचेत करने के लिए उन्नत खतरा-पहचान सुविधाएँ उपयोग करता है। **Azure Sentinel** के साथ एकीकरण करके आप पूरे परिवेश में सुरक्षा घटनाओं की निगरानी, जाँच और उन पर प्रतिक्रिया कर सकते हैं।
+
+### खतरे का पता लगाना
+
+Azure Security Center संभावित सुरक्षा खतरों की पहचान करने के लिए उन्नत सुविधाओं के समूह **Azure Defender** का उपयोग करता है। Azure Defender संसाधनों में सेंध के संकेतों पर नज़र रखता है और संभावित खतरों पर प्रतिक्रिया देने के लिए अलर्ट तथा सुझाव देता है। Azure Defender चालू करने के लिए [आधिकारिक मार्गदर्शिका](https://docs.microsoft.com/en-us/azure/security-center/defender-for-cloud-enable) अपनाएँ।
+
+उदाहरण: किसी सदस्यता के लिए Azure Defender चालू करें
+
 ```azurecli
-# किसी सदस्यता के लिए Azure Defender सक्षम करें
+# किसी सदस्यता के लिए Azure Defender चालू करें
 az security auto-provisioning-setting update --name default --auto-provision on
 ```
+### खतरे पर प्रतिक्रिया
+
+खतरे का पता चलने पर आपको तेज़ी से और प्रभावी ढंग से प्रतिक्रिया देनी चाहिए। Azure Security Center में **सुरक्षा घटना** प्रबंधन है, जो सुरक्षा घटनाओं की जाँच और उन पर प्रतिक्रिया में मदद करता है। सुरक्षा घटनाओं पर प्रतिक्रिया व्यवस्थित करने के लिए स्वचालित प्रतिक्रिया-पुस्तिकाएँ बनाने हेतु **Azure Sentinel** के साथ एकीकरण भी किया जा सकता है। Azure Security Center को Azure Sentinel के साथ जोड़ने के बारे में **आधिकारिक दस्तावेज़** में जानें।
+
+उदाहरण: Azure Sentinel के लिए Logic App प्रतिक्रिया-पुस्तिका बनाएँ
 ```azurecli
 # संसाधन समूह बनाएँ
 az group create --name MyResourceGroup --location EastUS
@@ -101,144 +221,69 @@ az group create --name MyResourceGroup --location EastUS
 # Logic App बनाएँ
 az logic workflow create --resource-group MyResourceGroup --location EastUS --name MyPlaybook --definition @playbook-definition.json
 ```
+`playbook-definition.json` फ़ाइल में Logic App प्रतिक्रिया-पुस्तिका की परिभाषा होनी चाहिए। Azure Sentinel के लिए प्रतिक्रिया-पुस्तिका के उदाहरण [Azure-Sentinel GitHub रिपॉज़िटरी](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks) में मिलेंगे।
 
-**एज़्योर मानक के साथ आपकी सुरक्षा को कैसे सुरक्षित करें** आपके संगठन के डेटा, कार्यप्रणाली और कार्य योजनाओं को बचाने के लिए आपके क्लाउड वातावरण को सुरक्षित रखने की आवश्यकता है। Microsoft का **Azure सुरक्षा केंद्र** एक शक्तिशाली उपकरण है जो आपकी सुरक्षा मुद्रा को मजबूत करता है और आपके Azure वातावरण में शीघ्रता से पहचान करने में आपकी सहायता करता है। इस लेख में हम चर्चा करेंगे कि एज्योर पर्यावरण पर्यावरण कर्ता का उपयोग करके अपने क्लाउड वातावरण को कैसे सुरक्षित रखें, और विभिन्न सुरक्षा व्यवस्था को लागू करने के लिए संबंधित संरक्षित करें। इसके अतिरिक्त, इस लेख में, हम अधिक तकनीकी झलक और स्पष्टीकरण प्राप्त करेंगे ताकि आपको यह समझने में मदद मिल सके कि एज्योर सीमा सेंसर का उपयोग करके अपने क्लाउड वातावरण को कैसे सुरक्षित किया जा सके।
+Azure Security Center की खतरा-पहचान सुविधाओं का उपयोग करके और Azure Sentinel के साथ एकीकरण करके आप Azure परिवेश में खतरों का पता लगाने और उन पर प्रतिक्रिया देने की मजबूत सुरक्षा रणनीति बना सकते हैं। आधिकारिक दस्तावेज़ में [Azure Defender](https://learn.microsoft.com/en-us/azure/defender-for-cloud/enable-enhanced-security) और [Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/overview) के बारे में जानें।
+
+वर्तमान एकीकरण प्रक्रिया, [Defender for Cloud connector](https://learn.microsoft.com/en-us/azure/sentinel/connect-defender-for-cloud) के ज़रिए Defender for Cloud के अलर्ट Microsoft Sentinel तक भेजती है। स्वचालन पर निर्भर होने से पहले Defender पोर्टल या Azure पोर्टल में क्लाउड कनेक्टर, डेटा संग्रह नियम, विश्लेषणात्मक नियम और घटना कार्यप्रवाह की पुष्टि करें।
 ______
 
-*मूल प्रकाशन के बाद उत्पादों के नाम बदले हैं। Microsoft Azure Security Center अब Microsoft Defender for Cloud कहलाता है। Azure Active Directory अब Microsoft Entra ID कहलाता है। Azure Sentinel अब Microsoft Sentinel कहलाता है। Azure Defender, Defender for Cloud की योजनाओं और workload सुरक्षा को दर्शाता है। 2023 के संदर्भ में पुराने नाम नीचे रखे गए हैं।*
+## निगरानी और रिपोर्टिंग
 
-वर्तमान [Defender for Cloud परिचय](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction) इसे cloud-native application protection platform बताता है, जिसमें cloud security posture management, DevSecOps और cloud workload protection शामिल हैं। उपलब्धता और लाइसेंस cloud, resource प्रकार, subscription और plan पर निर्भर करते हैं।
+सुरक्षित क्लाउड परिवेश बनाए रखने के लिए निगरानी और रिपोर्टिंग आवश्यक हैं। Azure Security Center निगरानी और रिपोर्टिंग के लिए कई टूल देता है, जैसे **सुरक्षा डैशबोर्ड**, **सुरक्षा अलर्ट** और **अनुपालन रिपोर्ट**।
 
-## एज्योर सीमाओं को एज्योर
+### सुरक्षा डैशबोर्ड
 
-परिधि एक **एक रूपरेखा रूपरेखा सुरक्षा प्रबंधन प्रणाली** है जो आपके क्लाउड वातावरण में कमजोर लोगों की पहचान करती है और उन्हें दूर करने में आपकी करती है। यह आपके पुराने वातावरण को हमेशा सुरक्षित रखने के लिए समान पहचान, सुरक्षा प्रबंधन और संघ प्रबंधन जैसे कई सामान प्रदान करता है। **निरंतर सुरक्षा मूल्यांकन** और **उन्नत ख़तरा सुरक्षा** एज़्योर सुरक्षा केंद्र की दो प्रमुख विशेषताएं हैं। निरंतर सुरक्षा मूल्यांकन आपको अपने मामले में सीमित सुरक्षा मुद्दों की पहचान करने में मदद करता है, जबकि विशिष्ट विशिष्ट संरक्षण आपको सीमा का पता लगाने और प्रतिक्रिया देने में मदद करता है।
-______
-
-## सुरक्षा और समानता को लागू करना
-
-एज़्योर कन्वेंशन सेंडर आपको अपने क्लाउड वातावरण में सुरक्षा को प्रभावित करता है और अनुमति देता है। आप कस्टम सुरक्षा एक साथ बनाने के लिए **Azure पॉलिसी** सेवा का उपयोग कर सकते हैं या संबद्ध और संबद्ध संस्था को लागू करने के लिए कई शेयर का उपयोग कर सकते हैं। आप [NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final), [CIS](https://www.cisecurity.org/) और [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html) जैसे उद्योग मानकों के आधार पर अपनी सुरक्षा स्थिति का आकलन भी कर सकते हैं। एज़्योर सुरक्षा केंद्र सहयोग सुविधाएँ भी प्रदान करती हैं, जिससे आप [जीडीपीआर](https://gdpr.eu/), [HIPAA](https://www.hhs.gov/hipaa/index.html), और [ PCI DSS](https://www.pcisecuritystandards.org/)।
-______
-
-## अपने अज़ोर को शाक्षित को सुरक्षित रखना
-
-**संसाधन सुरक्षा स्वच्छता** आपके कपड़ों के माहौल को सुरक्षित रखने का एक पहलू है। एज़्योर असुरक्षित सेंडर आपकी सहूलियत की संपूर्ण सुरक्षा को समझने में आपकी मदद करने के लिए **सुरक्षित स्कोर**, आपकी सुरक्षा का एक टोकन प्रदान करता है। आप एज़्योर एक्सट्रीमियम प्रदान की गई जानकारी को अपने सुरक्षित स्कोर में सुधार कर सकते हैं।
-
-### नेटवर्क सुरक्षा
-
-**नेटवर्क सुरक्षा समूह (NSGs)**, **Azure फ़ायरवॉल**, और **वेब फ़ायरवॉल (WAF)** उचित नेटवर्क सुरक्षा उपायों को आपके Azure कार्यक्षेत्र को कार्य से बचाने के लिए महत्वपूर्ण रूप से लागू करें। ये उपकरण आने वाले और बाहर जाने वाले नेटवर्क को नियंत्रित करने में आपकी मदद करते हैं, आपके संसाधनों को दबे हुए प्रभाव और झटकों से बचाते हैं।
-
-#### नेटवर्क सुरक्षा
-
-समूह (एनएसजी)
-
-एनएसजी आपके पुराने बांड के लिए क्रेडिट के रूप में कार्य करते हैं, जिससे आप उन सभी को परिभाषित कर सकते हैं जो आपके अधिकार से सत्यापन को अस्वीकार या अस्वीकार करते हैं। उदाहरण के लिए, आप विशिष्ट वर्ण को अस्वीकार करने या अस्वीकार करने के साथ एनएसजी बना सकते हैं: आधिकारिक दस्तावेज़ में [नेटवर्क सुरक्षा समूह](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview) उत्पादन में सभी IPv4 स्रोतों की अनुमति देने के बजाय ज्ञात source range चुनें। [NSG सुरक्षा अवलोकन](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview) देखें। के बारे में और जानें।
-
-#### Azure फ़ायरवॉल
-
-Azure फ़ायरवॉल आपकी, क्लाउड-आधारित नेटवर्क सुरक्षा सेवा है जो आपके Azure संसाधन की सुरक्षा करती है। यह थ्रेट इंटिग्रेशन-आधारित कनेक्टिंग, वेब प्लेक्स और केंद्रीकृत हो रहा है और एनालिटिक्स जैसी उन्नत सुविधाएँ प्रदान करता है। Azure फ़ायरवॉल सेट करने के लिए, आप इन [क्विक स्टार्ट निर्देश](https://learn.microsoft.com/en-us/azure/firewall-manager/quick-firewall-policy-bicep) का पालन कर सकते हैं।
-
-#### वेब एप फ़ायरवॉल (WAF)
-
-ईमेल फ़ायरवॉल (WAF) **Azure Application Gateway** की एक विशेषता है जो आपकी वेब वेबसाइट को SQL इज़ प्रोटेक्शन, क्रॉस-साइट स्क्रिप्टिंग और अन्य सामान्य वेब एक्सप्लोरेशन से सुरक्षा प्रदान करता है। है। है। है। WAF को आपकी मौजूदा वेब वेबसाइट के साथ आसानी से एकीकृत किया जा सकता है, और आप विशिष्ट आच्छादन से सुरक्षा के लिए कस्टम सुझाव बना सकते हैं। WAF क्षमता के साथ एक संक्षिप्त उदाहरण यहां दिया गया है: आधिकारिक दस्तावेज़ों में [वेब फ़ायरवॉल](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview) के बारे में में और जानें।
-
-### पहचान और प्रबंधन तक पहुंचें
-
-**Azure Active Directory (Azure AD)** आपके क्लाउड वातावरण को सुरक्षित रखना एक अनिवार्य घटक है। एज सीमा की पहचान और एक्सिस प्रबंधन में सुधार के लिए समाशोधन प्रदान करता है, जैसे **मल्टी-फैक्टर ऑथेंटिकेशन (झोपड़ाए)** को सक्षम करना, **रोल-बेस्ड एक्सिस कंट्रोल (आरबीएसी)** को लागू करना, और संदेह निगरानी करना।
-
-#### बहु-कारक फाइलिंग (फ़िमीए)
-
-आपके Azure AD लाभ में सुरक्षा का एक अतिरिक्त प्रश्न है। आप नीचे दिए गए [चरण-दर-चरण चक्र](https://docs.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-azure-mfa) का पालन करके अपने संगठन के लिए MFA Microsoft द्वारा कर सकते हैं। उदाहरण: उपयोगकर्ता के लिए MFA सक्षम करना।
-
-#### भूमिका आधारित अभिगम नियंत्रण (RBAC) आरबीएसी आपको अपने एज़ोर स्पेक्ट्रम के लिए विस्तृत अनुमतियों को परिभाषित करने की अनुमति देता है, यह सुनिश्चित करता है कि उपयोगकर्ता के पास उचित स्तर की पहुंच गया। आप अपने संगठन के भीतर तक पहुंचकर आपके लिए लाइव, लाइव या ऐप में भाग लेने के लिए आमंत्रित कर सकते हैं। RBAC को लागू करने के लिए, Microsoft से [आधिकारिक गाइड](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) का पालन करें। उदाहरण: एक उपयोगकर्ता को एक भूमिका सौंपी जाती है
-
-#### संदेह की आशंका
-
-Azure AD पहचान सुरक्षा** और **सशर्त** जैसे सामान प्रदान करते हैं जो संदिग्ध गतिविधियों पर नजर रखते हैं और उनकी प्रतिक्रिया प्रदान करती हैं आपकी सहायता करती हैं हैं। पहचान रणनीति विशिष्‍ट और जोखिम रेजर सिने-इन प्रयासों का पता लगाने के लिए शेयरिंग लेन-डेन का उपयोग करता है, जबकि त्रुटि ऐक्सेस आप से जुड़े हुए सेट करने की अनुमति देता है जो नियम, स्थान और यौवन जैसे ऐक्सेस अधिकारों पर करता है। नियंत्रण करता है। Azure AD पहचान सुरक्षा सेट अप करने के लिए, Microsoft के [आधिकारिक गाइड](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-b2b) का पालन करें। उदाहरण: गलत नीति बनाना [Azure AD पहचान सुरक्षा](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview) और [सशर्त पहुंच](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/overview) ) .microsoft.com/en-us/azure/active-directory/conditional-access/overview) आधिकारिक दस्तावेज़ में।
-
-### डाटाबेस सुरक्षा
-
-क्लाउड में आपके डेटा की सुरक्षा करना महत्वपूर्ण है। Azure Security Center कई डेटा सुरक्षा सुविधाएँ प्रदान करता है, जैसे **Azure Information Protection**, **Azure Storage Service Encryption**, और **Azure Disk Encryption**। ये आपके डेटा को रिचार्ज करते हैं और आपकी सहायता करते हैं, यह सुनिश्चित करता है कि संवेदनशील जानकारी सुरक्षित रहती है।
-
-#### एज़्योर सूचना सुरक्षा
-
-**एज़्योर सूचना सुरक्षा (एआईपी)** एक क्लाउड-आधारित समाधान है जो आपके संवेदनशील दस्तावेज़ों और ईमेल को ऐक्स करने, लेबल करने और उनकी सुरक्षा करने में मदद करता है। आईपी लेबल का एक सेट प्रदान करता है, जैसे "गोपनीय" और "व्यक्तिगत," जिसे आपके संगठन की आवश्यकताओं के अनुसार अनुकूलित किया जा सकता है। आप पूर्व सत्यापन के आधार पर स्वचालित रूप से लेबल से लागू करने के लिए AIP को भी बता सकते हैं। AIP के साथ शुरुआत करने के लिए, [आधिकारिक गाइड](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection) Azure Information Protection पुराना उत्पाद नाम है और Sentinel के वर्तमान दस्तावेज़ इसे अप्रचलित बताते हैं। नए परिनियोजन से पहले Microsoft Purview Information Protection के दस्तावेज़ देखें। का पालन करें। उदाहरण: एक कस्टम लेबल बनाना
-
-#### Azure Storage Service Encryption
-
-**Azure Storage Service Encryption (SSE**) स्वतः रूप से ब्लॉब, फ़ाइल, टेबल और क्यू स्टोरेज सहित Azure स्टोरेज खाते में आपका डेटा दर्ज करता है। स्टोरेज साइट्स पर शेयर प्रदान करने के लिए SSE Azure-प्रबंधित लाभ या ग्राहक-प्रबंधित ग्रीटिंग का उपयोग करता है। SSE को सक्षम करने के लिए, Microsoft द्वारा प्रदान किया गया [चरण-दर-चरण विकल्प](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption) का चयन करें । उदाहरण: SSE को इसके लिए स्टोरेज अकाउंट
-
-#### Azure डिस्क पर छोड़ें
-
-**Azure Disk Encryption** आप BitLocker (Windows) या dm-शेयरिंग (Linux) को शेयर करके सुरक्षित करने में मदद करते हैं। गोपनीयता की सुरक्षा सुरक्षित है, यह सुनिश्चित करते हुए कि आपका डेटा सुरक्षित है। एज़्योर डिस्क को रणनीतिक रूप से सक्षम करने के लिए, Microsoft से [आधिकारिक गाइड](https://learn.microsoft.com/en-us/azure/virtual-machines/disk-encryption-overview) का पालन करें। उदाहरण: किसी के लिए एज़्योर डिस्क रिस्क लूज़ राइटर [एज़्योर इंफॉर्मेशन प्रोटेक्शन](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection) के बारे में और जानें , [Azure Storage Service Encryption](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption), और [Azure Disk Encryption](https://learn.microsoft.com/en-us/azure/virtual-machines/disk-encryption-overview) ) /en-us/azure/virtual-machines/disk-encryption-overview) आधिकारिक दस्तावेज़ में।
-______
-
-## खतरों का पता लगाना और प्रतिक्रिया देना
-
-Azure Security Center दायरों की पहचान करना और आपको पहचान करने के लिए पहचान की पहचान की क्षमता का उपयोग करता है। **Azure Sentinel** के साथ एकीकरण करके, आप अपने पूरे माहौल में सुरक्षा घटनाओं की निगरानी, जांच और प्रतिक्रिया कर सकते हैं।
-
-### थ्रेट डिटेक्शन
-
-एज़्योर ज़ोन ज़ोन जोखिम जोखिम की पहचान करने के लिए अनुकूलन विकल्पों का पता लगाने की क्षमता का एक सेट ** एज़्योर व्यूअर ** का उपयोग करता है। एज्योर डैमेज एकेडम की संभावना के लिए आपकी राशि की जिम्मेदारी होती है और आपकी सहायता करने के लिए प्रतिक्रिया देने में सहमति और कार्रवाई प्रदान करता है। एज़्योर फ़ॉर्स को सक्षम करने के लिए, [आधिकारिक गाइड](https://docs.microsoft.com/en-us/azure/security-center/defender-for-cloud-enable) का पालन करें। उदाहरण: सदस्यता के लिए एज्योर प्रत्युत्तर
-
-### धमकी प्रतिक्रिया
-
-जब किसी खतरे का पता चलता है, तो यह शीघ्र और प्रभावी तरीके से प्रतिक्रिया करने के लिए आवश्यक है। एज्योर सुरक्षा केंद्र **सुरक्षात्मक घटना** प्रबंधन प्रदान करता है, जो आपको सुरक्षा घटनाओं की जांच करने और प्रतिक्रिया देने में मदद करता है। आप **Azure Sentinel** के साथ स्वचालित PlayBook बनाने और सुरक्षा घटनाओं के प्रति अपनी प्रतिक्रिया के लिए सरल करने के लिए भी एकीकृत कर सकते हैं। **आधिकारिक दस्तावेज़** में Azure Sentinel के साथ Azure Security Center को एकीकृत करने और सीखने के बारे में। उदाहरण: Azure Sentinel के लिए एक लॉजिक ऐप Playbook create `playbook-definition.json` फ़ाइल में लॉजिक ऐप प्लेबुक की परिभाषा आने वाली है। आप [Azure-Sentinel GitHub रिपॉजिटरी](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks) में Azure Sentinel के लिए Playbook का उदाहरण पा सकते हैं। एज़्योर पर्यावरण में डैमेज का पता लगाने की क्षमता का लाभ उठाने और एज़्योर सेंटिनल के साथ एकीकरण करके, आप अपने एज़्योर माहौल में पहुंच का पता लगा सकते हैं और उनकी प्रतिक्रिया देने के लिए एक मजबूत सुरक्षा रणनीति बना सकते हैं। [नीला स्पेक्ट्रम](https://learn.microsoft.com/en-us/azure/defender-for-cloud/enable-enhanced-security) और [Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/overview) आधिकारिक दस्तावेज़ में।
-______
-
-**Microsoft Sentinel को अलर्ट भेजें।** अलर्ट प्राप्ति, विश्लेषण नियम, जिम्मेदारी, प्रतिक्रिया स्वचालन और डेटा प्रतिधारण की पुष्टि करें। वर्तमान [Defender for Cloud connector](https://learn.microsoft.com/en-us/azure/sentinel/connect-defender-for-cloud) alerts को Microsoft Sentinel तक भेजता है। स्वचालन पर निर्भर होने से पहले connector, data collection और analytic rules तथा incident workflow जाँचें।
-
-## निगरानी और निगरानी
-
-निगरानी और अभिग्रहण एक सुरक्षित वातावरण बनाए रखने के आवश्यक घटक हैं। एज़्योर सिक्योरिटी सेंटर निगरानी और अधिग्रहण के लिए **सुरक्षा गोदाम**, **सुरक्षा अलर्ट**, और **अनुपालन रिपोर्ट** जैसे कई टूल प्रदान करता है।
-
-### सुरक्षा गोदाम
-
-Azure सुरक्षा केंद्र में सुरक्षा गोदाम आपकी सुरक्षा की व्यापक समीक्षा प्रदान करता है। यह आपका सुरक्षित स्कोर, सुरक्षा क्रैक और सक्रिय सुरक्षा अलर्ट प्रदर्शित करता है। गोदाम आपकी परिसीमा स्थिति के बारे में भी जानकारी प्रदान करता है और आपको समय के साथ अपनी प्रगति को ट्रैक करने की अनुमति देता है।
+Azure Security Center का सुरक्षा डैशबोर्ड आपकी सुरक्षा स्थिति का समग्र दृश्य देता है। इसमें आपका Secure Score, सुरक्षा सुझाव और सक्रिय सुरक्षा अलर्ट दिखते हैं। डैशबोर्ड अनुपालन स्थिति की जानकारी भी देता है और समय के साथ प्रगति पर नज़र रखने देता है।
 
 ### सुरक्षा अलर्ट
 
-एज़्योर सुरक्षा केंद्र इसके अंतर्गत आने वाले सुरक्षा अलर्ट के अंतर्गत आता है। ये अलर्ट के बारे में विस्तृत जानकारी प्रदान करते हैं, साथ ही जोखिम को कम करने के लिए सुझाव भी देते हैं। आप Azure सुरक्षा केंद्र को ईमेल, एसएमएस के माध्यम से अजीब या [Slack](https://slack.com/) या [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) जैसे तृतीय-पक्ष टूल के साथ एकीकृत करने के लिए विन्यास कर सकते हैं /en-us/microsoft-teams/group-chat-software).
+संभावित खतरों का पता चलने पर Azure Security Center सुरक्षा अलर्ट बनाता है। इन अलर्ट में खतरे का विस्तृत विवरण और जोखिम कम करने के सुझाव होते हैं। Azure Security Center को ईमेल या SMS से सूचनाएँ भेजने के लिए कॉन्फ़िगर करें, या [Slack](https://slack.com/) और [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) जैसे तृतीय-पक्ष टूल से जोड़ें।
 
-### संगत रिपोर्ट
+### अनुपालन रिपोर्ट
 
-एज़्योर सुरक्षा केंद्र आपको प्राप्त करने की अनुमति देता है, एचआईपीएए और पीसीआई डीएसएस जैसे विभिन्न कार्य स्तरों के लिए अनुपालन रिपोर्ट तैयार करने की अनुमति देता है। ये रिपोर्ट आपके संगठन की स्थिति को ट्रैक करने और सुधार की आवश्यकताएं वाले क्षेत्रों की पहचान करने में आपकी सहायता करती हैं।
+Azure Security Center से GDPR, HIPAA और PCI DSS जैसे अलग-अलग नियामक ढाँचों के लिए अनुपालन रिपोर्ट बनाई जा सकती हैं। ये रिपोर्ट संगठन की अनुपालन स्थिति पर नज़र रखने और सुधार की ज़रूरत वाले क्षेत्रों की पहचान करने में मदद करती हैं।
+
 ______
 
-## एज़्योर सीमा के लिए सर्वोत्तम अभ्यास
+## Azure Security Center के अच्छे तरीके
 
-एज़्योर सीमा का अधिकतम लाभ उठाने के लिए, निम्नलिखित संभव को लागू करने पर विचार करें:
-1. एज़्योर सुरक्षा केंद्र सुरक्षित क्लाउड वातावरण बनाए रखने के लिए महत्वपूर्ण है।
-2. **नियमित रूप से अपना सुरक्षित स्कोर की समीक्षा करें**: आपके सुरक्षित स्कोर की निगरानी करने से आपको अपनी समग्र सुरक्षा मुद्रा को समझने और सुधार की आवश्यकताओं वाले क्षेत्रों की पहचान करने में मदद मिलती है।
-3. **सुरक्षा नीतियों को लागू करें**: एज़्योर सुरक्षा केंद्र द्वारा प्रदान की गई सुरक्षा नीतियों को संदेश देने से आपको अपनी सुरक्षा स्थिति में सुधार करने और झलकियों को कम करने में मदद मिलती है।
-4. **सुरक्षात्मक चेतावनियों की निगरानी करें**: ज़ोन श्रम को कम करने और सुरक्षित वातावरण बनाए रखने के लिए नियमित रूप से सुरक्षा चेतावनियों की समीक्षा करें और उनका जवाब दें।
-5. **अनुपालन आवश्यकताओं के साथ अप-टू-डेट बने रहें**: अपनी सहयोगी कंपनियों की नियमित रूप से समीक्षा करके और उन्हें अपडेट करके सुनिश्चित करें कि आपका संगठन अधीनस्थ पहलुओं के अनुरूप रहता है।
-______
+Azure Security Center का पूरा लाभ पाने के लिए इन अच्छे तरीकों पर विचार करें:
+
+1. **सभी सदस्यताओं पर Azure Security Center चालू करें:** सुरक्षित क्लाउड परिवेश बनाए रखने के लिए सभी Azure सदस्यताओं को Azure Security Center से सुरक्षित करना आवश्यक है।
+2. **अपने Secure Score की नियमित समीक्षा करें:** स्कोर पर नज़र रखने से आपकी समग्र सुरक्षा स्थिति समझने और सुधार की ज़रूरत वाले क्षेत्रों की पहचान करने में मदद मिलती है।
+3. **सुरक्षा सुझाव लागू करें:** Azure Security Center के सुरक्षा सुझावों पर कार्रवाई करने से सुरक्षा स्थिति बेहतर होती है और संभावित जोखिम घटते हैं।
+4. **सुरक्षा अलर्ट पर नज़र रखें:** संभावित खतरों को कम करने और सुरक्षित परिवेश बनाए रखने के लिए सुरक्षा अलर्ट की नियमित समीक्षा करें और उन पर प्रतिक्रिया दें।
+5. **अनुपालन आवश्यकताओं की जानकारी अद्यतन रखें:** नवीनतम नियामक ढाँचों के अनुरूप रहने के लिए अनुपालन नीतियों की नियमित समीक्षा और अद्यतन करें।
 
 ## Defender for Cloud का वर्तमान कार्यप्रवाह
 
-वर्तमान परिनियोजन के लिए यह क्रम अपनाएँ। पुराने अनुभागों के नाम ऐतिहासिक खोज में उपयोगी हैं, लेकिन पोर्टल और दस्तावेज़ Defender for Cloud की शब्दावली का उपयोग करते हैं।
+वर्तमान तैनाती के लिए यह क्रम अपनाएँ। मूल अनुभागों के नाम पुराने लेखों में खोज के लिए उपयोगी हैं, लेकिन पोर्टल और दस्तावेज़ Defender for Cloud की शब्दावली अपनाते हैं।
 
 1. **सदस्यताओं और कनेक्टरों की सूची बनाएँ।** Azure सदस्यताएँ, AWS या GCP कनेक्टर, DevOps परियोजनाएँ और महत्वपूर्ण संसाधन दर्ज करें।
-2. **ज़रूरी Defender योजनाएँ सक्षम करें।** workload के अनुसार योजनाएँ चुनें और उत्पादन सदस्यताओं में सक्षम करने से पहले लाइसेंस की पुष्टि करें।
-3. **Cloud Secure Score और सुझावों की समीक्षा करें।** इंटरनेट पर खुलापन, पहचान जोखिम, उपयोग योग्य कमजोरियाँ और अनुपस्थित लॉगिंग को प्राथमिकता दें। स्कोर पूर्ण अनुपालन का प्रमाण नहीं है।
+2. **ज़रूरी Defender योजनाएँ चालू करें।** वर्कलोड के अनुसार योजनाएँ चुनें और उत्पादन सदस्यताओं में उन्हें चालू करने से पहले लाइसेंस की पुष्टि करें।
+3. **Cloud Secure Score और सुझावों की समीक्षा करें।** इंटरनेट पर खुली पहुँच, पहचान जोखिम, शोषण योग्य कमजोरियों और अनुपस्थित लॉगिंग को प्राथमिकता दें। स्कोर को पूर्ण अनुपालन का प्रमाण न मानें।
 4. **Microsoft Entra नियंत्रण कॉन्फ़िगर करें।** महत्वपूर्ण खातों के लिए फ़िशिंग-रोधी MFA अनिवार्य करें, न्यूनतम विशेषाधिकार वाला RBAC अपनाएँ और विशेषाधिकार प्राप्त पहुँच की समीक्षा करें।
-5.
-6. **बदलावों के बाद फिर जाँचें।** पैच, आर्किटेक्चर बदलाव, नए कनेक्टर या योजनाओं में बदलाव के बाद सुझावों की समीक्षा करें।
+5. **Microsoft Sentinel को अलर्ट भेजें।** अलर्ट प्राप्ति, विश्लेषणात्मक नियम, ज़िम्मेदारी, प्रतिक्रिया स्वचालन और डेटा प्रतिधारण की पुष्टि करें।
+6. **बदलावों के बाद फिर जाँचें।** पैच लगाने, आर्किटेक्चर बदलने, नए कनेक्टर जोड़ने या योजनाएँ बदलने के बाद सुझावों की समीक्षा करें।
 
 ## व्यावहारिक समीक्षा सूची
 
 - **पहचान:** पुराने खाते हटाएँ, स्थायी प्रशासक पहुँच घटाएँ और Conditional Access अपवादों की समीक्षा करें।
-- **नेटवर्क:** सार्वजनिक प्रबंधन पोर्ट हटाएँ, NSG स्रोत सीमा संकीर्ण करें और पुष्टि करें कि फ़ायरवॉल तथा WAF लॉग निगरानी workspace तक पहुँचते हैं।
-- **डेटा:** संवेदनशील संग्रहों का वर्गीकरण करें, एन्क्रिप्शन और कुंजी स्वामित्व की पुष्टि करें तथा बैकअप पुनर्स्थापन जाँचें।
-- **पहचान:** अलर्ट की गंभीरता, सूचना मार्ग, घटना स्वामित्व और प्रतिक्रिया playbook की पुष्टि करें।
-- **शासन:** हर नीति पहल के लिए मालिक, अपवाद समाप्ति तिथि और आवश्यक framework के साक्ष्य तय करें।
+- **नेटवर्क:** सार्वजनिक प्रबंधन पोर्ट हटाएँ, NSG स्रोत सीमाएँ संकीर्ण करें और पुष्टि करें कि फ़ायरवॉल तथा WAF लॉग निगरानी workspace तक पहुँचते हैं।
+- **डेटा:** संवेदनशील डेटा संग्रहों का वर्गीकरण करें, एन्क्रिप्शन और कुंजी के स्वामित्व की पुष्टि करें तथा बैकअप पुनर्स्थापन जाँचें।
+- **पता लगाना:** अलर्ट की गंभीरता, सूचना का मार्ग, घटना का स्वामित्व और प्रतिक्रिया-पुस्तिका की पुष्टि करें।
+- **शासन:** हर नीति पहल के लिए मालिक, अपवाद की समाप्ति तिथि और आवश्यक ढाँचे के साक्ष्य तय करें।
+
+______
 
 ## संदर्भ
-- [Azure सुरक्षा केंद्र दस्तावेज़ीकरण](https://docs.microsoft.com/en-us/azure/security-center/)
-- [Azure नीति सेवा](https://docs.microsoft.com/en-us/azure/governance/policy/)
+
+- [Azure Security Center दस्तावेज़](https://docs.microsoft.com/en-us/azure/security-center/)
+- [Azure Policy सेवा](https://docs.microsoft.com/en-us/azure/governance/policy/)
 - [NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
 - [CIS](https://www.cisecurity.org/)
 - [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html)
-- [GDPR](https://gdpr.eu/), [HIPAA](https://www.hhs.gov/hipaa/index.html)
-- [HIPAA](https) ://www.hhs.gov/hipaa/index.html)
-- [पीस डीएसएस](https://www.pcisecuritystandards.org/)
+- [GDPR](https://gdpr.eu/)
+- [HIPAA](https://www.hhs.gov/hipaa/index.html)
+- [PCI DSS](https://www.pcisecuritystandards.org/)

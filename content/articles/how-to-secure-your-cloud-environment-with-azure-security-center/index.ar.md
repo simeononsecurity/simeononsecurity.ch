@@ -1,58 +1,137 @@
 ---
-title: "تأمين بيئتك السحابية باستخدام Microsoft Defender for Cloud"
+title: "احمِ بيئة السحابة باستخدام Microsoft Defender for Cloud"
 date: 2023-04-10
-lastmod: 2026-11-14
+lastmod: 2026-11-20
 toc: true
 draft: false
-description: "تعرّف على كيفية تأمين أحمال عمل Azure باستخدام Microsoft Defender for Cloud، مع مراجعة المصطلحات التاريخية لمركز أمان Azure والتوصيات والسياسات وخطوات الاستجابة."
+description: "احمِ أحمال عمل Azure باستخدام Microsoft Defender for Cloud. راجع أسماء Azure Security Center القديمة وتوصياته وسياساته وخطوات الاستجابة."
 tags: ["Azure", "Security Center", "أمن السحابة", "Azure Sentinel", "Azure Defender", "أمن الشبكات", "إدارة الهوية", "أمن البيانات", "كشف التهديدات", "الاستجابة للتهديدات", "MFA", "RBAC", "NSGs", "Azure Firewall", "WAF", "Azure AD", "Azure Information Protection", "Azure Storage Service Encryption", "Azure Disk Encryption"]
 cover: "/img/cover/A_shield_icon_surrounded_by_cloud_symbols.webp"
-coverAlt: "درع تحيط به رموز السحابة، يرمز إلى بيئة سحابية آمنة، ويحمل الدرع شعار Azure Security Center."
+coverAlt: "درع تحيط به رموز السحابة يمثل بيئة سحابية آمنة، ويحمل شعار Azure Security Center."
 coverCaption: ""
 ---
+
+**كيفية تأمين بيئة السحابة باستخدام Azure Security Center**
+
+يساعد تأمين بيئة السحابة على حماية بيانات المؤسسة وتطبيقاتها وبنيتها التحتية من التهديدات. يتيح لك **Azure Security Center** من Microsoft تحسين وضع الأمان وتحديد المخاطر المحتملة في Azure بسرعة. يشرح هذا المقال استخدام Azure Security Center لحماية بيئة السحابة، ويعرض ممارسات لتطبيق ميزات الأمان. كما يقدم تفاصيل تقنية وأمثلة تساعدك على تنفيذ الخطوات.
+
+*تغيّرت أسماء المنتجات منذ نشر هذا المقال أول مرة. أصبح Microsoft Azure Security Center يُسمى الآن Microsoft Defender for Cloud. وأصبح Azure Active Directory يُسمى Microsoft Entra ID. وأصبح Azure Sentinel يُسمى Microsoft Sentinel. يشير Azure Defender إلى خطط Defender وحماية أحمال العمل ضمن Defender for Cloud. تبقى الأسماء القديمة أدناه عند وصف مصطلحات عام 2023.*
+
+يصف [التعريف الحالي بـ Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction) المنصة بأنها نظام لحماية التطبيقات السحابية الأصلية، ويشمل إدارة وضع الأمان السحابي وDevSecOps وحماية أحمال العمل السحابية. يعتمد توفر الميزات والترخيص على السحابة ونوع المورد والاشتراك والخطة.
+
+______
+
+## فهم Azure Security Center
+
+Azure Security Center هو **نظام موحد لإدارة أمن البنية التحتية**. يساعدك على اكتشاف الثغرات المحتملة في بيئة السحابة ومعالجتها. تشمل ميزاته كشف التهديدات وإدارة وضع الأمان وإدارة الامتثال.
+
+**التقييم المستمر للأمان** و**الحماية المتقدمة من التهديدات** ميزتان أساسيتان في Azure Security Center. يساعد التقييم المستمر على العثور على مشكلات الأمان المحتملة، بينما تساعد الحماية المتقدمة على كشف التهديدات والاستجابة لها.
+
+______
+
+## تطبيق سياسات الأمان ومعايير الامتثال
+
+يتيح Azure Security Center تطبيق سياسات الأمان وإدارتها في بيئة السحابة. استخدم خدمة **Azure Policy** لإنشاء سياسات مخصصة، أو استخدم السياسات المضمنة لتطبيق الممارسات الجيدة ومعايير الامتثال. ويمكنك تقييم وضع الأمان وفق معايير القطاع مثل [NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) و[CIS](https://www.cisecurity.org/) و[ISO 27001](https://www.iso.org/isoiec-27001-information-security.html).
+
+يوفر Azure Security Center أيضاً ميزات لإدارة الامتثال، تتيح لك متابعة حالة مؤسستك وفق أطر تنظيمية مثل [GDPR](https://gdpr.eu/) و[HIPAA](https://www.hhs.gov/hipaa/index.html) و[PCI DSS](https://www.pcisecuritystandards.org/).
+
+______
+
+## تأمين موارد Azure
+
+تُعد **المحافظة على سلامة أمان الموارد** جزءاً مهماً من حماية بيئة السحابة. يوفر Azure Security Center **Secure Score** لقياس وضع أمان الموارد ومساعدتك على فهم مستوى حمايتها. عالج توصيات Azure Security Center لتحسين النتيجة.
+
+### أمن الشبكة
+
+تساعد تدابير مثل **Network Security Groups (NSGs)** و**Azure Firewall** و**Web Application Firewall (WAF)** على حماية Azure من التهديدات المحتملة. تتحكم هذه الأدوات في حركة مرور الشبكة الواردة والصادرة، وتقلل خطر الوصول غير المصرح به والهجمات.
+
+#### Network Security Groups (NSGs)
+
+تعمل NSG كجدار حماية افتراضي لموارد Azure. يمكنك تحديد قواعد تسمح بحركة مرور الشبكة إلى الموارد ومنها أو تمنعها. يوضح المثال التالي إنشاء NSG بقواعد لحركة المرور:
+
 ```azurecli
-# إنشاء مجموعة أمان الشبكة
+# أنشئ Network Security Group
 az network nsg create --name MyNSG --resource-group MyResourceGroup
 
-# إضافة قواعد للسماح بحركة المرور أو حظرها
+# أضف قواعد للسماح بحركة المرور أو حظرها
 az network nsg rule create --name MyNSGRule --nsg-name MyNSG --priority 100 --resource-group MyResourceGroup --access Allow --protocol Tcp --direction Inbound --source-address-prefixes '*' --source-port-ranges '*' --destination-address-prefixes '*' --destination-port-ranges '80'
 ```
+راجع الوثائق الرسمية حول [Network Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview).
+
+يسمح المثال بحركة مرور TCP الواردة على المنفذ 80 من أي مصدر IPv4. في بيئة الإنتاج، استخدم نطاق مصدر معروفاً أو نقطة نهاية خاصة أو مساراً عبر موزع أحمال. راجع [نظرة عامة على أمان NSG](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview) الحالية قبل استخدام المثال.
+
+#### Azure Firewall
+
+Azure Firewall خدمة مُدارة لأمن الشبكات السحابية، وتحمي موارد Azure. توفر تصفية قائمة على معلومات التهديدات، وفئات الويب، وتسجيل الأحداث والتحليلات المركزية. لإعدادها، اتبع [تعليمات البدء السريع](https://learn.microsoft.com/en-us/azure/firewall-manager/quick-firewall-policy-bicep).
+
+#### Web Application Firewall (WAF)
+
+يُعد Web Application Firewall (WAF) ميزة في **Azure Application Gateway**. يحمي تطبيقات الويب من الهجمات الشائعة، مثل حقن SQL والبرمجة النصية عبر المواقع وغيرها. ادمج WAF مع تطبيقات الويب الحالية واضبط قواعد مخصصة لأنماط الهجوم المحددة.
+
+مثال على إنشاء Application Gateway مع تفعيل WAF:
+
 ```azurecli
-# إنشاء نهج WAF
+# أنشئ سياسة WAF
 az network application-gateway waf-policy create --name MyWafPolicy --resource-group MyResourceGroup --location EastUS
 
-# إنشاء شبكة افتراضية وشبكة فرعية
+# أنشئ شبكة افتراضية وشبكة فرعية
 az network vnet create --name MyVNet --resource-group MyResourceGroup --location EastUS --address-prefix 10.0.0.0/16
 az network vnet subnet create --name MySubnet --resource-group MyResourceGroup --vnet-name MyVNet --address-prefix 10.0.0.0/24
 
-# إنشاء عنوان IP عام
+# أنشئ عنوان IP عاماً
 az network public-ip create --name MyPublicIP --resource-group MyResourceGroup --location EastUS --sku Standard
 
-# إنشاء بوابة Application Gateway مع تمكين WAF
+# أنشئ Application Gateway مع تفعيل WAF
 az network application-gateway create --name MyAppGateway --resource-group MyResourceGroup --location EastUS --vnet-name MyVNet --subnet MySubnet --public-ip-address MyPublicIP --http-settings-cookie-based-affinity Enabled --sku WAF_v2 --waf-policy MyWafPolicy
 
 ```
+راجع الوثائق الرسمية حول [Web Application Firewall](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview).
+
+### إدارة الهوية والوصول
+
+**Microsoft Entra ID، الذي كان يسمى Azure Active Directory (Azure AD)،** عنصر أساسي في تأمين بيئة السحابة. يقدم Defender for Cloud توصيات لتحسين إدارة الهوية والوصول، منها تفعيل **Multi-Factor Authentication (MFA)** وتطبيق **Role-Based Access Control (RBAC)** ومراقبة الأنشطة المشبوهة.
+
+#### Multi-Factor Authentication (MFA)
+
+تضيف MFA طبقة حماية لحسابات Azure AD، إذ تطلب من المستخدم تقديم طريقتين أو أكثر للتحقق قبل منحه الوصول. لتفعيل MFA في مؤسستك، اتبع [الدليل خطوة بخطوة](https://docs.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-azure-mfa) من Microsoft.
+
+مثال: تفعيل MFA لمستخدم
+
 ```powershell
-# الاتصال بـ Azure AD
+# اتصل بـ Azure AD
 Connect-AzureAD
 
-# تفعيل MFA لمستخدم محدد
+# فعّل MFA لمستخدم محدد
 $UserPrincipalName = "johndoe@example.com"
 $StsUserObjectID = (Get-AzureADUser -Filter "UserPrincipalName eq '$UserPrincipalName'").ObjectId
 $StrongAuthRequirements = @(@{"Location"=""; "SatisfactionFactor"="2"; "VerificationMethod"="1"};@{"Location"=""; "SatisfactionFactor"="2"; "VerificationMethod"="2"})
 Set-AzureADUser -ObjectId $StsUserObjectID -StrongAuthenticationRequirements $StrongAuthRequirements
 ```
+#### Role-Based Access Control (RBAC)
+
+يتيح RBAC تحديد أذونات دقيقة لموارد Azure، لضمان حصول كل مستخدم على مستوى الوصول المناسب. عيّن الأدوار للمستخدمين أو المجموعات أو التطبيقات لإدارة وصولهم إلى موارد المؤسسة. لتطبيق RBAC، اتبع [الدليل الرسمي](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) من Microsoft.
+
+مثال: تعيين دور لمستخدم
+
 ```azurecli
-# تعيين دور Reader لمستخدم
+# عيّن دور Reader لمستخدم
 az role assignment create --assignee johndoe@example.com --role "Reader" --scope "/subscriptions/your_subscription_id/resourceGroups/your_resource_group"
 ```
+#### مراقبة الأنشطة المشبوهة
+
+توفر Azure AD ميزتي **Identity Protection** و**Conditional Access** لمراقبة الأنشطة المشبوهة والاستجابة لها. تستخدم Identity Protection التعلم الآلي لاكتشاف السلوك غير المعتاد ومحاولات تسجيل الدخول المحفوفة بالمخاطر. وتتيح Conditional Access وضع سياسات وصول تستند إلى الجهاز والموقع ومستوى المخاطر.
+
+لإعداد Azure AD Identity Protection، اتبع [الدليل الرسمي](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-b2b) من Microsoft.
+
+مثال: إنشاء سياسة Conditional Access
+
 ```powershell
-# الاتصال بـ Azure AD
+# اتصل بـ Azure AD
 Connect-AzureAD
 
-# إنشاء نهج للوصول المشروط (Conditional Access)
+# أنشئ سياسة Conditional Access
 $PolicyName = "BlockSignInFromUnknownLocations"
-$PolicyDescription = "حظر تسجيل دخول المستخدمين من مواقع غير معروفة."
+$PolicyDescription = "امنع تسجيل دخول المستخدمين من مواقع غير معروفة."
 $PolicyState = "Enabled"
 $Conditions = @{
     "SignInRiskLevels" = @("medium","high");
@@ -68,13 +147,25 @@ $GrantControls = @{
 New-AzureADMSConditionalAccessPolicy -DisplayName $PolicyName -State $PolicyState -Conditions $Conditions -GrantControls $GrantControls -Description $PolicyDescription
 
 ```
+راجع الوثائق الرسمية حول [Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview) و[Conditional Access](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/overview).
+
+### أمن البيانات
+
+حماية البيانات في السحابة ضرورية. يقدم Azure Security Center ميزات مثل **Azure Information Protection** و**Azure Storage Service Encryption** و**Azure Disk Encryption**. تساعد هذه الميزات على تشفير البيانات وإدارة الوصول إليها.
+
+#### Azure Information Protection
+
+**Azure Information Protection (AIP)** خدمة سحابية لتصنيف المستندات والبريد الإلكتروني الحساس ووضع علامات عليهما وحمايتهما. تتضمن AIP علامات مدمجة مثل «سري» و«شخصي»، ويمكن تخصيصها لتناسب احتياجات المؤسسة. ويمكن أيضاً ضبط التطبيق التلقائي للعلامات وفق قواعد محددة مسبقاً. للبدء، اتبع [الدليل الرسمي](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection).
+
+مثال: إنشاء علامة مخصصة
+
 ```powershell
-# الاتصال بخدمة AIP
+# اتصل بخدمة AIP
 Connect-AipService
 
-# إنشاء تسمية مخصصة بإعدادات الحماية
-$LabelName = "Sensitive - Internal Use Only"
-$LabelDescription = "تطبق هذه التسمية التشفير وسياسة وصول للاستخدام الداخلي فقط."
+# أنشئ علامة مخصصة بإعدادات حماية
+$LabelName = "حساس - للاستخدام الداخلي فقط"
+$LabelDescription = "تطبق هذه العلامة التشفير وسياسة وصول للاستخدام الداخلي فقط."
 $LabelProtectionSettings = @{
     "ContentExpirationDate" = (Get-Date).AddMonths(6).ToUniversalTime();
     "OfflineAccessInterval" = "P7D";
@@ -82,202 +173,119 @@ $LabelProtectionSettings = @{
 }
 New-AipServiceLabel -Name $LabelName -Description $LabelDescription -ProtectionSettings $LabelProtectionSettings
 ```
+#### Azure Storage Service Encryption
+
+تشفّر **Azure Storage Service Encryption (SSE)** تلقائياً البيانات المخزنة في حسابات Azure Storage، بما في ذلك Blob وFile وTable وQueue. تستخدم SSE مفاتيح تديرها Azure أو مفاتيح يديرها العميل للتشفير على مستوى حساب التخزين. لتفعيل SSE، اتبع [الدليل خطوة بخطوة](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption) من Microsoft.
+
+Azure Information Protection اسم قديم لمنتج. تدرجه وثائق Microsoft الحالية لتوفر ميزات Sentinel كمنتج متوقف. راجع وثائق Microsoft Purview Information Protection الحالية قبل بدء نشر جديد للتصنيفات.
+
+مثال: تفعيل SSE لحساب تخزين
+
 ```azurecli
-# تمكين SSE باستخدام مفاتيح Azure المُدارة
+# فعّل SSE باستخدام مفاتيح تديرها Azure
 az storage account update --name mystorageaccount --resource-group myresourcegroup --encryption-services blob file
 ```
+#### Azure Disk Encryption
+
+يساعد **Azure Disk Encryption** على حماية أقراص الأجهزة الافتراضية بتشفيرها باستخدام BitLocker (Windows) أو dm-crypt (Linux). يحمي Azure Key Vault مفاتيح التشفير والأسرار. لتفعيل Azure Disk Encryption، اتبع [الدليل الرسمي](https://learn.microsoft.com/en-us/azure/virtual-machines/disk-encryption-overview) من Microsoft.
+
+مثال: تفعيل Azure Disk Encryption لجهاز افتراضي
+
 ```azurecli
-# تمكين Azure Disk Encryption لجهاز Windows ظاهري
+# فعّل Azure Disk Encryption لجهاز Windows افتراضي
 az vm encryption enable --resource-group myResourceGroup --name myVM --disk-encryption-keyvault myKeyVault
 ```
+راجع الوثائق الرسمية حول [Azure Information Protection](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection) و[Azure Storage Service Encryption](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption) و[Azure Disk Encryption](https://learn.microsoft.com/en-us/azure/virtual-machines/disk-encryption-overview).
+______
+
+## كشف التهديدات والاستجابة لها
+
+يستخدم Azure Security Center قدرات متقدمة لكشف التهديدات المحتملة وإرسال التنبيهات. يتيح التكامل مع **Azure Sentinel** مراقبة حوادث الأمان والتحقيق فيها والاستجابة لها في البيئة بأكملها.
+
+### كشف التهديدات
+
+يستخدم Azure Security Center **Azure Defender** لتحديد التهديدات الأمنية المحتملة. يراقب Azure Defender الموارد بحثاً عن مؤشرات الاختراق، ويرسل تنبيهات وتوصيات للاستجابة. لتفعيله، اتبع [الدليل الرسمي](https://docs.microsoft.com/en-us/azure/security-center/defender-for-cloud-enable).
+
+مثال: تفعيل Azure Defender لاشتراك
+
 ```azurecli
-# تمكين Azure Defender لاشتراك
+# فعّل Azure Defender لاشتراك
 az security auto-provisioning-setting update --name default --auto-provision on
 ```
+### الاستجابة للتهديدات
+عند اكتشاف تهديد، استجب بسرعة وفاعلية. تساعد إدارة **Security Incident** في Azure Security Center على التحقيق في الحوادث والاستجابة لها. ويمكنك دمج **Azure Sentinel** لإنشاء مسارات عمل مؤتمتة وتنسيق الاستجابة. راجع **الوثائق الرسمية** حول دمج Azure Security Center مع Azure Sentinel.
+
+مثال: إنشاء مسار Logic App لـ Azure Sentinel
 ```azurecli
-# إنشاء مجموعة موارد
+# أنشئ مجموعة موارد
 az group create --name MyResourceGroup --location EastUS
 
-# إنشاء Logic App
+# أنشئ Logic App
 az logic workflow create --resource-group MyResourceGroup --location EastUS --name MyPlaybook --definition @playbook-definition.json
 ```
+يجب أن يحتوي الملف `playbook-definition.json` على تعريف مسار Logic App. تجد أمثلة Azure Sentinel في [مستودع Azure-Sentinel على GitHub](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks).
 
+ادمج قدرات كشف التهديدات في Azure Security Center مع Azure Sentinel لوضع استراتيجية لكشف التهديدات في Azure والاستجابة لها. راجع الوثائق الرسمية حول [Azure Defender](https://learn.microsoft.com/en-us/azure/defender-for-cloud/enable-enhanced-security) و[Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/overview).
 
- ** كيفية تأمين بيئة السحابة الخاصة؟
+يرسل مسار التكامل الحالي تنبيهات Defender for Cloud إلى Microsoft Sentinel عبر [موصل Defender for Cloud](https://learn.microsoft.com/en-us/azure/sentinel/connect-defender-for-cloud). قبل الاعتماد على الأتمتة، تحقّق من الموصل وقواعد جمع البيانات والقواعد التحليلية وسير الحوادث في مدخل Defender أو Azure.
+______
 
- تأمين بيئة العمل السريع مهمًا للعمل البحث. يعد متوسط ** بيئة قوية في بيئة Azure الخاصة. كيفية تأمين بيئة السحابة الخاصة في بيئة العمل في Azure ، بالإضافة إلى ذلك ، تم تطويره في المزيد من التفاصيل حول هذا ورمزه ورؤية أفضل لكيفية الحصول على تأمين السحابة الخاصة بـ Azure Security Center.
+## المراقبة وإعداد التقارير
 
- ______
+تساعد المراقبة وإعداد التقارير على الحفاظ على أمان بيئة السحابة. يوفر Azure Security Center أدوات مثل **لوحة الأمان** و**تنبيهات الأمان** و**تقارير الامتثال**.
 
-*تغيّرت أسماء المنتجات منذ النشر الأصلي. أصبح Microsoft Azure Security Center يُعرف الآن باسم Microsoft Defender for Cloud، وأصبح Azure Active Directory يُعرف باسم Microsoft Entra ID، وأصبح Azure Sentinel يُعرف باسم Microsoft Sentinel. يشير Azure Defender إلى خطط الحماية وحماية أحمال العمل ضمن Defender for Cloud. تبقى الأسماء القديمة أدناه لوصف مصطلحات عام 2023.*
+### لوحة الأمان
 
-يصف [نظرة عامة على Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction) الحالية منصة لحماية التطبيقات السحابية الأصلية تشمل إدارة وضع الأمان السحابي وDevSecOps وحماية أحمال العمل السحابية. يعتمد توفر الميزات والترخيص على السحابة ونوع المورد والاشتراك والخطة.
+تعرض Security Dashboard في Azure Security Center نظرة عامة على وضع الأمان. وتعرض Secure Score والتوصيات والتنبيهات النشطة. كما توضح حالة الامتثال وتتيح متابعة التقدم بمرور الوقت.
 
- ## فهم مركز أمان Azure
+### تنبيهات الأمان
 
- Azure Security Center الذي تم توفيره في بيئة المحيط الخاصة به. أرشادات وبيانات أرشادية.
+ينشئ Azure Security Center تنبيهات عند اكتشاف تهديدات محتملة. تتضمن التنبيهات تفاصيل التهديد وتوصيات لتقليل المخاطر. يمكنك إعداد إشعارات عبر البريد الإلكتروني أو الرسائل النصية، أو دمج الخدمة مع [Slack](https://slack.com/) أو [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software).
 
- ** التقييم المستمر المستمر ** و ** الحماية من التهديدات ** ميزتان رئيسيتان مركز لم أمان Azure. في تحديد ما إذا كنت ترغب في تحديد الموعد.
+### تقارير الامتثال
 
- ______
+ينشئ Azure Security Center تقارير لأطر تنظيمية مثل GDPR وHIPAA وPCI DSS. استخدمها لمتابعة امتثال المؤسسة وتحديد الجوانب التي تحتاج إلى تحسين.
 
- ## تنفيذ سياسات الأمن ومعايير الامتثال
+______
 
- لك Azure Security Center تنفيذ سياسات وإدارتها عبر بيئة السحابة الخاصة. يمكنك استخدام خدمة ** سياسات الصناعة Azure ** أيضًا تقييم معايير معايير مثل [NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) ، [ CIS](https://www.cisecurity.org/) و [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html).
+## أفضل الممارسات في Azure Security Center
 
- يوفر مركز أمان Azure أيضًا ، كما يظهر في حالة امتثال ، مما يجعله يظهر بحالة جيدة ، مثل [GDPR](https://gdpr.eu/) ، [HIPAA](https://www.hhs.gov/hipaa/index.html) و [PCI DSS](https://www.pcisecuritystandards.org/).
+للاستفادة من Azure Security Center، طبّق الممارسات التالية:
 
- ______
+1. **فعّل Azure Security Center لجميع الاشتراكات**: تأكد من حماية كل اشتراك Azure.
+2. **راجع Secure Score بانتظام**: تابع وضع الأمان العام وحدد الجوانب التي تحتاج إلى تحسين.
+3. **طبّق توصيات الأمان**: حسّن وضع الأمان وقلل المخاطر باتباع توصيات Azure Security Center.
+4. **راقب تنبيهات الأمان**: راجع التنبيهات واستجب لها لتقليل التهديدات المحتملة.
+5. **حدّث متطلبات الامتثال**: راجع السياسات وحدّثها بانتظام لمواكبة الأطر التنظيمية الحالية.
 
- ## تأمين مواردك في Azure
-
- يعد ** جانبًا مهمًا لتأمين بيئة السحابة الخاصة بك. يوفر مركز أمان Azure ** نقاط آمنة ** ، وهي مقياس الأمان لديك ، لمساعدتك في فهم الأمان العام لمواردك. يمكنك تحسين الأمان الخاصة بك عن طريق المساعدة من قبل Azure Security Center.
-
- ### أمان الشبكة
-
- تنفيذ تنفيذ تنفيذ تنفيذ الشبكة ، مثل ** مجموعات أمان الشبكة (NSGs) ** و ** جدار حماية Azure ** و ** تطبيق جدار حماية الويب (WAF) ** ، أمرًا ضروريًا بيئة لحماية Azure من الردود. تساعد هذه الرسالة في المساعدة في الحركة على المساعدة في الحركة.
-
- #### مجموعات أمان الشبكة (NSGs)
-
- هذا هو ما يسمح لك بإرسال الرسائل الإلكترونية ، وإدارة الرسائل الإلكترونية ، وإليها. على سبيل المثال ، إنشاء مجموعة NSG بقواعد أو رفض حركة مرور معينة:
-
- تعرف على المزيد حول [مجموعات أمان الشبكة](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview) استخدم نطاقاً معروفاً بدلاً من السماح لكل مصادر IPv4 في الإنتاج؛ راجع [نظرة عامة على أمان NSG](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview).
-
- #### Azure Firewall
- شبكة مُدارة ومستندة إلى مجموعة النظراء تحمي موارد Azure الخاصة بك. وحدات تخزين وحدات التخزين حسن التدبير لتهيئة Azure Firewall، اتبع [دليل البدء السريع](https://learn.microsoft.com/en-us/azure/firewall-manager/quick-firewall-policy-bicep).
-
- #### جدار حماية تطبيقات الويب (WAF)
- حماية تطبيقات الويب (WAF) يمكن دمج WAF بسهولة مع تطبيقات الشاشة ، تكوين قواعد مخصصة للحماية من تعليمات محددة.
-
- فيما يلي مثال على كيفية إنشاء بوابة تطبيق مع WAF:
- تعرف على المزيد حول [جدار حماية تطبيق الويب](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview)
-
- ### إدارة الهوية
-
- ** يعد Azure Active Directory (Azure AD) ** مكونًا أساسيًا لتأمين بيئة السحابة الخاصة بك. يوفر Azure Security Center توصيات لإدارة الهوية ، مثل تفعيل ** المصادقة متعددة العوامل (MFA) ** تنفيذ ** التحكم في المستند إلى الدور (RBAC) ** الأنشطة المشبوهة.
-
- #### المصادقة متعددة العوامل (MFA)
-
- تضيف المزيد من الأمان إلى حسابات Azure. يمكن تمكين العائالت المتعددة MFA لمؤسستك باتباع [الدليل التفصيلي](https://docs.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-azure-mfa) المقدم بواسطة Microsoft.
-
- مثال: فتح MFA
-
- #### التحكم في الوصول المستند إلى الدور (RBAC)
- لقد كان ترتيبًا ضعيفًا. يمكنك تعيين أدوار أو مجموعات إدارة طلباتهم إلى إدارة مؤسستك. لتنفيذ RBAC ، اتبع [الدليل الرسمي](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) من Microsoft.
-
- مثال: تعيين دور لمستخدم
- #### مراقبة الأنشطة المشبوهة
- يوفر موقع Azure AD ميزات مثل ** حماية الهوية ** و ** الوصول المشروط ** التي على مراقبة أنشطة المشبوهة والاستجابة لها. تستخدم حماية الهوية خوارزميات التعلم الآلي في حالات الشاذة ومحاولات تسجيل الدخول المحفوفة بالمخاطر ، بينما يسمح لك الوصول إلى المحيط الهادئ
-
- لإعداد حماية هوية Azure AD ، اتبع [الدليل الرسمي](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-b2b) من Microsoft.
-
- مثال: قم بسياسة وصول مشروط
-
- تعرف على المزيد حول [حماية هوية Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview) و [الوصول المشروط](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/overview).
-
-
- ### أمن البيانات
-
- حماية بياناتك في السحابة أمر بالغ الأهمية. يوفر رمز أمان بيانات Azure ، مثل ** حماية المعلومات في Azure ** و ** تشفير خدمة في Azure ** و ** تشفير خدمة في Azure **. حماية حفظ البيانات الآمنة.
-
- #### حماية معلومات Azure
-
- ** حماية المعلومات في Azure (AIP) ** هو حل قائم على السحابة على تصنيف ورسائل البريد الإلكتروني وتسميتها وحمايتها. يوفر AIP مجموعة من الملصقات المضمنة ، مثل "سري" و "شخصي" ، مشهد يمكن تخصيصها ، أيضًا تكوين AIP بدء استخدام AIP ، اتبع [الدليل الرسمي](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection) Azure Information Protection اسم تاريخي للمنتج وتشير وثائق Sentinel الحالية إلى إيقافه. راجع وثائق Microsoft Purview Information Protection قبل بدء نشر جديد..
-
- مثال: إنشاء مخصصة
-
- تسمّي وثائق Microsoft الحالية المنتج Azure Information Protection اسماً تاريخياً؛ وتذكر إرشادات توفر ميزات Sentinel أنه متوقف. راجع وثائق Microsoft Purview Information Protection الحالية قبل بدء نشر جديد.
-
-
-
-#### تشفير خدمة تخزين Azure
- ** تشفير خدمة تخزين Azure (SSE **) يستخدم SSE المفاتيح المُدارة بواسطة العميل الخاضع تابع SSE ، اتبع [الدليل التفصيلي](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption) مقدم من Microsoft.
-
- مثال: تم فتح SSE لحسابها
-
- #### تشفير قرص Azure
- يساعدك على تشفير قرص Azure (Windows). تتم حماية مفاتيح التشفير بواسطة Azure Key Vault ، مما يضمن تأمين بياناتك في حالة السكون. تشفير قرص Azure ، اتبع [الدليل الرسمي](https://learn.microsoft.com/en-us/azure/virtual-machines/disk-encryption-overview) من Microsoft.
-
- مثال: تمكين تشفير قرص Azure لجهاز ظاهري
- تعرف على المزيد حول [حماية معلومات Azure](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection) ، [تشفير خدمة تخزين Azure](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption) و [Azure Disk Encryption](https://learn.microsoft.com/en-us/azure/virtual-machines/disk-encryption-overview).
- ______
-
- ## كشف الردود والاستجابة لها
-
- موقع Azure Security Center ، راهنًا ، راهنًا ، التكامل مع ** Azure Sentinel ** ، يمكنك مراقبة الحوادث والتحقيق فيها والاستجابة لها عبر بيئتك.
-
- ### كشف التهديد
-
- يستخدم Azure Security Center ** Azure Defender ** ، وهي مجموعة من الملابس الخارجية للهندسة ، والتهديدات ، وأمبيرات عروض الأسعار. عودة للخلفيات للخلفيات في Azure Defender موارد تصحيح Azure Defender ، اتبع [الدليل الرسمي](https://docs.microsoft.com/en-us/azure/security-center/defender-for-cloud-enable).
-
- مثال: تمكين Azure Defender للاشتراك
-
- ### الاستجابة للتهديد
- عند اكتشاف تهديد ، وشفاءه بسرعة وفاعلية. يوفر Azure Security Center إدارة ** Security Incident ** ، راقب التحقيق على التحقيق في الاستجابة لها. يمكنك أيضًا التكامل مع ** Azure Sentinel ** آلية تشغيل. تعرف على المزيد حول تكامل Azure Security Center مع Azure Sentinel في ** الصفحة الرسمية **.
-
- مثال: قم بتسابق دفتر تسجيل الدخول المنطق لـ Azure Sentinel
- أن يحتوي على ملف `playbook-definition.json` على تعريف كتاب قواعد اللعبة المنطقي. يمكنك العثور على المثال لكتب التشغيل الخاصة بـ Azure Sentinel في [مستودع Azure-Sentinel GitHub](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks).
-
- من خلال إمكانات الكامنة في Azure Security Center والتكامل في Azure Sentinel ، تعرف على المزيد حول [Azure Defender](https://learn.microsoft.com/en-us/azure/defender-for-cloud/enable-enhanced-security) و [Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/overview).
- ______
-
- يتبع التكامل الحالي إرسال تنبيهات Defender for Cloud إلى Microsoft Sentinel عبر [موصل Defender for Cloud](https://learn.microsoft.com/en-us/azure/sentinel/connect-defender-for-cloud). تحقّق من الموصل وقواعد جمع البيانات والتحليلات وسير عمل الحوادث في بوابة Defender أو Azure قبل الاعتماد على الأتمتة.** تحقق من استيعاب التنبيهات وقواعد التحليلات والملكية وأتمتة الاستجابة والاحتفاظ بالبيانات. يعرض [موصل Defender for
-
-## المراقبة والإبلاغ
-
- تعدّ المراقبة يوفر Azure Security Center و Assure Security Center ، تقارير الامتثال **.
-
- ### لوحة القيادة الأمنية
-
- توفر لوحة معلومات الأمان في Azure Security Center نظرة عامة شاملة على وضع الأمان لديك. يعرض نقاط الأمان الخاصة بك وتوصيات الأمان وتنبيهات الأمان في المنطقة. توفر لوحة كبيرة أيضًا رؤى حول حالة الامتثال الخاصة بك وتسمح لك بتتبعك بمرور الوقت.
-
- ### تنبيهات الأمان
-
- يُنشئ Azure Security Center تنبيهات أمان عند اكتشاف تهديدات جديدة. توفر هذه التنبيهات معلومات مفصلة حول التهديد ، بالإضافة إلى التوصيات إلى السرعة. يمكنك تكوين Azure Security Center لإرسال إشعارات عبر البريد الإلكتروني أو الرسائل القصيرة أو الربط مع أدوات الجهات الخارجية مثل [Slack](https://slack.com/) أو [فرق Microsoft](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software).
-
- ### تقارير الامتثال
-
- تقارير تقارير امتثال لأطر عمل تنظيم مختلف ، مثل GDPR و HIPAA و PCI DSS. قسم العلوم والتقارير.
-
- ______
-
- ## أفضل الممارسات لمركز أمان
-
- إلى أقصى استفادة من Azure Security Center ، ضع في اعتبارك تطبيق أفضل الممارسات التالية:
-
- 1. ** تمكين Azure Security Center على جميع اشتراكاتك **: يعد ضمان حماية جميع اشتراكات Azure بواسطة Azure Security Center ، تأمين حماية البيئة سحابية آمنة.
- 2. ** قم بمراجعة حساباتك الآمنة
- 3. ** خدمات توصيات الأمان **: خدمات معالجة التوصيات المقدمة من Azure Security Center على تحسين وضع الأمان وتقليل الأسعار.
- 4. ** مراقبة التنبيهات الأمنية **: مراجعة التنبيهات والرد عليها بيضا للتخفيف من الرطوبة والحفاظ على بيئة آمنة.
- 5. ** ابق على اطلاع دائم على طلبات الامتثال **: تأكد من أن تجد نفسك تجد نفسك دائمًا في حالة مطبعة.
-
- ______
 ## سير العمل الحالي في Defender for Cloud
 
-استخدم التسلسل التالي للنشر الحالي. تظل الأسماء الواردة في الأقسام الأصلية مفيدة عند البحث عن المعلومات التاريخية، لكن البوابة والوثائق تستخدمان مصطلحات Defender for Cloud.
+اتبع التسلسل التالي للنشر الحالي. تفيد أسماء الأقسام السابقة في البحث عن المعلومات التاريخية، لكن البوابة والوثائق تستخدم مصطلحات Defender for Cloud.
 
-1. **احصر الاشتراكات والموصلات.** سجّل اشتراكات Azure وموصلات AWS أو GCP ومشروعات DevOps والموارد المهمة.
-2. **فعّل خطط Defender المطلوبة.** اختر الخطط حسب أحمال العمل، وتأكد من الترخيص قبل تفعيلها على اشتراكات الإنتاج.
-3. **راجع Secure Score وتوصيات السحابة.** أعط الأولوية للتعرض للإنترنت ومخاطر الهوية والثغرات القابلة للاستغلال ونقص التسجيل. لا تعتبر الدرجة دليلاً على الامتثال الكامل.
+1. **أعد قائمة بالاشتراكات والموصلات.** سجّل اشتراكات Azure وموصلات AWS أو GCP ومشروعات DevOps والموارد المهمة.
+2. **فعّل خطط Defender المطلوبة.** اختر الخطط حسب أحمال العمل وتحقق من الترخيص قبل تفعيلها في اشتراكات الإنتاج.
+3. **راجع Cloud Secure Score والتوصيات.** أعط الأولوية للموارد المكشوفة على الإنترنت ومخاطر الهوية والثغرات القابلة للاستغلال ونقص التسجيل. لا تعتبر الدرجة دليلاً على الامتثال الكامل.
 4. **اضبط عناصر تحكم Microsoft Entra.** اشترط MFA مقاومة للتصيد للحسابات المهمة، واستخدم RBAC بأقل الامتيازات، وراجع الوصول المميز.
-5. **أرسل التنبيهات إلى Microsoft Sentinel.** تحقّق من استيعاب التنبيهات وقواعد التحليلات والملكية وأتمتة الاستجابة والاحتفاظ بالبيانات.
-6. **أعد الفحص بعد التغييرات.** راجع التوصيات بعد التصحيح أو تغييرات البنية أو إضافة موصلات أو تغيير الخطط.
+5. **أرسل التنبيهات إلى Microsoft Sentinel.** تحقّق من استقبال التنبيهات والقواعد التحليلية والمسؤولين وأتمتة الاستجابة ومدة الاحتفاظ.
+6. **أعد الفحص بعد التغييرات.** راجع التوصيات بعد تثبيت التحديثات أو تغيير البنية أو إضافة موصلات أو تغيير الخطط.
 
 ## قائمة مراجعة عملية
 
-- **الهوية:** أزل الحسابات القديمة، وقلّل صلاحيات المسؤول الدائمة، وراجع استثناءات الوصول المشروط.
-- **الشبكة:** أزل منافذ الإدارة العامة، وضيّق نطاقات مصادر NSG، وتحقق من وصول سجلات الجدار الناري وWAF إلى مساحة عمل المراقبة.
+- **الهوية:** أزل الحسابات القديمة، وقلل صلاحيات المسؤول الدائمة، وراجع استثناءات Conditional Access.
+- **الشبكة:** أغلق منافذ الإدارة العامة، وضيّق نطاقات مصادر NSG، وتحقق من وصول سجلات الجدار الناري وWAF إلى مساحة عمل المراقبة.
 - **البيانات:** صنّف مخازن البيانات الحساسة، وتحقق من التشفير وملكية المفاتيح، واختبر استعادة النسخ الاحتياطية.
-- **الكشف:** تحقق من شدة التنبيهات وتوجيه الإشعارات وملكية الحوادث وإجراءات الاستجابة.
-- **الحوكمة:** اربط كل مبادرة سياسة بمالك وتاريخ انتهاء للاستثناء وأدلة على الإطار المطلوب.
+- **الكشف:** تحقق من شدة التنبيهات وتوجيه الإشعارات وملكية الحوادث ومسارات الاستجابة.
+- **الحوكمة:** عيّن مالكاً لكل مبادرة سياسة، وحدد تاريخ انتهاء الاستثناء، واجمع أدلة المعيار المطلوب.
 
+______
 
- ## مراجع
-- [وثائق مركز أمان Azure](https://docs.microsoft.com/en-us/azure/security-center/)
-- [خدمة سياسة Azure](https://docs.microsoft.com/en-us/azure/governance/policy/)
+## المراجع
+
+- [وثائق Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/)
+- [خدمة Azure Policy](https://docs.microsoft.com/en-us/azure/governance/policy/)
 - [NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
-- [رابطة الدول المستقلة](https://www.cisecurity.org/)
+- [CIS](https://www.cisecurity.org/)
 - [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html)
-- [اللائحة العامة لحماية البيانات](https://gdpr.eu/)
+- [GDPR](https://gdpr.eu/)
 - [HIPAA](https://www.hhs.gov/hipaa/index.html)
 - [PCI DSS](https://www.pcisecuritystandards.org/)

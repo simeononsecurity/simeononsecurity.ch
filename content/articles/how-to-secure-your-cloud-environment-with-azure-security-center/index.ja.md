@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Defender for Cloud でクラウド環境を保護する"
 date: 2023-04-10
-lastmod: 2026-11-14
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Microsoft Defender for Cloud を使って Azure ワークロードを保護する方法を説明します。Azure Security Center の旧称、推奨事項、ポリシー、対応手順も確認します。"
@@ -11,9 +11,9 @@ coverAlt: "クラウドの記号に囲まれた盾が、安全なクラウド環
 coverCaption: ""
 ---
 
-**Azure Security Centerによるクラウド環境のセキュリティ確保方法**」。
+**Azure Security Centerでクラウド環境を保護する方法**
 
-クラウド環境のセキュリティ確保は、組織のデータ、アプリケーション、インフラを脅威から保護するために不可欠です。マイクロソフトの**Azure Security Center**は、セキュリティ態勢を強化し、Azure環境における潜在的なリスクを迅速に特定するのに役立つ強力なツールです。この記事では、Azure Security Centerを使用してクラウド環境を保護する方法について説明し、さまざまなセキュリティ機能を実装するための推奨される実践方法を取り上げます。さらに、この記事では、Azure Security Centerを使用してクラウド環境を保護する方法をよりよく理解するために、より技術的な詳細と例に飛び込んでいきます。
+クラウド環境のセキュリティ確保は、組織のデータ、アプリケーション、インフラを脅威から保護するために不可欠です。マイクロソフトの**Azure Security Center**は、セキュリティ態勢を強化し、Azure環境における潜在的なリスクを迅速に特定するのに役立つ強力なツールです。この記事では、Azure Security Centerを使用してクラウド環境を保護する方法について説明し、さまざまなセキュリティ機能を実装するための推奨される実践方法を取り上げます。さらに、技術的な詳細と例を示し、Azure Security Centerを使ってクラウド環境を保護する方法を具体的に説明します。
 
 ______
 
@@ -31,7 +31,7 @@ ______
 
 ## セキュリティポリシーとコンプライアンス標準の実装
 
-Azure Security Center では、クラウド環境全体でセキュリティポリシーを実装し管理することができます。Azure Policy** サービスを使用してカスタムセキュリティポリシーを作成したり、組み込みポリシーを使用して推奨される実践方法やコンプライアンス標準を適用したりできます。また、セキュリティ態勢を業界標準と照らし合わせて評価できます。該当する基準には、[NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)、[CIS](https://www.cisecurity.org/)、[ISO 27001](https://www.iso.org/isoiec-27001-information-security.html)があります。
+Azure Security Center では、クラウド環境全体でセキュリティポリシーを実装し管理することができます。**Azure Policy** サービスを使用してカスタムセキュリティポリシーを作成したり、組み込みポリシーを使用して推奨される実践方法やコンプライアンス標準を適用したりできます。また、セキュリティ態勢を業界標準と照らし合わせて評価できます。該当する基準には、[NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)、[CIS](https://www.cisecurity.org/)、[ISO 27001](https://www.iso.org/isoiec-27001-information-security.html)があります。
 
 Azure Security Centerは、コンプライアンス管理機能も備えており、組織がさまざまな規制の枠組みにどの程度準拠しているかを確認できます。代表的な枠組みには、[GDPR](https://gdpr.eu/)、[HIPAA](https://www.hhs.gov/hipaa/index.html)、[PCI DSS](https://www.pcisecuritystandards.org/)があります。
 
@@ -43,11 +43,11 @@ ______
 
 ### ネットワークセキュリティ
 
-ネットワークセキュリティグループ（NSG）**、**Azure Firewall**、*Web Application Firewall（WAF）**などの適切なネットワークセキュリティ対策を実施することは、潜在的な脅威からAzure環境を保護するために非常に重要です。これらのツールは、入出力のネットワークトラフィックを制御し、不正アクセスや潜在的な攻撃からリソースを保護するのに役立ちます。
+**Network Security Groups (NSGs)**、**Azure Firewall**、**Web Application Firewall (WAF)** などのネットワーク対策は、Azure 環境を脅威から保護するうえで重要です。これらのツールで送受信ネットワークトラフィックを制御し、不正アクセスや攻撃からリソースを保護できます。
 
 #### ネットワークセキュリティグループ(NSG)
 
-NSG は、Azure リソースの仮想ファイアウォールとして機能し、リソースへのネットワークトラフィッ クを許可または拒否するルールを定義することができます。たとえば、特定のトラフィックを許可または拒否するルールを持つ NSG を作成することができます：
+NSG は、Azure リソースの仮想ファイアウォールとして機能し、リソースへのネットワークトラフィックを許可または拒否するルールを定義することができます。たとえば、特定のトラフィックを許可または拒否するルールを持つ NSG を作成することができます：
 
 ```azurecli
 # ネットワーク セキュリティ グループを作成する
@@ -56,10 +56,10 @@ az network nsg create --name MyNSG --resource-group MyResourceGroup
 # トラフィックを許可または拒否するルールを追加する
 az network nsg rule create --name MyNSGRule --nsg-name MyNSG --priority 100 --resource-group MyResourceGroup --access Allow --protocol Tcp --direction Inbound --source-address-prefixes '*' --source-port-ranges '*' --destination-address-prefixes '*' --destination-port-ranges '80'
 ```
-について詳しくはこちら[Network Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview) 本番環境では全 IPv4 送信元を許可せず、既知の送信元範囲を指定してください。[NSG セキュリティの概要](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview)を確認してください。を公式ドキュメントに掲載しています。
+詳しくは、公式ドキュメントの [Network Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview) をご覧ください。上の例は、すべての IPv4 送信元からの TCP ポート 80 の受信を許可します。本番環境では既知の送信元範囲、プライベート エンドポイント、またはロード バランサー経由の経路を使用してください。例を使う前に、最新の [NSG セキュリティ概要](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview)を確認してください。
 
-#### Azure Firewall（アジュールファイアウォール
-Azure Firewallは、Azureリソースを保護する、マネージド型のクラウドベースのネットワークセキュリティサービスです。脅威インテリジェンスベースのフィルタリング、ウェブカテゴリ、集中型ロギングと分析などの高度な機能を提供します。Azure Firewall をセットアップするには、以下の手順に従います。[quickstart instructions](https://learn.microsoft.com/en-us/azure/firewall-manager/quick-firewall-policy-bicep)
+#### Azure Firewall
+Azure Firewallは、Azureリソースを保護する、マネージド型のクラウドベースのネットワークセキュリティサービスです。脅威インテリジェンスベースのフィルタリング、ウェブカテゴリ、集中型ロギングと分析などの高度な機能を提供します。Azure Firewall をセットアップするには、[クイックスタートの手順](https://learn.microsoft.com/en-us/azure/firewall-manager/quick-firewall-policy-bicep)に従って設定します。
 
 #### ウェブアプリケーションファイアウォール(WAF)
 Web Application Firewall (WAF) は、**Azure Application Gateway** の機能で、SQL インジェクション、クロスサイトスクリプティングなどの一般的な Web 悪用やその他の脅威から Web アプリケーションを保護するものです。WAFは、既存のWebアプリケーションと簡単に統合でき、特定の攻撃パターンから保護するためのカスタムルールを設定することができます。
@@ -82,13 +82,13 @@ az network application-gateway create --name MyAppGateway --resource-group MyRes
 ```
 について詳しくはこちら[Web Application Firewall](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview)を公式ドキュメントに掲載しています。
 
-### Identity and Access Management（アイデンティティとアクセス管理
+### ID とアクセスの管理
 
-**Azure Active Directory (Azure AD)**は、クラウド環境のセキュリティを確保するために不可欠なコンポーネントです。Azure Security Centerでは、**多要素認証（MFA）**の有効化、**役割ベースのアクセス制御（RBAC）**の実装、疑わしいアクティビティの監視など、IDおよびアクセス管理の改善に向けた推奨事項を提供しています。
+**Azure Active Directory** (Azure AD) は、クラウド環境のセキュリティを確保するために不可欠なコンポーネントです。Azure Security Centerでは、**多要素認証**（MFA）の有効化、**役割ベースのアクセス制御**（RBAC）の実装、疑わしいアクティビティの監視など、IDおよびアクセス管理の改善に向けた推奨事項を提供しています。
 
 #### 多要素認証(MFA)
 
-MFA は、アクセスを許可する前にユーザーに 2 つ以上の検証形式を要求することで、Azure AD アカウントに追加のセキュリティ層を追加します。以下の手順に従って、組織の MFA を有効にすることができます。[step-by-step guide](https://docs.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-azure-mfa)マイクロソフト社から提供されています。
+MFA は、アクセスを許可する前にユーザーに 2 つ以上の検証形式を要求することで、Azure AD アカウントに追加のセキュリティ層を追加します。組織で MFA を有効にするには、Microsoft の[手順ガイド](https://docs.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-azure-mfa)を参照してください。
 
 例あるユーザーに対してMFAを有効にする
 
@@ -103,7 +103,7 @@ $StrongAuthRequirements = @(@{"Location"=""; "SatisfactionFactor"="2"; "Verifica
 Set-AzureADUser -ObjectId $StsUserObjectID -StrongAuthenticationRequirements $StrongAuthRequirements
 ```
 #### ロールベースアクセスコントロール(RBAC)
-RBAC を使用すると、Azure リソースの詳細なアクセス許可を定義し、ユーザーが適切なレベルのアクセス権を持つことを保証できます。ユーザー、グループ、またはアプリケーションにロールを割り当てて、組織内のリソースへのアクセスを管理することができます。RBAC を実装するには、次の手順に従います。[official guide](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)をマイクロソフトから発売しました。
+RBAC を使用すると、Azure リソースの詳細なアクセス許可を定義し、ユーザーが適切なレベルのアクセス権を持つことを保証できます。ユーザー、グループ、またはアプリケーションにロールを割り当てて、組織内のリソースへのアクセスを管理することができます。RBAC の実装方法については、Microsoft の[公式ガイド](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)を参照してください。
 
 例ユーザーにロールを割り当てる
 ```azurecli
@@ -113,7 +113,7 @@ az role assignment create --assignee johndoe@example.com --role "Reader" --scope
 #### 不審な活動の監視
 Azure ADには、疑わしい活動を監視し対応するための**Identity Protection**や**Conditional Access**といった機能があります。Identity Protectionは、機械学習アルゴリズムを使用して異常や危険なサインインの試みを検出し、Conditional Accessは、デバイス、場所、リスクレベルなどの要素に基づいてアクセスを制御するポリシーを設定することができます。
 
-Azure AD Identity Protectionをセットアップするには、次の手順に従います。[official guide](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-b2b)をマイクロソフトから発売しました。
+Azure AD Identity Protection の設定方法については、Microsoft の[公式ガイド](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-b2b)を参照してください。
 
 例条件付きアクセスポリシーの作成
 
@@ -148,7 +148,9 @@ New-AzureADMSConditionalAccessPolicy -DisplayName $PolicyName -State $PolicyStat
 
 #### Azure Information Protection
 
-**Azure Information Protection (AIP) **は、機密文書や電子メールを分類、ラベル付け、保護するためのクラウドベースのソリューションです。AIPは、「Confidential」や「Personal」などの組み込みラベルのセットを提供し、組織のニーズに応じてカスタマイズすることができます。また、事前に定義されたルールに基づいて自動的にラベルを適用するようにAIPを設定することも可能です。AIPを使い始めるには、以下の手順に従ってください。[official guide](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection) Azure Information Protection は過去の製品名で、Sentinel の最新ドキュメントでは非推奨です。新規導入の前に Microsoft Purview Information Protection のドキュメントを確認してください。
+**Azure Information Protection** (AIP) は、機密文書や電子メールを分類、ラベル付け、保護するためのクラウドベースのソリューションです。AIP には「機密」や「個人用」などの組み込みラベルがあり、組織のニーズに合わせてカスタマイズできます。また、事前に定義されたルールに基づいて自動的にラベルを適用するようにAIPを設定することも可能です。AIP を使い始めるには、[公式ガイド](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection)を参照してください。
+
+Azure Information Protection は過去の製品名です。Microsoft の現在の Sentinel 機能の案内では非推奨とされています。新たにラベルを導入する前に、Microsoft Purview Information Protection の最新ドキュメントを確認してください。
 
 例カスタムラベルを作成する
 
@@ -157,7 +159,7 @@ New-AzureADMSConditionalAccessPolicy -DisplayName $PolicyName -State $PolicyStat
 Connect-AipService
 
 # 保護設定を含むカスタム ラベルを作成
-$LabelName = "Sensitive - Internal Use Only"
+$LabelName = "機密 - 社内利用のみ"
 $LabelDescription = "このラベルは、内部利用のみを対象とした暗号化とアクセス ポリシーを適用します。"
 $LabelProtectionSettings = @{
     "ContentExpirationDate" = (Get-Date).AddMonths(6).ToUniversalTime();
@@ -167,7 +169,7 @@ $LabelProtectionSettings = @{
 New-AipServiceLabel -Name $LabelName -Description $LabelDescription -ProtectionSettings $LabelProtectionSettings
 ```
 #### Azure Storage Service Encryption
-**Azure Storage Service Encryption (SSE**) は、Blob、File、Table、Queue ストレージを含む Azure Storage アカウントで、静止状態のデータを自動的に暗号化します。SSEは、Azureが管理する鍵または顧客が管理する鍵を使用して、ストレージアカウントレベルで暗号化を提供します。SSEを有効にするには、次の手順に従います。[step-by-step guide](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption)マイクロソフト社から提供されています。
+**Azure Storage Service Encryption (SSE)** は、Blob、File、Table、Queue（キュー）ストレージを含む Azure Storage アカウントで、静止状態のデータを自動的に暗号化します。SSEは、Azureが管理する鍵または顧客が管理する鍵を使用して、ストレージアカウントレベルで暗号化を提供します。SSE を有効にする手順は、Microsoft の[手順ガイド](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption)を参照してください。
 
 例ストレージアカウントでSSEを有効化する
 
@@ -175,8 +177,8 @@ New-AipServiceLabel -Name $LabelName -Description $LabelDescription -ProtectionS
 # Azure 管理キーを使用して SSE を有効にする
 az storage account update --name mystorageaccount --resource-group myresourcegroup --encryption-services blob file
 ```
-#### Azure Disk Encryption（アジュール ディスク エンクリプション
-**Azure Disk Encryption** は、BitLocker (Windows) または dm-crypt (Linux) で仮想マシンディスクを暗号化することで、仮想マシンディスクを保護します。暗号化キーとシークレットは、Azure Key Vaultによって保護され、データが静止状態で保護されることを保証します。Azure Disk Encryptionを有効にするには、次の手順に従います。[official guide](https://learn.microsoft.com/en-us/azure/virtual-machines/disk-encryption-overview)をマイクロソフトから購入しました。
+#### Azure Disk Encryption
+**Azure Disk Encryption** は、BitLocker (Windows) または dm-crypt (Linux) で仮想マシンディスクを暗号化することで、仮想マシンディスクを保護します。暗号化キーとシークレットは、Azure Key Vaultによって保護され、データが静止状態で保護されることを保証します。Azure Disk Encryption を有効にするには、Microsoft の[公式ガイド](https://learn.microsoft.com/en-us/azure/virtual-machines/disk-encryption-overview)を参照してください。
 
 例仮想マシンのAzure Disk Encryptionの有効化
 ```azurecli
@@ -188,11 +190,11 @@ ______
 
 ## 脅威の発見と対応
 
-Azure Security Centerは、高度な脅威検知機能により、潜在的な脅威を特定し、警告を発します。Azure Sentinel**と統合することで、環境全体のセキュリティインシデントを監視、調査、対応することができます。
+Azure Security Centerは、高度な脅威検知機能により、潜在的な脅威を特定し、警告を発します。**Azure Sentinel**と統合することで、環境全体のセキュリティインシデントを監視、調査、対応することができます。
 
 ### 脅威の検出
 
-Azure Security Centerは、高度な脅威検出機能のセットである**Azure Defender**を使用して、潜在的なセキュリティ脅威を特定します。Azure Defenderは、お客様のリソースを監視して侵害の指標を見つけ、潜在的な脅威に対応するためのアラートと推奨事項を提供します。Azure Defenderを有効にするには、次の手順に従います。[official guide](https://docs.microsoft.com/en-us/azure/security-center/defender-for-cloud-enable)
+Azure Security Centerは、高度な脅威検出機能のセットである**Azure Defender**を使用して、潜在的なセキュリティ脅威を特定します。Azure Defenderは、お客様のリソースを監視して侵害の指標を見つけ、潜在的な脅威に対応するためのアラートと推奨事項を提供します。[公式ガイド](https://docs.microsoft.com/en-us/azure/security-center/defender-for-cloud-enable)に従って Azure Defender を有効にします。
 
 例サブスクリプションのAzure Defenderを有効化する
 
@@ -211,7 +213,7 @@ az group create --name MyResourceGroup --location EastUS
 # Logic App を作成する
 az logic workflow create --resource-group MyResourceGroup --location EastUS --name MyPlaybook --definition @playbook-definition.json
 ```
-のことです。`playbook-definition.json`ファイルには、Logic App のプレイブック定義が含まれている必要があります。Azure Sentinelのプレイブックの例は、以下のページで見ることができます。[Azure-Sentinel GitHub repository](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks)
+`playbook-definition.json` ファイルには Logic App のプレイブック定義を記述します。[Azure-Sentinel GitHub リポジトリ](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks)で Azure Sentinel のプレイブック例を確認できます。
 
 Azure Security Centerの脅威検知機能を活用し、Azure Sentinelと統合することで、Azure環境における脅威を検知し対応するための強固なセキュリティ戦略を構築できます。詳細は公式ドキュメントの[Azure Defender](https://learn.microsoft.com/en-us/azure/defender-for-cloud/enable-enhanced-security)と[Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/overview)をご覧ください。
 ______
@@ -220,7 +222,7 @@ ______
 
 ## モニタリングとレポーティング
 
-モニタリングとレポーティングは、安全なクラウド環境を維持するために不可欠な要素です。Azure Security Centerは、**Security Dashboard**, **Security Alerts**, **Compliance Reports** など、監視と報告のためのいくつかのツールを提供します。
+モニタリングとレポーティングは、安全なクラウド環境を維持するために不可欠な要素です。Azure Security Centerは、**セキュリティ ダッシュボード**、**セキュリティ アラート**、**コンプライアンス レポート** など、監視と報告のためのいくつかのツールを提供します。
 
 ### セキュリティダッシュボード
 
@@ -228,7 +230,7 @@ Azure Security Center の Security Dashboard は、お客様のセキュリテ�
 
 ### セキュリティアラート
 
-Azure Security Centerは、潜在的な脅威が検出された場合にセキュリティアラートを生成します。これらのアラートでは、脅威に関する詳細な情報と、リスクを軽減するための推奨事項が提供されます。Azure Security Centerは、電子メール、SMS、または以下のようなサードパーティツールと統合して通知を送信するように構成することができます。[Slack](https://slack.com/) or [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)
+Azure Security Centerは、潜在的な脅威が検出された場合にセキュリティアラートを生成します。これらのアラートでは、脅威に関する詳細な情報と、リスクを軽減するための推奨事項が提供されます。Azure Security Centerは、電子メール、SMS、または以下のようなサードパーティ製ツールと連携して通知を送信するよう設定できます。[Slack](https://slack.com/) や [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)
 
 ### コンプライアンス報告書
 
@@ -240,11 +242,11 @@ ______
 
 Azure Security Centerを最大限に活用するために、以下の推奨される実践方法の実施をご検討ください：
 
-1. **すべてのサブスクリプションで Azure Security Center を有効にする**：すべてのサブスクリプションでAzure Security Centerを有効にする**：すべてのAzureサブスクリプションがAzure Security Centerによって保護されていることを確認することは、安全なクラウド環境を維持するために重要です。
-2.**Secure Scoreを定期的に確認する**：Secure Scoreをモニタリングすることで、全体的なセキュリティ状況を把握し、改善が必要な領域を特定することができます。
-3.**セキュリティ勧告を実施する**：Azure Security Centerが提供するセキュリティ勧告に対処することで、セキュリティ態勢を改善し、潜在的なリスクを低減することができます。
-4.**セキュリティ警告の監視**：潜在的な脅威を軽減し、安全な環境を維持するために、定期的にセキュリティアラートを確認し、対応する。
-5.**コンプライアンス要件に対応する**：コンプライアンスポリシーを定期的に見直し、更新することで、組織が最新の規制枠組みに準拠していることを確認する。
+1. **すべてのサブスクリプションで Azure Security Center を有効にする。** すべてのAzureサブスクリプションが保護されていることを確認し、安全なクラウド環境を維持します。
+2. **Secure Scoreを定期的に確認する**：Secure Scoreをモニタリングすることで、全体的なセキュリティ状況を把握し、改善が必要な領域を特定することができます。
+3. **セキュリティ勧告を実施する**：セキュリティ勧告に対処することで、セキュリティ態勢を改善し、潜在的なリスクを低減することができます。
+4. **セキュリティ警告の監視**：潜在的な脅威を軽減し、安全な環境を維持するために、定期的にセキュリティアラートを確認し、対応する。
+5. **コンプライアンス要件に対応する**：コンプライアンスポリシーを定期的に見直し、更新することで、組織が最新の規制枠組みに準拠していることを確認する。
 
 ______
 ## Defender for Cloud の現在のワークフロー
@@ -268,8 +270,8 @@ ______
 
 
 ## 参考文献
-- [Azure Security Center Documentation](https://docs.microsoft.com/en-us/azure/security-center/)
-- [Azure Policy Service](https://docs.microsoft.com/en-us/azure/governance/policy/)
+- [Azure Security Center のドキュメント](https://docs.microsoft.com/en-us/azure/security-center/)
+- [Azure Policy サービス](https://docs.microsoft.com/en-us/azure/governance/policy/)
 - [NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
 - [CIS](https://www.cisecurity.org/)
 - [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html)

@@ -1,7 +1,7 @@
 ---
 title: "Proteggi il tuo ambiente cloud con Microsoft Defender for Cloud"
 date: 2023-04-10
-lastmod: 2026-11-14
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Proteggi i carichi di lavoro Azure con Microsoft Defender for Cloud. Consulta i termini storici di Azure Security Center, le raccomandazioni, i criteri e i passaggi di risposta."
@@ -39,7 +39,7 @@ ______
 
 ## Protezione delle risorse Azure
 
-**L'igiene della sicurezza delle risorse è un aspetto importante della protezione dell'ambiente cloud. L'Azure Security Center fornisce il **Secure Score**, una misurazione della postura di sicurezza, per aiutarvi a capire la sicurezza complessiva delle vostre risorse. Potete migliorare il vostro Secure Score seguendo le raccomandazioni fornite da Azure Security Center.
+**L'igiene della sicurezza delle risorse** è un aspetto importante della protezione dell'ambiente cloud. Azure Security Center fornisce **Secure Score**, una misurazione della postura di sicurezza, per aiutarvi a capire la sicurezza complessiva delle vostre risorse. Potete migliorare il vostro Secure Score seguendo le raccomandazioni fornite da Azure Security Center.
 
 ### Sicurezza di rete
 
@@ -56,10 +56,12 @@ az network nsg create --name MyNSG --resource-group MyResourceGroup
 # Aggiungi regole per consentire o bloccare il traffico
 az network nsg rule create --name MyNSGRule --nsg-name MyNSG --priority 100 --resource-group MyResourceGroup --access Allow --protocol Tcp --direction Inbound --source-address-prefixes '*' --source-port-ranges '*' --destination-address-prefixes '*' --destination-port-ranges '80'
 ```
-Per saperne di più[Network Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview) In produzione usa un intervallo di origine noto invece di consentire tutte le origini IPv4. Consulta la [panoramica sulla sicurezza degli NSG](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview). nella documentazione ufficiale.
+Per saperne di più sui [Network Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview) nella documentazione ufficiale.
+
+L’esempio precedente consente il traffico TCP in ingresso sulla porta 80 da qualsiasi origine IPv4. Per il traffico di produzione, usa un intervallo di origine noto, un endpoint privato o un percorso tramite un bilanciatore del carico. Prima di copiare l’esempio, consulta la [panoramica aggiornata sulla sicurezza degli NSG](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview).
 
 #### Azure Firewall
-Azure Firewall è un servizio di sicurezza di rete gestito e basato sul cloud che protegge le risorse di Azure. Offre funzionalità avanzate come il filtraggio basato sulle informazioni sulle minacce, le categorie web e la registrazione e l'analisi centralizzate. Per configurare Azure Firewall, è possibile seguire le seguenti istruzioni[quickstart instructions](https://learn.microsoft.com/en-us/azure/firewall-manager/quick-firewall-policy-bicep)
+Azure Firewall è un servizio di sicurezza di rete gestito e basato sul cloud che protegge le risorse di Azure. Offre funzionalità avanzate come il filtraggio basato sulle informazioni sulle minacce, le categorie web e la registrazione e l'analisi centralizzate. Per configurare Azure Firewall, è possibile seguire le [istruzioni di avvio rapido](https://learn.microsoft.com/en-us/azure/firewall-manager/quick-firewall-policy-bicep).
 
 #### Web Application Firewall (WAF)
 Il Web Application Firewall (WAF) è una funzionalità di **Azure Application Gateway** che fornisce protezione alle applicazioni web contro gli exploit web più comuni, come SQL injection, cross-site scripting e altre minacce. Il WAF può essere facilmente integrato con le applicazioni web esistenti ed è possibile configurare regole personalizzate per proteggere da specifici modelli di attacco.
@@ -80,15 +82,15 @@ az network public-ip create --name MyPublicIP --resource-group MyResourceGroup -
 az network application-gateway create --name MyAppGateway --resource-group MyResourceGroup --location EastUS --vnet-name MyVNet --subnet MySubnet --public-ip-address MyPublicIP --http-settings-cookie-based-affinity Enabled --sku WAF_v2 --waf-policy MyWafPolicy
 
 ```
-Per saperne di più[Web Application Firewall](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview) nella documentazione ufficiale.
+Per saperne di più su [Web Application Firewall](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview) nella documentazione ufficiale.
 
 ### Gestione dell'identità e degli accessi
 
-L'**Azure Active Directory (Azure AD)** è un componente essenziale per la protezione dell'ambiente cloud. Azure Security Center fornisce raccomandazioni per migliorare la gestione dell'identità e dell'accesso, come l'abilitazione dell'autenticazione a più fattori (MFA)**, l'implementazione del controllo dell'accesso basato sui ruoli (RBAC)** e il monitoraggio delle attività sospette.
+L'**Azure Active Directory (Azure AD)** è un componente essenziale per la protezione dell'ambiente cloud. Azure Security Center fornisce raccomandazioni per migliorare la gestione dell'identità e dell'accesso, come l'abilitazione dell'**autenticazione a più fattori (MFA)**, l'implementazione del **controllo dell'accesso basato sui ruoli (RBAC)** e il monitoraggio delle attività sospette.
 
 #### Autenticazione a più fattori (MFA)
 
-L'MFA aggiunge un ulteriore livello di sicurezza agli account Azure AD richiedendo agli utenti di fornire due o più forme di verifica prima di concedere l'accesso. È possibile abilitare l'MFA per l'organizzazione seguendo la procedura di cui sopra.[step-by-step guide](https://docs.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-azure-mfa) fornito da Microsoft.
+L'MFA aggiunge un ulteriore livello di sicurezza agli account Azure AD richiedendo agli utenti di fornire due o più forme di verifica prima di concedere l'accesso. È possibile abilitare l'MFA per l'organizzazione seguendo la [guida passo passo](https://docs.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-azure-mfa) fornita da Microsoft.
 
 Esempio: Abilitare l'MFA per un utente
 
@@ -103,7 +105,7 @@ $StrongAuthRequirements = @(@{"Location"=""; "SatisfactionFactor"="2"; "Verifica
 Set-AzureADUser -ObjectId $StsUserObjectID -StrongAuthenticationRequirements $StrongAuthRequirements
 ```
 #### Controllo dell'accesso basato sui ruoli (RBAC)
-RBAC consente di definire autorizzazioni granulari per le risorse di Azure, assicurando che gli utenti abbiano il livello di accesso appropriato. È possibile assegnare ruoli a utenti, gruppi o applicazioni per gestire il loro accesso alle risorse dell'organizzazione. Per implementare RBAC, seguite la procedura[official guide](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) da Microsoft.
+RBAC consente di definire autorizzazioni granulari per le risorse di Azure, assicurando che gli utenti abbiano il livello di accesso appropriato. È possibile assegnare ruoli a utenti, gruppi o applicazioni per gestire il loro accesso alle risorse dell'organizzazione. Per implementare RBAC, segui la [guida ufficiale](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) di Microsoft.
 
 Esempio: Assegnare un ruolo a un utente
 ```azurecli
@@ -113,7 +115,7 @@ az role assignment create --assignee johndoe@example.com --role "Reader" --scope
 #### Monitoraggio delle attività sospette
 Azure AD offre funzionalità come **Protezione dell'identità** e **Accesso condizionato** che aiutano a monitorare e rispondere alle attività sospette. Identity Protection utilizza algoritmi di apprendimento automatico per rilevare anomalie e tentativi di accesso rischiosi, mentre Conditional Access consente di impostare criteri che controllano l'accesso in base a fattori quali il dispositivo, la posizione e il livello di rischio.
 
-Per configurare Azure AD Identity Protection, seguite la seguente procedura[official guide](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-b2b) da Microsoft.
+Per configurare Azure AD Identity Protection, segui la [guida ufficiale](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-b2b) di Microsoft.
 
 Esempio: Creare un criterio di accesso condizionato
 
@@ -139,7 +141,7 @@ $GrantControls = @{
 New-AzureADMSConditionalAccessPolicy -DisplayName $PolicyName -State $PolicyState -Conditions $Conditions -GrantControls $GrantControls -Description $PolicyDescription
 
 ```
-Per saperne di più[Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview) e [Conditional Access](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/overview) nella documentazione ufficiale.
+Per saperne di più su [Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview) e [Conditional Access](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/overview) nella documentazione ufficiale.
 
 
 ### Sicurezza dei dati
@@ -148,7 +150,7 @@ La protezione dei dati nel cloud è fondamentale. Azure Security Center offre di
 
 #### Protezione delle informazioni di Azure
 
-**Azure Information Protection (AIP)** è una soluzione basata sul cloud che aiuta a classificare, etichettare e proteggere i documenti e le e-mail sensibili. AIP fornisce una serie di etichette integrate, come "Riservato" e "Personale", che possono essere personalizzate in base alle esigenze dell'organizzazione. È anche possibile configurare AIP per applicare automaticamente le etichette in base a regole predefinite. Per iniziare a usare AIP, seguite la procedura[official guide](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection) Azure Information Protection è un nome storico e la documentazione Sentinel attuale lo indica come deprecato. Consulta la documentazione Microsoft Purview Information Protection prima di una nuova distribuzione.
+**Azure Information Protection (AIP)** è una soluzione basata sul cloud che aiuta a classificare, etichettare e proteggere i documenti e le e-mail sensibili. AIP fornisce una serie di etichette integrate, come "Riservato" e "Personale", che possono essere personalizzate in base alle esigenze dell'organizzazione. È anche possibile configurare AIP per applicare automaticamente le etichette in base a regole predefinite. Per iniziare a usare AIP, segui la [guida ufficiale](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection). Azure Information Protection è un nome storico del prodotto e la documentazione Sentinel attuale lo indica come deprecato. Consulta la documentazione Microsoft Purview Information Protection prima di una nuova distribuzione.
 
 Esempio: Creazione di un'etichetta personalizzata
 
@@ -157,7 +159,7 @@ Esempio: Creazione di un'etichetta personalizzata
 Connect-AipService
 
 # Creare un'etichetta personalizzata con impostazioni di protezione
-$LabelName = "Sensitive - Internal Use Only"
+$LabelName = "Sensibile - Solo uso interno"
 $LabelDescription = "Questa etichetta applica la crittografia e una politica di accesso esclusivamente per uso interno."
 $LabelProtectionSettings = @{
     "ContentExpirationDate" = (Get-Date).AddMonths(6).ToUniversalTime();
@@ -167,7 +169,7 @@ $LabelProtectionSettings = @{
 New-AipServiceLabel -Name $LabelName -Description $LabelDescription -ProtectionSettings $LabelProtectionSettings
 ```
 #### Crittografia del servizio di archiviazione di Azure
-L'opzione **Azure Storage Service Encryption (SSE**) cripta automaticamente i dati a riposo negli account di Azure Storage, compresi gli archivi Blob, File, Table e Queue. SSE utilizza chiavi gestite da Azure o dal cliente per fornire la crittografia a livello di account di archiviazione. Per abilitare SSE, seguire la procedura[step-by-step guide](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption) fornito da Microsoft.
+L'opzione **Azure Storage Service Encryption (SSE)** cifra automaticamente i dati inattivi negli account Azure Storage, inclusi gli archivi Blob, File, Table e Queue. SSE usa chiavi gestite da Azure o dal cliente per cifrare i dati a livello di account di archiviazione. Per abilitare SSE, segui la [guida passo passo](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption) di Microsoft.
 
 Esempio: Abilitazione di SSE per un account di archiviazione
 
@@ -176,7 +178,7 @@ Esempio: Abilitazione di SSE per un account di archiviazione
 az storage account update --name mystorageaccount --resource-group myresourcegroup --encryption-services blob file
 ```
 #### Crittografia disco di Azure
-La **Crittografia disco di Azure** consente di proteggere i dischi delle macchine virtuali crittografandoli con BitLocker (Windows) o dm-crypt (Linux). Le chiavi di crittografia e i segreti sono protetti da Azure Key Vault, garantendo la sicurezza dei dati a riposo. Per abilitare la crittografia del disco di Azure, seguire la procedura[official guide](https://learn.microsoft.com/en-us/azure/virtual-machines/disk-encryption-overview) da Microsoft.
+La **Crittografia disco di Azure** consente di proteggere i dischi delle macchine virtuali crittografandoli con BitLocker (Windows) o dm-crypt (Linux). Le chiavi di crittografia e i segreti sono protetti da Azure Key Vault, garantendo la sicurezza dei dati a riposo. Per abilitare Azure Disk Encryption, segui la [guida ufficiale](https://learn.microsoft.com/en-us/azure/virtual-machines/disk-encryption-overview) di Microsoft.
 
 Esempio: Abilitazione di Azure Disk Encryption per una macchina virtuale
 ```azurecli
@@ -192,7 +194,7 @@ Azure Security Center utilizza funzionalità avanzate di rilevamento delle minac
 
 ### Rilevamento delle minacce
 
-Azure Security Center utilizza **Azure Defender**, un insieme di funzionalità avanzate di rilevamento delle minacce, per identificare potenziali minacce alla sicurezza. Azure Defender monitora le risorse alla ricerca di indicatori di compromissione e fornisce avvisi e raccomandazioni per aiutarvi a rispondere alle potenziali minacce. Per abilitare Azure Defender, seguire la procedura[official guide](https://docs.microsoft.com/en-us/azure/security-center/defender-for-cloud-enable)
+Azure Security Center utilizza **Azure Defender**, un insieme di funzionalità avanzate di rilevamento delle minacce, per identificare potenziali minacce alla sicurezza. Azure Defender monitora le risorse alla ricerca di indicatori di compromissione e fornisce avvisi e raccomandazioni per aiutarvi a rispondere alle potenziali minacce. Per abilitare Azure Defender, segui la [guida ufficiale](https://docs.microsoft.com/en-us/azure/security-center/defender-for-cloud-enable).
 
 Esempio: Abilitazione di Azure Defender per un abbonamento
 
@@ -211,7 +213,7 @@ az group create --name MyResourceGroup --location EastUS
 # Crea una Logic App
 az logic workflow create --resource-group MyResourceGroup --location EastUS --name MyPlaybook --definition @playbook-definition.json
 ```
-Il`playbook-definition.json` deve contenere la definizione del playbook di Logic App. Si possono trovare esempi di playbook per Azure Sentinel nel file[Azure-Sentinel GitHub repository](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks)
+Il file `playbook-definition.json` deve contenere la definizione del playbook di Logic App. Gli esempi di playbook per Azure Sentinel sono disponibili nel [repository Azure Sentinel su GitHub](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks).
 
 Sfruttando le funzionalità di rilevamento delle minacce di Azure Security Center e integrandosi con Azure Sentinel, è possibile creare una solida strategia di sicurezza per rilevare e rispondere alle minacce nell'ambiente Azure. Per saperne di più su [Azure Defender](https://learn.microsoft.com/en-us/azure/defender-for-cloud/enable-enhanced-security) e [Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/overview) nella documentazione ufficiale.
 ______
@@ -228,7 +230,7 @@ Il dashboard di sicurezza di Azure Security Center fornisce una panoramica compl
 
 ### Avvisi di sicurezza
 
-Azure Security Center genera avvisi di sicurezza quando vengono rilevate potenziali minacce. Questi avvisi forniscono informazioni dettagliate sulla minaccia e consigli per ridurre il rischio. È possibile configurare il Centro sicurezza di Azure per inviare notifiche via e-mail, SMS o integrarsi con strumenti di terze parti quali[Slack](https://slack.com/) or [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)
+Azure Security Center genera avvisi di sicurezza quando vengono rilevate potenziali minacce. Questi avvisi forniscono informazioni dettagliate sulla minaccia e consigli per ridurre il rischio. È possibile configurare il Centro sicurezza di Azure per inviare notifiche via e-mail, SMS o integrarsi con strumenti di terze parti quali [Slack](https://slack.com/) o [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software).
 
 ### Rapporti di conformità
 
@@ -268,8 +270,8 @@ Per una distribuzione attuale, usa questa sequenza. I nomi nelle sezioni origina
 
 
 ## Riferimenti
-- [Azure Security Center Documentation](https://docs.microsoft.com/en-us/azure/security-center/)
-- [Azure Policy Service](https://docs.microsoft.com/en-us/azure/governance/policy/)
+- [Documentazione di Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/)
+- [Servizio Azure Policy](https://docs.microsoft.com/en-us/azure/governance/policy/)
 - [NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
 - [CIS](https://www.cisecurity.org/)
 - [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html)
