@@ -137,6 +137,10 @@
 - In fenced examples, preserve executable syntax, commands, identifiers, and
   literal output. Translate natural-language comments and reader instructions
   inside the fence, including lines such as `# Build and flash for Atom Lite`.
+  Translate reader-facing strings returned by examples, including short
+  greetings such as `Hello,`. Check `return` values as well as `print` and log
+  calls. The strict leakage gate blocks unchanged source-matched short greetings
+  in code output.
   Localize unchanged natural-language sample inputs in code, such as a YAML
   `user_input: "Hello! This is a string with non-alphanumeric characters."`
   value. Keep the key and example logic unchanged, and translate only the
@@ -669,15 +673,18 @@
   reader paragraph, multiple copied English paragraphs, English-dominant prose,
   missing expected scripts, copied reader-facing
   openings, linked-list connectors, English-heavy code comments or sample
-  values, and high-confidence English titles that differ from the source. The
+  values, copied reader-facing descriptions, image alt text, captions, and
+  high-confidence English titles that differ from the source. The metadata
+  parser covers quoted, plain, folded, and literal YAML scalars. Exact copied
+  titles remain a review finding because product and proper names can be valid.
+  The
   CSV also queues retained `vs` comparators for manual review; the abbreviation
   alone does not fail the strict gate. Preserve product names and localize the
   connector when the target-language title needs it. An English list of brands
   is not a localized title. The broader checker
   remains a manual-review gate for shorter copied passages, reader-facing
-  examples, headings, metadata, and false positives. The high-confidence gate
-  does not block exact copied titles, descriptions, image alt text, captions,
-  or taxonomy values outside the reviewed generic-label set. Review those
+  examples, headings, exact copied titles, taxonomy values outside the reviewed
+  generic-label set, and false positives. Review those
   full-checker findings before approval. Translate
   descriptive values. Keep exact source wording only for a verified official
   name or fixed value, and record the reason.

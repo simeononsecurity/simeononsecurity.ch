@@ -307,6 +307,101 @@ def yaml_sequence_values(raw: str) -> list[str]:
     return parsed
 
 
+def yaml_unquoted_comment(value: str) -> str:
+    """Remove a YAML comment from an unquoted scalar value."""
+    quote = None
+    for index, char in enumerate(value):
+        if quote == "'" and char == "'" and index + 1 < len(value) and value[index + 1] == "'":
+            continue
+        if quote == '"' and char == "\\":
+            continue
+        if quote and char == quote:
+            quote = None
+        elif not quote and char in {"'", '"'}:
+            quote = char
+        elif not quote and char == "#" and (index == 0 or value[index - 1].isspace()):
+            return value[:index].rstrip()
+    return value.strip()
+
+
+def yaml_quoted_scalar_end(value: str, quote: str) -> int | None:
+    """Return the closing quote position when a YAML quoted scalar is complete."""
+    index = 1
+    while index < len(value):
+        char = value[index]
+        if quote == "'" and char == "'" and index + 1 < len(value) and value[index + 1] == "'":
+            index += 2
+            continue
+        if quote == '"' and char == "\\":
+            index += 2
+            continue
+        if char == quote:
+            remainder = value[index + 1:].lstrip()
+            if not remainder or remainder.startswith("#"):
+                return index
+        index += 1
+    return None
+
+
+def yaml_scalar_value(lines: list[str], index: int, raw_value: str) -> tuple[str, int]:
+    """Read a quoted, plain, or block scalar and return its next line index."""
+    value = raw_value.strip()
+    block = re.fullmatch(r"[>|](?:[+-][1-9]?|[1-9][+-]?)?", value)
+    if block:
+        style = value[0]
+        content: list[str] = []
+        content_indent: int | None = None
+        parent_indent = len(lines[index]) - len(lines[index].lstrip())
+        next_index = index + 1
+        while next_index < len(lines):
+            line = lines[next_index]
+            if line.strip():
+                indent = len(line) - len(line.lstrip())
+                if indent <= parent_indent:
+                    break
+                if content_indent is None:
+                    content_indent = indent
+                elif indent < content_indent:
+                    break
+            content.append(line.strip())
+            next_index += 1
+        separator = "\n" if style == "|" else " "
+        return separator.join(content).strip(), next_index
+
+    if value.startswith(('"', "'")):
+        quote = value[0]
+        scalar_parts = [value]
+        next_index = index + 1
+        while yaml_quoted_scalar_end(scalar_parts[-1], quote) is None and next_index < len(lines):
+            scalar_parts.append(lines[next_index].strip())
+            next_index += 1
+        scalar = " ".join(scalar_parts).strip()
+        end = yaml_quoted_scalar_end(scalar, quote)
+        if end is not None:
+            scalar = scalar[:end + 1]
+        if len(scalar) > 1 and scalar[0] == scalar[-1] == '"':
+            try:
+                scalar = json.loads(scalar)
+            except json.JSONDecodeError:
+                scalar = scalar[1:-1].replace('\\"', '"')
+        elif len(scalar) > 1 and scalar[0] == scalar[-1] == "'":
+            scalar = scalar[1:-1].replace("''", "'")
+        return str(scalar), next_index
+
+    return yaml_unquoted_comment(value), index + 1
+
+
+def yaml_front_matter_scalar(header: str, key: str) -> str | None:
+    """Read a YAML front-matter scalar, including folded and unquoted values."""
+    lines = header.splitlines()
+    for index, line in enumerate(lines):
+        match = re.match(rf"^{re.escape(key)}\s*:\s*(.*)$", line)
+        if match:
+            value, _ = yaml_scalar_value(lines, index, match.group(1))
+            return value
+    return None
+
+
 def yaml_front_matter_lists(header: str, key: str) -> list[str]:
     """Read an inline or block-style YAML list from article front matter."""
     lines = header.splitlines()
@@ -347,9 +442,9 @@ def read_page(path: Path) -> tuple[dict, str]:
         except ValueError:
             pass
     for key in ("title", "description", "coverAlt", "coverCaption"):
-        value = re.search(rf"(?m)^{re.escape(key)}\s*:\s*(['\"])(.*?)\1\s*$", header)
-        if value:
-            metadata[key] = value.group(2)
+        value = yaml_front_matter_scalar(header, key)
+        if value is not None:
+            metadata[key] = value
     for key in ("genre", "tags"):
         values = yaml_front_matter_lists(header, key)
         if values:
@@ -861,6 +956,11 @@ def reader_fenced_code_prose(text: str) -> set[str]:
                 words = normalize(text_value).split()
                 if len(words) >= 5 and sum(word in ENGLISH_STOPWORDS for word in words) >= 2:
                     findings.add(normalize(text_value))
+            returned_text = re.search(r"\breturn\s+([\"'])(.*?)\1", line)
+            if returned_text:
+                text_value = returned_text.group(2).strip()
+                if normalize(text_value):
+                    findings.add(normalize(text_value))
             inline_markers: list[tuple[str, bool]] = []
             if any(marker.startswith("#") for marker in line_comment_markers):
                 inline_markers.append((r"#", language in hash_inline_requires_space))
@@ -1073,8 +1173,18 @@ def copied_reader_code_prose(source: str, target: str) -> set[str]:
 
 def english_reader_code_prose_fallback(source: str, target: str) -> list[str]:
     """Screen copied code prose for English stopword-dense sentences and comments."""
+    short_reader_strings = {
+        "hello",
+        "hello there",
+        "welcome",
+        "thank you",
+        "please",
+    }
     findings = []
     for phrase in copied_reader_code_prose(source, target):
+        if phrase in short_reader_strings:
+            findings.append(phrase)
+            continue
         words = re.findall(r"[a-z]+(?:'[a-z]+)?", phrase.lower())
         if len(words) < 5:
             continue
@@ -2391,9 +2501,18 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             key for key in ("title", "description", "coverAlt", "coverCaption")
             if isinstance(metadata.get(key), str)
             and isinstance(source_meta.get(key), str)
-            and len(normalize(str(source_meta[key])).split()) >= 3
+            and len(normalize(str(source_meta[key])).split()) >= {
+                "title": 3,
+                "description": 1,
+                "coverAlt": 2,
+                "coverCaption": 2,
+            }[key]
             and normalize(str(metadata[key])) == normalize(str(source_meta[key]))
         ]
+        if copied_metadata:
+            reasons.append("copied_english_metadata")
+        if any(key in copied_metadata for key in ("description", "coverAlt", "coverCaption")):
+            reasons.append("copied_english_reader_metadata")
         copied_taxonomy = copied_english_taxonomy(source_meta, metadata)
         copied_generic_taxonomy = copied_generic_english_taxonomy(
             source_meta, metadata, locale
@@ -2607,6 +2726,7 @@ def main() -> int:
             "copied_english_mixed_phrase",
             "high_density_copied_english_mixed_phrases",
             "copied_english_generic_term",
+            "copied_english_reader_metadata",
             "English_reader_table_cell_copy",
             "copied_generic_english_taxonomy",
             "taxonomy_count_mismatch",

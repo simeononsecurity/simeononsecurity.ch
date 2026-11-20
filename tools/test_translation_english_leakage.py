@@ -55,11 +55,128 @@ from check_translation_english_leakage import (
     script_ratio,
     split_word_emphasis,
     yaml_front_matter_lists,
+    yaml_front_matter_scalar,
     visible_text,
 )
 
 
 class FencedProseTests(unittest.TestCase):
+    def test_front_matter_scalar_reads_unquoted_and_folded_english_metadata(self):
+        header = (
+            "title: English title\n"
+            "description: >-\n"
+            "  This is an English description\n"
+            "  that continues on another line.\n"
+            "coverAlt: |\n"
+            "  English cover text\n"
+            "  with a second line.\n"
+        )
+        self.assertEqual(yaml_front_matter_scalar(header, "title"), "English title")
+        self.assertEqual(
+            yaml_front_matter_scalar(header, "description"),
+            "This is an English description that continues on another line.",
+        )
+        self.assertEqual(
+            yaml_front_matter_scalar(header, "coverAlt"),
+            "English cover text\nwith a second line.",
+        )
+
+    def test_strict_gate_blocks_exact_english_description_in_yaml(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            source = (
+                "---\ntitle: 'Access review'\n"
+                "description: >-\n"
+                "  Administrators review each access request before granting permission.\n"
+                "---\n\nLocalized body text.\n"
+            )
+            target = source.replace(
+                "title: 'Access review'", "title: 'Vérification des accès'"
+            ).replace("Localized body text.", "Texte localisé.")
+            (bundle / "index.en.md").write_text(source, encoding="utf-8")
+            (bundle / "index.fr.md").write_text(target, encoding="utf-8")
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch.object(
+                    sys,
+                    "argv",
+                    ["checker", "--fail-on-english-fallback", str(bundle)],
+                ),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("copied_english_reader_metadata", stdout.getvalue())
+
+    def test_quoted_yaml_scalar_with_comment_does_not_consume_following_metadata(self):
+        header = (
+            'description: "The \\\"Access Guide\\\"" # copied source text\n'
+            'coverAlt: "Localized illustration"\n'
+        )
+        self.assertEqual(
+            yaml_front_matter_scalar(header, "description"),
+            'The "Access Guide"',
+        )
+        self.assertEqual(
+            yaml_front_matter_scalar(header, "coverAlt"),
+            "Localized illustration",
+        )
+
+    def test_empty_block_scalar_does_not_consume_next_top_level_field(self):
+        header = 'description: |\ncoverAlt: "Localized illustration"\n'
+        self.assertEqual(yaml_front_matter_scalar(header, "description"), "")
+        self.assertEqual(
+            yaml_front_matter_scalar(header, "coverAlt"),
+            "Localized illustration",
+        )
+
+    def test_strict_gate_blocks_short_copied_description_and_image_metadata(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            source = (
+                "---\ntitle: 'Access review'\n"
+                "description: Overview\n"
+                "coverAlt: Access review\n"
+                "coverCaption: |\n"
+                "  Request workflow\n"
+                "---\n\nEnglish text describes the review process in detail.\n"
+            )
+            target = (
+                "---\ntitle: 'Revisión de acceso'\n"
+                "description: Overview\n"
+                "coverAlt: Access review\n"
+                "coverCaption: |\n"
+                "  Request workflow\n"
+                "---\n\nEl texto describe el proceso de revisión con detalle.\n"
+            )
+            (bundle / "index.en.md").write_text(source, encoding="utf-8")
+            (bundle / "index.es.md").write_text(target, encoding="utf-8")
+            stdout = io.StringIO()
+            report = Path(temporary_directory) / "metadata.csv"
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["es"]),
+                patch.object(
+                    sys,
+                    "argv",
+                    ["checker", "--fail-on-english-fallback", "--csv", str(report), str(bundle)],
+                ),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+            with report.open(encoding="utf-8", newline="") as handle:
+                findings = list(csv.DictReader(handle))
+
+        self.assertEqual(result, 1)
+        self.assertIn("copied_english_reader_metadata", findings[0]["reasons"])
+        self.assertEqual(
+            findings[0]["copied_english_metadata"],
+            "description: Overview | coverAlt: Access review | coverCaption: Request workflow",
+        )
+
     def test_non_strict_summary_excludes_drafts_from_published_count(self):
         with TemporaryDirectory() as temporary_directory:
             articles = Path(temporary_directory) / "content" / "articles"
@@ -2644,6 +2761,39 @@ class FencedProseTests(unittest.TestCase):
 
         self.assertEqual(result, 1)
         self.assertIn("English_reader_code_prose_fallback", stdout.getvalue())
+
+    def test_strict_gate_blocks_copied_short_greeting_in_code_output(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Safe output encoding'\n---\n"
+                "## Example\n\nEncode output before rendering it.\n\n"
+                "```python\ndef greet():\n    return 'Hello, '\n```\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.es.md").write_text(
+                "---\ntitle: 'Codificación de salida segura'\n---\n"
+                "## Ejemplo\n\nCodifique la salida antes de mostrarla.\n\n"
+                "```python\ndef greet():\n    return 'Hello, '\n```\n",
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["es"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("English_reader_code_prose_fallback", stdout.getvalue())
+
+    def test_short_hi_output_stays_in_manual_review_queue(self):
+        example = '```python\nprint("Hi")\n```\n'
+
+        self.assertIn("hi", copied_reader_code_prose(example, example))
+        self.assertNotIn("hi", english_reader_code_prose_fallback(example, example))
 
     def test_strict_gate_blocks_unchanged_reader_facing_formula_lines(self):
         with TemporaryDirectory() as temporary_directory:
