@@ -1,7 +1,7 @@
 ---
 title: "Resoldre errors de disc: guia completa per comprovar unitats"
 date: 2024-02-24
-lastmod: 2026-11-13
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Aprèn mètodes pràctics per diagnosticar i mantenir unitats. Protegeix les dades amb còpies de seguretat fiables i comprovacions específiques."
@@ -119,7 +119,7 @@ El programari de tercers ofereix funcions addicionals a les utilitats integrades
 Algunes opcions conegudes són:
 
 * **DiskWarrior**: conegut per reparar errors de directori i reconstruir estructures de directori danyades.
-* **SpinRite**: analitza els discs a baix nivell i intenta recuperar dades de discs físicament danyats.
+* **SpinRite**: escaneja i repara discs físicament danyats a baix nivell per intentar recuperar-ne les dades.
 * **HD Tune**: mostra informació sobre l'estat del disc, n'analitza els errors i ofereix proves de rendiment i optimització.
 
 Quan triïs una eina, considera'n la compatibilitat amb el sistema operatiu, la facilitat d'ús i les funcions necessàries.
@@ -192,7 +192,7 @@ Aquestes tècniques ajuden a detectar i resoldre errors de disc:
 
 1. **Cercar sectors defectuosos**: utilitza eines d'anàlisi per detectar i marcar sectors il·legibles o amb errors.
 
-2. **Comprovar els atributs SMART**: SMART (Self-Monitoring, Analysis, and Reporting Technology) està disponible a la majoria dels discs durs moderns. Supervisa diversos atributs i pot avisar amb antelació de possibles fallades.
+2. **Comprovar els atributs SMART**: SMART (tecnologia d’automonitoratge, anàlisi i generació d’informes (Self-Monitoring, Analysis, and Reporting Technology)) està disponible a la majoria dels discs durs moderns. Supervisa diversos atributs i pot avisar amb antelació de possibles fallades.
 
 3. **Analitzar registres d'errors**: les utilitats de comprovació sovint generen registres amb informació sobre els tipus i la freqüència dels errors. Analitzar-los ajuda a trobar-ne la causa.
 
@@ -226,7 +226,7 @@ Segueix un mètode sistemàtic per identificar i resoldre problemes:
 * **Executa diagnòstics del disc**: analitza'l a fons amb eines integrades o programari de tercers per detectar errors físics o lògics.
 * **Comprova si hi ha actualitzacions del microprogramari**: un microprogramari obsolet pot causar errors. Consulta el web del fabricant.
 * **Cerca programari maliciós**: analitza el sistema amb un antivirus fiable, perquè les infeccions també poden causar errors.
-* **Comprova l'estat del disc**: supervisa les dades SMART (Self-Monitoring, Analysis, and Reporting Technology), que poden advertir aviat de fallades possibles.
+* **Comprova l'estat del disc**: supervisa les dades SMART (tecnologia d’automonitoratge, anàlisi i generació d’informes (Self-Monitoring, Analysis, and Reporting Technology)), que poden advertir aviat de fallades possibles.
 
 Amb aquests passos podràs diagnosticar i resoldre els errors de disc eficaçment.
 
@@ -260,7 +260,7 @@ Una estratègia proactiva de còpia i recuperació ajuda a evitar conseqüèncie
 
 ### Reparar errors de disc
 
-Hi ha diverses tècniques i eines per reparar errors:
+Hi ha diverses tècniques i eines per **reparar errors**:
 
 * **Analitzar el disc**: l'anàlisi detecta i repara errors, comprova la integritat del sistema de fitxers i corregeix les incoherències trobades.
 * **Utilitats de reparació**: molts sistemes operatius inclouen eines per corregir automàticament errors habituals, com ara sectors defectuosos i problemes del sistema de fitxers.
@@ -344,7 +344,7 @@ Una supervisió eficaç ajuda a detectar abans els problemes i a protegir la int
 
 ### Bones pràctiques d'ús del disc
 
-Aquestes pràctiques ajuden a optimitzar l'ús del disc i prevenir errors:
+Aquestes pràctiques ajuden a optimitzar **el rendiment del disc** i prevenir errors:
 
 * **Supervisa periòdicament l'espai lliure** per evitar que el disc arribi a un nivell crític.
 * **No sobrecarreguis el disc** amb fitxers i aplicacions innecessaris.
@@ -375,7 +375,7 @@ Coneix les causes habituals i pren mesures preventives:
 
 ### Actualitzar o substituir discs defectuosos
 
-Quan actualitzis o substitueixis discs defectuosos, tingues en compte aquests factors:
+Quan **actualitzis o substitueixis discs defectuosos**, tingues en compte aquests factors:
 
 * **Compatibilitat**: comprova que el disc nou sigui compatible amb el maquinari i el sistema operatiu.
 * **Capacitat**: tria prou espai per a les necessitats actuals i el creixement futur.
@@ -393,9 +393,9 @@ Segueix també aquestes pràctiques durant l'actualització o la substitució:
 Conclusió
 ---------
 
-**Entendre i gestionar els errors de disc** ajuda a protegir la integritat i la fiabilitat de les dades. Per gestionar-los bé, és important conèixer els tipus i les causes habituals i el seu impacte. Reconeix els senyals i aplica mesures preventives, com el manteniment i la supervisió periòdics. Així reduiràs el risc de pèrdua de dades i d'avaries del sistema.
+**Entendre i gestionar els errors de disc** ajuda a protegir la **integritat i la fiabilitat** de les dades. Per gestionar-los bé, és important conèixer els tipus i les causes habituals i el seu impacte. Reconeix els senyals i aplica mesures preventives, com el manteniment i la supervisió periòdics. Així reduiràs el risc de pèrdua de dades i d'avaries del sistema.
 
-Les eines de comprovació ajuden a detectar i diagnosticar errors. Tria la utilitat integrada o el programari de tercers adequat i segueix bones pràctiques. Les tècniques de diagnòstic i l'anàlisi dels registres ajuden a trobar les causes i resoldre els problemes.
+Les eines de comprovació ajuden a detectar i diagnosticar errors. Tria la utilitat integrada o el programari de tercers adequat i segueix bones pràctiques. Les **tècniques de diagnòstic** i **l'anàlisi dels registres** ajuden a trobar les causes i resoldre els problemes.
 
 Les còpies de seguretat i les estratègies de recuperació són essencials per reduir les pèrdues. Repara els errors i recupera dades de discs danyats amb cura per evitar més danys. Reconstrueix les matrius després dels errors per restaurar la redundància i l'estabilitat del sistema.
 
