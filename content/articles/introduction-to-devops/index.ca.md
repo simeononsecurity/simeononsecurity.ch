@@ -1,11 +1,11 @@
 ---
 title: "Introducció a DevOps"
 date: 2023-06-02
-lastmod: 2026-11-16
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Aprèn com DevOps connecta desenvolupament i operacions per simplificar el lliurament de programari i millorar l'eficiència."
-tags: ["DevOps", "desenvolupament de programari", "operacions", "col·laboració", "integració contínua", "lliurament continu", "infraestructura com a codi", "supervisió", "cicles de retroacció", "temps de sortida al mercat", "eficiència", "qualitat", "fiabilitat", "HIPAA", "GDPR", "compliment", "seguretat", "auditoria", "traçabilitat", "automatització", "comunicació", "àgil", "CICD", "desplegament de programari", "cicle de vida del programari", "sistemes de programari", "indústria del programari", "seguretat de les dades", "normativa", "actualitzacions de programari", "avantatge competitiu", "privadesa de les dades", "protecció de dades", "evolució de la indústria del programari"]
+tags: ["DevOps", "desenvolupament de programari", "operacions", "col·laboració", "integració contínua", "lliurament continu", "infraestructura com a codi", "supervisió", "cicles de retroacció", "temps de sortida al mercat", "eficiència", "qualitat", "fiabilitat", "HIPAA", "RGPD", "compliment", "seguretat", "auditoria", "traçabilitat", "automatització", "comunicació", "àgil", "CICD", "desplegament de programari", "cicle de vida del programari", "sistemes de programari", "indústria del programari", "seguretat de les dades", "normativa", "actualitzacions de programari", "avantatge competitiu", "privadesa de les dades", "protecció de dades", "evolució de la indústria del programari"]
 cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.webp"
 coverAlt: "Il·lustració de dibuixos animats amb professionals del desenvolupament i les operacions que col·laboren, símbol del pont entre aquests àmbits a DevOps."
 coverCaption: ""
@@ -65,9 +65,9 @@ Aplicar pràctiques DevOps pot aportar diversos avantatges:
 
 En alguns sectors, les organitzacions han de complir normes governamentals sobre desenvolupament de programari i seguretat de les dades. DevOps hi pot contribuir promovent la **seguretat**, l'**auditoria** i la **traçabilitat** durant tot el cicle de vida del programari.
 
-Per exemple, als Estats Units, la **Health Insurance Portability and Accountability Act (HIPAA)** estableix normes estrictes per gestionar dades sanitàries. Les pràctiques DevOps ajuden a complir-les amb controls de seguretat, protecció de la privadesa de les dades i registres d'auditoria.
+Per exemple, als Estats Units, la **Llei de portabilitat i responsabilitat de les assegurances mèdiques (HIPAA)** estableix normes estrictes per gestionar dades sanitàries. Les pràctiques DevOps ajuden a complir-les amb controls de seguretat, protecció de la privadesa de les dades i registres d'auditoria.
 
-De manera semblant, el **Reglament general de protecció de dades (GDPR)** de la Unió Europea regula la protecció de dades personals. DevOps pot ajudar a complir-lo incorporant la privadesa des del disseny, fent avaluacions de seguretat periòdiques i aplicant procediments de resposta a les violacions de dades.
+De manera semblant, el **Reglament general de protecció de dades (RGPD)** de la Unió Europea regula la protecció de dades personals. DevOps pot ajudar a complir-lo incorporant la privadesa des del disseny, fent avaluacions de seguretat periòdiques i aplicant procediments de resposta a les violacions de dades.
 
 Les organitzacions de sectors regulats han d'entendre els requisits concrets de les normes aplicables i adaptar-hi les pràctiques DevOps.
 
@@ -79,4 +79,4 @@ DevOps uneix els equips de desenvolupament i operacions per simplificar el desen
 
 Referències:
 - [Llei de portabilitat i responsabilitat de les assegurances mèdiques dels Estats Units (HIPAA)](https://www.hhs.gov/hipaa/index.html)
-- [Reglament general de protecció de dades (GDPR)](https://ec.europa.eu/info/law/law-topic/data-protection_en)
+- [Reglament general de protecció de dades (RGPD)](https://ec.europa.eu/info/law/law-topic/data-protection_en)

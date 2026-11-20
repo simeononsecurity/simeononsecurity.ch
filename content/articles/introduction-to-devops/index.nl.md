@@ -1,10 +1,11 @@
 ---
 title: "Inleiding tot DevOps: het overbruggen van de kloof tussen ontwikkeling en operatie"
 date: 2023-06-02
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Leer hoe DevOps de kloof tussen ontwikkeling en operatie overbrugt, de levering van software stroomlijnt en de efficiëntie maximaliseert."
-tags: ["DevOps", "softwareontwikkeling", "operaties", "samenwerking", "voortdurende integratie", "continue levering", "infrastructuur als code", "controle", "feedback-lussen", "time-to-market", "efficiëntie", "kwaliteit", "betrouwbaarheid", "HIPAA", "GDPR", "compliance", "beveiliging", "auditing", "traceerbaarheid", "automatisering", "communicatie", "agile", "CICD", "software-implementatie", "softwarelevenscyclus", "softwaresystemen", "software-industrie", "gegevensbeveiliging", "voorschriften", "software-updates", "concurrentievoordeel", "gegevensprivacy", "gegevensbescherming", "evolutie van de software-industrie"]
+tags: ["DevOps", "softwareontwikkeling", "operaties", "samenwerking", "voortdurende integratie", "continue levering", "infrastructuur als code", "monitoring", "feedback-lussen", "time-to-market", "efficiëntie", "kwaliteit", "betrouwbaarheid", "HIPAA", "AVG", "compliance", "beveiliging", "auditing", "traceerbaarheid", "automatisering", "communicatie", "agile", "CICD", "software-implementatie", "softwarelevenscyclus", "softwaresystemen", "software-industrie", "gegevensbeveiliging", "voorschriften", "software-updates", "concurrentievoordeel", "gegevensprivacy", "gegevensbescherming", "evolutie van de software-industrie"]
 cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.webp"
 coverAlt: "Een cartoonillustratie met ontwikkelaars en operations professionals die samenwerken, als symbool voor de brug tussen ontwikkeling en operations in DevOps."
 coverCaption: ""
@@ -18,7 +19,7 @@ DevOps is een term die de laatste jaren sterk aan populariteit heeft gewonnen in
 
 {{< youtube id="UbtB4sMaaNM" >}}
 
-**DevOps**, een combinatie van "development" en "operations", is een aanpak die zich richt op de samenwerking en integratie tussen softwareontwikkelaars en IT operations teams. Het doel is de silo's tussen deze twee teams te doorbreken en een efficiënter en effectiever softwareontwikkelingsproces te creëren.
+**DevOps**, een combinatie van "development" (ontwikkeling) en "operations" (IT-beheer), is een aanpak die zich richt op de samenwerking en integratie tussen softwareontwikkelaars en IT operations teams. Het doel is de silo's tussen deze twee teams te doorbreken en een efficiënter en effectiever softwareontwikkelingsproces te creëren.
 
 Traditioneel werkten ontwikkel- en operationeel teams geïsoleerd, met weinig interactie tussen hen. Ontwikkelaars schreven de code en gaven die door aan het operationele team, dat de code vervolgens implementeerde en onderhield. Deze aanpak leidde vaak tot vertragingen, miscommunicatie en problemen als gevolg van verschillen in prioriteiten en doelstellingen.
 
@@ -30,15 +31,15 @@ DevOps probeert deze problemen aan te pakken door een cultuur van samenwerking, 
 
 {{< youtube id="1er2cjUq1UI" >}}
 
-**Continuous Integration (CI)** is een ontwikkelingspraktijk waarbij codewijzigingen van meerdere ontwikkelaars regelmatig worden samengevoegd in een gedeelde repository. Deze praktijk maakt het mogelijk om integratieproblemen vroegtijdig op te sporen en helpt teams om ze snel aan te pakken. CI steunt sterk op **geautomatiseerd testen** om ervoor te zorgen dat codewijzigingen geen regressies of compatibiliteitsproblemen introduceren.
+**Continue integratie (CI)** is een ontwikkelingspraktijk waarbij codewijzigingen van meerdere ontwikkelaars regelmatig worden samengevoegd in een gedeelde repository. Deze praktijk maakt het mogelijk om integratieproblemen vroegtijdig op te sporen en helpt teams om ze snel aan te pakken. CI steunt sterk op **geautomatiseerd testen** om ervoor te zorgen dat codewijzigingen geen regressies of compatibiliteitsproblemen introduceren.
 
 ### Continue levering (CD)
 
 {{< youtube id="2TTU5BB-k9U" >}}
 
-**Continuous Delivery (CD)** is een uitbreiding van CI die zich richt op het automatiseren van het software release proces. Het beoogt de levering van software wijzigingen in productie of staging omgevingen **frequent en betrouwbaar**. Door de bouw-, test- en uitrolprocessen te automatiseren, kunnen organisaties de tijd en moeite die nodig zijn om software-updates te leveren verminderen, wat leidt tot een snellere time-to-market en een grotere klanttevredenheid.
+**Continue levering (CD)** is een uitbreiding van CI die zich richt op het automatiseren van het software release proces. Het beoogt de levering van software wijzigingen in productie of staging omgevingen **frequent en betrouwbaar**. Door de bouw-, test- en uitrolprocessen te automatiseren, kunnen organisaties de tijd en moeite die nodig zijn om software-updates te leveren verminderen, wat leidt tot een snellere time-to-market en een grotere klanttevredenheid.
 
-### Infrastructure as Code (IaC)
+### Infrastructuur als code (IaC)
 
 {{< youtube id="zWw2wuiKd5o" >}}
 
@@ -62,15 +63,15 @@ Het implementeren van DevOps-praktijken kan organisaties verschillende voordelen
 
 4. **Hogere kwaliteit**: Continue integratie, geautomatiseerd testen en codebeoordelingen in DevOps helpen problemen vroeg in de ontwikkelingscyclus te identificeren en aan te pakken, wat resulteert in software van hogere kwaliteit.
 
-5. **Verbeterde betrouwbaarheid**: DevOps-praktijken zoals continuous delivery en monitoring dragen bij aan betrouwbaardere softwaresystemen, waardoor de downtime afneemt en de gebruikerservaring verbetert.
+5. **Verbeterde betrouwbaarheid**: DevOps-praktijken zoals continue levering en monitoring dragen bij aan betrouwbaardere softwaresystemen, waardoor de downtime afneemt en de gebruikerservaring verbetert.
 
 ## Overheidsvoorschriften en DevOps
 
 In sommige sectoren moeten organisaties voldoen aan specifieke overheidsvoorschriften met betrekking tot softwareontwikkeling en gegevensbeveiliging. DevOps kan een cruciale rol spelen bij de naleving van deze voorschriften door **veiligheid**, **auditing** en **traceerbaarheid** te bevorderen gedurende de gehele levenscyclus van de softwareontwikkeling.
 
-De **Health Insurance Portability and Accountability Act (HIPAA)** in de Verenigde Staten legt bijvoorbeeld strenge regels op voor het omgaan met gegevens uit de gezondheidszorg. DevOps-praktijken kunnen organisaties helpen aan de HIPAA-eisen te voldoen door beveiligingscontroles uit te voeren, de privacy van gegevens te waarborgen en audittrails bij te houden.
+De **Amerikaanse wet op overdraagbaarheid en verantwoording van ziektekostenverzekeringen (HIPAA)** in de Verenigde Staten legt bijvoorbeeld strenge regels op voor het omgaan met gegevens uit de gezondheidszorg. DevOps-praktijken kunnen organisaties helpen aan de HIPAA-eisen te voldoen door beveiligingscontroles uit te voeren, de privacy van gegevens te waarborgen en audittrails bij te houden.
 
-Ook de algemene verordening gegevensbescherming (GDPR)** in de Europese Unie regelt de bescherming van persoonsgegevens. DevOps kan helpen bij de naleving van de GDPR door privacy by design-principes op te nemen, regelmatige beveiligingsbeoordelingen uit te voeren en procedures voor de aanpak van datalekken te implementeren.
+Ook regelt de **Algemene verordening gegevensbescherming (AVG)** in de Europese Unie de bescherming van persoonsgegevens. DevOps ondersteunt naleving door privacy by design toe te passen, regelmatig beveiligingsbeoordelingen uit te voeren en procedures voor datalekken in te richten.
 
 Het is essentieel voor organisaties in gereguleerde sectoren om de specifieke vereisten van de relevante overheidsvoorschriften te begrijpen en hun DevOps-praktijken daarop af te stemmen.
 
@@ -81,5 +82,5 @@ ______
 DevOps is een krachtige aanpak die ontwikkelings- en operationele teams samenbrengt om het ontwikkelings- en implementatieproces van software te stroomlijnen. Door samenwerking, automatisering en continue verbetering te bevorderen, stelt DevOps organisaties in staat om een snellere time-to-market, betere kwaliteit en grotere betrouwbaarheid van hun softwaresystemen te bereiken. Inzicht in de belangrijkste concepten en voordelen van DevOps is cruciaal voor organisaties die concurrerend willen blijven in de snel evoluerende software-industrie van vandaag.
 
 Referenties:
-- [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)
-- [General Data Protection Regulation (GDPR)](https://ec.europa.eu/info/law/law-topic/data-protection_en)
+- [Amerikaanse wet op overdraagbaarheid en verantwoording van ziektekostenverzekeringen (HIPAA)](https://www.hhs.gov/hipaa/index.html)
+- [Algemene verordening gegevensbescherming (AVG)](https://ec.europa.eu/info/law/law-topic/data-protection_en)
