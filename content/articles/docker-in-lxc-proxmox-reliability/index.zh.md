@@ -1,7 +1,7 @@
 ---
 title: "Proxmox 上 LXC 中的 Docker：可靠性、证据与迁移到 VM"
 date: 2026-09-16
-lastmod: 2026-11-13
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "通过一项有记录的 AppArmor 故障、对主机冻结报告的审慎解读、诊断命令和 VM 迁移计划，评估在 Proxmox LXC 中运行 Docker。"
@@ -11,23 +11,23 @@ cover: "/img/cover/docker-lxc-vm-homelab-isolation.webp"
 coverAlt: "家用服务器等距插画，展示嵌套工作负载方框，以及连接到共享硬件的独立虚拟机隔间"
 coverCaption: "共享硬件与不同工作负载隔离边界的概念图"
 ---
-**在 Linux 容器（LXC）中运行 Docker**能减少一些基础设施开销，但会增加应用运行时与 Proxmox 主机之间的交互。对于家庭依赖的 Docker 服务，Debian **虚拟机（VM）**是一个实用的起点，因为它隔离了来宾内核，也简化了故障排查时需要复现的环境。本文会审视给定的视频、核对相关事件报告，并补充已记录的故障案例和迁移计划。
+**在 Linux 容器（LXC）中运行 Docker** 能减少一些基础设施开销，但会增加应用运行时与 Proxmox 主机之间的交互。对于家庭依赖的 Docker 服务，Debian **虚拟机（VM）** 是一个实用的起点，因为它隔离了来宾内核，也简化了故障排查时需要复现的环境。本文会审视给定的视频、核对相关事件报告，并补充已记录的故障案例和迁移计划。
 
 <!--more-->
 
 ## 要点
 
-- **区分故障类型：**Docker 启动错误、VM 停滞和物理主机无响应，需要不同的调查方法。
-- **评估证据：**迁移后的稳定性支持恢复决策，但无法证明最初的原因。
-- **核对当前文档：**原生 OCI 镜像支持与在 LXC 中嵌套运行 Docker 是不同的部署路径。
-- **保护持久数据：**Proxmox 备份和 Compose 文件不会自动涵盖所有应用数据位置。
-- **测试恢复计划：**在退役旧部署之前，测量恢复、重启行为和服务可用性。
+- **区分故障类型**：Docker 启动错误、VM 停滞和物理主机无响应，需要不同的调查方法。
+- **评估证据**：迁移后的稳定性支持恢复决策，但无法证明最初的原因。
+- **核对当前文档**：原生 OCI 镜像支持与在 LXC 中嵌套运行 Docker 是不同的部署路径。
+- **保护持久数据**：Proxmox 备份和 Compose 文件不会自动涵盖所有应用数据位置。
+- **测试恢复计划**：在退役旧部署之前，测量恢复、重启行为和服务可用性。
 
 ## 开始前
 
-**难度：**中级。**读者：**正在选择嵌套 Docker 或 VM 中 Docker 的 Proxmox 管理员。阅读诊断示例前，你应能识别 Compose 项目、容器挂载和 Linux shell 提示符。
+**难度**：中级。**读者**：正在选择嵌套 Docker 或 VM 中 Docker 的 Proxmox 管理员。阅读诊断示例前，你应能识别 Compose 项目、容器挂载和 Linux 命令行提示符。
 
-**预计投入：**为清点资产和收集证据预留 30 到 60 分钟。迁移时间取决于数据库大小、存储吞吐量、硬件访问方式和你选择的停机窗口。下文示例属于有文档依据的流程和说明性推理，并非本文实验室测得的基准数据。
+**预计投入**：为清点资产和收集证据预留 30 到 60 分钟。迁移时间取决于数据库大小、存储吞吐量、硬件访问方式和你选择的停机窗口。下文示例属于有文档依据的流程和说明性推理，并非本文实验室测得的基准数据。
 
 | 要求 | 原因 |
 |---|---|
@@ -43,7 +43,7 @@ coverCaption: "共享硬件与不同工作负载隔离边界的概念图"
 
 **来源视频：**[Proxmox: The Hidden Danger of Running Docker Inside LXC](https://www.youtube.com/watch?v=XyPBHhZg0Ok)，由 *Proxmox x Kubernetes x Homelab x Backup* 于 2026 年 9 月 15 日发布。核心问题很实用：节省资源的架构会带来多少运维不确定性？
 
-**证据边界：**视频讲述了一起事件并提出经验。下文将所有者的观察、已有文档记录的软件行为以及由此得出的建议分别说明。
+**证据边界**：视频讲述了一起事件并提出经验。下文将所有者的观察、已有文档记录的软件行为以及由此得出的建议分别说明。
 
 ## 该事件能证明什么
 
@@ -92,9 +92,9 @@ VM 能限制**部分故障传播**，但无法阻止所有故障。LXC 中的应
 
 ## 准确定义支持范围
 
-**“不受支持”**必须指出具体组件和版本。请区分供应商推荐的部署方式、已记录的功能、发行版维护以及合同中的支持权益。嵌套架构能够运行，并不能证明每种组合都经过同等测试；推荐使用 VM，也不意味着维护者会拒绝所有与嵌套有关的问题报告。
+**“不受支持”** 必须指出具体组件和版本。请区分供应商推荐的部署方式、已记录的功能、发行版维护以及合同中的支持权益。嵌套架构能够运行，并不能证明每种组合都经过同等测试；推荐使用 VM，也不意味着维护者会拒绝所有与嵌套有关的问题报告。
 
-**当前 Proxmox 文档**还指出了一个重要区别。其容器工具包源码将 **开放容器倡议（OCI）**应用镜像支持描述为技术预览，并会将镜像转换为 LXC 框架。对于强调隔离和在线迁移的需求，文档也建议在 QEMU VM 中运行容器。将 OCI 镜像导入该框架，与在 LXC 来宾中安装 Docker Engine 并运行 Compose，并不是同一做法。[Proxmox 容器工具包文档](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)
+**当前 Proxmox 文档** 还指出了一个重要区别。其容器工具包源码将 **开放容器倡议（OCI）** 应用镜像支持描述为技术预览，并会将镜像转换为 LXC 框架。对于强调隔离和在线迁移的需求，文档也建议在 QEMU VM 中运行容器。将 OCI 镜像导入该框架，与在 LXC 来宾中安装 Docker Engine 并运行 Compose，并不是同一做法。[Proxmox 容器工具包文档](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)
 
 | 部署方式 | 需要核对的问题 |
 |---|---|
@@ -119,7 +119,7 @@ open sysctl net.ipv4.ip_unprivileged_port_start file: reopen fd 8: permission de
 
 这里的经验是**协调依赖项**。运行时安全更改与外层容器策略发生了交互，修复则需要修改另一层。应安装适用于当前发行版的维护版软件包更新，不要永久关闭 AppArmor，也不要保留存在已知漏洞的旧运行时。
 
-> **要点：**该事件说明嵌套容器确实存在兼容性问题，维护者也确实作出了响应。它既不能证明 LXC 普遍不稳定，也不能说明另一起主机锁死事件的原因。
+> **要点**：该事件说明嵌套容器确实存在兼容性问题，维护者也确实作出了响应。它既不能证明 LXC 普遍不稳定，也不能说明另一起主机锁死事件的原因。
 
 ## 比较实际成本
 
@@ -150,7 +150,7 @@ journalctl --list-boots
 journalctl -k -b -1 --no-pager
 ```
 
-**`pveversion -v`**会记录已安装的 Proxmox 组件版本。**`pct config`**会记录外层容器配置。在 **`journalctl`** 中，**`-k`**选择内核消息，**`-b -1`**选择上一次启动，**`--no-pager`**则输出纯文本。要查看之前启动的消息，必须保留对应的 journal 数据。[Proxmox 工具包](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)，[systemd journalctl 参考](https://github.com/systemd/systemd/blob/main/man/journalctl.xml)
+**`pveversion -v`** 会记录已安装的 Proxmox 组件版本。**`pct config`** 会记录外层容器配置。在 **`journalctl`** 中，**`-k`** 选择内核消息，**`-b -1`** 选择上一次启动，**`--no-pager`** 则输出纯文本。要查看之前启动的消息，必须保留对应的 journal 数据。[Proxmox 工具包](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)，[systemd journalctl 参考](https://github.com/systemd/systemd/blob/main/man/journalctl.xml)
 
 **然后检查 Docker 主机**，也就是运行其守护进程的 LXC 或 VM 内部：
 
@@ -172,7 +172,7 @@ docker inspect --format '{{.RestartCount}}' app
 docker inspect --format '{{json .Mounts}}' app
 ```
 
-**`docker inspect`**会显示指定容器的状态、重启次数和挂载信息。将重启次数视为需要与日志关联的线索，而不是主机级故障的证据。重新创建的容器也会开始一段新的记录。[docker inspect 参考](https://docs.docker.com/reference/cli/docker/inspect/)
+**`docker inspect`** 会显示指定容器的状态、重启次数和挂载信息。将重启次数视为需要与日志关联的线索，而不是主机级故障的证据。重新创建的容器也会开始一段新的记录。[docker inspect 参考](https://docs.docker.com/reference/cli/docker/inspect/)
 
 ## 区分资源压力与锁死
 
@@ -184,7 +184,7 @@ cat /proc/pressure/memory
 cat /proc/pressure/io
 ```
 
-**Pressure Stall Information（PSI，压力停滞信息）**会报告任务等待资源时损失的时间。**`some`**和 **`full`**字段描述不同的停滞状况，**`avg10`**、**`avg60`**和 **`avg300`**则汇总近期区间。内存压力不同于内存占用量。仅有大量缓存，不能证明内存不足。[Linux PSI 文档](https://docs.kernel.org/accounting/psi.html)
+**Pressure Stall Information（PSI，压力停滞信息）** 会报告任务等待资源时损失的时间。**`some`** 和 **`full`** 字段描述不同的停滞状况，**`avg10`**、**`avg60`** 和 **`avg300`** 则汇总近期区间。内存压力不同于内存占用量。仅有大量缓存，不能证明内存不足。[Linux PSI 文档](https://docs.kernel.org/accounting/psi.html)
 
 | 证据 | 有用的解释 | 下一步检查 |
 |---|---|---|
@@ -208,11 +208,11 @@ cat /proc/pressure/io
 Storage=persistent
 ```
 
-**`Storage=persistent`**会在条件允许时请求将 journal 写入磁盘。更改时应同时配置保留限制和可用磁盘容量，然后确认 **`journalctl --list-boots`**中出现了之前的启动记录。持久日志仍依赖主机在故障前完成写入。[systemd journald 配置](https://github.com/systemd/systemd/blob/main/man/journald.conf.xml)
+**`Storage=persistent`** 会在条件允许时请求将 journal 写入磁盘。更改时应同时配置保留限制和可用磁盘容量，然后确认 **`journalctl --list-boots`** 中出现了之前的启动记录。持久日志仍依赖主机在故障前完成写入。[systemd journald 配置](https://github.com/systemd/systemd/blob/main/man/journald.conf.xml)
 
 **外部监测**会提供另一个视角。从其他机器监测服务并记录时间戳。如果监测程序运行在发生故障的 Proxmox 主机上，它会随着同一次故障消失，因而难以区分服务停机和遥测缺失。
 
-**说明性测试：**从另一台系统安排一次轻量 HTTP 检查，再将检查失败与主机可达性及本地控制台状态进行比较。应用超时但主机仍有响应，与应用、管理连接和控制台同时失效，代表不同的调查方向。这是一种诊断设计，并非来源事件中实际观察到的结果。
+**说明性测试**：从另一台系统安排一次轻量 HTTP 检查，再将检查失败与主机可达性及本地控制台状态进行比较。应用超时但主机仍有响应，与应用、管理连接和控制台同时失效，代表不同的调查方向。这是一种诊断设计，并非来源事件中实际观察到的结果。
 
 ## 规划受控迁移
 
@@ -226,7 +226,7 @@ docker compose config --images
 docker compose config --volumes
 ```
 
-**`--quiet`**会验证配置但不输出内容。**`--images`**会列出引用的镜像，**`--volumes`**会列出命名卷。这些命令不会导出应用数据，也无法完整列出绑定挂载。还应检查 Compose 文件和每个容器的挂载配置。[Docker Compose config 参考](https://docs.docker.com/reference/cli/docker/compose/config/)
+**`--quiet`** 会验证配置但不输出内容。**`--images`** 会列出引用的镜像，**`--volumes`** 会列出命名卷。这些命令不会导出应用数据，也无法完整列出绑定挂载。还应检查 Compose 文件和每个容器的挂载配置。[Docker Compose 配置 参考](https://docs.docker.com/reference/cli/docker/compose/config/)
 
 | 数据或依赖项 | 迁移操作 |
 |---|---|
@@ -251,7 +251,7 @@ docker info
 findmnt -T /var/lib/docker
 ```
 
-**`findmnt`**会识别指定路径所在的文件系统。如果守护进程使用了其他数据根目录，请替换 **`/var/lib/docker`**；适用时还要检查 containerd 的存储路径。Docker 文档区分了 containerd 镜像存储与经典存储驱动，它们各自有后端特定要求。[Docker 存储后端选择](https://docs.docker.com/engine/storage/drivers/select-storage-driver/)
+**`findmnt`** 会识别指定路径所在的文件系统。如果守护进程使用了其他数据根目录，请替换 **`/var/lib/docker`**；适用时还要检查 containerd 的存储路径。Docker 文档区分了 containerd 镜像存储与经典存储驱动，它们各自有后端特定要求。[Docker 存储后端选择](https://docs.docker.com/engine/storage/drivers/select-storage-driver/)
 
 按照所选后端的文档流程**重新创建镜像并恢复应用数据**。在不同存储架构之间复制正在使用的 Docker 数据目录，会引入关于元数据、挂载状态和一致性的额外假设。这不同于备份已停止应用的数据卷。
 
@@ -280,9 +280,9 @@ findmnt -T /var/lib/docker
 | **维护演练** | 经过测试的更新和可用的恢复流程 |
 | **延长观察期** | 覆盖此前多个故障间隔的可用性记录 |
 
-**示例决策：**摄像头服务和实验性下载器目前共用一个嵌套环境。把二者迁移到同一 VM 能改善内核隔离，但仍共用一个来宾维护边界。如果摄像头可用性优先，应评估独立维护组和资源限制，再测试下载器更新期间录像是否连续。
+**示例决策**：摄像头服务和实验性下载器目前共用一个嵌套环境。把二者迁移到同一 VM 能改善内核隔离，但仍共用一个来宾维护边界。如果摄像头可用性优先，应评估独立维护组和资源限制，再测试下载器更新期间录像是否连续。
 
-**预期推理：**应根据你要隔离的服务依赖来选择部署位置。同一物理服务器上的两台 VM 仍共用电源、存储和主机内核。如果需求包括承受服务器停机，设计还需要另一套独立系统或可接受的人工备用方案。
+**预期推理**：应根据你要隔离的服务依赖来选择部署位置。同一物理服务器上的两台 VM 仍共用电源、存储和主机内核。如果需求包括承受服务器停机，设计还需要另一套独立系统或可接受的人工备用方案。
 
 ## 创建决策记录
 
@@ -318,7 +318,7 @@ findmnt -T /var/lib/docker
 
 ## 来源与证据
 
-**核查日期：**2026 年 9 月 16 日。本文主题参考了给定的文字记录。视频元数据、原始事件报告、上游问题和官方文档分别核对。说明性练习和建议的验证步骤均已在正文中标明。
+**核查日期**：2026 年 9 月 16 日。本文主题参考了给定的文字记录。视频元数据、原始事件报告、上游问题和官方文档分别核对。说明性练习和建议的验证步骤均已在正文中标明。
 
 | 来源 | 用途 |
 |---|---|

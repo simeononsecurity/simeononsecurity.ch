@@ -1,7 +1,7 @@
 ---
 title: "Docker داخل LXC على Proxmox: الموثوقية والأدلة والترحيل إلى VM"
 date: 2026-09-16
-lastmod: 2026-11-13
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "قيّم Docker داخل Proxmox LXC بالاستناد إلى خلل موثّق في AppArmor، وقراءة متأنية لتقرير عن تجمّد المضيف، وأوامر تشخيصية، وخطة ترحيل إلى VM."
@@ -185,7 +185,7 @@ cat /proc/pressure/memory
 cat /proc/pressure/io
 ```
 
-تعرض **Pressure Stall Information**، أو PSI، الوقت الذي تخسره المهام أثناء انتظار الموارد. يصف الحقلان **`some`** و**`full`** حالتي توقف مختلفتين، بينما تلخص **`avg10`** و**`avg60`** و**`avg300`** الفترات الأخيرة. يختلف ضغط الذاكرة عن مقدار الذاكرة المشغولة؛ فوجود ذاكرة تخزين مؤقت كبيرة وحده لا يثبت وجود نقص. [وثائق Linux PSI](https://docs.kernel.org/accounting/psi.html)
+تعرض **Pressure Stall Information**، أو PSI، الوقت الذي تخسره المهام أثناء انتظار الموارد. يصف الحقلان **`some`** **و`full`** حالتي توقف مختلفتين، بينما تلخص **`avg10`** **و`avg60`** **و`avg300`** الفترات الأخيرة. يختلف ضغط الذاكرة عن مقدار الذاكرة المشغولة؛ فوجود ذاكرة تخزين مؤقت كبيرة وحده لا يثبت وجود نقص. [وثائق Linux PSI](https://docs.kernel.org/accounting/psi.html)
 
 | الدليل | التفسير المفيد | الفحص التالي |
 |---|---|---|
@@ -227,7 +227,7 @@ docker compose config --images
 docker compose config --volumes
 ```
 
-يتحقق **`--quiet`** من الإعداد دون طباعته. ويسرد **`--images`** الصور المشار إليها، بينما يسرد **`--volumes`** وحدات التخزين المسماة. لا تصدّر هذه الأوامر بيانات التطبيقات ولا توفر جردًا كاملًا لنقاط التركيب المرتبطة. راجع ملف Compose ونقاط تركيب كل حاوية أيضًا. [مرجع Docker Compose config](https://docs.docker.com/reference/cli/docker/compose/config/)
+يتحقق **`--quiet`** من الإعداد دون طباعته. ويسرد **`--images`** الصور المشار إليها، بينما يسرد **`--volumes`** وحدات التخزين المسماة. لا تصدّر هذه الأوامر بيانات التطبيقات ولا توفر جردًا كاملًا لنقاط التركيب المرتبطة. راجع ملف Compose ونقاط تركيب كل حاوية أيضًا. [مرجع Docker إعداد Compose](https://docs.docker.com/reference/cli/docker/compose/config/)
 
 | البيانات أو التبعية | إجراء الترحيل |
 |---|---|

@@ -1,7 +1,7 @@
 ---
 title: "Docker dans LXC sur Proxmox : fiabilité, preuves et migration vers une VM"
 date: 2026-09-16
-lastmod: 2026-11-13
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Évaluez Docker dans Proxmox LXC à partir d’un échec AppArmor documenté, d’une analyse attentive d’un signalement de blocage de l’hôte, de commandes de diagnostic et d’un plan de migration vers une VM."
@@ -314,7 +314,7 @@ Si l’incident revient après la migration, comparez le noyau hôte, le stockag
 
 **Inventoriez d’abord un service.** Repérez ses données persistantes, ses dépendances physiques, les symptômes de panne et l’objectif de reprise. Répétez une restauration avant de décider si une migration est nécessaire.
 
-Pour les **sujets connexes**, consultez le [guide de mise à niveau Proxmox VE](/articles/proxmox-ve-8-to-9-upgrade-guide/) pour planifier les mises à niveau et le [guide de sécurité Docker et Kubernetes](/articles/how-to-secure-your-docker-and-kubernetes-environment/) pour renforcer la sécurité des charges. Gardez le choix d’architecture, l’exécution des mises à niveau et le diagnostic d’incident comme des décisions distinctes, étayées par leurs propres éléments.
+Pour les **sujets connexes**, consultez le [Guide de mise à niveau Proxmox VE 8 vers 9 : mise à niveau sur place avec script automatisé](/articles/proxmox-ve-8-to-9-upgrade-guide/) pour planifier les mises à niveau et le [Comment sécuriser votre environnement Docker et Kubernetes ?](/articles/how-to-secure-your-docker-and-kubernetes-environment/) pour renforcer la sécurité des charges. Gardez le choix d’architecture, l’exécution des mises à niveau et le diagnostic d’incident comme des décisions distinctes, étayées par leurs propres éléments.
 
 ## Sources et éléments de preuve
 

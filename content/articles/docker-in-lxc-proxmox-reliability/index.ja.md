@@ -1,7 +1,7 @@
 ---
 title: "Proxmox LXC上のDocker：信頼性、根拠、VMへの移行"
 date: 2026-09-16
-lastmod: 2026-11-13
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "文書化されたAppArmorの障害、ホストフリーズの報告に関する慎重な検討、診断コマンド、VMへの移行計画をもとに、Proxmox LXC内のDockerを評価します。"
@@ -11,7 +11,7 @@ cover: "/img/cover/docker-lxc-vm-homelab-isolation.webp"
 coverAlt: "共有ハードウェアに接続された、入れ子状のワークロード枠と独立した仮想マシン区画を示すホームサーバーのアイソメトリック図"
 coverCaption: "共有ハードウェアとワークロードの分離境界を概念的に示す図"
 ---
-**Linux Containers（LXC）内のDocker**は、インフラのオーバーヘッドを抑える一方で、アプリケーションのランタイムとProxmoxホストとの相互作用を増やします。家庭で使うDockerサービスには、Debianの**仮想マシン（VM）**が実用的な出発点です。ゲストカーネルを分離し、トラブルシューティング時に再現する環境を簡素化できます。この記事では、提供された動画と関連するインシデント報告を確認し、文書化された障害と移行計画を紹介します。
+**Linux Containers（LXC）内のDocker** は、インフラのオーバーヘッドを抑える一方で、アプリケーションのランタイムとProxmoxホストとの相互作用を増やします。家庭で使うDockerサービスには、Debianの **仮想マシン（VM）** が実用的な出発点です。ゲストカーネルを分離し、トラブルシューティング時に再現する環境を簡素化できます。この記事では、提供された動画と関連するインシデント報告を確認し、文書化された障害と移行計画を紹介します。
 
 <!--more-->
 
@@ -92,9 +92,9 @@ VMは**一部の障害伝播を抑えます**が、すべてではありませ�
 
 ## サポートを具体的に定義する
 
-**「サポート対象外」**という表現には、対象のコンポーネントとバージョンが必要です。ベンダー推奨の構成、文書化された機能、ディストリビューションによる保守、契約上のサポート権を区別します。入れ子の構成が動作しても、すべての組み合わせが同程度にテストされているとは限りません。VMの推奨も、メンテナーが入れ子に関連するすべてのバグを拒否するという意味ではありません。
+**「サポート対象外」** という表現には、対象のコンポーネントとバージョンが必要です。ベンダー推奨の構成、文書化された機能、ディストリビューションによる保守、契約上のサポート権を区別します。入れ子の構成が動作しても、すべての組み合わせが同程度にテストされているとは限りません。VMの推奨も、メンテナーが入れ子に関連するすべてのバグを拒否するという意味ではありません。
 
-**Proxmoxの最新ドキュメント**では、重要な区別も示されています。コンテナツールキットのソースは、**Open Container Initiative（OCI）**アプリケーションイメージのサポートを技術プレビューとして説明し、イメージをLXCフレームワークに変換します。隔離とライブマイグレーションを重視する要件では、QEMU VM内のコンテナも推奨しています。この仕組みへのOCIイメージのインポートは、LXCゲストにDocker EngineをインストールしてComposeを実行することとは異なります。[Proxmoxコンテナツールキットのドキュメント](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)
+**Proxmoxの最新ドキュメント** では、重要な区別も示されています。コンテナツールキットのソースは、**Open Container Initiative（OCI）** アプリケーションイメージのサポートを技術プレビューとして説明し、イメージをLXCフレームワークに変換します。隔離とライブマイグレーションを重視する要件では、QEMU VM内のコンテナも推奨しています。この仕組みへのOCIイメージのインポートは、LXCゲストにDocker EngineをインストールしてComposeを実行することとは異なります。[Proxmoxコンテナツールキットのドキュメント](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)
 
 | 構成 | 確認する項目 |
 |---|---|
@@ -107,7 +107,7 @@ Dockerは**Debian向けのインストール手順**を公開しています。�
 
 ## 確認済みの入れ子構成の障害
 
-**2025年のrunc/AppArmor互換性問題**は検証可能な例です。runcのメンテナーは、AppArmorプロファイルが設定された外側のコンテナ内で、ファイル記述子を再オープンする際の障害を文書化しました。AppArmorが**`/proc/sys`**へのアクセスを**`/sys`**へのアクセスと誤認し、ポリシーで拒否しました。[runcの課題4968](https://github.com/opencontainers/runc/issues/4968)
+**2025年のrunc/AppArmor互換性問題** は検証可能な例です。runcのメンテナーは、AppArmorプロファイルが設定された外側のコンテナ内で、ファイル記述子を再オープンする際の障害を文書化しました。AppArmorが **`/proc/sys`** へのアクセスを **`/sys`** へのアクセスと誤認し、ポリシーで拒否しました。[runcの課題4968](https://github.com/opencontainers/runc/issues/4968)
 
 **影響を受けた起動処理**では、次のエラーが報告されました。
 
@@ -115,7 +115,7 @@ Dockerは**Debian向けのインストール手順**を公開しています。�
 open sysctl net.ipv4.ip_unprivileged_port_start file: reopen fd 8: permission denied
 ```
 
-記録された障害は**コンテナの起動**を妨げました。フォーラムで報告されたホストのフリーズを説明するものではありません。issueには、この問題に対するProxmoxの修正として**`lxc-pve 6.0.5-2`**が記録されています。対応する上流のLXC変更は2025年11月20日にマージされました。*これらは過去の修正記録であり、現行システムでパッケージを固定する推奨ではありません。*[メンテナーによる修正の概要](https://github.com/opencontainers/runc/issues/4968)、[マージ済みのLXC変更](https://github.com/lxc/lxc/pull/4609)
+記録された障害は **コンテナの起動** を妨げました。フォーラムで報告されたホストのフリーズを説明するものではありません。issueには、この問題に対するProxmoxの修正として **`lxc-pve 6.0.5-2`** が記録されています。対応する上流のLXC変更は2025年11月20日にマージされました。*これらは過去の修正記録であり、現行システムでパッケージを固定する推奨ではありません。*[メンテナーによる修正の概要](https://github.com/opencontainers/runc/issues/4968)、[マージ済みのLXC変更](https://github.com/lxc/lxc/pull/4609)
 
 教訓は**依存関係の調整**です。ランタイムのセキュリティ変更が外側のコンテナのポリシーと相互作用し、修正には別の層の変更が必要でした。AppArmorを恒久的に無効にしたり、古く脆弱なランタイムを残したりせず、使用中のリリース向けに保守された適切なパッケージ更新を適用してください。
 
@@ -140,7 +140,7 @@ Dockerでは、制限を設定しない限り、既定で**CPUとメモリを無
 
 ## 層ごとに根拠を集める
 
-管理者シェルで**Proxmoxホストから始めます**。調査対象のLXC IDに合わせて**`101`**を置き換えます。
+管理者シェルで **Proxmoxホストから始めます**。調査対象のLXC IDに合わせて **`101`** を置き換えます。
 
 ```bash
 pveversion -v
@@ -150,7 +150,7 @@ journalctl --list-boots
 journalctl -k -b -1 --no-pager
 ```
 
-**`pveversion -v`**は、インストール済みProxmoxコンポーネントのバージョンを記録します。**`pct config`**は外側のコンテナの構成を記録します。**`journalctl`**では、**`-k`**がカーネルメッセージ、**`-b -1`**が前回の起動、**`--no-pager`**が通常の端末出力を選びます。前回起動時のメッセージには、ジャーナルデータの保存が必要です。[Proxmoxツールキット](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)、[systemd journalctlリファレンス](https://github.com/systemd/systemd/blob/main/man/journalctl.xml)
+**`pveversion -v`** は、インストール済みProxmoxコンポーネントのバージョンを記録します。**`pct config`** は外側のコンテナの構成を記録します。**`journalctl`** では、**`-k`** がカーネルメッセージ、**`-b -1`** が前回の起動、**`--no-pager`** が通常の端末出力を選びます。前回起動時のメッセージには、ジャーナルデータの保存が必要です。[Proxmoxツールキット](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)、[systemd journalctlリファレンス](https://github.com/systemd/systemd/blob/main/man/journalctl.xml)
 
 **次に、デーモンを実行するLXCまたはVM内でDockerホストを調べます。**
 
@@ -164,7 +164,7 @@ docker stats --no-stream
 
 **両方の環境**を記録します。コンテナイメージのタグだけでは、Docker、containerd、runc、ホストカーネル、セキュリティポリシー、ストレージバックエンドの情報は分かりません。インシデントの時刻、最近の更新、ローカルホストコンソールの応答を記録します。診断情報を公開する前に、認証情報と非公開のアプリケーション情報を削除してください。
 
-**特定のワークロードを調べる**には、コンテナ名を指定して**`app`**を置き換えます。
+**特定のワークロードを調べる** には、コンテナ名を指定して **`app`** を置き換えます。
 
 ```bash
 docker inspect --format '{{json .State}}' app
@@ -172,7 +172,7 @@ docker inspect --format '{{.RestartCount}}' app
 docker inspect --format '{{json .Mounts}}' app
 ```
 
-**`docker inspect`**は、指定したコンテナの状態、再起動回数、マウント情報を表示します。再起動回数はログと照合する手がかりであり、ホスト障害の証明ではありません。コンテナを再作成すると履歴も新しくなります。[docker inspectリファレンス](https://docs.docker.com/reference/cli/docker/inspect/)
+**`docker inspect`** は、指定したコンテナの状態、再起動回数、マウント情報を表示します。再起動回数はログと照合する手がかりであり、ホスト障害の証明ではありません。コンテナを再作成すると履歴も新しくなります。[docker inspectリファレンス](https://docs.docker.com/reference/cli/docker/inspect/)
 
 ## リソース負荷と停止を区別する
 
@@ -184,7 +184,7 @@ cat /proc/pressure/memory
 cat /proc/pressure/io
 ```
 
-**Pressure Stall Information（PSI）**は、リソース待ちでタスクが失った時間を報告します。**`some`**と**`full`**は異なる停止条件を示し、**`avg10`**、**`avg60`**、**`avg300`**は最近の期間を要約します。メモリ負荷とメモリ使用量は別です。大きなキャッシュだけでは不足を示しません。[Linux PSIドキュメント](https://docs.kernel.org/accounting/psi.html)
+**Pressure Stall Information（PSI）** は、リソース待ちでタスクが失った時間を報告します。**`some`** と **`full`** は異なる停止条件を示し、**`avg10`**、**`avg60`**、**`avg300`** は最近の期間を要約します。メモリ負荷とメモリ使用量は別です。大きなキャッシュだけでは不足を示しません。[Linux PSIドキュメント](https://docs.kernel.org/accounting/psi.html)
 
 | 根拠 | 有用な解釈 | 次の確認 |
 |---|---|---|
@@ -208,7 +208,7 @@ cat /proc/pressure/io
 Storage=persistent
 ```
 
-**`Storage=persistent`**は、利用可能な場合にジャーナルをディスクへ保存する設定です。保持期間とディスク容量を設定し、**`journalctl --list-boots`**に以前の起動が表示されることを確認します。永続ログでも、障害前にホストが書き込みを完了できることが前提です。[systemd journaldの設定](https://github.com/systemd/systemd/blob/main/man/journald.conf.xml)
+**`Storage=persistent`** は、利用可能な場合にジャーナルをディスクへ保存する設定です。保持期間とディスク容量を設定し、**`journalctl --list-boots`** に以前の起動が表示されることを確認します。永続ログでも、障害前にホストが書き込みを完了できることが前提です。[systemd journaldの設定](https://github.com/systemd/systemd/blob/main/man/journald.conf.xml)
 
 **外部からの監視**は別の視点を加えます。別のマシンからサービスを監視し、時刻を記録します。障害が起きるProxmoxホスト上の監視は同じ停止中に消えるため、ダウンタイムとテレメトリー欠落を区別しにくくなります。
 
@@ -226,7 +226,7 @@ docker compose config --images
 docker compose config --volumes
 ```
 
-**`--quiet`**は出力せずに構成を検証します。**`--images`**は参照されるイメージ、**`--volumes`**は名前付きボリュームを一覧表示します。このコマンドではアプリケーションデータはエクスポートされず、バインドマウントの完全な一覧も得られません。Composeファイルと各コンテナのマウントも確認してください。[Docker Compose configリファレンス](https://docs.docker.com/reference/cli/docker/compose/config/)
+**`--quiet`** は出力せずに構成を検証します。**`--images`** は参照されるイメージ、**`--volumes`** は名前付きボリュームを一覧表示します。このコマンドではアプリケーションデータはエクスポートされず、バインドマウントの完全な一覧も得られません。Composeファイルと各コンテナのマウントも確認してください。[Docker Composeの設定リファレンス](https://docs.docker.com/reference/cli/docker/compose/config/)
 
 | データまたは依存関係 | 移行時の作業 |
 |---|---|
@@ -251,9 +251,9 @@ docker info
 findmnt -T /var/lib/docker
 ```
 
-**`findmnt`**は指定したパスを含むファイルシステムを示します。デーモンが別のデータルートを使う場合は**`/var/lib/docker`**を置き換え、必要に応じてcontainerdのストレージパスも確認します。Dockerの文書ではcontainerdイメージストアと従来のストレージドライバーを区別し、バックエンドごとの要件を説明しています。[Dockerストレージバックエンドの選択](https://docs.docker.com/engine/storage/drivers/select-storage-driver/)
+**`findmnt`** は指定したパスを含むファイルシステムを示します。デーモンが別のデータルートを使う場合は **`/var/lib/docker`** を置き換え、必要に応じてcontainerdのストレージパスも確認します。Dockerの文書ではcontainerdイメージストアと従来のストレージドライバーを区別し、バックエンドごとの要件を説明しています。[Dockerストレージバックエンドの選択](https://docs.docker.com/engine/storage/drivers/select-storage-driver/)
 
-選択したバックエンドの手順に沿って、**イメージを再作成し、アプリケーションデータを復元します。**稼働中のDockerデータディレクトリを異なるストレージ構成間でコピーすると、メタデータ、マウント状態、整合性に関する追加の前提が必要です。停止したアプリケーションのデータボリュームをバックアップする操作とは異なります。
+選択したバックエンドの手順に沿って、**イメージを再作成し、アプリケーションデータを復元します**。稼働中のDockerデータディレクトリを異なるストレージ構成間でコピーすると、メタデータ、マウント状態、整合性に関する追加の前提が必要です。停止したアプリケーションのデータボリュームをバックアップする操作とは異なります。
 
 ### ロールバックを用意して切り替える
 
@@ -286,7 +286,7 @@ findmnt -T /var/lib/docker
 
 ## 判断記録を作成する
 
-測定した根拠を使って構成を選び、見直す時期を定めます。
+**測定した根拠**を使って構成を選び、見直す時期を定めます。
 
 ```text
 サービスと家庭への影響:
@@ -312,7 +312,7 @@ findmnt -T /var/lib/docker
 
 ## 次の手順
 
-**まず1つのサービスを一覧化します。**永続データ、物理的な依存関係、障害の兆候、復旧目標を特定します。移行の要否を決める前に復元をリハーサルしてください。
+**まず1つのサービスを一覧化します**。永続データ、物理的な依存関係、障害の兆候、復旧目標を特定します。移行の要否を決める前に復元をリハーサルしてください。
 
 **関連する作業**には、アップグレード計画用の[Proxmox VEアップグレードガイド](/articles/proxmox-ve-8-to-9-upgrade-guide/)と、ワークロードの保護用の[DockerとKubernetesのセキュリティガイド](/articles/how-to-secure-your-docker-and-kubernetes-environment/)を参照してください。構成の選択、アップグレードの実施、インシデントの診断は、それぞれの根拠を持つ別の判断として扱います。
 
