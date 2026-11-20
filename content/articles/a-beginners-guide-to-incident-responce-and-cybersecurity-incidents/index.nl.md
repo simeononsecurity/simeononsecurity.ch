@@ -1,7 +1,7 @@
 ---
 title: "Beginnersgids voor incidentenbeheer op het gebied van cyberbeveiliging"
 date: 2023-03-16
-lastmod: 2026-11-14
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Leer de basisprincipes van het reageren op incidenten en het afhandelen van cyberbeveiligingsincidenten met deze beginnershandleiding."
@@ -32,7 +32,7 @@ Het incidentresponsproces omvat gewoonlijk de volgende stappen:
 
 De tweede stap in het incidentresponsproces is **identificatie**. Hierbij gaat het om het detecteren en bevestigen van het optreden van een incident. Identificatie kan worden veroorzaakt door verschillende factoren, zoals alarmen van beveiligingssystemen, meldingen van werknemers of externe meldingen van wetshandhavers of regelgevende instanties.
 
-### Insluiting
+### Indamming
 
 Zodra een incident is geïdentificeerd, is de volgende stap **insluiting**. Het doel van indamming is om te voorkomen dat het incident zich verspreidt en verdere schade veroorzaakt. Dit kan inhouden dat getroffen systemen of netwerken worden geïsoleerd, de verbinding met het internet wordt verbroken of getroffen systemen worden afgesloten.
 
@@ -42,7 +42,7 @@ Nadat het incident is ingeperkt, is de volgende stap **onderzoek**. Het onderzoe
 
 ### Herstel
 
-Zodra het onderzoek is afgerond, is de volgende stap **remediation**. Dit houdt in dat systemen worden hersteld in de staat waarin ze zich vóór het incident bevonden en dat maatregelen worden geïmplementeerd om soortgelijke incidenten in de toekomst te voorkomen. Sanering kan het installeren van patches of updates, het wijzigen van wachtwoorden of het implementeren van nieuwe beveiligingsmaatregelen inhouden.
+Zodra het onderzoek is afgerond, volgt **herstel**. Daarbij worden systemen hersteld naar de staat van vóór het incident en worden maatregelen ingevoerd om soortgelijke incidenten in de toekomst te voorkomen. Herstelmaatregelen kunnen bestaan uit het installeren van patches of updates, het wijzigen van wachtwoorden of het invoeren van nieuwe beveiligingsmaatregelen.
 
 ### Rapportage
 

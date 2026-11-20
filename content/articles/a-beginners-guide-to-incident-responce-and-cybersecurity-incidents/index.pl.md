@@ -1,7 +1,7 @@
 ---
 title: "Przewodnik dla początkujących po reagowaniu na incydenty cybernetyczne"
 date: 2023-03-16
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Poznaj podstawy reagowania na incydenty i obsługi incydentów cyberbezpieczeństwa dzięki temu przewodnikowi dla początkujących."
@@ -55,11 +55,11 @@ ______
 Skuteczne reagowanie na incydenty wymaga dobrze zaplanowanego i wykonanego procesu. Oto kilka najlepszych praktyk reagowania na incydenty:
 
 - **Rozwój planu reagowania na incydenty**: Stwórz plan, który określa procedury identyfikacji, badania i reagowania na incydenty.
-- Przeszkolenie pracowników**: Upewnij się, że wszyscy pracownicy zostali przeszkoleni w zakresie identyfikowania i zgłaszania incydentów oraz ich ról i obowiązków w zakresie reagowania na incydenty.
+- **Przeszkolenie pracowników**: Upewnij się, że wszyscy pracownicy zostali przeszkoleni w zakresie identyfikowania i zgłaszania incydentów oraz ich ról i obowiązków w zakresie reagowania na incydenty.
 - **Używaj zautomatyzowanych narzędzi**: Używaj narzędzi takich jak systemy zarządzania informacjami i zdarzeniami bezpieczeństwa (SIEM), aby pomóc w identyfikacji i reagowaniu na incydenty.
 - **Skuteczna komunikacja**: Upewnij się, że wszyscy interesariusze są na bieżąco informowani w trakcie całego procesu reagowania na incydenty.
 - **Dokumentuj wszystko**: Dokumentuj wszystkie aspekty procesu reagowania na incydenty, w tym szczegóły incydentu, działania w odpowiedzi i wyciągnięte wnioski.
-- Przeprowadzaj regularne testy**: Regularnie testuj plan reagowania na incydenty, aby upewnić się, że jest on skuteczny i aktualny.
+- **Przeprowadzaj regularne testy**: Regularnie testuj plan reagowania na incydenty, aby upewnić się, że jest on skuteczny i aktualny.
 
 ______
 

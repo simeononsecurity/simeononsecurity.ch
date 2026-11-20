@@ -1,13 +1,13 @@
 ---
 title: "Leitfaden für Einsteiger in die Reaktion auf Cybersecurity-Vorfälle"
 date: 2023-03-16
-lastmod: 2026-11-14
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Lernen Sie die Grundlagen der Reaktion auf Vorfälle und den Umgang mit Cybersecurity-Vorfällen mit diesem Leitfaden für Einsteiger."
 tags: ["Vorfallreaktion", "Cybersicherheit", "Einsteigerhandbuch", "datenschutz", "Datensicherheit", "IT-Sicherheit", "Netzwerksicherheit", "Cyber-Angriffe", "Informationssicherheit", "Internetkriminalität", "digitale Sicherheit", "IT-Infrastruktur", "Datenschutzverletzungen", "Cyber-Bedrohungen", "Cyber-Abwehr", "Vorfallsmanagement", "Datenwiederherstellung", "Sicherheitsplanung", "Risikomanagement", "Cybersicherheitsstrategie"]
 cover: "/img/cover/a-beginners-guide-to-incident-responce-and-cybersecurity-incidents.webp"
-coverAlt: "Ein Cartoonbild eines Cybersecurity-Superhelden, der eine Stadt gegen Cyberbedrohungen verteidigt."
+coverAlt: "Ein modernes Lagezentrum für die Reaktion auf Cybersicherheitsvorfälle. Mehrere Bildschirme zeigen Datenanalysen und Sicherheitswarnungen. Ein vielfältiges Team von Fachleuten analysiert Informationen in einer dunkelblauen Umgebung."
 coverCaption: ""
 ---
 **Leitfaden zur Reaktion auf Cybersecurity-Vorfälle**
