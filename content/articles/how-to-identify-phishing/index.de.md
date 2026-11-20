@@ -1,10 +1,11 @@
 ---
-title: "So erkennen Sie Phishing-E-Mails, -Texte und -Anrufe"
+title: "So erkennen Sie Phishing-E-Mails, -SMS und -Anrufe"
 date: 2023-03-01
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Erfahren Sie, wie Sie Phishing-Versuche in E-Mails, SMS und Anrufen erkennen können, um Ihre persönlichen Daten zu schützen."
-tags: ["Phishing", "Online-Sicherheit", "E-Mail-Sicherheit", "Cybersicherheit", "Internet-Sicherheit", "Phishing-Mails", "Phishing-Texte", "Phishing-Anrufe", "digitale Bedrohungen", "Identitätsdiebstahl", "datenschutz", "Online-Betrug", "Online-Betrügereien", "Online-Datenschutz", "Tipps zur Online-Sicherheit", "Internetkriminalität", "Informationssicherheit", "Passwortsicherheit", "Datensicherheit", "Sicherheitsbewusstsein"]
+tags: ["Phishing", "Online-Sicherheit", "E-Mail-Sicherheit", "Cybersicherheit", "Internet-Sicherheit", "Phishing-Mails", "Phishing-Texte", "Phishing-Anrufe", "digitale Bedrohungen", "Identitätsdiebstahl", "Datenschutz", "Online-Betrug", "Online-Betrügereien", "Online-Datenschutz", "Tipps zur Online-Sicherheit", "Internetkriminalität", "Informationssicherheit", "Passwortsicherheit", "Datensicherheit", "Sicherheitsbewusstsein"]
 cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
 coverAlt: "Ein Bild einer Zeichentrickfigur mit Superheldenkostüm und Schild, die eine Angelrute mit einer Phishing-E-Mail abwehrt."
 coverCaption: ""
@@ -30,26 +31,26 @@ Der nächste Schritt besteht darin, die Arten von Nachrichten, die bei Phishing-
 
 Bei der Analyse einer Nachricht auf Anzeichen von Phishing gibt es ein paar **Schlüsselmerkmale**, auf die Sie achten sollten. Hier sind einige Tipps, wie Sie Phishing-E-Mails, -SMS und -Anrufe erkennen können.
 
-### Phishing-E-Mails
+### Betrügerische E-Mails
 
 Phishing-E-Mails sind so gestaltet, dass sie aussehen, als kämen sie von einem seriösen Unternehmen, aber sie haben oft **verräterische Anzeichen**, dass sie es nicht sind. Hier sind einige Dinge, auf die Sie achten sollten:
 
-- Die E-Mail-Adresse des Absenders stammt nicht von dem Unternehmen, das er vorgibt zu sein.
+- Die E-Mail-Adresse des Absenders stammt nicht von dem Unternehmen, für das er sich ausgibt.
 - In der E-Mail werden Sie aufgefordert, Ihre Kontoinformationen zu aktualisieren oder persönliche Daten anzugeben
 - Die E-Mail enthält Rechtschreib- oder Grammatikfehler
 - Die E-Mail enthält eine allgemeine Begrüßung, wie z. B. "Sehr geehrter Kunde", anstelle Ihres Namens
 - Die E-Mail enthält einen verdächtigen Anhang oder Link
 
-### Phishing-Texte
+### Betrügerische SMS
 
-Phishing-Texte sind ähnlich wie Phishing-E-Mails, enthalten aber oft einen **Link** zu einer gefälschten Website. Hier sind einige Dinge, auf die Sie achten sollten:
+Phishing-SMS ähneln Phishing-E-Mails, enthalten aber oft einen **Link** zu einer gefälschten Website. Hier sind einige Dinge, auf die Sie achten sollten:
 
-- Der Text fordert Sie auf, auf einen Link zu einer Website zu klicken
+- Die SMS fordert Sie auf, auf einen Link zu einer Website zu klicken
 - Die Website verwendet keine sichere Verbindung (https)
 - Die Website fordert Sie auf, Ihre Anmeldedaten oder persönlichen Daten einzugeben
 - Die Website enthält Rechtschreib- oder Grammatikfehler
 
-### Phishing-Aufrufe
+### Betrügerische Anrufe
 
 Phishing-Anrufe kommen oft von **unbekannten Nummern** oder von Nummern, die den Anschein erwecken, von einem seriösen Unternehmen zu stammen. Hier sind einige Dinge, auf die Sie achten sollten:
 
