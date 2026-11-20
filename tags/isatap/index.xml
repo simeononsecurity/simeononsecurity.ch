@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ISATAP on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/img/banner.webp</url><title>ISATAP on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/isatap/</link></image><link>https://ro.simeononsecurity.com/tags/isatap/</link><description>Recent content in ISATAP on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Sat, 18 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/isatap/index.xml" rel="self" type="application/rss+xml"/><item><title>Mecanisme de tranziție de la IPv4 la IPv6: un ghid complet</title><link>https://ro.simeononsecurity.com/articles/ipv4-to-ipv6-transition-mechanisms/</link><pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate><category>
+"IPv4"
+, "IPv6"
+, "rețelistică"
+, "mecanisme de tranziție"
+, "stivă duală"
+, "NAT64"
+, "DNS64"
+, "tunelare IPv6"
+, "ISATAP"
+, "6to4"
+, "DS-Lite"
+, "MAP-T"
+, "migrare IPv6"
+, "protocoale de rețea"
+, "protocolul internet"
+, "arhitectură de rețea"
+, "rutare"
+, "subnetare"
+, "adresare"</category><guid>https://ro.simeononsecurity.com/articles/ipv4-to-ipv6-transition-mechanisms/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Află care sunt mecanismele folosite pentru tranziția de la IPv4 la IPv6 în acest ghid complet.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.webp" length="56020" type="image/webp"/></item></channel></rss>

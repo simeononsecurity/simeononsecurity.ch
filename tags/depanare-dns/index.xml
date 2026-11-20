@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Depanare DNS on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/img/banner.webp</url><title>Depanare DNS on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/depanare-dns/</link></image><link>https://ro.simeononsecurity.com/tags/depanare-dns/</link><description>Recent content in Depanare DNS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/depanare-dns/index.xml" rel="self" type="application/rss+xml"/><item><title>De ce este ocolită filtrarea DNS: verifică traseul resolverului</title><link>https://ro.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Rețele de acasă"
+, "DNS"
+, "Confidențialitate"</category><guid>https://ro.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Află de ce un dispozitiv sau browser ocolește filtrul DNS. Compară interogările directe și implicite, verifică jurnalele și controlează DNS criptat, VPN, IPv6 și setările routerului.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>Optimizează rețeaua: stăpânește configurarea DNS</title><link>https://ro.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><category>
+"Administrarea rețelelor"
+, "Securitate cibernetică"
+, "Infrastructură IT"
+, "Soluții tehnice"
+, "Tehnologii Internet"
+, "Optimizare DNS"
+, "Performanța rețelei"
+, "Securitate digitală"
+, "Conectivitate la Internet"
+, "Ghiduri tehnice"</category><guid>https://ro.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Îmbunătățește rețeaua cu ajutorul DNS. Află cum influențează conectivitatea, performanța și securitatea, apoi optimizează configurația.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp"/></item><item><title>Cum funcționează DNS: DNS root, importanță și depanare</title><link>https://ro.simeononsecurity.com/articles/how-does-dns-work/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><category>
+"Noțiuni de bază DNS"
+, "DNS root"
+, "Sistemul de nume de domeniu"
+, "Rezolvare DNS"
+, "Ierarhia DNS"
+, "Memorare DNS în cache"
+, "Depanare DNS"
+, "Înregistrări DNS"
+, "Administrare DNS"
+, "Comenzi DNS"</category><guid>https://ro.simeononsecurity.com/articles/how-does-dns-work/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Află cum funcționează DNS și DNS root, ierarhia lor, procesul de rezolvare, memorarea în cache și depanarea.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/An_image_depicting_interconnected_computer_ne.webp" length="167680" type="image/webp"/></item></channel></rss>

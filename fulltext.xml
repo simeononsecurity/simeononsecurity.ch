@@ -1,0 +1,3445 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://ro.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>ro</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>Cum să alegi un model AI local fără cenzură</title><link>https://ro.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><description>Compară variantele locale după răspunsuri complete, capacități păstrate, utilizarea contextului, cuantizare și memoria VRAM necesară.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p><strong>Alegerea modelului:</strong> evaluează fiecare variantă după răspunsurile utile pe care le finalizează, calitatea pe care o păstrează și memoria de care are nevoie volumul tău de lucru. Un număr mic de refuzuri sau o fișă populară a modelului nu demonstrează aceste rezultate.</p>
+<p>Eticheta <strong>fără cenzură</strong> nu are o scară standard de performanță. Editorii modelelor o folosesc pentru modificări diferite ale ponderilor, reglaje fine și șabloane de conversație. Compară fiecare candidat cu modelul original și testează-l pe sarcinile pe care vrei să le rulezi.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <meta itemprop="name" content="Am testat toate modelele AI locale fără cenzură (de la 8 GB la 32 GB VRAM)">
+  <meta itemprop="description" content="Comparație între variante de modele locale, finalizarea răspunsurilor, setări de context și niveluri de memorie GPU.">
+  <meta itemprop="thumbnailUrl" cont
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Revenirea Home Assistant Core 2026.11 la 2026.10.4: remedierea versiunii 3 a stocării HTTP</title><link>https://ro.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><description>Remediază eroarea versiunii 3 a stocării HTTP după revenirea Home Assistant Core 2026.11 la 2026.10.4 pe Yellow. Include comenzi protejate și rezultate verificate.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p>O actualizare eșuată a Home Assistant Core 2026.11 mi-a readus Yellow CM4 la versiunea 2026.10.4. Yellow a rămas accesibil în rețea, dar nu a mai afișat tabloul de bord. Revenirea a lăsat un fișier de setări HTTP cu versiunea de stocare 3.1, în timp ce Core 2026.10.4 acceptă versiunea 2.2. Am păstrat fișierul, am convertit o copie cu verificări stricte, am restabilit accesul HTTP și apoi am actualizat Core la versiunea 2026.11.1.</p>
+<h2 id="idei-principale">
+  <a href="#idei-principale" title="Idei principale">Idei principale</a>
+  <a href="#idei-principale" class="h-anchor" aria-hidden="true" title="Idei principale">#</a>
+</h2>
+<ul>
+<li><strong>Confirmă incompatibilitatea.</strong> Compară eroarea din jurnalul Core cu versiunea instalată și versiunea stocării HTTP.</li>
+<li><strong>Păstrează fișierul.</strong> Înainte de recuperare, păstrează o copie nemodificată și un backup în afara dispozitivului.</li>
+<li><strong>Verifică rezultatul.</strong> Controlează starea Core, portul de ascultare salvat, tabloul de bord și versiunea instalată.</li>
+</ul>
+<p><strong>Remediere pentru acest caz exact:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Păstrează fișierul HTTP">
+    <meta itemprop="url" content="#preserve-recovery-options">
+    <a href="#preserve-recovery-options"
+    
+        rel="follow me"
+    >Păstrează fișierul HTTP</a>
+</span>
+, 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="creează și validează un candidat pentru versiunea 2.2">
+    <meta itemprop="url" content="#apply-the-tested-fix-for-version-31">
+    <a href="#apply-the-tested-fix-for-version-31"
+    
+        rel="follow me"
+    >creează și validea
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Compatibilitatea surselor Octominer X12 Ultra: test practic Chicony și LiteOn</title><link>https://ro.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><description>Un test cu cinci ventilatoare și trei surse pe un Octominer X12 Ultra a arătat că o sursă Chicony a pornit sistemul, în timp ce unitățile LiteOn testate au indicat culoarea chihlimbar și nu au pornit.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p><strong>Chicony R12-1K6P2A a pornit sistemul meu Octominer X12 Ultra cu cinci ventilatoare și trei surse.</strong> Sursele LiteOn PS-2142-2L testate au afișat o lumină verde, au trecut la chihlimbar și nu au pornit sistemul. Rezultatul se aplică unității mele cu placa de alimentare <strong>OCTOMINER (12PIN) 3x DPS1200 rev. 20</strong>. O putere nominală similară sau o listă pentru o placă breakout X12 separată nu dovedește compatibilitatea cu o placă Octominer.</p>
+<p>Șasiul s-a vândut ca <strong>configurație de 3.600 W</strong>, cu trei locașuri pentru surse. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Octominer listează o opțiune cu trei surse de 1.200 W">
+    <meta itemprop="url" content="https://octominer.eu/product/octominer-x12-ultra-used/">
+    <a href="https://octominer.eu/product/octominer-x12-ultra-used/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Octominer listează o opțiune cu trei surse de 1.200 W</a>
+</span>
+ pentru X12 Ultra, alături de alte configurații. Verifică eticheta și placa de alimentare din propriul echipament înainte să aplici aceste rezultate.</p>
+<h2 id="rezultatele-testelor">
+  <a href="#rezultatele-testelor" title="Rezultatele testelor">Rezultatele testelor</a>
+  <a href="#rezultatele-testelor" class="h-anchor" aria-hidden="true" title="Rezultatele testelor">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Sursă</th>
+					<th>Rezultat pe acest sistem</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Chicony R12-1K6P2A, 1.600 W</strong></td>
+					<td>A pornit sistemul în testul meu. Articolul nu a măsurat funcționarea la sarcină susținută sau în toate locașurile.</td>
+			</tr>
+			<tr>
+					<td><strong>LiteOn PS-2142-2L, 1.400 W</strong></td>
+					<td>Unitățile testate au luminat verde, apoi chihlimbar. Sistemul nu a pornit.</td>
+			</tr>
+			<tr>
+					<td><strong>Dell/Delta D1200E-S0, Dell 0F37X3</strong></td>
+					<td>Intrarea CA neobișnuită a îngreunat găsirea unui cablu potriv
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proxmox VE 9: reducerea spațiului ocupat de discurile virtuale și recuperarea spațiului</title><link>https://ro.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><description>Reduceți spațiul folosit de VM-uri și containere LXC în Proxmox VE 9. Comparați formatele și backendurile, activați discard, rulați trim și verificați snapshoturile înainte de recuperarea spațiului.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p><strong>Un sistem de fișiere mai mic în guest nu reduce întotdeauna spațiul folosit în Proxmox.</strong> Pentru a elibera spațiu pe host, aveți nevoie de un disc compatibil cu thin provisioning, de un traseu discard funcțional pentru VM-uri și de un backend fără blocuri păstrate de snapshoturi. Acest ghid prezintă setările și verificările pentru VM-uri și containere LXC în Proxmox VE 9.</p>
+<h2 id="idei-principale">
+  <a href="#idei-principale" title="Idei principale">Idei principale</a>
+  <a href="#idei-principale" class="h-anchor" aria-hidden="true" title="Idei principale">#</a>
+</h2>
+<ul>
+<li><strong>Alegeți mai întâi backendul.</strong> Dimensiunea declarată a unui disc virtual diferă de spațiul alocat pe host numai dacă formatul imaginii sau backendul acceptă thin provisioning.</li>
+<li><strong>Activați discard pentru VM, apoi rulați trim în guest.</strong> Windows ReTrim și Linux <code>fstrim</code> trimit cereri pentru blocurile neutilizate prin discul virtual.</li>
+<li><strong>Verificați separat snapshoturile și backupurile.</strong> Blocurile vechi rămân alocate cât timp un snapshot face referire la ele. Fișierele de backup și chunk-urile PBS au propriile reguli de retenție.</li>
+<li><strong>Clasificați mount-urile LXC după tip.</strong> Volumele rootfs și punctele de montare gestionate, bind mount-urile și montările de dispozitive au proprietari și comportamente de backup diferite.</li>
+</ul>
+<h2 id="înainte-de-a-începe">
+  <a href="#%c3%aenainte-de-a-%c3%aencepe" title="Înainte de a începe">Înainte de a începe</a>
+  <a href="#%c3%aenainte-de-a-%c3%aencepe" class="h-anchor" aria-hidden="true" title="Înainte de a începe">#</a>
+</h2>
+<p>Aveți nevoie de <strong>acces de administrator la Proxmox VE 9</strong>, de un backup verificat pentru fiecare guest afectat și de suficient spațiu liber în pool pentru operație. Notați ID-ul guestului, magistrala discului, ID-ul volumului, ID-ul stocării, snapshoturile și alocarea curentă înainte de a schimba setări. Folosiți 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itempro
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Tailscale Aperture: configurează clienții AI pentru inferență și MCP în 2026</title><link>https://ro.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><description>Direcționează cererile modelelor și instrumentele MCP prin Tailscale Aperture. Configurează Codex, Claude Code, Claude Desktop, OpenCode și Hermes pe alt dispozitiv sau gateway.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <h2 id="introducere">
+  <a href="#introducere" title="Introducere">Introducere</a>
+  <a href="#introducere" class="h-anchor" aria-hidden="true" title="Introducere">#</a>
+</h2>
+<p>Tailscale Aperture oferă clienților AI un gateway conectat la tailnet pentru inferența modelelor și instrumentele Model Context Protocol (MCP). Fiecare client trebuie să folosească o rută potrivită protocolului său API. Instrumentele MCP folosesc un endpoint separat, iar granturile Aperture controlează modelele și conectorii pe care îi poate accesa fiecare identitate Tailscale.</p>
+<p>Acest ghid explică configurarea Codex, Claude Code, Claude Desktop, OpenCode și Hermes pe macOS, Linux și Windows. Acoperă setările CLI și desktop, arată cum să găsești ID-urile modelelor disponibile pentru identitatea ta și include un prompt anonimizat pe care îl poți reutiliza când configurezi alt dispozitiv sau altă instanță Aperture.</p>
+<p><strong>Alegerea rutei:</strong> Căile endpointurilor depind de gateway și de fiecare protocol API. O rută Responses precum <code>/codex</code> nu deservește traficul Anthropic Messages sau MCP. Confirmă numele gazdei gatewayului și ruta de inferență a fiecărui client. Găsește ID-urile modelelor prin propriul acces Aperture înainte să modifici setările clientului.</p>
+<h2 id="idei-principale">
+  <a href="#idei-principale" title="Idei principale">Idei principale</a>
+  <a href="#idei-principale" class="h-anchor" aria-hidden="true" title="Idei principale">#</a>
+</h2>
+<ul>
+<li><strong>Traficul modelelor</strong> are nevoie de ruta API potrivită protocolului clientului.</li>
+<li><strong>Traficul MCP</strong> folosește endpointul separat <code>/v1/mcp</code>.</li>
+<li><strong>Permisiunile gatewayului</strong> trebuie să permită identității tale Tailscale să folosească fiecare model și conector.</li>
+<li><strong>Configurarea clientului</strong> dovedește doar că setările au fost salvate. Verifică o cerere reală și un apel către un instrument MCP.</li>
+</ul>
+<h2 id="cum-se-potrivesc-rutele">
+  <a href="#cum-se-potrivesc-rutele" title="Cum se potrivesc rutele">Cum se potrivesc rutele</a>
+  <a href="#cum-se-potrivesc-rutele" class="h-anchor" aria-hidden="true" title="Cum se potrivesc rutele">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Scop</th>
+					<th>Cererea clientului</th>
+					<th>Ruta Aperture</th>
+					<th>Serviciul oferit de rută</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Codex și modele compa
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Hindsight găzduit local: memorie locală pentru agenți și rutarea privată a modelelor</title><link>https://ro.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/self-hosted-hindsight/</guid><description>Studiu de caz despre Hindsight găzduit local, rutele Qwen locale observate și utilizarea GPU pentru cereri fără un abonament de inferență găzduită pe traseele inspectate.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/self-hosted-hindsight/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p><strong>Serviciul nostru de memorie Hindsight rulează pe echipamente pe care le controlăm.</strong> Motorul de memorie, baza de date, modelul de embeddinguri și rerankerul rulează într-o singură implementare găzduită local. Hindsight trimite cereri de generare către un gateway privat. Backendul Qwen partajat inspectat și ruta testată de reîmprospătare a paginilor folosesc servere locale de modele, fără un abonament de inferență găzduită.</p>
+<p>Aceasta descrie o implementare funcțională. <strong>Găzduirea locală nu înseamnă funcționare offline.</strong> VPN-ul folosește un serviciu extern de coordonare, iar imaginile software și ponderile modelelor trebuie descărcate. Afirmația de aici se referă la procesarea memoriei și inferența modelelor, nu la fiecare conexiune de rețea inițiată de dispozitivele noastre sau de alte instrumente pentru agenți.</p>
+<h2 id="idei-principale">
+  <a href="#idei-principale" title="Idei principale">Idei principale</a>
+  <a href="#idei-principale" class="h-anchor" aria-hidden="true" title="Idei principale">#</a>
+</h2>
+<ul>
+<li><strong>Hindsight gestionează fluxul de lucru al memoriei.</strong> Un container Docker furnizează API-ul, procesele worker și planul de control, iar datele băncilor se află pe un volum persistent.</li>
+<li><strong>Modelele mici de regăsire rămân locale.</strong> Embeddingurile și rerankingul rulează pe CPU în procesul Hindsight.</li>
+<li><strong>Qwen generează text.</strong> Retain, Reflect și consolidarea solicită aliasul privat Qwen3.5-4B, cu raționamentul dezactivat și ieșirea limitată. Backendul inspectat servește local.</li>
+<li><strong>Reîmprospătările lungi de pagini primesc un GPU.</strong> Un alias separat de model închiriază o placă pentru o cerere de fundal, apoi o eliberează.</li>
+<li><strong>Gateway-ul ascunde amplasarea fizică.</strong> Hindsight selectează un alias de model. Serviciile private de rutare selectează un endpoint de servire.</li>
+</ul>
+<h2 id="stabilește-limita-înainte-să-alegi-modelele">
+  <a href="#stabile%c8%99te-limita-%c3%aenainte-s%c4%83-alegi-modelele" title="Stabilește limita înainte să alegi modelele">Stabilește limita înainte să alegi modelele</a>
+  <a href="#stabile%c8%99te-limita-%c3%aenainte-s%c4%83-alegi-modelele" class="h-anchor" aria-hidden="true" title="Stabilește limita înainte să alegi modelele">#</a>
+</h2>
+<p><strong>Hindsight este motorul de memorie, nu serverul de modele.</str
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/self-hosted-hindsight/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Actualizare de securitate Chrome 156: verifică patch-ul din octombrie</title><link>https://ro.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><description>Verifică versiunea de securitate Chrome 156 din 27 octombrie pe Windows, macOS, Linux și Android. Compară buildul instalat, finalizează repornirea în așteptare și verifică separat dispozitivele gestionate.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p><strong>Versiunea de securitate Chrome din 27 octombrie 2026</strong> include 52 de remedieri. Pentru a verifica instalarea, compară versiunea completă cu versiunea publicată pentru sistemul tău de operare, apoi repornește Chrome pentru a finaliza orice actualizare în așteptare. Anunțarea unei versiuni nu dovedește că dispozitivul tău a primit actualizarea. (
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Lansarea Chrome pentru desktop">
+    <meta itemprop="url" content="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html">
+    <a href="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Lansarea Chrome pentru desktop</a>
+</span>
+)</p>
+<h2 id="ce-versiune-ar-trebui-să-vezi">
+  <a href="#ce-versiune-ar-trebui-s%c4%83-vezi" title="Ce versiune ar trebui să vezi?">Ce versiune ar trebui să vezi?</a>
+  <a href="#ce-versiune-ar-trebui-s%c4%83-vezi" class="h-anchor" aria-hidden="true" title="Ce versiune ar trebui să vezi?">#</a>
+</h2>
+<p>Google a publicat aceste versiuni ale canalului Stable pe 27 octombrie 2026. Lansarea pentru desktop enumeră builduri separate pentru Windows și macOS, respectiv Linux. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Lansarea pentru Android">
+    <meta itemprop="url" content="https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_0160078013.html">
+    <a href="https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_0160078013.html"
+    
+        
+            
+ 
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Open WebUI v0.12.4: listă de verificare pentru actualizare și controlul accesului 2026</title><link>https://ro.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><description>Fă backup și actualizează Open WebUI la v0.12.4, apoi testează partajarea chat-urilor, permisiunile de export, accesul la resurse, conturile și accesul la rețea.</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p><strong>Open WebUI v0.12.4 conține remedieri de securitate pe care administratorii proiectului nu le-au detaliat încă.</strong> Notele versiunii recomandă actualizarea promptă a instalărilor și spun că vor urma anunțuri după atribuirea CVE-urilor. Modificările numite mai jos pentru partajarea chat-urilor și permisiuni sunt elementele vizibile în notele de lansare, nu o listă completă a remedierilor de securitate încă nedivulgate. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Note de lansare Open WebUI v0.12.4">
+    <meta itemprop="url" content="https://github.com/open-webui/open-webui/releases/tag/v0.12.4">
+    <a href="https://github.com/open-webui/open-webui/releases/tag/v0.12.4"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Note de lansare Open WebUI v0.12.4</a>
+</span>
+</p>
+<h2 id="idei-principale">
+  <a href="#idei-principale" title="Idei principale">Idei principale</a>
+  <a href="#idei-principale" class="h-anchor" aria-hidden="true" title="Idei principale">#</a>
+</h2>
+<ul>
+<li><strong>Fă mai întâi backup.</strong> Păstrează o copie recuperabilă a volumului de date sau a bazei de date și a fișierelor încărcate înainte să modifici aplicația.</li>
+<li><strong>Fixează versiunea oficială.</strong> Folosește <code>ghcr.io/open-webui/open-webui:v0.12.4</code> pentru imaginea Docker standard sau <code>open-webui==0.12.4</code> pentru pip.</li>
+<li><strong>Testează permisiunile cu roluri reale de utilizator.</strong> Un buton ascuns nu dovedește o verificare de autorizare la nivelul API-ului.</li>
+<li><strong>Păstrează accesul privat.</strong> Cere autentificarea aplicației și limitează accesul la rețea prin VPN sau proxy invers autentificat.</li>
+</ul>
+<h2 id="înainte-de-actualizare">
+  <a href="#%c3%aenainte-de-actualizare" title="Înainte de actualizare">Înainte de actualizare</a>
+  <a href="#%c3%aenainte-de-actualizare" class="h-anchor" aria-hidden="true" title="Înainte de actualizare">#</a>
+</h2>
+<p><strong>Cerin
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Thunderbird 153.6: Expunerea datelor de autentificare NTLM în Windows și actualizarea (2026)</title><link>https://ro.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><description>Două vulnerabilități grave din Thunderbird pot expune datele de autentificare NTLM din Windows la afișarea unui e-mail special conceput. Află cum funcționează cele două căi, verifică versiunea și limitează traficul SMB de ieșire în timpul actualizării.</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p>Mozilla a remediat două <strong>vulnerabilități grave care expuneau datele de autentificare Windows</strong> în Thunderbird 153.6. Afișarea unui e-mail creat cu rea intenție putea declanșa una dintre solicitările de rețea descrise în 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="MFSA 2026-122">
+    <meta itemprop="url" content="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/">
+    <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >MFSA 2026-122</a>
+</span>
+. Buletinul descrie o posibilă expunere a datelor NTLM, nu compromiterea confirmată a datelor fiecărui destinatar.</p>
+<h2 id="idei-principale">
+  <a href="#idei-principale" title="Idei principale">Idei principale</a>
+  <a href="#idei-principale" class="h-anchor" aria-hidden="true" title="Idei principale">#</a>
+</h2>
+<ul>
+<li><strong>CVE-2026-118174</strong> implica un atașament cu cheie OpenPGP găzduit extern. Afișarea mesajului declanșa o solicitare fără intervenția utilizatorului, chiar și când conținutul la distanță era blocat.</li>
+<li><strong>CVE-2026-118176</strong> implica un URL <code>mailbox:</code> special formatat, care folosea o cale UNC cu lungime extinsă. Afișarea mesajului declanșa o conexiune SMB la un server ales de expeditor.</li>
+<li><strong>Actualizează Thunderbird pe Windows</strong> și verifică versiunea instalată. Buletinul indică Thunderbird 153.6 ca versiune remediată. Notele de lansare Thunderbird identifică versiunea ESR corespunzătoare, 153.6.0esr.</li>
+</ul>
+<h2 id="ce-declanșează-e-mailul">
+  <a href="#ce-declan%c8%99eaz%c4%83-e-mailul" title="Ce declanșează e-mailul">Ce declanșează e-mailul</a>
+  <a href="#ce-declan%c8%99eaz%c4%83-e-mailul" class="h-anchor" aria-hidden="true" title="Ce declanșează e-mailul">#</a>
+</h2>
+<p><strong>Cele două vulnerabilități au puncte de intrare diferite.</strong> Conform descrierilor Mozilla, în niciun caz destin
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Construiește un laborator de acasă în 10 niveluri, de la Pi-hole la AI local</title><link>https://ro.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><description>Construiește un laborator de acasă în zece etape practice, de la filtrarea DNS pentru întreaga rețea la AI local, cu hardware, costuri, competențe și compromisuri pentru fiecare nivel.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/build-home-lab-10-levels/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <h1 id="construiește-un-laborator-de-acasă-în-10-niveluri-de-la-pi-hole-la-ai-local">
+  <a href="#construie%c8%99te-un-laborator-de-acas%c4%83-%c3%aen-10-niveluri-de-la-pi-hole-la-ai-local" title="Construiește un laborator de acasă în 10 niveluri, de la Pi-hole la AI local">Construiește un laborator de acasă în 10 niveluri, de la Pi-hole la AI local</a>
+  <a href="#construie%c8%99te-un-laborator-de-acas%c4%83-%c3%aen-10-niveluri-de-la-pi-hole-la-ai-local" class="h-anchor" aria-hidden="true" title="Construiește un laborator de acasă în 10 niveluri, de la Pi-hole la AI local">#</a>
+</h1>
+<p>Un <strong>laborator de acasă</strong> este un set de computere și servicii pe care le administrezi pentru a rezolva probleme de zi cu zi și a învăța să operezi sisteme reale. Poți bloca reclame, automatiza luminile, stoca mediile familiei sau testa mașini virtuale. <strong>Începe cu o sarcină utilă.</strong> Adaugă hardware când apare o limitare reală.</p>
+<p>Acest ghid pornește de la un Raspberry Pi mic, cu Pi-hole, și ajunge la un server care rulează modele AI locale. <strong>Fiecare nivel adaugă o funcție și o responsabilitate nouă.</strong> Estimările de cost folosesc un consum ilustrativ și un tarif de exemplu de $0.15 pe kilowatt-oră. Verifică tariful local și măsoară echipamentele înainte să cumperi mai mult.</p>
+<h2 id="nivelul-1-blochează-reclamele-în-toată-rețeaua-de-acasă">
+  <a href="#nivelul-1-blocheaz%c4%83-reclamele-%c3%aen-toat%c4%83-re%c8%9beaua-de-acas%c4%83" title="Nivelul 1: Blochează reclamele în toată rețeaua de acasă">Nivelul 1: Blochează reclamele în toată rețeaua de acasă</a>
+  <a href="#nivelul-1-blocheaz%c4%83-reclamele-%c3%aen-toat%c4%83-re%c8%9beaua-de-acas%c4%83" class="h-anchor" aria-hidden="true" title="Nivelul 1: Blochează reclamele în toată rețeaua de acasă">#</a>
+</h2>
+<p>Instalează 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Pi-hole">
+    <meta itemprop="url" content="https://docs.pi-hole.net/">
+    <a href="https://docs.pi-hole.net/"
+    
+        
+            
+              
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/build-home-lab-10-levels/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Benchmarkuri pentru modele locale Hermes: combinațiile de GPU și modele pe care le-aș folosi</title><link>https://ro.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><description>Recomandările mele de modele Hermes se bazează pe teste de context lung, instrumente, streaming și vedere pe sisteme RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti și RTX 3070.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p>Pentru activități Hermes cu context lung, aș începe cu Qwen3.5 35B pe două plăci RTX 5060 Ti de 16 GB. Ruta testată a păstrat 239.153 de tokenuri de intrare prin LiteLLM și a trecut verificări separate pentru instrumente, streaming, vedere, solicitări puse în coadă și anulare. Qwen3.6 este alternativa mea cu o singură placă. Pe sistemele RTX 3060 Ti și RTX 3070 aș începe cu Qwen3.5 2B sau 4B.</p>
+<p>Aceste alegeri provin din rularea modelelor prin căile de inferență folosite de agent. Am testat păstrarea intrărilor lungi, schimburile dus-întors cu instrumente, răspunsurile transmise în streaming, întrebările despre imagini și eliberarea modelului. Am testat și modurile și setările de memorie din spatele rutelor, deoarece încărcarea reușită a unui model spune puțin despre utilitatea lui în timpul unei solicitări lungi de agent.</p>
+<p>Hermes cere cel puțin 64.000 de tokenuri de context pentru utilizarea agentului cu instrumente. Am folosit 65.536 de tokenuri reale de intrare drept prag de calificare pentru context lung. Numărul de tokenuri de intrare contează mai mult decât dimensiunea contextului anunțată de server. (
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Documentația furnizorilor Hermes Agent">
+    <meta itemprop="url" content="https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md">
+    <a href="https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Documentația furnizorilor Hermes Agent</a>
+</span>
+)</p>
+<h2 id="ce-gpu-uri-avea-fiecare-sistem">
+  <a href="#ce-gpu-uri-avea-fiecare-sistem" title="Ce GPU-uri avea fiecare sistem">Ce GPU-uri avea fiecare sistem</a>
+  <a href="#ce-gpu-uri-avea-fiecare-sistem" class="h-anchor" aria-hidden="true" title="Ce GPU-uri avea fiecare sistem">#</a>
+</h2>
+<p>Literele sistemelor identifică configurațiile hardware folosite în rezultate.</p>
+<ta
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>În interiorul flotei noastre hibride de agenți IA: Hermes, LiteLLM și Tailscale</title><link>https://ro.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><description>Descoperiți o flotă locală de IA verificată, cu încărcare la cerere, și planul său de control T0-T4 cu Hermes, LiteLLM, Tailscale Aperture și minarea Pearl.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p><strong>Am implementat o flotă locală de GPU-uri alocate pentru fiecare solicitare și i-am proiectat planul de control hibrid.</strong> Calea verificată pornește din LiteLLM, selectează un grup de modele și încarcă un model local pe câte un GPU. Politica de niveluri Hermes este propusă, iar un artefact de configurare Tailscale Aperture este pregătit pentru următorul test de integrare. Niciuna nu a fost verificată ca parte a unei singure rute complete de la un capăt la altul.</p>
+<p>Plăcile inactive minează Pearl. O solicitare de IA întrerupe minarea doar pe placa închiriată, deservește solicitarea, descarcă modelul și returnează placa minerului.</p>
+<h2 id="idei-principale">
+  <a href="#idei-principale" title="Idei principale">Idei principale</a>
+  <a href="#idei-principale" class="h-anchor" aria-hidden="true" title="Idei principale">#</a>
+</h2>
+<ul>
+<li><strong>T0 până la T2 gestionează lucrările costisitoare sau solicitante.</strong> Aceste rute preferă modelele avansate găzduite și lanțuri de rezervă ordonate.</li>
+<li><strong>T3 gestionează lucrări locale substanțiale.</strong> Flota atribuie planificarea, programarea, revizuirea și viziunea modelelor de la 4B la 12B.</li>
+<li><strong>T4 gestionează lucrări locale frecvente.</strong> Modelele mici rutează, clasifică, extrag, generează embeddinguri și finalizează sarcini de cod delimitate.</li>
+<li><strong>Fiecare GPU este o resursă independentă.</strong> O placă deservește IA în timp ce celelalte continuă minarea.</li>
+<li><strong>Modelele locale rămân descărcate când sunt inactive.</strong> Niciun model nu păstrează memorie GPU între ferestrele de solicitări.</li>
+<li><strong>Fiecare gateway expune același catalog logic.</strong> Aliasurile partajate distribuie lucrul între sisteme eligibile. Aliasurile prefixate cu nodul păstrează amplasarea exactă când este nevoie.</li>
+<li><strong>Brokerul experimental nu a ajuns în producție.</strong> Canary-ul său a deservit o solicitare, apoi a eșuat la testul de oprire curată. LiteLLM a rămas pe ruta verificată per solicitare.</li>
+<li><strong>Hermes și Aperture sunt încă în pregătire.</strong> Proiectul-țintă există, dar testul de acceptare de la un capăt la altul rămâne deschis.</li>
+</ul>
+<p><strong>Cerințe preliminare:</strong> mai multe gazde Linux cu GPU, drivere NVIDIA stabile, un tailnet Tailscale, systemd, un miner funcțional, stocare pentru modele și teste de accep
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>1Password SSH Agent and CLI: Acces în mod de doar citire pentru agenți AI</title><link>https://ro.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><description>Proiectați un flux de lucru SSH în mod de doar citire cu 1Password CLI, SSH Agent și MCP. Folosiți comenzi sintetice, permisiuni restrânse și aprobare umană înainte de testarea în mediu real.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p><strong>Un agent de linie de comandă are nevoie de acces util, nu de o copie a tuturor credențialelor.</strong> Acest ghid prezintă un design delimitat pentru 1Password CLI, Agentul SSH 1Password, accesul Git Bitbucket și Protocolul de Context al Modelului (MCP). Primul flux de lucru utilizează nume sintetice, acțiuni doar de citire și aprobare umană la granița SSH.</p>
+<p>Distincția cheie este simplă. <strong>SSH interactiv utilizează consimțământul prin Agentul SSH 1Password. Automatizarea neasistată necesită o identitate separată, un acces restrâns și un ciclu de viață diferit al cheii.</strong> Nu tratați o conexiune MCP ca pe o permisiune de a rula oricare dintre fluxurile de lucru.</p>
+<h2 id="puncte-cheie">
+  <a href="#puncte-cheie" title="Puncte cheie">Puncte cheie</a>
+  <a href="#puncte-cheie" class="h-anchor" aria-hidden="true" title="Puncte cheie">#</a>
+</h2>
+<ul>
+<li><strong>Protecția cheii private:</strong> Agentul SSH 1Password efectuează autentificarea SSH, păstrând cheile private în aplicația 1Password.</li>
+<li><strong>Gestionarea cheii publice:</strong> Publicați doar o cheie publică către Bitbucket sau un cont remote. Păstrați jumătatea privată într-un element SSH Key.</li>
+<li><strong>Consimțământ interactiv:</strong> O persoană aprobă un client sau o sesiune de terminal înainte ca Agentul SSH să utilizeze o cheie.</li>
+<li><strong>Separare pentru neasistență:</strong> Un job programat necesită un cont de serviciu dedicat și un domeniu de vault restrâns. O aprobare a Agentului SSH interactiv nu satisface această necesitate.</li>
+<li><strong>Granițe MCP:</strong> MCP conectează un agent la instrumente și resurse. Clientul, serverul, sistemul de operare și politica 1Password controlează în continuare accesul.</li>
+</ul>
+<h2 id="înainte-de-a-începe">
+  <a href="#%c3%aenainte-de-a-%c3%aencepe" title="Înainte de a începe">Înainte de a începe</a>
+  <a href="#%c3%aenainte-de-a-%c3%aencepe" class="h-anchor" aria-hidden="true" title="Înainte de a începe">#</a>
+</h2>
+<p><strong>Prerechizite:</strong> Instalați 1Password 8 și 1Password CLI 2.20.0 sau o versiune ulterioară. Autentificați-vă printr-un cont 1Password suportat. Utilizați un client OpenSSH. Creați un depozit de test Bitbucket sau altă țintă non-producție. Păstrați o cale administrativă secundară disponibilă pentru revenire.</p>
+<p><strong>Timp:</strong> 30 la 45 de minute pentru o revizuire a designului 
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Chei SSH Bitbucket Cloud: acces Git doar în citire pentru agenți AI</title><link>https://ro.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><description>Configurați chei SSH Bitbucket Cloud, acces Git CLI, tokenuri REST API, 1Password și instrumente MCP pentru fluxuri de lucru ale agenților AI doar în citire.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p><strong>Un flux de lucru limitat al agentului separă citirea depozitului, citirile API, gestionarea secretelor și scrierile la distanță.</strong> Folosiți Git prin Secure Shell (SSH) pentru acces la surse, o cheie Bitbucket doar în citire pentru checkout automat, REST API pentru metadate și un server Model Context Protocol (MCP) pentru instrumente aprobate. Păstrați cheile private și tokenurile API în 1Password. Cereți aprobarea unei persoane înainte de scriere.</p>
+<h2 id="idei-principale">
+  <a href="#idei-principale" title="Idei principale">Idei principale</a>
+  <a href="#idei-principale" class="h-anchor" aria-hidden="true" title="Idei principale">#</a>
+</h2>
+<ul>
+<li><strong>Doar în citire în mod implicit:</strong> folosiți o cheie de acces la depozit sau proiect pentru checkout-ul agentului. Niciuna nu permite push.</li>
+<li><strong>Identitate personală:</strong> folosiți o cheie SSH personală pentru lucrări interactive asociate unui cont de utilizator.</li>
+<li><strong>Custodia secretelor:</strong> folosiți 1Password SSH Agent pentru ca Git să solicite o operație de semnare autorizată fără să citească cheia privată.</li>
+<li><strong>Sensul CLI:</strong> considerați <code>git</code>, <code>curl</code> și un wrapper API mic, auditat, drept linia de comandă practică pentru Bitbucket.</li>
+<li><strong>Limita MCP:</strong> expuneți instrumente de citire cu domeniu restrâns. Dezactivați instrumentele de scriere sau plasați-le în spatele unei aprobări separate.</li>
+<li><strong>Controlul scrierii:</strong> permiteți agentului să inspecteze, să compare și să pregătească o modificare. Cereți aprobarea unei persoane înainte de push, pull request, merge sau actualizarea setărilor.</li>
+</ul>
+<h2 id="înainte-de-a-începe">
+  <a href="#%c3%aenainte-de-a-%c3%aencepe" title="Înainte de a începe">Înainte de a începe</a>
+  <a href="#%c3%aenainte-de-a-%c3%aencepe" class="h-anchor" aria-hidden="true" title="Înainte de a începe">#</a>
+</h2>
+<p><strong>Cerințe:</strong> acces la Bitbucket Cloud, Git, un client OpenSSH, 1Password 8, 1Password CLI, o CLI conectată sau un cont de serviciu aprobat și o gazdă MCP cu controale de aprobare a serverelor. Rezervați 45 de minute. Dificultate medie.</p>
+<p>Folosiți un depozit de test pentru prima încercare. Înlocuiți fiecare substituent din exemple. Comenzile de mai jos sunt exemple netestate. Nu reprezintă un cont sau un depozit Bitbucket activ.</p>
+<p><strong>Ve
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>De ce este ocolită filtrarea DNS: verifică traseul resolverului</title><link>https://ro.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><description>Află de ce un dispozitiv sau browser ocolește filtrul DNS. Compară interogările directe și implicite, verifică jurnalele și controlează DNS criptat, VPN, IPv6 și setările routerului.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p>Ai configurat un resolver cu filtrare, dar un dispozitiv accesează în continuare un domeniu blocat de politica ta. Cauza poate fi regula, atribuirea Domain Name System (DNS) a dispozitivului, un resolver criptat din browser sau un VPN. <strong>Testează traseul înainte să schimbi setările.</strong> O interogare directă către filtru răspunde la altă întrebare decât o interogare obișnuită a dispozitivului.</p>
+<h2 id="idei-principale">
+  <a href="#idei-principale" title="Idei principale">Idei principale</a>
+  <a href="#idei-principale" class="h-anchor" aria-hidden="true" title="Idei principale">#</a>
+</h2>
+<ul>
+<li><strong>Verifică regula mai întâi:</strong> Confirmă că filtrul primește și blochează un domeniu de test sigur.</li>
+<li><strong>Urmărește fiecare nivel:</strong> Routerul, sistemul de operare, browserul, VPN-ul și setările mobile influențează rutarea DNS.</li>
+<li><strong>Folosește interogări noi:</strong> Corelează un nume de gazdă nou și ora lui cu jurnalul de interogări al filtrului.</li>
+<li><strong>Precizează limita:</strong> O interogare observată confirmă un traseu, nu comportamentul fiecărei aplicații sau al fiecărui dispozitiv.</li>
+</ul>
+<h2 id="înainte-să-începi">
+  <a href="#%c3%aenainte-s%c4%83-%c3%aencepi" title="Înainte să începi">Înainte să începi</a>
+  <a href="#%c3%aenainte-s%c4%83-%c3%aencepi" class="h-anchor" aria-hidden="true" title="Înainte să începi">#</a>
+</h2>
+<p>Rezervă aproximativ 20 de minute. Ai nevoie de acces la jurnalul de interogări al resolverului filtrant, de un dispozitiv cu problema și de o evidență a setărilor DNS ale routerului. Exemplele folosesc un laptop cu Windows și <strong>Pi-hole</strong>, dar aceeași comparație funcționează cu orice resolver care oferă jurnale pe client. Identifică mai întâi adresa exactă a filtrului. Nu include adrese private ale clienților, jurnale de interogări sau reguli de politică într-un raport public.</p>
+<p>Alege un <strong>domeniu de test inofensiv</strong> pe care politica ta îl blochează deja. O altă opțiune este să adaugi temporar o regulă exactă de respingere pentru un domeniu pe care îl controlezi într-un profil de test. Notează regula și elimin-o după test. Nu folosi ca probă un domeniu activ de malware. O pagină blocată este un simptom util, dar jurnalul resolverului oferă dovezi mai puternice despre traseu.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Nivel</th>
+					<th>Întrebare</t
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Migrarea unei VM Hyper-V la Proxmox VE: listă de verificare reversibilă</title><link>https://ro.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><description>Mutați o mașină virtuală Hyper-V la Proxmox VE prin exportarea sursei oprite, potrivirea firmware-ului, importarea discurilor, testarea pornirii izolate și un plan de revenire.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p>Un <strong>export Hyper-V</strong> păstrează fișierele unei mașini virtuale, iar Proxmox VE are nevoie de o configurație nouă pentru invitat și de fișierele de disc virtual VHDX importate. O copiere reușită nu dovedește că invitatul va porni sau va furniza servicii utilizatorilor. Această listă mută o VM printr-un export cu sursa oprită, un test controlat de pornire și o comutare cu o cale clară de revenire.</p>
+<h2 id="idei-principale">
+  <a href="#idei-principale" title="Idei principale">Idei principale</a>
+  <a href="#idei-principale" class="h-anchor" aria-hidden="true" title="Idei principale">#</a>
+</h2>
+<ul>
+<li><strong>Înregistrați sursa:</strong> notați generația firmware-ului, căile discurilor, punctele de control, setările de rețea și criptarea înainte de export.</li>
+<li><strong>Opriți scrierile:</strong> închideți VM-ul Hyper-V înaintea exportului final și păstrați-l oprit în timpul testului Proxmox.</li>
+<li><strong>Potriviți pornirea:</strong> Hyper-V din Generația 1 folosește BIOS vechi. Generația 2 folosește UEFI.</li>
+<li><strong>Validați serviciul:</strong> verificați datele, accesul la rețea, copiile de siguranță și starea invitatului înainte de retragerea sursei.</li>
+</ul>
+<h2 id="înainte-să-începeți">
+  <a href="#%c3%aenainte-s%c4%83-%c3%aencepe%c8%9bi" title="Înainte să începeți">Înainte să începeți</a>
+  <a href="#%c3%aenainte-s%c4%83-%c3%aencepe%c8%9bi" class="h-anchor" aria-hidden="true" title="Înainte să începeți">#</a>
+</h2>
+<p>Programați o fereastră de mentenanță și testați mai întâi pe o VM dispensabilă. Aveți nevoie de acces de administrator la Hyper-V și Proxmox VE, spațiu de stocare pentru export și o copie de siguranță verificată, separată de copia de migrare. Rezervați timp pentru transferul tuturor discurilor virtuale și testarea aplicației invitatului. Dimensiunea discului și viteza transferului determină durata întreruperii.</p>
+<p>Procedura acoperă o VM obișnuită cu discuri virtuale. <strong>VM-urile protejate, discurile passthrough, discurile partajate, sarcinile în cluster și licențele legate de hardware</strong> necesită planuri specifice. Notați cine decide comutarea și termenul-limită pentru revenire. Nu porniți ambele copii în rețeaua de producție cu aceeași identitate de mașină.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Detaliu despre sursă</th>
+					<th>De ce este necesar</th>
+			</tr>
+	</thead>
+	<tbody>
+			<t
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Test de restaurare a unei VM Proxmox: verifică dacă sistemul invitat funcționează</title><link>https://ro.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><description>Testează o copie de siguranță a unei VM Proxmox printr-o restaurare izolată. Verifică discurile incluse, modul de backup, datele invitatului, starea serviciului și timpul de recuperare fără să atingi producția.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p>O sarcină de backup verde arată că Proxmox a scris o copie de siguranță. Nu arată dacă invitatul pornește, dacă datele sunt recente sau dacă funcționează serviciul principal. <strong>Restaurează o copie cu un ID nou de VM într-o rețea izolată.</strong> Rezultatul oferă dovezi despre recuperare înainte ca o întrerupere să te oblige să faci testul.</p>
+<p>Acest exercițiu acoperă o <strong>mașină virtuală Proxmox VE</strong>. Containerele au alte reguli de backup, mai ales pentru montări bind și montări de dispozitive. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Testul de backup și restaurare pentru laboratorul de acasă">
+    <meta itemprop="url" content="/articles/homelab-backup-restore-drill/">
+    <a href="/articles/homelab-backup-restore-drill/"
+    
+        rel="follow me"
+    >Testul de backup și restaurare pentru laboratorul de acasă</a>
+</span>
+ de pe site acoperă recuperarea mai amplă a fișierelor. Aici vei testa o copie Proxmox a unei VM și sarcina ei de lucru.</p>
+<p>Un <strong>invitat</strong> este sistemul de operare care rulează într-o mașină virtuală. <strong>Montările bind</strong> și <strong>montările de dispozitive</strong> expun resursele gazdei către invitat. Testează aceste resurse printr-un plan de recuperare separat.</p>
+<h2 id="idei-principale">
+  <a href="#idei-principale" title="Idei principale">Idei principale</a>
+  <a href="#idei-principale" class="h-anchor" aria-hidden="true" title="Idei principale">#</a>
+</h2>
+<ul>
+<li><strong>Definește mai întâi succesul:</strong> alege un element de date, o verificare a serviciului și un timp de recuperare acceptabil.</li>
+<li><strong>Verifică acoperirea:</strong> copia unei VM omite discurile marcate <strong>No backup</strong> și nu recreează servicii externe sau date excluse.</li>
+<li><strong>Restaurează separat:</strong> folosește un ID de VM neutilizat și păstrează rețeaua restaurată izolată de producție.</li>
+<li><strong>Înregistrează dovezile:</strong> măsoară vechimea copiei, timpul de restaurare, pornirea, prezența disc
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Testează izolarea rețelelor pentru oaspeți și IoT pe o rețea Wi-Fi mesh</title><link>https://ro.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><description>Verifică dacă rețelele pentru oaspeți și IoT ale sistemului Wi-Fi mesh blochează accesul la dispozitivele de acasă. Testează fiecare rețea cu un serviciu funcțional și notează limitele.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p>Un nume Wi-Fi separat nu arată ce dispozitive comunică între ele. Un sistem mesh poate trata <strong>rețeaua pentru oaspeți</strong>, <strong>rețeaua IoT</strong> și <strong>izolarea clienților wireless</strong> drept controale distincte. Acest ghid te ajută să testezi căile pe echipamentele tale fără să presupui că eticheta producătorului descrie politica aplicată.</p>
+<h2 id="idei-principale">
+  <a href="#idei-principale" title="Idei principale">Idei principale</a>
+  <a href="#idei-principale" class="h-anchor" aria-hidden="true" title="Idei principale">#</a>
+</h2>
+<ul>
+<li><strong>Verifică mai întâi că ținta funcționează:</strong> accesează un serviciu cunoscut din rețeaua principală înainte de a testa o cale blocată.</li>
+<li><strong>Testează fiecare limită:</strong> accesul oaspeți către rețeaua principală, IoT către principală și oaspete către oaspete răspund la întrebări diferite.</li>
+<li><strong>Notează configurația:</strong> modelul, firmware-ul, modul router sau punct de acces și nodul mesh conectat influențează interpretarea.</li>
+<li><strong>Retestează după modificări:</strong> un rezultat valid se aplică doar dispozitivelor, serviciului, familiei de adrese și configurației testate.</li>
+</ul>
+<h2 id="înainte-de-a-începe">
+  <a href="#%c3%aenainte-de-a-%c3%aencepe" title="Înainte de a începe">Înainte de a începe</a>
+  <a href="#%c3%aenainte-de-a-%c3%aencepe" class="h-anchor" aria-hidden="true" title="Înainte de a începe">#</a>
+</h2>
+<p>Rezervă aproximativ 20 de minute. Ai nevoie de un laptop care se poate conecta la rețelele Wi-Fi principală, pentru oaspeți și IoT. Mai ai nevoie de un dispozitiv de încredere din rețeaua principală cu un <strong>serviciu TCP deschis cunoscut</strong>, precum interfața web a unui NAS. Un serviciu TCP ascultă pe un port numerotat, de exemplu portul 443 al unei pagini web NAS. Folosește un serviciu care îți aparține sau pe care îl administrezi. Notează adresa locală și portul, fără să le publici. Lasă serviciul să ruleze pe toată durata testului.</p>
+<p>Notează modelul mesh, versiunea firmware-ului, modul de operare și setările pentru accesul oaspeților, accesul IoT, dispozitivele partajate și izolarea clienților. Confirmă numele Wi-Fi al laptopului după fiecare schimbare. Dacă politica ta obișnuită permite, deconectează VPN-ul sau proxy-ul pentru acest test al căii locale și reconectează-l după aceea. Un VPN mod
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Testează scurgerile DNS și WebRTC din browser cu un VPN</title><link>https://ro.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><description>Verifică adresa IP publică, resolverul DNS și adresele WebRTC ale browserului înainte și după conectarea la un VPN. Interpretează rezultatele și investighează problemele de rutare.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p>Pictograma de conexiune a unei rețele private virtuale (VPN) nu dovedește că fiecare solicitare a browserului urmează aceeași rută. Testează separat <strong>IP-ul public</strong>, <strong>resolverul Sistemului de nume de domeniu (DNS)</strong> și <strong>adresele WebRTC</strong>. Fiecare rezultat răspunde unei întrebări diferite. Acest ghid prezintă un test repetabil și o metodă de investigare a rezultatelor neașteptate.</p>
+<h2 id="idei-principale">
+  <a href="#idei-principale" title="Idei principale">Idei principale</a>
+  <a href="#idei-principale" class="h-anchor" aria-hidden="true" title="Idei principale">#</a>
+</h2>
+<ul>
+<li><strong>Compară două stări:</strong> Înregistrează aceleași teste înainte și după conectarea VPN-ului.</li>
+<li><strong>Analizează separat rezultatele:</strong> Schimbarea IP-ului public nu arată unde au ajuns interogările DNS.</li>
+<li><strong>Verifică candidații WebRTC:</strong> Caută un IP public în afara rutei intenționate. O adresă privată are altă semnificație.</li>
+<li><strong>Schimbă o singură setare:</strong> Testează din nou după fiecare modificare a VPN-ului, browserului sau DNS-ului.</li>
+</ul>
+<h2 id="înainte-să-începi">
+  <a href="#%c3%aenainte-s%c4%83-%c3%aencepi" title="Înainte să începi">Înainte să începi</a>
+  <a href="#%c3%aenainte-s%c4%83-%c3%aencepi" class="h-anchor" aria-hidden="true" title="Înainte să începi">#</a>
+</h2>
+<p>Folosește browserul și conexiunea de rețea pe care intenționezi să le protejezi. Stabilește dacă VPN-ul trebuie să acopere întregul dispozitiv sau doar anumite aplicații. Dacă VPN-ul folosește tunelare divizată, notează dacă browserul testat este inclus în tunel. Păstrează la îndemână politica DNS a clientului VPN pentru comparație.</p>
+<p><strong>Tunelarea divizată</strong> trimite anumite aplicații prin VPN, în timp ce altele folosesc rețeaua obișnuită.</p>
+<p>Procedura folosește paginile 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="IP BrowserLeaks">
+    <meta itemprop="url" content="https://browserleaks.com
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2x RTX 5060 Ti față de GB10: benchmark local de IA cu cinci modele la context de 256K</title><link>https://ro.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><description>Comparație între RTX 5060 Ti și GB10 pentru cinci modele, plus un benchmark Qwen3.8 Flash-Next Strata pe același host, până la un context de 256K.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p><strong>Două plăci RTX 5060 Ti de 16 GB oferă 32 GB de VRAM în total.</strong> Un sistem NVIDIA GB10 oferă 128 GB de memorie unificată coerentă. Noul benchmark cu cinci modele prezintă o imagine mai echilibrată decât testul anterior, care folosea doar Qwen.</p>
+<p>Sistemul cu două plăci conduce la viteza de generare pentru patru dintre cele cinci modele la setarea de 256K. GB10 conduce clar la Qwen3.8 27B și păstrează mai multă memorie pentru modele, context și alocările runtime-ului. Alegerea potrivită depinde de model și de sarcină.</p>
+<p>Un test separat, pe același host, a comparat Qwen3.8-Flash-Next IQ2_XS pe Strata cu Qwen3.8 27B Q4_K_M dens pe Ollama. Mediana generării după încălzire a fost de 92.8 tokeni pe secundă pentru Flash-Next, cu un prompt de 260,446 tokeni. Qwen3.8 dens a atins 0.939 tokeni pe secundă cu un prompt de 260,444 tokeni.</p>
+<p>NVIDIA GB10 folosește 128 GB de memorie unificată coerentă. NVIDIA listează pentru platforma GB10 128 GB de memorie unificată LPDDR5x și un TDP de 140 W pentru cip. RTX 5060 Ti folosește 16 GB de GDDR7 per placă, o interfață de memorie de 128 de biți și o putere grafică totală de 180 W. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Specificațiile NVIDIA RTX 5060 Ti">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/">
+    <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Specificațiile NVIDIA RTX 5060 Ti</a>
+</span>
+ și 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/W
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Boomul infrastructurii AI în 2026: cerere, datorii, energie și dovezi</title><link>https://ro.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><description>O analiză verificată factual a cheltuielilor pentru infrastructura AI, consumului de electricitate al centrelor de date, structurilor de finanțare, valorii întreprinderilor și dovezilor necesare înainte de a numi piața o bulă.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p><strong>Infrastructura AI se extinde într-un ritm egalat de puține piețe tehnologice.</strong> Cheltuielile sunt reale. Cererea de energie este reală. Riscul financiar este real. Randamentul este mai puțin sigur.</p>
+<p>Întrebarea utilă nu este dacă inteligența artificială există. Întrebarea utilă este dacă veniturile viitoare și câștigurile de productivitate vor justifica hardware-ul, centrele de date, contractele de electricitate, leasingurile și datoriile care susțin dezvoltarea.</p>
+<p>Acest articol verifică dovezile publice din spatele dezbaterii despre bula AI. Prognozele rămân marcate drept prognoze. Afirmațiile companiilor rămân separate de cercetarea independentă. Rezultatul nu dovedește un crah iminent. Arată unde se află presiunea financiară și operațională.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <meta itemprop="name" content="Prăbușirea (întârziată) a bulei AI">
+  <meta itemprop="description" conten
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Bucle limitate pentru agenții AI: verificări, reîncercări și reguli de oprire</title><link>https://ro.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</guid><description>Definește o buclă de obiectiv AI cu stare observabilă, verificări, limite pentru reîncercări, condiții de oprire și predare clară către o persoană.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/effective-ai-bounded-agent-loops.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Înapoi la cursul practic despre fluxuri de lucru AI">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Înapoi la cursul practic despre fluxuri de lucru AI</a>
+</span>
+</p>
+<p><strong>O buclă orientată spre un obiectiv repetă lucrul până când un rezultat definit trece o verificare sau se declanșează o regulă de oprire.</strong> O buclă utilă citește starea curentă, execută o acțiune limitată, verifică rezultatul și înregistrează ce s-a întâmplat. O instrucțiune deschisă precum „continuă să încerci” nu are o regulă sigură de finalizare.</p>
+<p><strong>Obiectiv de învățare:</strong> vei rula o buclă de laborator limitată, cu o verificare despre care se știe că eșuează, și vei înregistra decizia de oprire.</p>
+<h2 id="idei-principale">
+  <a href="#idei-principale" title="Idei principale">Idei principale</a>
+  <a href="#idei-principale" class="h-anchor" aria-hidden="true" title="Idei principale">#</a>
+</h2>
+<ul>
+<li><strong>Obiectiv:</strong> un rezultat descris în termeni observabili.</li>
+<li><strong>Stare:</strong> fișierele, rezultatele, erorile și revizia sursei curente.</li>
+<li><strong>Verificare:</strong> un test sau o evaluare legată de obiectiv.</li>
+<li><strong>Buget de reîncercări:</strong> numărul maxim de încercări pentru o singură eroare.</li>
+<li><strong>Regulă de oprire:</strong> o condiție care impune încheierea sau o decizie umană.</li>
+</ul>
+<h2 id="înainte-să-începi">
+  <a href="#%c3%aenainte-s%c4%83-%c3%aencepi" title="Înainte să începi">Înainte să începi</a>
+  <a href="#%c3%aenainte-s%c4%83-%c3%aencepi" class="h-anchor" aria-hidden="true" title="Înainte să începi">#</a>
+</h2>
+<p><strong>Cerințe preliminare:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Confidențialitatea AI local: ce rămâne pe computer și ce nu</title><link>https://ro.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><description>Urmărește prompturile, fișierele modelelor, instrumentele, logurile, expunerea rețelei și costurile energiei înainte de a alege inferență locală sau un serviciu AI găzduit.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/local-ai-privacy-boundary/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p><strong>AI local oferă o graniță de date mai mică.</strong> Un prompt procesat de un runtime local rămâne pe dispozitiv când modelul, instrumentele, logurile și calea de rețea rămân locale. Un GPU local nu transformă computerul într-un sistem etanș.</p>
+<p>Runtime-urile modelelor, pluginurile, extensiile browserului, accesul la distanță, API-urile expuse și descărcările modelelor îți modelează în continuare riscul. Contează și costul. Electricitatea poate costa mai puțin decât un token găzduit, în timp ce deținerea hardware-ului poate împinge pragul complet de rentabilitate mult în viitor.</p>
+<p>Acest ghid mapează mai întâi granița de confidențialitate. Apoi verifică prețul folosind prețuri actuale ale furnizorilor, o presupunere explicită de consum și cifrele raportate în videoclipul furnizat.</p>
+<p>Această comparație a costurilor locale și găzduite oferă context pentru formulele de mai jos. Nu copia cifrele de throughput fără să testezi același fișier de model și runtime pe hardware-ul tău.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://s
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/local-ai-privacy-boundary/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Configurarea cursului despre fluxuri de lucru AI: terminal, Git și laborator practic</title><link>https://ro.simeononsecurity.com/articles/effective-ai-course-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/effective-ai-course-setup/</guid><description>Pregătiți un spațiu sigur de practică AI, învățați termenii de terminal și Git folosiți în curs și rulați laboratorul introductiv.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/effective-ai-course-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/effective-ai-course-setup/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Înapoi la cursul practic despre fluxuri de lucru AI">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Înapoi la cursul practic despre fluxuri de lucru AI</a>
+</span>
+</p>
+<p><strong>Pregătiți un spațiu sigur de practică înainte să folosiți un agent.</strong> Lecțiile 1 și 2 funcționează în browser fără acest laborator. Reveniți aici înainte de lecția 3 dacă doriți cursul complet. Lecțiile practice de programare folosesc Git, Python 3.10 sau o versiune mai nouă și un agent de programare. Traseul de studiu înlocuiește acțiunile indisponibile ale agentului cu activități manuale marcate.</p>
+<p><strong>Rezultat de învățare:</strong> veți rula laboratorul introductiv, veți salva o bază locală și veți explica resetarea unei copii de unică folosință.</p>
+<h2 id="idei-principale">
+  <a href="#idei-principale" title="Idei principale">Idei principale</a>
+  <a href="#idei-principale" class="h-anchor" aria-hidden="true" title="Idei principale">#</a>
+</h2>
+<ul>
+<li><strong>Traseul în browser:</strong> faceți exercițiile de chat, planificare, verificare a surselor și analiză în ChatGPT sau Claude.</li>
+<li><strong>Traseul local:</strong> folosiți terminalul și laboratorul Python inclus pentru exercițiile de programare.</li>
+<li><strong>Traseul de resetare:</strong> extrageți o copie nouă a laboratorului dacă un exercițiu nu reușește.</li>
+<li><strong>Regula de siguranță:</strong> păstrați fișierele private, datele clienților și acreditările în afara laboratorului.</li>
+</ul>
+<h2 id="alegeți-traseul">
+  <a href="#alege%c8%9bi-traseul" title="Alegeți traseul">Alegeți traseul</a>
+  <a href="#alege%c8%9bi-traseul" class="h-anchor" aria-hidden="true" title="Alegeți traseul">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Traseu</th>
+					<th>De ce aveți nevoie</th>
+					<th>Ce exersați</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Introducere în browser</strong
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/effective-ai-course-setup/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Configurarea unui server MCP: permisiuni, testarea instrumentelor și eliminarea sigură</title><link>https://ro.simeononsecurity.com/articles/effective-ai-mcp-server-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ro.simeononsecurity.com/articles/effective-ai-mcp-server-setup/</guid><description>Conectați un server MCP de documentație doar pentru citire, inspectați instrumentele, efectuați o citire reală și eliminați conexiunea.</description><content:encoded><![CDATA[
+        
+            <img src="https://ro.simeononsecurity.com/img/cover/effective-ai-mcp-server-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/effective-ai-mcp-server-setup/">Read the full article at https://ro.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Înapoi la cursul Flux de lucru practic cu IA">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Înapoi la cursul Flux de lucru practic cu IA</a>
+</span>
+</p>
+<p><strong>Folosiți un server MCP când o sarcină necesită un instrument reutilizabil sau informații actualizate din afara proiectului.</strong> Model Context Protocol, sau MCP, definește schimbul de informații despre instrumente, resurse și prompturi dintre client și server. O intrare de server nu dovedește că instrumentul funcționează. Lecția testează o conexiune la documentație, doar pentru citire.</p>
+<p><strong>Obiectiv de învățare:</strong> veți deosebi configurarea de o citire MCP reală și veți documenta eliminarea în siguranță.</p>
+<h2 id="idei-principale">
+  <a href="#idei-principale" title="Idei principale">Idei principale</a>
+  <a href="#idei-principale" class="h-anchor" aria-hidden="true" title="Idei principale">#</a>
+</h2>
+<ul>
+<li><strong>Gazdă MCP:</strong> aplicația IA care coordonează utilizatorii, modelele, permisiunile și clienții.</li>
+<li><strong>Client MCP:</strong> componenta protocolului care comunică cu un server.</li>
+<li><strong>Server MCP:</strong> program sau serviciu la distanță care oferă instrumente, resurse ori prompturi.</li>
+<li><strong>Descoperirea instrumentului:</strong> dovada că în client apare o funcție cu nume.</li>
+<li><strong>Executarea instrumentului:</strong> dovada unui apel real și a conținutului returnat.</li>
+<li><strong>Domeniul permisiunilor:</strong> accesul acordat de gazdă, server, cont și utilizator.</li>
+</ul>
+<h2 id="înainte-de-a-începe">
+  <a href="#%c3%aenainte-de-a-%c3%aencepe" title="Înainte de a începe">Înainte de a începe</a>
+  <a href="#%c3%aenainte-de-a-%c3%aencepe" class="h-anchor" aria-hidden="true" title="Înainte de a începe">#</a>
+</h2>
+<p><strong>Cerințe preliminare:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+ 
+
+        <br>
+        <a href="https://ro.simeononsecurity.com/articles/effective-ai-mcp-server-setup/">Read More at https://ro.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>

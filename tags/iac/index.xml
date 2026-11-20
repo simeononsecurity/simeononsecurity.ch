@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IAC on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/img/banner.webp</url><title>IAC on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/iac/</link></image><link>https://ro.simeononsecurity.com/tags/iac/</link><description>Recent content in IAC on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/iac/index.xml" rel="self" type="application/rss+xml"/><item><title>Cum să începi cu Terraform pentru infrastructură ca cod</title><link>https://ro.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"Terraform"
+, "Infrastructură ca cod"
+, "IaC"
+, "Cloud computing"
+, "DevOps"
+, "Automatizare"
+, "AWS"
+, "Azure"
+, "Google Cloud"
+, "Furnizori cloud"
+, "Gestionarea configurației"
+, "Implementare"
+, "Aprovizionare"
+, "Gestionarea resurselor"
+, "Scalabilitate"
+, "Reziliență"
+, "Securitate"
+, "Conformitate"
+, "Bune practici"</category><guid>https://ro.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Învață noțiunile de bază despre Terraform, un instrument popular pentru infrastructură ca cod, și cum îl poți folosi pentru a gestiona eficient infrastructura.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp" length="122182" type="image/webp"/></item><item><title>Astăzi am învățat cum să creez pachete de ciocolată</title><link>https://ro.simeononsecurity.com/til/2022-05-23/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><category>
+"Automatizare"
+, "Gestionarea pachetelor Windows"
+, "Crearea pachetului"
+, "Managementul pachetelor"
+, "Infrastructura ca și cod (IaC)"
+, "Implementarea de software pentru Windows"
+, "Ambalare software"
+, "Automatizare Windows"
+, "Depozite de pachete"
+, "Instrumente Windows"</category><guid>https://ro.simeononsecurity.com/til/2022-05-23/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Astăzi am învățat mai multe despre Ansible condiționale și gestionarea variabilelor Ansible</description></item></channel></rss>

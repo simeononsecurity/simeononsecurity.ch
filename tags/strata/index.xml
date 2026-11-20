@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Strata on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/img/banner.webp</url><title>Strata on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/strata/</link></image><link>https://ro.simeononsecurity.com/tags/strata/</link><description>Recent content in Strata on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Wed, 21 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/strata/index.xml" rel="self" type="application/rss+xml"/><item><title>În interiorul flotei noastre hibride de agenți IA: Hermes, LiteLLM și Tailscale</title><link>https://ro.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locală"
+, "IA găzduită de sine"
+, "Agenți IA"
+, "Infrastructură IA"
+, "Minare GPU"</category><guid>https://ro.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descoperiți o flotă locală de IA verificată, cu încărcare la cerere, și planul său de control T0-T4 cu Hermes, LiteLLM, Tailscale Aperture și minarea Pearl.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>2x RTX 5060 Ti față de GB10: benchmark local de IA cu cinci modele la context de 256K</title><link>https://ro.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligență artificială"
+, "IA locală"
+, "Hardware GPU"
+, "Benchmarking"
+, "Hardware de calculator"</category><guid>https://ro.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparație între RTX 5060 Ti și GB10 pentru cinci modele, plus un benchmark Qwen3.8 Flash-Next Strata pe același host, până la un context de 256K.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Programare locală cu AI pe un GPU de 16 GB: Strata, OpenCode și Qwen3.8</title><link>https://ro.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI local"
+, "Instrumente pentru dezvoltatori"
+, "AI găzduit local"
+, "Hardware AI"</category><guid>https://ro.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Rulează un agent local de programare cu Strata și OpenCode. Analizează rezultatele raportate pe RTX 4060 Ti, necesarul de RAM, reutilizarea promptului, bugetele de raționament și limitele înlocuirii unui abonament plătit.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item></channel></rss>

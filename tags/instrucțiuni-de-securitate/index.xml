@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Instrucțiuni De Securitate on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/img/banner.webp</url><title>Instrucțiuni De Securitate on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/instruc%C8%9Biuni-de-securitate/</link></image><link>https://ro.simeononsecurity.com/tags/instruc%C8%9Biuni-de-securitate/</link><description>Recent content in Instrucțiuni De Securitate on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/instruc%C8%9Biuni-de-securitate/index.xml" rel="self" type="application/rss+xml"/><item><title>Stăpânește principiul privilegiului minim</title><link>https://ro.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"Securitate cibernetică"
+, "Securitate Linux"
+, "Controlul accesului"
+, "Securitate IT"
+, "Securitatea rețelei"
+, "Protecția informațiilor"
+, "Confidențialitatea datelor"
+, "Amenințări cibernetice"
+, "Gestionarea riscurilor"
+, "Bune practici de securitate"</category><guid>https://ro.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Consolidează securitatea cibernetică prin controlul accesului bazat pe privilegiul minim în Linux. Învață pașii de implementare, bunele practici și depanarea.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item></channel></rss>
