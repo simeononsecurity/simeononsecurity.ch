@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Server on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>Windows Server on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/windows-server/</link></image><link>https://pa.simeononsecurity.com/tags/windows-server/</link><description>Recent content in Windows Server on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/windows-server/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell ਨਾਲ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲੀ Active Directory ਸੂਚੀ ਬਣਾਓ</title><link>https://pa.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Active Directory"
+, "PowerShell"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"</category><guid>https://pa.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸੀਮਿਤ PowerShell ਪੁੱਛਗਿੱਛਾਂ ਨਾਲ Active Directory ਦੀਆਂ ਸੰਗਠਨਾਤਮਕ ਇਕਾਈਆਂ, ਵਰਤੋਂਕਾਰਾਂ ਅਤੇ ਕੰਪਿਊਟਰਾਂ ਦੀ ਸੂਚੀ ਬਣਾਓ। ਡਾਇਰੈਕਟਰੀ ਵਸਤੂਆਂ ਬਦਲੇ ਬਿਨਾਂ ਜਾਂਚਯੋਗ CSV ਫ਼ਾਈਲਾਂ ਨਿਰਯਾਤ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/active-directory-powershell-read-only-inventory.webp" length="101842" type="image/webp"/></item><item><title>Windows Server ਸੁਰੱਖਿਆ ਨੂੰ ਮਜ਼ਬੂਤ ਬਣਾਉਣਾ</title><link>https://pa.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਆਈਟੀ ਸੁਰੱਖਿਆ"
+, "ਸਰਵਰ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਸਾਇਬਰ ਸੁਰੱਖਿਆ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਡਾਟਾ ਦੀ ਅਖੰਡਤਾ"
+, "ਆਈਟੀ ਢਾਂਚਾ"
+, "ਵਧੀਆ ਅਮਲ"
+, "ਸਰਵਰ ਹਾਰਡਨਿੰਗ"
+, "Windows Server"</category><guid>https://pa.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows Server ਦੀ ਸੁਰੱਖਿਆ ਦੇ ਤਰੀਕੇ ਸਿੱਖੋ। ਇਸ ਵਿੱਚ ਬੁਨਿਆਦੀ ਹਾਰਡਨਿੰਗ ਤੋਂ ਲੈ ਕੇ ਢਾਂਚੇ ਦੀ ਉੱਨਤ ਸੁਰੱਖਿਆ ਤੱਕ ਸ਼ਾਮਲ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/Windows_Server_Security_Shield_Protection.webp" length="101056" type="image/webp"/></item><item><title>Azure for Students ਨਾਲ ਆਪਣੀ ਸਮਰੱਥਾ ਨਿਖਾਰੋ</title><link>https://pa.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਕਲਾਉਡ ਕੰਪਿਊਟਿੰਗ"
+, "ਵਿਦਿਆਰਥੀ ਸਰੋਤ"
+, "ਸਾਫਟਵੇਅਰ ਵਿਕਾਸ"
+, "Microsoft Azure"
+, "Windows Server"
+, "Windows 10"
+, "Windows 11"
+, "Visual Studio"
+, "ਸਿੱਖਣ ਦੇ ਸਾਧਨ"</category><guid>https://pa.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Microsoft Azure for Students ਦੀ ਯੋਗਤਾ, ਸ਼ਾਮਲ ਸਾਫਟਵੇਅਰ, ਖਾਤੇ ਦੀਆਂ ਹੱਦਾਂ ਅਤੇ ਸ਼ੁਰੂਆਤ ਦੇ ਅਮਲੀ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/azure_for_students_animated_cloud.webp" length="73614" type="image/webp"/></item></channel></rss>

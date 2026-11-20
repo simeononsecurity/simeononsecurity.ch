@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>simeononsecurity</title><link>https://pa.simeononsecurity.com/</link></image><link>https://pa.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Home Assistant Core 2026.11 ਤੋਂ 2026.10.4 ਵੱਲ ਰੋਲਬੈਕ: HTTP ਸਟੋਰੇਜ ਵਰਜਨ 3 ਦੀ ਮੁਰੰਮਤ</title><link>https://pa.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"ਘਰੇਲੂ ਆਟੋਮੇਸ਼ਨ"
+, "ਸਮੱਸਿਆ ਹੱਲ"</category><guid>https://pa.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Yellow ਉੱਤੇ Home Assistant Core 2026.11 ਦੇ 2026.10.4 ਵੱਲ ਮੁੜਨ ਮਗਰੋਂ HTTP ਸਟੋਰੇਜ ਵਰਜਨ 3 ਦੀ ਗਲਤੀ ਠੀਕ ਕਰੋ। ਇਸ ਵਿੱਚ ਸੁਰੱਖਿਅਤ ਕਮਾਂਡਾਂ ਅਤੇ ਜਾਂਚੇ ਹੋਏ ਨਤੀਜੇ ਹਨ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp" length="32856" type="image/webp"/></item><item><title>ਬਿਨਾ ਸੈਂਸਰ ਸਥਾਨਕ AI ਮਾਡਲ ਕਿਵੇਂ ਚੁਣੀਏ</title><link>https://pa.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਸਵੈ-ਹੋਸਟ ਕੀਤਾ AI"
+, "AI ਸੁਰੱਖਿਆ"
+, "GPU ਉਪਕਰਣ"</category><guid>https://pa.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮੁਕੰਮਲ ਜਵਾਬਾਂ, ਬਰਕਰਾਰ ਸਮਰੱਥਾ, ਸੰਦਰਭ ਦੀ ਵਰਤੋਂ, ਕੁਆਂਟਾਈਜ਼ੇਸ਼ਨ ਅਤੇ VRAM ਦੀ ਲੋੜ ਦੇ ਆਧਾਰ 'ਤੇ ਸਥਾਨਕ ਮਾਡਲ ਰੂਪਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Octominer X12 Ultra ਪਾਵਰ ਸਪਲਾਈ ਅਨੁਕੂਲਤਾ: Chicony ਅਤੇ LiteOn ਦੀ ਮੈਦਾਨੀ ਜਾਂਚ</title><link>https://pa.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><category>
+"ਮਾਈਨਿੰਗ ਹਾਰਡਵੇਅਰ"
+, "ਕੰਪਿਊਟਰ ਹਾਰਡਵੇਅਰ"</category><guid>https://pa.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਪੰਜ ਪੱਖਿਆਂ ਅਤੇ ਤਿੰਨ ਪਾਵਰ ਸਪਲਾਈਆਂ ਵਾਲੇ Octominer X12 Ultra ਦੀ ਜਾਂਚ ਵਿੱਚ Chicony ਸਪਲਾਈ ਨੇ ਸਿਸਟਮ ਚਾਲੂ ਕੀਤਾ, ਜਦਕਿ ਜਾਂਚੀਆਂ LiteOn ਇਕਾਈਆਂ ਨੇ ਅੰਬਰ ਰੰਗ ਦਿਖਾਇਆ ਅਤੇ ਚਾਲੂ ਨਾ ਹੋਈਆਂ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp" length="34962" type="image/webp"/></item><item><title>Proxmox VE 9: ਵਰਚੁਅਲ ਡਿਸਕ ਦੀ ਵਰਤੋਂ ਘਟਾਓ ਅਤੇ ਥਾਂ ਵਾਪਸ ਲਵੋ</title><link>https://pa.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ"
+, "Linux ਪ੍ਰਸ਼ਾਸਨ"
+, "Proxmox VE ਪਲੇਟਫਾਰਮ"
+, "ਸਟੋਰੇਜ"
+, "ਘਰੇਲੂ ਲੈਬ"</category><guid>https://pa.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proxmox VE 9 ਵਿੱਚ VM ਅਤੇ LXC ਕੰਟੇਨਰਾਂ ਦੀ ਸਟੋਰੇਜ ਵਰਤੋਂ ਘਟਾਓ। ਫਾਰਮੈਟ ਅਤੇ ਬੈਕਐਂਡ ਦੀ ਤੁਲਨਾ ਕਰੋ, discard ਚਾਲੂ ਕਰੋ, trim ਚਲਾਓ ਅਤੇ ਥਾਂ ਵਾਪਸ ਲੈਣ ਤੋਂ ਪਹਿਲਾਂ ਸਨੈਪਸ਼ਾਟ ਜਾਂਚੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Tailscale Aperture: 2026 ਵਿੱਚ ਇਨਫਰੈਂਸ ਅਤੇ MCP ਲਈ AI ਕਲਾਇੰਟ ਸੰਰਚਿਤ ਕਰੋ</title><link>https://pa.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "ਡਿਵੈਲਪਰ ਟੂਲ"
+, "ਨੈੱਟਵਰਕਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Tailscale Aperture ਰਾਹੀਂ ਮਾਡਲ ਬੇਨਤੀਆਂ ਅਤੇ MCP ਟੂਲ ਰੂਟ ਕਰੋ। ਕਿਸੇ ਹੋਰ ਡਿਵਾਈਸ ਜਾਂ ਗੇਟਵੇ ਉੱਤੇ Codex, Claude Code, Claude Desktop, OpenCode ਅਤੇ Hermes ਸੈੱਟ ਅੱਪ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>ਸਵੈ-ਹੋਸਟ ਕੀਤਾ Hindsight: ਏਜੰਟਾਂ ਦੀ ਸਥਾਨਕ ਯਾਦ ਅਤੇ ਨਿੱਜੀ ਮਾਡਲ ਰੂਟਿੰਗ</title><link>https://pa.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਸਵੈ-ਹੋਸਟ ਕੀਤੀ AI"
+, "AI ਏਜੰਟ"
+, "AI ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਨਿੱਜਤਾ"</category><guid>https://pa.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਵੈ-ਹੋਸਟ ਕੀਤੇ Hindsight ਦਾ ਕੇਸ ਅਧਿਐਨ, ਵੇਖੇ ਗਏ ਸਥਾਨਕ Qwen ਰੂਟ ਅਤੇ ਜਾਂਚੇ ਗਏ ਰਸਤੇ ਉੱਤੇ ਹੋਸਟ ਕੀਤੀ ਇਨਫਰੈਂਸ ਦੀ ਗਾਹਕੀ ਤੋਂ ਬਿਨਾਂ ਹਰ ਬੇਨਤੀ ਲਈ GPU ਕੰਮ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Chrome 156 ਸੁਰੱਖਿਆ ਅੱਪਡੇਟ: ਅਕਤੂਬਰ ਪੈਚ ਦੀ ਜਾਂਚ</title><link>https://pa.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਬ੍ਰਾਊਜ਼ਰ"
+, "ਸੁਰੱਖਿਆ"
+, "ਪੈਚ ਪ੍ਰਬੰਧਨ"</category><guid>https://pa.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows, macOS, Linux ਅਤੇ Android ਉੱਤੇ 27 ਅਕਤੂਬਰ ਦਾ Chrome 156 ਸੁਰੱਖਿਆ ਰਿਲੀਜ਼ ਜਾਂਚੋ। ਇੰਸਟਾਲ ਕੀਤੇ ਬਿਲਡ ਨਾਲ ਤੁਲਨਾ ਕਰੋ, ਬਾਕੀ ਰੀਸਟਾਰਟ ਪੂਰਾ ਕਰੋ ਅਤੇ ਪ੍ਰਬੰਧਿਤ ਡਿਵਾਈਸਾਂ ਦੀ ਵੱਖਰੇ ਤੌਰ ਉੱਤੇ ਜਾਂਚ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp"/></item><item><title>Open WebUI v0.12.4: ਅੱਪਗ੍ਰੇਡ ਅਤੇ ਪਹੁੰਚ-ਨਿਯੰਤਰਣ ਜਾਂਚ-ਸੂਚੀ 2026</title><link>https://pa.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਵੈ-ਹੋਸਟ ਕੀਤਾ AI"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਸਿਸਟਮ ਪ੍ਰਬੰਧਨ"</category><guid>https://pa.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Open WebUI ਦਾ ਬੈਕਅੱਪ ਲਓ ਅਤੇ ਇਸਨੂੰ v0.12.4 ਉੱਤੇ ਅੱਪਗ੍ਰੇਡ ਕਰੋ। ਫਿਰ ਚੈਟ ਸਾਂਝੀਕਰਨ, ਐਕਸਪੋਰਟ ਅਧਿਕਾਰ, ਸਰੋਤਾਂ ਦੀ ਪਹੁੰਚ, ਖਾਤੇ ਅਤੇ ਨੈੱਟਵਰਕ ਪਹੁੰਚ ਦੀ ਜਾਂਚ ਕਰੋ।</description></item><item><title>Thunderbird 153.6: Windows ਵਿੱਚ NTLM ਪ੍ਰਮਾਣਿਕਤਾ ਜਾਣਕਾਰੀ ਦਾ ਖੁਲਾਸਾ ਅਤੇ ਅੱਪਡੇਟ ਕਰਨ ਦਾ ਤਰੀਕਾ (2026)</title><link>https://pa.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਈਮੇਲ ਸੁਰੱਖਿਆ"
+, "Windows ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਖਾਸ ਤੌਰ 'ਤੇ ਤਿਆਰ ਕੀਤੀ ਈਮੇਲ ਦਿਖਾਉਣ ਨਾਲ Thunderbird ਦੀਆਂ ਦੋ ਗੰਭੀਰ ਖਾਮੀਆਂ Windows ਦੀ NTLM ਪ੍ਰਮਾਣਿਕਤਾ ਜਾਣਕਾਰੀ ਖੋਲ੍ਹ ਸਕਦੀਆਂ ਹਨ। ਦੋਵੇਂ ਤਰੀਕਿਆਂ, ਵਰਜਨ ਜਾਂਚ ਅਤੇ ਅੱਪਡੇਟ ਦੌਰਾਨ ਬਾਹਰ ਜਾਣ ਵਾਲੇ SMB ਨੂੰ ਸੀਮਿਤ ਕਰਨ ਬਾਰੇ ਜਾਣੋ।</description></item><item><title>Pi-hole ਤੋਂ ਸਥਾਨਕ AI ਤੱਕ, 10 ਪੱਧਰਾਂ ਵਿੱਚ ਹੋਮ ਲੈਬ ਬਣਾਓ</title><link>https://pa.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਹੋਮ ਲੈਬ"
+, "ਸੈਲਫ਼-ਹੋਸਟਿੰਗ"
+, "ਸਥਾਨਕ AI"
+, "ਘਰੇਲੂ ਨੈੱਟਵਰਕਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਪੂਰੇ ਨੈੱਟਵਰਕ ਦੀ DNS ਫਿਲਟਰਿੰਗ ਤੋਂ ਸਥਾਨਕ AI ਤੱਕ, ਦਸ ਕਾਰਗਰ ਪੜਾਵਾਂ ਵਿੱਚ ਹੋਮ ਲੈਬ ਬਣਾਓ। ਹਰ ਪੱਧਰ ਲਈ ਹਾਰਡਵੇਅਰ, ਖ਼ਰਚੇ, ਹੁਨਰ ਅਤੇ ਸਮਝੌਤੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Hermes ਲੋਕਲ ਮਾਡਲ ਬੈਂਚਮਾਰਕ: ਮੈਂ ਕਿਹੜੇ GPU ਅਤੇ ਮਾਡਲ ਜੋੜ ਚੁਣਾਂਗਾ</title><link>https://pa.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "ਲੋਕਲ AI"
+, "ਹਾਰਡਵੇਅਰ"</category><guid>https://pa.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti ਅਤੇ RTX 3070 ਸਿਸਟਮਾਂ ਉੱਤੇ ਲੰਮੇ ਸੰਦਰਭ, ਟੂਲਾਂ, ਸਟ੍ਰੀਮਿੰਗ ਅਤੇ ਵਿਜ਼ਨ ਟੈਸਟਾਂ ਤੋਂ ਮੇਰੀਆਂ Hermes ਮਾਡਲ ਸਿਫ਼ਾਰਸ਼ਾਂ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>ਸਾਡੇ ਹਾਈਬ੍ਰਿਡ ਏਜੰਟਿਕ AI ਫਲੀਟ ਦੇ ਅੰਦਰ: Hermes, LiteLLM ਅਤੇ Tailscale</title><link>https://pa.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਸਵੈ-ਹੋਸਟ ਕੀਤਾ AI"
+, "AI ਏਜੰਟ"
+, "AI ਢਾਂਚਾ"
+, "GPU ਮਾਈਨਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hermes, LiteLLM, Tailscale Aperture ਅਤੇ Pearl ਮਾਈਨਿੰਗ ਵਾਲੇ ਤਸਦੀਕਸ਼ੁਦਾ lazy-loaded ਸਥਾਨਕ AI ਫਲੀਟ ਅਤੇ ਇਸ ਦੇ T0 ਤੋਂ T4 ਕੰਟਰੋਲ ਪਲੇਨ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>1Password SSH ਏਜੰਟ ਅਤੇ CLI: ਪੜ੍ਹਨ-ਸਿਰਫ਼ AI ਏਜੰਟ ਐਕਸੈਸ</title><link>https://pa.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਿਸਟਮ ਪ੍ਰਬੰਧਨ"
+, "ਕਲਾਊਡ ਸੁਰੱਖਿਆ"
+, "ਆਟੋਮੇਸ਼ਨ"</category><guid>https://pa.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+1Password CLI, SSH ਏਜੰਟ ਅਤੇ MCP ਨਾਲ ਇੱਕ ਪੜ੍ਹਨ-ਸਿਰਫ਼ SSH ਵਰਕਫਲੋ ਡਿਜ਼ਾਈਨ ਕਰੋ। ਲਾਈਵ ਟੈਸਟਿੰਗ ਤੋਂ ਪਹਿਲਾਂ ਸੰਸਲੇਸ਼ਿਤ ਕਮਾਂਡਾਂ, ਸੰਕੁੱਚ ਅਧਿਕਾਰਾਂ ਅਤੇ ਮਨੁੱਖੀ ਮਨਜ਼ੂਰੀ ਦੀ ਵਰਤੋਂ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Bitbucket Cloud SSH ਕੁੰਜੀਆਂ: AI ਏਜੰਟਾਂ ਲਈ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲੀ Git ਪਹੁੰਚ</title><link>https://pa.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਕਲਾਉਡ ਸੁਰੱਖਿਆ"
+, "ਡਿਵੈਲਪਰ ਟੂਲ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"</category><guid>https://pa.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲੇ AI ਏਜੰਟ ਵਰਕਫਲੋ ਲਈ Bitbucket Cloud SSH ਕੁੰਜੀਆਂ, Git CLI ਪਹੁੰਚ, REST API ਟੋਕਨ, 1Password ਅਤੇ MCP ਟੂਲ ਸੈੱਟ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>DNS filter ਨੂੰ ਕਿਉਂ ਬਾਈਪਾਸ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ: resolver ਦਾ ਰਸਤਾ ਜਾਂਚੋ</title><link>https://pa.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਘਰੇਲੂ ਨੈੱਟਵਰਕ"
+, "DNS"
+, "ਪਰਦੇਦਾਰੀ"</category><guid>https://pa.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਪਤਾ ਕਰੋ ਕਿ ਕੋਈ device ਜਾਂ browser ਤੁਹਾਡੇ DNS filter ਨੂੰ ਕਿਉਂ ਛੱਡ ਰਿਹਾ ਹੈ। ਸਿੱਧੀਆਂ ਅਤੇ ਆਮ queries ਦੀ ਤੁਲਨਾ ਕਰੋ, logs ਵੇਖੋ, ਫਿਰ encrypted DNS, VPN, IPv6 ਅਤੇ router settings ਜਾਂਚੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>Hyper-V VM ਨੂੰ Proxmox VE ਉੱਤੇ ਲਿਜਾਣ ਲਈ ਵਾਪਸੀਯੋਗ ਜਾਂਚ-ਸੂਚੀ</title><link>https://pa.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਘਰੇਲੂ ਲੈਬ"</category><guid>https://pa.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਬੰਦ ਸਰੋਤ VM ਦਾ ਨਿਰਯਾਤ, ਫਰਮਵੇਅਰ ਦਾ ਮੇਲ, ਡਿਸਕ ਆਯਾਤ, ਅਲੱਗ ਬੂਟ ਟੈਸਟ ਅਤੇ ਵਾਪਸੀ ਯੋਜਨਾ ਨਾਲ Hyper-V VM ਨੂੰ Proxmox VE ਉੱਤੇ ਲਿਜਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>Proxmox VM ਰੀਸਟੋਰ ਜਾਂਚ: ਸਾਬਤ ਕਰੋ ਕਿ ਗੈਸਟ ਸਿਸਟਮ ਕੰਮ ਕਰਦਾ ਹੈ</title><link>https://pa.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ"
+, "ਬੈਕਅੱਪ ਅਤੇ ਰੀਸਟੋਰੇਸ਼ਨ"
+, "ਹੋਮ ਲੈਬ"</category><guid>https://pa.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਅਲੱਗ ਨੈੱਟਵਰਕ ਵਿੱਚ ਰੀਸਟੋਰ ਕਰਕੇ Proxmox VM ਬੈਕਅੱਪ ਦੀ ਜਾਂਚ ਕਰੋ। ਪ੍ਰੋਡਕਸ਼ਨ ਨੂੰ ਛੂਹੇ ਬਿਨਾਂ ਡਿਸਕ ਕਵਰੇਜ, ਬੈਕਅੱਪ ਮੋਡ, ਗੈਸਟ ਡਾਟਾ, ਸੇਵਾ ਦੀ ਹਾਲਤ ਅਤੇ ਰਿਕਵਰੀ ਸਮਾਂ ਵੇਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>VPN ਨਾਲ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ DNS ਅਤੇ WebRTC ਲੀਕ ਦੀ ਜਾਂਚ ਕਰੋ</title><link>https://pa.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਪਰਦੇਦਾਰੀ"
+, "ਬ੍ਰਾਊਜ਼ਰ"
+, "ਨੈੱਟਵਰਕਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+VPN ਜੋੜਨ ਤੋਂ ਪਹਿਲਾਂ ਅਤੇ ਬਾਅਦ ਬ੍ਰਾਊਜ਼ਰ ਦਾ ਜਨਤਕ IP, DNS ਰਿਜ਼ੋਲਵਰ ਅਤੇ WebRTC ਪਤੇ ਜਾਂਚੋ। ਨਤੀਜਿਆਂ ਨੂੰ ਸਮਝੋ ਅਤੇ ਰੂਟਿੰਗ ਦੀਆਂ ਸਮੱਸਿਆਵਾਂ ਲੱਭੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>ਮੈਸ਼ Wi-Fi ਨੈੱਟਵਰਕ ਉੱਤੇ ਮਹਿਮਾਨ ਅਤੇ IoT ਆਈਸੋਲੇਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ</title><link>https://pa.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਘਰੇਲੂ ਨੈੱਟਵਰਕਿੰਗ"
+, "Wi-Fi ਸੁਰੱਖਿਆ"
+, "ਸਮਾਰਟ ਘਰ"</category><guid>https://pa.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਂਚੋ ਕਿ ਤੁਹਾਡੇ ਮੈਸ਼ Wi-Fi ਦੇ ਮਹਿਮਾਨ ਅਤੇ IoT ਨੈੱਟਵਰਕ ਘਰ ਦੇ ਡਿਵਾਈਸਾਂ ਤੱਕ ਪਹੁੰਚ ਰੋਕਦੇ ਹਨ ਜਾਂ ਨਹੀਂ। ਚੱਲ ਰਹੀ ਸੇਵਾ ਨਾਲ ਹਰ ਨੈੱਟਵਰਕ ਪਰਖੋ ਅਤੇ ਹੱਦਾਂ ਦਰਜ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp" length="102600" type="image/webp"/></item><item><title>2026 ਵਿੱਚ AI ਬੁਨਿਆਦੀ ਢਾਂਚੇ ਦਾ ਉਛਾਲ: ਮੰਗ, ਕਰਜ਼ਾ, ਬਿਜਲੀ ਅਤੇ ਸਬੂਤ</title><link>https://pa.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "AI ਅਰਥਸ਼ਾਸਤਰ"
+, "ਡੇਟਾ ਸੈਂਟਰ"
+, "ਕਲਾਊਡ ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AI ਬੁਨਿਆਦੀ ਢਾਂਚੇ ਦੇ ਖਰਚੇ, ਡੇਟਾ ਸੈਂਟਰਾਂ ਦੀ ਬਿਜਲੀ ਮੰਗ, ਵਿੱਤੀ ਢਾਂਚਿਆਂ, ਐਂਟਰਪ੍ਰਾਈਜ਼ ਮੁੱਲ ਅਤੇ ਬਾਜ਼ਾਰ ਨੂੰ ਬੁਲਬੁਲਾ ਕਹਿਣ ਤੋਂ ਪਹਿਲਾਂ ਲੋੜੀਂਦੇ ਸਬੂਤਾਂ ਦੀ ਤੱਥ-ਜਾਂਚ ਕੀਤੀ ਸਮੀਖਿਆ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>2x RTX 5060 Ti ਬਨਾਮ GB10: 256K ਸੰਦਰਭ ’ਤੇ ਪੰਜ ਮਾਡਲਾਂ ਦਾ ਸਥਾਨਕ AI ਬੈਂਚਮਾਰਕ</title><link>https://pa.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "ਸਥਾਨਕ AI"
+, "GPU ਹਾਰਡਵੇਅਰ"
+, "ਬੈਂਚਮਾਰਕਿੰਗ"
+, "ਕੰਪਿਊਟਰ ਹਾਰਡਵੇਅਰ"</category><guid>https://pa.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਪੰਜ ਮਾਡਲਾਂ ਦੀ RTX 5060 Ti ਅਤੇ GB10 ਤੁਲਨਾ, ਨਾਲ ਹੀ 256K ਸੰਦਰਭ ਤੱਕ ਇੱਕੋ ਹੋਸਟ ’ਤੇ Qwen3.8 Flash-Next Strata ਬੈਂਚਮਾਰਕ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>AI ਏਜੰਟਾਂ ਨੂੰ ਕੰਮ ਸੌਂਪਣਾ: ਕਰਮਚਾਰੀ ਤੈਅ ਕਰੋ ਅਤੇ ਨਤੀਜੇ ਜਾਂਚੋ</title><link>https://pa.simeononsecurity.com/articles/effective-ai-agent-delegation/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "ਸਾਫਟਵੇਅਰ ਇੰਜੀਨੀਅਰਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/effective-ai-agent-delegation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਫੈਸਲਾ ਕਰੋ ਕਿ ਦੂਜਾ AI ਏਜੰਟ ਕਦੋਂ ਮਦਦਗਾਰ ਹੈ, ਹਰ ਕਰਮਚਾਰੀ ਨੂੰ ਸੀਮਤ ਕੰਮ ਦਿਓ, ਸੰਪਾਦਨ ਟਕਰਾਅ ਰੋਕੋ ਅਤੇ ਸਬੂਤ ਮੁੱਖ ਸੈਸ਼ਨ ਵਿੱਚ ਜੋੜੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/effective-ai-agent-delegation.webp" length="133510" type="image/webp"/></item><item><title>AI ਸੰਦਰਭ ਵਿੰਡੋ ਪ੍ਰਬੰਧਨ: ਕੋਡਿੰਗ ਏਜੰਟਾਂ ਦਾ ਧਿਆਨ ਬਣਾਈ ਰੱਖੋ</title><link>https://pa.simeononsecurity.com/articles/effective-ai-context-window-management/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "ਸਾਫਟਵੇਅਰ ਇੰਜੀਨੀਅਰਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/effective-ai-context-window-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਚੁਣੀਆਂ ਫਾਈਲਾਂ, ਸੰਖੇਪ ਹਵਾਲਗੀ ਅਤੇ ਕਰਮਚਾਰੀਆਂ ਦੇ ਛੋਟੇ ਨਤੀਜਿਆਂ ਨਾਲ AI ਕੰਮ ਦਾ ਸਰਗਰਮ ਸੰਦਰਭ ਕਾਬੂ ਕਰੋ ਅਤੇ ਫੈਸਲੇ ਤੇ ਸਬੂਤ ਸੰਭਾਲੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/effective-ai-context-window-management.webp" length="78984" type="image/webp"/></item><item><title>AI ਕੰਮ ਪੈਕੇਟ: ਵਧੀਆ ਹਦਾਇਤਾਂ ਅਤੇ ਮਨਜ਼ੂਰੀ ਮਾਪਦੰਡ</title><link>https://pa.simeononsecurity.com/articles/effective-ai-task-packets/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "ਉਤਪਾਦਕਤਾ"
+, "ਸਾਫਟਵੇਅਰ ਇੰਜੀਨੀਅਰਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/effective-ai-task-packets/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਅਸਪਸ਼ਟ AI ਬੇਨਤੀਆਂ ਨੂੰ ਨਤੀਜੇ, ਸਰੋਤ, ਫ਼ਾਈਲਾਂ ਦੇ ਘੇਰੇ, ਜਾਂਚਾਂ ਅਤੇ ਰੁਕਣ ਦੀ ਸ਼ਰਤ ਵਾਲੇ ਕੰਮ ਪੈਕੇਟਾਂ ਵਿੱਚ ਬਦਲੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/effective-ai-task-packets.webp" length="93042" type="image/webp"/></item><item><title>AI ਨਤੀਜਿਆਂ, ਸਰੋਤਾਂ, ਟੈਸਟਾਂ ਅਤੇ ਲਾਗਤਾਂ ਦੀ ਜਾਂਚ ਕਿਵੇਂ ਕਰੀਏ</title><link>https://pa.simeononsecurity.com/articles/effective-ai-output-verification/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "ਸਾਫਟਵੇਅਰ ਇੰਜੀਨੀਅਰਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/effective-ai-output-verification/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਰੋਤਾਂ, ਫਾਈਲਾਂ ਦੇ ਦਾਇਰੇ, ਟੈਸਟ ਸਬੂਤ, ਨਿੱਜਤਾ ਅਤੇ ਵਰਤੋਂ ਦੀ ਜਾਂਚ ਕਰਕੇ AI ਨਤੀਜੇ ਲਈ ਮਨਜ਼ੂਰੀ ਰਿਕਾਰਡ ਬਣਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/effective-ai-output-verification.webp" length="109102" type="image/webp"/></item></channel></rss>

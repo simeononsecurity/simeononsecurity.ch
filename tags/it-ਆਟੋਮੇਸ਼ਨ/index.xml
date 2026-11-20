@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT ਆਟੋਮੇਸ਼ਨ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>IT ਆਟੋਮੇਸ਼ਨ on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/it-%E0%A8%86%E0%A8%9F%E0%A9%8B%E0%A8%AE%E0%A9%87%E0%A8%B8%E0%A8%BC%E0%A8%A8/</link></image><link>https://pa.simeononsecurity.com/tags/it-%E0%A8%86%E0%A8%9F%E0%A9%8B%E0%A8%AE%E0%A9%87%E0%A8%B8%E0%A8%BC%E0%A8%A8/</link><description>Recent content in IT ਆਟੋਮੇਸ਼ਨ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/it-%E0%A8%86%E0%A8%9F%E0%A9%8B%E0%A8%AE%E0%A9%87%E0%A8%B8%E0%A8%BC%E0%A8%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansible ਬਨਾਮ Puppet ਬਨਾਮ Chef 2026: ਕਨਫਿਗਰੇਸ਼ਨ ਪ੍ਰਬੰਧਨ</title><link>https://pa.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "ਇੰਫਰਾਸਟ੍ਰਕਚਰ ਆਟੋਮੇਸ਼ਨ"
+, "ਕਨਫਿਗਰੇਸ਼ਨ ਪ੍ਰਬੰਧਨ"
+, "IT ਕਾਰਵਾਈਆਂ"
+, "ਕਲਾਊਡ ਕੰਪਿਊਟਿੰਗ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਐਂਟਰਪ੍ਰਾਈਜ਼ IT"
+, "ਸਾਫਟਵੇਅਰ ਵਿਕਾਸ"
+, "IT ਇੰਫਰਾਸਟ੍ਰਕਚਰ"
+, "ਆਟੋਮੇਸ਼ਨ ਟੂਲ"</category><guid>https://pa.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਆਰਕੀਟੈਕਚਰ, ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ, ਸਿੱਖਣ ਦੇ ਸਮੇਂ, ਕਾਰਗੁਜ਼ਾਰੀ, ਕੀਮਤਾਂ ਅਤੇ ਵਰਤੋਂ ਦੇ ਮਾਮਲਿਆਂ ਅਨੁਸਾਰ 2026 ਵਿੱਚ Ansible, Puppet ਅਤੇ Chef ਦੀ ਤੁਲਨਾ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>WMI ਫਿਲਟਰਿੰਗ ਨੂੰ ਸਮਝਣਾ</title><link>https://pa.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows ਪ੍ਰਬੰਧਨ"
+, "Group Policy"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਨੈੱਟਵਰਕ ਪ੍ਰਬੰਧਨ"
+, "IT ਢਾਂਚਾ"
+, "ਨੀਤੀ ਪ੍ਰਬੰਧਨ"
+, "IT ਸ਼ਾਸਨ"
+, "IT ਆਟੋਮੇਸ਼ਨ"
+, "Active Directory"
+, "ਸੁਰੱਖਿਆ ਅਨੁਕੂਲਤਾ"</category><guid>https://pa.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ WMI ਫਿਲਟਰਿੰਗ ਨਾਲ Group Policy Object (GPO) ਨੂੰ ਚੁਣੇ ਹੋਏ ਕੰਪਿਊਟਰਾਂ ਤੱਕ ਕਿਵੇਂ ਸੀਮਿਤ ਕਰੀਏ। ਇਸ ਵਿੱਚ ਅਮਲੀ ਉਦਾਹਰਨਾਂ ਅਤੇ ਚੰਗੇ ਤਰੀਕੇ ਹਨ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item><item><title>ਕੀ IT ਅਤੇ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਲਈ ਪ੍ਰੋਗਰਾਮਿੰਗ ਸਿੱਖਣੀ ਚਾਹੀਦੀ ਹੈ?</title><link>https://pa.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"IT ਅਤੇ ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਪ੍ਰੋਗਰਾਮਿੰਗ ਹੁਨਰ"
+, "ਕਰੀਅਰ ਵਿੱਚ ਤਰੱਕੀ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "ਕਮਾਂਡ ਲਾਈਨ"
+, "ਸਕ੍ਰਿਪਟਿੰਗ"
+, "ਬੁਨਿਆਦੀ ਢਾਂਚੇ ਦੀ ਤਾਇਨਾਤੀ"
+, "ਡਾਟਾ ਵਿਸ਼ਲੇਸ਼ਣ"
+, "ਸੁਰੱਖਿਆ ਜਾਂਚ"
+, "ਪੇਸ਼ਾਵਰ ਵਿਕਾਸ"</category><guid>https://pa.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+IT ਜਾਂ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਵਿੱਚ ਆਪਣੇ ਕਰੀਅਰ ਲਈ ਲਾਹੇਵੰਦ ਪ੍ਰੋਗਰਾਮਿੰਗ ਹੁਨਰ ਚੁਣੋ ਅਤੇ PowerShell, Bash, Python, Ansible, Packer ਜਾਂ Terraform ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp" length="111480" type="image/webp"/></item></channel></rss>

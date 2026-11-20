@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNS on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>DNS on simeononsecurity</title><link>https://pa.simeononsecurity.com/genre/dns/</link></image><link>https://pa.simeononsecurity.com/genre/dns/</link><description>Recent content in DNS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/genre/dns/index.xml" rel="self" type="application/rss+xml"/><item><title>DNS filter ਨੂੰ ਕਿਉਂ ਬਾਈਪਾਸ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ: resolver ਦਾ ਰਸਤਾ ਜਾਂਚੋ</title><link>https://pa.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਘਰੇਲੂ ਨੈੱਟਵਰਕ"
+, "DNS"
+, "ਪਰਦੇਦਾਰੀ"</category><guid>https://pa.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਪਤਾ ਕਰੋ ਕਿ ਕੋਈ device ਜਾਂ browser ਤੁਹਾਡੇ DNS filter ਨੂੰ ਕਿਉਂ ਛੱਡ ਰਿਹਾ ਹੈ। ਸਿੱਧੀਆਂ ਅਤੇ ਆਮ queries ਦੀ ਤੁਲਨਾ ਕਰੋ, logs ਵੇਖੋ, ਫਿਰ encrypted DNS, VPN, IPv6 ਅਤੇ router settings ਜਾਂਚੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>NextDNS ਬਨਾਮ AdGuard: ਕਿਹੜਾ DNS ਵਿਗਿਆਪਨ ਰੋਕੂ ਚੰਗਾ ਹੈ?</title><link>https://pa.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਵਿਗਿਆਪਨ ਰੋਕਣਾ"
+, "DNS"
+, "ਨਿੱਜਤਾ"
+, "ਇੰਟਰਨੈੱਟ ਸੁਰੱਖਿਆ"
+, "ਆਨਲਾਈਨ ਰੱਖਿਆ"
+, "ਡਿਜ਼ਿਟਲ ਸੁਰੱਖਿਆ"
+, "ਬ੍ਰਾਊਜ਼ਿੰਗ ਹੱਲ"
+, "ਆਨਲਾਈਨ ਨਿੱਜਤਾ"</category><guid>https://pa.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+DNS-ਆਧਾਰਿਤ ਵਿਗਿਆਪਨ ਰੋਕੂ NextDNS ਅਤੇ AdGuard ਦੀ ਤੁਲਨਾ ਕਰੋ ਅਤੇ ਆਪਣੇ ਬ੍ਰਾਊਜ਼ਿੰਗ ਲਈ ਢੁੱਕਵੀਂ ਸੇਵਾ ਚੁਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Heartbleed on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>Heartbleed on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/heartbleed/</link></image><link>https://pa.simeononsecurity.com/tags/heartbleed/</link><description>Recent content in Heartbleed on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/heartbleed/index.xml" rel="self" type="application/rss+xml"/><item><title>SSL ਅਤੇ TLS 1.1 ਅਤੇ ਇਸ ਤੋਂ ਪੁਰਾਣੇ ਸੰਸਕਰਣ ਬੰਦ ਕਰਕੇ ਕੰਪਿਊਟਰ ਦੀ ਸੁਰੱਖਿਆ ਮਜ਼ਬੂਤ ਕਰੋ</title><link>https://pa.simeononsecurity.com/articles/hardening-tls-and-ssl/</link><pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate><category>
+"ਕੰਪਿਊਟਰ ਸੁਰੱਖਿਆ ਮਜ਼ਬੂਤ ਕਰਨਾ"
+, "SSL ਅਤੇ TLS ਬੰਦ ਕਰਨਾ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "POODLE"
+, "BEAST"
+, "Heartbleed"
+, "Windows ਰਜਿਸਟਰੀ ਸੰਪਾਦਕ"
+, "Linux OpenSSL ਸੰਰਚਨਾ"
+, "Apache"
+, "Nginx"</category><guid>https://pa.simeononsecurity.com/articles/hardening-tls-and-ssl/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+TLS 1.2 ਜਾਂ ਨਵਾਂ ਸੰਸਕਰਣ ਚਾਲੂ ਰੱਖਦਿਆਂ SSL ਅਤੇ ਪੁਰਾਣੇ TLS ਸੰਸਕਰਣ ਬੰਦ ਕਰੋ। ਇਸ ਵਿੱਚ Windows Schannel, .NET ਅਤੇ Linux ਸੇਵਾਵਾਂ ਸ਼ਾਮਲ ਹਨ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp" length="106014" type="image/webp"/></item></channel></rss>

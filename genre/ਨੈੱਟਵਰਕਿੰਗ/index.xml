@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਨੈੱਟਵਰਕਿੰਗ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਨੈੱਟਵਰਕਿੰਗ on simeononsecurity</title><link>https://pa.simeononsecurity.com/genre/%E0%A8%A8%E0%A9%88%E0%A9%B1%E0%A8%9F%E0%A8%B5%E0%A8%B0%E0%A8%95%E0%A8%BF%E0%A9%B0%E0%A8%97/</link></image><link>https://pa.simeononsecurity.com/genre/%E0%A8%A8%E0%A9%88%E0%A9%B1%E0%A8%9F%E0%A8%B5%E0%A8%B0%E0%A8%95%E0%A8%BF%E0%A9%B0%E0%A8%97/</link><description>Recent content in ਨੈੱਟਵਰਕਿੰਗ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/genre/%E0%A8%A8%E0%A9%88%E0%A9%B1%E0%A8%9F%E0%A8%B5%E0%A8%B0%E0%A8%95%E0%A8%BF%E0%A9%B0%E0%A8%97/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture: 2026 ਵਿੱਚ ਇਨਫਰੈਂਸ ਅਤੇ MCP ਲਈ AI ਕਲਾਇੰਟ ਸੰਰਚਿਤ ਕਰੋ</title><link>https://pa.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "ਡਿਵੈਲਪਰ ਟੂਲ"
+, "ਨੈੱਟਵਰਕਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Tailscale Aperture ਰਾਹੀਂ ਮਾਡਲ ਬੇਨਤੀਆਂ ਅਤੇ MCP ਟੂਲ ਰੂਟ ਕਰੋ। ਕਿਸੇ ਹੋਰ ਡਿਵਾਈਸ ਜਾਂ ਗੇਟਵੇ ਉੱਤੇ Codex, Claude Code, Claude Desktop, OpenCode ਅਤੇ Hermes ਸੈੱਟ ਅੱਪ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>VPN ਨਾਲ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ DNS ਅਤੇ WebRTC ਲੀਕ ਦੀ ਜਾਂਚ ਕਰੋ</title><link>https://pa.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਪਰਦੇਦਾਰੀ"
+, "ਬ੍ਰਾਊਜ਼ਰ"
+, "ਨੈੱਟਵਰਕਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+VPN ਜੋੜਨ ਤੋਂ ਪਹਿਲਾਂ ਅਤੇ ਬਾਅਦ ਬ੍ਰਾਊਜ਼ਰ ਦਾ ਜਨਤਕ IP, DNS ਰਿਜ਼ੋਲਵਰ ਅਤੇ WebRTC ਪਤੇ ਜਾਂਚੋ। ਨਤੀਜਿਆਂ ਨੂੰ ਸਮਝੋ ਅਤੇ ਰੂਟਿੰਗ ਦੀਆਂ ਸਮੱਸਿਆਵਾਂ ਲੱਭੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>ਹੋਮਲੈਬ VLAN ਵੰਡ ਦੀ ਯੋਜਨਾ ਬਣਾਓ ਅਤੇ ਜਾਂਚੋ</title><link>https://pa.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਹੋਮਲੈਬ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਨੈੱਟਵਰਕਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਹੋਮਲੈਬ ਵਿੱਚ ਭਰੋਸੇਯੋਗ ਡਿਵਾਈਸਾਂ, ਸਰਵਰਾਂ, IoT ਅਤੇ ਮਹਿਮਾਨਾਂ ਨੂੰ ਵੱਖ ਕਰਨ ਲਈ VLAN ਯੋਜਨਾ ਬਣਾਓ। ਮਨਜ਼ੂਰ ਟ੍ਰੈਫਿਕ ਦਰਜ ਕਰੋ, ਨੈੱਟਵਰਕ ਨੂੰ ਪੜਾਵਾਂ ਵਿੱਚ ਸੰਰਚਿਤ ਕਰੋ ਅਤੇ ਅਲੱਗਾਵ ਦੀ ਜਾਂਚ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Meshtastic ਬਨਾਮ MeshCore ਬਨਾਮ Reticulum</title><link>https://pa.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "ਮੇਸ਼ ਨੈੱਟਵਰਕਿੰਗ"
+, "ਆਫ਼-ਗ੍ਰਿਡ ਸੰਚਾਰ"
+, "ਐਮਰਜੈਂਸੀ ਸੰਚਾਰ"
+, "ਹੈਮ ਰੇਡੀਓ"
+, "ਓਪਨ ਸੋਰਸ"
+, "ਆਫ਼ਤ ਦੀ ਤਿਆਰੀ"
+, "ਵਾਇਰਲੈੱਸ ਨੈੱਟਵਰਕ"
+, "ਪਰਦੇਦਾਰੀ"
+, "ਨੈੱਟਵਰਕਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਰੂਟਿੰਗ, ਏਅਰਟਾਈਮ, ਬੁਨਿਆਦੀ ਢਾਂਚੇ, ਟ੍ਰਾਂਸਪੋਰਟ ਅਤੇ ਆਫ਼-ਗ੍ਰਿਡ ਵਰਤੋਂ ਦੇ ਆਧਾਰ 'ਤੇ Meshtastic, MeshCore ਅਤੇ Reticulum ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>ਮੈਦਾਨੀ ਤਾਇਨਾਤੀ ਲਈ ਬਿਜਲੀ ਅਤੇ ਵਾਤਾਵਰਣਕ ਲਚਕੀਲਾਪਣ</title><link>https://pa.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"ਐਜ ਕੰਪਿਊਟਿੰਗ"
+, "ਮੈਦਾਨੀ IT"
+, "ਬਿਜਲੀ ਪ੍ਰਣਾਲੀਆਂ"
+, "ਹਾਰਡਵੇਅਰ"
+, "ਆਫ਼ਤ ਤੋਂ ਮੁੜ-ਬਹਾਲੀ"
+, "ਮਜ਼ਬੂਤ ਕੰਪਿਊਟਿੰਗ"
+, "ਨੈੱਟਵਰਕਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮੈਦਾਨੀ ਐਜ ਕੰਪਿਊਟਿੰਗ ਲਈ ਬਿਜਲੀ ਅਤੇ ਵਾਤਾਵਰਣਕ ਸੁਰੱਖਿਆ ਦੀ ਯੋਜਨਾ ਬਣਾਓ। UPS ਦਾ ਆਕਾਰ, ਸੂਰਜੀ ਪੈਨਲ, ਬੈਟਰੀਆਂ, ਸਮੇਂ ਦਾ ਤਾਲਮੇਲ, ਸੁਰੱਖਿਆ ਰੇਟਿੰਗਾਂ, ਗ੍ਰਾਊਂਡਿੰਗ ਅਤੇ ਸਰਜ ਸੁਰੱਖਿਆ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>ਸਰਬੋਤਮ ਹੋਮਲੈਬ ਸਮੱਗਰੀ ਸਿਰਜਣਹਾਰ</title><link>https://pa.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਨੈੱਟਵਰਕਿੰਗ"
+, "ਆਪਣੇ ਆਪ ਕਰੋ"
+, "ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ"
+, "ਹੋਮਲੈਬ"
+, "ਤਕਨੀਕੀ ਸ਼ੌਕੀਨ"
+, "ਭਾਈਚਾਰਾ"
+, "ਸਿੱਖਿਆ"
+, "ਨਵੀਨਤਾ"
+, "ਗਾਈਡ"</category><guid>https://pa.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਹੋਮਲੈਬ ਸਿਰਜਣਹਾਰਾਂ ਨੂੰ ਜਾਣੋ, ਸਾਥੀ ਸ਼ੌਕੀਨਾਂ ਨਾਲ ਜੁੜੋ ਅਤੇ ਤਕਨੀਕੀ ਖੋਜ ਦੀ ਸ਼ੁਰੂਆਤ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item><item><title>ਵਾਈ-ਫਾਈ ਕਵਰੇਜ ਸੁਧਾਰਨ ਲਈ ਐਕਸੈੱਸ ਪੁਆਇੰਟ ਕਿਵੇਂ ਲਗਾਉਣੇ ਹਨ</title><link>https://pa.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਨੈੱਟਵਰਕਿੰਗ"
+, "ਵਾਇਰਲੈੱਸ ਨੈੱਟਵਰਕ"
+, "ਐਕਸੈੱਸ ਪੁਆਇੰਟ"
+, "ਵਾਈ-ਫਾਈ ਇੰਸਟਾਲੇਸ਼ਨ"
+, "ਨੈੱਟਵਰਕ ਸੁਧਾਰ"
+, "ਘਰੇਲੂ ਨੈੱਟਵਰਕਿੰਗ"
+, "ਵਾਇਰਲੈੱਸ ਕਨੈਕਟੀਵਿਟੀ"
+, "ਇੰਟਰਨੈੱਟ ਆਫ਼ ਥਿੰਗਜ਼"
+, "ਨੈੱਟਵਰਕ ਹੱਲ"</category><guid>https://pa.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਵਾਇਰਲੈੱਸ ਕਨੈਕਟੀਵਿਟੀ ਸੁਧਾਰਨ, ਦਖ਼ਲ ਘਟਾਉਣ ਅਤੇ ਨੈੱਟਵਰਕ ਦੀ ਸਥਿਰ ਕਾਰਗੁਜ਼ਾਰੀ ਲਈ ਐਕਸੈੱਸ ਪੁਆਇੰਟ ਲਗਾਉਣ ਦੇ ਤਰੀਕੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp"/></item><item><title>ਨੈੱਟਵਰਕ ਪਲੱਸ ਕੋਰਸ: ਨੈੱਟਵਰਕ ਸਾਫਟਵੇਅਰ ਟੂਲਜ਼ ਵਿੱਚ ਮਾਹਰ ਬਣੋ...</title><link>https://pa.simeononsecurity.com/network-plus/network-plus-course-network-software-tools-commands/</link><pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕਿੰਗ"
+, "ਨੈੱਟਵਰਕ ਟੂਲਜ਼"
+, "ਕਮਾਂਡ ਲਾਈਨ ਯੂਟਿਲਿਟੀਜ਼"
+, "ਨੈੱਟਵਰਕ ਟ੍ਰਬਲਸ਼ੂਟਿੰਗ"
+, "CompTIA Network+ ਸਰਟੀਫਿਕੇਸ਼ਨ"
+, "ਨੈੱਟਵਰਕ ਪ੍ਰਬੰਧਨ"
+, "ਨੈੱਟਵਰਕ ਸੰਰਚਨਾ"
+, "ਵਾਈਫਾਈ ਵਿਸ਼ਲੇਸ਼ਣ"
+, "ਪੈਕੇਟ ਕੈਪਚਰ"
+, "ਬੈਂਡਵਿਡਥ ਟੈਸਟਿੰਗ"</category><guid>https://pa.simeononsecurity.com/network-plus/network-plus-course-network-software-tools-commands/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਅਹਿਮ ਨੈੱਟਵਰਕ ਸਾਫਟਵੇਅਰ ਟੂਲਜ਼ ਅਤੇ ਕਮਾਂਡ ਲਾਈਨ ਯੂਟਿਲਿਟੀਜ਼ ਦੀ ਖੋਜ ਕਰੋ, ਉਨ੍ਹਾਂ ਦੀ ਵਰਤੋਂ ਸਿੱਖੋ, ਅਤੇ ਇਸ ਵਿਸਤ੍ਰਿਤ Network+ ਸਰਟੀਫਿਕੇਸ਼ਨ ਇਮਤਿਹਾਨ ਕੋਰਸ ਨਾਲ ਪ੍ਰੋ ਵਾਂਗ ਟ੍ਰਬਲਸ਼ੂਟ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_engaging_cartoon-style_illustration_showing_a_network_professional.webp" length="147920" type="image/webp"/></item><item><title>ਨੈੱਟਵਰਕ ਦੀਆਂ ਬੁਨਿਆਦੀ ਗੱਲਾਂ: IP ਪਤਾ ਕੀ ਹੁੰਦਾ ਹੈ ਅਤੇ IPv4 ਤੇ IPv6 ਕੀ ਹਨ?</title><link>https://pa.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕਿੰਗ"
+, "IP ਪਤੇ"
+, "ਇੰਟਰਨੈੱਟ ਪ੍ਰੋਟੋਕੋਲ"
+, "IPv4"
+, "IPv6"
+, "ਨੈੱਟਵਰਕ ਸੰਚਾਰ"
+, "ਇੰਟਰਨੈੱਟ ਕਨੈਕਟੀਵਿਟੀ"
+, "ਤਕਨਾਲੋਜੀ"
+, "ਨੈੱਟਵਰਕ ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਇੰਟਰਨੈੱਟ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+IP ਪਤਿਆਂ, IPv4 ਅਤੇ IPv6 ਵਿਚਲੇ ਫ਼ਰਕ, ਉਨ੍ਹਾਂ ਦੀ ਅਹਿਮੀਅਤ ਅਤੇ IPv6 ਅਪਣਾਉਣ ਦੇ ਕਾਰਨਾਂ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_image_of_two_devices_with_speech_bub.webp" length="90028" type="image/webp"/></item><item><title>ਨੈੱਟਵਰਕ ਦੀਆਂ ਬੁਨਿਆਦੀ ਗੱਲਾਂ: ਸਵਿੱਚ, ਰਾਊਟਰ, ਫਾਇਰਵਾਲ ਅਤੇ DMZ</title><link>https://pa.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕਿੰਗ"
+, "IT ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਨੈੱਟਵਰਕ ਆਰਕੀਟੈਕਚਰ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਡਾਟਾ ਸੰਚਾਰ"
+, "ਸੂਚਨਾ ਤਕਨਾਲੋਜੀ"
+, "IT ਦੀਆਂ ਬੁਨਿਆਦੀ ਗੱਲਾਂ"
+, "ਨੈੱਟਵਰਕ ਪ੍ਰਬੰਧਨ"
+, "ਇੰਟਰਨੈੱਟ ਕਨੈਕਟਿਵਿਟੀ"</category><guid>https://pa.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ ਸਵਿੱਚ, ਰਾਊਟਰ, ਗੇਟਵੇ, ਸਬਨੈੱਟ, ਫਾਇਰਵਾਲ ਅਤੇ DMZ ਨੈੱਟਵਰਕ ਟ੍ਰੈਫਿਕ ਨੂੰ ਕਿਵੇਂ ਵੰਡਦੇ ਅਤੇ ਸੁਰੱਖਿਆ ਹੱਦਾਂ ਕਿਵੇਂ ਲਾਗੂ ਕਰਦੇ ਹਨ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item><item><title>ਨੈੱਟਵਰਕ+ ਕੋਰਸ: ARP ਅਤੇ ਨੇਬਰ ਡਿਸਕਵਰੀ ਪ੍ਰੋਟੋਕੋਲ</title><link>https://pa.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><category>
+"ਟੈਕਨੋਲੋਜੀ"
+, "ਨੈੱਟਵਰਕਿੰਗ"
+, "ਪ੍ਰੋਟੋਕੋਲ"
+, "ਨੈੱਟਵਰਕ+ ਸਰਟੀਫਿਕੇਸ਼ਨ"
+, "ਟ੍ਰਬਲਸ਼ੂਟਿੰਗ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "IPv4"
+, "IPv6"
+, "ਨੈੱਟਵਰਕ ਸੰਚਾਰ"
+, "ਐਡਰੈੱਸ ਰਿਜ਼ੋਲੂਸ਼ਨ"</category><guid>https://pa.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਐਡਰੈੱਸ ਰਿਜ਼ੋਲੂਸ਼ਨ ਪ੍ਰੋਟੋਕੋਲ (ARP) ਅਤੇ ਨੇਬਰ ਡਿਸਕਵਰੀ ਪ੍ਰੋਟੋਕੋਲ (NDP) ਨੂੰ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਤਰੀਕੇ ਨਾਲ ਵਰਤਣ ਬਾਰੇ ਸਿੱਖੋ ਤਾਂ ਜੋ IP ਐਡਰੈੱਸ ਨੂੰ MAC ਐਡਰੈੱਸ ਵਿੱਚ ਬਦਲਿਆ ਜਾ ਸਕੇ, IPv6 ਨੈੱਟਵਰਕਾਂ ਵਿੱਚ ਨੈਵੀਗੇਟ ਕੀਤਾ ਜਾ ਸਕੇ, ਅਤੇ ਆਮ ਸਮੱਸਿਆਵਾਂ ਦਾ ਹੱਲ ਕਰਕੇ ਨੈੱਟਵਰਕ ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ ਅਤੇ ਸੁਰੱਖਿਆ ਨੂੰ ਬਿਹਤਰ ਬਣਾਇਆ ਜਾ ਸਕੇ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_the_seamless.webp" length="89092" type="image/webp"/></item><item><title>ਕਨੈਕਸ਼ਨ-ਅਧਾਰਿਤ ਅਤੇ ਕਨੈਕਸ਼ਨ-ਰਹਿਤ ਸੰਚਾਰ ਵਿਚਕਾਰ ਫ਼ਰਕ</title><link>https://pa.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਨੈੱਟਵਰਕਿੰਗ"
+, "ਸੰਚਾਰ"
+, "ਪ੍ਰੋਟੋਕੋਲ"
+, "ਕੰਪਿਊਟਰ ਵਿਗਿਆਨ"
+, "ਡਾਟਾ ਟ੍ਰਾਂਸਫਰ"
+, "ਨੈੱਟਵਰਕ ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਇੰਟਰਨੈੱਟ"
+, "ਸੂਚਨਾ ਤਕਨਾਲੋਜੀ"
+, "ਦੂਰਸੰਚਾਰ"</category><guid>https://pa.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਨੈੱਟਵਰਕ ਸੰਚਾਰ ਵਿੱਚ ਕਨੈਕਸ਼ਨ-ਅਧਾਰਿਤ ਅਤੇ ਕਨੈਕਸ਼ਨ-ਰਹਿਤ ਢੰਗਾਂ, ਪ੍ਰੋਟੋਕੋਲਾਂ, ਸੇਵਾਵਾਂ ਅਤੇ ਰੂਟਿੰਗ ਤਰੀਕਿਆਂ ਦੇ ਫ਼ਰਕ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_illustration_showing_two_devices_connected.webp" length="39168" type="image/webp"/></item></channel></rss>

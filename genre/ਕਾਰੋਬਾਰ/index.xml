@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਕਾਰੋਬਾਰ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਕਾਰੋਬਾਰ on simeononsecurity</title><link>https://pa.simeononsecurity.com/genre/%E0%A8%95%E0%A8%BE%E0%A8%B0%E0%A9%8B%E0%A8%AC%E0%A8%BE%E0%A8%B0/</link></image><link>https://pa.simeononsecurity.com/genre/%E0%A8%95%E0%A8%BE%E0%A8%B0%E0%A9%8B%E0%A8%AC%E0%A8%BE%E0%A8%B0/</link><description>Recent content in ਕਾਰੋਬਾਰ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/genre/%E0%A8%95%E0%A8%BE%E0%A8%B0%E0%A9%8B%E0%A8%AC%E0%A8%BE%E0%A8%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>PCI-DSS ਦੀ ਵਿਆਖਿਆ: ਕਾਰਡ ਲੈਣ-ਦੇਣ ਦੀ ਸੁਰੱਖਿਅਤ ਪਾਲਣਾ</title><link>https://pa.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link><pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਭੁਗਤਾਨ ਕਾਰਡ ਸੁਰੱਖਿਆ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਪਾਲਣਾ"
+, "ਜਾਣਕਾਰੀ ਸੁਰੱਖਿਆ"
+, "ਤਕਨਾਲੋਜੀ"
+, "ਕਾਰੋਬਾਰ"
+, "ਜੋਖਮ ਪ੍ਰਬੰਧਨ"
+, "ਨਿਯਮ"
+, "ਈ-ਕਾਮਰਸ"</category><guid>https://pa.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਭੁਗਤਾਨ ਕਾਰਡ ਡਾਟੇ ਦੀ ਰੱਖਿਆ ਲਈ PCI-DSS, ਇਸਦੇ ਹਿੱਸਿਆਂ, ਪਾਲਣਾ ਅਤੇ ਲਾਭਾਂ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/pci-dss-security-vault.webp" length="88546" type="image/webp"/></item><item><title>GDPR ਨੂੰ ਸਮਝੋ: ਡਾਟਾ ਗੋਪਨੀਯਤਾ ਨਿਯਮਾਂ ਲਈ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/what-is-gdpr-overview-explanation/</link><pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਡਾਟਾ ਗੋਪਨੀਯਤਾ"
+, "ਨਿਯਮ"
+, "ਪਾਲਣਾ"
+, "ਤਕਨਾਲੋਜੀ"
+, "ਕਾਰੋਬਾਰ"
+, "EU ਕਾਨੂੰਨ"
+, "ਆਨਲਾਈਨ ਗੋਪਨੀਯਤਾ"
+, "ਡਿਜ਼ਿਟਲ ਹੱਕ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/what-is-gdpr-overview-explanation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ GDPR ਨਿੱਜੀ ਡਾਟੇ ਦੀ ਰੱਖਿਆ ਕਿਵੇਂ ਕਰਦਾ ਹੈ, ਕਿਹੜੇ ਸਿਧਾਂਤ ਅਤੇ ਹੱਕ ਦਿੰਦਾ ਹੈ, ਅਤੇ ਕਾਰੋਬਾਰਾਂ ਉੱਤੇ ਇਸਦਾ ਕੀ ਅਸਰ ਪੈਂਦਾ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/GDPR_Data_Vault_Security.webp" length="52018" type="image/webp"/></item><item><title>ਲਚਕੀਲਾ SOC ਕਿਵੇਂ ਬਣਾਈਏ</title><link>https://pa.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਤਕਨਾਲੋਜੀ"
+, "ਕਾਰੋਬਾਰ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਘਟਨਾ ਪ੍ਰਤੀਕਿਰਿਆ"
+, "IT ਪ੍ਰਬੰਧਨ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਖਤਰਾ ਪਛਾਣ"
+, "ਜਾਣਕਾਰੀ ਸੁਰੱਖਿਆ"
+, "ਜੋਖਮ ਪ੍ਰਬੰਧਨ"</category><guid>https://pa.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਾਈਬਰ ਖਤਰਿਆਂ ਦਾ ਮੁਕਾਬਲਾ ਕਰਨ, ਘਟਨਾਵਾਂ ਦੀ ਪਛਾਣ ਕਰਨ ਅਤੇ ਆਪਣੇ ਸੰਗਠਨ ਦੇ ਸਰੋਤਾਂ ਦੀ ਰੱਖਿਆ ਲਈ ਮਜ਼ਬੂਤ ਸੁਰੱਖਿਆ ਓਪਰੇਸ਼ਨ ਸੈਂਟਰ (SOC) ਬਣਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਸੂਚਨਾ ਪ੍ਰਣਾਲੀ ਪ੍ਰਬੰਧਕਾਂ ਲਈ ਮੁੱਖ ਹੁਨਰ</title><link>https://pa.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</link><pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਕਾਰੋਬਾਰ"
+, "ਪ੍ਰਬੰਧਨ"
+, "ਆਈਟੀ"
+, "ਪੇਸ਼ਾਵਰ ਵਿਕਾਸ"
+, "ਡਿਜ਼ਿਟਲ ਬਦਲਾਅ"
+, "ਡਾਟਾ ਵਿਸ਼ਲੇਸ਼ਣ"
+, "ਕਲਾਊਡ ਕੰਪਿਊਟਿੰਗ"
+, "ਪ੍ਰੋਜੈਕਟ ਪ੍ਰਬੰਧਨ"
+, "ਅਗਵਾਈ"</category><guid>https://pa.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ ਅੱਜ ਦੇ ਕਾਰੋਬਾਰੀ ਮਾਹੌਲ ਵਿੱਚ ਕਾਮਯਾਬ ਹੋਣ ਲਈ ਹਰ ਸੂਚਨਾ ਪ੍ਰਣਾਲੀ ਪ੍ਰਬੰਧਕ ਨੂੰ ਕਿਹੜੇ ਪੰਜ ਮੁੱਖ ਹੁਨਰਾਂ ਦੀ ਲੋੜ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.webp" length="179058" type="image/webp"/></item></channel></rss>

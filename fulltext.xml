@@ -1,0 +1,2344 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://pa.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>pa</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>Home Assistant Core 2026.11 ਤੋਂ 2026.10.4 ਵੱਲ ਰੋਲਬੈਕ: HTTP ਸਟੋਰੇਜ ਵਰਜਨ 3 ਦੀ ਮੁਰੰਮਤ</title><link>https://pa.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><description>Yellow ਉੱਤੇ Home Assistant Core 2026.11 ਦੇ 2026.10.4 ਵੱਲ ਮੁੜਨ ਮਗਰੋਂ HTTP ਸਟੋਰੇਜ ਵਰਜਨ 3 ਦੀ ਗਲਤੀ ਠੀਕ ਕਰੋ। ਇਸ ਵਿੱਚ ਸੁਰੱਖਿਅਤ ਕਮਾਂਡਾਂ ਅਤੇ ਜਾਂਚੇ ਹੋਏ ਨਤੀਜੇ ਹਨ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p>Home Assistant Core 2026.11 ਦਾ ਅੱਪਡੇਟ ਅਸਫਲ ਹੋਇਆ ਅਤੇ ਮੇਰੇ Yellow CM4 ਨੂੰ 2026.10.4 ਉੱਤੇ ਵਾਪਸ ਲੈ ਆਇਆ। Yellow ਨੈੱਟਵਰਕ ਉੱਤੇ ਪਹੁੰਚਯੋਗ ਸੀ, ਪਰ ਡੈਸ਼ਬੋਰਡ ਦਿਖਾਉਣਾ ਬੰਦ ਕਰ ਗਿਆ। ਰੋਲਬੈਕ ਮਗਰੋਂ HTTP ਸੈਟਿੰਗਾਂ ਵਾਲੀ ਫ਼ਾਈਲ ਸਟੋਰੇਜ ਵਰਜਨ 3.1 ਵਿੱਚ ਰਹਿ ਗਈ, ਜਦਕਿ Core 2026.10.4 ਵਰਜਨ 2.2 ਦਾ ਸਮਰਥਨ ਕਰਦਾ ਹੈ। ਮੈਂ ਫ਼ਾਈਲ ਸੰਭਾਲੀ, ਸਖ਼ਤ ਜਾਂਚਾਂ ਨਾਲ ਉਸਦੀ ਨਕਲ ਬਦਲੀ, HTTP ਪਹੁੰਚ ਮੁੜ ਚਾਲੂ ਕੀਤੀ ਅਤੇ ਫਿਰ Core ਨੂੰ 2026.11.1 ਉੱਤੇ ਅੱਪਡੇਟ ਕੀਤਾ।</p>
+<h2 id="ਮਖ-ਗਲ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" title="ਮੁੱਖ ਗੱਲਾਂ">ਮੁੱਖ ਗੱਲਾਂ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" class="h-anchor" aria-hidden="true" title="ਮੁੱਖ ਗੱਲਾਂ">#</a>
+</h2>
+<ul>
+<li><strong>ਅੰਤਰ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।</strong> Core ਲੌਗ ਦੀ ਗਲਤੀ ਨੂੰ ਇੰਸਟਾਲ ਕੀਤੇ ਰਿਲੀਜ਼ ਅਤੇ HTTP ਸਟੋਰੇਜ ਵਰਜਨ ਨਾਲ ਮਿਲਾਓ।</li>
+<li><strong>ਫ਼ਾਈਲ ਸੰਭਾਲੋ।</strong> ਰਿਕਵਰੀ ਤੋਂ ਪਹਿਲਾਂ ਬਿਨਾਂ ਤਬਦੀਲੀ ਵਾਲੀ ਨਕਲ ਅਤੇ ਡਿਵਾਈਸ ਤੋਂ ਬਾਹਰ ਬੈਕਅੱਪ ਰੱਖੋ।</li>
+<li><strong>ਨਤੀਜਾ ਜਾਂਚੋ।</strong> Core ਦੀ ਹਾਲਤ, ਸੰਭਾਲਿਆ ਲਿਸਨਰ ਪੋਰਟ, ਡੈਸ਼ਬੋਰਡ ਅਤੇ ਇੰਸਟਾਲ ਕੀਤਾ ਵਰਜਨ ਵੇਖੋ।</li>
+</ul>
+<p><strong>ਇਸੇ ਹਾਲਤ ਦਾ ਹੱਲ:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="HTTP ਫ਼ਾਈਲ ਸੰਭਾਲੋ">
+    <meta itemprop="url" content="#preser
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>ਬਿਨਾ ਸੈਂਸਰ ਸਥਾਨਕ AI ਮਾਡਲ ਕਿਵੇਂ ਚੁਣੀਏ</title><link>https://pa.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><description>ਮੁਕੰਮਲ ਜਵਾਬਾਂ, ਬਰਕਰਾਰ ਸਮਰੱਥਾ, ਸੰਦਰਭ ਦੀ ਵਰਤੋਂ, ਕੁਆਂਟਾਈਜ਼ੇਸ਼ਨ ਅਤੇ VRAM ਦੀ ਲੋੜ ਦੇ ਆਧਾਰ 'ਤੇ ਸਥਾਨਕ ਮਾਡਲ ਰੂਪਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p><strong>ਮਾਡਲ ਦੀ ਚੋਣ:</strong> ਹਰ ਰੂਪ ਨੂੰ ਇਸ ਗੱਲ ਨਾਲ ਪਰਖੋ ਕਿ ਉਹ ਕਿੰਨੇ ਲਾਭਦਾਇਕ ਜਵਾਬ ਪੂਰੇ ਕਰਦਾ ਹੈ, ਕਿੰਨੀ ਗੁਣਵੱਤਾ ਬਰਕਰਾਰ ਰੱਖਦਾ ਹੈ ਅਤੇ ਤੁਹਾਡੇ ਕੰਮ ਲਈ ਕਿੰਨੀ ਮੈਮਰੀ ਚਾਹੀਦੀ ਹੈ। ਘੱਟ ਇਨਕਾਰ ਜਾਂ ਪ੍ਰਸਿੱਧ ਮਾਡਲ ਕਾਰਡ ਇਨ੍ਹਾਂ ਨਤੀਜਿਆਂ ਦਾ ਸਬੂਤ ਨਹੀਂ ਹੁੰਦੇ।</p>
+<p><strong>ਬਿਨਾ ਸੈਂਸਰ</strong> ਲੇਬਲ ਲਈ ਕੋਈ ਮਿਆਰੀ ਕਾਰਗੁਜ਼ਾਰੀ ਪੈਮਾਨਾ ਨਹੀਂ ਹੈ। ਮਾਡਲ ਪ੍ਰਕਾਸ਼ਕ ਇਹ ਸ਼ਬਦ ਵੱਖ-ਵੱਖ ਵੇਟ-ਸੋਧਾਂ, ਫਾਈਨ-ਟਿਊਨ ਅਤੇ ਚੈਟ ਟੈਂਪਲੇਟਾਂ ਲਈ ਵਰਤਦੇ ਹਨ। ਹਰ ਉਮੀਦਵਾਰ ਦੀ ਉਸ ਦੇ ਮੂਲ ਮਾਡਲ ਨਾਲ ਤੁਲਨਾ ਕਰੋ ਅਤੇ ਉਹ ਕੰਮ ਪਰਖੋ ਜੋ ਤੁਸੀਂ ਕਰਵਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ।</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-col
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Octominer X12 Ultra ਪਾਵਰ ਸਪਲਾਈ ਅਨੁਕੂਲਤਾ: Chicony ਅਤੇ LiteOn ਦੀ ਮੈਦਾਨੀ ਜਾਂਚ</title><link>https://pa.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><description>ਪੰਜ ਪੱਖਿਆਂ ਅਤੇ ਤਿੰਨ ਪਾਵਰ ਸਪਲਾਈਆਂ ਵਾਲੇ Octominer X12 Ultra ਦੀ ਜਾਂਚ ਵਿੱਚ Chicony ਸਪਲਾਈ ਨੇ ਸਿਸਟਮ ਚਾਲੂ ਕੀਤਾ, ਜਦਕਿ ਜਾਂਚੀਆਂ LiteOn ਇਕਾਈਆਂ ਨੇ ਅੰਬਰ ਰੰਗ ਦਿਖਾਇਆ ਅਤੇ ਚਾਲੂ ਨਾ ਹੋਈਆਂ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p><strong>Chicony R12-1K6P2A ਨੇ ਮੇਰਾ ਪੰਜ ਪੱਖਿਆਂ ਅਤੇ ਤਿੰਨ ਪਾਵਰ ਸਪਲਾਈਆਂ ਵਾਲਾ Octominer X12 Ultra ਚਾਲੂ ਕੀਤਾ।</strong> ਜਿਹੜੀਆਂ LiteOn PS-2142-2L ਸਪਲਾਈਆਂ ਮੈਂ ਜਾਂਚੀਆਂ, ਉਨ੍ਹਾਂ ਨੇ ਪਹਿਲਾਂ ਹਰੀ ਲਾਈਟ ਦਿਖਾਈ, ਫਿਰ ਅੰਬਰ ਹੋ ਗਈਆਂ ਅਤੇ ਸਿਸਟਮ ਚਾਲੂ ਨਹੀਂ ਹੋਇਆ। ਇਹ ਨਤੀਜਾ ਮੇਰੀ ਉਸ ਇਕਾਈ ਉੱਤੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ ਜਿਸ ਵਿੱਚ <strong>OCTOMINER (12PIN) 3x DPS1200 rev. 20</strong> ਪਾਵਰ ਬੈਕਪਲੇਨ ਹੈ। ਇੱਕੋ ਜਿਹੀ ਵਾਟੇਜ ਜਾਂ ਵੱਖਰੇ X12 ਬ੍ਰੇਕਆਉਟ ਬੋਰਡ ਦੀ ਸੂਚੀ, Octominer ਬੈਕਪਲੇਨ ਨਾਲ ਅਨੁਕੂਲਤਾ ਸਾਬਤ ਨਹੀਂ ਕਰਦੀ।</p>
+<p>ਚੈਸਿਸ ਤਿੰਨ ਪਾਵਰ ਸਪਲਾਈ ਬੇਅਾਂ ਵਾਲੀ <strong>3,600 W ਸੰਰਚਨਾ</strong> ਵਜੋਂ ਵੇਚਿਆ ਗਿਆ ਸੀ। 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Octominer X12 Ultra ਲਈ ਤਿੰਨ 1,200 W ਸਪਲਾਈਆਂ ਵਾਲਾ ਵਿਕਲਪ ਦਰਸਾਉਂਦਾ ਹੈ">
+    <meta itemprop="url" content="https://octominer.eu/product/octominer-x12-ultra-used/">
+    <a href="https://octominer.eu/product/octominer-x12-ultra-used/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Octominer X12 Ultra ਲਈ ਤਿੰਨ 1,200 W ਸਪਲਾਈਆਂ ਵਾਲਾ ਵਿਕਲਪ ਦਰਸਾਉਂਦਾ ਹੈ</a>
+</span>
+, ਨਾਲ ਹੋਰ ਸੰਰਚਨਾਵਾਂ ਵੀ ਹਨ। ਇਹ ਨਤੀਜੇ ਆਪਣੇ ਸਿਸਟਮ ਉੱਤੇ ਲਾਗੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਉਸਦਾ ਲੇਬਲ ਅਤੇ ਪਾਵਰ ਬੋਰਡ ਵੇਖੋ।</p>
+<h2 id="ਜਚ-ਦ-ਨਤਜ">
+  <a href="#%e0%a
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proxmox VE 9: ਵਰਚੁਅਲ ਡਿਸਕ ਦੀ ਵਰਤੋਂ ਘਟਾਓ ਅਤੇ ਥਾਂ ਵਾਪਸ ਲਵੋ</title><link>https://pa.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><description>Proxmox VE 9 ਵਿੱਚ VM ਅਤੇ LXC ਕੰਟੇਨਰਾਂ ਦੀ ਸਟੋਰੇਜ ਵਰਤੋਂ ਘਟਾਓ। ਫਾਰਮੈਟ ਅਤੇ ਬੈਕਐਂਡ ਦੀ ਤੁਲਨਾ ਕਰੋ, discard ਚਾਲੂ ਕਰੋ, trim ਚਲਾਓ ਅਤੇ ਥਾਂ ਵਾਪਸ ਲੈਣ ਤੋਂ ਪਹਿਲਾਂ ਸਨੈਪਸ਼ਾਟ ਜਾਂਚੋ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p><strong>ਗੈਸਟ ਦਾ ਛੋਟਾ ਫ਼ਾਈਲ ਸਿਸਟਮ ਹਮੇਸ਼ਾ Proxmox ਸਟੋਰੇਜ ਦੀ ਵਰਤੋਂ ਘੱਟ ਨਹੀਂ ਕਰਦਾ।</strong> ਹੋਸਟ ਉੱਤੇ ਥਾਂ ਖਾਲੀ ਕਰਨ ਲਈ ਪਤਲੀ ਵੰਡ ਵਾਲੀ ਡਿਸਕ, VM ਲਈ ਚੱਲਦਾ discard ਰਸਤਾ ਅਤੇ ਸਨੈਪਸ਼ਾਟਾਂ ਵੱਲੋਂ ਰੋਕੇ ਬਲਾਕਾਂ ਤੋਂ ਮੁਕਤ ਬੈਕਐਂਡ ਚਾਹੀਦਾ ਹੈ। ਇਹ ਗਾਈਡ Proxmox VE 9 VM ਅਤੇ LXC ਕੰਟੇਨਰਾਂ ਲਈ ਸੈਟਿੰਗਾਂ ਅਤੇ ਜਾਂਚਾਂ ਦੱਸਦੀ ਹੈ।</p>
+<h2 id="ਮਖ-ਗਲ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" title="ਮੁੱਖ ਗੱਲਾਂ">ਮੁੱਖ ਗੱਲਾਂ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" class="h-anchor" aria-hidden="true" title="ਮੁੱਖ ਗੱਲਾਂ">#</a>
+</h2>
+<ul>
+<li><strong>ਪਹਿਲਾਂ ਬੈਕਿੰਗ ਸਟੋਰੇਜ ਚੁਣੋ।</strong> ਵਰਚੁਅਲ ਡਿਸਕ ਦਾ ਦੱਸਿਆ ਆਕਾਰ ਹੋਸਟ ਉੱਤੇ ਦਿੱਤੀ ਥਾਂ ਤੋਂ ਸਿਰਫ਼ ਉਦੋਂ ਵੱਖਰਾ ਹੁੰਦਾ ਹੈ ਜਦੋਂ ਇਮੇਜ ਫਾਰਮੈਟ ਜਾਂ ਬੈਕਐਂਡ ਪਤਲੀ ਵੰਡ ਸਹਾਇਕ ਹੋਵੇ।</li>
+<li><strong>VM ਲਈ discard ਚਾਲੂ ਕਰੋ, ਫਿਰ ਗੈਸਟ ਵਿੱਚ trim ਚਲਾਓ।</strong> Windows ReTrim ਅਤੇ Linux <code>fstrim</code> ਵਰਚੁਅਲ ਡਿਸਕ ਰਾਹੀਂ ਨਾ ਵਰਤੇ ਬਲਾਕਾਂ ਲਈ ਬੇਨਤੀਆਂ ਭੇਜਦੇ ਹਨ।</li>
+<li><strong>ਸਨੈਪਸ਼ਾਟਾਂ ਅਤੇ ਬੈਕਅੱਪਾਂ ਦੀ ਵੱਖ-ਵੱਖ ਜਾਂਚ ਕਰੋ।</strong> ਪੁਰਾਣੇ ਬਲਾਕ ਉਦੋਂ ਤੱਕ ਦਿੱਤੇ ਰਹਿੰਦੇ ਹਨ ਜਦੋਂ ਤੱਕ ਕੋਈ ਸਨੈਪਸ਼ਾਟ ਉਹਨਾਂ ਦਾ ਹਵਾਲਾ ਦਿੰਦਾ ਹੈ। ਬੈਕਅੱਪ ਫ਼ਾਈਲਾਂ ਅਤੇ PBS ਡਾਟਾ ਖੰਡ ਦੀ ਆਪਣੀ retention ਨੀਤੀ ਹੁੰਦੀ ਹੈ।</li>
+<li><strong>LXC ਮਾਊਂਟ ਨੂੰ ਕਿਸਮ ਅਨੁਸਾਰ ਦੇਖੋ।</strong> ਪ੍ਰਬੰਧਿਤ rootfs ਅਤੇ ਮਾਊਂਟ-point ਵਾਲਿਊਮ, bind ਮਾਊਂਟ ਅਤੇ device ਮਾਊਂਟ ਦੀ ਮਾਲਕੀ ਅਤੇ ਬੈ
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Tailscale Aperture: 2026 ਵਿੱਚ ਇਨਫਰੈਂਸ ਅਤੇ MCP ਲਈ AI ਕਲਾਇੰਟ ਸੰਰਚਿਤ ਕਰੋ</title><link>https://pa.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><description>Tailscale Aperture ਰਾਹੀਂ ਮਾਡਲ ਬੇਨਤੀਆਂ ਅਤੇ MCP ਟੂਲ ਰੂਟ ਕਰੋ। ਕਿਸੇ ਹੋਰ ਡਿਵਾਈਸ ਜਾਂ ਗੇਟਵੇ ਉੱਤੇ Codex, Claude Code, Claude Desktop, OpenCode ਅਤੇ Hermes ਸੈੱਟ ਅੱਪ ਕਰੋ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <h2 id="ਜਣ-ਪਛਣ">
+  <a href="#%e0%a8%9c%e0%a8%a3-%e0%a8%aa%e0%a8%9b%e0%a8%a3" title="ਜਾਣ-ਪਛਾਣ">ਜਾਣ-ਪਛਾਣ</a>
+  <a href="#%e0%a8%9c%e0%a8%a3-%e0%a8%aa%e0%a8%9b%e0%a8%a3" class="h-anchor" aria-hidden="true" title="ਜਾਣ-ਪਛਾਣ">#</a>
+</h2>
+<p>Tailscale Aperture ਮਾਡਲ ਇਨਫਰੈਂਸ ਅਤੇ ਮਾਡਲ Context ਪ੍ਰੋਟੋਕੋਲ (MCP) ਟੂਲਾਂ ਲਈ AI ਕਲਾਇੰਟਾਂ ਨੂੰ tailnet ਨਾਲ ਜੁੜਿਆ ਇੱਕ ਗੇਟਵੇ ਦਿੰਦਾ ਹੈ। ਹਰ ਕਲਾਇੰਟ ਨੂੰ ਆਪਣੇ API ਪ੍ਰੋਟੋਕੋਲ ਨਾਲ ਮੇਲ ਖਾਂਦਾ ਰੂਟ ਵਰਤਣਾ ਚਾਹੀਦਾ ਹੈ। MCP ਟੂਲ ਵੱਖਰਾ ਐਂਡਪੌਇੰਟ ਵਰਤਦੇ ਹਨ, ਅਤੇ Aperture ਦੀਆਂ ਪਹੁੰਚ ਮਨਜ਼ੂਰੀਆਂ ਤੈਅ ਕਰਦੇ ਹਨ ਕਿ ਹਰ Tailscale ਪਛਾਣ ਕਿਹੜੇ ਮਾਡਲ ਅਤੇ ਕਨੈਕਟਰ ਵਰਤ ਸਕਦੀ ਹੈ।</p>
+<p>ਇਹ ਗਾਈਡ macOS, Linux ਅਤੇ Windows ਉੱਤੇ Codex, Claude Code, Claude Desktop, OpenCode ਅਤੇ Hermes ਦੀ ਸੰਰਚਨਾ ਦੱਸਦੀ ਹੈ। ਇਸ ਵਿੱਚ CLI ਅਤੇ ਡੈਸਕਟਾਪ ਸੈਟਿੰਗਾਂ, ਆਪਣੀ ਪਛਾਣ ਲਈ ਉਪਲਬਧ ਮਾਡਲ ID ਲੱਭਣ ਦਾ ਤਰੀਕਾ ਅਤੇ ਹੋਰ ਡਿਵਾਈਸ ਜਾਂ Aperture ਇੰਸਟੈਂਸ ਸੈੱਟ ਕਰਨ ਲਈ ਮੁੜ ਵਰਤਣਯੋਗ ਅਨਾਮ ਪ੍ਰੌਂਪਟ ਸ਼ਾਮਲ ਹੈ।</p>
+<p><strong>ਰੂਟ ਦੀ ਚੋਣ:</strong> ਐਂਡਪੌਇੰਟ ਦੇ ਰਸਤੇ ਗੇਟਵੇ ਅਤੇ ਹਰ API ਪ੍ਰੋਟੋਕੋਲ ਉੱਤੇ ਨਿਰਭਰ ਕਰਦੇ ਹਨ। <code>/codex</code> ਵਰਗਾ Responses ਰੂਟ Anthropic Messages ਜਾਂ MCP ਟ੍ਰੈਫਿਕ ਨਹੀਂ ਸੰਭਾਲਦਾ। ਗੇਟਵੇ ਦਾ hostname ਅਤੇ ਹਰ ਕਲਾਇੰਟ ਦਾ ਇਨਫਰੈਂਸ ਰੂਟ ਪੱਕਾ ਕਰੋ। ਕਲਾਇੰਟ ਸੈਟਿੰਗਾਂ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣੇ Aperture ਪਹੁੰਚ ਰਾਹੀਂ ਮਾਡਲ ID ਲੱਭੋ।</p>
+<h2 id="ਮਖ-ਗਲ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" title="ਮੁੱਖ ਗੱਲਾਂ">ਮੁੱਖ ਗੱਲਾਂ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" class="h-anchor" aria-hidd
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>ਸਵੈ-ਹੋਸਟ ਕੀਤਾ Hindsight: ਏਜੰਟਾਂ ਦੀ ਸਥਾਨਕ ਯਾਦ ਅਤੇ ਨਿੱਜੀ ਮਾਡਲ ਰੂਟਿੰਗ</title><link>https://pa.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/self-hosted-hindsight/</guid><description>ਸਵੈ-ਹੋਸਟ ਕੀਤੇ Hindsight ਦਾ ਕੇਸ ਅਧਿਐਨ, ਵੇਖੇ ਗਏ ਸਥਾਨਕ Qwen ਰੂਟ ਅਤੇ ਜਾਂਚੇ ਗਏ ਰਸਤੇ ਉੱਤੇ ਹੋਸਟ ਕੀਤੀ ਇਨਫਰੈਂਸ ਦੀ ਗਾਹਕੀ ਤੋਂ ਬਿਨਾਂ ਹਰ ਬੇਨਤੀ ਲਈ GPU ਕੰਮ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/self-hosted-hindsight/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p><strong>ਸਾਡੀ Hindsight ਯਾਦ ਸੇਵਾ ਉਸ ਹਾਰਡਵੇਅਰ ਉੱਤੇ ਚੱਲਦੀ ਹੈ ਜਿਸ ਦਾ ਕੰਟਰੋਲ ਸਾਡੇ ਕੋਲ ਹੈ।</strong> ਯਾਦ ਇੰਜਣ, ਡਾਟਾਬੇਸ, ਐਂਬੈਡਿੰਗ ਮਾਡਲ ਅਤੇ ਰੀਰੈਂਕਰ ਇੱਕ ਸਵੈ-ਹੋਸਟ ਕੀਤੀ ਤੈਨਾਤੀ ਵਿੱਚ ਚੱਲਦੇ ਹਨ। Hindsight ਜਨਰੇਸ਼ਨ ਬੇਨਤੀਆਂ ਨਿੱਜੀ ਗੇਟਵੇ ਨੂੰ ਭੇਜਦਾ ਹੈ। ਜਾਂਚਿਆ ਗਿਆ ਸਾਂਝਾ Qwen ਬੈਕਐਂਡ ਅਤੇ ਪਰਖਿਆ ਹੋਇਆ ਪੰਨਾ-ਤਾਜ਼ਾ ਰੂਟ ਸਥਾਨਕ ਮਾਡਲ ਸਰਵਰ ਵਰਤਦੇ ਹਨ, ਬਿਨਾਂ ਹੋਸਟ ਕੀਤੀ ਇਨਫਰੈਂਸ ਗਾਹਕੀ ਦੇ।</p>
+<p>ਇਹ ਇੱਕ ਚੱਲ ਰਹੀ ਤੈਨਾਤੀ ਦਾ ਵੇਰਵਾ ਹੈ। <strong>ਸਵੈ-ਹੋਸਟ ਕਰਨ ਦਾ ਮਤਲਬ ਆਫਲਾਈਨ ਹੋਣਾ ਨਹੀਂ ਹੈ।</strong> VPN ਇੱਕ ਬਾਹਰੀ ਤਾਲਮੇਲ ਸੇਵਾ ਵਰਤਦਾ ਹੈ, ਅਤੇ ਸਾਫਟਵੇਅਰ ਇਮੇਜਾਂ ਤੇ ਮਾਡਲ ਵਜ਼ਨ ਡਾਊਨਲੋਡ ਕਰਨੇ ਪੈਂਦੇ ਹਨ। ਇੱਥੇ ਦਾਅਵਾ ਯਾਦ ਦੀ ਪ੍ਰਕਿਰਿਆ ਅਤੇ ਮਾਡਲ ਇਨਫਰੈਂਸ ਬਾਰੇ ਹੈ, ਸਾਡੇ ਡਿਵਾਈਸਾਂ ਜਾਂ ਹੋਰ ਏਜੰਟ ਟੂਲਾਂ ਦੇ ਹਰ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ਬਾਰੇ ਨਹੀਂ।</p>
+<h2 id="ਮਖ-ਗਲ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" title="ਮੁੱਖ ਗੱਲਾਂ">ਮੁੱਖ ਗੱਲਾਂ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" class="h-anchor" aria-hidden="true" title="ਮੁੱਖ ਗੱਲਾਂ">#</a>
+</h2>
+<ul>
+<li><strong>Hindsight ਯਾਦ ਦਾ ਕੰਮ ਸੰਭਾਲਦਾ ਹੈ।</strong> Docker ਕੰਟੇਨਰ API, ਵਰਕਰਾਂ ਅਤੇ ਕੰਟਰੋਲ ਪਲੇਨ ਨੂੰ ਸੇਵਾ ਦਿੰਦਾ ਹੈ, ਜਦਕਿ ਬੈਂਕ ਦਾ ਡਾਟਾ ਸਥਾਈ ਵਾਲਿਊਮ ਉੱਤੇ ਰਹਿੰਦਾ ਹੈ।</li>
+<li><strong>ਛੋਟੇ ਮੁੜ-ਪ੍ਰਾਪਤੀ ਮਾਡਲ ਸਥਾਨਕ ਰਹਿੰਦੇ ਹਨ।</strong> ਐਂਬੈਡਿੰਗ ਅਤੇ ਰੀਰੈਂਕਿੰਗ Hindsight ਪ੍ਰਕਿਰਿਆ ਦੇ ਅੰਦਰ
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/self-hosted-hindsight/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Chrome 156 ਸੁਰੱਖਿਆ ਅੱਪਡੇਟ: ਅਕਤੂਬਰ ਪੈਚ ਦੀ ਜਾਂਚ</title><link>https://pa.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><description>Windows, macOS, Linux ਅਤੇ Android ਉੱਤੇ 27 ਅਕਤੂਬਰ ਦਾ Chrome 156 ਸੁਰੱਖਿਆ ਰਿਲੀਜ਼ ਜਾਂਚੋ। ਇੰਸਟਾਲ ਕੀਤੇ ਬਿਲਡ ਨਾਲ ਤੁਲਨਾ ਕਰੋ, ਬਾਕੀ ਰੀਸਟਾਰਟ ਪੂਰਾ ਕਰੋ ਅਤੇ ਪ੍ਰਬੰਧਿਤ ਡਿਵਾਈਸਾਂ ਦੀ ਵੱਖਰੇ ਤੌਰ ਉੱਤੇ ਜਾਂਚ ਕਰੋ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p><strong>27 ਅਕਤੂਬਰ 2026 ਦੇ Chrome ਸੁਰੱਖਿਆ ਰਿਲੀਜ਼</strong> ਵਿੱਚ 52 ਸੁਧਾਰ ਹਨ। ਆਪਣੀ ਇੰਸਟਾਲੇਸ਼ਨ ਦੀ ਜਾਂਚ ਲਈ ਪੂਰੇ ਵਰਜਨ ਨੰਬਰ ਦੀ ਆਪਣੇ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਲਈ ਜਾਰੀ ਵਰਜਨ ਨਾਲ ਤੁਲਨਾ ਕਰੋ। ਫਿਰ ਬਾਕੀ ਅੱਪਡੇਟ ਪੂਰਾ ਕਰਨ ਲਈ Chrome ਰੀਸਟਾਰਟ ਕਰੋ। ਕਿਸੇ ਵਰਜਨ ਦਾ ਐਲਾਨ ਇਹ ਸਾਬਤ ਨਹੀਂ ਕਰਦਾ ਕਿ ਤੁਹਾਡੇ ਡਿਵਾਈਸ ਨੂੰ ਅੱਪਡੇਟ ਮਿਲ ਗਿਆ ਹੈ। (
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="ਡੈਸਕਟਾਪ ਲਈ Chrome ਰਿਲੀਜ਼">
+    <meta itemprop="url" content="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html">
+    <a href="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >ਡੈਸਕਟਾਪ ਲਈ Chrome ਰਿਲੀਜ਼</a>
+</span>
+)</p>
+<h2 id="ਕਹੜ-ਵਰਜਨ-ਦਖਣ-ਚਹਦ-ਹ">
+  <a href="#%e0%a8%95%e0%a8%b9%e0%a9%9c-%e0%a8%b5%e0%a8%b0%e0%a8%9c%e0%a8%a8-%e0%a8%a6%e0%a8%96%e0%a8%a3-%e0%a8%9a%e0%a8%b9%e0%a8%a6-%e0%a8%b9" title="ਕਿਹੜਾ ਵਰਜਨ ਦਿਖਣਾ ਚਾਹੀਦਾ ਹੈ?">ਕਿਹੜਾ ਵਰਜਨ ਦਿਖਣਾ ਚਾਹੀਦਾ ਹੈ?</a>
+  <a href="#%e0%a8%95%e0%a8%b9%e0%a9%9c-%e0%a8%b5%e0%a8%b0%e0%a8%9c%e0%a8%a8-%e0%a8%a6%e0%a8%96%e0%a8%a3-%e0%a8%9a%e0%a8%b9%e0%a8%a6-%e0%a8%b9" class="h-anchor" aria-hidden="true" title="ਕਿਹੜਾ ਵਰਜਨ ਦਿਖਣਾ ਚਾਹੀਦਾ ਹੈ?">#</a>
+</h2>
+<p>Google ਨੇ 27 ਅਕਤੂਬਰ 2026 ਨੂੰ Stable ਚੈਨਲ ਦੇ ਇਹ ਵਰਜਨ ਜਾਰੀ ਕੀਤੇ। ਡੈਸਕਟਾਪ ਰਿਲੀਜ਼ ਵਿੱਚ Windows ਅਤੇ ma
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Open WebUI v0.12.4: ਅੱਪਗ੍ਰੇਡ ਅਤੇ ਪਹੁੰਚ-ਨਿਯੰਤਰਣ ਜਾਂਚ-ਸੂਚੀ 2026</title><link>https://pa.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><description>Open WebUI ਦਾ ਬੈਕਅੱਪ ਲਓ ਅਤੇ ਇਸਨੂੰ v0.12.4 ਉੱਤੇ ਅੱਪਗ੍ਰੇਡ ਕਰੋ। ਫਿਰ ਚੈਟ ਸਾਂਝੀਕਰਨ, ਐਕਸਪੋਰਟ ਅਧਿਕਾਰ, ਸਰੋਤਾਂ ਦੀ ਪਹੁੰਚ, ਖਾਤੇ ਅਤੇ ਨੈੱਟਵਰਕ ਪਹੁੰਚ ਦੀ ਜਾਂਚ ਕਰੋ।</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p><strong>Open WebUI v0.12.4 ਵਿੱਚ ਸੁਰੱਖਿਆ ਸੰਬੰਧੀ ਸੁਧਾਰ ਹਨ ਜਿਨ੍ਹਾਂ ਦੀ ਦੇਖਭਾਲ ਕਰਨ ਵਾਲਿਆਂ ਨੇ ਹਾਲੇ ਪੂਰੀ ਸੂਚੀ ਨਹੀਂ ਦਿੱਤੀ।</strong> ਰਿਲੀਜ਼ ਨੋਟ ਤੁਰੰਤ ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਸਲਾਹ ਦਿੰਦੇ ਹਨ ਅਤੇ ਕਹਿੰਦੇ ਹਨ ਕਿ CVE ਮਿਲਣ ਤੋਂ ਬਾਅਦ ਸਲਾਹ ਜਾਰੀ ਹੋਵੇਗੀ। ਹੇਠਾਂ ਦੱਸੇ ਚੈਟ ਸਾਂਝੀਕਰਨ ਅਤੇ ਅਧਿਕਾਰਾਂ ਦੇ ਬਦਲਾਅ ਰਿਲੀਜ਼ ਨੋਟਾਂ ਵਿੱਚ ਦਿਖਦੇ ਬਿੰਦੂ ਹਨ, ਅਣਦੱਸੇ ਸੁਰੱਖਿਆ ਸੁਧਾਰਾਂ ਦੀ ਪੂਰੀ ਸੂਚੀ ਨਹੀਂ। 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Open WebUI v0.12.4 ਰਿਲੀਜ਼ ਨੋਟ">
+    <meta itemprop="url" content="https://github.com/open-webui/open-webui/releases/tag/v0.12.4">
+    <a href="https://github.com/open-webui/open-webui/releases/tag/v0.12.4"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Open WebUI v0.12.4 ਰਿਲੀਜ਼ ਨੋਟ</a>
+</span>
+</p>
+<h2 id="ਮਖ-ਗਲ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" title="ਮੁੱਖ ਗੱਲਾਂ">ਮੁੱਖ ਗੱਲਾਂ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" class="h-anchor" aria-hidden="true" title="ਮੁੱਖ ਗੱਲਾਂ">#</a>
+</h2>
+<ul>
+<li><strong>ਪਹਿਲਾਂ ਬੈਕਅੱਪ ਲਓ।</strong> ਐਪਲੀਕੇਸ਼ਨ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਡਾਟਾ ਵਾਲਿਊਮ ਜਾਂ ਡਾਟਾਬੇਸ ਅਤੇ ਅੱਪਲੋਡਾਂ ਦੀ ਮੁੜ-ਪ੍ਰਾਪਤ ਕੀਤੀ ਜਾ ਸਕਣ ਵਾਲੀ ਨਕਲ ਰੱਖੋ।</li>
+<li><strong>ਅਧਿਕਾਰਤ ਰਿਲੀਜ਼ ਪਿੰਨ ਕਰੋ।</strong> ਮਿਆਰੀ Docker ਇਮੇਜ ਲਈ <code>gh
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Thunderbird 153.6: Windows ਵਿੱਚ NTLM ਪ੍ਰਮਾਣਿਕਤਾ ਜਾਣਕਾਰੀ ਦਾ ਖੁਲਾਸਾ ਅਤੇ ਅੱਪਡੇਟ ਕਰਨ ਦਾ ਤਰੀਕਾ (2026)</title><link>https://pa.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><description>ਖਾਸ ਤੌਰ 'ਤੇ ਤਿਆਰ ਕੀਤੀ ਈਮੇਲ ਦਿਖਾਉਣ ਨਾਲ Thunderbird ਦੀਆਂ ਦੋ ਗੰਭੀਰ ਖਾਮੀਆਂ Windows ਦੀ NTLM ਪ੍ਰਮਾਣਿਕਤਾ ਜਾਣਕਾਰੀ ਖੋਲ੍ਹ ਸਕਦੀਆਂ ਹਨ। ਦੋਵੇਂ ਤਰੀਕਿਆਂ, ਵਰਜਨ ਜਾਂਚ ਅਤੇ ਅੱਪਡੇਟ ਦੌਰਾਨ ਬਾਹਰ ਜਾਣ ਵਾਲੇ SMB ਨੂੰ ਸੀਮਿਤ ਕਰਨ ਬਾਰੇ ਜਾਣੋ।</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p>Mozilla ਨੇ Thunderbird 153.6 ਵਿੱਚ <strong>Windows ਪ੍ਰਮਾਣਿਕਤਾ ਜਾਣਕਾਰੀ ਖੋਲ੍ਹਣ ਵਾਲੀਆਂ ਦੋ ਗੰਭੀਰ ਖਾਮੀਆਂ</strong> ਠੀਕ ਕੀਤੀਆਂ। ਖਾਸ ਤੌਰ &lsquo;ਤੇ ਬਣਾਈ ਈਮੇਲ ਦਿਖਾਉਣ ਨਾਲ 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="MFSA 2026-122">
+    <meta itemprop="url" content="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/">
+    <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >MFSA 2026-122</a>
+</span>
+ ਵਿੱਚ ਦੱਸੀਆਂ ਨੈੱਟਵਰਕ ਬੇਨਤੀਆਂ ਵਿੱਚੋਂ ਕੋਈ ਇੱਕ ਚੱਲ ਸਕਦੀ ਸੀ। ਸਲਾਹ ਵਿੱਚ NTLM ਜਾਣਕਾਰੀ ਦੇ ਸੰਭਾਵੀ ਖੁਲਾਸੇ ਦਾ ਜ਼ਿਕਰ ਹੈ, ਹਰ ਪ੍ਰਾਪਤਕਰਤਾ ਦੀ ਪ੍ਰਮਾਣਿਕਤਾ ਜਾਣਕਾਰੀ ਨਾਲ ਪੱਕੀ ਛੇੜਛਾੜ ਦਾ ਨਹੀਂ।</p>
+<h2 id="ਮਖ-ਗਲ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" title="ਮੁੱਖ ਗੱਲਾਂ">ਮੁੱਖ ਗੱਲਾਂ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" class="h-anchor" aria-hidden="true" title="ਮੁੱਖ ਗੱਲਾਂ">#</a>
+</h2>
+<ul>
+<li><strong>CVE-2026-118174</strong> ਬਾਹਰਲੇ ਸਰਵਰ &lsquo;ਤੇ ਰੱਖੀ OpenPGP ਕੁੰਜੀ ਅਟੈਚਮੈਂਟ ਨਾਲ ਸੰਬੰਧਿਤ ਸੀ। ਰਿਮੋਟ ਸਮੱਗਰੀ ਰੋਕੀ ਹੋਣ ਦੇ ਬਾਵਜੂਦ, ਸੁਨੇਹਾ ਦਿਖਾਉਣ ਨਾਲ ਯੂਜ਼ਰ ਦੀ ਕਾਰਵਾਈ ਬਿਨਾਂ ਬੇਨਤੀ ਚੱਲੀ।</li>
+<li><strong>CVE-2026-118176</strong> ਵਿਸਤ੍ਰਿਤ-ਲੰਬਾਈ UNC ਪਾਥ ਵਾਲੇ ਖਾਸ <code>mailbox:</code> URL ਨਾਲ ਸੰਬੰਧਿਤ ਸੀ। ਸੁਨੇਹਾ ਦਿ�
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Pi-hole ਤੋਂ ਸਥਾਨਕ AI ਤੱਕ, 10 ਪੱਧਰਾਂ ਵਿੱਚ ਹੋਮ ਲੈਬ ਬਣਾਓ</title><link>https://pa.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><description>ਪੂਰੇ ਨੈੱਟਵਰਕ ਦੀ DNS ਫਿਲਟਰਿੰਗ ਤੋਂ ਸਥਾਨਕ AI ਤੱਕ, ਦਸ ਕਾਰਗਰ ਪੜਾਵਾਂ ਵਿੱਚ ਹੋਮ ਲੈਬ ਬਣਾਓ। ਹਰ ਪੱਧਰ ਲਈ ਹਾਰਡਵੇਅਰ, ਖ਼ਰਚੇ, ਹੁਨਰ ਅਤੇ ਸਮਝੌਤੇ ਜਾਣੋ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/build-home-lab-10-levels/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <h1 id="pi-hole-ਤ-ਸਥਨਕ-ai-ਤਕ-10-ਪਧਰ-ਵਚ-ਹਮ-ਲਬ-ਬਣਓ">
+  <a href="#pi-hole-%e0%a8%a4-%e0%a8%b8%e0%a8%a5%e0%a8%a8%e0%a8%95-ai-%e0%a8%a4%e0%a8%95-10-%e0%a8%aa%e0%a8%a7%e0%a8%b0-%e0%a8%b5%e0%a8%9a-%e0%a8%b9%e0%a8%ae-%e0%a8%b2%e0%a8%ac-%e0%a8%ac%e0%a8%a3%e0%a8%93" title="Pi-hole ਤੋਂ ਸਥਾਨਕ AI ਤੱਕ, 10 ਪੱਧਰਾਂ ਵਿੱਚ ਹੋਮ ਲੈਬ ਬਣਾਓ">Pi-hole ਤੋਂ ਸਥਾਨਕ AI ਤੱਕ, 10 ਪੱਧਰਾਂ ਵਿੱਚ ਹੋਮ ਲੈਬ ਬਣਾਓ</a>
+  <a href="#pi-hole-%e0%a8%a4-%e0%a8%b8%e0%a8%a5%e0%a8%a8%e0%a8%95-ai-%e0%a8%a4%e0%a8%95-10-%e0%a8%aa%e0%a8%a7%e0%a8%b0-%e0%a8%b5%e0%a8%9a-%e0%a8%b9%e0%a8%ae-%e0%a8%b2%e0%a8%ac-%e0%a8%ac%e0%a8%a3%e0%a8%93" class="h-anchor" aria-hidden="true" title="Pi-hole ਤੋਂ ਸਥਾਨਕ AI ਤੱਕ, 10 ਪੱਧਰਾਂ ਵਿੱਚ ਹੋਮ ਲੈਬ ਬਣਾਓ">#</a>
+</h1>
+<p><strong>ਹੋਮ ਲੈਬ</strong> ਕੰਪਿਊਟਰਾਂ ਅਤੇ ਸੇਵਾਵਾਂ ਦਾ ਸਮੂਹ ਹੈ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਰੋਜ਼ਾਨਾ ਦੀਆਂ ਸਮੱਸਿਆਵਾਂ ਹੱਲ ਕਰਨ ਅਤੇ ਅਸਲ ਸਿਸਟਮ ਚਲਾਉਣਾ ਸਿੱਖਣ ਲਈ ਚਲਾਉਂਦੇ ਹੋ। ਤੁਸੀਂ ਇਸ਼ਤਿਹਾਰ ਰੋਕ ਸਕਦੇ ਹੋ, ਲਾਈਟਾਂ ਸਵੈਚਾਲਿਤ ਕਰ ਸਕਦੇ ਹੋ, ਪਰਿਵਾਰਕ ਮੀਡੀਆ ਸੰਭਾਲ ਸਕਦੇ ਹੋ ਜਾਂ ਵਰਚੁਅਲ ਮਸ਼ੀਨਾਂ ਪਰਖ ਸਕਦੇ ਹੋ। <strong>ਇੱਕ ਲਾਭਦਾਇਕ ਕੰਮ ਤੋਂ ਸ਼ੁਰੂ ਕਰੋ।</strong> ਅਸਲ ਸੀਮਾ ਸਾਹਮਣੇ ਆਵੇ ਤਾਂ ਹਾਰਡਵੇਅਰ ਜੋੜੋ।</p>
+<p>ਇਹ ਗਾਈਡ Pi-hole ਚਲਾਉਣ ਵਾਲੇ ਛੋਟੇ Raspberry Pi ਤੋਂ ਸਥਾਨਕ AI ਮਾਡਲ ਚਲਾਉਣ ਵਾਲੇ ਸਰਵਰ ਤੱਕ ਜਾਂਦੀ ਹੈ। <strong>ਹਰ ਪੱਧਰ ਇੱਕ ਸਮਰੱਥਾ ਅਤੇ ਨਵੀਂ ਜ਼ਿੰਮੇਵਾਰੀ ਜੋੜਦਾ ਹੈ।</strong> ਹੇਠਾਂ ਖ਼ਰਚਿਆਂ ਦੇ ਅੰਦਾਜ਼ੇ ਵਿੱਚ ਉਦਾਹਰਣੀ ਬਿਜਲੀ ਵਰਤੋਂ ਅਤੇ $0.15 ਪ੍ਰਤੀ ਕਿਲੋਵਾਟ-ਘੰਟਾ ਦੀ ਦਰ ਲਈ ਗਈ ਹੈ। ਹੋਰ ਖ਼ਰੀਦਣ ਤੋਂ ਪਹਿਲਾਂ ਸਥਾਨਕ ਦਰ ਵੇਖੋ ਅਤੇ ਆਪਣੇ ਉਪਕ�
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/build-home-lab-10-levels/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Hermes ਲੋਕਲ ਮਾਡਲ ਬੈਂਚਮਾਰਕ: ਮੈਂ ਕਿਹੜੇ GPU ਅਤੇ ਮਾਡਲ ਜੋੜ ਚੁਣਾਂਗਾ</title><link>https://pa.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><description>RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti ਅਤੇ RTX 3070 ਸਿਸਟਮਾਂ ਉੱਤੇ ਲੰਮੇ ਸੰਦਰਭ, ਟੂਲਾਂ, ਸਟ੍ਰੀਮਿੰਗ ਅਤੇ ਵਿਜ਼ਨ ਟੈਸਟਾਂ ਤੋਂ ਮੇਰੀਆਂ Hermes ਮਾਡਲ ਸਿਫ਼ਾਰਸ਼ਾਂ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p>ਲੰਮੇ ਸੰਦਰਭ ਵਾਲੇ Hermes ਕੰਮ ਲਈ ਮੈਂ ਦੋ 16GB RTX 5060 Ti ਕਾਰਡਾਂ ਉੱਤੇ Qwen3.5 35B ਨਾਲ ਸ਼ੁਰੂ ਕਰਾਂਗਾ। ਟੈਸਟ ਕੀਤੇ ਰੂਟ ਨੇ LiteLLM ਰਾਹੀਂ 239,153 ਇਨਪੁੱਟ ਟੋਕਨ ਸੰਭਾਲੇ ਅਤੇ ਟੂਲਾਂ, ਸਟ੍ਰੀਮਿੰਗ, ਵਿਜ਼ਨ, ਕਤਾਰ ਵਿੱਚ ਪਏ ਬੇਨਤੀਆਂ ਅਤੇ ਰੱਦ ਕਰਨ ਦੀਆਂ ਵੱਖਰੀਆਂ ਜਾਂਚਾਂ ਪਾਸ ਕੀਤੀਆਂ। ਇੱਕ ਕਾਰਡ ਵਾਲਾ ਮੇਰਾ ਬਦਲ Qwen3.6 ਹੈ। RTX 3060 Ti ਅਤੇ RTX 3070 ਸਿਸਟਮਾਂ ਉੱਤੇ ਮੈਂ Qwen3.5 2B ਜਾਂ 4B ਨਾਲ ਸ਼ੁਰੂ ਕਰਾਂਗਾ।</p>
+<p>ਇਹ ਚੋਣਾਂ ਏਜੰਟ ਵੱਲੋਂ ਵਰਤੇ ਇਨਫ਼ਰੈਂਸ ਰਸਤੇ ਰਾਹੀਂ ਮਾਡਲ ਚਲਾ ਕੇ ਆਈਆਂ ਹਨ। ਮੈਂ ਲੰਮੇ ਇਨਪੁੱਟ ਨੂੰ ਸੰਭਾਲਣਾ, ਟੂਲ ਨਾਲ ਰਾਊਂਡ-ਟ੍ਰਿਪ, ਸਟ੍ਰੀਮ ਕੀਤੇ ਜਵਾਬ, ਤਸਵੀਰਾਂ ਬਾਰੇ ਸਵਾਲ ਅਤੇ ਮਾਡਲ ਨੂੰ ਛੱਡਣਾ ਟੈਸਟ ਕੀਤਾ। ਰਸਤਿਆਂ ਦੇ ਪਿੱਛੇ ਵਾਲੇ ਮੋਡ ਅਤੇ ਮੈਮਰੀ ਸੈਟਿੰਗਾਂ ਵੀ ਪਰਖੀਆਂ, ਕਿਉਂਕਿ ਮਾਡਲ ਦਾ ਲੋਡ ਹੋ ਜਾਣਾ ਲੰਮੀ ਏਜੰਟ ਬੇਨਤੀ ਵਿੱਚ ਉਸਦੀ ਵਰਤੋਂ ਬਾਰੇ ਘੱਟ ਦੱਸਦਾ ਹੈ।</p>
+<p>ਟੂਲਾਂ ਨਾਲ ਏਜੰਟ ਕੰਮ ਵਾਸਤੇ Hermes ਨੂੰ ਘੱਟੋ-ਘੱਟ 64,000 ਟੋਕਨਾਂ ਦਾ ਸੰਦਰਭ ਚਾਹੀਦਾ ਹੈ। ਲੰਮੇ ਸੰਦਰਭ ਦੀ ਯੋਗਤਾ ਲਈ ਮੈਂ 65,536 ਅਸਲ ਇਨਪੁੱਟ ਟੋਕਨਾਂ ਨੂੰ ਹੱਦ ਬਣਾਇਆ। ਸਰਵਰ ਵੱਲੋਂ ਦੱਸੇ ਸੰਦਰਭ ਆਕਾਰ ਨਾਲੋਂ ਇਨਪੁੱਟ ਟੋਕਨਾਂ ਦੀ ਗਿਣਤੀ ਵਧੇਰੇ ਮਾਇਨੇ ਰੱਖਦੀ ਹੈ। (
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>ਸਾਡੇ ਹਾਈਬ੍ਰਿਡ ਏਜੰਟਿਕ AI ਫਲੀਟ ਦੇ ਅੰਦਰ: Hermes, LiteLLM ਅਤੇ Tailscale</title><link>https://pa.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><description>Hermes, LiteLLM, Tailscale Aperture ਅਤੇ Pearl ਮਾਈਨਿੰਗ ਵਾਲੇ ਤਸਦੀਕਸ਼ੁਦਾ lazy-loaded ਸਥਾਨਕ AI ਫਲੀਟ ਅਤੇ ਇਸ ਦੇ T0 ਤੋਂ T4 ਕੰਟਰੋਲ ਪਲੇਨ ਬਾਰੇ ਜਾਣੋ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p><strong>ਅਸੀਂ ਬੇਨਤੀ ਅਨੁਸਾਰ ਸਥਾਨਕ GPU ਦੇਣ ਵਾਲਾ ਫਲੀਟ ਤੈਨਾਤ ਕੀਤਾ ਅਤੇ ਇਸ ਦਾ ਹਾਈਬ੍ਰਿਡ ਕੰਟਰੋਲ ਪਲੇਨ ਬਣਾਇਆ।</strong> ਤਸਦੀਕਸ਼ੁਦਾ ਰਸਤਾ LiteLLM ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਮਾਡਲ ਪੂਲ ਚੁਣਦਾ ਹੈ ਅਤੇ ਇੱਕ ਵੇਲੇ ਇੱਕ GPU ਉੱਤੇ ਸਥਾਨਕ ਮਾਡਲ ਲੋਡ ਕਰਦਾ ਹੈ। Hermes ਦੀ tier ਨੀਤੀ ਪ੍ਰਸਤਾਵਿਤ ਹੈ ਅਤੇ Tailscale Aperture ਦਾ configuration artifact ਅਗਲੇ integration test ਲਈ ਤਿਆਰ ਹੈ। ਦੋਵਾਂ ਵਿੱਚੋਂ ਕਿਸੇ ਨੂੰ ਵੀ ਪੂਰੇ end-to-end ਰਸਤੇ ਦਾ ਹਿੱਸਾ ਹੋਣ ਵਜੋਂ ਤਸਦੀਕ ਨਹੀਂ ਕੀਤਾ ਗਿਆ।</p>
+<p>ਵਿਹਲੇ ਕਾਰਡ Pearl ਮਾਈਨ ਕਰਦੇ ਹਨ। AI ਬੇਨਤੀ ਸਿਰਫ਼ ਕਿਰਾਏ ਉੱਤੇ ਲਏ ਕਾਰਡ ਦੀ ਮਾਈਨਿੰਗ ਰੋਕਦੀ ਹੈ, ਬੇਨਤੀ ਪੂਰੀ ਕਰਦੀ ਹੈ, ਮਾਡਲ unload ਕਰਦੀ ਹੈ ਅਤੇ ਕਾਰਡ ਨੂੰ miner ਕੋਲ ਵਾਪਸ ਭੇਜਦੀ ਹੈ।</p>
+<h2 id="ਮਖ-ਨਕਤ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%a8%e0%a8%95%e0%a8%a4" title="ਮੁੱਖ ਨੁਕਤੇ">ਮੁੱਖ ਨੁਕਤੇ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%a8%e0%a8%95%e0%a8%a4" class="h-anchor" aria-hidden="true" title="ਮੁੱਖ ਨੁਕਤੇ">#</a>
+</h2>
+<ul>
+<li><strong>T0 ਤੋਂ T2 ਮਹਿੰਗੇ ਜਾਂ ਔਖੇ ਕੰਮ ਸੰਭਾਲਦੇ ਹਨ।</strong> ਇਹ ਰਸਤੇ hosted frontier ਮਾਡਲਾਂ ਅਤੇ ਕ੍ਰਮਬੱਧ fallback chain ਨੂੰ ਤਰਜੀਹ ਦਿੰਦੇ ਹਨ।</li>
+<li><strong>T3 ਵੱਡੇ ਸਥਾਨਕ ਕੰਮ ਸੰਭਾਲਦਾ ਹੈ।</strong> ਫਲੀਟ planning, coding, review ਅਤੇ vision ਨੂੰ 4B ਤੋਂ 12B ਮਾਡਲਾਂ ਨੂੰ ਦਿੰਦਾ ਹੈ।</li>
+<li><strong>T4 ਵੱਧ ਮਾਤਰਾ ਵਾਲੇ ਸਥਾਨਕ ਕੰਮ ਸੰਭਾਲਦਾ ਹੈ।</strong> ਛੋਟੇ ਮਾਡਲ routing, classification, extraction, embedding ਅਤੇ ਸੀਮਿਤ code task ਕਰਦੇ ਹਨ।</li>
+<li><strong>ਹਰ GPU ਵੱਖਰਾ ਸਰੋਤ ਹੈ।</strong> ਇੱਕ ਕਾਰਡ AI ਸੇਵਾ �
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>1Password SSH ਏਜੰਟ ਅਤੇ CLI: ਪੜ੍ਹਨ-ਸਿਰਫ਼ AI ਏਜੰਟ ਐਕਸੈਸ</title><link>https://pa.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><description>1Password CLI, SSH ਏਜੰਟ ਅਤੇ MCP ਨਾਲ ਇੱਕ ਪੜ੍ਹਨ-ਸਿਰਫ਼ SSH ਵਰਕਫਲੋ ਡਿਜ਼ਾਈਨ ਕਰੋ। ਲਾਈਵ ਟੈਸਟਿੰਗ ਤੋਂ ਪਹਿਲਾਂ ਸੰਸਲੇਸ਼ਿਤ ਕਮਾਂਡਾਂ, ਸੰਕੁੱਚ ਅਧਿਕਾਰਾਂ ਅਤੇ ਮਨੁੱਖੀ ਮਨਜ਼ੂਰੀ ਦੀ ਵਰਤੋਂ ਕਰੋ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p><strong>ਕਮਾਂਡ-ਲਾਈਨ ਏਜੰਟ ਨੂੰ ਉਪਯੋਗੀ ਪਹੁੰਚ ਦੀ ਲੋੜ ਹੈ, ਹਰੇਕ ਕ੍ਰੈਡੈਂਸ਼ੀਅਲ ਦੀ ਨਕਲ ਦੀ ਨਹੀਂ।</strong> ਇਹ ਗਾਈਡ 1Password CLI, 1Password SSH ਏਜੰਟ, Bitbucket Git ਪਹੁੰਚ, ਅਤੇ Model Context Protocol (MCP) ਲਈ ਇੱਕ ਸੀਮਤ ਡਿਜ਼ਾਈਨ ਪੇਸ਼ ਕਰਦੀ ਹੈ। ਪਹਿਲਾ ਵਰਕਫਲੋ ਸੰਸਲੇਸ਼ਿਤ ਨਾਵਾਂ, ਪੜ੍ਹਨ-ਹੀ-ਮਾਤਰ ਕਾਰਵਾਈਆਂ, ਅਤੇ SSH ਸੀਮਾ &lsquo;ਤੇ ਮਨੁੱਖੀ ਮਨਜ਼ੂਰੀ ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ।</p>
+<p>ਮੁੱਖ ਅੰਤਰ ਸਧਾਰਨ ਹੈ। <strong>ਇੰਟਰਐਕਟਿਵ SSH 1Password SSH ਏਜੰਟ ਰਾਹੀਂ ਸਹਿਮਤੀ ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ। ਅਣ-ਨਿਗਰਾਨੀ ਆਟੋਮੇਸ਼ਨ ਨੂੰ ਇੱਕ ਵੱਖਰੀ ਪਛਾਣ, ਸੰਕੁੱਪਤ ਪਹੁੰਚ, ਅਤੇ ਇੱਕ ਵੱਖਰੀ ਕੀ ਲਾਈਫਸਾਈਕਲ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।</strong> MCP ਕਨੈਕਸ਼ਨ ਨੂੰ ਕਿਸੇ ਵੀ ਵਰਕਫਲੋ ਚਲਾਉਣ ਦੀ ਇਜਾਜ਼ਤ ਵਜੋਂ ਨਾ ਮੰਨੋ।</p>
+<h2 id="ਮਖ-ਨਕਤ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%a8%e0%a8%95%e0%a8%a4" title="ਮੁੱਖ ਨੁਕਤੇ">ਮੁੱਖ ਨੁਕਤੇ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%a8%e0%a8%95%e0%a8%a4" class="h-anchor" aria-hidden="true" title="ਮੁੱਖ ਨੁਕਤੇ">#</a>
+</h2>
+<ul>
+<li><strong>ਪ੍ਰਾਈਵੇਟ-ਕੀ ਸੁਰੱਖਿਆ:</strong> 1Password SSH ਏਜੰਟ SSH ਪ੍ਰਮਾਣੀਕਰਨ ਕਰਦਾ ਹੈ ਜਦੋਂ ਕਿ ਪ੍ਰਾਈਵੇਟ ਕੀਆਂ ਨੂੰ 1Password ਐਪ ਦੇ ਅੰਦਰ ਰੱਖਦਾ ਹੈ।</li>
+<li><strong>ਪਬਲਿਕ-ਕੀ ਸੰਭਾਲ:</strong> ਸਿਰਫ਼ ਇੱਕ ਪਬਲਿਕ ਕੀ ਨੂੰ Bitbucket ਜਾਂ ਕਿਸੇ ਦੂਰੀ ਵਾਲੇ ਖਾਤੇ ਵਿੱਚ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰੋ। ਪ੍ਰਾਈਵੇਟ ਅੱਧਾ ਹਿੱਸਾ ਇੱਕ SSH Key ਆਈਟਮ ਵਿੱਚ ਰੱਖੋ।</li>
+<li><strong>ਇੰਟਰਐਕਟਿਵ ਸਹਿਮਤੀ:</strong> SSH ਏਜੰਟ ਕੀ ਦੀ ਵਰਤੋਂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ, ਇੱਕ ਵਿਅਕਤੀ ਕਲ
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Bitbucket Cloud SSH ਕੁੰਜੀਆਂ: AI ਏਜੰਟਾਂ ਲਈ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲੀ Git ਪਹੁੰਚ</title><link>https://pa.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><description>ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲੇ AI ਏਜੰਟ ਵਰਕਫਲੋ ਲਈ Bitbucket Cloud SSH ਕੁੰਜੀਆਂ, Git CLI ਪਹੁੰਚ, REST API ਟੋਕਨ, 1Password ਅਤੇ MCP ਟੂਲ ਸੈੱਟ ਕਰੋ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p><strong>ਸੀਮਿਤ ਏਜੰਟ ਵਰਕਫਲੋ ਰਿਪੋਜ਼ਟਰੀ ਪੜ੍ਹਨ, API ਪੜ੍ਹਨ, ਰਾਜ਼ਾਂ ਦੀ ਸੰਭਾਲ ਅਤੇ ਦੂਰਲੇ ਲਿਖਣ ਨੂੰ ਵੱਖ ਕਰਦਾ ਹੈ।</strong> ਸਰੋਤ ਤੱਕ ਪਹੁੰਚ ਲਈ Secure Shell (SSH) ਉੱਤੇ Git ਵਰਤੋ, ਆਟੋਮੈਟਿਕ checkout ਲਈ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲੀ Bitbucket ਪਹੁੰਚ ਕੁੰਜੀ, ਮੈਟਾਡਾਟਾ ਲਈ REST API ਅਤੇ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਟੂਲਾਂ ਲਈ Model Context Protocol (MCP) ਸਰਵਰ ਵਰਤੋ। ਨਿੱਜੀ ਕੁੰਜੀਆਂ ਅਤੇ API ਟੋਕਨ 1Password ਵਿੱਚ ਰੱਖੋ। ਲਿਖਣ ਤੋਂ ਪਹਿਲਾਂ ਮਨੁੱਖੀ ਮਨਜ਼ੂਰੀ ਲਵੋ।</p>
+<h2 id="ਮਖ-ਗਲ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" title="ਮੁੱਖ ਗੱਲਾਂ">ਮੁੱਖ ਗੱਲਾਂ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" class="h-anchor" aria-hidden="true" title="ਮੁੱਖ ਗੱਲਾਂ">#</a>
+</h2>
+<ul>
+<li><strong>ਮੂਲ ਰੂਪ ਵਿੱਚ ਸਿਰਫ਼ ਪੜ੍ਹਨ:</strong> ਏਜੰਟ checkout ਲਈ ਰਿਪੋਜ਼ਟਰੀ ਜਾਂ ਪ੍ਰੋਜੈਕਟ ਪਹੁੰਚ ਕੁੰਜੀ ਵਰਤੋ। ਦੋਵਾਂ ਵਿੱਚੋਂ ਕੋਈ ਵੀ push ਪਹੁੰਚ ਨਹੀਂ ਦਿੰਦੀ।</li>
+<li><strong>ਨਿੱਜੀ ਪਛਾਣ:</strong> ਵਰਤੋਂਕਾਰ ਖਾਤੇ ਨਾਲ ਜੁੜੇ ਇੰਟਰਐਕਟਿਵ ਕੰਮ ਲਈ ਨਿੱਜੀ SSH ਕੁੰਜੀ ਵਰਤੋ।</li>
+<li><strong>ਰਾਜ਼ਾਂ ਦੀ ਹਿਫ਼ਾਜ਼ਤ:</strong> 1Password SSH Agent ਵਰਤੋ ਤਾਂ ਜੋ Git ਨਿੱਜੀ ਕੁੰਜੀ ਪੜ੍ਹੇ ਬਿਨਾਂ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਦਸਤਖ਼ਤ ਕਰ ਸਕੇ।</li>
+<li><strong>CLI ਦਾ ਮਤਲਬ:</strong> <code>git</code>, <code>curl</code> ਅਤੇ ਛੋਟੇ ਜਾਂਚੇ ਹੋਏ API wrapper ਨੂੰ ਵਰਤੋਂਯੋਗ Bitbucket ਕਮਾਂਡ ਲਾਈਨ ਮੰਨੋ।</li>
+<li><strong>MCP ਸੀਮਾ:</strong> ਘੱਟ-ਦਾਇਰੇ ਵਾਲੇ ਪੜ੍ਹਨ ਟੂਲ ਦਿਓ। ਲਿਖਣ ਵਾਲੇ ਟੂਲ ਬੰਦ ਰੱਖੋ ਜਾਂ ਵੱਖਰੀ ਮਨਜ਼ੂਰੀ ਪ੍ਰਕਿਰਿਆ ਪਿੱਛੇ ਰੱਖੋ।</li>
+<li><strong>ਲ�
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>DNS filter ਨੂੰ ਕਿਉਂ ਬਾਈਪਾਸ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ: resolver ਦਾ ਰਸਤਾ ਜਾਂਚੋ</title><link>https://pa.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><description>ਪਤਾ ਕਰੋ ਕਿ ਕੋਈ device ਜਾਂ browser ਤੁਹਾਡੇ DNS filter ਨੂੰ ਕਿਉਂ ਛੱਡ ਰਿਹਾ ਹੈ। ਸਿੱਧੀਆਂ ਅਤੇ ਆਮ queries ਦੀ ਤੁਲਨਾ ਕਰੋ, logs ਵੇਖੋ, ਫਿਰ encrypted DNS, VPN, IPv6 ਅਤੇ router settings ਜਾਂਚੋ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p>ਤੁਸੀਂ filtering resolver ਸੈੱਟ ਕੀਤਾ ਹੈ, ਫਿਰ ਵੀ ਇੱਕ device ਉਸ domain ਤੱਕ ਪਹੁੰਚਦਾ ਹੈ ਜਿਸ ਨੂੰ ਤੁਹਾਡੀ policy ਰੋਕਦੀ ਹੈ। ਕਾਰਨ rule, device ਨੂੰ ਦਿੱਤਾ Domain Name System (DNS), browser ਦਾ encrypted resolver ਜਾਂ VPN ਹੋ ਸਕਦਾ ਹੈ। <strong>Settings ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਰਸਤਾ ਜਾਂਚੋ।</strong> Filter ਵੱਲ ਸਿੱਧੀ query ਅਤੇ device ਦੀ ਆਮ query ਵੱਖਰੇ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦਿੰਦੀਆਂ ਹਨ।</p>
+<h2 id="ਮਖ-ਗਲ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" title="ਮੁੱਖ ਗੱਲਾਂ">ਮੁੱਖ ਗੱਲਾਂ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" class="h-anchor" aria-hidden="true" title="ਮੁੱਖ ਗੱਲਾਂ">#</a>
+</h2>
+<ul>
+<li><strong>ਪਹਿਲਾਂ rule ਜਾਂਚੋ:</strong> ਪੱਕਾ ਕਰੋ ਕਿ filter ਇੱਕ ਸੁਰੱਖਿਅਤ test domain ਲੈਂਦਾ ਅਤੇ ਰੋਕਦਾ ਹੈ।</li>
+<li><strong>ਹਰ ਪਰਤ ਦਾ ਪਤਾ ਲਗਾਓ:</strong> Router, operating system, browser, VPN ਅਤੇ mobile settings DNS routing ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰਦੀਆਂ ਹਨ।</li>
+<li><strong>ਨਵੀਆਂ queries ਵਰਤੋ:</strong> ਨਵੇਂ hostname ਅਤੇ ਸਮੇਂ ਨੂੰ filter ਦੇ query log ਨਾਲ ਮਿਲਾਓ।</li>
+<li><strong>ਹੱਦ ਸਪਸ਼ਟ ਕਰੋ:</strong> ਵੇਖੀ ਗਈ ਇੱਕ query ਇੱਕ ਰਸਤੇ ਦਾ ਸਬੂਤ ਹੈ, ਹਰ app ਜਾਂ device ਦੇ ਵਰਤਾਰੇ ਦਾ ਨਹੀਂ।</li>
+</ul>
+<h2 id="ਸਰ-ਕਰਨ-ਤ-ਪਹਲ">
+  <a href="#%e0%a8%b8%e0%a8%b0-%e0%a8%95%e0%a8%b0%e0%a8%a8-%e0%a8%a4-%e0%a8%aa%e0%a8%b9%e0%a8%b2" title="ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ">ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ</a>
+  <a href="#%e0%a8%b8%e0%a8%b0-%e0%a8%95%e0%a8%b0%e0%a8%a8-%e0%a8%a4-%e0%a8%aa%e0%a8%b9%e0%a8%b2" class="h-anchor" aria-hidden="true" title="ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ">#</a>
+</h2>
+<p>ਲਗਭਗ 20 ਮਿੰਟ ਰੱਖੋ। ਤੁਹਾਨੂੰ filtering resolver ਦੇ query log ਤੱਕ ਪਹੁੰਚ, ਸਮੱਸਿਆ ਵਾਲਾ ਇੱਕ device ਅਤੇ router ਦੀ DNS settings ਦਾ ਰਿਕਾਰਡ ਚਾਹੀਦਾ ਹ
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Hyper-V VM ਨੂੰ Proxmox VE ਉੱਤੇ ਲਿਜਾਣ ਲਈ ਵਾਪਸੀਯੋਗ ਜਾਂਚ-ਸੂਚੀ</title><link>https://pa.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><description>ਬੰਦ ਸਰੋਤ VM ਦਾ ਨਿਰਯਾਤ, ਫਰਮਵੇਅਰ ਦਾ ਮੇਲ, ਡਿਸਕ ਆਯਾਤ, ਅਲੱਗ ਬੂਟ ਟੈਸਟ ਅਤੇ ਵਾਪਸੀ ਯੋਜਨਾ ਨਾਲ Hyper-V VM ਨੂੰ Proxmox VE ਉੱਤੇ ਲਿਜਾਓ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p><strong>Hyper-V ਨਿਰਯਾਤ</strong> ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਦੀਆਂ ਫਾਈਲਾਂ ਸੰਭਾਲਦਾ ਹੈ, ਪਰ Proxmox VE ਨੂੰ ਨਵੀਂ ਗੈਸਟ ਸੰਰਚਨਾ ਅਤੇ ਆਯਾਤ ਕੀਤੀਆਂ VHDX ਵਰਚੁਅਲ ਡਿਸਕ ਫਾਈਲਾਂ ਚਾਹੀਦੀਆਂ ਹਨ। ਕਾਪੀ ਸਫਲ ਹੋਣ ਨਾਲ ਇਹ ਸਾਬਤ ਨਹੀਂ ਹੁੰਦਾ ਕਿ ਗੈਸਟ ਬੂਟ ਕਰੇਗੀ ਜਾਂ ਵਰਤੋਂਕਾਰਾਂ ਨੂੰ ਸੇਵਾ ਦੇਵੇਗੀ। ਇਹ ਜਾਂਚ-ਸੂਚੀ ਇੱਕ VM ਨੂੰ ਬੰਦ ਸਰੋਤ ਤੋਂ ਨਿਰਯਾਤ, ਨਿਯੰਤਰਿਤ ਬੂਟ ਟੈਸਟ ਅਤੇ ਸਪਸ਼ਟ ਵਾਪਸੀ ਰਸਤੇ ਨਾਲ ਬਦਲਣ ਵਿੱਚ ਮਦਦ ਕਰਦੀ ਹੈ।</p>
+<h2 id="ਮਖ-ਗਲ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" title="ਮੁੱਖ ਗੱਲਾਂ">ਮੁੱਖ ਗੱਲਾਂ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" class="h-anchor" aria-hidden="true" title="ਮੁੱਖ ਗੱਲਾਂ">#</a>
+</h2>
+<ul>
+<li><strong>ਸਰੋਤ ਦਰਜ ਕਰੋ:</strong> ਨਿਰਯਾਤ ਤੋਂ ਪਹਿਲਾਂ ਫਰਮਵੇਅਰ ਪੀੜ੍ਹੀ, ਡਿਸਕ ਰਸਤੇ, ਚੈਕਪੁਆਇੰਟ, ਨੈੱਟਵਰਕ ਸੈਟਿੰਗਾਂ ਅਤੇ ਇਨਕ੍ਰਿਪਸ਼ਨ ਲਿਖੋ।</li>
+<li><strong>ਲਿਖਤ ਰੋਕੋ:</strong> ਅੰਤਿਮ ਨਿਰਯਾਤ ਤੋਂ ਪਹਿਲਾਂ Hyper-V VM ਬੰਦ ਕਰੋ ਅਤੇ Proxmox ਟੈਸਟ ਦੌਰਾਨ ਵੀ ਬੰਦ ਰੱਖੋ।</li>
+<li><strong>ਬੂਟ ਤਰੀਕਾ ਮਿਲਾਓ:</strong> Hyper-V ਪਹਿਲੀ ਪੀੜ੍ਹੀ ਪੁਰਾਣਾ BIOS ਵਰਤਦੀ ਹੈ। ਦੂਜੀ ਪੀੜ੍ਹੀ UEFI ਵਰਤਦੀ ਹੈ।</li>
+<li><strong>ਸੇਵਾ ਪਰਖੋ:</strong> ਸਰੋਤ ਹਟਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਡਾਟਾ, ਨੈੱਟਵਰਕ ਪਹੁੰਚ, ਬੈਕਅੱਪ ਅਤੇ ਗੈਸਟ ਦੀ ਹਾਲਤ ਜਾਂਚੋ।</li>
+</ul>
+<h2 id="ਸਰ-ਕਰਨ-ਤ-ਪਹਲ">
+  <a href="#%e0%a8%b8%e0%a8%b0-%e0%a8%95%e0%a8%b0%e0%a8%a8-%e0%a8%a4-%e0%a8%aa%e0%a8%b9%e0%a8%b2" title="ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ">ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ</a>
+  <a href="#%e0%a8%b8%e0%a8%b0-%e0%a8%95%e0%a8%b0%e0%a8%a8-%e0%a8%a4-%e0%a8%aa%e
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proxmox VM ਰੀਸਟੋਰ ਜਾਂਚ: ਸਾਬਤ ਕਰੋ ਕਿ ਗੈਸਟ ਸਿਸਟਮ ਕੰਮ ਕਰਦਾ ਹੈ</title><link>https://pa.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><description>ਅਲੱਗ ਨੈੱਟਵਰਕ ਵਿੱਚ ਰੀਸਟੋਰ ਕਰਕੇ Proxmox VM ਬੈਕਅੱਪ ਦੀ ਜਾਂਚ ਕਰੋ। ਪ੍ਰੋਡਕਸ਼ਨ ਨੂੰ ਛੂਹੇ ਬਿਨਾਂ ਡਿਸਕ ਕਵਰੇਜ, ਬੈਕਅੱਪ ਮੋਡ, ਗੈਸਟ ਡਾਟਾ, ਸੇਵਾ ਦੀ ਹਾਲਤ ਅਤੇ ਰਿਕਵਰੀ ਸਮਾਂ ਵੇਖੋ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p>ਹਰਾ ਬੈਕਅੱਪ ਟਾਸਕ ਦੱਸਦਾ ਹੈ ਕਿ Proxmox ਨੇ ਬੈਕਅੱਪ ਲਿਖਿਆ। ਇਹ ਨਹੀਂ ਦੱਸਦਾ ਕਿ ਗੈਸਟ ਬੂਟ ਹੁੰਦਾ ਹੈ, ਡਾਟਾ ਨਵਾਂ ਹੈ ਜਾਂ ਮੁੱਖ ਸੇਵਾ ਕੰਮ ਕਰਦੀ ਹੈ। <strong>ਨਵੀਂ VM ID ਨਾਲ ਅਲੱਗ ਨੈੱਟਵਰਕ ਉੱਤੇ ਇੱਕ ਕਾਪੀ ਰੀਸਟੋਰ ਕਰੋ।</strong> ਕਿਸੇ ਆਊਟੇਜ ਕਰਕੇ ਜਾਂਚ ਕਰਨੀ ਪਵੇ, ਉਸ ਤੋਂ ਪਹਿਲਾਂ ਨਤੀਜਾ ਰਿਕਵਰੀ ਦਾ ਸਬੂਤ ਦਿੰਦਾ ਹੈ।</p>
+<p>ਇਹ ਅਭਿਆਸ ਇੱਕ <strong>Proxmox VE ਵਰਚੁਅਲ ਮਸ਼ੀਨ</strong> ਲਈ ਹੈ। ਕਨਟੇਨਰਾਂ ਦੇ ਬੈਕਅੱਪ ਨਿਯਮ ਵੱਖਰੇ ਹਨ, ਖਾਸ ਕਰਕੇ bind mount ਅਤੇ device mount ਲਈ। ਸਾਈਟ ਦਾ 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="ਹੋਮਲੈਬ ਬੈਕਅੱਪ ਰੀਸਟੋਰ ਅਭਿਆਸ">
+    <meta itemprop="url" content="/articles/homelab-backup-restore-drill/">
+    <a href="/articles/homelab-backup-restore-drill/"
+    
+        rel="follow me"
+    >ਹੋਮਲੈਬ ਬੈਕਅੱਪ ਰੀਸਟੋਰ ਅਭਿਆਸ</a>
+</span>
+ ਫਾਈਲ ਰਿਕਵਰੀ ਦੇ ਵੱਡੇ ਦਾਇਰੇ ਨੂੰ ਕਵਰ ਕਰਦਾ ਹੈ। ਇੱਥੇ ਤੁਸੀਂ Proxmox VM ਬੈਕਅੱਪ ਅਤੇ ਇਸਦੇ ਵਰਕਲੋਡ ਦੀ ਜਾਂਚ ਕਰੋਗੇ।</p>
+<p><strong>ਗੈਸਟ</strong> ਉਹ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਹੈ ਜੋ ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਦੇ ਅੰਦਰ ਚੱਲਦਾ ਹੈ। <strong>Bind mount</strong> ਅਤੇ <strong>device mount</strong> ਹੋਸਟ ਦੇ ਸਰੋਤ ਗੈਸਟ ਨੂੰ ਦਿਖਾਉਂਦੇ ਹਨ। ਇਨ੍ਹਾਂ ਸਰੋਤਾਂ ਦੀ ਜਾਂਚ ਵੱਖਰੀ ਰਿਕਵਰੀ ਯੋਜਨਾ ਨਾਲ ਕਰੋ।</p>
+<h2 id="ਮਖ-ਗਲ">
+  <a href="#%e0%
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>VPN ਨਾਲ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ DNS ਅਤੇ WebRTC ਲੀਕ ਦੀ ਜਾਂਚ ਕਰੋ</title><link>https://pa.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><description>VPN ਜੋੜਨ ਤੋਂ ਪਹਿਲਾਂ ਅਤੇ ਬਾਅਦ ਬ੍ਰਾਊਜ਼ਰ ਦਾ ਜਨਤਕ IP, DNS ਰਿਜ਼ੋਲਵਰ ਅਤੇ WebRTC ਪਤੇ ਜਾਂਚੋ। ਨਤੀਜਿਆਂ ਨੂੰ ਸਮਝੋ ਅਤੇ ਰੂਟਿੰਗ ਦੀਆਂ ਸਮੱਸਿਆਵਾਂ ਲੱਭੋ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p>ਵਰਚੁਅਲ ਪ੍ਰਾਈਵੇਟ ਨੈੱਟਵਰਕ (VPN) ਦਾ ਕਨੈਕਸ਼ਨ ਆਈਕਨ ਇਹ ਸਾਬਤ ਨਹੀਂ ਕਰਦਾ ਕਿ ਬ੍ਰਾਊਜ਼ਰ ਦੀ ਹਰ ਬੇਨਤੀ ਇੱਕੋ ਰਸਤੇ ਜਾਂਦੀ ਹੈ। ਆਪਣਾ <strong>ਜਨਤਕ IP</strong>, <strong>ਡੋਮੇਨ ਨੇਮ ਸਿਸਟਮ (DNS) ਰਿਜ਼ੋਲਵਰ</strong>, ਅਤੇ <strong>WebRTC ਪਤੇ</strong> ਵੱਖ-ਵੱਖ ਜਾਂਚੋ। ਹਰ ਨਤੀਜਾ ਵੱਖਰੇ ਸਵਾਲ ਦਾ ਜਵਾਬ ਦਿੰਦਾ ਹੈ। ਇਹ ਗਾਈਡ ਦੁਹਰਾਈ ਜਾ ਸਕਣ ਵਾਲੀ ਜਾਂਚ ਅਤੇ ਅਣਉਮੀਦੇ ਨਤੀਜੇ ਦੀ ਪੜਤਾਲ ਦਾ ਤਰੀਕਾ ਦਿੰਦੀ ਹੈ।</p>
+<h2 id="ਮਖ-ਗਲ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" title="ਮੁੱਖ ਗੱਲਾਂ">ਮੁੱਖ ਗੱਲਾਂ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" class="h-anchor" aria-hidden="true" title="ਮੁੱਖ ਗੱਲਾਂ">#</a>
+</h2>
+<ul>
+<li><strong>ਦੋ ਹਾਲਤਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ:</strong> VPN ਜੋੜਨ ਤੋਂ ਪਹਿਲਾਂ ਅਤੇ ਬਾਅਦ ਉਹੀ ਜਾਂਚਾਂ ਦਰਜ ਕਰੋ।</li>
+<li><strong>ਹਰ ਨਤੀਜੇ ਨੂੰ ਵੱਖਰਾ ਪੜ੍ਹੋ:</strong> ਜਨਤਕ IP ਬਦਲਣ ਨਾਲ ਇਹ ਸਾਬਤ ਨਹੀਂ ਹੁੰਦਾ ਕਿ DNS ਪੁੱਛਗਿੱਛ ਕਿੱਥੇ ਗਈ।</li>
+<li><strong>WebRTC ਉਮੀਦਵਾਰ ਵੇਖੋ:</strong> ਆਪਣੀ ਮਨਚਾਹੀ ਰੂਟ ਤੋਂ ਬਾਹਰਲੇ ਜਨਤਕ ਪਤੇ ਨੂੰ ਲੱਭੋ। ਨਿੱਜੀ ਪਤੇ ਦਾ ਅਰਥ ਵੱਖਰਾ ਹੁੰਦਾ ਹੈ।</li>
+<li><strong>ਇੱਕ ਸੈਟਿੰਗ ਬਦਲੋ:</strong> VPN, ਬ੍ਰਾਊਜ਼ਰ ਜਾਂ DNS ਦੀ ਹਰ ਤਬਦੀਲੀ ਤੋਂ ਬਾਅਦ ਮੁੜ ਜਾਂਚੋ।</li>
+</ul>
+<h2 id="ਸਰ-ਕਰਨ-ਤ-ਪਹਲ">
+  <a href="#%e0%a8%b8%e0%a8%b0-%e0%a8%95%e0%a8%b0%e0%a8%a8-%e0%a8%a4-%e0%a8%aa%e0%a8%b9%e0%a8%b2" title="ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ">ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ</a>
+  <a href="#%e0%a8%b8%e0%a8%b0-%e0%a8%95%e0%a8%b0%e0%a8%a8-%e0%a8%a4-%e0%a8%aa%e0%a8%b9%e0%a8%b2" class="h-anchor" aria-hidden="true" title="ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ">#</a>
+</h2>
+<p>ਉਹੀ �
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>ਮੈਸ਼ Wi-Fi ਨੈੱਟਵਰਕ ਉੱਤੇ ਮਹਿਮਾਨ ਅਤੇ IoT ਆਈਸੋਲੇਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ</title><link>https://pa.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><description>ਜਾਂਚੋ ਕਿ ਤੁਹਾਡੇ ਮੈਸ਼ Wi-Fi ਦੇ ਮਹਿਮਾਨ ਅਤੇ IoT ਨੈੱਟਵਰਕ ਘਰ ਦੇ ਡਿਵਾਈਸਾਂ ਤੱਕ ਪਹੁੰਚ ਰੋਕਦੇ ਹਨ ਜਾਂ ਨਹੀਂ। ਚੱਲ ਰਹੀ ਸੇਵਾ ਨਾਲ ਹਰ ਨੈੱਟਵਰਕ ਪਰਖੋ ਅਤੇ ਹੱਦਾਂ ਦਰਜ ਕਰੋ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p>ਵੱਖਰਾ Wi-Fi ਨਾਮ ਇਹ ਨਹੀਂ ਦੱਸਦਾ ਕਿ ਕਿਹੜੇ ਡਿਵਾਈਸ ਆਪਸ ਵਿੱਚ ਸੰਚਾਰ ਕਰਦੇ ਹਨ। ਮੈਸ਼ ਸਿਸਟਮ <strong>ਮਹਿਮਾਨ ਨੈੱਟਵਰਕ</strong>, <strong>IoT ਨੈੱਟਵਰਕ</strong> ਅਤੇ <strong>ਵਾਇਰਲੈੱਸ ਕਲਾਇੰਟ ਆਈਸੋਲੇਸ਼ਨ</strong> ਨੂੰ ਵੱਖਰੇ ਕੰਟਰੋਲਾਂ ਵਜੋਂ ਮੰਨ ਸਕਦਾ ਹੈ। ਨਿਰਮਾਤਾ ਦੇ ਲੇਬਲ ਨੂੰ ਲਾਗੂ ਨੀਤੀ ਮੰਨੇ ਬਿਨਾਂ, ਇਹ ਗਾਈਡ ਤੁਹਾਡੇ ਆਪਣੇ ਸਾਮਾਨ ਉੱਤੇ ਰਸਤਿਆਂ ਦੀ ਜਾਂਚ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦੀ ਹੈ।</p>
+<h2 id="ਮਖ-ਗਲ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" title="ਮੁੱਖ ਗੱਲਾਂ">ਮੁੱਖ ਗੱਲਾਂ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" class="h-anchor" aria-hidden="true" title="ਮੁੱਖ ਗੱਲਾਂ">#</a>
+</h2>
+<ul>
+<li><strong>ਪਹਿਲਾਂ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਟੀਚਾ ਕੰਮ ਕਰਦਾ ਹੈ:</strong> ਰੋਕਿਆ ਰਸਤਾ ਪਰਖਣ ਤੋਂ ਪਹਿਲਾਂ ਮੁੱਖ ਨੈੱਟਵਰਕ ਤੋਂ ਜਾਣੀ-ਪਛਾਣੀ ਸੇਵਾ ਤੱਕ ਪਹੁੰਚੋ।</li>
+<li><strong>ਹਰ ਹੱਦ ਪਰਖੋ:</strong> ਮਹਿਮਾਨ ਤੋਂ ਮੁੱਖ, IoT ਤੋਂ ਮੁੱਖ ਅਤੇ ਮਹਿਮਾਨ ਤੋਂ ਮਹਿਮਾਨ ਪਹੁੰਚ ਵੱਖਰੇ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦਿੰਦੀ ਹੈ।</li>
+<li><strong>ਸੈਟਅੱਪ ਦਰਜ ਕਰੋ:</strong> ਮਾਡਲ, ਫ਼ਰਮਵੇਅਰ, ਰਾਊਟਰ ਜਾਂ ਐਕਸੈੱਸ ਪੁਆਇੰਟ ਮੋਡ ਅਤੇ ਜੁੜਿਆ ਮੈਸ਼ ਨੋਡ ਨਤੀਜੇ ਦੀ ਵਿਆਖਿਆ ਬਦਲ ਸਕਦੇ ਹਨ।</li>
+<li><strong>ਬਦਲਾਅ ਪਿੱਛੋਂ ਮੁੜ ਟੈਸਟ ਕਰੋ:</strong> ਨਤੀਜਾ ਸਿਰਫ਼ ਪਰਖੇ ਡਿਵਾਈਸਾਂ, ਸੇਵਾ, ਐਡਰੈੱਸ ਪਰਿਵਾਰ ਅਤੇ ਸੈਟਅੱਪ ਲਈ ਲਾਗੂ ਹੈ।</li>
+</ul>
+<h2 id="ਸਰ-ਕਰਨ-ਤ-ਪਹਲ">
+  <a href="#%e0%a8%b8%e0%a8%b0-%e0%a8%95%e0%a8%b0%e0%a8%a8-%e0%a8%a4-%e0%a8%aa%e0%a8%b9%e0%a8%b2" title="ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ">ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ �
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2026 ਵਿੱਚ AI ਬੁਨਿਆਦੀ ਢਾਂਚੇ ਦਾ ਉਛਾਲ: ਮੰਗ, ਕਰਜ਼ਾ, ਬਿਜਲੀ ਅਤੇ ਸਬੂਤ</title><link>https://pa.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><description>AI ਬੁਨਿਆਦੀ ਢਾਂਚੇ ਦੇ ਖਰਚੇ, ਡੇਟਾ ਸੈਂਟਰਾਂ ਦੀ ਬਿਜਲੀ ਮੰਗ, ਵਿੱਤੀ ਢਾਂਚਿਆਂ, ਐਂਟਰਪ੍ਰਾਈਜ਼ ਮੁੱਲ ਅਤੇ ਬਾਜ਼ਾਰ ਨੂੰ ਬੁਲਬੁਲਾ ਕਹਿਣ ਤੋਂ ਪਹਿਲਾਂ ਲੋੜੀਂਦੇ ਸਬੂਤਾਂ ਦੀ ਤੱਥ-ਜਾਂਚ ਕੀਤੀ ਸਮੀਖਿਆ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p><strong>AI ਬੁਨਿਆਦੀ ਢਾਂਚਾ ਉਸ ਰਫ਼ਤਾਰ ਨਾਲ ਫੈਲ ਰਿਹਾ ਹੈ ਜਿਸਦੀ ਬਰਾਬਰੀ ਕੁਝ ਹੀ ਤਕਨਾਲੋਜੀ ਬਾਜ਼ਾਰਾਂ ਨੇ ਕੀਤੀ ਹੈ।</strong> ਖਰਚਾ ਅਸਲ ਹੈ। ਬਿਜਲੀ ਦੀ ਮੰਗ ਅਸਲ ਹੈ। ਵਿੱਤੀ ਜੋਖਮ ਅਸਲ ਹੈ। ਵਾਪਸੀ ਘੱਟ ਯਕੀਨੀ ਹੈ।</p>
+<p>ਲਾਭਦਾਇਕ ਸਵਾਲ ਇਹ ਨਹੀਂ ਕਿ ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ ਮੌਜੂਦ ਹੈ ਜਾਂ ਨਹੀਂ। ਲਾਭਦਾਇਕ ਸਵਾਲ ਇਹ ਹੈ ਕਿ ਭਵਿੱਖ ਦੀ ਆਮਦਨ ਅਤੇ ਉਤਪਾਦਕਤਾ ਲਾਭ ਇਸ ਨਿਰਮਾਣ ਨੂੰ ਸਹਾਰਾ ਦੇ ਰਹੇ ਹਾਰਡਵੇਅਰ, ਡੇਟਾ ਸੈਂਟਰਾਂ, ਬਿਜਲੀ ਸਮਝੌਤਿਆਂ, ਲੀਜ਼ਾਂ ਅਤੇ ਕਰਜ਼ੇ ਨੂੰ ਜਾਇਜ਼ ਠਹਿਰਾਉਣਗੇ ਜਾਂ ਨਹੀਂ।</p>
+<p>ਇਹ ਲੇਖ AI ਬੁਲਬੁਲਾ ਚਰਚਾ ਦੇ ਪਿੱਛੇ ਜਨਤਕ ਸਬੂਤਾਂ ਦੀ ਜਾਂਚ ਕਰਦਾ ਹੈ। ਅਨੁਮਾਨਾਂ ਨੂੰ ਅਨੁਮਾਨ ਹੀ ਕਿਹਾ ਗਿਆ ਹੈ। ਕੰਪਨੀ ਦੇ ਦਾਅਵੇ ਸੁਤੰਤਰ ਖੋਜ ਤੋਂ ਵੱਖ ਰੱਖੇ ਗਏ ਹਨ। ਨਤੀਜਾ ਨੇੜੇ ਆ ਰਹੇ ਡਿੱਗਣ ਨੂੰ ਸਾਬਤ ਨਹੀਂ ਕਰਦਾ। ਨਤੀਜਾ ਦੱਸਦਾ ਹੈ ਕਿ ਵਿੱਤੀ ਅਤੇ ਕਾਰਜਕਾਰੀ ਦਬਾਅ ਕਿੱਥੇ ਹੈ।</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2x RTX 5060 Ti ਬਨਾਮ GB10: 256K ਸੰਦਰਭ ’ਤੇ ਪੰਜ ਮਾਡਲਾਂ ਦਾ ਸਥਾਨਕ AI ਬੈਂਚਮਾਰਕ</title><link>https://pa.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><description>ਪੰਜ ਮਾਡਲਾਂ ਦੀ RTX 5060 Ti ਅਤੇ GB10 ਤੁਲਨਾ, ਨਾਲ ਹੀ 256K ਸੰਦਰਭ ਤੱਕ ਇੱਕੋ ਹੋਸਟ ’ਤੇ Qwen3.8 Flash-Next Strata ਬੈਂਚਮਾਰਕ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p><strong>ਦੋ RTX 5060 Ti 16 GB ਕਾਰਡਾਂ ਵਿੱਚ ਕੁੱਲ 32 GB VRAM ਹੁੰਦੀ ਹੈ।</strong> NVIDIA GB10 ਸਿਸਟਮ ਵਿੱਚ 128 GB ਇਕਸਾਰ ਯੂਨੀਫ਼ਾਈਡ ਮੈਮੋਰੀ ਹੈ। ਪੰਜ ਮਾਡਲਾਂ ਦਾ ਨਵਾਂ ਬੈਂਚਮਾਰਕ ਪਹਿਲਾਂ ਦੇ ਸਿਰਫ਼ Qwen ਟੈਸਟ ਨਾਲੋਂ ਵਧੇਰੇ ਸੰਤੁਲਿਤ ਨਤੀਜਾ ਦਿਖਾਉਂਦਾ ਹੈ।</p>
+<p>256K ਸੈਟਿੰਗ ’ਤੇ ਪੰਜ ਵਿੱਚੋਂ ਚਾਰ ਮਾਡਲਾਂ ਲਈ ਦੋਹਰਾ-ਕਾਰਡ ਸਿਸਟਮ ਦੀ ਜਨਰੇਸ਼ਨ ਗਤੀ ਵੱਧ ਹੈ। Qwen3.8 27B ’ਤੇ GB10 ਸਪਸ਼ਟ ਤੌਰ ’ਤੇ ਅੱਗੇ ਹੈ ਅਤੇ ਮਾਡਲ, ਸੰਦਰਭ ਅਤੇ ਰਨਟਾਈਮ ਅਲਾਟਮੈਂਟ ਲਈ ਹੋਰ ਮੈਮੋਰੀ ਖਾਲੀ ਰੱਖਦਾ ਹੈ। ਠੀਕ ਚੋਣ ਮਾਡਲ ਅਤੇ ਵਰਕਲੋਡ ’ਤੇ ਨਿਰਭਰ ਕਰਦੀ ਹੈ।</p>
+<p>ਇੱਕ ਵੱਖਰੇ ਇੱਕੋ-ਹੋਸਟ ਟੈਸਟ ਨੇ Strata ’ਤੇ Qwen3.8-Flash-Next IQ2_XS ਦੀ ਤੁਲਨਾ Ollama ’ਤੇ dense Qwen3.8 27B Q4_K_M ਨਾਲ ਕੀਤੀ। ਵਾਰਮਅੱਪ ਤੋਂ ਬਾਅਦ Flash-Next ਦੀ ਜਨਰੇਸ਼ਨ ਮੀਡੀਅਨ 92.8 ਟੋਕਨ ਪ੍ਰਤੀ ਸਕਿੰਟ ਸੀ ਅਤੇ ਪ੍ਰਾਂਪਟ ਵਿੱਚ 260,446 ਟੋਕਨ ਸਨ। Dense Qwen3.8 ਨੇ 260,444 ਟੋਕਨ ਦੇ ਪ੍ਰਾਂਪਟ ਨਾਲ 0.939 ਟੋਕਨ ਪ੍ਰਤੀ ਸਕਿੰਟ ਹਾਸਲ ਕੀਤੇ।</p>
+<p>NVIDIA GB10 ਵਿੱਚ 128 GB ਇਕਸਾਰ ਯੂਨੀਫ਼ਾਈਡ ਮੈਮੋਰੀ ਹੈ। NVIDIA GB10 ਪਲੇਟਫ਼ਾਰਮ ਲਈ 128 GB LPDDR5x ਯੂਨੀਫ਼ਾਈਡ ਮੈਮੋਰੀ ਅਤੇ 140 W ਚਿੱਪ TDP ਦੱਸਦਾ ਹੈ। RTX 5060 Ti ਵਿੱਚ ਹਰ ਕਾਰਡ ’ਤੇ 16 GB GDDR7, 128-bit ਮੈਮੋਰੀ ਇੰਟਰਫ਼ੇਸ ਅਤੇ 180 W ਕੁੱਲ ਗ੍ਰਾਫ਼ਿਕਸ ਪਾਵਰ ਹੈ। 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI ਏਜੰਟਾਂ ਨੂੰ ਕੰਮ ਸੌਂਪਣਾ: ਕਰਮਚਾਰੀ ਤੈਅ ਕਰੋ ਅਤੇ ਨਤੀਜੇ ਜਾਂਚੋ</title><link>https://pa.simeononsecurity.com/articles/effective-ai-agent-delegation/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/effective-ai-agent-delegation/</guid><description>ਫੈਸਲਾ ਕਰੋ ਕਿ ਦੂਜਾ AI ਏਜੰਟ ਕਦੋਂ ਮਦਦਗਾਰ ਹੈ, ਹਰ ਕਰਮਚਾਰੀ ਨੂੰ ਸੀਮਤ ਕੰਮ ਦਿਓ, ਸੰਪਾਦਨ ਟਕਰਾਅ ਰੋਕੋ ਅਤੇ ਸਬੂਤ ਮੁੱਖ ਸੈਸ਼ਨ ਵਿੱਚ ਜੋੜੋ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/effective-ai-agent-delegation.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/effective-ai-agent-delegation/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="ਵਿਹਾਰਕ AI ਵਰਕਫਲੋ ਕੋਰਸ ਵੱਲ ਵਾਪਸ ਜਾਓ">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >ਵਿਹਾਰਕ AI ਵਰਕਫਲੋ ਕੋਰਸ ਵੱਲ ਵਾਪਸ ਜਾਓ</a>
+</span>
+</p>
+<p><strong>ਜਦੋਂ ਕਿਸੇ ਸੁਤੰਤਰ ਸਵਾਲ ਲਈ ਵੱਖਰੇ ਸੈਸ਼ਨ ਜਿਤਨਾ ਕੰਮ ਹੋਵੇ, ਤਦ ਕੰਮ ਸੌਂਪੋ।</strong> ਕਰਮਚਾਰੀ ਏਜੰਟ ਆਪਣੇ ਸੰਦਰਭ ਵਿੱਚ ਸਰੋਤ ਜਾਂਚਦਾ, ਟੈਸਟ ਸਮੀਖਿਆ ਕਰਦਾ ਜਾਂ ਸੀਮਤ ਤਬਦੀਲੀ ਦਾ ਖਾਕਾ ਬਣਾਉਂਦਾ ਹੈ। ਮੁੱਖ ਏਜੰਟ ਨਤੀਜਾ ਜਾਂਚ ਕੇ ਜੋੜਦਾ ਹੈ। ਇਹ ਪਾਠ ਦਸਤਾਵੇਜ਼ਾਂ ਦੀ ਤੁਲਨਾ ਕਰਦਾ ਹੈ, ਜਦਕਿ ਤੁਹਾਡਾ ਮੁੱਖ ਸੈਸ਼ਨ ਛੋਟਾ ਲੈਬ ਕੰਮ ਕਰਦਾ ਰਹਿੰਦਾ ਹੈ।</p>
+<p><strong>ਸਿੱਖਣ ਦਾ ਨਤੀਜਾ:</strong> ਤੁਸੀਂ ਇੱਕ ਕਰਮਚਾਰੀ ਨੂੰ ਸੁਤੰਤਰ ਸਮੀਖਿਆ ਦਿਓਗੇ ਅਤੇ ਉਸਦੀ ਛੋਟੀ ਸਬੂਤ ਰਿਪੋਰਟ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋਗੇ।</p>
+<h2 id="ਮਖ-ਗਲ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" title="ਮੁੱਖ ਗੱਲਾਂ">ਮੁੱਖ ਗੱਲਾਂ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" class="h-anchor" aria-hidden="true" title="ਮੁੱਖ ਗੱਲਾਂ">#</a>
+</h2>
+<ul>
+<li><strong>ਸੰਯੋਜਕ:</strong> ਮੁੱਖ ਏਜੰਟ ਜੋ ਕੰਮ ਅਤੇ ਅੰਤਿਮ ਸਮੀਖਿਆ ਦਾ ਤਾਲਮੇਲ ਕਰਦਾ ਹੈ।</li>
+<li><strong>ਕਰਮਚਾਰੀ:</strong> ਵੱਖਰਾ ਏਜੰਟ ਜਿਸ ਨੂੰ ਇੱਕ ਸੀਮਤ ਨਤੀਜਾ ਦਿੱਤਾ ਗਿਆ ਹੈ।</li>
+<li><strong>ਸੁਤ�
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/effective-ai-agent-delegation/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI ਸੰਦਰਭ ਵਿੰਡੋ ਪ੍ਰਬੰਧਨ: ਕੋਡਿੰਗ ਏਜੰਟਾਂ ਦਾ ਧਿਆਨ ਬਣਾਈ ਰੱਖੋ</title><link>https://pa.simeononsecurity.com/articles/effective-ai-context-window-management/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/effective-ai-context-window-management/</guid><description>ਚੁਣੀਆਂ ਫਾਈਲਾਂ, ਸੰਖੇਪ ਹਵਾਲਗੀ ਅਤੇ ਕਰਮਚਾਰੀਆਂ ਦੇ ਛੋਟੇ ਨਤੀਜਿਆਂ ਨਾਲ AI ਕੰਮ ਦਾ ਸਰਗਰਮ ਸੰਦਰਭ ਕਾਬੂ ਕਰੋ ਅਤੇ ਫੈਸਲੇ ਤੇ ਸਬੂਤ ਸੰਭਾਲੋ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/effective-ai-context-window-management.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/effective-ai-context-window-management/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="ਵਿਹਾਰਕ AI ਕੰਮਕਾਜ ਕੋਰਸ ਵੱਲ ਵਾਪਸ ਜਾਓ">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >ਵਿਹਾਰਕ AI ਕੰਮਕਾਜ ਕੋਰਸ ਵੱਲ ਵਾਪਸ ਜਾਓ</a>
+</span>
+</p>
+<p><strong>ਸੰਦਰਭ ਵਿੰਡੋ ਉਹ ਲਿਖਤ ਅਤੇ ਹੋਰ ਸਮੱਗਰੀ ਹੈ ਜਿਸ ਨੂੰ ਮਾਡਲ ਮੌਜੂਦਾ ਪੜਾਅ ਵਿੱਚ ਪ੍ਰਕਿਰਿਆ ਕਰਦਾ ਹੈ।</strong> ਪ੍ਰੌਂਪਟ, ਹਦਾਇਤਾਂ, ਟੂਲ ਪਰਿਭਾਸ਼ਾਵਾਂ, ਫਾਈਲਾਂ ਦੇ ਅੰਸ਼, ਟੂਲ ਨਤੀਜੇ ਅਤੇ ਗੱਲਬਾਤ ਦਾ ਇਤਿਹਾਸ ਇਸ ਵਿੱਚ ਥਾਂ ਲੈਂਦੇ ਹਨ। ਇਹ ਪਾਠ ਦੱਸਦਾ ਹੈ ਕਿ ਅਗਲਾ ਕੰਮ ਕੇਂਦਰਿਤ ਕਿਵੇਂ ਰੱਖਣਾ ਹੈ ਅਤੇ ਭਰੋਸੇਯੋਗ ਹਵਾਲਗੀ ਕਿਵੇਂ ਛੱਡਣੀ ਹੈ।</p>
+<p><strong>ਸਿੱਖਣ ਦਾ ਟੀਚਾ:</strong> ਇੱਕ ਸੰਖੇਪ ਹਵਾਲਗੀ ਬਣਾਓ ਅਤੇ ਨਵੇਂ ਸੈਸ਼ਨ ਵਿੱਚ ਇਸ ਦੀ ਜਾਂਚ ਕਰੋ।</p>
+<h2 id="ਮਖ-ਗਲ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" title="ਮੁੱਖ ਗੱਲਾਂ">ਮੁੱਖ ਗੱਲਾਂ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" class="h-anchor" aria-hidden="true" title="ਮੁੱਖ ਗੱਲਾਂ">#</a>
+</h2>
+<ul>
+<li><strong>ਟੋਕਨ</strong> ਉਹ ਇਕਾਈਆਂ ਹਨ ਜਿਨ੍ਹਾਂ ਰਾਹੀਂ ਮਾਡਲ ਇਨਪੁੱਟ ਅਤੇ ਆਉਟਪੁੱਟ ਪ੍ਰਕਿਰਿਆ ਕਰਦਾ ਹੈ।</li>
+<li><strong>ਸਰਗਰਮ ਸੰਦਰਭ</strong> ਉਹ ਸਮੱਗਰੀ ਹੈ ਜੋ ਇੱਕ ਪੜਾਅ ਦੌਰਾਨ ਉਪਲਬਧ ਹੁੰਦੀ ਹੈ ਅਤੇ ਉਤਪਾਦ ਦੀਆਂ ਹੱਦਾਂ ਅਧੀਨ ਹੁੰਦ�
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/effective-ai-context-window-management/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI ਕੰਮ ਪੈਕੇਟ: ਵਧੀਆ ਹਦਾਇਤਾਂ ਅਤੇ ਮਨਜ਼ੂਰੀ ਮਾਪਦੰਡ</title><link>https://pa.simeononsecurity.com/articles/effective-ai-task-packets/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/effective-ai-task-packets/</guid><description>ਅਸਪਸ਼ਟ AI ਬੇਨਤੀਆਂ ਨੂੰ ਨਤੀਜੇ, ਸਰੋਤ, ਫ਼ਾਈਲਾਂ ਦੇ ਘੇਰੇ, ਜਾਂਚਾਂ ਅਤੇ ਰੁਕਣ ਦੀ ਸ਼ਰਤ ਵਾਲੇ ਕੰਮ ਪੈਕੇਟਾਂ ਵਿੱਚ ਬਦਲੋ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/effective-ai-task-packets.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/effective-ai-task-packets/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="ਵਿਹਾਰਕ AI ਕਾਰਜ-ਪ੍ਰਵਾਹ ਕੋਰਸ ਵੱਲ ਵਾਪਸ ਜਾਓ">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >ਵਿਹਾਰਕ AI ਕਾਰਜ-ਪ੍ਰਵਾਹ ਕੋਰਸ ਵੱਲ ਵਾਪਸ ਜਾਓ</a>
+</span>
+</p>
+<p><strong>ਚੰਗੀ ਹਦਾਇਤ ਕੰਮ ਅਤੇ ਨਤੀਜੇ ਨੂੰ ਪਰਖਣ ਦਾ ਤਰੀਕਾ ਦੱਸਦੀ ਹੈ।</strong> ਹੋਰ ਸ਼ਬਦ ਜੋੜਨ ਨਾਲ ਘੇਰੇ ਦੀ ਕਮੀ ਪੂਰੀ ਨਹੀਂ ਹੁੰਦੀ। ਇਹ ਪਾਠ ਕੋਰਸ ਦੀ ਲੈਬ ਲਈ ਅਸਪਸ਼ਟ ਬੇਨਤੀ ਨੂੰ ਕੰਮ ਪੈਕੇਟ ਵਿੱਚ ਬਦਲਦਾ ਹੈ।</p>
+<p><strong>ਸਿੱਖਣ ਦਾ ਟੀਚਾ:</strong> ਤੁਸੀਂ ਸਰੋਤ, ਫ਼ਾਈਲਾਂ ਦਾ ਘੇਰਾ, ਜਾਂਚਾਂ ਅਤੇ ਰੁਕਣ ਦੀ ਸ਼ਰਤ ਵਾਲਾ ਸੀਮਿਤ ਕੰਮ ਪੈਕੇਟ ਲਿਖੋਗੇ।</p>
+<h2 id="ਮਖ-ਗਲ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" title="ਮੁੱਖ ਗੱਲਾਂ">ਮੁੱਖ ਗੱਲਾਂ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" class="h-anchor" aria-hidden="true" title="ਮੁੱਖ ਗੱਲਾਂ">#</a>
+</h2>
+<ul>
+<li><strong>ਨਤੀਜਾ</strong> ਚਾਹੀਦੀ ਚੀਜ਼ ਜਾਂ ਵਿਹਾਰ ਦੱਸਦਾ ਹੈ।</li>
+<li><strong>ਘੇਰਾ</strong> ਮਨਜ਼ੂਰ ਫ਼ਾਈਲਾਂ ਅਤੇ ਬਾਹਰ ਰੱਖੀਆਂ ਕਾਰਵਾਈਆਂ ਦੱਸਦਾ ਹੈ।</li>
+<li><strong>ਸਰੋਤ</strong> ਮਨਜ਼ੂਰ ਕੀਤੀ ਲੋੜ ਦੀ ਪਛਾਣ ਕਰਦਾ ਹੈ।</li>
+<li><strong>ਮਨਜ਼ੂਰੀ ਜਾਂਚਾਂ</strong> ਸਫਲਤਾ ਨੂੰ ਵੇਖਣਯੋਗ ਬਣਾਉਂਦੀਆਂ ਹਨ।</li>
+<li><strong>ਰੁਕਣ ਦੀਆਂ ਸ਼ਰਤਾਂ</strong> ਅਟਕਲਾਂ ਅਤੇ ਬਿਨਾ�
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/effective-ai-task-packets/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI ਨਤੀਜਿਆਂ, ਸਰੋਤਾਂ, ਟੈਸਟਾਂ ਅਤੇ ਲਾਗਤਾਂ ਦੀ ਜਾਂਚ ਕਿਵੇਂ ਕਰੀਏ</title><link>https://pa.simeononsecurity.com/articles/effective-ai-output-verification/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://pa.simeononsecurity.com/articles/effective-ai-output-verification/</guid><description>ਸਰੋਤਾਂ, ਫਾਈਲਾਂ ਦੇ ਦਾਇਰੇ, ਟੈਸਟ ਸਬੂਤ, ਨਿੱਜਤਾ ਅਤੇ ਵਰਤੋਂ ਦੀ ਜਾਂਚ ਕਰਕੇ AI ਨਤੀਜੇ ਲਈ ਮਨਜ਼ੂਰੀ ਰਿਕਾਰਡ ਬਣਾਓ।</description><content:encoded><![CDATA[
+        
+            <img src="https://pa.simeononsecurity.com/img/cover/effective-ai-output-verification.webp">
+            
+        
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/effective-ai-output-verification/">Read the full article at https://pa.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="ਵਿਹਾਰਕ AI ਕਾਰਜ-ਪ੍ਰਵਾਹ ਕੋਰਸ ਵੱਲ ਵਾਪਸ ਜਾਓ">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >ਵਿਹਾਰਕ AI ਕਾਰਜ-ਪ੍ਰਵਾਹ ਕੋਰਸ ਵੱਲ ਵਾਪਸ ਜਾਓ</a>
+</span>
+</p>
+<p><strong>AI ਨਤੀਜਾ ਤਦ ਹੀ ਮਨਜ਼ੂਰ ਕਰੋ ਜਦੋਂ ਕੰਮ ਲਈ ਢੁੱਕਵੇਂ ਸਬੂਤ ਦੀ ਜਾਂਚ ਕਰ ਲਵੋ।</strong> ਸਾਫ਼-ਸੁਥਰੀ ਵਿਆਖਿਆ, ਸੰਰਚਿਤ ਟੂਲ ਅਤੇ ਹਰਾ ਟੈਸਟ ਸੁਨੇਹਾ ਵੱਖ-ਵੱਖ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦਿੰਦੇ ਹਨ। ਇਹ ਪਾਠ ਵਰਕਸ਼ਾਪ ਲੈਬ ਲਈ ਇੱਕ ਸਾਂਝਾ ਸਮੀਖਿਆ ਰਿਕਾਰਡ ਬਣਾਉਂਦਾ ਹੈ।</p>
+<p><strong>ਸਿੱਖਣ ਦਾ ਨਤੀਜਾ:</strong> ਤੁਸੀਂ ਸਰੋਤਾਂ, ਫਾਈਲਾਂ ਦੇ ਦਾਇਰੇ, ਟੈਸਟਾਂ, ਨਿੱਜਤਾ ਅਤੇ ਵਰਤੋਂ ਲਈ ਮਨਜ਼ੂਰੀ ਰਿਕਾਰਡ ਬਣਾਓਗੇ।</p>
+<h2 id="ਮਖ-ਗਲ">
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" title="ਮੁੱਖ ਗੱਲਾਂ">ਮੁੱਖ ਗੱਲਾਂ</a>
+  <a href="#%e0%a8%ae%e0%a8%96-%e0%a8%97%e0%a8%b2" class="h-anchor" aria-hidden="true" title="ਮੁੱਖ ਗੱਲਾਂ">#</a>
+</h2>
+<ul>
+<li><strong>ਸਰੋਤ ਦੀ ਜਾਂਚ:</strong> ਤੱਥੀ ਦਾਅਵੇ ਦੀ ਤੁਲਨਾ ਮੌਜੂਦਾ ਅਤੇ ਭਰੋਸੇਯੋਗ ਰਿਕਾਰਡ ਨਾਲ ਕਰੋ।</li>
+<li><strong>ਦਾਇਰੇ ਦੀ ਜਾਂਚ:</strong> ਵੇਖੋ ਕਿ ਕਿਹੜੀਆਂ ਫਾਈਲਾਂ ਜਾਂ ਸਿਸਟਮ ਬਦਲੇ ਹਨ।</li>
+<li><strong>ਵਿਹਾਰ ਦੀ ਜਾਂਚ:</strong> ਟੈਸਟ ਅਤੇ ਸੰਬੰਧਤ ਹੱਥੀਂ ਜਾਂਚਾਂ ਚਲਾਓ।</li>
+<li><strong>ਨਿੱਜਤਾ
+
+        <br>
+        <a href="https://pa.simeononsecurity.com/articles/effective-ai-output-verification/">Read More at https://pa.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>

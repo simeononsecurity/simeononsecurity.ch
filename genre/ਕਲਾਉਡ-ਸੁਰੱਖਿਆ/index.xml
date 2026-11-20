@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਕਲਾਉਡ ਸੁਰੱਖਿਆ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਕਲਾਉਡ ਸੁਰੱਖਿਆ on simeononsecurity</title><link>https://pa.simeononsecurity.com/genre/%E0%A8%95%E0%A8%B2%E0%A8%BE%E0%A8%89%E0%A8%A1-%E0%A8%B8%E0%A9%81%E0%A8%B0%E0%A9%B1%E0%A8%96%E0%A8%BF%E0%A8%86/</link></image><link>https://pa.simeononsecurity.com/genre/%E0%A8%95%E0%A8%B2%E0%A8%BE%E0%A8%89%E0%A8%A1-%E0%A8%B8%E0%A9%81%E0%A8%B0%E0%A9%B1%E0%A8%96%E0%A8%BF%E0%A8%86/</link><description>Recent content in ਕਲਾਉਡ ਸੁਰੱਖਿਆ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/genre/%E0%A8%95%E0%A8%B2%E0%A8%BE%E0%A8%89%E0%A8%A1-%E0%A8%B8%E0%A9%81%E0%A8%B0%E0%A9%B1%E0%A8%96%E0%A8%BF%E0%A8%86/index.xml" rel="self" type="application/rss+xml"/><item><title>Bitbucket Cloud SSH ਕੁੰਜੀਆਂ: AI ਏਜੰਟਾਂ ਲਈ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲੀ Git ਪਹੁੰਚ</title><link>https://pa.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਕਲਾਉਡ ਸੁਰੱਖਿਆ"
+, "ਡਿਵੈਲਪਰ ਟੂਲ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"</category><guid>https://pa.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲੇ AI ਏਜੰਟ ਵਰਕਫਲੋ ਲਈ Bitbucket Cloud SSH ਕੁੰਜੀਆਂ, Git CLI ਪਹੁੰਚ, REST API ਟੋਕਨ, 1Password ਅਤੇ MCP ਟੂਲ ਸੈੱਟ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>ਕੰਟੇਨਰ ਹੁਣ ਸੁਰੱਖਿਆ ਦੀ ਹੱਦ ਨਹੀਂ ਰਹੇ: 2026 ਵਿੱਚ ਕਰਨਲ ਤੋਂ ਬਾਹਰ ਨਿਕਲਣ ਦੇ ਹਮਲੇ</title><link>https://pa.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਕੰਟੇਨਰ ਸੁਰੱਖਿਆ"
+, "Linux"
+, "ਕਰਨਲ ਸੁਰੱਖਿਆ"
+, "ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ"
+, "ਕਲਾਉਡ ਸੁਰੱਖਿਆ"
+, "ਖਤਰੇ ਦੀ ਖੋਜ"
+, "ਬਲੂ ਟੀਮ"
+, "DevSecOps"</category><guid>https://pa.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026 ਦੇ ਕੰਟੇਨਰ-ਬਚਾਅ ਅਧਿਐਨਾਂ, ਕਰਨਲ ਆਇਸੋਲੇਸ਼ਨ ਦੀਆਂ ਹੱਦਾਂ, ਪੈਚਾਂ ਦੇ ਦਬਾਅ ਅਤੇ microVM ਦੀ ਭੂਮਿਕਾ ਦੀ ਸਮੀਖਿਆ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>Cloudflare Tunnel ਅਤੇ Access: ਕੀ ਤੁਹਾਨੂੰ ਦੋਵੇਂ ਚਾਹੀਦੇ ਹਨ?</title><link>https://pa.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਸਵੈ-ਹੋਸਟਿੰਗ"
+, "ਕਲਾਉਡ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Cloudflare Tunnel ਅਤੇ Access ਦਾ ਫਰਕ ਸਮਝੋ, ਘਰੇਲੂ ਡੈਸ਼ਬੋਰਡ ਲਈ ਸੁਰੱਖਿਆ ਚੁਣੋ ਅਤੇ ਬਿਨਾਂ ਪ੍ਰਮਾਣਿਕਤਾ ਦੇ ਨਿੱਜੀ ਐਪ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰਨ ਤੋਂ ਬਚੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>Microsoft SOC ਘਰੇਲੂ ਲੈਬ: 2026 ਵਿੱਚ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦਾ ਤਜਰਬਾ ਬਣਾਓ</title><link>https://pa.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਕਲਾਉਡ ਸੁਰੱਖਿਆ"
+, "ਕਰੀਅਰ ਵਿਕਾਸ"</category><guid>https://pa.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Sentinel, Defender, Intune ਅਤੇ Entra ਨਾਲ Microsoft SOC ਲੈਬ ਬਣਾਓ। ਘਟਨਾਵਾਂ ਦੀ ਜਾਂਚ ਕਰੋ, passkey ਨੀਤੀਆਂ ਪਰਖੋ ਅਤੇ ਪੋਰਟਫੋਲੀਓ ਲਈ ਸਬੂਤ ਦਰਜ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>ਕਲਾਉਡ ਸੁਰੱਖਿਆ ਦੀ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਰੱਖਿਆ</title><link>https://pa.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</link><pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate><category>
+"ਕਲਾਉਡ ਸੁਰੱਖਿਆ"
+, "ਕਾਰੋਬਾਰੀ ਲਚਕ"
+, "CSPM ਲਾਗੂਕਰਨ"
+, "ਸਰਗਰਮ ਖ਼ਤਰਾ ਪਛਾਣ"
+, "ਪਾਲਣਾ ਪ੍ਰਬੰਧਨ"
+, "ਸੁਰੱਖਿਆ ਨੀਤੀਆਂ"
+, "ਵਿਭਾਗਾਂ ਵਿਚਕਾਰ ਸਹਿਯੋਗ"
+, "ਕਲਾਉਡ ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਸਵੈਚਾਲਿਤ ਸੁਰੱਖਿਆ"
+, "ਖ਼ਤਰਾ ਘਟਾਉਣਾ"</category><guid>https://pa.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਕਲਾਉਡ ਸੁਰੱਖਿਆ ਸਥਿਤੀ ਪ੍ਰਬੰਧਨ ਨਾਲ ਗਲਤ ਸੰਰਚਨਾਵਾਂ ਲੱਭੋ, ਨੀਤੀਆਂ ਲਾਗੂ ਕਰੋ, ਚੇਤਾਵਨੀਆਂ ਸੰਭਾਲੋ, ਪਾਲਣਾ ਵਿੱਚ ਸਹਾਇਤਾ ਲਵੋ ਅਤੇ ਕਲਾਉਡ ਖਾਤਿਆਂ ਵਿੱਚ ਸੁਧਾਰ ਦੀ ਦਿਸ਼ਾ ਤੈਅ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/leveraging-cloud-security-posture-management-%28cspm%29-for-your-business.webp" length="234272" type="image/webp"/></item><item><title>ਨੈੱਟਵਰਕ ਅਤੇ ਕਲਾਉਡ ਸੁਰੱਖਿਆ ਨੂੰ ਵੱਧ ਤੋਂ ਵੱਧ ਮਜ਼ਬੂਤ ਕਰਨਾ</title><link>https://pa.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਕਲਾਉਡ ਸੁਰੱਖਿਆ"
+, "ਨੈੱਟਵਰਕ ਰੱਖਿਆ"
+, "ਡਿਜ਼ਿਟਲ ਸੁਰੱਖਿਆ"
+, "ਡਾਟਾ ਪਰਦੇਦਾਰੀ"
+, "ਆਈਟੀ ਸੁਰੱਖਿਆ"
+, "ਕਾਰੋਬਾਰੀ ਤਕਨਾਲੋਜੀ"
+, "ਡਿਜ਼ਿਟਲ ਰੱਖਿਆ"
+, "ਸਾਈਬਰ ਖ਼ਤਰੇ"</category><guid>https://pa.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਨੈੱਟਵਰਕ ਅਤੇ ਕਲਾਉਡ ਸੁਰੱਖਿਆ ਮਜ਼ਬੂਤ ਕਰਨ ਲਈ ਖ਼ਤਰਿਆਂ, ਰੱਖਿਆ ਉਪਾਵਾਂ ਅਤੇ ਮਾਮਲਿਆਂ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp"/></item><item><title>ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਕਰੀਅਰ ਲਈ Microsoft ਸਰਟੀਫਿਕੇਸ਼ਨ</title><link>https://pa.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "Microsoft ਸਰਟੀਫਿਕੇਸ਼ਨ"
+, "ਪੇਸ਼ਾਵਰ ਵਿਕਾਸ"
+, "ਸੂਚਨਾ ਤਕਨਾਲੋਜੀ"
+, "ਕਲਾਉਡ ਸੁਰੱਖਿਆ"
+, "ਡਾਟਾ ਪ੍ਰਬੰਧਨ"
+, "ਪਛਾਣ ਅਤੇ ਪਹੁੰਚ ਪ੍ਰਬੰਧਨ"
+, "ਨਕਲੀ ਬੁੱਧੀ"
+, "ਮਸ਼ੀਨੀ ਸਿਖਲਾਈ"
+, "ਰੁਜ਼ਗਾਰ ਬਾਜ਼ਾਰ"</category><guid>https://pa.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਹੁਨਰ ਦੇ ਖੇਤਰ, ਟੀਚੇ ਵਾਲੀ ਨੌਕਰੀ, ਪਹਿਲਾਂ ਦੀਆਂ ਲੋੜਾਂ ਅਤੇ Azure ਨਾਲ ਸੰਬੰਧ ਦੇ ਆਧਾਰ 'ਤੇ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੀਆਂ ਭੂਮਿਕਾਵਾਂ ਲਈ Microsoft ਸਰਟੀਫਿਕੇਸ਼ਨ ਚੁਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_illustration_featuring_a_professiona.webp" length="94814" type="image/webp"/></item><item><title>AWS ਬਨਾਮ Azure ਬਨਾਮ Google Cloud 2026: ਪੂਰੀ ਤੁਲਨਾ</title><link>https://pa.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"ਕਲਾਉਡ ਕੰਪਿਊਟਿੰਗ"
+, "ਕਲਾਉਡ ਸੁਰੱਖਿਆ"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਇਨਕ੍ਰਿਪਸ਼ਨ"
+, "ਪਛਾਣ ਅਤੇ ਪਹੁੰਚ ਪ੍ਰਬੰਧਨ"
+, "ਪਾਲਣਾ"
+, "ਖਤਰੇ ਦੀ ਪਛਾਣ"</category><guid>https://pa.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AWS, Azure ਅਤੇ Google Cloud ਦੀ 2026 ਦੀ ਤੁਲਨਾ, ਜਿਸ ਵਿੱਚ ਕੀਮਤ, ਸੁਰੱਖਿਆ, ਪਾਲਣਾ, ਸੇਵਾਵਾਂ, ਕਾਰਗੁਜ਼ਾਰੀ ਅਤੇ ਪ੍ਰਦਾਤਾ ਦੀ ਚੋਣ ਸ਼ਾਮਲ ਹੈ.</description><enclosure url="https://pa.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item></channel></rss>

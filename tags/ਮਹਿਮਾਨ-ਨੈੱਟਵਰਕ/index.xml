@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਮਹਿਮਾਨ ਨੈੱਟਵਰਕ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਮਹਿਮਾਨ ਨੈੱਟਵਰਕ on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/%E0%A8%AE%E0%A8%B9%E0%A8%BF%E0%A8%AE%E0%A8%BE%E0%A8%A8-%E0%A8%A8%E0%A9%88%E0%A9%B1%E0%A8%9F%E0%A8%B5%E0%A8%B0%E0%A8%95/</link></image><link>https://pa.simeononsecurity.com/tags/%E0%A8%AE%E0%A8%B9%E0%A8%BF%E0%A8%AE%E0%A8%BE%E0%A8%A8-%E0%A8%A8%E0%A9%88%E0%A9%B1%E0%A8%9F%E0%A8%B5%E0%A8%B0%E0%A8%95/</link><description>Recent content in ਮਹਿਮਾਨ ਨੈੱਟਵਰਕ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/%E0%A8%AE%E0%A8%B9%E0%A8%BF%E0%A8%AE%E0%A8%BE%E0%A8%A8-%E0%A8%A8%E0%A9%88%E0%A9%B1%E0%A8%9F%E0%A8%B5%E0%A8%B0%E0%A8%95/index.xml" rel="self" type="application/rss+xml"/><item><title>ਹੋਮਲੈਬ VLAN ਵੰਡ ਦੀ ਯੋਜਨਾ ਬਣਾਓ ਅਤੇ ਜਾਂਚੋ</title><link>https://pa.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਹੋਮਲੈਬ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਨੈੱਟਵਰਕਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਹੋਮਲੈਬ ਵਿੱਚ ਭਰੋਸੇਯੋਗ ਡਿਵਾਈਸਾਂ, ਸਰਵਰਾਂ, IoT ਅਤੇ ਮਹਿਮਾਨਾਂ ਨੂੰ ਵੱਖ ਕਰਨ ਲਈ VLAN ਯੋਜਨਾ ਬਣਾਓ। ਮਨਜ਼ੂਰ ਟ੍ਰੈਫਿਕ ਦਰਜ ਕਰੋ, ਨੈੱਟਵਰਕ ਨੂੰ ਪੜਾਵਾਂ ਵਿੱਚ ਸੰਰਚਿਤ ਕਰੋ ਅਤੇ ਅਲੱਗਾਵ ਦੀ ਜਾਂਚ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>ਸੁਰੱਖਿਅਤ Wi-Fi ਨੈੱਟਵਰਕ ਕਿਵੇਂ ਬਣਾਈਏ</title><link>https://pa.simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/</link><pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate><category>
+"ਸੁਰੱਖਿਅਤ Wi-Fi ਨੈੱਟਵਰਕ"
+, "Wi-Fi ਸੁਰੱਖਿਆ"
+, "ਨੈੱਟਵਰਕ ਇਨਕ੍ਰਿਪਸ਼ਨ"
+, "Wi-Fi ਪਾਸਵਰਡ"
+, "ਰਾਊਟਰ ਫਰਮਵੇਅਰ ਅੱਪਡੇਟ"
+, "ਫਾਇਰਵਾਲ ਸੁਰੱਖਿਆ"
+, "ਰਿਮੋਟ ਪ੍ਰਬੰਧਨ ਬੰਦ ਕਰੋ"
+, "ਰਾਊਟਰ ਦੇ ਮੂਲ ਲਾਗਇਨ ਵੇਰਵੇ"
+, "MAC ਪਤਾ ਫਿਲਟਰਿੰਗ"
+, "WPS ਬੰਦ ਕਰੋ"
+, "ਮਹਿਮਾਨ ਨੈੱਟਵਰਕ"
+, "ਨੈੱਟਵਰਕ ਸਰਗਰਮੀ ਦੀ ਨਿਗਰਾਨੀ"
+, "ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਨੈੱਟਵਰਕ ਪਰਦੇਦਾਰੀ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਵਾਇਰਲੈੱਸ ਨੈੱਟਵਰਕ"
+, "ਇੰਟਰਨੈੱਟ ਸੁਰੱਖਿਆ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ ਉਪਾਅ"
+, "ਨੈੱਟਵਰਕ ਕਮਜ਼ੋਰੀ"</category><guid>https://pa.simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਆਪਣੇ ਡਾਟੇ ਦੀ ਰੱਖਿਆ ਅਤੇ ਸੁਰੱਖਿਅਤ ਇੰਟਰਨੈੱਟ ਵਰਤੋਂ ਲਈ ਸੁਰੱਖਿਅਤ Wi-Fi ਨੈੱਟਵਰਕ ਬਣਾਉਣ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.webp" length="54236" type="image/webp"/></item></channel></rss>

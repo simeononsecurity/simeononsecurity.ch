@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਸਾਈਬਰ ਸੁਰੱਖਿਆ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਸਾਈਬਰ ਸੁਰੱਖਿਆ on simeononsecurity</title><link>https://pa.simeononsecurity.com/genre/%E0%A8%B8%E0%A8%BE%E0%A8%88%E0%A8%AC%E0%A8%B0-%E0%A8%B8%E0%A9%81%E0%A8%B0%E0%A9%B1%E0%A8%96%E0%A8%BF%E0%A8%86/</link></image><link>https://pa.simeononsecurity.com/genre/%E0%A8%B8%E0%A8%BE%E0%A8%88%E0%A8%AC%E0%A8%B0-%E0%A8%B8%E0%A9%81%E0%A8%B0%E0%A9%B1%E0%A8%96%E0%A8%BF%E0%A8%86/</link><description>Recent content in ਸਾਈਬਰ ਸੁਰੱਖਿਆ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/genre/%E0%A8%B8%E0%A8%BE%E0%A8%88%E0%A8%AC%E0%A8%B0-%E0%A8%B8%E0%A9%81%E0%A8%B0%E0%A9%B1%E0%A8%96%E0%A8%BF%E0%A8%86/index.xml" rel="self" type="application/rss+xml"/><item><title>Open WebUI v0.12.4: ਅੱਪਗ੍ਰੇਡ ਅਤੇ ਪਹੁੰਚ-ਨਿਯੰਤਰਣ ਜਾਂਚ-ਸੂਚੀ 2026</title><link>https://pa.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਵੈ-ਹੋਸਟ ਕੀਤਾ AI"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਸਿਸਟਮ ਪ੍ਰਬੰਧਨ"</category><guid>https://pa.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Open WebUI ਦਾ ਬੈਕਅੱਪ ਲਓ ਅਤੇ ਇਸਨੂੰ v0.12.4 ਉੱਤੇ ਅੱਪਗ੍ਰੇਡ ਕਰੋ। ਫਿਰ ਚੈਟ ਸਾਂਝੀਕਰਨ, ਐਕਸਪੋਰਟ ਅਧਿਕਾਰ, ਸਰੋਤਾਂ ਦੀ ਪਹੁੰਚ, ਖਾਤੇ ਅਤੇ ਨੈੱਟਵਰਕ ਪਹੁੰਚ ਦੀ ਜਾਂਚ ਕਰੋ।</description></item><item><title>Thunderbird 153.6: Windows ਵਿੱਚ NTLM ਪ੍ਰਮਾਣਿਕਤਾ ਜਾਣਕਾਰੀ ਦਾ ਖੁਲਾਸਾ ਅਤੇ ਅੱਪਡੇਟ ਕਰਨ ਦਾ ਤਰੀਕਾ (2026)</title><link>https://pa.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਈਮੇਲ ਸੁਰੱਖਿਆ"
+, "Windows ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਖਾਸ ਤੌਰ 'ਤੇ ਤਿਆਰ ਕੀਤੀ ਈਮੇਲ ਦਿਖਾਉਣ ਨਾਲ Thunderbird ਦੀਆਂ ਦੋ ਗੰਭੀਰ ਖਾਮੀਆਂ Windows ਦੀ NTLM ਪ੍ਰਮਾਣਿਕਤਾ ਜਾਣਕਾਰੀ ਖੋਲ੍ਹ ਸਕਦੀਆਂ ਹਨ। ਦੋਵੇਂ ਤਰੀਕਿਆਂ, ਵਰਜਨ ਜਾਂਚ ਅਤੇ ਅੱਪਡੇਟ ਦੌਰਾਨ ਬਾਹਰ ਜਾਣ ਵਾਲੇ SMB ਨੂੰ ਸੀਮਿਤ ਕਰਨ ਬਾਰੇ ਜਾਣੋ।</description></item><item><title>2026 ਵਿੱਚ AI ਬੁਨਿਆਦੀ ਢਾਂਚੇ ਦਾ ਉਛਾਲ: ਮੰਗ, ਕਰਜ਼ਾ, ਬਿਜਲੀ ਅਤੇ ਸਬੂਤ</title><link>https://pa.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "AI ਅਰਥਸ਼ਾਸਤਰ"
+, "ਡੇਟਾ ਸੈਂਟਰ"
+, "ਕਲਾਊਡ ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AI ਬੁਨਿਆਦੀ ਢਾਂਚੇ ਦੇ ਖਰਚੇ, ਡੇਟਾ ਸੈਂਟਰਾਂ ਦੀ ਬਿਜਲੀ ਮੰਗ, ਵਿੱਤੀ ਢਾਂਚਿਆਂ, ਐਂਟਰਪ੍ਰਾਈਜ਼ ਮੁੱਲ ਅਤੇ ਬਾਜ਼ਾਰ ਨੂੰ ਬੁਲਬੁਲਾ ਕਹਿਣ ਤੋਂ ਪਹਿਲਾਂ ਲੋੜੀਂਦੇ ਸਬੂਤਾਂ ਦੀ ਤੱਥ-ਜਾਂਚ ਕੀਤੀ ਸਮੀਖਿਆ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>ਤੁਹਾਡੇ ਸੁਭਾਅ ਲਈ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦਾ ਕਿਹੜਾ ਕਰੀਅਰ ਢੁੱਕਵਾਂ ਹੈ? 16 ਸ਼ੁਰੂਆਤੀ ਰਾਹ, ਕਈ ਮੌਕੇ</title><link>https://pa.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਕਰੀਅਰ"</category><guid>https://pa.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸੁਭਾਅ ਦੀਆਂ ਕਿਸਮਾਂ ਬਾਰੇ ਵੀਡੀਓ ਵੇਖੋ, ਹਰ ਕਿਸਮ ਨਾਲ ਜੁੜੀਆਂ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੀਆਂ ਕਈ ਭੂਮਿਕਾਵਾਂ ਜਾਣੋ ਅਤੇ ਅਸਲ ਕੰਮ ਦੇ ਆਧਾਰ ਉੱਤੇ ਕਰੀਅਰਾਂ ਦੀ ਤੁਲਨਾ ਕਰਨ ਲਈ ਅਮਲੀ ਅਭਿਆਸ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/cybersecurity-careers-personality-paths.webp" length="155796" type="image/webp"/></item><item><title>Microsoft SOC ਘਰੇਲੂ ਲੈਬ: 2026 ਵਿੱਚ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦਾ ਤਜਰਬਾ ਬਣਾਓ</title><link>https://pa.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਕਲਾਉਡ ਸੁਰੱਖਿਆ"
+, "ਕਰੀਅਰ ਵਿਕਾਸ"</category><guid>https://pa.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Sentinel, Defender, Intune ਅਤੇ Entra ਨਾਲ Microsoft SOC ਲੈਬ ਬਣਾਓ। ਘਟਨਾਵਾਂ ਦੀ ਜਾਂਚ ਕਰੋ, passkey ਨੀਤੀਆਂ ਪਰਖੋ ਅਤੇ ਪੋਰਟਫੋਲੀਓ ਲਈ ਸਬੂਤ ਦਰਜ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>ਆਮ ਸਾਈਬਰ ਹਮਲਿਆਂ ਦੀਆਂ ਕਿਸਮਾਂ ਅਤੇ ਉਨ੍ਹਾਂ ਦੀ ਪਛਾਣ ਕਿਵੇਂ ਕਰੀਏ</title><link>https://pa.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਖ਼ਤਰੇ ਦੀ ਪਛਾਣ"
+, "ਬਲੂ ਟੀਮ"
+, "ਸੁਰੱਖਿਆ ਕਾਰਜ"
+, "ਕੈਰੀਅਰ ਵਿਕਾਸ"</category><guid>https://pa.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਆਮ ਸਾਈਬਰ ਹਮਲਿਆਂ, ਲੌਗਾਂ ਅਤੇ ਟੈਲੀਮੈਟਰੀ ਵਿੱਚ ਉਨ੍ਹਾਂ ਦੇ ਨਿਸ਼ਾਨਾਂ ਅਤੇ ਘਰੇਲੂ ਸੁਰੱਖਿਆ ਲੈਬ ਵਿੱਚ ਉਨ੍ਹਾਂ ਦੀ ਪਛਾਣ ਦੇ ਅਭਿਆਸ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item><item><title>2026 ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਸਰਟੀਫਿਕੇਸ਼ਨਾਂ ਦੀ ਤੁਲਨਾ</title><link>https://pa.simeononsecurity.com/articles/cybersecurity-certifications-comparison-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਆਈਟੀ ਸਰਟੀਫਿਕੇਸ਼ਨ"
+, "ਕਰੀਅਰ ਵਿਕਾਸ"
+, "ਪੇਸ਼ਾਵਰ ਸਿਖਲਾਈ"
+, "ਜਾਣਕਾਰੀ ਸੁਰੱਖਿਆ"
+, "ਤਕਨਾਲੋਜੀ ਸਿੱਖਿਆ"
+, "ਸੁਰੱਖਿਆ ਸਿਖਲਾਈ"
+, "ਆਈਟੀ ਕਰੀਅਰ ਰਾਹ"
+, "ਪੇਸ਼ਾਵਰ ਵਿਕਾਸ"
+, "ਸਰਟੀਫਿਕੇਸ਼ਨ ਗਾਈਡ"</category><guid>https://pa.simeononsecurity.com/articles/cybersecurity-certifications-comparison-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026 ਵਿੱਚ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਸਰਟੀਫਿਕੇਸ਼ਨ ਪ੍ਰਦਾਤਾਵਾਂ, ਕੀਮਤਾਂ, ਨਿਵੇਸ਼ ਦੇ ਮੁਨਾਫ਼ੇ ਅਤੇ ਕਰੀਅਰ ਰਾਹਾਂ ਨਾਲ ਮੇਲ ਦੀ ਤੁਲਨਾ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/cybersecurity-certifications-comparison-guide-2026.webp" length="276310" type="image/webp"/></item><item><title>Flock Safety ਕੈਮਰਾ ਕਮਜ਼ੋਰੀਆਂ: 50 ਤੋਂ ਵੱਧ ਖਾਮੀਆਂ ਲੱਭੀਆਂ</title><link>https://pa.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"ਸੁਰੱਖਿਆ ਖੋਜ"
+, "ਕਮਜ਼ੋਰੀ ਵਿਸ਼ਲੇਸ਼ਣ"
+, "ਨਿਗਰਾਨੀ ਤਕਨਾਲੋਜੀ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਪਰਦੇਦਾਰੀ ਸੁਰੱਖਿਆ"
+, "IoT ਸੁਰੱਖਿਆ"
+, "ਭੌਤਿਕ ਸੁਰੱਖਿਆ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਅਹਿਮ ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਸਰਕਾਰੀ ਤਕਨਾਲੋਜੀ"</category><guid>https://pa.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safety ਕੈਮਰਿਆਂ ਦੀਆਂ ਕਮਜ਼ੋਰੀਆਂ ਬਾਰੇ ਇਹ ਖੋਜ ਉਘੜੇ ਪ੍ਰਮਾਣ, ਕਮਜ਼ੋਰ ਸੁਰੱਖਿਆ, ਭੌਤਿਕ ਪਹੁੰਚ ਅਤੇ ਖੁਲਾਸੇ ਦੀਆਂ ਹੱਦਾਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਦੀ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>Wi-Fi ਦੀਆਂ ਸਮੱਸਿਆਵਾਂ ਹੱਲ ਕਰੋ: ਆਮ ਖਰਾਬੀਆਂ ਲਈ ਵਿਹਾਰਕ ਤਰੀਕੇ</title><link>https://pa.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</link><pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate><category>
+"Wi-Fi ਸਮੱਸਿਆ ਨਿਵਾਰਨ"
+, "ਵਾਇਰਲੈੱਸ ਹੱਲ"
+, "ਤਕਨੀਕੀ ਸਹਾਇਤਾ"
+, "ਕਨੈਕਟੀਵਿਟੀ ਸੁਝਾਅ"
+, "ਘਰੇਲੂ ਨੈੱਟਵਰਕ"
+, "ਇੰਟਰਨੈੱਟ ਗਾਈਡ"
+, "Wi-Fi ਅਨੁਕੂਲਨ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਵਿਹਾਰਕ ਤਕਨਾਲੋਜੀ"
+, "ਨੈੱਟਵਰਕ ਕਾਰਗੁਜ਼ਾਰੀ"</category><guid>https://pa.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਿਗਨਲ ਸੁਧਾਰਨ, ਡਿਸਕਨੈਕਸ਼ਨ ਘਟਾਉਣ ਅਤੇ ਸੁਰੱਖਿਆ ਮਜ਼ਬੂਤ ਕਰਨ ਵਾਲੀਆਂ ਸਲਾਹਾਂ ਨਾਲ Wi-Fi ਸਮੱਸਿਆਵਾਂ ਹੱਲ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/wireless-connectivity_-troubleshooting-common-wi-fi-problems.webp" length="61888" type="image/webp"/></item><item><title>ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ: ਵਧੇਰੇ IT ਕੁਸ਼ਲਤਾ ਅਤੇ ਵਿਸਥਾਰਯੋਗਤਾ</title><link>https://pa.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</link><pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate><category>
+"ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ ਗਾਈਡ"
+, "IT ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਤਕਨੀਕੀ ਨਵੀਨਤਾ"
+, "ਕਲਾਊਡ ਕੰਪਿਊਟਿੰਗ"
+, "ਡਾਟਾ ਸੈਂਟਰ ਪ੍ਰਬੰਧਨ"
+, "ਕੰਪਿਊਟਿੰਗ ਕੁਸ਼ਲਤਾ"
+, "ਨੈੱਟਵਰਕ ਹੱਲ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਸਾਫ਼ਟਵੇਅਰ ਤਰੱਕੀ"
+, "ਹਾਰਡਵੇਅਰ ਅਨੁਕੂਲਨ"</category><guid>https://pa.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+IT ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ ਸੁਧਾਰਨ ਲਈ ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ ਨੂੰ ਸਮਝੋ। ਇਸ ਦੀਆਂ ਕਿਸਮਾਂ, ਫ਼ਾਇਦੇ ਅਤੇ ਬੁਨਿਆਦੀ ਢਾਂਚਾ ਸੰਭਾਲਣ ਦੇ ਚੰਗੇ ਤਰੀਕੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/understanding-virtualization_-concepts-and-applications.webp" length="103918" type="image/webp"/></item><item><title>ਭਰੋਸੇਯੋਗ ਕਾਰਗੁਜ਼ਾਰੀ ਲਈ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ਸਮੱਸਿਆਵਾਂ ਹੱਲ ਕਰਨਾ</title><link>https://pa.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</link><pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕ ਸੁਝਾਅ"
+, "ਆਈਟੀ ਹੱਲ"
+, "ਕਾਰੋਬਾਰੀ ਨਿਰੰਤਰਤਾ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਤਕਨੀਕੀ ਸਮੱਸਿਆ ਹੱਲ"
+, "ਡਿਜੀਟਲ ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਇੰਟਰਨੈੱਟ ਭਰੋਸੇਯੋਗਤਾ"
+, "ਸਿਸਟਮ ਰਿਕਵਰੀ"
+, "ਨੈੱਟਵਰਕ ਪ੍ਰਬੰਧਨ"
+, "ਤਕਨੀਕੀ ਸਹਾਇਤਾ"</category><guid>https://pa.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਕਨੈਕਸ਼ਨ ਸਮੱਸਿਆਵਾਂ ਦੀ ਜਾਂਚ ਅਤੇ ਭਰੋਸੇਯੋਗ ਕਾਰਗੁਜ਼ਾਰੀ ਕਾਇਮ ਰੱਖਣ ਲਈ ਅਜ਼ਮਾਈਆਂ ਤਕਨੀਕਾਂ ਨਾਲ ਆਪਣਾ ਨੈੱਟਵਰਕ ਸਥਿਰ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/ensuring-network-reliability_-how-to-troubleshoot-connection-issues.webp" length="200054" type="image/webp"/></item><item><title>NAT ਅਤੇ PAT: ਨੈੱਟਵਰਕ ਸੰਚਾਰ ਲਈ ਜ਼ਰੂਰੀ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕ ਦੀਆਂ ਬੁਨਿਆਦਾਂ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਆਈਟੀ ਢਾਂਚਾ"
+, "ਤਕਨੀਕੀ ਗਾਈਡਾਂ"
+, "ਨੈੱਟਵਰਕ ਪ੍ਰਬੰਧਨ"
+, "ਇੰਟਰਨੈੱਟ ਪ੍ਰੋਟੋਕੋਲ"
+, "ਸੰਚਾਰ ਤਕਨਾਲੋਜੀਆਂ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਨੈੱਟਵਰਕ ਇੰਜੀਨੀਅਰਿੰਗ"
+, "ਡਿਜ਼ਿਟਲ ਨੈੱਟਵਰਕ"</category><guid>https://pa.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਡਿਜ਼ਿਟਲ ਸੰਚਾਰ ਨੂੰ ਸੁਚਾਰੂ ਬਣਾਉਣ ਲਈ NAT ਅਤੇ PAT ਨੂੰ ਸਮਝੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item><item><title>ਆਪਣਾ ਨੈੱਟਵਰਕ ਸੁਧਾਰੋ: ਡਿਜ਼ਾਈਨ ਅਤੇ ਟੋਪੋਲੋਜੀਆਂ ਸਮਝੋ</title><link>https://pa.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕ ਇੰਜੀਨੀਅਰਿੰਗ"
+, "IT ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਤਕਨੀਕੀ ਗਾਈਡਾਂ"
+, "ਨੈੱਟਵਰਕ ਹੱਲ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਕੰਪਿਊਟਰ ਵਿਗਿਆਨ"
+, "ਤਕਨੀਕੀ ਸਿੱਖਿਆ"
+, "ਸਿਸਟਮ ਆਰਕੀਟੈਕਚਰ"
+, "ਨੈੱਟਵਰਕ ਅਨੁਕੂਲਨ"
+, "ਤਕਨੀਕੀ ਨਵੀਨਤਾਵਾਂ"</category><guid>https://pa.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਨੈੱਟਵਰਕ ਡਿਜ਼ਾਈਨ ਅਤੇ ਟੋਪੋਲੋਜੀਆਂ ਜਾਣੋ ਅਤੇ ਪਰਖੋ ਕਿ ਕਿਹੜੇ ਢੰਗ ਨਾਲ ਵੱਧ ਤੋਂ ਵੱਧ ਕੁਸ਼ਲਤਾ ਮਿਲਦੀ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/decoding-network-designs_-types-and-topologies-explained.webp" length="121144" type="image/webp"/></item><item><title>ਆਪਣੇ ਨੈੱਟਵਰਕ ਨੂੰ ਸੁਧਾਰੋ: DNS ਕੌਂਫਿਗਰੇਸ਼ਨ ਸਮਝੋ</title><link>https://pa.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "IT ਇੰਫਰਾਸਟਰਕਚਰ"
+, "ਤਕਨੀਕੀ ਹੱਲ"
+, "ਇੰਟਰਨੈੱਟ ਤਕਨਾਲੋਜੀ"
+, "DNS ਅਨੁਕੂਲਨ"
+, "ਨੈੱਟਵਰਕ ਕਾਰਗੁਜ਼ਾਰੀ"
+, "ਡਿਜ਼ਿਟਲ ਸੁਰੱਖਿਆ"
+, "ਇੰਟਰਨੈੱਟ ਕਨੈਕਟੀਵਿਟੀ"
+, "ਤਕਨੀਕੀ ਗਾਈਡਾਂ"</category><guid>https://pa.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+DNS ਦੀ ਜਾਣਕਾਰੀ ਨਾਲ ਆਪਣਾ ਨੈੱਟਵਰਕ ਸੁਧਾਰੋ। ਜਾਣੋ ਕਿ DNS ਕਨੈਕਟੀਵਿਟੀ, ਕਾਰਗੁਜ਼ਾਰੀ ਅਤੇ ਸੁਰੱਖਿਆ ਉੱਤੇ ਕਿਵੇਂ ਅਸਰ ਪਾਉਂਦਾ ਹੈ, ਫਿਰ ਕੌਂਫਿਗਰੇਸ਼ਨ ਅਨੁਕੂਲ ਬਣਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp"/></item><item><title>ਗੈਰ-ਈਯੂ ਕਾਰੋਬਾਰਾਂ ਲਈ 2024 ਦੀ GDPR ਪਾਲਣਾ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/understanding-gdpr_-a-guide-for-non-eu-businesses/</link><pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate><category>
+"ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਪਾਲਣਾ ਗਾਈਡ"
+, "GDPR ਦੇ ਮੁੱਖ ਨੁਕਤੇ"
+, "ਗੋਪਨੀਯਤਾ ਕਾਨੂੰਨ"
+, "ਕਾਰੋਬਾਰੀ ਸੁਰੱਖਿਆ"
+, "ਅੰਤਰਰਾਸ਼ਟਰੀ ਡਾਟਾ ਨਿਯਮ"
+, "ਡਿਜ਼ੀਟਲ ਪਾਲਣਾ"
+, "ਈਯੂ ਗਾਹਕਾਂ ਦਾ ਭਰੋਸਾ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ ਦੇ ਵਧੀਆ ਤਰੀਕੇ"</category><guid>https://pa.simeononsecurity.com/articles/understanding-gdpr_-a-guide-for-non-eu-businesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ GDPR ਗੈਰ-ਈਯੂ ਕਾਰੋਬਾਰਾਂ 'ਤੇ ਕਦੋਂ ਲਾਗੂ ਹੁੰਦਾ ਹੈ ਅਤੇ ਕਾਨੂੰਨੀ ਡਾਟਾ ਪ੍ਰੋਸੈਸਿੰਗ, ਡਾਟਾ ਅਧਿਕਾਰਾਂ, ਉਲੰਘਣਾ ਦੀ ਸੂਚਨਾ, ਤਬਾਦਲਿਆਂ, ਵਿਕਰੇਤਾਵਾਂ, ਰਿਕਾਰਡਾਂ ਅਤੇ ਜੁਰਮਾਨਿਆਂ ਨਾਲ ਕਿਵੇਂ ਨਜਿੱਠਣਾ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/understanding-gdpr_-a-guide-for-non-eu-businesses.webp" length="68080" type="image/webp"/></item><item><title>ਆਪਣੇ ਈ-ਕਾਮਰਸ ਦੀ ਸੁਰੱਖਿਆ ਮਜ਼ਬੂਤ ਕਰੋ</title><link>https://pa.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</link><pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate><category>
+"ਈ-ਕਾਮਰਸ ਸੁਰੱਖਿਆ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਆਨਲਾਈਨ ਕਾਰੋਬਾਰ"
+, "ਵੈੱਬਸਾਈਟ ਸੁਰੱਖਿਆ"
+, "ਗਾਹਕਾਂ ਦਾ ਭਰੋਸਾ"
+, "ਸੁਰੱਖਿਅਤ ਲੈਣ-ਦੇਣ"
+, "SSL ਇਨਕ੍ਰਿਪਸ਼ਨ"
+, "ਪਾਸਵਰਡ ਨੀਤੀਆਂ"
+, "ਸੁਰੱਖਿਆ ਦੇ ਚੰਗੇ ਤਰੀਕੇ"</category><guid>https://pa.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+TLS, ਪ੍ਰਬੰਧਕਾਂ ਲਈ MFA, ਸਾਫਟਵੇਅਰ ਅੱਪਡੇਟਾਂ, ਭੁਗਤਾਨ ਨਿਯੰਤਰਣ, ਇਨਕ੍ਰਿਪਸ਼ਨ, ਨਿਗਰਾਨੀ, ਕਰਮਚਾਰੀ ਸਿਖਲਾਈ, ਧੋਖਾਧੜੀ ਤੋਂ ਬਚਾਅ ਅਤੇ ਘਟਨਾ-ਜਵਾਬ ਰਾਹੀਂ ਆਪਣੀ ਆਨਲਾਈਨ ਦੁਕਾਨ ਦੀ ਰੱਖਿਆ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/the-2024-checklist-for-securing-your-e-commerce-site.webp" length="88770" type="image/webp"/></item><item><title>ਤੁਹਾਡੀ ਕੰਪਨੀ ਲਈ ਅੰਦਰੂਨੀ ਖਤਰਿਆਂ ਤੋਂ ਬਚਾਅ ਦੀਆਂ ਰਣਨੀਤੀਆਂ</title><link>https://pa.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</link><pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਕਾਰਪੋਰੇਟ ਸੁਰੱਖਿਆ"
+, "ਅੰਦਰੂਨੀ ਖਤਰੇ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਕਰਮਚਾਰੀ ਸਿਖਲਾਈ"
+, "ਸੁਰੱਖਿਆ ਉਪਾਅ"
+, "ਘਟਨਾ ਜਵਾਬ"
+, "ਵਿਹਾਰ ਵਿਸ਼ਲੇਸ਼ਣ"
+, "ਵਰਤੋਂਕਾਰ ਸਰਗਰਮੀ ਨਿਗਰਾਨੀ"
+, "ਸੁਰੱਖਿਆ ਦਾ ਸੱਭਿਆਚਾਰ"</category><guid>https://pa.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਪਹੁੰਚ ਨਿਯੰਤਰਣ, ਸਰਗਰਮੀ ਨਿਗਰਾਨੀ, ਰਿਪੋਰਟਿੰਗ ਚੈਨਲਾਂ, ਨੌਕਰੀ ਛੱਡਣ ਦੀਆਂ ਪ੍ਰਕਿਰਿਆਵਾਂ ਅਤੇ ਸੁਰੱਖਿਆ-ਕੇਂਦਰਿਤ ਕੰਮਕਾਜੀ ਸੱਭਿਆਚਾਰ ਨਾਲ ਅੰਦਰੂਨੀ ਖਤਰਿਆਂ ਦਾ ਜੋਖਮ ਘਟਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/protecting-against-insider-threats_-strategies-for-your-company.webp" length="87882" type="image/webp"/></item><item><title>ਨੈਕਸਟ-ਜਨ ਫਾਇਰਵਾਲ: ਤੁਹਾਡੇ ਕਾਰੋਬਾਰ ਲਈ ਅਹਿਮ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ</title><link>https://pa.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</link><pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਫਾਇਰਵਾਲ ਤਕਨਾਲੋਜੀ"
+, "ਕਾਰੋਬਾਰੀ ਸੁਰੱਖਿਆ"
+, "ਕਲਾਊਡ ਏਕੀਕਰਨ"
+, "ਡਿਜ਼ੀਟਲ ਖਤਰੇ"
+, "ਨੈੱਟਵਰਕ ਪ੍ਰਬੰਧਨ"
+, "ਸੁਰੱਖਿਆ ਹੱਲ"
+, "ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ"
+, "ਤਕਨਾਲੋਜੀ ਜਾਣਕਾਰੀ"</category><guid>https://pa.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਐਪਲੀਕੇਸ਼ਨ ਨਿਯੰਤਰਣ, ਘੁਸਪੈਠ ਰੋਕਥਾਮ, ਖਤਰਾ ਸੁਰੱਖਿਆ, ਕਲਾਊਡ ਸਹਾਇਤਾ, ਥਰੂਪੁੱਟ, ਲਚਕ ਅਤੇ ਪ੍ਰਬੰਧਨ ਦੇ ਆਧਾਰ 'ਤੇ ਨੈਕਸਟ-ਜਨ ਫਾਇਰਵਾਲ ਚੁਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/next-gen-firewalls_-features-you-can%27t-ignore-for-your-business.webp" length="128018" type="image/webp"/></item><item><title>ਭੇਤਾਂ ਤੋਂ ਪਰਦਾ ਹਟਾਉਣਾ</title><link>https://pa.simeononsecurity.com/articles/navigating-the-dark-web-safely_-a-beginners-guide/</link><pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਇੰਟਰਨੈੱਟ ਪਰਦੇਦਾਰੀ"
+, "ਡਾਰਕ ਵੈੱਬ ਦੀ ਖੋਜ"
+, "ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ"
+, "ਡਿਜ਼ਿਟਲ ਗੁਮਨਾਮੀ"
+, "ਵੈੱਬ ਸੁਰੱਖਿਆ"
+, "ਇੰਟਰਨੈੱਟ ਨੈਤਿਕਤਾ"
+, "VPN ਮਾਰਗਦਰਸ਼ਿਕਾ"
+, "Tor ਨੈੱਟਵਰਕ"</category><guid>https://pa.simeononsecurity.com/articles/navigating-the-dark-web-safely_-a-beginners-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Tor, ਪਰਦੇਦਾਰੀ ਨਿਯੰਤਰਣਾਂ, ਧੋਖਾਧੜੀ ਅਤੇ ਮੈਲਵੇਅਰ ਤੋਂ ਬਚਾਅ, ਕਾਨੂੰਨੀ ਹੱਦਾਂ, ਪਛਾਣ ਦੀ ਸੁਰੱਖਿਆ ਅਤੇ ਰਿਪੋਰਟ ਕਰਨ ਦੇ ਕਦਮਾਂ ਨਾਲ ਡਾਰਕ ਵੈੱਬ ਨੂੰ ਹੋਰ ਸੁਰੱਖਿਅਤ ਢੰਗ ਨਾਲ ਵਰਤੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/navigating-the-dark-web-safely_-a-beginners-guide.webp" length="90360" type="image/webp"/></item><item><title>ਘਟਨਾ ਪ੍ਰਤੀਕਿਰਿਆ ਯੋਜਨਾ: ਕਦਮ-ਦਰ-ਕਦਮ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਘਟਨਾ ਪ੍ਰਤੀਕਿਰਿਆ"
+, "ਕਾਰੋਬਾਰੀ ਸੁਰੱਖਿਆ"
+, "ਸਾਈਬਰ ਖਤਰੇ"
+, "ਜੋਖਮ ਪ੍ਰਬੰਧਨ"
+, "ਸੁਰੱਖਿਆ ਯੋਜਨਾ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਆਈਟੀ ਸੁਰੱਖਿਆ"
+, "ਡਿਜੀਟਲ ਲਚਕਤਾ"
+, "ਸੰਕਟ ਪ੍ਰਬੰਧਨ"</category><guid>https://pa.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਪਸ਼ਟ ਭੂਮਿਕਾਵਾਂ, ਸੰਚਾਰ ਮਾਰਗਾਂ, ਪ੍ਰਕਿਰਿਆਵਾਂ, ਸਾਧਨਾਂ, ਅਭਿਆਸਾਂ, ਮਾਪਦੰਡਾਂ ਅਤੇ ਲਗਾਤਾਰ ਅਪਡੇਟਾਂ ਵਾਲੀ ਘਟਨਾ ਪ੍ਰਤੀਕਿਰਿਆ ਯੋਜਨਾ ਬਣਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.webp" length="96088" type="image/webp"/></item><item><title>ਛੋਟੇ ਕਾਰੋਬਾਰ ਲਈ ਫਿਸ਼ਿੰਗ ਤੋਂ ਸੁਰੱਖਿਆ: ਪੂਰੀ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਛੋਟੇ ਕਾਰੋਬਾਰ ਦੀ ਸੁਰੱਖਿਆ"
+, "ਫਿਸ਼ਿੰਗ ਧੋਖਾਧੜੀ"
+, "ਕਰਮਚਾਰੀ ਸਿਖਲਾਈ"
+, "ਈਮੇਲ ਸੁਰੱਖਿਆ"
+, "ਬਹੁ-ਕਾਰਕ ਪ੍ਰਮਾਣੀਕਰਨ"
+, "ਸੁਰੱਖਿਆ ਆਡਿਟ"
+, "ਸੋਸ਼ਲ ਇੰਜੀਨੀਅਰਿੰਗ ਦੀਆਂ ਚਾਲਾਂ"
+, "ਡਿਜ਼ਿਟਲ ਖ਼ਤਰੇ"
+, "ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਕਰਮਚਾਰੀ ਸਿਖਲਾਈ, ਈਮੇਲ ਨਿਯੰਤਰਣ, ਤਸਦੀਕ ਪ੍ਰਕਿਰਿਆਵਾਂ, ਰਿਪੋਰਟਿੰਗ ਦੇ ਕਦਮਾਂ ਅਤੇ ਜਾਂਚੀ ਹੋਈ ਘਟਨਾ-ਜਵਾਬ ਯੋਜਨਾ ਰਾਹੀਂ ਛੋਟੇ ਕਾਰੋਬਾਰ ਨੂੰ ਫਿਸ਼ਿੰਗ ਤੋਂ ਬਚਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/how-to-protect-your-small-business-from-phishing-scams.webp" length="88634" type="image/webp"/></item><item><title>SSL/TLS ਸੁਰੱਖਿਆ ਗਾਈਡ: ਆਪਣੀ ਵੈੱਬਸਾਈਟ ਦਾ ਡਾਟਾ ਸੁਰੱਖਿਅਤ ਕਰੋ</title><link>https://pa.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਤਕਨਾਲੋਜੀ"
+, "ਵੈੱਬ ਸੁਰੱਖਿਆ"
+, "ਡਾਟਾ ਇਨਕ੍ਰਿਪਸ਼ਨ"
+, "ਇੰਟਰਨੈੱਟ ਪ੍ਰੋਟੋਕੋਲ"
+, "ਡਿਜ਼ਿਟਲ ਪਰਦੇਦਾਰੀ"
+, "ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ"
+, "SSL/TLS ਲਾਗੂ ਕਰਨਾ"
+, "ਸਾਈਬਰ ਖ਼ਤਰੇ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦਾ ਭਵਿੱਖ"</category><guid>https://pa.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ ਮਜ਼ਬੂਤ ਇਨਕ੍ਰਿਪਸ਼ਨ ਨਾਲ SSL/TLS ਤੁਹਾਡੀ ਵੈੱਬਸਾਈਟ ਦੀ ਰੱਖਿਆ ਕਿਵੇਂ ਕਰਦਾ ਹੈ। ਕਮਜ਼ੋਰੀਆਂ, ਚੰਗੇ ਅਮਲ ਅਤੇ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੇ ਭਵਿੱਖ ਬਾਰੇ ਜਾਣ ਕੇ ਅੱਜ ਹੀ ਆਪਣੀ ਸਾਈਟ ਦੀ ਸੁਰੱਖਿਆ ਵਧਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/TLS_%20Securing%20Your%20Website%20Data.webp" length="171950" type="image/webp"/></item><item><title>ਸੁਰੱਖਿਆ ਆਟੋਮੇਸ਼ਨ: ਡਿਜ਼ਿਟਲ ਰੱਖਿਆ ਮਜ਼ਬੂਤ ਕਰਨ ਲਈ ਮਾਰਗਦਰਸ਼ਕ</title><link>https://pa.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><category>
+"ਸੁਰੱਖਿਆ ਆਟੋਮੇਸ਼ਨ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਸੁਰੱਖਿਆ ਵਿੱਚ ਮਸ਼ੀਨ ਲਰਨਿੰਗ"
+, "ਆਟੋਮੈਟਿਕ ਅਨੁਕੂਲਤਾ ਨਿਗਰਾਨੀ"
+, "ਸੁਰੱਖਿਆ ਆਰਕੈਸਟ੍ਰੇਸ਼ਨ"
+, "ਘਟਨਾ ਪ੍ਰਤੀਕਿਰਿਆ"
+, "ਲਗਾਤਾਰ ਸੁਧਾਰ"
+, "ਸੁਰੱਖਿਆ ਵਿੱਚ ਮਨੁੱਖੀ ਨਿਗਰਾਨੀ"
+, "ਖਤਰੇ ਦੀ ਪਛਾਣ ਅਤੇ ਪ੍ਰਤੀਕਿਰਿਆ"
+, "ਸੁਰੱਖਿਆ ਦੇ ਚੰਗੇ ਤਰੀਕੇ"</category><guid>https://pa.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਪਸ਼ਟ ਵਰਤੋਂ-ਮਾਮਲਿਆਂ, ਸੰਦਾਂ ਦੇ ਏਕੀਕਰਨ, ਮਨੁੱਖੀ ਸਮੀਖਿਆ, ਚੇਤਾਵਨੀਆਂ ਦੀ ਟਿਊਨਿੰਗ, ਮਾਪਦੰਡਾਂ ਅਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਪ੍ਰਣਾਲੀਆਂ ਦੇ ਨਿਯੰਤਰਣ ਨਾਲ ਸੁਰੱਖਿਆ ਆਟੋਮੇਸ਼ਨ ਦੀ ਯੋਜਨਾ ਬਣਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/mastering-security-automation_-streamlining-processes-for-enhanced-protection.webp" length="253188" type="image/webp"/></item><item><title>ਕਾਰੋਬਾਰਾਂ ਲਈ ਸੁਰੱਖਿਆ ਦੇ 7 ਜ਼ਰੂਰੀ ਤਰੀਕੇ</title><link>https://pa.simeononsecurity.com/articles/7-essential-security-practices-for-any-business/</link><pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate><category>
+"ਕਾਰੋਬਾਰੀ ਸੁਰੱਖਿਆ"
+, "ਭੌਤਿਕ ਸੁਰੱਖਿਆ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਘਟਨਾ ਪ੍ਰਤੀਕਿਰਿਆ"
+, "ਕਰਮਚਾਰੀ ਸਿਖਲਾਈ"
+, "ਡਾਟਾ ਇਨਕ੍ਰਿਪਸ਼ਨ"
+, "ਨਿਗਰਾਨੀ ਪ੍ਰਣਾਲੀਆਂ"
+, "ਪਹੁੰਚ ਨਿਯੰਤਰਣ"
+, "ਸੁਰੱਖਿਆ ਪ੍ਰੋਟੋਕੋਲ"
+, "ਡਿਜੀਟਲ ਲਚਕਤਾ"</category><guid>https://pa.simeononsecurity.com/articles/7-essential-security-practices-for-any-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਕਾਰੋਬਾਰਾਂ ਲਈ ਸੁਰੱਖਿਆ ਦੇ ਸੱਤ ਅਮਲੀ ਤਰੀਕੇ, ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਭੌਤਿਕ ਸੁਰੱਖਿਆ, ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਅਤੇ ਲਚਕਤਾ ਦੀ ਯੋਜਨਾ ਸ਼ਾਮਲ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/7-essential-security-practices-for-any-business.webp" length="235660" type="image/webp"/></item><item><title>ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਵਿੱਚ ਉੱਨਤ ਤਕਨਾਲੋਜੀ ਨਾਲੋਂ ਵਰਤੋਂਕਾਰਾਂ ਦੀ ਸਿਖਲਾਈ ਕਿਉਂ ਵੱਧ ਅਹਿਮ ਹੈ</title><link>https://pa.simeononsecurity.com/articles/user-training-vs-advanced-tech-cybersecurity/</link><pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਵਰਤੋਂਕਾਰ ਸਿਖਲਾਈ"
+, "ਡਿਜ਼ਿਟਲ ਸੁਰੱਖਿਆ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਫਿਸ਼ਿੰਗ ਰੋਕਥਾਮ"
+, "ਸੋਸ਼ਲ ਇੰਜੀਨੀਅਰਿੰਗ"
+, "ਨਿਯਮਾਂ ਦੀ ਪਾਲਣਾ"
+, "ਕਰਮਚਾਰੀ ਸਿੱਖਿਆ"
+, "ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ"
+, "ਜਾਣਕਾਰੀ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/user-training-vs-advanced-tech-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਵਿੱਚ ਵਰਤੋਂਕਾਰਾਂ ਦੀ ਸਿਖਲਾਈ ਕਿਉਂ ਜ਼ਰੂਰੀ ਹੈ ਅਤੇ ਇਹ ਤੁਹਾਡੀ ਡਿਜ਼ਿਟਲ ਰੱਖਿਆ ਨੂੰ ਕਿਵੇਂ ਮਜ਼ਬੂਤ ਕਰਦੀ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/user-training-cybersecurity-defense.webp" length="105250" type="image/webp"/></item></channel></rss>

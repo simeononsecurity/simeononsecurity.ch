@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ollama on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>Ollama on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/ollama/</link></image><link>https://pa.simeononsecurity.com/tags/ollama/</link><description>Recent content in Ollama on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/ollama/index.xml" rel="self" type="application/rss+xml"/><item><title>ਬਿਨਾ ਸੈਂਸਰ ਸਥਾਨਕ AI ਮਾਡਲ ਕਿਵੇਂ ਚੁਣੀਏ</title><link>https://pa.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਸਵੈ-ਹੋਸਟ ਕੀਤਾ AI"
+, "AI ਸੁਰੱਖਿਆ"
+, "GPU ਉਪਕਰਣ"</category><guid>https://pa.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮੁਕੰਮਲ ਜਵਾਬਾਂ, ਬਰਕਰਾਰ ਸਮਰੱਥਾ, ਸੰਦਰਭ ਦੀ ਵਰਤੋਂ, ਕੁਆਂਟਾਈਜ਼ੇਸ਼ਨ ਅਤੇ VRAM ਦੀ ਲੋੜ ਦੇ ਆਧਾਰ 'ਤੇ ਸਥਾਨਕ ਮਾਡਲ ਰੂਪਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Pi-hole ਤੋਂ ਸਥਾਨਕ AI ਤੱਕ, 10 ਪੱਧਰਾਂ ਵਿੱਚ ਹੋਮ ਲੈਬ ਬਣਾਓ</title><link>https://pa.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਹੋਮ ਲੈਬ"
+, "ਸੈਲਫ਼-ਹੋਸਟਿੰਗ"
+, "ਸਥਾਨਕ AI"
+, "ਘਰੇਲੂ ਨੈੱਟਵਰਕਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਪੂਰੇ ਨੈੱਟਵਰਕ ਦੀ DNS ਫਿਲਟਰਿੰਗ ਤੋਂ ਸਥਾਨਕ AI ਤੱਕ, ਦਸ ਕਾਰਗਰ ਪੜਾਵਾਂ ਵਿੱਚ ਹੋਮ ਲੈਬ ਬਣਾਓ। ਹਰ ਪੱਧਰ ਲਈ ਹਾਰਡਵੇਅਰ, ਖ਼ਰਚੇ, ਹੁਨਰ ਅਤੇ ਸਮਝੌਤੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Hermes ਲੋਕਲ ਮਾਡਲ ਬੈਂਚਮਾਰਕ: ਮੈਂ ਕਿਹੜੇ GPU ਅਤੇ ਮਾਡਲ ਜੋੜ ਚੁਣਾਂਗਾ</title><link>https://pa.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "ਲੋਕਲ AI"
+, "ਹਾਰਡਵੇਅਰ"</category><guid>https://pa.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti ਅਤੇ RTX 3070 ਸਿਸਟਮਾਂ ਉੱਤੇ ਲੰਮੇ ਸੰਦਰਭ, ਟੂਲਾਂ, ਸਟ੍ਰੀਮਿੰਗ ਅਤੇ ਵਿਜ਼ਨ ਟੈਸਟਾਂ ਤੋਂ ਮੇਰੀਆਂ Hermes ਮਾਡਲ ਸਿਫ਼ਾਰਸ਼ਾਂ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>ਸਾਡੇ ਹਾਈਬ੍ਰਿਡ ਏਜੰਟਿਕ AI ਫਲੀਟ ਦੇ ਅੰਦਰ: Hermes, LiteLLM ਅਤੇ Tailscale</title><link>https://pa.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਸਵੈ-ਹੋਸਟ ਕੀਤਾ AI"
+, "AI ਏਜੰਟ"
+, "AI ਢਾਂਚਾ"
+, "GPU ਮਾਈਨਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hermes, LiteLLM, Tailscale Aperture ਅਤੇ Pearl ਮਾਈਨਿੰਗ ਵਾਲੇ ਤਸਦੀਕਸ਼ੁਦਾ lazy-loaded ਸਥਾਨਕ AI ਫਲੀਟ ਅਤੇ ਇਸ ਦੇ T0 ਤੋਂ T4 ਕੰਟਰੋਲ ਪਲੇਨ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>OpenCode ਬਨਾਮ Claude Code: 2026 ਕੋਡਿੰਗ ਏਜੰਟ ਤੁਲਨਾ</title><link>https://pa.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਡਿਵੈਲਪਰ ਟੂਲ"
+, "ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "ਓਪਨ ਸੋਰਸ"</category><guid>https://pa.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮਾਡਲ ਚੋਣ, ਲੋਕਲ ਇਨਫ਼ਰੈਂਸ, ਕੀਮਤ, ਇਜਾਜ਼ਤਾਂ, ਪ੍ਰੋਜੈਕਟ ਹਦਾਇਤਾਂ ਅਤੇ ਰੋਜ਼ਾਨਾ ਕੋਡਿੰਗ ਵਰਕਫ਼ਲੋ ਲਈ OpenCode ਅਤੇ Claude Code ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>ਤੁਹਾਨੂੰ ਕਿਹੜਾ ਲੋਕਲ AI ਮਾਡਲ ਚਲਾਉਣਾ ਚਾਹੀਦਾ ਹੈ? ਅਕਤੂਬਰ 2026 ਲਈ GPU, ਕਾਂਟੈਕਸਟ ਅਤੇ ਕੋਡਿੰਗ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਲੋਕਲ AI"
+, "AI ਹਾਰਡਵੇਅਰ"
+, "Self-Hosted AI"
+, "GPU Benchmarking"
+, "Developer Tools"
+, "AI Economics"</category><guid>https://pa.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਕੋਡਿੰਗ ਏਜੰਟਾਂ ਲਈ ਲੋਕਲ AI ਮਾਡਲ ਚੁਣਨ ਬਾਰੇ ਅਕਤੂਬਰ 2026 ਦੀ ਵਿਹਾਰਕ ਗਾਈਡ। GPU ਮੈਮੋਰੀ, KV-cache ਵਾਧਾ, ਕਾਂਟੈਕਸਟ ਆਕਾਰ, quantization ਗੁਣਵੱਤਾ, prompt processing, reasoning ਸੈਟਿੰਗਾਂ ਅਤੇ cloud rental ਲਾਗਤਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>2026 ਵਿੱਚ ਸਥਾਨਕ AI: 27B ਮਾਡਲ Sonnet 4.6 ਤੋਂ ਅੱਗੇ, ਹਾਰਡਵੇਅਰ ਖਰੀਦਣ ਦਾ ਮੌਕਾ ਮੁੱਕ ਰਿਹਾ ਹੈ</title><link>https://pa.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਸਵੈ-ਹੋਸਟ ਕੀਤਾ AI"
+, "ਖੁੱਲ੍ਹੇ ਸਰੋਤ ਦੇ ਮਾਡਲ"
+, "AI ਹਾਰਡਵੇਅਰ"
+, "ਮਸ਼ੀਨ ਲਰਨਿੰਗ"
+, "ਕੁਆਂਟਾਈਜ਼ੇਸ਼ਨ"
+, "ਘਰੇਲੂ ਲੈਬ"
+, "ਪਰਦੇਦਾਰੀ"
+, "AI ਅਰਥਵਿਵਸਥਾ"
+, "ਖਪਤਕਾਰ ਹਾਰਡਵੇਅਰ"</category><guid>https://pa.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮਾਡਲ ਦੇ ਆਕਾਰ, VRAM, ਮੈਮੋਰੀ ਬੈਂਡਵਿਡਥ, ਬਿਜਲੀ, ਲਾਗਤ ਅਤੇ ਅੱਪਗ੍ਰੇਡ ਦੇ ਵਿਕਲਪਾਂ ਦੇ ਆਧਾਰ ’ਤੇ 2026 ਲਈ ਸਥਾਨਕ AI ਕੰਪਿਊਟਰ ਦੀ ਯੋਜਨਾ ਬਣਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Raspberry Pi 4 ਜਾਂ 5 ਉੱਤੇ ਕਿਹੜੇ AI ਮਾਡਲ ਚੱਲਦੇ ਹਨ?</title><link>https://pa.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "ਸਵੈ-ਹੋਸਟਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Raspberry Pi 4 ਅਤੇ 5 ਦੇ ਮਾਪੇ ਨਤੀਜਿਆਂ ਤੋਂ ਮੈਮੋਰੀ, ਗਤੀ ਅਤੇ ਕੰਮ ਮੁਤਾਬਕ ਸਥਾਨਕ ਭਾਸ਼ਾ ਮਾਡਲ ਚੁਣੋ, ਛੋਟੇ LFM2.5 ਤੋਂ 3B ਅਤੇ ਵੱਡੇ ਵਿਕਲਪਾਂ ਤੱਕ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item><item><title>Meshtastic ਲਈ ਨਿੱਜਤਾ-ਸੁਰੱਖਿਅਤ AI ਸਹਾਇਕ ਬਣਾਉਣਾ</title><link>https://pa.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਨਿੱਜਤਾ"
+, "ਓਪਨ ਸੋਰਸ"
+, "ਆਟੋਮੇਸ਼ਨ"</category><guid>https://pa.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Meshtastic ਲਈ ਸਥਾਨਕ AI ਸਹਾਇਕ ਬਣਾਉਣ ਦਾ ਅਮਲੀ ਵੇਰਵਾ। ਇਸ ਵਿੱਚ ਨਿੱਜੀ ਸੰਰਚਨਾ, ਕਤਾਰ ਰਾਹੀਂ TCP ਪਹੁੰਚ, ਜਾਣਕਾਰੀ ਲੈਣ ਵਾਲੇ ਔਜ਼ਾਰ ਅਤੇ ਵਧੇਰੇ ਸੁਰੱਖਿਅਤ ਡੈਸ਼ਬੋਰਡ ਸ਼ਾਮਲ ਹਨ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item></channel></rss>

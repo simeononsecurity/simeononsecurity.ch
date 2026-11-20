@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TLS on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>TLS on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/tls/</link></image><link>https://pa.simeononsecurity.com/tags/tls/</link><description>Recent content in TLS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/tls/index.xml" rel="self" type="application/rss+xml"/><item><title>ਆਪਣੇ Docker ਅਤੇ Kubernetes ਵਾਤਾਵਰਣ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਿਵੇਂ ਬਣਾਈਏ</title><link>https://pa.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link><pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate><category>
+"Docker"
+, "Kubernetes"
+, "ਸੁਰੱਖਿਆ"
+, "ਕੰਟੇਨਰ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "RBAC"
+, "API ਸਰਵਰ"
+, "ਕਮਜ਼ੋਰੀਆਂ"
+, "ਨਿਗਰਾਨੀ"
+, "ਲੌਗਿੰਗ"
+, "ਫਾਇਰਵਾਲ"
+, "TLS"
+, "Anchore"
+, "Clair"
+, "Aqua Security"
+, "ELK Stack"
+, "Splunk"
+, "Prometheus"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਵਧੀਆ ਤਰੀਕੇ"</category><guid>https://pa.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਅਧਿਕਾਰਤ ਇਮੇਜਾਂ ਦੀ ਵਰਤੋਂ, ਇਜਾਜ਼ਤਾਂ ਸੀਮਿਤ ਕਰਨ ਅਤੇ ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ ਲਾਗੂ ਕਰਨ ਸਮੇਤ Docker ਅਤੇ Kubernetes ਵਾਤਾਵਰਣ ਸੁਰੱਖਿਅਤ ਕਰਨ ਦੇ ਵਧੀਆ ਤਰੀਕੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp" length="126938" type="image/webp"/></item></channel></rss>

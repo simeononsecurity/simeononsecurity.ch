@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਘਟਨਾ ਜਵਾਬ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਘਟਨਾ ਜਵਾਬ on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/%E0%A8%98%E0%A8%9F%E0%A8%A8%E0%A8%BE-%E0%A8%9C%E0%A8%B5%E0%A8%BE%E0%A8%AC/</link></image><link>https://pa.simeononsecurity.com/tags/%E0%A8%98%E0%A8%9F%E0%A8%A8%E0%A8%BE-%E0%A8%9C%E0%A8%B5%E0%A8%BE%E0%A8%AC/</link><description>Recent content in ਘਟਨਾ ਜਵਾਬ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/%E0%A8%98%E0%A8%9F%E0%A8%A8%E0%A8%BE-%E0%A8%9C%E0%A8%B5%E0%A8%BE%E0%A8%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>Microsoft SOC ਘਰੇਲੂ ਲੈਬ: 2026 ਵਿੱਚ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦਾ ਤਜਰਬਾ ਬਣਾਓ</title><link>https://pa.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਕਲਾਉਡ ਸੁਰੱਖਿਆ"
+, "ਕਰੀਅਰ ਵਿਕਾਸ"</category><guid>https://pa.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Sentinel, Defender, Intune ਅਤੇ Entra ਨਾਲ Microsoft SOC ਲੈਬ ਬਣਾਓ। ਘਟਨਾਵਾਂ ਦੀ ਜਾਂਚ ਕਰੋ, passkey ਨੀਤੀਆਂ ਪਰਖੋ ਅਤੇ ਪੋਰਟਫੋਲੀਓ ਲਈ ਸਬੂਤ ਦਰਜ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>ਸਾਈਬਰ ਲਚਕਸ਼ੀਲਤਾ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰਨਾ</title><link>https://pa.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</link><pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate><category>
+"ਪੈਨੀਟ੍ਰੇਸ਼ਨ ਟੈਸਟਿੰਗ"
+, "ਨੈਤਿਕ ਹੈਕਿੰਗ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਰਣਨੀਤੀਆਂ"
+, "ਸੁਰੱਖਿਆ ਉਪਾਅ"
+, "ਕਮਜ਼ੋਰੀ ਮੁਲਾਂਕਣ"
+, "ਘਟਨਾ ਜਵਾਬ"
+, "ਨਿਯਮਕ ਪਾਲਣਾ"
+, "ਸੁਰੱਖਿਆ ਨਿਯੰਤਰਣ"
+, "ਸਾਈਬਰ ਲਚਕਸ਼ੀਲਤਾ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦਾ ਭਵਿੱਖ"</category><guid>https://pa.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ ਨਿਯਮਤ ਪੈਨੀਟ੍ਰੇਸ਼ਨ ਟੈਸਟ ਕਿਵੇਂ ਵਰਤੋਂਯੋਗ ਕਮਜ਼ੋਰੀਆਂ ਲੱਭਦੇ ਹਨ, ਜੋਖਮ-ਅਧਾਰਿਤ ਸੁਧਾਰਾਂ ਵਿੱਚ ਮਦਦ ਕਰਦੇ ਹਨ ਅਤੇ ਸਿਸਟਮਾਂ ਤੇ ਐਪਲੀਕੇਸ਼ਨਾਂ ਦੀ ਰੱਖਿਆ ਪਰਖਦੇ ਹਨ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/the-importance-of-regular-penetration-testing-for-cybersecurity.webp" length="85258" type="image/webp"/></item><item><title>ਤੁਹਾਡੀ ਕੰਪਨੀ ਲਈ ਅੰਦਰੂਨੀ ਖਤਰਿਆਂ ਤੋਂ ਬਚਾਅ ਦੀਆਂ ਰਣਨੀਤੀਆਂ</title><link>https://pa.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</link><pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਕਾਰਪੋਰੇਟ ਸੁਰੱਖਿਆ"
+, "ਅੰਦਰੂਨੀ ਖਤਰੇ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਕਰਮਚਾਰੀ ਸਿਖਲਾਈ"
+, "ਸੁਰੱਖਿਆ ਉਪਾਅ"
+, "ਘਟਨਾ ਜਵਾਬ"
+, "ਵਿਹਾਰ ਵਿਸ਼ਲੇਸ਼ਣ"
+, "ਵਰਤੋਂਕਾਰ ਸਰਗਰਮੀ ਨਿਗਰਾਨੀ"
+, "ਸੁਰੱਖਿਆ ਦਾ ਸੱਭਿਆਚਾਰ"</category><guid>https://pa.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਪਹੁੰਚ ਨਿਯੰਤਰਣ, ਸਰਗਰਮੀ ਨਿਗਰਾਨੀ, ਰਿਪੋਰਟਿੰਗ ਚੈਨਲਾਂ, ਨੌਕਰੀ ਛੱਡਣ ਦੀਆਂ ਪ੍ਰਕਿਰਿਆਵਾਂ ਅਤੇ ਸੁਰੱਖਿਆ-ਕੇਂਦਰਿਤ ਕੰਮਕਾਜੀ ਸੱਭਿਆਚਾਰ ਨਾਲ ਅੰਦਰੂਨੀ ਖਤਰਿਆਂ ਦਾ ਜੋਖਮ ਘਟਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/protecting-against-insider-threats_-strategies-for-your-company.webp" length="87882" type="image/webp"/></item><item><title>ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੇ ਵਧੀਆ ਮੀਮ ਅਤੇ ਪੌਪ ਸੱਭਿਆਚਾਰ ਦੇ ਹਵਾਲੇ</title><link>https://pa.simeononsecurity.com/articles/best-cybersecurity-memes-pop-culture-references/</link><pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਇੰਟਰਨੈੱਟ ਸੱਭਿਆਚਾਰ"
+, "ਮੀਮ"
+, "ਪੌਪ ਸੱਭਿਆਚਾਰ"
+, "ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ"
+, "ਡਿਜ਼ਿਟਲ ਹਾਸਾ"
+, "ਸਾਈਬਰ ਸਿੱਖਿਆ"
+, "ਸਾਈਬਰ ਖਤਰੇ"
+, "ਇੰਟਰਨੈੱਟ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/best-cybersecurity-memes-pop-culture-references/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮੀਮ ਅਤੇ ਪੌਪ ਸੱਭਿਆਚਾਰ ਦੇ ਹਵਾਲੇ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਅਤੇ ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ ਨੂੰ ਸੌਖੇ ਤੇ ਮਨੋਰੰਜਕ ਢੰਗ ਨਾਲ ਸਮਝਾਉਂਦੇ ਹਨ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/hacker-cat-meme.webp" length="113576" type="image/webp"/></item><item><title>ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਵਿੱਚ ਕਰੀਅਰ ਕਿਵੇਂ ਸ਼ੁਰੂ ਕਰੀਏ</title><link>https://pa.simeononsecurity.com/articles/cybersecurity-career-coding-opportunities/</link><pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਕਰੀਅਰ"
+, "ਪ੍ਰੋਗਰਾਮਿੰਗ"
+, "ਆਈਟੀ"
+, "ਹੁਨਰ"
+, "ਮੌਕੇ"
+, "ਸਿੱਖਿਆ"
+, "ਕੋਡਿੰਗ"
+, "ਡਿਜ਼ਿਟਲ"</category><guid>https://pa.simeononsecurity.com/articles/cybersecurity-career-coding-opportunities/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੀਆਂ ਨੌਕਰੀਆਂ, ਕੋਡਿੰਗ ਦੀ ਭੂਮਿਕਾ ਅਤੇ ਮੁੱਖ ਭਾਸ਼ਾਵਾਂ ਜਾਣੋ। ਆਪਣੇ ਲਈ ਠੀਕ ਰਾਹ ਚੁਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/cybersecurity_cape_guard.webp" length="95142" type="image/webp"/></item><item><title>ਆਪਣੀ ਸੰਸਥਾ ਦੀ ਰੱਖਿਆ ਕਰੋ: ਸੁਰੱਖਿਆ ਘਟਨਾ ਪ੍ਰਬੰਧਨ ਸੌਫਟਵੇਅਰ ਦੇ ਲਾਭ</title><link>https://pa.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਘਟਨਾ ਪ੍ਰਬੰਧਨ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਡਿਜ਼ਿਟਲ ਸੁਰੱਖਿਆ"
+, "ਖਤਰਾ ਘਟਾਉਣਾ"
+, "ਤਕਨੀਕੀ ਹੱਲ"
+, "ਸਾਈਬਰ ਰੱਖਿਆ"
+, "ਜਾਣਕਾਰੀ ਸੁਰੱਖਿਆ"
+, "ਕਾਰੋਬਾਰ ਦੀ ਨਿਰੰਤਰਤਾ"
+, "ਜੋਖਮ ਪ੍ਰਬੰਧਨ"</category><guid>https://pa.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ ਸੁਰੱਖਿਆ ਘਟਨਾ ਪ੍ਰਬੰਧਨ ਸੌਫਟਵੇਅਰ ਜਵਾਬ, ਟ੍ਰੈਕਿੰਗ ਅਤੇ ਪਾਲਣਾ ਸੁਧਾਰ ਕੇ ਡਿਜ਼ਿਟਲ ਸੰਪਤੀਆਂ ਦੀ ਰੱਖਿਆ ਕਿਵੇਂ ਕਰਦਾ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/benefits-of-security-incident-management-software.webp" length="227836" type="image/webp"/></item><item><title>ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਵਿੱਚ ਮਾਹਰ ਬਣੋ: ਸੁਰੱਖਿਅਤ ਡਿਜੀਟਲ ਦੁਨੀਆ ਲਈ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਡਿਜੀਟਲ ਸੁਰੱਖਿਆ"
+, "ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ"
+, "ਜਾਣਕਾਰੀ ਦੀ ਰੱਖਿਆ"
+, "ਡਾਟਾ ਗੋਪਨੀਯਤਾ"
+, "ਡਿਜੀਟਲ ਖ਼ਤਰੇ"
+, "ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ ਸੁਝਾਅ"
+, "ਸਾਈਬਰ ਬਚਾਅ"
+, "ਸੁਰੱਖਿਅਤ ਕੰਪਿਊਟਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਆਪਣੀ ਡਿਜੀਟਲ ਜ਼ਿੰਦਗੀ ਅਤੇ ਸੰਪਤੀਆਂ ਦੀ ਰੱਖਿਆ ਲਈ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੇ ਅਹਿਮ ਤਰੀਕੇ ਜਾਣੋ। ਖ਼ਤਰੇ ਸਮਝੋ ਅਤੇ ਆਨਲਾਈਨ ਸੁਰੱਖਿਅਤ ਰਹੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/Cybersecurity-Shield-Protection.webp" length="114598" type="image/webp"/></item><item><title>ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਲਈ ਖਤਰਾ ਖੁਫੀਆ ਜਾਣਕਾਰੀ ਦੀ ਸ਼ੁਰੂਆਤੀ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/a-beginners-guide-to-using-threat-intelligence/</link><pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate><category>
+"ਖਤਰਾ ਖੁਫੀਆ ਜਾਣਕਾਰੀ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਸ਼ੁਰੂਆਤੀ ਗਾਈਡ"
+, "ਰਣਨੀਤੀਆਂ"
+, "ਤਕਨੀਕਾਂ"
+, "ਪ੍ਰਕਿਰਿਆਵਾਂ"
+, "ਡਾਟਾ ਵਿਸ਼ਲੇਸ਼ਣ"
+, "ਕਮਜ਼ੋਰੀਆਂ"
+, "ਸੁਰੱਖਿਆ ਕਾਰਜ"
+, "ਮਸ਼ੀਨ ਲਰਨਿੰਗ"
+, "ਡਾਟਾ ਮਾਈਨਿੰਗ"
+, "ਫੈਸਲਾ ਲੈਣਾ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "ਭਾਈਚਾਰਾ"
+, "ਡਾਰਕ ਵੈੱਬ ਨਿਗਰਾਨੀ"
+, "ਅੰਦਰੂਨੀ ਨੈੱਟਵਰਕ ਲੌਗ"
+, "ਘਟਨਾ ਜਵਾਬ"
+, "ਫਿਸ਼ਿੰਗ ਮੁਹਿੰਮਾਂ"
+, "ਮਾਲਵੇਅਰ"
+, "ਰਣਨੀਤਕ ਯੋਜਨਾ"</category><guid>https://pa.simeononsecurity.com/articles/a-beginners-guide-to-using-threat-intelligence/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਖਤਰਾ ਖੁਫੀਆ ਜਾਣਕਾਰੀ ਅਤੇ ਇਸ ਦੀ ਅਹਿਮੀਅਤ ਬਾਰੇ ਇਸ ਸ਼ੁਰੂਆਤੀ ਗਾਈਡ ਨਾਲ ਆਪਣੀ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੀ ਸਥਿਤੀ ਸੁਧਾਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.webp" length="170604" type="image/webp"/></item></channel></rss>
