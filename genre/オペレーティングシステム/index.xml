@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>オペレーティングシステム on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>オペレーティングシステム on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%82%AA%E3%83%9A%E3%83%AC%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%82%AA%E3%83%9A%E3%83%AC%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/</link><description>Recent content in オペレーティングシステム on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%82%AA%E3%83%9A%E3%83%AC%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/index.xml" rel="self" type="application/rss+xml"/><item><title>OS比較：Windows、Linux、macOSの機能とセキュリティ</title><link>https://ja.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><category>
+"オペレーティングシステム"
+, "技術レビュー"
+, "ソフトウェア比較"
+, "コンピューターセキュリティ"
+, "ユーザーエクスペリエンスデザイン"
+, "システムパフォーマンス"
+, "オープンソースソフトウェア"
+, "技術ガイド"
+, "パーソナルコンピューティング"
+, "ITソリューション"</category><guid>https://ja.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+セキュリティと使いやすさでどのOSがトップか？Windows、Linux、macOSを徹底解明。決断前に必要な重要ポイントをチェック！</description><enclosure url="https://ja.simeononsecurity.com/img/cover/operating-systems_-windows-linux-and-macos-compared.webp" length="44424" type="image/webp"/></item><item><title>コピー機能を使いこなす：OSでファイルを効率よく管理する方法</title><link>https://ja.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</link><pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "ファイル管理"
+, "オペレーティングシステム"
+, "データ転送"
+, "データ整理"
+, "コンピューターのスキル"
+, "ITのヒント"
+, "OSの効率化"
+, "システム管理"
+, "ソフトウェアユーティリティ"</category><guid>https://ja.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+OSの高度なコピー機能を理解し、ファイルをすばやく効率的に管理する方法を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems.webp" length="92028" type="image/webp"/></item><item><title>ファイルシステム入門: FAT32、NTFS、exFATなど</title><link>https://ja.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</link><pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate><category>
+"コンピューターサイエンス"
+, "データストレージ"
+, "技術ガイド"
+, "ファイル管理"
+, "オペレーティングシステム"
+, "デジタル整理"
+, "技術教育"
+, "ソフトウェア情報"
+, "システム最適化"
+, "技術リソース"</category><guid>https://ja.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+FAT32、NTFS、exFATなどのファイルシステムを解説します。機能、制限、互換性を比較して、データを適切に管理する方法を学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/computer-file-systems-explained_-fat32,-ntfs,-exfat,-and-more.webp" length="132294" type="image/webp"/></item><item><title>Windows レジストリと Linux 設定ファイルの比較</title><link>https://ja.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link><pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "オペレーティングシステム"
+, "セキュリティ管理"
+, "コンピューター技術"
+, "データ保護"
+, "システム設定"
+, "IT セキュリティ"
+, "ネットワークセキュリティ"
+, "技術比較"
+, "情報セキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows レジストリと Linux 設定ファイルのセキュリティを比較し、両システムを強化する実践的な対策を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp"/></item><item><title>Windows Task SchedulerとLinux Cronのセキュリティ比較</title><link>https://ja.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "オペレーティングシステム"
+, "システム自動化"
+, "セキュリティツール"
+, "コンピュータ技術"
+, "タスクスケジューリング"
+, "ネットワークセキュリティ"
+, "システム管理"
+, "サイバー防御"
+, "IT管理"</category><guid>https://ja.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバーセキュリティとシステムの強化という観点から、Windows Task SchedulerとLinuxのCronジョブを比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>NAS OS 比較：最適なストレージソリューションを見つける</title><link>https://ja.simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/</link><pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "データストレージ"
+, "ネットワーク接続ストレージ"
+, "オペレーティングシステム"
+, "データ管理"
+, "IT ソリューション"
+, "ファイル共有"
+, "データセキュリティ"
+, "クラウドストレージ"
+, "バックアップソリューション"</category><guid>https://ja.simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+主要な NAS オペレーティングシステムを比較し、データ保存の要件に合うソリューションを見つけましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/nas-os-comparison-symbolic-servers.webp" length="135748" type="image/webp"/></item></channel></rss>

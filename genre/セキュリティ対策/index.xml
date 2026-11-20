@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>セキュリティ対策 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>セキュリティ対策 on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E5%AF%BE%E7%AD%96/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E5%AF%BE%E7%AD%96/</link><description>Recent content in セキュリティ対策 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E5%AF%BE%E7%AD%96/index.xml" rel="self" type="application/rss+xml"/><item><title>モバイル端末をマルウェアから守る方法</title><link>https://ja.simeononsecurity.com/articles/the-rise-of-mobile-malware_-staying-safe-on-the-go/</link><pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate><category>
+"モバイルマルウェア"
+, "サイバー脅威"
+, "モバイルセキュリティ"
+, "マルウェアの進化"
+, "モバイル端末の安全対策"
+, "高度なマルウェア"
+, "モバイルマルウェア対策"
+, "新たなサイバー脅威"
+, "サイバーセキュリティのベストプラクティス"
+, "セキュリティ対策"</category><guid>https://ja.simeononsecurity.com/articles/the-rise-of-mobile-malware_-staying-safe-on-the-go/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+トロイの木馬、ランサムウェア、スパイウェア、フィッシング、悪意あるアプリ、安全でないネットワーク、アカウント窃取からモバイル端末を守る実践的な対策を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/the-rise-of-mobile-malware_-staying-safe-on-the-go.webp" length="59624" type="image/webp"/></item><item><title>サイバーレジリエンスを高める</title><link>https://ja.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</link><pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate><category>
+"侵入テスト"
+, "倫理的ハッキング"
+, "サイバーセキュリティ戦略"
+, "セキュリティ対策"
+, "脆弱性評価"
+, "インシデント対応"
+, "規制遵守"
+, "セキュリティ管理策"
+, "サイバーレジリエンス"
+, "サイバーセキュリティの将来"</category><guid>https://ja.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+定期的な侵入テストで悪用可能な弱点を見つけ、リスクに基づく修正を支援し、システムとアプリケーションの防御を検証する方法を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/the-importance-of-regular-penetration-testing-for-cybersecurity.webp" length="85258" type="image/webp"/></item><item><title>社内脅威から会社を守るための戦略</title><link>https://ja.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</link><pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "企業セキュリティ"
+, "社内脅威"
+, "データ保護"
+, "従業員教育"
+, "セキュリティ対策"
+, "インシデント対応"
+, "行動分析"
+, "ユーザー活動の監視"
+, "セキュリティ文化"</category><guid>https://ja.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+アクセス制御、活動監視、報告窓口、退職時の手順、安全を重視する職場文化によって、社内脅威のリスクを減らします。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/protecting-against-insider-threats_-strategies-for-your-company.webp" length="87882" type="image/webp"/></item><item><title>サイバーセキュリティを身につける</title><link>https://ja.simeononsecurity.com/articles/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe/</link><pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティの実践"
+, "デジタルセキュリティ"
+, "オンラインセキュリティ"
+, "サイバー脅威の防止"
+, "データ保護"
+, "インターネットプライバシー"
+, "セキュリティ対策"
+, "技術の安全性"
+, "情報セキュリティ"
+, "サイバー衛生"</category><guid>https://ja.simeononsecurity.com/articles/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+パスワード、MFA、更新、フィッシング対策、家庭内ネットワーク、モバイル機器、プライバシーを守る習慣を身につけましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe.webp" length="175160" type="image/webp"/></item><item><title>サイバー攻撃の解剖学: ハッカーが防御を突破する方法</title><link>https://ja.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</link><pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate><category>
+"サイバー脅威"
+, "ハッカーの戦術"
+, "デジタルセキュリティ"
+, "サイバー攻撃の手法"
+, "データ流出の手法"
+, "フィッシング攻撃"
+, "マルウェア感染"
+, "権限昇格"
+, "横展開"
+, "セキュリティ対策"</category><guid>https://ja.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+初期アクセスから権限昇格、横展開、永続化、データ流出まで、サイバー攻撃の流れを追い、各段階の防御策を確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses.webp" length="296326" type="image/webp"/></item><item><title>内部から見るサイバーセキュリティの動向：専門家の見解</title><link>https://ja.simeononsecurity.com/articles/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity/</link><pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティの知見"
+, "デジタル脅威の状況"
+, "セキュリティ対策"
+, "規制遵守"
+, "サイバーセキュリティの課題"
+, "技術の進歩"
+, "セキュリティにおけるAIと機械学習"
+, "ブロックチェーン技術"
+, "IoTセキュリティ"
+, "サイバーセキュリティの将来動向"
+, "生体認証"</category><guid>https://ja.simeononsecurity.com/articles/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+現在のサイバー脅威、人材不足、プライバシー、AI、ブロックチェーン、IoTセキュリティ、量子コンピューティング、自動化、生体認証を概説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity.webp" length="117650" type="image/webp"/></item><item><title>規制遵守だけではセキュリティを保証できない理由</title><link>https://ja.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</link><pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "コンプライアンス"
+, "セキュリティ対策"
+, "データ保護"
+, "サイバー脅威"
+, "規制基準"
+, "情報セキュリティ"
+, "リスク管理"
+, "企業セキュリティ"
+, "デジタルプライバシー"</category><guid>https://ja.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+コンプライアンスのチェックリストが残すセキュリティ上の穴を確認し、リスク評価、テスト、監視、研修、監査で防御を強化しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/compliance-security-shield.webp" length="87866" type="image/webp"/></item><item><title>OPSEC を理解する: デジタルセキュリティの重要な 6 ステップ</title><link>https://ja.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "デジタルセキュリティ"
+, "運用上のセキュリティ"
+, "オンラインプライバシー"
+, "データ保護"
+, "情報セキュリティ"
+, "インターネットセキュリティ"
+, "サイバー防御"
+, "セキュリティ対策"
+, "オンラインの脅威"</category><guid>https://ja.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+OPSEC の 6 つの重要な手順を学び、デジタル上の存在を守り、サイバーセキュリティを強化しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/OPSEC_Steps_Security.webp" length="216778" type="image/webp"/></item><item><title>誰が情報を機密指定し、分類レベルを決めるのか</title><link>https://ja.simeononsecurity.com/articles/who-designates-whether-information-is-classified/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><category>
+"情報セキュリティ"
+, "データ分類"
+, "政府規制"
+, "国家安全保障"
+, "データ保護"
+, "データプライバシー"
+, "セキュリティ対策"
+, "機密情報"
+, "アクセス制御"
+, "データの機密性"</category><guid>https://ja.simeononsecurity.com/articles/who-designates-whether-information-is-classified/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+誰が情報を機密指定するのか、分類レベルがどう決まるのか、米国の手続きがどう機能するのかを解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.webp" length="161990" type="image/webp"/></item></channel></rss>

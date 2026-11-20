@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT インフラ管理 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>IT インフラ管理 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/it-%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E7%AE%A1%E7%90%86/</link></image><link>https://ja.simeononsecurity.com/tags/it-%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E7%AE%A1%E7%90%86/</link><description>Recent content in IT インフラ管理 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/it-%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>WMI フィルタリングを理解する</title><link>https://ja.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows 管理"
+, "グループ ポリシー"
+, "システム管理"
+, "ネットワーク管理"
+, "IT インフラストラクチャ"
+, "ポリシー管理"
+, "IT ガバナンス"
+, "IT 自動化"
+, "Active Directory"
+, "セキュリティ コンプライアンス"</category><guid>https://ja.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+WMI フィルタリングを使ってグループ ポリシー オブジェクト（GPO）の適用先を調整する方法を、実例とベストプラクティスとともに紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item></channel></rss>

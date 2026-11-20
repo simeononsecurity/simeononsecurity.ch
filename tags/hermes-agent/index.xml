@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hermes Agent on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>Hermes Agent on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/hermes-agent/</link></image><link>https://ja.simeononsecurity.com/tags/hermes-agent/</link><description>Recent content in Hermes Agent on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/hermes-agent/index.xml" rel="self" type="application/rss+xml"/><item><title>Hermes向けローカルモデル検証：選びたいGPUとモデルの組み合わせ</title><link>https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ローカルAI"
+, "ハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+RTX 5060 Ti、RTX 2000E Ada、RTX 3060 Ti、RTX 3070での長いコンテキスト、ツール、ストリーミング、画像認識の検証に基づくHermes向けモデルの推奨です。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>ハイブリッドAIエージェントフリートの内部：Hermes、LiteLLM、Tailscale</title><link>https://ja.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "セルフホストAI"
+, "AIエージェント"
+, "AIインフラ"
+, "GPUマイニング"</category><guid>https://ja.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hermes、LiteLLM、Tailscale Aperture、Pearlマイニングを使った、検証済みのオンデマンド型ローカルAIフリートとT0〜T4の制御プレーンを紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>OpenClaw と Hermes Agent：実践的な評価</title><link>https://ja.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェア工学"
+, "生産性"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+アクセス一覧、トリガーの確認、データフロー記録、パイロット判断を使い、特化型および継続稼働型の AI エージェントを評価します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-specialized-agent-evaluation.webp" length="115550" type="image/webp"/></item></channel></rss>

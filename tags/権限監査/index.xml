@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>権限監査 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>権限監査 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E6%A8%A9%E9%99%90%E7%9B%A3%E6%9F%BB/</link></image><link>https://ja.simeononsecurity.com/tags/%E6%A8%A9%E9%99%90%E7%9B%A3%E6%9F%BB/</link><description>Recent content in 権限監査 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E6%A8%A9%E9%99%90%E7%9B%A3%E6%9F%BB/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerCLIでvCenterの権限を監査する方法</title><link>https://ja.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link><pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate><category>
+"vCenter権限監査"
+, "PowerCLI自動化"
+, "VMwareセキュリティ"
+, "仮想インフラ管理"
+, "権限割り当て"
+, "ユーザーアクセス制御"
+, "セキュリティ脆弱性"
+, "PowerShell自動化"
+, "vSphere環境管理"
+, "ユーザー権限の確認"</category><guid>https://ja.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerCLIでvCenterの権限を監査し、仮想インフラストラクチャを保護する方法を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/audit-permissions-vcenter-powercli.webp" length="171996" type="image/webp"/></item></channel></rss>

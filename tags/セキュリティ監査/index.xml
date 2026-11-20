@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>セキュリティ監査 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>セキュリティ監査 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E7%9B%A3%E6%9F%BB/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E7%9B%A3%E6%9F%BB/</link><description>Recent content in セキュリティ監査 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E7%9B%A3%E6%9F%BB/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Safetyカメラの脆弱性: 50件以上の欠陥を発見</title><link>https://ja.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"セキュリティ研究"
+, "脆弱性分析"
+, "監視技術"
+, "サイバーセキュリティ"
+, "プライバシー保護"
+, "IoTセキュリティ"
+, "物理セキュリティ"
+, "ネットワークセキュリティ"
+, "重要インフラ"
+, "行政技術"</category><guid>https://ja.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safetyカメラの脆弱性調査では、認証情報の露出、脆弱な保護、物理アクセス、脆弱性開示の限界を検証します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>小規模企業向けフィッシング対策：完全ガイド</title><link>https://ja.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "小規模企業の保護"
+, "フィッシング詐欺"
+, "従業員教育"
+, "メールセキュリティ"
+, "多要素認証"
+, "セキュリティ監査"
+, "ソーシャルエンジニアリングの手口"
+, "デジタル脅威"
+, "オンラインセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+従業員教育、メール制御、確認手順、報告方法、検証済みのインシデント対応を通じて、小規模企業をフィッシングから守ります。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/how-to-protect-your-small-business-from-phishing-scams.webp" length="88634" type="image/webp"/></item><item><title>ブロックチェーンのセキュリティ: 暗号資産だけではない活用</title><link>https://ja.simeononsecurity.com/articles/demystifying-blockchain-security_-more-than-just-cryptocurrency/</link><pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate><category>
+"ブロックチェーンセキュリティ"
+, "暗号資産技術"
+, "デジタルセキュリティ"
+, "分散型ネットワーク"
+, "ブロックチェーン開発"
+, "スマートコントラクト監査"
+, "暗号技術の解説"
+, "データプライバシー対策"
+, "新しいセキュリティ技術"
+, "セキュリティ監査"</category><guid>https://ja.simeononsecurity.com/articles/demystifying-blockchain-security_-more-than-just-cryptocurrency/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ブロックチェーンのセキュリティが、合意形成、暗号技術、スマートコントラクトの制御、鍵の保護、監視、適切なガバナンスにどう依存するかを解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/demystifying-blockchain-security_-more-than-just-cryptocurrency.webp" length="194346" type="image/webp"/></item><item><title>サイバー攻撃の解剖学: ハッカーが防御を突破する方法</title><link>https://ja.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</link><pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate><category>
+"サイバー脅威"
+, "ハッカーの戦術"
+, "デジタルセキュリティ"
+, "サイバー攻撃の手法"
+, "データ流出の手法"
+, "フィッシング攻撃"
+, "マルウェア感染"
+, "権限昇格"
+, "横展開"
+, "セキュリティ対策"</category><guid>https://ja.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+初期アクセスから権限昇格、横展開、永続化、データ流出まで、サイバー攻撃の流れを追い、各段階の防御策を確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses.webp" length="296326" type="image/webp"/></item><item><title>暗号技術の仕組み：暗号化方式を解説</title><link>https://ja.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><category>
+"暗号技術の歴史"
+, "暗号化方式"
+, "共通鍵暗号"
+, "公開鍵暗号"
+, "RSAアルゴリズム"
+, "楕円曲線暗号"
+, "Diffie-Hellman鍵交換"
+, "データの機密性"
+, "データの完全性"
+, "データ認証"
+, "量子コンピューターの脅威"
+, "セキュリティ監査"
+, "暗号資産ウォレットの安全性"</category><guid>https://ja.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+共通鍵暗号、公開鍵暗号、ハイブリッド暗号がデータを保護する仕組み、鍵交換の方法、現代の暗号技術の用途を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques.webp" length="291054" type="image/webp"/></item><item><title>サイバーセキュリティへの備え：企業データを守る</title><link>https://ja.simeononsecurity.com/articles/cybersecurity-readiness-guide/</link><pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "企業セキュリティ"
+, "データ保護"
+, "リスク評価"
+, "情報セキュリティ"
+, "デジタル安全"
+, "データプライバシー"
+, "サイバー脅威"
+, "ネットワークセキュリティ"
+, "ベンダーリスク管理"</category><guid>https://ja.simeononsecurity.com/articles/cybersecurity-readiness-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+機密情報を共有したり取引を始めたりする前に、企業のサイバーセキュリティ対策を評価しましょう。データを保護し、安全を保ちます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity-shield-protection2.webp" length="102208" type="image/webp"/></item><item><title>Active Directoryのセキュリティ対策</title><link>https://ja.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "ネットワーク管理"
+, "情報技術"
+, "データ保護"
+, "企業セキュリティ"
+, "デジタルインフラ"
+, "アクセス制御"
+, "ユーザー認証"
+, "ITのベストプラクティス"
+, "セキュリティ意識"</category><guid>https://ja.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Active Directoryを保護し、データを守り、ネットワークへの侵入を防ぐ方法を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item><item><title>最小権限の原則を習得する</title><link>https://ja.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "Linuxセキュリティ"
+, "アクセス制御"
+, "ITセキュリティ"
+, "ネットワークセキュリティ"
+, "情報保護"
+, "データプライバシー"
+, "サイバー脅威"
+, "リスク管理"
+, "セキュリティのベストプラクティス"</category><guid>https://ja.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Linuxで最小権限に基づくアクセス制御を導入し、サイバーセキュリティを強化しましょう。実装手順、ベストプラクティス、問題解決を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>進化するサイバーセキュリティの脅威：傾向と対策</title><link>https://ja.simeononsecurity.com/articles/the-evolving-landcape-of-cybersecurity-threats/</link><pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティの脅威"
+, "新たなトレンド"
+, "対策"
+, "サイバー脅威の状況"
+, "テクノロジー・リスク"
+, "データ侵害"
+, "ランサムウェア攻撃"
+, "フィッシング・テクニック"
+, "IoTの脆弱性"
+, "インサイダーの脅威"</category><guid>https://ja.simeononsecurity.com/articles/the-evolving-landcape-of-cybersecurity-threats/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+進化するサイバーセキュリティの状況、新たな脅威、サイバー攻撃から身を守るための効果的な対策について、常に情報を得ることができます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/the-evolving-landscape-of-cybersecurity-threats.webp" length="43798" type="image/webp"/></item><item><title>情報漏えいを防ぐ：セキュリティを高めるベストプラクティス</title><link>https://ja.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</link><pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate><category>
+"情報セキュリティ"
+, "データ保護"
+, "機密情報"
+, "情報漏えい"
+, "防止策"
+, "ベストプラクティス"
+, "アクセス制御"
+, "暗号化"
+, "従業員研修"
+, "サイバーセキュリティ"
+, "データ損失防止"
+, "セキュリティ評価"
+, "政府規制"
+, "NIST"
+, "内部脅威"
+, "サイバーセキュリティの脆弱性"
+, "人的ミス"
+, "セキュリティ意識向上プログラム"
+, "フィッシング対策"
+, "DLPソリューション"
+, "ロールベースアクセス制御"
+, "多要素認証"
+, "暗号鍵管理"
+, "エンドポイント保護"
+, "コンテンツ検査"
+, "セキュリティ監査"
+, "侵入テスト"
+, "インシデント対応計画"
+, "セキュリティプロトコル"
+, "情報保護"</category><guid>https://ja.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+情報漏えいを防ぎ、機密データを守るためのベストプラクティスと戦略を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/best-practices-to-prevent-spillage.webp" length="195784" type="image/webp"/></item><item><title>Flipper Zero：ハッカーとメイカーのための完全ガイド</title><link>https://ja.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</link><pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate><category>
+"Flipper Zero"
+, "ハンドヘルドデバイス"
+, "ハードウェアハッキング"
+, "リバースエンジニアリング"
+, "無線通信解析"
+, "装置制御"
+, "セキュリティ監査"
+, "侵入テスト"
+, "デイリーテックコンパニオン"
+, "オープンソース"
+, "ブルートゥース"
+, "エヌエフシー"
+, "RFID"
+, "IR"
+, "エミュ"
+, "セキュリティテスト"
+, "Kali Linux"
+, "電子ペーパーディスプレイ"
+, "QRコード"
+, "ホームオートメーション"
+, "セキュリティの脆弱性"
+, "無線プロトコル"
+, "ファームウェア抽出"
+, "てんめつ"
+, "デバッギング"
+, "物理的アクセス制御システム"
+, "スマートホームオートメーションシステム"
+, "デバイスエミュレーション"
+, "無線システムの脆弱性"
+, "対抗措置"
+, "小型ガジェット"</category><guid>https://ja.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ハードウェアハッキング、無線通信解析、日常的な技術ニーズに対応する究極のハンドヘルドガジェット、Flipper Zeroの多様な使用例をご紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.webp" length="309662" type="image/webp"/></item><item><title>オープンソースセキュリティツールの利点と課題</title><link>https://ja.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</link><pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate><category>
+"オープンソースセキュリティツール"
+, "サイバーセキュリティ"
+, "コミュニティ支援"
+, "透明性"
+, "コスト削減"
+, "柔軟性"
+, "独自ツール"
+, "セキュリティリスク"
+, "スキル"
+, "ソフトウェアライセンス料"
+, "総所有コスト"
+, "商用サポート"
+, "プログラミング言語"
+, "統合"
+, "セキュリティテスト"
+, "セキュリティ監査"
+, "NIST"
+, "CISA"
+, "OWASP"
+, "米国国立標準技術研究所"</category><guid>https://ja.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+オープンソースのセキュリティツールを使用して、組織のセキュリティ態勢を改善するメリットと課題を探ります。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.webp" length="58998" type="image/webp"/></item><item><title>患者データを守る</title><link>https://ja.simeononsecurity.com/articles/cybersecurity-challenges-in-the-healthcare-industry/</link><pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "医療"
+, "患者データ"
+, "データプライバシー"
+, "コンプライアンス"
+, "HIPAA"
+, "GDPR"
+, "セキュリティ監査"
+, "アクセス制御"
+, "暗号化"
+, "従業員研修"
+, "内部脅威"
+, "フィッシング攻撃"
+, "IoTデバイス"
+, "ネットワークセキュリティ"
+, "データ侵害"
+, "遠隔医療"
+, "マルウェア"
+, "セキュリティ侵害"
+, "規制"</category><guid>https://ja.simeononsecurity.com/articles/cybersecurity-challenges-in-the-healthcare-industry/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+医療業界のサイバーセキュリティ課題を確認し、患者データの保護と法令遵守に役立つ実践的な対策を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.webp" length="192016" type="image/webp"/></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://ja.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "コンプライアンス"
+, "アンシブル"
+, "Ansible Playbooks"
+, "Ansibleコレクション"
+, "Windowsセキュリティ"
+, "ウィンドウズ管理"
+, "セキュリティ・コンプライアンス"
+, "ITオートメーション"
+, "コンフィギュレーション管理"</category><guid>https://ja.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;SimeonOnSecurityが今日知り、面白いと思ったこと**。&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurityは今日、WindowsのセキュリティとAnsibleを使った自動化に関するいくつかの興味深いことを学び、発見した。&lt;/p&gt;
+&lt;p&gt;まず、2つの新しく更新されたリポジトリが確認された。Windows_STIG_Ansible リポジトリは、Ansible 自動化プラットフォームを使用して、Windows システムをセキュリティ技術実装ガイド (STIG) 要件を満たすように構成するための完全なソリューションを提供します。windows_stigsリポジトリは、STIG要件を満たすためにWindowsシステムを構成するためのAnsibleロールのコレクションであり、Ansibleコンテンツを共有するための中央リポジトリであるAnsible Galaxyで利用できます。&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurityは、AnsibleによるWindows自動化に関連する学習リソースもいくつか見つけました。ansible.windows.win_copyモジュールのドキュメントには、Ansibleを使用してWindowsシステム上でファイルをコピーする方法に関する情報が記載されています。ansible blocksドキュメントは、複数のタスクをグループ化し、条件付き実行を適用できるAnsibleの強力な機能であるブロックの使用方法に関する情報を提供します。ansible galaxy ユーザー・ガイド』には、Ansible Galaxy の使用方法に関する情報が記載されており、『ansible installing content』には、Ansible Galaxy からコンテンツをインストールする方法に関する情報が記載されています。&lt;/p&gt;
+&lt;h2 id="新規更新レポ"&gt;
+&lt;a href="#%e6%96%b0%e8%a6%8f%e6%9b%b4%e6%96%b0%e3%83%ac%e3%83%9d" title="新規/更新レポ"&gt;新規/更新レポ&lt;/a&gt;
+&lt;a href="#%e6%96%b0%e8%a6%8f%e6%9b%b4%e6%96%b0%e3%83%ac%e3%83%9d" class="h-anchor" aria-hidden="true" title="新規/更新レポ"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible"&gt;
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible"&gt;
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+&gt;simeononsecurity/Windows_STIG_Ansible&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs"&gt;
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs"&gt;
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+&gt;simeononsecurity/windows_stigs&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;#学習リソース&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="ansible.windows.win_copy module"&gt;
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_copy_module.html"&gt;
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_copy_module.html"
+rel="noopener external" target="_blank"
+&gt;ansible.windows.win_copy module&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="ansible blocks"&gt;
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/user_guide/playbooks_blocks.html"&gt;
+&lt;a href="https://docs.ansible.com/ansible/latest/user_guide/playbooks_blocks.html"
+rel="noopener external" target="_blank"
+&gt;ansible blocks&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="ansible galaxy user guide"&gt;
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/galaxy/user_guide.html"&gt;
+&lt;a href="https://docs.ansible.com/ansible/latest/galaxy/user_guide.html"
+rel="noopener external" target="_blank"
+&gt;ansible galaxy user guide&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="ansible installing content"&gt;
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/docs/using/installing.html"&gt;
+&lt;a href="https://galaxy.ansible.com/docs/using/installing.html"
+rel="noopener external" target="_blank"
+&gt;ansible installing content&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

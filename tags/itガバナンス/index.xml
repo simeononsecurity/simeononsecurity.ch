@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ITガバナンス on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>ITガバナンス on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/it%E3%82%AC%E3%83%90%E3%83%8A%E3%83%B3%E3%82%B9/</link></image><link>https://ja.simeononsecurity.com/tags/it%E3%82%AC%E3%83%90%E3%83%8A%E3%83%B3%E3%82%B9/</link><description>Recent content in ITガバナンス on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/it%E3%82%AC%E3%83%90%E3%83%8A%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>WindowsとLinuxのセキュリティ強化</title><link>https://ja.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "スクリプト言語"
+, "システムセキュリティ"
+, "Windows"
+, "Linux"
+, "政府規制"
+, "サイバー脅威"
+, "安全なスクリプト作成"
+, "コンプライアンス"
+, "プログラミング"</category><guid>https://ja.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバーセキュリティを詳しく分析し、PowerShellとPythonでシステムの安全性を高める方法を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp"/></item><item><title>Active Directoryのセキュリティ対策</title><link>https://ja.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "ネットワーク管理"
+, "情報技術"
+, "データ保護"
+, "企業セキュリティ"
+, "デジタルインフラ"
+, "アクセス制御"
+, "ユーザー認証"
+, "ITのベストプラクティス"
+, "セキュリティ意識"</category><guid>https://ja.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Active Directoryを保護し、データを守り、ネットワークへの侵入を防ぐ方法を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item><item><title>サイバーセキュリティポリシーの策定ベストプラクティスと手順</title><link>https://ja.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "セキュリティ"
+, "コンプライアンス"
+, "リスク管理"
+, "データ保護"
+, "情報ガバナンス"
+, "インシデント対応"
+, "事業継続"
+, "サイバー脅威"
+, "政策展開"</category><guid>https://ja.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+組織の機密情報を保護し、サイバーリスクを軽減するために、業界標準や規制要件に沿った包括的なサイバーセキュリティポリシーを策定する方法を学びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.webp" length="206064" type="image/webp"/></item><item><title>NIST Cybersecurity FrameworkとISO 27001の比較</title><link>https://ja.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "情報セキュリティ"
+, "セキュリティフレームワーク"
+, "リスク管理"
+, "データ保護"
+, "コンプライアンス"
+, "ITガバナンス"
+, "サイバー脅威"
+, "サイバー防御"
+, "サイバーリスク"</category><guid>https://ja.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+NIST Cybersecurity FrameworkとISO 27001の違いを理解し、組織に適したセキュリティフレームワークを選びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_shield_protecting_a_network_of.webp" length="102920" type="image/webp"/></item></channel></rss>

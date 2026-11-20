@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>simeononsecurity</title><link>https://ja.simeononsecurity.com/</link></image><link>https://ja.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Home Assistant Core 2026.11 から 2026.10.4 へのロールバック後に HTTP ストレージバージョン 3 を修復する</title><link>https://ja.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"ホームオートメーション"
+, "トラブルシューティング"</category><guid>https://ja.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Yellow で Home Assistant Core 2026.11 が 2026.10.4 に戻った後に発生する HTTP ストレージバージョン 3 のエラーを修復します。安全策を組み込んだコマンドと検証済みの出力を示します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp" length="32856" type="image/webp"/></item><item><title>無検閲のローカルAIモデルを選ぶ方法</title><link>https://ja.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "セルフホスト型AI"
+, "AI安全性"
+, "GPU機器"</category><guid>https://ja.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+回答の完了率、維持された能力、コンテキストの使用量、量子化、必要なVRAMを基準にローカルモデルの派生版を比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Octominer X12 Ultraの電源互換性：ChiconyとLiteOnの実機テスト</title><link>https://ja.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><category>
+"マイニング機器"
+, "コンピューター機器"</category><guid>https://ja.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+5基のファンと3台の電源を備えたOctominer X12 Ultraでテストしたところ、Chicony電源は起動し、テストしたLiteOn電源は橙色を示して起動しませんでした。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp" length="34962" type="image/webp"/></item><item><title>Proxmox VE 9: 仮想ディスクの使用量を抑え、空き領域を回収する</title><link>https://ja.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"仮想化"
+, "Linux 管理"
+, "Proxmox VE プラットフォーム"
+, "ストレージ"
+, "家庭用ラボ"</category><guid>https://ja.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proxmox VE 9 の VM と LXC のストレージ使用量を減らします。ディスク形式とストレージバックエンドを比較し、discard を有効にして、Windows と Linux のゲストで trim を実行し、領域回収前にスナップショットを確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Tailscale Aperture：2026年にAIクライアントの推論とMCPを設定する</title><link>https://ja.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "開発者ツール"
+, "ネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+モデルリクエストとMCPツールをTailscale Aperture経由でルーティングします。別のデバイスやゲートウェイでCodex、Claude Code、Claude Desktop、OpenCode、Hermesを設定します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>セルフホスト Hindsight: エージェントのローカルメモリとプライベートなモデルルーティング</title><link>https://ja.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"ローカル AI"
+, "セルフホスト AI"
+, "AI エージェント"
+, "AI インフラ"
+, "プライバシー"</category><guid>https://ja.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+セルフホスト Hindsight、観測したローカル Qwen 経路、確認した経路でホスト型モデルの契約なしに行うリクエスト単位の GPU 処理を紹介する事例です。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Chrome 156 セキュリティ更新: 10月の修正を確認する</title><link>https://ja.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"ブラウザー"
+, "セキュリティ"
+, "パッチ管理"</category><guid>https://ja.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows、macOS、Linux、Android で10月27日の Chrome 156 セキュリティリリースを確認します。インストール済みのビルドを比較し、保留中の再起動を完了して、管理対象端末を個別に確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp"/></item><item><title>Open WebUI v0.12.4：アップグレードとアクセス制御チェックリスト 2026</title><link>https://ja.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"セルフホスト AI"
+, "サイバーセキュリティ"
+, "システム管理"</category><guid>https://ja.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Open WebUI をバックアップして v0.12.4 にアップグレードし、チャット共有、エクスポート権限、リソースへの許可、アカウント、ネットワークアクセスをテストします。</description></item><item><title>Thunderbird 153.6: WindowsでのNTLM認証情報漏えいと更新方法 (2026)</title><link>https://ja.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "メールセキュリティ"
+, "Windowsセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+細工されたメールを表示すると、2つの重大なThunderbirdの脆弱性によりWindowsのNTLM認証データが漏えいするおそれがあります。2つの仕組み、バージョンの確認方法、更新中に送信SMBを制限する方法を説明します。</description></item><item><title>Pi-holeからローカルAIまで、10段階でホームラボを構築する</title><link>https://ja.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"ホームラボ"
+, "セルフホスティング"
+, "ローカルAI"
+, "ホームネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ネットワーク全体のDNSフィルタリングからローカルAIまで、10段階でホームラボを構築します。各段階のハードウェア、費用、スキル、トレードオフを説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Hermes向けローカルモデル検証：選びたいGPUとモデルの組み合わせ</title><link>https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ローカルAI"
+, "ハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+RTX 5060 Ti、RTX 2000E Ada、RTX 3060 Ti、RTX 3070での長いコンテキスト、ツール、ストリーミング、画像認識の検証に基づくHermes向けモデルの推奨です。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>ハイブリッドAIエージェントフリートの内部：Hermes、LiteLLM、Tailscale</title><link>https://ja.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "セルフホストAI"
+, "AIエージェント"
+, "AIインフラ"
+, "GPUマイニング"</category><guid>https://ja.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hermes、LiteLLM、Tailscale Aperture、Pearlマイニングを使った、検証済みのオンデマンド型ローカルAIフリートとT0〜T4の制御プレーンを紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>1Password SSH AgentとCLI: AIエージェント向け読み取り専用アクセス</title><link>https://ja.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"システム管理"
+, "クラウドセキュリティ"
+, "自動化"</category><guid>https://ja.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+1Password CLI、SSH Agent、MCPを使用して、読み取り専用のSSHワークフローを設計します。ライブテストの前に、合成コマンド、権限の制限、人間の承認を使用します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Bitbucket Cloud SSHキー：AIエージェント向け読み取り専用Gitアクセス</title><link>https://ja.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"クラウドセキュリティ"
+, "開発者ツール"
+, "システム管理"</category><guid>https://ja.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AIエージェントの読み取り専用ワークフロー向けに、Bitbucket CloudのSSHキー、Git CLIアクセス、REST APIトークン、1Password、MCPツールを設定します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>DNSフィルタが回避される理由: リゾルバの経路を確認する</title><link>https://ja.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ホームネットワーク"
+, "DNS"
+, "プライバシー"</category><guid>https://ja.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+端末やブラウザがDNSフィルタを迂回する理由を調べます。直接クエリと通常のクエリを比較し、ログ、暗号化DNS、VPN、IPv6、ルーターの設定を確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>Hyper-V VMをProxmox VEへ移行する可逆チェックリスト</title><link>https://ja.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"仮想化"
+, "システム管理"
+, "ホームラボ"</category><guid>https://ja.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hyper-VのVMを、停止状態でのエクスポート、ファームウェアの一致、ディスクのインポート、分離した起動テスト、ロールバック計画を使ってProxmox VEへ移行します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>Proxmox VM復元テスト：ゲストが動作することを確認する</title><link>https://ja.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"仮想化"
+, "バックアップと復元"
+, "ホームラボ"</category><guid>https://ja.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+隔離環境への復元でProxmox VMバックアップをテストします。本番環境に触れずに、ディスクの対象範囲、バックアップモード、ゲストデータ、サービスの状態、復旧時間を確認できます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>VPN接続時にブラウザーのDNSとWebRTCの漏えいをテストする</title><link>https://ja.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"プライバシー"
+, "ブラウザー"
+, "ネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+VPN接続の前後で、ブラウザーのパブリックIP、DNSリゾルバー、WebRTCアドレスを確認します。結果を読み取り、ルーティングの問題を調べます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>メッシュWi-FiでゲストとIoTの分離をテストする</title><link>https://ja.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ホームネットワーク"
+, "Wi-Fiセキュリティ"
+, "スマートホーム"</category><guid>https://ja.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+メッシュWi-FiのゲストネットワークとIoTネットワークが、自宅の機器へのアクセスを遮断するか確認します。稼働中のサービスを使って各ネットワークをテストし、制限を記録します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp" length="102600" type="image/webp"/></item><item><title>2026年のAIインフラブーム：需要、債務、電力、根拠</title><link>https://ja.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "AI経済"
+, "データセンター"
+, "クラウドインフラ"
+, "サイバーセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AIインフラ投資、データセンターの電力需要、資金調達の構造、企業価値、市場をバブルと呼ぶ前に必要な根拠を検証する記事です。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>AIワークフローコースの準備：ターミナル、Git、練習用ラボ</title><link>https://ja.simeononsecurity.com/articles/effective-ai-course-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェア工学"
+, "教育"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-course-setup/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+安全なAI練習環境を用意し、コースで使うターミナルとGitの用語を学び、スターターラボを実行します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-course-setup.webp" length="112168" type="image/webp"/></item><item><title>AIワークフロー実践課題: JSONレポートを作成して検証する</title><link>https://ja.simeononsecurity.com/articles/effective-ai-capstone/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェアエンジニアリング"
+, "教育"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-capstone/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+プロジェクトの背景、範囲を限定したエージェントへの依頼、独立したテスト、ソース確認、新しいセッションへの引き継ぎを含むJSONタスクレポートを作成します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-capstone.webp" length="96772" type="image/webp"/></item><item><title>AIエージェントの上限付きループ: チェック、再試行、停止ルール</title><link>https://ja.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェア工学"
+, "生産性"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+観察可能な状態、チェック、再試行の上限、停止条件、人への明確な引き継ぎを備えたAI目標ループを定義します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-bounded-agent-loops.webp" length="94174" type="image/webp"/></item><item><title>AIエージェントへの委任: 作業者の割り当てと結果のレビュー</title><link>https://ja.simeononsecurity.com/articles/effective-ai-agent-delegation/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェア工学"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-agent-delegation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2人目のAIエージェントが役立つ場面を判断し、各作業者に範囲を限定したタスクを割り当て、編集の競合を防ぎ、証拠をメインセッションに統合します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-agent-delegation.webp" length="133510" type="image/webp"/></item><item><title>AIコンテキストウィンドウの管理：コーディングエージェントの集中を保つ</title><link>https://ja.simeononsecurity.com/articles/effective-ai-context-window-management/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェア工学"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-context-window-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+選択したファイル、簡潔な引き継ぎ、小さなワーカー出力でAIタスクのアクティブコンテキストを管理し、判断と根拠を保持します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-context-window-management.webp" length="78984" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>オープンソースプロジェクト on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>オープンソースプロジェクト on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88/</link><description>Recent content in オープンソースプロジェクト on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88/index.xml" rel="self" type="application/rss+xml"/><item><title>146,526件の「Flockカメラ」をマッピングした結果、50,278件はClickShareシステムでした</title><link>https://ja.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link><pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate><category>
+"セキュリティ研究"
+, "プライバシー技術"
+, "オープンソースプロジェクト"
+, "データジャーナリズム"
+, "監視への対抗"</category><guid>https://ja.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finderの監査でClickShareなどの誤検出を特定し、根拠と改善内容を説明します。</description></item><item><title>Flockカメラ検出競争：2026年に変わったこと</title><link>https://ja.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"プライバシー技術"
+, "対監視"
+, "オープンソースプロジェクト"
+, "デジタル権利"
+, "ネットワークセキュリティ"
+, "セキュリティ研究"
+, "ハードウェア改造"
+, "プライバシーツール"</category><guid>https://ja.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safetyの検出方法に報告された変更、コミュニティの対応、カメラを識別する赤外線方式を確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>ATS Resume Improver: 無料のAI履歴書最適化ツール</title><link>https://ja.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"キャリアツール"
+, "オープンソースプロジェクト"
+, "人工知能"
+, "プライバシー技術"
+, "開発者ツール"
+, "就職活動"
+, "生産性"</category><guid>https://ja.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ATS Resume Improverは、ブラウザー内で動作する無料のオープンソースツールです。クラウドまたはローカルモデルを使って、履歴書の解析、採点、照合、最適化、書き出しを行います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp" length="158574" type="image/webp"/></item><item><title>Flock Finder: Flock Safety ALPRカメラのマッピングツール</title><link>https://ja.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"プライバシー技術"
+, "対監視"
+, "オープンソースプロジェクト"
+, "デジタル権利"
+, "ネットワークセキュリティ"
+, "プライバシーツール"
+, "ハードウェアハッキング"
+, "セキュリティ研究"</category><guid>https://ja.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock FinderはWiGLE WiFiデータとOUIフィンガープリンティングを使用して、世界中の40,000以上のFlock Safety ALPRカメラをマッピングするオープンソースツールです。仕組み、制限事項、およびリアルタイム検出のハードウェアツールについて学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Flock-You検出：カウンター監視セットアップガイド</title><link>https://ja.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"セキュリティハードウェア"
+, "カウンター監視"
+, "プライバシー技術"
+, "オープンソースプロジェクト"
+, "ESP32開発"
+, "WiFiモニタリング"
+, "プライバシーツール"
+, "デジタル権利"
+, "ハードウェアハッキング"
+, "ネットワークセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ESP32ベースのハードウェアを使用してFlock Safety ALPRカメラを検出するオープンソースFlock-Youプロジェクトの包括的な技術ガイド。セットアップ手順、ファームウェアの詳細、購入オプションを含む。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item></channel></rss>

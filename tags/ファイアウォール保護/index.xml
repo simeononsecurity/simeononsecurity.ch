@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ファイアウォール保護 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>ファイアウォール保護 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%AB%E4%BF%9D%E8%AD%B7/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%AB%E4%BF%9D%E8%AD%B7/</link><description>Recent content in ファイアウォール保護 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Fri, 21 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%AB%E4%BF%9D%E8%AD%B7/index.xml" rel="self" type="application/rss+xml"/><item><title>ネットワークの基礎：スイッチ、ルーター、ファイアウォール、DMZ</title><link>https://ja.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"ネットワーク"
+, "ITインフラ"
+, "ネットワークセキュリティ"
+, "ネットワークアーキテクチャ"
+, "サイバーセキュリティ"
+, "データ通信"
+, "情報技術"
+, "ITの基礎"
+, "ネットワーク管理"
+, "インターネット接続"</category><guid>https://ja.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+スイッチ、ルーター、ゲートウェイ、サブネット、ファイアウォール、DMZがネットワーク通信を分割し、安全境界を設ける仕組みを解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item><item><title>ソーシャルエンジニアリング攻撃から身を守る</title><link>https://ja.simeononsecurity.com/articles/how-to-protect-yourself-from-social-engineering/</link><pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate><category>
+"ソーシャルエンジニアリング攻撃"
+, "ソーシャルエンジニアリング対策"
+, "サイバーセキュリティ戦略"
+, "フィッシング対策"
+, "パスワード保護"
+, "フィッシング攻撃の回避"
+, "端末の保護"
+, "不審なメールや電話の識別"
+, "インシデント報告"
+, "サイバーセキュリティ教育"</category><guid>https://ja.simeononsecurity.com/articles/how-to-protect-yourself-from-social-engineering/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+効果的な戦略とベストプラクティスでソーシャルエンジニアリングから身を守る方法を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_shield_protecting_a_person_from_social_engineering_attack.webp" length="146720" type="image/webp"/></item><item><title>ワークステーションの安全性を確保する：NISTの勧告に基づくガイド</title><link>https://ja.simeononsecurity.com/articles/general-guidance-on-securing-your-workstations-by-nist-summarized/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"NISTの勧告"
+, "ワークステーションセキュリティ"
+, "サイバーセキュリティ"
+, "データ暗号化"
+, "ファイアウォール保護"
+, "アンチウイルスソフト"
+, "アクセス制御"
+, "機密情報"
+, "サイバー攻撃"
+, "データバックアップ"</category><guid>https://ja.simeononsecurity.com/articles/general-guidance-on-securing-your-workstations-by-nist-summarized/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+この包括的なガイドでは、強力なアクセス制御の実装、ソフトウェアの最新状態の維持、ウイルス対策ソフトウェアの使用、ファイアウォール保護の有効化、データ暗号化の実装、データの定期的なバックアップなど、NISTの推奨事項に基づき、ワークステーションを保護し機密情報を保護する方法をご紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_image_of_a_person_sitting_at_their_workstation.webp" length="71050" type="image/webp"/></item></channel></rss>

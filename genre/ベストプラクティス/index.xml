@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ベストプラクティス on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>ベストプラクティス on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%83%99%E3%82%B9%E3%83%88%E3%83%97%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%82%B9/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%83%99%E3%82%B9%E3%83%88%E3%83%97%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%82%B9/</link><description>Recent content in ベストプラクティス on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%83%99%E3%82%B9%E3%83%88%E3%83%97%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>現場ITの実践ヒント：小型データセンターの先へ</title><link>https://ja.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"現場IT"
+, "エッジコンピューティング"
+, "IT運用"
+, "災害復旧"
+, "ハードウェア"
+, "ベストプラクティス"</category><guid>https://ja.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+予備部品、文書、ESD対策、ファームウェア、起動メディア、ライセンス、物理的な安全、出張、保険に関する現場ITの実践ガイドです。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp"/></item><item><title>Windows Server セキュリティを強化する</title><link>https://ja.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "IT セキュリティ"
+, "サーバー管理"
+, "サイバーセキュリティ"
+, "ネットワーク保護"
+, "データ完全性"
+, "IT インフラ"
+, "ベストプラクティス"
+, "サーバーのハードニング"
+, "Windows Server"</category><guid>https://ja.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+基本的なハードニングから高度な保護技術まで、Windows Server とインフラを守る方法を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/Windows_Server_Security_Shield_Protection.webp" length="101056" type="image/webp"/></item><item><title>変更管理でサイバーセキュリティのレジリエンスを高める</title><link>https://ja.simeononsecurity.com/articles/change-management-cyber-security-enhancing-resilience-evolving-landscape/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "変更管理"
+, "レジリエンス"
+, "ITインフラ"
+, "リスク評価"
+, "コンプライアンス"
+, "インシデント対応"
+, "ベストプラクティス"
+, "ITIL"
+, "セキュリティ管理策"</category><guid>https://ja.simeononsecurity.com/articles/change-management-cyber-security-enhancing-resilience-evolving-landscape/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバーセキュリティにおける変更管理の重要性と、変化する脅威環境でレジリエンスを高める方法を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_team_of_professionals_working_together_to_bu.webp" length="141276" type="image/webp"/></item><item><title>サイバーセキュリティチームを管理するための究極のガイド：スキル、ベストプラクティス、その他</title><link>https://ja.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/managing-a-cyber-security-team/</link><pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ管理"
+, "情報セキュリティ・リーダーシップ"
+, "チームマネジメント"
+, "ベストプラクティス"
+, "スキル開発"
+, "サイバーリスク管理"
+, "インシデント対応"
+, "コミュニケーション"
+, "コラボレーション"
+, "継続的な学習"</category><guid>https://ja.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/managing-a-cyber-security-team/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+今日の進化する脅威の状況やリモートワーク環境において、サイバーセキュリティチームを効果的に管理するために不可欠なスキルとベストプラクティスを発見する。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_animated_image_showing_a_team_of_cybersecurity_professio.webp" length="109938" type="image/webp"/></item></channel></rss>

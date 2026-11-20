@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>セキュリティ on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>セキュリティ on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link><description>Recent content in セキュリティ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>Chrome 156 セキュリティ更新: 10月の修正を確認する</title><link>https://ja.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"ブラウザー"
+, "セキュリティ"
+, "パッチ管理"</category><guid>https://ja.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows、macOS、Linux、Android で10月27日の Chrome 156 セキュリティリリースを確認します。インストール済みのビルドを比較し、保留中の再起動を完了して、管理対象端末を個別に確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp"/></item><item><title>Mullvad と ProtonVPN：どちらの VPN を選ぶ？</title><link>https://ja.simeononsecurity.com/articles/mullvad-vs-protonvpn/</link><pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "セキュリティ"
+, "プライバシー"
+, "VPN 比較"
+, "オンライン匿名性"
+, "デジタル安全"
+, "インターネットセキュリティ"
+, "サイバーセキュリティ"
+, "データ保護"
+, "VPN サービス"</category><guid>https://ja.simeononsecurity.com/articles/mullvad-vs-protonvpn/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Mullvad VPN と ProtonVPN のセキュリティ、プライバシー、性能、使いやすさを比較し、自分に合うサービスを選びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/mullvad-protonvpn-security-race.webp" length="148320" type="image/webp"/></item><item><title>未来を守る: 緊急時に役立つ必須テクノロジー</title><link>https://ja.simeononsecurity.com/articles/emergency-tech-preparedness-gadgets/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "セキュリティ"
+, "緊急時の備え"
+, "サバイバル"
+, "ガジェット"
+, "通信"
+, "安全"
+, "災害からの復旧"
+, "レジリエンス"
+, "接続性"</category><guid>https://ja.simeononsecurity.com/articles/emergency-tech-preparedness-gadgets/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ソーラー充電器や衛星メッセンジャーなど、安全確保と緊急時の備えに役立つサバイバル用品を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/emergency-preparedness-solar-gadgets.webp" length="167932" type="image/webp"/></item><item><title>生体認証によるアクセス制御</title><link>https://ja.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</link><pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "セキュリティ"
+, "生体認証"
+, "アクセス制御"
+, "指紋スキャナー"
+, "顔認識"
+, "Amazon製品"
+, "デジタルセキュリティ"
+, "イノベーション"
+, "プライバシー"</category><guid>https://ja.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Amazonで購入できる指紋スキャナーや顔認識デバイスを使った高度な生体認証セキュリティを紹介します。確実なアクセス制御と安心につながります。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/biometric-access-control-fingerprint-facial-recognition-devices-amazon.webp" length="183044" type="image/webp"/></item><item><title>vTPMで仮想マシンのセキュリティを強化：ステップバイステップガイド</title><link>https://ja.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "仮想化"
+, "VMware"
+, "ブイ・スフィア"
+, "セキュリティ"
+, "トラステッド・プラットフォーム・モジュール"
+, "ブイティピーエム"
+, "ゲストOS"
+, "暗号化"
+, "プラットフォーム認証"</category><guid>https://ja.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+包括的なステップバイステップのガイドでvTPMを使用して仮想マシンのセキュリティを強化し、プラットフォームの認証とBitLocker暗号化のサポートを提供します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/enhanced-vm-security.webp" length="99734" type="image/webp"/></item><item><title>2026年の最高プライバシーブラウザ：LibreWolf vs Brave vs Tor</title><link>https://ja.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"ブラウザ"
+, "プライバシー"
+, "セキュリティ"
+, "インターネット"
+, "テクノロジー"
+, "デジタルプライバシー"
+, "オンライン安全"
+, "オープンソース"
+, "匿名性"
+, "ウェブ閲覧"</category><guid>https://ja.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年の最高のプライバシー重視ブラウザを包括的に比較：LibreWolf、Brave、Firefox、Torなど。詳細なプライバシーテスト、パフォーマンスベンチマーク、セキュリティ分析でオンラインデータを保護します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp"/></item><item><title>サイバーセキュリティポリシーの策定ベストプラクティスと手順</title><link>https://ja.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "セキュリティ"
+, "コンプライアンス"
+, "リスク管理"
+, "データ保護"
+, "情報ガバナンス"
+, "インシデント対応"
+, "事業継続"
+, "サイバー脅威"
+, "政策展開"</category><guid>https://ja.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+組織の機密情報を保護し、サイバーリスクを軽減するために、業界標準や規制要件に沿った包括的なサイバーセキュリティポリシーを策定する方法を学びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.webp" length="206064" type="image/webp"/></item></channel></rss>

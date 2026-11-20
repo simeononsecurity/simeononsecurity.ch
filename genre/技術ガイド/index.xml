@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技術ガイド on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>技術ガイド on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E6%8A%80%E8%A1%93%E3%82%AC%E3%82%A4%E3%83%89/</link></image><link>https://ja.simeononsecurity.com/genre/%E6%8A%80%E8%A1%93%E3%82%AC%E3%82%A4%E3%83%89/</link><description>Recent content in 技術ガイド on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Fri, 08 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E6%8A%80%E8%A1%93%E3%82%AC%E3%82%A4%E3%83%89/index.xml" rel="self" type="application/rss+xml"/><item><title>PC自作の完全ガイド：欠かせない10の工具とパーツ</title><link>https://ja.simeononsecurity.com/articles/top-10-essential-tools-for-building-your-own-pc/</link><pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate><category>
+"PCのDIY組み立て"
+, "PCハードウェアガイド"
+, "カスタムPC"
+, "テクノロジー愛好家向け情報"
+, "ゲーミングPCの組み立て"
+, "ホームオフィス"
+, "プロ向けワークステーション"
+, "PCの改造"
+, "技術ガイド"
+, "システム構築のヒント"</category><guid>https://ja.simeononsecurity.com/articles/top-10-essential-tools-for-building-your-own-pc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+自信を持ってPCを自作しましょう。ゲーム、仕事、クリエイティブ用途に合うPCを作るための主要パーツを解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/top-10-essential-tools-for-building-your-own-pc.webp" length="42940" type="image/webp"/></item><item><title>マザーボードのボタン電池：CMOS、BIOS、PCの時刻管理</title><link>https://ja.simeononsecurity.com/articles/the-little-battery-on-the-motherboard_-why-its-crucial-for-your-pc/</link><pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate><category>
+"コンピューター部品"
+, "PCメンテナンス"
+, "ハードウェアガイド"
+, "技術ガイド"
+, "コンピューター修理"
+, "DIYテクニカルサポート"
+, "マザーボード"
+, "BIOS設定"
+, "PC組み立ての基礎"
+, "電子機器のトラブルシューティング"</category><guid>https://ja.simeononsecurity.com/articles/the-little-battery-on-the-motherboard_-why-its-crucial-for-your-pc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+マザーボードの小さな電池がCMOS、BIOS設定、時刻管理、起動、ハードウェア検出に果たす役割を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/the-little-battery-on-the-motherboard_-why-its-crucial-for-your-pc.webp" length="68448" type="image/webp"/></item><item><title>静電気による損傷を防ぐ：接地とESD対策</title><link>https://ja.simeononsecurity.com/articles/the-ground-connection_-protecting-your-electronics-from-static-damage/</link><pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate><category>
+"電子機器の安全"
+, "技術ガイド"
+, "職場の手順"
+, "機器の保守"
+, "技術教育"
+, "ハードウェア保護"
+, "産業規格"
+, "従業員向け研修資料"
+, "予防策"
+, "静電気制御ソリューション"</category><guid>https://ja.simeononsecurity.com/articles/the-ground-connection_-protecting-your-electronics-from-static-damage/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+電子機器を静電気から守りましょう。接地と静電気対策用ツールを使い、損傷や高額な修理を防ぐ方法を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/the-ground-connection_-protecting-your-electronics-from-static-damage.webp" length="120956" type="image/webp"/></item><item><title>OS比較：Windows、Linux、macOSの機能とセキュリティ</title><link>https://ja.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><category>
+"オペレーティングシステム"
+, "技術レビュー"
+, "ソフトウェア比較"
+, "コンピューターセキュリティ"
+, "ユーザーエクスペリエンスデザイン"
+, "システムパフォーマンス"
+, "オープンソースソフトウェア"
+, "技術ガイド"
+, "パーソナルコンピューティング"
+, "ITソリューション"</category><guid>https://ja.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+セキュリティと使いやすさでどのOSがトップか？Windows、Linux、macOSを徹底解明。決断前に必要な重要ポイントをチェック！</description><enclosure url="https://ja.simeononsecurity.com/img/cover/operating-systems_-windows-linux-and-macos-compared.webp" length="44424" type="image/webp"/></item><item><title>ノートパソコンのバッテリー駆動時間と寿命を延ばす方法</title><link>https://ja.simeononsecurity.com/articles/laptop-battery-life_-maximizing-performance-and-longevity/</link><pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate><category>
+"機器のメンテナンス"
+, "ノートパソコンの手入れ"
+, "バッテリーの状態"
+, "電子機器"
+, "機器の活用方法"
+, "電源管理"
+, "ハードウェアの寿命"
+, "パソコン"
+, "技術ガイド"
+, "モバイル技術"</category><guid>https://ja.simeononsecurity.com/articles/laptop-battery-life_-maximizing-performance-and-longevity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+設定、充電方法、日常の手入れを見直して、ノートパソコンのバッテリーを長持ちさせましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/laptop-battery-life_-maximizing-performance-and-longevity.webp" length="160258" type="image/webp"/></item><item><title>NATとPAT：ネットワーク通信の基本ガイド</title><link>https://ja.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"ネットワークの基礎"
+, "サイバーセキュリティ"
+, "ITインフラ"
+, "技術ガイド"
+, "ネットワーク管理"
+, "インターネットプロトコル"
+, "通信技術"
+, "システム管理"
+, "ネットワークエンジニアリング"
+, "デジタルネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+NATとPATを理解し、デジタル通信を円滑にしましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item><item><title>ネットワークを最適化する: 設計とトポロジーを理解する</title><link>https://ja.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><category>
+"ネットワークエンジニアリング"
+, "ITインフラ"
+, "技術ガイド"
+, "ネットワークソリューション"
+, "サイバーセキュリティ"
+, "コンピューターサイエンス"
+, "技術教育"
+, "システムアーキテクチャ"
+, "ネットワーク最適化"
+, "技術革新"</category><guid>https://ja.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ネットワーク設計とトポロジーを理解し、効率を最大化する構成を見極めましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/decoding-network-designs_-types-and-topologies-explained.webp" length="121144" type="image/webp"/></item><item><title>ネットワークを最適化する：DNS設定の基本</title><link>https://ja.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><category>
+"ネットワーク管理"
+, "サイバーセキュリティ"
+, "ITインフラ"
+, "技術ソリューション"
+, "インターネット技術"
+, "DNS最適化"
+, "ネットワーク性能"
+, "デジタルセキュリティ"
+, "インターネット接続"
+, "技術ガイド"</category><guid>https://ja.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+DNSの知識を使ってネットワークを改善しましょう。DNSが接続性、性能、セキュリティに与える影響を学び、設定を最適化します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp"/></item><item><title>ファイルシステム入門: FAT32、NTFS、exFATなど</title><link>https://ja.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</link><pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate><category>
+"コンピューターサイエンス"
+, "データストレージ"
+, "技術ガイド"
+, "ファイル管理"
+, "オペレーティングシステム"
+, "デジタル整理"
+, "技術教育"
+, "ソフトウェア情報"
+, "システム最適化"
+, "技術リソース"</category><guid>https://ja.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+FAT32、NTFS、exFATなどのファイルシステムを解説します。機能、制限、互換性を比較して、データを適切に管理する方法を学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/computer-file-systems-explained_-fat32,-ntfs,-exfat,-and-more.webp" length="132294" type="image/webp"/></item></channel></rss>

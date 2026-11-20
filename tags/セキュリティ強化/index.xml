@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>セキュリティ強化 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>セキュリティ強化 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E5%BC%B7%E5%8C%96/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E5%BC%B7%E5%8C%96/</link><description>Recent content in セキュリティ強化 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E5%BC%B7%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows レジストリと Linux 設定ファイルの比較</title><link>https://ja.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link><pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "オペレーティングシステム"
+, "セキュリティ管理"
+, "コンピューター技術"
+, "データ保護"
+, "システム設定"
+, "IT セキュリティ"
+, "ネットワークセキュリティ"
+, "技術比較"
+, "情報セキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows レジストリと Linux 設定ファイルのセキュリティを比較し、両システムを強化する実践的な対策を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp"/></item><item><title>WindowsとLinuxのセキュリティ強化</title><link>https://ja.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "スクリプト言語"
+, "システムセキュリティ"
+, "Windows"
+, "Linux"
+, "政府規制"
+, "サイバー脅威"
+, "安全なスクリプト作成"
+, "コンプライアンス"
+, "プログラミング"</category><guid>https://ja.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバーセキュリティを詳しく分析し、PowerShellとPythonでシステムの安全性を高める方法を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp"/></item><item><title>Active Directoryのセキュリティ対策</title><link>https://ja.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "ネットワーク管理"
+, "情報技術"
+, "データ保護"
+, "企業セキュリティ"
+, "デジタルインフラ"
+, "アクセス制御"
+, "ユーザー認証"
+, "ITのベストプラクティス"
+, "セキュリティ意識"</category><guid>https://ja.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Active Directoryを保護し、データを守り、ネットワークへの侵入を防ぐ方法を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item><item><title>取引を安全に保護する</title><link>https://ja.simeononsecurity.com/articles/secure-transactions-amazon-hardware-tokens/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "サイバーセキュリティ"
+, "オンラインセキュリティ"
+, "デジタル取引"
+, "二要素認証"
+, "Amazonデバイス"
+, "データ保護"
+, "インターネット安全"
+, "電子商取引"
+, "規制コンプライアンス"</category><guid>https://ja.simeononsecurity.com/articles/secure-transactions-amazon-hardware-tokens/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Amazonが推奨するハードウェアセキュリティトークンを紹介し、オンラインアカウントの認証を強化する方法を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/secure_transactions_shield.webp" length="69502" type="image/webp"/></item><item><title>脆弱性管理システム：セキュリティリスクを低減する</title><link>https://ja.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "ITインフラ"
+, "リスク軽減"
+, "コンプライアンス"
+, "データ・セキュリティ"
+, "脆弱性評価"
+, "安全保障体制"
+, "オートメーション"
+, "統合"
+, "報告"</category><guid>https://ja.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+脆弱性管理システムで組織のセキュリティを強化し、リスクを軽減しましょう。今日のデジタル環境における脆弱性管理システムの利点と重要性をご覧ください。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.webp" length="122958" type="image/webp"/></item><item><title>Windows Server 2019へのアップグレードか、Azureへの乗り換えか：あなたのビジネスにはどのオプションが適していますか？</title><link>https://ja.simeononsecurity.com/articles/switching-to-windows-server-2019-and-azure/</link><pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate><category>
+"Server 2019へのアップグレード"
+, "Azureへの乗り換え"
+, "ITインフラ"
+, "ビジネステクノロジー"
+, "セキュリティ強化"
+, "パフォーマンスの向上"
+, "Azureとの連携"
+, "長期的なサポート"
+, "スケーラビリティ"
+, "費用対効果"
+, "信頼性の向上"
+, "アドバンスト・アナリティクス"
+, "ハイブリッドアプローチ"
+, "フレキシブルで弾力性のあるITインフラ"</category><guid>https://ja.simeononsecurity.com/articles/switching-to-windows-server-2019-and-azure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+本記事では、セキュリティ、パフォーマンス、統合、サポートの向上など、Server 2019へのアップグレードやAzureへの乗り換えのメリットを紹介し、企業がITインフラにとって最適な決断ができるよう支援します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.webp" length="188476" type="image/webp"/></item></channel></rss>

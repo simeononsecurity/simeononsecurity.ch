@@ -1,0 +1,3123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://ja.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>ja</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>Home Assistant Core 2026.11 から 2026.10.4 へのロールバック後に HTTP ストレージバージョン 3 を修復する</title><link>https://ja.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><description>Yellow で Home Assistant Core 2026.11 が 2026.10.4 に戻った後に発生する HTTP ストレージバージョン 3 のエラーを修復します。安全策を組み込んだコマンドと検証済みの出力を示します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>Home Assistant Core 2026.11 の更新に失敗し、手元の Yellow CM4 は 2026.10.4 に戻りました。Yellow はネットワーク上で到達可能でしたが、ダッシュボードを表示しなくなりました。ロールバック後の HTTP 設定ファイルはストレージバージョン 3.1 でしたが、Core 2026.10.4 が対応するのはバージョン 2.2 です。ファイルを保全し、厳密な検査を通したコピーを変換して HTTP アクセスを復旧した後、Core を 2026.11.1 に更新しました。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>不一致を確認します。</strong> Core のログエラーを、インストール済みリリースと HTTP ストレージバージョンに照らして確認します。</li>
+<li><strong>ファイルを保全します。</strong> 復旧前に未変更のコピーと、デバイス外のバックアップを確保します。</li>
+<li><strong>結果を検証します。</strong> Core の状態、保存済みリスナーポート、ダッシュボード、インストール済みバージョンを確認します。</li>
+</ul>
+<p><strong>この事例に対する修復手順:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="HTTP ファイルを保全し">
+    <meta itemprop="url" content="#preserve-recovery-options">
+    <a href="#preserve-recovery-options"
+    
+        rel="follow me"
+    >HTTP ファイルを保全し</a>
+</span>
+、
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="バージョン 2.2 の候補を作成して
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>無検閲のローカルAIモデルを選ぶ方法</title><link>https://ja.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><description>回答の完了率、維持された能力、コンテキストの使用量、量子化、必要なVRAMを基準にローカルモデルの派生版を比較します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>モデルの選び方:</strong> 各派生版について、役立つ回答をどれだけ完了できるか、品質をどれだけ維持するか、ワークロードにどれだけのメモリが必要かを評価します。拒否が少ないことや人気のモデルカードだけでは、そうした結果を確認できません。</p>
+<p><strong>無検閲</strong>というラベルには、標準化された性能指標がありません。モデルの公開者は、異なる重みの編集、ファインチューニング、チャットテンプレートにこの言葉を使います。各候補を元のモデルと比べ、実際に行う予定のタスクでテストしてください。</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <meta itemprop="name" content="無検閲のローカルAIモデルをすべてテストしました（VRAM 8GBから32GB）">
+  <meta itemprop="description" content="ローカルモデルの派生版、回�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Octominer X12 Ultraの電源互換性：ChiconyとLiteOnの実機テスト</title><link>https://ja.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><description>5基のファンと3台の電源を備えたOctominer X12 Ultraでテストしたところ、Chicony電源は起動し、テストしたLiteOn電源は橙色を示して起動しませんでした。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>Chicony R12-1K6P2Aは、ファン5基、電源3台のOctominer X12 Ultraを起動しました。</strong> テストしたLiteOn PS-2142-2Lは緑色に点灯した後、橙色に変わり、システムは起動しませんでした。この結果は、<strong>OCTOMINER (12PIN) 3x DPS1200 rev. 20</strong>電源バックプレーンを搭載した私の個体に限ります。同じワット数や、別売りX12ブレークアウトボードの一覧掲載だけでは、Octominerバックプレーンとの互換性を証明できません。</p>
+<p>このシャーシは、電源ベイ3基を備えた<strong>3,600 W構成</strong>として販売されました。
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="OctominerはX12 Ultra向けに1,200 W電源を3台搭載する構成">
+    <meta itemprop="url" content="https://octominer.eu/product/octominer-x12-ultra-used/">
+    <a href="https://octominer.eu/product/octominer-x12-ultra-used/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >OctominerはX12 Ultra向けに1,200 W電源を3台搭載する構成</a>
+</span>
+を掲載しており、ほかの構成もあります。テスト結果を自分の機器に当てはめる前に、機器のラベルと電源ボードを確認してください。</p>
+<h2 id="テスト結果">
+  <a href="#%e3%83%86%e3%82%b9%e3%83%88%e7%b5%90%e6%9e%9c" title="テスト結果">テスト結果</a>
+  <a href="#%e3%83%86%e3%82%b9%e3%83%88%e7%b5%90%e6%9e%9c" class="h-anchor" aria-hidden="true" title="テスト結果">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>電源</th>
+					<th>この機器での結果</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Chicony R12-1K6P2A、1,600 W</strong></td>
+					<td>私のテストではシステムが起動しました。この記事では連続負荷や全ベイでの動作を測定していません。</td>
+			</tr>
+			<tr>
+					<td><strong>LiteOn PS-2142-2L、1,400 W</strong></td>
+					<td>テストした個体は緑色から橙色
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proxmox VE 9: 仮想ディスクの使用量を抑え、空き領域を回収する</title><link>https://ja.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><description>Proxmox VE 9 の VM と LXC のストレージ使用量を減らします。ディスク形式とストレージバックエンドを比較し、discard を有効にして、Windows と Linux のゲストで trim を実行し、領域回収前にスナップショットを確認します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>ゲストのファイルシステムが小さくなっても、Proxmox のストレージ使用量が減るとは限りません。</strong> ホストの領域を空けるには、シンプロビジョニングに対応したディスク、VM で機能する discard 経路、スナップショットが保持するブロックのないバックエンドが必要です。このガイドでは Proxmox VE 9 の VM と LXC コンテナーの設定と確認方法を説明します。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>まずバックエンドを選びます。</strong> 仮想ディスクの公称サイズとホストで割り当てられた領域が異なるのは、イメージ形式またはストレージバックエンドがシンプロビジョニングに対応する場合だけです。</li>
+<li><strong>VM の discard を有効にし、ゲスト内で trim を実行します。</strong> Windows の ReTrim と Linux の <code>fstrim</code> は、未使用ブロックの要求を仮想ディスク経由で送ります。</li>
+<li><strong>スナップショットとバックアップを別々に確認します。</strong> スナップショットが参照する古いブロックは割り当てられたままです。バックアップファイルと PBS チャンクには、それぞれ独自の保持ルールがあります。</li>
+<li><strong>LXC のマウントは種類ごとに扱います。</strong> 管理対象の rootfs とマウントポイント、バインドマウント、デバイスマウントでは、所有者とバックアップ動作が異なります。</li>
+</ul>
+<h2 id="作業前の確認">
+  <a href="#%e4%bd%9c%e6%a5%ad%e5%89%8d%e3%81%ae%e7%a2%ba%e8%aa%8d" title="作業前の確認">作業前の確認</a>
+  <a href="#%e4%bd%9c%e6%a5%ad%e5%89%8d%e3%81%ae%e7%a2%ba%e8%aa%8d" class="h-anchor" aria-hidden="true" title="作業前の確認">#</a>
+</h2>
+<p><strong>Proxmox VE 9 の管理者アクセス権</strong>、対象ゲストの検証済みバックアップ、処理に必要な空きプール容量を用意します。設定を変える前に、各ゲストの ID、ディスクバス、ボリューム ID、ストレージ ID、スナップショット、現在の割り当て量を記録します。復元手順は
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Tailscale Aperture：2026年にAIクライアントの推論とMCPを設定する</title><link>https://ja.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><description>モデルリクエストとMCPツールをTailscale Aperture経由でルーティングします。別のデバイスやゲートウェイでCodex、Claude Code、Claude Desktop、OpenCode、Hermesを設定します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <h2 id="はじめに">
+  <a href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab" title="はじめに">はじめに</a>
+  <a href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab" class="h-anchor" aria-hidden="true" title="はじめに">#</a>
+</h2>
+<p>Tailscale Apertureは、モデル推論とModel Context Protocol（MCP）ツール向けにtailnetへ接続する単一のゲートウェイをAIクライアントに提供します。各クライアントは、使用するAPIプロトコルに合ったルートを使う必要があります。MCPツールには専用のエンドポイントがあり、Apertureのgrantは各Tailscale IDが利用できるモデルとコネクタを制御します。</p>
+<p>このガイドでは、macOS、Linux、WindowsでCodex、Claude Code、Claude Desktop、OpenCode、Hermesを設定します。CLIとデスクトップの設定を説明し、自分のIDで利用できるモデルIDを確認する方法を示します。また、別のデバイスやApertureインスタンスを設定するときに再利用できる匿名化済みプロンプトも含みます。</p>
+<p><strong>ルートの選択：</strong> エンドポイントのパスはゲートウェイとAPIプロトコルによって異なります。<code>/codex</code>のようなResponsesルートはAnthropic MessagesやMCPのトラフィックを処理しません。ゲートウェイのホスト名と各クライアントの推論ルートを確認してください。クライアント設定を変更する前に、自分のApertureアクセスでモデルIDを確認してください。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>モデルのトラフィック</strong>には、クライアントのプロトコルに対応するAPIルートが必要です。</li>
+<li><strong>MCPのトラフィック</strong>は専用の<code>/v1/mcp</code>エンドポイントを使います。</li>
+<li><strong>ゲートウェイ権限</strong>は、自分のTailscale IDに各モデルとコネクタの使用を許可する必要があります。</li>
+<li><strong>クライアント設定</strong>は設定が保存されたことしか証明しません。実際のリクエストとMCPツール呼び出しを確認してください。</li>
+</ul>
+<h2 id="ルートの関係">
+  <a href="#%e3%83%ab%e3%83%bc%e3%83%88%e3%81%ae%e9%96%a2%e4%bf%82" title="ル�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>セルフホスト Hindsight: エージェントのローカルメモリとプライベートなモデルルーティング</title><link>https://ja.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/self-hosted-hindsight/</guid><description>セルフホスト Hindsight、観測したローカル Qwen 経路、確認した経路でホスト型モデルの契約なしに行うリクエスト単位の GPU 処理を紹介する事例です。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/self-hosted-hindsight/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>私たちの Hindsight メモリサービスは、管理下のハードウェアで動作します。</strong> メモリエンジン、データベース、埋め込みモデル、リランカーを 1 つのセルフホスト環境で実行します。Hindsight は生成リクエストをプライベートゲートウェイへ送ります。確認した共有 Qwen バックエンドとテスト済みのページ更新経路は、ホスト型推論の契約を使わず、ローカルモデルサーバーを利用します。</p>
+<p>これは稼働中の 1 つの環境についての説明です。<strong>セルフホストはオフラインを意味しません。</strong> VPN は外部の調整サービスを使い、ソフトウェアイメージとモデルウェイトのダウンロードも必要です。ここでの主張はメモリ処理とモデル推論に限られ、端末や他のエージェントツールが行うすべてのネットワーク接続を対象にしません。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>Hindsight がメモリ処理を担います。</strong> Docker コンテナが API、ワーカー、制御プレーンを提供し、永続ボリュームがバンクデータを保存します。</li>
+<li><strong>小規模な検索モデルはローカルで動きます。</strong> 埋め込みとリランキングは Hindsight プロセス内で CPU 実行します。</li>
+<li><strong>Qwen がテキストを生成します。</strong> Retain、Reflect、Consolidation は推論を無効にし、出力を制限したプライベート Qwen3.5-4B エイリアスを呼び出します。確認したバックエンドはローカルで提供します。</li>
+<li><strong>時間のかかるページ更新には GPU を割り当てます。</strong> 別のモデルエイリアスがバックグラウンドリクエストに GPU カードを 1 枚借り、完了後に解放します。</li>
+<li><strong>ゲートウェイは物理的な配置を隠します。</strong> Hindsight がモデルエイリアスを選び、プライベートルーティングサービスが配信先を選びます。</li>
+</ul>
+<h2 id="モデルを選ぶ前に境界を決める">
+  <a href="#%e3%83%a2%e3%83%87%e3%83%ab%e3%82%92%e9%81%b8%e3%81%b6%e5%89%8d%e3%81%ab%e5%a2%83%e7%95%8c%e3%82%92%e6%b1%ba%e3%82%
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/self-hosted-hindsight/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Chrome 156 セキュリティ更新: 10月の修正を確認する</title><link>https://ja.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><description>Windows、macOS、Linux、Android で10月27日の Chrome 156 セキュリティリリースを確認します。インストール済みのビルドを比較し、保留中の再起動を完了して、管理対象端末を個別に確認します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>2026年10月27日の Chrome セキュリティリリース</strong>には52件の修正が含まれます。インストールを確認するには、完全なバージョン番号をお使いの OS 向けリリースと比較し、Chrome を再起動して保留中の更新を完了します。バージョンが発表されても、端末に更新が届いた証拠にはなりません。(
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Chrome デスクトップ版リリース">
+    <meta itemprop="url" content="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html">
+    <a href="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Chrome デスクトップ版リリース</a>
+</span>
+)</p>
+<h2 id="表示されるべきバージョン">
+  <a href="#%e8%a1%a8%e7%a4%ba%e3%81%95%e3%82%8c%e3%82%8b%e3%81%b9%e3%81%8d%e3%83%90%e3%83%bc%e3%82%b8%e3%83%a7%e3%83%b3" title="表示されるべきバージョン">表示されるべきバージョン</a>
+  <a href="#%e8%a1%a8%e7%a4%ba%e3%81%95%e3%82%8c%e3%82%8b%e3%81%b9%e3%81%8d%e3%83%90%e3%83%bc%e3%82%b8%e3%83%a7%e3%83%b3" class="h-anchor" aria-hidden="true" title="表示されるべきバージョン">#</a>
+</h2>
+<p>Google は2026年10月27日に、次の Stable チャネル版を公開しました。デスクトップ版リリースには Windows と macOS 用のビルド、および Linux 用のビルドが記載されています。
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Android �
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Open WebUI v0.12.4：アップグレードとアクセス制御チェックリスト 2026</title><link>https://ja.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><description>Open WebUI をバックアップして v0.12.4 にアップグレードし、チャット共有、エクスポート権限、リソースへの許可、アカウント、ネットワークアクセスをテストします。</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>**Open WebUI v0.12.4 には、メンテナーがまだ詳細を列挙していないセキュリティ修正が含まれています。**リリースノートは早急な更新を推奨し、CVE の割り当て後にアドバイザリーを公開するとしています。以下で名前を挙げるチャット共有と権限の変更は、リリースノートで確認できる項目です。未公開のセキュリティ修正をすべて示すものではありません。
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Open WebUI v0.12.4 リリースノート">
+    <meta itemprop="url" content="https://github.com/open-webui/open-webui/releases/tag/v0.12.4">
+    <a href="https://github.com/open-webui/open-webui/releases/tag/v0.12.4"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Open WebUI v0.12.4 リリースノート</a>
+</span>
+</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li>**最初にバックアップします。**アプリケーションを変更する前に、データボリュームまたはデータベースとアップロードの復元可能なコピーを保管します。</li>
+<li>**公式リリースのバージョンを固定します。**標準 Docker イメージには <code>ghcr.io/open-webui/open-webui:v0.12.4</code>、pip には <code>open-webui==0.12.4</code> を使用します。</li>
+<li>**実際のユーザーロールで権限をテストします。**ボタンが非表示でも、API 側で認可チェックが行われている証明にはなりません。</li>
+<li>**アクセスを非公開に保ちます。**アプリケーション認証を必須にし、VPN または認証済みリバースプロキシでネットワークアクセスを制限します。</li>
+</ul>
+<h2 id="アップグレード前">
+  <a href="#%e3%82%a2%e3%83%83%e3%83%97%e3%82%b0%e3%83%ac%e3%83%bc%e3%83%89%e5%89%8d" title="�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Thunderbird 153.6: WindowsでのNTLM認証情報漏えいと更新方法 (2026)</title><link>https://ja.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><description>細工されたメールを表示すると、2つの重大なThunderbirdの脆弱性によりWindowsのNTLM認証データが漏えいするおそれがあります。2つの仕組み、バージョンの確認方法、更新中に送信SMBを制限する方法を説明します。</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>MozillaはThunderbird 153.6で、<strong>Windowsの認証情報を漏えいさせる重大な脆弱性</strong>を2件修正しました。細工されたメールを表示するだけで、
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="MFSA 2026-122">
+    <meta itemprop="url" content="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/">
+    <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >MFSA 2026-122</a>
+</span>
+に記載されたネットワークリクエストのいずれかが発生する可能性がありました。この勧告が述べているのはNTLMデータが漏えいする可能性であり、すべての受信者の認証情報が侵害されたという確認ではありません。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>CVE-2026-118174</strong>は、外部ホストされたOpenPGP鍵の添付ファイルに関する問題です。リモートコンテンツをブロックしていても、メッセージを表示するとユーザー操作なしでリクエストが発生しました。</li>
+<li><strong>CVE-2026-118176</strong>は、拡張長UNCパスを使う特殊な<code>mailbox:</code> URLに関する問題です。メッセージを表示すると、送信者が指定したサーバーへのSMB接続が発生しました。</li>
+<li><strong>Windows版Thunderbirdを更新</strong>し、インストール済みのバージョンを確認してください。勧告は修正済みバージョンとしてThunderbird 153.6を挙げています。Thunderbirdのリリースノートには対応する153.6.0esrビルドが記載されています。</li>
+</ul>
+<h2 id="メールを表示すると何が起きるか">
+  <a href="#%e3%83%a1%e3%83%bc%e3%83%ab%e3%82%92%e8%a1%a8%e7%a4%ba%e3%81%99%e3%82%8b%e3%81%a8%e4%
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Pi-holeからローカルAIまで、10段階でホームラボを構築する</title><link>https://ja.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><description>ネットワーク全体のDNSフィルタリングからローカルAIまで、10段階でホームラボを構築します。各段階のハードウェア、費用、スキル、トレードオフを説明します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/build-home-lab-10-levels/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <h1 id="pi-holeからローカルaiまで10段階でホームラボを構築する">
+  <a href="#pi-hole%e3%81%8b%e3%82%89%e3%83%ad%e3%83%bc%e3%82%ab%e3%83%abai%e3%81%be%e3%81%a710%e6%ae%b5%e9%9a%8e%e3%81%a7%e3%83%9b%e3%83%bc%e3%83%a0%e3%83%a9%e3%83%9c%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b" title="Pi-holeからローカルAIまで、10段階でホームラボを構築する">Pi-holeからローカルAIまで、10段階でホームラボを構築する</a>
+  <a href="#pi-hole%e3%81%8b%e3%82%89%e3%83%ad%e3%83%bc%e3%82%ab%e3%83%abai%e3%81%be%e3%81%a710%e6%ae%b5%e9%9a%8e%e3%81%a7%e3%83%9b%e3%83%bc%e3%83%a0%e3%83%a9%e3%83%9c%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b" class="h-anchor" aria-hidden="true" title="Pi-holeからローカルAIまで、10段階でホームラボを構築する">#</a>
+</h1>
+<p><strong>ホームラボ</strong>とは、日常の問題を解決し、実際のシステムの運用を学ぶために自分で動かすコンピューターとサービスの集まりです。広告をブロックしたり、照明を自動化したり、家族のメディアを保存したり、仮想マシンを試したりできます。<strong>まず役立つ用途を1つ選びましょう。</strong> 実際の限界が見えてから機器を追加します。</p>
+<p>このガイドは、Pi-holeを動かす小型のRaspberry Piから、ローカルAIモデルを実行するサーバーまでを扱います。<strong>各段階で機能と新たな責任が増えます。</strong> 以下の費用は、参考電力と1キロワット時あたり$0.15という例の電気料金を使った推定です。機器を追加する前に、地域の料金を確認し、実際の消費電力を測定してください。</p>
+<h2 id="レベル1家庭内ネットワーク全体の広告をブロックする">
+  <a href="#%e3%83%ac%e3%83%99%e3%83%ab1%e5%ae%b6%e5%ba%ad%e5%86%85%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af%e5%85%a8%e4%bd%93%e3%81%ae%e5%ba%83%e5%91%8a%e3%82%92%e3%83%96%e3%83%ad%e3%83%83%e3%82%af%e3%81%99%e3%82%8b" title="レベル1：家庭内ネットワーク全体の広告をブロックする">レベル1：家庭内ネットワーク全体の広告をブロックする</a>
+  <a href="#%e3%83%ac%e3%83%99%e3%83%ab1%e5%ae%b6%e5%ba%ad%e5%86%85%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af%e5%85%a8%e4%bd%93%e3%81%ae%e5%ba%83%e5%91%8a%e3%82%92%e3%83%96%e3%83%ad%e3%83%83%e3%82%af%e3%81%99%e3%82%8b" class="h-anchor" aria-hidden="true" 
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/build-home-lab-10-levels/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Hermes向けローカルモデル検証：選びたいGPUとモデルの組み合わせ</title><link>https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><description>RTX 5060 Ti、RTX 2000E Ada、RTX 3060 Ti、RTX 3070での長いコンテキスト、ツール、ストリーミング、画像認識の検証に基づくHermes向けモデルの推奨です。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>長いコンテキストを使うHermesの作業なら、16GBのRTX 5060 Tiを2枚使ったQwen3.5 35Bから始めます。検証した経路はLiteLLM経由で239,153個の入力トークンを保持し、ツール、ストリーミング、画像認識、キュー処理、キャンセルを個別に通過しました。1枚で使う代替候補はQwen3.6です。RTX 3060 TiやRTX 3070のシステムではQwen3.5 2Bまたは4Bから始めます。</p>
+<p>この選択は、エージェントが使う推論経路でモデルを実行して得たものです。長い入力の保持、ツールの往復、ストリーミング応答、画像への質問、モデルの解放を検証しました。経路に関わるモードとメモリー設定もテストしました。モデルを読み込めても、長いエージェント要求で役立つとは限らないためです。</p>
+<p>ツールを使うエージェントには、Hermesは少なくとも64,000個のコンテキストトークンを必要とします。長いコンテキストの合格基準には、実際に処理した65,536個の入力トークンを使いました。サーバーが宣伝するコンテキスト長より、入力トークン数のほうが重要です。(
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Hermes Agentプロバイダーのドキュメント">
+    <meta itemprop="url" content="https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md">
+    <a href="https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Hermes Agentプロバイダーのドキュメント</a>
+</span>
+)</p>
+<h2 id="各システムで使ったgpu">
+  <a href="#%e5%90%84%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%81%a7%e4%bd%bf%e3%81%a3%e3%81%9fgpu" title="各システムで使ったGPU">各システムで使ったGPU</a>
+  <a href="#%e5%90%84%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%81%a7%e4%
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>ハイブリッドAIエージェントフリートの内部：Hermes、LiteLLM、Tailscale</title><link>https://ja.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><description>Hermes、LiteLLM、Tailscale Aperture、Pearlマイニングを使った、検証済みのオンデマンド型ローカルAIフリートとT0〜T4の制御プレーンを紹介します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>リクエスト単位でローカルGPUを割り当てるフリートを展開し、ハイブリッド制御プレーンを設計しました。</strong> 検証済みの経路はLiteLLMから始まり、モデルグループを選択し、一度に1台のGPUへローカルモデルをロードします。Hermesの階層ポリシーは提案段階です。Tailscale Apertureの設定成果物は次の統合テストに向けて準備済みです。どちらも単一のエンドツーエンド経路の一部としては検証されていません。</p>
+<p>アイドル状態のカードはPearlをマイニングします。AIリクエストは貸し出されたカードだけでマイニングを一時停止し、リクエストに応答し、モデルをアンロードしてカードをマイナーに戻します。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>T0〜T2は高コストまたは難度の高い作業を担当します。</strong> これらの経路では、ホスト型フロンティアモデルと順序付けされたフォールバックチェーンを優先します。</li>
+<li><strong>T3は大規模なローカル作業を担当します。</strong> 計画、コーディング、レビュー、ビジョンを4B〜12Bモデルに割り当てます。</li>
+<li><strong>T4は頻度の高いローカル作業を担当します。</strong> 小型モデルがルーティング、分類、抽出、埋め込み、範囲を限定したコードタスクを処理します。</li>
+<li><strong>各GPUは独立したリソースです。</strong> 1枚のカードがAIを処理し、ほかのカードはマイニングを続けます。</li>
+<li><strong>ローカルモデルはアイドル時にアンロードされます。</strong> リクエスト時間帯の間、モデルがGPUメモリを占有しません。</li>
+<li><strong>すべてのゲートウェイが同じ論理カタログを公開します。</strong> 共有エイリアスは適格なシステムへ作業を分散します。ノード接頭辞付きエイリアスは必要に応じて配置先を固定します。</li>
+<li><strong>実験用ブローカーは本番に入りませんでした。</strong> Canaryはリクエストを処理しましたが、正常停止テストに失敗しました。LiteLLMは検証済みのリクエスト�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>1Password SSH AgentとCLI: AIエージェント向け読み取り専用アクセス</title><link>https://ja.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><description>1Password CLI、SSH Agent、MCPを使用して、読み取り専用のSSHワークフローを設計します。ライブテストの前に、合成コマンド、権限の制限、人間の承認を使用します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>コマンドラインエージェントには、すべての認証情報のコピーではなく、有用なアクセス権限が必要です。</strong> このガイドでは、1Password CLI、1Password SSH Agent、Bitbucket Git アクセス、および Model Context Protocol (MCP) 向けの限定された設計を提示します。最初のワークフローでは、合成名、読み取り専用アクション、および SSH 境界での人間による承認を使用します。</p>
+<p>重要な区別は単純です。<strong>対話型 SSH は、1Password SSH Agent を通じた同意を使用します。無人自動化には、独立したアイデンティティ、狭いアクセス権限、および異なる鍵のライフサイクルが必要です。</strong> MCP 接続を、どちらかのワークフローを実行するための許可として扱わないでください。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>秘密鍵の保護:</strong> 1Password SSH Agent は、秘密鍵を 1Password アプリ内に保持したまま SSH 認証を実行します。</li>
+<li><strong>公開鍵の処理:</strong> Bitbucket またはリモートアカウントには公開鍵のみを公開します。秘密鍵の半分は SSH Key アイテム内に保持します。</li>
+<li><strong>対話型同意:</strong> SSH Agent が鍵を使用する前に、人がクライアントまたはターミナルセッションを承認します。</li>
+<li><strong>無人分離:</strong> スケジュールされたジョブには、専用のサービスアカウントと狭い Vault スコープが必要です。対話型 SSH Agent の承認はこのニーズを満たしません。</li>
+<li><strong>MCP の境界:</strong> MCP はエージェントをツールやリソースに接続します。クライアント、サーバー、オペレーティングシステム、および 1Password ポリシーが引き続きアクセスを制御します。</li>
+</ul>
+<h2 id="開始前">
+  <a href="#%e9%96%8b%e5%a7%8b%e5%89%8d" title="開始前">開始前</a>
+  <a href="#%e9%96%8b%e5%a7%8b%e5%89%8d" class="h-anchor" aria-hidden="true" title="開始前">#</a>
+</h2>
+<p><strong>前提条件:</strong> 1Password 8 と 1Password CLI 2.20.0 以降をインストールしてください。サポートされている 1Password アカウ�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Bitbucket Cloud SSHキー：AIエージェント向け読み取り専用Gitアクセス</title><link>https://ja.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><description>AIエージェントの読み取り専用ワークフロー向けに、Bitbucket CloudのSSHキー、Git CLIアクセス、REST APIトークン、1Password、MCPツールを設定します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>**制限付きのエージェントワークフローでは、リポジトリの読み取り、APIの読み取り、シークレット管理、リモートへの書き込みを分けます。**ソースへのアクセスにはSecure Shell（SSH）経由のGitを使い、自動チェックアウトには読み取り専用のBitbucketアクセスキーを使います。メタデータにはREST API、承認済みツールにはModel Context Protocol（MCP）サーバーを使います。秘密鍵とAPIトークンは1Passwordに保管します。書き込みには人の承認を必須にします。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li>**既定は読み取り専用：**エージェントのチェックアウトにはリポジトリまたはプロジェクトのアクセスキーを使います。どちらもpush権限を付与しません。</li>
+<li>**個人のID：**ユーザーアカウントに紐づく対話型作業には個人用SSHキーを使います。</li>
+<li>**シークレットの保管：**1Password SSH Agentを使うと、Gitは秘密鍵を読み取らずに許可された署名処理を要求できます。</li>
+<li><strong>CLIの意味：</strong><code>git</code>、<code>curl</code>、監査済みの小さなAPIラッパーを、実用的なBitbucketコマンドラインとして扱います。</li>
+<li>**MCPの境界：**範囲を絞った読み取りツールを公開します。書き込みツールは無効にするか、別の承認手順の後ろに置きます。</li>
+<li>**書き込みの承認：**エージェントには調査、比較、変更案の準備を許可します。push、pull request、merge、設定変更の前に人の承認を求めます。</li>
+</ul>
+<h2 id="始める前に">
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" title="始める前に">始める前に</a>
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" class="h-anchor" aria-hidden="true" title="始める前に">#</a>
+</h2>
+<p>**前提条件：**Bitbucket Cloudへのアクセス、Git、OpenSSHクライアント、1Password 8、1Password CLI、サインイン済みCLIまたは承認済みサービスアカウント、サーバー承認を制御できるMCPホストが必要です。所要時間は45分です。難易度は中級です。</p>
+<p>最初はテスト用リポジトリを�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>DNSフィルタが回避される理由: リゾルバの経路を確認する</title><link>https://ja.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><description>端末やブラウザがDNSフィルタを迂回する理由を調べます。直接クエリと通常のクエリを比較し、ログ、暗号化DNS、VPN、IPv6、ルーターの設定を確認します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>フィルタリング用リゾルバを設定したのに、ポリシーでブロックしているドメインへ端末がアクセスできています。原因はルール、端末へのDomain Name System（DNS）の割り当て、ブラウザの暗号化リゾルバ、またはVPNかもしれません。**設定を変更する前に経路を確認してください。**フィルタへの直接クエリと端末の通常クエリでは、確認できる内容が異なります。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>最初にルールを確認:</strong> フィルタが安全なテストドメインを受け取り、ブロックすることを確認します。</li>
+<li><strong>各レイヤーを追跡:</strong> ルーター、OS、ブラウザ、VPN、モバイル設定がDNS経路に影響します。</li>
+<li><strong>新しいクエリを使う:</strong> 新しいホスト名と時刻をフィルタのクエリログと照合します。</li>
+<li><strong>確認の限界を示す:</strong> 1件のクエリから確認できるのは1つの経路です。すべてのアプリや端末の動作を証明するものではありません。</li>
+</ul>
+<h2 id="始める前に">
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" title="始める前に">始める前に</a>
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" class="h-anchor" aria-hidden="true" title="始める前に">#</a>
+</h2>
+<p>約20分を見込んでください。フィルタリング用リゾルバのクエリログ、問題がある端末1台、ルーターのDNS設定記録が必要です。例ではWindowsノートPCと<strong>Pi-hole</strong>を使いますが、クライアントごとのクエリログを提供するリゾルバなら同じ比較ができます。まずフィルタの正確なアドレスを確認してください。公開レポートにプライベートなクライアントアドレス、クエリログ、ポリシールールを掲載しないでください。</p>
+<p>ポリシーですでにブロックされている<strong>安全なテストドメイン</strong>を選びます。または、テストプロファイルで自分が管理するドメインに対し、一時的に完全一致の拒否ルールを追加します。ルールを記録し、テスト後に削除してください
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Hyper-V VMをProxmox VEへ移行する可逆チェックリスト</title><link>https://ja.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><description>Hyper-VのVMを、停止状態でのエクスポート、ファームウェアの一致、ディスクのインポート、分離した起動テスト、ロールバック計画を使ってProxmox VEへ移行します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>Hyper-Vのエクスポート</strong> は仮想マシンのファイルを保持しますが、Proxmox VEでは新しいゲスト設定と、インポートしたVHDX仮想ディスクファイルが必要です。ファイルをコピーできても、ゲストの起動やサービス提供が保証されるわけではありません。このチェックリストでは、停止状態でのエクスポート、制御された起動テスト、明確な復帰手順を経て1台のVMを移行します。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>移行元を記録：</strong> エクスポート前にファームウェア世代、ディスクパス、チェックポイント、ネットワーク設定、暗号化を記録します。</li>
+<li><strong>書き込みを停止：</strong> 最終エクスポート前にHyper-V VMをシャットダウンし、Proxmoxでのテスト中も停止状態を保ちます。</li>
+<li><strong>起動方式を一致：</strong> Hyper-V第1世代はレガシーBIOS、第2世代はUEFIを使用します。</li>
+<li><strong>サービスを検証：</strong> 移行元を廃止する前に、データ、ネットワークアクセス、バックアップ、ゲストの健全性を確認します。</li>
+</ul>
+<h2 id="作業前の準備">
+  <a href="#%e4%bd%9c%e6%a5%ad%e5%89%8d%e3%81%ae%e6%ba%96%e5%82%99" title="作業前の準備">作業前の準備</a>
+  <a href="#%e4%bd%9c%e6%a5%ad%e5%89%8d%e3%81%ae%e6%ba%96%e5%82%99" class="h-anchor" aria-hidden="true" title="作業前の準備">#</a>
+</h2>
+<p>メンテナンス時間を確保し、使い捨てVMで先にテストします。Hyper-VとProxmox VEの管理者アクセス、エクスポート用ストレージ、移行コピーとは別の検証済みバックアップが必要です。すべての仮想ディスクを転送し、ゲストアプリケーションを試験する時間も見込みます。停止時間はディスク容量と転送速度で決まります。</p>
+<p>この手順は仮想ディスクを使う一般的なVMを対象とします。 <strong>シールドVM、パススルーディスク、共有ディスク、クラスターワークロード、ハードウェアに紐づくライセンス</strong> には個別の計画が必要です。切り替えの決定者とロールバック期限を記録し�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proxmox VM復元テスト：ゲストが動作することを確認する</title><link>https://ja.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><description>隔離環境への復元でProxmox VMバックアップをテストします。本番環境に触れずに、ディスクの対象範囲、バックアップモード、ゲストデータ、サービスの状態、復旧時間を確認できます。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>バックアップタスクが緑色なら、Proxmoxがバックアップを書き込んだことは分かります。ゲストが起動するか、データが新しいか、主要なサービスが動くかは分かりません。<strong>新しいVM IDを使い、隔離ネットワーク上にコピーを復元してください。</strong> 障害によってテストを強いられる前に、復旧できる証拠を得られます。</p>
+<p>この演習では、1台の<strong>Proxmox VE仮想マシン</strong>を扱います。コンテナのバックアップルールは異なり、特にbind mountとdevice mountに注意が必要です。サイトの
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="ホームラボ向けバックアップ復元テスト">
+    <meta itemprop="url" content="/articles/homelab-backup-restore-drill/">
+    <a href="/articles/homelab-backup-restore-drill/"
+    
+        rel="follow me"
+    >ホームラボ向けバックアップ復元テスト</a>
+</span>
+では、より広い範囲のファイル復旧を扱います。ここではProxmox VMのバックアップとワークロードをテストします。</p>
+<p><strong>ゲスト</strong>とは、仮想マシン内で動作するオペレーティングシステムです。<strong>Bind mount</strong>と<strong>device mount</strong>は、ホストのリソースをゲストに公開します。これらのリソースは別の復旧計画でテストしてください。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>最初に成功条件を決める：</strong> データ項目、サービス確認、許容できる復旧時間を選びます。</li>
+<li><strong>対象範囲を確認する：</strong> VMバックアップは<strong>No backup</strong>に設定されたディスクを除外し、外部サービスや除外データを再作成できません。</li>
+<li><strong>別のVMに復元する：</strong> 未使用のVM IDを使い�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>VPN接続時にブラウザーのDNSとWebRTCの漏えいをテストする</title><link>https://ja.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><description>VPN接続の前後で、ブラウザーのパブリックIP、DNSリゾルバー、WebRTCアドレスを確認します。結果を読み取り、ルーティングの問題を調べます。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>仮想プライベートネットワーク（VPN）の接続アイコンだけでは、ブラウザーのすべてのリクエストが同じ経路を通るとは限りません。<strong>パブリックIP</strong>、<strong>ドメインネームシステム（DNS）リゾルバー</strong>、<strong>WebRTCアドレス</strong>を個別にテストしてください。それぞれの結果は異なる問いに答えます。このガイドでは、再現可能な確認手順と予期しない結果の調査方法を説明します。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>2つの状態を比較する:</strong> VPN接続の前後で同じテストを記録します。</li>
+<li><strong>結果を個別に読む:</strong> パブリックIPが変わっても、DNSクエリの送信先は分かりません。</li>
+<li><strong>WebRTC候補を確認する:</strong> 想定した経路の外にあるパブリックアドレスを探します。プライベートアドレスは別の意味を持ちます。</li>
+<li><strong>設定は一度に1つ変更する:</strong> VPN、ブラウザー、DNSの設定を変えるたびに再テストします。</li>
+</ul>
+<h2 id="始める前に">
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" title="始める前に">始める前に</a>
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" class="h-anchor" aria-hidden="true" title="始める前に">#</a>
+</h2>
+<p>保護したいブラウザーとネットワーク接続を使います。VPNがデバイス全体を対象にするのか、選択したアプリだけを対象にするのか確認します。VPNがスプリットトンネルを使う場合は、テストするブラウザーがトンネル内にあるか記録してください。比較できるように、VPNクライアントのDNSポリシーも確認します。</p>
+<p><strong>スプリットトンネル</strong>では、選択したアプリをVPN経由で送り、ほかのアプリは通常のネットワークを使います。</p>
+<p>この手順では、
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+ 
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>メッシュWi-FiでゲストとIoTの分離をテストする</title><link>https://ja.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><description>メッシュWi-FiのゲストネットワークとIoTネットワークが、自宅の機器へのアクセスを遮断するか確認します。稼働中のサービスを使って各ネットワークをテストし、制限を記録します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>Wi-Fi名を分けても、どの機器同士が通信できるかは分かりません。メッシュシステムでは、<strong>ゲストネットワーク</strong>、<strong>IoTネットワーク</strong>、<strong>無線クライアント分離</strong>が別々の制御として扱われる場合があります。このガイドでは、メーカーのラベルが実際のポリシーを示すと決めつけず、自分の機器で通信経路をテストします。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>先に接続先が動作することを確認する:</strong> 遮断経路を試す前に、メインネットワークから既知のサービスへ接続します。</li>
+<li><strong>境界ごとにテストする:</strong> ゲストからメイン、IoTからメイン、ゲスト同士のアクセスは、それぞれ別の問いに答えます。</li>
+<li><strong>構成を記録する:</strong> モデル、ファームウェア、ルーターモードかアクセスポイントモードか、接続先のメッシュノードが結果の解釈に影響します。</li>
+<li><strong>変更後に再テストする:</strong> 結果が有効なのは、テストした機器、サービス、アドレスファミリー、構成の範囲です。</li>
+</ul>
+<h2 id="始める前に">
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" title="始める前に">始める前に</a>
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" class="h-anchor" aria-hidden="true" title="始める前に">#</a>
+</h2>
+<p>約20分を見込んでください。メイン、ゲスト、IoTの各Wi-Fiに接続できるノートPCが必要です。また、NASのWeb画面など、<strong>開いていることが分かっているTCPサービス</strong>をメインネットワーク上の信頼できる機器で稼働させます。TCPサービスとは、NASのWebページで使うポート443のような番号付きポートで待ち受けるネットワークサービスです。自分が所有または管理するサービスを使います。ローカルアドレスとポートを控え、公開しないでください。テスト中はサービスを稼働させておきます。</p>
+<p>メッシュのモデル、ファームウェアのバージョン、動作モード、ゲストアクセス、IoTアクセ
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2026年のAIインフラブーム：需要、債務、電力、根拠</title><link>https://ja.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><description>AIインフラ投資、データセンターの電力需要、資金調達の構造、企業価値、市場をバブルと呼ぶ前に必要な根拠を検証する記事です。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>AIインフラは、これまで少数の技術市場しか達成していない速度で拡大しています。</strong> 支出は現実です。電力需要も現実です。資金調達リスクも現実です。見返りの確実性は低くなっています。</p>
+<p>重要な問いは、人工知能が存在するかどうかではありません。将来の収益と生産性向上が、拡大を支えるハードウェア、データセンター、電力契約、リース、債務を正当化できるかどうかです。</p>
+<p>この記事は、AIバブルをめぐる議論の根拠となる公開情報を確認します。予測は予測として扱います。企業の主張と独立研究を分けます。この記事は差し迫った暴落を証明しません。金融面と運用面の圧力がどこにあるかを示します。</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <meta itemprop="name" content="The (Overdue) Collapse Of
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AIワークフローコースの準備：ターミナル、Git、練習用ラボ</title><link>https://ja.simeononsecurity.com/articles/effective-ai-course-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/effective-ai-course-setup/</guid><description>安全なAI練習環境を用意し、コースで使うターミナルとGitの用語を学び、スターターラボを実行します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/effective-ai-course-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/effective-ai-course-setup/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="実践AIワークフローコースに戻る">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >実践AIワークフローコースに戻る</a>
+</span>
+</p>
+<p><strong>エージェントを使う前に、安全な練習場所を用意してください。</strong> レッスン1と2は、このラボがなくてもブラウザーで受講できます。コース全体に取り組む場合は、レッスン3の前にここへ戻ってください。コーディングの実習では、Git、Python 3.10以降、コーディングエージェント1つを使います。学習ルートでは、利用できないエージェント操作を、明示した手動作業に置き換えます。</p>
+<p>**学習目標：**スターターラボを実行し、ローカルの基準状態を保存し、使い捨てコピーをリセットする方法を説明します。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li>**ブラウザールート：**ChatGPTまたはClaudeで、チャット、計画、情報源の確認、レビューの演習を完了します。</li>
+<li>**ローカルルート：**付属のPythonラボとターミナルを使ってコーディング演習を行います。</li>
+<li>**リセットルート：**演習に失敗した場合は、新しいラボコピーを展開します。</li>
+<li>**安全ルール：**個人ファイル、顧客記録、認証情報をラボに入れないでください。</li>
+</ul>
+<h2 id="ルートを選ぶ">
+  <a href="#%e3%83%ab%e3%83%bc%e3%83%88%e3%82%92%e9%81%b8%e3%81%b6" title="ルートを選ぶ">ルートを選ぶ</a>
+  <a href="#%e3%83%ab%e3%83%bc%e3%83%88%e3%82%92%e9%81%b8%e3%81%b6" class="h-anchor" aria-hidden="true" title="ルートを選ぶ">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>ルート</th>
+					<th>必要なもの</th>
+					<th>�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/effective-ai-course-setup/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AIワークフロー実践課題: JSONレポートを作成して検証する</title><link>https://ja.simeononsecurity.com/articles/effective-ai-capstone/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/effective-ai-capstone/</guid><description>プロジェクトの背景、範囲を限定したエージェントへの依頼、独立したテスト、ソース確認、新しいセッションへの引き継ぎを含むJSONタスクレポートを作成します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/effective-ai-capstone.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/effective-ai-capstone/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="実践的なAIワークフローコースに戻る">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >実践的なAIワークフローコースに戻る</a>
+</span>
+</p>
+<p><strong>新しい出力形式を追加し、その動作を証明します。</strong> 前の課題ではステータスフィルターを追加しました。この実践課題は新しいラボから始め、別のプログラムが読み取るJSONレポートを追加します。新しい要件では、別の機能にもワークフローを適用できるかを確認します。</p>
+<p><strong>学習目標:</strong> 検証済みのJSONレポート、ソースとツールの証拠記録、新しいセッションが理解できる引き継ぎを作成します。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>別の要件</strong>が実践課題の機能を定めます。</li>
+<li><strong>コーディングエージェントの変更</strong>は指定ファイル内に限定します。</li>
+<li><strong>独立した確認</strong>で合否を決めます。</li>
+<li><strong>新しいセッションへの引き継ぎ</strong>で結果を再構成できるようにします。</li>
+</ul>
+<h2 id="始める前に">
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" title="始める前に">始める前に</a>
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" class="h-anchor" aria-hidden="true" title="始める前に">#</a>
+</h2>
+<p><strong>前提条件:</strong> リポジトリの背景、最初のコーディング課題、MCPまたはブラウザーでの代替、委任、範囲を限定したループを含むレッスン0～10を完了してください。レッスン11は任意です。90～120分を確保してください。難易度は中級です。</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+   
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/effective-ai-capstone/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AIエージェントの上限付きループ: チェック、再試行、停止ルール</title><link>https://ja.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</guid><description>観察可能な状態、チェック、再試行の上限、停止条件、人への明確な引き継ぎを備えたAI目標ループを定義します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/effective-ai-bounded-agent-loops.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="実践AIワークフローコースに戻る">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >実践AIワークフローコースに戻る</a>
+</span>
+</p>
+<p><strong>目標ループは、定義した結果がチェックに合格するか、停止ルールが発動するまで作業を繰り返します。</strong> 有用なループは現在の状態を読み取り、範囲を限定した操作を1つ実行し、結果を確認して、起きたことを記録します。「成功するまで試し続ける」といった曖昧な指示には、信頼できる完了条件がありません。</p>
+<p><strong>学習目標:</strong> 失敗すると分かっているチェックを含む上限付きのラボループを実行し、停止の判断を記録します。</p>
+<h2 id="主なポイント">
+  <a href="#%e4%b8%bb%e3%81%aa%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" title="主なポイント">主なポイント</a>
+  <a href="#%e4%b8%bb%e3%81%aa%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" class="h-anchor" aria-hidden="true" title="主なポイント">#</a>
+</h2>
+<ul>
+<li><strong>目標:</strong> 観察できる形で表した結果。</li>
+<li><strong>状態:</strong> 現在のファイル、出力、エラー、ソースのリビジョン。</li>
+<li><strong>チェック:</strong> 目標に関連付けたテストまたはレビュー。</li>
+<li><strong>再試行予算:</strong> 1つの失敗に対して許可する試行の最大数。</li>
+<li><strong>停止ルール:</strong> 終了するか、人の判断を求める必要がある条件。</li>
+</ul>
+<h2 id="始める前に">
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" title="始める前に">始める前に</a>
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" class="h-anchor" aria-hidden="true" title="始める前に">#</a>
+</h2>
+<p><strong>前提資料:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AIエージェントへの委任: 作業者の割り当てと結果のレビュー</title><link>https://ja.simeononsecurity.com/articles/effective-ai-agent-delegation/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/effective-ai-agent-delegation/</guid><description>2人目のAIエージェントが役立つ場面を判断し、各作業者に範囲を限定したタスクを割り当て、編集の競合を防ぎ、証拠をメインセッションに統合します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/effective-ai-agent-delegation.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/effective-ai-agent-delegation/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="実践的なAIワークフローコースに戻る">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >実践的なAIワークフローコースに戻る</a>
+</span>
+</p>
+<p><strong>独立した質問に別セッションを使うだけの作業量があるとき、委任します。</strong> 作業者エージェントは自分のコンテキストで情報源を調べ、テストをレビューし、範囲を限定した変更案を作成します。メインエージェントは結果を確認して統合します。このレッスンでは、メインセッションで小さなラボ課題を続けながら、ドキュメントを比較します。</p>
+<p><strong>学習目標:</strong> 独立したレビューを作業者に割り当て、短い証拠レポートを検証します。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>オーケストレーター:</strong> タスクと最終レビューを調整するメインエージェント。</li>
+<li><strong>作業者:</strong> 範囲を限定した1つの成果を担当する別のエージェント。</li>
+<li><strong>独立作業:</strong> 他の作業者の未完了の結果に依存しないサブタスク。</li>
+<li><strong>担当範囲:</strong> 1人の作業者に割り当てた特定のファイルまたは質問。</li>
+<li><strong>統合:</strong> メインエージェントが作業者の出力を現行ソースと比較すること。</li>
+</ul>
+<h2 id="始める前に">
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" title="始める前に">始める前に</a>
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" class="h-anchor" aria-hidden="true" title="始める前に">#</a>
+</h2>
+<p><strong>前提条件:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/effective-ai-agent-delegation/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AIコンテキストウィンドウの管理：コーディングエージェントの集中を保つ</title><link>https://ja.simeononsecurity.com/articles/effective-ai-context-window-management/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/effective-ai-context-window-management/</guid><description>選択したファイル、簡潔な引き継ぎ、小さなワーカー出力でAIタスクのアクティブコンテキストを管理し、判断と根拠を保持します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/effective-ai-context-window-management.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/effective-ai-context-window-management/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="実践AIワークフローコースに戻る">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >実践AIワークフローコースに戻る</a>
+</span>
+</p>
+<p>**コンテキストウィンドウは、モデルが現在のターンで処理するテキストやその他の情報です。**プロンプト、指示、ツール定義、ファイルの抜粋、ツール出力、会話履歴が領域を使います。このレッスンでは、次のタスクに集中し、信頼できる引き継ぎを残す方法を説明します。</p>
+<p>**学習目標：**短い引き継ぎを作り、新しいセッションで試します。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>トークン</strong>は、モデルが入力と出力を処理する単位です。</li>
+<li><strong>アクティブコンテキスト</strong>は、製品の制限内で各ターンに利用できる情報です。</li>
+<li><strong>永続的な情報源</strong>は、チャット外のファイルやプロジェクト記録にあります。</li>
+<li><strong>コンパクション</strong>は古いコンテキストを要約または削除し、必要な情報を落とす場合があります。</li>
+<li><strong>引き継ぎ</strong>は、新しいセッションに最新の情報源と検証済みの作業を示します。</li>
+</ul>
+<h2 id="始める前に">
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" title="始める前に">始める前に</a>
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" class="h-anchor" aria-hidden="true" title="始める前に">#</a>
+</h2>
+<p><strong>前提条件：</strong>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+ 
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/effective-ai-context-window-management/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>セキュリティのベストプラクティス on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>セキュリティのベストプラクティス on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%81%AE%E3%83%99%E3%82%B9%E3%83%88%E3%83%97%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%82%B9/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%81%AE%E3%83%99%E3%82%B9%E3%83%88%E3%83%97%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%82%B9/</link><description>Recent content in セキュリティのベストプラクティス on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%81%AE%E3%83%99%E3%82%B9%E3%83%88%E3%83%97%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>eコマースのセキュリティを強化する</title><link>https://ja.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</link><pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate><category>
+"eコマースセキュリティ"
+, "サイバーセキュリティ"
+, "データ保護"
+, "オンラインビジネス"
+, "ウェブサイトセキュリティ"
+, "顧客の信頼"
+, "安全な取引"
+, "SSL暗号化"
+, "パスワードポリシー"
+, "セキュリティのベストプラクティス"</category><guid>https://ja.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+TLS、管理者のMFA、ソフトウェア更新、決済管理、暗号化、監視、従業員教育、不正対策、インシデント対応でオンラインストアを保護します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/the-2024-checklist-for-securing-your-e-commerce-site.webp" length="88770" type="image/webp"/></item><item><title>セキュリティ自動化：デジタル防御を強化するためのガイド</title><link>https://ja.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><category>
+"セキュリティ自動化"
+, "サイバーセキュリティ"
+, "セキュリティにおける機械学習"
+, "コンプライアンスの自動監視"
+, "セキュリティオーケストレーション"
+, "インシデント対応"
+, "継続的改善"
+, "セキュリティにおける人の監督"
+, "脅威の検知と対応"
+, "セキュリティのベストプラクティス"</category><guid>https://ja.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+明確なユースケース、ツール連携、人によるレビュー、アラート調整、指標、機械学習システムの統制を通じてセキュリティ自動化を計画します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/mastering-security-automation_-streamlining-processes-for-enhanced-protection.webp" length="253188" type="image/webp"/></item><item><title>サイバーセキュリティの強化</title><link>https://ja.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "Windows グループポリシー"
+, "攻撃対象領域の縮小"
+, "IT セキュリティ"
+, "ネットワーク保護"
+, "データ保護"
+, "デジタルレジリエンス"
+, "システム強化"
+, "セキュリティのベストプラクティス"
+, "リスク軽減"</category><guid>https://ja.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows グループポリシーの設定で攻撃対象領域を縮小し、保護を強化する方法を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/Cybersecurity_Shield_Defense.webp" length="129592" type="image/webp"/></item><item><title>最小権限の原則を習得する</title><link>https://ja.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "Linuxセキュリティ"
+, "アクセス制御"
+, "ITセキュリティ"
+, "ネットワークセキュリティ"
+, "情報保護"
+, "データプライバシー"
+, "サイバー脅威"
+, "リスク管理"
+, "セキュリティのベストプラクティス"</category><guid>https://ja.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Linuxで最小権限に基づくアクセス制御を導入し、サイバーセキュリティを強化しましょう。実装手順、ベストプラクティス、問題解決を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>今日は、WDACのポリシー作成と実施について詳しく学びました。</title><link>https://ja.simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "Windowsのセキュリティ"
+, "アプリケーションコントロール"
+, "Windows Defender"
+, "ダブリューダブリューエーシー"
+, "パワーシェル"
+, "スレットプロテクション"
+, "Windows Server 2019"
+, "エンタープライズ・セキュリティ"
+, "ポリシーマネジメント"
+, "セキュリティのベストプラクティス"</category><guid>https://ja.simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+今日はAnsibleの条件分岐と変数管理について詳しく学びました</description></item></channel></rss>

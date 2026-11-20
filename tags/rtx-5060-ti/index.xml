@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RTX 5060 Ti on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>RTX 5060 Ti on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/rtx-5060-ti/</link></image><link>https://ja.simeononsecurity.com/tags/rtx-5060-ti/</link><description>Recent content in RTX 5060 Ti on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/rtx-5060-ti/index.xml" rel="self" type="application/rss+xml"/><item><title>Hermes向けローカルモデル検証：選びたいGPUとモデルの組み合わせ</title><link>https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ローカルAI"
+, "ハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+RTX 5060 Ti、RTX 2000E Ada、RTX 3060 Ti、RTX 3070での長いコンテキスト、ツール、ストリーミング、画像認識の検証に基づくHermes向けモデルの推奨です。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>RTX 5060 Ti 2枚とGB10を比較: 256Kコンテキストで5モデルのローカルAIを検証</title><link>https://ja.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ローカルAI"
+, "GPUハードウェア"
+, "ベンチマーク"
+, "コンピューターハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+RTX 5060 TiとGB10を5モデルで比較し、同一ホストでQwen3.8 Flash-NextとStrataを256Kコンテキストまで測定します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>本格的なローカル LLM 作業に 16GB VRAM は十分か</title><link>https://ja.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカル AI"
+, "コンピュータハードウェア"
+, "セルフホスト AI"</category><guid>https://ja.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+モデルウェイト、KV キャッシュ、プロンプト処理を基準に 16GB のローカル LLM 構成を見積もります。Qwen3.8 27B のメモリ予算、GPU 帯域幅、所有コストを比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>Qwen 27Bに32GB VRAM: 2026年10月のローカルAIハードウェアガイド</title><link>https://ja.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "AIハードウェア"
+, "GPUベンチマーク"
+, "セルフホストAI"
+, "コンピュータハードウェア"
+, "AI経済"</category><guid>https://ja.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+32GBの利用可能なアクセラレータメモリでQwen 27Bを実行するための、2026年10月の実用ガイドです。単体GPU、2枚構成、統合メモリ、中古データセンターカード、レンタル計算資源、ソフトウェア対応、フルコンテキストの制限を比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
