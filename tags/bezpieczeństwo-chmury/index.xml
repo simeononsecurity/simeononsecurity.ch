@@ -1,0 +1,952 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo Chmury on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczeństwo Chmury on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-chmury/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-chmury/</link>
+
+    <description>Recent content in Bezpieczeństwo Chmury on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-chmury/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zagrożenia cyberbezpieczeństwa: kontekst z 2024 r. i lista obronna na 2026 r.</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2024/</link>
+        
+        <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zagrożenia"
+            
+              , "Ransomware"
+            
+              , "Phishing"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "Zagrożenia wewnętrzne"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Kopie zapasowe danych"
+            
+              , "Uwierzytelnianie wieloskładnikowe"
+            
+              , "Poprawki bezpieczeństwa"
+            
+              , "Szkolenia pracowników"
+            
+              , "Kontrola dostępu"
+            
+              , "Weryfikacja przeszłości"
+            
+              , "Zapobieganie utracie danych"
+            
+              , "Dostawcy chmury"
+            
+              , "Szyfrowanie danych"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo punktów końcowych"
+            
+              , "Monitorowanie sieci"
+            
+              , "Skanowanie podatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2024/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kategorie zagrożeń omawiane w 2024 r. i skorzystaj z datowanej listy kontrolnej na 2026 r. dotyczącej ransomware, phishingu, IoT, zagrożeń wewnętrznych i chmury.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.webp" length="115136" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik po zgodności z GDPR dla firm spoza UE w 2024 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-gdpr_-a-guide-for-non-eu-businesses/</link>
+        
+        <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ochrona danych"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Przewodnik po zgodności"
+            
+              , "Podstawy GDPR"
+            
+              , "Prawo prywatności"
+            
+              , "Bezpieczeństwo firmy"
+            
+              , "Międzynarodowe przepisy o danych"
+            
+              , "Zgodność cyfrowa"
+            
+              , "Zaufanie klientów z UE"
+            
+              , "Dobre praktyki bezpieczeństwa danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-gdpr_-a-guide-for-non-eu-businesses/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, kiedy GDPR obowiązuje firmy spoza UE oraz jak zgodnie z prawem przetwarzać dane, respektować prawa osób, zgłaszać naruszenia, przekazywać dane i prowadzić dokumentację.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/understanding-gdpr_-a-guide-for-non-eu-businesses.webp" length="68080" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zapory nowej generacji: kluczowe funkcje dla Twojej firmy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</link>
+        
+        <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Technologia zapór sieciowych"
+            
+              , "Bezpieczeństwo firmy"
+            
+              , "Integracja z chmurą"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Zarządzanie siecią"
+            
+              , "Rozwiązania bezpieczeństwa"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Wiedza o technologii"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wybierz zaporę nowej generacji, uwzględniając kontrolę aplikacji, zapobieganie włamaniom, ochronę przed zagrożeniami, obsługę chmury, przepustowość, odporność i zarządzanie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/next-gen-firewalls_-features-you-can%27t-ignore-for-your-business.webp" length="128018" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>FedRAMP: bezpieczne rozwiązania chmurowe dla administracji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</link>
+        
+        <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Administracja"
+            
+              , "Usługi chmurowe"
+            
+              , "Zgodność"
+            
+              , "Przepisy federalne"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Ochrona danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          FedRAMP wzmacnia bezpieczeństwo rozwiązań chmurowych wykorzystywanych przez administrację.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Secure-Cloud-Government-Shield.webp" length="63200" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalizacja bezpieczeństwa sieci i chmury</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link>
+        
+        <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Ochrona sieci"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Technologie biznesowe"
+            
+              , "Obrona cyfrowa"
+            
+              , "Zagrożenia cybernetyczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zagrożenia, środki ochrony i przykłady naruszeń, aby wzmocnić bezpieczeństwo sieci i chmury.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmocnij ochronę: rozwiązania EDR w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link>
+        
+        <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Technologia"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Bezpieczeństwo punktów końcowych"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Obrona cyfrowa"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Odporność cybernetyczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak rozwiązania EDR chronią punkty końcowe, wykrywają zagrożenia i pomagają organizacjom wybrać odpowiednie rozwiązanie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czy certyfikaty zawodowe Google są warte zdobycia dla Twojej kariery?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/google-career-certificates-worth-it/</link>
+        
+        <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Kariera w technologii"
+            
+              , "Rozwój zawodowy"
+            
+              , "Edukacja online"
+            
+              , "Wsparcie IT"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Szkolenie umiejętności"
+            
+              , "Certyfikaty uznawane w branży"
+            
+              , "Rynek pracy"
+            
+              , "Rozwój kariery"
+            
+              , "Umiejętności technologiczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/google-career-certificates-worth-it/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj wartość certyfikatów zawodowych Google w dzisiejszym świecie technologii oraz ich zalety dla rozwoju kariery.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_depicting_a_person_holding_a_G.webp" length="48624" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpłatne certyfikaty Oracle dla specjalistów ds. cyberbezpieczeństwa i IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/free-oracle-certifications-cybersecurity-it-professionals/</link>
+        
+        <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Certyfikaty IT"
+            
+              , "Rozwój zawodowy"
+            
+              , "Certyfikaty Oracle"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Zarządzanie danymi"
+            
+              , "Rozwój kariery"
+            
+              , "Nauka online"
+            
+              , "Edukacja technologiczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/free-oracle-certifications-cybersecurity-it-professionals/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj bezpłatne certyfikaty Oracle dla specjalistów ds. cyberbezpieczeństwa i IT, tematy OCI, wymagania wstępne i możliwości zawodowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_image_featuring_a_professional_cyb.webp" length="87826" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Certyfikaty Microsoft w karierze związanej z cyberbezpieczeństwem</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Certyfikaty Microsoft"
+            
+              , "Rozwój zawodowy"
+            
+              , "Technologia informacyjna"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Zarządzanie danymi"
+            
+              , "Zarządzanie tożsamością i dostępem"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Uczenie maszynowe"
+            
+              , "Rynek pracy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wybierz certyfikaty Microsoft do ról w cyberbezpieczeństwie według obszaru umiejętności, docelowego stanowiska, wymagań wstępnych i znaczenia Azure.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_featuring_a_professiona.webp" length="94814" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zaawansowane techniki testów penetracyjnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link>
+        
+        <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Testy penetracyjne"
+            
+              , "Etyczne hakowanie"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo aplikacji internetowych"
+            
+              , "Bezpieczeństwo sieci bezprzewodowych"
+            
+              , "Inżynieria społeczna"
+            
+              , "Bezpieczeństwo aplikacji mobilnych"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Rozwój kariery"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zaawansowane techniki, narzędzia i przykłady z praktyki testów penetracyjnych, aby rozwijać umiejętności z cyberbezpieczeństwa i karierę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Artykuły SimeonOnSecurity</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "porady z zakresu cyberbezpieczeństwa"
+            
+              , "techniki automatyzacji"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "bezpieczeństwo IT"
+            
+              , "zapobieganie hakowaniu"
+            
+              , "bezpieczne programowanie"
+            
+              , "infrastruktura sieciowa"
+            
+              , "śledztwo cyfrowe"
+            
+              , "bezpieczeństwo chmury"
+            
+              , "wywiad w zakresie cyberzagrożeń"
+            
+              , "reagowanie na incydenty"
+            
+              , "ocena podatności"
+            
+              , "testy penetracyjne"
+            
+              , "zarządzanie tożsamością"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "analiza złośliwego oprogramowania"
+            
+              , "szyfrowanie danych"
+            
+              , "konfiguracja zapory ogniowej"
+            
+              , "bezpieczne tworzenie stron internetowych"
+            
+              , "monitorowanie sieci"
+            
+              , "ramy cyberbezpieczeństwa"
+            
+              , "bezpieczeństwo IoT"
+            
+              , "bezpieczeństwo mobilne"
+            
+              , "zapobieganie phishingowi"
+            
+              , "najlepsze praktyki w zakresie cyberbezpieczeństwa"
+            
+              , "polowanie na zagrożenia"
+            
+              , "obrona przed inżynierią społeczną"
+            
+              , "kontrola dostępu"
+            
+              , "segmentacja sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Twoje osobiste przewodniki po cyberbezpieczeństwie, technologii informatycznej i automatyzacji. Przeglądaj pouczające artykuły, osobiste doświadczenia i porady ekspertów na temat bezpiecznego świata cyfrowego.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Blog SimeonOnSecurity</title>
+        
+          <link>https://pl.simeononsecurity.com/blog/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "porady dotyczące cyberbezpieczeństwa"
+            
+              , "techniki automatyzacji"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona prywatności danych"
+            
+              , "bezpieczeństwo IT"
+            
+              , "zapobieganie włamaniom"
+            
+              , "bezpieczne kodowanie"
+            
+              , "infrastruktura sieciowa"
+            
+              , "kryminalistyka cyfrowa"
+            
+              , "bezpieczeństwo chmury"
+            
+              , "informacje o zagrożeniach cybernetycznych"
+            
+              , "reagowanie na incydenty"
+            
+              , "ocena podatności"
+            
+              , "testy penetracyjne"
+            
+              , "zarządzanie tożsamością"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "analiza złośliwego oprogramowania"
+            
+              , "szyfrowanie danych"
+            
+              , "konfiguracja zapory sieciowej"
+            
+              , "bezpieczne tworzenie stron internetowych"
+            
+              , "monitorowanie sieci"
+            
+              , "ramy bezpieczeństwa cybernetycznego"
+            
+              , "bezpieczeństwo IoT"
+            
+              , "bezpieczeństwo mobilne"
+            
+              , "zapobieganie phishingowi"
+            
+              , "najlepsze praktyki w zakresie cyberbezpieczeństwa"
+            
+              , "wyszukiwanie zagrożeń"
+            
+              , "obrona przed inżynierią społeczną"
+            
+              , "kontrola dostępu"
+            
+              , "segmentacja sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/blog/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zapoznaj się z osobistymi doświadczeniami i ekspertycznymi wskazówkami SimeonOnSecurity.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

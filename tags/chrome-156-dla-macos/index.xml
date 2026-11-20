@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chrome 156 Dla MacOS on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Chrome 156 Dla MacOS on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/chrome-156-dla-macos/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/chrome-156-dla-macos/</link>
+
+    <description>Recent content in Chrome 156 Dla MacOS on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/chrome-156-dla-macos/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Aktualizacja zabezpieczeń Chrome 156: sprawdź październikową poprawkę</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link>
+        
+        <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przeglądarki"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zarządzanie poprawkami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź wydanie zabezpieczeń Chrome 156 z 27 października w systemach Windows, macOS, Linux i Android. Porównaj zainstalowaną kompilację, dokończ oczekujący restart i osobno sprawdź urządzenia zarządzane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

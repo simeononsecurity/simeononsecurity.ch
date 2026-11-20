@@ -1,0 +1,177 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aktywacja Oprogramowania on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Aktywacja Oprogramowania on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/aktywacja-oprogramowania/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/aktywacja-oprogramowania/</link>
+
+    <description>Recent content in Aktywacja Oprogramowania on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/aktywacja-oprogramowania/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja aktywacji Windows KMS za pomocą skryptu GLVK</title>
+        
+          <link>https://pl.simeononsecurity.com/github/kms-auto-ps/</link>
+        
+        <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Aktywacja Windows"
+            
+              , "Klucze klienta KMS"
+            
+              , "GLVK"
+            
+              , "Aktualizacje Windows"
+            
+              , "Zgodność"
+            
+              , "Skrypt Powershell"
+            
+              , "Usługa zarządzania kluczami"
+            
+              , "Licencjonowanie zbiorcze"
+            
+              , "Aktywacja w przedsiębiorstwie"
+            
+              , "Serwer zarządzania kluczami"
+            
+              , "Automatyzacja"
+            
+              , "Produkty Microsoft"
+            
+              , "System operacyjny"
+            
+              , "Oprogramowanie"
+            
+              , "Środowiska korporacyjne"
+            
+              , "Powershell administracyjny"
+            
+              , "Repozytorium GitHub"
+            
+              , "Skryptowanie"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "SimeonOnSecurity"
+            
+              , "aktywacja KMS"
+            
+              , "Skrypt GLVK Auto Install"
+            
+              , "produkty Windows"
+            
+              , "przedsiębiorstwo"
+            
+              , "zarządzanie scentralizowane"
+            
+              , "oszczędność czasu"
+            
+              , "administracja IT"
+            
+              , "usprawniona aktywacja"
+            
+              , "bezproblemowe"
+            
+              , "wydajność"
+            
+              , "redukcja błędów"
+            
+              , "możliwości monitorowania"
+            
+              , "efektywność"
+            
+              , "aktywacja oprogramowania"
+            
+              , "klucz licencji zbiorczej"
+            
+              , "automatyzacja skryptów"
+            
+              , "zarządzanie IT"
+            
+              , "proces aktywacji"
+            
+              , "licencjonowanie oprogramowania"
+            
+              , "zarządzanie licencjami"
+            
+              , "narzędzie aktywacyjne"
+            
+              , "wdrażanie oprogramowania"
+            
+              , "wydajność IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/kms-auto-ps/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Uprość proces aktywacji KMS dla Windows 10 i Windows 11 za pomocą skryptu GLVK Auto Install autorstwa SimeonOnSecurity i dowiedz się więcej o KMS oraz kluczach klienta GLVK z zalecanej lektury Microsoft.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/KMS-Auto-PS.webp" length="212290" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

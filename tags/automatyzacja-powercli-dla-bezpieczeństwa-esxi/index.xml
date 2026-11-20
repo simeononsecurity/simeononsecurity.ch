@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automatyzacja PowerCLI Dla Bezpieczeństwa ESXi on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Automatyzacja PowerCLI Dla Bezpieczeństwa ESXi on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/automatyzacja-powercli-dla-bezpiecze%C5%84stwa-esxi/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/automatyzacja-powercli-dla-bezpiecze%C5%84stwa-esxi/</link>
+
+    <description>Recent content in Automatyzacja PowerCLI Dla Bezpieczeństwa ESXi on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/automatyzacja-powercli-dla-bezpiecze%C5%84stwa-esxi/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Poznaj zabezpieczenia VMware</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link>
+        
+        <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Wirtualizacja"
+            
+              , "Infrastruktura IT"
+            
+              , "Automatyzacja"
+            
+              , "PowerShell"
+            
+              , "VMware"
+            
+              , "STIG"
+            
+              , "Zgodność"
+            
+              , "Skrypty"
+            
+              , "Centrum danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          W tym obszernym przewodniku dowiesz się, jak używać PowerCLI do wdrażania STIG VMware i zabezpieczania środowiska VMware.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,1415 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sztuczna Inteligencja on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Sztuczna Inteligencja on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/sztuczna-inteligencja/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/sztuczna-inteligencja/</link>
+
+    <description>Recent content in Sztuczna Inteligencja on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/sztuczna-inteligencja/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tailscale Aperture: konfiguracja klientów AI do inferencji i MCP w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link>
+        
+        <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Narzędzia dla programistów"
+            
+              , "Sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kieruj żądania modeli i narzędzia MCP przez Tailscale Aperture. Skonfiguruj Codex, Claude Code, Claude Desktop, OpenCode i Hermes na innym urządzeniu lub bramie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Lokalne modele Hermes w testach: jakie zestawy GPU i modeli bym wybrał</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link>
+        
+        <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Lokalna AI"
+            
+              , "Sprzęt komputerowy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Moje rekomendacje modeli Hermes wynikają z testów długiego kontekstu, narzędzi, strumieniowania i obrazów na systemach RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti oraz RTX 3070.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>2x RTX 5060 Ti kontra GB10: lokalny benchmark AI pięciu modeli przy kontekście 256K</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Lokalna AI"
+            
+              , "Sprzęt GPU"
+            
+              , "Benchmarki"
+            
+              , "Sprzęt komputerowy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie RTX 5060 Ti z GB10 dla pięciu modeli oraz benchmark Qwen3.8 Flash-Next na Strata, wykonany na tym samym hoście przy kontekście do 256K.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Boom infrastruktury AI w 2026 roku: popyt, dług, energia i dowody</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Ekonomia AI"
+            
+              , "Centra danych"
+            
+              , "Infrastruktura chmurowa"
+            
+              , "Cyberbezpieczeństwo"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdzona pod względem faktów analiza wydatków na infrastrukturę AI, zużycia energii przez centra danych, finansowania, wartości przedsiębiorstw oraz dowodów potrzebnych przed nazwaniem rynku bańką.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Delegowanie zadań agentom AI: przydzielanie pracy i przegląd wyników</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-agent-delegation/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-agent-delegation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ustal, kiedy drugi agent AI pomoże, przydziel każdemu pracownikowi ograniczone zadanie, zapobiegaj konfliktom edycji i integruj dowody w głównej sesji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-agent-delegation.webp" length="133510" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak skutecznie korzystać z AI: niezawodny przepływ pracy dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-workflow-foundations/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Produktywność"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-workflow-foundations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj powtarzalny przepływ pracy z AI: określ zadanie, podaj potrzebny kontekst, sprawdź dowody i zweryfikuj wynik przed użyciem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-workflow-foundations.webp" length="98694" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak weryfikować wyniki AI, źródła, testy i koszty</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-output-verification/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-output-verification/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przygotuj zapis akceptacji wyniku AI, sprawdzając źródła, zakres plików, dowody z testów, prywatność i wykorzystanie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-output-verification.webp" length="109102" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Konfiguracja kursu o przepływie pracy z AI: terminal, Git i laboratorium ćwiczeniowe</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-course-setup/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Inżynieria oprogramowania"
+            
+              , "Edukacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-course-setup/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przygotuj bezpieczne miejsce do ćwiczeń z AI, poznaj używane w kursie pojęcia dotyczące terminala i Git oraz uruchom laboratorium startowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-course-setup.webp" length="112168" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Konfiguracja serwera MCP: uprawnienia, testy narzędzi i bezpieczne usuwanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-mcp-server-setup/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Narzędzia dla programistów"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-mcp-server-setup/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Połącz tylko do odczytu jeden serwer dokumentacji MCP, sprawdź jego narzędzia, wykonaj rzeczywisty odczyt i usuń połączenie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-mcp-server-setup.webp" length="82234" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Napisz AGENTS.md i CLAUDE.md dla agentów kodujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-agents-md-context/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-agents-md-context/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Utwórz krótką mapę repozytorium ze źródłem prawdy i poleceniem testów, aby agenci zaczynali z właściwym kontekstem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-agents-md-context.webp" length="124018" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ograniczone pętle agentów AI: kontrole, ponowienia i reguły zatrzymania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Inżynieria oprogramowania"
+            
+              , "Produktywność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zdefiniuj pętlę celu AI z obserwowalnym stanem, kontrolami, limitami ponowień, warunkami zatrzymania i jasnym przekazaniem zadania człowiekowi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-bounded-agent-loops.webp" length="94174" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>OpenClaw i Hermes Agent: praktyczna ocena</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Inżynieria oprogramowania"
+            
+              , "Produktywność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Oceń wyspecjalizowanych i działających długotrwale agentów AI za pomocą wykazu dostępu, przeglądu wyzwalaczy, zapisu przepływu danych i decyzji o pilotażu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-specialized-agent-evaluation.webp" length="115550" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Pakiety zadań AI: lepsze polecenia i kryteria akceptacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-task-packets/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Produktywność"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-task-packets/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zamień niejasne polecenia dla AI w pakiety zadań z określonym wynikiem, źródłem, zakresem plików, kontrolami i warunkiem zatrzymania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-task-packets.webp" length="93042" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Projekt końcowy przepływu pracy z AI: zbuduj i zweryfikuj raport JSON</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-capstone/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Inżynieria oprogramowania"
+            
+              , "Edukacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-capstone/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Utwórz raport zadań JSON z kontekstem projektu, ograniczonym zakresem polecenia dla agenta, niezależnymi testami, kontrolą źródeł i przekazaniem pracy do nowej sesji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-capstone.webp" length="96772" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Projekty ChatGPT i Claude: konfiguracja kontekstu AI do ponownego użycia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-chat-projects/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Produktywność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-chat-projects/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Skonfiguruj projekty ChatGPT i Claude z ukierunkowanymi instrukcjami, aktualnymi plikami referencyjnymi i prostym testem ponownie użytego kontekstu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-chat-projects.webp" length="92048" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wykonaj pierwsze zadanie w repozytorium z agentem programistycznym</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-coding-agent-first-task/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-coding-agent-first-task/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wybierz interfejs agenta programistycznego, otwórz przykładowe repozytorium, sprawdź proponowaną zmianę i uruchom testy przed jej zachowaniem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-coding-agent-first-task.webp" length="85038" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zarządzanie oknem kontekstu AI: skup agentów programistycznych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-context-window-management/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-context-window-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kontroluj aktywny kontekst zadania AI za pomocą wybranych plików, zwięzłych przekazań i krótkich raportów pracowników, zachowując decyzje i dowody.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-context-window-management.webp" length="78984" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 wtyczek, umiejętności i narzędzi MCP dla Claude Code: praktyczny przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Narzędzia dla programistów"
+            
+              , "Tworzenie oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wybierz rozszerzenia Claude Code do planowania, przeglądu kodu, zarządzania wiedzą, projektowania i automatyzacji. Porównaj dziesięć narzędzi, zależności i praktyczne kontrole.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp" length="102696" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>9 projektów AI Agent Skill do badań, projektowania i programowania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Narzędzia dla programistów"
+            
+              , "Tworzenie oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj dziewięć projektów agent skills według przepływu pracy, obsługi hosta, zależności i kosztu. Dowiedz się, jak instalować, sprawdzać i testować potrzebne skills.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/agent-skill-workflow-library.webp" length="230146" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Agenci kodowania CLI porównani: Claude Code, Codex, Gemini, OpenCode, Copilot i Aider</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cli-coding-agents-comparison/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Narzędzia deweloperskie"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Tworzenie oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj sześciu terminalowych agentów kodowania pod kątem przepływu pracy, automatyzacji, dostępu do modeli, uprawnień i nakładu pracy przy przeglądzie. Utwórz krótką listę za pomocą powtarzalnego testu repozytorium.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp" length="39756" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Claude Code CLI a Desktop: porównanie przepływu pracy w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Narzędzia dla deweloperów"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Tworzenie oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj Claude Code w terminalu i desktopowym obszarze roboczym Code, uwzględniając wspólne ustawienia, przekazywanie sesji, skrypty, przegląd wizualny i wybór uprawnień.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp" length="22556" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Codex CLI a aplikacja desktopowa: porównanie przepływów pracy w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/codex-cli-vs-desktop/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Narzędzia dla programistów"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Tworzenie oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wybierz między Codex w terminalu a desktopowym środowiskiem programistycznym OpenAI. Porównaj skrypty, worktree, przegląd wizualny, harmonogramy i środowiska wykonywania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>GitHub Copilot CLI a VS Code: porównanie przepływu pracy w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Narzędzia deweloperskie"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Tworzenie oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj agenta terminalowego Copilot z jego środowiskiem w VS Code, uwzględniając kontekst edytora, wizualne różnice, tryb agenta, integrację CLI i zasady konta.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Lokalna sztuczna inteligencja kontra ChatGPT: jak blisko jesteśmy?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Sprzęt AI"
+            
+              , "Narzędzia dla programistów"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie lokalnej AI z ChatGPT i Claude na podstawie wyników testów, szacunków pamięci, szybkości obsługi i weryfikacji agentów. Omówiono RTX 5090, DGX Spark i Mac Studio.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Modele językowe kontekstu Meta: lepsza pamięć agentów, ale nie koniec halucynacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Agenci AI"
+            
+              , "Lokalna AI"
+            
+              , "Bezpieczeństwo AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Jak Context Language Models edytują pamięć agenta, co pokazują benchmarki oraz jak koszty cache, możliwości modelu i niezaufane notatki wpływają na niezawodność.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

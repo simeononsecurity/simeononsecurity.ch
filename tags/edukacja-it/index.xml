@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edukacja IT on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Edukacja IT on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/edukacja-it/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/edukacja-it/</link>
+
+    <description>Recent content in Edukacja IT on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/edukacja-it/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Odkrywanie sukcesu w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-career-transition-certifications/</link>
+        
+        <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Rozwój kariery"
+            
+              , "Edukacja z zakresu cyberbezpieczeństwa"
+            
+              , "Praca zdalna"
+            
+              , "Strategie certyfikacji"
+            
+              , "Rozwój kariery w IT"
+            
+              , "Wskazówki dotyczące zmiany pracy"
+            
+              , "Rozwój zawodowy"
+            
+              , "Kariera w branży technologicznej"
+            
+              , "Certyfikacja cyberbezpieczeństwa"
+            
+              , "Sukces pracy z domu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-career-transition-certifications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Oceń certyfikaty cyberbezpieczeństwa przy zmianie kariery pod kątem dopasowania do roli, kosztów nauki i przydatności pracy zdalnej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cybersecurity_Success_Key.webp" length="60188" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepszy sprzęt do homelabu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ultimate-tech-homelab-guide/</link>
+        
+        <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Edukacja"
+            
+              , "Innowacje"
+            
+              , "Rozwój umiejętności"
+            
+              , "Nauka w domu"
+            
+              , "Rozwój osobisty"
+            
+              , "Eksperymenty"
+            
+              , "Miłośnicy IT"
+            
+              , "Rozwój zawodowy"
+            
+              , "Poznawanie technologii"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ultimate-tech-homelab-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ucz się przez praktykę dzięki przystępnemu cenowo homelabowi. Poznaj sprzęt, sieci i możliwości eksperymentowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Homelab_Innovation_Tech.webp" length="191718" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

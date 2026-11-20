@@ -1,0 +1,387 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kontrola Rodzicielska on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Kontrola Rodzicielska on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/kontrola-rodzicielska/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/kontrola-rodzicielska/</link>
+
+    <description>Recent content in Kontrola Rodzicielska on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 13 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/kontrola-rodzicielska/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Firewalla w domu: zabezpieczenia sieci domowej i homelabu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/firewalla-home-network-security-guide/</link>
+        
+        <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Sieć domowa"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Homelaby"
+            
+              , "Ochrona cyfrowa"
+            
+              , "Wykrywanie włamań"
+            
+              , "Filtrowanie treści"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/firewalla-home-network-security-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, jak Firewalla wspiera bezpieczeństwo sieci domowej, czy sprawdza się w homelabie oraz jakie ma zalety i ograniczenia.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/firewalla-home-network-security.webp" length="57452" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS kontra AdGuard: Który bloker DNS wygrywa?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link>
+        
+        <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Blokowanie reklam"
+            
+              , "DNS"
+            
+              , "Prywatność"
+            
+              , "Bezpieczeństwo internetowe"
+            
+              , "Ochrona online"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Rozwiązania do przeglądania"
+            
+              , "Prywatność online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj NextDNS i AdGuard, dwa blokery reklam oparte na DNS, i sprawdź, który lepiej pasuje do Twojego sposobu korzystania z internetu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS vs AdGuard vs Quad9 vs Cloudflare: DNS w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link>
+        
+        <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Porównanie DNS"
+            
+              , "Ochrona prywatności"
+            
+              , "Blokowanie reklam"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo Internetu"
+            
+              , "Resolver DNS"
+            
+              , "Prywatność online"
+            
+              , "Bezpieczeństwo WWW"
+            
+              , "Filtrowanie DNS"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie NextDNS, AdGuard DNS, Quad9, Cloudflare DNS i Pi-hole z 2026 roku pod kątem bezpieczeństwa, prywatności i wydajności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS: filtrowanie DNS i blokowanie zagrożeń dla bezpieczeństwa online</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</link>
+        
+        <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Filtrowanie DNS"
+            
+              , "Bezpieczeństwo Internetu"
+            
+              , "Usługa w chmurze"
+            
+              , "Ochrona online"
+            
+              , "Filtrowanie stron"
+            
+              , "Ochrona prywatności"
+            
+              , "Alternatywa dla blokowania DNS"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo w Internecie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj NextDNS, łatwą w obsłudze usługę blokowania DNS, która zwiększa bezpieczeństwo online dzięki automatycznym aktualizacjom i konfigurowalnym zasadom filtrowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/nextdns_cybersecurity_shield.webp" length="98890" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze systemy Wi-Fi mesh 2026: poradnik zakupowy i polecane modele</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/</link>
+        
+        <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Systemy Wi-Fi mesh"
+            
+              , "Sieci domowe"
+            
+              , "Technologie bezprzewodowe"
+            
+              , "Łączność internetowa"
+            
+              , "Elektronika użytkowa"
+            
+              , "Inteligentne domy"
+            
+              , "Urządzenia sieciowe"
+            
+              , "Internet rzeczy (IoT)"
+            
+              , "Routery bezprzewodowe"
+            
+              , "Sieci domowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poradnik z 2026 roku poświęcony konsumenckim systemom mesh Wi-Fi 6E i Wi-Fi 7. Porównuje zasięg, wydajność, konfigurację i kryteria zakupu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_home_with.webp" length="127732" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

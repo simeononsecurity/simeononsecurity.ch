@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ustawienia Zapory on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Ustawienia Zapory on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ustawienia-zapory/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ustawienia-zapory/</link>
+
+    <description>Recent content in Ustawienia Zapory on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 13 Oct 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ustawienia-zapory/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmacnianie cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</link>
+        
+        <pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zasady grupy systemu Windows"
+            
+              , "Zmniejszanie powierzchni ataku"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona sieci"
+            
+              , "Ochrona danych"
+            
+              , "Odporność cyfrowa"
+            
+              , "Utwardzanie systemów"
+            
+              , "Najlepsze praktyki bezpieczeństwa"
+            
+              , "Ograniczanie ryzyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak ustawienia zasad grupy systemu Windows zmniejszają powierzchnię ataku i wzmacniają ochronę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cybersecurity_Shield_Defense.webp" length="129592" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

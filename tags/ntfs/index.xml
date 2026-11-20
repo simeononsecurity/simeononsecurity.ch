@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NTFS on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>NTFS on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ntfs/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ntfs/</link>
+
+    <description>Recent content in NTFS on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 04 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ntfs/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Systemy plików: od FAT32 przez NTFS po inne rozwiązania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</link>
+        
+        <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Informatyka"
+            
+              , "Przechowywanie danych"
+            
+              , "Poradniki techniczne"
+            
+              , "Zarządzanie plikami"
+            
+              , "Systemy operacyjne"
+            
+              , "Organizacja cyfrowa"
+            
+              , "Edukacja techniczna"
+            
+              , "Informacje o oprogramowaniu"
+            
+              , "Optymalizacja systemu"
+            
+              , "Materiały techniczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj systemy plików dzięki przeglądowi FAT32, NTFS, exFAT i innych rozwiązań. Sprawdź ich funkcje, ograniczenia i zgodność, aby lepiej zarządzać danymi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/computer-file-systems-explained_-fat32,-ntfs,-exfat,-and-more.webp" length="132294" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

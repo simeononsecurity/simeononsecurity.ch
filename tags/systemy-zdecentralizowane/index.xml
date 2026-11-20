@@ -1,0 +1,123 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systemy Zdecentralizowane on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Systemy Zdecentralizowane on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/systemy-zdecentralizowane/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/systemy-zdecentralizowane/</link>
+
+    <description>Recent content in Systemy Zdecentralizowane on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 07 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/systemy-zdecentralizowane/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Świat blockchaina: podstawy i zastosowania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/exploring-the-world-of-crypto_-understanding-blockchain-technology/</link>
+        
+        <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia blockchain"
+            
+              , "Kryptografia w blockchainie"
+            
+              , "Decentralizacja"
+            
+              , "Mechanizmy konsensusu"
+            
+              , "Blockchain w usługach finansowych"
+            
+              , "Blockchain w łańcuchu dostaw"
+            
+              , "Blockchain w ochronie zdrowia"
+            
+              , "Wyzwania blockchaina"
+            
+              , "Skalowalność blockchaina"
+            
+              , "Zgodność z przepisami"
+            
+              , "Interoperacyjność blockchaina"
+            
+              , "Przyszłe trendy blockchaina"
+            
+              , "Tokenizacja aktywów"
+            
+              , "Integracja blockchaina z IoT"
+            
+              , "Modele zarządzania blockchainem"
+            
+              , "Bezpieczeństwo blockchaina"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/exploring-the-world-of-crypto_-understanding-blockchain-technology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zastosowanie kryptografii, mechanizmów konsensusu, rozproszonych rejestrów i inteligentnych kontraktów w blockchainie. Następnie oceń ryzyko bezpieczeństwa w popularnych zastosowaniach.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/exploring-the-world-of-crypto_-understanding-blockchain-technology.webp" length="62594" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

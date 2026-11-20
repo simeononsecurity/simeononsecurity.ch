@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ocena Zabezpieczeń on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Ocena Zabezpieczeń on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ocena-zabezpiecze%C5%84/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ocena-zabezpiecze%C5%84/</link>
+
+    <description>Recent content in Ocena Zabezpieczeń on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 11 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ocena-zabezpiecze%C5%84/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>FISMA: wzmocnienie federalnego cyberbezpieczeństwa i ochrona danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</link>
+        
+        <pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Przepisy rządowe"
+            
+              , "Zapewnienie bezpieczeństwa informacji"
+            
+              , "Ochrona danych"
+            
+              , "Agencje federalne"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Standardy bezpieczeństwa"
+            
+              , "Ciągły monitoring"
+            
+              , "Cyberzagrożenia"
+            
+              , "Zarządzanie cyfrowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak FISMA wzmacnia federalne cyberbezpieczeństwo. Poznaj jej główne cechy, proces i wpływ na ochronę danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-shield-fisma.webp" length="118222" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,1417 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/</link>
+
+    <description>Recent content on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak wybrać nieocenzurowany lokalny model AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link>
+        
+        <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "AI hostowana samodzielnie"
+            
+              , "Bezpieczeństwo AI"
+            
+              , "Sprzęt GPU"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj lokalne warianty pod kątem pełnych odpowiedzi, zachowanych możliwości, użycia kontekstu, kwantyzacji i wymagań VRAM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Powrót Home Assistant Core 2026.11 do wersji 2026.10.4: naprawa wersji 3 magazynu HTTP</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link>
+        
+        <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyka domowa"
+            
+              , "Rozwiązywanie problemów"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Napraw błąd wersji 3 magazynu HTTP po powrocie Home Assistant Core 2026.11 do wersji 2026.10.4 na Yellow. Artykuł zawiera zabezpieczone polecenia i zweryfikowane wyniki.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp" length="32856" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zgodność zasilaczy Octominer X12 Ultra: test Chicony i LiteOn w praktyce</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link>
+        
+        <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sprzęt do kopania kryptowalut"
+            
+              , "Sprzęt komputerowy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Test Octominer X12 Ultra z pięcioma wentylatorami i trzema zasilaczami wykazał, że Chicony uruchomił urządzenie, a testowane LiteOn sygnalizowały bursztynowym światłem i nie uruchomiły systemu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp" length="34962" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Proxmox VE 9: ogranicz zużycie dysków wirtualnych i odzyskaj miejsce</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link>
+        
+        <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wirtualizacja"
+            
+              , "Administracja Linuksem"
+            
+              , "platforma Proxmox VE"
+            
+              , "Pamięć masowa"
+            
+              , "Domowe laboratorium"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ogranicz zużycie pamięci masowej przez VM i kontenery LXC w Proxmox VE 9. Porównaj formaty i backendy, włącz discard, uruchom trim i sprawdź migawki przed odzyskaniem miejsca.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tailscale Aperture: konfiguracja klientów AI do inferencji i MCP w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link>
+        
+        <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Narzędzia dla programistów"
+            
+              , "Sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kieruj żądania modeli i narzędzia MCP przez Tailscale Aperture. Skonfiguruj Codex, Claude Code, Claude Desktop, OpenCode i Hermes na innym urządzeniu lub bramie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Hindsight hostowany samodzielnie: lokalna pamięć agentów i prywatne trasowanie modeli</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/self-hosted-hindsight/</link>
+        
+        <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Samodzielnie hostowana AI"
+            
+              , "Agenci AI"
+            
+              , "Infrastruktura AI"
+            
+              , "Prywatność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/self-hosted-hindsight/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Studium przypadku samodzielnie hostowanego Hindsight, zaobserwowanych lokalnych tras Qwen i pracy GPU przypisanej do żądań, bez subskrypcji hostowanego wnioskowania na sprawdzonych ścieżkach.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Aktualizacja zabezpieczeń Chrome 156: sprawdź październikową poprawkę</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link>
+        
+        <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przeglądarki"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zarządzanie poprawkami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź wydanie zabezpieczeń Chrome 156 z 27 października w systemach Windows, macOS, Linux i Android. Porównaj zainstalowaną kompilację, dokończ oczekujący restart i osobno sprawdź urządzenia zarządzane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Open WebUI v0.12.4: lista kontrolna aktualizacji i kontroli dostępu 2026</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link>
+        
+        <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Samodzielnie hostowana sztuczna inteligencja"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Administracja systemami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Utwórz kopię zapasową Open WebUI i zaktualizuj je do wersji v0.12.4. Następnie sprawdź udostępnianie czatów, uprawnienia eksportu, dostęp do zasobów, konta i dostęp sieciowy.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Thunderbird 153.6: Ujawnienie danych uwierzytelniających NTLM w Windows i aktualizacja (2026)</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link>
+        
+        <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo poczty e-mail"
+            
+              , "Bezpieczeństwo Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dwie poważne luki w Thunderbirdzie mogą ujawnić dane uwierzytelniające NTLM w Windows po wyświetleniu spreparowanej wiadomości. Poznaj oba mechanizmy, sprawdź wersję programu i ogranicz wychodzący ruch SMB podczas aktualizacji.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zbuduj domowe laboratorium w 10 etapach, od Pi-hole do lokalnej AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/build-home-lab-10-levels/</link>
+        
+        <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Domowe laboratorium"
+            
+              , "Samodzielny hosting"
+            
+              , "Lokalna AI"
+            
+              , "Sieci domowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/build-home-lab-10-levels/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zbuduj domowe laboratorium w dziesięciu praktycznych etapach, od filtrowania DNS w całej sieci po lokalną AI, poznając sprzęt, koszty, umiejętności i kompromisy dla każdego poziomu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Lokalne modele Hermes w testach: jakie zestawy GPU i modeli bym wybrał</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link>
+        
+        <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Lokalna AI"
+            
+              , "Sprzęt komputerowy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Moje rekomendacje modeli Hermes wynikają z testów długiego kontekstu, narzędzi, strumieniowania i obrazów na systemach RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti oraz RTX 3070.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Nasza hybrydowa flota agentów AI od środka: Hermes, LiteLLM i Tailscale</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link>
+        
+        <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Samodzielnie hostowana AI"
+            
+              , "Agenci AI"
+            
+              , "Infrastruktura AI"
+            
+              , "Mining GPU"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zweryfikowaną lokalną flotę AI ładującą modele na żądanie oraz jej warstwę sterowania T0–T4 z Hermes, LiteLLM, Tailscale Aperture i miningiem Pearl.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>1Password SSH Agent i CLI: dostęp tylko do odczytu dla agentów AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Administracja systemami"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Automatyzacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zaprojektuj workflow tylko do odczytu z użyciem 1Password CLI, SSH Agent oraz MCP. Wykorzystaj syntetyczne polecenia, zawężone uprawnienia i zatwierdzenie przez człowieka przed testami na żywo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego filtrowanie DNS jest omijane: sprawdź ścieżkę resolvera</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sieci domowe"
+            
+              , "DNS"
+            
+              , "Prywatność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, dlaczego urządzenie lub przeglądarka omija filtr DNS. Porównaj zapytania bezpośrednie i domyślne, przejrzyj logi oraz ustawienia szyfrowanego DNS, VPN, IPv6 i routera.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Klucze SSH Bitbucket Cloud: dostęp Git tylko do odczytu dla agentów AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo chmury"
+            
+              , "Narzędzia dla programistów"
+            
+              , "Administracja systemami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Skonfiguruj klucze SSH Bitbucket Cloud, dostęp Git CLI, tokeny REST API, 1Password i narzędzia MCP dla procesów agentów AI działających tylko do odczytu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Migracja maszyny wirtualnej Hyper-V do Proxmox VE: odwracalna lista kontrolna</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wirtualizacja"
+            
+              , "Administracja systemami"
+            
+              , "Domowe laboratorium"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przenieś maszynę wirtualną Hyper-V do Proxmox VE przez eksport wyłączonego źródła, dopasowanie firmware, import dysków, odizolowany test rozruchu i plan wycofania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Test odtwarzania VM Proxmox: sprawdź, czy system gościa działa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wirtualizacja"
+            
+              , "Kopia zapasowa i odzyskiwanie"
+            
+              , "Domowe laboratorium"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przetestuj kopię zapasową VM Proxmox przez odtworzenie w izolowanym środowisku. Sprawdź zakres dysków, tryb kopii, dane gościa, stan usługi i czas odzyskiwania bez ingerencji w produkcję.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Testowanie izolacji sieci gościnnej i IoT w sieci Wi-Fi mesh</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sieci domowe"
+            
+              , "Bezpieczeństwo Wi-Fi"
+            
+              , "Inteligentny dom"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, czy sieci gościnna i IoT w systemie Wi-Fi mesh blokują dostęp do domowych urządzeń. Przetestuj każdą sieć przy użyciu działającej usługi i zapisz ograniczenia.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp" length="102600" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Testuj wycieki DNS i WebRTC w przeglądarce z VPN</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Prywatność"
+            
+              , "Przeglądarki"
+            
+              , "Sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź publiczny adres IP, resolver DNS i adresy WebRTC przeglądarki przed połączeniem VPN i po nim. Zinterpretuj wyniki i zbadaj problemy z trasowaniem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>2x RTX 5060 Ti kontra GB10: lokalny benchmark AI pięciu modeli przy kontekście 256K</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Lokalna AI"
+            
+              , "Sprzęt GPU"
+            
+              , "Benchmarki"
+            
+              , "Sprzęt komputerowy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie RTX 5060 Ti z GB10 dla pięciu modeli oraz benchmark Qwen3.8 Flash-Next na Strata, wykonany na tym samym hoście przy kontekście do 256K.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Boom infrastruktury AI w 2026 roku: popyt, dług, energia i dowody</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Ekonomia AI"
+            
+              , "Centra danych"
+            
+              , "Infrastruktura chmurowa"
+            
+              , "Cyberbezpieczeństwo"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdzona pod względem faktów analiza wydatków na infrastrukturę AI, zużycia energii przez centra danych, finansowania, wartości przedsiębiorstw oraz dowodów potrzebnych przed nazwaniem rynku bańką.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Delegowanie zadań agentom AI: przydzielanie pracy i przegląd wyników</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-agent-delegation/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-agent-delegation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ustal, kiedy drugi agent AI pomoże, przydziel każdemu pracownikowi ograniczone zadanie, zapobiegaj konfliktom edycji i integruj dowody w głównej sesji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-agent-delegation.webp" length="133510" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dobierz zasilacz UPS do homelabu i przetestuj automatyczne wyłączanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Laboratorium domowe"
+            
+              , "Ochrona zasilania"
+            
+              , "Administracja systemami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zmierz pobór mocy homelabu, porównaj limity W i VA zasilacza UPS, sprawdź czas pracy przy swoim obciążeniu i przetestuj bezpieczne wyłączanie, zanim zaufasz zasilaniu z baterii.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak skutecznie korzystać z AI: niezawodny przepływ pracy dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-workflow-foundations/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Produktywność"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-workflow-foundations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj powtarzalny przepływ pracy z AI: określ zadanie, podaj potrzebny kontekst, sprawdź dowody i zweryfikuj wynik przed użyciem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-workflow-foundations.webp" length="98694" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak weryfikować wyniki AI, źródła, testy i koszty</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-output-verification/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-output-verification/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przygotuj zapis akceptacji wyniku AI, sprawdzając źródła, zakres plików, dowody z testów, prywatność i wykorzystanie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-output-verification.webp" length="109102" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

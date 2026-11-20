@@ -1,0 +1,909 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integralność Danych on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Integralność Danych on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/integralno%C5%9B%C4%87-danych/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/integralno%C5%9B%C4%87-danych/</link>
+
+    <description>Recent content in Integralność Danych on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/integralno%C5%9B%C4%87-danych/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przeprowadź test odtwarzania kopii zapasowej homelabu za pomocą Restic</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/homelab-backup-restore-drill/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Homelab"
+            
+              , "Kopia zapasowa"
+            
+              , "Odzyskiwanie po awarii"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/homelab-backup-restore-drill/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, czy kopia zapasowa homelabu przywraca użyteczne pliki. Określ cel odzyskiwania, odtwórz dane programem Restic w osobnej lokalizacji, sprawdź je i zapisz wynik.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/homelab-backup-restore-drill.webp" length="80454" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Pamięć ECC: ochrona przed uszkodzeniem danych i błędami pamięci</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/</link>
+        
+        <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Edukacja technologiczna"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Przewodniki po sprzęcie"
+            
+              , "Niezawodność systemów"
+            
+              , "Utrzymanie IT"
+            
+              , "Rozwiązania technologiczne"
+            
+              , "Informatyka przedsiębiorstw"
+            
+              , "Technologia serwerowa"
+            
+              , "Analiza komponentów"
+            
+              , "Badania nad technologią"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak pamięć ECC chroni dane przed błędami. Poznaj sposoby wykrywania i korygowania błędów, które wspierają niezawodne działanie komputerów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-role-of-ecc-memory-in-mitigating-data-corruption.webp" length="137916" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak rozwiązywać błędy dysku: kompletny przewodnik po sprawdzaniu dysków</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/navigating-disk-errors_-tools-and-techniques-for-disk-checks/</link>
+        
+        <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Konserwacja komputerów"
+            
+              , "Odzyskiwanie danych"
+            
+              , "Rozwiązania techniczne"
+            
+              , "Zarządzanie dyskami"
+            
+              , "Optymalizacja systemu"
+            
+              , "Konserwacja sprzętu"
+            
+              , "Rozwiązywanie problemów"
+            
+              , "Dobre praktyki IT"
+            
+              , "Narzędzia programowe"
+            
+              , "Higiena cyfrowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/navigating-disk-errors_-tools-and-techniques-for-disk-checks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj praktyczne metody diagnozowania i konserwacji dysków. Chroń dane dzięki bezpiecznym kopiom zapasowym i ukierunkowanym kontrolom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/navigating-disk-errors_-tools-and-techniques-for-disk-checks.webp" length="36266" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Systemy plików: od FAT32 przez NTFS po inne rozwiązania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</link>
+        
+        <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Informatyka"
+            
+              , "Przechowywanie danych"
+            
+              , "Poradniki techniczne"
+            
+              , "Zarządzanie plikami"
+            
+              , "Systemy operacyjne"
+            
+              , "Organizacja cyfrowa"
+            
+              , "Edukacja techniczna"
+            
+              , "Informacje o oprogramowaniu"
+            
+              , "Optymalizacja systemu"
+            
+              , "Materiały techniczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj systemy plików dzięki przeglądowi FAT32, NTFS, exFAT i innych rozwiązań. Sprawdź ich funkcje, ograniczenia i zgodność, aby lepiej zarządzać danymi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/computer-file-systems-explained_-fat32,-ntfs,-exfat,-and-more.webp" length="132294" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kryptografia bez tajemnic: wyjaśnienie technik szyfrowania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</link>
+        
+        <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Historia kryptografii"
+            
+              , "Techniki szyfrowania"
+            
+              , "Szyfrowanie symetryczne"
+            
+              , "Szyfrowanie asymetryczne"
+            
+              , "Algorytm RSA"
+            
+              , "Kryptografia krzywych eliptycznych"
+            
+              , "Wymiana kluczy Diffiego-Hellmana"
+            
+              , "Poufność danych"
+            
+              , "Integralność danych"
+            
+              , "Uwierzytelnianie danych"
+            
+              , "Zagrożenia związane z komputerami kwantowymi"
+            
+              , "Audyty bezpieczeństwa"
+            
+              , "Bezpieczeństwo portfeli"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sposoby, w jakie szyfrowanie symetryczne, asymetryczne i hybrydowe chroni dane, dowiedz się, jak działa wymiana kluczy i gdzie stosuje się współczesne metody kryptograficzne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques.webp" length="291054" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalizacja bezpieczeństwa sieci i chmury</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link>
+        
+        <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Ochrona sieci"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Technologie biznesowe"
+            
+              , "Obrona cyfrowa"
+            
+              , "Zagrożenia cybernetyczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zagrożenia, środki ochrony i przykłady naruszeń, aby wzmocnić bezpieczeństwo sieci i chmury.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona kontrolowanych informacji nieklasyfikowanych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</link>
+        
+        <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo danych"
+            
+              , "Ochrona informacji"
+            
+              , "Zarządzanie prywatnością"
+            
+              , "Postępowanie z informacjami wrażliwymi"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Zgodność z przepisami"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Ład informacyjny"
+            
+              , "Poufność danych"
+            
+              , "Zapewnianie bezpieczeństwa informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj znaczenie ochrony kontrolowanych informacji nieklasyfikowanych (CUI) i dowiedz się, jak skutecznie zabezpieczać wrażliwe dane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/CUI-Safeguarding-Sensitive-Data.webp" length="96388" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS vs AdGuard vs Quad9 vs Cloudflare: DNS w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link>
+        
+        <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Porównanie DNS"
+            
+              , "Ochrona prywatności"
+            
+              , "Blokowanie reklam"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo Internetu"
+            
+              , "Resolver DNS"
+            
+              , "Prywatność online"
+            
+              , "Bezpieczeństwo WWW"
+            
+              , "Filtrowanie DNS"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie NextDNS, AdGuard DNS, Quad9, Cloudflare DNS i Pi-hole z 2026 roku pod kątem bezpieczeństwa, prywatności i wydajności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Potęga SSH: bezpieczny zdalny dostęp i łatwe zarządzanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-ssh/</link>
+        
+        <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "SSH"
+            
+              , "Secure Shell"
+            
+              , "zdalny dostęp"
+            
+              , "zdalne zarządzanie"
+            
+              , "szyfrowanie"
+            
+              , "uwierzytelnianie"
+            
+              , "integralność danych"
+            
+              , "przenośność"
+            
+              , "transfer plików"
+            
+              , "SCP"
+            
+              , "Klucze SSH"
+            
+              , "Konfiguracja SSH"
+            
+              , "protokół sieciowy"
+            
+              , "zdalne wykonywanie poleceń"
+            
+              , "OpenSSH"
+            
+              , "uwierzytelnianie dwuskładnikowe"
+            
+              , "kryptografia klucza publicznego"
+            
+              , "Adres IP"
+            
+              , "nazwa domeny"
+            
+              , "terminal"
+            
+              , "wiersz polecenia"
+            
+              , "bezpieczeństwo"
+            
+              , "administratorzy systemu"
+            
+              , "deweloperzy"
+            
+              , "wszechstronność"
+            
+              , "metody uwierzytelniania"
+            
+              , "funkcje skrótu"
+            
+              , "tunelowanie"
+            
+              , "opcje niestandardowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-ssh/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zalety SSH, dowiedz się, jak generować klucze SSH, łączyć się ze zdalnymi serwerami, bezpiecznie przesyłać pliki i dostosowywać konfiguracje SSH.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.webp" length="86174" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wybór odpowiedniego systemu zarządzania bazą danych: SQL vs. NoSQL</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/sql-vs-nosql-choosing-the-right-database-management-system/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "system zarządzania bazą danych"
+            
+              , "SQL vs NoSQL"
+            
+              , "Bazy danych SQL"
+            
+              , "Bazy danych NoSQL"
+            
+              , "Zgodność z ACID"
+            
+              , "model danych"
+            
+              , "skalowalność"
+            
+              , "język zapytań"
+            
+              , "wydajność"
+            
+              , "ewolucja schematu"
+            
+              , "dane strukturalne"
+            
+              , "dane nieustrukturyzowane"
+            
+              , "integralność danych"
+            
+              , "Skalowalność pozioma"
+            
+              , "Język zapytań SQL"
+            
+              , "MongoDB"
+            
+              , "bazy danych dokumentów"
+            
+              , "magazyny klucz-wartość"
+            
+              , "kolumnowe bazy danych"
+            
+              , "bazy danych grafów"
+            
+              , "zarządzanie danymi"
+            
+              , "struktura danych"
+            
+              , "zapytania analityczne"
+            
+              , "modelowanie danych"
+            
+              , "elastyczne schematy"
+            
+              , "Wysoka przepustowość odczytu"
+            
+              , "Wysoka przepustowość zapisu"
+            
+              , "złożone operacje łączenia"
+            
+              , "zwinny rozwój"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/sql-vs-nosql-choosing-the-right-database-management-system/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kluczowe różnice między bazami danych SQL i NoSQL i podejmij świadomą decyzję dotyczącą najlepszego systemu zarządzania bazą danych dla swoich potrzeb.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_puzzle_piece_representing_data.webp" length="51596" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompletny przewodnik: Skróty plików w systemie Windows przy użyciu PowerShell</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</link>
+        
+        <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "skróty plików"
+            
+              , "PowerShell"
+            
+              , "SHA256 hash"
+            
+              , "Skrót MD5"
+            
+              , "SHA1 hash"
+            
+              , "integralność plików"
+            
+              , "uwierzytelnianie danych"
+            
+              , "weryfikacja plików"
+            
+              , "algorytmy haszujące"
+            
+              , "System operacyjny Windows"
+            
+              , "język skryptowy"
+            
+              , "powłoka wiersza poleceń"
+            
+              , "bezpieczeństwo danych"
+            
+              , "informatyka śledcza"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Obliczanie skrótu"
+            
+              , "manipulowanie plikami"
+            
+              , "integralność danych"
+            
+              , "autentyczność pliku"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "identyfikacja pliku"
+            
+              , "cyberobrona"
+            
+              , "bezpieczeństwo plików"
+            
+              , "ochrona danych"
+            
+              , "weryfikacja danych"
+            
+              , "walidacja plików"
+            
+              , "Windows PowerShell"
+            
+              , "generowanie skrótu"
+            
+              , "algorytmy skrótu"
+            
+              , "funkcje skrótu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak uzyskać skróty plików w systemie Windows za pomocą PowerShell, w tym SHA256, MD5 i SHA1, z instrukcjami krok po kroku i przykładami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.webp" length="46546" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

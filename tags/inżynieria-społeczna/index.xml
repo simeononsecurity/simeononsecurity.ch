@@ -1,0 +1,931 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inżynieria Społeczna on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Inżynieria Społeczna on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/in%C5%BCynieria-spo%C5%82eczna/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/in%C5%BCynieria-spo%C5%82eczna/</link>
+
+    <description>Recent content in Inżynieria Społeczna on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/in%C5%BCynieria-spo%C5%82eczna/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najczęstsze rodzaje cyberataków i metody ich wykrywania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link>
+        
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Blue team"
+            
+              , "Operacje bezpieczeństwa"
+            
+              , "Rozwój kariery"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj częste rodzaje cyberataków, ślady pozostawiane w logach i telemetrii oraz ćwicz ich wykrywanie w domowym laboratorium bezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego szkolenie użytkowników jest ważniejsze niż zaawansowana technologia w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/user-training-vs-advanced-tech-cybersecurity/</link>
+        
+        <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Szkolenie użytkowników"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Ochrona danych"
+            
+              , "Zapobieganie phishingowi"
+            
+              , "Inżynieria społeczna"
+            
+              , "Zgodność z przepisami"
+            
+              , "Edukacja pracowników"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/user-training-vs-advanced-tech-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, dlaczego szkolenie użytkowników ma większe znaczenie niż zaawansowana technologia i jak wzmacnia ochronę cyfrową organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/user-training-cybersecurity-defense.webp" length="105250" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Cyberbezpieczeństwo od podstaw: przewodnik po bezpieczniejszym świecie cyfrowym</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</link>
+        
+        <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Bezpieczeństwo w sieci"
+            
+              , "Ochrona informacji"
+            
+              , "Prywatność danych"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Wskazówki dotyczące bezpieczeństwa w sieci"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Bezpieczna praca z komputerem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kluczowe praktyki cyberbezpieczeństwa, które chronią Twoje cyfrowe życie i zasoby. Dowiedz się więcej o zagrożeniach i bezpiecznym korzystaniu z sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cybersecurity-Shield-Protection.webp" length="114598" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Odkrywanie Dark Webu: ukryte usługi i zagrożenia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/exploring-the-dark-web/</link>
+        
+        <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia i internet"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Działalność przestępcza"
+            
+              , "Kryptowaluty"
+            
+              , "Rynki internetowe"
+            
+              , "Platformy komunikacyjne"
+            
+              , "Ujawnianie nieprawidłowości"
+            
+              , "Prawa cyfrowe"
+            
+              , "Organy ścigania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/exploring-the-dark-web/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj Dark Web, jego ukryte usługi i potencjalne zagrożenia po mniej widocznej stronie internetu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_cartoon-style_image_depicting_a_locked_door_with.webp" length="214932" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zaawansowane techniki testów penetracyjnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link>
+        
+        <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Testy penetracyjne"
+            
+              , "Etyczne hakowanie"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo aplikacji internetowych"
+            
+              , "Bezpieczeństwo sieci bezprzewodowych"
+            
+              , "Inżynieria społeczna"
+            
+              , "Bezpieczeństwo aplikacji mobilnych"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Rozwój kariery"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zaawansowane techniki, narzędzia i przykłady z praktyki testów penetracyjnych, aby rozwijać umiejętności z cyberbezpieczeństwa i karierę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Poznaj Metasploit: kompleksowy framework do testów penetracyjnych i tworzenia exploitów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-metasploit/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Metasploit"
+            
+              , "testy penetracyjne"
+            
+              , "rozwój exploitów"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "generowanie ładunku"
+            
+              , "działania posteksploatacyjne"
+            
+              , "etyczne hakowanie"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "open-source"
+            
+              , "ramy bezpieczeństwa"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "inżynieria społeczna"
+            
+              , "Metasploit Framework"
+            
+              , "Metasploit Pro"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "HD Moore"
+            
+              , "Rapid7"
+            
+              , "rozwiązania bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "Ustawa o oszustwach i nadużyciach komputerowych"
+            
+              , "CFAA"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "narzędzia hakerskie"
+            
+              , "narzędzia cyberbezpieczeństwa"
+            
+              , "społeczność cyberbezpieczeństwa"
+            
+              , "zasoby cyberbezpieczeństwa"
+            
+              , "specjaliści ds. cyberbezpieczeństwa"
+            
+              , "najlepsze praktyki cyberbezpieczeństwa"
+            
+              , "zgodność z cyberbezpieczeństwem"
+            
+              , "przepisy dotyczące cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-metasploit/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Metasploit, frameworka open-source do testów penetracyjnych i tworzenia exploitów, z solidnymi funkcjami i dużą społecznością.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.webp" length="97762" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Unikanie oszustw phishingowych: Taktyka, zapobieganie i ochrona</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/</link>
+        
+        <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "oszustwa phishingowe"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "zagrożenia online"
+            
+              , "Email spoofing"
+            
+              , "inżynieria społeczna"
+            
+              , "ochrona przed złośliwym oprogramowaniem"
+            
+              , "bezpieczeństwo online"
+            
+              , "bezpieczeństwo danych"
+            
+              , "kradzież tożsamości"
+            
+              , "bezpieczeństwo hasła"
+            
+              , "uwierzytelnianie dwuskładnikowe"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "regulacje rządowe"
+            
+              , "prywatność online"
+            
+              , "świadomość cybernetyczna"
+            
+              , "oszustwo cyfrowe"
+            
+              , "świadomość phishingu"
+            
+              , "Bezpieczeństwo w mediach społecznościowych"
+            
+              , "oszustwa internetowe"
+            
+              , "Zapobieganie cyberprzestępczości"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj taktyki stosowane przez oszustów phishingowych i odkryj skuteczne strategie ochrony przed staniem się ofiarą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp" length="74014" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zapobieganie atakom inżynierii społecznej: Strategie i najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</link>
+        
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "inżynieria społeczna"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prewencja"
+            
+              , "szkolenie pracowników"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "antywirus"
+            
+              , "bezpieczeństwo fizyczne"
+            
+              , "przepisy rządowe"
+            
+              , "FISMA"
+            
+              , "HIPAA"
+            
+              , "ochrona danych"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "informacje wrażliwe"
+            
+              , "cyberprzestępczość"
+            
+              , "zgodność"
+            
+              , "strategia bezpieczeństwa cybernetycznego"
+            
+              , "bezpieczeństwo danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zapobiegać atakom socjotechnicznym i chronić wrażliwe informacje organizacji dzięki szkoleniom pracowników, polityce bezpieczeństwa i nie tylko.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.webp" length="85016" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie zagrożeń typu Ransomware: Środki zapobiegawcze</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-rise-of-ransomware-understanding-the-threat-and-preventive-measures/</link>
+        
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ransomware"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "zapobieganie"
+            
+              , "kopia zapasowa"
+            
+              , "antywirus"
+            
+              , "VPN"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "przepisy rządowe"
+            
+              , "phishing"
+            
+              , "inżynieria społeczna"
+            
+              , "złośliwe oprogramowanie"
+            
+              , "cyberprzestępczość"
+            
+              , "bezpieczeństwo danych"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "cyberatak"
+            
+              , "szyfrowanie"
+            
+              , "higiena cybernetyczna"
+            
+              , "reagowanie na incydenty"
+            
+              , "ochrona danych"
+            
+              , "świadomość cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-rise-of-ransomware-understanding-the-threat-and-preventive-measures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zagrożenia ransomware i środki zapobiegawcze, które możesz podjąć, aby się przed nimi chronić.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_computer_with_a_lock_and_chain_around_it.webp" length="86456" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Łagodzenie 5 największych wektorów cyberataku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-top-five-cyber-attack-vectors-and-mitigations/</link>
+        
+        <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "cyberataki"
+            
+              , "inżynieria społeczna"
+            
+              , "złośliwe oprogramowanie"
+            
+              , "denial-of-service"
+            
+              , "ataki na hasła"
+            
+              , "ataki na aplikacje internetowe"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "filtry antyspamowe"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "oprogramowanie antywirusowe"
+            
+              , "firewalle"
+            
+              , "botnety"
+            
+              , "CDN-y"
+            
+              , "usługi anty-DDoS"
+            
+              , "wydajność sieci"
+            
+              , "podatności"
+            
+              , "ochrona"
+            
+              , "ograniczanie ryzyka"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-top-five-cyber-attack-vectors-and-mitigations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak chronić siebie i swoją firmę przed najczęstszymi wektorami cyberataków, w tym socjotechniką, złośliwym oprogramowaniem, atakami typu denial-of-service, atakami na hasła i atakami na aplikacje internetowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.webp" length="147218" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Obrona przed atakami socjotechnicznymi i oszustwami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/</link>
+        
+        <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "inżynieria społeczna"
+            
+              , "oszustwa phishingowe"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "aktualizacje zabezpieczeń"
+            
+              , "bezpieczeństwo hasła"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "naruszenia danych"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "kradzież tożsamości"
+            
+              , "zapobieganie oszustwom"
+            
+              , "zapobieganie szpiegostwu"
+            
+              , "bezpieczeństwo techniczne"
+            
+              , "bezpieczeństwo fizyczne"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "Zapobieganie cyberprzestępczości"
+            
+              , "wykrywanie włamań"
+            
+              , "poprawki zabezpieczeń"
+            
+              , "szkolenie pracowników"
+            
+              , "ochrona danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Z tego artykułu dowiesz się, jak bronić się przed atakami socjotechnicznymi i chronić swoje dane przed cyberprzestępcami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.webp" length="72470" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

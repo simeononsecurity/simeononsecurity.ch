@@ -1,0 +1,220 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analityka Internetowa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Analityka Internetowa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/analityka-internetowa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/analityka-internetowa/</link>
+
+    <description>Recent content in Analityka Internetowa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 26 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/analityka-internetowa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS: filtrowanie DNS i blokowanie zagrożeń dla bezpieczeństwa online</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</link>
+        
+        <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Filtrowanie DNS"
+            
+              , "Bezpieczeństwo Internetu"
+            
+              , "Usługa w chmurze"
+            
+              , "Ochrona online"
+            
+              , "Filtrowanie stron"
+            
+              , "Ochrona prywatności"
+            
+              , "Alternatywa dla blokowania DNS"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo w Internecie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj NextDNS, łatwą w obsłudze usługę blokowania DNS, która zwiększa bezpieczeństwo online dzięki automatycznym aktualizacjom i konfigurowalnym zasadom filtrowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/nextdns_cybersecurity_shield.webp" length="98890" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zainstaluj Bitping: Monitorowanie witryny i optymalizacja wydajności w czasie rzeczywistym</title>
+        
+          <link>https://pl.simeononsecurity.com/other/install-bitping-easily-using-docker/</link>
+        
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bitping"
+            
+              , "monitorowanie stron internetowych"
+            
+              , "optymalizacja wydajności"
+            
+              , "Monitorowanie w czasie rzeczywistym"
+            
+              , "przestój"
+            
+              , "obniżona wydajność"
+            
+              , "testy warunków skrajnych"
+            
+              , "benchmarking"
+            
+              , "dynamiczne przekierowywanie"
+            
+              , "reprovisioning"
+            
+              , "inteligencja sieciowa"
+            
+              , "webhooks"
+            
+              , "Solana"
+            
+              , "węzeł"
+            
+              , "Lekkie testy sieciowe"
+            
+              , "wypłaty"
+            
+              , "zarobki"
+            
+              , "wydajność witryny"
+            
+              , "analityka internetowa"
+            
+              , "monitorowanie sieci"
+            
+              , "monitorowanie wydajności"
+            
+              , "monitorowanie czasu pracy"
+            
+              , "Monitorowanie rzeczywistych użytkowników"
+            
+              , "testowanie sieci"
+            
+              , "opinie o witrynie"
+            
+              , "alerty na stronie internetowej"
+            
+              , "warstwa inteligencji sieciowej"
+            
+              , "rozwiązanie do monitorowania"
+            
+              , "wydajność sieci"
+            
+              , "wskaźniki wydajności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/other/install-bitping-easily-using-docker/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zainstalować Bitping, potężne rozwiązanie do monitorowania witryn internetowych i optymalizacji wydajności, zapewniające informacje zwrotne w czasie rzeczywistym na temat przestojów i obniżonej wydajności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_of_a_website_performance_dashboard.webp" length="61690" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

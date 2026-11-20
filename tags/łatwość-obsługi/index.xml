@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Łatwość Obsługi on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Łatwość Obsługi on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/%C5%82atwo%C5%9B%C4%87-obs%C5%82ugi/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/%C5%82atwo%C5%9B%C4%87-obs%C5%82ugi/</link>
+
+    <description>Recent content in Łatwość Obsługi on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/%C5%82atwo%C5%9B%C4%87-obs%C5%82ugi/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS kontra AdGuard: Który bloker DNS wygrywa?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link>
+        
+        <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Blokowanie reklam"
+            
+              , "DNS"
+            
+              , "Prywatność"
+            
+              , "Bezpieczeństwo internetowe"
+            
+              , "Ochrona online"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Rozwiązania do przeglądania"
+            
+              , "Prywatność online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj NextDNS i AdGuard, dwa blokery reklam oparte na DNS, i sprawdź, który lepiej pasuje do Twojego sposobu korzystania z internetu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>TrueNAS vs Unraid: który system operacyjny NAS jest najlepszy?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</link>
+        
+        <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Systemy pamięci masowej"
+            
+              , "Pamięć masowa w sieci"
+            
+              , "Zarządzanie danymi"
+            
+              , "Systemy operacyjne NAS"
+            
+              , "Porównanie"
+            
+              , "Ochrona danych"
+            
+              , "Pamięć domowa"
+            
+              , "Pamięć firmowa"
+            
+              , "Otwarte oprogramowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj TrueNas i Unraid pod kątem projektu pamięci masowej, łatwości obsługi, funkcji, dokumentacji, społeczności i dopasowania do obciążenia.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.webp" length="189060" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

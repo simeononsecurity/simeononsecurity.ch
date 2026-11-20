@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Python on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/python/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/python/</link>
+
+    <description>Recent content in Python on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/python/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne programowanie w Pythonie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-python-coding-insecure-functions/</link>
+        
+        <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Programowanie"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Python"
+            
+              , "Kodowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Technologia"
+            
+              , "Informatyka"
+            
+              , "Bezpieczeństwo danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-python-coding-insecure-functions/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak pisać bezpieczny kod w Pythonie, unikać niebezpiecznych funkcji i tworzyć niezawodne aplikacje.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-python-coding-wall.webp" length="111414" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze rozszerzenia Visual Studio Code do tworzenia rozwiązań AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-visual-studio-code-extensions-for-ai/</link>
+        
+        <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Tworzenie rozwiązań AI"
+            
+              , "Visual Studio Code"
+            
+              , "Edytor kodu"
+            
+              , "Narzędzia AI"
+            
+              , "Produktywność"
+            
+              , "Python"
+            
+              , "Jupyter"
+            
+              , "Git"
+            
+              , "Docker"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-visual-studio-code-extensions-for-ai/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj rozszerzenia Visual Studio Code do pracy nad AI, w tym narzędzia do obsługi Pythona, Jupyter, Gita, IntelliCode i Dockera.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_computer_screen_with_Visu.webp" length="82876" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

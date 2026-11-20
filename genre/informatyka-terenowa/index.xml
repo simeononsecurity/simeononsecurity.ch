@@ -1,0 +1,233 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Informatyka Terenowa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Informatyka Terenowa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/informatyka-terenowa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/informatyka-terenowa/</link>
+
+    <description>Recent content in Informatyka Terenowa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/informatyka-terenowa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Łączność i bezpieczeństwo danych dla wdrażanych w terenie węzłów edge</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Edge computing"
+            
+              , "Informatyka terenowa"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "VPN"
+            
+              , "Szyfrowanie"
+            
+              , "Bezpieczeństwo fizyczne"
+            
+              , "Odzyskiwanie po awarii"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Podłącz i zabezpiecz terenowe węzły edge computing za pomocą sieci komórkowej, satelitarnej, LoRa, VPN, MFA, segmentacji, logowania, szyfrowania i ochrony przed kradzieżą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przenośne obliczenia brzegowe: dobór urządzeń i obudowy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Obliczenia brzegowe"
+            
+              , "Informatyka terenowa"
+            
+              , "Urządzenia"
+            
+              , "Domowe laboratorium"
+            
+              , "Sprzęt wzmocniony"
+            
+              , "Sieci"
+            
+              , "Odzyskiwanie po awarii"
+            
+              , "IT dla małych firm"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przewodnik po sprzęcie edge computing do pracy w terenie i wyborze obudowy, obejmujący komputery, szafy, chłodzenie, pamięć masową, zarządzanie, okablowanie i zasilanie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zasilanie i odporność środowiskowa systemów terenowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Edge computing"
+            
+              , "Informatyka terenowa"
+            
+              , "Systemy zasilania"
+            
+              , "Sprzęt"
+            
+              , "Odzyskiwanie po awarii"
+            
+              , "Komputery wzmocnione"
+            
+              , "Sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zaplanuj zasilanie i ochronę środowiskową dla terenowych węzłów edge. Dobierz UPS, akumulatory i panele słoneczne, synchronizację czasu, stopień ochrony obudowy, uziemienie oraz zabezpieczenie przeciwprzepięciowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

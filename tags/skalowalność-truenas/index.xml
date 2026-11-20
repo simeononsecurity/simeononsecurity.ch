@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skalowalność TrueNas on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Skalowalność TrueNas on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/skalowalno%C5%9B%C4%87-truenas/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/skalowalno%C5%9B%C4%87-truenas/</link>
+
+    <description>Recent content in Skalowalność TrueNas on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 16 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/skalowalno%C5%9B%C4%87-truenas/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>TrueNAS vs Unraid: który system operacyjny NAS jest najlepszy?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</link>
+        
+        <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Systemy pamięci masowej"
+            
+              , "Pamięć masowa w sieci"
+            
+              , "Zarządzanie danymi"
+            
+              , "Systemy operacyjne NAS"
+            
+              , "Porównanie"
+            
+              , "Ochrona danych"
+            
+              , "Pamięć domowa"
+            
+              , "Pamięć firmowa"
+            
+              , "Otwarte oprogramowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj TrueNas i Unraid pod kątem projektu pamięci masowej, łatwości obsługi, funkcji, dokumentacji, społeczności i dopasowania do obciążenia.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.webp" length="189060" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diagnostyka DNS on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Diagnostyka DNS on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/diagnostyka-dns/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/diagnostyka-dns/</link>
+
+    <description>Recent content in Diagnostyka DNS on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/diagnostyka-dns/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Optymalizacja sieci: konfiguracja DNS w praktyce</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link>
+        
+        <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Administracja siecią"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Infrastruktura IT"
+            
+              , "Rozwiązania techniczne"
+            
+              , "Technologie internetowe"
+            
+              , "Optymalizacja DNS"
+            
+              , "Wydajność sieci"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Łączność internetowa"
+            
+              , "Poradniki techniczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj DNS, aby usprawnić sieć. Dowiedz się, jak DNS wpływa na łączność, wydajność i bezpieczeństwo, a potem zoptymalizuj konfigurację.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak działa DNS: główny system DNS, znaczenie i rozwiązywanie problemów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-does-dns-work/</link>
+        
+        <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Podstawy DNS"
+            
+              , "Główny system DNS"
+            
+              , "System nazw domenowych"
+            
+              , "Rozwiązywanie nazw DNS"
+            
+              , "Hierarchia DNS"
+            
+              , "Buforowanie DNS"
+            
+              , "Diagnostyka DNS"
+            
+              , "Rekordy DNS"
+            
+              , "Zarządzanie DNS"
+            
+              , "Polecenia DNS"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-does-dns-work/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zasady działania DNS i głównego systemu DNS, ich hierarchię, proces rozwiązywania nazw, buforowanie i wskazówki diagnostyczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_interconnected_computer_ne.webp" length="167680" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,522 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Domowe Laboratorium on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Domowe Laboratorium on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/domowe-laboratorium/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/domowe-laboratorium/</link>
+
+    <description>Recent content in Domowe Laboratorium on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/domowe-laboratorium/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Proxmox VE 9: ogranicz zużycie dysków wirtualnych i odzyskaj miejsce</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link>
+        
+        <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wirtualizacja"
+            
+              , "Administracja Linuksem"
+            
+              , "platforma Proxmox VE"
+            
+              , "Pamięć masowa"
+            
+              , "Domowe laboratorium"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ogranicz zużycie pamięci masowej przez VM i kontenery LXC w Proxmox VE 9. Porównaj formaty i backendy, włącz discard, uruchom trim i sprawdź migawki przed odzyskaniem miejsca.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zbuduj domowe laboratorium w 10 etapach, od Pi-hole do lokalnej AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/build-home-lab-10-levels/</link>
+        
+        <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Domowe laboratorium"
+            
+              , "Samodzielny hosting"
+            
+              , "Lokalna AI"
+            
+              , "Sieci domowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/build-home-lab-10-levels/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zbuduj domowe laboratorium w dziesięciu praktycznych etapach, od filtrowania DNS w całej sieci po lokalną AI, poznając sprzęt, koszty, umiejętności i kompromisy dla każdego poziomu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Migracja maszyny wirtualnej Hyper-V do Proxmox VE: odwracalna lista kontrolna</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wirtualizacja"
+            
+              , "Administracja systemami"
+            
+              , "Domowe laboratorium"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przenieś maszynę wirtualną Hyper-V do Proxmox VE przez eksport wyłączonego źródła, dopasowanie firmware, import dysków, odizolowany test rozruchu i plan wycofania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Test odtwarzania VM Proxmox: sprawdź, czy system gościa działa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wirtualizacja"
+            
+              , "Kopia zapasowa i odzyskiwanie"
+            
+              , "Domowe laboratorium"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przetestuj kopię zapasową VM Proxmox przez odtworzenie w izolowanym środowisku. Sprawdź zakres dysków, tryb kopii, dane gościa, stan usługi i czas odzyskiwania bez ingerencji w produkcję.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kopanie Pearl (PRL) w 2026 roku: konfiguracja, rentowność i użyteczność łańcucha</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link>
+        
+        <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Kryptowaluty"
+            
+              , "Kopanie na GPU"
+            
+              , "Obliczenia AI"
+            
+              , "DePIN"
+            
+              , "Łańcuch bloków"
+            
+              , "Linux"
+            
+              , "Domowe laboratorium"
+            
+              , "Sprzęt"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Skonfiguruj kopanie Pearl PRL w SRBMiner, poznaj dowód użytecznej pracy (proof-of-useful-work), oszacuj marże i oceń praktyczną użyteczność łańcucha.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp" length="266670" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Lokalna AI w 2026 roku: model 27B pokonuje Sonnet 4.6, a okno na sprzęt się zamyka</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link>
+        
+        <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Samodzielnie hostowana AI"
+            
+              , "Modele z otwartymi wagami"
+            
+              , "Sprzęt AI"
+            
+              , "Uczenie maszynowe"
+            
+              , "Kwantyzacja"
+            
+              , "Domowe laboratorium"
+            
+              , "Prywatność"
+            
+              , "Ekonomia AI"
+            
+              , "Sprzęt konsumencki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zaplanuj lokalny zestaw AI na 2026 rok, uwzględniając rozmiar modelu, VRAM, przepustowość pamięci, pobór mocy, koszt i możliwości rozbudowy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Docker w LXC na Proxmox: niezawodność, dowody i migracja do VM</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link>
+        
+        <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wirtualizacja"
+            
+              , "Administracja Linuksem"
+            
+              , "domowe laboratorium"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Oceń Docker wewnątrz Proxmox LXC na podstawie udokumentowanego błędu AppArmor, uważnej analizy zgłoszenia o zawieszeniu hosta, poleceń diagnostycznych i planu migracji do VM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przenośne obliczenia brzegowe: dobór urządzeń i obudowy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Obliczenia brzegowe"
+            
+              , "Informatyka terenowa"
+            
+              , "Urządzenia"
+            
+              , "Domowe laboratorium"
+            
+              , "Sprzęt wzmocniony"
+            
+              , "Sieci"
+            
+              , "Odzyskiwanie po awarii"
+            
+              , "IT dla małych firm"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przewodnik po sprzęcie edge computing do pracy w terenie i wyborze obudowy, obejmujący komputery, szafy, chłodzenie, pamięć masową, zarządzanie, okablowanie i zasilanie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

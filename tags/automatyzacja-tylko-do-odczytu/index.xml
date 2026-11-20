@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automatyzacja Tylko Do Odczytu on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Automatyzacja Tylko Do Odczytu on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/automatyzacja-tylko-do-odczytu/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/automatyzacja-tylko-do-odczytu/</link>
+
+    <description>Recent content in Automatyzacja Tylko Do Odczytu on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/automatyzacja-tylko-do-odczytu/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Klucze SSH Bitbucket Cloud: dostęp Git tylko do odczytu dla agentów AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo chmury"
+            
+              , "Narzędzia dla programistów"
+            
+              , "Administracja systemami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Skonfiguruj klucze SSH Bitbucket Cloud, dostęp Git CLI, tokeny REST API, 1Password i narzędzia MCP dla procesów agentów AI działających tylko do odczytu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

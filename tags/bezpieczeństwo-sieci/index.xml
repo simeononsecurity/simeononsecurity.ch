@@ -1,0 +1,1807 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo Sieci on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczeństwo Sieci on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-sieci/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-sieci/</link>
+
+    <description>Recent content in Bezpieczeństwo Sieci on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-sieci/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podatności kamer Flock Safety: ponad 50 wykrytych luk</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Badania bezpieczeństwa"
+            
+              , "Analiza podatności"
+            
+              , "Technologie nadzoru"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona prywatności"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "Bezpieczeństwo fizyczne"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Infrastruktura krytyczna"
+            
+              , "Technologie rządowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Badanie podatności kamer Flock Safety obejmuje ujawnione dane uwierzytelniające, słabe zabezpieczenia, dostęp fizyczny i ograniczenia procesu ujawniania luk.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak wgrać Rayhunter na urządzenia: kompletny poradnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-flash-rayhunter-devices-complete-guide/</link>
+        
+        <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Rayhunter"
+            
+              , "IMSI-catcher"
+            
+              , "symulator stacji bazowej"
+            
+              , "bezpieczeństwo urządzeń mobilnych"
+            
+              , "wykrywanie inwigilacji"
+            
+              , "ochrona prywatności"
+            
+              , "Orbic RC400L"
+            
+              , "TP-Link M7350"
+            
+              , "mobilny hotspot"
+            
+              , "wgrywanie oprogramowania"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo sieci bezprzewodowych"
+            
+              , "przeciwdziałanie inwigilacji"
+            
+              , "EFF"
+            
+              , "narzędzia ochrony prywatności"
+            
+              , "kup Rayhunter"
+            
+              , "poradnik instalacji"
+            
+              , "konfiguracja"
+            
+              , "obsługiwane urządzenia"
+            
+              , "bezpieczeństwo sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-flash-rayhunter-devices-complete-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wgraj i skonfiguruj Rayhunter do wykrywania IMSI-catcherów. Sprawdź obsługiwane urządzenia, zainstaluj oprogramowanie sprzętowe, zweryfikuj działanie i rozwiąż typowe problemy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/rayhunter.webp" length="275320" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skuteczne sieci dalekiego zasięgu dzięki odpowiednim rozwiązaniom kablowym</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/networking-over-long-distances_-understanding-cabling-types/</link>
+        
+        <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sieci komputerowe"
+            
+              , "Technologie komunikacyjne"
+            
+              , "Okablowanie danych"
+            
+              , "Światłowody"
+            
+              , "Infrastruktura IT"
+            
+              , "Sieci Ethernet"
+            
+              , "Telekomunikacja"
+            
+              , "Sieci bezprzewodowe"
+            
+              , "Rozwiązania IT dla firm"
+            
+              , "Inżynieria sieciowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/networking-over-long-distances_-understanding-cabling-types/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze kable do sieci dalekiego zasięgu i popraw jakość komunikacji. Ten przewodnik pomaga specjalistom IT wybrać niezawodne rozwiązania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/networking-over-long-distances_-understanding-cabling-types.webp" length="59222" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zagrożenia cyberbezpieczeństwa: kontekst z 2024 r. i lista obronna na 2026 r.</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2024/</link>
+        
+        <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zagrożenia"
+            
+              , "Ransomware"
+            
+              , "Phishing"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "Zagrożenia wewnętrzne"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Kopie zapasowe danych"
+            
+              , "Uwierzytelnianie wieloskładnikowe"
+            
+              , "Poprawki bezpieczeństwa"
+            
+              , "Szkolenia pracowników"
+            
+              , "Kontrola dostępu"
+            
+              , "Weryfikacja przeszłości"
+            
+              , "Zapobieganie utracie danych"
+            
+              , "Dostawcy chmury"
+            
+              , "Szyfrowanie danych"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo punktów końcowych"
+            
+              , "Monitorowanie sieci"
+            
+              , "Skanowanie podatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2024/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kategorie zagrożeń omawiane w 2024 r. i skorzystaj z datowanej listy kontrolnej na 2026 r. dotyczącej ransomware, phishingu, IoT, zagrożeń wewnętrznych i chmury.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.webp" length="115136" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rozwiązywanie problemów z połączeniem sieciowym dla niezawodnego działania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</link>
+        
+        <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Porady sieciowe"
+            
+              , "Rozwiązania IT"
+            
+              , "Ciągłość działania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Rozwiązywanie problemów technicznych"
+            
+              , "Infrastruktura cyfrowa"
+            
+              , "Niezawodność internetu"
+            
+              , "Odzyskiwanie systemów"
+            
+              , "Zarządzanie siecią"
+            
+              , "Wsparcie techniczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ustabilizuj sieć dzięki sprawdzonym metodom diagnozowania problemów z połączeniem i utrzymywania niezawodnego działania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ensuring-network-reliability_-how-to-troubleshoot-connection-issues.webp" length="200054" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Optymalizacja sieci: konfiguracja DNS w praktyce</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link>
+        
+        <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Administracja siecią"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Infrastruktura IT"
+            
+              , "Rozwiązania techniczne"
+            
+              , "Technologie internetowe"
+            
+              , "Optymalizacja DNS"
+            
+              , "Wydajność sieci"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Łączność internetowa"
+            
+              , "Poradniki techniczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj DNS, aby usprawnić sieć. Dowiedz się, jak DNS wpływa na łączność, wydajność i bezpieczeństwo, a potem zoptymalizuj konfigurację.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Architektury magistral dla szybkiego transferu danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</link>
+        
+        <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Transfer danych"
+            
+              , "Innowacje technologiczne"
+            
+              , "Architektura systemów"
+            
+              , "Obliczenia wysokiej wydajności"
+            
+              , "Sprzęt komputerowy"
+            
+              , "Projektowanie magistral"
+            
+              , "Łączność"
+            
+              , "Nowe technologie"
+            
+              , "Wydajność obliczeń"
+            
+              , "Optymalizacja techniczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj architektury magistral i metody przyspieszania transferu danych. Artykuł omawia typy magistral, optymalizację, nowe rozwiązania oraz wyzwania związane z wydajnością i bezpieczeństwem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures.webp" length="305084" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubezpieczenie cybernetyczne: co wiedzieć przed zakupem polisy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cyber-insurance_-what-you-need-to-know-before-you-buy/</link>
+        
+        <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przegląd ubezpieczeń cybernetycznych"
+            
+              , "Ocena polisy"
+            
+              , "Wybór ubezpieczyciela"
+            
+              , "Obsługa roszczeń"
+            
+              , "Dobre praktyki ubezpieczeń cybernetycznych"
+            
+              , "Ochrona przed zagrożeniami cyfrowymi"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Strategie bezpieczeństwa firmy"
+            
+              , "Przygotowanie na naruszenie danych"
+            
+              , "Szkolenia pracowników z cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cyber-insurance_-what-you-need-to-know-before-you-buy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj zakres ochrony, wyłączenia, limity, warunki reagowania na incydenty i wymagania bezpieczeństwa przed wyborem polisy dla firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cyber-insurance_-what-you-need-to-know-before-you-buy.webp" length="77052" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Anatomia cyberataku: jak hakerzy przełamują zabezpieczenia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</link>
+        
+        <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zagrożenia cybernetyczne"
+            
+              , "Taktyki hakerskie"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Strategie cyberataków"
+            
+              , "Techniki eksfiltracji danych"
+            
+              , "Ataki phishingowe"
+            
+              , "Infekcje złośliwym oprogramowaniem"
+            
+              , "Eskalacja uprawnień"
+            
+              , "Ruch boczny"
+            
+              , "Środki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj przebieg cyberataku od początkowego dostępu przez eskalację uprawnień, ruch boczny i utrwalenie obecności po eksfiltrację danych. Sprawdź zabezpieczenia dla każdego etapu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses.webp" length="296326" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubiquiti UniFi Express: test kompaktowej bramy i punktu dostępowego WiFi 6</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/exploring-unifi-express-all-in-one-network-gateway/</link>
+        
+        <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Recenzje techniczne"
+            
+              , "Rozwiązania sieciowe"
+            
+              , "Konfiguracja sieci domowej"
+            
+              , "Urządzenia WiFi 6"
+            
+              , "Informacje o UniFi Express"
+            
+              , "Kompaktowa brama"
+            
+              , "Bezprzewodowe punkty dostępowe"
+            
+              , "Produkty Ubiquiti"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Sieci małych firm"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/exploring-unifi-express-all-in-one-network-gateway/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj UniFi Express, kompaktową bramę z punktem dostępowym WiFi 6 i uproszczonym zarządzaniem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/UniFi_Express_Connectivity.webp" length="64240" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubiquiti UniFi Firewall a pfSense</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</link>
+        
+        <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo sieci"
+            
+              , "Rozwiązania firewall"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Porównanie routerów"
+            
+              , "Technologia"
+            
+              , "Rozwiązania IT"
+            
+              , "Firewall open source"
+            
+              , "Ubiquiti kontra pfSense"
+            
+              , "Sieć firmowa"
+            
+              , "Sieć domowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj Ubiquiti UniFi Firewall i pfSense pod kątem skutecznego zabezpieczenia sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Ubiquiti_UniFi_Firewall_vs_pfSense.webp" length="192366" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rejestr Windows a pliki konfiguracyjne Linux</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link>
+        
+        <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Systemy operacyjne"
+            
+              , "Zarządzanie bezpieczeństwem"
+            
+              , "Technologia komputerowa"
+            
+              , "Ochrona danych"
+            
+              , "Konfiguracja systemu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Porównania technologii"
+            
+              , "Bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj zabezpieczenia Rejestru Windows i plików konfiguracyjnych Linux oraz poznaj praktyczne sposoby wzmacniania obu systemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie systemów Windows i Linux</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link>
+        
+        <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Języki skryptowe"
+            
+              , "Bezpieczeństwo systemów"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "Regulacje rządowe"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Bezpieczne skrypty"
+            
+              , "Zgodność"
+            
+              , "Programowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sposoby wzmacniania zabezpieczeń systemów za pomocą PowerShell i Python w tej analizie cyberbezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Task Scheduler a Linux Cron: porównanie bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link>
+        
+        <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Systemy operacyjne"
+            
+              , "Automatyzacja systemów"
+            
+              , "Narzędzia bezpieczeństwa"
+            
+              , "Technologia komputerowa"
+            
+              , "Planowanie zadań"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Administracja systemami"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Zarządzanie IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj Windows Task Scheduler i zadania Cron w systemie Linux z perspektywy cyberbezpieczeństwa i utwardzania systemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>pfSense vs Firewalla vs OPNsense</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</link>
+        
+        <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo Sieci"
+            
+              , "Porównanie Zapor"
+            
+              , "Rozwiązania Cyberbezpieczeństwa"
+            
+              , "Zarządzanie Siecią"
+            
+              , "Sieć Domowa"
+            
+              , "Bezpieczeństwo Korporacyjne"
+            
+              , "Funkcje Zapory"
+            
+              , "Oprogramowanie Bezpieczeństwa"
+            
+              , "Rozwiązania VPN"
+            
+              , "Bezpieczeństwo Urządzeń IoT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowe porównanie rozwiązań zaporowych pfSense, Firewalla i OPNsense na rok 2026 dla bezpieczeństwa sieci domowych i korporacyjnych. Znajdź najlepszą opcję dla swoich potrzeb.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Network-Security-Shield.webp" length="111246" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PCI-DSS: bezpieczna zgodność przy transakcjach kartowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link>
+        
+        <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo kart płatniczych"
+            
+              , "Ochrona danych"
+            
+              , "Zgodność z wymaganiami"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Technologia"
+            
+              , "Biznes"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Regulacje"
+            
+              , "Handel elektroniczny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj PCI-DSS, jego elementy, zasady zgodności i korzyści dla ochrony danych kart płatniczych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/pci-dss-security-vault.webp" length="88546" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak rozpocząć karierę w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-career-coding-opportunities/</link>
+        
+        <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Kariera"
+            
+              , "Programowanie"
+            
+              , "technologie informatyczne"
+            
+              , "Umiejętności"
+            
+              , "Możliwości"
+            
+              , "Nauka"
+            
+              , "Kodowanie"
+            
+              , "Cyfrowe technologie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-career-coding-opportunities/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj role, znaczenie programowania i przydatne języki w cyberbezpieczeństwie. Wybierz swoją ścieżkę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_cape_guard.webp" length="95142" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalizacja bezpieczeństwa sieci i chmury</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link>
+        
+        <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Ochrona sieci"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Technologie biznesowe"
+            
+              , "Obrona cyfrowa"
+            
+              , "Zagrożenia cybernetyczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zagrożenia, środki ochrony i przykłady naruszeń, aby wzmocnić bezpieczeństwo sieci i chmury.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowa odpornego SOC</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link>
+        
+        <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Technologia"
+            
+              , "Biznes"
+            
+              , "Ochrona danych"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Zarządzanie IT"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Zarządzanie ryzykiem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Utwórz solidne centrum operacji bezpieczeństwa (SOC), aby przeciwdziałać cyberzagrożeniom, wykrywać incydenty i chronić zasoby organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpiecz sieć domową: bezpieczna praca zdalna</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-home-network-teleworking/</link>
+        
+        <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Praca zdalna"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Domowa sieć bezprzewodowa"
+            
+              , "Telepraca"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Praca z domu"
+            
+              , "Bezpieczeństwo w internecie"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Prywatność online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-home-network-teleworking/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Pracuj zdalnie bezpiecznie i chroń swoje dane. Wykonaj te kroki, aby zabezpieczyć domową sieć Wi-Fi i bezpiecznie łączyć się z usługami służbowymi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-home-network-cartoon.webp" length="74410" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Gotowość w zakresie cyberbezpieczeństwa: ochrona danych firmy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-readiness-guide/</link>
+        
+        <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo firm"
+            
+              , "Ochrona danych"
+            
+              , "Ocena ryzyka"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Prywatność danych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Zarządzanie ryzykiem dostawców"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-readiness-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Oceń gotowość firm w zakresie cyberbezpieczeństwa, zanim udostępnisz poufne informacje lub nawiążesz współpracę. Chroń dane i zachowaj bezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity-shield-protection2.webp" length="102208" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie Active Directory</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/active-directory-security-best-practices/</link>
+        
+        <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie siecią"
+            
+              , "Technologia informacyjna"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Infrastruktura cyfrowa"
+            
+              , "Kontrola dostępu"
+            
+              , "Uwierzytelnianie użytkowników"
+            
+              , "Dobre praktyki IT"
+            
+              , "Świadomość bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/active-directory-security-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sposoby zabezpieczania Active Directory, ochrony danych i zapobiegania włamaniom do infrastruktury sieciowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmacnianie cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</link>
+        
+        <pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zasady grupy systemu Windows"
+            
+              , "Zmniejszanie powierzchni ataku"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona sieci"
+            
+              , "Ochrona danych"
+            
+              , "Odporność cyfrowa"
+            
+              , "Utwardzanie systemów"
+            
+              , "Najlepsze praktyki bezpieczeństwa"
+            
+              , "Ograniczanie ryzyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak ustawienia zasad grupy systemu Windows zmniejszają powierzchnię ataku i wzmacniają ochronę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cybersecurity_Shield_Defense.webp" length="129592" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanuj zasadę najmniejszych uprawnień</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link>
+        
+        <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo Linuksa"
+            
+              , "Kontrola dostępu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Ochrona informacji"
+            
+              , "Prywatność danych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Dobre praktyki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ cyberbezpieczeństwo dzięki kontroli dostępu według zasady najmniejszych uprawnień w Linuksie. Poznaj wdrożenie, dobre praktyki i rozwiązywanie problemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompleksowe zabezpieczanie systemu Windows Server</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</link>
+        
+        <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Administracja serwerami"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona sieci"
+            
+              , "Integralność danych"
+            
+              , "Infrastruktura IT"
+            
+              , "Dobre praktyki"
+            
+              , "Hardening serwerów"
+            
+              , "Windows Server"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj skuteczne metody zabezpieczania systemu Windows Server, od podstaw hardeningu po zaawansowaną ochronę infrastruktury.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Windows_Server_Security_Shield_Protection.webp" length="101056" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

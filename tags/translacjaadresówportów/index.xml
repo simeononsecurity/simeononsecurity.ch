@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TranslacjaAdresówPortów on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>TranslacjaAdresówPortów on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/translacjaadres%C3%B3wport%C3%B3w/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/translacjaadres%C3%B3wport%C3%B3w/</link>
+
+    <description>Recent content in TranslacjaAdresówPortów on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 13 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/translacjaadres%C3%B3wport%C3%B3w/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NAT i PAT: niezbędny przewodnik po komunikacji sieciowej</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link>
+        
+        <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Podstawy sieci"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Infrastruktura IT"
+            
+              , "Poradniki techniczne"
+            
+              , "Zarządzanie siecią"
+            
+              , "Protokoły internetowe"
+            
+              , "Technologie komunikacyjne"
+            
+              , "Administracja systemami"
+            
+              , "Inżynieria sieciowa"
+            
+              , "Sieci cyfrowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj NAT i PAT, aby usprawnić komunikację cyfrową.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

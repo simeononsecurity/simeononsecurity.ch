@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ochrona Urządzeń Internetu Rzeczy on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Ochrona Urządzeń Internetu Rzeczy on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ochrona-urz%C4%85dze%C5%84-internetu-rzeczy/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ochrona-urz%C4%85dze%C5%84-internetu-rzeczy/</link>
+
+    <description>Recent content in Ochrona Urządzeń Internetu Rzeczy on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 13 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ochrona-urz%C4%85dze%C5%84-internetu-rzeczy/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Firewalla w domu: zabezpieczenia sieci domowej i homelabu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/firewalla-home-network-security-guide/</link>
+        
+        <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Sieć domowa"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Homelaby"
+            
+              , "Ochrona cyfrowa"
+            
+              , "Wykrywanie włamań"
+            
+              , "Filtrowanie treści"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/firewalla-home-network-security-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, jak Firewalla wspiera bezpieczeństwo sieci domowej, czy sprawdza się w homelabie oraz jakie ma zalety i ograniczenia.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/firewalla-home-network-security.webp" length="57452" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

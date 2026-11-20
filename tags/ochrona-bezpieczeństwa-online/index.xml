@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ochrona Bezpieczeństwa Online on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Ochrona Bezpieczeństwa Online on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ochrona-bezpiecze%C5%84stwa-online/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ochrona-bezpiecze%C5%84stwa-online/</link>
+
+    <description>Recent content in Ochrona Bezpieczeństwa Online on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ochrona-bezpiecze%C5%84stwa-online/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak stworzyć własny osobisty model zagrożeń</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-form-your-own-personal-threat-model-safeguard-online-security/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo online"
+            
+              , "Osobiste modelowanie zagrożeń"
+            
+              , "Dobre praktyki cyberbezpieczeństwa"
+            
+              , "Ochrona prywatności"
+            
+              , "Ocena zagrożeń"
+            
+              , "Ograniczanie ryzyka"
+            
+              , "Samoobrona cyfrowa"
+            
+              , "Ochrona danych"
+            
+              , "Prywatność online"
+            
+              , "Bezpieczeństwo w internecie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-form-your-own-personal-threat-model-safeguard-online-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kroki tworzenia osobistego modelu zagrożeń: określ swoje zasoby, potencjalnych napastników i środki ochrony.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_a_shield_pro.webp" length="123924" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

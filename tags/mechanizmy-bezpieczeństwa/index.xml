@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mechanizmy Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Mechanizmy Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/mechanizmy-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/mechanizmy-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Mechanizmy Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/mechanizmy-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mistrzostwo w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-risk-management-framework-cybersecurity/</link>
+        
+        <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Przepisy rządowe"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona danych"
+            
+              , "Mechanizmy bezpieczeństwa"
+            
+              , "Wytyczne NIST"
+            
+              , "Ciągłe monitorowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-risk-management-framework-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kluczowe ramy zarządzania ryzykiem (RMF) w cyberbezpieczeństwie, ich elementy i znaczenie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_shield_protection.webp" length="120532" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

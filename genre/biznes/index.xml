@@ -1,0 +1,387 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Biznes on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Biznes on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/biznes/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/biznes/</link>
+
+    <description>Recent content in Biznes on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/biznes/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PCI-DSS: bezpieczna zgodność przy transakcjach kartowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link>
+        
+        <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo kart płatniczych"
+            
+              , "Ochrona danych"
+            
+              , "Zgodność z wymaganiami"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Technologia"
+            
+              , "Biznes"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Regulacje"
+            
+              , "Handel elektroniczny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj PCI-DSS, jego elementy, zasady zgodności i korzyści dla ochrony danych kart płatniczych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/pci-dss-security-vault.webp" length="88546" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumieć RODO: przewodnik po przepisach o prywatności danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-gdpr-overview-explanation/</link>
+        
+        <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Prywatność danych"
+            
+              , "Przepisy"
+            
+              , "Zgodność"
+            
+              , "Technologia"
+            
+              , "Biznes"
+            
+              , "Prawo UE"
+            
+              , "Prywatność online"
+            
+              , "Prawa cyfrowe"
+            
+              , "Ochrona danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-gdpr-overview-explanation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zasady i prawa ustanowione przez RODO, jego rolę w ochronie danych osobowych oraz wpływ na firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/GDPR_Data_Vault_Security.webp" length="52018" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowa odpornego SOC</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link>
+        
+        <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Technologia"
+            
+              , "Biznes"
+            
+              , "Ochrona danych"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Zarządzanie IT"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Zarządzanie ryzykiem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Utwórz solidne centrum operacji bezpieczeństwa (SOC), aby przeciwdziałać cyberzagrożeniom, wykrywać incydenty i chronić zasoby organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Hosting OrangeWebsite: Uwolnij swój sukces online dzięki szybkości i bezpieczeństwu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/orangwebsite-web-hosting/</link>
+        
+        <pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Hosting internetowy"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Biznes"
+            
+              , "Usługi cyfrowe"
+            
+              , "Zarządzanie stroną internetową"
+            
+              , "Internet"
+            
+              , "Handel elektroniczny"
+            
+              , "Hosting w chmurze"
+            
+              , "Hosting serwerów"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/orangwebsite-web-hosting/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc hostingu internetowego OrangeWebsite dla swoich przedsięwzięć online - szybkie, bezpieczne i niezawodne rozwiązania dla wszystkich potrzeb Twojej witryny.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/OrangeWebsite-rocket.webp" length="58398" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kluczowe umiejętności dla skutecznych menedżerów systemów informatycznych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Biznes"
+            
+              , "Zarządzanie"
+            
+              , "informatyka"
+            
+              , "Rozwój kariery"
+            
+              , "Transformacja cyfrowa"
+            
+              , "Analiza danych"
+            
+              , "Przetwarzanie w chmurze"
+            
+              , "Zarządzanie projektami"
+            
+              , "Przywództwo"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj 5 kluczowych umiejętności, które powinien posiadać każdy menedżer systemów informatycznych, aby odnieść sukces w dzisiejszym cyfrowym świecie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.webp" length="179058" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

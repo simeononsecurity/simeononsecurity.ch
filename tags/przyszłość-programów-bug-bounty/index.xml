@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Przyszłość Programów Bug Bounty on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Przyszłość Programów Bug Bounty on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/przysz%C5%82o%C5%9B%C4%87-program%C3%B3w-bug-bounty/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/przysz%C5%82o%C5%9B%C4%87-program%C3%B3w-bug-bounty/</link>
+
+    <description>Recent content in Przyszłość Programów Bug Bounty on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 15 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/przysz%C5%82o%C5%9B%C4%87-program%C3%B3w-bug-bounty/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Programy bug bounty: crowdsourcing testów bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</link>
+        
+        <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Programy bug bounty"
+            
+              , "Testy crowdsourcingowe"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Etyczny hacking"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Testy bezpieczeństwa"
+            
+              , "Cyberobrona"
+            
+              , "Podatności oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak programy bug bounty wspierają zgłaszanie podatności, testy bezpieczeństwa i odpowiedzialne ujawnianie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/bug-bounty-programs-engaging-the-crowd-in-security-testing.webp" length="238912" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

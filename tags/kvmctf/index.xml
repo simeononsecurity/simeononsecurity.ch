@@ -1,0 +1,107 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KvmCTF on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>KvmCTF on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/kvmctf/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/kvmctf/</link>
+
+    <description>Recent content in KvmCTF on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/kvmctf/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kontenery nie są już granicą bezpieczeństwa: ucieczki z kernela w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link>
+        
+        <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo kontenerów"
+            
+              , "Linux"
+            
+              , "Bezpieczeństwo kernela"
+            
+              , "Wirtualizacja"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Badania zagrożeń"
+            
+              , "Blue team"
+            
+              , "DevSecOps"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Omów badania nad ucieczkami z kontenerów z 2026 roku, granice izolacji kernela, presję na instalowanie poprawek i rolę mikroVM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

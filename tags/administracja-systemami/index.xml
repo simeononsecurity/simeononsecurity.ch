@@ -1,0 +1,444 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Administracja Systemami on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Administracja Systemami on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/administracja-systemami/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/administracja-systemami/</link>
+
+    <description>Recent content in Administracja Systemami on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/administracja-systemami/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>1Password SSH Agent i CLI: dostęp tylko do odczytu dla agentów AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Administracja systemami"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Automatyzacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zaprojektuj workflow tylko do odczytu z użyciem 1Password CLI, SSH Agent oraz MCP. Wykorzystaj syntetyczne polecenia, zawężone uprawnienia i zatwierdzenie przez człowieka przed testami na żywo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rejestr Windows a pliki konfiguracyjne Linux</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link>
+        
+        <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Systemy operacyjne"
+            
+              , "Zarządzanie bezpieczeństwem"
+            
+              , "Technologia komputerowa"
+            
+              , "Ochrona danych"
+            
+              , "Konfiguracja systemu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Porównania technologii"
+            
+              , "Bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj zabezpieczenia Rejestru Windows i plików konfiguracyjnych Linux oraz poznaj praktyczne sposoby wzmacniania obu systemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Task Scheduler a Linux Cron: porównanie bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link>
+        
+        <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Systemy operacyjne"
+            
+              , "Automatyzacja systemów"
+            
+              , "Narzędzia bezpieczeństwa"
+            
+              , "Technologia komputerowa"
+            
+              , "Planowanie zadań"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Administracja systemami"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Zarządzanie IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj Windows Task Scheduler i zadania Cron w systemie Linux z perspektywy cyberbezpieczeństwa i utwardzania systemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerCLI w zarządzaniu vSphere</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link>
+        
+        <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Wirtualizacja"
+            
+              , "VMware"
+            
+              , "Zarządzanie IT"
+            
+              , "Automatyzacja"
+            
+              , "Interfejs wiersza poleceń"
+            
+              , "Skrypty"
+            
+              , "Administracja systemami"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Zarządzanie centrum danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj PowerCLI do zarządzania VMware vSphere, automatyzacji zadań i zwiększania produktywności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumieć filtrowanie WMI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zarządzanie systemem Windows"
+            
+              , "Zasady grupy"
+            
+              , "Administracja systemami"
+            
+              , "Zarządzanie siecią"
+            
+              , "Infrastruktura IT"
+            
+              , "Zarządzanie zasadami"
+            
+              , "Ład IT"
+            
+              , "Automatyzacja IT"
+            
+              , "Active Directory"
+            
+              , "Zgodność z wymaganiami bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak filtrowanie WMI pomaga kierować obiekty zasad grupy (GPO) do właściwych komputerów. Poznaj praktyczne przykłady i dobre praktyki.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czym jest administracja systemami?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-system-administration/</link>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Administracja systemami"
+            
+              , "Administracja sieciami"
+            
+              , "Administracja Windows"
+            
+              , "Administracja Linux"
+            
+              , "Administracja sprzętem"
+            
+              , "Administracja oprogramowaniem"
+            
+              , "Wirtualizacja"
+            
+              , "Platformy chmurowe"
+            
+              , "IaaS"
+            
+              , "SaaS"
+            
+              , "HaaS"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-system-administration/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawowe umiejętności administracji systemami Windows i Linux, sprzętem, oprogramowaniem, wirtualizacją oraz usługami chmurowymi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_system_administrator_sitting_at_a_desk.webp" length="141022" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

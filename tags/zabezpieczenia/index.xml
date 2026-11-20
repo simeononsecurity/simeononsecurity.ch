@@ -1,0 +1,388 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zabezpieczenia on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Zabezpieczenia on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zabezpieczenia/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zabezpieczenia/</link>
+
+    <description>Recent content in Zabezpieczenia on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zabezpieczenia/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podstawy sieci: podsieci, podział na podsieci i projekt VLAN</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</link>
+        
+        <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Podstawy sieci"
+            
+              , "Podział na podsieci"
+            
+              , "VLAN-y"
+            
+              , "Zarządzanie siecią"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Adresacja IP"
+            
+              , "Segmentacja sieci"
+            
+              , "Efektywne wykorzystanie zasobów"
+            
+              , "Wydajność sieci"
+            
+              , "IPv4"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy podsieci, podziału na podsieci i VLAN-ów, aby sprawniej zarządzać siecią i lepiej ją zabezpieczać.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_comp.webp" length="200202" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NIST Cybersecurity Framework a ISO 27001: porównanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</link>
+        
+        <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Ramy bezpieczeństwa"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Ochrona danych"
+            
+              , "Zgodność"
+            
+              , "Ład IT"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Ryzyko cybernetyczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice między NIST Cybersecurity Framework a ISO 27001, aby świadomie wybrać ramy bezpieczeństwa odpowiednie dla swojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_shield_protecting_a_network_of.webp" length="102920" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podstawy kryptowalut: poznaj monety i inwestowanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/exploring-cryptocurrencies-and-understanding-the-basics/</link>
+        
+        <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Kryptowaluty"
+            
+              , "Technologia blockchain"
+            
+              , "Inwestowanie"
+            
+              , "Platformy handlowe"
+            
+              , "Portfele"
+            
+              , "Historia kryptowalut"
+            
+              , "Bitcoin"
+            
+              , "Ethereum"
+            
+              , "Ripple"
+            
+              , "Litecoin"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/exploring-cryptocurrencies-and-understanding-the-basics/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj świat kryptowalut, naucz się podstaw i odkryj rozsądne strategie skutecznego inwestowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/understanding-the-basics-of-cryptocurrencies.webp" length="69382" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zdaj egzamin CompTIA Security&#43; SY0-601: Porady i materiały</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/</link>
+        
+        <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Professor Messer"
+            
+              , "Dr. Messer"
+            
+              , "adwersarialna sztuczna inteligencja"
+            
+              , "kampania wpływu"
+            
+              , "atak IV"
+            
+              , "sieciowy MDF"
+            
+              , "atak Christmas tree"
+            
+              , "SY0-601"
+            
+              , "CompTIA Security"
+            
+              , "zakłócanie łączności bezprzewodowej"
+            
+              , "IDF a MDF"
+            
+              , "zastosowania kryptografii"
+            
+              , "ataki on-path"
+            
+              , "egzamin CompTIA Security SY0-601"
+            
+              , "certyfikacja cyberbezpieczeństwa"
+            
+              , "przewodnik do nauki"
+            
+              , "cele egzaminu"
+            
+              , "przygotowanie do egzaminu"
+            
+              , "materiały do nauki"
+            
+              , "testy próbne"
+            
+              , "kursy online"
+            
+              , "grupy nauki"
+            
+              , "sprzęt i oprogramowanie"
+            
+              , "strategie rozwiązywania testu"
+            
+              , "zdanie egzaminu"
+            
+              , "trendy branżowe"
+            
+              , "rozwój kariery"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "certyfikaty bezpieczeństwa"
+            
+              , "specjaliści cyberbezpieczeństwa"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "zarządzanie podatnościami"
+            
+              , "reagowanie na incydenty"
+            
+              , "polityki bezpieczeństwa"
+            
+              , "kontrola dostępu"
+            
+              , "zabezpieczenia"
+            
+              , "techniki szyfrowania"
+            
+              , "ocena ryzyka"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "dobre praktyki bezpieczeństwa"
+            
+              , "standardy bezpieczeństwa"
+            
+              , "struktury bezpieczeństwa"
+            
+              , "obrona sieci"
+            
+              , "pytania praktyczne Security Plus"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zdać egzamin CompTIA Security+ SY0-601 z poradami, materiałami do nauki i strategiami rozwiązywania testów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_studying_with_a_laptop_and_books_in_front_of_them.webp" length="81278" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

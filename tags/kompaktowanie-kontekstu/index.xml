@@ -1,0 +1,152 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kompaktowanie Kontekstu on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Kompaktowanie Kontekstu on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/kompaktowanie-kontekstu/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/kompaktowanie-kontekstu/</link>
+
+    <description>Recent content in Kompaktowanie Kontekstu on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/kompaktowanie-kontekstu/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zarządzanie oknem kontekstu AI: skup agentów programistycznych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-context-window-management/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-context-window-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kontroluj aktywny kontekst zadania AI za pomocą wybranych plików, zwięzłych przekazań i krótkich raportów pracowników, zachowując decyzje i dowody.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-context-window-management.webp" length="78984" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Modele językowe kontekstu Meta: lepsza pamięć agentów, ale nie koniec halucynacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Agenci AI"
+            
+              , "Lokalna AI"
+            
+              , "Bezpieczeństwo AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Jak Context Language Models edytują pamięć agenta, co pokazują benchmarki oraz jak koszty cache, możliwości modelu i niezaufane notatki wpływają na niezawodność.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

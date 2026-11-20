@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kontekst Repozytorium on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Kontekst Repozytorium on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/kontekst-repozytorium/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/kontekst-repozytorium/</link>
+
+    <description>Recent content in Kontekst Repozytorium on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/kontekst-repozytorium/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Agenci kodowania CLI porównani: Claude Code, Codex, Gemini, OpenCode, Copilot i Aider</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cli-coding-agents-comparison/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Narzędzia deweloperskie"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Tworzenie oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj sześciu terminalowych agentów kodowania pod kątem przepływu pracy, automatyzacji, dostępu do modeli, uprawnień i nakładu pracy przy przeglądzie. Utwórz krótką listę za pomocą powtarzalnego testu repozytorium.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp" length="39756" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

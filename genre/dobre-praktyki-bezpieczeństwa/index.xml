@@ -1,0 +1,249 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dobre Praktyki Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Dobre Praktyki Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/dobre-praktyki-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/dobre-praktyki-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Dobre Praktyki Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/dobre-praktyki-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmocnij bezpieczeństwo e-commerce</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</link>
+        
+        <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo e-commerce"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona danych"
+            
+              , "Biznes internetowy"
+            
+              , "Bezpieczeństwo witryny"
+            
+              , "Zaufanie klientów"
+            
+              , "Bezpieczne transakcje"
+            
+              , "Szyfrowanie SSL"
+            
+              , "Zasady dotyczące haseł"
+            
+              , "Dobre praktyki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zabezpiecz sklep internetowy za pomocą TLS, MFA administratorów, aktualizacji, kontroli płatności, szyfrowania, monitorowania, szkoleń, ochrony przed oszustwami i reagowania na incydenty.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-2024-checklist-for-securing-your-e-commerce-site.webp" length="88770" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja bezpieczeństwa: przewodnik po wzmacnianiu ochrony cyfrowej</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</link>
+        
+        <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja bezpieczeństwa"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Uczenie maszynowe w bezpieczeństwie"
+            
+              , "Zautomatyzowany monitoring zgodności"
+            
+              , "Orkiestracja bezpieczeństwa"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Ciągłe doskonalenie"
+            
+              , "Nadzór człowieka nad bezpieczeństwem"
+            
+              , "Wykrywanie zagrożeń i reagowanie"
+            
+              , "Dobre praktyki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zaplanuj automatyzację bezpieczeństwa dzięki jasnym przypadkom użycia, integracji narzędzi, kontroli człowieka, dostrajaniu alertów, metrykom i zabezpieczeniom systemów uczenia maszynowego.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/mastering-security-automation_-streamlining-processes-for-enhanced-protection.webp" length="253188" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanuj zasadę najmniejszych uprawnień</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link>
+        
+        <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo Linuksa"
+            
+              , "Kontrola dostępu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Ochrona informacji"
+            
+              , "Prywatność danych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Dobre praktyki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ cyberbezpieczeństwo dzięki kontroli dostępu według zasady najmniejszych uprawnień w Linuksie. Poznaj wdrożenie, dobre praktyki i rozwiązywanie problemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

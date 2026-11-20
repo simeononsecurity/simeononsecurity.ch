@@ -1,0 +1,95 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GRC on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>GRC on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/grc/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/grc/</link>
+
+    <description>Recent content in GRC on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 20 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/grc/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Która ścieżka kariery w cyberbezpieczeństwie pasuje do Ciebie? 16 punktów wyjścia, wiele możliwości</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</link>
+        
+        <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Kariera"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj film o typach osobowości, wiele ról w cyberbezpieczeństwie dla każdego typu oraz praktyczne ćwiczenia, które pomogą porównać ścieżki kariery na podstawie codziennej pracy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity-careers-personality-paths.webp" length="155796" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

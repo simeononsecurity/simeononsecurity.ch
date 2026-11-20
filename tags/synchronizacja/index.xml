@@ -1,0 +1,113 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Synchronizacja on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Synchronizacja on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/synchronizacja/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/synchronizacja/</link>
+
+    <description>Recent content in Synchronizacja on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/synchronizacja/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>SyncThing kontra FreeFileSync</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/syncthing-vs-freefilesync-comparison/</link>
+        
+        <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Oprogramowanie"
+            
+              , "Synchronizacja plików"
+            
+              , "Zarządzanie danymi"
+            
+              , "Porównanie"
+            
+              , "Narzędzia programowe"
+            
+              , "Produktywność cyfrowa"
+            
+              , "Oprogramowanie open source"
+            
+              , "Kopie zapasowe danych"
+            
+              , "Prywatność i bezpieczeństwo"
+            
+              , "Rozwiązania wieloplatformowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/syncthing-vs-freefilesync-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie SyncThing i FreeFileSync pod kątem prywatności, obsługiwanych platform, automatyzacji, interfejsu i kosztów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/SyncThing-vs-FreeFileSync-Symbolic-Sync.webp" length="127636" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

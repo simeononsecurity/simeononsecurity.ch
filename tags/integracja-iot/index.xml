@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integracja IoT on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Integracja IoT on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/integracja-iot/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/integracja-iot/</link>
+
+    <description>Recent content in Integracja IoT on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/integracja-iot/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Architektury magistral dla szybkiego transferu danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</link>
+        
+        <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Transfer danych"
+            
+              , "Innowacje technologiczne"
+            
+              , "Architektura systemów"
+            
+              , "Obliczenia wysokiej wydajności"
+            
+              , "Sprzęt komputerowy"
+            
+              , "Projektowanie magistral"
+            
+              , "Łączność"
+            
+              , "Nowe technologie"
+            
+              , "Wydajność obliczeń"
+            
+              , "Optymalizacja techniczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj architektury magistral i metody przyspieszania transferu danych. Artykuł omawia typy magistral, optymalizację, nowe rozwiązania oraz wyzwania związane z wydajnością i bezpieczeństwem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures.webp" length="305084" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

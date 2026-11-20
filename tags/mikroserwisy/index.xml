@@ -1,0 +1,161 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mikroserwisy on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Mikroserwisy on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/mikroserwisy/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/mikroserwisy/</link>
+
+    <description>Recent content in Mikroserwisy on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/mikroserwisy/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Docker a maszyny wirtualne: porównanie w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/docker-vs-vms/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Maszyny wirtualne"
+            
+              , "VM"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Kontenery"
+            
+              , "Kubernetes"
+            
+              , "Prostota"
+            
+              , "Skalowalność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Opłacalność"
+            
+              , "Dockerfile"
+            
+              , "Docker czy VM"
+            
+              , "Kontenery czy VM"
+            
+              , "Kontenery Docker"
+            
+              , "Wirtualizacja"
+            
+              , "Konteneryzacja"
+            
+              , "Budowanie, testowanie i wdrażanie"
+            
+              , "Izolacja"
+            
+              , "Historia bezpieczeństwa"
+            
+              , "Porównanie kosztów"
+            
+              , "VMware"
+            
+              , "Hyper-V"
+            
+              , "KVM"
+            
+              , "Orkiestracja kontenerów"
+            
+              , "Mikroserwisy"
+            
+              , "DevOps"
+            
+              , "Infrastruktura"
+            
+              , "Aplikacje chmurowe"
+            
+              , "Porównanie wydajności"
+            
+              , "Efektywne wykorzystanie zasobów"
+            
+              , "Podejście hybrydowe"
+            
+              , "Wydajność Docker"
+            
+              , "Wydajność VM"
+            
+              , "Kiedy używać Docker"
+            
+              , "Kiedy używać VM"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/docker-vs-vms/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie kontenerów Docker i maszyn wirtualnych w 2026 roku pod względem wydajności, bezpieczeństwa, kosztów, zastosowań i wdrażania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.webp" length="90762" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

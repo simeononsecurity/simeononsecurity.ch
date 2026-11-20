@@ -1,0 +1,357 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo Poczty E-Mail on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczeństwo Poczty E-Mail on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/bezpiecze%C5%84stwo-poczty-e-mail/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/bezpiecze%C5%84stwo-poczty-e-mail/</link>
+
+    <description>Recent content in Bezpieczeństwo Poczty E-Mail on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/bezpiecze%C5%84stwo-poczty-e-mail/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Thunderbird 153.6: Ujawnienie danych uwierzytelniających NTLM w Windows i aktualizacja (2026)</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link>
+        
+        <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo poczty e-mail"
+            
+              , "Bezpieczeństwo Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dwie poważne luki w Thunderbirdzie mogą ujawnić dane uwierzytelniające NTLM w Windows po wyświetleniu spreparowanej wiadomości. Poznaj oba mechanizmy, sprawdź wersję programu i ogranicz wychodzący ruch SMB podczas aktualizacji.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanuj zasady etykiety e-mailowej</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</link>
+        
+        <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Komunikacja zawodowa"
+            
+              , "Bezpieczeństwo poczty e-mail"
+            
+              , "Etykieta biznesowa"
+            
+              , "Umiejętności technologiczne"
+            
+              , "Efektywność w pracy"
+            
+              , "Dobre praktyki cyberbezpieczeństwa"
+            
+              , "Kompetencje cyfrowe"
+            
+              , "Komunikacja online"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Skuteczne pisanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zasady etykiety, które pomagają prowadzić bezpieczną i profesjonalną korespondencję e-mail.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/email-etiquette_-ensuring-smooth-and-secure-email-operations.webp" length="84144" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona małej firmy przed phishingiem: kompletny przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</link>
+        
+        <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Ochrona małych firm"
+            
+              , "Oszustwa phishingowe"
+            
+              , "Szkolenia pracowników"
+            
+              , "Bezpieczeństwo poczty e-mail"
+            
+              , "Uwierzytelnianie wieloskładnikowe"
+            
+              , "Audyty bezpieczeństwa"
+            
+              , "Taktyki socjotechniczne"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Bezpieczeństwo w internecie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Chroń małą firmę przed phishingiem dzięki szkoleniom pracowników, zabezpieczeniom poczty, procedurom weryfikacji, zasadom zgłaszania oraz przetestowanej reakcji na incydenty.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/how-to-protect-your-small-business-from-phishing-scams.webp" length="88634" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 podstawowych wskazówek dotyczących bezpieczeństwa poczty e-mail: Chroń swoje dane i bądź bezpieczny</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/</link>
+        
+        <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo poczty e-mail"
+            
+              , "Ochrona danych"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Prywatność online"
+            
+              , "Kradzież tożsamości"
+            
+              , "Bezpieczeństwo haseł"
+            
+              , "Oszustwa phishingowe"
+            
+              , "Bezpieczeństwo w Internecie"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Szkolenie pracowników"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj 10 kluczowych wskazówek dotyczących bezpieczeństwa poczty e-mail, aby chronić swoje dane przed cyberzagrożeniami i naruszeniami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.webp" length="43346" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecani dostawcy usług eMail</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/email/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecani dostawcy poczty e-mail"
+            
+              , "Bezpieczne usługi poczty elektronicznej"
+            
+              , "Szyfrowanie od końca do końca"
+            
+              , "Bezpieczeństwo poczty e-mail"
+            
+              , "Prywatność online"
+            
+              , "Ochrona danych"
+            
+              , "Ochrona przed phishingiem"
+            
+              , "Ochrona przed złośliwym oprogramowaniem"
+            
+              , "Bezpieczna komunikacja"
+            
+              , "SimeonOnSecurity"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/email/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Znajdź najlepszych dostawców poczty e-mail do bezpiecznej i szyfrowanej komunikacji dzięki liście rekomendowanej przez SimeonOnSecurity. Odkryj najlepsze propozycje, w tym ProtonMail, preferowany wybór z szyfrowaniem end-to-end, oraz Tutanota, kolejną bezpieczną opcję do szyfrowanej komunikacji e-mail.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wytyczne CUI on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Wytyczne CUI on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wytyczne-cui/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wytyczne-cui/</link>
+
+    <description>Recent content in Wytyczne CUI on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 22 Oct 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wytyczne-cui/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona kontrolowanych informacji nieklasyfikowanych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</link>
+        
+        <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo danych"
+            
+              , "Ochrona informacji"
+            
+              , "Zarządzanie prywatnością"
+            
+              , "Postępowanie z informacjami wrażliwymi"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Zgodność z przepisami"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Ład informacyjny"
+            
+              , "Poufność danych"
+            
+              , "Zapewnianie bezpieczeństwa informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj znaczenie ochrony kontrolowanych informacji nieklasyfikowanych (CUI) i dowiedz się, jak skutecznie zabezpieczać wrażliwe dane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/CUI-Safeguarding-Sensitive-Data.webp" length="96388" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

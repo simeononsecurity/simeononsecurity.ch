@@ -1,0 +1,95 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Octominer X12 Ultra on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Octominer X12 Ultra on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/octominer-x12-ultra/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/octominer-x12-ultra/</link>
+
+    <description>Recent content in Octominer X12 Ultra on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/octominer-x12-ultra/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zgodność zasilaczy Octominer X12 Ultra: test Chicony i LiteOn w praktyce</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link>
+        
+        <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sprzęt do kopania kryptowalut"
+            
+              , "Sprzęt komputerowy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Test Octominer X12 Ultra z pięcioma wentylatorami i trzema zasilaczami wykazał, że Chicony uruchomił urządzenie, a testowane LiteOn sygnalizowały bursztynowym światłem i nie uruchomiły systemu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp" length="34962" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

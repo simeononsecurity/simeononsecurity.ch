@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Środowisko Windows Server on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Środowisko Windows Server on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/%C5%9Brodowisko-windows-server/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/%C5%9Brodowisko-windows-server/</link>
+
+    <description>Recent content in Środowisko Windows Server on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 11 Oct 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/%C5%9Brodowisko-windows-server/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompleksowe zabezpieczanie systemu Windows Server</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</link>
+        
+        <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Administracja serwerami"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona sieci"
+            
+              , "Integralność danych"
+            
+              , "Infrastruktura IT"
+            
+              , "Dobre praktyki"
+            
+              , "Hardening serwerów"
+            
+              , "Windows Server"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj skuteczne metody zabezpieczania systemu Windows Server, od podstaw hardeningu po zaawansowaną ochronę infrastruktury.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Windows_Server_Security_Shield_Protection.webp" length="101056" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

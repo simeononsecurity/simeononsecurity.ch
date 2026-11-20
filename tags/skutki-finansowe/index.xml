@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skutki Finansowe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Skutki Finansowe on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/skutki-finansowe/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/skutki-finansowe/</link>
+
+    <description>Recent content in Skutki Finansowe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 16 Oct 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/skutki-finansowe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak chronić się przed ransomware</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ransomware-protection-strategies/</link>
+        
+        <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Technologia"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Cyberprzestępczość"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Złośliwe oprogramowanie"
+            
+              , "Bezpieczeństwo w internecie"
+            
+              , "Ochrona danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ransomware-protection-strategies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj działanie ransomware, skutki jego ataków i środki zapobiegawcze, które wzmacniają cyberbezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ransomware-protection-shield.webp" length="62160" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

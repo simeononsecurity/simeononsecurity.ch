@@ -1,0 +1,193 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo Systemów Windows on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczeństwo Systemów Windows on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-system%C3%B3w-windows/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-system%C3%B3w-windows/</link>
+
+    <description>Recent content in Bezpieczeństwo Systemów Windows on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-system%C3%B3w-windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze praktyki bezpiecznego kodowania w PowerShell: Przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</link>
+        
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Systemy oparte na Windowsie"
+            
+              , "Walidacja wejścia"
+            
+              , "Biblioteki kryptograficzne"
+            
+              , "Najmniejszy przywilej"
+            
+              , "Statyczny analizator kodu"
+            
+              , "Bezpieczne protokoły komunikacyjne"
+            
+              , "Rejestrowanie i monitorowanie"
+            
+              , "Skanowanie podatności"
+            
+              , "Edukacja"
+            
+              , "Wstrzyknięcie kodu"
+            
+              , "Eskalacja uprawnień"
+            
+              , "Wyciek danych"
+            
+              , "Środowisko utwardzania"
+            
+              , "Polityka bezpieczeństwa"
+            
+              , "Firewalle"
+            
+              , "Systemy wykrywania włamań"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Najlepsze praktyki kodowania w PowerShell"
+            
+              , "Bezpieczny kod PowerShell"
+            
+              , "Bezpieczeństwo systemów Windows"
+            
+              , "Walidacja danych wejściowych w PowerShell"
+            
+              , "Kryptografia w PowerShell"
+            
+              , "Zasada najmniejszych uprawnień"
+            
+              , "Statyczny analizator kodu dla PowerShell"
+            
+              , "Bezpieczne protokoły komunikacyjne w PowerShell"
+            
+              , "Rejestrowanie i monitorowanie w PowerShell"
+            
+              , "Skanowanie podatności w PowerShell"
+            
+              , "Edukacja w zakresie bezpieczeństwa PowerShell"
+            
+              , "Zapobieganie wstrzyknięciu kodu"
+            
+              , "Ograniczanie eskalacji uprawnień"
+            
+              , "Zapobieganie wyciekom danych w PowerShell"
+            
+              , "Wzmacnianie środowiska PowerShell"
+            
+              , "Polityki bezpieczeństwa dla PowerShell"
+            
+              , "Konfiguracja zapory sieciowej w PowerShell"
+            
+              , "Systemy wykrywania włamań dla PowerShell"
+            
+              , "Zarządzanie podatnościami w PowerShell"
+            
+              , "Bezpieczeństwo sieci w PowerShell"
+            
+              , "Bezpieczne kodowanie skryptów PowerShell"
+            
+              , "Oczyszczanie danych wejściowych i wyjściowych w PowerShell"
+            
+              , "Bezpieczne protokoły komunikacyjne dla PowerShell"
+            
+              , "Rejestrowanie i monitorowanie w skryptach PowerShell"
+            
+              , "Wzmacnianie środowiska PowerShell"
+            
+              , "Przeprowadzanie skanowania podatności w PowerShell"
+            
+              , "Edukowanie użytkowników i administratorów w zakresie bezpieczeństwa PowerShell"
+            
+              , "Praktyki bezpiecznego kodu PowerShell"
+            
+              , "Bezpieczny i odporny kod PowerShell"
+            
+              , "Najlepsze praktyki bezpieczeństwa PowerShell"
+            
+              , "Najlepsze praktyki zabezpieczeń PowerShell"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki pisania bezpiecznego kodu PowerShell, aby chronić systemy oparte na Windows przed lukami w zabezpieczeniach.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp" length="92676" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

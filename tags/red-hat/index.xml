@@ -1,0 +1,272 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Red Hat on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Red Hat on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/red-hat/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/red-hat/</link>
+
+    <description>Recent content in Red Hat on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/red-hat/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible dla początkujących 2026</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wprowadzenie do Ansible"
+            
+              , "Automatyzacja zarządzania infrastrukturą IT"
+            
+              , "Podstawy Ansible"
+            
+              , "Automatyzacja infrastruktury IT"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrażanie aplikacji"
+            
+              , "Przygotowanie infrastruktury"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Zgodność i bezpieczeństwo"
+            
+              , "Orkiestracja"
+            
+              , "YAML"
+            
+              , "Moduły Ansible"
+            
+              , "Role"
+            
+              , "Dobre praktyki"
+            
+              , "Kontrola wersji"
+            
+              , "Testowanie"
+            
+              , "Red Hat"
+            
+              , "Administratorzy systemów"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Windows"
+            
+              , "Instalacja Ansible"
+            
+              , "Inwentarz Ansible"
+            
+              , "Playbooki Ansible"
+            
+              , "Moduły Ansible"
+            
+              , "Role Ansible"
+            
+              , "Dobre praktyki Ansible"
+            
+              , "Testowanie Ansible"
+            
+              , "Narzędzie do automatyzacji infrastruktury IT"
+            
+              , "Samouczek Ansible"
+            
+              , "Automatyzacja zarządzania infrastrukturą"
+            
+              , "Ansible dla początkujących"
+            
+              , "Nauka Ansible"
+            
+              , "Samouczek Ansible 2026"
+            
+              , "Ansible a Terraform"
+            
+              , "Ansible a Puppet"
+            
+              , "Przykłady playbooków Ansible"
+            
+              , "Automatyzacja Ansible"
+            
+              , "Narzędzia DevOps"
+            
+              , "Infrastruktura jako kod"
+            
+              , "Ansible AWX"
+            
+              , "Ansible Tower"
+            
+              , "Kolekcje Ansible"
+            
+              , "Ansible Galaxy"
+            
+              , "Ansible Vault"
+            
+              , "Automatyzacja chmury Ansible"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przewodnik po Ansible na 2026 rok: instalacja, playbooki, role, przykłady, dobre praktyki oraz porównanie z Terraform, Puppet i Chef.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ansible-for-beginners.webp" length="153600" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po Linuksie: Porady dla wariantów opartych na Debianie i RHEL</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-do-i-learn-linux/</link>
+        
+        <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Linux"
+            
+              , "Debian"
+            
+              , "Ubuntu"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "Red Hat"
+            
+              , "System operacyjny"
+            
+              , "Otwarte źródło"
+            
+              , "Administracja systemem"
+            
+              , "Polecenia"
+            
+              , "Terminal"
+            
+              , "Wspólnota"
+            
+              , "Przedsiębiorstwo"
+            
+              , "Profesjonalne"
+            
+              , "Nauka"
+            
+              , "Tworzenie sieci"
+            
+              , "Bezpieczeństwo"
+            
+              , "Dostosowanie"
+            
+              , "Stabilność"
+            
+              , "Elastyczność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-do-i-learn-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten przewodnik zawiera przegląd sposobów na rozpoczęcie pracy z Linuksem, w tym wskazówki dotyczące nauki zarówno wariantów Linuksa opartych na Debianie, jak i RHEL.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.webp" length="95298" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,294 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oprogramowanie Open Source on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Oprogramowanie Open Source on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/oprogramowanie-open-source/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/oprogramowanie-open-source/</link>
+
+    <description>Recent content in Oprogramowanie Open Source on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/oprogramowanie-open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowa asystenta AI chroniącego prywatność dla Meshtastic</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link>
+        
+        <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo sieci"
+            
+              , "Prywatność"
+            
+              , "Oprogramowanie open source"
+            
+              , "Automatyzacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyczny opis lokalnego asystenta AI dla Meshtastic z prywatną konfiguracją, kolejkowanym dostępem TCP, narzędziami pobierania danych i bezpieczniejszym panelem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Sandboxed Google Play na GrapheneOS: wyjaśnienie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link>
+        
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Prywatność"
+            
+              , "Bezpieczeństwo urządzeń mobilnych"
+            
+              , "Oprogramowanie open source"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, co zmienia Sandboxed Google Play w GrapheneOS, kiedy przydaje się osobny profil oraz jak współdziałają konta, powiadomienia i zgodność aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Porównanie systemów operacyjnych: Windows, Linux i macOS – funkcje i bezpieczeństwo</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</link>
+        
+        <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Systemy operacyjne"
+            
+              , "Recenzje technologiczne"
+            
+              , "Porównanie oprogramowania"
+            
+              , "Bezpieczeństwo komputerowe"
+            
+              , "Projektowanie doświadczenia użytkownika"
+            
+              , "Wydajność systemu"
+            
+              , "Oprogramowanie open source"
+            
+              , "Poradniki technologiczne"
+            
+              , "Komputery osobiste"
+            
+              , "Rozwiązania IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj, który system operacyjny jest najlepszy pod względem bezpieczeństwa i wygody: Windows, Linux czy macOS? Poznaj kluczowe informacje, które MUSISZ znać, zanim podejmiesz decyzję!
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/operating-systems_-windows-linux-and-macos-compared.webp" length="44424" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>SyncThing kontra FreeFileSync</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/syncthing-vs-freefilesync-comparison/</link>
+        
+        <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Oprogramowanie"
+            
+              , "Synchronizacja plików"
+            
+              , "Zarządzanie danymi"
+            
+              , "Porównanie"
+            
+              , "Narzędzia programowe"
+            
+              , "Produktywność cyfrowa"
+            
+              , "Oprogramowanie open source"
+            
+              , "Kopie zapasowe danych"
+            
+              , "Prywatność i bezpieczeństwo"
+            
+              , "Rozwiązania wieloplatformowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/syncthing-vs-freefilesync-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie SyncThing i FreeFileSync pod kątem prywatności, obsługiwanych platform, automatyzacji, interfejsu i kosztów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/SyncThing-vs-FreeFileSync-Symbolic-Sync.webp" length="127636" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

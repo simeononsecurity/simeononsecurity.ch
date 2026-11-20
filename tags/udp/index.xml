@@ -1,0 +1,166 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UDP on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>UDP on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/udp/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/udp/</link>
+
+    <description>Recent content in UDP on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/udp/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego Tailscale używa przekaźnika: połączenia bezpośrednie, DERP i przekaźniki równorzędne</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</link>
+        
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Networking"
+            
+              , "Network Security"
+            
+              , "Self-Hosted"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, dlaczego Tailscale używa przekaźnika, jak odczytywać wyniki status i netcheck oraz kiedy połączenie DERP lub przez przekaźnik równorzędny wymaga diagnozy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/why-tailscale-uses-a-relay.webp" length="103974" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Komunikacja połączeniowa i bezpołączeniowa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Sieci"
+            
+              , "Komunikacja"
+            
+              , "Protokoły"
+            
+              , "Informatyka"
+            
+              , "Transmisja danych"
+            
+              , "Infrastruktura sieciowa"
+            
+              , "Internet"
+            
+              , "Technologia informacyjna"
+            
+              , "Telekomunikacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice między komunikacją połączeniową i bezpołączeniową, w tym protokoły, usługi i metody routingu w sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_showing_two_devices_connected.webp" length="39168" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wzmacnianie E-Commerce on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Wzmacnianie E-Commerce on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wzmacnianie-e-commerce/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wzmacnianie-e-commerce/</link>
+
+    <description>Recent content in Wzmacnianie E-Commerce on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wzmacnianie-e-commerce/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmocnij bezpieczeństwo e-commerce</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</link>
+        
+        <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo e-commerce"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona danych"
+            
+              , "Biznes internetowy"
+            
+              , "Bezpieczeństwo witryny"
+            
+              , "Zaufanie klientów"
+            
+              , "Bezpieczne transakcje"
+            
+              , "Szyfrowanie SSL"
+            
+              , "Zasady dotyczące haseł"
+            
+              , "Dobre praktyki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zabezpiecz sklep internetowy za pomocą TLS, MFA administratorów, aktualizacji, kontroli płatności, szyfrowania, monitorowania, szkoleń, ochrony przed oszustwami i reagowania na incydenty.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-2024-checklist-for-securing-your-e-commerce-site.webp" length="88770" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

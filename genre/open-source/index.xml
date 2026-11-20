@@ -1,0 +1,456 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open-Source on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Open-Source on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/open-source/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/open-source/</link>
+
+    <description>Recent content in Open-Source on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Meshtastic vs MeshCore vs Reticulum</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link>
+        
+        <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "LoRa"
+            
+              , "Sieci mesh"
+            
+              , "Łączność poza siecią"
+            
+              , "Łączność awaryjna"
+            
+              , "Krótkofalarstwo"
+            
+              , "Open source"
+            
+              , "Przygotowanie na katastrofy"
+            
+              , "Sieci bezprzewodowe"
+            
+              , "Prywatność"
+            
+              , "Sieci komputerowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj Meshtastic, MeshCore i Reticulum pod kątem routingu, czasu zajęcia kanału, infrastruktury, transportu i zastosowań poza siecią.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>MeshCore czy Meshtastic: porównanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</link>
+        
+        <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "LoRa"
+            
+              , "Sieci mesh"
+            
+              , "Komunikacja offline"
+            
+              , "Łączność awaryjna"
+            
+              , "Łączność taktyczna"
+            
+              , "Krótkofalarstwo"
+            
+              , "Open source"
+            
+              , "Przygotowanie na katastrofy"
+            
+              , "Sieci bezprzewodowe"
+            
+              , "Prywatność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj MeshCore i Meshtastic pod kątem routingu, zasięgu, czasu nadawania, infrastruktury, obsługiwanych urządzeń i zastosowań.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/meshcore-vs-meshtastic-comparison-guide.webp" length="173676" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>LibreWolf kontra Firefox</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link>
+        
+        <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Prywatność"
+            
+              , "Przeglądarki internetowe"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Open Source"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Oprogramowanie"
+            
+              , "Porównanie"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Prywatność w internecie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj funkcje LibreWolf i Firefox, dwóch przeglądarek skoncentrowanych na prywatności, aby dokonać świadomego wyboru dla zwiększonego bezpieczeństwa i prywatności online.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Top 5 technik zabezpieczania i utwardzania systemu Linux</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link>
+        
+        <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Linux"
+            
+              , "Bezpieczeństwo systemu"
+            
+              , "Open-source"
+            
+              , "Utwardzanie"
+            
+              , "IT"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Informatyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj 5 najlepszych technik zabezpieczania Linuxa, które wzmocnią Twój system przed zagrożeniami. Popraw integralność systemu i chroń wrażliwe dane dzięki profesjonalnym metodom utwardzania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze Przeglądarki Prywatności 2026: LibreWolf vs Brave vs Tor</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link>
+        
+        <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przeglądarki"
+            
+              , "Prywatność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Internet"
+            
+              , "Technologia"
+            
+              , "Prywatność Cyfrowa"
+            
+              , "Bezpieczeństwo Online"
+            
+              , "Open Source"
+            
+              , "Anonimowość"
+            
+              , "Przeglądanie Sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowe porównanie najlepszych przeglądarek skoncentrowanych na prywatności w 2026 roku: LibreWolf, Brave, Firefox, Tor i inne. Szczegółowe testy prywatności, benchmarki wydajności oraz analiza bezpieczeństwa chroniąca Twoje dane online.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible kontra Semaphore kontra Tower: porównanie automatyzacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zarządzanie infrastrukturą"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "DevOps"
+            
+              , "Operacje IT"
+            
+              , "Open Source"
+            
+              , "Zarządzanie przepływem pracy"
+            
+              , "Skalowalność"
+            
+              , "Współpraca"
+            
+              , "Narzędzia Ansible"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc automatyzacji Ansible dzięki porównaniu zwykłego Ansible, Ansible Tower i Ansible Semaphore i wybierz odpowiednie narzędzie do wydajnego zarządzania infrastrukturą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ansible-vs-ansible-semaphore-vs-ansible-tower.webp" length="132234" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

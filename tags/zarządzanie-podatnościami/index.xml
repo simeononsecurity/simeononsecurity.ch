@@ -1,0 +1,1483 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zarządzanie Podatnościami on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Zarządzanie Podatnościami on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-podatno%C5%9Bciami/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-podatno%C5%9Bciami/</link>
+
+    <description>Recent content in Zarządzanie Podatnościami on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-podatno%C5%9Bciami/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PCI-DSS: bezpieczna zgodność przy transakcjach kartowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link>
+        
+        <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo kart płatniczych"
+            
+              , "Ochrona danych"
+            
+              , "Zgodność z wymaganiami"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Technologia"
+            
+              , "Biznes"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Regulacje"
+            
+              , "Handel elektroniczny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj PCI-DSS, jego elementy, zasady zgodności i korzyści dla ochrony danych kart płatniczych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/pci-dss-security-vault.webp" length="88546" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalizacja bezpieczeństwa sieci i chmury</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link>
+        
+        <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Ochrona sieci"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Technologie biznesowe"
+            
+              , "Obrona cyfrowa"
+            
+              , "Zagrożenia cybernetyczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zagrożenia, środki ochrony i przykłady naruszeń, aby wzmocnić bezpieczeństwo sieci i chmury.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowa odpornego SOC</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link>
+        
+        <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Technologia"
+            
+              , "Biznes"
+            
+              , "Ochrona danych"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Zarządzanie IT"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Zarządzanie ryzykiem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Utwórz solidne centrum operacji bezpieczeństwa (SOC), aby przeciwdziałać cyberzagrożeniom, wykrywać incydenty i chronić zasoby organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mistrzowskie reagowanie na incydenty cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-cybersecurity-incident-response-guide/</link>
+        
+        <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Ochrona danych"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Naruszenie danych"
+            
+              , "Reagowanie kryzysowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-cybersecurity-incident-response-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zasady skutecznego reagowania na incydenty cyberbezpieczeństwa. Ten obszerny poradnik pomoże chronić organizację przed zagrożeniami i zwiększyć jej odporność.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cybersecurity_Incident_Response_Fortress.webp" length="137924" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Cyberbezpieczeństwo od podstaw: przewodnik po bezpieczniejszym świecie cyfrowym</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</link>
+        
+        <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Bezpieczeństwo w sieci"
+            
+              , "Ochrona informacji"
+            
+              , "Prywatność danych"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Wskazówki dotyczące bezpieczeństwa w sieci"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Bezpieczna praca z komputerem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kluczowe praktyki cyberbezpieczeństwa, które chronią Twoje cyfrowe życie i zasoby. Dowiedz się więcej o zagrożeniach i bezpiecznym korzystaniu z sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cybersecurity-Shield-Protection.webp" length="114598" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanuj zasadę najmniejszych uprawnień</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link>
+        
+        <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo Linuksa"
+            
+              , "Kontrola dostępu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Ochrona informacji"
+            
+              , "Prywatność danych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Dobre praktyki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ cyberbezpieczeństwo dzięki kontroli dostępu według zasady najmniejszych uprawnień w Linuksie. Poznaj wdrożenie, dobre praktyki i rozwiązywanie problemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czy certyfikaty zawodowe Google są warte zdobycia dla Twojej kariery?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/google-career-certificates-worth-it/</link>
+        
+        <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Kariera w technologii"
+            
+              , "Rozwój zawodowy"
+            
+              , "Edukacja online"
+            
+              , "Wsparcie IT"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Szkolenie umiejętności"
+            
+              , "Certyfikaty uznawane w branży"
+            
+              , "Rynek pracy"
+            
+              , "Rozwój kariery"
+            
+              , "Umiejętności technologiczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/google-career-certificates-worth-it/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj wartość certyfikatów zawodowych Google w dzisiejszym świecie technologii oraz ich zalety dla rozwoju kariery.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_depicting_a_person_holding_a_G.webp" length="48624" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększ swoją karierę w cyberbezpieczeństwie: Najlepsze certyfikaty dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-cybersecurity-certifications-for-beginners-career-guide/</link>
+        
+        <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Certyfikaty cyberbezpieczeństwa"
+            
+              , "Przewodnik dla początkujących"
+            
+              , "Kariera w IT"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Ethical Hacking"
+            
+              , "Testy penetracyjne"
+            
+              , "Praca dla początkujących"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-cybersecurity-certifications-for-beginners-career-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze certyfikaty cyberbezpieczeństwa dla początkujących, aby rozpocząć karierę i zdobyć umiejętności niezbędne do osiągnięcia doskonałości w tej dziedzinie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_representing_a_lock_an.webp" length="50550" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Programy bug bounty: crowdsourcing testów bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</link>
+        
+        <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Programy bug bounty"
+            
+              , "Testy crowdsourcingowe"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Etyczny hacking"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Testy bezpieczeństwa"
+            
+              , "Cyberobrona"
+            
+              , "Podatności oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak programy bug bounty wspierają zgłaszanie podatności, testy bezpieczeństwa i odpowiedzialne ujawnianie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/bug-bounty-programs-engaging-the-crowd-in-security-testing.webp" length="238912" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wdrażanie ram bezpieczeństwa cybernetycznego NICE: Najlepsze praktyki w zakresie wzmocnionej cyberobrony</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/implementing-the-nice-cybersecurity-framework/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ramy bezpieczeństwa cybernetycznego NICE"
+            
+              , "cyberobrona"
+            
+              , "najlepsze praktyki wdrażania"
+            
+              , "pracownicy cyberbezpieczeństwa"
+            
+              , "analiza luk w umiejętnościach"
+            
+              , "programy szkoleniowe"
+            
+              , "monitorowanie i raportowanie"
+            
+              , "postawa w zakresie cyberbezpieczeństwa"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "regulacje rządowe"
+            
+              , "polityki cyberbezpieczeństwa"
+            
+              , "ochrona danych"
+            
+              , "reakcja na incydent"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "zarządzanie podatnościami"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "Analiza cyberzagrożeń"
+            
+              , "wskaźniki cyberbezpieczeństwa"
+            
+              , "ciągłe doskonalenie"
+            
+              , "benchmarki branżowe"
+            
+              , "odporność cybernetyczna"
+            
+              , "zarządzanie incydentami bezpieczeństwa"
+            
+              , "krajobraz cyberzagrożeń"
+            
+              , "zarządzanie cyberbezpieczeństwem"
+            
+              , "nadzór nad cyberbezpieczeństwem"
+            
+              , "bezpieczne udostępnianie"
+            
+              , "klasyfikacja danych"
+            
+              , "wymagania dotyczące zgodności"
+            
+              , "certyfikaty cyberbezpieczeństwa"
+            
+              , "Szkolenie w zakresie świadomości cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/implementing-the-nice-cybersecurity-framework/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kluczowe kroki, aby skutecznie wdrożyć NICE Cybersecurity Framework i wzmocnić obronę swojej organizacji przed cyberzagrożeniami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.webp" length="144764" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik po karierze w cyberbezpieczeństwie 2026</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</link>
+        
+        <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Technologia"
+            
+              , "Rozwój kariery"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Umiejętności i certyfikaty"
+            
+              , "Oferty pracy"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Planowanie kariery"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przewodnik po karierze w cyberbezpieczeństwie w 2026 roku, obejmujący umiejętności, certyfikaty, wynagrodzenia, ścieżki kariery i badania rynku pracy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity-career-guide-essential-skills-and-certifications.webp" length="298156" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpiecz swoje aplikacje internetowe za pomocą OWASP ASVS</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</link>
+        
+        <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo aplikacji internetowych"
+            
+              , "OWASP"
+            
+              , "ASVS"
+            
+              , "bezpieczeństwo aplikacji"
+            
+              , "normy bezpieczeństwa"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "zarządzanie podatnościami"
+            
+              , "bezpieczne kodowanie"
+            
+              , "testy penetracyjne"
+            
+              , "modelowanie zagrożeń"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "ocena bezpieczeństwa"
+            
+              , "zautomatyzowane testy bezpieczeństwa"
+            
+              , "ręczne testowanie bezpieczeństwa"
+            
+              , "bezpieczny cykl życia oprogramowania"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "bezpieczeństwo danych"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "zgodność"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Uporządkuj wymagania bezpieczeństwa aplikacji internetowych, testy i dowody weryfikacji za pomocą OWASP ASVS.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.webp" length="119972" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Outsourcing cyberbezpieczeństwa: korzyści i zagrożenia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-risks-of-oursourcing-cyberscurity-to-third-party-vendors/</link>
+        
+        <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "zlecanie usług na zewnątrz"
+            
+              , "dostawcy zewnętrzni"
+            
+              , "naruszenie danych"
+            
+              , "wybór dostawcy"
+            
+              , "oszczędność kosztów"
+            
+              , "wiedza specjalistyczna"
+            
+              , "skalowalność"
+            
+              , "utrata kontroli"
+            
+              , "plan reagowania na incydenty"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "bezpieczeństwo biznesowe"
+            
+              , "outsourcing bezpieczeństwa"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "zarządzanie podatnościami"
+            
+              , "cyberobrona"
+            
+              , "ciągłość działania"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-risks-of-oursourcing-cyberscurity-to-third-party-vendors/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o korzyściach i zagrożeniach wynikających z powierzenia cyberbezpieczeństwa zewnętrznym dostawcom oraz jak wybrać odpowiedniego dostawcę dla swojej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.webp" length="132576" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze praktyki bezpiecznego kodowania w PowerShell: Przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</link>
+        
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Systemy oparte na Windowsie"
+            
+              , "Walidacja wejścia"
+            
+              , "Biblioteki kryptograficzne"
+            
+              , "Najmniejszy przywilej"
+            
+              , "Statyczny analizator kodu"
+            
+              , "Bezpieczne protokoły komunikacyjne"
+            
+              , "Rejestrowanie i monitorowanie"
+            
+              , "Skanowanie podatności"
+            
+              , "Edukacja"
+            
+              , "Wstrzyknięcie kodu"
+            
+              , "Eskalacja uprawnień"
+            
+              , "Wyciek danych"
+            
+              , "Środowisko utwardzania"
+            
+              , "Polityka bezpieczeństwa"
+            
+              , "Firewalle"
+            
+              , "Systemy wykrywania włamań"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Najlepsze praktyki kodowania w PowerShell"
+            
+              , "Bezpieczny kod PowerShell"
+            
+              , "Bezpieczeństwo systemów Windows"
+            
+              , "Walidacja danych wejściowych w PowerShell"
+            
+              , "Kryptografia w PowerShell"
+            
+              , "Zasada najmniejszych uprawnień"
+            
+              , "Statyczny analizator kodu dla PowerShell"
+            
+              , "Bezpieczne protokoły komunikacyjne w PowerShell"
+            
+              , "Rejestrowanie i monitorowanie w PowerShell"
+            
+              , "Skanowanie podatności w PowerShell"
+            
+              , "Edukacja w zakresie bezpieczeństwa PowerShell"
+            
+              , "Zapobieganie wstrzyknięciu kodu"
+            
+              , "Ograniczanie eskalacji uprawnień"
+            
+              , "Zapobieganie wyciekom danych w PowerShell"
+            
+              , "Wzmacnianie środowiska PowerShell"
+            
+              , "Polityki bezpieczeństwa dla PowerShell"
+            
+              , "Konfiguracja zapory sieciowej w PowerShell"
+            
+              , "Systemy wykrywania włamań dla PowerShell"
+            
+              , "Zarządzanie podatnościami w PowerShell"
+            
+              , "Bezpieczeństwo sieci w PowerShell"
+            
+              , "Bezpieczne kodowanie skryptów PowerShell"
+            
+              , "Oczyszczanie danych wejściowych i wyjściowych w PowerShell"
+            
+              , "Bezpieczne protokoły komunikacyjne dla PowerShell"
+            
+              , "Rejestrowanie i monitorowanie w skryptach PowerShell"
+            
+              , "Wzmacnianie środowiska PowerShell"
+            
+              , "Przeprowadzanie skanowania podatności w PowerShell"
+            
+              , "Edukowanie użytkowników i administratorów w zakresie bezpieczeństwa PowerShell"
+            
+              , "Praktyki bezpiecznego kodu PowerShell"
+            
+              , "Bezpieczny i odporny kod PowerShell"
+            
+              , "Najlepsze praktyki bezpieczeństwa PowerShell"
+            
+              , "Najlepsze praktyki zabezpieczeń PowerShell"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki pisania bezpiecznego kodu PowerShell, aby chronić systemy oparte na Windows przed lukami w zabezpieczeniach.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp" length="92676" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podstawowe zasady i zalecenia dotyczące wzmacniania systemu Linux</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</link>
+        
+        <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo systemu Linux"
+            
+              , "utwardzanie systemu"
+            
+              , "zapora sieciowa"
+            
+              , "SELinux"
+            
+              , "AppArmor"
+            
+              , "polityka haseł"
+            
+              , "aktualizacje systemu"
+            
+              , "logi systemowe"
+            
+              , "moduły bezpieczeństwa"
+            
+              , "zasady kontroli dostępu"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "zarządzanie podatnościami"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "dostęp roota"
+            
+              , "menedżer haseł"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zapoznaj się z podstawowymi zaleceniami i zaleceniami dotyczącymi zabezpieczania systemu Linux, w tym aktualizacji, korzystania z zapór ogniowych, włączania SELinux lub AppArmor, konfigurowania zasad haseł i monitorowania dzienników systemowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.webp" length="138234" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wdrażanie poprawek dla podatnych serwerów: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo serwera"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Zarządzanie poprawkami"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Łatanie serwera"
+            
+              , "Krajobraz zagrożeń"
+            
+              , "Testy penetracyjne"
+            
+              , "Aktualizacje zabezpieczeń"
+            
+              , "Poprawki oprogramowania"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo systemu"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Zasady bezpieczeństwa"
+            
+              , "Środowiska przejściowe"
+            
+              , "Luki w oprogramowaniu"
+            
+              , "Krytyczne poprawki"
+            
+              , "Poprawki dostawcy"
+            
+              , "Biuletyny bezpieczeństwa"
+            
+              , "Bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wdrożyć poprawki zabezpieczeń dla podatnych serwerów, stosując najlepsze praktyki i zapobiegając złośliwym atakom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_shield.webp" length="98810" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zdaj egzamin CompTIA Security&#43; SY0-601: Porady i materiały</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/</link>
+        
+        <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Professor Messer"
+            
+              , "Dr. Messer"
+            
+              , "adwersarialna sztuczna inteligencja"
+            
+              , "kampania wpływu"
+            
+              , "atak IV"
+            
+              , "sieciowy MDF"
+            
+              , "atak Christmas tree"
+            
+              , "SY0-601"
+            
+              , "CompTIA Security"
+            
+              , "zakłócanie łączności bezprzewodowej"
+            
+              , "IDF a MDF"
+            
+              , "zastosowania kryptografii"
+            
+              , "ataki on-path"
+            
+              , "egzamin CompTIA Security SY0-601"
+            
+              , "certyfikacja cyberbezpieczeństwa"
+            
+              , "przewodnik do nauki"
+            
+              , "cele egzaminu"
+            
+              , "przygotowanie do egzaminu"
+            
+              , "materiały do nauki"
+            
+              , "testy próbne"
+            
+              , "kursy online"
+            
+              , "grupy nauki"
+            
+              , "sprzęt i oprogramowanie"
+            
+              , "strategie rozwiązywania testu"
+            
+              , "zdanie egzaminu"
+            
+              , "trendy branżowe"
+            
+              , "rozwój kariery"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "certyfikaty bezpieczeństwa"
+            
+              , "specjaliści cyberbezpieczeństwa"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "zarządzanie podatnościami"
+            
+              , "reagowanie na incydenty"
+            
+              , "polityki bezpieczeństwa"
+            
+              , "kontrola dostępu"
+            
+              , "zabezpieczenia"
+            
+              , "techniki szyfrowania"
+            
+              , "ocena ryzyka"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "dobre praktyki bezpieczeństwa"
+            
+              , "standardy bezpieczeństwa"
+            
+              , "struktury bezpieczeństwa"
+            
+              , "obrona sieci"
+            
+              , "pytania praktyczne Security Plus"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zdać egzamin CompTIA Security+ SY0-601 z poradami, materiałami do nauki i strategiami rozwiązywania testów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_studying_with_a_laptop_and_books_in_front_of_them.webp" length="81278" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

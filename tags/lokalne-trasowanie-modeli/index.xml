@@ -1,0 +1,101 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lokalne Trasowanie Modeli on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Lokalne Trasowanie Modeli on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/lokalne-trasowanie-modeli/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/lokalne-trasowanie-modeli/</link>
+
+    <description>Recent content in Lokalne Trasowanie Modeli on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/lokalne-trasowanie-modeli/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Hindsight hostowany samodzielnie: lokalna pamięć agentów i prywatne trasowanie modeli</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/self-hosted-hindsight/</link>
+        
+        <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Samodzielnie hostowana AI"
+            
+              , "Agenci AI"
+            
+              , "Infrastruktura AI"
+            
+              , "Prywatność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/self-hosted-hindsight/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Studium przypadku samodzielnie hostowanego Hindsight, zaobserwowanych lokalnych tras Qwen i pracy GPU przypisanej do żądań, bez subskrypcji hostowanego wnioskowania na sprawdzonych ścieżkach.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rozwój Blockchaina on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Rozwój Blockchaina on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/rozw%C3%B3j-blockchaina/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/rozw%C3%B3j-blockchaina/</link>
+
+    <description>Recent content in Rozwój Blockchaina on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/rozw%C3%B3j-blockchaina/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczeństwo blockchaina: coś więcej niż kryptowaluty</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/demystifying-blockchain-security_-more-than-just-cryptocurrency/</link>
+        
+        <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo blockchaina"
+            
+              , "Technologia kryptowalut"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Sieci zdecentralizowane"
+            
+              , "Rozwój blockchaina"
+            
+              , "Audyt inteligentnych kontraktów"
+            
+              , "Wiedza o kryptografii"
+            
+              , "Ochrona prywatności danych"
+            
+              , "Nowe technologie bezpieczeństwa"
+            
+              , "Audyty bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/demystifying-blockchain-security_-more-than-just-cryptocurrency/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zależność bezpieczeństwa blockchaina od konsensusu, kryptografii, kontroli inteligentnych kontraktów, ochrony kluczy, monitorowania i skutecznego zarządzania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/demystifying-blockchain-security_-more-than-just-cryptocurrency.webp" length="194346" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

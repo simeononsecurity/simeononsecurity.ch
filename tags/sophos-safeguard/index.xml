@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sophos SafeGuard on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Sophos SafeGuard on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/sophos-safeguard/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/sophos-safeguard/</link>
+
+    <description>Recent content in Sophos SafeGuard on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 26 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/sophos-safeguard/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze rozwiązania pełnego szyfrowania dysków dla komputerów z Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-full-disk-encryption-solutions-windows/</link>
+        
+        <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo danych"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Szyfrowanie Windows"
+            
+              , "Szyfrowanie dysków"
+            
+              , "Ochrona danych"
+            
+              , "Oprogramowanie szyfrujące"
+            
+              , "Rozwiązania bezpieczeństwa"
+            
+              , "Bezpieczeństwo Windows"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo komputerowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-full-disk-encryption-solutions-windows/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj czołowe rozwiązania pełnego szyfrowania dysków dla Windows, które chronią poufne dane przed nieuprawnionym dostępem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/best-full-disk-encryption-solutions-windows.webp" length="243946" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

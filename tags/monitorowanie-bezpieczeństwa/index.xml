@@ -1,0 +1,249 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monitorowanie Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Monitorowanie Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/monitorowanie-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/monitorowanie-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Monitorowanie Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/monitorowanie-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik po zabezpieczaniu urządzeń końcowych w zespołach zdalnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</link>
+        
+        <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zabezpieczanie urządzeń końcowych"
+            
+              , "Bezpieczeństwo pracy zdalnej"
+            
+              , "Przewodnik po cyberbezpieczeństwie"
+            
+              , "Ochrona danych"
+            
+              , "Praktyki bezpieczeństwa IT"
+            
+              , "Przyszłe trendy w bezpieczeństwie"
+            
+              , "Bezpieczna praca zdalna"
+            
+              , "Zapobieganie cyberzagrożeniom"
+            
+              , "Ochrona prywatności danych"
+            
+              , "Rozwiązania bezpieczeństwa IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Chroń zdalne urządzenia końcowe dzięki ewidencji sprzętu, wzmacnianiu zabezpieczeń, poprawkom, MFA, szyfrowaniu, EDR, zasadom dostępu, monitorowaniu i planowaniu reagowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-ultimate-guide-to-endpoint-security-for-remote-teams.webp" length="58154" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie Active Directory</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/active-directory-security-best-practices/</link>
+        
+        <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie siecią"
+            
+              , "Technologia informacyjna"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Infrastruktura cyfrowa"
+            
+              , "Kontrola dostępu"
+            
+              , "Uwierzytelnianie użytkowników"
+            
+              , "Dobre praktyki IT"
+            
+              , "Świadomość bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/active-directory-security-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sposoby zabezpieczania Active Directory, ochrony danych i zapobiegania włamaniom do infrastruktury sieciowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanuj zasadę najmniejszych uprawnień</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link>
+        
+        <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo Linuksa"
+            
+              , "Kontrola dostępu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Ochrona informacji"
+            
+              , "Prywatność danych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Dobre praktyki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ cyberbezpieczeństwo dzięki kontroli dostępu według zasady najmniejszych uprawnień w Linuksie. Poznaj wdrożenie, dobre praktyki i rozwiązywanie problemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,456 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ograniczanie Ryzyka on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Ograniczanie Ryzyka on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/ograniczanie-ryzyka/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/ograniczanie-ryzyka/</link>
+
+    <description>Recent content in Ograniczanie Ryzyka on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 22 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/ograniczanie-ryzyka/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skuteczna ochrona chmury</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</link>
+        
+        <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo chmury"
+            
+              , "Odporność firmy"
+            
+              , "Wdrożenie CSPM"
+            
+              , "Proaktywne wykrywanie zagrożeń"
+            
+              , "Zarządzanie zgodnością"
+            
+              , "Zasady bezpieczeństwa"
+            
+              , "Współpraca między zespołami"
+            
+              , "Infrastruktura chmurowa"
+            
+              , "Automatyzacja bezpieczeństwa"
+            
+              , "Ograniczanie ryzyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Użyj zarządzania stanem bezpieczeństwa chmury, aby wykrywać błędne konfiguracje, egzekwować zasady, obsługiwać alerty i zgodność oraz kierować naprawą w kontach chmurowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/leveraging-cloud-security-posture-management-%28cspm%29-for-your-business.webp" length="234272" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmacnianie cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</link>
+        
+        <pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zasady grupy systemu Windows"
+            
+              , "Zmniejszanie powierzchni ataku"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona sieci"
+            
+              , "Ochrona danych"
+            
+              , "Odporność cyfrowa"
+            
+              , "Utwardzanie systemów"
+            
+              , "Najlepsze praktyki bezpieczeństwa"
+            
+              , "Ograniczanie ryzyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak ustawienia zasad grupy systemu Windows zmniejszają powierzchnię ataku i wzmacniają ochronę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cybersecurity_Shield_Defense.webp" length="129592" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanowanie incydentów cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-incident-response-plan/</link>
+        
+        <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Naruszenie danych"
+            
+              , "Ataki malware"
+            
+              , "Oprogramowanie wymuszające okup"
+            
+              , "Straty finansowe"
+            
+              , "Zarządzanie reputacją"
+            
+              , "Zgodność z prawem"
+            
+              , "Ciągłość działania"
+            
+              , "Ograniczanie ryzyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-incident-response-plan/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak opracować solidny plan reagowania na incydenty cyberbezpieczeństwa, aby ograniczyć ich skutki i chronić firmę przed cyberzagrożeniami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_superheroes_shield.webp" length="111036" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak stworzyć własny osobisty model zagrożeń</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-form-your-own-personal-threat-model-safeguard-online-security/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo online"
+            
+              , "Osobiste modelowanie zagrożeń"
+            
+              , "Dobre praktyki cyberbezpieczeństwa"
+            
+              , "Ochrona prywatności"
+            
+              , "Ocena zagrożeń"
+            
+              , "Ograniczanie ryzyka"
+            
+              , "Samoobrona cyfrowa"
+            
+              , "Ochrona danych"
+            
+              , "Prywatność online"
+            
+              , "Bezpieczeństwo w internecie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-form-your-own-personal-threat-model-safeguard-online-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kroki tworzenia osobistego modelu zagrożeń: określ swoje zasoby, potencjalnych napastników i środki ochrony.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_a_shield_pro.webp" length="123924" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Systemy zarządzania podatnościami: zmniejszanie ryzyka bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Infrastruktura IT"
+            
+              , "Ograniczanie ryzyka"
+            
+              , "Zgodność"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Ocena podatności na zagrożenia"
+            
+              , "Postawa w zakresie bezpieczeństwa"
+            
+              , "Automatyzacja"
+            
+              , "Integracja"
+            
+              , "Raportowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wzmocnij bezpieczeństwo swojej organizacji i ogranicz ryzyko dzięki systemom zarządzania podatnościami. Dowiedz się o ich zaletach i znaczeniu w dzisiejszym cyfrowym krajobrazie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.webp" length="122958" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Prawda o informacjach jawnych: Charakterystyka, ochrona i przepisy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/safeguarding-unclassified-information/</link>
+        
+        <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo informacji"
+            
+              , "Zarządzanie danymi"
+            
+              , "Przepisy rządowe"
+            
+              , "Udostępnianie informacji"
+            
+              , "Ochrona danych"
+            
+              , "Poufność"
+            
+              , "Ograniczanie ryzyka"
+            
+              , "Zarządzanie informacjami"
+            
+              , "Klasyfikacja danych"
+            
+              , "Dostęp do informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/safeguarding-unclassified-information/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj prawdziwą naturę informacji jawnych, ich kluczowe cechy, środki zabezpieczające i odpowiednie przepisy dotyczące skutecznej ochrony.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.webp" length="114978" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

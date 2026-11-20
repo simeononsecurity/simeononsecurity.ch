@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczne Zasoby Cyfrowe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczne Zasoby Cyfrowe on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpieczne-zasoby-cyfrowe/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpieczne-zasoby-cyfrowe/</link>
+
+    <description>Recent content in Bezpieczne Zasoby Cyfrowe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpieczne-zasoby-cyfrowe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego oprogramowanie open source przewyższa oprogramowanie własnościowe pod względem bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/open-source-software-security/</link>
+        
+        <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Oprogramowanie o otwartym kodzie źródłowym"
+            
+              , "Bezpieczeństwo oprogramowania"
+            
+              , "Regulacje rządowe"
+            
+              , "Rozwój oparty na współpracy"
+            
+              , "Ochrona cyfrowa"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Trendy technologiczne"
+            
+              , "Bezpieczeństwo w sieci"
+            
+              , "Prywatność danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/open-source-software-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, dlaczego oprogramowanie open source uchodzi za bezpieczniejsze od własnościowego oraz jak przejrzystość i współpraca chronią zasoby cyfrowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/open-source-software-security.webp" length="61142" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

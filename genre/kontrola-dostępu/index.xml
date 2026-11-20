@@ -1,0 +1,456 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kontrola Dostępu on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Kontrola Dostępu on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/kontrola-dost%C4%99pu/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/kontrola-dost%C4%99pu/</link>
+
+    <description>Recent content in Kontrola Dostępu on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/kontrola-dost%C4%99pu/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>7 podstawowych praktyk bezpieczeństwa dla firm</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/7-essential-security-practices-for-any-business/</link>
+        
+        <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo firm"
+            
+              , "Bezpieczeństwo fizyczne"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Szkolenia pracowników"
+            
+              , "Szyfrowanie danych"
+            
+              , "Systemy monitoringu"
+            
+              , "Kontrola dostępu"
+            
+              , "Protokoły bezpieczeństwa"
+            
+              , "Odporność cyfrowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/7-essential-security-practices-for-any-business/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Siedem praktycznych sposobów na zwiększenie bezpieczeństwa firmy, obejmujących ochronę fizyczną, cyberbezpieczeństwo i planowanie odporności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/7-essential-security-practices-for-any-business.webp" length="235660" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie Active Directory</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/active-directory-security-best-practices/</link>
+        
+        <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie siecią"
+            
+              , "Technologia informacyjna"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Infrastruktura cyfrowa"
+            
+              , "Kontrola dostępu"
+            
+              , "Uwierzytelnianie użytkowników"
+            
+              , "Dobre praktyki IT"
+            
+              , "Świadomość bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/active-directory-security-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sposoby zabezpieczania Active Directory, ochrony danych i zapobiegania włamaniom do infrastruktury sieciowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanuj zasadę najmniejszych uprawnień</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link>
+        
+        <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo Linuksa"
+            
+              , "Kontrola dostępu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Ochrona informacji"
+            
+              , "Prywatność danych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Dobre praktyki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ cyberbezpieczeństwo dzięki kontroli dostępu według zasady najmniejszych uprawnień w Linuksie. Poznaj wdrożenie, dobre praktyki i rozwiązywanie problemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Biometryczne zabezpieczenia dostępu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</link>
+        
+        <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Bezpieczeństwo"
+            
+              , "Biometria"
+            
+              , "Kontrola dostępu"
+            
+              , "Czytniki linii papilarnych"
+            
+              , "Rozpoznawanie twarzy"
+            
+              , "Produkty Amazon"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Innowacje"
+            
+              , "Prywatność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zaawansowane zabezpieczenia biometryczne z czytnikami linii papilarnych i urządzeniami do rozpoznawania twarzy dostępnymi na Amazonie. Zapewniają one skuteczną kontrolę dostępu i spokój ducha.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/biometric-access-control-fingerprint-facial-recognition-devices-amazon.webp" length="183044" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Informacje wydzielone chronione (SCI) wyjaśnione</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-sensitive-compartmented-information/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo informacji"
+            
+              , "Bezpieczeństwo narodowe"
+            
+              , "Inteligencja"
+            
+              , "Informacje niejawne"
+            
+              , "Przepisy rządowe"
+            
+              , "Kontrola dostępu"
+            
+              , "Świadectwa bezpieczeństwa"
+            
+              , "Wspólnota wywiadowcza"
+            
+              , "Przemysł obronny"
+            
+              , "Operacje wywiadowcze"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-sensitive-compartmented-information/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zapoznanie się ze znaczeniem, poziomami klasyfikacji, obsługą i przepisami dotyczącymi informacji szczególnie chronionych (SCI) dla celów bezpieczeństwa narodowego.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_representing_sci.webp" length="60318" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie klasyfikacji informacji: Kto określa i przypisuje poziomy klasyfikacji?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/who-designates-whether-information-is-classified/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo informacji"
+            
+              , "Klasyfikacja danych"
+            
+              , "Przepisy rządowe"
+            
+              , "Bezpieczeństwo narodowe"
+            
+              , "Ochrona danych"
+            
+              , "Prywatność danych"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Informacje niejawne"
+            
+              , "Kontrola dostępu"
+            
+              , "Wrażliwość danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/who-designates-whether-information-is-classified/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o procesie klasyfikacji informacji, w tym o tym, kto wyznacza i przypisuje poziomy klasyfikacji, a także o znaczeniu przestrzegania przepisów rządowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.webp" length="161990" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Poziomy Zgodności PCI on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Poziomy Zgodności PCI on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/poziomy-zgodno%C5%9Bci-pci/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/poziomy-zgodno%C5%9Bci-pci/</link>
+
+    <description>Recent content in Poziomy Zgodności PCI on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/poziomy-zgodno%C5%9Bci-pci/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PCI-DSS: bezpieczna zgodność przy transakcjach kartowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link>
+        
+        <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo kart płatniczych"
+            
+              , "Ochrona danych"
+            
+              , "Zgodność z wymaganiami"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Technologia"
+            
+              , "Biznes"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Regulacje"
+            
+              , "Handel elektroniczny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj PCI-DSS, jego elementy, zasady zgodności i korzyści dla ochrony danych kart płatniczych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/pci-dss-security-vault.webp" length="88546" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,554 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Otwarte Oprogramowanie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Otwarte Oprogramowanie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/otwarte-oprogramowanie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/otwarte-oprogramowanie/</link>
+
+    <description>Recent content in Otwarte Oprogramowanie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/otwarte-oprogramowanie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>ATS Resume Improver: darmowy optymalizator CV oparty na AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</link>
+        
+        <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Narzędzia kariery"
+            
+              , "Projekty open source"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Technologie prywatności"
+            
+              , "Narzędzia dla programistów"
+            
+              , "Poszukiwanie pracy"
+            
+              , "Produktywność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          ATS Resume Improver to darmowe narzędzie open source działające po stronie klienta. Analizuje, ocenia, dopasowuje, optymalizuje i eksportuje CV z użyciem modeli chmurowych lub lokalnych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp" length="158574" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wybór menedżera haseł: Kompleksowy przewodnik po zwiększonym bezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-choose-a-password-manager/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "menedżer haseł"
+            
+              , "wybór menedżera haseł"
+            
+              , "Bitwarden"
+            
+              , "KeePassXC"
+            
+              , "bezpieczeństwo online"
+            
+              , "bezpieczeństwo hasła"
+            
+              , "zarządzanie hasłami"
+            
+              , "silne hasła"
+            
+              , "unikalne hasła"
+            
+              , "naruszenia danych"
+            
+              , "szyfrowanie"
+            
+              , "Kompatybilność międzyplatformowa"
+            
+              , "synchronizacja hasła"
+            
+              , "kopia zapasowa"
+            
+              , "interfejs użytkownika"
+            
+              , "generator haseł"
+            
+              , "2FA"
+            
+              , "szyfrowanie typu end-to-end"
+            
+              , "Architektura o zerowej wiedzy"
+            
+              , "otwarte oprogramowanie"
+            
+              , "bezpieczne udostępnianie haseł"
+            
+              , "typ automatyczny"
+            
+              , "obsługa załączników"
+            
+              , "wtyczki"
+            
+              , "rekomendacje dotyczące menedżera haseł"
+            
+              , "Porównanie menedżerów haseł"
+            
+              , "wskazówki dotyczące bezpieczeństwa haseł"
+            
+              , "Funkcje menedżera haseł"
+            
+              , "zalety menedżera haseł"
+            
+              , "menedżer haseł do pobrania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-choose-a-password-manager/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najważniejsze czynniki, które należy wziąć pod uwagę przy wyborze menedżera haseł i dowiedz się, dlaczego Bitwarden i KeePassXC są zalecanymi opcjami
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.webp" length="40028" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększ produktywność z Homebox: Otwarte oprogramowanie do zarządzania zapasami i zasobami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Zarządzanie zapasami"
+            
+              , "Zarządzanie aktywami"
+            
+              , "Otwarte oprogramowanie"
+            
+              , "Produktywność"
+            
+              , "Mała firma"
+            
+              , "Zarządzanie domem"
+            
+              , "Samodzielny hosting"
+            
+              , "Oprogramowanie"
+            
+              , "Organizacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Homebox, oprogramowania open-source do wydajnego zarządzania zapasami i zasobami, zwiększającego produktywność domu lub małej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp" length="60896" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Packer dla infrastruktury jako kod: dobre praktyki i korzyści</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Packer"
+            
+              , "Infrastruktura jako kod"
+            
+              , "Rozwój i operacje"
+            
+              , "Automatyzacja"
+            
+              , "Bezpieczeństwo"
+            
+              , "Powtarzalność"
+            
+              , "Skalowalność"
+            
+              , "Wieloplatformowość"
+            
+              , "Kontrola wersji"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Obrazy maszyn"
+            
+              , "Wirtualizacja"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Ciągła integracja"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Dobre praktyki"
+            
+              , "Testowanie"
+            
+              , "Otwarte oprogramowanie"
+            
+              , "Wiele chmur"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak używać Packera do tworzenia obrazów maszyn, które są łatwe do utrzymania i bezpieczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.webp" length="175658" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>TrueNAS vs Unraid: który system operacyjny NAS jest najlepszy?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</link>
+        
+        <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Systemy pamięci masowej"
+            
+              , "Pamięć masowa w sieci"
+            
+              , "Zarządzanie danymi"
+            
+              , "Systemy operacyjne NAS"
+            
+              , "Porównanie"
+            
+              , "Ochrona danych"
+            
+              , "Pamięć domowa"
+            
+              , "Pamięć firmowa"
+            
+              , "Otwarte oprogramowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj TrueNas i Unraid pod kątem projektu pamięci masowej, łatwości obsługi, funkcji, dokumentacji, społeczności i dopasowania do obciążenia.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.webp" length="189060" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jellyfin kontra Plex Media Server</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/plex-media-server-vs-jellyfin/</link>
+        
+        <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Jellyfin czy Plex"
+            
+              , "Plex Media Server"
+            
+              , "Jellyfin"
+            
+              , "porównanie serwerów multimedialnych"
+            
+              , "media strumieniowe"
+            
+              , "osobista biblioteka multimediów"
+            
+              , "organizacja multimediów"
+            
+              , "przyjazny dla użytkownika interfejs"
+            
+              , "otwarte oprogramowanie"
+            
+              , "opłacalny"
+            
+              , "przystępny cenowo"
+            
+              , "funkcje premium"
+            
+              , "bezpłatny serwer multimedialny"
+            
+              , "funkcje serwera multimedialnego"
+            
+              , "strumieniowanie multimediów"
+            
+              , "zarządzanie multimediami"
+            
+              , "alternatywy dla Plex"
+            
+              , "funkcje Jellyfin"
+            
+              , "Plex czy Jellyfin"
+            
+              , "koszty serwera multimedialnego"
+            
+              , "platformy serwerów multimedialnych"
+            
+              , "najlepszy serwer multimedialny"
+            
+              , "oprogramowanie serwera multimedialnego"
+            
+              , "serwer strumieniowy"
+            
+              , "konfiguracja serwera multimedialnego"
+            
+              , "aplikacja serwera multimedialnego"
+            
+              , "rozwiązania serwera multimedialnego"
+            
+              , "poradnik o serwerach multimedialnych"
+            
+              , "serwer mediów strumieniowych"
+            
+              , "porównaj Plex i Jellyfin"
+            
+              , "recenzja Plex"
+            
+              , "recenzja Jellyfin"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/plex-media-server-vs-jellyfin/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice między Plex Media Server a Jellyfin, dwoma popularnymi opcjami serwerów multimedialnych, i dokonaj świadomego wyboru na podstawie funkcji i kosztów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/plex-vs-jellyfin.webp" length="95538" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

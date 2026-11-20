@@ -1,0 +1,89 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aktualizacja Pip on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Aktualizacja Pip on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/aktualizacja-pip/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/aktualizacja-pip/</link>
+
+    <description>Recent content in Aktualizacja Pip on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/aktualizacja-pip/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Open WebUI v0.12.4: lista kontrolna aktualizacji i kontroli dostępu 2026</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link>
+        
+        <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Samodzielnie hostowana sztuczna inteligencja"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Administracja systemami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Utwórz kopię zapasową Open WebUI i zaktualizuj je do wersji v0.12.4. Następnie sprawdź udostępnianie czatów, uprawnienia eksportu, dostęp do zasobów, konta i dostęp sieciowy.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

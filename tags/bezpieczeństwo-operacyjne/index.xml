@@ -1,0 +1,224 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo Operacyjne on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczeństwo Operacyjne on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-operacyjne/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-operacyjne/</link>
+
+    <description>Recent content in Bezpieczeństwo Operacyjne on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-operacyjne/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanuj OPSEC: 6 kluczowych kroków do bezpieczeństwa cyfrowego</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</link>
+        
+        <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Bezpieczeństwo operacyjne"
+            
+              , "Prywatność w Internecie"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Bezpieczeństwo internetowe"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Zagrożenia online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sześć kluczowych kroków OPSEC, które chronią Twoją obecność cyfrową i wzmacniają cyberbezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/OPSEC_Steps_Security.webp" length="216778" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Proces OPSEC: kluczowe elementy i najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Proces OPSEC"
+            
+              , "bezpieczeństwo operacyjne"
+            
+              , "ochrona informacji"
+            
+              , "środki bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "informacje krytyczne"
+            
+              , "ocena zagrożenia"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "analiza ryzyka"
+            
+              , "środki zaradcze"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "ochrona danych"
+            
+              , "poufność"
+            
+              , "integralność"
+            
+              , "dostępność"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "informacje niejawne"
+            
+              , "zgodność"
+            
+              , "NISPOM"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+              , "prywatność danych"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "stan bezpieczeństwa"
+            
+              , "aktywa informacyjne"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "ograniczanie ryzyka"
+            
+              , "polityki bezpieczeństwa"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "zapobieganie naruszeniom danych"
+            
+              , "klasyfikacja informacji"
+            
+              , "Które z poniższych elementów są częścią procesu opsec?"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj krytyczne elementy procesu OPSEC i dowiedz się, jak skutecznie chronić poufne informacje.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/an-overview-of-the-opsec-process-and-understanding-its-key-components.webp" length="309646" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

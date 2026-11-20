@@ -1,0 +1,622 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ramy Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Ramy Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ramy-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ramy-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Ramy Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 22 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ramy-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skuteczna ochrona chmury</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</link>
+        
+        <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo chmury"
+            
+              , "Odporność firmy"
+            
+              , "Wdrożenie CSPM"
+            
+              , "Proaktywne wykrywanie zagrożeń"
+            
+              , "Zarządzanie zgodnością"
+            
+              , "Zasady bezpieczeństwa"
+            
+              , "Współpraca między zespołami"
+            
+              , "Infrastruktura chmurowa"
+            
+              , "Automatyzacja bezpieczeństwa"
+            
+              , "Ograniczanie ryzyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Użyj zarządzania stanem bezpieczeństwa chmury, aby wykrywać błędne konfiguracje, egzekwować zasady, obsługiwać alerty i zgodność oraz kierować naprawą w kontach chmurowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/leveraging-cloud-security-posture-management-%28cspm%29-for-your-business.webp" length="234272" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Planowanie reagowania na incydenty: przewodnik krok po kroku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</link>
+        
+        <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Bezpieczeństwo firmy"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Planowanie bezpieczeństwa"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Odporność cyfrowa"
+            
+              , "Zarządzanie kryzysowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Opracuj plan reagowania na incydenty z jasno określonymi rolami, kanałami komunikacji, procedurami, narzędziami, ćwiczeniami, miernikami i aktualizacjami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.webp" length="96088" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NIST Cybersecurity Framework a ISO 27001: porównanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</link>
+        
+        <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Ramy bezpieczeństwa"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Ochrona danych"
+            
+              , "Zgodność"
+            
+              , "Ład IT"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Ryzyko cybernetyczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice między NIST Cybersecurity Framework a ISO 27001, aby świadomie wybrać ramy bezpieczeństwa odpowiednie dla swojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_shield_protecting_a_network_of.webp" length="102920" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Poznaj Metasploit: kompleksowy framework do testów penetracyjnych i tworzenia exploitów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-metasploit/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Metasploit"
+            
+              , "testy penetracyjne"
+            
+              , "rozwój exploitów"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "generowanie ładunku"
+            
+              , "działania posteksploatacyjne"
+            
+              , "etyczne hakowanie"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "open-source"
+            
+              , "ramy bezpieczeństwa"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "inżynieria społeczna"
+            
+              , "Metasploit Framework"
+            
+              , "Metasploit Pro"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "HD Moore"
+            
+              , "Rapid7"
+            
+              , "rozwiązania bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "Ustawa o oszustwach i nadużyciach komputerowych"
+            
+              , "CFAA"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "narzędzia hakerskie"
+            
+              , "narzędzia cyberbezpieczeństwa"
+            
+              , "społeczność cyberbezpieczeństwa"
+            
+              , "zasoby cyberbezpieczeństwa"
+            
+              , "specjaliści ds. cyberbezpieczeństwa"
+            
+              , "najlepsze praktyki cyberbezpieczeństwa"
+            
+              , "zgodność z cyberbezpieczeństwem"
+            
+              , "przepisy dotyczące cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-metasploit/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Metasploit, frameworka open-source do testów penetracyjnych i tworzenia exploitów, z solidnymi funkcjami i dużą społecznością.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.webp" length="97762" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rola języków programowania w cyberbezpieczeństwie: Odkrywanie kluczowych narzędzi i aplikacji</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/</link>
+        
+        <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "języki programowania"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "kluczowe narzędzia"
+            
+              , "aplikacje"
+            
+              , "bezpieczne systemy"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "aplikacje internetowe"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "testy penetracyjne"
+            
+              , "bezpieczne kodowanie"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "języki skryptowe"
+            
+              , "automatyzacja"
+            
+              , "bezpieczna komunikacja"
+            
+              , "analiza danych"
+            
+              , "uczenie maszynowe"
+            
+              , "reakcja na incydent"
+            
+              , "rozwój exploitów"
+            
+              , "ramy bezpieczeństwa"
+            
+              , "utwardzanie systemu"
+            
+              , "analiza dziennika"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "protokoły sieciowe"
+            
+              , "tworzenie stron internetowych"
+            
+              , "praktyki bezpiecznego kodowania"
+            
+              , "usługi kryptograficzne"
+            
+              , "sandboxing"
+            
+              , "kontrola dostępu"
+            
+              , "inżynieria odwrotna"
+            
+              , "wykrywanie zagrożeń"
+            
+              , "zarządzanie bezpieczeństwem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kluczową rolę języków programowania w cyberbezpieczeństwie i zagłęb się w ich zastosowania, narzędzia i znaczenie w zabezpieczaniu systemów cyfrowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.webp" length="130016" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>5 najważniejszych certyfikatów cyberbezpieczeństwa dla profesjonalistów biznesowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/top-five-cybersecurity-certifications-for-business-professionals/</link>
+        
+        <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "certyfikaty cyberbezpieczeństwa"
+            
+              , "certyfikaty nietechniczne"
+            
+              , "profesjonaliści biznesowi"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "zarządzanie prywatnością"
+            
+              , "umiejętności cyberbezpieczeństwa"
+            
+              , "ochrona danych"
+            
+              , "programy certyfikacyjne"
+            
+              , "CISSP"
+            
+              , "CIPP E"
+            
+              , "CIPM"
+            
+              , "CISM"
+            
+              , "CIPP US"
+            
+              , "ład bezpieczeństwa"
+            
+              , "przepisy dotyczące prywatności"
+            
+              , "zgodność"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "prywatność informacji"
+            
+              , "bezpieczeństwo biznesu"
+            
+              , "prywatność danych"
+            
+              , "certyfikaty 2026"
+            
+              , "przywództwo w obszarze bezpieczeństwa"
+            
+              , "specjalista ds. prywatności"
+            
+              , "cyberbezpieczeństwo biznesowe"
+            
+              , "certyfikaty dla kadry kierowniczej"
+            
+              , "certyfikaty zarządzania"
+            
+              , "zgodność bezpieczeństwa"
+            
+              , "zgodność z GDPR"
+            
+              , "zgodność z CCPA"
+            
+              , "zgodność z HIPAA"
+            
+              , "inspektor ochrony danych"
+            
+              , "inspektor prywatności"
+            
+              , "menedżer bezpieczeństwa"
+            
+              , "ład cyberbezpieczeństwa"
+            
+              , "ocena ryzyka"
+            
+              , "ramy bezpieczeństwa"
+            
+              , "ramy prywatności"
+            
+              , "koszt certyfikacji"
+            
+              , "zwrot z certyfikacji"
+            
+              , "rozwój kariery"
+            
+              , "wzrost wynagrodzenia"
+            
+              , "umiejętności bezpieczeństwa biznesowego"
+            
+              , "bezpieczeństwo przedsiębiorstwa"
+            
+              , "bezpieczeństwo organizacji"
+            
+              , "strategia bezpieczeństwa"
+            
+              , "strategia prywatności"
+            
+              , "zarządzanie zgodnością"
+            
+              , "zarządzanie programem bezpieczeństwa"
+            
+              , "zarządzanie programem prywatności"
+            
+              , "zarządzanie ryzykiem biznesowym"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "polityka prywatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/top-five-cybersecurity-certifications-for-business-professionals/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj certyfikaty cyberbezpieczeństwa dla profesjonalistów biznesowych pod względem kosztów, zakresu, wartości dla kariery i odpowiedzialności za ochronę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_featuring_a_group_of_diverse_business_professional.webp" length="117450" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

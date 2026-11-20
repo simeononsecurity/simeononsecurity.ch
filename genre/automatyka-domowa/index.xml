@@ -1,0 +1,233 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automatyka Domowa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Automatyka Domowa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/automatyka-domowa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/automatyka-domowa/</link>
+
+    <description>Recent content in Automatyka Domowa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/automatyka-domowa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Powrót Home Assistant Core 2026.11 do wersji 2026.10.4: naprawa wersji 3 magazynu HTTP</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link>
+        
+        <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyka domowa"
+            
+              , "Rozwiązywanie problemów"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Napraw błąd wersji 3 magazynu HTTP po powrocie Home Assistant Core 2026.11 do wersji 2026.10.4 na Yellow. Artykuł zawiera zabezpieczone polecenia i zweryfikowane wyniki.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp" length="32856" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne huby inteligentnego domu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</link>
+        
+        <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Bezpieczeństwo domu"
+            
+              , "Inteligentny dom"
+            
+              , "Automatyka domowa"
+            
+              , "Prywatność"
+            
+              , "Internet rzeczy"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Urządzenia połączone"
+            
+              , "Ulepszanie domu"
+            
+              , "Elektronika użytkowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj bezpieczne huby inteligentnego domu, które zapewniają wygodną i chronioną automatyzację.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-smart-home-hubs.webp" length="49576" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie asystentów głosowych: Obawy dotyczące prywatności i strategie łagodzenia skutków</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/securing-voice-assistants-and-addressing-privacy-concerns/</link>
+        
+        <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wiadomości technologiczne"
+            
+              , "Prywatność i bezpieczeństwo"
+            
+              , "Urządzenia inteligentnego domu"
+            
+              , "Cyfrowi asystenci"
+            
+              , "Prywatność danych"
+            
+              , "Elektronika użytkowa"
+            
+              , "Gadżety techniczne"
+            
+              , "Internet rzeczy"
+            
+              , "Automatyka domowa"
+            
+              , "Bezpieczeństwo danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/securing-voice-assistants-and-addressing-privacy-concerns/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zabezpieczyć asystentów głosowych i chronić swoją prywatność dzięki skutecznym strategiom ograniczania obaw o prywatność.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_illustration_showing_a_person.webp" length="93642" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

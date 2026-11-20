@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Błąd Człowieka on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Błąd Człowieka on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/b%C5%82%C4%85d-cz%C5%82owieka/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/b%C5%82%C4%85d-cz%C5%82owieka/</link>
+
+    <description>Recent content in Błąd Człowieka on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/b%C5%82%C4%85d-cz%C5%82owieka/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Błąd człowieka: jedna z głównych przyczyn naruszeń danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mitigating-human-error-data-breaches/</link>
+        
+        <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Błąd człowieka"
+            
+              , "Naruszenia danych"
+            
+              , "Ochrona danych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Szkolenia z bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mitigating-human-error-data-breaches/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak błędy ludzkie przyczyniają się do naruszeń danych i jak ograniczyć to ryzyko.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/data-breach-prevention.webp" length="143036" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

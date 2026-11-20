@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wzmocnienie Bezpieczeństwa Komputera on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Wzmocnienie Bezpieczeństwa Komputera on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wzmocnienie-bezpiecze%C5%84stwa-komputera/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wzmocnienie-bezpiecze%C5%84stwa-komputera/</link>
+
+    <description>Recent content in Wzmocnienie Bezpieczeństwa Komputera on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wzmocnienie-bezpiecze%C5%84stwa-komputera/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmocnij bezpieczeństwo komputera, wyłączając SSL oraz TLS 1.1 i starsze wersje</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hardening-tls-and-ssl/</link>
+        
+        <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wzmocnienie bezpieczeństwa komputera"
+            
+              , "Wyłączanie SSL i TLS"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "POODLE"
+            
+              , "BEAST"
+            
+              , "Heartbleed"
+            
+              , "Edytor rejestru Windows"
+            
+              , "Konfiguracja OpenSSL w Linux"
+            
+              , "Apache"
+            
+              , "Nginx"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hardening-tls-and-ssl/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wyłącz SSL i stare wersje TLS, pozostawiając TLS 1.2 lub nowszy. Artykuł omawia Schannel i .NET w Windows oraz usługi Linux.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp" length="106014" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

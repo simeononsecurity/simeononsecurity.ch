@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Biblioteka Tinify on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Biblioteka Tinify on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/biblioteka-tinify/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/biblioteka-tinify/</link>
+
+    <description>Recent content in Biblioteka Tinify on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 04 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/biblioteka-tinify/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Optymalizacja obrazów za pomocą Pythona</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</link>
+        
+        <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Programowanie w Pythonie"
+            
+              , "Optymalizacja obrazów"
+            
+              , "SEO"
+            
+              , "Wydajność witryn"
+            
+              , "Doświadczenie użytkownika"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Automatyzacja"
+            
+              , "Programowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Optymalizuj obrazy w Pythonie przez zmianę rozmiaru, kompresję i konwersję formatów w powtarzalnych procesach Pillow.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_Python_script_optimizing.webp" length="146766" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

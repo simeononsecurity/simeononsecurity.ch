@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hacking on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Hacking on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/hacking/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/hacking/</link>
+
+    <description>Recent content in Hacking on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 29 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabawne mity o cyberbezpieczeństwie: hollywoodzkie fantazje o hakerach</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hilarious-cybersecurity-myths-hollywood-hacking-antics/</link>
+        
+        <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Hacking"
+            
+              , "Rozrywka"
+            
+              , "Popkultura"
+            
+              , "Seriale telewizyjne"
+            
+              , "Film"
+            
+              , "Technologia"
+            
+              , "Humor"
+            
+              , "Świat cyfrowy"
+            
+              , "Media"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hilarious-cybersecurity-myths-hollywood-hacking-antics/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najzabawniejsze mity o cyberbezpieczeństwie w popkulturze, od dwóch osób przy jednej klawiaturze po „Zoom Enhance” z CSI.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity-hackers-cartoon.webp" length="164288" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

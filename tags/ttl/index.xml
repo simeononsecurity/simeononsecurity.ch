@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TTL on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>TTL on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ttl/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ttl/</link>
+
+    <description>Recent content in TTL on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 20 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ttl/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak działa DNS: główny system DNS, znaczenie i rozwiązywanie problemów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-does-dns-work/</link>
+        
+        <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Podstawy DNS"
+            
+              , "Główny system DNS"
+            
+              , "System nazw domenowych"
+            
+              , "Rozwiązywanie nazw DNS"
+            
+              , "Hierarchia DNS"
+            
+              , "Buforowanie DNS"
+            
+              , "Diagnostyka DNS"
+            
+              , "Rekordy DNS"
+            
+              , "Zarządzanie DNS"
+            
+              , "Polecenia DNS"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-does-dns-work/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zasady działania DNS i głównego systemu DNS, ich hierarchię, proces rozwiązywania nazw, buforowanie i wskazówki diagnostyczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_interconnected_computer_ne.webp" length="167680" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,174 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Łączność Poza Siecią on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Łączność Poza Siecią on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/%C5%82%C4%85czno%C5%9B%C4%87-poza-sieci%C4%85/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/%C5%82%C4%85czno%C5%9B%C4%87-poza-sieci%C4%85/</link>
+
+    <description>Recent content in Łączność Poza Siecią on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/%C5%82%C4%85czno%C5%9B%C4%87-poza-sieci%C4%85/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Meshtastic vs MeshCore vs Reticulum</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link>
+        
+        <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "LoRa"
+            
+              , "Sieci mesh"
+            
+              , "Łączność poza siecią"
+            
+              , "Łączność awaryjna"
+            
+              , "Krótkofalarstwo"
+            
+              , "Open source"
+            
+              , "Przygotowanie na katastrofy"
+            
+              , "Sieci bezprzewodowe"
+            
+              , "Prywatność"
+            
+              , "Sieci komputerowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj Meshtastic, MeshCore i Reticulum pod kątem routingu, czasu zajęcia kanału, infrastruktury, transportu i zastosowań poza siecią.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Łączność i bezpieczeństwo danych dla wdrażanych w terenie węzłów edge</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Edge computing"
+            
+              , "Informatyka terenowa"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "VPN"
+            
+              , "Szyfrowanie"
+            
+              , "Bezpieczeństwo fizyczne"
+            
+              , "Odzyskiwanie po awarii"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Podłącz i zabezpiecz terenowe węzły edge computing za pomocą sieci komórkowej, satelitarnej, LoRa, VPN, MFA, segmentacji, logowania, szyfrowania i ochrony przed kradzieżą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

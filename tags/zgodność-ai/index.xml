@@ -1,0 +1,137 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zgodność AI on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Zgodność AI on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zgodno%C5%9B%C4%87-ai/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zgodno%C5%9B%C4%87-ai/</link>
+
+    <description>Recent content in Zgodność AI on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zgodno%C5%9B%C4%87-ai/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Certyfikaty cyberbezpieczeństwa AI: nie nadążają za praktyką</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ai-cybersecurity-governance-certifications-disappointing/</link>
+        
+        <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo AI"
+            
+              , "Zarządzanie AI"
+            
+              , "Certyfikaty AI"
+            
+              , "NIST AI RMF"
+            
+              , "NIST AI 600-1"
+            
+              , "ISO 42001"
+            
+              , "IAPP AIGP"
+            
+              , "wstrzykiwanie promptów"
+            
+              , "Cyberbezpieczeństwo AI"
+            
+              , "Bezpieczeństwo LLM"
+            
+              , "OWASP LLM Top 10"
+            
+              , "MITRE ATLAS"
+            
+              , "Zarządzanie ryzykiem AI"
+            
+              , "Zgodność AI"
+            
+              , "Bezpieczeństwo uczenia maszynowego"
+            
+              , "Łańcuch dostaw modeli"
+            
+              , "Adwersarialne AI"
+            
+              , "Agenci AI"
+            
+              , "Bezpieczeństwo MCP"
+            
+              , "Red teaming AI"
+            
+              , "Certyfikaty zarządzania AI"
+            
+              , "Agentowa AI"
+            
+              , "Google SAIF"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ai-cybersecurity-governance-certifications-disappointing/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Opinia o różnicy między certyfikatami zarządzania AI a praktyką bezpieczeństwa AI, oparta na doświadczeniach z certyfikacją i obecnych ograniczeniach powierzchni ataku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp" length="339504" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

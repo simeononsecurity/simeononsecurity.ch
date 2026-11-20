@@ -1,0 +1,457 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Odzyskiwanie Po Awarii on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Odzyskiwanie Po Awarii on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/odzyskiwanie-po-awarii/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/odzyskiwanie-po-awarii/</link>
+
+    <description>Recent content in Odzyskiwanie Po Awarii on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/odzyskiwanie-po-awarii/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przeprowadź test odtwarzania kopii zapasowej homelabu za pomocą Restic</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/homelab-backup-restore-drill/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Homelab"
+            
+              , "Kopia zapasowa"
+            
+              , "Odzyskiwanie po awarii"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/homelab-backup-restore-drill/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, czy kopia zapasowa homelabu przywraca użyteczne pliki. Określ cel odzyskiwania, odtwórz dane programem Restic w osobnej lokalizacji, sprawdź je i zapisz wynik.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/homelab-backup-restore-drill.webp" length="80454" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wirtualizacja: większa wydajność i skalowalność IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</link>
+        
+        <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przewodnik po wirtualizacji"
+            
+              , "Infrastruktura IT"
+            
+              , "Innowacje technologiczne"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Zarządzanie centrami danych"
+            
+              , "Wydajność obliczeniowa"
+            
+              , "Rozwiązania sieciowe"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Optymalizacja sprzętu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj wirtualizację, aby poprawić wydajność IT. Sprawdź jej rodzaje, zalety i dobre praktyki zarządzania infrastrukturą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/understanding-virtualization_-concepts-and-applications.webp" length="103918" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po certyfikacji CISSP: Wskazówki dotyczące przygotowania do egzaminu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/</link>
+        
+        <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Certyfikacja CISSP"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "przygotowanie do egzaminu"
+            
+              , "plan studiów"
+            
+              , "egzaminy praktyczne"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "rozwój zawodowy"
+            
+              , "egzamin certyfikacyjny"
+            
+              , "ISC2"
+            
+              , "możliwości kariery"
+            
+              , "architektura bezpieczeństwa"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "kontrola dostępu"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "szyfrowanie"
+            
+              , "operacje bezpieczeństwa"
+            
+              , "bezpieczeństwo fizyczne"
+            
+              , "ciągłość działania"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "zgodność"
+            
+              , "wskazówki do egzaminu CISSP"
+            
+              , "materiały do nauki CISSP"
+            
+              , "wymagania CISSP"
+            
+              , "format egzaminu CISSP"
+            
+              , "testy praktyczne CISSP"
+            
+              , "rejestracja CISSP"
+            
+              , "certyfikacja bezpieczeństwa informacji"
+            
+              , "certyfikacja specjalisty ds. bezpieczeństwa"
+            
+              , "zarządzanie bezpieczeństwem"
+            
+              , "ocena bezpieczeństwa"
+            
+              , "bezpieczeństwo oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak przygotować się i zdać egzamin CISSP, prestiżowy certyfikat dla specjalistów ds. bezpieczeństwa informacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.webp" length="98504" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowa bezpiecznego potoku DevOps: dobre praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "bezpieczeństwo"
+            
+              , "potok DevOps"
+            
+              , "integracja ciągła"
+            
+              , "ciągłe dostarczanie"
+            
+              , "automatyzacja"
+            
+              , "konteneryzacja"
+            
+              , "bezpieczne programowanie"
+            
+              , "skanowanie podatności"
+            
+              , "monitorowanie"
+            
+              , "informacja zwrotna"
+            
+              , "kontrola wersji"
+            
+              , "kontrola dostępu"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "ciągłość działania"
+            
+              , "studium przypadku"
+            
+              , "Spring"
+            
+              , "Django"
+            
+              , "OWASP"
+            
+              , "Netflix"
+            
+              , "Capital One"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj dobre praktyki i przykłady z życia, które pomogą Ci budować i utrzymywać bezpieczny potok DevOps.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/building-and-maintaining-a-secure-devops-pipeline.webp" length="212424" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tworzenie bezpiecznego i zgodnego z przepisami środowiska chmury: Przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-a-secure-and-compliant-cloud-environment/</link>
+        
+        <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "chmura obliczeniowa"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prywatność danych"
+            
+              , "zgodność z przepisami"
+            
+              , "HIPAA"
+            
+              , "PCI DSS"
+            
+              , "RODO"
+            
+              , "kopie zapasowe danych"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "szyfrowanie"
+            
+              , "kontrola dostępu"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "ciągły monitoring"
+            
+              , "oceny podatności"
+            
+              , "naruszenia danych"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "błędna konfiguracja"
+            
+              , "utrata danych"
+            
+              , "dostawca chmury"
+            
+              , "środki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-a-secure-and-compliant-cloud-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zbudować bezpieczne i zgodne z przepisami środowisko chmurowe dla swojej firmy, korzystając z naszego kompleksowego przewodnika.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/building-a-secure-and-compliant-cloud-environment.webp" length="248838" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,592 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chmura Obliczeniowa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Chmura Obliczeniowa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/chmura-obliczeniowa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/chmura-obliczeniowa/</link>
+
+    <description>Recent content in Chmura Obliczeniowa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/chmura-obliczeniowa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible vs Puppet vs Chef 2026: zarządzanie konfiguracją</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "Automatyzacja infrastruktury"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Operacje IT"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Administracja systemami"
+            
+              , "IT dla przedsiębiorstw"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Infrastruktura IT"
+            
+              , "Narzędzia automatyzacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie Ansible, Puppet i Chef z 2026 roku obejmujące architekturę, funkcje, krzywą uczenia, wydajność, ceny i zastosowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wirtualizacja: większa wydajność i skalowalność IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</link>
+        
+        <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przewodnik po wirtualizacji"
+            
+              , "Infrastruktura IT"
+            
+              , "Innowacje technologiczne"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Zarządzanie centrami danych"
+            
+              , "Wydajność obliczeniowa"
+            
+              , "Rozwiązania sieciowe"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Optymalizacja sprzętu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj wirtualizację, aby poprawić wydajność IT. Sprawdź jej rodzaje, zalety i dobre praktyki zarządzania infrastrukturą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/understanding-virtualization_-concepts-and-applications.webp" length="103918" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze rozwiązania do przechowywania danych: HDD, SSD i chmura</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</link>
+        
+        <pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przechowywanie danych"
+            
+              , "Technologia"
+            
+              , "Rozwiązania cyfrowe"
+            
+              , "Poradniki HDD"
+            
+              , "Informacje o SSD"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Zarządzanie IT"
+            
+              , "Przeglądy sprzętu"
+            
+              , "Porady dotyczące oprogramowania"
+            
+              , "Komputery osobiste"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, jak wybrać między dyskiem HDD, SSD i chmurą. Które rozwiązanie jest dla Ciebie?
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options.webp" length="118244" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>VMware vs Hyper-V vs Proxmox: Porównanie Wirtualizacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link>
+        
+        <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Wirtualizacja"
+            
+              , "Infrastruktura IT"
+            
+              , "Wirtualizacja serwerów"
+            
+              , "Oprogramowanie dla przedsiębiorstw"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Rozwiązania dla centrów danych"
+            
+              , "Wirtualizacja Open Source"
+            
+              , "Zarządzanie maszynami wirtualnymi"
+            
+              , "Porównanie wirtualizacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj łatwe porównanie VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE i XCP-NG i wybierz idealne rozwiązanie wirtualizacyjne dla sukcesu biznesowego.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>FedRAMP: bezpieczne rozwiązania chmurowe dla administracji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</link>
+        
+        <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Administracja"
+            
+              , "Usługi chmurowe"
+            
+              , "Zgodność"
+            
+              , "Przepisy federalne"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Ochrona danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          FedRAMP wzmacnia bezpieczeństwo rozwiązań chmurowych wykorzystywanych przez administrację.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Secure-Cloud-Government-Shield.webp" length="63200" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rozwiń swój potencjał dzięki Azure for Students</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</link>
+        
+        <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Zasoby dla studentów"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Microsoft Azure"
+            
+              , "Windows Server"
+            
+              , "Windows 10"
+            
+              , "Windows 11"
+            
+              , "Visual Studio"
+            
+              , "Narzędzia edukacyjne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj Microsoft Azure for Students: wymagania, dostępne oprogramowanie, limity konta i praktyczne kroki na początek.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/azure_for_students_animated_cloud.webp" length="73614" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerCLI w zarządzaniu vSphere</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link>
+        
+        <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Wirtualizacja"
+            
+              , "VMware"
+            
+              , "Zarządzanie IT"
+            
+              , "Automatyzacja"
+            
+              , "Interfejs wiersza poleceń"
+            
+              , "Skrypty"
+            
+              , "Administracja systemami"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Zarządzanie centrum danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj PowerCLI do zarządzania VMware vSphere, automatyzacji zadań i zwiększania produktywności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpłatne certyfikaty Oracle dla specjalistów ds. cyberbezpieczeństwa i IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/free-oracle-certifications-cybersecurity-it-professionals/</link>
+        
+        <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Certyfikaty IT"
+            
+              , "Rozwój zawodowy"
+            
+              , "Certyfikaty Oracle"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Zarządzanie danymi"
+            
+              , "Rozwój kariery"
+            
+              , "Nauka online"
+            
+              , "Edukacja technologiczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/free-oracle-certifications-cybersecurity-it-professionals/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj bezpłatne certyfikaty Oracle dla specjalistów ds. cyberbezpieczeństwa i IT, tematy OCI, wymagania wstępne i możliwości zawodowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_image_featuring_a_professional_cyb.webp" length="87826" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,425 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metody Uwierzytelniania on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Metody Uwierzytelniania on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/metody-uwierzytelniania/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/metody-uwierzytelniania/</link>
+
+    <description>Recent content in Metody Uwierzytelniania on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 27 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/metody-uwierzytelniania/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ewolucja haseł: od dawnych pieczęci do biometrii</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-evolution-of-passwords_-from-creation-to-management/</link>
+        
+        <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ewolucja haseł"
+            
+              , "Uwierzytelnianie biometryczne"
+            
+              , "Zarządzanie hasłami"
+            
+              , "Historia cyberbezpieczeństwa"
+            
+              , "Trendy w bezpieczeństwie"
+            
+              , "Przyszłość haseł"
+            
+              , "Uwierzytelnianie wieloskładnikowe"
+            
+              , "Bezpieczeństwo łańcucha bloków"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Biometria behawioralna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-evolution-of-passwords_-from-creation-to-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj historię zabezpieczania haseł, od wspólnych sekretów po menedżery haseł, MFA, klucze dostępu, biometrię i praktyczną ochronę kont osobistych oraz firmowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-evolution-of-passwords_-from-creation-to-management.webp" length="68376" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego zasady złożoności haseł są przestarzałe</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/password-complexity-security-article/</link>
+        
+        <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo haseł"
+            
+              , "Metody uwierzytelniania"
+            
+              , "Zagrożenia online"
+            
+              , "Edukacja użytkowników"
+            
+              , "Wytyczne NIST"
+            
+              , "Nowoczesne uwierzytelnianie"
+            
+              , "Świadomość phishingu"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Bezpieczeństwo online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/password-complexity-security-article/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, dlaczego zasady złożoności haseł tracą skuteczność i jak praktycznie poprawić bezpieczeństwo w sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/password-complexity-security.webp" length="115670" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uwierzytelnianie biometryczne: zastosowania i bezpieczeństwo</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/biometric-authentication-use-cases-and-security-considerations/</link>
+        
+        <pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Biometria"
+            
+              , "Uwierzytelnianie"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Weryfikacja tożsamości"
+            
+              , "Ochrona danych"
+            
+              , "Prywatność"
+            
+              , "Nowe trendy"
+            
+              , "Doświadczenie użytkownika"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/biometric-authentication-use-cases-and-security-considerations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zastosowania i zagadnienia bezpieczeństwa uwierzytelniania biometrycznego, które pomaga chronić poufne dane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/biometric-authentication-use-cases-and-security-considerations.webp" length="228916" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Chroń się przed atakami socjotechnicznymi</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-protect-yourself-from-social-engineering/</link>
+        
+        <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ataki socjotechniczne"
+            
+              , "Ochrona przed socjotechniką"
+            
+              , "Strategie cyberbezpieczeństwa"
+            
+              , "Zapobieganie phishingowi"
+            
+              , "Wzmacnianie haseł"
+            
+              , "Unikanie ataków phishingowych"
+            
+              , "Ochrona urządzeń"
+            
+              , "Rozpoznawanie podejrzanych e-maili i połączeń"
+            
+              , "Zgłaszanie incydentów"
+            
+              , "Świadomość i edukacja w zakresie cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-protect-yourself-from-social-engineering/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak chronić się przed socjotechniką dzięki skutecznym strategiom i dobrym praktykom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_shield_protecting_a_person_from_social_engineering_attack.webp" length="146720" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Potęga SSH: bezpieczny zdalny dostęp i łatwe zarządzanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-ssh/</link>
+        
+        <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "SSH"
+            
+              , "Secure Shell"
+            
+              , "zdalny dostęp"
+            
+              , "zdalne zarządzanie"
+            
+              , "szyfrowanie"
+            
+              , "uwierzytelnianie"
+            
+              , "integralność danych"
+            
+              , "przenośność"
+            
+              , "transfer plików"
+            
+              , "SCP"
+            
+              , "Klucze SSH"
+            
+              , "Konfiguracja SSH"
+            
+              , "protokół sieciowy"
+            
+              , "zdalne wykonywanie poleceń"
+            
+              , "OpenSSH"
+            
+              , "uwierzytelnianie dwuskładnikowe"
+            
+              , "kryptografia klucza publicznego"
+            
+              , "Adres IP"
+            
+              , "nazwa domeny"
+            
+              , "terminal"
+            
+              , "wiersz polecenia"
+            
+              , "bezpieczeństwo"
+            
+              , "administratorzy systemu"
+            
+              , "deweloperzy"
+            
+              , "wszechstronność"
+            
+              , "metody uwierzytelniania"
+            
+              , "funkcje skrótu"
+            
+              , "tunelowanie"
+            
+              , "opcje niestandardowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-ssh/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zalety SSH, dowiedz się, jak generować klucze SSH, łączyć się ze zdalnymi serwerami, bezpiecznie przesyłać pliki i dostosowywać konfiguracje SSH.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.webp" length="86174" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

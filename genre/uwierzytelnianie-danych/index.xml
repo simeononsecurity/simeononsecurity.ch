@@ -1,0 +1,117 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uwierzytelnianie Danych on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Uwierzytelnianie Danych on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/uwierzytelnianie-danych/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/uwierzytelnianie-danych/</link>
+
+    <description>Recent content in Uwierzytelnianie Danych on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/uwierzytelnianie-danych/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kryptografia bez tajemnic: wyjaśnienie technik szyfrowania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</link>
+        
+        <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Historia kryptografii"
+            
+              , "Techniki szyfrowania"
+            
+              , "Szyfrowanie symetryczne"
+            
+              , "Szyfrowanie asymetryczne"
+            
+              , "Algorytm RSA"
+            
+              , "Kryptografia krzywych eliptycznych"
+            
+              , "Wymiana kluczy Diffiego-Hellmana"
+            
+              , "Poufność danych"
+            
+              , "Integralność danych"
+            
+              , "Uwierzytelnianie danych"
+            
+              , "Zagrożenia związane z komputerami kwantowymi"
+            
+              , "Audyty bezpieczeństwa"
+            
+              , "Bezpieczeństwo portfeli"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sposoby, w jakie szyfrowanie symetryczne, asymetryczne i hybrydowe chroni dane, dowiedz się, jak działa wymiana kluczy i gdzie stosuje się współczesne metody kryptograficzne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques.webp" length="291054" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

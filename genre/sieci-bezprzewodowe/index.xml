@@ -1,0 +1,407 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sieci Bezprzewodowe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Sieci Bezprzewodowe on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/sieci-bezprzewodowe/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/sieci-bezprzewodowe/</link>
+
+    <description>Recent content in Sieci Bezprzewodowe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/sieci-bezprzewodowe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Meshtastic vs MeshCore vs Reticulum</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link>
+        
+        <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "LoRa"
+            
+              , "Sieci mesh"
+            
+              , "Łączność poza siecią"
+            
+              , "Łączność awaryjna"
+            
+              , "Krótkofalarstwo"
+            
+              , "Open source"
+            
+              , "Przygotowanie na katastrofy"
+            
+              , "Sieci bezprzewodowe"
+            
+              , "Prywatność"
+            
+              , "Sieci komputerowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj Meshtastic, MeshCore i Reticulum pod kątem routingu, czasu zajęcia kanału, infrastruktury, transportu i zastosowań poza siecią.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>MeshCore czy Meshtastic: porównanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</link>
+        
+        <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "LoRa"
+            
+              , "Sieci mesh"
+            
+              , "Komunikacja offline"
+            
+              , "Łączność awaryjna"
+            
+              , "Łączność taktyczna"
+            
+              , "Krótkofalarstwo"
+            
+              , "Open source"
+            
+              , "Przygotowanie na katastrofy"
+            
+              , "Sieci bezprzewodowe"
+            
+              , "Prywatność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj MeshCore i Meshtastic pod kątem routingu, zasięgu, czasu nadawania, infrastruktury, obsługiwanych urządzeń i zastosowań.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/meshcore-vs-meshtastic-comparison-guide.webp" length="173676" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skuteczne sieci dalekiego zasięgu dzięki odpowiednim rozwiązaniom kablowym</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/networking-over-long-distances_-understanding-cabling-types/</link>
+        
+        <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sieci komputerowe"
+            
+              , "Technologie komunikacyjne"
+            
+              , "Okablowanie danych"
+            
+              , "Światłowody"
+            
+              , "Infrastruktura IT"
+            
+              , "Sieci Ethernet"
+            
+              , "Telekomunikacja"
+            
+              , "Sieci bezprzewodowe"
+            
+              , "Rozwiązania IT dla firm"
+            
+              , "Inżynieria sieciowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/networking-over-long-distances_-understanding-cabling-types/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze kable do sieci dalekiego zasięgu i popraw jakość komunikacji. Ten przewodnik pomaga specjalistom IT wybrać niezawodne rozwiązania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/networking-over-long-distances_-understanding-cabling-types.webp" length="59222" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak rozmieścić punkty dostępowe, aby poprawić zasięg Wi-Fi</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link>
+        
+        <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Sieci"
+            
+              , "Sieci bezprzewodowe"
+            
+              , "Punkty dostępowe"
+            
+              , "Instalacja Wi-Fi"
+            
+              , "Optymalizacja sieci"
+            
+              , "Sieci domowe"
+            
+              , "Łączność bezprzewodowa"
+            
+              , "Internet rzeczy"
+            
+              , "Rozwiązania sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sprawdzone sposoby rozmieszczania punktów dostępowych, które poprawiają łączność bezprzewodową, ograniczają zakłócenia i zapewniają stabilne działanie sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kurs Network Plus: Bezpieczeństwo sieci bezprzewodowej i dostęp do IoT</title>
+        
+          <link>https://pl.simeononsecurity.com/network-plus/network-plus-course-wireless-security-iot-access/</link>
+        
+        <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Egzamin certyfikacyjny CompTIA Network Plus"
+            
+              , "Bezpieczeństwo bezprzewodowe"
+            
+              , "Dostęp do IoT"
+            
+              , "Filtrowanie adresów MAC"
+            
+              , "Rozmieszczenie anteny"
+            
+              , "Poziomy mocy"
+            
+              , "Izolacja klienta"
+            
+              , "Izolacja sieci gości"
+            
+              , "Klucze współdzielone"
+            
+              , "EAP"
+            
+              , "Geofencing"
+            
+              , "Captive Portal"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "Sieci bezprzewodowe"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Certyfikacja IT"
+            
+              , "Podstawy pracy w sieci"
+            
+              , "Technologia informacyjna"
+            
+              , "Nauka online"
+            
+              , "Rozwój zawodowy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/network-plus/network-plus-course-wireless-security-iot-access/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poszerz swoją wiedzę na temat bezpieczeństwa sieci bezprzewodowych i dostępu do IoT dzięki temu kompleksowemu kursowi Network+. Dowiedz się więcej o filtrowaniu adresów MAC, rozmieszczaniu anten, konfiguracji poziomu mocy, kluczach wstępnych, EAP, geofencingu i zabezpieczeniach urządzeń IoT.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_lock_securing_a_wi.webp" length="47096" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

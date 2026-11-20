@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zasady Haseł on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Zasady Haseł on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zasady-hase%C5%82/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zasady-hase%C5%82/</link>
+
+    <description>Recent content in Zasady Haseł on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 14 Oct 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zasady-hase%C5%82/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie Active Directory</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/active-directory-security-best-practices/</link>
+        
+        <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie siecią"
+            
+              , "Technologia informacyjna"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Infrastruktura cyfrowa"
+            
+              , "Kontrola dostępu"
+            
+              , "Uwierzytelnianie użytkowników"
+            
+              , "Dobre praktyki IT"
+            
+              , "Świadomość bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/active-directory-security-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sposoby zabezpieczania Active Directory, ochrony danych i zapobiegania włamaniom do infrastruktury sieciowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

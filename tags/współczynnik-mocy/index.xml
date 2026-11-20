@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Współczynnik Mocy on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Współczynnik Mocy on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wsp%C3%B3%C5%82czynnik-mocy/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wsp%C3%B3%C5%82czynnik-mocy/</link>
+
+    <description>Recent content in Współczynnik Mocy on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wsp%C3%B3%C5%82czynnik-mocy/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dobierz zasilacz UPS do homelabu i przetestuj automatyczne wyłączanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Laboratorium domowe"
+            
+              , "Ochrona zasilania"
+            
+              , "Administracja systemami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zmierz pobór mocy homelabu, porównaj limity W i VA zasilacza UPS, sprawdź czas pracy przy swoim obciążeniu i przetestuj bezpieczne wyłączanie, zanim zaufasz zasilaniu z baterii.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

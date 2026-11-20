@@ -1,0 +1,511 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczeństwo on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/bezpiecze%C5%84stwo/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/bezpiecze%C5%84stwo/</link>
+
+    <description>Recent content in Bezpieczeństwo on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/bezpiecze%C5%84stwo/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Aktualizacja zabezpieczeń Chrome 156: sprawdź październikową poprawkę</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link>
+        
+        <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przeglądarki"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zarządzanie poprawkami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź wydanie zabezpieczeń Chrome 156 z 27 października w systemach Windows, macOS, Linux i Android. Porównaj zainstalowaną kompilację, dokończ oczekujący restart i osobno sprawdź urządzenia zarządzane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mullvad czy ProtonVPN: którą sieć VPN wybrać?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mullvad-vs-protonvpn/</link>
+        
+        <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Bezpieczeństwo"
+            
+              , "Prywatność"
+            
+              , "Porównanie VPN"
+            
+              , "Anonimowość online"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Bezpieczeństwo Internetu"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona danych"
+            
+              , "Usługi VPN"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mullvad-vs-protonvpn/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj Mullvad VPN i ProtonVPN pod względem bezpieczeństwa, prywatności, wydajności i wygody obsługi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/mullvad-protonvpn-security-race.webp" length="148320" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zadbaj o swoją przyszłość: niezbędne gadżety techniczne na wypadek sytuacji awaryjnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/emergency-tech-preparedness-gadgets/</link>
+        
+        <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Bezpieczeństwo"
+            
+              , "Przygotowanie awaryjne"
+            
+              , "Przetrwanie"
+            
+              , "Gadżety"
+            
+              , "Komunikacja"
+            
+              , "Ochrona"
+            
+              , "Usuwanie skutków katastrof"
+            
+              , "Odporność"
+            
+              , "Łączność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/emergency-tech-preparedness-gadgets/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sprzęt zwiększający bezpieczeństwo i gotowość na sytuacje awaryjne, w tym ładowarki solarne i komunikatory satelitarne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/emergency-preparedness-solar-gadgets.webp" length="167932" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Biometryczne zabezpieczenia dostępu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</link>
+        
+        <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Bezpieczeństwo"
+            
+              , "Biometria"
+            
+              , "Kontrola dostępu"
+            
+              , "Czytniki linii papilarnych"
+            
+              , "Rozpoznawanie twarzy"
+            
+              , "Produkty Amazon"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Innowacje"
+            
+              , "Prywatność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zaawansowane zabezpieczenia biometryczne z czytnikami linii papilarnych i urządzeniami do rozpoznawania twarzy dostępnymi na Amazonie. Zapewniają one skuteczną kontrolę dostępu i spokój ducha.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/biometric-access-control-fingerprint-facial-recognition-devices-amazon.webp" length="183044" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększ bezpieczeństwo maszyn wirtualnych dzięki vTPM: Przewodnik krok po kroku</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link>
+        
+        <pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Wirtualizacja"
+            
+              , "VMware"
+            
+              , "vSphere"
+            
+              , "Bezpieczeństwo"
+            
+              , "Moduł zaufanej platformy"
+            
+              , "vTPM"
+            
+              , "Gość OS"
+            
+              , "Szyfrowanie"
+            
+              , "Atest platformy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ bezpieczeństwo maszyn wirtualnych za pomocą vTPM dzięki naszemu kompleksowemu przewodnikowi krok po kroku, zapewniającemu poświadczenia platformy i obsługę szyfrowania BitLocker.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/enhanced-vm-security.webp" length="99734" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze Przeglądarki Prywatności 2026: LibreWolf vs Brave vs Tor</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link>
+        
+        <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przeglądarki"
+            
+              , "Prywatność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Internet"
+            
+              , "Technologia"
+            
+              , "Prywatność Cyfrowa"
+            
+              , "Bezpieczeństwo Online"
+            
+              , "Open Source"
+            
+              , "Anonimowość"
+            
+              , "Przeglądanie Sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowe porównanie najlepszych przeglądarek skoncentrowanych na prywatności w 2026 roku: LibreWolf, Brave, Firefox, Tor i inne. Szczegółowe testy prywatności, benchmarki wydajności oraz analiza bezpieczeństwa chroniąca Twoje dane online.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opracowanie polityki cyberbezpieczeństwa: Najlepsze praktyki i procedury</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Ochrona danych"
+            
+              , "Zarządzanie informacjami"
+            
+              , "Reakcja na incydent"
+            
+              , "Ciągłość działania"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Rozwój polityki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak opracować kompleksową politykę cyberbezpieczeństwa, która jest zgodna ze standardami branżowymi i wymogami regulacyjnymi, aby chronić poufne informacje organizacji i ograniczać ryzyko cybernetyczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.webp" length="206064" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

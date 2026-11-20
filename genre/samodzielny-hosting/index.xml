@@ -1,0 +1,278 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Samodzielny Hosting on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Samodzielny Hosting on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/samodzielny-hosting/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/samodzielny-hosting/</link>
+
+    <description>Recent content in Samodzielny Hosting on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/samodzielny-hosting/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zbuduj domowe laboratorium w 10 etapach, od Pi-hole do lokalnej AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/build-home-lab-10-levels/</link>
+        
+        <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Domowe laboratorium"
+            
+              , "Samodzielny hosting"
+            
+              , "Lokalna AI"
+            
+              , "Sieci domowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/build-home-lab-10-levels/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zbuduj domowe laboratorium w dziesięciu praktycznych etapach, od filtrowania DNS w całej sieci po lokalną AI, poznając sprzęt, koszty, umiejętności i kompromisy dla każdego poziomu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jakie modele AI działają na Raspberry Pi 4 lub 5?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link>
+        
+        <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Raspberry Pi"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Samodzielny hosting"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wykorzystaj wyniki pomiarów Raspberry Pi 4 i 5, aby dobrać lokalne modele językowe do dostępnej pamięci, szybkości i zadania, od małych modeli LFM2.5 po większe opcje 3B.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Cloudflare Tunnel a Access: czy potrzebujesz obu usług?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link>
+        
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo sieci"
+            
+              , "Samodzielny hosting"
+            
+              , "Bezpieczeństwo chmury"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice między Cloudflare Tunnel i Access, wybierz ochronę dla domowego panelu i uniknij udostępnienia prywatnej aplikacji bez uwierzytelniania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększ produktywność z Homebox: Otwarte oprogramowanie do zarządzania zapasami i zasobami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Zarządzanie zapasami"
+            
+              , "Zarządzanie aktywami"
+            
+              , "Otwarte oprogramowanie"
+            
+              , "Produktywność"
+            
+              , "Mała firma"
+            
+              , "Zarządzanie domem"
+            
+              , "Samodzielny hosting"
+            
+              , "Oprogramowanie"
+            
+              , "Organizacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Homebox, oprogramowania open-source do wydajnego zarządzania zapasami i zasobami, zwiększającego produktywność domu lub małej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp" length="60896" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,249 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Strategie Cyberbezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Strategie Cyberbezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/strategie-cyberbezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/strategie-cyberbezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Strategie Cyberbezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/strategie-cyberbezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmacnianie cyberodporności</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</link>
+        
+        <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Testy penetracyjne"
+            
+              , "Etyczny hacking"
+            
+              , "Strategie cyberbezpieczeństwa"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Ocena podatności"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Zgodność z przepisami"
+            
+              , "Kontrole bezpieczeństwa"
+            
+              , "Cyberodporność"
+            
+              , "Przyszłość cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak regularne testy penetracyjne ujawniają podatności możliwe do wykorzystania, wspierają naprawy oparte na ryzyku i sprawdzają zabezpieczenia systemów oraz aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-importance-of-regular-penetration-testing-for-cybersecurity.webp" length="85258" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanuj automatyzację bezpieczeństwa: strategie i narzędzia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/deep-dive-into-security-automation_-strategies-and-implementation/</link>
+        
+        <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja bezpieczeństwa"
+            
+              , "Strategie cyberbezpieczeństwa"
+            
+              , "Struktury automatyzacji"
+            
+              , "Uczenie maszynowe w bezpieczeństwie"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Ciągłe doskonalenie"
+            
+              , "Narzędzia open source i komercyjne"
+            
+              , "Odporność cybernetyczna"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Wskaźniki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/deep-dive-into-security-automation_-strategies-and-implementation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przewodnik po strategiach i narzędziach automatyzacji bezpieczeństwa, wskaźnikach, ograniczeniach wdrożenia oraz procesach wspieranych przez AI.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/deep-dive-into-security-automation_-strategies-and-implementation.webp" length="257448" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Chroń się przed atakami socjotechnicznymi</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-protect-yourself-from-social-engineering/</link>
+        
+        <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ataki socjotechniczne"
+            
+              , "Ochrona przed socjotechniką"
+            
+              , "Strategie cyberbezpieczeństwa"
+            
+              , "Zapobieganie phishingowi"
+            
+              , "Wzmacnianie haseł"
+            
+              , "Unikanie ataków phishingowych"
+            
+              , "Ochrona urządzeń"
+            
+              , "Rozpoznawanie podejrzanych e-maili i połączeń"
+            
+              , "Zgłaszanie incydentów"
+            
+              , "Świadomość i edukacja w zakresie cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-protect-yourself-from-social-engineering/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak chronić się przed socjotechniką dzięki skutecznym strategiom i dobrym praktykom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_shield_protecting_a_person_from_social_engineering_attack.webp" length="146720" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,476 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Etyczny Hacking on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Etyczny Hacking on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/etyczny-hacking/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/etyczny-hacking/</link>
+
+    <description>Recent content in Etyczny Hacking on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/etyczny-hacking/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmacnianie cyberodporności</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</link>
+        
+        <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Testy penetracyjne"
+            
+              , "Etyczny hacking"
+            
+              , "Strategie cyberbezpieczeństwa"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Ocena podatności"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Zgodność z przepisami"
+            
+              , "Kontrole bezpieczeństwa"
+            
+              , "Cyberodporność"
+            
+              , "Przyszłość cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak regularne testy penetracyjne ujawniają podatności możliwe do wykorzystania, wspierają naprawy oparte na ryzyku i sprawdzają zabezpieczenia systemów oraz aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-importance-of-regular-penetration-testing-for-cybersecurity.webp" length="85258" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalizacja bezpieczeństwa sieci i chmury</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link>
+        
+        <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Ochrona sieci"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Technologie biznesowe"
+            
+              , "Obrona cyfrowa"
+            
+              , "Zagrożenia cybernetyczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zagrożenia, środki ochrony i przykłady naruszeń, aby wzmocnić bezpieczeństwo sieci i chmury.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Hack The Box dla początkujących w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hack-the-box-good-for-beginners-cybersecurity/</link>
+        
+        <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Etyczny hacking"
+            
+              , "Testy penetracyjne"
+            
+              , "Nauka praktyczna"
+            
+              , "Dla początkujących"
+            
+              , "Platformy online"
+            
+              , "Hack The Box Academy"
+            
+              , "TryHackMe"
+            
+              , "Materiały do nauki"
+            
+              , "Wsparcie społeczności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hack-the-box-good-for-beginners-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, czy Hack The Box jest odpowiedni dla początkujących w cyberbezpieczeństwie, i poznaj alternatywy, takie jak Hack The Box Academy i TryHackMe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/hack_the_box_beginner_cybersecurity.webp" length="114812" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Programy bug bounty: crowdsourcing testów bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</link>
+        
+        <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Programy bug bounty"
+            
+              , "Testy crowdsourcingowe"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Etyczny hacking"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Testy bezpieczeństwa"
+            
+              , "Cyberobrona"
+            
+              , "Podatności oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak programy bug bounty wspierają zgłaszanie podatności, testy bezpieczeństwa i odpowiedzialne ujawnianie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/bug-bounty-programs-engaging-the-crowd-in-security-testing.webp" length="238912" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Plan nauki do egzaminu certyfikacyjnego CEH: Porady i strategie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</link>
+        
+        <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "rozwój zawodowy"
+            
+              , "certyfikacja IT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "etyczny hacking"
+            
+              , "przygotowanie do egzaminu"
+            
+              , "plan nauki"
+            
+              , "zarządzanie czasem"
+            
+              , "rozwój kariery"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak stworzyć skuteczny plan studiów dla zdawania egzaminu certyfikacyjnego CEH z poradami i strategiami sukcesu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.webp" length="78844" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kali Purple 2023.1: Aktualizacje i podstawowe funkcje</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/kali-purple-2023.1-a-review/</link>
+        
+        <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Kali Linux"
+            
+              , "Kali Purpura"
+            
+              , "2023.1"
+            
+              , "etyczny hacking"
+            
+              , "test penetracyjny"
+            
+              , "cybersecurity"
+            
+              , "narzędzia"
+            
+              , "ramy exploitów"
+            
+              , "Aktualizacje Kali ARM"
+            
+              , "Kali NetHunter"
+            
+              , "Dokumentacja Kali"
+            
+              , "Wsparcie dla jądra"
+            
+              , "Obsługa Bluetooth"
+            
+              , "LineageOS"
+            
+              , "OneUI"
+            
+              , "Radxa Zero"
+            
+              , "SBC"
+            
+              , "poprawki do jądra"
+            
+              , "wkłady społeczności"
+            
+              , "Dyskordia Kali"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/kali-purple-2023.1-a-review/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zaawansowane funkcje, narzędzia i ulepszenia Kali Purple 2023.1 w naszej kompleksowej recenzji dla etycznych hakerów i entuzjastów cyberbezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_Kali_Linux_dragon_mascot_surrounded.webp" length="162086" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

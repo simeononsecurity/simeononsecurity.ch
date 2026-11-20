@@ -1,0 +1,331 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systemy Wykrywania Włamań on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Systemy Wykrywania Włamań on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/systemy-wykrywania-w%C5%82ama%C5%84/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/systemy-wykrywania-w%C5%82ama%C5%84/</link>
+
+    <description>Recent content in Systemy Wykrywania Włamań on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 22 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/systemy-wykrywania-w%C5%82ama%C5%84/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Task Scheduler a Linux Cron: porównanie bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link>
+        
+        <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Systemy operacyjne"
+            
+              , "Automatyzacja systemów"
+            
+              , "Narzędzia bezpieczeństwa"
+            
+              , "Technologia komputerowa"
+            
+              , "Planowanie zadań"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Administracja systemami"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Zarządzanie IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj Windows Task Scheduler i zadania Cron w systemie Linux z perspektywy cyberbezpieczeństwa i utwardzania systemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>AWS, Azure i Google Cloud 2026: pełne porównanie platform chmurowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przetwarzanie w chmurze"
+            
+              , "Bezpieczeństwo w chmurze"
+            
+              , "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud Platform"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Szyfrowanie"
+            
+              , "Zarządzanie tożsamością i dostępem"
+            
+              , "Zgodność"
+            
+              , "Wykrywanie zagrożeń"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najważniejsze funkcje zabezpieczeń chmury i certyfikaty AWS, Azure i Google Cloud Platform, aby wybrać najlepsze bezpieczne rozwiązanie chmurowe dla swojej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.webp" length="89242" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze praktyki bezpiecznego kodowania w PowerShell: Przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</link>
+        
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Systemy oparte na Windowsie"
+            
+              , "Walidacja wejścia"
+            
+              , "Biblioteki kryptograficzne"
+            
+              , "Najmniejszy przywilej"
+            
+              , "Statyczny analizator kodu"
+            
+              , "Bezpieczne protokoły komunikacyjne"
+            
+              , "Rejestrowanie i monitorowanie"
+            
+              , "Skanowanie podatności"
+            
+              , "Edukacja"
+            
+              , "Wstrzyknięcie kodu"
+            
+              , "Eskalacja uprawnień"
+            
+              , "Wyciek danych"
+            
+              , "Środowisko utwardzania"
+            
+              , "Polityka bezpieczeństwa"
+            
+              , "Firewalle"
+            
+              , "Systemy wykrywania włamań"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Najlepsze praktyki kodowania w PowerShell"
+            
+              , "Bezpieczny kod PowerShell"
+            
+              , "Bezpieczeństwo systemów Windows"
+            
+              , "Walidacja danych wejściowych w PowerShell"
+            
+              , "Kryptografia w PowerShell"
+            
+              , "Zasada najmniejszych uprawnień"
+            
+              , "Statyczny analizator kodu dla PowerShell"
+            
+              , "Bezpieczne protokoły komunikacyjne w PowerShell"
+            
+              , "Rejestrowanie i monitorowanie w PowerShell"
+            
+              , "Skanowanie podatności w PowerShell"
+            
+              , "Edukacja w zakresie bezpieczeństwa PowerShell"
+            
+              , "Zapobieganie wstrzyknięciu kodu"
+            
+              , "Ograniczanie eskalacji uprawnień"
+            
+              , "Zapobieganie wyciekom danych w PowerShell"
+            
+              , "Wzmacnianie środowiska PowerShell"
+            
+              , "Polityki bezpieczeństwa dla PowerShell"
+            
+              , "Konfiguracja zapory sieciowej w PowerShell"
+            
+              , "Systemy wykrywania włamań dla PowerShell"
+            
+              , "Zarządzanie podatnościami w PowerShell"
+            
+              , "Bezpieczeństwo sieci w PowerShell"
+            
+              , "Bezpieczne kodowanie skryptów PowerShell"
+            
+              , "Oczyszczanie danych wejściowych i wyjściowych w PowerShell"
+            
+              , "Bezpieczne protokoły komunikacyjne dla PowerShell"
+            
+              , "Rejestrowanie i monitorowanie w skryptach PowerShell"
+            
+              , "Wzmacnianie środowiska PowerShell"
+            
+              , "Przeprowadzanie skanowania podatności w PowerShell"
+            
+              , "Edukowanie użytkowników i administratorów w zakresie bezpieczeństwa PowerShell"
+            
+              , "Praktyki bezpiecznego kodu PowerShell"
+            
+              , "Bezpieczny i odporny kod PowerShell"
+            
+              , "Najlepsze praktyki bezpieczeństwa PowerShell"
+            
+              , "Najlepsze praktyki zabezpieczeń PowerShell"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki pisania bezpiecznego kodu PowerShell, aby chronić systemy oparte na Windows przed lukami w zabezpieczeniach.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp" length="92676" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

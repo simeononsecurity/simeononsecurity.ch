@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wydajne Sieci on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Wydajne Sieci on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wydajne-sieci/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wydajne-sieci/</link>
+
+    <description>Recent content in Wydajne Sieci on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wydajne-sieci/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Optymalizacja sieci: projekty i topologie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</link>
+        
+        <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Inżynieria sieciowa"
+            
+              , "Infrastruktura IT"
+            
+              , "Poradniki technologiczne"
+            
+              , "Rozwiązania sieciowe"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Informatyka"
+            
+              , "Edukacja technologiczna"
+            
+              , "Architektura systemów"
+            
+              , "Optymalizacja sieci"
+            
+              , "Innowacje technologiczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj projekty i topologie sieci oraz sprawdź, które rozwiązania zapewniają najwyższą wydajność.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/decoding-network-designs_-types-and-topologies-explained.webp" length="121144" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podstawy sieci: podsieci, podział na podsieci i projekt VLAN</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</link>
+        
+        <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Podstawy sieci"
+            
+              , "Podział na podsieci"
+            
+              , "VLAN-y"
+            
+              , "Zarządzanie siecią"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Adresacja IP"
+            
+              , "Segmentacja sieci"
+            
+              , "Efektywne wykorzystanie zasobów"
+            
+              , "Wydajność sieci"
+            
+              , "IPv4"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy podsieci, podziału na podsieci i VLAN-ów, aby sprawniej zarządzać siecią i lepiej ją zabezpieczać.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_comp.webp" length="200202" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

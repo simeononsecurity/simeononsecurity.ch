@@ -1,0 +1,160 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dobór UPS on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Dobór UPS on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/dob%C3%B3r-ups/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/dob%C3%B3r-ups/</link>
+
+    <description>Recent content in Dobór UPS on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/dob%C3%B3r-ups/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dobierz zasilacz UPS do homelabu i przetestuj automatyczne wyłączanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Laboratorium domowe"
+            
+              , "Ochrona zasilania"
+            
+              , "Administracja systemami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zmierz pobór mocy homelabu, porównaj limity W i VA zasilacza UPS, sprawdź czas pracy przy swoim obciążeniu i przetestuj bezpieczne wyłączanie, zanim zaufasz zasilaniu z baterii.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zasilanie i odporność środowiskowa systemów terenowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Edge computing"
+            
+              , "Informatyka terenowa"
+            
+              , "Systemy zasilania"
+            
+              , "Sprzęt"
+            
+              , "Odzyskiwanie po awarii"
+            
+              , "Komputery wzmocnione"
+            
+              , "Sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zaplanuj zasilanie i ochronę środowiskową dla terenowych węzłów edge. Dobierz UPS, akumulatory i panele słoneczne, synchronizację czasu, stopień ochrony obudowy, uziemienie oraz zabezpieczenie przeciwprzepięciowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

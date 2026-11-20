@@ -1,0 +1,469 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ochrona Zasobów Cyfrowych on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Ochrona Zasobów Cyfrowych on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ochrona-zasob%C3%B3w-cyfrowych/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ochrona-zasob%C3%B3w-cyfrowych/</link>
+
+    <description>Recent content in Ochrona Zasobów Cyfrowych on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ochrona-zasob%C3%B3w-cyfrowych/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>7 podstawowych praktyk bezpieczeństwa dla firm</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/7-essential-security-practices-for-any-business/</link>
+        
+        <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo firm"
+            
+              , "Bezpieczeństwo fizyczne"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Szkolenia pracowników"
+            
+              , "Szyfrowanie danych"
+            
+              , "Systemy monitoringu"
+            
+              , "Kontrola dostępu"
+            
+              , "Protokoły bezpieczeństwa"
+            
+              , "Odporność cyfrowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/7-essential-security-practices-for-any-business/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Siedem praktycznych sposobów na zwiększenie bezpieczeństwa firmy, obejmujących ochronę fizyczną, cyberbezpieczeństwo i planowanie odporności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/7-essential-security-practices-for-any-business.webp" length="235660" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubiquiti UniFi Firewall a pfSense</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</link>
+        
+        <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo sieci"
+            
+              , "Rozwiązania firewall"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Porównanie routerów"
+            
+              , "Technologia"
+            
+              , "Rozwiązania IT"
+            
+              , "Firewall open source"
+            
+              , "Ubiquiti kontra pfSense"
+            
+              , "Sieć firmowa"
+            
+              , "Sieć domowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj Ubiquiti UniFi Firewall i pfSense pod kątem skutecznego zabezpieczenia sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Ubiquiti_UniFi_Firewall_vs_pfSense.webp" length="192366" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Programy bug bounty: crowdsourcing testów bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</link>
+        
+        <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Programy bug bounty"
+            
+              , "Testy crowdsourcingowe"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Etyczny hacking"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Testy bezpieczeństwa"
+            
+              , "Cyberobrona"
+            
+              , "Podatności oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak programy bug bounty wspierają zgłaszanie podatności, testy bezpieczeństwa i odpowiedzialne ujawnianie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/bug-bounty-programs-engaging-the-crowd-in-security-testing.webp" length="238912" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Potęga testów penetracyjnych w cyberbezpieczeństwie: Metody, narzędzia i najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/</link>
+        
+        <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "testy penetracyjne"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "etyczne hakowanie"
+            
+              , "podatności"
+            
+              , "ograniczanie ryzyka"
+            
+              , "zgodność"
+            
+              , "reakcja na incydent"
+            
+              , "zaufanie klientów"
+            
+              , "Testy czarnej skrzynki"
+            
+              , "testowanie białej skrzynki"
+            
+              , "testowanie w szarej strefie"
+            
+              , "Metasploit"
+            
+              , "Nmap"
+            
+              , "Burp Suite"
+            
+              , "Wireshark"
+            
+              , "skanowanie sieci"
+            
+              , "bezpieczeństwo aplikacji internetowych"
+            
+              , "ochrona danych"
+            
+              , "Zapobieganie cyberzagrożeniom"
+            
+              , "ocena bezpieczeństwa cyfrowego"
+            
+              , "poprawa stanu bezpieczeństwa"
+            
+              , "analizator protokołów sieciowych"
+            
+              , "strategia cyberbezpieczeństwa"
+            
+              , "luki w zabezpieczeniach systemu"
+            
+              , "wzmocnienie obrony"
+            
+              , "ochrona zasobów cyfrowych"
+            
+              , "korzyści z testów penetracyjnych"
+            
+              , "najlepsze praktyki cyberbezpieczeństwa"
+            
+              , "zgodność z przepisami"
+            
+              , "bezpieczeństwo danych klientów"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kluczową rolę testów penetracyjnych w cyberbezpieczeństwie i poznaj skuteczne metody, niezbędne narzędzia i najlepsze praktyki.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_image_depicting_a_hacker_wearing_a_black_hat.webp" length="95200" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rola eksperta ds. cyberbezpieczeństwa: kompleksowy przewodnik po ochronie zasobów cyfrowych</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-does-a-cybersecurity-expert-do/</link>
+        
+        <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ekspert ds. cyberbezpieczeństwa"
+            
+              , "rola w cyberbezpieczeństwie"
+            
+              , "obowiązki w zakresie cyberbezpieczeństwa"
+            
+              , "umiejętności w zakresie cyberbezpieczeństwa"
+            
+              , "analiza zagrożeń"
+            
+              , "reakcja na incydent"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "algorytmy szyfrowania"
+            
+              , "bezpieczne kodowanie"
+            
+              , "regulacje branżowe"
+            
+              , "RODO"
+            
+              , "HIPAA"
+            
+              , "PCI DSS"
+            
+              , "certyfikaty"
+            
+              , "CISSP"
+            
+              , "CEH"
+            
+              , "CompTIA Security&#43;"
+            
+              , "Ochrona zasobów cyfrowych"
+            
+              , "cyberzagrożenia"
+            
+              , "bezpieczeństwo danych"
+            
+              , "ochrona sieci"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "audyty bezpieczeństwa"
+            
+              , "wykrywanie złośliwego oprogramowania"
+            
+              , "zapobieganie naruszeniom danych"
+            
+              , "kariera w cyberbezpieczeństwie"
+            
+              , "szkolenie w zakresie cyberbezpieczeństwa"
+            
+              , "certyfikaty cyberbezpieczeństwa"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "cyberobrona"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-does-a-cybersecurity-expert-do/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj obowiązki, umiejętności i przepisy branżowe, które określają rolę eksperta ds. cyberbezpieczeństwa w ochronie zasobów cyfrowych i zwalczaniu cyberzagrożeń.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_cybersecurity_expert_wearing_a_superhero_cape.webp" length="63398" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

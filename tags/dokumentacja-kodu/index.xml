@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dokumentacja Kodu on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Dokumentacja Kodu on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/dokumentacja-kodu/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/dokumentacja-kodu/</link>
+
+    <description>Recent content in Dokumentacja Kodu on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 05 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/dokumentacja-kodu/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze rozszerzenia VS Code do programowania w C&#43;&#43;</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-visual-studio-code-extensions-for-cpp-development/</link>
+        
+        <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Programowanie"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Programowanie w C&#43;&#43;"
+            
+              , "Visual Studio Code"
+            
+              , "Edytory kodu"
+            
+              , "Produktywność"
+            
+              , "Narzędzia programistyczne"
+            
+              , "IDE"
+            
+              , "Optymalizacja kodu"
+            
+              , "Wydajność kodu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-visual-studio-code-extensions-for-cpp-development/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze rozszerzenia C++ do Visual Studio Code, które usprawnią programowanie i zwiększą produktywność.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/best-visual-studio-code-extensions-for-cpp-development.webp" length="147434" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

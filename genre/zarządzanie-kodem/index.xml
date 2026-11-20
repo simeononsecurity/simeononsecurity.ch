@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zarządzanie Kodem on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Zarządzanie Kodem on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/zarz%C4%85dzanie-kodem/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/zarz%C4%85dzanie-kodem/</link>
+
+    <description>Recent content in Zarządzanie Kodem on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 08 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/zarz%C4%85dzanie-kodem/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Azure DevOps kontra GitHub, GitLab i Bitbucket</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-code-repositories-comparison/</link>
+        
+        <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Tworzenie oprogramowania"
+            
+              , "Kontrola wersji"
+            
+              , "Narzędzia DevOps"
+            
+              , "Hosting kodu"
+            
+              , "Współpraca nad kodem"
+            
+              , "Platformy programistyczne"
+            
+              , "Hosting open source"
+            
+              , "Rozwiązania zgodności"
+            
+              , "Zarządzanie kodem"
+            
+              , "Praca nad projektami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-code-repositories-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj Azure DevOps, GitHub, GitLab i Bitbucket pod kątem funkcji, zgodności, cen i zastosowań, aby wybrać właściwą platformę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Best-Code-Repositories-Comparison.webp" length="84282" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

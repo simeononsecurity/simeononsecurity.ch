@@ -1,0 +1,182 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uwierzytelnianie Biometryczne on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Uwierzytelnianie Biometryczne on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/uwierzytelnianie-biometryczne/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/uwierzytelnianie-biometryczne/</link>
+
+    <description>Recent content in Uwierzytelnianie Biometryczne on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 27 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/uwierzytelnianie-biometryczne/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ewolucja haseł: od dawnych pieczęci do biometrii</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-evolution-of-passwords_-from-creation-to-management/</link>
+        
+        <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ewolucja haseł"
+            
+              , "Uwierzytelnianie biometryczne"
+            
+              , "Zarządzanie hasłami"
+            
+              , "Historia cyberbezpieczeństwa"
+            
+              , "Trendy w bezpieczeństwie"
+            
+              , "Przyszłość haseł"
+            
+              , "Uwierzytelnianie wieloskładnikowe"
+            
+              , "Bezpieczeństwo łańcucha bloków"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Biometria behawioralna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-evolution-of-passwords_-from-creation-to-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj historię zabezpieczania haseł, od wspólnych sekretów po menedżery haseł, MFA, klucze dostępu, biometrię i praktyczną ochronę kont osobistych oraz firmowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-evolution-of-passwords_-from-creation-to-management.webp" length="68376" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Z perspektywy branży: eksperckie spojrzenie na trendy w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity/</link>
+        
+        <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Analizy cyberbezpieczeństwa"
+            
+              , "Krajobraz zagrożeń cyfrowych"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Zgodność z przepisami"
+            
+              , "Wyzwania cyberbezpieczeństwa"
+            
+              , "Postęp technologiczny"
+            
+              , "AI i uczenie maszynowe w bezpieczeństwie"
+            
+              , "Technologia blockchain"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "Przyszłe trendy w cyberbezpieczeństwie"
+            
+              , "Uwierzytelnianie biometryczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj aktualne cyberzagrożenia, luki kompetencyjne, kwestie prywatności, AI, blockchain, bezpieczeństwo IoT, obliczenia kwantowe, automatyzację i uwierzytelnianie biometryczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity.webp" length="117650" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

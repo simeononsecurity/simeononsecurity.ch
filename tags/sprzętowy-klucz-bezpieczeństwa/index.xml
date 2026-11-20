@@ -1,0 +1,170 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sprzętowy Klucz Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Sprzętowy Klucz Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/sprz%C4%99towy-klucz-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/sprz%C4%99towy-klucz-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Sprzętowy Klucz Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/sprz%C4%99towy-klucz-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Lista kontrolna bezpieczeństwa osobistego 2026: od czego zacząć i co pominąć</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</link>
+        
+        <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo osobiste"
+            
+              , "Prywatność"
+            
+              , "Higiena cyfrowa"
+            
+              , "Bezpieczeństwo kont"
+            
+              , "Modelowanie zagrożeń"
+            
+              , "Bezpieczeństwo konsumentów"
+            
+              , "Zarządzanie hasłami"
+            
+              , "Ochrona danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ustal priorytety działań dotyczących bezpieczeństwa osobistego według ich wpływu na ataki, od ochrony kont i kopii zapasowych po prywatność i odzyskiwanie dostępu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/personal-security-checklist-2026-tiered-structure.webp" length="98938" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Łączność i bezpieczeństwo danych dla wdrażanych w terenie węzłów edge</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Edge computing"
+            
+              , "Informatyka terenowa"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "VPN"
+            
+              , "Szyfrowanie"
+            
+              , "Bezpieczeństwo fizyczne"
+            
+              , "Odzyskiwanie po awarii"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Podłącz i zabezpiecz terenowe węzły edge computing za pomocą sieci komórkowej, satelitarnej, LoRa, VPN, MFA, segmentacji, logowania, szyfrowania i ochrony przed kradzieżą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

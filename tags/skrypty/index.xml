@@ -1,0 +1,322 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skrypty on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Skrypty on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/skrypty/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/skrypty/</link>
+
+    <description>Recent content in Skrypty on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/skrypty/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Poznaj zabezpieczenia VMware</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link>
+        
+        <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Wirtualizacja"
+            
+              , "Infrastruktura IT"
+            
+              , "Automatyzacja"
+            
+              , "PowerShell"
+            
+              , "VMware"
+            
+              , "STIG"
+            
+              , "Zgodność"
+            
+              , "Skrypty"
+            
+              , "Centrum danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          W tym obszernym przewodniku dowiesz się, jak używać PowerCLI do wdrażania STIG VMware i zabezpieczania środowiska VMware.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerCLI w zarządzaniu vSphere</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link>
+        
+        <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Wirtualizacja"
+            
+              , "VMware"
+            
+              , "Zarządzanie IT"
+            
+              , "Automatyzacja"
+            
+              , "Interfejs wiersza poleceń"
+            
+              , "Skrypty"
+            
+              , "Administracja systemami"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Zarządzanie centrum danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj PowerCLI do zarządzania VMware vSphere, automatyzacji zadań i zwiększania produktywności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Polecenia PowerShell programu Windows Defender dla bezpieczeństwa systemu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Defender"
+            
+              , "Polecenia PowerShell"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "kontrola wiersza poleceń"
+            
+              , "antywirus"
+            
+              , "Systemy operacyjne Windows"
+            
+              , "ochrona przed złośliwym oprogramowaniem"
+            
+              , "zaawansowane ustawienia zabezpieczeń"
+            
+              , "automatyzacja operacji bezpieczeństwa"
+            
+              , "Windows PowerShell"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc poleceń Windows Defender PowerShell i dowiedz się, jak zwiększyć bezpieczeństwo systemu za pomocą sterowania z wiersza poleceń.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.webp" length="86638" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerShell w cyberbezpieczeństwie: automatyzacja i obrona</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/powershell-for-cybersecurity/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Cybersecurity"
+            
+              , "Operacje"
+            
+              , "Zgodność"
+            
+              , "Automatyka"
+            
+              , "STIG SRG Wymagania"
+            
+              , "Wytyczne NSACyber"
+            
+              , "Systemy Windows"
+            
+              , "Obrona niebieskiej drużyny"
+            
+              , "Skrypty"
+            
+              , "Narzędzia"
+            
+              , "Projekty C Sharp"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/powershell-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj moc PowerShell w zwiększaniu operacji cyberbezpieczeństwa i osiąganiu zgodności ze standardami branżowymi poprzez automatyzację i usprawnienie procesów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp" length="203438" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

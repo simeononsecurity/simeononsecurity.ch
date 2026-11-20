@@ -1,0 +1,816 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ocena Podatności on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Ocena Podatności on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ocena-podatno%C5%9Bci/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ocena-podatno%C5%9Bci/</link>
+
+    <description>Recent content in Ocena Podatności on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ocena-podatno%C5%9Bci/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podatności kamer Flock Safety: ponad 50 wykrytych luk</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Badania bezpieczeństwa"
+            
+              , "Analiza podatności"
+            
+              , "Technologie nadzoru"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona prywatności"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "Bezpieczeństwo fizyczne"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Infrastruktura krytyczna"
+            
+              , "Technologie rządowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Badanie podatności kamer Flock Safety obejmuje ujawnione dane uwierzytelniające, słabe zabezpieczenia, dostęp fizyczny i ograniczenia procesu ujawniania luk.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmacnianie cyberodporności</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</link>
+        
+        <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Testy penetracyjne"
+            
+              , "Etyczny hacking"
+            
+              , "Strategie cyberbezpieczeństwa"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Ocena podatności"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Zgodność z przepisami"
+            
+              , "Kontrole bezpieczeństwa"
+            
+              , "Cyberodporność"
+            
+              , "Przyszłość cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak regularne testy penetracyjne ujawniają podatności możliwe do wykorzystania, wspierają naprawy oparte na ryzyku i sprawdzają zabezpieczenia systemów oraz aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-importance-of-regular-penetration-testing-for-cybersecurity.webp" length="85258" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Chroń swoją organizację: zalety oprogramowania do zarządzania incydentami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</link>
+        
+        <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie incydentami"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Ograniczanie zagrożeń"
+            
+              , "Rozwiązania technologiczne"
+            
+              , "Cyberobrona"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Ciągłość działania"
+            
+              , "Zarządzanie ryzykiem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj oprogramowanie do zarządzania incydentami bezpieczeństwa, które usprawnia reagowanie, śledzenie i zgodność oraz chroni zasoby cyfrowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/benefits-of-security-incident-management-software.webp" length="227836" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie Active Directory</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/active-directory-security-best-practices/</link>
+        
+        <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie siecią"
+            
+              , "Technologia informacyjna"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Infrastruktura cyfrowa"
+            
+              , "Kontrola dostępu"
+            
+              , "Uwierzytelnianie użytkowników"
+            
+              , "Dobre praktyki IT"
+            
+              , "Świadomość bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/active-directory-security-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sposoby zabezpieczania Active Directory, ochrony danych i zapobiegania włamaniom do infrastruktury sieciowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Top 5 technik zabezpieczania i utwardzania systemu Linux</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link>
+        
+        <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Linux"
+            
+              , "Bezpieczeństwo systemu"
+            
+              , "Open-source"
+            
+              , "Utwardzanie"
+            
+              , "IT"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Informatyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj 5 najlepszych technik zabezpieczania Linuxa, które wzmocnią Twój system przed zagrożeniami. Popraw integralność systemu i chroń wrażliwe dane dzięki profesjonalnym metodom utwardzania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zaawansowane techniki testów penetracyjnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link>
+        
+        <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Testy penetracyjne"
+            
+              , "Etyczne hakowanie"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo aplikacji internetowych"
+            
+              , "Bezpieczeństwo sieci bezprzewodowych"
+            
+              , "Inżynieria społeczna"
+            
+              , "Bezpieczeństwo aplikacji mobilnych"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Rozwój kariery"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zaawansowane techniki, narzędzia i przykłady z praktyki testów penetracyjnych, aby rozwijać umiejętności z cyberbezpieczeństwa i karierę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Plan nauki do egzaminu certyfikacyjnego CEH: Porady i strategie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</link>
+        
+        <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "rozwój zawodowy"
+            
+              , "certyfikacja IT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "etyczny hacking"
+            
+              , "przygotowanie do egzaminu"
+            
+              , "plan nauki"
+            
+              , "zarządzanie czasem"
+            
+              , "rozwój kariery"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak stworzyć skuteczny plan studiów dla zdawania egzaminu certyfikacyjnego CEH z poradami i strategiami sukcesu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.webp" length="78844" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Istotna rola Threat Intelligence w reagowaniu na incydenty</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-threat-intelligence-in-incident-reponse-and-mitigations/</link>
+        
+        <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Threat Intelligence"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Cybersecurity"
+            
+              , "Łagodzenie skutków"
+            
+              , "Ataki cybernetyczne"
+            
+              , "Analiza danych"
+            
+              , "Systemy informacyjne"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Ocena podatności"
+            
+              , "Zdolności wykrywania"
+            
+              , "Kontrole bezpieczeństwa"
+            
+              , "Wywiad strategiczny"
+            
+              , "Wywiad taktyczny"
+            
+              , "Wywiad operacyjny"
+            
+              , "Krajobraz zagrożeń"
+            
+              , "Pojawiające się trendy"
+            
+              , "Świadomość bezpieczeństwa"
+            
+              , "Informatyka śledcza"
+            
+              , "Cyberzagrożenia"
+            
+              , "Ciemna sieć"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-threat-intelligence-in-incident-reponse-and-mitigations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wywiad o zagrożeniach zwiększa bezpieczeństwo cybernetyczne poprzez łagodzenie i reagowanie na cyberataki.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.webp" length="195232" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Artykuły SimeonOnSecurity</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "porady z zakresu cyberbezpieczeństwa"
+            
+              , "techniki automatyzacji"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "bezpieczeństwo IT"
+            
+              , "zapobieganie hakowaniu"
+            
+              , "bezpieczne programowanie"
+            
+              , "infrastruktura sieciowa"
+            
+              , "śledztwo cyfrowe"
+            
+              , "bezpieczeństwo chmury"
+            
+              , "wywiad w zakresie cyberzagrożeń"
+            
+              , "reagowanie na incydenty"
+            
+              , "ocena podatności"
+            
+              , "testy penetracyjne"
+            
+              , "zarządzanie tożsamością"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "analiza złośliwego oprogramowania"
+            
+              , "szyfrowanie danych"
+            
+              , "konfiguracja zapory ogniowej"
+            
+              , "bezpieczne tworzenie stron internetowych"
+            
+              , "monitorowanie sieci"
+            
+              , "ramy cyberbezpieczeństwa"
+            
+              , "bezpieczeństwo IoT"
+            
+              , "bezpieczeństwo mobilne"
+            
+              , "zapobieganie phishingowi"
+            
+              , "najlepsze praktyki w zakresie cyberbezpieczeństwa"
+            
+              , "polowanie na zagrożenia"
+            
+              , "obrona przed inżynierią społeczną"
+            
+              , "kontrola dostępu"
+            
+              , "segmentacja sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Twoje osobiste przewodniki po cyberbezpieczeństwie, technologii informatycznej i automatyzacji. Przeglądaj pouczające artykuły, osobiste doświadczenia i porady ekspertów na temat bezpiecznego świata cyfrowego.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Blog SimeonOnSecurity</title>
+        
+          <link>https://pl.simeononsecurity.com/blog/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "porady dotyczące cyberbezpieczeństwa"
+            
+              , "techniki automatyzacji"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona prywatności danych"
+            
+              , "bezpieczeństwo IT"
+            
+              , "zapobieganie włamaniom"
+            
+              , "bezpieczne kodowanie"
+            
+              , "infrastruktura sieciowa"
+            
+              , "kryminalistyka cyfrowa"
+            
+              , "bezpieczeństwo chmury"
+            
+              , "informacje o zagrożeniach cybernetycznych"
+            
+              , "reagowanie na incydenty"
+            
+              , "ocena podatności"
+            
+              , "testy penetracyjne"
+            
+              , "zarządzanie tożsamością"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "analiza złośliwego oprogramowania"
+            
+              , "szyfrowanie danych"
+            
+              , "konfiguracja zapory sieciowej"
+            
+              , "bezpieczne tworzenie stron internetowych"
+            
+              , "monitorowanie sieci"
+            
+              , "ramy bezpieczeństwa cybernetycznego"
+            
+              , "bezpieczeństwo IoT"
+            
+              , "bezpieczeństwo mobilne"
+            
+              , "zapobieganie phishingowi"
+            
+              , "najlepsze praktyki w zakresie cyberbezpieczeństwa"
+            
+              , "wyszukiwanie zagrożeń"
+            
+              , "obrona przed inżynierią społeczną"
+            
+              , "kontrola dostępu"
+            
+              , "segmentacja sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/blog/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zapoznaj się z osobistymi doświadczeniami i ekspertycznymi wskazówkami SimeonOnSecurity.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

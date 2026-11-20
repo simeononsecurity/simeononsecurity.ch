@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blokowanie Trackerów on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Blokowanie Trackerów on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/blokowanie-tracker%C3%B3w/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/blokowanie-tracker%C3%B3w/</link>
+
+    <description>Recent content in Blokowanie Trackerów on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 30 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/blokowanie-tracker%C3%B3w/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS vs AdGuard vs Quad9 vs Cloudflare: DNS w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link>
+        
+        <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Porównanie DNS"
+            
+              , "Ochrona prywatności"
+            
+              , "Blokowanie reklam"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo Internetu"
+            
+              , "Resolver DNS"
+            
+              , "Prywatność online"
+            
+              , "Bezpieczeństwo WWW"
+            
+              , "Filtrowanie DNS"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie NextDNS, AdGuard DNS, Quad9, Cloudflare DNS i Pi-hole z 2026 roku pod kątem bezpieczeństwa, prywatności i wydajności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze Przeglądarki Prywatności 2026: LibreWolf vs Brave vs Tor</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link>
+        
+        <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przeglądarki"
+            
+              , "Prywatność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Internet"
+            
+              , "Technologia"
+            
+              , "Prywatność Cyfrowa"
+            
+              , "Bezpieczeństwo Online"
+            
+              , "Open Source"
+            
+              , "Anonimowość"
+            
+              , "Przeglądanie Sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowe porównanie najlepszych przeglądarek skoncentrowanych na prywatności w 2026 roku: LibreWolf, Brave, Firefox, Tor i inne. Szczegółowe testy prywatności, benchmarki wydajności oraz analiza bezpieczeństwa chroniąca Twoje dane online.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

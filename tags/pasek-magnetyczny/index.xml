@@ -1,0 +1,162 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pasek Magnetyczny on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Pasek Magnetyczny on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/pasek-magnetyczny/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/pasek-magnetyczny/</link>
+
+    <description>Recent content in Pasek Magnetyczny on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/pasek-magnetyczny/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak wyłączyć płatności zbliżeniowe na karcie kredytowej</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</link>
+        
+        <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo płatności"
+            
+              , "Prywatność cyfrowa"
+            
+              , "NFC"
+            
+              , "Bezpieczeństwo osobiste"
+            
+              , "Technologie konsumenckie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyczny poradnik wyłączania płatności zbliżeniowych na zapasowej karcie kredytowej przy zachowaniu płatności czipem i paskiem magnetycznym, z ograniczeniami bezpieczeństwa i lepszymi alternatywami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp" length="108062" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Karty Wirtualne Privacy.com: Jak działa prywatność płatności</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</link>
+        
+        <pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo płatności"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Karty wirtualne"
+            
+              , "Prywatność finansowa"
+            
+              , "Zapobieganie oszustwom"
+            
+              , "Bezpieczeństwo konsumenta"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Co jest przechowywane na karcie płatniczej, dlaczego pasek magnetyczny jest jej najsłabszą częścią, co widzi sprzedawca, gdy płacisz wirtualnym numerem, oraz jak w praktyce działają typy kart i limity Privacy.com.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/privacy_virtual_cards.webp" length="71286" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

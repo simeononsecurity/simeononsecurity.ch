@@ -1,0 +1,469 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aktualizacje Zabezpieczeń on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Aktualizacje Zabezpieczeń on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/aktualizacje-zabezpiecze%C5%84/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/aktualizacje-zabezpiecze%C5%84/</link>
+
+    <description>Recent content in Aktualizacje Zabezpieczeń on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/aktualizacje-zabezpiecze%C5%84/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne programowanie w Pythonie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Programowanie"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+              , "Programowanie w Pythonie"
+            
+              , "Bezpieczne programowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Analiza danych"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Języki programowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyki bezpiecznego programowania w Pythonie, które ograniczają ryzyko wstrzyknięcia SQL, cross-site scripting i innych podatności aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Instalowanie zbiorczych aktualizacji zabezpieczeń w systemie Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</link>
+        
+        <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows"
+            
+              , "aktualizacje zabezpieczeń"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "Microsoft"
+            
+              , "aktualizacje zbiorcze"
+            
+              , "zarządzanie poprawkami"
+            
+              , "kopia zapasowa danych"
+            
+              , "Spectre Meltdown"
+            
+              , "szyfrowanie"
+            
+              , "luki w systemie"
+            
+              , "aktualizacje systemu"
+            
+              , "wdrażanie poprawek"
+            
+              , "środowiska nieprodukcyjne"
+            
+              , "konfiguracja systemu"
+            
+              , "bezpieczeństwo IT"
+            
+              , "system zarządzania poprawkami"
+            
+              , "skanowanie podatności"
+            
+              , "informacje o wydaniu"
+            
+              , "konserwacja systemu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak instalować zbiorcze aktualizacje zabezpieczeń w systemie Windows i stosować dobre praktyki, które chronią system przed cyberatakami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/best-practices-for-installing-security-patches-on-windows.webp" length="144532" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Obrona przed atakami socjotechnicznymi i oszustwami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/</link>
+        
+        <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "inżynieria społeczna"
+            
+              , "oszustwa phishingowe"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "aktualizacje zabezpieczeń"
+            
+              , "bezpieczeństwo hasła"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "naruszenia danych"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "kradzież tożsamości"
+            
+              , "zapobieganie oszustwom"
+            
+              , "zapobieganie szpiegostwu"
+            
+              , "bezpieczeństwo techniczne"
+            
+              , "bezpieczeństwo fizyczne"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "Zapobieganie cyberprzestępczości"
+            
+              , "wykrywanie włamań"
+            
+              , "poprawki zabezpieczeń"
+            
+              , "szkolenie pracowników"
+            
+              , "ochrona danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Z tego artykułu dowiesz się, jak bronić się przed atakami socjotechnicznymi i chronić swoje dane przed cyberprzestępcami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.webp" length="72470" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wdrażanie poprawek dla podatnych serwerów: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo serwera"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Zarządzanie poprawkami"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Łatanie serwera"
+            
+              , "Krajobraz zagrożeń"
+            
+              , "Testy penetracyjne"
+            
+              , "Aktualizacje zabezpieczeń"
+            
+              , "Poprawki oprogramowania"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo systemu"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Zasady bezpieczeństwa"
+            
+              , "Środowiska przejściowe"
+            
+              , "Luki w oprogramowaniu"
+            
+              , "Krytyczne poprawki"
+            
+              , "Poprawki dostawcy"
+            
+              , "Biuletyny bezpieczeństwa"
+            
+              , "Bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wdrożyć poprawki zabezpieczeń dla podatnych serwerów, stosując najlepsze praktyki i zapobiegając złośliwym atakom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_shield.webp" length="98810" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększ bezpieczeństwo i prywatność</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/debloat-windows-for-improved-privacy-and-security/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Utwardzanie systemu Windows"
+            
+              , "Usuwanie zbędnego oprogramowania z Windows"
+            
+              , "Większe bezpieczeństwo"
+            
+              , "Prywatność"
+            
+              , "Cyberataki"
+            
+              , "Bezpieczeństwo systemu operacyjnego"
+            
+              , "System operacyjny Windows"
+            
+              , "Prywatność danych"
+            
+              , "Cyberprzestępcy"
+            
+              , "Powierzchnia ataku"
+            
+              , "Luki w zabezpieczeniach"
+            
+              , "Aktualizacje zabezpieczeń"
+            
+              , "Mechanizmy uwierzytelniania"
+            
+              , "Niechciane oprogramowanie"
+            
+              , "Poprawa wydajności"
+            
+              , "Gromadzenie danych"
+            
+              , "Uwierzytelnianie dwuskładnikowe"
+            
+              , "Oprogramowanie antywirusowe"
+            
+              , "Oprogramowanie antymalware"
+            
+              , "Informacje poufne"
+            
+              , "Kompleksowy poradnik"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/debloat-windows-for-improved-privacy-and-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zadbaj o bezpieczeństwo w sieci. Dowiedz się, dlaczego utwardzanie systemu Windows i usuwanie zbędnego oprogramowania poprawiają bezpieczeństwo i prywatność.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/debloat-windows-for-improved-privacy-and-security.webp" length="202664" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RTX 3070 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>RTX 3070 on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/rtx-3070/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/rtx-3070/</link>
+
+    <description>Recent content in RTX 3070 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/rtx-3070/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Lokalne modele Hermes w testach: jakie zestawy GPU i modeli bym wybrał</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link>
+        
+        <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Lokalna AI"
+            
+              , "Sprzęt komputerowy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Moje rekomendacje modeli Hermes wynikają z testów długiego kontekstu, narzędzi, strumieniowania i obrazów na systemach RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti oraz RTX 3070.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

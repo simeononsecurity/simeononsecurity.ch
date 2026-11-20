@@ -1,0 +1,394 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MacOS on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>MacOS on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/macos/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/macos/</link>
+
+    <description>Recent content in MacOS on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 20 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak działa DNS: główny system DNS, znaczenie i rozwiązywanie problemów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-does-dns-work/</link>
+        
+        <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Podstawy DNS"
+            
+              , "Główny system DNS"
+            
+              , "System nazw domenowych"
+            
+              , "Rozwiązywanie nazw DNS"
+            
+              , "Hierarchia DNS"
+            
+              , "Buforowanie DNS"
+            
+              , "Diagnostyka DNS"
+            
+              , "Rekordy DNS"
+            
+              , "Zarządzanie DNS"
+            
+              , "Polecenia DNS"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-does-dns-work/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zasady działania DNS i głównego systemu DNS, ich hierarchię, proces rozwiązywania nazw, buforowanie i wskazówki diagnostyczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_interconnected_computer_ne.webp" length="167680" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible dla początkujących 2026</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wprowadzenie do Ansible"
+            
+              , "Automatyzacja zarządzania infrastrukturą IT"
+            
+              , "Podstawy Ansible"
+            
+              , "Automatyzacja infrastruktury IT"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrażanie aplikacji"
+            
+              , "Przygotowanie infrastruktury"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Zgodność i bezpieczeństwo"
+            
+              , "Orkiestracja"
+            
+              , "YAML"
+            
+              , "Moduły Ansible"
+            
+              , "Role"
+            
+              , "Dobre praktyki"
+            
+              , "Kontrola wersji"
+            
+              , "Testowanie"
+            
+              , "Red Hat"
+            
+              , "Administratorzy systemów"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Windows"
+            
+              , "Instalacja Ansible"
+            
+              , "Inwentarz Ansible"
+            
+              , "Playbooki Ansible"
+            
+              , "Moduły Ansible"
+            
+              , "Role Ansible"
+            
+              , "Dobre praktyki Ansible"
+            
+              , "Testowanie Ansible"
+            
+              , "Narzędzie do automatyzacji infrastruktury IT"
+            
+              , "Samouczek Ansible"
+            
+              , "Automatyzacja zarządzania infrastrukturą"
+            
+              , "Ansible dla początkujących"
+            
+              , "Nauka Ansible"
+            
+              , "Samouczek Ansible 2026"
+            
+              , "Ansible a Terraform"
+            
+              , "Ansible a Puppet"
+            
+              , "Przykłady playbooków Ansible"
+            
+              , "Automatyzacja Ansible"
+            
+              , "Narzędzia DevOps"
+            
+              , "Infrastruktura jako kod"
+            
+              , "Ansible AWX"
+            
+              , "Ansible Tower"
+            
+              , "Kolekcje Ansible"
+            
+              , "Ansible Galaxy"
+            
+              , "Ansible Vault"
+            
+              , "Automatyzacja chmury Ansible"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przewodnik po Ansible na 2026 rok: instalacja, playbooki, role, przykłady, dobre praktyki oraz porównanie z Terraform, Puppet i Chef.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ansible-for-beginners.webp" length="153600" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona systemu Windows przed atakami typu Speculative Execution Side-Channel.</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link>
+        
+        <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Spectre Meltdown Mitigation Script"
+            
+              , "Ataki typu Speculative Execution Side-Channel"
+            
+              , "Microsoft"
+            
+              , "Intel"
+            
+              , "AMD"
+            
+              , "VIA"
+            
+              , "ARM"
+            
+              , "Android"
+            
+              , "Chrome"
+            
+              , "iOS"
+            
+              , "macOS"
+            
+              , "Branch Target Injection"
+            
+              , "Kontrola granic Obejście"
+            
+              , "Rogue Data Cache Load"
+            
+              , "Obejście sklepu spekulacyjnego"
+            
+              , "Mikroarchitektoniczne próbkowanie danych"
+            
+              , "CVEs"
+            
+              , "Aktualizacje oprogramowania sprzętowego"
+            
+              , "Repozytorium GitHub"
+            
+              , "PowerShell"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zabezpieczyć system Windows przed atakami typu speculative execution side-channel za pomocą skryptu łagodzącego Microsoftu i aktualizacji oprogramowania sprzętowego
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecany program antywirusowy</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/anti-virus/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecany program antywirusowy"
+            
+              , "AV"
+            
+              , "Antywirus"
+            
+              , "Antywirus"
+            
+              , "Użytkowanie domowe"
+            
+              , "Użytek biznesowy"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Cyberbezpieczeństwo"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/anti-virus/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten artykuł zawiera listę zalecanych produktów antywirusowych do użytku domowego i biznesowego, według rankingu SimeonOnSecurity. Rankingi oparte są na profesjonalnej opinii i testach na złośliwych próbkach i obejmują jedynie możliwości antywirusowe, wykrywanie, wrażenia użytkownika i wydajność. Użytkownicy systemu Windows mogą wybierać zarówno spośród płatnych, jak i bezpłatnych opcji, podczas gdy użytkownicy systemów Linux i MacOS mają ograniczone opcje, przy czym płatne opcje są dostępne tylko dla systemu Linux. Należy pamiętać, że AV nie jest wymagany w systemach Linux lub MacOS, a korzystanie z VPN lub menedżera haseł dostarczanego z pakietem AV nie jest zalecane. Artykuł zawiera również rekomendacje dla dostawców VPN. Zalecenia dotyczące zastosowań biznesowych są obecnie opracowywane.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

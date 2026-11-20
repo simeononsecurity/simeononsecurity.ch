@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dobre Praktyki Zarządzania Zasadami on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Dobre Praktyki Zarządzania Zasadami on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/dobre-praktyki-zarz%C4%85dzania-zasadami/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/dobre-praktyki-zarz%C4%85dzania-zasadami/</link>
+
+    <description>Recent content in Dobre Praktyki Zarządzania Zasadami on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/dobre-praktyki-zarz%C4%85dzania-zasadami/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumieć filtrowanie WMI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zarządzanie systemem Windows"
+            
+              , "Zasady grupy"
+            
+              , "Administracja systemami"
+            
+              , "Zarządzanie siecią"
+            
+              , "Infrastruktura IT"
+            
+              , "Zarządzanie zasadami"
+            
+              , "Ład IT"
+            
+              , "Automatyzacja IT"
+            
+              , "Active Directory"
+            
+              , "Zgodność z wymaganiami bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak filtrowanie WMI pomaga kierować obiekty zasad grupy (GPO) do właściwych komputerów. Poznaj praktyczne przykłady i dobre praktyki.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI W Ochronie Urządzeń Końcowych on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>AI W Ochronie Urządzeń Końcowych on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ai-w-ochronie-urz%C4%85dze%C5%84-ko%C5%84cowych/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ai-w-ochronie-urz%C4%85dze%C5%84-ko%C5%84cowych/</link>
+
+    <description>Recent content in AI W Ochronie Urządzeń Końcowych on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ai-w-ochronie-urz%C4%85dze%C5%84-ko%C5%84cowych/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik po zabezpieczaniu urządzeń końcowych w zespołach zdalnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</link>
+        
+        <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zabezpieczanie urządzeń końcowych"
+            
+              , "Bezpieczeństwo pracy zdalnej"
+            
+              , "Przewodnik po cyberbezpieczeństwie"
+            
+              , "Ochrona danych"
+            
+              , "Praktyki bezpieczeństwa IT"
+            
+              , "Przyszłe trendy w bezpieczeństwie"
+            
+              , "Bezpieczna praca zdalna"
+            
+              , "Zapobieganie cyberzagrożeniom"
+            
+              , "Ochrona prywatności danych"
+            
+              , "Rozwiązania bezpieczeństwa IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Chroń zdalne urządzenia końcowe dzięki ewidencji sprzętu, wzmacnianiu zabezpieczeń, poprawkom, MFA, szyfrowaniu, EDR, zasadom dostępu, monitorowaniu i planowaniu reagowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-ultimate-guide-to-endpoint-security-for-remote-teams.webp" length="58154" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
