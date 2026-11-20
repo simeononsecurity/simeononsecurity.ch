@@ -1,11 +1,11 @@
 ---
 title: "Prós e contras da autenticação biométrica para controle de acesso"
 date: 2023-04-01
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Avalie a autenticação biométrica considerando precisão, privacidade, risco de falsificação, acesso alternativo, armazenamento de dados e controles práticos de implantação."
-tags: ["biometric authentication", "access control", "security", "privacy", "data protection", "GDPR", "HIPAA", "false positives", "false negatives", "multi-factor authentication", "system testing", "security policies", "efficiency", "convenience", "unique identity", "simplified workflows", "vulnerabilities", "risk mitigation", "user experience", "cybersecurity"]
+tags: ["autenticação biométrica", "controle de acesso", "segurança", "privacidade", "proteção de dados", "RGPD", "HIPAA", "falsos positivos", "falsos negativos", "autenticação multifator", "testes do sistema", "políticas de segurança", "eficiência", "praticidade", "identidade única", "fluxos de trabalho simplificados", "vulnerabilidades", "mitigação de riscos", "experiência do usuário", "cibersegurança"]
 cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.webp"
 coverAlt: "Ilustração animada de uma mão usando um leitor de impressão digital para acessar uma área protegida, com o rosto e a íris de uma pessoa visíveis ao fundo."
 coverCaption: ""
@@ -45,7 +45,7 @@ Os dados biométricos são altamente sensíveis e pessoais. Se não forem proteg
 
 ### Armazenamento e segurança dos dados
 
-As organizações precisam garantir que os dados biométricos sejam armazenados com segurança e em conformidade com as **normas de proteção de dados** relevantes, como a [GDPR](https://gdpr.eu/) e a [HIPAA](https://www.hhs.gov/hipaa/index.html). Essa implementação pode ser difícil e cara.
+As organizações devem garantir que os dados biométricos sejam armazenados com segurança e cumpram as **normas de proteção de dados** aplicáveis, como o [RGPD](https://gdpr.eu/) e a [HIPAA](https://www.hhs.gov/hipaa/index.html). Essa implementação pode ser difícil e cara.
 
 ### Falsos positivos e falsos negativos
 
@@ -77,5 +77,5 @@ ______
 
 ## Referências
 
-1. [GDPR, Regulamento Geral sobre a Proteção de Dados](https://gdpr.eu/)
+1. [RGPD, Regulamento Geral sobre a Proteção de Dados](https://gdpr.eu/)
 2. [HIPAA, Lei de Portabilidade e Responsabilidade de Seguros de Saúde](https://www.hhs.gov/hipaa/index.html)

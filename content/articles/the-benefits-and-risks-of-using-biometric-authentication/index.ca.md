@@ -1,11 +1,11 @@
 ---
 title: "Avantatges i riscos de l'autenticació biomètrica per al control d'accés"
 date: 2023-04-01
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Avalua l'autenticació biomètrica segons la precisió, la privadesa, el risc de suplantació, l'accés alternatiu, l'emmagatzematge de dades i els controls pràctics d'implementació."
-tags: ["biometric authentication", "access control", "security", "privacy", "data protection", "GDPR", "HIPAA", "false positives", "false negatives", "multi-factor authentication", "system testing", "security policies", "efficiency", "convenience", "unique identity", "simplified workflows", "vulnerabilities", "risk mitigation", "user experience", "cybersecurity"]
+tags: ["autenticació biomètrica", "control d’accés", "seguretat", "privadesa", "protecció de dades", "RGPD", "HIPAA", "falsos positius", "falsos negatius", "autenticació multifactor", "proves del sistema", "polítiques de seguretat", "eficiència", "comoditat", "identitat única", "fluxos de treball simplificats", "vulnerabilitats", "mitigació de riscos", "experiència d’usuari", "ciberseguretat"]
 cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.webp"
 coverAlt: "Il·lustració animada d'una mà que fa servir un lector d'empremtes per accedir a una zona protegida, amb una cara i un iris visibles al fons."
 coverCaption: ""
@@ -21,7 +21,7 @@ L'**autenticació biomètrica** és un procés de seguretat que utilitza les car
 
 ______
 
-## Avantatges de l'autenticació biomètrica per al control d'accés
+## Avantatges de l'autenticació biomètrica en la gestió dels accessos
 
 ### Més seguretat
 
@@ -37,7 +37,7 @@ Amb l'autenticació biomètrica, les empreses poden simplificar els processos de
 
 ______
 
-## Riscos i reptes de l'autenticació biomètrica per al control d'accés
+## Riscos i reptes de l'autenticació biomètrica en la gestió dels accessos
 
 ### Problemes de privadesa
 
@@ -45,7 +45,7 @@ Les dades biomètriques són molt sensibles i personals. Si no es protegeixen ad
 
 ### Emmagatzematge i seguretat de les dades
 
-Les organitzacions han de garantir que les dades biomètriques s'emmagatzemin de manera segura i d'acord amb les **normatives de protecció de dades** aplicables, com ara el [GDPR](https://gdpr.eu/) i la [HIPAA](https://www.hhs.gov/hipaa/index.html). Això pot ser difícil i costós d'implementar.
+Les organitzacions han de garantir que les dades biomètriques s’emmagatzemin de manera segura i d’acord amb les **normatives de protecció de dades** aplicables, com ara el [RGPD](https://gdpr.eu/) i la [HIPAA](https://www.hhs.gov/hipaa/index.html). Això pot ser difícil i costós d’implementar.
 
 ### Falsos positius i falsos negatius
 
@@ -77,5 +77,5 @@ ______
 
 ## Referències
 
-1. [GDPR, Reglament general de protecció de dades](https://gdpr.eu/)
-2. [HIPAA, Llei de responsabilitat i portabilitat de les assegurances mèdiques](https://www.hhs.gov/hipaa/index.html)
+1. [RGPD, Reglament general de protecció de dades](https://gdpr.eu/)
+2. [HIPAA, Llei de portabilitat i responsabilitat de les assegurances mèdiques](https://www.hhs.gov/hipaa/index.html)

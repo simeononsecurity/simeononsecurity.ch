@@ -1,11 +1,11 @@
 ---
 title: "Avantajele și dezavantajele autentificării biometrice pentru acces"
 date: 2023-04-01
-lastmod: 2026-10-21
+lastmod: 2026-11-20
 toc: true
 draft: false
-description: "Aflați care sunt beneficiile și riscurile utilizării autentificării biometrice pentru controlul accesului, inclusiv securitatea sporită, problemele legate de confidențialitate și cele mai bune practici de implementare."
-tags: ["autentificare biometrică", "controlul accesului", "securitate", "confidențialitate", "protecția datelor", "GDPR", "HIPAA", "rezultate fals pozitive", "falsuri negative", "autentificarea cu mai mulți factori", "testarea sistemului", "politici de securitate", "eficiență", "comoditate", "identitate unică", "fluxuri de lucru raționalizate", "vulnerabilități", "atenuarea riscurilor", "experiența utilizatorului", "securitate cibernetică"]
+description: "Evaluați autentificarea biometrică în funcție de acuratețe, confidențialitate, riscul de falsificare, accesul de rezervă, stocarea datelor și controalele practice de implementare."
+tags: ["autentificare biometrică", "controlul accesului", "securitate", "confidențialitate", "protecția datelor", "RGPD", "HIPAA", "rezultate fals pozitive", "rezultate fals negative", "autentificare multifactor", "testarea sistemului", "politici de securitate", "eficiență", "comoditate", "identitate unică", "fluxuri de lucru simplificate", "vulnerabilități", "reducerea riscurilor", "experiența utilizatorului", "securitate cibernetică"]
 cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.webp"
 coverAlt: "O ilustrație animată a unei mâini care utilizează un scaner de amprente pentru a accesa o zonă securizată, cu fața și irisul unei persoane vizibile în fundal."
 coverCaption: ""
@@ -17,7 +17,7 @@ ______
 
 ## Introducere în autentificarea biometrică
 
-**Autentificarea biometrică** este un proces de securitate care se bazează pe caracteristicile biologice unice ale unei persoane pentru a-i verifica identitatea. Printre exemplele de metode de autentificare biometrică se numără **scanarea amprentelor digitale, recunoașterea facială, scanarea irisului și recunoașterea vocală**. Aceste metode au devenit din ce în ce mai populare pentru controlul accesului în ultimii ani, datorită securității și confortului perceput.
+**Autentificarea biometrică** este un proces de securitate care se bazează pe caracteristicile biologice unice ale unei persoane pentru a-i verifica identitatea. Printre exemplele de metode de autentificare biometrică se numără **scanarea amprentelor digitale, recunoașterea facială, scanarea irisului și recunoașterea vocală**. Aceste metode au devenit din ce în ce mai populare pentru controlul accesului în ultimii ani, deoarece sunt percepute ca fiind sigure și comode.
 
 ______
 
@@ -45,11 +45,11 @@ Datele biometrice sunt foarte sensibile și personale. Dacă nu sunt protejate �
 
 ### Stocarea și securitatea datelor
 
-Organizațiile trebuie să se asigure că datele biometrice sunt stocate în condiții de siguranță și în conformitate cu **reglementările relevante privind protecția datelor**, cum ar fi [GDPR](https://gdpr.eu/) and [HIPAA](https://www.hhs.gov/hipaa/index.html) Implementarea acestui lucru poate fi dificilă și costisitoare.
+Organizațiile trebuie să se asigure că datele biometrice sunt stocate în siguranță și respectă **reglementările aplicabile privind protecția datelor**, precum [RGPD](https://gdpr.eu/) și [HIPAA](https://www.hhs.gov/hipaa/index.html). Aplicarea acestora poate fi dificilă și costisitoare.
 
-### False pozitive și false negative
+### Rezultate fals pozitive și fals negative
 
-Niciun sistem de autentificare biometrică nu este perfect. Există întotdeauna o șansă de **falsi pozitive** (utilizatori neautorizați cărora li se acordă acces) și **falsi negative** (utilizatori autorizați cărora li se refuză accesul). Acest lucru poate duce la breșe de securitate sau la neplăceri pentru utilizatori.
+Niciun sistem de autentificare biometrică nu este perfect. Există întotdeauna posibilitatea apariției unor **rezultate fals pozitive** (utilizatori neautorizați cărora li se acordă acces) și a unor **rezultate fals negative** (utilizatori autorizați cărora li se refuză accesul). Acest lucru poate duce la breșe de securitate sau la neplăceri pentru utilizatori.
 
 ______
 
@@ -77,6 +77,5 @@ ______
 
 ## Referințe
 
-1. [GDPR - General Data Protection Regulation](https://gdpr.eu/)
-2. [HIPAA - Health Insurance Portability and Accountability Act](https://www.hhs.gov/hipaa/index.html)
-
+1. [RGPD, Regulamentul general privind protecția datelor](https://gdpr.eu/)
+2. [HIPAA, legea privind portabilitatea și responsabilitatea asigurărilor de sănătate](https://www.hhs.gov/hipaa/index.html)
