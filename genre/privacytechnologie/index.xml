@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privacytechnologie on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Privacytechnologie on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/privacytechnologie/</link></image><link>https://nl.simeononsecurity.com/genre/privacytechnologie/</link><description>Recent content in Privacytechnologie on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/privacytechnologie/index.xml" rel="self" type="application/rss+xml"/><item><title>We brachten 146.526 ‘Flock-camera’s’ in kaart. 50.278 waren ClickShare-systemen</title><link>https://nl.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link><pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate><category>
+"Beveiligingsonderzoek"
+, "Privacytechnologie"
+, "Open-sourceprojecten"
+, "Datajournalistiek"
+, "Tegentoezicht"</category><guid>https://nl.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een audit van Flock Finder vindt ClickShare en andere fout-positieven, legt het bewijs uit en documenteert de wijzigingen.</description></item><item><title>De verkooppraat van Flock Safety: zonder bevel toegang tot elke beweging</title><link>https://nl.simeononsecurity.com/articles/flock-safety-sales-pitch-warrantless-access-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Privacytechnologie"
+, "Digitale rechten"
+, "Toezicht"
+, "Juridische analyse"
+, "Tegentoezicht"</category><guid>https://nl.simeononsecurity.com/articles/flock-safety-sales-pitch-warrantless-access-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Onderzoek de verkoopboodschap van Flock Safety, de toegang tot bewegingsgegevens en de grondwettelijke vragen rond doorzoekingen zonder bevel.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/flock-safety-warrantless-access-surveillance-database.webp" length="440804" type="image/webp"/></item><item><title>De Flock-cameradetectierace: wat veranderde er in 2026?</title><link>https://nl.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"Privacytechnologie"
+, "Tegensurveillance"
+, "Open-sourceprojecten"
+, "Digitale rechten"
+, "Netwerkbeveiliging"
+, "Beveiligingsonderzoek"
+, "Hardwarehacking"
+, "Privacyhulpmiddelen"</category><guid>https://nl.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bekijk gemelde veranderingen in Flock Safety-detectie, reacties van de gemeenschap en infraroodmethoden om camerasystemen te herkennen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>ATS Resume Improver: gratis AI-gestuurde cv-optimalisatie</title><link>https://nl.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Loopbaantools"
+, "Open-sourceprojecten"
+, "Kunstmatige intelligentie"
+, "Privacytechnologie"
+, "Ontwikkelaarstools"
+, "Banen zoeken"
+, "Productiviteit"</category><guid>https://nl.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ATS Resume Improver is een gratis, open-source cv-optimalisatietool. Zonder AI-sleutel wordt de tekst in je browser verwerkt. Met OpenAI of Anthropic gaan cv- en vacatureteksten rechtstreeks naar de aanbieder. Ollama kan lokaal draaien.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp" length="158574" type="image/webp"/></item><item><title>Flock Finder: Kaart van Flock Safety ALPR-camera's</title><link>https://nl.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Privacytechnologie"
+, "Tegenbewaking"
+, "Open-sourceprojecten"
+, "Digitale rechten"
+, "Netwerkbeveiliging"
+, "Privacyhulpmiddelen"
+, "Hardwaremodificatie"
+, "Beveiligingsonderzoek"</category><guid>https://nl.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder is een open-source tool die wereldwijd meer dan 40.000 Flock Safety ALPR-camera's in kaart brengt met behulp van WiGLE WiFi-gegevens en OUI-vingerafdrukken. Leer hoe het werkt, de beperkingen en de hardwaretools voor realtime detectie.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>DagShell custom firmware voor Orbic RCL400: gids voor 2026</title><link>https://nl.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"Custom firmware"
+, "Mobiele beveiliging"
+, "Privacytools"
+, "Netwerkbeveiliging"
+, "Wardriving"
+, "Penetratietests"
+, "IoT-hacking"
+, "Beveiligingsonderzoek"
+, "Hardwarehacking"
+, "Privacytechnologie"</category><guid>https://nl.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Technische gids voor DagShell-firmware op de Orbic RCL400, met installatie, privacytools, wardriving en onderzoeksbeperkingen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>Flock Safety Camerabewaking: Privacy en Bescherming</title><link>https://nl.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Privacytechnologie"
+, "Surveillancesystemen"
+, "Digitale Rechten"
+, "Wetshandhavingstechnologie"
+, "Privacybescherming"
+, "Contra-surveillance"
+, "Burgerlijke Vrijheden"
+, "Technologie-ethiek"
+, "Slimme Stadsinfrastructuur"
+, "Beveiligingshardware"</category><guid>https://nl.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de wijdverspreide inzet van Flock Safety ALPR-camera's in 2026, begrijp de privacyimplicaties en leer effectieve contra-surveillancestrategieën inclusief detectieapparaten.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/flock-safety-camera-surveillance-prevalence-privacy-protection-2026.webp" length="316668" type="image/webp"/></item><item><title>Flock-You Detectie: Handleiding voor Contra-Surveillance</title><link>https://nl.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Beveiligingshardware"
+, "Contra-surveillance"
+, "Privacytechnologie"
+, "Open Source Projecten"
+, "ESP32 Ontwikkeling"
+, "WiFi Monitoring"
+, "Privacytools"
+, "Digitale Rechten"
+, "Hardware Hacking"
+, "Netwerkbeveiliging"</category><guid>https://nl.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Uitgebreide technische handleiding voor het open-source Flock-You project voor het detecteren van Flock Safety ALPR-camera's met ESP32-hardware. Inclusief installatie-instructies, firmware-details en aankoopinformatie.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item></channel></rss>

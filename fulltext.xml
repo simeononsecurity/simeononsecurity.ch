@@ -1,0 +1,4069 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://nl.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>nl</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>Terugval van Home Assistant Core 2026.11 naar 2026.10.4: HTTP-opslagversie 3 herstellen</title><link>https://nl.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><description>Herstel de fout over HTTP-opslagversie 3 nadat Home Assistant Core 2026.11 op Yellow is teruggevallen naar 2026.10.4. Met beveiligde opdrachten en gecontroleerde uitvoer.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p>Een mislukte update van Home Assistant Core 2026.11 zette mijn Yellow CM4 terug naar 2026.10.4. Yellow bleef bereikbaar via het netwerk, maar toonde het dashboard niet meer. Door de terugval bleef een HTTP-instellingenbestand met opslagversie 3.1 achter, terwijl Core 2026.10.4 versie 2.2 ondersteunt. Ik bewaarde het bestand, zette een kopie met strenge controles om, herstelde de HTTP-toegang en werkte Core daarna bij naar 2026.11.1.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Bevestig de mismatch.</strong> Vergelijk de Core-logfout met de geïnstalleerde versie en de HTTP-opslagversie.</li>
+<li><strong>Bewaar het bestand.</strong> Houd vóór herstel een ongewijzigde kopie en een back-up buiten het apparaat aan.</li>
+<li><strong>Controleer het resultaat.</strong> Controleer de Core-status, de opgeslagen luisterpoort, het dashboard en de geïnstalleerde versie.</li>
+</ul>
+<p><strong>Oplossing voor precies dit geval:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Bewaar het HTTP-bestand">
+    <meta itemprop="url" content="#preserve-recovery-options">
+    <a href="#preserve-recovery-options"
+    
+        rel="follow me"
+    >Bewaar het HTTP-bestand</a>
+</span>
+, 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="maak en valideer een kandidaat voor versie 2.2">
+    <meta itemprop="url" content="#apply-the-tested-fix-for-version-31">
+    <a href="#apply-the-tested-fix-for-version-31"
+    
+        rel="follow me"
+    >maak en valideer een kandidaat voor versie 2.
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Zo kies je een ongecensureerd lokaal AI-model</title><link>https://nl.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><description>Vergelijk lokale modelvarianten op voltooide antwoorden, behouden mogelijkheden, contextgebruik, kwantisatie en passend VRAM-gebruik.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Modelkeuze:</strong> beoordeel elke variant op de bruikbare antwoorden die het model afrondt, de kwaliteit die behouden blijft en het geheugen dat je werklast nodig heeft. Een laag aantal weigeringen of een populair modelkaartje bewijst die resultaten niet.</p>
+<p>Het label <strong>ongecensureerd</strong> heeft geen gestandaardiseerde prestatiemaatstaf. Uitgevers van modellen gebruiken het voor uiteenlopende aanpassingen van gewichten, fijn afgestelde modellen en sjablonen voor gesprekken. Vergelijk elke kandidaat met het oorspronkelijke model en test de taken die je wilt uitvoeren.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <meta itemprop="name" content="Ik testte elk ongecensureerd lokaal AI-model (van 8 GB tot 32 GB VRAM)">
+  <meta itemprop="description" content="Een vergelijking van lokale modelvarianten, afgeronde antwoorden, contextinstellingen en GPU-geheugenniveaus.">
+  <meta itemprop="thumbnailUrl" content="https://img.youtube.com/vi/j
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Voedingscompatibiliteit van de Octominer X12 Ultra: praktijktest van Chicony en LiteOn</title><link>https://nl.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><description>Een test met vijf ventilatoren en drie voedingen in een Octominer X12 Ultra liet zien dat een Chicony-voeding het systeem startte, terwijl geteste LiteOn-units amberkleurig licht toonden en niet startten.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>De Chicony R12-1K6P2A startte mijn Octominer X12 Ultra met vijf ventilatoren en drie voedingen.</strong> De LiteOn PS-2142-2L-voedingen die ik testte, toonden groen licht, schakelden over naar amber en startten het systeem niet. Dit resultaat geldt voor mijn exemplaar met een <strong>OCTOMINER (12PIN) 3x DPS1200 rev. 20</strong>-voedingsbackplane. Een gelijk wattage of een vermelding op een lijst voor een afzonderlijke X12-breakoutkaart bewijst geen compatibiliteit met een Octominer-backplane.</p>
+<p>De behuizing werd verkocht als een <strong>3.600 W-configuratie</strong> met drie voedingssleuven. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Octominer vermeldt een optie met drie voedingen van 1.200 W">
+    <meta itemprop="url" content="https://octominer.eu/product/octominer-x12-ultra-used/">
+    <a href="https://octominer.eu/product/octominer-x12-ultra-used/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Octominer vermeldt een optie met drie voedingen van 1.200 W</a>
+</span>
+ voor de X12 Ultra, naast andere configuraties. Controleer het label en de voedingskaart in je eigen systeem voordat je deze resultaten toepast.</p>
+<h2 id="testresultaten">
+  <a href="#testresultaten" title="Testresultaten">Testresultaten</a>
+  <a href="#testresultaten" class="h-anchor" aria-hidden="true" title="Testresultaten">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Voeding</th>
+					<th>Resultaat in dit systeem</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Chicony R12-1K6P2A, 1.600 W</strong></td>
+					<td>Startte het systeem tijdens mijn test. Dit artikel heeft geen langdurige belasting of werking in alle sleuven gemeten.</td>
+			</tr>
+			<tr>
+					<td><strong>LiteOn PS-2142-2L, 1.400 W</strong></td>
+					<td>Geteste exemplaren brandden groen en daarna amber. Het systeem startte niet.</td>
+			</tr>
+			<tr>
+					<td><strong>Dell/Delta D1200E-S0, Dell 0F37X3</strong></td>
+					<td>De ongebruikelijke AC-ingang maakte het lastig een passend snoer te vinden. Voo
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proxmox VE 9: gebruik van virtuele schijven beperken en ruimte terugwinnen</title><link>https://nl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><description>Beperk het opslaggebruik van VM's en LXC-containers in Proxmox VE 9. Vergelijk formaten en backends, schakel discard in, voer trim uit en controleer snapshots voordat je ruimte terugwint.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Een kleiner bestandssysteem in de gast betekent niet altijd minder gebruikte Proxmox-opslag.</strong> Om ruimte op de host vrij te maken, heb je een schijf nodig die thin provisioning ondersteunt, een werkende discard-route voor VM&rsquo;s en een backend zonder blokken die door snapshots worden vastgehouden. Deze gids behandelt instellingen en controles voor Proxmox VE 9-VM&rsquo;s en LXC-containers.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Kies eerst de backend.</strong> De opgegeven grootte van een virtuele schijf verschilt alleen van de toegewezen hostruimte als het imageformaat of de opslagbackend thin provisioning ondersteunt.</li>
+<li><strong>Schakel discard in voor de VM en voer daarna trim uit in de gast.</strong> Windows ReTrim en Linux <code>fstrim</code> sturen verzoeken voor ongebruikte blokken via de virtuele schijf.</li>
+<li><strong>Controleer snapshots en back-ups apart.</strong> Oude blokken blijven toegewezen zolang een snapshot ernaar verwijst. Back-upbestanden en PBS-chunks volgen hun eigen bewaartermijnen.</li>
+<li><strong>Behandel LXC-mounts op basis van hun type.</strong> Beheerde rootfs- en mountpoint-volumes, bind mounts en apparaatmounts verschillen in eigenaarschap en back-upgedrag.</li>
+</ul>
+<h2 id="voor-je-begint">
+  <a href="#voor-je-begint" title="Voor je begint">Voor je begint</a>
+  <a href="#voor-je-begint" class="h-anchor" aria-hidden="true" title="Voor je begint">#</a>
+</h2>
+<p>Je hebt <strong>beheerderstoegang tot Proxmox VE 9</strong> nodig, een gecontroleerde back-up van elke betrokken gast en voldoende vrije ruimte in de pool. Noteer vóór wijzigingen de gast-ID, diskbus, volume-ID, opslag-ID, snapshots en huidige toewijzing. Gebruik de 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="VM-hersteltest">
+    <meta itemprop="url" content="/articles/proxmox-vm-backup-restore-drill/">
+    <a href="/articles/proxmo
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Tailscale Aperture: AI-clients configureren voor inferentie en MCP in 2026</title><link>https://nl.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><description>Leid modelverzoeken en MCP-tools via Tailscale Aperture. Stel Codex, Claude Code, Claude Desktop, OpenCode en Hermes in op een ander apparaat of een andere gateway.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <h2 id="inleiding">
+  <a href="#inleiding" title="Inleiding">Inleiding</a>
+  <a href="#inleiding" class="h-anchor" aria-hidden="true" title="Inleiding">#</a>
+</h2>
+<p>Tailscale Aperture geeft AI-clients één gateway die met de tailnet is verbonden voor modelinferentie en Model Context Protocol (MCP)-tools. Elke client moet een route gebruiken die bij het API-protocol past. MCP-tools gebruiken een apart endpoint. Aperture-grants bepalen welke modellen en connectors elke Tailscale-identiteit mag gebruiken.</p>
+<p>Deze gids laat zien hoe je Codex, Claude Code, Claude Desktop, OpenCode en Hermes instelt op macOS, Linux en Windows. De gids behandelt CLI- en desktopinstellingen, laat zien hoe je model-ID&rsquo;s voor je eigen identiteit opvraagt en bevat een geanonimiseerde prompt die je kunt hergebruiken bij het instellen van een ander apparaat of een andere Aperture-instantie.</p>
+<p><strong>Route kiezen:</strong> Endpointpaden hangen af van je gateway en elk API-protocol. Een Responses-route zoals <code>/codex</code> verwerkt geen Anthropic Messages- of MCP-verkeer. Controleer de hostnaam van de gateway en de inferentieroute van elke client. Vraag model-ID&rsquo;s op via je eigen Aperture-toegang voordat je clientinstellingen wijzigt.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Modelverkeer</strong> heeft de API-route nodig die bij het clientprotocol hoort.</li>
+<li><strong>MCP-verkeer</strong> gebruikt het aparte endpoint <code>/v1/mcp</code>.</li>
+<li><strong>Gatewaymachtigingen</strong> moeten je Tailscale-identiteit toegang geven tot elk model en elke connector.</li>
+<li><strong>Clientconfiguratie</strong> bewijst alleen dat instellingen zijn opgeslagen. Controleer een echt verzoek en een MCP-toolaanroep.</li>
+</ul>
+<h2 id="hoe-de-routes-samenhangen">
+  <a href="#hoe-de-routes-samenhangen" title="Hoe de routes samenhangen">Hoe de routes samenhangen</a>
+  <a href="#hoe-de-routes-samenhangen" class="h-anchor" aria-hidden="true" title="Hoe de routes samenhangen">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Doel</th>
+					<th>Clientverzoek</th>
+					<th>Aperture-route</th>
+					<th>Dienst van de route</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Codex en Responses-compatibele modellen</td>
+					<td>OpenAI Responses API</td>
+					<td>Meestal <code>/v
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Zelfgehoste Hindsight: lokaal agentgeheugen en privé modelroutering</title><link>https://nl.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/self-hosted-hindsight/</guid><description>Een casestudy van zelfgehoste Hindsight, waargenomen lokale Qwen-routes en GPU-werk per aanvraag zonder gehost inferentieabonnement op de onderzochte paden.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/self-hosted-hindsight/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Onze Hindsight-geheugendienst draait op hardware die we zelf beheren.</strong> De geheugenengine, database, embeddingmodel en reranker draaien in één zelfgehoste installatie. Hindsight verstuurt generatieverzoeken naar een privégateway. De onderzochte gedeelde Qwen-backend en de geteste route voor het vernieuwen van pagina&rsquo;s gebruiken lokale modelservers zonder gehost inferentieabonnement.</p>
+<p>Dit beschrijft één werkende installatie. <strong>Zelfgehost betekent niet offline.</strong> De VPN gebruikt een externe coördinatiedienst, en software-images en modelgewichten moeten worden gedownload. De claim hier gaat over geheugenverwerking en modelinferentie, niet over elke netwerkverbinding van onze apparaten of andere agenttools.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Hindsight beheert de geheugenworkflow.</strong> Een Docker-container levert de API, workers en het control plane, met bankgegevens op een persistent volume.</li>
+<li><strong>Kleine ophaalmodellen blijven lokaal.</strong> Embeddings en reranking draaien binnen het Hindsight-proces op de CPU.</li>
+<li><strong>Qwen genereert tekst.</strong> Retain, Reflect en consolidatie vragen de privéalias Qwen3.5-4B aan, met redeneren uitgeschakeld en begrensde uitvoer. De onderzochte backend serveert lokaal.</li>
+<li><strong>Lange paginavernieuwingen krijgen een GPU.</strong> Een aparte modelalias reserveert één kaart voor een achtergrondverzoek en geeft de kaart daarna weer vrij.</li>
+<li><strong>De gateway verbergt de fysieke plaatsing.</strong> Hindsight kiest een modelalias. Privéroutingdiensten kiezen een serveerendpoint.</li>
+</ul>
+<h2 id="bepaal-de-grens-voordat-je-modellen-kiest">
+  <a href="#bepaal-de-grens-voordat-je-modellen-kiest" title="Bepaal de grens voordat je modellen kiest">Bepaal de grens voordat je modellen kiest</a>
+  <a href="#bepaal-de-grens-voordat-je-modellen-kiest" class="h-anchor" aria-hidden="true" title="Bepaal de grens voordat je modellen kiest">#</a>
+</h2>
+<p><strong>Hindsight is de geheugenengine, niet de modelserver.</strong> De volledige Docker-image bevat lokale embedding- en rerankingmodellen, maar voor taalmodelgeneratie is een endpoint nodig. De 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/self-hosted-hindsight/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Chrome 156-beveiligingsupdate: controleer de patch van oktober</title><link>https://nl.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><description>Controleer de Chrome 156-beveiligingsrelease van 27 oktober op Windows, macOS, Linux en Android. Vergelijk de geïnstalleerde build, voltooi een openstaande herstart en controleer beheerde apparaten afzonderlijk.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>De Chrome-beveiligingsrelease van 27 oktober 2026</strong> bevat 52 oplossingen. Vergelijk de volledige versie met de release voor je besturingssysteem en herstart Chrome om een openstaande update af te ronden. Een aangekondigde versie bewijst niet dat je apparaat de update heeft ontvangen. (
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Chrome-release voor desktop">
+    <meta itemprop="url" content="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html">
+    <a href="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Chrome-release voor desktop</a>
+</span>
+)</p>
+<h2 id="welke-versie-hoort-zichtbaar-te-zijn">
+  <a href="#welke-versie-hoort-zichtbaar-te-zijn" title="Welke versie hoort zichtbaar te zijn?">Welke versie hoort zichtbaar te zijn?</a>
+  <a href="#welke-versie-hoort-zichtbaar-te-zijn" class="h-anchor" aria-hidden="true" title="Welke versie hoort zichtbaar te zijn?">#</a>
+</h2>
+<p>Google publiceerde deze Stable-kanaalversies op 27 oktober 2026. De desktoprelease noemt aparte builds voor Windows en macOS en voor Linux. De 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Android-release">
+    <meta itemprop="url" content="https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_0160078013.html">
+    <a href="https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_0160078013.html"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+         
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Open WebUI v0.12.4: checklist voor upgrades en toegangsbeheer 2026</title><link>https://nl.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><description>Maak een back-up en upgrade Open WebUI naar v0.12.4. Test daarna chatdeling, exportrechten, resourcetoegang, accounts en netwerktoegang.</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Open WebUI v0.12.4 bevat beveiligingsoplossingen die de beheerders nog niet nader hebben toegelicht.</strong> De releaseopmerkingen adviseren om installaties snel bij te werken en zeggen dat beveiligingsadviezen volgen zodra CVE&rsquo;s zijn toegewezen. De hieronder genoemde wijzigingen voor chatdeling en rechten zijn de zichtbare punten in de releaseopmerkingen. Ze vormen geen volledige lijst van de nog niet openbaar gemaakte beveiligingsoplossingen. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Releaseopmerkingen Open WebUI v0.12.4">
+    <meta itemprop="url" content="https://github.com/open-webui/open-webui/releases/tag/v0.12.4">
+    <a href="https://github.com/open-webui/open-webui/releases/tag/v0.12.4"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Releaseopmerkingen Open WebUI v0.12.4</a>
+</span>
+</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Maak eerst een back-up.</strong> Bewaar een herstelbare kopie van het datavolume of de database en uploads voordat je de applicatie wijzigt.</li>
+<li><strong>Zet de officiële release vast.</strong> Gebruik <code>ghcr.io/open-webui/open-webui:v0.12.4</code> voor de standaard Docker-image of <code>open-webui==0.12.4</code> voor pip.</li>
+<li><strong>Test rechten met echte gebruikersrollen.</strong> Een verborgen knop bewijst niet dat de API autorisatie controleert.</li>
+<li><strong>Houd toegang privé.</strong> Vereis applicatieauthenticatie en beperk netwerktoegang via een VPN of een geauthenticeerde reverse proxy.</li>
+</ul>
+<h2 id="voordat-je-upgradet">
+  <a href="#voordat-je-upgradet" title="Voordat je upgradet">Voordat je upgradet</a>
+  <a href="#voordat-je-upgradet" class="h-anchor" aria-hidden="true" title="Voordat je upgradet">#</a>
+</h2>
+<p><strong>Vereisten:</strong> bepaal de huidige installatieme
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Thunderbird 153.6: Windows NTLM-gegevenslek en hoe je bijwerkt (2026)</title><link>https://nl.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><description>Twee ernstige Thunderbird-kwetsbaarheden kunnen NTLM-authenticatiegegevens lekken wanneer je een speciaal gemaakte e-mail weergeeft. Lees hoe beide routes werken, controleer je versie en beperk uitgaand SMB-verkeer tijdens het bijwerken.</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p>Mozilla heeft in Thunderbird 153.6 twee <strong>ernstige kwetsbaarheden verholpen die Windows-inloggegevens bloot konden leggen</strong>. Het weergeven van een speciaal gemaakte e-mail kon al een van de netwerkverzoeken activeren die in 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="MFSA 2026-122">
+    <meta itemprop="url" content="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/">
+    <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >MFSA 2026-122</a>
+</span>
+ worden beschreven. Het advies noemt mogelijke blootstelling van NTLM-gegevens, geen bevestigde inbreuk op de inloggegevens van elke ontvanger.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>CVE-2026-118174</strong> betrof een extern gehoste OpenPGP-sleutelbijlage. Het weergeven van het bericht startte een verzoek zonder gebruikersactie, zelfs wanneer externe inhoud was geblokkeerd.</li>
+<li><strong>CVE-2026-118176</strong> betrof een speciaal gevormde <code>mailbox:</code>-URL met een UNC-pad met uitgebreide lengte. Het weergeven van het bericht startte een SMB-verbinding naar een server die de afzender had gekozen.</li>
+<li><strong>Werk Thunderbird op Windows bij</strong> en controleer de geïnstalleerde versie. Het advies noemt Thunderbird 153.6 als de versie met de oplossing. De releaseopmerkingen van Thunderbird noemen de bijbehorende build 153.6.0esr.</li>
+</ul>
+<h2 id="wat-de-e-mail-activeert">
+  <a href="#wat-de-e-mail-activeert" title="Wat de e-mail activeert">Wat de e-mail activeert</a>
+  <a href="#wat-de-e-mail-activeert" class="h-anchor" aria-hidden="true" title="Wat de e-mail activeert">#</a>
+</h2>
+<p><strong>De twee kwetsbaarheden hebben verschillende ingangen.</strong> Volgens Mozilla hoeft de ontvanger b
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Bouw een homelab in 10 niveaus, van Pi-hole tot lokale AI</title><link>https://nl.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><description>Bouw een homelab in tien praktische stappen, van netwerkbrede DNS-filtering tot lokale AI, met hardware, kosten, vaardigheden en afwegingen per niveau.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/build-home-lab-10-levels/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <h1 id="bouw-een-homelab-in-10-niveaus-van-pi-hole-tot-lokale-ai">
+  <a href="#bouw-een-homelab-in-10-niveaus-van-pi-hole-tot-lokale-ai" title="Bouw een homelab in 10 niveaus, van Pi-hole tot lokale AI">Bouw een homelab in 10 niveaus, van Pi-hole tot lokale AI</a>
+  <a href="#bouw-een-homelab-in-10-niveaus-van-pi-hole-tot-lokale-ai" class="h-anchor" aria-hidden="true" title="Bouw een homelab in 10 niveaus, van Pi-hole tot lokale AI">#</a>
+</h1>
+<p>Een <strong>homelab</strong> is een verzameling computers en diensten die je zelf beheert om alledaagse problemen op te lossen en echte systemen te leren beheren. Je kunt advertenties blokkeren, lampen automatiseren, media voor je gezin opslaan of virtuele machines testen. <strong>Begin met één nuttige taak.</strong> Voeg hardware toe zodra je een echte beperking merkt.</p>
+<p>Deze gids loopt van een kleine Raspberry Pi met Pi-hole tot een server met lokale AI-modellen. <strong>Elk niveau voegt mogelijkheden en een nieuwe verantwoordelijkheid toe.</strong> De kostenramingen hieronder gebruiken een illustratief stroomverbruik en een voorbeeldtarief van $0.15 per kilowattuur. Controleer je lokale tarief en meet je apparatuur voordat je meer koopt.</p>
+<h2 id="niveau-1-blokkeer-advertenties-op-je-thuisnetwerk">
+  <a href="#niveau-1-blokkeer-advertenties-op-je-thuisnetwerk" title="Niveau 1: Blokkeer advertenties op je thuisnetwerk">Niveau 1: Blokkeer advertenties op je thuisnetwerk</a>
+  <a href="#niveau-1-blokkeer-advertenties-op-je-thuisnetwerk" class="h-anchor" aria-hidden="true" title="Niveau 1: Blokkeer advertenties op je thuisnetwerk">#</a>
+</h2>
+<p>Installeer 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Pi-hole">
+    <meta itemprop="url" content="https://docs.pi-hole.net/">
+    <a href="https://docs.pi-hole.net/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Pi-hole</a>
+</span>
+ op een Raspberry Pi of een andere kleine Linux-computer. Pi-hole werkt als een <strong>DNS-sinkhole</strong>. Wanneer een apparaat het 
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/build-home-lab-10-levels/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Hermes-modellen lokaal testen: welke GPU- en modelcombinaties ik zou kiezen</title><link>https://nl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><description>Mijn modeladviezen voor Hermes zijn gebaseerd op tests met lange context, tools, streaming en beeldherkenning op RTX 5060 Ti-, RTX 2000E Ada-, RTX 3060 Ti- en RTX 3070-systemen.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p>Voor Hermes-taken met een lange context zou ik beginnen met Qwen3.5 35B op twee RTX 5060 Ti-kaarten van 16 GB. De geteste route behield 239.153 invoertokens via LiteLLM en slaagde afzonderlijk voor tool-, streaming-, vision-, wachtrij- en annuleringscontroles. Qwen3.6 is mijn alternatief met één kaart. Op systemen met een RTX 3060 Ti of RTX 3070 zou ik beginnen met Qwen3.5 2B of 4B.</p>
+<p>Die keuzes komen voort uit tests met modellen via de inferentieroutes die de agent gebruikt. Ik controleerde het behoud van lange invoer, toolrondes, gestreamde antwoorden, beeldvragen en het vrijgeven van modellen. Ook testte ik de modi en geheugeninstellingen achter de routes, omdat een model dat laadt weinig zegt over zijn nut tijdens een lange agentaanvraag.</p>
+<p>Hermes vereist minstens 64.000 contexttokens voor agentgebruik met tools. Ik gebruikte 65.536 werkelijk verwerkte invoertokens als drempel voor kwalificatie bij lange context. Het aantal invoertokens zegt meer dan de contextgrootte die de server adverteert. (
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Documentatie van Hermes Agent-providers">
+    <meta itemprop="url" content="https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md">
+    <a href="https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Documentatie van Hermes Agent-providers</a>
+</span>
+)</p>
+<h2 id="welke-gpus-in-elk-systeem-zaten">
+  <a href="#welke-gpus-in-elk-systeem-zaten" title="Welke GPU&rsquo;s in elk systeem zaten">Welke GPU&rsquo;s in elk systeem zaten</a>
+  <a href="#welke-gpus-in-elk-systeem-zaten" class="h-anchor" aria-hidden="true" title="Welke GPU&rsquo;s in elk systeem zaten">#</a>
+</h2>
+<p>De letters bij de systemen verwijzen in de resultaten steeds naar deze hardwarecombinaties.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Systeem</th>
+					<th>GPU&rsquo;s voor deze benchmark</th>
+					<th>Mijn startkeuze vo
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Binnen onze hybride AI-agentenvloot: Hermes, LiteLLM en Tailscale</title><link>https://nl.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><description>Bekijk een geverifieerde lokale AI-vloot die modellen pas op verzoek laadt en het T0-tot-T4-besturingsvlak met Hermes, LiteLLM, Tailscale Aperture en Pearl-minen.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>We hebben een lokale GPU-vloot met GPU-toewijzing per verzoek uitgerold en het hybride besturingsvlak ontworpen.</strong> Het geverifieerde pad begint bij LiteLLM, kiest een modelgroep en laadt telkens één lokaal model op één GPU. Het Hermes-beleid voor niveaus is voorgesteld. Een configuratieartefact voor Tailscale Aperture is klaar voor de volgende integratietest. Geen van beide is geverifieerd als onderdeel van één end-to-endroute.</p>
+<p>Inactieve kaarten minen Pearl. Een AI-verzoek pauzeert het minen alleen op de geleende kaart, verwerkt het verzoek, laadt het model uit en geeft de kaart terug aan de miner.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>T0 tot en met T2 verwerken duur of veeleisend werk.</strong> Deze routes geven de voorkeur aan gehoste frontiermodellen en geordende terugvalketens.</li>
+<li><strong>T3 verwerkt substantieel lokaal werk.</strong> De vloot wijst planning, coderen, controle en visie toe aan modellen van 4B tot 12B.</li>
+<li><strong>T4 verwerkt veelvoorkomend lokaal werk.</strong> Kleine modellen routeren, classificeren, extraheren, embedden en voltooien afgebakende codetaken.</li>
+<li><strong>Elke GPU is een zelfstandige bron.</strong> Eén kaart verwerkt AI terwijl de overige kaarten blijven minen.</li>
+<li><strong>Lokale modellen blijven uitgeladen wanneer ze niet actief zijn.</strong> Tussen verzoekvensters houdt geen model GPU-geheugen bezet.</li>
+<li><strong>Elke gateway biedt dezelfde logische catalogus.</strong> Gedeelde aliassen verdelen werk over geschikte systemen. Aliassen met een knooppuntprefix leggen zo nodig de exacte plaats vast.</li>
+<li><strong>De experimentele broker ging niet in productie.</strong> De canary verwerkte een verzoek en faalde daarna voor een test van een nette afsluiting. LiteLLM bleef op het geverifieerde pad per verzoek.</li>
+<li><strong>Hermes en Aperture zijn nog voorbereid.</strong> Het doelontwerp bestaat, maar end-to-endacceptatietests staan nog open.</li>
+</ul>
+<p><strong>Vereisten:</strong> meerdere Linux-GPU-hosts, stabiele NVIDIA-stuurprogramma&rsquo;s, een Tailscale-tailnet, systemd, een werkende miner, modelopslag en acceptatietests voor elke modelroute.</p>
+<p><strong>Tijd en moeilijkheid:</strong> gevorderd. Trek meerdere dagen uit voor inventarisatie, mod
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>1Password SSH Agent en CLI: Alleen-lezen AI-agent-toegang</title><link>https://nl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><description>Ontwerp een alleen-lezen SSH-workflow met 1Password CLI, de SSH Agent en MCP. Gebruik synthetische commando's, beperkte machtigingen en menselijke goedkeuring voordat u live test.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Een command-line agent heeft nuttige toegang nodig, niet een kopie van elke inloggegevens.</strong> Deze gids presenteert een begrensd ontwerp voor 1Password CLI, de 1Password SSH Agent, Bitbucket Git-toegang en Model Context Protocol (MCP). De eerste workflow gebruikt synthetische namen, alleen-lezen acties en menselijke goedkeuring op het SSH-grensgebied.</p>
+<p>Het belangrijkste onderscheid is eenvoudig. <strong>Interactief SSH gebruikt toestemming via de 1Password SSH Agent. Onbeheerde automatisering heeft een aparte identiteit, beperkte toegang en een andere sleutellevenscyclus nodig.</strong> Behandel een MCP-verbinding niet als toestemming om een van deze workflows uit te voeren.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Bescherming van privésleutels:</strong> De 1Password SSH Agent voert SSH-authenticatie uit terwijl de privésleutels binnen de 1Password-app worden bewaard.</li>
+<li><strong>Verwerking van openbare sleutels:</strong> Publiceer alleen een openbare sleutel naar Bitbucket of een externe account. Bewaar de privé-helft in een SSH Key-item.</li>
+<li><strong>Interactieve toestemming:</strong> Een persoon keurt een client- of terminalsessie goed voordat de SSH Agent een sleutel gebruikt.</li>
+<li><strong>Scheiding voor onbeheerde taken:</strong> Een geplande taak heeft een toegewijde service-account en een beperkte vault-scope nodig. Een interactieve SSH Agent-goedkeuring voldoet niet aan deze behoefte.</li>
+<li><strong>MCP-grenzen:</strong> MCP verbindt een agent met tools en bronnen. De client, server, besturingssysteem en 1Password-beleid bepalen nog steeds de toegang.</li>
+</ul>
+<h2 id="voordat-u-begint">
+  <a href="#voordat-u-begint" title="Voordat u begint">Voordat u begint</a>
+  <a href="#voordat-u-begint" class="h-anchor" aria-hidden="true" title="Voordat u begint">#</a>
+</h2>
+<p><strong>Vereisten:</strong> Installeer 1Password 8 en 1Password CLI 2.20.0 of nieuwer. Meld u aan via een ondersteunde 1Password-account. Gebruik een OpenSSH-client. Maak een test-Bitbucket-repository of een andere niet-productie doel aan. Houd een tweede administratieve route beschikbaar voor terugrol.</p>
+<p><strong>Tijd:</strong> 30 tot 45 minuten voor een ontwerpbeoordeling en synthetische doorloop.</p>
+<p><strong>Moeilijkheidsgraad:</
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Bitbucket Cloud SSH-sleutels: alleen-lezen Git-toegang voor AI-agents</title><link>https://nl.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><description>Stel Bitbucket Cloud SSH-sleutels, Git CLI-toegang, REST API-tokens, 1Password en MCP-tools in voor alleen-lezen workflows met AI-agents.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Een begrensde agentworkflow scheidt repository-lezingen, API-lezingen, geheimbeheer en externe schrijfacties.</strong> Gebruik Git via Secure Shell (SSH) voor toegang tot broncode, een alleen-lezen Bitbucket-toegangssleutel voor geautomatiseerde checkout, de REST API voor metadata en een Model Context Protocol (MCP)-server voor goedgekeurde tools. Bewaar privésleutels en API-tokens in 1Password. Laat schrijfacties pas na menselijke goedkeuring toe.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Alleen-lezen als standaard:</strong> Gebruik een repository- of projecttoegangssleutel voor checkout door agents. Geen van beide geeft push-toegang.</li>
+<li><strong>Persoonlijke identiteit:</strong> Gebruik een persoonlijke SSH-sleutel voor interactief werk dat aan een gebruikersaccount is gekoppeld.</li>
+<li><strong>Beheer van geheimen:</strong> Gebruik de 1Password SSH Agent zodat Git een ondertekeningsbewerking kan uitvoeren zonder de privésleutel te lezen.</li>
+<li><strong>Betekenis van CLI:</strong> Gebruik <code>git</code>, <code>curl</code> en een kleine gecontroleerde API-wrapper als praktische Bitbucket-opdrachtregeltools.</li>
+<li><strong>MCP-grens:</strong> Stel beperkte leestools beschikbaar. Schakel schrijftools uit of plaats ze achter een afzonderlijk goedkeuringsproces.</li>
+<li><strong>Schrijfgate:</strong> Laat een agent een wijziging inspecteren, vergelijken en voorbereiden. Vereis menselijke goedkeuring voor een push, pull request, merge of instellingenwijziging.</li>
+</ul>
+<h2 id="voordat-je-begint">
+  <a href="#voordat-je-begint" title="Voordat je begint">Voordat je begint</a>
+  <a href="#voordat-je-begint" class="h-anchor" aria-hidden="true" title="Voordat je begint">#</a>
+</h2>
+<p><strong>Vereisten:</strong> toegang tot Bitbucket Cloud, Git, een OpenSSH-client, 1Password 8, 1Password CLI, een aangemelde CLI of goedgekeurd serviceaccount, en een MCP-host met goedkeuringsbeheer voor servers. Reken op 45 minuten. Moeilijkheidsgraad: gemiddeld.</p>
+<p>Gebruik voor de eerste proef een testrepository. Vervang elke tijdelijke aanduiding in de voorbeelden. De opdrachten hieronder zijn niet-geteste voorbeelden. Ze verwijzen niet naar een actief Bitbucket-account of een echte repository.</p>
+<p><strong>Versiestatus:</strong> dit artikel is
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Een Hyper-V-VM naar Proxmox VE migreren: een omkeerbare checklist</title><link>https://nl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><description>Verplaats een Hyper-V-VM naar Proxmox VE met een export terwijl de bron uitstaat, passende firmware, geïmporteerde schijven, een geïsoleerde opstarttest en een terugdraaiplan.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p>Een <strong>Hyper-V-export</strong> bewaart de bestanden van een virtuele machine. Proxmox VE heeft echter een nieuwe gastconfiguratie en geïmporteerde VHDX-schijfbestanden nodig. Een geslaagde kopie bewijst niet dat de gast opstart of gebruikers bedient. Deze checklist leidt één VM door een export met een uitgeschakelde bron, een gecontroleerde opstarttest en een omschakeling met een duidelijke terugweg.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Leg de bron vast:</strong> noteer firmwaregeneratie, schijfpaden, controlepunten, netwerkinstellingen en versleuteling vóór de export.</li>
+<li><strong>Stop schrijfacties:</strong> sluit de Hyper-V-VM af vóór de laatste export en houd de VM uitgeschakeld tijdens de Proxmox-test.</li>
+<li><strong>Pas het opstartpad aan:</strong> Hyper-V Generation 1 gebruikt legacy BIOS. Generation 2 gebruikt UEFI.</li>
+<li><strong>Valideer de dienst:</strong> controleer gegevens, netwerktoegang, back-ups en de gezondheid van de gast vóór u de bron buiten gebruik stelt.</li>
+</ul>
+<h2 id="voor-u-begint">
+  <a href="#voor-u-begint" title="Voor u begint">Voor u begint</a>
+  <a href="#voor-u-begint" class="h-anchor" aria-hidden="true" title="Voor u begint">#</a>
+</h2>
+<p>Plan een onderhoudsvenster en test eerst op een wegwerp-VM. U hebt beheerdersrechten voor Hyper-V en Proxmox VE nodig, opslag voor de export en een gecontroleerde back-up die losstaat van de migratiekopie. Reserveer tijd om elke virtuele schijf over te zetten en de gasttoepassing te testen. Schijfgrootte en overdrachtssnelheid bepalen de uitvaltijd.</p>
+<p>Deze procedure behandelt een gebruikelijke VM met virtuele schijven. <strong>Shielded VM&rsquo;s, passthrough-schijven, gedeelde schijven, geclusterde workloads en hardwaregebonden licenties</strong> vereisen een plan voor de specifieke workload. Leg vast wie de omschakeling goedkeurt en wat de uiterste tijd voor terugdraaien is. Start beide kopieën niet met dezelfde machine-identiteit op het productienetwerk.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Broninformatie</th>
+					<th>Waarom u deze nodig hebt</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>VM-generatie en firmware</strong></td>
+					<td>SeaBIOS of OVMF kiezen in Proxmox</td>
+			</tr>
+			<tr>
+					<td><strong>Secure Boot-status en 
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Gast- en IoT-isolatie op een mesh-wifi-netwerk testen</title><link>https://nl.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><description>Controleer of de gast- en IoT-netwerken van je mesh-wifi toegang tot je thuisapparaten blokkeren. Test elk netwerk met een werkende dienst en leg de grenzen vast.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p>Een aparte wifi-naam laat niet zien welke apparaten met elkaar communiceren. Een mesh-systeem behandelt het <strong>gastnetwerk</strong>, het <strong>IoT-netwerk</strong> en <strong>draadloze clientisolatie</strong> mogelijk als afzonderlijke instellingen. Deze handleiding helpt je routes op je eigen apparatuur te testen zonder aan te nemen dat het label van een fabrikant je beleid beschrijft.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Controleer eerst of het doel werkt:</strong> bereik een bekende dienst vanaf het hoofdnetwerk voordat je een geblokkeerde route test.</li>
+<li><strong>Test elke grens:</strong> gast naar hoofdnetwerk, IoT naar hoofdnetwerk en gast naar gast beantwoorden verschillende vragen.</li>
+<li><strong>Leg de configuratie vast:</strong> model, firmware, router- of accesspointmodus en aangesloten mesh-node beïnvloeden de interpretatie.</li>
+<li><strong>Test opnieuw na wijzigingen:</strong> een goed resultaat geldt alleen voor de geteste apparaten, dienst, adresfamilie en configuratie.</li>
+</ul>
+<h2 id="voor-je-begint">
+  <a href="#voor-je-begint" title="Voor je begint">Voor je begint</a>
+  <a href="#voor-je-begint" class="h-anchor" aria-hidden="true" title="Voor je begint">#</a>
+</h2>
+<p>Trek ongeveer 20 minuten uit. Je hebt een laptop nodig die verbinding kan maken met je hoofd-, gast- en IoT-wifi. Ook heb je een vertrouwd apparaat op het hoofdnetwerk nodig met een <strong>bekende open TCP-dienst</strong>, zoals de webinterface van een NAS. Een TCP-dienst luistert op een genummerde poort, zoals poort 443 van een NAS-webpagina. Gebruik een dienst die van jou is of die je beheert. Noteer het lokale adres en de poort, maar publiceer ze niet. Laat de dienst tijdens de hele test actief.</p>
+<p>Noteer het mesh-model, de firmwareversie, de bedrijfsmodus en de instellingen voor gasttoegang, IoT-toegang, gedeelde apparaten en clientisolatie. Controleer na elke wifi-wissel de wifi-naam van de laptop. Verbreek voor deze test van het lokale pad de VPN- of proxyverbinding als je normale beleid dit toestaat. Herstel die daarna. Een VPN verandert de route die je test.</p>
+<blockquote>
+<p><strong>Waarschuwing:</strong> test alleen je eigen apparaten of apparaten die je mag beheren. De aanmeldpagina van de router is geen goede vervanging voor 
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proxmox VM-hersteltest: bewijs dat de gastmachine werkt</title><link>https://nl.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><description>Test een Proxmox VM-back-up met een geïsoleerd herstel. Controleer schijfdekking, back-upmodus, gastgegevens, servicestatus en hersteltijd zonder productie aan te raken.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p>Een groene back-uptaak laat zien dat Proxmox een back-up heeft geschreven. De taak laat niet zien of de gast start, de gegevens actueel zijn of de belangrijkste dienst werkt. <strong>Herstel een kopie met een nieuw VM-ID op een geïsoleerd netwerk.</strong> Het resultaat levert bewijs voor herstel voordat een storing je dwingt om te testen.</p>
+<p>Deze proef behandelt één <strong>Proxmox VE-virtuele machine</strong>. Voor containers gelden andere back-upregels, vooral voor bind- en apparaatkoppelingen. De 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="back-up- en hersteltest voor een homelab">
+    <meta itemprop="url" content="/articles/homelab-backup-restore-drill/">
+    <a href="/articles/homelab-backup-restore-drill/"
+    
+        rel="follow me"
+    >back-up- en hersteltest voor een homelab</a>
+</span>
+ op deze site behandelt uitgebreider bestandsherstel. Hier test je een Proxmox VM-back-up en de bijbehorende werklast.</p>
+<p>Een <strong>gast</strong> is het besturingssysteem dat in een virtuele machine draait. <strong>Bindkoppelingen</strong> en <strong>apparaatkoppelingen</strong> geven de gast toegang tot hostbronnen. Test die bronnen met een apart herstelplan.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Bepaal eerst wanneer de test slaagt:</strong> kies een gegevensitem, een dienstcontrole en een aanvaardbare hersteltijd.</li>
+<li><strong>Controleer de dekking:</strong> een VM-back-up slaat schijven met <strong>No backup</strong> over en herstelt geen externe diensten of uitgesloten gegevens.</li>
+<li><strong>Herstel apart:</strong> gebruik een ongebruikt VM-ID en houd het herstelde netwerk gescheiden van productie.</li>
+<li><strong>Leg bewijs vast:</strong> meet de ouderdom van de back-up, de hersteltijd, het opstarten, aanwezige schijven en een echte toepassingscontrole.</li>
+</ul>
+<h2 id="voordat-je-begint">
+  <a href="#voordat-je-begint" titl
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Test DNS- en WebRTC-lekken in je browser met een VPN</title><link>https://nl.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><description>Controleer het openbare IP-adres, de DNS-resolver en WebRTC-adressen van je browser voor en na het verbinden met een VPN. Interpreteer de resultaten en onderzoek routeringsproblemen.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p>Het verbindingspictogram van een virtueel privénetwerk (VPN) bewijst niet dat elk browserverzoek dezelfde route volgt. Test je <strong>openbare IP-adres</strong>, <strong>resolver van het Domain Name System (DNS)</strong> en <strong>WebRTC-adressen</strong> afzonderlijk. Elk resultaat beantwoordt een andere vraag. Deze gids biedt een herhaalbare controle en een manier om onverwachte resultaten te onderzoeken.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Vergelijk twee situaties:</strong> Leg dezelfde tests vast voor en na het verbinden met je VPN.</li>
+<li><strong>Beoordeel elk resultaat apart:</strong> Een gewijzigd openbaar IP-adres toont niet waar DNS-query&rsquo;s naartoe gingen.</li>
+<li><strong>Controleer WebRTC-kandidaten:</strong> Zoek naar een openbaar adres buiten de bedoelde route. Een privé-adres heeft een andere betekenis.</li>
+<li><strong>Wijzig één instelling tegelijk:</strong> Test opnieuw na elke wijziging aan VPN, browser of DNS.</li>
+</ul>
+<h2 id="voordat-je-begint">
+  <a href="#voordat-je-begint" title="Voordat je begint">Voordat je begint</a>
+  <a href="#voordat-je-begint" class="h-anchor" aria-hidden="true" title="Voordat je begint">#</a>
+</h2>
+<p>Gebruik de browser en netwerkverbinding die je wilt beveiligen. Bepaal of de VPN het hele apparaat of alleen bepaalde apps moet omvatten. Als je VPN split tunneling gebruikt, noteer dan of de testbrowser door de tunnel gaat. Houd het DNS-beleid van de VPN-client bij de hand.</p>
+<p><strong>Split tunneling</strong> stuurt sommige apps via de VPN en andere apps via het normale netwerk.</p>
+<p>Deze procedure gebruikt de pagina&rsquo;s 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="IP van BrowserLeaks">
+    <meta itemprop="url" content="https://browserleaks.com/ip">
+    <a href="https://browserleaks.com/ip"
+    
+        
+            
+                
+                    rel="noopener external
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Waarom DNS-filtering wordt omzeild: test het resolverpad</title><link>https://nl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><description>Achterhaal waarom een apparaat of browser je DNS-filter overslaat. Vergelijk directe en normale queries, controleer logs en bekijk versleutelde DNS, VPN, IPv6 en routerinstellingen.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p>Je hebt een filterende resolver ingesteld, maar één apparaat bereikt nog steeds een domein dat volgens je beleid wordt geblokkeerd. De oorzaak kan de regel zijn, de Domain Name System (DNS)-toewijzing van het apparaat, een versleutelde resolver in de browser of een VPN. <strong>Test het pad voordat je instellingen wijzigt.</strong> Een directe query naar het filter beantwoordt een andere vraag dan een gewone query vanaf het apparaat.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Controleer eerst de regel:</strong> Bevestig dat het filter een veilig testdomein ontvangt en blokkeert.</li>
+<li><strong>Volg elke laag:</strong> Router, besturingssysteem, browser, VPN en mobiele instellingen beïnvloeden elk de DNS-routering.</li>
+<li><strong>Gebruik nieuwe queries:</strong> Koppel een nieuwe hostnaam en tijdstip aan het querylog van het filter.</li>
+<li><strong>Benoem de beperking:</strong> Eén waargenomen query bewijst één pad, niet dat elke app of elk apparaat hetzelfde doet.</li>
+</ul>
+<h2 id="voorbereiding">
+  <a href="#voorbereiding" title="Voorbereiding">Voorbereiding</a>
+  <a href="#voorbereiding" class="h-anchor" aria-hidden="true" title="Voorbereiding">#</a>
+</h2>
+<p>Trek ongeveer 20 minuten uit. Je hebt toegang nodig tot het querylog van de filterresolver, één apparaat met het probleem en de DNS-instellingen van de router. De voorbeelden gebruiken een Windows-laptop en <strong>Pi-hole</strong>, maar dezelfde vergelijking werkt met elke resolver die querylogs per client biedt. Zoek eerst het exacte adres van het filter op. Deel geen privé-clientadressen, querylogs of beleidsregels in een openbaar rapport.</p>
+<p>Kies een <strong>onschadelijk testdomein</strong> dat je beleid al blokkeert. Je kunt ook tijdelijk een exacte weigerregel toevoegen voor een domein dat je beheert in een testprofiel. Noteer de regel en verwijder hem na de test. Gebruik geen actief malwaredomein als test. Een geblokkeerde pagina is een nuttig symptoom, maar het resolverlog levert sterker bewijs over het pad.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Laag</th>
+					<th>Vraag</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Filter</strong></td>
+					<td>Bereikt een directe query de bedoelde resolver en komt deze overeen met de regel?</td>
+			</tr>
+			<tr>
+					<t
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2x RTX 5060 Ti versus GB10: lokale AI-benchmark met vijf modellen bij 256K context</title><link>https://nl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><description>Vergelijking van vijf modellen op RTX 5060 Ti en GB10, plus een benchmark op dezelfde host van Qwen3.8 Flash-Next Strata tot 256K context.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Twee RTX 5060 Ti-kaarten met elk 16 GB leveren samen 32 GB VRAM.</strong> Een NVIDIA GB10-systeem heeft 128 GB coherent unified memory. De nieuwe benchmark met vijf modellen geeft een evenwichtiger beeld dan de eerdere test met alleen Qwen.</p>
+<p>Het systeem met twee kaarten genereert bij de instelling van 256K voor vier van de vijf modellen sneller. De GB10 presteert duidelijk beter op Qwen3.8 27B en houdt meer geheugen over voor modellen, context en runtime-toewijzingen. De beste keuze hangt af van model en belasting.</p>
+<p>Een afzonderlijke run op dezelfde host vergeleek Qwen3.8-Flash-Next IQ2_XS op Strata met dense Qwen3.8 27B Q4_K_M op Ollama. De mediane generatiesnelheid na opwarming was 92,8 tokens per seconde voor Flash-Next bij een prompt van 260.446 tokens. Dense Qwen3.8 haalde 0,939 tokens per seconde bij een prompt van 260.444 tokens.</p>
+<p>De NVIDIA GB10 gebruikt 128 GB coherent unified memory. NVIDIA vermeldt 128 GB LPDDR5x unified memory en een chip-TDP van 140 W. De RTX 5060 Ti heeft per kaart 16 GB GDDR7, een 128-bit geheugeninterface en een totaal grafisch vermogen van 180 W. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Specificaties NVIDIA RTX 5060 Ti">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/">
+    <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Specificaties NVIDIA RTX 5060 Ti</a>
+</span>
+ en 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="specificaties NVIDIA GB10">
+    <meta
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AGENTS.md en CLAUDE.md schrijven voor codeeragenten</title><link>https://nl.simeononsecurity.com/articles/effective-ai-agents-md-context/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/effective-ai-agents-md-context/</guid><description>Maak een korte repositorykaart met de gezaghebbende bron en testopdracht, zodat codeeragenten met de juiste context beginnen.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/effective-ai-agents-md-context.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/effective-ai-agents-md-context/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Terug naar de praktische AI-workflowcursus">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Terug naar de praktische AI-workflowcursus</a>
+</span>
+</p>
+<p><strong>Geef een codeeragent eerst een korte kaart voordat je wijzigingen vraagt.</strong> Het instructiebestand noemt de gezaghebbende bron, relevante bestanden, testopdracht en grenzen. Kopieer niet het hele project en zet er geen geheimen in.</p>
+<p><strong>Leerdoel:</strong> je schrijft een korte repositorykaart en lost een conflict op aan de hand van de goedgekeurde eis.</p>
+<h2 id="kernpunten">
+  <a href="#kernpunten" title="Kernpunten">Kernpunten</a>
+  <a href="#kernpunten" class="h-anchor" aria-hidden="true" title="Kernpunten">#</a>
+</h2>
+<ul>
+<li><strong>Repository-instructies</strong> leggen uit hoe een agent in deze codebasis werkt.</li>
+<li><strong>Een projectkaart</strong> wijst bestanden en feiten aan zonder de volledige inhoud te kopiëren.</li>
+<li><strong>De gezaghebbende bron</strong> bepaalt welk record geldt als teksten elkaar tegenspreken.</li>
+<li><strong>Toolspecifieke bestanden</strong> verwijzen naar gedeelde regels in plaats van uiteen te lopen.</li>
+</ul>
+<h2 id="voordat-je-begint">
+  <a href="#voordat-je-begint" title="Voordat je begint">Voordat je begint</a>
+  <a href="#voordat-je-begint" class="h-anchor" aria-hidden="true" title="Voordat je begint">#</a>
+</h2>
+<p><strong>Benodigdheden:</strong> het uitgepakte 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="startlab">
+    <meta itemprop="url" content="/downloads/effective-ai-course-lab.zip">
+    <a
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/effective-ai-agents-md-context/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI effectief gebruiken: een betrouwbare werkwijze voor beginners</title><link>https://nl.simeononsecurity.com/articles/effective-ai-workflow-foundations/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/effective-ai-workflow-foundations/</guid><description>Leer een herhaalbare AI-werkwijze: bepaal de taak, geef relevante context, bekijk het bewijs en controleer het resultaat voordat je het gebruikt.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/effective-ai-workflow-foundations.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/effective-ai-workflow-foundations/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Terug naar de cursus Praktische AI-werkstroom">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Terug naar de cursus Praktische AI-werkstroom</a>
+</span>
+</p>
+<p><strong>Gebruik AI als een medewerker van wie je het resultaat controleert.</strong> Begin met een duidelijk resultaat, geef alleen relevante informatie en vergelijk het antwoord met de bron. Deze les geeft je een werkwijze voor chat-, onderzoeks- en codetaken.</p>
+<p><strong>Leerdoel:</strong> je maakt een gecorrigeerde workshopmail en een controleverslag met vier punten.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Taak:</strong> benoem het benodigde resultaat en de grenzen ervan.</li>
+<li><strong>Context:</strong> geef bestanden, feiten en voorbeelden die voor deze taak relevant zijn.</li>
+<li><strong>Bewijs:</strong> vraag waar belangrijke beweringen en wijzigingen vandaan komen.</li>
+<li><strong>Verificatie:</strong> controleer het eindresultaat, niet het zelfvertrouwen van de assistent.</li>
+</ul>
+<h2 id="voordat-je-begint">
+  <a href="#voordat-je-begint" title="Voordat je begint">Voordat je begint</a>
+  <a href="#voordat-je-begint" class="h-anchor" aria-hidden="true" title="Voordat je begint">#</a>
+</h2>
+<p><strong>Vereisten:</strong> toegang tot een AI-chattool en een onschuldige taak die je al kent. Code of een betaald abonnement is niet nodig. Trek 25 minuten uit. Niveau: beginner.</p>
+<p><strong>Oefenscenario:</strong> je beheert een fictieve buurtworkshop. In een conceptmail staat dat de volgende les om 18.00 uur begint. Volgens het goedgekeurde rooster begint deze om 19.00 uur. Je wilt een gecorrigeerde mail en een overzicht van de wijzigingen. Gebruik geen echte klantgegevens.</p>
+<h2 id="ken-de-onderdelen">
+  <a href="#ken-de-onderdelen" title="Ke
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/effective-ai-workflow-foundations/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI-agenten delegeren: taken verdelen en resultaten beoordelen</title><link>https://nl.simeononsecurity.com/articles/effective-ai-agent-delegation/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/effective-ai-agent-delegation/</guid><description>Bepaal wanneer een tweede AI-agent helpt, geef elke werker een afgebakende taak, voorkom bewerkingsconflicten en voeg bewijs samen in de hoofdsessie.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/effective-ai-agent-delegation.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/effective-ai-agent-delegation/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Terug naar de praktische AI-werkstroomcursus">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Terug naar de praktische AI-werkstroomcursus</a>
+</span>
+</p>
+<p><strong>Delegeer wanneer een onafhankelijke vraag genoeg werk oplevert voor een aparte sessie.</strong> Een werker-agent onderzoekt bronnen, beoordeelt tests of maakt binnen de eigen context een afgebakende wijziging. De hoofdagent controleert en integreert het resultaat. Deze les vergelijkt documentatie terwijl je hoofdsessie de kleine labtaak behoudt.</p>
+<p><strong>Leerdoel:</strong> je wijst een onafhankelijke beoordeling toe aan een werker en controleert diens korte bewijsrapport.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Orkestrator:</strong> de hoofdagent die de taak en eindbeoordeling coördineert.</li>
+<li><strong>Werker:</strong> een aparte agent met één afgebakend resultaat.</li>
+<li><strong>Onafhankelijk werk:</strong> een subtaak waarvan het antwoord niet afhangt van het onvoltooide resultaat van een andere werker.</li>
+<li><strong>Eigenaarschap:</strong> een benoemd bestand of een vraag die aan één werker is toegewezen.</li>
+<li><strong>Integratie:</strong> de hoofdagent vergelijkt de uitvoer van de werker met actuele bronnen.</li>
+</ul>
+<h2 id="voordat-je-begint">
+  <a href="#voordat-je-begint" title="Voordat je begint">Voordat je begint</a>
+  <a href="#voordat-je-begint" class="h-anchor" aria-hidden="true" title="Voordat je begint">#</a>
+</h2>
+<p><strong>Vereisten:</strong> je registraties voor 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+   
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/effective-ai-agent-delegation/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI-contextvenster beheren: houd codeeragents gefocust</title><link>https://nl.simeononsecurity.com/articles/effective-ai-context-window-management/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/effective-ai-context-window-management/</guid><description>Beheer de actieve context van een AI-taak met geselecteerde bestanden, compacte overdrachten en korte workeruitvoer, met behoud van besluiten en bewijs.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/effective-ai-context-window-management.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/effective-ai-context-window-management/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Terug naar de Praktische AI-werkwijzecursus">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Terug naar de Praktische AI-werkwijzecursus</a>
+</span>
+</p>
+<p><strong>Het contextvenster bevat de tekst en andere inhoud die een model tijdens de huidige beurt verwerkt.</strong> Prompts, instructies, tooldefinities, bestandsfragmenten, tooluitvoer en gesprekshistorie nemen ruimte in. Deze les laat zien hoe je de volgende taak gericht houdt en een betrouwbare overdracht achterlaat.</p>
+<p><strong>Leerdoel:</strong> maak een beknopte overdracht en test die in een nieuwe sessie.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Tokens</strong> zijn de eenheden waarmee een model invoer en uitvoer verwerkt.</li>
+<li><strong>Actieve context</strong> is materiaal dat tijdens één beurt beschikbaar is, binnen de productlimieten.</li>
+<li><strong>Duurzame bronnen</strong> staan in bestanden of projectregistraties buiten de chat.</li>
+<li><strong>Contextcompressie</strong> vat oudere context samen of verwijdert die. Een belangrijk detail kan ontbreken.</li>
+<li><strong>Een overdracht</strong> verwijst een nieuwe sessie naar actuele bronnen en geverifieerd werk.</li>
+</ul>
+<h2 id="voor-je-begint">
+  <a href="#voor-je-begint" title="Voor je begint">Voor je begint</a>
+  <a href="#voor-je-begint" class="h-anchor" aria-hidden="true" title="Voor je begint">#</a>
+</h2>
+<p><strong>Vereisten:</strong> je bewerkte lab uit de 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/effective-ai-context-window-management/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI-taakpakketten: betere prompts en acceptatiecriteria</title><link>https://nl.simeononsecurity.com/articles/effective-ai-task-packets/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/effective-ai-task-packets/</guid><description>Zet vage AI-verzoeken om in taakpakketten met een vast resultaat, bron, bestandsbereik, controles en stopvoorwaarde.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/effective-ai-task-packets.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/effective-ai-task-packets/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Terug naar de cursus Praktische AI-werkprocessen">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Terug naar de cursus Praktische AI-werkprocessen</a>
+</span>
+</p>
+<p><strong>Een goede prompt beschrijft het werk en hoe je het resultaat beoordeelt.</strong> Meer woorden lossen een ontbrekend bereik niet op. Deze les zet een vaag verzoek om in een taakpakket voor het cursuslab.</p>
+<p><strong>Leerdoel:</strong> je schrijft een afgebakend taakpakket met bron, bestandsbereik, controles en stopvoorwaarde.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Resultaat</strong> benoemt het gewenste artefact of gedrag.</li>
+<li><strong>Bereik</strong> benoemt toegestane bestanden en uitgesloten acties.</li>
+<li><strong>Bron</strong> wijst de goedgekeurde eis aan.</li>
+<li><strong>Acceptatiecriteria</strong> maken succes waarneembaar.</li>
+<li><strong>Stopvoorwaarden</strong> voorkomen giswerk en niet-goedgekeurd vervolgwerk.</li>
+</ul>
+<h2 id="voordat-je-begint">
+  <a href="#voordat-je-begint" title="Voordat je begint">Voordat je begint</a>
+  <a href="#voordat-je-begint" class="h-anchor" aria-hidden="true" title="Voordat je begint">#</a>
+</h2>
+<p><strong>Vereisten:</strong> het uitgepakte lab, het bestand <code>docs/requirements.md</code> en de 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="les over repositorycontext">
+    <meta itemprop="ur
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/effective-ai-task-packets/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>

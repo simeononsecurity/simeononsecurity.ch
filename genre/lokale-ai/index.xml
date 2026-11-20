@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lokale AI on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Lokale AI on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/lokale-ai/</link></image><link>https://nl.simeononsecurity.com/genre/lokale-ai/</link><description>Recent content in Lokale AI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/lokale-ai/index.xml" rel="self" type="application/rss+xml"/><item><title>Zo kies je een ongecensureerd lokaal AI-model</title><link>https://nl.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Zelfgehoste AI"
+, "AI-veiligheid"
+, "GPU-apparatuur"</category><guid>https://nl.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk lokale modelvarianten op voltooide antwoorden, behouden mogelijkheden, contextgebruik, kwantisatie en passend VRAM-gebruik.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Zelfgehoste Hindsight: lokaal agentgeheugen en privé modelroutering</title><link>https://nl.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Zelfgehoste AI"
+, "AI-agenten"
+, "AI-infrastructuur"
+, "Privacy"</category><guid>https://nl.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een casestudy van zelfgehoste Hindsight, waargenomen lokale Qwen-routes en GPU-werk per aanvraag zonder gehost inferentieabonnement op de onderzochte paden.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Bouw een homelab in 10 niveaus, van Pi-hole tot lokale AI</title><link>https://nl.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Zelf hosten"
+, "Lokale AI"
+, "Thuisnetwerken"</category><guid>https://nl.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bouw een homelab in tien praktische stappen, van netwerkbrede DNS-filtering tot lokale AI, met hardware, kosten, vaardigheden en afwegingen per niveau.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Hermes-modellen lokaal testen: welke GPU- en modelcombinaties ik zou kiezen</title><link>https://nl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Lokale AI"
+, "Hardwareonderdelen"</category><guid>https://nl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Mijn modeladviezen voor Hermes zijn gebaseerd op tests met lange context, tools, streaming en beeldherkenning op RTX 5060 Ti-, RTX 2000E Ada-, RTX 3060 Ti- en RTX 3070-systemen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>Binnen onze hybride AI-agentenvloot: Hermes, LiteLLM en Tailscale</title><link>https://nl.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Zelf gehoste AI"
+, "AI-agenten"
+, "AI-infrastructuur"
+, "GPU-mijnbouw"</category><guid>https://nl.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bekijk een geverifieerde lokale AI-vloot die modellen pas op verzoek laadt en het T0-tot-T4-besturingsvlak met Hermes, LiteLLM, Tailscale Aperture en Pearl-minen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>2x RTX 5060 Ti versus GB10: lokale AI-benchmark met vijf modellen bij 256K context</title><link>https://nl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Lokale AI"
+, "GPU-hardware"
+, "Benchmarking"
+, "Computerhardware"</category><guid>https://nl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijking van vijf modellen op RTX 5060 Ti en GB10, plus een benchmark op dezelfde host van Qwen3.8 Flash-Next Strata tot 256K context.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Privacy van lokale AI: wat op je computer blijft en wat niet</title><link>https://nl.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Privacy"
+, "Zelfgehoste AI"
+, "Cyberbeveiliging"
+, "AI-economie"</category><guid>https://nl.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Breng prompts, modelbestanden, tools, logs, netwerkblootstelling en stroomkosten in kaart voordat je kiest voor lokale inferentie of een gehoste AI-dienst.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Is 16 GB VRAM genoeg voor serieus lokaal LLM-werk?</title><link>https://nl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Computerhardware"
+, "Zelfgehoste AI"</category><guid>https://nl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bepaal de omvang van een lokale LLM-configuratie met 16 GB op basis van modelgewichten, KV-cache en promptverwerking. Vergelijk geheugenbudgetten, GPU-bandbreedte en eigendomskosten voor Qwen3.8 27B.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>Lokale AI versus ChatGPT: hoe dichtbij zijn we echt?</title><link>https://nl.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Kunstmatige intelligentie"
+, "AI-hardware"
+, "Ontwikkelaarstools"</category><guid>https://nl.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk lokale AI met ChatGPT en Claude aan de hand van benchmarkscores, geheugenschattingen, servicesnelheid en agentverificatie. Met scenario's voor RTX 5090, DGX Spark en Mac Studio.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Lokale AI-programmering op een 16GB-GPU: Strata, OpenCode en Qwen3.8</title><link>https://nl.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Ontwikkelaarstools"
+, "Zelfgehoste AI"
+, "AI-hardware"</category><guid>https://nl.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Draai een lokale codeeragent met Strata en OpenCode. Bekijk gemelde RTX 4060 Ti-resultaten, RAM-vereisten, prompthergebruik, redeneerbudgetten en de grenzen van het vervangen van een betaald abonnement.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>Meta’s Context Language Models: beter agentgeheugen, geen einde aan hallucinaties</title><link>https://nl.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "AI-agenten"
+, "Lokale AI"
+, "AI-beveiliging"</category><guid>https://nl.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hoe Context Language Models agentgeheugen bewerken, wat benchmarks aantonen en hoe cachekosten, modelcapaciteit en onbetrouwbare notities de betrouwbaarheid beïnvloeden.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp"/></item><item><title>Welk lokaal AI-model moet je draaien? Een GPU-, context- en programmeergids voor oktober 2026</title><link>https://nl.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "AI-hardware"
+, "Zelfgehoste AI"
+, "GPU-benchmarking"
+, "Ontwikkelaarstools"
+, "AI-economie"</category><guid>https://nl.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een praktische gids voor oktober 2026 voor het kiezen van lokale AI-modellen voor programmeeragents. Vergelijk GPU-geheugen, groei van de KV-cache, contextgrootte, quantisatiekwaliteit, promptverwerking, redeneerniveaus en cloudhuurkosten.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>32 GB VRAM voor Qwen 27B: hardwaregids voor lokale AI in oktober 2026</title><link>https://nl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "AI-hardware"
+, "GPU-benchmarking"
+, "Zelf gehoste AI"
+, "Computerhardware"
+, "AI-economie"</category><guid>https://nl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Praktische gids voor oktober 2026 om een Qwen 27B-model te draaien met 32 GB bruikbaar acceleratorgeheugen. Vergelijk losse GPU's, systemen met twee kaarten, unified memory, gebruikte datacenterkaarten, gehuurde rekenkracht, softwareondersteuning en limieten bij volledige context.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>De DGX Spark van 64 GB is een waarschuwingssignaal voor prijzen van lokale AI-hardware</title><link>https://nl.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "AI-hardware"
+, "Halfgeleiders"
+, "Computerhardware"
+, "AI-economie"
+, "Zelfgehoste AI"</category><guid>https://nl.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+De 64GB-laag van NVIDIA's DGX Spark laat zien hoe druk op het geheugenaanbod lokale AI-hardware vormt. Deze gids bespreekt de capaciteitsverlaging, de afwegingen van gedeeld geheugen en waarom verlichting op de DRAM-markt voor eind 2027 onwaarschijnlijk is.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>GPU-benchmarks van Llama 3.1 8B en Qwen3.8 27B op Vast.ai</title><link>https://nl.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "GPU-benchmarking"
+, "Self-hosted AI"
+, "Cloud computing"
+, "Kunstmatige intelligentie"
+, "AI-economie"</category><guid>https://nl.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Gemeten Ollama-benchmarks van Llama 3.1 8B en Qwen3.8 27B op belangrijke Vast.ai-GPU's. Vergelijk decodeersnelheid, lange context, huurkosten, self-hosting, API-tegoed en abonnementen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Claude Cowork en Claude Code met lokale modellen: installatiegids 2026</title><link>https://nl.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "AI-programmeertools"
+, "Zelfgehoste AI"
+, "Ontwikkelaarstools"
+, "Privacy"
+, "Open-sourcemodellen"
+, "Automatisering"
+, "AI-hardware"</category><guid>https://nl.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Configureer Ollama met Claude Desktop en Claude Code via een Anthropic-compatibele API. Bekijk modelkeuzes en cloudfuncties voor 2026.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>Lokale AI in 2026: een 27B-model verslaat Sonnet 4.6 terwijl het hardwarevenster sluit</title><link>https://nl.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Zelfgehoste AI"
+, "Open modellen"
+, "AI-apparatuur"
+, "Machinaal leren"
+, "Kwantisering"
+, "Thuislab"
+, "Gegevensbescherming"
+, "AI-economie"
+, "Consumentenelektronica"</category><guid>https://nl.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Plan een lokale AI-pc voor 2026 op basis van modelgrootte, VRAM, geheugenbandbreedte, stroomverbruik, kosten en upgrademogelijkheden.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

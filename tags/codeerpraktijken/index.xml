@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Codeerpraktijken on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Codeerpraktijken on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/codeerpraktijken/</link></image><link>https://nl.simeononsecurity.com/tags/codeerpraktijken/</link><description>Recent content in Codeerpraktijken on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/codeerpraktijken/index.xml" rel="self" type="application/rss+xml"/><item><title>Onveilige C#-functies: veilig programmeren</title><link>https://nl.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Softwareontwikkeling"
+, "C#-programmering"
+, "Cyberbeveiliging"
+, "Codebeveiliging"
+, "Veilig programmeren"
+, "Aanbevolen programmeerpraktijken"
+, "Softwarekwetsbaarheden"
+, "Cryptografie"
+, "Webontwikkeling"
+, "Applicatiebeveiliging"</category><guid>https://nl.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Veilige alternatieven voor onveilige C#-functies. Leer risico’s voor geheugenveiligheid herkennen en onveilige bewerkingen vervangen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item></channel></rss>

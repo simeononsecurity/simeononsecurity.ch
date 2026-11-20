@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI-Beveiliging on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>AI-Beveiliging on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/ai-beveiliging/</link></image><link>https://nl.simeononsecurity.com/tags/ai-beveiliging/</link><description>Recent content in AI-Beveiliging on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/ai-beveiliging/index.xml" rel="self" type="application/rss+xml"/><item><title>Privacy van lokale AI: wat op je computer blijft en wat niet</title><link>https://nl.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Privacy"
+, "Zelfgehoste AI"
+, "Cyberbeveiliging"
+, "AI-economie"</category><guid>https://nl.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Breng prompts, modelbestanden, tools, logs, netwerkblootstelling en stroomkosten in kaart voordat je kiest voor lokale inferentie of een gehoste AI-dienst.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>AI-cybersecuritycertificeringen: ze lopen achter op de praktijk</title><link>https://nl.simeononsecurity.com/articles/ai-cybersecurity-governance-certifications-disappointing/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><category>
+"AI-beveiliging"
+, "AI-governance"
+, "AI-certificeringen"
+, "NIST AI RMF"
+, "NIST AI 600-1"
+, "ISO 42001"
+, "IAPP AIGP"
+, "promptinjectie"
+, "AI-cybersecurity"
+, "LLM-beveiliging"
+, "OWASP LLM Top 10"
+, "MITRE ATLAS"
+, "AI-risicobeheer"
+, "AI-compliance"
+, "machinelearningbeveiliging"
+, "modeltoeleveringsketen"
+, "adversariële AI"
+, "AI-agenten"
+, "MCP-beveiliging"
+, "AI-red-teaming"
+, "AI-governancecertificeringen"
+, "agentische AI"
+, "Google SAIF"</category><guid>https://nl.simeononsecurity.com/articles/ai-cybersecurity-governance-certifications-disappointing/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een mening over de kloof tussen certificeringen voor AI-governance en de praktijk van AI-beveiliging, gebaseerd op certificeringservaring en de huidige grenzen van het aanvalsoppervlak.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp" length="339504" type="image/webp"/></item></channel></rss>

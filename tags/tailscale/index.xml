@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tailscale on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Tailscale on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/tailscale/</link></image><link>https://nl.simeononsecurity.com/tags/tailscale/</link><description>Recent content in Tailscale on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/tailscale/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture: AI-clients configureren voor inferentie en MCP in 2026</title><link>https://nl.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Ontwikkelaarstools"
+, "Netwerken"</category><guid>https://nl.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leid modelverzoeken en MCP-tools via Tailscale Aperture. Stel Codex, Claude Code, Claude Desktop, OpenCode en Hermes in op een ander apparaat of een andere gateway.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>Bouw een homelab in 10 niveaus, van Pi-hole tot lokale AI</title><link>https://nl.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Zelf hosten"
+, "Lokale AI"
+, "Thuisnetwerken"</category><guid>https://nl.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bouw een homelab in tien praktische stappen, van netwerkbrede DNS-filtering tot lokale AI, met hardware, kosten, vaardigheden en afwegingen per niveau.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Binnen onze hybride AI-agentenvloot: Hermes, LiteLLM en Tailscale</title><link>https://nl.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Zelf gehoste AI"
+, "AI-agenten"
+, "AI-infrastructuur"
+, "GPU-mijnbouw"</category><guid>https://nl.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bekijk een geverifieerde lokale AI-vloot die modellen pas op verzoek laadt en het T0-tot-T4-besturingsvlak met Hermes, LiteLLM, Tailscale Aperture en Pearl-minen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>Waarom port forwarding niet werkt bij T-Mobile Home Internet</title><link>https://nl.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Self-Hosted"
+, "Network Security"</category><guid>https://nl.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees meer over de beperkingen voor port forwarding bij T-Mobile 5G Home Internet, carrier NAT en praktische manieren om een homeserver te bereiken zonder openbare inkomende poort.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/t-mobile-home-internet-port-forwarding.webp" length="103506" type="image/webp"/></item><item><title>Waarom Tailscale een relay gebruikt: directe verbindingen, DERP en peer-relays</title><link>https://nl.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Network Security"
+, "Self-Hosted"</category><guid>https://nl.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees waarom Tailscale een relay gebruikt, hoe je status- en netcheck-uitvoer leest en wanneer een DERP- of peer-relayverbinding onderzoek verdient.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/why-tailscale-uses-a-relay.webp" length="103974" type="image/webp"/></item></channel></rss>

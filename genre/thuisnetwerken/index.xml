@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thuisnetwerken on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Thuisnetwerken on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/thuisnetwerken/</link></image><link>https://nl.simeononsecurity.com/genre/thuisnetwerken/</link><description>Recent content in Thuisnetwerken on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/thuisnetwerken/index.xml" rel="self" type="application/rss+xml"/><item><title>Bouw een homelab in 10 niveaus, van Pi-hole tot lokale AI</title><link>https://nl.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Zelf hosten"
+, "Lokale AI"
+, "Thuisnetwerken"</category><guid>https://nl.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bouw een homelab in tien praktische stappen, van netwerkbrede DNS-filtering tot lokale AI, met hardware, kosten, vaardigheden en afwegingen per niveau.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Gast- en IoT-isolatie op een mesh-wifi-netwerk testen</title><link>https://nl.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Thuisnetwerken"
+, "Wifi-beveiliging"
+, "Slimme woningen"</category><guid>https://nl.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Controleer of de gast- en IoT-netwerken van je mesh-wifi toegang tot je thuisapparaten blokkeren. Test elk netwerk met een werkende dienst en leg de grenzen vast.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp" length="102600" type="image/webp"/></item><item><title>Waarom DNS-filtering wordt omzeild: test het resolverpad</title><link>https://nl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Thuisnetwerken"
+, "DNS"
+, "Privacy"</category><guid>https://nl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Achterhaal waarom een apparaat of browser je DNS-filter overslaat. Vergelijk directe en normale queries, controleer logs en bekijk versleutelde DNS, VPN, IPv6 en routerinstellingen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>Wi-Fi-problemen oplossen: praktische oplossingen voor veelvoorkomende storingen</title><link>https://nl.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</link><pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate><category>
+"Wi-Fi-probleemoplossing"
+, "Draadloze oplossingen"
+, "Technische hulp"
+, "Verbindingstips"
+, "Thuisnetwerken"
+, "Internetgids"
+, "Wi-Fi-optimalisatie"
+, "Cyberbeveiliging"
+, "Praktische technologie"
+, "Netwerkprestaties"</category><guid>https://nl.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Los Wi-Fi-problemen op met tips voor een sterker signaal, minder onderbrekingen en betere beveiliging.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/wireless-connectivity_-troubleshooting-common-wi-fi-problems.webp" length="61888" type="image/webp"/></item><item><title>Versterk je wifi: complete gids voor een beter signaal</title><link>https://nl.simeononsecurity.com/articles/boosting-wifi-signal-strength_-strategies-for-a-stronger-connection/</link><pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate><category>
+"Wifi verbeteren"
+, "Verbindingsoplossingen"
+, "Thuisnetwerken"
+, "Internet- en techadviezen"
+, "Draadloze optimalisatie"
+, "Gadgetgidsen"
+, "Digitale levensstijl"
+, "Slimme woningtechnologie"
+, "Zelf aan de slag met technologie"
+, "Netwerkverbetering"</category><guid>https://nl.simeononsecurity.com/articles/boosting-wifi-signal-strength_-strategies-for-a-stronger-connection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verbeter je internet met praktische tips om je wifi-signaal te versterken. Krijg een betere verbinding voor streamen en gamen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/boosting-wifi-signal-strength_-strategies-for-a-stronger-connection.webp" length="148620" type="image/webp"/></item><item><title>Is Ubiquiti UniFi geschikt voor je thuisnetwerk?</title><link>https://nl.simeononsecurity.com/articles/ubiquiti-unifi-good-for-home-use/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><category>
+"Thuisnetwerken"
+, "Wi-Fi-oplossingen"
+, "Netwerkhardware"
+, "Ubiquiti-producten"
+, "Technische reviews"
+, "Thuistechnologie"
+, "Draadloze verbinding"
+, "Netwerkbeheer"
+, "Consumentenelektronica"
+, "Draadloze oplossingen"</category><guid>https://nl.simeononsecurity.com/articles/ubiquiti-unifi-good-for-home-use/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Beoordeel of Ubiquiti UniFi bij je thuis past en bekijk de netwerkvoordelen, kosten en beheertaken.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/ubiquiti-unifi-home-wifi.webp" length="49076" type="image/webp"/></item><item><title>Beveilig je thuisnetwerk beter</title><link>https://nl.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</link><pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Thuisnetwerk"
+, "Hardwareaanbevelingen"
+, "Netwerkbeveiliging"
+, "Digitale privacy"
+, "Online veiligheid"
+, "Internetbeveiliging"
+, "Thuisnetwerken"
+, "Technologie"
+, "Slim wonen"</category><guid>https://nl.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees welke hardware je thuisnetwerk tegen cyberdreigingen beschermt. Dit artikel behandelt hardwarefirewalls, accesspoints en bewakingstools.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/fortified-network-security.webp" length="61592" type="image/webp"/></item><item><title>Beste wifi-meshsystemen 2026: koopgids en topkeuzes</title><link>https://nl.simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/</link><pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate><category>
+"Wifi-meshsystemen"
+, "Thuisnetwerken"
+, "Draadloze technologie"
+, "Internetverbinding"
+, "Consumentenelektronica"
+, "Slimme woningen"
+, "Netwerkapparaten"
+, "Internet of Things (IoT)"
+, "Draadloze routers"
+, "Wifi in huis"</category><guid>https://nl.simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een gids uit 2026 voor wifi 6E- en wifi 7-meshsystemen voor consumenten, met vergelijkingen van dekking, prestaties, installatie en aankoopcriteria.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_home_with.webp" length="127732" type="image/webp"/></item><item><title>Toegangspunten plaatsen voor optimale wifi-dekking</title><link>https://nl.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Netwerken"
+, "Draadloze netwerken"
+, "Toegangspunten"
+, "Wifi-installatie"
+, "Netwerkoptimalisatie"
+, "Thuisnetwerken"
+, "Draadloze verbinding"
+, "Internet der dingen"
+, "Netwerkoplossingen"</category><guid>https://nl.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees hoe je toegangspunten het beste plaatst voor een betere draadloze verbinding, minder storing en betrouwbare netwerkprestaties.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp"/></item></channel></rss>

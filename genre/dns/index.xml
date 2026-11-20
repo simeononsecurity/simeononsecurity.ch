@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNS on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>DNS on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/dns/</link></image><link>https://nl.simeononsecurity.com/genre/dns/</link><description>Recent content in DNS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/dns/index.xml" rel="self" type="application/rss+xml"/><item><title>Waarom DNS-filtering wordt omzeild: test het resolverpad</title><link>https://nl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Thuisnetwerken"
+, "DNS"
+, "Privacy"</category><guid>https://nl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Achterhaal waarom een apparaat of browser je DNS-filter overslaat. Vergelijk directe en normale queries, controleer logs en bekijk versleutelde DNS, VPN, IPv6 en routerinstellingen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>NextDNS vs. AdGuard: Welke DNS-adblocker wint?</title><link>https://nl.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Cyberbeveiliging"
+, "Advertentieblokkers"
+, "DNS"
+, "Privacy"
+, "Internetbeveiliging"
+, "Onlinebescherming"
+, "Digitale veiligheid"
+, "Browseoplossingen"
+, "Onlineprivacy"</category><guid>https://nl.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk NextDNS en AdGuard, twee DNS-adblockers, en ontdek welke oplossing past bij jouw manier van browsen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp"/></item><item><title>Cursus Netwerk Plus: Netwerkservices, verbindingsopties en architectuur verkennen</title><link>https://nl.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Netwerken"
+, "Connectiviteit"
+, "Uitwisseling van gegevens"
+, "Netwerkarchitectuur"
+, "Cloud computing"
+, "Netwerkdiensten"
+, "DNS"
+, "DHCP"
+, "NTP"</category><guid>https://nl.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de functionaliteiten van DHCP, DNS en NTP-services, begrijp de netwerkarchitectuur van bedrijven en datacenters en verken cloudconcepten en connectiviteitsopties voor naadloze communicatie en gegevensbeheer.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_various_networks.webp" length="250792" type="image/webp"/></item></channel></rss>

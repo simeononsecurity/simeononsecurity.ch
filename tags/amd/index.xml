@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AMD on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>AMD on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/amd/</link></image><link>https://nl.simeononsecurity.com/tags/amd/</link><description>Recent content in AMD on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Fri, 08 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/amd/index.xml" rel="self" type="application/rss+xml"/><item><title>De ultieme gereedschapskist voor pc-bouwers: 10 onmisbare hulpmiddelen</title><link>https://nl.simeononsecurity.com/articles/top-10-essential-tools-for-building-your-own-pc/</link><pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate><category>
+"Zelfbouwcomputers"
+, "Pc-hardwaregidsen"
+, "Zelfgebouwde pc's"
+, "Hulpmiddelen voor techliefhebbers"
+, "Pc's voor games samenstellen"
+, "Thuiswerkplekken"
+, "Professionele werkstations"
+, "Computermodificatie"
+, "Technische uitleg"
+, "Tips voor systeembouw"</category><guid>https://nl.simeononsecurity.com/articles/top-10-essential-tools-for-building-your-own-pc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bouw met vertrouwen je eigen pc. Deze gids behandelt de belangrijkste onderdelen en hulpmiddelen voor een pc voor gamen, werk of creatieve taken.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/top-10-essential-tools-for-building-your-own-pc.webp" length="42940" type="image/webp"/></item><item><title>Windows beschermen tegen speculatieve executieaanvallen via zijkanalen</title><link>https://nl.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link><pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate><category>
+"Windows Spectre Meltdown Mitigation Script"
+, "Speculatieve uitvoering Zijkanaalaanvallen"
+, "Microsoft"
+, "Intel"
+, "AMD"
+, "VIA"
+, "ARM"
+, "Android"
+, "Chroom"
+, "iOS"
+, "macOS"
+, "Tak Doel Injectie"
+, "Bounds Check Bypass"
+, "Rogue Data Cache Load"
+, "Speculatieve opslagomleiding"
+, "Microarchitecturale gegevensbemonstering"
+, "CVE's"
+, "Firmware-updates"
+, "GitHub archief"
+, "PowerShell"</category><guid>https://nl.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe u uw Windows-systeem kunt beschermen tegen speculatieve zijkanaalaanvallen met het mitigatiescript en de firmware-updates van Microsoft.</description></item></channel></rss>

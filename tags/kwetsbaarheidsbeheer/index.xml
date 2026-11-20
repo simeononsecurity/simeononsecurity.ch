@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kwetsbaarheidsbeheer on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Kwetsbaarheidsbeheer on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/kwetsbaarheidsbeheer/</link></image><link>https://nl.simeononsecurity.com/tags/kwetsbaarheidsbeheer/</link><description>Recent content in Kwetsbaarheidsbeheer on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/kwetsbaarheidsbeheer/index.xml" rel="self" type="application/rss+xml"/><item><title>PCI-DSS uitgelegd: veilige naleving van kaarttransacties</title><link>https://nl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link><pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Beveiliging van betaalkaarten"
+, "Gegevensbescherming"
+, "Naleving"
+, "Informatiebeveiliging"
+, "Technologie"
+, "Bedrijfsleven"
+, "Risicobeheer"
+, "Regelgeving"
+, "Onlinehandel"</category><guid>https://nl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees over PCI-DSS, de onderdelen, naleving en voordelen voor de bescherming van betaalkaartgegevens.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/pci-dss-security-vault.webp" length="88546" type="image/webp"/></item><item><title>Netwerk- en cloudbeveiliging maximaliseren</title><link>https://nl.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Cyberbeveiliging"
+, "Cloudbeveiliging"
+, "Netwerkbescherming"
+, "Digitale veiligheid"
+, "Gegevensprivacy"
+, "IT-beveiliging"
+, "Bedrijfstechnologie"
+, "Digitale verdediging"
+, "Cyberdreigingen"</category><guid>https://nl.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees over bedreigingen, beschermingsmaatregelen en praktijkvoorbeelden voor sterkere netwerk- en cloudbeveiliging.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp"/></item><item><title>Cybersecurity-incidentrespons beheersen</title><link>https://nl.simeononsecurity.com/articles/mastering-cybersecurity-incident-response-guide/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Incidentrespons"
+, "Informatiebeveiliging"
+, "Gegevensbescherming"
+, "Cyberverdediging"
+, "Digitale dreigingen"
+, "IT-beveiliging"
+, "Cyberveiligheid"
+, "Datalek"
+, "Noodrespons"</category><guid>https://nl.simeononsecurity.com/articles/mastering-cybersecurity-incident-response-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe effectieve incidentrespons in cybersecurity organisaties helpt zich tegen dreigingen te beschermen en veerkracht op te bouwen met deze uitgebreide gids.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/Cybersecurity_Incident_Response_Fortress.webp" length="137924" type="image/webp"/></item><item><title>Cybersecurity beheersen: jouw gids voor een veiligere digitale wereld</title><link>https://nl.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Cybersecurity"
+, "Digitale beveiliging"
+, "Online veiligheid"
+, "Informatiebescherming"
+, "Gegevensprivacy"
+, "Digitale bedreigingen"
+, "Tips voor online beveiliging"
+, "Cyberverdediging"
+, "Veilig computergebruik"</category><guid>https://nl.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek belangrijke cybersecuritypraktijken om je digitale leven en bezittingen te beschermen. Leer over bedreigingen en goede werkwijzen om online veilig te blijven.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/Cybersecurity-Shield-Protection.webp" length="114598" type="image/webp"/></item><item><title>Minimale bevoegdheden beheersen</title><link>https://nl.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Linux-beveiliging"
+, "Toegangscontrole"
+, "IT-beveiliging"
+, "Netwerkbeveiliging"
+, "Informatiebescherming"
+, "Gegevensprivacy"
+, "Cyberdreigingen"
+, "Risicobeheer"
+, "Goede beveiligingspraktijken"</category><guid>https://nl.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Versterk de cyberbeveiliging met toegangscontrole volgens minimale bevoegdheden op Linux. Leer hoe je dit invoert, goede werkwijzen toepast en problemen oplost.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>Bug-bountyprogramma’s: crowdsourced beveiligingstests</title><link>https://nl.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</link><pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Bug-bountyprogramma’s"
+, "Crowdsourced tests"
+, "Kwetsbaarheidsbeheer"
+, "Digitale beveiliging"
+, "Ethisch hacken"
+, "Cyberdreigingen"
+, "Beveiligingstests"
+, "Cyberverdediging"
+, "Softwarekwetsbaarheden"</category><guid>https://nl.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees hoe bug-bountyprogramma’s kwetsbaarheidsmeldingen, beveiligingstests en verantwoorde openbaarmaking ondersteunen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/bug-bounty-programs-engaging-the-crowd-in-security-testing.webp" length="238912" type="image/webp"/></item><item><title>Carrièregids cybersecurity 2026</title><link>https://nl.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</link><pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Technologie"
+, "Loopbaanontwikkeling"
+, "Informatiebeveiliging"
+, "Digitale beveiliging"
+, "Vaardigheden en certificeringen"
+, "Vacatures"
+, "Netwerkbeveiliging"
+, "Cloudbeveiliging"
+, "Loopbaanplanning"</category><guid>https://nl.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een carrièregids voor cybersecurity in 2026 met vaardigheden, certificeringen, salarisgegevens, loopbaanpaden en onderzoek naar de arbeidsmarkt.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/cybersecurity-career-guide-essential-skills-and-certifications.webp" length="298156" type="image/webp"/></item></channel></rss>

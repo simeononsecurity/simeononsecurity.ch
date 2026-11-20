@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Active Directory on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Active Directory on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/active-directory/</link></image><link>https://nl.simeononsecurity.com/genre/active-directory/</link><description>Recent content in Active Directory on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/active-directory/index.xml" rel="self" type="application/rss+xml"/><item><title>Een alleen-lezen Active Directory-inventaris maken met PowerShell</title><link>https://nl.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Active Directory"
+, "PowerShell"
+, "System Administration"</category><guid>https://nl.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Inventariseer Active Directory-OU's, gebruikers en computers met afgebakende PowerShell-query's. Exporteer controleerbare CSV-bestanden zonder directoryobjecten te wijzigen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/active-directory-powershell-read-only-inventory.webp" length="101842" type="image/webp"/></item><item><title>Mastering Active Directory Administration met PowerShell: Installatie- en gebruikshandleiding</title><link>https://nl.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Windows"
+, "PowerShell"
+, "Active Directory"
+, "Administratie"
+, "Scripting"
+, "IT"
+, "Automatisering"
+, "Windows server"
+, "Microsoft"</category><guid>https://nl.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek hoe u de Active Directory module voor PowerShell effectief kunt installeren en gebruiken om uw Windows Active Directory beheertaken te stroomlijnen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_image_depicting_a_network_of_interconnected.webp" length="114196" type="image/webp"/></item><item><title>WMI-filtering begrijpen</title><link>https://nl.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows-beheer"
+, "Groepsbeleid"
+, "Systeembeheer"
+, "Netwerkbeheer"
+, "IT-infrastructuur"
+, "Beleidsbeheer"
+, "IT-governance"
+, "IT-automatisering"
+, "Active Directory"
+, "Beveiligingsnaleving"</category><guid>https://nl.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe je met WMI-filtering Group Policy Objects (GPO's) op de juiste computers toepast, met praktische voorbeelden en aanbevolen werkwijzen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item><item><title>Group Policy Objects (GPOs): een gids voor Windows-beheer</title><link>https://nl.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"Netwerkbeheer"
+, "Group Policy Objects"
+, "GPO's"
+, "Windows Beheer"
+, "IT-Infrastructuur"
+, "Netwerkbeveiliging"
+, "Active Directory"
+, "Configuratiebeheer"
+, "Groepsbeleidbeheer"
+, "Netwerkoptimalisatie"</category><guid>https://nl.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de kracht van Group Policy Objects (GPO's) en leer hoe je netwerkinstellingen en -beleid efficiënt beheert en optimaliseert voor verbeterde beveiliging en vereenvoudigde operaties.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp" length="133218" type="image/webp"/></item></channel></rss>

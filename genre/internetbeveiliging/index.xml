@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Internetbeveiliging on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Internetbeveiliging on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/internetbeveiliging/</link></image><link>https://nl.simeononsecurity.com/genre/internetbeveiliging/</link><description>Recent content in Internetbeveiliging on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/internetbeveiliging/index.xml" rel="self" type="application/rss+xml"/><item><title>Moet hackback worden gelegaliseerd? Een verkenning van het debat</title><link>https://nl.simeononsecurity.com/articles/should-hacking-back-be-legalized-debate/</link><pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Technologie"
+, "Juridische kwesties"
+, "Ethische dilemma’s"
+, "Internetbeveiliging"
+, "Digitale eigenrichting"
+, "Juridische kaders"
+, "Bestrijding van cybercriminaliteit"
+, "Maatregelen tegen hacking"
+, "Digitale vergelding"</category><guid>https://nl.simeononsecurity.com/articles/should-hacking-back-be-legalized-debate/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+De argumenten voor en tegen het legaliseren van hackback in cybersecurity, met aandacht voor de juridische, ethische en praktische gevolgen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/hacker-courtroom-legal-debate.webp" length="94216" type="image/webp"/></item><item><title>Google Dorks beheersen</title><link>https://nl.simeononsecurity.com/articles/mastering-google-dorks-osint-hacking-power/</link><pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate><category>
+"SEO"
+, "Cyberbeveiliging"
+, "Online zoeken"
+, "Google Dorks"
+, "Inlichtingen uit open bronnen"
+, "Hacktechnieken"
+, "Digitale vaardigheden"
+, "Zoeken op het web"
+, "Internetbeveiliging"
+, "Gegevens ontdekken"</category><guid>https://nl.simeononsecurity.com/articles/mastering-google-dorks-osint-hacking-power/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Gebruik Google-zoekoperatoren voor geautoriseerde OSINT, met zoekvoorbeelden, grenzen voor de scope en richtlijnen voor defensieve rapportage.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/cartoon-magnifying-glass-uncovering-data.webp" length="158948" type="image/webp"/></item><item><title>Mullvad of ProtonVPN: welke VPN past bij jou?</title><link>https://nl.simeononsecurity.com/articles/mullvad-vs-protonvpn/</link><pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Beveiliging"
+, "Privacybescherming"
+, "VPN-vergelijking"
+, "Online anonimiteit"
+, "Digitale veiligheid"
+, "Internetbeveiliging"
+, "Cyberbeveiliging"
+, "Gegevensbescherming"
+, "VPN-diensten"</category><guid>https://nl.simeononsecurity.com/articles/mullvad-vs-protonvpn/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk Mullvad VPN en ProtonVPN op beveiliging, privacy, prestaties en gebruiksgemak om een passende dienst te kiezen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/mullvad-protonvpn-security-race.webp" length="148320" type="image/webp"/></item><item><title>Beveilig je thuisnetwerk beter</title><link>https://nl.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</link><pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Thuisnetwerk"
+, "Hardwareaanbevelingen"
+, "Netwerkbeveiliging"
+, "Digitale privacy"
+, "Online veiligheid"
+, "Internetbeveiliging"
+, "Thuisnetwerken"
+, "Technologie"
+, "Slim wonen"</category><guid>https://nl.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees welke hardware je thuisnetwerk tegen cyberdreigingen beschermt. Dit artikel behandelt hardwarefirewalls, accesspoints en bewakingstools.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/fortified-network-security.webp" length="61592" type="image/webp"/></item><item><title>NextDNS vs. AdGuard: Welke DNS-adblocker wint?</title><link>https://nl.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Cyberbeveiliging"
+, "Advertentieblokkers"
+, "DNS"
+, "Privacy"
+, "Internetbeveiliging"
+, "Onlinebescherming"
+, "Digitale veiligheid"
+, "Browseoplossingen"
+, "Onlineprivacy"</category><guid>https://nl.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk NextDNS en AdGuard, twee DNS-adblockers, en ontdek welke oplossing past bij jouw manier van browsen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp"/></item><item><title>NextDNS vs AdGuard vs Quad9 vs Cloudflare: DNS in 2026</title><link>https://nl.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "DNS-vergelijking"
+, "Privacybescherming"
+, "Advertentieblokkering"
+, "Netwerkbeveiliging"
+, "Internetbeveiliging"
+, "DNS-naamomzetter"
+, "Onlineprivacy"
+, "Webbeveiliging"
+, "DNS-filterdienst"</category><guid>https://nl.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijking uit 2026 van NextDNS, AdGuard DNS, Quad9, Cloudflare DNS en Pi-hole op beveiliging, privacy en prestaties.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp"/></item><item><title>NextDNS: DNS-filtering en blokkering voor online beveiliging</title><link>https://nl.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</link><pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "DNS-filtering"
+, "Internetbeveiliging"
+, "Cloudservice"
+, "Online bescherming"
+, "Webfiltering"
+, "Privacybescherming"
+, "Alternatief voor DNS-blokkering"
+, "Netwerkbeveiliging"
+, "Internetveiligheid"</category><guid>https://nl.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek NextDNS, een gebruiksvriendelijke DNS-blokkeringsdienst die online beveiliging verbetert met automatische vernieuwingen en aanpasbaar filterbeleid.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/nextdns_cybersecurity_shield.webp" length="98890" type="image/webp"/></item><item><title>Netwerkbasis: wat is een IP-adres en wat zijn IPv4 en IPv6?</title><link>https://nl.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><category>
+"Netwerken"
+, "IP-adressen"
+, "Internetprotocollen"
+, "IPv4"
+, "IPv6"
+, "Netwerkcommunicatie"
+, "Internetverbinding"
+, "Technologie"
+, "Netwerkinfrastructuur"
+, "Internetbeveiliging"</category><guid>https://nl.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees wat IP-adressen zijn, hoe IPv4 en IPv6 verschillen en waarom de overstap naar IPv6 belangrijk is.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon_image_of_two_devices_with_speech_bub.webp" length="90028" type="image/webp"/></item></channel></rss>

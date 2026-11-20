@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT-Beheer on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>IT-Beheer on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/it-beheer/</link></image><link>https://nl.simeononsecurity.com/genre/it-beheer/</link><description>Recent content in IT-Beheer on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/it-beheer/index.xml" rel="self" type="application/rss+xml"/><item><title>Praktische veld-IT: verder dan het mini-datacenter</title><link>https://nl.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Veld-IT"
+, "Edge computing"
+, "IT-beheer"
+, "Disaster recovery"
+, "Hardware"
+, "Best practices"</category><guid>https://nl.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Praktische veld-IT-richtlijnen voor reserveonderdelen, documentatie, ESD, firmware, opstartmedia, licenties, fysieke beveiliging, reizen en verzekeringen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp"/></item><item><title>Ansible vs Puppet vs Chef 2026: configuratiebeheer</title><link>https://nl.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "Infrastructuurautomatisering"
+, "Configuratiebeheer"
+, "IT-beheer"
+, "Cloud computing"
+, "Systeembeheer"
+, "Enterprise-IT"
+, "Softwareontwikkeling"
+, "IT-infrastructuur"
+, "Automatiseringstools"</category><guid>https://nl.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een vergelijking uit 2026 van Ansible, Puppet en Chef op basis van architectuur, functies, leercurve, prestaties, prijzen en toepassingen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>Verouderde servers nieuw leven inblazen: zo moderniseer je legacy-systemen</title><link>https://nl.simeononsecurity.com/articles/reviving-old-servers_-tips-for-upgrading-legacy-systems/</link><pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate><category>
+"Servermodernisering"
+, "IT-modernisering"
+, "Onderhoud van datacenters"
+, "Technologische infrastructuur"
+, "Modernisering van legacy-systemen"
+, "Systeemoptimalisatie"
+, "IT-beheer"
+, "Strategieën voor technologievernieuwing"
+, "Bedrijfs-IT"
+, "Zakelijke informatica"</category><guid>https://nl.simeononsecurity.com/articles/reviving-old-servers_-tips-for-upgrading-legacy-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe je verouderde servers moderniseert om prestaties, beveiliging en compatibiliteit te verbeteren, met een plan voor een geslaagde upgrade.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/reviving-old-servers_-tips-for-upgrading-legacy-systems.webp" length="94936" type="image/webp"/></item><item><title>De beste oplossingen voor gegevensopslag: HDD, SSD en cloud uitgelegd</title><link>https://nl.simeononsecurity.com/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</link><pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate><category>
+"Gegevensopslag"
+, "Technologie"
+, "Digitale oplossingen"
+, "HDD-handleidingen"
+, "SSD-inzichten"
+, "Cloudcomputing"
+, "IT-beheer"
+, "Hardwarebeoordelingen"
+, "Softwaretips"
+, "Persoonlijke computers"</category><guid>https://nl.simeononsecurity.com/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek hoe je kiest tussen HDD-, SSD- en cloudopslag. Welke optie past bij jou?</description><enclosure url="https://nl.simeononsecurity.com/img/cover/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options.webp" length="118244" type="image/webp"/></item><item><title>Windows Taakplanner versus Cron-taken in Linux: een beveiligingsvergelijking</title><link>https://nl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Besturingssystemen"
+, "Systeemautomatisering"
+, "Beveiligingstools"
+, "Computertechnologie"
+, "Taakplanning"
+, "Netwerkbeveiliging"
+, "Systeembeheer"
+, "Cyberverdediging"
+, "IT-beheer"</category><guid>https://nl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk Windows Taakplanner en Cron-taken in Linux vanuit het oogpunt van cyberbeveiliging en systeemverharding.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>Een veerkrachtig SOC opbouwen</title><link>https://nl.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Technologie"
+, "Bedrijfsleven"
+, "Gegevensbescherming"
+, "Incidentrespons"
+, "IT-beheer"
+, "Netwerkbeveiliging"
+, "Dreigingsdetectie"
+, "Informatiebeveiliging"
+, "Risicobeheer"</category><guid>https://nl.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Richt een sterk Security Operations Center (SOC) in om cyberdreigingen te bestrijden, incidenten te detecteren en de middelen van je organisatie te beschermen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>PowerCLI beheersen voor vSphere-beheer</title><link>https://nl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Virtualisatie"
+, "VMware"
+, "IT-beheer"
+, "Automatisering"
+, "Opdrachtregelinterface"
+, "Scripting"
+, "Systeembeheer"
+, "Cloudcomputing"
+, "Datacenterbeheer"</category><guid>https://nl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer VMware vSphere beheren met PowerCLI, taken automatiseren en productiever werken.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Systeembeheer on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Systeembeheer on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/systeembeheer/</link></image><link>https://nl.simeononsecurity.com/genre/systeembeheer/</link><description>Recent content in Systeembeheer on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/systeembeheer/index.xml" rel="self" type="application/rss+xml"/><item><title>Open WebUI v0.12.4: checklist voor upgrades en toegangsbeheer 2026</title><link>https://nl.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Zelf gehoste AI"
+, "Cyberbeveiliging"
+, "Systeembeheer"</category><guid>https://nl.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Maak een back-up en upgrade Open WebUI naar v0.12.4. Test daarna chatdeling, exportrechten, resourcetoegang, accounts en netwerktoegang.</description></item><item><title>1Password SSH Agent en CLI: Alleen-lezen AI-agent-toegang</title><link>https://nl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Systeembeheer"
+, "Cloudbeveiliging"
+, "Automatisering"</category><guid>https://nl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontwerp een alleen-lezen SSH-workflow met 1Password CLI, de SSH Agent en MCP. Gebruik synthetische commando's, beperkte machtigingen en menselijke goedkeuring voordat u live test.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Bitbucket Cloud SSH-sleutels: alleen-lezen Git-toegang voor AI-agents</title><link>https://nl.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cloudbeveiliging"
+, "Ontwikkelaarstools"
+, "Systeembeheer"</category><guid>https://nl.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Stel Bitbucket Cloud SSH-sleutels, Git CLI-toegang, REST API-tokens, 1Password en MCP-tools in voor alleen-lezen workflows met AI-agents.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>Een Hyper-V-VM naar Proxmox VE migreren: een omkeerbare checklist</title><link>https://nl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualisatie"
+, "Systeembeheer"
+, "Thuislab"</category><guid>https://nl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verplaats een Hyper-V-VM naar Proxmox VE met een export terwijl de bron uitstaat, passende firmware, geïmporteerde schijven, een geïsoleerde opstarttest en een terugdraaiplan.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>Een homelab-UPS dimensioneren en automatische uitschakeling testen</title><link>https://nl.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Thuislab"
+, "Stroombeveiliging"
+, "Systeembeheer"</category><guid>https://nl.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Meet het stroomverbruik van je homelab, vergelijk de watt- en VA-limieten van een UPS, controleer de gebruiksduur bij jouw belasting en test een nette uitschakeling voordat je op de batterij vertrouwt.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>Vind je BitLocker-herstelsleutel vóór je Windows opnieuw installeert</title><link>https://nl.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Windows-beveiliging"
+, "Gegevensherstel"
+, "Systeembeheer"</category><guid>https://nl.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Zoek en controleer de juiste BitLocker-herstelsleutel, beveilig een aparte reservekopie en kies de juiste Windows-herstel- of herinstallatieroute voordat je een schijf wist.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/windows-bitlocker-recovery-before-reinstall.webp" length="102534" type="image/webp"/></item><item><title>Ansible vs Puppet vs Chef 2026: configuratiebeheer</title><link>https://nl.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "Infrastructuurautomatisering"
+, "Configuratiebeheer"
+, "IT-beheer"
+, "Cloud computing"
+, "Systeembeheer"
+, "Enterprise-IT"
+, "Softwareontwikkeling"
+, "IT-infrastructuur"
+, "Automatiseringstools"</category><guid>https://nl.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een vergelijking uit 2026 van Ansible, Puppet en Chef op basis van architectuur, functies, leercurve, prestaties, prijzen en toepassingen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>NAT en PAT uitgelegd: essentiële gidsen voor netwerkcommunicatie</title><link>https://nl.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"Netwerkbasis"
+, "Cyberbeveiliging"
+, "IT-infrastructuur"
+, "Technologiegidsen"
+, "Netwerkbeheer"
+, "Internetprotocollen"
+, "Communicatietechnologie"
+, "Systeembeheer"
+, "Netwerktechniek"
+, "Digitale netwerken"</category><guid>https://nl.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe NAT en PAT digitale communicatie soepel laten verlopen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item><item><title>Kopieerfuncties beheersen: vaardigheden voor bestandsbeheer in besturingssystemen</title><link>https://nl.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</link><pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Bestandsbeheer"
+, "Besturingssystemen"
+, "Gegevensoverdracht"
+, "Gegevensorganisatie"
+, "Computervaardigheden"
+, "IT-tips"
+, "Efficiënt besturingssysteemgebruik"
+, "Systeembeheer"
+, "Softwarehulpmiddelen"</category><guid>https://nl.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek geavanceerde kopieerfuncties in besturingssystemen en leer hoe je bestanden snel en zorgvuldig beheert.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems.webp" length="92028" type="image/webp"/></item><item><title>Windows Taakplanner versus Cron-taken in Linux: een beveiligingsvergelijking</title><link>https://nl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Besturingssystemen"
+, "Systeemautomatisering"
+, "Beveiligingstools"
+, "Computertechnologie"
+, "Taakplanning"
+, "Netwerkbeveiliging"
+, "Systeembeheer"
+, "Cyberverdediging"
+, "IT-beheer"</category><guid>https://nl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk Windows Taakplanner en Cron-taken in Linux vanuit het oogpunt van cyberbeveiliging en systeemverharding.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>PowerCLI beheersen voor vSphere-beheer</title><link>https://nl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Virtualisatie"
+, "VMware"
+, "IT-beheer"
+, "Automatisering"
+, "Opdrachtregelinterface"
+, "Scripting"
+, "Systeembeheer"
+, "Cloudcomputing"
+, "Datacenterbeheer"</category><guid>https://nl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer VMware vSphere beheren met PowerCLI, taken automatiseren en productiever werken.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>WMI-filtering begrijpen</title><link>https://nl.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows-beheer"
+, "Groepsbeleid"
+, "Systeembeheer"
+, "Netwerkbeheer"
+, "IT-infrastructuur"
+, "Beleidsbeheer"
+, "IT-governance"
+, "IT-automatisering"
+, "Active Directory"
+, "Beveiligingsnaleving"</category><guid>https://nl.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe je met WMI-filtering Group Policy Objects (GPO's) op de juiste computers toepast, met praktische voorbeelden en aanbevolen werkwijzen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item></channel></rss>

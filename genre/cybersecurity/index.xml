@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybersecurity on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Cybersecurity on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/cybersecurity/</link></image><link>https://nl.simeononsecurity.com/genre/cybersecurity/</link><description>Recent content in Cybersecurity on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/cybersecurity/index.xml" rel="self" type="application/rss+xml"/><item><title>Microsoft SOC-thuislab: bouw cybersecurityervaring op in 2026</title><link>https://nl.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Cloudbeveiliging"
+, "Loopbaanontwikkeling"</category><guid>https://nl.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bouw een Microsoft SOC-lab met Sentinel, Defender, Intune en Entra. Onderzoek incidenten, toets passkeybeleid en documenteer bewijs voor je portfolio.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>Fortinet versus Cisco: volledige vergelijking van netwerkbeveiliging</title><link>https://nl.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Netwerkbeveiliging"
+, "Cybersecurity"
+, "Enterprise-netwerken"
+, "Firewallvergelijking"
+, "IT-infrastructuur"
+, "Netwerkhardware"
+, "Beveiligingsoplossingen"
+, "Netwerkbeheer"
+, "Technologievergelijking"
+, "IT-besluitvorming"</category><guid>https://nl.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Uitgebreide vergelijking van Fortinet en Cisco netwerkbeveiligingsoplossingen inclusief firewalls, switches, SD-WAN, prijsstelling, prestatiebenchmarks en implementatie-aanbevelingen voor 2026.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp"/></item><item><title>Optimaliseer je netwerk: netwerkontwerpen en topologieën</title><link>https://nl.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><category>
+"Netwerktechniek"
+, "IT-infrastructuur"
+, "Technologiegidsen"
+, "Netwerkoplossingen"
+, "Cybersecurity"
+, "Informatica"
+, "Technologieonderwijs"
+, "Systeemarchitectuur"
+, "Netwerkoptimalisatie"
+, "Technologische innovaties"</category><guid>https://nl.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer meer over netwerkontwerpen en topologieën en bepaal welke opzet de hoogste efficiëntie biedt.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/decoding-network-designs_-types-and-topologies-explained.webp" length="121144" type="image/webp"/></item><item><title>Menselijke fouten: een belangrijke oorzaak van datalekken</title><link>https://nl.simeononsecurity.com/articles/mitigating-human-error-data-breaches/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Gegevensbeveiliging"
+, "Menselijke fouten"
+, "Datalekken"
+, "Gegevensbescherming"
+, "Cyberdreigingen"
+, "Gegevensprivacy"
+, "Informatiebeveiliging"
+, "Digitale veiligheid"
+, "Beveiligingstraining"</category><guid>https://nl.simeononsecurity.com/articles/mitigating-human-error-data-breaches/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees hoe menselijke fouten bijdragen aan datalekken en hoe je dit risico verkleint.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/data-breach-prevention.webp" length="143036" type="image/webp"/></item><item><title>Moet hackback worden gelegaliseerd? Een verkenning van het debat</title><link>https://nl.simeononsecurity.com/articles/should-hacking-back-be-legalized-debate/</link><pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Technologie"
+, "Juridische kwesties"
+, "Ethische dilemma’s"
+, "Internetbeveiliging"
+, "Digitale eigenrichting"
+, "Juridische kaders"
+, "Bestrijding van cybercriminaliteit"
+, "Maatregelen tegen hacking"
+, "Digitale vergelding"</category><guid>https://nl.simeononsecurity.com/articles/should-hacking-back-be-legalized-debate/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+De argumenten voor en tegen het legaliseren van hackback in cybersecurity, met aandacht voor de juridische, ethische en praktische gevolgen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/hacker-courtroom-legal-debate.webp" length="94216" type="image/webp"/></item><item><title>OPSEC beheersen: 6 essentiële stappen voor digitale veiligheid</title><link>https://nl.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Digitale veiligheid"
+, "Operationele veiligheid"
+, "Online privacy"
+, "Gegevensbescherming"
+, "Informatiebeveiliging"
+, "Internetveiligheid"
+, "Cyberverdediging"
+, "Beveiligingsmaatregelen"
+, "Online bedreigingen"</category><guid>https://nl.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer zes essentiële OPSEC-stappen om je digitale aanwezigheid te beschermen en je cyberveiligheid te versterken.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/OPSEC_Steps_Security.webp" length="216778" type="image/webp"/></item><item><title>Bouw aan je toekomst in cybersecurity</title><link>https://nl.simeononsecurity.com/articles/microsoft-security-certification-path/</link><pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Certificeringen"
+, "Microsoft"
+, "Loopbaanontwikkeling"
+, "IT-training"
+, "Informatiebeveiliging"
+, "Professionele vaardigheden"
+, "Technologieonderwijs"
+, "Cyberverdediging"
+, "Online leren"</category><guid>https://nl.simeononsecurity.com/articles/microsoft-security-certification-path/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees meer over het Microsoft-certificeringstraject voor beveiliging en hoe de certificeringen je loopbaan in cybersecurity ondersteunen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp"/></item><item><title>Cybersecurityjargon helder uitgelegd</title><link>https://nl.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</link><pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Technologie"
+, "Digitale veiligheid"
+, "Online dreigingen"
+, "Internetveiligheid"
+, "Gegevensbescherming"
+, "Privacy"
+, "Online verdediging"
+, "IT-beveiliging"
+, "Cyberdreigingen"</category><guid>https://nl.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een heldere gids over cybersecuritytermen, dreigingen, technologie en privacyregels.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/cybersecurity-jargon-illustration.webp" length="150724" type="image/webp"/></item><item><title>LibreWolf vs Firefox</title><link>https://nl.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Privacy"
+, "Webbrowsers"
+, "Online Beveiliging"
+, "Open Source"
+, "Digitale Privacy"
+, "Software"
+, "Vergelijking"
+, "Cybersecurity"
+, "Internetprivacy"</category><guid>https://nl.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de functies van LibreWolf en Firefox, twee privacygerichte browsers, om een weloverwogen keuze te maken voor verbeterde online beveiliging en privacy.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp"/></item><item><title>Een veerkrachtig SOC opbouwen</title><link>https://nl.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Technologie"
+, "Bedrijfsleven"
+, "Gegevensbescherming"
+, "Incidentrespons"
+, "IT-beheer"
+, "Netwerkbeveiliging"
+, "Dreigingsdetectie"
+, "Informatiebeveiliging"
+, "Risicobeheer"</category><guid>https://nl.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Richt een sterk Security Operations Center (SOC) in om cyberdreigingen te bestrijden, incidenten te detecteren en de middelen van je organisatie te beschermen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>Geclassificeerde gegevens beschermen</title><link>https://nl.simeononsecurity.com/articles/benefits-of-protecting-classified-data/</link><pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate><category>
+"Gegevensbescherming"
+, "Cybersecurity"
+, "Bedrijfsethiek"
+, "Informatiebeveiliging"
+, "Privacyrechten"
+, "Risicobeheer"
+, "Digitaal vertrouwen"
+, "Gegevensbeheer"
+, "Economische impact"
+, "Persoonlijke privacy"</category><guid>https://nl.simeononsecurity.com/articles/benefits-of-protecting-classified-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees waarom bescherming van geclassificeerde gegevens belangrijk is voor veiligheid, economie en ethiek, en welke risico's zwakke controles veroorzaken.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/benefits-of-protecting-classified-data.webp" length="279460" type="image/webp"/></item><item><title>Cybersecurity beheersen: jouw gids voor een veiligere digitale wereld</title><link>https://nl.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Cybersecurity"
+, "Digitale beveiliging"
+, "Online veiligheid"
+, "Informatiebescherming"
+, "Gegevensprivacy"
+, "Digitale bedreigingen"
+, "Tips voor online beveiliging"
+, "Cyberverdediging"
+, "Veilig computergebruik"</category><guid>https://nl.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek belangrijke cybersecuritypraktijken om je digitale leven en bezittingen te beschermen. Leer over bedreigingen en goede werkwijzen om online veilig te blijven.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/Cybersecurity-Shield-Protection.webp" length="114598" type="image/webp"/></item><item><title>Top 5 Linux Beveiligings- en Versterkingstechnieken</title><link>https://nl.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Cybersecurity"
+, "Linux"
+, "Systeembeveiliging"
+, "Open-source"
+, "Versterking"
+, "IT"
+, "Gegevensbescherming"
+, "Netwerkbeveiliging"
+, "Informatica"</category><guid>https://nl.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de top 5 Linux beveiligingstechnieken om uw systeem te versterken tegen bedreigingen. Verbeter de systeemechtheid en bescherm gevoelige gegevens met deskundige versterkingsmaatregelen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp"/></item><item><title>Essentiële boeken voor cybersecurity- en IT-professionals</title><link>https://nl.simeononsecurity.com/articles/essential-books-cybersecurity-it-professionals/</link><pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Onderwijs"
+, "Boeken"
+, "Cybersecurity"
+, "Programmeren"
+, "IT"
+, "Automatisering"
+, "Professionele ontwikkeling"
+, "Carrièreontwikkeling"
+, "Leren"</category><guid>https://nl.simeononsecurity.com/articles/essential-books-cybersecurity-it-professionals/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergroot je vaardigheden met toonaangevende boeken over cybersecurity, automatisering, programmeren en IT.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/coding_conqueror.webp" length="96864" type="image/webp"/></item><item><title>Cybersecurityweerbaarheid versterken met change management</title><link>https://nl.simeononsecurity.com/articles/change-management-cyber-security-enhancing-resilience-evolving-landscape/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Wijzigingsbeheer"
+, "Weerbaarheid"
+, "IT-infrastructuur"
+, "Risicobeoordeling"
+, "Compliance"
+, "Incidentrespons"
+, "Best practices"
+, "ITIL"
+, "Beveiligingsmaatregelen"</category><guid>https://nl.simeononsecurity.com/articles/change-management-cyber-security-enhancing-resilience-evolving-landscape/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees waarom change management belangrijk is voor cybersecurity en hoe je de weerbaarheid in het huidige dreigingslandschap vergroot.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_team_of_professionals_working_together_to_bu.webp" length="141276" type="image/webp"/></item><item><title>Veilig programmeren in Python</title><link>https://nl.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"Programmeren"
+, "Applicatiebeveiliging"
+, "Python-ontwikkeling"
+, "Veilig programmeren"
+, "Webontwikkeling"
+, "Data-analyse"
+, "Kunstmatige intelligentie"
+, "Softwareontwikkeling"
+, "Cybersecurity"
+, "Programmeertalen"</category><guid>https://nl.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Veilige programmeerpraktijken voor Python om SQL-injectie, cross-site scripting en andere kwetsbaarheden in applicaties te beperken.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp"/></item><item><title>Carrièregids cybersecurity 2026</title><link>https://nl.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</link><pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Technologie"
+, "Loopbaanontwikkeling"
+, "Informatiebeveiliging"
+, "Digitale beveiliging"
+, "Vaardigheden en certificeringen"
+, "Vacatures"
+, "Netwerkbeveiliging"
+, "Cloudbeveiliging"
+, "Loopbaanplanning"</category><guid>https://nl.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een carrièregids voor cybersecurity in 2026 met vaardigheden, certificeringen, salarisgegevens, loopbaanpaden en onderzoek naar de arbeidsmarkt.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/cybersecurity-career-guide-essential-skills-and-certifications.webp" length="298156" type="image/webp"/></item><item><title>Penetratietesten beheersen: geavanceerde technieken</title><link>https://nl.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Penetratietesten"
+, "Ethisch hacken"
+, "Netwerkbeveiliging"
+, "Beveiliging van webapplicaties"
+, "Draadloze beveiliging"
+, "Social engineering"
+, "Beveiliging van mobiele apps"
+, "Cloudbeveiliging"
+, "Loopbaanontwikkeling"</category><guid>https://nl.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer geavanceerde technieken, hulpmiddelen en praktijkvoorbeelden van penetratietesten om je kennis van cybersecurity en je carrière te versterken.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp"/></item></channel></rss>

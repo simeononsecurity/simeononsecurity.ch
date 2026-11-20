@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thuislab on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Thuislab on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/thuislab/</link></image><link>https://nl.simeononsecurity.com/genre/thuislab/</link><description>Recent content in Thuislab on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/thuislab/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9: gebruik van virtuele schijven beperken en ruimte terugwinnen</title><link>https://nl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Virtualisatie"
+, "Linux-beheer"
+, "Proxmox VE-platform"
+, "Opslag"
+, "Thuislab"</category><guid>https://nl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Beperk het opslaggebruik van VM's en LXC-containers in Proxmox VE 9. Vergelijk formaten en backends, schakel discard in, voer trim uit en controleer snapshots voordat je ruimte terugwint.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Een Hyper-V-VM naar Proxmox VE migreren: een omkeerbare checklist</title><link>https://nl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualisatie"
+, "Systeembeheer"
+, "Thuislab"</category><guid>https://nl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verplaats een Hyper-V-VM naar Proxmox VE met een export terwijl de bron uitstaat, passende firmware, geïmporteerde schijven, een geïsoleerde opstarttest en een terugdraaiplan.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>Een homelab-UPS dimensioneren en automatische uitschakeling testen</title><link>https://nl.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Thuislab"
+, "Stroombeveiliging"
+, "Systeembeheer"</category><guid>https://nl.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Meet het stroomverbruik van je homelab, vergelijk de watt- en VA-limieten van een UPS, controleer de gebruiksduur bij jouw belasting en test een nette uitschakeling voordat je op de batterij vertrouwt.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>Lokale AI in 2026: een 27B-model verslaat Sonnet 4.6 terwijl het hardwarevenster sluit</title><link>https://nl.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Zelfgehoste AI"
+, "Open modellen"
+, "AI-apparatuur"
+, "Machinaal leren"
+, "Kwantisering"
+, "Thuislab"
+, "Gegevensbescherming"
+, "AI-economie"
+, "Consumentenelektronica"</category><guid>https://nl.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Plan een lokale AI-pc voor 2026 op basis van modelgrootte, VRAM, geheugenbandbreedte, stroomverbruik, kosten en upgrademogelijkheden.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Pearl (PRL) minen in 2026: installatie, winstgevendheid en nut van het netwerk</title><link>https://nl.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cryptovaluta"
+, "Mijnen met GPU’s"
+, "AI-berekeningen"
+, "DePIN"
+, "Blockchaintechnologie"
+, "Linux"
+, "Thuislab"
+, "Computeronderdelen"</category><guid>https://nl.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Stel PRL-mining met SRBMiner in, bekijk bewijs van nuttig werk (PoUW), bereken marges en beoordeel het praktische nut van de blockchain.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp" length="266670" type="image/webp"/></item><item><title>Docker in LXC op Proxmox: betrouwbaarheid, bewijs en VM-migratie</title><link>https://nl.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"Virtualisatie"
+, "Linux-beheer"
+, "thuislab"</category><guid>https://nl.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Beoordeel Docker binnen Proxmox LXC aan de hand van een gedocumenteerde AppArmor-fout, een zorgvuldige lezing van een melding over een vastlopende host, diagnosecommando’s en een migratieplan naar een VM.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>Veldinzetbare randcomputing: apparatuur en behuizing kiezen</title><link>https://nl.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Randcomputing"
+, "IT in het veld"
+, "Apparatuur"
+, "Thuislab"
+, "Robuuste computertechniek"
+, "Netwerken"
+, "Rampenherstel"
+, "IT voor kleine bedrijven"</category><guid>https://nl.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Gids voor edge-computing in het veld en de keuze van behuizingen, met aandacht voor compute, racks, koeling, opslag, beheer, bekabeling en stroomcompatibiliteit.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item></channel></rss>

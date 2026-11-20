@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NAT on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>NAT on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/nat/</link></image><link>https://nl.simeononsecurity.com/tags/nat/</link><description>Recent content in NAT on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/nat/index.xml" rel="self" type="application/rss+xml"/><item><title>Waarom port forwarding niet werkt bij T-Mobile Home Internet</title><link>https://nl.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Self-Hosted"
+, "Network Security"</category><guid>https://nl.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees meer over de beperkingen voor port forwarding bij T-Mobile 5G Home Internet, carrier NAT en praktische manieren om een homeserver te bereiken zonder openbare inkomende poort.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/t-mobile-home-internet-port-forwarding.webp" length="103506" type="image/webp"/></item><item><title>NAT en PAT uitgelegd: essentiële gidsen voor netwerkcommunicatie</title><link>https://nl.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"Netwerkbasis"
+, "Cyberbeveiliging"
+, "IT-infrastructuur"
+, "Technologiegidsen"
+, "Netwerkbeheer"
+, "Internetprotocollen"
+, "Communicatietechnologie"
+, "Systeembeheer"
+, "Netwerktechniek"
+, "Digitale netwerken"</category><guid>https://nl.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe NAT en PAT digitale communicatie soepel laten verlopen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item></channel></rss>

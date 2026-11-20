@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Endpointbeveiliging on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Endpointbeveiliging on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/endpointbeveiliging/</link></image><link>https://nl.simeononsecurity.com/tags/endpointbeveiliging/</link><description>Recent content in Endpointbeveiliging on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/endpointbeveiliging/index.xml" rel="self" type="application/rss+xml"/><item><title>Microsoft SOC-thuislab: bouw cybersecurityervaring op in 2026</title><link>https://nl.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Cloudbeveiliging"
+, "Loopbaanontwikkeling"</category><guid>https://nl.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bouw een Microsoft SOC-lab met Sentinel, Defender, Intune en Entra. Onderzoek incidenten, toets passkeybeleid en documenteer bewijs voor je portfolio.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>Cyberbeveiligingsdreigingen: context voor 2024 en verdedigingschecklist voor 2026</title><link>https://nl.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2024/</link><pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Dreigingen"
+, "Ransomware"
+, "Phishing"
+, "IoT-beveiliging"
+, "Insiderdreigingen"
+, "Cloudbeveiliging"
+, "Gegevensback-ups"
+, "Multifactorauthenticatie"
+, "Beveiligingspatches"
+, "Training voor medewerkers"
+, "Toegangsbeheer"
+, "Achtergrondcontroles"
+, "Voorkomen van gegevensverlies"
+, "Cloudproviders"
+, "Gegevensversleuteling"
+, "Netwerkbeveiliging"
+, "Endpointbeveiliging"
+, "Netwerkmonitoring"
+, "Kwetsbaarheidsscans"</category><guid>https://nl.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2024/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bekijk de dreigingscategorieën uit 2024 en gebruik een gedateerde verdedigingschecklist voor 2026 voor ransomware, phishing, IoT, insiderdreigingen en cloudrisico's.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.webp" length="115136" type="image/webp"/></item><item><title>Gids voor endpointbeveiliging van teams op afstand</title><link>https://nl.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><category>
+"Endpointbeveiliging"
+, "Beveiliging bij werken op afstand"
+, "Cyberbeveiligingsgids"
+, "Gegevensbescherming"
+, "IT-beveiligingspraktijken"
+, "Toekomstige beveiligingstrends"
+, "Veilig werken op afstand"
+, "Preventie van cyberdreigingen"
+, "Maatregelen voor gegevensprivacy"
+, "IT-beveiligingsoplossingen"</category><guid>https://nl.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Beveilig endpoints op afstand met een apparaatregister, hardening, patches, MFA, versleuteling, EDR, toegangsbeleid, monitoring en incidentresponsplanning.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/the-ultimate-guide-to-endpoint-security-for-remote-teams.webp" length="58154" type="image/webp"/></item><item><title>EDR-beveiliging beheersen: gids voor endpointbescherming</title><link>https://nl.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Endpointbescherming"
+, "EDR-oplossingen"
+, "Detectie van bedreigingen"
+, "Incidentrespons"
+, "Endpointbeveiliging"
+, "Cyberdreigingen"
+, "IT-beveiliging"
+, "Digitale verdediging"
+, "Beveiligingsstrategieën"</category><guid>https://nl.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees hoe EDR-beveiliging werkt, welke voordelen en invoeringsproblemen ze biedt en welke goede werkwijzen endpoints beschermen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp"/></item><item><title>Versterk je verdediging: EDR-oplossingen voor cyberbeveiliging</title><link>https://nl.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Technologie"
+, "Dreigingsdetectie"
+, "Endpointbeveiliging"
+, "Incidentrespons"
+, "Gegevensbescherming"
+, "Netwerkbeveiliging"
+, "Digitale verdediging"
+, "IT-beveiliging"
+, "Cyberweerbaarheid"</category><guid>https://nl.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees hoe EDR-oplossingen endpoints beschermen, dreigingen opsporen en organisaties helpen een passende oplossing te kiezen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp"/></item></channel></rss>
