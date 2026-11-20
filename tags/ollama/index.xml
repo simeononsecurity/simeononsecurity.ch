@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ollama on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>Ollama on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/ollama/</link></image><link>https://ar.simeononsecurity.com/tags/ollama/</link><description>Recent content in Ollama on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/ollama/index.xml" rel="self" type="application/rss+xml"/><item><title>كيف تختار نموذج ذكاء اصطناعي محلي غير خاضع للرقابة</title><link>https://ar.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتياً"
+, "سلامة الذكاء الاصطناعي"
+, "عتاد GPU"</category><guid>https://ar.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن بين إصدارات النماذج المحلية وفق اكتمال الإجابات والقدرات المحفوظة واستخدام السياق والكمّ ومتطلبات VRAM.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>أنشئ مختبرًا منزليًا في 10 مستويات، من Pi-hole إلى الذكاء الاصطناعي المحلي</title><link>https://ar.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"مختبر منزلي"
+, "استضافة ذاتية"
+, "ذكاء اصطناعي محلي"
+, "شبكات منزلية"</category><guid>https://ar.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أنشئ مختبرًا منزليًا عبر عشر مراحل عملية، من تصفية DNS للشبكة كلها إلى الذكاء الاصطناعي المحلي، مع الأجهزة والتكاليف والمهارات والمفاضلات في كل مستوى.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>اختبارات Hermes للنماذج المحلية: تركيبات GPU والنماذج التي سأختارها</title><link>https://ar.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي"
+, "الذكاء الاصطناعي المحلي"
+, "الأجهزة"</category><guid>https://ar.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تستند توصياتي لنماذج Hermes إلى اختبارات السياق الطويل والأدوات والبث والرؤية على أنظمة RTX 5060 Ti وRTX 2000E Ada وRTX 3060 Ti وRTX 3070.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>داخل أسطولنا الهجين لوكلاء الذكاء الاصطناعي: Hermes وLiteLLM وTailscale</title><link>https://ar.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتيًا"
+, "وكلاء الذكاء الاصطناعي"
+, "بنية الذكاء الاصطناعي"
+, "تعدين GPU"</category><guid>https://ar.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على أسطول ذكاء اصطناعي محلي موثّق بتحميل كسول، وخطة التحكم المرحلية من T0 إلى T4 باستخدام Hermes وLiteLLM وTailscale Aperture وتعدين Pearl.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>OpenCode مقابل Claude Code: مقارنة وكلاء البرمجة لعام 2026</title><link>https://ar.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"أدوات المطورين"
+, "الذكاء الاصطناعي"
+, "المصدر المفتوح"</category><guid>https://ar.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن بين OpenCode وClaude Code في اختيار النماذج والاستدلال المحلي والأسعار والأذونات وتعليمات المشروع وسير عمل البرمجة اليومي.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>أي نموذج ذكاء اصطناعي محلي ينبغي أن تشغّل؟ دليل GPU للسياق والبرمجة لشهر أكتوبر 2026</title><link>https://ar.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "عتاد الذكاء الاصطناعي"
+, "ذكاء اصطناعي مستضاف ذاتيا"
+, "قياس GPU"
+, "أدوات المطورين"
+, "اقتصاديات الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل عملي لشهر أكتوبر 2026 لاختيار نماذج الذكاء الاصطناعي المحلية لوكلاء البرمجة. قارن ذاكرة GPU، ونمو KV-cache، وحجم السياق، وجودة التكميم، ومعالجة المطالبات، وإعدادات الاستدلال، وتكاليف الاستئجار السحابي.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>الذكاء الاصطناعي المحلي في 2026: نموذج 27B يتفوق على Sonnet 4.6 ونافذة شراء العتاد تضيق</title><link>https://ar.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتيًا"
+, "نماذج مفتوحة المصدر"
+, "عتاد الذكاء الاصطناعي"
+, "التعلم الآلي"
+, "التكميم"
+, "مختبر منزلي"
+, "الخصوصية"
+, "اقتصاد الذكاء الاصطناعي"
+, "عتاد استهلاكي"</category><guid>https://ar.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+خطط لجهاز ذكاء اصطناعي محلي في 2026 وفق حجم النموذج وذاكرة VRAM وعرض نطاق الذاكرة والطاقة والتكلفة وخيارات الترقية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>ما نماذج الذكاء الاصطناعي التي تعمل على Raspberry Pi 4 أو 5؟</title><link>https://ar.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "الذكاء الاصطناعي"
+, "الاستضافة الذاتية"</category><guid>https://ar.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+استخدم قياسات Raspberry Pi 4 و5 لاختيار نماذج اللغة المحلية حسب الذاكرة والسرعة وعبء العمل، من نماذج LFM2.5 الصغيرة إلى خيارات 3B وأكبر.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item><item><title>بناء مساعد ذكاء اصطناعي يحمي الخصوصية لـ Meshtastic</title><link>https://ar.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"أمن الشبكات"
+, "الخصوصية"
+, "مفتوح المصدر"
+, "الأتمتة"</category><guid>https://ar.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تجربة عملية لبناء مساعد ذكاء اصطناعي محلي لـ Meshtastic، مع إعدادات خاصة ووصول TCP عبر طابور وأدوات لجلب المعلومات ولوحة تحكم أكثر أمانًا.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item></channel></rss>

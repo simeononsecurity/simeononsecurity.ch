@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>الأتمتة on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>الأتمتة on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9/</link></image><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9/</link><description>Recent content in الأتمتة on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>1Password SSH Agent and CLI: وصول وكيل الذكاء الاصطناعي للقراءة فقط</title><link>https://ar.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"إدارة الأنظمة"
+, "أمن السحابة"
+, "الأتمتة"</category><guid>https://ar.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+صمّم سير عمل SSH للقراءة فقط باستخدام 1Password CLI و SSH Agent و MCP. استخدم أوامر اصطناعية وصلاحيات محدودة وموافقة بشرية قبل الاختبار المباشر.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Claude Cowork وClaude Code مع نماذج محلية: دليل الإعداد لعام 2026</title><link>https://ar.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "أدوات البرمجة بالذكاء الاصطناعي"
+, "ذكاء اصطناعي مستضاف ذاتياً"
+, "أدوات المطورين"
+, "الخصوصية"
+, "نماذج مفتوحة المصدر"
+, "الأتمتة"
+, "عتاد الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اضبط Ollama مع Claude Desktop وClaude Code عبر واجهة API متوافقة مع Anthropic. تعرّف على النماذج المناسبة والميزات السحابية لعام 2026.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>بناء مساعد ذكاء اصطناعي يحمي الخصوصية لـ Meshtastic</title><link>https://ar.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"أمن الشبكات"
+, "الخصوصية"
+, "مفتوح المصدر"
+, "الأتمتة"</category><guid>https://ar.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تجربة عملية لبناء مساعد ذكاء اصطناعي محلي لـ Meshtastic، مع إعدادات خاصة ووصول TCP عبر طابور وأدوات لجلب المعلومات ولوحة تحكم أكثر أمانًا.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>كتب أساسية لمتخصصي الأمن السيبراني وتقنية المعلومات</title><link>https://ar.simeononsecurity.com/articles/essential-books-cybersecurity-it-professionals/</link><pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "التعليم"
+, "الكتب"
+, "الأمن السيبراني"
+, "البرمجة"
+, "تقنية المعلومات"
+, "الأتمتة"
+, "التطوير المهني"
+, "التقدم الوظيفي"
+, "التعلم"</category><guid>https://ar.simeononsecurity.com/articles/essential-books-cybersecurity-it-professionals/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+طوّر مهاراتك من خلال كتب رائدة في الأمن السيبراني والأتمتة والبرمجة وتقنية المعلومات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/coding_conqueror.webp" length="96864" type="image/webp"/></item><item><title>إتقان أمان VMware</title><link>https://ar.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "الافتراضية"
+, "البنية التحتية لتقنية المعلومات"
+, "الأتمتة"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "الامتثال"
+, "البرمجة النصية"
+, "مركز البيانات"</category><guid>https://ar.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف إلى استخدام PowerCLI لتطبيق معايير VMware STIG وتأمين بيئة VMware في هذا الدليل الشامل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>إتقان PowerCLI لإدارة vSphere</title><link>https://ar.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الافتراضية"
+, "VMware"
+, "إدارة تقنية المعلومات"
+, "الأتمتة"
+, "واجهة سطر الأوامر"
+, "البرمجة النصية"
+, "إدارة الأنظمة"
+, "الحوسبة السحابية"
+, "إدارة مراكز البيانات"</category><guid>https://ar.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على استخدام PowerCLI لإدارة VMware vSphere وأتمتة المهام وتحسين الإنتاجية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>إدارة Active Directory باستخدام PowerShell</title><link>https://ar.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"تكنولوجيا"
+, "ويندوز"
+, "PowerShell"
+, "Active Directory"
+, "الإدارة"
+, "البرمجة النصية"
+, "تكنولوجيا المعلومات"
+, "الأتمتة"
+, "خادم ويندوز"
+, "مايكروسوفت"</category><guid>https://ar.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اكتشف كيفية تثبيت واستخدام وحدة Active Directory لـ PowerShell بفعالية لتبسيط مهام إدارة Active Directory في Windows.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/active-directory-module-powershell-installation-usage-guide.webp" length="86330" type="image/webp"/></item><item><title>تحسين الصور باستخدام Python</title><link>https://ar.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "تطوير الويب"
+, "برمجة Python"
+, "تحسين الصور"
+, "تحسين محركات البحث"
+, "أداء الويب"
+, "تجربة المستخدم"
+, "تطوير البرمجيات"
+, "الأتمتة"
+, "البرمجة"</category><guid>https://ar.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+حسّن الصور باستخدام Python عبر تغيير الحجم والضغط وتحويل التنسيقات وسير العمل المتكرر في Pillow.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/An_illustration_of_a_Python_script_optimizing.webp" length="146766" type="image/webp"/></item><item><title>Ansible وSemaphore وTower: مقارنة أدوات الأتمتة</title><link>https://ar.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"الأتمتة"
+, "إدارة البنية التحتية"
+, "إدارة الإعدادات"
+, "DevOps"
+, "عمليات تقنية المعلومات"
+, "المصدر المفتوح"
+, "إدارة سير العمل"
+, "قابلية التوسع"
+, "التعاون"
+, "أدوات Ansible"</category><guid>https://ar.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن Ansible الأساسي وAnsible Tower وAnsible Semaphore من حيث سير العمل وميزات الإدارة وحالات استخدام البنية التحتية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/ansible-vs-ansible-semaphore-vs-ansible-tower.webp" length="132234" type="image/webp"/></item><item><title>ما هو المختبر المنزلي؟ دليل الإعداد لمحترفي تكنولوجيا المعلومات</title><link>https://ar.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"مختبر منزلي"
+, "محترفو تكنولوجيا المعلومات"
+, "الطلاب"
+, "الهواة"
+, "الشبكات"
+, "الافتراضية"
+, "الأتمتة"
+, "الأجهزة"
+, "البرمجيات"
+, "أفضل الممارسات"</category><guid>https://ar.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+افتح إمكانيات مختبرك المنزلي مع هذا الدليل الشامل، المصمم لمحترفي تكنولوجيا المعلومات والطلاب والهواة، ويغطي الإعداد والمكونات والمواضيع المتقدمة وأفضل الممارسات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp" length="167376" type="image/webp"/></item></channel></rss>

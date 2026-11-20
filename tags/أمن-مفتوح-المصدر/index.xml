@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>أمن مفتوح المصدر on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>أمن مفتوح المصدر on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/%D8%A3%D9%85%D9%86-%D9%85%D9%81%D8%AA%D9%88%D8%AD-%D8%A7%D9%84%D9%85%D8%B5%D8%AF%D8%B1/</link></image><link>https://ar.simeononsecurity.com/tags/%D8%A3%D9%85%D9%86-%D9%85%D9%81%D8%AA%D9%88%D8%AD-%D8%A7%D9%84%D9%85%D8%B5%D8%AF%D8%B1/</link><description>Recent content in أمن مفتوح المصدر on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/%D8%A3%D9%85%D9%86-%D9%85%D9%81%D8%AA%D9%88%D8%AD-%D8%A7%D9%84%D9%85%D8%B5%D8%AF%D8%B1/index.xml" rel="self" type="application/rss+xml"/><item><title>سباق كشف كاميرات Flock: ما الذي تغير في 2026</title><link>https://ar.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"تقنية الخصوصية"
+, "مكافحة المراقبة"
+, "مشروعات مفتوحة المصدر"
+, "الحقوق الرقمية"
+, "أمن الشبكات"
+, "أبحاث الأمن"
+, "اختراق العتاد"
+, "أدوات الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+استعرض التغييرات المبلغ عنها في وسائل كشف Flock Safety، وردود المجتمع، وأساليب الأشعة تحت الحمراء للتعرف على أنظمة الكاميرات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>Flock Finder: خريطة كاميرات Flock Safety ALPR</title><link>https://ar.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"تقنية الخصوصية"
+, "مراقبة مضادة"
+, "مشاريع مفتوحة المصدر"
+, "الحقوق الرقمية"
+, "أمن الشبكات"
+, "أدوات الخصوصية"
+, "اختراق الأجهزة"
+, "بحث الأمن"</category><guid>https://ar.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder هو أداة مفتوحة المصدر ترسم خرائط لأكثر من 40,000 كاميرا Flock Safety ALPR حول العالم باستخدام بيانات WiGLE WiFi وبصمة OUI. تعرف على آلية عملها وقيودها وأدوات الأجهزة للكشف في الوقت الفعلي.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>دليل DagShell للبرامج الثابتة المخصصة لجهاز Orbic RCL400 لعام 2026</title><link>https://ar.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"برامج ثابتة مخصصة"
+, "أمن الأجهزة المحمولة"
+, "أدوات الخصوصية"
+, "أمن الشبكات"
+, "القيادة لمسح الشبكات"
+, "اختبار الاختراق"
+, "أمن إنترنت الأشياء"
+, "أبحاث الأمن"
+, "أمن الأجهزة"
+, "تقنيات الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل تقني لبرنامج DagShell الثابت على Orbic RCL400، يشمل التثبيت وأدوات الخصوصية والقيادة لمسح الشبكات وحدود البحث.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>مشروع Flock-You للكشف: دليل إعداد مضادات المراقبة</title><link>https://ar.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"أجهزة أمنية"
+, "مضادات المراقبة"
+, "تقنية الخصوصية"
+, "مشاريع مفتوحة المصدر"
+, "تطوير ESP32"
+, "مراقبة WiFi"
+, "أدوات الخصوصية"
+, "الحقوق الرقمية"
+, "اختراق الأجهزة"
+, "أمن الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل تقني شامل لمشروع Flock-You مفتوح المصدر للكشف عن كاميرات ALPR الخاصة بـ Flock Safety باستخدام أجهزة ESP32. يتضمن تعليمات الإعداد وتفاصيل البرامج الثابتة وخيارات الشراء.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>مقارنة Ubiquiti UniFi Firewall وpfSense</title><link>https://ar.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate><category>
+"أمن الشبكات"
+, "حلول الجدران النارية"
+, "الأمن السيبراني"
+, "مقارنة أجهزة التوجيه"
+, "التقنية"
+, "حلول تقنية المعلومات"
+, "جدار ناري مفتوح المصدر"
+, "Ubiquiti مقابل pfSense"
+, "شبكة أعمال"
+, "شبكة منزلية"</category><guid>https://ar.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن Ubiquiti UniFi Firewall وpfSense لحماية شبكتك بفعالية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/Ubiquiti_UniFi_Firewall_vs_pfSense.webp" length="192366" type="image/webp"/></item></channel></rss>

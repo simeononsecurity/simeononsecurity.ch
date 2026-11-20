@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Firejail on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>Firejail on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/firejail/</link></image><link>https://ar.simeononsecurity.com/tags/firejail/</link><description>Recent content in Firejail on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/firejail/index.xml" rel="self" type="application/rss+xml"/><item><title>لم تعد الحاويات تشكّل حدودًا أمنية في عام 2026</title><link>https://ar.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"أمن الحاويات"
+, "Linux"
+, "أمن النواة"
+, "الافتراضية"
+, "أمن السحابة"
+, "أبحاث التهديدات"
+, "الفريق الأزرق"
+, "DevSecOps"</category><guid>https://ar.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تكشف ثغرات النواة في عام 2026 سبب عدم كفاية عزل الحاويات متعددة المستأجرين. تعرّف على Copy Fail وDirty Frag وFragnesia وCVE-2026-80521، وقارن بين الحاويات المقوّاة والآلات الافتراضية المصغّرة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item></channel></rss>

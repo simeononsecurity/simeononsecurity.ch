@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>المعاملات الرقمية on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>المعاملات الرقمية on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9/</link></image><link>https://ar.simeononsecurity.com/tags/%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9/</link><description>Recent content in المعاملات الرقمية on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>شرح PCI-DSS: الامتثال الآمن لمعاملات البطاقات</title><link>https://ar.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link><pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "أمن بطاقات الدفع"
+, "حماية البيانات"
+, "الامتثال"
+, "أمن المعلومات"
+, "التقنية"
+, "الأعمال"
+, "إدارة المخاطر"
+, "اللوائح"
+, "التجارة الإلكترونية"</category><guid>https://ar.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على PCI-DSS ومكوناته والامتثال له وفوائده في حماية بيانات بطاقات الدفع.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/pci-dss-security-vault.webp" length="88546" type="image/webp"/></item><item><title>أمّن معاملاتك</title><link>https://ar.simeononsecurity.com/articles/secure-transactions-amazon-hardware-tokens/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الأمن السيبراني"
+, "الأمن عبر الإنترنت"
+, "المعاملات الرقمية"
+, "المصادقة الثنائية"
+, "أجهزة Amazon"
+, "حماية البيانات"
+, "السلامة على الإنترنت"
+, "التجارة الإلكترونية"
+, "الامتثال التنظيمي"</category><guid>https://ar.simeononsecurity.com/articles/secure-transactions-amazon-hardware-tokens/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على مفاتيح الأمان المادية التي توصي بها Amazon لتعزيز المصادقة وحماية تفاعلاتك عبر الإنترنت.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/secure_transactions_shield.webp" length="69502" type="image/webp"/></item></channel></rss>

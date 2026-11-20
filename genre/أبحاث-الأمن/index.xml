@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>أبحاث الأمن on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>أبحاث الأمن on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/%D8%A3%D8%A8%D8%AD%D8%A7%D8%AB-%D8%A7%D9%84%D8%A3%D9%85%D9%86/</link></image><link>https://ar.simeononsecurity.com/genre/%D8%A3%D8%A8%D8%AD%D8%A7%D8%AB-%D8%A7%D9%84%D8%A3%D9%85%D9%86/</link><description>Recent content in أبحاث الأمن on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/%D8%A3%D8%A8%D8%AD%D8%A7%D8%AB-%D8%A7%D9%84%D8%A3%D9%85%D9%86/index.xml" rel="self" type="application/rss+xml"/><item><title>رسمنا خريطة لـ146,526 «كاميرا من Flock». كان 50,278 منها أنظمة ClickShare</title><link>https://ar.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link><pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate><category>
+"أبحاث الأمن"
+, "تقنيات الخصوصية"
+, "مشاريع مفتوحة المصدر"
+, "صحافة البيانات"
+, "مناهضة المراقبة"</category><guid>https://ar.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+يكشف تدقيق Flock Finder عن ClickShare وإيجابيات كاذبة أخرى، ويشرح الأدلة ويوثق التغييرات.</description></item><item><title>سباق كشف كاميرات Flock: ما الذي تغير في 2026</title><link>https://ar.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"تقنية الخصوصية"
+, "مكافحة المراقبة"
+, "مشروعات مفتوحة المصدر"
+, "الحقوق الرقمية"
+, "أمن الشبكات"
+, "أبحاث الأمن"
+, "اختراق العتاد"
+, "أدوات الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+استعرض التغييرات المبلغ عنها في وسائل كشف Flock Safety، وردود المجتمع، وأساليب الأشعة تحت الحمراء للتعرف على أنظمة الكاميرات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>دليل DagShell للبرامج الثابتة المخصصة لجهاز Orbic RCL400 لعام 2026</title><link>https://ar.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"برامج ثابتة مخصصة"
+, "أمن الأجهزة المحمولة"
+, "أدوات الخصوصية"
+, "أمن الشبكات"
+, "القيادة لمسح الشبكات"
+, "اختبار الاختراق"
+, "أمن إنترنت الأشياء"
+, "أبحاث الأمن"
+, "أمن الأجهزة"
+, "تقنيات الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل تقني لبرنامج DagShell الثابت على Orbic RCL400، يشمل التثبيت وأدوات الخصوصية والقيادة لمسح الشبكات وحدود البحث.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>ثغرات كاميرات Flock Safety: اكتشاف أكثر من 50 خللاً</title><link>https://ar.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"أبحاث الأمن"
+, "تحليل الثغرات"
+, "تقنيات المراقبة"
+, "الأمن السيبراني"
+, "خصوصية المعلومات"
+, "أمن إنترنت الأشياء"
+, "الأمن المادي"
+, "أمن الشبكات"
+, "البنية التحتية الحيوية"
+, "التقنيات الحكومية"</category><guid>https://ar.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+يستعرض هذا البحث ثغرات كاميرات Flock Safety، بما فيها بيانات الاعتماد المكشوفة وضعف الحماية والوصول المادي وحدود الإفصاح.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item></channel></rss>

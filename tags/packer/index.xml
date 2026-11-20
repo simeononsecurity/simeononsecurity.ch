@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Packer on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>Packer on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/packer/</link></image><link>https://ar.simeononsecurity.com/tags/packer/</link><description>Recent content in Packer on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/packer/index.xml" rel="self" type="application/rss+xml"/><item><title>مقدمة إلى Packer للبنية التحتية كتعليمة برمجية</title><link>https://ar.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"Packer"
+, "البنية التحتية كتعليمة برمجية"
+, "التطوير والعمليات"
+, "الأتمتة"
+, "الأمان"
+, "قابلية التكرار"
+, "قابلية التوسع"
+, "متعدد المنصات"
+, "التحكم بالإصدارات"
+, "الحوسبة السحابية"
+, "صور الأجهزة"
+, "الافتراضية"
+, "إدارة التهيئة"
+, "التكامل المستمر"
+, "التسليم المستمر"
+, "تطوير البرمجيات"
+, "أفضل الممارسات"
+, "الاختبار"
+, "مفتوح المصدر"
+, "متعدد السحابات"</category><guid>https://ar.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على استخدام Packer لإنشاء صور أجهزة سهلة الصيانة وآمنة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.webp" length="175658" type="image/webp"/></item><item><title>هل ينبغي أن تتعلم البرمجة للعمل في تقنية المعلومات والأمن السيبراني؟</title><link>https://ar.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"IT and Cyber Security"
+, "Programming Skills"
+, "Career Advancement"
+, "Automation"
+, "Command Line"
+, "Scripting"
+, "Infrastructure Deployment"
+, "Data Analysis"
+, "Security Testing"
+, "Professional Development"</category><guid>https://ar.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+حدّد مهارات البرمجة التي تدعم مسارك في تقنية المعلومات أو الأمن السيبراني، ثم ابدأ بـ PowerShell أو Bash أو Python أو Ansible أو Packer أو Terraform.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp" length="111480" type="image/webp"/></item></channel></rss>

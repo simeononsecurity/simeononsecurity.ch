@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>سرية البيانات on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>سرية البيانات on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/%D8%B3%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA/</link></image><link>https://ar.simeononsecurity.com/tags/%D8%B3%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA/</link><description>Recent content in سرية البيانات on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/%D8%B3%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA/index.xml" rel="self" type="application/rss+xml"/><item><title>الكشف عن التشفير: شرح تقنيات التعمية</title><link>https://ar.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><category>
+"تاريخ التشفير"
+, "تقنيات التعمية"
+, "التشفير المتماثل"
+, "التشفير غير المتماثل"
+, "خوارزمية RSA"
+, "التشفير بالمنحنيات الإهليلجية"
+, "تبادل مفاتيح ديفي-هيلمان"
+, "سرية البيانات"
+, "سلامة البيانات"
+, "مصادقة البيانات"
+, "تهديدات الحوسبة الكمومية"
+, "تدقيقات أمنية"
+, "أمن المحافظ الرقمية"</category><guid>https://ar.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف إلى كيفية حماية التشفير المتماثل وغير المتماثل والهجين للبيانات، وطريقة تبادل المفاتيح، واستخدامات الأساليب التشفيرية الحديثة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques.webp" length="291054" type="image/webp"/></item><item><title>7 ممارسات أساسية لأمن الشركات</title><link>https://ar.simeononsecurity.com/articles/7-essential-security-practices-for-any-business/</link><pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate><category>
+"أمن الشركات"
+, "الأمن المادي"
+, "الأمن السيبراني"
+, "الاستجابة للحوادث"
+, "تدريب الموظفين"
+, "تشفير البيانات"
+, "أنظمة المراقبة"
+, "التحكم في الوصول"
+, "بروتوكولات الأمن"
+, "المرونة الرقمية"</category><guid>https://ar.simeononsecurity.com/articles/7-essential-security-practices-for-any-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+سبع ممارسات عملية لأمن الشركات، تشمل الحماية المادية والأمن السيبراني والتخطيط لتعزيز القدرة على الصمود.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/7-essential-security-practices-for-any-business.webp" length="235660" type="image/webp"/></item><item><title>حماية المعلومات غير المصنفة الخاضعة للرقابة</title><link>https://ar.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</link><pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate><category>
+"أمن البيانات"
+, "حماية المعلومات"
+, "إدارة الخصوصية"
+, "التعامل مع المعلومات الحساسة"
+, "الأمن السيبراني"
+, "الامتثال"
+, "إدارة المخاطر"
+, "حوكمة المعلومات"
+, "سرية البيانات"
+, "ضمان المعلومات"</category><guid>https://ar.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف إلى أهمية حماية المعلومات غير المصنفة الخاضعة للرقابة (CUI)، وتعلّم أساليب فعالة لحماية البيانات الحساسة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/CUI-Safeguarding-Sensitive-Data.webp" length="96388" type="image/webp"/></item><item><title>تأمين Active Directory</title><link>https://ar.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "إدارة الشبكات"
+, "تقنية المعلومات"
+, "حماية البيانات"
+, "أمن المؤسسات"
+, "البنية التحتية الرقمية"
+, "التحكم في الوصول"
+, "مصادقة المستخدمين"
+, "أفضل ممارسات تقنية المعلومات"
+, "التوعية الأمنية"</category><guid>https://ar.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على كيفية تأمين Active Directory وحماية البيانات ومنع الاختراقات في البنية التحتية للشبكة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item></channel></rss>

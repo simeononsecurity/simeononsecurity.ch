@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNS عبر HTTPS on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>DNS عبر HTTPS on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/dns-%D8%B9%D8%A8%D8%B1-https/</link></image><link>https://ar.simeononsecurity.com/tags/dns-%D8%B9%D8%A8%D8%B1-https/</link><description>Recent content in DNS عبر HTTPS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/dns-%D8%B9%D8%A8%D8%B1-https/index.xml" rel="self" type="application/rss+xml"/><item><title>اختبر تسرب DNS وWebRTC في المتصفح مع VPN</title><link>https://ar.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"الخصوصية"
+, "المتصفحات"
+, "الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تحقق من عنوان IP العام ومحلل DNS وعناوين WebRTC في المتصفح قبل الاتصال بـVPN وبعده. افهم النتائج وابحث عن مشكلات التوجيه.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>لماذا يجري تجاوز تصفية DNS: تحقّق من مسار المحلّل</title><link>https://ar.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"الشبكات المنزلية"
+, "DNS"
+, "الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اكتشف سبب تجاوز جهاز أو متصفح لمرشح DNS. قارن الاستعلامات المباشرة والافتراضية، وافحص السجلات، ثم تحقق من DNS المشفر وVPN وIPv6 وإعدادات الموجّه.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>قائمة أمنك الشخصي لعام 2026: من أين تبدأ وما الذي تتجاوزه</title><link>https://ar.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><category>
+"الأمن الشخصي"
+, "الخصوصية"
+, "النظافة الرقمية"
+, "أمن الحسابات"
+, "نمذجة التهديدات"
+, "أمن المستهلك"
+, "إدارة كلمات المرور"
+, "حماية البيانات"</category><guid>https://ar.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+رتّب إجراءات الأمن الشخصي بحسب أثرها على الهجمات، من حماية الحسابات والنسخ الاحتياطية إلى الخصوصية وخطط استعادة الوصول.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/personal-security-checklist-2026-tiered-structure.webp" length="98938" type="image/webp"/></item><item><title>NextDNS: تصفية DNS وحجب التهديدات لتعزيز الأمان عبر الإنترنت</title><link>https://ar.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</link><pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "تصفية DNS"
+, "أمن الإنترنت"
+, "خدمة سحابية"
+, "الحماية عبر الإنترنت"
+, "تصفية الويب"
+, "حماية الخصوصية"
+, "بديل لحجب DNS"
+, "أمن الشبكات"
+, "السلامة على الإنترنت"</category><guid>https://ar.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على NextDNS، خدمة سهلة الاستخدام لحجب DNS تعزز الأمان عبر الإنترنت من خلال التحديثات التلقائية وسياسات التصفية القابلة للتخصيص.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/nextdns_cybersecurity_shield.webp" length="98890" type="image/webp"/></item></channel></rss>

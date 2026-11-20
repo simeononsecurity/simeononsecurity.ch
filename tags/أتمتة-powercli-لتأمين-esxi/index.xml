@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>أتمتة PowerCLI لتأمين ESXi on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>أتمتة PowerCLI لتأمين ESXi on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/%D8%A3%D8%AA%D9%85%D8%AA%D8%A9-powercli-%D9%84%D8%AA%D8%A3%D9%85%D9%8A%D9%86-esxi/</link></image><link>https://ar.simeononsecurity.com/tags/%D8%A3%D8%AA%D9%85%D8%AA%D8%A9-powercli-%D9%84%D8%AA%D8%A3%D9%85%D9%8A%D9%86-esxi/</link><description>Recent content in أتمتة PowerCLI لتأمين ESXi on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/%D8%A3%D8%AA%D9%85%D8%AA%D8%A9-powercli-%D9%84%D8%AA%D8%A3%D9%85%D9%8A%D9%86-esxi/index.xml" rel="self" type="application/rss+xml"/><item><title>إتقان أمان VMware</title><link>https://ar.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "الافتراضية"
+, "البنية التحتية لتقنية المعلومات"
+, "الأتمتة"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "الامتثال"
+, "البرمجة النصية"
+, "مركز البيانات"</category><guid>https://ar.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف إلى استخدام PowerCLI لتطبيق معايير VMware STIG وتأمين بيئة VMware في هذا الدليل الشامل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>simeononsecurity</title><link>https://ar.simeononsecurity.com/</link></image><link>https://ar.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>التراجع من Home Assistant Core 2026.11 إلى 2026.10.4: إصلاح إصدار تخزين HTTP 3</title><link>https://ar.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"أتمتة المنزل"
+, "استكشاف الأخطاء وإصلاحها"</category><guid>https://ar.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أصلح خطأ إصدار تخزين HTTP 3 بعد رجوع Home Assistant Core 2026.11 إلى 2026.10.4 على Yellow. يتضمن أوامر محمية ومخرجات جرى التحقق منها.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp" length="32856" type="image/webp"/></item><item><title>كيف تختار نموذج ذكاء اصطناعي محلي غير خاضع للرقابة</title><link>https://ar.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتياً"
+, "سلامة الذكاء الاصطناعي"
+, "عتاد GPU"</category><guid>https://ar.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن بين إصدارات النماذج المحلية وفق اكتمال الإجابات والقدرات المحفوظة واستخدام السياق والكمّ ومتطلبات VRAM.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>توافق مزودات الطاقة مع Octominer X12 Ultra: اختبار عملي لـ Chicony وLiteOn</title><link>https://ar.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><category>
+"أجهزة التعدين"
+, "أجهزة الحاسوب"</category><guid>https://ar.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أظهر اختبار Octominer X12 Ultra بخمس مراوح وثلاثة مزودات طاقة أن مزود Chicony شغّل الجهاز، بينما أضاءت وحدات LiteOn المختبرة باللون الكهرماني ولم تبدأ التشغيل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp" length="34962" type="image/webp"/></item><item><title>Proxmox VE 9: خفّض استخدام الأقراص الافتراضية واستعد المساحة</title><link>https://ar.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "إدارة Linux"
+, "منصة Proxmox VE"
+, "التخزين"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+خفّض مساحة التخزين التي تستخدمها الآلات الافتراضية وحاويات LXC في Proxmox VE 9. قارن الصيغ والأنظمة الخلفية، فعّل discard، شغّل trim وافحص اللقطات قبل استعادة المساحة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Tailscale Aperture: إعداد عملاء الذكاء الاصطناعي للاستدلال وMCP في 2026</title><link>https://ar.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي"
+, "أدوات المطورين"
+, "الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+مرّر طلبات النماذج وأدوات MCP عبر Tailscale Aperture. أعدّ Codex وClaude Code وClaude Desktop وOpenCode وHermes على جهاز أو بوابة أخرى.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>Hindsight مستضاف ذاتيًا: ذاكرة محلية للوكلاء وتوجيه خاص للنماذج</title><link>https://ar.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتيًا"
+, "وكلاء الذكاء الاصطناعي"
+, "بنية الذكاء الاصطناعي"
+, "الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دراسة حالة عن Hindsight المستضاف ذاتيًا، ومسارات Qwen المحلية التي فُحصت، وعمل GPU المرتبط بالطلب من دون اشتراك استدلال مستضاف في المسارات التي فُحصت.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Open WebUI v0.12.4: قائمة التحقق من الترقية والتحكم في الوصول 2026</title><link>https://ar.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المستضاف ذاتيًا"
+, "الأمن السيبراني"
+, "إدارة الأنظمة"</category><guid>https://ar.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أنشئ نسخة احتياطية من Open WebUI ورقّه إلى v0.12.4، ثم اختبر مشاركة المحادثات وأذونات التصدير ومنح صلاحيات الموارد والحسابات والوصول إلى الشبكة.</description></item><item><title>Thunderbird 153.6: كشف بيانات اعتماد NTLM على Windows وكيفية التحديث (2026)</title><link>https://ar.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "أمن البريد الإلكتروني"
+, "أمن Windows"</category><guid>https://ar.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تكشف ثغرتان خطيرتان في Thunderbird بيانات مصادقة NTLM على Windows عند عرض رسالة بريد مصممة خصيصًا. تعرّف على مساري الهجوم، وافحص الإصدار، وقيّد SMB الصادر أثناء التحديث.</description></item><item><title>تحديث أمان Chrome 156: التحقق من تصحيح أكتوبر</title><link>https://ar.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"المتصفحات"
+, "الأمان"
+, "إدارة التصحيحات"</category><guid>https://ar.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تحقق من إصدار أمان Chrome 156 الصادر في 27 أكتوبر على Windows وmacOS وLinux وAndroid. قارن رقم البناء المثبت، وأكمل إعادة التشغيل المعلقة، وافحص الأجهزة المُدارة بشكل منفصل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp"/></item><item><title>أنشئ مختبرًا منزليًا في 10 مستويات، من Pi-hole إلى الذكاء الاصطناعي المحلي</title><link>https://ar.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"مختبر منزلي"
+, "استضافة ذاتية"
+, "ذكاء اصطناعي محلي"
+, "شبكات منزلية"</category><guid>https://ar.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أنشئ مختبرًا منزليًا عبر عشر مراحل عملية، من تصفية DNS للشبكة كلها إلى الذكاء الاصطناعي المحلي، مع الأجهزة والتكاليف والمهارات والمفاضلات في كل مستوى.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>اختبارات Hermes للنماذج المحلية: تركيبات GPU والنماذج التي سأختارها</title><link>https://ar.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي"
+, "الذكاء الاصطناعي المحلي"
+, "الأجهزة"</category><guid>https://ar.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تستند توصياتي لنماذج Hermes إلى اختبارات السياق الطويل والأدوات والبث والرؤية على أنظمة RTX 5060 Ti وRTX 2000E Ada وRTX 3060 Ti وRTX 3070.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>داخل أسطولنا الهجين لوكلاء الذكاء الاصطناعي: Hermes وLiteLLM وTailscale</title><link>https://ar.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتيًا"
+, "وكلاء الذكاء الاصطناعي"
+, "بنية الذكاء الاصطناعي"
+, "تعدين GPU"</category><guid>https://ar.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على أسطول ذكاء اصطناعي محلي موثّق بتحميل كسول، وخطة التحكم المرحلية من T0 إلى T4 باستخدام Hermes وLiteLLM وTailscale Aperture وتعدين Pearl.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>1Password SSH Agent and CLI: وصول وكيل الذكاء الاصطناعي للقراءة فقط</title><link>https://ar.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"إدارة الأنظمة"
+, "أمن السحابة"
+, "الأتمتة"</category><guid>https://ar.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+صمّم سير عمل SSH للقراءة فقط باستخدام 1Password CLI و SSH Agent و MCP. استخدم أوامر اصطناعية وصلاحيات محدودة وموافقة بشرية قبل الاختبار المباشر.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>اختبار استعادة آلة Proxmox الافتراضية: إثبات عمل النظام الضيف</title><link>https://ar.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "النسخ الاحتياطي والاستعادة"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اختبر نسخة احتياطية لآلة Proxmox افتراضية باستعادة معزولة. افحص تغطية الأقراص ووضع النسخ الاحتياطي وبيانات الضيف وحالة الخدمة وزمن الاستعادة من دون المساس ببيئة الإنتاج.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>اختبر تسرب DNS وWebRTC في المتصفح مع VPN</title><link>https://ar.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"الخصوصية"
+, "المتصفحات"
+, "الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تحقق من عنوان IP العام ومحلل DNS وعناوين WebRTC في المتصفح قبل الاتصال بـVPN وبعده. افهم النتائج وابحث عن مشكلات التوجيه.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>اختبر عزل شبكة الضيوف وأجهزة إنترنت الأشياء على شبكة Wi-Fi شبكية</title><link>https://ar.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"الشبكات المنزلية"
+, "أمن Wi-Fi"
+, "المنازل الذكية"</category><guid>https://ar.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تحقق مما إذا كانت شبكتا الضيوف وإنترنت الأشياء في نظام Wi-Fi الشبكي تمنعان الوصول إلى أجهزتك المنزلية. اختبر كل شبكة بخدمة تعمل وسجّل حدود العزل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp" length="102600" type="image/webp"/></item><item><title>ترحيل آلة Hyper-V افتراضية إلى Proxmox VE: قائمة تحقق قابلة للتراجع</title><link>https://ar.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "إدارة الأنظمة"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+انقل آلة Hyper-V افتراضية إلى Proxmox VE عبر تصدير المصدر بعد إيقافه، ومطابقة البرنامج الثابت، واستيراد الأقراص، واختبار إقلاع معزول، وخطة تراجع.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>لماذا يجري تجاوز تصفية DNS: تحقّق من مسار المحلّل</title><link>https://ar.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"الشبكات المنزلية"
+, "DNS"
+, "الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اكتشف سبب تجاوز جهاز أو متصفح لمرشح DNS. قارن الاستعلامات المباشرة والافتراضية، وافحص السجلات، ثم تحقق من DNS المشفر وVPN وIPv6 وإعدادات الموجّه.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>مفاتيح SSH في Bitbucket Cloud: وصول Git للقراءة فقط لوكلاء الذكاء الاصطناعي</title><link>https://ar.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"أمن السحابة"
+, "أدوات المطورين"
+, "إدارة الأنظمة"</category><guid>https://ar.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أعدّ مفاتيح SSH في Bitbucket Cloud، ووصول Git CLI، ورموز REST API، و1Password، وأدوات MCP لسير عمل وكلاء الذكاء الاصطناعي المقتصر على القراءة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>OpenClaw وHermes Agent: تقييم عملي</title><link>https://ar.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي"
+, "هندسة البرمجيات"
+, "الإنتاجية"</category><guid>https://ar.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قيّم وكلاء الذكاء الاصطناعي المتخصصين والدائمين باستخدام جرد للصلاحيات، ومراجعة للمحفزات، وسجل لتدفق البيانات، وقرار للتجربة الأولية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/effective-ai-specialized-agent-evaluation.webp" length="115550" type="image/webp"/></item><item><title>إدارة نافذة سياق الذكاء الاصطناعي: حافظ على تركيز وكلاء البرمجة</title><link>https://ar.simeononsecurity.com/articles/effective-ai-context-window-management/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي"
+, "هندسة البرمجيات"</category><guid>https://ar.simeononsecurity.com/articles/effective-ai-context-window-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تحكم في السياق النشط لمهمة الذكاء الاصطناعي باستخدام ملفات مختارة وتسليمات موجزة ومخرجات صغيرة للعاملين، مع الحفاظ على القرارات والأدلة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/effective-ai-context-window-management.webp" length="78984" type="image/webp"/></item><item><title>إعداد خادم MCP: الأذونات واختبار الأدوات والإزالة الآمنة</title><link>https://ar.simeononsecurity.com/articles/effective-ai-mcp-server-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي"
+, "أدوات المطورين"</category><guid>https://ar.simeononsecurity.com/articles/effective-ai-mcp-server-setup/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+صِل خادم توثيق MCP واحدًا للقراءة فقط، وافحص أدواته، ونفّذ قراءة فعلية، ثم أزل الاتصال.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/effective-ai-mcp-server-setup.webp" length="82234" type="image/webp"/></item><item><title>إعداد دورة سير عمل الذكاء الاصطناعي: الطرفية وGit ومختبر التدريب</title><link>https://ar.simeononsecurity.com/articles/effective-ai-course-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي"
+, "هندسة البرمجيات"
+, "التعليم"</category><guid>https://ar.simeononsecurity.com/articles/effective-ai-course-setup/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+جهّز مساحة آمنة للتدرب على الذكاء الاصطناعي، وتعلّم مصطلحات الطرفية وGit في الدورة، وشغّل المختبر التمهيدي.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/effective-ai-course-setup.webp" length="112168" type="image/webp"/></item><item><title>إنشاء جرد للقراءة فقط في Active Directory باستخدام PowerShell</title><link>https://ar.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Active Directory"
+, "PowerShell"
+, "إدارة الأنظمة"</category><guid>https://ar.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+احصر الوحدات التنظيمية والمستخدمين وأجهزة الكمبيوتر في Active Directory باستخدام استعلامات PowerShell محددة النطاق. صدّر ملفات CSV قابلة للمراجعة من دون تغيير كائنات الدليل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/active-directory-powershell-read-only-inventory.webp" length="101842" type="image/webp"/></item><item><title>اختيار سعة UPS لمختبرك المنزلي واختبار الإيقاف التلقائي</title><link>https://ar.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"مختبر منزلي"
+, "حماية الطاقة"
+, "إدارة الأنظمة"</category><guid>https://ar.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قِس استهلاك مختبرك المنزلي، وقارن حدود الواط وVA في UPS، وتحقق من زمن التشغيل عند حملك، واختبر الإيقاف السليم قبل الاعتماد على البطارية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item></channel></rss>

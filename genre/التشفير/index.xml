@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>التشفير on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>التشفير on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%AA%D8%B4%D9%81%D9%8A%D8%B1/</link></image><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%AA%D8%B4%D9%81%D9%8A%D8%B1/</link><description>Recent content in التشفير on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%AA%D8%B4%D9%81%D9%8A%D8%B1/index.xml" rel="self" type="application/rss+xml"/><item><title>الاتصال وأمن البيانات لعقد الحافة القابلة للنشر ميدانيًا</title><link>https://ar.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"الحوسبة الطرفية"
+, "تقنية المعلومات الميدانية"
+, "أمن الشبكات"
+, "VPN"
+, "التشفير"
+, "الأمن المادي"
+, "التعافي من الكوارث"</category><guid>https://ar.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل لتوصيل عقد الحوسبة الطرفية الميدانية وحمايتها باستخدام الشبكات الخلوية والأقمار الصناعية وLoRa وVPN وMFA وتقسيم الشبكات والسجلات والتشفير والاستجابة للسرقة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item><item><title>دوال C# غير الآمنة: ممارسات البرمجة الآمنة</title><link>https://ar.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"تطوير البرمجيات"
+, "البرمجة بلغة C#"
+, "الأمن السيبراني"
+, "أمن الشيفرة"
+, "البرمجة الآمنة"
+, "أفضل ممارسات البرمجة"
+, "ثغرات البرمجيات"
+, "التشفير"
+, "تطوير الويب"
+, "أمن التطبيقات"</category><guid>https://ar.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+بدائل آمنة لدوال C# غير الآمنة. تعرّف على مخاطر سلامة الذاكرة واستبدال العمليات الخطرة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>مقارنة خدمات البريد الآمن: StartMail مقابل ProtonMail مقابل Tutanota</title><link>https://ar.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</link><pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الأمن السيبراني"
+, "خصوصية البيانات"
+, "خدمات البريد الإلكتروني"
+, "الأمان عبر الإنترنت"
+, "التشفير"
+, "أدوات الإنترنت"
+, "مقارنة"
+, "الحماية الرقمية"
+, "الخصوصية عبر الإنترنت"</category><guid>https://ar.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اكتشف أفضل خدمات البريد الإلكتروني الآمن. مقارنة مفصلة بين StartMail وProtonMail وTutanota لمساعدتك على حماية خصوصيتك عبر الإنترنت.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/secure-email-showdown.webp" length="84184" type="image/webp"/></item><item><title>AWS مقابل Azure مقابل Google Cloud في 2026: مقارنة شاملة</title><link>https://ar.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"الحوسبة السحابية"
+, "أمن السحابة"
+, "AWS"
+, "Azure"
+, "منصة Google Cloud"
+, "أمن البيانات"
+, "التشفير"
+, "إدارة الهوية والوصول"
+, "الامتثال"
+, "كشف التهديدات"</category><guid>https://ar.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+مقارنة لعام 2026 بين AWS وAzure وGoogle Cloud تشمل الأسعار والأمان والامتثال والخدمات والأداء واختيار المزوّد.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item><item><title>أفضل مديري كلمات المرور 2026: Bitwarden مقابل KeePassXC</title><link>https://ar.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الأمن السيبراني"
+, "إدارة كلمات المرور"
+, "الأمن عبر الإنترنت"
+, "حماية البيانات"
+, "التشفير"
+, "الخصوصية الرقمية"
+, "أدوات الإنترنت"
+, "التخزين السحابي"
+, "مقارنة البرامج"</category><guid>https://ar.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+مقارنة لمديري كلمات المرور في 2026 تشمل Bitwarden وKeePassXC و1Password وLastPass وDashlane وProton Pass.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/bitwarden-and-keepassxc-vs-the-rest.webp" length="241120" type="image/webp"/></item></channel></rss>

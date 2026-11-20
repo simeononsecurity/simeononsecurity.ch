@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>إدارة الأنظمة on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>إدارة الأنظمة on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9/</link></image><link>https://ar.simeononsecurity.com/genre/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9/</link><description>Recent content in إدارة الأنظمة on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>Open WebUI v0.12.4: قائمة التحقق من الترقية والتحكم في الوصول 2026</title><link>https://ar.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المستضاف ذاتيًا"
+, "الأمن السيبراني"
+, "إدارة الأنظمة"</category><guid>https://ar.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أنشئ نسخة احتياطية من Open WebUI ورقّه إلى v0.12.4، ثم اختبر مشاركة المحادثات وأذونات التصدير ومنح صلاحيات الموارد والحسابات والوصول إلى الشبكة.</description></item><item><title>1Password SSH Agent and CLI: وصول وكيل الذكاء الاصطناعي للقراءة فقط</title><link>https://ar.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"إدارة الأنظمة"
+, "أمن السحابة"
+, "الأتمتة"</category><guid>https://ar.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+صمّم سير عمل SSH للقراءة فقط باستخدام 1Password CLI و SSH Agent و MCP. استخدم أوامر اصطناعية وصلاحيات محدودة وموافقة بشرية قبل الاختبار المباشر.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>ترحيل آلة Hyper-V افتراضية إلى Proxmox VE: قائمة تحقق قابلة للتراجع</title><link>https://ar.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "إدارة الأنظمة"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+انقل آلة Hyper-V افتراضية إلى Proxmox VE عبر تصدير المصدر بعد إيقافه، ومطابقة البرنامج الثابت، واستيراد الأقراص، واختبار إقلاع معزول، وخطة تراجع.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>مفاتيح SSH في Bitbucket Cloud: وصول Git للقراءة فقط لوكلاء الذكاء الاصطناعي</title><link>https://ar.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"أمن السحابة"
+, "أدوات المطورين"
+, "إدارة الأنظمة"</category><guid>https://ar.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أعدّ مفاتيح SSH في Bitbucket Cloud، ووصول Git CLI، ورموز REST API، و1Password، وأدوات MCP لسير عمل وكلاء الذكاء الاصطناعي المقتصر على القراءة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>إنشاء جرد للقراءة فقط في Active Directory باستخدام PowerShell</title><link>https://ar.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Active Directory"
+, "PowerShell"
+, "إدارة الأنظمة"</category><guid>https://ar.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+احصر الوحدات التنظيمية والمستخدمين وأجهزة الكمبيوتر في Active Directory باستخدام استعلامات PowerShell محددة النطاق. صدّر ملفات CSV قابلة للمراجعة من دون تغيير كائنات الدليل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/active-directory-powershell-read-only-inventory.webp" length="101842" type="image/webp"/></item><item><title>اختيار سعة UPS لمختبرك المنزلي واختبار الإيقاف التلقائي</title><link>https://ar.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"مختبر منزلي"
+, "حماية الطاقة"
+, "إدارة الأنظمة"</category><guid>https://ar.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قِس استهلاك مختبرك المنزلي، وقارن حدود الواط وVA في UPS، وتحقق من زمن التشغيل عند حملك، واختبر الإيقاف السليم قبل الاعتماد على البطارية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>اعثر على مفتاح استرداد BitLocker قبل إعادة تثبيت Windows</title><link>https://ar.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"أمان Windows"
+, "استرداد البيانات"
+, "إدارة الأنظمة"</category><guid>https://ar.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اعثر على مفتاح استرداد BitLocker الصحيح وتحقق منه، واحمِ نسخة منفصلة منه، واختر مسار استرداد Windows أو إعادة تثبيته قبل مسح محرك الأقراص.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/windows-bitlocker-recovery-before-reinstall.webp" length="102534" type="image/webp"/></item><item><title>Ansible مقابل Puppet مقابل Chef 2026: إدارة الإعدادات</title><link>https://ar.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "أتمتة البنية التحتية"
+, "إدارة الإعدادات"
+, "عمليات تقنية المعلومات"
+, "الحوسبة السحابية"
+, "إدارة الأنظمة"
+, "تقنية المعلومات للمؤسسات"
+, "تطوير البرمجيات"
+, "البنية التحتية لتقنية المعلومات"
+, "أدوات الأتمتة"</category><guid>https://ar.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+مقارنة لعام 2026 بين Ansible وPuppet وChef تشمل البنية والميزات ومنحنى التعلم والأداء والأسعار وحالات الاستخدام.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>NAT وPAT: دليل أساسي لاتصالات الشبكات</title><link>https://ar.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"أساسيات الشبكات"
+, "الأمن السيبراني"
+, "البنية التحتية لتقنية المعلومات"
+, "أدلة تقنية"
+, "إدارة الشبكات"
+, "بروتوكولات الإنترنت"
+, "تقنيات الاتصالات"
+, "إدارة الأنظمة"
+, "هندسة الشبكات"
+, "الشبكات الرقمية"</category><guid>https://ar.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف إلى NAT وPAT لتحسين سلاسة الاتصالات الرقمية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item><item><title>إتقان وظائف النسخ: إدارة الملفات في أنظمة التشغيل</title><link>https://ar.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</link><pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "إدارة الملفات"
+, "أنظمة التشغيل"
+, "نقل البيانات"
+, "تنظيم البيانات"
+, "مهارات الحاسوب"
+, "نصائح تقنية المعلومات"
+, "كفاءة نظام التشغيل"
+, "إدارة الأنظمة"
+, "أدوات البرامج"</category><guid>https://ar.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على وظائف النسخ المتقدمة في أنظمة التشغيل وتعلّم إدارة الملفات بسرعة وكفاءة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems.webp" length="92028" type="image/webp"/></item><item><title>مقارنة Windows Task Scheduler بوظائف Cron في Linux</title><link>https://ar.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "أنظمة التشغيل"
+, "أتمتة الأنظمة"
+, "أدوات الأمان"
+, "تقنية الحاسوب"
+, "جدولة المهام"
+, "أمن الشبكات"
+, "إدارة الأنظمة"
+, "الدفاع السيبراني"
+, "إدارة تقنية المعلومات"</category><guid>https://ar.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن Windows Task Scheduler بوظائف Cron في Linux من منظور الأمن السيبراني وتقوية الأنظمة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>إتقان PowerCLI لإدارة vSphere</title><link>https://ar.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الافتراضية"
+, "VMware"
+, "إدارة تقنية المعلومات"
+, "الأتمتة"
+, "واجهة سطر الأوامر"
+, "البرمجة النصية"
+, "إدارة الأنظمة"
+, "الحوسبة السحابية"
+, "إدارة مراكز البيانات"</category><guid>https://ar.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على استخدام PowerCLI لإدارة VMware vSphere وأتمتة المهام وتحسين الإنتاجية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>فهم تصفية WMI</title><link>https://ar.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"إدارة Windows"
+, "نهج المجموعة"
+, "إدارة الأنظمة"
+, "إدارة الشبكات"
+, "بنية تقنية المعلومات"
+, "إدارة السياسات"
+, "حوكمة تقنية المعلومات"
+, "أتمتة تقنية المعلومات"
+, "Active Directory"
+, "الامتثال الأمني"</category><guid>https://ar.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على استخدام تصفية WMI لتوجيه كائنات نهج المجموعة (GPO) إلى الحواسيب المناسبة، مع أمثلة عملية وممارسات موصى بها.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item></channel></rss>

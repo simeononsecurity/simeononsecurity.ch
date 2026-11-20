@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llama.cpp on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>Llama.cpp on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/llama.cpp/</link></image><link>https://ar.simeononsecurity.com/tags/llama.cpp/</link><description>Recent content in Llama.cpp on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/llama.cpp/index.xml" rel="self" type="application/rss+xml"/><item><title>اختبارات Hermes للنماذج المحلية: تركيبات GPU والنماذج التي سأختارها</title><link>https://ar.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي"
+, "الذكاء الاصطناعي المحلي"
+, "الأجهزة"</category><guid>https://ar.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تستند توصياتي لنماذج Hermes إلى اختبارات السياق الطويل والأدوات والبث والرؤية على أنظمة RTX 5060 Ti وRTX 2000E Ada وRTX 3060 Ti وRTX 3070.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>داخل أسطولنا الهجين لوكلاء الذكاء الاصطناعي: Hermes وLiteLLM وTailscale</title><link>https://ar.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتيًا"
+, "وكلاء الذكاء الاصطناعي"
+, "بنية الذكاء الاصطناعي"
+, "تعدين GPU"</category><guid>https://ar.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على أسطول ذكاء اصطناعي محلي موثّق بتحميل كسول، وخطة التحكم المرحلية من T0 إلى T4 باستخدام Hermes وLiteLLM وTailscale Aperture وتعدين Pearl.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>خصوصية الذكاء الاصطناعي المحلي: ما يبقى على حاسوبك وما لا يبقى</title><link>https://ar.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الخصوصية"
+, "الذكاء الاصطناعي المستضاف ذاتياً"
+, "الأمن السيبراني"
+, "اقتصاديات الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تتبّع المطالبات وملفات النماذج والأدوات والسجلات والتعرض الشبكي وتكاليف الطاقة قبل اختيار الاستدلال المحلي أو خدمة ذكاء اصطناعي مستضافة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>هل تكفي ذاكرة VRAM بسعة 16GB للعمل الجاد مع نماذج LLM المحلية؟</title><link>https://ar.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "عتاد الحاسوب"
+, "الذكاء الاصطناعي المستضاف ذاتياً"</category><guid>https://ar.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+حدّد حجم إعداد LLM محلي بسعة 16GB وفق أوزان النموذج وذاكرة KV ومعالجة المطالبات. قارن ميزانيات ذاكرة Qwen3.8 27B وعرض نطاق GPU وتكاليف التملك.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>أي نموذج ذكاء اصطناعي محلي ينبغي أن تشغّل؟ دليل GPU للسياق والبرمجة لشهر أكتوبر 2026</title><link>https://ar.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "عتاد الذكاء الاصطناعي"
+, "ذكاء اصطناعي مستضاف ذاتيا"
+, "قياس GPU"
+, "أدوات المطورين"
+, "اقتصاديات الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل عملي لشهر أكتوبر 2026 لاختيار نماذج الذكاء الاصطناعي المحلية لوكلاء البرمجة. قارن ذاكرة GPU، ونمو KV-cache، وحجم السياق، وجودة التكميم، ومعالجة المطالبات، وإعدادات الاستدلال، وتكاليف الاستئجار السحابي.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>نماذج لغة السياق لدى Meta: ذاكرة أفضل للوكلاء، وليست نهاية الهلوسة</title><link>https://ar.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي"
+, "وكلاء الذكاء الاصطناعي"
+, "الذكاء الاصطناعي المحلي"
+, "أمن الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+كيف تعدل نماذج لغة السياق ذاكرة الوكيل، وما الذي تثبته المعايير، وكيف تؤثر تكاليف التخزين المؤقت وقدرة النموذج والملاحظات غير الموثوقة في الاعتمادية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp"/></item><item><title>ذاكرة VRAM بسعة 32GB لنموذج Qwen 27B: دليل عتاد الذكاء الاصطناعي المحلي لشهر أكتوبر 2026</title><link>https://ar.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "عتاد الذكاء الاصطناعي"
+, "قياس أداء GPU"
+, "الذكاء الاصطناعي المستضاف ذاتياً"
+, "عتاد الحاسوب"
+, "اقتصاديات الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل عملي لشهر أكتوبر 2026 لتشغيل نموذج Qwen 27B مع 32GB من ذاكرة المسرّع القابلة للاستخدام. قارن بين وحدات GPU المنفردة، وبُنى البطاقتين، والذاكرة الموحدة، وبطاقات مراكز البيانات المستعملة، والحوسبة المستأجرة، ودعم البرمجيات، وحدود السياق الكامل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Claude Cowork وClaude Code مع نماذج محلية: دليل الإعداد لعام 2026</title><link>https://ar.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "أدوات البرمجة بالذكاء الاصطناعي"
+, "ذكاء اصطناعي مستضاف ذاتياً"
+, "أدوات المطورين"
+, "الخصوصية"
+, "نماذج مفتوحة المصدر"
+, "الأتمتة"
+, "عتاد الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اضبط Ollama مع Claude Desktop وClaude Code عبر واجهة API متوافقة مع Anthropic. تعرّف على النماذج المناسبة والميزات السحابية لعام 2026.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>الذكاء الاصطناعي المحلي في 2026: نموذج 27B يتفوق على Sonnet 4.6 ونافذة شراء العتاد تضيق</title><link>https://ar.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتيًا"
+, "نماذج مفتوحة المصدر"
+, "عتاد الذكاء الاصطناعي"
+, "التعلم الآلي"
+, "التكميم"
+, "مختبر منزلي"
+, "الخصوصية"
+, "اقتصاد الذكاء الاصطناعي"
+, "عتاد استهلاكي"</category><guid>https://ar.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+خطط لجهاز ذكاء اصطناعي محلي في 2026 وفق حجم النموذج وذاكرة VRAM وعرض نطاق الذاكرة والطاقة والتكلفة وخيارات الترقية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

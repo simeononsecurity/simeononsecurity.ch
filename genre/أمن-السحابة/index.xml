@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>أمن السحابة on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>أمن السحابة on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D8%AD%D8%A7%D8%A8%D8%A9/</link></image><link>https://ar.simeononsecurity.com/genre/%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D8%AD%D8%A7%D8%A8%D8%A9/</link><description>Recent content in أمن السحابة on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D8%AD%D8%A7%D8%A8%D8%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>1Password SSH Agent and CLI: وصول وكيل الذكاء الاصطناعي للقراءة فقط</title><link>https://ar.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"إدارة الأنظمة"
+, "أمن السحابة"
+, "الأتمتة"</category><guid>https://ar.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+صمّم سير عمل SSH للقراءة فقط باستخدام 1Password CLI و SSH Agent و MCP. استخدم أوامر اصطناعية وصلاحيات محدودة وموافقة بشرية قبل الاختبار المباشر.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>مفاتيح SSH في Bitbucket Cloud: وصول Git للقراءة فقط لوكلاء الذكاء الاصطناعي</title><link>https://ar.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"أمن السحابة"
+, "أدوات المطورين"
+, "إدارة الأنظمة"</category><guid>https://ar.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أعدّ مفاتيح SSH في Bitbucket Cloud، ووصول Git CLI، ورموز REST API، و1Password، وأدوات MCP لسير عمل وكلاء الذكاء الاصطناعي المقتصر على القراءة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>لم تعد الحاويات تشكّل حدودًا أمنية في عام 2026</title><link>https://ar.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"أمن الحاويات"
+, "Linux"
+, "أمن النواة"
+, "الافتراضية"
+, "أمن السحابة"
+, "أبحاث التهديدات"
+, "الفريق الأزرق"
+, "DevSecOps"</category><guid>https://ar.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تكشف ثغرات النواة في عام 2026 سبب عدم كفاية عزل الحاويات متعددة المستأجرين. تعرّف على Copy Fail وDirty Frag وFragnesia وCVE-2026-80521، وقارن بين الحاويات المقوّاة والآلات الافتراضية المصغّرة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>Cloudflare Tunnel وAccess: هل تحتاج إلى كليهما؟</title><link>https://ar.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"أمن الشبكات"
+, "الاستضافة الذاتية"
+, "أمن السحابة"</category><guid>https://ar.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على الفرق بين Cloudflare Tunnel وAccess، واختر حماية لوحة تحكم منزلية، وتجنب نشر تطبيق خاص دون مصادقة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>مختبر SOC منزلي من Microsoft: اكتسب خبرة في الأمن السيبراني عام 2026</title><link>https://ar.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "أمن السحابة"
+, "التطوير المهني"</category><guid>https://ar.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أنشئ مختبر SOC من Microsoft باستخدام Sentinel وDefender وIntune وEntra. حقق في الحوادث، واختبر سياسات مفاتيح المرور، ووثّق أدلة لملفك المهني.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>تأمين السحابة بكفاءة</title><link>https://ar.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</link><pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate><category>
+"أمن السحابة"
+, "مرونة الأعمال"
+, "تنفيذ CSPM"
+, "الكشف الاستباقي عن التهديدات"
+, "إدارة الامتثال"
+, "السياسات الأمنية"
+, "التعاون متعدد الوظائف"
+, "البنية التحتية السحابية"
+, "الأمن المؤتمت"
+, "تخفيف المخاطر"</category><guid>https://ar.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+استخدم إدارة الوضع الأمني السحابي لاكتشاف الإعدادات الخاطئة وفرض السياسات وإدارة التنبيهات ودعم الامتثال وتوجيه المعالجة عبر حسابات السحابة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/leveraging-cloud-security-posture-management-%28cspm%29-for-your-business.webp" length="234272" type="image/webp"/></item><item><title>تعزيز أمن الشبكات والسحابة إلى أقصى حد</title><link>https://ar.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الأمن السيبراني"
+, "أمن السحابة"
+, "حماية الشبكات"
+, "السلامة الرقمية"
+, "خصوصية البيانات"
+, "أمن تقنية المعلومات"
+, "تقنية الأعمال"
+, "الدفاع الرقمي"
+, "التهديدات السيبرانية"</category><guid>https://ar.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على التهديدات وإجراءات الحماية والحالات العملية لتعزيز أمن الشبكات والسحابة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp"/></item><item><title>شهادات Microsoft لمهن الأمن السيبراني</title><link>https://ar.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "شهادات Microsoft"
+, "التطوير المهني"
+, "تقنية المعلومات"
+, "أمن السحابة"
+, "إدارة البيانات"
+, "إدارة الهوية والوصول"
+, "الذكاء الاصطناعي"
+, "تعلم الآلة"
+, "سوق العمل"</category><guid>https://ar.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اختر شهادات Microsoft لوظائف الأمن السيبراني وفق مجال المهارات والوظيفة المستهدفة والمتطلبات السابقة ومدى ارتباطها بـ Azure.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon_illustration_featuring_a_professiona.webp" length="94814" type="image/webp"/></item><item><title>AWS مقابل Azure مقابل Google Cloud في 2026: مقارنة شاملة</title><link>https://ar.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"الحوسبة السحابية"
+, "أمن السحابة"
+, "AWS"
+, "Azure"
+, "منصة Google Cloud"
+, "أمن البيانات"
+, "التشفير"
+, "إدارة الهوية والوصول"
+, "الامتثال"
+, "كشف التهديدات"</category><guid>https://ar.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+مقارنة لعام 2026 بين AWS وAzure وGoogle Cloud تشمل الأسعار والأمان والامتثال والخدمات والأداء واختيار المزوّد.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item><item><title>دليل المسار المهني للأمن السيبراني 2026</title><link>https://ar.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</link><pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "التقنية"
+, "التطوير المهني"
+, "أمن المعلومات"
+, "الأمن الرقمي"
+, "المهارات والشهادات"
+, "فرص العمل"
+, "أمن الشبكات"
+, "أمن السحابة"
+, "التخطيط المهني"</category><guid>https://ar.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل مهني للأمن السيبراني لعام 2026 يتناول المهارات والشهادات والرواتب والمسارات الوظيفية وأبحاث سوق العمل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/cybersecurity-career-guide-essential-skills-and-certifications.webp" length="298156" type="image/webp"/></item><item><title>إتقان اختبار الاختراق: تقنيات متقدمة</title><link>https://ar.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "اختبار الاختراق"
+, "الاختراق الأخلاقي"
+, "أمن الشبكات"
+, "أمن تطبيقات الويب"
+, "الأمن اللاسلكي"
+, "الهندسة الاجتماعية"
+, "أمن تطبيقات الأجهزة المحمولة"
+, "أمن السحابة"
+, "التطوير المهني"</category><guid>https://ar.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على تقنيات وأدوات متقدمة وأمثلة واقعية لاختبار الاختراق، وطوّر مهاراتك في الأمن السيبراني ومسارك المهني.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>الأجهزة on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>الأجهزة on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%A3%D8%AC%D9%87%D8%B2%D8%A9/</link></image><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%A3%D8%AC%D9%87%D8%B2%D8%A9/</link><description>Recent content in الأجهزة on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%A3%D8%AC%D9%87%D8%B2%D8%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>اختبارات Hermes للنماذج المحلية: تركيبات GPU والنماذج التي سأختارها</title><link>https://ar.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي"
+, "الذكاء الاصطناعي المحلي"
+, "الأجهزة"</category><guid>https://ar.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تستند توصياتي لنماذج Hermes إلى اختبارات السياق الطويل والأدوات والبث والرؤية على أنظمة RTX 5060 Ti وRTX 2000E Ada وRTX 3060 Ti وRTX 3070.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>إرشادات تقنية المعلومات الميدانية: ما وراء مركز البيانات المصغر</title><link>https://ar.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"تقنية المعلومات الميدانية"
+, "الحوسبة الطرفية"
+, "عمليات تقنية المعلومات"
+, "التعافي من الكوارث"
+, "الأجهزة"
+, "أفضل الممارسات"</category><guid>https://ar.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل عملي لتقنية المعلومات الميدانية حول قطع الغيار والتوثيق وESD والبرامج الثابتة ووسائط الإقلاع والتراخيص والأمن المادي والسفر والتأمين.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp"/></item><item><title>الحوسبة الطرفية القابلة للنشر ميدانيًا: اختيار الأجهزة والهيكل</title><link>https://ar.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"الحوسبة الطرفية"
+, "تقنية المعلومات الميدانية"
+, "الأجهزة"
+, "مختبر منزلي"
+, "الحوسبة المتينة"
+, "الشبكات"
+, "التعافي من الكوارث"
+, "تقنية معلومات الشركات الصغيرة"</category><guid>https://ar.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل لأجهزة الحوسبة الطرفية الميدانية واختيار هياكلها، ويغطي الحوسبة والرفوف والتبريد والتخزين والإدارة والكابلات وتوافق الطاقة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>الطاقة والقدرة على تحمل الظروف البيئية للأنظمة الميدانية</title><link>https://ar.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"الحوسبة الطرفية"
+, "تقنية المعلومات الميدانية"
+, "أنظمة الطاقة"
+, "الأجهزة"
+, "التعافي من الكوارث"
+, "الحواسيب المتينة"
+, "الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+خطط للطاقة والحماية البيئية لعُقد الحوسبة الطرفية الميدانية. اختر سعة UPS والبطاريات والألواح الشمسية، واضبط مزامنة الوقت وتصنيف حماية الغلاف والتأريض والحماية من زيادة الجهد.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>مجموعة أدوات تقنية المعلومات المتكاملة: أدوات وأجهزة أساسية</title><link>https://ar.simeononsecurity.com/articles/ultimate-it-toolkit-essential-tools-gadgets/</link><pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate><category>
+"تقنية المعلومات"
+, "الإنتاجية"
+, "الأجهزة"
+, "البرمجيات"
+, "الأمن السيبراني"
+, "أدوات تقنية"
+, "إدارة الشبكات"
+, "سطح المكتب البعيد"
+, "ملحقات المكتب"
+, "أدوات تقنية صغيرة"</category><guid>https://ar.simeononsecurity.com/articles/ultimate-it-toolkit-essential-tools-gadgets/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف إلى طرق تحسين إنتاجية تقنية المعلومات باستخدام مجموعة متكاملة للمتخصصين، تضم برامج وأجهزة وملحقات مفيدة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/IT-Toolkit-Essential-Tools-Gadgets.webp" length="133374" type="image/webp"/></item><item><title>أفضل منتجات حجب RFID: احمِ بياناتك بأناقة</title><link>https://ar.simeononsecurity.com/articles/rfid-blocking-products-guide/</link><pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الأمن السيبراني"
+, "السلامة الشخصية"
+, "الخصوصية الرقمية"
+, "مراجعات المنتجات"
+, "الأجهزة"
+, "حماية البيانات"
+, "سرقة الهوية"
+, "التجارة الإلكترونية"
+, "نصائح المستهلكين"</category><guid>https://ar.simeononsecurity.com/articles/rfid-blocking-products-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن منتجات حجب RFID من حيث العزل والاستخدام والمواد ومعايير الشراء العملية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/rfid-blocking-products.webp" length="59800" type="image/webp"/></item><item><title>أفضل طرز UPS للطاقة والتشغيل دون انقطاع</title><link>https://ar.simeononsecurity.com/articles/best-ups-models-for-uninterrupted-connectivity/</link><pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate><category>
+"التكنولوجيا"
+, "الأجهزة"
+, "الإلكترونيات"
+, "حلول الطاقة"
+, "المكتب المنزلي"
+, "الإنتاجية"
+, "كفاءة الطاقة"
+, "حماية البيانات"
+, "أنظمة النسخ الاحتياطي"
+, "الاتصال"</category><guid>https://ar.simeononsecurity.com/articles/best-ups-models-for-uninterrupted-connectivity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على أفضل طرز UPS لضمان استمرار الطاقة لأجهزتك.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/best-ups-models-for-uninterrupted-connectivity.webp" length="160168" type="image/webp"/></item><item><title>احمِ مستقبلك: تقنيات أساسية لحالات الطوارئ</title><link>https://ar.simeononsecurity.com/articles/emergency-tech-preparedness-gadgets/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><category>
+"التكنولوجيا"
+, "الأمن"
+, "الاستعداد للطوارئ"
+, "البقاء"
+, "الأجهزة"
+, "الاتصالات"
+, "السلامة"
+, "التعافي من الكوارث"
+, "المرونة"
+, "الاتصال"</category><guid>https://ar.simeononsecurity.com/articles/emergency-tech-preparedness-gadgets/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على أدوات البقاء والسلامة والاستعداد للطوارئ، ومنها الشواحن الشمسية وأجهزة المراسلة عبر الأقمار الصناعية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/emergency-preparedness-solar-gadgets.webp" length="167932" type="image/webp"/></item><item><title>Synology مقابل TerraMaster وQNAP</title><link>https://ar.simeononsecurity.com/articles/synology-terramaster-qnap-nas-comparison/</link><pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "التخزين الشبكي"
+, "مقارنة NAS"
+, "إدارة البيانات"
+, "مراجعات تقنية"
+, "حلول الشبكات"
+, "الأجهزة"
+, "أمن البيانات"
+, "حلول التخزين"
+, "بنية تقنية المعلومات"</category><guid>https://ar.simeononsecurity.com/articles/synology-terramaster-qnap-nas-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن أنظمة NAS من Synology وTerraMaster وQNAP من حيث الميزات والأداء والبرامج وأمن البيانات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/nas_comparison_race.webp" length="88326" type="image/webp"/></item><item><title>ما هو المختبر المنزلي؟ دليل الإعداد لمحترفي تكنولوجيا المعلومات</title><link>https://ar.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"مختبر منزلي"
+, "محترفو تكنولوجيا المعلومات"
+, "الطلاب"
+, "الهواة"
+, "الشبكات"
+, "الافتراضية"
+, "الأتمتة"
+, "الأجهزة"
+, "البرمجيات"
+, "أفضل الممارسات"</category><guid>https://ar.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+افتح إمكانيات مختبرك المنزلي مع هذا الدليل الشامل، المصمم لمحترفي تكنولوجيا المعلومات والطلاب والهواة، ويغطي الإعداد والمكونات والمواضيع المتقدمة وأفضل الممارسات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp" length="167376" type="image/webp"/></item></channel></rss>

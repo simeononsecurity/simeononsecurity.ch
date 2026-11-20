@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>الشبكات on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>الشبكات on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/</link></image><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/</link><description>Recent content in الشبكات on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture: إعداد عملاء الذكاء الاصطناعي للاستدلال وMCP في 2026</title><link>https://ar.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي"
+, "أدوات المطورين"
+, "الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+مرّر طلبات النماذج وأدوات MCP عبر Tailscale Aperture. أعدّ Codex وClaude Code وClaude Desktop وOpenCode وHermes على جهاز أو بوابة أخرى.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>اختبر تسرب DNS وWebRTC في المتصفح مع VPN</title><link>https://ar.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"الخصوصية"
+, "المتصفحات"
+, "الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تحقق من عنوان IP العام ومحلل DNS وعناوين WebRTC في المتصفح قبل الاتصال بـVPN وبعده. افهم النتائج وابحث عن مشكلات التوجيه.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>خطط لتقسيم VLAN في مختبرك المنزلي واختبره</title><link>https://ar.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"المختبر المنزلي"
+, "أمن الشبكات"
+, "الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أنشئ خطة VLAN تفصل الأجهزة الموثوقة والخوادم وأجهزة IoT والضيوف في مختبرك المنزلي. سجّل حركة المرور المسموح بها، واضبط الشبكة على مراحل، واختبر العزل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Meshtastic مقابل MeshCore مقابل Reticulum</title><link>https://ar.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "شبكات Mesh"
+, "اتصالات خارج الشبكة"
+, "اتصالات الطوارئ"
+, "هواة الراديو"
+, "مفتوح المصدر"
+, "الاستعداد للكوارث"
+, "الشبكات اللاسلكية"
+, "الخصوصية"
+, "الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن Meshtastic وMeshCore وReticulum من حيث التوجيه ووقت البث والبنية التحتية ووسائط النقل واستخدامات الاتصال خارج الشبكة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>الحوسبة الطرفية القابلة للنشر ميدانيًا: اختيار الأجهزة والهيكل</title><link>https://ar.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"الحوسبة الطرفية"
+, "تقنية المعلومات الميدانية"
+, "الأجهزة"
+, "مختبر منزلي"
+, "الحوسبة المتينة"
+, "الشبكات"
+, "التعافي من الكوارث"
+, "تقنية معلومات الشركات الصغيرة"</category><guid>https://ar.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل لأجهزة الحوسبة الطرفية الميدانية واختيار هياكلها، ويغطي الحوسبة والرفوف والتبريد والتخزين والإدارة والكابلات وتوافق الطاقة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>الطاقة والقدرة على تحمل الظروف البيئية للأنظمة الميدانية</title><link>https://ar.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"الحوسبة الطرفية"
+, "تقنية المعلومات الميدانية"
+, "أنظمة الطاقة"
+, "الأجهزة"
+, "التعافي من الكوارث"
+, "الحواسيب المتينة"
+, "الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+خطط للطاقة والحماية البيئية لعُقد الحوسبة الطرفية الميدانية. اختر سعة UPS والبطاريات والألواح الشمسية، واضبط مزامنة الوقت وتصنيف حماية الغلاف والتأريض والحماية من زيادة الجهد.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>أفضل صُنّاع محتوى المختبرات المنزلية</title><link>https://ar.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الشبكات"
+, "مشروعات ذاتية"
+, "الافتراضية"
+, "المختبرات المنزلية"
+, "هواة التقنية"
+, "المجتمع"
+, "التعلّم"
+, "الابتكار"
+, "أدلة إرشادية"</category><guid>https://ar.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف إلى أبرز صُنّاع محتوى المختبرات المنزلية، وتواصل مع الهواة، وابدأ رحلتك التقنية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item><item><title>كيفية وضع نقاط الوصول لتحسين تغطية الشبكة اللاسلكية</title><link>https://ar.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الشبكات"
+, "الشبكات اللاسلكية"
+, "نقاط الوصول"
+, "تركيب Wi-Fi"
+, "تحسين الشبكات"
+, "الشبكات المنزلية"
+, "الاتصال اللاسلكي"
+, "إنترنت الأشياء"
+, "حلول الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف إلى أفضل ممارسات وضع نقاط الوصول لتحسين الاتصال اللاسلكي وتقليل التداخل وضمان أداء سلس لشبكتك.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp"/></item><item><title>دورة Network Plus: إتقان أدوات برمجيات الشبكة...</title><link>https://ar.simeononsecurity.com/network-plus/network-plus-course-network-software-tools-commands/</link><pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate><category>
+"الشبكات"
+, "أدوات الشبكة"
+, "أدوات سطر الأوامر"
+, "استكشاف أخطاء الشبكة"
+, "شهادة CompTIA Network+"
+, "إدارة الشبكة"
+, "تكوين الشبكة"
+, "تحليل الواي فاي"
+, "التقاط الحزم"
+, "اختبار عرض النطاق الترددي"</category><guid>https://ar.simeononsecurity.com/network-plus/network-plus-course-network-software-tools-commands/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+استكشف أدوات برمجيات الشبكة الأساسية وأدوات سطر الأوامر، تعلم كيفية استخدامها، وحل المشكلات كالمحترفين مع هذه الدورة الشاملة لشهادة Network+.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/An_engaging_cartoon-style_illustration_showing_a_network_professional.webp" length="147920" type="image/webp"/></item><item><title>أساسيات الشبكات: ما عنوان IP وما الفرق بين IPv4 وIPv6؟</title><link>https://ar.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><category>
+"الشبكات"
+, "عناوين IP"
+, "بروتوكولات الإنترنت"
+, "IPv4"
+, "IPv6"
+, "اتصالات الشبكة"
+, "الاتصال بالإنترنت"
+, "التقنية"
+, "البنية التحتية للشبكات"
+, "أمن الإنترنت"</category><guid>https://ar.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على عناوين IP والفرق بين IPv4 وIPv6 وأهميتهما وأسباب اعتماد IPv6.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon_image_of_two_devices_with_speech_bub.webp" length="90028" type="image/webp"/></item><item><title>أساسيات الشبكات: المحولات والموجهات وجدران الحماية وDMZ</title><link>https://ar.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"الشبكات"
+, "البنية التحتية لتقنية المعلومات"
+, "أمن الشبكات"
+, "هندسة الشبكات"
+, "الأمن السيبراني"
+, "اتصالات البيانات"
+, "تقنية المعلومات"
+, "أساسيات تقنية المعلومات"
+, "إدارة الشبكات"
+, "الاتصال بالإنترنت"</category><guid>https://ar.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على كيفية تقسيم المحولات والموجهات والبوابات والشبكات الفرعية وجدران الحماية وDMZ لحركة مرور الشبكة وفرض حدود الأمان.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item><item><title>دورة Network+: بروتوكول ARP وبروتوكول اكتشاف الجيران</title><link>https://ar.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الشبكات"
+, "البروتوكولات"
+, "شهادة Network+"
+, "استكشاف الأخطاء وإصلاحها"
+, "أمن الشبكات"
+, "IPv4"
+, "IPv6"
+, "الاتصال الشبكي"
+, "حل العناوين"</category><guid>https://ar.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعلم كيفية استخدام بروتوكول حل العناوين (ARP) وبروتوكول اكتشاف الجيران (NDP) بفعالية لتحويل عناوين IP إلى عناوين MAC، والتنقل في شبكات IPv6، وحل المشكلات الشائعة لتحسين أداء وأمان الشبكة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_the_seamless.webp" length="89092" type="image/webp"/></item><item><title>الاتصال الموجّه مقابل الاتصال غير الموجّه</title><link>https://ar.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الشبكات"
+, "الاتصالات"
+, "البروتوكولات"
+, "علوم الحاسوب"
+, "نقل البيانات"
+, "البنية التحتية للشبكات"
+, "الإنترنت"
+, "تقنية المعلومات"
+, "الاتصالات السلكية واللاسلكية"</category><guid>https://ar.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على الفروق بين الاتصال الموجّه والاتصال غير الموجّه، بما في ذلك البروتوكولات والخدمات وأساليب التوجيه في الشبكات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/An_illustration_showing_two_devices_connected.webp" length="39168" type="image/webp"/></item><item><title>ما هو المختبر المنزلي؟ دليل الإعداد لمحترفي تكنولوجيا المعلومات</title><link>https://ar.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"مختبر منزلي"
+, "محترفو تكنولوجيا المعلومات"
+, "الطلاب"
+, "الهواة"
+, "الشبكات"
+, "الافتراضية"
+, "الأتمتة"
+, "الأجهزة"
+, "البرمجيات"
+, "أفضل الممارسات"</category><guid>https://ar.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+افتح إمكانيات مختبرك المنزلي مع هذا الدليل الشامل، المصمم لمحترفي تكنولوجيا المعلومات والطلاب والهواة، ويغطي الإعداد والمكونات والمواضيع المتقدمة وأفضل الممارسات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp" length="167376" type="image/webp"/></item></channel></rss>
