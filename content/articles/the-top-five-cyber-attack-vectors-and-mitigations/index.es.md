@@ -1,10 +1,11 @@
 ---
 title: "Mitigación de los 5 principales vectores de ciberataque"
 date: 2023-03-06
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Aprenda a protegerse a sí mismo y a su empresa de los vectores de ciberataque más comunes, como la ingeniería social, el malware, los ataques de denegación de servicio, los ataques a contraseñas y los ataques a aplicaciones web."
-tags: ["ciberseguridad", "ciberataques", "ingeniería social", "malware", "denegación de servicio", "ataques con contraseña", "ataques a aplicaciones web", "concienciación sobre seguridad", "filtros de spam", "autenticación multifactor", "antivirus software", "cortafuegos", "botnets", "CDNs", "servicios anti-DDoS", "rendimiento de la red", "vulnerabilidades", "protección", "mitigación de riesgos", "seguridad de la información"]
+tags: ["ciberseguridad", "ciberataques", "ingeniería social", "malware", "denegación de servicio", "ataques con contraseña", "ataques a aplicaciones web", "concienciación sobre seguridad", "filtros de spam", "autenticación multifactor", "software antivirus", "cortafuegos", "redes de bots", "redes de distribución de contenido", "servicios anti-DDoS", "rendimiento de la red", "vulnerabilidades", "protección", "mitigación de riesgos", "seguridad de la información"]
 cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.webp"
 coverAlt: "Ilustración de dibujos animados de una persona que sostiene un escudo y está de pie frente a un ordenador con varios vectores de ataque que se dirigen hacia ella."
 coverCaption: ""
@@ -22,13 +23,13 @@ ______
 
 ## Ingeniería social
 
-**La ingeniería social** es un tipo de ciberataque que se basa en la interacción humana y la manipulación psicológica para engañar a las personas para que divulguen información confidencial o realicen determinadas acciones. Los ciberdelincuentes utilizan diversas tácticas, tales como [phishing emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) pretextos, cebos y quid pro quo, para ganarse la confianza de sus víctimas y obtener información confidencial.
+La **ingeniería social** se basa en la interacción humana y la manipulación psicológica para engañar a las personas y conseguir que revelen información confidencial o realicen ciertas acciones. Los ciberdelincuentes utilizan tácticas como los [correos de phishing](https://simeononsecurity.com/articles/how-to-identify-phishing/), los pretextos, los cebos y los intercambios de favores para ganarse la confianza de sus víctimas y obtener información confidencial.
 
 Para mitigar el riesgo de ataques de ingeniería social, los particulares y las organizaciones pueden adoptar las siguientes medidas:
 
-- Proporcionar [**security awareness training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) a los empleados para enseñarles a identificar y evitar los ataques de ingeniería social.
+- Ofrezca a los empleados [**formación de concienciación sobre seguridad**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) para que aprendan a reconocer y evitar ataques de ingeniería social.
 - Utilice **filtros de spam** y protocolos de autenticación de correo electrónico, como **SPF**, **DKIM** y **DMARC**, para detectar y bloquear los correos electrónicos de phishing.
-- Poner en práctica [**multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) para añadir una capa adicional de seguridad a las credenciales de inicio de sesión.
+- Implemente [**autenticación multifactor**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) para añadir protección a las credenciales de inicio de sesión.
 - Revise y actualice periódicamente las **políticas de seguridad** para hacer frente a las nuevas amenazas y vulnerabilidades.
 
 ______
@@ -39,7 +40,7 @@ ______
 
 Para mitigar el riesgo de ataques de malware, los particulares y las organizaciones pueden tomar las siguientes medidas:
 
-- Instalar y actualizar periódicamente [**antivirus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus) en todos los dispositivos.
+- Instalar y actualizar periódicamente [**software antivirus y antimalware**](https://simeononsecurity.com/recommendations/anti-virus) en todos los dispositivos.
 - Utilice **cortafuegos** para bloquear el acceso no autorizado a sistemas y redes informáticos.
 - Evite descargar programas o archivos de fuentes no fiables.
 - Realice **copias de seguridad** periódicas de los datos importantes para evitar su pérdida en caso de ataque de malware.
@@ -61,15 +62,14 @@ ______
 
 ## Ataques con contraseña
 
-**Los ataques a contraseñas** son un tipo de ciberataque cuyo objetivo es obtener acceso no autorizado a sistemas informáticos o redes mediante la suplantación o el robo de contraseñas.
-sistemas informáticos o redes adivinando, descifrando o robando contraseñas. Los ataques a las contraseñas pueden llevarse a cabo mediante diversos métodos, como los ataques de fuerza bruta, los ataques de diccionario y los ataques de suplantación de identidad.
+**Los ataques a contraseñas** buscan obtener acceso no autorizado a sistemas informáticos o redes mediante la adivinación, el descifrado o el robo de contraseñas. Entre los métodos están los ataques de fuerza bruta, los ataques de diccionario y el phishing.
 
 Para mitigar el riesgo de ataques con contraseña, los particulares y las organizaciones pueden tomar las siguientes medidas:
 
 - Utilice contraseñas seguras y únicas que contengan una combinación de letras, números y símbolos.
-- Implemente un [**password policy**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) que exija cambios periódicos de contraseña y prohíba el uso de contraseñas comunes o fáciles de adivinar.
-- Utilice [**password managers**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) que pueda generar y almacenar contraseñas complejas.
-- Poner en práctica [**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) para añadir una capa adicional de seguridad a las credenciales de inicio de sesión.
+- Implemente una [**política de contraseñas**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) que exija cambios periódicos y prohíba las contraseñas comunes o fáciles de adivinar.
+- Utilice [**gestores de contraseñas**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) para generar y guardar contraseñas complejas.
+- Poner en práctica [**autenticación de dos factores**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) para añadir una capa adicional de seguridad a las credenciales de inicio de sesión.
 
 ______
 
@@ -81,7 +81,7 @@ Para mitigar el riesgo de ataques a aplicaciones web, los particulares y las org
 
 - Utilizar **cortafuegos de aplicaciones web** para detectar y bloquear el tráfico malicioso.
 - Analizar periódicamente las aplicaciones web en busca de vulnerabilidades y aplicar rápidamente parches y actualizaciones.
-- Utilizar [**secure coding practices**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) para prevenir las vulnerabilidades más comunes de las aplicaciones web.
+- Siga [**prácticas de programación segura**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) para prevenir vulnerabilidades habituales de las aplicaciones web.
 - Implemente la **validación de entradas de usuario** para evitar la inyección SQL y otros ataques basados en entradas.
 
 ______
@@ -96,8 +96,8 @@ Manténgase a salvo y protegido.
 
 ## Referencias
 
-- [SPF DKIM and DMARC Explained With ISP Support](https://netcorecloud.com/tutorials/spf-dkim-dmarc/)
-- [What Is a Botnet?](https://www.paloaltonetworks.com/cyberpedia/what-is-botnet)
-- [What is Content Delivery Network (CDN)](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
-- [Anti-DDoS Protection](https://www.cloudflare.com/ddos/)
-- [OWASP Top Ten Project](https://owasp.org/Top10/)
+- [Explicación de SPF, DKIM y DMARC con apoyo de proveedores de Internet](https://netcorecloud.com/tutorials/spf-dkim-dmarc/)
+- [¿Qué es una botnet?](https://www.paloaltonetworks.com/cyberpedia/what-is-botnet)
+- [¿Qué es una red de distribución de contenido (CDN)?](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
+- [Protección contra DDoS](https://www.cloudflare.com/ddos/)
+- [Proyecto OWASP Top Ten](https://owasp.org/Top10/)

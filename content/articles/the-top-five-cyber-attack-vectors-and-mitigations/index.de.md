@@ -1,10 +1,11 @@
 ---
 title: "Entschärfung der 5 wichtigsten Vektoren für Cyberangriffe"
 date: 2023-03-06
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Lernen Sie, wie Sie sich und Ihr Unternehmen vor den häufigsten Cyberangriffen schützen können, darunter Social Engineering, Malware, Denial-of-Service-Angriffe, Passwortangriffe und Angriffe auf Webanwendungen."
-tags: ["Cybersicherheit", "Cyber-Angriffe", "Social Engineering", "Malware", "Denial-of-Service", "Passwort-Angriffe", "Angriffe auf Webanwendungen", "Sicherheitsbewusstsein", "Spam-Filter", "Multi-Faktor-Authentifizierung", "Antiviren-Software", "Firewalls", "Botnets", "CDNs", "Anti-DDoS-Dienste", "Netzleistung", "Schwachstellen", "Schutz", "Risikominderung", "Informationssicherheit"]
+tags: ["Cybersicherheit", "Cyber-Angriffe", "Social Engineering", "Malware", "Denial-of-Service", "Passwort-Angriffe", "Angriffe auf Webanwendungen", "Sicherheitsbewusstsein", "Spam-Filter", "Multi-Faktor-Authentifizierung", "Antiviren-Software", "Firewalls", "Botnets", "CDN-Netzwerke", "Anti-DDoS-Dienste", "Netzleistung", "Schwachstellen", "Schutz", "Risikominderung", "Informationssicherheit"]
 cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.webp"
 coverAlt: "Eine Cartoon-Illustration einer Person, die ein Schild hält und vor einem Computer steht, auf den verschiedene Angriffsvektoren zukommen."
 coverCaption: ""
@@ -22,13 +23,13 @@ ______
 
 ## Social Engineering
 
-**Social Engineering** ist eine Art von Cyberangriff, der auf menschlicher Interaktion und psychologischer Manipulation beruht, um Personen dazu zu bringen, vertrauliche Informationen preiszugeben oder bestimmte Aktionen auszuführen. Cyberkriminelle verwenden verschiedene Taktiken, wie z. B. [phishing emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) Vorwände, Köder und Gegenleistungen, um das Vertrauen ihrer Opfer zu gewinnen und vertrauliche Informationen zu erhalten.
+**Social Engineering** beruht auf menschlicher Interaktion und psychologischer Manipulation. Sie soll Personen dazu bringen, vertrauliche Informationen preiszugeben oder bestimmte Handlungen auszuführen. Cyberkriminelle nutzen Taktiken wie [Phishing-E-Mails](https://simeononsecurity.com/articles/how-to-identify-phishing/), Vorwände, Köder und Angebote im Austausch gegen Informationen, um das Vertrauen ihrer Opfer zu gewinnen und an vertrauliche Informationen zu gelangen.
 
 Um das Risiko von Social-Engineering-Angriffen zu verringern, können Einzelpersonen und Organisationen die folgenden Schritte unternehmen:
 
-- Bereitstellen [**security awareness training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) an die Mitarbeiter, um ihnen beizubringen, wie sie Social-Engineering-Angriffe erkennen und vermeiden können.
+- Bieten Sie den Mitarbeitern [**Schulungen zum Sicherheitsbewusstsein**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) an, damit sie Social-Engineering-Angriffe erkennen und vermeiden können.
 - Verwenden Sie **Spamfilter** und E-Mail-Authentifizierungsprotokolle wie **SPF**, **DKIM** und **DMARC**, um Phishing-E-Mails zu erkennen und zu blockieren.
-- Implementieren [**multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) um eine zusätzliche Sicherheitsebene für die Anmeldedaten zu schaffen.
+- Führen Sie [**Multi-Faktor-Authentifizierung**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) ein, um Anmeldedaten zusätzlich abzusichern.
 - Überprüfen und aktualisieren Sie regelmäßig **Sicherheitsrichtlinien**, um neuen Bedrohungen und Schwachstellen zu begegnen.
 
 ______
@@ -39,7 +40,7 @@ ______
 
 Um das Risiko von Malware-Angriffen zu verringern, können Einzelpersonen und Unternehmen die folgenden Schritte unternehmen:
 
-- Installieren und aktualisieren Sie regelmäßig [**antivirus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus) auf allen Geräten.
+- Installieren und aktualisieren Sie regelmäßig [**Antiviren- und Anti-Malware-Software**](https://simeononsecurity.com/recommendations/anti-virus) auf allen Geräten.
 - Verwenden Sie **Firewalls**, um unbefugten Zugang zu Computersystemen und Netzwerken zu blockieren.
 - Vermeiden Sie das Herunterladen von Software oder Dateien aus nicht vertrauenswürdigen Quellen.
 - Erstellen Sie regelmäßig **Sicherungskopien** wichtiger Daten, um einen Datenverlust im Falle eines Malware-Angriffs zu verhindern.
@@ -61,15 +62,14 @@ ______
 
 ## Passwort-Angriffe
 
-**Passwortangriffe** sind eine Art von Cyberangriff, der darauf abzielt, durch Erraten, Knacken oder Stehlen von Passwörtern unbefugten Zugang zu Computersystemen oder Netzwerken zu erhalten.
-Systemen oder Netzwerken zu erlangen, indem Passwörter erraten, geknackt oder gestohlen werden. Passwortangriffe können mit verschiedenen Methoden durchgeführt werden, z. B. Brute-Force-Angriffe, Wörterbuchangriffe und Phishing-Angriffe.
+**Passwortangriffe** zielen darauf ab, durch das Erraten, Knacken oder Stehlen von Passwörtern unbefugten Zugriff auf Computersysteme oder Netzwerke zu erhalten. Dazu gehören Brute-Force-Angriffe, Wörterbuchangriffe und Phishing-Angriffe.
 
 Um das Risiko von Kennwortangriffen zu verringern, können Einzelpersonen und Organisationen die folgenden Schritte unternehmen:
 
 - Verwenden Sie sichere und eindeutige Passwörter, die eine Kombination aus Buchstaben, Zahlen und Symbolen enthalten.
-- Implementieren Sie eine [**password policy**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) die eine regelmäßige Änderung der Passwörter erfordert und die Verwendung von gängigen oder leicht zu erratenden Passwörtern verbietet.
-- Verwendung [**password managers**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) die komplexe Kennwörter erzeugen und speichern können.
-- Implementieren [**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) um eine zusätzliche Sicherheitsebene für die Anmeldedaten zu schaffen.
+- Implementieren Sie eine [**Passwortrichtlinie**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/), die regelmäßige Änderungen verlangt und gängige oder leicht zu erratende Passwörter untersagt.
+- Verwenden Sie [**Passwortmanager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/), um komplexe Passwörter zu erstellen und sicher zu speichern.
+- Implementieren Sie die [**Zwei-Faktor-Authentifizierung**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/), um eine zusätzliche Sicherheitsebene für die Anmeldedaten zu schaffen.
 
 ______
 
@@ -81,7 +81,7 @@ Um das Risiko von Web-Anwendungsangriffen zu verringern, können Einzelpersonen 
 
 - Verwenden Sie **Web Application Firewalls**, um bösartigen Datenverkehr zu erkennen und zu blockieren.
 - Scannen Sie Webanwendungen regelmäßig auf Schwachstellen und implementieren Sie umgehend Patches und Updates.
-- Verwenden Sie [**secure coding practices**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) um häufige Schwachstellen in Webanwendungen zu verhindern.
+- Verwenden Sie [**sichere Programmierpraktiken**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/), um häufige Schwachstellen in Webanwendungen zu vermeiden.
 - Implementieren Sie **Benutzereingabevalidierung**, um SQL-Injection und andere eingabebasierte Angriffe zu verhindern.
 
 ______
@@ -96,8 +96,8 @@ Bleiben Sie sicher und geschützt!
 
 ## Referenzen
 
-- [SPF DKIM and DMARC Explained With ISP Support](https://netcorecloud.com/tutorials/spf-dkim-dmarc/)
-- [What Is a Botnet?](https://www.paloaltonetworks.com/cyberpedia/what-is-botnet)
-- [What is Content Delivery Network (CDN)](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
-- [Anti-DDoS Protection](https://www.cloudflare.com/ddos/)
-- [OWASP Top Ten Project](https://owasp.org/Top10/)
+- [Erklärung von SPF, DKIM und DMARC mit Unterstützung von Internetanbietern](https://netcorecloud.com/tutorials/spf-dkim-dmarc/)
+- [Was ist ein Botnetz?](https://www.paloaltonetworks.com/cyberpedia/what-is-botnet)
+- [Was ist ein Content Delivery Network (CDN)?](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
+- [Anti-DDoS-Schutz](https://www.cloudflare.com/ddos/)
+- [OWASP-Top-Ten-Projekt](https://owasp.org/Top10/)

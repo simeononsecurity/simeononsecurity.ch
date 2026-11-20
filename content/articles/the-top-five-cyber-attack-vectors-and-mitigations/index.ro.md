@@ -1,10 +1,11 @@
 ---
 title: "Atenuarea celor mai importanți 5 vectori de atac cibernetic"
 date: 2023-03-06
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Aflați cum să vă protejați pe dumneavoastră și afacerea dumneavoastră de cei mai comuni vectori de atac cibernetic, inclusiv ingineria socială, malware, atacurile de refuz de serviciu, atacurile cu parole și atacurile aplicațiilor web."
-tags: ["securitate cibernetică", "atacuri cibernetice", "inginerie socială", "malware", "negare de serviciu", "atacuri cu parole", "atacuri la aplicațiile web", "conștientizarea securității", "filtre de spam", "autentificarea cu mai mulți factori", "software antivirus", "firewall-uri", "botnets", "CDN-uri", "servicii anti-DDoS", "performanța rețelei", "vulnerabilități", "protecție", "atenuarea riscurilor", "securitatea informațiilor"]
+tags: ["securitate cibernetică", "atacuri cibernetice", "inginerie socială", "malware", "negare de serviciu", "atacuri cu parole", "atacuri la aplicațiile web", "conștientizarea securității", "filtre de spam", "autentificarea cu mai mulți factori", "software antivirus", "firewall-uri", "rețele de roboți", "CDN-uri", "servicii anti-DDoS", "performanța rețelei", "vulnerabilități", "protecție", "atenuarea riscurilor", "securitatea informațiilor"]
 cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.webp"
 coverAlt: "O ilustrație de desen animat a unei persoane care ține un scut și care stă în fața unui computer cu diverși vectori de atac care vin spre ea."
 coverCaption: ""
@@ -22,13 +23,13 @@ ______
 
 ## Inginerie socială
 
-**Inginerie socială** este un tip de atac cibernetic care se bazează pe interacțiunea umană și pe manipularea psihologică pentru a păcăli persoanele să divulge informații sensibile sau să efectueze anumite acțiuni. Infractorii cibernetici utilizează diverse tactici, cum ar fi [phishing emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) pretextul, momeala și quid pro quo, pentru a câștiga încrederea victimelor lor și a obține informații confidențiale.
+**Ingineria socială** folosește interacțiunea umană și manipularea psihologică pentru a determina oamenii să divulge informații sensibile sau să întreprindă anumite acțiuni. Infractorii cibernetici folosesc tactici precum [mesajele de phishing](https://simeononsecurity.com/articles/how-to-identify-phishing/), pretextele, momelile și ofertele la schimb pentru a câștiga încrederea victimelor și a obține informații confidențiale.
 
 Pentru a reduce riscul atacurilor de inginerie socială, persoanele și organizațiile pot lua următoarele măsuri:
 
-- Furnizați [**security awareness training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) angajaților pentru a-i învăța cum să identifice și să evite atacurile de inginerie socială.
+- Oferiți angajaților [**instruire privind conștientizarea securității**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) pentru a-i învăța să identifice și să evite atacurile de inginerie socială.
 - Utilizați **filtrele de spam** și protocoalele de autentificare a e-mailurilor, cum ar fi **SPF**, **DKIM** și **DMARC**, pentru a detecta și bloca e-mailurile de phishing.
-- Implementați [**multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pentru a adăuga un nivel suplimentar de securitate la acreditările de conectare.
+- Implementați [**autentificarea cu mai mulți factori**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pentru a proteja suplimentar datele de conectare.
 - Revizuiți și actualizați în mod regulat **politicile de securitate** pentru a aborda noile amenințări și vulnerabilități.
 
 ______
@@ -39,7 +40,7 @@ ______
 
 Pentru a reduce riscul de atacuri malware, persoanele și organizațiile pot lua următoarele măsuri:
 
-- Instalați și actualizați în mod regulat [**antivirus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus) pe toate dispozitivele.
+- Instalați și actualizați în mod regulat [**software antivirus și anti-malware**](https://simeononsecurity.com/recommendations/anti-virus) pe toate dispozitivele.
 - Utilizați **firewall-uri** pentru a bloca accesul neautorizat la sistemele și rețelele de calculatoare.
 - Evitați să descărcați software sau fișiere din surse nesigure.
 - Efectuați în mod regulat **back-up** de date importante pentru a preveni pierderea datelor în cazul unui atac malware.
@@ -61,15 +62,14 @@ ______
 
 ## Atacuri cu parole
 
-**Atacurile cu parole** sunt un tip de atac cibernetic care are ca scop obținerea accesului neautorizat la un computer.
-sisteme sau rețele prin ghicirea, spargerea sau furtul parolelor. Atacurile cu parole pot fi efectuate prin diverse metode, cum ar fi atacurile prin forță brută, atacurile de dicționar și atacurile de phishing.
+**Atacurile asupra parolelor** urmăresc să obțină acces neautorizat la sisteme sau rețele informatice prin ghicirea, spargerea ori furtul parolelor. Metodele includ atacuri prin forță brută, atacuri de dicționar și phishing.
 
 Pentru a reduce riscul atacurilor cu parole, persoanele și organizațiile pot lua următoarele măsuri:
 
 - Folosiți parole puternice și unice, care să conțină o combinație de litere, numere și simboluri.
-- Implementați o [**password policy**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) care impune schimbarea regulată a parolelor și interzice utilizarea de parole comune sau ușor de ghicit.
-- Utilizați [**password managers**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) care poate genera și stoca parole complexe.
-- Implementarea [**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pentru a adăuga un nivel suplimentar de securitate la acreditările de conectare.
+- Stabiliți o [**politică privind parolele**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) care impune schimbări regulate și interzice parolele comune sau ușor de ghicit.
+- Folosiți [**manageri de parole**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) pentru a genera și păstra parole complexe.
+- Implementați [**autentificarea cu doi factori**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pentru a adăuga un nivel suplimentar de securitate acreditărilor de conectare.
 
 ______
 
@@ -81,7 +81,7 @@ Pentru a reduce riscul de atacuri asupra aplicațiilor web, persoanele și organ
 
 - Folosiți **firewall-uri pentru aplicații web** pentru a detecta și bloca traficul malițios.
 - Scanați în mod regulat aplicațiile web pentru a detecta vulnerabilitățile și implementați cu promptitudine patch-uri și actualizări.
-- Utilizați [**secure coding practices**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) pentru a preveni vulnerabilitățile comune ale aplicațiilor web.
+- Urmați [**practici de programare securizată**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) pentru a preveni vulnerabilitățile comune ale aplicațiilor web.
 - Implementați **validarea intrărilor utilizatorilor** pentru a preveni injectarea SQL și alte atacuri bazate pe intrări.
 
 ______
@@ -96,8 +96,8 @@ Rămâneți în siguranță și în securitate!
 
 ## Referințe
 
-- [SPF DKIM and DMARC Explained With ISP Support](https://netcorecloud.com/tutorials/spf-dkim-dmarc/)
-- [What Is a Botnet?](https://www.paloaltonetworks.com/cyberpedia/what-is-botnet)
-- [What is Content Delivery Network (CDN)](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
-- [Anti-DDoS Protection](https://www.cloudflare.com/ddos/)
-- [OWASP Top Ten Project](https://owasp.org/Top10/)
+- [Explicații despre SPF, DKIM și DMARC și asistența furnizorilor de internet](https://netcorecloud.com/tutorials/spf-dkim-dmarc/)
+- [Ce este o rețea botnet?](https://www.paloaltonetworks.com/cyberpedia/what-is-botnet)
+- [Ce este o rețea de distribuire a conținutului (CDN)?](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
+- [Protecție împotriva atacurilor DDoS](https://www.cloudflare.com/ddos/)
+- [Proiectul OWASP Top Ten](https://owasp.org/Top10/)
