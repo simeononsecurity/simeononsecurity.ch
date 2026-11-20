@@ -1,7 +1,7 @@
 ---
 title: "Enforteix la xarxa de casa"
 date: 2023-09-12
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Descobreix els components de maquinari essencials per protegir la xarxa de casa davant les ciberamenaces, com ara tallafocs, punts d'accés i eines de supervisió."
@@ -22,17 +22,17 @@ coverCaption: "Protecció completa per a la xarxa"
 
 Un **tallafocs de maquinari** actua com a barrera entre la xarxa local i l'exterior. Examina el trànsit entrant i sortint per detectar possibles amenaces. Aquestes opcions recomanades poden reforçar la seguretat:
 
-1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): aquest dispositiu versàtil, disponible a [Amazon](https://amzn.to/3DHBJrY), és adequat per executar plataformes de seguretat avançades com [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) o [OpenWrt](https://openwrt.org/). Els seus diversos ports permeten segmentar la xarxa amb eficàcia. {{< figure src="protectli.webp" alt="Protectli Vault 4 Port" link="https://amzn.to/3DHBJrY" >}}
+1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): aquest dispositiu versàtil, disponible a [Amazon](https://amzn.to/3DHBJrY), és adequat per executar plataformes de seguretat avançades com [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) o [OpenWrt](https://openwrt.org/). Els seus diversos ports permeten segmentar la xarxa amb eficàcia. {{< figure src="protectli.webp" alt="Dispositiu Protectli Vault de 4 ports" link="https://amzn.to/3DHBJrY" >}}
 
 2. [**Firewalla: tallafoc de ciberseguretat**](https://amzn.to/3DG4WmU): Firewalla ofereix una interfície senzilla, supervisió en temps real i protecció davant ciberamenaces. Es troba a [Amazon](https://amzn.to/3DG4WmU) i serveix tant a principiants com a usuaris avançats. {{< figure src="Firewalla.webp" alt="Firewalla: tallafoc de ciberseguretat" link="https://amzn.to/3DG4WmU" >}}
 
-3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): aquest tallafocs robust, disponible a [Amazon](https://amzn.to/3OGmFkr), ofereix funcions de seguretat de nivell empresarial per a la xarxa de casa. Les seves capacitats de detecció d'amenaces afegeixen una capa de protecció. {{< figure src="Fortinet.webp" alt="FORTINET FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
+3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): aquest tallafocs robust, disponible a [Amazon](https://amzn.to/3OGmFkr), ofereix funcions de seguretat de nivell empresarial per a la xarxa de casa. Les seves capacitats de detecció d'amenaces afegeixen una capa de protecció. {{< figure src="Fortinet.webp" alt="Tallafoc Fortinet FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
 
 ### Punts d'accés: ampliar la connectivitat segura
 
 Els **punts d'accés** fiables són essencials per tenir una connexió estable a tota la xarxa domèstica. Per ampliar la cobertura i millorar la seguretat, considera aquesta opció:
 
-- [**NETGEAR Nighthawk, sistema Wi-Fi mesh per a tota la casa (MK62)**](https://amzn.to/3qizl7R): aquest sistema Wi-Fi mesh, disponible a [Amazon](https://amzn.to/3qizl7R), ofereix connectivitat d'alta velocitat i funcions de seguretat avançades. Està pensat per reduir les zones sense cobertura i crear un entorn Wi-Fi segur. {{< figure src="NETGEAR.webp" alt="NETGEAR Nighthawk, sistema Wi-Fi mesh per a tota la casa" link="https://amzn.to/3qizl7R" >}}
+- [**NETGEAR Nighthawk, sistema mesh domèstic Wi-Fi 6 (MK62)**](https://amzn.to/3qizl7R): aquest sistema Wi-Fi mesh, disponible a [Amazon](https://amzn.to/3qizl7R), ofereix connectivitat d'alta velocitat i funcions de seguretat avançades. Està pensat per reduir les zones sense cobertura i crear un entorn Wi-Fi segur. {{< figure src="NETGEAR.webp" alt="NETGEAR Nighthawk, sistema mesh domèstic Wi-Fi 6" link="https://amzn.to/3qizl7R" >}}
 
 Per veure altres punts d'accés i comparacions detallades, consulta articles com ara:
 - [El millor sistema WiFi mesh per a consumidors](https://simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/)

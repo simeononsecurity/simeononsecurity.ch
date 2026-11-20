@@ -1,7 +1,7 @@
 ---
 title: "Защитите домашнюю сеть"
 date: 2023-09-12
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Узнайте, какое оборудование поможет защитить домашнюю сеть от киберугроз. В статье рассматриваются аппаратные межсетевые экраны, точки доступа и средства мониторинга."
@@ -22,11 +22,11 @@ coverCaption: "Комплексная защита вашей сети"
 
 **Аппаратный межсетевой экран** служит барьером между локальной сетью и внешним миром. Он анализирует входящий и исходящий трафик, чтобы выявлять возможные угрозы. Рассмотрите следующие варианты:
 
-1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): это универсальное устройство продаётся на [Amazon](https://amzn.to/3DHBJrY) и подходит для запуска продвинутых платформ безопасности, например [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) или [OpenWrt](https://openwrt.org/). Несколько портов позволяют эффективно сегментировать сеть. {{< figure src="protectli.webp" alt="Protectli Vault 4 Port" link="https://amzn.to/3DHBJrY" >}}
+1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): это универсальное устройство продаётся на [Amazon](https://amzn.to/3DHBJrY) и подходит для запуска продвинутых платформ безопасности, например [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) или [OpenWrt](https://openwrt.org/). Несколько портов позволяют эффективно сегментировать сеть. {{< figure src="protectli.webp" alt="Устройство Protectli Vault с 4 портами" link="https://amzn.to/3DHBJrY" >}}
 
 2. [**Firewalla: межсетевой экран для киберзащиты**](https://amzn.to/3DG4WmU): Firewalla предлагает понятный интерфейс, мониторинг в реальном времени и защиту от киберугроз. Устройство доступно на [Amazon](https://amzn.to/3DG4WmU) и подходит как новичкам, так и опытным пользователям. {{< figure src="Firewalla.webp" alt="Firewalla: межсетевой экран для киберзащиты" link="https://amzn.to/3DG4WmU" >}}
 
-3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): этот надёжный межсетевой экран, доступный на [Amazon](https://amzn.to/3OGmFkr), предлагает домашней сети функции безопасности корпоративного уровня. Расширенные возможности обнаружения угроз добавляют ещё один уровень защиты. {{< figure src="Fortinet.webp" alt="FORTINET FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
+3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): этот надёжный межсетевой экран, доступный на [Amazon](https://amzn.to/3OGmFkr), предлагает домашней сети функции безопасности корпоративного уровня. Расширенные возможности обнаружения угроз добавляют ещё один уровень защиты. {{< figure src="Fortinet.webp" alt="Межсетевой экран Fortinet FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
 
 ### Точки доступа: расширьте безопасное подключение
 

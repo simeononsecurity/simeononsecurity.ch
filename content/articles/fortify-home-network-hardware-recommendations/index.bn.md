@@ -1,7 +1,7 @@
 ---
 title: "আপনার বাড়ির নেটওয়ার্ক সুরক্ষিত করুন"
 date: 2023-09-12
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "সাইবার হুমকি থেকে বাড়ির নেটওয়ার্ক রক্ষার জন্য প্রয়োজনীয় হার্ডওয়্যার সম্পর্কে জানুন। হার্ডওয়্যার ফায়ারওয়াল, অ্যাক্সেস পয়েন্ট এবং মনিটরিং টুলের ব্যবহার দেখুন।"
@@ -22,11 +22,11 @@ coverCaption: "আপনার নেটওয়ার্কের পূর্
 
 একটি **হার্ডওয়্যার ফায়ারওয়াল** স্থানীয় নেটওয়ার্ক ও বাইরের জগতের মধ্যে বাধা তৈরি করে এবং সম্ভাব্য হুমকির জন্য আসা-যাওয়া করা ট্র্যাফিক পরীক্ষা করে। নিরাপত্তা বাড়াতে এই বিকল্পগুলো বিবেচনা করুন:
 
-1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): [Amazon](https://amzn.to/3DHBJrY)-এ পাওয়া বহুমুখী ডিভাইসটি [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) বা [OpenWrt](https://openwrt.org/)-এর মতো উন্নত নিরাপত্তা প্ল্যাটফর্ম চালাতে উপযোগী। একাধিক পোর্ট নেটওয়ার্ককে কার্যকরভাবে ভাগ করতে সাহায্য করে। {{< figure src="protectli.webp" alt="Protectli Vault 4 Port" link="https://amzn.to/3DHBJrY" >}}
+1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): [Amazon](https://amzn.to/3DHBJrY)-এ পাওয়া বহুমুখী ডিভাইসটি [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) বা [OpenWrt](https://openwrt.org/)-এর মতো উন্নত নিরাপত্তা প্ল্যাটফর্ম চালাতে উপযোগী। একাধিক পোর্ট নেটওয়ার্ককে কার্যকরভাবে ভাগ করতে সাহায্য করে। {{< figure src="protectli.webp" alt="৪-পোর্টের Protectli Vault ডিভাইস" link="https://amzn.to/3DHBJrY" >}}
 
 2. [**Firewalla: সাইবার নিরাপত্তার ফায়ারওয়াল**](https://amzn.to/3DG4WmU): সহজ ইন্টারফেসের পাশাপাশি Firewalla রিয়েল-টাইম মনিটরিং এবং সাইবার হুমকি থেকে সুরক্ষা দেয়। এটি [Amazon](https://amzn.to/3DG4WmU)-এ পাওয়া যায় এবং নতুন ও অভিজ্ঞ উভয় ব্যবহারকারীর জন্য উপযোগী। {{< figure src="Firewalla.webp" alt="Firewalla: সাইবার নিরাপত্তার ফায়ারওয়াল" link="https://amzn.to/3DG4WmU" >}}
 
-3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): [Amazon](https://amzn.to/3OGmFkr)-এ পাওয়া এই শক্তিশালী ফায়ারওয়াল বাড়ির নেটওয়ার্কে এন্টারপ্রাইজ-স্তরের নিরাপত্তা ফিচার দেয়। এর বিস্তৃত হুমকি শনাক্তকরণ ব্যবস্থা নেটওয়ার্ককে আরও সুরক্ষিত রাখতে সহায়তা করে। {{< figure src="Fortinet.webp" alt="FORTINET FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
+3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): [Amazon](https://amzn.to/3OGmFkr)-এ পাওয়া এই শক্তিশালী ফায়ারওয়াল বাড়ির নেটওয়ার্কে এন্টারপ্রাইজ-স্তরের নিরাপত্তা ফিচার দেয়। এর বিস্তৃত হুমকি শনাক্তকরণ ব্যবস্থা নেটওয়ার্ককে আরও সুরক্ষিত রাখতে সহায়তা করে। {{< figure src="Fortinet.webp" alt="Fortinet FortiGate-60E ফায়ারওয়াল" link="https://amzn.to/3OGmFkr" >}}
 
 ### অ্যাক্সেস পয়েন্ট: নিরাপদ সংযোগের বিস্তার
 

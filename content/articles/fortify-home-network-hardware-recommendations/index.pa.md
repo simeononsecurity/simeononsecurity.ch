@@ -1,7 +1,7 @@
 ---
 title: "ਆਪਣੇ ਘਰੇਲੂ ਨੈੱਟਵਰਕ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ"
 date: 2023-09-12
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "ਸਾਈਬਰ ਖਤਰਿਆਂ ਤੋਂ ਘਰੇਲੂ ਨੈੱਟਵਰਕ ਦੀ ਰੱਖਿਆ ਲਈ ਲੋੜੀਂਦੇ ਹਾਰਡਵੇਅਰ ਬਾਰੇ ਜਾਣੋ। ਹਾਰਡਵੇਅਰ ਫਾਇਰਵਾਲ, ਐਕਸੈੱਸ ਪੁਆਇੰਟ ਅਤੇ ਨਿਗਰਾਨੀ ਸੰਦ ਵੇਖੋ।"
@@ -22,11 +22,11 @@ coverCaption: "ਤੁਹਾਡੇ ਨੈੱਟਵਰਕ ਲਈ ਪੂਰੀ ਸ�
 
 **ਹਾਰਡਵੇਅਰ ਫਾਇਰਵਾਲ** ਤੁਹਾਡੇ ਸਥਾਨਕ ਨੈੱਟਵਰਕ ਅਤੇ ਬਾਹਰੀ ਦੁਨੀਆ ਵਿਚਕਾਰ ਰੋਕ ਬਣਾਉਂਦਾ ਹੈ। ਇਹ ਸੰਭਾਵੀ ਖਤਰਿਆਂ ਲਈ ਆਉਂਦੇ ਅਤੇ ਜਾਂਦੇ ਟ੍ਰੈਫਿਕ ਦੀ ਜਾਂਚ ਕਰਦਾ ਹੈ। ਸੁਰੱਖਿਆ ਵਧਾਉਣ ਲਈ ਇਹ ਵਿਕਲਪ ਵੇਖੋ:
 
-1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): [Amazon](https://amzn.to/3DHBJrY) ਉੱਤੇ ਉਪਲਬਧ ਇਹ ਬਹੁਪੱਖੀ ਡਿਵਾਈਸ [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) ਜਾਂ [OpenWrt](https://openwrt.org/) ਵਰਗੇ ਉੱਨਤ ਸੁਰੱਖਿਆ ਪਲੇਟਫਾਰਮ ਚਲਾ ਸਕਦਾ ਹੈ। ਇਸਦੇ ਕਈ ਪੋਰਟ ਨੈੱਟਵਰਕ ਨੂੰ ਵੱਖ-ਵੱਖ ਹਿੱਸਿਆਂ ਵਿੱਚ ਵੰਡਣ ਵਿੱਚ ਮਦਦ ਕਰਦੇ ਹਨ। {{< figure src="protectli.webp" alt="Protectli Vault 4 Port" link="https://amzn.to/3DHBJrY" >}}
+1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): [Amazon](https://amzn.to/3DHBJrY) ਉੱਤੇ ਉਪਲਬਧ ਇਹ ਬਹੁਪੱਖੀ ਡਿਵਾਈਸ [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) ਜਾਂ [OpenWrt](https://openwrt.org/) ਵਰਗੇ ਉੱਨਤ ਸੁਰੱਖਿਆ ਪਲੇਟਫਾਰਮ ਚਲਾ ਸਕਦਾ ਹੈ। ਇਸਦੇ ਕਈ ਪੋਰਟ ਨੈੱਟਵਰਕ ਨੂੰ ਵੱਖ-ਵੱਖ ਹਿੱਸਿਆਂ ਵਿੱਚ ਵੰਡਣ ਵਿੱਚ ਮਦਦ ਕਰਦੇ ਹਨ। {{< figure src="protectli.webp" alt="4-ਪੋਰਟ ਵਾਲਾ Protectli Vault ਜੰਤਰ" link="https://amzn.to/3DHBJrY" >}}
 
 2. [**Firewalla: ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਫਾਇਰਵਾਲ**](https://amzn.to/3DG4WmU): Firewalla ਵਰਤੋਂ ਵਿੱਚ ਆਸਾਨ ਇੰਟਰਫੇਸ, ਤੁਰੰਤ ਨਿਗਰਾਨੀ ਅਤੇ ਸਾਈਬਰ ਖਤਰਿਆਂ ਤੋਂ ਰੱਖਿਆ ਦਿੰਦਾ ਹੈ। ਇਹ [Amazon](https://amzn.to/3DG4WmU) ਉੱਤੇ ਉਪਲਬਧ ਹੈ ਅਤੇ ਨਵੇਂ ਤੇ ਤਜਰਬੇਕਾਰ ਦੋਹਾਂ ਲਈ ਢੁੱਕਵਾਂ ਹੈ। {{< figure src="Firewalla.webp" alt="Firewalla: ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਫਾਇਰਵਾਲ" link="https://amzn.to/3DG4WmU" >}}
 
-3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): [Amazon](https://amzn.to/3OGmFkr) ਉੱਤੇ ਮਿਲਦਾ ਇਹ ਮਜ਼ਬੂਤ ਫਾਇਰਵਾਲ ਘਰੇਲੂ ਨੈੱਟਵਰਕ ਲਈ ਉਦਯੋਗ-ਪੱਧਰ ਦੀਆਂ ਸੁਰੱਖਿਆ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਿੰਦਾ ਹੈ। ਇਸਦੀ ਵਿਆਪਕ ਖਤਰਾ-ਪਛਾਣ ਸੁਰੱਖਿਆ ਦੀ ਇੱਕ ਹੋਰ ਪਰਤ ਜੋੜਦੀ ਹੈ। {{< figure src="Fortinet.webp" alt="FORTINET FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
+3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): [Amazon](https://amzn.to/3OGmFkr) ਉੱਤੇ ਮਿਲਦਾ ਇਹ ਮਜ਼ਬੂਤ ਫਾਇਰਵਾਲ ਘਰੇਲੂ ਨੈੱਟਵਰਕ ਲਈ ਉਦਯੋਗ-ਪੱਧਰ ਦੀਆਂ ਸੁਰੱਖਿਆ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਿੰਦਾ ਹੈ। ਇਸਦੀ ਵਿਆਪਕ ਖਤਰਾ-ਪਛਾਣ ਸੁਰੱਖਿਆ ਦੀ ਇੱਕ ਹੋਰ ਪਰਤ ਜੋੜਦੀ ਹੈ। {{< figure src="Fortinet.webp" alt="Fortinet FortiGate-60E ਫਾਇਰਵਾਲ" link="https://amzn.to/3OGmFkr" >}}
 
 ### ਐਕਸੈੱਸ ਪੁਆਇੰਟ: ਸੁਰੱਖਿਅਤ ਕਨੈਕਸ਼ਨ ਦਾ ਘੇਰਾ ਵਧਾਓ
 

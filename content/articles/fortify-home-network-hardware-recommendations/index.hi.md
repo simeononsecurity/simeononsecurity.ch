@@ -1,7 +1,7 @@
 ---
 title: "अपने घरेलू नेटवर्क को सुरक्षित बनाएं"
 date: 2023-09-12
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "साइबर खतरों से घरेलू नेटवर्क बचाने के लिए जरूरी हार्डवेयर जानें। हार्डवेयर फ़ायरवॉल, एक्सेस पॉइंट और निगरानी टूल के बारे में पढ़ें।"
@@ -22,11 +22,11 @@ coverCaption: "आपके नेटवर्क के लिए व्या�
 
 **हार्डवेयर फ़ायरवॉल** स्थानीय नेटवर्क और बाहरी दुनिया के बीच अवरोध बनाता है। यह संभावित खतरों के लिए आने-जाने वाले ट्रैफ़िक की जांच करता है। नेटवर्क सुरक्षा मजबूत करने के लिए इन विकल्पों पर विचार करें:
 
-1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): [Amazon](https://amzn.to/3DHBJrY) पर उपलब्ध यह बहुउपयोगी डिवाइस [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) या [OpenWrt](https://openwrt.org/) जैसे उन्नत सुरक्षा प्लेटफ़ॉर्म चला सकता है। इसके कई पोर्ट नेटवर्क को अलग-अलग हिस्सों में बांटने में मदद करते हैं। {{< figure src="protectli.webp" alt="Protectli Vault 4 Port" link="https://amzn.to/3DHBJrY" >}}
+1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): [Amazon](https://amzn.to/3DHBJrY) पर उपलब्ध यह बहुउपयोगी डिवाइस [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) या [OpenWrt](https://openwrt.org/) जैसे उन्नत सुरक्षा प्लेटफ़ॉर्म चला सकता है। इसके कई पोर्ट नेटवर्क को अलग-अलग हिस्सों में बांटने में मदद करते हैं। {{< figure src="protectli.webp" alt="4-पोर्ट वाला Protectli Vault उपकरण" link="https://amzn.to/3DHBJrY" >}}
 
 2. [**Firewalla: साइबर सुरक्षा फ़ायरवॉल**](https://amzn.to/3DG4WmU): Firewalla आसान इंटरफ़ेस, रियल-टाइम निगरानी और साइबर खतरों से सुरक्षा देता है। यह [Amazon](https://amzn.to/3DG4WmU) पर उपलब्ध है और नए तथा अनुभवी, दोनों तरह के उपयोगकर्ताओं के लिए उपयुक्त है। {{< figure src="Firewalla.webp" alt="Firewalla: साइबर सुरक्षा फ़ायरवॉल" link="https://amzn.to/3DG4WmU" >}}
 
-3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): [Amazon](https://amzn.to/3OGmFkr) पर उपलब्ध यह मजबूत फ़ायरवॉल घरेलू नेटवर्क के लिए एंटरप्राइज़-स्तर की सुरक्षा सुविधाएं देता है। इसकी व्यापक खतरा पहचान अतिरिक्त सुरक्षा देती है। {{< figure src="Fortinet.webp" alt="FORTINET FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
+3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): [Amazon](https://amzn.to/3OGmFkr) पर उपलब्ध यह मजबूत फ़ायरवॉल घरेलू नेटवर्क के लिए एंटरप्राइज़-स्तर की सुरक्षा सुविधाएं देता है। इसकी व्यापक खतरा पहचान अतिरिक्त सुरक्षा देती है। {{< figure src="Fortinet.webp" alt="Fortinet FortiGate-60E फ़ायरवॉल" link="https://amzn.to/3OGmFkr" >}}
 
 ### एक्सेस पॉइंट: सुरक्षित कनेक्शन का विस्तार
 

@@ -1,7 +1,7 @@
 ---
 title: "Protejează-ți rețeaua de acasă"
 date: 2023-09-12
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Află ce echipamente îți protejează rețeaua de acasă de amenințările cibernetice. Articolul prezintă firewalluri hardware, puncte de acces și instrumente de monitorizare."
@@ -22,17 +22,17 @@ coverCaption: "Protecție completă pentru rețeaua ta"
 
 Un **firewall hardware** creează o barieră între rețeaua locală și exterior, examinând traficul de intrare și de ieșire pentru a identifica posibile amenințări. Iată câteva opțiuni care pot îmbunătăți securitatea:
 
-1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): acest dispozitiv versatil, disponibil pe [Amazon](https://amzn.to/3DHBJrY), este potrivit pentru platforme de securitate avansate precum [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) și [OpenWrt](https://openwrt.org/). Porturile multiple permit segmentarea eficientă a rețelei. {{< figure src="protectli.webp" alt="Protectli Vault 4 Port" link="https://amzn.to/3DHBJrY" >}}
+1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): acest dispozitiv versatil, disponibil pe [Amazon](https://amzn.to/3DHBJrY), este potrivit pentru platforme de securitate avansate precum [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) și [OpenWrt](https://openwrt.org/). Porturile multiple permit segmentarea eficientă a rețelei. {{< figure src="protectli.webp" alt="Dispozitiv Protectli Vault cu 4 porturi" link="https://amzn.to/3DHBJrY" >}}
 
 2. [**Firewalla: firewall pentru securitate cibernetică**](https://amzn.to/3DG4WmU): Firewalla oferă o interfață ușor de folosit, monitorizare în timp real și protecție contra amenințărilor cibernetice. Produsul este disponibil pe [Amazon](https://amzn.to/3DG4WmU) și se potrivește atât începătorilor, cât și utilizatorilor avansați. {{< figure src="Firewalla.webp" alt="Firewalla: firewall pentru securitate cibernetică" link="https://amzn.to/3DG4WmU" >}}
 
-3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): acest firewall robust, disponibil pe [Amazon](https://amzn.to/3OGmFkr), aduce funcții de securitate la nivel de întreprindere în rețeaua de acasă. Detectarea amplă a amenințărilor oferă protecție suplimentară. {{< figure src="Fortinet.webp" alt="FORTINET FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
+3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): acest firewall robust, disponibil pe [Amazon](https://amzn.to/3OGmFkr), aduce funcții de securitate la nivel de întreprindere în rețeaua de acasă. Detectarea amplă a amenințărilor oferă protecție suplimentară. {{< figure src="Fortinet.webp" alt="Firewall Fortinet FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
 
 ### Puncte de acces: extinderea conectivității sigure
 
 Punctele de acces **fiabile** sunt esențiale pentru o conexiune stabilă în toată locuința. Pentru acoperire și securitate mai bune, ia în considerare această opțiune:
 
-- [**NETGEAR Nighthawk, sistem Wi-Fi mesh pentru întreaga locuință (MK62)**](https://amzn.to/3qizl7R): disponibil pe [Amazon](https://amzn.to/3qizl7R), acest sistem Wi-Fi mesh oferă conexiuni rapide și funcții avansate de securitate. Este conceput să reducă zonele fără semnal și să asigure un mediu Wi-Fi protejat. {{< figure src="NETGEAR.webp" alt="NETGEAR Nighthawk, sistem Wi-Fi mesh pentru întreaga locuință" link="https://amzn.to/3qizl7R" >}}
+- [**NETGEAR Nighthawk, sistem mesh pentru locuință compatibil cu Wi-Fi 6 (MK62)**](https://amzn.to/3qizl7R): disponibil pe [Amazon](https://amzn.to/3qizl7R), acest sistem Wi-Fi mesh oferă conexiuni rapide și funcții avansate de securitate. Este conceput să reducă zonele fără semnal și să asigure un mediu Wi-Fi protejat. {{< figure src="NETGEAR.webp" alt="NETGEAR Nighthawk, sistem mesh pentru locuință compatibil cu Wi-Fi 6" link="https://amzn.to/3qizl7R" >}}
 
 Pentru alte opțiuni de puncte de acces și comparații detaliate, consultă articole precum:
 - [Cel mai bun sistem WiFi mesh pentru consumatori](https://simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/)

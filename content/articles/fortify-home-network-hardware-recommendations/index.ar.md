@@ -1,7 +1,7 @@
 ---
 title: "عزّز أمان شبكتك المنزلية"
 date: 2023-09-12
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "تعرّف إلى مكوّنات الأجهزة الأساسية لحماية شبكتك المنزلية من التهديدات السيبرانية، بما في ذلك جدران الحماية ونقاط الوصول وأدوات المراقبة."
@@ -22,17 +22,17 @@ coverCaption: "حماية شاملة لشبكتك"
 
 **جدار حماية الأجهزة** مكوّن مهم يفصل شبكتك المحلية عن العالم الخارجي، ويفحص حركة البيانات الواردة والصادرة بحثاً عن تهديدات محتملة. فيما يلي خيارات موصى بها لتعزيز أمان شبكتك:
 
-1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): هذا الجهاز متعدد الاستخدامات، والمتاح على [Amazon](https://amzn.to/3DHBJrY)، مناسب لتشغيل منصات أمان متقدمة مثل [pfSense](https://www.pfsense.org/) و[OPNsense](https://opnsense.org/) و[OpenWrt](https://openwrt.org/). وتتيح منافذه المتعددة تقسيم الشبكة بفاعلية، ما يعزز الأمان العام. {{< figure src="protectli.webp" alt="Protectli Vault 4 Port" link="https://amzn.to/3DHBJrY" >}}
+1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): هذا الجهاز متعدد الاستخدامات، والمتاح على [Amazon](https://amzn.to/3DHBJrY)، مناسب لتشغيل منصات أمان متقدمة مثل [pfSense](https://www.pfsense.org/) و[OPNsense](https://opnsense.org/) و[OpenWrt](https://openwrt.org/). وتتيح منافذه المتعددة تقسيم الشبكة بفاعلية، ما يعزز الأمان العام. {{< figure src="protectli.webp" alt="جهاز Protectli Vault ذي 4 منافذ" link="https://amzn.to/3DHBJrY" >}}
 
 2. [**Firewalla: جدار حماية للأمن السيبراني**](https://amzn.to/3DG4WmU): توفر Firewalla واجهة سهلة الاستخدام ومراقبة آنية وحماية من التهديدات السيبرانية. يتوفر الجهاز على [Amazon](https://amzn.to/3DG4WmU)، ويناسب المبتدئين والمستخدمين المتقدمين. {{< figure src="Firewalla.webp" alt="Firewalla: جدار حماية للأمن السيبراني" link="https://amzn.to/3DG4WmU" >}}
 
-3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): يقدم هذا الجدار المتين، المتاح على [Amazon](https://amzn.to/3OGmFkr)، ميزات أمان بمستوى المؤسسات للشبكة المنزلية. وتساعد قدراته الشاملة على اكتشاف التهديدات في توفير حماية إضافية. {{< figure src="Fortinet.webp" alt="FORTINET FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
+3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): يقدم هذا الجدار المتين، المتاح على [Amazon](https://amzn.to/3OGmFkr)، ميزات أمان بمستوى المؤسسات للشبكة المنزلية. وتساعد قدراته الشاملة على اكتشاف التهديدات في توفير حماية إضافية. {{< figure src="Fortinet.webp" alt="جدار حماية Fortinet FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
 
 ### نقاط الوصول: توسيع الاتصال الآمن
 
 تُعد **نقاط الوصول** الآمنة والموثوقة ضرورية لاتصال مستقر في أنحاء الشبكة المنزلية. ولتوسيع التغطية وتعزيز الأمان، فكّر في الخيار التالي:
 
-- [**NETGEAR Nighthawk: نظام Wi-Fi متداخل للمنزل بالكامل (MK62)**](https://amzn.to/3qizl7R): يتوفر نظام الشبكة المتداخلة هذا على [Amazon](https://amzn.to/3qizl7R). وهو يوفر اتصالاً سريعاً وميزات أمان متقدمة، ويهدف إلى تقليل مناطق انقطاع الإشارة وتوفير بيئة Wi-Fi آمنة. {{< figure src="NETGEAR.webp" alt="NETGEAR Nighthawk: نظام Wi-Fi متداخل للمنزل بالكامل" link="https://amzn.to/3qizl7R" >}}
+- [**NETGEAR Nighthawk: نظام شبكي منزلي بمعيار Wi-Fi 6 (MK62)**](https://amzn.to/3qizl7R): يتوفر نظام الشبكة المتداخلة هذا على [Amazon](https://amzn.to/3qizl7R). وهو يوفر اتصالاً سريعاً وميزات أمان متقدمة، ويهدف إلى تقليل مناطق انقطاع الإشارة وتوفير بيئة Wi-Fi آمنة. {{< figure src="NETGEAR.webp" alt="NETGEAR Nighthawk: نظام شبكي منزلي بمعيار Wi-Fi 6" link="https://amzn.to/3qizl7R" >}}
 
 لخيارات إضافية لنقاط الوصول ومقارنات مفصلة، راجع مقالات مثل:
 - [أفضل نظام Wi-Fi متداخل للمستهلكين](https://simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/)

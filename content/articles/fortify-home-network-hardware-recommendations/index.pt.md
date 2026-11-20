@@ -1,7 +1,7 @@
 ---
 title: "Reforce a segurança da sua rede doméstica"
 date: 2023-09-12
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Conheça os equipamentos essenciais para proteger sua rede doméstica contra ameaças cibernéticas, incluindo firewalls de hardware, pontos de acesso e ferramentas de monitoramento."
@@ -22,17 +22,17 @@ coverCaption: "Proteção completa para sua rede"
 
 Um **firewall de hardware** cria uma barreira entre sua rede local e o mundo externo. Ele inspeciona o tráfego de entrada e saída em busca de possíveis ameaças. Estas opções ajudam a reforçar a segurança:
 
-1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): este dispositivo versátil, disponível na [Amazon](https://amzn.to/3DHBJrY), é adequado para plataformas de segurança avançadas como [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) e [OpenWrt](https://openwrt.org/). As várias portas permitem segmentar a rede com eficiência. {{< figure src="protectli.webp" alt="Protectli Vault 4 Port" link="https://amzn.to/3DHBJrY" >}}
+1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): este dispositivo versátil, disponível na [Amazon](https://amzn.to/3DHBJrY), é adequado para plataformas de segurança avançadas como [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) e [OpenWrt](https://openwrt.org/). As várias portas permitem segmentar a rede com eficiência. {{< figure src="protectli.webp" alt="Dispositivo Protectli Vault de 4 portas" link="https://amzn.to/3DHBJrY" >}}
 
 2. [**Firewalla: firewall de cibersegurança**](https://amzn.to/3DG4WmU): a Firewalla oferece uma interface simples, monitoramento em tempo real e proteção contra ameaças cibernéticas. O dispositivo está disponível na [Amazon](https://amzn.to/3DG4WmU) e atende tanto iniciantes quanto usuários avançados. {{< figure src="Firewalla.webp" alt="Firewalla: firewall de cibersegurança" link="https://amzn.to/3DG4WmU" >}}
 
-3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): este firewall robusto, disponível na [Amazon](https://amzn.to/3OGmFkr), oferece recursos de segurança empresarial para sua rede doméstica. A detecção abrangente de ameaças acrescenta uma camada de proteção. {{< figure src="Fortinet.webp" alt="FORTINET FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
+3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): este firewall robusto, disponível na [Amazon](https://amzn.to/3OGmFkr), oferece recursos de segurança empresarial para sua rede doméstica. A detecção abrangente de ameaças acrescenta uma camada de proteção. {{< figure src="Fortinet.webp" alt="Firewall Fortinet FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
 
 ### Pontos de acesso: amplie a conectividade segura
 
 **Pontos de acesso** confiáveis são essenciais para manter uma conexão estável em toda a casa. Para ampliar a cobertura e melhorar a segurança, considere esta opção:
 
-- [**NETGEAR Nighthawk, sistema Wi-Fi mesh para toda a casa (MK62)**](https://amzn.to/3qizl7R): disponível na [Amazon](https://amzn.to/3qizl7R), este sistema Wi-Fi mesh oferece conectividade de alta velocidade e recursos avançados de segurança. Ele foi projetado para reduzir áreas sem sinal e criar um ambiente Wi-Fi seguro. {{< figure src="NETGEAR.webp" alt="NETGEAR Nighthawk, sistema Wi-Fi mesh para toda a casa" link="https://amzn.to/3qizl7R" >}}
+- [**NETGEAR Nighthawk, sistema mesh doméstico Wi-Fi 6 (MK62)**](https://amzn.to/3qizl7R): disponível na [Amazon](https://amzn.to/3qizl7R), este sistema Wi-Fi mesh oferece conectividade de alta velocidade e recursos avançados de segurança. Ele foi projetado para reduzir áreas sem sinal e criar um ambiente Wi-Fi seguro. {{< figure src="NETGEAR.webp" alt="NETGEAR Nighthawk, sistema mesh doméstico Wi-Fi 6" link="https://amzn.to/3qizl7R" >}}
 
 Para conhecer outros pontos de acesso e comparações detalhadas, consulte artigos como:
 - [O melhor sistema WiFi mesh para consumidores](https://simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/)

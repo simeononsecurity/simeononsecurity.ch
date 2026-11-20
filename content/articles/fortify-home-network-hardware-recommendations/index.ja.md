@@ -1,7 +1,7 @@
 ---
 title: "自宅ネットワークを強化する"
 date: 2023-09-12
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "サイバー脅威から自宅ネットワークを守るためのハードウェアを紹介します。ハードウェアファイアウォール、アクセスポイント、監視ツールを確認しましょう。"
@@ -22,11 +22,11 @@ coverCaption: "ネットワークを総合的に保護"
 
 **ハードウェアファイアウォール**は、ローカルネットワークと外部の間に障壁を設け、送受信トラフィックを調べて脅威の可能性を検出します。セキュリティ強化に役立つ製品は次のとおりです。
 
-1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY)：[Amazon](https://amzn.to/3DHBJrY)で販売されている多用途の機器です。[pfSense](https://www.pfsense.org/)、[OPNsense](https://opnsense.org/)、[OpenWrt](https://openwrt.org/)などの高度なセキュリティプラットフォームを実行できます。複数のポートでネットワークを効果的に分割できます。{{< figure src="protectli.webp" alt="Protectli Vault 4 Port" link="https://amzn.to/3DHBJrY" >}}
+1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY)：[Amazon](https://amzn.to/3DHBJrY)で販売されている多用途の機器です。[pfSense](https://www.pfsense.org/)、[OPNsense](https://opnsense.org/)、[OpenWrt](https://openwrt.org/)などの高度なセキュリティプラットフォームを実行できます。複数のポートでネットワークを効果的に分割できます。{{< figure src="protectli.webp" alt="4ポートのProtectli Vault機器" link="https://amzn.to/3DHBJrY" >}}
 
 2. [**Firewalla：サイバーセキュリティファイアウォール**](https://amzn.to/3DG4WmU)：使いやすい画面に加え、リアルタイム監視とサイバー脅威への保護を提供します。[Amazon](https://amzn.to/3DG4WmU)で入手でき、初心者から上級者まで利用できます。{{< figure src="Firewalla.webp" alt="Firewalla：サイバーセキュリティファイアウォール" link="https://amzn.to/3DG4WmU" >}}
 
-3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr)：[Amazon](https://amzn.to/3OGmFkr)で入手できる堅牢なファイアウォールです。家庭用ネットワークに企業向けのセキュリティ機能を提供し、幅広い脅威検出機能で保護を補います。{{< figure src="Fortinet.webp" alt="FORTINET FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
+3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr)：[Amazon](https://amzn.to/3OGmFkr)で入手できる堅牢なファイアウォールです。家庭用ネットワークに企業向けのセキュリティ機能を提供し、幅広い脅威検出機能で保護を補います。{{< figure src="Fortinet.webp" alt="Fortinet FortiGate-60Eファイアウォール" link="https://amzn.to/3OGmFkr" >}}
 
 ### アクセスポイント：安全な接続範囲を広げる
 

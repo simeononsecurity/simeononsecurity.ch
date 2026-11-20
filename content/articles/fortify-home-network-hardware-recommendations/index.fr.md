@@ -1,7 +1,7 @@
 ---
 title: "Renforcez la sécurité de votre réseau domestique"
 date: 2023-09-12
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Découvrez les équipements essentiels pour protéger votre réseau domestique contre les cybermenaces, notamment les pare-feu matériels, les points d'accès et les outils de surveillance."
@@ -22,17 +22,17 @@ coverCaption: "Une protection complète pour votre réseau"
 
 Un **pare-feu matériel** forme une barrière entre votre réseau local et l'extérieur. Il analyse le trafic entrant et sortant afin de repérer les menaces potentielles. Voici des options recommandées pour renforcer la sécurité :
 
-1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY) : cet appareil polyvalent, vendu sur [Amazon](https://amzn.to/3DHBJrY), convient aux plateformes de sécurité avancées telles que [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) et [OpenWrt](https://openwrt.org/). Ses ports multiples facilitent la segmentation du réseau. {{< figure src="protectli.webp" alt="Protectli Vault 4 Port" link="https://amzn.to/3DHBJrY" >}}
+1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY) : cet appareil polyvalent, vendu sur [Amazon](https://amzn.to/3DHBJrY), convient aux plateformes de sécurité avancées telles que [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) et [OpenWrt](https://openwrt.org/). Ses ports multiples facilitent la segmentation du réseau. {{< figure src="protectli.webp" alt="Boîtier Protectli Vault à 4 ports" link="https://amzn.to/3DHBJrY" >}}
 
 2. [**Firewalla : pare-feu de cybersécurité**](https://amzn.to/3DG4WmU) : Firewalla associe une interface facile à utiliser, une surveillance en temps réel et une protection contre les cybermenaces. L'appareil est disponible sur [Amazon](https://amzn.to/3DG4WmU) et convient aux débutants comme aux utilisateurs expérimentés. {{< figure src="Firewalla.webp" alt="Firewalla : pare-feu de cybersécurité" link="https://amzn.to/3DG4WmU" >}}
 
-3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr) : ce pare-feu robuste, disponible sur [Amazon](https://amzn.to/3OGmFkr), apporte à un réseau domestique des fonctions de sécurité de niveau entreprise. Sa détection étendue des menaces ajoute une protection supplémentaire. {{< figure src="Fortinet.webp" alt="FORTINET FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
+3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr) : ce pare-feu robuste, disponible sur [Amazon](https://amzn.to/3OGmFkr), apporte à un réseau domestique des fonctions de sécurité de niveau entreprise. Sa détection étendue des menaces ajoute une protection supplémentaire. {{< figure src="Fortinet.webp" alt="Pare-feu Fortinet FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
 
 ### Bornes d'accès : étendre une connectivité sécurisée
 
 Des **points d'accès** fiables sont essentiels pour assurer une connexion stable dans toute la maison. Pour étendre la couverture et améliorer la sécurité, envisagez cette option :
 
-- [**NETGEAR Nighthawk, système Wi-Fi maillé pour toute la maison (MK62)**](https://amzn.to/3qizl7R) : ce système Wi-Fi maillé, disponible sur [Amazon](https://amzn.to/3qizl7R), fournit une connexion rapide et des fonctions de sécurité avancées. Il vise à réduire les zones sans couverture et à créer un environnement Wi-Fi sécurisé. {{< figure src="NETGEAR.webp" alt="NETGEAR Nighthawk, système Wi-Fi maillé pour toute la maison" link="https://amzn.to/3qizl7R" >}}
+- [**NETGEAR Nighthawk, système mesh pour toute la maison compatible Wi-Fi 6 (MK62)**](https://amzn.to/3qizl7R) : ce système Wi-Fi maillé, disponible sur [Amazon](https://amzn.to/3qizl7R), fournit une connexion rapide et des fonctions de sécurité avancées. Il vise à réduire les zones sans couverture et à créer un environnement Wi-Fi sécurisé. {{< figure src="NETGEAR.webp" alt="NETGEAR Nighthawk, système mesh pour toute la maison compatible Wi-Fi 6" link="https://amzn.to/3qizl7R" >}}
 
 Pour découvrir d'autres points d'accès et des comparatifs détaillés, consultez par exemple :
 - [Le meilleur système WiFi maillé pour les particuliers](https://simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/)

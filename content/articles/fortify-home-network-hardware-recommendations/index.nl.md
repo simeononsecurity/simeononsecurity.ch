@@ -1,7 +1,7 @@
 ---
 title: "Beveilig je thuisnetwerk beter"
 date: 2023-09-12
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Lees welke hardware je thuisnetwerk tegen cyberdreigingen beschermt. Dit artikel behandelt hardwarefirewalls, accesspoints en bewakingstools."
@@ -22,17 +22,17 @@ coverCaption: "Volledige bescherming voor je netwerk"
 
 Een **hardwarefirewall** vormt een barrière tussen je lokale netwerk en de buitenwereld. De firewall controleert inkomend en uitgaand verkeer op mogelijke dreigingen. Deze aanbevolen opties helpen je netwerkbeveiliging te versterken:
 
-1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): dit veelzijdige apparaat is verkrijgbaar bij [Amazon](https://amzn.to/3DHBJrY) en geschikt voor geavanceerde beveiligingsplatforms zoals [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) en [OpenWrt](https://openwrt.org/). De meerdere poorten maken effectieve netwerksegmentatie mogelijk. {{< figure src="protectli.webp" alt="Protectli Vault 4 Port" link="https://amzn.to/3DHBJrY" >}}
+1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): dit veelzijdige apparaat is verkrijgbaar bij [Amazon](https://amzn.to/3DHBJrY) en geschikt voor geavanceerde beveiligingsplatforms zoals [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) en [OpenWrt](https://openwrt.org/). De meerdere poorten maken effectieve netwerksegmentatie mogelijk. {{< figure src="protectli.webp" alt="Protectli Vault-apparaat met 4 poorten" link="https://amzn.to/3DHBJrY" >}}
 
 2. [**Firewalla: firewall voor cyberbeveiliging**](https://amzn.to/3DG4WmU): Firewalla biedt een gebruiksvriendelijke interface, realtimebewaking en bescherming tegen cyberdreigingen. Het apparaat is verkrijgbaar bij [Amazon](https://amzn.to/3DG4WmU) en is geschikt voor beginners en ervaren gebruikers. {{< figure src="Firewalla.webp" alt="Firewalla: firewall voor cyberbeveiliging" link="https://amzn.to/3DG4WmU" >}}
 
-3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): deze robuuste firewall is verkrijgbaar bij [Amazon](https://amzn.to/3OGmFkr) en biedt beveiligingsfuncties op bedrijfsniveau voor je thuisnetwerk. De uitgebreide detectie van dreigingen voegt extra bescherming toe. {{< figure src="Fortinet.webp" alt="FORTINET FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
+3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): deze robuuste firewall is verkrijgbaar bij [Amazon](https://amzn.to/3OGmFkr) en biedt beveiligingsfuncties op bedrijfsniveau voor je thuisnetwerk. De uitgebreide detectie van dreigingen voegt extra bescherming toe. {{< figure src="Fortinet.webp" alt="Fortinet FortiGate-60E-firewall" link="https://amzn.to/3OGmFkr" >}}
 
 ### Accesspoints: breid veilige connectiviteit uit
 
 Betrouwbare **accesspoints** zorgen overal in huis voor een stabiele verbinding. Overweeg deze optie voor meer bereik en beveiliging:
 
-- [**NETGEAR Nighthawk mesh-Wi-Fi-systeem voor het hele huis (MK62)**](https://amzn.to/3qizl7R): dit mesh-Wi-Fi-systeem is verkrijgbaar bij [Amazon](https://amzn.to/3qizl7R) en combineert snelle connectiviteit met geavanceerde beveiligingsfuncties. Het is ontworpen om plekken zonder bereik te beperken en een veilige Wi-Fi-omgeving te bieden. {{< figure src="NETGEAR.webp" alt="NETGEAR Nighthawk mesh-Wi-Fi-systeem voor het hele huis" link="https://amzn.to/3qizl7R" >}}
+- [**NETGEAR Nighthawk mesh-systeem voor het hele huis met Wi-Fi 6 (MK62)**](https://amzn.to/3qizl7R): dit mesh-Wi-Fi-systeem is verkrijgbaar bij [Amazon](https://amzn.to/3qizl7R) en combineert snelle connectiviteit met geavanceerde beveiligingsfuncties. Het is ontworpen om plekken zonder bereik te beperken en een veilige Wi-Fi-omgeving te bieden. {{< figure src="NETGEAR.webp" alt="NETGEAR Nighthawk mesh-systeem voor het hele huis met Wi-Fi 6" link="https://amzn.to/3qizl7R" >}}
 
 Bekijk deze artikelen voor meer accesspointopties en uitgebreide vergelijkingen:
 - [Het beste WiFi-meshsysteem voor consumenten](https://simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/)

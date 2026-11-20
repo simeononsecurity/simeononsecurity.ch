@@ -1,7 +1,7 @@
 ---
 title: "Zabezpiecz swoją sieć domową"
 date: 2023-09-12
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Poznaj sprzęt potrzebny do ochrony domowej sieci przed cyberzagrożeniami. Artykuł omawia sprzętowe zapory, punkty dostępowe i narzędzia monitorujące."
@@ -22,17 +22,17 @@ coverCaption: "Kompleksowa ochrona sieci"
 
 **Sprzętowa zapora** tworzy barierę między siecią lokalną a światem zewnętrznym. Analizuje ruch przychodzący i wychodzący, aby wykrywać potencjalne zagrożenia. Oto polecane urządzenia, które mogą poprawić bezpieczeństwo:
 
-1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): to wszechstronne urządzenie dostępne w serwisie [Amazon](https://amzn.to/3DHBJrY) nadaje się do zaawansowanych platform bezpieczeństwa, takich jak [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) i [OpenWrt](https://openwrt.org/). Wiele portów ułatwia segmentację sieci. {{< figure src="protectli.webp" alt="Protectli Vault 4 Port" link="https://amzn.to/3DHBJrY" >}}
+1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): to wszechstronne urządzenie dostępne w serwisie [Amazon](https://amzn.to/3DHBJrY) nadaje się do zaawansowanych platform bezpieczeństwa, takich jak [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) i [OpenWrt](https://openwrt.org/). Wiele portów ułatwia segmentację sieci. {{< figure src="protectli.webp" alt="Urządzenie Protectli Vault z 4 portami" link="https://amzn.to/3DHBJrY" >}}
 
 2. [**Firewalla: zapora do ochrony przed cyberzagrożeniami**](https://amzn.to/3DG4WmU): Firewalla oferuje prosty interfejs, monitorowanie w czasie rzeczywistym i ochronę przed cyberzagrożeniami. Urządzenie jest dostępne w serwisie [Amazon](https://amzn.to/3DG4WmU) i sprawdzi się zarówno u początkujących, jak i zaawansowanych użytkowników. {{< figure src="Firewalla.webp" alt="Firewalla: zapora chroniąca przed cyberzagrożeniami" link="https://amzn.to/3DG4WmU" >}}
 
-3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): ta solidna zapora, dostępna w serwisie [Amazon](https://amzn.to/3OGmFkr), zapewnia sieci domowej funkcje bezpieczeństwa klasy korporacyjnej. Rozbudowane wykrywanie zagrożeń stanowi dodatkową warstwę ochrony. {{< figure src="Fortinet.webp" alt="FORTINET FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
+3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): ta solidna zapora, dostępna w serwisie [Amazon](https://amzn.to/3OGmFkr), zapewnia sieci domowej funkcje bezpieczeństwa klasy korporacyjnej. Rozbudowane wykrywanie zagrożeń stanowi dodatkową warstwę ochrony. {{< figure src="Fortinet.webp" alt="Zapora Fortinet FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
 
 ### Punkty dostępowe: rozszerz bezpieczną łączność
 
 Niezawodne **punkty dostępowe** zapewniają stabilne połączenie w całym domu. Aby zwiększyć zasięg i poprawić bezpieczeństwo, rozważ tę opcję:
 
-- [**NETGEAR Nighthawk, domowy system Wi-Fi mesh 6 (MK62)**](https://amzn.to/3qizl7R): ten system Wi-Fi mesh, dostępny w serwisie [Amazon](https://amzn.to/3qizl7R), zapewnia szybkie połączenie i zaawansowane funkcje bezpieczeństwa. Ma ograniczać obszary bez zasięgu i zapewniać bezpieczne środowisko Wi-Fi. {{< figure src="NETGEAR.webp" alt="NETGEAR Nighthawk, domowy system Wi-Fi mesh 6" link="https://amzn.to/3qizl7R" >}}
+- [**NETGEAR Nighthawk, domowy system mesh w standardzie Wi-Fi 6 (MK62)**](https://amzn.to/3qizl7R): ten system Wi-Fi mesh, dostępny w serwisie [Amazon](https://amzn.to/3qizl7R), zapewnia szybkie połączenie i zaawansowane funkcje bezpieczeństwa. Ma ograniczać obszary bez zasięgu i zapewniać bezpieczne środowisko Wi-Fi. {{< figure src="NETGEAR.webp" alt="NETGEAR Nighthawk, domowy system mesh w standardzie Wi-Fi 6" link="https://amzn.to/3qizl7R" >}}
 
 Więcej punktów dostępowych i szczegółowe porównania znajdziesz w artykułach:
 - [Najlepszy system WiFi mesh dla użytkowników domowych](https://simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/)

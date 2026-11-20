@@ -1,7 +1,7 @@
 ---
 title: "强化家庭网络安全"
 date: 2023-09-12
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "了解保护家庭网络免受网络威胁所需的硬件，包括硬件防火墙、接入点和监控工具。"
@@ -22,11 +22,11 @@ coverCaption: "全面保护您的网络"
 
 **硬件防火墙**在本地网络与外部网络之间建立屏障，并检查进出流量以发现潜在威胁。以下设备有助于加强网络安全：
 
-1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY)：这款多用途设备可在[Amazon](https://amzn.to/3DHBJrY)购买，适合运行[pfSense](https://www.pfsense.org/)、[OPNsense](https://opnsense.org/)或[OpenWrt](https://openwrt.org/)等高级安全平台。多个端口便于有效划分网络。{{< figure src="protectli.webp" alt="Protectli Vault 4 Port" link="https://amzn.to/3DHBJrY" >}}
+1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY)：这款多用途设备可在[Amazon](https://amzn.to/3DHBJrY)购买，适合运行[pfSense](https://www.pfsense.org/)、[OPNsense](https://opnsense.org/)或[OpenWrt](https://openwrt.org/)等高级安全平台。多个端口便于有效划分网络。{{< figure src="protectli.webp" alt="4端口 Protectli Vault 设备" link="https://amzn.to/3DHBJrY" >}}
 
 2. [**Firewalla：网络安全防火墙**](https://amzn.to/3DG4WmU)：Firewalla 提供易用的界面、实时监控以及针对网络威胁的保护。该设备可在[Amazon](https://amzn.to/3DG4WmU)购买，适合初学者和进阶用户。{{< figure src="Firewalla.webp" alt="Firewalla：网络安全防火墙" link="https://amzn.to/3DG4WmU" >}}
 
-3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr)：这款强固型防火墙可在[Amazon](https://amzn.to/3OGmFkr)购买，为家庭网络提供企业级安全功能。其全面的威胁检测能力可增加一道防护。{{< figure src="Fortinet.webp" alt="FORTINET FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
+3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr)：这款强固型防火墙可在[Amazon](https://amzn.to/3OGmFkr)购买，为家庭网络提供企业级安全功能。其全面的威胁检测能力可增加一道防护。{{< figure src="Fortinet.webp" alt="Fortinet FortiGate-60E 防火墙" link="https://amzn.to/3OGmFkr" >}}
 
 ### 接入点：扩展安全连接
 

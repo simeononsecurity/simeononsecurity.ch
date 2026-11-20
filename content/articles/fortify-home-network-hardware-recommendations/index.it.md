@@ -1,7 +1,7 @@
 ---
 title: "Rafforza la sicurezza della rete domestica"
 date: 2023-09-12
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Scopri i componenti hardware essenziali per proteggere la rete domestica dalle minacce informatiche, inclusi firewall, punti di accesso e strumenti di monitoraggio."
@@ -22,17 +22,17 @@ coverCaption: "Protezione completa per la tua rete"
 
 Un **firewall hardware** crea una barriera tra la rete locale e il mondo esterno. Esamina il traffico in entrata e in uscita per individuare potenziali minacce. Ecco alcuni dispositivi consigliati:
 
-1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): questo dispositivo versatile, disponibile su [Amazon](https://amzn.to/3DHBJrY), è adatto a piattaforme di sicurezza avanzate come [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) e [OpenWrt](https://openwrt.org/). Le numerose porte consentono di segmentare la rete in modo efficace. {{< figure src="protectli.webp" alt="Protectli Vault 4 Port" link="https://amzn.to/3DHBJrY" >}}
+1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): questo dispositivo versatile, disponibile su [Amazon](https://amzn.to/3DHBJrY), è adatto a piattaforme di sicurezza avanzate come [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/) e [OpenWrt](https://openwrt.org/). Le numerose porte consentono di segmentare la rete in modo efficace. {{< figure src="protectli.webp" alt="Dispositivo Protectli Vault a 4 porte" link="https://amzn.to/3DHBJrY" >}}
 
 2. [**Firewalla: firewall per la sicurezza informatica**](https://amzn.to/3DG4WmU): Firewalla offre un'interfaccia semplice, monitoraggio in tempo reale e protezione dalle minacce informatiche. È disponibile su [Amazon](https://amzn.to/3DG4WmU) ed è adatto sia ai principianti sia agli utenti esperti. {{< figure src="Firewalla.webp" alt="Firewalla: firewall per la sicurezza informatica" link="https://amzn.to/3DG4WmU" >}}
 
-3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): questo firewall robusto, disponibile su [Amazon](https://amzn.to/3OGmFkr), offre funzionalità di sicurezza di livello aziendale per la rete domestica. Le sue capacità di rilevamento delle minacce aggiungono un ulteriore livello di protezione. {{< figure src="Fortinet.webp" alt="FORTINET FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
+3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): questo firewall robusto, disponibile su [Amazon](https://amzn.to/3OGmFkr), offre funzionalità di sicurezza di livello aziendale per la rete domestica. Le sue capacità di rilevamento delle minacce aggiungono un ulteriore livello di protezione. {{< figure src="Fortinet.webp" alt="Firewall Fortinet FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
 
 ### Punti di accesso: estendere la connettività sicura
 
 I **punti di accesso** affidabili sono essenziali per mantenere una connessione stabile in tutta la casa. Per ampliare la copertura e migliorare la sicurezza, considera questa soluzione:
 
-- [**NETGEAR Nighthawk, sistema Wi-Fi mesh per tutta la casa (MK62)**](https://amzn.to/3qizl7R): questo sistema Wi-Fi mesh, disponibile su [Amazon](https://amzn.to/3qizl7R), offre connettività ad alta velocità e funzionalità di sicurezza avanzate. È progettato per ridurre le zone senza copertura e creare un ambiente Wi-Fi sicuro. {{< figure src="NETGEAR.webp" alt="NETGEAR Nighthawk, sistema Wi-Fi mesh per tutta la casa" link="https://amzn.to/3qizl7R" >}}
+- [**NETGEAR Nighthawk, sistema mesh domestico compatibile con Wi-Fi 6 (MK62)**](https://amzn.to/3qizl7R): questo sistema Wi-Fi mesh, disponibile su [Amazon](https://amzn.to/3qizl7R), offre connettività ad alta velocità e funzionalità di sicurezza avanzate. È progettato per ridurre le zone senza copertura e creare un ambiente Wi-Fi sicuro. {{< figure src="NETGEAR.webp" alt="NETGEAR Nighthawk, sistema mesh domestico compatibile con Wi-Fi 6" link="https://amzn.to/3qizl7R" >}}
 
 Per altre opzioni di punti di accesso e confronti dettagliati, consulta articoli come:
 - [Il miglior sistema WiFi mesh per i consumatori](https://simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/)
