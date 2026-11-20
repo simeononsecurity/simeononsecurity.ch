@@ -1,7 +1,7 @@
 ---
 title: "As 5 principais certificações de cibersegurança para progredir na carreira"
 date: 2023-03-20
-lastmod: 2026-11-11
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Compare cinco certificações de cibersegurança por experiência, função, temas do exame e valor profissional."
@@ -44,4 +44,3 @@ Escolha uma certificação alinhada com os seus objetivos e interesses profissio
 As certificações deste artigo são apenas algumas das muitas opções disponíveis. Pesquise e escolha a certificação adequada para alcançar os seus objetivos profissionais e demonstrar os seus conhecimentos e competências a potenciais empregadores. Para mais recomendações, consulte a nossa [**página de recomendações de certificações**](https://simeononsecurity.com/recommendations/certifications/).
 
 **Comece hoje o seu percurso rumo à excelência em cibersegurança com uma destas certificações de topo.**
-lastmod: 2026-10-11
