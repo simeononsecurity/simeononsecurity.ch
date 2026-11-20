@@ -1,18 +1,30 @@
 ---
 title: "Pruebas de software manuales frente a automatizadas: Elegir la estrategia adecuada"
 date: 2023-06-03
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Descubra las ventajas y desventajas de las pruebas de software manuales y automatizadas para tomar una decisión informada para su organización."
-tags: ["pruebas de software", "pruebas manuales", "pruebas automatizadas", "estrategias de ensayo", "desarrollo de software", "garantía de calidad", "casos de prueba", "cobertura de pruebas", "pruebas exploratorias", "experiencia del usuario", "eficacia", "reutilización", "adaptabilidad", "error humano", "falsos positivos", "falsos negativos", "automatización de pruebas", "pruebas híbridas", "optimización de recursos", "prácticas de pruebas de software", "elegir la estrategia de pruebas de software adecuada", "ventajas de las pruebas manuales", "desventajas de las pruebas automatizadas", "combinar pruebas manuales y automatizadas", "optimización del proceso de pruebas de software"]
+tags: ["pruebas de software", "pruebas manuales", "pruebas automatizadas", "estrategias de prueba", "desarrollo de software", "garantía de calidad", "casos de prueba", "cobertura de pruebas", "pruebas exploratorias", "experiencia de usuario", "eficiencia", "reutilización", "adaptabilidad", "error humano", "falsos positivos", "falsos negativos", "automatización de pruebas", "pruebas híbridas", "optimización de recursos", "prácticas de pruebas de software", "elegir una estrategia de pruebas", "ventajas de las pruebas manuales", "desventajas de las pruebas automatizadas", "combinar pruebas manuales y automatizadas", "optimizar el proceso de pruebas"]
 cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp"
 coverAlt: "Una colorida ilustración de un probador humano y un probador robot trabajando juntos para probar aplicaciones de software."
 coverCaption: ""
 ---
 
-**Estrategias de pruebas de software: Manual vs. Automatizado**
+**Estrategias de pruebas de software: manuales y automatizadas**
 
-Las pruebas de software son un aspecto crucial del ciclo de vida de desarrollo de software (SDLC). Garantiza que el software cumpla las normas de calidad deseadas, funcione según lo previsto y esté libre de defectos. En lo que respecta a las pruebas, existen dos estrategias principales: **pruebas manuales** y **pruebas automatizadas**. Cada estrategia tiene sus ventajas y desventajas, y conocerlas puede ayudar a las organizaciones a tomar decisiones informadas sobre su enfoque de las pruebas.
+Las pruebas de software son un aspecto crucial del ciclo de vida de desarrollo de software (SDLC). Garantizan que el software cumpla las normas de calidad deseadas, funcione según lo previsto y esté libre de defectos. En lo que respecta a las pruebas, existen dos estrategias principales: **pruebas manuales** y **pruebas automatizadas**. Cada estrategia tiene sus ventajas y desventajas, y conocerlas puede ayudar a las organizaciones a tomar decisiones informadas sobre su enfoque de las pruebas.
+
+
+### Cómo elegir una estrategia
+
+| Necesidad | Preferencia | Contrapartida |
+| --- | --- | --- |
+| Explorar un comportamiento nuevo o la facilidad de uso | **Pruebas manuales** | Menor repetibilidad y mayor dependencia de la cobertura del evaluador |
+| Repetir comprobaciones estables en cada compilación | **Pruebas automatizadas** | Requieren mantenimiento inicial y cubren peor la usabilidad subjetiva |
+| Reducir el riesgo de una versión | **Ambas** | Exigen responsabilidades claras, datos de prueba y análisis de fallos |
+
+Empieza con un conjunto pequeño y repetible de pruebas de regresión. Deja las comprobaciones exploratorias y de usabilidad en manos de una persona. Revisa las pruebas automatizadas fallidas antes de considerar lista una compilación.
 
 {{< youtube id="SEzPFlnI7mY" >}}
 
@@ -20,13 +32,13 @@ Las pruebas de software son un aspecto crucial del ciclo de vida de desarrollo d
 
 {{< youtube id="AjkYTJklAa8" >}}
 
-**Las pruebas manuales se refieren al proceso de probar aplicaciones de software manualmente, sin utilizar herramientas o guiones automatizados. Consiste en que una persona ejecute los casos de prueba y compare los resultados esperados con los reales. Las pruebas manuales requieren mucho trabajo y tiempo, pero ofrecen ciertas ventajas.
+**Las pruebas manuales** consisten en probar aplicaciones de software sin herramientas ni scripts automatizados. Una persona ejecuta los casos de prueba y compara los resultados esperados con los reales. Este método requiere tiempo y trabajo, pero ofrece ventajas concretas.
 
 ### Ventajas de las pruebas manuales
 
 1. **Flexibilidad y adaptabilidad**: Las pruebas manuales permiten a los probadores adaptarse rápidamente a los requisitos cambiantes y tomar decisiones sobre la marcha basadas en su experiencia e intuición.
 
-2. **2. Pruebas exploratorias Las pruebas manuales permiten a los evaluadores explorar la aplicación de software en tiempo real, descubriendo errores inesperados y problemas de usabilidad que podrían pasar desapercibidos en las pruebas automatizadas.
+2. **Pruebas exploratorias**: Las pruebas manuales permiten explorar la aplicación en tiempo real y descubrir errores y problemas de usabilidad que podrían pasar inadvertidos en las pruebas automatizadas.
 
 3. **Validación de la experiencia del usuario**: Las pruebas manuales permiten a los probadores evaluar el software desde la perspectiva de un usuario, lo que proporciona información valiosa sobre la experiencia del usuario e identifica mejoras de usabilidad.
 
@@ -42,7 +54,7 @@ Las pruebas de software son un aspecto crucial del ciclo de vida de desarrollo d
 
 {{< youtube id="Nd31XiSGJLw" >}}
 
-**Las pruebas automatizadas implican el uso de herramientas y secuencias de comandos especializadas para ejecutar casos de prueba, validar resultados y compararlos con los resultados esperados. Utiliza programas informáticos para controlar la ejecución de las pruebas, registrar los datos y generar informes. Las pruebas automatizadas ofrecen varias ventajas sobre las pruebas manuales.
+**Las pruebas automatizadas** implican el uso de herramientas y secuencias de comandos especializadas para ejecutar casos de prueba, validar resultados y compararlos con los resultados esperados. Utiliza programas informáticos para controlar la ejecución de las pruebas, registrar los datos y generar informes. Las pruebas automatizadas ofrecen varias ventajas sobre las pruebas manuales.
 
 ### Ventajas de las pruebas automatizadas
 
@@ -58,7 +70,7 @@ Las pruebas de software son un aspecto crucial del ciclo de vida de desarrollo d
 
 2. **Adaptabilidad limitada**: Las pruebas automatizadas suelen diseñarse para validar funcionalidades y escenarios específicos. Adaptarlas para dar cabida a cambios frecuentes o a nuevas funciones puede resultar complicado y requerir modificaciones importantes.
 
-3. **3. Falsos positivos/negativos**: Las pruebas automatizadas son propensas a falsos positivos (informar de defectos que no son problemas reales) o falsos negativos (omitir defectos reales). Los guiones de pruebas necesitan actualizaciones y mantenimiento periódicos para evitar tales imprecisiones.
+3. **Falsos positivos y negativos**: Las pruebas automatizadas son propensas a falsos positivos (informar de defectos que no son problemas reales) o falsos negativos (omitir defectos reales). Los guiones de pruebas necesitan actualizaciones y mantenimiento periódicos para evitar tales imprecisiones.
 
 ______
 

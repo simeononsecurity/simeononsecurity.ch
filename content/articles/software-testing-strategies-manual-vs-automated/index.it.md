@@ -1,10 +1,11 @@
 ---
 title: "Test del software manuale o automatizzato: Scegliere la strategia giusta"
 date: 2023-06-03
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Scoprite i vantaggi e gli svantaggi dei test software manuali e automatizzati per prendere una decisione consapevole per la vostra organizzazione."
-tags: ["test del software", "test manuale", "test automatizzati", "strategie di test", "sviluppo software", "garanzia di qualità", "casi di test", "copertura del test", "test esplorativi", "esperienza dell'utente", "efficienza", "riutilizzabilità", "adattabilità", "errore umano", "falsi positivi", "false negatives", "automazione dei test", "test ibridi", "ottimizzazione delle risorse", "pratiche di test del software", "Scegliere la giusta strategia di test del software", "vantaggi del test manuale", "svantaggi dei test automatizzati", "combinare test manuali e automatizzati", "ottimizzazione del processo di test del software"]
+tags: ["test del software", "test manuali", "test automatizzati", "strategie di test", "sviluppo software", "garanzia della qualità", "casi di test", "copertura dei test", "test esplorativi", "esperienza utente", "efficienza", "riutilizzabilità", "adattabilità", "errore umano", "falsi positivi", "falsi negativi", "automazione dei test", "test ibridi", "ottimizzazione delle risorse", "pratiche di test del software", "scegliere una strategia di test", "vantaggi dei test manuali", "svantaggi dei test automatizzati", "combinare test manuali e automatizzati", "ottimizzare il processo di test"]
 cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp"
 coverAlt: "Un'illustrazione colorata di un tester umano e di un robot tester che lavorano insieme per testare le applicazioni software."
 coverCaption: ""
@@ -12,7 +13,18 @@ coverCaption: ""
 
 **Strategie di test del software: Manuale e automatizzato**
 
-Il test del software è un aspetto cruciale del ciclo di vita dello sviluppo del software (SDLC). Assicura che il software soddisfi gli standard di qualità desiderati, funzioni come previsto e sia privo di difetti. Quando si parla di test, esistono due strategie principali: **il testing manuale** e **il testing automatizzato**. Ciascuna strategia presenta vantaggi e svantaggi e la loro comprensione può aiutare le organizzazioni a prendere decisioni informate sul loro approccio al testing.
+Il test del software è un aspetto cruciale del ciclo di vita dello sviluppo del software (SDLC). Assicura che il software soddisfi gli standard di qualità desiderati, funzioni come previsto e sia privo di difetti. Quando si parla di test, esistono due strategie principali: **il test manuale** e **il test automatizzato**. Ciascuna strategia presenta vantaggi e svantaggi e la loro comprensione può aiutare le organizzazioni a prendere decisioni informate sul loro approccio ai test.
+
+
+### Scegliere una strategia
+
+| Esigenza | Preferire | Compromesso |
+| --- | --- | --- |
+| Esplorare un nuovo comportamento o l’usabilità | **Test manuali** | Ripetibilità più lenta e maggiore dipendenza dalla copertura del tester |
+| Ripetere controlli stabili a ogni build | **Test automatizzati** | Richiedono manutenzione iniziale e valutano meno bene l’usabilità soggettiva |
+| Ridurre il rischio del rilascio | **Entrambi** | Servono responsabilità chiare, dati di test e analisi dei test falliti |
+
+Iniziate con un piccolo insieme ripetibile di test di regressione. Affidate a una persona i controlli esplorativi e di usabilità. Esaminate i test automatizzati falliti prima di considerare pronta una build.
 
 {{< youtube id="SEzPFlnI7mY" >}}
 
@@ -44,7 +56,7 @@ Il **test manuale** si riferisce al processo di verifica delle applicazioni soft
 
 Il **test automatizzato** prevede l'utilizzo di strumenti e script specializzati per eseguire i casi di test, convalidare i risultati e confrontarli con i risultati attesi. Utilizza un software per controllare l'esecuzione dei test, registrare i dati di test e generare rapporti di test. I test automatizzati offrono diversi vantaggi rispetto ai test manuali.
 
-### Vantaggi del testing automatico
+### Vantaggi dei test automatizzati
 
 1. **Efficienza e velocità**: I test automatizzati possono eseguire un gran numero di casi di test in modo rapido e coerente, riducendo il tempo complessivo di test. Può eseguire i test durante la notte o in orari non lavorativi, consentendo cicli di feedback più rapidi.
 
@@ -70,6 +82,6 @@ Il test manuale è adatto ai test esplorativi, alla convalida dell'esperienza ut
 
 D'altro canto, i test automatizzati eccellono per efficienza, riutilizzabilità e migliore copertura dei test. È ideale per scenari di test ripetitivi e complessi, che consentono cicli di feedback più rapidi e riducono il rischio di perdere difetti critici. Tuttavia, richiede un investimento iniziale e può mancare di adattabilità a cambiamenti frequenti.
 
-Le organizzazioni dovrebbero considerare un approccio ibrido che combini test manuali e automatizzati per sfruttare i vantaggi di ciascuna strategia. In questo modo si ottiene un processo di testing completo che soddisfa gli standard di qualità ottimizzando al contempo le risorse e l'efficienza.
+Le organizzazioni dovrebbero considerare un approccio ibrido che combini test manuali e automatizzati per sfruttare i vantaggi di ciascuna strategia. In questo modo si ottiene un processo di test completo che soddisfa gli standard di qualità ottimizzando al contempo le risorse e l'efficienza.
 
 Comprendendo i punti di forza e di debolezza di entrambe le strategie, le organizzazioni possono prendere decisioni informate e stabilire pratiche di test del software efficaci e in linea con le loro esigenze specifiche.

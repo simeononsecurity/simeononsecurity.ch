@@ -1,18 +1,30 @@
 ---
 title: "Tests de logiciels manuels ou automatisés : Choisir la bonne stratégie"
 date: 2023-06-03
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Découvrez les avantages et les inconvénients des tests de logiciels manuels et automatisés afin de prendre une décision éclairée pour votre organisation."
-tags: ["tests de logiciels", "tests manuels", "tests automatisés", "les stratégies de test", "développement de logiciels", "l'assurance qualité", "cas de test", "couverture des tests", "essais exploratoires", "expérience utilisateur", "efficiency", "réutilisabilité", "adaptabilité", "erreur humaine", "faux positifs", "faux négatifs", "test automation", "essais hybrides", "optimisation des ressources", "les pratiques de test des logiciels", "choisir la bonne stratégie de test des logiciels", "avantages des tests manuels", "les inconvénients des tests automatisés", "combiner les tests manuels et automatisés", "optimiser le processus de test des logiciels"]
+tags: ["tests logiciels", "tests manuels", "tests automatisés", "stratégies de test", "développement logiciel", "assurance qualité", "cas de test", "couverture des tests", "tests exploratoires", "expérience utilisateur", "efficacité", "réutilisabilité", "adaptabilité", "erreur humaine", "faux positifs", "faux négatifs", "automatisation des tests", "tests hybrides", "optimisation des ressources", "pratiques de test logiciel", "choisir une stratégie de test", "avantages des tests manuels", "inconvénients des tests automatisés", "combiner tests manuels et automatisés", "optimiser le processus de test"]
 cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp"
 coverAlt: "Illustration colorée d'un testeur humain et d'un testeur robot travaillant ensemble pour tester des applications logicielles."
 coverCaption: ""
 ---
 
-**Stratégies de test de logiciels : Stratégies de test logiciel : manuel ou automatisé**
+**Stratégies de test logiciel : manuel ou automatisé**
 
 Les tests de logiciels sont un aspect crucial du cycle de vie du développement logiciel (SDLC). Ils permettent de s'assurer que le logiciel répond aux normes de qualité souhaitées, qu'il fonctionne comme prévu et qu'il est exempt de défauts. En matière de tests, il existe deux stratégies principales : **les tests manuels** et **les tests automatisés**. Chaque stratégie a ses avantages et ses inconvénients, et leur compréhension peut aider les organisations à prendre des décisions éclairées sur leur approche des tests.
+
+
+### Choisir une stratégie
+
+| Besoin | À privilégier | Compromis |
+| --- | --- | --- |
+| Explorer un nouveau comportement ou la facilité d’utilisation | **Tests manuels** | Moins faciles à répéter et davantage tributaires de la couverture assurée par la personne qui teste |
+| Répéter des contrôles stables à chaque compilation | **Tests automatisés** | Demandent de la maintenance et couvrent moins bien l’ergonomie subjective |
+| Réduire le risque de mise en production | **Les deux** | Exigent des responsabilités claires, des données de test et le tri des échecs |
+
+Commencez par un petit ensemble répétable de tests de régression. Confiez les vérifications exploratoires et d’ergonomie à une personne. Examinez les échecs des tests automatisés avant de considérer une compilation comme prête.
 
 {{< youtube id="SEzPFlnI7mY" >}}
 
@@ -20,7 +32,7 @@ Les tests de logiciels sont un aspect crucial du cycle de vie du développement 
 
 {{< youtube id="AjkYTJklAa8" >}}
 
-**Les tests manuels font référence au processus de test des applications logicielles manuellement, sans utiliser d'outils ou de scripts automatisés. Il s'agit d'un testeur humain qui exécute les cas de test et valide les résultats attendus par rapport aux résultats réels. Le test manuel est un processus qui demande beaucoup de travail et de temps, mais il offre certains avantages.
+**Les tests manuels** consistent à tester des applications logicielles sans outils ni scripts automatisés. Il s'agit d'un testeur humain qui exécute les cas de test et valide les résultats attendus par rapport aux résultats réels. Le test manuel est un processus qui demande beaucoup de travail et de temps, mais il offre certains avantages.
 
 ### Avantages des tests manuels
 
@@ -62,9 +74,9 @@ Les tests de logiciels sont un aspect crucial du cycle de vie du développement 
 
 ______
 
-## Conclusion
+## Bilan
 
-En conclusion, les **tests manuels** et les **tests automatisés** ont chacun leurs mérites et leurs inconvénients. Le choix entre les deux dépend de divers facteurs tels que les exigences du projet, le budget, les délais et le type de logiciel testé.
+Les **tests manuels** et les **tests automatisés** ont chacun leurs avantages et leurs limites. Le choix entre les deux dépend de divers facteurs tels que les exigences du projet, le budget, les délais et le type de logiciel testé.
 
 Les tests manuels sont bien adaptés aux tests exploratoires, à la validation de l'expérience utilisateur et aux scénarios qui nécessitent de l'adaptabilité et de l'intuition humaine. Ils fournissent des informations précieuses sur l'application logicielle, mais peuvent prendre beaucoup de temps et nécessiter de nombreuses ressources.
 

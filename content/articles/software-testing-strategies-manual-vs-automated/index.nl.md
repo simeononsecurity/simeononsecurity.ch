@@ -1,18 +1,30 @@
 ---
 title: "Handmatig versus geautomatiseerd testen van software: De juiste strategie kiezen"
 date: 2023-06-03
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Ontdek de voor- en nadelen van handmatig en geautomatiseerd testen van software om een weloverwogen beslissing te nemen voor uw organisatie."
-tags: ["software testen", "handmatig testen", "geautomatiseerd testen", "teststrategieën", "softwareontwikkeling", "kwaliteitsborging", "proefprocessen", "testdekking", "verkennende tests", "gebruikerservaring", "efficiëntie", "herbruikbaarheid", "aanpassingsvermogen", "menselijke fout", "valse positieven", "valse negatieven", "testautomatisering", "hybride testen", "grondstofoptimalisatie", "praktijken voor het testen van software", "de juiste teststrategie voor software kiezen", "voordelen van handmatig testen", "nadelen van geautomatiseerd testen", "handmatige en geautomatiseerde tests combineren", "optimaliseren van het testproces van software"]
+tags: ["softwaretesten", "handmatig testen", "geautomatiseerd testen", "teststrategieën", "softwareontwikkeling", "kwaliteitsborging", "testgevallen", "testdekking", "verkennend testen", "gebruikerservaring", "efficiëntie", "herbruikbaarheid", "aanpassingsvermogen", "menselijke fout", "valse positieven", "valse negatieven", "testautomatisering", "hybride testen", "middelenoptimalisatie", "softwaretestpraktijken", "een teststrategie kiezen", "voordelen van handmatig testen", "nadelen van geautomatiseerd testen", "handmatige en geautomatiseerde tests combineren", "het testproces optimaliseren"]
 cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp"
 coverAlt: "Een kleurrijke illustratie van een menselijke tester en een robot tester die samenwerken om softwaretoepassingen te testen."
 coverCaption: ""
 ---
 
-**Software teststrategieën: Handmatig vs. Geautomatiseerd**
+**Softwareteststrategieën: handmatig en geautomatiseerd**
 
 Het testen van software is een cruciaal aspect van de levenscyclus van softwareontwikkeling (SDLC). Het zorgt ervoor dat de software voldoet aan de gewenste kwaliteitsnormen, functioneert zoals bedoeld en vrij is van defecten. Bij het testen zijn er twee hoofdstrategieën: **handmatig testen** en **geautomatiseerd testen**. Elke strategie heeft zijn voor- en nadelen, en inzicht daarin kan organisaties helpen weloverwogen beslissingen te nemen over hun testaanpak.
+
+
+### Een strategie kiezen
+
+| Behoefte | Kies bij voorkeur | Afweging |
+| --- | --- | --- |
+| Nieuw gedrag of gebruiksgemak verkennen | **Handmatig testen** | Minder goed herhaalbaar en sterker afhankelijk van de dekking door de tester |
+| Stabiele controles bij elke build herhalen | **Geautomatiseerd testen** | Vraagt onderhoud en beoordeelt subjectief gebruiksgemak minder goed |
+| Het releaserisico verlagen | **Beide** | Vraagt om duidelijke verantwoordelijkheden, testgegevens en analyse van fouten |
+
+Begin met een kleine, herhaalbare regressieset. Laat verkennende en gebruiksgemakcontroles door een tester uitvoeren. Beoordeel mislukte geautomatiseerde tests voordat je een build gereed verklaart.
 
 {{< youtube id="SEzPFlnI7mY" >}}
 
@@ -26,9 +38,9 @@ Het testen van software is een cruciaal aspect van de levenscyclus van softwareo
 
 1. **Flexibiliteit en aanpassingsvermogen**: Bij handmatig testen kunnen testers zich snel aanpassen aan veranderende eisen en ter plekke beslissingen nemen op basis van hun expertise en intuïtie.
 
-2. *Exploratory Testing**: Handmatig testen stelt testers in staat om de softwaretoepassing in real-time te verkennen, waardoor onverwachte bugs en bruikbaarheidsproblemen aan het licht komen die bij geautomatiseerde tests mogelijk worden gemist.
+2. **Verkennend testen**: Handmatig testen stelt testers in staat om de softwaretoepassing in real-time te verkennen, waardoor onverwachte fouten en bruikbaarheidsproblemen aan het licht komen die bij geautomatiseerde tests mogelijk worden gemist.
 
-3. **User Experience Validation**: Met handmatige tests kunnen testers de software evalueren vanuit het perspectief van de gebruiker, wat waardevolle inzichten oplevert in de gebruikerservaring en gebruiksverbeteringen identificeert.
+3. **Gebruikerservaring beoordelen**: Met handmatige tests kunnen testers de software evalueren vanuit het perspectief van de gebruiker, wat waardevolle inzichten oplevert in de gebruikerservaring en gebruiksverbeteringen identificeert.
 
 ### Nadelen van handmatig testen
 

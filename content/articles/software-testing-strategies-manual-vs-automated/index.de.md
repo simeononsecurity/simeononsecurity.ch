@@ -1,18 +1,30 @@
 ---
-title: "Manuelle vs. automatisierte Software-Tests: Die Wahl der richtigen Strategie"
+title: "Manuelle oder automatisierte Softwaretests: Die passende Strategie wählen"
 date: 2023-06-03
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Entdecken Sie die Vor- und Nachteile von manuellen und automatisierten Softwaretests, um eine fundierte Entscheidung für Ihr Unternehmen zu treffen."
-tags: ["Softwaretests", "manuelle Prüfung", "automatisierte Prüfung", "Teststrategien", "Software-Entwicklung", "qualitätssicherung", "Testfälle", "Testabdeckung", "exploratives Testen", "Benutzererfahrung", "efficiency", "Wiederverwendbarkeit", "Anpassungsfähigkeit", "menschliches Versagen", "Falschmeldungen", "falsche Negative", "Testautomatisierung", "Hybridtests", "Ressourcenoptimierung", "Software-Testverfahren", "Auswahl der richtigen Softwareteststrategie", "Vorteile der manuellen Prüfung", "Nachteile der automatisierten Prüfung", "Kombination von manuellen und automatisierten Tests", "Optimierung des Softwaretestprozesses"]
+tags: ["Softwaretests", "manuelles Testen", "automatisiertes Testen", "Teststrategien", "Softwareentwicklung", "Qualitätssicherung", "Testfälle", "Testabdeckung", "exploratives Testen", "Benutzererfahrung", "Effizienz", "Wiederverwendbarkeit", "Anpassungsfähigkeit", "menschlicher Fehler", "falsch positive Ergebnisse", "falsch negative Ergebnisse", "Testautomatisierung", "hybrides Testen", "Ressourcenoptimierung", "Softwaretestverfahren", "passende Softwareteststrategie wählen", "Vorteile manueller Tests", "Nachteile automatisierter Tests", "manuelle und automatisierte Tests kombinieren", "Softwaretestprozess optimieren"]
 cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp"
 coverAlt: "Eine farbenfrohe Illustration eines menschlichen Testers und eines Robotertesters, die zusammenarbeiten, um Softwareanwendungen zu testen."
 coverCaption: ""
 ---
 
-**Strategien für Softwaretests: Manuell vs. Automatisiert**
+**Strategien für Softwaretests: manuell oder automatisiert**
 
-Das Testen von Software ist ein entscheidender Aspekt des Lebenszyklus der Softwareentwicklung (SDLC). Sie stellen sicher, dass die Software die gewünschten Qualitätsstandards erfüllt, wie beabsichtigt funktioniert und frei von Fehlern ist. Für das Testen gibt es zwei Hauptstrategien: **manuelles Testen** und **automatisiertes Testen**. Jede Strategie hat ihre Vor- und Nachteile, und wenn man sie versteht, kann man fundierte Entscheidungen über den Testansatz treffen.
+Das Testen von Software ist ein entscheidender Aspekt des Lebenszyklus der Softwareentwicklung (SDLC). Dadurch wird sichergestellt, dass die Software die gewünschten Qualitätsstandards erfüllt, wie beabsichtigt funktioniert und frei von Fehlern ist. Für das Testen gibt es zwei Hauptstrategien: **manuelles Testen** und **automatisiertes Testen**. Jede Strategie hat ihre Vor- und Nachteile, und wenn man sie versteht, kann man fundierte Entscheidungen über den Testansatz treffen.
+
+
+### Die passende Strategie wählen
+
+| Bedarf | Bevorzugen | Abwägung |
+| --- | --- | --- |
+| Neues Verhalten oder die Benutzerfreundlichkeit erkunden | **Manuelle Tests** | Wiederholungen dauern länger und hängen stärker von der Abdeckung durch die testende Person ab |
+| Stabile Prüfungen bei jedem Build wiederholen | **Automatisierte Tests** | Erfordern Wartung und decken subjektive Aspekte der Benutzerfreundlichkeit schlechter ab |
+| Das Release-Risiko senken | **Beides** | Erfordert klare Zuständigkeiten, Testdaten und eine Prüfung fehlgeschlagener Tests |
+
+Beginnen Sie mit einer kleinen, wiederholbaren Regressionstestsuite. Lassen Sie explorative Tests und Prüfungen der Benutzerfreundlichkeit von einer testenden Person durchführen. Prüfen Sie fehlgeschlagene automatisierte Tests, bevor Sie einen Build freigeben.
 
 {{< youtube id="SEzPFlnI7mY" >}}
 
@@ -58,7 +70,7 @@ Das Testen von Software ist ein entscheidender Aspekt des Lebenszyklus der Softw
 
 2. **Eingeschränkte Anpassungsfähigkeit**: Automatisierte Tests sind in der Regel für die Validierung bestimmter Funktionen und Szenarien konzipiert. Ihre Anpassung an häufige Änderungen oder neue Funktionen kann eine Herausforderung darstellen und erhebliche Änderungen erfordern.
 
-3. **Falsch-Positive/Negative**: Automatisierte Tests sind anfällig für False Positives (Meldung von Fehlern, die keine tatsächlichen Probleme sind) oder False Negatives (Fehlen tatsächlicher Fehler). Testskripte müssen regelmäßig aktualisiert und gewartet werden, um solche Ungenauigkeiten zu vermeiden.
+3. **Falsch-Positive/Negative**: Automatisierte Tests sind anfällig für falsch positive Ergebnisse (Meldung nicht vorhandener Fehler) oder falsch negative Ergebnisse (übersehene tatsächliche Fehler). Testskripte müssen regelmäßig aktualisiert und gewartet werden, um solche Ungenauigkeiten zu vermeiden.
 
 ______
 

@@ -1,18 +1,30 @@
 ---
-title: "Testarea manuală vs. automatizată a software-ului: Alegerea strategiei corecte"
+title: "Testarea manuală sau automatizată a software-ului: Alegerea strategiei potrivite"
 date: 2023-06-03
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Descoperiți avantajele și dezavantajele testării manuale și automate a software-ului pentru a lua o decizie informată pentru organizația dumneavoastră."
-tags: ["testare software", "testare manuală", "testare automată", "strategii de testare", "dezvoltarea de software", "asigurarea calității", "cazuri de testare", "acoperirea testelor", "testarea exploratorie", "experiența utilizatorului", "eficiență", "reutilizabilitate", "adaptabilitate", "eroare umană", "rezultate fals pozitive", "falsuri negative", "automatizarea testelor", "testare hibridă", "optimizarea resurselor", "practici de testare software", "alegerea strategiei corecte de testare software", "avantaje ale testării manuale", "dezavantajele testării automate", "combinarea testării manuale și automate", "optimizarea procesului de testare software"]
+tags: ["testarea software", "testare manuală", "testare automatizată", "strategii de testare", "dezvoltare software", "asigurarea calității", "cazuri de testare", "acoperirea testelor", "testare exploratorie", "experiența utilizatorului", "eficiență", "reutilizare", "adaptabilitate", "eroare umană", "rezultate fals pozitive", "rezultate fals negative", "automatizarea testelor", "testare hibridă", "optimizarea resurselor", "practici de testare software", "alegerea strategiei de testare", "avantajele testării manuale", "dezavantajele testării automatizate", "combinarea testării manuale și automatizate", "optimizarea procesului de testare"]
 cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp"
 coverAlt: "O ilustrație colorată a unui tester uman și a unui tester robot care lucrează împreună pentru a testa aplicații software."
 coverCaption: ""
 ---
 
-**Strategii de testare software: Manual vs. Automatizat**
+**Strategii de testare software: manuală sau automatizată**
 
 Testarea software-ului este un aspect crucial al ciclului de viață al dezvoltării software (SDLC). Acesta asigură faptul că software-ul îndeplinește standardele de calitate dorite, funcționează conform destinației și nu prezintă defecte. Când vine vorba de testare, există două strategii principale: **testarea manuală** și **testarea automatizată**. Fiecare strategie are avantajele și dezavantajele sale, iar înțelegerea acestora poate ajuta organizațiile să ia decizii în cunoștință de cauză cu privire la abordarea lor de testare.
+
+
+### Alegerea strategiei
+
+| Necesitate | Preferă | Compromis |
+| --- | --- | --- |
+| Explorarea unui comportament nou sau a ușurinței de utilizare | **Testare manuală** | Repetarea este mai lentă și depinde mai mult de acoperirea realizată de tester |
+| Repetarea verificărilor stabile la fiecare build | **Testare automatizată** | Necesită mentenanță și evaluează mai greu ușurința subiectivă de utilizare |
+| Reducerea riscului unei lansări | **Ambele** | Necesită responsabilități clare, date de testare și trierea eșecurilor |
+
+Începeți cu un set mic și repetabil de teste de regresie. Lăsați verificările exploratorii și cele de utilizare în sarcina unui tester. Analizați testele automatizate eșuate înainte de a considera un build pregătit.
 
 {{< youtube id="SEzPFlnI7mY" >}}
 
@@ -24,11 +36,11 @@ Testarea software-ului este un aspect crucial al ciclului de viață al dezvolt�
 
 ### Avantaje ale testării manuale
 
-1. **Flexibilitate și adaptabilitate**: Testarea manuală le permite testeriștilor să se adapteze rapid la cerințele în schimbare și să ia decizii la fața locului pe baza expertizei și intuiției lor.
+1. **Flexibilitate și adaptabilitate**: Testarea manuală le permite testerilor să se adapteze rapid la cerințele în schimbare și să ia decizii la fața locului pe baza expertizei și intuiției lor.
 
-2. **Testarea exploratorie**: Testarea manuală le permite tesatorilor să exploreze aplicația software în timp real, descoperind bug-uri neașteptate și probleme de utilizare care ar putea fi ratate în cadrul testelor automate.
+2. **Testarea exploratorie**: Testarea manuală le permite testerilor să exploreze aplicația software în timp real, descoperind erori neașteptate și probleme de utilizare care ar putea fi ratate în cadrul testelor automate.
 
-3. **Validarea experienței utilizatorului**: Testarea manuală le permite tesatorilor să evalueze software-ul din perspectiva unui utilizator, oferind informații valoroase despre experiența utilizatorului și identificând îmbunătățiri ale utilizabilității.
+3. **Validarea experienței utilizatorului**: Testarea manuală le permite testerilor să evalueze software-ul din perspectiva unui utilizator, oferind informații valoroase despre experiența utilizatorului și identificând îmbunătățiri ale utilizabilității.
 
 ### Dezavantaje ale testării manuale
 
@@ -36,7 +48,7 @@ Testarea software-ului este un aspect crucial al ciclului de viață al dezvolt�
 
 2. **Eroare umană**: Testarea manuală este susceptibilă la erori umane, cum ar fi trecerea cu vederea a anumitor cazuri de testare, interpretarea greșită a cerințelor sau greșeli în timpul executării testului. Aceste erori pot duce la defecte ratate sau la rezultate fals pozitive/negative.
 
-3. ** Acoperire limitată a testelor**: Din cauza constrângerilor de timp și a limitărilor umane, este posibil ca testarea manuală să nu atingă același nivel de acoperire a testelor ca și testarea automată. Poate fi dificil să se execute în mod consecvent cazuri de testare repetitive sau complexe.
+3. **Acoperire limitată a testelor**: Din cauza constrângerilor de timp și a limitărilor umane, este posibil ca testarea manuală să nu atingă același nivel de acoperire a testelor ca și testarea automată. Poate fi dificil să se execute în mod consecvent cazuri de testare repetitive sau complexe.
 
 ## Testarea automatizată
 
@@ -50,7 +62,7 @@ Testarea software-ului este un aspect crucial al ciclului de viață al dezvolt�
 
 2. **Reutilizabilitate**: Scripturile de testare automatizate pot fi refolosite în diferite versiuni și compilări de software, economisind timp și efort. Odată create, acestea pot fi executate cu ușurință ori de câte ori este nevoie, asigurând teste consecvente și fiabile.
 
-3. **Ambunătățirea acoperirii testelor**: Testarea automatizată poate acoperi o gamă mai largă de scenarii de testare, inclusiv scenarii complexe și repetitive, ceea ce poate fi dificil de realizat manual. Aceasta permite o testare cuprinzătoare și reduce riscul de a rata defecte critice.
+3. **Îmbunătățirea acoperirii testelor**: Testarea automatizată poate acoperi o gamă mai largă de scenarii de testare, inclusiv scenarii complexe și repetitive, ceea ce poate fi dificil de realizat manual. Aceasta permite o testare cuprinzătoare și reduce riscul de a rata defecte critice.
 
 ### Dezavantaje ale testării automatizate
 
