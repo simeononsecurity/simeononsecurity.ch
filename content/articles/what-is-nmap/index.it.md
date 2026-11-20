@@ -1,7 +1,7 @@
 ---
 title: "Nmap: una guida alla scansione di rete e al rilevamento dei servizi"
 date: 2023-06-13
-lastmod: 2026-11-14
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Scoprite come utilizzare efficacemente Nmap per la scansione della rete, la scansione delle porte, il rilevamento dei servizi e l'identificazione del sistema operativo per valutare la sicurezza della rete."
@@ -13,7 +13,7 @@ coverCaption: ""
 
 [**Che cos'è Nmap e come si usa?**](https://nmap.org/download.html)
 
-[Nmap](https://nmap.org/download.html) (Network Mapper) è uno strumento di scansione di rete open source potente e versatile, utilizzato per scoprire host e servizi su una rete di computer. Fornisce informazioni preziose sull'infrastruttura di rete e aiuta a valutare la sicurezza della rete. In questo articolo esploreremo le basi di Nmap, le sue caratteristiche e come utilizzarlo efficacemente.
+[Nmap](https://nmap.org/download.html) (Network Mapper (mappatore di reti)) è uno strumento di scansione di rete open source potente e versatile, utilizzato per scoprire host e servizi su una rete di computer. Fornisce informazioni preziose sull'infrastruttura di rete e aiuta a valutare la sicurezza della rete. In questo articolo esploreremo le basi di Nmap, le sue caratteristiche e come utilizzarlo efficacemente.
 
 {{< youtube id="KVHSGWgVw-E" >}}
 
@@ -39,7 +39,7 @@ Per utilizzare Nmap, è necessario installarlo sul sistema. Il processo di insta
 
 ### Windows
 
-Per gli utenti Windows, Nmap può essere scaricato dal sito web ufficiale: [https://nmap.org/download.html](https://nmap.org/download.html) Scegliete il programma di installazione appropriato per il vostro sistema e seguite la procedura guidata.
+Per gli utenti Windows, Nmap può essere scaricato dal sito web ufficiale: [https://nmap.org/download.html](https://nmap.org/download.html). Scegliete il programma di installazione appropriato per il vostro sistema e seguite la procedura guidata.
 
 ### Linux
 
@@ -67,7 +67,7 @@ nmap -sn <target>
 ```
 Sostituire `<target>` con l'indirizzo IP o la sottorete di destinazione.
 
-2. Scansione **TCP SYN**: Questo tipo di scansione viene utilizzato per determinare le porte TCP aperte su un host di destinazione. Eseguire il seguente comando:
+2. **Scansione TCP SYN**: Questo tipo di scansione viene utilizzato per determinare le porte TCP aperte su un host di destinazione. Eseguire il seguente comando:
 
 ```shell
 nmap -sS <target>

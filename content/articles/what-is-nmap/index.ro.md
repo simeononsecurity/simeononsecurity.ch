@@ -1,7 +1,7 @@
 ---
 title: "Nmap: un ghid pentru scanarea rețelei și detectarea serviciilor"
 date: 2023-06-13
-lastmod: 2026-11-14
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Descoperiți cum să utilizați eficient Nmap pentru scanarea rețelei, scanarea porturilor, detectarea serviciilor și identificarea sistemului de operare pentru a evalua securitatea rețelei."
@@ -13,7 +13,7 @@ coverCaption: ""
 
 [**Ce este Nmap și cum se folosește?**](https://nmap.org/download.html)
 
-[Nmap](https://nmap.org/download.html) (Network Mapper) este un instrument puternic și versatil de scanare a rețelei open-source, utilizat pentru a descoperi gazdele și serviciile dintr-o rețea de calculatoare. Acesta oferă informații valoroase despre infrastructura rețelei și ajută la evaluarea securității rețelei. În acest articol, vom explora elementele de bază ale Nmap, caracteristicile sale și modul de utilizare eficientă a acestuia.
+[Nmap](https://nmap.org/download.html) (Network Mapper (instrument de cartografiere a rețelelor)) este un instrument puternic și versatil de scanare a rețelei open-source, utilizat pentru a descoperi gazdele și serviciile dintr-o rețea de calculatoare. Acesta oferă informații valoroase despre infrastructura rețelei și ajută la evaluarea securității rețelei. În acest articol, vom explora elementele de bază ale Nmap, caracteristicile sale și modul de utilizare eficientă a acestuia.
 
 {{< youtube id="KVHSGWgVw-E" >}}
 
@@ -39,7 +39,7 @@ Pentru a utiliza Nmap, trebuie să îl instalați pe sistemul dumneavoastră. Pr
 
 ### Windows
 
-Pentru utilizatorii de Windows, Nmap poate fi descărcat de pe site-ul oficial: [https://nmap.org/download.html](https://nmap.org/download.html) Alegeți programul de instalare adecvat pentru sistemul dumneavoastră și urmați instrucțiunile asistentului de instalare.
+Pentru utilizatorii de Windows, Nmap poate fi descărcat de pe site-ul oficial: [https://nmap.org/download.html](https://nmap.org/download.html). Alegeți programul de instalare adecvat pentru sistemul dumneavoastră și urmați instrucțiunile asistentului de instalare.
 
 ### Linux
 

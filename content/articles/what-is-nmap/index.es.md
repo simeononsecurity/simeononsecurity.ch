@@ -1,7 +1,7 @@
 ---
 title: "Nmap: una guía para el escaneo de redes y la detección de servicios"
 date: 2023-06-13
-lastmod: 2026-11-14
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Descubra cómo utilizar eficazmente Nmap para el escaneado de redes, el escaneado de puertos, la detección de servicios y la identificación de sistemas operativos para evaluar la seguridad de la red."
@@ -13,7 +13,7 @@ coverCaption: ""
 
 [**¿Qué es Nmap y cómo se usa?**](https://nmap.org/download.html)
 
-[Nmap](https://nmap.org/download.html) (Network Mapper) es una potente y versátil herramienta de escaneo de redes de código abierto que se utiliza para descubrir hosts y servicios en una red informática. Proporciona información valiosa sobre la infraestructura de red y ayuda a evaluar la seguridad de la red. En este artículo, exploraremos los conceptos básicos de Nmap, sus características y cómo usarlo de forma efectiva.
+[Nmap](https://nmap.org/download.html) (Network Mapper (cartógrafo de redes)) es una potente y versátil herramienta de escaneo de redes de código abierto que se utiliza para descubrir hosts y servicios en una red informática. Proporciona información valiosa sobre la infraestructura de red y ayuda a evaluar la seguridad de la red. En este artículo, exploraremos los conceptos básicos de Nmap, sus características y cómo usarlo de forma efectiva.
 
 {{< youtube id="KVHSGWgVw-E" >}}
 
@@ -39,7 +39,7 @@ Para usar Nmap, necesitas instalarlo en tu sistema. El proceso de instalación v
 
 ### Windows
 
-Para los usuarios de Windows, Nmap puede descargarse desde el sitio web oficial: [https://nmap.org/download.html](https://nmap.org/download.html) Elija el instalador adecuado para su sistema y siga el asistente de instalación.
+Para los usuarios de Windows, Nmap puede descargarse desde el sitio web oficial: [https://nmap.org/download.html](https://nmap.org/download.html). Elija el instalador adecuado para su sistema y siga el asistente de instalación.
 
 ### Linux
 
@@ -65,14 +65,14 @@ Una vez que haya instalado Nmap, puede empezar a escanear su red para recopilar 
 ```shell
 nmap -sn <target>
 ```
-Sustituir `<target>` con la dirección IP o subred de destino.
+Sustituya `<target>` por la dirección IP o la subred de destino.
 
 2. **Escaneo TCP SYN**: Este tipo de escaneo se utiliza para determinar los puertos TCP abiertos en un host de destino. Ejecute el siguiente comando:
 
 ```shell
 nmap -sS <target>
 ```
-Sustituir `<target>` con la dirección IP o el nombre de host del objetivo.
+Sustituya `<target>` por la dirección IP o el nombre de host del objetivo.
 
 3. **Detección de servicios y versiones**: Para identificar los servicios que se ejecutan en los puertos abiertos y sus versiones, utilice el siguiente comando:
 
@@ -80,14 +80,14 @@ Sustituir `<target>` con la dirección IP o el nombre de host del objetivo.
 nmap -sV <target>
 ```
 
-Sustituir `<target>` con la dirección IP o el nombre de host del objetivo.
+Sustituya `<target>` por la dirección IP o el nombre de host del objetivo.
 
 4. **Detección del sistema operativo**: Si desea determinar el sistema operativo de un host de destino, utilice el siguiente comando:
 
 ```shell
 nmap -O <target>
 ```
-Sustituir `<target>` con la dirección IP o el nombre de host del objetivo.
+Sustituya `<target>` por la dirección IP o el nombre de host del objetivo.
 
 Estos son sólo algunos ejemplos de las muchas opciones de sondeo disponibles en Nmap. Consulte la documentación oficial de Nmap para conocer técnicas y opciones de sondeo más avanzadas.
 
@@ -99,9 +99,9 @@ Cuando utilice Nmap, es importante que tenga en cuenta las siguientes buenas pr�
 
 2. **Impacto en la red**: El escaneo Nmap puede generar un tráfico de red significativo, especialmente durante escaneos intensivos. Tenga en cuenta el impacto potencial en el rendimiento de la red y considere programar los escaneos durante periodos de bajo tráfico.
 
-3. **3. Exploración selectiva**: Evite el escaneado indiscriminado de las redes. En su lugar, céntrese en objetivos específicos y defina el alcance de sus actividades de escaneado. Este enfoque específico ayuda a minimizar la interrupción innecesaria de la red y reduce las posibilidades de activar alertas de seguridad.
+3. **Exploración selectiva**: Evite el escaneado indiscriminado de las redes. En su lugar, céntrese en objetivos específicos y defina el alcance de sus actividades de escaneado. Este enfoque específico ayuda a minimizar la interrupción innecesaria de la red y reduce las posibilidades de activar alertas de seguridad.
 
-4. **Protección de datos**: Al escanear redes, tenga cuidado de no exponer información sensible. Evite recopilar o almacenar información personal identificable (IPI) o cualquier dato confidencial. Cumpla la normativa de protección de datos, como el Reglamento General de Protección de Datos (RGPD), si procede.
+4. **Protección de datos**: Al escanear redes, tenga cuidado de no exponer información sensible. Evite recopilar o almacenar información de identificación personal (PII) o cualquier dato confidencial. Cumpla la normativa de protección de datos, como el Reglamento General de Protección de Datos (RGPD), si procede.
 
 ## Conclusión
 

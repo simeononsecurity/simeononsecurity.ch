@@ -1,7 +1,7 @@
 ---
 title: "Nmap: przewodnik po skanowaniu sieci i wykrywaniu usług"
 date: 2023-06-13
-lastmod: 2026-11-14
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Dowiedz się, jak skutecznie używać Nmap do skanowania sieci, skanowania portów, wykrywania usług i identyfikacji systemu operacyjnego w celu oceny bezpieczeństwa sieci."
@@ -13,7 +13,7 @@ coverCaption: ""
 
 [**Czym jest Nmap i jak go używać?**](https://nmap.org/download.html)
 
-[Nmap](https://nmap.org/download.html) (Network Mapper) to potężne i wszechstronne narzędzie do skanowania sieci o otwartym kodzie źródłowym, służące do wykrywania hostów i usług w sieci komputerowej. Dostarcza cennych informacji o infrastrukturze sieciowej i pomaga w ocenie bezpieczeństwa sieci. W tym artykule zbadamy podstawy Nmap, jego funkcje i jak skutecznie z niego korzystać.
+[Nmap](https://nmap.org/download.html) (Network Mapper (narzędzie do mapowania sieci)) to potężne i wszechstronne narzędzie do skanowania sieci o otwartym kodzie źródłowym, służące do wykrywania hostów i usług w sieci komputerowej. Dostarcza cennych informacji o infrastrukturze sieciowej i pomaga w ocenie bezpieczeństwa sieci. W tym artykule zbadamy podstawy Nmap, jego funkcje i jak skutecznie z niego korzystać.
 
 {{< youtube id="KVHSGWgVw-E" >}}
 
@@ -39,7 +39,7 @@ Aby korzystać z Nmap, należy zainstalować go w systemie. Proces instalacji r�
 
 ### Windows
 
-Dla użytkowników systemu Windows, Nmap można pobrać z oficjalnej strony internetowej: [https://nmap.org/download.html](https://nmap.org/download.html) Wybierz odpowiedni instalator dla swojego systemu i postępuj zgodnie z instrukcjami kreatora instalacji.
+Dla użytkowników systemu Windows, Nmap można pobrać z oficjalnej strony internetowej: [https://nmap.org/download.html](https://nmap.org/download.html). Wybierz odpowiedni instalator dla swojego systemu i postępuj zgodnie z instrukcjami kreatora instalacji.
 
 ### Linux
 
@@ -65,14 +65,14 @@ Po zainstalowaniu Nmap można rozpocząć skanowanie sieci w celu zebrania infor
 ```shell
 nmap -sn <target>
 ```
-Wymiana `<target>` z docelowym adresem IP lub podsiecią.
+Zastąp `<target>` docelowym adresem IP lub podsiecią.
 
 2. **Skanowanie TCP SYN**: Ten typ skanowania służy do określenia otwartych portów TCP na hoście docelowym. Uruchom następujące polecenie:
 
 ```shell
 nmap -sS <target>
 ```
-Wymiana `<target>` z adresem IP lub nazwą hosta obiektu docelowego.
+Zastąp `<target>` docelowym adresem IP lub nazwą hosta.
 
 3. **Wykrywanie usług i wersji**: Aby zidentyfikować usługi działające na otwartych portach i ich wersje, należy użyć następującego polecenia:
 
@@ -80,14 +80,14 @@ Wymiana `<target>` z adresem IP lub nazwą hosta obiektu docelowego.
 nmap -sV <target>
 ```
 
-Wymiana `<target>` z adresem IP lub nazwą hosta obiektu docelowego.
+Zastąp `<target>` docelowym adresem IP lub nazwą hosta.
 
 4. **Wykrywanie systemu operacyjnego**: Jeśli chcesz określić system operacyjny hosta docelowego, użyj następującego polecenia:
 
 ```shell
 nmap -O <target>
 ```
-Wymiana `<target>` z adresem IP lub nazwą hosta obiektu docelowego.
+Zastąp `<target>` docelowym adresem IP lub nazwą hosta.
 
 To tylko kilka przykładów z wielu opcji skanowania dostępnych w Nmap. Bardziej zaawansowane techniki i opcje skanowania można znaleźć w oficjalnej dokumentacji Nmap.
 
@@ -110,7 +110,7 @@ Nmap to potężne i szeroko stosowane narzędzie do skanowania sieci, które zap
 ## Referencje:
 
 - Oficjalna strona Nmap: [https://nmap.org/](https://nmap.org/)
-- Nmap Download: [https://nmap.org/download.html](https://nmap.org/download.html)
+- Pobierz Nmap: [https://nmap.org/download.html](https://nmap.org/download.html)
 - Oficjalna dokumentacja Nmap: [https://nmap.org/book/man.html](https://nmap.org/book/man.html)
 - Ustawa o oszustwach i nadużyciach komputerowych (CFAA): [https://www.law.cornell.edu/uscode/text/18/part-I/chapter-47](https://www.law.cornell.edu/uscode/text/18/part-I/chapter-47)
 - Ogólne rozporządzenie o ochronie danych (RODO): [https://gdpr.eu/](https://gdpr.eu/)
