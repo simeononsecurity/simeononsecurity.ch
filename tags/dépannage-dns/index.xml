@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dépannage DNS on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Dépannage DNS on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/d%C3%A9pannage-dns/</link></image><link>https://fr.simeononsecurity.com/tags/d%C3%A9pannage-dns/</link><description>Recent content in Dépannage DNS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/d%C3%A9pannage-dns/index.xml" rel="self" type="application/rss+xml"/><item><title>Pourquoi le filtrage DNS est contourné : vérifier le chemin du résolveur</title><link>https://fr.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Réseaux domestiques"
+, "DNS"
+, "Confidentialité"</category><guid>https://fr.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Déterminez pourquoi un appareil ou un navigateur ignore votre filtre DNS. Comparez les requêtes directes et normales, consultez les journaux, puis vérifiez le DNS chiffré, le VPN, IPv6 et le routeur.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>Optimiser son réseau : maîtriser la configuration DNS</title><link>https://fr.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><category>
+"Administration réseau"
+, "Cybersécurité"
+, "Infrastructure informatique"
+, "Solutions techniques"
+, "Technologies Internet"
+, "Optimisation DNS"
+, "Performances réseau"
+, "Sécurité numérique"
+, "Connectivité Internet"
+, "Guides techniques"</category><guid>https://fr.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Améliorez votre réseau grâce au DNS. Découvrez son influence sur la connectivité, les performances et la sécurité, puis optimisez sa configuration.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp"/></item><item><title>Comment fonctionne le DNS : DNS racine, importance et dépannage</title><link>https://fr.simeononsecurity.com/articles/how-does-dns-work/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><category>
+"Notions de base du DNS"
+, "DNS racine"
+, "Système de noms de domaine"
+, "Résolution DNS"
+, "Hiérarchie DNS"
+, "Cache DNS"
+, "Dépannage DNS"
+, "Enregistrements DNS"
+, "Gestion DNS"
+, "Commandes DNS"</category><guid>https://fr.simeononsecurity.com/articles/how-does-dns-work/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez le fonctionnement du DNS et du DNS racine, leur hiérarchie, la résolution des noms, la mise en cache et le dépannage.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/An_image_depicting_interconnected_computer_ne.webp" length="167680" type="image/webp"/></item></channel></rss>

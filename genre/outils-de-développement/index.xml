@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Outils De Développement on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Outils De Développement on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/outils-de-d%C3%A9veloppement/</link></image><link>https://fr.simeononsecurity.com/genre/outils-de-d%C3%A9veloppement/</link><description>Recent content in Outils De Développement on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/outils-de-d%C3%A9veloppement/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture : configurer des clients IA pour l’inférence et MCP en 2026</title><link>https://fr.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Outils de développement"
+, "Réseaux"</category><guid>https://fr.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Faites transiter les requêtes des modèles et les outils MCP par Tailscale Aperture. Configurez Codex, Claude Code, Claude Desktop, OpenCode et Hermes sur un autre appareil ou une autre passerelle.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>Clés SSH Bitbucket Cloud : accès Git en lecture seule pour les agents IA</title><link>https://fr.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Sécurité cloud"
+, "Outils de développement"
+, "Administration système"</category><guid>https://fr.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Configurez les clés SSH Bitbucket Cloud, l’accès Git CLI, les jetons REST API, 1Password et les outils MCP pour des workflows d’agents IA en lecture seule.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>Configuration d’un serveur MCP : autorisations, tests des outils et suppression sécurisée</title><link>https://fr.simeononsecurity.com/articles/effective-ai-mcp-server-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Outils de développement"</category><guid>https://fr.simeononsecurity.com/articles/effective-ai-mcp-server-setup/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Connectez un serveur documentaire MCP en lecture seule, inspectez ses outils, effectuez une vraie lecture, puis supprimez la connexion.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/effective-ai-mcp-server-setup.webp" length="82234" type="image/webp"/></item><item><title>Visual Studio Code vs Visual Studio</title><link>https://fr.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Outils de développement"
+, "IDE"
+, "Développement logiciel"
+, "Programmation"
+, "Éditeurs de code"
+, "Visual Studio"
+, "VS Code"
+, "Développement Microsoft"
+, "Outils pour développeurs"
+, "Génie logiciel"</category><guid>https://fr.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparaison complète 2026 de Visual Studio Code et Visual Studio Community/Professional/Enterprise incluant fonctionnalités, performances, tarifs et cas d'utilisation pour aider les développeurs à choisir le bon IDE.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/visual-studio-code-vs-visual-studio-comparison.webp" length="147806" type="image/webp"/></item><item><title>Les langages de programmation essentiels aux développeurs modernes</title><link>https://fr.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</link><pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate><category>
+"Développement logiciel"
+, "Formation à la programmation"
+, "Carrières technologiques"
+, "Tutoriels de programmation"
+, "Compétences numériques"
+, "Création d'applications"
+, "Informatique"
+, "Technologies émergentes"
+, "Langages de programmation"
+, "Outils de développement"</category><guid>https://fr.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez les langages de programmation utiles pour créer des logiciels dynamiques.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/fundamentals-of-coding_-languages-you-should-know.webp" length="71288" type="image/webp"/></item><item><title>Les meilleures extensions VS Code pour le développement C++</title><link>https://fr.simeononsecurity.com/articles/best-visual-studio-code-extensions-for-cpp-development/</link><pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate><category>
+"Programmation"
+, "Développement logiciel"
+, "Développement C++"
+, "Visual Studio Code"
+, "Éditeurs de code"
+, "Productivité"
+, "Outils de développement"
+, "IDE"
+, "Optimisation du code"
+, "Efficacité du code"</category><guid>https://fr.simeononsecurity.com/articles/best-visual-studio-code-extensions-for-cpp-development/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez les meilleures extensions C++ pour Visual Studio Code afin d'améliorer votre programmation et votre productivité.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/best-visual-studio-code-extensions-for-cpp-development.webp" length="147434" type="image/webp"/></item></channel></rss>

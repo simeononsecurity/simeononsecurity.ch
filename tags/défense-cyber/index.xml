@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Défense Cyber on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Défense Cyber on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/d%C3%A9fense-cyber/</link></image><link>https://fr.simeononsecurity.com/tags/d%C3%A9fense-cyber/</link><description>Recent content in Défense Cyber on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/d%C3%A9fense-cyber/index.xml" rel="self" type="application/rss+xml"/><item><title>Registre Windows et fichiers de configuration Linux</title><link>https://fr.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link><pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Systèmes d’exploitation"
+, "Gestion de la sécurité"
+, "Technologie informatique"
+, "Protection des données"
+, "Configuration système"
+, "Sécurité informatique"
+, "Sécurité réseau"
+, "Comparaisons technologiques"
+, "Sécurité de l’information"</category><guid>https://fr.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez la sécurité du Registre Windows et des fichiers de configuration Linux, puis appliquez des mesures concrètes de durcissement.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp"/></item><item><title>Windows Task Scheduler ou Cron sous Linux : comparaison de sécurité</title><link>https://fr.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Systèmes d’exploitation"
+, "Automatisation des systèmes"
+, "Outils de sécurité"
+, "Technologie informatique"
+, "Planification des tâches"
+, "Sécurité réseau"
+, "Administration système"
+, "Défense cyber"
+, "Gestion informatique"</category><guid>https://fr.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez Windows Task Scheduler et les tâches Cron sous Linux du point de vue de la cybersécurité et du renforcement des systèmes.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>Tendances du phishing et vulnérabilité des utilisateurs</title><link>https://fr.simeononsecurity.com/articles/phishing-trends-user-vulnerability-guide/</link><pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Technologie"
+, "Menaces numériques"
+, "Sécurité en ligne"
+, "Tendances du phishing"
+, "Protection des utilisateurs"
+, "Sensibilisation à la cybersécurité"
+, "Confidentialité des données"
+, "Sécurité sur Internet"
+, "Analyse des menaces"</category><guid>https://fr.simeononsecurity.com/articles/phishing-trends-user-vulnerability-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez l’évolution des attaques de phishing et des vulnérabilités des utilisateurs, ainsi que les mesures qui protègent les personnes et les organisations.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/phishing-threats-shield.webp" length="75468" type="image/webp"/></item><item><title>Renforcer votre défense : découvrir les solutions de cybersécurité EDR</title><link>https://fr.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Technologie"
+, "Détection des menaces"
+, "Sécurité des terminaux"
+, "Réponse aux incidents"
+, "Protection des données"
+, "Sécurité réseau"
+, "Défense numérique"
+, "Sécurité informatique"
+, "Résilience cyber"</category><guid>https://fr.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez comment les solutions EDR protègent les terminaux, détectent les menaces et aident les organisations à choisir une solution adaptée.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp"/></item><item><title>Maîtriser la réponse aux incidents de cybersécurité</title><link>https://fr.simeononsecurity.com/articles/mastering-cybersecurity-incident-response-guide/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Réponse aux incidents"
+, "Sécurité de l'information"
+, "Protection des données"
+, "Défense cyber"
+, "Menaces numériques"
+, "Sécurité informatique"
+, "Sûreté numérique"
+, "Violation de données"
+, "Réponse aux urgences"</category><guid>https://fr.simeononsecurity.com/articles/mastering-cybersecurity-incident-response-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez les pratiques d'une réponse efficace aux incidents de cybersécurité grâce à ce guide complet pour protéger votre organisation des menaces et renforcer sa résilience.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/Cybersecurity_Incident_Response_Fortress.webp" length="137924" type="image/webp"/></item><item><title>Préparation à la cybersécurité : protéger les données de votre entreprise</title><link>https://fr.simeononsecurity.com/articles/cybersecurity-readiness-guide/</link><pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Sécurité des entreprises"
+, "Protection des données"
+, "Évaluation des risques"
+, "Sécurité de l'information"
+, "Sécurité numérique"
+, "Confidentialité des données"
+, "Cybermenaces"
+, "Sécurité réseau"
+, "Gestion des risques fournisseurs"</category><guid>https://fr.simeononsecurity.com/articles/cybersecurity-readiness-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Évaluez la préparation des entreprises en matière de cybersécurité avant de partager des informations sensibles ou de faire affaire avec elles. Protégez vos données.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/cybersecurity-shield-protection2.webp" length="102208" type="image/webp"/></item><item><title>Sécurisez votre réseau domestique</title><link>https://fr.simeononsecurity.com/articles/building-a-secure-home-network/</link><pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate><category>
+"Sécurité des réseaux domestiques"
+, "Cybersécurité"
+, "Protection des appareils"
+, "Sécurité Internet"
+, "Sécurité de la maison connectée"
+, "Confidentialité du réseau"
+, "Menaces en ligne"
+, "Conseils de sécurité Internet"
+, "Confidentialité numérique"
+, "Défense cyber"</category><guid>https://fr.simeononsecurity.com/articles/building-a-secure-home-network/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apprenez à protéger votre réseau domestique et vos appareils connectés contre les cybermenaces grâce à ces conseils et outils essentiels.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/building-a-secure-home-network.webp" length="167198" type="image/webp"/></item></channel></rss>

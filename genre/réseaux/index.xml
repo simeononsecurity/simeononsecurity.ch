@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Réseaux on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Réseaux on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/r%C3%A9seaux/</link></image><link>https://fr.simeononsecurity.com/genre/r%C3%A9seaux/</link><description>Recent content in Réseaux on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/r%C3%A9seaux/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture : configurer des clients IA pour l’inférence et MCP en 2026</title><link>https://fr.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Outils de développement"
+, "Réseaux"</category><guid>https://fr.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Faites transiter les requêtes des modèles et les outils MCP par Tailscale Aperture. Configurez Codex, Claude Code, Claude Desktop, OpenCode et Hermes sur un autre appareil ou une autre passerelle.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>Tester les fuites DNS et WebRTC du navigateur avec un VPN</title><link>https://fr.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Confidentialité"
+, "Navigateurs"
+, "Réseaux"</category><guid>https://fr.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vérifiez l’adresse IP publique, le résolveur DNS et les adresses WebRTC de votre navigateur avant et après la connexion au VPN. Interprétez les résultats et isolez les problèmes de routage.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>Planifier et tester la segmentation VLAN d'un homelab</title><link>https://fr.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Sécurité réseau"
+, "Réseaux"</category><guid>https://fr.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Élaborez un plan VLAN pour les appareils de confiance, les serveurs, l'IoT et les visiteurs. Cartographiez les flux autorisés, configurez le réseau par étapes et vérifiez l'isolation.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Meshtastic vs MeshCore vs Reticulum</title><link>https://fr.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "Réseaux maillés"
+, "Communications hors réseau"
+, "Communications d’urgence"
+, "Radioamateur"
+, "Open source"
+, "Préparation aux catastrophes"
+, "Réseaux sans fil"
+, "Vie privée"
+, "Réseaux"</category><guid>https://fr.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez Meshtastic, MeshCore et Reticulum selon le routage, le temps d’émission, l’infrastructure, le transport et les usages hors réseau.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Alimentation et résilience environnementale des systèmes de terrain</title><link>https://fr.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Edge computing"
+, "Informatique de terrain"
+, "Systèmes d'alimentation"
+, "Matériel"
+, "Reprise après sinistre"
+, "Informatique durcie"
+, "Réseaux"</category><guid>https://fr.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planifiez l'alimentation et la protection environnementale des nœuds edge déployés sur le terrain. Dimensionnez l'onduleur, les batteries et les panneaux solaires, puis gérez la synchronisation horaire, les indices de protection, la mise à la terre et les surtensions.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>Informatique en périphérie déployable sur le terrain : choisir l’équipement et le boîtier</title><link>https://fr.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Informatique edge"
+, "Informatique de terrain"
+, "Matériel"
+, "Laboratoire domestique"
+, "Informatique durcie"
+, "Réseaux"
+, "Reprise après sinistre"
+, "Informatique pour petites entreprises"</category><guid>https://fr.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guide sur le matériel edge pour les déploiements sur le terrain et le choix des boîtiers : calcul, racks, refroidissement, stockage, gestion, câblage et alimentation.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>Les meilleurs créateurs de contenu sur le homelab</title><link>https://fr.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Réseaux"
+, "Fait maison"
+, "Virtualisation"
+, "Homelabs"
+, "Passionnés de technologie"
+, "Communauté"
+, "Apprentissage"
+, "Innovation"
+, "Guides"</category><guid>https://fr.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez des créateurs homelab influents, échangez avec des passionnés et commencez votre parcours technologique.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item><item><title>Bien placer les points d’accès pour optimiser la couverture Wi-Fi</title><link>https://fr.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Réseaux"
+, "Réseaux sans fil"
+, "Points d’accès"
+, "Installation Wi-Fi"
+, "Optimisation réseau"
+, "Réseaux domestiques"
+, "Connectivité sans fil"
+, "Internet des objets"
+, "Solutions réseau"</category><guid>https://fr.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez les bonnes pratiques de placement des points d’accès pour optimiser la connectivité sans fil, réduire les interférences et assurer de bonnes performances réseau.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp"/></item><item><title>Réseaux : qu'est-ce qu'une adresse IP, IPv4 et IPv6 ?</title><link>https://fr.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><category>
+"Réseaux"
+, "Adresses IP"
+, "Protocoles Internet"
+, "IPv4"
+, "IPv6"
+, "Communication réseau"
+, "Connectivité Internet"
+, "Technologie"
+, "Infrastructure réseau"
+, "Sécurité Internet"</category><guid>https://fr.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprenez les adresses IP, les différences entre IPv4 et IPv6, leur importance et les raisons d'adopter IPv6.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoon_image_of_two_devices_with_speech_bub.webp" length="90028" type="image/webp"/></item><item><title>Les bases du réseau : commutateurs, routeurs, pare-feu et DMZ</title><link>https://fr.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"Réseaux"
+, "Infrastructure informatique"
+, "Sécurité réseau"
+, "Architecture réseau"
+, "Cybersécurité"
+, "Communication de données"
+, "Technologies de l'information"
+, "Notions fondamentales en informatique"
+, "Gestion des réseaux"
+, "Connectivité Internet"</category><guid>https://fr.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez comment les commutateurs, routeurs, passerelles, sous-réseaux, pare-feu et DMZ répartissent le trafic réseau et appliquent des limites de sécurité.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item><item><title>Communication avec connexion ou sans connexion</title><link>https://fr.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Réseaux"
+, "Communication"
+, "Protocoles"
+, "Informatique"
+, "Transmission de données"
+, "Infrastructure réseau"
+, "Internet"
+, "Technologies de l'information"
+, "Télécommunications"</category><guid>https://fr.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez les différences entre la communication avec connexion et sans connexion, leurs protocoles, leurs services et leurs méthodes de routage réseau.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/An_illustration_showing_two_devices_connected.webp" length="39168" type="image/webp"/></item></channel></rss>

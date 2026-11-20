@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laboratoire Domestique on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Laboratoire Domestique on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/laboratoire-domestique/</link></image><link>https://fr.simeononsecurity.com/genre/laboratoire-domestique/</link><description>Recent content in Laboratoire Domestique on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/laboratoire-domestique/index.xml" rel="self" type="application/rss+xml"/><item><title>Exercice de restauration d’une VM Proxmox : vérifier le fonctionnement du système invité</title><link>https://fr.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualisation"
+, "Sauvegarde et restauration"
+, "Laboratoire domestique"</category><guid>https://fr.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Testez une sauvegarde de VM Proxmox par une restauration isolée. Vérifiez les disques couverts, le mode de sauvegarde, les données invitées, l’état du service et le temps de reprise sans toucher à la production.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>Dimensionner un onduleur pour un homelab et tester l’arrêt automatique</title><link>https://fr.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Laboratoire domestique"
+, "Protection électrique"
+, "Administration système"</category><guid>https://fr.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Mesurez la consommation de votre homelab, comparez les limites en watts et en VA de l’onduleur, vérifiez l’autonomie selon votre charge et testez un arrêt propre avant de vous fier à la batterie.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>Docker dans LXC sur Proxmox : fiabilité, preuves et migration vers une VM</title><link>https://fr.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"Virtualisation"
+, "Administration Linux"
+, "laboratoire domestique"</category><guid>https://fr.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Évaluez Docker dans Proxmox LXC à partir d’un échec AppArmor documenté, d’une analyse attentive d’un signalement de blocage de l’hôte, de commandes de diagnostic et d’un plan de migration vers une VM.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>Informatique en périphérie déployable sur le terrain : choisir l’équipement et le boîtier</title><link>https://fr.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Informatique edge"
+, "Informatique de terrain"
+, "Matériel"
+, "Laboratoire domestique"
+, "Informatique durcie"
+, "Réseaux"
+, "Reprise après sinistre"
+, "Informatique pour petites entreprises"</category><guid>https://fr.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guide sur le matériel edge pour les déploiements sur le terrain et le choix des boîtiers : calcul, racks, refroidissement, stockage, gestion, câblage et alimentation.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item></channel></rss>

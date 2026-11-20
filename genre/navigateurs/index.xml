@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Navigateurs on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Navigateurs on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/navigateurs/</link></image><link>https://fr.simeononsecurity.com/genre/navigateurs/</link><description>Recent content in Navigateurs on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/navigateurs/index.xml" rel="self" type="application/rss+xml"/><item><title>Mise à jour de sécurité de Chrome 156 : vérifier le correctif d’octobre</title><link>https://fr.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Navigateurs"
+, "Sécurité"
+, "Gestion des correctifs"</category><guid>https://fr.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vérifiez la version de sécurité de Chrome 156 du 27 octobre sur Windows, macOS, Linux et Android. Comparez la version installée, terminez un redémarrage en attente et contrôlez séparément les appareils gérés.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp"/></item><item><title>Tester les fuites DNS et WebRTC du navigateur avec un VPN</title><link>https://fr.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Confidentialité"
+, "Navigateurs"
+, "Réseaux"</category><guid>https://fr.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vérifiez l’adresse IP publique, le résolveur DNS et les adresses WebRTC de votre navigateur avant et après la connexion au VPN. Interprétez les résultats et isolez les problèmes de routage.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>Meilleurs navigateurs respectueux de la vie privée 2026 : LibreWolf vs Brave vs Firefox vs Tor – Comparaison complète</title><link>https://fr.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"Navigateurs"
+, "Vie privée"
+, "Sécurité"
+, "Internet"
+, "Technologie"
+, "Confidentialité numérique"
+, "Sécurité en ligne"
+, "Open Source"
+, "Anonymat"
+, "Navigation Web"</category><guid>https://fr.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparaison complète 2026 des meilleurs navigateurs axés sur la vie privée : LibreWolf, Brave, Firefox, Tor et plus. Tests de confidentialité détaillés, benchmarks de performance et analyse de sécurité pour protéger vos données en ligne.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Réseau Privé on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Réseau Privé on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/r%C3%A9seau-priv%C3%A9/</link></image><link>https://fr.simeononsecurity.com/tags/r%C3%A9seau-priv%C3%A9/</link><description>Recent content in Réseau Privé on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/r%C3%A9seau-priv%C3%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>Créer un assistant IA respectueux de la vie privée pour Meshtastic</title><link>https://fr.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Sécurité réseau"
+, "Vie privée"
+, "Logiciel à code source ouvert"
+, "Automatisation"</category><guid>https://fr.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Retour pratique sur un assistant IA local pour Meshtastic, avec configuration privée, accès TCP en file d'attente, outils de récupération et tableau de bord plus sûr.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Pourquoi le transfert de ports ne fonctionne pas avec T-Mobile Home Internet</title><link>https://fr.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Self-Hosted"
+, "Network Security"</category><guid>https://fr.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprenez les limites du transfert de ports sur T-Mobile 5G Home Internet, le NAT opérateur et les moyens pratiques d'accéder à un serveur domestique sans port entrant public.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/t-mobile-home-internet-port-forwarding.webp" length="103506" type="image/webp"/></item><item><title>Tailscale vs Headscale: Guide de comparaison complet 2026 pour VPN auto-hébergé</title><link>https://fr.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Sécurité réseau"
+, "Auto-hébergé"
+, "WireGuard"
+, "Zero Trust"
+, "Réseau maillé"
+, "Open Source"
+, "Infrastructure cloud"
+, "Accès distant"
+, "Gestion réseau"</category><guid>https://fr.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparaison complète 2026 de Tailscale et Headscale, incluant les fonctionnalités, les prix, les performances, la sécurité et les scénarios de déploiement pour choisir la meilleure solution VPN mesh basée sur WireGuard.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item></channel></rss>

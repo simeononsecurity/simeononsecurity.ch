@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programmation C# on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Programmation C# on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/programmation-c%23/</link></image><link>https://fr.simeononsecurity.com/genre/programmation-c%23/</link><description>Recent content in Programmation C# on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/programmation-c%23/index.xml" rel="self" type="application/rss+xml"/><item><title>Fonctions C# dangereuses : pratiques de programmation sécurisée</title><link>https://fr.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Développement logiciel"
+, "Programmation C#"
+, "Cybersécurité"
+, "Sécurité du code"
+, "Programmation sécurisée"
+, "Bonnes pratiques de programmation"
+, "Vulnérabilités logicielles"
+, "Cryptographie"
+, "Développement web"
+, "Sécurité des applications"</category><guid>https://fr.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Des alternatives sûres aux fonctions C# dangereuses. Apprenez à repérer les risques pour la sécurité de la mémoire et à remplacer les opérations vulnérables.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item></channel></rss>

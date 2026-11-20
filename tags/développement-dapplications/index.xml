@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Développement D’applications on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Développement D’applications on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/d%C3%A9veloppement-dapplications/</link></image><link>https://fr.simeononsecurity.com/tags/d%C3%A9veloppement-dapplications/</link><description>Recent content in Développement D’applications on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/d%C3%A9veloppement-dapplications/index.xml" rel="self" type="application/rss+xml"/><item><title>Fonctions C# dangereuses : pratiques de programmation sécurisée</title><link>https://fr.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Développement logiciel"
+, "Programmation C#"
+, "Cybersécurité"
+, "Sécurité du code"
+, "Programmation sécurisée"
+, "Bonnes pratiques de programmation"
+, "Vulnérabilités logicielles"
+, "Cryptographie"
+, "Développement web"
+, "Sécurité des applications"</category><guid>https://fr.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Des alternatives sûres aux fonctions C# dangereuses. Apprenez à repérer les risques pour la sécurité de la mémoire et à remplacer les opérations vulnérables.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>Programmation sécurisée en Python</title><link>https://fr.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"Programmation"
+, "Sécurité des applications"
+, "Développement Python"
+, "Programmation sécurisée"
+, "Développement web"
+, "Analyse de données"
+, "Intelligence artificielle"
+, "Développement logiciel"
+, "Cybersécurité"
+, "Langages de programmation"</category><guid>https://fr.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bonnes pratiques de programmation sécurisée en Python pour réduire les injections SQL, les scripts intersites et les autres vulnérabilités des applications.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp"/></item><item><title>Overcoming Challenges and Embracing Opportunities of DevSecOps Implementation</title><link>https://fr.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</link><pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate><category>
+"DevSecOps"
+, "sécurité de l’information"
+, "tests de sécurité"
+, "méthodes agiles"
+, "coopération"
+, "réglementations gouvernementales"
+, "automatisation"
+, "développement d’applications"
+, "évolutivité"
+, "surveillance continue"
+, "recommandations du NIST"
+, "boucles de rétroaction"
+, "modularité"
+, "vulnérabilités"
+, "assurance qualité"
+, "cybersécurité"
+, "infrastructure informatique"
+, "outils de développement logiciel"
+, "gestion des risques"</category><guid>https://fr.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+This article explores the challenges and opportunities of DevSecOps in organizations, including better collaboration, improved scalability, integration with government regulations, and more.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.webp" length="104930" type="image/webp"/></item></channel></rss>

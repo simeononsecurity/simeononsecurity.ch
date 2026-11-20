@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laboratoire À Domicile on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Laboratoire À Domicile on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/laboratoire-%C3%A0-domicile/</link></image><link>https://fr.simeononsecurity.com/genre/laboratoire-%C3%A0-domicile/</link><description>Recent content in Laboratoire À Domicile on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/laboratoire-%C3%A0-domicile/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9 : réduire l'espace disque des machines virtuelles et le récupérer</title><link>https://fr.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Virtualisation"
+, "Administration Linux"
+, "plateforme Proxmox VE"
+, "Stockage"
+, "Laboratoire à domicile"</category><guid>https://fr.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Réduisez l'espace utilisé par les VM et conteneurs LXC sous Proxmox VE 9. Comparez les formats et stockages, activez discard, lancez trim et vérifiez les instantanés avant de récupérer de l'espace.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Migrer une VM Hyper-V vers Proxmox VE : liste de contrôle réversible</title><link>https://fr.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualisation"
+, "Administration système"
+, "Laboratoire à domicile"</category><guid>https://fr.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Migrez une machine virtuelle Hyper-V vers Proxmox VE avec une exportation source arrêtée, un firmware adapté, l’importation des disques, un démarrage de test isolé et un plan de retour arrière.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>IA locale en 2026 : un modèle 27B dépasse Sonnet 4.6 alors que la fenêtre matérielle se referme</title><link>https://fr.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "IA auto-hébergée"
+, "Modèles à poids ouverts"
+, "Matériel IA"
+, "Apprentissage automatique"
+, "Quantification"
+, "Laboratoire à domicile"
+, "Confidentialité"
+, "Économie de l’IA"
+, "Matériel grand public"</category><guid>https://fr.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planifiez une configuration d’IA locale pour 2026 selon la taille du modèle, la VRAM, la bande passante mémoire, la puissance, le coût et les possibilités d’évolution.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Miner Pearl (PRL) en 2026 : configuration, rentabilité et utilité de la chaîne</title><link>https://fr.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cryptomonnaies"
+, "Minage GPU"
+, "Calcul IA"
+, "DePIN"
+, "Blockchain"
+, "Linux"
+, "Laboratoire à domicile"
+, "Matériel"</category><guid>https://fr.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Configurez le minage de Pearl PRL avec SRBMiner, examinez la preuve de travail utile, estimez les marges et évaluez l’utilité pratique de la chaîne.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp" length="266670" type="image/webp"/></item></channel></rss>

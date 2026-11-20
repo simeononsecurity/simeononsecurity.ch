@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sécurité on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Sécurité on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/s%C3%A9curit%C3%A9/</link></image><link>https://fr.simeononsecurity.com/genre/s%C3%A9curit%C3%A9/</link><description>Recent content in Sécurité on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/s%C3%A9curit%C3%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>Mise à jour de sécurité de Chrome 156 : vérifier le correctif d’octobre</title><link>https://fr.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Navigateurs"
+, "Sécurité"
+, "Gestion des correctifs"</category><guid>https://fr.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vérifiez la version de sécurité de Chrome 156 du 27 octobre sur Windows, macOS, Linux et Android. Comparez la version installée, terminez un redémarrage en attente et contrôlez séparément les appareils gérés.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp"/></item><item><title>Mullvad ou ProtonVPN : quel VPN choisir ?</title><link>https://fr.simeononsecurity.com/articles/mullvad-vs-protonvpn/</link><pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Sécurité"
+, "Confidentialité"
+, "Comparatif VPN"
+, "Anonymat en ligne"
+, "Sécurité numérique"
+, "Sécurité Internet"
+, "Cybersécurité"
+, "Protection des données"
+, "Services VPN"</category><guid>https://fr.simeononsecurity.com/articles/mullvad-vs-protonvpn/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez Mullvad VPN et ProtonVPN selon la sécurité, la confidentialité, les performances et la facilité d’utilisation.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/mullvad-protonvpn-security-race.webp" length="148320" type="image/webp"/></item><item><title>Protégez votre avenir : les gadgets technologiques essentiels en cas d'urgence</title><link>https://fr.simeononsecurity.com/articles/emergency-tech-preparedness-gadgets/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Sécurité"
+, "Préparation aux urgences"
+, "Survie"
+, "Gadgets"
+, "Communication"
+, "Protection"
+, "Rétablissement après sinistre"
+, "Résilience"
+, "Connectivité"</category><guid>https://fr.simeononsecurity.com/articles/emergency-tech-preparedness-gadgets/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez des équipements de survie pour la sécurité et la préparation aux urgences, notamment des chargeurs solaires et des messagers satellites.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/emergency-preparedness-solar-gadgets.webp" length="167932" type="image/webp"/></item><item><title>Sécurité biométrique et contrôle d’accès</title><link>https://fr.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</link><pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Sécurité"
+, "Biométrie"
+, "Contrôle d’accès"
+, "Lecteurs d’empreintes digitales"
+, "Reconnaissance faciale"
+, "Produits Amazon"
+, "Sécurité numérique"
+, "Innovation"
+, "Confidentialité"</category><guid>https://fr.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez la sécurité biométrique avancée avec les lecteurs d’empreintes digitales et les appareils de reconnaissance faciale vendus sur Amazon, pour un contrôle d’accès efficace et plus de sérénité.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/biometric-access-control-fingerprint-facial-recognition-devices-amazon.webp" length="183044" type="image/webp"/></item><item><title>Renforcer la sécurité des machines virtuelles avec vTPM : Guide étape par étape</title><link>https://fr.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Virtualisation"
+, "VMware"
+, "vSphere"
+, "Sécurité"
+, "Module de plateforme de confiance"
+, "vTPM"
+, "Guest OS"
+, "Cryptage"
+, "Attestation de la plate-forme"</category><guid>https://fr.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Renforcez la sécurité des machines virtuelles à l'aide de vTPM grâce à notre guide étape par étape complet, qui fournit une attestation de plate-forme et une prise en charge du chiffrement BitLocker.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/enhanced-vm-security.webp" length="99734" type="image/webp"/></item><item><title>Meilleurs navigateurs respectueux de la vie privée 2026 : LibreWolf vs Brave vs Firefox vs Tor – Comparaison complète</title><link>https://fr.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"Navigateurs"
+, "Vie privée"
+, "Sécurité"
+, "Internet"
+, "Technologie"
+, "Confidentialité numérique"
+, "Sécurité en ligne"
+, "Open Source"
+, "Anonymat"
+, "Navigation Web"</category><guid>https://fr.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparaison complète 2026 des meilleurs navigateurs axés sur la vie privée : LibreWolf, Brave, Firefox, Tor et plus. Tests de confidentialité détaillés, benchmarks de performance et analyse de sécurité pour protéger vos données en ligne.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp"/></item><item><title>Élaborer une politique de cybersécurité : Bonnes pratiques et procédures</title><link>https://fr.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Sécurité"
+, "Conformité"
+, "Risk Management"
+, "Protection des données"
+, "Gouvernance de l'information"
+, "Réponse aux incidents"
+, "Continuité des activités"
+, "Cybermenaces"
+, "Développement de la politique"</category><guid>https://fr.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apprenez à élaborer une politique de cybersécurité complète, conforme aux normes du secteur et aux exigences réglementaires, afin de protéger les informations sensibles de votre organisation et d'atténuer les cyberrisques.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.webp" length="206064" type="image/webp"/></item></channel></rss>

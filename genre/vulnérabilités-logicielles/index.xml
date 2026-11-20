@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vulnérabilités Logicielles on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Vulnérabilités Logicielles on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/vuln%C3%A9rabilit%C3%A9s-logicielles/</link></image><link>https://fr.simeononsecurity.com/genre/vuln%C3%A9rabilit%C3%A9s-logicielles/</link><description>Recent content in Vulnérabilités Logicielles on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/vuln%C3%A9rabilit%C3%A9s-logicielles/index.xml" rel="self" type="application/rss+xml"/><item><title>Fonctions C# dangereuses : pratiques de programmation sécurisée</title><link>https://fr.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Développement logiciel"
+, "Programmation C#"
+, "Cybersécurité"
+, "Sécurité du code"
+, "Programmation sécurisée"
+, "Bonnes pratiques de programmation"
+, "Vulnérabilités logicielles"
+, "Cryptographie"
+, "Développement web"
+, "Sécurité des applications"</category><guid>https://fr.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Des alternatives sûres aux fonctions C# dangereuses. Apprenez à repérer les risques pour la sécurité de la mémoire et à remplacer les opérations vulnérables.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>Programmes de bug bounty : tests de sécurité participatifs</title><link>https://fr.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</link><pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Programmes de bug bounty"
+, "Tests participatifs"
+, "Gestion des vulnérabilités"
+, "Sécurité numérique"
+, "Piratage éthique"
+, "Cybermenaces"
+, "Tests de sécurité"
+, "Cyberdéfense"
+, "Vulnérabilités logicielles"</category><guid>https://fr.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez comment les programmes de bug bounty favorisent le signalement des vulnérabilités, les tests de sécurité et leur divulgation responsable.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/bug-bounty-programs-engaging-the-crowd-in-security-testing.webp" length="238912" type="image/webp"/></item></channel></rss>
