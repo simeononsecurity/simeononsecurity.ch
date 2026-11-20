@@ -1,7 +1,7 @@
 ---
 title: "KI wirksam nutzen: Ein verlässlicher Arbeitsablauf für Einsteiger"
 date: 2026-10-10
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Lernen Sie einen wiederholbaren KI-Arbeitsablauf: Aufgabe festlegen, passenden Kontext geben, Belege prüfen und das Ergebnis vor der Nutzung verifizieren."
@@ -79,8 +79,8 @@ Betreff: Einführung in digitale Sicherheit am 12. November
 
 Hallo,
 
-der Kurs Einführung in digitale Sicherheit beginnt am
-Am 12. November 2026 um 19 Uhr in Gemeinschaftsraum A.
+Der Kurs Einführung in digitale Sicherheit beginnt
+am 12. November 2026 um 19 Uhr im Gemeinschaftsraum A.
 
 Wir freuen uns auf Sie.
 

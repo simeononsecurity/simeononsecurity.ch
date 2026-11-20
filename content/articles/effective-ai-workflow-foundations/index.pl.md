@@ -1,7 +1,7 @@
 ---
 title: "Jak skutecznie korzystać z AI: niezawodny przepływ pracy dla początkujących"
 date: 2026-10-10
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Poznaj powtarzalny przepływ pracy z AI: określ zadanie, podaj potrzebny kontekst, sprawdź dowody i zweryfikuj wynik przed użyciem."
@@ -35,7 +35,7 @@ coverCaption: ""
 
 | Termin | Znaczenie |
 |---|---|
-| **Model** | Oprogramowanie tworzące tekst lub inny wynik na podstawie danych wejściowych |
+| **Model sztucznej inteligencji** | Oprogramowanie tworzące tekst lub inny wynik na podstawie danych wejściowych |
 | **Czat** | Rozmowa z modelem, często z plikami i narzędziami |
 | **Narzędzie** | Funkcja wywoływana przez asystenta, na przykład wyszukiwanie plików lub sprawdzenie kalendarza |
 | **Agent** | Asystent wykonujący zadanie w wielu etapach i wywołaniach narzędzi |

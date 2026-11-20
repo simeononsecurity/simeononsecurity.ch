@@ -1,7 +1,7 @@
 ---
 title: "AI effectief gebruiken: een betrouwbare werkwijze voor beginners"
 date: 2026-10-10
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Leer een herhaalbare AI-werkwijze: bepaal de taak, geef relevante context, bekijk het bewijs en controleer het resultaat voordat je het gebruikt."
@@ -35,7 +35,7 @@ coverCaption: ""
 
 | Term | Betekenis |
 |---|---|
-| **Model** | Software die tekst of een ander resultaat uit invoer maakt |
+| **AI-model** | Software die tekst of een ander resultaat uit invoer maakt |
 | **Chat** | Gesprek met het model, vaak met bestanden en tools |
 | **Tool** | Functie die de assistent aanroept, zoals zoeken in bestanden of een agenda raadplegen |
 | **Agent** | Assistent die een taak in meerdere stappen en toolaanroepen uitvoert |

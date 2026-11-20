@@ -1,7 +1,7 @@
 ---
 title: "Com fer servir bé la IA: un flux de treball fiable per a principiants"
 date: 2026-10-10
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Aprèn un flux de treball d’IA repetible: defineix la tasca, aporta context pertinent, examina les proves i verifica el resultat abans d’utilitzar-lo."
@@ -35,7 +35,7 @@ coverCaption: ""
 
 | Terme | Significat |
 |---|---|
-| **Model** | Programari que produeix text o un altre resultat a partir d’una entrada |
+| **Model d’IA** | Programari que produeix text o un altre resultat a partir d’una entrada |
 | **Xat** | Conversa amb el model, sovint amb fitxers i eines |
 | **Eina** | Funció que invoca l’assistent, com ara cercar fitxers o consultar un calendari |
 | **Agent** | Assistent que fa una tasca en diversos passos i crides a eines |

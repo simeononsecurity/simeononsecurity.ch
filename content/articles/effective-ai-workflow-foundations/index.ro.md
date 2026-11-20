@@ -1,7 +1,7 @@
 ---
 title: "Cum să folosiți eficient IA: un flux de lucru fiabil pentru începători"
 date: 2026-10-10
-lastmod: 2026-11-15
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Învățați un flux de lucru IA repetabil: definiți sarcina, oferiți contextul relevant, examinați dovezile și verificați rezultatul înainte de utilizare."
@@ -35,7 +35,7 @@ coverCaption: ""
 
 | Termen | Semnificație |
 |---|---|
-| **Model** | Software care produce text sau alt rezultat dintr-o intrare |
+| **Model de inteligență artificială** | Software care produce text sau alt rezultat dintr-o intrare |
 | **Chat** | Conversație cu modelul, adesea cu fișiere și instrumente |
 | **Instrument** | Funcție apelată de asistent, precum căutarea fișierelor sau consultarea calendarului |
 | **Agent** | Asistent care urmărește o sarcină în mai mulți pași și apeluri de instrumente |
