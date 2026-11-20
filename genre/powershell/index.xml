@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PowerShell on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>PowerShell on simeononsecurity</title><link>https://bn.simeononsecurity.com/genre/powershell/</link></image><link>https://bn.simeononsecurity.com/genre/powershell/</link><description>Recent content in PowerShell on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/genre/powershell/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell দিয়ে শুধু-পঠনযোগ্য Active Directory ইনভেন্টরি তৈরি করুন</title><link>https://bn.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Active Directory"
+, "PowerShell"
+, "সিস্টেম প্রশাসন"</category><guid>https://bn.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+নির্দিষ্ট PowerShell কোয়েরি দিয়ে Active Directory-র OU, ব্যবহারকারী ও কম্পিউটার ইনভেন্টরি করুন। ডিরেক্টরি অবজেক্ট না বদলে পর্যালোচনাযোগ্য CSV ফাইল রপ্তানি করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/active-directory-powershell-read-only-inventory.webp" length="101842" type="image/webp"/></item><item><title>VMware নিরাপত্তায় দক্ষতা অর্জন</title><link>https://bn.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "ভার্চুয়ালাইজেশন"
+, "আইটি অবকাঠামো"
+, "অটোমেশন"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "সম্মতি"
+, "স্ক্রিপ্টিং"
+, "ডেটা সেন্টার"</category><guid>https://bn.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+এই বিস্তৃত নির্দেশিকায় PowerCLI দিয়ে VMware STIG প্রয়োগ করে VMware পরিবেশ সুরক্ষিত করার পদ্ধতি জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>PowerShell দিয়ে অ্যাক্টিভ ডিরেক্টরি প্রশাসন</title><link>https://bn.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "উইন্ডোজ"
+, "PowerShell"
+, "অ্যাক্টিভ ডিরেক্টরি"
+, "প্রশাসন"
+, "স্ক্রিপ্টিং"
+, "আইটি"
+, "স্বয়ংক্রিয়করণ"
+, "উইন্ডোজ সার্ভার"
+, "মাইক্রোসফট"</category><guid>https://bn.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+আপনার উইন্ডোজ অ্যাক্টিভ ডিরেক্টরি প্রশাসন কাজগুলো সহজ করার জন্য PowerShell এর জন্য অ্যাক্টিভ ডিরেক্টরি মডিউল কীভাবে কার্যকরভাবে ইনস্টল এবং ব্যবহার করবেন তা আবিষ্কার করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/active-directory-module-powershell-installation-usage-guide.webp" length="86330" type="image/webp"/></item></channel></rss>

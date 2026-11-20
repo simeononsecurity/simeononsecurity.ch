@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>হোমল্যাব on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>হোমল্যাব on simeononsecurity</title><link>https://bn.simeononsecurity.com/genre/%E0%A6%B9%E0%A7%8B%E0%A6%AE%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AC/</link></image><link>https://bn.simeononsecurity.com/genre/%E0%A6%B9%E0%A7%8B%E0%A6%AE%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AC/</link><description>Recent content in হোমল্যাব on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/genre/%E0%A6%B9%E0%A7%8B%E0%A6%AE%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>হোমল্যাব VLAN সেগমেন্টেশন পরিকল্পনা ও পরীক্ষা করুন</title><link>https://bn.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"হোমল্যাব"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "নেটওয়ার্কিং"</category><guid>https://bn.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+হোমল্যাবে বিশ্বস্ত ডিভাইস, সার্ভার, IoT ও অতিথিদের আলাদা রাখতে VLAN পরিকল্পনা তৈরি করুন। অনুমোদিত ট্র্যাফিক লিখে রাখুন, ধাপে ধাপে নেটওয়ার্ক কনফিগার করুন এবং আইসোলেশন পরীক্ষা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>হোমল্যাবের UPS-এর ক্ষমতা নির্ধারণ এবং স্বয়ংক্রিয় বন্ধ পরীক্ষা</title><link>https://bn.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"হোমল্যাব"
+, "বিদ্যুৎ সুরক্ষা"
+, "সিস্টেম প্রশাসন"</category><guid>https://bn.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+হোমল্যাবের বিদ্যুৎ খরচ মাপুন, UPS-এর ওয়াট ও VA সীমা তুলনা করুন, আপনার লোডে ব্যাকআপ সময় যাচাই করুন এবং ব্যাটারির ওপর নির্ভর করার আগে নিরাপদ বন্ধ পরীক্ষা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>২০২৬ সালে Pearl (PRL) মাইনিং: সেটআপ, লাভজনকতা ও চেইনের উপযোগিতা</title><link>https://bn.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"ক্রিপ্টোকারেন্সি"
+, "GPU মাইনিং"
+, "AI কম্পিউট"
+, "DePIN"
+, "ব্লকচেইন"
+, "Linux"
+, "হোমল্যাব"
+, "হার্ডওয়্যার"</category><guid>https://bn.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SRBMiner দিয়ে Pearl PRL মাইনিং সেটআপ করুন, প্রুফ-অফ-ইউজফুল-ওয়ার্ক পর্যালোচনা করুন, মার্জিন হিসাব করুন এবং চেইনের ব্যবহারিক উপযোগিতা যাচাই করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp" length="266670" type="image/webp"/></item><item><title>Proxmox LXC-তে Docker: নির্ভরযোগ্যতা, প্রমাণ ও VM-এ স্থানান্তর</title><link>https://bn.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"ভার্চুয়ালাইজেশন"
+, "লিনাক্স প্রশাসন"
+, "হোমল্যাব"</category><guid>https://bn.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+নথিভুক্ত AppArmor ত্রুটি, হোস্ট স্থবিরতার প্রতিবেদন সতর্কভাবে পর্যালোচনা, নির্ণয় কমান্ড এবং VM-এ স্থানান্তর পরিকল্পনার ভিত্তিতে Proxmox LXC-এর ভেতরে Docker মূল্যায়ন করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>মাঠে স্থাপনযোগ্য এজ কম্পিউটিং: হার্ডওয়্যার ও এনক্লোজার নির্বাচন</title><link>https://bn.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"এজ কম্পিউটিং"
+, "মাঠ পর্যায়ের আইটি"
+, "হার্ডওয়্যার"
+, "হোমল্যাব"
+, "মজবুত কম্পিউটিং"
+, "নেটওয়ার্ক"
+, "দুর্যোগ পুনরুদ্ধার"
+, "ছোট ব্যবসার আইটি"</category><guid>https://bn.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+মাঠে ব্যবহারের এজ কম্পিউটিং হার্ডওয়্যার ও এনক্লোজার নির্বাচনের নির্দেশিকা। এতে কম্পিউট, র্যাক, কুলিং, স্টোরেজ, ব্যবস্থাপনা, কেবল এবং বিদ্যুৎ-সামঞ্জস্য রয়েছে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>সেরা হোমল্যাব কনটেন্ট নির্মাতারা</title><link>https://bn.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "নেটওয়ার্কিং"
+, "নিজে করুন"
+, "ভার্চুয়ালাইজেশন"
+, "হোমল্যাব"
+, "প্রযুক্তিপ্রেমী"
+, "কমিউনিটি"
+, "শেখা"
+, "উদ্ভাবন"
+, "নির্দেশিকা"</category><guid>https://bn.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+প্রভাবশালী হোমল্যাব নির্মাতাদের খুঁজুন, উৎসাহীদের সঙ্গে যুক্ত হন এবং প্রযুক্তি শেখার যাত্রা শুরু করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item></channel></rss>

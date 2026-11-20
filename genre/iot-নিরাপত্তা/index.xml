@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IoT নিরাপত্তা on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>IoT নিরাপত্তা on simeononsecurity</title><link>https://bn.simeononsecurity.com/genre/iot-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE/</link></image><link>https://bn.simeononsecurity.com/genre/iot-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE/</link><description>Recent content in IoT নিরাপত্তা on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Thu, 28 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/genre/iot-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>Orbic RCL400-এর জন্য DagShell কাস্টম ফার্মওয়্যার: ২০২৬ নির্দেশিকা</title><link>https://bn.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"কাস্টম ফার্মওয়্যার"
+, "মোবাইল নিরাপত্তা"
+, "গোপনীয়তা সরঞ্জাম"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "ওয়ারড্রাইভিং"
+, "পেনেট্রেশন টেস্টিং"
+, "IoT নিরাপত্তা"
+, "নিরাপত্তা গবেষণা"
+, "হার্ডওয়্যার নিরাপত্তা"
+, "গোপনীয়তা প্রযুক্তি"</category><guid>https://bn.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Orbic RCL400-এর DagShell ফার্মওয়্যারের প্রযুক্তিগত নির্দেশিকা। ইনস্টলেশন, গোপনীয়তা সরঞ্জাম, ওয়ারড্রাইভিং ও গবেষণার সীমা ব্যাখ্যা করা হয়েছে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>Flock Safety ক্যামেরার দুর্বলতা: ৫০টিরও বেশি ত্রুটি শনাক্ত</title><link>https://bn.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"নিরাপত্তা গবেষণা"
+, "দুর্বলতা বিশ্লেষণ"
+, "নজরদারি প্রযুক্তি"
+, "সাইবার নিরাপত্তা"
+, "গোপনীয়তা সুরক্ষা"
+, "IoT নিরাপত্তা"
+, "শারীরিক নিরাপত্তা"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "গুরুত্বপূর্ণ অবকাঠামো"
+, "সরকারি প্রযুক্তি"</category><guid>https://bn.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safety ক্যামেরার দুর্বলতা নিয়ে এই গবেষণায় প্রকাশিত শংসাপত্র, দুর্বল সুরক্ষা, সরাসরি শারীরিক প্রবেশাধিকার এবং প্রকাশের সীমাবদ্ধতা বিশ্লেষণ করা হয়েছে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>আপনার হোম নেটওয়ার্কের জন্য ১০টি অপরিহার্য সাইবারসিকিউরিটি চেক</title><link>https://bn.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</link><pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate><category>
+"হোম নেটওয়ার্ক নিরাপত্তা"
+, "সাইবারসিকিউরিটি চেক"
+, "ডিজিটাল প্রতিরক্ষা"
+, "নেটওয়ার্ক সুরক্ষা"
+, "IoT নিরাপত্তা"
+, "ডেটা গোপনীয়তা"
+, "সাইবার হুমকি প্রতিরোধ"
+, "Wi-Fi নিরাপত্তা"
+, "ব্যক্তিগত তথ্য সুরক্ষা"
+, "ডিজিটাল নিরাপত্তা টিপস"</category><guid>https://bn.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+রাউটার আপডেট, Wi-Fi এনক্রিপশন, DNS নিরাপত্তা, ডিভাইস ইনভেন্টরি, ব্যাকআপ এবং মনিটরিং কভার করে দশটি ব্যবহারিক পরীক্ষার মাধ্যমে আপনার হোম নেটওয়ার্ক অডিট করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/10-essential-cybersecurity-checks-for-your-home-network.webp" length="141312" type="image/webp"/></item><item><title>অন্তরালের দৃষ্টিভঙ্গি: সাইবার নিরাপত্তার প্রবণতা নিয়ে বিশেষজ্ঞদের মতামত</title><link>https://bn.simeononsecurity.com/articles/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity/</link><pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তার অন্তর্দৃষ্টি"
+, "ডিজিটাল হুমকির চিত্র"
+, "নিরাপত্তা ব্যবস্থা"
+, "নিয়ন্ত্রক সম্মতি"
+, "সাইবার নিরাপত্তার চ্যালেঞ্জ"
+, "প্রযুক্তিগত অগ্রগতি"
+, "নিরাপত্তায় AI ও মেশিন লার্নিং"
+, "ব্লকচেইন প্রযুক্তি"
+, "IoT নিরাপত্তা"
+, "সাইবার নিরাপত্তার ভবিষ্যৎ প্রবণতা"
+, "বায়োমেট্রিক প্রমাণীকরণ"</category><guid>https://bn.simeononsecurity.com/articles/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+বর্তমান সাইবার হুমকি, দক্ষতার ঘাটতি, গোপনীয়তা, AI, ব্লকচেইন, IoT নিরাপত্তা, কোয়ান্টাম কম্পিউটিং, স্বয়ংক্রিয়তা এবং বায়োমেট্রিক প্রমাণীকরণ পর্যালোচনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity.webp" length="117650" type="image/webp"/></item><item><title>বাড়ির নেটওয়ার্কে Firewalla: ঘর ও হোম ল্যাবের নিরাপত্তা</title><link>https://bn.simeononsecurity.com/articles/firewalla-home-network-security-guide/</link><pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "সাইবার নিরাপত্তা"
+, "বাড়ির নেটওয়ার্ক"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "IoT নিরাপত্তা"
+, "অনলাইন নিরাপত্তা"
+, "হোম ল্যাব"
+, "ডিজিটাল সুরক্ষা"
+, "অনুপ্রবেশ শনাক্তকরণ"
+, "কনটেন্ট ফিল্টারিং"</category><guid>https://bn.simeononsecurity.com/articles/firewalla-home-network-security-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+জানুন Firewalla কীভাবে বাড়ির নেটওয়ার্ক সুরক্ষায় সাহায্য করে, এটি হোম ল্যাবের জন্য উপযোগী কি না, এবং কোন সুবিধা ও সীমাবদ্ধতা বিবেচনা করা দরকার।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/firewalla-home-network-security.webp" length="57452" type="image/webp"/></item></channel></rss>

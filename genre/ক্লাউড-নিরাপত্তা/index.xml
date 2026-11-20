@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ক্লাউড নিরাপত্তা on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>ক্লাউড নিরাপত্তা on simeononsecurity</title><link>https://bn.simeononsecurity.com/genre/%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%89%E0%A6%A1-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE/</link></image><link>https://bn.simeononsecurity.com/genre/%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%89%E0%A6%A1-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE/</link><description>Recent content in ক্লাউড নিরাপত্তা on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/genre/%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%89%E0%A6%A1-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>Bitbucket Cloud SSH কী: AI এজেন্টের জন্য শুধু-পঠন Git প্রবেশাধিকার</title><link>https://bn.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ক্লাউড নিরাপত্তা"
+, "ডেভেলপার টুল"
+, "সিস্টেম প্রশাসন"</category><guid>https://bn.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+শুধু-পঠন AI এজেন্ট কর্মপ্রবাহের জন্য Bitbucket Cloud SSH কী, Git CLI প্রবেশাধিকার, REST API টোকেন, 1Password এবং MCP টুল সেট আপ করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>২০২৬ সালে কনটেইনার আর নিরাপত্তার সীমানা নয়</title><link>https://bn.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"কনটেইনার নিরাপত্তা"
+, "Linux"
+, "কার্নেল নিরাপত্তা"
+, "ভার্চুয়ালাইজেশন"
+, "ক্লাউড নিরাপত্তা"
+, "হুমকি গবেষণা"
+, "ব্লু টিম"
+, "DevSecOps"</category><guid>https://bn.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+২০২৬ সালের কার্নেল দুর্বলতাগুলো দেখায় কেন বহু-টেন্যান্ট কনটেইনার আইসোলেশন যথেষ্ট নয়। Copy Fail, Dirty Frag, Fragnesia এবং CVE-2026-80521 সম্পর্কে জানুন, আর শক্তিশালী কনটেইনারের সঙ্গে মাইক্রোভিএম সীমার তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>Cloudflare Tunnel ও Access: দুটিই কি আপনার দরকার?</title><link>https://bn.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"নেটওয়ার্ক নিরাপত্তা"
+, "স্ব-হোস্টিং"
+, "ক্লাউড নিরাপত্তা"</category><guid>https://bn.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Cloudflare Tunnel ও Access-এর পার্থক্য বুঝুন, বাড়ির ড্যাশবোর্ডের জন্য সুরক্ষা বেছে নিন এবং প্রমাণীকরণ ছাড়া ব্যক্তিগত অ্যাপ প্রকাশ করা এড়ান।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>Microsoft SOC হোম ল্যাব: ২০২৬ সালে সাইবার নিরাপত্তার অভিজ্ঞতা গড়ুন</title><link>https://bn.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "ক্লাউড নিরাপত্তা"
+, "পেশাগত উন্নয়ন"</category><guid>https://bn.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Sentinel, Defender, Intune ও Entra দিয়ে Microsoft SOC ল্যাব তৈরি করুন। ঘটনা তদন্ত করুন, passkey নীতি যাচাই করুন এবং পোর্টফোলিওর জন্য প্রমাণ লিখে রাখুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>কার্যকরভাবে ক্লাউড সুরক্ষা</title><link>https://bn.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</link><pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate><category>
+"ক্লাউড নিরাপত্তা"
+, "ব্যবসায়িক স্থিতিস্থাপকতা"
+, "CSPM বাস্তবায়ন"
+, "সক্রিয় হুমকি শনাক্তকরণ"
+, "কমপ্লায়েন্স ব্যবস্থাপনা"
+, "নিরাপত্তা নীতি"
+, "বিভাগীয় সহযোগিতা"
+, "ক্লাউড অবকাঠামো"
+, "স্বয়ংক্রিয় নিরাপত্তা"
+, "ঝুঁকি হ্রাস"</category><guid>https://bn.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ক্লাউড নিরাপত্তা অবস্থার ব্যবস্থাপনা ব্যবহার করে ভুল কনফিগারেশন শনাক্ত করুন, নীতি প্রয়োগ করুন, সতর্কতা পরিচালনা করুন, কমপ্লায়েন্সে সহায়তা নিন এবং ক্লাউড অ্যাকাউন্টে সংশোধন পরিচালনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/leveraging-cloud-security-posture-management-%28cspm%29-for-your-business.webp" length="234272" type="image/webp"/></item><item><title>নেটওয়ার্ক ও ক্লাউড নিরাপত্তা সর্বোচ্চ করা</title><link>https://bn.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "সাইবার নিরাপত্তা"
+, "ক্লাউড নিরাপত্তা"
+, "নেটওয়ার্ক সুরক্ষা"
+, "ডিজিটাল নিরাপত্তা"
+, "তথ্যের গোপনীয়তা"
+, "আইটি নিরাপত্তা"
+, "ব্যবসায়িক প্রযুক্তি"
+, "ডিজিটাল প্রতিরক্ষা"
+, "সাইবার হুমকি"</category><guid>https://bn.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+নেটওয়ার্ক ও ক্লাউড নিরাপত্তা জোরদার করতে হুমকি, সুরক্ষামূলক ব্যবস্থা ও বাস্তব উদাহরণ জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp"/></item><item><title>সাইবার নিরাপত্তায় ক্যারিয়ারের জন্য Microsoft সার্টিফিকেশন</title><link>https://bn.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "Microsoft সার্টিফিকেশন"
+, "ক্যারিয়ার উন্নয়ন"
+, "তথ্যপ্রযুক্তি"
+, "ক্লাউড নিরাপত্তা"
+, "তথ্য ব্যবস্থাপনা"
+, "পরিচয় ও প্রবেশাধিকার ব্যবস্থাপনা"
+, "কৃত্রিম বুদ্ধিমত্তা"
+, "মেশিন লার্নিং"
+, "চাকরির বাজার"</category><guid>https://bn.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+দক্ষতার ক্ষেত্র, লক্ষ্য করা পদ, পূর্বশর্ত এবং Azure-এর প্রাসঙ্গিকতা বিবেচনা করে সাইবার নিরাপত্তার কাজের জন্য Microsoft সার্টিফিকেশন বেছে নিন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_cartoon_illustration_featuring_a_professiona.webp" length="94814" type="image/webp"/></item><item><title>AWS বনাম Azure বনাম Google Cloud 2026: পূর্ণাঙ্গ তুলনা</title><link>https://bn.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"ক্লাউড কম্পিউটিং"
+, "ক্লাউড নিরাপত্তা"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "ডেটা নিরাপত্তা"
+, "এনক্রিপশন"
+, "পরিচয় ও প্রবেশাধিকার ব্যবস্থাপনা"
+, "সম্মতি"
+, "হুমকি শনাক্তকরণ"</category><guid>https://bn.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AWS, Azure এবং Google Cloud-এর 2026 সালের তুলনা, যেখানে মূল্য, নিরাপত্তা, সম্মতি, পরিষেবা, কর্মক্ষমতা এবং প্রদানকারী বাছাই আলোচনা করা হয়েছে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item><item><title>সাইবার নিরাপত্তা ক্যারিয়ার গাইড ২০২৬</title><link>https://bn.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</link><pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "প্রযুক্তি"
+, "ক্যারিয়ার উন্নয়ন"
+, "তথ্য নিরাপত্তা"
+, "ডিজিটাল নিরাপত্তা"
+, "দক্ষতা ও সার্টিফিকেশন"
+, "চাকরির সুযোগ"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "ক্লাউড নিরাপত্তা"
+, "ক্যারিয়ার পরিকল্পনা"</category><guid>https://bn.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+২০২৬ সালের সাইবার নিরাপত্তা ক্যারিয়ার গাইডে দক্ষতা, সার্টিফিকেশন, বেতন, ক্যারিয়ারের পথ এবং চাকরির বাজারের গবেষণা রয়েছে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/cybersecurity-career-guide-essential-skills-and-certifications.webp" length="298156" type="image/webp"/></item><item><title>পেনিট্রেশন টেস্টিংয়ে দক্ষতা: উন্নত কৌশল ও বাস্তব উদাহরণ</title><link>https://bn.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "পেনিট্রেশন টেস্টিং"
+, "নৈতিক হ্যাকিং"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "ওয়েব অ্যাপ্লিকেশন নিরাপত্তা"
+, "ওয়্যারলেস নিরাপত্তা"
+, "সোশ্যাল ইঞ্জিনিয়ারিং"
+, "মোবাইল অ্যাপ্লিকেশন নিরাপত্তা"
+, "ক্লাউড নিরাপত্তা"
+, "ক্যারিয়ার উন্নয়ন"</category><guid>https://bn.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সাইবার নিরাপত্তায় আপনার দক্ষতা ও পেশাগত অগ্রগতি বাড়াতে পেনিট্রেশন টেস্টিংয়ের উন্নত কৌশল, সরঞ্জাম ও বাস্তব উদাহরণ জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp"/></item></channel></rss>

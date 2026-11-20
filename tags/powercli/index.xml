@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PowerCLI on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>PowerCLI on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/powercli/</link></image><link>https://bn.simeononsecurity.com/tags/powercli/</link><description>Recent content in PowerCLI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/powercli/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerCLI দিয়ে vCenter-এর অনুমতি অডিট করার পদ্ধতি</title><link>https://bn.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link><pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate><category>
+"vCenter অনুমতি অডিট"
+, "PowerCLI স্বয়ংক্রিয়করণ"
+, "VMware নিরাপত্তা"
+, "ভার্চুয়াল অবকাঠামো ব্যবস্থাপনা"
+, "অনুমতি বরাদ্দ"
+, "ব্যবহারকারী প্রবেশাধিকার নিয়ন্ত্রণ"
+, "নিরাপত্তা দুর্বলতা"
+, "PowerShell স্বয়ংক্রিয়করণ"
+, "vSphere পরিবেশ ব্যবস্থাপনা"
+, "ব্যবহারকারীর অনুমতি পর্যালোচনা"</category><guid>https://bn.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ভার্চুয়াল অবকাঠামো সুরক্ষিত রাখতে PowerCLI দিয়ে vCenter-এর অনুমতি অডিট করতে শিখুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/audit-permissions-vcenter-powercli.webp" length="171996" type="image/webp"/></item><item><title>VMware নিরাপত্তায় দক্ষতা অর্জন</title><link>https://bn.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "ভার্চুয়ালাইজেশন"
+, "আইটি অবকাঠামো"
+, "অটোমেশন"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "সম্মতি"
+, "স্ক্রিপ্টিং"
+, "ডেটা সেন্টার"</category><guid>https://bn.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+এই বিস্তৃত নির্দেশিকায় PowerCLI দিয়ে VMware STIG প্রয়োগ করে VMware পরিবেশ সুরক্ষিত করার পদ্ধতি জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>vSphere পরিচালনার জন্য PowerCLI দক্ষভাবে ব্যবহার</title><link>https://bn.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "ভার্চুয়ালাইজেশন"
+, "VMware"
+, "আইটি ব্যবস্থাপনা"
+, "স্বয়ংক্রিয়করণ"
+, "কমান্ড-লাইন ইন্টারফেস"
+, "স্ক্রিপ্টিং"
+, "সিস্টেম প্রশাসন"
+, "ক্লাউড কম্পিউটিং"
+, "ডেটা সেন্টার ব্যবস্থাপনা"</category><guid>https://bn.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerCLI দিয়ে VMware vSphere পরিচালনা, কাজ স্বয়ংক্রিয় করা এবং উৎপাদনশীলতা বাড়ানোর পদ্ধতি জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item></channel></rss>

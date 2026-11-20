@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llama.cpp on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>Llama.cpp on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/llama.cpp/</link></image><link>https://bn.simeononsecurity.com/tags/llama.cpp/</link><description>Recent content in Llama.cpp on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/llama.cpp/index.xml" rel="self" type="application/rss+xml"/><item><title>Hermes স্থানীয় মডেল বেঞ্চমার্ক: আমি যে GPU ও মডেল সমন্বয় বেছে নেব</title><link>https://bn.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"কৃত্রিম বুদ্ধিমত্তা"
+, "স্থানীয় AI"
+, "হার্ডওয়্যার"</category><guid>https://bn.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti ও RTX 3070 সিস্টেমে দীর্ঘ প্রসঙ্গ, টুল, স্ট্রিমিং এবং ভিশন পরীক্ষার ভিত্তিতে আমার Hermes মডেল সুপারিশ।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>আমাদের হাইব্রিড এজেন্টিক AI ফ্লিটের ভেতরে: Hermes, LiteLLM ও Tailscale</title><link>https://bn.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "স্ব-হোস্ট করা AI"
+, "AI এজেন্ট"
+, "AI অবকাঠামো"
+, "GPU মাইনিং"</category><guid>https://bn.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hermes, LiteLLM, Tailscale Aperture ও Pearl mining-সহ যাচাইকৃত lazy-loaded local AI fleet এবং এর T0 থেকে T4 control plane সম্পর্কে জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>স্থানীয় AI গোপনীয়তা: আপনার কম্পিউটারে কী থাকে এবং কী থাকে না</title><link>https://bn.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "গোপনীয়তা"
+, "নিজে হোস্ট করা AI"
+, "সাইবার নিরাপত্তা"
+, "AI অর্থনীতি"</category><guid>https://bn.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+স্থানীয় inference বা hosted AI service বেছে নেওয়ার আগে prompt, model file, tool, log, network exposure এবং বিদ্যুৎ খরচ অনুসরণ করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>গুরুতর স্থানীয় LLM কাজের জন্য 16GB VRAM কি যথেষ্ট?</title><link>https://bn.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "কম্পিউটার হার্ডওয়্যার"
+, "স্ব-হোস্টেড AI"</category><guid>https://bn.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+মডেল ওজন, KV cache এবং prompt processing অনুযায়ী 16GB স্থানীয় LLM সেটআপের আকার নির্ধারণ করুন। Qwen3.8 27B memory budget, GPU bandwidth এবং ownership cost তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>Meta-র Context Language Models: এজেন্টের উন্নত স্মৃতি, হ্যালুসিনেশনের অবসান নয়</title><link>https://bn.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"কৃত্রিম বুদ্ধিমত্তা"
+, "AI এজেন্ট"
+, "স্থানীয় AI"
+, "AI নিরাপত্তা"</category><guid>https://bn.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Context Language Models কীভাবে এজেন্টের স্মৃতি সম্পাদনা করে, বেঞ্চমার্ক কী প্রমাণ করে, এবং ক্যাশের খরচ, মডেলের সক্ষমতা ও অবিশ্বস্ত নোট কীভাবে নির্ভরযোগ্যতাকে প্রভাবিত করে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp"/></item><item><title>কোন স্থানীয় AI মডেল চালাবেন? অক্টোবর ২০২৬-এর GPU কনটেক্সট ও কোডিং গাইড</title><link>https://bn.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "AI হার্ডওয়্যার"
+, "Self-Hosted AI"
+, "GPU Benchmarking"
+, "Developer Tools"
+, "AI Economics"</category><guid>https://bn.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+কোডিং এজেন্টের জন্য স্থানীয় AI মডেল বাছাইয়ের অক্টোবর ২০২৬-এর ব্যবহারিক গাইড। GPU মেমরি, KV-cache বৃদ্ধি, কনটেক্সট আকার, quantization quality, prompt processing, reasoning settings এবং cloud rental cost তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Qwen 27B-এর জন্য 32GB VRAM: অক্টোবর 2026-এর লোকাল AI হার্ডওয়্যার গাইড</title><link>https://bn.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"লোকাল AI"
+, "AI হার্ডওয়্যার"
+, "GPU বেঞ্চমার্কিং"
+, "সেল্ফ-হোস্টেড AI"
+, "কম্পিউটার হার্ডওয়্যার"
+, "AI অর্থনীতি"</category><guid>https://bn.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+অক্টোবর 2026-এর ব্যবহারিক গাইড। 32GB ব্যবহারযোগ্য অ্যাক্সিলারেটর মেমরিতে Qwen 27B মডেল চালানো, একক GPU, দুই-কার্ড বিল্ড, unified memory, ব্যবহৃত ডেটা-সেন্টার কার্ড, ভাড়া করা কম্পিউট, সফটওয়্যার সমর্থন এবং পূর্ণ-কনটেক্সট সীমা তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>২০২৬ সালের স্থানীয় AI: 27B মডেল Sonnet 4.6-কে ছাড়িয়েছে, আর হার্ডওয়্যার কেনার সুযোগ শেষ হচ্ছে</title><link>https://bn.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "স্ব-হোস্টেড AI"
+, "ওপেন-সোর্স মডেল"
+, "AI হার্ডওয়্যার"
+, "মেশিন লার্নিং"
+, "কোয়ান্টাইজেশন"
+, "হোম ল্যাব"
+, "গোপনীয়তা"
+, "AI অর্থনীতি"
+, "ভোক্তা হার্ডওয়্যার"</category><guid>https://bn.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+মডেলের আকার, VRAM, মেমরি ব্যান্ডউইথ, বিদ্যুৎ, খরচ এবং আপগ্রেডের সুযোগ ধরে ২০২৬ সালের স্থানীয় AI কম্পিউটার পরিকল্পনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>স্থানীয় মডেলে Claude Cowork ও Claude Code: ২০২৬ সালের সেটআপ গাইড</title><link>https://bn.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় এআই"
+, "এআই প্রোগ্রামিং টুল"
+, "স্ব-হোস্ট করা এআই"
+, "ডেভেলপার টুল"
+, "গোপনীয়তা"
+, "ওপেন সোর্স মডেল"
+, "স্বয়ংক্রিয়করণ"
+, "এআই হার্ডওয়্যার"</category><guid>https://bn.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Anthropic-সামঞ্জস্যপূর্ণ API ব্যবহার করে Claude Desktop ও Claude Code-এর সঙ্গে Ollama কনফিগার করুন। ২০২৬ সালের মডেল ও ক্লাউড-নির্ভর ফিচারগুলো দেখুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item></channel></rss>

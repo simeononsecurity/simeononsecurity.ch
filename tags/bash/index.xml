@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bash on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>Bash on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/bash/</link></image><link>https://bn.simeononsecurity.com/tags/bash/</link><description>Recent content in Bash on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/bash/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows ও Linux সুরক্ষিত করা</title><link>https://bn.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "স্ক্রিপ্টিং ভাষা"
+, "সিস্টেম নিরাপত্তা"
+, "Windows"
+, "Linux"
+, "সরকারি বিধিবিধান"
+, "সাইবার হুমকি"
+, "নিরাপদ স্ক্রিপ্টিং"
+, "বিধি মেনে চলা"
+, "প্রোগ্রামিং"</category><guid>https://bn.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সাইবার নিরাপত্তার এই বিশদ বিশ্লেষণে PowerShell ও Python দিয়ে সিস্টেমের নিরাপত্তা বাড়ানোর উপায় জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp"/></item><item><title>আইটি ও সাইবার নিরাপত্তার জন্য কি প্রোগ্রামিং শেখা উচিত?</title><link>https://bn.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"IT and Cyber Security"
+, "Programming Skills"
+, "Career Advancement"
+, "Automation"
+, "Command Line"
+, "Scripting"
+, "Infrastructure Deployment"
+, "Data Analysis"
+, "Security Testing"
+, "Professional Development"</category><guid>https://bn.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+আইটি বা সাইবার নিরাপত্তায় আপনার কর্মপথে সহায়ক প্রোগ্রামিং দক্ষতা বেছে নিন, তারপর PowerShell, Bash, Python, Ansible, Packer বা Terraform দিয়ে শুরু করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp" length="111480" type="image/webp"/></item><item><title>আপনার টার্মিনালে ChatGPT ব্যবহার করুন (Bash, PowerShell, Python): ডেভেলপারদের জন্য ChatGPT CLI টুলের একটি ভূমিকা</title><link>https://bn.simeononsecurity.com/articles/use-chatgpt-in-your-terminal-bash-powershell-python/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><category>
+"চ্যাটজিপিটি"
+, "OpenAI"
+, "কমান্ড লাইন ইন্টারফেস"
+, "সিএলআই"
+, "পাঠ্য প্রজন্ম"
+, "প্রশ্নের উত্তর"
+, "বিকাশকারী টুলকিট"
+, "পিপ প্যাকেজ ম্যানেজার"
+, "পাইথন 3.5"
+, "PowerShell"
+, "Bash"</category><guid>https://bn.simeononsecurity.com/articles/use-chatgpt-in-your-terminal-bash-powershell-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সহজে পাঠ্য তৈরি এবং প্রশ্নের উত্তর দেওয়ার জন্য সুবিধাজনক কমান্ড লাইন ইন্টারফেস (CLI) এর মাধ্যমে OpenAI এর ChatGPT মডেলটি কীভাবে ব্যবহার করবেন তা শিখুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_developer_sitting_at_their_computer_typing.webp" length="137644" type="image/webp"/></item></channel></rss>

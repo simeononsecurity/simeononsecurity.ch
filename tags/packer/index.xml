@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Packer on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>Packer on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/packer/</link></image><link>https://bn.simeononsecurity.com/tags/packer/</link><description>Recent content in Packer on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/packer/index.xml" rel="self" type="application/rss+xml"/><item><title>ইনফ্রাস্ট্রাকচার অ্যাজ কোডের জন্য Packer পরিচিতি</title><link>https://bn.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"Packer"
+, "ইনফ্রাস্ট্রাকচার অ্যাজ কোড"
+, "উন্নয়ন ও পরিচালনা"
+, "স্বয়ংক্রিয়করণ"
+, "নিরাপত্তা"
+, "পুনরাবৃত্তিযোগ্যতা"
+, "স্কেলযোগ্যতা"
+, "বহু-প্ল্যাটফর্ম"
+, "সংস্করণ নিয়ন্ত্রণ"
+, "ক্লাউড কম্পিউটিং"
+, "মেশিন ইমেজ"
+, "ভার্চুয়ালাইজেশন"
+, "কনফিগারেশন ব্যবস্থাপনা"
+, "ক্রমাগত ইন্টিগ্রেশন"
+, "ক্রমাগত ডেলিভারি"
+, "সফটওয়্যার উন্নয়ন"
+, "সেরা অনুশীলন"
+, "পরীক্ষা"
+, "ওপেন সোর্স"
+, "মাল্টি-ক্লাউড"</category><guid>https://bn.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Packer ব্যবহার করে সহজে রক্ষণাবেক্ষণযোগ্য ও নিরাপদ মেশিন ইমেজ তৈরির পদ্ধতি জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.webp" length="175658" type="image/webp"/></item><item><title>আইটি ও সাইবার নিরাপত্তার জন্য কি প্রোগ্রামিং শেখা উচিত?</title><link>https://bn.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"IT and Cyber Security"
+, "Programming Skills"
+, "Career Advancement"
+, "Automation"
+, "Command Line"
+, "Scripting"
+, "Infrastructure Deployment"
+, "Data Analysis"
+, "Security Testing"
+, "Professional Development"</category><guid>https://bn.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+আইটি বা সাইবার নিরাপত্তায় আপনার কর্মপথে সহায়ক প্রোগ্রামিং দক্ষতা বেছে নিন, তারপর PowerShell, Bash, Python, Ansible, Packer বা Terraform দিয়ে শুরু করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp" length="111480" type="image/webp"/></item></channel></rss>

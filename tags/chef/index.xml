@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chef on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>Chef on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/chef/</link></image><link>https://bn.simeononsecurity.com/tags/chef/</link><description>Recent content in Chef on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/chef/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansible বনাম Puppet বনাম Chef 2026: কনফিগারেশন ব্যবস্থাপনা</title><link>https://bn.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "অবকাঠামো অটোমেশন"
+, "কনফিগারেশন ব্যবস্থাপনা"
+, "আইটি অপারেশন"
+, "ক্লাউড কম্পিউটিং"
+, "সিস্টেম প্রশাসন"
+, "এন্টারপ্রাইজ আইটি"
+, "সফটওয়্যার উন্নয়ন"
+, "আইটি অবকাঠামো"
+, "অটোমেশন টুল"</category><guid>https://bn.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026 সালে Ansible, Puppet এবং Chef-এর তুলনা, যেখানে আর্কিটেকচার, ফিচার, শেখার সময়, পারফরম্যান্স, মূল্য এবং ব্যবহারক্ষেত্র অন্তর্ভুক্ত।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>Ansible বনাম Puppet বনাম Chef: অটোমেশন টুলের তুলনা</title><link>https://bn.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "অটোমেশন টুল"
+, "কনফিগারেশন ব্যবস্থাপনা"
+, "আইটি অবকাঠামো"
+, "DevOps"
+, "আইটি কার্যক্রম"
+, "ক্লাউড অটোমেশন"
+, "সফটওয়্যার স্থাপন"
+, "অবকাঠামো ব্যবস্থাপনা"
+, "ওপেন-সোর্স টুল"</category><guid>https://bn.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+আপনার প্রতিষ্ঠানের প্রয়োজন অনুযায়ী সঠিক অটোমেশন টুল বেছে নিতে Ansible, Puppet ও Chef-এর পার্থক্য তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef.webp" length="227428" type="image/webp"/></item></channel></rss>

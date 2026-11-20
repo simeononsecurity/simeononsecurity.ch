@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI এজেন্ট on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>AI এজেন্ট on simeononsecurity</title><link>https://bn.simeononsecurity.com/genre/ai-%E0%A6%8F%E0%A6%9C%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F/</link></image><link>https://bn.simeononsecurity.com/genre/ai-%E0%A6%8F%E0%A6%9C%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F/</link><description>Recent content in AI এজেন্ট on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/genre/ai-%E0%A6%8F%E0%A6%9C%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F/index.xml" rel="self" type="application/rss+xml"/><item><title>স্ব-হোস্টেড Hindsight: স্থানীয় এজেন্ট মেমরি ও ব্যক্তিগত মডেল রাউটিং</title><link>https://bn.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "স্ব-হোস্টেড AI"
+, "AI এজেন্ট"
+, "AI অবকাঠামো"
+, "গোপনীয়তা"</category><guid>https://bn.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+স্ব-হোস্টেড Hindsight, পর্যবেক্ষিত স্থানীয় Qwen রুট এবং পরীক্ষিত পথে হোস্টেড মডেল সাবস্ক্রিপশন ছাড়া অনুরোধভিত্তিক GPU কাজের একটি কেস স্টাডি।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>আমাদের হাইব্রিড এজেন্টিক AI ফ্লিটের ভেতরে: Hermes, LiteLLM ও Tailscale</title><link>https://bn.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "স্ব-হোস্ট করা AI"
+, "AI এজেন্ট"
+, "AI অবকাঠামো"
+, "GPU মাইনিং"</category><guid>https://bn.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hermes, LiteLLM, Tailscale Aperture ও Pearl mining-সহ যাচাইকৃত lazy-loaded local AI fleet এবং এর T0 থেকে T4 control plane সম্পর্কে জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>Meta-র Context Language Models: এজেন্টের উন্নত স্মৃতি, হ্যালুসিনেশনের অবসান নয়</title><link>https://bn.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"কৃত্রিম বুদ্ধিমত্তা"
+, "AI এজেন্ট"
+, "স্থানীয় AI"
+, "AI নিরাপত্তা"</category><guid>https://bn.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Context Language Models কীভাবে এজেন্টের স্মৃতি সম্পাদনা করে, বেঞ্চমার্ক কী প্রমাণ করে, এবং ক্যাশের খরচ, মডেলের সক্ষমতা ও অবিশ্বস্ত নোট কীভাবে নির্ভরযোগ্যতাকে প্রভাবিত করে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp"/></item></channel></rss>

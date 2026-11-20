@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>নিরাপত্তা গবেষণা on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>নিরাপত্তা গবেষণা on simeononsecurity</title><link>https://bn.simeononsecurity.com/genre/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%97%E0%A6%AC%E0%A7%87%E0%A6%B7%E0%A6%A3%E0%A6%BE/</link></image><link>https://bn.simeononsecurity.com/genre/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%97%E0%A6%AC%E0%A7%87%E0%A6%B7%E0%A6%A3%E0%A6%BE/</link><description>Recent content in নিরাপত্তা গবেষণা on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/genre/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%97%E0%A6%AC%E0%A7%87%E0%A6%B7%E0%A6%A3%E0%A6%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>আমরা 146,526টি “Flock ক্যামেরা” মানচিত্রে দেখিয়েছি। এর মধ্যে 50,278টি ছিল ClickShare সিস্টেম</title><link>https://bn.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link><pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate><category>
+"নিরাপত্তা গবেষণা"
+, "গোপনীয়তা প্রযুক্তি"
+, "ওপেন সোর্স প্রকল্প"
+, "ডেটা সাংবাদিকতা"
+, "নজরদারি-বিরোধিতা"</category><guid>https://bn.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder-এর অডিট ClickShare ও অন্যান্য ভুল শনাক্তকরণ চিহ্নিত করে, প্রমাণ ব্যাখ্যা করে এবং পরিবর্তনগুলো নথিবদ্ধ করে।</description></item><item><title>Flock ক্যামেরা শনাক্তকরণের প্রতিযোগিতা: ২০২৬ সালে কী বদলেছে</title><link>https://bn.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"গোপনীয়তা প্রযুক্তি"
+, "নজরদারি প্রতিরোধ"
+, "ওপেন সোর্স প্রকল্প"
+, "ডিজিটাল অধিকার"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "নিরাপত্তা গবেষণা"
+, "হার্ডওয়্যার পরিবর্তন"
+, "গোপনীয়তার সরঞ্জাম"</category><guid>https://bn.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safety শনাক্তকরণে রিপোর্ট করা পরিবর্তন, কমিউনিটির প্রতিক্রিয়া, এবং ক্যামেরা সিস্টেম শনাক্তে ইনফ্রারেড পদ্ধতি পর্যালোচনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>Flock Finder: Flock Safety ALPR ক্যামেরার মানচিত্র</title><link>https://bn.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"গোপনীয়তা প্রযুক্তি"
+, "পাল্টা নজরদারি"
+, "ওপেন সোর্স প্রকল্প"
+, "ডিজিটাল অধিকার"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "গোপনীয়তা সরঞ্জাম"
+, "হার্ডওয়্যার হ্যাকিং"
+, "নিরাপত্তা গবেষণা"</category><guid>https://bn.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder একটি ওপেন-সোর্স টুল যা WiGLE WiFi ডেটা এবং OUI ফিঙ্গারপ্রিন্টিং ব্যবহার করে বিশ্বজুড়ে ৪০,০০০+ Flock Safety ALPR ক্যামেরার মানচিত্র তৈরি করে। এটি কীভাবে কাজ করে, এর সীমাবদ্ধতা এবং রিয়েল-টাইম সনাক্তকরণের জন্য হার্ডওয়্যার টুল সম্পর্কে জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Orbic RCL400-এর জন্য DagShell কাস্টম ফার্মওয়্যার: ২০২৬ নির্দেশিকা</title><link>https://bn.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"কাস্টম ফার্মওয়্যার"
+, "মোবাইল নিরাপত্তা"
+, "গোপনীয়তা সরঞ্জাম"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "ওয়ারড্রাইভিং"
+, "পেনেট্রেশন টেস্টিং"
+, "IoT নিরাপত্তা"
+, "নিরাপত্তা গবেষণা"
+, "হার্ডওয়্যার নিরাপত্তা"
+, "গোপনীয়তা প্রযুক্তি"</category><guid>https://bn.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Orbic RCL400-এর DagShell ফার্মওয়্যারের প্রযুক্তিগত নির্দেশিকা। ইনস্টলেশন, গোপনীয়তা সরঞ্জাম, ওয়ারড্রাইভিং ও গবেষণার সীমা ব্যাখ্যা করা হয়েছে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>Flock Safety ক্যামেরার দুর্বলতা: ৫০টিরও বেশি ত্রুটি শনাক্ত</title><link>https://bn.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"নিরাপত্তা গবেষণা"
+, "দুর্বলতা বিশ্লেষণ"
+, "নজরদারি প্রযুক্তি"
+, "সাইবার নিরাপত্তা"
+, "গোপনীয়তা সুরক্ষা"
+, "IoT নিরাপত্তা"
+, "শারীরিক নিরাপত্তা"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "গুরুত্বপূর্ণ অবকাঠামো"
+, "সরকারি প্রযুক্তি"</category><guid>https://bn.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safety ক্যামেরার দুর্বলতা নিয়ে এই গবেষণায় প্রকাশিত শংসাপত্র, দুর্বল সুরক্ষা, সরাসরি শারীরিক প্রবেশাধিকার এবং প্রকাশের সীমাবদ্ধতা বিশ্লেষণ করা হয়েছে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item></channel></rss>

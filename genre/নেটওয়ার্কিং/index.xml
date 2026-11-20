@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>নেটওয়ার্কিং on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>নেটওয়ার্কিং on simeononsecurity</title><link>https://bn.simeononsecurity.com/genre/%E0%A6%A8%E0%A7%87%E0%A6%9F%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%82/</link></image><link>https://bn.simeononsecurity.com/genre/%E0%A6%A8%E0%A7%87%E0%A6%9F%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%82/</link><description>Recent content in নেটওয়ার্কিং on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/genre/%E0%A6%A8%E0%A7%87%E0%A6%9F%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%82/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture: ২০২৬ সালে ইনফারেন্স ও MCP-এর জন্য AI ক্লায়েন্ট কনফিগার করুন</title><link>https://bn.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"কৃত্রিম বুদ্ধিমত্তা"
+, "ডেভেলপার টুল"
+, "নেটওয়ার্কিং"</category><guid>https://bn.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Tailscale Aperture দিয়ে মডেল অনুরোধ ও MCP টুল রুট করুন। অন্য ডিভাইস বা গেটওয়েতে Codex, Claude Code, Claude Desktop, OpenCode এবং Hermes সেট আপ করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>VPN দিয়ে ব্রাউজারের DNS ও WebRTC লিক পরীক্ষা করুন</title><link>https://bn.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"গোপনীয়তা"
+, "ব্রাউজার"
+, "নেটওয়ার্কিং"</category><guid>https://bn.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+VPN সংযোগের আগে ও পরে ব্রাউজারের পাবলিক IP, DNS resolver এবং WebRTC ঠিকানা পরীক্ষা করুন। ফলাফল বুঝুন এবং রাউটিং সমস্যা অনুসন্ধান করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>হোমল্যাব VLAN সেগমেন্টেশন পরিকল্পনা ও পরীক্ষা করুন</title><link>https://bn.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"হোমল্যাব"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "নেটওয়ার্কিং"</category><guid>https://bn.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+হোমল্যাবে বিশ্বস্ত ডিভাইস, সার্ভার, IoT ও অতিথিদের আলাদা রাখতে VLAN পরিকল্পনা তৈরি করুন। অনুমোদিত ট্র্যাফিক লিখে রাখুন, ধাপে ধাপে নেটওয়ার্ক কনফিগার করুন এবং আইসোলেশন পরীক্ষা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Meshtastic বনাম MeshCore বনাম Reticulum</title><link>https://bn.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "মেশ নেটওয়ার্কিং"
+, "অফ-গ্রিড যোগাযোগ"
+, "জরুরি যোগাযোগ"
+, "হ্যাম রেডিও"
+, "ওপেন সোর্স"
+, "দুর্যোগ প্রস্তুতি"
+, "ওয়্যারলেস নেটওয়ার্ক"
+, "গোপনীয়তা"
+, "নেটওয়ার্কিং"</category><guid>https://bn.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+রাউটিং, এয়ারটাইম, অবকাঠামো, ট্রান্সপোর্ট এবং অফ-গ্রিড ব্যবহারের ভিত্তিতে Meshtastic, MeshCore ও Reticulum তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>মাঠপর্যায়ে বিদ্যুৎ ও পরিবেশগত স্থিতিস্থাপকতা</title><link>https://bn.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"এজ কম্পিউটিং"
+, "মাঠপর্যায়ের আইটি"
+, "বিদ্যুৎ ব্যবস্থা"
+, "হার্ডওয়্যার"
+, "দুর্যোগ পুনরুদ্ধার"
+, "রাগড কম্পিউটিং"
+, "নেটওয়ার্কিং"</category><guid>https://bn.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+মাঠপর্যায়ের এজ কম্পিউটিংয়ের জন্য বিদ্যুৎ ও পরিবেশগত সুরক্ষা পরিকল্পনা করুন। UPS-এর মাপ নির্ধারণ, সৌর প্যানেল, ব্যাটারি, সময় সমন্বয়, সুরক্ষা রেটিং, গ্রাউন্ডিং ও সার্জ সুরক্ষা সম্পর্কে জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>সেরা হোমল্যাব কনটেন্ট নির্মাতারা</title><link>https://bn.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "নেটওয়ার্কিং"
+, "নিজে করুন"
+, "ভার্চুয়ালাইজেশন"
+, "হোমল্যাব"
+, "প্রযুক্তিপ্রেমী"
+, "কমিউনিটি"
+, "শেখা"
+, "উদ্ভাবন"
+, "নির্দেশিকা"</category><guid>https://bn.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+প্রভাবশালী হোমল্যাব নির্মাতাদের খুঁজুন, উৎসাহীদের সঙ্গে যুক্ত হন এবং প্রযুক্তি শেখার যাত্রা শুরু করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item><item><title>ওয়াই-ফাই কভারেজ উন্নত করতে অ্যাক্সেস পয়েন্ট কীভাবে বসাবেন</title><link>https://bn.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "নেটওয়ার্কিং"
+, "ওয়্যারলেস নেটওয়ার্ক"
+, "অ্যাক্সেস পয়েন্ট"
+, "ওয়াই-ফাই ইনস্টলেশন"
+, "নেটওয়ার্ক অপ্টিমাইজেশন"
+, "হোম নেটওয়ার্কিং"
+, "ওয়্যারলেস সংযোগ"
+, "ইন্টারনেট অব থিংস"
+, "নেটওয়ার্ক সমাধান"</category><guid>https://bn.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ওয়্যারলেস সংযোগ উন্নত করতে, হস্তক্ষেপ কমাতে এবং নেটওয়ার্কের স্থিতিশীল কার্যক্ষমতা বজায় রাখতে অ্যাক্সেস পয়েন্ট বসানোর সেরা পদ্ধতিগুলো জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp"/></item><item><title>নেটওয়ার্ক প্লাস কোর্স: নেটওয়ার্ক সফটওয়্যার টুলস মাস্টার করা...</title><link>https://bn.simeononsecurity.com/network-plus/network-plus-course-network-software-tools-commands/</link><pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate><category>
+"নেটওয়ার্কিং"
+, "নেটওয়ার্ক টুলস"
+, "কমান্ড লাইন ইউটিলিটিস"
+, "নেটওয়ার্ক সমস্যা সমাধান"
+, "CompTIA Network+ সার্টিফিকেশন"
+, "নেটওয়ার্ক ব্যবস্থাপনা"
+, "নেটওয়ার্ক কনফিগারেশন"
+, "ওয়াইফাই বিশ্লেষণ"
+, "প্যাকেট ক্যাপচার"
+, "ব্যান্ডউইথ টেস্টিং"</category><guid>https://bn.simeononsecurity.com/network-plus/network-plus-course-network-software-tools-commands/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+প্রয়োজনীয় নেটওয়ার্ক সফটওয়্যার টুলস এবং কমান্ড লাইন ইউটিলিটিগুলো অন্বেষণ করুন, তাদের ব্যবহার শিখুন, এবং এই ব্যাপক Network+ সার্টিফিকেশন পরীক্ষার কোর্সের মাধ্যমে দক্ষতার সাথে সমস্যা সমাধান করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/An_engaging_cartoon-style_illustration_showing_a_network_professional.webp" length="147920" type="image/webp"/></item><item><title>নেটওয়ার্কের মৌলিক বিষয়: সুইচ, রাউটার, ফায়ারওয়াল ও DMZ</title><link>https://bn.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"নেটওয়ার্কিং"
+, "আইটি অবকাঠামো"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "নেটওয়ার্ক স্থাপত্য"
+, "সাইবার নিরাপত্তা"
+, "ডেটা যোগাযোগ"
+, "তথ্যপ্রযুক্তি"
+, "আইটির মৌলিক বিষয়"
+, "নেটওয়ার্ক ব্যবস্থাপনা"
+, "ইন্টারনেট সংযোগ"</category><guid>https://bn.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সুইচ, রাউটার, গেটওয়ে, সাবনেট, ফায়ারওয়াল ও DMZ কীভাবে নেটওয়ার্ক ট্র্যাফিক ভাগ করে এবং নিরাপত্তার সীমানা কার্যকর করে তা জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item><item><title>নেটওয়ার্ক+ কোর্স: ARP এবং নেবার ডিসকভারি প্রোটোকল</title><link>https://bn.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "নেটওয়ার্কিং"
+, "প্রোটোকল"
+, "নেটওয়ার্ক+ সার্টিফিকেশন"
+, "সমস্যা সমাধান"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "IPv4"
+, "IPv6"
+, "নেটওয়ার্ক যোগাযোগ"
+, "ঠিকানা রেজোলিউশন"</category><guid>https://bn.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+কিভাবে এড্রেস রেজোলিউশন প্রোটোকল (ARP) এবং নেবার ডিসকভারি প্রোটোকল (NDP) কার্যকরভাবে ব্যবহার করে IP ঠিকানাকে MAC ঠিকানায় রূপান্তর করা যায়, IPv6 নেটওয়ার্কে নেভিগেট করা যায় এবং সাধারণ সমস্যাগুলি সমাধান করে নেটওয়ার্কের কর্মক্ষমতা ও নিরাপত্তা উন্নত করা যায় তা শিখুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_the_seamless.webp" length="89092" type="image/webp"/></item><item><title>সংযোগভিত্তিক ও সংযোগবিহীন যোগাযোগের পার্থক্য</title><link>https://bn.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "নেটওয়ার্কিং"
+, "যোগাযোগ"
+, "প্রোটোকল"
+, "কম্পিউটার বিজ্ঞান"
+, "ডেটা স্থানান্তর"
+, "নেটওয়ার্ক অবকাঠামো"
+, "ইন্টারনেট"
+, "তথ্যপ্রযুক্তি"
+, "টেলিযোগাযোগ"</category><guid>https://bn.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+নেটওয়ার্ক যোগাযোগে সংযোগভিত্তিক ও সংযোগবিহীন পদ্ধতির পার্থক্য, প্রোটোকল, সেবা এবং রাউটিং পদ্ধতি জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/An_illustration_showing_two_devices_connected.webp" length="39168" type="image/webp"/></item></channel></rss>

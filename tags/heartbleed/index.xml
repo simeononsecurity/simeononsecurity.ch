@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Heartbleed on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>Heartbleed on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/heartbleed/</link></image><link>https://bn.simeononsecurity.com/tags/heartbleed/</link><description>Recent content in Heartbleed on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/heartbleed/index.xml" rel="self" type="application/rss+xml"/><item><title>SSL এবং TLS 1.1 ও তার আগের সংস্করণ বন্ধ করে কম্পিউটারের নিরাপত্তা জোরদার করুন</title><link>https://bn.simeononsecurity.com/articles/hardening-tls-and-ssl/</link><pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate><category>
+"কম্পিউটার নিরাপত্তা জোরদার"
+, "SSL এবং TLS বন্ধ করা"
+, "ডেটা নিরাপত্তা"
+, "POODLE"
+, "BEAST"
+, "Heartbleed"
+, "Windows রেজিস্ট্রি এডিটর"
+, "Linux OpenSSL কনফিগারেশন"
+, "Apache"
+, "Nginx"</category><guid>https://bn.simeononsecurity.com/articles/hardening-tls-and-ssl/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+TLS 1.2 বা নতুন সংস্করণ চালু রেখে SSL ও পুরোনো TLS সংস্করণ বন্ধ করুন। এতে Windows Schannel, .NET এবং Linux পরিষেবা আলোচিত হয়েছে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp" length="106014" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>এম্বেডিং on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>এম্বেডিং on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/%E0%A6%8F%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%A1%E0%A6%BF%E0%A6%82/</link></image><link>https://bn.simeononsecurity.com/tags/%E0%A6%8F%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%A1%E0%A6%BF%E0%A6%82/</link><description>Recent content in এম্বেডিং on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/%E0%A6%8F%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%A1%E0%A6%BF%E0%A6%82/index.xml" rel="self" type="application/rss+xml"/><item><title>স্ব-হোস্টেড Hindsight: স্থানীয় এজেন্ট মেমরি ও ব্যক্তিগত মডেল রাউটিং</title><link>https://bn.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "স্ব-হোস্টেড AI"
+, "AI এজেন্ট"
+, "AI অবকাঠামো"
+, "গোপনীয়তা"</category><guid>https://bn.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+স্ব-হোস্টেড Hindsight, পর্যবেক্ষিত স্থানীয় Qwen রুট এবং পরীক্ষিত পথে হোস্টেড মডেল সাবস্ক্রিপশন ছাড়া অনুরোধভিত্তিক GPU কাজের একটি কেস স্টাডি।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>আমাদের হাইব্রিড এজেন্টিক AI ফ্লিটের ভেতরে: Hermes, LiteLLM ও Tailscale</title><link>https://bn.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "স্ব-হোস্ট করা AI"
+, "AI এজেন্ট"
+, "AI অবকাঠামো"
+, "GPU মাইনিং"</category><guid>https://bn.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hermes, LiteLLM, Tailscale Aperture ও Pearl mining-সহ যাচাইকৃত lazy-loaded local AI fleet এবং এর T0 থেকে T4 control plane সম্পর্কে জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>AI সোর্স রিট্রিভাল: ম্যাপ, সার্চ এবং ঐচ্ছিক RAG</title><link>https://bn.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"কৃত্রিম বুদ্ধিমত্তা"
+, "দলীয় সহযোগিতা"
+, "সফটওয়্যার ইঞ্জিনিয়ারিং"</category><guid>https://bn.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+কর্তৃত্ব না বদলে ম্যাপ-প্রথম সোর্স লুকআপ, নেটিভ সার্চ, লাইভ-সোর্স যাচাই এবং ঐচ্ছিক RAG মূল্যায়ন ব্যবহার করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item></channel></rss>
