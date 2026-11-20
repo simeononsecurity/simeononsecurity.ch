@@ -585,6 +585,12 @@
   all reader-facing metadata and prose, resolve confirmed English copy, and
   record any false positives before peer review. Do not approve a bundle solely because the
   checker returns no flags.
+  Before repairing a saved leakage report, regenerate it from the current
+  source and translation files and inspect the exact flagged text. Reports can
+  be stale, and technical names, UI labels, bibliography titles, and mixed
+  script prose can trigger screening flags without being English fallbacks.
+  Never replace a locale file based on a report summary alone; record the live
+  path, exact phrase, and disposition for every confirmed fallback or exception.
   In translated lists of linked products or organizations, translate connective
   prose as well as surrounding sentences. In particular, do not leave the
   English conjunctions `and` or `or` before the final Markdown link. The strict
@@ -753,7 +759,10 @@
 - Scan the full translated prose for style violations. A filter requiring Latin
   letters skips paragraphs written entirely in another script.
 - Check Punjabi, Bengali, and Hindi for stray letters from other Indic scripts.
-  Exclude shared punctuation such as danda from wrong-script findings.
+  Scan every changed file after the final edits, not only reviewer-cited words.
+  A file containing the expected script can still contain stray characters or
+  words from another Indic script. Exclude shared punctuation such as danda
+  from wrong-script findings.
 - Render a copied subset with the real Hugo templates for large multilingual
   batches. Verify expected output files exist, then inspect language metadata,
   article text, image paths, and structured data. Inspect user-facing text emitted
@@ -764,6 +773,24 @@
   Hugo 0.169 does not accept `--resourceDir`. When a copied render needs an
   isolated resource directory, set `resourceDir` in a task-scoped TOML overlay
   and include that overlay after the locale config in `--config`.
+- Mixed-language sentences need a phrase-level check even when the paragraph is
+  mostly translated. The strict checker blocks unchanged generic phrases such
+  as `incident response`, `best practices`, and `supply chain`; translate them
+  unless a specific product, publication, or organization name requires the
+  English wording. It also blocks reviewed phonetic spellings of `incident
+  response` in Bengali, Hindi, Punjabi, and Japanese, plus `supply chain` in
+  Japanese. Keep any named-entity exception in the review record.
+- Treat the locale extension as routing metadata, not evidence of translation.
+  Run the blocking leakage check on every candidate before adding it to
+  `content/articles/`, then inspect any English-dominant heading, sentence,
+  table cell, metadata value, or link label manually. Keep official publication
+  titles and product or organization names in their source language when
+  needed, but translate descriptive reference labels such as `Best Practice
+  Framework`. Record the reason when an English title or name remains.
+- When an exact English browser or application UI label must remain so readers
+  find the control, add a concise target-language gloss beside it in every
+  instruction where the label appears. Translate the surrounding sentence and
+  record the literal label and gloss as the reason for retaining English.
 - Distinguish automated structural checks from native-speaker review. Translation
   work does not establish a new technical fact-check of the English source.
 

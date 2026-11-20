@@ -47,6 +47,7 @@ from check_translation_english_leakage import (
     markdown_structure,
     markdown_structure_differences,
     hugo_github_heading_ids,
+    is_reference_heading,
     normalize,
     fenced_blocks,
     prose_sentences_with_link_slots,
@@ -61,6 +62,9 @@ from check_translation_english_leakage import (
 
 
 class FencedProseTests(unittest.TestCase):
+    def test_german_quellen_heading_marks_following_citation_titles_as_references(self):
+        self.assertTrue(is_reference_heading("Quellen"))
+
     def test_front_matter_scalar_reads_unquoted_and_folded_english_metadata(self):
         header = (
             "title: English title\n"
@@ -3681,6 +3685,62 @@ print('She said "Continue before saving"')
             [],
         )
         self.assertEqual(copied_english_mixed_phrases("Astra max", "Astra max", "bn"), [])
+
+    def test_generic_descriptor_screen_catches_mixed_dutch_fallbacks(self):
+        source = "Incident response needs best practices across the supply chain."
+        target = "Incident response vraagt om best practices in de Supply Chain."
+        self.assertEqual(
+            copied_english_generic_terms(source, target, "nl"),
+            ["best practices", "incident response", "supply chain"],
+        )
+
+    def test_generic_descriptor_screen_catches_dutch_automation_fallbacks(self):
+        source = (
+            "Configuration management tools support use cases such as server provisioning, "
+            "compliance auditing, continuous delivery, DevOps workflows, and compliance management."
+        )
+        target = (
+            "configuration management tools support use cases such as server provisioning, "
+            "compliance auditing, continuous delivery, DevOps workflows, and compliance management."
+        )
+        self.assertEqual(
+            copied_english_generic_terms(source, target, "nl"),
+            [
+                "compliance auditing",
+                "compliance management",
+                "configuration management tools",
+                "continuous delivery",
+                "devops workflows",
+                "server provisioning",
+                "use cases",
+            ],
+        )
+
+    def test_generic_descriptor_screen_catches_italian_security_fallbacks(self):
+        source = "Penetration testing used a captive portal with a companion Raspberry Pi."
+        target = "Penetration testing used a captive portal with a companion Raspberry Pi."
+        self.assertEqual(
+            copied_english_generic_terms(source, target, "it"),
+            ["captive portal", "companion raspberry pi", "penetration testing"],
+        )
+
+    def test_generic_descriptor_screen_catches_phonetic_transliterations(self):
+        self.assertEqual(
+            copied_english_generic_terms(
+                "incident response supports the supply chain",
+                "ইনসিডেন্ট রেসপন্স স্থানীয় সহায়তা প্রদান করে",
+                "bn",
+            ),
+            ["incident response"],
+        )
+        self.assertEqual(
+            copied_english_generic_terms(
+                "incident response and supply chain",
+                "インシデントレスポンスとサプライチェーン",
+                "ja",
+            ),
+            ["incident response", "supply chain"],
+        )
 
 
 if __name__ == "__main__":

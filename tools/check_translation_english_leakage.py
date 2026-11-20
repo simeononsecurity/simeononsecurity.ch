@@ -87,7 +87,19 @@ GENERIC_ENGLISH_TAXONOMY_LABELS = {
 }
 GENERIC_ENGLISH_TECHNICAL_TERMS = {
     "gps wardriving", "hardware controller", "multi-gigabit", "open source security platform",
-    "use prepared statements",
+    "use prepared statements", "incident response", "best practices", "supply chain",
+    "configuration management tools", "use cases", "server provisioning", "compliance auditing",
+    "continuous delivery", "devops workflows", "compliance management", "penetration testing",
+    "captive portal", "companion raspberry pi",
+}
+TRANSLITERATED_GENERIC_ENGLISH_TERMS = {
+    "bn": {"incident response": {"ইনসিডেন্ট রেসপন্স"}},
+    "hi": {"incident response": {"इंसिडेंट रिस्पॉन्स"}},
+    "ja": {
+        "incident response": {"インシデントレスポンス"},
+        "supply chain": {"サプライチェーン"},
+    },
+    "pa": {"incident response": {"ਇਨਸਿਡੈਂਟ ਰਿਸਪਾਂਸ"}},
 }
 MIXED_PHRASE_FIXED_VALUES = {"astra max", "glm-5 max", "opus max"}
 MIXED_PHRASE_STRICT_BLOCKER_THRESHOLD = 20
@@ -228,7 +240,7 @@ SCRIPT_RANGES = {
 }
 REFERENCE_HEADINGS = {
     "reference", "references", "reference list", "references and resources", "sources", "source list",
-    "bibliography", "bibliographies", "further reading", "referencia", "referencias", "referencias y recursos",
+    "bibliography", "bibliographies", "further reading", "quellen", "referencia", "referencias", "referencias y recursos",
     "referencia bibliografica", "referencias bibliograficas", "referencies", "referències", "referències i recursos",
     "referencia", "referencias", "bibliografia", "bibliografie", "riferimenti", "fontes", "referências",
     "referências e recursos", "fontes bibliográficas", "références", "referenties", "bronnen", "referencje", "źródła", "spis źródeł", "literatura", "список литературы",
@@ -2204,6 +2216,13 @@ def copied_english_generic_terms(source: str, target: str, locale: str) -> list[
         if term == "multi-gigabit" and accepted_compound:
             continue
         if re.search(boundary, source_text, re.I) and re.search(boundary, target_text, re.I):
+            findings.append(term)
+    for term, variants in TRANSLITERATED_GENERIC_ENGLISH_TERMS.get(locale, {}).items():
+        source_pattern = re.escape(term).replace(r"\ ", r"\s+")
+        source_boundary = rf"(?<![A-Za-z0-9]){source_pattern}(?![A-Za-z0-9])"
+        if re.search(source_boundary, source_text, re.I) and any(
+            variant in target_text for variant in variants
+        ):
             findings.append(term)
     return sorted(findings)
 
