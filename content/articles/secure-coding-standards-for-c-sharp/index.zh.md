@@ -1,17 +1,17 @@
 ---
 title: "C# 开发人员的安全编码标准"
 date: 2023-02-28
-lastmod: 2026-11-13
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "学习 C# 安全编码的最佳实践，最大限度地降低安全漏洞的风险并保护敏感数据。"
-tags: ["安全编码", "C 急剧发展", "C Sharp 编程", "安全编码实践", "C Sharp 安全", "ASP.NET 安全", ".NET Core 安全性", "输入验证", "密码散列", "加密", "最不特权", "静态代码分析器", "网络应用安全", "防止 SQL 注入", "跨站脚本防护", "数据保护", "健康检查", "会话管理", "OWASP 最佳实践", "C Sharp 安全编码标准", "C Sharp 安全准则", "安全编码技巧", "安全软件开发", "安全编码框架", "安全编码技术", "安全编码建议", "C Sharp 安全编程", "安全编码漏洞", "安全编码工具", "安全编码教程", "C Sharp 语言安全编码的最佳实践", "C Sharp 安全编码指南", "C Sharp 开发人员的安全编码标准", "C Sharp 安全编码实践", "如何在 C Sharp 中实现安全编码", "C Sharp 程序员的安全编码技巧", "C Sharp 网络应用程序的安全编码", "C Sharp 安全编码框架", "面向 C Sharp 开发人员的安全编码技术", "C Sharp 安全编码工具"]
+tags: ["安全编码", "C# 开发", "C# 编程", "安全编码实践", "C# 安全", "ASP.NET 安全", ".NET Core 安全性", "输入验证", "密码散列", "加密", "最不特权", "静态代码分析器", "网络应用安全", "防止 SQL 注入", "跨站脚本防护", "数据保护", "健康检查", "会话管理", "OWASP 最佳实践", "C# 安全编码标准", "C# 安全准则", "安全编码技巧", "安全软件开发", "安全编码框架", "安全编码技术", "安全编码建议", "C# 安全编程", "安全编码漏洞", "安全编码工具", "安全编码教程", "C# 语言安全编码的最佳实践", "C# 安全编码指南", "C# 开发人员的安全编码标准", "C# 安全编码实践", "如何在 C# 中实现安全编码", "C# 程序员的安全编码技巧", "C# 网络应用程序的安全编码", "C# 安全编码框架", "面向 C# 开发人员的安全编码技术", "C# 安全编码工具"]
 cover: "/img/cover/A_cartoon_developer_with_a_lock_icon_as_the_head_surrounded.webp"
 coverAlt: "一个以锁图标为头的卡通开发人员，周围布满代码，并被防火墙屏蔽。"
 coverCaption: ""
 ---
 
-安全编码对于确保代码安全、可靠、无漏洞至关重要。C Sharp 是一种流行的编程语言，它要求开发人员遵循安全编码标准，以防止安全风险。通过遵循最佳实践，如输入验证、避免使用不安全函数、使用密码学库以及不断更新库和框架，开发人员可以确保代码安全无漏洞。
+安全编码对于确保代码安全、可靠、无漏洞至关重要。C# 是一种流行的编程语言，它要求开发人员遵循安全编码标准，以防止安全风险。通过遵循最佳实践，如输入验证、避免使用不安全函数、使用密码学库以及不断更新库和框架，开发人员可以确保代码安全无漏洞。
 
 _____
 
@@ -34,8 +34,8 @@ public static bool ValidateInput(string inputString)
 
 此方法使用正则表达式检查输入字符串是否只包含数字。它返回一个布尔值，表示输入是否有效。
 
-### 避免使用不安全的函数
-C Sharp 有几个函数，如果不小心使用，很容易出现安全问题。例如 `Process.Start()` `Reflection`和 `Deserialization`可让攻击者执行恶意代码。开发人员应避免使用这些函数，或通过限制输入参数和仅在必要时使用来谨慎使用这些函数。
+## 避免使用不安全的函数
+C# 有几个函数，如果不小心使用，很容易出现安全问题。例如 `Process.Start()` `Reflection`和 `Deserialization`可让攻击者执行恶意代码。开发人员应避免使用这些函数，或通过限制输入参数和仅在必要时使用来谨慎使用这些函数。
 
 例如，不要使用 `Process.Start()`函数来启动外部进程，开发人员应使用 `Process.StartInfo`属性，以提供参数和安全限制。
 ```csharp
@@ -56,7 +56,7 @@ using (Process process = new Process())
     process.WaitForExit();
 }
 ```
-### 使用密码学库
+## 使用密码学库
 Bouncy Castle 等密码学库和 .NET Framework 的密码学 API 为执行加密和解密操作提供了一种安全的方法。请使用这些库，而不是创建可能容易出现漏洞的自定义加密方法。
 
 例如，要加密密码，使用 `Rfc2898DeriveBytes`类，如下所示：
@@ -97,7 +97,7 @@ public static string EncryptPassword(string password)
 
 静态代码分析器是一种可以在代码执行前识别代码中潜在安全漏洞的工具。使用 Visual Studio 的 Code `Analysis` `ReSharper`和 `SonarQube`以检测代码中的安全问题，并在部署前进行修复。
 
-例如，Visual Studio 的代码分析是一种流行的静态代码分析器，可检查 C Sharp 代码是否存在潜在的安全漏洞。它可以检测 SQL 注入、跨站脚本和使用不安全函数等问题。
+例如，Visual Studio 的代码分析是一种流行的静态代码分析器，可检查 C# 代码是否存在潜在的安全漏洞。它可以检测 SQL 注入、跨站脚本和使用不安全函数等问题。
 
 ## 为网络应用程序使用安全编码实践
 
@@ -123,12 +123,12 @@ using (SqlConnection connection = new SqlConnection(connectionString))
 
 _____
 
-## C Sharp 框架的安全编码标准
+## C# 框架的安全编码标准
 
-ASP.NET 和 .NET Core 等 C Sharp 框架都有各自的安全编码标准。开发人员在使用这些框架开发应用程序时应遵循这些标准。
+ASP.NET 和 .NET Core 等 C# 框架都有各自的安全编码标准。开发人员在使用这些框架开发应用程序时应遵循这些标准。
 
 ### ASP.NET
-ASP.NET 是一种流行的 C Sharp 网络框架。以下是 ASP.NET 的一些安全编码标准：
+ASP.NET 是一种流行的 C# 网络框架。以下是 ASP.NET 的一些安全编码标准：
 
 - 使用 ASP.NET 内置的身份验证系统，而不是创建自定义身份验证系统。例如，您可以使用 ASP.NET 的 `Identity`系统来管理用户身份验证和授权。
 - 使用 ASP.NET 内置的密码散列函数，而不是创建自定义密码散列方法。例如，您可以使用 ASP.NET 的 `PasswordHasher`类来安全地散列和验证密码。
@@ -145,26 +145,26 @@ ASP.NET 是一种流行的 C Sharp 网络框架。以下是 ASP.NET 的一些安
 
 
 ## 结论
-安全编码标准对于确保代码安全、可靠、无漏洞至关重要。C Sharp 是一种流行的编程语言，它要求开发人员遵循安全编码标准，以防止安全风险。通过遵循最佳实践（如输入验证、避免使用不安全函数、使用密码学库、保持库和框架更新），开发人员可以确保代码安全无漏洞。使用 C Sharp 框架时，开发人员应遵循框架推荐的安全编码标准。
+安全编码标准对于确保代码安全、可靠、无漏洞至关重要。C# 是一种流行的编程语言，它要求开发人员遵循安全编码标准，以防止安全风险。通过遵循最佳实践（如输入验证、避免使用不安全函数、使用密码学库、保持库和框架更新），开发人员可以确保代码安全无漏洞。使用 C# 框架时，开发人员应遵循框架推荐的安全编码标准。
 
 采用安全编码标准是一个持续的过程，需要开发人员不断更新最新的安全最佳实践和工具。通过将安全编码标准纳入开发流程，开发人员可以最大限度地降低安全漏洞的风险并保护敏感数据。
 
-要开始使用 C Sharp 进行安全编码，开发人员可以从熟悉本文讨论的最佳实践开始。他们应该找出代码中容易出现安全风险的地方，如输入验证、密码散列和会话管理。然后，他们可以实施本文讨论的最佳实践，以确保代码的安全。
+要开始使用 C# 进行安全编码，开发人员可以从熟悉本文讨论的最佳实践开始。他们应该找出代码中容易出现安全风险的地方，如输入验证、密码散列和会话管理。然后，他们可以实施本文讨论的最佳实践，以确保代码的安全。
 
 开发人员还应关注安全博客、参加会议和在线社区，随时了解最新的安全趋势和实践。通过不断更新，他们可以保证代码的安全，避免出现漏洞。
 
 最后，开发人员应通过与团队或同事分享最佳实践来促进安全意识文化。他们应组织安全培训课程，分享有关安全编码实践的文章和资源，并以身作则，在自己的代码中实施这些最佳实践。通过推广安全意识文化，开发人员可以帮助确保其团队的代码安全无漏洞。
 
-通过遵循这些最佳实践，开发人员可以确保他们的 C Sharp 代码安全可靠，并有助于防止安全漏洞和保护敏感数据。
+通过遵循这些最佳实践，开发人员可以确保他们的 C# 代码安全可靠，并有助于防止安全漏洞和保护敏感数据。
 
 ## 参考资料
 
-以下是一些有用的资源，可用于了解有关 C Sharp 安全编码实践的更多信息：
+以下是一些有用的资源，可用于了解有关 C# 安全编码实践的更多信息：
 
-- [Microsoft's Secure Coding Guidelines for C Sharp and .NET](https://learn.microsoft.com/en-us/dotnet/standard/security/secure-coding-guidelines)
-- [OWASP Secure Coding Practices](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/)
-- [NIST's Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf)
-- [CIS Microsoft .NET Framework 4.5 Benchmark](https://www.cisecurity.org/benchmark/microsoft_net_framework_4-5_benchmark/)
+- [Microsoft 的 C# 和 .NET 安全编码指南](https://learn.microsoft.com/en-us/dotnet/standard/security/secure-coding-guidelines)
+- [OWASP 安全编码实践](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/)
+- [NIST 安全软件开发框架](https://csrc.nist.gov/Projects/ssdf)
+- [Microsoft .NET Framework 4.5 的 CIS 安全基准](https://www.cisecurity.org/benchmark/microsoft_net_framework_4-5_benchmark/)
 - [Security Code Scan - .NET Security Guard](https://security-code-scan.github.io/#NET-Security-Guard)
 
-通过使用这些资源，开发人员可以更多地了解 C Sharp 中的安全编码实践以及如何在其项目中实施这些实践。
+通过使用这些资源，开发人员可以更多地了解 C# 中的安全编码实践以及如何在其项目中实施这些实践。
