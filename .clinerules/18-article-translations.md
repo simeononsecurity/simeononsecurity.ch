@@ -26,6 +26,12 @@
   can miss bundles or count drafts as published.
 - Check existing files for valid YAML, published status, nonempty translated
   bodies, and missing sections. File existence alone does not establish coverage.
+- Before recording bundle claims, run the strict English-fallback and structure
+  checker on each selected bundle. Record absent locale files separately from
+  present but incomplete files, and assign repairs for both sets. A present
+  `index.<locale>.md` with source-structure or reader-facing English findings
+  remains incomplete until repaired and rechecked; do not dispatch only the
+  absent locales when existing files in the bundle also fail.
 - Before dispatching a bundle, compute its English source hash from the current
   checkout and compare it with the recorded claim. Give the same verified hash
   to the writer. If a writer reports a mismatch, stop before copying or editing
@@ -46,6 +52,10 @@
   preserve the earlier files and manifest, then create a new manifest. Reviewers
   must verify the manifest before and after review; stop and report a hash
   mismatch instead of reading a candidate that the author is still changing.
+- Before assigning remaining locales in an unfinished candidate, enumerate its
+  actual `index.<code>.md` files and verify their hashes against the candidate
+  records. Derive the missing-code set from Hugo's configured locales minus the
+  verified files. Do not infer missing locales from a stale ledger or summary.
 - Compare section structure against English. A translation with far fewer
   headings needs inspection for an older or incomplete source revision.
 - Treat a heading-count or heading-level mismatch as a blocking completeness
@@ -806,6 +816,10 @@
   `git diff --cached --check`. Fix extra blank lines at end of newly created
   translation files before commit. Any edit after peer approval requires a new
   frozen manifest and approval of that exact snapshot.
+- Check whitespace-only blank lines before freezing a translation candidate, not
+  after peer review. If `git diff --cached --check` finds whitespace after
+  approval, preserve the approved snapshot, make a new versioned candidate, and
+  obtain approval for the new hashes before commit.
 - After a bundle passes its assigned peer review and coordinator validation,
   create one local commit containing only that article's translation files.
 - In a shared worktree, stage an explicit list of files for one bundle, then
