@@ -131,7 +131,9 @@
   a new or refreshed translation. For a batch refresh, update and verify
   `lastmod` in every changed locale file. Existing translations can carry
   different older dates, so verify the complete changed-file set instead of
-  replacing only one known date value.
+  replacing only one known date value. The leakage checker's `read_page()` helper
+  omits `lastmod`; inspect raw front matter or parse the YAML directly when
+  verifying translation dates.
 - In fenced examples, preserve executable syntax, commands, identifiers, and
   literal output. Translate natural-language comments and reader instructions
   inside the fence, including lines such as `# Build and flash for Atom Lite`.
@@ -200,6 +202,13 @@
   the localized words with the source meaning and record a disposition. This
   review catches untranslated expansions even when the strict checker cannot
   distinguish transliteration from translation.
+  For non-Latin locales, the leakage checker reports exact English phrases
+  copied from the English source inside localized prose. Review every reported
+  phrase for product names, identifiers, or legitimate loanwords. Strict mode
+  blocks a locale when 20 or more distinct source-matched phrases remain; this
+  catches heavily code-mixed files that paragraph-level language detection
+  misses. Translate reader-facing phrases, then rerun the strict checker and
+  inspect the remaining phrase report manually.
   For German, Dutch, and Portuguese bilingual expansions, the checker uses
   locale markers, including recognized compound stems, to decide whether added
   wording enters manual review. An unrecognized suffix does not clear a strict
@@ -207,8 +216,11 @@
   source and adding a regression test. Review every queued expansion for meaning.
   For each locale, include a source-aligned review record for the title,
   description, opening, every section, and every reader-facing example or
-  caption. The peer reviewer must verify each record against the frozen file
-  hashes. Keep the locale incomplete until all reader-facing prose is in the
+  caption. Within each section, map every source prose paragraph to a translated
+  paragraph or an explicitly justified structural equivalent. Heading, list,
+  table, and link counts do not prove ordinary narrative paragraphs are complete.
+  The peer reviewer must verify each mapping against the frozen file hashes.
+  Keep the locale incomplete until all reader-facing prose is in the
   target language or a specific retained English term is documented as a
   proper name, official source title, fixed identifier, command, or literal
   value. A filename, `lastmod`, script ratio, or clean strict-checker result
@@ -266,11 +278,19 @@
   than 10 minutes on the current article corpus. Set
   `.github/workflows/translation-english-fallback.yml` to a timeout of at least
   30 minutes so the checker finishes. Confirm the CSV is complete and inspect
-  high-confidence prose findings before treating a run as a pass.
+  high-confidence prose findings before treating a run as a pass. The mixed-
+  phrase scan must tokenize each line once and validate word gaps from token
+  offsets. Do not compile a new regular expression for every phrase window.
+  Pass raw Markdown to the checker; do not pre-clean it and then let the checker
+  clean it again. The `--all` summary counts only sources accepted by the same
+  `read_page` and `published` filter used for auditing; keep a draft fixture in
+  the regression suite when changing that count.
 - The table-cell checker exempts only the exact product-name cells `Azure` and
   `Server 2019`. Keep these fixed names when the source identifies those
   products; translate surrounding headings and prose. Do not widen the
   exemption to generic cells such as `server`, `capacity`, or `description`.
+  In the OpenRouter routing example, keep endpoint IDs `A` and `B` in the table
+  and formulas. The checker treats the exact `A` cell as a fixed identifier.
 - Add a confirmed generic English phrase to the strict fallback checker only
   with a narrow regression fixture. For example, `GPS wardriving` is a
   reader-facing capability description. Localize it while preserving fixed
@@ -598,7 +618,9 @@
   localize them too.
   `Python-Interpreter`/`python-interpreter` is an accepted technical term in
   German and Dutch taxonomy. The checker exempts only that exact term in those
-  locales.
+  locales. `cloud computing` is an accepted technical loanword in German,
+  Italian, and Romanian taxonomy. The checker exempts only that exact term in
+  those locales.
   Table-cell copy findings compare cells within the same table even when a
   translation changes row or column order. Inspect each flagged cell against
   its localized row and do not dismiss it because its coordinates changed.
@@ -614,7 +636,9 @@
   Translate common English prose verbs when they appear inside localized
   paragraphs. The checker blocks source-matching verbs such as `offers`,
   `provides`, `includes`, and `supports`, even when the rest of the paragraph
-  uses the target language.
+  uses the target language. Spanish `uses` is also a valid form of `usar` in
+  phrases such as `no lo uses`; the checker exempts only that exact word for
+  Spanish. Still inspect the full sentence for English carryover.
   The `Translation English Fallback Check` workflow runs the high-confidence
   fallback screen on article changes. Run the same gate locally with
   `python3 tools/check_translation_english_leakage.py --all --fail-on-english-fallback`.
@@ -622,6 +646,11 @@
   configured locale file to exist. Keep the recursive configured-locale
   inventory separate because the strict language gate does not validate
   translation completeness or source structure.
+  A locale suffix does not prove that a file contains a translation. Before
+  approving a locale file, compare its reader-facing body with `index.en.md`.
+  The strict gate must block an unchanged English body even when the filename
+  and front matter use the target locale; keep this case covered by a regression
+  test.
   It blocks exact English-body copies, copied English prose verbs, copied English expansions in glossary
   entries or lowercase parenthetical prose without a localized explanation,
   copied labels for localized first-party article links, copied English
@@ -654,6 +683,17 @@
   labels while keeping their destinations unchanged. Accept standard localized
   compounds such as German `Python-Website` when the language uses the same
   technical loanword.
+  For cloud-provider bibliography links, keep provider names such as Amazon Web
+  Services (AWS), Microsoft Azure, and Google Cloud Platform, but translate
+  descriptive suffixes such as `Security` and `Security and Compliance`. The
+  strict checker blocks those three exact copied English labels.
+  For Chocolatey links, preserve the brand and destination but translate
+  author-written labels such as `Chocolatey documentation on Puppet
+  integration`, `Chocolatey module documentation for Ansible`, `Chocolatey
+  documentation on package creation`, `Chocolatey Official Website`, and
+  `Chocolatey Documentation`. Localize generic labels such as `NuGet Package
+  Manager` while preserving the product name. The strict checker blocks each
+  exact English label.
   In CSV reports, review `copied_reader_fenced_lines`,
   `copied_unlabeled_fence_lines`, and `copied_reader_code_prose` separately from
   `exact_english_sentences`; fixed
@@ -676,6 +716,21 @@
   each flagged structure with the source and restore omitted content before
   review. These shape signals require human inspection and do not establish
   translation completeness on their own.
+  The strict `--fail-on-english-fallback` gate now blocks every
+  `markdown_*_mismatch` as well as taxonomy-count mismatches. Do not waive a
+  structural blocker from a clean prose scan; inspect the source-aligned item
+  or section, restore it, and rerun the strict gate.
+  Same-page heading fragments may change when the target heading is translated.
+  Preserve the link path and query, then point the fragment at the Hugo-generated
+  ID for the matching translated heading. Verify the target heading at the same
+  source-aligned ordinal and inspect rendered HTML for each configured locale.
+  The checker accepts only a relative fragment that resolves to the translated
+  heading at that ordinal; it still blocks changed paths, external URLs, queries,
+  unmatched fragments, and changed explicit heading IDs. Repeated generated
+  heading IDs use Hugo's numeric suffix and remain aligned by heading order. Hugo's
+  `markup.goldmark.parser.autoHeadingIDType = 'github'` preserves non-ASCII
+  letters, drops combining marks, converts spaces to hyphens, and suffixes
+  duplicate IDs. Verify anchor behavior with the repository's Hugo version.
 - Scan the full translated prose for style violations. A filter requiring Latin
   letters skips paragraphs written entirely in another script.
 - Check Punjabi, Bengali, and Hindi for stray letters from other Indic scripts.

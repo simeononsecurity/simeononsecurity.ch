@@ -57,6 +57,7 @@ ENGLISH_READER_VERBS = {
     "allows", "enables", "ensures", "follows", "helps", "includes", "means",
     "offers", "provides", "remains", "requires", "supports", "uses", "works",
 }
+LOCALE_READER_VERB_HOMOGRAPHS = {"es": {"uses"}}
 TABLE_ENGLISH_REVIEW_WORDS = ENGLISH_STOPWORDS | set(
     "average mean final score latency memory bandwidth method trial throughput "
     "value category result benchmark stage test cost price output input time "
@@ -76,6 +77,7 @@ TABLE_UNTRANSLATED_GENERIC_LABELS = {
 }
 GENERIC_ENGLISH_TAXONOMY_LABELS = {
     "ad blocking",
+    "cloud computing",
     "cross platform",
     "data privacy",
     "internet privacy",
@@ -84,13 +86,16 @@ GENERIC_ENGLISH_TAXONOMY_LABELS = {
     "python security documentation",
 }
 GENERIC_ENGLISH_TECHNICAL_TERMS = {
-    "hardware controller", "multi-gigabit", "open source security platform",
+    "gps wardriving", "hardware controller", "multi-gigabit", "open source security platform",
     "use prepared statements",
 }
 MIXED_PHRASE_FIXED_VALUES = {"astra max", "glm-5 max", "opus max"}
+MIXED_PHRASE_STRICT_BLOCKER_THRESHOLD = 20
 LOCALE_ACCEPTED_TAXONOMY_LOANWORDS = {
-    "de": {"python interpreter"},
+    "de": {"cloud computing", "python interpreter"},
+    "it": {"cloud computing"},
     "nl": {"python interpreter"},
+    "ro": {"cloud computing"},
 }
 GENERIC_ENGLISH_LINK_LABELS = {
     "here",
@@ -116,6 +121,15 @@ GENERIC_ENGLISH_LINK_LABELS = {
     "tls rfc",
     "nist role based access control",
     "owasp rbac cheat sheet",
+    "amazon web services aws security",
+    "microsoft azure security and compliance",
+    "google cloud platform security",
+    "chocolatey documentation on puppet integration",
+    "chocolatey module documentation for ansible",
+    "chocolatey documentation on package creation",
+    "chocolatey official website",
+    "chocolatey documentation",
+    "nuget package manager",
 }
 ACCEPTED_GENERIC_LINK_LABELS = {
     "de": {
@@ -1263,6 +1277,73 @@ def markdown_headings(text: str) -> list[tuple[int, str]]:
     return headings
 
 
+def hugo_github_heading_ids(text: str) -> list[tuple[str, bool]]:
+    """Approximate Hugo's configured GitHub heading IDs for source alignment."""
+    text = re.sub(r"(?s)(`{3,}|~{3,}).*?\1", " ", text)
+    result: list[tuple[str, bool]] = []
+    seen: dict[str, int] = {}
+    for match in re.finditer(r"(?m)^\s{0,3}(#{1,6})[ \t]+(.+?)\s*#*\s*$", text):
+        raw_heading = match.group(2)
+        explicit = re.search(r"\s*\{#([^}\s]+)\}\s*$", raw_heading)
+        if explicit:
+            result.append((explicit.group(1), True))
+            continue
+        label = visible_text(raw_heading).strip().lower()
+        anchor = []
+        for char in label:
+            category = unicodedata.category(char)
+            if char == "-" or category[0] in {"L", "N"}:
+                anchor.append(char)
+            elif category[0] == "M":
+                # Goldmark's GitHub-compatible anchorization drops combining marks.
+                continue
+            elif char.isspace():
+                anchor.append("-")
+        base_id = "".join(anchor)
+        duplicate_index = seen.get(base_id, 0)
+        seen[base_id] = duplicate_index + 1
+        result.append((base_id if duplicate_index == 0 else f"{base_id}-{duplicate_index}", False))
+    return result
+
+
+def localized_fragment_targets_match(source: str, target: str) -> bool:
+    """Accept changed relative fragments only when they target aligned headings."""
+    source_links = markdown_links(source)
+    target_links = markdown_links(target)
+    if len(source_links) != len(target_links):
+        return False
+    source_headings = hugo_github_heading_ids(source)
+    target_headings = hugo_github_heading_ids(target)
+    if (
+        len(source_headings) != len(target_headings)
+    ):
+        return False
+    target_by_source_id = {
+        source_id: target_id
+        for (source_id, source_explicit), (target_id, target_explicit)
+        in zip(source_headings, target_headings)
+        if not source_explicit and not target_explicit
+    }
+    for (_, source_url), (_, target_url) in zip(source_links, target_links):
+        if source_url == target_url:
+            continue
+        source_parts = urlsplit(source_url)
+        target_parts = urlsplit(target_url)
+        if (
+            source_parts.scheme or source_parts.netloc
+            or target_parts.scheme or target_parts.netloc
+            or source_parts.path != target_parts.path
+            or source_parts.query != target_parts.query
+            or not source_parts.fragment or not target_parts.fragment
+        ):
+            return False
+        source_fragment = unquote(source_parts.fragment)
+        target_fragment = unquote(target_parts.fragment)
+        if target_by_source_id.get(source_fragment) != target_fragment:
+            return False
+    return True
+
+
 def markdown_structure(text: str) -> dict[str, object]:
     """Return source-aligned Markdown shape signals for manual comparison."""
     def table_cell_count(line: str) -> int | None:
@@ -1386,15 +1467,19 @@ def markdown_structure_differences(source: str, target: str) -> dict[str, tuple[
     """Find Markdown shape differences that need human inspection."""
     source_shape = markdown_structure(source)
     target_shape = markdown_structure(target)
-    return {
+    differences = {
         key: (source_shape[key], target_shape[key])
         for key in source_shape
         if source_shape[key] != target_shape[key]
     }
+    if "link_targets" in differences and localized_fragment_targets_match(source, target):
+        differences.pop("link_targets")
+    return differences
 
 
 TABLE_SHARED_TERMS = {"ca": {"cost"}, "fr": {"performance"}, "ro": {"cost"}}
 TABLE_FIXED_NAMES = {
+    "a",
     "azure",
     "server 2019",
     "defender for cloud",
@@ -1911,24 +1996,32 @@ def copied_english_mixed_phrases(source: str, target: str, locale: str) -> list[
     def phrases(text: str) -> dict[tuple[tuple[str, ...], tuple[bool, ...]], str]:
         found: dict[tuple[tuple[str, ...], tuple[bool, ...]], str] = {}
         for line in visible_text(text).splitlines():
-            words = word_pattern.findall(line)
+            matches = list(word_pattern.finditer(line))
+            words = [match.group() for match in matches]
+            letter_counts = [
+                sum(char.isascii() and char.isalpha() for char in word)
+                for word in words
+            ]
             for size in range(2, 7):
                 for start in range(max(0, len(words) - size + 1)):
                     original = words[start:start + size]
-                    if sum(len(re.sub(r"[^A-Za-z]", "", word)) >= 3 for word in original) < 2:
+                    if sum(count >= 3 for count in letter_counts[start:start + size]) < 2:
                         continue
                     # Multiword title case is usually an official name or
                     # product label; dedicated checks cover reviewed generic
                     # labels that use this capitalization.
                     if sum(word[:1].isupper() for word in original) > 1:
                         continue
-                    literal_phrase = r"(?<![A-Za-z0-9])" + r"[\s-]+".join(
-                        re.escape(word) for word in original
-                    ) + r"(?![A-Za-z0-9])"
                     # Do not join words separated by commas, parentheses,
                     # Markdown table cells, or other punctuation. Such joins
                     # create false matches between product names in lists.
-                    if not re.search(literal_phrase, line, re.I):
+                    if any(
+                        not all(
+                            char.isspace() or char == "-"
+                            for char in line[matches[index].end():matches[index + 1].start()]
+                        )
+                        for index in range(start, start + size - 1)
+                    ):
                         continue
                     key = (
                         tuple(word.lower() for word in original),
@@ -2075,7 +2168,7 @@ def high_confidence_english_paragraphs(text: str, locale: str) -> list[str]:
     return sorted(findings)
 
 
-def copied_english_reader_verbs(source: str, target: str) -> list[str]:
+def copied_english_reader_verbs(source: str, target: str, locale: str = "") -> list[str]:
     """Find common English reader prose verbs copied into translated paragraphs."""
     source_words = set(re.findall(r"[a-z]+", visible_text(source, include_link_labels=False).lower()))
     findings = []
@@ -2088,7 +2181,10 @@ def copied_english_reader_verbs(source: str, target: str) -> list[str]:
         tokens = re.findall(r"[a-z]+(?:'[a-z]+)?", paragraph.lower())
         if len(tokens) < 8:
             continue
-        copied = sorted(ENGLISH_READER_VERBS.intersection(tokens, source_words))
+        copied = sorted(
+            ENGLISH_READER_VERBS.intersection(tokens, source_words)
+            - LOCALE_READER_VERB_HOMOGRAPHS.get(locale, set())
+        )
         if copied:
             findings.extend(f"{word}: {paragraph}" for word in copied)
     return sorted(set(findings))
@@ -2212,7 +2308,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         copied_prose_paragraphs = copied_english_prose_paragraphs(source_body, body)
         english_paragraphs = english_dominant_paragraphs(body, locale)
         high_confidence_english_paragraphs_found = high_confidence_english_paragraphs(body, locale)
-        copied_reader_verbs = copied_english_reader_verbs(source_body, body)
+        copied_reader_verbs = copied_english_reader_verbs(source_body, body, locale)
         english_body_fallback = english_dominant_body(body, locale)
         copied_table_cells = copied_english_table_cells(source_body, body, locale)
         copied_headings = copied_english_headings(source_body, body)
@@ -2299,6 +2395,8 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             reasons.append("copied_English_prose_span")
         if copied_mixed_phrases:
             reasons.append("copied_english_mixed_phrase_review")
+            if len(copied_mixed_phrases) >= MIXED_PHRASE_STRICT_BLOCKER_THRESHOLD:
+                reasons.append("high_density_copied_english_mixed_phrases")
         if copied_generic_terms:
             reasons.append("copied_english_generic_term")
         if copied_prose_paragraphs:
@@ -2417,13 +2515,15 @@ def main() -> int:
         action="store_true",
         help=(
             "fail on English fallbacks and required taxonomy-count mismatches: an exact English body or prose paragraph, "
+            "missing configured translations, source structure mismatches (headings, lists, tables, links, shortcodes, fences, emphasis), "
             "one English-dominant reader paragraph, many copied English paragraphs, "
             "English stopword dominance, changed English-dominant titles, unchanged lowercase "
             "inline acronym expansions without a localized gloss; source-identical titles and "
             "bilingual or "
             "title-case expansions need manual review, copied reader-facing "
             "code text or English calculation labels, copied generic descriptors or link labels, "
-            "or a missing target script"
+            "or a missing target script; also fail when 20 or more distinct source-matched English "
+            "phrases appear in a non-Latin translation"
         ),
     )
     args = parser.parse_args()
@@ -2467,6 +2567,7 @@ def main() -> int:
             "copied_english_internal_link_label",
             "copied_english_shortcode_description",
             "copied_english_mixed_phrase",
+            "high_density_copied_english_mixed_phrases",
             "copied_english_generic_term",
             "English_reader_table_cell_copy",
             "copied_generic_english_taxonomy",
@@ -2474,14 +2575,22 @@ def main() -> int:
         }
         blockers = [
             row for row in findings
-            if high_confidence.intersection(row["reasons"].split(";"))
+            if "translation_missing" in row["reasons"].split(";")
+            or high_confidence.intersection(row["reasons"].split(";"))
+            or any(
+                reason.startswith("markdown_") and reason.endswith("_mismatch")
+                for reason in row["reasons"].split(";")
+            )
             or any(
                 reason.startswith("taxonomy_count_mismatch:")
                 for reason in row["reasons"].split(";")
             )
         ]
+        published_source_count = sum(
+            1 for source in sources if published(read_page(source)[0])
+        )
         print(
-            f"published bundles scanned: {len(sources)}; configured locales: {len(locales)}; "
+            f"published bundles scanned: {published_source_count}; configured locales: {len(locales)}; "
             f"strict blockers: {len(blockers)}"
         )
         mixed_phrase_reviews = [
@@ -2497,7 +2606,10 @@ def main() -> int:
         for row in blockers:
             reasons = [
                 reason for reason in row["reasons"].split(";")
-                if reason in high_confidence or reason.startswith("taxonomy_count_mismatch:")
+                if reason == "translation_missing"
+                or reason in high_confidence
+                or (reason.startswith("markdown_") and reason.endswith("_mismatch"))
+                or reason.startswith("taxonomy_count_mismatch:")
             ]
             print(
                 f"{row['path']}\t{','.join(sorted(reasons))}\t"
@@ -2505,7 +2617,10 @@ def main() -> int:
                 f"EN stopwords {row['english_stopword_ratio']}"
             )
     else:
-        print(f"published bundles scanned: {len(sources)}; configured locales: {len(locales)}; flags: {len(findings)}")
+        published_source_count = sum(
+            1 for source in sources if published(read_page(source)[0])
+        )
+        print(f"published bundles scanned: {published_source_count}; configured locales: {len(locales)}; flags: {len(findings)}")
         for row in findings:
             print(f"{row['path']}\t{row['reasons']}\tEnglish paragraphs {row['exact_english_paragraphs']}\tEN stopwords {row['english_stopword_ratio']}")
     if args.csv:

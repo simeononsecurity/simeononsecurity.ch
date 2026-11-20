@@ -33,5 +33,5 @@ jobs:
       - name: Test the translation fallback checker
         run: python3 tools/test_translation_english_leakage.py
 
-      - name: Block obvious English fallbacks
+      - name: Block English fallbacks, missing translations, and sections
         run: python3 tools/check_translation_english_leakage.py --all --fail-on-english-fallback
