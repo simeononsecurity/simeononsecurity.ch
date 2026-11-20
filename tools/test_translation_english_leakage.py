@@ -869,9 +869,28 @@ class FencedProseTests(unittest.TestCase):
         performance = "| Performance |\n| --- |\n"
         self.assertEqual(copied_english_table_cells(performance, performance, "fr"), [])
 
-    def test_accepts_a_as_a_fixed_endpoint_identifier_in_a_table(self):
+    def test_flags_a_as_a_generic_table_cell(self):
         endpoint = "| A |\n| --- |\n"
-        self.assertEqual(copied_english_table_cells(endpoint, endpoint, "bn"), [])
+        self.assertEqual(
+            copied_english_table_cells(endpoint, endpoint, "bn"),
+            ["table 1, row 1, cell 1: a"],
+        )
+
+    def test_accepts_openrouter_endpoint_ids_only_in_their_table_context(self):
+        source = (
+            "| Illustrative endpoint | Input price | Output price |\n"
+            "| --- | ---: | ---: |\n"
+            "| **A** | $0.03 | $16.00 |\n"
+            "| **B** | $0.42 | $1.32 |\n"
+        )
+        translated = (
+            "| Punto final ilustrativo | Precio de entrada | Precio de salida |\n"
+            "| --- | ---: | ---: |\n"
+            "| **A** | $0.03 | $16.00 |\n"
+            "| **B** | $0.42 | $1.32 |\n"
+        )
+
+        self.assertEqual(copied_english_table_cells(source, translated, "es"), [])
 
     def test_ignores_table_like_content_inside_code_fence(self):
         source = "```bash\n| Method | Mean prefix reuse per trial |\n| --- | --- |\n```"
@@ -1465,6 +1484,12 @@ class FencedProseTests(unittest.TestCase):
         for altered in (changed_path, changed_query, wrong_existing_heading):
             with self.subTest(target=altered.splitlines()[-1]):
                 self.assertIn("link_targets", markdown_structure_differences(source, altered))
+
+    def test_localized_fragment_match_rejects_cross_page_relative_links(self):
+        source = "## Setup\n\nSee [the guide](guide.md#setup).\n"
+        translated = "## Configuración\n\nConsulta [la guía](guide.md#configuración).\n"
+
+        self.assertIn("link_targets", markdown_structure_differences(source, translated))
 
     def test_hugo_github_heading_ids_drop_combining_script_marks(self):
         source = "## Step-by-Step Setup Instructions"

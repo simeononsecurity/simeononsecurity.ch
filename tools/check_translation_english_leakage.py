@@ -64,7 +64,7 @@ TABLE_ENGLISH_REVIEW_WORDS = ENGLISH_STOPWORDS | set(
     "performance description rate duration total size count level status per "
     "component privacy question local model server situation better choice "
     "reason evidence collect action recommendation finding concern response "
-    "what check example setting location boundary control short project responsive assistant"
+    "what check example setting location boundary control short project responsive assistant a"
     .split()
 )
 TABLE_UNTRANSLATED_GENERIC_LABELS = {
@@ -1332,7 +1332,7 @@ def localized_fragment_targets_match(source: str, target: str) -> bool:
         if (
             source_parts.scheme or source_parts.netloc
             or target_parts.scheme or target_parts.netloc
-            or source_parts.path != target_parts.path
+            or source_parts.path or target_parts.path
             or source_parts.query != target_parts.query
             or not source_parts.fragment or not target_parts.fragment
         ):
@@ -1479,7 +1479,6 @@ def markdown_structure_differences(source: str, target: str) -> dict[str, tuple[
 
 TABLE_SHARED_TERMS = {"ca": {"cost"}, "fr": {"performance"}, "ro": {"cost"}}
 TABLE_FIXED_NAMES = {
-    "a",
     "azure",
     "server 2019",
     "defender for cloud",
@@ -1573,6 +1572,19 @@ def copied_english_table_cells(
             for cell_index, target_cell in enumerate(target_row, start=1):
                 normalized = normalize(target_cell)
                 words = normalized.split()
+                openrouter_endpoint_id = (
+                    table_index <= len(source_tables)
+                    and normalized in {"a", "b"}
+                    and any(
+                        normalize(header_cell) == "illustrative endpoint"
+                        for header_cell in source_tables[table_index - 1][0]
+                    )
+                    and any(
+                        normalize(source_cell) == normalized
+                        for source_row in source_tables[table_index - 1][1:]
+                        for source_cell in source_row
+                    )
+                )
                 if (
                     normalized
                     and (
@@ -1586,6 +1598,7 @@ def copied_english_table_cells(
                     )
                     and normalized not in TABLE_FIXED_NAMES
                     and normalized not in TABLE_SHARED_TERMS.get(locale or "", set())
+                    and not openrouter_endpoint_id
                 ):
                     copied.append(
                         f"table {table_index}, row {row_index}, cell {cell_index}: {normalized}"
@@ -2546,6 +2559,9 @@ def main() -> int:
         print(f"translation leakage screen failed: {exc}", file=sys.stderr)
         return 2
 
+    published_source_count = sum(
+        1 for source in sources if published(read_page(source)[0])
+    )
     if args.fail_on_english_fallback:
         high_confidence = {
             "copied_english_body",
@@ -2586,9 +2602,6 @@ def main() -> int:
                 for reason in row["reasons"].split(";")
             )
         ]
-        published_source_count = sum(
-            1 for source in sources if published(read_page(source)[0])
-        )
         print(
             f"published bundles scanned: {published_source_count}; configured locales: {len(locales)}; "
             f"strict blockers: {len(blockers)}"
@@ -2617,9 +2630,6 @@ def main() -> int:
                 f"EN stopwords {row['english_stopword_ratio']}"
             )
     else:
-        published_source_count = sum(
-            1 for source in sources if published(read_page(source)[0])
-        )
         print(f"published bundles scanned: {published_source_count}; configured locales: {len(locales)}; flags: {len(findings)}")
         for row in findings:
             print(f"{row['path']}\t{row['reasons']}\tEnglish paragraphs {row['exact_english_paragraphs']}\tEN stopwords {row['english_stopword_ratio']}")

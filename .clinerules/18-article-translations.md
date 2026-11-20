@@ -290,7 +290,9 @@
   products; translate surrounding headings and prose. Do not widen the
   exemption to generic cells such as `server`, `capacity`, or `description`.
   In the OpenRouter routing example, keep endpoint IDs `A` and `B` in the table
-  and formulas. The checker treats the exact `A` cell as a fixed identifier.
+  and formulas. The checker exempts those IDs only in a table with the
+  `Illustrative endpoint` source header. A standalone `A` elsewhere remains a
+  table-cell finding.
 - Add a confirmed generic English phrase to the strict fallback checker only
   with a narrow regression fixture. For example, `GPS wardriving` is a
   reader-facing capability description. Localize it while preserving fixed
@@ -625,7 +627,8 @@
   translation changes row or column order. Inspect each flagged cell against
   its localized row and do not dismiss it because its coordinates changed.
   The checker exempts a short exact list of reviewed product, standards, and
-  fixed-value labels in `TABLE_FIXED_NAMES`. Do not add a broad phrase or term
+  fixed-value labels in `TABLE_FIXED_NAMES`. The OpenRouter `A` and `B` endpoint
+  IDs use a separate table-context check. Do not add a broad phrase or term
   exemption. Add an exact value only after comparing its source and target row,
   confirming it is a proper product/standard/literal, and adding a regression
   fixture. Translate generic headers such as `Total certifications`.
@@ -724,9 +727,11 @@
   Preserve the link path and query, then point the fragment at the Hugo-generated
   ID for the matching translated heading. Verify the target heading at the same
   source-aligned ordinal and inspect rendered HTML for each configured locale.
-  The checker accepts only a relative fragment that resolves to the translated
-  heading at that ordinal; it still blocks changed paths, external URLs, queries,
-  unmatched fragments, and changed explicit heading IDs. Repeated generated
+  The checker accepts changed fragments only when the link path is empty and
+  the fragment resolves to the translated heading at that ordinal. Keep fragments
+  on relative links to another page unchanged unless you resolve the destination
+  page's headings. The checker blocks changed paths, cross-page fragments,
+  external URLs, queries, unmatched fragments, and changed explicit heading IDs. Repeated generated
   heading IDs use Hugo's numeric suffix and remain aligned by heading order. Hugo's
   `markup.goldmark.parser.autoHeadingIDType = 'github'` preserves non-ASCII
   letters, drops combining marks, converts spaces to hyphens, and suffixes
