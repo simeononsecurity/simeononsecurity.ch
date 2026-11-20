@@ -3,7 +3,7 @@ title: "Conceptos básicos de redes: qué es una dirección IP y qué son IPv4 e
 draft: false
 toc: true
 date: 2023-07-22
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 description: "Aprende qué es una dirección IP, en qué se diferencian IPv4 e IPv6 y por qué es importante adoptar IPv6."
 genre: ["Redes", "Direcciones IP", "Protocolos de Internet", "IPv4", "IPv6", "Comunicación de red", "Conectividad a Internet", "Tecnología", "Infraestructura de red", "Seguridad en Internet"]
 tags: ["dirección IP", "IPv4", "IPv6", "protocolo de Internet", "redes", "espacio de direcciones", "formato de dirección", "configuración de direcciones", "seguridad", "calidad del servicio", "conectividad a Internet", "infraestructura de red", "tecnología", "agotamiento de IPv4", "crecimiento de Internet", "normativa gubernamental", "comunicación de red", "seguridad en Internet", "Internet Assigned Numbers Authority", "requisitos federales de IPv6", "asignación dinámica", "DHCP", "IPsec", "QoS", "autoconfiguración de red", "compresión de direcciones", "notación de direcciones", "tipos de direcciones IP", "esquema de direccionamiento IP"]
@@ -50,7 +50,7 @@ Con la adopción de IPv6, la cantidad de direcciones IP únicas disponibles es p
 
 #### Espacio de direcciones
 
-La diferencia más importante entre IPv4 e IPv6 está en el espacio de direcciones. IPv4 ofrece unos 4.300 millones de direcciones únicas, mientras que IPv6 ofrece alrededor de 340 undecillones (3,4×10^38). Este enorme espacio permite que Internet se expanda y conecte cada vez más dispositivos.
+La diferencia más importante entre IPv4 e IPv6 está en el espacio de direcciones. IPv4 ofrece unos 4.300 millones de direcciones únicas, mientras que IPv6 ofrece alrededor de 3,4 × 10^38. Este enorme espacio permite que Internet se expanda y conecte cada vez más dispositivos.
 
 #### Formato de dirección
 

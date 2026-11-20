@@ -3,7 +3,7 @@ title: "Conceptes bàsics de xarxes: què és una adreça IP i què són IPv4 i 
 draft: false
 toc: true
 date: 2023-07-22
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 description: "Aprèn què és una adreça IP, quines diferències hi ha entre IPv4 i IPv6, per què són importants i per què cal adoptar IPv6."
 genre: ["Xarxes", "Adreces IP", "Protocols d'Internet", "IPv4", "IPv6", "Comunicació de xarxa", "Connectivitat a Internet", "Tecnologia", "Infraestructura de xarxa", "Seguretat d'Internet"]
 tags: ["adreça IP", "IPv4", "IPv6", "protocol d'Internet", "xarxes", "espai d'adreces", "format d'adreça", "configuració d'adreces", "seguretat", "qualitat del servei", "connectivitat a Internet", "infraestructura de xarxa", "tecnologia", "esgotament d'IPv4", "creixement d'Internet", "regulacions governamentals", "comunicació de xarxa", "seguretat d'Internet", "Internet Assigned Numbers Authority", "requisits federals d'IPv6", "assignació dinàmica", "DHCP", "IPsec", "QoS", "autoconfiguració de xarxa", "compressió d'adreces", "notació d'adreces", "tipus d'adreces IP", "esquema d'adreçament IP"]
@@ -50,7 +50,7 @@ Amb l'adopció d'IPv6, el nombre d'adreces IP úniques disponibles és pràctica
 
 #### Espai d'adreces
 
-La diferència més important entre IPv4 i IPv6 és l'espai d'adreces. IPv4 ofereix uns 4.300 milions d'adreces úniques, mentre que IPv6 en proporciona uns 340 undecilions (3,4×10^38). Aquest espai enorme permet que Internet s'ampliï i connecti un nombre cada cop més gran de dispositius.
+La diferència més important entre IPv4 i IPv6 és l'espai d'adreces. IPv4 ofereix uns 4.300 milions d'adreces úniques, mentre que IPv6 en proporciona uns 3,4 × 10^38. Aquest espai enorme permet que Internet s'ampliï i connecti un nombre cada cop més gran de dispositius.
 
 #### Format d'adreça
 

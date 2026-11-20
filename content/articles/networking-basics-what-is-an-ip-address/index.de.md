@@ -3,7 +3,7 @@ title: "Netzwerkgrundlagen: Was ist eine IP-Adresse und was sind IPv4 und IPv6?"
 draft: false
 toc: true
 date: 2023-07-22
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 description: "Erfahre, was IP-Adressen sind, worin sich IPv4 und IPv6 unterscheiden und warum die Einführung von IPv6 wichtig ist."
 genre: ["Netzwerke", "IP-Adressen", "Internetprotokolle", "IPv4", "IPv6", "Netzwerkkommunikation", "Internetverbindung", "Technologie", "Netzwerkinfrastruktur", "Internetsicherheit"]
 tags: ["IP-Adresse", "IPv4", "IPv6", "Internetprotokoll", "Netzwerke", "Adressraum", "Adressformat", "Adresskonfiguration", "Sicherheit", "Dienstgüte", "Internetverbindung", "Netzwerkinfrastruktur", "Technologie", "IPv4-Adressmangel", "Internetwachstum", "staatliche Vorschriften", "Netzwerkkommunikation", "Internetsicherheit", "Internet Assigned Numbers Authority", "IPv6-Vorgaben für Bundesbehörden", "dynamische Zuweisung", "DHCP", "IPsec", "QoS", "Netzwerk-Autokonfiguration", "Adresskomprimierung", "Adressnotation", "IP-Adressarten", "IP-Adressierungsschema"]
@@ -50,7 +50,7 @@ Mit IPv6 steht praktisch eine unbegrenzte Zahl eindeutiger IP-Adressen zur Verf�
 
 #### Adressraum
 
-Der wichtigste Unterschied zwischen IPv4 und IPv6 liegt im Adressraum. IPv4 stellt etwa 4,3 Milliarden eindeutige Adressen bereit. IPv6 bietet dagegen rund 340 Undezillionen eindeutige Adressen (3,4×10^38). Dieser große Adressraum erlaubt es dem Internet, weiter zu wachsen und immer mehr Geräte zu verbinden.
+Der wichtigste Unterschied zwischen IPv4 und IPv6 liegt im Adressraum. IPv4 stellt etwa 4,3 Milliarden eindeutige Adressen bereit. IPv6 bietet dagegen rund 3,4 × 10^38 eindeutige Adressen. Dieser große Adressraum erlaubt es dem Internet, weiter zu wachsen und immer mehr Geräte zu verbinden.
 
 #### Adressformat
 
