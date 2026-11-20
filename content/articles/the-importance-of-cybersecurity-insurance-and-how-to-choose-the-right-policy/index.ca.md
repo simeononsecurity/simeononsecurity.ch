@@ -1,7 +1,7 @@
 ---
 title: "La importància de l'assegurança de ciberseguretat i com triar la pòlissa adequada"
 date: 2023-04-12
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Aprèn a triar una pòlissa d'assegurança de ciberseguretat adequada per protegir l'empresa de les amenaces digitals."
@@ -49,7 +49,7 @@ ______
 
 **Normativa governamental sobre l'assegurança de ciberseguretat**
 
-Molts països obliguen les empreses a aplicar mesures de ciberseguretat adequades i a avisar les persones quan hi ha una bretxa de dades. Als Estats Units, per exemple, la Health Insurance Portability and Accountability Act (HIPAA) obliga els proveïdors sanitaris a protegir les dades dels pacients i a comunicar les bretxes. El Reglament general de protecció de dades (GDPR) de la Unió Europea obliga les empreses a protegir les dades personals dels ciutadans de la UE i a comunicar les bretxes en un termini de 72 hores.
+  Molts països obliguen les empreses a aplicar mesures de ciberseguretat adequades i a avisar les persones quan hi ha una bretxa de dades. Als Estats Units, per exemple, la Llei de portabilitat i responsabilitat de les assegurances de salut (HIPAA) obliga els proveïdors sanitaris a protegir les dades dels pacients i a comunicar les bretxes. El Reglament general de protecció de dades (RGPD) de la Unió Europea obliga les empreses a protegir les dades personals dels ciutadans de la UE i a comunicar les bretxes en un termini de 72 hores.
 
 Alguns països també tenen normes específiques sobre assegurances de ciberseguretat. Als Estats Units, la National Association of Insurance Commissioners (NAIC) ha elaborat una llei model sobre aquestes assegurances que han adoptat diversos estats. La llei obliga els proveïdors d'assegurances a establir un programa de ciberseguretat i a avisar els reguladors quan hi ha un incident.
 

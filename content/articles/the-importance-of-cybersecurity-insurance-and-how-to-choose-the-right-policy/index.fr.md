@@ -1,11 +1,11 @@
 ---
 title: "Choisir une assurance cybersécurité : Un guide complet pour une police adaptée"
 date: 2023-04-12
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Découvrez comment choisir la police d'assurance cybersécurité idéale pour protéger votre entreprise contre les cybermenaces."
-tags: ["assurance cybersécurité", "protection des données", "la gestion des risques", "politique de cybersécurité", "la sécurité des données", "cyberattaques", "cyber-assurance", "sécurité des réseaux", "continuité des activités", "couverture d'assurance", "violation de données", "police d'assurance", "Sécurité informatique", "incident response", "l'évaluation des risques", "cybercriminalité", "protection financière", "cybermenaces", "demandes d'indemnisation", "assurance des entreprises"]
+tags: ["assurance cybersécurité", "protection des données", "la gestion des risques", "politique de cybersécurité", "la sécurité des données", "cyberattaques", "cyber-assurance", "sécurité des réseaux", "continuité des activités", "couverture d'assurance", "violation de données", "police d'assurance", "Sécurité informatique", "réponse aux incidents", "l'évaluation des risques", "cybercriminalité", "protection financière", "cybermenaces", "demandes d'indemnisation", "assurance des entreprises"]
 cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.webp"
 coverAlt: "Dessin humoristique d'un chef d'entreprise tenant un bouclier portant la mention assurance cybersécurité et bloquant les cybermenaces."
 coverCaption: ""
@@ -53,7 +53,7 @@ ______
 
 **Réglementation gouvernementale sur l'assurance cybersécurité**
 
-De nombreux pays disposent de lois et de règlements qui obligent les entreprises à mettre en place des mesures de cybersécurité adéquates et à informer les personnes concernées en cas de violation des données. Aux États-Unis, par exemple, le Health Insurance Portability and Accountability Act (HIPAA) exige des prestataires de soins de santé qu'ils mettent en place des mesures de protection des données des patients et qu'ils signalent toute violation de ces données. Dans l'Union européenne, le règlement général sur la protection des données (RGPD) impose aux entreprises de protéger les données personnelles des citoyens de l'UE et de signaler toute violation de données dans les 72 heures.
+De nombreux pays disposent de lois et de règlements qui obligent les entreprises à mettre en place des mesures de cybersécurité adéquates et à informer les personnes concernées en cas de violation des données. Aux États-Unis, par exemple, la loi sur la portabilité et la responsabilité en matière d'assurance maladie (HIPAA) exige des prestataires de soins de santé qu'ils mettent en place des mesures de protection des données des patients et qu'ils signalent toute violation de ces données. Dans l'Union européenne, le règlement général sur la protection des données (RGPD) impose aux entreprises de protéger les données personnelles des citoyens de l'UE et de signaler toute violation de données dans les 72 heures.
 
 Certains pays disposent également de réglementations spécifiquement liées à l'assurance cybersécurité. Aux États-Unis, l'Association nationale des commissaires d'assurance (NAIC) a élaboré une loi type relative à l'assurance cybersécurité qui a été adoptée par plusieurs États. Cette loi oblige les assureurs à mettre en place un programme de cybersécurité et à informer les régulateurs en cas d'incident de cybersécurité.
 

@@ -1,7 +1,7 @@
 ---
 title: "Cyberbeveiligingsverzekering kiezen: Een uitgebreide gids voor de juiste polis"
 date: 2023-04-12
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Leer hoe je de perfecte cyberbeveiligingspolis kiest om je bedrijf te beschermen tegen cyberbedreigingen."
@@ -53,7 +53,7 @@ ______
 
 **Overheidsvoorschriften voor cyberverzekering**
 
-Veel landen hebben wetten en regels die bedrijven verplichten om adequate cyberbeveiligingsmaatregelen te nemen en om individuen te informeren in het geval van een datalek. In de Verenigde Staten bijvoorbeeld verplicht de Health Insurance Portability and Accountability Act (HIPAA) zorgverleners om voorzorgsmaatregelen te treffen om patiëntgegevens te beschermen en om alle inbreuken op die gegevens te melden. De General Data Protection Regulation (GDPR) in de Europese Unie verplicht bedrijven om de persoonlijke gegevens van EU-burgers te beschermen en inbreuken op gegevens binnen 72 uur te melden.
+Veel landen hebben wetten en regels die bedrijven verplichten om adequate cyberbeveiligingsmaatregelen te nemen en om individuen te informeren in het geval van een datalek. In de Verenigde Staten verplicht de wet op de overdraagbaarheid en verantwoordingsplicht van zorgverzekeringen (HIPAA) zorgverleners om patiëntgegevens te beschermen en datalekken te melden. De Algemene verordening gegevensbescherming (AVG) van de Europese Unie verplicht bedrijven om de persoonsgegevens van EU-burgers te beschermen en datalekken binnen 72 uur te melden.
 
 Sommige landen hebben ook regelgeving die specifiek betrekking heeft op verzekeringen voor cyberbeveiliging. In de Verenigde Staten heeft de National Association of Insurance Commissioners (NAIC) een modelwet ontwikkeld met betrekking tot cyberbeveiligingsverzekeringen die door verschillende staten is overgenomen. Deze wet verplicht verzekeringsaanbieders om een cyberbeveiligingsprogramma op te stellen en toezichthouders op de hoogte te stellen in het geval van een cyberbeveiligingsincident.
 
@@ -65,4 +65,4 @@ Een cyberbeveiligingsverzekering is een essentieel onderdeel van elk alomvattend
 
 Bij het kiezen van een verzekeringspolis voor cyberbeveiliging moeten bedrijven hun risico's beoordelen, polissen van verschillende verzekeringsaanbieders vergelijken, verzekeringsaanbieders evalueren, de kosten in overweging nemen en het claimproces begrijpen. Het is ook belangrijk om op de hoogte te zijn van alle overheidsvoorschriften met betrekking tot cyberbeveiliging en cyberbeveiligingsverzekering in uw land.
 
-Uiteindelijk moet een cyberbeveiligingsverzekering worden gezien als onderdeel van een grotere cyberbeveiligingsstrategie die bestaat uit het implementeren van sterke cyberbeveiligingsmaatregelen, het trainen van werknemers in best practices op het gebied van cyberbeveiliging en het regelmatig beoordelen en bijwerken van uw cyberbeveiligingsbeleid. Door een alomvattende aanpak van cyberbeveiliging kunnen bedrijven hun risico op een cyberaanval of gegevensinbreuk verkleinen en de impact van deze incidenten minimaliseren als ze zich toch voordoen.
+Uiteindelijk moet een cyberbeveiligingsverzekering worden gezien als onderdeel van een grotere cyberbeveiligingsstrategie die bestaat uit het implementeren van sterke cyberbeveiligingsmaatregelen, het trainen van werknemers in goede cyberbeveiligingspraktijken en het regelmatig beoordelen en bijwerken van uw cyberbeveiligingsbeleid. Door een alomvattende aanpak van cyberbeveiliging kunnen bedrijven hun risico op een cyberaanval of gegevensinbreuk verkleinen en de impact van deze incidenten minimaliseren als ze zich toch voordoen.

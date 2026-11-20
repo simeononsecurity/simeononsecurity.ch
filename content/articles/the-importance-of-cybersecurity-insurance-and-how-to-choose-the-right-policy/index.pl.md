@@ -1,7 +1,7 @@
 ---
 title: "Wybór ubezpieczenia cyberbezpieczeństwa: Kompleksowy przewodnik po właściwej polisie"
 date: 2023-04-12
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Dowiedz się, jak wybrać idealną polisę ubezpieczeniową cyberbezpieczeństwa, aby chronić swoją firmę przed zagrożeniami cybernetycznymi."
@@ -53,7 +53,7 @@ ______
 
 **Regulacje rządowe dotyczące ubezpieczeń cyberbezpieczeństwa**
 
-W wielu krajach obowiązują przepisy i regulacje, które wymagają od firm posiadania odpowiednich środków bezpieczeństwa cybernetycznego i powiadamiania osób fizycznych w przypadku naruszenia danych. Na przykład w Stanach Zjednoczonych ustawa Health Insurance Portability and Accountability Act (HIPAA) wymaga od dostawców opieki zdrowotnej wdrożenia zabezpieczeń w celu ochrony danych pacjentów i zgłaszania wszelkich naruszeń tych danych. Ogólne rozporządzenie o ochronie danych (RODO) w Unii Europejskiej wymaga od przedsiębiorstw ochrony danych osobowych obywateli UE i zgłaszania wszelkich naruszeń danych w ciągu 72 godzin.
+W wielu krajach obowiązują przepisy i regulacje, które wymagają od firm posiadania odpowiednich środków bezpieczeństwa cybernetycznego i powiadamiania osób fizycznych w przypadku naruszenia danych. Na przykład w Stanach Zjednoczonych ustawa o przenoszalności ubezpieczenia zdrowotnego i odpowiedzialności (HIPAA) wymaga od dostawców opieki zdrowotnej wdrożenia zabezpieczeń w celu ochrony danych pacjentów i zgłaszania naruszeń tych danych. Ogólne rozporządzenie o ochronie danych (RODO) w Unii Europejskiej wymaga od przedsiębiorstw ochrony danych osobowych obywateli UE i zgłaszania naruszeń danych w ciągu 72 godzin.
 
 W niektórych krajach obowiązują również przepisy dotyczące ubezpieczenia cyberbezpieczeństwa. W Stanach Zjednoczonych Krajowe Stowarzyszenie Komisarzy Ubezpieczeniowych (NAIC) opracowało modelową ustawę dotyczącą ubezpieczenia cyberbezpieczeństwa, która została przyjęta przez kilka stanów. Prawo to wymaga od ubezpieczycieli ustanowienia programu cyberbezpieczeństwa i powiadamiania organów regulacyjnych w przypadku incydentu związanego z cyberbezpieczeństwem.
 
