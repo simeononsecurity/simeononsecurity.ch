@@ -742,6 +742,28 @@ def reader_fenced_code_prose(text: str) -> set[str]:
             yaml_index = 0
             while yaml_index < len(yaml_lines):
                 line = yaml_lines[yaml_index]
+                sample_value = re.match(
+                    r"^\s*(?:-\s*)?([A-Za-z_][A-Za-z0-9_-]*)\s*:\s*"
+                    r"([\"'])(.+?)\2\s*(?:#.*)?$",
+                    line,
+                )
+                if sample_value and sample_value.group(1).lower() not in {
+                    "name", "msg", "description", "message", "title", "caption",
+                    "comment", "labeltext", "displaytext",
+                }:
+                    text_value = sample_value.group(3).strip()
+                    words = re.findall(r"[A-Za-z]+(?:'[A-Za-z]+)?", text_value)
+                    english_signals = sum(
+                        word.lower() in ENGLISH_STOPWORDS for word in words
+                    )
+                    if (
+                        len(words) >= 6
+                        and english_signals >= 3
+                        and english_signals / len(words) >= 0.22
+                    ):
+                        normalized = normalize(text_value)
+                        if normalized:
+                            findings.add(normalized)
                 key = re.match(r"^(\s*)(?:-\s*)?(?:name|msg)\s*:\s*(.*?)\s*$", line)
                 yaml_index += 1
                 if not key:

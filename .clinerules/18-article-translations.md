@@ -137,6 +137,11 @@
 - In fenced examples, preserve executable syntax, commands, identifiers, and
   literal output. Translate natural-language comments and reader instructions
   inside the fence, including lines such as `# Build and flash for Atom Lite`.
+  Localize unchanged natural-language sample inputs in code, such as a YAML
+  `user_input: "Hello! This is a string with non-alphanumeric characters."`
+  value. Keep the key and example logic unchanged, and translate only the
+  sample data when it serves as reader-facing prose. The strict gate screens
+  source-matched English sentences in quoted YAML scalar values.
   Treat comment markers as code syntax, not as proof that the words after them
   are fixed technical text. Compare each reader-facing comment with its source
   counterpart and inspect code-prose fallback findings before freezing a
@@ -219,6 +224,8 @@
   caption. Within each section, map every source prose paragraph to a translated
   paragraph or an explicitly justified structural equivalent. Heading, list,
   table, and link counts do not prove ordinary narrative paragraphs are complete.
+  Source-alignment CSV cells can contain quoted newlines. Count logical records
+  with a CSV parser, not physical lines or `wc -l`.
   The peer reviewer must verify each mapping against the frozen file hashes.
   Keep the locale incomplete until all reader-facing prose is in the
   target language or a specific retained English term is documented as a

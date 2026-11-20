@@ -2912,6 +2912,61 @@ class FencedProseTests(unittest.TestCase):
             },
         )
 
+    def test_screens_unchanged_english_yaml_sample_values(self):
+        source = (
+            "```yaml\n"
+            "user_input: \"Hello! This is a string with non-alphanumeric characters.\"\n"
+            "sanitized_input: \"{{ user_input | regex_replace('[^A-Za-z0-9]', '') }}\"\n"
+            "```"
+        )
+        localized = (
+            "```yaml\n"
+            "user_input: \"¡Hola! Esta es una cadena con caracteres no alfanuméricos.\"\n"
+            "sanitized_input: \"{{ user_input | regex_replace('[^A-Za-z0-9]', '') }}\"\n"
+            "```"
+        )
+        expected = {"hello this is a string with non alphanumeric characters"}
+        self.assertEqual(reader_fenced_code_prose(source), expected)
+        self.assertEqual(copied_reader_code_prose(source, source), expected)
+        self.assertEqual(copied_reader_code_prose(source, localized), set())
+        self.assertEqual(english_reader_code_prose_fallback(source, source), sorted(expected))
+
+    def test_strict_gate_blocks_unchanged_english_yaml_sample_value(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            en_body = (
+                "## Example\n\nUse this sample input in the filter.\n\n"
+                "```yaml\n"
+                "user_input: \"Hello! This is a string with non-alphanumeric characters.\"\n"
+                "sanitized_input: \"{{ user_input | regex_replace('[^A-Za-z0-9]', '') }}\"\n"
+                "```\n"
+            )
+            fr_body = (
+                "## Exemple\n\nUtilisez cette entrée dans le filtre.\n\n"
+                "```yaml\n"
+                "user_input: \"Hello! This is a string with non-alphanumeric characters.\"\n"
+                "sanitized_input: \"{{ user_input | regex_replace('[^A-Za-z0-9]', '') }}\"\n"
+                "```\n"
+            )
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Input sanitization'\n---\n" + en_body,
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Nettoyage des entrées'\n---\n" + fr_body,
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+        self.assertEqual(result, 1)
+        self.assertIn("English_reader_code_prose_fallback", stdout.getvalue())
+
     def test_yaml_ignores_identifier_only_and_fixed_status_messages(self):
         sample = (
             '```yml\n- name: "{{ result.stdout }}"\n'
