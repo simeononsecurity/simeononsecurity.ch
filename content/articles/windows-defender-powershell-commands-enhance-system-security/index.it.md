@@ -1,12 +1,12 @@
 ---
 title: "Comandi PowerShell di Windows Defender per la sicurezza del sistema"
 date: 2023-07-27
-lastmod: 2026-10-21
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Scoprite la potenza dei comandi PowerShell di Windows Defender e imparate a migliorare la sicurezza del vostro sistema con il controllo della riga di comando."
 genre: ["Windows Defender", "Comandi PowerShell", "sicurezza del sistema", "controllo a riga di comando", "antivirus", "Sistemi operativi Windows", "protezione da malware", "impostazioni di sicurezza avanzate", "automatizzare le operazioni di sicurezza", "Windows PowerShell"]
-tags: ["Tecnologia", "Sicurezza informatica", "Sistemi operativi", "Finestre", "Strumenti a riga di comando", "Sicurezza del sistema", "PowerShell", "Antivirus", "Protezione da malware", "Scripting"]
+tags: ["Tecnologia", "Sicurezza informatica", "Sistemi operativi", "Windows", "Strumenti a riga di comando", "Sicurezza del sistema", "PowerShell", "Antivirus", "Protezione da malware", "Sviluppo di script"]
 cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.webp"
 coverAlt: "Un'illustrazione animata che raffigura uno scudo che protegge un sistema informatico da varie minacce informatiche."
 coverCaption: "Potenziare la sicurezza del sistema con i comandi PowerShell di Windows Defender."
@@ -24,8 +24,8 @@ I comandi PowerShell di Windows Defender consentono agli utenti di eseguire oper
 
 Per accedere ai comandi PowerShell di Windows Defender, è necessario aprire una sessione PowerShell con privilegi amministrativi. Ecco come iniziare:
 
-1. Premete `Win + X` e selezionare **Windows PowerShell (Admin)** dal menu.
-2. Se richiesto, fare clic su **Sì** per consentire all'applicazione di apportare modifiche al dispositivo.
+1. Premete `Win + X` e selezionate **Windows PowerShell (Admin)** (come amministratore) dal menu.
+2. Se richiesto, fate clic su **Yes** (Sì) per consentire all'applicazione di apportare modifiche al dispositivo.
 
 Una volta aperta una sessione PowerShell, è possibile iniziare a utilizzare i comandi PowerShell di Windows Defender.
 
@@ -33,7 +33,7 @@ Una volta aperta una sessione PowerShell, è possibile iniziare a utilizzare i c
 
 ### 1. **Get-MpComputerStatus**: Controlla lo stato di Windows Defender
 
-Il `Get-MpComputerStatus` fornisce una panoramica dello stato attuale di Windows Defender sul sistema, compresa la versione del motore antivirus, l'ora dell'ultima scansione e lo stato della protezione in tempo reale. Eseguendo questo comando, è possibile valutare rapidamente la salute complessiva di Windows Defender e assicurarsi che funzioni in modo ottimale.
+Il comando `Get-MpComputerStatus` mostra una panoramica dello stato attuale di Windows Defender sul sistema, inclusi la versione del motore antivirus, l’ora dell’ultima scansione e lo stato della protezione in tempo reale. Eseguendolo, è possibile controllare rapidamente che Windows Defender funzioni correttamente.
 
 Per controllare lo stato di Windows Defender, aprite una sessione PowerShell con privilegi amministrativi ed eseguite il seguente comando:
 
@@ -52,7 +52,7 @@ Monitorare regolarmente lo stato di Windows Defender utilizzando `Get-MpComputer
 
 ### 2. [**Update-MpSignature**](https://learn.microsoft.com/en-us/powershell/module/defender/update-mpsignature?view=windowsserver2022-ps)
 
-Il `Update-MpSignature` consente di aggiornare manualmente le firme antivirus utilizzate da Windows Defender. Le firme antivirus contengono informazioni cruciali sul malware conosciuto, consentendo a Windows Defender di rilevare e bloccare efficacemente le minacce. Eseguendo questo comando, ci si assicura che il sistema disponga delle firme più recenti, garantendo una maggiore protezione contro le minacce emergenti.
+Il comando `Update-MpSignature` consente di aggiornare manualmente le firme antivirus usate da Windows Defender. Queste firme contengono informazioni importanti sui malware noti e aiutano Windows Defender a rilevare e bloccare le minacce. Eseguendo il comando, il sistema scarica le firme più recenti e migliora la protezione dalle nuove minacce.
 
 Per aggiornare manualmente le firme di Windows Defender, aprite una sessione PowerShell con privilegi amministrativi ed eseguite il seguente comando:
 
@@ -65,9 +65,9 @@ Mantenere aggiornate le firme di Windows Defender è essenziale per mantenere il
 
 ### 3. [**Set-MpPreference**](https://learn.microsoft.com/en-us/powershell/module/defender/set-mppreference?view=windowsserver2022-ps)
 
-Il `Set-MpPreference` consente di personalizzare varie impostazioni di **Windows Defender**, permettendo di adattare il suo comportamento ai requisiti di sicurezza specifici. Questo comando offre flessibilità nella configurazione di opzioni quali **protezione in tempo reale**, **protezione basata su cloud** e **impostazioni del sistema di ispezione di rete**.
+Il comando `Set-MpPreference` consente di personalizzare varie impostazioni di **Windows Defender** in base alle proprie esigenze di sicurezza. Offre opzioni per configurare la **protezione in tempo reale**, la **protezione basata sul cloud** e le **impostazioni del sistema di ispezione della rete**.
 
-Ad esempio, è possibile attivare o disattivare la protezione in tempo reale utilizzando il comando `Set-MpPreference` comando. La protezione in tempo reale monitora attivamente il sistema alla ricerca di attività dannose e fornisce una risposta immediata alle minacce. Per attivare la protezione in tempo reale, eseguire il seguente comando:
+Ad esempio, è possibile attivare o disattivare la protezione in tempo reale con `Set-MpPreference`. La protezione in tempo reale monitora il sistema per rilevare attività dannose e risponde subito alle minacce. Per attivarla, eseguire il comando seguente:
 
 ```powershell
 Set-MpPreference -DisableRealtimeMonitoring:$false
@@ -79,7 +79,7 @@ Inoltre, è possibile utilizzare il comando per regolare le impostazioni della p
 Set-MpPreference -EnableCloudProtection:$true
 ```
 
-Inoltre, il `Set-MpPreference` consente di personalizzare le impostazioni del sistema di ispezione di rete. Il sistema di ispezione di rete analizza il traffico di rete alla ricerca di attività sospette e potenziali minacce. Per regolare le impostazioni del sistema di ispezione di rete, eseguire il seguente comando:
+È inoltre possibile usare `Set-MpPreference` per personalizzare le impostazioni del sistema di ispezione della rete. Il sistema analizza il traffico di rete alla ricerca di attività sospette e potenziali minacce. Per modificarne le impostazioni, eseguire il comando seguente:
 
 ```powershell
 Set-MpPreference -DisableIOAVProtection:$false
@@ -89,9 +89,9 @@ Regolando con precisione queste impostazioni con `Set-MpPreference` è possibile
 
 ### 4. [**Start-MpScan**](https://learn.microsoft.com/en-us/powershell/module/defender/start-mpscan?view=windowsserver2022-ps)
 
-Il `Start-MpScan` è un potente strumento per avviare scansioni di malware sul sistema, consentendo di identificare ed eliminare in modo proattivo i file dannosi. Questo comando offre flessibilità nell'esecuzione di diversi tipi di scansioni, tra cui **scansioni rapide**, **scansioni complete** e **scansioni personalizzate** con percorsi specifici.
+Il comando `Start-MpScan` avvia scansioni antimalware sul sistema, consentendo di individuare e rimuovere in modo proattivo i file dannosi. Supporta diversi tipi di scansione, tra cui **scansioni rapide**, **scansioni complete** e **scansioni personalizzate** di percorsi specifici.
 
-Per eseguire una **scansione rapida** utilizzando il comando `Start-MpScan` eseguire il seguente comando PowerShell:
+Per eseguire una **scansione rapida** con `Start-MpScan`, eseguire il comando PowerShell seguente:
 
 ```powershell
 Start-MpScan -ScanType QuickScan
@@ -99,7 +99,7 @@ Start-MpScan -ScanType QuickScan
 
 Una scansione rapida si concentra sulle aree critiche del sistema in cui è comunemente presente il malware, fornendo una rapida valutazione delle potenziali minacce.
 
-Per una scansione più completa che esamini tutti i file e le directory del sistema, è possibile avviare una **scansione completa**. Eseguire il seguente comando per eseguire una scansione completa utilizzando `Start-MpScan`
+Per esaminare tutti i file e le directory del sistema, è possibile avviare una **scansione completa** con `Start-MpScan`. Eseguire il comando seguente:
 
 ```powershell
 Start-MpScan -ScanType FullScan
@@ -107,7 +107,7 @@ Start-MpScan -ScanType FullScan
 
 Una scansione completa garantisce il rilevamento e la rimozione completa del malware dal sistema, ma potrebbe richiedere più tempo rispetto a una scansione rapida.
 
-Oltre ai tipi di scansione predefiniti, l'opzione `Start-MpScan` consente di eseguire scansioni personalizzate specificando percorsi o file specifici da analizzare. Ad esempio, è possibile eseguire la scansione di una directory specifica del sistema utilizzando il seguente comando:
+Oltre ai tipi di scansione predefiniti, `Start-MpScan` consente di specificare percorsi o file per una scansione personalizzata. Ad esempio, è possibile analizzare una directory specifica con il comando seguente:
 
 ```powershell
 Start-MpScan -ScanType CustomScan -ScanPath "C:\Path\To\Directory"
@@ -119,9 +119,9 @@ Sfruttando la versatilità del comando `Start-MpScan` è possibile pianificare l
 
 ### 5. [**Get-MpThreatCatalog**](https://learn.microsoft.com/en-us/powershell/module/defender/get-mpthreatcatalog?view=windowsserver2022-ps)
 
-Il `Get-MpThreatCatalog` è una risorsa preziosa per ottenere informazioni dettagliate sulle minacce note e sui loro attributi. Eseguendo questo comando, è possibile accedere a un catalogo completo di minacce, compresi i dati sulla loro gravità, i nomi dei file associati e le azioni consigliate per la mitigazione.
+Il comando `Get-MpThreatCatalog` fornisce informazioni dettagliate sulle minacce note e sui relativi attributi. Il catalogo comprende dati sulla gravità, sui nomi dei file associati e sulle azioni consigliate per mitigare le minacce.
 
-Per recuperare informazioni su minacce specifiche utilizzando `Get-MpThreatCatalog` seguire questi passaggi:
+Per recuperare informazioni su minacce specifiche con `Get-MpThreatCatalog`, seguire questi passaggi:
 
 1. Aprite una sessione PowerShell con privilegi amministrativi.
 2. Eseguite il seguente comando:
@@ -131,25 +131,25 @@ Per recuperare informazioni su minacce specifiche utilizzando `Get-MpThreatCatal
 ```
 Questo comando visualizza un elenco di minacce conosciute con i relativi dettagli.
 
-L'output del comando `Get-MpThreatCatalog` Il comando include informazioni essenziali quali:
+L’output del comando `Get-MpThreatCatalog` include informazioni essenziali come:
 
 - **ThreatID**: Un identificatore univoco della minaccia.
-- **Severità**: Indica il livello di gravità della minaccia, da Basso a Grave.
-- **Nome**: Il nome o la descrizione della minaccia.
-- **Percorso**: Il percorso del file associato alla minaccia.
-- **Azione consigliata**: Fornisce indicazioni sull'azione consigliata da intraprendere per mitigare la minaccia.
+- **Severity**: Indica la gravità della minaccia, da Low a Severe.
+- **Name**: Nome o descrizione della minaccia.
+- **Path**: Percorso del file associato alla minaccia.
+- **RecommendedAction**: Indica l’azione consigliata per mitigare la minaccia.
 
-Sfruttando le informazioni ottenute da `Get-MpThreatCatalog` è possibile ottenere informazioni preziose sulle minacce potenziali e prendere decisioni informate sulle azioni appropriate per ridurle. Che si tratti di isolare, rimuovere o monitorare una minaccia specifica, il catalogo dettagliato consente di rispondere efficacemente agli incidenti di sicurezza.
+Le informazioni di `Get-MpThreatCatalog` aiutano a valutare le potenziali minacce e a decidere come gestirle. È possibile isolare, rimuovere o monitorare una minaccia. Il catalogo dettagliato supporta una risposta efficace agli incidenti di sicurezza.
 
 Per ulteriori informazioni sull'utilizzo di `Get-MpThreatCatalog` e l'interpretazione dei risultati, consultare la documentazione ufficiale di Microsoft.
 
-Rimanete vigili e utilizzate regolarmente il `Get-MpThreatCatalog` per rimanere informati sull'evoluzione del panorama delle minacce e migliorare la sicurezza del vostro sistema.
+Usare regolarmente `Get-MpThreatCatalog` per restare aggiornati sulle minacce e migliorare la sicurezza del sistema.
 
 ### 6. [**Add-MpPreference**](https://learn.microsoft.com/en-us/powershell/module/defender/add-mppreference?view=windowsserver2022-ps)
 
-Il `Add-MpPreference` consente di aggiungere esclusioni a Windows Defender, permettendo di personalizzare il comportamento della scansione e della protezione in tempo reale. Aggiungendo esclusioni, è possibile specificare file, cartelle o processi che si desidera che Windows Defender ignori durante le scansioni di sicurezza o la protezione in tempo reale.
+Il comando `Add-MpPreference` consente di aggiungere esclusioni a Windows Defender e personalizzare il comportamento delle scansioni e della protezione in tempo reale. È possibile indicare i file, le cartelle o i processi che Windows Defender deve ignorare durante le scansioni o la protezione in tempo reale.
 
-Per aggiungere un'esclusione utilizzando `Add-MpPreference` è necessario fornire il percorso o il nome del file, della cartella o del processo che si desidera escludere. Ecco un esempio di aggiunta di un'esclusione per una cartella:
+Per aggiungere un’esclusione con `Add-MpPreference`, specificare il percorso o il nome del file, della cartella o del processo da escludere. Ecco un esempio per una cartella:
 
 ```powershell
 Add-MpPreference -ExclusionPath "C:\MyFolder"
@@ -159,15 +159,21 @@ Questo comando assicura che Windows Defender salti la scansione della cartella s
 
 Le esclusioni possono essere utili in vari scenari, come l'esclusione di applicazioni affidabili, ambienti di sviluppo o file specifici che possono generare falsi positivi. Sfruttando la flessibilità di `Add-MpPreference` è possibile mettere a punto Windows Defender in base alle proprie esigenze di sicurezza e ottimizzarne le prestazioni.
 
-Proteggete il vostro sistema in modo efficace, riducendo al minimo i falsi positivi e le interruzioni inutili della scansione, utilizzando le potenti funzionalità di esclusione fornite da `Add-MpPreference`
+Proteggere il sistema e ridurre falsi positivi e interruzioni inutili delle scansioni con le funzioni di esclusione di `Add-MpPreference`.
+
+## Verifiche dei comandi Defender nel 2026
+
+Eseguite i comandi Defender da una sessione con privilegi elevati solo quando l’attività richiede l’elevazione. Prima di usare un parametro, consultate la guida aggiornata del modulo per la versione di Windows di destinazione. Registrate la configurazione attuale, modificate una sola impostazione per volta, verificate il risultato e annotate il comando di ripristino.
+
+Tra i controlli utili rientrano lo stato della protezione, l’età delle firme, le esclusioni, le preferenze, la cronologia delle scansioni e i rilevamenti recenti. Limitate le esclusioni e registrate il responsabile e la data di scadenza. Consultate la [documentazione del modulo PowerShell di Microsoft Defender](https://learn.microsoft.com/en-us/powershell/module/defender/) e la [documentazione di Microsoft Defender Antivirus](https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-antivirus-windows) per i cmdlet e il comportamento attuali.
 
 ## Conclusione
 
-I comandi PowerShell di Windows Defender forniscono una serie di strumenti** per gestire e migliorare la sicurezza del sistema Windows. Sfruttando questi comandi, è possibile *automatizzare le operazioni di sicurezza*, *configurare le impostazioni avanzate* e incorporare Windows Defender senza soluzione di continuità nei propri flussi di lavoro. Sia che siate un **amministratore di sistema** o un **utente esperto**, esplorare le capacità dei comandi PowerShell di Windows Defender può migliorare significativamente la sicurezza del vostro sistema.
+I comandi PowerShell di Windows Defender forniscono una serie di **strumenti** per gestire e migliorare la sicurezza del sistema Windows. Sfruttando questi comandi, è possibile *automatizzare le operazioni di sicurezza*, *configurare le impostazioni avanzate* e incorporare Windows Defender senza soluzione di continuità nei propri flussi di lavoro. Sia che siate un **amministratore di sistema** o un **utente esperto**, esplorare le capacità dei comandi PowerShell di Windows Defender può migliorare significativamente la sicurezza del vostro sistema.
 
 Ricordate che da un grande potere derivano grandi responsabilità. Quando si utilizzano i comandi PowerShell, occorre essere cauti e assicurarsi di averne compreso l'impatto prima di eseguirli. Combinando le vostre conoscenze con la potenza dei comandi PowerShell di Windows Defender, potrete adottare misure proattive per proteggere il vostro sistema dalle minacce in evoluzione.
 
 ## Riferimenti
 
-1. Microsoft Docs - [Windows Defender Cmdlets in Windows PowerShell](https://docs.microsoft.com/en-us/powershell/module/defender/?view=windowsserver2019-ps)
-2. Microsoft Docs - [Introduction to Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.1)
+1. Microsoft Docs - [Cmdlet di Windows Defender in Windows PowerShell](https://docs.microsoft.com/en-us/powershell/module/defender/?view=windowsserver2019-ps)
+2. Microsoft Docs - [Introduzione a Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.1)

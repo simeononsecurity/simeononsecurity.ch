@@ -1,7 +1,7 @@
 ---
 title: "Polecenia PowerShell programu Windows Defender dla bezpieczeństwa systemu"
 date: 2023-07-27
-lastmod: 2026-10-21
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Odkryj moc poleceń Windows Defender PowerShell i dowiedz się, jak zwiększyć bezpieczeństwo systemu za pomocą sterowania z wiersza poleceń."
@@ -24,8 +24,8 @@ Polecenia Windows Defender PowerShell dają użytkownikom możliwość wykonywan
 
 Aby uzyskać dostęp do poleceń Windows Defender PowerShell, należy otworzyć sesję PowerShell z uprawnieniami administratora. Oto jak możesz zacząć:
 
-1. Naciśnij przycisk `Win + X` i wybierz **Windows PowerShell (Admin)** z menu.
-2. Jeśli pojawi się monit, kliknij **Tak**, aby zezwolić aplikacji na wprowadzanie zmian na urządzeniu.
+1. Naciśnij przycisk `Win + X` i wybierz **Windows PowerShell (Admin)** (jako administrator) z menu.
+2. Jeśli pojawi się monit, kliknij **Yes** (Tak), aby zezwolić aplikacji na wprowadzanie zmian na urządzeniu.
 
 Po otwarciu sesji PowerShell można rozpocząć korzystanie z poleceń Windows Defender PowerShell.
 
@@ -33,7 +33,7 @@ Po otwarciu sesji PowerShell można rozpocząć korzystanie z poleceń Windows D
 
 ### 1. **Get-MpComputerStatus**: Sprawdza status Windows Defender
 
-The `Get-MpComputerStatus` zapewnia przegląd bieżącego stanu programu Windows Defender w systemie, w tym wersję silnika antywirusowego, czas ostatniego skanowania i stan ochrony w czasie rzeczywistym. Uruchamiając to polecenie, można szybko ocenić ogólną kondycję programu Windows Defender i upewnić się, że działa on optymalnie.
+Polecenie `Get-MpComputerStatus` przedstawia bieżący stan programu Windows Defender, w tym wersję silnika antywirusowego, czas ostatniego skanowania i stan ochrony w czasie rzeczywistym. Pozwala szybko ocenić działanie programu i sprawdzić, czy działa prawidłowo.
 
 Aby sprawdzić stan Windows Defender, otwórz sesję PowerShell z uprawnieniami administratora i wykonaj następujące polecenie:
 
@@ -46,13 +46,13 @@ To polecenie wyświetli takie informacje, jak
 - **AntivirusEngineVersion**: Numer wersji silnika antywirusowego używanego przez Windows Defender.
 - **LastFullScanTime**: Data i godzina ostatniego pełnego skanowania wykonanego przez Windows Defender.
 - **LastQuickScanTime**: Data i godzina ostatniego szybkiego skanowania wykonanego przez program Windows Defender.
-- RealTimeProtectionEnabled**: Wskazuje, czy ochrona w czasie rzeczywistym jest włączona czy wyłączona.
+- **RealTimeProtectionEnabled**: Wskazuje, czy ochrona w czasie rzeczywistym jest włączona czy wyłączona.
 
 Regularne monitorowanie stanu Windows Defender za pomocą `Get-MpComputerStatus` zapewnia, że użytkownik jest na bieżąco informowany o poziomie ochrony systemu przed potencjalnymi zagrożeniami.
 
 ### 2. [**Update-MpSignature**](https://learn.microsoft.com/en-us/powershell/module/defender/update-mpsignature?view=windowsserver2022-ps)
 
-The `Update-MpSignature` daje możliwość ręcznej aktualizacji sygnatur antywirusowych używanych przez program Windows Defender. Sygnatury antywirusowe zawierają kluczowe informacje o znanym złośliwym oprogramowaniu, umożliwiając usłudze Windows Defender skuteczne wykrywanie i blokowanie zagrożeń. Uruchamiając to polecenie, upewniasz się, że twój system ma najnowsze sygnatury, zapewniając lepszą ochronę przed pojawiającymi się zagrożeniami.
+Polecenie `Update-MpSignature` umożliwia ręczną aktualizację sygnatur antywirusowych używanych przez Windows Defender. Sygnatury zawierają ważne informacje o znanym złośliwym oprogramowaniu i pomagają wykrywać oraz blokować zagrożenia. Uruchomienie polecenia pobiera najnowsze sygnatury i zwiększa ochronę przed nowymi zagrożeniami.
 
 Aby ręcznie zaktualizować sygnatury Windows Defender, otwórz sesję PowerShell z uprawnieniami administratora i wykonaj następujące polecenie:
 
@@ -65,9 +65,9 @@ Aktualizowanie sygnatur Windows Defender jest niezbędne do utrzymania najwyższ
 
 ### 3. [**Set-MpPreference**](https://learn.microsoft.com/en-us/powershell/module/defender/set-mppreference?view=windowsserver2022-ps)
 
-The `Set-MpPreference` umożliwia dostosowanie różnych ustawień **Windows Defender**, pozwalając na dostosowanie jego zachowania do konkretnych wymagań bezpieczeństwa. To polecenie zapewnia elastyczność w konfigurowaniu opcji takich jak **ochrona w czasie rzeczywistym**, **ochrona oparta na chmurze** i **ustawienia systemu inspekcji sieci**.
+Polecenie `Set-MpPreference` pozwala dostosować ustawienia **Windows Defender** do konkretnych wymagań bezpieczeństwa. Obejmuje to **ochronę w czasie rzeczywistym**, **ochronę opartą na chmurze** i **ustawienia systemu inspekcji sieci**.
 
-Na przykład, można włączyć lub wyłączyć ochronę w czasie rzeczywistym za pomocą polecenia `Set-MpPreference` polecenie. Ochrona w czasie rzeczywistym aktywnie monitoruje system pod kątem złośliwych działań i zapewnia natychmiastową reakcję na zagrożenia. Aby włączyć ochronę w czasie rzeczywistym, wykonaj następujące polecenie:
+Ochronę w czasie rzeczywistym można włączyć lub wyłączyć za pomocą `Set-MpPreference`. Funkcja ta aktywnie monitoruje system pod kątem złośliwych działań i szybko reaguje na zagrożenia. Aby ją włączyć, wykonaj następujące polecenie:
 
 ```powershell
 Set-MpPreference -DisableRealtimeMonitoring:$false
@@ -85,13 +85,13 @@ Ponadto `Set-MpPreference` umożliwia dostosowanie ustawień systemu inspekcji s
 Set-MpPreference -DisableIOAVProtection:$false
 ```
 
-Dostrajając te ustawienia za pomocą `Set-MpPreference` Możesz zoptymalizować **Windows Defender**, aby dostosować go do swoich konkretnych potrzeb w zakresie bezpieczeństwa i zapewnić solidną ochronę przed złośliwym oprogramowaniem i innymi złośliwymi działaniami.
+Dostosowanie tych ustawień za pomocą `Set-MpPreference` pozwala zoptymalizować **Windows Defender** zgodnie z wymaganiami bezpieczeństwa i zapewnić solidną ochronę przed złośliwym oprogramowaniem oraz innymi zagrożeniami.
 
 ### 4. [**Start-MpScan**](https://learn.microsoft.com/en-us/powershell/module/defender/start-mpscan?view=windowsserver2022-ps)
 
-The `Start-MpScan` jest potężnym narzędziem do inicjowania skanowania systemu pod kątem złośliwego oprogramowania, umożliwiając proaktywną identyfikację i eliminację złośliwych plików. To polecenie zapewnia elastyczność w wykonywaniu różnych rodzajów skanowania, w tym **szybkiego skanowania**, **pełnego skanowania** i **niestandardowego skanowania** z określonymi ścieżkami.
+Polecenie `Start-MpScan` uruchamia skanowanie systemu w poszukiwaniu złośliwego oprogramowania, pomagając wykrywać i usuwać szkodliwe pliki. Obsługuje **szybkie skanowanie**, **pełne skanowanie** oraz **skanowanie niestandardowe** określonych ścieżek.
 
-Aby wykonać **szybkie skanowanie** przy użyciu polecenia `Start-MpScan` wykonaj następujące polecenie PowerShell:
+Aby wykonać **szybkie skanowanie** za pomocą `Start-MpScan`, uruchom następujące polecenie PowerShell:
 
 ```powershell
 Start-MpScan -ScanType QuickScan
@@ -99,7 +99,7 @@ Start-MpScan -ScanType QuickScan
 
 Szybkie skanowanie koncentruje się na krytycznych obszarach systemu, w których często znajduje się złośliwe oprogramowanie, zapewniając szybką ocenę potencjalnych zagrożeń.
 
-Aby uzyskać bardziej kompleksowe skanowanie, które sprawdza wszystkie pliki i katalogi w systemie, można zainicjować **pełne skanowanie**. Wykonaj następujące polecenie, aby przeprowadzić pełne skanowanie przy użyciu `Start-MpScan`
+Aby dokładniej sprawdzić wszystkie pliki i katalogi systemu, można uruchomić **pełne skanowanie**. Wykonaj następujące polecenie za pomocą `Start-MpScan`:
 
 ```powershell
 Start-MpScan -ScanType FullScan
@@ -107,7 +107,7 @@ Start-MpScan -ScanType FullScan
 
 Pełne skanowanie zapewnia dokładne wykrycie i usunięcie złośliwego oprogramowania z systemu, ale jego ukończenie może potrwać dłużej niż w przypadku szybkiego skanowania.
 
-Oprócz wstępnie zdefiniowanych typów skanowania, dostępne są następujące opcje `Start-MpScan` umożliwia wykonywanie niestandardowych skanów poprzez określenie określonych ścieżek lub plików do skanowania. Na przykład, można przeskanować określony katalog w systemie za pomocą następującego polecenia:
+Oprócz wstępnie zdefiniowanych typów skanowania polecenie `Start-MpScan` pozwala określić ścieżki lub pliki do skanowania niestandardowego. Na przykład poniższe polecenie skanuje wybrany katalog:
 
 ```powershell
 Start-MpScan -ScanType CustomScan -ScanPath "C:\Path\To\Directory"
@@ -115,11 +115,11 @@ Start-MpScan -ScanType CustomScan -ScanPath "C:\Path\To\Directory"
 
 To polecenie zainicjuje niestandardowe skanowanie w określonym katalogu, umożliwiając ukierunkowanie na określone obszary systemu w celu wykrycia złośliwego oprogramowania.
 
-Wykorzystując wszechstronność funkcji `Start-MpScan` Polecenie pozwala zaplanować skanowanie, zautomatyzować procesy bezpieczeństwa i zapewnić regularne wykrywanie i ograniczanie złośliwego oprogramowania w systemie.
+Funkcje polecenia `Start-MpScan` pozwalają planować skanowanie, automatyzować zadania związane z bezpieczeństwem oraz regularnie wykrywać i ograniczać złośliwe oprogramowanie w systemie.
 
 ### 5. [**Get-MpThreatCatalog**](https://learn.microsoft.com/en-us/powershell/module/defender/get-mpthreatcatalog?view=windowsserver2022-ps)
 
-The `Get-MpThreatCatalog` jest cennym źródłem uzyskiwania szczegółowych informacji o znanych zagrożeniach i ich atrybutach. Wykonując to polecenie, można uzyskać dostęp do kompleksowego katalogu zagrożeń, w tym danych dotyczących ich dotkliwości, powiązanych nazw plików i zalecanych działań w celu złagodzenia skutków.
+Polecenie `Get-MpThreatCatalog` dostarcza szczegółowych informacji o znanych zagrożeniach i ich atrybutach. Katalog zawiera dane o poziomie zagrożenia, powiązanych nazwach plików i zalecanych działaniach ograniczających ryzyko.
 
 Aby uzyskać informacje o określonych zagrożeniach przy użyciu `Get-MpThreatCatalog` wykonaj następujące kroki:
 
@@ -131,23 +131,23 @@ Aby uzyskać informacje o określonych zagrożeniach przy użyciu `Get-MpThreatC
 ```
 To polecenie wyświetli listę znanych zagrożeń wraz z odpowiadającymi im szczegółami.
 
-Wynik polecenia `Get-MpThreatCatalog` Polecenie zawiera istotne informacje, takie jak
+Wynik polecenia `Get-MpThreatCatalog` zawiera ważne informacje, takie jak:
 
 - **ThreatID**: Unikalny identyfikator zagrożenia.
-- **Severity**: Wskazuje poziom dotkliwości zagrożenia, od niskiego do poważnego.
-- Nazwa**: Nazwa lub opis zagrożenia.
-- Ścieżka**: Ścieżka do pliku powiązanego z zagrożeniem.
+- **Severity**: Wskazuje poziom dotkliwości zagrożenia, od Low (niski) do Severe (poważny).
+- **Name**: Nazwa lub opis zagrożenia.
+- **Path**: Ścieżka do pliku powiązanego z zagrożeniem.
 - **RecommendedAction**: Zawiera wskazówki dotyczące zalecanych działań, które należy podjąć w celu złagodzenia zagrożenia.
 
 Wykorzystując informacje uzyskane z `Get-MpThreatCatalog` można uzyskać cenny wgląd w potencjalne zagrożenia i podejmować świadome decyzje dotyczące odpowiednich działań w celu ich złagodzenia. Niezależnie od tego, czy chodzi o izolowanie, usuwanie czy monitorowanie określonego zagrożenia, szczegółowy katalog umożliwia skuteczne reagowanie na incydenty związane z bezpieczeństwem.
 
-Więcej informacji na temat korzystania z `Get-MpThreatCatalog` i interpretacji wyników, należy zapoznać się z oficjalną dokumentacją Microsoft.
+Aby dowiedzieć się więcej o używaniu `Get-MpThreatCatalog` i interpretowaniu wyników, zapoznaj się z oficjalną dokumentacją Microsoft.
 
-Zachowaj czujność i regularnie korzystaj z aplikacji `Get-MpThreatCatalog` aby być na bieżąco z ewoluującym krajobrazem zagrożeń i zwiększyć bezpieczeństwo swojego systemu.
+Regularnie korzystaj z `Get-MpThreatCatalog`, aby śledzić zmiany w krajobrazie zagrożeń i zwiększać bezpieczeństwo systemu.
 
 ### 6. [**Add-MpPreference**](https://learn.microsoft.com/en-us/powershell/module/defender/add-mppreference?view=windowsserver2022-ps)
 
-The `Add-MpPreference` umożliwia dodawanie wykluczeń do programu Windows Defender, umożliwiając dostosowanie działania skanowania i ochrony w czasie rzeczywistym. Dodając wykluczenia, można określić pliki, foldery lub procesy, które program Windows Defender ma ignorować podczas skanowania bezpieczeństwa lub ochrony w czasie rzeczywistym.
+Polecenie `Add-MpPreference` pozwala dodawać wykluczenia do Windows Defender i dostosowywać zachowanie skanowania oraz ochrony w czasie rzeczywistym. Można wskazać pliki, foldery lub procesy, które Windows Defender ma pomijać podczas skanowania lub działania ochrony w czasie rzeczywistym.
 
 Aby dodać wykluczenie przy użyciu `Add-MpPreference` musisz podać ścieżkę lub nazwę pliku, folderu lub procesu, który chcesz wykluczyć. Oto przykład dodawania wykluczenia dla folderu:
 
@@ -157,9 +157,15 @@ Add-MpPreference -ExclusionPath "C:\MyFolder"
 
 To polecenie zapewnia, że Windows Defender pomija skanowanie określonego folderu, redukując niepotrzebne alerty i potencjalne przerwy w przepływie pracy.
 
-Wykluczenia mogą być przydatne w różnych scenariuszach, takich jak wykluczanie zaufanych aplikacji, środowisk programistycznych lub określonych plików, które mogą powodować fałszywe alarmy. Wykorzystując elastyczność `Add-MpPreference` można dostosować program Windows Defender do konkretnych potrzeb w zakresie bezpieczeństwa i zoptymalizować jego wydajność.
+Wykluczenia przydają się między innymi w przypadku zaufanych aplikacji, środowisk programistycznych lub plików powodujących fałszywe alarmy. Za pomocą `Add-MpPreference` można dostosować Windows Defender do wymagań bezpieczeństwa i zoptymalizować jego działanie.
 
-Skuteczna ochrona systemu przy jednoczesnym zminimalizowaniu fałszywych alarmów i niepotrzebnych przerw w skanowaniu dzięki wykorzystaniu potężnych możliwości wykluczania zapewnianych przez `Add-MpPreference`
+Chroń system, ograniczaj fałszywe alarmy i unikaj zbędnych przerw w skanowaniu, korzystając z funkcji wykluczeń polecenia `Add-MpPreference`.
+
+## Kontrola poleceń Defender w 2026 r.
+
+Uruchamiaj polecenia Defendera z sesji o podwyższonych uprawnieniach tylko wtedy, gdy zadanie wymaga takich uprawnień. Przed użyciem parametru sprawdź aktualną pomoc modułu dla docelowej wersji systemu Windows. Zapisz bieżącą konfigurację, zmieniaj po jednym ustawieniu, sprawdź wynik i zanotuj polecenie przywracające poprzednią wartość.
+
+Przydatne czynności kontrolne obejmują sprawdzenie stanu ochrony, wieku sygnatur, wykluczeń, preferencji, historii skanowania i ostatnich wykryć. Ogranicz zakres wykluczeń oraz zapisz osobę odpowiedzialną i datę wygaśnięcia. Aktualne polecenia cmdlet i ich działanie opisują [dokumentacja modułu PowerShell Microsoft Defender](https://learn.microsoft.com/en-us/powershell/module/defender/) oraz [dokumentacja programu antywirusowego Microsoft Defender](https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-antivirus-windows).
 
 ## Wnioski
 
@@ -169,5 +175,5 @@ Pamiętaj, że z wielką mocą wiąże się wielka odpowiedzialność. Korzystaj
 
 ## Referencje
 
-1. Microsoft Docs - [Windows Defender Cmdlets in Windows PowerShell](https://docs.microsoft.com/en-us/powershell/module/defender/?view=windowsserver2019-ps)
-2) Microsoft Docs - [Introduction to Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.1)
+1. Microsoft Docs - [Polecenia cmdlet programu Windows Defender w Windows PowerShell](https://docs.microsoft.com/en-us/powershell/module/defender/?view=windowsserver2019-ps)
+2. Microsoft Docs - [Wprowadzenie do Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.1)

@@ -1,12 +1,12 @@
 ---
 title: "Windows Defender PowerShell-opdrachten voor systeembeveiliging"
 date: 2023-07-27
-lastmod: 2026-10-21
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Ontdek de kracht van Windows Defender PowerShell-opdrachten en leer hoe u de beveiliging van uw systeem kunt verbeteren met opdrachtregelbediening."
-genre: ["Windows Verdediger", "PowerShell-opdrachten", "systeemveiligheid", "commandoregelbesturing", "antivirus", "Windows-besturingssystemen", "bescherming tegen malware", "geavanceerde beveiligingsinstellingen", "beveiligingsactiviteiten automatiseren", "Windows PowerShell"]
-tags: ["Technologie", "Cyberbeveiliging", "Besturingssystemen", "Windows", "Commandoregeltools", "Systeembeveiliging", "PowerShell", "Antivirus", "Bescherming tegen malware", "Scripting"]
+genre: ["Windows Defender", "PowerShell-opdrachten", "systeemveiligheid", "commandoregelbesturing", "antivirus", "Windows-besturingssystemen", "bescherming tegen malware", "geavanceerde beveiligingsinstellingen", "beveiligingsactiviteiten automatiseren", "Windows PowerShell"]
+tags: ["Technologie", "Cyberbeveiliging", "Besturingssystemen", "Windows", "Commandoregeltools", "Systeembeveiliging", "PowerShell", "Antivirus", "Bescherming tegen malware", "Scripts schrijven"]
 cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.webp"
 coverAlt: "Een geanimeerde illustratie van een schild dat een computersysteem beschermt tegen verschillende cyberbedreigingen."
 coverCaption: "Versterk de beveiliging van uw systeem met Windows Defender PowerShell-commando's."
@@ -24,8 +24,8 @@ Windows Defender PowerShell-opdrachten geven gebruikers de mogelijkheid om geava
 
 Om toegang te krijgen tot Windows Defender PowerShell-opdrachten, moet u een PowerShell-sessie openen met beheerdersrechten. Zo kunt u aan de slag:
 
-1. Druk op `Win + X` en selecteer **Windows PowerShell (Admin)** in het menu.
-2. Als daarom wordt gevraagd, klikt u op **Ja** om de app toe te staan wijzigingen aan te brengen op uw apparaat.
+1. Druk op `Win + X` en selecteer **Windows PowerShell (Admin)** (als beheerder) in het menu.
+2. Als daarom wordt gevraagd, klikt u op **Yes** (Ja) om de app toe te staan wijzigingen aan te brengen op uw apparaat.
 
 Zodra u een PowerShell-sessie hebt geopend, kunt u de Windows Defender PowerShell-opdrachten gaan gebruiken.
 
@@ -33,7 +33,7 @@ Zodra u een PowerShell-sessie hebt geopend, kunt u de Windows Defender PowerShel
 
 ### 1. **Get-MpComputerStatus**: De Windows Defender-status controleren
 
-De `Get-MpComputerStatus` geeft een overzicht van de huidige status van Windows Defender op uw systeem, inclusief de versie van de antivirusengine, de laatste scantijd en de realtime beschermingsstatus. Door deze opdracht uit te voeren, kunt u snel de algemene gezondheid van Windows Defender beoordelen en ervoor zorgen dat het optimaal functioneert.
+Met de opdracht `Get-MpComputerStatus` krijgt u een overzicht van de huidige status van Windows Defender op uw systeem, waaronder de versie van de antivirusengine, het tijdstip van de laatste scan en de status van realtimebescherming. Zo kunt u snel controleren of Windows Defender goed werkt.
 
 Om de status van Windows Defender te controleren, opent u een PowerShell-sessie met beheerdersrechten en voert u de volgende opdracht uit:
 
@@ -48,11 +48,11 @@ Dit commando geeft informatie weer zoals:
 - **LastQuickScanTime**: De datum en tijd van de laatste snelle scan die is uitgevoerd door Windows Defender.
 - **RealTimeProtectionEnabled**: Geeft aan of realtime bescherming is in- of uitgeschakeld.
 
-De status van Windows Defender regelmatig controleren met `Get-MpComputerStatus` zorgt ervoor dat je op de hoogte blijft van het beschermingsniveau van je systeem tegen mogelijke bedreigingen.
+De status van Windows Defender regelmatig controleren met `Get-MpComputerStatus` zorgt ervoor dat u op de hoogte blijft van het beschermingsniveau van uw systeem tegen mogelijke bedreigingen.
 
 ### 2. [**Update-MpSignature**](https://learn.microsoft.com/en-us/powershell/module/defender/update-mpsignature?view=windowsserver2022-ps)
 
-De `Update-MpSignature` Met de opdracht kunt u de antivirushandtekeningen die door Windows Defender worden gebruikt handmatig bijwerken. Antivirushandtekeningen bevatten cruciale informatie over bekende malware, waardoor Windows Defender effectief bedreigingen kan detecteren en blokkeren. Door deze opdracht uit te voeren, zorgt u ervoor dat uw systeem over de nieuwste handtekeningen beschikt, waardoor een betere bescherming tegen nieuwe bedreigingen wordt geboden.
+Met de opdracht `Update-MpSignature` kunt u de antivirushandtekeningen van Windows Defender handmatig bijwerken. Deze handtekeningen bevatten belangrijke informatie over bekende malware en helpen bedreigingen te detecteren en te blokkeren. Na uitvoering beschikt uw systeem over de nieuwste handtekeningen en betere bescherming tegen nieuwe bedreigingen.
 
 Als u de handtekeningen van Windows Defender handmatig wilt bijwerken, opent u een PowerShell-sessie met beheerdersrechten en voert u de volgende opdracht uit:
 
@@ -65,9 +65,9 @@ Het up-to-date houden van de Windows Defender-handtekeningen is essentieel voor 
 
 ### 3. [**Set-MpPreference**](https://learn.microsoft.com/en-us/powershell/module/defender/set-mppreference?view=windowsserver2022-ps)
 
-De `Set-MpPreference` Met de opdracht kunt u verschillende **Windows Defender** instellingen aanpassen, zodat u het gedrag kunt afstemmen op uw specifieke beveiligingsvereisten. Deze opdracht biedt flexibiliteit bij het configureren van opties zoals **real-time bescherming**, **cloudgebaseerde bescherming** en **netwerkinspectiesysteeminstellingen**.
+Met de opdracht `Set-MpPreference` kunt u verschillende instellingen van **Windows Defender** aanpassen aan uw beveiligingsvereisten. U kunt onder meer **realtimebescherming**, **cloudgebaseerde bescherming** en **instellingen voor het netwerkinspectiesysteem** configureren.
 
-U kunt bijvoorbeeld realtime bescherming in- of uitschakelen met de opdracht `Set-MpPreference` opdracht. Realtime bescherming controleert je systeem actief op kwaadaardige activiteiten en reageert onmiddellijk op bedreigingen. Voer de volgende opdracht uit om realtime bescherming in te schakelen:
+U kunt realtimebescherming bijvoorbeeld in- of uitschakelen met `Set-MpPreference`. Deze functie controleert uw systeem actief op schadelijke activiteiten en reageert direct op bedreigingen. Voer de volgende opdracht uit om realtimebescherming in te schakelen:
 
 ```powershell
 Set-MpPreference -DisableRealtimeMonitoring:$false
@@ -79,35 +79,35 @@ Daarnaast kunt u de opdracht gebruiken om instellingen voor cloudgebaseerde besc
 Set-MpPreference -EnableCloudProtection:$true
 ```
 
-Bovendien is de `Set-MpPreference` Met het commando kun je de instellingen van het netwerkinspectiesysteem aanpassen. Het netwerkinspectiesysteem analyseert netwerkverkeer op verdachte activiteiten en potentiële bedreigingen. Voer de volgende opdracht uit om de instellingen van het netwerkinspectiesysteem aan te passen:
+Met `Set-MpPreference` kunt u ook de instellingen van het netwerkinspectiesysteem aanpassen. Dit systeem analyseert netwerkverkeer op verdachte activiteiten en mogelijke bedreigingen. Voer de volgende opdracht uit om de instellingen te wijzigen:
 
 ```powershell
 Set-MpPreference -DisableIOAVProtection:$false
 ```
 
-Door deze instellingen te verfijnen met `Set-MpPreference` U kunt **Windows Defender** optimaliseren voor uw specifieke beveiligingsbehoeften en zorgen voor een robuuste bescherming tegen malware en andere schadelijke activiteiten.
+Door deze instellingen met `Set-MpPreference` af te stemmen, kunt u **Windows Defender** optimaliseren voor uw beveiligingsbehoeften en uw systeem beschermen tegen malware en andere schadelijke activiteiten.
 
 ### 4. [**Start-MpScan**](https://learn.microsoft.com/en-us/powershell/module/defender/start-mpscan?view=windowsserver2022-ps)
 
-De `Start-MpScan` commando is een krachtig hulpmiddel voor het starten van malware scans op je systeem, waarmee je proactief schadelijke bestanden kunt identificeren en elimineren. Dit commando biedt flexibiliteit in het uitvoeren van verschillende soorten scans, waaronder **snelle scans**, **volledige scans** en **gewone scans** met specifieke paden.
+De opdracht `Start-MpScan` start malwarescans op uw systeem, zodat u schadelijke bestanden proactief kunt opsporen en verwijderen. U kunt verschillende soorten scans uitvoeren, waaronder **snelle scans**, **volledige scans** en **aangepaste scans** voor specifieke paden.
 
-Om een **snelle scan** uit te voeren met de `Start-MpScan` voer dan het volgende PowerShell commando uit:
+Voer de volgende PowerShell-opdracht uit om met `Start-MpScan` een **snelle scan** uit te voeren:
 
 ```powershell
 Start-MpScan -ScanType QuickScan
 ```
 
-Een snelle scan richt zich op kritieke gebieden van je systeem waar malware vaak wordt aangetroffen en biedt een snelle beoordeling van potentiële bedreigingen.
+Een snelle scan richt zich op kritieke gebieden van uw systeem waar malware vaak wordt aangetroffen en biedt u een snelle beoordeling van potentiële bedreigingen.
 
-Voor een uitgebreidere scan die alle bestanden en mappen op je systeem onderzoekt, kun je een **volledige scan** starten. Voer de volgende opdracht uit om een volledige scan uit te voeren met `Start-MpScan`
+Voor een uitgebreidere scan die alle bestanden en mappen op uw systeem onderzoekt, kunt u een **volledige scan** starten. Voer de volgende opdracht uit om een volledige scan uit te voeren met `Start-MpScan`:
 
 ```powershell
 Start-MpScan -ScanType FullScan
 ```
 
-Een volledige scan zorgt voor grondige detectie en verwijdering van malware van je systeem, maar het kan langer duren om te voltooien in vergelijking met een snelle scan.
+Een volledige scan zorgt voor grondige detectie en verwijdering van malware van uw systeem, maar het kan langer duren dan een snelle scan.
 
-Naast de vooraf gedefinieerde scantypen kunt u de `Start-MpScan` kun je aangepaste scans uitvoeren door specifieke paden of bestanden op te geven om te scannen. Je kunt bijvoorbeeld een specifieke map op je systeem scannen met de volgende opdracht:
+Naast de vooraf gedefinieerde scantypen kunt u met `Start-MpScan` aangepaste scans uitvoeren door specifieke paden of bestanden op te geven. Met de volgende opdracht scant u bijvoorbeeld een bepaalde map:
 
 ```powershell
 Start-MpScan -ScanType CustomScan -ScanPath "C:\Path\To\Directory"
@@ -115,13 +115,13 @@ Start-MpScan -ScanType CustomScan -ScanPath "C:\Path\To\Directory"
 
 Deze opdracht start een aangepaste scan op de opgegeven map, zodat u specifieke gebieden van uw systeem kunt scannen op malware.
 
-Door gebruik te maken van de veelzijdigheid van de `Start-MpScan` commando kunt u scans plannen, beveiligingsprocessen automatiseren en zorgen voor regelmatige detectie en beperking van malware op uw systeem.
+Met `Start-MpScan` kunt u scans plannen, beveiligingsprocessen automatiseren en malware op uw systeem regelmatig detecteren en beperken.
 
 ### 5. [**Get-MpThreatCatalog**](https://learn.microsoft.com/en-us/powershell/module/defender/get-mpthreatcatalog?view=windowsserver2022-ps)
 
-De `Get-MpThreatCatalog` commando is een waardevolle bron voor het verkrijgen van gedetailleerde informatie over bekende bedreigingen en hun attributen. Door deze opdracht uit te voeren, krijg je toegang tot een uitgebreide catalogus van bedreigingen, inclusief gegevens over de ernst ervan, bijbehorende bestandsnamen en aanbevolen acties voor beperking.
+De opdracht `Get-MpThreatCatalog` biedt gedetailleerde informatie over bekende bedreigingen en hun kenmerken. De catalogus bevat onder meer de ernst van bedreigingen, bijbehorende bestandsnamen en aanbevolen maatregelen.
 
-Om informatie over specifieke bedreigingen op te halen met `Get-MpThreatCatalog` volg deze stappen:
+Volg deze stappen om met `Get-MpThreatCatalog` informatie over specifieke bedreigingen op te halen:
 
 1. Open een PowerShell-sessie met beheerdersrechten.
 2. Voer de volgende opdracht uit:
@@ -131,13 +131,13 @@ Om informatie over specifieke bedreigingen op te halen met `Get-MpThreatCatalog`
 ```
 Deze opdracht toont een lijst met bekende bedreigingen samen met de bijbehorende details.
 
-De uitvoer van de `Get-MpThreatCatalog` De opdracht bevat essentiële informatie zoals:
+De uitvoer van `Get-MpThreatCatalog` bevat belangrijke informatie, zoals:
 
 - **ThreatID**: Een unieke identificatiecode voor de bedreiging.
-- **Severity**: Geeft het ernstniveau van de bedreiging aan, variërend van Laag tot Ernstig.
-- **Naam**: De naam of beschrijving van de bedreiging.
+- **Severity**: Geeft het ernstniveau van de bedreiging aan, variërend van Low (laag) tot Severe (ernstig).
+- **Name**: De naam of beschrijving van de bedreiging.
 - **Path**: Het pad van het bestand dat aan de bedreiging is gekoppeld.
-- **AanbevolenActie**: Geeft richtlijnen voor de aanbevolen actie om de bedreiging te beperken.
+- **RecommendedAction**: De aanbevolen actie om de bedreiging te beperken.
 
 Door gebruik te maken van de informatie die is verkregen uit `Get-MpThreatCatalog` kunt u waardevolle inzichten krijgen in potentiële bedreigingen en weloverwogen beslissingen nemen over de juiste acties om ze te beperken. Of het nu gaat om het isoleren, verwijderen of monitoren van een specifieke bedreiging, de gedetailleerde catalogus stelt u in staat om effectief te reageren op beveiligingsincidenten.
 
@@ -147,9 +147,9 @@ Blijf waakzaam en gebruik regelmatig de `Get-MpThreatCatalog` opdracht om op de 
 
 ### 6. [**Add-MpPreference**](https://learn.microsoft.com/en-us/powershell/module/defender/add-mppreference?view=windowsserver2022-ps)
 
-De `Add-MpPreference` Met de opdracht uitsluitingen kunt u uitsluitingen toevoegen aan Windows Defender, zodat u het scangedrag en de realtime bescherming kunt aanpassen. Door uitsluitingen toe te voegen, kunt u bestanden, mappen of processen opgeven die Windows Defender moet negeren tijdens beveiligingsscans of realtime bescherming.
+Met `Add-MpPreference` kunt u uitsluitingen toevoegen aan Windows Defender en het scan- en realtimebeschermingsgedrag aanpassen. U kunt bestanden, mappen of processen opgeven die Windows Defender tijdens scans of realtimebescherming moet negeren.
 
-Om een uitsluiting toe te voegen met `Add-MpPreference` moet je het pad of de naam opgeven van het bestand, de map of het proces dat je wilt uitsluiten. Hier is een voorbeeld van het toevoegen van een uitsluiting voor een map:
+Als u met `Add-MpPreference` een uitsluiting toevoegt, geeft u het pad of de naam op van het bestand, de map of het proces dat u wilt uitsluiten. Dit voorbeeld voegt een map toe:
 
 ```powershell
 Add-MpPreference -ExclusionPath "C:\MyFolder"
@@ -159,15 +159,21 @@ Deze opdracht zorgt ervoor dat Windows Defender het scannen van de opgegeven map
 
 Uitsluitingen kunnen nuttig zijn in verschillende scenario's, zoals het uitsluiten van vertrouwde toepassingen, ontwikkelomgevingen of specifieke bestanden die valse positieven kunnen veroorzaken. Door gebruik te maken van de flexibiliteit van `Add-MpPreference` kunt u Windows Defender afstemmen op uw specifieke beveiligingsbehoeften en de prestaties optimaliseren.
 
-Bescherm uw systeem effectief en minimaliseer vals-positieven en onnodige scanonderbrekingen door gebruik te maken van de krachtige uitsluitingsmogelijkheden van `Add-MpPreference`
+Bescherm uw systeem effectief en minimaliseer vals-positieven en onnodige scanonderbrekingen door gebruik te maken van de krachtige uitsluitingsmogelijkheden van `Add-MpPreference`.
+
+## Defender-opdrachten controleren in 2026
+
+Voer Defender-opdrachten alleen uit vanuit een sessie met verhoogde rechten wanneer de taak die rechten vereist. Raadpleeg de actuele modulehelp voor de doelversie van Windows voordat u een parameter gebruikt. Leg de huidige configuratie vast, wijzig één instelling tegelijk, controleer het resultaat en noteer de opdracht om terug te draaien.
+
+Nuttige controles zijn de beveiligingsstatus, de ouderdom van handtekeningen, uitsluitingen, voorkeuren, scangeschiedenis en recente detecties. Houd uitsluitingen beperkt en noteer de verantwoordelijke en vervaldatum. Raadpleeg de [documentatie van de Microsoft Defender PowerShell-module](https://learn.microsoft.com/en-us/powershell/module/defender/) en de [Microsoft Defender Antivirus-documentatie](https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-antivirus-windows) voor actuele cmdlets en werking.
 
 ## Conclusie
 
-Windows Defender PowerShell-opdrachten bieden een **robuuste set hulpprogramma's** voor het beheren en verbeteren van de beveiliging van uw Windows-systeem. Door gebruik te maken van deze commando's kunt u *beveiligingsbewerkingen automatiseren*, * geavanceerde instellingen configureren* en Windows Defender naadloos opnemen in uw workflows. Of u nu een **systeembeheerder** of een **krachtige gebruiker** bent, het verkennen van de mogelijkheden van Windows Defender PowerShell-opdrachten kan de beveiliging van uw systeem aanzienlijk verbeteren.
+Windows Defender PowerShell-opdrachten bieden een **robuuste set hulpprogramma's** voor het beheren en verbeteren van de beveiliging van uw Windows-systeem. Door deze opdrachten te gebruiken kunt u *beveiligingstaken automatiseren*, *geavanceerde instellingen configureren* en Windows Defender soepel in uw werkstromen integreren. Of u nu een **systeembeheerder** of een **ervaren gebruiker** bent, het verkennen van de mogelijkheden van Windows Defender PowerShell-opdrachten kan de beveiliging van uw systeem aanzienlijk verbeteren.
 
 Onthoud dat grote macht grote verantwoordelijkheid met zich meebrengt. Wees voorzichtig bij het gebruik van PowerShell-opdrachten en zorg ervoor dat u de impact van de opdrachten begrijpt voordat u ze uitvoert. Door uw kennis te combineren met de kracht van Windows Defender PowerShell-opdrachten, kunt u proactieve maatregelen nemen om uw systeem te beschermen tegen nieuwe bedreigingen.
 
 ## Referenties
 
-1. Microsoft Docs - [Windows Defender Cmdlets in Windows PowerShell](https://docs.microsoft.com/en-us/powershell/module/defender/?view=windowsserver2019-ps)
-2. Microsoft Docs - [Introduction to Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.1)
+1. Microsoft Docs - [Windows Defender-cmdlets in Windows PowerShell](https://docs.microsoft.com/en-us/powershell/module/defender/?view=windowsserver2019-ps)
+2. Microsoft Docs - [Inleiding tot Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.1)
