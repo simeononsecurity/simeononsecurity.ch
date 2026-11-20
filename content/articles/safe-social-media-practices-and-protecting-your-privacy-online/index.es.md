@@ -1,10 +1,11 @@
 ---
 title: "Proteja su privacidad en Internet: Prácticas seguras en las redes sociales"
 date: 2023-06-21
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Descubra consejos esenciales sobre prácticas seguras en las redes sociales para proteger su privacidad en línea y conozca la configuración de privacidad de plataformas populares como LinkedIn, Facebook, Twitter e Instagram."
-tags: ["privacidad", "privacidad en línea", "social media", "prácticas seguras", "configuración de privacidad", "LinkedIn", "Facebook", "Twitter", "Instagram", "solicitudes de amistad", "enlaces aleatorios", "encuestas", "normativa gubernamental", "GDPR", "CCPA", "ciberseguridad", "protección de datos", "datos personales", "violación de la privacidad", "seguridad digital", "riesgos para la intimidad", "leyes de privacidad", "normativa sobre privacidad", "privacidad de los datos", "seguridad en línea", "protección de la intimidad", "social media privacy", "consejos sobre privacidad", "prácticas de privacidad en línea", "protección de datos personales"]
+tags: ["privacidad", "privacidad en línea", "redes sociales", "prácticas seguras", "configuración de privacidad", "LinkedIn", "Facebook", "Twitter", "Instagram", "solicitudes de amistad", "enlaces aleatorios", "encuestas", "normativa gubernamental", "RGPD", "CCPA", "ciberseguridad", "protección de datos", "datos personales", "violación de la privacidad", "seguridad digital", "riesgos para la intimidad", "leyes de privacidad", "normativa sobre privacidad", "privacidad de los datos", "seguridad en línea", "protección de la intimidad", "privacidad en las redes sociales", "consejos sobre privacidad", "prácticas de privacidad en línea", "protección de datos personales"]
 cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.webp"
 coverAlt: "Imagen que representa un escudo que protege la información personal de una persona mientras utiliza plataformas de redes sociales."
 coverCaption: ""
@@ -28,13 +29,13 @@ ______
 
 La mayoría de las plataformas de redes sociales ofrecen **configuraciones de privacidad** que te permiten controlar la visibilidad de tu información personal y tus publicaciones. Es esencial aprovechar estos ajustes para proteger tu privacidad. Echemos un vistazo a la configuración de privacidad de algunas plataformas populares:
 
-- LinkedIn: LinkedIn ofrece varias opciones de privacidad para controlar quién puede ver tu perfil, tus conexiones y tu actividad. Puedes ajustar esta configuración visitando la página [LinkedIn Privacy Settings](https://www.linkedin.com/psettings/privacy) página.
+- **LinkedIn**: LinkedIn ofrece varias opciones de privacidad para controlar quién puede ver tu perfil, tus conexiones y tu actividad. Puedes ajustar esta configuración visitando la página [Configuración de privacidad de LinkedIn](https://www.linkedin.com/psettings/privacy).
 
-- Facebook**: Facebook ofrece una serie de ajustes de privacidad para gestionar quién puede ver tus publicaciones, fotos e información personal. Puedes personalizar esta configuración accediendo a la sección [Facebook Privacy Settings](https://www.facebook.com/settings?tab=privacy) página.
+- **Facebook**: Facebook ofrece una serie de ajustes de privacidad para gestionar quién puede ver tus publicaciones, fotos e información personal. Puedes personalizar esta configuración accediendo a la sección [Configuración de privacidad de Facebook](https://www.facebook.com/settings?tab=privacy).
 
-- Twitter**: Twitter le permite controlar la visibilidad de sus tweets, perfil y lista de seguidores. Para ajustar su configuración de privacidad en Twitter, vaya a la página [Twitter Privacy and Safety](https://twitter.com/settings/privacy) página.
+- **Twitter**: Twitter te permite controlar la visibilidad de sus tweets, perfil y lista de seguidores. Para ajustar su configuración de privacidad en Twitter, vaya a la página [Privacidad y seguridad de Twitter](https://twitter.com/settings/privacy).
 
-- Instagram**: Instagram te permite hacer privada tu cuenta, restringiendo el acceso a tus publicaciones e historias. Puedes modificar tu configuración de privacidad en Instagram visitando la página [Instagram Privacy and Security](https://www.instagram.com/accounts/privacy_and_security/) página.
+- **Instagram**: Instagram te permite hacer privada tu cuenta, restringiendo el acceso a tus publicaciones e historias. Puedes modificar tu configuración de privacidad en Instagram visitando la página [Privacidad y seguridad de Instagram](https://www.instagram.com/accounts/privacy_and_security/).
 
 Si revisas y actualizas periódicamente tu configuración de privacidad en estas plataformas, te asegurarás de que tu información personal sólo se comparte con el público deseado.
 
@@ -56,11 +57,11 @@ ______
 
 Aquí tienes algunos **consejos** adicionales para mejorar tu privacidad y seguridad en las redes sociales:
 
-1. [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Crea contraseñas seguras para tus cuentas de redes sociales y evita reutilizarlas en varias plataformas. Considera la posibilidad de utilizar un gestor de contraseñas para almacenar y generar contraseñas complejas de forma segura.
+1. [**Usa contraseñas seguras y únicas**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Crea contraseñas seguras para tus cuentas de redes sociales y evita reutilizarlas en varias plataformas. Considera la posibilidad de utilizar un gestor de contraseñas para almacenar y generar contraseñas complejas de forma segura.
 
-2. [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA) siempre que sea posible. Esto añade una capa adicional de seguridad al requerir un código de verificación además de su contraseña al iniciar sesión.
+2. [**Activa la autenticación de dos factores**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Usa la autenticación de dos factores (2FA) siempre que sea posible. Esto añade una capa adicional de seguridad al requerir un código de verificación además de su contraseña al iniciar sesión.
 
-3. **Revise periódicamente su lista de amigos y seguidores: Revisa periódicamente tu lista de amigos y seguidores para asegurarte de que sólo estás conectado con personas que conoces y en las que confías.
+3. **Revisa periódicamente tu lista de amigos y seguidores**: Revisa periódicamente tu lista de amigos y seguidores para asegurarte de que sólo estás conectado con personas que conoces y en las que confías.
 
 4. **Cuidado con compartir información sensible**: Ten cuidado al compartir información sensible como tu ubicación actual, dirección, número de teléfono o detalles financieros en las plataformas de redes sociales.
 
@@ -74,9 +75,9 @@ ______
 
 Los gobiernos de todo el mundo han reconocido la importancia de proteger la privacidad de las personas en Internet. Se han promulgado varias normativas y leyes para salvaguardar los datos personales. Algunas normativas destacadas son:
 
-- Reglamento General de Protección de Datos (RGPD)**: El GDPR es un reglamento de la Unión Europea que regula la recopilación, el uso y el almacenamiento de datos personales. Proporciona a los individuos el control sobre sus datos e impone obligaciones estrictas a las organizaciones que manejan información personal. Para más información sobre el GDPR, visite la página [European Commission GDPR website](https://ec.europa.eu/info/law/law-topic/data-protection_en)
+- **Reglamento General de Protección de Datos (RGPD)**: El RGPD es un reglamento de la Unión Europea que regula la recopilación, el uso y el almacenamiento de datos personales. Proporciona a los individuos el control sobre sus datos e impone obligaciones estrictas a las organizaciones que manejan información personal. Para más información sobre el GDPR, visite la página [Información de la Comisión Europea sobre el RGPD](https://ec.europa.eu/info/law/law-topic/data-protection_en)
 
-- Ley de Privacidad del Consumidor de California (CCPA)**: La CCPA es una ley de privacidad de ámbito estatal en California (EE.UU.). Concede a los residentes en California ciertos derechos en relación con sus datos personales, incluido el derecho a saber qué información se está recopilando y el derecho a optar por no participar en la venta de información personal. Para saber más sobre la CCPA, visite la página web [California Attorney General CCPA website](https://oag.ca.gov/privacy/ccpa)
+- **Ley de Privacidad del Consumidor de California (CCPA)**: La CCPA es una ley de privacidad de ámbito estatal en California (EE.UU.). Concede a los residentes en California ciertos derechos en relación con sus datos personales, incluido el derecho a saber qué información se está recopilando y el derecho a optar por no participar en la venta de información personal. Para saber más sobre la CCPA, visite la página web [Información del fiscal general de California sobre la CCPA](https://oag.ca.gov/privacy/ccpa)
 
 Es esencial familiarizarse con la normativa sobre privacidad aplicable en su región para comprender mejor sus derechos y las obligaciones de las plataformas de medios sociales.
 
@@ -92,9 +93,9 @@ ______
 
 ## Referencias
 
-- [LinkedIn Privacy Settings](https://www.linkedin.com/psettings/privacy)
-- [Facebook Privacy Settings](https://www.facebook.com/settings?tab=privacy)
-- [Twitter Privacy and Safety](https://twitter.com/settings/privacy)
-- [Instagram Privacy and Security](https://www.instagram.com/accounts/privacy_and_security/)
-- [European Commission GDPR website](https://ec.europa.eu/info/law/law-topic/data-protection_en)
-- [California Attorney General CCPA website](https://oag.ca.gov/privacy/ccpa)
+- [Configuración de privacidad de LinkedIn](https://www.linkedin.com/psettings/privacy)
+- [Configuración de privacidad de Facebook](https://www.facebook.com/settings?tab=privacy)
+- [Privacidad y seguridad de Twitter](https://twitter.com/settings/privacy)
+- [Privacidad y seguridad de Instagram](https://www.instagram.com/accounts/privacy_and_security/)
+- [Información de la Comisión Europea sobre el RGPD](https://ec.europa.eu/info/law/law-topic/data-protection_en)
+- [Información del fiscal general de California sobre la CCPA](https://oag.ca.gov/privacy/ccpa)

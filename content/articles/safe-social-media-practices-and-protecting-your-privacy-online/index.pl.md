@@ -1,10 +1,11 @@
 ---
 title: "Ochrona prywatności w sieci: Bezpieczne praktyki w mediach społecznościowych"
 date: 2023-06-21
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Odkryj niezbędne wskazówki dotyczące bezpiecznych praktyk w mediach społecznościowych, aby chronić swoją prywatność w Internecie i dowiedzieć się o ustawieniach prywatności popularnych platform, takich jak LinkedIn, Facebook, Twitter i Instagram."
-tags: ["prywatność", "prywatność online", "media społecznościowe", "bezpieczne praktyki", "ustawienia prywatności", "LinkedIn", "Facebook", "Twitter", "Instagram", "zaproszenia do znajomych", "losowe linki", "ankiety", "regulacje rządowe", "RODO", "CCPA", "cyberbezpieczeństwo", "ochrona danych", "dane osobowe", "naruszenie prywatności", "bezpieczeństwo cyfrowe", "zagrożenia dla prywatności", "przepisy dotyczące prywatności", "przepisy dotyczące prywatności", "prywatność danych", "bezpieczeństwo online", "ochrona prywatności", "Prywatność w mediach społecznościowych", "wskazówki dotyczące prywatności", "praktyki dotyczące prywatności online", "ochrona danych osobowych"]
+tags: ["prywatność", "prywatność online", "media społecznościowe", "bezpieczne praktyki", "ustawienia prywatności", "LinkedIn", "Facebook", "Twitter", "Instagram", "zaproszenia do znajomych", "losowe linki", "ankiety", "regulacje rządowe", "RODO", "CCPA", "cyberbezpieczeństwo", "ochrona danych", "dane osobowe", "naruszenie prywatności", "bezpieczeństwo cyfrowe", "zagrożenia dla prywatności", "przepisy dotyczące prywatności", "przepisy o ochronie prywatności", "prywatność danych", "bezpieczeństwo online", "ochrona prywatności", "Prywatność w mediach społecznościowych", "wskazówki dotyczące prywatności", "praktyki dotyczące prywatności online", "ochrona danych osobowych"]
 cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.webp"
 coverAlt: "Obraz przedstawiający tarczę chroniącą dane osobowe osoby korzystającej z platform mediów społecznościowych."
 coverCaption: ""
@@ -28,13 +29,13 @@ ______
 
 Większość platform mediów społecznościowych oferuje **ustawienia prywatności**, które pozwalają kontrolować widoczność osobistych informacji i postów. Ważne jest, aby korzystać z tych ustawień w celu ochrony swojej prywatności. Przyjrzyjmy się ustawieniom prywatności niektórych popularnych platform:
 
-- **LinkedIn**: LinkedIn zapewnia kilka opcji prywatności, aby kontrolować, kto może przeglądać twój profil, połączenia i aktywność. Możesz dostosować te ustawienia, odwiedzając stronę [LinkedIn Privacy Settings](https://www.linkedin.com/psettings/privacy) strona.
+- **LinkedIn**: LinkedIn zapewnia kilka opcji prywatności, aby kontrolować, kto może przeglądać twój profil, połączenia i aktywność. Możesz dostosować te ustawienia, odwiedzając stronę [Ustawienia prywatności LinkedIn](https://www.linkedin.com/psettings/privacy).
 
-- Facebook**: Facebook oferuje szereg ustawień prywatności, które pozwalają zarządzać tym, kto może zobaczyć twoje posty, zdjęcia i dane osobowe. Ustawienia te można dostosować, przechodząc do sekcji [Facebook Privacy Settings](https://www.facebook.com/settings?tab=privacy) strona.
+- **Facebook**: Facebook oferuje szereg ustawień prywatności, które pozwalają zarządzać tym, kto może zobaczyć twoje posty, zdjęcia i dane osobowe. Ustawienia te można dostosować, przechodząc do sekcji [Ustawienia prywatności Facebooka](https://www.facebook.com/settings?tab=privacy).
 
-- Twitter**: Twitter pozwala kontrolować widoczność tweetów, profilu i listy obserwujących. Aby dostosować ustawienia prywatności na Twitterze, przejdź do strony [Twitter Privacy and Safety](https://twitter.com/settings/privacy) strona.
+- **Twitter**: Twitter pozwala kontrolować widoczność tweetów, profilu i listy obserwujących. Aby dostosować ustawienia prywatności na Twitterze, przejdź do strony [Prywatność i bezpieczeństwo Twittera](https://twitter.com/settings/privacy).
 
-- Instagram**: Instagram umożliwia ustawienie konta jako prywatnego, ograniczając dostęp do postów i historii. Ustawienia prywatności na Instagramie można zmienić, odwiedzając stronę [Instagram Privacy and Security](https://www.instagram.com/accounts/privacy_and_security/) strona.
+- **Instagram**: Instagram umożliwia ustawienie konta jako prywatnego, ograniczając dostęp do postów i historii. Ustawienia prywatności na Instagramie można zmienić, odwiedzając stronę [Prywatność i bezpieczeństwo Instagrama](https://www.instagram.com/accounts/privacy_and_security/).
 
 Regularnie sprawdzając i aktualizując ustawienia prywatności na tych platformach, możesz mieć pewność, że Twoje dane osobowe są udostępniane tylko pożądanym odbiorcom.
 
@@ -56,9 +57,9 @@ ______
 
 Oto kilka dodatkowych **wskazówek** mających na celu zwiększenie prywatności i bezpieczeństwa w mediach społecznościowych:
 
-1. [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Twórz silne hasła do swoich kont w mediach społecznościowych i unikaj ich ponownego wykorzystywania na wielu platformach. Rozważ użycie menedżera haseł do bezpiecznego przechowywania i generowania złożonych haseł.
+1. [**Używaj silnych i unikalnych haseł**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Twórz silne hasła do swoich kont w mediach społecznościowych i unikaj ich ponownego wykorzystywania na wielu platformach. Rozważ użycie menedżera haseł do bezpiecznego przechowywania i generowania złożonych haseł.
 
-2. [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA) gdy tylko jest to możliwe. Dodaje to dodatkową warstwę bezpieczeństwa, wymagając kodu weryfikacyjnego oprócz hasła podczas logowania.
+2. [**Włącz uwierzytelnianie dwuskładnikowe**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Korzystaj z uwierzytelniania dwuskładnikowego (2FA) gdy tylko jest to możliwe. Dodaje to dodatkową warstwę bezpieczeństwa, wymagając kodu weryfikacyjnego oprócz hasła podczas logowania.
 
 3. **Regularnie przeglądaj swoich znajomych i obserwujących**: Okresowo przeglądaj listę znajomych i obserwujących, aby upewnić się, że łączysz się tylko z osobami, które znasz i którym ufasz.
 
@@ -74,9 +75,9 @@ ______
 
 Rządy na całym świecie uznały znaczenie ochrony prywatności osób fizycznych w Internecie. W celu ochrony danych osobowych wprowadzono szereg regulacji i przepisów. Niektóre godne uwagi regulacje obejmują:
 
-- **Ogólne rozporządzenie o ochronie danych (RODO)**: RODO to rozporządzenie Unii Europejskiej, które reguluje gromadzenie, wykorzystywanie i przechowywanie danych osobowych. Zapewnia ono osobom fizycznym kontrolę nad ich danymi i nakłada surowe obowiązki na organizacje przetwarzające dane osobowe. Więcej informacji na temat RODO można znaleźć na stronie [European Commission GDPR website](https://ec.europa.eu/info/law/law-topic/data-protection_en)
+- **Ogólne rozporządzenie o ochronie danych (RODO)**: RODO to rozporządzenie Unii Europejskiej, które reguluje gromadzenie, wykorzystywanie i przechowywanie danych osobowych. Zapewnia ono osobom fizycznym kontrolę nad ich danymi i nakłada surowe obowiązki na organizacje przetwarzające dane osobowe. Więcej informacji na temat RODO można znaleźć na stronie [Informacje Komisji Europejskiej o RODO](https://ec.europa.eu/info/law/law-topic/data-protection_en)
 
-- **Kalifornijska ustawa o ochronie prywatności konsumentów (CCPA)**: CCPA to stanowa ustawa o ochronie prywatności w Kalifornii, USA. Daje ona mieszkańcom Kalifornii pewne prawa dotyczące ich danych osobowych, w tym prawo do informacji o tym, jakie informacje są gromadzone oraz prawo do rezygnacji ze sprzedaży danych osobowych. Aby dowiedzieć się więcej o CCPA, odwiedź stronę [California Attorney General CCPA website](https://oag.ca.gov/privacy/ccpa)
+- **Kalifornijska ustawa o ochronie prywatności konsumentów (CCPA)**: CCPA to stanowa ustawa o ochronie prywatności w Kalifornii, USA. Daje ona mieszkańcom Kalifornii pewne prawa dotyczące ich danych osobowych, w tym prawo do informacji o tym, jakie informacje są gromadzone oraz prawo do rezygnacji ze sprzedaży danych osobowych. Aby dowiedzieć się więcej o CCPA, odwiedź stronę [Informacje prokuratora generalnego Kalifornii o CCPA](https://oag.ca.gov/privacy/ccpa)
 
 Konieczne jest zapoznanie się z przepisami dotyczącymi prywatności obowiązującymi w danym regionie, aby lepiej zrozumieć swoje prawa i obowiązki platform mediów społecznościowych.
 
@@ -92,9 +93,9 @@ ______
 
 ## Referencje
 
-- [LinkedIn Privacy Settings](https://www.linkedin.com/psettings/privacy)
-- [Facebook Privacy Settings](https://www.facebook.com/settings?tab=privacy)
-- [Twitter Privacy and Safety](https://twitter.com/settings/privacy)
-- [Instagram Privacy and Security](https://www.instagram.com/accounts/privacy_and_security/)
-- [European Commission GDPR website](https://ec.europa.eu/info/law/law-topic/data-protection_en)
-- [California Attorney General CCPA website](https://oag.ca.gov/privacy/ccpa)
+- [Ustawienia prywatności LinkedIn](https://www.linkedin.com/psettings/privacy)
+- [Ustawienia prywatności Facebooka](https://www.facebook.com/settings?tab=privacy)
+- [Prywatność i bezpieczeństwo Twittera](https://twitter.com/settings/privacy)
+- [Prywatność i bezpieczeństwo Instagrama](https://www.instagram.com/accounts/privacy_and_security/)
+- [Informacje Komisji Europejskiej o RODO](https://ec.europa.eu/info/law/law-topic/data-protection_en)
+- [Informacje prokuratora generalnego Kalifornii o CCPA](https://oag.ca.gov/privacy/ccpa)
