@@ -5,7 +5,7 @@ lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Descubra cómo DevOps tiende puentes entre el desarrollo y las operaciones, agilizando la entrega de software y maximizando la eficiencia."
-tags: ["DevOps", "desarrollo de software", "operaciones", "colaboración", "integración continua", "entrega continua", "infraestructura como código", "monitorización", "circuitos de retroalimentación", "plazo de comercialización", "eficiencia", "calidad", "fiabilidad", "HIPAA", "RGPD", "conformidad", "seguridad", "auditoría", "trazabilidad", "automatización", "comunicación", "ágil", "CICD", "despliegue de software", "ciclo de vida del software", "sistemas informáticos", "industria del software", "seguridad de los datos", "normativa", "actualizaciones de software", "ventaja competitiva", "privacidad de los datos", "protección de datos", "evolución de la industria del software"]
+tags: ["DevOps", "desarrollo de software", "operaciones", "colaboración", "integración continua", "entrega continua", "infraestructura como código", "control", "circuitos de retroalimentación", "plazo de comercialización", "eficacia", "calidad", "fiabilidad", "HIPAA", "GDPR", "conformidad", "seguridad", "auditoría", "trazabilidad", "automatización", "comunicación", "ágil", "CICD", "despliegue de software", "ciclo de vida del software", "sistemas informáticos", "industria del software", "seguridad de los datos", "normativa", "actualizaciones de software", "ventaja competitiva", "privacidad de los datos", "protección de datos", "evolución de la industria del software"]
 cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.webp"
 coverAlt: "Una ilustración de dibujos animados que muestra a desarrolladores y profesionales de operaciones colaborando y trabajando juntos, simbolizando el puente entre desarrollo y operaciones en DevOps."
 coverCaption: ""
@@ -71,7 +71,7 @@ En algunos sectores, las organizaciones deben cumplir normativas gubernamentales
 
 Por ejemplo, la **Ley de Portabilidad y Responsabilidad de Seguros Médicos (HIPAA)** de Estados Unidos impone normas estrictas para el manejo de datos sanitarios. Las prácticas DevOps pueden ayudar a las organizaciones a cumplir los requisitos de la HIPAA aplicando controles de seguridad, garantizando la privacidad de los datos y manteniendo registros de auditoría.
 
-Del mismo modo, el **Reglamento General de Protección de Datos (RGPD)** de la Unión Europea regula la protección de los datos personales. DevOps puede ayudar a cumplir con el RGPD mediante la incorporación de principios de privacidad por diseño, la realización de evaluaciones periódicas de seguridad y la implementación de procedimientos de respuesta a la violación de datos.
+Del mismo modo, el **Reglamento General de Protección de Datos (GDPR)** de la Unión Europea regula la protección de los datos personales. DevOps puede ayudar a cumplir con el GDPR mediante la incorporación de principios de privacidad por diseño, la realización de evaluaciones periódicas de seguridad y la implementación de procedimientos de respuesta a la violación de datos.
 
 Es esencial que las organizaciones de los sectores regulados comprendan los requisitos específicos de las normativas gubernamentales pertinentes y alineen sus prácticas de DevOps en consecuencia.
 
@@ -83,4 +83,4 @@ En conclusión, DevOps es un potente enfoque que reúne a los equipos de desarro
 
 Referencias:
 - [Ley de Portabilidad y Responsabilidad de Seguros Médicos (HIPAA)](https://www.hhs.gov/hipaa/index.html)
-- [Reglamento General de Protección de Datos (RGPD)](https://ec.europa.eu/info/law/law-topic/data-protection_en)
+- [Reglamento General de Protección de Datos (GDPR)](https://ec.europa.eu/info/law/law-topic/data-protection_en)

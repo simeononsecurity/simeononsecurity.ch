@@ -5,7 +5,7 @@ lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Leer hoe DevOps de kloof tussen ontwikkeling en operatie overbrugt, de levering van software stroomlijnt en de efficiëntie maximaliseert."
-tags: ["DevOps", "softwareontwikkeling", "operaties", "samenwerking", "voortdurende integratie", "continue levering", "infrastructuur als code", "monitoring", "feedback-lussen", "time-to-market", "efficiëntie", "kwaliteit", "betrouwbaarheid", "HIPAA", "AVG", "compliance", "beveiliging", "auditing", "traceerbaarheid", "automatisering", "communicatie", "agile", "CICD", "software-implementatie", "softwarelevenscyclus", "softwaresystemen", "software-industrie", "gegevensbeveiliging", "voorschriften", "software-updates", "concurrentievoordeel", "gegevensprivacy", "gegevensbescherming", "evolutie van de software-industrie"]
+tags: ["DevOps", "softwareontwikkeling", "operaties", "samenwerking", "voortdurende integratie", "continue levering", "infrastructuur als code", "controle", "feedback-lussen", "time-to-market", "efficiëntie", "kwaliteit", "betrouwbaarheid", "HIPAA", "GDPR", "compliance", "beveiliging", "auditing", "traceerbaarheid", "automatisering", "communicatie", "agile", "CICD", "software-implementatie", "softwarelevenscyclus", "softwaresystemen", "software-industrie", "gegevensbeveiliging", "voorschriften", "software-updates", "concurrentievoordeel", "gegevensprivacy", "gegevensbescherming", "evolutie van de software-industrie"]
 cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.webp"
 coverAlt: "Een cartoonillustratie met ontwikkelaars en operations professionals die samenwerken, als symbool voor de brug tussen ontwikkeling en operations in DevOps."
 coverCaption: ""
@@ -19,7 +19,7 @@ DevOps is een term die de laatste jaren sterk aan populariteit heeft gewonnen in
 
 {{< youtube id="UbtB4sMaaNM" >}}
 
-**DevOps**, een combinatie van "development" (ontwikkeling) en "operations" (IT-beheer), is een aanpak die zich richt op de samenwerking en integratie tussen softwareontwikkelaars en IT operations teams. Het doel is de silo's tussen deze twee teams te doorbreken en een efficiënter en effectiever softwareontwikkelingsproces te creëren.
+**DevOps**, een combinatie van "development" en "operations", is een aanpak die zich richt op de samenwerking en integratie tussen softwareontwikkelaars en IT operations teams. Het doel is de silo's tussen deze twee teams te doorbreken en een efficiënter en effectiever softwareontwikkelingsproces te creëren.
 
 Traditioneel werkten ontwikkel- en operationeel teams geïsoleerd, met weinig interactie tussen hen. Ontwikkelaars schreven de code en gaven die door aan het operationele team, dat de code vervolgens implementeerde en onderhield. Deze aanpak leidde vaak tot vertragingen, miscommunicatie en problemen als gevolg van verschillen in prioriteiten en doelstellingen.
 
@@ -71,7 +71,7 @@ In sommige sectoren moeten organisaties voldoen aan specifieke overheidsvoorschr
 
 De **Amerikaanse wet op overdraagbaarheid en verantwoording van ziektekostenverzekeringen (HIPAA)** in de Verenigde Staten legt bijvoorbeeld strenge regels op voor het omgaan met gegevens uit de gezondheidszorg. DevOps-praktijken kunnen organisaties helpen aan de HIPAA-eisen te voldoen door beveiligingscontroles uit te voeren, de privacy van gegevens te waarborgen en audittrails bij te houden.
 
-Ook regelt de **Algemene verordening gegevensbescherming (AVG)** in de Europese Unie de bescherming van persoonsgegevens. DevOps ondersteunt naleving door privacy by design toe te passen, regelmatig beveiligingsbeoordelingen uit te voeren en procedures voor datalekken in te richten.
+Ook regelt de **Algemene verordening gegevensbescherming (GDPR)** in de Europese Unie de bescherming van persoonsgegevens. DevOps ondersteunt naleving door privacy by design toe te passen, regelmatig beveiligingsbeoordelingen uit te voeren en procedures voor datalekken in te richten.
 
 Het is essentieel voor organisaties in gereguleerde sectoren om de specifieke vereisten van de relevante overheidsvoorschriften te begrijpen en hun DevOps-praktijken daarop af te stemmen.
 
@@ -83,4 +83,4 @@ DevOps is een krachtige aanpak die ontwikkelings- en operationele teams samenbre
 
 Referenties:
 - [Amerikaanse wet op overdraagbaarheid en verantwoording van ziektekostenverzekeringen (HIPAA)](https://www.hhs.gov/hipaa/index.html)
-- [Algemene verordening gegevensbescherming (AVG)](https://ec.europa.eu/info/law/law-topic/data-protection_en)
+- [Algemene verordening gegevensbescherming (GDPR)](https://ec.europa.eu/info/law/law-topic/data-protection_en)

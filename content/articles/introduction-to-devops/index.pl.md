@@ -19,7 +19,7 @@ DevOps to termin, który w ostatnich latach zyskał znaczną popularność w bra
 
 {{< youtube id="UbtB4sMaaNM" >}}
 
-**DevOps**, połączenie słów „development” (rozwój) i „operations” (operacje), to podejście, które koncentruje się na współpracy i integracji między programistami a zespołami operacyjnymi IT. Jego celem jest przełamanie silosów między tymi dwoma zespołami i stworzenie bardziej wydajnego i skutecznego procesu tworzenia oprogramowania.
+**DevOps**, połączenie słów "development" i "operations", to podejście, które koncentruje się na współpracy i integracji między programistami a zespołami operacyjnymi IT. Jego celem jest przełamanie silosów między tymi dwoma zespołami i stworzenie bardziej wydajnego i skutecznego procesu tworzenia oprogramowania.
 
 Tradycyjnie zespoły programistyczne i operacyjne działały w izolacji, z niewielką interakcją między nimi. Programiści pisali kod i przekazywali go zespołowi operacyjnemu, który następnie go wdrażał i utrzymywał. Takie podejście często prowadziło do opóźnień, nieporozumień i problemów wynikających z różnic w priorytetach i celach.
 
@@ -71,7 +71,7 @@ W niektórych branżach organizacje muszą przestrzegać określonych przepisów
 
 Na przykład **ustawa o przenośności i odpowiedzialności w ubezpieczeniach zdrowotnych (HIPAA)** w Stanach Zjednoczonych nakłada surowe przepisy dotyczące przetwarzania danych medycznych. Praktyki DevOps mogą pomóc organizacjom spełnić wymagania HIPAA poprzez wdrożenie kontroli bezpieczeństwa, zapewnienie prywatności danych i utrzymanie ścieżek audytu.
 
-Podobnie, **ogólne rozporządzenie o ochronie danych (RODO)** w Unii Europejskiej reguluje ochronę danych osobowych. DevOps może pomóc w zapewnieniu zgodności z RODO poprzez uwzględnienie zasad prywatności w fazie projektowania, przeprowadzanie regularnych ocen bezpieczeństwa i wdrażanie procedur reagowania na naruszenie danych.
+Podobnie, **ogólne rozporządzenie o ochronie danych (GDPR)** w Unii Europejskiej reguluje ochronę danych osobowych. DevOps może pomóc w zapewnieniu zgodności z RODO poprzez uwzględnienie zasad prywatności w fazie projektowania, przeprowadzanie regularnych ocen bezpieczeństwa i wdrażanie procedur reagowania na naruszenie danych.
 
 Dla organizacji działających w branżach podlegających regulacjom prawnym kluczowe znaczenie ma zrozumienie konkretnych wymogów odpowiednich przepisów rządowych i odpowiednie dostosowanie swoich praktyk DevOps.
 
@@ -83,4 +83,4 @@ Podsumowując, DevOps to potężne podejście, które łączy zespoły programis
 
 Odniesienia:
 - [ustawa o przenośności i odpowiedzialności w ubezpieczeniach zdrowotnych (HIPAA)](https://www.hhs.gov/hipaa/index.html)
-- [ogólne rozporządzenie o ochronie danych (RODO)](https://ec.europa.eu/info/law/law-topic/data-protection_en)
+- [ogólne rozporządzenie o ochronie danych (GDPR)](https://ec.europa.eu/info/law/law-topic/data-protection_en)

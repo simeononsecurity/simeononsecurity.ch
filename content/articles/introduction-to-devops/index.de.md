@@ -5,7 +5,7 @@ lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Erfahren Sie, wie DevOps die Lücke zwischen Entwicklung und Betrieb schließt, die Softwarebereitstellung rationalisiert und die Effizienz maximiert."
-tags: ["DevOps", "Software-Entwicklung", "Operationen", "Zusammenarbeit", "kontinuierliche Integration", "kontinuierliche Bereitstellung", "Infrastruktur als Code", "Überwachung", "Rückkopplungsschleifen", "Markteinführungszeit", "Effizienz", "Qualität", "Zuverlässigkeit", "HIPAA", "DSGVO", "Compliance", "Sicherheit", "Auditierung", "Rückverfolgbarkeit", "Automatisierung", "Kommunikation", "Agilität", "CICD", "Softwarebereitstellung", "Software-Lebenszyklus", "Software-Systeme", "Software-Industrie", "Datensicherheit", "Vorschriften", "Software-Aktualisierungen", "Wettbewerbsvorteil", "Datenprivatsphäre", "Datenschutz", "Entwicklung der Softwarebranche"]
+tags: ["DevOps", "Software-Entwicklung", "Operationen", "Zusammenarbeit", "kontinuierliche Integration", "kontinuierliche Bereitstellung", "Infrastruktur als Code", "Überwachung", "Rückkopplungsschleifen", "Markteinführungszeit", "Effizienz", "Qualität", "Zuverlässigkeit", "HIPAA", "GDPR", "Compliance", "Sicherheit", "Auditierung", "Rückverfolgbarkeit", "Automatisierung", "Kommunikation", "Agilität", "CICD", "Softwarebereitstellung", "Software-Lebenszyklus", "Software-Systeme", "Software-Industrie", "Datensicherheit", "Vorschriften", "Software-Aktualisierungen", "Wettbewerbsvorteil", "Datenprivatsphäre", "Datenschutz", "Entwicklung der Softwarebranche"]
 cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.webp"
 coverAlt: "Eine Cartoon-Illustration, die zeigt, wie Entwickler und Betriebsexperten zusammenarbeiten. Sie symbolisiert die Brücke zwischen Entwicklung und Betrieb in DevOps."
 coverCaption: ""
@@ -71,7 +71,7 @@ In einigen Branchen müssen Unternehmen bestimmte staatliche Vorschriften in Bez
 
 So schreibt beispielsweise das US-amerikanische **Gesetz zur Übertragbarkeit und Rechenschaftspflicht in der Krankenversicherung (HIPAA)** in den Vereinigten Staaten strenge Vorschriften für den Umgang mit Gesundheitsdaten vor. DevOps-Verfahren können Unternehmen dabei helfen, die HIPAA-Anforderungen zu erfüllen, indem sie Sicherheitskontrollen implementieren, den Datenschutz gewährleisten und Prüfprotokolle führen.
 
-Ähnlich regelt die **Datenschutz-Grundverordnung (DSGVO)** in der Europäischen Union den Schutz personenbezogener Daten. DevOps kann die Einhaltung der DSGVO unterstützen, indem es die Grundsätze des "Privacy by Design" einbezieht, regelmäßige Sicherheitsbewertungen durchführt und Verfahren zur Reaktion auf Datenverletzungen implementiert.
+Ähnlich regelt die **Datenschutz-Grundverordnung (GDPR)** in der Europäischen Union den Schutz personenbezogener Daten. DevOps kann die Einhaltung der GDPR unterstützen, indem es die Grundsätze des "Privacy by Design" einbezieht, regelmäßige Sicherheitsbewertungen durchführt und Verfahren zur Reaktion auf Datenverletzungen implementiert.
 
 Für Unternehmen in regulierten Branchen ist es von entscheidender Bedeutung, die spezifischen Anforderungen der einschlägigen staatlichen Vorschriften zu verstehen und ihre DevOps-Praktiken entsprechend auszurichten.
 
@@ -83,4 +83,4 @@ Zusammenfassend lässt sich sagen, dass DevOps ein leistungsstarker Ansatz ist, 
 
 Referenzen:
 - [Gesetz zur Übertragbarkeit und Rechenschaftspflicht von Krankenversicherungen (HIPAA)](https://www.hhs.gov/hipaa/index.html)
-- [Datenschutz-Grundverordnung (DSGVO)](https://ec.europa.eu/info/law/law-topic/data-protection_en)
+- [Datenschutz-Grundverordnung (GDPR)](https://ec.europa.eu/info/law/law-topic/data-protection_en)

@@ -19,7 +19,7 @@ DevOps è un termine che negli ultimi anni ha acquisito una notevole popolarità
 
 {{< youtube id="UbtB4sMaaNM" >}}
 
-**DevOps**, una combinazione di "development" (sviluppo) e "operations" (operazioni), è un approccio che si concentra sulla collaborazione e sull'integrazione tra gli sviluppatori di software e i team operativi IT. L'obiettivo è quello di abbattere i silos tra questi due team e creare un processo di sviluppo del software più efficiente ed efficace.
+**DevOps**, una combinazione di "development" e "operations", è un approccio che si concentra sulla collaborazione e sull'integrazione tra gli sviluppatori di software e i team operativi IT. L'obiettivo è quello di abbattere i silos tra questi due team e creare un processo di sviluppo del software più efficiente ed efficace.
 
 Tradizionalmente, i team di sviluppo e operativi hanno operato in modo isolato, con scarsa interazione tra loro. Gli sviluppatori scrivevano il codice e lo consegnavano al team operativo, che provvedeva alla distribuzione e alla manutenzione. Questo approccio portava spesso a ritardi, errori di comunicazione e problemi derivanti da differenze di priorità e obiettivi.
 
