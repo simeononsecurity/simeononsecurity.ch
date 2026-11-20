@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IA Local on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>IA Local on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/ia-local/</link></image><link>https://ca.simeononsecurity.com/tags/ia-local/</link><description>Recent content in IA Local on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/ia-local/index.xml" rel="self" type="application/rss+xml"/><item><title>Hindsight autohostat: memòria local d’agents i encaminament privat de models</title><link>https://ca.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autohostada"
+, "Agents d’IA"
+, "Infraestructura d’IA"
+, "Privadesa"</category><guid>https://ca.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Un estudi de cas de Hindsight autohostat, les rutes locals de Qwen observades i el treball de GPU per petició sense subscripció a models allotjats en les rutes inspeccionades.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Construeix un laboratori domèstic en 10 nivells, de Pi-hole a la IA local</title><link>https://ca.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Laboratori domèstic"
+, "Autoallotjament"
+, "IA local"
+, "Xarxes domèstiques"</category><guid>https://ca.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Construeix un laboratori domèstic en deu etapes pràctiques, des del filtratge DNS de tota la xarxa fins a la IA local, amb maquinari, costos, habilitats i compensacions per a cada nivell.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Són suficients 16GB de VRAM per treballar seriosament amb LLM locals?</title><link>https://ca.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Maquinari informàtic"
+, "IA autohostada"</category><guid>https://ca.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dimensiona una configuració d'LLM local de 16GB segons els pesos del model, la memòria cau KV i el processament de prompts. Compara els pressupostos de memòria, l'amplada de banda de GPU i el cost de propietat de Qwen3.8 27B.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>OpenCode contra Claude Code: comparació d'agents de programació de 2026</title><link>https://ca.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Eines per a desenvolupadors"
+, "Intel·ligència artificial"
+, "Codi obert"</category><guid>https://ca.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara OpenCode i Claude Code en elecció de models, inferència local, preus, permisos, instruccions del projecte i fluxos diaris de programació.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>32 GB de VRAM per a Qwen 27B: guia de maquinari d'IA local per a l'octubre de 2026</title><link>https://ca.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Maquinari d'IA"
+, "Benchmarking de GPU"
+, "IA autoallotjada"
+, "Maquinari informàtic"
+, "Economia de la IA"</category><guid>https://ca.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia pràctica d'octubre de 2026 per executar un model Qwen 27B amb 32 GB de memòria utilitzable de l'accelerador. Compara GPU individuals, equips amb dues targetes, memòria unificada, targetes usades de centres de dades, còmput llogat, suport de programari i límits de context complet.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>El DGX Spark de 64 GB és un senyal d'alerta per als preus del maquinari d'IA local</title><link>https://ca.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Maquinari d'IA"
+, "Semiconductors"
+, "Maquinari informàtic"
+, "Economia de la IA"
+, "IA autoallotjada"</category><guid>https://ca.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+La versió de 64 GB del DGX Spark de NVIDIA mostra com la pressió sobre el subministrament de memòria afecta el maquinari d'IA local. Aquesta guia explica la reducció de capacitat, els compromisos de la memòria unificada i per què l'alleujament de la DRAM és poc probable abans de finals de 2027.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>IA local el 2026: un model 27B supera Sonnet 4.6 mentre es tanca la finestra per comprar maquinari</title><link>https://ca.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autoallotjada"
+, "Models de codi obert"
+, "Maquinari d'IA"
+, "Aprenentatge automàtic"
+, "Quantització"
+, "Laboratori domèstic"
+, "Privadesa"
+, "Economia de la IA"
+, "Maquinari de consum"</category><guid>https://ca.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planifica un ordinador d'IA local per al 2026 segons la mida del model, la VRAM, l'amplada de banda de memòria, el consum, el cost i les opcions d'actualització.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Quins models d’IA funcionen en una Raspberry Pi 4 o 5?</title><link>https://ca.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "Intel·ligència artificial"
+, "Autoallotjament"</category><guid>https://ca.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Tria models de llenguatge locals segons memòria, velocitat i càrrega de treball amb resultats mesurats en Raspberry Pi 4 i 5, des dels petits LFM2.5 fins a les opcions 3B i superiors.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item><item><title>Crear un assistent d'IA que protegeix la privadesa per a Meshtastic</title><link>https://ca.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Seguretat de xarxes"
+, "Privadesa"
+, "Codi obert"
+, "Automatització"</category><guid>https://ca.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Experiència pràctica amb un assistent d'IA local per a Meshtastic, amb configuració privada, accés TCP en cua, eines de recuperació i un tauler més segur.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item></channel></rss>

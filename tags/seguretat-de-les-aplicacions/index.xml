@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Seguretat De Les Aplicacions on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Seguretat De Les Aplicacions on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/seguretat-de-les-aplicacions/</link></image><link>https://ca.simeononsecurity.com/tags/seguretat-de-les-aplicacions/</link><description>Recent content in Seguretat De Les Aplicacions on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Mon, 03 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/seguretat-de-les-aplicacions/index.xml" rel="self" type="application/rss+xml"/><item><title>Protegeix les aplicacions web amb OWASP ASVS</title><link>https://ca.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</link><pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate><category>
+"seguretat de les aplicacions web"
+, "OWASP"
+, "ASVS"
+, "seguretat de les aplicacions"
+, "estàndards de seguretat"
+, "ciberseguretat"
+, "gestió de vulnerabilitats"
+, "programació segura"
+, "proves de penetració"
+, "modelatge d'amenaces"
+, "controls de seguretat"
+, "avaluació de seguretat"
+, "proves de seguretat automatitzades"
+, "proves de seguretat manuals"
+, "cicle de desenvolupament segur"
+, "bones pràctiques de seguretat"
+, "seguretat de les dades"
+, "gestió del risc"
+, "compliment"
+, "seguretat de la informació"</category><guid>https://ca.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Utilitza OWASP ASVS per organitzar els requisits de seguretat, les proves i les evidències de verificació de les aplicacions web.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.webp" length="119972" type="image/webp"/></item></channel></rss>

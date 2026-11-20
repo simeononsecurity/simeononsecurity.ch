@@ -1,0 +1,3787 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://ca.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>ca</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>Com triar un model local d’IA sense censura</title><link>https://ca.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><description>Compara variants locals segons les respostes completes, les capacitats conservades, l’ús del context, la quantització i la VRAM necessària.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Tria del model:</strong> avalua cada variant segons les respostes útils que completa, la qualitat que conserva i la memòria que necessita la teva càrrega de treball. Un nombre baix de denegacions o una fitxa de model popular no demostren aquests resultats.</p>
+<p>L’etiqueta <strong>sense censura</strong> no té una escala de rendiment estàndard. Els editors de models la fan servir per descriure modificacions diferents dels pesos, ajustos fins i plantilles de conversa. Compara cada candidat amb el model original i prova’l amb les tasques que preveus executar.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <meta itemprop="name" content="He provat tots els models locals d’IA sense censura (de 8 GB a 32 GB de VRAM)">
+  <meta itemprop="description" content="Comparació de variants de models locals, respostes completes, ajustos de context i nivells de memòria GPU.">
+  <meta itemprop="thumbnailUrl" content="https://img.youtube.com/vi/j-VqPVjztJ
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Retrocés de Home Assistant Core 2026.11 a 2026.10.4: correcció de la versió 3 d'emmagatzematge HTTP</title><link>https://ca.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><description>Corregeix l'error de la versió 3 d'emmagatzematge HTTP després que Home Assistant Core 2026.11 retrocedeixi a 2026.10.4 a Yellow. Inclou ordres protegides i resultats verificats.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>Una actualització fallida de Home Assistant Core 2026.11 va fer retrocedir el meu Yellow CM4 a 2026.10.4. El Yellow continuava accessible a la xarxa, però va deixar de servir el tauler. El retrocés va deixar un fitxer de configuració HTTP a la versió d&rsquo;emmagatzematge 3.1, mentre que Core 2026.10.4 admet la versió 2.2. Vaig conservar el fitxer, vaig convertir-ne una còpia amb comprovacions estrictes, vaig recuperar l&rsquo;accés HTTP i després vaig actualitzar Core a 2026.11.1.</p>
+<h2 id="idees-clau">
+  <a href="#idees-clau" title="Idees clau">Idees clau</a>
+  <a href="#idees-clau" class="h-anchor" aria-hidden="true" title="Idees clau">#</a>
+</h2>
+<ul>
+<li><strong>Confirma el desajust.</strong> Compara l&rsquo;error del registre de Core amb la versió instal·lada i la versió d&rsquo;emmagatzematge HTTP.</li>
+<li><strong>Conserva el fitxer.</strong> Abans de recuperar el sistema, guarda&rsquo;n una còpia intacta i una còpia de seguretat fora del dispositiu.</li>
+<li><strong>Verifica el resultat.</strong> Comprova l&rsquo;estat de Core, el listener desat, el tauler i la versió instal·lada.</li>
+</ul>
+<p><strong>Correcció per a aquest cas exacte:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Conserva el fitxer HTTP">
+    <meta itemprop="url" content="#preserve-recovery-options">
+    <a href="#preserve-recovery-options"
+    
+        rel="follow me"
+    >Conserva el fitxer HTTP</a>
+</span>
+, 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="crea i valida un candidat de versió 2.2">
+    <meta itemprop="url" content="#apply-the-tested-fix-for-version-31">
+    <a href="#apply-the-tested-fix-for-version-31"
+    
+        rel="follow me"
+    >cre
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Compatibilitat de fonts de l’Octominer X12 Ultra: prova de camp de Chicony i LiteOn</title><link>https://ca.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><description>Una prova amb cinc ventiladors i tres fonts en un Octominer X12 Ultra va mostrar que una font Chicony iniciava l’equip, mentre que les LiteOn provades mostraven llum ambre i no s’iniciaven.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>La Chicony R12-1K6P2A va iniciar el meu Octominer X12 Ultra de cinc ventiladors i tres fonts.</strong> Les fonts LiteOn PS-2142-2L que vaig provar mostraven una llum verda, canviaven a ambre i no iniciaven l’equip. Aquest resultat correspon a la meva unitat amb una placa d’alimentació <strong>OCTOMINER (12PIN) 3x DPS1200 rev. 20</strong>. La mateixa potència nominal o una llista per a una placa breakout X12 independent no demostren la compatibilitat amb una placa Octominer.</p>
+<p>El xassís es venia com una <strong>configuració de 3.600 W</strong> amb tres espais per a fonts. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Octominer indica una opció de tres fonts de 1.200 W">
+    <meta itemprop="url" content="https://octominer.eu/product/octominer-x12-ultra-used/">
+    <a href="https://octominer.eu/product/octominer-x12-ultra-used/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Octominer indica una opció de tres fonts de 1.200 W</a>
+</span>
+ per a l’X12 Ultra, entre altres configuracions. Revisa l’etiqueta i la placa d’alimentació del teu equip abans d’aplicar aquests resultats.</p>
+<h2 id="resultats-de-la-prova">
+  <a href="#resultats-de-la-prova" title="Resultats de la prova">Resultats de la prova</a>
+  <a href="#resultats-de-la-prova" class="h-anchor" aria-hidden="true" title="Resultats de la prova">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Font</th>
+					<th>Resultat en aquest equip</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Chicony R12-1K6P2A, 1.600 W</strong></td>
+					<td>Va iniciar l’equip durant la meva prova. L’article no va mesurar càrrega sostinguda ni funcionament en tots els espais.</td>
+			</tr>
+			<tr>
+					<td><strong>LiteOn PS-2142-2L, 1.400 W</strong></td>
+					<td>Les unitats provades van mostrar verd i després ambre. L’equip no es va iniciar.</td>
+			</tr>
+			<tr>
+					<td><strong>Dell/Delta D1200E-S0, Dell 0F37X3</strong></td>
+					<td>L’entrada de CA poc habitual va dificultar troba
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proxmox VE 9: redueix l'ús dels discos virtuals i recupera espai</title><link>https://ca.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><description>Redueix l'emmagatzematge de les VM i els contenidors LXC a Proxmox VE 9. Compara formats i backends, activa discard, executa trim i revisa les instantànies abans de recuperar espai.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Un sistema de fitxers del guest més petit no sempre redueix l&rsquo;espai utilitzat a Proxmox.</strong> Per alliberar espai a l&rsquo;amfitrió, cal un disc compatible amb thin provisioning, una ruta discard operativa per a les VM i un emmagatzematge de suport sense blocs retinguts per instantànies. Aquesta guia cobreix els ajustos i les comprovacions de les VM i els contenidors LXC de Proxmox VE 9.</p>
+<h2 id="idees-clau">
+  <a href="#idees-clau" title="Idees clau">Idees clau</a>
+  <a href="#idees-clau" class="h-anchor" aria-hidden="true" title="Idees clau">#</a>
+</h2>
+<ul>
+<li><strong>Tria primer l&rsquo;emmagatzematge de suport.</strong> La mida anunciada d&rsquo;un disc virtual només difereix de l&rsquo;espai assignat a l&rsquo;amfitrió si el format de la imatge o el backend admet thin provisioning.</li>
+<li><strong>Activa discard a la VM i després executa trim al guest.</strong> Windows ReTrim i Linux <code>fstrim</code> envien sol·licituds per als blocs no utilitzats a través del disc virtual.</li>
+<li><strong>Comprova les instantànies i les còpies per separat.</strong> Els blocs antics continuen assignats mentre una instantània hi fa referència. Els fitxers de còpia i els blocs PBS segueixen les seves pròpies regles de retenció.</li>
+<li><strong>Classifica els muntatges LXC pel tipus.</strong> Els volums rootfs i els punts de muntatge gestionats, els bind mounts i els muntatges de dispositius tenen propietaris i comportaments de còpia diferents.</li>
+</ul>
+<h2 id="abans-de-començar">
+  <a href="#abans-de-comen%c3%a7ar" title="Abans de començar">Abans de començar</a>
+  <a href="#abans-de-comen%c3%a7ar" class="h-anchor" aria-hidden="true" title="Abans de començar">#</a>
+</h2>
+<p>Necessites <strong>accés d&rsquo;administrador a Proxmox VE 9</strong>, una còpia de seguretat verificada de cada guest afectat i prou espai lliure al grup per fer l&rsquo;operació. Anota l&rsquo;ID del guest, el bus del disc, l&rsquo;ID del volum, l&rsquo;ID de l&rsquo;emmagatzematge, les instantànies i l&rsquo;assignació actual abans de canviar res. Fes el 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https:
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Tailscale Aperture: configura clients d'IA per a inferència i MCP el 2026</title><link>https://ca.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><description>Encamina les sol·licituds dels models i les eines MCP a través de Tailscale Aperture. Configura Codex, Claude Code, Claude Desktop, OpenCode i Hermes en un altre dispositiu o passarel·la.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <h2 id="introducció">
+  <a href="#introducci%c3%b3" title="Introducció">Introducció</a>
+  <a href="#introducci%c3%b3" class="h-anchor" aria-hidden="true" title="Introducció">#</a>
+</h2>
+<p>Tailscale Aperture proporciona als clients d&rsquo;IA una passarel·la connectada a la tailnet per a la inferència de models i les eines del Model Context Protocol (MCP). Cada client ha d&rsquo;utilitzar una ruta que coincideixi amb el seu protocol d&rsquo;API. Les eines MCP fan servir un endpoint separat, i les concessions d&rsquo;Aperture controlen quins models i connectors pot utilitzar cada identitat de Tailscale.</p>
+<p>Aquesta guia explica com configurar Codex, Claude Code, Claude Desktop, OpenCode i Hermes a macOS, Linux i Windows. Inclou la configuració de línia d&rsquo;ordres i d&rsquo;escriptori, mostra com consultar els identificadors dels models disponibles per a la teva identitat i incorpora una instrucció anonimitzada que pots reutilitzar per configurar un altre dispositiu o una altra instància d&rsquo;Aperture.</p>
+<p><strong>Tria de la ruta:</strong> Els camins dels endpoints depenen de la passarel·la i de cada protocol d&rsquo;API. Una ruta Responses com ara <code>/codex</code> no serveix el trànsit d&rsquo;Anthropic Messages ni de MCP. Confirma el nom d&rsquo;amfitrió de la passarel·la i la ruta d&rsquo;inferència de cada client. Consulta els identificadors dels models amb el teu accés propi a Aperture abans de modificar la configuració dels clients.</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong>El trànsit de models</strong> necessita la ruta d&rsquo;API del protocol del client.</li>
+<li><strong>El trànsit MCP</strong> utilitza l&rsquo;endpoint separat <code>/v1/mcp</code>.</li>
+<li><strong>Els permisos de la passarel·la</strong> han de permetre que la teva identitat de Tailscale utilitzi cada model i connector.</li>
+<li><strong>La configuració del client</strong> només prova que s&rsquo;han desat els ajustos. Comprova una sol·licitud real i una crida a una eina MCP.</li>
+</ul>
+<h2 id="com-encaixen-les-rutes">
+  <a href="#com-encaixen-les-rutes" title="Com encaixen les rutes">Com encaixen les rutes</a>
+  <a href="#com-encaixen-les-rutes" class="h-anchor" aria-hidden="true" title="Com encaixen les rutes">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Finalitat</th>
+					<th>Sol·licitud del 
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Hindsight autohostat: memòria local d’agents i encaminament privat de models</title><link>https://ca.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/self-hosted-hindsight/</guid><description>Un estudi de cas de Hindsight autohostat, les rutes locals de Qwen observades i el treball de GPU per petició sense subscripció a models allotjats en les rutes inspeccionades.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/self-hosted-hindsight/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>El nostre servei de memòria Hindsight s’executa en maquinari que controlem.</strong> El motor de memòria, la base de dades, el model d’incrustacions i el rerànquer s’executen en un únic desplegament autohostat. Hindsight envia les peticions de generació a una passarel·la privada. El backend Qwen compartit que vam inspeccionar i la ruta de refresc de pàgines provada utilitzen servidors locals de models, sense subscripció d’inferència allotjada.</p>
+<p>Això descriu un desplegament funcional. <strong>Autohostat no vol dir que funcioni sense connexió.</strong> La VPN utilitza un servei extern de coordinació, i les imatges de programari i els pesos dels models s’han de descarregar. La afirmació es limita al processament de memòria i a la inferència del model, no a totes les connexions de xarxa dels nostres dispositius ni de les altres eines d’agents.</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong>Hindsight gestiona el flux de memòria.</strong> Un contenidor Docker serveix l’API, els treballadors i el pla de control; un volum persistent conserva les dades dels bancs.</li>
+<li><strong>Els models petits de recuperació es mantenen locals.</strong> Les incrustacions i el rerànquer s’executen dins del procés Hindsight a la CPU.</li>
+<li><strong>Qwen genera text.</strong> Retain, Reflect i Consolidation demanen l’àlies privat Qwen3.5-4B amb el raonament desactivat i una sortida limitada. El backend inspeccionat serveix el model localment.</li>
+<li><strong>El refresc lent de pàgines rep una GPU.</strong> Un àlies de model separat lloga una targeta per a una petició en segon pla i l’allibera quan acaba.</li>
+<li><strong>La passarel·la amaga on s’executa físicament el model.</strong> Hindsight tria un àlies de model. Els serveis d’encaminament privats trien el punt de servei.</li>
+</ul>
+<h2 id="delimita-labast-abans-de-triar-models">
+  <a href="#delimita-labast-abans-de-triar-models" title="Delimita l’abast abans de triar models">Delimita l’abast abans de triar models</a>
+  <a href="#delimita-labast-abans-de-triar-models" class="h-anchor" aria-hidden="true" title="Delimita l’abast abans de triar models">#</a>
+</h2>
+<p><strong>Hindsight és el motor de memòria, no el servidor de models.</strong> La imatge Docker completa inclou models locals d’incrustació i rer
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/self-hosted-hindsight/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Actualització de seguretat de Chrome 156: verifica el pedaç d’octubre</title><link>https://ca.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><description>Comprova la versió de seguretat de Chrome 156 del 27 d’octubre a Windows, macOS, Linux i Android. Compara la compilació instal·lada, completa un reinici pendent i revisa per separat els dispositius gestionats.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>La versió de seguretat de Chrome del 27 d’octubre de 2026</strong> inclou 52 correccions. Per comprovar la instal·lació, compara la versió completa amb la publicada per al teu sistema operatiu i reinicia Chrome per completar qualsevol actualització pendent. L’anunci d’una versió no demostra que el dispositiu hagi rebut l’actualització. (
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Llançament de Chrome per a escriptori">
+    <meta itemprop="url" content="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html">
+    <a href="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Llançament de Chrome per a escriptori</a>
+</span>
+)</p>
+<h2 id="quina-versió-hi-hauries-de-veure">
+  <a href="#quina-versi%c3%b3-hi-hauries-de-veure" title="Quina versió hi hauries de veure?">Quina versió hi hauries de veure?</a>
+  <a href="#quina-versi%c3%b3-hi-hauries-de-veure" class="h-anchor" aria-hidden="true" title="Quina versió hi hauries de veure?">#</a>
+</h2>
+<p>Google va publicar aquestes versions del canal Stable el 27 d’octubre de 2026. L’anunci per a escriptori indica compilacions diferents per a Windows i macOS i per a Linux. El 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="llançament per a Android">
+    <meta itemprop="url" content="https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_0160078013.html">
+    <a href="https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_0160078013.
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Open WebUI v0.12.4: llista de comprovació per a l’actualització i el control d’accés 2026</title><link>https://ca.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><description>Fes una còpia de seguretat i actualitza Open WebUI a la versió v0.12.4. Després, prova la compartició de xats, els permisos d'exportació, les concessions de recursos, els comptes i l'accés a la xarxa.</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Open WebUI v0.12.4 inclou correccions de seguretat que els mantenidors encara no han detallat.</strong> Les notes de la versió recomanen actualitzar les instal·lacions aviat i indiquen que publicaran avisos quan s&rsquo;assignin CVE. Els canvis de compartició de xats i permisos que s&rsquo;esmenten a continuació són els elements visibles a les notes de la versió, no una llista completa de les correccions de seguretat encara no divulgades. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Notes de la versió d&rsquo;Open WebUI v0.12.4">
+    <meta itemprop="url" content="https://github.com/open-webui/open-webui/releases/tag/v0.12.4">
+    <a href="https://github.com/open-webui/open-webui/releases/tag/v0.12.4"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Notes de la versió d&rsquo;Open WebUI v0.12.4</a>
+</span>
+</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong>Fes una còpia de seguretat primer.</strong> Conserva una còpia recuperable del volum de dades o de la base de dades i de les pujades abans de canviar l&rsquo;aplicació.</li>
+<li><strong>Fixa la versió oficial.</strong> Fes servir <code>ghcr.io/open-webui/open-webui:v0.12.4</code> per a la imatge Docker estàndard o <code>open-webui==0.12.4</code> per a pip.</li>
+<li><strong>Prova els permisos amb rols d&rsquo;usuari reals.</strong> Un botó ocult no demostra que l&rsquo;API faci una comprovació d&rsquo;autorització.</li>
+<li><strong>Mantén privat l&rsquo;accés.</strong> Exigeix autenticació a l&rsquo;aplicació i limita l&rsquo;accés a la xarxa mitjançant una VPN o un proxy invers autenticat.</li>
+</ul>
+<h2 id="abans-dactualitzar">
+  <a href="#abans-dactualitzar" title="Abans d&rsquo;actualitzar">Abans d&rsquo;actualitzar</a>
+  <a href="#abans-dactualitzar" class="h-anchor" aria-hidden="true" title="Abans d&rsquo;actualitzar">#</a>
+</h2>
+<p><st
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Thunderbird 153.6: exposició de credencials NTLM al Windows i com actualitzar-lo (2026)</title><link>https://ca.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><description>Dues vulnerabilitats greus de Thunderbird exposen dades d’autenticació NTLM al Windows quan es mostra un correu preparat expressament. Coneix els dos vectors, comprova la versió i limita l’SMB sortint mentre actualitzes.</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>Mozilla ha corregit dues <strong>vulnerabilitats greus d’exposició de credencials del Windows</strong> a Thunderbird 153.6. N’hi havia prou de mostrar un correu maliciós per activar qualsevol de les sol·licituds de xarxa descrites a 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="MFSA 2026-122">
+    <meta itemprop="url" content="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/">
+    <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >MFSA 2026-122</a>
+</span>
+. L’avís descriu una possible divulgació de NTLM, no una vulneració confirmada de les credencials de tots els destinataris.</p>
+<h2 id="idees-clau">
+  <a href="#idees-clau" title="Idees clau">Idees clau</a>
+  <a href="#idees-clau" class="h-anchor" aria-hidden="true" title="Idees clau">#</a>
+</h2>
+<ul>
+<li><strong>CVE-2026-118174</strong> afectava un adjunt de clau OpenPGP allotjat externament. Mostrar el missatge provocava una sol·licitud sense cap acció de l’usuari, fins i tot amb el contingut remot bloquejat.</li>
+<li><strong>CVE-2026-118176</strong> afectava una URL <code>mailbox:</code> especialment formada que feia servir un camí UNC ampliat. Mostrar el missatge provocava una connexió SMB a un servidor escollit pel remitent.</li>
+<li><strong>Actualitza Thunderbird al Windows</strong> i verifica la versió instal·lada. L’avís indica que Thunderbird 153.6 és la versió corregida. Les notes de versió de Thunderbird identifiquen la compilació 153.6.0esr corresponent.</li>
+</ul>
+<h2 id="què-activa-el-correu">
+  <a href="#qu%c3%a8-activa-el-correu" title="Què activa el correu?">Què activa el correu?</a>
+  <a href="#qu%c3%a8-activa-el-correu" class="h-anchor" aria-hidden="true" title="Què activa el correu?">#</a>
+</h2>
+<p><strong>Les dues vulnerabilitats tenen vectors d’entrada diferents.</strong> Segons les descripcions de Mozilla, cap no requereix que el destinatari faci clic en un enllaç del
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Construeix un laboratori domèstic en 10 nivells, de Pi-hole a la IA local</title><link>https://ca.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><description>Construeix un laboratori domèstic en deu etapes pràctiques, des del filtratge DNS de tota la xarxa fins a la IA local, amb maquinari, costos, habilitats i compensacions per a cada nivell.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/build-home-lab-10-levels/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <h1 id="construeix-un-laboratori-domèstic-en-10-nivells-de-pi-hole-a-la-ia-local">
+  <a href="#construeix-un-laboratori-dom%c3%a8stic-en-10-nivells-de-pi-hole-a-la-ia-local" title="Construeix un laboratori domèstic en 10 nivells, de Pi-hole a la IA local">Construeix un laboratori domèstic en 10 nivells, de Pi-hole a la IA local</a>
+  <a href="#construeix-un-laboratori-dom%c3%a8stic-en-10-nivells-de-pi-hole-a-la-ia-local" class="h-anchor" aria-hidden="true" title="Construeix un laboratori domèstic en 10 nivells, de Pi-hole a la IA local">#</a>
+</h1>
+<p>Un <strong>laboratori domèstic</strong> és un conjunt d&rsquo;ordinadors i serveis que gestiones per resoldre problemes quotidians i aprendre a operar sistemes reals. Pots bloquejar anuncis, automatitzar llums, desar els continguts multimèdia de la família o provar màquines virtuals. <strong>Comença amb una tasca útil.</strong> Afegeix maquinari quan aparegui una limitació real.</p>
+<p>Aquesta guia comença amb un Raspberry Pi petit que executa Pi-hole i arriba fins a un servidor amb models d&rsquo;IA locals. <strong>Cada nivell afegeix una capacitat i una responsabilitat nova.</strong> Les estimacions de costos fan servir un consum orientatiu i una tarifa elèctrica d&rsquo;exemple de $0.15 per quilowatt hora. Comprova la tarifa local i mesura els equips abans de comprar-ne més.</p>
+<h2 id="nivell-1-bloqueja-anuncis-a-tota-la-xarxa-domèstica">
+  <a href="#nivell-1-bloqueja-anuncis-a-tota-la-xarxa-dom%c3%a8stica" title="Nivell 1: Bloqueja anuncis a tota la xarxa domèstica">Nivell 1: Bloqueja anuncis a tota la xarxa domèstica</a>
+  <a href="#nivell-1-bloqueja-anuncis-a-tota-la-xarxa-dom%c3%a8stica" class="h-anchor" aria-hidden="true" title="Nivell 1: Bloqueja anuncis a tota la xarxa domèstica">#</a>
+</h2>
+<p>Instal·la 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Pi-hole">
+    <meta itemprop="url" content="https://docs.pi-hole.net/">
+    <a href="https://docs.pi-hole.net/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+     
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/build-home-lab-10-levels/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proves locals de models Hermes: quins conjunts de GPU i model triaria</title><link>https://ca.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><description>Les meves recomanacions per a Hermes parteixen de proves de context llarg, eines, transmissió i visió en sistemes RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti i RTX 3070.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>Per a tasques d&rsquo;Hermes amb context llarg, començaria amb Qwen3.5 35B en dues RTX 5060 Ti de 16 GB. La ruta va retenir 239.153 tokens d&rsquo;entrada via LiteLLM i va superar proves separades d&rsquo;eines, transmissió, visió, cua i cancel·lació. Qwen3.6 és l&rsquo;alternativa amb una targeta. Als sistemes RTX 3060 Ti i RTX 3070, començaria amb Qwen3.5 2B o 4B.</p>
+<p>Aquestes opcions provenen d&rsquo;executar models per les vies d&rsquo;inferència de l&rsquo;agent. Vaig provar la retenció d&rsquo;entrades llargues, rondes d&rsquo;eines, respostes transmeses, preguntes d&rsquo;imatge i alliberament del model. També vaig provar els modes i els ajustos de memòria, perquè carregar un model no demostra la seva utilitat en una petició llarga d&rsquo;agent.</p>
+<p>Hermes necessita almenys 64.000 tokens de context per fer servir eines com a agent. Vaig fixar 65.536 tokens d&rsquo;entrada reals com a llindar de context llarg. El recompte d&rsquo;entrada importa més que el context anunciat pel servidor. (
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Documentació de proveïdors d&rsquo;Hermes Agent">
+    <meta itemprop="url" content="https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md">
+    <a href="https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Documentació de proveïdors d&rsquo;Hermes Agent</a>
+</span>
+)</p>
+<h2 id="gpu-de-cada-sistema">
+  <a href="#gpu-de-cada-sistema" title="GPU de cada sistema">GPU de cada sistema</a>
+  <a href="#gpu-de-cada-sistema" class="h-anchor" aria-hidden="true" title="GPU de cada sistema">#</a>
+</h2>
+<p>Les lletres dels sistemes identifiquen aquestes combinacions de maquinari als resultats.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Sistema</th>
+					<th>GPU utilitzades al benchmark</th>
+					<th>Model inicial recomanat</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>A</td>
+					<td>2 �
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Dins de la nostra flota híbrida d’agents d’IA: Hermes, LiteLLM i Tailscale</title><link>https://ca.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><description>Descobriu una flota local d’IA verificada amb càrrega sota demanda i el seu pla de control T0-T4 amb Hermes, LiteLLM, Tailscale Aperture i mineria Pearl.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Hem desplegat una flota local de GPU assignades per sol·licitud i n’hem dissenyat el pla de control híbrid.</strong> El camí verificat comença a LiteLLM, selecciona un grup de models i carrega un model local en una GPU cada vegada. La política de nivells de Hermes és una proposta, i un artefacte de configuració de Tailscale Aperture està preparat per a la propera prova d’integració. Cap dels dos no s’ha verificat com a part d’un únic recorregut complet d’extrem a extrem.</p>
+<p>Les targetes inactives minen Pearl. Una sol·licitud d’IA atura la mineria només a la targeta llogada, atén la sol·licitud, descarrega el model i retorna la targeta al miner.</p>
+<h2 id="idees-principals">
+  <a href="#idees-principals" title="Idees principals">Idees principals</a>
+  <a href="#idees-principals" class="h-anchor" aria-hidden="true" title="Idees principals">#</a>
+</h2>
+<ul>
+<li><strong>T0 a T2 gestionen les tasques costoses o exigents.</strong> Aquests recorreguts prioritzen models allotjats de frontera i cadenes de contingència ordenades.</li>
+<li><strong>T3 gestiona feina local substancial.</strong> La flota assigna la planificació, la programació, la revisió i la visió a models de 4B a 12B.</li>
+<li><strong>T4 gestiona feina local freqüent.</strong> Els models petits encaminen, classifiquen, extreuen, generen embeddings i completen tasques de codi delimitades.</li>
+<li><strong>Cada GPU és un recurs independent.</strong> Una targeta atén la IA mentre la resta continuen minant.</li>
+<li><strong>Els models locals romanen descarregats quan no s’utilitzen.</strong> Cap model conserva memòria GPU entre finestres de sol·licitud.</li>
+<li><strong>Cada passarel·la exposa el mateix catàleg lògic.</strong> Els àlies compartits distribueixen la feina entre sistemes aptes. Els àlies prefixats amb el node conserven la ubicació exacta quan cal.</li>
+<li><strong>El broker experimental no va arribar a producció.</strong> La seva prova canària va atendre una sol·licitud, però després va fallar la prova d’aturada neta. LiteLLM es va mantenir al recorregut verificat per sol·licitud.</li>
+<li><strong>Hermes i Aperture continuen en preparació.</strong> El disseny objectiu existeix, però falta la prova d’acceptació d’extrem a extrem.</li>
+</ul>
+<p><strong>Requisits previs:</strong> diversos hosts Linux amb GPU, controladors NVIDIA estables, un tailnet Tailscale, systemd, un miner operatiu, emmagatzematge de models i prove
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>1Password SSH Agent and CLI: Accés de només lectura per a agents d'IA</title><link>https://ca.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><description>Dissenyar un flux de treball SSH de només lectura amb 1Password CLI, l'Agent SSH i MCP. Utilitzar comandes sintètiques, permisos restringits i aprovació humana abans de les proves en directe.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Un agent de línia d&rsquo;ordres necessita un accés útil, no una còpia de cada credencial.</strong> Aquesta guia presenta un disseny acotat per a 1Password CLI, l&rsquo;Agent SSH de 1Password, l&rsquo;accés a Git de Bitbucket i el Model Context Protocol (MCP). El primer flux de treball utilitza noms sintètics, accions només de lectura i aprovació humana a la frontera SSH.</p>
+<p>La distinció clau és senzilla. <strong>L&rsquo;SSH interactiu utilitza el consentiment a través de l&rsquo;Agent SSH de 1Password. L&rsquo;automatització no atesa necessita una identitat separada, un accés estret i un cicle de vida de clau diferent.</strong> No considereu una connexió MCP com a permís per executar cap dels dos fluxos de treball.</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong>Protecció de la clau privada:</strong> L&rsquo;Agent SSH de 1Password realitza l&rsquo;autenticació SSH mantenint les claus privades dins de l&rsquo;aplicació 1Password.</li>
+<li><strong>Gestió de la clau pública:</strong> Publiqueu només una clau pública a Bitbucket o a un compte remot. Mantingueu la meitat privada en un element de Clau SSH.</li>
+<li><strong>Consentiment interactiu:</strong> Una persona aprova un client o una sessió de terminal abans que l&rsquo;Agent SSH utilitzi una clau.</li>
+<li><strong>Separació no atesa:</strong> Una tasca programada necessita un compte de servei dedicat i un abast de bóveda estret. Una aprovació de l&rsquo;Agent SSH interactiu no satisfà aquesta necessitat.</li>
+<li><strong>Límits de MCP:</strong> MCP connecta un agent amb eines i recursos. El client, el servidor, el sistema operatiu i la política de 1Password continuen controlant l&rsquo;accés.</li>
+</ul>
+<h2 id="abans-de-començar">
+  <a href="#abans-de-comen%c3%a7ar" title="Abans de començar">Abans de començar</a>
+  <a href="#abans-de-comen%c3%a7ar" class="h-anchor" aria-hidden="true" title="Abans de començar">#</a>
+</h2>
+<p><strong>Prerequisits:</strong> Installeu 1Password 8 i 1Password CLI 2.20.0 o posterior. Inicieu sessió a través d&rsquo;un compte de 1Password compatible. Utilitzeu un client OpenSSH. Creeu un repositori de Bitbucket de prova o un altre objectiu no de producció. Mantingueu disponible un segon camí administratiu per a la reversió.</p>
+<p><strong>Temps:</strong> De 30 a 45 minuts per a una r
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Claus SSH de Bitbucket Cloud: accés Git de només lectura per a agents d’IA</title><link>https://ca.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><description>Configureu les claus SSH de Bitbucket Cloud, l’accés Git CLI, els tokens REST API, 1Password i les eines MCP per a fluxos de treball d’agents d’IA de només lectura.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Un flux de treball d’agent delimitat separa les lectures del repositori, les lectures de l’API, la gestió de secrets i les escriptures remotes.</strong> Feu servir Git mitjançant Secure Shell (SSH) per accedir al codi font, una clau d’accés de Bitbucket de només lectura per a les extraccions automatitzades, REST API per a les metadades i un servidor Model Context Protocol (MCP) per a les eines aprovades. Deseu les claus privades i els tokens API a 1Password. Exigiu aprovació humana abans d’escriure.</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong>Només lectura per defecte:</strong> feu servir una clau d’accés al repositori o al projecte per a l’extracció de l’agent. Cap de les dues no permet fer push.</li>
+<li><strong>Identitat personal:</strong> feu servir una clau SSH personal per a la feina interactiva vinculada a un compte d’usuari.</li>
+<li><strong>Custòdia de secrets:</strong> feu servir 1Password SSH Agent perquè Git sol·liciti una signatura autoritzada sense llegir la clau privada.</li>
+<li><strong>Significat de CLI:</strong> considereu <code>git</code>, <code>curl</code> i un petit wrapper API auditat com la línia d’ordres pràctica de Bitbucket.</li>
+<li><strong>Límit de MCP:</strong> exposeu eines de lectura d’abast reduït. Desactiveu les eines d’escriptura o poseu-les darrere d’un procés d’aprovació separat.</li>
+<li><strong>Control d’escriptura:</strong> permeteu que l’agent inspeccioni, compari i prepari un canvi. Exigiu que una persona aprovi un push, una pull request, una fusió o un canvi de configuració.</li>
+</ul>
+<h2 id="abans-de-començar">
+  <a href="#abans-de-comen%c3%a7ar" title="Abans de començar">Abans de començar</a>
+  <a href="#abans-de-comen%c3%a7ar" class="h-anchor" aria-hidden="true" title="Abans de començar">#</a>
+</h2>
+<p><strong>Requisits previs:</strong> accés a Bitbucket Cloud, Git, un client OpenSSH, 1Password 8, 1Password CLI, una CLI amb sessió iniciada o un compte de servei aprovat, i un amfitrió MCP amb controls d’aprovació de servidors. Reserveu 45 minuts. Dificultat intermèdia.</p>
+<p>Feu servir un repositori de prova per a la primera passada. Substituïu tots els marcadors de posició dels exemples. Les ordres següents són exemples no provats. No representen cap compte ni repositori Bitbucket actiu.</p>
+
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Comprova les fuites de DNS i WebRTC del navegador amb una VPN</title><link>https://ca.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><description>Comprova l'IP pública, el servidor DNS i les adreces WebRTC del navegador abans i després de connectar una VPN. Interpreta els resultats i investiga els problemes d'encaminament.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>La icona de connexió d&rsquo;una xarxa privada virtual (VPN) no demostra que totes les sol·licituds del navegador segueixin la mateixa ruta. Comprova per separat la teva <strong>IP pública</strong>, el <strong>servidor del Sistema de noms de domini (DNS)</strong> i les <strong>adreces WebRTC</strong>. Cada resultat respon una pregunta diferent. Aquesta guia presenta una comprovació repetible i una manera d&rsquo;investigar resultats inesperats.</p>
+<h2 id="idees-clau">
+  <a href="#idees-clau" title="Idees clau">Idees clau</a>
+  <a href="#idees-clau" class="h-anchor" aria-hidden="true" title="Idees clau">#</a>
+</h2>
+<ul>
+<li><strong>Compara dos estats:</strong> Registra les mateixes proves abans i després de connectar la VPN.</li>
+<li><strong>Llegeix cada resultat per separat:</strong> Un canvi d&rsquo;IP pública no indica on han anat les consultes DNS.</li>
+<li><strong>Revisa els candidats WebRTC:</strong> Busca una adreça pública fora de la ruta prevista. Una adreça privada té un significat diferent.</li>
+<li><strong>Canvia una opció cada vegada:</strong> Torna a provar després de cada canvi de VPN, navegador o DNS.</li>
+</ul>
+<h2 id="abans-de-començar">
+  <a href="#abans-de-comen%c3%a7ar" title="Abans de començar">Abans de començar</a>
+  <a href="#abans-de-comen%c3%a7ar" class="h-anchor" aria-hidden="true" title="Abans de començar">#</a>
+</h2>
+<p>Fes servir el navegador i la connexió de xarxa que vols protegir. Decideix si la VPN ha de cobrir tot el dispositiu o només algunes aplicacions. Si la VPN fa servir un túnel dividit, anota si el navegador de prova passa pel túnel. Tingues a mà la política DNS del client VPN per comparar-la.</p>
+<p>El <strong>túnel dividit</strong> envia algunes aplicacions per la VPN i deixa que les altres facin servir la xarxa habitual.</p>
+<p>Aquest procediment fa servir les pàgines 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="IP de BrowserLeaks">
+    <meta itemprop="url" content="https://browserleaks.com/ip">
+    <a href="https://browserleaks.com/ip"
+    
+        
+            
+                
+         
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Migrar una VM de Hyper-V a Proxmox VE: llista de verificació reversible</title><link>https://ca.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><description>Migreu una màquina virtual de Hyper-V a Proxmox VE amb una exportació de l'origen aturat, firmware coincident, importació de discos, prova d'arrencada aïllada i un pla de reversió.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>Una <strong>exportació de Hyper-V</strong> conserva els fitxers d&rsquo;una màquina virtual, mentre que Proxmox VE necessita una configuració nova del convidat i els fitxers de disc virtual VHDX importats. Una còpia correcta no demostra que el convidat arrenqui ni presti servei als usuaris. Aquesta llista guia la migració d&rsquo;una VM amb l&rsquo;origen aturat, una prova d&rsquo;arrencada controlada i un canvi amb una ruta de retorn clara.</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong>Registreu l&rsquo;origen:</strong> anoteu la generació del firmware, els camins dels discos, els punts de control, la xarxa i el xifratge abans d&rsquo;exportar.</li>
+<li><strong>Atureu les escriptures:</strong> apagueu la VM de Hyper-V abans de l&rsquo;exportació final i manteniu-la apagada durant la prova a Proxmox.</li>
+<li><strong>Coincidiu amb l&rsquo;arrencada:</strong> Hyper-V de generació 1 utilitza BIOS heretat. La generació 2 utilitza UEFI.</li>
+<li><strong>Valideu el servei:</strong> comproveu les dades, l&rsquo;accés a la xarxa, les còpies de seguretat i l&rsquo;estat del convidat abans de retirar l&rsquo;origen.</li>
+</ul>
+<h2 id="abans-de-començar">
+  <a href="#abans-de-comen%c3%a7ar" title="Abans de començar">Abans de començar</a>
+  <a href="#abans-de-comen%c3%a7ar" class="h-anchor" aria-hidden="true" title="Abans de començar">#</a>
+</h2>
+<p>Planifiqueu una finestra de manteniment i feu abans una prova amb una VM prescindible. Necessiteu accés d&rsquo;administrador a Hyper-V i Proxmox VE, espai per a l&rsquo;exportació i una còpia de seguretat verificada, separada de la còpia de migració. Reserveu temps per transferir tots els discos virtuals i provar l&rsquo;aplicació del convidat. La mida del disc i la velocitat de transferència determinen el temps d&rsquo;inactivitat.</p>
+<p>Aquest procediment cobreix una VM convencional amb discos virtuals. <strong>Les VM protegides, els discos pass-through, els discos compartits, les càrregues en clúster i les llicències vinculades al maquinari</strong> requereixen plans específics. Anoteu qui decideix el canvi i el termini màxim per revertir. No inicieu les dues còpies a la xarxa de producció amb la mateixa identitat de màquina.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Dada d&rsquo;origen</th>
+					<th>Per què la necessiteu</th>
+			</tr>
+	</thead>
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Per què s’eludeix el filtre DNS: comprova la ruta del resolutor</title><link>https://ca.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><description>Esbrina per què un dispositiu o navegador se salta el filtre DNS. Compara les consultes directes i normals, revisa els registres i comprova el DNS xifrat, la VPN, IPv6 i el router.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>Has configurat un resolutor de filtratge, però un dispositiu encara arriba a un domini que la teva política bloqueja. La causa pot ser la regla, l’assignació del Domain Name System (DNS) del dispositiu, un resolutor xifrat del navegador o una VPN. <strong>Comprova la ruta abans de canviar la configuració.</strong> Una consulta directa al filtre respon una pregunta diferent d’una consulta normal del dispositiu.</p>
+<h2 id="idees-clau">
+  <a href="#idees-clau" title="Idees clau">Idees clau</a>
+  <a href="#idees-clau" class="h-anchor" aria-hidden="true" title="Idees clau">#</a>
+</h2>
+<ul>
+<li><strong>Comprova primer la regla:</strong> Confirma que el filtre rep i bloqueja un domini de prova segur.</li>
+<li><strong>Segueix cada capa:</strong> El router, el sistema operatiu, el navegador, la VPN i la configuració mòbil afecten l’encaminament DNS.</li>
+<li><strong>Fes consultes noves:</strong> Relaciona un nom d’amfitrió nou i l’hora amb el registre de consultes del filtre.</li>
+<li><strong>Indica el límit:</strong> Una consulta observada demostra una ruta, no el comportament de totes les aplicacions i dispositius.</li>
+</ul>
+<h2 id="abans-de-començar">
+  <a href="#abans-de-comen%c3%a7ar" title="Abans de començar">Abans de començar</a>
+  <a href="#abans-de-comen%c3%a7ar" class="h-anchor" aria-hidden="true" title="Abans de començar">#</a>
+</h2>
+<p>Reserva uns 20 minuts. Necessites accés al registre de consultes del resolutor de filtratge, un dispositiu amb el problema i un registre de la configuració DNS del router. Els exemples fan servir un portàtil Windows i <strong>Pi-hole</strong>, però la mateixa comparació funciona amb qualsevol resolutor que ofereixi registres per client. Identifica primer l’adreça exacta del filtre. No publiquis adreces privades de clients, registres de consultes ni regles de política.</p>
+<p>Tria un <strong>domini de prova inofensiu</strong> que la teva política ja bloquegi. També pots afegir temporalment una regla de rebuig exacta per a un domini que controlis en un perfil de prova. Anota la regla i elimina-la després de la prova. No facis servir un domini de programari maliciós actiu com a sonda. Una pàgina bloquejada és un símptoma útil, però el registre del resolutor aporta proves més sòlides de la ruta.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Capa</th>
+					<th>Pregunta</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Filtre</strong></td>
+					<td>Una consulta directa arriba al re
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Prova de restauració d’una VM Proxmox: comprova que el sistema convidat funciona</title><link>https://ca.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><description>Prova una còpia de seguretat d’una VM Proxmox amb una restauració aïllada. Comprova els discos inclosos, el mode de còpia, les dades del convidat, l’estat del servei i el temps de recuperació sense tocar la producció.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>Una tasca de còpia verda indica que Proxmox ha escrit una còpia de seguretat. No mostra si el convidat arrenca, si les dades són recents o si el servei principal funciona. <strong>Restaura una còpia amb un ID de VM nou en una xarxa aïllada.</strong> El resultat aporta proves de recuperació abans que una interrupció t’obligui a fer la prova.</p>
+<p>Aquest exercici cobreix una <strong>màquina virtual de Proxmox VE</strong>. Els contenidors tenen unes regles de còpia diferents, sobretot per als muntatges bind i de dispositius. La 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="prova de còpia i restauració del laboratori domèstic">
+    <meta itemprop="url" content="/articles/homelab-backup-restore-drill/">
+    <a href="/articles/homelab-backup-restore-drill/"
+    
+        rel="follow me"
+    >prova de còpia i restauració del laboratori domèstic</a>
+</span>
+ del lloc tracta una recuperació de fitxers més àmplia. Aquí provaràs una còpia d’una VM Proxmox i la seva càrrega de treball.</p>
+<p>Un <strong>convidat</strong> és el sistema operatiu que s’executa dins d’una màquina virtual. Els <strong>muntatges bind</strong> i els <strong>muntatges de dispositius</strong> exposen recursos de l’amfitrió al convidat. Prova aquests recursos amb un pla de recuperació separat.</p>
+<h2 id="idees-clau">
+  <a href="#idees-clau" title="Idees clau">Idees clau</a>
+  <a href="#idees-clau" class="h-anchor" aria-hidden="true" title="Idees clau">#</a>
+</h2>
+<ul>
+<li><strong>Defineix primer què vol dir tenir èxit:</strong> tria una dada, una comprovació del servei i un temps de recuperació acceptable.</li>
+<li><strong>Comprova la cobertura:</strong> una còpia d’una VM omet els discos marcats <strong>No backup</strong> i no recrea serveis externs ni dades excloses.</li>
+<li><strong>Restaura per separat:</strong> fes servir un ID de VM lliure i mantén la xarxa restaurada aïllada de producció.</li>
+<li><strong>Registra les proves:</strong> mesura l’antiguitat de la còpia, el temps de restauració, l’arrencada, la presència dels discos i una 
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Prova l’aïllament de convidats i IoT en una xarxa Wi-Fi de malla</title><link>https://ca.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><description>Comprova si les xarxes de convidats i IoT de la teva Wi-Fi de malla bloquegen l’accés als dispositius de casa. Prova cada xarxa amb un servei actiu i registra’n els límits.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>Un nom de Wi-Fi diferent no revela quins dispositius es comuniquen. Un sistema de malla pot tractar la <strong>xarxa de convidats</strong>, la <strong>xarxa IoT</strong> i l’<strong>aïllament de clients sense fil</strong> com a controls diferents. Aquesta guia t’ajuda a provar els camins als teus equips sense pressuposar que l’etiqueta del fabricant descriu la política aplicada.</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong>Comprova primer que la destinació funciona:</strong> accedeix a un servei conegut des de la xarxa principal abans de provar un camí bloquejat.</li>
+<li><strong>Prova cada límit:</strong> l’accés de convidats a la xarxa principal, d’IoT a la principal i entre convidats respon preguntes diferents.</li>
+<li><strong>Registra la configuració:</strong> el model, el microprogramari, el mode encaminador o punt d’accés i el node de malla connectat afecten la interpretació.</li>
+<li><strong>Torna a provar després dels canvis:</strong> un resultat net només s’aplica als dispositius, servei, família d’adreces i configuració provats.</li>
+</ul>
+<h2 id="abans-de-començar">
+  <a href="#abans-de-comen%c3%a7ar" title="Abans de començar">Abans de començar</a>
+  <a href="#abans-de-comen%c3%a7ar" class="h-anchor" aria-hidden="true" title="Abans de començar">#</a>
+</h2>
+<p>Reserva uns 20 minuts. Necessites un portàtil que es pugui connectar a les xarxes Wi-Fi principal, de convidats i IoT. També cal un dispositiu de confiança a la xarxa principal amb un <strong>servei TCP obert conegut</strong>, com ara la interfície web d’un NAS. Un servei TCP escolta en un port numerat, per exemple el port 443 d’una pàgina web d’un NAS. Fes servir un servei propi o que administris. Anota’n l’adreça local i el port, però no els publiquis. Mantén el servei en funcionament durant tota la prova.</p>
+<p>Anota el model de malla, la versió del microprogramari, el mode operatiu i els paràmetres d’accés de convidats, accés IoT, dispositius compartits i aïllament de clients. Confirma el nom de Wi-Fi del portàtil després de cada canvi. Si la teva política habitual ho permet, desconnecta la VPN o el servidor intermediari per a aquesta prova del camí local i torna’ls a activar després. Una VPN canvia el camí que proves.</p>
+<blockquote>
+<p><strong>Avís:</strong> prova nomé
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2x RTX 5060 Ti contra GB10: benchmark local d’IA amb cinc models i context 256K</title><link>https://ca.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><description>Comparació de cinc models entre RTX 5060 Ti i GB10, més un benchmark Qwen3.8 Flash-Next Strata al mateix host fins a 256K de context.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Dues RTX 5060 Ti de 16 GB ofereixen 32 GB de VRAM agregada.</strong> Un sistema NVIDIA GB10 ofereix 128 GB de memòria unificada coherent. El nou benchmark de cinc models mostra un resultat més equilibrat que la prova anterior, que només incloïa Qwen.</p>
+<p>El sistema amb dues targetes genera més de pressa en quatre dels cinc models a la configuració de 256K. El GB10 destaca clarament amb Qwen3.8 27B i conserva més memòria per als models, el context i les assignacions del runtime. La millor opció depèn del model i de la càrrega de treball.</p>
+<p>Una prova separada al mateix host va comparar Qwen3.8-Flash-Next IQ2_XS amb Strata i Qwen3.8 27B Q4_K_M dens amb Ollama. La mediana de generació després de l’escalfament va ser de 92.8 tokens per segon per a Flash-Next, amb un prompt de 260,446 tokens. Qwen3.8 dens va arribar a 0.939 tokens per segon amb un prompt de 260,444 tokens.</p>
+<p>NVIDIA GB10 utilitza 128 GB de memòria unificada coherent. NVIDIA indica 128 GB de memòria unificada LPDDR5x i un TDP del xip de 140 W per a la plataforma GB10. Cada RTX 5060 Ti té 16 GB de GDDR7, una interfície de memòria de 128 bits i una potència gràfica total de 180 W. Les 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="especificacions de NVIDIA RTX 5060 Ti">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/">
+    <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >especificacions de NVIDIA RTX 5060 Ti</a>
+</span>
+ i les 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https:/
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Bucles d'agents d'IA acotats: comprovacions, reintents i regles d'aturada</title><link>https://ca.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</guid><description>Defineix un bucle d'objectiu d'IA amb estat observable, comprovacions, límits de reintents, condicions d'aturada i un traspàs clar a una persona.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/effective-ai-bounded-agent-loops.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Torna al curs pràctic de fluxos de treball amb IA">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Torna al curs pràctic de fluxos de treball amb IA</a>
+</span>
+</p>
+<p><strong>Un bucle d&rsquo;objectiu repeteix la feina fins que es valida un resultat definit o s&rsquo;activa una regla d&rsquo;aturada.</strong> El bucle útil llegeix l&rsquo;estat actual, fa una acció acotada, comprova el resultat i registra què ha passat. Una instrucció oberta com ara «continua provant» no té cap regla de finalització fiable.</p>
+<p><strong>Objectiu d&rsquo;aprenentatge:</strong> executaràs un bucle de laboratori acotat amb una comprovació que se sap que falla i registraràs la decisió d&rsquo;aturada.</p>
+<h2 id="idees-clau">
+  <a href="#idees-clau" title="Idees clau">Idees clau</a>
+  <a href="#idees-clau" class="h-anchor" aria-hidden="true" title="Idees clau">#</a>
+</h2>
+<ul>
+<li><strong>Objectiu:</strong> un resultat formulat en termes observables.</li>
+<li><strong>Estat:</strong> els fitxers, resultats, errors i revisió del codi font actuals.</li>
+<li><strong>Comprovació:</strong> una prova o revisió vinculada a l&rsquo;objectiu.</li>
+<li><strong>Pressupost de reintents:</strong> el nombre màxim d&rsquo;intents per a una fallada.</li>
+<li><strong>Regla d&rsquo;aturada:</strong> una condició que exigeix acabar o demanar una decisió a una persona.</li>
+</ul>
+<h2 id="abans-de-començar">
+  <a href="#abans-de-comen%c3%a7ar" title="Abans de començar">Abans de començar</a>
+  <a href="#abans-de-comen%c3%a7ar" class="h-anchor" aria-hidden="true" title="Abans de començar">#</a>
+</h2>
+<p><strong>Requisits previs:</strong> el 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+ 
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Com fer servir bé la IA: un flux de treball fiable per a principiants</title><link>https://ca.simeononsecurity.com/articles/effective-ai-workflow-foundations/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/effective-ai-workflow-foundations/</guid><description>Aprèn un flux de treball d’IA repetible: defineix la tasca, aporta context pertinent, examina les proves i verifica el resultat abans d’utilitzar-lo.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/effective-ai-workflow-foundations.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/effective-ai-workflow-foundations/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Torna al curs Flux de treball pràctic amb IA">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Torna al curs Flux de treball pràctic amb IA</a>
+</span>
+</p>
+<p><strong>Fes servir la IA com un col·laborador del qual cal revisar els resultats.</strong> Comença per definir el resultat, aporta només el material pertinent i compara la resposta amb la font. Aquesta lliçó presenta un flux de treball per a converses, recerca i codi.</p>
+<p><strong>Objectiu d’aprenentatge:</strong> redactaràs un correu corregit per al taller i un registre de revisió amb quatre comprovacions.</p>
+<h2 id="idees-clau">
+  <a href="#idees-clau" title="Idees clau">Idees clau</a>
+  <a href="#idees-clau" class="h-anchor" aria-hidden="true" title="Idees clau">#</a>
+</h2>
+<ul>
+<li><strong>Tasca:</strong> anomena el resultat que necessites i els seus límits.</li>
+<li><strong>Context:</strong> aporta els fitxers, fets i exemples pertinents.</li>
+<li><strong>Proves:</strong> pregunta d’on provenen les afirmacions i els canvis importants.</li>
+<li><strong>Verificació:</strong> comprova el resultat final, no la confiança de l’assistent.</li>
+</ul>
+<h2 id="abans-de-començar">
+  <a href="#abans-de-comen%c3%a7ar" title="Abans de començar">Abans de començar</a>
+  <a href="#abans-de-comen%c3%a7ar" class="h-anchor" aria-hidden="true" title="Abans de començar">#</a>
+</h2>
+<p><strong>Requisits previs:</strong> accés a qualsevol eina de xat amb IA i una tasca innòcua que ja coneguis. No cal codi ni un pla de pagament. Reserva 25 minuts. Nivell: principiant.</p>
+<p><strong>Escenari de pràctica:</strong> gestiones un taller comunitari fictici. Un esborrany de correu diu que la pròxima classe comença a les 18 h. L’horari aprovat diu que comença a les 19 h. Vols un correu corregit i un registre dels canvis. No facis servir dades reals de clients.</p>
+<h2 id="conèixer-els-elements">
+  <a href="#con%c3%a8ixer-els-elements" title="Conèixer els ele
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/effective-ai-workflow-foundations/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Com verificar els resultats, les fonts, les proves i els costos de la IA</title><link>https://ca.simeononsecurity.com/articles/effective-ai-output-verification/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/effective-ai-output-verification/</guid><description>Crea un registre d’acceptació d’un resultat d’IA amb comprovacions de fonts, abast dels fitxers, proves dels tests, privadesa i ús.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/effective-ai-output-verification.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/effective-ai-output-verification/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Torna al curs Flux de treball pràctic amb IA">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Torna al curs Flux de treball pràctic amb IA</a>
+</span>
+</p>
+<p><strong>Accepta un resultat d’IA només després de comprovar les proves adequades a la tasca.</strong> Una explicació ben presentada, una eina configurada i un indicador verd de proves responen preguntes diferents. Aquesta lliçó crea un únic registre de revisió per al laboratori del taller.</p>
+<p><strong>Objectiu d’aprenentatge:</strong> elaboraràs un registre d’acceptació de fonts, abast dels fitxers, proves, privadesa i ús.</p>
+<h2 id="idees-clau">
+  <a href="#idees-clau" title="Idees clau">Idees clau</a>
+  <a href="#idees-clau" class="h-anchor" aria-hidden="true" title="Idees clau">#</a>
+</h2>
+<ul>
+<li><strong>Comprovació de fonts:</strong> compara una afirmació basada en fets amb una font actual i autoritzada.</li>
+<li><strong>Comprovació de l’abast:</strong> inspecciona quins fitxers o sistemes han canviat.</li>
+<li><strong>Comprovació del comportament:</strong> executa proves i casos manuals pertinents.</li>
+<li><strong>Comprovació de privadesa:</strong> inspecciona quin material ha rebut l’eina o el proveïdor.</li>
+<li><strong>Comprovació de l’ús:</strong> registra els tokens, les crides a eines i la tarifa emprada per calcular el cost.</li>
+</ul>
+<h2 id="abans-de-començar">
+  <a href="#abans-de-comen%c3%a7ar" title="Abans de començar">Abans de començar</a>
+  <a href="#abans-de-comen%c3%a7ar" class="h-anchor" aria-hidden="true" title="Abans de començar">#</a>
+</h2>
+<p><strong>Requisits previs:</strong> el laboratori del curs, <code>docs/requirements.md</code>, una instantània local de Git i la 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+   
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/effective-ai-output-verification/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Configuració del curs de fluxos de treball amb IA: terminal, Git i laboratori pràctic</title><link>https://ca.simeononsecurity.com/articles/effective-ai-course-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/effective-ai-course-setup/</guid><description>Prepara un espai segur per practicar amb IA, aprèn els termes de terminal i Git del curs i executa el laboratori inicial.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/effective-ai-course-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/effective-ai-course-setup/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Torna al curs pràctic de fluxos de treball amb IA">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Torna al curs pràctic de fluxos de treball amb IA</a>
+</span>
+</p>
+<p><strong>Prepara un espai segur abans d’utilitzar un agent.</strong> Les lliçons 1 i 2 funcionen en un navegador sense aquest laboratori. Torna aquí abans de la lliçó 3 si vols completar tot el curs. Les lliçons pràctiques de programació fan servir Git, Python 3.10 o posterior i un agent de programació. El recorregut d’estudi substitueix les accions no disponibles de l’agent per tasques manuals indicades.</p>
+<p><strong>Objectiu d’aprenentatge:</strong> executaràs el laboratori inicial, desaràs una base local i explicaràs com restablir una còpia prescindible.</p>
+<h2 id="idees-clau">
+  <a href="#idees-clau" title="Idees clau">Idees clau</a>
+  <a href="#idees-clau" class="h-anchor" aria-hidden="true" title="Idees clau">#</a>
+</h2>
+<ul>
+<li><strong>Recorregut amb navegador:</strong> completa els exercicis de xat, planificació, comprovació de fonts i revisió a ChatGPT o Claude.</li>
+<li><strong>Recorregut local:</strong> fes servir un terminal i el laboratori Python inclòs per als exercicis de programació.</li>
+<li><strong>Recorregut de restabliment:</strong> extreu una còpia nova del laboratori si un exercici falla.</li>
+<li><strong>Regla de seguretat:</strong> mantén els fitxers privats, els registres de clients i les credencials fora del laboratori.</li>
+</ul>
+<h2 id="tria-el-recorregut">
+  <a href="#tria-el-recorregut" title="Tria el recorregut">Tria el recorregut</a>
+  <a href="#tria-el-recorregut" class="h-anchor" aria-hidden="true" title="Tria el recorregut">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Recorregut</th>
+					<th>Què necessites</th>
+					<th>Què practiques</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Introducció amb navegador</strong></td>
+					<td>Navegador actual i un compte de ChatGPT o Clau
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/effective-ai-course-setup/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Configurar un servidor MCP: permisos, proves d’eines i eliminació segura</title><link>https://ca.simeononsecurity.com/articles/effective-ai-mcp-server-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/effective-ai-mcp-server-setup/</guid><description>Connecta un servidor MCP de documentació només de lectura, revisa’n les eines, fes una lectura real i elimina la connexió.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/effective-ai-mcp-server-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/effective-ai-mcp-server-setup/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Torna al curs Flux de treball pràctic amb IA">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Torna al curs Flux de treball pràctic amb IA</a>
+</span>
+</p>
+<p><strong>Fes servir un servidor MCP quan una tasca necessiti una eina reutilitzable o informació actualitzada fora del projecte.</strong> Model Context Protocol, o MCP, defineix com un client i un servidor intercanvien informació sobre eines, recursos i instruccions. Una entrada de servidor no demostra que l’eina funcioni. Aquesta lliçó prova una connexió a documentació només de lectura.</p>
+<p><strong>Objectiu d’aprenentatge:</strong> distingiràs la configuració d’una lectura MCP real i deixaràs constància de com eliminar la connexió amb seguretat.</p>
+<h2 id="idees-clau">
+  <a href="#idees-clau" title="Idees clau">Idees clau</a>
+  <a href="#idees-clau" class="h-anchor" aria-hidden="true" title="Idees clau">#</a>
+</h2>
+<ul>
+<li><strong>Amfitrió MCP:</strong> aplicació d’IA que coordina usuaris, models, permisos i clients.</li>
+<li><strong>Client MCP:</strong> component del protocol que es comunica amb un servidor.</li>
+<li><strong>Servidor MCP:</strong> programa o servei remot que ofereix eines, recursos o instruccions.</li>
+<li><strong>Descobriment d’eina:</strong> prova que el client mostra una capacitat amb nom.</li>
+<li><strong>Execució d’eina:</strong> prova d’una crida real i del contingut retornat.</li>
+<li><strong>Abast dels permisos:</strong> accés concedit per l’amfitrió, el servidor, el compte i l’usuari.</li>
+</ul>
+<h2 id="abans-de-començar">
+  <a href="#abans-de-comen%c3%a7ar" title="Abans de començar">Abans de començar</a>
+  <a href="#abans-de-comen%c3%a7ar" class="h-anchor" aria-hidden="true" title="Abans de començar">#</a>
+</h2>
+<p><strong>Requisits previs:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/effective-ai-mcp-server-setup/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>

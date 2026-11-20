@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IA Autoallotjada on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>IA Autoallotjada on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/ia-autoallotjada/</link></image><link>https://ca.simeononsecurity.com/tags/ia-autoallotjada/</link><description>Recent content in IA Autoallotjada on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/ia-autoallotjada/index.xml" rel="self" type="application/rss+xml"/><item><title>Open WebUI v0.12.4: llista de comprovació per a l’actualització i el control d’accés 2026</title><link>https://ca.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA autoallotjada"
+, "Ciberseguretat"
+, "Administració de sistemes"</category><guid>https://ca.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Fes una còpia de seguretat i actualitza Open WebUI a la versió v0.12.4. Després, prova la compartició de xats, els permisos d'exportació, les concessions de recursos, els comptes i l'accés a la xarxa.</description></item><item><title>Dins de la nostra flota híbrida d’agents d’IA: Hermes, LiteLLM i Tailscale</title><link>https://ca.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autoallotjada"
+, "Agents d’IA"
+, "Infraestructura d’IA"
+, "Mineria GPU"</category><guid>https://ca.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobriu una flota local d’IA verificada amb càrrega sota demanda i el seu pla de control T0-T4 amb Hermes, LiteLLM, Tailscale Aperture i mineria Pearl.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>Privadesa de la IA local: què queda al vostre ordinador i què no</title><link>https://ca.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Privadesa"
+, "IA autogestionada"
+, "Ciberseguretat"
+, "Economia de la IA"</category><guid>https://ca.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Seguiu els prompts, fitxers de model, eines, registres, exposició de xarxa i costos d'energia abans d'escollir inferència local o un servei d'IA allotjat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>OpenCode contra Claude Code: comparació d'agents de programació de 2026</title><link>https://ca.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Eines per a desenvolupadors"
+, "Intel·ligència artificial"
+, "Codi obert"</category><guid>https://ca.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara OpenCode i Claude Code en elecció de models, inferència local, preus, permisos, instruccions del projecte i fluxos diaris de programació.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>Programació d'IA local en una GPU de 16GB: Strata, OpenCode i Qwen3.8</title><link>https://ca.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Eines per a desenvolupadors"
+, "IA autoallotjada"
+, "Maquinari d'IA"</category><guid>https://ca.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Executa un agent de programació local amb Strata i OpenCode. Examina els resultats publicats de l'RTX 4060 Ti, els requisits de RAM, la reutilització de prompts, els pressupostos de raonament i els límits de substituir una subscripció de pagament.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>Crear un assistent d'IA que protegeix la privadesa per a Meshtastic</title><link>https://ca.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Seguretat de xarxes"
+, "Privadesa"
+, "Codi obert"
+, "Automatització"</category><guid>https://ca.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Experiència pràctica amb un assistent d'IA local per a Meshtastic, amb configuració privada, accés TCP en cua, eines de recuperació i un tauler més segur.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item></channel></rss>

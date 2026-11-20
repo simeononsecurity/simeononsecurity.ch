@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Connectivitat De Xarxa on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Connectivitat De Xarxa on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/connectivitat-de-xarxa/</link></image><link>https://ca.simeononsecurity.com/tags/connectivitat-de-xarxa/</link><description>Recent content in Connectivitat De Xarxa on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/connectivitat-de-xarxa/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimitza la xarxa: dissenys i topologies</title><link>https://ca.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><category>
+"Enginyeria de xarxes"
+, "Infraestructura de TI"
+, "Guies tecnològiques"
+, "Solucions de xarxa"
+, "Ciberseguretat"
+, "Informàtica"
+, "Educació tecnològica"
+, "Arquitectura de sistemes"
+, "Optimització de xarxes"
+, "Innovacions tecnològiques"</category><guid>https://ca.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Coneix els dissenys i les topologies de xarxa i avalua quins ofereixen la màxima eficiència.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/decoding-network-designs_-types-and-topologies-explained.webp" length="121144" type="image/webp"/></item><item><title>Conceptes bàsics de xarxes: subxarxes, divisió en subxarxes i disseny de VLAN</title><link>https://ca.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</link><pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate><category>
+"Conceptes bàsics de xarxes"
+, "Divisió en subxarxes"
+, "VLAN"
+, "Gestió de xarxes"
+, "Seguretat de xarxes"
+, "Adreçament IP"
+, "Segmentació de xarxa"
+, "Ús eficient dels recursos"
+, "Rendiment de xarxa"
+, "IPv4"</category><guid>https://ca.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn els conceptes bàsics de subxarxes i VLAN per gestionar les xarxes amb eficiència i més seguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_comp.webp" length="200202" type="image/webp"/></item><item><title>Conceptes bàsics de xarxes: commutadors, encaminadors, tallafocs i DMZ</title><link>https://ca.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"Xarxes"
+, "Infraestructura de TI"
+, "Seguretat de xarxes"
+, "Arquitectura de xarxes"
+, "Ciberseguretat"
+, "Comunicació de dades"
+, "Tecnologies de la informació"
+, "Conceptes bàsics de TI"
+, "Administració de xarxes"
+, "Connectivitat a Internet"</category><guid>https://ca.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn com els commutadors, encaminadors, passarel·les, subxarxes, tallafocs i DMZ divideixen el trànsit de xarxa i imposen límits de seguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item><item><title>Curs Network+: ARP i Protocol de Descobriment de Veïns</title><link>https://ca.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Xarxes"
+, "Protocols"
+, "Certificació Network+"
+, "Resolució de Problemes"
+, "Seguretat de Xarxa"
+, "IPv4"
+, "IPv6"
+, "Comunicació de Xarxa"
+, "Resolució d'Adreces"</category><guid>https://ca.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apreneu a utilitzar eficaçment el Protocol de Resolució d'Adreces (ARP) i el Protocol de Descobriment de Veïns (NDP) per resoldre adreces IP a adreces MAC, navegar per xarxes IPv6 i solucionar problemes comuns per optimitzar el rendiment i la seguretat de la xarxa.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_the_seamless.webp" length="89092" type="image/webp"/></item></channel></rss>

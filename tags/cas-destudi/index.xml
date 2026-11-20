@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cas D’estudi on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Cas D’estudi on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/cas-destudi/</link></image><link>https://ca.simeononsecurity.com/tags/cas-destudi/</link><description>Recent content in Cas D’estudi on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/cas-destudi/index.xml" rel="self" type="application/rss+xml"/><item><title>Construir una pipeline DevOps segura: bones pràctiques</title><link>https://ca.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "seguretat"
+, "flux de treball DevOps"
+, "integració contínua"
+, "lliurament continu"
+, "automatització"
+, "contenidors"
+, "programació segura"
+, "anàlisi de vulnerabilitats"
+, "supervisió"
+, "retroacció"
+, "control de versions"
+, "control d’accés"
+, "recuperació davant desastres"
+, "continuïtat del negoci"
+, "cas d’estudi"
+, "Spring"
+, "Django"
+, "OWASP"
+, "Netflix"
+, "Capital One"</category><guid>https://ca.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn a crear i mantenir una pipeline DevOps segura amb bones pràctiques i exemples reals en aquesta guia completa.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/building-and-maintaining-a-secure-devops-pipeline.webp" length="212424" type="image/webp"/></item></channel></rss>

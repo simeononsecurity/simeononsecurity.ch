@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PowerShell on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>PowerShell on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/powershell/</link></image><link>https://ca.simeononsecurity.com/genre/powershell/</link><description>Recent content in PowerShell on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/powershell/index.xml" rel="self" type="application/rss+xml"/><item><title>Crea un inventari d’Active Directory de només lectura amb PowerShell</title><link>https://ca.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Active Directory"
+, "PowerShell"
+, "Administració de sistemes"</category><guid>https://ca.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Fes un inventari de les unitats organitzatives, els usuaris i els ordinadors d’Active Directory amb consultes PowerShell acotades. Exporta fitxers CSV revisables sense modificar els objectes del directori.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/active-directory-powershell-read-only-inventory.webp" length="101842" type="image/webp"/></item><item><title>Domina la seguretat de VMware</title><link>https://ca.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Virtualització"
+, "Infraestructura de TI"
+, "Automatització"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "Compliment normatiu"
+, "Scripts"
+, "Centre de dades"</category><guid>https://ca.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn a fer servir PowerCLI per aplicar els STIG de VMware i protegir el teu entorn VMware amb aquesta guia completa.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>Administració d'Active Directory amb PowerShell</title><link>https://ca.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Windows"
+, "PowerShell"
+, "Active Directory"
+, "Administració"
+, "Scripting"
+, "TI"
+, "Automatització"
+, "Windows Server"
+, "Microsoft"</category><guid>https://ca.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix com instal·lar i utilitzar eficaçment el mòdul d'Active Directory per a PowerShell per simplificar les teves tasques d'administració de Windows Active Directory.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/active-directory-module-powershell-installation-usage-guide.webp" length="86330" type="image/webp"/></item></channel></rss>

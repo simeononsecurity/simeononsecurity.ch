@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Infraestructura De TI on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Infraestructura De TI on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/infraestructura-de-ti/</link></image><link>https://ca.simeononsecurity.com/genre/infraestructura-de-ti/</link><description>Recent content in Infraestructura De TI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/infraestructura-de-ti/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansible vs Puppet vs Chef 2026: gestió de configuració</title><link>https://ca.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "Automatització d'infraestructura"
+, "Gestió de configuració"
+, "Operacions de TI"
+, "Computació al núvol"
+, "Administració de sistemes"
+, "TI empresarial"
+, "Desenvolupament de programari"
+, "Infraestructura de TI"
+, "Eines d'automatització"</category><guid>https://ca.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparativa del 2026 d'Ansible, Puppet i Chef sobre arquitectura, funcions, corba d'aprenentatge, rendiment, preus i casos d'ús.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>Virtualització: més eficiència i escalabilitat de TI</title><link>https://ca.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</link><pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate><category>
+"Guia de virtualització"
+, "Infraestructura de TI"
+, "Innovació tecnològica"
+, "Computació al núvol"
+, "Gestió de centres de dades"
+, "Eficiència informàtica"
+, "Solucions de xarxa"
+, "Ciberseguretat"
+, "Evolució del programari"
+, "Optimització del maquinari"</category><guid>https://ca.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn com la virtualització millora el rendiment de TI. Descobreix-ne els tipus, els avantatges i les bones pràctiques per gestionar la infraestructura.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/understanding-virtualization_-concepts-and-applications.webp" length="103918" type="image/webp"/></item><item><title>Millora les xarxes de llarga distància amb un cablejat adequat</title><link>https://ca.simeononsecurity.com/articles/networking-over-long-distances_-understanding-cabling-types/</link><pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate><category>
+"Xarxes informàtiques"
+, "Tecnologia de les comunicacions"
+, "Cablejat de dades"
+, "Fibra òptica"
+, "Infraestructura de TI"
+, "Xarxes Ethernet"
+, "Telecomunicacions"
+, "Xarxes sense fil"
+, "Solucions de TI per a empreses"
+, "Enginyeria de xarxes"</category><guid>https://ca.simeononsecurity.com/articles/networking-over-long-distances_-understanding-cabling-types/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Coneix els millors cables de xarxa per a llargues distàncies i com millorar les comunicacions. Aquesta guia ajuda els professionals de TI a triar solucions fiables.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/networking-over-long-distances_-understanding-cabling-types.webp" length="59222" type="image/webp"/></item><item><title>NAT i PAT: guia essencial de comunicació en xarxa</title><link>https://ca.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"Fonaments de xarxes"
+, "Ciberseguretat"
+, "Infraestructura de TI"
+, "Guies tecnològiques"
+, "Gestió de xarxes"
+, "Protocols d'Internet"
+, "Tecnologies de comunicació"
+, "Administració de sistemes"
+, "Enginyeria de xarxes"
+, "Xarxes digitals"</category><guid>https://ca.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entén NAT i PAT per facilitar les comunicacions digitals.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item><item><title>Optimitza la xarxa: dissenys i topologies</title><link>https://ca.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><category>
+"Enginyeria de xarxes"
+, "Infraestructura de TI"
+, "Guies tecnològiques"
+, "Solucions de xarxa"
+, "Ciberseguretat"
+, "Informàtica"
+, "Educació tecnològica"
+, "Arquitectura de sistemes"
+, "Optimització de xarxes"
+, "Innovacions tecnològiques"</category><guid>https://ca.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Coneix els dissenys i les topologies de xarxa i avalua quins ofereixen la màxima eficiència.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/decoding-network-designs_-types-and-topologies-explained.webp" length="121144" type="image/webp"/></item><item><title>Dominar la seguretat de Windows Server</title><link>https://ca.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Seguretat informàtica"
+, "Administració de servidors"
+, "Ciberseguretat"
+, "Protecció de xarxes"
+, "Integritat de dades"
+, "Infraestructura de TI"
+, "Bones pràctiques"
+, "Enduriment de servidors"
+, "Windows Server"</category><guid>https://ca.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apreneu estratègies eficaces per protegir Windows Server, des dels fonaments de l'enduriment fins a les tècniques avançades de protecció de la infraestructura.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/Windows_Server_Security_Shield_Protection.webp" length="101056" type="image/webp"/></item><item><title>Domina la seguretat de VMware</title><link>https://ca.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Virtualització"
+, "Infraestructura de TI"
+, "Automatització"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "Compliment normatiu"
+, "Scripts"
+, "Centre de dades"</category><guid>https://ca.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn a fer servir PowerCLI per aplicar els STIG de VMware i protegir el teu entorn VMware amb aquesta guia completa.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>Enfortir la resiliència de la ciberseguretat amb la gestió dels canvis</title><link>https://ca.simeononsecurity.com/articles/change-management-cyber-security-enhancing-resilience-evolving-landscape/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Gestió dels canvis"
+, "Resiliència"
+, "Infraestructura de TI"
+, "Avaluació de riscos"
+, "Compliment"
+, "Resposta a incidents"
+, "Bones pràctiques"
+, "ITIL"
+, "Controls de seguretat"</category><guid>https://ca.simeononsecurity.com/articles/change-management-cyber-security-enhancing-resilience-evolving-landscape/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix la importància de la gestió dels canvis en la ciberseguretat i com reforçar la resiliència davant l'evolució de les amenaces actuals.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_team_of_professionals_working_together_to_bu.webp" length="141276" type="image/webp"/></item><item><title>Entendre el filtratge WMI</title><link>https://ca.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Administració del Windows"
+, "Directiva de grup"
+, "Administració de sistemes"
+, "Gestió de xarxes"
+, "Infraestructura de TI"
+, "Gestió de polítiques"
+, "Governança de TI"
+, "Automatització de TI"
+, "Active Directory"
+, "Compliment de seguretat"</category><guid>https://ca.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn a utilitzar el filtratge WMI per aplicar els objectes de directiva de grup (GPO) als equips adequats, amb exemples pràctics i bones pràctiques.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item><item><title>Conceptes bàsics de xarxes: commutadors, encaminadors, tallafocs i DMZ</title><link>https://ca.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"Xarxes"
+, "Infraestructura de TI"
+, "Seguretat de xarxes"
+, "Arquitectura de xarxes"
+, "Ciberseguretat"
+, "Comunicació de dades"
+, "Tecnologies de la informació"
+, "Conceptes bàsics de TI"
+, "Administració de xarxes"
+, "Connectivitat a Internet"</category><guid>https://ca.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn com els commutadors, encaminadors, passarel·les, subxarxes, tallafocs i DMZ divideixen el trànsit de xarxa i imposen límits de seguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item><item><title>Ansible vs. Puppet vs. Chef: comparació d’eines d’automatització</title><link>https://ca.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Eines d’automatització"
+, "Gestió de la configuració"
+, "Infraestructura de TI"
+, "DevOps"
+, "Operacions de TI"
+, "Automatització del núvol"
+, "Desplegament de programari"
+, "Gestió de la infraestructura"
+, "Eines de codi obert"</category><guid>https://ca.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Ansible, Puppet i Chef per triar l’eina d’automatització adequada a les necessitats de la teva organització.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef.webp" length="227428" type="image/webp"/></item></channel></rss>

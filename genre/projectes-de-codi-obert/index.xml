@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projectes De Codi Obert on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Projectes De Codi Obert on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/projectes-de-codi-obert/</link></image><link>https://ca.simeononsecurity.com/genre/projectes-de-codi-obert/</link><description>Recent content in Projectes De Codi Obert on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/projectes-de-codi-obert/index.xml" rel="self" type="application/rss+xml"/><item><title>Vam mapar 146.526 «càmeres Flock». 50.278 eren sistemes ClickShare</title><link>https://ca.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link><pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate><category>
+"Recerca de seguretat"
+, "Tecnologia de privadesa"
+, "Projectes de codi obert"
+, "Periodisme de dades"
+, "Contravigilància"</category><guid>https://ca.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Una auditoria de Flock Finder identifica ClickShare i altres falsos positius, explica les proves i documenta els canvis.</description></item><item><title>La cursa per detectar les càmeres Flock: què ha canviat el 2026</title><link>https://ca.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"Tecnologia de privadesa"
+, "Contravigilància"
+, "Projectes de codi obert"
+, "Drets digitals"
+, "Seguretat de xarxes"
+, "Recerca en seguretat"
+, "Manipulació de maquinari"
+, "Eines de privadesa"</category><guid>https://ca.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Repassem els canvis comunicats en la detecció de Flock Safety, les respostes de la comunitat i els mètodes d'infraroig per identificar sistemes de càmeres.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>ATS Resume Improver: optimitzador de currículums amb IA gratuït</title><link>https://ca.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Eines professionals"
+, "Projectes de codi obert"
+, "Intel·ligència artificial"
+, "Tecnologia de privadesa"
+, "Eines per a desenvolupadors"
+, "Cerca de feina"
+, "Productivitat"</category><guid>https://ca.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ATS Resume Improver és una eina gratuïta, de codi obert i executada al client per analitzar, puntuar, comparar, optimitzar i exportar currículums amb models al núvol o locals.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp" length="158574" type="image/webp"/></item><item><title>Flock Finder: Mapa de càmeres ALPR de Flock Safety</title><link>https://ca.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Tecnologia de privacitat"
+, "Contravigil·lància"
+, "Projectes de codi obert"
+, "Drets digitals"
+, "Seguretat de xarxes"
+, "Eines de privacitat"
+, "Pirateria de maquinari"
+, "Recerca de seguretat"</category><guid>https://ca.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder és una eina de codi obert que mapeja més de 40.000 càmeres Flock Safety ALPR arreu del món utilitzant dades WiFi de WiGLE i empremta OUI. Aprèn com funciona, les seves limitacions i les eines de maquinari per a la detecció en temps real.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Detecció Flock-You: Guia de Configuració de Contra-Vigilància</title><link>https://ca.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Maquinari de Seguretat"
+, "Contra-Vigilància"
+, "Tecnologia de Privacitat"
+, "Projectes de Codi Obert"
+, "Desenvolupament ESP32"
+, "Monitoratge WiFi"
+, "Eines de Privacitat"
+, "Drets Digitals"
+, "Hacking de Maquinari"
+, "Seguretat de Xarxa"</category><guid>https://ca.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia tècnica completa del projecte de codi obert Flock-You per detectar càmeres ALPR de Flock Safety amb maquinari basat en ESP32. Inclou instruccions de configuració, detalls del microprogramari i opcions de compra.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item></channel></rss>

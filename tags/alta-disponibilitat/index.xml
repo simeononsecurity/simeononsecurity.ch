@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alta Disponibilitat on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Alta Disponibilitat on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/alta-disponibilitat/</link></image><link>https://ca.simeononsecurity.com/tags/alta-disponibilitat/</link><description>Recent content in Alta Disponibilitat on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/alta-disponibilitat/index.xml" rel="self" type="application/rss+xml"/><item><title>Orquestració de contenidors en entorns DevOps moderns</title><link>https://ca.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</link><pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate><category>
+"orquestració de contenidors"
+, "DevOps"
+, "Kubernetes"
+, "Docker Swarm"
+, "Apache Mesos"
+, "escalabilitat"
+, "alta disponibilitat"
+, "equilibri de càrrega"
+, "seguretat"
+, "desplegament automatitzat d’aplicacions"
+, "HIPAA"
+, "SOX"
+, "RGPD"
+, "compliment"
+, "desenvolupament de programari"
+, "computació al núvol"
+, "contenidorització"
+, "tecnologia"
+, "automatització"</category><guid>https://ca.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix com l’orquestració de contenidors gestiona el desplegament, l’escalabilitat, les xarxes i la recuperació, i coneix-ne les eines populars i les normes aplicables.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp" length="120220" type="image/webp"/></item></channel></rss>

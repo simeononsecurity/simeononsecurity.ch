@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laboratori Domèstic on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Laboratori Domèstic on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/laboratori-dom%C3%A8stic/</link></image><link>https://ca.simeononsecurity.com/genre/laboratori-dom%C3%A8stic/</link><description>Recent content in Laboratori Domèstic on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/laboratori-dom%C3%A8stic/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9: redueix l'ús dels discos virtuals i recupera espai</title><link>https://ca.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Virtualització"
+, "Administració de Linux"
+, "plataforma Proxmox VE"
+, "Emmagatzematge"
+, "Laboratori domèstic"</category><guid>https://ca.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Redueix l'emmagatzematge de les VM i els contenidors LXC a Proxmox VE 9. Compara formats i backends, activa discard, executa trim i revisa les instantànies abans de recuperar espai.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Construeix un laboratori domèstic en 10 nivells, de Pi-hole a la IA local</title><link>https://ca.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Laboratori domèstic"
+, "Autoallotjament"
+, "IA local"
+, "Xarxes domèstiques"</category><guid>https://ca.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Construeix un laboratori domèstic en deu etapes pràctiques, des del filtratge DNS de tota la xarxa fins a la IA local, amb maquinari, costos, habilitats i compensacions per a cada nivell.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Migrar una VM de Hyper-V a Proxmox VE: llista de verificació reversible</title><link>https://ca.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualització"
+, "Administració de sistemes"
+, "Laboratori domèstic"</category><guid>https://ca.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Migreu una màquina virtual de Hyper-V a Proxmox VE amb una exportació de l'origen aturat, firmware coincident, importació de discos, prova d'arrencada aïllada i un pla de reversió.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>Prova de restauració d’una VM Proxmox: comprova que el sistema convidat funciona</title><link>https://ca.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualització"
+, "Còpia de seguretat i recuperació"
+, "Laboratori domèstic"</category><guid>https://ca.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prova una còpia de seguretat d’una VM Proxmox amb una restauració aïllada. Comprova els discos inclosos, el mode de còpia, les dades del convidat, l’estat del servei i el temps de recuperació sense tocar la producció.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>Dimensiona un SAI per al teu homelab i prova l’apagada automàtica</title><link>https://ca.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Laboratori domèstic"
+, "Protecció elèctrica"
+, "Administració de sistemes"</category><guid>https://ca.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Mesura el consum del teu homelab, compara els límits en watts i VA del SAI, comprova l’autonomia amb la teva càrrega i prova una apagada correcta abans de confiar en la bateria.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>IA local el 2026: un model 27B supera Sonnet 4.6 mentre es tanca la finestra per comprar maquinari</title><link>https://ca.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autoallotjada"
+, "Models de codi obert"
+, "Maquinari d'IA"
+, "Aprenentatge automàtic"
+, "Quantització"
+, "Laboratori domèstic"
+, "Privadesa"
+, "Economia de la IA"
+, "Maquinari de consum"</category><guid>https://ca.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planifica un ordinador d'IA local per al 2026 segons la mida del model, la VRAM, l'amplada de banda de memòria, el consum, el cost i les opcions d'actualització.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Minar Pearl (PRL) el 2026: configuració, rendibilitat i utilitat de la cadena</title><link>https://ca.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Criptomonedes"
+, "Mineria amb GPU"
+, "Còmput d’IA"
+, "DePIN"
+, "Cadena de blocs"
+, "Linux"
+, "Laboratori domèstic"
+, "Maquinari"</category><guid>https://ca.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Configura la mineria de PRL amb SRBMiner, revisa la prova de treball útil, estima els marges i avalua la utilitat pràctica de la cadena.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp" length="266670" type="image/webp"/></item><item><title>Docker a LXC sobre Proxmox: fiabilitat, proves i migració a una VM</title><link>https://ca.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"Virtualització"
+, "Administració de Linux"
+, "laboratori domèstic"</category><guid>https://ca.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Avalua Docker dins de Proxmox LXC amb un error documentat d’AppArmor, una lectura acurada d’un informe sobre bloquejos de l’amfitrió, ordres de diagnòstic i un pla de migració a una VM.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>Computació a la perifèria per al camp: selecció d’equipament i carcassa</title><link>https://ca.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Computació a la perifèria"
+, "Informàtica de camp"
+, "Equipament"
+, "Laboratori domèstic"
+, "Informàtica resistent"
+, "Xarxes"
+, "Recuperació de desastres"
+, "Informàtica per a petites empreses"</category><guid>https://ca.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia del maquinari edge per a desplegaments al camp i de la selecció de carcasses, amb càlcul, bastidors, refrigeració, emmagatzematge, gestió, cablejat i compatibilitat elèctrica.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item></channel></rss>

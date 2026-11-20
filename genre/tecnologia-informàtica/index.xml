@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tecnologia Informàtica on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Tecnologia Informàtica on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/tecnologia-inform%C3%A0tica/</link></image><link>https://ca.simeononsecurity.com/genre/tecnologia-inform%C3%A0tica/</link><description>Recent content in Tecnologia Informàtica on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/tecnologia-inform%C3%A0tica/index.xml" rel="self" type="application/rss+xml"/><item><title>Registre de Windows i fitxers de configuració de Linux</title><link>https://ca.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link><pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Sistemes operatius"
+, "Gestió de la seguretat"
+, "Tecnologia informàtica"
+, "Protecció de dades"
+, "Configuració del sistema"
+, "Seguretat informàtica"
+, "Seguretat de xarxa"
+, "Comparacions tecnològiques"
+, "Seguretat de la informació"</category><guid>https://ca.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara la seguretat del Registre de Windows i dels fitxers de configuració de Linux i aplica mesures pràctiques per reforçar tots dos sistemes.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp"/></item><item><title>Windows Task Scheduler contra Cron de Linux: comparació de seguretat</title><link>https://ca.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Sistemes operatius"
+, "Automatització de sistemes"
+, "Eines de seguretat"
+, "Tecnologia informàtica"
+, "Programació de tasques"
+, "Seguretat de xarxes"
+, "Administració de sistemes"
+, "Defensa cibernètica"
+, "Gestió de TI"</category><guid>https://ca.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Windows Task Scheduler i les tasques Cron de Linux des de la perspectiva de la ciberseguretat i el reforç dels sistemes.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Integritat De Dades on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Integritat De Dades on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/integritat-de-dades/</link></image><link>https://ca.simeononsecurity.com/tags/integritat-de-dades/</link><description>Recent content in Integritat De Dades on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/integritat-de-dades/index.xml" rel="self" type="application/rss+xml"/><item><title>Fes una prova de restauració de còpies de seguretat del homelab amb Restic</title><link>https://ca.simeononsecurity.com/articles/homelab-backup-restore-drill/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Còpia de seguretat"
+, "Recuperació de desastres"</category><guid>https://ca.simeononsecurity.com/articles/homelab-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprova si una còpia de seguretat del homelab restaura fitxers utilitzables. Defineix un objectiu de recuperació, restaura amb Restic en una altra ubicació, revisa les dades i registra el resultat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/homelab-backup-restore-drill.webp" length="80454" type="image/webp"/></item><item><title>Resoldre errors de disc: guia completa per comprovar unitats</title><link>https://ca.simeononsecurity.com/articles/navigating-disk-errors_-tools-and-techniques-for-disk-checks/</link><pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate><category>
+"Manteniment informàtic"
+, "Recuperació de dades"
+, "Solucions tècniques"
+, "Gestió de discs"
+, "Optimització del sistema"
+, "Manteniment de maquinari"
+, "Resolució de problemes"
+, "Bones pràctiques de TI"
+, "Utilitats de programari"
+, "Salut digital"</category><guid>https://ca.simeononsecurity.com/articles/navigating-disk-errors_-tools-and-techniques-for-disk-checks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn mètodes pràctics per diagnosticar i mantenir unitats. Protegeix les dades amb còpies de seguretat fiables i comprovacions específiques.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/navigating-disk-errors_-tools-and-techniques-for-disk-checks.webp" length="36266" type="image/webp"/></item><item><title>NextDNS vs AdGuard DNS vs Quad9 vs Cloudflare: DNS el 2026</title><link>https://ca.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Comparativa DNS"
+, "Protecció de la privadesa"
+, "Bloqueig d'anuncis"
+, "Seguretat de xarxa"
+, "Seguretat a Internet"
+, "Resolutor DNS"
+, "Privadesa en línia"
+, "Seguretat web"
+, "Filtratge DNS"</category><guid>https://ca.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparativa del 2026 de NextDNS, AdGuard DNS, Quad9, Cloudflare DNS i Pi-hole quant a seguretat, privadesa i rendiment.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scripting Entre Llocs on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Scripting Entre Llocs on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/scripting-entre-llocs/</link></image><link>https://ca.simeononsecurity.com/tags/scripting-entre-llocs/</link><description>Recent content in Scripting Entre Llocs on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/scripting-entre-llocs/index.xml" rel="self" type="application/rss+xml"/><item><title>Programació segura amb Python</title><link>https://ca.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"Programació"
+, "Seguretat d’aplicacions"
+, "Desenvolupament amb Python"
+, "Programació segura"
+, "Desenvolupament web"
+, "Anàlisi de dades"
+, "Intel·ligència artificial"
+, "Desenvolupament de programari"
+, "Ciberseguretat"
+, "Llenguatges de programació"</category><guid>https://ca.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Pràctiques de programació segura amb Python per reduir la injecció SQL, l’scripting entre llocs i altres vulnerabilitats d’aplicacions.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp"/></item></channel></rss>

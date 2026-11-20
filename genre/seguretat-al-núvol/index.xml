@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Seguretat Al Núvol on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Seguretat Al Núvol on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/seguretat-al-n%C3%BAvol/</link></image><link>https://ca.simeononsecurity.com/genre/seguretat-al-n%C3%BAvol/</link><description>Recent content in Seguretat Al Núvol on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/seguretat-al-n%C3%BAvol/index.xml" rel="self" type="application/rss+xml"/><item><title>Claus SSH de Bitbucket Cloud: accés Git de només lectura per a agents d’IA</title><link>https://ca.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Seguretat al núvol"
+, "Eines per a desenvolupadors"
+, "Administració de sistemes"</category><guid>https://ca.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Configureu les claus SSH de Bitbucket Cloud, l’accés Git CLI, els tokens REST API, 1Password i les eines MCP per a fluxos de treball d’agents d’IA de només lectura.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>El 2026, els contenidors ja no són una frontera de seguretat</title><link>https://ca.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"Seguretat dels contenidors"
+, "Linux"
+, "Seguretat del nucli"
+, "Virtualització"
+, "Seguretat al núvol"
+, "Recerca d’amenaces"
+, "Equip blau"
+, "DevSecOps"</category><guid>https://ca.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Les vulnerabilitats del nucli del 2026 mostren per què l’aïllament de contenidors multiinquilí no és suficient. Coneix Copy Fail, Dirty Frag, Fragnesia i CVE-2026-80521, i compara els contenidors reforçats amb les fronteres de microVM.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>Cloudflare Tunnel i Access: necessites tots dos?</title><link>https://ca.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Seguretat de xarxa"
+, "Allotjament propi"
+, "Seguretat al núvol"</category><guid>https://ca.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entén les diferències entre Cloudflare Tunnel i Access, tria la protecció d'un tauler domèstic i evita publicar una aplicació privada sense autenticació.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>Laboratori SOC domèstic de Microsoft: desenvolupa experiència en ciberseguretat el 2026</title><link>https://ca.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Seguretat al núvol"
+, "Desenvolupament professional"</category><guid>https://ca.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Crea un laboratori SOC Microsoft amb Sentinel, Defender, Intune i Entra. Investiga incidents, valida polítiques de claus d’accés i documenta proves per al portfolio.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>Protegir el núvol amb eficàcia</title><link>https://ca.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</link><pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate><category>
+"Seguretat al núvol"
+, "Resiliència empresarial"
+, "Implementació de CSPM"
+, "Detecció proactiva d’amenaces"
+, "Gestió del compliment"
+, "Polítiques de seguretat"
+, "Col·laboració entre equips"
+, "Infraestructura al núvol"
+, "Seguretat automatitzada"
+, "Mitigació de riscos"</category><guid>https://ca.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Utilitza la gestió de la postura de seguretat al núvol per detectar configuracions incorrectes, aplicar polítiques, gestionar alertes, donar suport al compliment i orientar la correcció dels comptes cloud.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/leveraging-cloud-security-posture-management-%28cspm%29-for-your-business.webp" length="234272" type="image/webp"/></item><item><title>Maximitzar la seguretat de la xarxa i del núvol</title><link>https://ca.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Ciberseguretat"
+, "Seguretat al núvol"
+, "Protecció de xarxes"
+, "Seguretat digital"
+, "Privadesa de les dades"
+, "Seguretat informàtica"
+, "Tecnologia empresarial"
+, "Defensa digital"
+, "Ciberamenaces"</category><guid>https://ca.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix les amenaces, les mesures de protecció i els casos pràctics per reforçar la seguretat de la xarxa i del núvol.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp"/></item><item><title>Certificacions de Microsoft per a carreres en ciberseguretat</title><link>https://ca.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Certificacions de Microsoft"
+, "Desenvolupament professional"
+, "Tecnologia de la informació"
+, "Seguretat al núvol"
+, "Gestió de dades"
+, "Gestió d'identitats i accessos"
+, "Intel·ligència artificial"
+, "Aprenentatge automàtic"
+, "Mercat laboral"</category><guid>https://ca.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Tria certificacions de Microsoft per a feines de ciberseguretat segons l'àrea de competència, el lloc objectiu, els requisits previs i la rellevància d'Azure.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoon_illustration_featuring_a_professiona.webp" length="94814" type="image/webp"/></item><item><title>AWS, Azure i Google Cloud 2026: comparació completa de plataformes al núvol</title><link>https://ca.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Computació al núvol"
+, "Seguretat al núvol"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "Seguretat de les dades"
+, "Xifratge"
+, "Gestió d'identitats i accessos"
+, "Compliment normatiu"
+, "Detecció d'amenaces"</category><guid>https://ca.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara AWS, Azure i Google Cloud el 2026, amb preus, seguretat, compliment normatiu, serveis, rendiment i com triar proveïdor.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item><item><title>Guia professional de ciberseguretat 2026</title><link>https://ca.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</link><pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Tecnologia"
+, "Desenvolupament professional"
+, "Seguretat de la informació"
+, "Seguretat digital"
+, "Habilitats i certificacions"
+, "Oportunitats laborals"
+, "Seguretat de xarxes"
+, "Seguretat al núvol"
+, "Planificació professional"</category><guid>https://ca.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia de carrera en ciberseguretat per al 2026 amb habilitats, certificacions, dades salarials, itineraris professionals i recerca del mercat laboral.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/cybersecurity-career-guide-essential-skills-and-certifications.webp" length="298156" type="image/webp"/></item><item><title>Dominar les proves de penetració: tècniques avançades i exemples reals</title><link>https://ca.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Proves de penetració"
+, "Hacking ètic"
+, "Seguretat de xarxes"
+, "Seguretat d'aplicacions web"
+, "Seguretat sense fil"
+, "Enginyeria social"
+, "Seguretat d'aplicacions mòbils"
+, "Seguretat al núvol"
+, "Desenvolupament professional"</category><guid>https://ca.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix tècniques, eines i exemples reals de proves de penetració per millorar les teves habilitats i la teva carrera en ciberseguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ollama on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Ollama on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/ollama/</link></image><link>https://ca.simeononsecurity.com/tags/ollama/</link><description>Recent content in Ollama on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/ollama/index.xml" rel="self" type="application/rss+xml"/><item><title>Com triar un model local d’IA sense censura</title><link>https://ca.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autoallotjada"
+, "Seguretat de la IA"
+, "Maquinari GPU"</category><guid>https://ca.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara variants locals segons les respostes completes, les capacitats conservades, l’ús del context, la quantització i la VRAM necessària.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Construeix un laboratori domèstic en 10 nivells, de Pi-hole a la IA local</title><link>https://ca.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Laboratori domèstic"
+, "Autoallotjament"
+, "IA local"
+, "Xarxes domèstiques"</category><guid>https://ca.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Construeix un laboratori domèstic en deu etapes pràctiques, des del filtratge DNS de tota la xarxa fins a la IA local, amb maquinari, costos, habilitats i compensacions per a cada nivell.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Proves locals de models Hermes: quins conjunts de GPU i model triaria</title><link>https://ca.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intel·ligència artificial"
+, "IA local"
+, "Maquinari"</category><guid>https://ca.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Les meves recomanacions per a Hermes parteixen de proves de context llarg, eines, transmissió i visió en sistemes RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti i RTX 3070.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>Dins de la nostra flota híbrida d’agents d’IA: Hermes, LiteLLM i Tailscale</title><link>https://ca.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autoallotjada"
+, "Agents d’IA"
+, "Infraestructura d’IA"
+, "Mineria GPU"</category><guid>https://ca.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobriu una flota local d’IA verificada amb càrrega sota demanda i el seu pla de control T0-T4 amb Hermes, LiteLLM, Tailscale Aperture i mineria Pearl.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>OpenCode contra Claude Code: comparació d'agents de programació de 2026</title><link>https://ca.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Eines per a desenvolupadors"
+, "Intel·ligència artificial"
+, "Codi obert"</category><guid>https://ca.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara OpenCode i Claude Code en elecció de models, inferència local, preus, permisos, instruccions del projecte i fluxos diaris de programació.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>Quin model d'IA local hauries d'executar? Guia de GPU, context i programació per a l'octubre de 2026</title><link>https://ca.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Maquinari d'IA"
+, "IA autogestionada"
+, "Benchmarking de GPU"
+, "Eines per a desenvolupadors"
+, "Economia de la IA"</category><guid>https://ca.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia pràctica d'octubre de 2026 per triar models d'IA locals per a agents de programació. Compara la memòria de GPU, el creixement de la KV-cache, la mida del context, la qualitat de la quantització, el processament de prompts, la configuració del raonament i el cost del lloguer al núvol.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>IA local el 2026: un model 27B supera Sonnet 4.6 mentre es tanca la finestra per comprar maquinari</title><link>https://ca.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autoallotjada"
+, "Models de codi obert"
+, "Maquinari d'IA"
+, "Aprenentatge automàtic"
+, "Quantització"
+, "Laboratori domèstic"
+, "Privadesa"
+, "Economia de la IA"
+, "Maquinari de consum"</category><guid>https://ca.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planifica un ordinador d'IA local per al 2026 segons la mida del model, la VRAM, l'amplada de banda de memòria, el consum, el cost i les opcions d'actualització.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Quins models d’IA funcionen en una Raspberry Pi 4 o 5?</title><link>https://ca.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "Intel·ligència artificial"
+, "Autoallotjament"</category><guid>https://ca.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Tria models de llenguatge locals segons memòria, velocitat i càrrega de treball amb resultats mesurats en Raspberry Pi 4 i 5, des dels petits LFM2.5 fins a les opcions 3B i superiors.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item><item><title>Crear un assistent d'IA que protegeix la privadesa per a Meshtastic</title><link>https://ca.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Seguretat de xarxes"
+, "Privadesa"
+, "Codi obert"
+, "Automatització"</category><guid>https://ca.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Experiència pràctica amb un assistent d'IA local per a Meshtastic, amb configuració privada, accés TCP en cua, eines de recuperació i un tauler més segur.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resolució De Problemes on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Resolució De Problemes on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/resoluci%C3%B3-de-problemes/</link></image><link>https://ca.simeononsecurity.com/genre/resoluci%C3%B3-de-problemes/</link><description>Recent content in Resolució De Problemes on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/resoluci%C3%B3-de-problemes/index.xml" rel="self" type="application/rss+xml"/><item><title>Retrocés de Home Assistant Core 2026.11 a 2026.10.4: correcció de la versió 3 d'emmagatzematge HTTP</title><link>https://ca.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"Domòtica"
+, "Resolució de problemes"</category><guid>https://ca.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Corregeix l'error de la versió 3 d'emmagatzematge HTTP després que Home Assistant Core 2026.11 retrocedeixi a 2026.10.4 a Yellow. Inclou ordres protegides i resultats verificats.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp" length="32856" type="image/webp"/></item><item><title>Resoldre errors de disc: guia completa per comprovar unitats</title><link>https://ca.simeononsecurity.com/articles/navigating-disk-errors_-tools-and-techniques-for-disk-checks/</link><pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate><category>
+"Manteniment informàtic"
+, "Recuperació de dades"
+, "Solucions tècniques"
+, "Gestió de discs"
+, "Optimització del sistema"
+, "Manteniment de maquinari"
+, "Resolució de problemes"
+, "Bones pràctiques de TI"
+, "Utilitats de programari"
+, "Salut digital"</category><guid>https://ca.simeononsecurity.com/articles/navigating-disk-errors_-tools-and-techniques-for-disk-checks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn mètodes pràctics per diagnosticar i mantenir unitats. Protegeix les dades amb còpies de seguretat fiables i comprovacions específiques.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/navigating-disk-errors_-tools-and-techniques-for-disk-checks.webp" length="36266" type="image/webp"/></item><item><title>Curs Network+: ARP i Protocol de Descobriment de Veïns</title><link>https://ca.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Xarxes"
+, "Protocols"
+, "Certificació Network+"
+, "Resolució de Problemes"
+, "Seguretat de Xarxa"
+, "IPv4"
+, "IPv6"
+, "Comunicació de Xarxa"
+, "Resolució d'Adreces"</category><guid>https://ca.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apreneu a utilitzar eficaçment el Protocol de Resolució d'Adreces (ARP) i el Protocol de Descobriment de Veïns (NDP) per resoldre adreces IP a adreces MAC, navegar per xarxes IPv6 i solucionar problemes comuns per optimitzar el rendiment i la seguretat de la xarxa.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_the_seamless.webp" length="89092" type="image/webp"/></item></channel></rss>

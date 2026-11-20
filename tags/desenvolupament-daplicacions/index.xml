@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Desenvolupament D’aplicacions on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Desenvolupament D’aplicacions on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/desenvolupament-daplicacions/</link></image><link>https://ca.simeononsecurity.com/tags/desenvolupament-daplicacions/</link><description>Recent content in Desenvolupament D’aplicacions on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/desenvolupament-daplicacions/index.xml" rel="self" type="application/rss+xml"/><item><title>Funcions C# insegures: pràctiques de programació segura</title><link>https://ca.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Desenvolupament de programari"
+, "Programació en C#"
+, "Ciberseguretat"
+, "Seguretat del codi"
+, "Programació segura"
+, "Bones pràctiques de programació"
+, "Vulnerabilitats de programari"
+, "Criptografia"
+, "Desenvolupament web"
+, "Seguretat d’aplicacions"</category><guid>https://ca.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Alternatives segures a les funcions C# insegures. Aprèn a identificar els riscos per a la seguretat de la memòria i a substituir les operacions vulnerables.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>Programació segura amb Python</title><link>https://ca.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"Programació"
+, "Seguretat d’aplicacions"
+, "Desenvolupament amb Python"
+, "Programació segura"
+, "Desenvolupament web"
+, "Anàlisi de dades"
+, "Intel·ligència artificial"
+, "Desenvolupament de programari"
+, "Ciberseguretat"
+, "Llenguatges de programació"</category><guid>https://ca.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Pràctiques de programació segura amb Python per reduir la injecció SQL, l’scripting entre llocs i altres vulnerabilitats d’aplicacions.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp"/></item><item><title>DevSecOps: afrontar els reptes i aprofitar les oportunitats</title><link>https://ca.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</link><pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate><category>
+"DevSecOps"
+, "seguretat de la informació"
+, "proves de seguretat"
+, "metodologies àgils"
+, "col·laboració"
+, "normativa governamental"
+, "automatització"
+, "desenvolupament d’aplicacions"
+, "escalabilitat"
+, "monitoratge continu"
+, "directrius de l’NIST"
+, "cicles de retroalimentació"
+, "modularitat"
+, "vulnerabilitats"
+, "garantia de qualitat"
+, "ciberseguretat"
+, "infraestructura de TI"
+, "eines de desenvolupament de programari"
+, "gestió de riscos"</category><guid>https://ca.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Revisa els reptes i les oportunitats de DevSecOps, com ara la col·laboració, l'escalabilitat, el compliment normatiu i els controls del lliurament.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.webp" length="104930" type="image/webp"/></item></channel></rss>

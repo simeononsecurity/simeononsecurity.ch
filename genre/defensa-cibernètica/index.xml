@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Defensa Cibernètica on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Defensa Cibernètica on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/defensa-cibern%C3%A8tica/</link></image><link>https://ca.simeononsecurity.com/genre/defensa-cibern%C3%A8tica/</link><description>Recent content in Defensa Cibernètica on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/defensa-cibern%C3%A8tica/index.xml" rel="self" type="application/rss+xml"/><item><title>Domina l’OPSEC: 6 passos essencials per a la seguretat digital</title><link>https://ca.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Seguretat digital"
+, "Seguretat operativa"
+, "Privacitat en línia"
+, "Protecció de dades"
+, "Seguretat de la informació"
+, "Seguretat a Internet"
+, "Defensa cibernètica"
+, "Mesures de seguretat"
+, "Amenaces en línia"</category><guid>https://ca.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn sis passos essencials d’OPSEC per protegir la teva presència digital i reforçar la ciberseguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/OPSEC_Steps_Security.webp" length="216778" type="image/webp"/></item><item><title>Construeix el teu futur en ciberseguretat</title><link>https://ca.simeononsecurity.com/articles/microsoft-security-certification-path/</link><pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Certificacions"
+, "Microsoft"
+, "Desenvolupament professional"
+, "Formació en TI"
+, "Seguretat de la informació"
+, "Competències professionals"
+, "Formació tecnològica"
+, "Defensa cibernètica"
+, "Aprenentatge en línia"</category><guid>https://ca.simeononsecurity.com/articles/microsoft-security-certification-path/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Coneix el recorregut de certificació de seguretat de Microsoft i com les seves credencials t'ajuden en una carrera de ciberseguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp"/></item><item><title>Windows Task Scheduler contra Cron de Linux: comparació de seguretat</title><link>https://ca.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Sistemes operatius"
+, "Automatització de sistemes"
+, "Eines de seguretat"
+, "Tecnologia informàtica"
+, "Programació de tasques"
+, "Seguretat de xarxes"
+, "Administració de sistemes"
+, "Defensa cibernètica"
+, "Gestió de TI"</category><guid>https://ca.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Windows Task Scheduler i les tasques Cron de Linux des de la perspectiva de la ciberseguretat i el reforç dels sistemes.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>Dominar la ciberseguretat</title><link>https://ca.simeononsecurity.com/articles/mastering-risk-management-framework-cybersecurity/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Gestió de riscos"
+, "Seguretat de la informació"
+, "Normativa governamental"
+, "Defensa cibernètica"
+, "Seguretat informàtica"
+, "Protecció de dades"
+, "Controls de seguretat"
+, "Directrius del NIST"
+, "Supervisió contínua"</category><guid>https://ca.simeononsecurity.com/articles/mastering-risk-management-framework-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobriu el marc essencial de gestió de riscos (RMF) en ciberseguretat, els seus components i la seva importància.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/cybersecurity_shield_protection.webp" length="120532" type="image/webp"/></item><item><title>Dominar la resposta als incidents de ciberseguretat</title><link>https://ca.simeononsecurity.com/articles/mastering-cybersecurity-incident-response-guide/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Resposta als incidents"
+, "Seguretat de la informació"
+, "Protecció de dades"
+, "Defensa cibernètica"
+, "Amenaces digitals"
+, "Seguretat informàtica"
+, "Seguretat digital"
+, "Bretxa de dades"
+, "Resposta a emergències"</category><guid>https://ca.simeononsecurity.com/articles/mastering-cybersecurity-incident-response-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn com una resposta eficaç als incidents de ciberseguretat protegeix les organitzacions davant de les amenaces i en reforça la resiliència amb aquesta guia completa.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/Cybersecurity_Incident_Response_Fortress.webp" length="137924" type="image/webp"/></item><item><title>Protegeix la teva privadesa: el servei d’eliminació de dades OneRep</title><link>https://ca.simeononsecurity.com/articles/onerep-data-removal-privacy-service/</link><pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Protecció de dades"
+, "Seguretat en línia"
+, "Solucions de privadesa"
+, "Defensa cibernètica"
+, "Seguretat a Internet"
+, "Informació personal"
+, "Privadesa digital"
+, "Protecció de la identitat"
+, "Gestió de dades"</category><guid>https://ca.simeononsecurity.com/articles/onerep-data-removal-privacy-service/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix com OneRep ajuda a eliminar dades personals i a protegir la privadesa i la informació a Internet.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/onerep-privacy-shield.webp" length="48096" type="image/webp"/></item><item><title>NIST Cybersecurity Framework en comparació amb ISO 27001</title><link>https://ca.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Seguretat de la informació"
+, "Marcs de seguretat"
+, "Gestió de riscos"
+, "Protecció de dades"
+, "Compliment"
+, "Governança de TI"
+, "Amenaces cibernètiques"
+, "Defensa cibernètica"
+, "Risc cibernètic"</category><guid>https://ca.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Coneix les diferències entre el NIST Cybersecurity Framework i ISO 27001 per triar amb criteri el marc de seguretat adequat per a la teva organització.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_shield_protecting_a_network_of.webp" length="102920" type="image/webp"/></item><item><title>Protegeix la teva xarxa domèstica</title><link>https://ca.simeononsecurity.com/articles/building-a-secure-home-network/</link><pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate><category>
+"Seguretat de les xarxes domèstiques"
+, "Ciberseguretat"
+, "Protecció de dispositius"
+, "Seguretat a Internet"
+, "Seguretat de la llar intel·ligent"
+, "Privadesa de xarxa"
+, "Amenaces en línia"
+, "Consells de seguretat a Internet"
+, "Privadesa digital"
+, "Defensa cibernètica"</category><guid>https://ca.simeononsecurity.com/articles/building-a-secure-home-network/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn a protegir la xarxa domèstica i els dispositius connectats davant de les amenaces cibernètiques amb aquests consells i eines essencials.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/building-a-secure-home-network.webp" length="167198" type="image/webp"/></item><item><title>Conceptes bàsics de ciberseguretat</title><link>https://ca.simeononsecurity.com/articles/cybersecurity-for-beginners-a-non-technical-guide/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Seguretat en línia"
+, "Seguretat digital"
+, "Ciberamenaces"
+, "Privadesa a Internet"
+, "Protecció de dades"
+, "Seguretat de la informació"
+, "Tecnologia"
+, "Defensa cibernètica"
+, "Consciència cibernètica"</category><guid>https://ca.simeononsecurity.com/articles/cybersecurity-for-beginners-a-non-technical-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn els fonaments de la ciberseguretat i consells pràctics per protegir la teva vida digital de les amenaces.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/cybersecurity-for-beginners.webp" length="31318" type="image/webp"/></item></channel></rss>

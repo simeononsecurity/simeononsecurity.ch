@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Registre on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Registre on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/registre/</link></image><link>https://ca.simeononsecurity.com/tags/registre/</link><description>Recent content in Registre on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/registre/index.xml" rel="self" type="application/rss+xml"/><item><title>Com protegir l’entorn de Docker i Kubernetes</title><link>https://ca.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link><pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate><category>
+"Docker"
+, "Kubernetes"
+, "Seguretat"
+, "Contenidors"
+, "Seguretat de xarxa"
+, "RBAC"
+, "Servidor d’API"
+, "Vulnerabilitats"
+, "Monitoratge"
+, "Registre"
+, "Tallafocs"
+, "TLS"
+, "Anchore"
+, "Clair"
+, "Aqua Security"
+, "ELK Stack"
+, "Splunk"
+, "Prometheus"
+, "Ciberseguretat"
+, "Bones pràctiques"</category><guid>https://ca.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobriu les millors pràctiques per protegir l’entorn de Docker i Kubernetes, com ara fer servir imatges oficials, limitar els permisos i aplicar mesures de seguretat de xarxa.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp" length="126938" type="image/webp"/></item></channel></rss>

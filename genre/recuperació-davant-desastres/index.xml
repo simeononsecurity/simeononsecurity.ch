@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recuperació Davant Desastres on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Recuperació Davant Desastres on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/recuperaci%C3%B3-davant-desastres/</link></image><link>https://ca.simeononsecurity.com/genre/recuperaci%C3%B3-davant-desastres/</link><description>Recent content in Recuperació Davant Desastres on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/recuperaci%C3%B3-davant-desastres/index.xml" rel="self" type="application/rss+xml"/><item><title>Alimentació i resiliència ambiental per a desplegaments de camp</title><link>https://ca.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Informàtica edge"
+, "TI de camp"
+, "Sistemes d'alimentació"
+, "Maquinari"
+, "Recuperació davant desastres"
+, "Informàtica robusta"
+, "Xarxes"</category><guid>https://ca.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planifica l'alimentació i la protecció ambiental per a la informàtica edge de camp. Aprèn a dimensionar un SAI i a gestionar plaques solars, bateries, sincronització horària, classificacions de protecció, connexió a terra i sobretensions.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>Connectivitat i seguretat de les dades per a nodes edge desplegables</title><link>https://ca.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Computació edge"
+, "Informàtica de camp"
+, "Seguretat de xarxa"
+, "VPN"
+, "Xifratge"
+, "Seguretat física"
+, "Recuperació davant desastres"</category><guid>https://ca.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Connecta i protegeix nodes de computació edge al camp amb connexions mòbils, satèl·lit, LoRa, VPN, MFA, segmentació, registres, xifratge i resposta als robatoris.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item><item><title>Consells d’informàtica de camp: més enllà del mini centre de dades</title><link>https://ca.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Informàtica de camp"
+, "Informàtica a la perifèria"
+, "Operacions d’IT"
+, "Recuperació davant desastres"
+, "Maquinari"
+, "Bones pràctiques"</category><guid>https://ca.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia pràctica d’informàtica de camp sobre recanvis, documentació, ESD, microprogramari, mitjans d’arrencada, llicències, seguretat física, viatges i assegurances.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp"/></item></channel></rss>

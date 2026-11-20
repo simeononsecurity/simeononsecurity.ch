@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Atacs XSS on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Atacs XSS on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/atacs-xss/</link></image><link>https://ca.simeononsecurity.com/tags/atacs-xss/</link><description>Recent content in Atacs XSS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/atacs-xss/index.xml" rel="self" type="application/rss+xml"/><item><title>Funcions C# insegures: pràctiques de programació segura</title><link>https://ca.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Desenvolupament de programari"
+, "Programació en C#"
+, "Ciberseguretat"
+, "Seguretat del codi"
+, "Programació segura"
+, "Bones pràctiques de programació"
+, "Vulnerabilitats de programari"
+, "Criptografia"
+, "Desenvolupament web"
+, "Seguretat d’aplicacions"</category><guid>https://ca.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Alternatives segures a les funcions C# insegures. Aprèn a identificar els riscos per a la seguretat de la memòria i a substituir les operacions vulnerables.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>Dominar les proves de penetració: tècniques avançades i exemples reals</title><link>https://ca.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Proves de penetració"
+, "Hacking ètic"
+, "Seguretat de xarxes"
+, "Seguretat d'aplicacions web"
+, "Seguretat sense fil"
+, "Enginyeria social"
+, "Seguretat d'aplicacions mòbils"
+, "Seguretat al núvol"
+, "Desenvolupament professional"</category><guid>https://ca.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix tècniques, eines i exemples reals de proves de penetració per millorar les teves habilitats i la teva carrera en ciberseguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp"/></item></channel></rss>
