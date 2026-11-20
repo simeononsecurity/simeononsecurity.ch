@@ -207,6 +207,12 @@
   or reader-facing English that still needs translation. Record unresolved
   findings in the external batch report; do not treat a translated body as
   approval for untranslated reader-facing sections.
+  In the batch ledger, count a locale as complete only after checking the exact
+  candidate file with the strict gate and reading its reader-facing sections.
+  A filename, front matter, writer coverage claim, or translated opening does
+  not establish completion. If a locale file contains English placeholder
+  sections, keep the locale marked missing until the full translation passes
+  the candidate gate.
   The English-dominant title screen blocks descriptive English titles that
   differ from the source title. An unchanged source title stays a manual-review
   finding because official product or publication names can remain in English.
