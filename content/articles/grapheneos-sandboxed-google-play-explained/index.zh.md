@@ -1,12 +1,12 @@
 ---
 title: "GrapheneOS 的 Sandboxed Google Play 详解"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "了解 Sandboxed Google Play 在 GrapheneOS 上带来的变化、单独配置用户资料的适用场景，以及账号、通知和应用兼容性的关系。"
 genre: ["隐私", "移动安全", "开源"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "Android 隐私", "Android 安全", "应用沙盒", "Google 账号", "GrapheneOS 用户资料", "所有者资料", "用户资料", "工作资料", "应用兼容性", "推送通知", "Firebase Cloud Messaging", "应用权限", "Pixel 隐私", "Google Play 安装", "移动隐私", "GrapheneOS App Store"]
+tags: ["GrapheneOS", "Sandboxed Google Play", "Google Play 服务", "Google Play 商店", "Android 隐私", "Android 安全", "应用隔离", "Google 账号", "GrapheneOS 用户资料", "所有者资料", "用户资料", "工作资料", "应用兼容性", "推送通知", "Firebase Cloud Messaging", "应用权限", "Pixel 隐私", "Google Play 安装", "移动隐私", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
 coverAlt: "智能手机屏幕上的应用被放在不同的透明隔间中，其中包括一个彩色应用商店图标。"
 coverCaption: ""
@@ -49,7 +49,7 @@ GrapheneOS 增加了**兼容层**，使官方 Play 组件能在常规限制下�
 | 决定 | 要回答的问题 |
 |---|---|
 | **本地权限** | 此功能需要我的联系人、麦克风或位置信息吗？ |
-| **服务依赖** | 哪项功能依赖 Play services？ |
+| **服务依赖** | 哪项功能依赖 Google Play 服务？ |
 | **在线身份** | 我把此活动关联到哪个账号？ |
 
 **实际示例：** 购物账号中已经保存了你的配送地址。将应用移到另一个用户资料，不会改变零售商保存的地址。拒绝联系人访问权限，则是在回答手机上可用数据相关的另一个问题。
@@ -86,7 +86,7 @@ GrapheneOS 增加了**兼容层**，使官方 Play 组件能在常规限制下�
 
 ## 安装与账号
 
-打开内置的 **GrapheneOS App Store**，选择 **Google Play services** 并安装。依赖它的 Play Store 也会安装。让 App Store 管理这些组件。将 Play services 排除在电池优化之外，以确保推送通知等后台功能可靠运行。[官方安装说明](https://grapheneos.org/usage#sandboxed-google-play-installation)。
+打开内置的 **GrapheneOS App Store**，选择 **Google Play services** 并安装。依赖它的 Play Store 也会安装。让 App Store 管理这些组件。将 Google Play 服务 排除在电池优化之外，以确保推送通知等后台功能可靠运行。[官方安装说明](https://grapheneos.org/usage#sandboxed-google-play-installation)。
 
 对于不依赖账号的功能，**登录 Google 账号**是可选的。通过 Play Store 安装应用需要先登录。较早的安装还包含 Google Services Framework，项目建议保留它。请遵循当前安装说明，不要依赖旧的三组件清单。
 

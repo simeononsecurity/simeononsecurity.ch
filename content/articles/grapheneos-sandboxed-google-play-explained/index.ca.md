@@ -1,12 +1,12 @@
 ---
 title: "Sandboxed Google Play a GrapheneOS, explicat"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Descobreix què canvia Sandboxed Google Play a GrapheneOS, quan és útil un perfil separat i com es relacionen els comptes, les notificacions i la compatibilitat de les aplicacions."
 genre: ["Privadesa", "Seguretat mòbil", "Codi obert"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "privadesa d'Android", "seguretat d'Android", "sandbox d'aplicacions", "compte de Google", "perfils de GrapheneOS", "perfil del propietari", "perfils d'usuari", "perfil de feina", "compatibilitat d'aplicacions", "notificacions push", "Firebase Cloud Messaging", "permisos d'aplicacions", "privadesa de Pixel", "instal·lació de Google Play", "privadesa mòbil", "GrapheneOS App Store"]
+tags: ["GrapheneOS", "Sandboxed Google Play", "Google Play services", "Google Play Store", "privadesa d’Android", "seguretat d’Android", "aïllament d’aplicacions", "compte de Google", "perfils de GrapheneOS", "perfil del propietari", "perfils d’usuari", "perfil de feina", "compatibilitat d’aplicacions", "notificacions push", "Firebase Cloud Messaging", "permisos d’aplicacions", "privadesa de Pixel", "instal·lació de Google Play", "privadesa mòbil", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
 coverAlt: "La pantalla d'un telèfon intel·ligent mostra aplicacions en compartiments transparents separats, inclòs un símbol de colors d'una botiga d'aplicacions."
 coverCaption: ""
@@ -27,7 +27,7 @@ coverCaption: ""
 
 **Temps estimat:** entre 20 i 30 minuts per fer l'inventari inicial d'aplicacions i les comprovacions, més l'ús diari habitual per valorar la fiabilitat de les notificacions. **Dificultat:** inicial. Comença amb una aplicació representativa abans de reorganitzar el telèfon.
 
-## Què canvia amb el sandbox
+## Què canvia amb l’aïllament
 
 El **sandbox d'aplicacions** d'Android separa els recursos de les aplicacions mitjançant proteccions del sistema operatiu. Una aplicació no obté accés il·limitat als fitxers privats d'una altra. La protecció s'aplica tant al codi natiu com al que s'executa a l'entorn gestionat d'Android. [Documentació del sandbox d'aplicacions d'Android](https://source.android.com/docs/security/app-sandbox).
 
@@ -42,14 +42,14 @@ GrapheneOS afegeix una **capa de compatibilitat** perquè els components oficial
 
 **El sandbox i la privadesa del compte** responen preguntes diferents. El sandbox restringeix l'accés local. No esborra la informació que envies expressament a un servei en línia. Per exemple, iniciar sessió en una aplicació de compres continua identificant el teu compte davant de qui l'opera.
 
-## Separa tres decisions de privadesa
+## Separa tres àmbits de privadesa
 
 **L'accés local, l'ús de serveis i la identitat** són qüestions separades. Si una aplicació demana accés als contactes i iniciar sessió en un compte, revisa cada sol·licitud per separat:
 
 | Decisió | Pregunta |
 |---|---|
 | **Permís local** | Aquesta funció necessita els meus contactes, el micròfon o la ubicació? |
-| **Dependència d'un servei** | Quina funció depèn de Play services? |
+| **Dependència d'un servei** | Quina funció depèn de serveis de Google Play? |
 | **Identitat en línia** | Amb quin compte associo aquesta activitat? |
 
 **Exemple pràctic:** un compte de compres ja conté la teva adreça de lliurament. Moure'n l'aplicació a un altre perfil no canvia l'adreça que conserva el comerç. Denegar l'accés als contactes respon una altra pregunta sobre les dades disponibles al telèfon.
@@ -86,7 +86,7 @@ Per a **una aplicació de missatgeria d'ús diari**, decideix si és essencial r
 
 ## Instal·lació i comptes
 
-Obre la **GrapheneOS App Store** integrada, selecciona **Google Play services** i instal·la'l. També s'instal·larà la Play Store que en depèn. Deixa que l'App Store gestioni aquests components. Exclou Play services de l'optimització de la bateria perquè les funcions en segon pla, com les notificacions push, siguin fiables. [Instruccions oficials d'instal·lació](https://grapheneos.org/usage#sandboxed-google-play-installation).
+Obre la **GrapheneOS App Store** integrada, selecciona **Google Play services** i instal·la'l. També s'instal·larà la Play Store que en depèn. Deixa que l'App Store gestioni aquests components. Exclou serveis de Google Play de l'optimització de la bateria perquè les funcions en segon pla, com les notificacions push, siguin fiables. [Instruccions oficials d'instal·lació](https://grapheneos.org/usage#sandboxed-google-play-installation).
 
 **Iniciar sessió amb un compte de Google** és opcional per a les funcions que no depenen d'un compte. Per instal·lar aplicacions a través de la Play Store, cal iniciar sessió. Les instal·lacions antigues també inclouen Google Services Framework, que el projecte recomana conservar. Segueix les instruccions actuals, no una llista antiga de tres paquets.
 

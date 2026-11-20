@@ -1,12 +1,12 @@
 ---
 title: "GrapheneOSのSandboxed Google Playを解説"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "GrapheneOS上のSandboxed Google Playで何が変わるのか、別のプロファイルが役立つ場面、アカウント、通知、アプリ互換性の関係を説明します。"
 genre: ["プライバシー", "モバイルセキュリティ", "オープンソース"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "Androidのプライバシー", "Androidのセキュリティ", "アプリのサンドボックス", "Googleアカウント", "GrapheneOSのプロファイル", "オーナープロファイル", "ユーザープロファイル", "仕事用プロファイル", "アプリ互換性", "プッシュ通知", "Firebase Cloud Messaging", "アプリ権限", "Pixelのプライバシー", "Google Playのインストール", "モバイルプライバシー", "GrapheneOS App Store"]
+tags: ["GrapheneOS", "Sandboxed Google Play", "Google Play services", "Google Play Store", "Androidのプライバシー", "Androidのセキュリティ", "アプリの隔離", "Googleアカウント", "GrapheneOSのプロファイル", "オーナープロファイル", "ユーザープロファイル", "仕事用プロファイル", "アプリの互換性", "プッシュ通知", "Firebase Cloud Messaging", "アプリの権限", "Pixelのプライバシー", "Google Playのインストール", "モバイルプライバシー", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
 coverAlt: "スマートフォンの画面に、カラフルなアプリストアの記号を含む複数のアプリが透明な区画に分かれて表示されています。"
 coverCaption: ""
@@ -49,7 +49,7 @@ GrapheneOSは**互換レイヤー**を追加し、公式のPlayコンポーネ�
 | 判断 | 確認すること |
 |---|---|
 | **端末内の権限** | この機能に連絡先、マイク、位置情報が必要ですか？ |
-| **サービスへの依存** | どの機能がPlay servicesに依存していますか？ |
+| **サービスへの依存** | どの機能がGoogle Play 開発者サービスに依存していますか？ |
 | **オンラインの身元** | この操作をどのアカウントに関連付けますか？ |
 
 **例:** ショッピングアカウントには配送先住所が登録済みです。アプリを別のプロファイルへ移しても、販売者が保有する住所は変わりません。連絡先へのアクセスを拒否するのは、端末上のデータに関する別の判断です。
@@ -86,7 +86,7 @@ GrapheneOSは**互換レイヤー**を追加し、公式のPlayコンポーネ�
 
 ## インストールとアカウント
 
-内蔵の**GrapheneOS App Store**を開き、**Google Play services**を選んでインストールします。依存するPlay Storeもインストールされます。これらのコンポーネントはApp Storeに管理させます。プッシュ通知などのバックグラウンド機能を安定させるため、Play servicesをバッテリー最適化の対象外にします。[公式インストール手順](https://grapheneos.org/usage#sandboxed-google-play-installation)。
+内蔵の**GrapheneOS App Store**を開き、**Google Play services**を選んでインストールします。依存するPlay Storeもインストールされます。これらのコンポーネントはApp Storeに管理させます。プッシュ通知などのバックグラウンド機能を安定させるため、Google Play 開発者サービスをバッテリー最適化の対象外にします。[公式インストール手順](https://grapheneos.org/usage#sandboxed-google-play-installation)。
 
 アカウント依存のない機能なら、**Googleアカウントへのログイン**は任意です。Play Storeでアプリをインストールするにはログインが必要です。古いインストールにはGoogle Services Frameworkも含まれます。プロジェクトはこれを残すよう案内しています。3つのパッケージを並べた古いチェックリストではなく、現行の手順に従ってください。
 

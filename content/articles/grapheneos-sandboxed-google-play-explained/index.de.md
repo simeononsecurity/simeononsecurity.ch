@@ -1,12 +1,12 @@
 ---
 title: "Sandboxed Google Play auf GrapheneOS erklärt"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Erfahre, was Sandboxed Google Play auf GrapheneOS ändert, wann ein separates Profil hilft und wie Konten, Benachrichtigungen und App-Kompatibilität zusammenwirken."
-genre: ["Datenschutz", "Mobile Sicherheit", "Open Source"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Google Play-Dienste", "Google Play Store", "Android-Datenschutz", "Android-Sicherheit", "App-Sandbox", "Google-Konto", "GrapheneOS-Profile", "Besitzerprofil", "Benutzerprofile", "Arbeitsprofil", "App-Kompatibilität", "Push-Benachrichtigungen", "Firebase Cloud Messaging", "App-Berechtigungen", "Pixel-Datenschutz", "Google-Play-Installation", "mobiler Datenschutz", "GrapheneOS App Store"]
+genre: ["Datenschutz", "Mobile Sicherheit", "Open-Source-Software"]
+tags: ["GrapheneOS", "Sandboxed Google Play", "Google Play-Dienste", "Google Play Store", "Android-Datenschutz", "Android-Sicherheit", "App-Isolierung", "Google-Konto", "GrapheneOS-Profile", "Besitzerprofil", "Benutzerprofile", "Arbeitsprofil", "App-Kompatibilität", "Push-Benachrichtigungen", "Firebase Cloud Messaging", "App-Berechtigungen", "Pixel-Datenschutz", "Google-Play-Installation", "mobiler Datenschutz", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
 coverAlt: "Auf einem Smartphone-Bildschirm liegen Apps in getrennten transparenten Fächern, darunter ein buntes Symbol für einen App-Store."
 coverCaption: ""
@@ -27,7 +27,7 @@ Mit **Sandboxed Google Play** installierst du die offiziellen Google-Play-Kompon
 
 **Zeitaufwand:** 20 bis 30 Minuten für die erste App-Übersicht und die Prüfungen, danach normale tägliche Nutzung, um die Zuverlässigkeit von Benachrichtigungen zu beurteilen. **Schwierigkeitsgrad:** Anfänger. Prüfe erst eine repräsentative App, bevor du dein Telefon neu organisierst.
 
-## Was die Sandbox verändert
+## Was die Anwendungsisolierung verändert
 
 Die **Android-App-Sandbox** trennt App-Ressourcen mithilfe von Schutzfunktionen des Betriebssystems. Eine App erhält keinen uneingeschränkten Zugriff auf private Dateien einer anderen App. Der Schutz gilt für nativen Code ebenso wie für Code in der verwalteten Android-Laufzeitumgebung. [Dokumentation zur Android-App-Sandbox](https://source.android.com/docs/security/app-sandbox).
 
@@ -84,13 +84,13 @@ GrapheneOS ergänzt eine **Kompatibilitätsschicht**, damit offizielle Play-Komp
 
 Entscheide bei **einer täglich verwendeten Messaging-App**, ob du Nachrichten empfangen musst, während du das Besitzerprofil nutzt. Eine Profilanordnung, bei der du häufig Sitzungen beendest, steht einer dauerhaften Hintergrundzustellung entgegen. Wäge das ab, bevor du deinen wichtigsten Chatverlauf verschiebst.
 
-## Installation und Konten
+## Einrichtung und Konten
 
 Öffne den integrierten **GrapheneOS App Store**, wähle **Google Play-Dienste** und installiere sie. Dadurch wird auch der davon abhängige Play Store installiert. Lass den App Store diese Komponenten verwalten. Nimm Play-Dienste von der Akkuoptimierung aus, damit Hintergrundfunktionen wie Push-Benachrichtigungen zuverlässig arbeiten. [Offizielle Installationsanleitung](https://grapheneos.org/usage#sandboxed-google-play-installation).
 
 **Die Anmeldung mit einem Google-Konto** ist für Funktionen ohne Kontenabhängigkeit optional. Für App-Installationen über den Play Store musst du dich anmelden. Ältere Installationen enthalten auch Google Services Framework, das laut Projekt beibehalten werden soll. Folge der aktuellen Installationsanleitung statt einer alten Checkliste mit drei Paketen.
 
-## Teste zuerst eine App
+## Prüfe zuerst eine Anwendung
 
 Verwende eine **repräsentative App mit geringem Risiko**, um deine geplante Profilanordnung zu prüfen. Halte während des Tests deine bisherigen Methoden zur Kontowiederherstellung bereit.
 
@@ -126,7 +126,7 @@ Führe einen kurzen **persönlichen Abnahmetest** durch, bevor du dich auf eine 
 
 | Ablauf | Prüfung auf deinem Gerät |
 |---|---|
-| **Messaging** | Eine Nachricht bei gesperrtem Bildschirm empfangen |
+| **Nachrichten** | Eine Nachricht bei gesperrtem Bildschirm empfangen |
 | **Kontozugriff** | Anmelden und den erforderlichen zweiten Faktor bestätigen |
 | **Banking oder Zahlungen** | Die benötigte Funktion einschließlich möglicher Geräteprüfungen testen |
 | **Navigation** | Mit den gewählten Berechtigungen einen Standort erhalten |
@@ -139,13 +139,13 @@ Führe einen kurzen **persönlichen Abnahmetest** durch, bevor du dich auf eine 
 
 Teste bei **einer beruflichen Anmeldung** den vollständigen Anmeldeablauf und den erforderlichen zweiten Faktor. Prüfe bei einer Reise-App die Funktion, die du unterwegs nutzen willst. Wähle repräsentative Aktionen, ohne unnötige Käufe zu tätigen oder die Kontosicherheit zu ändern.
 
-## Erstelle deinen App-Plan
+## Erstelle deinen Anwendungsplan
 
 Erstelle diese **Übersicht** für deine fünf wichtigsten Apps. Die Zeilen sind Prüffragen, keine Kompatibilitätsaussagen zu bestimmten Produkten:
 
 | App-Kategorie | Festzuhaltende Anforderung | Zu sammelnder Nachweis |
 |---|---|---|
-| **Messaging** | Hintergrundzustellung und Profilwahl | Test bei gesperrtem Bildschirm und Hintergrundprofil |
+| **Nachrichten** | Hintergrundzustellung und Profilwahl | Test bei gesperrtem Bildschirm und Hintergrundprofil |
 | **Arbeitszugriff** | Erforderliche Anmeldung und zweiter Faktor | Erfolgreiche Anmeldung |
 | **Navigation** | Standortberechtigung und Offline-Bedarf | Eine Route unter den erwarteten Bedingungen |
 | **Banking** | Wesentliche unterstützte Vorgänge | Ergebnisse für alle benötigten Funktionen |

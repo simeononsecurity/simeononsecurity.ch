@@ -1,12 +1,12 @@
 ---
 title: "Sandboxed Google Play no GrapheneOS: explicado"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Saiba o que o Sandboxed Google Play muda no GrapheneOS, quando um perfil separado ajuda e como contas, notificações e compatibilidade de aplicativos se relacionam."
 genre: ["Privacidade", "Segurança móvel", "Código aberto"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "privacidade no Android", "segurança no Android", "sandbox de aplicativos", "conta Google", "perfis do GrapheneOS", "perfil do proprietário", "perfis de usuário", "perfil de trabalho", "compatibilidade de aplicativos", "notificações push", "Firebase Cloud Messaging", "permissões de aplicativos", "privacidade Pixel", "instalação do Google Play", "privacidade móvel", "GrapheneOS App Store"]
+tags: ["GrapheneOS", "Sandboxed Google Play", "Google Play services", "Google Play Store", "privacidade no Android", "segurança no Android", "isolamento de aplicativos", "conta Google", "perfis do GrapheneOS", "perfil do proprietário", "perfis de usuário", "perfil de trabalho", "compatibilidade de aplicativos", "notificações push", "Firebase Cloud Messaging", "permissões de aplicativos", "privacidade Pixel", "instalação do Google Play", "privacidade móvel", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
 coverAlt: "A tela de um smartphone exibe aplicativos em compartimentos transparentes separados, incluindo um símbolo colorido de loja de aplicativos."
 coverCaption: ""
@@ -27,7 +27,7 @@ O **Sandboxed Google Play** permite instalar os componentes oficiais do Google P
 
 **Tempo estimado:** 20 a 30 minutos para o inventário inicial de aplicativos e verificações, além do uso diário normal para avaliar a confiabilidade das notificações. **Dificuldade:** iniciante. Comece com um aplicativo representativo antes de reorganizar o telefone.
 
-## O que o sandbox muda
+## O que muda com o isolamento
 
 O **sandbox de aplicativos** do Android separa os recursos dos aplicativos com proteções do sistema operacional. Um aplicativo não recebe acesso irrestrito aos arquivos privados de outro. A proteção se aplica ao código nativo e ao código executado no ambiente gerenciado do Android. [Documentação do sandbox de aplicativos Android](https://source.android.com/docs/security/app-sandbox).
 
@@ -49,7 +49,7 @@ O GrapheneOS adiciona uma **camada de compatibilidade** para que os componentes 
 | Decisão | Pergunta |
 |---|---|
 | **Permissão local** | Esse recurso precisa dos meus contatos, microfone ou localização? |
-| **Dependência do serviço** | Qual recurso depende do Play services? |
+| **Dependência do serviço** | Qual recurso depende do serviços do Google Play? |
 | **Identidade online** | A qual conta estou associando essa atividade? |
 
 **Exemplo prático:** uma conta de compras já contém seu endereço de entrega. Mover o aplicativo para outro perfil não altera o endereço guardado pelo varejista. Recusar o acesso aos contatos responde a outra questão sobre os dados disponíveis no telefone.
@@ -86,7 +86,7 @@ Para **um aplicativo de mensagens usado diariamente**, decida se é essencial re
 
 ## Instalação e contas
 
-Abra a **GrapheneOS App Store** integrada, selecione **Google Play services** e instale-o. A Play Store dependente também será instalada. Deixe a App Store manter esses componentes. Exclua o Play services da otimização de bateria para que recursos em segundo plano, como notificações push, funcionem de forma confiável. [Instruções oficiais de instalação](https://grapheneos.org/usage#sandboxed-google-play-installation).
+Abra a **GrapheneOS App Store** integrada, selecione **Google Play services** e instale-o. A Play Store dependente também será instalada. Deixe a App Store manter esses componentes. Exclua o serviços do Google Play da otimização de bateria para que recursos em segundo plano, como notificações push, funcionem de forma confiável. [Instruções oficiais de instalação](https://grapheneos.org/usage#sandboxed-google-play-installation).
 
 **Entrar com uma conta Google** é opcional para recursos sem dependência de conta. Instalar aplicativos pela Play Store exige login. Instalações antigas também incluem o Google Services Framework, que o projeto recomenda manter. Siga as instruções atuais em vez de uma lista antiga de três pacotes.
 

@@ -1,12 +1,12 @@
 ---
 title: "Google Play con sandbox su GrapheneOS: spiegazione"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Scopri cosa cambia con Sandboxed Google Play su GrapheneOS, quando è utile un profilo separato e come si collegano account, notifiche e compatibilità delle app."
-genre: ["Privacy", "Sicurezza mobile", "Open source"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "privacy Android", "sicurezza Android", "sandbox delle app", "account Google", "profili GrapheneOS", "profilo proprietario", "profili utente", "profilo di lavoro", "compatibilità app", "notifiche push", "Firebase Cloud Messaging", "autorizzazioni app", "privacy Pixel", "installazione Google Play", "privacy mobile", "GrapheneOS App Store"]
+genre: ["Riservatezza", "Sicurezza mobile", "Software open source"]
+tags: ["GrapheneOS", "Sandboxed Google Play", "Google Play services", "Google Play Store", "riservatezza Android", "sicurezza Android", "isolamento delle app", "account Google", "profili GrapheneOS", "profilo proprietario", "profili utente", "profilo di lavoro", "compatibilità delle app", "notifiche push", "Firebase Cloud Messaging", "autorizzazioni delle app", "riservatezza Pixel", "installazione di Google Play", "riservatezza mobile", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
 coverAlt: "Lo schermo di uno smartphone mostra app in scomparti trasparenti separati, tra cui un simbolo colorato di un app store."
 coverCaption: ""
@@ -27,7 +27,7 @@ coverCaption: ""
 
 **Tempo stimato:** 20–30 minuti per l'inventario iniziale delle app e le verifiche, oltre al normale uso quotidiano per valutare l'affidabilità delle notifiche. **Difficoltà:** principiante. Prova prima un'app rappresentativa e poi riorganizza il telefono.
 
-## Cosa cambia con la sandbox
+## Cosa cambia con l’isolamento
 
 La **sandbox delle applicazioni** di Android separa le risorse delle app tramite le protezioni del sistema operativo. Un'app non ottiene accesso illimitato ai file privati di un'altra app. La protezione si applica sia al codice nativo sia a quello eseguito nell'ambiente gestito di Android. [Documentazione sulla sandbox delle applicazioni Android](https://source.android.com/docs/security/app-sandbox).
 
@@ -42,14 +42,14 @@ GrapheneOS aggiunge un **livello di compatibilità** che consente ai componenti 
 
 **Sandbox e privacy dell'account** rispondono a domande diverse. Una sandbox limita l'accesso locale. Non cancella le informazioni che invii consapevolmente a un servizio online. Per esempio, accedere a un'app di acquisti continua a identificare il tuo account presso il gestore del servizio.
 
-## Separa tre decisioni sulla privacy
+## Separa tre aspetti della riservatezza
 
 **Accesso locale, uso dei servizi e identità** sono questioni distinte. Se un'app richiede accesso ai contatti e l'accesso a un account, valuta ogni richiesta separatamente:
 
 | Decisione | Domanda |
 |---|---|
 | **Autorizzazione locale** | Questa funzione ha bisogno dei miei contatti, del microfono o della posizione? |
-| **Dipendenza da un servizio** | Quale funzione dipende da Play services? |
+| **Dipendenza da un servizio** | Quale funzione dipende da servizi Google Play? |
 | **Identità online** | A quale account collego questa attività? |
 
 **Esempio pratico:** un account di acquisti contiene già il tuo indirizzo di consegna. Spostare l'app in un altro profilo non cambia l'indirizzo conservato dal venditore. Negare l'accesso ai contatti riguarda invece i dati disponibili sul telefono.
@@ -86,11 +86,11 @@ Per **un'app di messaggistica quotidiana**, decidi se è essenziale ricevere mes
 
 ## Installazione e account
 
-Apri il **GrapheneOS App Store** integrato, seleziona **Google Play services** e installalo. Verrà installato anche il Play Store, che ne dipende. Lascia che sia l'App Store a gestire questi componenti. Escludi Play services dall'ottimizzazione della batteria per rendere affidabili le funzioni in background, come le notifiche push. [Istruzioni ufficiali di installazione](https://grapheneos.org/usage#sandboxed-google-play-installation).
+Apri il **GrapheneOS App Store** integrato, seleziona **Google Play services** e installalo. Verrà installato anche il Play Store, che ne dipende. Lascia che sia l'App Store a gestire questi componenti. Escludi servizi Google Play dall'ottimizzazione della batteria per rendere affidabili le funzioni in background, come le notifiche push. [Istruzioni ufficiali di installazione](https://grapheneos.org/usage#sandboxed-google-play-installation).
 
 **Accedere con un account Google** è facoltativo per le funzioni che non dipendono da un account. Per installare app tramite il Play Store devi accedere. Le installazioni meno recenti includono anche Google Services Framework, che il progetto consiglia di mantenere. Segui le istruzioni di installazione aggiornate invece di una vecchia lista di tre pacchetti.
 
-## Prova prima un'app
+## Prova prima un’applicazione
 
 Usa un'**app rappresentativa a basso rischio** per verificare la configurazione dei profili che hai scelto. Durante la prova, mantieni disponibili i metodi di recupero degli account esistenti.
 
@@ -139,7 +139,7 @@ Prima di affidarti a una nuova configurazione, esegui un breve **test personale 
 
 Per **un accesso di lavoro**, prova l'intera sequenza di login e il secondo fattore richiesto. Per un'app di viaggio, prova la funzione che prevedi di usare fuori casa. Scegli azioni rappresentative senza effettuare acquisti superflui né modificare la sicurezza dell'account.
 
-## Prepara il piano delle app
+## Prepara l’inventario delle applicazioni
 
 Completa questo **inventario** per le tue cinque app più importanti. Le righe sono suggerimenti, non affermazioni di compatibilità su prodotti specifici:
 

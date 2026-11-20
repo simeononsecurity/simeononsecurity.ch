@@ -1,12 +1,12 @@
 ---
 title: "Sandboxed Google Play na GrapheneOS: wyjaśnienie"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Dowiedz się, co zmienia Sandboxed Google Play w GrapheneOS, kiedy przydaje się osobny profil oraz jak współdziałają konta, powiadomienia i zgodność aplikacji."
 genre: ["Prywatność", "Bezpieczeństwo urządzeń mobilnych", "Oprogramowanie open source"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Usługi Google Play", "Sklep Google Play", "prywatność Androida", "bezpieczeństwo Androida", "piaskownica aplikacji", "konto Google", "profile GrapheneOS", "profil właściciela", "profile użytkowników", "profil służbowy", "zgodność aplikacji", "powiadomienia push", "Firebase Cloud Messaging", "uprawnienia aplikacji", "prywatność Pixel", "instalacja Google Play", "prywatność mobilna", "GrapheneOS App Store"]
+tags: ["GrapheneOS", "Sandboxed Google Play", "Usługi Google Play", "Sklep Google Play", "prywatność Androida", "bezpieczeństwo Androida", "izolacja aplikacji", "konto Google", "profile GrapheneOS", "profil właściciela", "profile użytkowników", "profil służbowy", "zgodność aplikacji", "powiadomienia push", "Firebase Cloud Messaging", "uprawnienia aplikacji", "prywatność Pixel", "instalacja Google Play", "prywatność mobilna", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
 coverAlt: "Na ekranie smartfona aplikacje znajdują się w osobnych przezroczystych przegrodach, w tym kolorowy symbol sklepu z aplikacjami."
 coverCaption: ""
@@ -49,7 +49,7 @@ GrapheneOS dodaje **warstwę zgodności**, dzięki której oficjalne komponenty 
 | Decyzja | Pytanie |
 |---|---|
 | **Uprawnienie lokalne** | Czy ta funkcja potrzebuje moich kontaktów, mikrofonu lub lokalizacji? |
-| **Zależność od usługi** | Która funkcja korzysta z Play services? |
+| **Zależność od usługi** | Która funkcja korzysta z Usługi Google Play? |
 | **Tożsamość online** | Z którym kontem łączę tę aktywność? |
 
 **Przykład:** konto w sklepie zawiera już Twój adres dostawy. Przeniesienie aplikacji do innego profilu nie zmieni adresu przechowywanego przez sklep. Odmowa dostępu do kontaktów odpowiada na inne pytanie o dane dostępne na telefonie.
@@ -86,7 +86,7 @@ W przypadku **codziennej aplikacji do wiadomości** zdecyduj, czy odbieranie wia
 
 ## Instalacja i konta
 
-Otwórz wbudowany **GrapheneOS App Store**, wybierz **Google Play services** i zainstaluj. Zostanie też zainstalowany zależny od nich Sklep Play. Pozwól App Store zarządzać tymi komponentami. Aby zapewnić niezawodne funkcje działające w tle, takie jak powiadomienia push, wyłącz optymalizację baterii dla Play services. [Oficjalne instrukcje instalacji](https://grapheneos.org/usage#sandboxed-google-play-installation).
+Otwórz wbudowany **GrapheneOS App Store**, wybierz **Google Play services** i zainstaluj. Zostanie też zainstalowany zależny od nich Sklep Play. Pozwól App Store zarządzać tymi komponentami. Aby zapewnić niezawodne funkcje działające w tle, takie jak powiadomienia push, wyłącz optymalizację baterii dla Usługi Google Play. [Oficjalne instrukcje instalacji](https://grapheneos.org/usage#sandboxed-google-play-installation).
 
 **Logowanie na konto Google** jest opcjonalne, jeśli dana funkcja nie wymaga konta. Instalowanie aplikacji przez Sklep Play wymaga zalogowania. Starsze instalacje zawierają również Google Services Framework, który według projektu należy zachować. Zamiast starej listy trzech pakietów stosuj aktualne instrukcje instalacji.
 
@@ -139,7 +139,7 @@ Zanim zaczniesz polegać na nowej konfiguracji, przeprowadź krótką **osobist�
 
 W przypadku **logowania służbowego** przetestuj cały proces logowania i wymagany drugi składnik. W aplikacji podróżnej sprawdź funkcję, z której zamierzasz korzystać poza domem. Wybieraj reprezentatywne działania, które nie wymagają zbędnych zakupów ani zmian zabezpieczeń konta.
 
-## Przygotuj plan aplikacji
+## Opracuj listę aplikacji
 
 Wypełnij tę **listę** dla pięciu najważniejszych aplikacji. Poniższe wiersze zawierają podpowiedzi, a nie twierdzenia o zgodności konkretnych produktów:
 

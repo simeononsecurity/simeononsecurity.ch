@@ -1,12 +1,12 @@
 ---
 title: "Sandboxed Google Play en GrapheneOS, explicado"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Descubra qué cambia Sandboxed Google Play en GrapheneOS, cuándo conviene usar un perfil separado y cómo se relacionan las cuentas, las notificaciones y la compatibilidad de las aplicaciones."
 genre: ["Privacidad", "Seguridad móvil", "Código abierto"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "privacidad de Android", "seguridad de Android", "aislamiento de aplicaciones", "cuenta de Google", "perfiles de GrapheneOS", "perfil del propietario", "perfiles de usuario", "perfil de trabajo", "compatibilidad de aplicaciones", "notificaciones push", "Firebase Cloud Messaging", "permisos de aplicaciones", "privacidad de Pixel", "instalación de Google Play", "privacidad móvil", "GrapheneOS App Store"]
+tags: ["GrapheneOS", "Sandboxed Google Play", "Google Play services", "Google Play Store", "privacidad de Android", "seguridad de Android", "aislamiento de aplicaciones", "cuenta de Google", "perfiles de GrapheneOS", "perfil del propietario", "perfiles de usuario", "perfil de trabajo", "compatibilidad de aplicaciones", "notificaciones push", "Firebase Cloud Messaging", "permisos de aplicaciones", "privacidad de Pixel", "instalación de Google Play", "privacidad móvil", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
 coverAlt: "La pantalla de un teléfono muestra aplicaciones en compartimentos transparentes separados, incluido un símbolo colorido de una tienda de aplicaciones."
 coverCaption: ""
@@ -49,7 +49,7 @@ GrapheneOS añade una **capa de compatibilidad** para que los componentes oficia
 | Decisión | Pregunta |
 |---|---|
 | **Permiso local** | ¿Esta función necesita mis contactos, micrófono o ubicación? |
-| **Dependencia de un servicio** | ¿Qué función depende de Play services? |
+| **Dependencia de un servicio** | ¿Qué función depende de servicios de Google Play? |
 | **Identidad en línea** | ¿A qué cuenta estoy asociando esta actividad? |
 
 **Ejemplo práctico:** una cuenta de compras ya contiene su dirección de entrega. Mover su aplicación a otro perfil no cambia la dirección que conserva el comercio. Rechazar el acceso a los contactos responde a otra pregunta, sobre los datos disponibles en el teléfono.
@@ -86,7 +86,7 @@ Para **una aplicación de mensajería de uso diario**, decida si es esencial rec
 
 ## Instalación y cuentas
 
-Abra la **GrapheneOS App Store** integrada, seleccione **Google Play services** e instálelo. También se instalará Play Store, que depende de ese componente. Deje que App Store mantenga estos componentes. Excluya Play services de la optimización de batería para que funciones en segundo plano, como las notificaciones push, sean fiables. [Instrucciones oficiales de instalación](https://grapheneos.org/usage#sandboxed-google-play-installation).
+Abra la **GrapheneOS App Store** integrada, seleccione **Google Play services** e instálelo. También se instalará Play Store, que depende de ese componente. Deje que App Store mantenga estos componentes. Excluya servicios de Google Play de la optimización de batería para que funciones en segundo plano, como las notificaciones push, sean fiables. [Instrucciones oficiales de instalación](https://grapheneos.org/usage#sandboxed-google-play-installation).
 
 **Iniciar sesión con una cuenta de Google** es opcional para funciones que no dependen de una cuenta. Para instalar aplicaciones desde Play Store sí se requiere iniciar sesión. Las instalaciones antiguas también incluyen Google Services Framework, que el proyecto recomienda conservar. Siga las instrucciones actuales en vez de una lista antigua de tres paquetes.
 
@@ -139,7 +139,7 @@ Antes de depender de una nueva configuración, haga una breve **prueba personal 
 
 Para **un inicio de sesión de trabajo**, pruebe toda la secuencia y el segundo factor requerido. En una aplicación de viajes, pruebe la función que espera usar fuera de casa. Elija acciones representativas sin compras innecesarias ni cambios en la seguridad de la cuenta.
 
-## Prepare su plan de aplicaciones
+## Organice su inventario de aplicaciones
 
 Complete este **inventario** para sus cinco aplicaciones más importantes. Las filas son indicaciones, no afirmaciones de compatibilidad de productos concretos:
 

@@ -1,12 +1,12 @@
 ---
 title: "Sandboxed Google Play pe GrapheneOS, explicat"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Află ce schimbă Sandboxed Google Play pe GrapheneOS, când ajută un profil separat și cum se leagă conturile, notificările și compatibilitatea aplicațiilor."
 genre: ["Confidențialitate", "Securitate mobilă", "Sursă deschisă"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "confidențialitate Android", "securitate Android", "sandbox pentru aplicații", "cont Google", "profiluri GrapheneOS", "profilul proprietarului", "profiluri de utilizator", "profil de lucru", "compatibilitatea aplicațiilor", "notificări push", "Firebase Cloud Messaging", "permisiuni aplicații", "confidențialitate Pixel", "instalare Google Play", "confidențialitate mobilă", "GrapheneOS App Store"]
+tags: ["GrapheneOS", "Sandboxed Google Play", "Google Play services", "Google Play Store", "confidențialitate Android", "securitate Android", "izolarea aplicațiilor", "cont Google", "profiluri GrapheneOS", "profilul proprietarului", "profiluri de utilizator", "profil de lucru", "compatibilitatea aplicațiilor", "notificări push", "Firebase Cloud Messaging", "permisiuni pentru aplicații", "confidențialitate Pixel", "instalare Google Play", "confidențialitate mobilă", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
 coverAlt: "Ecranul unui smartphone afișează aplicații în compartimente transparente separate, inclusiv simbolul colorat al unui magazin de aplicații."
 coverCaption: ""
@@ -49,7 +49,7 @@ GrapheneOS adaugă un **strat de compatibilitate**, astfel încât componentele 
 | Decizie | Întrebare |
 |---|---|
 | **Permisiune locală** | Are această funcție nevoie de contactele, microfonul sau locația mea? |
-| **Dependență de un serviciu** | Ce funcție depinde de Play services? |
+| **Dependență de un serviciu** | Ce funcție depinde de serviciile Google Play? |
 | **Identitate online** | Cu ce cont asociez această activitate? |
 
 **Exemplu practic:** un cont de cumpărături conține deja adresa ta de livrare. Mutarea aplicației într-un alt profil nu schimbă adresa păstrată de comerciant. Refuzul accesului la contacte răspunde la altă întrebare despre datele disponibile pe telefon.
@@ -86,7 +86,7 @@ Pentru **o aplicație de mesagerie folosită zilnic**, decide dacă este esenți
 
 ## Instalare și conturi
 
-Deschide **GrapheneOS App Store** integrat, selectează **Google Play services** și instalează-l. Se instalează și Play Store, care depinde de el. Lasă App Store să gestioneze aceste componente. Exclude Play services de la optimizarea bateriei pentru a asigura funcții de fundal fiabile, precum notificările push. [Instrucțiuni oficiale de instalare](https://grapheneos.org/usage#sandboxed-google-play-installation).
+Deschide **GrapheneOS App Store** integrat, selectează **Google Play services** și instalează-l. Se instalează și Play Store, care depinde de el. Lasă App Store să gestioneze aceste componente. Exclude serviciile Google Play de la optimizarea bateriei pentru a asigura funcții de fundal fiabile, precum notificările push. [Instrucțiuni oficiale de instalare](https://grapheneos.org/usage#sandboxed-google-play-installation).
 
 **Autentificarea cu un cont Google** este opțională pentru funcțiile care nu depind de un cont. Instalarea aplicațiilor prin Play Store necesită autentificare. Instalările mai vechi includ și Google Services Framework, pe care proiectul recomandă să-l păstrezi. Urmează instrucțiunile actuale în locul unei liste vechi cu trei pachete.
 

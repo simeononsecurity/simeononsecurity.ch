@@ -1,12 +1,12 @@
 ---
 title: "شرح Google Play المعزول على GrapheneOS"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "تعرّف على التغييرات التي يجلبها Sandboxed Google Play إلى GrapheneOS، ومتى يفيد الملف الشخصي المنفصل، وكيف ترتبط الحسابات والإشعارات وتوافق التطبيقات."
 genre: ["الخصوصية", "أمن الأجهزة المحمولة", "مفتوح المصدر"]
-tags: ["GrapheneOS", "sandboxed Google Play", "خدمات Google Play", "متجر Google Play", "خصوصية Android", "أمن Android", "عزل التطبيقات", "حساب Google", "ملفات GrapheneOS", "ملف المالك", "ملفات المستخدمين", "ملف العمل", "توافق التطبيقات", "إشعارات الدفع", "Firebase Cloud Messaging", "أذونات التطبيقات", "خصوصية Pixel", "تثبيت Google Play", "خصوصية الهاتف المحمول", "GrapheneOS App Store"]
+tags: ["GrapheneOS", "Sandboxed Google Play", "Google Play services", "Google Play Store", "خصوصية Android", "أمان Android", "عزل التطبيقات", "حساب Google", "ملفات GrapheneOS", "ملف المالك", "ملفات المستخدمين", "ملف العمل", "توافق التطبيقات", "إشعارات الدفع", "Firebase Cloud Messaging", "أذونات التطبيقات", "خصوصية Pixel", "تثبيت Google Play", "خصوصية الأجهزة المحمولة", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
 coverAlt: "تعرض شاشة هاتف ذكي تطبيقات في حجرات شفافة منفصلة، من بينها رمز ملوّن لمتجر تطبيقات."
 coverCaption: ""
@@ -49,7 +49,7 @@ coverCaption: ""
 | القرار | السؤال |
 |---|---|
 | **إذن محلي** | هل تحتاج هذه الميزة إلى جهات اتصالي أو الميكروفون أو الموقع؟ |
-| **الاعتماد على خدمة** | ما الميزة التي تعتمد على Play services؟ |
+| **الاعتماد على خدمة** | ما الميزة التي تعتمد على خدمات Play؟ |
 | **الهوية عبر الإنترنت** | ما الحساب الذي أربط به هذا النشاط؟ |
 
 **مثال عملي:** يحتوي حساب التسوّق على عنوان التوصيل لديك بالفعل. لا يؤدي نقل التطبيق إلى ملف شخصي آخر إلى تغيير العنوان لدى المتجر. أما رفض الوصول إلى جهات الاتصال فيتعلق بالبيانات المتاحة على هاتفك.
@@ -86,7 +86,7 @@ coverCaption: ""
 
 ## التثبيت والحسابات
 
-افتح **GrapheneOS App Store** المضمّن، واختر **Google Play services** وثبّتها. يثبّت ذلك أيضًا Play Store الذي يعتمد عليها. دع App Store يدير هذه المكوّنات. استثنِ Play services من تحسين البطارية لتحسين موثوقية الميزات في الخلفية مثل إشعارات الدفع. [تعليمات التثبيت الرسمية](https://grapheneos.org/usage#sandboxed-google-play-installation).
+افتح **GrapheneOS App Store** المضمّن، واختر **Google Play services** وثبّتها. يثبّت ذلك أيضًا Play Store الذي يعتمد عليها. دع App Store يدير هذه المكوّنات. استثنِ خدمات Play من تحسين البطارية لتحسين موثوقية الميزات في الخلفية مثل إشعارات الدفع. [تعليمات التثبيت الرسمية](https://grapheneos.org/usage#sandboxed-google-play-installation).
 
 **تسجيل الدخول بحساب Google** اختياري للوظائف التي لا تعتمد على حساب. يتطلب تثبيت التطبيقات عبر Play Store تسجيل الدخول. تتضمن عمليات التثبيت القديمة أيضًا Google Services Framework، ويوصي المشروع بالإبقاء عليه. اتبع تعليمات التثبيت الحالية بدل قائمة قديمة من ثلاث حزم.
 

@@ -1,12 +1,12 @@
 ---
 title: "Sandboxed Google Play op GrapheneOS uitgelegd"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Lees wat Sandboxed Google Play op GrapheneOS verandert, wanneer een apart profiel helpt en hoe accounts, meldingen en appcompatibiliteit samenhangen."
-genre: ["Privacy", "Mobiele beveiliging", "Open source"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Google Play-services", "Google Play Store", "Android-privacy", "Android-beveiliging", "app-sandbox", "Google-account", "GrapheneOS-profielen", "eigenaarprofiel", "gebruikersprofielen", "werkprofiel", "appcompatibiliteit", "pushmeldingen", "Firebase Cloud Messaging", "appmachtigingen", "Pixel-privacy", "Google Play-installatie", "mobiele privacy", "GrapheneOS App Store"]
+genre: ["Gegevensbescherming", "Mobiele beveiliging", "Openbronsoftware"]
+tags: ["GrapheneOS", "Sandboxed Google Play", "Google Play-services", "Google Play Store", "Android-privacy", "Android-beveiliging", "app-isolatie", "Google-account", "GrapheneOS-profielen", "eigenaarprofiel", "gebruikersprofielen", "werkprofiel", "appcompatibiliteit", "pushmeldingen", "Firebase Cloud Messaging", "appmachtigingen", "Pixel-privacy", "Google Play-installatie", "mobiele privacy", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
 coverAlt: "Op een smartphonescherm staan apps in afzonderlijke transparante vakken, waaronder een kleurrijk appwinkelsymbool."
 coverCaption: ""
@@ -27,7 +27,7 @@ coverCaption: ""
 
 **Geschatte tijd:** 20 tot 30 minuten voor de eerste appinventarisatie en controles, plus normaal dagelijks gebruik om de betrouwbaarheid van meldingen te beoordelen. **Niveau:** beginner. Begin met één representatieve app voordat je de indeling van je telefoon wijzigt.
 
-## Wat de sandbox verandert
+## Wat applicatie-isolatie verandert
 
 De **applicatiesandbox** van Android scheidt appbronnen met beveiligingen van het besturingssysteem. Een app krijgt geen onbeperkte toegang tot privébestanden van een andere app. De beveiliging geldt voor native code en voor code in de beheerde Android-runtime. [Documentatie over de Android-applicatiesandbox](https://source.android.com/docs/security/app-sandbox).
 
@@ -84,13 +84,13 @@ GrapheneOS voegt een **compatibiliteitslaag** toe, zodat de officiële Play-onde
 
 Bepaal voor **een dagelijks gebruikte berichtenapp** of je berichten moet ontvangen terwijl je Eigenaar gebruikt. Een profielindeling waarbij je vaak sessies beëindigt, past niet bij voortdurende bezorging op de achtergrond. Maak deze afweging voordat je je belangrijkste chatgeschiedenis verplaatst.
 
-## Installatie en accounts
+## Installeren en aanmelden
 
 Open de ingebouwde **GrapheneOS App Store**, kies **Google Play-services** en installeer deze. De afhankelijke Play Store wordt ook geïnstalleerd. Laat de App Store deze onderdelen beheren. Geef Play-services een uitzondering voor batterijoptimalisatie, zodat functies op de achtergrond zoals pushmeldingen betrouwbaar werken. [Officiële installatie-instructies](https://grapheneos.org/usage#sandboxed-google-play-installation).
 
 **Aanmelden met een Google-account** is optioneel voor functies zonder accountafhankelijkheid. Voor apps installeren via de Play Store moet je je aanmelden. Oudere installaties bevatten ook Google Services Framework, dat volgens het project behouden moet blijven. Volg de actuele installatie-instructies in plaats van een oude checklist met drie pakketten.
 
-## Test eerst één app
+## Controleer eerst één toepassing
 
 Gebruik een **representatieve app met weinig risico** om je beoogde profielindeling te controleren. Houd bestaande accountherstelmethoden tijdens de test beschikbaar.
 

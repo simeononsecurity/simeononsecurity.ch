@@ -1,12 +1,12 @@
 ---
 title: "Sandboxed Google Play sur GrapheneOS expliqué"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Découvrez ce que change Sandboxed Google Play sur GrapheneOS, quand un profil distinct est utile et comment s’articulent comptes, notifications et compatibilité des applications."
-genre: ["Confidentialité", "Sécurité mobile", "Open source"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "confidentialité Android", "sécurité Android", "bac à sable d’application", "compte Google", "profils GrapheneOS", "profil propriétaire", "profils utilisateur", "profil professionnel", "compatibilité des applications", "notifications push", "Firebase Cloud Messaging", "autorisations d’application", "confidentialité Pixel", "installation de Google Play", "confidentialité mobile", "GrapheneOS App Store"]
+genre: ["Confidentialité", "Sécurité mobile", "Logiciel libre"]
+tags: ["GrapheneOS", "Sandboxed Google Play", "Google Play services", "Google Play Store", "confidentialité Android", "sécurité Android", "bac à sable des applications", "compte Google", "profils GrapheneOS", "profil propriétaire", "profils utilisateur", "profil professionnel", "compatibilité des applications", "notifications push", "Firebase Cloud Messaging", "autorisations des applications", "confidentialité Pixel", "installation de Google Play", "confidentialité mobile", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
 coverAlt: "L’écran d’un smartphone affiche des applications dans des compartiments transparents distincts, dont un symbole coloré de boutique d’applications."
 coverCaption: ""
@@ -49,7 +49,7 @@ GrapheneOS ajoute une **couche de compatibilité** pour que les composants offic
 | Décision | Question |
 |---|---|
 | **Autorisation locale** | Cette fonction a-t-elle besoin de mes contacts, de mon microphone ou de ma position ? |
-| **Dépendance à un service** | Quelle fonction dépend de Play services ? |
+| **Dépendance à un service** | Quelle fonction dépend de services Google Play ? |
 | **Identité en ligne** | À quel compte associer cette activité ? |
 
 **Exemple concret :** un compte d’achat contient déjà votre adresse de livraison. Déplacer l’application dans un autre profil ne change pas l’adresse détenue par le commerçant. Refuser l’accès aux contacts concerne une autre question, celle des données présentes sur votre téléphone.
@@ -84,9 +84,9 @@ GrapheneOS ajoute une **couche de compatibilité** pour que les composants offic
 
 Pour **une application de messagerie utilisée chaque jour**, déterminez s’il est essentiel de recevoir des messages pendant l’utilisation du profil Propriétaire. Une configuration qui exige de terminer souvent les sessions ne convient pas à la réception continue en arrière-plan. Faites ce choix avant de déplacer votre historique de conversations principal.
 
-## Installation et comptes
+## Configuration et comptes
 
-Ouvrez le **GrapheneOS App Store** intégré, sélectionnez **Google Play services** et installez-le. Le Play Store qui en dépend sera également installé. Laissez l’App Store gérer ces composants. Exemptez Play services de l’optimisation de la batterie pour assurer la fiabilité des fonctions en arrière-plan, comme les notifications push. [Instructions officielles d’installation](https://grapheneos.org/usage#sandboxed-google-play-installation).
+Ouvrez le **GrapheneOS App Store** intégré, sélectionnez **Google Play services** et installez-le. Le Play Store qui en dépend sera également installé. Laissez l’App Store gérer ces composants. Exemptez services Google Play de l’optimisation de la batterie pour assurer la fiabilité des fonctions en arrière-plan, comme les notifications push. [Instructions officielles d’installation](https://grapheneos.org/usage#sandboxed-google-play-installation).
 
 **La connexion à un compte Google** est facultative pour les fonctions qui ne dépendent pas d’un compte. L’installation d’applications par le Play Store exige une connexion. Les anciennes installations comprennent aussi Google Services Framework, que le projet recommande de conserver. Suivez les instructions actuelles au lieu d’une ancienne liste de trois paquets.
 
@@ -103,7 +103,7 @@ Utilisez une **application représentative à faible risque** pour vérifier la 
 
 **Résultat attendu :** une description reproductible, par exemple « un message test est arrivé, écran verrouillé, dans le profil actif ». Évitez de noter seulement « fonctionne », car cela ne précise ni la fonction ni les conditions testées.
 
-## Diagnostiquer l’absence de notifications
+## Repérer l’absence d’alertes
 
 Les **notifications push** dépendent de l’implémentation de l’application. Certaines maintiennent leur propre connexion en arrière-plan. D’autres s’appuient sur Firebase Cloud Messaging de Google. Le fait qu’une application s’ouvre ne prouve pas que ses notifications arrivent après le verrouillage du téléphone. [FAQ GrapheneOS sur les notifications](https://grapheneos.org/faq#notifications).
 
@@ -139,7 +139,7 @@ Avant de vous fier à une nouvelle configuration, effectuez un court **test d’
 
 Pour **une connexion professionnelle**, testez toute la séquence de connexion et le second facteur requis. Pour une application de voyage, testez la fonction dont vous aurez besoin hors de chez vous. Choisissez des actions représentatives sans faire d’achats inutiles ni modifier la sécurité du compte.
 
-## Préparez votre plan d’applications
+## Préparez votre inventaire d’applications
 
 Complétez cet **inventaire** pour vos cinq applications principales. Les lignes ci-dessous sont des pistes, pas des affirmations de compatibilité pour des produits précis :
 
