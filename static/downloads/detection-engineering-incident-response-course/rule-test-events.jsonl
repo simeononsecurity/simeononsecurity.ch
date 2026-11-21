@@ -1,5 +1,0 @@
-{"case":"positive-word","ParentImage":"C:\\Program Files\\Microsoft Office\\WINWORD.EXE","Image":"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe","CommandLine":"powershell.exe -EncodedCommand SQBFAFgA","expected":true}
-{"case":"positive-excel","ParentImage":"C:\\Program Files\\Microsoft Office\\EXCEL.EXE","Image":"C:\\Program Files\\PowerShell\\7\\pwsh.exe","CommandLine":"pwsh.exe -enc SQBFAFgA","expected":true}
-{"case":"negative-inventory","ParentImage":"C:\\Program Files\\Company\\software-center.exe","Image":"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe","CommandLine":"powershell.exe -File inventory.ps1","expected":false}
-{"case":"negative-pdf","ParentImage":"C:\\Program Files\\Microsoft Office\\WINWORD.EXE","Image":"C:\\Program Files\\Reader\\AcroRd32.exe","CommandLine":"AcroRd32.exe report.pdf","expected":false}
-{"case":"boundary-no-encoded-flag","ParentImage":"C:\\Program Files\\Microsoft Office\\WINWORD.EXE","Image":"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe","CommandLine":"powershell.exe -NoProfile -File approved.ps1","expected":false}
