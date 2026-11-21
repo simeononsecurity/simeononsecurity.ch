@@ -1,12 +1,12 @@
 ---
 title: "GPU-benchmarks van Llama 3.1 8B en Qwen3.8 27B op Vast.ai"
 date: 2026-10-02
-lastmod: 2026-10-10
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Gemeten Ollama-benchmarks van Llama 3.1 8B en Qwen3.8 27B op belangrijke Vast.ai-GPU's. Vergelijk decodeersnelheid, lange context, huurkosten, self-hosting, API-tegoed en abonnementen."
-genre: ["Lokale AI", "GPU-benchmarking", "Self-hosted AI", "Cloud computing", "Kunstmatige intelligentie", "AI-economie"]
-tags: ["Llama 3.1 8B", "llama3.1:8b", "Qwen3.8 27B", "Qwen3.8:27b", "Vast.ai", "GPU-benchmark", "Ollama", "H100", "RTX PRO 5000", "RTX 6000 Ada", "RTX PRO 6000 Max-Q", "A100", "CMP 170HX", "lokale LLM", "lange context", "GPU-huur", "self-hosted AI", "abliterated modellen", "ongecensureerde modellen", "API-tegoed", "AI-abonnement", "Q4_K_M", "tokens per seconde"]
+genre: ["Lokale AI", "GPU-benchmarks", "Zelfgehoste AI", "Cloudcomputing", "Kunstmatige intelligentie", "AI-economie"]
+tags: ["Llama 3.1 8B", "llama3.1:8b", "Qwen3.8 27B", "Qwen3.8:27b", "Vast.ai", "GPU-benchmark", "Ollama", "H100", "RTX PRO 5000", "RTX 6000 Ada", "RTX PRO 6000 Max-Q", "A100", "CMP 170HX", "lokale LLM", "lange context", "GPU-verhuur", "zelfgehoste AI", "abliterated modellen", "ongecensureerde modellen", "API-tegoed", "AI-abonnement", "Q4_K_M", "tokens per seconde"]
 cover: "/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp"
 coverAlt: "Hightech werkplek met een grafische kaart en schermen met lokale AI-benchmarkresultaten"
 coverCaption: ""
@@ -84,7 +84,7 @@ De twee H100-regels kwamen uit afzonderlijke geldige instanties van dezelfde GPU
 
 De 32k-resultaten van de A100 en RTX 5060 Ti zijn te laag voor een vergelijkbare GPU-run. De RTX 5060 Ti-host time-outte ook tijdens de tweede 128k-proef. Behandel deze host als ongeschikt voor een geldige GPU-vergelijking, niet als een echte ranglijstscore.
 
-| Contextdoel | Status |
+| Contextdoel | Uitkomst |
 |---|---|
 | **32k** | Voltooid op alle 10 hosts |
 | **64k** | Voltooid op alle 10 hosts |
@@ -109,7 +109,7 @@ De eerdere Qwen-run corrigeerde de echte promptaantallen naar ongeveer **32.770*
 
 **De H100 SXM leidde de korte-context-run met 134,4 decodeertokens per seconde.** De RTX PRO 5000 volgde met 113,9 tokens per seconde en kostte minder dan de helft per uur.
 
-| Rang | GPU | VRAM | Decode tok/s | Prefill tok/s | Huurprijs |
+| Rang | GPU | VRAM | Decodering tok/s | Promptverwerking tok/s | Huurprijs |
 |---:|---|---:|---:|---:|---:|
 | 1 | **H100 SXM** | 79.6 GB | **134.4** | 89,974 | $2.693/hr |
 | 2 | **RTX PRO 5000** | 47.8 GB | **113.9** | 68,726 | $1.005/hr |
@@ -126,7 +126,7 @@ Op deze lengte haalde de RTX PRO 5000 ongeveer 84,7% van de H100-snelheid tegen 
 
 **De rangorde bleef stabiel bij middelgrote context.** De H100 SXM daalde naar 120,0 tokens per seconde. De RTX PRO 5000 haalde 105,0 en de RTX 6000 Ada 75,7.
 
-| Rang | GPU | VRAM | Decode tok/s | Prefill tok/s | Huurprijs |
+| Rang | GPU | VRAM | Decodering tok/s | Promptverwerking tok/s | Huurprijs |
 |---:|---|---:|---:|---:|---:|
 | 1 | **H100 SXM** | 79.6 GB | **120.0** | 139,748 | $2.693/hr |
 | 2 | **RTX PRO 5000** | 47.8 GB | **105.0** | 103,707 | $1.005/hr |
@@ -143,7 +143,7 @@ De RTX PRO 5000 bleef de aantrekkelijkste huurkaart. Hij was 12,5% langzamer dan
 
 **Langere prompts toonden een groter verschil tussen kaarten met veel geheugen en kaarten met minder marge.** De H100 bleef eerste met 112,0 tokens per seconde. De RTX PRO 6000 Max-Q haalde de RTX 6000 Ada in.
 
-| Rang | GPU | VRAM | Decode tok/s | Prefill tok/s | Huurprijs |
+| Rang | GPU | VRAM | Decodering tok/s | Promptverwerking tok/s | Huurprijs |
 |---:|---|---:|---:|---:|---:|
 | 1 | **H100 SXM** | 79.6 GB | **112.0** | 195,252 | $2.693/hr |
 | 2 | **RTX PRO 5000** | 47.8 GB | **96.9** | 148,897 | $1.005/hr |
@@ -152,7 +152,7 @@ De RTX PRO 5000 bleef de aantrekkelijkste huurkaart. Hij was 12,5% langzamer dan
 | 5 | **A100 SXM4** | 40 GB | **49.3** | 147,699 | $0.680/hr |
 | 6 | **CMP 170HX** | 64 GB | **45.9** | 118,657 | $0.420/hr |
 | 7 | **RTX PRO 6000 S** | 95.6 GB | **37.0** | 124,927 | $1.756/hr |
-| 8 | **A100 PCIe** | 40 GB | N/A | N/A | $0.565/hr |
+| 8 | **A100 PCIe** | 40 GB | niet beschikbaar | niet beschikbaar | $0.565/hr |
 
 De RTX PRO 5000 bleef de beste balans. De RTX 6000 Ada was langzamer, maar de lagere huurprijs past bij een budget waarbij beschikbaarheid belangrijker is dan topsnelheid.
 
@@ -160,16 +160,16 @@ De RTX PRO 5000 bleef de beste balans. De RTX 6000 Ada was langzamer, maar de la
 
 **De H100 was de enige kaart boven 100 decodeertokens per seconde bij deze context.** De RTX PRO 6000 Max-Q voltooide de run met 73,4 tokens per seconde, gevolgd door de RTX 6000 Ada met 61,7.
 
-| Rang | GPU | VRAM | Decode tok/s | Prefill tok/s | Huurprijs |
+| Rang | GPU | VRAM | Decodering tok/s | Promptverwerking tok/s | Huurprijs |
 |---:|---|---:|---:|---:|---:|
 | 1 | **H100 SXM** | 79.6 GB | **108.2** | 242,093 | $2.693/hr |
 | 2 | **RTX PRO 6000 Max-Q** | 95.6 GB | **73.4** | 197,208 | $1.507/hr |
 | 3 | **RTX 6000 Ada** | 48 GB | **61.7** | 278,283 | $0.813/hr |
 | 4 | **RTX PRO 6000 S** | 95.6 GB | **39.4** | 124,653 | $1.756/hr |
-| 5 | **RTX PRO 5000** | 47.8 GB | N/A | N/A | $1.005/hr |
-| 6 | **A100 SXM4** | 40 GB | N/A | N/A | $0.680/hr |
-| 7 | **CMP 170HX** | 64 GB | N/A | N/A | $0.420/hr |
-| 8 | **A100 PCIe** | 40 GB | N/A | N/A | $0.565/hr |
+| 5 | **RTX PRO 5000** | 47.8 GB | niet beschikbaar | niet beschikbaar | $1.005/hr |
+| 6 | **A100 SXM4** | 40 GB | niet beschikbaar | niet beschikbaar | $0.680/hr |
+| 7 | **CMP 170HX** | 64 GB | niet beschikbaar | niet beschikbaar | $0.420/hr |
+| 8 | **A100 PCIe** | 40 GB | niet beschikbaar | niet beschikbaar | $0.565/hr |
 
 De RTX PRO 6000 Max-Q werd het praktische alternatief voor de H100 bij lange prompts. Hij haalde 67,8% van de decodeersnelheid tegen 56,0% van het uurtarief. De RTX 6000 Ada kostte minder, maar 48 GB VRAM laat minder ruimte voor lange prompts, grotere batches of een andere modelconfiguratie.
 
@@ -178,13 +178,13 @@ De RTX PRO 6000 Max-Q werd het praktische alternatief voor de H100 bij lange pro
 | GPU | ~16k | ~32,8k | ~65,5k | ~131k |
 |---|---:|---:|---:|---:|
 | **H100 SXM** | **134.4** | **120.0** | **112.0** | **108.2** |
-| **RTX PRO 5000** | 113.9 | 105.0 | 96.9 | N/A |
+| **RTX PRO 5000** | 113.9 | 105.0 | 96.9 | niet beschikbaar |
 | **RTX 6000 Ada** | 89.1 | 75.7 | 70.8 | 61.7 |
 | **RTX PRO 6000 Max-Q** | 84.1 | 66.9 | 75.7 | 73.4 |
 | **RTX PRO 6000 S** | 49.3 | 65.9 | 37.0 | 39.4 |
-| **A100 SXM4** | 60.6 | 51.1 | 49.3 | N/A |
-| **CMP 170HX** | 51.5 | 46.2 | 45.9 | N/A |
-| **A100 PCIe** | 38.4 | 36.1 | N/A | N/A |
+| **A100 SXM4** | 60.6 | 51.1 | 49.3 | niet beschikbaar |
+| **CMP 170HX** | 51.5 | 46.2 | 45.9 | niet beschikbaar |
+| **A100 PCIe** | 38.4 | 36.1 | niet beschikbaar | niet beschikbaar |
 
 **De H100 leidde bij elke voltooide contextlengte.** Het voordeel daalde van 20,5 tokens per seconde boven de RTX PRO 5000 bij ongeveer 16k naar 12,0 bij ongeveer 32,8k. De waarde hangt af van de keuze tussen de snelste eerste reactie en de laagste kosten voor een lange sessie.
 

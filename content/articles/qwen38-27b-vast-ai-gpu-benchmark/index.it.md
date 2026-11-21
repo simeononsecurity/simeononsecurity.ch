@@ -1,14 +1,14 @@
 ---
 title: "Benchmark GPU di Llama 3.1 8B e Qwen3.8 27B su Vast.ai"
 date: 2026-10-02
-lastmod: 2026-10-10
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Benchmark Ollama misurati di Llama 3.1 8B e Qwen3.8 27B sulle principali GPU Vast.ai. Confronta velocità di decodifica, contesto lungo, costo di noleggio, self-hosting, crediti API e abbonamenti."
-genre: ["IA locale", "Benchmark GPU", "IA self-hosted", "Cloud computing", "Intelligenza artificiale", "Economia dell'IA"]
-tags: ["Llama 3.1 8B", "llama3.1:8b", "Qwen3.8 27B", "Qwen3.8:27b", "Vast.ai", "benchmark GPU", "Ollama", "H100", "RTX PRO 5000", "RTX 6000 Ada", "RTX PRO 6000 Max-Q", "A100", "CMP 170HX", "LLM locale", "contesto lungo", "noleggio GPU", "IA self-hosted", "modelli abliterated", "modelli senza censura", "crediti API", "abbonamento IA", "Q4_K_M", "token al secondo"]
+genre: ["IA locale", "Benchmark GPU", "IA ospitata in proprio", "Informatica in cloud", "Intelligenza artificiale", "Economia dell’IA"]
+tags: ["Llama 3.1 8B", "llama3.1:8b", "Qwen3.8 27B", "Qwen3.8:27b", "Vast.ai", "benchmark GPU", "Ollama", "H100", "RTX PRO 5000", "RTX 6000 Ada", "RTX PRO 6000 Max-Q", "A100", "CMP 170HX", "LLM locale", "contesto lungo", "noleggio GPU", "IA ospitata in proprio", "modelli abliterated", "modelli senza censura", "crediti API", "abbonamento IA", "Q4_K_M", "token al secondo"]
 cover: "/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp"
-coverAlt: "Spazio di lavoro high-tech con una scheda grafica e schermi che mostrano risultati di benchmark IA locali"
+coverAlt: "Ambiente di lavoro high-tech con una scheda grafica e schermi che mostrano risultati di benchmark di IA locale"
 coverCaption: ""
 ref: ["/articles/local-ai-2026-build-your-rig-now", "/articles/ai-models-raspberry-pi-4-5"]
 ---
@@ -109,7 +109,7 @@ Il precedente test Qwen ha corretto i conteggi reali a circa **32.770**, **65.53
 
 **H100 SXM ha guidato il contesto breve con 134,4 token decodificati al secondo.** RTX PRO 5000 seguiva con 113,9 token al secondo e meno della metà del costo orario.
 
-| Pos. | GPU | VRAM | Decodifica tok/s | Prefill tok/s | Tariffa |
+| Pos. | GPU | VRAM | Decodifica tok/s | Elaborazione prompt tok/s | Tariffa |
 |---:|---|---:|---:|---:|---:|
 | 1 | **H100 SXM** | 79.6 GB | **134.4** | 89,974 | $2.693/hr |
 | 2 | **RTX PRO 5000** | 47.8 GB | **113.9** | 68,726 | $1.005/hr |
@@ -126,7 +126,7 @@ RTX PRO 5000 produceva circa l'84,7% della velocità H100 al 37,3% della tariffa
 
 **La classifica restava stabile nel contesto medio.** H100 SXM scendeva a 120,0 token al secondo, RTX PRO 5000 raggiungeva 105,0 e RTX 6000 Ada 75,7.
 
-| Pos. | GPU | VRAM | Decodifica tok/s | Prefill tok/s | Tariffa |
+| Pos. | GPU | VRAM | Decodifica tok/s | Elaborazione prompt tok/s | Tariffa |
 |---:|---|---:|---:|---:|---:|
 | 1 | **H100 SXM** | 79.6 GB | **120.0** | 139,748 | $2.693/hr |
 | 2 | **RTX PRO 5000** | 47.8 GB | **105.0** | 103,707 | $1.005/hr |
@@ -143,7 +143,7 @@ RTX PRO 5000 restava il noleggio più interessante. Era solo il 12,5% più lenta
 
 **I prompt più lunghi hanno mostrato un divario maggiore tra schede con grande capacità e schede con meno margine.** H100 restava prima a 112,0 token al secondo. RTX PRO 6000 Max-Q superava RTX 6000 Ada.
 
-| Pos. | GPU | VRAM | Decodifica tok/s | Prefill tok/s | Tariffa |
+| Pos. | GPU | VRAM | Decodifica tok/s | Elaborazione prompt tok/s | Tariffa |
 |---:|---|---:|---:|---:|---:|
 | 1 | **H100 SXM** | 79.6 GB | **112.0** | 195,252 | $2.693/hr |
 | 2 | **RTX PRO 5000** | 47.8 GB | **96.9** | 148,897 | $1.005/hr |
@@ -152,7 +152,7 @@ RTX PRO 5000 restava il noleggio più interessante. Era solo il 12,5% più lenta
 | 5 | **A100 SXM4** | 40 GB | **49.3** | 147,699 | $0.680/hr |
 | 6 | **CMP 170HX** | 64 GB | **45.9** | 118,657 | $0.420/hr |
 | 7 | **RTX PRO 6000 S** | 95.6 GB | **37.0** | 124,927 | $1.756/hr |
-| 8 | **A100 PCIe** | 40 GB | N/A | N/A | $0.565/hr |
+| 8 | **A100 PCIe** | 40 GB | N/D | N/D | $0.565/hr |
 
 RTX PRO 5000 restava il miglior equilibrio nella tabella completata. RTX 6000 Ada era più lenta, ma il prezzo inferiore favoriva i budget attenti alla disponibilità.
 
@@ -160,16 +160,16 @@ RTX PRO 5000 restava il miglior equilibrio nella tabella completata. RTX 6000 Ad
 
 **H100 era l'unica scheda oltre 100 token decodificati al secondo a questo contesto.** RTX PRO 6000 Max-Q completava a 73,4, seguita da RTX 6000 Ada a 61,7.
 
-| Pos. | GPU | VRAM | Decodifica tok/s | Prefill tok/s | Tariffa |
+| Pos. | GPU | VRAM | Decodifica tok/s | Elaborazione prompt tok/s | Tariffa |
 |---:|---|---:|---:|---:|---:|
 | 1 | **H100 SXM** | 79.6 GB | **108.2** | 242,093 | $2.693/hr |
 | 2 | **RTX PRO 6000 Max-Q** | 95.6 GB | **73.4** | 197,208 | $1.507/hr |
 | 3 | **RTX 6000 Ada** | 48 GB | **61.7** | 278,283 | $0.813/hr |
 | 4 | **RTX PRO 6000 S** | 95.6 GB | **39.4** | 124,653 | $1.756/hr |
-| 5 | **RTX PRO 5000** | 47.8 GB | N/A | N/A | $1.005/hr |
-| 6 | **A100 SXM4** | 40 GB | N/A | N/A | $0.680/hr |
-| 7 | **CMP 170HX** | 64 GB | N/A | N/A | $0.420/hr |
-| 8 | **A100 PCIe** | 40 GB | N/A | N/A | $0.565/hr |
+| 5 | **RTX PRO 5000** | 47.8 GB | N/D | N/D | $1.005/hr |
+| 6 | **A100 SXM4** | 40 GB | N/D | N/D | $0.680/hr |
+| 7 | **CMP 170HX** | 64 GB | N/D | N/D | $0.420/hr |
+| 8 | **A100 PCIe** | 40 GB | N/D | N/D | $0.565/hr |
 
 RTX PRO 6000 Max-Q diventava l'alternativa pratica a H100 per prompt lunghi. Offriva il 67,8% della velocità H100 al 56,0% del prezzo orario. RTX 6000 Ada costava meno, ma 48 GB di VRAM lasciavano meno spazio per prompt lunghi, batch più grandi o altre configurazioni.
 
@@ -178,13 +178,13 @@ RTX PRO 6000 Max-Q diventava l'alternativa pratica a H100 per prompt lunghi. Off
 | GPU | ~16k | ~32,8k | ~65,5k | ~131k |
 |---|---:|---:|---:|---:|
 | **H100 SXM** | **134.4** | **120.0** | **112.0** | **108.2** |
-| **RTX PRO 5000** | 113.9 | 105.0 | 96.9 | N/A |
+| **RTX PRO 5000** | 113.9 | 105.0 | 96.9 | N/D |
 | **RTX 6000 Ada** | 89.1 | 75.7 | 70.8 | 61.7 |
 | **RTX PRO 6000 Max-Q** | 84.1 | 66.9 | 75.7 | 73.4 |
 | **RTX PRO 6000 S** | 49.3 | 65.9 | 37.0 | 39.4 |
-| **A100 SXM4** | 60.6 | 51.1 | 49.3 | N/A |
-| **CMP 170HX** | 51.5 | 46.2 | 45.9 | N/A |
-| **A100 PCIe** | 38.4 | 36.1 | N/A | N/A |
+| **A100 SXM4** | 60.6 | 51.1 | 49.3 | N/D |
+| **CMP 170HX** | 51.5 | 46.2 | 45.9 | N/D |
+| **A100 PCIe** | 38.4 | 36.1 | N/D | N/D |
 
 **H100 guidava ogni livello completato.** Il vantaggio scendeva da 20,5 token al secondo su RTX PRO 5000 a circa 16k token a 12,0 a circa 32,8k. Il valore dipende dalla scelta tra prima risposta rapida e costo minimo per una sessione lunga.
 

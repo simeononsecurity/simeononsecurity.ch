@@ -1,14 +1,14 @@
 ---
 title: "Benchmarks GPU de Llama 3.1 8B et Qwen3.8 27B sur Vast.ai"
 date: 2026-10-02
-lastmod: 2026-10-10
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Benchmarks Ollama mesurés de Llama 3.1 8B et Qwen3.8 27B sur les principaux GPU Vast.ai. Comparez la vitesse de décodage, le long contexte, le coût de location, l'auto-hébergement, les crédits API et les abonnements."
-genre: ["IA locale", "Benchmarks GPU", "IA auto-hébergée", "Cloud computing", "Intelligence artificielle", "Économie de l'IA"]
-tags: ["Llama 3.1 8B", "llama3.1:8b", "Qwen3.8 27B", "Qwen3.8:27b", "Vast.ai", "benchmark GPU", "Ollama", "H100", "RTX PRO 5000", "RTX 6000 Ada", "RTX PRO 6000 Max-Q", "A100", "CMP 170HX", "LLM local", "long contexte", "location GPU", "IA auto-hébergée", "modèles abliterated", "modèles sans censure", "crédits API", "abonnement IA", "Q4_K_M", "jetons par seconde"]
+genre: ["IA locale", "Benchmarks GPU", "IA auto-hébergée", "Informatique en nuage", "Intelligence artificielle", "Économie de l’IA"]
+tags: ["Llama 3.1 8B", "llama3.1:8b", "Qwen3.8 27B", "Qwen3.8:27b", "Vast.ai", "benchmark GPU", "Ollama", "H100", "RTX PRO 5000", "RTX 6000 Ada", "RTX PRO 6000 Max-Q", "A100", "CMP 170HX", "LLM local", "contexte long", "location GPU", "IA auto-hébergée", "modèles abliterated", "modèles sans censure", "crédits API", "abonnement IA", "Q4_K_M", "jetons par seconde"]
 cover: "/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp"
-coverAlt: "Espace de travail high-tech avec une carte graphique et des écrans affichant des résultats de benchmark d'IA locale"
+coverAlt: "Espace de travail high-tech avec une carte graphique et des écrans affichant des résultats de benchmark d’IA locale"
 coverCaption: ""
 ref: ["/articles/local-ai-2026-build-your-rig-now", "/articles/ai-models-raspberry-pi-4-5"]
 ---
@@ -152,7 +152,7 @@ La RTX PRO 5000 restait la location la plus intéressante de ce groupe. Elle ét
 | 5 | **A100 SXM4** | 40 GB | **49.3** | 147,699 | $0.680/hr |
 | 6 | **CMP 170HX** | 64 GB | **45.9** | 118,657 | $0.420/hr |
 | 7 | **RTX PRO 6000 S** | 95.6 GB | **37.0** | 124,927 | $1.756/hr |
-| 8 | **A100 PCIe** | 40 GB | N/A | N/A | $0.565/hr |
+| 8 | **A100 PCIe** | 40 GB | N/D | N/D | $0.565/hr |
 
 La RTX PRO 5000 restait le meilleur compromis du tableau terminé. La RTX 6000 Ada était plus lente, mais son tarif inférieur la rendait intéressante lorsque la disponibilité comptait plus que la vitesse maximale.
 
@@ -166,10 +166,10 @@ La RTX PRO 5000 restait le meilleur compromis du tableau terminé. La RTX 6000 A
 | 2 | **RTX PRO 6000 Max-Q** | 95.6 GB | **73.4** | 197,208 | $1.507/hr |
 | 3 | **RTX 6000 Ada** | 48 GB | **61.7** | 278,283 | $0.813/hr |
 | 4 | **RTX PRO 6000 S** | 95.6 GB | **39.4** | 124,653 | $1.756/hr |
-| 5 | **RTX PRO 5000** | 47.8 GB | N/A | N/A | $1.005/hr |
-| 6 | **A100 SXM4** | 40 GB | N/A | N/A | $0.680/hr |
-| 7 | **CMP 170HX** | 64 GB | N/A | N/A | $0.420/hr |
-| 8 | **A100 PCIe** | 40 GB | N/A | N/A | $0.565/hr |
+| 5 | **RTX PRO 5000** | 47.8 GB | N/D | N/D | $1.005/hr |
+| 6 | **A100 SXM4** | 40 GB | N/D | N/D | $0.680/hr |
+| 7 | **CMP 170HX** | 64 GB | N/D | N/D | $0.420/hr |
+| 8 | **A100 PCIe** | 40 GB | N/D | N/D | $0.565/hr |
 
 La RTX PRO 6000 Max-Q devenait l'alternative pratique au H100 pour les prompts longs. Elle fournissait 67,8 % de sa vitesse de décodage à 56,0 % du tarif horaire. La RTX 6000 Ada coûtait moins cher, mais ses 48 Go de VRAM laissaient moins de marge pour les longs prompts, les lots plus grands ou une autre configuration.
 
@@ -178,13 +178,13 @@ La RTX PRO 6000 Max-Q devenait l'alternative pratique au H100 pour les prompts l
 | GPU | ~16k | ~32,8k | ~65,5k | ~131k |
 |---|---:|---:|---:|---:|
 | **H100 SXM** | **134.4** | **120.0** | **112.0** | **108.2** |
-| **RTX PRO 5000** | 113.9 | 105.0 | 96.9 | N/A |
+| **RTX PRO 5000** | 113.9 | 105.0 | 96.9 | N/D |
 | **RTX 6000 Ada** | 89.1 | 75.7 | 70.8 | 61.7 |
 | **RTX PRO 6000 Max-Q** | 84.1 | 66.9 | 75.7 | 73.4 |
 | **RTX PRO 6000 S** | 49.3 | 65.9 | 37.0 | 39.4 |
-| **A100 SXM4** | 60.6 | 51.1 | 49.3 | N/A |
-| **CMP 170HX** | 51.5 | 46.2 | 45.9 | N/A |
-| **A100 PCIe** | 38.4 | 36.1 | N/A | N/A |
+| **A100 SXM4** | 60.6 | 51.1 | 49.3 | N/D |
+| **CMP 170HX** | 51.5 | 46.2 | 45.9 | N/D |
+| **A100 PCIe** | 38.4 | 36.1 | N/D | N/D |
 
 **Le H100 menait à chaque longueur de contexte terminée.** Son avantage passait de 20,5 jetons par seconde sur la RTX PRO 5000 à environ 16k jetons à 12,0 à environ 32,8k. Le choix de valeur dépend de votre priorité entre la première réponse rapide et le coût minimal d'une session longue.
 
