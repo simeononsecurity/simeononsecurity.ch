@@ -3,9 +3,9 @@ title: "Certificările de securitate cibernetică AI: rămân în urmă"
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 description: "O opinie despre diferența dintre certificările de guvernanță AI și practica de securitate AI, bazată pe experiența de certificare și limitele actuale ale suprafeței de atac."
-tags: ["Securitate AI", "Guvernanță AI", "Certificări AI", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "injectarea prompturilor", "Securitate cibernetică AI", "Securitate LLM", "OWASP LLM Top 10", "MITRE ATLAS", "Gestionarea riscurilor AI", "Conformitate AI", "Securitatea învățării automate", "Lanțul de aprovizionare al modelelor", "AI adversarială", "Agenți AI", "Securitate MCP", "Red teaming AI", "Certificări de guvernanță AI", "AI agentică", "Google SAIF"]
+tags: ["Securitate AI", "Guvernanță AI", "Certificări AI", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "injectarea prompturilor", "Securitate cibernetică AI", "Securitate LLM", "OWASP LLM Top 10", "MITRE ATLAS", "Gestionarea riscurilor AI", "Conformitate AI", "Securitatea învățării automate", "Lanțul de aprovizionare al modelelor", "AI adversarială", "Agenți AI", "Securitate MCP", "testare cu echipa roșie pentru AI", "Certificări de guvernanță AI", "AI agentică", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
 coverAlt: "Scena este împărțită: într-o parte, specialiștii dintr-un birou discută documente de guvernanță; în cealaltă, elemente digitale haotice reprezintă sisteme AI atacate cibernetic, cu culori vii care accentuează contrastul."
 coverCaption: ""
@@ -23,7 +23,7 @@ Problema este diferența dintre ceea ce predau certificările și ceea ce trebui
 
 Primul nivel este guvernanța. Documente precum NIST AI Risk Management Framework (AI RMF 1.0, 2023), ISO/IEC 42001:2023 și EU AI Act acționează la nivel organizațional și de proces. Ele descriu cum se gestionează riscul AI, cum se structurează supravegherea și cum se documentează responsabilitatea. Se concentrează intenționat pe guvernanță, nu pe prescrierea controalelor tehnice. Acesta este scopul lor.
 
-Al doilea nivel este taxonomia amenințărilor. MITRE ATLAS documentează tacticile adversarilor împotriva sistemelor AI în același format ca ATT&CK. OWASP Top 10 for Large Language Model Applications enumeră categoriile de atac cele mai relevante pentru LLM-urile implementate. Aceste documente numesc atacurile și descriu cum funcționează. Nu prescriu măsuri de apărare.
+Al doilea nivel este taxonomia amenințărilor. MITRE ATLAS documentează tacticile adversarilor împotriva sistemelor AI în același format ca ATT&CK. OWASP Top 10 pentru aplicații cu modele lingvistice mari enumeră categoriile de atac cele mai relevante pentru LLM-urile implementate. Aceste documente numesc atacurile și descriu cum funcționează. Nu prescriu măsuri de apărare.
 
 Al treilea nivel este îndrumarea tehnică. Include Google's Secure AI Framework (SAIF), Microsoft's AI Security SDL, OWASP AI Exchange, NIST AI 600-1 (Generative AI Profile) și documentația de securitate a furnizorilor precum Anthropic, OpenAI și Meta. Acestea oferă îndrumări de inginerie pentru implementare sigură, practici de evaluare și controale la runtime.
 
@@ -204,7 +204,7 @@ Pentru ca programele de certificare să reflecte practica actuală de securitate
 
 Dacă răspunzi de sistemele AI din organizația ta:
 
-Citește OWASP Top 10 for Large Language Model Applications și OWASP Agentic AI Top 10. Sunt gratuite și mai detaliate operațional decât programele actuale de certificare plătite.
+Citește OWASP Top 10 pentru aplicații cu modele lingvistice mari și OWASP Agentic AI Top 10. Sunt gratuite și mai detaliate operațional decât programele actuale de certificare plătite.
 
 Consultă MITRE ATLAS înainte de următoarea sesiune de modelare a amenințărilor pentru o componentă AI. Află ce tactici adversariale se aplică arhitecturii tale înainte de a finaliza proiectarea implementării.
 
@@ -226,18 +226,18 @@ Tratează certificarea de guvernanță ca documentare a stratului de procese. Nu
 
 - NIST AI Risk Management Framework (AI RMF 1.0), 2023
 - NIST AI 600-1: Generative AI Profile, 2024
-- NIST SP 1270: Towards a Standard for Identifying and Managing Bias in Artificial Intelligence
+- NIST SP 1270: Către un standard pentru identificarea și gestionarea prejudecăților în inteligența artificială
 - ISO/IEC 42001:2023 Artificial Intelligence Management Systems
 - EU AI Act, Regulation (EU) 2024/1689
-- OWASP Top 10 for Large Language Model Applications, 2025
+- OWASP Top 10 pentru aplicații cu modele lingvistice mari, 2025
 - OWASP Agentic AI Top 10
 - OWASP AI Exchange
-- MITRE ATLAS: Adversarial Threat Landscape for AI Systems
+- MITRE ATLAS: Peisajul amenințărilor adversariale pentru sistemele IA
 - Google Secure AI Framework (SAIF)
-- Microsoft AI Security SDL documentation
-- CISA Guidance on AI Cybersecurity, 2024
-- Barreno et al., Can Machine Learning Be Secure?, 2006
+- documentația Microsoft AI Security SDL
+- Ghidul CISA privind securitatea cibernetică a IA, 2024
+- Barreno et al., Poate fi sigură învățarea automată?, 2006
 - Biggio et al., Poisoning Attacks Against Support Vector Machines, 2012
-- Goodfellow et al., Explaining and Harnessing Adversarial Examples, ICLR 2015
-- IAPP AI Governance Professional (AIGP) program documentation
-- ISACA AI Fundamentals Certificate program documentation
+- Goodfellow et al., explicarea și valorificarea exemplelor adversariale, ICLR 2015
+- documentația programului IAPP AI Governance Professional (AIGP)
+- documentația programului ISACA AI Fundamentals Certificate

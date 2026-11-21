@@ -3,7 +3,7 @@ title: "شهادات الأمن السيبراني للذكاء الاصطناع
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 description: "رأي حول الفجوة بين شهادات حوكمة الذكاء الاصطناعي وممارسات أمنه، استنادًا إلى تجربة الشهادات والحدود الحالية لسطح الهجوم."
 tags: ["أمن الذكاء الاصطناعي", "حوكمة الذكاء الاصطناعي", "شهادات الذكاء الاصطناعي", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "حقن الموجّه", "الأمن السيبراني للذكاء الاصطناعي", "أمن LLM", "OWASP LLM Top 10", "MITRE ATLAS", "إدارة مخاطر الذكاء الاصطناعي", "امتثال الذكاء الاصطناعي", "أمن التعلم الآلي", "سلسلة توريد النماذج", "الذكاء الاصطناعي الخصومي", "وكلاء الذكاء الاصطناعي", "أمن MCP", "اختبار الاختراق لفريق أحمر للذكاء الاصطناعي", "شهادات حوكمة الذكاء الاصطناعي", "الذكاء الاصطناعي الوكيلي", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
@@ -23,7 +23,7 @@ coverCaption: ""
 
 الطبقة الأولى هي الحوكمة. تعمل وثائق مثل NIST AI Risk Management Framework (AI RMF 1.0, 2023) وISO/IEC 42001:2023 وEU AI Act على مستوى المؤسسة والعمليات. وتشرح كيفية إدارة مخاطر الذكاء الاصطناعي، وبناء الرقابة، وتوثيق المساءلة. وهي تركز عمدًا على الحوكمة بدلًا من وصف ضوابط محددة. هذا مقصود في تصميمها.
 
-الطبقة الثانية هي تصنيف التهديدات. يوثق MITRE ATLAS تكتيكات الخصوم ضد أنظمة الذكاء الاصطناعي بالتنسيق نفسه المستخدم في ATT&CK. ويسرد OWASP Top 10 for Large Language Model Applications فئات الهجوم الأهم على نماذج LLM المنشورة. تسمي هذه الوثائق الهجمات وتشرح آلية عملها، لكنها لا تفرض وسائل دفاع.
+الطبقة الثانية هي تصنيف التهديدات. يوثق MITRE ATLAS تكتيكات الخصوم ضد أنظمة الذكاء الاصطناعي بالتنسيق نفسه المستخدم في ATT&CK. ويسرد OWASP Top 10 لتطبيقات النماذج اللغوية الكبيرة فئات الهجوم الأهم على نماذج LLM المنشورة. تسمي هذه الوثائق الهجمات وتشرح آلية عملها، لكنها لا تفرض وسائل دفاع.
 
 الطبقة الثالثة هي الإرشادات التقنية. وتشمل Google's Secure AI Framework (SAIF) وMicrosoft's AI Security SDL وOWASP AI Exchange وNIST AI 600-1 (Generative AI Profile) ووثائق أمنية خاصة بمورّدين مثل Anthropic وOpenAI وMeta. تقدم هذه المصادر إرشادات هندسية للنشر الآمن وممارسات التقييم وضوابط وقت التشغيل.
 
@@ -204,7 +204,7 @@ ISO 42001:2023 معيار لنظام إدارة الذكاء الاصطناعي.
 
 إذا كنت مسؤولًا عن أنظمة الذكاء الاصطناعي في مؤسستك:
 
-اقرأ OWASP Top 10 for Large Language Model Applications وOWASP Agentic AI Top 10. فهما مجانيان وأكثر تحديدًا من الناحية التشغيلية من مناهج الشهادات المدفوعة الحالية.
+اقرأ OWASP Top 10 لتطبيقات النماذج اللغوية الكبيرة وOWASP Agentic AI Top 10. فهما مجانيان وأكثر تحديدًا من الناحية التشغيلية من مناهج الشهادات المدفوعة الحالية.
 
 راجع MITRE ATLAS قبل جلسة نمذجة التهديد التالية لأي مكون ذكاء اصطناعي. اعرف تكتيكات الخصم التي تنطبق على بنيتك قبل إكمال تصميم النشر.
 
@@ -226,18 +226,18 @@ ISO 42001:2023 معيار لنظام إدارة الذكاء الاصطناعي.
 
 - NIST AI Risk Management Framework (AI RMF 1.0), 2023
 - NIST AI 600-1: Generative AI Profile, 2024
-- NIST SP 1270: Towards a Standard for Identifying and Managing Bias in Artificial Intelligence
+- NIST SP 1270: نحو معيار لتحديد وإدارة التحيز في الذكاء الاصطناعي
 - ISO/IEC 42001:2023 Artificial Intelligence Management Systems
 - EU AI Act, Regulation (EU) 2024/1689
-- OWASP Top 10 for Large Language Model Applications, 2025
+- OWASP Top 10 لتطبيقات النماذج اللغوية الكبيرة, 2025
 - OWASP Agentic AI Top 10
 - OWASP AI Exchange
-- MITRE ATLAS: Adversarial Threat Landscape for AI Systems
+- MITRE ATLAS: مشهد التهديدات العدائية لأنظمة الذكاء الاصطناعي
 - Google Secure AI Framework (SAIF)
-- Microsoft AI Security SDL documentation
-- CISA Guidance on AI Cybersecurity, 2024
-- Barreno et al., Can Machine Learning Be Secure?, 2006
+- وثائق Microsoft AI Security SDL
+- إرشادات CISA للأمن السيبراني للذكاء الاصطناعي، 2024
+- Barreno et al., هل يمكن أن يكون التعلم الآلي آمنًا؟, 2006
 - Biggio et al., Poisoning Attacks Against Support Vector Machines, 2012
-- Goodfellow et al., Explaining and Harnessing Adversarial Examples, ICLR 2015
-- IAPP AI Governance Professional (AIGP) program documentation
-- ISACA AI Fundamentals Certificate program documentation
+- Goodfellow et al., شرح الأمثلة الخصمية والاستفادة منها, ICLR 2015
+- وثائق برنامج IAPP AI Governance Professional (AIGP)
+- وثائق برنامج ISACA AI Fundamentals Certificate

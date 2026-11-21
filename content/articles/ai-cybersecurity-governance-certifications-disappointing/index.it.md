@@ -3,9 +3,9 @@ title: "Certificazioni di cybersecurity AI: non tengono il passo"
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 description: "Un'opinione sul divario tra le certificazioni di governance AI e la pratica della sicurezza AI, basata sull'esperienza di certificazione e sui limiti attuali della superficie di attacco."
-tags: ["Sicurezza AI", "Governance AI", "Certificazioni AI", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "prompt injection", "Cybersecurity AI", "Sicurezza LLM", "OWASP LLM Top 10", "MITRE ATLAS", "Gestione dei rischi AI", "Conformità AI", "Sicurezza del machine learning", "Catena di fornitura dei modelli", "AI avversaria", "Agenti AI", "Sicurezza MCP", "Red teaming AI", "Certificazioni di governance AI", "AI agentica", "Google SAIF"]
+tags: ["Sicurezza AI", "Governance AI", "Certificazioni AI", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "iniezione di prompt", "Cybersecurity AI", "Sicurezza LLM", "OWASP LLM Top 10", "MITRE ATLAS", "Gestione dei rischi AI", "Conformità AI", "sicurezza dell’apprendimento automatico", "Catena di fornitura dei modelli", "AI avversaria", "Agenti AI", "Sicurezza MCP", "test con squadra rossa per l’IA", "Certificazioni di governance AI", "AI agentica", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
 coverAlt: "La scena è divisa in due: da un lato professionisti in ufficio discutono documenti di governance; dall'altro immagini digitali caotiche rappresentano sistemi AI sotto attacco informatico. I colori vivaci evidenziano il contrasto."
 coverCaption: ""
@@ -23,7 +23,7 @@ Prima di spiegare cosa manca, è utile distinguere ciò che esiste oggi.
 
 Il primo livello è la governance. Documenti come NIST AI Risk Management Framework (AI RMF 1.0, 2023), ISO/IEC 42001:2023 e EU AI Act operano a livello organizzativo e di processo. Descrivono come gestire il rischio AI, strutturare la supervisione e documentare la responsabilità. Si concentrano intenzionalmente sulla governance, non sulla prescrizione dei controlli. È una scelta progettuale.
 
-Il secondo livello è la tassonomia delle minacce. MITRE ATLAS documenta le tattiche avversarie contro i sistemi AI nello stesso formato di ATT&CK. OWASP Top 10 for Large Language Model Applications elenca le classi di attacco più rilevanti per gli LLM distribuiti. Questi documenti nominano gli attacchi e descrivono come funzionano. Non prescrivono le difese.
+Il secondo livello è la tassonomia delle minacce. MITRE ATLAS documenta le tattiche avversarie contro i sistemi AI nello stesso formato di ATT&CK. OWASP Top 10 per le applicazioni basate su modelli linguistici di grandi dimensioni elenca le classi di attacco più rilevanti per gli LLM distribuiti. Questi documenti nominano gli attacchi e descrivono come funzionano. Non prescrivono le difese.
 
 Il terzo livello è la guida tecnica. Include Google's Secure AI Framework (SAIF), Microsoft's AI Security SDL, OWASP AI Exchange, NIST AI 600-1 (Generative AI Profile) e la documentazione di sicurezza specifica dei fornitori, tra cui Anthropic, OpenAI e Meta. Queste risorse forniscono indicazioni ingegneristiche su distribuzione sicura, pratiche di valutazione e controlli in fase di esecuzione.
 
@@ -204,7 +204,7 @@ Per riflettere la pratica attuale della sicurezza AI, i curricula di certificazi
 
 Se sei responsabile dei sistemi AI nella tua organizzazione:
 
-Leggi OWASP Top 10 for Large Language Model Applications e OWASP Agentic AI Top 10. Sono gratuiti e più specifici sul piano operativo dei programmi di certificazione a pagamento disponibili oggi.
+Leggi OWASP Top 10 per le applicazioni basate su modelli linguistici di grandi dimensioni e OWASP Agentic AI Top 10. Sono gratuiti e più specifici sul piano operativo dei programmi di certificazione a pagamento disponibili oggi.
 
 Esamina MITRE ATLAS prima della prossima sessione di threat modeling su un componente AI. Scopri quali tattiche avversarie si applicano alla tua architettura prima di finalizzare il progetto di distribuzione.
 
@@ -226,18 +226,18 @@ Considera la certificazione di governance come documentazione del livello di pro
 
 - NIST AI Risk Management Framework (AI RMF 1.0), 2023
 - NIST AI 600-1: Generative AI Profile, 2024
-- NIST SP 1270: Towards a Standard for Identifying and Managing Bias in Artificial Intelligence
+- NIST SP 1270: Verso uno standard per identificare e gestire i pregiudizi nell’intelligenza artificiale
 - ISO/IEC 42001:2023 Artificial Intelligence Management Systems
 - EU AI Act, Regulation (EU) 2024/1689
-- OWASP Top 10 for Large Language Model Applications, 2025
+- OWASP Top 10 per le applicazioni basate su modelli linguistici di grandi dimensioni, 2025
 - OWASP Agentic AI Top 10
 - OWASP AI Exchange
-- MITRE ATLAS: Adversarial Threat Landscape for AI Systems
+- MITRE ATLAS: Panorama delle minacce avversarie per i sistemi di IA
 - Google Secure AI Framework (SAIF)
-- Microsoft AI Security SDL documentation
-- CISA Guidance on AI Cybersecurity, 2024
-- Barreno et al., Can Machine Learning Be Secure?, 2006
+- documentazione di Microsoft AI Security SDL
+- Guida CISA sulla sicurezza informatica dell’IA, 2024
+- Barreno et al., Il machine learning può essere sicuro?, 2006
 - Biggio et al., Poisoning Attacks Against Support Vector Machines, 2012
-- Goodfellow et al., Explaining and Harnessing Adversarial Examples, ICLR 2015
-- IAPP AI Governance Professional (AIGP) program documentation
-- ISACA AI Fundamentals Certificate program documentation
+- Goodfellow et al., spiegazione e utilizzo degli esempi avversari, ICLR 2015
+- documentazione del programma IAPP AI Governance Professional (AIGP)
+- documentazione del programma ISACA AI Fundamentals Certificate

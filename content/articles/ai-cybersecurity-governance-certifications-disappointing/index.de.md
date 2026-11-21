@@ -3,7 +3,7 @@ title: "KI-Cybersicherheit und Governance-Zertifizierungen halten nicht mit dem 
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 description: "Eine Facheinschätzung zur Lücke zwischen KI-Governance-Zertifizierungen und tatsächlicher KI-Sicherheitspraxis. Wir haben mehrere davon abgelegt und waren enttäuscht. Die Frameworks sind noch jung und governance-orientiert. Die Angriffsfläche ist schneller gewachsen."
 tags: ["KI-Sicherheit", "KI-Governance", "KI-Zertifizierungen", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "Prompt-Injection", "KI-Cybersicherheit", "LLM-Sicherheit", "OWASP LLM Top 10", "MITRE ATLAS", "KI-Risikomanagement", "KI-Compliance", "Machine-Learning-Sicherheit", "Modell-Lieferkette", "gegnerische KI", "KI-Agenten", "MCP-Sicherheit", "KI-Red-Teaming", "KI-Governance-Zertifizierungen", "agentische KI", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
@@ -197,7 +197,7 @@ Damit Zertifizierungslehrpläne die aktuelle KI-Sicherheitspraxis widerspiegeln,
 - MCP und externe Integrationssicherheit: Vertrauensbewertung für Werkzeugserver, Werkzeugberechtigungsprüfung und Datens-vs.-Anweisungstrennung
 - Evaluation und Red Teaming: wie man eine gegnerische Evaluation abgrenzt, welche Benchmarks und Evaluierungsdatensätze existieren und wie man Ergebnisse interpretiert
 - KI-Observabilität: welche Protokolle und Telemetrie KI-Systeme erfordern und wie man sie für Vorfallserkennung und -reaktion nutzt
-- KI-spezifische Incident Response: Vorplanung für KI-Vorfallsszenarien, Beweismittelsammlung für Fragen des Modellverhaltens und Wiederherstellungsüberlegungen, die einzigartig für KI-Systeme sind
+- KI-spezifische Vorfallbearbeitung: Vorplanung für KI-Vorfallsszenarien, Beweismittelsammlung für Fragen des Modellverhaltens und Wiederherstellungsüberlegungen, die einzigartig für KI-Systeme sind
 - Datenleckage-Prävention: RAG-Isolation, Prompt-Vertraulichkeit, mandantenfähige Zugriffskontrollen und Ausgabefilterung
 
 ## Was Sie jetzt tun sollten
@@ -226,18 +226,18 @@ Behandeln Sie Ihre Governance-Zertifizierung als Dokumentation Ihrer Prozessschi
 
 - NIST AI Risk Management Framework (AI RMF 1.0), 2023
 - NIST AI 600-1: Generative AI Profile, 2024
-- NIST SP 1270: Towards a Standard for Identifying and Managing Bias in Artificial Intelligence
+- NIST SP 1270: Auf dem Weg zu einem Standard zur Erkennung und Steuerung von Verzerrungen in künstlicher Intelligenz
 - ISO/IEC 42001:2023 Artificial Intelligence Management Systems
 - EU AI Act, Regulation (EU) 2024/1689
-- OWASP Top 10 for Large Language Model Applications, 2025
+- OWASP Top 10 für Anwendungen großer Sprachmodelle, 2025
 - OWASP Agentic AI Top 10
 - OWASP AI Exchange
-- MITRE ATLAS: Adversarial Threat Landscape for AI Systems
+- MITRE ATLAS: Landschaft adversarialer Bedrohungen für KI-Systeme
 - Google Secure AI Framework (SAIF)
-- Microsoft AI Security SDL documentation
-- CISA Guidance on AI Cybersecurity, 2024
-- Barreno et al., Can Machine Learning Be Secure?, 2006
+- Dokumentation zu Microsoft AI Security SDL
+- CISA-Leitfaden zur KI-Cybersicherheit, 2024
+- Barreno et al., Kann maschinelles Lernen sicher sein?, 2006
 - Biggio et al., Poisoning Attacks Against Support Vector Machines, 2012
-- Goodfellow et al., Explaining and Harnessing Adversarial Examples, ICLR 2015
-- IAPP AI Governance Professional (AIGP) program documentation
-- ISACA AI Fundamentals Certificate program documentation
+- Goodfellow et al., Erklärung und Nutzung adversarieller Beispiele, ICLR 2015
+- Programmdokumentation von IAPP AI Governance Professional (AIGP)
+- Programmdokumentation zum ISACA AI Fundamentals Certificate

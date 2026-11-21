@@ -3,7 +3,7 @@ title: "AI 网络安全认证：跟不上实践"
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 description: "根据认证经历和当前攻击面限制，探讨 AI 治理认证与 AI 安全实践之间的差距。"
 tags: ["AI 安全", "AI 治理", "AI 认证", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "提示注入", "AI 网络安全", "LLM 安全", "OWASP LLM Top 10", "MITRE ATLAS", "AI 风险管理", "AI 合规", "机器学习安全", "模型供应链", "对抗式 AI", "AI 智能体", "MCP 安全", "AI 红队测试", "AI 治理认证", "智能体式 AI", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
@@ -23,7 +23,7 @@ coverCaption: ""
 
 第一层是治理。NIST AI Risk Management Framework（AI RMF 1.0，2023）、ISO/IEC 42001:2023 和 EU AI Act 等文件在组织和流程层面发挥作用。它们说明如何管理 AI 风险、建立监督机制并记录问责。这些文件有意聚焦治理，而不规定具体控制措施。这是设计如此。
 
-第二层是威胁分类。MITRE ATLAS 以 ATT&CK 相同的格式记录针对 AI 系统的对抗战术。OWASP Top 10 for Large Language Model Applications 列出部署 LLM 时最相关的攻击类型。这些文件为攻击命名并说明攻击方式，但不规定防御措施。
+第二层是威胁分类。MITRE ATLAS 以 ATT&CK 相同的格式记录针对 AI 系统的对抗战术。大型语言模型应用的 OWASP Top 10 列出部署 LLM 时最相关的攻击类型。这些文件为攻击命名并说明攻击方式，但不规定防御措施。
 
 第三层是技术指导，包括 Google Secure AI Framework（SAIF）、Microsoft AI Security SDL、OWASP AI Exchange、NIST AI 600-1（Generative AI Profile），以及 Anthropic、OpenAI、Meta 等供应商的安全文档。这些资料提供安全部署、评估实践和运行时控制方面的工程指导。
 
@@ -204,7 +204,7 @@ Security+、CISSP 和 ISO 27001 涵盖的领域通常多年才发生变化。网
 
 如果你负责所在组织的 AI 系统：
 
-阅读 OWASP Top 10 for Large Language Model Applications 和 OWASP Agentic AI Top 10。这些资料免费，而且比当前收费认证课程提供更多运行细节。
+阅读 大型语言模型应用的 OWASP Top 10 和 OWASP Agentic AI Top 10。这些资料免费，而且比当前收费认证课程提供更多运行细节。
 
 下次为 AI 组件开展威胁建模之前，先审查 MITRE ATLAS。在确定部署设计前，了解哪些对手战术适用于你的架构。
 
@@ -212,7 +212,7 @@ Security+、CISSP 和 ISO 27001 涵盖的领域通常多年才发生变化。网
 
 查看 Google SAIF、Microsoft AI SDL 和 OWASP AI Exchange，了解治理框架未提供的工程指导。
 
-验证组织部署的每个模型的来源。检查 model cards。在加载权重之前，扫描序列化格式，排查已知的漏洞利用类型。
+验证组织部署的每个模型的来源。检查 карточки моделей。在加载权重之前，扫描序列化格式，排查已知的漏洞利用类型。
 
 逐一梳理环境中每个 AI 智能体拥有的访问权限。能够读写内部知识库、电子邮件和文件系统的智能体会放大提示注入的影响。将其凭据权限缩小到每项任务所需的范围。
 
@@ -226,18 +226,18 @@ Security+、CISSP 和 ISO 27001 涵盖的领域通常多年才发生变化。网
 
 - NIST AI Risk Management Framework (AI RMF 1.0), 2023
 - NIST AI 600-1: Generative AI Profile, 2024
-- NIST SP 1270: Towards a Standard for Identifying and Managing Bias in Artificial Intelligence
+- NIST SP 1270: 迈向识别和管理人工智能偏见的标准
 - ISO/IEC 42001:2023 Artificial Intelligence Management Systems
 - EU AI Act, Regulation (EU) 2024/1689
-- OWASP Top 10 for Large Language Model Applications, 2025
+- 大型语言模型应用的 OWASP Top 10, 2025
 - OWASP Agentic AI Top 10
 - OWASP AI Exchange
-- MITRE ATLAS: Adversarial Threat Landscape for AI Systems
+- MITRE ATLAS: 面向人工智能系统的对抗性威胁概览
 - Google Secure AI Framework (SAIF)
-- Microsoft AI Security SDL documentation
-- CISA Guidance on AI Cybersecurity, 2024
-- Barreno et al., Can Machine Learning Be Secure?, 2006
+- Microsoft AI Security SDL 文档
+- CISA《人工智能网络安全指南》，2024年
+- Barreno et al., 机器学习能安全吗？, 2006
 - Biggio et al., Poisoning Attacks Against Support Vector Machines, 2012
-- Goodfellow et al., Explaining and Harnessing Adversarial Examples, ICLR 2015
-- IAPP AI Governance Professional (AIGP) program documentation
-- ISACA AI Fundamentals Certificate program documentation
+- Goodfellow et al., 解释并利用对抗样本, ICLR 2015
+- IAPP AI Governance Professional (AIGP) 项目文档
+- ISACA AI Fundamentals Certificate 项目文档

@@ -3,9 +3,9 @@ title: "Certificacions de ciberseguretat en IA: no segueixen el ritme"
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 description: "Una opinió sobre la distància entre les certificacions de governança d'IA i la pràctica de seguretat, basada en l'experiència amb certificacions i els límits actuals de la superfície d'atac."
-tags: ["Seguretat de la IA", "Governança de la IA", "Certificacions d'IA", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "injecció de prompt", "Ciberseguretat de la IA", "Seguretat dels LLM", "OWASP LLM Top 10", "MITRE ATLAS", "Gestió dels riscos d'IA", "Compliment d'IA", "Seguretat de l'aprenentatge automàtic", "Cadena de subministrament de models", "IA adversària", "Agents d'IA", "Seguretat MCP", "Red teaming d'IA", "Certificacions de governança d'IA", "IA agèntica", "Google SAIF"]
+tags: ["Seguretat de la IA", "Governança de la IA", "Certificacions d'IA", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "injecció de prompt", "Ciberseguretat de la IA", "Seguretat dels LLM", "OWASP LLM Top 10", "MITRE ATLAS", "Gestió dels riscos d'IA", "Compliment d'IA", "Seguretat de l'aprenentatge automàtic", "Cadena de subministrament de models", "IA adversària", "Agents d'IA", "Seguretat MCP", "Proves d'equip vermell d'IA", "Certificacions de governança d'IA", "IA agèntica", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
 coverAlt: "L'escena està dividida: a un costat, professionals en una oficina parlen de documents de governança; a l'altre, imatges digitals caòtiques representen sistemes d'IA sota un ciberatac, amb colors vius que remarquen el contrast."
 coverCaption: ""
@@ -23,7 +23,7 @@ Abans d'explicar què hi falta, convé separar el que ja existeix.
 
 La primera capa és la governança. Documents com NIST AI Risk Management Framework (AI RMF 1.0, 2023), ISO/IEC 42001:2023 i EU AI Act actuen a escala d'organització i de procés. Descriuen com gestionar el risc d'IA, estructurar la supervisió i documentar la responsabilitat. Se centren expressament en la governança, no en prescriure controls tècnics. És una decisió de disseny.
 
-La segona capa és la taxonomia d'amenaces. MITRE ATLAS documenta tàctiques adversàries contra sistemes d'IA amb el mateix format que ATT&CK. OWASP Top 10 for Large Language Model Applications enumera les classes d'atac més rellevants per als LLM desplegats. Aquests documents anomenen els atacs i descriuen com funcionen. No prescriuen defenses.
+La segona capa és la taxonomia d'amenaces. MITRE ATLAS documenta tàctiques adversàries contra sistemes d'IA amb el mateix format que ATT&CK. OWASP Top 10 per a aplicacions de models de llenguatge grans enumera les classes d'atac més rellevants per als LLM desplegats. Aquests documents anomenen els atacs i descriuen com funcionen. No prescriuen defenses.
 
 La tercera capa és l'orientació tècnica. Inclou Google's Secure AI Framework (SAIF), Microsoft's AI Security SDL, OWASP AI Exchange, NIST AI 600-1 (Generative AI Profile) i documentació de seguretat específica de proveïdors com Anthropic, OpenAI i Meta. Aquests recursos ofereixen orientació d'enginyeria sobre desplegament segur, pràctiques d'avaluació i controls en temps d'execució.
 
@@ -204,7 +204,7 @@ Per reflectir la pràctica actual de seguretat d'IA, els currículums de certifi
 
 Si ets responsable dels sistemes d'IA de la teva organització:
 
-Llegeix OWASP Top 10 for Large Language Model Applications i OWASP Agentic AI Top 10. Són gratuïts i més específics en l'àmbit operatiu que els currículums de certificació de pagament actuals.
+Llegeix OWASP Top 10 per a aplicacions de models de llenguatge grans i OWASP Agentic AI Top 10. Són gratuïts i més específics en l'àmbit operatiu que els currículums de certificació de pagament actuals.
 
 Revisa MITRE ATLAS abans de la propera sessió de modelatge d'amenaces d'un component d'IA. Abans de tancar el disseny de desplegament, identifica quines tàctiques adversàries s'apliquen a la teva arquitectura.
 
@@ -226,18 +226,18 @@ Tracta la certificació de governança com a documentació de la capa de process
 
 - NIST AI Risk Management Framework (AI RMF 1.0), 2023
 - NIST AI 600-1: Generative AI Profile, 2024
-- NIST SP 1270: Towards a Standard for Identifying and Managing Bias in Artificial Intelligence
+- NIST SP 1270: Cap a un estàndard per identificar i gestionar el biaix en la intel·ligència artificial
 - ISO/IEC 42001:2023 Artificial Intelligence Management Systems
 - EU AI Act, Regulation (EU) 2024/1689
-- OWASP Top 10 for Large Language Model Applications, 2025
+- OWASP Top 10 per a aplicacions de models de llenguatge grans, 2025
 - OWASP Agentic AI Top 10
 - OWASP AI Exchange
-- MITRE ATLAS: Adversarial Threat Landscape for AI Systems
+- MITRE ATLAS: Panorama d’amenaces adversàries per als sistemes d’IA
 - Google Secure AI Framework (SAIF)
-- Microsoft AI Security SDL documentation
-- CISA Guidance on AI Cybersecurity, 2024
-- Barreno et al., Can Machine Learning Be Secure?, 2006
+- documentació de Microsoft AI Security SDL
+- Guia de CISA sobre ciberseguretat de la IA, 2024
+- Barreno et al., Pot ser segur l’aprenentatge automàtic?, 2006
 - Biggio et al., Poisoning Attacks Against Support Vector Machines, 2012
-- Goodfellow et al., Explaining and Harnessing Adversarial Examples, ICLR 2015
-- IAPP AI Governance Professional (AIGP) program documentation
-- ISACA AI Fundamentals Certificate program documentation
+- Goodfellow et al., explicació i aprofitament dels exemples adversaris, ICLR 2015
+- documentació del programa IAPP AI Governance Professional (AIGP)
+- documentació del programa ISACA AI Fundamentals Certificate

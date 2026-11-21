@@ -3,9 +3,9 @@ title: "La ciberseguridad de IA y las certificaciones de gobernanza no están al
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 description: "Una opinión profesional sobre la brecha entre las certificaciones de gobernanza de IA y la práctica real de seguridad de IA. Aprobamos varias de ellas y salimos decepcionados. Los marcos son incipientes y están orientados a la gobernanza. La superficie de ataque creció más rápido."
-tags: ["seguridad IA", "gobernanza IA", "certificaciones IA", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "inyección de prompt", "ciberseguridad IA", "seguridad LLM", "OWASP LLM Top 10", "MITRE ATLAS", "gestión de riesgos IA", "cumplimiento IA", "seguridad machine learning", "cadena de suministro de modelos", "IA adversarial", "agentes IA", "seguridad MCP", "red teaming IA", "certificaciones gobernanza IA", "IA agéntica", "Google SAIF"]
+tags: ["seguridad IA", "gobernanza IA", "certificaciones IA", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "inyección de prompt", "ciberseguridad IA", "seguridad LLM", "OWASP LLM Top 10", "MITRE ATLAS", "gestión de riesgos IA", "cumplimiento IA", "seguridad del aprendizaje automático", "cadena de suministro de modelos", "IA adversaria", "agentes IA", "seguridad MCP", "pruebas de equipo rojo de IA", "certificaciones gobernanza IA", "IA agéntica", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
 coverAlt: "La imagen muestra una escena dividida: en un lado, profesionales en una oficina discutiendo documentos de gobernanza; en el otro, imágenes digitales caóticas que representan sistemas de IA bajo ciberataque, con colores vibrantes que resaltan el contraste."
 coverCaption: ""
@@ -226,18 +226,18 @@ Trate su certificación de gobernanza como documentación de su capa de procesos
 
 - NIST AI Risk Management Framework (AI RMF 1.0), 2023
 - NIST AI 600-1: Generative AI Profile, 2024
-- NIST SP 1270: Towards a Standard for Identifying and Managing Bias in Artificial Intelligence
+- NIST SP 1270: Hacia un estándar para identificar y gestionar los sesgos en la inteligencia artificial
 - ISO/IEC 42001:2023 Artificial Intelligence Management Systems
 - EU AI Act, Regulation (EU) 2024/1689
-- OWASP Top 10 for Large Language Model Applications, 2025
+- OWASP Top 10 para aplicaciones de modelos de lenguaje grandes, 2025
 - OWASP Agentic AI Top 10
 - OWASP AI Exchange
-- MITRE ATLAS: Adversarial Threat Landscape for AI Systems
+- MITRE ATLAS: Panorama de amenazas adversarias para sistemas de IA
 - Google Secure AI Framework (SAIF)
-- Microsoft AI Security SDL documentation
-- CISA Guidance on AI Cybersecurity, 2024
-- Barreno et al., Can Machine Learning Be Secure?, 2006
+- documentación de Microsoft AI Security SDL
+- Guía de CISA sobre ciberseguridad de la IA, 2024
+- Barreno et al., ¿Puede ser seguro el aprendizaje automático?, 2006
 - Biggio et al., Poisoning Attacks Against Support Vector Machines, 2012
-- Goodfellow et al., Explaining and Harnessing Adversarial Examples, ICLR 2015
-- IAPP AI Governance Professional (AIGP) program documentation
-- ISACA AI Fundamentals Certificate program documentation
+- Goodfellow et al., explicación y aprovechamiento de ejemplos adversarios, ICLR 2015
+- documentación del programa IAPP AI Governance Professional (AIGP)
+- documentación del programa ISACA AI Fundamentals Certificate

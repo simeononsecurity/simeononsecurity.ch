@@ -3,9 +3,9 @@ title: "AIサイバーセキュリティ認定資格は実務に追いついて�
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 description: "認定資格の経験と現在の攻撃対象領域の限界を踏まえ、AIガバナンス認定資格とAIセキュリティ実務の隔たりについて考察します。"
-tags: ["AIセキュリティ", "AIガバナンス", "AI認定資格", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "プロンプトインジェクション", "AIサイバーセキュリティ", "LLMセキュリティ", "OWASP LLM Top 10", "MITRE ATLAS", "AIリスク管理", "AIコンプライアンス", "機械学習セキュリティ", "モデルのサプライチェーン", "敵対的AI", "AIエージェント", "MCPセキュリティ", "AIレッドチーム演習", "AIガバナンス認定資格", "エージェント型AI", "Google SAIF"]
+tags: ["AIセキュリティ", "AIガバナンス", "AI認定資格", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "プロンプトインジェクション", "AIサイバーセキュリティ", "LLMセキュリティ", "OWASP LLM Top 10", "MITRE ATLAS", "AIリスク管理", "AIコンプライアンス", "機械学習セキュリティ", "モデルの供給網", "敵対的AI", "AIエージェント", "MCPセキュリティ", "AIレッドチーム演習", "AIガバナンス認定資格", "エージェント型AI", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
 coverAlt: "左右に分かれた場面。片側ではオフィスの専門家がガバナンス文書について話し合い、もう片側では混沌としたデジタル表現がサイバー攻撃を受けるAIシステムを示しています。鮮やかな色が対比を強調しています。"
 coverCaption: ""
@@ -23,7 +23,7 @@ coverCaption: ""
 
 第1層はガバナンスです。NIST AI Risk Management Framework（AI RMF 1.0、2023）、ISO/IEC 42001:2023、EU AI Actなどの文書は、組織とプロセスのレベルで機能します。AIリスクの管理、監督体制の構築、説明責任の記録方法を説明します。意図的に、具体的な制御策の指定ではなくガバナンスに重点を置いています。これは設計上の選択です。
 
-第2層は脅威の分類です。MITRE ATLASは、ATT&CKと同じ形式でAIシステムに対する敵対的な戦術を記録します。OWASP Top 10 for Large Language Model Applicationsは、導入済みのLLMに最も関連する攻撃の種類を列挙します。これらの文書は攻撃に名前を付け、その仕組みを説明します。防御策は規定しません。
+第2層は脅威の分類です。MITRE ATLASは、ATT&CKと同じ形式でAIシステムに対する敵対的な戦術を記録します。大規模言語モデルを利用するアプリケーションのOWASP Top 10は、導入済みのLLMに最も関連する攻撃の種類を列挙します。これらの文書は攻撃に名前を付け、その仕組みを説明します。防御策は規定しません。
 
 第3層は技術的な指針です。Google's Secure AI Framework（SAIF）、Microsoft's AI Security SDL、OWASP AI Exchange、NIST AI 600-1（Generative AI Profile）、Anthropic、OpenAI、Metaなどのベンダー固有のセキュリティ文書が含まれます。安全な導入、評価手法、実行時制御に関するエンジニアリングレベルの指針を提供します。
 
@@ -78,7 +78,7 @@ EU AI Actに基づく認定資格は、AIシステムの分類、技術文書の
 
 ## AIシステムを実際に攻撃するもの
 
-{{< figure src="ai-system-attack-surface-prompt-injection-poisoning.webp" alt="AIシステムの攻撃対象領域を示す図。プロンプトインジェクション、訓練データのポイズニング、モデルのサプライチェーン侵害、モデル抽出の攻撃経路を示しています" >}}
+{{< figure src="ai-system-attack-surface-prompt-injection-poisoning.webp" alt="AIシステムの攻撃対象領域を示す図。プロンプトインジェクション、訓練データのポイズニング、モデルの供給網侵害、モデル抽出の攻撃経路を示しています" >}}
 
 MITRE ATLASとOWASP LLM Top 10は、実運用上の脅威を文書化しています。これらの資料は有用な詳細さで攻撃を列挙します。ガバナンスフレームワークでは、脅威をより抽象的に扱います。以下はセキュリティ専門の資料に基づいています。
 
@@ -88,7 +88,7 @@ MITRE ATLASとOWASP LLM Top 10は、実運用上の脅威を文書化してい�
 
 訓練データのポイズニングは、モデルの動作を劣化させ、バックドアを仕込み、トリガーに反応する挙動を埋め込むため、訓練データに悪意ある例を混入させます。モデルが特定のトリガー入力を受け取るまで、ポイズニング成功の兆候が現れないことがよくあります。組織がユーザー生成コンテンツ、取得文書、第三者データセットを使ってモデルをファインチューニングし、その出所を検証しない場合、このリスクにさらされます。
 
-モデルのサプライチェーン侵害は、多くの組織が後回しにする脅威です。モデルリポジトリは、モデルの重みとともに実行可能コードを配布することがあります。pickleのような安全でないシリアライズ形式は、繰り返しサプライチェーンのリスクを生んできました。モデルのダウンロードに付属するパッケージが、脆弱な依存関係をインストールする場合もあります。多くの組織は公開リポジトリのモデルを、ソフトウェア依存関係より大幅に甘く審査しているようです。攻撃対象領域はnpmに匹敵しますが、モデルを取り巻くセキュリティ文化はまだ初期段階です。
+モデルの供給網侵害は、多くの組織が後回しにする脅威です。モデルリポジトリは、モデルの重みとともに実行可能コードを配布することがあります。pickleのような安全でないシリアライズ形式は、繰り返し供給網のリスクを生んできました。モデルのダウンロードに付属するパッケージが、脆弱な依存関係をインストールする場合もあります。多くの組織は公開リポジトリのモデルを、ソフトウェア依存関係より大幅に甘く審査しているようです。攻撃対象領域はnpmに匹敵しますが、モデルを取り巻くセキュリティ文化はまだ初期段階です。
 
 モデル抽出では、攻撃者がAPIに推論クエリを繰り返し送り、機能的に類似したモデルを再構築します。知的財産の損失につながるだけでなく、モデルをオフラインで調べ、より標的を絞った攻撃を開発できるようになります。
 
@@ -192,7 +192,7 @@ Security+、CISSP、ISO 27001が扱う領域は、何年もかけて変化しま
 認定カリキュラムが現在のAIセキュリティ実務を反映するには、次を扱う必要があります。
 
 - プロンプトインジェクションへの多層防御: 入力フィルタリング、出力検証、ツールの範囲制限、サンドボックス、人間の承認、各対策に記録された限界
-- モデルのサプライチェーン検証: 安全でないシリアライズのリスク、SBOM要件、来歴文書、署名済み成果物の検証
+- モデルの供給網検証: 安全でないシリアライズのリスク、SBOM要件、来歴文書、署名済み成果物の検証
 - AIエージェントのセキュリティアーキテクチャ: 信頼境界、最小権限のツールアクセス、操作の可逆性、監視要件
 - MCPと外部連携のセキュリティ: ツールサーバーの信頼性評価、ツール権限の監査、データと指示の分離
 - 評価とレッドチーム演習: 敵対的評価の範囲の定め方、利用可能なベンチマークと評価データセット、結果の解釈
@@ -204,7 +204,7 @@ Security+、CISSP、ISO 27001が扱う領域は、何年もかけて変化しま
 
 組織のAIシステムを担当している場合:
 
-OWASP Top 10 for Large Language Model ApplicationsとOWASP Agentic AI Top 10を読んでください。無料で、現在の有料認定カリキュラムより運用面の具体性があります。
+大規模言語モデルを利用するアプリケーションのOWASP Top 10とOWASP Agentic AI Top 10を読んでください。無料で、現在の有料認定カリキュラムより運用面の具体性があります。
 
 AIコンポーネントの次回の脅威モデリングに先立ち、MITRE ATLASを確認してください。導入設計を確定する前に、自分のアーキテクチャに適用される攻撃者の戦術を把握してください。
 
@@ -226,18 +226,18 @@ Google SAIF、Microsoft's AI SDL、OWASP AI Exchangeを確認し、ガバナン�
 
 - NIST AI Risk Management Framework (AI RMF 1.0), 2023
 - NIST AI 600-1: Generative AI Profile, 2024
-- NIST SP 1270: Towards a Standard for Identifying and Managing Bias in Artificial Intelligence
+- NIST SP 1270: 人工知能におけるバイアスの特定と管理に関する標準に向けて
 - ISO/IEC 42001:2023 Artificial Intelligence Management Systems
 - EU AI Act, Regulation (EU) 2024/1689
-- OWASP Top 10 for Large Language Model Applications, 2025
+- 大規模言語モデルを利用するアプリケーションのOWASP Top 10, 2025
 - OWASP Agentic AI Top 10
 - OWASP AI Exchange
-- MITRE ATLAS: Adversarial Threat Landscape for AI Systems
+- MITRE ATLAS: AIシステムに対する敵対的脅威の全体像
 - Google Secure AI Framework (SAIF)
-- Microsoft AI Security SDL documentation
-- CISA Guidance on AI Cybersecurity, 2024
-- Barreno et al., Can Machine Learning Be Secure?, 2006
+- Microsoft AI Security SDL の文書
+- CISA「AIサイバーセキュリティに関するガイダンス」、2024年
+- Barreno et al., 機械学習は安全になり得るか？, 2006
 - Biggio et al., Poisoning Attacks Against Support Vector Machines, 2012
-- Goodfellow et al., Explaining and Harnessing Adversarial Examples, ICLR 2015
-- IAPP AI Governance Professional (AIGP) program documentation
-- ISACA AI Fundamentals Certificate program documentation
+- Goodfellow et al., 敵対的サンプルの説明と活用, ICLR 2015
+- IAPP AI Governance Professional (AIGP) プログラムの文書
+- ISACA AI Fundamentals Certificate プログラムの文書

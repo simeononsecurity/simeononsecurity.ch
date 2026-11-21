@@ -3,7 +3,7 @@ title: "AI-cybersecuritycertificeringen: ze lopen achter op de praktijk"
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-12
+lastmod: 2026-11-20
 description: "Een mening over de kloof tussen certificeringen voor AI-governance en de praktijk van AI-beveiliging, gebaseerd op certificeringservaring en de huidige grenzen van het aanvalsoppervlak."
 tags: ["AI-beveiliging", "AI-governance", "AI-certificeringen", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "promptinjectie", "AI-cybersecurity", "LLM-beveiliging", "OWASP LLM Top 10", "MITRE ATLAS", "AI-risicobeheer", "AI-compliance", "machinelearningbeveiliging", "modeltoeleveringsketen", "adversariële AI", "AI-agenten", "MCP-beveiliging", "AI-red-teaming", "AI-governancecertificeringen", "agentische AI", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
@@ -23,7 +23,7 @@ Voordat we uitleggen wat ontbreekt, helpt het om de bestaande onderdelen uit elk
 
 De eerste laag is governance. Documenten zoals NIST AI Risk Management Framework (AI RMF 1.0, 2023), ISO/IEC 42001:2023 en de EU AI Act werken op organisatieniveau en procesniveau. Ze beschrijven hoe je AI-risico beheert, toezicht structureert en verantwoordelijkheid vastlegt. Ze richten zich bewust op governance in plaats van op voorgeschreven technische controles. Dat is opzet.
 
-De tweede laag is de dreigingstaxonomie. MITRE ATLAS documenteert adversarial tactieken tegen AI-systemen in hetzelfde formaat als ATT&CK. De OWASP Top 10 for Large Language Model Applications somt de aanvalsklassen op die het relevantst zijn voor geïmplementeerde LLM's. Deze documenten benoemen de aanvallen en leggen uit hoe ze werken. Ze schrijven geen verdediging voor.
+De tweede laag is de dreigingstaxonomie. MITRE ATLAS documenteert adversarial tactieken tegen AI-systemen in hetzelfde formaat als ATT&CK. De OWASP Top 10 voor toepassingen met grote taalmodellen somt de aanvalsklassen op die het relevantst zijn voor geïmplementeerde LLM's. Deze documenten benoemen de aanvallen en leggen uit hoe ze werken. Ze schrijven geen verdediging voor.
 
 De derde laag bestaat uit technische richtlijnen. Hieronder vallen Google's Secure AI Framework (SAIF), Microsoft's AI Security SDL, OWASP AI Exchange, NIST AI 600-1 (Generative AI Profile) en beveiligingsdocumentatie van leveranciers zoals Anthropic, OpenAI en Meta. Deze bronnen geven technische richtlijnen voor veilige implementatie, evaluatiemethoden en runtimecontroles.
 
@@ -204,7 +204,7 @@ Om huidige AI-beveiligingspraktijken weer te geven, moeten certificeringscurricu
 
 Als je verantwoordelijk bent voor AI-systemen binnen je organisatie:
 
-Lees de OWASP Top 10 for Large Language Model Applications en de OWASP Agentic AI Top 10. Ze zijn gratis en operationeel specifieker dan de huidige betaalde certificeringscurricula.
+Lees de OWASP Top 10 voor toepassingen met grote taalmodellen en de OWASP Agentic AI Top 10. Ze zijn gratis en operationeel specifieker dan de huidige betaalde certificeringscurricula.
 
 Bekijk MITRE ATLAS vóór je volgende threat-modelingsessie voor een AI-component. Weet welke aanvallertactieken op je architectuur van toepassing zijn voordat je het implementatieontwerp afrondt.
 
@@ -226,18 +226,18 @@ Beschouw je governancecertificering als documentatie van je proceslaag. Het is g
 
 - NIST AI Risk Management Framework (AI RMF 1.0), 2023
 - NIST AI 600-1: Generative AI Profile, 2024
-- NIST SP 1270: Towards a Standard for Identifying and Managing Bias in Artificial Intelligence
+- NIST SP 1270: Naar een standaard voor het identificeren en beheren van vooroordelen in kunstmatige intelligentie
 - ISO/IEC 42001:2023 Artificial Intelligence Management Systems
 - EU AI Act, Regulation (EU) 2024/1689
-- OWASP Top 10 for Large Language Model Applications, 2025
+- OWASP Top 10 voor toepassingen met grote taalmodellen, 2025
 - OWASP Agentic AI Top 10
 - OWASP AI Exchange
-- MITRE ATLAS: Adversarial Threat Landscape for AI Systems
+- MITRE ATLAS: Overzicht van vijandige dreigingen voor AI-systemen
 - Google Secure AI Framework (SAIF)
-- Microsoft AI Security SDL documentation
-- CISA Guidance on AI Cybersecurity, 2024
-- Barreno et al., Can Machine Learning Be Secure?, 2006
+- documentatie van Microsoft AI Security SDL
+- CISA-richtlijnen voor AI-cyberbeveiliging, 2024
+- Barreno et al., Kan machine learning veilig zijn?, 2006
 - Biggio et al., Poisoning Attacks Against Support Vector Machines, 2012
-- Goodfellow et al., Explaining and Harnessing Adversarial Examples, ICLR 2015
-- IAPP AI Governance Professional (AIGP) program documentation
-- ISACA AI Fundamentals Certificate program documentation
+- Goodfellow et al., uitleg en benutting van adversariële voorbeelden, ICLR 2015
+- programmadocumentatie van IAPP AI Governance Professional (AIGP)
+- programmadocumentatie van het ISACA AI Fundamentals Certificate
