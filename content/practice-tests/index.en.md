@@ -15,7 +15,8 @@ coverCaption: ""
 |----------------------------------------------|------------------------|
 | [CompTIA's A Plus - Practice Test](/a-plus-practice-test)        |  Practice test for CompTIA's A Plus certification. |
 | [CompTIA's Network Plus - Practice Test](/network-plus-practice-test) |  Practice test for CompTIA's Network Plus certification. |
-| [CompTIA's Security Plus - Practice Test](/security-plus-practice-test) |  Practice test for CompTIA's Security Plus certification. |
+| [Security+ SY0-801 Practice Test](/security-plus-sy0-801-practice-test/) | Original scenarios mapped to SY0-801 objectives. See the [SY0-801 course](/security-plus-sy0-801-start/). |
+| [General Security+ Practice Test](/security-plus-practice-test/) | Original question bank, not mapped to a specific exam version. |
 | [CompTIA's Linux Plus - Practice Test](/linux-plus-practice-test)   |  Practice test for CompTIA's Linux Plus certification. |
 | [CompTIA's CySA+ - Practice Test](/cysa-plus-practice-test)   |  Practice test for CompTIA's CySA+ (CS0-003) certification. |
 | [CompTIA's PenTest+ - Practice Test](/pentest-plus-practice-test)   |  Practice test for CompTIA's PenTest+ (PT0-003) certification. |
@@ -43,7 +44,8 @@ coverCaption: ""
 ## CompTIA Certification Practice Tests
 ### [CompTIA's A Plus - Practice Test](/a-plus-practice-test)
 ### [CompTIA's Network Plus - Practice Test](/network-plus-practice-test)
-### [CompTIA's Security Plus - Practice Test](/security-plus-practice-test)
+### [Security+ SY0-801 Practice Test](/security-plus-sy0-801-practice-test/)
+### [General Security+ Practice Test](/security-plus-practice-test/)
 ### [CompTIA's Linux Plus - Practice Test](/linux-plus-practice-test)
 ### [CompTIA's CySA+ - Practice Test](/cysa-plus-practice-test)
 ### [CompTIA's PenTest+ - Practice Test](/pentest-plus-practice-test)

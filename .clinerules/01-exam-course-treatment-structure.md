@@ -99,3 +99,16 @@ After cloning, verify with `grep`:
   `nohup npx hugo --gc --minify -D > /tmp/<exam>_build.log 2>&1 &`
 - The quiz JavaScript only activates in the production CI environment. **Locally, practice-test
   pages render as plain section list pages. That is expected, not a bug.**
+
+## Parallel Exam Versions
+
+For Security+ SY0-801, use the `security-plus-sy0-801` slug for the domain
+section, start page, practice test, and explicit `security-plus-sy0-801_quiz`
+layout. Keep the SY0-701 course and original General Security+ quiz URLs
+working. Label each edition in the listings and link the new hub and quiz in
+both directions. The older bank is not objective-mapped to either edition.
+
+On Hugo 0.163.3, set `type: "section"` with an explicit layout kept under
+`layouts/section/`. Without the type override, Hugo looks for the named
+layout under the page's own content type and can silently render the
+generic section template. Verify the rendered page contains the quiz UI.

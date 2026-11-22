@@ -73,3 +73,22 @@ the same spartan style required for page content (see `03-content-writing-style.
 - Start the definition with a lowercase noun phrase ("a safety procedure that...", "software that...").
 - One clause, no em dashes, no semicolons.
 - Make each definition uniquely identify its term so T1/T3 have one defensible answer.
+
+## Security+ SY0-801 Scenario Bank
+
+The SY0-801 bank in `static/quiz-dicts/secplus801dict.json` is a separate,
+hand-authored exception to the concept generator and its per-domain minimum.
+Keep the older `secplusdict.json` bank available as General Security+ practice
+and do not label it as exam-version coverage.
+
+Use the same four-key schema. Prefix `reasoning` with the mapped objective
+number, then explain why the selected action fits the stated constraints better
+than the other plausible options. Cover every official objective and use the
+published domain weights for the overall question distribution. Write original
+workplace decisions, not definitions disguised as scenarios or recalled exam
+items. Review each item's constraints and answer key before publication.
+
+The SY0-801 quiz loads that bank from the same origin, serializes its JSON-LD object with
+`jsonify | safeJS` to avoid deeply quoted strings, and displays the
+explanation on both correct and incorrect selections. Check those two paths,
+completion, restart and load failure when changing its layout or script.

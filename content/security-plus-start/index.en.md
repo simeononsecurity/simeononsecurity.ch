@@ -1,5 +1,5 @@
 ---
-title: "CompTIA Security+ Course"
+title: "CompTIA Security+ Course (SY0-701)"
 date: 2025-01-01
 lastmod: 2026-10-10
 toc: true
@@ -13,7 +13,7 @@ cover: "/img/cover/comptia-security-plus-sy0-701-exam-study-guide-illustration.w
 coverAlt: "An abstract digital illustration showing interconnected cybersecurity elements like firewalls and data encryption on a dark background, using vibrant colors to convey a technical theme."
 coverCaption: "Practice Security+ SY0-701 concepts with a synthetic library case"
 ---
-CompTIA Security+ SY0-701 covers five domains. This course introduces their terms and connects them through one fictional Harbor Library case. It gives you safe practice in control selection, threat analysis, architecture, operations, and risk governance. It does not replace the official objectives or supervised experience.
+CompTIA Security+ SY0-701 covers five domains. This course introduces their terms and connects them through one fictional Harbor Library case. It gives you safe practice in control selection, threat analysis, architecture, operations, and risk governance. It does not replace the official objectives or supervised experience. For the newer exam, see the [SY0-801 course](/security-plus-sy0-801-start/).
 
 Before starting, understand basic IP networks, accounts and file permissions, the command line, and how a web service uses a database. If these are new, read the [Network+ course](/network-plus-start/) and the [Linux+ course](/linux-plus-start/) first. Plan five study sessions for the lessons, then one session for the final exercise. Add time for terms or tools you need to learn.
 
@@ -48,7 +48,7 @@ Create one short security decision package:
 - A recovery plan with a stated RTO and RPO, backup scope, isolated restore test, and evidence fields. Explain why replication alone would not meet the requirement.
 - A risk-register row with assumptions, estimated impact, treatment, residual risk, owner, and review date. Include one question for the backup vendor.
 
-Pass only when you can defend each decision from the case facts, identify which tests remain unrun, and trace every proposed control to a risk. A peer should be able to reproduce your reasoning from the package without asking what a field means. Revise weak sections before taking the [Security+ practice test](/security-plus-practice-test/). Practice questions check recall and judgment; a score alone does not prove workplace readiness.
+Pass only when you can defend each decision from the case facts, identify which tests remain unrun, and trace every proposed control to a risk. A peer should be able to reproduce your reasoning from the package without asking what a field means. Revise weak sections before taking the [general Security+ practice test](/security-plus-practice-test/). Practice questions check recall and judgment; a score alone does not prove workplace readiness.
 
 ## Objective map and limits
 

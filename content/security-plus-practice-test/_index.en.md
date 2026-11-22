@@ -1,6 +1,6 @@
 ---
-title: "CompTIA Security+ Practice Test - SimeonOnSecurity"
-description: "Enhance your security knowledge with our comprehensive CompTIA Security+ practice test. Test your understanding of key concepts, techniques, and best practices in the field of network security."
+title: "General Security+ Practice Test - SimeonOnSecurity"
+description: "Review general Security+ concepts with the original question bank. This bank is not mapped to SY0-701 or SY0-801."
 genre: ["CompTIA Security Plus", "practice test", "network security"]
 tags: ["CompTIA Security Plus", "practice test", "security knowledge", "concepts", "techniques", "best practices", "network security"]
 sitemap:

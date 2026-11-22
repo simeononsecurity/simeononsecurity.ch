@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "A library's public printing kiosk sometimes leaves the preceding patron's documents visible to the next patron. Authentication already works, and the kiosk must stay available without staff intervention. Which change BEST protects confidentiality between patrons?",
+    "answers": {
+      "A": "Require a warning at sign-in and again before accepting the next patron's print job",
+      "B": "End idle sessions and remove local copies of print jobs and documents from each patron's session",
+      "C": "Record file names and access times for a weekly staff review",
+      "D": "Back up the kiosk nightly and restore its image at opening"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 1.1 (General Security Concepts): Ending the session and removing its local files prevents the next patron from inheriting documents. A notice relies on patrons, logs detect exposure after the fact, and a nightly restore leaves daytime sessions exposed."
+  },
+  {
+    "question": "A claims system stores images in an approved repository and already scans attachments at ingress. A reviewer can still download and forward images from cases assigned to other teams because every reviewer has the same application role. The business will not disable downloads for assigned cases. Which control BEST addresses the remaining gap?",
+    "answers": {
+      "A": "Require a second authentication factor before any download",
+      "B": "Encrypt repository volumes with a customer-managed key",
+      "C": "Alert on download spikes for each review team",
+      "D": "Enforce a case assignment check on each download request"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 1.1 (General Security Concepts): Case-level authorization limits downloads without removing a necessary workflow. Another factor validates identity, volume encryption does not restrict authorized application requests, and a spike alert does not prevent cross-team access."
+  },
+  {
+    "question": "An old building access controller cannot record individual administrator actions until it is replaced in six months. Auditors will accept equivalent interim evidence if no technician acts alone and every session can be attributed. The installed controller cannot be modified. Which control BEST meets the auditor's condition?",
+    "answers": {
+      "A": "Supervise named maintenance sessions and keep a separate log of each technician's actions",
+      "B": "Keep the shared login and have a supervisor review before-and-after configuration snapshots",
+      "C": "Require a signed access-policy acknowledgment before each technician receives the shared credential",
+      "D": "Add a sign-in sheet that records the time each technician enters the room"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 1.1 (General Security Concepts): A supervised, attributable session records actions the controller cannot log. Before-and-after snapshots can miss transient actions, signed policies establish acknowledgment rather than activity, and room access records do not show what changed."
+  },
+  {
+    "question": "A payroll office already makes two people approve every payment file. An incorrect export can still replace an approved file before the bank imports it. The team needs to prevent the replacement file from being accepted, not merely investigate it afterward. Which control BEST fits?",
+    "answers": {
+      "A": "Send approval emails to a separate incident mailbox",
+      "B": "Stage files in a locked import directory that only payroll approvers can modify after approval",
+      "C": "Verify the digest against the protected approval record and reject any file that does not match",
+      "D": "Generate a reconciliation report after the bank acknowledges the import"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 1.1 (General Security Concepts): Enforcing the approved digest at import is preventive and binds approval to the file's contents. Restricted write access reduces exposure but still lets an approver replace a file. Emails and reconciliation support detection or investigation rather than preventing acceptance."
+  },
+  {
+    "question": "A university knows authentication cannot stop someone from carrying a legitimately issued badge into a restricted lab they're not assigned to. The lab manager needs individual accountability for access, and students must enter unescorted when scheduled. Which change BEST addresses both requirements?",
+    "answers": {
+      "A": "Add a brief security training module before each lab semester",
+      "B": "Enforce the individual schedule at the reader and log entries by identity",
+      "C": "Arm a badge reader on a shared schedule for all students and install a camera inside the lab",
+      "D": "Allow scheduled group entry through one badge holder and have each student sign an attendance log"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 1.1 (General Security Concepts): Individual authorization and entry accounting meet both requirements. Training does not enforce the schedule, a group schedule and camera cannot reliably bind entries to assigned individuals, and a sign-in log does not prevent shared badge access."
+  },
+  {
+    "question": "A hospital has approval to replace an interface between its pharmacy and billing systems. The test environment cannot simulate a downstream reconciliation batch that runs hourly. A missed batch could be detected before two hours, after which manual correction is required. Which change-plan addition BEST reduces the rollout risk?",
+    "answers": {
+      "A": "Verify the first live batch and define a rollback deadline before the correction threshold",
+      "B": "Extend the maintenance window to four hours while retaining the upstream service checks as the acceptance criteria",
+      "C": "Add a pharmacy and billing peer review of the upstream configuration before authorizing the change",
+      "D": "Add a billing review of the following morning's reconciliation report and an escalation contact"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 1.2 (General Security Concepts): A live checkpoint covers the untested dependency, and a timely rollback trigger avoids the known correction threshold. More time, a configuration review, or next-day observation does not satisfy the specific recovery constraint."
+  },
+  {
+    "question": "A building-management vendor says one production controller must restart to accept a signed configuration change. It controls overnight refrigeration and cannot be redundant. A storeroom manager says there is a brief shipment gap when inventory can be held in a separate chiller. What should the change owner do NEXT?",
+    "answers": {
+      "A": "Reserve a standard low-traffic window from IT monitoring and use the after-hours escalation roster for coverage",
+      "B": "Stage the configuration now, defer the restart until the next routine window, and notify staff once it is booked",
+      "C": "Restart during the vendor's normal support hours and ask the storeroom to handle inventory arrangements independently",
+      "D": "Book the chiller window with the storeroom manager and confirm the backout plan"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 1.2 (General Security Concepts): The available shipment gap and backup chiller must be coordinated with the business owner, not inferred from IT traffic. Applying before coordination or selecting vendor hours alone ignores the restart dependency and potential inventory impact."
+  },
+  {
+    "question": "A company stores firewall policies in version control. After an approved maintenance window, a device appears to be running a different rule order than reviewers expected. No fallback is needed yet; the change owner first needs to establish whether the deployed state matches the approval. What is the BEST evidence to compare?",
+    "answers": {
+      "A": "The change ticket's open and closed timestamps against device uptime",
+      "B": "Compare a fresh production policy export with whatever configuration staging is running at the time of the check",
+      "C": "Compare a read-only export of the running configuration against the exact commit recorded in the approved change ticket",
+      "D": "The device's check-in status against the monitoring tool's response-time baseline"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 1.2 (General Security Concepts): The running export shows what is enforced, while the recorded commit identifies what reviewers authorized. Ticket times, an unpinned staging baseline, and monitoring status do not establish equivalence."
+  },
+  {
+    "question": "A payroll update must replace a regional rule table and write data in a new format. Testing shows records written after the update cannot be read by the old release. Management requires a recovery route that does not silently lose new pay adjustments. Which change-plan decision BEST addresses this risk?",
+    "answers": {
+      "A": "Capture the pre-change application binaries and reinstall them if validation fails",
+      "B": "Test a recovery procedure that preserves adjustments made after cutover",
+      "C": "Extend the deployment window and retain the pre-change data snapshot until the window closes",
+      "D": "Make operators manually verify adjustments only after the change record closes"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 1.2 (General Security Concepts): The rollback must preserve data written in the new format, not only the executable or a pre-change snapshot. A longer window and later visual review do not provide a way to recover the new adjustments."
+  },
+  {
+    "question": "A security engineer proposes disabling a legacy file-transfer method across 18 sites. A prior inventory lists the service as unused, but last week's logs show a recurring transfer from an undocumented address. There is no incident requiring an emergency change. What is the BEST next step?",
+    "answers": {
+      "A": "Confirm the transfer's owner and purpose, then update the impact analysis and tests",
+      "B": "Proceed at the scheduled time and assign priority help-desk coverage for any sites that report service interruptions",
+      "C": "Give the recurring source a permanent exception based on its consistent transfer history and continue the rollout",
+      "D": "Expand the approved change to disable all legacy services at the same time"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 1.2 (General Security Concepts): The logs expose an unresolved dependency, so finding the owner and workflow establishes impact and appropriate tests. Applying blindly risks interruption, a permanent exception accepts unexplained exposure, and expanding scope adds risk."
+  },
+  {
+    "question": "A benefits administrator distributes an annual rate table through public mirrors. Partners do not need the table hidden, but their software must verify that the administrator approved the exact file even if a mirror is compromised. The administrator already distributed its verified public key separately. Which approach BEST meets the requirement?",
+    "answers": {
+      "A": "Publish the file's SHA-256 digest as a separate artifact on every mirror and document how partners should check it",
+      "B": "Encrypt the table with the administrator's public key before copying it to the mirrors",
+      "C": "Use TLS between the administrator and each mirror to upload the file",
+      "D": "Sign the rate table and have partners verify it against the trusted key"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 1.3 (General Security Concepts): A digital signature binds the exact file to the holder of the signing key. A mirror can replace a hash hosted beside a file, public-key encryption does not prove who created the ciphertext, and upload TLS does not verify a later download."
+  },
+  {
+    "question": "A union's member portal must retain password verifiers for offline sign-in recovery if its identity provider is unavailable. The security team wants identical passwords to produce different stored values and wants to make offline guessing expensive if the database is copied. Which design BEST meets both needs?",
+    "answers": {
+      "A": "Use a password-hashing function with a calibrated work factor and a distinct, randomly generated salt for every password",
+      "B": "Encrypt every password using a dedicated database key and keep it in the application's secret store",
+      "C": "Hash every password with a fast cryptographic hash and a single deployment-wide salt",
+      "D": "Generate a distinct random salt for each password, but hash the salted value once using a fast general-purpose hash"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 1.3 (General Security Concepts): Distinct salts prevent identical stored verifiers, and a purpose-built work factor raises guessing cost. Reversible encryption retains recoverable passwords, a shared salt leaves identical passwords recognizable, and one fast hash remains inexpensive to guess."
+  },
+  {
+    "question": "A clinic's archive service sends large backup files to a partner each night. One partner must not be able to decrypt another partner's archives. Both sides already trust the recipients' published public keys, and archives must stay encrypted after leaving transport. Which design is BEST?",
+    "answers": {
+      "A": "Send each archive over mutual TLS, then have the recipient place the file in its normal backup repository",
+      "B": "Encrypt every archive with one symmetric key shared by all partners",
+      "C": "Encrypt each archive with a fresh key and wrap it to the recipient's public key",
+      "D": "Sign each archive with the sender's private key, then store it with its signature in a shared object store"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 1.3 (General Security Concepts): Hybrid encryption uses efficient bulk encryption and restricts access to the data key to the intended recipient. TLS alone ends with transport, one shared key leaves no recipient separation, and signing alone provides no confidentiality."
+  },
+  {
+    "question": "An internal support site renews its TLS certificate. The new leaf certificate is current and matches the hostname, but older managed clients that trust the enterprise root fail unless they have previously cached the new issuing intermediate. Clients cannot retrieve an issuer certificate from the network. What should the site administrator do?",
+    "answers": {
+      "A": "Add the new site certificate as a trusted leaf on each managed client and repeat the process at renewal",
+      "B": "Serve the site's leaf and issuing intermediate so clients can chain to the enterprise root",
+      "C": "Send the trusted root certificate in place of the issuing intermediate",
+      "D": "Renew the leaf certificate again without changing the configured chain"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 1.3 (General Security Concepts): The server must supply the missing intermediate so clients can build a chain to the root they already trust. Trusting the leaf locally is unnecessary and hard to maintain; the root is not a substitute for the intermediate, and renewing the leaf alone leaves the chain incomplete."
+  },
+  {
+    "question": "An employer manages laptops that use full-disk encryption and must be able to recover company records after a device owner leaves. Help-desk staff should not know recovery secrets during routine support, and recovery must be attributable to an approval. Which design BEST meets the requirement?",
+    "answers": {
+      "A": "File each device's recovery key in its issuance ticket and limit that ticket queue to the support team",
+      "B": "Set one shared recovery key for all devices and allow two help-desk supervisors to memorize it",
+      "C": "Back up device configuration and ask users to retain the recovery key offsite",
+      "D": "Escrow a unique key for each device in a restricted vault that enforces approval and logs every recovery-key retrieval"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 1.3 (General Security Concepts): Individual escrow retains recoverability without broad routine access and creates an approval trail. Tickets or shared keys increase exposure and weaken segregation, and relying on departing users does not ensure recovery."
+  },
+  {
+    "question": "An organization is moving release signing from one build server to several runners. It wants the runners to request signatures after approval, but compromising one runner must not let anyone copy the long-lived signing private key. Which implementation BEST satisfies both requirements?",
+    "answers": {
+      "A": "Use a hardware-backed signer with a non-exportable key and authorize each signing request",
+      "B": "Give each runner an encrypted copy of the same key and store its decryption secret in the CI system",
+      "C": "Store a key copy on each runner's encrypted boot volume and restrict file permissions to the signing job",
+      "D": "Have an approver share a short-lived download link to the private key for each release"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 1.3 (General Security Concepts): A non-exportable key permits authorized signing without exposing key material to runners. The other designs deliver or unlock the private key on the runner, which defeats the stated constraint even when storage or transfer is encrypted."
+  },
+  {
+    "question": "A manufacturer records dozens of unauthorized sign-in attempts against a retired cloud console. No active accounts or data remain in that console, but it still shares a privileged trust relationship with production. Which detail MOST changes the risk decision?",
+    "answers": {
+      "A": "Whether the former console users retain other privileged roles",
+      "B": "Whether the retired sign-in service exposes its product version",
+      "C": "Whether the shared trust still authorizes privileged production actions",
+      "D": "Whether the failures exceed the established monthly baseline"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 2.1 (Threats, Vulnerabilities, and Attacks): An active privileged trust creates a plausible path to production impact even without local accounts or data. Attempt volume helps triage, but it does not establish that path; the old product name and users are less decisive."
+  },
+  {
+    "question": "A hospital remediation team has one overnight outage window. Two devices have the same rated weakness. One runs a training display on an isolated subnet; the other transfers bedside measurements and is reachable from several support segments. No exploitation has been observed. Which decision BEST accounts for the difference?",
+    "answers": {
+      "A": "Patch the bedside transfer device after clinical sign-off with a tested rollback plan",
+      "B": "Patch the devices in asset order to match their equal technical severity",
+      "C": "Use the window for the isolated display to minimize scheduling disruption",
+      "D": "Defer outage work and monitor both devices for exploitation"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 2.1 (Threats, Vulnerabilities, and Attacks): The bedside system has greater exposure and consequences. Clinical sign-off accounts for operational risk; technical severity, asset order and ease of maintenance ignore the scenario's differences. Lack of observed exploitation does not erase the risk."
+  },
+  {
+    "question": "A nonprofit's press site is defaced immediately after a controversial decision. A group publicly claims responsibility, posts political demands, and asks supporters to share the message. There is no demand for money or secrecy. Which motivation should the response team prioritize as a working hypothesis?",
+    "answers": {
+      "A": "Financial extortion to fund future operations",
+      "B": "Commercial espionage for a competing organization",
+      "C": "Personal retaliation following an employment dispute",
+      "D": "Ideological influence through public pressure"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 2.2 (Threats, Vulnerabilities, and Attacks): Public messaging and political demands favor ideological influence. A claim is not proof of who performed the act. Extortion, commercial espionage, and insider retaliation lack corresponding evidence in the scenario."
+  },
+  {
+    "question": "A city investigates unauthorized access to water-treatment plans. Six months of records show intermittent, low-volume reads concentrated on long-term infrastructure expansion plans. No data was modified, and no ransom or publicity followed. Which motivation best fits the available evidence?",
+    "answers": {
+      "A": "Short-term extortion using the plans as leverage",
+      "B": "Long-term intelligence collection",
+      "C": "Public protest through disruption of city services",
+      "D": "Sabotage of the current treatment process"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 2.2 (Threats, Vulnerabilities, and Attacks): Sustained selective collection without disruption supports an intelligence objective. It does not establish state sponsorship, and the absence of demands, publicity, or changes weakens the other explanations."
+  },
+  {
+    "question": "After an employee accepts a job at a competitor, the security team detects downloads of pricing models and bid strategy files through the employee's still-valid account. The files were shared externally through a personal account. What is the BEST initial threat characterization?",
+    "answers": {
+      "A": "Potential insider misuse of valid access to take competitive information",
+      "B": "Accidental disclosure through an automated publication rule",
+      "C": "Opportunistic intrusion through a public-facing service",
+      "D": "Ideological disruption intended to embarrass management"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 2.2 (Threats, Vulnerabilities, and Attacks): The artifact selection, timing, and use of valid internal access support investigating deliberate insider misuse. Account ownership is not definitive attribution; however, no evidence in the case points to the other motives or paths."
+  },
+  {
+    "question": "A vendor reveals that an unauthorized party downloaded customer data during a confirmed intrusion. The party privately offers to delete it for payment but did not encrypt production systems or change files. What motivation should guide initial response planning?",
+    "answers": {
+      "A": "Commercial espionage to acquire proprietary business records",
+      "B": "Public pressure to advance an ideological demand",
+      "C": "Financial extortion through stolen data",
+      "D": "Destructive sabotage targeting production data"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 2.2 (Threats, Vulnerabilities, and Attacks): A private payment demand tied to stolen data indicates extortion. Encryption is not required. The scenario presents no apparent competitive objective, political demand, or production sabotage."
+  },
+  {
+    "question": "Accounting receives a payment-detail change inside a legitimate, ongoing email thread. The message is authenticated as coming from the supplier's usual domain. An invoice is due today. Which action BEST addresses the likely threat path without blocking legitimate payments indefinitely?",
+    "answers": {
+      "A": "Request written confirmation from the supplier account in the existing thread",
+      "B": "Call the supplier at its number on file before paying",
+      "C": "Ask the sender for an updated invoice through the same email account",
+      "D": "Release the payment after reviewing the sender domain's authentication results"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 2.3 (Threats, Vulnerabilities, and Attacks): A separate, pre-established channel can verify the request even if the supplier mailbox was compromised. The thread and updated invoice can remain under the same sender's control. Domain authentication does not approve changed payment details."
+  },
+  {
+    "question": "A remote support provider discloses that its operator portal was compromised. Several internal servers trust the provider's unattended agent. Which evidence BEST establishes whether the vendor incident reached the company?",
+    "answers": {
+      "A": "Review the provider's latest compliance assessment for access-control exceptions",
+      "B": "Search employee mailboxes for messages impersonating the provider's support team",
+      "C": "Scan the public web perimeter for remote-access exposures",
+      "D": "Correlate vendor sessions with local endpoint and identity logs"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 2.3 (Threats, Vulnerabilities, and Attacks): Correlating vendor and local session evidence tests whether the trusted support path was used in the incident window. Mail, questionnaires, and public scans can be useful but do not establish activity over that path."
+  },
+  {
+    "question": "A building manager finds an unfamiliar QR sticker placed on top of the official visitor Wi-Fi sign. Network management reports no change to the access points. What is the BEST immediate response?",
+    "answers": {
+      "A": "Rotate staff Wi-Fi credentials and review any recent access-point configuration changes",
+      "B": "Leave the sign up while network staff inspect access points and visitor logs",
+      "C": "Add monitoring for affected visitor traffic before changing the displayed instructions",
+      "D": "Preserve and remove the sticker; restore the approved instructions"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 2.3 (Threats, Vulnerabilities, and Attacks): A substituted QR code may redirect visitors without any access-point change. Preserve the evidence while stopping exposure by removing the code. Password rotation, network checks and traffic monitoring do not immediately stop visitors from using it."
+  },
+  {
+    "question": "A plant must accept periodic diagnostic files from equipment with no network connection. A previous incident involved unapproved removable media moved between office and plant systems. Which change BEST limits this vector while preserving the required workflow?",
+    "answers": {
+      "A": "Encrypt every transfer drive but continue permitting personal drives at the plant",
+      "B": "Inspect approved transfer media at a dedicated station before import",
+      "C": "Limit file transfers to employees with an approved plant access badge",
+      "D": "Scan diagnostic files after they are opened on the receiving workstation"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 2.3 (Threats, Vulnerabilities, and Attacks): Managed media and pre-import inspection address both the trust boundary and content risk without eliminating necessary transfers. Encryption protects confidentiality, badges control physical entry, and scanning after opening is late."
+  },
+  {
+    "question": "A developer fixes an application so customer record IDs are randomly generated. Testers still find that one signed-in customer can view another customer's record if given its ID by support. Which remediation BEST addresses the weakness?",
+    "answers": {
+      "A": "Require mutual TLS before the application accepts calls from customer clients",
+      "B": "Increase ID length to make identifiers harder to discover or guess",
+      "C": "Enforce per-record authorization at the API, even for authenticated callers with a valid identifier",
+      "D": "Move record lookups behind a new URL available only after sign-in"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 2.4 (Threats, Vulnerabilities, and Attacks): The defect is missing object-level authorization. Unpredictable IDs and URL changes reduce guessing, not the effect of a known identifier. Authenticating a client or protecting transport does not determine which customer may access each record."
+  },
+  {
+    "question": "A company discovers that a cloud workload can modify its container registry even though it only downloads approved builds. No credential leak has been detected. Which change MOST directly reduces the attack surface?",
+    "answers": {
+      "A": "Give the workload pull-only access; use a separate publishing identity",
+      "B": "Keep registry permissions unchanged but retain and alert on all write events",
+      "C": "Put a web application firewall on the workload's public route to inspect incoming requests",
+      "D": "Move the registry credentials to a managed vault while keeping current permissions"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 2.4 (Threats, Vulnerabilities, and Attacks): A read-only pull identity removes unnecessary write authority; separating publishing preserves required operations. A vault helps protect credentials but does not limit what the workload can do. Logging and a firewall are complementary, not equivalent."
+  },
+  {
+    "question": "A manufacturer cannot immediately replace a controller whose firmware is no longer supported. External contractors currently have broad remote network access to service it. Which temporary approach BEST reduces exposure without aborting scheduled maintenance?",
+    "answers": {
+      "A": "Require each contractor to sign an updated confidentiality agreement and document every maintenance visit",
+      "B": "Isolate the controller and route approved maintenance through a monitored jump service",
+      "C": "Retain controller logs in a central system for incident review without changing remote reachability",
+      "D": "Install an existing office endpoint agent on the controller without checking compatibility"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 2.4 (Threats, Vulnerabilities, and Attacks): Segmentation and a monitored, restricted maintenance path reduce reachability while preserving approved support. An agreement and logs do not block access. An unvalidated agent may disrupt the controller and is not a defensible first choice."
+  },
+  {
+    "question": "A school approves a browser extension to upload class notes to its learning portal. A review finds that it can inspect every page the browser opens, including the payroll system. The vendor offers a portal-only variant. Which action BEST addresses the identified exposure?",
+    "answers": {
+      "A": "Rotate payroll passwords at shorter intervals but keep the extension installed",
+      "B": "Clear browser history and cookies at the end of each shift",
+      "C": "Encrypt student notes before handing them to the existing extension",
+      "D": "Deploy the portal-only version and block the broader extension"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 2.4 (Threats, Vulnerabilities, and Attacks): Scoping the extension to the necessary site limits what it can see. Clearing history, rotating credentials, or protecting one upload does not prevent inspection of unrelated pages during normal use."
+  },
+  {
+    "question": "A security analyst sees 600 failed sign-in attempts spanning 300 different accounts in ten minutes. Each account was attempted no more than twice, and there were no successful sign-ins in the sample. Which interpretation should guide triage?",
+    "answers": {
+      "A": "Suspected password spraying; check for correlated successful access",
+      "B": "Suspected single-account brute force; focus on the first account that failed",
+      "C": "Confirmed multi-account compromise; treat all 300 users' data as disclosed",
+      "D": "Likely identity-service outage; correlate failure times with recent availability metrics"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 2.5 (Threats, Vulnerabilities, and Attacks): Broad, shallow failures are consistent with spraying, though logs alone do not prove technique or success. Single-account brute force does not fit this distribution, and neither a compromise nor a service outage is established."
+  },
+  {
+    "question": "Help-desk tickets report unexpected MFA notifications. The analyst has to decide whether to prioritize one particular account for investigation. Which finding MOST strongly supports doing so?",
+    "answers": {
+      "A": "The user's normal morning sign-in notice arrived before the help-desk tickets",
+      "B": "The affected account uses a password older than the department median",
+      "C": "An approved prompt preceded unfamiliar sessions and forwarding changes",
+      "D": "The MFA tickets arrived on the same day as a security bulletin"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 2.5 (Threats, Vulnerabilities, and Attacks): The correlated post-authentication actions support actual account misuse and raise this account above notification-only cases. Password age and timing with a general bulletin are less direct evidence."
+  },
+  {
+    "question": "Several file servers record rapid changes to file extensions and write failures. EDR shows the same unexpected process account accessing multiple shares. A nightly backup is about to start. Which action BEST responds to these indicators?",
+    "answers": {
+      "A": "Isolate the suspected source and preserve evidence; pause backup jobs that could overwrite known-good copies",
+      "B": "Restart file servers to clear file locks before reviewing the endpoint evidence",
+      "C": "Let the scheduled backup finish before investigating the suspected source",
+      "D": "Reset passwords for all users before restricting access to the affected shares"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 2.5 (Threats, Vulnerabilities, and Attacks): Containment limits continuing writes, and protecting known-good copies preserves recovery. Waiting allows spread, rebooting can lose evidence without stopping reinfection, and a broad reset does not promptly contain active share access."
+  },
+  {
+    "question": "A DNS monitoring system reports unusual, sustained outbound activity from a workstation. The analyst needs to decide whether this is a new approved agent or possible data exfiltration. Which correlation BEST distinguishes the two?",
+    "answers": {
+      "A": "Compare DNS resolver health and network latency with the facility baseline",
+      "B": "Check whether other devices on the same network are producing similar DNS volumes",
+      "C": "Compare endpoint security update history against the approved workstation baseline",
+      "D": "Match the process and destinations against known-good agent activity"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 2.5 (Threats, Vulnerabilities, and Attacks): Process attribution and known-good agent behavior can explain the observed traffic. Resolver health, peer DNS volumes and endpoint update history provide context but do not show whether this process and its destinations are expected."
+  },
+  {
+    "question": "A help-desk assistant summarizes external ticket attachments and can close tickets. After a particular attachment is summarized, the service attempts to close unrelated cases even though no employee asked it to. Which control MOST directly reduces this risk without removing summarization?",
+    "answers": {
+      "A": "Add examples distinguishing routine closure requests from malicious instructions in attachments",
+      "B": "Require stronger transport encryption between the model and the ticket service",
+      "C": "Make summarization read-only; require human authorization for closure",
+      "D": "Use stricter model instructions about when unrequested actions are prohibited"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 2.6 (Threats, Vulnerabilities, and Attacks): Untrusted content can influence a model. Read-only summarization and independently enforced closure approval remove the model’s authority to act on the attachment. Examples and stricter instructions may shape outputs but do not enforce authorization; transport encryption protects a different boundary."
+  },
+  {
+    "question": "An internal assistant answers policy questions from a shared document index. Employees now receive accurate excerpts from executive documents they cannot open directly. Which change BEST addresses the underlying issue?",
+    "answers": {
+      "A": "Mask executive names and project titles when the assistant creates a response",
+      "B": "Apply document access rules before retrieving text for the model",
+      "C": "Require the assistant to paraphrase restricted passages instead of quoting them directly",
+      "D": "Retain audit records of answers and review them for unauthorized disclosures"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 2.6 (Threats, Vulnerabilities, and Attacks): Enforcing source permissions before retrieval prevents unauthorized context from reaching the assistant. Paraphrasing and targeted masking still leak substance, while logging alone only records the failure."
+  },
+  {
+    "question": "A project team obtains a generated compliance answer with a realistic-looking citation, but the cited policy section does not exist. Staff want to continue drafting with the assistant without using invented claims in final reports. Which control BEST addresses the demonstrated failure?",
+    "answers": {
+      "A": "Limit each answer to one page so a reviewer can read it more quickly",
+      "B": "Remove formatted references from drafts and use plain-language summaries instead",
+      "C": "Route citation-heavy prompts to a faster model without changing the release checklist",
+      "D": "Check material claims against authoritative policy before release"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 2.6 (Threats, Vulnerabilities, and Attacks): The failure is a confident but unsupported claim. Verifying the underlying source and section addresses factual accuracy. Suppressing formatting, cutting length, or switching solely for speed does not establish correctness."
+  },
+  {
+    "question": "A finance clerk receives a convincing voice message that sounds like the CFO and requests a rush payment to a newly supplied account. The request bypasses the normal approval queue. Which step BEST mitigates the suspected AI-assisted impersonation?",
+    "answers": {
+      "A": "Request a clearer recording and compare it with the CFO's prior messages",
+      "B": "Use a voice detector and release the payment if it scores the audio as genuine",
+      "C": "Verify the request through a call to the CFO’s established number and obtain the usual second approval",
+      "D": "Ask a colleague familiar with the CFO to judge the call recording"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 2.6 (Threats, Vulnerabilities, and Attacks): Independent verification and dual approval protect the transaction whether the message is synthetic, replayed, or genuine. Voice familiarity, repeated delivery, and detector confidence do not authorize payments."
+  },
+  {
+    "question": "A procurement search assistant begins recommending an unapproved supplier after a large batch of reference documents is imported. Platform logs show no change to model weights or system rules. What is the BEST first investigation?",
+    "answers": {
+      "A": "Review user account activity for the team that operates the supplier-facing portal",
+      "B": "Review the import's provenance and compare results with a known-good index",
+      "C": "Inspect recent certificate changes on the assistant's network path for anomalies",
+      "D": "Roll back to the previous model before reviewing what changed in retrieval"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 2.6 (Threats, Vulnerabilities, and Attacks): The timing and unchanged model point first to potentially corrupted retrieval content. Comparing with a known-good index helps distinguish the changed source from model behavior. Account and certificate checks miss that observed change, and rollback would test the wrong layer first."
+  },
+  {
+    "question": "Employees sometimes copy customer support tickets into a public AI writing tool. The vendor offers an enterprise contract that excludes input from training, but the tickets may still contain regulated data. Which policy is BEST before authorizing use?",
+    "answers": {
+      "A": "Allow only an approved, minimized workflow after reviewing the vendor’s retention and processing terms",
+      "B": "Allow full tickets under the enterprise contract because training is disabled",
+      "C": "Instruct the tool to delete each ticket after making the rewrite",
+      "D": "Permit all AI providers on endpoints with current antivirus and monitoring"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 2.6 (Threats, Vulnerabilities, and Attacks): No-training commitments do not settle access, retention, or permissible processing. An approved workflow that minimizes inputs addresses the actual disclosure path. Prompt wording and endpoint antivirus cannot enforce provider controls."
+  },
+  {
+    "question": "A manufacturer wants to send hourly production totals from an aging control network to a corporate dashboard. The controllers cannot be patched or reconfigured, and the safety review prohibits any communications path from the corporate network back into the plant. Which architecture BEST satisfies these requirements?",
+    "answers": {
+      "A": "Permit outbound HTTPS through a stateful firewall shared with the corporate network",
+      "B": "Send the totals through a data diode to a corporate collector",
+      "C": "Join the networks through a read-only site-to-site VPN dedicated to the dashboard",
+      "D": "Publish the controller interfaces through a reverse proxy in a screened subnet"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 3.1 (Security Architecture): The unidirectional gateway imposes the required direction boundary without changing the controllers. Stateful HTTPS and a VPN normally carry return traffic, even if the application is read-only. A reverse proxy makes a service reachable but does not prevent a corporate-to-plant communications path."
+  },
+  {
+    "question": "A seasonal charity receives most of its donation traffic in three bursts each year. Its custom receipt service has no long-running jobs or local state. Engineers want it to scale automatically without maintaining guest operating systems, while retaining control over application code and its permissions. Which deployment BEST fits?",
+    "answers": {
+      "A": "A container cluster running on self-managed virtual machines",
+      "B": "A managed SaaS donation platform that does not allow custom receipt code",
+      "C": "A fixed pool of hardened virtual machines behind a load balancer",
+      "D": "An event-driven serverless function with a narrowly scoped execution identity"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 3.1 (Security Architecture): A serverless function handles bursts without a guest-OS maintenance burden while leaving code and execution permissions with the charity. The two VM architectures retain guest management; the proposed SaaS service cannot run the required code."
+  },
+  {
+    "question": "A records office is moving its public appointment portal to managed cloud hosting. Its rules require case records and all copies to remain on equipment operated by the office. Clerks must still reconcile cloud appointment requests with the internal records system once a day. Which approach BEST meets those constraints?",
+    "answers": {
+      "A": "Use a hybrid design: retain case records on office equipment and exchange only approved scheduling fields",
+      "B": "Use two domestic cloud providers and replicate the case records between them",
+      "C": "Use a geographically restricted public-cloud tenant and retain exclusive custody of its encryption keys",
+      "D": "Host the records in a community cloud operated by a consortium of peer agencies"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 3.1 (Security Architecture): Hybrid design preserves office operation of record storage while supporting the approved cloud workflow. Domestic hosting and tenant-managed keys do not make the equipment office-operated; a peer-operated community cloud also fails that ownership constraint."
+  },
+  {
+    "question": "A retailer discovers that different teams keep deploying database networks with inconsistent security boundaries. Teams must still be able to deploy independently and recreate an approved network during a regional recovery. Which approach BEST addresses both needs?",
+    "answers": {
+      "A": "Give each team a checklist and audit a sample of networks every quarter",
+      "B": "Require a central engineer to configure every network through the cloud console",
+      "C": "Enforce approved, versioned network templates in the deployment pipeline",
+      "D": "Allow deployments to proceed and open remediation tickets from daily configuration scans"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 3.1 (Security Architecture): Versioned infrastructure as code supplies a reproducible deployment path and preventive guardrails without eliminating self-service. Checklists and postdeployment scans can uncover drift after the fact, while console-only central provisioning creates a bottleneck and is less reproducible."
+  },
+  {
+    "question": "Two hospital departments share the same virtualization hosts. An updated contract requires each department's patient-processing environment to remain isolated even if a shared hypervisor is compromised. Which design change BEST addresses the revised requirement?",
+    "answers": {
+      "A": "Add separate VLANs and firewall rules for each department on the existing hosts",
+      "B": "Use dedicated hosts and separate management and switching for each environment",
+      "C": "Encrypt both departments' disks using different keys on the same hosts",
+      "D": "Place each department in a different subnet with distinct administrative groups"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 3.1 (Security Architecture): Dedicated compute and management remove the shared hypervisor trust boundary identified in the contract. VLANs and subnets separate traffic, and separate keys protect some stored data, but none removes the common hypervisor failure mode."
+  },
+  {
+    "question": "A supplier needs remote access to one inventory application. Its staff use laptops the customer manages and must lose access if device health falls below policy, even when their credentials and MFA remain valid. The customer cannot expose other services on the inventory subnet. Which approach BEST fits?",
+    "answers": {
+      "A": "A split-tunnel VPN with continuous device checks and routes to the inventory subnet",
+      "B": "A segmented guest network with single sign-on to the inventory application",
+      "C": "A dedicated VPN profile that checks posture at enrollment and grants access to the inventory subnet",
+      "D": "Application-level zero trust access with continuous posture checks"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 3.2 (Security Architecture): An application broker can scope access to a single app and reevaluate posture independently of valid credentials. A subnet route is broader, an enrollment-only check becomes stale, and guest segmentation with SSO does not enforce ongoing device health."
+  },
+  {
+    "question": "A county plans to expose a public permit status page. The contracted web tier may query a private API, but must never have a direct route to the records database. Administrators must retain access from a separate management network. Which placement BEST fits?",
+    "answers": {
+      "A": "Place the web tier in a screened subnet with API-only service access and separate management",
+      "B": "Use a shared screened subnet for web and API tiers, with database routing protected by separate credentials",
+      "C": "Use private database networking with narrowly scoped query privileges and a separate administrative network",
+      "D": "Keep the web tier on the internal application subnet and expose it through a public load balancer"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 3.2 (Security Architecture): A screened web tier with explicit API and management flows creates the required network boundaries. Database routing controlled only by credentials does not remove the path, and putting the web tier on the internal application subnet fails to isolate public-facing infrastructure."
+  },
+  {
+    "question": "An organization has twice lost remote access to branch firewalls during failed routing changes. The on-call engineer needs a way to restore the devices without relying on the production WAN, the normal VPN concentrator, or the production identity path. Which design BEST meets the requirement?",
+    "answers": {
+      "A": "Deploy a second VPN portal on the existing WAN edge with separate VPN credentials",
+      "B": "Create a management VLAN carried over the existing branch WAN",
+      "C": "Use secured out-of-band console access via independent connectivity and controlled emergency authentication",
+      "D": "Install a second management tool in the main data center and give it direct firewall administration roles"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 3.2 (Security Architecture): Out-of-band console access uses an independent path and can be paired with controlled emergency authentication. The other approaches add a login path, VLAN, or tool but still rely on production connectivity and may be unavailable precisely when it fails."
+  },
+  {
+    "question": "A company must keep admitting employees to a storm shelter when the badge system loses power. A nearby records vault must stay locked against new entry during the same kind of failure; both doors already have code-compliant emergency egress. Which design BEST meets the requirements?",
+    "answers": {
+      "A": "Configure both entrances to unlock on power failure",
+      "B": "Configure the shelter entrance to unlock on failure and the vault entrance to stay locked on failure",
+      "C": "Configure both entrances to stay locked on power failure",
+      "D": "Configure the shelter entrance to stay locked on failure and the vault entrance to unlock on failure"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 3.2 (Security Architecture): The shelter needs fail-open behavior for entry, while the vault needs fail-closed behavior for entry. Applying either policy to both doors, or reversing the policies, violates one requirement. Emergency egress is separately addressed by the scenario."
+  },
+  {
+    "question": "A remote workforce uses browser-based SaaS and a private timekeeping application. Security needs to inspect web access, enforce approved cloud-app use, and grant application-specific access to timekeeping from a common cloud-managed policy point. It does not need to redesign branch WAN routing. Which approach BEST fits?",
+    "answers": {
+      "A": "A branch VPN with web filtering and centralized router access rules",
+      "B": "A standalone CASB with cloud-app discovery and sanctioned SaaS policy controls",
+      "C": "A managed ZTNA broker with per-user policy for the private timekeeping application",
+      "D": "A security service edge with web, SaaS, and private-app controls"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 3.2 (Security Architecture): SSE combines the requested web, cloud-app, and private application controls without a required branch WAN redesign. A standalone CASB or ZTNA broker covers only part of the requirement, and a VPN with router ACLs does not provide the requested application-level coverage."
+  },
+  {
+    "question": "A payments team needs customer-support and reporting systems to correlate purchases across applications without handling primary account numbers. An isolated payments service must be able to recover the original number when sending a refund the processor requires. Which design BEST meets both needs?",
+    "answers": {
+      "A": "Issue stable payment tokens backed by a vault restricted to the payments service",
+      "B": "Replace each account number with a salted one-way hash and discard the original",
+      "C": "Encrypt the shared account numbers and distribute decryption keys to approved support and reporting users",
+      "D": "Retain only the last four digits and use them as the shared identifier"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 3.3 (Security Architecture): Stable tokens support correlation, with controlled reversal in the vault when refunds require the original. A one-way hash cannot be reversed, distributing keys defeats isolation, and last-four values are not unique enough to serve as a stable identifier."
+  },
+  {
+    "question": "A hospital hires an outside team to measure wait times by department and hour. Analysts have no reason to re-identify people. The hospital wants to retain usable aggregates while minimizing linkage to appointment records and avoiding disclosure when a cell contains only one or two visits. Which release BEST fits?",
+    "answers": {
+      "A": "Release row-level visits with names removed but exact timestamps and encounter IDs preserved",
+      "B": "Release encrypted raw records and give the vendor a key subject to a confidentiality agreement",
+      "C": "Release only department/hour aggregates and suppress or combine small cells before export",
+      "D": "Release a tokenized row-level extract with stable visit identifiers for use across all vendor projects"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 3.3 (Security Architecture): Coarse aggregates with small-cell controls match the requested analysis and reduce unnecessary linking. Removing names or substituting stable tokens still leaves linkable records, while giving the vendor a decryption key exposes raw records."
+  },
+  {
+    "question": "A cloud analytics service already encrypts traffic and disks. It must process sensitive engineering data, and the customer requires protection of plaintext from the cloud host's privileged management layer while the job executes. Which addition BEST addresses the remaining requirement?",
+    "answers": {
+      "A": "Rotate the storage encryption key more often and use a hardware security module",
+      "B": "Run the job in an attested trusted execution environment and release keys only to the approved workload",
+      "C": "Apply strict transport certificate validation between the ingestion and analytics services",
+      "D": "Store inputs on encrypted volumes with different keys for each project"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 3.3 (Security Architecture): Attested confidential computing addresses data in use and can condition key release on the approved execution environment. Storage key rotation and separate encrypted volumes address data at rest, and certificate validation addresses data in transit; none alone protects plaintext during execution."
+  },
+  {
+    "question": "A video service stores footage for 30 days unless operations has placed a clip under a documented investigation hold. In the past, staff have forgotten to delete old clips and accidentally deleted two clips under hold. Which design BEST meets both requirements?",
+    "answers": {
+      "A": "Assign storage administrators quarterly bulk-delete tasks and have investigators retain their own backup copies",
+      "B": "Apply indefinite object immutability to all clips and review footage access monthly",
+      "C": "Add a 30-day expiry rule to all clips and back up held clips when an investigator requests it",
+      "D": "Implement 30-day automatic expiry for ordinary clips and an audited hold that overrides expiry until approved release"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 3.3 (Security Architecture): Lifecycle expiry addresses routine deletion, while the audited hold protects exceptions until an authorized release. Manual deletion is unreliable, indefinite retention violates the normal policy, and backing up held clips on demand creates a race with unconditional expiry."
+  },
+  {
+    "question": "A software company needs help-desk staff to confirm a customer's record without seeing its full government identifier. Fraud analysts must still see the original under existing approval. Both teams use the same application and database; exports must obey the same access rules as the screen. Which change BEST meets the requirement?",
+    "answers": {
+      "A": "Mask the field in support reads and exports, but not in authorized fraud views",
+      "B": "Encrypt the database volume and leave application access unchanged",
+      "C": "Replace the identifier with a hash for every user and remove the source field",
+      "D": "Hide part of the identifier in the browser but leave the API and export responses unchanged"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 3.3 (Security Architecture): Role-based masking lets the help desk use a limited view without breaking authorized fraud analysis, and controlling exports prevents bypass. Disk encryption does not change application visibility. Hashing destroys the required recoverable value; browser-only masking exposes it through alternate paths."
+  },
+  {
+    "question": "A transit payment service must recover within 45 minutes after losing its primary facility and lose no more than ten minutes of committed transactions. The budget rules out running a second production service continuously. Which tested option BEST meets both recovery objectives?",
+    "answers": {
+      "A": "An active standby that meets both targets but requires continuous production-equivalent operating costs",
+      "B": "A preprovisioned warm site with five-minute replication and a demonstrated 30-minute recovery",
+      "C": "A nearby cold site with five-minute backup intervals and a demonstrated three-hour recovery",
+      "D": "A warm site with hourly snapshots and demonstrated 25-minute recovery"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 3.4 (Security Architecture): The second option meets the 45-minute recovery time and ten-minute recovery point within the budget constraint. Active standby exceeds the allowed operating cost, the cold site misses recovery time, and hourly snapshots miss recovery point."
+  },
+  {
+    "question": "A design firm can restore files from last night's backups in its weekly test. In a tabletop exercise, however, the administrators of the production directory could also delete every cloud backup. What change BEST addresses that specific recovery weakness?",
+    "answers": {
+      "A": "Increase backup frequency from daily to hourly",
+      "B": "Replicate backups to another region while preserving the same administrator permissions and lifecycle rules",
+      "C": "Lock backups in a separate account and test restores with independent credentials",
+      "D": "Encrypt all backup objects using keys administered by the production directory team"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 3.4 (Security Architecture): Immutable retention and separate administration prevent ordinary production credentials from deleting the copies, while independent restore testing confirms the recovery path. Frequency or replication under the same administrator permissions does not fix the shared authority. Encryption does not prevent authorized deletion."
+  },
+  {
+    "question": "An online publisher has two working application clusters in different regions. Its last regional failover met the recovery targets at night but overloaded the surviving cluster during business hours. What improvement BEST addresses this result?",
+    "answers": {
+      "A": "Increase backup retention and keep an additional copy in the surviving region",
+      "B": "Lower DNS record TTLs to move traffic faster when the primary region becomes unreachable",
+      "C": "Validate surviving-region capacity and service quotas under peak failover load",
+      "D": "Run a more frequent tabletop exercise on which team declares a disaster"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 3.4 (Security Architecture): The region is reachable and the failure appears under peak load, so capacity and dependency testing address the observed bottleneck. Backup retention improves data recovery, DNS changes affect traffic transition speed, and a tabletop does not demonstrate load capacity."
+  },
+  {
+    "question": "A museum must keep ticket sales running if its primary identity provider has a prolonged outage. Its secondary region already has a separate app cluster, but testing shows both regions rely on the same identity provider. Which next step BEST addresses the remaining common failure without silently turning off authentication?",
+    "answers": {
+      "A": "Provision additional nodes in each cluster and configure proactive scaling when authentication traffic increases",
+      "B": "Protect the secondary region's backup copies with longer retention",
+      "C": "Allow anonymous transactions during an outage and flag those transactions for review after the identity service recovers",
+      "D": "Test a restricted fallback that uses a separate identity provider"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 3.4 (Security Architecture): Independent identity dependencies address the shared service failure and preserve an authorization boundary. Additional app nodes or backup retention do not restore authentication, and anonymous fallback removes it instead of providing controlled continuity."
+  },
+  {
+    "question": "A clinic’s label printers must accept jobs from two print servers, but the printers cannot run the endpoint agent required for clinical workstations. The team must keep the printers reachable without allowing them to initiate connections to workstations. Which change BEST meets both requirements?",
+    "answers": {
+      "A": "Put printers in an isolated VLAN with rules allowing the two print servers and required infrastructure services",
+      "B": "Restrict print-server administrator access through a privileged access gateway",
+      "C": "Permit the printers onto the workstation network with a hardware-address exception in network access control",
+      "D": "Apply a printer configuration baseline and forward all printer events to the SIEM"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 4.1 (Security Operations): A restricted segment limits what the printers can reach while preserving approved traffic. A network admission exception does not restrict post-admission reachability. Hardening and monitoring improve visibility and resilience, while a privileged gateway protects administrators rather than controlling printer traffic."
+  },
+  {
+    "question": "A retailer will not have a code fix for its storefront until tomorrow. Testing confirmed that one checkout route accepts values outside its allowed format. Normal customers and the payment callback must remain unaffected. What should the security engineer implement as the BEST temporary control?",
+    "answers": {
+      "A": "Lower the per-client connection limit on the edge firewall across the entire storefront",
+      "B": "Enforce the approved input format on the affected route with a tested WAF rule",
+      "C": "Enable more detailed checkout logs and alert when the field contains unexpected data",
+      "D": "Block requests to the checkout route from outside the retailer’s primary market"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 4.1 (Security Operations): The route-specific WAF rule can reject the bad input before it reaches the application while preserving valid requests. Rate limits and geography do not enforce input structure. Logging supports response but does not prevent the request. The application still needs its permanent validation fix."
+  },
+  {
+    "question": "A payroll team uses managed laptops and an approved browser-based portal. Employees must still be able to use personal cloud storage for nonsensitive files. A new control must prevent uploads containing employee tax identifiers to unapproved destinations. Which control BEST satisfies the requirement?",
+    "answers": {
+      "A": "Restrict USB writes on payroll laptops",
+      "B": "Apply content-aware DLP for uploads to unapproved destinations",
+      "C": "Block uploads to consumer storage domains, with the payroll portal as the only exception",
+      "D": "Block uploads to consumer storage domains at the proxy"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 4.1 (Security Operations): Content-aware DLP can enforce both conditions: what is being sent and where it is being sent. A blanket domain block would also stop allowed uploads. USB controls and portal cookie protections address different paths."
+  },
+  {
+    "question": "A nonprofit sees messages impersonating its exact mail domain. The security team has already inventoried senders, configured authentication alignment for each, and reviewed a month of reports with no unexpected legitimate sources. Which next action BEST makes the domain publish a policy asking receivers to reject unauthenticated impersonation?",
+    "answers": {
+      "A": "Publish brand indicators so supporting mail clients show the nonprofit’s logo",
+      "B": "Move the domain’s DMARC policy from monitoring to reject",
+      "C": "Publish a stricter sender policy for the nonprofit’s primary outbound provider only",
+      "D": "Rotate the signing key for the primary provider and retire the previous selector"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 4.1 (Security Operations): DMARC rejection expresses the domain owner’s requested handling when neither SPF nor DKIM passes in alignment. Branding does not enforce acceptance, and changes to only one sender’s authentication do not establish the domain-wide receiver policy."
+  },
+  {
+    "question": "A build pipeline detected a production API key in a private source repository. The key was valid, and several external contractors could read the project before the finding. What should the security engineer do FIRST to reduce the risk posed by that particular key?",
+    "answers": {
+      "A": "Revoke the key and deploy its replacement from the secret store",
+      "B": "Restrict new contractor access and review historical repository clones",
+      "C": "Rewrite the repository history and rerun secrets scanning",
+      "D": "Require signed commits for the repository and reapprove its branch rules"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 4.1 (Security Operations): Revoking the exposed credential makes any copy unusable; the replacement restores authorized service through the correct channel. Rewriting history does not remove existing copies. Signed commits and access reviews are useful controls but do not invalidate the key."
+  },
+  {
+    "question": "A university is returning leased laptops. The original drives must remain installed, and security policy requires verifiable sanitization before any device leaves custody. Which plan BEST satisfies the policy?",
+    "answers": {
+      "A": "Reimage the laptops, verify the first boot screen, and note the return date in inventory",
+      "B": "Delete employee profiles and run an instructor sign-off checklist immediately before shipping",
+      "C": "Ask the leasing company to wipe the devices and retain its standard receipt",
+      "D": "Apply an approved media-specific purge, verify each result, and record it against the device serial before handoff"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 4.2 (Security Operations): The approved purge and its per-device verification address both sanitization and accountability while keeping drives installed. Reimaging and deleting profiles do not necessarily remove recoverable data. A post-handoff wipe does not meet the stated timing requirement."
+  },
+  {
+    "question": "A software supplier announces end of security updates for a component used by desktop CAD applications. The inventory lists purchase quantities, but not installation location or version. Which action would BEST let security determine who needs to remediate?",
+    "answers": {
+      "A": "Compare software purchase dates with the supplier’s support cutoff",
+      "B": "Scan procurement invoices for business units that purchased the latest release",
+      "C": "Map installed build numbers to device owners using endpoint inventory",
+      "D": "Review license renewals and ask every department to declare whether it still uses CAD"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 4.2 (Security Operations): Installation telemetry identifies the affected version on actual devices and ownership provides the remediation path. Purchasing and renewal data are valuable for procurement but do not prove deployment, and voluntary reporting can leave gaps."
+  },
+  {
+    "question": "A lab transfers network analyzers from Research to a contractor-managed calibration room. The devices remain company property and will come back after calibration. Last year a similar transfer left equipment in service with expired support because no team owned the maintenance schedule. Which control BEST prevents a repeat?",
+    "answers": {
+      "A": "Close each asset record when it leaves Research and create a new one when it comes back",
+      "B": "Track the calibration shipment at the carrier and assign all units to a shared repair queue",
+      "C": "Track the loan, custodian, service owner, and due date in the asset register",
+      "D": "Keep Research listed as custodian and rely on the contractor’s return manifest for changes"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 4.2 (Security Operations): A transfer record preserves ownership history while assigning custody, operational responsibility, and follow-up dates. Closing records breaks continuity; shipment tracking and the return manifest cannot establish which team owns support while assets are off-site."
+  },
+  {
+    "question": "A security team can patch only one system tonight. A public remote-access gateway has a moderate-scored flaw that the vendor reports is being actively exploited, with no tested compensating control. A reporting server has a critical-scored flaw but is isolated and can only be reached from a tightly controlled administrative network. What should the team do FIRST?",
+    "answers": {
+      "A": "Use tonight’s window for the public gateway; schedule the reporting server",
+      "B": "Keep both in normal order until the scanner raises the gateway’s score",
+      "C": "Patch whichever system has the newest vendor advisory so the patch remains supported",
+      "D": "Patch the isolated server first because it has the highest numeric severity"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 4.3 (Security Operations): Confirmed exploitation plus direct exposure and a lack of compensating controls create the most urgent likelihood of impact. Severity still matters for the reporting server, but score or publication date alone does not account for reachability or current threat."
+  },
+  {
+    "question": "An overnight scanner flags an outdated library version from a network banner. The platform team says its distribution backported the fix without changing the upstream version string. The analyst must decide whether to close the finding. Which evidence should the analyst seek FIRST?",
+    "answers": {
+      "A": "A second unauthenticated scan with a different vendor’s scanner",
+      "B": "The date when the scanner plugin was last updated",
+      "C": "An authenticated package build matched to the distributor’s advisory",
+      "D": "Results from a second vendor’s remote scanner using its newest authenticated network checks"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 4.3 (Security Operations): Authenticated build information mapped to the distributor’s advisory can establish whether the backport is installed. Two banner-based tools can make the same mistake. Network restrictions can justify mitigation but are not evidence of a fix."
+  },
+  {
+    "question": "A financial system’s vendor patch is available, but the patch failed an application test and cannot be deployed before the agreed deadline. The affected feature is not used by the business, and the vendor provides a documented way to disable it. Which action is BEST?",
+    "answers": {
+      "A": "Remove the financial system from scanning until the patch is released again",
+      "B": "Disable the feature, verify it cannot be reached, and record the pending patch in a time-bounded exception",
+      "C": "Deploy the patch in production and restore from backup if customers report errors",
+      "D": "Keep the vulnerability open without a mitigating action until the next maintenance window"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 4.3 (Security Operations): Verified feature disablement reduces exposure without deploying a known-breaking patch and preserves accountability for the permanent fix. Normal waiting and excluding the system from scans leave the exposure unresolved; rushing the failed patch risks availability."
+  },
+  {
+    "question": "A responsible disclosure arrives for a staging endpoint. A researcher shows that a response exposed data, and the inventory marks the service as test-only. The endpoint owner cannot confirm whether last week’s refresh used sanitized records. What should the triage analyst do FIRST?",
+    "answers": {
+      "A": "Schedule a generic scan of all staging infrastructure and defer the report until it completes",
+      "B": "Reject it because the inventory labels the environment as staging",
+      "C": "Direct the researcher to demonstrate the issue in production before assigning it",
+      "D": "Log the disclosure and escalate for authorized verification of the exposed data"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 4.3 (Security Operations): The staging label does not establish what data is present. The disclosure process preserves evidence and supports a timely, authorized assessment. Rejecting or deferring the report leaves real exposure possible, and asking the researcher to extend testing into production expands scope unnecessarily."
+  },
+  {
+    "question": "A SOC receives hundreds of known-good failed sign-ins during a legacy application’s nightly health check, masking unusual failures elsewhere. The analyst must reduce routine pages without losing the ability to investigate unexpected activity from the source. Which tuning is BEST?",
+    "answers": {
+      "A": "Raise the threshold for failed sign-ins across all accounts and services",
+      "B": "Replace the sign-in rule with a daily dashboard reviewed during business hours",
+      "C": "Exclude failed sign-ins from that source at collection time",
+      "D": "Suppress pages only for the verified service identity, source, and health-check time window while retaining the events"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 4.4 (Security Operations): Constrained alert tuning removes the expected noise but keeps logs and still surfaces deviations. Collection exclusion drops forensic data, a higher global threshold weakens unrelated coverage, and daily review delays detection."
+  },
+  {
+    "question": "Three branch offices use equipment from different vendors. Investigators need one alert when a privileged identity logs in, a configuration changes, and traffic volume shifts within the same fifteen-minute window. Which implementation BEST supports the requirement?",
+    "answers": {
+      "A": "Use a rotating packet capture from each branch WAN link and compare captures weekly",
+      "B": "Normalize relevant logs and flows centrally, then correlate them in the SIEM",
+      "C": "Forward only the local devices’ highest-severity traps to a shared mailbox",
+      "D": "Deploy a monitoring dashboard that graphs traffic volume and shows each branch’s uptime"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 4.4 (Security Operations): Centralized normalized events make cross-source, time-bounded correlation possible. High-severity-only notifications can omit required events, and raw capture or uptime dashboards do not reliably correlate identity and configuration changes."
+  },
+  {
+    "question": "A remote branch has intermittent saturation. The network team wants a month of source and destination addresses, ports, and byte counts but is forbidden from storing packet contents due to a privacy restriction. Which telemetry BEST fits?",
+    "answers": {
+      "A": "A port-mirrored full packet capture at the branch router",
+      "B": "Endpoint security alerts from the busiest workstations",
+      "C": "SNMP interface counters polled every minute",
+      "D": "NetFlow or IPFIX records exported from the branch edge"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 4.4 (Security Operations): Flow records provide conversation metadata and volumes without collecting payloads. Interface counters reveal load but not conversations; full captures violate the restriction. Endpoint alerts are incomplete for branch-wide traffic accounting."
+  },
+  {
+    "question": "Seasonal analysts must sign into a vendor SaaS application with the organization’s existing identity provider. The vendor supports SAML federation and SCIM deactivation, which ends active sessions, and users must lose local access at contract end even if an account was assigned application roles. Which design BEST meets both requirements?",
+    "answers": {
+      "A": "Use SAML SSO and perform a quarterly manual comparison of vendor accounts",
+      "B": "Federate with SAML and use SCIM to deactivate users at contract end",
+      "C": "Use a shared vendor account with an identity-aware proxy restricted to the project group",
+      "D": "Create individual vendor passwords and revoke them when managers submit help desk tickets"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 4.5 (Security Operations): SAML federates authentication; SCIM handles provisioning and deprovisioning at the application. SAML alone does not reliably remove local accounts or assignments. Manual processes and shared credentials are less timely or less accountable."
+  },
+  {
+    "question": "A server administrator has normal read-only access. During emergency restoration, the administrator needs an approved, time-limited elevation with actions attributed to their identity and reviewable afterward. What should the organization use?",
+    "answers": {
+      "A": "An extra permanent administrative role protected with stronger MFA",
+      "B": "A shared emergency account with a password rotated after each incident",
+      "C": "A privileged access management workflow issuing a short-lived elevation and recording the session",
+      "D": "A network rule granting an administrator’s laptop access to the management segment for the duration"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 4.5 (Security Operations): A time-bound privileged access workflow provides approval, individual attribution, audit evidence, and automatic expiration. Shared credentials weaken attribution, permanent privileges violate duration, and temporary network reach does not itself grant or audit the administrative role."
+  },
+  {
+    "question": "A company wants to reduce phishing-related account takeovers in its customer-support team. The managed laptops support hardware-backed credentials and employees can enroll them. Which factor BEST prevents a lookalike site from obtaining usable authentication material?",
+    "answers": {
+      "A": "A WebAuthn passkey registered to the organization’s legitimate sign-in origin",
+      "B": "A stronger password policy plus an email alert on first sign-in from a browser",
+      "C": "An approval push requiring the employee to type a displayed number",
+      "D": "An authenticator-app code required alongside the employee’s password"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 4.5 (Security Operations): WebAuthn credentials are scoped to the legitimate origin, so a lookalike site cannot use them for that relying party. Codes and approvals improve password-only security but can still be solicited or relayed; alerts detect rather than block."
+  },
+  {
+    "question": "A SOC workflow automatically opens a case for suspicious endpoint activity. The telemetry provider retries failed deliveries, and duplicate tickets cause analysts to repeat containment on the same host. Which change BEST prevents duplicate actions while retaining retries?",
+    "answers": {
+      "A": "Limit the provider to one delivery attempt per alert",
+      "B": "Group all alerts from the same endpoint into one case for the entire day",
+      "C": "Schedule a nightly cleanup to close cases with matching ticket titles",
+      "D": "Deduplicate on event ID and key retries to an idempotency token"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 4.6 (Security Operations): Stable identifiers allow duplicate deliveries to resolve to one case, and action-level idempotency prevents a retry after partial completion from repeating containment. Disabling retries loses alerts; grouping by host may merge unrelated cases, and nightly cleanup happens after duplicate actions."
+  },
+  {
+    "question": "A certificate rotation job will replace certificates on hundreds of internal services. It passed in a lab, but production includes older clients and different trust stores. The team needs to detect unexpected breakage before it becomes widespread. Which rollout design BEST meets the requirement?",
+    "answers": {
+      "A": "Canary on representative production services; gate further batches on handshake and application health, with rollback",
+      "B": "Run each production region in parallel and review aggregate failures after the rotation completes",
+      "C": "Rotate all certificates with a lower batch-process concurrency limit, but do not check individual service health",
+      "D": "Perform a dry run against the inventory, then rotate all services if every target appears"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 4.6 (Security Operations): A representative canary checks real production compatibility, then controlling further batches limits blast radius. Lower concurrency without checks still propagates failures; a dry run checks inventory and planned changes, not actual handshakes. Post-rollout review detects failures too late."
+  },
+  {
+    "question": "A new infrastructure-as-code guardrail has correctly caught public storage in testing, but several legacy applications need documented, time-limited exceptions. Deployment must stop if any resource outside those approved exceptions becomes public. Which workflow BEST meets the requirement?",
+    "answers": {
+      "A": "Gate deployment plans on policy with scoped, expiring, auditable exceptions",
+      "B": "Allow changes to deploy after a team member acknowledges a generic CI warning",
+      "C": "Exclude any workspace with a legacy application from checks until migration is finished",
+      "D": "Run a nightly scan and have it automatically remove public access from every flagged resource"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 4.6 (Security Operations): An enforced plan check prevents new unapproved exposure and limits bypasses to approved resources and durations. Nightly remediation allows initial exposure and can disrupt approved applications. Acknowledgments or workspace exclusions do not enforce the narrowly scoped rule."
+  },
+  {
+    "question": "Two forensic analysts are taking a laptop from a regional office to the lab. Before transfer, the receiving analyst notices that the evidence record identifies the device and its collector but does not show who held it during the previous shift. The laptop’s evidence seal appears intact. What should the receiving analyst do FIRST?",
+    "answers": {
+      "A": "Start a new custody record at lab arrival and attach the original record as an appendix",
+      "B": "Accept the handoff without noting the gap because the evidence seal is intact",
+      "C": "Document the custody gap and reconcile it with contemporaneous records before continuing",
+      "D": "Have both analysts sign an updated record using the collector’s best estimate of who had access"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 4.7 (Security Operations): Preserving the original record and recording the gap maintains transparency. Contemporaneous records may establish who held the item; an intact seal does not explain the missing custody interval. Starting over or presenting an estimate as a verified handoff weakens provenance."
+  },
+  {
+    "question": "In a tabletop exercise, a ransomware scenario revealed that nobody could authorize after-hours isolation of a business-critical system. No systems were actually affected. Which improvement BEST addresses the finding?",
+    "answers": {
+      "A": "Assign after-hours authorities and alternates, then retest the plan",
+      "B": "Increase alert urgency for critical systems and route them to the on-call infrastructure team",
+      "C": "Create a larger offline backup of each business-critical system",
+      "D": "Ask infrastructure teams to retain more historical system logs"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 4.7 (Security Operations): The issue is decision authority and escalation readiness. Explicit roles, alternates, and a repeat exercise fix and test that gap. Better alerts, logs, and backups help other phases but do not give anyone authority to act."
+  },
+  {
+    "question": "A company is preparing to reconnect systems after containing a compromised cloud account. The affected application has been rebuilt from a trusted image, but long-lived service credentials available to that account may still be valid. What is the BEST condition to meet before reconnecting?",
+    "answers": {
+      "A": "Reconnect after an availability probe and alert on unexpected activity in the application’s logs",
+      "B": "Revoke or rotate exposed credentials and sessions, verify access from trusted services, and monitor for recurrence",
+      "C": "A successful availability probe against the rebuilt instance only",
+      "D": "Removal of old alert tickets so the operations dashboard starts clean"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 4.7 (Security Operations): A trusted image does not invalidate captured identities. Credential and session remediation plus verification helps prevent repeat compromise and supports safe recovery. Availability, documentation, and ticket hygiene alone do not close the remaining access path."
+  },
+  {
+    "question": "A laptop currently has an active suspicious process, but the executable is no longer present on disk. The system is already network-isolated. Which artifact should the investigator prioritize to examine the running process before a reboot?",
+    "answers": {
+      "A": "A bit-for-bit disk image acquired after the laptop is restarted",
+      "B": "The DHCP lease record assigning the laptop’s current address",
+      "C": "Documented forensic capture of volatile memory",
+      "D": "A vulnerability scanner export from the last reporting period"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 4.8 (Security Operations): Memory can retain running process state and code that is absent from disk and will disappear when power state changes. Disk images and lease records preserve different evidence; scanner data describes exposure rather than live execution."
+  },
+  {
+    "question": "A confidential file was downloaded through a SaaS application. The SOC knows the approximate time and source address, but the same VPN egress address served several employees. Which evidence BEST identifies which account actually retrieved the file?",
+    "answers": {
+      "A": "The identity provider’s sign-in history for every account using the egress address",
+      "B": "VPN firewall flow logs with connection byte counts",
+      "C": "SaaS audit events naming the file, operation, and authenticated actor",
+      "D": "The employee device inventory showing enrollment by serial number"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 4.8 (Security Operations): Object-level SaaS audit records can tie the specific action and object to an authenticated account. VPN flow and device inventory cannot establish the action, and identity logs show who authenticated rather than who downloaded that file."
+  },
+  {
+    "question": "An analyst is correlating logs for a suspicious administrator session. The identity provider records UTC, a legacy application shows local wall time, and the application clock was measured four minutes slow at collection. The team must keep originals intact. What is the BEST next step?",
+    "answers": {
+      "A": "Discard application events for the period and reconstruct the session from identity logs alone",
+      "B": "Rewrite the original timestamps in UTC and replace the exported files",
+      "C": "Order events by SIEM receipt time without consulting the individual source clocks",
+      "D": "Preserve originals; normalize working copies with documented time zone, measured clock offset, and remaining uncertainty"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 4.8 (Security Operations): Documented normalization allows defensible comparison without modifying source evidence or silently assuming clock accuracy. Ingestion time can be delayed, overwriting harms evidence integrity, and discarding the application feed loses relevant operations."
+  },
+  {
+    "question": "An insurer's security policy requires encryption on portable devices. Acquired branches interpret 'strong encryption' differently, and auditors need one mandatory, testable requirement without prescribing enrollment commands. What should the security team publish?",
+    "answers": {
+      "A": "A runbook for each supported laptop image",
+      "B": "A hardening guideline with recommended configuration examples",
+      "C": "An endpoint encryption standard with approved settings and evidence",
+      "D": "A policy update restating governance, ownership, and the encryption requirement"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 5.1 (Security Program Management and Oversight): A standard translates policy into measurable mandatory requirements, such as approved encryption settings and evidence. A runbook gives implementation steps, a guideline is advisory, and repeating the policy's intent does not give auditors a testable threshold."
+  },
+  {
+    "question": "Flooding closes a distributor's main facility for two days. Its ordering platform is working in the cloud, but pallets cannot be picked or dispatched. Which artifact should the operations lead use FIRST to keep priority orders moving?",
+    "answers": {
+      "A": "Use the continuity plan to shift picking and dispatch to an alternate facility",
+      "B": "Use disaster recovery to fail over the order platform",
+      "C": "Use the incident playbook for compromised accounts",
+      "D": "Reconstruct orders from archived shipment records"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 5.1 (Security Program Management and Oversight): The interruption affects order fulfillment even though the IT system remains available. The business continuity plan should identify alternate operations and priorities. Disaster recovery would restore failed systems; the response playbook and retention schedule address different problems."
+  },
+  {
+    "question": "A payment service expects one outage every four years, at $240,000 per outage. A $28,000-per-year redesign would reduce loss per outage to $80,000 without changing frequency. Management will approve it only if the annual expected loss reduction exceeds recurring cost. Which assessment should the analyst present?",
+    "answers": {
+      "A": "The $160,000 per-outage reduction is the annual savings",
+      "B": "The redesign saves $40,000 per year in expected loss, exceeding its annual cost by $12,000",
+      "C": "The remaining expected loss is $80,000 per year",
+      "D": "Reject it because the $20,000 residual annual loss is less than its cost"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 5.2 (Security Program Management and Oversight): Multiplying each single-outage loss by 0.25 outages per year gives $60,000 before and $20,000 after. The relevant comparison is the $40,000 reduction against $28,000, not the residual loss or the per-outage reduction."
+  },
+  {
+    "question": "A records system cannot meet a new configuration standard before a scheduled replacement. Segmentation reduces the exposure below the company's written tolerance, and policy permits temporary exceptions with business-owner approval. What should the analyst do NEXT?",
+    "answers": {
+      "A": "Close the risk entry after checking tolerance",
+      "B": "Record the residual risk and obtain time-limited owner sign-off",
+      "C": "Request a permanent waiver using the approved replacement project as the justification",
+      "D": "Assign the exposure to the vendor through a support case"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 5.2 (Security Program Management and Oversight): A time-limited, owned risk exception preserves accountability and provides a point for reassessment. Lower exposure does not eliminate the risk. A permanent waiver is unsupported, and opening a case does not transfer liability."
+  },
+  {
+    "question": "After a billing-system outage, engineers ask which systems must recover first. Some applications are business-critical at month-end but have little impact on other days. Leadership has not yet agreed on tolerable downtime or data loss. What should the analyst do FIRST?",
+    "answers": {
+      "A": "Time restoration during a failover test",
+      "B": "Rank recovery by internet exposure and annual vulnerability counts for each system",
+      "C": "Use the strictest vendor availability SLA",
+      "D": "Run a business impact analysis with the affected process owners"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 5.2 (Security Program Management and Oversight): A business impact analysis establishes consequences over time, dependencies and business priorities before recovery objectives are set. Failover tests measure actual capability, vulnerability counts do not measure outage impact, and one supplier SLA cannot define enterprise recovery needs."
+  },
+  {
+    "question": "A company has chosen a managed email service. It needs a binding monthly uptime commitment with measurement rules, exclusions and service credits. The provider already has an NDA and a statement of work describing migration. Where should procurement place the new obligations?",
+    "answers": {
+      "A": "A binding service-level agreement with availability metrics and remedies",
+      "B": "An expanded confidentiality agreement",
+      "C": "A memorandum describing reliability goals and the responsibilities of each party",
+      "D": "The migration statement of work with an availability target"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 5.3 (Security Program Management and Oversight): The service-level agreement is the appropriate place for enforceable availability commitments, measurement and remedies. An NDA protects information, an informal memorandum lacks the requested commitment, and an aspirational target in a migration scope does not create the required ongoing service obligation."
+  },
+  {
+    "question": "A screening platform adds a subcontractor overseas after onboarding. Its annual attestation predates the change, and its agreement requires prior approval for entities that handle applicant records. What should the risk analyst do FIRST?",
+    "answers": {
+      "A": "Update the vendor registry with the subcontractor and review it at the next annual assessment",
+      "B": "Request a new attestation and approve the change if the provider still meets its original controls",
+      "C": "Verify subcontractor access and start a targeted approval review",
+      "D": "End the agreement and begin moving applicants before verifying the subcontractor's access"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 5.3 (Security Program Management and Oversight): The new data access and contractual approval condition warrant prompt scope verification and targeted review. Recording or obtaining an attestation alone does not establish acceptable subcontractor handling. Immediate termination is premature without confirming the facts and coordinating continuity."
+  },
+  {
+    "question": "A regional credit union is comparing hosted document systems. Both meet its availability and security requirements, but the last migration failed because the incumbent held records in a proprietary format. Which requirement BEST reduces the comparable risk before signing?",
+    "answers": {
+      "A": "Increase uptime and service credits",
+      "B": "Require an independent access-control report and annual remediation updates",
+      "C": "Secure a longer fixed-price contract term",
+      "D": "Require a tested export and contractual exit support"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 5.3 (Security Program Management and Oversight): An exit clause plus a tested usable export addresses the actual barrier to leaving. Availability credits and access assurance address different risks. A longer term may delay or increase lock-in rather than establish a viable exit."
+  },
+  {
+    "question": "A city contractor confirms that a misconfigured scheduling portal exposed resident addresses. Its contract requires notice to the city within 24 hours of confirming exposure, even if the number of affected residents is still unknown. The incident team has already restricted access. What should the compliance lead do NEXT?",
+    "answers": {
+      "A": "Wait for a verified resident count so the city's first notice is complete",
+      "B": "Notify residents through the public portal and defer city notice pending legal review",
+      "C": "Send a preliminary city notice now and update it when scope is known",
+      "D": "Include the incident in the scheduled report and attach evidence the portal is secure"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 5.4 (Security Program Management and Oversight): The contractual clock began at confirmation, so a timely initial notice with confirmed facts meets the stated obligation without guessing about scope. Waiting for a count or a routine report could miss the deadline. Resident notification may be appropriate later, but it does not replace the required notice to the city."
+  },
+  {
+    "question": "A cloud payroll provider acting only on an employer's documented instructions receives a worker's request to correct personal data. The employer controls the source HR record and the contract says it decides rights requests. What should the provider do?",
+    "answers": {
+      "A": "Correct the payroll copy first",
+      "B": "Route the request to the employer and assist as directed",
+      "C": "Reject the request as misdirected and tell the worker to seek a different contact",
+      "D": "Replace the account and collect new details"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 5.4 (Security Program Management and Oversight): The employer controls the purpose and handling of the payroll data; the processor assists rather than independently deciding the request. Acting unilaterally risks inconsistent data, rejection does not provide the contracted assistance, and a new account does not correct the record."
+  },
+  {
+    "question": "An internal auditor must verify that privileged accounts were reviewed every quarter last year. The control owner supplies the policy, a current account list and an email saying reviews were completed. What additional evidence BEST tests whether the control operated?",
+    "answers": {
+      "A": "Sample dated reviews, account lists and follow-up across all four quarters",
+      "B": "Observe a walkthrough and capture approval-screen screenshots",
+      "C": "Compare current privileged accounts with authorized roles",
+      "D": "Gather directory configuration scans confirming multifactor requirements and review current exceptions"
+    },
+    "correctanswer": "A",
+    "reasoning": "Objective 5.5 (Security Program Management and Oversight): Dated records from across the year tied to the accounts reviewed and follow-up show historical operation. A walkthrough may establish design, today's counts are a snapshot, and multifactor configuration is a different control."
+  },
+  {
+    "question": "An external audit team has signed terms to review a payment application. During a scoping meeting it discovers the application's sign-in depends on a separately operated identity service absent from the agreement. Leadership wants assurance about that dependency too. What should the audit lead do NEXT?",
+    "answers": {
+      "A": "Treat the service as implicitly in scope",
+      "B": "Get verbal approval from the payment application owner and record it in the meeting notes",
+      "C": "Omit the unassessed dependency from the scope discussion",
+      "D": "Document the dependency and get written scope and authorization"
+    },
+    "correctanswer": "D",
+    "reasoning": "Objective 5.5 (Security Program Management and Oversight): Written scope and authorization establish which parties and services are covered and under what conditions. Dependency alone and another owner's verbal consent are insufficient. Omitting a material limitation would mischaracterize the assurance provided."
+  },
+  {
+    "question": "A design firm finds that contractors put confidential client screenshots in public project channels to get quick feedback. Its new awareness session must teach a safe replacement behavior that contractors can use without losing access to peer review. Which activity BEST meets the goal?",
+    "answers": {
+      "A": "Send a reminder describing classification levels and link to the complete data-handling policy",
+      "B": "Practice classifying a screenshot, sharing it privately, and reporting a mispost",
+      "C": "Have managers review a public-channel activity dashboard and discuss flagged content after each sprint",
+      "D": "Require manager review of screenshots and give contractors a checklist for requesting each approval"
+    },
+    "correctanswer": "B",
+    "reasoning": "Objective 5.6 (Security Program Management and Oversight): The exercise practices the decisions and actions contractors need: identify sensitive material, select an appropriate sharing space, and report an error. A policy reminder does not rehearse those actions, monitoring is not awareness training, and mandatory approval for every screenshot adds friction without teaching the safe workflow."
+  },
+  {
+    "question": "A company wants to know whether new training helps warehouse workers report suspicious QR codes. Completion rose to 98%, but employees share devices, and the security team needs a measurable behavior outcome. Which evaluation BEST measures the training's stated goal?",
+    "answers": {
+      "A": "Compare course completion by shift",
+      "B": "Compare total weekly security tickets before and after training without separating the sources",
+      "C": "Repeat comparable drills and measure correct reporting rate and time",
+      "D": "Compare supervisors' ratings of workers' confidence"
+    },
+    "correctanswer": "C",
+    "reasoning": "Objective 5.6 (Security Program Management and Oversight): Comparable drills measure actual reporting behavior and how quickly the defense is triggered. Completion, quizzes and confidence are indirect. An undifferentiated ticket total can change for unrelated reasons."
+  }
+]

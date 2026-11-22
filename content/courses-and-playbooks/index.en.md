@@ -50,6 +50,7 @@ We offer practical skills courses, career playbooks, certification study paths, 
 
 - #### [CompTIA Network+ Course (N10-009)](/network-plus-start/)
 - #### [CompTIA A+ Course (220-1201 and 220-1202)](/a-plus-start/)
+- #### [CompTIA Security+ Course (SY0-801)](/security-plus-sy0-801-start/)
 - #### [CompTIA Security+ Course (SY0-701)](/security-plus-start/)
 - #### [CompTIA Linux+ Course (XK0-005)](/linux-plus-start/)
 - #### [CompTIA CySA+ Course (CS0-003)](/cysa-plus-start/)
@@ -77,7 +78,8 @@ We offer practical skills courses, career playbooks, certification study paths, 
 - [CompTIA A+ Practice Test](/a-plus-practice-test/)
 - [CompTIA Network+ Practice Test](/network-plus-practice-test/)
 - [Cisco CCNA Practice Test](/ccna-practice-test/)
-- [CompTIA Security+ Practice Test](/security-plus-practice-test/)
+- [CompTIA Security+ SY0-801 Practice Test](/security-plus-sy0-801-practice-test/)
+- [General Security+ Practice Test](/security-plus-practice-test/)
 - [CompTIA Linux+ Practice Test](/linux-plus-practice-test/)
 - [CompTIA CySA+ Practice Test](/cysa-plus-practice-test/)
 - [CompTIA PenTest+ Practice Test](/pentest-plus-practice-test/)
