@@ -1,7 +1,7 @@
 ---
 title: "Cybersecurity-Zertifizierungen Vergleich 2026: Vollständiger Anbieter-Leitfaden"
 date: 2026-05-24
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Umfassender Vergleich von Cybersecurity-Zertifizierungsanbietern einschließlich CompTIA, Offensive Security, ISC2, SANS, AWS, Azure, HackTheBox und weiterer mit Preisgestaltung, ROI-Analyse und Karrierepfad-Empfehlungen für 2026."
@@ -214,7 +214,11 @@ Realität: CISSP steht überall in den Anzeigen, ist für echte Einsteiger aber 
 7. Sicherheitsbetrieb
 8. Sicherheit in der Softwareentwicklung
 
-**Neu 2026:** ISC2 führte **CC (Certified in Cybersecurity)** als kostenlose Einstiegszertifizierung sowie das **AI Security Certificate** für KI-Risikomanagement ein.
+ISC2 führte die Einstiegszertifizierung **CC (Certified in Cybersecurity)** 2022 ein. Das [Programm One Million Certified in Cybersecurity](https://www.isc2.org/landing/1mcc) bot kostenlose Schulung und Prüfung an. Seit dem 20. Mai 2026 sind keine neuen Anmeldungen mehr möglich. Wer noch einen gültigen Prüfungscode aus dem Programm hat, muss die Prüfung bis spätestens 31. Dezember 2026 buchen und ablegen. Prüfe vor der Buchung das Ablaufdatum deines Codes.
+
+In den USA kostet die [reguläre Prüfung **199** US-Dollar](https://www.isc2.org/Register-For-Exam/ISC2-Exam-Pricing). Wer ausschließlich die CC-Zertifizierung von ISC2 besitzt, zahlt zusätzlich eine [jährliche Gebühr von 50 US-Dollar](https://www.isc2.org/policies-procedures/AMFs-Overview), um sie aufrechtzuerhalten.
+
+**Neu 2026:** ISC2 führte das **AI Security Certificate** für KI-Risikomanagement ein.
 
 **Stärken:**
 - **Unübertroffene Anerkennung:** Die meistverlangte Zertifizierung

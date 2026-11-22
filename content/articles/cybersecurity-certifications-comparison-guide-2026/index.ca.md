@@ -1,7 +1,7 @@
 ---
 title: "Comparació de certificacions de ciberseguretat 2026"
 date: 2026-05-24
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Comparativa de 2026 dels proveïdors de certificacions de ciberseguretat, els preus, el retorn de la inversió i l'encaix amb les trajectòries professionals."
@@ -215,7 +215,11 @@ Realitat: CISSP apareix a tot arreu, però no és "obligatori" per als principia
 7. Operacions de seguretat
 8. Seguretat del desenvolupament de programari
 
-**Novetat de 2026:** ISC2 va llançar **CC (Certified in Cybersecurity)**, gratuïta i de nivell inicial, i l'**AI Security Certificate**, per gestionar riscos d'IA.
+ISC2 va llançar la certificació de nivell inicial **CC (Certified in Cybersecurity)** el 2022. El [programa One Million Certified in Cybersecurity](https://www.isc2.org/landing/1mcc), que oferia formació i examen gratuïts, va tancar les noves inscripcions el 20 de maig de 2026. Qui tingui un codi d’examen vigent del programa ha de reservar la prova i fer-la com a màxim el 31 de desembre de 2026. Comprova la data de caducitat del codi abans de reservar.
+
+Als Estats Units, l’[examen ordinari costa **199** USD](https://www.isc2.org/Register-For-Exam/ISC2-Exam-Pricing). Si la CC és l’única certificació ISC2 que tens, la [quota anual de manteniment és de 50 USD](https://www.isc2.org/policies-procedures/AMFs-Overview) i es paga per separat.
+
+**Novetat de 2026:** ISC2 va llançar l’**AI Security Certificate** per gestionar riscos d’IA.
 
 **Punts forts:**
 - **Reconeixement inigualable:** és la certificació individual més sol·licitada

@@ -1,7 +1,7 @@
 ---
 title: "Vergelijking van cybersecuritycertificeringen 2026"
 date: 2026-05-24
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Een vergelijking uit 2026 van aanbieders van cybersecuritycertificeringen, prijzen, rendement op investering en aansluiting op carrièrepaden."
@@ -214,7 +214,11 @@ De realiteit: CISSP staat in veel vacatures, maar is nergens "vereist" voor echt
 7. Beveiligingsoperaties
 8. Beveiliging van softwareontwikkeling
 
-**Nieuw in 2026:** ISC2 lanceerde **CC (Certified in Cybersecurity)** als gratis certificering op instapniveau en een **AI Security Certificate** voor AI-risicobeheer.
+ISC2 introduceerde de instapcertificering **CC (Certified in Cybersecurity)** in 2022. Het [programma One Million Certified in Cybersecurity](https://www.isc2.org/landing/1mcc) bood gratis training en een gratis examen. Sinds 20 mei 2026 zijn nieuwe inschrijvingen gesloten. Wie nog een geldige examencode uit het programma heeft, moet het examen uiterlijk op 31 december 2026 boeken én afleggen. Controleer de vervaldatum van je code voordat je boekt.
+
+In de Verenigde Staten bedraagt het [standaardtarief voor het examen **199** Amerikaanse dollar](https://www.isc2.org/Register-For-Exam/ISC2-Exam-Pricing). Wie alleen CC als ISC2-certificering heeft, betaalt daarnaast een [jaarlijkse onderhoudsbijdrage van 50 Amerikaanse dollar](https://www.isc2.org/policies-procedures/AMFs-Overview).
+
+**Nieuw in 2026:** ISC2 lanceerde een **AI Security Certificate** voor AI-risicobeheer.
 
 **Sterke punten:**
 - **Ongeëvenaarde herkenning:** De afzonderlijke certificering waar het vaakst om wordt gevraagd.

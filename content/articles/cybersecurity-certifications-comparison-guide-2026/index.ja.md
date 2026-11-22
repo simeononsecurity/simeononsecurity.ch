@@ -1,7 +1,7 @@
 ---
 title: "サイバーセキュリティ資格比較 2026"
 date: 2026-05-24
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "2026年のサイバーセキュリティ資格提供機関を比較し、料金、投資対効果、キャリアパスとの適合性を解説します。"
@@ -212,7 +212,11 @@ CISO: 「CISSP 必須」（求人の85%）
 7. セキュリティ運用。
 8. ソフトウェア開発セキュリティ。
 
-**2026年の新資格:** ISC2は無料の初級資格**CC (Certified in Cybersecurity)**と、AIリスク管理の**AI Security Certificate**を開始しました。
+ISC2は2022年に入門資格の **CC (Certified in Cybersecurity)** を開始しました。無料の研修と試験を提供した [One Million プログラム](https://www.isc2.org/landing/1mcc) は、2026年5月20日に新規登録を終了しました。すでに発行された有効な試験コードを持つ人は、2026年12月31日までに試験を予約し、受験まで済ませる必要があります。予約前にコードの有効期限を確認してください。
+
+米国での[通常受験料](https://www.isc2.org/Register-For-Exam/ISC2-Exam-Pricing)は**199**米ドルです。CCのみを保有する会員には、別途50米ドルの[年間資格維持費](https://www.isc2.org/policies-procedures/AMFs-Overview)がかかります。
+
+**2026年の新資格:** ISC2はAIリスク管理の **AI Security Certificate** を開始しました。
 
 **強み:**
 - **圧倒的な認知度:** 最も求められる資格です。

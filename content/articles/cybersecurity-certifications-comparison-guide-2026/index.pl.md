@@ -1,7 +1,7 @@
 ---
 title: "Porównanie certyfikatów cyberbezpieczeństwa 2026"
 date: 2026-05-24
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Porównanie dostawców certyfikatów cyberbezpieczeństwa, cen, zwrotu z inwestycji i dopasowania do ścieżek kariery w 2026 roku."
@@ -211,7 +211,11 @@ Rzeczywistość: CISSP pojawia się w wielu ofertach, ale nie jest „wymagany�
 7. Operacje bezpieczeństwa
 8. Bezpieczeństwo wytwarzania oprogramowania
 
-**Nowość w 2026 roku:** ISC2 wprowadziło bezpłatny certyfikat podstawowy **CC (Certified in Cybersecurity)** oraz **AI Security Certificate** dotyczący zarządzania ryzykiem AI.
+ISC2 uruchomiło podstawową certyfikację **Certified in Cybersecurity (CC)** w 2022 roku. [Program One Million Certified in Cybersecurity](https://www.isc2.org/landing/1mcc) oferował bezpłatne szkolenie i egzamin, ale 20 maja 2026 r. zakończył przyjmowanie nowych uczestników. Jeśli masz ważny kod z programu, zarezerwuj termin i przystąp do egzaminu najpóźniej 31 grudnia 2026 r. Przed rezerwacją sprawdź datę ważności kodu.
+
+[Standardowa opłata za egzamin w USA](https://www.isc2.org/Register-For-Exam/ISC2-Exam-Pricing) wynosi **199 USD**. Jeśli CC to Twój jedyny certyfikat ISC2, płacisz osobną [roczną opłatę za utrzymanie certyfikacji w wysokości 50 USD](https://www.isc2.org/policies-procedures/AMFs-Overview).
+
+**Nowość w 2026 roku:** ISC2 wprowadziło **AI Security Certificate** dotyczący zarządzania ryzykiem AI.
 
 **Zalety:**
 - **Bezkonkurencyjne uznanie:** Najczęściej wymagany pojedynczy certyfikat.

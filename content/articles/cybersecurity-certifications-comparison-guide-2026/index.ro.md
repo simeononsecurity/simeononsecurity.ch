@@ -1,7 +1,7 @@
 ---
 title: "Comparația certificărilor de securitate cibernetică 2026"
 date: 2026-05-24
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "O comparație din 2026 a furnizorilor de certificări de securitate cibernetică, a prețurilor, rentabilității investiției și potrivirii cu traseele profesionale."
@@ -212,7 +212,11 @@ Realitatea: CISSP apare peste tot, dar nu este „obligatoriu” pentru începă
 7. Operațiuni de securitate
 8. Securitatea dezvoltării software
 
-**Noutate în 2026:** ISC2 a lansat **CC (Certified in Cybersecurity)** gratuită pentru începători și **AI Security Certificate** pentru gestionarea riscurilor AI.
+ISC2 a lansat în 2022 certificarea pentru începători **Certified in Cybersecurity (CC)**. [Programul One Million Certified in Cybersecurity](https://www.isc2.org/landing/1mcc) oferea instruire și examen gratuite, dar nu mai acceptă participanți noi din 20 mai 2026. Dacă ai deja un cod valabil din program, programează și susține examenul până la 31 decembrie 2026. Verifică data de expirare a codului înainte de programare.
+
+[Taxa standard de examen în SUA](https://www.isc2.org/Register-For-Exam/ISC2-Exam-Pricing) este de **199 USD**. Dacă CC este singura ta certificare ISC2, plătești separat o [taxă anuală de menținere de 50 USD](https://www.isc2.org/policies-procedures/AMFs-Overview).
+
+**Noutate în 2026:** ISC2 a lansat **AI Security Certificate** pentru gestionarea riscurilor AI.
 
 **Puncte forte:**
 - **Recunoaștere de neegalat:** cea mai cerută certificare

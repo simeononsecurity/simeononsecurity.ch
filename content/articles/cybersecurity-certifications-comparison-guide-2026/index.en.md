@@ -1,7 +1,7 @@
 ---
 title: "Cybersecurity Certifications Comparison 2026"
 date: 2026-05-24
-lastmod: 2026-10-11
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "A 2026 comparison of cybersecurity certification vendors, pricing, return on investment, and career-path fit."
@@ -214,7 +214,11 @@ Reality: CISSP is listed everywhere, "required" nowhere for true beginners.
 7. Security Operations
 8. Software Development Security
 
-**New for 2026:** ISC2 launched **CC (Certified in Cybersecurity)** as a free entry-level cert, and **AI Security Certificate** for AI risk management.
+ISC2 launched **Certified in Cybersecurity (CC)**, its entry-level certification, in 2022. Its [One Million Certified in Cybersecurity program](https://www.isc2.org/landing/1mcc) offered free training and an exam, but closed to new participants on May 20, 2026. If you already have an unexpired program code, book and take the exam by December 31, 2026. Check your code's expiration date before booking.
+
+The [standard U.S. exam fee](https://www.isc2.org/Register-For-Exam/ISC2-Exam-Pricing) is **$199**. If CC is your only ISC2 certification, you pay a separate [$50 annual maintenance fee](https://www.isc2.org/policies-procedures/AMFs-Overview).
+
+**New for 2026:** ISC2 launched the **AI Security Certificate** for AI risk management.
 
 **Strengths:**
 - **Unmatched recognition:** Single most requested certification

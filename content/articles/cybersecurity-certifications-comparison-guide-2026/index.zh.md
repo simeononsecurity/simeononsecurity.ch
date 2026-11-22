@@ -1,7 +1,7 @@
 ---
 title: "2026 年网络安全认证对比"
 date: 2026-05-24
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "对比 2026 年网络安全认证机构、价格、投资回报和职业路径适配度。"
@@ -212,7 +212,11 @@ CISO：“要求 CISSP”（85% 的招聘信息）
 7. 安全运营
 8. 软件开发安全
 
-**2026 年新增：** ISC2 推出免费的入门认证 **CC (Certified in Cybersecurity)**，以及面向 AI 风险管理的 **AI Security Certificate**。
+ISC2 于 2022 年推出入门级 **CC (Certified in Cybersecurity)** 认证。提供免费培训和考试的 [One Million 计划](https://www.isc2.org/landing/1mcc) 已于 2026 年 5 月 20 日停止接受新报名。已获发考试代码且代码仍然有效的考生，须在 2026 年 12 月 31 日前完成预约并参加考试。预约前请核对考试代码的有效期。
+
+[美国的标准考试费](https://www.isc2.org/Register-For-Exam/ISC2-Exam-Pricing)为 **199** 美元。仅持有 CC 认证的会员还须缴纳 50 美元的[年度维护费](https://www.isc2.org/policies-procedures/AMFs-Overview)。
+
+**2026 年新增：** ISC2 推出面向 AI 风险管理的 **AI Security Certificate**。
 
 **优势：**
 - **认可度无与伦比：** 招聘需求最高的认证
