@@ -1,7 +1,7 @@
 ---
 title: "Guía de actualización de Proxmox VE 8 a 9: actualización en sitio con script automatizado"
 date: 2026-07-22
-lastmod: 2026-07-22
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Guía completa para actualizar Proxmox VE 8 (Debian Bookworm) a Proxmox VE 9 (Debian Trixie). Cubre requisitos previos, actualización manual paso a paso, el script de automatización pve8to9-upgrade.sh, cambios importantes y problemas conocidos."
@@ -13,21 +13,23 @@ coverCaption: "Actualización de Proxmox VE 8 a 9: actualización en sitio paso 
 canonical: "https://simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/"
 ---
 
-**Proxmox VE 9 está basado en Debian 13 Trixie y se entrega con el kernel 6.14, QEMU 10, LXC 6 y ZFS 2.3.** Esta guía cubre tanto el proceso de actualización manual en sitio como un script bash automatizado que detecta su configuración y gestiona cada cambio de repositorio, problema conocido y verificación previa.
+**Proxmox VE 9.0 se publicó sobre Debian 13 Trixie con el kernel 6.14, QEMU 10, LXC 6 y ZFS 2.3.** Esta guía cubre tanto el proceso de actualización manual en sitio como un script bash automatizado que detecta su configuración y gestiona cada cambio de repositorio, problema conocido y verificación previa.
 
 ## Novedades de Proxmox VE 9
 
 Proxmox VE 9 (publicado en agosto de 2025) es una actualización de versión mayor. Cambios clave:
 
-| Componente | PVE 8 | PVE 9 |
+| Componente | PVE 8 | PVE 9.0 |
 |-----------|--------|--------|
 | **Base Debian** | Bookworm (12) | Trixie (13) |
 | **Kernel por defecto** | 6.8 | 6.14 |
 | **QEMU** | 9.x | 10.x |
 | **LXC** | 5.x | 6.x |
 | **ZFS** | 2.2 | 2.3 |
-| **Ceph** | Quincy / Reef / Squid | Squid (requerido) / Tentacle (opcional) |
+| **Ceph** | Quincy / Reef / Squid | Squid (19.2) |
 | **cgroup** | cgroupv2 (v1 aún posible) | solo cgroupv2 |
+
+[Proxmox VE 9.2](https://forum.proxmox.com/threads/proxmox-virtual-environment-9-2-available.183742/) incluye el kernel 7.0 por defecto, QEMU 11, LXC 7 y ZFS 2.4. Ceph Tentacle es la opción predeterminada en 9.2 y Squid sigue disponible. La migración a Squid antes de actualizar un clúster Ceph de VE 8 es un requisito distinto.
 
 **Nuevas funciones principales en PVE 9.0+:**
 - Instantáneas de VM en LVM de aprovisionamiento grueso mediante cadenas de volúmenes (vista previa técnica en producción en 9.1)
@@ -71,7 +73,7 @@ La salida debe mostrar la versión 19.x (Squid). Si está en Reef (18.x) o Quinc
 
 ### 3. Proxmox Backup Server coinstalado
 
-Si PBS está instalado en el mismo nodo, actualice PBS 3 → 4 antes de tocar los repositorios de PVE. Ejecute `pbs3to4 --full` y resuelva primero todos los problemas.
+Si PBS 3.4 y PVE 8.4 comparten nodo, siga las [instrucciones para instalaciones conjuntas](https://pbs.proxmox.com/wiki/Upgrade_from_3_to_4#Installed_alongside_Proxmox_VE) y coordine las dos actualizaciones en una operación de APT. Compruebe que las copias se puedan restaurar y ejecute `pve8to9 --full` y `pbs3to4 --full` antes de cambiar los repositorios. Resuelva los problemas detectados antes de continuar.
 
 ### 4. Requisitos de acceso
 
@@ -109,7 +111,7 @@ grep -E 'cgroup_no_v1|systemd.unified_cgroup_hierarchy=0' /proc/cmdline
 
 Si eso devuelve algo, elimine el parámetro del kernel de `/etc/default/grub` y ejecute `update-grub` antes de actualizar.
 
-**Impacto en los contenedores**: los contenedores que ejecutan systemd 230 o anterior (CentOS 7, Ubuntu 16.04) no iniciarán en PVE 9. Migre esas cargas de trabajo durante la ventana de soporte de PVE 8 (fin de vida julio de 2026).
+**Impacto en los contenedores**: los contenedores que ejecutan systemd 230 o anterior (CentOS 7, Ubuntu 16.04) no iniciarán en PVE 9. Migre esas cargas antes de pasar a PVE 9. El soporte del fabricante para Proxmox VE 8.4 terminó en agosto de 2026.
 
 ### Grupos HA deprecados
 
@@ -140,9 +142,11 @@ grep -v '^\s*#\|^\s*$' /etc/sysctl.conf
 
 Debian Trixie monta `/tmp` como tmpfs (hasta el 50% de la RAM). Los archivos se limpian periódicamente mientras el sistema está en ejecución. Si usa `/tmp` para archivos temporales grandes, transfiera ese trabajo a `/var/tmp` o un punto de montaje dedicado.
 
-### Veeam Backup defectuoso para versión de máquina QEMU >= 10.0
+### Compatibilidad de copias y restauraciones con Veeam {#veeam-backup-defectuoso-para-versión-de-máquina-qemu--100}
 
-Proxmox cambió la forma en que los discos se conectan a QEMU internamente para la versión de máquina 10.0+. Veeam no se ha adaptado todavía. Fije las VM afectadas a la versión de máquina `9.2+pve1` antes de actualizar, o posponga la actualización si Veeam es crítico.
+Antes de actualizar, compruebe las [compilaciones de Veeam Backup & Replication y del complemento para Proxmox](https://helpcenter.veeam.com/docs/vbr/userguide/pve_system_requirements.html). Los requisitos actuales incluyen Proxmox VE 8.2 a 9.2 para servidores x86-64 instalados con la ISO oficial de Proxmox. Las compilaciones anteriores de Veeam tienen sus propios intervalos de compatibilidad.
+
+Las [limitaciones de Veeam](https://helpcenter.veeam.com/docs/vbr/userguide/pve_limitations.html) indican que se admiten copias de VM con discos en almacenamiento basado en LVM si están habilitadas las instantáneas como cadenas de volúmenes (SAVC). SAVC no se admite para los archivos de los trabajadores de Veeam ni como destino de Instant Recovery. El [problema de restauración descrito en KB4773](https://www.veeam.com/kb4773) afecta a tipos de máquina QEMU anteriores a la versión 10 con discos QCOW2 al restaurarlos en almacenamiento SAVC en PVE 9. Elija un destino sin SAVC o restaure el disco en formato RAW según la documentación. Son alternativas para la restauración, no motivos para fijar el tipo de máquina de todas las VM. Pruebe una copia y una restauración en el almacenamiento previsto.
 
 ### Los nombres de interfaz de red pueden cambiar
 
