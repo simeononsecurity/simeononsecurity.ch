@@ -1,30 +1,44 @@
 ---
 title: "Windows 10-systeemwijde advertentieblokkeringsscript voor betere privacy en beveiliging"
 date: 2021-04-02
+lastmod: 2026-11-23
 toc: true
 draft: false
-description: "Blokkeer advertenties, trackers en telemetrie op Windows 10 met dit krachtige PowerShell-script dat gebruikmaakt van het hosts-bestand en de Windows Firewall voor systeembrede advertentieblokkering."
-tags: ["Windows 10", "ad-blocker", "telemetrie blokkering", "PowerShell script", "systeemwijde advertentieblokkering", "privacy", "beveiliging", "EasyList", "Eenvoudige privacy", "NoCoin Filterlijst", "AdGuard DNS filter", "YoYo lijsten", "Peter Lowe's ad tracking malware servers", "Windows Firewall", "domeinenlijsten", "Windows trackers blokkeren", "bloktrackers", "advertenties blokkeren", "blok volgen"]
+description: "Blokkeer domeinen uit de StevenBlack-lijst in Windows met een PowerShell-script dat aangepaste vermeldingen in het hosts-bestand behoudt."
+tags: ["Windows 10", "ad-blocker", "telemetrie blokkering", "PowerShell script", "systeemwijde advertentieblokkering", "privacy", "beveiliging"]
 ---
 
-## Beschrijving:
-Dit script blokkeert Telemetry-gerelateerde domeinen via het hosts-bestand en gerelateerde IP's via Windows Firewall.
+Blokkeer domeinen uit de StevenBlack-lijst in Windows met een PowerShell-script dat aangepaste vermeldingen in het hosts-bestand behoudt.
 
-**Noten:**
-- Het toevoegen van deze domeinen kan bepaalde software zoals iTunes of Skype verstoren
-- Entries gerelateerd aan Akamai veroorzaken problemen met Widevine DRM.
+## Voorbereiden en vooraf controleren
 
-### Gebruikte lijsten:
--[EasyList](https://easylist.to/easylist/easylist.txt) / [JustDomains - EasyList](https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt)
--[Easy Privacy](https://easylist.to/easylist/easyprivacy.txt) / [JustDomains - EasyPrivacy](https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt)
--[NoCoin Filter List](https://github.com/hoshsadiq/adblock-nocoin-list/) / [JustDomains - NoCoin Filter List](https://justdomains.github.io/blocklists/lists/nocoin-justdomains.txt)
--[AdGuard DNS filter](https://github.com/AdguardTeam/AdguardSDNSFilter) / [JustDomains - AdGuard Simplified Domain Names Filter](https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt)
--[YoYo Lists](https://pgl.yoyo.org/adservers/serverlist.php)
--[Peter Lowe’s ad/tracking/malware servers](https://pgl.yoyo.org/adservers/policy.php)
+Download de volledige repository en pak deze uit. Lees de [GitHub-README](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/blob/main/README.md) en controleer het script voordat je het uitvoert. Open Windows PowerShell 5.1 of PowerShell 7 als beheerder in de uitgepakte map. Test DNS en de benodigde apps eerst op een Windows-testsysteem dat je daarna kunt verwijderen.
 
-### Voorbeeld:
+Bekijk eerst welke wijzigingen het script voorstelt. Voer het tweede commando pas afzonderlijk uit als je de wijzigingen wilt toepassen.
 
-Voer de laatste versie van het script automatisch uit:
 ```powershell
-iwr -useb 'https://raw.githubusercontent.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/main/sos-system-wide-windows-ad-block.ps1' | iex
+.\sos-system-wide-windows-ad-block.ps1 -WhatIf
 ```
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1
+```
+
+## Het oorspronkelijke hosts-bestand herstellen
+
+Controleer eerst wat het herstel zal doen. Voer het tweede commando pas afzonderlijk uit als je het bestand wilt herstellen.
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore -WhatIf
+```
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore
+```
+
+Laat de back-up intact tot het herstel is geslaagd. Als iemand of een app het hosts-bestand tussentijds heeft gewijzigd, stopt het herstel. Bewaar die wijzigingen en breng ze met elkaar in overeenstemming voordat je het opnieuw probeert.
+
+## Blokkeerlijst
+
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts)
+- [Een probleem melden](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/issues)

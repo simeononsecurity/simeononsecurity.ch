@@ -1,32 +1,44 @@
 ---
 title: "Windows 10 Systemweites Werbeblocker-Skript für mehr Datenschutz und Sicherheit"
 date: 2021-04-02
+lastmod: 2026-11-23
 toc: true
 draft: false
-description: "Blockieren Sie Werbung, Tracker und Telemetrie unter Windows 10 mit diesem leistungsstarken PowerShell-Skript, das die Hosts-Datei und die Windows-Firewall zum systemweiten Blockieren von Werbung nutzt."
-tags: ["Windows 10", "Werbeblocker", "Telemetrieblockierung", "PowerShell-Skript", "systemweiter Werbeblocker", "Datenschutz", "Sicherheit", "EasyList", "Einfacher Datenschutz", "NoCoin Filter List", "AdGuard DNS-Filter", "YoYo-Listen", "Peter Lowes Ad-Tracking-Malware-Server", "Windows Firewall", "Domänenlisten", "Windows-Tracker blockieren", "Block-Tracker", "Anzeigen blockieren", "Blockverfolgung"]
+description: "Blockieren Sie unter Windows Domains aus der StevenBlack-Liste mit einem PowerShell-Skript, das eigene Einträge in der Hosts-Datei erhält."
+tags: ["Windows 10", "Werbeblocker", "Telemetrieblockierung", "PowerShell-Skript", "systemweiter Werbeblocker", "Datenschutz", "Sicherheit"]
 ---
 
-**System-Wide-Windows-Ad-Blocker**
+Blockieren Sie unter Windows Domains aus der StevenBlack-Liste mit einem PowerShell-Skript, das eigene Einträge in der Hosts-Datei erhält.
 
-[![VirusTotal Scan](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/actions/workflows/virustotal.yml)
+## Vorbereiten und prüfen
 
-Dieses Skript ist ein Windows PowerShell-Skript, das die Datei "StevenBlack/hosts" herunterlädt und auf die "hosts"-Datei des Systems anwendet, mit der bestimmte Domänen/Websites blockiert werden können, indem sie einer IP-Adresse Ihrer Wahl zugeordnet werden (in der Regel die IP-Adresse des lokalen Computers). Das Skript überprüft die Internetverbindung und die Proxy-Einstellungen und versucht, die neueste Version der "hosts"-Datei von zwei verschiedenen Quellen herunterzuladen: "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts" und "http://sbc.io/hosts/hosts". Schlägt der Download fehl, fährt das Skript mit einer lokalen Kopie der "hosts"-Datei fort. Das Skript erfordert zur Ausführung erhöhte Rechte und ändert den Registrierungsschlüssel ".NETFramework", um nur die neueste Version des .NET-Frameworks zu verwenden.
+Laden Sie das vollständige Repository herunter und entpacken Sie es. Lesen Sie vor der Ausführung die [GitHub-README](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/blob/main/README.md) und prüfen Sie das Skript. Öffnen Sie im entpackten Ordner Windows PowerShell 5.1 oder PowerShell 7 als Administrator. Testen Sie zuerst DNS und benötigte Anwendungen auf einem entbehrlichen Windows-Testsystem.
 
-*Wir sind an allen Kommentaren und Bedenken zu diesem Repo interessiert. Bitte senden Sie eine [issue](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/issues) mit allen Informationen, die Sie haben.
+Zeigen Sie die Änderungen zunächst in der Vorschau an. Führen Sie den zweiten Befehl erst dann separat aus, wenn Sie die Änderungen übernehmen möchten.
 
-### Verwendete Listen:
-- [StevenBlack/hosts - adware + malware](https://github.com/StevenBlack/hosts)
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -WhatIf
+```
 
-### Beispiel:
-#### Manuelle Installation:
-**Das Skript kann aus dem extrahierten GitHub-Download wie folgt gestartet werden:**
 ```powershell
 .\sos-system-wide-windows-ad-block.ps1
 ```
-#### Automatisch installieren:
-Führen Sie die neueste Version des Skripts automatisch aus:
+
+## Ursprüngliche Hosts-Datei wiederherstellen
+
+Zeigen Sie zunächst die Vorschau der Wiederherstellung an. Führen Sie den zweiten Befehl erst dann separat aus, wenn Sie die Datei wiederherstellen möchten.
+
 ```powershell
-iwr -useb 'https://simeononsecurity.com/scripts/soswindowsadblocker.ps1' | iex
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore -WhatIf
 ```
 
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore
+```
+
+Bewahren Sie die Sicherung bis zur erfolgreichen Wiederherstellung unverändert auf. Wenn jemand oder eine Anwendung die Hosts-Datei nach der Anwendung geändert hat, bricht die Wiederherstellung ab. Sichern und übernehmen Sie diese Änderungen vor einem erneuten Versuch.
+
+## Sperrliste
+
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts)
+- [Problem melden](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/issues)

@@ -1,30 +1,44 @@
 ---
 title: "Script di blocco degli annunci a livello di sistema di Windows 10 per una migliore privacy e sicurezza"
 date: 2021-04-02
+lastmod: 2026-11-23
 toc: true
 draft: false
-description: "Blocca annunci, tracker e telemetria su Windows 10 utilizzando questo potente script di PowerShell che utilizza il file hosts e Windows Firewall per il blocco degli annunci a livello di sistema."
-tags: ["Windows 10", "blocco per annunci pubblicitari", "blocco della telemetria", "Script di PowerShell", "blocco degli annunci a livello di sistema", "intimità", "sicurezza", "EasyList", "Segretezza facile", "Elenco dei filtri NoCoin", "Filtro DNS di AdGuard", "Liste YoYo", "I server del malware di tracciamento degli annunci di Peter Lowe", "firewall di Windows", "elenchi di domini", "bloccare i tracker di Windows", "tracker di blocco", "bloccare gli annunci", "tracciamento dei blocchi"]
+description: "Blocca in Windows i domini dell’elenco StevenBlack con uno script PowerShell che conserva le voci personalizzate del file hosts."
+tags: ["Windows 10", "blocco per annunci pubblicitari", "blocco della telemetria", "Script di PowerShell", "blocco degli annunci a livello di sistema", "intimità", "sicurezza"]
 ---
 
-## Descrizione:
-Questo script blocca i domini correlati alla telemetria tramite il file hosts e gli IP correlati tramite Windows Firewall.
+Blocca in Windows i domini dell’elenco StevenBlack con uno script PowerShell che conserva le voci personalizzate del file hosts.
 
-**Appunti:**
-- L'aggiunta di questi domini potrebbe danneggiare alcuni software come iTunes o Skype
-- È stato segnalato che le voci relative ad Akamai causano problemi con Widevine DRM
+## Preparazione e anteprima
 
-### Elenchi utilizzati:
--[EasyList](https://easylist.to/easylist/easylist.txt) / [JustDomains - EasyList](https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt)
--[Easy Privacy](https://easylist.to/easylist/easyprivacy.txt) / [JustDomains - EasyPrivacy](https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt)
--[NoCoin Filter List](https://github.com/hoshsadiq/adblock-nocoin-list/) / [JustDomains - NoCoin Filter List](https://justdomains.github.io/blocklists/lists/nocoin-justdomains.txt)
--[AdGuard DNS filter](https://github.com/AdguardTeam/AdguardSDNSFilter) / [JustDomains - AdGuard Simplified Domain Names Filter](https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt)
--[YoYo Lists](https://pgl.yoyo.org/adservers/serverlist.php)
--[Peter Lowe’s ad/tracking/malware servers](https://pgl.yoyo.org/adservers/policy.php)
+Scarica ed estrai l’intero repository. Leggi il [README su GitHub](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/blob/main/README.md) e controlla lo script prima di eseguirlo. Nella cartella estratta, apri Windows PowerShell 5.1 o PowerShell 7 come amministratore. Verifica prima il DNS e le applicazioni necessarie su un sistema Windows di prova che puoi eliminare.
 
-### Esempio:
+Controlla prima l’anteprima delle modifiche. Esegui il secondo comando separatamente solo quando vuoi applicarle.
 
-Esegui automaticamente l'ultima versione dello script:
 ```powershell
-iwr -useb 'https://raw.githubusercontent.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/main/sos-system-wide-windows-ad-block.ps1' | iex
+.\sos-system-wide-windows-ad-block.ps1 -WhatIf
 ```
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1
+```
+
+## Ripristinare il file hosts originale
+
+Controlla prima l’anteprima del ripristino. Esegui il secondo comando separatamente solo quando vuoi ripristinare il file.
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore -WhatIf
+```
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore
+```
+
+Mantieni intatto il backup fino al completamento del ripristino. Se qualcuno o un’app modifica il file hosts dopo l’applicazione delle modifiche, il ripristino si interrompe. Salva e riconcilia le modifiche prima di riprovare.
+
+## Elenco di blocco
+
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts)
+- [Segnala un problema](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/issues)

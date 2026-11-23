@@ -1,30 +1,44 @@
 ---
 title: "プライバシーとセキュリティを向上させる Windows 10 システム全体の広告ブロッカー スクリプト"
 date: 2021-04-02
+lastmod: 2026-11-23
 toc: true
 draft: false
-description: "システム全体の広告ブロックにホスト ファイルと Windows ファイアウォールを利用するこの強力な PowerShell スクリプトを使用して、Windows 10 で広告、トラッカー、テレメトリをブロックします。"
-tags: ["ウィンドウズ10", "広告ブロッカー", "テレメトリのブロック", "PowerShell スクリプト", "システム全体の広告ブロック", "プライバシー", "安全", "イージーリスト", "簡単なプライバシー", "NoCoinフィルターリスト", "AdGuard DNS フィルター", "ヨーヨーリスト", "Peter Lowe の広告追跡マルウェア サーバー", "Windowsファイアウォール", "ドメインリスト", "Windows トラッカーをブロックする", "ブロックトラッカー", "広告をブロックする", "ブロック追跡"]
+description: "カスタムの hosts エントリを保持する PowerShell スクリプトで、Windows 上で StevenBlack のリストにあるドメインをブロックします。"
+tags: ["ウィンドウズ10", "広告ブロッカー", "テレメトリのブロック", "PowerShell スクリプト", "システム全体の広告ブロック", "プライバシー", "安全"]
 ---
 
-＃＃ 説明：
-このスクリプトは、ホスト ファイルを介してテレメトリ関連のドメインをブロックし、Windows ファイアウォールを介して関連 IP をブロックします。
+カスタムの hosts エントリを保持する PowerShell スクリプトで、Windows 上で StevenBlack のリストにあるドメインをブロックします。
 
-**ノート：**
-- これらのドメインを追加すると、iTunes や Skype などの特定のソフトウェアが動作しなくなる可能性があります。
-- Akamai に関連するエントリが Widevine DRM で問題を引き起こすことが報告されています
+## 準備とプレビュー
 
-### 使用されるリスト:
--[EasyList](https://easylist.to/easylist/easylist.txt) / [JustDomains - EasyList](https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt)
--[Easy Privacy](https://easylist.to/easylist/easyprivacy.txt) / [JustDomains - EasyPrivacy](https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt)
--[NoCoin Filter List](https://github.com/hoshsadiq/adblock-nocoin-list/) / [JustDomains - NoCoin Filter List](https://justdomains.github.io/blocklists/lists/nocoin-justdomains.txt)
--[AdGuard DNS filter](https://github.com/AdguardTeam/AdguardSDNSFilter) / [JustDomains - AdGuard Simplified Domain Names Filter](https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt)
--[YoYo Lists](https://pgl.yoyo.org/adservers/serverlist.php)
--[Peter Lowe’s ad/tracking/malware servers](https://pgl.yoyo.org/adservers/policy.php)
+リポジトリ全体をダウンロードして展開します。実行前に [GitHub の README](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/blob/main/README.md) とスクリプトを確認してください。展開したフォルダーで Windows PowerShell 5.1 または PowerShell 7 を管理者として開きます。まず使い捨ての Windows テスト環境で DNS と必要なアプリを確認してください。
 
-＃＃＃ 例：
+最初のコマンドで変更内容を確認します。適用する準備ができたら、2 番目のコマンドを別途実行してください。
 
-最新バージョンのスクリプトを自動的に実行します。
 ```powershell
-iwr -useb 'https://raw.githubusercontent.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/main/sos-system-wide-windows-ad-block.ps1' | iex
+.\sos-system-wide-windows-ad-block.ps1 -WhatIf
 ```
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1
+```
+
+## 元の hosts ファイルを復元
+
+最初のコマンドで復元内容を確認します。復元する準備ができたら、2 番目のコマンドを別途実行してください。
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore -WhatIf
+```
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore
+```
+
+復元が成功するまでバックアップを変更せずに保管してください。適用後に別のユーザーやアプリが hosts ファイルを編集した場合、復元は中止されます。変更内容を保存し、差分を調整してから再試行してください。
+
+## ブロックリスト
+
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts)
+- [問題を報告](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/issues)
