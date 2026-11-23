@@ -1,12 +1,12 @@
 ---
 title: "Une source, de nombreux outils : construire un cadre de collaboration IA pour des équipes mixtes"
 date: 2026-10-01
-lastmod: 2026-11-13
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "Construisez un cadre de collaboration IA partagé pour les développeurs et les non-développeurs. Définissez les sources de vérité, suivez les versions du contexte, examinez les changements durables et choisissez une carte de projet, du RAG ou les deux."
 genre: ["Intelligence artificielle", "Gestion des connaissances", "Génie logiciel", "Collaboration d'équipe"]
-tags: ["cadre de collaboration IA", "équipes mixtes", "source de vérité", "agents IA", "AGENTS.md", "CLAUDE.md", "règles Cline", "Claude Code", "Codex", "ChatGPT", "Copilot", "Cowork", "génération augmentée par récupération", "RAG", "Model Context Protocol", "carte de projet", "manifeste de contexte", "gestion des connaissances", "dérive documentaire", "approbation humaine", "registre des décisions", "transfert entre agents", "versionnage des politiques", "worktrees Git", "gates de pull request"]
+tags: ["cadre de collaboration IA", "équipes mixtes", "source de vérité", "agents IA", "AGENTS.md", "CLAUDE.md", "règles Cline", "Claude Code", "Codex", "ChatGPT", "Copilot", "Cowork", "génération augmentée par récupération", "RAG", "protocole de contexte de modèle", "carte de projet", "manifeste de contexte", "gestion des connaissances", "dérive documentaire", "approbation humaine", "registre des décisions", "transfert entre agents", "versionnage des politiques", "arbres de travail Git", "contrôles de pull request"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustration d'un groupe de professionnels collaborant sur un projet de cybersécurité"
 coverCaption: ""
@@ -155,12 +155,12 @@ tracker:
 
 **Gardez une politique commune**, puis distribuez de courts adaptateurs propres aux outils. Placez la version approuvée en première ligne de chaque adaptateur. Ajoutez l'ID de source et un instantané local contrôlé.
 
-**Le chargement varie selon l'outil.** Codex découvre les instructions `AGENTS.md`. Claude Code utilise `CLAUDE.md`, les imports et la mémoire du projet. Cline utilise `.clinerules/` et ses contrôles. Vérifiez le comportement installé au lieu de supposer que les noms de fichiers sont identiques.
+**Le chargement varie selon l'outil.** Codex découvre les instructions **`AGENTS.md`**. Claude Code utilise **`CLAUDE.md`**, les imports et la mémoire du projet. Cline utilise **`.clinerules/`** et ses contrôles. Vérifiez le comportement installé au lieu de supposer que les noms de fichiers sont identiques.
 
 ### Encadré : en-tête AGENTS.md
 
 ```markdown
-Policy-Version: v3 | Source: wiki:POL-01 | Status: approuvé
+Version de la politique : v3 | Source : wiki:POL-01 | Statut : approuvé
 
 # Instructions du projet
 
@@ -243,7 +243,7 @@ Chaque option conserve les responsables, l'autorisation et la provenance.
 La découverte par RAG vérifie encore les sources avant toute action durable.
 ```
 
-**RAG seul décrit une interface de récupération**, pas une permission d'ignorer la gouvernance. Le modèle hybride sépare découverte et vérification. La carte répond « où ». La source répond « quoi ». Récupérez directement `REQ-17` pour l'exemple de rétention, puis cherchez le registre pour les anciennes décisions.
+**RAG seul décrit une interface de récupération**, pas une permission d'ignorer la gouvernance. **Le modèle hybride sépare découverte et vérification.** La carte répond « où ». La source répond « quoi ». Récupérez directement **`REQ-17`** pour l'exemple de rétention, puis cherchez le registre pour les anciennes décisions.
 
 ## Informations dans le dépôt
 
@@ -266,9 +266,9 @@ Mise à jour de la base de connaissances : aucune (motif : la refactorisation in
 
 **Le pipeline fait respecter la déclaration.** Un contrôle obligatoire refuse les changements de comportement sans documentation ou exception. Une revue humaine examine l'exception. Un contrôle de chemin détecte les candidats, mais ne prouve pas la complétude.
 
-**Une gate absente du pipeline n'est pas une gate.** Testez le contrôle avec une PR volontairement incomplète. Utilisez une tâche, une branche et un worktree par travail. Les worktrees réduisent les collisions locales, mais ne règlent pas les écritures concurrentes dans un wiki.
+**Une gate absente du pipeline n'est pas une gate.** Testez le contrôle avec une PR volontairement incomplète. **Utilisez une tâche, une branche et un worktree par travail.** Les worktrees réduisent les collisions locales, mais ne règlent pas les écritures concurrentes dans un wiki.
 
-**Ne commitez jamais directement sur la branche par défaut.** Signalez les écarts entre exigence et code dans le tracker. Joignez les sources en conflit et laissez leurs responsables décider.
+**Ne commitez jamais directement sur la branche par défaut**, qu'elle s'appelle **`main`**, **`master`** ou autrement. Signalez les écarts entre exigence et code dans le tracker. Joignez les sources en conflit et laissez leurs responsables décider du comportement attendu avant de modifier l'un ou l'autre côté. Appliquez les mêmes contrôles hors de Git.
 
 ## Informations hors du dépôt
 
@@ -284,6 +284,8 @@ Mise à jour de la base de connaissances : aucune (motif : la refactorisation in
 
 **Relire ne suffit pas à supprimer les courses.** Utilisez une mise à jour conditionnelle quand le système la propose. Sinon, sérialisez la publication et vérifiez le résultat.
 
+**La règle de non-suppression s'applique aux flux de travail des agents.** Les agents proposent l'archivage ou la suppression. Les personnes autorisées appliquent les règles de conservation et de suppression. Cette règle ne justifie pas de conserver indéfiniment des données sensibles.
+
 **Les constats du tracker portent des preuves.** Notez l'observation, la commande, le commit inspecté, le comportement attendu, le comportement réel et le critère d'acceptation. Retirez les secrets et les données sensibles.
 
 ```text
@@ -297,11 +299,15 @@ Statut : en attente de la revue des responsables produit et ingénierie
 
 **Le registre des décisions sépare les règles du raisonnement.** Enregistrez la question, les options, la recommandation, les compromis, le responsable et l'approbation. Les agents proposent. Les personnes décident.
 
+**L'exemple est un modèle de constat**, pas un résultat mesuré. Complétez-le après inspection et reliez la mise à jour wiki aux preuves du tracker avec l'ID de proposition.
+
+**Récupérez les faits durables des réunions et des discussions.** Soumettez une proposition avec ses sources et demandez l'approbation. Tant qu'elle n'est pas publiée, indiquez que la décision reste provisoire. Reliez ensuite le comportement approuvé au dépôt et au wiki.
+
 ## Relier les deux systèmes
 
 **La synchronisation après fusion transmet les changements.** Créez une tâche wiki liée au commit fusionné, à l'exigence approuvée et au runbook. Le propriétaire du wiki vérifie et publie. Gardez la tâche ouverte jusqu'à la vérification.
 
-**La fraîcheur des politiques est un audit distinct.** Comparez chaque adaptateur du dépôt et chaque copie d'instructions à la version canonique. L'audit repère la version `v2`, les étiquettes absentes et les divergences de contenu.
+**La fraîcheur des politiques est un audit distinct.** Comparez chaque adaptateur du dépôt et chaque copie d'instructions à la version canonique approuvée. La politique **`v3`** se trouve dans **`POL-01`**. Chaque **`AGENTS.md`** indique **`v3`** sur sa première ligne. L'audit repère **`v2`**, les étiquettes absentes et les divergences de contenu, même si les étiquettes correspondent.
 
 | Contrôle | Preuve d'achèvement |
 |---|---|
@@ -310,7 +316,7 @@ Statut : en attente de la revue des responsables produit et ingénierie
 | **Synchronisation après fusion** | Commit fusionné lié à la révision wiki publiée |
 | **Résolution des conflits** | Décision approuvée liée aux deux enregistrements |
 
-**Réconciliez selon un calendrier ou au moment de la PR.** Un audit hebdomadaire convient au pilote. Une PR qui modifie le comportement exige un contrôle des exigences avant fusion. Le changement de trente jours passe par l'approbation produit, la mise à jour du code et des tests, la revue de la PR et la publication du runbook.
+**Réconciliez selon un calendrier ou au moment de la PR.** Un audit hebdomadaire convient au pilote. Une PR qui modifie le comportement exige un contrôle des exigences avant fusion. **Le changement de trente jours passe par plusieurs points de contrôle :** approbation produit, mise à jour de la configuration et des tests, fusion après revue, puis publication du runbook par les opérations. Une ligne du journal relie les enregistrements. Un échec de synchronisation wiki reste visible après une fusion réussie.
 
 ## Une procédure pour chaque outil
 
@@ -365,6 +371,8 @@ handoff:
 
 **Commencez par un brouillon.** Pilotez un projet avec un développeur, un non-développeur et des responsables de sources. Posez la même question avec deux outils, puis provoquez un conflit de source. Évaluez les manifestes et propositions, pas seulement la fluidité.
 
+**Raisonnement attendu :** les deux participants repèrent l'exigence approuvée actuelle et décrivent séparément l'implémentation inspectée. En cas de désaccord, comparez d'abord les entrées de leurs manifestes. Cet exercice est une proposition, pas un résultat de test observé.
+
 | Mesure | Définition |
 |---|---|
 | **Taux de citation** | Affirmations importantes soutenues par une source, divisées par les affirmations importantes échantillonnées |
@@ -414,11 +422,11 @@ handoff:
 - **Instructions Claude Code :** [Comment Claude mémorise votre projet](https://code.claude.com/docs/en/memory), pour les instructions de projet et la mémoire.
 - **Instructions Cline :** [Règles](https://docs.cline.bot/customization/cline-rules), pour les règles du workspace et les contrôles d'activation.
 - **Conception de la récupération :** [Génération augmentée par récupération dans Azure AI Search](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview), pour l'ancrage, les contraintes et la sécurité.
-- **Sécurité des connecteurs :** [MCP Security Best Practices](https://modelcontextprotocol.io/docs/latest/tutorials/security/security_best_practices), pour l'autorisation et les risques des connecteurs.
+- **Sécurité des connecteurs :** [Bonnes pratiques de sécurité MCP](https://modelcontextprotocol.io/docs/latest/tutorials/security/security_best_practices), pour l'autorisation et les risques des connecteurs.
 - **Isolation des worktrees :** [Documentation Git worktree](https://git-scm.com/docs/git-worktree), pour les worktrees séparés et l'état partagé du dépôt.
 
-**Pour planifier l'inférence locale**, lisez le [Guide du contexte GPU pour l'IA locale](/articles/local-ai-model-gpu-context-guide/). La capacité matérielle et la gouvernance des sources partagées répondent à des problèmes différents. Une fenêtre de contexte plus grande ne corrige pas une autorité contradictoire.
+**Pour planifier l'inférence locale**, lisez le [Modèle d’IA local : GPU, contexte et programmation pour octobre 2026](/articles/local-ai-model-gpu-context-guide/). La capacité matérielle et la gouvernance des sources partagées répondent à des problèmes différents. Une fenêtre de contexte plus grande ne corrige pas une autorité contradictoire.
 
 {{< centerbutton href="/articles/local-ai-model-gpu-context-guide/" >}}
-  Lire le Guide du contexte GPU pour l'IA locale
+  Lire le Modèle d’IA local : GPU, contexte et programmation pour octobre 2026
 {{< /centerbutton >}}

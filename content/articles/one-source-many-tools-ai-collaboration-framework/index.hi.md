@@ -1,12 +1,12 @@
 ---
 title: "एक स्रोत, अनेक उपकरण: मिश्रित टीमों के लिए AI सहयोग ढांचा"
 date: 2026-10-01
-lastmod: 2026-11-14
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "डेवलपर और गैर-डेवलपर के लिए साझा AI सहयोग ढांचा बनाएं। सत्य के स्रोत तय करें, संदर्भ संस्करणों को ट्रैक करें, स्थायी बदलावों की समीक्षा करें और प्रोजेक्ट मैप, RAG या दोनों चुनें।"
 genre: ["कृत्रिम बुद्धिमत्ता", "ज्ञान प्रबंधन", "सॉफ्टवेयर इंजीनियरिंग", "टीम सहयोग"]
-tags: ["AI सहयोग ढांचा", "मिश्रित टीमें", "सत्य का स्रोत", "AI एजेंट", "AGENTS.md", "CLAUDE.md", "Cline नियम", "Claude Code", "Codex", "ChatGPT", "Copilot", "Cowork", "retrieval augmented generation", "RAG", "Model Context Protocol", "प्रोजेक्ट मैप", "संदर्भ मैनिफेस्ट", "ज्ञान प्रबंधन", "दस्तावेज़ विचलन", "मानवीय स्वीकृति", "निर्णय रजिस्टर", "एजेंट हैंडऑफ", "नीति संस्करण", "Git worktrees", "pull request gates"]
+tags: ["AI सहयोग ढांचा", "मिश्रित टीमें", "सत्य का स्रोत", "AI एजेंट", "AGENTS.md", "CLAUDE.md", "Cline नियम", "Claude Code", "Codex", "ChatGPT", "Copilot", "Cowork", "पुनर्प्राप्ति-संवर्धित जनन", "RAG", "मॉडल संदर्भ प्रोटोकॉल", "परियोजना मानचित्र", "संदर्भ मैनिफेस्ट", "ज्ञान प्रबंधन", "दस्तावेज़ विचलन", "मानवीय स्वीकृति", "निर्णय रजिस्टर", "एजेंट हस्तांतरण", "नीति संस्करण", "Git वर्कट्री", "पुल रिक्वेस्ट नियंत्रण"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "साइबर सुरक्षा कार्य पर सहयोग करते पेशेवरों के समूह का चित्र"
 coverCaption: ""
@@ -18,41 +18,41 @@ coverCaption: ""
 
 **हर तथ्य का एक घर तय करें।** हर उपकरण को उसी घर से पढ़ाएं और हर स्थायी बदलाव को व्यक्ति की समीक्षा से गुजारें। Repository, wiki और tracker के अलग उद्देश्य रखें। स्पष्ट अधिकार, नामित मालिक और सूचना स्थानांतरित करने की साझा प्रक्रिया तय करें।
 
-**यह मार्गदर्शिका इस सप्ताह लागू करने योग्य मॉडल देती है**, RAG हो या न हो। पहले project map, versioned instructions, evidence records और reviewed proposals बनाएं। Search infrastructure तभी जोड़ें जब retrieval समस्या वास्तविक हो।
+**यह मार्गदर्शिका इस सप्ताह लागू करने योग्य मॉडल देती है**, RAG हो या न हो। पहले परियोजना मानचित्र, संस्करणित निर्देश, प्रमाण अभिलेख और समीक्षित प्रस्ताव बनाएं। Search infrastructure तभी जोड़ें जब retrieval समस्या वास्तविक हो।
 
-**पहला deliverable source register है**, connector नहीं। हर तथ्य प्रकार, authoritative home, owner, current revision और approval owner लिखें।
+**पहला deliverable स्रोत रजिस्टर है**, connector नहीं। हर तथ्य प्रकार, आधिकारिक स्थान, owner, वर्तमान संशोधन और approval owner लिखें।
 
 ## मुख्य बातें
 
 - **अधिकार सूचना प्रकार के अनुसार तय करें**, हर चीज को एक application में न भरें।
-- **Memory और retrieval indexes को cache मानें**, स्वतंत्र policy source नहीं।
+- **Memory और पुनर्प्राप्ति अनुक्रमणिकाएँ को cache मानें**, स्वतंत्र policy source नहीं।
 - **Proposal में source version जोड़ें**, ताकि reviewer जान सके कि बदलाव किन तथ्यों पर आधारित है।
-- **Prompt के बाहर approval लागू करें**, access controls और review gates से।
+- **Prompt के बाहर approval लागू करें**, पहुँच नियंत्रण और समीक्षा द्वार से।
 - **प्रक्रिया सभी tools में समान रखें**, interface के अनुसार उसका रूप बदलें।
 
 ## शुरू करने से पहले
 
-**आवश्यकताएं:** एक pilot project चुनें जिसमें repository, wiki या document system, tracker और review करने वाले owners हों। Wiki न हो तो versioned document store लें। Ownership model वही रखें।
+**आवश्यकताएं:** एक पायलट परियोजना चुनें जिसमें repository, wiki या दस्तावेज़ प्रणाली, tracker और review करने वाले owners हों। Wiki न हो तो संस्करणित दस्तावेज़ store लें। Ownership model वही रखें।
 
 **समय:** प्रारंभिक map और templates के लिए दो से चार घंटे, फिर एक सप्ताह का pilot रखें। **कठिनाई:** मध्यम। कठिन भाग authority पर सहमति है, नया AI tool लगाना नहीं।
 
-**सीमा:** यह प्रस्तावित team operating model है। Approval rules और naming conventions Claude Code, Codex, Cline, Cowork, Copilot या ChatGPT का default behavior नहीं हैं।
+**सीमा:** यह प्रस्तावित टीम संचालन मॉडल है। Approval rules और नामकरण नियम Claude Code, Codex, Cline, Cowork, Copilot या ChatGPT का डिफ़ॉल्ट व्यवहार नहीं हैं।
 
 ## मिश्रित उपकरण, अलग संदर्भ
 
-**Coder और non-coder एक project साझा करते हैं**, लेकिन interfaces अलग इस्तेमाल करते हैं। Developer IDE या terminal agent में काम करता है। Product owner chat project में काम करता है। Operations lead wiki और tracker से काम करता है। Interface task के अनुसार चुनें, authoritative facts के access के अनुसार नहीं।
+**Coder और non-coder एक project साझा करते हैं**, लेकिन interfaces अलग इस्तेमाल करते हैं। Developer IDE या टर्मिनल एजेंट में काम करता है। उत्पाद स्वामी चैट परियोजना में काम करता है। Operations lead wiki और tracker से काम करता है। Interface task के अनुसार चुनें, आधिकारिक तथ्य के access के अनुसार नहीं।
 
-**Context वर्तमान उत्तर के लिए उपलब्ध सामग्री है।** Repository files, uploaded documents, chat history, saved memory, connector results और retrieved excerpts देखें। अलग evidence वाली दो sessions अलग उत्तर दे सकती हैं।
+**Context वर्तमान उत्तर के लिए उपलब्ध सामग्री है।** Repository files, अपलोड किए गए दस्तावेज़, चैट इतिहास, सहेजी स्मृति, कनेक्टर परिणाम और प्राप्त अंश देखें। अलग evidence वाली दो sessions अलग उत्तर दे सकती हैं।
 
 | विफलता | दिखाई देने वाला परिणाम |
 |---|---|
-| **Documentation drift** | README पुरानी आवश्यकता दोहराता है |
-| **Summary promotion** | मूल source के बिना session summary evidence बन जाती है |
-| **Overlapping writes** | दो agents अलग base versions से एक page बदलते हैं |
-| **Lost decisions** | Meeting agreement decision register में नहीं आता |
-| **Missing provenance** | उत्तर page version या commit नहीं बताता |
+| **दस्तावेज़ीकरण में विचलन** | README पुरानी आवश्यकता दोहराता है |
+| **सारांश को प्रमाण बनाना** | मूल source के बिना session summary evidence बन जाती है |
+| **टकराते लेखन** | दो agents अलग आधार संस्करण से एक page बदलते हैं |
+| **खोए निर्णय** | Meeting agreement निर्णय रजिस्टर में नहीं आता |
+| **स्रोत-पहचान का अभाव** | उत्तर पृष्ठ संस्करण या commit नहीं बताता |
 
-**Retention उदाहरण अंतर स्पष्ट करता है।** Wiki approved behavior बताता है। Code implemented behavior बताता है। कोई भी चुपचाप दूसरे को rewrite न करे। अंतर दर्ज करें और named owner से निर्णय मांगें।
+**Retention उदाहरण अंतर स्पष्ट करता है।** Wiki स्वीकृत व्यवहार बताता है। Code कार्यान्वित व्यवहार बताता है। कोई भी चुपचाप दूसरे को rewrite न करे। अंतर दर्ज करें और नामित स्वामी से निर्णय मांगें।
 
 > **मुख्य बात:** AI tool चुनने से पहले authority पर सहमति बनाएं।
 
@@ -60,32 +60,36 @@ coverCaption: ""
 
 | शब्द | इस ढांचे में अर्थ |
 |---|---|
-| **Source** | किसी सूचना प्रकार का authoritative record |
-| **Cache** | speed या convenience के लिए derived copy |
-| **Proposal** | owner approval की प्रतीक्षा करता suggested change |
-| **परियोजना मानचित्र** | source locations, identifiers और owners का index |
-| **Manifest** | उत्तर या proposal में उपयोग हुए exact evidence का record |
+| **Source** | किसी सूचना प्रकार का आधिकारिक अभिलेख |
+| **Cache** | speed या convenience के लिए व्युत्पन्न प्रति |
+| **Proposal** | स्वामी की स्वीकृति की प्रतीक्षा करता सुझाया गया बदलाव |
+| **परियोजना मानचित्र** | स्रोत स्थान, identifiers और owners का index |
+| **Manifest** | उत्तर या proposal में उपयोग हुए सटीक प्रमाण का record |
 
 ## हर तथ्य का एक घर
 
-**One source का अर्थ हर fact के लिए एक authority है**, पूरे संगठन के लिए एक database नहीं। Pilot में यह allocation तय करें।
+**एक स्रोत का अर्थ हर fact के लिए एक authority है**, पूरे संगठन के लिए एक database नहीं। Pilot में यह allocation तय करें।
 
-| सूचना प्रकार | Home system | Owner | कौन लिखता है | Agents कैसे पढ़ते हैं |
+| सूचना प्रकार | आधिकारिक प्रणाली | Owner | कौन लिखता है | Agents कैसे पढ़ते हैं |
 |---|---|---|---|---|
-| **Code, tests, config, schemas** | Repository | Engineering maintainer | Reviewed PR के contributors | Recorded commit की files |
-| **Shipped docs और ADRs** | Repository | Technical owner | उसी PR के contributors | Versioned files |
-| **Requirements** | Wiki | Product owner | Owner या approved publisher | Page ID और revision |
-| **Runbooks** | Wiki | Operations owner | Approved publisher | Page ID और revision |
-| **Policy** | Wiki | Policy owner | Review के बाद approved publisher | Canonical page और local adapter |
-| **Cross-team decisions** | Wiki decision register | Named decision owner | Approval के बाद owner | Decision ID और status |
-| **Tasks और findings** | Tracker | Task owner | People या authorized intake | Issue key और revision |
-| **Chats, summaries, embeddings** | केवल कैश | Session/index steward | Tools और participants | Source check के बाद reference |
+| **Code, tests, config, schemas** | Repository | इंजीनियरिंग अनुरक्षक | Reviewed PR के contributors | Recorded commit की files |
+| **प्रकाशित दस्तावेज़ और ADRs** | Repository | तकनीकी स्वामी | उसी PR के contributors | संस्करणित फ़ाइलें |
+| **Requirements** | Wiki | उत्पाद स्वामी | Owner या स्वीकृत प्रकाशक | Page ID और revision |
+| **Runbooks** | Wiki | संचालन स्वामी | स्वीकृत प्रकाशक | Page ID और revision |
+| **Policy** | Wiki | नीति स्वामी | Review के बाद स्वीकृत प्रकाशक | आधिकारिक पृष्ठ और स्थानीय अडैप्टर |
+| **अंतर-टीम निर्णय** | Wiki निर्णय रजिस्टर | नामित निर्णय स्वामी | Approval के बाद owner | Decision ID और status |
+| **Tasks और findings** | Tracker | कार्य स्वामी | People या authorized intake | मुद्दा कुंजी और revision |
+| **Chats, summaries, embeddings** | केवल कैश | Session/अनुक्रमणिका स्वामी | Tools और participants | Source check के बाद reference |
 
-ADR code के पास रखें जब वह repository design नियंत्रित करता हो। Cross-team decision shared register में रखें। Local policy copy canonical page के नीचे रहे। Cache source को override नहीं करता।
+**वास्तुकला निर्णय रिकॉर्ड (ADR)** को कोड के पास रखें, जब वह रिपॉज़िटरी डिज़ाइन नियंत्रित करता हो। दूसरी टीमों के निर्णय साझा रजिस्टर में रखें और दोनों दायरे जुड़े हों तो अभिलेखों को लिंक करें।
 
-## Cache नीचे, proposal ऊपर
+**स्थानीय नीति प्रतियाँ आधिकारिक पृष्ठ के अधीन रहती हैं।** इसके विपरीत, रिपॉज़िटरी के tests और schemas अपने दायरे के स्रोत हैं। स्थान से अकेले अधिकार तय नहीं होता, मानचित्र तय करता है।
 
-**Agents evidence को session context में लाते हैं**, फिर proposal बनाते हैं। वे अकेले durable facts approve नहीं करते। Draft बनाना policy publish या code merge करना नहीं है।
+**कैश किसी स्रोत का स्थान नहीं लेता।** सारांश में सात दिन और स्वीकृत आवश्यकता में तीस दिन हों, तो लक्ष्य व्यवहार के लिए आवश्यकता मानें। विरोधी सारांश को drift के प्रमाण के रूप में रखें।
+
+## कैश से पढ़ें, प्रस्ताव समीक्षा के लिए भेजें
+
+**Agents evidence को सत्र संदर्भ में लाते हैं**, फिर proposal बनाते हैं। वे अकेले टिकाऊ तथ्य approve नहीं करते। Draft बनाना policy publish या code merge करना नहीं है।
 
 ```text
 स्रोत -> अनुमति-जाँची गई पढ़त -> सत्र संदर्भ
@@ -94,7 +98,7 @@ ADR code के पास रखें जब वह repository design निय
 आधार संस्करण बदला -> प्रस्ताव का मिलान करें -> फिर से समीक्षा करें
 ```
 
-**Review से पहले base version जोड़ें।** Reviewer को previous value, proposed value, reason, evidence और affected systems चाहिए। Approval किसी specific proposal revision से जुड़ा हो।
+**Review से पहले आधार संस्करण जोड़ें।** Reviewer को पिछला मान, प्रस्तावित मान, reason, evidence और प्रभावित प्रणालियाँ चाहिए। Approval किसी specific प्रस्ताव संशोधन से जुड़ा हो।
 
 ```yaml
 proposal_id: PROP-042
@@ -110,13 +114,15 @@ owner_role: product-owner
 status: awaiting-review
 ```
 
-**ऊपर के identifiers illustrative हैं।** हर approved logical change के लिए proposal ID, previous और resulting versions, approver, timestamp और publication reference वाली change-log row रखें।
+**ऊपर के identifiers illustrative हैं।** हर स्वीकृत तार्किक बदलाव के लिए proposal ID, previous और परिणामी संस्करण, approver, timestamp और प्रकाशन संदर्भ वाली परिवर्तन-लॉग पंक्ति रखें।
 
-## RAG के बिना साझा context
+**निर्णय की जिम्मेदारी लोगों की है।** अधिकृत प्रकाशक या सीमित automation स्वीकृत संशोधन लागू करता है। लेखन credentials उसी के अनुसार सीमित करें। निर्देश अकेले मसौदा बनाने और प्रकाशन करने के बीच अलगाव लागू नहीं करते।
 
-**Project map पहला retrieval index है।** हर project के लिए source IDs, repository locations, tracker keys, authority scopes और owners वाला page रखें। पहले map पढ़ें, फिर ID से record लें।
+## RAG के बिना साझा संदर्भ
 
-### साइडबार: नमूना project map
+**परियोजना मानचित्र पहला पुनर्प्राप्ति अनुक्रमणिका है।** हर project के लिए स्रोत ID, रिपॉज़िटरी स्थान, ट्रैकर कुंजियाँ, अधिकार दायरे और owners वाला page रखें। पहले map पढ़ें, फिर ID से record लें।
+
+### साइडबार: नमूना परियोजना मानचित्र
 
 ```yaml
 project: export-service
@@ -139,16 +145,22 @@ tracker:
   active_task: EXP-42
 ```
 
-**Direct connectors manual copying घटाते हैं।** MCP AI applications को tools और context देने वाला integration protocol है। Approved connectors का उपयोग करें, लेकिन authorization और freshness checks बनाए रखें। Offline काम में exported revision को snapshot के रूप में दर्ज करें।
+**सीधे कनेक्टर हाथ से नकल घटाते हैं।** MCP AI applications को tools और context देने वाला एकीकरण प्रोटोकॉल है। Approved connectors का उपयोग करें, लेकिन authorization और नवीनता जाँचें बनाए रखें। Offline काम में निर्यात किया गया संशोधन को snapshot के रूप में दर्ज करें।
 
-## एक policy, अलग adapters
+**सटीक पुनर्प्राप्ति की तैयारी कम होती है।** इससे वेक्टर डेटाबेस के बिना उद्धृत किए जा सकने वाले प्रमाण मिलते हैं। फिर भी कोई व्यक्ति मानचित्र सँभालता है, खुले प्रश्नों को अतिरिक्त search चाहिए और बड़े पृष्ठ session जगह लेते हैं। पूरी handbook चिपकाने के बजाय संबंधित अनुभाग और उसकी सीमाएँ लें।
 
-**एक shared policy रखें**, फिर छोटे tool-specific adapters बांटें। हर adapter की पहली line में approved policy version, source ID और reviewed local snapshot दें। Codex `AGENTS.md`, Claude Code `CLAUDE.md` और Cline `.clinerules/` के अलग loading नियमों का व्यवहार installed version में जांचें।
+**ऑफ़लाइन काम में स्पष्ट snapshot उपयोग करें।** export किया गया संशोधन दर्ज करें और उत्तर को snapshot पर आधारित बताएँ। अधिकृत व्यक्ति या connector मौजूदा स्रोत जाँचे बिना बदलाव प्रकाशित न करें। फिर वही नीति हर interface में उपलब्ध कराएँ।
 
-### साइडबार: नमूना AGENTS.md header
+## एक नीति, अलग अडैप्टर
+
+**एक साझा नीति रखें**, फिर छोटे उपकरण-विशिष्ट अडैप्टर दें। हर adapter की पहली पंक्ति में स्वीकृत नीति संस्करण रखें। connector न होने वाले sessions के लिए source ID और समीक्षित स्थानीय snapshot जोड़ें।
+
+**हर tool में निर्देश लोड करने का तरीका अलग है।** Codex में **`AGENTS.md`** की स्तरबद्ध खोज, Claude Code में **`CLAUDE.md`** और imports, तथा Cline में **`.clinerules/`** और नियम नियंत्रण दस्तावेज़ित हैं। आधिकारिक निर्देश देखें और स्थापित संस्करण में loading जाँचें।
+
+### साइडबार: AGENTS.md शीर्षक का नमूना
 
 ```markdown
-Policy-Version: v3 | Source: wiki:POL-01 | Status: स्वीकृत
+नीति-संस्करण: v3 | स्रोत: wiki:POL-01 | स्थिति: स्वीकृत
 
 # प्रोजेक्ट निर्देश
 
@@ -163,11 +175,13 @@ docs/policy-snapshot.md लोड करें और उसका स्रो�
 मालिक: इंजीनियरिंग अनुरक्षक, उत्पाद स्वामी और नीति स्वामी।
 ```
 
-Version label समान सामग्री का प्रमाण नहीं है। Approved snapshot से adapters बनाएं या policy हिस्से का digest compare करें। Local overrides और disabled rules जांचें।
+**चैट परियोजना के निर्देशों में भी वही header और प्रक्रिया रखें।** गैर-डेवलपर स्वीकृत अपलोड या connectors से नीति snapshot और परियोजना मानचित्र पाते हैं। सक्रिय पहुँच न हो तो व्यक्ति संस्करणित निर्यात देता है और सीमा दर्ज करता है।
 
-## Context manifest दर्ज करें
+**Version label समान सामग्री का प्रमाण नहीं है।** स्वीकृत snapshot से adapters बनाएं या नीति हिस्से के digest की तुलना करें। अलग exceptions की समीक्षा करें। पायलट में निष्क्रिय नियम, आंतरिक overrides और निजी निर्देश जाँचें, फिर हर काम का प्रमाण दर्ज करें।
 
-**Context manifest उत्तर के evidence को समझाता है।** Page IDs, revisions, issue keys, update times और full repository commit दर्ज करें। Retrieval time और sections भी लिखें। उपलब्ध न होने वाले records को mark करें।
+## संदर्भ मैनिफेस्ट दर्ज करें
+
+**संदर्भ मैनिफेस्ट उत्तर के evidence को समझाता है।** Page IDs, revisions, मुद्दा कुंजियाँ, update times और full रिपॉज़िटरी commit दर्ज करें। Retrieval time और sections भी लिखें। उपलब्ध न होने वाले records को mark करें।
 
 ```yaml
 task: EXP-42
@@ -183,26 +197,34 @@ limits:
   - "Runbook not retrieved. No runbook change proposed."
 ```
 
-Synthetic commit को वास्तविक inspected commit से बदलें। हर material claim को source और section से जोड़ें। Conflicting sources को साथ रखें और scope तथा approval जांचे बिना newest timestamp न चुनें।
+**Commit का मान synthetic है।** वास्तविक निरीक्षण में इसे जाँचे गए commit से बदलें और वास्तविक retrieval समय जोड़ें। निरीक्षण से पहले बना record evidence नहीं, checklist है।
 
-## RAG के साथ साझा context
+**Citations जाँच में मदद करते हैं**, स्वतः भरोसा नहीं देते। हर महत्वपूर्ण दावे को स्रोत और अनुभाग से जोड़ें। स्रोत असहमत हों तो दोनों manifest में रखें और अंतर बताएँ। दायरा और स्वीकृति देखे बिना केवल नया timestamp न चुनें।
 
-**Retrieval-augmented generation (RAG)** model को response बनाते समय retrieved material देता है। Semantic index अलग शब्दों में लिखे passages खोजता है। बड़े collections में RAG discovery के लिए उपयोगी है, authority के लिए नहीं। Transcript में कही बातें approved requirement नहीं बनतीं।
+## RAG के साथ साझा संदर्भ
 
-| Index rule | Required behavior |
+**पुनर्प्राप्ति-संवर्धित जनन (RAG)** model को response बनाते समय प्राप्त सामग्री देता है। Semantic index अलग शब्दों में लिखे passages खोजता है। बड़े collections में RAG discovery के लिए उपयोगी है, authority के लिए नहीं। Transcript में कही बातें स्वीकृत आवश्यकता नहीं बनतीं।
+
+**बड़े संग्रहों में खोज के लिए RAG उपयोगी है**, जैसे पुराना documentation, बैठक टिप्पणियाँ और transcripts। दस्तावेज़ वर्ग और approval स्थिति label करें। मूल recording से index हुआ transcript यह दिखाता है कि लोगों ने क्या कहा, स्वीकृत आवश्यकता नहीं। बातचीत को indexing से नीति न बनाएँ।
+
+| अनुक्रमणिका नियम | आवश्यक व्यवहार |
 |---|---|
 | **कैश नहीं, स्रोत लें** | Generated summaries और untracked copies हटाएं |
-| **Preserve provenance** | हर chunk में source ID, revision, section और status रखें |
+| **स्रोत-पहचान बनाए रखें** | हर chunk में source ID, revision, section और status रखें |
 | **बदलाव पर रिफ्रेश करें** | Edit पर re-index करें और पुराने chunks invalidate करें |
-| **Honor access changes** | Permissions update करें और revoked content हटाएं |
-| **Return citations** | Retrieved text के साथ references दें |
-| **लाइव रिकॉर्ड जांचें** | Consequential proposal से पहले current evidence लें |
+| **Honor पहुँच बदलाव** | Permissions update करें और वापस ली गई सामग्री हटाएं |
+| **उद्धरण दें** | प्राप्त पाठ के साथ references दें |
+| **लाइव रिकॉर्ड जांचें** | Consequential proposal से पहले वर्तमान प्रमाण लें |
 
-Retrieved chunk pointer है। Live source wording, exceptions और access की पुष्टि करता है। Live retrieval विफल हो तो snapshot label करें और durable action रोकें। Stale embeddings और missing context अलग जोखिम हैं। Permission leakage के लिए authorization को model को chunk देने से पहले लागू करें।
+**प्राप्त किया गया chunk इस ढाँचे में संकेतक है।** उसका पाठ प्रमाण ढूँढने में मदद करता है। मौजूदा स्रोत ही शब्दावली, स्वीकृति, आसपास के अपवाद और access की पुष्टि करता है। सक्रिय पुनर्प्राप्ति विफल हो तो snapshot की सीमा बताएँ और टिकाऊ कार्रवाई रोकें। यह शासन का नियम है, हर RAG कार्यान्वयन के बारे में दावा नहीं।
 
-## Map, RAG या दोनों चुनें
+**पुराने embeddings और अधूरा context अलग जोखिम हैं।** पुराना chunk संशोधन चूकता है। नया chunk भी भटका सकता है यदि अपवाद अगले अनुभाग में हो। heading संरक्षित रखें और आवश्यकता जाँचने से पहले पड़ोसी सीमाएँ लें।
 
-**Question के अनुसार retrieval चुनें।** Known requirement ID direct access को favor करता है। Scattered history open search को। Known lookup में map से शुरू करें।
+**अनुमति रिसाव की अलग जाँच करें।** model को chunk देने से पहले authorization लागू करें। indexing या बाहरी embedding call से पहले संवेदनशील सामग्री जाँचें। logs, मॉडल अनुरोध और पुनर्प्राप्ति निशान में कॉपी किया गया पाठ का हिसाब रखें। स्थानीय मॉडल होने से दूरस्थ कनेक्टर स्थानीय नहीं हो जाता।
+
+## मानचित्र, RAG या दोनों चुनें
+
+**Question के अनुसार retrieval चुनें।** Known requirement ID सीधी पहुँच को favor करता है। Scattered history open search को। Known lookup में map से शुरू करें।
 
 ### साइडबार: RAG या नहीं?
 
@@ -221,164 +243,194 @@ Retrieved chunk pointer है। Live source wording, exceptions और access 
 RAG के ज़रिए खोज करने पर भी स्थायी कार्रवाई से पहले स्रोतों की जाँच होती है।
 ```
 
-RAG-only retrieval interface है, governance छोड़ने की permission नहीं। Hybrid model discovery और verification अलग करता है। Map बताता है “कहां”, source बताता है “क्या”।
+**RAG-only पुनर्प्राप्ति इंटरफ़ेस बताता है**, governance छोड़ने की अनुमति नहीं। इसे सीमित खोजपरक collection में उपयोग करें जहाँ source जाँचना फिर भी संभव हो। Known-ID बदलावों के लिए यह खराब विकल्प है, क्योंकि वहाँ version की सटीक जाँच चाहिए।
 
-## Repository के अंदर की जानकारी
+**संकर मॉडल खोज और सत्यापन को अलग करता है।** मानचित्र ज्ञात lookup संभालता है और RAG अज्ञात रिकॉर्ड ढूँढता है। RAG “कहाँ” बताता है, स्रोत “क्या”। प्रतिधारण उदाहरण में **`REQ-17`** सीधे लें; पुराने export निर्णय के लिए register खोजें और संबंधित निर्णय खोलें।
 
-**Repository knowledge implementation के साथ बदलता है।** Agent और reviewer के लिए compact structure रखें।
+## रिपॉज़िटरी के भीतर की जानकारी
 
-| File या directory | Responsibility |
+**रिपॉज़िटरी का ज्ञान कार्यान्वयन के साथ बदलता है।** संरचना इतनी संक्षिप्त रखें कि एजेंट और समीक्षक को सही जगह पता हो।
+
+| फ़ाइल या निर्देशिका | उत्तरदायित्व |
 |---|---|
-| **`CONTEXT.md`** | Project terms और authoritative records के links |
-| **`docs/adr/`** | Accepted architecture decisions |
-| **`docs/design/`** | Approved behavior descriptions |
-| **`docs/plans/`** | Status वाली proposed implementation plans |
-| **`AGENTS.md`** | Review gates, boundaries और owner roles |
-| **`README.md`** | Setup और entry points, duplicate requirements नहीं |
+| **`CONTEXT.md`** | परियोजना के शब्द और आधिकारिक अभिलेखों के लिंक |
+| **`docs/adr/`** | स्वीकृत रिपॉज़िटरी वास्तुकला निर्णय |
+| **`docs/design/`** | सिस्टम के व्यवहार के स्वीकृत विवरण |
+| **`docs/plans/`** | स्पष्ट स्थिति वाली प्रस्तावित कार्यान्वयन योजनाएँ |
+| **`AGENTS.md`** | समीक्षा द्वार, सीमाएँ और स्वामी की भूमिकाएँ |
+| **`README.md`** | सेटअप और प्रवेश बिंदु, दोहराई गई आवश्यकताएँ नहीं |
 
-**Same-PR rule लागू करें:** code और affected docs साथ बदलें। Update न हो तो PR में exception लिखें। एक task, branch और worktree रखें। Default branch पर सीधे commit न करें।
+**उसी PR में बदलाव का नियम लागू करें:** कोड के साथ प्रभावित रिपॉज़िटरी दस्तावेज़ भी बदलें। यदि ज्ञान-आधार अद्यतन की आवश्यकता नहीं है, तो PR विवरण या सहमत commit-trailer स्थान में कारण सहित अपवाद लिखें।
 
 ```text
-KB-अद्यतन: कोई नहीं (कारण: आंतरिक refactor दस्तावेज़ किए गए व्यवहार को बनाए रखता है)
+KB-Update: कोई नहीं (कारण: आंतरिक बदलाव दस्तावेज़ित व्यवहार बनाए रखता है)
 ```
 
-## Repository के बाहर की जानकारी
+**पाइपलाइन इस घोषणा को लागू करती है।** आवश्यक जाँच उन व्यवहार-परिवर्तनों को अस्वीकार करती है जिनके साथ दस्तावेज़ अद्यतन या अपवाद नहीं है। मानव दस्तावेज़ स्वामी अपवाद की समीक्षा करता है। पथ-आधारित जाँच संभावित बदलाव ढूँढती है, लेकिन उससे पूर्णता सिद्ध नहीं होती। शाखा सुरक्षा या समकक्ष merge नियंत्रण में जाँच और समीक्षा अनिवार्य करें।
 
-**Wiki में documentation standard रखें।** हर authoritative page में purpose, status, owner, revision, review date और related source IDs हों। Proposals को non-authoritative drafts में रखें।
+**पाइपलाइन में न होने वाला नियंत्रण, नियंत्रण नहीं है।** पायलट में जानबूझकर अधूरा PR भेजें और पुष्टि करें कि merge रुकता है। निर्देश फ़ाइल में “दस्तावेज़ समीक्षा” लिखना केवल मार्गदर्शन है।
 
-**Safe update क्रम:**
+**हर काम के लिए एक task, एक branch और एक worktree रखें।** Git के आधिकारिक worktree दस्तावेज़ अलग checkout स्थिति वाले कार्य-वृक्षों का वर्णन करते हैं। अलग worktree स्थानीय संपादन टकराव घटाते हैं। वे एक ही फ़ाइल बदलती दो शाखाओं या एक Wiki पृष्ठ संपादित करते दो agents को नहीं रोकते।
 
-1. **Relire** वर्तमान page और surrounding constraints.
-2. **Compare** base version से।
-3. **Reconcile** बीच के edits और approval।
-4. **Write** expected-version condition के साथ।
-5. **Verify** saved page और change-log reference।
+**डिफ़ॉल्ट branch पर सीधे commit कभी न करें**, चाहे उसका नाम **`main`**, **`master`** या कुछ और हो। आवश्यकता और कोड के अंतर को tracker में दर्ज करें। विरोधी अभिलेख जोड़ें और किसी भी पक्ष को बदलने से पहले स्वामी से अपेक्षित व्यवहार तय कराएँ। Git से बाहर भी समान नियंत्रण लागू करें।
 
-Conditional update उपलब्ध हो तो उपयोग करें। Tracker findings में observation, exact command, commit, expected behavior, actual behavior और acceptance criteria रखें।
+## रिपॉज़िटरी के बाहर की जानकारी
+
+**Wiki के लिए दस्तावेज़ मानक तय करें।** हर आधिकारिक पृष्ठ में उद्देश्य, स्थिति, स्वामी, संशोधन, समीक्षा की तारीख और संबंधित स्रोत ID हों। प्रस्तावों को साफ़ तौर पर गैर-आधिकारिक चिह्नित मसौदा क्षेत्र में रखें। प्रस्तावित शब्दावली को स्वीकृत आवश्यकता वाले पृष्ठ में न मिलाएँ।
+
+**सुरक्षित अद्यतन एक तय क्रम में करें:**
+
+1. **फिर पढ़ें** वर्तमान पृष्ठ और उसके आसपास की सीमाएँ।
+2. **तुलना करें** पृष्ठ संस्करण की प्रस्ताव के आधार संस्करण से।
+3. **मिलान करें** बीच के बदलाव और बदली शब्दावली के लिए नई स्वीकृति लें।
+4. **लिखें** अपेक्षित संस्करण की शर्त के साथ स्वीकृत संशोधन।
+5. **सत्यापित करें** सहेजा गया पृष्ठ और परिवर्तन-लॉग संदर्भ जोड़ें।
+
+**केवल फिर से पढ़ना प्रतिस्पर्धी बदलाव नहीं रोकता।** जहाँ उपलब्ध हो, सिस्टम के सशर्त अद्यतन तरीके का उपयोग करें। ऐसा तरीका न हो तो प्रकाशन को एक स्वामी के माध्यम से क्रमबद्ध करें और परिणाम जाँचें। समीक्षा के दौरान आधार बदल जाए तो रुकें।
+
+**एजेंट कार्यप्रवाह में मिटाने का नियम लागू होता है।** एजेंट संग्रह या हटाने का प्रस्ताव देते हैं। अधिकृत मनुष्य प्रतिधारण और हटाने की प्रक्रियाएँ लागू करते हैं। इसका अर्थ संवेदनशील जानकारी को अनिश्चित समय तक रखना नहीं है।
+
+**Tracker निष्कर्ष के साथ प्रमाण भी रखता है।** देखी गई बात, सटीक command या निरीक्षण विधि, जाँचा गया commit, अपेक्षित व्यवहार, वास्तविक व्यवहार और स्वीकृति मानदंड दर्ज करें। संलग्न करने से पहले secrets और संवेदनशील output हटाएँ। चलाए न गए सुझावात्मक commands को स्पष्ट रूप से “नहीं चलाया” चिह्नित करें।
 
 ```text
 निष्कर्ष: प्रतिधारण कार्यान्वयन स्वीकृत आवश्यकता से मेल नहीं खाता
-साक्ष्य: REQ-17 v8 और जाँची गई config/retention.yaml फ़ाइल
-जाँच आदेश: git show HEAD:config/retention.yaml
-कमिट: जाँचे गए कमिट की पूरी ID manifest में दर्ज है
-स्वीकृति मानदंड: स्वीकृत अवधि कोड, परीक्षणों और runbook से मेल खाती है
-स्थिति: उत्पाद और इंजीनियरिंग स्वामियों की समीक्षा की प्रतीक्षा है
+प्रमाण: REQ-17 v8 और जाँची गई config/retention.yaml फ़ाइल
+जाँच निर्देश: git show HEAD:config/retention.yaml
+कमिट पहचानकर्ता: जाँचे गए कमिट का पूरा पहचानकर्ता मैनिफ़ेस्ट फ़ाइल में दर्ज है
+स्वीकृति मानदंड: स्वीकृत अवधि कोड, परीक्षणों और संचालन पुस्तिका से मेल खाती है
+स्थिति: उत्पाद और अभियांत्रिकी के स्वामियों की समीक्षा प्रतीक्षित है
 ```
 
-Decision register में question, options, trade-offs, owner और approval रखें। Agents propose करते हैं। लोग decide करते हैं।
+**ऊपर का उदाहरण निष्कर्ष का नमूना है**, वास्तविक निरीक्षण का परिणाम नहीं। इसे असली जाँच के प्रमाण से भरें। प्रस्ताव ID के माध्यम से Wiki अद्यतन और tracker प्रमाण को जोड़ें।
 
-## दोनों systems को जोड़ें
+**निर्णय रजिस्टर नियम और तर्क अलग रखता है।** प्रश्न, विकल्प, सिफ़ारिश, समझौते, स्वामी, स्वीकृति की स्थिति और परिणामी नियम का संदर्भ दर्ज करें। Agents प्रस्ताव देते हैं। लोग निर्णय लेते हैं। स्वीकृत नियम नीति और प्रक्रियात्मक skills में जाते हैं। तर्क रजिस्टर में रहता है।
 
-**Post-merge sync implementation changes बाहर भेजता है।** Merged commit, approved requirement और runbook से linked wiki task बनाएं। Owner saved page verify करे। Policy freshness को अलग audit रखें।
+**मीटिंग और चैट से टिकाऊ तथ्य लें।** स्रोत प्रमाण के साथ प्रस्ताव दें और स्वीकृति लें। प्रकाशन तक सहमति को अस्थायी चिह्नित करें। फिर रिपॉज़िटरी और Wiki में स्वीकृत व्यवहार जोड़ें।
 
-| जाँच | पूर्णता का प्रमाण |
+## दोनों सिस्टम जोड़ें
+
+**Merge के बाद का समन्वय कार्यान्वयन बदलाव आगे पहुँचाता है।** मर्ज किया गया commit, स्वीकृत आवश्यकता और प्रभावित runbook से जुड़ा Wiki task बनाएँ। एजेंट अद्यतन का मसौदा दे सकता है। Wiki स्वामी वर्तमान पृष्ठ जाँचकर प्रकाशन मंज़ूर करता है। सहेजे संशोधन की पुष्टि होने तक task खुला रखें।
+
+**नीति की नवीनता एक अलग जाँच है।** रिपॉज़िटरी के हर adapter और chat निर्देश की प्रति को आधिकारिक स्वीकृत संस्करण से मिलाएँ। नीति **`v3`** **`POL-01`** में है। हर **`AGENTS.md`** की पहली पंक्ति पर **`v3`** होना चाहिए। जाँच में **`v2`**, छूटे हुए label और समान label के बावजूद सामग्री के अंतर पकड़े जाने चाहिए।
+
+| जाँच | पूरा होने का प्रमाण |
 |---|---|
-| **Policy freshness** | Canonical version और adapter digest comparison |
-| **Requirement reconciliation** | Requirement revision की code और tests से तुलना |
-| **Post-merge sync** | Merged commit से published wiki revision link |
-| **Conflict resolution** | दोनों records से linked owner-approved decision |
+| **नीति की नवीनता** | आधिकारिक संस्करण और अडैप्टर हैश की तुलना |
+| **आवश्यकता का मिलान** | आवश्यकता संशोधन की कोड और tests से तुलना |
+| **Merge के बाद समन्वय** | मर्ज किया गया commit से प्रकाशित Wiki संशोधन का लिंक |
+| **विरोध का निपटारा** | दोनों प्रभावित अभिलेखों से जुड़ा स्वामी-अनुमोदित निर्णय |
 
-Pilot में weekly audit रखें। Behavior-changing PR को merge से पहले requirement check चाहिए। तीस दिन वाला बदलाव product approval, code और tests, PR review और runbook publication से गुजरता है।
+**तय समय पर या PR के समय मिलान करें।** पायलट में साप्ताहिक जाँच ठीक रहती है। व्यवहार बदलने वाला PR merge होने से पहले आवश्यकता की जाँच माँगता है। **तीस दिन वाली अवधि में कई जाँच बिंदु हैं:** product आवश्यकता मंज़ूर करता है, engineering configuration और tests बदलता है, समीक्षक PR merge करते हैं और operations runbook प्रकाशित करता है। एक परिवर्तन-लॉग पंक्ति परिणामी अभिलेखों को जोड़ती है। सफल merge के पीछे विफल Wiki sync को छिपने न दें। साझा handoff इस क्रम को tools के बीच बनाए रखता है।
 
-## हर tool के लिए एक procedure
+## हर उपकरण के लिए एक प्रक्रिया
 
-**Repeated steps को versioned procedure ID वाले skills या prompts में रखें।** Contract साझा करें, universal file format न मानें।
+**बार-बार दोहराए जाने वाले चरणों को संस्करणित प्रक्रिया ID वाले skills या prompts में रखें।** साझा अनुबंध दें, किसी सार्वभौमिक फ़ाइल प्रारूप का अनुमान न लगाएँ। हर उपकरण अडैप्टर अपने समर्थित loading या invocation तरीके का उपयोग करे।
 
-| Procedure | आवश्यक आउटपुट |
+| प्रक्रिया | आवश्यक परिणाम |
 |---|---|
-| **Start task** | Owner, scope, policy version, source manifest, write reservation |
-| **Doc lint** | Missing metadata, duplicate authority, broken source references |
-| **ज्ञान-जाँच** | Supporting revisions वाले requirement-code gaps |
-| **Handoff** | वर्तमान साक्ष्य, प्रस्ताव, पूरी की गई जाँचें, अनसुलझे प्रश्न |
+| **काम शुरू करना** | स्वामी, दायरा, नीति संस्करण, स्रोत manifest, लेखन आरक्षण |
+| **दस्तावेज़ lint** | छूटा metadata, दोहराया अधिकार, टूटा स्रोत संदर्भ |
+| **ज्ञान जाँच** | सहायक revisions सहित आवश्यकता और कोड के अंतर |
+| **Handoff** | वर्तमान प्रमाण, प्रस्ताव, पूरी जाँचें और खुले प्रश्न |
 
-Non-coders chat projects में वही proposal template भरते हैं। Coders PR में approved proposal, inspected commits और checks जोड़ते हैं। दोनों groups एक ही evidence structure hand off करते हैं।
+**गैर-डेवलपर Git के बिना काम करते हैं।** वे चैट परियोजना में अनुमत स्रोत लेते हैं, वही प्रस्ताव प्रारूप पूरा करते हैं और draft पृष्ठ या tracker कार्य से स्वामी तक भेजते हैं। आवश्यकता सुधारने के लिए उन्हें रिपॉज़िटरी checkout की ज़रूरत नहीं।
+
+**डेवलपर repository फ़ाइलों और PR जाँचों का उपयोग करते हैं।** वे PR में स्वीकृत प्रस्ताव जोड़ते हैं, जाँचे गए commit दर्ज करते हैं और आवश्यक जाँच चलाते हैं। दोनों समूह समान प्रमाण संरचना सौंपते हैं।
 
 ```yaml
 handoff:
   task: EXP-42
   policy_version: 3
-  manifest: "Attached source IDs, revisions, and inspected commit"
+  manifest: "संलग्न स्रोत ID, संशोधन और जाँचा गया commit"
   completed: [requirement-review]
   proposals: [PROP-042]
   pending: [implementation-review, runbook-publication]
-  reservations: ["RUN-04 publication assigned to operations-owner"]
+  reservations: ["RUN-04 प्रकाशन operations-owner को सौंपा गया"]
   unresolved: []
   next_owner_role: engineering-maintainer
 ```
 
-Handoff भी cache है। अगला व्यक्ति source reread करे और नई revisions दर्ज करे।
+**Handoff भी एक cache है।** अगला व्यक्ति कार्रवाई से पहले स्रोत फिर पढ़ता है और नए revisions दर्ज करता है। जुड़े approval या test प्रमाण की जाँच किए बिना “पूरा” को सबूत न मानें। हर लेखन से पहले नीचे की सीमाएँ लागू करें।
 
-## हर write से पहले guardrails
+## हर लेखन से पहले सुरक्षा सीमाएँ
 
-**Data को home से बाहर भेजने से पहले screen करें।** Classification, connector permissions, approved destinations, provider handling और logging जांचें। Minimum relevant content भेजें।
+**सिस्टम से बाहर भेजने से पहले डेटा जाँचें।** वर्गीकरण, कनेक्टर अनुमतियाँ, स्वीकृत destination, model provider का data handling और logs देखें। केवल ज़रूरी सामग्री भेजें। प्रतिबंधित अभिलेख अनधिकृत चैट परियोजनाएँ या एम्बेडिंग सेवाएँ में न भेजें।
 
-**Retrieved text evidence है, instruction channel नहीं।** Wiki का text policy को override नहीं करता। हर page या file के लिए एक active owner रखें, reservation और expiry दर्ज करें, write से पहले reread करें।
+**प्राप्त किया गया पाठ प्रमाण है, निर्देश चैनल नहीं।** Wiki पृष्ठ या उपकरण का उत्तर में नीति अनदेखी करने को कहा गया हो, तो उससे उसका अधिकार नहीं बदलता। सामग्री में दिए निर्देशों को स्वीकृत संचालन नीति से अलग जाँचें। Retrieval के दौरान connectors को केवल पढ़ने की अनुमति दें और प्रकाशन credentials को सत्र पहुँच से अलग रखें।
 
-| रुकने और पूछने का ट्रिगर | आवश्यक प्रतिक्रिया |
+**हर पृष्ठ या फ़ाइल का एक सक्रिय स्वामी तय करें।** दायरे और समाप्ति समय के साथ tracker में आरक्षण दर्ज करें। लिखने से पहले फिर पढ़ें और संस्करण जाँच चलाएँ। Worktree स्थानीय अलगाव देता है, जबकि आरक्षण और सशर्त लेखन साझा अभिलेखों के टकराव सँभालते हैं।
+
+| रुककर पूछने की स्थिति | आवश्यक प्रतिक्रिया |
 |---|---|
-| **Owner के बिना sources disagree** | Pause और authority मांगें |
-| **दूसरी task target reserve करती है** | Edit से पहले ownership negotiate करें |
-| **Base version बदल गया** | Reconcile और renewed approval लें |
-| **Material claim बिना evidence** | Unverified mark करें और source मांगें |
-| **Data handling unclear** | Content home system में रखें |
-| **Live source access fail** | Snapshot limit दर्ज करें और durable action रोकें |
+| **स्वामी के बिना स्रोतों में विरोध** | रुकें और अधिकार तय करने को कहें |
+| **दूसरा task लक्ष्य आरक्षित करता है** | संपादन से पहले स्वामित्व पर सहमति लें |
+| **आधार संस्करण बदल गया** | बदलाव मिलाएँ और नई स्वीकृति लें |
+| **किसी महत्वपूर्ण दावे का प्रमाण नहीं** | उसे अप्रमाणित चिह्नित करें और स्रोत माँगें |
+| **डेटा संभालने का तरीका अस्पष्ट है** | सामग्री उसके मूल सिस्टम में रखें |
+| **सक्रिय स्रोत नहीं खुलता** | snapshot सीमा दर्ज करें और टिकाऊ कार्रवाई रोकें |
 
-Prompts security controls नहीं हैं। Permission denial, protected branches, stale-base rejection और write ownership को model के बाहर test करें।
+**Prompts सुरक्षा नियंत्रण नहीं हैं।** अनुमति अस्वीकार, सुरक्षित शाखाएँ, पुराने आधार को अस्वीकार करना और लेखन स्वामित्व को model से बाहर जाँचें। सफल demonstration पर्याप्त नहीं, यदि account के पास अब भी अप्रतिबंधित प्रकाशन अधिकार हैं। इन जाँचों से तय करें कि पायलट तैयार है या नहीं।
 
-## Promotion से पहले pilot
+## विस्तार से पहले पायलट
 
-**Framework को draft से शुरू करें।** Coder, non-coder और source owners वाला एक project चुनें। दो tools में same known-ID question चलाएं और source conflict exercise करें। Manifest और proposals देखें।
+**ढाँचे की शुरुआत मसौदे से करें।** एक coder, एक non-coder और नामित स्रोत स्वामी वाला project चुनें। दो tools में एक ही ज्ञात-ID प्रश्न चलाएँ और जानबूझकर स्रोत-विरोध का अभ्यास करें। गद्य की सहजता के बजाय manifests और proposals जाँचें।
 
-| Metric | Definition |
+**अपेक्षित तर्क:** दोनों सहभागी वर्तमान स्वीकृत आवश्यकता पहचानें और निरीक्षित implementation का अलग विवरण दें। असहमति हो तो पहले manifest प्रविष्टियाँ मिलाएँ। यह प्रस्तावित अभ्यास है, किया गया benchmark नहीं।
+
+| माप | परिभाषा |
 |---|---|
-| **उद्धरण दर** | Source-supported material claims / sampled material factual claims |
-| **Weekly drift findings** | Source type के अनुसार confirmed authority/version mismatches |
-| **Proposal turnaround** | Review-ready proposal से recorded decision तक median time |
-| **Stale-context rework** | Obsolete या unverified evidence से reopened tasks |
+| **Citation दर** | नमूना उत्तरों में महत्वपूर्ण तथ्यात्मक दावे के मुकाबले स्रोत-समर्थित महत्वपूर्ण दावों का अनुपात |
+| **साप्ताहिक drift निष्कर्ष** | स्रोत प्रकार के अनुसार पुष्टि हुए अधिकार या version अंतर |
+| **प्रस्ताव निपटान समय** | समीक्षा के लिए तैयार प्रस्ताव से दर्ज निर्णय तक का median समय |
+| **पुराने संदर्भ से दोबारा काम** | पुराना या अप्रमाणित प्रमाण होने के कारण फिर खोले गए tasks |
 
-Targets से पहले baseline मापें। अधिक findings बेहतर detection दिखा सकते हैं। Synthetic repository में map, adapters, manifests, proposal templates और executable checks रखें।
+**लक्ष्य तय करने से पहले आधार मापें।** पहले सप्ताह में drift निष्कर्ष बढ़ना खराब दस्तावेज़ीकरण के बजाय बेहतर पहचान दिखा सकता है। कच्ची संख्या के साथ पुनरावृत्ति और समाधान समय देखें। संवेदनशील प्रमाण को analytics export में न कॉपी करें।
 
-## Shared context troubleshooting
+**Rollout के दौरान उदाहरण repository दें।** उसमें कृत्रिम मानचित्र, नीति adapters, manifests, प्रस्ताव प्रारूप, दस्तावेज़ अपवाद और चलने योग्य समीक्षा जाँचें रखें। नकली Wiki और tracker अभिलेख उपयोग करें, उत्पादन credentials नहीं। publication अस्वीकृति, बदले आधार की अस्वीकृति, नीति संस्करण drift और सफल handoff दिखाएँ।
 
-| Symptom | First repair |
+**Template repository rollout का deliverable है**, इस लेख के साथ दिया asset नहीं। नेतृत्व और स्रोत स्वामी के पायलट परिणामों की समीक्षा के बाद ढाँचा बढ़ाएँ। अपवाद और अनसुलझे विफलता मामले निर्णय रजिस्टर में रखें। लागू करने से पहले नीचे की सामान्य विफलताएँ ठीक करें।
+
+## साझा संदर्भ की समस्याएँ सुलझाना
+
+| लक्षण | पहला सुधार |
 |---|---|
-| **दो tools अलग उत्तर देते हैं** | IDs, revisions, scope और approval status compare करें |
-| **Instructions current, behavior अलग** | Loaded adapters, toggles और overrides inspect करें |
-| **RAG old requirements देता है** | Index refresh और live page जांचें |
-| **Wiki edit दूसरी change मिटाती है** | Conditional writes या serialized publication चाहिए |
-| **Docs checks stale wording स्वीकारते हैं** | Owner review और requirement reconciliation जोड़ें |
-| **Decisions chat में रहती हैं** | Proposal intake और register owner तय करें |
+| **दो tools अलग उत्तर देते हैं** | स्रोत ID, revisions, दायरा और approval स्थिति मिलाएँ |
+| **निर्देश नए लगते हैं, व्यवहार अलग है** | लोड हुए adapters, toggles और स्थानीय overrides जाँचें |
+| **RAG पुरानी आवश्यकताएँ देता है** | अनुक्रमणिका अद्यतन देखें और सक्रिय पृष्ठ प्राप्त करें |
+| **Wiki edit दूसरा बदलाव मिटाता है** | सशर्त लेखन या क्रमबद्ध प्रकाशन अनिवार्य करें |
+| **Docs जाँच पुराने शब्द स्वीकारती है** | स्वामी समीक्षा और आवश्यकता-मिलान जोड़ें |
+| **निर्णय chat में रह जाते हैं** | प्रस्ताव intake और register स्वामी तय करें |
 
-**Prompt बदलने से पहले evidence path ठीक करें।** Failed pilot case फिर चलाएं और परिणाम दर्ज करें।
+**Prompt फिर लिखने से पहले प्रमाण का रास्ता ठीक करें।** फिर विफल पायलट अभ्यास दोहराएँ और परिणाम दर्ज करें। ठीक हुई प्रक्रिया को साप्ताहिक अभ्यास बनाने के लिए यह सूची अपनाएँ।
 
 ## इस सप्ताह के दस कदम
 
-1. **एक pilot project चुनें** और लोग तथा tools तय करें।
-2. **हर information type का home और owner तय करें।**
-3. **Source IDs और authority scopes वाली project map publish करें।**
-4. **Shared policy draft करें** और owner review लें।
-5. **हर instruction adapter को version करें** और loading verify करें।
-6. **Material factual answers और proposals के लिए context manifest मांगें।**
-7. **Base versions और named approvers वाला proposal path बनाएं।**
-8. **Write controls और same-PR documentation rule लागू करें।**
-9. **Synthetic records से drift, conflict और handoff test करें।**
-10. **Pilot metrics review करें** और अगला rollout stage approve करें।
+1. **एक पायलट project चुनें** और उसमें भाग लेने वाले लोग व tools तय करें।
+2. **हर जानकारी प्रकार का आधिकारिक स्थान और स्वामी तय करें।**
+3. **स्रोत ID और अधिकार दायरे वाला परियोजना मानचित्र प्रकाशित करें।**
+4. **एक साझा नीति का मसौदा बनाएँ** और स्वामी से समीक्षा लें।
+5. **हर निर्देश adapter को version करें** और उसकी loading जाँचें।
+6. **महत्वपूर्ण factual उत्तर और proposals के लिए संदर्भ मैनिफेस्ट माँगें।**
+7. **आधार संस्करण और नामित approvers वाला प्रस्ताव प्राप्ति मार्ग बनाएँ।**
+8. **लेखन नियंत्रण और उसी-PR दस्तावेज़ नियम लागू करें।**
+9. **Synthetic अभिलेखों से drift, विरोध और handoff जाँचें।**
+10. **पायलट मापों की समीक्षा करें** और अगले चरण को मंज़ूर करें।
 
-**हर तथ्य का एक घर रखें, हर tool को वहीं से पढ़ाएं और हर durable change को व्यक्ति से गुजारें।**
+**हर तथ्य का एक आधिकारिक स्थान रखें, हर tool को वहीं से पढ़ाएँ और हर टिकाऊ बदलाव किसी व्यक्ति की समीक्षा से गुजारें।**
 
-## References और अगले कदम
+## संदर्भ और अगले कदम
 
-**Official documentation technical components को support करती है**, organizational rules को नहीं। Pilot में installed behavior और connector permissions जांचें।
+**आधिकारिक दस्तावेज़ तकनीकी हिस्सों के लिए स्रोत देते हैं**, इस ढाँचे के संगठनात्मक नियमों की गारंटी नहीं। पायलट में स्थापित tool व्यवहार और कनेक्टर अनुमतियाँ जाँचें।
 
-- **Codex instructions:** [Custom instructions with AGENTS.md](https://developers.openai.com/codex/guides/agents-md)
-- **Claude Code instructions:** [How Claude remembers your project](https://code.claude.com/docs/en/memory)
-- **Cline instructions:** [Rules](https://docs.cline.bot/customization/cline-rules)
-- **Retrieval design:** [Retrieval-augmented generation in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview)
-- **Connector security:** [MCP Security Best Practices](https://modelcontextprotocol.io/docs/latest/tutorials/security/security_best_practices)
-- **Working-tree isolation:** [Git worktree documentation](https://git-scm.com/docs/git-worktree)
+- **Codex निर्देश:** [AGENTS.md के साथ कस्टम निर्देश](https://developers.openai.com/codex/guides/agents-md), निर्देश खोजने और सत्यापित करने के बारे में।
+- **Claude Code निर्देश:** [Claude आपके project को कैसे याद रखता है](https://code.claude.com/docs/en/memory), project निर्देश और memory के बारे में।
+- **Cline निर्देश:** [नियम](https://docs.cline.bot/customization/cline-rules), workspace नियम और सक्रियण नियंत्रण के बारे में।
+- **पुनर्प्राप्ति डिज़ाइन:** [Azure AI Search में पुनर्प्राप्ति-संवर्धित जनन](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview), grounding, retrieval सीमाओं और सुरक्षा के बारे में।
+- **Connector सुरक्षा:** [MCP सुरक्षा के सर्वोत्तम अभ्यास](https://modelcontextprotocol.io/docs/latest/tutorials/security/security_best_practices), authorization और connector जोखिमों के बारे में।
+- **कार्य-वृक्ष अलगाव:** [Git कार्य-वृक्ष दस्तावेज़](https://git-scm.com/docs/git-worktree), अलग कार्य-वृक्ष और साझा repository स्थिति के बारे में।
 
-**Local inference planning के लिए** [Local AI GPU Context Guide](/articles/local-ai-model-gpu-context-guide/) पढ़ें। Hardware capacity और shared-source governance अलग समस्याएं हैं। बड़ा context window conflicting authority नहीं सुधारता।
+**स्थानीय inference की योजना के लिए** [स्थानीय AI GPU संदर्भ मार्गदर्शिका](/articles/local-ai-model-gpu-context-guide/) पढ़ें। Hardware क्षमता और साझा-स्रोत शासन अलग समस्याएँ हैं। बड़ा संदर्भ विंडो विरोधी अधिकार ठीक नहीं करता।
 
 {{< centerbutton href="/articles/local-ai-model-gpu-context-guide/" >}}
-  Local AI GPU Context Guide पढ़ें
+  स्थानीय AI संदर्भ मार्गदर्शिका पढ़ें
 {{< /centerbutton >}}
