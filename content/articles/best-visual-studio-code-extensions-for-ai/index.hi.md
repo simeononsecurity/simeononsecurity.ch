@@ -1,7 +1,7 @@
 ---
 title: "AI डेवलपमेंट के लिए सर्वश्रेष्ठ Visual Studio Code एक्सटेंशन"
 date: 2023-07-06
-lastmod: 2026-11-08
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "AI डेवलपमेंट के लिए Visual Studio Code एक्सटेंशन की तुलना करें। इनमें Python, Jupyter, Git, IntelliCode और Docker के टूल शामिल हैं।"
@@ -34,7 +34,7 @@ Python एक्सटेंशन को Visual Studio Code के आधिक
 
 ### 2. Jupyter
 
-AI प्रयोगों और प्रोटोटाइप के लिए Jupyter notebooks लोकप्रिय हैं। **Visual Studio Code के लिए Jupyter एक्सटेंशन** notebooks को सीधे कोड एडिटर में लाता है। आप VS Code में ही Jupyter notebooks बना, संपादित और चला सकते हैं। इंटरैक्टिव cells, बेहतर outputs और कोड चलाने की सुविधा डेटा की खोज और विश्लेषण के लिए उपयोगी वातावरण देती है।
+AI प्रयोगों और प्रोटोटाइप के लिए Jupyter नोटबुक लोकप्रिय हैं। **Visual Studio Code के लिए Jupyter एक्सटेंशन** notebooks को सीधे कोड एडिटर में लाता है। आप VS Code में ही Jupyter नोटबुक बना, संपादित और चला सकते हैं। इंटरैक्टिव cells, बेहतर outputs और कोड चलाने की सुविधा डेटा की खोज और विश्लेषण के लिए उपयोगी वातावरण देती है।
 
 Jupyter एक्सटेंशन को Visual Studio Code के आधिकारिक marketplace से डाउनलोड करें: [Jupyter एक्सटेंशन](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)।
 
@@ -46,19 +46,19 @@ Git एक्सटेंशन को Visual Studio Code के आधिका
 
 ### 4. IntelliCode
 
-Microsoft का बनाया **Visual Studio Code के लिए IntelliCode एक्सटेंशन** एडिटर में AI-आधारित कोड सुझाव देता है। यह बड़ी मात्रा में open-source कोड पर प्रशिक्षित machine-learning मॉडल से संदर्भ के अनुसार कोड पूरा करने के सुझाव देता है। IntelliCode अगले संभावित कोड तत्व का अनुमान लगाता है। इससे समय बचता है, उत्पादकता बढ़ती है और गलतियाँ घटती हैं।
+Microsoft का बनाया **Visual Studio Code के लिए IntelliCode एक्सटेंशन** एडिटर में AI-आधारित कोड सुझाव देता है। यह बड़ी मात्रा में open-source कोड पर प्रशिक्षित मशीन लर्निंग मॉडल से संदर्भ के अनुसार कोड पूरा करने के सुझाव देता है। IntelliCode अगले संभावित कोड तत्व का अनुमान लगाता है। इससे समय बचता है, उत्पादकता बढ़ती है और गलतियाँ घटती हैं।
 
 IntelliCode एक्सटेंशन को Visual Studio Code के आधिकारिक marketplace से डाउनलोड करें: [IntelliCode एक्सटेंशन](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)।
 
 ### 5. Docker
 
-AI वर्कफ़्लो में containerization के लिए Docker का व्यापक उपयोग होता है। **Visual Studio Code के लिए Docker एक्सटेंशन** एडिटर के भीतर Docker containers और images का प्रबंधन आसान बनाता है। यह containers बनाने, चलाने और debug करने के लिए ग्राफ़िकल इंटरफ़ेस देता है। इससे डेवलपर जटिल Docker कमांड के बजाय अपने AI मॉडल पर ध्यान दे सकते हैं।
+AI वर्कफ़्लो में containerization के लिए Docker का व्यापक उपयोग होता है। **Visual Studio Code के लिए Docker एक्सटेंशन** एडिटर के भीतर Docker कंटेनर और इमेज का प्रबंधन आसान बनाता है। यह कंटेनर बनाने, चलाने और debug करने के लिए ग्राफ़िकल इंटरफ़ेस देता है। इससे डेवलपर जटिल Docker कमांड के बजाय अपने AI मॉडल पर ध्यान दे सकते हैं।
 
 Docker एक्सटेंशन को Visual Studio Code के आधिकारिक marketplace से डाउनलोड करें: [Docker एक्सटेंशन](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)।
 
 ### 6. TensorFlow
 
-**Visual Studio Code के लिए TensorFlow एक्सटेंशन** लोकप्रिय AI लाइब्रेरी में से एक का समर्थन करता है। इसमें code snippets, syntax highlighting और TensorFlow के लिए समर्पित debugger है। इससे एडिटर में TensorFlow प्रोजेक्ट पर काम करना आसान होता है।
+**Visual Studio Code के लिए TensorFlow एक्सटेंशन** लोकप्रिय AI लाइब्रेरी में से एक का समर्थन करता है। इसमें कोड के नमूने, सिंटैक्स को रंगों से दिखाना और TensorFlow के लिए समर्पित debugger है। इससे एडिटर में TensorFlow प्रोजेक्ट पर काम करना आसान होता है।
 
 Visual Studio Code के लिए TensorFlow इंस्टॉल करने का तरीका जानें: [TensorFlow एक्सटेंशन](https://reason.town/how-to-install-tensorflow-in-visual-studio-code/#:~:text=First%2C%20you%20will%20need%20to%20download%20TensorFlow%20from,type%20%E2%80%9CTensorFlow%E2%80%9D%20and%20install%20the%20extension%20that%20appears.)।
 
@@ -70,7 +70,7 @@ Kite एक्सटेंशन यहाँ से डाउनलोड क�
 
 ### 8. Azure Machine Learning
 
-**Visual Studio Code के लिए Azure Machine Learning एक्सटेंशन** Azure Machine Learning सेवा से सहजता से जुड़ता है। इससे आप एडिटर में ही machine-learning प्रयोग और मॉडल प्रबंधित तथा मॉनिटर कर सकते हैं। कुशल AI डेवलपमेंट के लिए यह data stores, datasets और experiment tracking तक पहुँच देता है।
+**Visual Studio Code के लिए Azure Machine Learning एक्सटेंशन** Azure Machine Learning सेवा से सहजता से जुड़ता है। इससे आप एडिटर में ही मशीन लर्निंग प्रयोग और मॉडल प्रबंधित तथा मॉनिटर कर सकते हैं। कुशल AI डेवलपमेंट के लिए यह data stores, datasets और प्रयोगों की प्रगति पर नज़र रखने की सुविधा देता है।
 
 Azure Machine Learning एक्सटेंशन को Visual Studio Code के आधिकारिक marketplace से डाउनलोड करें: [Azure Machine Learning एक्सटेंशन](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-ai)।
 

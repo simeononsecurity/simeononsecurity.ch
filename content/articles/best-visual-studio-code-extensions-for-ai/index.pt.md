@@ -1,7 +1,7 @@
 ---
 title: "As melhores extensões do Visual Studio Code para desenvolvimento de IA"
 date: 2023-07-06
-lastmod: 2026-11-08
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "Compare extensões do Visual Studio Code para desenvolvimento de IA, incluindo ferramentas para Python, Jupyter, Git, IntelliCode e Docker."

@@ -1,7 +1,7 @@
 ---
 title: "AI ডেভেলপমেন্টের জন্য সেরা Visual Studio Code এক্সটেনশন"
 date: 2023-07-06
-lastmod: 2026-11-08
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "Python, Jupyter, Git, IntelliCode এবং Docker-এর মতো কাজের জন্য AI ডেভেলপমেন্টে ব্যবহৃত Visual Studio Code এক্সটেনশনগুলো তুলনা করুন।"
@@ -46,7 +46,7 @@ Visual Studio Code-এর অফিসিয়াল মার্কেটপ�
 
 ### 4. IntelliCode
 
-Microsoft-এর তৈরি **Visual Studio Code-এর IntelliCode এক্সটেনশন** এডিটরে AI-ভিত্তিক কোড পরামর্শ দেয়। এটি বিপুল পরিমাণ ওপেন-সোর্স কোডে প্রশিক্ষিত machine learning মডেল ব্যবহার করে প্রসঙ্গ অনুযায়ী কোড সম্পূর্ণ করার পরামর্শ দেয়। IntelliCode পরের সম্ভাব্য কোড উপাদান অনুমান করে। এতে সময় বাঁচে, উৎপাদনশীলতা বাড়ে এবং ভুল কমে।
+Microsoft-এর তৈরি **Visual Studio Code-এর IntelliCode এক্সটেনশন** এডিটরে AI-ভিত্তিক কোড পরামর্শ দেয়। এটি বিপুল পরিমাণ ওপেন-সোর্স কোডে প্রশিক্ষিত মেশিন লার্নিং মডেল ব্যবহার করে প্রসঙ্গ অনুযায়ী কোড সম্পূর্ণ করার পরামর্শ দেয়। IntelliCode পরের সম্ভাব্য কোড উপাদান অনুমান করে। এতে সময় বাঁচে, উৎপাদনশীলতা বাড়ে এবং ভুল কমে।
 
 Visual Studio Code-এর অফিসিয়াল মার্কেটপ্লেস থেকে IntelliCode এক্সটেনশন ডাউনলোড করুন: [IntelliCode এক্সটেনশন](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)।
 
@@ -58,7 +58,7 @@ Visual Studio Code-এর অফিসিয়াল মার্কেটপ�
 
 ### 6. TensorFlow
 
-**Visual Studio Code-এর TensorFlow এক্সটেনশন** জনপ্রিয় AI লাইব্রেরিগুলোর একটি ব্যবহারে সহায়তা করে। এতে code snippet, syntax highlighting এবং TensorFlow-এর জন্য নির্দিষ্ট debugger রয়েছে। কোড এডিটরে TensorFlow প্রকল্প নিয়ে কাজ করা সহজ হয়।
+**Visual Studio Code-এর TensorFlow এক্সটেনশন** জনপ্রিয় AI লাইব্রেরিগুলোর একটি ব্যবহারে সহায়তা করে। এতে code snippet, সিনট্যাক্সের রঙিন হাইলাইট এবং TensorFlow-এর জন্য নির্দিষ্ট debugger রয়েছে। কোড এডিটরে TensorFlow প্রকল্প নিয়ে কাজ করা সহজ হয়।
 
 Visual Studio Code-এর জন্য TensorFlow ইনস্টল করার পদ্ধতি জানুন: [TensorFlow এক্সটেনশন](https://reason.town/how-to-install-tensorflow-in-visual-studio-code/#:~:text=First%2C%20you%20will%20need%20to%20download%20TensorFlow%20from,type%20%E2%80%9CTensorFlow%E2%80%9D%20and%20install%20the%20extension%20that%20appears.)।
 
@@ -70,7 +70,7 @@ Visual Studio Code-এর জন্য TensorFlow ইনস্টল করা�
 
 ### 8. Azure Machine Learning
 
-**Visual Studio Code-এর Azure Machine Learning এক্সটেনশন** Azure Machine Learning পরিষেবার সঙ্গে একীভূত হয়। এটি এডিটর থেকেই machine learning পরীক্ষা ও মডেল পরিচালনা এবং পর্যবেক্ষণ করতে দেয়। দক্ষ AI ডেভেলপমেন্টের জন্য এতে data store, dataset এবং experiment tracking-এ প্রবেশাধিকার রয়েছে।
+**Visual Studio Code-এর Azure Machine Learning এক্সটেনশন** Azure Machine Learning পরিষেবার সঙ্গে একীভূত হয়। এটি এডিটর থেকেই মেশিন লার্নিং পরীক্ষা ও মডেল পরিচালনা এবং পর্যবেক্ষণ করতে দেয়। দক্ষ AI ডেভেলপমেন্টের জন্য এটি data store, dataset এবং পরীক্ষার অগ্রগতি অনুসরণ করার সুবিধা দেয়।
 
 Visual Studio Code-এর অফিসিয়াল মার্কেটপ্লেস থেকে Azure Machine Learning এক্সটেনশন ডাউনলোড করুন: [Azure Machine Learning এক্সটেনশন](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-ai)।
 

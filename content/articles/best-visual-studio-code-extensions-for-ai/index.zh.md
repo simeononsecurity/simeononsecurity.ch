@@ -1,7 +1,7 @@
 ---
 title: "适用于 AI 开发的最佳 Visual Studio Code 扩展"
 date: 2023-07-06
-lastmod: 2026-11-08
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "比较适用于 AI 开发的 Visual Studio Code 扩展，包括 Python、Jupyter、Git、IntelliCode 和 Docker 工具。"

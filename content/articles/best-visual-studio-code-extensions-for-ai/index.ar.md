@@ -1,7 +1,7 @@
 ---
 title: "أفضل إضافات Visual Studio Code لتطوير الذكاء الاصطناعي"
 date: 2023-07-06
-lastmod: 2026-11-08
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "تعرّف على إضافات Visual Studio Code لتطوير الذكاء الاصطناعي، ومنها أدوات Python وJupyter وGit وIntelliCode وDocker."

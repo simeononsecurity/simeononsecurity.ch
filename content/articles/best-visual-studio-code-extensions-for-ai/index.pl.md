@@ -1,7 +1,7 @@
 ---
 title: "Najlepsze rozszerzenia Visual Studio Code do tworzenia rozwiązań AI"
 date: 2023-07-06
-lastmod: 2026-11-08
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "Poznaj rozszerzenia Visual Studio Code do pracy nad AI, w tym narzędzia do obsługi Pythona, Jupyter, Gita, IntelliCode i Dockera."

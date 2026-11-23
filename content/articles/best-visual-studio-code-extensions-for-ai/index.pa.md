@@ -1,7 +1,7 @@
 ---
 title: "AI ਵਿਕਾਸ ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ Visual Studio Code ਐਕਸਟੈਂਸ਼ਨਾਂ"
 date: 2023-07-06
-lastmod: 2026-11-08
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "Python, Jupyter, Git, IntelliCode ਅਤੇ Docker ਸਮੇਤ AI ਵਿਕਾਸ ਲਈ Visual Studio Code ਐਕਸਟੈਂਸ਼ਨਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।"
@@ -34,7 +34,7 @@ Python ਐਕਸਟੈਂਸ਼ਨ ਨੂੰ Visual Studio Code ਦੇ ਅਧਿ
 
 ### 2. Jupyter
 
-AI ਪ੍ਰਯੋਗਾਂ ਅਤੇ ਪ੍ਰੋਟੋਟਾਈਪਾਂ ਲਈ Jupyter notebooks ਪ੍ਰਸਿੱਧ ਹਨ। **Visual Studio Code ਲਈ Jupyter ਐਕਸਟੈਂਸ਼ਨ** notebooks ਨੂੰ ਸਿੱਧਾ ਕੋਡ ਐਡੀਟਰ ਵਿੱਚ ਲਿਆਉਂਦੀ ਹੈ। ਤੁਸੀਂ VS Code ਵਿੱਚ Jupyter notebooks ਬਣਾ, ਸੋਧ ਅਤੇ ਚਲਾ ਸਕਦੇ ਹੋ। ਇੰਟਰਐਕਟਿਵ ਸੈੱਲ, ਵਿਸਥਾਰਪੂਰਵਕ ਨਤੀਜੇ ਅਤੇ ਕੋਡ ਚਲਾਉਣ ਦੀ ਸਹੂਲਤ ਡਾਟਾ ਖੋਜਣ ਅਤੇ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਨ ਲਈ ਵਧੀਆ ਵਾਤਾਵਰਣ ਦਿੰਦੀ ਹੈ।
+AI ਪ੍ਰਯੋਗਾਂ ਅਤੇ ਪ੍ਰੋਟੋਟਾਈਪਾਂ ਲਈ Jupyter ਨੋਟਬੁੱਕ ਪ੍ਰਸਿੱਧ ਹਨ। **Visual Studio Code ਲਈ Jupyter ਐਕਸਟੈਂਸ਼ਨ** notebooks ਨੂੰ ਸਿੱਧਾ ਕੋਡ ਐਡੀਟਰ ਵਿੱਚ ਲਿਆਉਂਦੀ ਹੈ। ਤੁਸੀਂ VS Code ਵਿੱਚ Jupyter ਨੋਟਬੁੱਕ ਬਣਾ, ਸੋਧ ਅਤੇ ਚਲਾ ਸਕਦੇ ਹੋ। ਇੰਟਰਐਕਟਿਵ ਸੈੱਲ, ਵਿਸਥਾਰਪੂਰਵਕ ਨਤੀਜੇ ਅਤੇ ਕੋਡ ਚਲਾਉਣ ਦੀ ਸਹੂਲਤ ਡਾਟਾ ਖੋਜਣ ਅਤੇ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਨ ਲਈ ਵਧੀਆ ਵਾਤਾਵਰਣ ਦਿੰਦੀ ਹੈ।
 
 Jupyter ਐਕਸਟੈਂਸ਼ਨ ਨੂੰ Visual Studio Code ਦੇ ਅਧਿਕਾਰਕ marketplace ਤੋਂ ਡਾਊਨਲੋਡ ਕਰੋ: [Jupyter ਐਕਸਟੈਂਸ਼ਨ](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)।
 
@@ -46,19 +46,19 @@ Git ਐਕਸਟੈਂਸ਼ਨ ਨੂੰ Visual Studio Code ਦੇ ਅਧਿਕ
 
 ### 4. IntelliCode
 
-Microsoft ਵੱਲੋਂ ਬਣਾਈ **Visual Studio Code ਲਈ IntelliCode ਐਕਸਟੈਂਸ਼ਨ** ਐਡੀਟਰ ਵਿੱਚ AI-ਅਧਾਰਿਤ ਕੋਡ ਸੁਝਾਅ ਦਿੰਦੀ ਹੈ। ਇਹ ਵੱਡੀ ਮਾਤਰਾ ਵਿੱਚ ਓਪਨ-ਸੋਰਸ ਕੋਡ ਨਾਲ ਸਿਖਲਾਈ ਕੀਤੇ machine-learning ਮਾਡਲਾਂ ਰਾਹੀਂ ਸੰਦਰਭ ਮੁਤਾਬਕ ਕੋਡ ਪੂਰਾ ਕਰਨ ਦੇ ਸੁਝਾਅ ਦਿੰਦੀ ਹੈ। IntelliCode ਅਗਲੇ ਸੰਭਾਵੀ ਕੋਡ ਹਿੱਸਿਆਂ ਦਾ ਅੰਦਾਜ਼ਾ ਲਗਾਉਂਦੀ ਹੈ। ਇਸ ਨਾਲ ਸਮਾਂ ਬਚਦਾ ਹੈ, ਉਤਪਾਦਕਤਾ ਵਧਦੀ ਹੈ ਅਤੇ ਗਲਤੀਆਂ ਘਟਦੀਆਂ ਹਨ।
+Microsoft ਵੱਲੋਂ ਬਣਾਈ **Visual Studio Code ਲਈ IntelliCode ਐਕਸਟੈਂਸ਼ਨ** ਐਡੀਟਰ ਵਿੱਚ AI-ਅਧਾਰਿਤ ਕੋਡ ਸੁਝਾਅ ਦਿੰਦੀ ਹੈ। ਇਹ ਵੱਡੀ ਮਾਤਰਾ ਵਿੱਚ ਓਪਨ-ਸੋਰਸ ਕੋਡ ਨਾਲ ਸਿਖਲਾਈ ਕੀਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਮਾਡਲਾਂ ਰਾਹੀਂ ਸੰਦਰਭ ਮੁਤਾਬਕ ਕੋਡ ਪੂਰਾ ਕਰਨ ਦੇ ਸੁਝਾਅ ਦਿੰਦੀ ਹੈ। IntelliCode ਅਗਲੇ ਸੰਭਾਵੀ ਕੋਡ ਹਿੱਸਿਆਂ ਦਾ ਅੰਦਾਜ਼ਾ ਲਗਾਉਂਦੀ ਹੈ। ਇਸ ਨਾਲ ਸਮਾਂ ਬਚਦਾ ਹੈ, ਉਤਪਾਦਕਤਾ ਵਧਦੀ ਹੈ ਅਤੇ ਗਲਤੀਆਂ ਘਟਦੀਆਂ ਹਨ।
 
 IntelliCode ਐਕਸਟੈਂਸ਼ਨ ਨੂੰ Visual Studio Code ਦੇ ਅਧਿਕਾਰਕ marketplace ਤੋਂ ਡਾਊਨਲੋਡ ਕਰੋ: [IntelliCode ਐਕਸਟੈਂਸ਼ਨ](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)।
 
 ### 5. Docker
 
-AI ਕੰਮ-ਧਾਰਾਵਾਂ ਵਿੱਚ ਕੰਟੇਨਰੀਕਰਨ ਲਈ Docker ਵੱਡੇ ਪੱਧਰ ਉੱਤੇ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ। **Visual Studio Code ਲਈ Docker ਐਕਸਟੈਂਸ਼ਨ** ਐਡੀਟਰ ਵਿੱਚ Docker containers ਅਤੇ images ਸੰਭਾਲਣ ਨੂੰ ਸੌਖਾ ਕਰਦੀ ਹੈ। ਇਹ containers ਬਣਾਉਣ, ਚਲਾਉਣ ਅਤੇ debug ਕਰਨ ਲਈ ਗ੍ਰਾਫ਼ਿਕਲ ਇੰਟਰਫੇਸ ਦਿੰਦੀ ਹੈ। ਇਸ ਤਰ੍ਹਾਂ ਡਿਵੈਲਪਰ ਜਟਿਲ Docker ਕਮਾਂਡਾਂ ਦੀ ਬਜਾਏ AI ਮਾਡਲਾਂ ਉੱਤੇ ਧਿਆਨ ਦੇ ਸਕਦੇ ਹਨ।
+AI ਕੰਮ-ਧਾਰਾਵਾਂ ਵਿੱਚ ਕੰਟੇਨਰੀਕਰਨ ਲਈ Docker ਵੱਡੇ ਪੱਧਰ ਉੱਤੇ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ। **Visual Studio Code ਲਈ Docker ਐਕਸਟੈਂਸ਼ਨ** ਐਡੀਟਰ ਵਿੱਚ Docker ਕੰਟੇਨਰ ਅਤੇ ਇਮੇਜ ਸੰਭਾਲਣ ਨੂੰ ਸੌਖਾ ਕਰਦੀ ਹੈ। ਇਹ ਕੰਟੇਨਰ ਬਣਾਉਣ, ਚਲਾਉਣ ਅਤੇ debug ਕਰਨ ਲਈ ਗ੍ਰਾਫ਼ਿਕਲ ਇੰਟਰਫੇਸ ਦਿੰਦੀ ਹੈ। ਇਸ ਤਰ੍ਹਾਂ ਡਿਵੈਲਪਰ ਜਟਿਲ Docker ਕਮਾਂਡਾਂ ਦੀ ਬਜਾਏ AI ਮਾਡਲਾਂ ਉੱਤੇ ਧਿਆਨ ਦੇ ਸਕਦੇ ਹਨ।
 
 Docker ਐਕਸਟੈਂਸ਼ਨ ਨੂੰ Visual Studio Code ਦੇ ਅਧਿਕਾਰਕ marketplace ਤੋਂ ਡਾਊਨਲੋਡ ਕਰੋ: [Docker ਐਕਸਟੈਂਸ਼ਨ](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)।
 
 ### 6. TensorFlow
 
-**Visual Studio Code ਲਈ TensorFlow ਐਕਸਟੈਂਸ਼ਨ** ਪ੍ਰਸਿੱਧ AI ਲਾਇਬ੍ਰੇਰੀਆਂ ਵਿੱਚੋਂ ਇੱਕ ਦਾ ਸਮਰਥਨ ਕਰਦੀ ਹੈ। ਇਸ ਵਿੱਚ ਕੋਡ snippets, syntax highlighting ਅਤੇ ਖ਼ਾਸ TensorFlow debugger ਹੈ। ਇਹ ਕੋਡ ਐਡੀਟਰ ਵਿੱਚ TensorFlow ਪ੍ਰੋਜੈਕਟਾਂ ਉੱਤੇ ਕੰਮ ਕਰਨਾ ਸੌਖਾ ਬਣਾਉਂਦੇ ਹਨ।
+**Visual Studio Code ਲਈ TensorFlow ਐਕਸਟੈਂਸ਼ਨ** ਪ੍ਰਸਿੱਧ AI ਲਾਇਬ੍ਰੇਰੀਆਂ ਵਿੱਚੋਂ ਇੱਕ ਦਾ ਸਮਰਥਨ ਕਰਦੀ ਹੈ। ਇਸ ਵਿੱਚ ਕੋਡ snippets, ਸਿੰਟੈਕਸ ਨੂੰ ਰੰਗਾਂ ਨਾਲ ਦਿਖਾਉਣਾ ਅਤੇ ਖ਼ਾਸ TensorFlow ਡੀਬੱਗਰ ਹੈ। ਇਹ ਕੋਡ ਐਡੀਟਰ ਵਿੱਚ TensorFlow ਪ੍ਰੋਜੈਕਟਾਂ ਉੱਤੇ ਕੰਮ ਕਰਨਾ ਸੌਖਾ ਬਣਾਉਂਦੇ ਹਨ।
 
 Visual Studio Code ਲਈ TensorFlow ਇੰਸਟਾਲ ਕਰਨ ਦਾ ਤਰੀਕਾ ਜਾਣੋ: [TensorFlow ਐਕਸਟੈਂਸ਼ਨ](https://reason.town/how-to-install-tensorflow-in-visual-studio-code/#:~:text=First%2C%20you%20will%20need%20to%20download%20TensorFlow%20from,type%20%E2%80%9CTensorFlow%E2%80%9D%20and%20install%20the%20extension%20that%20appears.)।
 
@@ -70,7 +70,7 @@ Kite ਐਕਸਟੈਂਸ਼ਨ ਇੱਥੋਂ ਡਾਊਨਲੋਡ ਕਰੋ
 
 ### 8. Azure Machine Learning
 
-**Visual Studio Code ਲਈ Azure Machine Learning ਐਕਸਟੈਂਸ਼ਨ** Azure Machine Learning ਸੇਵਾ ਨਾਲ ਜੁੜਦੀ ਹੈ। ਇਹ ਤੁਹਾਨੂੰ ਐਡੀਟਰ ਵਿੱਚੋਂ ਹੀ machine-learning ਪ੍ਰਯੋਗ ਅਤੇ ਮਾਡਲ ਸੰਭਾਲਣ ਤੇ ਨਿਗਰਾਨੀ ਕਰਨ ਦਿੰਦੀ ਹੈ। ਕੁਸ਼ਲ AI ਵਿਕਾਸ ਲਈ ਇਹ data stores, datasets ਅਤੇ ਪ੍ਰਯੋਗਾਂ ਦੀ ਟਰੈਕਿੰਗ ਤੱਕ ਪਹੁੰਚ ਦਿੰਦੀ ਹੈ।
+**Visual Studio Code ਲਈ Azure Machine Learning ਐਕਸਟੈਂਸ਼ਨ** Azure Machine Learning ਸੇਵਾ ਨਾਲ ਜੁੜਦੀ ਹੈ। ਇਹ ਤੁਹਾਨੂੰ ਐਡੀਟਰ ਵਿੱਚੋਂ ਹੀ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਪ੍ਰਯੋਗ ਅਤੇ ਮਾਡਲ ਸੰਭਾਲਣ ਤੇ ਨਿਗਰਾਨੀ ਕਰਨ ਦਿੰਦੀ ਹੈ। ਕੁਸ਼ਲ AI ਵਿਕਾਸ ਲਈ ਇਹ data stores, datasets ਅਤੇ ਪ੍ਰਯੋਗਾਂ ਦੀ ਟਰੈਕਿੰਗ ਤੱਕ ਪਹੁੰਚ ਦਿੰਦੀ ਹੈ।
 
 Azure Machine Learning ਐਕਸਟੈਂਸ਼ਨ ਨੂੰ Visual Studio Code ਦੇ ਅਧਿਕਾਰਕ marketplace ਤੋਂ ਡਾਊਨਲੋਡ ਕਰੋ: [Azure Machine Learning ਐਕਸਟੈਂਸ਼ਨ](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-ai)।
 

@@ -1,7 +1,7 @@
 ---
 title: "Лучшие расширения Visual Studio Code для ИИ: ускорьте разработку ИИ с помощью этих важнейших инструментов"
 date: 2023-07-06
-lastmod: 2026-11-08
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "Откройте для себя лучшие расширения Visual Studio Code для разработки ИИ, включая Python, Jupyter, Git, IntelliCode и Docker, чтобы повысить производительность и оптимизировать рабочий процесс."

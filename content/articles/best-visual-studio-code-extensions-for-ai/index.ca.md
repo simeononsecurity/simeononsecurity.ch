@@ -1,7 +1,7 @@
 ---
 title: "Les millors extensions de Visual Studio Code per al desenvolupament d'IA"
 date: 2023-07-06
-lastmod: 2026-11-08
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "Compareu extensions de Visual Studio Code per al desenvolupament d'IA, incloses les eines per a Python, Jupyter, Git, IntelliCode i Docker."

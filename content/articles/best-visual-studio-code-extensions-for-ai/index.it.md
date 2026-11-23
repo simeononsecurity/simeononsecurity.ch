@@ -1,7 +1,7 @@
 ---
 title: "Le migliori estensioni di Visual Studio Code per lo sviluppo con l'IA"
 date: 2023-07-06
-lastmod: 2026-11-08
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "Confronta le estensioni di Visual Studio Code per lo sviluppo con l'IA, tra cui gli strumenti per Python, Jupyter, Git, IntelliCode e Docker."

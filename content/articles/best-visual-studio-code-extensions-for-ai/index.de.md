@@ -1,7 +1,7 @@
 ---
 title: "Die besten Visual-Studio-Code-Erweiterungen für die KI-Entwicklung"
 date: 2023-07-06
-lastmod: 2026-11-08
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "Vergleichen Sie Visual-Studio-Code-Erweiterungen für die KI-Entwicklung, darunter Werkzeuge für Python, Jupyter, Git, IntelliCode und Docker."

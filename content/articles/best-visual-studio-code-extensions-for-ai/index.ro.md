@@ -1,7 +1,7 @@
 ---
 title: "Cele mai bune extensii Visual Studio Code pentru dezvoltarea AI"
 date: 2023-07-06
-lastmod: 2026-11-08
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "Compară extensiile Visual Studio Code pentru dezvoltarea AI, inclusiv instrumente pentru Python, Jupyter, Git, IntelliCode și Docker."

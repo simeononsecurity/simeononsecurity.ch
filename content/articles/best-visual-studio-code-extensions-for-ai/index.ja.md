@@ -1,7 +1,7 @@
 ---
 title: "AI開発に最適なVisual Studio Code拡張機能"
 date: 2023-07-06
-lastmod: 2026-11-08
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "Python、Jupyter、Git、IntelliCode、Dockerなど、AI開発向けのVisual Studio Code拡張機能を紹介します。"

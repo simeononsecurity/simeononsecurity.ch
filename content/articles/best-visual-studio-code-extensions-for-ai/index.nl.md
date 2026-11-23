@@ -1,11 +1,11 @@
 ---
 title: "Beste Visual Studio Code-extensies voor AI-ontwikkeling"
 date: 2023-07-06
-lastmod: 2026-11-08
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "Vergelijk Visual Studio Code-extensies voor AI-ontwikkeling, waaronder workflows met Python, Jupyter, Git, IntelliCode en Docker."
-genre: ["Technologie", "AI-ontwikkeling", "Visual Studio Code", "Code-editor", "AI-tools", "Productiviteit", "Python", "Jupyter", "Git", "Docker"]
+genre: ["Technologie", "AI-ontwikkeling", "Visual Studio Code", "Code-editor", "AI-hulpmiddelen", "Productiviteit", "Python", "Jupyter", "Git", "Docker"]
 tags: ["beste Visual Studio Code-extensies voor AI", "AI-ontwikkeltools", "Python-extensie voor Visual Studio Code", "Jupyter-extensie voor Visual Studio Code", "Git-extensie voor Visual Studio Code", "IntelliCode-extensie voor Visual Studio Code", "Docker-extensie voor Visual Studio Code", "productiviteit bij AI-ontwikkeling", "AI-workflow vereenvoudigen", "AI-ontwikkeling met Visual Studio Code", "AI-productiviteit verhogen", "AI-codeertools", "VS Code-extensies voor AI", "AI-ontwikkelomgeving", "code-editor voor AI-ontwikkeling", "AI-experimenten met Jupyter", "versiebeheer voor AI-projecten", "intelligente codesuggesties", "containerisatie voor AI-workflows", "best practices voor AI-ontwikkeling", "efficiënt AI-programmeren", "samenwerking aan AI-ontwikkeling", "AI-ontwikkeling met Docker", "AI-ontwikkeling met Python", "AI-ontwikkeling met Git", "AI-ontwikkeling met IntelliCode", "AI-ontwikkeling met Jupyter"]
 cover: "/img/cover/An_image_depicting_a_computer_screen_with_Visu.webp"
 coverAlt: "Een computerscherm met het Visual Studio Code-logo en symbolen voor kunstmatige intelligentie."
