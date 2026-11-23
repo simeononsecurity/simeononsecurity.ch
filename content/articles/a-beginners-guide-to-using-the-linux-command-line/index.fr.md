@@ -1,7 +1,7 @@
 ---
 title: "Guide du débutant : utiliser la ligne de commande Linux pour la cybersécurité"
 date: 2023-03-13
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Apprenez à utiliser la ligne de commande Linux pour la cybersécurité, avec des commandes de base et avancées."
@@ -17,7 +17,7 @@ coverCaption: ""
 
 ### Afficher le répertoire de travail
 
-La commande **pwd** (print working directory) affiche le répertoire de travail actuel dans la CLI. Il s’agit du répertoire où vous vous trouvez dans le système de fichiers. Cette commande aide à naviguer et à situer le répertoire courant par rapport aux autres. Par exemple, si vous êtes dans votre répertoire personnel et souhaitez accéder au répertoire des documents, utilisez les commandes suivantes :
+La commande **pwd** (afficher le répertoire de travail) affiche le répertoire de travail actuel dans la CLI. Il s’agit du répertoire où vous vous trouvez dans le système de fichiers. Cette commande aide à naviguer et à situer le répertoire courant par rapport aux autres. Par exemple, si vous êtes dans votre répertoire personnel et souhaitez accéder au répertoire des documents, utilisez les commandes suivantes :
 
 ```bash
 $ pwd
@@ -49,7 +49,7 @@ Dans l’exemple ci-dessus, la commande liste le contenu du répertoire personne
 
 ### Changer de répertoire
 
-La commande **cd** (change directory) change le répertoire de travail actuel dans la CLI. Elle permet de parcourir le système de fichiers et d’accéder à des fichiers situés ailleurs. Pour passer au répertoire des documents, utilisez la commande suivante :
+La commande **cd** (changer de répertoire) change le répertoire de travail actuel dans la CLI. Elle permet de parcourir le système de fichiers et d’accéder à des fichiers situés ailleurs. Pour passer au répertoire des documents, utilisez la commande suivante :
 
 ```bash
 $ cd documents
@@ -93,7 +93,7 @@ Dans l’exemple ci-dessus, la commande affiche le contenu de tous les fichiers 
 
 ### Rechercher avec des expressions régulières
 
-La commande **grep** (global regular expression print) recherche des chaînes ou des motifs dans un fichier ou un ensemble de fichiers depuis la CLI. Elle permet de repérer des motifs dans des journaux ou de trouver des informations précises dans des fichiers de configuration. Pour rechercher chaque occurrence du mot "error" dans un fichier nommé "logfile.txt", utilisez la commande suivante :
+La commande **grep** (afficher les expressions régulières globales) recherche des chaînes ou des motifs dans un fichier ou un ensemble de fichiers depuis la CLI. Elle permet de repérer des motifs dans des journaux ou de trouver des informations précises dans des fichiers de configuration. Pour rechercher chaque occurrence du mot "error" dans un fichier nommé "logfile.txt", utilisez la commande suivante :
 
 ```bash
 $ grep "error" logfile.txt
@@ -109,7 +109,7 @@ Dans l’exemple ci-dessus, la commande recherche dans "logfile.txt" les lignes 
 
 ### Modifier les permissions
 
-La commande **chmod** (change mode) modifie les permissions d’un fichier ou d’un répertoire depuis la CLI. Elle est essentielle pour protéger les fichiers et les répertoires et contrôler qui peut y accéder. Trois chiffres représentent respectivement les permissions du propriétaire, du groupe et des autres utilisateurs. Leur valeur suit la formule suivante :
+La commande **chmod** (changer le mode) modifie les permissions d’un fichier ou d’un répertoire depuis la CLI. Elle est essentielle pour protéger les fichiers et les répertoires et contrôler qui peut y accéder. Trois chiffres représentent respectivement les permissions du propriétaire, du groupe et des autres utilisateurs. Leur valeur suit la formule suivante :
 
 ```
 4 = lire

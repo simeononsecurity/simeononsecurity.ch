@@ -1,7 +1,7 @@
 ---
 title: "Guia para iniciantes: usando a linha de comando do Linux em segurança cibernética"
 date: 2023-03-13
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Aprenda a usar a linha de comando do Linux em segurança cibernética com comandos básicos e avançados."
@@ -17,7 +17,7 @@ coverCaption: ""
 
 ### Exibir o diretório atual
 
-O comando **pwd** (print working directory) exibe o diretório de trabalho atual na CLI. Esse é o diretório em que você está no sistema de arquivos. O comando ajuda na navegação e a entender sua localização em relação a outros diretórios. Por exemplo, se você está no diretório pessoal e quer abrir o diretório de documentos, use estes comandos:
+O comando **pwd** (exibir o diretório de trabalho atual) exibe o diretório de trabalho atual na CLI. Esse é o diretório em que você está no sistema de arquivos. O comando ajuda na navegação e a entender sua localização em relação a outros diretórios. Por exemplo, se você está no diretório pessoal e quer abrir o diretório de documentos, use estes comandos:
 
 ```bash
 $ pwd
@@ -49,7 +49,7 @@ No exemplo acima, o comando lista o conteúdo do diretório pessoal, incluindo s
 
 ### Mudar de diretório
 
-O comando **cd** (change directory) muda o diretório de trabalho atual na CLI. Ele permite navegar pelo sistema de arquivos e acessar arquivos em outros locais. Para mudar para o diretório de documentos, use:
+O comando **cd** (mudar de diretório) muda o diretório de trabalho atual na CLI. Ele permite navegar pelo sistema de arquivos e acessar arquivos em outros locais. Para mudar para o diretório de documentos, use:
 
 ```bash
 $ cd documents
@@ -93,7 +93,7 @@ No exemplo acima, o comando exibe o conteúdo de todos os arquivos com extensão
 
 ### Busca com expressões regulares
 
-O comando **grep** (global regular expression print) busca strings ou padrões específicos em um arquivo ou conjunto de arquivos pela CLI. Ele ajuda a encontrar padrões em logs ou informações específicas em arquivos de configuração. Para buscar todas as ocorrências da palavra "error" em um arquivo chamado "logfile.txt", use:
+O comando **grep** (imprimir expressões regulares globais) busca strings ou padrões específicos em um arquivo ou conjunto de arquivos pela CLI. Ele ajuda a encontrar padrões em logs ou informações específicas em arquivos de configuração. Para buscar todas as ocorrências da palavra "error" em um arquivo chamado "logfile.txt", use:
 
 ```bash
 $ grep "error" logfile.txt
@@ -109,7 +109,7 @@ No exemplo acima, o comando busca em "logfile.txt" linhas com uma palavra que co
 
 ### Alterar permissões
 
-O comando **chmod** (change mode) altera as permissões de um arquivo ou diretório na CLI. Ele é essencial para proteger arquivos e diretórios e controlar quem pode acessá-los. Três dígitos representam as permissões do proprietário, do grupo e dos demais usuários. Os valores seguem esta fórmula:
+O comando **chmod** (alterar o modo) altera as permissões de um arquivo ou diretório na CLI. Ele é essencial para proteger arquivos e diretórios e controlar quem pode acessá-los. Três dígitos representam as permissões do proprietário, do grupo e dos demais usuários. Os valores seguem esta fórmula:
 
 ```
 4 = ler

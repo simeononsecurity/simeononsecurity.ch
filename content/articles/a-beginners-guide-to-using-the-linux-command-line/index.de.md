@@ -1,7 +1,7 @@
 ---
 title: "Einsteigerleitfaden: Linux-Kommandozeile für die Cybersicherheit"
 date: 2023-03-13
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Lernen Sie grundlegende und fortgeschrittene Linux-Befehle für die Cybersicherheit kennen."
@@ -17,7 +17,7 @@ coverCaption: ""
 
 ### Arbeitsverzeichnis anzeigen
 
-Der Befehl **pwd** (print working directory) zeigt das aktuelle Arbeitsverzeichnis in der CLI an. Das ist das Verzeichnis, in dem Sie sich gerade im Dateisystem befinden. Der Befehl hilft bei der Navigation und zeigt Ihren Standort im Verhältnis zu anderen Verzeichnissen. Wenn Sie sich beispielsweise im Home-Verzeichnis befinden und zum Dokumentenverzeichnis wechseln möchten, verwenden Sie diese Befehle:
+Der Befehl **pwd** (aktuelles Arbeitsverzeichnis anzeigen) zeigt das aktuelle Arbeitsverzeichnis in der CLI an. Das ist das Verzeichnis, in dem Sie sich gerade im Dateisystem befinden. Der Befehl hilft bei der Navigation und zeigt Ihren Standort im Verhältnis zu anderen Verzeichnissen. Wenn Sie sich beispielsweise im Home-Verzeichnis befinden und zum Dokumentenverzeichnis wechseln möchten, verwenden Sie diese Befehle:
 
 ```bash
 $ pwd
@@ -49,7 +49,7 @@ Im obigen Beispiel listet der Befehl den Inhalt des Home-Verzeichnisses auf, dar
 
 ### Verzeichnis wechseln
 
-Der Befehl **cd** (change directory) wechselt das aktuelle Arbeitsverzeichnis in der CLI. Damit navigieren Sie durch das Dateisystem und greifen auf Dateien an anderen Speicherorten zu. Um zum Dokumentenverzeichnis zu wechseln, verwenden Sie diesen Befehl:
+Der Befehl **cd** (Verzeichnis wechseln) wechselt das aktuelle Arbeitsverzeichnis in der CLI. Damit navigieren Sie durch das Dateisystem und greifen auf Dateien an anderen Speicherorten zu. Um zum Dokumentenverzeichnis zu wechseln, verwenden Sie diesen Befehl:
 
 ```bash
 $ cd documents
@@ -93,7 +93,7 @@ Im obigen Beispiel zeigt der Befehl den Inhalt aller Dateien mit der Erweiterung
 
 ### Mit regulären Ausdrücken suchen
 
-Der Befehl **grep** (global regular expression print) sucht in einer oder mehreren Dateien nach bestimmten Zeichenfolgen oder Mustern. Er hilft beim Erkennen von Mustern in Protokollen oder beim Suchen nach Informationen in Konfigurationsdateien. Um alle Vorkommen des Worts "error" in "logfile.txt" zu suchen, verwenden Sie diesen Befehl:
+Der Befehl **grep** (globale reguläre Ausdrücke ausgeben) sucht in einer oder mehreren Dateien nach bestimmten Zeichenfolgen oder Mustern. Er hilft beim Erkennen von Mustern in Protokollen oder beim Suchen nach Informationen in Konfigurationsdateien. Um alle Vorkommen des Worts "error" in "logfile.txt" zu suchen, verwenden Sie diesen Befehl:
 
 ```bash
 $ grep "error" logfile.txt
@@ -109,7 +109,7 @@ Im obigen Beispiel sucht der Befehl in "logfile.txt" nach Zeilen mit einem Wort,
 
 ### Berechtigungen ändern
 
-Der Befehl **chmod** (change mode) ändert die Berechtigungen einer Datei oder eines Verzeichnisses in der CLI. Er ist wichtig, um Dateien und Verzeichnisse zu schützen und den Zugriff darauf zu kontrollieren. Drei Ziffern stehen für die Berechtigungen des Eigentümers, der Gruppe und der anderen Benutzer. Sie werden nach folgender Formel berechnet:
+Der Befehl **chmod** (Berechtigungsmodus ändern) ändert die Berechtigungen einer Datei oder eines Verzeichnisses in der CLI. Er ist wichtig, um Dateien und Verzeichnisse zu schützen und den Zugriff darauf zu kontrollieren. Drei Ziffern stehen für die Berechtigungen des Eigentümers, der Gruppe und der anderen Benutzer. Sie werden nach folgender Formel berechnet:
 
 ```
 4 = Lesen

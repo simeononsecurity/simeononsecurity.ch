@@ -1,7 +1,7 @@
 ---
 title: "Guida per principianti: Uso della riga di comando di Linux per la sicurezza informatica"
 date: 2023-03-13
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Imparate a utilizzare la riga di comando di Linux per la sicurezza informatica con comandi di base e avanzati."
@@ -17,7 +17,7 @@ coverCaption: ""
 
 ### Stampa la cartella di lavoro
 
-Il comando **pwd** (print working directory) serve a visualizzare la directory di lavoro corrente nella CLI. La directory di lavoro è la directory in cui ci si trova attualmente nel file system. Il comando è utile per navigare nel file system e capire la propria posizione rispetto ad altre directory. Ad esempio, se ci si trova nella directory home e si desidera navigare nella directory documenti, si possono usare i seguenti comandi:
+Il comando **pwd** (visualizza la directory di lavoro) serve a visualizzare la directory di lavoro corrente nella CLI. La directory di lavoro è la directory in cui ci si trova attualmente nel file system. Il comando è utile per navigare nel file system e capire la propria posizione rispetto ad altre directory. Ad esempio, se ci si trova nella directory home e si desidera navigare nella directory documenti, si possono usare i seguenti comandi:
 
 ```bash
 $ pwd
@@ -49,7 +49,7 @@ Nell'esempio precedente, il comando elenca il contenuto della directory home, ch
 
 ### Cambia cartella
 
-Il comando **cd** (change directory) viene utilizzato per cambiare la directory di lavoro corrente nella CLI. Il comando consente di navigare nel file system e di accedere ai file in posizioni diverse. Ad esempio, se si desidera cambiare la directory di lavoro corrente in quella dei documenti, si può usare il seguente comando:
+Il comando **cd** (cambia directory) viene utilizzato per cambiare la directory di lavoro corrente nella CLI. Il comando consente di navigare nel file system e di accedere ai file in posizioni diverse. Ad esempio, se si desidera cambiare la directory di lavoro corrente in quella dei documenti, si può usare il seguente comando:
 
 ```bash
 $ cd documents
@@ -114,7 +114,7 @@ Nell'esempio precedente, il comando cerca tutte le righe che contengono una paro
 
 ### Cambia modalità
 
-Il comando **chmod** (change mode) viene utilizzato per modificare i permessi di un file o di una directory nella CLI. Questo comando è essenziale per proteggere i file e le directory e controllare chi vi ha accesso. I permessi sono rappresentati da tre cifre che corrispondono rispettivamente a proprietario, gruppo e altri. Le cifre sono calcolate in base alla seguente formula:
+Il comando **chmod** (cambia modalità) viene utilizzato per modificare i permessi di un file o di una directory nella CLI. Questo comando è essenziale per proteggere i file e le directory e controllare chi vi ha accesso. I permessi sono rappresentati da tre cifre che corrispondono rispettivamente a proprietario, gruppo e altri. Le cifre sono calcolate in base alla seguente formula:
 
 ```
 4 = lettura

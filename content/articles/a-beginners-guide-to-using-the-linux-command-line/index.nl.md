@@ -1,7 +1,7 @@
 ---
 title: "Handleiding voor beginners: Linux Command Line gebruiken voor cyberbeveiliging"
 date: 2023-03-13
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Leer hoe u de Linux-opdrachtregel kunt gebruiken voor cyberbeveiliging met basis- en geavanceerde commando's."
@@ -17,7 +17,7 @@ coverCaption: ""
 
 ### Werkmap afdrukken
 
-Het **pwd** (print working directory) commando wordt gebruikt om de huidige werkdirectory in de CLI weer te geven. De werkdirectory is de directory waar u zich momenteel bevindt in het bestandssysteem. Het commando is handig om door het bestandssysteem te navigeren en inzicht te krijgen in uw locatie ten opzichte van andere mappen. Als u zich bijvoorbeeld in de thuismap bevindt en u wilt naar de documentenmap navigeren, kunt u de volgende commando's gebruiken:
+Het **pwd** (huidige werkdirectory weergeven) commando wordt gebruikt om de huidige werkdirectory in de CLI weer te geven. De werkdirectory is de directory waar u zich momenteel bevindt in het bestandssysteem. Het commando is handig om door het bestandssysteem te navigeren en inzicht te krijgen in uw locatie ten opzichte van andere mappen. Als u zich bijvoorbeeld in de thuismap bevindt en u wilt naar de documentenmap navigeren, kunt u de volgende commando's gebruiken:
 
 ```bash
 $ pwd
@@ -49,7 +49,7 @@ In het bovenstaande voorbeeld toont het commando de inhoud van de thuismap, die 
 
 ### Map wijzigen
 
-Het **cd** (change directory) commando wordt gebruikt om de huidige werkdirectory in de CLI te wijzigen. Met dit commando kunt u door het bestandssysteem navigeren en bestanden op verschillende locaties openen. Als u bijvoorbeeld de huidige werkdirectory wilt veranderen in de documenten-directory, kunt u het volgende commando gebruiken:
+Het **cd** (van directory veranderen) commando wordt gebruikt om de huidige werkdirectory in de CLI te wijzigen. Met dit commando kunt u door het bestandssysteem navigeren en bestanden op verschillende locaties openen. Als u bijvoorbeeld de huidige werkdirectory wilt veranderen in de documenten-directory, kunt u het volgende commando gebruiken:
 
 ```bash
 $ cd documents
@@ -97,7 +97,7 @@ In het bovenstaande voorbeeld toont het commando de inhoud van alle bestanden me
 
 ### Wereldwijde regelmatige expressie afdrukken
 
-Met de opdracht **grep** (global regular expression print) kunt u in de CLI zoeken naar specifieke tekenreeksen of patronen in een bestand of een reeks bestanden. Het commando is handig voor het identificeren van patronen in logbestanden of het zoeken naar specifieke informatie in configuratiebestanden. Als u bijvoorbeeld wilt zoeken naar alle voorkomens van het woord "error" in een bestand met de naam "logfile.txt", kunt u het volgende commando gebruiken:
+Met de opdracht **grep** (globale reguliere expressies afdrukken) kunt u in de CLI zoeken naar specifieke tekenreeksen of patronen in een bestand of een reeks bestanden. Het commando is handig voor het identificeren van patronen in logbestanden of het zoeken naar specifieke informatie in configuratiebestanden. Als u bijvoorbeeld wilt zoeken naar alle voorkomens van het woord "error" in een bestand met de naam "logfile.txt", kunt u het volgende commando gebruiken:
 
 ```bash
 $ grep "error" logfile.txt
@@ -114,7 +114,7 @@ In het bovenstaande voorbeeld zoekt de opdracht naar alle regels die een woord b
 
 ### Wijzig modus
 
-Het **chmod** (change mode) commando wordt gebruikt om de rechten van een bestand of map in de CLI te wijzigen. Het commando is essentieel voor het beveiligen van bestanden en mappen en het controleren wie er toegang toe heeft. Machtigingen worden weergegeven door drie cijfers die respectievelijk overeenkomen met de eigenaar, groep en anderen. De cijfers worden berekend op basis van de volgende formule:
+Het **chmod** (modus wijzigen) commando wordt gebruikt om de rechten van een bestand of map in de CLI te wijzigen. Het commando is essentieel voor het beveiligen van bestanden en mappen en het controleren wie er toegang toe heeft. Machtigingen worden weergegeven door drie cijfers die respectievelijk overeenkomen met de eigenaar, groep en anderen. De cijfers worden berekend op basis van de volgende formule:
 
 ```
 4 = lezen

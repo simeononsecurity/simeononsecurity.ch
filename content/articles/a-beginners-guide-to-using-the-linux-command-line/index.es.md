@@ -1,7 +1,7 @@
 ---
 title: "Guía para principiantes: Uso de la línea de comandos de Linux para la ciberseguridad"
 date: 2023-03-13
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Aprenda a utilizar la línea de comandos de Linux para la ciberseguridad con comandos básicos y avanzados."
@@ -17,7 +17,7 @@ coverCaption: ""
 
 ### Imprimir Directorio de Trabajo
 
-El comando **pwd** (print working directory) es usado para mostrar el directorio de trabajo actual en el CLI. El directorio de trabajo es el directorio donde se encuentra actualmente en el sistema de archivos. El comando es útil para navegar por el sistema de archivos y comprender su ubicación en relación con otros directorios. Por ejemplo, si se encuentra en el directorio principal y desea navegar al directorio de documentos, puede utilizar los siguientes comandos:
+El comando **pwd** (mostrar el directorio de trabajo actual) es usado para mostrar el directorio de trabajo actual en el CLI. El directorio de trabajo es el directorio donde se encuentra actualmente en el sistema de archivos. El comando es útil para navegar por el sistema de archivos y comprender su ubicación en relación con otros directorios. Por ejemplo, si se encuentra en el directorio principal y desea navegar al directorio de documentos, puede utilizar los siguientes comandos:
 
 ```bash
 $ pwd
@@ -114,7 +114,7 @@ En el ejemplo anterior, el comando busca todas las líneas que contengan una pal
 
 ### Cambiar modo
 
-El comando **chmod** (change mode) es usado para cambiar los permisos de un archivo o directorio en el CLI. El comando es esencial para asegurar archivos y directorios y controlar quién tiene acceso a ellos. Los permisos están representados por tres dígitos que corresponden al propietario, grupo y otros, respectivamente. Los dígitos se calculan en base a la siguiente fórmula:
+El comando **chmod** (cambiar el modo) es usado para cambiar los permisos de un archivo o directorio en el CLI. El comando es esencial para asegurar archivos y directorios y controlar quién tiene acceso a ellos. Los permisos están representados por tres dígitos que corresponden al propietario, grupo y otros, respectivamente. Los dígitos se calculan en base a la siguiente fórmula:
 
 ```
 4 = leer

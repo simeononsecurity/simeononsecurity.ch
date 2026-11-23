@@ -1,7 +1,7 @@
 ---
 title: "Przewodnik dla początkujących: Korzystanie z wiersza poleceń Linux dla cyberbezpieczeństwa"
 date: 2023-03-13
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Dowiedz się, jak korzystać z wiersza poleceń systemu Linux w celu zapewnienia cyberbezpieczeństwa za pomocą podstawowych i zaawansowanych poleceń."
@@ -17,7 +17,7 @@ coverCaption: ""
 
 ### Drukuj katalog roboczy
 
-Polecenie **pwd** (print working directory) służy do wyświetlania bieżącego katalogu roboczego w CLI. Katalog roboczy to katalog, w którym aktualnie znajduje się użytkownik w systemie plików. Polecenie jest przydatne do poruszania się po systemie plików i zrozumienia swojej lokalizacji w stosunku do innych katalogów. Na przykład, jeśli znajdujesz się w katalogu domowym i chcesz przejść do katalogu dokumentów, możesz użyć następujących poleceń:
+Polecenie **pwd** (wyświetl bieżący katalog roboczy) służy do wyświetlania bieżącego katalogu roboczego w CLI. Katalog roboczy to katalog, w którym aktualnie znajduje się użytkownik w systemie plików. Polecenie jest przydatne do poruszania się po systemie plików i zrozumienia swojej lokalizacji w stosunku do innych katalogów. Na przykład, jeśli znajdujesz się w katalogu domowym i chcesz przejść do katalogu dokumentów, możesz użyć następujących poleceń:
 
 ```bash
 $ pwd
@@ -49,7 +49,7 @@ W powyższym przykładzie polecenie wyświetla zawartość katalogu domowego, kt
 
 ### Zmień katalog
 
-Polecenie **cd** (change directory) służy do zmiany bieżącego katalogu roboczego w CLI. Polecenie to umożliwia nawigację po systemie plików i dostęp do plików w różnych lokalizacjach. Na przykład, jeśli chcesz zmienić bieżący katalog roboczy na katalog dokumentów, możesz użyć następującego polecenia:
+Polecenie **cd** (zmień katalog) służy do zmiany bieżącego katalogu roboczego w CLI. Polecenie to umożliwia nawigację po systemie plików i dostęp do plików w różnych lokalizacjach. Na przykład, jeśli chcesz zmienić bieżący katalog roboczy na katalog dokumentów, możesz użyć następującego polecenia:
 
 ```bash
 $ cd documents
@@ -97,7 +97,7 @@ W powyższym przykładzie polecenie wyświetla zawartość wszystkich plików z 
 
 ### Wyszukiwanie wyrażeń regularnych w tekście
 
-Polecenie **grep** (global regular expression print) służy do wyszukiwania określonych ciągów lub wzorców w pliku lub zestawie plików w CLI. Polecenie to jest przydatne do identyfikowania wzorców w plikach dziennika lub wyszukiwania określonych informacji w plikach konfiguracyjnych. Na przykład, jeśli chcesz wyszukać wszystkie wystąpienia słowa "error" w pliku o nazwie "logfile.txt", możesz użyć następującego polecenia:
+Polecenie **grep** (wyświetl globalne wyrażenia regularne) służy do wyszukiwania określonych ciągów lub wzorców w pliku lub zestawie plików w CLI. Polecenie to jest przydatne do identyfikowania wzorców w plikach dziennika lub wyszukiwania określonych informacji w plikach konfiguracyjnych. Na przykład, jeśli chcesz wyszukać wszystkie wystąpienia słowa "error" w pliku o nazwie "logfile.txt", możesz użyć następującego polecenia:
 
 ```bash
 $ grep "error" logfile.txt
@@ -114,7 +114,7 @@ W powyższym przykładzie polecenie wyszukuje wszystkie wiersze zawierające sł
 
 ### Zmień tryb
 
-Polecenie **chmod** (change mode) służy do zmiany uprawnień pliku lub katalogu w CLI. Polecenie to jest niezbędne do zabezpieczenia plików i katalogów oraz kontrolowania, kto ma do nich dostęp. Uprawnienia są reprezentowane przez trzy cyfry, które odpowiadają odpowiednio właścicielowi, grupie i innym. Cyfry są obliczane na podstawie następującego wzoru:
+Polecenie **chmod** (zmień tryb) służy do zmiany uprawnień pliku lub katalogu w CLI. Polecenie to jest niezbędne do zabezpieczenia plików i katalogów oraz kontrolowania, kto ma do nich dostęp. Uprawnienia są reprezentowane przez trzy cyfry, które odpowiadają odpowiednio właścicielowi, grupie i innym. Cyfry są obliczane na podstawie następującego wzoru:
 
 ```
 4 = odczyt

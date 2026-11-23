@@ -1,7 +1,7 @@
 ---
 title: "Ghid pentru începători: Utilizarea liniei de comandă Linux pentru securitatea cibernetică"
 date: 2023-03-13
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Învățați cum să utilizați linia de comandă Linux pentru securitatea cibernetică cu comenzi de bază și avansate."
@@ -17,7 +17,7 @@ coverCaption: ""
 
 ### Afișarea directorului de lucru
 
-Comanda **pwd** (print working directory) este utilizată pentru a afișa directorul de lucru curent în CLI. Directorul de lucru este directorul în care vă aflați în prezent în sistemul de fișiere. Comanda este utilă pentru a naviga prin sistemul de fișiere și pentru a înțelege locația dumneavoastră în raport cu alte directoare. De exemplu, dacă vă aflați în directorul home și doriți să navigați în directorul documents, puteți utiliza următoarele comenzi:
+Comanda **pwd** (afișează directorul de lucru curent) este utilizată pentru a afișa directorul de lucru curent în CLI. Directorul de lucru este directorul în care vă aflați în prezent în sistemul de fișiere. Comanda este utilă pentru a naviga prin sistemul de fișiere și pentru a înțelege locația dumneavoastră în raport cu alte directoare. De exemplu, dacă vă aflați în directorul home și doriți să navigați în directorul documents, puteți utiliza următoarele comenzi:
 
 ```bash
 $ pwd
@@ -49,7 +49,7 @@ Desktop Documents Downloads Music Pictures Public Templates Videos
 
 ### Schimbarea directorului
 
-Comanda **cd** (change directory) este utilizată pentru a schimba directorul de lucru curent în CLI. Comanda vă permite să navigați prin sistemul de fișiere și să accesați fișiere din diferite locații. De exemplu, dacă doriți să schimbați directorul de lucru curent în directorul documents, puteți utiliza următoarea comandă:
+Comanda **cd** (schimbă directorul) este utilizată pentru a schimba directorul de lucru curent în CLI. Comanda vă permite să navigați prin sistemul de fișiere și să accesați fișiere din diferite locații. De exemplu, dacă doriți să schimbați directorul de lucru curent în directorul documents, puteți utiliza următoarea comandă:
 
 ```bash
 $ cd documents
@@ -97,7 +97,7 @@ $ cat *.txt
 
 ### Căutarea expresiilor regulate în text
 
-Comanda **grep** (global regular expression print) este utilizată pentru a căuta șiruri de caractere sau modele specifice într-un fișier sau într-un set de fișiere în CLI. Comanda este utilă pentru identificarea tiparelor în fișierele jurnal sau pentru căutarea unor informații specifice în fișierele de configurare. De exemplu, dacă doriți să căutați toate aparițiile cuvântului "error" într-un fișier numit "logfile.txt", puteți utiliza următoarea comandă:
+Comanda **grep** (afișează expresii regulate globale) este utilizată pentru a căuta șiruri de caractere sau modele specifice într-un fișier sau într-un set de fișiere în CLI. Comanda este utilă pentru identificarea tiparelor în fișierele jurnal sau pentru căutarea unor informații specifice în fișierele de configurare. De exemplu, dacă doriți să căutați toate aparițiile cuvântului "error" într-un fișier numit "logfile.txt", puteți utiliza următoarea comandă:
 
 ```bash
 $ grep "error" logfile.txt
@@ -114,7 +114,7 @@ $ grep "p.*y" logfile.txt
 
 ### Schimbarea permisiunilor
 
-Comanda **chmod** (change mode) este utilizată pentru a modifica permisiunile unui fișier sau director în CLI. Comanda este esențială pentru securizarea fișierelor și directoarelor și pentru a controla cine are acces la ele. Permisiunile sunt reprezentate de trei cifre care corespund proprietarului, grupului și, respectiv, altora. Cifrele sunt calculate pe baza următoarei formule:
+Comanda **chmod** (schimbă modul) este utilizată pentru a modifica permisiunile unui fișier sau director în CLI. Comanda este esențială pentru securizarea fișierelor și directoarelor și pentru a controla cine are acces la ele. Permisiunile sunt reprezentate de trei cifre care corespund proprietarului, grupului și, respectiv, altora. Cifrele sunt calculate pe baza următoarei formule:
 
 ```
 4 = citire

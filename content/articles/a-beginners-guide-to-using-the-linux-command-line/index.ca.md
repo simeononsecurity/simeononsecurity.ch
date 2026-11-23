@@ -1,7 +1,7 @@
 ---
 title: "Guia per a principiants: utilitzar la línia d’ordres de Linux en ciberseguretat"
 date: 2023-03-13
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Aprèn a utilitzar la línia d’ordres de Linux en ciberseguretat amb ordres bàsiques i avançades."
@@ -17,7 +17,7 @@ coverCaption: ""
 
 ### Mostrar el directori de treball
 
-L’ordre **pwd** (print working directory) mostra el directori de treball actual a la CLI. És el directori on et trobes dins del sistema de fitxers. L’ordre ajuda a navegar pel sistema i a saber on ets respecte dels altres directoris. Per exemple, si ets al directori personal i vols anar al directori de documents, fes servir aquestes ordres:
+L’ordre **pwd** (mostra el directori de treball) mostra el directori de treball actual a la CLI. És el directori on et trobes dins del sistema de fitxers. L’ordre ajuda a navegar pel sistema i a saber on ets respecte dels altres directoris. Per exemple, si ets al directori personal i vols anar al directori de documents, fes servir aquestes ordres:
 
 ```bash
 $ pwd
@@ -49,7 +49,7 @@ A l’exemple anterior, l’ordre llista el contingut del directori personal, qu
 
 ### Canviar de directori
 
-L’ordre **cd** (change directory) canvia el directori de treball actual a la CLI. Et permet recórrer el sistema de fitxers i accedir a fitxers d’altres ubicacions. Per passar al directori de documents, fes servir aquesta ordre:
+L’ordre **cd** (canvia de directori) canvia el directori de treball actual a la CLI. Et permet recórrer el sistema de fitxers i accedir a fitxers d’altres ubicacions. Per passar al directori de documents, fes servir aquesta ordre:
 
 ```bash
 $ cd documents
@@ -93,7 +93,7 @@ A l’exemple anterior, l’ordre mostra el contingut de tots els fitxers amb l�
 
 ### Cercar amb expressions regulars
 
-L’ordre **grep** (global regular expression print) cerca cadenes o patrons concrets en un fitxer o conjunt de fitxers des de la CLI. Serveix per trobar patrons als registres o informació concreta als fitxers de configuració. Per trobar totes les aparicions de la paraula "error" en un fitxer anomenat "logfile.txt", fes servir aquesta ordre:
+L’ordre **grep** (impressió d’expressions regulars globals) cerca cadenes o patrons concrets en un fitxer o conjunt de fitxers des de la CLI. Serveix per trobar patrons als registres o informació concreta als fitxers de configuració. Per trobar totes les aparicions de la paraula "error" en un fitxer anomenat "logfile.txt", fes servir aquesta ordre:
 
 ```bash
 $ grep "error" logfile.txt
@@ -109,7 +109,7 @@ A l’exemple anterior, l’ordre cerca a "logfile.txt" línies amb una paraula 
 
 ### Canviar els permisos
 
-L’ordre **chmod** (change mode) canvia els permisos d’un fitxer o directori des de la CLI. És essencial per protegir fitxers i directoris i controlar qui hi pot accedir. Tres dígits representen, respectivament, els permisos del propietari, del grup i de la resta d’usuaris. Els valors es calculen així:
+L’ordre **chmod** (canvia el mode) canvia els permisos d’un fitxer o directori des de la CLI. És essencial per protegir fitxers i directoris i controlar qui hi pot accedir. Tres dígits representen, respectivament, els permisos del propietari, del grup i de la resta d’usuaris. Els valors es calculen així:
 
 ```
 4 = llegir
