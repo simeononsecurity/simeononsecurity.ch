@@ -3,9 +3,9 @@ title: "Warum die Cybersicherheit von OT, ICS und PLC noch immer versagt"
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-14
+lastmod: 2026-11-22
 description: "Eine professionelle Einschätzung, warum OT-, ICS- und SPS-Cybersicherheitsanleitungen mit dem tatsächlichen Problem nicht Schritt halten können. Die Systeme wurden nie für eine Absicherung ausgelegt. Compliance mit schriftlichen Standards ist nicht dasselbe wie Sicherheit."
-tags: ["OT-Sicherheit", "ICS-Sicherheit", "SPS-Sicherheit", "IoT-Sicherheit", "industrielle Cybersicherheit", "SCADA-Sicherheit", "NIST 800-82", "IEC 62443", "NERC CIP", "Betriebstechnologie", "kritische Infrastruktur", "Analogsensoren", "Air Gap", "Legacy-Systeme", "Cybersicherheitsmeinung", "industrielle Steuerungssysteme", "SCADA", "Stuxnet", "Steuerungssystemsicherheit", "cyber-physische Sicherheit", "Lieferkettensicherheit", "OT-Lieferkette"]
+tags: ["OT-Sicherheit", "ICS-Sicherheit", "SPS-Sicherheit", "IoT-Sicherheit", "industrielle Cybersicherheit", "SCADA-Sicherheit", "NIST 800-82", "IEC 62443", "NERC CIP", "Betriebstechnologie", "kritische Infrastruktur", "Analogsensoren", "physische Netztrennung", "Legacy-Systeme", "Cybersicherheitsmeinung", "industrielle Steuerungssysteme", "SCADA", "Stuxnet", "Steuerungssystemsicherheit", "cyber-physische Sicherheit", "Lieferkettensicherheit", "OT-Lieferkette"]
 cover: "/img/cover/ot-ics-plc-cybersecurity-fundamentally-broken.webp"
 coverAlt: "Eine Illustration, die einen Kontrast zwischen einer alten speicherprogrammierbaren Steuerung (SPS) mit Analogfunktionen auf einer Seite und einer modernen cybersicherheitsfähigen Steuerung mit digitalen Schnittstellen auf der anderen zeigt, vor dunklem Hintergrund."
 coverCaption: ""
@@ -46,7 +46,7 @@ Kontrollen, die Risiken im richtigen Kontext reduzieren:
 - **Datendioden** erlauben Telemetrie nach außen, ohne eingehende Verbindungen zuzulassen
 - **Anwendungs-Whitelisting** auf HMI-Workstations beschränkt, was auf Rechnern mit Zugang zu Steuerungssystemen ausgeführt wird
 - **Passive Anomalie-Erkennungsplattformen** von Claroty, Dragos und Nozomi analysieren Datenverkehr ohne Steuerungspfad-Kommunikation zu berühren
-- **Netzwerksegmentierung** zwischen OT-Zonen verlangsamt laterale Bewegung, ohne vollständige Air Gaps zu erfordern
+- **Netzwerksegmentierung** zwischen OT-Zonen verlangsamt laterale Bewegung, ohne vollständige physische Netztrennung zu erfordern
 - **Zero-Trust-Prinzipien**, auf die NIST SP 800-82 Rev 3 verweist, fügen einigen modernen OT-Architekturen Pro-Session-Verifizierungsanforderungen hinzu
 
 *Keine davon löst die zugrundeliegenden Designbeschränkungen. Sie reduzieren Risiken an den Rändern von Systemen, die nie dafür gebaut wurden.*
@@ -84,7 +84,7 @@ OT-Lieferketten-Risiken umfassen:
 - **Wartungsunternehmer**, die Laptops und USB-Sticks in betrieblich isolierte Umgebungen einbringen
 - **Signierter Firmware-Update-Support**, den die meisten älteren Plattformen nicht haben
 
-*Wenn Sie intern einen Air Gap haben, Ihr Gerätehersteller aber ein dauerhaftes Remote-Access-Portal in Ihr Ingenieursnetzwerk aufrechterhält, haben Sie keinen Air Gap. Sie haben eine Lücke mit einer Tür darin, die jemand anderes kontrolliert.*
+*Wenn Sie intern eine physische Netztrennung haben, Ihr Gerätehersteller aber ein dauerhaftes Remote-Access-Portal in Ihr Ingenieursnetzwerk aufrechterhält, haben Sie keine physische Netztrennung. Sie haben eine Lücke mit einer Tür darin, die jemand anderes kontrolliert.*
 
 ## Legacy-Systeme zu härten kostet mehr als es sollte
 
@@ -116,7 +116,7 @@ NIST SP 800-82 Rev 3, IEC 62443 und NERC CIP beschreiben die richtigen Kontrolle
 
 Die Lücke zwischen dem, was die Standards beschreiben, und was ein bestimmtes Legacy-Deployment erreichen kann, ist kein Dokumentationsfehler. Die Systeme unterstützen die Kontrollen nicht. Die Anleitung erkennt das an. **Ein konformes Audit-Ergebnis bei Legacy-OT zu erreichen bedeutet nicht, dass die Umgebung sicher ist.** Es bedeutet, dass Sie dokumentiert haben, welche kompensierenden Kontrollen vorhanden sind, und ein Prüfer hat sie akzeptiert.
 
-**Wenn jemand Ihnen sagt, dass das Erfüllen von Compliance-Anforderungen Ihre OT-Umgebung sicher macht, sagen sie etwas, das die Rahmenwerke, auf die sie sich beziehen, nicht unterstützen.**
+NISTs Risikomanagementrahmen macht deutlich, dass nach Anwendung der Kontrollen ein Restrisiko bleibt. Die Akzeptanz des Risikos ist neben Risikotransfer, Risikominderung und Risikovermeidung eines der vier Ergebnisse des Rahmens. *Die Anerkennung des Restrisikos ist in den offiziellen Leitlinien fest verankert.* **Wenn jemand Ihnen sagt, dass das Erfüllen von Compliance-Anforderungen Ihre OT-Umgebung sicher macht, behauptet diese Person etwas, das die zitierten Rahmenwerke nicht stützen.**
 
 ## Was Sie mit Legacy-OT tun sollten
 
@@ -143,12 +143,12 @@ Die Industrie hat das Problem gut dokumentiert. Die Standards sind technisch gen
 
 - NIST SP 800-82 Rev 3: Guide to Operational Technology (OT) Security (2023)
 - IEC 62443: Industrial Automation and Control Systems Security series
-- IEC 62443-3-3: System security requirements and security levels
-- IEC 62443-4-2: Technical security requirements for IACS components
+- IEC 62443-3-3: Sicherheitsanforderungen und Sicherheitsstufen für Systeme
+- IEC 62443-4-2: Technische Sicherheitsanforderungen an IACS-Komponenten
 - IEC 61511: Functional Safety for Safety Instrumented Systems
 - NERC CIP: Standards zum Schutz kritischer Infrastrukturen im Stromverbund
 - IEC 61000: Electromagnetic Compatibility standards
-- CISA ICS-CERT Advisories and Best Practices
+- CISA ICS-CERT-Warnmeldungen und bewährte Verfahren
 - MITRE ATT&CK for ICS framework
 - Stuxnet technical analysis, Langner Communications, 2011
 - TRITON/TRISIS technical analysis, Dragos, 2017

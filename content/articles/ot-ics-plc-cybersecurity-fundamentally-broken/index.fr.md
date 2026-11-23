@@ -3,9 +3,9 @@ title: "Pourquoi la cybersécurité des OT, ICS et PLC reste défaillante"
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-14
+lastmod: 2026-11-22
 description: "Une opinion professionnelle sur pourquoi les orientations en cybersécurité OT, ICS et API ne peuvent pas suivre le problème réel. Ces systèmes n'ont jamais été conçus pour être sécurisés. La conformité aux normes écrites n'est pas la même chose que la sécurité."
-tags: ["sécurité OT", "sécurité ICS", "sécurité API", "sécurité IoT", "cybersécurité industrielle", "sécurité SCADA", "NIST 800-82", "IEC 62443", "NERC CIP", "technologie opérationnelle", "infrastructure critique", "capteurs analogiques", "air gap", "systèmes hérités", "opinion cybersécurité", "systèmes de contrôle industriel", "SCADA", "Stuxnet", "sécurité des systèmes de contrôle", "sécurité cyber-physique", "sécurité de la chaîne d'approvisionnement", "chaîne d'approvisionnement OT"]
+tags: ["sécurité OT", "sécurité ICS", "sécurité API", "sécurité IoT", "cybersécurité industrielle", "sécurité SCADA", "NIST 800-82", "IEC 62443", "NERC CIP", "technologie opérationnelle", "infrastructure critique", "capteurs analogiques", "isolation physique du réseau", "systèmes hérités", "opinion cybersécurité", "systèmes de contrôle industriel", "SCADA", "Stuxnet", "sécurité des systèmes de contrôle", "sécurité cyber-physique", "sécurité de la chaîne d'approvisionnement", "chaîne d'approvisionnement OT"]
 cover: "/img/cover/ot-ics-plc-cybersecurity-fundamentally-broken.webp"
 coverAlt: "Une illustration montrant un contraste entre un ancien automate programmable (API) avec des fonctionnalités analogiques d'un côté et un contrôleur moderne capable de cybersécurité avec des interfaces numériques de l'autre, sur fond sombre."
 coverCaption: ""
@@ -46,7 +46,7 @@ Contrôles qui réduisent le risque dans les bons contextes :
 - **Les diodes de données** permettent la télémétrie sortante sans autoriser les connexions entrantes
 - **La mise sur liste blanche des applications** sur les postes de travail IHM restreint ce qui s'exécute sur les machines ayant accès aux systèmes de contrôle
 - **Les plateformes de détection d'anomalies passives** de Claroty, Dragos et Nozomi analysent le trafic sans toucher aux communications du plan de contrôle
-- **La segmentation réseau** entre les zones OT ralentit le mouvement latéral sans exiger des air gaps complets
+- **La segmentation réseau** entre les zones OT ralentit le mouvement latéral sans exiger une isolation physique complète du réseau
 - **Les principes de confiance-zéro**, référencés dans NIST SP 800-82 Rev 3, ajoutent des exigences de vérification par session à certaines architectures OT modernes
 
 *Aucun de ces éléments ne résout les contraintes de conception sous-jacentes. Ils réduisent le risque aux marges de systèmes qui n'ont jamais été construits pour cela.*
@@ -84,7 +84,7 @@ Les risques de la chaîne d'approvisionnement OT comprennent :
 - **Les entreprises de maintenance** qui apportent des ordinateurs portables et des supports USB dans des environnements opérationnellement isolés
 - **Le support des mises à jour de firmware signé**, que la plupart des anciennes plateformes n'ont pas
 
-*Si votre air gap est intact en interne mais que votre fournisseur d'équipement maintient un portail d'accès à distance persistant dans votre réseau d'ingénierie, vous n'avez pas d'air gap. Vous avez un gap avec une porte dedans que quelqu'un d'autre contrôle.*
+*Si votre air gap est intact en interne mais que votre fournisseur d'équipement maintient un portail d'accès à distance persistant dans votre réseau d'ingénierie, vous n'avez pas d'isolation physique du réseau. Vous avez un gap avec une porte dedans que quelqu'un d'autre contrôle.*
 
 ## Renforcer les systèmes hérités coûte plus que prévu
 
@@ -116,7 +116,7 @@ NIST SP 800-82 Rev 3, IEC 62443 et NERC CIP décrivent les bons contrôles pour 
 
 L'écart entre ce que les normes décrivent et ce qu'un déploiement hérité donné peut atteindre n'est pas une erreur de documentation. Les systèmes ne supportent pas les contrôles. Les orientations le reconnaissent. **Atteindre un résultat d'audit conforme sur OT hérité ne signifie pas que l'environnement est sécurisé.** Cela signifie que vous avez documenté les contrôles compensatoires en place, et un auditeur les a acceptés.
 
-**Quand quelqu'un vous dit que répondre aux exigences de conformité rend votre environnement OT sécurisé, il dit quelque chose que les cadres auxquels il se réfère ne soutiennent pas.**
+Le cadre de gestion des risques du NIST indique clairement qu'un risque résiduel subsiste après l'application des contrôles. L'acceptation du risque est l'un des quatre résultats prévus par le cadre, avec le transfert, la réduction et l'évitement du risque. *La reconnaissance du risque résiduel fait partie intégrante des orientations officielles.* **Quand quelqu'un vous dit que répondre aux exigences de conformité rend votre environnement OT sécurisé, il affirme quelque chose que les cadres cités ne soutiennent pas.**
 
 ## Ce que vous devriez faire avec les OT hérités
 
@@ -143,12 +143,12 @@ L'industrie a bien documenté le problème. Les normes sont techniquement préci
 
 - NIST SP 800-82 Rev 3: Guide to Operational Technology (OT) Security (2023)
 - IEC 62443: Industrial Automation and Control Systems Security series
-- IEC 62443-3-3: System security requirements and security levels
-- IEC 62443-4-2: Technical security requirements for IACS components
+- IEC 62443-3-3 : exigences de sécurité des systèmes et niveaux de sécurité
+- IEC 62443-4-2 : exigences techniques de sécurité pour les composants IACS
 - IEC 61511: Functional Safety for Safety Instrumented Systems
 - NERC CIP : normes de protection des infrastructures critiques du réseau électrique interconnecté
 - IEC 61000: Electromagnetic Compatibility standards
-- CISA ICS-CERT Advisories and Best Practices
+- Avis et bonnes pratiques de CISA ICS-CERT
 - MITRE ATT&CK for ICS framework
 - Stuxnet technical analysis, Langner Communications, 2011
 - TRITON/TRISIS technical analysis, Dragos, 2017
