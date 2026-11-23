@@ -1,149 +1,257 @@
 ---
 title: "ESP32 WiFi Canary: detección pasiva de amenazas en 2,4 GHz"
 date: 2026-06-06
-lastmod: 2026-10-21
+lastmod: 2026-11-22
 toc: true
 draft: false
-description: "Un análisis detallado del proyecto ESP32 WiFi Canary - un sensor de concienciación 2,4 GHz compacto y pasivo para el M5Stack Atom Lite que vigila silenciosamente los AP Evil Twin, los ataques de desautenticación, las degradaciones de seguridad y las inundaciones de beacon con un modelo de amenazas de puntuación de confianza y un único LED RGB."
-genre: ["Seguridad de red", "Seguridad WiFi", "Seguridad IoT", "Investigación de seguridad", "Sistemas embebidos", "Herramientas de privacidad", "Proyectos ESP32", "Seguridad de hardware", "Seguridad inalámbrica", "Seguridad de código abierto"]
-tags: ["ESP32", "WiFi Canary", "M5Stack Atom Lite", "Detección Deauth", "Detección Evil Twin", "Seguridad WiFi", "Monitoreo WiFi pasivo", "Tramas de gestión 802.11", "Seguridad de red", "Seguridad IoT", "NeoPixel", "SK6812", "PlatformIO", "C++", "Código abierto", "Sensor de seguridad", "Detección de amenazas inalámbricas", "Monitoreo BSSID", "Monitoreo SSID", "Detección degradación seguridad", "Detección inundación beacon", "Monitoreo WiFi", "LED RGB", "Modo promiscuo", "Seguridad embebida", "Seguridad en viajes", "Seguridad WiFi hotel", "WiFi cafetería", "Concienciación sobre seguridad", "simeononsecurity"]
+description: "Análisis técnico de ESP32 WiFi Canary, un sensor pasivo de 2,4 GHz que detecta evil twins, desautenticación, degradaciones de seguridad e inundaciones de beacons."
+genre: ["Seguridad de redes", "Seguridad WiFi", "Seguridad IoT", "Investigación de seguridad", "Sistemas embebidos", "Herramientas de privacidad", "Proyectos ESP32", "Seguridad de hardware", "Seguridad inalámbrica", "Seguridad de código abierto"]
+tags: ["ESP32", "WiFi Canary", "M5Stack Atom Lite", "Detección de desautenticación", "Detección de evil twins", "Seguridad WiFi", "Supervisión pasiva de WiFi", "Tramas de gestión 802.11", "Seguridad de redes", "Seguridad IoT", "NeoPixel", "SK6812", "PlatformIO", "C++", "Código abierto", "Sensor de seguridad", "Detección de amenazas inalámbricas", "Supervisión de BSSID", "Supervisión de SSID", "Detección de degradación de seguridad", "Detección de inundación de beacons", "Supervisión WiFi", "LED RGB", "Modo promiscuo", "Seguridad embebida", "Seguridad en viajes", "Seguridad WiFi en hoteles", "WiFi en cafeterías", "Concienciación sobre seguridad", "simeononsecurity"]
 canonical: "https://simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/"
 cover: "/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp"
-coverAlt: "Una ilustración de un pequeño dispositivo similar al ESP32 WiFi Canary, conectado a un puerto USB, con un LED RGB que brilla en varios colores sobre un fondo oscuro, simbolizando sus capacidades de detección de amenazas."
+coverAlt: "Ilustración de un dispositivo pequeño parecido a ESP32 WiFi Canary conectado a un puerto USB. Su LED RGB brilla con varios colores para representar sus funciones de detección de amenazas."
 coverCaption: ""
 ---
 
-**Un sensor WiFi pasivo del tamaño de un pulgar que nunca responde**
+**Un sensor pasivo de amenazas WiFi del tamaño de un pulgar que nunca transmite**
 
-## Introducción: El problema con el WiFi público
+## El problema del WiFi público
 
-Cada vez que se conecta al WiFi de un hotel, un café o una red de aeropuerto, confía en que el punto de acceso frente a usted es el real. El problema es que las **tramas de gestión 802.11**, las mismas tramas que anuncian redes, gestionan conexiones y coordinan clientes, están *completamente sin autenticar en la mayoría de los despliegues*. Cualquiera con hardware modesto puede clonar un SSID, enviar tramas de desautenticación a los clientes o configurar un señuelo abierto junto a una red WPA2 legítima.
+Cada vez que te conectas al WiFi de un hotel, una cafetería o un aeropuerto, confías en que el punto de acceso sea legítimo. El problema es que las **tramas de gestión 802.11**, que anuncian redes, administran conexiones y coordinan clientes, *no están autenticadas en la mayoría de las implementaciones*. Con equipo sencillo, cualquiera puede clonar un SSID, enviar tramas de desautenticación o crear una red señuelo abierta junto a una WPA2 legítima.
 
-El [**ESP32 WiFi Canary**](https://github.com/simeononsecurity/esp32-wifi-canary) es un sensor de concienciación pasivo que aborda esta realidad con la huella más pequeña posible. Cabe en el M5Stack Atom Lite, un dispositivo aproximadamente del tamaño de un terrón de azúcar, se conecta a cualquier puerto USB, aprende el entorno circundante y enciende un LED RGB cuando detecta patrones consistentes con amenazas inalámbricas.
+[**ESP32 WiFi Canary**](https://github.com/simeononsecurity/esp32-wifi-canary) es un sensor pasivo que ayuda a reconocer ese riesgo con un dispositivo diminuto. Cabe en el M5Stack Atom Lite, aproximadamente del tamaño de un terrón de azúcar. Se conecta por USB, aprende el entorno y enciende un LED RGB al detectar patrones asociados con amenazas inalámbricas.
 
-No se conecta a nada. No captura credenciales. No transmite ni una sola trama. Observa, puntúa y le dice de qué color es la situación.
+No se conecta a redes, no captura credenciales y no transmite tramas. Observa, calcula una puntuación y comunica el estado mediante un color.
 
-Este artículo es una referencia técnica completa para el proyecto: qué detecta, cómo funciona el modelo de confianza, cómo construirlo y flashearlo, y cuáles son sus limitaciones en el mundo real.
+Este artículo es una referencia técnica completa del proyecto: qué detecta, cómo funciona el modelo de confianza, cómo compilarlo y grabarlo, y cuáles son sus limitaciones prácticas.
 
 ---
 
-## Qué hace el ESP32 WiFi Canary (y qué no hace)
+## Qué hace ESP32 WiFi Canary y qué no hace
 
-### Solo pasivo, siempre
+### Siempre funciona de forma pasiva
 
-El WiFi Canary opera en dos modos de radio, nunca simultáneamente:
+WiFi Canary utiliza dos modos de radio, nunca simultáneamente:
 
-1. **Modo promiscuo** - recibe e inspecciona tramas de gestión 802.11 (desauth, disassoc) sin asociarse con ninguna red
-2. **Modo escaneo** - realiza escaneos WiFi activos para enumerar los puntos de acceso cercanos y compararlos con una línea base aprendida
+1. **Modo promiscuo**: recibe e inspecciona tramas de gestión 802.11, como desautenticación y desasociación, sin asociarse a una red.
+2. **Modo de escaneo**: busca activamente puntos de acceso WiFi cercanos y los compara con una línea base aprendida.
 
 El dispositivo nunca:
-- Se asocia o conecta a ninguna red
-- Captura tramas de datos o credenciales
-- Transmite tramas 802.11 de ningún tipo
-- Almacena nada en flash persistente
-- Comunica por internet
+- se asocia ni se conecta a una red;
+- captura tramas de datos ni credenciales;
+- transmite tramas 802.11;
+- guarda datos en memoria flash persistente;
+- se comunica por Internet.
 
-**Todo lo que aprende se mantiene en RAM y se reinicia al reiniciar.** Este diseño es intencional: el canary es un **sensor**, no un dispositivo de captura.
+**Todo lo que aprende permanece en RAM y se borra al reiniciar.** Es intencional: el canario es un **sensor**, no un dispositivo de captura.
 
 ### El LED es la interfaz
 
-No hay pantalla, no hay aplicación, no hay interfaz web. La única salida del dispositivo es un único **SK6812 RGB NeoPixel** en GPIO 27 del M5Stack Atom Lite. El LED habla un lenguaje de cuatro estados:
+No hay pantalla, aplicación ni interfaz web. Toda la salida del dispositivo es un solo **NeoPixel RGB SK6812** conectado al GPIO 27 del M5Stack Atom Lite. El LED comunica cuatro estados:
 
 | Estado del LED | Significado |
-|---------------|-------------|
-| 🔵 Azul (pulso lento) | Inicio - construyendo referencia de línea base |
-| 🟢 Verde (sólido) | Normal - sin problemas de alta confianza |
-| 🟡 Amarillo (sólido) | Precaución - patrón sospechoso detectado |
-| 🔴 Rojo (pulso rápido) | Alerta - amenaza de mayor confianza detectada |
+|---|---|
+| 🔵 Azul (pulso lento) | Inicio, creación de la línea base |
+| 🟢 Verde (fijo) | Normal, sin problemas de alta confianza |
+| 🟡 Amarillo (fijo) | Precaución, patrón sospechoso detectado |
+| 🔴 Rojo (pulso rápido) | Alerta, amenaza de mayor confianza detectada |
 
-El inicio tarda aproximadamente **24 segundos** (3 escaneos × 8 segundos cada uno).
+El inicio tarda aproximadamente **24 segundos** (3 escaneos de 8 segundos). Cuando el LED deja el azul, ya existe una línea base y empieza la supervisión.
 
 ---
 
-## El proceso de aprendizaje de la línea base
+## Hardware
+
+### Objetivo principal: M5Stack Atom Lite
+
+El proyecto se diseñó para M5Stack Atom Lite, una plataforma de desarrollo ESP32 completa en una carcasa de 24 × 24 mm.
+
+| Componente | Detalle |
+|---|---|
+| MCU | ESP32-PICO-D4 |
+| LED | Un NeoPixel RGB SK6812 (GPIO 27) |
+| Botón | GPIO 39, activo en nivel bajo |
+| USB | Puente UART CP2104 |
+| Alimentación | USB-C, ~80–120 mA durante el escaneo |
+
+**No se necesita protoboard, componentes externos ni soldadura.** Conéctalo a una fuente USB y funcionará.
+
+### ESP32 DevKit genérico para desarrollo y pruebas
+
+El proyecto incluye un segundo entorno de compilación PlatformIO (`esp32dev`) para placas ESP32 estándar. En esta configuración:
+
+- se usa el LED integrado en GPIO 2 en lugar del NeoPixel;
+- se habilita toda la salida de depuración serie;
+- la lógica de detección funciona igual que en Atom Lite.
+
+Así, cualquier persona con un ESP32 DevKit de $5 puede usar el proyecto y probar la lógica de detección sin el hardware objetivo.
+
+---
+
+## Proceso de aprendizaje de la línea base
 
 ### Por qué importa una línea base
 
-Un canary que se active en cada red abierta de una ciudad sería inútil. El ESP32 WiFi Canary resuelve este problema aprendiendo su entorno antes de comenzar a puntuar amenazas.
+Un canario que se activa ante todas las redes abiertas de una ciudad sería inútil. ESP32 WiFi Canary aprende primero el entorno y luego puntúa las amenazas. La primera fase crea una **tabla de referencia** de puntos de acceso que existen legítimamente en la zona.
 
-### Tres escaneos, 24 segundos
+### Tres escaneos en 24 segundos
 
-Al inicio, el dispositivo realiza tres escaneos WiFi secuenciales. Después de completarlos todos, el conjunto aprendido de APs, SSID, BSSID, tipo de cifrado, intensidad de señal, se almacena como línea base.
+Al iniciarse, el dispositivo ejecuta tres escaneos WiFi consecutivos, separados por una pausa. Al terminar, guarda como línea base el conjunto aprendido de puntos de acceso: SSID, BSSID, tipo de cifrado y potencia de señal.
+
+La salida serie durante esta fase se ve así:
+
+```
+==============================================
+ Travel WiFi Canary v1.0
+ Passive 2.4 GHz awareness sensor
+==============================================
+[canary] setup done - starting baseline learning
+[canary] baseline scan start (aps=0 score=0)
+[canary] scan found 18 APs
+[canary] baseline scan 1/3
+[canary] baseline scan start (aps=18 score=0)
+[canary] scan found 18 APs
+[canary] baseline scan 2/3
+[canary] baseline scan start (aps=18 score=0)
+[canary] scan found 19 APs
+[canary] baseline complete: 19 APs learned
+  [00] MyHomeWifi                    aa:bb:cc:dd:ee:ff ch06 WPA2     -52 dBm
+  [01] XFINITY                       11:22:33:44:55:66 ch01 WPA2     -71 dBm
+  ...
+[canary] STARTUP → NORMAL  (score=0  "")
+```
+
+Cuando el LED cambia de azul a verde, el dispositivo ya funciona por completo.
 
 ---
 
-## Qué detecta: Categorías de amenazas
+## Qué detecta: categorías de amenazas
 
-El WiFi Canary monitorea cinco patrones de amenazas distintos.
+WiFi Canary supervisa seis patrones de amenaza. Cada uno suma puntos a una **puntuación de confianza** que determina el estado del LED. *Ningún indicador aislado se considera concluyente*: el modelo acumula señales que se corroboran antes de elevar la alerta.
 
-### 1. Ráfagas de desautenticación / desasociación
+### 1. Ráfagas de desautenticación y desasociación
 
-| Condición | Puntos añadidos |
-|-----------|----------------|
-| ≥ 8 tramas de una fuente en 5 s | +2 |
-| ≥ 20 tramas de una fuente en 5 s | +4 |
-| ≥ 5 tramas de desauth en broadcast | +1 |
+Las **tramas de gestión 802.11 con subtipos 10 (desasociación) y 12 (desautenticación)** son herramientas habituales de ataques WiFi. Cualquier dispositivo puede enviarlas, y los clientes que las reciben se desconectan de su punto de acceso.
 
-### 2. Clon abierto de una red cifrada conocida (Evil Twin)
+El canario cuenta estas tramas por MAC de origen durante una ventana móvil de **5 segundos** en **modo promiscuo**.
 
 | Condición | Puntos añadidos |
-|-----------|----------------|
-| Mismo SSID, estaba cifrado, ahora abierto | +3 |
+|---|---|
+| ≥ 8 tramas de un origen en 5 s | +2 |
+| ≥ 20 tramas de un origen en 5 s | +4 |
+| ≥ 5 tramas de desautenticación broadcast | +1 |
+
+**Los umbrales importan**: un cliente que cambia de punto de acceso genera unas pocas tramas legítimas. Las herramientas de ataque producen algo muy distinto: cientos de tramas por segundo sostenidas contra un objetivo. La ventana de 5 segundos y el mínimo de 8 tramas filtran el ruido normal de itinerancia y detectan ráfagas como las de `aireplay-ng`.
+
+### 2. Clon abierto de una red cifrada conocida (evil twin)
+
+**Es la detección de mayor confianza.** Un ataque evil twin suele:
+
+1. Crear una copia abierta, sin contraseña, de un SSID WPA2 conocido.
+2. Emitir una señal más fuerte que el punto de acceso real para que los clientes se conecten automáticamente.
+
+Tras aprender la línea base, si un nuevo escaneo encuentra un SSID que antes solo usaba WPA/WPA2/WPA3 y ahora aparece como **OPEN**:
+
+| Condición | Puntos añadidos |
+|---|---|
+| Mismo SSID, antes cifrado y ahora abierto | +3 |
 | BSSID no visto en la línea base | +1 |
-| Señal del clon ≥ 10 dB más fuerte que el AP conocido | +1 |
+| Señal del clon ≥ 10 dB más fuerte que el punto de acceso conocido | +1 |
 
-### 3. AP cifrado original desaparecido + Clon abierto presente
+Un clon abierto del WiFi del hotel que además sea 10 dB más fuerte que el punto de acceso real es un caso de libro. *Esta combinación alcanza 5 puntos (Precaución) en un solo ciclo de escaneo.*
+
+**Ejemplo serie**:
+
+```
+[canary] OPEN CLONE: SSID='MyHomeWifi' baseline=WPA2 clone=OPEN bssid=de:ad:be:ef:00:01 rssi=-48/-52
+[canary] score +4 → 4  "open clone of encrypted SSID 'MyHomeWifi'"
+[canary] NORMAL → CAUTION  (score=4  "open clone of encrypted SSID 'MyHomeWifi'")
+```
+
+### 3. Falta el punto de acceso cifrado original y hay un clon abierto
+
+Una variante más avanzada: el clon más potente hace que los clientes lo prefieran y, a la vez, expulsa de la red al punto de acceso legítimo mediante desautenticación.
 
 | Condición | Puntos añadidos |
-|-----------|----------------|
-| AP cifrado de línea base desaparecido + red abierta coincidente apareció | +3 |
+|---|---|
+| Desaparece el punto de acceso cifrado de la línea base y aparece una red abierta coincidente | +3 |
+
+Esto cubre casos en que el punto de acceso real sigue transmitiendo, pero pierde la competencia de señal, o sufre una interrupción activa.
 
 ### 4. Degradación de seguridad
 
+Se observa el mismo SSID que en la línea base, pero con un cifrado más débil que el registrado.
+
 | Condición | Puntos añadidos |
-|-----------|----------------|
+|---|---|
 | WPA3 → WPA2 | +1 |
 | WPA2 → WPA | +1 |
-| Caída de 2+ rangos de cifrado | +3 |
+| Descenso de 2 o más niveles de cifrado | +3 |
 
-### 5. SSID duplicado de proveedor inesperado
+*Las degradaciones a una red abierta se gestionan en la detección de evil twins, con puntuaciones mayores.* Esta categoría cubre degradaciones parciales que podrían pasar inadvertidas al comparar solo redes abiertas y cifradas.
+
+### 5. SSID duplicado de un proveedor inesperado
+
+El mismo SSID y el mismo tipo de seguridad de un punto de acceso de la línea base, pero con un BSSID de un **OUI de proveedor distinto** (los primeros 3 bytes de la dirección MAC).
 
 | Condición | Puntos añadidos |
-|-----------|----------------|
-| OUI diferente del AP de línea base con el mismo SSID | +1 |
+|---|---|
+| OUI distinto al del punto de acceso de la línea base con el mismo SSID | +1 |
 | El clon también es ≥ 10 dB más fuerte | +2 |
 
-### 6. Inundación de beacon / SSID
+*La puntuación es intencionalmente baja.* Las redes empresariales, los sistemas mesh y los puntos de acceso de proveedores de Internet suelen tener legítimamente varios BSSID del mismo SSID con distintos proveedores. Esta señal debe sumarse a otras evidencias, no activar una alerta por sí sola.
+
+### 6. Inundación de beacons o SSID
+
+Cuenta SSID nuevos, ausentes de la línea base, que aparecen durante una **ventana móvil de 30 segundos**.
 
 | Condición | Puntos añadidos |
-|-----------|----------------|
-| ≥ 15 nuevos SSID en 30 s | +2 |
-| ≥ 30 nuevos SSID en 30 s | +3 |
+|---|---|
+| ≥ 15 SSID nuevos en 30 s | +2 |
+| ≥ 30 SSID nuevos en 30 s | +3 |
+
+Los ataques de **inundación de beacons** difunden miles de SSID falsos para confundir las tablas de escaneo o impedir los beacons legítimos. Quince SSID desconocidos nuevos en 30 segundos es inusual en la mayoría de los entornos.
 
 ---
 
-## El modelo de puntuación de confianza
+## Modelo de puntuación de confianza
 
-Todas las señales detectadas alimentan una única **puntuación de amenaza** entera.
+Todas las señales detectadas se suman en una **puntuación de amenaza** entera, que controla el LED:
 
 | Rango de puntuación | Estado del LED |
-|---------------------|----------------|
+|---|---|
 | 0–2 | Normal (verde) |
 | 3–5 | Precaución (amarillo) |
 | 6+ | Alerta (rojo, pulso rápido) |
 
-### Decaimiento de puntuación
+### Degradación de la puntuación
 
-La puntuación **cae 1 punto cada 60 segundos** sin nuevos eventos de activación.
+La puntuación **baja un punto cada 60 segundos** si no aparecen nuevos eventos. Es una decisión de diseño importante:
+
+- Una ráfaga de desautenticación eleva la puntuación a Precaución. Si el ataque termina, vuelve a Normal por sí sola en unos minutos.
+- Un ataque sostenido mantiene el estado de Alerta mientras continúen los eventos.
+- El dispositivo se restablece sin intervención ni reinicio.
+
+Esto significa que:
+- **Las anomalías breves** (itinerancia o redes vecinas transitorias) se resuelven solas.
+- **Los ataques sostenidos** siguen señalados.
+- **No hay fatiga por alertas** ante eventos únicos que no se repiten.
+
+### Restablecimiento con el botón
+
+Al pulsar el botón GPIO 39 de Atom Lite se realizan dos acciones:
+
+1. Se vuelca la tabla completa de puntos de acceso al puerto serie, lo que permite auditar lo que ve el dispositivo.
+2. La puntuación vuelve a 0 y el LED regresa de inmediato al verde para observar limpio el siguiente escaneo.
 
 ---
 
-## Construcción y flasheo
+## Compilar y flashear
 
 ### Requisitos
 
 - **PlatformIO** (CLI o extensión de VS Code)
-- **M5Stack Atom Lite** (o cualquier ESP32 DevKit para pruebas)
+- **M5Stack Atom Lite** (o ESP32 DevKit para pruebas)
 - Cable USB-C
 
 ### Flashear en M5Stack Atom Lite
@@ -152,55 +260,200 @@ La puntuación **cae 1 punto cada 60 segundos** sin nuevos eventos de activació
 git clone https://github.com/simeononsecurity/esp32-wifi-canary.git
 cd esp32-wifi-canary
 
-# Construir y flashear
+# Compilar y flashear
 pio run -e atom-lite --target upload
 
-# Abrir monitor serie a 115200 baudios
+# Abrir el monitor serie a 115200 baudios
 pio device monitor -b 115200
 ```
 
-### Flashear en ESP32 DevKit genérico
+### Flashear en un ESP32 DevKit genérico
 
 ```bash
 pio run -e esp32dev --target upload
 ```
 
+La compilación DevKit usa GPIO 2 (LED integrado) y muestra el registro serie completo. No controla ningún NeoPixel. La lógica de detección es idéntica a la de Atom Lite.
+
+### Estructura del proyecto
+
+```
+esp32-wifi-canary/
+├── main.cpp              # Toda la lógica del firmware
+├── platformio.ini        # Entornos de compilación (atom-lite, esp32dev)
+├── partitions_4mb.csv    # Tabla de particiones de flash de 4 MB
+└── README.md
+```
+
+Todo el firmware está en **un único archivo fuente C++**. La lógica de detección no usa bibliotecas externas, solo el framework ESP32 Arduino para escaneos WiFi, callbacks en modo promiscuo y control del NeoPixel.
+
+### Entornos de platformio.ini
+
+```ini
+[env:atom-lite]
+platform = espressif32
+board = m5stick-c
+framework = arduino
+
+[env:esp32dev]
+platform = espressif32
+board = esp32dev
+framework = arduino
+```
+
+El entorno `atom-lite` usa la definición de placa `m5stick-c` (mismo chip ESP32-PICO-D4 y asignación de pines compatible con el NeoPixel en GPIO 27).
+
+---
+
+## Referencia de salida serie
+
+El dispositivo registra información detallada a **115200 baudios**. Todas las líneas empiezan por `[canary]` para filtrarlas fácilmente.
+
+### Secuencia de inicio
+
+```
+==============================================
+ Travel WiFi Canary v1.0
+ Passive 2.4 GHz awareness sensor
+==============================================
+[canary] setup done - starting baseline learning
+[canary] baseline scan start (aps=0 score=0)
+[canary] scan found 18 APs
+[canary] baseline scan 1/3
+...
+[canary] baseline complete: 19 APs learned
+  [00] MyHomeWifi                    aa:bb:cc:dd:ee:ff ch06 WPA2     -52 dBm
+  [01] XFINITY                       11:22:33:44:55:66 ch01 WPA2     -71 dBm
+[canary] STARTUP → NORMAL  (score=0  "")
+```
+
+### Eventos de detección
+
+```
+[canary] normal scan start (aps=19 score=0)
+[canary] scan found 21 APs
+[canary] OPEN CLONE: SSID='HotelWiFi' baseline=WPA2 clone=OPEN bssid=de:ad:be:ef:00:01 rssi=-48/-52
+[canary] score +4 → 4  "open clone of encrypted SSID 'HotelWiFi'"
+[canary] NORMAL → CAUTION  (score=4  "open clone of encrypted SSID 'HotelWiFi'")
+```
+
+### Cambios de puntuación
+
+```
+[canary] CAUTION → NORMAL  (score=2  "score decay")
+[canary] NORMAL → ALERT    (score=6  "sustained deauth burst + open clone")
+```
+
+El registro serie permite saber qué vio el dispositivo, cuándo y por qué cambió la puntuación. También sirve como **registro de auditoría pasivo** aunque no estés mirando el LED.
+
 ---
 
 ## Notas de detección y limitaciones prácticas
 
-### Qué puede causar falsos positivos
+El README explica con honestidad lo que este dispositivo no puede hacer. Conviene detallar esas limitaciones.
 
-**Las redes empresariales y de malla** son la mayor fuente de falsos positivos. Un gran despliegue empresarial, un hotel con muchos APs o un sistema de malla puede mostrar legítimamente múltiples BSSID para el mismo SSID con diferentes OUI de proveedores.
+### Causas de falsos positivos
 
-### Qué puede causar falsos negativos
+**Las redes empresariales y mesh** son la mayor fuente de falsos positivos. Una empresa grande, un hotel o una red mesh como Eero o Google WiFi puede mostrar legítimamente:
 
-**Un ataque Evil Twin bien elaborado** que suplanta el BSSID exacto del AP legítimo *puede no acumular suficiente puntuación para cruzar el umbral de Precaución*.
+- Varios BSSID para el mismo SSID con distintos OUI de proveedor (detección de proveedor).
+- Diferencias de configuración de seguridad entre bandas (detección de degradación).
+- Puntos de acceso que aparecen y desaparecen cuando la red mesh se ajusta.
+
+**Los routers Airbnb y SOHO** con varios SSID para distintas bandas también pueden activar discrepancias de OUI si las radios de 2,4 y 5 GHz usan bloques MAC consecutivos de proveedores distintos.
+
+*Cambios transitorios de redes vecinas*: una red cifrada que desaparece temporalmente del escaneo y vuelve con otros parámetros (actualización de firmware, reinicio o reconfiguración) puede activar una detección momentánea.
+
+La puntuación y su degradación están diseñadas para *reducir, no eliminar*, los falsos positivos.
+
+### Causas de falsos negativos
+
+Un **ataque evil twin bien diseñado** que:
+
+- Suplanta el BSSID exacto del punto de acceso legítimo para que coincida el OUI.
+- Usa el mismo tipo de seguridad, con una configuración IE WPA2 correcta.
+- Mantiene una señal a menos de 10 dB de la del punto de acceso real.
+
+*Puede no sumar suficientes puntos para llegar a Precaución.* La parte de desautenticación necesaria para apartar clientes del punto real sumaría puntos, pero un atacante sofisticado que reduzca las tramas podría quedar bajo el umbral.
+
+### Brecha al cambiar de radio
+
+**La radio ESP32 no puede estar en modo promiscuo y escanear activamente puntos de acceso al mismo tiempo.** El firmware alterna entre ambos modos. Por eso, **las tramas de desautenticación que lleguen durante los ~3 segundos del escaneo no se capturan**. Un atacante podría ajustar sus ráfagas a esos intervalos, aunque necesitaría conocer el calendario de escaneo.
+
+### Solo 2,4 GHz
+
+La radio ESP32 funciona en 2,4 GHz. **No escanea ni supervisa redes de 5 y 6 GHz.** No detectará evil twins que operen solo en 5 GHz.
+
+### Alcance pasivo
+
+La detección de desautenticación requiere que el dispositivo reciba las tramas. Un atacante lejano, con antena muy direccional o que ataque a un cliente lejos del canario, podría emitir señales demasiado débiles para activar los contadores.
 
 ---
 
 ## Casos de uso
 
-### Viajar con trabajo sensible
+### Viajes con trabajo sensible
 
-El canary está diseñado principalmente para viajes. Conéctelo al puerto USB de un portátil, a una toma USB de una habitación de hotel o a un banco de energía portátil, y déjelo aprender el entorno.
+El canario está pensado principalmente para viajar. Conéctalo al USB de un portátil, a una toma USB de hotel o a una batería portátil para aprender el entorno del hotel o centro de conferencias. Una aparición posterior de un clon abierto del SSID del hotel, el escenario más común, activará como mínimo Precaución.
 
 ### Cafeterías y WiFi público
 
-Los entornos de WiFi abierto son la superficie de ataque más común para las configuraciones Evil Twin.
+Los entornos WiFi abiertos son un objetivo frecuente para evil twins. La línea base permite aprender el punto de acceso legítimo al llegar y vigilar SSID rivales que aparezcan junto a él.
 
-### Concienciación sobre seguridad y formación
+### Concienciación y formación de seguridad
 
-La salida serie del dispositivo proporciona un registro detallado y legible por humanos.
+La salida serie ofrece un registro detallado y legible de lo que observa. En una formación, mostrar en tiempo real una ráfaga de desautenticación y el cambio de color del LED es mucho más efectivo que una presentación.
 
-### Monitoreo pasivo de laboratorio
+### Supervisión pasiva de laboratorio
 
-En un laboratorio casero o pequeña oficina, el canary puede servir como monitor ambiental persistente.
+En un laboratorio doméstico u oficina pequeña, el canario sirve como monitor ambiental permanente. El LED muestra el estado de un vistazo y el botón permite consultar la tabla de redes actual.
+
+---
+
+## Notas de arquitectura
+
+### Por qué usar una puntuación única en vez de alertas separadas
+
+El modelo suma señales distintas en un solo número, en lugar de presentar categorías separadas. Es una decisión deliberada de interfaz: el dispositivo usa un LED con tres estados. Las alertas independientes exigirían una pantalla o aplicación. *La puntuación convierte señales ruidosas y parcialmente correlacionadas en un indicador práctico.*
+
+### Por qué degradar la puntuación
+
+Sin degradación, un falso positivo aislado requeriría pulsar el botón. Con una reducción cada 60 segundos, las anomalías breves desaparecen en minutos. **Así, el canario funciona sin supervisión** en una mochila, habitación de hotel o coche y vuelve a su estado normal tras eventos transitorios.
+
+### Por qué hacer tres escaneos de línea base
+
+Un escaneo podría pasar por alto un punto de acceso que no transmitía en ese momento, por una pausa de escaneo o un corte temporal. *Tres escaneos en unos 24 segundos ofrecen una imagen más completa del entorno estable antes de iniciar la supervisión.*
+
+---
+
+## Contribuciones y estado del proyecto
+
+El proyecto está disponible en [github.com/simeononsecurity/esp32-wifi-canary](https://github.com/simeononsecurity/esp32-wifi-canary) con una licencia de uso pasivo. El código consta de un único `main.cpp`, fácil de leer, auditar y ampliar.
+
+Quienes usan PlatformIO y ESP32 pueden compilar el proyecto sin modificaciones para Atom Lite o DevKit estándar.
+
+---
+
+## Comparación con otros métodos de supervisión WiFi
+
+| Método | ¿Pasivo? | Sin credenciales | Una salida LED | Formato para viajar |
+|---|---|---|---|---|
+| ESP32 WiFi Canary | ✅ | ✅ | ✅ | ✅ |
+| Kismet (portátil) | ✅ | ✅ | ❌ (requiere pantalla) | ❌ (pesado) |
+| WiFi Pineapple | ❌ (activo) | ❌ | ❌ | Parcial |
+| IDS inalámbrico (empresa) | ✅ | ✅ | ❌ (requiere infraestructura) | ❌ |
+| Escaneo manual (aplicación móvil) | Parcial | ✅ | ❌ | ✅ |
+
+El canario ocupa un nicho específico: **supervisión ambiental permanente, sin interacción ni conexión de red**, en un formato que cabe en un llavero o bolso de portátil.
 
 ---
 
 ## Conclusión
 
-El ESP32 WiFi Canary es una herramienta de alcance estrecho que hace una cosa: observar el entorno de 2,4 GHz a su alrededor y cambiar de color cuando algo parece incorrecto. No intenta ser un sistema completo de detección de intrusos inalámbricos. Es un canario, un sensor pasivo cuyo trabajo es notar cuando la mina se vuelve peligrosa.
+ESP32 WiFi Canary hace una sola cosa: observa el entorno de 2,4 GHz y cambia de color cuando algo parece sospechoso. No es un sistema completo de detección de intrusiones inalámbricas, una herramienta de captura de paquetes ni un analizador forense. Es un canario: un sensor pasivo que avisa cuando el entorno se vuelve peligroso.
+
+El **modelo de puntuación de confianza**, la **degradación de la puntuación** y la **línea base de tres fases** afrontan el problema de falsos positivos de los sensores ambientales. El dispositivo puede funcionar sin supervisión en un hotel o centro de conferencias y señalar anomalías importantes sin reaccionar al ruido normal de la red.
+
+Para quien prepara un kit de seguridad portátil, trabaja con infraestructura WiFi no confiable o busca un proyecto ESP32 útil, WiFi Canary merece una tarde y un M5Stack Atom Lite de $15.
 
 **GitHub**: [github.com/simeononsecurity/esp32-wifi-canary](https://github.com/simeononsecurity/esp32-wifi-canary)
