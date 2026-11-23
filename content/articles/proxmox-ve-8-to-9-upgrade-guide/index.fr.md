@@ -1,12 +1,12 @@
 ---
 title: "Guide de mise à niveau Proxmox VE 8 vers 9 : mise à niveau sur place avec script automatisé"
 date: 2026-07-22
-lastmod: 2026-11-22
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "Guide complet pour mettre à niveau Proxmox VE 8 (Debian Bookworm) vers Proxmox VE 9 (Debian Trixie). Couvre les prérequis, la mise à niveau manuelle étape par étape, le script d'automatisation pve8to9-upgrade.sh, les changements majeurs et les problèmes connus."
-genre: ["Virtualisation", "Administration Linux", "Proxmox", "Gestion de serveurs", "Open Source", "Homelab"]
-tags: ["Proxmox VE 9", "mise à niveau Proxmox", "PVE 8 vers 9", "Debian Trixie", "Debian 13", "apt dist-upgrade", "pve8to9", "Proxmox Ceph", "proxmox-boot-tool", "grub-efi", "mise à niveau LVM", "mise à niveau ZFS", "NVIDIA vGPU", "cgroupv2", "automatisation Proxmox", "script bash de mise à niveau", "mise à niveau cluster Proxmox", "mise à niveau sur place", "pve8to9-upgrade.sh", "Proxmox VE 9.0"]
+genre: ["Virtualisation", "Administration Linux", "Virtualisation Proxmox", "Gestion de serveurs", "Logiciel libre", "Laboratoire à domicile"]
+tags: ["Proxmox VE version 9", "mise à niveau Proxmox", "PVE 8 vers 9", "Version Debian Trixie", "Debian version 13", "apt dist-upgrade", "pve8to9", "Ceph sur Proxmox", "proxmox-boot-tool", "grub-efi", "mise à niveau LVM", "mise à niveau ZFS", "NVIDIA vGPU", "cgroupv2", "automatisation Proxmox", "script bash de mise à niveau", "mise à niveau cluster Proxmox", "mise à niveau sur place", "pve8to9-upgrade.sh", "Proxmox VE version 9.0"]
 cover: "/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp"
 coverAlt: "Une salle de serveurs moderne avec des icônes lumineuses représentant des machines virtuelles sur des écrans. Un technicien travaille sur un ordinateur portable, entouré d'équipements bleu marine avec des accents bleus, verts et violets."
 coverCaption: "Mise à niveau de Proxmox VE 8 vers 9 : mise à niveau sur place étape par étape avec un script assistant automatisé."
@@ -40,6 +40,8 @@ Proxmox VE 9 (publié en août 2025) est une mise à niveau de version majeure. 
 - Équilibrage de charge dynamique avec le planificateur de ressources cluster (PVE 9.2)
 - WireGuard et BGP comme protocoles de fabric SDN (PVE 9.2)
 - `/tmp` est maintenant un `tmpfs` (changement Debian Trixie : fichiers nettoyés périodiquement)
+
+{{< figure src="proxmox-ve-8-to-9-component-changes.webp" alt="Schéma comparatif de Proxmox VE 8 et VE 9 montrant les changements de version du noyau, de QEMU, LXC, ZFS et Ceph" >}}
 
 ______
 
@@ -142,7 +144,7 @@ grep -v '^\s*#\|^\s*$' /etc/sysctl.conf
 
 Debian Trixie monte `/tmp` en tant que tmpfs (jusqu'à 50 % de la RAM). Les fichiers sont nettoyés périodiquement pendant que le système fonctionne. Si vous utilisez `/tmp` pour de grands fichiers temporaires, déplacez ce travail vers `/var/tmp` ou un point de montage dédié.
 
-### Compatibilité des sauvegardes et restaurations Veeam {#veeam-backup-défaillant-pour-la-version-machine-qemu--100}
+### Compatibilité des sauvegardes et restaurations Veeam {#veeam-backup-broken-for-qemu-machine-version--100}
 
 Avant la mise à niveau, vérifiez les [versions de Veeam Backup & Replication et du module pour Proxmox](https://helpcenter.veeam.com/docs/vbr/userguide/pve_system_requirements.html). Les exigences actuelles couvrent Proxmox VE 8.2 à 9.2 sur les hôtes x86-64 installés avec l’ISO officielle de Proxmox. Les anciennes versions de Veeam ont leurs propres plages de compatibilité.
 
@@ -160,7 +162,7 @@ ______
 
 ## Option A : mise à niveau manuelle sur place
 
-Suivez les étapes officielles de [pve.proxmox.com/wiki/Upgrade_from_8_to_9](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9).
+Suivez les étapes officielles du [guide de mise à niveau Proxmox VE](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9).
 
 ### Étape 1 : exécutez la liste de contrôle pve8to9
 
@@ -283,13 +285,13 @@ ______
 
 Le processus manuel comporte de nombreuses étapes conditionnelles qui varient selon la configuration. Le script `pve8to9-upgrade.sh` les automatise toutes.
 
-**Source du script :** [gist.github.com/simeononsecurity/ba3831f487c4e960f9e218c7da5c4b8d](https://gist.github.com/simeononsecurity/ba3831f487c4e960f9e218c7da5c4b8d)
+**Source du script :** [dépôt Gist du script](https://gist.github.com/simeononsecurity/ba3831f487c4e960f9e218c7da5c4b8d)
 
 ### Ce que fait le script
 
 Le script gère la mise à niveau complète automatiquement, notamment :
 
-| Détection | Action |
+| Détection | Opération |
 |-----------|--------|
 | Dépôts enterprise vs. sans abonnement | Utilise le type de dépôt **activement activé**. N'active pas enterprise sur les nœuds sans abonnement. |
 | Version Ceph | Bloque si Quincy ou Reef, affiche le guide de mise à niveau Ceph étape par étape |
@@ -305,7 +307,7 @@ Le script gère la mise à niveau complète automatiquement, notamment :
 | Dépôts `bookworm` tiers | Les commente avec un rappel de mise à jour |
 | Conflit `linux-image-amd64` | Le supprime si présent |
 | Activation automatique LVM | Exécute le script de migration avant et après la mise à niveau |
-| Proxmox Backup Server | Exécute la vérification `pbs3to4 --full` ; met à jour les dépôts PBS pour Trixie |
+| Proxmox Backup Server (serveur de sauvegarde Proxmox) | Exécute la vérification `pbs3to4 --full` ; met à jour les dépôts PBS pour Trixie |
 | Racine ZFS | Détecte et confirme (aucune action spéciale requise) |
 
 Toutes les modifications sont entièrement journalisées dans `/var/log/pve8to9-upgrade-<horodatage>.log`.
@@ -342,7 +344,35 @@ less pve8to9-upgrade.sh
 
 *Exécutez dans `tmux` ou `screen` si vous vous connectez via SSH.*
 
-### Vérifications de sécurité bloquantes du script
+### Exemple de sortie du script
+
+Le script affiche un résumé de la configuration détectée avant de vous demander de continuer :
+
+```
+══════════════════════════════════════════
+  SUMMARY of detected configuration
+══════════════════════════════════════════
+
+  PVE version      : pve-manager/8.4.3/...
+  Debian           : bookworm
+  Subscription     : true (status: Active)
+  PVE repo type    : enterprise  (enterprise was active: true)
+  Ceph             : YES (v19.2.3, enterprise repos)
+  ZFS root         : false
+  UEFI boot        : true
+  LVM root         : true
+  NVIDIA           : NO
+  CUDA repos       : NO
+  systemd-boot     : meta=true efi=true
+  sysctl.conf      : custom=false (0 lines)
+  cgroupv1         : false (must be false for PVE 9)
+  FRR post-up      : false (broken pattern)
+  LVM autoact.     : false
+  PBS co-install   : NO
+  3rd-party bookwm : none
+```
+
+### Vérifications de sécurité qui bloquent le script
 
 Le script **refusera de continuer** si l'une de ces conditions est vraie :
 
@@ -503,6 +533,14 @@ Après le redémarrage de chaque nœud :
 - [ ] Si passthrough NVIDIA : tester une VM hors production
 - [ ] Mettre à jour les dépôts tiers commentés lors de la mise à niveau
 - [ ] Déplacer les paramètres personnalisés de `/etc/sysctl.conf` vers `/etc/sysctl.d/`
+
+______
+
+## Vérification après la mise à niveau
+
+Après la mise à niveau, vérifiez la configuration des dépôts, le quorum du cluster, l'état du stockage, le démarrage des invités, les sauvegardes, les règles du pare-feu et l'accès à l'administration. Consultez les journaux système avant de déclarer la mise à niveau terminée. Testez la restauration d'un invité sur un hôte distinct si le cluster le permet.
+
+Consultez le [guide d'administration Proxmox VE](https://pve.proxmox.com/pve-docs/) et les [notes de version](https://pve.proxmox.com/wiki/Roadmap) actuelles pour les commandes propres à chaque version. Ne copiez pas une commande d'une ancienne version sans vérifier la version cible et l'état des sauvegardes.
 
 ______
 

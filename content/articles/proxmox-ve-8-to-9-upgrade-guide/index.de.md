@@ -1,12 +1,12 @@
 ---
 title: "Proxmox VE 8 auf 9 Upgrade-Anleitung: In-Place-Upgrade mit automatisiertem Skript"
 date: 2026-07-22
-lastmod: 2026-11-22
+lastmod: 2026-11-23
 toc: true
 draft: false
 description: "Vollständige Anleitung zum Upgrade von Proxmox VE 8 (Debian Bookworm) auf Proxmox VE 9 (Debian Trixie). Behandelt Voraussetzungen, schrittweises manuelles Upgrade, das Automatisierungsskript pve8to9-upgrade.sh, grundlegende Änderungen und bekannte Probleme."
-genre: ["Virtualisierung", "Linux-Administration", "Proxmox", "Serververwaltung", "Open Source", "Homelab"]
-tags: ["Proxmox VE 9", "Proxmox Upgrade", "PVE 8 auf 9", "Debian Trixie", "Debian 13", "apt Dist-Upgrade", "pve8to9", "Proxmox Ceph", "proxmox-boot-tool", "grub-efi", "LVM Upgrade", "ZFS Upgrade", "NVIDIA vGPU", "cgroupv2", "Proxmox Automatisierung", "Bash Upgrade Skript", "Proxmox Cluster Upgrade", "In-Place-Upgrade", "pve8to9-upgrade.sh", "Proxmox VE 9.0"]
+genre: ["Virtualisierung", "Linux-Administration", "Virtualisierung mit Proxmox", "Serververwaltung", "Quelloffene Software", "Heimlabor"]
+tags: ["Proxmox VE Version 9", "Proxmox-Aktualisierung", "PVE 8 auf 9", "Debian-Version Trixie", "Debian Version 13", "apt dist-upgrade", "pve8to9", "Ceph mit Proxmox", "proxmox-boot-tool", "grub-efi", "LVM-Aktualisierung", "ZFS-Aktualisierung", "NVIDIA vGPU", "cgroupv2", "Proxmox-Automatisierung", "Bash-Aktualisierungsskript", "Proxmox-Cluster-Aktualisierung", "In-Place-Aktualisierung", "pve8to9-upgrade.sh", "Proxmox VE Version 9.0"]
 cover: "/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp"
 coverAlt: "Ein moderner Serverraum mit leuchtenden Symbolen virtueller Maschinen auf Bildschirmen. Ein Techniker arbeitet an einem Laptop, umgeben von dunkelblauer Ausstattung mit kräftigen blauen, grünen und lila Akzenten."
 coverCaption: "Proxmox VE 8 auf 9 upgraden: schrittweises In-Place-Upgrade mit einem automatisierten Hilfsskript."
@@ -40,6 +40,8 @@ Proxmox VE 9 (veröffentlicht August 2025) ist ein großes Versions-Upgrade. Wic
 - Dynamischer Lastausgleich mit dem Cluster Resource Scheduler (PVE 9.2)
 - WireGuard und BGP als SDN-Fabric-Protokolle (PVE 9.2)
 - `/tmp` ist jetzt ein `tmpfs` (Debian Trixie-Änderung: Dateien werden regelmäßig bereinigt)
+
+{{< figure src="proxmox-ve-8-to-9-component-changes.webp" alt="Vergleichsdiagramm von Proxmox VE 8 und VE 9 mit den Versionsänderungen für Kernel, QEMU, LXC, ZFS und Ceph" >}}
 
 ______
 
@@ -142,7 +144,7 @@ grep -v '^\s*#\|^\s*$' /etc/sysctl.conf
 
 Debian Trixie hängt `/tmp` als tmpfs ein (bis zu 50 % des RAM). Dateien werden regelmäßig bereinigt, während das System läuft. Wenn Sie `/tmp` für große temporäre Dateien verwenden, verschieben Sie diese Arbeit nach `/var/tmp` oder einen dedizierten Einhängepunkt.
 
-### Kompatibilität von Veeam-Sicherung und -Wiederherstellung {#veeam-backup-für-qemu-maschinenversion--100-defekt}
+### Kompatibilität von Veeam-Sicherung und -Wiederherstellung {#veeam-backup-broken-for-qemu-machine-version--100}
 
 Prüfen Sie vor dem Upgrade die [Builds von Veeam Backup & Replication und dem Proxmox-Plug-in](https://helpcenter.veeam.com/docs/vbr/userguide/pve_system_requirements.html). Die aktuellen Anforderungen nennen Proxmox VE 8.2 bis 9.2 auf x86-64-Hosts, die mit der offiziellen Proxmox-ISO installiert wurden. Für ältere Veeam-Builds gelten eigene Versionsgrenzen.
 
@@ -160,7 +162,7 @@ ______
 
 ## Option A: Manuelles In-Place-Upgrade
 
-Folgen Sie den offiziellen Schritten von [pve.proxmox.com/wiki/Upgrade_from_8_to_9](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9).
+Folgen Sie den offiziellen Schritten in der [Proxmox VE-Upgrade-Anleitung](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9).
 
 ### Schritt 1: Führen Sie die pve8to9-Checkliste aus
 
@@ -282,7 +284,7 @@ ______
 
 Der manuelle Prozess hat viele bedingte Schritte, die je nach Konfiguration variieren. Das `pve8to9-upgrade.sh`-Skript automatisiert alle davon.
 
-**Skript-Quelle:** [gist.github.com/simeononsecurity/ba3831f487c4e960f9e218c7da5c4b8d](https://gist.github.com/simeononsecurity/ba3831f487c4e960f9e218c7da5c4b8d)
+**Skript-Quelle:** [Gist-Repository des Skripts](https://gist.github.com/simeononsecurity/ba3831f487c4e960f9e218c7da5c4b8d)
 
 ### Was das Skript tut
 
@@ -304,7 +306,7 @@ Das Skript führt das vollständige Upgrade automatisch durch, einschließlich:
 | Drittanbieter `bookworm`-Repos | Kommentiert diese mit einer Erinnerung zum Aktualisieren aus |
 | `linux-image-amd64`-Konflikt | Entfernt es, wenn vorhanden |
 | LVM-Autoaktivierung | Führt das Migrationsskript vor und nach dem Upgrade aus |
-| Proxmox Backup Server | Führt `pbs3to4 --full`-Prüfung aus; aktualisiert PBS-Repos für Trixie |
+| Proxmox Backup Server (Backup-Server von Proxmox) | Führt `pbs3to4 --full`-Prüfung aus; aktualisiert PBS-Repos für Trixie |
 | ZFS root | Erkennt und quittiert (keine besondere Aktion erforderlich) |
 
 Alle Änderungen werden vollständig in `/var/log/pve8to9-upgrade-<Zeitstempel>.log` protokolliert. APT-Repo-Backups werden nach `/root/pve8to9-apt-backups/` geschrieben.
@@ -340,6 +342,34 @@ less pve8to9-upgrade.sh
 ```
 
 *Innerhalb von `tmux` oder `screen` ausführen, wenn Sie via SSH verbunden sind.*
+
+### So sieht die Skriptausgabe aus
+
+Das Skript zeigt eine Zusammenfassung der erkannten Konfiguration, bevor es fragt, ob Sie fortfahren möchten:
+
+```
+══════════════════════════════════════════
+  SUMMARY of detected configuration
+══════════════════════════════════════════
+
+  PVE version      : pve-manager/8.4.3/...
+  Debian           : bookworm
+  Subscription     : true (status: Active)
+  PVE repo type    : enterprise  (enterprise was active: true)
+  Ceph             : YES (v19.2.3, enterprise repos)
+  ZFS root         : false
+  UEFI boot        : true
+  LVM root         : true
+  NVIDIA           : NO
+  CUDA repos       : NO
+  systemd-boot     : meta=true efi=true
+  sysctl.conf      : custom=false (0 lines)
+  cgroupv1         : false (must be false for PVE 9)
+  FRR post-up      : false (broken pattern)
+  LVM autoact.     : false
+  PBS co-install   : NO
+  3rd-party bookwm : none
+```
 
 ### Blockierende Sicherheitsprüfungen des Skripts
 
@@ -502,6 +532,14 @@ Nach dem Neustart jedes Knotens:
 - [ ] Bei NVIDIA Passthrough: eine Nicht-Produktions-VM testen
 - [ ] Drittanbieter-Repos aktualisieren, die während des Upgrades auskommentiert wurden
 - [ ] Benutzerdefinierte `/etc/sysctl.conf`-Einstellungen nach `/etc/sysctl.d/` verschieben
+
+______
+
+## Überprüfung nach dem Upgrade
+
+Prüfen Sie nach einem Upgrade die Repository-Konfiguration, das Cluster-Quorum, den Speicherstatus, den Start der Gäste, Backups, Firewall-Regeln und den Verwaltungszugriff. Sehen Sie die Systemprotokolle durch, bevor Sie das Upgrade als abgeschlossen betrachten. Testen Sie eine Wiederherstellung eines Gasts auf einem separaten Host, sofern der Cluster dies unterstützt.
+
+Nutzen Sie das aktuelle [Proxmox VE-Verwaltungshandbuch](https://pve.proxmox.com/pve-docs/) und die [Versionshinweise](https://pve.proxmox.com/wiki/Roadmap) für versionsspezifische Befehle. Übernehmen Sie keinen Befehl aus einer älteren Version, ohne Zielversion und Backup-Status zu prüfen.
 
 ______
 
