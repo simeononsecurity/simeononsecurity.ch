@@ -3,6 +3,7 @@ title: "Uprawnienia do plików w systemie Linux: Kompleksowy przewodnik"
 draft: false
 toc: true
 date: 2023-05-22
+lastmod: 2026-11-23
 description: "Opanuj uprawnienia do plików w systemie Linux, aby zapewnić bezpieczny system plików dzięki temu kompleksowemu przewodnikowi obejmującemu własność, kontrolę dostępu i najlepsze praktyki."
 tags: ["Uprawnienia do plików w systemie Linux", "bezpieczny system plików", "kontrola dostępu", "własność", "przewodnik po uprawnieniach do plików", "Bezpieczeństwo systemu Linux", "bezpieczeństwo systemu plików", "polecenie chmod", "polecenie chown", "audyt uprawnień do plików", "Zasada najmniejszego przywileju", "zgodność z przepisami", "RODO", "HIPAA", "audyt uprawnień plików", "dokumentowanie regulacji", "bezpieczeństwo systemu", "bezpieczeństwo sieci", "szyfrowanie", "zarządzanie użytkownikami"]
 cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp"
@@ -102,8 +103,8 @@ chgrp developers file.txt
 ## Specjalne uprawnienia do plików
 Oprócz standardowych uprawnień do odczytu, zapisu i wykonywania, Linux zapewnia również specjalne uprawnienia do plików, które mogą być używane w celu zwiększenia bezpieczeństwa i zapewnienia dodatkowej funkcjonalności.
 
-### Ustaw identyfikator użytkownika (SUID)
-Uprawnienie Set User ID (SUID) pozwala użytkownikowi na wykonanie pliku z uprawnieniami właściciela pliku, a nie jego własnymi uprawnieniami. Może to być przydatne, gdy użytkownik musi wykonać zadanie, które wymaga wyższych uprawnień niż te, które posiada.
+### Ustawianie identyfikatora użytkownika (SUID)
+Uprawnienie ustawiania identyfikatora użytkownika (SUID) pozwala uruchomić plik z uprawnieniami jego właściciela zamiast własnymi. Przydaje się, gdy zadanie wymaga uprawnień wyższych niż te dostępne użytkownikowi.
 
 Aby ustawić uprawnienie SUID na pliku, możemy użyć polecenia chmod z notacją numeryczną:
 
@@ -113,8 +114,8 @@ chmod 4755 file.txt
 
 W tym przypadku początkowa cyfra 4 ustawia uprawnienie SUID dla użytkownika.
 
-### Ustaw identyfikator grupy (SGID)
-Uprawnienie Set Group ID (SGID) jest podobne do SUID, z wyjątkiem tego, że dotyczy grup, a nie użytkowników. Gdy plik z uprawnieniem SGID jest wykonywany, działa z uprawnieniami grupy, która jest właścicielem pliku.
+### Ustawianie identyfikatora grupy (SGID)
+Uprawnienie ustawiania identyfikatora grupy (SGID) działa podobnie do SUID, ale dotyczy grup zamiast użytkowników. Plik z SGID działa z uprawnieniami grupy będącej jego właścicielem.
 
 Aby ustawić uprawnienie SGID na pliku, możemy użyć polecenia chmod z notacją numeryczną:
 
@@ -177,4 +178,3 @@ Postępując zgodnie z wytycznymi przedstawionymi w tym kompleksowym przewodniku
 - [Understanding File Permissions](https://www.redhat.com/sysadmin/understanding-linux-permissions) - Artykuł Red Hat sysadmin
 - [General Data Protection Regulation (GDPR)](https://gdpr.eu/) - Oficjalna strona internetowa RODO
 - [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html) - Oficjalna strona internetowa HIPAA
-

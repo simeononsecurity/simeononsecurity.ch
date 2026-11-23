@@ -3,6 +3,7 @@ title: "Permisos de archivos en Linux: Una guía completa"
 draft: false
 toc: true
 date: 2023-05-22
+lastmod: 2026-11-23
 description: "Domine los permisos de archivos de Linux para garantizar un sistema de archivos seguro con esta completa guía que abarca la propiedad, el control de acceso y las mejores prácticas."
 tags: ["Permisos de archivos en Linux", "sistema de archivos seguro", "control de acceso", "propiedad", "guía de permisos de archivos", "Seguridad en Linux", "seguridad del sistema de archivos", "comando chmod", "comando chown", "auditoría de permisos de archivos", "Principio del menor privilegio", "cumplimiento de la normativa", "GDPR", "HIPAA", "auditoría de permisos de archivos", "documentar la normativa", "seguridad del sistema", "seguridad de la red", "codificación", "gestión de usuarios"]
 cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp"
@@ -102,8 +103,8 @@ chgrp developers file.txt
 ## Permisos Especiales de Archivo
 Aparte de los permisos estándar de lectura, escritura y ejecución, Linux también proporciona algunos permisos de archivo especiales que se pueden utilizar para mejorar la seguridad y proporcionar funcionalidad adicional.
 
-### Establecer ID de Usuario (SUID)
-El permiso Set User ID (SUID) permite a un usuario ejecutar un archivo con los permisos del propietario del archivo en lugar de sus propios permisos. Esto puede ser útil cuando un usuario necesita realizar una tarea que requiere privilegios superiores a los que tiene.
+### Asignar el identificador de usuario (SUID)
+El permiso de asignación del identificador de usuario (SUID) permite ejecutar un archivo con los permisos de su propietario, en lugar de los de quien lo ejecuta. Puede resultar útil cuando una tarea exige privilegios superiores a los disponibles para el usuario.
 
 Para establecer el permiso SUID en un archivo, podemos utilizar el comando chmod con la notación numérica:
 
@@ -113,8 +114,8 @@ chmod 4755 file.txt
 
 Aquí, el dígito inicial 4 establece el permiso SUID para el usuario.
 
-### Establecer ID de Grupo (SGID)
-El permiso Set Group ID (SGID) es similar a SUID, excepto que se aplica a grupos en lugar de usuarios. Cuando se ejecuta un archivo con permiso SGID, se ejecuta con los permisos del grupo al que pertenece el archivo.
+### Asignar el identificador de grupo (SGID)
+El permiso de asignación del identificador de grupo (SGID) es similar al de SUID, pero se aplica a los grupos en lugar de a los usuarios. Un archivo con SGID se ejecuta con los permisos del grupo propietario.
 
 Para establecer el permiso SGID en un archivo, podemos utilizar el comando chmod con la notación numérica:
 
@@ -177,4 +178,3 @@ Siguiendo las directrices descritas en esta guía completa, usted está bien enc
 - [Understanding File Permissions](https://www.redhat.com/sysadmin/understanding-linux-permissions) - Red Hat sysadmin article
 - [General Data Protection Regulation (GDPR)](https://gdpr.eu/) - Sitio web oficial del GDPR
 - [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html) - Sitio web oficial de la HIPAA
-

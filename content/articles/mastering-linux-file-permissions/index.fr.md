@@ -3,8 +3,9 @@ title: "Permissions de fichiers sous Linux : Un guide complet"
 draft: false
 toc: true
 date: 2023-05-22
+lastmod: 2026-11-23
 description: "Maîtrisez les autorisations de fichiers Linux pour garantir un système de fichiers sécurisé grâce à ce guide complet couvrant la propriété, le contrôle d'accès et les meilleures pratiques."
-tags: ["Linux file permissions", "système de fichiers sécurisé", "le contrôle d'accès", "propriété", "file permissions guide", "Linux security", "sécurité du système de fichiers", "commande chmod", "commande chown", "audit des autorisations de fichiers", "Principe du moindre privilège", "conformité réglementaire", "GDPR", "HIPAA", "file permissions audit", "documenter les règlements", "sécurité du système", "sécurité des réseaux", "chiffrement", "gestion des utilisateurs"]
+tags: ["autorisations de fichiers Linux", "système de fichiers sécurisé", "contrôle d'accès", "propriété", "guide des autorisations de fichiers", "sécurité Linux", "sécurité du système de fichiers", "commande chmod", "commande chown", "audit des autorisations de fichiers", "Principe du moindre privilège", "conformité réglementaire", "RGPD", "HIPAA", "audit des permissions de fichiers", "documentation des réglementations", "sécurité du système", "sécurité des réseaux", "chiffrement", "gestion des utilisateurs"]
 cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp"
 coverAlt: "Image de style bande dessinée représentant une armoire à dossiers verrouillée avec différentes clés représentant des autorisations d'utilisateurs, de groupes et d'autres personnes."
 coverCaption: ""
@@ -70,7 +71,7 @@ Outre les autorisations de fichiers, Linux conserve également des informations 
 
 ### Propriété de l'utilisateur
 
-L'utilisateur qui crée un fichier en est le propriétaire. Le propriétaire a le contrôle total du fichier, y compris la possibilité de modifier ses autorisations, de le renommer, de le déplacer ou de le supprimer. L'utilisateur qui crée un fichier en est le propriétaire. `chown` est utilisée pour modifier la propriété d'un fichier ou d'un répertoire.
+L'utilisateur qui crée un fichier en est le propriétaire. Le propriétaire a le contrôle total du fichier, y compris la possibilité de modifier ses autorisations, de le renommer, de le déplacer ou de le supprimer. `chown` est utilisée pour modifier la propriété d'un fichier ou d'un répertoire.
 
 La syntaxe de base de la commande `chown` est :
 
@@ -102,8 +103,8 @@ chgrp developers file.txt
 ## Autorisations spéciales pour les fichiers
 Outre les autorisations standard de lecture, d'écriture et d'exécution, Linux fournit également des autorisations spéciales pour les fichiers, qui peuvent être utilisées pour renforcer la sécurité et fournir des fonctionnalités supplémentaires.
 
-### Définir l'ID de l'utilisateur (SUID)
-L'autorisation Set User ID (SUID) permet à un utilisateur d'exécuter un fichier avec les autorisations du propriétaire du fichier plutôt qu'avec ses propres autorisations. Cette autorisation peut s'avérer utile lorsqu'un utilisateur doit effectuer une tâche nécessitant des privilèges plus élevés que ceux dont il dispose.
+### Définir l'identifiant utilisateur (SUID)
+L'autorisation de définition de l'identifiant utilisateur (SUID) permet d'exécuter un fichier avec les autorisations de son propriétaire plutôt qu'avec celles de la personne qui le lance. Elle peut être utile lorsqu'une tâche nécessite des privilèges supérieurs à ceux dont dispose l'utilisateur.
 
 Pour définir l'autorisation SUID sur un fichier, nous pouvons utiliser la commande chmod avec la notation numérique :
 
@@ -113,8 +114,8 @@ chmod 4755 file.txt
 
 Ici, le chiffre 4 définit l'autorisation SUID pour l'utilisateur.
 
-### Définir l'ID du groupe (SGID)
-L'autorisation Set Group ID (SGID) est similaire à SUID, sauf qu'elle s'applique aux groupes plutôt qu'aux utilisateurs. Lorsqu'un fichier doté de l'autorisation SGID est exécuté, il l'est avec les autorisations du groupe propriétaire du fichier.
+### Définir l'identifiant du groupe (SGID)
+L'autorisation de définition de l'identifiant du groupe (SGID) ressemble à SUID, mais s'applique aux groupes plutôt qu'aux utilisateurs. Un fichier doté de SGID s'exécute avec les autorisations de son groupe propriétaire.
 
 Pour définir l'autorisation SGID sur un fichier, nous pouvons utiliser la commande chmod avec la notation numérique :
 
@@ -175,6 +176,5 @@ En suivant les lignes directrices décrites dans ce guide complet, vous êtes su
 
 - [Linux File Permissions Explained](https://www.digitalocean.com/community/tutorials/linux-permissions-101-an-introduction-to-chmod-and-chown) - Tutoriel de la communauté DigitalOcean
 - [Understanding File Permissions](https://www.redhat.com/sysadmin/understanding-linux-permissions) - Article de Red Hat sysadmin
-- [General Data Protection Regulation (GDPR)](https://gdpr.eu/) - Site officiel du GDPR
+- [General Data Protection Regulation (GDPR)](https://gdpr.eu/) - Site officiel du RGPD
 - [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html) - Site officiel de l'HIPAA
-

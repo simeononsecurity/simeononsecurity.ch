@@ -3,8 +3,9 @@ title: "Linux Dateiberechtigungen: Ein umfassender Leitfaden"
 draft: false
 toc: true
 date: 2023-05-22
+lastmod: 2026-11-23
 description: "Beherrschen Sie die Linux-Dateiberechtigungen, um ein sicheres Dateisystem zu gewährleisten - mit diesem umfassenden Leitfaden, der Besitzverhältnisse, Zugriffskontrolle und bewährte Verfahren behandelt."
-tags: ["Linux-Dateiberechtigungen", "sicheres Dateisystem", "Zugangskontrolle", "Eigentum", "file permissions guide", "Linux-Sicherheit", "Sicherheit des Dateisystems", "chmod-Befehl", "Chown-Befehl", "Überprüfung der Dateiberechtigungen", "Grundsatz des geringsten Rechtsanspruchs", "Einhaltung von Rechtsvorschriften", "GDPR", "HIPAA", "file permissions audit", "Dokumentationsvorschriften", "Systemsicherheit", "Netzwerksicherheit", "Verschlüsselung", "Benutzerverwaltung"]
+tags: ["Linux-Dateiberechtigungen", "sicheres Dateisystem", "Zugangskontrolle", "Eigentum", "Leitfaden zu Dateiberechtigungen", "Linux-Sicherheit", "Sicherheit des Dateisystems", "chmod-Befehl", "Chown-Befehl", "Überprüfung der Dateiberechtigungen", "Grundsatz des geringsten Rechtsanspruchs", "Einhaltung von Rechtsvorschriften", "GDPR", "HIPAA", "Audit der Dateiberechtigungen", "Dokumentationsvorschriften", "Systemsicherheit", "Netzwerksicherheit", "Verschlüsselung", "Benutzerverwaltung"]
 cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp"
 coverAlt: "Ein Bild im Comic-Stil, das einen verschlossenen Aktenschrank mit verschiedenen Schlüsseln darstellt, die Benutzer-, Gruppen- und andere Berechtigungen repräsentieren."
 coverCaption: ""
@@ -102,8 +103,8 @@ chgrp developers file.txt
 ## Spezielle Dateiberechtigungen
 Neben den standardmäßigen Lese-, Schreib- und Ausführungsberechtigungen bietet Linux auch einige spezielle Dateiberechtigungen, die zur Erhöhung der Sicherheit und zur Bereitstellung zusätzlicher Funktionen verwendet werden können.
 
-### Benutzer-ID setzen (SUID)
-Mit der Berechtigung SUID (Set User ID) kann ein Benutzer eine Datei mit den Rechten des Dateibesitzers und nicht mit seinen eigenen Rechten ausführen. Dies kann nützlich sein, wenn ein Benutzer eine Aufgabe ausführen muss, die höhere Berechtigungen erfordert, als er hat.
+### Benutzerkennung festlegen (SUID)
+Die Berechtigung zum Festlegen der Benutzerkennung (SUID) führt eine Datei mit den Rechten des Dateibesitzers statt mit den eigenen Rechten aus. Das kann nützlich sein, wenn eine Aufgabe höhere Berechtigungen erfordert.
 
 Um die SUID-Berechtigung für eine Datei zu setzen, können wir den Befehl chmod mit der numerischen Notation verwenden:
 
@@ -113,8 +114,8 @@ chmod 4755 file.txt
 
 Hier legt die führende Ziffer 4 die SUID-Erlaubnis für den Benutzer fest.
 
-### Gruppen-ID festlegen (SGID)
-Die Berechtigung Setze Gruppen-ID (SGID) ist ähnlich wie SUID, mit dem Unterschied, dass sie für Gruppen und nicht für Benutzer gilt. Wenn eine Datei mit SGID-Berechtigung ausgeführt wird, wird sie mit den Rechten der Gruppe ausgeführt, der die Datei gehört.
+### Gruppenkennung festlegen (SGID)
+Die Berechtigung zum Festlegen der Gruppenkennung (SGID) ähnelt SUID, gilt aber für Gruppen statt für Benutzer. Eine Datei mit SGID wird mit den Rechten ihrer Eigentümergruppe ausgeführt.
 
 Um die SGID-Berechtigung für eine Datei zu setzen, können wir den Befehl chmod mit der numerischen Notation verwenden:
 
@@ -134,7 +135,7 @@ chmod 1755 directory/
 
 Hier setzt die führende Ziffer 1 die Sticky-Bit-Erlaubnis.
 
-## Best Practices für Dateiberechtigungen
+## Bewährte Vorgehensweisen für Dateiberechtigungen
 Um ein sicheres Dateisystem zu gewährleisten, ist es wichtig, bei der Konfiguration von Dateiberechtigungen in Linux bewährte Verfahren zu befolgen. Hier sind einige Richtlinien, die Sie beachten sollten:
 
 ### Prinzip der geringsten Rechte (Principle of Least Privilege)
@@ -177,4 +178,3 @@ Wenn Sie die in diesem umfassenden Leitfaden beschriebenen Richtlinien befolgen,
 - [Understanding File Permissions](https://www.redhat.com/sysadmin/understanding-linux-permissions) - Red Hat sysadmin Artikel
 - [General Data Protection Regulation (GDPR)](https://gdpr.eu/) - Offizielle GDPR-Website
 - [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html) - Offizielle HIPAA-Website
-

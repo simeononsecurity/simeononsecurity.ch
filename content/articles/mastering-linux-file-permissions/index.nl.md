@@ -3,7 +3,8 @@ title: "Linux bestandsrechten: Een uitgebreide gids"
 draft: false
 toc: true
 date: 2023-05-22
-description: "Beheers Linux bestandspermissies om een veilig bestandssysteem te garanderen met deze uitgebreide gids over eigendom, toegangscontrole en best practices."
+lastmod: 2026-11-23
+description: "Beheers Linux bestandspermissies om een veilig bestandssysteem te garanderen met deze uitgebreide gids over eigendom, toegangscontrole en aanbevolen werkwijzen."
 tags: ["Linux bestandspermissies", "veilig bestandssysteem", "toegangscontrole", "eigendom", "gids voor bestandsrechten", "Linux beveiliging", "veiligheid van het bestandssysteem", "chmod commando", "chown commando", "controle van bestandsrechten", "Beginsel van de minste voorrechten", "regelnaleving", "GDPR", "HIPAA", "controle van bestandsrechten", "het documenteren van regelgeving", "systeemveiligheid", "netwerkbeveiliging", "encryptie", "gebruikersbeheer"]
 cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp"
 coverAlt: "Een afbeelding in cartoonstijl van een afgesloten archiefkast met verschillende sleutels voor de rechten van gebruikers, groepen en anderen."
@@ -102,8 +103,8 @@ chgrp developers file.txt
 ## Speciale bestandspermissies
 Naast de standaard lees-, schrijf- en uitvoerrechten biedt Linux ook enkele speciale bestandsrechten die gebruikt kunnen worden om de veiligheid te vergroten en extra functionaliteit te bieden.
 
-### Set User ID (SUID)
-Met de Set User ID (SUID) permissie kan een gebruiker een bestand uitvoeren met de permissies van de eigenaar van het bestand in plaats van zijn eigen permissies. Dit kan nuttig zijn wanneer een gebruiker een taak moet uitvoeren die hogere rechten vereist dan hij heeft.
+### Instellen van de gebruikersidentificatie (SUID)
+Met de toestemming voor het instellen van de gebruikersidentificatie (SUID) voert een gebruiker een bestand uit met de rechten van de bestandseigenaar in plaats van de eigen rechten. Dit is nuttig wanneer een taak hogere rechten vereist.
 
 Om de SUID-toestemming op een bestand in te stellen, kunnen we het commando chmod gebruiken met de numerieke notatie:
 
@@ -113,8 +114,8 @@ chmod 4755 file.txt
 
 Hier stelt het eerste cijfer 4 de SUID-toestemming voor de gebruiker in.
 
-### Groep ID instellen (SGID)
-De Set Group ID (SGID)-toestemming is vergelijkbaar met SUID, behalve dat deze geldt voor groepen in plaats van gebruikers. Wanneer een bestand met SGID-toestemming wordt uitgevoerd, draait het met de toestemmingen van de groep die eigenaar is van het bestand.
+### Instellen van de groepsidentificatie (SGID)
+De toestemming voor het instellen van de groepsidentificatie (SGID) lijkt op SUID, maar geldt voor groepen in plaats van gebruikers. Een bestand met SGID wordt uitgevoerd met de rechten van de eigenaarsgroep.
 
 Om de SGID-toestemming op een bestand in te stellen, kunnen we het commando chmod met de numerieke notatie gebruiken:
 
@@ -134,8 +135,8 @@ chmod 1755 directory/
 
 Hier stelt het eerste cijfer 1 de Sticky Bit-toestemming in.
 
-## Beste praktijken voor bestandspermissies
-Om een veilig bestandssysteem te garanderen, is het essentieel om best practices te volgen bij het configureren van bestandspermissies in Linux. Hier zijn enkele richtlijnen om in gedachten te houden:
+## Aanbevolen werkwijzen voor bestandsrechten
+Om een veilig bestandssysteem te garanderen, is het essentieel om aanbevolen werkwijzen te volgen bij het configureren van bestandspermissies in Linux. Hier zijn enkele richtlijnen om in gedachten te houden:
 
 ### Principe van Minste Voorrecht
 Het Principle of Least Privilege is een beveiligingsconcept dat gebruikers en processen het minimale toegangsniveau geeft dat nodig is om hun taken uit te voeren. Bij het configureren van bestandspermissies is het essentieel om ervoor te zorgen dat elke gebruiker en groep alleen de noodzakelijke permissies heeft die nodig zijn om hun taken uit te voeren.
@@ -158,14 +159,14 @@ Het is belangrijk om het beleid inzake bestandsmachtigingen en toegangscontrole 
 
 - Uitleg over bestandstoestemmingen en hun betekenis.
 - Instructies voor het instellen en wijzigen van bestandspermissies.
-- Best practices voor het toewijzen van machtigingen aan gebruikers en groepen.
+- Aanbevolen werkwijzen voor het toewijzen van rechten aan gebruikers en groepen.
 - Alle wettelijke vereisten of industrienormen die van toepassing zijn op uw organisatie, zoals de **General Data Protection Regulation (GDPR)** of de **Health Insurance Portability and Accountability Act (HIPAA)**.
 
 Door voorschriften te documenteren en duidelijke richtlijnen te geven, zorgt u voor consistentie en verbetert u het beveiligingsbewustzijn binnen uw organisatie.
 
 ## Conclusie
 
-Het beheersen van Linux bestandspermissies is essentieel voor het onderhouden van een veilig bestandssysteem. Door de concepten van bestandspermissies te begrijpen, machtigingen correct aan te passen en best practices te volgen, kunt u de beveiliging van uw Linux-gebaseerde systemen aanzienlijk verbeteren. Het regelmatig controleren van bestandspermissies en het documenteren van voorschriften versterkt verder de integriteit van uw bestandssysteem, en zorgt ervoor dat alleen bevoegde gebruikers de juiste toegang hebben tot gevoelige gegevens.
+Het beheersen van Linux bestandspermissies is essentieel voor het onderhouden van een veilig bestandssysteem. Door de concepten van bestandspermissies te begrijpen, machtigingen correct aan te passen en aanbevolen werkwijzen te volgen, kunt u de beveiliging van uw Linux-gebaseerde systemen aanzienlijk verbeteren. Het regelmatig controleren van bestandspermissies en het documenteren van voorschriften versterkt verder de integriteit van uw bestandssysteem, en zorgt ervoor dat alleen bevoegde gebruikers de juiste toegang hebben tot gevoelige gegevens.
 
 Onthoud dat bestandspermissies slechts één aspect zijn van de algehele systeembeveiliging. Het is belangrijk om andere beveiligingsmaatregelen te overwegen, zoals versleuteling, gebruikersbeheer en netwerkbeveiliging, om een uitgebreide en robuuste beveiligingsstrategie te creëren.
 
@@ -177,4 +178,3 @@ Door de richtlijnen in deze uitgebreide gids te volgen, bent u goed op weg om be
 - [Understanding File Permissions](https://www.redhat.com/sysadmin/understanding-linux-permissions) - Red Hat sysadmin artikel
 - [General Data Protection Regulation (GDPR)](https://gdpr.eu/) - Officiële GDPR-website
 - [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html) - Officiële HIPAA website
-

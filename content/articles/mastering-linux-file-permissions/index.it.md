@@ -3,6 +3,7 @@ title: "Permessi dei file in Linux: Una guida completa"
 draft: false
 toc: true
 date: 2023-05-22
+lastmod: 2026-11-23
 description: "Padroneggiate i permessi dei file di Linux per garantire un file system sicuro con questa guida completa che copre la proprietà, il controllo degli accessi e le migliori pratiche."
 tags: ["Permessi dei file di Linux", "sistema di file sicuro", "controllo degli accessi", "proprietà", "Guida ai permessi dei file", "Sicurezza di Linux", "sicurezza del file system", "comando chmod", "comando chown", "controllo dei permessi dei file", "Principio del minor privilegio", "conformità normativa", "GDPR", "HIPAA", "verifica dei permessi dei file", "documentare le normative", "sicurezza del sistema", "sicurezza della rete", "crittografia", "gestione degli utenti"]
 cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp"
@@ -102,8 +103,8 @@ chgrp developers file.txt
 ## Permessi speciali per i file
 Oltre ai permessi standard di lettura, scrittura ed esecuzione, Linux fornisce anche alcuni permessi speciali per i file che possono essere utilizzati per migliorare la sicurezza e fornire funzionalità aggiuntive.
 
-### Imposta ID utente (SUID)
-Il permesso Set User ID (SUID) consente a un utente di eseguire un file con i permessi del proprietario del file anziché con i propri. Questo può essere utile quando un utente deve eseguire un'attività che richiede privilegi superiori a quelli di cui dispone.
+### Impostazione dell'identificatore utente (SUID)
+L'autorizzazione per l'impostazione dell'identificatore utente (SUID) consente di eseguire un file con i permessi del proprietario, anziché con quelli di chi lo esegue. È utile quando un'attività richiede privilegi superiori a quelli dell'utente.
 
 Per impostare il permesso SUID su un file, si può usare il comando chmod con la notazione numerica:
 
@@ -113,8 +114,8 @@ chmod 4755 file.txt
 
 Qui, la cifra iniziale 4 imposta l'autorizzazione SUID per l'utente.
 
-### Imposta ID gruppo (SGID)
-L'autorizzazione Set Group ID (SGID) è simile a SUID, ma si applica ai gruppi anziché agli utenti. Quando un file con autorizzazione SGID viene eseguito, viene eseguito con le autorizzazioni del gruppo che possiede il file.
+### Impostazione dell'identificatore di gruppo (SGID)
+L'autorizzazione per l'impostazione dell'identificatore di gruppo (SGID) è simile a SUID, ma si applica ai gruppi invece che agli utenti. Un file con SGID viene eseguito con i permessi del gruppo proprietario.
 
 Per impostare il permesso SGID su un file, si può usare il comando chmod con la notazione numerica:
 
@@ -177,4 +178,3 @@ Seguendo le linee guida descritte in questa guida completa, sarete sulla buona s
 - [Understanding File Permissions](https://www.redhat.com/sysadmin/understanding-linux-permissions) - Articolo di Red Hat sysadmin
 - [General Data Protection Regulation (GDPR)](https://gdpr.eu/) - Sito ufficiale del GDPR
 - [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html) - Sito ufficiale HIPAA
-
