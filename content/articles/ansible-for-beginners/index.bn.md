@@ -3,7 +3,7 @@ title: "নতুনদের জন্য Ansible গাইড ২০২৬"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-13
+lastmod: 2026-11-22
 description: "২০২৬ সালের Ansible গাইড। এতে ইনস্টলেশন, প্লেবুক, রোল, উদাহরণ, সেরা অনুশীলন এবং Terraform, Puppet ও Chef-এর সঙ্গে তুলনা রয়েছে।"
 tags: ["Ansible পরিচিতি", "IT অবকাঠামো ব্যবস্থাপনা স্বয়ংক্রিয়করণ", "Ansible-এর মৌলিক বিষয়", "IT অবকাঠামো স্বয়ংক্রিয়করণ", "কনফিগারেশন ব্যবস্থাপনা", "অ্যাপ্লিকেশন স্থাপন", "প্রভিশনিং", "ধারাবাহিক ডেলিভারি", "নিরাপত্তা ও সম্মতি", "অর্কেস্ট্রেশন", "YAML", "Ansible মডিউল", "রোল", "সেরা অনুশীলন", "সংস্করণ নিয়ন্ত্রণ", "পরীক্ষা", "Red Hat", "সিস্টেম অ্যাডমিনিস্ট্রেটর", "Linux", "macOS", "Windows", "Ansible ইনস্টলেশন", "Ansible ইনভেন্টরি", "Ansible প্লেবুক", "Ansible মডিউল", "Ansible রোল", "Ansible-এর সেরা অনুশীলন", "Ansible পরীক্ষা", "IT অবকাঠামো স্বয়ংক্রিয়করণ টুল", "Ansible টিউটোরিয়াল", "অবকাঠামো ব্যবস্থাপনা স্বয়ংক্রিয়করণ", "নতুনদের জন্য Ansible", "Ansible শেখা", "Ansible টিউটোরিয়াল ২০২৬", "Ansible ও Terraform", "Ansible ও Puppet", "Ansible প্লেবুকের উদাহরণ", "Ansible স্বয়ংক্রিয়করণ", "DevOps টুল", "কোড হিসেবে অবকাঠামো", "Ansible AWX", "Ansible Tower", "Ansible কালেকশন", "Ansible Galaxy", "Ansible Vault", "Ansible ক্লাউড স্বয়ংক্রিয়করণ"]
 cover: "/img/cover/ansible-for-beginners.webp"
@@ -833,7 +833,7 @@ Ansible Cisco, Juniper, Arista ও F5-সহ প্রধান নেটওয�
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
-            description: Uplink to Core
+            description: কোর নেটওয়ার্কে আপলিংক
             enabled: true
     
     - name: কনফিগারেশন সংরক্ষণ করুন

@@ -3,7 +3,7 @@ title: "Ansible 初学者指南 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-13
+lastmod: 2026-11-22
 description: "2026 年 Ansible 指南，涵盖安装、Playbook、角色、示例、最佳实践，并与 Terraform、Puppet 和 Chef 比较。"
 tags: ["Ansible 入门", "IT 基础设施管理自动化", "Ansible 基础", "IT 基础设施自动化", "配置管理", "应用部署", "资源配置", "持续交付", "安全与合规", "编排", "YAML", "Ansible 模块", "角色", "最佳实践", "版本控制", "测试", "Red Hat", "系统管理员", "Linux", "macOS", "Windows", "Ansible 安装", "Ansible 清单", "Ansible Playbook", "Ansible 模块", "Ansible 角色", "Ansible 最佳实践", "Ansible 测试", "IT 基础设施自动化工具", "Ansible 教程", "基础设施管理自动化", "Ansible 初学者指南", "学习 Ansible", "Ansible 教程 2026", "Ansible 与 Terraform", "Ansible 与 Puppet", "Ansible Playbook 示例", "Ansible 自动化", "DevOps 工具", "基础设施即代码", "Ansible AWX", "Ansible Tower", "Ansible 集合", "Ansible Galaxy", "Ansible Vault", "Ansible 云自动化"]
 cover: "/img/cover/ansible-for-beginners.webp"
@@ -833,7 +833,7 @@ Ansible 支持主要网络设备供应商，包括 Cisco、Juniper、Arista 和 
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
-            description: Uplink to Core
+            description: 通往核心网络的上行链路
             enabled: true
     
     - name: 保存配置

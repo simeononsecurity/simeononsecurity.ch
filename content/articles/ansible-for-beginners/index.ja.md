@@ -3,7 +3,7 @@ title: "初心者向けAnsibleガイド 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-13
+lastmod: 2026-11-22
 description: "2026年版Ansibleガイド。インストール、Playbook、ロール、例、ベストプラクティスを説明し、Terraform、Puppet、Chefと比較します。"
 tags: ["Ansible入門", "ITインフラ管理の自動化", "Ansibleの基礎", "ITインフラの自動化", "構成管理", "アプリケーションのデプロイ", "プロビジョニング", "継続的デリバリー", "セキュリティとコンプライアンス", "オーケストレーション", "YAML", "Ansibleモジュール", "ロール", "ベストプラクティス", "バージョン管理", "テスト", "Red Hat", "システム管理者", "Linux", "macOS", "Windows", "Ansibleのインストール", "Ansibleインベントリ", "Ansible Playbook", "Ansibleモジュール", "Ansibleロール", "Ansibleのベストプラクティス", "Ansibleのテスト", "ITインフラ自動化ツール", "Ansibleチュートリアル", "インフラ管理の自動化", "初心者向けAnsible", "Ansibleを学ぶ", "Ansibleチュートリアル2026", "AnsibleとTerraform", "AnsibleとPuppet", "Ansible Playbookの例", "Ansible自動化", "DevOpsツール", "コードとしてのインフラストラクチャ", "Ansible AWX", "Ansible Tower", "Ansibleコレクション", "Ansible Galaxy", "Ansible Vault", "Ansibleクラウド自動化"]
 cover: "/img/cover/ansible-for-beginners.webp"
@@ -833,7 +833,7 @@ AnsibleはCisco、Juniper、Arista、F5など主要なネットワークベン�
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
-            description: Uplink to Core
+            description: コアへのアップリンク
             enabled: true
     
     - name: 構成を保存

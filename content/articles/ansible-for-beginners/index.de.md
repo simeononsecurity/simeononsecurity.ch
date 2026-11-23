@@ -3,7 +3,7 @@ title: "Ansible für Einsteiger 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-13
+lastmod: 2026-11-22
 description: "Ansible-Leitfaden für 2026 mit Installation, Playbooks, Rollen, Beispielen, bewährten Vorgehensweisen und Vergleichen mit Terraform, Puppet und Chef."
 tags: ["Einführung in Ansible", "Automatisierung der IT-Infrastrukturverwaltung", "Ansible-Grundlagen", "IT-Infrastrukturautomatisierung", "Konfigurationsverwaltung", "Anwendungsbereitstellung", "Provisionierung", "Kontinuierliche Bereitstellung", "Sicherheit und Compliance", "Orchestrierung", "YAML", "Ansible-Module", "Rollen", "Bewährte Vorgehensweisen", "Versionsverwaltung", "Tests", "Red Hat", "Systemadministratoren", "Linux", "macOS", "Windows", "Installation von Ansible", "Ansible-Inventar", "Ansible-Playbooks", "Ansible-Module", "Ansible-Rollen", "Bewährte Ansible-Verfahren", "Ansible-Tests", "IT-Infrastrukturautomatisierungstool", "Ansible-Anleitung", "Automatisierung der Infrastrukturverwaltung", "Ansible für Einsteiger", "Ansible lernen", "Ansible-Anleitung 2026", "Ansible und Terraform", "Ansible und Puppet", "Ansible-Playbook-Beispiele", "Ansible-Automatisierung", "DevOps-Werkzeuge", "Infrastruktur als Code", "Ansible AWX", "Ansible Tower", "Ansible-Sammlungen", "Ansible Galaxy", "Ansible Vault", "Ansible-Cloudautomatisierung"]
 cover: "/img/cover/ansible-for-beginners.webp"
@@ -833,7 +833,7 @@ Ansible unterstützt große Netzwerkanbieter wie Cisco, Juniper, Arista und F5.
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
-            description: Uplink to Core
+            description: Uplink zum Kernnetz
             enabled: true
     
     - name: Konfiguration speichern

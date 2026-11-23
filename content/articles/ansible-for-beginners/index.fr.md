@@ -3,7 +3,7 @@ title: "Ansible pour débutants 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-13
+lastmod: 2026-11-22
 description: "Guide Ansible 2026 sur l’installation, les playbooks, les rôles, les exemples, les bonnes pratiques et les comparaisons avec Terraform, Puppet et Chef."
 tags: ["Introduction à Ansible", "Automatisation de la gestion de l’infrastructure informatique", "Notions de base sur Ansible", "Automatisation de l’infrastructure informatique", "Gestion de configuration", "Déploiement d’applications", "Provisionnement", "Livraison continue", "Sécurité et conformité", "Orchestration", "YAML", "Modules Ansible", "Rôles", "Bonnes pratiques", "Gestion de versions", "Tests", "Red Hat", "Administrateurs système", "Linux", "macOS", "Windows", "Installation d’Ansible", "Inventaire Ansible", "Playbooks Ansible", "Modules Ansible", "Rôles Ansible", "Bonnes pratiques Ansible", "Tests Ansible", "Outil d’automatisation de l’infrastructure informatique", "Tutoriel Ansible", "Automatisation de la gestion de l’infrastructure", "Ansible pour débutants", "Apprendre Ansible", "Tutoriel Ansible 2026", "Ansible et Terraform", "Ansible et Puppet", "Exemples de playbooks Ansible", "Automatisation avec Ansible", "Outils DevOps", "Infrastructure sous forme de code", "Ansible AWX", "Ansible Tower", "Collections Ansible", "Ansible Galaxy", "Ansible Vault", "Automatisation du cloud avec Ansible"]
 cover: "/img/cover/ansible-for-beginners.webp"
@@ -833,7 +833,7 @@ Ansible prend en charge les principaux fournisseurs réseau, dont Cisco, Juniper
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
-            description: Uplink to Core
+            description: Liaison montante vers le cœur du réseau
             enabled: true
     
     - name: Enregistrer la configuration

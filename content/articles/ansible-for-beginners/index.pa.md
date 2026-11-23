@@ -3,7 +3,7 @@ title: "ਸ਼ੁਰੂਆਤ ਕਰਨ ਵਾਲਿਆਂ ਲਈ Ansible ਗਾ
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-13
+lastmod: 2026-11-22
 description: "2026 ਲਈ Ansible ਗਾਈਡ। ਇਸ ਵਿੱਚ ਇੰਸਟਾਲੇਸ਼ਨ, ਪਲੇਬੁੱਕ, ਰੋਲ, ਉਦਾਹਰਨਾਂ, ਵਧੀਆ ਅਭਿਆਸ ਅਤੇ Terraform, Puppet ਤੇ Chef ਨਾਲ ਤੁਲਨਾ ਸ਼ਾਮਲ ਹੈ।"
 tags: ["Ansible ਦੀ ਜਾਣ-ਪਛਾਣ", "IT ਇਨਫਰਾਸਟ੍ਰਕਚਰ ਪ੍ਰਬੰਧਨ ਦਾ ਆਟੋਮੇਸ਼ਨ", "Ansible ਦੇ ਬੁਨਿਆਦੀ ਸਿਧਾਂਤ", "IT ਇਨਫਰਾਸਟ੍ਰਕਚਰ ਆਟੋਮੇਸ਼ਨ", "ਕੌਂਫਿਗਰੇਸ਼ਨ ਪ੍ਰਬੰਧਨ", "ਐਪਲੀਕੇਸ਼ਨ ਡਿਪਲੌਇਮੈਂਟ", "ਪ੍ਰੋਵਿਜ਼ਨਿੰਗ", "ਨਿਰੰਤਰ ਡਿਲਿਵਰੀ", "ਸੁਰੱਖਿਆ ਅਤੇ ਪਾਲਣਾ", "ਆਰਕੇਸਟ੍ਰੇਸ਼ਨ", "YAML", "Ansible ਮੋਡੀਊਲ", "ਰੋਲ", "ਵਧੀਆ ਅਭਿਆਸ", "ਵਰਜਨ ਕੰਟਰੋਲ", "ਟੈਸਟਿੰਗ", "Red Hat", "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਕ", "Linux", "macOS", "Windows", "Ansible ਇੰਸਟਾਲੇਸ਼ਨ", "Ansible ਇਨਵੈਂਟਰੀ", "Ansible ਪਲੇਬੁੱਕ", "Ansible ਮੋਡੀਊਲ", "Ansible ਰੋਲ", "Ansible ਦੇ ਵਧੀਆ ਅਭਿਆਸ", "Ansible ਟੈਸਟਿੰਗ", "IT ਇਨਫਰਾਸਟ੍ਰਕਚਰ ਆਟੋਮੇਸ਼ਨ ਟੂਲ", "Ansible ਟਿਊਟੋਰਿਅਲ", "ਇਨਫਰਾਸਟ੍ਰਕਚਰ ਪ੍ਰਬੰਧਨ ਆਟੋਮੇਸ਼ਨ", "ਸ਼ੁਰੂਆਤ ਕਰਨ ਵਾਲਿਆਂ ਲਈ Ansible", "Ansible ਸਿੱਖੋ", "Ansible ਟਿਊਟੋਰਿਅਲ 2026", "Ansible ਅਤੇ Terraform", "Ansible ਅਤੇ Puppet", "Ansible ਪਲੇਬੁੱਕ ਦੀਆਂ ਉਦਾਹਰਨਾਂ", "Ansible ਆਟੋਮੇਸ਼ਨ", "DevOps ਟੂਲ", "ਕੋਡ ਵਜੋਂ ਬੁਨਿਆਦੀ ਢਾਂਚਾ", "Ansible AWX", "Ansible Tower", "Ansible ਕਲੈਕਸ਼ਨ", "Ansible Galaxy", "Ansible Vault", "Ansible ਕਲਾਉਡ ਆਟੋਮੇਸ਼ਨ"]
 cover: "/img/cover/ansible-for-beginners.webp"
@@ -833,7 +833,7 @@ Ansible Cisco, Juniper, Arista ਅਤੇ F5 ਸਮੇਤ ਵੱਡੇ ਨੈੱ�
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
-            description: Uplink to Core
+            description: ਕੋਰ ਨੈੱਟਵਰਕ ਵੱਲ ਅੱਪਲਿੰਕ
             enabled: true
     
     - name: ਸੰਰਚਨਾ ਸੰਭਾਲੋ

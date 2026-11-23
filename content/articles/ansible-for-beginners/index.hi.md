@@ -3,7 +3,7 @@ title: "शुरुआती लोगों के लिए Ansible गाइ
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-13
+lastmod: 2026-11-22
 description: "2026 के लिए Ansible गाइड। इसमें इंस्टॉलेशन, प्लेबुक, रोल, उदाहरण, श्रेष्ठ तरीके और Terraform, Puppet तथा Chef से तुलना शामिल है।"
 tags: ["Ansible का परिचय", "IT इंफ्रास्ट्रक्चर प्रबंधन का स्वचालन", "Ansible की मूल बातें", "IT इंफ्रास्ट्रक्चर स्वचालन", "कॉन्फ़िगरेशन प्रबंधन", "एप्लिकेशन परिनियोजन", "प्रोविज़निंग", "निरंतर डिलीवरी", "सुरक्षा और अनुपालन", "ऑर्केस्ट्रेशन", "YAML", "Ansible मॉड्यूल", "रोल", "श्रेष्ठ तरीके", "वर्ज़न नियंत्रण", "परीक्षण", "Red Hat", "सिस्टम प्रशासक", "Linux", "macOS", "Windows", "Ansible इंस्टॉलेशन", "Ansible इन्वेंटरी", "Ansible प्लेबुक", "Ansible मॉड्यूल", "Ansible रोल", "Ansible के श्रेष्ठ तरीके", "Ansible परीक्षण", "IT इंफ्रास्ट्रक्चर स्वचालन टूल", "Ansible ट्यूटोरियल", "इंफ्रास्ट्रक्चर प्रबंधन स्वचालन", "शुरुआती लोगों के लिए Ansible", "Ansible सीखें", "Ansible ट्यूटोरियल 2026", "Ansible और Terraform", "Ansible और Puppet", "Ansible प्लेबुक के उदाहरण", "Ansible स्वचालन", "DevOps टूल", "कोड के रूप में इंफ्रास्ट्रक्चर", "Ansible AWX", "Ansible Tower", "Ansible संग्रह", "Ansible Galaxy", "Ansible Vault", "Ansible क्लाउड स्वचालन"]
 cover: "/img/cover/ansible-for-beginners.webp"
@@ -833,7 +833,7 @@ Ansible Cisco, Juniper, Arista और F5 सहित प्रमुख ने�
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
-            description: Uplink to Core
+            description: कोर नेटवर्क से अपलिंक कनेक्शन
             enabled: true
     
     - name: कॉन्फ़िगरेशन सहेजें

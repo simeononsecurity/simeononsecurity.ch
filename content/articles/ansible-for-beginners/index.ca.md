@@ -3,7 +3,7 @@ title: "Ansible per a principiants 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-13
+lastmod: 2026-11-22
 description: "Guia d’Ansible per a 2026 sobre instal·lació, playbooks, rols, exemples, bones pràctiques i comparacions amb Terraform, Puppet i Chef."
 tags: ["Introducció a Ansible", "Automatització de la gestió d’infraestructura de TI", "Conceptes bàsics d’Ansible", "Automatització d’infraestructura de TI", "Gestió de la configuració", "Desplegament d’aplicacions", "Aprovisionament", "Lliurament continu", "Seguretat i compliment", "Orquestració", "YAML", "Mòduls d’Ansible", "Rols", "Bones pràctiques", "Control de versions", "Proves", "Red Hat", "Administradors de sistemes", "Linux", "macOS", "Windows", "Instal·lació d’Ansible", "Inventari d’Ansible", "Playbooks d’Ansible", "Mòduls d’Ansible", "Rols d’Ansible", "Bones pràctiques d’Ansible", "Proves d’Ansible", "Eina d’automatització d’infraestructura de TI", "Tutorial d’Ansible", "Automatització de la gestió d’infraestructura", "Ansible per a principiants", "Aprendre Ansible", "Tutorial d’Ansible 2026", "Ansible i Terraform", "Ansible i Puppet", "Exemples de playbooks d’Ansible", "Automatització amb Ansible", "Eines DevOps", "Infraestructura com a codi", "Ansible AWX", "Ansible Tower", "Col·leccions d’Ansible", "Ansible Galaxy", "Ansible Vault", "Automatització del núvol amb Ansible"]
 cover: "/img/cover/ansible-for-beginners.webp"
@@ -833,7 +833,7 @@ Ansible és compatible amb els principals proveïdors de xarxes, com Cisco, Juni
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
-            description: Uplink to Core
+            description: Enllaç ascendent al nucli
             enabled: true
     
     - name: Desar la configuració

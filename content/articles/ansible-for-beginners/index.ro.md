@@ -3,7 +3,7 @@ title: "Ansible pentru începători 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-13
+lastmod: 2026-11-22
 description: "Ghid Ansible pentru 2026 despre instalare, playbook-uri, roluri, exemple, bune practici și comparații cu Terraform, Puppet și Chef."
 tags: ["Introducere în Ansible", "Automatizarea gestionării infrastructurii IT", "Noțiuni de bază despre Ansible", "Automatizarea infrastructurii IT", "Gestionarea configurației", "Implementarea aplicațiilor", "Provisionare", "Livrare continuă", "Securitate și conformitate", "Orchestrare", "YAML", "Module Ansible", "Roluri", "Bune practici", "Controlul versiunilor", "Testare", "Red Hat", "Administratori de sistem", "Linux", "macOS", "Windows", "Instalarea Ansible", "Inventar Ansible", "Playbook-uri Ansible", "Module Ansible", "Roluri Ansible", "Bune practici Ansible", "Testarea Ansible", "Instrument de automatizare a infrastructurii IT", "Tutorial Ansible", "Automatizarea gestionării infrastructurii", "Ansible pentru începători", "Învățarea Ansible", "Tutorial Ansible 2026", "Ansible și Terraform", "Ansible și Puppet", "Exemple de playbook-uri Ansible", "Automatizare cu Ansible", "Instrumente DevOps", "Infrastructură ca cod", "Ansible AWX", "Ansible Tower", "Colecții Ansible", "Ansible Galaxy", "Ansible Vault", "Automatizare cloud cu Ansible"]
 cover: "/img/cover/ansible-for-beginners.webp"
@@ -833,7 +833,7 @@ Ansible acceptă principalii furnizori de echipamente de rețea, inclusiv Cisco,
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
-            description: Uplink to Core
+            description: Legătură ascendentă către nucleu
             enabled: true
     
     - name: Salvează configurația

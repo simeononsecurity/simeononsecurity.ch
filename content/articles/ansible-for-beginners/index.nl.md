@@ -3,7 +3,7 @@ title: "Ansible voor beginners 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-13
+lastmod: 2026-11-22
 description: "Een Ansible-gids voor 2026 over installatie, playbooks, rollen, voorbeelden, aanbevolen werkwijzen en vergelijkingen met Terraform, Puppet en Chef."
 tags: ["Introductie tot Ansible", "IT-infrastructuurbeheer automatiseren", "Ansible-basis", "IT-infrastructuurautomatisering", "Configuratiebeheer", "Applicatie-implementatie", "Inrichting", "Continue levering", "Naleving van beveiligingseisen", "Orkestratie", "YAML", "Ansible-modules", "Rollen", "Aanbevolen werkwijzen", "Versiebeheer", "Testen", "Red Hat", "Systeembeheerders", "Linux", "macOS", "Windows", "Ansible-installatie", "Ansible-inventaris", "Ansible-playbooks", "Ansible-modules", "Ansible-rollen", "Ansible-aanbevelingen", "Ansible-testen", "IT-infrastructuurautomatiseringstool", "Ansible-handleiding", "Automatisering van infrastructuurbeheer", "Ansible voor beginners", "Ansible leren", "Ansible-handleiding 2026", "Ansible versus Terraform", "Ansible versus Puppet", "Voorbeelden van Ansible-playbooks", "Ansible-automatisering", "DevOps-hulpmiddelen", "Infrastructuur als code", "Ansible AWX", "Ansible Tower", "Ansible-collecties", "Ansible Galaxy", "Ansible Vault", "Ansible-cloudautomatisering"]
 cover: "/img/cover/ansible-for-beginners.webp"
@@ -833,7 +833,7 @@ Ansible ondersteunt grote netwerkleveranciers, waaronder Cisco, Juniper, Arista 
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
-            description: Uplink to Core
+            description: Uplink naar de kern
             enabled: true
     
     - name: Configuratie opslaan

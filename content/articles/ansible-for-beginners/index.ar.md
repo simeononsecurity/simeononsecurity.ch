@@ -3,7 +3,7 @@ title: "دليل Ansible للمبتدئين 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-13
+lastmod: 2026-11-22
 description: "دليل Ansible لعام 2026، ويغطي التثبيت وملفات Playbook والأدوار والأمثلة وأفضل الممارسات ومقارنات Terraform وPuppet وChef."
 tags: ["مقدمة إلى Ansible", "أتمتة إدارة بنية تقنية المعلومات", "أساسيات Ansible", "أتمتة بنية تقنية المعلومات", "إدارة الإعدادات", "نشر التطبيقات", "تجهيز البنية التحتية", "التسليم المستمر", "الأمان والامتثال", "التنسيق", "YAML", "وحدات Ansible", "الأدوار", "أفضل الممارسات", "التحكم في الإصدارات", "الاختبار", "Red Hat", "مسؤولو الأنظمة", "Linux", "macOS", "Windows", "تثبيت Ansible", "جرد Ansible", "ملفات Playbook في Ansible", "وحدات Ansible", "أدوار Ansible", "أفضل ممارسات Ansible", "اختبار Ansible", "أداة أتمتة بنية تقنية المعلومات", "شرح Ansible", "أتمتة إدارة البنية التحتية", "Ansible للمبتدئين", "تعلم Ansible", "شرح Ansible لعام 2026", "Ansible مقارنة بـ Terraform", "Ansible مقارنة بـ Puppet", "أمثلة على ملفات Playbook في Ansible", "أتمتة Ansible", "أدوات DevOps", "البنية التحتية كرمز", "Ansible AWX", "Ansible Tower", "مجموعات Ansible", "Ansible Galaxy", "Ansible Vault", "أتمتة السحابة باستخدام Ansible"]
 cover: "/img/cover/ansible-for-beginners.webp"
@@ -833,7 +833,7 @@ ansible_port=5986
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
-            description: Uplink to Core
+            description: وصلة صاعدة إلى الشبكة الأساسية
             enabled: true
     
     - name: حفظ الإعدادات

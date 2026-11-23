@@ -3,7 +3,7 @@ title: "Ansible per principianti 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-13
+lastmod: 2026-11-22
 description: "Guida ad Ansible per il 2026: installazione, playbook, ruoli, esempi, buone pratiche e confronti con Terraform, Puppet e Chef."
 tags: ["Introduzione ad Ansible", "Automazione della gestione dell'infrastruttura IT", "Nozioni di base su Ansible", "Automazione dell'infrastruttura IT", "Gestione della configurazione", "Distribuzione delle applicazioni", "Approvvigionamento", "Consegna continua", "Sicurezza e conformità", "Orchestrazione", "YAML", "Moduli Ansible", "Ruoli", "Buone pratiche", "Controllo delle versioni", "Test", "Red Hat", "Amministratori di sistema", "Linux", "macOS", "Windows", "Installazione di Ansible", "Inventario Ansible", "Playbook Ansible", "Moduli Ansible", "Ruoli Ansible", "Buone pratiche Ansible", "Test di Ansible", "Strumento di automazione dell'infrastruttura IT", "Tutorial su Ansible", "Automazione della gestione dell'infrastruttura", "Ansible per principianti", "Imparare Ansible", "Tutorial Ansible 2026", "Ansible e Terraform", "Ansible e Puppet", "Esempi di playbook Ansible", "Automazione Ansible", "Strumenti DevOps", "Infrastruttura come codice", "Ansible AWX", "Ansible Tower", "Raccolte Ansible", "Ansible Galaxy", "Ansible Vault", "Automazione cloud con Ansible"]
 cover: "/img/cover/ansible-for-beginners.webp"
@@ -833,7 +833,7 @@ Ansible supporta i principali fornitori di apparati di rete, tra cui Cisco, Juni
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
-            description: Uplink to Core
+            description: Collegamento ascendente verso il nucleo
             enabled: true
     
     - name: Salvare la configurazione

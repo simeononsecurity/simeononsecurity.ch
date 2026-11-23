@@ -3,7 +3,7 @@ title: "Ansible для начинающих 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-13
+lastmod: 2026-11-22
 description: "Руководство по Ansible на 2026 год: установка, плейбуки, роли, примеры, лучшие практики и сравнение с Terraform, Puppet и Chef."
 tags: ["Введение в Ansible", "Автоматизация управления ИТ-инфраструктурой", "Основы Ansible", "Автоматизация ИТ-инфраструктуры", "Управление конфигурацией", "Развертывание приложений", "Подготовка инфраструктуры", "Непрерывная доставка", "Безопасность и соответствие требованиям", "Оркестрация", "YAML", "Модули Ansible", "Роли", "Лучшие практики", "Контроль версий", "Тестирование", "Red Hat", "Системные администраторы", "Linux", "macOS", "Windows", "Установка Ansible", "Инвентаризация Ansible", "Плейбуки Ansible", "Модули Ansible", "Роли Ansible", "Лучшие практики Ansible", "Тестирование Ansible", "Инструмент автоматизации ИТ-инфраструктуры", "Учебник по Ansible", "Автоматизация управления инфраструктурой", "Ansible для начинающих", "Изучение Ansible", "Учебник Ansible 2026", "Ansible и Terraform", "Ansible и Puppet", "Примеры плейбуков Ansible", "Автоматизация Ansible", "Инструменты DevOps", "Инфраструктура как код", "Ansible AWX", "Ansible Tower", "Коллекции Ansible", "Ansible Galaxy", "Ansible Vault", "Облачная автоматизация Ansible"]
 cover: "/img/cover/ansible-for-beginners.webp"
@@ -833,7 +833,7 @@ Ansible поддерживает крупных поставщиков сете�
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
-            description: Uplink to Core
+            description: Восходящий канал к ядру сети
             enabled: true
     
     - name: Сохранить конфигурацию
