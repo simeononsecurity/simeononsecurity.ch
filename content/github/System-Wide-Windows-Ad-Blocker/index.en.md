@@ -1,35 +1,47 @@
 ---
-title: "Windows 10 System-Wide Ad Blocker Script for Better..."
+title: "System-Wide Windows Ad Blocker: Preview, Apply, and Restore"
 date: 2021-04-02
+lastmod: 2026-11-23
 toc: true
 draft: false
-description: "Block ads, trackers, and telemetry on Windows 10 using this powerful PowerShell script that utilizes the hosts file and Windows Firewall for system-wide ad-blocking."
-tags: ["Windows 10", "ad-blocker", "telemetry blocking", "PowerShell script", "system-wide ad-blocking", "privacy", "security", "EasyList", "Easy Privacy", "NoCoin Filter List", "AdGuard DNS filter", "YoYo Lists", "Peter Lowe's ad tracking malware servers", "Windows Firewall", "domain lists", "block Windows trackers", "block trackers", "block ads", "block tracking"]
+description: "Block domains from the StevenBlack list on Windows with a PowerShell script that preserves your custom hosts entries."
+tags: ["Windows 10", "ad-blocker", "telemetry blocking", "PowerShell script", "system-wide ad-blocking", "privacy", "security"]
 cover: "/img/cover/System-Wide-Windows-Ad-Blocker.webp"
 coverAlt: "A Windows 10 desktop with a PowerShell window showing ad-blocking script code, surrounded by abstract data packets being filtered, set against a dark background with vibrant colors."
 coverCaption: ""
 ---
 
-**System-Wide-Windows-Ad-Blocker**
+Block domains from the StevenBlack list on Windows with a PowerShell script that preserves your custom hosts entries.
 
-[![VirusTotal Scan](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/actions/workflows/virustotal.yml)
+## Set up and preview
 
-This script is a Windows PowerShell script that downloads and applies the "StevenBlack/hosts" file to the system's "hosts" file, which can be used to block certain domains/websites by mapping them to an IP address of your choice (usually the IP address of the local machine). The script checks the internet connection and proxy settings, and tries downloading the latest version of the "hosts" file from two different sources: "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts" and "http://sbc.io/hosts/hosts". If the download fails, the script continues with a local copy of the "hosts" file. The script requires elevated privileges to run and modifies the ".NETFramework" registry key to use only the latest version of the .NET framework.
+Download and extract the complete repository. Review the [GitHub README](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/blob/main/README.md) and script before running it. Open Windows PowerShell 5.1 or PowerShell 7 as administrator in the extracted folder. Test DNS and required apps on a disposable Windows system first.
 
-*We are seeking all comments and concerns for this repo. Please submit an [issue](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/issues) with any information you might have.*
+Preview the change first. Run the second command separately only when ready to apply.
 
-### Lists Used:
-- [StevenBlack/hosts - adware + malware](https://github.com/StevenBlack/hosts)
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -WhatIf
+```
 
-### Example:
-#### Manual install:
-**The script may be launched from the extracted GitHub download like this:**
 ```powershell
 .\sos-system-wide-windows-ad-block.ps1
 ```
-#### Automated install:
-Run the latest version of the script automatically:
+
+## Restore the original hosts file
+
+Preview the restore first. Run the second command separately only when ready to restore.
+
 ```powershell
-iwr -useb 'https://simeononsecurity.com/scripts/soswindowsadblocker.ps1' | iex
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore -WhatIf
 ```
 
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore
+```
+
+Keep the backup intact until restore succeeds. If someone or another app edited the hosts file after the script applied changes, restore stops. Preserve and reconcile those edits before retrying.
+
+## Block list
+
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts)
+- [Report a problem](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/issues)

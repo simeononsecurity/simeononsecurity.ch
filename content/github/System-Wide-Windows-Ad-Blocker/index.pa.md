@@ -1,30 +1,44 @@
 ---
 title: "ਬਿਹਤਰ ਗੋਪਨੀਯਤਾ ਅਤੇ ਸੁਰੱਖਿਆ ਲਈ Windows 10 ਸਿਸਟਮ-ਵਾਈਡ ਐਡ ਬਲੌਕਰ ਸਕ੍ਰਿਪਟ"
 date: 2021-04-02
+lastmod: 2026-11-23
 toc: true
 draft: false
-description: "ਇਸ ਸ਼ਕਤੀਸ਼ਾਲੀ PowerShell ਸਕ੍ਰਿਪਟ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ Windows 10 'ਤੇ ਵਿਗਿਆਪਨਾਂ, ਟਰੈਕਰਾਂ ਅਤੇ ਟੈਲੀਮੈਟਰੀ ਨੂੰ ਬਲਾਕ ਕਰੋ ਜੋ ਸਿਸਟਮ-ਵਿਆਪਕ ਵਿਗਿਆਪਨ-ਬਲੌਕਿੰਗ ਲਈ ਹੋਸਟ ਫਾਈਲ ਅਤੇ ਵਿੰਡੋਜ਼ ਫਾਇਰਵਾਲ ਦੀ ਵਰਤੋਂ ਕਰਦੀ ਹੈ।"
-tags: ["ਵਿੰਡੋਜ਼ 10", "ਵਿਗਿਆਪਨ ਬਲੌਕਰ", "ਟੈਲੀਮੈਟਰੀ ਬਲਾਕਿੰਗ", "PowerShell ਸਕ੍ਰਿਪਟ", "ਸਿਸਟਮ-ਵਿਆਪੀ ਵਿਗਿਆਪਨ-ਬਲੌਕਿੰਗ", "ਗੋਪਨੀਯਤਾ", "ਸੁਰੱਖਿਆ", "EasyList", "ਆਸਾਨ ਪਰਦੇਦਾਰੀ", "NoCoin ਫਿਲਟਰ ਸੂਚੀ", "AdGuard DNS ਫਿਲਟਰ", "YoYo ਸੂਚੀਆਂ", "ਪੀਟਰ ਲੋਵੇ ਦਾ ਵਿਗਿਆਪਨ ਟਰੈਕਿੰਗ ਮਾਲਵੇਅਰ ਸਰਵਰ", "ਵਿੰਡੋਜ਼ ਫਾਇਰਵਾਲ", "ਡੋਮੇਨ ਸੂਚੀਆਂ", "ਵਿੰਡੋਜ਼ ਟਰੈਕਰਾਂ ਨੂੰ ਬਲੌਕ ਕਰੋ", "ਬਲਾਕ ਟਰੈਕਰ", "ਬਲਾਕ ਵਿਗਿਆਪਨ", "ਬਲਾਕ ਟਰੈਕਿੰਗ"]
+description: "Windows ਵਿੱਚ StevenBlack ਸੂਚੀ ਦੇ ਡੋਮੇਨ ਬਲੌਕ ਕਰੋ। ਇਹ PowerShell ਸਕ੍ਰਿਪਟ ਤੁਹਾਡੀਆਂ ਕਸਟਮ hosts ਐਂਟਰੀਆਂ ਨੂੰ ਜਿਉਂ ਦਾ ਤਿਉਂ ਰੱਖਦੀ ਹੈ।"
+tags: ["ਵਿੰਡੋਜ਼ 10", "ਵਿਗਿਆਪਨ ਬਲੌਕਰ", "ਟੈਲੀਮੈਟਰੀ ਬਲਾਕਿੰਗ", "PowerShell ਸਕ੍ਰਿਪਟ", "ਸਿਸਟਮ-ਵਿਆਪੀ ਵਿਗਿਆਪਨ-ਬਲੌਕਿੰਗ", "ਗੋਪਨੀਯਤਾ", "ਸੁਰੱਖਿਆ"]
 ---
 
-## ਵਰਣਨ:
-ਇਹ ਸਕ੍ਰਿਪਟ ਮੇਜ਼ਬਾਨ ਫਾਈਲ ਦੁਆਰਾ ਟੈਲੀਮੈਟਰੀ ਨਾਲ ਸਬੰਧਤ ਡੋਮੇਨ ਅਤੇ ਵਿੰਡੋਜ਼ ਫਾਇਰਵਾਲ ਦੁਆਰਾ ਸੰਬੰਧਿਤ IP ਨੂੰ ਬਲੌਕ ਕਰਦੀ ਹੈ।
+Windows ਵਿੱਚ StevenBlack ਸੂਚੀ ਦੇ ਡੋਮੇਨ ਬਲੌਕ ਕਰੋ। ਇਹ PowerShell ਸਕ੍ਰਿਪਟ ਤੁਹਾਡੀਆਂ ਕਸਟਮ hosts ਐਂਟਰੀਆਂ ਨੂੰ ਜਿਉਂ ਦਾ ਤਿਉਂ ਰੱਖਦੀ ਹੈ।
 
-**ਨੋਟ:**
-- ਇਹਨਾਂ ਡੋਮੇਨਾਂ ਨੂੰ ਜੋੜਨ ਨਾਲ iTunes ਜਾਂ Skype ਵਰਗੇ ਕੁਝ ਸੌਫਟਵੇਅਰ ਟੁੱਟ ਸਕਦੇ ਹਨ
-- Akamai ਨਾਲ ਸਬੰਧਤ ਐਂਟਰੀਆਂ ਨੂੰ Widevine DRM ਨਾਲ ਸਮੱਸਿਆਵਾਂ ਪੈਦਾ ਕਰਨ ਦੀ ਰਿਪੋਰਟ ਕੀਤੀ ਗਈ ਹੈ
+## ਤਿਆਰੀ ਅਤੇ ਝਲਕ
 
-### ਵਰਤੀਆਂ ਗਈਆਂ ਸੂਚੀਆਂ:
--[EasyList](https://easylist.to/easylist/easylist.txt) / [JustDomains - EasyList](https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt)
--[Easy Privacy](https://easylist.to/easylist/easyprivacy.txt) / [JustDomains - EasyPrivacy](https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt)
--[NoCoin Filter List](https://github.com/hoshsadiq/adblock-nocoin-list/) / [JustDomains - NoCoin Filter List](https://justdomains.github.io/blocklists/lists/nocoin-justdomains.txt)
--[AdGuard DNS filter](https://github.com/AdguardTeam/AdguardSDNSFilter) / [JustDomains - AdGuard Simplified Domain Names Filter](https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt)
--[YoYo Lists](https://pgl.yoyo.org/adservers/serverlist.php)
--[Peter Lowe’s ad/tracking/malware servers](https://pgl.yoyo.org/adservers/policy.php)
+ਪੂਰੀ ਰਿਪੋਜ਼ਟਰੀ ਡਾਊਨਲੋਡ ਕਰਕੇ ਖੋਲ੍ਹੋ। ਚਲਾਉਣ ਤੋਂ ਪਹਿਲਾਂ [GitHub README](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/blob/main/README.md) ਅਤੇ ਸਕ੍ਰਿਪਟ ਪੜ੍ਹੋ। ਖੋਲ੍ਹੇ ਫੋਲਡਰ ਵਿੱਚ Windows PowerShell 5.1 ਜਾਂ PowerShell 7 ਨੂੰ ਪ੍ਰਬੰਧਕ ਵਜੋਂ ਖੋਲ੍ਹੋ। ਪਹਿਲਾਂ ਅਸਥਾਈ Windows ਸਿਸਟਮ ਉੱਤੇ DNS ਅਤੇ ਲੋੜੀਂਦੀਆਂ ਐਪਾਂ ਦੀ ਜਾਂਚ ਕਰੋ।
 
-### ਉਦਾਹਰਨ:
+ਪਹਿਲਾਂ ਤਬਦੀਲੀਆਂ ਦੀ ਝਲਕ ਵੇਖੋ। ਲਾਗੂ ਕਰਨ ਲਈ ਤਿਆਰ ਹੋਵੋ ਤਾਂ ਦੂਜੀ ਕਮਾਂਡ ਵੱਖਰੇ ਤੌਰ ’ਤੇ ਚਲਾਓ।
 
-ਸਕ੍ਰਿਪਟ ਦਾ ਨਵੀਨਤਮ ਸੰਸਕਰਣ ਆਪਣੇ ਆਪ ਚਲਾਓ:
 ```powershell
-iwr -useb 'https://raw.githubusercontent.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/main/sos-system-wide-windows-ad-block.ps1' | iex
+.\sos-system-wide-windows-ad-block.ps1 -WhatIf
 ```
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1
+```
+
+## ਅਸਲ hosts ਫਾਈਲ ਮੁੜ ਬਹਾਲ ਕਰੋ
+
+ਪਹਿਲਾਂ ਬਹਾਲੀ ਦੀ ਝਲਕ ਵੇਖੋ। ਤਿਆਰ ਹੋਣ ’ਤੇ ਦੂਜੀ ਕਮਾਂਡ ਵੱਖਰੇ ਤੌਰ ’ਤੇ ਚਲਾਓ।
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore -WhatIf
+```
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore
+```
+
+ਬਹਾਲੀ ਪੂਰੀ ਹੋਣ ਤੱਕ ਬੈਕਅੱਪ ਨੂੰ ਨਾ ਬਦਲੋ। ਜੇ ਲਾਗੂ ਕਰਨ ਤੋਂ ਬਾਅਦ ਕਿਸੇ ਵਿਅਕਤੀ ਜਾਂ ਐਪ ਨੇ hosts ਫਾਈਲ ਬਦਲੀ ਹੋਵੇ, ਤਾਂ ਬਹਾਲੀ ਰੁਕ ਜਾਂਦੀ ਹੈ। ਮੁੜ ਕੋਸ਼ਿਸ਼ ਤੋਂ ਪਹਿਲਾਂ ਤਬਦੀਲੀਆਂ ਸੰਭਾਲੋ ਅਤੇ ਉਨ੍ਹਾਂ ਦਾ ਮੇਲ ਕਰੋ।
+
+## ਬਲੌਕ ਸੂਚੀ
+
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts)
+- [ਸਮੱਸਿਆ ਦੀ ਰਿਪੋਰਟ ਕਰੋ](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/issues)

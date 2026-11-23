@@ -1,32 +1,44 @@
 ---
 title: "Script de blocage des publicités pour l'ensemble du système Windows 10 pour une meilleure protection de la vie privée et de la sécurité"
 date: 2021-04-02
+lastmod: 2026-11-23
 toc: true
 draft: false
-description: "Bloquez les publicités, les traqueurs et la télémétrie sur Windows 10 à l'aide de ce puissant script PowerShell qui utilise le fichier hosts et le pare-feu Windows pour bloquer les publicités à l'échelle du système."
-tags: ["Windows 10", "bloqueur de publicité", "blocage de la télémétrie", "Script PowerShell", "blocage des publicités à l'échelle du système", "vie privée", "sécurité", "EasyList", "Protection de la vie privée", "Liste de filtres NoCoin", "Filtre DNS AdGuard", "Listes YoYo", "Les serveurs malveillants de Peter Lowe pour le suivi des publicités", "Pare-feu Windows", "listes de domaines", "Bloquer les traqueurs Windows", "traqueurs de blocs", "bloquer les publicités", "suivi des blocs"]
+description: "Bloquez les domaines de la liste StevenBlack sous Windows avec un script PowerShell qui conserve vos entrées personnalisées dans le fichier hosts."
+tags: ["Windows 10", "bloqueur de publicité", "blocage de la télémétrie", "Script PowerShell", "blocage des publicités à l'échelle du système", "vie privée", "sécurité"]
 ---
 
-**Système-Wide-Windows-Ad-Blocker**
+Bloquez les domaines de la liste StevenBlack sous Windows avec un script PowerShell qui conserve vos entrées personnalisées dans le fichier hosts.
 
-[![VirusTotal Scan](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/actions/workflows/virustotal.yml)
+## Préparer et prévisualiser
 
-Ce script est un script Windows PowerShell qui télécharge et applique le fichier "StevenBlack/hosts" au fichier "hosts" du système, qui peut être utilisé pour bloquer certains domaines/sites web en les faisant correspondre à une adresse IP de votre choix (généralement l'adresse IP de la machine locale). Le script vérifie la connexion internet et les paramètres du proxy, et tente de télécharger la dernière version du fichier "hosts" à partir de deux sources différentes : "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts" et "http://sbc.io/hosts/hosts". Si le téléchargement échoue, le script continue avec une copie locale du fichier "hosts". Le script nécessite des privilèges élevés pour s'exécuter et modifie la clé de registre ".NETFramework" afin de n'utiliser que la dernière version de .NET framework.
+Téléchargez et extrayez le dépôt complet. Lisez le [README de GitHub](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/blob/main/README.md) et relisez le script avant de l’exécuter. Ouvrez Windows PowerShell 5.1 ou PowerShell 7 en tant qu’administrateur dans le dossier extrait. Testez d’abord le DNS et les applications nécessaires sur un système Windows de test que vous pouvez supprimer.
 
-*Nous sommes à la recherche de tous les commentaires et de toutes les préoccupations concernant ce repo. Veuillez soumettre un [issue](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/issues) avec toute information que vous pourriez avoir.*
+Prévisualisez les changements. Exécutez la seconde commande séparément lorsque vous êtes prêt à les appliquer.
 
-### Listes utilisées :
-- [StevenBlack/hosts - adware + malware](https://github.com/StevenBlack/hosts)
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -WhatIf
+```
 
-### Exemple :
-#### Installation manuelle :
-**Le script peut être lancé à partir du téléchargement GitHub extrait comme ceci:**
 ```powershell
 .\sos-system-wide-windows-ad-block.ps1
 ```
-#### Installation automatisée :
-Exécutez automatiquement la dernière version du script :
+
+## Restaurer le fichier hosts d’origine
+
+Prévisualisez la restauration. Exécutez la seconde commande séparément lorsque vous êtes prêt à restaurer le fichier.
+
 ```powershell
-iwr -useb 'https://simeononsecurity.com/scripts/soswindowsadblocker.ps1' | iex
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore -WhatIf
 ```
 
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore
+```
+
+Gardez la sauvegarde intacte jusqu’à la réussite de la restauration. Si une personne ou une application modifie le fichier hosts après l’application des changements, la restauration s’arrête. Sauvegardez ces modifications et rapprochez-les du contenu à restaurer avant de réessayer.
+
+## Liste de blocage
+
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts)
+- [Signaler un problème](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/issues)

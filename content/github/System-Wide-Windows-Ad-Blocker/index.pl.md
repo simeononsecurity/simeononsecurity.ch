@@ -1,30 +1,44 @@
 ---
 title: "Windows 10 System-Wide Ad Blocker Script dla lepszej prywatności i bezpieczeństwa"
 date: 2021-04-02
+lastmod: 2026-11-23
 toc: true
 draft: false
-description: "Blokuj reklamy, trackery i telemetrię w systemie Windows 10 za pomocą tego potężnego skryptu PowerShell, który wykorzystuje plik hosts i zaporę systemu Windows do blokowania reklam w całym systemie."
-tags: ["Windows 10", "ad-blocker", "blokowanie telemetrii", "Skrypt PowerShell", "systemowe blokowanie reklam", "prywatność", "bezpieczeństwo", "EasyList", "Łatwa prywatność", "Lista filtrów NoCoin", "Filtr DNS AdGuard", "Listy YoYo", "Peter Lowe's ad tracking malware servers", "Zapora systemu Windows", "listy domen", "zablokować trackery Windows", "tropiciele bloków", "blokować reklamy", "śledzenie bloków"]
+description: "Blokuj w systemie Windows domeny z listy StevenBlack za pomocą skryptu PowerShell, który zachowuje własne wpisy w pliku hosts."
+tags: ["Windows 10", "ad-blocker", "blokowanie telemetrii", "Skrypt PowerShell", "systemowe blokowanie reklam", "prywatność", "bezpieczeństwo"]
 ---
 
-## Opis:
-Ten skrypt blokuje domeny związane z Telemetry poprzez plik hosts oraz powiązane IP poprzez Windows Firewall.
+Blokuj w systemie Windows domeny z listy StevenBlack za pomocą skryptu PowerShell, który zachowuje własne wpisy w pliku hosts.
 
-**Notes:**
-- Dodanie tych domen może uszkodzić pewne oprogramowanie, takie jak iTunes czy Skype
-- Zgłoszono, że wpisy związane z Akamai powodują problemy z Widevine DRM
+## Przygotowanie i podgląd
 
-### Użyte listy:
--[EasyList](https://easylist.to/easylist/easylist.txt) / [JustDomains - EasyList](https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt)
--[Easy Privacy](https://easylist.to/easylist/easyprivacy.txt) / [JustDomains - EasyPrivacy](https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt)
--[NoCoin Filter List](https://github.com/hoshsadiq/adblock-nocoin-list/) / [JustDomains - NoCoin Filter List](https://justdomains.github.io/blocklists/lists/nocoin-justdomains.txt)
--[AdGuard DNS filter](https://github.com/AdguardTeam/AdguardSDNSFilter) / [JustDomains - AdGuard Simplified Domain Names Filter](https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt)
--[YoYo Lists](https://pgl.yoyo.org/adservers/serverlist.php)
--[Peter Lowe’s ad/tracking/malware servers](https://pgl.yoyo.org/adservers/policy.php)
+Pobierz i rozpakuj całe repozytorium. Przed uruchomieniem przeczytaj [plik README w serwisie GitHub](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/blob/main/README.md) i przejrzyj skrypt. W rozpakowanym folderze otwórz Windows PowerShell 5.1 lub PowerShell 7 jako administrator. Najpierw sprawdź DNS i potrzebne aplikacje na tymczasowym systemie Windows.
 
-### Przykład:
+Najpierw sprawdź podgląd zmian. Drugie polecenie uruchom osobno dopiero wtedy, gdy chcesz je zastosować.
 
-Uruchom automatycznie najnowszą wersję skryptu:
 ```powershell
-iwr -useb 'https://raw.githubusercontent.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/main/sos-system-wide-windows-ad-block.ps1' | iex
+.\sos-system-wide-windows-ad-block.ps1 -WhatIf
 ```
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1
+```
+
+## Przywracanie oryginalnego pliku hosts
+
+Najpierw sprawdź podgląd przywracania. Drugie polecenie uruchom osobno dopiero wtedy, gdy chcesz przywrócić plik.
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore -WhatIf
+```
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore
+```
+
+Nie zmieniaj kopii zapasowej do czasu pomyślnego przywrócenia. Jeśli ktoś lub aplikacja zmieni plik hosts po zastosowaniu zmian, przywracanie się zatrzyma. Zapisz i uzgodnij te zmiany przed ponowną próbą.
+
+## Lista blokowania
+
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts)
+- [Zgłoś problem](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/issues)
