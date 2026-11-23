@@ -1,7 +1,7 @@
 ---
 title: "Ghidul începătorului pentru certificarea CISSP: Sfaturi pentru pregătirea examenului"
 date: 2023-05-15
-lastmod: 2026-11-08
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Aflați pașii de pregătire și de promovare a examenului CISSP, o certificare prestigioasă pentru profesioniștii din domeniul securității informațiilor."
@@ -19,11 +19,11 @@ Certificarea [**Certified Information Systems Security Professional (CISSP)**](h
 
 [Certificarea CISSP](https://www.isc2.org/Certifications/CISSP) este o certificare de nivel avansat care validează competențele candidatului în securitatea informațiilor. Este acordată de International Information System Security Certification Consortium, cunoscut și ca (ISC)², o organizație non-profit specializată în educație și certificare în domeniul securității informațiilor.
 
-Pentru a obține certificatul [CISSP certification](https://www.isc2.org/Certifications/CISSP) candidații trebuie să treacă un examen care acoperă opt domenii ale securității informațiilor. Aceste domenii includ **gestiunea securității și a riscurilor**, **securitatea activelor**, **ingineria securității**, **securitatea comunicațiilor și a rețelelor**, **gestionarea identității și a accesului**, **evaluarea și testarea securității**, **operațiunile de securitate** și **securitatea dezvoltării de software**.
+Pentru a obține [certificarea CISSP](https://www.isc2.org/Certifications/CISSP), candidații trebuie să treacă un examen care acoperă opt domenii ale securității informațiilor. Aceste domenii includ **gestiunea securității și a riscurilor**, **securitatea activelor**, **ingineria securității**, **securitatea comunicațiilor și a rețelelor**, **gestionarea identității și a accesului**, **evaluarea și testarea securității**, **operațiunile de securitate** și **securitatea dezvoltării de software**.
 
 ## De ce să obțineți o certificare CISSP?
 
-Există multe motive pentru care profesioniștii din domeniul securității informațiilor pot alege să obțină o certificare [CISSP certification.](https://www.isc2.org/Certifications/CISSP) În primul rând, demonstrează un nivel ridicat de expertiză în domeniu și poate contribui la creșterea credibilității și a capacității de comercializare în fața potențialilor angajatori. În plus, multe organizații solicită profesioniștilor în domeniul securității informațiilor să dețină o certificare CISSP ca o condiție de angajare.
+Există multe motive pentru care profesioniștii din domeniul securității informațiilor pot alege să obțină [certificarea CISSP](https://www.isc2.org/Certifications/CISSP). În primul rând, aceasta demonstrează un nivel ridicat de expertiză în domeniu și poate contribui la creșterea credibilității și a capacității de comercializare în fața potențialilor angajatori. În plus, multe organizații solicită profesioniștilor în domeniul securității informațiilor să dețină o certificare CISSP ca o condiție de angajare.
 
 ## Cum să vă pregătiți pentru examenul CISSP
 
@@ -72,6 +72,6 @@ Candidații trebuie să se asigure că au toate documentele și actele de identi
 
 ## Concluzie
 
-Obținerea unui [CISSP certification](https://www.isc2.org/Certifications/CISSP) reprezintă o realizare semnificativă și poate deschide ușile către noi oportunități de carieră în domeniul securității informațiilor. Este nevoie de dedicare, angajament și multă muncă pentru a vă pregăti și a trece examenul. Urmând pașii descriși în acest ghid, candidații își pot crește șansele de succes și pot deveni profesioniști certificați CISSP.
+Obținerea [certificării CISSP](https://www.isc2.org/Certifications/CISSP) reprezintă o realizare semnificativă și poate deschide ușile către noi oportunități de carieră în domeniul securității informațiilor. Este nevoie de dedicare, angajament și multă muncă pentru a vă pregăti și a trece examenul. Urmând pașii descriși în acest ghid, candidații își pot crește șansele de succes și pot deveni profesioniști certificați CISSP.
 
 Nu uitați să îndepliniți cerințele de eligibilitate, să înțelegeți formatul examenului, să elaborați un plan de studiu, să exersați cu examene practice și să vă înscrieți la examen. Mult noroc în călătoria dumneavoastră pentru a deveni un profesionist certificat CISSP!

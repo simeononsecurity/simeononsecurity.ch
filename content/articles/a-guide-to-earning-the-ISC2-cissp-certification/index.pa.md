@@ -1,7 +1,7 @@
 ---
 title: "CISSP ਸਰਟੀਫਿਕੇਸ਼ਨ ਲਈ ਸ਼ੁਰੂਆਤੀ ਗਾਈਡ: ਪ੍ਰੀਖਿਆ ਦੀ ਤਿਆਰੀ ਲਈ ਸੁਝਾਅ"
 date: 2023-05-15
-lastmod: 2026-11-08
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "ਜਾਣੋ ਕਿ ਜਾਣਕਾਰੀ ਸੁਰੱਖਿਆ ਮਾਹਿਰਾਂ ਲਈ ਅਹਿਮ CISSP ਪ੍ਰੀਖਿਆ ਦੀ ਤਿਆਰੀ ਅਤੇ ਪਾਸ ਕਰਨ ਲਈ ਕਿਹੜੇ ਕਦਮ ਚੁੱਕਣੇ ਹਨ।"
@@ -50,7 +50,7 @@ CISSP ਪ੍ਰੀਖਿਆ ਕੰਪਿਊਟਰ ਉੱਤੇ ਹੁੰਦੀ �
 ### ਸਿਫ਼ਾਰਸ਼ ਕੀਤੇ ਸਰੋਤ
 - YouTube
   - {{< youtube id="_nyZhYnCNLA" >}}
-- [PluralSight (Preferred)](https://www.pluralsight.com/)
+- [PluralSight (ਸਿਫ਼ਾਰਸ਼ੀ)](https://www.pluralsight.com/)
 - [ਅਧਿਕਾਰਤ ਸਟੱਡੀ ਗਾਈਡ ਅਤੇ ਅਭਿਆਸ ਟੈਸਟ](https://amzn.to/3LAu3Ly)
 - [ਹੋਰ ਸਿੱਖਣ ਸਰੋਤ](https://simeononsecurity.com/recommendations/learning_resources)
 - [SimeonOnSecurity ਦਾ CISSP ਅਭਿਆਸ ਟੈਸਟ](https://simeononsecurity.com/cissp-practice-test)

@@ -1,7 +1,7 @@
 ---
 title: "CISSP সনদ অর্জনে নতুনদের নির্দেশিকা: পরীক্ষার প্রস্তুতির পরামর্শ"
 date: 2023-05-15
-lastmod: 2026-11-08
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "তথ্য সুরক্ষা পেশাজীবীদের সম্মানিত CISSP পরীক্ষার প্রস্তুতি ও উত্তীর্ণ হওয়ার ধাপগুলো শিখুন।"
@@ -50,7 +50,7 @@ CISSP প্রস্তুতির গুরুত্বপূর্ণ অং
 ### প্রস্তাবিত উপকরণ
 - YouTube
   - {{< youtube id="_nyZhYnCNLA" >}}
-- [PluralSight (Preferred)](https://www.pluralsight.com/)
+- [PluralSight (পছন্দের)](https://www.pluralsight.com/)
 - [অফিসিয়াল স্টাডি গাইড ও অনুশীলনী পরীক্ষা](https://amzn.to/3LAu3Ly)
 - [আরও শেখার উপকরণ](https://simeononsecurity.com/recommendations/learning_resources)
 - [SimeonOnSecurity-এর CISSP অনুশীলনী পরীক্ষা](https://simeononsecurity.com/cissp-practice-test)

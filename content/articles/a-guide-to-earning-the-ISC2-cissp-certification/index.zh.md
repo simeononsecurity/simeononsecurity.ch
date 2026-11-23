@@ -1,7 +1,7 @@
 ---
 title: "CISSP 认证入门指南：考试准备建议"
 date: 2023-05-15
-lastmod: 2026-11-08
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "了解如何准备并通过面向信息安全专业人士的知名 CISSP 考试。"
@@ -50,7 +50,7 @@ CISSP 考试在计算机上进行，包含 250 道选择题。考生有六小时
 ### 推荐资源
 - YouTube
   - {{< youtube id="_nyZhYnCNLA" >}}
-- [PluralSight (Preferred)](https://www.pluralsight.com/)
+- [PluralSight (首选)](https://www.pluralsight.com/)
 - [官方学习指南和模拟测试](https://amzn.to/3LAu3Ly)
 - [更多学习资源](https://simeononsecurity.com/recommendations/learning_resources)
 - [SimeonOnSecurity 的 CISSP 模拟考试](https://simeononsecurity.com/cissp-practice-test)

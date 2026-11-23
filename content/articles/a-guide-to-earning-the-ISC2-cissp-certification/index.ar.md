@@ -1,7 +1,7 @@
 ---
 title: "دليل المبتدئين للحصول على شهادة CISSP: نصائح للاستعداد للاختبار"
 date: 2023-05-15
-lastmod: 2026-11-08
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "تعرّف إلى خطوات الاستعداد لاختبار CISSP واجتيازه، وهي شهادة مرموقة لمتخصصي أمن المعلومات."
@@ -50,7 +50,7 @@ coverCaption: ""
 ### موارد موصى بها
 - YouTube
   - {{< youtube id="_nyZhYnCNLA" >}}
-- [PluralSight (Preferred)](https://www.pluralsight.com/)
+- [PluralSight (المفضّل)](https://www.pluralsight.com/)
 - [الدليل الدراسي الرسمي والاختبارات التدريبية](https://amzn.to/3LAu3Ly)
 - [المزيد من موارد التعلم](https://simeononsecurity.com/recommendations/learning_resources)
 - [اختبار CISSP التدريبي من SimeonOnSecurity](https://simeononsecurity.com/cissp-practice-test)

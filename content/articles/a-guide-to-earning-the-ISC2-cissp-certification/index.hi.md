@@ -1,7 +1,7 @@
 ---
 title: "CISSP प्रमाणन के लिए शुरुआती मार्गदर्शिका: परीक्षा की तैयारी के सुझाव"
 date: 2023-05-15
-lastmod: 2026-11-08
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "जानें कि सूचना सुरक्षा पेशेवरों के लिए प्रतिष्ठित CISSP परीक्षा की तैयारी और उसे पास करने के लिए कौन से चरण अपनाएँ।"
@@ -50,7 +50,7 @@ CISSP परीक्षा की तैयारी में अध्यय�
 ### सुझाए गए संसाधन
 - YouTube
   - {{< youtube id="_nyZhYnCNLA" >}}
-- [PluralSight (Preferred)](https://www.pluralsight.com/)
+- [PluralSight (पसंदीदा)](https://www.pluralsight.com/)
 - [आधिकारिक अध्ययन मार्गदर्शिका और अभ्यास परीक्षाएँ](https://amzn.to/3LAu3Ly)
 - [अधिक अध्ययन संसाधन](https://simeononsecurity.com/recommendations/learning_resources)
 - [SimeonOnSecurity की CISSP अभ्यास परीक्षा](https://simeononsecurity.com/cissp-practice-test)

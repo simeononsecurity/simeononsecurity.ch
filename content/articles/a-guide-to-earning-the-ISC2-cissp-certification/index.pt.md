@@ -1,7 +1,7 @@
 ---
 title: "Guia para iniciantes sobre a certificação CISSP: dicas de preparação para o exame"
 date: 2023-05-15
-lastmod: 2026-11-08
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Conheça as etapas para se preparar e passar no exame CISSP, uma certificação valorizada por profissionais de segurança da informação."
@@ -50,7 +50,7 @@ Há vários materiais disponíveis, como livros, cursos on-line e grupos de estu
 ### Recursos recomendados
 - YouTube
   - {{< youtube id="_nyZhYnCNLA" >}}
-- [PluralSight (Preferred)](https://www.pluralsight.com/)
+- [PluralSight (Preferido)](https://www.pluralsight.com/)
 - [Guia de estudo oficial e testes práticos](https://amzn.to/3LAu3Ly)
 - [Mais recursos de aprendizagem](https://simeononsecurity.com/recommendations/learning_resources)
 - [Teste prático CISSP da SimeonOnSecurity](https://simeononsecurity.com/cissp-practice-test)

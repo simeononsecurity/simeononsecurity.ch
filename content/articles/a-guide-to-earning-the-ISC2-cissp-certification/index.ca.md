@@ -1,7 +1,7 @@
 ---
 title: "Guia per a principiants sobre la certificació CISSP: consells per preparar l'examen"
 date: 2023-05-15
-lastmod: 2026-11-08
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "Aprèn quins passos cal seguir per preparar-te i aprovar l'examen CISSP, una certificació prestigiosa per a professionals de la seguretat de la informació."
@@ -50,7 +50,7 @@ Hi ha diversos materials disponibles, com ara llibres, cursos en línia i grups 
 ### Recursos recomanats
 - YouTube
   - {{< youtube id="_nyZhYnCNLA" >}}
-- [PluralSight (Preferred)](https://www.pluralsight.com/)
+- [PluralSight (recomanat)](https://www.pluralsight.com/)
 - [Guia d'estudi oficial i proves pràctiques](https://amzn.to/3LAu3Ly)
 - [Més recursos d'aprenentatge](https://simeononsecurity.com/recommendations/learning_resources)
 - [Prova pràctica CISSP de SimeonOnSecurity](https://simeononsecurity.com/cissp-practice-test)

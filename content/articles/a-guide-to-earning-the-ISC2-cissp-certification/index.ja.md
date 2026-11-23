@@ -1,7 +1,7 @@
 ---
 title: "CISSP 認定の初心者ガイド：試験準備のヒント"
 date: 2023-05-15
-lastmod: 2026-11-08
+lastmod: 2026-11-22
 toc: true
 draft: false
 description: "情報セキュリティの専門家向け資格として評価の高い CISSP 試験に備え、合格するための手順を学びます。"
@@ -50,7 +50,7 @@ CISSP 試験はコンピューターで実施され、250問の選択式問題�
 ### おすすめの教材
 - YouTube
   - {{< youtube id="_nyZhYnCNLA" >}}
-- [PluralSight (Preferred)](https://www.pluralsight.com/)
+- [PluralSight (おすすめ)](https://www.pluralsight.com/)
 - [公式学習ガイドと模擬試験](https://amzn.to/3LAu3Ly)
 - [その他の学習リソース](https://simeononsecurity.com/recommendations/learning_resources)
 - [SimeonOnSecurity の CISSP 模擬試験](https://simeononsecurity.com/cissp-practice-test)
