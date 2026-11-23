@@ -1,30 +1,44 @@
 ---
 title: "Общесистемный скрипт блокировки рекламы Windows 10 для лучшей конфиденциальности и безопасности"
 date: 2021-04-02
+lastmod: 2026-11-23
 toc: true
 draft: false
-description: "Блокируйте рекламу, трекеры и данные телеметрии в Windows 10 с помощью этого мощного сценария PowerShell, который использует файл hosts и брандмауэр Windows для общесистемной блокировки рекламы."
-tags: ["Windows 10", "блокировщик рекламы", "блокировка телеметрии", "Сценарий PowerShell", "общесистемная блокировка рекламы", "конфиденциальность", "безопасность", "EasyList", "Легкая конфиденциальность", "Список фильтров NoCoin", "DNS-фильтр AdGuard", "YoYo списки", "Серверы вредоносного ПО для отслеживания рекламы Питера Лоу", "Брандмауэр Windows", "списки доменов", "блокировать трекеры Windows", "Блок-трекеры", "блокировать рекламу", "блокировать отслеживание"]
+description: "Блокируйте в Windows домены из списка StevenBlack с помощью скрипта PowerShell, который сохраняет ваши записи в файле hosts."
+tags: ["Windows 10", "блокировщик рекламы", "блокировка телеметрии", "Сценарий PowerShell", "общесистемная блокировка рекламы", "конфиденциальность", "безопасность"]
 ---
 
-## Описание:
-Этот сценарий блокирует домены, связанные с телеметрией, через файл hosts и соответствующие IP-адреса через брандмауэр Windows.
+Блокируйте в Windows домены из списка StevenBlack с помощью скрипта PowerShell, который сохраняет ваши записи в файле hosts.
 
-**Примечания:**
-- Добавление этих доменов может привести к поломке некоторых программ, таких как iTunes или Skype.
-- Сообщалось, что записи, связанные с Akamai, вызывают проблемы с Widevine DRM.
+## Подготовка и предварительная проверка
 
-### Используемые списки:
--[EasyList](https://easylist.to/easylist/easylist.txt) / [JustDomains - EasyList](https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt)
--[Easy Privacy](https://easylist.to/easylist/easyprivacy.txt) / [JustDomains - EasyPrivacy](https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt)
--[NoCoin Filter List](https://github.com/hoshsadiq/adblock-nocoin-list/) / [JustDomains - NoCoin Filter List](https://justdomains.github.io/blocklists/lists/nocoin-justdomains.txt)
--[AdGuard DNS filter](https://github.com/AdguardTeam/AdguardSDNSFilter) / [JustDomains - AdGuard Simplified Domain Names Filter](https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt)
--[YoYo Lists](https://pgl.yoyo.org/adservers/serverlist.php)
--[Peter Lowe’s ad/tracking/malware servers](https://pgl.yoyo.org/adservers/policy.php)
+Скачайте и распакуйте весь репозиторий. Перед запуском прочитайте [README на GitHub](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/blob/main/README.md) и проверьте скрипт. В распакованной папке откройте Windows PowerShell 5.1 или PowerShell 7 от имени администратора. Сначала проверьте DNS и нужные приложения на временной системе Windows.
 
-### Пример:
+Сначала проверьте, какие изменения будут внесены. Запустите вторую команду отдельно, когда будете готовы применить изменения.
 
-Запустите последнюю версию скрипта автоматически:
 ```powershell
-iwr -useb 'https://raw.githubusercontent.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/main/sos-system-wide-windows-ad-block.ps1' | iex
+.\sos-system-wide-windows-ad-block.ps1 -WhatIf
 ```
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1
+```
+
+## Восстановление исходного файла hosts
+
+Сначала проверьте, что сделает команда восстановления. Запустите вторую команду отдельно, когда будете готовы восстановить файл.
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore -WhatIf
+```
+
+```powershell
+.\sos-system-wide-windows-ad-block.ps1 -Mode Restore
+```
+
+Не изменяйте резервную копию до успешного восстановления. Если после применения изменений пользователь или приложение отредактировали файл hosts, восстановление остановится. Сохраните и согласуйте эти правки перед повторной попыткой.
+
+## Список блокировки
+
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts)
+- [Сообщить о проблеме](https://github.com/simeononsecurity/System-Wide-Windows-Ad-Blocker/issues)
