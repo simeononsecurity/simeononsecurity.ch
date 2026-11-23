@@ -1,8 +1,9 @@
 ---
-title: "L'état de la cybersécurité de l'IA en 2026 : déployer vite, sécuriser plus tard, payer un jour"
+title: "L'état de la cybersécurité de l'IA en 2026 : déployer vite, protéger plus tard"
 draft: false
 toc: true
 date: 2026-06-26
+lastmod: 2026-11-23
 description: "Une évaluation professionnelle de l'état réel de la cybersécurité de l'IA en 2026. Les organisations ont adopté l'IA à un rythme que les orientations, les outils et les pratiques opérationnelles n'ont pas suivi. L'écart est réel, documenté et croissant."
 tags: ["sécurité IA", "cybersécurité IA 2026", "injection de prompt", "agents IA", "sécurité MCP", "chaîne d'approvisionnement IA", "IA fantôme", "red teaming IA", "sécurité LLM", "observabilité IA", "IA agentique", "menaces IA", "attaques IA", "sécurité des modèles", "gouvernance IA", "NIST AI 600-1", "OWASP LLM", "MITRE ATLAS", "réponse aux incidents IA", "sécurité IA en entreprise", "identité IA", "empoisonnement de contexte", "empoisonnement d'outils", "autorisation IA"]
 cover: "/img/cover/state-of-ai-cybersecurity-2026.webp"
@@ -186,6 +187,51 @@ Questions auxquelles votre équipe IR sera confrontée que les playbooks actuels
 
 *Ces scénarios nécessitent une préparation avant qu'ils ne surviennent. Vous avez besoin de télémétrie en place avant l'incident. Vous avez besoin de baselines de comportement de modèle documentées avant d'avoir besoin de les comparer.*
 
+## Les pipelines d’évaluation deviennent une pratique d’ingénierie standard
+
+La sécurité de l’IA repose de plus en plus sur des **évaluations structurées avant le déploiement**, et pas uniquement sur la surveillance après déploiement.
+
+L’évaluation de sécurité avant déploiement comprend :
+
+- **Tests d’injection de prompt** avec des jeux de données d’injection connus et votre cas d’usage précis
+- **Tests comparatifs de jailbreak** avec des suites de prompts adversariaux publiées
+- **Évaluation de robustesse adversariale** pour les modèles qui prennent des décisions à fort enjeu
+- **Tests de régression** entre versions du modèle pour repérer les changements de comportement
+- **Évaluation des politiques** au regard des exigences documentées d’utilisation acceptable
+- **Exercices de red teaming** menés par des personnes qui cherchent à contourner des défenses précises
+
+NIST, CISA, Anthropic, OpenAI, Microsoft et Google attendent de plus en plus ces évaluations pour les déploiements à haut risque. *Créer des pipelines d’évaluation minimaux avant des déploiements à forts enjeux est plus accessible que beaucoup d’organisations ne le pensent.* OWASP AI Exchange et les cadres d’évaluation publiés par les principaux fournisseurs d’IA constituent de bons points de départ.
+
+## Votre inventaire des actifs IA est probablement incomplet
+
+La gestion traditionnelle des actifs couvre les serveurs, les postes de travail, les applications et les équipements réseau. **Les systèmes d’IA introduisent des catégories d’actifs que la plupart des inventaires ne suivent pas encore.**
+
+Un inventaire des systèmes d’IA doit couvrir :
+
+- Chaque **modèle déployé**, y compris les modèles de base, les variantes affinées et les modèles d’embedding
+- Tous les **prompts et instructions système** actifs en production
+- Chaque **agent** de votre environnement et les outils auxquels il peut accéder
+- Tous les **index RAG**, les sources de données utilisées et les contrôles d’accès appliqués lors de la récupération
+- Toutes les **bases de données vectorielles** et leur contenu
+- Chaque **serveur MCP ou cadre d’intégration équivalent** connecté à un agent
+- Les **services d’IA externes** appelés par vos applications et les données transmises à chacun
+
+*Vous ne pouvez pas gouverner ce que vous n’avez pas inventorié. En 2026, la plupart des organisations qui travaillent sur la sécurité de l’IA découvrent des actifs dont elles ignoraient l’existence.*
+
+## Où en est réellement la défense
+
+Les outils, cadres et pratiques de défense pour la sécurité de l’IA se développent activement et de façon significative. Le domaine est encore jeune, mais il progresse.
+
+**NIST AI 600-1** complète l’AI RMF de base pour l’IA générative avec des précisions opérationnelles nettement plus importantes. Les organisations qui gèrent la conformité de l’IA devraient lire AI 600-1, pas seulement le cadre de base.
+
+**MITRE ATLAS** documente les tactiques, techniques et procédures adversariales visant les systèmes d’IA au format ATT&CK. Une modélisation des menaces avant déploiement fondée sur ATLAS produit des exigences de sécurité plus précises qu’un travail reposant uniquement sur des cadres de gouvernance.
+
+**OWASP LLM Top 10** et **OWASP Agentic AI Top 10** fournissent les conseils publics les plus précis sur le plan opérationnel. Les deux sont plus directement utiles aux praticiens que la plupart des programmes formels.
+
+Le **red teaming de l’IA** avant déploiement est de plus en plus attendu pour les déploiements à haut risque par NIST, CISA et les grands fournisseurs d’IA. Le marché externe du red teaming IA existe et se développe pour les organisations sans capacité interne.
+
+Les **produits de sécurité IA** dédiés à la surveillance, aux garde-fous, à l’autorisation et à l’application de politiques à l’exécution en sont encore aux premières étapes commerciales. *Cette catégorie existe et mérite une évaluation. Comme le marché est jeune, les affirmations marketing dépassent souvent les capacités démontrées. Évaluez les produits selon votre architecture réelle plutôt que les scénarios décrits par le fournisseur.*
+
 ## Ce que vous devriez faire
 
 **Inventoriez ce qui est déployé.** Sachez ce qui tourne, quelles données il accède, quels identifiants il détient, quels outils il appelle et quelles actions il effectue. C'est le prérequis pour tout le reste.
@@ -210,15 +256,15 @@ Questions auxquelles votre équipe IR sera confrontée que les playbooks actuels
 
 ## Références
 
-- NIST AI Risk Management Framework (AI RMF 1.0), 2023
-- NIST AI 600-1: Generative AI Profile, 2024
-- OWASP Top 10 for Large Language Model Applications, 2025
-- OWASP Agentic AI Top 10
+- Cadre de gestion des risques liés à l’IA du NIST (AI RMF 1.0), 2023
+- NIST AI 600-1 : Profil d’IA générative, 2024
+- OWASP Top 10 pour les applications à grands modèles de langage, 2025
+- OWASP Top 10 de l’IA agentique
 - OWASP AI Exchange
-- MITRE ATLAS: Adversarial Threat Landscape for AI Systems
+- MITRE ATLAS : panorama des menaces adversariales visant les systèmes d’IA
 - Google Secure AI Framework (SAIF)
 - Microsoft AI Security SDL
-- CISA Guidance on AI Cybersecurity, 2024
-- ISO/IEC 42001:2023 Artificial Intelligence Management Systems
-- EU AI Act, Regulation (EU) 2024/1689
-- SafeTensors format documentation, Hugging Face
+- Guide de la CISA sur la cybersécurité de l’IA, 2024
+- ISO/IEC 42001:2023 Systèmes de management de l’intelligence artificielle
+- Loi européenne sur l’IA, règlement (UE) 2024/1689
+- Documentation du format SafeTensors, Hugging Face

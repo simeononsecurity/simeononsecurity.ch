@@ -1,8 +1,9 @@
 ---
-title: "Der Stand der KI-Cybersicherheit 2026: Schnell deployen, später sichern, irgendwann zahlen"
+title: "Der Stand der KI-Cybersicherheit 2026: Schnell deployen, später absichern"
 draft: false
 toc: true
 date: 2026-06-26
+lastmod: 2026-11-23
 description: "Eine professionelle Einschätzung des tatsächlichen Stands der KI-Cybersicherheit 2026. Organisationen haben KI in einem Tempo eingeführt, mit dem Leitlinien, Werkzeuge und betriebliche Praktiken nicht Schritt gehalten haben. Die Lücke ist real, dokumentiert und wächst."
 tags: ["KI-Sicherheit", "KI-Cybersicherheit 2026", "Prompt Injection", "KI-Agenten", "MCP-Sicherheit", "KI-Lieferkette", "Schatten-KI", "KI Red Teaming", "LLM-Sicherheit", "KI-Beobachtbarkeit", "agentische KI", "KI-Bedrohungen", "KI-Angriffe", "Modellsicherheit", "KI-Governance", "NIST AI 600-1", "OWASP LLM", "MITRE ATLAS", "KI-Vorfallreaktion", "Unternehmens-KI-Sicherheit", "KI-Identität", "Kontext-Vergiftung", "Tool-Vergiftung", "KI-Autorisierung"]
 cover: "/img/cover/state-of-ai-cybersecurity-2026.webp"
@@ -201,6 +202,36 @@ Vor-Deployment-Evaluierung für Sicherheit umfasst:
 
 *Minimale Evaluierungspipelines vor Hochkonsequenz-Deployments aufzubauen, ist in kleinerem Maßstab erreichbar, als die meisten Organisationen annehmen.*
 
+## Ihr KI-Inventar ist wahrscheinlich unvollständig
+
+Die herkömmliche Bestandsverwaltung erfasst Server, Endgeräte, Anwendungen und Netzwerkgeräte. **KI-Systeme bringen Anlagenkategorien mit sich, die in den meisten Inventaren noch fehlen.**
+
+Ein Inventar der KI-Systeme sollte Folgendes erfassen:
+
+- Jedes **eingesetzte Modell**, einschließlich Basismodellen, feinabgestimmten Varianten und Einbettungsmodellen
+- Alle **Prompts und Systemanweisungen**, die in der Produktion aktiv sind
+- Jeden **Agenten** in Ihrer Umgebung und die Tools, auf die er zugreifen darf
+- Alle **RAG-Indizes**, einschließlich ihrer Datenquellen und der bei der Suche erzwungenen Zugriffskontrollen
+- Alle **Vektordatenbanken** und ihre Inhalte
+- Jeden **MCP-Server oder jedes gleichwertige Integrationsframework**, das mit einem Agenten verbunden ist
+- **Externe KI-Dienste**, die Ihre Anwendungen aufrufen, einschließlich der Daten, die sie jeweils erhalten
+
+*Was Sie nicht inventarisiert haben, können Sie nicht steuern. Die meisten Organisationen entdecken bei ihrer KI-Sicherheitsarbeit 2026 Anlagen, von denen sie nichts wussten.*
+
+## Wo die Abwehr tatsächlich steht
+
+Die Abwehrwerkzeuge, Frameworks und Verfahren für KI-Sicherheit entwickeln sich aktiv und deutlich weiter. Der aktuelle Stand ist noch früh, verbessert sich aber.
+
+**NIST AI 600-1** erweitert das grundlegende AI RMF für generative KI um deutlich konkretere operative Vorgaben. Organisationen mit KI-Compliance-Programmen sollten AI 600-1 lesen und sich nicht auf das Basis-Framework beschränken.
+
+**MITRE ATLAS** dokumentiert gegnerische TTPs für KI-Systeme im ATT&CK-Format. Eine Bedrohungsmodellierung vor der Bereitstellung anhand von ATLAS führt zu präziseren Sicherheitsanforderungen als die Arbeit allein mit Governance-Frameworks.
+
+**OWASP LLM Top 10** und **OWASP Agentic AI Top 10** bieten derzeit die konkreteste öffentlich verfügbare operative Anleitung. Beide sind für Praktiker nützlicher als die meisten formalen Lehrpläne.
+
+**KI-Red-Teaming** vor der Bereitstellung wird für Hochrisiko-Einsätze von NIST, CISA und großen KI-Anbietern zunehmend erwartet. Der externe Markt für KI-Red-Teaming besteht bereits und wächst für Organisationen ohne eigene Fähigkeiten.
+
+Spezielle **Sicherheitsprodukte für KI**-Überwachung, Schutzgeländer, Autorisierung und Laufzeit-Richtliniendurchsetzung stehen noch am Anfang des kommerziellen Einsatzes. *Diese Produktkategorie ist real und eine Prüfung wert. Da der Markt noch jung ist, übertreffen Werbeversprechen häufig die nachgewiesenen Fähigkeiten. Bewerten Sie Produkte anhand Ihrer konkreten Bereitstellungsarchitektur und nicht anhand der vom Anbieter beschriebenen Szenarien.*
+
 ## Was Sie tun sollten
 
 **Inventarisieren Sie, was eingesetzt ist.** Wissen Sie, was läuft, auf welche Daten es zugreift, welche Anmeldedaten es hält, welche Tools es aufruft und welche Aktionen es ausführt. Das ist die Voraussetzung für alles andere.
@@ -225,15 +256,15 @@ Vor-Deployment-Evaluierung für Sicherheit umfasst:
 
 ## Referenzen
 
-- NIST AI Risk Management Framework (AI RMF 1.0), 2023
-- NIST AI 600-1: Generative AI Profile, 2024
-- OWASP Top 10 for Large Language Model Applications, 2025
-- OWASP Agentic AI Top 10
+- NIST-Rahmenwerk zum KI-Risikomanagement (AI RMF 1.0), 2023
+- NIST AI 600-1: Profil für generative KI, 2024
+- OWASP Top 10 für Anwendungen mit großen Sprachmodellen, 2025
+- OWASP Top 10 für agentische KI
 - OWASP AI Exchange
-- MITRE ATLAS: Adversarial Threat Landscape for AI Systems
+- MITRE ATLAS: Bedrohungslandschaft adversarieller Angriffe auf KI-Systeme
 - Google Secure AI Framework (SAIF)
 - Microsoft AI Security SDL
-- CISA Guidance on AI Cybersecurity, 2024
-- ISO/IEC 42001:2023 Artificial Intelligence Management Systems
-- EU AI Act, Regulation (EU) 2024/1689
-- SafeTensors format documentation, Hugging Face
+- CISA-Leitfaden zur KI-Cybersicherheit, 2024
+- ISO/IEC 42001:2023 Managementsysteme für künstliche Intelligenz
+- EU-KI-Gesetz, Verordnung (EU) 2024/1689
+- Dokumentation des SafeTensors-Formats, Hugging Face
