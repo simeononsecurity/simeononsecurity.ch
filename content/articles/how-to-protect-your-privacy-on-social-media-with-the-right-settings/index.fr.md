@@ -3,11 +3,13 @@ title: "Protégez votre vie privée sur les médias sociaux : Maîtriser les bon
 draft: false
 toc: true
 date: 2023-06-15
+lastmod: 2026-11-24
 description: "Découvrez comment protéger votre vie privée sur les plateformes de médias sociaux en comprenant les risques liés à la confidentialité, les préoccupations courantes et en ajustant les paramètres sur Facebook, Instagram, Twitter et LinkedIn."
 genre: ["Vie privée sur les médias sociaux", "Protéger les informations personnelles sur les médias sociaux", "Risques et préoccupations en matière de protection de la vie privée sur les médias sociaux", "Paramètres de confidentialité sur Facebook", "Améliorer la confidentialité sur Instagram", "Sécuriser votre compte Twitter", "Protection de la vie privée sur LinkedIn"]
 tags: ["ajuster les paramètres de confidentialité de Facebook", "Contrôler le nombre de followers sur Instagram", "gérer les données de Twitter", "protection de la vie privée sur LinkedIn", "limiter les autorisations d'utilisation des applications sur les médias sociaux", "améliorer la confidentialité sur Instagram", "protéger les tweets sur Twitter", "gérer les connexions LinkedIn", "sécuriser le compte Twitter", "la vie privée sur les plateformes de médias sociaux"]
 cover: "/img/cover/protect-your-privacy-on-social-media.webp"
 coverAlt: "Image symbolique de style bande dessinée représentant un bouclier verrouillé protégeant les informations personnelles d'une personne sur les médias sociaux"
+coverCaption: "Protégez votre vie privée en ligne grâce aux bons paramètres et gardez vos informations personnelles en sécurité."
 ---
 
 ## Comment protéger votre vie privée sur les médias sociaux avec les bons paramètres
@@ -56,7 +58,7 @@ En outre, vous pouvez choisir de **cacher votre liste d'amis** à tout le monde,
 
 #### Gestion de vos paramètres de marquage
 
-**Le marquage est une fonctionnalité courante sur Facebook, qui permet à vos amis de vous marquer dans leurs publications, photos ou vidéos. Cependant, cette fonctionnalité peut parfois poser des problèmes de confidentialité, notamment si vous êtes associé à une publication à laquelle vous ne souhaitez pas être associé.
+**Le marquage** est une fonctionnalité courante sur Facebook, qui permet à vos amis de vous marquer dans leurs publications, photos ou vidéos. Cependant, cette fonctionnalité peut parfois poser des problèmes de confidentialité, notamment si vous êtes associé à une publication à laquelle vous ne souhaitez pas être associé.
 
 Pour gérer vos paramètres de marquage, vous pouvez ajuster vos paramètres de confidentialité afin de **vérifier les publications** dans lesquelles vos amis vous marquent avant qu'elles n'apparaissent sur votre timeline. Ce paramètre vous permet de contrôler les publications et les images qui sont visibles par les autres. Vous pouvez choisir d'**approuver ou de refuser le tag**, ou de **supprimer complètement le tag**.
 
@@ -70,7 +72,7 @@ En conclusion, le réglage de vos paramètres de confidentialité sur Facebook e
 
 ### Améliorer la confidentialité sur Instagram
 
-**Instagram est devenu l'une des plateformes de médias sociaux les plus populaires, avec des millions d'utilisateurs qui partagent des photos et des histoires avec d'autres personnes dans le monde entier. Bien qu'il s'agisse d'un excellent moyen de rester en contact avec ses amis et sa famille, il est important de prendre des mesures pour protéger sa vie privée. Voici quelques moyens d'améliorer vos paramètres de confidentialité sur Instagram :
+**Instagram** est devenu l'une des plateformes de médias sociaux les plus populaires, avec des millions d'utilisateurs qui partagent des photos et des histoires avec d'autres personnes dans le monde entier. Bien qu'il s'agisse d'un excellent moyen de rester en contact avec ses amis et sa famille, il est important de prendre des mesures pour protéger sa vie privée. Voici quelques moyens d'améliorer vos paramètres de confidentialité sur Instagram :
 
 #### Rendre votre compte privé
 

@@ -3,11 +3,13 @@ title: "Chroń swoją prywatność w mediach społecznościowych: Opanowanie odp
 draft: false
 toc: true
 date: 2023-06-15
+lastmod: 2026-11-24
 description: "Dowiedz się, jak chronić swoją prywatność na platformach mediów społecznościowych, rozumiejąc zagrożenia dla prywatności, typowe obawy i dostosowując ustawienia na Facebooku, Instagramie, Twitterze i LinkedIn."
 genre: ["Prywatność w mediach społecznościowych", "Ochrona danych osobowych w mediach społecznościowych", "Zagrożenia i obawy związane z prywatnością w mediach społecznościowych", "Ustawienia prywatności na Facebooku", "Zwiększanie prywatności na Instagramie", "Zabezpieczanie konta na Twitterze", "Ochrona prywatności na LinkedIn"]
 tags: ["dostosowywanie ustawień prywatności na Facebooku", "kontrolowanie obserwujących na Instagramie", "Zarządzanie danymi na Twitterze", "Ochrona prywatności w serwisie LinkedIn", "ograniczanie uprawnień aplikacji w mediach społecznościowych", "Zwiększanie prywatności na Instagramie", "Ochrona tweetów na Twitterze", "Zarządzanie połączeniami LinkedIn", "zabezpieczenie konta na Twitterze", "prywatność na platformach mediów społecznościowych"]
 cover: "/img/cover/protect-your-privacy-on-social-media.webp"
 coverAlt: "Symboliczny obraz w stylu kreskówki przedstawiający zablokowaną tarczę chroniącą dane osobowe osoby w mediach społecznościowych"
+coverCaption: "Chroń swoją prywatność w internecie, korzystając z odpowiednich ustawień, i zadbaj o bezpieczeństwo swoich danych osobowych."
 ---
 
 ## Jak chronić swoją prywatność w mediach społecznościowych za pomocą odpowiednich ustawień
@@ -66,7 +68,7 @@ Facebook zezwala **aplikacjom innych firm** na dostęp do niektórych danych oso
 
 Aby chronić swoją prywatność, możesz **sprawdzić i zmienić uprawnienia aplikacji na Facebooku**. To ustawienie pozwala kontrolować dane osobowe i informacje, do których ma dostęp każda aplikacja innej firmy. Możesz **odebrać dostęp określonym aplikacjom** lub **ograniczyć informacje**, do których mogą uzyskać dostęp.
 
-Podsumowując, dostosowanie ustawień prywatności na Facebooku jest istotnym krokiem w ochronie danych osobowych. Kontrolując, kto może zobaczyć twoje posty**, **zarządzając widocznością listy znajomych**, **przeglądając ustawienia tagowania** i **ograniczając uprawnienia aplikacji**, możesz zapewnić, że twój profil na Facebooku pozostanie prywatny i bezpieczny.
+Podsumowując, dostosowanie ustawień prywatności na Facebooku jest istotnym krokiem w ochronie danych osobowych. Kontrolując, **kto może zobaczyć twoje posty**, **zarządzając widocznością listy znajomych**, **przeglądając ustawienia tagowania** i **ograniczając uprawnienia aplikacji**, możesz zapewnić, że twój profil na Facebooku pozostanie prywatny i bezpieczny.
 
 ### Zwiększanie prywatności na Instagramie
 
@@ -80,7 +82,7 @@ Gdy twoje konto jest prywatne, masz **kontrolę nad tym, kto może cię obserwow
 
 #### Zarządzanie obserwującymi
 
-Innym sposobem kontrolowania tego, kto widzi twoje treści na Instagramie, jest włączenie ustawienia "**Approved Followers**". To ustawienie zapewnia, że tylko osoby, które obserwujesz lub zatwierdziłeś, mogą zobaczyć Twoje treści. Jest to świetna opcja, jeśli chcesz ograniczyć odbiorców do wybranej grupy osób, takich jak bliscy przyjaciele i członkowie rodziny.
+Innym sposobem kontrolowania tego, kto widzi twoje treści na Instagramie, jest włączenie ustawienia "**Zatwierdzeni obserwujący**". To ustawienie zapewnia, że tylko osoby, które obserwujesz lub zatwierdziłeś, mogą zobaczyć Twoje treści. Jest to świetna opcja, jeśli chcesz ograniczyć odbiorców do wybranej grupy osób, takich jak bliscy przyjaciele i członkowie rodziny.
 
 Możesz także **zablokować określone osoby** przed obserwowaniem cię lub przeglądaniem twoich treści. Jest to przydatne, jeśli masz kogoś, kto cię nęka lub sprawia, że czujesz się niekomfortowo na platformie.
 
@@ -146,7 +148,7 @@ Decydując, kto może zobaczyć twoje połączenia, ważne jest, aby wziąć pod
 
 #### Zarządzanie prywatnością kanału aktywności
 
-Kanał aktywności** na LinkedIn pokazuje polubienia, komentarze i udostępnienia na platformie. Chociaż może to być świetny sposób na nawiązanie kontaktu z innymi i zbudowanie profesjonalnej sieci kontaktów, ważne jest, aby **zarządzać prywatnością swojego kanału aktywności**, aby uniknąć udostępniania zbyt dużej ilości danych osobowych. LinkedIn pozwala dostosować, kto może zobaczyć Twój kanał aktywności, więc możesz udostępnić swoją aktywność tylko swoim znajomym lub publicznie.
+**Kanał aktywności** na LinkedIn pokazuje polubienia, komentarze i udostępnienia na platformie. Chociaż może to być świetny sposób na nawiązanie kontaktu z innymi i zbudowanie profesjonalnej sieci kontaktów, ważne jest, aby **zarządzać prywatnością swojego kanału aktywności**, aby uniknąć udostępniania zbyt dużej ilości danych osobowych. LinkedIn pozwala dostosować, kto może zobaczyć Twój kanał aktywności, więc możesz udostępnić swoją aktywność tylko swoim znajomym lub publicznie.
 
 Podczas zarządzania prywatnością w kanale aktywności ważne jest, aby wziąć pod uwagę rodzaj udostępnianych treści. Jeśli na przykład udostępniasz osobiste opinie lub informacje, możesz chcieć ograniczyć, kto może zobaczyć Twoją aktywność. Z drugiej strony, jeśli udostępniasz wiadomości branżowe lub aktualizacje dotyczące swoich osiągnięć zawodowych, możesz chcieć, aby Twoja aktywność była bardziej widoczna dla innych w Twojej dziedzinie.
 

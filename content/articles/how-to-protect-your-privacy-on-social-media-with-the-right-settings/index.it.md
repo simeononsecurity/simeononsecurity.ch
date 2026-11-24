@@ -3,11 +3,13 @@ title: "Proteggere la privacy sui social media: Padroneggiare le giuste impostaz
 draft: false
 toc: true
 date: 2023-06-15
+lastmod: 2026-11-24
 description: "Scoprite come salvaguardare la vostra privacy sulle piattaforme di social media, comprendendo i rischi per la privacy, le preoccupazioni più comuni e regolando le impostazioni su Facebook, Instagram, Twitter e LinkedIn."
 genre: ["Privacy sui social media", "Protezione delle informazioni personali sui social media", "Rischi e preoccupazioni per la privacy sui social media", "Impostazioni sulla privacy su Facebook", "Migliorare la privacy su Instagram", "Proteggere l'account Twitter", "Salvaguardia della privacy su LinkedIn"]
-tags: ["Regolazione delle impostazioni sulla privacy di Facebook", "controllare i follower di Instagram", "gestione dei dati di Twitter", "Salvaguardia della privacy di LinkedIn", "limitare le autorizzazioni delle app sui social media", "migliorare la privacy di Instagram", "proteggere i tweet su Twitter", "gestione delle connessioni a LinkedIn", "garantire l'account Twitter", "privacy sulle piattaforme di social media"]
+tags: ["Regolazione delle impostazioni sulla privacy di Facebook", "controllare i follower di Instagram", "gestione dei dati di Twitter", "Salvaguardia della privacy di LinkedIn", "limitare le autorizzazioni delle app sui social media", "migliorare la privacy di Instagram", "proteggere i tweet su Twitter", "gestione delle connessioni a LinkedIn", "proteggere l'account Twitter", "privacy sulle piattaforme di social media"]
 cover: "/img/cover/protect-your-privacy-on-social-media.webp"
 coverAlt: "Un'immagine simbolica in stile cartone animato che rappresenta uno scudo chiuso che protegge le informazioni personali di una persona sui social media"
+coverCaption: "Proteggete la vostra privacy online con le impostazioni giuste e mantenete al sicuro le vostre informazioni personali."
 ---
 
 ## Come proteggere la privacy sui social media con le giuste impostazioni
@@ -28,9 +30,9 @@ Un'altra preoccupazione è la mancanza di controllo su chi vede le informazioni.
 
 #### Come i vostri dati possono essere utilizzati in modo improprio
 
-I vostri dati personali possono essere utilizzati in modi non previsti. Ad esempio, i **pubblicitari** possono utilizzare i vostri dati per indirizzarvi annunci che sembrano corrispondere ai vostri interessi, un'invasione della vostra privacy che può essere frustrante e inquietante. Ancora peggio, i **criminali informatici** possono usare queste informazioni per impersonare l'utente, violare i suoi account o rubare la sua identità.
+I vostri dati personali possono essere utilizzati in modi non previsti. Ad esempio, i **pubblicitari** possono utilizzare i vostri dati per indirizzarvi annunci che sembrano corrispondere ai vostri interessi, un'invasione della vostra privacy che può essere frustrante e inquietante. Ancora peggio, i **criminali informatici** possono usare queste informazioni per impersonarvi, violare i vostri account o rubare la vostra identità.
 
-Inoltre, i vostri dati possono essere venduti a **aziende terze** a vostra insaputa o senza il vostro consenso. Ciò può comportare l'invio di e-mail di marketing indesiderate, telefonate e persino posta elettronica. È essenziale leggere i termini e le condizioni di qualsiasi piattaforma di social media utilizzata e capire come vengono utilizzati i vostri dati.
+Inoltre, i vostri dati possono essere venduti a **aziende terze** a vostra insaputa o senza il vostro consenso. Ciò può comportare l'invio di e-mail di marketing indesiderate, telefonate e persino posta cartacea. È essenziale leggere i termini e le condizioni di qualsiasi piattaforma di social media utilizzata e capire come vengono utilizzati i vostri dati.
 
 #### Il ruolo delle applicazioni di terze parti
 
@@ -56,7 +58,7 @@ Inoltre, potete scegliere di **nascondere l'elenco degli amici** a tutti, compre
 
 #### Gestione delle impostazioni di tagging
 
-Il **tag** è una funzione comune di Facebook, in cui gli amici possono taggarti nei loro post, foto o video. Tuttavia, a volte questo può portare a problemi di privacy, soprattutto se si viene taggati in un post a cui non si vuole essere associati.
+Il **tag** è una funzione comune di Facebook che permette ai vostri amici di menzionarvi nei post, nelle foto o nei video. Questo può creare problemi di privacy, soprattutto se venite taggati in un post con cui non volete essere associati.
 
 Per gestire le impostazioni di tagging, è possibile regolare le impostazioni della privacy in modo da **vedere i post** in cui gli amici vi taggano prima che vengano visualizzati sulla vostra timeline. Questa impostazione consente di controllare quali post e immagini sono visibili agli altri. Si può scegliere di **approvare o rifiutare il tag**, oppure di **eliminare completamente il tag**.
 
@@ -88,7 +90,7 @@ Un altro modo per controllare chi vede i vostri contenuti su Instagram è attiva
 
 Le storie di Instagram sono una funzione popolare che consente agli utenti di condividere foto e video che scompaiono dopo 24 ore. Sebbene queste storie siano temporanee, è comunque importante controllare chi può vederle.
 
-È possibile regolare le impostazioni della privacy delle storie personalizzando l'opzione **condividi le storie solo con i tuoi follower**. Ciò significa che solo le persone che vi seguono possono vedere le vostre storie, che non saranno visibili al pubblico o a persone che non vi seguono.
+È possibile regolare le impostazioni della privacy delle storie personalizzando l'opzione **condividi le storie solo con i vostri follower**. Ciò significa che solo le persone che vi seguono possono vedere le vostre storie, che non saranno visibili al pubblico o a persone che non vi seguono.
 
 Potete anche **bloccare persone specifiche** dall'accesso alle vostre storie. Questo è utile se qualcuno vi molesta o vi fa sentire a disagio sulla piattaforma.
 
@@ -112,7 +114,7 @@ Oltre a proteggere i vostri tweet, potete adottare altre misure per garantire la
 
 #### Personalizzazione delle impostazioni di privacy e sicurezza
 
-Twitter consente di personalizzare le impostazioni di privacy e sicurezza abilitando le opzioni di **protezione dell'account**. Ad esempio, è possibile scegliere di approvare i follower, limitare chi può taggarti nei post e bloccare o silenziare gli account che ti molestano. Queste impostazioni possono contribuire a garantire che il vostro account sia sicuro e che interagite solo con persone di cui vi fidate.
+Twitter consente di personalizzare le impostazioni di privacy e sicurezza abilitando le opzioni di **protezione dell'account**. Ad esempio, è possibile scegliere di approvare i follower, limitare chi può taggarvi nei post e bloccare o silenziare gli account che vi molestano. Queste impostazioni possono contribuire a garantire che il vostro account sia sicuro e che interagite solo con persone di cui vi fidate.
 
 Un'altra funzione utile è la possibilità di **filtrare i contenuti indesiderati** dalle notifiche. Si può scegliere di filtrare le notifiche degli account che non si seguono o che hanno un'immagine del profilo predefinita. Ciò può contribuire a ridurre la quantità di spam e di contenuti indesiderati che si ricevono sulla piattaforma.
 
