@@ -1,18 +1,27 @@
 ---
-title: "Kali Purple 2023.1：アップデートと必須機能"
+title: "Kali Purple 2023.1：更新点と主な機能"
 date: 2023-04-08
+lastmod: 2026-11-24
 toc: true
 draft: false
-description: "Kali Purple 2023.1の高度な機能、ツール、拡張機能を、倫理的ハッカーとサイバーセキュリティの愛好家のための包括的レビューで発見してください。"
-tags: ["Kali Linux", "カリパープル", "2023.1", "倫理的ハッキング", "侵入テスト", "サイバーセキュリティ", "用具", "エクスプロイトフレームワーク", "Kali ARMのアップデート", "Kali NetHunter（カリ・ネットハンター", "Kaliのドキュメント", "カーネルサポート", "Bluetooth対応", "リネージュオーエス", "OneUI", "ラドックス・ゼロ", "エスビーシー", "カーネルパッチ", "きょうどうきょうしゅつきん", "Kali Discord"]
+description: "Kali Purple 2023.1の機能とツールを振り返り、現在のセキュリティラボ向け情報も紹介します。"
+tags: ["Kali Linux", "Kali Purple", "2023.1", "倫理的ハッキング", "ペネトレーションテスト", "サイバーセキュリティ", "ツール", "エクスプロイトフレームワーク", "Kali ARMの更新", "Kali NetHunter", "Kaliのドキュメント", "カーネルのサポート", "Bluetoothのサポート", "LineageOS", "OneUI", "Radxa Zero", "シングルボードコンピューター", "カーネルパッチ", "コミュニティの貢献", "Kali Discord", "Linuxの更新", "倫理的ハッキング向けディストリビューション", "新機能", "改善点", "Xfce", "KDE", "GNOME", "Xfce 4.18", "KDE Plasma 5.27", "新しいツールとパッケージ", "ARMデバイスのサポート", "Kaliのドキュメント", "政府の規制"]
 cover: "/img/cover/A_3D_animated_Kali_Linux_dragon_mascot_surrounded.webp"
-coverAlt: "3DアニメーションのKali Linuxのドラゴンマスコットが、様々なサイバーセキュリティやハッキングツールに囲まれ、紫のドラゴンが描かれた盾の上に座っています。"
+coverAlt: "Kali Linuxの3Dアニメーションのドラゴンが、セキュリティツールに囲まれて盾の上に座っています。"
 coverCaption: ""
 ---
 
-**Kali Purple 2023.1：レビュー**を見る
+**Kali Purple 2023.1：レビュー**
 
-Kali Purple 2023.1は、人気のある**侵入テスト**および**エシカルハッキング**ディストリビューションの**最新版**です。この記事では、このバージョンがもたらす新機能、改善、および更新について詳しく見ていきます。
+Kali Purple 2023.1は、Kaliの防御的セキュリティ方針を示す最初の技術プレビューでした。現在の最新リリースではありません。この記事では当時のリリースを記録し、2023.1のパッケージ版を現行版と誤解しないよう、現在の情報も示します。
+
+## 現在のKaliの状況
+
+Kaliの公式リリース履歴では、2026年6月29日に公開されたKali 2026.2が、2026年2番目のローリングリリースです。Linuxカーネル6.19とXfce 4.20.7を採用しています。[Kali 2026.2のリリースノート](https://www.kali.org/blog/kali-linux-2026-2-release/)では、GNOME 50、KDE Plasma 6.6、`sources.list`から`sources.list.d/kali.source`への移行、仮想マシンの起動変更についても説明しています。
+
+Kali Purpleは、Kaliの中で防御とパープルチーム活動を重視する方向性です。2023.1の発表は、SOC-in-a-boxの参照アーキテクチャ、防御ツール、NIST Cybersecurity Frameworkに基づくメニュー分類を備えた技術プレビューとして紹介しました。これは当時の範囲を示す情報です。現在のパッケージを選ぶときは、Kaliの[メタパッケージ資料](https://www.kali.org/docs/general-use/metapackages/)を確認し、ラボに必要なツール群だけを選んでください。
+
+*攻撃・防御を問わず、セキュリティ演習は隔離された許可済みのラボで行ってください。Kaliをインストールしても、所有または管理していないシステムをテストする許可は得られません。*
 
 ______
 
@@ -36,7 +45,7 @@ ______
 
 ## KDE Plasma 5.27
 
-KDE Plasma 5.27** アップデートでは、以下を紹介します：
+**KDE Plasma 5.27** アップデートでは、以下を紹介します：
 
 - 新しいウィンドウタイルシステム
 - よりスタイリッシュなアプリテーマ
@@ -56,15 +65,15 @@ Kali Purple 2023.1 は、いくつかのカーネルのデフォルト値を更�
 
 ______
 
-## 新しいツールおよびパッケージ
+## 新しいツールとパッケージ
 
-Kali Purple 2023.1では、多くの新しいツールとパッケージを導入し、**侵入テスト**および**倫理的ハッキング**プラットフォームとしての機能を強化しています。新たに追加されたものをいくつか紹介します：
+Kali Purple 2023.1では、**ペネトレーションテスト**と**倫理的ハッキング**向けのツールやパッケージが追加されました。主な追加項目は次のとおりです。
 
-- Rizin 0.3.0**：最新のリバースエンジニアリングフレームワーク
-- Ghidra 10.1**：オープンソースのソフトウェアリバースエンジニアリングスイート
-- Python 3.10**：一般的なプログラミング言語の最新版
+- **Rizin 0.3.0**：最新のリバースエンジニアリングフレームワーク
+- **Ghidra 10.1**：オープンソースのソフトウェアリバースエンジニアリングスイート
+- **Python 3.10**：人気のプログラミング言語の最新版
 
-これらの新しいツールと既存のツールのアップデートにより、Kali Purple 2023.1は、セキュリティ専門家にとってさらに強力で多用途なディストリビューションとなります。
+これらのツールと既存パッケージの更新により、2023.1プレビューはセキュリティ専門家向けに拡張されました。この節のバージョンは2023.1のリリースを示し、Kali 2026.2に含まれるバージョンではありません。
 
 ______
 
@@ -76,7 +85,7 @@ ______
 
 ## ドキュメンテーションとコミュニティ
 
-Kali チームは、ユーザーが Kali Purple 2023.1 を最大限に活用できるように、新しいガイド、チュートリアル、トラブルシューティングのヒントで **documentation** を更新しました。また、オープンソースのコラボレーションとKaliコミュニティの強さを示すために、Kaliへの貢献のためにいくつかのコミュニティメンバーを認定しました。
+Kali チームは、ユーザーが Kali Purple 2023.1 を最大限に活用できるように、新しいガイド、チュートリアル、トラブルシューティングのヒントで **ドキュメント** を更新しました。また、オープンソースのコラボレーションとKaliコミュニティの強さを示すために、Kaliへの貢献のためにいくつかのコミュニティメンバーを認定しました。
 
 ______
 
@@ -84,32 +93,39 @@ ______
 
 この記事では、倫理的ハッキングや侵入テストに関連する特定の政府規制は取り上げていませんが、これらの活動は多くの法域で規制されていることに留意することが重要です。セキュリティ評価を実施する際には、常に適切な許可を得ていることを確認し、適用される法律に従ってください。関連する規制の詳細については、以下のリソースを参照することを検討してください：
 
--[The Computer Fraud and Abuse Act (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act#:~:text=The%20Computer%20Fraud%20and%20Abuse%20Act%20of%201986,without%20authorization%2C%20or%20in%20excess%20of%20authorization.%20)
--[The General Data Protection Regulation (GDPR)](https://gdpr.eu/)
+- [コンピュータ不正行為防止法（Computer Fraud and Abuse Act、CFAA）](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act#:~:text=The%20Computer%20Fraud%20and%20Abuse%20Act%20of%201986,without%20authorization%2C%20or%20in%20excess%20of%20authorization.%20)
+- [一般データ保護規則（GDPR）](https://gdpr.eu/)
 
 ______
 
 ## 結論
 
-**Kali Purple 2023.1**は、セキュリティ専門家のための多数の改善と追加を提供する、強力で機能豊富なアップデートです。拡張されたツールセット、改善された ARM デバイスのサポート、および堅牢なドキュメントにより、Kali Purple 2023.1 は倫理的ハッキングおよび侵入テスト分野のすべての人にとって優れた選択肢となります。関連する政府規制について常に情報を入手し、責任あるセキュリティ・テストを実践するよう心がけてください。
+**Kali Purple 2023.1**は、Kaliの防御的セキュリティ方針を示す最初のプレビューでした。ツール群の追加、ARM対応の改善、ドキュメントの拡充が行われました。現在の環境を構築する場合は、Kaliの最新リリースノートを確認し、ラボに合うパッケージを選んでください。適用される法律を守り、明示的な許可を得たシステムだけをテストしてください。
 
 ______
 
 ## 参考文献
 
-1.[Kali Linux Official Website](https://www.kali.org/)
-2.[Kali Linux Documentation](https://www.kali.org/docs/)
-3.[Kali Linux Downloads](https://www.kali.org/get-kali/)
-4.[Computer Fraud and Abuse Act (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act#:~:text=The%20Computer%20Fraud%20and%20Abuse%20Act%20of%201986,without%20authorization%2C%20or%20in%20excess%20of%20authorization.%20)
-5.[General Data Protection Regulation (GDPR)](https://gdpr.eu/)
+1. [Kali Linux公式サイト](https://www.kali.org/)
+2. [Kali Linux公式ドキュメント](https://www.kali.org/docs/)
+3. [Kali Linuxダウンロード](https://www.kali.org/get-kali/)
+4. [Computer Fraud and Abuse Act (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act#:~:text=The%20Computer%20Fraud%20and%20Abuse%20Act%20of%201986,without%20authorization%2C%20or%20in%20excess%20of%20authorization.%20)
+5. [General Data Protection Regulation (GDPR)](https://gdpr.eu/)
 
 ______
 
 ## 追加リソース
 
--[Official Kali Linux Forums](https://forums.kali.org/)
--[Kali Linux Blog](https://www.kali.org/blog/)
--[Kali Linux Training and Certification](https://www.offensive-security.com/)
+- [Kali Linux公式フォーラム](https://forums.kali.org/)
+- [Kali Linuxブログ](https://www.kali.org/blog/)
+- [Kali Linuxのトレーニングと認定](https://www.offensive-security.com/)
 
+______
 
+## 更新チェックリスト
 
+- **リリース履歴を確認する。** イメージをダウンロードする前に、Kaliの[現在のリリース履歴](https://www.kali.org/releases/)を読みます。
+- **公式イメージを使う。** [Get Kali](https://www.kali.org/get-kali/)からダウンロードし、公開されたチェックサムを検証します。
+- **ローリングインストールを更新する。** 2023.1のリポジトリ例をそのまま使わず、Kaliの[最新の更新手順](https://www.kali.org/docs/general-use/updating-kali/)に従います。
+- **メタパッケージを選ぶ。** 標準またはPurple向けのラボでも、Kaliの全パッケージは必要ありません。
+- **ラボの範囲を記録する。** ツールを使う前に、許可されたシステム、テスト時間、ログ記録、後片付けを決めます。

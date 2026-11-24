@@ -1,18 +1,27 @@
 ---
-title: "Kali Lila 2023.1: Updates & wesentliche Funktionen"
+title: "Kali Purple 2023.1: Updates und wichtige Funktionen"
 date: 2023-04-08
+lastmod: 2026-11-24
 toc: true
 draft: false
-description: "Entdecken Sie die fortschrittlichen Funktionen, Tools und Verbesserungen von Kali Purple 2023.1 in unserem umfassenden Test für ethische Hacker und Cybersecurity-Enthusiasten."
-tags: ["Kali Linux", "Kali violett", "2023.1", "Ethisches Hacken", "Penetrationstests", "Cybersicherheit", "Werkzeuge", "Exploit-Framework", "Kali ARM-Aktualisierungen", "Kali NetHunter", "Kali-Dokumentation", "Kernel-Unterstützung", "Bluetooth-Unterstützung", "LineageOS", "OneUI", "Radxa Null", "SBC", "Kernel-Patches", "Gemeinschaftsbeiträge", "Kali-Diskord", "Linux-Aktualisierungen", "Vertrieb von ethischem Hacking", "neue Funktionen", "Verbesserungen", "Xfce", "KDE", "GNOME", "Xfce 4.18", "KDE Plasma 5.27", "neue Tools und Pakete", "ARM-Geräte-Unterstützung", "Kali-Dokumentation", "staatliche Vorschriften"]
+description: "Rückblick auf Kali Purple 2023.1 mit den damaligen Funktionen, Werkzeugen und Verbesserungen sowie aktuellen Hinweisen für Sicherheitslabore."
+tags: ["Kali Linux", "Kali Purple", "2023.1", "Ethisches Hacking", "Penetrationstests", "Cybersicherheit", "Werkzeuge", "Exploit-Framework", "Kali-ARM-Aktualisierungen", "Kali NetHunter", "Kali-Dokumentation", "Kernel-Unterstützung", "Bluetooth-Unterstützung", "LineageOS", "OneUI", "Radxa Zero", "Einplatinencomputer", "Kernel-Patches", "Beiträge der Community", "Kali Discord", "Linux-Aktualisierungen", "Distribution für ethisches Hacking", "neue Funktionen", "Verbesserungen", "Xfce", "KDE", "GNOME", "Xfce 4.18", "KDE Plasma 5.27", "neue Tools und Pakete", "ARM-Geräteunterstützung", "Kali-Dokumentation", "staatliche Vorschriften"]
 cover: "/img/cover/A_3D_animated_Kali_Linux_dragon_mascot_surrounded.webp"
-coverAlt: "Ein 3D-animiertes Kali-Linux-Drachenmaskottchen, umgeben von verschiedenen Cybersicherheits- und Hacking-Tools, das auf einem Schild mit einem lila Drachen sitzt."
+coverAlt: "Ein 3D-animierter Kali-Linux-Drache sitzt auf einem Schild und ist von Cybersecurity-Werkzeugen umgeben."
 coverCaption: ""
 ---
 
 **Kali Purple 2023.1: Ein Rückblick**
 
-Kali Purple 2023.1 ist die **neueste Version** der beliebten **Penetrationstest**- und **ethical hacking**-Distribution. In diesem Artikel werden wir einen genaueren Blick auf die neuen Funktionen, Verbesserungen und Updates werfen, die diese Version mit sich bringt.
+Kali Purple 2023.1 war die erste technische Vorschau auf die defensive Sicherheitsausrichtung von Kali. Sie ist nicht mehr die aktuelle Kali-Version. Dieser Artikel dokumentiert die ursprüngliche Veröffentlichung und verweist auf aktuelle Versionen, damit Sie die Paketversionen von 2023.1 nicht für aktuell halten.
+
+## Aktueller Kali-Stand
+
+In Kalis offizieller Versionsübersicht ist Kali 2026.2 als zweite Rolling-Release-Version des Jahres 2026 aufgeführt. Sie erschien am 29. Juni 2026 und verwendet Linux-Kernel 6.19 sowie Xfce 4.20.7. Die [Versionshinweise zu Kali 2026.2](https://www.kali.org/blog/kali-linux-2026-2-release/) nennen außerdem GNOME 50, KDE Plasma 6.6, den Wechsel von `sources.list` zu `sources.list.d/kali.source` und Änderungen beim Start virtueller Maschinen.
+
+Kali Purple steht innerhalb von Kali für eine defensive und Purple-Team-Ausrichtung. Die Ankündigung von 2023.1 beschrieb eine technische Vorschau mit einer SOC-in-a-Box-Referenzarchitektur, defensiven Werkzeugen und Menükategorien nach dem NIST Cybersecurity Framework. Diese Angaben beschreiben den historischen Umfang. Wählen Sie für aktuelle Pakete in Kalis [Metapaket-Dokumentation](https://www.kali.org/docs/general-use/metapackages/) nur die Werkzeuggruppen aus, die Ihr Labor benötigt.
+
+*Führen Sie offensive und defensive Sicherheitsübungen nur in einem isolierten, autorisierten Labor durch. Eine Kali-Installation erteilt keine Erlaubnis, Systeme zu testen, die Sie weder besitzen noch verwalten.*
 
 ______
 
@@ -58,13 +67,13 @@ ______
 
 ## Neue Tools und Pakete
 
-Kali Purple 2023.1 führt eine Reihe neuer Werkzeuge und Pakete ein, die seine Fähigkeiten als **Penetrationstest**- und **ethische Hacking**-Plattform verbessern. Einige der neuen Ergänzungen sind:
+Kali Purple 2023.1 ergänzt neue Werkzeuge und Pakete für **Penetrationstests** und **ethisches Hacking**. Dazu gehören:
 
-- **Rizin 0.3.0**: Ein modernes Reverse-Engineering-Framework
-- **Ghidra 10.1**: Eine Open-Source-Software-Reverse-Engineering-Suite
-- *Python 3.10**: Die neueste Version der beliebten Programmiersprache
+- **Rizin 0.3.0**: Ein modernes Framework für Reverse Engineering
+- **Ghidra 10.1**: Eine Open-Source-Suite für Software-Reverse-Engineering
+- **Python 3.10**: Die neueste Version der Programmiersprache
 
-Diese neuen Tools, zusammen mit Aktualisierungen bestehender Tools, machen Kali Purple 2023.1 zu einer noch leistungsfähigeren und vielseitigeren Distribution für Sicherheitsexperten.
+Diese Werkzeuge und Aktualisierungen bestehender Pakete erweiterten die Vorschau 2023.1 für Sicherheitsexperten. Die Versionsnummern in diesem Abschnitt beziehen sich auf die Veröffentlichung 2023.1, nicht auf die in Kali 2026.2 enthaltenen Versionen.
 
 ______
 
@@ -91,15 +100,15 @@ ______
 
 ## Schlussfolgerung
 
-**Kali Purple 2023.1** ist ein leistungsstarkes und funktionsreiches Update, das zahlreiche Verbesserungen und Ergänzungen für Sicherheitsexperten bietet. Mit seinem erweiterten Toolset, der verbesserten Unterstützung für ARM-Geräte und der soliden Dokumentation ist Kali Purple 2023.1 eine ausgezeichnete Wahl für alle, die sich mit ethischem Hacking und Penetrationstests beschäftigen. Wie immer sollten Sie sich über relevante gesetzliche Bestimmungen informieren und verantwortungsvolle Sicherheitstests durchführen.
+**Kali Purple 2023.1** war ein funktionsreiches erstes Preview für die defensive Sicherheitsausrichtung von Kali. Die Vorschau ergänzte Werkzeuge, verbesserte die ARM-Unterstützung und erweiterte die Dokumentation. Prüfen Sie für aktuelle Installationen die Kali-Versionshinweise und wählen Sie passende Pakete für Ihr Labor. Halten Sie sich an geltende Vorschriften und testen Sie Systeme nur mit ausdrücklicher Genehmigung.
 
 ______
 
 ## Referenzen
 
-1. [Kali Linux Official Website](https://www.kali.org/)
-2. [Kali Linux Documentation](https://www.kali.org/docs/)
-3. [Kali Linux Downloads](https://www.kali.org/get-kali/)
+1. [Offizielle Kali-Linux-Website](https://www.kali.org/)
+2. [Kali-Linux-Dokumentation](https://www.kali.org/docs/)
+3. [Kali-Linux-Downloads](https://www.kali.org/get-kali/)
 4. [Computer Fraud and Abuse Act (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act#:~:text=The%20Computer%20Fraud%20and%20Abuse%20Act%20of%201986,without%20authorization%2C%20or%20in%20excess%20of%20authorization.%20)
 5. [General Data Protection Regulation (GDPR)](https://gdpr.eu/)
 
@@ -107,9 +116,16 @@ ______
 
 ## Zusätzliche Ressourcen
 
-- [Official Kali Linux Forums](https://forums.kali.org/)
-- [Kali Linux Blog](https://www.kali.org/blog/)
-- [Kali Linux Training and Certification](https://www.offensive-security.com/)
+- [Offizielle Kali-Linux-Foren](https://forums.kali.org/)
+- [Kali-Linux-Blog](https://www.kali.org/blog/)
+- [Kali-Linux-Schulungen und Zertifizierung](https://www.offensive-security.com/)
 
+______
 
+## Update-Checkliste
 
+- **Versionsverlauf prüfen.** Lesen Sie vor dem Herunterladen eines Images Kalis aktuellen [Versionsverlauf](https://www.kali.org/releases/).
+- **Offizielle Images verwenden.** Laden Sie Images über [Get Kali](https://www.kali.org/get-kali/) herunter und prüfen Sie die veröffentlichten Prüfsummen.
+- **Rolling-Installationen aktualisieren.** Folgen Sie Kalis aktueller [Update-Dokumentation](https://www.kali.org/docs/general-use/updating-kali/), statt das Repository-Beispiel von 2023.1 ungeprüft zu übernehmen.
+- **Metapakete gezielt auswählen.** Ein Standard- oder Purple-Labor benötigt nicht jedes Kali-Paket.
+- **Laborumfang dokumentieren.** Legen Sie autorisierte Systeme, Testzeiträume, Protokollierung und Bereinigung fest, bevor Sie Werkzeuge starten.

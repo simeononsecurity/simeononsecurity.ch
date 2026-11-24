@@ -1,18 +1,27 @@
 ---
-title: "Kali Purple 2023.1 : Mises à jour et fonctionnalités essentielles"
+title: "Kali Purple 2023.1 : nouveautés et fonctions essentielles"
 date: 2023-04-08
+lastmod: 2026-11-24
 toc: true
 draft: false
-description: "Découvrez les fonctionnalités avancées, les outils et les améliorations de Kali Purple 2023.1 dans notre revue complète destinée aux hackers éthiques et aux passionnés de cybersécurité."
-tags: ["Kali Linux", "Pourpre de Kali", "2023.1", "piratage éthique", "tests de pénétration", "cybersécurité", "outils", "cadre d'exploitation", "Mises à jour de Kali ARM", "Kali NetHunter", "Documentation Kali", "Support du noyau", "Prise en charge Bluetooth", "LineageOS", "OneUI", "Radxa Zero", "SBC", "correctifs du noyau", "contributions communautaires", "Kali Discord", "Mises à jour Linux", "distribution de hacking éthique", "nouvelles fonctionnalités", "Améliorations", "Xfce", "KDE", "GNOME", "Xfce 4.18", "KDE Plasma 5.27", "nouveaux outils et paquets", "Prise en charge des dispositifs ARM", "Documentation Kali", "les réglementations gouvernementales"]
+description: "Retour sur Kali Purple 2023.1, ses outils et améliorations, avec des références actuelles pour les laboratoires de sécurité."
+tags: ["Kali Linux", "Kali Purple", "2023.1", "hacking éthique", "tests d’intrusion", "cybersécurité", "outils", "framework d’exploitation", "mises à jour Kali ARM", "Kali NetHunter", "documentation Kali", "prise en charge du noyau", "prise en charge du Bluetooth", "LineageOS", "OneUI", "Radxa Zero", "ordinateur monocarte", "correctifs du noyau", "contributions de la communauté", "Discord Kali", "mises à jour Linux", "distribution de hacking éthique", "nouvelles fonctionnalités", "améliorations", "Xfce", "KDE", "GNOME", "Xfce 4.18", "KDE Plasma 5.27", "nouveaux outils et paquets", "prise en charge des appareils ARM", "documentation Kali", "réglementation gouvernementale"]
 cover: "/img/cover/A_3D_animated_Kali_Linux_dragon_mascot_surrounded.webp"
-coverAlt: "Une mascotte de dragon Kali Linux animée en 3D, entourée de divers outils de cybersécurité et de piratage, assise sur un bouclier orné d'un dragon violet."
+coverAlt: "Un dragon Kali Linux animé en 3D est assis sur un bouclier et entouré d’outils de cybersécurité."
 coverCaption: ""
 ---
 
-**Kali Purple 2023.1 : Un bilan**
+**Kali Purple 2023.1 : un bilan**
 
-Kali Purple 2023.1 est la **dernière version** de la populaire distribution de **tests d'intrusion** et de **hacking éthique**. Dans cet article, nous allons examiner de plus près les nouvelles fonctionnalités, les améliorations et les mises à jour apportées par cette version.
+Kali Purple 2023.1 était la première préversion technique de l’orientation défensive de Kali. Cette version n’est plus la plus récente. Cet article revient sur sa publication et ajoute des références actuelles afin que vous ne preniez pas les versions des paquets de 2023.1 pour les versions actuelles.
+
+## État actuel de Kali
+
+L’historique officiel des versions de Kali désigne Kali 2026.2, publiée le 29 juin 2026, comme la deuxième version rolling de 2026. Elle utilise le noyau Linux 6.19 et Xfce 4.20.7. Les [notes de version de Kali 2026.2](https://www.kali.org/blog/kali-linux-2026-2-release/) décrivent aussi GNOME 50, KDE Plasma 6.6, le passage de `sources.list` à `sources.list.d/kali.source` et des changements au démarrage des machines virtuelles.
+
+Kali Purple représente une orientation défensive et purple team au sein de Kali. L’annonce de 2023.1 présentait une préversion technique avec une architecture de référence SOC-in-a-box, des outils défensifs et des catégories de menu issues du NIST Cybersecurity Framework. Ces éléments décrivent le périmètre historique. Pour choisir des paquets actuels, consultez la [documentation des métapaquets](https://www.kali.org/docs/general-use/metapackages/) de Kali et sélectionnez uniquement les groupes d’outils nécessaires à votre laboratoire.
+
+*Réalisez tout exercice offensif ou défensif dans un laboratoire isolé et autorisé. Installer Kali ne vous autorise pas à tester des systèmes que vous ne possédez pas ou n’administrez pas.*
 
 ______
 
@@ -58,13 +67,13 @@ ______
 
 ## Nouveaux outils et paquets
 
-Kali Purple 2023.1 introduit un certain nombre de nouveaux outils et paquets, améliorant ses capacités en tant que plateforme de **tests de pénétration** et de **piratage éthique**. Voici quelques-uns des nouveaux ajouts :
+Kali Purple 2023.1 ajoute des outils et paquets pour les **tests d’intrusion** et le **hacking éthique**. Parmi les nouveautés :
 
-- **Rizin 0.3.0** : Un cadre moderne de rétro-ingénierie
-- **Ghidra 10.1** : Une suite de rétro-ingénierie logicielle open-source
-- Python 3.10** : La dernière version du langage de programmation populaire
+- **Rizin 0.3.0** : un framework moderne de rétro-ingénierie
+- **Ghidra 10.1** : une suite open source de rétro-ingénierie logicielle
+- **Python 3.10** : la dernière version du langage de programmation
 
-Ces nouveaux outils, ainsi que les mises à jour des outils existants, font de Kali Purple 2023.1 une distribution encore plus puissante et polyvalente pour les professionnels de la sécurité.
+Ces outils et les mises à jour des paquets existants ont enrichi la préversion 2023.1 pour les professionnels de la sécurité. Les versions indiquées ici décrivent la publication 2023.1, pas celles de Kali 2026.2.
 
 ______
 
@@ -91,15 +100,15 @@ ______
 
 ## Conclusion
 
-**Kali Purple 2023.1** est une mise à jour puissante et riche en fonctionnalités qui offre de nombreuses améliorations et ajouts pour les professionnels de la sécurité. Avec sa gamme d'outils étendue, sa prise en charge améliorée des périphériques ARM et sa documentation solide, Kali Purple 2023.1 est un excellent choix pour tous ceux qui travaillent dans le domaine du piratage éthique et des tests de pénétration. Comme toujours, veillez à rester informé des réglementations gouvernementales pertinentes et à pratiquer des tests de sécurité responsables.
+**Kali Purple 2023.1** était la première préversion de l’orientation défensive de Kali. Elle ajoutait des outils, améliorait la prise en charge d’ARM et enrichissait la documentation. Pour une installation actuelle, consultez les notes de version de Kali et choisissez les paquets adaptés à votre laboratoire. Respectez les règles applicables et ne testez des systèmes qu’avec une autorisation explicite.
 
 ______
 
 ## Références
 
-1. [Kali Linux Official Website](https://www.kali.org/)
-2. [Kali Linux Documentation](https://www.kali.org/docs/)
-3. [Kali Linux Downloads](https://www.kali.org/get-kali/)
+1. [Site officiel de Kali Linux](https://www.kali.org/)
+2. [Documentation de Kali Linux](https://www.kali.org/docs/)
+3. [Téléchargements de Kali Linux](https://www.kali.org/get-kali/)
 4. [Computer Fraud and Abuse Act (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act#:~:text=The%20Computer%20Fraud%20and%20Abuse%20Act%20of%201986,without%20authorization%2C%20or%20in%20excess%20of%20authorization.%20)
 5. [General Data Protection Regulation (GDPR)](https://gdpr.eu/)
 
@@ -107,9 +116,16 @@ ______
 
 ## Ressources complémentaires
 
-- [Official Kali Linux Forums](https://forums.kali.org/)
-- [Kali Linux Blog](https://www.kali.org/blog/)
-- [Kali Linux Training and Certification](https://www.offensive-security.com/)
+- [Forums officiels de Kali Linux](https://forums.kali.org/)
+- [Blog de Kali Linux](https://www.kali.org/blog/)
+- [Formation et certification Kali Linux](https://www.offensive-security.com/)
 
+______
 
+## Liste de mise à jour
 
+- **Consultez l’historique des versions.** Lisez l’[historique actuel des versions de Kali](https://www.kali.org/releases/) avant de télécharger une image.
+- **Utilisez les images officielles.** Téléchargez-les depuis [Get Kali](https://www.kali.org/get-kali/) et vérifiez les sommes de contrôle publiées.
+- **Mettez à jour les installations rolling.** Suivez la [documentation actuelle de mise à jour de Kali](https://www.kali.org/docs/general-use/updating-kali/), plutôt que de reprendre sans vérification l’exemple de dépôt de 2023.1.
+- **Choisissez les métapaquets avec soin.** Un laboratoire standard ou orienté Purple n’a pas besoin de tous les paquets Kali.
+- **Définissez le périmètre du laboratoire.** Précisez les systèmes autorisés, les périodes de test, la journalisation et le nettoyage avant d’utiliser les outils.
