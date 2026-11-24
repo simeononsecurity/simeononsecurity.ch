@@ -1,11 +1,11 @@
 ---
 title: "用于网络安全的 PowerShell：自动化与防御"
 date: 2023-02-02
-lastmod: 2026-11-14
+lastmod: 2026-11-24
 toc: true
 draft: false
 description: "探索 PowerShell 在增强网络安全操作方面的强大功能，并通过自动化和简化流程来实现符合行业标准。"
-tags: ["PowerShell", "网络安全", "业务", "合规性", "自动化", "STIG SRG 要求", "NSACyber 指南", "视窗系统", "蓝队防守", "脚本", "工具", "C Sharp 项目"]
+tags: ["PowerShell", "网络安全", "安全运营", "合规性", "自动化", "STIG SRG 要求", "NSACyber 指南", "Windows 系统", "蓝队防御", "脚本", "工具", "C Sharp 项目"]
 cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp"
 coverAlt: "一个人在键盘上打字，背景是计算机服务器和网线，代表使用 PowerShell 进行网络安全操作和合规。"
 coverCaption: ""
@@ -23,17 +23,61 @@ PowerShell 是一种功能强大、用途广泛的脚本语言，在网络安全
 
 **PowerShell**的主要优点之一是能够自动执行常规任务，从而节省时间并降低人为错误的风险。PowerShell 脚本可用于自动执行网络安全操作的各个方面，如更新防火墙规则、监控网络流量和进行漏洞扫描。这不仅能节省时间，还能确保任务执行的一致性和准确性。
 
-#### 增强可见性和控制：
+### 增强可见性和控制：
 
-**PowerShell**的另一个优势是能够提高对系统和网络的可见性和控制。利用 PowerShell，管理员可以从一个集中的位置轻松监控和管理设备和系统，帮助识别和减轻安全威胁。通过 PowerShell 脚本自动执行和管理安全相关任务的能力，还能帮助企业遵守行业法规和标准，如美国国防部 STIG/SRG 要求和美国国家安全局网络安全指南。
+**PowerShell**的另一个优势是能够提高对系统和网络的可见性和控制。利用 PowerShell，管理员可以从一个集中的位置轻松监控和管理设备和系统，帮助识别和减轻安全威胁。通过 PowerShell 脚本自动执行和管理安全相关任务的能力，还能帮助企业遵守行业法规和标准，如美国国防部 [STIG/SRG](https://simeononsecurity.com/github/stiging-standalone-windows-servers/) 要求和美国国家安全局网络安全指南。
 
 ### 与其他工具集成：
 
 **PowerShell** 与其他安全工具（如防病毒软件、入侵检测系统和防火墙）集成良好。这样，管理员就可以自动执行任务，提高效率，并从多个来源集中收集信息。此外，PowerShell 脚本还可用于自动部署和配置安全工具，确保它们得到一致、准确的部署和配置。
 
-#### 可定制性和可扩展性：
+### 可定制性和可扩展性：
 
 **PowerShell**的灵活性允许自定义和可扩展性，使其成为各种规模组织的理想工具。它既可用于执行简单的一次性任务，也可用于执行复杂的多步骤流程。这种灵活性使 PowerShell 成为需要适应不断变化的安全要求的组织以及需要管理大型复杂安全基础设施的组织的重要工具。
+
+## 实用安全示例
+
+Microsoft 记录了多种 PowerShell 安全控制，包括模块日志记录、脚本块日志记录、AMSI 集成、受限语言模式和应用程序控制。选择控制措施前，请阅读 [PowerShell 安全功能文档](https://learn.microsoft.com/en-us/powershell/scripting/security/security-features?view=powershell-7.5)。执行策略是 Windows 的安全功能，并不是完整的应用程序控制边界。
+
+### 检查脚本签名
+
+运行从其他管理员或系统收到的脚本前，使用 `Get-AuthenticodeSignature`。有效签名只有在证书链和签名策略也满足要求时，才能确认对发布者的信任。
+
+```powershell
+$signature = Get-AuthenticodeSignature -FilePath .\Maintenance.ps1
+
+if ($signature.Status -ne 'Valid') {
+    throw "脚本签名状态: $($signature.Status)"
+}
+```
+
+### 启用脚本块日志记录
+
+脚本块日志记录会将命令、脚本块、函数和脚本写入 Microsoft-Windows-PowerShell/Operational 日志。通过组策略或已批准的配置管理系统启用它，然后确认 SIEM 已收集相关事件。
+
+```powershell
+$policyPath = 'HKLM:\Software\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging'
+New-Item -Path $policyPath -Force | Out-Null
+New-ItemProperty -Path $policyPath -Name EnableScriptBlockLogging -PropertyType DWord -Value 1 -Force | Out-Null
+```
+
+### 检查语言模式和日志记录
+
+```powershell
+$ExecutionContext.SessionState.LanguageMode
+Get-WinEvent -LogName 'Microsoft-Windows-PowerShell/Operational' -MaxEvents 20
+```
+
+应用程序控制策略生效时，受限语言模式会限制对 .NET 和 COM 的访问。Microsoft 介绍了[语言模式](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_language_modes?view=powershell-7.3)，并建议使用 App Control for Business 进行应用程序控制。请将这些控制视为纵深防御，并在强制实施前测试管理员工作流程。
+
+## PowerShell 安全检查清单
+
+- **使用已签名代码。** 将获准脚本存入版本控制，并在执行前验证签名。
+- **记录活动。** 为范围内的模块和终端启用模块日志记录和脚本块日志记录。
+- **保护机密。** 优先使用证书、托管标识、Windows 身份验证或机密管理器，而不是在脚本中保存密码。Microsoft 不建议在新开发中使用 `SecureString`。
+- **限制执行。** 在运行模式允许时，使用 App Control for Business、AppLocker 或 Just Enough Administration。
+- **检查远程管理。** 使用安全的远程终结点，限制允许的命令，避免在命令行或记录文本中放置凭据。
+- **测试更改。** 在实验环境运行脚本，并在生产环境应用策略前确认预期事件记录。
 
 ________
 
