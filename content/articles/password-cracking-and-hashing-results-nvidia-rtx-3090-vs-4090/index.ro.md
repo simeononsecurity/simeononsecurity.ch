@@ -1,7 +1,7 @@
 ---
 title: "NVIDIA RTX 3090 vs RTX 4090: Comparație între performanțele de spargere a parolelor"
 date: 2023-05-16
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Descoperiți diferența de performanță dintre NVIDIA RTX 3090 și RTX 4090 în ceea ce privește spargerea parolelor, evidențiind implicațiile de securitate și măsurile de protecție."
@@ -39,12 +39,12 @@ Rezultatele testelor de referință au arătat că **RTX 4090** a fost semnifica
 
 Iată un tabel cu rezultatele testelor noastre de referință:
 
-Lungime parolă | Complexitate | RTX 3090 (secunde) | RTX 4090 (secunde)
---- | --- | --- | ---
-8 caractere | Simplu | Simplu | 120 | 60
-8 caractere | Complexă | 1200 | 600
-12 caractere | Simplu | 12000 | 6000
-12 caractere | Complex | 120000 | 60000
+| Lungimea parolei | Complexitate | RTX 3090 (secunde) | RTX 4090 (secunde) |
+|---|---|---:|---:|
+| 8 caractere | Simplă | 120 | 60 |
+| 8 caractere | Complexă | 1200 | 600 |
+| 12 caractere | Simplă | 12000 | 6000 |
+| 12 caractere | Complexă | 120000 | 60000 |
 
 ## Implicații pentru securitate
 

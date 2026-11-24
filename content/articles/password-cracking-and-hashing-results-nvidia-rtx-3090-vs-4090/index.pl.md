@@ -1,7 +1,7 @@
 ---
 title: "NVIDIA RTX 3090 vs RTX 4090: Porównanie wydajności łamania haseł"
 date: 2023-05-16
-lastmod: 2026-11-14
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Odkryj różnicę w wydajności między NVIDIA RTX 3090 i RTX 4090 w łamaniu haseł, podkreślając konsekwencje dla bezpieczeństwa i środki ochrony."
@@ -42,9 +42,9 @@ Oto tabela z wynikami naszych testów porównawczych:
 Długość hasła | Złożoność | RTX 3090 (sekundy) | RTX 4090 (sekundy)
 --- | --- | --- | ---
 8 znaków | proste | 120 | 60
-8 znaków | Złożone | 1200 | 600
-12 znaków | prosty | 12000 | 6000
-12 Znaków | Złożony | 120000 | 60000
+8 znaków | złożone | 1200 | 600
+12 znaków | proste | 12000 | 6000
+12 znaków | złożone | 120000 | 60000
 
 ## Implikacje dla bezpieczeństwa
 
