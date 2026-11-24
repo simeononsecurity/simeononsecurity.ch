@@ -1,18 +1,18 @@
 ---
 title: "Beveiligde e-mailservice: Meer privacy met StartMail"
 date: 2023-09-10
-lastmod: 2026-11-12
+lastmod: 2026-11-24
 toc: true
 draft: false
-description: "Ontdek StartMail, een veilige e-mailservice met geavanceerde versleuteling en e-mailmaskering, die de grootst mogelijke privacy en bescherming tegen cyberbedreigingen biedt."
-genre: ["Cyberbeveiliging", "Privacy", "E-mail diensten", "Online beveiliging", "Digitale privacy", "Encryptie", "Gegevensbescherming", "E-mail privacy", "Identiteitsbescherming", "Online privacy"]
-tags: ["Beveiligde e-mail", "E-mail Service", "StartMail", "E-mail maskeren", "Privacy", "Encryptie", "Cyberbeveiliging", "Gegevensbescherming", "Online beveiliging", "Identiteitsbescherming", "Online privacy", "E-mail Beveiliging", "Beveiligde communicatie", "E-mail alias", "End-to-end versleuteling", "SMIME-codering", "Authenticatie met twee factoren", "Gegevenscodering", "E-mail privacy", "Digitale privacy", "E-mailbeveiligingsservice", "Privacy-gericht", "Veilige gegevensopslag", "Bescherming tegen phishing", "Spam voorkomen", "OPSEC", "Containerisatie", "Online identiteitsbescherming", "Digitale communicatie", "Preventie van datalekken"]
+description: "Lees over StartMail-e-mailaliassen, PGP-versleuteling, met een wachtwoord beveiligde berichten en de grenzen van versleutelde e-mail."
+genre: ["Cyberbeveiliging", "Privacy", "E-mail diensten", "Online beveiliging", "Digitale privacy", "Encryptie", "Gegevensbescherming", "E-mail privacy", "Identiteitsbescherming", "Privacy op internet"]
+tags: ["Beveiligde e-mail", "E-mail Service", "StartMail", "E-mail maskeren", "Privacy", "Encryptie", "Cyberbeveiliging", "Gegevensbescherming", "Online beveiliging", "Identiteitsbescherming", "Privacy op internet", "E-mail Beveiliging", "Beveiligde communicatie", "E-mail alias", "End-to-end versleuteling", "SMIME-codering", "Authenticatie met twee factoren", "Gegevenscodering", "E-mail privacy", "Digitale privacy", "E-mailbeveiligingsservice", "Privacy-gericht", "Veilige gegevensopslag", "Bescherming tegen phishing", "Spam voorkomen", "OPSEC", "Containerisatie", "Online identiteitsbescherming", "Digitale communicatie", "Preventie van datalekken"]
 cover: "/img/cover/secure_email_guard.webp"
 coverAlt: "Een symbolische illustratie van een vergrendelde e-mailenvelop die wordt bewaakt door een schild,"
 coverCaption: "Uw digitale privacy beschermen met StartMail."
 ---
 
-{{< figure src="startmail_logo.webp" alt="StartMail Logo" >}}
+{{< figure src="startmail_logo.webp" alt="Het beeldmerk van StartMail" >}}
 
 ## Wat is StartMail?
 
@@ -22,9 +22,16 @@ ______
 
 ## Inleiding tot StartMail
 
-[**StartMail**](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined) is een privé e-maildienst die privacy en veiligheid van de gebruiker vooropstelt. Het is ontwikkeld door **Startpage**, een bekend privacy-gericht zoekmachinebedrijf. De dienst biedt end-to-end encryptie voor e-mails, zodat alleen de verzender en de ontvanger de inhoud kunnen lezen, zodat deze veilig is voor ongeautoriseerde toegang.
+[**StartMail**](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined) is een privédienst voor e-mail die privacy en beveiliging van gebruikers vooropstelt. De dienst is ontwikkeld door **Startpage**, een privacygericht zoekmachinebedrijf. StartMail ondersteunt PGP-versleuteling en met een wachtwoord beveiligde berichten voor e-mailinhoud. Alleen het hoofdadres kan versleutelde berichten versturen, een alias niet.
+
+### Huidig abonnement en grenzen van versleuteling
+
+De [actuele supportpagina van StartMail](https://support.startmail.com/hc/en-us/articles/360006841958-Account-types-features-and-pricing) vermeldt een Personal-abonnement voor $ 59,88 per jaar of $ 6,99 per maand, een proefperiode van zeven dagen, 20 GB opslag, IMAP-toegang en onbeperkte aliassen. Controleer prijzen, belastingen en verlengingsvoorwaarden vóór aankoop op de actuele abonnementspagina.
+
+De grenzen van versleuteling zijn belangrijk. PGP werkt wanneer zowel de afzender als de ontvanger sleutels gebruiken. Ontvangers zonder PGP kunnen een met een wachtwoord beveiligd bericht krijgen. De [versleutelingsgids van StartMail](https://support.startmail.com/hc/en-us/articles/360006843058-Encrypting-and-decrypting-messages) vermeldt dat alleen het hoofdadres versleutelde berichten kan versturen. Een alias verbergt je hoofdadres en helpt spam te beperken, maar versleutelt gewone e-mail niet.
 
 StartMail is ontworpen met verschillende beveiligingsfuncties, waaronder **e-mailaliassen** en **e-mailmaskering**, die gebruikers helpen hun echte e-mailadressen af te schermen van potentiële hackers en spammers. Door gebruik te maken van deze functies kunnen gebruikers voorkomen dat hun primaire e-mailaccounts worden blootgesteld aan het risico van datalekken of phishingaanvallen.
+
 
 {{< youtube id="xnhNyAqauRY" >}}
 
@@ -42,33 +49,34 @@ ______
 
 Het gebruik van **StartMails e-mailmaskering** is een eenvoudig proces dat een extra beschermingslaag toevoegt aan uw online identiteit. Hier is een stap-voor-stap handleiding voor het gebruik ervan:
 
-### 1. **Aanmelden voor StartMail Account**
+### 1. **Een StartMail-account aanmaken**
 
 Ga naar de [officiële website](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined) van StartMail en meld je aan voor een nieuw account. Het registratieproces is eenvoudig en beschermt de privacy van je persoonsgegevens.
 
 ### 2. **Een alias voor gemaskeerde e-mail maken**
 
-{{< figure src="startmail_pictured_alias.webp" alt="Startmail Alias Dashboard" >}}
+{{< figure src="startmail_pictured_alias.webp" alt="StartMail-dashboard voor aliassen" >}}
 
 Zodra je een StartMail account hebt, navigeer je naar de instellingen. Hier vind je de optie om **een gemaskeerde e-mailalias** aan te maken. Kies een unieke naam voor uw alias en wanneer u een e-mailadres moet opgeven op een website of service, gebruikt u deze gemaskeerde alias in plaats van uw primaire e-mailadres.
 
+
 ### 3. **E-mail doorsturen**
 
-{{< figure src="startmail_international.webp" alt="Startmail Forwarding" >}}
+{{< figure src="startmail_international.webp" alt="E-mail doorsturen met StartMail" >}}
 
 Als iemand een e-mail stuurt naar je gemaskerde alias, stuurt StartMail deze automatisch door naar je echte inbox. Op deze manier kun je alle communicatie volgen zonder je echte e-mailadres te onthullen.
 
 ### 4. **Aliassen beheren**
 
-{{< figure src="startmail_emailmasking.webp" alt="Startmail Aliases" >}}
+{{< figure src="startmail_emailmasking.webp" alt="StartMail-aliassen" >}}
 
-Met StartMail kun je je aliassen** effectief beheren. Je kunt een alias verwijderen als je te veel spam ontvangt en je kunt nieuwe aliassen aanmaken wanneer dat nodig is. Deze flexibiliteit geeft u meer controle over uw e-mailcommunicatie.
+Met StartMail kun je **je aliassen** effectief beheren. Je kunt een alias verwijderen als je te veel spam ontvangt en je kunt nieuwe aliassen aanmaken wanneer dat nodig is. Deze flexibiliteit geeft u meer controle over uw e-mailcommunicatie.
 
 ### 5. **Veilige communicatie**
 
-{{< figure src="startmail_pictured_encryption.webp" alt="Startmail Encryption" >}}
+{{< figure src="startmail_pictured_encryption.webp" alt="Versleuteling in StartMail" >}}
 
-Met de end-to-end-encryptie van StartMail is alle communicatie via de gemaskerde alias veilig en privé. Zelfs als de e-mail wordt onderschept, blijft de inhoud ervan versleuteld, waardoor onbevoegden de informatie niet kunnen ontcijferen.
+Met een alias kun je geen versleutelde berichten versturen. Verstuur PGP-versleutelde e-mail of met een wachtwoord beveiligde berichten vanaf je hoofdadres.
 
 ______
 
@@ -84,6 +92,8 @@ Het inschakelen van **2FA** voegt een extra beveiligingslaag toe aan uw StartMai
 
 StartMail ondersteunt **S/MIME-encryptie**, waardoor gebruikers versleutelde e-mails kunnen sturen naar anderen die ook een S/MIME-certificaat hebben. Deze functie garandeert dat alleen de beoogde ontvanger de inhoud van de e-mail kan lezen.
 
+
+De huidige accountdocumentatie van StartMail benadrukt PGP en met een wachtwoord beveiligde berichten. Controleer de accountdocumentatie voordat u vertrouwt op de oudere bewering hierboven over S/MIME-ondersteuning.
 ### 3. **Veilige gegevensopslag**
 
 StartMail geeft prioriteit aan gegevensbeveiliging door gebruik te maken van **state-of-the-art encryptie** om uw opgeslagen e-mails en persoonlijke gegevens te beschermen. Dit zorgt ervoor dat zelfs als de servers worden gecompromitteerd, de versleutelde gegevens onleesbaar blijven.
@@ -92,7 +102,7 @@ ______
 
 ## Hoe u StartMail kunt gebruiken om te voorkomen dat u gehackt wordt door e-mailmasking
 
-{{< figure src="startmail_masking2.webp" alt="Startmail Aliases" >}}
+{{< figure src="startmail_masking2.webp" alt="StartMail-aliassen" >}}
 
 Het gebruik van **StartMails e-mailmaskering** voegt niet alleen een extra laag van bescherming toe aan uw online identiteit, maar helpt ook het voorkomen van tracking over het web en maakt het moeilijker om uw accounts te correleren met datalekken. Containerisatie, bereikt door e-mail maskering, is een krachtige praktijk in operationele beveiliging (OPSEC) die StartMail uitstekend faciliteert.
 
@@ -100,7 +110,7 @@ Het gebruik van **StartMails e-mailmaskering** voegt niet alleen een extra laag 
 
 ### Veilige communicatie en OPSEC
 
-Dankzij de end-to-endversleuteling van [**StartMail**](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined) zijn alle berichten via het gemaskeerde alias veilig en privé, wat uw OPSEC versterkt. Zelfs als een e-mail wordt onderschept, blijft de inhoud versleuteld en kunnen onbevoegden deze niet ontcijferen. Door uw online accounts met gemaskeerde e-mailadressen te compartimenteren, beperkt u de hoeveelheid persoonlijk identificeerbare informatie (PII) die u blootstelt. Zo wordt u minder makkelijk online gevolgd en kunnen aanvallers uw accounts moeilijker aan elkaar koppelen na datalekken.
+E-mailmaskering helpt de persoonlijke informatie die je deelt te beperken en maakt accounts na een datalek moeilijker aan elkaar te koppelen. Een alias versleutelt berichten niet. Verstuur versleutelde e-mail waar nodig vanaf je hoofdadres met PGP of als een met een wachtwoord beveiligd bericht. Gebruik aliassen om aanmeldingen te scheiden en online tracking te beperken.
 
 StartMail speelt een cruciale rol bij het handhaven van een robuuste OPSEC-strategie, het beschermen van uw digitale identiteit en het verkleinen van het risico om gehackt te worden door effectieve e-mailmaskering.
 
@@ -126,7 +136,7 @@ Omdat gratis e-maildiensten een groot aantal gebruikers aanspreken, worden ze ee
 
 Gratis e-mailproviders bieden meestal minimale klantenondersteuning in vergelijking met premium diensten. In het geval van accountproblemen of beveiligingsproblemen kan het oplossen van problemen een langdurig en lastig proces zijn.
 
-### 5. Gebrek aan e-mailmarkering
+### 5. Gebrek aan e-mailmaskering
 
 Een cruciaal aspect dat gratis e-mailproviders vaak missen is **e-mailmaskering**, een krachtige techniek om e-mailtracking en -correlatie te voorkomen. Zonder e-mailmaskering wordt uw primaire e-mailadres gevoeliger voor phishingaanvallen en spam.
 
@@ -153,6 +163,17 @@ Gratis e-mailaccounts hebben meestal een beperkte opslagcapaciteit. Zodra u de o
 In tegenstelling, [**StartMail**](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined) biedt een betrouwbare en veilige e-mailservice met geen van de bovengenoemde problemen. Met geavanceerde versleuteling, e-mailmaskering en sterke beveiligingsmaatregelen garandeert StartMail de grootst mogelijke privacy voor uw communicatie. De klantenservice is snel en efficiënt en biedt hulp wanneer u die nodig hebt. Door voor StartMail te kiezen, neemt u controle over uw online beveiliging en beschermt u uw gegevens tegen potentiële risico's die geassocieerd worden met gratis e-mailproviders.
 
 
+
+### Checklist voor veilige e-mail
+
+- Gebruik een uniek accountwachtwoord en een wachtwoordmanager.
+- Schakel elke accountbeveiligingsoptie in die in uw huidige accountinstellingen staat.
+- Gebruik voor elke nieuwe dienst een eigen alias en schakel deze uit zodra misbruik begint.
+- Verstuur gevoelige berichten vanaf het hoofdadres wanneer PGP beschikbaar is. Ga er niet van uit dat een alias berichten versleutelt.
+- Deel het wachtwoord voor een met een wachtwoord beveiligd bericht via een tweede kanaal.
+- Houd herstelgegevens actueel en controleer actieve sessies na een vermoeden van accountmisbruik.
+
+StartMail maakt adrescompartimentering eenvoudiger en biedt volgens de documentatie van de aanbieder PGP- of met een wachtwoord beveiligde berichten. De dienst vervangt geen controle op phishing, apparaatbeveiliging, verificatie van ontvangers of versleutelde bestandsoverdracht voor gevoelige bijlagen.
 
 ## Conclusie
 

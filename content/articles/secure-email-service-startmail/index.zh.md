@@ -1,18 +1,18 @@
 ---
 title: "安全电子邮件服务：使用 StartMail 增强隐私保护"
 date: 2023-09-10
-lastmod: 2026-11-12
+lastmod: 2026-11-24
 toc: true
 draft: false
-description: "了解 StartMail，这是一种安全的电子邮件服务，具有先进的加密和电子邮件屏蔽功能，可确保最大限度地保护隐私和免受网络威胁。"
+description: "了解 StartMail 邮件别名、PGP 加密、密码保护邮件以及加密邮件的限制。"
 genre: ["网络安全", "隐私权", "电子邮件服务", "在线安全", "数字隐私", "加密", "数据保护", "电子邮件隐私", "身份保护", "在线隐私"]
-tags: ["安全电子邮件", "电子邮件服务", "启动邮件", "电子邮件屏蔽", "隐私权", "加密", "网络安全", "数据保护", "在线安全", "身份保护", "在线隐私", "电子邮件安全", "安全通信", "电子邮件别名", "端对端加密", "SMIME 加密", "双因素认证", "数据加密", "电子邮件隐私", "数字隐私", "电子邮件安全服务", "注重隐私", "安全数据存储", "网络钓鱼防护", "防止垃圾邮件", "OPSEC", "集装箱化", "在线身份保护", "数字通信", "防止数据泄露"]
+tags: ["安全电子邮件", "电子邮件服务", "StartMail", "电子邮件屏蔽", "隐私权", "加密", "网络安全", "数据保护", "在线安全", "身份保护", "在线隐私", "电子邮件安全", "安全通信", "电子邮件别名", "端对端加密", "SMIME 加密", "双因素认证", "数据加密", "电子邮件隐私", "数字隐私", "电子邮件安全服务", "注重隐私", "安全数据存储", "网络钓鱼防护", "防止垃圾邮件", "OPSEC", "集装箱化", "在线身份保护", "数字通信", "防止数据泄露"]
 cover: "/img/cover/secure_email_guard.webp"
 coverAlt: "一幅象征性的插图，表示一个上锁的电子邮件信封由一个盾牌保护着、"
 coverCaption: "使用 StartMail 保护您的数字隐私。"
 ---
 
-{{< figure src="startmail_logo.webp" alt="StartMail Logo" >}}
+{{< figure src="startmail_logo.webp" alt="StartMail 标志" >}}
 
 ## 什么是 StartMail
 
@@ -22,9 +22,16 @@ ______
 
 ## StartMail 简介
 
-[**StartMail**](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined)是一项优先考虑用户隐私和安全的私人电子邮件服务。它由**Startpage**开发，**Startpage**是一家著名的注重隐私的搜索引擎公司。该服务为电子邮件提供端到端加密，确保只有发件人和收件人可以阅读邮件内容，防止未经授权的访问。
+[**StartMail**](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined) 是一项注重用户隐私和安全的私人电子邮件服务，由专注隐私的搜索引擎公司 **Startpage** 开发。StartMail 支持对邮件内容使用 PGP 加密和密码保护邮件。只有主地址可以发送加密邮件，别名地址不能发送。
+
+### 当前套餐与加密范围
+
+[StartMail 当前的支持页面](https://support.startmail.com/hc/en-us/articles/360006841958-Account-types-features-and-pricing)列出 Personal 套餐，年费 59.88 美元或月费 6.99 美元，提供 7 天试用期、20 GB 存储空间、IMAP 访问权限和不限数量的别名。购买前，请在当前套餐页面核对价格、税费和续订条款。
+
+加密范围很重要。发送方和接收方都使用密钥时，PGP 才能发挥作用。没有 PGP 的收件人可以接收密码保护邮件。StartMail 的[加密指南](https://support.startmail.com/hc/en-us/articles/360006843058-Encrypting-and-decrypting-messages)说明，只有主地址可以发送加密邮件。别名会隐藏主地址并帮助减少垃圾邮件，但不会加密普通邮件。
 
 StartMail 设计有多种安全功能，包括**电子邮件别名**和**电子邮件屏蔽**，可帮助用户屏蔽真实电子邮件地址，防止潜在黑客和垃圾邮件发送者的攻击。利用这些功能，用户可以防止自己的主要电子邮件账户面临数据泄露或网络钓鱼攻击的风险。
+
 
 {{< youtube id="xnhNyAqauRY" >}}
 
@@ -48,27 +55,28 @@ ______
 
 ### 2.**创建屏蔽电子邮件别名***
 
-{{< figure src="startmail_pictured_alias.webp" alt="Startmail Alias Dashboard" >}}
+{{< figure src="startmail_pictured_alias.webp" alt="StartMail 别名管理面板" >}}
 
 拥有 StartMail 账户后，请导航至 "设置 "部分。在这里，你可以找到**创建一个屏蔽电子邮件别名**的选项。为您的别名选择一个唯一的名称，当您需要在网站或服务上提供电子邮件地址时，请使用该隐藏别名，而不是您的主电子邮件。
 
+
 ### 3.**电子邮件转发**
 
-{{< figure src="startmail_international.webp" alt="Startmail Forwarding" >}}
+{{< figure src="startmail_international.webp" alt="StartMail 邮件转发" >}}
 
 当有人向您的隐藏别名发送电子邮件时，StartMail 会自动将其转发到您的真实收件箱。这样，您就可以跟踪所有通信，而不会泄露您的真实电子邮件地址。
 
 ### 4.**管理别名**
 
-{{< figure src="startmail_emailmasking.webp" alt="Startmail Aliases" >}}
+{{< figure src="startmail_emailmasking.webp" alt="StartMail 别名" >}}
 
-StartMail 允许您**有效地管理您的别名。如果收到的垃圾邮件太多，您可以删除别名，也可以随时创建新的别名。这种灵活性可以让您更好地控制电子邮件通信。
+StartMail 允许您**有效地管理别名**。如果收到的垃圾邮件太多，您可以删除别名，也可以随时创建新的别名。这种灵活性可以让您更好地控制电子邮件通信。
 
 ### 5.**安全通信**
 
-{{< figure src="startmail_pictured_encryption.webp" alt="Startmail Encryption" >}}
+{{< figure src="startmail_pictured_encryption.webp" alt="StartMail 加密功能" >}}
 
-有了 StartMail 的端到端加密功能，所有通过屏蔽别名进行的通信都是安全和私密的。即使被拦截，邮件内容也会保持加密，未经授权的实体无法破译信息。
+别名地址不支持发送加密邮件。请改用主地址发送 PGP 加密邮件或密码保护邮件。
 
 ______
 
@@ -84,6 +92,8 @@ StartMail 除电子邮件屏蔽外，还为用户提供全面的电子邮件安�
 
 StartMail支持**S/MIME加密**，允许用户向同样拥有S/MIME证书的其他人发送加密邮件。此功能可确保只有目标收件人才能阅读电子邮件内容。
 
+
+StartMail 当前的账户文档重点介绍 PGP 和密码保护邮件。依赖上文较早提到的 S/MIME 支持说法前，请先核对账户文档。
 ### 3.**安全数据存储**
 
 StartMail将数据安全放在首位，使用**先进的加密**来保护您存储的电子邮件和个人信息。这可以确保即使服务器遭到破坏，加密数据也不会被读取。
@@ -92,7 +102,7 @@ ______
 
 ## 如何使用 StartMail 通过电子邮件掩码防止被黑客攻击
 
-{{< figure src="startmail_masking2.webp" alt="Startmail Aliases" >}}
+{{< figure src="startmail_masking2.webp" alt="StartMail 别名" >}}
 
 使用**StartMail的电子邮件屏蔽**功能，不仅可以为您的在线身份添加额外的保护层，还有助于防止网络跟踪，并使您的账户更难与数据泄露相关联。通过电子邮件屏蔽实现的容器化是操作安全（OPSEC）方面的一种强大做法，StartMail 在这方面表现出色。
 
@@ -100,7 +110,7 @@ ______
 
 ### 安全通信和 OPSEC
 
-借助 [**StartMail**](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined) 的端到端加密，通过屏蔽别名进行的所有通信都安全且私密，从而增强您的 OPSEC。即使邮件被截获，其内容仍保持加密，未经授权的人无法解密。使用屏蔽邮箱将在线账户分隔管理，可以减少暴露的个人身份信息（PII）。这样既能降低您在网络上被追踪的风险，也能让攻击者更难在数据泄露事件中关联您的账户。
+邮件屏蔽有助于减少公开的个人信息，并增加数据泄露后关联账户的难度。别名不会加密邮件。需要加密时，请从主地址使用 PGP 或发送密码保护邮件。使用别名区分注册用途并减少网络跟踪。
 
 StartMail 在帮助您维护稳健的 OPSEC 战略、保护您的数字身份以及通过有效的电子邮件掩码降低被黑客攻击的风险方面发挥着至关重要的作用。
 
@@ -150,9 +160,20 @@ StartMail 在帮助您维护稳健的 OPSEC 战略、保护您的数字身份以
 
 免费电子邮件账户的存储容量通常有限。一旦达到存储上限，你可能需要删除电子邮件，否则就有可能丢失重要信息。
 
-相比之下 [**StartMail**](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined)StartMail 提供可靠、安全的电子邮件服务，不会出现上述问题。StartMail 采用先进的加密、电子邮件屏蔽和强大的安全措施，可确保您的通信具有最高的私密性。它的客户支持及时高效，可随时为您提供帮助。选择 StartMail，您就掌握了自己的在线安全，保护自己的数据免受免费电子邮件提供商带来的潜在风险。
+相比之下，[**StartMail**](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined) 提供可靠、安全的电子邮件服务，不会出现上述问题。StartMail 采用先进的加密、电子邮件屏蔽和强大的安全措施，可确保您的通信具有最高的私密性。它的客户支持及时高效，可随时为您提供帮助。选择 StartMail，您就掌握了自己的在线安全，保护自己的数据免受免费电子邮件提供商带来的潜在风险。
 
 
+
+### 安全电子邮件检查清单
+
+- 为账户设置唯一密码，并使用密码管理器。
+- 启用当前账户设置中提供的所有账户保护选项。
+- 每注册一项新服务就使用单独的别名，发现滥用时停用该别名。
+- 如果支持 PGP，请从主地址发送敏感邮件。不要认为别名会加密邮件。
+- 通过另一个通信渠道分享密码保护邮件的密码。
+- 保持账户恢复信息为最新状态，怀疑账户遭入侵后检查活动会话。
+
+StartMail 便于区分不同用途的地址，并按服务商文档提供 PGP 或密码保护邮件。它不能替代钓鱼邮件检查、设备安全、收件人核验，也不能替代敏感附件的加密传输。
 
 ## 结论
 

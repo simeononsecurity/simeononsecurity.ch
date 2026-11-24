@@ -1,18 +1,18 @@
 ---
 title: "Servizio e-mail sicuro: Migliorare la privacy con StartMail"
 date: 2023-09-10
-lastmod: 2026-11-12
+lastmod: 2026-11-24
 toc: true
 draft: false
-description: "Scoprite StartMail, un servizio di posta elettronica sicuro con crittografia avanzata e mascheramento delle e-mail, che garantisce la massima privacy e protezione dalle minacce informatiche."
+description: "Scopri gli alias e-mail di StartMail, la crittografia PGP, i messaggi protetti da password e i limiti delle e-mail cifrate."
 genre: ["Sicurezza informatica", "Privacy", "Servizi e-mail", "Sicurezza online", "Privacy digitale", "Crittografia", "Protezione dei dati", "Privacy delle e-mail", "Protezione dell'identità", "Privacy online"]
-tags: ["Posta elettronica sicura", "Servizio e-mail", "AvviaMail", "Mascheramento delle e-mail", "Privacy", "Crittografia", "Sicurezza informatica", "Protezione dei dati", "Sicurezza online", "Protezione dell'identità", "Privacy online", "Sicurezza delle e-mail", "Comunicazione sicura", "Alias e-mail", "Crittografia end-to-end", "Crittografia SMIME", "Autenticazione a due fattori", "Crittografia dei dati", "Privacy delle e-mail", "Privacy digitale", "Servizio di sicurezza e-mail", "Orientato alla privacy", "Archiviazione sicura dei dati", "Protezione dal phishing", "Prevenzione dello spam", "OPSEC", "Containerizzazione", "Protezione dell'identità online", "Comunicazione digitale", "Prevenzione delle violazioni dei dati"]
+tags: ["Posta elettronica sicura", "Servizio e-mail", "StartMail", "Mascheramento delle e-mail", "Privacy", "Crittografia", "Sicurezza informatica", "Protezione dei dati", "Sicurezza online", "Protezione dell'identità", "Privacy online", "Sicurezza delle e-mail", "Comunicazione sicura", "Alias e-mail", "Crittografia end-to-end", "Crittografia SMIME", "Autenticazione a due fattori", "Crittografia dei dati", "Privacy delle e-mail", "Privacy digitale", "Servizio di sicurezza e-mail", "Orientato alla privacy", "Archiviazione sicura dei dati", "Protezione dal phishing", "Prevenzione dello spam", "OPSEC", "Containerizzazione", "Protezione dell'identità online", "Comunicazione digitale", "Prevenzione delle violazioni dei dati"]
 cover: "/img/cover/secure_email_guard.webp"
 coverAlt: "Illustrazione simbolica di una busta di posta elettronica chiusa a chiave e protetta da uno scudo,"
 coverCaption: "Proteggete la vostra privacy digitale con StartMail."
 ---
 
-{{< figure src="startmail_logo.webp" alt="StartMail Logo" >}}
+{{< figure src="startmail_logo.webp" alt="Logo di StartMail" >}}
 
 ## Che cos'è StartMail
 
@@ -22,9 +22,16 @@ ______
 
 ## Introduzione a StartMail
 
-[**StartMail**](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined) è un servizio di posta elettronica privata che dà priorità alla privacy e alla sicurezza degli utenti. È sviluppato da **Startpage**, una nota società di motori di ricerca incentrata sulla privacy. Il servizio fornisce una crittografia end-to-end per le e-mail, assicurando che solo il mittente e il destinatario possano leggerne il contenuto, mantenendolo al sicuro da accessi non autorizzati.
+[**StartMail**](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined) è un servizio di posta privata che dà priorità alla privacy e alla sicurezza degli utenti. È sviluppato da **Startpage**, un'azienda di motori di ricerca attenta alla privacy. StartMail supporta la crittografia PGP e i messaggi protetti da password per il contenuto delle e-mail. Solo l'indirizzo principale può inviare messaggi cifrati, non un alias.
+
+### Piano attuale e limiti della crittografia
+
+La [pagina di supporto attuale di StartMail](https://support.startmail.com/hc/en-us/articles/360006841958-Account-types-features-and-pricing) indica un piano Personal da 59,88 $ all’anno o 6,99 $ al mese, una prova di sette giorni, 20 GB di spazio, accesso IMAP e alias illimitati. Prima dell’acquisto, controlla prezzi, imposte e condizioni di rinnovo nella pagina aggiornata del piano.
+
+Il limite della crittografia è importante. PGP funziona quando sia il mittente sia il destinatario usano chiavi. I destinatari senza PGP possono ricevere un messaggio protetto da password. La [guida alla crittografia di StartMail](https://support.startmail.com/hc/en-us/articles/360006843058-Encrypting-and-decrypting-messages) specifica che solo l'indirizzo principale può inviare messaggi cifrati. Un alias nasconde l'indirizzo principale e aiuta a contenere lo spam, ma non cifra le normali e-mail.
 
 StartMail è progettato con diverse funzioni di sicurezza, tra cui **alias di posta elettronica** e **mascheramento delle e-mail**, che aiutano gli utenti a proteggere i loro veri indirizzi e-mail da potenziali hacker e spammer. Utilizzando queste funzioni, gli utenti possono evitare che i loro account di posta elettronica principali siano esposti al rischio di violazione dei dati o di attacchi di phishing.
+
 
 {{< youtube id="xnhNyAqauRY" >}}
 
@@ -48,27 +55,28 @@ Per iniziare a usare StartMail, visitate il [sito ufficiale](https://www.startma
 
 ### 2. **Creazione di un alias e-mail mascherato**
 
-{{< figure src="startmail_pictured_alias.webp" alt="Startmail Alias Dashboard" >}}
+{{< figure src="startmail_pictured_alias.webp" alt="Pannello degli alias di StartMail" >}}
 
 Una volta ottenuto il vostro account StartMail, andate nella sezione delle impostazioni. Qui troverete l'opzione per **creare un alias e-mail mascherato**. Scegliete un nome unico per il vostro alias e ogni volta che dovete fornire un indirizzo e-mail su un sito web o un servizio, utilizzate questo alias mascherato al posto del vostro indirizzo e-mail principale.
 
+
 ### 3. **Inoltro di e-mail**
 
-{{< figure src="startmail_international.webp" alt="Startmail Forwarding" >}}
+{{< figure src="startmail_international.webp" alt="Inoltro delle e-mail con StartMail" >}}
 
 Quando qualcuno invia un'e-mail al vostro alias mascherato, StartMail la inoltra automaticamente alla vostra vera casella di posta elettronica. In questo modo, è possibile tenere traccia di tutte le comunicazioni senza rivelare il proprio indirizzo e-mail reale.
 
 ### 4. **Gestione degli alias**
 
-{{< figure src="startmail_emailmasking.webp" alt="Startmail Aliases" >}}
+{{< figure src="startmail_emailmasking.webp" alt="Alias di StartMail" >}}
 
 StartMail consente di **gestire efficacemente gli alias**. È possibile eliminare un alias se si riceve troppo spam e creare nuovi alias quando necessario. Questa flessibilità vi permette di controllare meglio le vostre comunicazioni e-mail.
 
 ### 5. **Comunicazione sicura**
 
-{{< figure src="startmail_pictured_encryption.webp" alt="Startmail Encryption" >}}
+{{< figure src="startmail_pictured_encryption.webp" alt="Crittografia in StartMail" >}}
 
-Grazie alla crittografia end-to-end di StartMail, tutte le comunicazioni effettuate attraverso l'alias mascherato sono sicure e private. Anche se intercettato, il contenuto dell'e-mail rimane criptato, rendendo impossibile a soggetti non autorizzati decifrare le informazioni.
+Un alias non consente di inviare messaggi cifrati. Invia invece e-mail cifrate con PGP o messaggi protetti da password dall'indirizzo principale.
 
 ______
 
@@ -84,6 +92,8 @@ L'attivazione della **2FA** aggiunge un ulteriore livello di sicurezza al vostro
 
 StartMail supporta la **crittografia S/MIME**, consentendo agli utenti di inviare e-mail crittografate ad altre persone che dispongono di certificati S/MIME. Questa funzione garantisce che solo il destinatario previsto possa leggere il contenuto dell'e-mail.
 
+
+La documentazione attuale degli account StartMail mette in evidenza PGP e i messaggi protetti da password. Verifica la documentazione dell’account prima di fare affidamento sulla precedente affermazione sul supporto S/MIME.
 ### 3. **Sicurezza dell'archiviazione dei dati**
 
 StartMail dà priorità alla sicurezza dei dati utilizzando una **crittografia all'avanguardia** per proteggere le e-mail e le informazioni personali archiviate. Questo garantisce che anche se i server fossero compromessi, i dati criptati rimarrebbero illeggibili.
@@ -92,7 +102,7 @@ ______
 
 ## Come usare StartMail per evitare di essere hackerati attraverso il mascheramento delle e-mail
 
-{{< figure src="startmail_masking2.webp" alt="Startmail Aliases" >}}
+{{< figure src="startmail_masking2.webp" alt="Alias di StartMail" >}}
 
 L'utilizzo della funzione di mascheramento dell'e-mail di **StartMail** non solo aggiunge un ulteriore livello di protezione alla vostra identità online, ma aiuta anche a prevenire il tracciamento sul web e rende più difficile la correlazione dei vostri account nelle violazioni dei dati. La containerizzazione, ottenuta attraverso il mascheramento delle e-mail, è una pratica potente di sicurezza operativa (OPSEC) che StartMail è in grado di facilitare.
 
@@ -100,7 +110,7 @@ L'utilizzo della funzione di mascheramento dell'e-mail di **StartMail** non solo
 
 ### Comunicazione sicura e OPSEC
 
-Grazie alla crittografia end-to-end di [**StartMail**](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined), tutte le comunicazioni effettuate tramite l’alias mascherato sono sicure e private, rafforzando la vostra OPSEC. Anche se un’e-mail viene intercettata, il suo contenuto resta cifrato e le persone non autorizzate non possono decifrarlo. Compartimentando i vostri account online con indirizzi e-mail mascherati, limitate la quantità di informazioni personali identificabili (PII) che esponete. In questo modo riducete il rischio di essere tracciati sul Web e rendete più difficile per gli aggressori collegare i vostri account in caso di violazioni dei dati.
+Il mascheramento delle e-mail aiuta a limitare i dati personali esposti e rende più difficile collegare gli account dopo una violazione dei dati. Un alias non cifra i messaggi. Invia le e-mail cifrate dall'indirizzo principale con PGP o con un messaggio protetto da password, se necessario. Usa gli alias per separare le registrazioni e ridurre il tracciamento online.
 
 StartMail svolge un ruolo cruciale nell'aiutarvi a mantenere una solida strategia OPSEC, salvaguardando la vostra identità digitale e riducendo il rischio di essere violati attraverso un efficace mascheramento delle e-mail.
 
@@ -153,6 +163,17 @@ Gli account di posta elettronica gratuiti hanno solitamente una capacità di arc
 Al contrario, [**StartMail**](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined) offre un servizio di posta elettronica affidabile e sicuro che non presenta i problemi sopra citati. Grazie alla crittografia avanzata, al mascheramento delle e-mail e alle forti misure di sicurezza, StartMail garantisce la massima privacy per le vostre comunicazioni. Il suo supporto clienti è rapido ed efficiente e offre assistenza ogni volta che ne avete bisogno. Scegliendo StartMail, assumete il controllo della vostra sicurezza online e proteggete i vostri dati dai potenziali rischi associati ai provider di posta elettronica gratuiti.
 
 
+
+### Lista di controllo per un’e-mail sicura
+
+- Usa una password univoca per l’account e un gestore di password.
+- Attiva ogni opzione di protezione dell’account presente nelle impostazioni correnti.
+- Usa un alias separato per ogni nuovo servizio e disattivalo quando iniziano gli abusi.
+- Invia i messaggi sensibili dall’indirizzo principale quando PGP è disponibile. Non presumere che un alias crittografi i messaggi.
+- Condividi tramite un secondo canale la password di un messaggio protetto da password.
+- Mantieni aggiornati i dati di recupero e controlla le sessioni attive dopo un sospetto accesso non autorizzato.
+
+StartMail facilita la separazione degli indirizzi e offre messaggi PGP o protetti da password secondo la documentazione del provider. Non sostituisce i controlli anti-phishing, la sicurezza degli endpoint, la verifica dei destinatari o il trasferimento crittografato degli allegati sensibili.
 
 ## Conclusione
 
