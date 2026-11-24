@@ -1,11 +1,11 @@
 ---
 title: "Creare un laboratorio domestico economico e sicuro per i test IT"
 date: 2023-03-25
-lastmod: 2026-10-21
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Imparate a creare un laboratorio domestico sicuro ed economico per fare esperienza pratica di IT, sperimentando concetti di software, hardware e networking."
-tags: ["laboratorio domestico", "virtualizzazione", "hardware", "software", "rete", "sicurezza", "apprendimento", "test", "IT professional", "appassionato di tecnologia", "VMware", "Proxmox", "Hyper-V", "Linux", "Finestre", "configurazione di rete", "gestione delle macchine virtuali", "backup e ripristino", "cloud computing", "sicurezza informatica"]
+tags: ["laboratorio domestico", "virtualizzazione", "dispositivi", "programmi", "rete", "sicurezza", "apprendimento", "test", "professionista IT", "appassionato di tecnologia", "VMware", "Proxmox", "Hyper-V", "Linux", "Windows", "configurazione di rete", "gestione delle macchine virtuali", "backup e ripristino", "informatica in cloud", "sicurezza informatica"]
 cover: "/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.webp"
 coverAlt: "Un'immagine animata in 3D di un laboratorio domestico ben organizzato, comprendente un rack di server, apparecchiature di rete e vari schermi che visualizzano macchine virtuali, mappe di rete e funzioni di sicurezza, il tutto in un accogliente ambiente domestico."
 coverCaption: ""
@@ -15,13 +15,13 @@ coverCaption: ""
 
 ## Introduzione
 
-Costruire un laboratorio domestico **economico e sicuro** può essere una risorsa preziosa per chiunque sia interessato a imparare e testare nuove tecnologie. Che siate professionisti IT o appassionati di tecnologia, un laboratorio domestico vi permette di sperimentare vari concetti di software, hardware e networking in un ambiente controllato. In questo articolo vi guideremo attraverso il processo di creazione del vostro laboratorio domestico senza spendere una fortuna o compromettere la sicurezza.
+Costruire un laboratorio domestico **economico e sicuro** può essere una risorsa preziosa per chiunque sia interessato a imparare e testare nuove tecnologie. Che siate professionisti IT o appassionati di tecnologia, un [laboratorio domestico](https://simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/) vi permette di sperimentare vari concetti di software, hardware e networking in un ambiente controllato. In questo articolo vi guideremo attraverso il processo di creazione del vostro laboratorio domestico senza spendere una fortuna o compromettere la sicurezza.
 
 ______
 
-## Scegliere l'hardware giusto
+## Scegliere i dispositivi adatti
 
-### 1. Server di virtualizzazione
+### 1. Sistema per la virtualizzazione
 
 Il cuore di ogni laboratorio domestico è il **server di virtualizzazione**. Si tratta dell'hardware che ospiterà tutte le macchine virtuali (VM). Quando si sceglie un server di virtualizzazione, bisogna considerare i seguenti fattori:
 
@@ -35,15 +35,15 @@ Per collegare il laboratorio domestico a Internet e alla rete locale, sono neces
 
 ______
 
-## Scegliere il software giusto
+## Scegliere i programmi adatti
 
-### 1. Software di virtualizzazione
+### 1. Programmi di virtualizzazione
 
 Il componente software più importante in un laboratorio domestico è il **software di virtualizzazione**. Le opzioni più diffuse includono [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html), [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) e [Microsoft Hyper-V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows). Queste piattaforme consentono di creare e gestire più macchine virtuali su un unico host. Scegliete quella più adatta alle vostre esigenze e al vostro budget.
 
 ### 2. Sistemi operativi
 
-Avrete bisogno di **sistemi operativi (OS)** da eseguire sulle vostre macchine virtuali. Sono disponibili numerosi sistemi operativi, dalle opzioni gratuite come [Linux distributions](https://distrowatch.com/) to paid options like [Microsoft Windows](https://www.microsoft.com/en-us/windows) Selezionate il sistema operativo che meglio si allinea con gli obiettivi di apprendimento e di verifica.
+Servono **sistemi operativi (OS)** da eseguire sulle macchine virtuali. Le opzioni comprendono le distribuzioni [Linux gratuite](https://distrowatch.com/) e [Microsoft Windows a pagamento](https://www.microsoft.com/en-us/windows). Scegliete il sistema più adatto ai vostri obiettivi di apprendimento e test.
 
 ______
 
@@ -51,7 +51,7 @@ ______
 
 ### 1. Configurazione della rete
 
-Una **propria configurazione di rete** è fondamentale per un laboratorio domestico sicuro ed efficiente. Seguite queste buone pratiche:
+Una **configurazione di rete adeguata** è fondamentale per un laboratorio domestico sicuro ed efficiente. Seguite queste buone pratiche:
 
 - Utilizzare una **VLAN separata** per il laboratorio domestico per isolarlo dalla rete principale.
 - Implementare la **segmentazione della rete** per separare le macchine virtuali con requisiti di sicurezza diversi.
@@ -71,17 +71,17 @@ ______
 
 ### 1. Aggiornamenti regolari
 
-Uno degli aspetti più critici per mantenere un laboratorio domestico sicuro è l'aggiornamento** regolare del software. Questo include la piattaforma di virtualizzazione, i sistemi operativi e tutte le applicazioni in esecuzione sulle macchine virtuali.
+Uno degli aspetti più critici per mantenere un laboratorio domestico sicuro è l'**aggiornamento regolare** del software. Questo include la piattaforma di virtualizzazione, i sistemi operativi e tutte le applicazioni in esecuzione sulle macchine virtuali.
 
 ### 2. Sicurezza della rete
 
 Implementate solide misure di **sicurezza della rete** per proteggere il vostro laboratorio domestico dalle minacce. Questo include:
 
 - Utilizzare **password forti e uniche** per tutti gli account.
-- Abilitazione dell'autenticazione a due fattori (2FA)** per i servizi critici.
+- Abilitazione dell’**autenticazione a due fattori (2FA)** per i servizi critici.
 - Configurazione di **sistemi di rilevamento e prevenzione delle intrusioni (IDPS)** per monitorare il traffico di rete alla ricerca di attività dannose.
 
-### 3. Backup e ripristino
+### 3. Copie di sicurezza e ripristino
 
 Stabilite un **piano di backup e ripristino** per il vostro laboratorio domestico per assicurarvi di poter recuperare rapidamente qualsiasi perdita di dati o guasto del sistema. Questo include:
 

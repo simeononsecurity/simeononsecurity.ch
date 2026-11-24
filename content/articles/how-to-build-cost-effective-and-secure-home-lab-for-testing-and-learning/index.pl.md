@@ -1,11 +1,11 @@
 ---
 title: "Zbuduj niedrogie, bezpieczne domowe laboratorium do testów IT"
 date: 2023-03-25
-lastmod: 2026-10-21
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "Dowiedz się, jak stworzyć ekonomiczne i bezpieczne domowe laboratorium, aby zdobyć praktyczne doświadczenie IT, eksperymentując z oprogramowaniem, sprzętem i koncepcjami sieciowymi."
-tags: ["domowe laboratorium", "wirtualizacja", "sprzęt", "oprogramowanie", "networking", "bezpieczeństwo", "nauka", "testowanie", "Profesjonalista IT", "entuzjasta technologii", "VMware", "Proxmox", "Hyper-V", "Linux", "Windows", "konfiguracja sieci", "zarządzanie maszynami wirtualnymi", "tworzenie kopii zapasowych i odzyskiwanie danych", "chmura obliczeniowa", "cyberbezpieczeństwo"]
+tags: ["domowe laboratorium", "wirtualizacja", "sprzęt", "oprogramowanie", "sieci komputerowe", "bezpieczeństwo", "nauka", "testowanie", "Profesjonalista IT", "entuzjasta technologii", "VMware", "Proxmox", "Hyper-V", "Linux", "Windows", "konfiguracja sieci", "zarządzanie maszynami wirtualnymi", "tworzenie kopii zapasowych i odzyskiwanie danych", "chmura obliczeniowa", "cyberbezpieczeństwo"]
 cover: "/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.webp"
 coverAlt: "Animowany obraz 3D przedstawiający dobrze zorganizowaną konfigurację domowego laboratorium, w tym szafę serwerową, sprzęt sieciowy i różne ekrany wyświetlające maszyny wirtualne, mapy sieci i funkcje bezpieczeństwa, a wszystko to w przytulnym środowisku domowym."
 coverCaption: ""
@@ -15,7 +15,7 @@ coverCaption: ""
 
 ## Wprowadzenie
 
-Zbudowanie **ekonomicznego i bezpiecznego domowego laboratorium** może być nieocenionym atutem dla każdego zainteresowanego nauką i testowaniem nowych technologii. Niezależnie od tego, czy jesteś profesjonalistą IT, czy entuzjastą technologii, domowe laboratorium pozwala eksperymentować z różnymi koncepcjami oprogramowania, sprzętu i sieci w kontrolowanym środowisku. W tym artykule przeprowadzimy Cię przez proces tworzenia własnego domowego laboratorium bez rozbijania banku lub narażania bezpieczeństwa.
+Zbudowanie **ekonomicznego i bezpiecznego domowego laboratorium** może być nieocenionym atutem dla każdego zainteresowanego nauką i testowaniem nowych technologii. Niezależnie od tego, czy jesteś profesjonalistą IT, czy entuzjastą technologii, [domowe laboratorium](https://simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/) pozwala eksperymentować z różnymi koncepcjami oprogramowania, sprzętu i sieci w kontrolowanym środowisku. W tym artykule przeprowadzimy Cię przez proces tworzenia własnego domowego laboratorium bez rozbijania banku lub narażania bezpieczeństwa.
 
 ______
 
@@ -27,7 +27,7 @@ Sercem każdego domowego laboratorium jest **serwer wirtualizacji**. Jest to spr
 
 - **CPU**: Celuj w **wielordzeniowy procesor** z **funkcjami wielowątkowości**. Umożliwi to jednoczesne uruchamianie wielu maszyn wirtualnych.
 - **Pamięć**: Zainwestuj w **minimum 16 GB pamięci RAM**. Im więcej pamięci, tym więcej maszyn wirtualnych można uruchomić jednocześnie.
-- Pamięć masowa**: Wybierz **dyski półprzewodnikowe (SSD)** zamiast tradycyjnych dysków twardych (HDD), aby uzyskać szybszą wydajność i mniejsze zużycie energii.
+- **Pamięć masowa**: Wybierz **dyski półprzewodnikowe (SSD)** zamiast tradycyjnych dysków twardych (HDD), aby uzyskać szybszą wydajność i mniejsze zużycie energii.
 
 ### 2. Sprzęt sieciowy
 
@@ -43,7 +43,7 @@ Najważniejszym komponentem oprogramowania w domowym laboratorium jest **oprogra
 
 ### 2. Systemy operacyjne
 
-Będziesz potrzebował **systemów operacyjnych (OS)** do uruchomienia na swoich maszynach wirtualnych. Dostępnych jest wiele systemów operacyjnych, począwszy od darmowych opcji, takich jak [Linux distributions](https://distrowatch.com/) to paid options like [Microsoft Windows](https://www.microsoft.com/en-us/windows) Wybierz system operacyjny, który najlepiej odpowiada Twoim celom edukacyjnym i testowym.
+Na maszynach wirtualnych uruchomisz **systemy operacyjne (OS)**. Dostępne są bezpłatne dystrybucje [Linux](https://distrowatch.com/) oraz płatny [Microsoft Windows](https://www.microsoft.com/en-us/windows). Wybierz system zgodny z celami nauki i testów.
 
 ______
 

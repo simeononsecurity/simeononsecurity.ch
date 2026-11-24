@@ -1,21 +1,21 @@
 ---
 title: "Construire un laboratoire maison abordable et sécurisé pour les tests informatiques"
 date: 2023-03-25
-lastmod: 2026-10-21
+lastmod: 2026-11-20
 toc: true
 draft: false
-description: "Apprenez à créer un laboratoire domestique rentable et sécurisé pour acquérir une expérience pratique des technologies de l'information, en expérimentant des logiciels, du matériel et des concepts de mise en réseau."
-tags: ["laboratoire domestique", "virtualisation", "matériel", "logiciel", "la mise en réseau", "sécurité", "l'apprentissage", "essais", "Professionnel de l'informatique", "passionné de technologie", "VMware", "Proxmox", "Hyper-V", "Linux", "Fenêtres", "configuration du réseau", "gestion des machines virtuelles", "sauvegarde et récupération", "informatique en nuage", "cybersécurité"]
+description: "Apprenez à créer un laboratoire domestique abordable et sécurisé pour acquérir une expérience pratique des technologies de l'information, en expérimentant des logiciels, du matériel et des concepts de mise en réseau."
+tags: ["laboratoire domestique", "virtualisation", "matériel", "logiciel", "la mise en réseau", "sécurité", "l'apprentissage", "essais", "Professionnel de l'informatique", "passionné de technologie", "VMware", "Proxmox", "Hyper-V", "Linux", "Windows", "configuration du réseau", "gestion des machines virtuelles", "sauvegarde et récupération", "informatique en nuage", "cybersécurité"]
 cover: "/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.webp"
 coverAlt: "Image animée en 3D d'un laboratoire domestique bien organisé, comprenant un rack de serveurs, du matériel de réseau et divers écrans affichant des machines virtuelles, des cartes de réseau et des fonctions de sécurité, le tout dans un environnement domestique confortable."
 coverCaption: ""
 ---
 
-**Comment construire un laboratoire domestique rentable et sécurisé pour tester et apprendre**
+**Comment construire un laboratoire domestique abordable et sécurisé pour tester et apprendre**
 
 ## Introduction
 
-La construction d'un **laboratoire domestique rentable et sécurisé** peut constituer un atout inestimable pour toute personne désireuse d'apprendre et de tester de nouvelles technologies. Que vous soyez un professionnel de l'informatique ou un passionné de technologie, un laboratoire domestique vous permet d'expérimenter divers logiciels, matériels et concepts de réseau dans un environnement contrôlé. Dans cet article, nous vous guiderons tout au long du processus de création de votre propre laboratoire domestique, sans vous ruiner ni compromettre la sécurité.
+La construction d'un **laboratoire domestique abordable et sécurisé** peut constituer un atout inestimable pour toute personne désireuse d'apprendre et de tester de nouvelles technologies. Que vous soyez un professionnel de l'informatique ou un passionné de technologie, un [laboratoire domestique](https://simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/) vous permet d'expérimenter divers logiciels, matériels et concepts de réseau dans un environnement contrôlé. Dans cet article, nous vous guiderons tout au long du processus de création de votre propre laboratoire domestique, sans vous ruiner ni compromettre la sécurité.
 
 ______
 
@@ -26,8 +26,8 @@ ______
 Le cœur de tout laboratoire domestique est le **serveur de virtualisation**. Il s'agit du matériel qui hébergera toutes vos machines virtuelles (VM). Lorsque vous choisissez un serveur de virtualisation, tenez compte des facteurs suivants :
 
 - **CPU** : Visez un **processeur multicœur** avec des capacités **hyper-threading**. Cela vous permettra d'exécuter plusieurs machines virtuelles simultanément.
-- Mémoire** : Investissez dans un minimum de 16 Go de RAM**. Plus vous disposez de mémoire, plus vous pourrez exécuter de VM simultanément.
-- Stockage** : Optez pour des **disques à état solide (SSD)** plutôt que pour des disques durs traditionnels (HDD) pour des performances plus rapides et une consommation d'énergie réduite.
+- **Mémoire** : Investissez dans un minimum de **16 Go de RAM**. Plus vous disposez de mémoire, plus vous pourrez exécuter de VM simultanément.
+- **Stockage** : Optez pour des **disques à état solide (SSD)** plutôt que pour des disques durs traditionnels (HDD) pour des performances plus rapides et une consommation d'énergie réduite.
 
 ### 2. Équipement de réseau
 
@@ -43,7 +43,7 @@ Le composant logiciel le plus important d'un laboratoire domestique est le **log
 
 ### 2. Systèmes d'exploitation
 
-Vous aurez besoin de **systèmes d'exploitation (SE)** pour faire fonctionner vos machines virtuelles. Il existe de nombreux choix de systèmes d'exploitation, allant d'options gratuites comme [Linux distributions](https://distrowatch.com/) to paid options like [Microsoft Windows](https://www.microsoft.com/en-us/windows) Sélectionnez le système d'exploitation qui correspond le mieux à vos objectifs d'apprentissage et de test.
+Vous aurez besoin de **systèmes d'exploitation (SE)** pour vos machines virtuelles. Plusieurs options existent, des distributions [Linux gratuites](https://distrowatch.com/) à [Microsoft Windows, payant](https://www.microsoft.com/en-us/windows). Choisissez le système adapté à vos objectifs d'apprentissage et de test.
 
 ______
 
@@ -78,7 +78,7 @@ L'un des aspects les plus critiques du maintien d'un laboratoire domestique séc
 Mettez en œuvre des mesures robustes de **sécurité du réseau** pour protéger votre laboratoire domestique contre les menaces. Cela inclut :
 
 - Utiliser des **mots de passe forts et uniques** pour tous les comptes.
-- Activer l'authentification à deux facteurs (2FA)** pour les services critiques.
+- Activer l’**authentification à deux facteurs (2FA)** pour les services critiques.
 - Configurer des **systèmes de détection et de prévention des intrusions (IDPS)** pour surveiller le trafic réseau à la recherche d'activités malveillantes.
 
 ### 3. Sauvegarde et récupération
@@ -104,7 +104,7 @@ ______
 
 ## Conclusion
 
-La création d'un **laboratoire domestique rentable et sécurisé** peut être une expérience enrichissante qui offre d'innombrables possibilités d'apprentissage et de test. En choisissant soigneusement votre matériel et vos logiciels et en respectant les meilleures pratiques en matière de configuration et de sécurité, vous créerez un environnement flexible et puissant pour votre développement personnel et professionnel.
+La création d'un **laboratoire domestique abordable et sécurisé** peut être une expérience enrichissante qui offre d'innombrables possibilités d'apprentissage et de test. En choisissant soigneusement votre matériel et vos logiciels et en respectant les meilleures pratiques en matière de configuration et de sécurité, vous créerez un environnement flexible et puissant pour votre développement personnel et professionnel.
 
 ______
 
