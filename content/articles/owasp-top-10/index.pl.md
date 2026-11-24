@@ -1,6 +1,7 @@
 ---
 title: "OWASP Top 10: Krytyczne zagrożenia bezpieczeństwa aplikacji internetowych"
 date: 2023-02-17
+lastmod: 2026-11-24
 toc: true
 draft: false
 description: "Dowiedz się o najbardziej krytycznych zagrożeniach bezpieczeństwa aplikacji internetowych z OWASP Top 10 i jak się przed nimi chronić"
@@ -8,14 +9,15 @@ tags: ["Bezpieczeństwo aplikacji internetowych", "OWASP Top 10", "Ataki typu in
 cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.webp"
 coverAlt: "Kreskówka przedstawiająca programistę internetowego w pelerynie superbohatera i trzymającego tarczę. Tarcza chroni laptopa z interfejsem aplikacji internetowej na ekranie."
 coverCaption: ""
+genre: ["Bezpieczeństwo aplikacji internetowych", "OWASP Top 10", "Ataki typu injection", "Uwierzytelnianie", "Zarządzanie sesjami", "Ataki XSS", "Kontrola dostępu", "Błędna konfiguracja zabezpieczeń", "Pamięć kryptograficzna", "Ochrona warstwy transportowej"]
 ---
- Top 10: Najbardziej krytyczne zagrożenia bezpieczeństwa aplikacji internetowych**
+**Top 10: Najbardziej krytyczne zagrożenia bezpieczeństwa aplikacji internetowych**
 
-Bezpieczeństwo aplikacji internetowych jest krytycznym aspektem tworzenia stron internetowych, ale często jest pomijane. Open Web Application Security Project (OWASP) udostępnia listę 10 najważniejszych zagrożeń bezpieczeństwa aplikacji internetowych, które są najbardziej krytyczne dla programistów. Lista ta znana jest jako OWASP Top 10.
+**Bezpieczeństwo** aplikacji internetowych jest krytycznym aspektem tworzenia stron internetowych, ale często jest pomijane. Open Web Application Security Project (OWASP) udostępnia listę 10 najważniejszych zagrożeń bezpieczeństwa aplikacji internetowych, które są najbardziej krytyczne dla programistów. Lista ta znana jest jako OWASP Top 10.
 
 ## Lista OWASP Top 10
 
-Aktualna wersja OWASP Top 10 została opublikowana w 2017 roku i obejmuje następujące zagrożenia:
+**Aktualna** wersja OWASP Top 10 została opublikowana w 2017 roku i obejmuje następujące zagrożenia:
 
 1. **Injection**.
 2. **Złamane uwierzytelnianie i zarządzanie sesją**
@@ -24,7 +26,7 @@ Aktualna wersja OWASP Top 10 została opublikowana w 2017 roku i obejmuje nastę
 5. **Błędna konfiguracja zabezpieczeń**
 6. **Niebezpieczne przechowywanie danych kryptograficznych**
 7. **Niewystarczająca ochrona warstwy transportowej**
-8. **Niezatwierdzone i nieodkażone dane wejściowe**.
+8. **Niezweryfikowane i nieoczyszczone dane wejściowe**.
 9. **Używanie komponentów o znanych podatnościach**
 10. **Niewystarczające rejestrowanie i monitorowanie**
 
@@ -44,7 +46,7 @@ ______
 
 **Uwierzytelnianie** i **zarządzanie sesją** są krytycznymi elementami bezpieczeństwa aplikacji internetowych. **Złamane uwierzytelnianie i zarządzanie sesją** występują, gdy atakujący mogą uzyskać nieautoryzowany dostęp do kont użytkowników lub ominąć środki uwierzytelniania.
 
-Może się to zdarzyć z powodu słabych haseł, niezabezpieczonego zarządzania sesją lub innych luk w procesie uwierzytelniania. Atakujący mogą wykorzystać te luki w celu kradzieży poufnych informacji o użytkowniku lub wykonania nieautoryzowanych działań w imieniu użytkownika.
+**Może** się to zdarzyć z powodu słabych haseł, niezabezpieczonego zarządzania sesją lub innych luk w procesie uwierzytelniania. Atakujący mogą wykorzystać te luki w celu kradzieży poufnych informacji o użytkowniku lub wykonania nieautoryzowanych działań w imieniu użytkownika.
 
 Aby zapobiec nieudanemu uwierzytelnianiu i zarządzaniu sesjami, programiści powinni używać **bezpiecznych mechanizmów uwierzytelniania**, takich jak uwierzytelnianie wieloskładnikowe i limit czasu sesji, oraz upewnić się, że hasła użytkowników są bezpiecznie przechowywane.
 
@@ -64,9 +66,9 @@ ______
 
 **Kontrola dostępu** to proces kontrolowania dostępu do zasobów w aplikacji internetowej. **Złamana kontrola dostępu** występuje, gdy atakujący mogą uzyskać nieautoryzowany dostęp do zasobów, które powinny być ograniczone.
 
-Może się to zdarzyć z powodu luk w procesie uwierzytelniania, niezabezpieczonego zarządzania sesją lub innych luk w mechanizmach kontroli dostępu. Atakujący mogą wykorzystać te luki w celu kradzieży poufnych informacji lub wykonania nieautoryzowanych działań w imieniu użytkownika.
+**Może** się to zdarzyć z powodu luk w procesie uwierzytelniania, niezabezpieczonego zarządzania sesją lub innych luk w mechanizmach kontroli dostępu. Atakujący mogą wykorzystać te luki w celu kradzieży poufnych informacji lub wykonania nieautoryzowanych działań w imieniu użytkownika.
 
-Aby zapobiec złamaniu kontroli dostępu, programiści powinni używać odpowiednich mechanizmów kontroli dostępu, aby zapewnić, że tylko autoryzowani użytkownicy mogą uzyskać dostęp do ograniczonych zasobów.
+**Aby** zapobiec złamaniu kontroli dostępu, programiści powinni używać odpowiednich mechanizmów kontroli dostępu, aby zapewnić, że tylko autoryzowani użytkownicy mogą uzyskać dostęp do ograniczonych zasobów.
 
 ______
 
@@ -74,9 +76,9 @@ ______
 
 **Błędna konfiguracja zabezpieczeń** występuje, gdy aplikacje internetowe nie są odpowiednio skonfigurowane, aby zapewnić ich bezpieczeństwo. Może się to zdarzyć z powodu braku odpowiedniego zarządzania konfiguracją, niezałatanych luk w zabezpieczeniach lub innych kwestii, które sprawiają, że aplikacja jest podatna na ataki.
 
-Atakujący mogą wykorzystać błędną konfigurację zabezpieczeń, aby uzyskać nieautoryzowany dostęp do poufnych danych, wykonać nieautoryzowane polecenia lub wykonać inne złośliwe działania.
+**Atakujący** mogą wykorzystać błędną konfigurację zabezpieczeń, aby uzyskać nieautoryzowany dostęp do poufnych danych, wykonać nieautoryzowane polecenia lub wykonać inne złośliwe działania.
 
-Aby zapobiec błędnej konfiguracji zabezpieczeń, programiści powinni upewnić się, że ich aplikacje internetowe są prawidłowo skonfigurowane z bezpiecznymi ustawieniami domyślnymi, aktualnym oprogramowaniem i sprzętem oraz regularnymi kontrolami bezpieczeństwa.
+**Aby** zapobiec błędnej konfiguracji zabezpieczeń, programiści powinni upewnić się, że ich aplikacje internetowe są prawidłowo skonfigurowane z bezpiecznymi ustawieniami domyślnymi, aktualnym oprogramowaniem i sprzętem oraz regularnymi kontrolami bezpieczeństwa.
 
 ______
 
@@ -92,17 +94,17 @@ ______
 
 Aplikacje internetowe wykorzystują **ochronę warstwy transportowej**, taką jak HTTPS, w celu zabezpieczenia komunikacji między klientami a serwerami. **Niewystarczająca ochrona warstwy transportowej** występuje, gdy ochrona ta nie jest prawidłowo skonfigurowana lub nie jest w ogóle używana.
 
-Atakujący mogą wykorzystać tę lukę do przechwycenia poufnych danych, takich jak hasła lub numery kart kredytowych, podczas transmisji.
+**Atakujący** mogą wykorzystać tę lukę do przechwycenia poufnych danych, takich jak hasła lub numery kart kredytowych, podczas transmisji.
 
 Aby zapobiec niewystarczającej ochronie warstwy transportowej, programiści powinni używać **silnych algorytmów szyfrowania** i odpowiednio skonfigurować ochronę warstwy transportowej.
 
 ______
 
-### 8. Niezatwierdzone i nieanitowane dane wejściowe
+### 8. Niezweryfikowane i nieoczyszczone dane wejściowe
 
-**Nieważne i nieoczyszczone dane wejściowe** występują, gdy dane wejściowe użytkownika nie są odpowiednio sprawdzane lub oczyszczane przed przetworzeniem przez aplikację internetową. Może to prowadzić do ataków typu injection, cross-site scripting i innych rodzajów luk w zabezpieczeniach.
+**Niezweryfikowane i nieoczyszczone dane wejściowe** występują, gdy dane wejściowe użytkownika nie są odpowiednio weryfikowane ani oczyszczane przed przetworzeniem przez aplikację internetową. Może to prowadzić do ataków typu injection, cross-site scripting i innych rodzajów luk w zabezpieczeniach.
 
-Aby zapobiec nieprawidłowej walidacji i oczyszczaniu danych wejściowych, programiści powinni używać **walidacji danych wejściowych** i **kodowania danych wyjściowych**, aby zapewnić, że dane wejściowe użytkownika są prawidłowo oczyszczane.
+Aby zapobiec braku weryfikacji i oczyszczania danych wejściowych, programiści powinni używać **walidacji danych wejściowych** i **kodowania danych wyjściowych**, aby zapewnić, że dane wejściowe użytkownika są prawidłowo oczyszczane.
 
 ______
 
@@ -110,7 +112,7 @@ ______
 
 **Aplikacje internetowe często korzystają z komponentów innych firm, takich jak biblioteki i frameworki**, aby zapewnić dodatkową funkcjonalność. Komponenty te mogą jednak zawierać luki, które mogą zostać wykorzystane przez atakujących.
 
-Aby zapobiec używaniu komponentów ze znanymi lukami, programiści powinni regularnie aktualizować swoje komponenty i używać bezpiecznych komponentów, które zostały przetestowane pod kątem luk w zabezpieczeniach.
+**Aby** zapobiec używaniu komponentów ze znanymi lukami, programiści powinni regularnie aktualizować swoje komponenty i używać bezpiecznych komponentów, które zostały przetestowane pod kątem luk w zabezpieczeniach.
 
 ______
 
@@ -125,4 +127,3 @@ Aby zapobiec niewystarczającemu rejestrowaniu i monitorowaniu, programiści pow
 OWASP Top 10 zapewnia kompleksowy przegląd najbardziej krytycznych zagrożeń bezpieczeństwa aplikacji internetowych. Rozumiejąc te zagrożenia i wdrażając skuteczne środki bezpieczeństwa, programiści i specjaliści ds. bezpieczeństwa mogą zapewnić bezpieczeństwo swoich aplikacji internetowych i chronić wrażliwe dane użytkowników.
 
 Chociaż ten artykuł zawiera ogólny przegląd OWASP Top 10, ważne jest, aby pamiętać, że bezpieczeństwo aplikacji internetowych jest złożoną i ewoluującą dziedziną. Programiści i specjaliści ds. bezpieczeństwa powinni być na bieżąco z najnowszymi trendami i najlepszymi praktykami w zakresie bezpieczeństwa aplikacji internetowych, aby zapewnić bezpieczeństwo swoich aplikacji.
-

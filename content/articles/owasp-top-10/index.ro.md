@@ -1,6 +1,7 @@
 ---
 title: "Top 10 OWASP: Riscuri critice pentru securitatea aplicațiilor web"
 date: 2023-02-17
+lastmod: 2026-11-24
 toc: true
 draft: false
 description: "Aflați care sunt cele mai importante riscuri de securitate pentru aplicațiile web cu OWASP Top 10 și cum să vă protejați împotriva lor"
@@ -10,7 +11,7 @@ cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.w
 coverAlt: "O imagine de desene animate a unui dezvoltator web care poartă o pelerină de supererou și ține un scut. Scutul protejează un laptop cu o interfață de aplicație web pe ecran."
 coverCaption: ""
 ---
- Top 10: Cele mai critice riscuri de securitate a aplicațiilor web**
+**Top 10: Cele mai critice riscuri de securitate a aplicațiilor web**
 
 Securitatea aplicațiilor web este un aspect critic al dezvoltării web, dar este adesea trecut cu vederea. Open Web Application Security Project (OWASP) oferă o listă a primelor 10 riscuri de securitate a aplicațiilor web care sunt cele mai importante pentru dezvoltatori. Această listă este cunoscută sub numele de OWASP Top 10.
 
