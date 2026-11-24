@@ -4,52 +4,53 @@ date: 2023-02-13
 lastmod: 2026-11-20
 toc: true
 draft: false
-description: "দ্রুত পরিবর্তনশীল আইটি ও সাইবার নিরাপত্তা ক্ষেত্রে ক্যারিয়ার শুরু করার ধাপগুলো জানুন।"
-tags: ["আইটি ও সাইবার নিরাপত্তা", "ক্যারিয়ার নির্দেশিকা", "CompTIA সনদ", "MCSA সনদ", "Linux+ সনদ", "CCNA সনদ", "পেনিট্রেশন টেস্টিং", "নৈতিক হ্যাকিং", "OSCP সনদ", "স্ক্রিপ্ট লেখা", "আইটি চাকরি", "সাইবার নিরাপত্তার চাকরি"]
+description: "প্রথম আইটি চাকরি থেকে দক্ষতা ও সার্টিফিকেশন পর্যন্ত, আইটি ও সাইবার নিরাপত্তায় ক্যারিয়ার শুরু করার ধাপগুলো জানুন।"
+tags: ["আইটি ও সাইবার নিরাপত্তা", "ক্যারিয়ার নির্দেশিকা", "CompTIA সার্টিফিকেশন", "MCSA", "Linux+", "CCNA", "পেনিট্রেশন টেস্টিং", "এথিক্যাল হ্যাকিং", "OSCP", "স্ক্রিপ্টিং", "আইটি চাকরি", "সাইবার নিরাপত্তার চাকরি"]
 cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp"
-coverAlt: "একজন ব্যক্তি কর্মস্থলে বসে আছেন; সামনে থাকা নিরাপত্তা তালা কর্মস্থল সুরক্ষিত রাখার গুরুত্ব বোঝায়।"
+coverAlt: "একজন ব্যক্তি তাঁর ওয়ার্কস্টেশনে বসে আছেন, সামনে থাকা নিরাপত্তা তালা ওয়ার্কস্টেশন সুরক্ষার গুরুত্ব বোঝায়।"
 coverCaption: ""
 ---
 
-আইটি ও সাইবার নিরাপত্তার দ্রুত পরিবর্তনশীল ক্ষেত্রে ক্যারিয়ার গড়তে চান? কোথা থেকে শুরু করবেন এবং কী ধাপ নেবেন, এই নির্দেশিকায় তা বলা হয়েছে।
+আইটি ও সাইবার নিরাপত্তায় কাজ করতে আগ্রহী? এই নির্দেশিকায় প্রথম কাজ থেকে বাস্তব অভিজ্ঞতা, দক্ষতা বৃদ্ধি এবং সার্টিফিকেশন বেছে নেওয়া পর্যন্ত শুরুর ধাপগুলো রয়েছে।
 
 ## আইটিতে শুরু করুন
 
-আইটিতে কাজ শুরু করা সাইবার নিরাপত্তায় ক্যারিয়ারের প্রথম ধাপ। হেল্প ডেস্কের প্রাথমিক চাকরি অথবা সিস্টেম বা নেটওয়ার্ক প্রশাসনের কাজ আপনাকে শক্ত ভিত্তি দেবে। **এতে আপনি আইটি ও সাইবার নিরাপত্তার মৌলিক কাজ বুঝবেন এবং জটিলতর চ্যালেঞ্জ সামলানোর জন্য আরও প্রস্তুত হবেন।**
+আইটিতে প্রথম কাজ সাইবার নিরাপত্তার ক্যারিয়ারের ভিত্তি গড়ে। প্রাথমিক স্তরের হেল্প ডেস্ক, সিস্টেম প্রশাসন বা নেটওয়ার্ক প্রশাসনের কাজ আপনাকে ক্ষেত্রটির বাস্তব ভিত্তি দেবে। **এতে আইটি ও সাইবার নিরাপত্তার মৌলিক কাজ বুঝবেন এবং জটিল সমস্যা সামলানোর প্রস্তুতি পাবেন।**
 
-প্রবাদ আছে, ভাঙতে শেখার আগে গড়তে শিখতে হয়। আইটির চাকরি আপনাকে হাতে-কলমে অভিজ্ঞতা দেবে, যা অন্যভাবে পাওয়া কঠিন।
+প্রচলিত কথায়, কিছু ভাঙতে শেখার আগে সেটি তৈরি করতে শিখতে হয়। আইটির চাকরি এমন হাতে-কলমে অভিজ্ঞতা দেয়, যা শুধু পড়াশোনায় মেলে না।
 
-## ডিগ্রি নিন বা সনদ অর্জন করুন
+## ডিগ্রি বা সার্টিফিকেশন বেছে নিন
 
-আইটি বা সাইবার নিরাপত্তায় ডিগ্রি উপকারী, তবে শুরু করার একমাত্র পথ নয়। [CompTIA A+](https://simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/), [Network+](https://www.comptia.org/certifications/network) এবং [সাইবার নিরাপত্তার মৌলিক সনদ](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) (CompTIA Security+) সনদ আপনাকে শুরু করতে এবং এই ক্ষেত্র এগিয়ে নিতে চান কি না বুঝতে সাহায্য করবে। অনেক নিয়োগকর্তা এসব সনদ স্বীকার করেন, আর এগুলো কখনো কখনো কলেজের ক্রেডিট হিসেবেও গণ্য হয়। ডিগ্রির তুলনায় এগুলোর খরচও অনেক কম।
+আইটি বা সাইবার নিরাপত্তায় ডিগ্রি সহায়ক, তবে শুরু করার একমাত্র পথ নয়। [CompTIA A+](https://simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/), [Network+](https://www.comptia.org/certifications/network) এবং CompTIA Security+ [সার্টিফিকেশন](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) ভালো সূচনা দেয় এবং ক্ষেত্রটিতে এগোতে চান কি না তা বুঝতে সাহায্য করে। অনেক নিয়োগকর্তা এগুলো স্বীকার করেন, আর কখনও কখনও এগুলো কলেজের ক্রেডিটে গণ্য হয়। ডিগ্রির তুলনায় এগুলোর খরচও অনেক কম।
 
 ## দক্ষতা বাড়ান
 
-[CompTIA সনদগুলো](https://simeononsecurity.com/articles/tips-and-tricks-for-passing-comptia-exams/) অথবা অন্তত [সাইবার নিরাপত্তার মৌলিক সনদ](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) (CompTIA Security+) অর্জনের পর আপনি দক্ষতা বাড়াতে পারেন। [Microsoft-এর MCSA](https://www.microsoft.com/en-us/learning/certification), [CompTIA-এর Linux+](https://www.comptia.org/certifications/linux), কিংবা Cisco-এর CCNA-এর মতো সনদ প্রশাসনের ন্যূনতম দক্ষতা ও জ্ঞান প্রমাণ করে। এগুলো আইটি ও সাইবার নিরাপত্তার চাকরিতে আপনাকে আরও প্রতিযোগিতামূলক প্রার্থী করে তোলে।
+[CompTIA সার্টিফিকেশনসমূহ](https://simeononsecurity.com/articles/tips-and-tricks-for-passing-comptia-exams/) অথবা অন্তত CompTIA Security+ [সার্টিফিকেশন](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) পাওয়ার পর আপনার দক্ষতা বাড়ান। [Microsoft-এর MCSA](https://www.microsoft.com/en-us/learning/certification), [CompTIA-এর Linux+](https://www.comptia.org/certifications/linux) বা Cisco CCNA-এর মতো সার্টিফিকেশন সিস্টেম প্রশাসনের প্রাথমিক জ্ঞান ও দক্ষতা দেখায়। এগুলো আইটি ও সাইবার নিরাপত্তার চাকরির প্রার্থী হিসেবেও আপনাকে আরও প্রতিযোগিতামূলক করে।
 
 ## সাইবার নিরাপত্তায় মনোযোগ দিন
 
-সাইবার নিরাপত্তায় ক্যারিয়ার গড়তে চাইলে CompTIA [PenTest+](https://www.comptia.org/certifications/pentest) অথবা, পছন্দের বিকল্প হিসেবে, [CEH](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) সনদ বিবেচনা করুন। **CEH নৈতিক হ্যাকিং ও পেনিট্রেশন টেস্টিংয়ে শক্ত ভিত্তি দেয়। দক্ষতা আরও এগিয়ে নিতে চাইলে OSCP সনদ পরবর্তী ধাপ।**
+সাইবার নিরাপত্তায় ক্যারিয়ার চাইলে CompTIA [PenTest+](https://www.comptia.org/certifications/pentest) অথবা এই নির্দেশিকায় অগ্রাধিকার পাওয়া [CEH](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) বিবেচনা করুন। **CEH এথিক্যাল হ্যাকিং ও পেনিট্রেশন টেস্টিংয়ের ভিত্তি দেয়। দক্ষতা আরও বাড়াতে চাইলে OSCP পরের ধাপ।**
 
-## স্ক্রিপ্ট লেখা শিখুন
+## স্ক্রিপ্টিং শিখুন
 
-আইটি ও সাইবার নিরাপত্তায় কাজ করা সবার জন্য স্ক্রিপ্ট লেখা গুরুত্বপূর্ণ দক্ষতা। তবে শুরুতেই এটি শেখার দরকার নেই, বিশেষ করে আপনি এই ক্ষেত্র বেছে নেবেন কি না তা নিশ্চিত না হলে। আইটি ও সাইবার নিরাপত্তায় ভালো ভিত্তি গড়ার পর স্ক্রিপ্ট শিখে দক্ষতা বাড়াতে পারেন।
+আইটি ও সাইবার নিরাপত্তার কাজে স্ক্রিপ্টিং গুরুত্বপূর্ণ দক্ষতা। তবে ক্ষেত্রটি আপনার জন্য কি না নিশ্চিত না হলে এটি সঙ্গে সঙ্গে শুরু করতে হবে না। আইটি ও সাইবার নিরাপত্তায় শক্ত ভিত্তি তৈরি হলে দক্ষতা বাড়াতে স্ক্রিপ্টিং শিখুন।
 
-### অতিরিক্ত সম্পদ
+### অতিরিক্ত রিসোর্স
 
-আইটি ও সাইবার নিরাপত্তায় নতুনদের জ্ঞান ও দক্ষতা অর্জনে সহায়তার জন্য অনেক সম্পদ রয়েছে। কয়েকটি সুপারিশ:
+আইটি ও সাইবার নিরাপত্তায় নতুনদের জ্ঞান ও দক্ষতা বাড়াতে অনেক রিসোর্স রয়েছে। কয়েকটি পরামর্শ:
 
-- [**অনলাইন কোর্স**](https://simeononsecurity.com/recommendations/learning_resources/): অনেক ওয়েবসাইটে বিভিন্ন আইটি ও সাইবার নিরাপত্তা বিষয়ে বিনামূল্যে বা কম খরচে কোর্স আছে। Coursera, Udemy এবং edX জনপ্রিয় প্ল্যাটফর্ম। Cybrary-তে নৈতিক হ্যাকিং, নেটওয়ার্ক নিরাপত্তা ও ক্লাউড নিরাপত্তার বিনামূল্যের কোর্স রয়েছে।
+- [**অনলাইন কোর্স**](https://simeononsecurity.com/recommendations/learning_resources/): অনেক ওয়েবসাইট আইটি ও সাইবার নিরাপত্তার বিভিন্ন বিষয়ে বিনামূল্যে বা কম খরচে কোর্স দেয়। পরিচিত প্ল্যাটফর্মের মধ্যে Coursera, Udemy এবং edX রয়েছে। Cybrary এথিক্যাল হ্যাকিং, নেটওয়ার্ক নিরাপত্তা ও ক্লাউড নিরাপত্তায় বিনামূল্যের কোর্স দেয়।
 
-- [**টিউটোরিয়াল ও বিনামূল্যের সম্পদ**](https://simeononsecurity.com/recommendations/learning_resources/): অনেক সাইটে প্রোগ্রামিং ভাষা, সাইবার নিরাপত্তার সরঞ্জাম ও অপারেটিং সিস্টেম নিয়ে বিনামূল্যের টিউটোরিয়াল ও উপকরণ রয়েছে। [W3Schools](https://www.w3schools.com/) HTML, CSS ও JavaScript শেখায়।
+- [**টিউটোরিয়াল ও বিনামূল্যের রিসোর্স**](https://simeononsecurity.com/recommendations/learning_resources/): প্রোগ্রামিং ভাষা, সাইবার নিরাপত্তার সরঞ্জাম ও অপারেটিং সিস্টেম নিয়ে বিনামূল্যের টিউটোরিয়াল ও রিসোর্স পাওয়া যায়। উদাহরণস্বরূপ, [W3Schools](https://www.w3schools.com/) HTML, CSS ও JavaScript-এর টিউটোরিয়াল দেয়।
 
-- [**পেশাগত সনদ**](https://simeononsecurity.com/recommendations/certifications/): সনদ নির্দিষ্ট বিষয়ে আপনার জ্ঞান ও দক্ষতা দেখায় এবং নিয়োগকর্তার কাছে আপনার প্রোফাইলকে আরও আকর্ষণীয় করতে পারে। পরিচিত সনদের মধ্যে রয়েছে [সাইবার নিরাপত্তার মৌলিক সনদ](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) (CompTIA Security+), [Certified Ethical Hacker বা CEH](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/), এবং [Certified Information Systems Security Professional বা CISSP](https://www.isc2.org/Certifications/CISSP)।
+- [**সার্টিফিকেশন**](https://simeononsecurity.com/recommendations/certifications/): সার্টিফিকেশন নির্দিষ্ট বিষয়ে জ্ঞান ও দক্ষতা প্রমাণ করে এবং নিয়োগকর্তাদের কাছে আপনার যোগ্যতা তুলে ধরে। পরিচিত সার্টিফিকেশনের মধ্যে CompTIA Security+ [সার্টিফিকেশন](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), [Certified Ethical Hacker (CEH)](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) এবং [Certified Information Systems Security Professional (CISSP)](https://www.isc2.org/Certifications/CISSP) রয়েছে।
 
-- [**বই**](https://simeononsecurity.com/recommendations/books/): বই আইটি ও সাইবার নিরাপত্তার বিষয় গভীরভাবে শিখতে সাহায্য করে। সুপারিশ করা বইয়ের মধ্যে রয়েছে Gene Kim-এর [দ্য ফিনিক্স প্রজেক্ট: আইটি, ডেভঅপস ও ব্যবসার সাফল্য নিয়ে উপন্যাস](https://amzn.to/3xVIRhy), Michael Sikorski ও Andrew Honig-এর [ম্যালওয়্যার বিশ্লেষণের ব্যবহারিক নির্দেশিকা](https://amzn.to/3xVXzFa), এবং Kevin Mitnick-এর [প্রতারণার শিল্প: নিরাপত্তায় মানবিক উপাদান নিয়ন্ত্রণ](https://amzn.to/3SuW8qL)।
+- [**বই**](https://simeononsecurity.com/recommendations/books/): বই আইটি ও সাইবার নিরাপত্তার বিষয়গুলো গভীরভাবে শিখতে সাহায্য করে। প্রস্তাবিত বইয়ের মধ্যে রয়েছে Gene Kim-এর ["The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win"](https://amzn.to/3xVIRhy), Michael Sikorski ও Andrew Honig-এর ["Practical Malware Analysis: A Hands-On Guide to Dissecting Malicious Software"](https://amzn.to/3xVXzFa), এবং Kevin Mitnick-এর ["The Art of Deception: Controlling the Human Element of Security"](https://amzn.to/3SuW8qL)।
 
-এ ছাড়া, আইটি ও সাইবার নিরাপত্তা ক্ষেত্রে পেশাগত যোগাযোগ গুরুত্বপূর্ণ। পেশাজীবী গোষ্ঠীতে যোগ দিন, সম্মেলনে অংশ নিন, এবং অন্যদের সঙ্গে যোগাযোগ করে নতুন প্রযুক্তি ও প্রবণতা জানুন।
+এসব রিসোর্সের পাশাপাশি পেশাগত যোগাযোগও গুরুত্বপূর্ণ। শিল্পগোষ্ঠীতে যোগ দিন, সম্মেলনে অংশ নিন এবং অন্য পেশাজীবীদের সঙ্গে পরিচিত হয়ে নতুন প্রযুক্তি ও প্রবণতা সম্পর্কে জানুন।
+
 ______
 
 ## উপসংহার
 
-আইটি ও সাইবার নিরাপত্তায় ক্যারিয়ার শুরু করা কঠিন হতে পারে, তবে সঠিক দিকনির্দেশনা থাকলে এটি আনন্দদায়ক ও ফলপ্রসূও হতে পারে। ডিগ্রি নিন বা সনদ অর্জন করুন, গুরুত্বপূর্ণ হলো শুরু করা এবং শেখা চালিয়ে যাওয়া। শুভকামনা!
+আইটি ও সাইবার নিরাপত্তায় কাজ শুরু করা চ্যালেঞ্জিং হতে পারে, তবে সঠিক দিকনির্দেশনা যাত্রাটিকে ফলপ্রসূ করে। ডিগ্রি বা সার্টিফিকেশন যেটিই বেছে নিন, শুরু করুন এবং শিখতে থাকুন। শুভকামনা!

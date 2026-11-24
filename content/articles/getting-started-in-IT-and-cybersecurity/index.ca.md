@@ -4,52 +4,53 @@ date: 2023-02-13
 lastmod: 2026-11-20
 toc: true
 draft: false
-description: "Descobreix els passos per començar una carrera en el sector canviant de les tecnologies de la informació i la ciberseguretat."
-tags: ["TI i ciberseguretat", "Guia professional", "Certificacions CompTIA", "certificació MCSA", "certificació Linux+", "certificació CCNA", "Proves de penetració", "Pirateria ètica", "certificació OSCP", "Escriptura de scripts", "Feines de TI", "Feines de ciberseguretat"]
+description: "Coneix els passos per començar una carrera en TI i ciberseguretat, des de la primera feina fins a les certificacions i l'especialització."
+tags: ["TI i ciberseguretat", "Guia professional", "Certificacions CompTIA", "MCSA", "Linux+", "CCNA", "Proves de penetració", "Pirateria ètica", "OSCP", "Programació de scripts", "Feines de TI", "Feines de ciberseguretat"]
 cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp"
-coverAlt: "Una persona asseguda al seu lloc de treball; el cadenat de primer pla representa la importància de protegir les estacions de treball."
+coverAlt: "Una persona asseguda davant de la seva estació de treball, amb un cadenat de seguretat en primer pla que mostra la importància de protegir les estacions de treball."
 coverCaption: ""
 ---
 
-T’interessa treballar en el sector canviant de les tecnologies de la informació i la ciberseguretat? Aquesta guia t’explica per on començar i quins passos seguir.
+T'interessa treballar en TI i ciberseguretat? Aquesta guia explica com començar, des d'obtenir experiència pràctica fins a desenvolupar habilitats i triar certificacions.
 
-## Començar en TI
+## Comença en TI
 
-Treballar en TI és el primer pas cap a una carrera en ciberseguretat. Una feina inicial al servei d’assistència o en administració de sistemes o xarxes et donarà una base sòlida. **Així entendràs els fonaments de TI i ciberseguretat i estaràs més preparat per afrontar reptes més complexos.**
+Una primera feina en TI prepara el camí cap a una carrera en ciberseguretat. Una feina inicial al servei d'assistència o en administració de sistemes o xarxes et dona una base pràctica. **Aquesta experiència t'ajuda a entendre els fonaments de TI i ciberseguretat i a preparar-te per a reptes més complexos.**
 
-Com diu la dita, primer has d’aprendre a construir abans d’aprendre a trencar. Una feina en TI et donarà experiència pràctica que d’una altra manera seria difícil d’obtenir.
+Com diu la dita, primer cal aprendre a construir una cosa abans de saber com trencar-la. Una feina en TI et proporciona experiència pràctica que els estudis per si sols no ofereixen.
 
-## Obtenir un títol o certificacions
+## Tria estudis o certificacions
 
-Un títol en TI o ciberseguretat és recomanable, però no és l’única manera de començar. Les certificacions [CompTIA A+](https://simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/), [Network+](https://www.comptia.org/certifications/network) i el [certificat de fonaments de ciberseguretat](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) (CompTIA Security+) et poden ajudar a començar i a decidir si vols continuar en aquest sector. Molts ocupadors les reconeixen i, sovint, compten com a crèdits universitaris. També costen molt menys que un títol.
+Estudiar TI o ciberseguretat és útil, però no és l'única manera de començar. Les certificacions [CompTIA A+](https://simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/), [Network+](https://www.comptia.org/certifications/network) i [certificacions](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Security+ de CompTIA són un bon punt de partida i t'ajuden a decidir si vols continuar en aquest àmbit. Moltes empreses les reconeixen i, sovint, es poden convalidar per crèdits universitaris. També costen molt menys que una titulació.
 
-## Ampliar les competències
+## Desenvolupa les habilitats
 
-Després d’obtenir les [certificacions CompTIA](https://simeononsecurity.com/articles/tips-and-tricks-for-passing-comptia-exams/) o, com a mínim, el [certificat de fonaments de ciberseguretat](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) (CompTIA Security+), pots continuar ampliant les competències. Certificacions com la [MCSA de Microsoft](https://www.microsoft.com/en-us/learning/certification), la [Linux+ de CompTIA](https://www.comptia.org/certifications/linux) o la CCNA de Cisco acrediten coneixements bàsics d’administració. També et fan més competitiu per a feines de TI i ciberseguretat.
+Després d'obtenir les [certificacions CompTIA](https://simeononsecurity.com/articles/tips-and-tricks-for-passing-comptia-exams/) o, com a mínim, [certificació](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Security+ de CompTIA, amplia les teves habilitats. Certificacions com [MCSA de Microsoft](https://www.microsoft.com/en-us/learning/certification), [Linux+ de CompTIA](https://www.comptia.org/certifications/linux) o CCNA de Cisco demostren coneixements i habilitats bàsiques d'administració de sistemes. També et fan una candidatura més competitiva per a feines de TI i ciberseguretat.
 
-## Especialitzar-se en ciberseguretat
+## Centra't en la ciberseguretat
 
-Si vols fer carrera en ciberseguretat, considera la [PenTest+ de CompTIA](https://www.comptia.org/certifications/pentest) o, preferiblement, la certificació [CEH](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/). **La CEH ofereix una base sòlida en pirateria ètica i proves de penetració. La certificació OSCP és el pas següent per a qui vol aprofundir les seves competències.**
+Si vols fer carrera en ciberseguretat, considera [PenTest+](https://www.comptia.org/certifications/pentest) de CompTIA o [CEH](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/), que aquesta guia prefereix. **CEH aporta una base en pirateria ètica i proves de penetració. OSCP és el pas següent per a qui vol continuar desenvolupant aquestes habilitats.**
 
-## Aprendre a escriure scripts
+## Aprèn scripting
 
-Saber escriure scripts és important per a qualsevol persona que treballi en TI i ciberseguretat. Tot i això, potser no cal començar-hi de seguida, sobretot si encara no saps si aquest és el sector que vols seguir. Quan tinguis una base sòlida en TI i ciberseguretat, podràs aprendre a escriure scripts per ampliar les teves competències.
+El scripting és una habilitat important en TI i ciberseguretat. No cal començar-hi de seguida, sobretot si encara no saps si aquest és el teu àmbit. Quan tinguis una bona base en TI i ciberseguretat, aprèn scripting per ampliar les teves habilitats.
 
 ### Recursos addicionals
 
-Les persones que comencen en TI i ciberseguretat tenen molts recursos per adquirir coneixements i competències. Aquí tens algunes recomanacions:
+Hi ha molts recursos per ajudar els principiants a adquirir coneixements i habilitats. Aquí tens algunes opcions:
 
-- [**Cursos en línia**](https://simeononsecurity.com/recommendations/learning_resources/): Molts llocs web ofereixen cursos gratuïts o econòmics sobre diversos temes de TI i ciberseguretat. Coursera, Udemy i edX són plataformes populars. Per exemple, Cybrary ofereix cursos gratuïts de pirateria ètica, seguretat de xarxes i seguretat al núvol.
+- [**Cursos en línia**](https://simeononsecurity.com/recommendations/learning_resources/): Molts llocs ofereixen cursos gratuïts o de baix cost sobre TI i ciberseguretat. Entre les plataformes conegudes hi ha Coursera, Udemy i edX. Cybrary ofereix cursos gratuïts sobre pirateria ètica, seguretat de xarxes i seguretat al núvol.
 
-- [**Tutorials i recursos gratuïts**](https://simeononsecurity.com/recommendations/learning_resources/): Trobaràs tutorials i recursos gratuïts sobre llenguatges de programació, eines de ciberseguretat i sistemes operatius. [W3Schools](https://www.w3schools.com/) ofereix tutorials d'HTML, CSS i JavaScript.
+- [**Tutorials i recursos gratuïts**](https://simeononsecurity.com/recommendations/learning_resources/): Trobaràs tutorials i recursos gratuïts sobre llenguatges de programació, eines de ciberseguretat i sistemes operatius. Per exemple, [W3Schools](https://www.w3schools.com/) ofereix tutorials d'HTML, CSS i JavaScript.
 
-- [**Certificacions**](https://simeononsecurity.com/recommendations/certifications/): Les certificacions acrediten coneixements i competències en un àmbit concret i poden millorar el teu perfil professional. Algunes de conegudes són el [certificat de fonaments de ciberseguretat](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) (CompTIA Security+), la [certificació CEH d’hacker ètic](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) i la [certificació CISSP de seguretat de sistemes d’informació](https://www.isc2.org/Certifications/CISSP).
+- [**Certificacions**](https://simeononsecurity.com/recommendations/certifications/): Les certificacions acrediten coneixements i habilitats en un àmbit i poden millorar el teu perfil davant dels empresaris. Algunes de conegudes són [certificació](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Security+ de CompTIA, [Certified Ethical Hacker (CEH)](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) i [Certified Information Systems Security Professional (CISSP)](https://www.isc2.org/Certifications/CISSP).
 
-- [**Llibres**](https://simeononsecurity.com/recommendations/books/): Els llibres permeten estudiar a fons temes de TI i ciberseguretat. Algunes recomanacions són [The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win](https://amzn.to/3xVIRhy), de Gene Kim; [Practical Malware Analysis: A Hands-On Guide to Dissecting Malicious Software](https://amzn.to/3xVXzFa), de Michael Sikorski i Andrew Honig; i [The Art of Deception: Controlling the Human Element of Security](https://amzn.to/3SuW8qL), de Kevin Mitnick.
+- [**Llibres**](https://simeononsecurity.com/recommendations/books/): Els llibres t'ajuden a estudiar amb profunditat temes de TI i ciberseguretat. Entre els títols recomanats hi ha ["The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win", de Gene Kim](https://amzn.to/3xVIRhy), ["Practical Malware Analysis: A Hands-On Guide to Dissecting Malicious Software", de Michael Sikorski i Andrew Honig](https://amzn.to/3xVXzFa), i ["The Art of Deception: Controlling the Human Element of Security", de Kevin Mitnick](https://amzn.to/3SuW8qL).
 
-A més d’aquests recursos, les relacions professionals són importants en TI i ciberseguretat. Uneix-te a grups del sector, assisteix a congressos i connecta amb altres professionals per conèixer noves tecnologies i tendències.
+A més d'aquests recursos, les relacions professionals són importants en TI i ciberseguretat. Uneix-te a grups del sector, assisteix a conferències i connecta amb altres professionals per conèixer tecnologies i tendències noves.
+
 ______
 
-## En resum
+## Conclusió
 
-Començar en TI i ciberseguretat pot ser difícil, però una bona orientació pot fer que el camí sigui interessant i gratificant. Tant si tries un títol com certificacions, el més important és començar i continuar aprenent. Molta sort!
+Començar una carrera en TI i ciberseguretat pot ser difícil, però una bona orientació fa que el camí sigui més gratificant. Tant si tries una titulació com certificacions, comença i continua aprenent. Bona sort!
