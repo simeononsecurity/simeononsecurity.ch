@@ -1,11 +1,11 @@
 ---
 title: "Meshtastic vs MeshCore vs Reticulum"
 date: 2026-09-01
-lastmod: 2026-11-12
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Confronta Meshtastic, MeshCore e Reticulum in base a routing, tempo di trasmissione, infrastruttura, trasporto e casi d’uso offline."
-genre: ["LoRa", "Reti mesh", "Comunicazioni fuori rete", "Comunicazioni di emergenza", "Radioamatori", "Open source", "Preparazione alle emergenze", "Reti wireless", "Privacy", "Networking"]
+genre: ["LoRa", "Reti mesh", "Comunicazioni fuori rete", "Comunicazioni di emergenza", "Radioamatori", "Software a codice aperto", "Preparazione alle emergenze", "Reti wireless", "Privacy", "Networking"]
 tags: ["meshtastic vs meshcore vs reticulum", "rete Reticulum", "meshtastic", "meshcore", "reticulum", "lxmf", "rete mesh LoRa", "comunicazioni fuori rete", "rnode", "radio a pacchetto", "networking indipendente dal trasporto", "reti mesh", "comunicazioni di emergenza", "rete mesh comunitaria", "tempo di trasmissione LoRa", "flooding gestito", "limite di hop", "nodo ripetitore", "room server", "app Sideband", "nomadnet", "meshchat", "comunicazioni per le emergenze", "radio fuori rete", "protocollo di rete mesh", "rete mesh regionale", "ingegneria RF"]
 cover: "/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp"
 coverAlt: "Illustrazione che confronta tre sistemi di rete mesh con nodi, antenne e linee di collegamento su uno sfondo scuro e vivace, per rappresentarne le caratteristiche distintive."
@@ -59,20 +59,22 @@ Per un’analisi completa del routing, della compatibilità hardware e della con
 
 ### Flooding gestito e importanza degli hop
 
-Meshtastic trasmette con **flooding gestito**. Quando un nodo invia un messaggio, tutti i nodi che lo ricevono ritrasmettono il pacchetto fino al limite di hop configurato. Nessun nodo deve conoscere la topologia della rete. I nuovi nodi si uniscono senza configurazione e quelli inattivi vengono aggirati automaticamente, perché il flooding trova un altro percorso.
+Nella **[diffusione controllata](https://meshtastic.org/docs/overview/mesh-algo/#broadcasts-using-managed-flooding)** di Meshtastic, un client normale annulla una ritrasmissione in attesa se sente prima lo stesso pacchetto ritrasmesso. `ROUTER` e `ROUTER_LATE` possono ritrasmettere comunque. Per `CLIENT_BASE` l’eccezione vale per il traffico da o verso un nodo preferito.
 
-Il limite di hop predefinito è **3**. Il massimo è **7**. Evita la formula «Meshtastic arriva solo a sette hop». *La vera domanda è quanto costa aumentare questo numero.*
+Il contatore dei salti di Meshtastic parte da **3** per impostazione predefinita e arriva al massimo a **7**. Dal firmware 2.7.11, i nodi di infrastruttura idonei possono [conservare il contatore](https://meshtastic.org/blog/zero-cost-hops-favorite-routers/) dopo il primo salto se il ripetitore precedente è un `ROUTER` o `ROUTER_LATE` preferito. Ogni ritrasmissione reale occupa il canale.
 
-Ogni hop aggiuntivo fa ritrasmettere il messaggio a tutti i nodi che lo ricevono. Più inoltri comportano:
+Un limite più alto può raggiungere più ripetitori, senza costringere tutti i ricevitori a trasmettere. **Più inoltri** possono comportare:
 
 - **Più tempo di trasmissione** per ogni messaggio
-- **Più trasmissioni duplicate**, perché tutti i nodi nel raggio ripetono ogni ritrasmissione
+- **Più copie in aria** se più ripetitori idonei inoltrano lo stesso pacchetto
 - **Più contesa** sul canale condiviso
 - **Più rischio di collisioni** quando più radio trasmettono nella stessa finestra
 - **Maggiore consumo della batteria** su ogni nodo che riceve e ritrasmette
 - **Minore capacità disponibile sul canale** per il traffico dei messaggi
 
-La capacità LoRa è limitata dal tempo di trasmissione e dai limiti regionali del duty cycle, non dal numero di nodi. Una rete con dieci nodi molto attivi, che trasmettono spesso GPS e telemetria, può saturare un canale che cinquanta sensori tranquilli userebbero a malapena. Per questo una rete mesh densa con un limite di hop elevato degrada più rapidamente della stessa quantità di nodi con un limite inferiore e intervalli di telemetria controllati. **Meshtastic 2.6 ha migliorato questo aspetto per i messaggi diretti** passando al routing next-hop dopo la scoperta del percorso. Il traffico punto-punto non inonda più tutto il raggio di hop. I broadcast continuano a farlo.
+La capacità LoRa è limitata dal tempo di trasmissione e dai limiti regionali del duty cycle, non dal numero di nodi. Una rete con dieci nodi molto attivi, che trasmettono spesso GPS e telemetria, può saturare un canale che cinquanta sensori tranquilli userebbero a malapena. Per questo una rete mesh densa con un limite di hop elevato degrada più rapidamente della stessa quantità di nodi con un limite inferiore e intervalli di telemetria controllati.
+
+Da Meshtastic 2.6, i **messaggi diretti** usano la diffusione per scoprire il percorso e poi provano il prossimo salto appreso. Se non funziona, possono tornare alla diffusione.
 
 Per una rete piccola o media, come quella di un club escursionistico, raramente è un problema. Per una **rete regionale progettata per coprire una città o più comuni**, diventa il principale vincolo di progettazione.
 
@@ -80,7 +82,7 @@ ______
 
 ## MeshCore
 
-**MeshCore fa una scelta architetturale diversa:** invece di trattare ogni dispositivo come un partecipante equivalente alla propagazione dei messaggi, costruisce un livello infrastrutturale intenzionale e instrada il traffico verso di esso.
+I **ripetitori dedicati** formano lo strato fisso di inoltro di MeshCore. Le radio client sono terminali.
 
 ### Ruoli dei nodi
 
@@ -90,7 +92,7 @@ Le implementazioni MeshCore si basano su ruoli distinti, anziché su una rete pi
 - **Ripetitori**, progettati appositamente per inoltrare il traffico tra i client e gli altri elementi dell’infrastruttura. Svolgono gran parte del lavoro di routing
 - **Room server** (facoltativi), che ospitano conversazioni di gruppo e consegnano i messaggi archiviati ai client quando si riconnettono
 
-Prima avviene la scoperta del percorso. Poi il traffico segue il percorso individuato fino alla destinazione, invece di diffondersi a tutti i nodi nel raggio. L’occupazione del canale cresce con le conversazioni attive, non con il numero totale di nodi. È una curva di crescita molto diversa da quella del modello di flooding Meshtastic.
+In MeshCore, il primo **messaggio diretto** può essere diffuso per scoprire un percorso. I successivi possono usarlo e, secondo la configurazione, tornare alla diffusione. **[I canali di gruppo pubblici e privati continuano a usare la diffusione](https://docs.meshcore.io/faq/#5-general)** tramite i ripetitori abilitati. Le radio client non inoltrano i pacchetti degli altri nodi.
 
 ### Perché si adatta a un’infrastruttura statica
 
@@ -106,7 +108,7 @@ Una rete basata su ripetitori noti e posizionati in alto permette di progettare 
 - **Reti regionali** che coprono più di un quartiere
 - **Comunicazioni di emergenza**, dove una copertura prevedibile conta più della flessibilità
 
-Ricollega questo ai principi RF: **collegamenti affidabili tra infrastrutture posizionate correttamente contano più del massimo guadagno dell’antenna, della potenza di trasmissione o della portata teorica.** Un protocollo basato su ripetitori dedicati premia il lavoro di ingegneria RF necessario a posizionarli bene. Un protocollo basato sul flooding lo premia meno, perché ogni nodo svolge più o meno lo stesso compito indipendentemente dalla posizione.
+Ricollega questo ai principi RF: **collegamenti affidabili tra infrastrutture posizionate correttamente contano più del massimo guadagno dell’antenna, della potenza di trasmissione o della portata teorica.** **Entrambe le reti beneficiano di ripetitori ben posizionati.** I nodi che ritrasmettono dipendono dai ruoli e dal traffico.
 
 ______
 
@@ -205,7 +207,7 @@ Considera un’implementazione ipotetica tra più città:
 
 **Città A, ripetitore, ripetitore, relay rurale, ripetitore, Città B, ripetitore, Città C**
 
-Chiediti come ogni architettura gestisce questa catena man mano che cresce. Una rete mesh con flooding e un limite di 7 hop fatica a coprire in modo affidabile una catena simile, perché ogni hop aumenta il costo in termini di tempo di trasmissione e ogni ulteriore nodo attivo lungo il percorso aggiunge contesa. Un’architettura strutturata a ripetitori come MeshCore è progettata proprio per questo schema: punti relay noti, posizionamento intenzionale e routing che cresce con le conversazioni attive, non con il numero totale di nodi.
+In questa catena, **prova separatamente i messaggi di gruppo e quelli diretti**. MeshCore può riutilizzare il percorso per i diretti, ma diffonde ancora i messaggi di gruppo. Meshtastic può conservare il contatore sui collegamenti di infrastruttura idonei. Ogni ritrasmissione occupa il canale. Nessun protocollo garantisce la consegna da un capo all’altro.
 
 In questo scenario, **limiti di hop, budget di airtime, comportamento del routing e progettazione dell’infrastruttura smettono di essere teorici** e determinano se la rete funziona da un’estremità all’altra. Alla scala geografica, le differenze architetturali tra Meshtastic e MeshCore non sono più accademiche.
 
@@ -241,11 +243,11 @@ ______
 
 **Meshtastic ha senso** se dai valore a un ecosistema maturo, facilità di adozione, utenti portatili e in movimento e compatibilità con una comunità Meshtastic esistente. È la scelta predefinita giusta per la maggior parte di chi parte da zero.
 
-**MeshCore diventa interessante** quando costruisci intenzionalmente un’infrastruttura LoRa persistente e vuoi usare ripetitori dedicati per creare una rete più grande e strutturata. Premia la pianificazione e il buon posizionamento dei ripetitori più direttamente di un progetto basato sul flooding.
+I **ripetitori fissi** aiutano a pianificare la copertura, ma non eliminano la diffusione. Prima di scegliere, prova entrambi i protocolli con il traffico di gruppo, le impostazioni radio e la disposizione dei ripetitori previste.
 
 **Reticulum ha senso** quando il problema supera una singola rete mesh LoRa e devi collegare trasporti diversi o reti altrimenti separate in un unico sistema indirizzabile.
 
-Per una **rete infrastrutturale comunitaria senza licenza, a basso consumo e lunga portata, basata soprattutto su ripetitori fissi**, orientati verso MeshCore. *Se nella tua zona esiste già una rete Meshtastic sana, sostituirla richiede vantaggi sufficienti a giustificare la frammentazione della comunità esistente.* Reticulum entra in gioco quando un solo protocollo mesh o un singolo trasporto fisico non basta più, non semplicemente perché fa più cose.
+Per una **rete infrastrutturale comunitaria senza licenza, a basso consumo e lunga portata, basata soprattutto su ripetitori fissi**, orientati verso MeshCore. **Prova il traffico di gruppo prima di cambiare.** Una rete di ripetitori fissi aiuta con la copertura, ma non offre percorsi diretti ai canali di gruppo. *Se nella tua zona esiste già una rete Meshtastic sana, sostituirla richiede vantaggi sufficienti a giustificare la frammentazione della comunità esistente.* Reticulum entra in gioco quando un solo protocollo mesh o un singolo trasporto fisico non basta più, non semplicemente perché fa più cose.
 
 ______
 

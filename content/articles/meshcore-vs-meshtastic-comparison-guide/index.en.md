@@ -1,7 +1,7 @@
 ---
 title: "MeshCore vs Meshtastic"
 date: 2026-06-26
-lastmod: 2026-09-01
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Compare MeshCore and Meshtastic by routing, range, airtime, infrastructure, device support, and deployment fit."
@@ -17,9 +17,9 @@ ref: ["/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide"]
 
 Meshtastic and MeshCore both run on the same cheap LoRa hardware. Both let you send encrypted messages without cellular or internet infrastructure. **The two protocols are not compatible with each other.**
 
-**The routing philosophy differs.** Meshtastic floods packets to all nearby nodes. MeshCore routes traffic through planned infrastructure. Those different approaches produce different performance at scale.
+**Both protocols flood group traffic.** Meshtastic ordinary clients suppress redundant rebroadcasts, while MeshCore limits forwarding to infrastructure roles. Both can use learned routes for direct messages.
 
-*Meshtastic works for most people.* The mobile app is polished, the community is large, the documentation is solid, and setup takes under 20 minutes. MeshCore works better for planned deployments where airtime efficiency matters more than spontaneous self-organization.
+*Meshtastic works for most people.* The mobile app is polished, the community is large, the documentation is solid, and setup takes under 20 minutes.
 
 **RF fundamentals matter more than firmware.** Neither protocol rescues a poorly placed antenna.
 
@@ -29,13 +29,13 @@ ______
 
 ### Meshtastic
 
-**Meshtastic** is an open-source project launched in 2020 by Kevin Hester. The firmware turns commodity LoRa hardware into a text-messaging mesh network with no internet or cellular dependency. Broadcasts use managed flooding: each node rebroadcasts packets up to a configurable hop limit. Since version 2.6, **direct messages use next-hop routing** after route discovery instead of flooding, which reduces airtime for point-to-point traffic.
+**Meshtastic** is an open-source project launched in 2020 by Kevin Hester. The firmware turns commodity LoRa hardware into a text-messaging mesh network with no internet or cellular dependency.
 
 The firmware runs on hardware most LoRa users already own or purchase inexpensively. **LILYGO T-Beam, Heltec WiFi LoRa 32, RAK WisBlock, and Seeed SenseCAP Indicator** all flash Meshtastic without specialized tooling. The iOS and Android apps are well-maintained. Non-technical users get on the network in under ten minutes. The ecosystem includes MQTT bridging, Home Assistant integration, and ATAK plugins.
 
 ### MeshCore
 
-**MeshCore** gained traction in 2023-2024. The firmware runs on much of the same LoRa hardware but uses a **hybrid routing architecture**. Route discovery happens first. After discovery, traffic moves through repeaters toward the destination rather than fanning out to everyone. This is not pure store-and-forward in the delay-tolerant networking sense.
+**MeshCore** gained traction in 2023-2024. The firmware runs on much of the same LoRa hardware but uses a **hybrid routing architecture**. This is not pure store-and-forward in the delay-tolerant networking sense.
 
 Repeaters do most of the forwarding. **Room servers are optional.** They store group messages for clients to retrieve on reconnect. Clients carry a companion LoRa radio and connect through infrastructure when present, or communicate directly with nearby nodes when no repeater exists.
 
@@ -45,7 +45,9 @@ ______
 
 ### How Meshtastic Routing Works
 
-Broadcasts use **managed flooding**. Each node rebroadcasts a packet up to the hop limit. No node needs to know the topology. New nodes join without configuration. Dead nodes get bypassed automatically. Since version 2.6, **direct messages use next-hop routing** after discovery, which cuts airtime for point-to-point traffic.
+In Meshtastic **[managed flooding](https://meshtastic.org/docs/overview/mesh-algo/#broadcasts-using-managed-flooding)**, an ordinary client cancels a pending rebroadcast if it hears the same packet relayed first. `ROUTER` and `ROUTER_LATE` can still rebroadcast. `CLIENT_BASE` makes that exception for traffic to or from a favorite.
+
+Since Meshtastic 2.6, **direct messages** use flooding for discovery, then try a learned next hop. They can fall back to flooding if that hop fails.
 
 **The actual constraint is airtime, not node count.** LoRa operates on shared ISM bands with regional duty cycle limits, typically 1% in Europe. A network with frequent GPS beacons, telemetry packets, and active channel traffic saturates airtime before hitting any absolute node limit. Ten active nodes sending frequent telemetry create more contention than fifty quiet sensors. Dense meshes with several dozen active users often see increased airtime contention, but no hard ceiling exists. The threshold depends on spreading factor, airtime preset, telemetry intervals, terrain, and repeater placement.
 
@@ -53,9 +55,11 @@ Meshtastic generates overhead from node info broadcasts, battery telemetry, GPS 
 
 ### How MeshCore Routing Works
 
-MeshCore performs route discovery, learns routes, then routes traffic toward infrastructure rather than rebroadcasting to everyone. **Repeaters forward traffic between nodes.** Room servers optionally host group conversations and store messages for clients reconnecting later.
+In MeshCore, an initial **direct message** can flood to discover a path. Later direct messages can follow that path, with a configurable fallback to flooding. **[Public and private group channels still flood](https://docs.meshcore.io/faq/#5-general)** through eligible repeaters. Companion radios do not relay other nodes’ packets.
 
-Channel occupancy scales with active conversations, not total node count. A large deployment with many quiet nodes does not degrade performance the way a dense flooding network with high overhead does. MeshCore targets significantly larger deployments by design, though actual performance depends on deployment quality.
+**Repeaters forward traffic between nodes.** Room servers optionally host group conversations and store messages for clients reconnecting later.
+
+**Airtime depends on the traffic you send.** Group messages can reach multiple relays in both protocols. A learned path can cut transmissions for direct messages, but relay placement, radio settings, and message rate still matter.
 
 Without a repeater, client nodes communicate directly when in range. *Infrastructure is where the architecture performs best. Infrastructure is not a hard requirement.*
 
@@ -115,7 +119,7 @@ The variables determining network performance:
 - **Repeater placement.** A well-placed repeater spreads load. A poorly placed one adds to congestion.
 - **Terrain.** Nodes unable to hear each other add traffic without causing contention. Nodes within range of many others simultaneously create contention.
 
-*Meshtastic minimizes planning and accepts some airtime overhead as the cost of self-organization. MeshCore requires planning and rewards planning with more predictable airtime efficiency.* Switching from Meshtastic to MeshCore without improving network planning does not reliably improve performance.
+**Fixed repeaters** help you plan coverage, not eliminate flooding. For group chat, test both protocols with the expected message rate, radio settings, and relay layout before choosing.
 
 ______
 
@@ -143,7 +147,7 @@ Meshtastic 2.6 improved direct message routing. Group traffic still uses channel
 
 ### MeshCore
 
-MeshCore's hybrid routing means **a passive listener cannot reconstruct the full network topology** by monitoring. Traffic routes toward specific infrastructure rather than fanning out. **Direct messages use per-contact encryption** rather than a shared channel key. Other nodes on the same infrastructure cannot decrypt your direct conversation even when sharing the same repeater.
+**Routing does not hide radio activity.** Do not assume a learned path conceals which repeaters transmit. **Direct messages use per-contact encryption** rather than a shared channel key. Other nodes on the same infrastructure cannot decrypt your direct conversation even when sharing the same repeater.
 
 Infrastructure nodes relay encrypted traffic. For direct messages with per-contact encryption, the repeater forwards ciphertext without decrypting. For room traffic, room servers observe message content for rooms they host. *The relevant question is whether you control the room server.*
 
@@ -153,9 +157,9 @@ ______
 
 ## Power Consumption
 
-MeshCore generates less radio transmission overhead than Meshtastic with default settings. **Less transmitting means better battery life on client nodes.** Meshtastic's telemetry packets, GPS broadcasts, and managed flooding each consume transmit time. You reduce Meshtastic's overhead significantly by tuning telemetry intervals and disabling GPS broadcast on nodes without GPS. Default-for-default, **MeshCore transmits less**.
+**Less transmitting means better battery life on client nodes.** Meshtastic's telemetry packets, GPS broadcasts, and managed flooding each consume transmit time. You reduce Meshtastic's overhead significantly by tuning telemetry intervals and disabling GPS broadcast on nodes without GPS.
 
-A well-tuned Meshtastic deployment with minimal telemetry matches MeshCore battery performance closely. Defaults favor MeshCore for battery life.
+**Compare battery life under the same workload.** Telemetry settings, transmit time, and the node role matter more than the protocol name alone.
 
 ______
 
@@ -165,7 +169,7 @@ ______
 
 **MeshCore relies more heavily on repeater placement.** A well-designed MeshCore network with good repeater coverage performs predictably. A MeshCore network losing its only repeater in a coverage area loses connectivity for nodes depending on the repeater for routing. *MeshCore rewards upfront planning. Meshtastic is more forgiving of node failures.*
 
-Meshtastic accepts airtime overhead in exchange for resilience. MeshCore accepts infrastructure dependency in exchange for efficiency.
+**Learned paths and flooding solve different problems.** An alternate path helps only if another eligible relay can actually hear and forward the packet.
 
 ______
 
@@ -212,7 +216,7 @@ ______
 
 **Planned infrastructure deployments.** You have a repeater on a rooftop or a room server running on reliable power. MeshCore's hybrid routing takes advantage of fixed infrastructure.
 
-**Large networks with dedicated infrastructure.** Deployments where airtime efficiency and predictable performance at scale matter more than spontaneous self-organization.
+**Large networks with dedicated infrastructure.** **Test group traffic before switching.** A fixed repeater network helps with coverage, but does not give group channels directed paths.
 
 **Message persistence for intermittent connectivity.** Room servers store messages and deliver them when clients reconnect. **This is one of MeshCore's most concrete practical advantages over Meshtastic.**
 
@@ -265,7 +269,7 @@ ______
 
 | Factor | Meshtastic | MeshCore |
 |---|---|---|
-| Network model | Managed flooding plus next-hop DM routing | Hybrid route discovery plus directed forwarding |
+| Network model | Managed flooding for channels, learned next hop for direct messages | Flooding for channels, learned repeater path for direct messages |
 | Setup difficulty | Easy | Moderate to hard |
 | Scale design intent | Flexible, degrades with airtime contention | Designed for larger planned networks |
 | Mobile app quality | Excellent | Functional |
@@ -284,10 +288,10 @@ ______
 
 **Start with Meshtastic.** You will be on the air in an afternoon. You will find people to test with. The app works. The documentation is excellent. Meshtastic 2.6's next-hop routing for direct messages narrows the efficiency gap for point-to-point traffic.
 
-**Move to MeshCore when Meshtastic's defaults do not fit your deployment.** If you have dedicated repeater infrastructure, need message persistence for intermittent users, or are building a large planned network where airtime efficiency matters more than self-organization, MeshCore's architecture fits and the setup investment pays off.
+**Consider MeshCore** when you need dedicated repeaters or optional room servers that retain posts for reconnecting users.
 
 Before switching protocols, **tune your Meshtastic deployment**. Reduce telemetry intervals. Disable GPS broadcast on nodes without GPS. Adjust the airtime preset for your node density. *Many networks with performance problems have configuration problems, not protocol problems.*
 
-The two protocols serve different points on the planning-versus-spontaneity tradeoff. Meshtastic minimizes planning and accepts the airtime overhead of self-organization. MeshCore requires planning and rewards planning with more predictable performance. **Neither protocol will replace the other because the use cases differ.**
+**Both meshes benefit from well-placed relays.** Which nodes retransmit depends on their roles and the traffic.
 
 *Building a network needing to bridge LoRa with packet radio, Wi-Fi, or the internet rather than staying on one LoRa mesh?* See the **[Meshtastic vs MeshCore vs Reticulum comparison guide](/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/)** for where transport-independent networking fits and where it adds complexity nobody needs.

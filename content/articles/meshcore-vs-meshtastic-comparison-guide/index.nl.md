@@ -1,11 +1,11 @@
 ---
 title: "MeshCore versus Meshtastic"
 date: 2026-06-26
-lastmod: 2026-11-12
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Vergelijk MeshCore en Meshtastic op basis van routering, bereik, zendtijd, infrastructuur, apparaatondersteuning en geschikte toepassingen."
-genre: ["LoRa", "Meshnetwerken", "Offlinecommunicatie", "Noodcommunicatie", "Tactische communicatie", "Amateurradio", "Open source", "Rampenvoorbereiding", "Draadloze netwerken", "Privacy"]
+genre: ["LoRa", "Meshnetwerken", "Offlinecommunicatie", "Noodcommunicatie", "Tactische communicatie", "Amateurradio", "Software met open broncode", "Rampenvoorbereiding", "Draadloze netwerken", "Privacy"]
 tags: ["meshcore versus meshtastic", "meshtastic", "meshcore", "lora-meshnetwerk", "offlinecommunicatie", "meshtastic-vergelijking", "meshcore-vergelijking", "lora-radio", "meshnetwerken", "noodcommunicatie", "tactisch meshnetwerk", "offline radio", "meshtastic-protocol", "meshcore-protocol", "lora meshtastic", "rampencommunicatie", "mesh-radio", "opslaan en doorsturen", "lora-flooding", "LoRa-mesh", "t-beam meshtastic", "heltec lora", "rak wisblock", "offlineberichten", "meshnetwerkprotocol", "meshtastic 2.6", "lora-zendtijd", "noodradio"]
 cover: "/img/cover/meshcore-vs-meshtastic-comparison-guide.webp"
 coverAlt: "Illustratie van twee LoRa-meshnetwerken: Meshtastic links met knooppunten die pakketten verspreiden en MeshCore rechts met gestructureerde routering, tegen een donkere achtergrond."
@@ -17,9 +17,9 @@ ref: ["/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide"]
 
 Meshtastic en MeshCore werken allebei op dezelfde goedkope LoRa-hardware. Beide laten je versleutelde berichten versturen zonder mobiel netwerk of internet. **De protocollen zijn niet onderling compatibel.**
 
-**Hun routeringsfilosofie verschilt.** Meshtastic verspreidt pakketten naar alle nabijgelegen knooppunten. MeshCore routeert verkeer via geplande infrastructuur. Die aanpakken leveren verschillende prestaties op wanneer het netwerk groeit.
+**Beide protocollen gebruiken flooding voor groepsverkeer.** Gewone Meshtastic-clients onderdrukken overbodige heruitzendingen. Bij MeshCore stuurt alleen de infrastructuur door. Beide kunnen geleerde routes gebruiken voor directe berichten.
 
-*Meshtastic is geschikt voor de meeste mensen.* De mobiele app is verzorgd, de community is groot, de documentatie is goed en de configuratie duurt minder dan 20 minuten. MeshCore past beter bij geplande implementaties waar efficiënte zendtijd belangrijker is dan spontane zelforganisatie.
+*Meshtastic is geschikt voor de meeste mensen.* De mobiele app is verzorgd, de community is groot, de documentatie is goed en de configuratie duurt minder dan 20 minuten.
 
 **De basis van radiofrequenties is belangrijker dan firmware.** Geen van beide protocollen compenseert een slecht geplaatste antenne.
 
@@ -29,13 +29,13 @@ ______
 
 ### Meshtastic
 
-**Meshtastic** is een opensourceproject dat Kevin Hester in 2020 startte. De firmware maakt van gewone LoRa-hardware een meshnetwerk voor tekstberichten, zonder afhankelijkheid van internet of mobiele netwerken. Uitzendingen gebruiken beheerst flooding: elk knooppunt zendt pakketten opnieuw uit tot een instelbare hoplimiet. Sinds versie 2.6 gebruiken **directe berichten na routeontdekking next-hop-routering** in plaats van flooding. Dat vermindert de zendtijd voor punt-tot-puntverkeer.
+**Meshtastic** is een opensourceproject dat Kevin Hester in 2020 startte. De firmware maakt van gewone LoRa-hardware een meshnetwerk voor tekstberichten, zonder afhankelijkheid van internet of mobiele netwerken.
 
 De firmware werkt op LoRa-hardware die veel gebruikers al bezitten of goedkoop kopen. **LILYGO T-Beam, Heltec WiFi LoRa 32, RAK WisBlock en Seeed SenseCAP Indicator** ondersteunen Meshtastic zonder speciale hulpmiddelen. De iOS- en Android-apps worden goed onderhouden. Niet-technische gebruikers zijn binnen tien minuten online. Het ecosysteem bevat MQTT-bridges, Home Assistant-integratie en ATAK-plug-ins.
 
 ### MeshCore
 
-**MeshCore** won aan populariteit in 2023 en 2024. De firmware werkt op veel van dezelfde LoRa-hardware, maar gebruikt een **hybride routeringsarchitectuur**. Eerst vindt routeontdekking plaats. Daarna gaat verkeer via repeaters naar de bestemming in plaats van naar iedereen te worden verspreid. Dit is geen puur store-and-forward in de betekenis van vertragingsbestendige netwerken.
+**MeshCore** won aan populariteit in 2023 en 2024. De firmware werkt op veel van dezelfde LoRa-hardware, maar gebruikt een **hybride routeringsarchitectuur**. Dit is geen puur store-and-forward in de betekenis van vertragingsbestendige netwerken.
 
 Repeaters verzorgen het grootste deel van het doorsturen. **Roomservers zijn optioneel.** Ze bewaren groepsberichten zodat clients ze bij een nieuwe verbinding ophalen. Clients gebruiken een begeleidende LoRa-radio en verbinden via infrastructuur wanneer die beschikbaar is, of communiceren rechtstreeks met nabije knooppunten zonder repeater.
 
@@ -45,7 +45,9 @@ ______
 
 ### Hoe Meshtastic routeert
 
-Uitzendingen gebruiken **beheerst flooding**. Elk knooppunt zendt een pakket opnieuw uit tot de hoplimiet. Geen enkel knooppunt hoeft de topologie te kennen. Nieuwe knooppunten sluiten zonder configuratie aan. Uitgevallen knooppunten worden automatisch omzeild. Sinds versie 2.6 gebruiken **directe berichten na ontdekking next-hop-routering**, waardoor de zendtijd voor punt-tot-puntverkeer daalt.
+Bij **[beheerde flooding](https://meshtastic.org/docs/overview/mesh-algo/#broadcasts-using-managed-flooding)** in Meshtastic annuleert een gewone client een geplande heruitzending als hij hetzelfde pakket eerder hoort langskomen. `ROUTER` en `ROUTER_LATE` kunnen het toch doorsturen. Voor `CLIENT_BASE` geldt die uitzondering voor verkeer van of naar een favoriet.
+
+Sinds Meshtastic 2.6 gebruiken **directe berichten** eerst flooding om een route te ontdekken. Daarna proberen ze de geleerde volgende hop. Bij uitval kunnen ze terugvallen op flooding.
 
 **De werkelijke beperking is zendtijd, niet het aantal knooppunten.** LoRa gebruikt gedeelde ISM-banden met regionale dutycyclelimieten, meestal 1% in Europa. Een netwerk met frequente GPS-bakens, telemetrie en actief kanaalverkeer raakt verzadigd voordat een absoluut maximum aan knooppunten wordt bereikt. Tien actieve knooppunten die vaak telemetrie verzenden veroorzaken meer botsingen dan vijftig stille sensoren. Dichte netwerken met enkele tientallen actieve gebruikers zien vaak meer zendtijdconcurrentie, maar er bestaat geen vaste bovengrens. De grens hangt af van de spreading factor, zendtijdpreset, telemetrie-intervallen, terrein en plaatsing van repeaters.
 
@@ -53,9 +55,11 @@ Meshtastic voegt verkeer toe met aankondigingen van knooppuntinformatie, batteri
 
 ### Hoe MeshCore routeert
 
-MeshCore ontdekt routes en leert ze, en routeert daarna verkeer naar infrastructuur in plaats van naar iedereen opnieuw uit te zenden. **Repeaters sturen verkeer tussen knooppunten door.** Roomservers kunnen groepsgesprekken hosten en berichten bewaren voor clients die later opnieuw verbinding maken.
+In MeshCore kan een eerste **direct bericht** via flooding een pad ontdekken. Latere directe berichten kunnen dat pad volgen en afhankelijk van de instellingen terugvallen op flooding. **[Openbare en besloten groepskanalen blijven flooding gebruiken](https://docs.meshcore.io/faq/#5-general)** via geschikte repeaters. Clientradio’s sturen geen pakketten van andere knooppunten door.
 
-Kanaalbezetting hangt af van actieve gesprekken, niet van het totale aantal knooppunten. Een grote implementatie met veel stille knooppunten verliest geen prestaties zoals een dicht floodingnetwerk met veel extra verkeer. MeshCore richt zich op aanzienlijk grotere implementaties, al hangt de daadwerkelijke prestatie af van de kwaliteit van de installatie.
+**Repeaters sturen verkeer tussen knooppunten door.** Roomservers kunnen groepsgesprekken hosten en berichten bewaren voor clients die later opnieuw verbinding maken.
+
+**Zendtijd hangt af van het verkeer.** Groepsberichten kunnen bij beide protocollen meerdere relais bereiken. Een geleerd pad kan het aantal uitzendingen voor directe berichten verminderen. Relaislocaties, radio-instellingen en het aantal berichten blijven van belang.
 
 Zonder repeater communiceren clients rechtstreeks wanneer ze binnen bereik zijn. *De architectuur presteert het best met infrastructuur. Infrastructuur is geen harde vereiste.*
 
@@ -115,7 +119,7 @@ Deze factoren bepalen de netwerkprestaties:
 - **Plaatsing van repeaters.** Een goed geplaatste repeater verdeelt de belasting. Een slecht geplaatste repeater verhoogt de drukte.
 - **Terrein.** Knooppunten die elkaar niet horen, voegen verkeer toe zonder concurrentie te veroorzaken. Knooppunten binnen bereik van veel andere knooppunten tegelijk veroorzaken wel concurrentie.
 
-*Meshtastic beperkt de planning en accepteert enige extra zendtijd als prijs voor zelforganisatie. MeshCore vereist planning en beloont die met voorspelbaardere zendtijdefficiëntie. Een wissel naar MeshCore zonder betere netwerkplanning verbetert prestaties niet betrouwbaar.*
+**Vaste repeaters** maken dekking planbaar, maar nemen flooding niet weg. Test beide protocollen met het verwachte groepsverkeer, de radio-instellingen en de geplande relaislocaties.
 
 ______
 
@@ -143,7 +147,7 @@ Meshtastic 2.6 verbeterde de routering van directe berichten. Groepsverkeer gebr
 
 ### MeshCore
 
-Dankzij de hybride routering kan **een passieve luisteraar niet de volledige netwerktopologie reconstrueren door mee te luisteren**. Verkeer gaat naar specifieke infrastructuur in plaats van naar iedereen te worden verspreid. **Directe berichten gebruiken versleuteling per contact**, niet een gedeelde kanaalsleutel. Andere knooppunten op dezelfde infrastructuur kunnen je directe gesprek niet ontsleutelen, ook niet bij gebruik van dezelfde repeater.
+**Routering verbergt geen radioactiviteit.** Ga er niet van uit dat een geleerd pad verbergt welke repeaters zenden. **Directe berichten gebruiken versleuteling per contact**, niet een gedeelde kanaalsleutel. Andere knooppunten op dezelfde infrastructuur kunnen je directe gesprek niet ontsleutelen, ook niet bij gebruik van dezelfde repeater.
 
 Infrastructuurknooppunten sturen versleuteld verkeer door. Bij directe berichten met versleuteling per contact stuurt de repeater ciphertext door zonder die te ontsleutelen. Bij roomverkeer zien roomservers de inhoud van de rooms die ze hosten. *De relevante vraag is of jij de roomserver beheert.*
 
@@ -153,9 +157,9 @@ ______
 
 ## Stroomverbruik
 
-Met standaardinstellingen genereert MeshCore minder extra radio-uitzendingen dan Meshtastic. **Minder zenden verbetert de batterijduur van clientknooppunten.** Meshtastic-telemetrie, GPS-uitzendingen en beheerst flooding gebruiken elk zendtijd. Je vermindert de extra belasting sterk door telemetrie-intervallen aan te passen en GPS-uitzendingen op knooppunten zonder GPS uit te schakelen. Bij vergelijkbare standaardinstellingen **zendt MeshCore minder**.
+**Minder zenden verbetert de batterijduur van clientknooppunten.** Meshtastic-telemetrie, GPS-uitzendingen en beheerst flooding gebruiken elk zendtijd. Je vermindert de extra belasting sterk door telemetrie-intervallen aan te passen en GPS-uitzendingen op knooppunten zonder GPS uit te schakelen.
 
-Een goed afgestemd Meshtastic-netwerk met minimale telemetrie komt qua batterijduur dicht bij MeshCore. De standaardinstellingen bevoordelen MeshCore.
+**Vergelijk de accuduur bij dezelfde belasting.** Telemetrie, zendtijd en de rol van het knooppunt tellen ook mee.
 
 ______
 
@@ -165,7 +169,7 @@ ______
 
 **MeshCore leunt meer op de plaatsing van repeaters.** Een goed ontworpen MeshCore-netwerk met voldoende repeaterdekking presteert voorspelbaar. Bij verlies van de enige repeater in een dekkingsgebied verliezen knooppunten die ervan afhankelijk zijn de verbinding. *MeshCore beloont planning vooraf. Meshtastic is toleranter bij uitval van knooppunten.*
 
-Meshtastic accepteert extra zendtijd voor bestendigheid. MeshCore accepteert afhankelijkheid van infrastructuur voor efficiëntie.
+**Geleerde paden en flooding lossen verschillende problemen op.** Een alternatief pad helpt alleen als een ander geschikt relais het pakket kan horen en doorsturen.
 
 ______
 
@@ -212,7 +216,7 @@ ______
 
 **Geplande infrastructuur.** Je hebt een repeater op het dak of een roomserver met betrouwbare stroom. MeshCores hybride routering benut vaste infrastructuur.
 
-**Grote netwerken met eigen infrastructuur.** De inzet vraagt om efficiënte zendtijd en voorspelbare prestaties op schaal, boven spontane zelforganisatie.
+**Grote netwerken met eigen infrastructuur.** **Test groepsverkeer voordat je overstapt.** Vaste repeaters helpen bij de dekking, maar geven groepskanalen geen gerichte routes.
 
 **Berichten bewaren bij onderbroken verbindingen.** Roomservers slaan berichten op en bezorgen die wanneer clients opnieuw verbinding maken. **Dit is een van de concreetste praktische voordelen van MeshCore ten opzichte van Meshtastic.**
 
@@ -265,7 +269,7 @@ ______
 
 | Factor | Meshtastic | MeshCore |
 |---|---|---|
-| Netwerkmodel | Beheerst flooding plus next-hop-DM-routering | Hybride routeontdekking plus gericht doorsturen |
+| Netwerkmodel | Beheerde flooding voor kanalen, geleerde volgende hop voor directe berichten | Flooding voor kanalen, geleerd repeaterpad voor directe berichten |
 | Installatiemoeilijkheid | Eenvoudig | Gemiddeld tot moeilijk |
 | Ontwerp voor schaal | Flexibel, prestaties dalen door zendtijdconcurrentie | Ontworpen voor grotere geplande netwerken |
 | Kwaliteit mobiele app | Uitstekend | Functioneel |
@@ -284,10 +288,10 @@ ______
 
 **Begin met Meshtastic.** Binnen een middag ben je in de lucht. Je vindt mensen om mee te testen. De app werkt en de documentatie is uitstekend. Meshtastic 2.6 verkleint met next-hop-routering voor directe berichten het efficiëntieverschil voor punt-tot-puntverkeer.
 
-**Stap over op MeshCore wanneer de standaardinstellingen van Meshtastic niet passen bij je toepassing.** Als je eigen repeaterinfrastructuur hebt, berichten moet bewaren voor gebruikers met onderbroken verbindingen of een groot gepland netwerk bouwt waarbij zendtijdefficiëntie belangrijker is dan zelforganisatie, past de architectuur van MeshCore en loont de extra installatie.
+**Overweeg MeshCore** als je aparte repeaters of optionele ruimteservers nodig hebt die berichten bewaren voor terugkerende gebruikers.
 
 Pas vóór een protocolwissel **je Meshtastic-installatie aan**. Verlaag telemetrie-intervallen. Schakel GPS-uitzendingen uit op knooppunten zonder GPS. Stem de zendtijdpreset af op de knooppuntdichtheid. *Veel netwerken met prestatieproblemen hebben configuratieproblemen, geen protocolproblemen.*
 
-De protocollen dienen verschillende punten op de schaal tussen planning en spontaniteit. Meshtastic vermindert planning en accepteert de zendtijdbelasting van zelforganisatie. MeshCore vereist planning en beloont die met voorspelbaardere prestaties. **Geen van beide vervangt de ander, omdat de toepassingen verschillen.**
+**Beide meshes profiteren van goed geplaatste relais.** Welke knooppunten doorsturen, hangt af van hun rollen en het verkeer.
 
 *Bouw je een netwerk dat LoRa moet verbinden met packet radio, wifi of internet in plaats van één LoRa-mesh?* Bekijk de **[vergelijkingsgids voor Meshtastic, MeshCore en Reticulum](/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/)** voor de rol van transportonafhankelijke netwerken en de situaties waarin ze onnodige complexiteit toevoegen.

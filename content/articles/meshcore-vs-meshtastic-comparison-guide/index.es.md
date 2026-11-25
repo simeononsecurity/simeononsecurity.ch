@@ -1,7 +1,7 @@
 ---
 title: "MeshCore frente a Meshtastic"
 date: 2026-06-26
-lastmod: 2026-11-12
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Compara MeshCore y Meshtastic según el enrutamiento, alcance, tiempo de transmisión, infraestructura, compatibilidad de dispositivos y tipo de despliegue."
@@ -17,9 +17,9 @@ ref: ["/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide"]
 
 Meshtastic y MeshCore funcionan con el mismo hardware LoRa económico. Ambos permiten enviar mensajes cifrados sin red móvil ni Internet. **Los protocolos no son compatibles entre sí.**
 
-**Su filosofía de enrutamiento es distinta.** Meshtastic difunde paquetes a todos los nodos cercanos. MeshCore dirige el tráfico por una infraestructura planificada. Estos enfoques tienen distinto rendimiento al crecer la red.
+**Ambos protocolos usan inundación para el tráfico de grupo.** Los clientes normales de Meshtastic suprimen retransmisiones redundantes. MeshCore reserva el reenvío para los nodos de infraestructura. Ambos pueden usar rutas aprendidas para mensajes directos.
 
-*Meshtastic sirve a la mayoría.* Su aplicación móvil está pulida, su comunidad es grande, su documentación es sólida y la configuración tarda menos de 20 minutos. MeshCore se adapta mejor a despliegues planificados donde importa más la eficiencia del tiempo de transmisión que la autoorganización espontánea.
+*Meshtastic sirve a la mayoría.* Su aplicación móvil está pulida, su comunidad es grande, su documentación es sólida y la configuración tarda menos de 20 minutos.
 
 **Los fundamentos de radiofrecuencia importan más que el firmware.** Ningún protocolo compensa una antena mal ubicada.
 
@@ -29,13 +29,13 @@ ______
 
 ### Meshtastic
 
-**Meshtastic** es un proyecto de código abierto iniciado en 2020 por Kevin Hester. El firmware convierte hardware LoRa común en una red mallada de mensajería de texto sin depender de Internet ni de redes móviles. Las emisiones usan inundación controlada: cada nodo vuelve a transmitir los paquetes hasta un límite de saltos configurable. Desde la versión 2.6, **los mensajes directos usan enrutamiento al siguiente salto** tras descubrir la ruta, en vez de usar inundación. Así se reduce el tiempo de transmisión punto a punto.
+**Meshtastic** es un proyecto de código abierto iniciado en 2020 por Kevin Hester. El firmware convierte hardware LoRa común en una red mallada de mensajería de texto sin depender de Internet ni de redes móviles.
 
 El firmware funciona en hardware LoRa que muchos usuarios ya tienen o compran a bajo coste. **LILYGO T-Beam, Heltec WiFi LoRa 32, RAK WisBlock y Seeed SenseCAP Indicator** admiten Meshtastic sin herramientas especiales. Las aplicaciones para iOS y Android reciben buen mantenimiento. Una persona sin conocimientos técnicos se conecta en menos de diez minutos. El ecosistema incluye puentes MQTT, integración con Home Assistant y complementos ATAK.
 
 ### MeshCore
 
-**MeshCore** ganó popularidad en 2023 y 2024. Su firmware funciona en gran parte del mismo hardware LoRa, pero usa una **arquitectura de enrutamiento híbrida**. Primero descubre rutas. Después, el tráfico pasa por repetidores hasta el destino en vez de difundirse a todos. Esto no es almacenamiento y reenvío en el sentido de redes tolerantes a demoras.
+**MeshCore** ganó popularidad en 2023 y 2024. Su firmware funciona en gran parte del mismo hardware LoRa, pero usa una **arquitectura de enrutamiento híbrida**. Esto no es almacenamiento y reenvío en el sentido de redes tolerantes a demoras.
 
 Los repetidores se encargan de la mayor parte del reenvío. **Los servidores de sala son opcionales.** Guardan mensajes grupales para que los clientes los recuperen al reconectarse. Los clientes llevan una radio LoRa complementaria y se conectan mediante infraestructura cuando existe, o se comunican directamente con nodos cercanos si no hay repetidor.
 
@@ -45,7 +45,9 @@ ______
 
 ### Cómo enruta Meshtastic
 
-Las emisiones usan **inundación controlada**. Cada nodo retransmite paquetes hasta el límite de saltos. Ningún nodo necesita conocer la topología. Los nodos nuevos se incorporan sin configuración y los nodos caídos se evitan automáticamente. Desde la versión 2.6, **los mensajes directos usan enrutamiento al siguiente salto** tras descubrir la ruta, lo que reduce el tiempo de transmisión punto a punto.
+En la **[inundación gestionada](https://meshtastic.org/docs/overview/mesh-algo/#broadcasts-using-managed-flooding)** de Meshtastic, un cliente normal cancela una retransmisión pendiente si antes oye el mismo paquete retransmitido. `ROUTER` y `ROUTER_LATE` pueden retransmitir de todos modos. `CLIENT_BASE` hace esa excepción para el tráfico hacia o desde un favorito.
+
+Desde Meshtastic 2.6, los **mensajes directos** usan inundación para descubrir la ruta e intentan usar el siguiente salto aprendido. Si ese salto falla, pueden volver a la inundación.
 
 **La restricción real es el tiempo de transmisión, no el número de nodos.** LoRa usa bandas ISM compartidas con límites regionales de ciclo de trabajo, normalmente del 1 % en Europa. Una red con balizas GPS frecuentes, telemetría y actividad de canal satura el tiempo de transmisión antes de llegar a un límite absoluto de nodos. Diez nodos activos que envían telemetría frecuente causan más contención que cincuenta sensores silenciosos. Las mallas densas con varias decenas de usuarios activos suelen tener más contención, pero no existe un límite fijo. El umbral depende del factor de dispersión, el ajuste de tiempo de transmisión, los intervalos de telemetría, el terreno y la ubicación de los repetidores.
 
@@ -53,9 +55,11 @@ Meshtastic genera tráfico adicional con anuncios de información de nodos, tele
 
 ### Cómo enruta MeshCore
 
-MeshCore descubre y aprende rutas, luego dirige el tráfico hacia la infraestructura en vez de retransmitirlo a todos. **Los repetidores reenvían tráfico entre nodos.** Los servidores de sala pueden alojar conversaciones grupales y guardar mensajes para los clientes que vuelvan a conectarse.
+En MeshCore, un **mensaje directo** inicial puede inundar la red para encontrar una ruta. Los siguientes pueden usarla y, según la configuración, volver a la inundación si falla. **[Los canales de grupo públicos y privados siguen usando inundación](https://docs.meshcore.io/faq/#5-general)** a través de repetidores habilitados. Los dispositivos cliente no retransmiten paquetes de otros nodos.
 
-La ocupación del canal depende de las conversaciones activas, no del total de nodos. Un despliegue grande con muchos nodos silenciosos no pierde rendimiento como una red densa de inundación con mucho tráfico adicional. MeshCore se diseñó para despliegues bastante mayores, aunque el rendimiento real depende de la calidad de la instalación.
+**Los repetidores reenvían tráfico entre nodos.** Los servidores de sala pueden alojar conversaciones grupales y guardar mensajes para los clientes que vuelvan a conectarse.
+
+**El tiempo de aire depende del tráfico.** En ambos protocolos, los mensajes de grupo pueden llegar a varios repetidores. Una ruta aprendida puede reducir las transmisiones de mensajes directos, pero también importan los ajustes de radio, la ubicación de los repetidores y la frecuencia de mensajes.
 
 Sin repetidor, los clientes se comunican directamente si están dentro del alcance. *La arquitectura rinde mejor con infraestructura, pero no la exige.*
 
@@ -115,7 +119,7 @@ Las variables que determinan el rendimiento de la red:
 - **Ubicación de repetidores.** Un repetidor bien ubicado distribuye la carga. Uno mal ubicado aumenta la congestión.
 - **Terreno.** Los nodos que no se oyen añaden tráfico sin causar contención. Los que oyen simultáneamente a muchos otros sí la causan.
 
-*Meshtastic reduce la planificación y acepta algo de tráfico adicional a cambio de la autoorganización. MeshCore exige planificación y la recompensa con un uso más predecible del tiempo de transmisión. Cambiar de Meshtastic a MeshCore sin mejorar la planificación no garantiza un mejor rendimiento.*
+Los **repetidores fijos** ayudan a planificar la cobertura, no a eliminar la inundación. Para el chat grupal, prueba ambos protocolos con la frecuencia de mensajes, los ajustes de radio y la ubicación de repetidores previstos antes de elegir.
 
 ______
 
@@ -143,7 +147,7 @@ Meshtastic 2.6 mejoró el enrutamiento de mensajes directos. El tráfico grupal 
 
 ### MeshCore
 
-El enrutamiento híbrido de MeshCore implica que **un oyente pasivo no puede reconstruir toda la topología de la red** al escucharla. El tráfico se dirige a infraestructura concreta en vez de difundirse a todos. **Los mensajes directos usan cifrado por contacto**, no una clave compartida de canal. Otros nodos de la misma infraestructura no pueden descifrar tu conversación directa aunque usen el mismo repetidor.
+**El enrutamiento no oculta la actividad de radio.** No des por hecho que una ruta aprendida oculte qué repetidores transmiten. **Los mensajes directos usan cifrado por contacto**, no una clave compartida de canal. Otros nodos de la misma infraestructura no pueden descifrar tu conversación directa aunque usen el mismo repetidor.
 
 Los nodos de infraestructura retransmiten tráfico cifrado. En mensajes directos con cifrado por contacto, el repetidor reenvía el texto cifrado sin descifrarlo. En las conversaciones de sala, sus servidores ven el contenido de las salas que alojan. *La pregunta clave es si controlas el servidor de sala.*
 
@@ -153,9 +157,9 @@ ______
 
 ## Consumo de energía
 
-Con los ajustes predeterminados, MeshCore genera menos transmisiones de radio adicionales que Meshtastic. **Transmitir menos mejora la autonomía de los nodos cliente.** Los paquetes de telemetría, las difusiones GPS y la inundación controlada de Meshtastic consumen tiempo de transmisión. Puedes reducir ese tráfico ajustando los intervalos de telemetría y desactivando la difusión GPS en nodos sin GPS. Con ajustes predeterminados comparables, **MeshCore transmite menos**.
+**Transmitir menos mejora la autonomía de los nodos cliente.** Los paquetes de telemetría, las difusiones GPS y la inundación controlada de Meshtastic consumen tiempo de transmisión. Puedes reducir ese tráfico ajustando los intervalos de telemetría y desactivando la difusión GPS en nodos sin GPS.
 
-Una instalación Meshtastic bien ajustada, con telemetría mínima, se acerca a la autonomía de MeshCore. Los valores predeterminados favorecen a MeshCore.
+**Compara la autonomía con la misma carga de trabajo.** Importan los ajustes de telemetría, el tiempo de transmisión y la función del nodo, no solo el protocolo.
 
 ______
 
@@ -165,7 +169,7 @@ ______
 
 **MeshCore depende más de la ubicación de los repetidores.** Una red MeshCore bien diseñada y con buena cobertura ofrece un rendimiento predecible. Si se pierde el único repetidor de una zona, los nodos que dependen de él pierden conectividad. *MeshCore recompensa la planificación previa. Meshtastic tolera mejor los fallos de nodos.*
 
-Meshtastic acepta más tráfico de radio a cambio de resiliencia. MeshCore acepta dependencia de infraestructura a cambio de eficiencia.
+**Las rutas aprendidas y la inundación resuelven problemas distintos.** Una ruta alternativa solo sirve si otro repetidor habilitado puede recibir y reenviar el paquete.
 
 ______
 
@@ -212,7 +216,7 @@ ______
 
 **Despliegues con infraestructura planificada.** Tienes un repetidor en una azotea o un servidor de sala con alimentación fiable. El enrutamiento híbrido de MeshCore aprovecha la infraestructura fija.
 
-**Redes grandes con infraestructura dedicada.** Elige MeshCore si importan más la eficiencia de transmisión y el rendimiento predecible a escala que la autoorganización espontánea.
+**Redes grandes con infraestructura dedicada.** **Prueba el tráfico de grupo antes de cambiar.** Una red de repetidores fijos ayuda con la cobertura, pero no proporciona rutas dirigidas a los canales de grupo.
 
 **Persistencia de mensajes con conectividad intermitente.** Los servidores de sala guardan mensajes y los entregan cuando se reconectan los clientes. **Es una de las ventajas prácticas más concretas de MeshCore frente a Meshtastic.**
 
@@ -265,7 +269,7 @@ ______
 
 | Factor | Meshtastic | MeshCore |
 |---|---|---|
-| Modelo de red | Inundación controlada y mensajes directos al siguiente salto | Descubrimiento híbrido de rutas y reenvío dirigido |
+| Modelo de red | Inundación gestionada para canales, siguiente salto aprendido para mensajes directos | Inundación para canales, ruta aprendida por repetidores para mensajes directos |
 | Dificultad de configuración | Fácil | Media a alta |
 | Diseño para escalar | Flexible, pierde rendimiento con contención | Diseñado para redes planificadas mayores |
 | Calidad de la aplicación móvil | Excelente | Funcional |
@@ -284,10 +288,10 @@ ______
 
 **Empieza con Meshtastic.** Estarás transmitiendo en una tarde. Encontrarás gente con quien probarlo. La aplicación funciona y la documentación es excelente. El enrutamiento al siguiente salto de Meshtastic 2.6 reduce la diferencia de eficiencia para mensajes directos punto a punto.
 
-**Pasa a MeshCore cuando los valores predeterminados de Meshtastic no se ajusten al despliegue.** Si tienes repetidores dedicados, necesitas conservar mensajes para usuarios intermitentes o construyes una red grande y planificada donde la eficiencia de transmisión importe más que la autoorganización, la arquitectura de MeshCore encaja y compensa el esfuerzo de configuración.
+**Considera MeshCore** si necesitas repetidores dedicados o servidores de sala opcionales que guarden mensajes para quienes se vuelvan a conectar.
 
 Antes de cambiar de protocolo, **ajusta tu instalación de Meshtastic**. Reduce los intervalos de telemetría. Desactiva la difusión GPS en nodos sin GPS. Ajusta el tiempo de transmisión a la densidad de nodos. *Muchos problemas de rendimiento se deben a la configuración, no al protocolo.*
 
-Los protocolos cubren necesidades distintas en el equilibrio entre planificación y espontaneidad. Meshtastic reduce la planificación y acepta el tráfico adicional de la autoorganización. MeshCore exige planificación y la recompensa con un rendimiento más predecible. **Ninguno sustituirá al otro porque sus usos son distintos.**
+**Ambas mallas se benefician de repetidores bien ubicados.** Los nodos que retransmiten dependen de sus funciones y del tráfico.
 
 *¿Construyes una red que debe conectar LoRa con radio por paquetes, Wi-Fi o Internet, en vez de limitarse a una malla LoRa?* Consulta la **[guía comparativa de Meshtastic, MeshCore y Reticulum](/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/)** para ver dónde encaja una red independiente del transporte y dónde añade complejidad innecesaria.

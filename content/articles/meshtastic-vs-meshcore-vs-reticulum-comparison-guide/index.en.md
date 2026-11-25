@@ -1,7 +1,7 @@
 ---
 title: "Meshtastic vs MeshCore vs Reticulum"
 date: 2026-09-01
-lastmod: 2026-09-01
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Compare Meshtastic, MeshCore, and Reticulum by routing, airtime, infrastructure, transport, and off-grid use cases."
@@ -59,20 +59,22 @@ For a full breakdown of Meshtastic's routing, hardware compatibility, and setup 
 
 ### Managed Flooding and Why Hop Limits Matter
 
-Meshtastic broadcasts use **managed flooding**. When a node sends a message, every node hearing it rebroadcasts the packet, up to a configured hop limit. No node needs to know the network topology. New nodes join with zero configuration, and dead nodes get bypassed automatically since the flood routes around them.
+In Meshtastic **[managed flooding](https://meshtastic.org/docs/overview/mesh-algo/#broadcasts-using-managed-flooding)**, an ordinary client cancels a pending rebroadcast if it hears the same packet relayed first. `ROUTER` and `ROUTER_LATE` can still rebroadcast. `CLIENT_BASE` makes that exception for traffic to or from a favorite.
 
-The default hop limit is **3**. The maximum is **7**. The framing worth avoiding is "Meshtastic only goes seven hops." *The real question is what raising this number costs you.*
+Meshtastic’s hop counter defaults to **3** and has a maximum of **7**. With firmware 2.7.11 or later, eligible infrastructure can [preserve the hop counter](https://meshtastic.org/blog/zero-cost-hops-favorite-routers/) after the first hop when the previous relay is a favorite `ROUTER` or `ROUTER_LATE`. Physical retransmissions still use airtime.
 
-Each additional hop means every node within range of the message rebroadcasts it again. More forwarding produces:
+A higher hop limit can reach more relays, but it does not make every receiver transmit. **More forwarding** can mean:
 
 - **More airtime** consumed per message
-- **More duplicate transmissions**, since every node in range of a rebroadcast repeats it
+- **More copies on air** when multiple eligible relays forward the same packet
 - **More contention** for the shared channel
 - **Greater collision risk** as more radios try to transmit in the same window
 - **Higher battery consumption** on every node receiving and retransmitting
 - **Less available channel capacity** for actual message traffic
 
-LoRa capacity is bounded by airtime and regional duty cycle limits, not by node count. A network with ten chatty nodes sending frequent GPS and telemetry broadcasts saturates a channel fifty quiet sensor nodes would never touch. This is why a dense mesh with a high hop limit degrades faster than the same node count spread across a lower hop limit and disciplined telemetry intervals. **Meshtastic 2.6 improved this for direct messages** by switching to next-hop routing after route discovery, so point-to-point traffic no longer floods the whole hop radius. Broadcasts still flood.
+LoRa capacity is bounded by airtime and regional duty cycle limits, not by node count. A network with ten chatty nodes sending frequent GPS and telemetry broadcasts saturates a channel fifty quiet sensor nodes would never touch. This is why a dense mesh with a high hop limit degrades faster than the same node count spread across a lower hop limit and disciplined telemetry intervals.
+
+Since Meshtastic 2.6, **direct messages** use flooding for discovery, then try a learned next hop. They can fall back to flooding if that hop fails.
 
 For a small or medium hiking-club-sized mesh, this rarely matters. For a **regional network meant to cover a city or a multi-town area**, it becomes the central design constraint.
 
@@ -80,7 +82,7 @@ ______
 
 ## MeshCore
 
-**MeshCore** takes a different architectural bet: instead of treating every device as an equal participant in message propagation, it builds a deliberate infrastructure layer and routes traffic toward it.
+**Dedicated repeaters** give MeshCore a fixed forwarding layer, while companion radios act as endpoints.
 
 ### Node Roles
 
@@ -90,7 +92,7 @@ MeshCore deployments are built around distinct roles rather than one flat set of
 - **Repeaters** exist specifically to forward traffic between clients and other infrastructure, and do most of the actual routing work
 - **Room servers** (optional) hold group conversations and deliver stored messages to clients when they reconnect
 
-Route discovery happens first, then traffic moves through the discovered path toward its destination rather than fanning out to every node in range. Channel occupancy scales with active conversations, not total node count, which is a meaningfully different growth curve than Meshtastic's flooding model.
+In MeshCore, an initial **direct message** can flood to discover a path. Later direct messages can follow that path, with a configurable fallback to flooding. **[Public and private group channels still flood](https://docs.meshcore.io/faq/#5-general)** through eligible repeaters. Companion radios do not relay other nodes’ packets.
 
 ### Why This Fits Static Infrastructure
 
@@ -106,7 +108,7 @@ A network built around known, elevated repeaters gives you the ability to design
 - **Regional networks** spanning more than a single neighborhood
 - **Emergency communications** where predictable coverage matters more than flexibility
 
-Tie this back to RF fundamentals: **reliable links between properly placed infrastructure matter more than maximizing antenna gain, transmit power, or theoretical range.** A protocol built around dedicated repeaters rewards you for doing the RF engineering work of siting those repeaters well. A protocol built around flooding rewards you less for this work, since every node does roughly the same job regardless of where you put it.
+Tie this back to RF fundamentals: **reliable links between properly placed infrastructure matter more than maximizing antenna gain, transmit power, or theoretical range.** **Both meshes benefit from well-placed relays.** Which nodes retransmit depends on their roles and the traffic.
 
 ______
 
@@ -205,7 +207,7 @@ Consider a hypothetical multi-city deployment:
 
 **City A, repeater, repeater, rural relay, repeater, City B, repeater, City C**
 
-Ask how each architecture handles this as it grows. A flooding-based mesh with a hop limit of 7 struggles to span this kind of chain reliably, since every hop compounds airtime cost and every additional active node along the way adds contention. A structured, repeater-based architecture like MeshCore's is built for exactly this shape: known relay points, deliberate placement, and routing scaling with active conversations rather than total node count.
+In this chain, **test group and direct messages separately**. MeshCore direct messages can reuse a learned path, but group messages still flood. Meshtastic can preserve the hop counter on eligible infrastructure links. Every real retransmission takes airtime, so neither protocol guarantees end-to-end delivery.
 
 This is the scenario where **hop limits, airtime budget, routing behavior, and infrastructure design stop being theoretical** and start determining whether the network works end to end. Geographic scale is where the architectural differences between Meshtastic and MeshCore stop being academic.
 
@@ -241,11 +243,11 @@ ______
 
 **Meshtastic makes sense** when you value ecosystem maturity, ease of adoption, portable and roaming users, and compatibility with an existing Meshtastic community. It is the right default for most people starting from nothing.
 
-**MeshCore becomes compelling** when you are intentionally building persistent LoRa infrastructure and want dedicated repeaters to form a larger, structured network. It rewards planning and rewards good repeater placement more directly than a flooding-based design does.
+**Fixed repeaters** help you plan coverage, not eliminate flooding. For group chat, test both protocols with the expected message rate, radio settings, and relay layout before choosing.
 
 **Reticulum makes sense** when the problem extends beyond one LoRa mesh, and you need to connect different transports or otherwise separate networks into a single addressable system.
 
-For a **license-free, low-power, long-range community infrastructure network built primarily around fixed repeaters**, lean toward MeshCore. *If a healthy Meshtastic network already exists in your area, replacing it needs enough benefit to justify fragmenting the existing community.* Reticulum enters the picture when one mesh protocol, or one physical transport, no longer meets the requirement, not simply because it does more things.
+For a **license-free, low-power, long-range community infrastructure network built primarily around fixed repeaters**, lean toward MeshCore. **Test group traffic before switching.** A fixed repeater network helps with coverage, but does not give group channels directed paths. *If a healthy Meshtastic network already exists in your area, replacing it needs enough benefit to justify fragmenting the existing community.* Reticulum enters the picture when one mesh protocol, or one physical transport, no longer meets the requirement, not simply because it does more things.
 
 ______
 

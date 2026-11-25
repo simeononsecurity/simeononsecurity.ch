@@ -1,7 +1,7 @@
 ---
 title: "Meshtastic vs. MeshCore vs. Reticulum"
 date: 2026-09-01
-lastmod: 2026-11-12
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Compara Meshtastic, MeshCore i Reticulum segons l'encaminament, el temps d'emissió, la infraestructura, el transport i els usos sense connexió a Internet."
@@ -59,20 +59,22 @@ Per a una comparació detallada de l'encaminament, la compatibilitat de maquinar
 
 ### Inundació gestionada i importància dels límits de salts
 
-Les emissions de Meshtastic fan servir **inundació gestionada**. Quan un node envia un missatge, cada node que el rep torna a emetre el paquet fins al límit de salts configurat. Cap node no necessita conèixer la topologia de xarxa. Els nodes nous s'hi incorporen sense configuració i els nodes caiguts se superen automàticament, perquè la inundació troba un altre camí.
+En la **[inundació gestionada](https://meshtastic.org/docs/overview/mesh-algo/#broadcasts-using-managed-flooding)** de Meshtastic, un client normal cancel·la una retransmissió pendent si abans sent el mateix paquet retransmès. `ROUTER` i `ROUTER_LATE` poden retransmetre igualment. `CLIENT_BASE` fa aquesta excepció per al trànsit cap a un favorit o des d’un favorit.
 
-El límit de salts per defecte és **3**. El màxim és **7**. Evita dir «Meshtastic només arriba a set salts». *La pregunta real és quin cost té augmentar aquest valor.*
+El comptador de salts de Meshtastic val **3** per defecte i admet fins a **7**. A partir del microprogramari 2.7.11, la infraestructura apta pot [conservar el comptador](https://meshtastic.org/blog/zero-cost-hops-favorite-routers/) després del primer salt si el repetidor anterior és un `ROUTER` o `ROUTER_LATE` favorit. Les retransmissions reals continuen ocupant el canal.
 
-Cada salt addicional fa que tots els nodes a l'abast del missatge el tornin a emetre. Més reenviaments comporten:
+Un límit més alt pot arribar a més repetidors, però no obliga tots els receptors a transmetre. **Més reenviaments** poden comportar:
 
 - **Més temps d'emissió** per missatge
-- **Més transmissions duplicades**, perquè els nodes que reben una retransmissió la repeteixen
+- **Més còpies a l’aire** si diversos repetidors aptes reenvien el mateix paquet
 - **Més competència** pel canal compartit
 - **Més risc de col·lisions** quan més ràdios intenten transmetre alhora
 - **Més consum de bateria** a cada node que rep i retransmet
 - **Menys capacitat de canal** per al trànsit real de missatges
 
-La capacitat de LoRa està limitada pel temps d'emissió i les restriccions regionals del cicle de treball, no pel nombre de nodes. Una xarxa amb deu nodes molt actius que envien sovint GPS i telemetria pot saturar un canal que cinquanta sensors silenciosos ni tan sols afectarien. Per això una malla densa amb un límit alt de salts es degrada abans que el mateix nombre de nodes distribuït amb menys salts i intervals de telemetria controlats. **Meshtastic 2.6 ho va millorar per als missatges directes**: després de descobrir la ruta, passa a l'encaminament pel salt següent, de manera que el trànsit punt a punt ja no inunda tot el radi de salts. Les emissions generals encara s'inunden.
+La capacitat de LoRa està limitada pel temps d'emissió i les restriccions regionals del cicle de treball, no pel nombre de nodes. Una xarxa amb deu nodes molt actius que envien sovint GPS i telemetria pot saturar un canal que cinquanta sensors silenciosos ni tan sols afectarien. Per això una malla densa amb un límit alt de salts es degrada abans que el mateix nombre de nodes distribuït amb menys salts i intervals de telemetria controlats.
+
+Des de Meshtastic 2.6, els **missatges directes** fan servir inundació per descobrir la ruta i després proven el salt següent après. Si falla, poden tornar a la inundació.
 
 En una malla petita o mitjana, com la d'un club d'excursionisme, poques vegades és un problema. En una **xarxa regional que vol cobrir una ciutat o diverses poblacions**, esdevé la principal limitació de disseny.
 
@@ -80,7 +82,7 @@ ______
 
 ## MeshCore
 
-**MeshCore aposta per una arquitectura diferent:** en lloc de tractar cada dispositiu com un participant igual en la propagació de missatges, construeix una capa d'infraestructura deliberada i hi encamina el trànsit.
+Els **repetidors dedicats** formen la capa fixa de reenviament de MeshCore. Les ràdios client són els terminals.
 
 ### Funcions dels nodes
 
@@ -90,7 +92,7 @@ Els desplegaments MeshCore es basen en funcions diferenciades, no en un conjunt 
 - **Repetidors**, dedicats a reenviar trànsit entre clients i altra infraestructura, i responsables de gran part de l'encaminament
 - **Servidors de sala** opcionals, que conserven converses de grup i lliuren missatges desats als clients quan es tornen a connectar
 
-Primer es descobreix la ruta. Després, el trànsit segueix el camí trobat fins a la destinació, en lloc d'estendre's a tots els nodes propers. L'ocupació del canal depèn de les converses actives, no del nombre total de nodes. És una corba de creixement força diferent del model d'inundació de Meshtastic.
+A MeshCore, un primer **missatge directe** pot inundar la xarxa per descobrir una ruta. Els següents poden seguir-la i tornar a la inundació segons la configuració. **[Els canals de grup públics i privats continuen fent servir inundació](https://docs.meshcore.io/faq/#5-general)** a través de repetidors aptes. Els dispositius client no retransmeten paquets d’altres nodes.
 
 ### Per què encaixa amb la infraestructura fixa
 
@@ -106,7 +108,7 @@ Una xarxa amb repetidors coneguts i elevats permet dissenyar la cobertura de man
 - **Xarxes regionals** més grans que un sol barri
 - **Comunicacions d'emergència**, on la cobertura previsible pesa més que la flexibilitat
 
-Relaciona-ho amb els principis de RF: **els enllaços fiables entre infraestructures ben situades importen més que maximitzar el guany d'antena, la potència d'emissió o l'abast teòric.** Un protocol dissenyat al voltant de repetidors dedicats recompensa una bona feina d'emplaçament. Un protocol basat en inundació ho recompensa menys, perquè cada node fa més o menys la mateixa feina independentment de la ubicació.
+Relaciona-ho amb els principis de RF: **els enllaços fiables entre infraestructures ben situades importen més que maximitzar el guany d'antena, la potència d'emissió o l'abast teòric.** **Totes dues malles es beneficien de repetidors ben situats.** Els nodes que retransmeten depenen del seu paper i del trànsit.
 
 ______
 
@@ -205,7 +207,7 @@ Considera aquest desplegament hipotètic entre ciutats:
 
 **Ciutat A, repetidor, repetidor, relé rural, repetidor, Ciutat B, repetidor, Ciutat C**
 
-Pregunta't com gestiona cada arquitectura el creixement. Una malla d'inundació amb límit de set salts tindrà dificultats per cobrir una cadena així de manera fiable: cada salt suma temps d'emissió i cada node actiu afegeix competència. Una arquitectura estructurada amb repetidors, com MeshCore, està pensada per a aquesta forma: punts de relé coneguts, ubicació deliberada i encaminament que creix amb les converses actives, no amb el nombre total de nodes.
+En aquesta cadena, **prova per separat els missatges de grup i els directes**. MeshCore pot reutilitzar una ruta per als directes, però inunda per als missatges de grup. Meshtastic pot conservar el comptador en enllaços d’infraestructura aptes. Cada retransmissió ocupa el canal. Cap protocol garanteix el lliurament d’extrem a extrem.
 
 En aquest escenari, **els límits de salts, el pressupost d'emissió, l'encaminament i el disseny de la infraestructura deixen de ser teòrics** i determinen si la xarxa funciona d'extrem a extrem. A escala geogràfica, les diferències entre Meshtastic i MeshCore deixen de ser acadèmiques.
 
@@ -241,11 +243,11 @@ ______
 
 **Meshtastic és adequat** si valores un ecosistema madur, una adopció senzilla, usuaris portàtils i itinerants, i la compatibilitat amb una comunitat Meshtastic existent. És l'opció inicial per defecte per a la majoria de qui comença de zero.
 
-**MeshCore és convincent** quan construeixes infraestructura LoRa persistent expressament i vols repetidors dedicats per formar una xarxa estructurada més gran. Recompensa la planificació i la bona ubicació dels repetidors més directament que un disseny d'inundació.
+Els **repetidors fixos** ajuden a planificar la cobertura, no a eliminar la inundació. Abans de triar, prova tots dos protocols amb el volum de missatges de grup, els ajustos de ràdio i la disposició dels repetidors previstos.
 
 **Reticulum és adequat** quan el problema supera una sola malla LoRa i necessites connectar transports diferents o xarxes separades en un sistema adreçable.
 
-Per a una **xarxa comunitària sense llicència, de baix consum i llarg abast, basada principalment en repetidors fixos**, inclina't per MeshCore. *Si ja hi ha una xarxa Meshtastic sana a la teva zona, substituir-la ha d'aportar prou benefici per justificar la fragmentació de la comunitat.* Reticulum entra en joc quan un protocol mesh o un transport físic no basta, no simplement perquè faci més coses.
+Per a una **xarxa comunitària sense llicència, de baix consum i llarg abast, basada principalment en repetidors fixos**, inclina't per MeshCore. **Prova el trànsit de grup abans de canviar.** Una xarxa de repetidors fixos ajuda amb la cobertura, però no dona rutes dirigides als canals de grup. *Si ja hi ha una xarxa Meshtastic sana a la teva zona, substituir-la ha d'aportar prou benefici per justificar la fragmentació de la comunitat.* Reticulum entra en joc quan un protocol mesh o un transport físic no basta, no simplement perquè faci més coses.
 
 ______
 

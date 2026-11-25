@@ -1,11 +1,11 @@
 ---
 title: "MeshCore oder Meshtastic: Vergleich"
 date: 2026-06-26
-lastmod: 2026-11-12
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Vergleich von MeshCore und Meshtastic nach Routing, Reichweite, Sendezeit, Infrastruktur, Geräteunterstützung und geeignetem Einsatz."
-genre: ["LoRa", "Mesh-Netzwerke", "Offline-Kommunikation", "Notfallkommunikation", "Taktische Kommunikation", "Amateurfunk", "Open Source", "Katastrophenvorsorge", "Drahtlosnetzwerke", "Datenschutz"]
+genre: ["LoRa", "Mesh-Netzwerke", "Offline-Kommunikation", "Notfallkommunikation", "Taktische Kommunikation", "Amateurfunk", "Quelloffene Software", "Katastrophenvorsorge", "Drahtlosnetzwerke", "Datenschutz"]
 tags: ["MeshCore vs. Meshtastic", "Meshtastic", "MeshCore", "LoRa-Mesh-Netzwerk", "Offline-Kommunikation", "Meshtastic-Vergleich", "MeshCore-Vergleich", "LoRa-Funk", "Mesh-Netzwerke", "Notfallkommunikation", "taktisches Mesh", "Offline-Funk", "Meshtastic-Protokoll", "MeshCore-Protokoll", "LoRa Meshtastic", "Katastrophenkommunikation", "Mesh-Funk", "Speichern und Weiterleiten", "LoRa-Flooding", "LoRa-Mesh", "T-Beam Meshtastic", "Heltec LoRa", "RAK WisBlock", "Offline-Nachrichten", "Mesh-Netzwerkprotokoll", "Meshtastic 2.6", "LoRa-Sendezeit", "Notfallfunk"]
 cover: "/img/cover/meshcore-vs-meshtastic-comparison-guide.webp"
 coverAlt: "Illustration zweier LoRa-Mesh-Netzwerke: links Meshtastic mit Flooding zwischen Knoten, rechts MeshCore mit strukturiertem Routing, vor dunklem Hintergrund."
@@ -17,9 +17,9 @@ ref: ["/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide"]
 
 Meshtastic und MeshCore laufen auf derselben günstigen LoRa-Hardware. Beide ermöglichen verschlüsselte Nachrichten ohne Mobilfunk oder Internet. **Die Protokolle sind nicht miteinander kompatibel.**
 
-**Die Routing-Philosophie unterscheidet sich.** Meshtastic flutet Pakete zu allen Knoten in der Nähe. MeshCore leitet den Datenverkehr über geplante Infrastruktur. Diese Ansätze verhalten sich bei zunehmender Netzgröße unterschiedlich.
+**Beide Protokolle fluten Gruppenverkehr.** Normale Meshtastic-Clients unterdrücken redundante Weitersendungen. Bei MeshCore leiten nur Infrastrukturknoten weiter. Beide können gelernte Routen für Direktnachrichten nutzen.
 
-*Meshtastic eignet sich für die meisten.* Die Mobil-App ist ausgereift, die Community groß, die Dokumentation gut und die Einrichtung dauert weniger als 20 Minuten. MeshCore passt besser zu geplanten Installationen, bei denen Sendezeiteffizienz wichtiger ist als spontane Selbstorganisation.
+*Meshtastic eignet sich für die meisten.* Die Mobil-App ist ausgereift, die Community groß, die Dokumentation gut und die Einrichtung dauert weniger als 20 Minuten.
 
 **Grundlagen der Funktechnik sind wichtiger als die Firmware.** Kein Protokoll gleicht eine schlecht platzierte Antenne aus.
 
@@ -29,13 +29,13 @@ ______
 
 ### Meshtastic
 
-**Meshtastic** ist ein Open-Source-Projekt, das Kevin Hester 2020 startete. Die Firmware macht aus handelsüblicher LoRa-Hardware ein Textnachrichten-Mesh ohne Abhängigkeit von Internet oder Mobilfunk. Broadcasts verwenden kontrolliertes Flooding: Jeder Knoten sendet Pakete bis zu einer konfigurierbaren Hop-Grenze weiter. Seit Version 2.6 verwenden **Direktnachrichten nach der Routenerkennung Next-Hop-Routing** statt Flooding. Dadurch sinkt die Sendezeit bei Punkt-zu-Punkt-Verkehr.
+**Meshtastic** ist ein Open-Source-Projekt, das Kevin Hester 2020 startete. Die Firmware macht aus handelsüblicher LoRa-Hardware ein Textnachrichten-Mesh ohne Abhängigkeit von Internet oder Mobilfunk.
 
 Die Firmware läuft auf LoRa-Hardware, die viele Nutzer bereits besitzen oder günstig kaufen. **LILYGO T-Beam, Heltec WiFi LoRa 32, RAK WisBlock und Seeed SenseCAP Indicator** unterstützen Meshtastic ohne Spezialwerkzeuge. Die iOS- und Android-Apps werden gut gepflegt. Nichttechnische Nutzer sind in weniger als zehn Minuten im Netz. Das Ökosystem bietet MQTT-Bridges, Home-Assistant-Integration und ATAK-Erweiterungen.
 
 ### MeshCore
 
-**MeshCore** gewann 2023 und 2024 an Bedeutung. Die Firmware läuft auf einem großen Teil derselben LoRa-Hardware, verwendet aber eine **hybride Routing-Architektur**. Zuerst werden Routen ermittelt. Danach läuft der Datenverkehr über Repeater zum Ziel, statt an alle Knoten verteilt zu werden. Das ist kein Store-and-Forward im Sinn verzögerungstoleranter Netzwerke.
+**MeshCore** gewann 2023 und 2024 an Bedeutung. Die Firmware läuft auf einem großen Teil derselben LoRa-Hardware, verwendet aber eine **hybride Routing-Architektur**. Das ist kein Store-and-Forward im Sinn verzögerungstoleranter Netzwerke.
 
 Repeater übernehmen den Großteil der Weiterleitung. **Raumserver sind optional.** Sie speichern Gruppennachrichten, damit Clients sie nach einer erneuten Verbindung abrufen. Clients verwenden ein LoRa-Begleitfunkgerät und verbinden sich bei vorhandener Infrastruktur darüber. Ohne Repeater kommunizieren sie direkt mit Knoten in Reichweite.
 
@@ -45,7 +45,9 @@ ______
 
 ### Meshtastic-Routing
 
-Broadcasts nutzen **kontrolliertes Flooding**. Jeder Knoten leitet ein Paket bis zur Hop-Grenze weiter. Kein Knoten muss die Topologie kennen. Neue Knoten kommen ohne Konfiguration hinzu. Ausgefallene Knoten werden automatisch umgangen. Seit Version 2.6 verwenden **Direktnachrichten nach der Routenerkennung Next-Hop-Routing**, was die Sendezeit für Punkt-zu-Punkt-Verkehr senkt.
+Beim **[gesteuerten Fluten](https://meshtastic.org/docs/overview/mesh-algo/#broadcasts-using-managed-flooding)** in Meshtastic bricht ein normaler Client eine geplante Weitersendung ab, wenn er dasselbe Paket zuvor von einem anderen Knoten hört. `ROUTER` und `ROUTER_LATE` können es trotzdem weiterleiten. Bei `CLIENT_BASE` gilt diese Ausnahme für Verkehr zu oder von Favoriten.
+
+Seit Meshtastic 2.6 nutzen **Direktnachrichten** zunächst Fluten zur Pfadsuche und versuchen danach die Weiterleitung über den gelernten nächsten Knoten. Wenn das scheitert, können sie erneut fluten.
 
 **Die eigentliche Grenze ist die Sendezeit, nicht die Knotenzahl.** LoRa nutzt gemeinsam belegte ISM-Bänder mit regionalen Grenzen für den Duty Cycle, in Europa typischerweise 1 %. Ein Netz mit häufigen GPS-Beacons, Telemetrie und aktivem Kanalverkehr erschöpft die Sendezeit, bevor ein absolutes Knotenlimit erreicht ist. Zehn aktive Knoten mit häufiger Telemetrie verursachen mehr Konkurrenz als fünfzig ruhige Sensoren. Dichte Netze mit mehreren Dutzend aktiven Nutzern haben oft mehr Sendezeitkonkurrenz, aber es gibt keine feste Obergrenze. Der Schwellenwert hängt von Spreizfaktor, Sendezeit-Preset, Telemetrieintervallen, Gelände und Repeater-Standorten ab.
 
@@ -53,9 +55,11 @@ Meshtastic erzeugt Zusatzverkehr durch Knoteninformationen, Batterietelemetrie, 
 
 ### MeshCore-Routing
 
-MeshCore erkennt Routen, lernt sie und leitet Datenverkehr über Infrastruktur weiter, statt ihn an alle Knoten zu senden. **Repeater leiten Daten zwischen Knoten weiter.** Raumserver können Gruppengespräche hosten und Nachrichten für später zurückkehrende Clients speichern.
+Bei MeshCore kann eine erste **Direktnachricht** zur Pfadsuche geflutet werden. Spätere Direktnachrichten können diesen Pfad nutzen und je nach Einstellung wieder auf Fluten zurückfallen. **[Öffentliche und private Gruppenkanäle werden weiterhin geflutet](https://docs.meshcore.io/faq/#5-general)**, und zwar über dafür zugelassene Repeater. Endgeräte leiten keine Pakete anderer Knoten weiter.
 
-Die Kanalbelegung richtet sich nach aktiven Gesprächen, nicht nach der gesamten Knotenzahl. Eine große Installation mit vielen ruhigen Knoten verliert nicht auf dieselbe Weise Leistung wie ein dichtes Flooding-Netz mit hohem Zusatzverkehr. MeshCore zielt auf deutlich größere Installationen, wobei die tatsächliche Leistung von der Qualität des Aufbaus abhängt.
+**Repeater leiten Daten zwischen Knoten weiter.** Raumserver können Gruppengespräche hosten und Nachrichten für später zurückkehrende Clients speichern.
+
+**Die Funkzeit hängt vom Verkehr ab.** Gruppennachrichten können bei beiden Protokollen mehrere Relais erreichen. Ein gelernter Pfad kann Direktnachrichten mit weniger Sendungen zustellen. Relaisstandorte, Funkeinstellungen und Nachrichtenrate bleiben wichtig.
 
 Ohne Repeater kommunizieren Clients direkt, wenn sie in Reichweite sind. *Die Architektur funktioniert mit Infrastruktur am besten. Infrastruktur ist keine zwingende Voraussetzung.*
 
@@ -115,7 +119,7 @@ Diese Faktoren bestimmen die Netzleistung:
 - **Repeater-Standort.** Ein gut platzierter Repeater verteilt die Last. Ein schlecht platzierter erhöht die Überlastung.
 - **Gelände.** Knoten, die sich nicht hören, erzeugen Verkehr ohne gegenseitige Konkurrenz. Knoten in Reichweite vieler anderer erzeugen Konkurrenz.
 
-*Meshtastic spart Planung und akzeptiert etwas Sendezeitaufwand für die Selbstorganisation. MeshCore erfordert Planung und belohnt sie mit besser vorhersagbarer Sendezeiteffizienz. Der Wechsel zu MeshCore ohne bessere Netzplanung verbessert die Leistung nicht zuverlässig.*
+**Feste Repeater** machen die Abdeckung planbar, verhindern aber kein Fluten. Teste vor der Wahl beide Protokolle mit der erwarteten Nachrichtenrate, den Funkeinstellungen und der geplanten Relaisanordnung.
 
 ______
 
@@ -143,7 +147,7 @@ Meshtastic 2.6 verbesserte das Routing für Direktnachrichten. Gruppenverkehr nu
 
 ### MeshCore
 
-Durch das hybride Routing kann **ein passiver Beobachter nicht die gesamte Netzwerktopologie durch Mithören rekonstruieren**. Der Verkehr wird an bestimmte Infrastruktur geleitet, statt an alle verteilt zu werden. **Direktnachrichten verwenden eine Verschlüsselung pro Kontakt**, keinen gemeinsamen Kanalschlüssel. Andere Knoten derselben Infrastruktur können dein Direktgespräch auch dann nicht entschlüsseln, wenn sie denselben Repeater verwenden.
+**Routing verbirgt keine Funkaktivität.** Gehe nicht davon aus, dass ein gelernter Pfad verschleiert, welche Repeater senden. **Direktnachrichten verwenden eine Verschlüsselung pro Kontakt**, keinen gemeinsamen Kanalschlüssel. Andere Knoten derselben Infrastruktur können dein Direktgespräch auch dann nicht entschlüsseln, wenn sie denselben Repeater verwenden.
 
 Infrastrukturknoten leiten verschlüsselten Verkehr weiter. Bei Direktnachrichten mit Kontaktverschlüsselung leitet der Repeater Chiffretext weiter, ohne ihn zu entschlüsseln. Bei Raumgesprächen sehen Raumserver die Inhalte der Räume, die sie hosten. *Entscheidend ist, ob du den Raumserver kontrollierst.*
 
@@ -153,9 +157,9 @@ ______
 
 ## Stromverbrauch
 
-Mit Standardeinstellungen erzeugt MeshCore weniger zusätzliche Funkübertragungen als Meshtastic. **Weniger Sendevorgänge verbessern die Akkulaufzeit der Client-Knoten.** Meshtastics Telemetrie, GPS-Broadcasts und Flooding verbrauchen Sendezeit. Du kannst den Aufwand deutlich senken, indem du Telemetrieintervalle anpasst und GPS-Broadcasts auf Knoten ohne GPS deaktivierst. Bei vergleichbaren Standardeinstellungen **sendet MeshCore weniger**.
+**Weniger Sendevorgänge verbessern die Akkulaufzeit der Client-Knoten.** Meshtastics Telemetrie, GPS-Broadcasts und Flooding verbrauchen Sendezeit. Du kannst den Aufwand deutlich senken, indem du Telemetrieintervalle anpasst und GPS-Broadcasts auf Knoten ohne GPS deaktivierst.
 
-Ein gut abgestimmtes Meshtastic-Netz mit minimaler Telemetrie erreicht eine ähnliche Akkulaufzeit. Die Standardeinstellungen begünstigen MeshCore.
+**Vergleiche die Akkulaufzeit bei gleicher Last.** Telemetrie, Sendezeit und Knotenrolle sind ebenso wichtig wie das Protokoll.
 
 ______
 
@@ -165,7 +169,7 @@ ______
 
 **MeshCore hängt stärker vom Repeater-Standort ab.** Ein gut geplantes MeshCore-Netz mit guter Repeater-Abdeckung bietet vorhersagbare Leistung. Fällt der einzige Repeater in einem Gebiet aus, verlieren davon abhängige Knoten die Verbindung. *MeshCore belohnt frühe Planung. Meshtastic verzeiht Knotenausfälle besser.*
 
-Meshtastic akzeptiert zusätzlichen Sendezeitaufwand für Resilienz. MeshCore akzeptiert Abhängigkeit von Infrastruktur für Effizienz.
+**Gelernte Pfade und Fluten lösen unterschiedliche Probleme.** Ein Ersatzpfad hilft nur, wenn ein anderes geeignetes Relais das Paket hören und weiterleiten kann.
 
 ______
 
@@ -212,7 +216,7 @@ ______
 
 **Geplante Infrastruktur.** Du hast einen Repeater auf dem Dach oder einen zuverlässig versorgten Raumserver. MeshCores hybrides Routing nutzt feste Infrastruktur.
 
-**Große Netze mit eigener Infrastruktur.** Die Sendezeiteffizienz und vorhersagbare Leistung im großen Maßstab sind wichtiger als spontane Selbstorganisation.
+**Große Netze mit eigener Infrastruktur.** **Teste Gruppenverkehr vor einem Wechsel.** Feste Repeater verbessern die planbare Abdeckung, geben Gruppenkanälen aber keine gerichteten Pfade.
 
 **Nachrichtenpersistenz bei unterbrochener Verbindung.** Raumserver speichern Nachrichten und liefern sie aus, wenn Clients erneut verbunden sind. **Das ist einer der greifbarsten praktischen Vorteile von MeshCore gegenüber Meshtastic.**
 
@@ -265,7 +269,7 @@ ______
 
 | Faktor | Meshtastic | MeshCore |
 |---|---|---|
-| Netzwerkmodell | Kontrolliertes Flooding plus Next-Hop-Routing für Direktnachrichten | Hybride Routenerkennung plus gerichtete Weiterleitung |
+| Netzwerkmodell | Gesteuertes Fluten für Kanäle, gelernter nächster Knoten für Direktnachrichten | Fluten für Kanäle, gelernter Repeater-Pfad für Direktnachrichten |
 | Einrichtungsaufwand | Einfach | Mittel bis hoch |
 | Skalierungsziel | Flexibel, Leistung sinkt bei Sendezeitkonkurrenz | Für größere geplante Netze entwickelt |
 | Qualität der Mobil-App | Sehr gut | Funktional |
@@ -284,10 +288,10 @@ ______
 
 **Beginne mit Meshtastic.** Innerhalb eines Nachmittags bist du auf Sendung. Du findest Leute zum Testen. Die App funktioniert und die Dokumentation ist ausgezeichnet. Meshtastic 2.6 schließt mit Next-Hop-Routing für Direktnachrichten die Effizienzlücke bei Punkt-zu-Punkt-Verkehr.
 
-**Wechsle zu MeshCore, wenn Meshtastics Standardeinstellungen nicht zu deinem Einsatz passen.** Mit eigenen Repeatern, Bedarf an Nachrichtenspeicherung für zeitweise verbundene Nutzer oder einem großen geplanten Netz, bei dem Sendezeiteffizienz wichtiger als Selbstorganisation ist, passt MeshCores Architektur. Dann lohnt sich der Einrichtungsaufwand.
+**Ziehe MeshCore in Betracht**, wenn du dedizierte Repeater oder optionale Raumserver brauchst, die Beiträge für später wieder verbundene Teilnehmer speichern.
 
 Stimme vor einem Wechsel **dein Meshtastic-Netz ab**. Reduziere Telemetrieintervalle. Deaktiviere GPS-Broadcasts auf Knoten ohne GPS. Passe das Sendezeit-Preset an die Knotendichte an. *Viele Leistungsprobleme sind Konfigurationsprobleme, keine Protokollprobleme.*
 
-Die Protokolle bedienen unterschiedliche Punkte zwischen Planung und Spontaneität. Meshtastic spart Planung und nimmt den Sendezeitaufwand der Selbstorganisation in Kauf. MeshCore braucht Planung und belohnt sie mit besser vorhersagbarer Leistung. **Keines wird das andere ersetzen, weil die Einsatzfälle verschieden sind.**
+**Beide Meshes profitieren von gut platzierten Relais.** Welche Knoten senden, hängt von ihren Rollen und vom Verkehr ab.
 
 *Möchtest du LoRa mit Packet Radio, WLAN oder dem Internet verbinden, statt bei einem einzelnen LoRa-Mesh zu bleiben?* Lies den **[Vergleich Meshtastic, MeshCore und Reticulum](/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/)**. Er zeigt, wo transportunabhängige Netzwerke passen und wo sie unnötige Komplexität hinzufügen.

@@ -1,11 +1,11 @@
 ---
 title: "Meshtastic vs. MeshCore vs. Reticulum"
 date: 2026-09-01
-lastmod: 2026-11-12
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Vergleiche Meshtastic, MeshCore und Reticulum nach Routing, Sendezeit, Infrastruktur, Transport und Einsatz ohne Internetverbindung."
-genre: ["LoRa", "Mesh-Netzwerke", "Kommunikation ohne Infrastruktur", "Notfallkommunikation", "Amateurfunk", "Open Source", "Katastrophenvorsorge", "Drahtlosnetzwerke", "Datenschutz", "Netzwerke"]
+genre: ["LoRa", "Mesh-Netzwerke", "Kommunikation ohne Infrastruktur", "Notfallkommunikation", "Amateurfunk", "Quelloffene Software", "Katastrophenvorsorge", "Drahtlosnetzwerke", "Datenschutz", "Netzwerke"]
 tags: ["meshtastic vs meshcore vs reticulum", "Reticulum-Netzwerk", "meshtastic", "meshcore", "reticulum", "lxmf", "LoRa-Mesh-Netz", "Kommunikation ohne Infrastruktur", "rnode", "Paketfunk", "transportunabhängige Vernetzung", "Mesh-Netzwerke", "Notfallkommunikation", "gemeinschaftliches Mesh-Netzwerk", "LoRa-Sendezeit", "kontrolliertes Flooding", "Hop-Limit", "Repeater-Knoten", "Room-Server", "Sideband-App", "nomadnet", "meshchat", "Katastrophenkommunikation", "Funk ohne Infrastruktur", "Mesh-Netzwerkprotokoll", "regionales Mesh-Netz", "HF-Technik"]
 cover: "/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp"
 coverAlt: "Illustration zum Vergleich dreier Mesh-Netzwerksysteme mit Knoten, Antennen und Verbindungslinien vor dunklem Hintergrund und in leuchtenden Farben."
@@ -59,20 +59,22 @@ Einen vollständigen Vergleich von Meshtastics Routing, Hardwarekompatibilität 
 
 ### Kontrolliertes Flooding und die Bedeutung der Hops
 
-Meshtastic sendet über **kontrolliertes Flooding**. Wenn ein Knoten eine Nachricht sendet, übertragen alle Knoten, die sie empfangen, das Paket erneut, bis das konfigurierte Hop-Limit erreicht ist. Kein Knoten muss die Netzwerktopologie kennen. Neue Knoten treten ohne Konfiguration bei. Ausgefallene Knoten werden automatisch umgangen, weil das Flooding eine andere Route nimmt.
+Beim **[gesteuerten Fluten](https://meshtastic.org/docs/overview/mesh-algo/#broadcasts-using-managed-flooding)** in Meshtastic bricht ein normaler Client eine geplante Weitersendung ab, wenn er dasselbe Paket zuvor von einem anderen Knoten hört. `ROUTER` und `ROUTER_LATE` können es trotzdem weiterleiten. Bei `CLIENT_BASE` gilt diese Ausnahme für Verkehr zu oder von Favoriten.
 
-Das Standard-Hop-Limit beträgt **3**. Das Maximum beträgt **7**. Vermeide die Aussage „Meshtastic schafft nur sieben Hops“. *Die eigentliche Frage ist, was dich eine höhere Zahl kostet.*
+Der Hop-Zähler von Meshtastic startet standardmäßig bei **3** und erlaubt maximal **7**. Ab Firmware 2.7.11 können geeignete Infrastrukturknoten [den Zähler unverändert lassen](https://meshtastic.org/blog/zero-cost-hops-favorite-routers/), wenn es nicht der erste Hop ist und zuvor ein favorisiertes Gerät vom Typ `ROUTER` oder `ROUTER_LATE` weitergeleitet hat. Jede tatsächliche Sendung belegt Funkzeit.
 
-Jeder zusätzliche Hop lässt alle Knoten in Reichweite die Nachricht erneut senden. Mehr Weiterleitungen verursachen:
+Ein höheres Hop-Limit kann weitere Relais erreichen, zwingt aber nicht jeden Empfänger zum Senden. **Mehr Weiterleitungen** können Folgendes bedeuten:
 
 - **Mehr Sendezeit** pro Nachricht
-- **Mehr doppelte Übertragungen**, weil alle Knoten in Reichweite jede Weiterleitung wiederholen
+- **Mehr Kopien in der Luft**, wenn mehrere geeignete Relais dasselbe Paket weiterleiten
 - **Mehr Konkurrenz** um den gemeinsam genutzten Kanal
 - **Höheres Kollisionsrisiko**, wenn mehr Funkgeräte im selben Zeitfenster senden
 - **Höheren Batterieverbrauch** an jedem empfangenden und weiterleitenden Knoten
 - **Weniger verfügbare Kanalkapazität** für tatsächliche Nachrichten
 
-Die LoRa-Kapazität wird durch Sendezeit und regionale Duty-Cycle-Grenzen bestimmt, nicht durch die Anzahl der Knoten. Ein Netzwerk mit zehn aktiven Knoten, die häufig GPS- und Telemetriedaten senden, kann einen Kanal auslasten, den fünfzig unauffällige Sensoren kaum beanspruchen würden. Deshalb baut ein dichtes Mesh mit hohem Hop-Limit schneller ab als dieselbe Anzahl Knoten mit niedrigerem Hop-Limit und kontrollierten Telemetrieintervallen. **Meshtastic 2.6 hat dies für Direktnachrichten verbessert** und wechselt nach der Routenerkennung auf Next-Hop-Routing. Punkt-zu-Punkt-Verkehr flutet daher nicht mehr den gesamten Hop-Radius. Broadcasts fluten weiterhin.
+Die LoRa-Kapazität wird durch Sendezeit und regionale Duty-Cycle-Grenzen bestimmt, nicht durch die Anzahl der Knoten. Ein Netzwerk mit zehn aktiven Knoten, die häufig GPS- und Telemetriedaten senden, kann einen Kanal auslasten, den fünfzig unauffällige Sensoren kaum beanspruchen würden. Deshalb baut ein dichtes Mesh mit hohem Hop-Limit schneller ab als dieselbe Anzahl Knoten mit niedrigerem Hop-Limit und kontrollierten Telemetrieintervallen.
+
+Seit Meshtastic 2.6 nutzen **Direktnachrichten** zunächst Fluten zur Pfadsuche und versuchen danach die Weiterleitung über den gelernten nächsten Knoten. Wenn das scheitert, können sie erneut fluten.
 
 Bei einem kleinen oder mittelgroßen Mesh, etwa für einen Wanderverein, spielt dies selten eine Rolle. Bei einem **regionalen Netzwerk, das eine Stadt oder mehrere Orte abdecken soll**, wird es zur zentralen Designgrenze.
 
@@ -80,7 +82,7 @@ ______
 
 ## MeshCore
 
-**MeshCore setzt auf eine andere Architektur:** Statt jedes Gerät als gleichberechtigten Teilnehmer an der Nachrichtenweiterleitung zu behandeln, baut es eine gezielte Infrastrukturschicht auf und routet den Verkehr zu ihr.
+**Dedizierte Repeater** bilden die feste Weiterleitungsebene von MeshCore. Client-Funkgeräte sind Endpunkte.
 
 ### Knotenrollen
 
@@ -90,7 +92,7 @@ MeshCore-Installationen basieren auf klar getrennten Rollen und nicht auf einer 
 - **Repeater** leiten gezielt den Verkehr zwischen Clients und anderen Infrastrukturkomponenten weiter. Sie übernehmen den Großteil der eigentlichen Routing-Arbeit
 - **Room-Server** (optional) hosten Gruppengespräche und liefern gespeicherte Nachrichten an Clients aus, wenn diese sich wieder verbinden
 
-Zuerst wird die Route ermittelt. Danach läuft der Verkehr über den gefundenen Pfad zum Ziel, statt sich an alle Knoten in Reichweite auszubreiten. Die Kanalbelegung wächst mit der Zahl aktiver Gespräche und nicht mit der Gesamtzahl der Knoten. Die Wachstumskurve unterscheidet sich deutlich von Meshtastics Flooding-Modell.
+Bei MeshCore kann eine erste **Direktnachricht** zur Pfadsuche geflutet werden. Spätere Direktnachrichten können diesen Pfad nutzen und je nach Einstellung wieder auf Fluten zurückfallen. **[Öffentliche und private Gruppenkanäle werden weiterhin geflutet](https://docs.meshcore.io/faq/#5-general)**, und zwar über dafür zugelassene Repeater. Endgeräte leiten keine Pakete anderer Knoten weiter.
 
 ### Warum sich dies für feste Infrastruktur eignet
 
@@ -106,7 +108,7 @@ Ein Netzwerk mit bekannten, erhöhten Repeatern ermöglicht eine gezielte Planun
 - **Regionale Netzwerke**, die mehr als ein einzelnes Viertel abdecken
 - **Notfallkommunikation**, bei der berechenbare Abdeckung wichtiger ist als Flexibilität
 
-Beziehe dies auf die Grundlagen der HF-Technik: **Zuverlässige Verbindungen zwischen gut platzierten Infrastrukturelementen sind wichtiger als maximale Antennenverstärkung, Sendeleistung oder theoretische Reichweite.** Ein Protokoll mit dedizierten Repeatern belohnt den HF-Planungsaufwand, der für deren gute Platzierung nötig ist. Ein Flooding-Protokoll profitiert weniger davon, weil jeder Knoten unabhängig vom Standort ungefähr dieselbe Aufgabe hat.
+Beziehe dies auf die Grundlagen der HF-Technik: **Zuverlässige Verbindungen zwischen gut platzierten Infrastrukturelementen sind wichtiger als maximale Antennenverstärkung, Sendeleistung oder theoretische Reichweite.** **Beide Meshes profitieren von gut platzierten Relais.** Welche Knoten senden, hängt von ihren Rollen und vom Verkehr ab.
 
 ______
 
@@ -205,7 +207,7 @@ Stell dir einen hypothetischen Einsatz über mehrere Städte vor:
 
 **Stadt A, Repeater, Repeater, ländliches Relais, Repeater, Stadt B, Repeater, Stadt C**
 
-Überlege, wie jede Architektur mit dieser Kette umgeht, wenn sie wächst. Ein Flooding-Mesh mit einem Hop-Limit von 7 hat Schwierigkeiten, eine solche Kette zuverlässig abzudecken. Jeder Hop erhöht die Sendezeit, und jeder zusätzliche aktive Knoten entlang der Strecke verstärkt die Konkurrenz um den Kanal. Eine strukturierte Repeater-Architektur wie MeshCore ist für genau dieses Muster gebaut: bekannte Relaispunkte, gezielte Platzierung und Routing, das mit aktiven Gesprächen statt mit der Gesamtzahl der Knoten skaliert.
+**Teste in dieser Kette Gruppen- und Direktnachrichten getrennt.** MeshCore kann gelernte Pfade für Direktnachrichten wiederverwenden, flutet aber Gruppennachrichten. Meshtastic kann auf geeigneten Infrastrukturverbindungen den Hop-Zähler unverändert lassen. Jede echte Weitersendung kostet Funkzeit. Keines der Protokolle garantiert die Zustellung über die ganze Strecke.
 
 In diesem Szenario bestimmen **Hop-Limits, Sendezeitbudget, Routing-Verhalten und Infrastrukturplanung**, ob die Verbindung von Ende zu Ende funktioniert. Bei geografischer Ausdehnung sind die Architekturunterschiede zwischen Meshtastic und MeshCore nicht länger akademisch.
 
@@ -241,11 +243,11 @@ ______
 
 **Meshtastic ist sinnvoll**, wenn dir ein ausgereiftes Ökosystem, einfacher Einstieg, mobile Nutzer und Kompatibilität mit einer bestehenden Meshtastic-Community wichtig sind. Für die meisten, die bei null beginnen, ist es die richtige Standardwahl.
 
-**MeshCore überzeugt**, wenn du gezielt eine dauerhafte LoRa-Infrastruktur aufbaust und dedizierte Repeater zu einem größeren, strukturierten Netzwerk verbinden willst. Es belohnt Planung und gute Repeater-Standorte stärker als ein Flooding-Design.
+**Feste Repeater** machen die Abdeckung planbar, verhindern aber kein Fluten. Teste vor der Wahl beide Protokolle mit der erwarteten Nachrichtenrate, den Funkeinstellungen und der geplanten Relaisanordnung.
 
 **Reticulum ist sinnvoll**, wenn die Aufgabe über ein einzelnes LoRa-Mesh hinausgeht und verschiedene Transportwege oder getrennte Netze zu einem adressierbaren System verbunden werden müssen.
 
-Für ein **lizenzfreies, stromsparendes, weitreichendes Community-Infrastrukturnetz, das hauptsächlich auf festen Repeatern beruht**, ist MeshCore die bessere Wahl. *Gibt es in deiner Region bereits ein gesundes Meshtastic-Netz, muss der Nutzen groß genug sein, um die Fragmentierung der bestehenden Community zu rechtfertigen.* Reticulum kommt ins Spiel, wenn ein Mesh-Protokoll oder physischer Transportweg die Anforderungen nicht mehr erfüllt, nicht nur weil Reticulum mehr Funktionen bietet.
+Für ein **lizenzfreies, stromsparendes, weitreichendes Community-Infrastrukturnetz, das hauptsächlich auf festen Repeatern beruht**, ist MeshCore die bessere Wahl. **Teste Gruppenverkehr vor einem Wechsel.** Feste Repeater verbessern die planbare Abdeckung, geben Gruppenkanälen aber keine gerichteten Pfade. *Gibt es in deiner Region bereits ein gesundes Meshtastic-Netz, muss der Nutzen groß genug sein, um die Fragmentierung der bestehenden Community zu rechtfertigen.* Reticulum kommt ins Spiel, wenn ein Mesh-Protokoll oder physischer Transportweg die Anforderungen nicht mehr erfüllt, nicht nur weil Reticulum mehr Funktionen bietet.
 
 ______
 

@@ -1,7 +1,7 @@
 ---
 title: "Meshtastic vs. MeshCore vs. Reticulum"
 date: 2026-09-01
-lastmod: 2026-11-12
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Compare Meshtastic, MeshCore e Reticulum por roteamento, tempo de transmissão, infraestrutura, transporte e casos de uso offline."
@@ -59,20 +59,22 @@ Para ver uma análise completa do roteamento, da compatibilidade de hardware e d
 
 ### Flooding gerenciado e por que os saltos importam
 
-O Meshtastic transmite por **flooding gerenciado**. Quando um nó envia uma mensagem, todos os nós que a recebem retransmitem o pacote até atingir o limite de saltos configurado. Nenhum nó precisa conhecer a topologia da rede. Novos nós entram sem configuração e nós inativos são contornados automaticamente, porque o flooding encontra outra rota.
+Na **[inundação gerenciada](https://meshtastic.org/docs/overview/mesh-algo/#broadcasts-using-managed-flooding)** do Meshtastic, um cliente comum cancela uma retransmissão pendente se ouvir primeiro o mesmo pacote retransmitido. `ROUTER` e `ROUTER_LATE` ainda podem retransmitir. Para `CLIENT_BASE`, a exceção vale para tráfego de ou para um nó favorito.
 
-O limite padrão é **3 saltos**. O máximo é **7**. Evite dizer "o Meshtastic só chega a sete saltos". *A pergunta real é quanto custa aumentar esse número.*
+O contador de saltos do Meshtastic começa em **3** por padrão e admite no máximo **7**. A partir do firmware 2.7.11, a infraestrutura elegível pode [preservar o contador](https://meshtastic.org/blog/zero-cost-hops-favorite-routers/) depois do primeiro salto se o retransmissor anterior for um `ROUTER` ou `ROUTER_LATE` favorito. Cada retransmissão real ainda ocupa o canal.
 
-Cada salto adicional faz todos os nós dentro do alcance retransmitirem a mensagem. Mais encaminhamentos produzem:
+Um limite maior pode alcançar mais repetidores, mas não obriga todos os receptores a transmitir. **Mais encaminhamentos** podem gerar:
 
 - **Mais tempo de transmissão** por mensagem
-- **Mais transmissões duplicadas**, pois cada nó ao alcance repete cada retransmissão
+- **Mais cópias no ar** quando vários repetidores elegíveis encaminham o mesmo pacote
 - **Mais contenção** pelo canal compartilhado
 - **Maior risco de colisão** quando mais rádios transmitem na mesma janela
 - **Maior consumo de bateria** em cada nó que recebe e retransmite
 - **Menos capacidade disponível no canal** para o tráfego real de mensagens
 
-A capacidade do LoRa é limitada pelo tempo de transmissão e pelos limites regionais de ciclo de trabalho, não pela quantidade de nós. Uma rede com dez nós ativos que transmitem GPS e telemetria com frequência pode saturar um canal que cinquenta sensores silenciosos quase não usariam. Por isso, uma rede mesh densa com limite alto de saltos se degrada mais rápido que outra com a mesma quantidade de nós, limite menor e intervalos de telemetria controlados. **O Meshtastic 2.6 melhorou esse ponto para mensagens diretas** ao mudar para o roteamento pelo próximo salto depois da descoberta da rota. Assim, o tráfego ponto a ponto não inunda mais todo o raio de saltos. Os broadcasts continuam inundando.
+A capacidade do LoRa é limitada pelo tempo de transmissão e pelos limites regionais de ciclo de trabalho, não pela quantidade de nós. Uma rede com dez nós ativos que transmitem GPS e telemetria com frequência pode saturar um canal que cinquenta sensores silenciosos quase não usariam. Por isso, uma rede mesh densa com limite alto de saltos se degrada mais rápido que outra com a mesma quantidade de nós, limite menor e intervalos de telemetria controlados.
+
+Desde o Meshtastic 2.6, as **mensagens diretas** usam inundação para descobrir a rota e depois tentam usar o próximo salto aprendido. Se ele falhar, podem voltar à inundação.
 
 Em uma rede pequena ou média, como a de um clube de caminhada, isso raramente importa. Em uma **rede regional projetada para cobrir uma cidade ou várias localidades**, torna-se a principal restrição de projeto.
 
@@ -80,7 +82,7 @@ ______
 
 ## MeshCore
 
-**O MeshCore adota outra proposta de arquitetura:** em vez de tratar cada dispositivo como participante igual na propagação de mensagens, ele cria uma camada de infraestrutura planejada e direciona o tráfego para ela.
+Os **repetidores dedicados** formam a camada fixa de encaminhamento do MeshCore. Os rádios clientes são terminais.
 
 ### Funções dos nós
 
@@ -90,7 +92,7 @@ As implantações do MeshCore se organizam em torno de funções distintas, não
 - **Repetidores** existem especificamente para encaminhar tráfego entre clientes e outros componentes da infraestrutura. Eles fazem a maior parte do trabalho de roteamento
 - **Servidores de sala** (opcionais) hospedam conversas em grupo e entregam mensagens armazenadas aos clientes quando eles se reconectam
 
-Primeiro ocorre a descoberta da rota. Depois, o tráfego percorre o caminho encontrado até o destino, em vez de se espalhar para todos os nós ao alcance. A ocupação do canal cresce com as conversas ativas, não com a quantidade total de nós. A curva de crescimento é bem diferente da do modelo de flooding do Meshtastic.
+No MeshCore, uma primeira **mensagem direta** pode inundar a rede para descobrir um caminho. As seguintes podem seguir esse caminho e voltar à inundação conforme a configuração. **[Canais de grupo públicos e privados ainda usam inundação](https://docs.meshcore.io/faq/#5-general)** por meio de repetidores elegíveis. Os rádios clientes não encaminham pacotes de outros nós.
 
 ### Por que isso funciona com infraestrutura fixa
 
@@ -106,7 +108,7 @@ Uma rede baseada em repetidores conhecidos e instalados em locais altos permite 
 - **Redes regionais** que abrangem mais de um bairro
 - **Comunicação de emergência**, quando a cobertura previsível importa mais que a flexibilidade
 
-Relacione isso aos fundamentos de RF: **links confiáveis entre infraestruturas bem posicionadas importam mais do que maximizar o ganho da antena, a potência de transmissão ou o alcance teórico.** Um protocolo baseado em repetidores dedicados recompensa o trabalho de engenharia de RF necessário para posicioná-los bem. Um protocolo baseado em flooding recompensa menos esse trabalho, pois cada nó faz quase a mesma coisa, independentemente da localização.
+Relacione isso aos fundamentos de RF: **links confiáveis entre infraestruturas bem posicionadas importam mais do que maximizar o ganho da antena, a potência de transmissão ou o alcance teórico.** **As duas redes se beneficiam de repetidores bem posicionados.** Os nós que retransmitem dependem da função e do tráfego.
 
 ______
 
@@ -205,7 +207,7 @@ Considere uma implantação hipotética em várias cidades:
 
 **Cidade A, repetidor, repetidor, relay rural, repetidor, Cidade B, repetidor, Cidade C**
 
-Pergunte como cada arquitetura lida com essa cadeia à medida que cresce. Uma rede mesh baseada em flooding com limite de 7 saltos tem dificuldade para cobrir esse tipo de percurso com confiabilidade, porque cada salto aumenta o custo de tempo de transmissão e cada nó ativo adicional no caminho aumenta a contenção. Uma arquitetura estruturada de repetidores como a do MeshCore foi criada para esse formato: pontos de retransmissão conhecidos, posicionamento planejado e roteamento que escala com conversas ativas, não com o número total de nós.
+Nessa cadeia, **teste separadamente as mensagens de grupo e as diretas**. O MeshCore pode reutilizar um caminho para as diretas, mas continua usando inundação para as de grupo. O Meshtastic pode preservar o contador em enlaces de infraestrutura elegíveis. Cada retransmissão ocupa o canal. Nenhum dos protocolos garante a entrega de ponta a ponta.
 
 Nesse cenário, **limites de saltos, orçamento de airtime, comportamento do roteamento e projeto da infraestrutura deixam de ser teóricos** e passam a determinar se a rede funciona de ponta a ponta. Em escala geográfica, as diferenças arquiteturais entre Meshtastic e MeshCore deixam de ser acadêmicas.
 
@@ -241,11 +243,11 @@ ______
 
 **Meshtastic faz sentido** quando você valoriza um ecossistema maduro, facilidade de adoção, usuários portáteis e em movimento e compatibilidade com uma comunidade Meshtastic existente. É o padrão certo para a maioria das pessoas que começa do zero.
 
-**MeshCore se destaca** quando você está construindo intencionalmente uma infraestrutura LoRa persistente e quer que repetidores dedicados formem uma rede maior e estruturada. Ele recompensa o planejamento e o bom posicionamento dos repetidores mais diretamente que um projeto baseado em flooding.
+**Repetidores fixos** ajudam a planejar a cobertura, mas não eliminam a inundação. Antes de escolher, teste os dois protocolos com a taxa esperada de mensagens de grupo, as configurações de rádio e a disposição dos repetidores.
 
 **Reticulum faz sentido** quando o problema vai além de uma única rede mesh LoRa e você precisa conectar transportes diferentes ou redes separadas em um sistema endereçável.
 
-Para uma **rede comunitária de infraestrutura sem licença, baixo consumo e longo alcance, baseada principalmente em repetidores fixos**, prefira MeshCore. *Se já existe uma rede Meshtastic saudável na sua região, substituí-la exige benefícios suficientes para justificar a fragmentação da comunidade existente.* O Reticulum entra em cena quando um protocolo mesh ou transporte físico não atende mais aos requisitos, não simplesmente porque faz mais coisas.
+Para uma **rede comunitária de infraestrutura sem licença, baixo consumo e longo alcance, baseada principalmente em repetidores fixos**, prefira MeshCore. **Teste o tráfego de grupo antes de mudar.** Uma rede de repetidores fixos ajuda na cobertura, mas não dá rotas direcionadas aos canais de grupo. *Se já existe uma rede Meshtastic saudável na sua região, substituí-la exige benefícios suficientes para justificar a fragmentação da comunidade existente.* O Reticulum entra em cena quando um protocolo mesh ou transporte físico não atende mais aos requisitos, não simplesmente porque faz mais coisas.
 
 ______
 

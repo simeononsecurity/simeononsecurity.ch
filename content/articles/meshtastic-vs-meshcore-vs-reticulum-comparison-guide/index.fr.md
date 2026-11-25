@@ -1,11 +1,11 @@
 ---
 title: "Meshtastic vs MeshCore vs Reticulum"
 date: 2026-09-01
-lastmod: 2026-11-12
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Comparez Meshtastic, MeshCore et Reticulum selon le routage, le temps d’émission, l’infrastructure, le transport et les usages hors réseau."
-genre: ["LoRa", "Réseaux maillés", "Communications hors réseau", "Communications d’urgence", "Radioamateur", "Open source", "Préparation aux catastrophes", "Réseaux sans fil", "Vie privée", "Réseaux"]
+genre: ["LoRa", "Réseaux maillés", "Communications hors réseau", "Communications d’urgence", "Radioamateur", "Logiciels libres", "Préparation aux catastrophes", "Réseaux sans fil", "Vie privée", "Réseaux"]
 tags: ["meshtastic vs meshcore vs reticulum", "réseau reticulum", "meshtastic", "meshcore", "reticulum", "lxmf", "réseau maillé LoRa", "communications hors réseau", "rnode", "radio par paquets", "réseau indépendant du transport", "réseaux maillés", "communications d’urgence", "réseau maillé communautaire", "temps d’émission LoRa", "inondation contrôlée", "limite de sauts", "nœud répéteur", "serveur de salon", "application Sideband", "nomadnet", "meshchat", "communications en cas de catastrophe", "radio hors réseau", "protocole de réseau maillé", "réseau maillé régional", "ingénierie RF"]
 cover: "/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp"
 coverAlt: "Illustration comparant trois systèmes de réseau maillé avec des nœuds, des antennes et des lignes de connexion sur fond sombre et coloré, représentant leurs fonctionnalités distinctes."
@@ -55,24 +55,26 @@ ______
 - **Fonctions GPS et télémétrie** avec un écosystème développé autour d’elles
 - **Déploiements existants** dans la plupart des zones métropolitaines, ce qui facilite l’adoption puisqu’on rejoint un réseau au lieu d’en construire un de zéro
 
-Pour une analyse détaillée du routage, de la compatibilité matérielle et de la configuration de Meshtastic par rapport à MeshCore, consultez le **[guide comparatif MeshCore vs Meshtastic](/articles/meshcore-vs-meshtastic-comparison-guide/)**. Cet article se concentre sur la question d’architecture la plus importante pour les grands déploiements : **l’inondation contrôlée et les limites de sauts**.
+Pour une analyse détaillée du routage, de la compatibilité matérielle et de la configuration de Meshtastic par rapport à MeshCore, consultez le **[comparatif de MeshCore et Meshtastic](/articles/meshcore-vs-meshtastic-comparison-guide/)**. Cet article se concentre sur la question d’architecture la plus importante pour les grands déploiements : **l’inondation contrôlée et les limites de sauts**.
 
 ### L’inondation contrôlée et l’importance des sauts
 
-Meshtastic diffuse ses messages par **inondation contrôlée**. Lorsqu’un nœud envoie un message, tous les nœuds qui le reçoivent rediffusent le paquet, jusqu’à la limite de sauts configurée. Aucun nœud n’a besoin de connaître la topologie du réseau. Les nouveaux nœuds rejoignent le réseau sans configuration, et les nœuds hors service sont contournés automatiquement puisque l’inondation emprunte d’autres chemins.
+Dans l’**[inondation contrôlée](https://meshtastic.org/docs/overview/mesh-algo/#broadcasts-using-managed-flooding)** de Meshtastic, un client ordinaire annule une retransmission en attente s’il entend le même paquet relayé avant lui. Les rôles `ROUTER` et `ROUTER_LATE` peuvent tout de même le relayer. Pour `CLIENT_BASE`, cette exception concerne le trafic à destination ou en provenance d’un favori.
 
-La limite de sauts par défaut est **3**. Le maximum est **7**. Évitez de dire « Meshtastic ne dépasse pas sept sauts ». *La vraie question est le coût d’une augmentation de cette valeur.*
+Le compteur de sauts de Meshtastic vaut **3** par défaut et ne dépasse pas **7**. À partir du micrologiciel 2.7.11, les nœuds d’infrastructure admissibles peuvent [préserver ce compteur](https://meshtastic.org/blog/zero-cost-hops-favorite-routers/) après le premier saut si le relais précédent est un `ROUTER` ou `ROUTER_LATE` favori. Chaque retransmission réelle consomme du temps d’antenne.
 
-Chaque saut supplémentaire fait rediffuser le message par tous les nœuds à portée. La multiplication des retransmissions entraîne :
+Une limite plus haute permet d’atteindre plus de relais, sans obliger tous les récepteurs à transmettre. **Davantage de retransmissions** peuvent entraîner :
 
 - **Plus de temps d’émission** consommé par message
-- **Plus de transmissions en double**, car chaque nœud à portée répète les retransmissions
+- **Plus de copies sur les ondes** si plusieurs relais admissibles retransmettent le même paquet
 - **Plus de contention** pour le canal partagé
 - **Plus de risques de collision** quand davantage de radios transmettent dans la même fenêtre
 - **Plus de consommation de batterie** pour chaque nœud qui reçoit et retransmet
 - **Moins de capacité disponible sur le canal** pour les vrais messages
 
-La capacité LoRa dépend du temps d’émission et des limites régionales du cycle d’utilisation, pas du nombre de nœuds. Un réseau de dix nœuds bavards qui diffusent souvent leur position GPS et leur télémétrie peut saturer un canal que cinquante capteurs discrets n’utiliseraient presque jamais. C’est pourquoi un réseau maillé dense avec une limite de sauts élevée se dégrade plus vite que le même nombre de nœuds avec une limite plus basse et des intervalles de télémétrie maîtrisés. **Meshtastic 2.6 a amélioré ce point pour les messages directs** en passant au routage par prochain saut après la découverte de la route. Le trafic point à point n’inonde donc plus toute la zone de sauts. Les diffusions continuent de l’inonder.
+La capacité LoRa dépend du temps d’émission et des limites régionales du cycle d’utilisation, pas du nombre de nœuds. Un réseau de dix nœuds bavards qui diffusent souvent leur position GPS et leur télémétrie peut saturer un canal que cinquante capteurs discrets n’utiliseraient presque jamais. C’est pourquoi un réseau maillé dense avec une limite de sauts élevée se dégrade plus vite que le même nombre de nœuds avec une limite plus basse et des intervalles de télémétrie maîtrisés.
+
+Depuis Meshtastic 2.6, les **messages directs** utilisent l’inondation pour découvrir la route, puis tentent d’utiliser le prochain relais appris. Si ce relais échoue, ils peuvent revenir à l’inondation.
 
 Pour un réseau de petite ou moyenne taille, comme celui d’un club de randonnée, c’est rarement un problème. Pour un **réseau régional conçu pour couvrir une ville ou plusieurs communes**, c’est la principale contrainte de conception.
 
@@ -80,7 +82,7 @@ ______
 
 ## MeshCore
 
-**MeshCore fait un autre pari architectural :** au lieu de traiter chaque appareil comme un participant équivalent à la propagation des messages, il construit une couche d’infrastructure délibérée et dirige le trafic vers elle.
+Les **répéteurs dédiés** forment la couche fixe de relais de MeshCore. Les radios clientes sont des terminaux.
 
 ### Rôles des nœuds
 
@@ -90,7 +92,7 @@ Les déploiements MeshCore reposent sur des rôles distincts, et non sur un ense
 - **Répéteurs** chargés de transférer le trafic entre les clients et les autres éléments d’infrastructure. Ils font l’essentiel du travail de routage
 - **Serveurs de salon** (facultatifs) qui hébergent les conversations de groupe et remettent aux clients les messages stockés lorsqu’ils se reconnectent
 
-La découverte de route a lieu en premier. Le trafic suit ensuite le chemin découvert jusqu’à sa destination, au lieu de se propager à tous les nœuds à portée. L’occupation du canal évolue en fonction des conversations actives, pas du nombre total de nœuds. Sa croissance diffère donc nettement de celle du modèle d’inondation de Meshtastic.
+Dans MeshCore, un premier **message direct** peut être diffusé par inondation pour découvrir un chemin. Les suivants peuvent emprunter ce chemin et revenir à l’inondation selon la configuration. **[Les canaux de groupe publics et privés utilisent toujours l’inondation](https://docs.meshcore.io/faq/#5-general)** via les répéteurs admissibles. Les radios clientes ne relaient pas les paquets des autres nœuds.
 
 ### Pourquoi ce modèle convient à une infrastructure fixe
 
@@ -106,7 +108,7 @@ Un réseau organisé autour de répéteurs connus et placés en hauteur permet d
 - **Les réseaux régionaux** qui couvrent plus d’un quartier
 - **Les communications d’urgence** où la couverture prévisible prime sur la flexibilité
 
-Revenez aux principes fondamentaux de la RF : **des liaisons fiables entre des infrastructures bien placées comptent plus que la maximisation du gain d’antenne, de la puissance d’émission ou de la portée théorique.** Un protocole organisé autour de répéteurs dédiés récompense le travail d’ingénierie RF nécessaire pour bien les placer. Un protocole fondé sur l’inondation en tire moins parti, puisque tous les nœuds remplissent à peu près le même rôle, quel que soit leur emplacement.
+Revenez aux principes fondamentaux de la RF : **des liaisons fiables entre des infrastructures bien placées comptent plus que la maximisation du gain d’antenne, de la puissance d’émission ou de la portée théorique.** **Les deux réseaux profitent de relais bien placés.** Les nœuds qui retransmettent dépendent de leurs rôles et du trafic.
 
 ______
 
@@ -205,7 +207,7 @@ Considérez un déploiement hypothétique dans plusieurs villes :
 
 **Ville A, répéteur, répéteur, relais rural, répéteur, Ville B, répéteur, Ville C**
 
-Demandez-vous comment chaque architecture gère cette chaîne lorsque le réseau grandit. Un réseau maillé par inondation avec une limite de sept sauts a du mal à couvrir une telle distance de façon fiable, car chaque saut augmente le temps d’émission et chaque nœud actif supplémentaire ajoute de la contention. Une architecture structurée autour de répéteurs, comme MeshCore, est conçue pour ce type de déploiement : des relais connus, un placement délibéré et un routage qui évolue avec les conversations actives plutôt qu’avec le nombre total de nœuds.
+Sur cette chaîne, **testez séparément les messages de groupe et les messages directs**. MeshCore peut réutiliser un chemin pour les messages directs, mais les messages de groupe restent diffusés par inondation. Meshtastic peut préserver le compteur sur les liaisons d’infrastructure admissibles. Toute retransmission réelle occupe le canal, et aucun protocole ne garantit la livraison de bout en bout.
 
 C’est dans ce scénario que **les limites de sauts, le budget de temps d’émission, le comportement du routage et la conception de l’infrastructure cessent d’être théoriques** et déterminent le fonctionnement de bout en bout du réseau. À l’échelle géographique, les différences d’architecture entre Meshtastic et MeshCore ne sont plus académiques.
 
@@ -241,11 +243,11 @@ ______
 
 **Meshtastic convient** si vous privilégiez la maturité de l’écosystème, la facilité d’adoption, les utilisateurs portables et itinérants et la compatibilité avec une communauté Meshtastic existante. C’est le choix par défaut pour la plupart des personnes qui partent de zéro.
 
-**MeshCore devient intéressant** si vous construisez délibérément une infrastructure LoRa permanente et voulez que des répéteurs dédiés forment un réseau structuré plus étendu. Il récompense davantage la planification et le bon placement des répéteurs qu’une architecture fondée sur l’inondation.
+Les **répéteurs fixes** permettent de planifier la couverture, pas de supprimer l’inondation. Pour la messagerie de groupe, testez les deux protocoles aux cadences prévues, avec les réglages radio et l’implantation des relais envisagés.
 
 **Reticulum convient** lorsque le besoin dépasse un seul réseau maillé LoRa et qu’il faut connecter plusieurs transports ou réseaux autrement séparés dans un système adressable unique.
 
-Pour une **infrastructure communautaire sans licence, longue portée, basse consommation et principalement basée sur des répéteurs fixes**, privilégiez MeshCore. *Si un réseau Meshtastic sain existe déjà dans votre région, il faut des avantages suffisants pour justifier de fragmenter la communauté existante avant de le remplacer.* Reticulum devient pertinent lorsqu’un seul protocole maillé ou un seul transport physique ne répond plus au besoin, pas simplement parce qu’il sait faire plus de choses.
+Pour une **infrastructure communautaire sans licence, longue portée, basse consommation et principalement basée sur des répéteurs fixes**, privilégiez MeshCore. **Testez le trafic de groupe avant de changer.** Un réseau de répéteurs fixes améliore la couverture, mais ne donne pas de chemin dirigé aux canaux de groupe. *Si un réseau Meshtastic sain existe déjà dans votre région, il faut des avantages suffisants pour justifier de fragmenter la communauté existante avant de le remplacer.* Reticulum devient pertinent lorsqu’un seul protocole maillé ou un seul transport physique ne répond plus au besoin, pas simplement parce qu’il sait faire plus de choses.
 
 ______
 
@@ -257,4 +259,4 @@ ______
 4. [Pile réseau Reticulum](https://reticulum.network/)
 5. [Qu’est-ce que Reticulum ?](https://reticulum.network/manual/whatis.html)
 6. [Configuration des interfaces Reticulum](https://reticulum.network/manual/interfaces.html)
-7. [Guide comparatif MeshCore vs Meshtastic](/articles/meshcore-vs-meshtastic-comparison-guide/)
+7. [Comparatif de MeshCore et Meshtastic](/articles/meshcore-vs-meshtastic-comparison-guide/)

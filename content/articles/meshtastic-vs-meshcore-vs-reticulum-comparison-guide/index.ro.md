@@ -1,11 +1,11 @@
 ---
 title: "Meshtastic vs. MeshCore vs. Reticulum"
 date: 2026-09-01
-lastmod: 2026-11-12
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Compară Meshtastic, MeshCore și Reticulum în funcție de rutare, timp de emisie, infrastructură, transport și utilizare offline."
-genre: ["LoRa", "Rețele mesh", "Comunicații fără infrastructură", "Comunicații de urgență", "Radioamatorism", "Open source", "Pregătire pentru dezastre", "Rețele wireless", "Confidențialitate", "Rețelistică"]
+genre: ["LoRa", "Rețele mesh", "Comunicații fără infrastructură", "Comunicații de urgență", "Radioamatorism", "Software cu sursă deschisă", "Pregătire pentru dezastre", "Rețele wireless", "Confidențialitate", "Rețelistică"]
 tags: ["meshtastic vs meshcore vs reticulum", "rețeaua Reticulum", "meshtastic", "meshcore", "reticulum", "lxmf", "rețea mesh LoRa", "comunicații fără infrastructură", "rnode", "radio cu pachete", "rețelistică independentă de transport", "rețele mesh", "comunicații de urgență", "rețea mesh comunitară", "timp de emisie LoRa", "flooding controlat", "limită de hopuri", "nod repetor", "server de chat", "aplicația Sideband", "nomadnet", "meshchat", "comunicații în caz de dezastru", "radio fără infrastructură", "protocol de rețea mesh", "rețea mesh regională", "inginerie RF"]
 cover: "/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp"
 coverAlt: "Ilustrație care compară trei sisteme de rețea mesh prin noduri, antene și linii de conexiune pe un fundal întunecat și colorat, reprezentând caracteristicile lor distincte."
@@ -59,20 +59,22 @@ Pentru o analiză completă a rutării, compatibilității hardware și configur
 
 ### Flooding controlat și importanța hopurilor
 
-Meshtastic transmite prin **flooding controlat**. Când un nod trimite un mesaj, toate nodurile care îl recepționează retransmit pachetul până la limita de hopuri configurată. Niciun nod nu trebuie să cunoască topologia rețelei. Nodurile noi se alătură fără configurare, iar nodurile inactive sunt ocolite automat, deoarece floodingul găsește altă rută.
+În **[inundarea controlată](https://meshtastic.org/docs/overview/mesh-algo/#broadcasts-using-managed-flooding)** din Meshtastic, un client obișnuit anulează o retransmisie în așteptare dacă aude mai întâi același pachet retransmis. `ROUTER` și `ROUTER_LATE` îl pot retransmite oricum. La `CLIENT_BASE`, excepția se aplică traficului către sau de la un favorit.
 
-Limita implicită este **3 hopuri**. Valoarea maximă este **7**. Evită formularea „Meshtastic ajunge doar la șapte hopuri”. *Întrebarea reală este cât costă să mărești această valoare.*
+Contorul de salturi Meshtastic pornește implicit de la **3** și are maximum **7**. Din versiunea de firmware 2.7.11, infrastructura eligibilă poate [păstra contorul neschimbat](https://meshtastic.org/blog/zero-cost-hops-favorite-routers/) după primul salt dacă releul anterior este un `ROUTER` sau `ROUTER_LATE` favorit. Fiecare retransmisie reală ocupă canalul.
 
-Fiecare hop suplimentar face toate nodurile din raza mesajului să îl retransmită. Mai multe retransmisii produc:
+O limită mai mare poate permite atingerea mai multor relee, dar nu obligă fiecare receptor să transmită. **Mai multe retransmisii** pot însemna:
 
 - **Mai mult timp de emisie** pentru fiecare mesaj
-- **Mai multe transmisii duplicate**, deoarece fiecare nod din rază repetă fiecare retransmisie
+- **Mai multe copii în eter** când mai multe relee eligibile transmit același pachet
 - **Mai multă concurență** pentru canalul partajat
 - **Risc mai mare de coliziuni** când mai multe radiouri transmit în aceeași fereastră
 - **Consum mai mare al bateriei** la fiecare nod care recepționează și retransmite
 - **Mai puțină capacitate disponibilă a canalului** pentru traficul real de mesaje
 
-Capacitatea LoRa este limitată de timpul de emisie și de limitele regionale ale ciclului de lucru, nu de numărul de noduri. O rețea cu zece noduri active care transmit frecvent GPS și telemetrie poate satura un canal pe care cincizeci de senzori tăcuți abia l-ar folosi. De aceea, o rețea mesh densă, cu limită mare de hopuri, se degradează mai repede decât aceeași cantitate de noduri cu limită mai mică și intervale de telemetrie controlate. **Meshtastic 2.6 a îmbunătățit acest aspect pentru mesajele directe** trecând la rutarea prin următorul hop după descoperirea rutei. Traficul punct-la-punct nu mai inundă întreaga rază de hopuri. Broadcasturile continuă să facă flooding.
+Capacitatea LoRa este limitată de timpul de emisie și de limitele regionale ale ciclului de lucru, nu de numărul de noduri. O rețea cu zece noduri active care transmit frecvent GPS și telemetrie poate satura un canal pe care cincizeci de senzori tăcuți abia l-ar folosi. De aceea, o rețea mesh densă, cu limită mare de hopuri, se degradează mai repede decât aceeași cantitate de noduri cu limită mai mică și intervale de telemetrie controlate.
+
+Din Meshtastic 2.6, **mesajele directe** descoperă ruta prin inundare și apoi încearcă următorul salt învățat. Dacă acesta nu funcționează, pot reveni la inundare.
 
 Pentru o rețea mică sau medie, precum cea a unui club de drumeții, rareori contează. Pentru o **rețea regională destinată acoperirii unui oraș sau a mai multor localități**, devine principala constrângere de proiectare.
 
@@ -80,7 +82,7 @@ ______
 
 ## MeshCore
 
-**MeshCore adoptă o altă abordare arhitecturală:** în loc să trateze fiecare dispozitiv ca participant egal la propagarea mesajelor, construiește un nivel de infrastructură planificat și direcționează traficul către acesta.
+**Repetoarele dedicate** formează stratul fix de retransmisie al MeshCore. Radiourile client sunt terminale.
 
 ### Rolurile nodurilor
 
@@ -90,7 +92,7 @@ Implementările MeshCore sunt construite în jurul unor roluri distincte, nu al 
 - **Repeatere** care redirecționează traficul între clienți și alte elemente de infrastructură și fac cea mai mare parte din munca de rutare
 - **Servere de chat** (opționale) care găzduiesc conversații de grup și livrează mesaje stocate clienților când aceștia se reconectează
 
-Mai întâi are loc descoperirea rutei. Apoi traficul urmează calea descoperită până la destinație, în loc să se răspândească la toate nodurile din rază. Ocuparea canalului crește odată cu conversațiile active, nu cu numărul total de noduri. Curba de creștere diferă semnificativ de modelul de flooding Meshtastic.
+În MeshCore, primul **mesaj direct** poate folosi inundarea pentru a descoperi o rută. Următoarele pot urma acea rută și pot reveni la inundare în funcție de setări. **[Canalele de grup publice și private folosesc în continuare inundarea](https://docs.meshcore.io/faq/#5-general)** prin repetoarele eligibile. Radiourile client nu retransmit pachetele altor noduri.
 
 ### De ce se potrivește infrastructurii fixe
 
@@ -106,7 +108,7 @@ O rețea construită în jurul unor repetoare cunoscute, amplasate la înălțim
 - **Rețele regionale** care acoperă mai mult de un cartier
 - **Comunicații de urgență** unde acoperirea previzibilă contează mai mult decât flexibilitatea
 
-Leagă asta de principiile RF: **legăturile fiabile dintre elemente de infrastructură amplasate corect contează mai mult decât maximizarea câștigului antenei, puterii de transmisie sau razei teoretice.** Un protocol construit în jurul repetoarelor dedicate te răsplătește pentru munca de inginerie RF necesară amplasării lor corecte. Un protocol bazat pe flooding valorifică mai puțin această muncă, deoarece fiecare nod face aproximativ același lucru, indiferent de amplasare.
+Leagă asta de principiile RF: **legăturile fiabile dintre elemente de infrastructură amplasate corect contează mai mult decât maximizarea câștigului antenei, puterii de transmisie sau razei teoretice.** **Ambele rețele beneficiază de relee bine amplasate.** Rolurile nodurilor și tipul traficului determină ce noduri retransmit.
 
 ______
 
@@ -205,7 +207,7 @@ Ia în considerare o implementare ipotetică în mai multe orașe:
 
 **Orașul A, repetor, repetor, releu rural, repetor, Orașul B, repetor, Orașul C**
 
-Întreabă-te cum gestionează fiecare arhitectură acest lanț pe măsură ce crește. O rețea mesh cu flooding și limită de 7 hopuri are dificultăți să acopere fiabil un asemenea lanț, deoarece fiecare hop adaugă cost de timp de emisie, iar fiecare nod activ suplimentar de pe traseu crește contencția. O arhitectură structurată cu repetoare, precum MeshCore, este construită exact pentru această formă: puncte de releu cunoscute, amplasare deliberată și rutare care se scalează cu conversațiile active, nu cu numărul total de noduri.
+În acest lanț, **testează separat mesajele de grup și cele directe**. MeshCore poate refolosi o rută pentru mesajele directe, dar continuă să inunde rețeaua pentru cele de grup. Meshtastic poate păstra contorul pe legăturile de infrastructură eligibile. Fiecare retransmisie ocupă canalul. Niciun protocol nu garantează livrarea de la un capăt la altul.
 
 În acest scenariu, **limitele de hopuri, bugetul de airtime, comportamentul rutării și proiectarea infrastructurii nu mai sunt teoretice** și încep să determine dacă rețeaua funcționează de la un capăt la altul. La scară geografică, diferențele arhitecturale dintre Meshtastic și MeshCore nu mai sunt academice.
 
@@ -241,11 +243,11 @@ ______
 
 **Meshtastic are sens** când apreciezi maturitatea ecosistemului, ușurința adoptării, utilizatorii portabili și mobili și compatibilitatea cu o comunitate Meshtastic existentă. Este alegerea implicită potrivită pentru majoritatea celor care pornesc de la zero.
 
-**MeshCore devine atractiv** când construiești intenționat o infrastructură LoRa persistentă și vrei ca repetoarele dedicate să formeze o rețea mai mare și structurată. Recompensează planificarea și amplasarea corectă a repetoarelor mai direct decât un design bazat pe flooding.
+**Repetoarele fixe** ajută la planificarea acoperirii, dar nu elimină inundarea. Înainte să alegi, testează ambele protocoale cu rata estimată de mesaje de grup, setările radio și amplasarea planificată a repetoarelor.
 
 **Reticulum are sens** când problema depășește o singură rețea mesh LoRa și ai nevoie să conectezi transporturi diferite sau rețele separate într-un singur sistem adresabil.
 
-Pentru o **rețea comunitară de infrastructură fără licență, cu consum redus, rază lungă și construită în principal în jurul repetoarelor fixe**, înclină spre MeshCore. *Dacă în zona ta există deja o rețea Meshtastic sănătoasă, înlocuirea ei are nevoie de beneficii suficiente pentru a justifica fragmentarea comunității existente.* Reticulum intră în discuție când un singur protocol mesh sau un singur transport fizic nu mai îndeplinește cerințele, nu doar pentru că face mai multe lucruri.
+Pentru o **rețea comunitară de infrastructură fără licență, cu consum redus, rază lungă și construită în principal în jurul repetoarelor fixe**, înclină spre MeshCore. **Testează traficul de grup înainte de a schimba protocolul.** Repetoarele fixe ajută la acoperire, dar nu oferă rute direcționate pentru canalele de grup. *Dacă în zona ta există deja o rețea Meshtastic sănătoasă, înlocuirea ei are nevoie de beneficii suficiente pentru a justifica fragmentarea comunității existente.* Reticulum intră în discuție când un singur protocol mesh sau un singur transport fizic nu mai îndeplinește cerințele, nu doar pentru că face mai multe lucruri.
 
 ______
 

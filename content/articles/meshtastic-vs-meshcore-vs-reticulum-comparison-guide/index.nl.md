@@ -1,11 +1,11 @@
 ---
 title: "Meshtastic vs. MeshCore vs. Reticulum"
 date: 2026-09-01
-lastmod: 2026-11-12
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Vergelijk Meshtastic, MeshCore en Reticulum op basis van routering, zendtijd, infrastructuur, transport en gebruik zonder internetverbinding."
-genre: ["LoRa", "Meshnetwerken", "Communicatie zonder infrastructuur", "Noodcommunicatie", "Amateurradio", "Open source", "Rampenvoorbereiding", "Draadloze netwerken", "Privacy", "Netwerken"]
+genre: ["LoRa", "Meshnetwerken", "Communicatie zonder infrastructuur", "Noodcommunicatie", "Amateurradio", "Software met open broncode", "Rampenvoorbereiding", "Draadloze netwerken", "Privacy", "Netwerken"]
 tags: ["meshtastic vs meshcore vs reticulum", "Reticulum-netwerk", "meshtastic", "meshcore", "reticulum", "lxmf", "LoRa-meshnetwerk", "communicatie zonder infrastructuur", "rnode", "pakketgeschakelde radio", "transportonafhankelijk netwerken", "meshnetwerken", "noodcommunicatie", "community-meshnetwerk", "LoRa-zendtijd", "beheerste flooding", "hoplimiet", "repeaterknooppunt", "roomserver", "Sideband-app", "nomadnet", "meshchat", "rampencommunicatie", "radio zonder infrastructuur", "meshnetwerkprotocol", "regionaal meshnetwerk", "RF-techniek"]
 cover: "/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp"
 coverAlt: "Illustratie die drie meshnetwerksystemen vergelijkt met knooppunten, antennes en verbindingslijnen op een donkere achtergrond met heldere kleuren, als weergave van hun eigen functies."
@@ -59,20 +59,22 @@ Lees de **[vergelijkingsgids voor MeshCore en Meshtastic](/articles/meshcore-vs-
 
 ### Beheerste flooding en waarom hops ertoe doen
 
-Meshtastic zendt uit met **beheerste flooding**. Als een knooppunt een bericht verstuurt, zenden alle knooppunten die het ontvangen het pakket opnieuw uit, tot de ingestelde hoplimiet is bereikt. Geen enkel knooppunt hoeft de netwerktopologie te kennen. Nieuwe knooppunten kunnen zonder configuratie deelnemen. Uitgevallen knooppunten worden automatisch omzeild, omdat de flooding een andere route neemt.
+Bij **[beheerde flooding](https://meshtastic.org/docs/overview/mesh-algo/#broadcasts-using-managed-flooding)** in Meshtastic annuleert een gewone client een geplande heruitzending als hij hetzelfde pakket eerder hoort langskomen. `ROUTER` en `ROUTER_LATE` kunnen het toch doorsturen. Voor `CLIENT_BASE` geldt die uitzondering voor verkeer van of naar een favoriet.
 
-De standaardlimiet is **3 hops**. Het maximum is **7**. Zeg liever niet: "Meshtastic komt maar zeven hops ver." *De echte vraag is wat het kost om dit aantal te verhogen.*
+De hopteller van Meshtastic staat standaard op **3** en kan maximaal op **7** staan. Vanaf firmware 2.7.11 kunnen geschikte infrastructuurknooppunten [de teller behouden](https://meshtastic.org/blog/zero-cost-hops-favorite-routers/) na de eerste hop als het vorige relais een favoriete `ROUTER` of `ROUTER_LATE` is. Een echte heruitzending kost nog steeds zendtijd.
 
-Elke extra hop zorgt ervoor dat alle knooppunten binnen bereik het bericht opnieuw uitzenden. Meer doorgifte leidt tot:
+Een hogere hoplimiet kan meer relais bereiken, maar laat niet elke ontvanger zenden. **Vaker doorsturen** kan leiden tot:
 
 - **Meer zendtijd** per bericht
-- **Meer dubbele uitzendingen**, omdat elk knooppunt binnen bereik een doorgifte herhaalt
+- **Meer exemplaren in de ether** als meerdere geschikte relais hetzelfde pakket doorsturen
 - **Meer concurrentie** om het gedeelde kanaal
 - **Meer kans op botsingen** wanneer meer radio's in hetzelfde tijdvenster uitzenden
 - **Hoger batterijverbruik** bij elk knooppunt dat ontvangt en opnieuw uitzendt
 - **Minder beschikbare kanaalcapaciteit** voor echte berichten
 
-De capaciteit van LoRa wordt beperkt door zendtijd en regionale limieten voor de duty cycle, niet door het aantal knooppunten. Een netwerk met tien drukke knooppunten die vaak GPS en telemetrie uitzenden, kan een kanaal verzadigen dat vijftig stille sensoren nauwelijks zouden gebruiken. Daarom gaat een dicht mesh met een hoge hoplimiet sneller achteruit dan hetzelfde aantal knooppunten met een lagere limiet en beheerste telemetrie-intervallen. **Meshtastic 2.6 verbeterde dit voor rechtstreekse berichten** door na routeontdekking over te schakelen op routering via de volgende hop. Verkeer tussen twee punten overspoelt daardoor niet meer de volledige hopradius. Broadcasts blijven wel flooden.
+De capaciteit van LoRa wordt beperkt door zendtijd en regionale limieten voor de duty cycle, niet door het aantal knooppunten. Een netwerk met tien drukke knooppunten die vaak GPS en telemetrie uitzenden, kan een kanaal verzadigen dat vijftig stille sensoren nauwelijks zouden gebruiken. Daarom gaat een dicht mesh met een hoge hoplimiet sneller achteruit dan hetzelfde aantal knooppunten met een lagere limiet en beheerste telemetrie-intervallen.
+
+Sinds Meshtastic 2.6 gebruiken **directe berichten** eerst flooding om een route te ontdekken. Daarna proberen ze de geleerde volgende hop. Bij uitval kunnen ze terugvallen op flooding.
 
 Voor een klein of middelgroot mesh, zoals dat van een wandelvereniging, is dit zelden belangrijk. Voor een **regionaal netwerk dat een stad of meerdere plaatsen moet bestrijken**, wordt dit de centrale ontwerpbeperking.
 
@@ -80,7 +82,7 @@ ______
 
 ## MeshCore
 
-**MeshCore kiest voor een andere architectuur:** het behandelt niet elk apparaat als een gelijkwaardige deelnemer aan de verspreiding van berichten, maar bouwt een doelbewuste infrastructuurlaag en stuurt verkeer daarheen.
+**Speciale repeaters** vormen de vaste doorstuurlaag van MeshCore. Clientradio’s zijn eindpunten.
 
 ### Knooppuntrollen
 
@@ -90,7 +92,7 @@ MeshCore-netwerken zijn opgebouwd rond verschillende rollen, niet rond één vla
 - **Repeaters** sturen verkeer door tussen clients en andere infrastructuur en doen het meeste routeringswerk
 - **Roomservers** (optioneel) hosten groepsgesprekken en leveren opgeslagen berichten af aan clients wanneer die opnieuw verbinding maken
 
-Eerst wordt de route ontdekt. Daarna loopt het verkeer langs het gevonden pad naar de bestemming in plaats van zich naar alle knooppunten binnen bereik te verspreiden. Het kanaalgebruik schaalt mee met actieve gesprekken, niet met het totale aantal knooppunten. Dit is een wezenlijk andere groeicurve dan het floodingmodel van Meshtastic.
+In MeshCore kan een eerste **direct bericht** via flooding een pad ontdekken. Latere directe berichten kunnen dat pad volgen en afhankelijk van de instellingen terugvallen op flooding. **[Openbare en besloten groepskanalen blijven flooding gebruiken](https://docs.meshcore.io/faq/#5-general)** via geschikte repeaters. Clientradio’s sturen geen pakketten van andere knooppunten door.
 
 ### Waarom dit bij vaste infrastructuur past
 
@@ -106,7 +108,7 @@ Een netwerk met bekende, hoog geplaatste repeaters geeft je de mogelijkheid om d
 - **Regionale netwerken** die groter zijn dan één wijk
 - **Noodcommunicatie** waarbij voorspelbare dekking zwaarder weegt dan flexibiliteit
 
-Kijk naar de basisprincipes van RF: **betrouwbare verbindingen tussen goed geplaatste infrastructuur zijn belangrijker dan maximale antenneversterking, zendvermogen of theoretisch bereik.** Een protocol met speciale repeaters beloont het RF-ontwerpwerk waarmee je die repeaters goed plaatst. Een protocol met flooding beloont dit minder, omdat elk knooppunt ongeveer hetzelfde doet, ongeacht de locatie.
+Kijk naar de basisprincipes van RF: **betrouwbare verbindingen tussen goed geplaatste infrastructuur zijn belangrijker dan maximale antenneversterking, zendvermogen of theoretisch bereik.** **Beide meshes profiteren van goed geplaatste relais.** Welke knooppunten doorsturen, hangt af van hun rollen en het verkeer.
 
 ______
 
@@ -205,7 +207,7 @@ Neem een hypothetische uitrol over meerdere steden:
 
 **Stad A, repeater, repeater, landelijke relay, repeater, Stad B, repeater, Stad C**
 
-Vraag jezelf af hoe elke architectuur met deze keten omgaat als hij groeit. Een mesh op basis van flooding met een hoplimiet van 7 heeft moeite om zo'n keten betrouwbaar te overbruggen. Elke hop vergroot de benodigde zendtijd en elke extra actieve node langs de route verhoogt de concurrentie. Een gestructureerde repeaterarchitectuur zoals die van MeshCore is voor precies deze situatie ontworpen: bekende relaypunten, bewuste plaatsing en routering die schaalt met actieve gesprekken in plaats van met het totale aantal knooppunten.
+**Test langs deze keten groepsberichten en directe berichten afzonderlijk.** MeshCore kan een geleerd pad hergebruiken voor directe berichten, maar gebruikt nog steeds flooding voor groepen. Meshtastic kan op geschikte infrastructuurverbindingen de hopteller behouden. Elke heruitzending kost zendtijd. Geen van beide protocollen garandeert aflevering over het hele traject.
 
 In dit scenario bepalen **hoplimieten, zendtijdbudget, routeringsgedrag en infrastructuurontwerp** of het netwerk van begin tot eind werkt. Op regionale schaal zijn de architectuurverschillen tussen Meshtastic en MeshCore niet langer theoretisch.
 
@@ -241,11 +243,11 @@ ______
 
 **Meshtastic is geschikt** als je waarde hecht aan een volwassen ecosysteem, een eenvoudige start, draagbare en mobiele gebruikers en compatibiliteit met een bestaande Meshtastic-community. Voor de meeste mensen die vanaf nul beginnen, is dit de standaardkeuze.
 
-**MeshCore wordt aantrekkelijk** als je bewust een blijvende LoRa-infrastructuur bouwt en speciale repeaters tot een groter, gestructureerd netwerk wilt verbinden. Het beloont planning en een goede repeaterplaatsing meer dan een ontwerp met flooding.
+**Vaste repeaters** maken dekking planbaar, maar nemen flooding niet weg. Test beide protocollen met het verwachte groepsverkeer, de radio-instellingen en de geplande relaislocaties.
 
 **Reticulum is geschikt** als het probleem verder gaat dan één LoRa-mesh en verschillende transporten of anders gescheiden netwerken in één adresseerbaar systeem moeten worden verbonden.
 
-Voor een **licentievrij, energiezuinig regionaal communitynetwerk met groot bereik en vooral vaste repeaters** ligt MeshCore voor de hand. *Als er in jouw omgeving al een gezond Meshtastic-netwerk bestaat, moet de meerwaarde groot genoeg zijn om versnippering van die community te rechtvaardigen.* Reticulum komt in beeld wanneer één meshprotocol of fysiek transport niet meer volstaat, niet simpelweg omdat het meer functies heeft.
+Voor een **licentievrij, energiezuinig regionaal communitynetwerk met groot bereik en vooral vaste repeaters** ligt MeshCore voor de hand. **Test groepsverkeer voordat je overstapt.** Vaste repeaters helpen bij de dekking, maar geven groepskanalen geen gerichte routes. *Als er in jouw omgeving al een gezond Meshtastic-netwerk bestaat, moet de meerwaarde groot genoeg zijn om versnippering van die community te rechtvaardigen.* Reticulum komt in beeld wanneer één meshprotocol of fysiek transport niet meer volstaat, niet simpelweg omdat het meer functies heeft.
 
 ______
 

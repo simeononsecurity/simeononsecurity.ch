@@ -1,11 +1,11 @@
 ---
 title: "MeshCore sau Meshtastic: comparație"
 date: 2026-06-26
-lastmod: 2026-11-12
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Compară MeshCore și Meshtastic în privința rutării, razei, timpului de emisie, infrastructurii, dispozitivelor compatibile și utilizării potrivite."
-genre: ["LoRa", "Rețele mesh", "Comunicații offline", "Comunicații de urgență", "Comunicații tactice", "Radioamatorism", "Open source", "Pregătire pentru dezastre", "Rețele wireless", "Confidențialitate"]
+genre: ["LoRa", "Rețele mesh", "Comunicații offline", "Comunicații de urgență", "Comunicații tactice", "Radioamatorism", "Software cu sursă deschisă", "Pregătire pentru dezastre", "Rețele wireless", "Confidențialitate"]
 tags: ["meshcore versus meshtastic", "meshtastic", "meshcore", "rețea mesh lora", "comunicații offline", "comparație meshtastic", "comparație meshcore", "radio lora", "rețele mesh", "comunicații de urgență", "mesh tactic", "radio offline", "protocol meshtastic", "protocol meshcore", "lora meshtastic", "comunicații pentru dezastre", "radio mesh", "stocare și retransmitere", "flooding lora", "mesh LoRa", "t-beam meshtastic", "heltec lora", "rak wisblock", "mesagerie offline", "protocol de rețea mesh", "meshtastic 2.6", "timp de emisie lora", "radio de urgență"]
 cover: "/img/cover/meshcore-vs-meshtastic-comparison-guide.webp"
 coverAlt: "Ilustrație cu două rețele mesh LoRa: Meshtastic în stânga, cu noduri care difuzează pachete, și MeshCore în dreapta, cu rutare structurată, pe un fundal întunecat."
@@ -17,9 +17,9 @@ ref: ["/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide"]
 
 Meshtastic și MeshCore funcționează pe același hardware LoRa ieftin. Ambele permit trimiterea de mesaje criptate fără rețea celulară sau Internet. **Cele două protocoale nu sunt compatibile.**
 
-**Filosofia de rutare diferă.** Meshtastic difuzează pachetele către toate nodurile apropiate. MeshCore rutează traficul prin infrastructură planificată. Abordările au performanțe diferite pe măsură ce rețeaua crește.
+**Ambele protocoale folosesc inundarea pentru traficul de grup.** Clienții obișnuiți Meshtastic suprimă retransmisiile redundante. În MeshCore retransmite doar infrastructura. Ambele pot folosi rute învățate pentru mesaje directe.
 
-*Meshtastic este potrivit pentru majoritatea oamenilor.* Aplicația mobilă este bine finisată, comunitatea este mare, documentația este solidă, iar configurarea durează sub 20 de minute. MeshCore se potrivește mai bine implementărilor planificate, unde eficiența timpului de emisie contează mai mult decât autoorganizarea spontană.
+*Meshtastic este potrivit pentru majoritatea oamenilor.* Aplicația mobilă este bine finisată, comunitatea este mare, documentația este solidă, iar configurarea durează sub 20 de minute.
 
 **Bazele radiofrecvenței contează mai mult decât firmware-ul.** Niciun protocol nu compensează amplasarea greșită a antenei.
 
@@ -29,13 +29,13 @@ ______
 
 ### Meshtastic
 
-**Meshtastic** este un proiect open source lansat în 2020 de Kevin Hester. Firmware-ul transformă hardware LoRa obișnuit într-o rețea mesh de mesaje text, fără dependență de Internet sau rețeaua celulară. Transmisiile folosesc flooding controlat: fiecare nod retransmite pachetele până la o limită configurabilă de salturi. Din versiunea 2.6, **mesajele directe folosesc rutare către următorul hop** după descoperirea rutei, în loc de flooding. Astfel scade timpul de emisie pentru traficul punct-la-punct.
+**Meshtastic** este un proiect open source lansat în 2020 de Kevin Hester. Firmware-ul transformă hardware LoRa obișnuit într-o rețea mesh de mesaje text, fără dependență de Internet sau rețeaua celulară.
 
 Firmware-ul rulează pe hardware LoRa pe care mulți utilizatori îl au deja sau îl cumpără ieftin. **LILYGO T-Beam, Heltec WiFi LoRa 32, RAK WisBlock și Seeed SenseCAP Indicator** acceptă Meshtastic fără unelte specializate. Aplicațiile iOS și Android sunt întreținute bine. Utilizatorii fără cunoștințe tehnice intră în rețea în mai puțin de zece minute. Ecosistemul include bridge-uri MQTT, integrare Home Assistant și pluginuri ATAK.
 
 ### MeshCore
 
-**MeshCore** a câștigat popularitate în 2023-2024. Firmware-ul rulează pe mare parte din același hardware LoRa, dar folosește o **arhitectură de rutare hibridă**. Mai întâi are loc descoperirea rutei. Apoi traficul trece prin repetoare către destinație, în loc să fie difuzat tuturor. Nu este store-and-forward pur în sensul rețelelor tolerante la întârzieri.
+**MeshCore** a câștigat popularitate în 2023-2024. Firmware-ul rulează pe mare parte din același hardware LoRa, dar folosește o **arhitectură de rutare hibridă**. Nu este store-and-forward pur în sensul rețelelor tolerante la întârzieri.
 
 Repetoarele fac cea mai mare parte a retransmiterii. **Serverele de cameră sunt opționale.** Ele păstrează mesajele de grup pentru ca clienții să le preia la reconectare. Clienții folosesc un radio LoRa companion și se conectează prin infrastructură când aceasta există, sau comunică direct cu nodurile apropiate în absența unui repetor.
 
@@ -45,7 +45,9 @@ ______
 
 ### Cum funcționează rutarea Meshtastic
 
-Transmisiile folosesc **flooding controlat**. Fiecare nod retransmite un pachet până la limita de salturi. Niciun nod nu trebuie să cunoască topologia. Nodurile noi intră fără configurare, iar nodurile indisponibile sunt ocolite automat. Din versiunea 2.6, **mesajele directe folosesc rutare către următorul hop** după descoperirea rutei, reducând timpul de emisie punct-la-punct.
+În **[inundarea controlată](https://meshtastic.org/docs/overview/mesh-algo/#broadcasts-using-managed-flooding)** din Meshtastic, un client obișnuit anulează o retransmisie în așteptare dacă aude mai întâi același pachet retransmis. `ROUTER` și `ROUTER_LATE` îl pot retransmite oricum. La `CLIENT_BASE`, excepția se aplică traficului către sau de la un favorit.
+
+Din Meshtastic 2.6, **mesajele directe** descoperă ruta prin inundare și apoi încearcă următorul salt învățat. Dacă acesta nu funcționează, pot reveni la inundare.
 
 **Constrângerea reală este timpul de emisie, nu numărul de noduri.** LoRa folosește benzi ISM partajate cu limite regionale pentru ciclul de emisie, de obicei 1% în Europa. O rețea cu beacon-uri GPS frecvente, telemetrie și trafic activ pe canal saturează timpul de emisie înainte să atingă o limită absolută de noduri. Zece noduri active care trimit frecvent telemetrie creează mai multă concurență decât cincizeci de senzori tăcuți. Rețelele dense cu zeci de utilizatori activi au adesea mai multă concurență, dar nu există un plafon fix. Pragul depinde de factorul de împrăștiere, presetarea timpului de emisie, intervalele telemetriei, teren și amplasarea repetoarelor.
 
@@ -53,9 +55,11 @@ Meshtastic generează trafic suplimentar prin anunțurile cu informații despre 
 
 ### Cum funcționează rutarea MeshCore
 
-MeshCore descoperă rute, le învață și apoi trimite traficul spre infrastructură, nu către toată lumea. **Repetoarele redirecționează traficul între noduri.** Serverele de cameră pot găzdui conversații de grup și păstra mesaje pentru clienții care revin ulterior.
+În MeshCore, primul **mesaj direct** poate folosi inundarea pentru a descoperi o rută. Următoarele pot urma acea rută și pot reveni la inundare în funcție de setări. **[Canalele de grup publice și private folosesc în continuare inundarea](https://docs.meshcore.io/faq/#5-general)** prin repetoarele eligibile. Radiourile client nu retransmit pachetele altor noduri.
 
-Ocuparea canalului depinde de conversațiile active, nu de numărul total de noduri. O implementare mare cu multe noduri tăcute nu își pierde performanța ca o rețea densă cu flooding și trafic suplimentar ridicat. MeshCore vizează din proiect implementări mult mai mari, dar performanța reală depinde de calitatea instalării.
+**Repetoarele redirecționează traficul între noduri.** Serverele de cameră pot găzdui conversații de grup și păstra mesaje pentru clienții care revin ulterior.
+
+**Timpul de emisie depinde de trafic.** Mesajele de grup pot ajunge la mai multe relee în ambele protocoale. O rută învățată poate reduce transmisiile mesajelor directe. Contează și amplasarea releelor, setările radio și frecvența mesajelor.
 
 Fără repetor, clienții comunică direct când sunt în raza de acțiune. *Arhitectura funcționează cel mai bine cu infrastructură. Infrastructura nu este o cerință strictă.*
 
@@ -115,7 +119,7 @@ Variabilele care determină performanța rețelei:
 - **Amplasarea repetoarelor.** Un repetor bine amplasat distribuie încărcarea. Unul amplasat prost adaugă congestie.
 - **Terenul.** Nodurile care nu se aud adaugă trafic fără să creeze concurență. Nodurile aflate simultan în raza multor altele creează concurență.
 
-*Meshtastic reduce planificarea și acceptă un anumit cost de emisie pentru autoorganizare. MeshCore cere planificare și o răsplătește cu o eficiență mai previzibilă a timpului de emisie. Trecerea la MeshCore fără îmbunătățirea planificării nu garantează performanțe mai bune.*
+**Repetoarele fixe** ajută la planificarea acoperirii, dar nu elimină inundarea. Înainte să alegi, testează ambele protocoale cu rata estimată de mesaje de grup, setările radio și amplasarea planificată a repetoarelor.
 
 ______
 
@@ -143,7 +147,7 @@ Meshtastic 2.6 a îmbunătățit rutarea mesajelor directe. Traficul de grup fol
 
 ### MeshCore
 
-Rutarea hibridă MeshCore înseamnă că **un ascultător pasiv nu poate reconstitui întreaga topologie a rețelei doar monitorizând traficul**. Traficul merge spre infrastructură specifică, nu este difuzat tuturor. **Mesajele directe folosesc criptare per contact**, nu o cheie de canal comună. Alte noduri din aceeași infrastructură nu îți pot decripta conversația directă, chiar dacă folosesc același repetor.
+**Rutarea nu ascunde activitatea radio.** Nu presupune că o rută învățată ascunde ce repetoare transmit. **Mesajele directe folosesc criptare per contact**, nu o cheie de canal comună. Alte noduri din aceeași infrastructură nu îți pot decripta conversația directă, chiar dacă folosesc același repetor.
 
 Nodurile de infrastructură retransmit trafic criptat. Pentru mesaje directe cu criptare per contact, repetorul redirecționează text cifrat fără să-l decripteze. Pentru traficul camerelor, serverele văd conținutul camerelor găzduite. *Întrebarea importantă este dacă tu controlezi serverul camerei.*
 
@@ -153,9 +157,9 @@ ______
 
 ## Consum de energie
 
-Cu setările implicite, MeshCore produce mai puține transmisii radio suplimentare decât Meshtastic. **Mai puține transmisii înseamnă autonomie mai mare pentru nodurile client.** Telemetria, difuzările GPS și flooding-ul gestionat din Meshtastic consumă timp de emisie. Poți reduce mult acest consum reglând intervalele telemetriei și dezactivând difuzarea GPS pentru nodurile fără GPS. Cu setări implicite comparabile, **MeshCore transmite mai puțin**.
+**Mai puține transmisii înseamnă autonomie mai mare pentru nodurile client.** Telemetria, difuzările GPS și flooding-ul gestionat din Meshtastic consumă timp de emisie. Poți reduce mult acest consum reglând intervalele telemetriei și dezactivând difuzarea GPS pentru nodurile fără GPS.
 
-O instalare Meshtastic bine reglată, cu telemetrie minimă, se apropie de autonomia MeshCore. Setările implicite favorizează MeshCore.
+**Compară autonomia bateriei la aceeași sarcină.** Setările de telemetrie, timpul de emisie și rolul nodului contează și ele.
 
 ______
 
@@ -165,7 +169,7 @@ ______
 
 **MeshCore depinde mai mult de amplasarea repetoarelor.** O rețea MeshCore bine proiectată, cu acoperire bună a repetoarelor, are performanțe previzibile. Pierderea singurului repetor dintr-o zonă de acoperire deconectează nodurile dependente de el. *MeshCore răsplătește planificarea inițială. Meshtastic tolerează mai bine pierderea nodurilor.*
 
-Meshtastic acceptă costul de emisie în schimbul rezilienței. MeshCore acceptă dependența de infrastructură în schimbul eficienței.
+**Rutele învățate și inundarea rezolvă probleme diferite.** O rută alternativă ajută doar dacă un alt releu eligibil poate recepționa și retransmite pachetul.
 
 ______
 
@@ -212,7 +216,7 @@ ______
 
 **Implementări cu infrastructură planificată.** Ai un repetor pe acoperiș sau un server de cameră cu alimentare sigură. Rutarea hibridă MeshCore folosește infrastructura fixă.
 
-**Rețele mari cu infrastructură dedicată.** Alege-l când eficiența timpului de emisie și performanța previzibilă la scară contează mai mult decât autoorganizarea spontană.
+**Rețele mari cu infrastructură dedicată.** **Testează traficul de grup înainte de a schimba protocolul.** Repetoarele fixe ajută la acoperire, dar nu oferă rute direcționate pentru canalele de grup.
 
 **Persistența mesajelor cu conectivitate intermitentă.** Serverele de cameră stochează mesajele și le livrează când clienții se reconectează. **Acesta este unul dintre cele mai concrete avantaje practice ale MeshCore față de Meshtastic.**
 
@@ -265,7 +269,7 @@ ______
 
 | Factor | Meshtastic | MeshCore |
 |---|---|---|
-| Model de rețea | Flooding controlat și rutare DM către următorul hop | Descoperire hibridă de rute și retransmitere direcționată |
+| Model de rețea | Inundare controlată pentru canale, următorul salt învățat pentru mesaje directe | Inundare pentru canale, traseu învățat prin repetoare pentru mesaje directe |
 | Dificultatea configurării | Ușoară | Medie spre dificilă |
 | Proiectare pentru scalare | Flexibilă, se degradează cu concurența de emisie | Proiectată pentru rețele planificate mai mari |
 | Calitatea aplicației mobile | Excelentă | Funcțională |
@@ -284,10 +288,10 @@ ______
 
 **Începe cu Meshtastic.** Vei fi în emisie într-o după-amiază. Vei găsi oameni cu care să testezi. Aplicația funcționează, iar documentația este excelentă. Rutarea către următorul hop din Meshtastic 2.6 micșorează diferența de eficiență pentru traficul direct punct-la-punct.
 
-**Treci la MeshCore când setările implicite Meshtastic nu se potrivesc implementării tale.** Dacă ai infrastructură dedicată cu repetoare, ai nevoie de păstrarea mesajelor pentru utilizatori intermitenți sau construiești o rețea mare și planificată, unde eficiența timpului de emisie contează mai mult decât autoorganizarea, arhitectura MeshCore se potrivește și justifică efortul de configurare.
+**Ia în calcul MeshCore** dacă ai nevoie de repetoare dedicate sau de servere de cameră opționale care păstrează mesajele pentru cei care se reconectează.
 
 Înainte de schimbarea protocolului, **reglează implementarea Meshtastic**. Redu intervalele telemetriei. Dezactivează difuzarea GPS pe nodurile fără GPS. Ajustează presetarea de emisie la densitatea nodurilor. *Multe rețele cu probleme de performanță au probleme de configurare, nu de protocol.*
 
-Protocoalele ocupă puncte diferite pe axa planificare-spontaneitate. Meshtastic reduce planificarea și acceptă costul de emisie al autoorganizării. MeshCore cere planificare și o recompensează cu performanțe mai previzibile. **Niciunul nu îl va înlocui pe celălalt, deoarece utilizările diferă.**
+**Ambele rețele beneficiază de relee bine amplasate.** Rolurile nodurilor și tipul traficului determină ce noduri retransmit.
 
 *Construiești o rețea care trebuie să lege LoRa de packet radio, Wi-Fi sau Internet, nu doar de o singură rețea mesh LoRa?* Consultă **[ghidul comparativ Meshtastic, MeshCore și Reticulum](/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/)** pentru a vedea unde se potrivesc rețelele independente de transport și unde adaugă complexitate inutilă.

@@ -1,7 +1,7 @@
 ---
 title: "MeshCore o Meshtastic: comparació"
 date: 2026-06-26
-lastmod: 2026-11-12
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Compara MeshCore i Meshtastic segons l’encaminament, l’abast, el temps d’emissió, la infraestructura, els dispositius compatibles i l’ús adequat."
@@ -17,9 +17,9 @@ ref: ["/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide"]
 
 Meshtastic i MeshCore funcionen amb el mateix maquinari LoRa econòmic. Tots dos permeten enviar missatges xifrats sense xarxa mòbil ni Internet. **Els dos protocols no són compatibles.**
 
-**La filosofia d’encaminament és diferent.** Meshtastic difon paquets a tots els nodes propers. MeshCore encamina el trànsit per una infraestructura planificada. Aquests enfocaments ofereixen resultats diferents quan la xarxa creix.
+**Tots dos protocols inunden el trànsit de grup.** Els clients normals de Meshtastic suprimeixen retransmissions redundants. A MeshCore només reenvia la infraestructura. Tots dos poden fer servir rutes apreses per als missatges directes.
 
-*Meshtastic és adequat per a la majoria.* L’aplicació mòbil és polida, la comunitat és gran, la documentació és sòlida i configurar-lo triga menys de 20 minuts. MeshCore s’ajusta millor a desplegaments planificats on l’eficiència del temps d’emissió importa més que l’autoorganització espontània.
+*Meshtastic és adequat per a la majoria.* L’aplicació mòbil és polida, la comunitat és gran, la documentació és sòlida i configurar-lo triga menys de 20 minuts.
 
 **Els fonaments de la radiofreqüència importen més que el microprogramari.** Cap dels dos protocols compensa una antena mal situada.
 
@@ -29,13 +29,13 @@ ______
 
 ### Meshtastic
 
-**Meshtastic** és un projecte de codi obert iniciat el 2020 per Kevin Hester. El microprogramari converteix maquinari LoRa habitual en una xarxa mesh de missatges de text que no depèn d’Internet ni de xarxes mòbils. Les emissions utilitzen flooding controlat: cada node torna a transmetre els paquets fins a un límit de salts configurable. Des de la versió 2.6, **els missatges directes utilitzen encaminament al salt següent** després de descobrir la ruta, en lloc de flooding. Això redueix el temps d’emissió del trànsit punt a punt.
+**Meshtastic** és un projecte de codi obert iniciat el 2020 per Kevin Hester. El microprogramari converteix maquinari LoRa habitual en una xarxa mesh de missatges de text que no depèn d’Internet ni de xarxes mòbils.
 
 El microprogramari funciona amb maquinari LoRa que molts usuaris ja tenen o compren a baix cost. **LILYGO T-Beam, Heltec WiFi LoRa 32, RAK WisBlock i Seeed SenseCAP Indicator** admeten Meshtastic sense eines especialitzades. Les aplicacions d’iOS i Android es mantenen bé. Els usuaris sense perfil tècnic es connecten en menys de deu minuts. L’ecosistema inclou ponts MQTT, integració amb Home Assistant i connectors ATAK.
 
 ### MeshCore
 
-**MeshCore** va guanyar popularitat el 2023 i el 2024. El microprogramari funciona amb bona part del mateix maquinari LoRa, però utilitza una **arquitectura d’encaminament híbrida**. Primer es descobreixen les rutes. Després, el trànsit passa per repetidors fins a la destinació, en comptes de difondre’s a tothom. No és emmagatzematge i reenviament pur en el sentit de les xarxes tolerants als retards.
+**MeshCore** va guanyar popularitat el 2023 i el 2024. El microprogramari funciona amb bona part del mateix maquinari LoRa, però utilitza una **arquitectura d’encaminament híbrida**. No és emmagatzematge i reenviament pur en el sentit de les xarxes tolerants als retards.
 
 Els repetidors fan la major part del reenviament. **Els servidors de sala són opcionals.** Guarden missatges de grup perquè els clients els recuperin quan es tornin a connectar. Els clients fan servir una ràdio LoRa complementària i es connecten a través de la infraestructura quan n’hi ha, o es comuniquen directament amb nodes propers quan no hi ha repetidor.
 
@@ -45,7 +45,9 @@ ______
 
 ### Com funciona l’encaminament de Meshtastic
 
-Les emissions utilitzen **flooding controlat**. Cada node retransmet el paquet fins al límit de salts. Cap node necessita conèixer la topologia. Els nodes nous s’incorporen sense configurar-los i els nodes caiguts s’eviten automàticament. Des de la versió 2.6, **els missatges directes utilitzen encaminament al salt següent** després de descobrir la ruta, cosa que redueix el temps d’emissió punt a punt.
+En la **[inundació gestionada](https://meshtastic.org/docs/overview/mesh-algo/#broadcasts-using-managed-flooding)** de Meshtastic, un client normal cancel·la una retransmissió pendent si abans sent el mateix paquet retransmès. `ROUTER` i `ROUTER_LATE` poden retransmetre igualment. `CLIENT_BASE` fa aquesta excepció per al trànsit cap a un favorit o des d’un favorit.
+
+Des de Meshtastic 2.6, els **missatges directes** fan servir inundació per descobrir la ruta i després proven el salt següent après. Si falla, poden tornar a la inundació.
 
 **La restricció real és el temps d’emissió, no el nombre de nodes.** LoRa utilitza bandes ISM compartides amb límits regionals de cicle de treball, normalment de l’1 % a Europa. Una xarxa amb senyals GPS freqüents, telemetria i trànsit actiu al canal satura el temps d’emissió abans d’assolir un límit absolut de nodes. Deu nodes actius que envien telemetria sovint creen més contenció que cinquanta sensors silenciosos. Les xarxes denses amb desenes d’usuaris actius sovint tenen més contenció, però no hi ha un límit fix. El llindar depèn del factor d’eixamplament, el perfil del temps d’emissió, els intervals de telemetria, el terreny i la ubicació dels repetidors.
 
@@ -53,9 +55,11 @@ Meshtastic genera trànsit addicional amb anuncis d’informació dels nodes, te
 
 ### Com funciona l’encaminament de MeshCore
 
-MeshCore descobreix rutes, les aprèn i després encamina el trànsit cap a la infraestructura en lloc de retransmetre’l a tothom. **Els repetidors reenvien trànsit entre nodes.** Els servidors de sala poden allotjar converses de grup i guardar missatges per als clients que es reconnectin més tard.
+A MeshCore, un primer **missatge directe** pot inundar la xarxa per descobrir una ruta. Els següents poden seguir-la i tornar a la inundació segons la configuració. **[Els canals de grup públics i privats continuen fent servir inundació](https://docs.meshcore.io/faq/#5-general)** a través de repetidors aptes. Els dispositius client no retransmeten paquets d’altres nodes.
 
-L’ocupació del canal depèn de les converses actives, no del nombre total de nodes. Un desplegament gran amb molts nodes silenciosos no perd rendiment com una xarxa densa de flooding amb molt de trànsit addicional. MeshCore està dissenyat per a desplegaments força més grans, tot i que el rendiment real depèn de la qualitat de la implementació.
+**Els repetidors reenvien trànsit entre nodes.** Els servidors de sala poden allotjar converses de grup i guardar missatges per als clients que es reconnectin més tard.
+
+**El temps a l’aire depèn del trànsit.** Els missatges de grup poden arribar a diversos repetidors amb tots dos protocols. Una ruta apresa pot estalviar transmissions directes. També importen les ubicacions, els ajustos de ràdio i la freqüència dels missatges.
 
 Sense repetidor, els clients es comuniquen directament si són dins de l’abast. *L’arquitectura funciona millor amb infraestructura. La infraestructura no és obligatòria.*
 
@@ -115,7 +119,7 @@ Les variables que determinen el rendiment de la xarxa:
 - **Ubicació dels repetidors.** Un repetidor ben situat reparteix la càrrega. Un de mal situat augmenta la congestió.
 - **Terreny.** Els nodes que no se senten afegeixen trànsit sense crear contenció. Els nodes a l’abast de molts altres alhora sí que la creen.
 
-*Meshtastic redueix la planificació i accepta una mica de sobrecàrrega d’emissió per l’autoorganització. MeshCore exigeix planificació i la recompensa amb una eficiència d’emissió més previsible. Canviar a MeshCore sense millorar la planificació de la xarxa no garanteix un millor rendiment.*
+Els **repetidors fixos** ajuden a planificar la cobertura, no a eliminar la inundació. Abans de triar, prova tots dos protocols amb el volum de missatges de grup, els ajustos de ràdio i la disposició dels repetidors previstos.
 
 ______
 
@@ -143,7 +147,7 @@ Meshtastic 2.6 va millorar l’encaminament dels missatges directes. El trànsit
 
 ### MeshCore
 
-L’encaminament híbrid de MeshCore vol dir que **un oient passiu no pot reconstruir tota la topologia de la xarxa només escoltant-la**. El trànsit es dirigeix a infraestructura específica en lloc de difondre’s a tothom. **Els missatges directes utilitzen xifratge per contacte**, no una clau de canal compartida. Els altres nodes de la mateixa infraestructura no poden desxifrar la teva conversa directa encara que utilitzin el mateix repetidor.
+**L’encaminament no amaga l’activitat de ràdio.** No donis per fet que una ruta apresa amagui quins repetidors transmeten. **Els missatges directes utilitzen xifratge per contacte**, no una clau de canal compartida. Els altres nodes de la mateixa infraestructura no poden desxifrar la teva conversa directa encara que utilitzin el mateix repetidor.
 
 Els nodes d’infraestructura retransmeten trànsit xifrat. En missatges directes amb xifratge per contacte, el repetidor reenvià el text xifrat sense desxifrar-lo. En el trànsit de sala, els servidors de sala veuen el contingut de les sales que allotgen. *La pregunta important és si controles el servidor de sala.*
 
@@ -153,9 +157,9 @@ ______
 
 ## Consum d’energia
 
-Amb la configuració per defecte, MeshCore genera menys transmissions de ràdio addicionals que Meshtastic. **Menys emissions milloren l’autonomia de la bateria dels nodes clients.** La telemetria, les difusions GPS i el flooding controlat de Meshtastic consumeixen temps d’emissió. Pots reduir aquesta càrrega ajustant els intervals de telemetria i desactivant les difusions GPS als nodes sense GPS. Amb valors per defecte equivalents, **MeshCore transmet menys**.
+**Menys emissions milloren l’autonomia de la bateria dels nodes clients.** La telemetria, les difusions GPS i el flooding controlat de Meshtastic consumeixen temps d’emissió. Pots reduir aquesta càrrega ajustant els intervals de telemetria i desactivant les difusions GPS als nodes sense GPS.
 
-Un desplegament Meshtastic ben ajustat, amb telemetria mínima, s’acosta a l’autonomia de MeshCore. La configuració per defecte afavoreix MeshCore.
+**Compara l’autonomia amb la mateixa càrrega.** Els ajustos de telemetria, el temps de transmissió i el paper del node també importen.
 
 ______
 
@@ -165,7 +169,7 @@ ______
 
 **MeshCore depèn més de la ubicació dels repetidors.** Una xarxa MeshCore ben dissenyada, amb bona cobertura de repetidors, té un rendiment previsible. Si es perd l’únic repetidor d’una zona de cobertura, els nodes que en depenen perden la connexió. *MeshCore recompensa la planificació prèvia. Meshtastic tolera millor les fallades dels nodes.*
 
-Meshtastic accepta sobrecàrrega d’emissió a canvi de resiliència. MeshCore accepta dependència de la infraestructura a canvi d’eficiència.
+**Les rutes apreses i la inundació resolen problemes diferents.** Una ruta alternativa només ajuda si un altre repetidor apte pot rebre i reenviar el paquet.
 
 ______
 
@@ -212,7 +216,7 @@ ______
 
 **Desplegaments amb infraestructura planificada.** Tens un repetidor al terrat o un servidor de sala amb alimentació fiable. L’encaminament híbrid de MeshCore aprofita la infraestructura fixa.
 
-**Xarxes grans amb infraestructura dedicada.** El desplegament prioritza l’eficiència del temps d’emissió i un rendiment previsible a escala per damunt de l’autoorganització espontània.
+**Xarxes grans amb infraestructura dedicada.** **Prova el trànsit de grup abans de canviar.** Una xarxa de repetidors fixos ajuda amb la cobertura, però no dona rutes dirigides als canals de grup.
 
 **Persistència dels missatges amb connectivitat intermitent.** Els servidors de sala guarden els missatges i els lliuren quan els clients es tornen a connectar. **Aquest és un dels avantatges pràctics més concrets de MeshCore respecte a Meshtastic.**
 
@@ -265,7 +269,7 @@ ______
 
 | Factor | Meshtastic | MeshCore |
 |---|---|---|
-| Model de xarxa | Flooding controlat i DM pel salt següent | Descoberta híbrida de rutes i reenviament dirigit |
+| Model de xarxa | Inundació gestionada per als canals, salt següent après per als missatges directes | Inundació per als canals, ruta apresa entre repetidors per als missatges directes |
 | Dificultat de configuració | Fàcil | Mitjana a alta |
 | Disseny per escalar | Flexible, es degrada amb la contenció d’emissió | Dissenyat per a xarxes planificades més grans |
 | Qualitat de l’aplicació mòbil | Excel·lent | Funcional |
@@ -284,10 +288,10 @@ ______
 
 **Comença amb Meshtastic.** En una tarda ja podràs transmetre. Trobaràs gent per provar-lo. L’aplicació funciona i la documentació és excel·lent. L’encaminament al salt següent de Meshtastic 2.6 redueix la diferència d’eficiència per al trànsit directe punt a punt.
 
-**Passa a MeshCore quan els valors per defecte de Meshtastic no s’ajustin al desplegament.** Si tens repetidors dedicats, necessites persistència per a usuaris intermitents o construeixes una xarxa gran i planificada on l’eficiència d’emissió importa més que l’autoorganització, l’arquitectura de MeshCore s’ajusta i justifica l’esforç de configuració.
+**Considera MeshCore** si necessites repetidors dedicats o servidors de sala opcionals que conservin els missatges per als usuaris que es tornin a connectar.
 
 Abans de canviar de protocol, **ajusta el desplegament Meshtastic**. Redueix els intervals de telemetria. Desactiva les difusions GPS als nodes sense GPS. Adapta el perfil del temps d’emissió a la densitat dels nodes. *Moltes xarxes amb problemes de rendiment tenen problemes de configuració, no de protocol.*
 
-Els protocols ocupen punts diferents en l’equilibri entre planificació i espontaneïtat. Meshtastic redueix la planificació i accepta la sobrecàrrega d’emissió de l’autoorganització. MeshCore exigeix planificació i la recompensa amb un rendiment més previsible. **Cap no substituirà l’altre, perquè els usos són diferents.**
+**Totes dues malles es beneficien de repetidors ben situats.** Els nodes que retransmeten depenen del seu paper i del trànsit.
 
 *Estàs creant una xarxa que ha de connectar LoRa amb packet radio, Wi-Fi o Internet, en lloc de quedar-se en una sola xarxa mesh LoRa?* Consulta la **[guia comparativa de Meshtastic, MeshCore i Reticulum](/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/)** per veure on encaixen les xarxes independents del transport i on afegeixen complexitat innecessària.

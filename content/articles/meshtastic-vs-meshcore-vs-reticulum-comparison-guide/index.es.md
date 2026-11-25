@@ -1,7 +1,7 @@
 ---
 title: "Meshtastic vs. MeshCore vs. Reticulum"
 date: 2026-09-01
-lastmod: 2026-11-12
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Compara Meshtastic, MeshCore y Reticulum según el enrutamiento, el tiempo de transmisión, la infraestructura, el transporte y los usos sin conexión a internet."
@@ -59,20 +59,22 @@ Para conocer en detalle el enrutamiento, la compatibilidad de hardware y la conf
 
 ### Inundación gestionada y por qué importan los saltos
 
-Meshtastic transmite mediante **inundación gestionada**. Cuando un nodo envía un mensaje, todos los nodos que lo reciben vuelven a difundir el paquete hasta alcanzar el límite de saltos configurado. Ningún nodo necesita conocer la topología de la red. Los nodos nuevos se conectan sin configuración y los nodos caídos se omiten automáticamente, porque la inundación busca otra ruta.
+En la **[inundación gestionada](https://meshtastic.org/docs/overview/mesh-algo/#broadcasts-using-managed-flooding)** de Meshtastic, un cliente normal cancela una retransmisión pendiente si antes oye el mismo paquete retransmitido. `ROUTER` y `ROUTER_LATE` pueden retransmitir de todos modos. `CLIENT_BASE` hace esa excepción para el tráfico hacia o desde un favorito.
 
-El límite de saltos predeterminado es **3**. El máximo es **7**. Evita decir «Meshtastic solo llega a siete saltos». *La pregunta real es cuánto cuesta aumentar este límite.*
+El contador de saltos de Meshtastic vale **3** por defecto y admite hasta **7**. Desde el firmware 2.7.11, la infraestructura que cumple los requisitos puede [conservar el contador](https://meshtastic.org/blog/zero-cost-hops-favorite-routers/) después del primer salto si el retransmisor anterior es un `ROUTER` o `ROUTER_LATE` favorito. Cada retransmisión real consume tiempo de aire.
 
-Cada salto adicional hace que todos los nodos dentro del alcance vuelvan a transmitir el mensaje. Más reenvíos generan:
+Un límite mayor puede alcanzar más repetidores, pero no obliga a transmitir a todos los receptores. **Más reenvíos** pueden causar:
 
 - **Más tiempo de transmisión** consumido por mensaje
-- **Más transmisiones duplicadas**, porque cada nodo al alcance repite una retransmisión
+- **Más copias en el aire** si varios repetidores habilitados reenvían el mismo paquete
 - **Más contención** por el canal compartido
 - **Mayor riesgo de colisiones** cuando más radios transmiten en la misma ventana
 - **Mayor consumo de batería** en cada nodo que recibe y retransmite
 - **Menos capacidad disponible en el canal** para los mensajes reales
 
-La capacidad de LoRa está limitada por el tiempo de transmisión y los límites regionales del ciclo de trabajo, no por la cantidad de nodos. Una red con diez nodos muy activos que difunden con frecuencia GPS y telemetría puede saturar un canal que cincuenta sensores silenciosos apenas usarían. Por eso una malla densa con un límite de saltos alto se degrada más rápido que otra con la misma cantidad de nodos, un límite menor y periodos de telemetría controlados. **Meshtastic 2.6 mejoró este aspecto para los mensajes directos** al cambiar al enrutamiento por siguiente salto después de descubrir la ruta. Así, el tráfico punto a punto ya no inunda todo el radio de saltos. Los mensajes de difusión siguen inundándolo.
+La capacidad de LoRa está limitada por el tiempo de transmisión y los límites regionales del ciclo de trabajo, no por la cantidad de nodos. Una red con diez nodos muy activos que difunden con frecuencia GPS y telemetría puede saturar un canal que cincuenta sensores silenciosos apenas usarían. Por eso una malla densa con un límite de saltos alto se degrada más rápido que otra con la misma cantidad de nodos, un límite menor y periodos de telemetría controlados.
+
+Desde Meshtastic 2.6, los **mensajes directos** usan inundación para descubrir la ruta e intentan usar el siguiente salto aprendido. Si ese salto falla, pueden volver a la inundación.
 
 En una malla pequeña o mediana, como la de un club de senderismo, esto rara vez importa. En una **red regional diseñada para cubrir una ciudad o varias localidades**, se convierte en la principal limitación de diseño.
 
@@ -80,7 +82,7 @@ ______
 
 ## MeshCore
 
-**MeshCore** adopta una arquitectura distinta. En vez de tratar cada dispositivo como un participante equivalente en la propagación de mensajes, construye una capa de infraestructura deliberada y encamina el tráfico hacia ella.
+Los **repetidores dedicados** forman la capa fija de reenvío de MeshCore. Los dispositivos cliente son terminales.
 
 ### Funciones de los nodos
 
@@ -90,7 +92,7 @@ Los despliegues de MeshCore se organizan en torno a funciones diferenciadas, no 
 - **Repetidores** existen específicamente para reenviar tráfico entre clientes y otros elementos de infraestructura. Realizan gran parte del trabajo de enrutamiento
 - **Servidores de sala** (opcionales) alojan conversaciones grupales y entregan mensajes almacenados a los clientes cuando vuelven a conectarse
 
-Primero se descubre la ruta. Después, el tráfico recorre el camino descubierto hasta su destino, en lugar de propagarse a todos los nodos cercanos. La ocupación del canal crece con las conversaciones activas, no con la cantidad total de nodos. Esto genera una curva de crecimiento muy distinta a la del modelo de inundación de Meshtastic.
+En MeshCore, un **mensaje directo** inicial puede inundar la red para encontrar una ruta. Los siguientes pueden usarla y, según la configuración, volver a la inundación si falla. **[Los canales de grupo públicos y privados siguen usando inundación](https://docs.meshcore.io/faq/#5-general)** a través de repetidores habilitados. Los dispositivos cliente no retransmiten paquetes de otros nodos.
 
 ### Por qué encaja con una infraestructura fija
 
@@ -106,7 +108,7 @@ Una red basada en repetidores elevados y conocidos permite diseñar la cobertura
 - **Redes regionales** que abarcan más de un barrio
 - **Comunicaciones de emergencia** donde la cobertura predecible importa más que la flexibilidad
 
-Vuelve a los fundamentos de RF: **los enlaces confiables entre puntos de infraestructura bien ubicados importan más que maximizar la ganancia de antena, la potencia de transmisión o el alcance teórico.** Un protocolo basado en repetidores dedicados recompensa el trabajo de ingeniería de RF necesario para colocarlos bien. Un protocolo basado en inundación recompensa menos ese trabajo, porque todos los nodos cumplen una función similar sin importar dónde los ubiques.
+Vuelve a los fundamentos de RF: **los enlaces confiables entre puntos de infraestructura bien ubicados importan más que maximizar la ganancia de antena, la potencia de transmisión o el alcance teórico.** **Ambas mallas se benefician de repetidores bien ubicados.** Los nodos que retransmiten dependen de sus funciones y del tráfico.
 
 ______
 
@@ -205,7 +207,7 @@ Considera un despliegue hipotético entre varias ciudades:
 
 **Ciudad A, repetidor, repetidor, retransmisor rural, repetidor, Ciudad B, repetidor, Ciudad C**
 
-Piensa cómo gestiona cada arquitectura esta cadena a medida que crece. A una malla basada en inundación con un límite de siete saltos le cuesta cubrirla de manera confiable, porque cada salto aumenta el costo de tiempo de transmisión y cada nodo activo adicional genera más contención. Una arquitectura estructurada con repetidores, como MeshCore, está diseñada para este formato: puntos de retransmisión conocidos, ubicación deliberada y enrutamiento que escala según las conversaciones activas, no según la cantidad total de nodos.
+En esta cadena, **prueba por separado los mensajes de grupo y los directos**. MeshCore puede reutilizar una ruta para los directos, pero sigue inundando para los grupales. Meshtastic puede conservar el contador de saltos en enlaces de infraestructura aptos. Cada retransmisión ocupa el canal. Ningún protocolo garantiza la entrega de extremo a extremo.
 
 En este escenario, **los límites de saltos, el presupuesto de tiempo de transmisión, el comportamiento del enrutamiento y el diseño de la infraestructura dejan de ser teóricos** y determinan si la red funciona de extremo a extremo. A escala geográfica, las diferencias de arquitectura entre Meshtastic y MeshCore dejan de ser académicas.
 
@@ -241,11 +243,11 @@ ______
 
 **Meshtastic tiene sentido** si valoras un ecosistema maduro, una adopción sencilla, usuarios portátiles e itinerantes y la compatibilidad con una comunidad Meshtastic existente. Es la opción predeterminada adecuada para la mayoría de quienes empiezan desde cero.
 
-**MeshCore resulta atractivo** cuando construyes intencionalmente una infraestructura LoRa persistente y quieres que repetidores dedicados formen una red estructurada más grande. Recompensa la planificación y una buena ubicación de repetidores más directamente que un diseño basado en inundación.
+Los **repetidores fijos** ayudan a planificar la cobertura, no a eliminar la inundación. Para el chat grupal, prueba ambos protocolos con la frecuencia de mensajes, los ajustes de radio y la ubicación de repetidores previstos antes de elegir.
 
 **Reticulum tiene sentido** cuando el problema va más allá de una sola malla LoRa y necesitas conectar distintos transportes o redes separadas en un único sistema direccionable.
 
-Para una **red comunitaria de infraestructura sin licencia, de bajo consumo y largo alcance, basada principalmente en repetidores fijos**, inclínate por MeshCore. *Si ya existe una red Meshtastic sana en tu zona, reemplazarla requiere beneficios suficientes para justificar la fragmentación de la comunidad existente.* Considera Reticulum cuando un protocolo de malla o un medio físico ya no cumpla los requisitos, no solo porque haga más cosas.
+Para una **red comunitaria de infraestructura sin licencia, de bajo consumo y largo alcance, basada principalmente en repetidores fijos**, inclínate por MeshCore. **Prueba el tráfico de grupo antes de cambiar.** Una red de repetidores fijos ayuda con la cobertura, pero no proporciona rutas dirigidas a los canales de grupo. *Si ya existe una red Meshtastic sana en tu zona, reemplazarla requiere beneficios suficientes para justificar la fragmentación de la comunidad existente.* Considera Reticulum cuando un protocolo de malla o un medio físico ya no cumpla los requisitos, no solo porque haga más cosas.
 
 ______
 

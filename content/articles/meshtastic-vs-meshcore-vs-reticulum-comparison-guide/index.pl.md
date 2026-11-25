@@ -1,11 +1,11 @@
 ---
 title: "Meshtastic vs MeshCore vs Reticulum"
 date: 2026-09-01
-lastmod: 2026-11-12
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Porównaj Meshtastic, MeshCore i Reticulum pod kątem routingu, czasu zajęcia kanału, infrastruktury, transportu i zastosowań poza siecią."
-genre: ["LoRa", "Sieci mesh", "Łączność poza siecią", "Łączność awaryjna", "Krótkofalarstwo", "Open source", "Przygotowanie na katastrofy", "Sieci bezprzewodowe", "Prywatność", "Sieci komputerowe"]
+genre: ["LoRa", "Sieci mesh", "Łączność poza siecią", "Łączność awaryjna", "Krótkofalarstwo", "Oprogramowanie otwartoźródłowe", "Przygotowanie na katastrofy", "Sieci bezprzewodowe", "Prywatność", "Sieci komputerowe"]
 tags: ["meshtastic vs meshcore vs reticulum", "sieć Reticulum", "meshtastic", "meshcore", "reticulum", "lxmf", "sieć mesh LoRa", "łączność poza siecią", "rnode", "radio pakietowe", "sieć niezależna od transportu", "sieci mesh", "łączność awaryjna", "społecznościowa sieć mesh", "czas zajęcia kanału LoRa", "kontrolowany flooding", "limit przeskoków", "węzeł przekaźnikowy", "serwer pokojowy", "aplikacja Sideband", "nomadnet", "meshchat", "łączność podczas katastrof", "radio poza siecią", "protokół sieci mesh", "regionalna sieć mesh", "inżynieria RF"]
 cover: "/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp"
 coverAlt: "Ilustracja porównująca trzy systemy sieci mesh za pomocą węzłów, anten i linii połączeń na ciemnym, kolorowym tle, które przedstawia ich różne funkcje."
@@ -59,20 +59,22 @@ Pełne omówienie routingu Meshtastic, zgodności sprzętu i konfiguracji w por�
 
 ### Kontrolowany flooding i znaczenie przeskoków
 
-Meshtastic rozsyła komunikaty za pomocą **kontrolowanego floodingu**. Gdy węzeł wysyła wiadomość, każdy węzeł, który ją odbierze, rozsyła pakiet dalej aż do osiągnięcia ustawionego limitu przeskoków. Żaden węzeł nie musi znać topologii sieci. Nowe węzły dołączają bez konfiguracji, a nieaktywne są automatycznie omijane, bo flooding znajduje inną trasę.
+W **[kontrolowanym rozgłaszaniu](https://meshtastic.org/docs/overview/mesh-algo/#broadcasts-using-managed-flooding)** Meshtastic zwykły klient anuluje oczekujące przekazanie, jeśli wcześniej usłyszy retransmisję tego samego pakietu. `ROUTER` i `ROUTER_LATE` mogą mimo to nadać pakiet. W roli `CLIENT_BASE` wyjątek dotyczy ruchu do lub od ulubionego węzła.
 
-Domyślny limit wynosi **3 przeskoki**. Maksymalny to **7**. Unikaj sformułowania „Meshtastic działa tylko na siedmiu przeskokach”. *Właściwe pytanie brzmi, ile kosztuje zwiększenie tej wartości.*
+Licznik przeskoków Meshtastic domyślnie wynosi **3**, a maksymalnie **7**. Od wersji 2.7.11 odpowiednie węzły infrastruktury mogą [zachować wartość licznika](https://meshtastic.org/blog/zero-cost-hops-favorite-routers/) po pierwszym przeskoku, jeśli poprzedni węzeł to ulubiony `ROUTER` lub `ROUTER_LATE`. Każda faktyczna retransmisja zajmuje kanał.
 
-Każdy dodatkowy przeskok powoduje ponowną transmisję wiadomości przez wszystkie węzły w zasięgu. Więcej przekazywania oznacza:
+Wyższy limit pozwala dotrzeć do większej liczby przekaźników, ale nie wymusza nadawania przez każdy odbiornik. **Więcej przekazań** może oznaczać:
 
 - **Więcej czasu zajętości kanału** na każdą wiadomość
-- **Więcej powtórzonych transmisji**, bo każdy węzeł w zasięgu ponawia komunikat
+- **Więcej kopii w eterze**, gdy kilka uprawnionych przekaźników nada ten sam pakiet
 - **Większą konkurencję** o wspólny kanał
 - **Większe ryzyko kolizji**, gdy więcej urządzeń radiowych nadaje w tym samym oknie
 - **Większe zużycie baterii** w każdym węźle, który odbiera i przekazuje dalej
 - **Mniejszą dostępną przepustowość kanału** dla właściwego ruchu wiadomości
 
-Przepustowość LoRa ogranicza czas zajętości kanału i regionalne limity cyklu pracy, a nie liczba węzłów. Sieć z dziesięcioma aktywnymi węzłami, które często rozgłaszają GPS i telemetrię, może nasycić kanał, którego pięćdziesiąt cichych czujników prawie by nie obciążyło. Dlatego gęsta sieć mesh z wysokim limitem przeskoków pogarsza się szybciej niż taka sama liczba węzłów przy niższym limicie i kontrolowanych odstępach telemetrii. **Meshtastic 2.6 poprawił to dla wiadomości bezpośrednich**, przechodząc po wykryciu trasy na routing przez następny węzeł. Ruch punkt-punkt nie zalewa już całego promienia przeskoków. Rozgłoszenia nadal są rozsyłane floodingiem.
+Przepustowość LoRa ogranicza czas zajętości kanału i regionalne limity cyklu pracy, a nie liczba węzłów. Sieć z dziesięcioma aktywnymi węzłami, które często rozgłaszają GPS i telemetrię, może nasycić kanał, którego pięćdziesiąt cichych czujników prawie by nie obciążyło. Dlatego gęsta sieć mesh z wysokim limitem przeskoków pogarsza się szybciej niż taka sama liczba węzłów przy niższym limicie i kontrolowanych odstępach telemetrii.
+
+Od Meshtastic 2.6 **wiadomości bezpośrednie** używają rozgłaszania do odkrycia trasy, a następnie próbują kierować pakiet do zapamiętanego kolejnego węzła. W razie niepowodzenia mogą wrócić do rozgłaszania.
 
 W małej lub średniej sieci, na przykład klubie turystycznym, rzadko ma to znaczenie. W **sieci regionalnej przeznaczonej do pokrycia miasta lub kilku miejscowości** staje się głównym ograniczeniem projektu.
 
@@ -80,7 +82,7 @@ ______
 
 ## MeshCore
 
-**MeshCore opiera się na innym założeniu architektonicznym:** zamiast traktować każde urządzenie jako równorzędnego uczestnika przekazywania wiadomości, buduje zaplanowaną warstwę infrastruktury i kieruje do niej ruch.
+**Dedykowane przekaźniki** tworzą stałą warstwę przekazywania w MeshCore. Radia klienckie są urządzeniami końcowymi.
 
 ### Role węzłów
 
@@ -90,7 +92,7 @@ Wdrożenia MeshCore opierają się na odrębnych rolach, a nie płaskiej grupie 
 - **Repeatery** przekazują ruch między klientami a pozostałą infrastrukturą i wykonują większość pracy związanej z routingiem
 - **Serwery pokojowe** (opcjonalne) obsługują rozmowy grupowe i dostarczają przechowywane wiadomości klientom po ich ponownym połączeniu
 
-Najpierw następuje wykrycie trasy. Potem ruch przechodzi ustaloną ścieżką do celu, zamiast rozchodzić się do wszystkich węzłów w zasięgu. Zajętość kanału rośnie wraz z liczbą aktywnych rozmów, a nie całkowitą liczbą węzłów. To zupełnie inna krzywa wzrostu niż model floodingu Meshtastic.
+W MeshCore pierwsza **wiadomość bezpośrednia** może zostać rozgłoszona, aby odkryć trasę. Kolejne mogą użyć tej trasy i, zależnie od ustawień, wrócić do rozgłaszania. **[Publiczne i prywatne kanały grupowe nadal rozgłaszają pakiety](https://docs.meshcore.io/faq/#5-general)** przez uprawnione przekaźniki. Radia klienckie nie przekazują pakietów innych węzłów.
 
 ### Dlaczego sprawdza się w stałej infrastrukturze
 
@@ -106,7 +108,7 @@ Sieć oparta na znanych repeaterach umieszczonych wysoko pozwala celowo zaprojek
 - **Sieci regionalnych** obejmujących więcej niż jedną dzielnicę
 - **Łączności awaryjnej**, w której przewidywalny zasięg liczy się bardziej niż elastyczność
 
-Odnieś to do podstaw RF: **niezawodne łącza między dobrze rozmieszczonymi elementami infrastruktury są ważniejsze niż maksymalizacja zysku anteny, mocy nadawania czy teoretycznego zasięgu.** Protokół oparty na dedykowanych repeaterach wynagradza pracę inżynierii RF potrzebną do ich dobrego rozmieszczenia. Protokół oparty na floodingu mniej na niej zyskuje, ponieważ każdy węzeł wykonuje w przybliżeniu tę samą pracę, niezależnie od lokalizacji.
+Odnieś to do podstaw RF: **niezawodne łącza między dobrze rozmieszczonymi elementami infrastruktury są ważniejsze niż maksymalizacja zysku anteny, mocy nadawania czy teoretycznego zasięgu.** **Obie sieci korzystają z dobrze umieszczonych przekaźników.** To, które węzły retransmitują, zależy od ich ról i ruchu.
 
 ______
 
@@ -205,7 +207,7 @@ Rozważ hipotetyczne wdrożenie w kilku miastach:
 
 **Miasto A, repeater, repeater, przekaźnik na wsi, repeater, Miasto B, repeater, Miasto C**
 
-Zastanów się, jak każda architektura obsługuje tę trasę wraz z rozwojem sieci. Sieć mesh oparta na floodingu z limitem siedmiu przeskoków ma trudności z niezawodnym pokonaniem takiego łańcucha. Każdy przeskok zwiększa koszt czasu zajęcia kanału, a każdy dodatkowy aktywny węzeł po drodze zwiększa konkurencję. Ustrukturyzowana architektura repeaterów, taka jak MeshCore, została zbudowana właśnie dla takiego układu: znane punkty przekaźnikowe, celowe rozmieszczenie i routing skalujący się wraz z aktywnymi rozmowami, a nie całkowitą liczbą węzłów.
+W tym łańcuchu **testuj osobno wiadomości grupowe i bezpośrednie**. MeshCore może użyć poznanej trasy dla bezpośrednich, ale grupowe nadal rozgłasza. Meshtastic może zachować licznik na odpowiednich łączach infrastruktury. Każda retransmisja zajmuje kanał. Żaden protokół nie gwarantuje dostarczenia na całej trasie.
 
 W tym scenariuszu **limity przeskoków, budżet czasu zajętości kanału, zachowanie routingu i projekt infrastruktury przestają być teorią** i zaczynają decydować o działaniu całej trasy. Przy skali geograficznej różnice architektoniczne między Meshtastic a MeshCore przestają być akademickie.
 
@@ -241,11 +243,11 @@ ______
 
 **Meshtastic ma sens**, gdy cenisz dojrzały ekosystem, łatwość rozpoczęcia, użytkowników przenośnych i mobilnych oraz zgodność z istniejącą społecznością Meshtastic. Dla większości osób zaczynających od zera to właściwy wybór domyślny.
 
-**MeshCore zyskuje**, gdy celowo budujesz trwałą infrastrukturę LoRa i chcesz, by dedykowane repeatery tworzyły większą, ustrukturyzowaną sieć. Bardziej bezpośrednio niż projekt oparty na floodingu wynagradza planowanie i dobre rozmieszczenie repeaterów.
+**Stałe przekaźniki** pomagają zaplanować zasięg, ale nie eliminują rozgłaszania. Przed wyborem przetestuj oba protokoły z przewidywanym ruchem grupowym, ustawieniami radia i rozmieszczeniem przekaźników.
 
 **Reticulum ma sens**, gdy problem wykracza poza jedną sieć mesh LoRa i trzeba połączyć różne transporty lub odrębne sieci w jeden adresowalny system.
 
-W przypadku **darmowej, energooszczędnej, dalekosiężnej sieci infrastruktury społecznościowej, zbudowanej głównie ze stałych repeaterów**, skłaniaj się ku MeshCore. *Jeśli w twojej okolicy działa już zdrowa sieć Meshtastic, jej zastąpienie wymaga korzyści uzasadniających podział istniejącej społeczności.* Reticulum przydaje się, gdy jeden protokół mesh albo fizyczny transport przestaje spełniać wymagania, a nie tylko dlatego, że ma więcej funkcji.
+W przypadku **darmowej, energooszczędnej, dalekosiężnej sieci infrastruktury społecznościowej, zbudowanej głównie ze stałych repeaterów**, skłaniaj się ku MeshCore. **Sprawdź ruch grupowy przed zmianą.** Stałe przekaźniki pomagają zapewnić zasięg, ale nie dają kanałom grupowym wyznaczonych tras. *Jeśli w twojej okolicy działa już zdrowa sieć Meshtastic, jej zastąpienie wymaga korzyści uzasadniających podział istniejącej społeczności.* Reticulum przydaje się, gdy jeden protokół mesh albo fizyczny transport przestaje spełniać wymagania, a nie tylko dlatego, że ma więcej funkcji.
 
 ______
 
