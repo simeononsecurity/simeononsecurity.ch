@@ -1,16 +1,17 @@
 ---
 title: "Libérer les compétences en matière de cybersécurité : Un examen de TryHackMe"
 date: 2023-07-01
+lastmod: 2026-11-24
 toc: true
 draft: false
 description: "Découvrez la puissance de TryHackMe : caractéristiques, prix, certifications, services réseau, et plus encore, vous permettant de maîtriser les compétences en cybersécurité."
 genre: ["Technologie", "Cybersécurité", "Apprentissage en ligne", "Piratage éthique", "Sécurité des réseaux", "Laboratoires virtuels", "Certifications", "Parcours d'apprentissage", "Expérience pratique", "Revue de TryHackMe"]
-tags: ["TryHackMe", "Revue de TryHackMe", "Certificats TryHackMe", "Tarification TryHackMe", "TryHackMe Network Services 2", "Abonnement TryHackMe", "Contournement de l'authentification de TryHackMe", "Inclusion de fichiers TryHackMe", "TryHackMe OWASP Top 10 Walkthrough (en anglais)", "VPN TryHackMe", "TryHackMe Windows Fundamentals 1", "TryHackMe Active Directory", "TryHackMe Active Directory Basics", "Réponses de TryHackMe", "TryHackMe Linux Fundamentals Partie 3", "Logo de TryHackMe", "TryHackMe Mitre", "TryHackMe Splunk", "TryHackMe SQL Injection", "Support TryHackMe", "Outils de renseignement sur les menaces TryHackMe", "Vulnérabilités de téléchargement de TryHackMe", "TryHackMe : marcher sur une application", "TryHackMe Windows Fondamentaux 2", "TryHackMe Windows Fundamentals 3", "TryHackMe Bleu", "TryHackMe Blue Walkthrough"]
+tags: ["TryHackMe", "Revue de TryHackMe", "Certificats TryHackMe", "Tarification TryHackMe", "TryHackMe Network Services 2", "Abonnement TryHackMe", "Contournement de l'authentification de TryHackMe", "Inclusion de fichiers TryHackMe", "TryHackMe OWASP Top 10 Walkthrough (en anglais)", "VPN TryHackMe", "TryHackMe Windows Fundamentals 1", "TryHackMe Active Directory", "TryHackMe Active Directory Basics", "Réponses de TryHackMe", "TryHackMe Linux Fundamentals Partie 3", "Logo de TryHackMe", "TryHackMe Mitre", "TryHackMe Splunk", "Injection SQL de TryHackMe", "Support TryHackMe", "Outils de renseignement sur les menaces TryHackMe", "Vulnérabilités de téléchargement de TryHackMe", "TryHackMe : marcher sur une application", "TryHackMe Windows Fondamentaux 2", "TryHackMe Windows Fundamentals 3", "TryHackMe Bleu", "TryHackMe Blue Walkthrough"]
 cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.webp"
 coverAlt: "Une image représentant un pirate informatique avec une cape de super-héros, symbolisant l'autonomie acquise grâce à la formation en cybersécurité de TryHackMe."
 coverCaption: "Prenez le pouvoir avec TryHackMe : libérez vos superpouvoirs en matière de cybersécurité"
 ---
- Introduction
+## Introduction
 
 Face à la demande croissante de **compétences en cybersécurité**, des plateformes telles que [**TryHackMe**](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56) ont acquis une grande popularité auprès des pirates informatiques, qu'ils soient en herbe ou expérimentés. **TryHackMe** est une plateforme en ligne qui offre une expérience d'apprentissage pratique aux passionnés de cybersécurité. Dans cet article, nous allons explorer TryHackMe en détail, en couvrant divers aspects tels que ses caractéristiques, ses prix, ses certifications et ses services de réseau, entre autres.
 
@@ -36,11 +37,11 @@ TryHackMe propose des abonnements gratuits et premium. Le plan gratuit offre un 
 
 1. **Plan gratuit** : Le plan gratuit permet aux utilisateurs d'accéder à un nombre limité de salles et de ressources. C'est un excellent point de départ pour les débutants, qui peuvent ainsi explorer la plateforme et se faire une idée des défis en matière de cybersécurité.
 
-2. **Premium Plan** : Le plan premium offre un accès illimité à toutes les salles, à tous les parcours d'apprentissage et à toutes les fonctionnalités supplémentaires. Il offre une expérience d'apprentissage plus complète et convient aux personnes qui souhaitent approfondir leurs connaissances en matière de cybersécurité.
+2. **Offre premium** : Le plan premium offre un accès illimité à toutes les salles, à tous les parcours d'apprentissage et à toutes les fonctionnalités supplémentaires. Il offre une expérience d'apprentissage plus complète et convient aux personnes qui souhaitent approfondir leurs connaissances en matière de cybersécurité.
 
 #### Coût de l'abonnement Premium
 
-L'abonnement premium de TryHackMe est proposé à un prix mensuel de `$10.99` Il offre un bon rapport qualité-prix en donnant accès à une vaste bibliothèque de contenus, à des certifications et à une communauté active de personnes partageant les mêmes idées.
+L'abonnement premium de TryHackMe est proposé à un prix mensuel de `$10.99`. Il offre un bon rapport qualité-prix en donnant accès à une vaste bibliothèque de contenus, à des certifications et à une communauté active de personnes partageant les mêmes idées.
 
 ### Certificats TryHackMe
 
@@ -48,19 +49,18 @@ TryHackMe offre des certificats à l'issue de salles spécifiques ou de parcours
 
 ## TryHackMe VPN : Accès sécurisé aux salles virtuelles
 
-TryHackMe offre un service VPN (Virtual Private Network) intégré pour assurer un accès sécurisé aux salles virtuelles et aux ressources. Le VPN TryHackMe établit un tunnel crypté entre l'appareil de l'utilisateur et la plateforme TryHackMe, protégeant ainsi la transmission des données de toute écoute ou interception potentielle.
+TryHackMe offre un service VPN (réseau privé virtuel) intégré pour assurer un accès sécurisé aux salles virtuelles et aux ressources. Le VPN TryHackMe établit un tunnel crypté entre l'appareil de l'utilisateur et la plateforme TryHackMe, protégeant ainsi la transmission des données de toute écoute ou interception potentielle.
 
 En utilisant le VPN TryHackMe, les utilisateurs peuvent se connecter en toute confiance à la plateforme, sachant que leurs activités et leurs données sont protégées. Cette fonctionnalité est particulièrement cruciale lors de la pratique des compétences en cybersécurité, car elle ajoute une couche supplémentaire de sécurité à l'environnement d'apprentissage.
 
 ## Salles TryHackMe recommandées pour les débutants :
 
-| Salles d'apprentissage - Salle d'apprentissage - Description - Salle d'apprentissage - Salle d'apprentissage - Description - Salle d'apprentissage
+| Salle | Présentation |
 |------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
- [Network Services 2 ](https://tryhackme.com/room/networkservices2)                | L'accent est mis sur les concepts avancés liés aux services de réseau et propose des défis pratiques à relever par les utilisateurs.                             |
-| [OWASP Top 10](https://tryhackme.com/room/owasptop102021)           | Ce cours présente les 10 principales vulnérabilités de l'OWASP et offre une expérience pratique de l'identification et de l'exploitation de ces vulnérabilités. | |
-| [Windows Fundamentals 1  ](https://tryhackme.com/room/windowsfundamentals1xbx)           | Introduction aux systèmes d'exploitation Windows, couvrant les concepts fondamentaux et les considérations essentielles en matière de sécurité.                       
- [Windows Fundamentals 2](https://tryhackme.com/room/windowsfundamentals2x0x) and [3](https://tryhackme.com/room/windowsfundamentals3xzx)       | Approfondir les bases d'Active Directory, en couvrant la structure d'Active Directory, les contrôleurs de domaine, les comptes d'utilisateurs, les stratégies de groupe et les vulnérabilités en matière de sécurité.                    |
-
+| [Network Services 2 ](https://tryhackme.com/room/networkservices2) | Présente des notions avancées sur les services réseau et propose des défis pratiques. |
+| [OWASP Top 10](https://tryhackme.com/room/owasptop102021) | Ce cours présente les dix principales vulnérabilités de l’OWASP et permet de s’exercer à les identifier et à les exploiter. | |
+| [Windows Fundamentals 1](https://tryhackme.com/room/windowsfundamentals1xbx) | Introduction aux systèmes Windows, à leurs notions fondamentales et à leurs principaux enjeux de sécurité. |
+| [Windows Fundamentals 2](https://tryhackme.com/room/windowsfundamentals2x0x) et [3](https://tryhackme.com/room/windowsfundamentals3xzx) | Approfondit Active Directory, sa structure, les contrôleurs de domaine, les comptes, les stratégies de groupe et les vulnérabilités. |
 
 ## Conclusion
 
