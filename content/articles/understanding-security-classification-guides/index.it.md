@@ -1,10 +1,11 @@
 ---
 title: "Comprendere l'importanza delle guide alla classificazione della sicurezza nella protezione delle informazioni"
 date: 2023-06-17
+lastmod: 2026-11-25
 toc: true
 draft: false
 description: "Esplorate l'importanza delle guide alla classificazione di sicurezza per salvaguardare le informazioni classificate e garantire la conformità alle normative."
-tags: ["guide alla classificazione di sicurezza", "protezione delle informazioni", "informazioni classificate", "regolamenti governativi", "mitigazione del rischio", "controllo degli accessi", "sicurezza delle informazioni", "procedure di marcatura", "procedure di manipolazione", "sicurezza nazionale", "compliance", "minacce interne", "condivisione delle informazioni", "proprietà intellettuale", "processo decisionale", "obblighi legali", "obblighi etici", "collaborazione internazionale", "ISO 27001", "NISPOM", "Ordine esecutivo 13526", "classificazione delle informazioni", "protezione dei dati", "gestione delle informazioni", "condivisione controllata", "riservatezza delle informazioni", "integrità delle informazioni", "cultura della sicurezza informatica", "linee guida per la sicurezza delle informazioni", "pratiche di sicurezza informatica", "sensibilizzazione alla sicurezza delle informazioni"]
+tags: ["guide alla classificazione di sicurezza", "protezione delle informazioni", "informazioni classificate", "regolamenti governativi", "mitigazione del rischio", "controllo degli accessi", "sicurezza delle informazioni", "procedure di marcatura", "procedure di manipolazione", "sicurezza nazionale", "conformità", "minacce interne", "condivisione delle informazioni", "proprietà intellettuale", "processo decisionale", "obblighi legali", "obblighi etici", "collaborazione internazionale", "ISO 27001", "NISPOM", "Ordine esecutivo 13526", "classificazione delle informazioni", "protezione dei dati", "gestione delle informazioni", "condivisione controllata", "riservatezza delle informazioni", "integrità delle informazioni", "cultura della sicurezza delle informazioni", "linee guida per la sicurezza delle informazioni", "pratiche di sicurezza delle informazioni", "sensibilizzazione alla sicurezza delle informazioni"]
 cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.webp"
 coverAlt: "Un'immagine che raffigura una cartella di documenti chiusa a chiave con uno scudo che simboleggia la protezione delle informazioni classificate."
 coverCaption: ""
@@ -26,9 +27,9 @@ Le guide alla classificazione di sicurezza (SCG) sono documenti completi che for
 
 Uno dei concetti essenziali delle guide alla classificazione di sicurezza è quello dei **livelli di classificazione**. Questi livelli definiscono il grado di sensibilità e il livello di protezione richiesto per i diversi tipi di informazioni. I livelli di classificazione più comuni sono:
 
-- **Top Secret**: Informazioni che, se divulgate, potrebbero causare danni eccezionalmente gravi alla sicurezza nazionale.
-- **Segreto**: Informazioni che, se divulgate, potrebbero causare gravi danni alla sicurezza nazionale.
-- **Riservato**: Informazioni che, se divulgate, potrebbero causare danni alla sicurezza nazionale.
+- **Segretissimo (Top Secret)**: Informazioni che, se divulgate, potrebbero causare danni eccezionalmente gravi alla sicurezza nazionale.
+- **Segreto (Secret)**: Informazioni che, se divulgate, potrebbero causare gravi danni alla sicurezza nazionale.
+- **Riservato (Confidential)**: Informazioni che, se divulgate, potrebbero causare danni alla sicurezza nazionale.
 
 Ogni livello di classificazione prevede procedure di gestione e controlli di accesso specifici per impedire la divulgazione non autorizzata.
 
