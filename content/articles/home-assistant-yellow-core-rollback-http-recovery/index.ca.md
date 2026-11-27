@@ -1,7 +1,7 @@
 ---
 title: 'Retrocés de Home Assistant Core 2026.11 a 2026.10.4: correcció de la versió 3 d''emmagatzematge HTTP'
 date: 2026-11-15
-lastmod: '2026-11-18'
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: Corregeix l'error de la versió 3 d'emmagatzematge HTTP després que Home Assistant Core 2026.11 retrocedeixi a
@@ -151,13 +151,13 @@ stable = {
     if key not in ("created_at", "error", "error_message")
 }
 HTTP_STORAGE_SCHEMA(stable)
-print("Schema accepted")
+print("Esquema acceptat")
 '
 ```
 
 Atura't si l'esquema rebutja el candidat. Aquest pas no valida totes les integracions ni una forma no provada del magatzem HTTP.
 
-La comprovació de l'esquema va mostrar `Schema accepted` per a aquest candidat. Qualsevol altre resultat atura aquesta via de recuperació.
+La comprovació de l'esquema va mostrar `Esquema acceptat` per a aquest candidat. Qualsevol altre resultat atura aquesta via de recuperació.
 
 Aquesta conversió manual es va provar amb els camps indicats. Un fitxer amb paràmetres TLS, proxies de confiança o una configuració pendent necessita una revisió pròpia. Canviar només el número de versió principal deixa un perfil que la versió anterior de Core no admet.
 

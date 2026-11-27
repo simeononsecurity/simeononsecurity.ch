@@ -1,7 +1,7 @@
 ---
 title: 'Rollback von Home Assistant Core 2026.11 auf 2026.10.4: HTTP-Speicherversion 3 beheben'
 date: 2026-11-15
-lastmod: '2026-11-18'
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: Behebe den Fehler zur HTTP-Speicherversion 3, nachdem Home Assistant Core 2026.11 auf Yellow auf 2026.10.4 zurückgesetzt
@@ -152,13 +152,13 @@ stable = {
     if key not in ("created_at", "error", "error_message")
 }
 HTTP_STORAGE_SCHEMA(stable)
-print("Schema accepted")
+print("Schema akzeptiert")
 '
 ```
 
 Brich ab, wenn das Schema den Kandidaten ablehnt. Dieser Schritt prüft nicht jede Integration oder jede ungetestete Form des HTTP-Speichers.
 
-Die Schemaprüfung gab für diesen Kandidaten `Schema accepted` aus. Jedes andere Ergebnis beendet diesen Wiederherstellungspfad.
+Die Schemaprüfung gab für diesen Kandidaten `Schema akzeptiert` aus. Jedes andere Ergebnis beendet diesen Wiederherstellungspfad.
 
 Diese manuelle Umwandlung wurde mit den genannten Feldern getestet. Eine Datei mit TLS-Einstellungen, vertrauenswürdigen Proxies oder einer ausstehenden Konfiguration braucht eine eigene Prüfung. Wenn du nur die oberste Versionsnummer änderst, bleibt ein Profil übrig, das die ältere Core-Version nicht akzeptiert.
 

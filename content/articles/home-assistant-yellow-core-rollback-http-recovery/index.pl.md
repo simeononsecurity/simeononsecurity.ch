@@ -1,7 +1,7 @@
 ---
 title: 'Powrót Home Assistant Core 2026.11 do wersji 2026.10.4: naprawa wersji 3 magazynu HTTP'
 date: 2026-11-15
-lastmod: '2026-11-18'
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: Napraw błąd wersji 3 magazynu HTTP po powrocie Home Assistant Core 2026.11 do wersji 2026.10.4 na Yellow. Artykuł
@@ -151,13 +151,13 @@ stable = {
     if key not in ("created_at", "error", "error_message")
 }
 HTTP_STORAGE_SCHEMA(stable)
-print("Schema accepted")
+print("Schemat zaakceptowany")
 '
 ```
 
 Zatrzymaj się, jeśli schemat odrzuci kandydata. Ten krok nie weryfikuje każdej integracji ani nieprzetestowanego kształtu magazynu HTTP.
 
-Kontrola schematu wyświetliła `Schema accepted` dla tego kandydata. Każdy inny wynik kończy tę procedurę odzyskiwania.
+Kontrola schematu wyświetliła `Schemat zaakceptowany` dla tego kandydata. Każdy inny wynik kończy tę procedurę odzyskiwania.
 
 Ta ręczna konwersja była testowana dla podanych pól. Plik z ustawieniami TLS, zaufanymi proxy lub oczekującą konfiguracją wymaga osobnego przeglądu. Sama zmiana najwyższego numeru wersji pozostawia profil, którego starsze Core nie akceptuje.
 

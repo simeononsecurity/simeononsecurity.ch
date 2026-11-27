@@ -1,7 +1,7 @@
 ---
 title: 'Retour de Home Assistant Core 2026.11 à 2026.10.4 : corriger la version 3 du stockage HTTP'
 date: 2026-11-15
-lastmod: '2026-11-18'
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: Corrigez l'erreur de version 3 du stockage HTTP après le retour de Home Assistant Core 2026.11 à 2026.10.4 sur
@@ -151,13 +151,13 @@ stable = {
     if key not in ("created_at", "error", "error_message")
 }
 HTTP_STORAGE_SCHEMA(stable)
-print("Schema accepted")
+print("Schéma accepté")
 '
 ```
 
 Arrêtez-vous si le schéma rejette le candidat. Cette étape ne valide pas toutes les intégrations ni les formes non testées du stockage HTTP.
 
-La vérification du schéma a affiché `Schema accepted` pour ce candidat. Tout autre résultat met fin à cette procédure de récupération.
+La vérification du schéma a affiché `Schéma accepté` pour ce candidat. Tout autre résultat met fin à cette procédure de récupération.
 
 Cette conversion manuelle a été testée pour les champs indiqués. Un fichier contenant des paramètres TLS, des mandataires de confiance ou une configuration en attente nécessite son propre examen. Modifier uniquement le numéro de version principal laisse un profil que l'ancienne version de Core refuse.
 

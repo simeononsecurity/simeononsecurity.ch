@@ -1,7 +1,7 @@
 ---
 title: 'Rollback da Home Assistant Core 2026.11 a 2026.10.4: correggere la versione 3 dello storage HTTP'
 date: 2026-11-15
-lastmod: '2026-11-18'
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: Correggi l'errore della versione 3 dello storage HTTP dopo il rollback di Home Assistant Core 2026.11 a 2026.10.4
@@ -151,13 +151,13 @@ stable = {
     if key not in ("created_at", "error", "error_message")
 }
 HTTP_STORAGE_SCHEMA(stable)
-print("Schema accepted")
+print("Schema accettato")
 '
 ```
 
 Interrompi se lo schema rifiuta il candidato. Questo passaggio non convalida tutte le integrazioni né tutte le forme non testate dello storage HTTP.
 
-Il controllo dello schema ha stampato `Schema accepted` per questo candidato. Qualsiasi altro risultato interrompe questa procedura di ripristino.
+Il controllo dello schema ha stampato `Schema accettato` per questo candidato. Qualsiasi altro risultato interrompe questa procedura di ripristino.
 
 Questa conversione manuale è stata testata con i campi indicati. Un file con impostazioni TLS, proxy attendibili o una configurazione in sospeso richiede una verifica specifica. Modificare solo il numero di versione principale lascia un profilo che la versione precedente di Core non accetta.
 

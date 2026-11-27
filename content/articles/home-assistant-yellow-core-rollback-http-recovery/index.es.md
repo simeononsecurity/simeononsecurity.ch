@@ -1,7 +1,7 @@
 ---
 title: 'Reversión de Home Assistant Core 2026.11 a 2026.10.4: reparar la versión 3 del almacenamiento HTTP'
 date: 2026-11-15
-lastmod: '2026-11-18'
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: Corrige el error de la versión 3 del almacenamiento HTTP después de que Home Assistant Core 2026.11 vuelva a
@@ -151,13 +151,13 @@ stable = {
     if key not in ("created_at", "error", "error_message")
 }
 HTTP_STORAGE_SCHEMA(stable)
-print("Schema accepted")
+print("Esquema aceptado")
 '
 ```
 
 Detente si el esquema rechaza el candidato. Este paso no valida todas las integraciones ni todas las formas no probadas del almacén HTTP.
 
-La comprobación del esquema imprimió `Schema accepted` para este candidato. Cualquier otro resultado detiene este procedimiento de recuperación.
+La comprobación del esquema imprimió `Esquema aceptado` para este candidato. Cualquier otro resultado detiene este procedimiento de recuperación.
 
 Esta conversión manual se probó con los campos indicados. Un archivo con ajustes TLS, proxies de confianza o una configuración pendiente requiere su propia revisión. Cambiar solo el número de versión principal deja un perfil que la versión anterior de Core no acepta.
 

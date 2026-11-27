@@ -1,7 +1,7 @@
 ---
 title: Home Assistant Core 2026.11 回退到 2026.10.4：修复 HTTP 存储版本 3
 date: 2026-11-15
-lastmod: '2026-11-18'
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: Home Assistant Core 2026.11 在 Yellow 上回退到 2026.10.4 后，修复 HTTP 存储版本 3 错误。包含带保护措施的命令和经过验证的输出。
@@ -150,13 +150,13 @@ stable = {
     if key not in ("created_at", "error", "error_message")
 }
 HTTP_STORAGE_SCHEMA(stable)
-print("Schema accepted")
+print("架构已通过验证")
 '
 ```
 
 如果架构检查拒绝候选文件，请停止。此步骤无法验证每个集成，也无法验证未经测试的 HTTP 存储形式。
 
-该候选文件的架构检查结果为 `Schema accepted`。出现其他结果时，请停止此恢复流程。
+该候选文件的架构检查结果为 `架构已通过验证`。出现其他结果时，请停止此恢复流程。
 
 这项手动转换只针对所述字段进行了测试。包含 TLS 设置、可信代理或待处理配置的文件需要单独审查。只更改最高层版本号，会留下旧版 Core 不接受的配置。
 

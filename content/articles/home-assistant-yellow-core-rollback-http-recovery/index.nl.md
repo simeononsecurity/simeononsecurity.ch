@@ -1,7 +1,7 @@
 ---
 title: 'Terugval van Home Assistant Core 2026.11 naar 2026.10.4: HTTP-opslagversie 3 herstellen'
 date: 2026-11-15
-lastmod: '2026-11-18'
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: Herstel de fout over HTTP-opslagversie 3 nadat Home Assistant Core 2026.11 op Yellow is teruggevallen naar 2026.10.4.
@@ -151,13 +151,13 @@ stable = {
     if key not in ("created_at", "error", "error_message")
 }
 HTTP_STORAGE_SCHEMA(stable)
-print("Schema accepted")
+print("Schema geaccepteerd")
 '
 ```
 
 Stop als het schema de kandidaat afwijst. Deze stap valideert niet elke integratie of iedere niet-geteste vorm van HTTP-opslag.
 
-De schemacontrole meldde `Schema accepted` voor deze kandidaat. Bij elk ander resultaat stop je deze herstelroute.
+De schemacontrole meldde `Schema geaccepteerd` voor deze kandidaat. Bij elk ander resultaat stop je deze herstelroute.
 
 Deze handmatige omzetting is getest voor de genoemde velden. Een bestand met TLS-instellingen, vertrouwde proxy's of een wachtende configuratie vereist een eigen beoordeling. Alleen het hoogste versienummer wijzigen laat een profiel achter dat de oudere Core-versie niet accepteert.
 

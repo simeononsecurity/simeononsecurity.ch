@@ -1,7 +1,7 @@
 ---
 title: 'Revenirea Home Assistant Core 2026.11 la 2026.10.4: remedierea versiunii 3 a stocării HTTP'
 date: 2026-11-15
-lastmod: '2026-11-18'
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: Remediază eroarea versiunii 3 a stocării HTTP după revenirea Home Assistant Core 2026.11 la 2026.10.4 pe Yellow.
@@ -151,13 +151,13 @@ stable = {
     if key not in ("created_at", "error", "error_message")
 }
 HTTP_STORAGE_SCHEMA(stable)
-print("Schema accepted")
+print("Schema acceptată")
 '
 ```
 
 Oprește-te dacă schema respinge candidatul. Acest pas nu validează fiecare integrare sau fiecare formă netestată a stocării HTTP.
 
-Verificarea schemei a afișat `Schema accepted` pentru acest candidat. Orice alt rezultat oprește această procedură de recuperare.
+Verificarea schemei a afișat `Schema acceptată` pentru acest candidat. Orice alt rezultat oprește această procedură de recuperare.
 
 Această conversie manuală a fost testată pentru câmpurile menționate. Un fișier cu setări TLS, proxy-uri de încredere sau o configurație în așteptare are nevoie de o analiză separată. Schimbarea doar a numărului principal de versiune lasă un profil pe care versiunea mai veche Core nu îl acceptă.
 
