@@ -251,14 +251,18 @@ Outputs the value of a named front matter or site parameter.
 
 ---
 
-### `jobsdate` — Output a dynamic date for job/career pages
+### `jobsdate` — Output authored dates for job listings
 
 ```
 {{< jobsdate >}}
 ```
 
-Outputs a formatted date string used in career playbook pages to indicate when data was
-last reviewed.
+Set `job_posted` to the original posting date and `job_reviewed` to the latest
+confirmed review date in the jobs page front matter, as quoted ISO dates. Do not
+use the site build date to renew listings. Keep `datePosted` in
+`content/jobs/pageschema.html` consistent with the original date. Publish an
+expiration date only when a real deadline exists. Verify both listings' visible
+dates, JSON-LD, and the role fragment links in rendered HTML.
 
 ---
 
