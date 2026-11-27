@@ -71,6 +71,13 @@ Rules must be:
 - **No filler.** Do not restate the obvious. Every sentence should add information
   that would not otherwise be recoverable from reading the code.
 
+## Shell Text Safety
+
+- When a shell command writes Markdown or another file containing backticks, do
+  not place that text inside a double-quoted shell string. The shell executes
+  backtick command substitutions. Use a single-quoted heredoc or a safely
+  quoted script, then read back the written lines before continuing.
+
 ## When to Do This
 
 Update rules **during the task**, not after. Before committing work, ask:

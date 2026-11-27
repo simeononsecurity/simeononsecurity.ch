@@ -64,7 +64,8 @@ TABLE_ENGLISH_REVIEW_WORDS = ENGLISH_STOPWORDS | set(
     "performance description rate duration total size count level status per "
     "component privacy question local model server situation better choice "
     "reason evidence collect action recommendation finding concern response "
-    "what check example setting location boundary control short project responsive assistant a"
+    "what check example setting location boundary control short project responsive assistant a "
+    "split layer layers different occupy devices tensor row within adds communication tradeoff"
     .split()
 )
 TABLE_UNTRANSLATED_GENERIC_LABELS = {
@@ -74,6 +75,8 @@ TABLE_UNTRANSLATED_GENERIC_LABELS = {
     "total certifications",
     "with fallback",
     "plug and play",
+    "cpu plus gpu",
+    "cpu plus gpu offload",
 }
 GENERIC_ENGLISH_TAXONOMY_LABELS = {
     "ad blocking",
@@ -208,6 +211,7 @@ CSV_FIELDS = [
     "exact_english_sentences", "copied_reader_fenced_lines",
     "copied_english_fenced_formulas",
     "copied_reader_code_prose", "copied_unlabeled_fence_lines", "copied_english_spans",
+    "copied_english_yaml_descriptions",
     "split_word_emphasis", "english_dominant_paragraphs",
     "copied_english_table_cells", "copied_english_headings",
     "copied_english_metadata", "taxonomy_count_differences",
@@ -227,6 +231,7 @@ CSV_FIELDS = [
     "high_confidence_english_paragraphs",
     "copied_english_body",
     "copied_english_prose_paragraphs",
+    "copied_english_list_items",
     "markdown_structure_differences", "note",
 ]
 SCRIPT_RANGES = {
@@ -1411,6 +1416,64 @@ def copied_english_link_connectors(text: str) -> list[str]:
     return findings
 
 
+def reader_fenced_yaml_descriptions(text: str) -> set[str]:
+    """Extract reader-facing YAML description values from executable fences."""
+    descriptions = set()
+    for block in fenced_blocks(text):
+        body = str(block["body"])
+        language = str(block["language"])
+        if language not in {"yaml", "yml"} and (
+            language
+            or not re.search(r"(?m)^\s*(?:-\s*)?description\s*:", body, re.I)
+        ):
+            continue
+        lines = body.splitlines()
+        index = 0
+        while index < len(lines):
+            match = re.match(
+                r"^(?P<indent>\s*)(?:-\s*)?description\s*:\s*(?P<value>.*?)\s*$",
+                lines[index],
+                re.I,
+            )
+            index += 1
+            if not match:
+                continue
+            indent = len(match.group("indent"))
+            value = match.group("value").strip()
+            if re.fullmatch(r"[|>](?:[+-]\d?|\d?[+-]?)?", value):
+                continuation = []
+                content_indent = None
+                while index < len(lines):
+                    next_line = lines[index]
+                    if next_line.strip():
+                        next_indent = len(next_line) - len(next_line.lstrip())
+                        if content_indent is None:
+                            content_indent = next_indent
+                        elif next_indent < content_indent:
+                            break
+                    continuation.append(next_line.strip())
+                    index += 1
+                value = " ".join(continuation)
+            elif len(value) >= 2 and value[0] == value[-1] and value[0] in {"'", '"'}:
+                value = value[1:-1]
+            else:
+                value = re.split(r"\s+#", value, maxsplit=1)[0].strip()
+            if re.fullmatch(r"\s*{{[^{}]+}}\s*", value):
+                continue
+            normalized = normalize(value)
+            if len(normalized.split()) >= 2:
+                descriptions.add(normalized)
+    return descriptions
+
+
+def copied_english_yaml_descriptions(source: str, target: str) -> list[str]:
+    """Find unchanged reader-facing YAML descriptions in executable examples."""
+    return sorted(
+        reader_fenced_yaml_descriptions(source)
+        & reader_fenced_yaml_descriptions(target)
+    )
+
+
 def markdown_headings(text: str) -> list[tuple[int, str]]:
     """Return Markdown heading levels and normalized visible labels."""
     text = re.sub(r"(?s)(`{3,}|~{3,}).*?\1", " ", text)
@@ -2041,6 +2104,40 @@ def copied_english_prose_paragraphs(source: str, target: str) -> list[str]:
     return sorted(copied)
 
 
+def copied_english_list_items(source: str, target: str) -> list[str]:
+    """Find unchanged English reader-facing list items, including plain text fences."""
+    def items(text: str) -> set[str]:
+        found = set()
+        prose = strip_fenced_blocks(text)
+        prose += "\n" + "\n".join(
+            str(block["body"])
+            for block in fenced_blocks(text)
+            if block["language"] in {"", "text", "plaintext", "markdown"}
+        )
+        for line in prose.splitlines():
+            match = re.match(r"^\s*(?:[-+*]|\d+[.)])\s+(.+?)\s*$", line)
+            if not match:
+                continue
+            value = normalize(visible_text(match.group(1)))
+            prose_around_links = re.sub(r"!?\[[^\]]*\]\([^)]+\)", " ", match.group(1))
+            if "](" in match.group(1) and len(normalize(prose_around_links).split()) < 10:
+                continue
+            words = re.findall(r"[a-z]+(?:'[a-z]+)?", value)
+            if len(words) < 5:
+                continue
+            english_signals = sum(word in ENGLISH_STOPWORDS for word in words)
+            if english_signals < 1 or english_signals / len(words) < 0.10:
+                continue
+            title_words = re.findall(r"\b[A-Za-z][A-Za-z0-9'-]*\b", match.group(1))
+            capitalized = sum(word[0].isupper() for word in title_words)
+            if title_words and capitalized / len(title_words) >= 0.6:
+                continue
+            found.add(value)
+        return found
+
+    return sorted(items(source) & items(target))
+
+
 def copied_english_opening(source: str, target: str) -> str:
     """Queue every unchanged opening for manual review."""
     def first_paragraph(text: str) -> str:
@@ -2470,6 +2567,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         copied_mixed_phrases = copied_english_mixed_phrases(source_body, body, locale)
         copied_generic_terms = copied_english_generic_terms(source_body, body, locale)
         copied_prose_paragraphs = copied_english_prose_paragraphs(source_body, body)
+        copied_list_items = copied_english_list_items(source_body, body)
         english_paragraphs = english_dominant_paragraphs(body, locale)
         high_confidence_english_paragraphs_found = high_confidence_english_paragraphs(body, locale)
         copied_reader_verbs = copied_english_reader_verbs(source_body, body, locale)
@@ -2556,6 +2654,9 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         copied_code_prose = sorted(copied_reader_code_prose(source_body, body))
         if copied_code_prose:
             reasons.append("copied_reader_code_prose")
+        copied_yaml_descriptions = copied_english_yaml_descriptions(source_body, body)
+        if copied_yaml_descriptions:
+            reasons.append("copied_english_yaml_description")
         english_code_fallback = english_reader_code_prose_fallback(source_body, body)
         if english_code_fallback:
             reasons.append("English_reader_code_prose_fallback")
@@ -2574,6 +2675,8 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             reasons.append("copied_english_generic_term")
         if copied_prose_paragraphs:
             reasons.append("copied_english_prose_paragraph")
+        if copied_list_items:
+            reasons.append("copied_english_list_item")
         if english_paragraphs:
             reasons.append("English_dominant_reader_paragraph")
         if high_confidence_english_paragraphs_found:
@@ -2636,6 +2739,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "copied_reader_fenced_lines": " | ".join(copied_fence_lines),
                 "copied_english_fenced_formulas": " | ".join(copied_fence_formulas),
                 "copied_reader_code_prose": " | ".join(copied_code_prose),
+                "copied_english_yaml_descriptions": " | ".join(copied_yaml_descriptions),
                 "english_reader_code_prose_fallback": " | ".join(english_code_fallback),
                 "copied_unlabeled_fence_lines": " | ".join(copied_unlabeled_fence),
                 "copied_english_spans": " | ".join(sorted(copied_spans)),
@@ -2670,6 +2774,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "copied_english_link_connectors": " | ".join(copied_link_connectors),
                 "copied_english_body": copied_body,
                 "copied_english_prose_paragraphs": " | ".join(copied_prose_paragraphs),
+                "copied_english_list_items": " | ".join(copied_list_items),
                 "markdown_structure_differences": json.dumps(
                     structure_differences, ensure_ascii=False, sort_keys=True
                 ),
@@ -2683,13 +2788,15 @@ def main() -> int:
     parser.add_argument("paths", nargs="*", type=Path, help="article bundle directories or index.en.md files")
     parser.add_argument("--all", action="store_true", help="scan all published article bundles")
     parser.add_argument("--csv", type=Path, help="write findings to this CSV path")
-    parser.add_argument(
+    gate_modes = parser.add_mutually_exclusive_group()
+    gate_modes.add_argument(
         "--fail-on-english-fallback",
         action="store_true",
         help=(
             "fail on English fallbacks and required taxonomy-count mismatches: an exact English body or prose paragraph, "
             "missing configured translations, source structure mismatches (headings, lists, tables, links, shortcodes, fences, emphasis), "
-            "one English-dominant reader paragraph, many copied English paragraphs, "
+            "one English-dominant reader paragraph, copied reader-facing list items, "
+            "many copied English paragraphs, "
             "English stopword dominance, changed English-dominant titles, unchanged lowercase "
             "inline acronym expansions without a localized gloss; source-identical titles and "
             "bilingual or "
@@ -2697,6 +2804,16 @@ def main() -> int:
             "code text or English calculation labels, copied generic descriptors or link labels, "
             "or a missing target script; also fail when 20 or more distinct source-matched English "
             "phrases appear in a non-Latin translation"
+        ),
+    )
+    gate_modes.add_argument(
+        "--fail-on-english-body-fallback",
+        action="store_true",
+        help=(
+            "fail only on copied English article bodies or prose paragraphs, "
+            "English-dominant translated bodies, and missing expected scripts; "
+            "use this for the repository-wide CI regression gate when unrelated "
+            "legacy structure findings exist"
         ),
     )
     args = parser.parse_args()
@@ -2722,10 +2839,11 @@ def main() -> int:
     published_source_count = sum(
         1 for source in sources if published(read_page(source)[0])
     )
-    if args.fail_on_english_fallback:
+    if args.fail_on_english_fallback or args.fail_on_english_body_fallback:
         high_confidence = {
             "copied_english_body",
             "copied_english_prose_paragraph",
+            "copied_english_list_item",
             "many_exact_English_paragraphs",
             "English_stopword_dominance",
             "English_dominant_reader_body",
@@ -2738,6 +2856,7 @@ def main() -> int:
             "copied_english_link_connector",
             "copied_english_generic_link_label",
             "English_reader_code_prose_fallback",
+            "copied_english_yaml_description",
             "copied_english_acronym_expansion",
             "missing_acronym_key",
             "copied_english_internal_link_label",
@@ -2750,40 +2869,65 @@ def main() -> int:
             "copied_generic_english_taxonomy",
             "taxonomy_count_mismatch",
         }
-        blockers = [
-            row for row in findings
-            if "translation_missing" in row["reasons"].split(";")
-            or high_confidence.intersection(row["reasons"].split(";"))
-            or any(
-                reason.startswith("markdown_") and reason.endswith("_mismatch")
-                for reason in row["reasons"].split(";")
-            )
-            or any(
-                reason.startswith("taxonomy_count_mismatch:")
-                for reason in row["reasons"].split(";")
-            )
-        ]
+        body_fallback = {
+            "copied_english_body",
+            "copied_english_prose_paragraph",
+            "many_exact_English_paragraphs",
+            "English_stopword_dominance",
+            "English_dominant_reader_body",
+            "high_confidence_english_paragraph",
+            "expected_script_missing",
+            "copied_english_opening",
+        }
+        blocking_reasons = body_fallback if args.fail_on_english_body_fallback else high_confidence
+        if args.fail_on_english_body_fallback:
+            blockers = [
+                row for row in findings
+                if body_fallback.intersection(row["reasons"].split(";"))
+            ]
+        else:
+            blockers = [
+                row for row in findings
+                if "translation_missing" in row["reasons"].split(";")
+                or high_confidence.intersection(row["reasons"].split(";"))
+                or any(
+                    reason.startswith("markdown_") and reason.endswith("_mismatch")
+                    for reason in row["reasons"].split(";")
+                )
+                or any(
+                    reason.startswith("taxonomy_count_mismatch:")
+                    for reason in row["reasons"].split(";")
+                )
+            ]
         print(
             f"published bundles scanned: {published_source_count}; configured locales: {len(locales)}; "
-            f"strict blockers: {len(blockers)}"
+            f"{'English body fallback blockers' if args.fail_on_english_body_fallback else 'strict blockers'}: {len(blockers)}"
         )
-        mixed_phrase_reviews = [
-            row for row in findings
-            if "copied_english_mixed_phrase_review" in row["reasons"].split(";")
-        ]
-        print(f"source-matched mixed-script phrase reviews: {len(mixed_phrase_reviews)}")
-        for row in mixed_phrase_reviews:
-            print(
-                f"{row['path']}\t{row['locale']}\t"
-                f"{row['copied_english_mixed_phrases']}"
-            )
+        if not args.fail_on_english_body_fallback:
+            mixed_phrase_reviews = [
+                row for row in findings
+                if "copied_english_mixed_phrase_review" in row["reasons"].split(";")
+            ]
+            print(f"source-matched mixed-script phrase reviews: {len(mixed_phrase_reviews)}")
+            for row in mixed_phrase_reviews:
+                print(
+                    f"{row['path']}\t{row['locale']}\t"
+                    f"{row['copied_english_mixed_phrases']}"
+                )
         for row in blockers:
             reasons = [
                 reason for reason in row["reasons"].split(";")
-                if reason == "translation_missing"
-                or reason in high_confidence
-                or (reason.startswith("markdown_") and reason.endswith("_mismatch"))
-                or reason.startswith("taxonomy_count_mismatch:")
+                if reason in blocking_reasons
+                or (not args.fail_on_english_body_fallback and reason == "translation_missing")
+                or (
+                    not args.fail_on_english_body_fallback
+                    and reason.startswith("markdown_")
+                    and reason.endswith("_mismatch")
+                )
+                or (
+                    not args.fail_on_english_body_fallback
+                    and reason.startswith("taxonomy_count_mismatch:")
+                )
             ]
             print(
                 f"{row['path']}\t{','.join(sorted(reasons))}\t"
@@ -2801,7 +2945,7 @@ def main() -> int:
             writer.writeheader()
             writer.writerows(findings)
         print(f"CSV report: {args.csv}")
-    if args.fail_on_english_fallback:
+    if args.fail_on_english_fallback or args.fail_on_english_body_fallback:
         return 1 if blockers else 0
     return 1 if findings else 0
 

@@ -27,6 +27,8 @@ from check_translation_english_leakage import (
     missing_acronym_keys,
     copied_english_opening,
     copied_english_prose_paragraphs,
+    copied_english_list_items,
+    copied_english_yaml_descriptions,
     copied_english_taxonomy,
     copied_generic_english_taxonomy,
     copied_english_table_cells,
@@ -62,6 +64,46 @@ from check_translation_english_leakage import (
 
 
 class FencedProseTests(unittest.TestCase):
+    def test_strict_gate_blocks_short_unchanged_yaml_description(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            source = (
+                "---\ntitle: 'Network automation'\ndate: 2026-11-22\ndraft: false\n---\n\n"
+                "## Network example\n\nLocalized explanation.\n\n"
+                "```yaml\n"
+                "- name: Configure interface\n"
+                "  description: Uplink to Core\n"
+                "```\n"
+            )
+            target = source.replace(
+                "title: 'Network automation'", "title: 'Netwerkautomatisering'"
+            ).replace("Localized explanation.", "Gelokaliseerde uitleg.")
+            (bundle / "index.en.md").write_text(source, encoding="utf-8")
+            (bundle / "index.nl.md").write_text(target, encoding="utf-8")
+
+            self.assertEqual(
+                copied_english_yaml_descriptions(source, target),
+                ["uplink to core"],
+            )
+            localized = target.replace("description: Uplink to Core", "description: Verbinding naar de kern")
+            self.assertEqual(copied_english_yaml_descriptions(source, localized), [])
+
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["nl"]),
+                patch.object(
+                    sys,
+                    "argv",
+                    ["checker", "--fail-on-english-fallback", str(bundle)],
+                ),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("copied_english_yaml_description", stdout.getvalue())
+
     def test_german_quellen_heading_marks_following_citation_titles_as_references(self):
         self.assertTrue(is_reference_heading("Quellen"))
 
@@ -285,6 +327,105 @@ class FencedProseTests(unittest.TestCase):
 
         self.assertEqual(result, 1)
         self.assertIn("copied_english_body", stdout.getvalue())
+
+    def test_body_fallback_gate_blocks_locale_file_with_english_body(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            body = (
+                "## Overview\n\n"
+                "Administrators review each access request before granting permission to protected records. "
+                "The system records the decision and alerts the responsible owner.\n"
+            )
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Access review'\n---\n" + body,
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Vérification des accès'\n---\n" + body,
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch.object(
+                    sys,
+                    "argv",
+                    ["checker", "--fail-on-english-body-fallback", str(bundle)],
+                ),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("copied_english_body", stdout.getvalue())
+
+    def test_body_fallback_gate_accepts_translated_body(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Access review'\n---\n"
+                "## Overview\n\nAdministrators review each access request before granting permission.\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Vérification des accès'\n---\n"
+                "## Aperçu\n\nLes administrateurs vérifient chaque demande d’accès avant d’accorder l’autorisation.\n",
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch.object(
+                    sys,
+                    "argv",
+                    ["checker", "--fail-on-english-body-fallback", str(bundle)],
+                ),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 0)
+        self.assertIn("English body fallback blockers: 0", stdout.getvalue())
+
+    def test_strict_gate_blocks_copied_english_reader_list_items(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            source_body = (
+                "## Overview\n\n```\n"
+                "- Access control: Device configuration and administrative access\n"
+                "- Awareness and training: Personnel education and procedures\n"
+                "- Data security: Records are protected by access control and encryption\n"
+                "```\n"
+            )
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Security controls overview'\n---\n" + source_body,
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Aperçu des contrôles de sécurité'\n---\n" + source_body,
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch.object(
+                    sys,
+                    "argv",
+                    ["checker", "--fail-on-english-fallback", str(bundle)],
+                ),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("copied_english_list_item", stdout.getvalue())
+
+    def test_list_item_screen_skips_source_link_titles(self):
+        source = "- [Microsoft Docs Windows Defender cmdlets in Windows PowerShell](https://example.test)\n"
+        self.assertEqual(copied_english_list_items(source, source), [])
 
     def test_english_title_screen_catches_low_stopword_descriptive_titles(self):
         self.assertTrue(
@@ -918,6 +1059,19 @@ class FencedProseTests(unittest.TestCase):
             ],
         )
 
+    def test_flags_english_split_strategy_table_cells(self):
+        table = (
+            "| Split strategy | Main tradeoff |\n| --- | --- |\n"
+            "| Layer split | Different layers occupy different devices |\n"
+            "| Tensor or row split | Work within layers adds communication |\n"
+            "| CPU plus GPU | More capacity with different latency profiles |\n"
+        )
+        findings = copied_english_table_cells(table, table, "hi")
+        self.assertEqual(len(findings), 8)
+        self.assertIn("layer split", " ".join(findings))
+        self.assertIn("different layers occupy different devices", " ".join(findings))
+        self.assertIn("work within layers adds communication", " ".join(findings))
+
     def test_flags_known_untranslated_generic_table_labels(self):
         for label in (
             "Model A",
@@ -926,6 +1080,8 @@ class FencedProseTests(unittest.TestCase):
             "Total certifications",
             "with fallback",
             "Plug-and-play",
+            "CPU plus GPU",
+            "CPU plus GPU offload",
             "Infrastructure as Code",
         ):
             with self.subTest(label=label):
@@ -934,6 +1090,12 @@ class FencedProseTests(unittest.TestCase):
                     copied_english_table_cells(table, table, "fr"),
                     [f"table 1, row 1, cell 1: {normalize(label)}"],
                 )
+
+    def test_ignores_plus_in_product_and_certification_names(self):
+        for label in ("80 Plus Gold", "OpenCode Go Plus", "Pass Plus"):
+            with self.subTest(label=label):
+                table = f"| {label} |\n| --- |\n"
+                self.assertEqual(copied_english_table_cells(table, table, "fr"), [])
 
     def test_ignores_localized_versions_of_generic_table_labels(self):
         source = (
@@ -3084,6 +3246,36 @@ class FencedProseTests(unittest.TestCase):
         self.assertEqual(copied_reader_code_prose(source, source), expected)
         self.assertEqual(copied_reader_code_prose(source, localized), set())
         self.assertEqual(english_reader_code_prose_fallback(source, source), sorted(expected))
+
+    def test_screens_short_natural_language_yaml_description_values(self):
+        source = "```\nconfig:\n  description: Uplink to Core\n```\n"
+        localized = "```\nconfig:\n  description: Anbindung ans Kernnetz\n```\n"
+        self.assertEqual(copied_english_yaml_descriptions(source, source), ["uplink to core"])
+        self.assertEqual(copied_english_yaml_descriptions(source, localized), [])
+
+    def test_strict_gate_blocks_unchanged_english_yaml_description_value(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            body = "## Network example\n\n```\nconfig:\n  description: Uplink to Core\n```\n"
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Network configuration'\n---\n" + body,
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Configuration réseau'\n---\n"
+                + body.replace("## Network example", "## Exemple de réseau"),
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+        self.assertEqual(result, 1)
+        self.assertIn("copied_english_yaml_description", stdout.getvalue())
 
     def test_strict_gate_blocks_unchanged_english_yaml_sample_value(self):
         with TemporaryDirectory() as temporary_directory:
