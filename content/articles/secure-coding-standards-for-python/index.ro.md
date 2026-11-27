@@ -1,7 +1,7 @@
 ---
 title: "Standarde de codare securizată pentru Python: Cele mai bune practici"
 date: 2023-02-26
-lastmod: 2026-11-19
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Învățați cele mai bune practici de codare securizată în Python pentru a minimiza riscul de breșe de securitate și pentru a proteja datele sensibile."
@@ -138,7 +138,7 @@ from markupsafe import escape
 @app.route('/')
 def hello():
     name = "<script>alert('xss');</script>"
-    return 'Hello, ' + escape(name)
+    return 'Salut, ' + escape(name)
 ```
 ______
 

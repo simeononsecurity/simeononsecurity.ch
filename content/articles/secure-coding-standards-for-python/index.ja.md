@@ -1,7 +1,7 @@
 ---
 title: "Pythonのためのセキュアコーディングスタンダード：ベストプラクティス"
 date: 2023-02-26
-lastmod: 2026-11-19
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "セキュリティ侵害のリスクを最小限に抑え、機密データを保護するために、Pythonでセキュアコーディングするためのベストプラクティスを学びます。"
@@ -138,7 +138,7 @@ from markupsafe import escape
 @app.route('/')
 def hello():
     name = "<script>alert('xss');</script>"
-    return 'Hello, ' + escape(name)
+    return 'こんにちは、' + escape(name)
 ```
 ______
 

@@ -1,7 +1,7 @@
 ---
 title: "Python 的安全编码标准：最佳实践"
 date: 2023-02-26
-lastmod: 2026-11-19
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "学习 Python 安全编码的最佳实践，最大限度地降低安全漏洞的风险并保护敏感数据。"
@@ -138,7 +138,7 @@ from markupsafe import escape
 @app.route('/')
 def hello():
     name = "<script>alert('xss');</script>"
-    return 'Hello, ' + escape(name)
+    return '你好，' + escape(name)
 ```
 ______
 

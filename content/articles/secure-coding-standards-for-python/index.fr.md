@@ -1,7 +1,7 @@
 ---
 title: "Normes de codage sécurisé pour Python : Meilleures pratiques"
 date: 2023-02-26
-lastmod: 2026-11-19
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Apprenez les meilleures pratiques de codage sécurisé en Python pour minimiser le risque de failles de sécurité et protéger les données sensibles."
@@ -138,7 +138,7 @@ from markupsafe import escape
 @app.route('/')
 def hello():
     name = "<script>alert('xss');</script>"
-    return 'Hello, ' + escape(name)
+    return 'Bonjour, ' + escape(name)
 ```
 ______
 
