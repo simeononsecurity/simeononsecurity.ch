@@ -1,7 +1,7 @@
 ---
 title: "Flock Safety摄像头监控：隐私与保护"
 date: 2026-05-24
-lastmod: 2026-10-08
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "了解2026年Flock Safety ALPR摄像头的广泛部署情况，理解其隐私影响，并学习有效的反监控策略，包括检测设备。"
@@ -25,6 +25,17 @@ canonical: "https://simeononsecurity.com/articles/flock-safety-camera-surveillan
 
 ______
 
+
+## 如何阅读当前证据
+
+本文汇总了供应商声明、法院意见、公民自由研究和社区地图。这些来源回答的问题各不相同。供应商页面介绍产品设计和其声称的控制措施。法院意见针对一份记录和一个法律问题。社区地图记录用户提交的观察结果。
+
+每个数字旁都要标明日期和来源类型。把地图标记当作线索。标记不能证明摄像头归谁所有、是否正在运行，或是否存在与你的车辆有关的记录。
+
+截至 2026 年 10 月 10 日的核查，Flock 的[车牌读取器页面](https://www.flocksafety.com/products/license-plate-readers)称其在 2025 年协助处理了超过 100 万起案件，Flock 协助侦破的案件占已侦破案件的 20%，并在 49 个州建立了网络连接。这些数字来自供应商。ACLU 于 2026 年 8 月 13 日发布的[声明](https://www.aclu.org/press-releases/as-public-opposition-to-flock-grows-aclu-responds-to-surveillance-companys-new-updates)称，至少 6,000 个城市部署了超过 120,000 台 Flock 读取器。DeFlock 的[主页](https://deflock.org/)称其在美国地图上标出了 143,924 台车牌读取器。DeFlock 表示地图数据来自志愿者和 OpenStreetMap，因此总数涵盖 ALPR 设施，并不等于 Flock 自有摄像头数量。
+
+此前的 75,000、3,500、5,000、1.5 亿、124,186 和 97 等数字仍保留在下文，作为上次修订时的历史背景。截至本次核查日期，我没有找到能逐一确认这些数字的第一手来源。除非有当地记录或注明日期的来源支持，否则请将其视为估算值。
+
 ## 您现在可以采取的行动
 
 您无需成为安全研究人员或律师，也能抵制ALPR监控。以下是从最简单到最深度参与的行动计划：
@@ -47,7 +58,7 @@ ______
 
 > 💰 使用代码**FLOCKFINDER**可享所有FlockYou设备**8折优惠**，或使用**SIMEONONSECURITY**享STS Collective全单最高**8折优惠**：**[stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY)**
 
-有关所有检测硬件（包括OUI-SPY和DIY ESP32设备）的完整技术比较，请阅读：**[Flock-You Detection Project: Counter-Surveillance Hardware and Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**。
+有关所有检测硬件（包括OUI-SPY和DIY ESP32设备）的完整技术比较，请阅读：**[Flock-You检测：反监控设置指南](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**。
 
 ### 3. 了解您所在社区的情况
 
@@ -55,16 +66,20 @@ ______
 - **[ALPR.watch](https://alpr.watch/)** — 了解您所在城市的议会近期是否将对ALPR合同进行投票，以便出席发言。
 - 使用**[DeFlock FOIA指南](https://deflock.org/foia)**和**[MuckRock模板库](https://www.muckrock.com/search/?q=Flock)**提交**公共记录申请**，查阅当地Flock合同。
 
+两张地图都只是研究线索。Wi-Fi OUI 匹配或社区提交的标记不能证明摄像头归属、当前是否运行或是否采集数据。请通过公共记录、相关机构，或在合法公共场所直接观察来确认位置。
+
 ### 4. 组织您的社区
 
 - 下载**[ACLU Get The Flock Out工具包](https://www.aclu.org/get-the-flock-out-toolkit)** — 集示范邮件、向议会提问的问题和示范立法于一体。
 - 使用**[ACLU示范合同取消决议](https://www.aclu.org/documents/model-resolution-for-local-flock-contract-cancellation)**，为您的市议会提供一份现成的取消现有Flock合同的工具。
-- 通过**[DeFlock Groups](https://deflock.org/groups)**与您城市的**本地组织者联系**。
+- 通过**[DeFlock Groups](https://deflock.org/groups)**与您城市的本地组织者联系。
 - 在**[NoALPRs.com](https://noalprs.com/)**关注全国性组织活动。
 
 *今天就从第一步开始。意识不需要任何成本。这些工具都是免费的。*
 
 ______
+
+{{< figure src="community-action-steps-alpr-surveillance-awareness.webp" alt="一人使用手机应用查看所在社区的 ALPR 摄像头地图" >}}
 
 ## 什么是Flock Safety？了解ALPR技术
 
@@ -105,6 +120,24 @@ Flock Safety摄像头采用复杂的技术：
 - 识别生活规律和关联关系
 - 创建地理围栏并对车辆移动发出警报
 - 为调查重建时间线
+
+______
+
+
+## ALPR 数据流与控制点
+
+一次 ALPR 事件会经过多个阶段。具体字段和保留期限取决于摄像头型号、客户订单、当地政策和法律。
+
+| 阶段 | 处理内容 | 当地需要核实的事项 |
+|------|----------|----------------------|
+| **采集** | 车辆经过时，摄像头会拍摄多张静态图像。Flock 在其 [LPR 文档](https://www.flocksafety.com/products/license-plate-readers)中说明了车牌、品牌、颜色和车身类型数据。 | 摄像头型号、视野范围、安装位置，以及同一地点是否还有视频或音频设备 |
+| **提取** | 软件读取车牌，并生成车辆属性、时间戳、位置和摄像头标识符。 | 错误处理、人工确认规则和更正流程 |
+| **传输** | Flock 称设备数据传输到 Amazon Web Services 时以及存储期间均经过加密。请查看其[隐私政策](https://www.flocksafety.com/legal/privacy-policy)。 | 设备存储、云区域、导出文件、备份和供应商支持人员的访问权限 |
+| **保留** | 记录在当前产品政策、客户订单、当地法律或法律保全要求规定的期限内保持可搜索。 | 设备、云端、导出文件和备份副本的确切删除日期 |
+| **搜索与告警** | 获得授权的用户可按完整或部分车牌、时间、地点或车辆属性进行搜索。与关注名单匹配时，会向授权用户发出告警。 | 搜索原因要求、案件编号、名单负责人，以及拦截前的人工确认 |
+| **共享与审计** | 机构决定共享关系。Flock 称搜索使用个人账户，并生成可供审查的记录。请查看其[执法机构访问页面](https://www.flocksafety.com/trust/law-enforcement-access)。 | 参与机构、联邦访问、书面协议、审计人员和滥用处罚 |
+
+这个流程说明，车牌扫描不只是一张照片。事件还关联图像、提取字段、时间、地点、设备身份、搜索历史和共享决定。请在政策或合同记录中索取每个环节的资料。
 
 ______
 
@@ -155,6 +188,8 @@ Flock普及的一个重要方面是**公私合作模式**：
 
 ______
 
+{{< figure src="flock-safety-camera-nationwide-deployment-map.webp" alt="显示 Flock Safety ALPR 摄像头在美国广泛地理分布的地图" >}}
+
 ## 隐私问题与公民自由议题
 
 ### 宪法和法律层面的关切
@@ -195,6 +230,22 @@ ALPR监控的广泛部署引发了严重的**第四修正案关切**：
 - **内部威胁**：员工或执法人员滥用访问权限
 - **数据泄露**：*2024年发生了一起泄露数千条记录的事件*
 - **无用户通知**：*被追踪者从未被告知数据收集情况*
+
+Flock 当前的常见问题页面称，除非法律要求更长的期限，否则数据会在 7 天后删除。[隐私政策](https://www.flocksafety.com/legal/privacy-policy) 仍称数据会在云端保存 30 天，并允许依法延长保存。[车牌读取器页面](https://www.flocksafety.com/products/license-plate-readers) 称客户可以控制保存和共享设置。这些公开页面不能替代签署的订单或当地政策。引用保存期限前，请先核对两者。
+
+此前关于 2024 年事件的说法仍是未经核实的历史性主张。我没有找到能证明其具体范围的原始事件通知。[Flock Safety - 安全中心](https://security.flocksafety.com/) 列出了公开安全资料和受限的合规报告。供应商的控制措施描述设计和政策，不能证明每位客户都合规使用系统。
+
+### 需要书面询问的问题
+
+司法援助局的 LPR 政策模板 [司法援助局 - LPR 政策制定模板](https://bja.ojp.gov/doc/lpr-policy-development-template.pdf) 建议以书面形式规定数据收集、访问、共享、保留、删除、审计和补救措施。请向当地机构询问：
+
+- **保留**：已签署的订单、本地保留期限、删除规则、法律保全流程，以及导出文件和备份的保留期限。
+- **访问**：获批角色、查询理由、案件编号规则、主管审核和用户培训。
+- **共享**：参与机构、联邦访问权限、网络条款、允许用途，以及每次披露的记录。
+
+- **准确性**：复核误报、人工确认车牌、提交更正申请，以及发生错误拦停后的通知。
+
+- **问责**：搜索日志、热名单变更、审计报告、纪律规则和数据泄露通知。
 
 ### 功能蔓延与任务扩展：有据可查的滥用
 
@@ -261,6 +312,12 @@ ______
 - **2025年第四巡回法院**：*Commonwealth v. Flock Safety*案限制了无搜查令的长期ALPR追踪
 - **2024年第九巡回法院**：*ACLU v. San Diego*案要求披露ALPR供应商合同
 - **2026年待定**：*Rodriguez v. Flock Safety*数据保留实践集体诉讼
+
+### 更正法院记录
+
+此前“2025 年第四巡回上诉法院：Commonwealth v. Flock Safety”的条目需要准确引用。此主题找到的主要法院文件是 [弗吉尼亚上诉法院 - Commonwealth v. Church，案号 0737-25-1](https://www.vacourts.gov/static/opinions/opncavwp/0737251.pdf)，这是弗吉尼亚上诉法院于 2025 年 10 月 14 日作出的未公开备忘录意见。该意见推翻了诺福克巡回法院排除证据的裁定，并认定在所述事实下无需搜查令。这是弗吉尼亚州上诉法院的裁决，不是第四巡回上诉法院的先例。它没有裁定所有 ALPR 部署或长期追踪问题。
+
+“2024 Ninth Circuit: ACLU v. San Diego”和“2026 pending: Rodriguez v. Flock Safety”仍是沿用上一版本的名称。我没有找到相符的原始意见书或官方案件记录。在补充官方案件文件或意见书前，请将两项视为未经核实。
 
 ### 市政政策
 
@@ -334,6 +391,22 @@ ACLU已发布可供各级政府倡导者直接使用的法律模板：
 
 ______
 
+### 合法的社区应对
+
+通过公共场所观察、记录申请、会议发言和联系民选官员来采取行动。不要擅自进入、触碰、停用、干扰、遮挡或改装设备。
+
+1. **确认运营方**：在合法公共场所记录位置、日期、标牌、杆体和摄像头细节。询问市、县、警长办公室、学校、企业或 HOA 谁在运营系统。
+
+2. **阅读议程**：查找合同批准或续签、预算项目、采购文件和隐私政策。在会议截止日期前提交书面问题。
+
+3. **提出具体问题**：询问数据保留、搜索、共享、联邦访问、审计、误报、删除和补救措施。
+
+4. **要求公开表决**：请管理机构暂停续约，直至相关机构公布合同、政策、共享关系、审计流程和年度使用报告。
+
+5. **保存来源记录**：保存申请、回复、合同版本、会议日期和公开声明。向当地组织者和记者提供文件时附上背景说明。
+
+联邦 FOIA 与地方记录申请不同。[美国司法部 - FOIA 介绍](https://www.justice.gov/oip/about-foia) 表示，FOIA 适用于行政部门记录，不适用于州、地方或私人记录。对于市、县、警长办公室、学校或 HOA，应使用州公共记录法、公开记录申请或委员会记录程序。
+
 ## EFF为DeFlock辩护：Flock Safety的商标欺凌
 
 **2025年2月**，Flock Safety向**Will Freeman**——**DeFlock.me**（一个追踪Flock摄像头位置的绘图工具）的创建者——发出停止侵权函。Flock声称"DeFlock"这一名称构成商标淡化，并要求关闭该网站。
@@ -349,6 +422,8 @@ EFF自己的**监控地图集**已独立识别出全国超过**1,700家机构**�
 ______
 
 ## 如何检测Flock Safety摄像头
+
+{{< stscollective-ad "flockyou" >}}
 
 ### 了解Flock摄像头的特征
 
@@ -387,7 +462,7 @@ Flock检测的突破来自**WiFi网络特征**：
 
 该项目利用由研究人员**@NitekryDPaul**和**DeFlockJoplin**社区发现的**31个WiFi OUI**：
 
-```
+```text
 D4:AD:FC - Espressif（摄像头中的ESP32模块）
 AC:67:B2 - Espressif（常见于Flock部署中）
 84:F3:EB - Espressif（ESP32-S3变体）
@@ -408,7 +483,7 @@ Flock-You检测采用多种策略：
 
 ### 检测硬件选择
 
-有关详细技术规格和购买信息，请参阅我们的综合指南：**[Flock-You Detection Project: Counter-Surveillance Hardware and Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**。
+有关详细技术规格和购买信息，请参阅我们的综合指南：**[Flock-You检测：反监控设置指南](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**。
 
 Flock检测有三种主要硬件平台可供选择：
 
@@ -552,6 +627,8 @@ ______
 
 ______
 
+{{< figure src="privacy-protection-strategies-against-alpr-tracking.webp" alt="一人通过笔记本电脑提交公共记录申请，以质疑当地 ALPR 监控合同" >}}
+
 ## 反监控工具与组织生态系统
 
 不断壮大的工具和项目生态系统支持着个人和社区对抗ALPR监控。将这些工具与上述检测硬件配合使用。
@@ -585,6 +662,8 @@ ALPR技术持续演进：
 - **实时追踪**：从数据库搜索转向实时追踪能力
 - **国际网络**：跨境数据共享协议
 
+Flock 当前的 LPR 页面称，其车牌读取产品不包含且未计划加入面部识别。其他供应商和 Flock 的其他产品可能不同。将此说法用于本地部署前，请核实正在使用的摄像头型号、合同和政策。
+
 ### 隐私技术的反向发展
 
 隐私社区正以创新回应：
@@ -606,6 +685,20 @@ ALPR技术持续演进：
 
 ______
 
+## 行动前核查证据
+
+ALPR 覆盖范围因城市、机构、合同和时间段而异。地图标记不能证明摄像头归谁所有、哪个机构接收数据，或是否存在某辆车的记录。部署数量和保留期限声明都应视为带日期的证据。请通过机构资料、议会记录、合同和公开记录申请回复来核实当地政策。
+
+调查当地系统时按以下步骤进行：
+
+1. 记录摄像头位置和观察日期。不要进入私人土地，也不要干扰设备。
+2. 在市或县网站查找合同、采购记录、隐私政策、保留期限表和共享协议。
+3. 询问谁运营系统、哪个机构接收搜索、哪些外部机构获得数据、记录可搜索多久，以及个人如何申请访问或更正。
+4. 将答复与供应商公开说明和当地政策对照。保存文件标题、日期和 URL。
+5. 通过公开记录申请索取缺失文件。申请政策和合同记录，不要索取私人个人的行程历史。
+
+[全美州议会会议的 ALPR 州法律概览](https://www.ncsl.org/technology-and-communication/automated-license-plate-readers-state-statutes)和[电子前哨基金会的 Atlas of Surveillance](https://atlasofsurveillance.org/atlas)可作为调查起点，但不能替代当地记录。[DeFlock 地图](https://deflock.org/)也展示了社区调查，但其覆盖范围并非完整清单。
+
 ## 结语：在安全与隐私之间寻求平衡
 
 Flock Safety ALPR摄像头的扩散代表着**公共和私营实体监控能力**的根本性转变。支持者认为这些系统通过破案和追回被盗车辆提升了公共安全。*但其隐私影响深远而广泛，这一权衡值得审慎考量。*
@@ -620,7 +713,7 @@ Flock Safety ALPR摄像头的扩散代表着**公共和私营实体监控能力*
 
 **保护策略**涵盖从政策倡导到技术反监控的各个层面。**开源Flock-You检测项目**使监控基础设施的认知民主化，让个人能够了解何时何地受到监控。**ACLU的"Get The Flock Out"运动**通过市议会为社区提供了反击的工具。而**DeFlock.org**建立了Flock Safety试图以法律威胁压制却未能成功的监控网络公开地图。
 
-有关检测设备的技术细节和分步设置说明，请阅读我们的配套指南：**[Flock-You Detection Project: Counter-Surveillance Hardware and Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**。
+有关检测设备的技术细节和分步设置说明，请阅读我们的配套指南：**[Flock-You检测：反监控设置指南](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**。
 
 **问题不在于技术能否实现大规模监控。**它显然可以。**问题在于一个自由社会是否应该在没有健全保障、透明度和问责制的情况下允许这种监控。**这个问题的答案将在未来几代人中塑造隐私权的格局。
 
@@ -633,12 +726,13 @@ ______
 | 文章 | 内容 |
 |------|------|
 | **[Flock Finder：绘制Flock Safety ALPR摄像头地图](/articles/flock-finder-alpr-surveillance-mapping-tool/)** | 基于WiGLE WiFi数据的40,000多个疑似Flock摄像头开源互动地图——在驾车前了解您所在地区的部署规模 |
-| **[Flock-You检测项目：反监控硬件指南](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** | 构建或购买基于ESP32的Flock检测器的完整技术指南——固件设置、硬件对比、分步说明 |
+| **[Flock-You检测：反监控设置指南](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** | 构建或购买基于ESP32的Flock检测器的完整技术指南——固件设置、硬件对比、分步说明 |
 | **[如何刷写Rayhunter设备：完整指南](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | 与ALPR摄像头同步检测IMSI捕获器（伪基站），实现全面反监控意识 |
 | **[Orbic RCL400的DagShell自定义固件](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | 将移动热点变成安全研究平台——与Flock检测硬件配合使用效果极佳 |
 | **[2026年Rayhunter设备对比](/articles/rayhunter-device-comparison-2026-complete-review/)** | 对比ALPR和蜂窝监控威胁类别下的检测硬件选项 |
 
 ______
+
 
 ## 参考资料
 
@@ -671,3 +765,12 @@ ______
 27. [NoALPRs.com — 全国行动周](https://noalprs.com/)
 28. [DontGetFlocked.com — FlockHopper路线规划器](https://dontgetflocked.com/)
 29. [PlatPrivacy.com — 正义研究所ALPR分析](https://plateprivacy.com/)
+30. [Flock Safety - 车牌读取器](https://www.flocksafety.com/products/license-plate-readers)
+31. [Flock Safety - 常见问题](https://www.flocksafety.com/faq)
+32. [Flock Safety - 隐私政策](https://www.flocksafety.com/legal/privacy-policy)
+33. [Flock Safety - 执法数据访问](https://www.flocksafety.com/trust/law-enforcement-access)
+34. [Flock Safety - 安全中心](https://security.flocksafety.com/)
+35. [ACLU - 公众对 Flock 的反对声浪扩大](https://www.aclu.org/press-releases/as-public-opposition-to-flock-grows-aclu-responds-to-surveillance-companys-new-updates)
+36. [美国司法部 - FOIA 介绍](https://www.justice.gov/oip/about-foia)
+37. [司法援助局 - LPR 政策制定模板](https://bja.ojp.gov/doc/lpr-policy-development-template.pdf)
+38. [弗吉尼亚上诉法院 - Commonwealth v. Church，案号 0737-25-1](https://www.vacourts.gov/static/opinions/opncavwp/0737251.pdf)

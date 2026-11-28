@@ -1,7 +1,7 @@
 ---
 title: "Vigilància amb càmeres Flock Safety: Privadesa i Protecció"
 date: 2026-05-24
-lastmod: 2026-10-08
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Descobreix el desplegament massiu de les càmeres Flock Safety ALPR el 2026, comprèn les implicacions per a la privadesa i aprèn estratègies efectives de contravigilància, inclosos dispositius de detecció."
@@ -25,6 +25,17 @@ Les comunitats i les organitzacions de drets civils estan resistint. L'ACLU va l
 
 ______
 
+
+## Com llegir les proves actuals
+
+Aquesta pàgina aplega declaracions de proveïdors, resolucions judicials, recerca sobre llibertats civils i mapes comunitaris. Aquestes fonts responen preguntes diferents. La pàgina d’un proveïdor descriu el disseny del producte i els controls que declara. Una resolució judicial tracta un expedient i una qüestió jurídica. Un mapa comunitari registra observacions enviades per la comunitat.
+
+Indica la data i el tipus de font al costat de cada xifra. Considera els marcadors del mapa com a pistes. Un marcador no demostra qui és el propietari de la càmera, si està activa ni si existeix un registre del teu vehicle.
+
+Segons la comprovació del 10 d’octubre de 2026, la [pàgina de Flock sobre lectors de matrícules](https://www.flocksafety.com/products/license-plate-readers) afirma que va donar suport a més d’un milió de casos el 2025, que Flock va contribuir al 20% dels casos resolts i que hi ha connexions de xarxa en 49 estats. Són xifres del proveïdor. Un [comunicat de l’ACLU del 13 d’agost de 2026](https://www.aclu.org/press-releases/as-public-opposition-to-flock-grows-aclu-responds-to-surveillance-companys-new-updates) cita més de 120.000 lectors Flock en almenys 6.000 ciutats. La [pàgina principal de DeFlock](https://deflock.org/) informa de 143.924 lectors de matrícules cartografiats als Estats Units. DeFlock diu que el mapa incorpora aportacions de voluntaris i d’OpenStreetMap; per tant, el total inclou instal·lacions ALPR i no equival al nombre de càmeres propietat de Flock.
+
+Les xifres anteriors de 75.000, 3.500, 5.000, 150 milions, 124.186 i 97 continuen més avall com a context històric de la revisió anterior. En la data d’aquesta revisió no he trobat una font primària que confirmi cadascuna. Considera-les estimacions, tret que les avali un registre local o una font datada.
+
 ## Què pots fer ara mateix
 
 No cal ser un investigador de seguretat ni un advocat per resistir la vigilància ALPR. Aquí tens un pla d'acció clar, del menys al més implicat:
@@ -47,13 +58,15 @@ Els mapes de programari et mostren on s'han *vist* càmeres. Un detector de maqu
 
 > 💰 Utilitza el codi **FLOCKFINDER** per a un **20% de descompte** en tots els dispositius FlockYou, o **SIMEONONSECURITY** per a un **20% de descompte** en tota la teva comanda de STS Collective: **[stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY)**
 
-Per a una comparació tècnica completa de tot el maquinari de detecció (inclosos OUI-SPY i construccions DIY ESP32), llegeix: **[Projecte de Detecció Flock-You: Guia de Maquinari de Contravigilància i Configuració](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
+Per a una comparació tècnica completa de tot el maquinari de detecció (inclosos OUI-SPY i construccions DIY ESP32), llegeix: **[Detecció Flock-You: Guia de Configuració de Contra-Vigilància](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
 ### 3. Coneix el que hi ha al teu barri
 
 - **[HaveIBeenFlocked.com](https://haveibeenflocked.com/)** — Comprova si la teva matrícula ha aparegut en cerques Flock de les forces de l'ordre de la teva àrea.
 - **[ALPR.watch](https://alpr.watch/)** — Descobreix si el teu consell municipal votarà aviat sobre un contracte ALPR perquè puguis assistir i parlar.
 - Presenta una **sol·licitud de registres públics** per al teu contracte Flock local fent servir la **[guia FOIA de DeFlock](https://deflock.org/foia)** i la **[biblioteca de plantilles de MuckRock](https://www.muckrock.com/search/?q=Flock)**.
+
+Tots dos mapes són pistes de recerca. Una coincidència d’OUI Wi-Fi o un punt enviat per la comunitat no demostra la propietat de la càmera, que estigui activa ni que reculli dades. Confirmeu-ne la ubicació amb registres públics, l’organisme responsable o una observació directa des d’un lloc públic legal.
 
 ### 4. Organitza la teva comunitat
 
@@ -65,6 +78,8 @@ Per a una comparació tècnica completa de tot el maquinari de detecció (inclos
 *Comença al pas 1 avui. La conscienciació no costa res. Les eines són gratuïtes.*
 
 ______
+
+{{< figure src="community-action-steps-alpr-surveillance-awareness.webp" alt="Una persona utilitza una aplicació al telèfon per veure un mapa de càmeres ALPR del seu barri" >}}
 
 ## Què és Flock Safety? Comprendre la tecnologia ALPR
 
@@ -87,7 +102,7 @@ El producte principal de l'empresa és la **càmera Flock Safety Falcon**, un di
 
 Les càmeres Flock capturen molt més que números de matrícula. Registren la marca, el model, el color, el tipus de carrosseria i les característiques distintives de cada vehicle que hi passa. L'empresa comercialitza aquests com a "empremtes digitals" del vehicle. Això significa que cada viatge que fas queda catalogat, fins i tot quan no has fet res malament.
 
-{{< figure src="deflock-lpr-demo.webp" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="A typical ALPR camera installation. Image credit: DeFlock.org" link="https://deflock.org/" >}}
+{{< figure src="deflock-lpr-demo.webp" alt="Una càmera ALPR de Flock Safety muntada en un pal que mostra com la tecnologia captura les matrícules" caption="Una instal·lació típica d’una càmera ALPR. Crèdit de la imatge: DeFlock.org" link="https://deflock.org/" >}}
 
 ### Com funciona la tecnologia ALPR
 
@@ -105,6 +120,24 @@ Això crea una **base de dades cercable dels moviments dels vehicles** que es po
 - Identificar patrons de vida i associacions
 - Crear geocerques i alertes sobre moviments de vehicles
 - Reconstruir cronologies per a investigacions
+
+______
+
+
+## Flux de dades ALPR i punts de control
+
+Un esdeveniment ALPR passa per diverses etapes. Els camps exactes i el període de conservació depenen del model de càmera, la comanda del client, la política local i la llei.
+
+| Etapa | Què passa | Què cal verificar localment |
+|------|------------|-----------------------------|
+| **Captura** | La càmera pren diverses imatges fixes mentre passa un vehicle. Flock descriu dades de matrícula, marca, color i tipus de carrosseria a la seva [documentació LPR](https://www.flocksafety.com/products/license-plate-readers). | Model de càmera, camp de visió, ubicació i presència de productes de vídeo o àudio al mateix lloc |
+| **Extracció** | El programari llegeix la matrícula i crea atributs del vehicle, una marca temporal, una ubicació i un identificador de càmera. | Tractament d’errors, regles de confirmació manual i procés de correcció |
+| **Transmissió** | Flock afirma que les dades del dispositiu es transfereixen a Amazon Web Services amb xifratge durant la transmissió i mentre s’emmagatzemen. Consulta la [política de privacitat](https://www.flocksafety.com/legal/privacy-policy). | Emmagatzematge del dispositiu, regió del núvol, exportacions, còpies de seguretat i accés del servei d’assistència del proveïdor |
+| **Conservació** | El registre continua disponible per a cerques durant el període que estableixen la política actual del producte, la comanda del client, la llei local o una obligació legal de preservació. | Data exacta d’eliminació de les còpies del dispositiu, del núvol, de les exportacions i de les còpies de seguretat |
+| **Cerca i avís** | Els usuaris autoritzats cerquen per matrícula sencera o parcial, hora, ubicació o atributs del vehicle. Les coincidències amb llistes d’interès generen avisos per als usuaris autoritzats. | Motiu de cerca obligatori, número de cas, responsable de la llista i confirmació manual abans d’aturar un vehicle |
+| **Compartició i auditoria** | L’agència tria amb qui comparteix les dades. Flock afirma que les cerques fan servir comptes individuals i creen registres revisables. Consulta la [pàgina d’accés de les forces de l’ordre](https://www.flocksafety.com/trust/law-enforcement-access). | Agències participants, accés federal, acords escrits, responsables de l’auditoria i sancions per ús indegut |
+
+Aquest flux explica per què una lectura de matrícula és més que una fotografia. L’esdeveniment vincula una imatge, camps extrets, hora, lloc, identitat del dispositiu, historial de cerques i decisions de compartició. Demana documentació de cada etapa a les polítiques o als contractes.
 
 ______
 
@@ -155,6 +188,8 @@ Un aspecte significatiu de la prevalença de Flock és el **model de col·labora
 
 ______
 
+{{< figure src="flock-safety-camera-nationwide-deployment-map.webp" alt="Mapa dels Estats Units amb la distribució geogràfica extensa de les càmeres ALPR de Flock Safety" >}}
+
 ## Preocupacions de privadesa i qüestions de llibertats civils
 
 ### Preocupacions constitucionals i legals
@@ -196,11 +231,27 @@ Les **pràctiques de dades de Flock Safety** presenten múltiples reptes per a l
 - **Violacions de dades**: *Un incident de 2024 va exposar milers de registres*
 - **Cap notificació a l'usuari**: *Les persones rastrejades mai no s'assabenten de la recollida de dades*
 
+Les preguntes freqüents actuals de Flock indiquen que les dades s’eliminen al cap de 7 dies, tret que la llei n’exigeixi un període més llarg. [política de privacitat](https://www.flocksafety.com/legal/privacy-policy) encara descriu 30 dies d’emmagatzematge al núvol i permet conservar les dades quan ho exigeixi la llei. [pàgina de Flock sobre lectors de matrícules](https://www.flocksafety.com/products/license-plate-readers) diu que els clients controlen la conservació i la compartició. Aquestes pàgines no substitueixen una comanda signada ni una política local. Demaneu-les abans d’indicar un termini.
+
+L’afirmació anterior sobre l’incident de 2024 continua sense verificar. No he trobat cap avís primari que n’acrediti l’abast exacte. [Flock Safety - centre de seguretat](https://security.flocksafety.com/) enumera materials públics de seguretat i informes de compliment restringits. Els controls del proveïdor descriuen el disseny i les polítiques, però no proven que cada client compleixi les normes.
+
+### Preguntes que convé fer per escrit
+
+La plantilla de política LPR del Bureau of Justice Assistance [Bureau of Justice Assistance - plantilla per desenvolupar una política LPR](https://bja.ojp.gov/doc/lpr-policy-development-template.pdf) recomana controls escrits per a la recopilació, l’accés, la compartició, la conservació, l’eliminació, l’auditoria i la reparació. Demaneu a l’organisme local:
+
+- **Conservació**: la comanda signada, el calendari local, les normes d’eliminació, la retenció per motius legals i els terminis per a exportacions i còpies de seguretat.
+- **Accés**: els rols autoritzats, els motius de cerca, les normes de números de cas, la revisió del supervisor i la formació dels usuaris.
+- **Compartició**: els organismes participants, l’accés federal, les condicions de xarxa, les finalitats permeses i un registre de cada divulgació.
+
+- **Precisió**: Revisió dels falsos positius, confirmació manual de la matrícula, sol·licituds de correcció i avís després d’una aturada errònia.
+
+- **Rendició de comptes**: Registres de cerca, canvis a les llistes d’alerta, informes d’auditoria, normes disciplinàries i avisos d’incompliment.
+
 ### Expansió de funcions i de la missió: Abusos documentats
 
 El que va començar com una eina per **resoldre delictes contra la propietat** s'ha expandit de manera dramàtica. Aquests no són riscos hipotètics. Són patrons documentats.
 
-{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="The ACLU's 'Get The Flock Out' campaign has documented widespread misuse of ALPR systems. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="Imatge de capçalera de la campanya «Get The Flock Out» de l’ACLU amb un collage de càmeres ALPR" caption="La campanya «Get The Flock Out» de l’ACLU ha documentat l’ús indegut generalitzat dels sistemes ALPR. Crèdit de la imatge: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 #### ICE i l'aplicació de la llei d'immigració
 **L'ICE ha utilitzat Flock per localitzar i perseguir immigrants sense papers sense ordres judicials.** La xarxa nacional de la plataforma dóna a l'aplicació federal d'immigració una eina per rastrejar persones entre jurisdiccions sense cap causa probable individualitzada. Moltes comunitats que van finançar les seves xarxes Flock per a la recuperació de delictes contra la propietat han descobert que les seves càmeres formen part d'operacions federals d'aplicació de la llei d'immigració.
@@ -262,6 +313,12 @@ Les recents decisions dels tribunals estan modelant la llei ALPR:
 - **Circuit 9è, 2024**: *ACLU v. San Diego* va exigir la divulgació dels contractes amb proveïdors ALPR
 - **Pendent 2026**: Acció col·lectiva *Rodriguez v. Flock Safety* sobre pràctiques de retenció de dades
 
+### Correcció del registre judicial
+
+L’entrada anterior «2025 Fourth Circuit: Commonwealth v. Flock Safety» necessita una citació precisa. El document primari localitzat és [Tribunal d’Apel·lacions de Virgínia - Commonwealth v. Church, expedient 0737-25-1](https://www.vacourts.gov/static/opinions/opncavwp/0737251.pdf), una resolució no publicada del Tribunal d’Apel·lacions de Virgínia del 14 d’octubre de 2025. Va anul·lar la resolució del tribunal de circuit de Norfolk que excloïa proves i va concloure que els fets presentats no exigien una ordre judicial. És una decisió d’apel·lació de l’estat de Virgínia, no un precedent del Quart Circuit. No resol tots els desplegaments ALPR ni el seguiment a llarg termini.
+
+Les entrades «2024 Ninth Circuit: ACLU v. San Diego» i «2026 pending: Rodriguez v. Flock Safety» continuen com a noms de la versió anterior. No he trobat cap opinió primària ni expedient oficial que coincideixi amb cap d’elles. Tracteu-les com a no verificades fins que s’hi afegeixi una opinió o expedient oficial.
+
 ### Polítiques municipals
 
 Moltes ciutats han aprovat **ordenances locals**:
@@ -277,7 +334,7 @@ ______
 
 L'organització de base funciona. Els consells municipals de tot el país estan cancel·lant contractes Flock quan els residents es presenten i exigeixen rendició de comptes. L'**ACLU** ha construït una infraestructura completa per ajudar les comunitats a lluitar.
 
-{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign banner promoting community action against Flock Safety ALPR cameras" caption="Communities nationwide are pushing back against ALPR surveillance. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="Bàner de la campanya «Get The Flock Out» de l’ACLU que promou l’acció comunitària contra les càmeres ALPR de Flock Safety" caption="Comunitats d’arreu del país planten cara a la vigilància ALPR. Crèdit de la imatge: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 ### El Kit d'Eines de l'ACLU
 
@@ -334,6 +391,22 @@ Si la teva ciutat o HOA té o contempla un contracte Flock, fes aquestes pregunt
 
 ______
 
+### Una resposta comunitària legal
+
+Feu servir l’observació pública, les sol·licituds de registres, els comentaris a les reunions i els canals dels càrrecs electes. No entreu sense permís, toqueu, desactiveu, interferiu, tapeu ni modifiqueu els equips.
+
+1. **Confirmeu qui n’és el propietari**: Anoteu la ubicació, la data, el rètol, el pal i els detalls de la càmera des d’un lloc públic legal. Pregunteu a l’ajuntament, al comtat, al xèrif, a l’escola, al negoci o a l’associació qui opera el sistema.
+
+2. **Llegiu l’ordre del dia**: Cerqueu l’aprovació o renovació del contracte, el pressupost, l’expedient de compra i la política de privadesa. Envieu preguntes per escrit abans del termini de la reunió.
+
+3. **Feu preguntes concretes**: Pregunteu per la conservació, les cerques, la compartició, l’accés federal, les auditories, els falsos positius, l’eliminació i les reclamacions.
+
+4. **Demaneu una votació pública**: Demaneu a l’òrgan de govern que aturi la renovació fins que l’organisme publiqui el contracte, la política, les relacions de compartició, les auditories i l’informe anual d’ús.
+
+5. **Conserveu les fonts**: Deseu la sol·licitud, la resposta, la versió del contracte, la data de la reunió i les declaracions públiques. Compartiu els documents amb context amb organitzadors i periodistes locals.
+
+La FOIA federal i els registres locals són diferents. [Departament de Justícia dels EUA - informació sobre FOIA](https://www.justice.gov/oip/about-foia) diu que la FOIA cobreix els registres del poder executiu federal, però no els estatals, locals o privats. Per obtenir registres d’una ciutat, un comtat, l’oficina del xèrif, una escola o una associació de propietaris, feu servir la llei estatal de registres públics o el procediment de sol·licitud corresponent.
+
 ## L'EFF defensa DeFlock: L'assetjament de marca registrada de Flock Safety
 
 El **febrer de 2025**, Flock Safety va enviar una carta de cessament i desistiment a **Will Freeman**, el creador de **DeFlock.me**, una eina de mapatge que rastrejava les ubicacions de les càmeres Flock. Flock al·legava que el nom "DeFlock" constituïa una dilució de marca registrada i exigia que el lloc s'eliminés.
@@ -349,6 +422,8 @@ El propi **Atlas of Surveillance** de l'EFF ha identificat de manera independent
 ______
 
 ## Com es poden detectar les càmeres Flock Safety
+
+{{< stscollective-ad "flockyou" >}}
 
 ### Comprendre les signatures de les càmeres Flock
 
@@ -387,11 +462,11 @@ El **projecte de codi obert Flock-You** ha transformat les capacitats de contrav
 
 El projecte aprofita **31 OUI WiFi** descoberts pels investigadors **@NitekryDPaul** i la comunitat **DeFlockJoplin**:
 
-```
-D4:AD:FC - Espressif (ESP32 modules in cameras)
-AC:67:B2 - Espressif (Common in Flock deployments)
-84:F3:EB - Espressif (ESP32-S3 variants)
-[... 28 additional OUIs ...]
+```text
+D4:AD:FC - Espressif (mòduls ESP32 de les càmeres)
+AC:67:B2 - Espressif (habituals en desplegaments de Flock)
+84:F3:EB - Espressif (variants ESP32-S3)
+[... 28 OUI addicionals ...]
 ```
 
 Quan una càmera Flock està en funcionament, emet trames WiFi que contenen aquests OUI, que poden ser detectats pels dispositius que operen en **mode de monitoratge WiFi promiscu**.
@@ -408,7 +483,7 @@ La detecció Flock-You empra múltiples estratègies:
 
 ### Opcions de maquinari de detecció
 
-Per a especificacions tècniques detallades i informació de compra, consulta la nostra guia completa: **[Projecte de Detecció Flock-You: Guia de Maquinari de Contravigilància i Configuració](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
+Per a especificacions tècniques detallades i informació de compra, consulta la nostra guia completa: **[Detecció Flock-You: Guia de Configuració de Contra-Vigilància](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
 Hi ha tres plataformes de maquinari principals disponibles per a la detecció Flock:
 
@@ -552,6 +627,8 @@ Si descobreixes que t'han rastrejar:
 
 ______
 
+{{< figure src="privacy-protection-strategies-against-alpr-tracking.webp" alt="Una persona presenta una sol·licitud de registres públics des d’un portàtil per qüestionar contractes locals de vigilància ALPR" >}}
+
 ## Ecosistema d'eines i organitzacions anti-vigilància
 
 Un ecosistema creixent d'eines i projectes dóna suport a les persones i comunitats que lluiten contra la vigilància ALPR. Usa-les juntament amb el maquinari de detecció descrit anteriorment.
@@ -585,6 +662,8 @@ La tecnologia ALPR continua evolucionant:
 - **Seguiment en temps real**: Passant de les cerques a bases de dades a les capacitats de persecució en viu
 - **Xarxes internacionals**: Acords de compartició de dades transfronterers
 
+La pàgina actual de lectors de matrícules de Flock diu que el reconeixement facial no s’inclou ni està previst per a aquest producte. Els productes d’altres proveïdors i de Flock poden diferir. Verifiqueu el model de càmera actiu, el contracte i la política abans d’aplicar aquesta afirmació a una instal·lació local.
+
 ### Contra-desenvolupaments en tecnologia de privadesa
 
 La comunitat de privadesa respon amb innovació:
@@ -606,6 +685,20 @@ El panorama regulador canviarà:
 
 ______
 
+## Comprova les proves abans d’actuar
+
+La cobertura ALPR varia segons la ciutat, l’agència, el contracte i el període. Un marcador al mapa no demostra qui és el propietari d’una càmera, quina agència rep les dades ni si existeix un registre d’un vehicle concret. Considera les xifres de desplegament i les afirmacions sobre conservació com a proves datades. Confirma la política local amb l’agència, les actes del consistori, el contracte i les respostes a les sol·licituds d’informació pública.
+
+Segueix aquests passos per investigar un sistema local:
+
+1. Anota la ubicació de la càmera i la data en què l’has observada. No entris en una propietat privada ni manipulis l’equip.
+2. Busca al lloc web de la ciutat o del comtat el contracte, els documents de compra, la política de privacitat, el calendari de conservació i l’acord de compartició.
+3. Pregunta qui gestiona el sistema, quina agència rep les cerques, quines agències externes reben dades, quant de temps es poden consultar els registres i com es pot demanar accés o una correcció.
+4. Compara la resposta amb la descripció pública del proveïdor i la política local. Desa el títol del document, la data i l’URL.
+5. Presenta una sol·licitud d’informació pública per obtenir els documents que falten. Demana polítiques i contractes, no l’historial de desplaçaments d’una persona privada.
+
+El [resum de les lleis estatals sobre ALPR de la National Conference of State Legislatures](https://www.ncsl.org/technology-and-communication/automated-license-plate-readers-state-statutes) i l’[Atlas of Surveillance de l’Electronic Frontier Foundation](https://atlasofsurveillance.org/atlas) són bons punts de partida. No substitueixen els registres locals. El [mapa de DeFlock](https://deflock.org/) també mostra recerca comunitària, però la seva cobertura no és un inventari complet.
+
 ## Conclusió: Equilibrant la seguretat i la privadesa
 
 La proliferació de les càmeres Flock Safety ALPR representa un canvi fonamental en la **capacitat de vigilància tant de les entitats públiques com de les privades**. Els defensors argumenten que aquests sistemes milloren la seguretat pública resolent delictes i recuperant vehicles robats. *Les **implicacions per a la privadesa són profundes i de gran abast**, i aquest balanç mereix escrutini.*
@@ -620,7 +713,7 @@ A partir de 2026, **75.000+ càmeres** escanegen **150+ milions de vehicles dià
 
 Les **estratègies de protecció** van des de la defensa de polítiques fins a la contravigilància tècnica. El **projecte de codi obert de detecció Flock-You** ha democratitzat la consciència de la infraestructura de vigilància, permetent als individus entendre quan i on estan sent monitorats. La **campanya "Get The Flock Out" de l'ACLU** ha donat a les comunitats les eines per lluitar a través dels seus consells municipals. I **DeFlock.org** ha construït un mapa públic de la xarxa de vigilància que Flock Safety va intentar suprimir amb amenaces legals i va fracassar.
 
-Per als detalls tècnics sobre els dispositius de detecció i les instruccions de configuració pas a pas, llegeix la nostra guia complementària: **[Projecte de Detecció Flock-You: Guia de Maquinari de Contravigilància i Configuració](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
+Per als detalls tècnics sobre els dispositius de detecció i les instruccions de configuració pas a pas, llegeix la nostra guia complementària: **[Detecció Flock-You: Guia de Configuració de Contra-Vigilància](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
 **La pregunta no és si la tecnologia pot permetre una vigilància omnipresent.** *Clarament pot. La pregunta és si una societat lliure hauria de permetre tal vigilància sense salvaguardes sòlides, transparència i responsabilitat.* La resposta definirà els drets de privadesa per a les generacions venidores.
 
@@ -633,12 +726,13 @@ Aquest article forma part d'una sèrie sobre la vigilància ALPR de Flock Safety
 | Article | El que cobreix |
 |---------|---------------|
 | **[Flock Finder: Mapeja les Càmeres ALPR de Flock Safety](/articles/flock-finder-alpr-surveillance-mapping-tool/)** | Mapa interactiu de codi obert de més de 40.000 càmeres Flock sospitoses via dades WiFi de WiGLE — veu l'escala del desplegament a la teva zona abans de conduir |
-| **[Projecte de Detecció Flock-You: Guia de Maquinari de Contravigilància](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** | Guia tècnica completa per construir o comprar detectors Flock basats en ESP32 — configuració del microprogramari, comparació de maquinari, instruccions pas a pas |
+| **[Detecció Flock-You: Guia de Configuració de Contra-Vigilància](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** | Guia tècnica completa per construir o comprar detectors Flock basats en ESP32 — configuració del microprogramari, comparació de maquinari, instruccions pas a pas |
 | **[Com Gravar els Dispositius Rayhunter: Guia Completa](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | Detecta captadors IMSI (simuladors de llocs de telefonia mòbil) juntament amb càmeres ALPR per a una consciència completa de contravigilància |
 | **[Microprogramari Personalitzat DagShell per a l'Orbic RCL400](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | Converteix un punt d'accés mòbil en una plataforma d'investigació de seguretat — s'integra bé amb el maquinari de detecció Flock |
 | **[Comparació de Dispositius Rayhunter 2026](/articles/rayhunter-device-comparison-2026-complete-review/)** | Compara les opcions de maquinari de detecció entre les categories d'amenaça ALPR i de vigilància cel·lular |
 
 ______
+
 
 ## Referències
 
@@ -671,3 +765,12 @@ ______
 27. [NoALPRs.com - Setmana Nacional d'Acció](https://noalprs.com/)
 28. [DontGetFlocked.com - Planificador de Rutes FlockHopper](https://dontgetflocked.com/)
 29. [PlatPrivacy.com - Anàlisi ALPR de l'Institute for Justice](https://plateprivacy.com/)
+30. [Flock Safety - lectors de matrícules](https://www.flocksafety.com/products/license-plate-readers)
+31. [Flock Safety - preguntes freqüents](https://www.flocksafety.com/faq)
+32. [Flock Safety - política de privadesa](https://www.flocksafety.com/legal/privacy-policy)
+33. [Flock Safety - accés de les forces de l’ordre a les dades](https://www.flocksafety.com/trust/law-enforcement-access)
+34. [Flock Safety - centre de seguretat](https://security.flocksafety.com/)
+35. [ACLU - creix l’oposició pública a Flock](https://www.aclu.org/press-releases/as-public-opposition-to-flock-grows-aclu-responds-to-surveillance-companys-new-updates)
+36. [Departament de Justícia dels EUA - informació sobre FOIA](https://www.justice.gov/oip/about-foia)
+37. [Bureau of Justice Assistance - plantilla per desenvolupar una política LPR](https://bja.ojp.gov/doc/lpr-policy-development-template.pdf)
+38. [Tribunal d’Apel·lacions de Virgínia - Commonwealth v. Church, expedient 0737-25-1](https://www.vacourts.gov/static/opinions/opncavwp/0737251.pdf)

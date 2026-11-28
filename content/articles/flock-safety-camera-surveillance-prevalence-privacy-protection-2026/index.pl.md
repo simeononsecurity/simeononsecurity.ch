@@ -1,7 +1,7 @@
 ---
 title: "Kamery monitorujące Flock Safety: Prywatność i ochrona"
 date: 2026-05-24
-lastmod: 2026-10-08
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Odkryj skalę wdrożenia kamer ALPR Flock Safety w 2026 roku, poznaj implikacje dla prywatności i naucz się skutecznych strategii kontrwywiadowczych, w tym urządzeń wykrywających."
@@ -25,6 +25,17 @@ Społeczności i organizacje obrony wolności obywatelskich stawiają opór. ACL
 
 ______
 
+
+## Jak czytać aktualne dowody
+
+Ta strona łączy oświadczenia dostawców, opinie sądów, badania dotyczące swobód obywatelskich i mapy tworzone przez społeczności. Źródła te odpowiadają na różne pytania. Strona dostawcy opisuje projekt produktu i deklarowane zabezpieczenia. Opinia sądu dotyczy jednej sprawy i jednego zagadnienia prawnego. Mapa społecznościowa rejestruje zgłoszone obserwacje.
+
+Przy każdej liczbie podaj datę i rodzaj źródła. Traktuj znaczniki na mapie jako wskazówki. Znacznik nie dowodzi, kto jest właścicielem kamery, czy działa ani czy istnieje zapis dotyczący twojego pojazdu.
+
+Według stanu na 10 października 2026 r. [strona Flock o czytnikach tablic](https://www.flocksafety.com/products/license-plate-readers) podaje ponad milion spraw wspartych w 2025 r., 20% rozwiązanych spraw wspartych przez Flock oraz połączenia sieciowe w 49 stanach. Są to dane podane przez dostawcę. [Komunikat ACLU z 13 sierpnia 2026 r.](https://www.aclu.org/press-releases/as-public-opposition-to-flock-grows-aclu-responds-to-surveillance-companys-new-updates) wymienia ponad 120 000 czytników Flock w co najmniej 6 000 miast. [Strona główna DeFlock](https://deflock.org/) podaje 143 924 czytniki tablic zmapowane w Stanach Zjednoczonych. DeFlock informuje, że mapa korzysta z wkładu wolontariuszy i OpenStreetMap, więc suma obejmuje instalacje ALPR i nie jest równa liczbie kamer należących do Flock.
+
+Wcześniejsze liczby: 75 000, 3 500, 5 000, 150 milionów, 124 186 i 97, pozostają poniżej jako kontekst historyczny poprzedniej wersji. Na dzień tej weryfikacji nie znalazłem pierwotnego źródła, które potwierdzałoby każdą z nich. Traktuj je jako szacunki, chyba że potwierdza je lokalny dokument lub źródło z datą.
+
 ## Co możesz zrobić teraz
 
 Nie musisz być badaczem bezpieczeństwa ani prawnikiem, aby sprzeciwić się inwigilacji ALPR. Oto jasny plan działania — od najmniej do najbardziej zaangażowanego:
@@ -47,13 +58,15 @@ Mapy programowe pokazują, gdzie kamery *były widziane*. Detektor sprzętowy in
 
 > 💰 Użyj kodu **FLOCKFINDER**, aby uzyskać **20% zniżki** na wszystkie urządzenia FlockYou, lub **SIMEONONSECURITY** na do **20% zniżki** na całe zamówienie w STS Collective: **[stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY)**
 
-Pełne techniczne porównanie wszystkich urządzeń wykrywających (w tym OUI-SPY i samodzielnych konstrukcji ESP32) znajdziesz tutaj: **[Projekt wykrywania Flock-You: Przewodnik po sprzęcie kontrwywiadowczym i konfiguracji](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
+Pełne techniczne porównanie wszystkich urządzeń wykrywających (w tym OUI-SPY i samodzielnych konstrukcji ESP32) znajdziesz tutaj: **[Wykrywanie Flock-You: przewodnik konfiguracji sprzętu do wykrywania nadzoru](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
 ### 3. Poznaj okolicę
 
 - **[HaveIBeenFlocked.com](https://haveibeenflocked.com/)** — Sprawdź, czy Twoja tablica rejestracyjna pojawiła się w wyszukiwaniach Flock przez organy ścigania w Twojej okolicy.
 - **[ALPR.watch](https://alpr.watch/)** — Dowiedz się, czy Twoja rada miejska wkrótce głosuje nad umową ALPR, abyś mógł wziąć udział i zabrać głos.
 - Złóż **wniosek o dostęp do dokumentów publicznych** dotyczących lokalnej umowy Flock, korzystając z **[przewodnika FOIA DeFlock](https://deflock.org/foia)** i **[biblioteki szablonów MuckRock](https://www.muckrock.com/search/?q=Flock)**.
+
+Obie mapy są wskazówkami do dalszego sprawdzenia. Zgodność OUI Wi-Fi lub punkt zgłoszony przez społeczność nie dowodzą, kto jest właścicielem kamery, czy działa ani czy zbiera dane. Potwierdź lokalizację w dokumentach publicznych, u właściwej instytucji lub przez zgodną z prawem obserwację z miejsca publicznego.
 
 ### 4. Organizuj swoją społeczność
 
@@ -65,6 +78,8 @@ Pełne techniczne porównanie wszystkich urządzeń wykrywających (w tym OUI-SP
 *Zacznij od kroku 1 już dziś. Świadomość nic nie kosztuje. Narzędzia są bezpłatne.*
 
 ______
+
+{{< figure src="community-action-steps-alpr-surveillance-awareness.webp" alt="Osoba używa aplikacji w telefonie, aby zobaczyć mapę kamer ALPR w swojej okolicy" >}}
 
 ## Czym jest Flock Safety? Zrozumienie technologii ALPR
 
@@ -105,6 +120,24 @@ Tworzy to **przeszukiwalną bazę danych przemieszczeń pojazdów**, którą mo�
 - Identyfikowania wzorców życia i powiązań
 - Tworzenia geofence i alertów dotyczących przemieszczania się pojazdów
 - Rekonstruowania osi czasu na potrzeby dochodzeń
+
+______
+
+
+## Przepływ danych ALPR i punkty kontroli
+
+Zdarzenie ALPR przechodzi przez kilka etapów. Dokładne pola i okres przechowywania zależą od modelu kamery, zamówienia klienta, lokalnych zasad i prawa.
+
+| Etap | Co się dzieje | Co sprawdzić lokalnie |
+|------|----------------|-----------------------|
+| **Rejestracja** | Podczas przejazdu pojazdu kamera wykonuje kilka nieruchomych zdjęć. Flock opisuje dane o tablicy, marce, kolorze i typie nadwozia w [dokumentacji LPR](https://www.flocksafety.com/products/license-plate-readers). | Model kamery, pole widzenia, położenie oraz obecność produktów wideo lub audio w tym samym miejscu |
+| **Ekstrakcja** | Oprogramowanie odczytuje tablicę i tworzy atrybuty pojazdu, znacznik czasu, lokalizację i identyfikator kamery. | Obsługa błędów, zasady ręcznego potwierdzania i procedura korekty |
+| **Przesyłanie** | Flock twierdzi, że dane z urządzenia są przesyłane do Amazon Web Services z szyfrowaniem podczas przesyłania i przechowywania. Zobacz [politykę prywatności](https://www.flocksafety.com/legal/privacy-policy). | Pamięć urządzenia, region chmury, eksporty, kopie zapasowe i dostęp pomocy technicznej dostawcy |
+| **Przechowywanie** | Zapis pozostaje dostępny do wyszukiwania przez okres określony w aktualnej polityce produktu, zamówieniu klienta, prawie lokalnym lub nakazie prawnym. | Dokładna data usunięcia kopii z urządzenia, chmury, eksportów i kopii zapasowych |
+| **Wyszukiwanie i alert** | Uprawnieni użytkownicy wyszukują pełną lub częściową tablicę, czas, lokalizację albo cechy pojazdu. Zgodność z listą obserwacyjną generuje alerty dla uprawnionych użytkowników. | Wymagany powód wyszukiwania, numer sprawy, opiekun listy i ręczne potwierdzenie przed zatrzymaniem |
+| **Udostępnianie i audyt** | Agencja wybiera zasady udostępniania. Flock twierdzi, że wyszukiwanie odbywa się z indywidualnych kont i tworzy możliwe do sprawdzenia rejestry. Zobacz [stronę dostępu organów ścigania](https://www.flocksafety.com/trust/law-enforcement-access). | Uczestniczące agencje, dostęp federalny, pisemne umowy, osoby sprawdzające audyty i kary za nadużycia |
+
+Ten przepływ pokazuje, dlaczego odczyt tablicy to coś więcej niż pojedyncze zdjęcie. Zdarzenie łączy obraz, wyodrębnione pola, czas, miejsce, identyfikator urządzenia, historię wyszukiwania i decyzje o udostępnianiu. Zażądaj dokumentów dotyczących każdego etapu w politykach lub umowach.
 
 ______
 
@@ -155,6 +188,8 @@ Znaczącym aspektem powszechności Flock jest **model partnerstwa publiczno-pryw
 
 ______
 
+{{< figure src="flock-safety-camera-nationwide-deployment-map.webp" alt="Mapa Stanów Zjednoczonych pokazująca szerokie rozmieszczenie geograficzne kamer ALPR Flock Safety" >}}
+
 ## Obawy dotyczące prywatności i kwestie wolności obywatelskich
 
 ### Obawy konstytucyjne i prawne
@@ -195,6 +230,22 @@ Powszechne wdrożenie inwigilacji ALPR rodzi poważne **obawy dotyczące Czwarte
 - **Zagrożenia wewnętrzne**: Pracownicy lub organy ścigania nadużywają dostępu
 - **Naruszenia danych**: *Incydent z 2024 roku ujawnił tysiące rekordów*
 - **Brak powiadomień dla użytkowników**: *Osoby śledzone nigdy nie są informowane o zbieraniu danych*
+
+Aktualna sekcja FAQ Flock podaje, że dane są usuwane po 7 dniach, chyba że prawo wymaga dłuższego okresu. [politykę prywatności](https://www.flocksafety.com/legal/privacy-policy) nadal opisuje 30 dni przechowywania w chmurze i dopuszcza dłuższe przechowywanie, gdy wymaga tego prawo. Według [strona Flock o czytnikach tablic](https://www.flocksafety.com/products/license-plate-readers) klienci kontrolują ustawienia przechowywania i udostępniania. Te publiczne strony nie zastępują podpisanego formularza zamówienia ani lokalnej polityki. Przed podaniem okresu przechowywania sprawdź oba dokumenty.
+
+Wcześniejsza informacja o incydencie z 2024 r. pozostaje niepotwierdzonym twierdzeniem historycznym. Nie znalazłem pierwotnego zawiadomienia potwierdzającego jego dokładny zakres. [Flock Safety - centrum bezpieczeństwa](https://security.flocksafety.com/) zawiera publiczne materiały dotyczące bezpieczeństwa oraz ograniczone raporty zgodności. Zabezpieczenia dostawcy opisują projekt i politykę, lecz nie dowodzą, że każdy klient używa systemu zgodnie z zasadami.
+
+### Pytania, które warto zadać na piśmie
+
+Wzór polityki LPR Biura Pomocy Wymiarowi Sprawiedliwości [Bureau of Justice Assistance - szablon opracowania polityki LPR](https://bja.ojp.gov/doc/lpr-policy-development-template.pdf) zaleca pisemne zasady dotyczące gromadzenia, dostępu, udostępniania, przechowywania, usuwania, audytu i środków naprawczych. Zapytaj lokalną agencję o:
+
+- **Przechowywanie**: podpisany formularz zamówienia, lokalny harmonogram, zasady usuwania, procedurę zabezpieczenia na potrzeby postępowania oraz okres przechowywania eksportów i kopii zapasowych.
+- **Dostęp**: zatwierdzone role, powody wyszukiwania, zasady numerów spraw, kontrolę przełożonego i szkolenia użytkowników.
+- **Udostępnianie**: uczestniczące agencje, dostęp federalny, warunki sieci, dozwolone cele i rejestr każdego ujawnienia.
+
+- **Dokładność**: Weryfikacja fałszywych trafień, ręczne potwierdzanie tablic, wnioski o korektę i powiadomienie po niesłusznym zatrzymaniu.
+
+- **Rozliczalność**: Dzienniki wyszukiwań, zmiany list alarmowych, raporty audytu, zasady dyscyplinarne i zawiadomienia o naruszeniach.
 
 ### Rozrost funkcji i ekspansja misji: Udokumentowane nadużycia
 
@@ -261,6 +312,12 @@ Ostatnie orzeczenia sądowe kształtują prawo dotyczące ALPR:
 - **2025 Czwarty Okręg**: *Commonwealth v. Flock Safety* ograniczyło beznakazowe długoterminowe śledzenie ALPR
 - **2024 Dziewiąty Okręg**: *ACLU v. San Diego* wymagało ujawnienia umów z dostawcami ALPR
 - **2026 w toku**: *Rodriguez v. Flock Safety* — pozew zbiorowy dotyczący praktyk przechowywania danych
+
+### Korekta źródła sądowego
+
+Wcześniejszy wpis „2025 Fourth Circuit: Commonwealth v. Flock Safety” wymaga dokładnego cytowania. Pierwotnym dokumentem sądowym znalezionym w tej sprawie jest [Sąd Apelacyjny Wirginii - Commonwealth v. Church, sygnatura 0737-25-1](https://www.vacourts.gov/static/opinions/opncavwp/0737251.pdf), nieopublikowana opinia memorandum Sądu Apelacyjnego Wirginii z 14 października 2025 r. Sąd uchylił decyzję sądu okręgowego w Norfolk o wyłączeniu dowodu i uznał, że w przedstawionych okolicznościach nakaz nie był wymagany. To orzeczenie stanowego sądu apelacyjnego Wirginii, a nie precedens Fourth Circuit. Nie rozstrzyga ono każdej instalacji ALPR ani kwestii długotrwałego śledzenia.
+
+Wpisy „2024 Ninth Circuit: ACLU v. San Diego” i „2026 pending: Rodriguez v. Flock Safety” pozostały jako nazwy z poprzedniej wersji. Nie znalazłem pasującej opinii pierwotnej ani oficjalnych akt. Traktuj je jako niezweryfikowane do czasu dodania oficjalnej opinii lub akt sprawy.
 
 ### Polityki miejskie
 
@@ -334,6 +391,22 @@ Jeśli Twoje miasto lub HOA ma lub rozważa umowę z Flock, zadaj te pytania na 
 
 ______
 
+### Zgodne z prawem działania społeczności
+
+Korzystaj z obserwacji publicznej, wniosków o dokumenty, wypowiedzi na zebraniach i kontaktu z wybranymi przedstawicielami. Nie wchodź bez pozwolenia, nie dotykaj, nie wyłączaj, nie zakłócaj, nie zasłaniaj ani nie modyfikuj sprzętu.
+
+1. **Ustal operatora**: Z legalnego miejsca publicznego zapisz lokalizację, datę, znak, słup i szczegóły kamery. Zapytaj miasto, hrabstwo, biuro szeryfa, szkołę, firmę lub HOA, kto obsługuje system.
+
+2. **Przeczytaj porządek obrad**: Znajdź zatwierdzenie lub odnowienie umowy, pozycję budżetową, dokumentację zamówienia i politykę prywatności. Wyślij pytania przed terminem zebrania.
+
+3. **Zadaj konkretne pytania**: Zapytaj o przechowywanie, wyszukiwania, udostępnianie, dostęp federalny, audyty, fałszywe trafienia, usuwanie i środki naprawcze.
+
+4. **Poproś o publiczne głosowanie**: Poproś organ zarządzający o wstrzymanie odnowienia do czasu publikacji umowy, polityki, relacji udostępniania, audytu i rocznego raportu użycia.
+
+5. **Prowadź rejestr źródeł**: Zachowaj wniosek, odpowiedź, wersję umowy, datę zebrania i publiczne oświadczenie. Udostępniaj dokumenty lokalnym organizatorom i dziennikarzom wraz z kontekstem.
+
+Federalne wnioski FOIA i lokalne wnioski o dokumenty to różne procedury. Według [Departament Sprawiedliwości USA - informacje o FOIA](https://www.justice.gov/oip/about-foia) FOIA obejmuje dokumenty władzy wykonawczej. Nie obejmuje dokumentów stanowych, lokalnych ani prywatnych. W przypadku miasta, hrabstwa, biura szeryfa, szkoły lub HOA skorzystaj ze stanowej ustawy o jawności dokumentów, wniosku o dostęp do informacji publicznej lub procedury udostępniania dokumentów zarządu.
+
 ## EFF broni DeFlock: Zastraszanie prawne ze strony Flock Safety
 
 W **lutym 2025 roku** Flock Safety wysłało pismo wzywające do zaprzestania działalności do **Willa Freemana**, twórcy **DeFlock.me** — narzędzia do mapowania lokalizacji kamer Flock. Flock twierdził, że nazwa „DeFlock" stanowiła rozmywanie znaku towarowego i zażądał usunięcia strony.
@@ -349,6 +422,8 @@ Własny **Atlas of Surveillance EFF** niezależnie zidentyfikował ponad **1700 
 ______
 
 ## Jak można wykryć kamery Flock Safety
+
+{{< stscollective-ad "flockyou" >}}
 
 ### Zrozumienie sygnatur kamer Flock
 
@@ -387,7 +462,7 @@ Przełom w wykrywaniu Flock pochodzi z **charakterystyk sieci WiFi**:
 
 Projekt wykorzystuje **31 OUI WiFi** odkrytych przez badaczy **@NitekryDPaul** i społeczność **DeFlockJoplin**:
 
-```
+```text
 D4:AD:FC - Espressif (moduły ESP32 w kamerach)
 AC:67:B2 - Espressif (powszechne we wdrożeniach Flock)
 84:F3:EB - Espressif (warianty ESP32-S3)
@@ -408,7 +483,7 @@ Wykrywanie Flock-You stosuje wiele strategii:
 
 ### Opcje sprzętu wykrywającego
 
-Szczegółowe specyfikacje techniczne i informacje o zakupie znajdziesz w naszym kompleksowym przewodniku: **[Projekt wykrywania Flock-You: Przewodnik po sprzęcie kontrwywiadowczym i konfiguracji](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
+Szczegółowe specyfikacje techniczne i informacje o zakupie znajdziesz w naszym kompleksowym przewodniku: **[Wykrywanie Flock-You: przewodnik konfiguracji sprzętu do wykrywania nadzoru](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
 Dostępne są trzy główne platformy sprzętowe do wykrywania Flock:
 
@@ -552,6 +627,8 @@ Jeśli odkryjesz, że byłeś śledzony:
 
 ______
 
+{{< figure src="privacy-protection-strategies-against-alpr-tracking.webp" alt="Osoba składa na laptopie wniosek o dokumenty publiczne, aby zakwestionować lokalne umowy nadzoru ALPR" >}}
+
 ## Ekosystem narzędzi i organizacji antyinwigilacyjnych
 
 Rosnący ekosystem narzędzi i projektów wspiera jednostki i społeczności walczące z inwigilacją ALPR. Korzystaj z nich razem z opisanym powyżej sprzętem wykrywającym.
@@ -585,6 +662,8 @@ Technologia ALPR wciąż ewoluuje:
 - **Śledzenie w czasie rzeczywistym**: Przejście od wyszukiwania w bazach danych do możliwości ścigania na żywo
 - **Sieci międzynarodowe**: Umowy o transgranicznym udostępnianiu danych
 
+Aktualna strona LPR Flock stwierdza, że rozpoznawanie twarzy nie jest częścią produktu do odczytu tablic i nie jest planowane. Inni dostawcy i inne produkty Flock mogą się różnić. Przed zastosowaniem tej informacji do lokalnego wdrożenia sprawdź model kamery, umowę i politykę.
+
 ### Kontrrozwoje technologii prywatności
 
 Społeczność prywatności odpowiada innowacjami:
@@ -606,6 +685,20 @@ Krajobraz regulacyjny ulegnie zmianie:
 
 ______
 
+## Sprawdź dowody, zanim zaczniesz działać
+
+Zasięg systemów ALPR różni się w zależności od miasta, agencji, umowy i okresu. Znacznik na mapie nie dowodzi, kto jest właścicielem kamery, która agencja otrzymuje dane ani czy istnieje zapis dotyczący konkretnego pojazdu. Traktuj dane o wdrożeniach i deklaracje dotyczące przechowywania jako dowody opatrzone datą. Potwierdź lokalne zasady w agencji, protokołach rady, umowie i odpowiedziach na wnioski o dokumenty publiczne.
+
+Podczas badania lokalnego systemu wykonaj następujące kroki:
+
+1. Zapisz lokalizację kamery i datę obserwacji. Nie wchodź na teren prywatny ani nie ingeruj w sprzęt.
+2. Poszukaj na stronie miasta lub hrabstwa umowy, dokumentów zamówienia, polityki prywatności, harmonogramu przechowywania i umowy o udostępnianiu.
+3. Zapytaj, kto obsługuje system, która agencja otrzymuje wyszukiwania, które zewnętrzne agencje otrzymują dane, jak długo zapisy są dostępne do wyszukiwania oraz jak można zażądać dostępu lub korekty.
+4. Porównaj odpowiedź z publicznym opisem dostawcy i lokalnymi zasadami. Zapisz tytuł dokumentu, datę i adres URL.
+5. Złóż wniosek o dokumenty publiczne, aby uzyskać brakujące materiały. Poproś o polityki i umowy, nie o historię podróży prywatnej osoby.
+
+[Przegląd przepisów stanowych ALPR National Conference of State Legislatures](https://www.ncsl.org/technology-and-communication/automated-license-plate-readers-state-statutes) i [Atlas of Surveillance Electronic Frontier Foundation](https://atlasofsurveillance.org/atlas) to przydatne punkty wyjścia. Nie zastępują lokalnych dokumentów. [Mapa DeFlock](https://deflock.org/) pokazuje również badania społeczności, ale nie jest kompletnym wykazem.
+
 ## Podsumowanie: Balansowanie między bezpieczeństwem a prywatnością
 
 Proliferacja kamer ALPR Flock Safety reprezentuje fundamentalną zmianę w **zdolności inwigilacyjnej zarówno podmiotów publicznych, jak i prywatnych**. Zwolennicy twierdzą, że systemy te zwiększają bezpieczeństwo publiczne poprzez rozwiązywanie przestępstw i odzyskiwanie skradzionych pojazdów. ***Implikacje dla prywatności są głębokie i dalekosiężne**, i ten kompromis zasługuje na analizę.*
@@ -620,7 +713,7 @@ Na rok 2026 **ponad 75 000 kamer** skanuje **ponad 150 milionów pojazdów dzien
 
 **Strategie ochrony** obejmują od rzecznictwa politycznego po techniczny kontrwywiad. **Projekt open-source Flock-You** zdemokratyzował świadomość infrastruktury inwigilacji, umożliwiając jednostkom zrozumienie, kiedy i gdzie są monitorowane. **Kampania ACLU „Get The Flock Out"** dała społecznościom narzędzia do walki przez rady miast. A **DeFlock.org** zbudował publiczną mapę sieci inwigilacji, którą Flock Safety próbował stłumić groźbami prawnymi i poniósł porażkę.
 
-Szczegóły techniczne dotyczące urządzeń wykrywających i instrukcje konfiguracji krok po kroku znajdziesz w naszym przewodniku towarzyszącym: **[Projekt wykrywania Flock-You: Przewodnik po sprzęcie kontrwywiadowczym i konfiguracji](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
+Szczegóły techniczne dotyczące urządzeń wykrywających i instrukcje konfiguracji krok po kroku znajdziesz w naszym przewodniku towarzyszącym: **[Wykrywanie Flock-You: przewodnik konfiguracji sprzętu do wykrywania nadzoru](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
 **Pytanie nie brzmi, czy technologia może umożliwić wszechobecną inwigilację.** *Oczywiście może. Pytanie brzmi, czy wolne społeczeństwo powinno zezwalać na taką inwigilację bez solidnych zabezpieczeń, przejrzystości i odpowiedzialności.* Odpowiedź ukształtuje prawa do prywatności na pokolenia.
 
@@ -633,12 +726,13 @@ Ten artykuł jest częścią serii na temat inwigilacji ALPR Flock Safety i narz
 | Artykuł | Tematyka |
 |---------|---------|
 | **[Flock Finder: Mapuj kamery ALPR Flock Safety](/articles/flock-finder-alpr-surveillance-mapping-tool/)** | Interaktywna mapa open-source ponad 40 000 podejrzanych kamer Flock oparta na danych WiFi WiGLE — sprawdź skalę wdrożenia w Twojej okolicy przed jazdą |
-| **[Projekt wykrywania Flock-You: Przewodnik po sprzęcie kontrwywiadowczym](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** | Kompletny przewodnik techniczny do budowy lub zakupu detektorów Flock opartych na ESP32 — konfiguracja firmware, porównanie sprzętu, instrukcje krok po kroku |
+| **[Wykrywanie Flock-You: przewodnik konfiguracji sprzętu do wykrywania nadzoru](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** | Kompletny przewodnik techniczny do budowy lub zakupu detektorów Flock opartych na ESP32 — konfiguracja firmware, porównanie sprzętu, instrukcje krok po kroku |
 | **[Jak wgrać firmware na urządzenia Rayhunter: Kompletny przewodnik](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | Wykrywaj IMSI catchery (symulatory stacji bazowych) obok kamer ALPR dla pełnej świadomości kontrwywiadowczej |
 | **[Niestandardowy firmware DagShell dla Orbic RCL400](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | Zamień mobilny hotspot w platformę do badań bezpieczeństwa — dobrze współpracuje ze sprzętem wykrywającym Flock |
 | **[Porównanie urządzeń Rayhunter 2026](/articles/rayhunter-device-comparison-2026-complete-review/)** | Porównaj opcje sprzętu wykrywającego w kategoriach zagrożeń ALPR i inwigilacji komórkowej |
 
 ______
+
 
 ## Odniesienia
 
@@ -671,3 +765,12 @@ ______
 27. [NoALPRs.com — Krajowy tydzień działań](https://noalprs.com/)
 28. [DontGetFlocked.com — Planer tras FlockHopper](https://dontgetflocked.com/)
 29. [PlatPrivacy.com — Analiza ALPR Institute for Justice](https://plateprivacy.com/)
+30. [Flock Safety - czytniki tablic rejestracyjnych](https://www.flocksafety.com/products/license-plate-readers)
+31. [Flock Safety - często zadawane pytania](https://www.flocksafety.com/faq)
+32. [Flock Safety - polityka prywatności](https://www.flocksafety.com/legal/privacy-policy)
+33. [Flock Safety - dostęp organów ścigania do danych](https://www.flocksafety.com/trust/law-enforcement-access)
+34. [Flock Safety - centrum bezpieczeństwa](https://security.flocksafety.com/)
+35. [ACLU - rośnie sprzeciw społeczny wobec Flock](https://www.aclu.org/press-releases/as-public-opposition-to-flock-grows-aclu-responds-to-surveillance-companys-new-updates)
+36. [Departament Sprawiedliwości USA - informacje o FOIA](https://www.justice.gov/oip/about-foia)
+37. [Bureau of Justice Assistance - szablon opracowania polityki LPR](https://bja.ojp.gov/doc/lpr-policy-development-template.pdf)
+38. [Sąd Apelacyjny Wirginii - Commonwealth v. Church, sygnatura 0737-25-1](https://www.vacourts.gov/static/opinions/opncavwp/0737251.pdf)

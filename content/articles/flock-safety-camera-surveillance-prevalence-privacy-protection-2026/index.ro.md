@@ -1,7 +1,7 @@
 ---
 title: "Supravegherea prin Camere Flock Safety: Confidențialitate și Protecție"
 date: 2026-05-24
-lastmod: 2026-10-08
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Descoperă implementarea pe scară largă a camerelor ALPR Flock Safety în 2026, înțelege implicațiile pentru confidențialitate și învață strategii eficiente de contra-supraveghere, inclusiv dispozitive de detectare."
@@ -25,6 +25,17 @@ Comunitățile și organizațiile pentru libertăți civile reacționează. ACLU
 
 ______
 
+
+## Cum să citești dovezile actuale
+
+Această pagină reunește declarații ale furnizorilor, hotărâri judecătorești, cercetări despre libertățile civile și hărți comunitare. Aceste surse răspund la întrebări diferite. Pagina unui furnizor descrie proiectarea produsului și măsurile de control declarate. O hotărâre judecătorească tratează un dosar și o problemă juridică. O hartă comunitară înregistrează observații trimise de oameni.
+
+Notează data și tipul sursei lângă fiecare număr. Privește marcajele de pe hartă ca indicii. Un marcaj nu dovedește cine deține camera, dacă este activă sau dacă există o înregistrare despre vehiculul tău.
+
+La verificarea din 10 octombrie 2026, [pagina Flock despre cititoarele de plăcuțe](https://www.flocksafety.com/products/license-plate-readers) raporta peste un milion de cazuri sprijinite în 2025, 20% dintre cazurile soluționate cu sprijinul Flock și conexiuni de rețea în 49 de state. Aceste cifre sunt raportate de furnizor. Un [comunicat ACLU din 13 august 2026](https://www.aclu.org/press-releases/as-public-opposition-to-flock-grows-aclu-responds-to-surveillance-companys-new-updates) citează peste 120.000 de cititoare Flock în cel puțin 6.000 de orașe. [Pagina principală DeFlock](https://deflock.org/) raporta 143.924 de cititoare de plăcuțe cartografiate în Statele Unite. DeFlock spune că harta folosește contribuții de la voluntari și OpenStreetMap, deci totalul include instalații ALPR și nu reprezintă numărul camerelor deținute de Flock.
+
+Valorile mai vechi de 75.000, 3.500, 5.000, 150 de milioane, 124.186 și 97 rămân mai jos ca context istoric din versiunea precedentă. La data acestei verificări nu am găsit o sursă primară care să confirme fiecare valoare. Tratează-le ca estimări, cu excepția cazului în care o evidență locală sau o sursă datată le susține.
+
 ## Ce Poți Face Chiar Acum
 
 Nu trebuie să fii cercetător în securitate sau avocat pentru a reacționa împotriva supravegherii ALPR. Iată un plan de acțiune clar, de la cel mai puțin la cel mai implicat:
@@ -47,13 +58,15 @@ Hărțile software îți arată unde camerele *au fost văzute*. Un detector har
 
 > 💰 Folosește codul **FLOCKFINDER** pentru **20% reducere** la toate dispozitivele FlockYou, sau **SIMEONONSECURITY** pentru până la **20% reducere** la întreaga comandă STS Collective: **[stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY)**
 
-Pentru o comparație tehnică completă a tuturor hardware-urilor de detectare (inclusiv OUI-SPY și construcțiile DIY ESP32), citește: **[Flock-You Detection Project: Counter-Surveillance Hardware and Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
+Pentru o comparație tehnică completă a tuturor hardware-urilor de detectare (inclusiv OUI-SPY și construcțiile DIY ESP32), citește: **[Detectarea Flock-You: Ghid de Configurare pentru Contra-Supraveghere](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
 ### 3. Știi Ce Este în Cartierul Tău
 
 - **[HaveIBeenFlocked.com](https://haveibeenflocked.com/)** — Verifică dacă plăcuța ta de înmatriculare a apărut în căutările Flock efectuate de forțele de ordine din zona ta.
 - **[ALPR.watch](https://alpr.watch/)** — Află dacă consiliul tău municipal votează în curând un contract ALPR pentru a putea participa și vorbi.
 - Depune o **cerere de înregistrări publice** pentru contractul tău local Flock folosind **[ghidul FOIA DeFlock](https://deflock.org/foia)** și **[biblioteca de șabloane MuckRock](https://www.muckrock.com/search/?q=Flock)**.
+
+Ambele hărți sunt piste de cercetare. O potrivire OUI Wi-Fi sau un punct trimis de comunitate nu dovedește proprietarul camerei, funcționarea ei actuală sau colectarea datelor. Confirmă locația prin evidențe publice, prin agenție sau prin observare directă dintr-un loc public legal.
 
 ### 4. Organizează-ți Comunitatea
 
@@ -65,6 +78,8 @@ Pentru o comparație tehnică completă a tuturor hardware-urilor de detectare (
 *Începe cu pasul 1 astăzi. Conștientizarea nu costă nimic. Instrumentele sunt gratuite.*
 
 ______
+
+{{< figure src="community-action-steps-alpr-surveillance-awareness.webp" alt="O persoană folosește o aplicație pe telefon pentru a vedea harta camerelor ALPR din cartier" >}}
 
 ## Ce Este Flock Safety? Înțelegerea Tehnologiei ALPR
 
@@ -105,6 +120,24 @@ Aceasta creează o **bază de date căutabilă a mișcărilor vehiculelor** care
 - Identificarea tiparelor de viață și asocierilor
 - Crearea de geocercuri și alertarea la mișcările vehiculelor
 - Reconstituirea cronologiilor pentru investigații
+
+______
+
+
+## Fluxul datelor ALPR și puncte de control
+
+Un eveniment ALPR trece prin mai multe etape. Câmpurile exacte și perioada de păstrare depind de modelul camerei, comanda clientului, politica locală și lege.
+
+| Etapă | Ce se întâmplă | Ce trebuie verificat local |
+|------|----------------|----------------------------|
+| **Captură** | Camera surprinde mai multe imagini statice în timpul trecerii unui vehicul. Flock descrie date despre plăcuță, marcă, culoare și tipul caroseriei în [documentația LPR](https://www.flocksafety.com/products/license-plate-readers). | Modelul camerei, câmpul vizual, amplasarea și existența unor produse video sau audio în același loc |
+| **Extragere** | Software-ul citește plăcuța și creează atributele vehiculului, marcajul temporal, locația și identificatorul camerei. | Tratarea erorilor, regulile de confirmare manuală și procesul de corectare |
+| **Transmitere** | Flock spune că datele dispozitivului sunt transferate către Amazon Web Services cu criptare în tranzit și în repaus. Consultă [politica de confidențialitate](https://www.flocksafety.com/legal/privacy-policy). | Stocarea pe dispozitiv, regiunea cloud, exporturile, copiile de rezervă și accesul suportului furnizorului |
+| **Păstrare** | Înregistrarea rămâne disponibilă pentru căutare pe durata stabilită de politica actuală a produsului, comanda clientului, legea locală sau o obligație legală de păstrare. | Data exactă de ștergere a copiilor de pe dispozitiv, din cloud, exportate și de rezervă |
+| **Căutare și alertă** | Utilizatorii autorizați caută după plăcuța completă sau parțială, oră, locație ori atributele vehiculului. Potrivirile cu liste de interes generează alerte pentru utilizatorii autorizați. | Motivul obligatoriu al căutării, numărul dosarului, responsabilul listei și confirmarea manuală înaintea unei opriri |
+| **Partajare și audit** | Agenția alege relațiile de partajare. Flock spune că fiecare căutare folosește un cont individual și produce înregistrări care pot fi verificate. Consultă [pagina despre accesul forțelor de ordine](https://www.flocksafety.com/trust/law-enforcement-access). | Agențiile participante, accesul federal, acordurile scrise, auditorii și sancțiunile pentru utilizarea abuzivă |
+
+Acest flux explică de ce o scanare a plăcuței este mai mult decât o singură fotografie. Evenimentul asociază o imagine, câmpuri extrase, oră, loc, identitatea dispozitivului, istoricul căutărilor și deciziile de partajare. Solicită documente pentru fiecare nivel în politici sau contracte.
 
 ______
 
@@ -155,6 +188,8 @@ Un aspect semnificativ al prevalenței Flock este **modelul de parteneriat publi
 
 ______
 
+{{< figure src="flock-safety-camera-nationwide-deployment-map.webp" alt="Hartă a Statelor Unite care arată distribuția geografică extinsă a camerelor ALPR Flock Safety" >}}
+
 ## Preocupări privind Confidențialitatea și Probleme de Libertăți Civile
 
 ### Preocupări Constituționale și Legale
@@ -195,6 +230,22 @@ Implementarea pe scară largă a supravegherii ALPR ridică serioase **preocupă
 - **Amenințări interne**: Angajații sau forțele de ordine abuzează de acces
 - **Breșe de date**: *Un incident din 2024 a expus mii de înregistrări*
 - **Fără notificarea utilizatorului**: *Persoanele urmărite nu sunt niciodată informate despre colectarea datelor*
+
+Întrebările frecvente actuale ale Flock spun că datele sunt șterse după 7 zile, cu excepția cazului în care legea impune o perioadă mai lungă. [politica de confidențialitate](https://www.flocksafety.com/legal/privacy-policy) descrie în continuare 30 de zile de stocare în cloud și permite păstrarea cerută de lege. [pagina Flock despre cititoarele de plăcuțe](https://www.flocksafety.com/products/license-plate-readers) spune că clienții controlează setările de păstrare și partajare. Aceste pagini publice nu înlocuiesc un formular de comandă semnat sau politica locală. Verifică ambele înainte de a cita o perioadă de păstrare.
+
+Declarația anterioară despre incidentul din 2024 rămâne o afirmație istorică neverificată. Nu am găsit o notificare primară care să-i susțină amploarea exactă. [Flock Safety - centrul de securitate](https://security.flocksafety.com/) listează materiale publice de securitate și rapoarte de conformitate cu acces restricționat. Controalele furnizorului descriu proiectarea și politica, dar nu dovedesc utilizarea conformă de către fiecare client.
+
+### Întrebări de adresat în scris
+
+Modelul de politică LPR al Biroului de Asistență pentru Justiție [Bureau of Justice Assistance - model pentru dezvoltarea unei politici LPR](https://bja.ojp.gov/doc/lpr-policy-development-template.pdf) recomandă controale scrise pentru colectare, acces, partajare, păstrare, ștergere, audit și remedii. Cere agenției locale informații despre:
+
+- **Păstrare**: formularul de comandă semnat, calendarul local, regulile de ștergere, procedura de conservare juridică și păstrarea exporturilor și copiilor de siguranță.
+- **Acces**: roluri aprobate, motivele căutărilor, regulile numerelor de dosar, verificarea de către supervizor și instruirea utilizatorilor.
+- **Partajare**: agențiile participante, accesul federal, condițiile rețelei, scopurile permise și evidența fiecărei divulgări.
+
+- **Acuratețe**: Revizuirea rezultatelor fals pozitive, confirmarea manuală a plăcuței, cereri de corectare și notificarea după o oprire nejustificată.
+
+- **Răspundere**: Jurnale de căutare, modificări ale listelor de urmărire, rapoarte de audit, reguli disciplinare și notificări privind breșele.
 
 ### Extinderea Funcției și Expansiunea Misiunii: Abuzuri Documentate
 
@@ -261,6 +312,12 @@ Deciziile judecătorești recente modelează legea ALPR:
 - **2025 Al Patrulea Circuit**: *Commonwealth v. Flock Safety* a limitat urmărirea ALPR pe termen lung fără mandat
 - **2024 Al Nouălea Circuit**: *ACLU v. San Diego* a impus dezvăluirea contractelor cu furnizori ALPR
 - **2026 în așteptare**: Acțiune colectivă *Rodriguez v. Flock Safety* privind practicile de retenție a datelor
+
+### Corectarea evidenței judiciare
+
+Mențiunea anterioară „2025 Fourth Circuit: Commonwealth v. Flock Safety” are nevoie de o citare exactă. Documentul judiciar primar găsit pentru acest subiect este [Curtea de Apel din Virginia - Commonwealth v. Church, dosar 0737-25-1](https://www.vacourts.gov/static/opinions/opncavwp/0737251.pdf), o opinie memorandum nepublicată a Curții de Apel din Virginia, datată 14 octombrie 2025. Aceasta a anulat decizia instanței din Norfolk de excludere a probelor și a stabilit că, pe faptele prezentate, nu era necesar un mandat. Este o hotărâre a unei instanțe de apel a statului Virginia, nu un precedent al Fourth Circuit. Nu decide fiecare implementare ALPR sau orice întrebare despre urmărirea pe termen lung.
+
+Mențiunile „2024 Ninth Circuit: ACLU v. San Diego” și „2026 pending: Rodriguez v. Flock Safety” sunt nume păstrate din versiunea anterioară. Nu am găsit o opinie primară sau un dosar oficial corespunzător. Tratează-le ca neverificate până la adăugarea unei opinii sau a unui dosar oficial.
 
 ### Politici Municipale
 
@@ -334,6 +391,22 @@ Dacă orașul tău sau HOA are sau ia în considerare un contract Flock, pune ac
 
 ______
 
+### Răspuns comunitar legal
+
+Folosește observarea publică, cereri de documente, intervenții la ședințe și canalele aleșilor. Nu intra fără permisiune, nu atinge, dezactiva, bruia, acoperi sau modifica echipamentele.
+
+1. **Confirmă operatorul**: Notează locul, data, indicatorul, stâlpul și detaliile camerei dintr-un loc public legal. Întreabă orașul, comitatul, biroul șerifului, școala, compania sau HOA cine operează sistemul.
+
+2. **Citește agenda**: Caută aprobarea ori reînnoirea contractului, bugetul, dosarul de achiziție și politica de confidențialitate. Trimite întrebări în scris înainte de termenul ședinței.
+
+3. **Pune întrebări concrete**: Întreabă despre păstrare, căutări, partajare, acces federal, audit, rezultate false, ștergere și remedii.
+
+4. **Cere un vot public**: Solicită organismului de conducere să amâne reînnoirea până când agenția publică acordul, politica, relațiile de partajare, auditul și raportul anual de utilizare.
+
+5. **Păstrează sursele**: Salvează cererea, răspunsul, versiunea contractului, data ședinței și declarația publică. Distribuie documentele cu context organizatorilor și jurnaliștilor locali.
+
+FOIA federală și solicitările de evidențe locale sunt diferite. Potrivit [Departamentul de Justiție al SUA - despre FOIA](https://www.justice.gov/oip/about-foia), FOIA se aplică evidențelor ramurii executive. Nu se aplică evidențelor statale, locale sau private. Pentru un oraș, comitat, birou al șerifului, școală sau HOA, folosește legea statului privind evidențele publice, o solicitare de acces la documente sau procedura de evidență a consiliului.
+
 ## EFF Apără DeFlock: Intimidarea cu Mărci Comerciale a Flock Safety
 
 În **februarie 2025**, Flock Safety a trimis o scrisoare de încetare și abandonare lui **Will Freeman**, creatorul **DeFlock.me**, un instrument de cartografiere care urmărea locațiile camerelor Flock. Flock a susținut că numele „DeFlock" constituia diluare a mărcii comerciale și a cerut eliminarea site-ului.
@@ -349,6 +422,8 @@ Propriul **Atlas of Surveillance** al EFF a identificat independent peste **1.70
 ______
 
 ## Cum Pot Fi Detectate Camerele Flock Safety
+
+{{< stscollective-ad "flockyou" >}}
 
 ### Înțelegerea Semnăturilor Camerelor Flock
 
@@ -387,7 +462,7 @@ Descoperirea majoră în detectarea Flock provine din **caracteristicile rețele
 
 Proiectul folosește **31 de OUI-uri WiFi** descoperite de cercetătorii **@NitekryDPaul** și comunitatea **DeFlockJoplin**:
 
-```
+```text
 D4:AD:FC - Espressif (module ESP32 în camere)
 AC:67:B2 - Espressif (comun în implementările Flock)
 84:F3:EB - Espressif (variante ESP32-S3)
@@ -408,11 +483,11 @@ Detectarea Flock-You folosește multiple strategii:
 
 ### Opțiuni de Hardware de Detectare
 
-Pentru specificații tehnice detaliate și informații despre achiziție, consultă ghidul nostru cuprinzător: **[Flock-You Detection Project: Counter-Surveillance Hardware and Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
+Pentru specificații tehnice detaliate și informații despre achiziție, consultă ghidul nostru cuprinzător: **[Detectarea Flock-You: Ghid de Configurare pentru Contra-Supraveghere](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
 Trei platforme principale de hardware sunt disponibile pentru detectarea Flock:
 
-#### 1. OUI-SPY by Colonel Panic Tech ($85)
+#### 1. OUI-SPY de Colonel Panic Tech ($85)
 - Dispozitiv de detectare Flock construit special
 - Bazat pe ESP32-S3 cu firmware optimizat
 - Alerte în timp real prin LED și buzzer
@@ -426,7 +501,7 @@ Trei platforme principale de hardware sunt disponibile pentru detectarea Flock:
 - Platformă susținută de comunitate
 - Extensibilă cu accesorii
 
-#### 3. mesh-detect v2 by STS Collective ($110)
+#### 3. mesh-detect v2 de STS Collective ($110)
 - Capacități avansate de detectare
 - Durată de viață extinsă a bateriei
 - Display îmbunătățit cu GPS
@@ -552,6 +627,8 @@ Dacă descoperi că ai fost urmărit:
 
 ______
 
+{{< figure src="privacy-protection-strategies-against-alpr-tracking.webp" alt="O persoană trimite de pe laptop o cerere de evidențe publice pentru a contesta contracte locale de supraveghere ALPR" >}}
+
 ## Ecosistemul Instrumentelor și Organizațiilor Anti-Supraveghere
 
 Un ecosistem în creștere de instrumente și proiecte sprijină persoanele și comunitățile care luptă împotriva supravegherii ALPR. Folosește-le alături de hardware-ul de detectare descris mai sus.
@@ -585,6 +662,8 @@ Tehnologia ALPR continuă să evolueze:
 - **Urmărire în timp real**: Trecerea de la căutările în baze de date la capacități de urmărire în direct
 - **Rețele internaționale**: Acorduri de partajare a datelor transfrontaliere
 
+Pagina LPR actuală a Flock spune că recunoașterea facială nu este inclusă și nu este planificată pentru produsul său de citire a plăcuțelor. Alți furnizori și alte produse Flock pot diferi. Verifică modelul activ al camerei, contractul și politica înainte de a aplica afirmația unei instalații locale.
+
 ### Contra-Evoluții în Tehnologia de Confidențialitate
 
 Comunitatea de confidențialitate răspunde cu inovație:
@@ -606,9 +685,23 @@ Peisajul reglementar se va schimba:
 
 ______
 
+## Verifică dovezile înainte să acționezi
+
+Acoperirea ALPR diferă în funcție de oraș, agenție, contract și perioadă. Un marcaj pe hartă nu dovedește cine deține camera, ce agenție primește datele sau dacă există o înregistrare despre un anumit vehicul. Tratează cifrele despre instalări și afirmațiile despre păstrarea datelor ca dovezi datate. Confirmă politica locală prin documentele agenției, procesele-verbale ale consiliului, contract și răspunsurile la cererile de informații publice.
+
+Urmează acești pași când cercetezi un sistem local:
+
+1. Notează locația camerei și data observației. Nu intra pe o proprietate privată și nu interveni asupra echipamentului.
+2. Caută pe site-ul orașului sau al comitatului contractul, documentele de achiziție, politica de confidențialitate, programul de păstrare și acordul de partajare.
+3. Întreabă cine operează sistemul, ce agenție primește căutările, ce agenții externe primesc date, cât timp pot fi căutate înregistrările și cum poate cineva solicita acces sau corectarea datelor.
+4. Compară răspunsul cu descrierea publică a furnizorului și politica locală. Salvează titlul documentului, data și adresa URL.
+5. Depune o cerere de informații publice pentru documentele lipsă. Cere politici și contracte, nu istoricul deplasărilor unei persoane private.
+
+[Prezentarea legilor statelor privind ALPR a National Conference of State Legislatures](https://www.ncsl.org/technology-and-communication/automated-license-plate-readers-state-statutes) și [Atlas of Surveillance al Electronic Frontier Foundation](https://atlasofsurveillance.org/atlas) sunt puncte de pornire utile. Nu înlocuiesc documentele locale. [Harta DeFlock](https://deflock.org/) arată și cercetări comunitare, dar acoperirea ei nu este un inventar complet.
+
 ## Concluzie: Echilibrarea Securității și Confidențialității
 
-Proliferarea camerelor ALPR Flock Safety reprezintă o schimbare fundamentală în **capacitatea de supraveghere atât a entităților publice, cât și private**. Susținătorii argumentează că aceste sisteme sporesc siguranța publică prin rezolvarea infracțiunilor și recuperarea vehiculelor furate. *Implicațiile pentru confidențialitate sunt profunde și de mare anvergură, iar acel compromis merită scrutin.*
+Proliferarea camerelor ALPR Flock Safety reprezintă o schimbare fundamentală în **capacitatea de supraveghere atât a entităților publice, cât și private**. Susținătorii argumentează că aceste sisteme sporesc siguranța publică prin rezolvarea infracțiunilor și recuperarea vehiculelor furate. * **Implicațiile pentru confidențialitate sunt profunde și de mare anvergură** și acel compromis merită scrutin.*
 
 Începând cu 2026, **peste 75.000 de camere** scanează **peste 150 de milioane de vehicule zilnic**, creând baze de date căutabile ale mișcărilor americanilor fără mandat, cauză probabilă sau suspiciune individualizată. Această infrastructură permite:
 - Urmărirea cetățenilor respectuoși ai legii
@@ -620,7 +713,7 @@ Proliferarea camerelor ALPR Flock Safety reprezintă o schimbare fundamentală �
 
 **Strategiile de protecție** variază de la advocacy de politici la contra-supraveghere tehnică. **Proiectul open-source Flock-You** a democratizat conștientizarea infrastructurii de supraveghere, permițând persoanelor să înțeleagă când și unde sunt monitorizate. **Campania „Get The Flock Out" a ACLU** a oferit comunităților instrumentele pentru a reacționa prin consiliile lor municipale. Iar **DeFlock.org** a construit o hartă publică a rețelei de supraveghere pe care Flock Safety a încercat să o suprime prin amenințări legale și a eșuat.
 
-Pentru detalii tehnice despre dispozitivele de detectare și instrucțiuni de configurare pas cu pas, citește ghidul nostru companion: **[Flock-You Detection Project: Counter-Surveillance Hardware and Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
+Pentru detalii tehnice despre dispozitivele de detectare și instrucțiuni de configurare pas cu pas, citește ghidul nostru companion: **[Detectarea Flock-You: Ghid de Configurare pentru Contra-Supraveghere](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
 **Întrebarea nu este dacă tehnologia poate permite supravegherea generalizată.** *Evident poate. Întrebarea este dacă o societate liberă ar trebui să permită o astfel de supraveghere fără măsuri de protecție robuste, transparență și responsabilitate.* Răspunsul va modela drepturile de confidențialitate pentru generații.
 
@@ -633,12 +726,13 @@ Acest articol face parte dintr-o serie despre supravegherea ALPR Flock Safety ș
 | Articol | Ce acoperă |
 |---------|------------|
 | **[Flock Finder: Cartografierea Camerelor ALPR Flock Safety](/articles/flock-finder-alpr-surveillance-mapping-tool/)** | Hartă interactivă open-source a peste 40.000 de camere Flock suspectate prin date WiFi WiGLE — vezi amploarea implementării în zona ta înainte de a conduce |
-| **[Proiectul de Detectare Flock-You: Ghid de Hardware de Contra-Supraveghere](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** | Ghid tehnic complet pentru construirea sau cumpărarea detectoarelor Flock bazate pe ESP32 — configurarea firmware-ului, compararea hardware-ului, instrucțiuni pas cu pas |
+| **[Detectarea Flock-You: Ghid de Configurare pentru Contra-Supraveghere](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** | Ghid tehnic complet pentru construirea sau cumpărarea detectoarelor Flock bazate pe ESP32 — configurarea firmware-ului, compararea hardware-ului, instrucțiuni pas cu pas |
 | **[Cum să Programezi Dispozitivele Rayhunter: Ghid Complet](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | Detectează captatori IMSI (simulatori de site-uri celulare) alături de camerele ALPR pentru conștientizare completă a contra-supravegherii |
 | **[Firmware Personalizat DagShell pentru Orbic RCL400](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | Transformă un hotspot mobil într-o platformă de cercetare în securitate — se potrivește bine cu hardware-ul de detectare Flock |
 | **[Compararea Dispozitivelor Rayhunter 2026](/articles/rayhunter-device-comparison-2026-complete-review/)** | Compară opțiunile de hardware de detectare în categoriile de amenințări de supraveghere ALPR și celulară |
 
 ______
+
 
 ## Referințe
 
@@ -671,3 +765,12 @@ ______
 27. [NoALPRs.com - Săptămâna Națională de Acțiune](https://noalprs.com/)
 28. [DontGetFlocked.com - Planificatorul de Rute FlockHopper](https://dontgetflocked.com/)
 29. [PlatPrivacy.com - Analiza ALPR a Institutului pentru Justiție](https://plateprivacy.com/)
+30. [Flock Safety - cititoare de plăcuțe de înmatriculare](https://www.flocksafety.com/products/license-plate-readers)
+31. [Flock Safety - întrebări frecvente](https://www.flocksafety.com/faq)
+32. [Flock Safety - politica de confidențialitate](https://www.flocksafety.com/legal/privacy-policy)
+33. [Flock Safety - accesul forțelor de ordine la date](https://www.flocksafety.com/trust/law-enforcement-access)
+34. [Flock Safety - centrul de securitate](https://security.flocksafety.com/)
+35. [ACLU - opoziția publică față de Flock crește](https://www.aclu.org/press-releases/as-public-opposition-to-flock-grows-aclu-responds-to-surveillance-companys-new-updates)
+36. [Departamentul de Justiție al SUA - despre FOIA](https://www.justice.gov/oip/about-foia)
+37. [Bureau of Justice Assistance - model pentru dezvoltarea unei politici LPR](https://bja.ojp.gov/doc/lpr-policy-development-template.pdf)
+38. [Curtea de Apel din Virginia - Commonwealth v. Church, dosar 0737-25-1](https://www.vacourts.gov/static/opinions/opncavwp/0737251.pdf)

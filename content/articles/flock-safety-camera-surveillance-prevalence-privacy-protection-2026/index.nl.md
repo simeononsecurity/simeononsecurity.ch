@@ -1,7 +1,7 @@
 ---
 title: "Flock Safety Camerabewaking: Privacy en Bescherming"
 date: 2026-05-24
-lastmod: 2026-10-08
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Ontdek de wijdverspreide inzet van Flock Safety ALPR-camera's in 2026, begrijp de privacyimplicaties en leer effectieve contra-surveillancestrategieën inclusief detectieapparaten."
@@ -25,6 +25,17 @@ Gemeenschappen en organisaties voor burgerlijke vrijheden verzetten zich. De ACL
 
 ______
 
+
+## Hoe je het huidige bewijs leest
+
+Dit artikel brengt uitspraken van leveranciers, rechterlijke uitspraken, onderzoek naar burgerrechten en kaarten van gemeenschappen samen. Deze bronnen beantwoorden verschillende vragen. Een leverancierspagina beschrijft het productontwerp en de genoemde controles. Een rechterlijke uitspraak behandelt één dossier en één juridische kwestie. Een gemeenschapskaart registreert ingestuurde waarnemingen.
+
+Vermeld bij elk getal de datum en het brontype. Beschouw kaartmarkeringen als aanwijzingen. Een markering bewijst niet wie de camera bezit, of deze actief is of dat er een registratie van jouw voertuig bestaat.
+
+Bij de controle op 10 oktober 2026 meldde Flocks [pagina over kentekenlezers](https://www.flocksafety.com/products/license-plate-readers) meer dan 1 miljoen ondersteunde zaken in 2025, 20% van de opgeloste zaken met steun van Flock en netwerkverbindingen in 49 staten. Dit zijn cijfers van de leverancier. Een [ACLU-persbericht van 13 augustus 2026](https://www.aclu.org/press-releases/as-public-opposition-to-flock-grows-aclu-responds-to-surveillance-companys-new-updates) noemt meer dan 120.000 Flock-lezers in minstens 6.000 steden. De [homepage van DeFlock](https://deflock.org/) meldt 143.924 in de Verenigde Staten in kaart gebrachte kentekenlezers. DeFlock zegt dat de kaart bijdragen van vrijwilligers en OpenStreetMap gebruikt. Het totaal omvat dus ALPR-installaties en is niet gelijk aan het aantal camera’s dat Flock bezit.
+
+De eerdere aantallen van 75.000, 3.500, 5.000, 150 miljoen, 124.186 en 97 staan hieronder als historische context uit de vorige revisie. Op de datum van deze controle vond ik geen primaire bron die elk getal bevestigt. Behandel ze als schattingen, tenzij een lokaal document of een gedateerde bron ze onderbouwt.
+
 ## Wat u Nu Meteen Kunt Doen
 
 U hoeft geen beveiligingsonderzoeker of advocaat te zijn om ALPR-surveillance te bestrijden. Hier is een duidelijk actieplan van minst tot meest betrokken:
@@ -47,13 +58,15 @@ Softwarekaarten laten zien waar camera's *zijn gezien*. Een hardwaredetector ver
 
 > 💰 Gebruik code **FLOCKFINDER** voor **20% korting** op alle FlockYou-apparaten, of **SIMEONONSECURITY** voor tot **20% korting** op uw hele STS Collective-bestelling: **[stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY)**
 
-Voor een volledige technische vergelijking van alle detectiehardware (inclusief de OUI-SPY en DIY ESP32-builds), lees: **[Flock-You Detection Project: Counter-Surveillance Hardware and Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
+Voor een volledige technische vergelijking van alle detectiehardware (inclusief de OUI-SPY en DIY ESP32-builds), lees: **[Flock-You Detectie: Handleiding voor Contra-Surveillance](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
 ### 3. Weet Wat er in uw Buurt Is
 
 - **[HaveIBeenFlocked.com](https://haveibeenflocked.com/)** — Controleer of uw kenteken is verschenen in Flock-zoekopdrachten door wetshandhaving in uw omgeving.
 - **[ALPR.watch](https://alpr.watch/)** — Ontdek of uw gemeenteraad binnenkort stemt over een ALPR-contract zodat u aanwezig kunt zijn en kunt spreken.
 - Dien een **verzoek om openbare registers** in voor uw lokale Flock-contract via de **[DeFlock FOIA-gids](https://deflock.org/foia)** en de **[MuckRock sjabloonbibliotheek](https://www.muckrock.com/search/?q=Flock)**.
+
+Beide kaarten zijn aanwijzingen voor verder onderzoek. Een overeenkomende wifi-OUI of een door de gemeenschap gemeld punt bewijst niet wie de camera bezit, of deze actief is of gegevens verzamelt. Bevestig de locatie met openbare stukken, de verantwoordelijke instantie of rechtmatige observatie vanaf een openbare plek.
 
 ### 4. Organiseer uw Gemeenschap
 
@@ -65,6 +78,8 @@ Voor een volledige technische vergelijking van alle detectiehardware (inclusief 
 *Begin vandaag bij stap 1. Bewustzijn kost niets. De tools zijn gratis.*
 
 ______
+
+{{< figure src="community-action-steps-alpr-surveillance-awareness.webp" alt="Een persoon bekijkt met een smartphone-app een kaart van ALPR-camera's in de buurt" >}}
 
 ## Wat is Flock Safety? ALPR-technologie Begrijpen
 
@@ -87,7 +102,7 @@ Het vlaggenschipproduct van het bedrijf is de **Flock Safety Falcon-camera**, ee
 
 Flock-camera's leggen meer vast dan alleen plaatnummers. Ze registreren het merk, model, kleur, carrosserietype en onderscheidende kenmerken van elk voertuig dat passeert. Het bedrijf verkoopt deze als "vingerafdrukken" van voertuigen. Dit betekent dat elke rit die u maakt wordt gecatalogiseerd, zelfs wanneer u niets verkeerds heeft gedaan.
 
-{{< figure src="deflock-lpr-demo.webp" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="Een typische ALPR-camerainstallatie. Beeldcredit: DeFlock.org" link="https://deflock.org/" >}}
+{{< figure src="deflock-lpr-demo.webp" alt="Een ALPR-camera van Flock Safety op een paal, die laat zien hoe de technologie kentekens vastlegt" caption="Een typische ALPR-camerainstallatie. Beeldcredit: DeFlock.org" link="https://deflock.org/" >}}
 
 ### Hoe ALPR-technologie Werkt
 
@@ -105,6 +120,24 @@ Dit creëert een **doorzoekbare database van voertuigbewegingen** die kan worden
 - Levenspatronen en relaties te identificeren
 - Geofences te maken en te waarschuwen bij voertuigbewegingen
 - Tijdlijnen te reconstrueren voor onderzoeken
+
+______
+
+
+## ALPR-gegevensstroom en controlepunten
+
+Een ALPR-gebeurtenis doorloopt meerdere fasen. De exacte velden en bewaartermijn hangen af van het cameramodel, de bestelling van de klant, lokaal beleid en de wet.
+
+| Fase | Wat gebeurt er | Wat je lokaal moet controleren |
+|------|----------------|--------------------------------|
+| **Vastleggen** | De camera maakt tijdens een voertuigpassage meerdere stilstaande beelden. Flock beschrijft kenteken-, merk-, kleur- en carrosserietypegegevens in de [LPR-documentatie](https://www.flocksafety.com/products/license-plate-readers). | Cameramodel, gezichtsveld, plaatsing en eventuele video- of audioproducten op dezelfde locatie |
+| **Gegevens uitlezen** | Software leest het kenteken en maakt voertuigkenmerken, een tijdstempel, locatie en camera-ID aan. | Foutafhandeling, regels voor handmatige bevestiging en correctieprocedure |
+| **Verzenden** | Volgens Flock worden apparaatgegevens met versleuteling tijdens transport en opslag naar Amazon Web Services verzonden. Zie het [privacybeleid](https://www.flocksafety.com/legal/privacy-policy). | Opslag op het apparaat, cloudregio, exports, back-ups en toegang voor de ondersteuning van de leverancier |
+| **Bewaren** | De registratie blijft doorzoekbaar zolang het huidige productbeleid, de klantbestelling, lokale wetgeving of een juridische bewaarplicht voorschrijft. | Exacte verwijderdatum voor kopieën op het apparaat, in de cloud, in exports en back-ups |
+| **Zoeken en waarschuwen** | Bevoegde gebruikers zoeken op volledig of gedeeltelijk kenteken, tijd, locatie of voertuigkenmerken. Overeenkomsten met signaleringslijsten leveren meldingen op voor bevoegde gebruikers. | Verplichte reden voor de zoekopdracht, zaaknummer, eigenaar van de lijst en handmatige bevestiging vóór een staandehouding |
+| **Delen en controleren** | De instantie bepaalt met wie gegevens worden gedeeld. Volgens Flock gebruiken zoekopdrachten individuele accounts en maken ze controleerbare logboeken aan. Zie de [pagina over toegang door opsporingsdiensten](https://www.flocksafety.com/trust/law-enforcement-access). | Deelnemende instanties, federale toegang, schriftelijke afspraken, auditors en sancties bij misbruik |
+
+Deze stroom laat zien waarom een kentekenscan meer is dan één foto. De gebeurtenis koppelt een beeld aan uitgelezen velden, tijd, plaats, apparaatidentiteit, zoekgeschiedenis en beslissingen over delen. Vraag in beleids- of contractstukken om informatie over elke laag.
 
 ______
 
@@ -155,6 +188,8 @@ Een significant aspect van de prevalentie van Flock is het **publiek-privaat par
 
 ______
 
+{{< figure src="flock-safety-camera-nationwide-deployment-map.webp" alt="Kaart van de Verenigde Staten met de brede geografische spreiding van Flock Safety-ALPR-camera's" >}}
+
 ## Privacyzorgen en Burgerrechtenkwesties
 
 ### Grondwettelijke en Juridische Zorgen
@@ -196,11 +231,27 @@ De wijdverspreide inzet van ALPR-surveillance roept ernstige **vragen over het V
 - **Datalekken**: *Een incident in 2024 stelde duizenden records bloot*
 - **Geen gebruikersmelding**: *Personen die worden gevolgd worden nooit geïnformeerd over gegevensverzameling*
 
+Volgens de actuele FAQ van Flock worden gegevens na 7 dagen verwijderd, tenzij de wet een langere termijn vereist. In het [privacybeleid](https://www.flocksafety.com/legal/privacy-policy) staat nog steeds dat gegevens 30 dagen in de cloud worden bewaard en langer mogen blijven als de wet dit vereist. Volgens de [pagina over kentekenlezers](https://www.flocksafety.com/products/license-plate-readers) bepalen klanten zelf de bewaartermijn en deelinstellingen. Deze openbare pagina's vervangen geen ondertekend bestelformulier of lokaal beleid. Controleer beide voordat je een bewaartermijn noemt.
+
+De eerdere melding over het incident uit 2024 blijft een onbevestigde historische bewering. Ik heb geen primaire melding gevonden die de precieze omvang ondersteunt. Het [Flock Safety - beveiligingscentrum](https://security.flocksafety.com/) bevat openbare beveiligingsinformatie en beperkte compliancerapporten. De maatregelen van de leverancier beschrijven ontwerp en beleid, maar bewijzen niet dat elke klant de systemen volgens de regels gebruikt.
+
+### Vragen om schriftelijk te stellen
+
+De LPR-beleidsrichtlijn van het Bureau of Justice Assistance [Bureau of Justice Assistance - model voor LPR-beleidsontwikkeling](https://bja.ojp.gov/doc/lpr-policy-development-template.pdf) beveelt schriftelijke regels aan voor verzamelen, toegang, delen, bewaren, verwijderen, controle en herstel. Vraag de lokale instantie om:
+
+- **Bewaring**: het ondertekende bestelformulier, lokale bewaartermijnen, verwijderregels, de procedure voor juridische bewaring en de bewaartermijn voor exports en back-ups.
+- **Toegang**: toegestane rollen, redenen voor zoekopdrachten, regels voor zaaknummers, beoordeling door een leidinggevende en gebruikerstraining.
+- **Delen**: deelnemende instanties, federale toegang, netwerkvoorwaarden, toegestane doelen en een registratie van elke verstrekking.
+
+- **Nauwkeurigheid**: Beoordeling van fout-positieven, handmatige kentekencontrole, correctieverzoeken en kennisgeving na een onterechte stop.
+
+- **Verantwoording**: Zoeklogboeken, wijzigingen van hotlists, auditrapporten, disciplinaire regels en meldingen van datalekken.
+
 ### Functieverschuiving en Missie-uitbreiding: Gedocumenteerd Misbruik
 
 Wat begon als een hulpmiddel voor het **oplossen van eigendomsmisdrijven** is dramatisch uitgebreid. Dit zijn geen hypothetische risico's. Het zijn gedocumenteerde patronen.
 
-{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="De 'Get The Flock Out'-campagne van de ACLU heeft wijdverspreid misbruik van ALPR-systemen gedocumenteerd. Beeldcredit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="Kopafbeelding van de ACLU-campagne ‘Get The Flock Out’ met een collage van ALPR-camera’s" caption="De 'Get The Flock Out'-campagne van de ACLU heeft wijdverspreid misbruik van ALPR-systemen gedocumenteerd. Beeldcredit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 #### ICE en Immigratiehandhaving
 **ICE heeft Flock gebruikt om ongedocumenteerde immigranten te lokaliseren en te vervolgen zonder bevelschriften.** Het landelijke netwerk van het platform geeft de federale immigratiehandhaving een hulpmiddel om personen over rechtsgebieden heen te volgen zonder enige geïndividualiseerde vermoedelijke reden. Veel gemeenschappen die hun Flock-netwerken hebben gefinancierd voor het terugkrijgen van eigendomsmisdrijven hebben ontdekt dat hun camera's deel uitmaken van federale immigratiehandhavingsoperaties.
@@ -262,6 +313,12 @@ Recente rechterlijke uitspraken vormen het ALPR-recht:
 - **2024 Negende Circuit**: *ACLU v. San Diego* vereiste openbaarmaking van ALPR-leverancierscontracten
 - **2026 aanhangig**: *Rodriguez v. Flock Safety* collectieve rechtszaak betreffende gegevensbewaringspraktijken
 
+### Correctie van de gerechtelijke bron
+
+De eerdere vermelding ‘2025 Fourth Circuit: Commonwealth v. Flock Safety’ vereist een nauwkeurige bronvermelding. Het primaire document dat voor dit onderwerp is gevonden, is [Hof van beroep van Virginia - Commonwealth v. Church, zaaknummer 0737-25-1](https://www.vacourts.gov/static/opinions/opncavwp/0737251.pdf), een niet-gepubliceerde memorandumuitspraak van het Virginia Court of Appeals van 14 oktober 2025. De uitspraak draaide de beslissing van de rechtbank in Norfolk over het onderdrukken van bewijs terug en oordeelde dat op de voorgelegde feiten geen bevelschrift nodig was. Dit is een uitspraak van een staatsgerechtshof in Virginia, geen precedent van het Fourth Circuit. De uitspraak beslist niet over elke ALPR-implementatie of langdurige volgmethode.
+
+De vermeldingen ‘2024 Ninth Circuit: ACLU v. San Diego’ en ‘2026 pending: Rodriguez v. Flock Safety’ zijn namen uit de vorige versie. Ik vond geen bijpassende primaire uitspraak of officieel dossier. Behandel ze als onbevestigd totdat een officiële uitspraak of zaakdossier wordt toegevoegd.
+
 ### Gemeentelijk Beleid
 
 Veel steden hebben **lokale verordeningen** uitgevaardigd:
@@ -277,7 +334,7 @@ ______
 
 Grassroots-organisatie werkt. Gemeenteraden in het hele land annuleren Flock-contracten wanneer bewoners opdagen en rekenschap eisen. De **ACLU** heeft een volledige infrastructuur gebouwd om gemeenschappen te helpen terug te vechten.
 
-{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign banner promoting community action against Flock Safety ALPR cameras" caption="Gemeenschappen in het hele land verzetten zich tegen ALPR-surveillance. Beeldcredit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="Banner van de ACLU-campagne ‘Get The Flock Out’ die gemeenschapsactie tegen ALPR-camera’s van Flock Safety promoot" caption="Gemeenschappen in het hele land verzetten zich tegen ALPR-surveillance. Beeldcredit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 ### De ACLU Toolkit
 
@@ -334,6 +391,22 @@ Als uw stad of HOA een Flock-contract heeft of overweegt, stel deze vragen schri
 
 ______
 
+### Een rechtmatige reactie van de gemeenschap
+
+Gebruik openbare observatie, verzoeken om documenten, inspraak tijdens vergaderingen en contact met gekozen bestuurders. Betreed geen terrein zonder toestemming en raak apparatuur niet aan, schakel die niet uit, stoor of bedek die niet en wijzig die niet.
+
+1. **Stel de eigenaar vast**: Noteer vanaf een toegestane openbare plek de locatie, datum, het bord, de paal en de camera. Vraag de stad, county, sheriff, school, onderneming of HOA wie het systeem beheert.
+
+2. **Lees de agenda**: Zoek de goedkeuring of verlenging van het contract, de begrotingspost, het inkoopdossier en het privacybeleid. Dien vóór de vergaderdeadline schriftelijke vragen in.
+
+3. **Stel gerichte vragen**: Vraag naar bewaartermijnen, zoekopdrachten, delen, federale toegang, audits, fout-positieven, verwijdering en herstel.
+
+4. **Vraag om een openbare stemming**: Vraag het bestuur de verlenging uit te stellen totdat contract, beleid, deelrelaties, audits en het jaarlijkse gebruiksrapport openbaar zijn.
+
+5. **Bewaar de brongegevens**: Bewaar verzoek, antwoord, contractversie, vergaderdatum en openbare verklaring. Deel de stukken met context met lokale organisatoren en journalisten.
+
+Federale FOIA-verzoeken en lokale dossierverzoeken zijn verschillend. Volgens [Amerikaans ministerie van Justitie - over FOIA](https://www.justice.gov/oip/about-foia) geldt FOIA voor dossiers van de uitvoerende macht. De wet geldt niet voor dossiers van staten, lokale overheden of private partijen. Gebruik voor een stad, county, sheriff, school of HOA de openbare-registerwet van de staat, een verzoek om overheidsinformatie of de procedure voor bestuursdocumenten.
+
 ## EFF Verdedigt DeFlock: Flock Safety's Merkagressie
 
 In **februari 2025** stuurde Flock Safety een cease-and-desist-brief naar **Will Freeman**, de maker van **DeFlock.me**, een karteringshulpmiddel dat Flock-cameralocaties bijhield. Flock beweerde dat de naam "DeFlock" merkverdunning vormde en eiste dat de site werd verwijderd.
@@ -349,6 +422,8 @@ EFF's eigen **Atlas of Surveillance** heeft onafhankelijk meer dan **1.700 insta
 ______
 
 ## Hoe Flock Safety-camera's Kunnen Worden Gedetecteerd
+
+{{< stscollective-ad "flockyou" >}}
 
 ### Flock-camerahandtekeningen Begrijpen
 
@@ -387,11 +462,11 @@ Het **open-source Flock-You project** heeft contra-surveillancecapaciteiten getr
 
 Het project maakt gebruik van **31 WiFi-OUI's** ontdekt door onderzoekers **@NitekryDPaul** en de **DeFlockJoplin**-gemeenschap:
 
-```
-D4:AD:FC - Espressif (ESP32 modules in cameras)
-AC:67:B2 - Espressif (Common in Flock deployments)
-84:F3:EB - Espressif (ESP32-S3 variants)
-[... 28 additional OUIs ...]
+```text
+D4:AD:FC - Espressif (ESP32-modules in camera's)
+AC:67:B2 - Espressif (gebruikelijk bij Flock-installaties)
+84:F3:EB - Espressif (ESP32-S3-varianten)
+[... 28 aanvullende OUI's ...]
 ```
 
 Wanneer een Flock-camera in bedrijf is, zendt het WiFi-frames uit die deze OUI's bevatten, die kunnen worden gedetecteerd door apparaten die werken in **promiscue WiFi-monitoringmodus**.
@@ -408,7 +483,7 @@ Flock-You detectie gebruikt meerdere strategieën:
 
 ### Detectiehardware Opties
 
-Voor gedetailleerde technische specificaties en aankoopinformatie, zie onze uitgebreide gids: **[Flock-You Detection Project: Counter-Surveillance Hardware and Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
+Voor gedetailleerde technische specificaties en aankoopinformatie, zie onze uitgebreide gids: **[Flock-You Detectie: Handleiding voor Contra-Surveillance](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
 Er zijn drie primaire hardwareplatforms beschikbaar voor Flock-detectie:
 
@@ -552,6 +627,8 @@ Als u ontdekt dat u bent gevolgd:
 
 ______
 
+{{< figure src="privacy-protection-strategies-against-alpr-tracking.webp" alt="Een persoon dient op een laptop een verzoek om openbare stukken in over lokale ALPR-surveillancecontracten" >}}
+
 ## Ecosysteem van Anti-surveillancetools en Organisaties
 
 Een groeiend ecosysteem van tools en projecten ondersteunt individuen en gemeenschappen die ALPR-surveillance bestrijden. Gebruik deze naast de hierboven beschreven detectiehardware.
@@ -585,6 +662,8 @@ ALPR-technologie blijft evolueren:
 - **Realtime tracking**: Van databasezoekopdrachten naar live achtervolgingscapaciteiten
 - **Internationale netwerken**: Grensoverschrijdende gegevensdeelovereenksten
 
+De huidige LPR-pagina van Flock zegt dat gezichtsherkenning niet is inbegrepen en niet is gepland voor het kentekenleesproduct. Andere leveranciers en Flock-producten verschillen mogelijk. Controleer het actieve cameramodel, contract en beleid voordat je deze uitspraak op een lokale installatie toepast.
+
 ### Contra-ontwikkelingen in Privacytechnologie
 
 De privacygemeenschap reageert met innovatie:
@@ -606,6 +685,20 @@ Het regelgevende landschap zal verschuiven:
 
 ______
 
+## Controleer het bewijs voordat je handelt
+
+De ALPR-dekking verschilt per stad, instantie, contract en periode. Een kaartmarkering bewijst niet wie een camera bezit, welke instantie de gegevens ontvangt of dat er een registratie van een bepaald voertuig bestaat. Behandel aantallen over implementaties en beweringen over bewaartermijnen als gedateerd bewijs. Controleer lokaal beleid aan de hand van stukken van de instantie, raadsverslagen, het contract en antwoorden op verzoeken om openbare documenten.
+
+Volg deze stappen bij onderzoek naar een lokaal systeem:
+
+1. Noteer de cameralocatie en de datum waarop je de camera zag. Betreed geen privéterrein en raak apparatuur niet aan.
+2. Zoek op de website van de stad of het district naar het contract, aanbestedingsstukken, privacybeleid, bewaarschema en afspraken over gegevensdeling.
+3. Vraag wie het systeem beheert, welke instantie zoekopdrachten ontvangt, welke externe instanties gegevens krijgen, hoe lang registraties doorzoekbaar blijven en hoe iemand inzage of correctie aanvraagt.
+4. Vergelijk het antwoord met de openbare beschrijving van de leverancier en het lokale beleid. Bewaar de documenttitel, datum en URL.
+5. Dien een verzoek om openbare documenten in voor ontbrekende stukken. Vraag om beleid en contracten, niet om de reisgeschiedenis van een privépersoon.
+
+Het [overzicht van ALPR-wetgeving per staat van de National Conference of State Legislatures](https://www.ncsl.org/technology-and-communication/automated-license-plate-readers-state-statutes) en de [Atlas of Surveillance van de Electronic Frontier Foundation](https://atlasofsurveillance.org/atlas) zijn bruikbare startpunten. Ze vervangen lokale documenten niet. De [DeFlock-kaart](https://deflock.org/) toont ook onderzoek van gemeenschappen, maar de dekking is geen volledige inventaris.
+
 ## Conclusie: Balanceren van Veiligheid en Privacy
 
 De proliferatie van Flock Safety ALPR-camera's vertegenwoordigt een fundamentele verschuiving in de **surveillancecapaciteit van zowel openbare als particuliere entiteiten**. Voorstanders betogen dat deze systemen de openbare veiligheid verbeteren door misdrijven op te lossen en gestolen voertuigen terug te halen. *De **privacyimplicaties zijn diepgaand en verreikend**, en die afweging verdient nauwkeurig onderzoek.*
@@ -620,7 +713,7 @@ Per 2026 scannen **75.000+ camera's** **150+ miljoen voertuigen dagelijks**, waa
 
 **Beschermingsstrategieën** variëren van beleidsbelangenbehartiging tot technische contra-surveillance. Het **open-source Flock-You detectieproject** heeft bewustzijn van surveillanceinfrastructuur gedemocratiseerd, waardoor individuen kunnen begrijpen wanneer en waar ze worden bewaakt. De **ACLU's "Get The Flock Out"-campagne** heeft gemeenschappen de tools gegeven om terug te vechten via hun gemeenteraden. En **DeFlock.org** heeft een publieke kaart van het surveillancenetwerk gebouwd die Flock Safety probeerde te onderdrukken met juridische dreigingen en daarin faalde.
 
-Voor technische details over detectieapparaten en stapsgewijze installatie-instructies, lees onze begeleidende gids: **[Flock-You Detection Project: Counter-Surveillance Hardware and Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
+Voor technische details over detectieapparaten en stapsgewijze installatie-instructies, lees onze begeleidende gids: **[Flock-You Detectie: Handleiding voor Contra-Surveillance](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
 **De vraag is niet of technologie alomtegenwoordige surveillance kan mogelijk maken.** *Dat kan het duidelijk. De vraag is of een vrije samenleving dergelijke surveillance zonder robuuste waarborgen, transparantie en verantwoordingsplicht zou mogen toestaan.* Het antwoord zal privacyrechten voor generaties lang vormgeven.
 
@@ -633,12 +726,13 @@ Dit artikel maakt deel uit van een serie over Flock Safety ALPR-surveillance en 
 | Artikel | Wat het behandelt |
 |---------|------------------|
 | **[Flock Finder: Breng Flock Safety ALPR-camera's in Kaart](/articles/flock-finder-alpr-surveillance-mapping-tool/)** | Open-source interactieve kaart van 40.000+ verdachte Flock-camera's via WiGLE WiFi-gegevens — zie de schaal van inzet in uw gebied voordat u rijdt |
-| **[Flock-You Detection Project: Contra-surveillance Hardwaregids](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** | Complete technische gids voor het bouwen of kopen van ESP32-gebaseerde Flock-detectoren — firmware-installatie, hardwarevergelijking, stapsgewijze instructies |
+| **[Flock-You Detectie: Handleiding voor Contra-Surveillance](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** | Complete technische gids voor het bouwen of kopen van ESP32-gebaseerde Flock-detectoren — firmware-installatie, hardwarevergelijking, stapsgewijze instructies |
 | **[Hoe Rayhunter-apparaten te Flashen: Complete Gids](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | Detecteer IMSI-vangers (cell-site simulatoren) naast ALPR-camera's voor volledig contra-surveillancebewustzijn |
 | **[DagShell Aangepaste Firmware voor Orbic RCL400](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | Verander een mobiele hotspot in een beveiligingsonderzoeksplatform — werkt goed samen met Flock-detectiehardware |
 | **[Rayhunter Apparaatvergelijking 2026](/articles/rayhunter-device-comparison-2026-complete-review/)** | Vergelijk detectiehardware-opties over ALPR- en cellulaire surveillance-dreigingscategorieën |
 
 ______
+
 
 ## Referenties
 
@@ -671,3 +765,12 @@ ______
 27. [NoALPRs.com - Nationale actieweek](https://noalprs.com/)
 28. [DontGetFlocked.com - FlockHopper routeplanner](https://dontgetflocked.com/)
 29. [PlatPrivacy.com - Institute for Justice ALPR-analyse](https://plateprivacy.com/)
+30. [Flock Safety - kentekenlezers](https://www.flocksafety.com/products/license-plate-readers)
+31. [Flock Safety - veelgestelde vragen](https://www.flocksafety.com/faq)
+32. [Flock Safety - privacybeleid](https://www.flocksafety.com/legal/privacy-policy)
+33. [Flock Safety - gegevenstoegang voor wetshandhaving](https://www.flocksafety.com/trust/law-enforcement-access)
+34. [Flock Safety - beveiligingscentrum](https://security.flocksafety.com/)
+35. [ACLU - publieke weerstand tegen Flock groeit](https://www.aclu.org/press-releases/as-public-opposition-to-flock-grows-aclu-responds-to-surveillance-companys-new-updates)
+36. [Amerikaans ministerie van Justitie - over FOIA](https://www.justice.gov/oip/about-foia)
+37. [Bureau of Justice Assistance - model voor LPR-beleidsontwikkeling](https://bja.ojp.gov/doc/lpr-policy-development-template.pdf)
+38. [Hof van beroep van Virginia - Commonwealth v. Church, zaaknummer 0737-25-1](https://www.vacourts.gov/static/opinions/opncavwp/0737251.pdf)
