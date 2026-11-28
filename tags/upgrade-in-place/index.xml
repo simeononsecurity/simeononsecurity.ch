@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Upgrade In-Place on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/img/banner.webp</url><title>Upgrade In-Place on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/upgrade-in-place/</link></image><link>https://ro.simeononsecurity.com/tags/upgrade-in-place/</link><description>Recent content in Upgrade In-Place on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/upgrade-in-place/index.xml" rel="self" type="application/rss+xml"/><item><title>Ghid de upgrade Proxmox VE 8 la 9</title><link>https://ro.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Virtualizare"
+, "Administrare Linux"
+, "Proxmox"
+, "Administrarea serverelor"
+, "Sursă deschisă"
+, "Laborator de acasă"</category><guid>https://ro.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Actualizează Proxmox VE 8 la 9 cu verificări preliminare, pași manuali, automatizare, modificări incompatibile și îndrumări de recuperare.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item></channel></rss>

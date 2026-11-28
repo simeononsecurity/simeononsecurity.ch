@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Securitate Cibernetică on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/img/banner.webp</url><title>Securitate Cibernetică on simeononsecurity</title><link>https://ro.simeononsecurity.com/genre/securitate-cibernetic%C4%83/</link></image><link>https://ro.simeononsecurity.com/genre/securitate-cibernetic%C4%83/</link><description>Recent content in Securitate Cibernetică on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/genre/securitate-cibernetic%C4%83/index.xml" rel="self" type="application/rss+xml"/><item><title>Open WebUI v0.12.4: listă de verificare pentru actualizare și controlul accesului 2026</title><link>https://ro.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA găzduită local"
+, "Securitate cibernetică"
+, "Administrarea sistemelor"</category><guid>https://ro.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Fă backup și actualizează Open WebUI la v0.12.4, apoi testează partajarea chat-urilor, permisiunile de export, accesul la resurse, conturile și accesul la rețea.</description></item><item><title>Thunderbird 153.6: Expunerea datelor de autentificare NTLM în Windows și actualizarea (2026)</title><link>https://ro.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Securitate cibernetică"
+, "Securitatea e-mailului"
+, "Securitatea Windows"</category><guid>https://ro.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Două vulnerabilități grave din Thunderbird pot expune datele de autentificare NTLM din Windows la afișarea unui e-mail special conceput. Află cum funcționează cele două căi, verifică versiunea și limitează traficul SMB de ieșire în timpul actualizării.</description></item><item><title>Boomul infrastructurii AI în 2026: cerere, datorii, energie și dovezi</title><link>https://ro.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligență artificială"
+, "Economia AI"
+, "Centre de date"
+, "Infrastructură cloud"
+, "Securitate cibernetică"</category><guid>https://ro.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+O analiză verificată factual a cheltuielilor pentru infrastructura AI, consumului de electricitate al centrelor de date, structurilor de finanțare, valorii întreprinderilor și dovezilor necesare înainte de a numi piața o bulă.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>Confidențialitatea AI local: ce rămâne pe computer și ce nu</title><link>https://ro.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI local"
+, "Confidențialitate"
+, "AI găzduită de tine"
+, "Securitate cibernetică"
+, "Economia AI"</category><guid>https://ro.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Urmărește prompturile, fișierele modelelor, instrumentele, logurile, expunerea rețelei și costurile energiei înainte de a alege inferență locală sau un serviciu AI găzduit.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Ce carieră în securitate cibernetică ți se potrivește? 16 puncte de pornire și multe direcții</title><link>https://ro.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Securitate cibernetică"
+, "Cariere"</category><guid>https://ro.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explorează un videoclip despre tipurile de personalitate, mai multe roluri de securitate cibernetică pentru fiecare tip și exerciții practice pentru a compara carierele prin prisma muncii reale.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/cybersecurity-careers-personality-paths.webp" length="155796" type="image/webp"/></item><item><title>Cele mai frecvente tipuri de atacuri cibernetice și cum le detectezi</title><link>https://ro.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Securitate cibernetică"
+, "Detectarea amenințărilor"
+, "Blue Team"
+, "Operațiuni de securitate"
+, "Dezvoltare profesională"</category><guid>https://ro.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Află care sunt tipurile frecvente de atacuri cibernetice, ce urme lasă în jurnale și telemetrie și exersează detectarea lor într-un laborator de securitate de acasă.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item><item><title>Laborator SOC Microsoft acasă: dezvoltă experiență în securitate cibernetică în 2026</title><link>https://ro.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Securitate cibernetică"
+, "Securitate cloud"
+, "Dezvoltare profesională"</category><guid>https://ro.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Construiește un laborator SOC Microsoft cu Sentinel, Defender, Intune și Entra. Investighează incidente, validează politicile de passkey și documentează dovezi pentru portofoliu.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>Comparația certificărilor de securitate cibernetică 2026</title><link>https://ro.simeononsecurity.com/articles/cybersecurity-certifications-comparison-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Securitate cibernetică"
+, "Certificări IT"
+, "Dezvoltarea carierei"
+, "Formare profesională"
+, "Securitatea informației"
+, "Educație tehnologică"
+, "Formare în securitate"
+, "Traseu profesional IT"
+, "Dezvoltare profesională"
+, "Ghid de certificări"</category><guid>https://ro.simeononsecurity.com/articles/cybersecurity-certifications-comparison-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+O comparație din 2026 a furnizorilor de certificări de securitate cibernetică, a prețurilor, rentabilității investiției și potrivirii cu traseele profesionale.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/cybersecurity-certifications-comparison-guide-2026.webp" length="276310" type="image/webp"/></item><item><title>Fortinet versus Cisco: comparație completă a securității rețelei</title><link>https://ro.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Securitate rețea"
+, "Securitate cibernetică"
+, "Rețele enterprise"
+, "Comparatie firewall"
+, "Infrastructură IT"
+, "Hardware rețea"
+, "Soluții de securitate"
+, "Management rețea"
+, "Comparatie tehnologică"
+, "Decizii IT"</category><guid>https://ro.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparatie cuprinzătoare a soluțiilor de securitate a rețelei Fortinet și Cisco, inclusiv firewall-uri, switch-uri, SD-WAN, prețuri, benchmark-uri de performanță și recomandări de implementare pentru 2026.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp"/></item><item><title>Vulnerabilitățile camerelor Flock Safety: peste 50 de deficiențe descoperite</title><link>https://ro.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Cercetare de securitate"
+, "Analiza vulnerabilităților"
+, "Tehnologie de supraveghere"
+, "Securitate cibernetică"
+, "Protecția vieții private"
+, "Securitatea IoT"
+, "Securitate fizică"
+, "Securitatea rețelelor"
+, "Infrastructură critică"
+, "Tehnologie guvernamentală"</category><guid>https://ro.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Cercetarea vulnerabilităților camerelor Flock Safety analizează credențiale expuse, protecții slabe, riscuri legate de accesul fizic și limitele divulgării.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>Rezolvă problemele Wi-Fi: soluții practice pentru defecțiuni obișnuite</title><link>https://ro.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</link><pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate><category>
+"Depanare Wi-Fi"
+, "Soluții wireless"
+, "Asistență tehnică"
+, "Sfaturi de conectivitate"
+, "Rețele de acasă"
+, "Ghid de Internet"
+, "Optimizare Wi-Fi"
+, "Securitate cibernetică"
+, "Tehnologie practică"
+, "Performanța rețelei"</category><guid>https://ro.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Rezolvă problemele Wi-Fi cu sfaturi pentru semnal mai bun, mai puține deconectări și securitate sporită.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/wireless-connectivity_-troubleshooting-common-wi-fi-problems.webp" length="61888" type="image/webp"/></item><item><title>Depanarea problemelor de conexiune la rețea pentru performanțe fiabile</title><link>https://ro.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</link><pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate><category>
+"Sfaturi pentru rețele"
+, "Soluții IT"
+, "Continuitatea activității"
+, "Securitate cibernetică"
+, "Depanare tehnică"
+, "Infrastructură digitală"
+, "Fiabilitatea internetului"
+, "Recuperarea sistemelor"
+, "Administrarea rețelei"
+, "Asistență tehnică"</category><guid>https://ro.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Stabilizează rețeaua cu tehnici verificate pentru diagnosticarea problemelor de conexiune și menținerea performanțelor fiabile.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/ensuring-network-reliability_-how-to-troubleshoot-connection-issues.webp" length="200054" type="image/webp"/></item><item><title>NAT și PAT: ghiduri esențiale pentru comunicarea în rețea</title><link>https://ro.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"Noțiuni de bază despre rețele"
+, "Securitate cibernetică"
+, "Infrastructură IT"
+, "Ghiduri tehnologice"
+, "Gestionarea rețelelor"
+, "Protocoale de internet"
+, "Tehnologii de comunicații"
+, "Administrarea sistemelor"
+, "Inginerie de rețea"
+, "Rețele digitale"</category><guid>https://ro.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Înțelegeți NAT și PAT pentru comunicații digitale fără probleme.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item><item><title>Optimizează-ți rețeaua: proiecte și topologii</title><link>https://ro.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><category>
+"Ingineria rețelelor"
+, "Infrastructură IT"
+, "Ghiduri tehnologice"
+, "Soluții de rețea"
+, "Securitate cibernetică"
+, "Informatică"
+, "Educație tehnologică"
+, "Arhitectura sistemelor"
+, "Optimizarea rețelelor"
+, "Inovații tehnologice"</category><guid>https://ro.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Află despre proiectele și topologiile de rețea și evaluează care oferă eficiență maximă.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/decoding-network-designs_-types-and-topologies-explained.webp" length="121144" type="image/webp"/></item><item><title>Optimizează rețeaua: stăpânește configurarea DNS</title><link>https://ro.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><category>
+"Administrarea rețelelor"
+, "Securitate cibernetică"
+, "Infrastructură IT"
+, "Soluții tehnice"
+, "Tehnologii Internet"
+, "Optimizare DNS"
+, "Performanța rețelei"
+, "Securitate digitală"
+, "Conectivitate la Internet"
+, "Ghiduri tehnice"</category><guid>https://ro.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Îmbunătățește rețeaua cu ajutorul DNS. Află cum influențează conectivitatea, performanța și securitatea, apoi optimizează configurația.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp"/></item><item><title>Ghid de conformitate GDPR pentru companiile din afara UE în 2024</title><link>https://ro.simeononsecurity.com/articles/understanding-gdpr_-a-guide-for-non-eu-businesses/</link><pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate><category>
+"Protecția datelor"
+, "Securitate cibernetică"
+, "Ghid de conformitate"
+, "Noțiuni esențiale despre GDPR"
+, "Legislația privind confidențialitatea"
+, "Securitatea companiilor"
+, "Reglementări internaționale privind datele"
+, "Conformitate digitală"
+, "Încrederea clienților din UE"
+, "Practici recomandate pentru securitatea datelor"</category><guid>https://ro.simeononsecurity.com/articles/understanding-gdpr_-a-guide-for-non-eu-businesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aflați când se aplică GDPR companiilor din afara UE și cum să abordați prelucrarea legală, drepturile asupra datelor, raportarea încălcărilor, transferurile, furnizorii, evidențele și sancțiunile.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/understanding-gdpr_-a-guide-for-non-eu-businesses.webp" length="68080" type="image/webp"/></item><item><title>Consolidează securitatea comerțului tău online</title><link>https://ro.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</link><pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate><category>
+"Securitatea comerțului electronic"
+, "Securitate cibernetică"
+, "Protecția datelor"
+, "Afaceri online"
+, "Securitatea site-urilor"
+, "Încrederea clienților"
+, "Tranzacții sigure"
+, "Criptare SSL"
+, "Politici de parole"
+, "Bune practici de securitate"</category><guid>https://ro.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Protejează magazinul online cu TLS, MFA pentru administratori, actualizări, controale de plată, criptare, monitorizare, instruirea angajaților, prevenirea fraudei și răspuns la incidente.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/the-2024-checklist-for-securing-your-e-commerce-site.webp" length="88770" type="image/webp"/></item><item><title>Strategii pentru protejarea companiei împotriva amenințărilor interne</title><link>https://ro.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</link><pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate><category>
+"Securitate cibernetică"
+, "Securitate corporativă"
+, "Amenințări interne"
+, "Protecția datelor"
+, "Instruirea angajaților"
+, "Măsuri de securitate"
+, "Răspuns la incidente"
+, "Analiza comportamentală"
+, "Monitorizarea activității utilizatorilor"
+, "Cultură de securitate"</category><guid>https://ro.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Reduceți riscul amenințărilor interne prin controale de acces, monitorizarea activității, canale de raportare, proceduri de plecare și o cultură organizațională axată pe securitate.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/protecting-against-insider-threats_-strategies-for-your-company.webp" length="87882" type="image/webp"/></item><item><title>Firewalluri de nouă generație: funcții esențiale pentru afacerea ta</title><link>https://ro.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</link><pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate><category>
+"Securitate cibernetică"
+, "Securitatea rețelelor"
+, "Tehnologie firewall"
+, "Securitatea afacerilor"
+, "Integrare cloud"
+, "Amenințări digitale"
+, "Administrarea rețelelor"
+, "Soluții de securitate"
+, "Siguranță online"
+, "Informații despre tehnologie"</category><guid>https://ro.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Alege un firewall de nouă generație în funcție de controlul aplicațiilor, prevenirea intruziunilor, protecția împotriva amenințărilor, suportul cloud, debit, reziliență și administrare.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/next-gen-firewalls_-features-you-can%27t-ignore-for-your-business.webp" length="128018" type="image/webp"/></item><item><title>Dezvăluirea secretelor</title><link>https://ro.simeononsecurity.com/articles/navigating-the-dark-web-safely_-a-beginners-guide/</link><pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate><category>
+"Tehnologie"
+, "Securitate cibernetică"
+, "Confidențialitate pe Internet"
+, "Explorarea webului întunecat"
+, "Siguranță online"
+, "Anonimat digital"
+, "Siguranță web"
+, "Etică pe Internet"
+, "Ghid VPN"
+, "Rețeaua Tor"</category><guid>https://ro.simeononsecurity.com/articles/navigating-the-dark-web-safely_-a-beginners-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Navighează mai sigur pe webul întunecat cu Tor, setări de confidențialitate, protecție împotriva escrocheriilor și programelor malware, limite legale, protecția identității și pași de raportare.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/navigating-the-dark-web-safely_-a-beginners-guide.webp" length="90360" type="image/webp"/></item><item><title>Planificarea răspunsului la incidente: ghid pas cu pas</title><link>https://ro.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><category>
+"Securitate cibernetică"
+, "Răspuns la incidente"
+, "Securitatea afacerilor"
+, "Amenințări cibernetice"
+, "Gestionarea riscurilor"
+, "Planificarea securității"
+, "Protecția datelor"
+, "Securitate IT"
+, "Reziliență digitală"
+, "Gestionarea crizelor"</category><guid>https://ro.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Creează un plan de răspuns la incidente cu roluri definite, canale de comunicare, proceduri, instrumente, exerciții, indicatori și actualizări continue.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.webp" length="96088" type="image/webp"/></item><item><title>Protecția împotriva phishingului pentru întreprinderile mici: ghid complet</title><link>https://ro.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><category>
+"Securitate cibernetică"
+, "Protecția întreprinderilor mici"
+, "Escrocherii prin phishing"
+, "Instruirea angajaților"
+, "Securitatea e-mailului"
+, "Autentificare multifactor"
+, "Audituri de securitate"
+, "Tactici de inginerie socială"
+, "Amenințări digitale"
+, "Securitate online"</category><guid>https://ro.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Protejați o întreprindere mică împotriva phishingului prin instruirea personalului, măsuri de securitate pentru e-mail, proceduri de verificare, pași de raportare și un răspuns testat la incidente.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/how-to-protect-your-small-business-from-phishing-scams.webp" length="88634" type="image/webp"/></item><item><title>Ghid de securitate SSL/TLS: protejează datele site-ului tău</title><link>https://ro.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><category>
+"Securitate cibernetică"
+, "Tehnologie"
+, "Securitate web"
+, "Criptarea datelor"
+, "Protocoale Internet"
+, "Confidențialitate digitală"
+, "Securitate online"
+, "Implementarea SSL/TLS"
+, "Amenințări cibernetice"
+, "Viitorul securității cibernetice"</category><guid>https://ro.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Află cum protejează SSL/TLS site-ul tău prin criptare puternică. Explorează vulnerabilitățile, bunele practici și viitorul securității cibernetice pentru a-ți consolida site-ul chiar de astăzi.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/TLS_%20Securing%20Your%20Website%20Data.webp" length="171950" type="image/webp"/></item><item><title>Automatizarea securității: ghid pentru consolidarea apărării digitale</title><link>https://ro.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><category>
+"Automatizarea securității"
+, "Securitate cibernetică"
+, "Învățare automată în securitate"
+, "Monitorizarea automată a conformității"
+, "Orchestrarea securității"
+, "Răspuns la incidente"
+, "Îmbunătățire continuă"
+, "Supraveghere umană în securitate"
+, "Detectarea amenințărilor și răspunsul la acestea"
+, "Practici recomandate de securitate"</category><guid>https://ro.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planifică automatizarea securității prin cazuri de utilizare clare, integrarea instrumentelor, verificare umană, reglarea alertelor, indicatori și controale pentru sistemele de învățare automată.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/mastering-security-automation_-streamlining-processes-for-enhanced-protection.webp" length="253188" type="image/webp"/></item><item><title>7 practici esențiale de securitate pentru companii</title><link>https://ro.simeononsecurity.com/articles/7-essential-security-practices-for-any-business/</link><pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate><category>
+"Securitatea companiilor"
+, "Securitate fizică"
+, "Securitate cibernetică"
+, "Răspuns la incidente"
+, "Instruirea angajaților"
+, "Criptarea datelor"
+, "Sisteme de supraveghere"
+, "Controlul accesului"
+, "Protocoale de securitate"
+, "Reziliență digitală"</category><guid>https://ro.simeononsecurity.com/articles/7-essential-security-practices-for-any-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Șapte practici de securitate utile pentru companii, de la protecția fizică și securitatea cibernetică până la planificarea rezilienței.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/7-essential-security-practices-for-any-business.webp" length="235660" type="image/webp"/></item></channel></rss>

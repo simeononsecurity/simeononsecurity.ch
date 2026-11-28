@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hardware Pentru Computere on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/img/banner.webp</url><title>Hardware Pentru Computere on simeononsecurity</title><link>https://ro.simeononsecurity.com/genre/hardware-pentru-computere/</link></image><link>https://ro.simeononsecurity.com/genre/hardware-pentru-computere/</link><description>Recent content in Hardware Pentru Computere on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/genre/hardware-pentru-computere/index.xml" rel="self" type="application/rss+xml"/><item><title>Este suficientă memoria VRAM de 16 GB pentru lucrul serios cu un LLM local?</title><link>https://ro.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI local"
+, "Hardware pentru computere"
+, "AI găzduit propriu"</category><guid>https://ro.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dimensionează un sistem LLM local de 16 GB în funcție de greutățile modelului, memoria cache KV și procesarea promptului. Compară bugetele de memorie Qwen3.8 27B, lățimea de bandă GPU și costurile de deținere.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>Mai multă conectivitate: ghid pentru standardele și porturile USB</title><link>https://ro.simeononsecurity.com/articles/usb-standards-and-ports_-a-users-guide/</link><pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate><category>
+"Tutoriale tehnice"
+, "Conectivitate USB"
+, "Ghiduri de electronică"
+, "Hardware pentru computere"
+, "Informații tehnologice"
+, "Tehnologie ușor de folosit"
+, "Sincronizarea dispozitivelor"
+, "Sfaturi pentru transferul datelor"
+, "Soluții de încărcare"
+, "Progrese tehnologice"</category><guid>https://ro.simeononsecurity.com/articles/usb-standards-and-ports_-a-users-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Află cum au evoluat tehnologiile și porturile USB. Descoperă USB Type-C și USB 4.0 și decide când merită să-ți actualizezi dispozitivele.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/usb-standards-and-ports_-a-users-guide.webp" length="14270" type="image/webp"/></item><item><title>Arhitecturi de magistrală pentru transferuri rapide de date</title><link>https://ro.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</link><pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate><category>
+"Ghid de transfer de date"
+, "Inovații tehnologice"
+, "Arhitectura sistemelor"
+, "Calcul de înaltă performanță"
+, "Hardware pentru computere"
+, "Proiectarea magistralelor"
+, "Conectivitate"
+, "Tehnologii emergente"
+, "Eficiență computațională"
+, "Optimizare tehnică"</category><guid>https://ro.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Află despre arhitecturile de magistrală și metodele de accelerare a transferului de date. Ghidul prezintă tipurile de magistrală, optimizarea, soluțiile noi și provocările de performanță și securitate.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures.webp" length="305084" type="image/webp"/></item></channel></rss>

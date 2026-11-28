@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Evadare Din Sandbox on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/img/banner.webp</url><title>Evadare Din Sandbox on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/evadare-din-sandbox/</link></image><link>https://ro.simeononsecurity.com/tags/evadare-din-sandbox/</link><description>Recent content in Evadare Din Sandbox on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/evadare-din-sandbox/index.xml" rel="self" type="application/rss+xml"/><item><title>În 2026, containerele nu mai sunt o frontieră de securitate</title><link>https://ro.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"Securitatea containerelor"
+, "Linux"
+, "Securitatea nucleului"
+, "Virtualizare"
+, "Securitate cloud"
+, "Cercetarea amenințărilor"
+, "Echipa blue"
+, "DevSecOps"</category><guid>https://ro.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vulnerabilitățile nucleului din 2026 arată de ce izolarea containerelor multi-tenant nu este suficientă. Află despre Copy Fail, Dirty Frag, Fragnesia și CVE-2026-80521, apoi compară containerele consolidate cu frontiera oferită de microVM.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item></channel></rss>

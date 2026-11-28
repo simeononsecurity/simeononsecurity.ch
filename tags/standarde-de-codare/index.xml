@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Standarde De Codare on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/img/banner.webp</url><title>Standarde De Codare on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/standarde-de-codare/</link></image><link>https://ro.simeononsecurity.com/tags/standarde-de-codare/</link><description>Recent content in Standarde De Codare on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/standarde-de-codare/index.xml" rel="self" type="application/rss+xml"/><item><title>Funcții C# nesigure: practici de programare sigură</title><link>https://ro.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Dezvoltare software"
+, "Programare C#"
+, "Securitate cibernetică"
+, "Securitatea codului"
+, "Programare sigură"
+, "Bune practici de programare"
+, "Vulnerabilități software"
+, "Criptografie"
+, "Dezvoltare web"
+, "Securitatea aplicațiilor"</category><guid>https://ro.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Alternative sigure la funcțiile C# nesigure. Află cum să identifici riscurile pentru siguranța memoriei și să înlocuiești operațiile vulnerabile.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item></channel></rss>

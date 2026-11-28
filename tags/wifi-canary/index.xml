@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WiFi Canary on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/img/banner.webp</url><title>WiFi Canary on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/wifi-canary/</link></image><link>https://ro.simeononsecurity.com/tags/wifi-canary/</link><description>Recent content in WiFi Canary on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/wifi-canary/index.xml" rel="self" type="application/rss+xml"/><item><title>ESP32 WiFi Canary: detectarea pasivă a amenințărilor la 2,4 GHz</title><link>https://ro.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Securitatea rețelelor"
+, "Securitate WiFi"
+, "Securitate IoT"
+, "Cercetare în securitate"
+, "Sisteme încorporate"
+, "Instrumente de confidențialitate"
+, "Proiecte ESP32"
+, "Securitatea hardware"
+, "Securitate wireless"
+, "Securitate open source"</category><guid>https://ro.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Analiză tehnică a ESP32 WiFi Canary, un senzor pasiv de 2,4 GHz care detectează evil twin, deautentificarea, retrogradarea securității și inundarea cu beaconuri.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>

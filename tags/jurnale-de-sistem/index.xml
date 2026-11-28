@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jurnale De Sistem on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/img/banner.webp</url><title>Jurnale De Sistem on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/jurnale-de-sistem/</link></image><link>https://ro.simeononsecurity.com/tags/jurnale-de-sistem/</link><description>Recent content in Jurnale De Sistem on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/jurnale-de-sistem/index.xml" rel="self" type="application/rss+xml"/><item><title>Ce să faci și ce să nu faci pentru securizarea sistemului Linux</title><link>https://ro.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><category>
+"securitate Linux"
+, "securizarea sistemului"
+, "firewall"
+, "SELinux"
+, "AppArmor"
+, "politica parolelor"
+, "actualizări de sistem"
+, "jurnale de sistem"
+, "module de securitate"
+, "politici de control al accesului"
+, "securitate cibernetică"
+, "securitatea sistemului"
+, "securitatea rețelei"
+, "gestionarea vulnerabilităților"
+, "bune practici de securitate"
+, "securitate IT"
+, "securitatea informațiilor"
+, "actualizări software"
+, "acces root"
+, "manager de parole"</category><guid>https://ro.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Recomandări de securizare Linux despre actualizări, firewall, SELinux sau AppArmor, politica parolelor și monitorizarea jurnalelor.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.webp" length="138234" type="image/webp"/></item></channel></rss>
