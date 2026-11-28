@@ -1,7 +1,7 @@
 ---
-title: "Ansible vs. Puppet vs. Chef: comparação de ferramentas de automação"
+title: "Ansible, Puppet e Chef: comparação de ferramentas de automação"
 date: 2023-06-30
-lastmod: 2026-11-08
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Compare Ansible, Puppet e Chef para escolher a ferramenta de automação adequada às necessidades da sua organização."

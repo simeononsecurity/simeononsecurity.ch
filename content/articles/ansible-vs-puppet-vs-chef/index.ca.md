@@ -1,7 +1,7 @@
 ---
-title: "Ansible vs. Puppet vs. Chef: comparació d’eines d’automatització"
+title: "Ansible, Puppet i Chef: comparació d’eines d’automatització"
 date: 2023-06-30
-lastmod: 2026-11-08
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Compara Ansible, Puppet i Chef per triar l’eina d’automatització adequada a les necessitats de la teva organització."
