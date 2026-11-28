@@ -1,12 +1,12 @@
 ---
 title: "DagShell custom firmware voor Orbic RCL400: gids voor 2026"
 date: 2026-05-28
-lastmod: 2026-11-15
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Technische gids voor DagShell-firmware op de Orbic RCL400, met installatie, privacytools, wardriving en onderzoeksbeperkingen."
 genre: ["Custom firmware", "Mobiele beveiliging", "Privacytools", "Netwerkbeveiliging", "Wardriving", "Penetratietests", "IoT-hacking", "Beveiligingsonderzoek", "Hardwarehacking", "Privacytechnologie"]
-tags: ["DagShell", "Orbic RCL400", "Custom firmware", "Hotspot-hacking", "Privacytools", "TTL-fix", "MAC-spoofing", "IMSI-catcherdetectie", "Wardriving", "GPS-tracking", "Evil Twin-aanval", "Captive portal", "DNS-sniffer", "ARP-scanner", "Poortscanner", "Raspberry Pi Companion", "WiFi-beveiliging", "Mobiele hotspot", "Netwerkbewaking", "Penetratietests", "Beveiligingsonderzoek", "Bluetooth-scannen", "Deauth-aanval", "WiFi-scannen", "OUI-opzoeken", "Wigle-upload", "Celltowerbewaking", "AT-commando's", "Firewallbeheer", "AdBlock", "TLS-versleuteling", "RayHunter-integratie", "STS Collective", "Mobiel beveiligingslab", "Netwerkanalyse", "Privacyfirmware", "Open source-beveiliging", "ARM-crosscompilatie", "Embedded Linux", "Beveiligingstoolkit", "Hackertools", "Red team", "Netwerkverkenning"]
+tags: ["DagShell", "Orbic RCL400", "Custom firmware", "Hotspot-hacking", "Privacytools", "TTL-fix", "MAC-spoofing", "IMSI-catcherdetectie", "Wardriving", "GPS-tracking", "Evil Twin-aanval", "Aanmeldportaal", "DNS-sniffer", "ARP-scanner", "Poortscanner", "Raspberry Pi Companion", "WiFi-beveiliging", "Mobiele hotspot", "Netwerkbewaking", "Penetratietests", "Beveiligingsonderzoek", "Bluetooth-scannen", "Deauth-aanval", "WiFi-scannen", "OUI-opzoeken", "Wigle-upload", "Celltowerbewaking", "AT-commando's", "Firewallbeheer", "AdBlock", "TLS-versleuteling", "RayHunter-integratie", "STS Collective", "Mobiel beveiligingslab", "Netwerkanalyse", "Privacyfirmware", "Open source-beveiliging", "ARM-crosscompilatie", "Embedded Linux", "Beveiligingstoolkit", "Hackertools", "Red team", "Netwerkverkenning"]
 canonical: "https://simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/"
 cover: "/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp"
 coverAlt: "Illustratie van een mobiele Orbic RCL400-hotspot met een groen oplichtende interface, omringd door abstracte beveiligingstools zoals grafieken en kaarten tegen een donker marineblauw vlak."
@@ -47,7 +47,7 @@ ______
 - **Privacytools** (TTL-maskering, MAC-spoofing en DNS-gebaseerde advertentieblokkering)
 - **Netwerkbewaking** (actieve verbindingen, routeringstabellen en DNS-query's)
 - **Hacktools** (IMSI-catcherdetectie, poortscans en ARP-detectie)
-- **Aanvalsmogelijkheden** (Evil Twin AP, phishing via captive portal en deauth-aanvallen)
+- **Aanvalsmogelijkheden** (Evil Twin AP, phishing via een aanmeldportaal en deauth-aanvallen)
 - **GPS-tracking en wardriving** met CSV-export die compatibel is met WiGLE
 - **Raspberry Pi Companion** voor GPS, Bluetooth-scans en WiFi-verkenning
 - **Toegang tot het bestandssysteem** via een bestandsbeheerder in de browser
@@ -328,18 +328,18 @@ Vendor: Samsung Electronics
 - Gebruikt **wlan1** (tweede WiFi-interface, indien beschikbaar via de Pi Companion).
 - Kopieert de **SSID en versleuteling** van het doelnetwerk.
 - **Vangt clients op** die verbinding proberen te maken.
-- Toont een **captive portal** om inloggegevens te verzamelen.
+- Toont een **aanmeldportaal** om inloggegevens te verzamelen.
 
 **Aanvalsscenario** (labomgeving):
 1. Scan op legitieme WiFi-netwerken.
 2. Maak een **vals AP** met dezelfde SSID.
 3. Gebruik een **deauth-aanval** om clients van het echte AP te verbreken.
 4. Clients maken automatisch opnieuw verbinding met het **valse AP**.
-5. De captive portal verzamelt de inloggegevens.
+5. Het aanmeldportaal verzamelt de inloggegevens.
 
 *Detectie: clients zien **dubbele SSID's** als beide AP's tegelijk zichtbaar zijn.*
 
-#### Captive portal
+#### Aanmeldportaal
 
 **Doel**: Phishingpaginamodellen aanbieden om inloggegevens te verzamelen.
 
@@ -400,7 +400,7 @@ Vendor: Samsung Electronics
 **WiGLE-integratie**:
 - **WiGLE** (wigle.net) is een wereldwijd project om WiFi-netwerken in kaart te brengen.
 - De DagShell-CSV kan **rechtstreeks naar WiGLE worden geüpload**.
-- Uploaden kan vanuit de browser via de pagina Files, zonder externe tools.
+- **Uploaden vanuit de browser** kan via de pagina Files, zonder externe tools.
 - De gegevens dragen bij aan de **openbare database** met WiFi-locaties.
 
 **Gebruik**:
@@ -458,7 +458,7 @@ $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
 - Registreert de gegevens in **CSV-formaat**.
 
 **Bediening op afstand**:
-- Start of stop het scannen vanuit de DagShell-webinterface.
+- **Start of stop** het scannen vanuit de DagShell-webinterface.
 - SSH-toegang tot de Pi is niet nodig.
 - Status wordt in realtime bijgewerkt.
 
@@ -489,7 +489,7 @@ Timestamp,MAC,RSSI,Name,Manufacturer
 **Afstemming**:
 - Pi en Orbic **synchroniseren** via de GPS-tijdstempel.
 - Dit voorkomt dubbele vermeldingen.
-- Beide scanbronnen worden gecombineerd in één logboek.
+- **Beide scanbronnen** worden gecombineerd in één logboek.
 
 #### Deauth-aanvallen
 
@@ -584,7 +584,7 @@ Vendor: Apple, Inc.
 - `arp_scan.txt`: lijst met netwerkapparaten
 
 **Upload naar WiGLE**:
-- Rechtstreeks uploaden via de browser op de pagina Files
+- **Rechtstreeks uploaden** via de browser op de pagina Files
 - Aanmelden met een WiGLE-account
 - CSV uploaden zonder het eerst te downloaden
 
@@ -752,15 +752,15 @@ reboot
 
 ### Waarschuwing voor het beveiligingscertificaat
 
-Bij het openen van DagShell ziet u de waarschuwing **"Not Secure" of "Not Trusted"**:
+Bij het openen van DagShell ziet u de waarschuwing **"Not Secure" (Niet veilig) of "Not Trusted" (Niet vertrouwd)**:
 
 **Desktopbrowsers**:
-- Klik op **"Advanced"**.
-- Klik op **"Proceed to 192.168.1.1 (unsafe)"**.
+- Klik op **"Advanced" (Geavanceerd)**.
+- Klik op **"Proceed to 192.168.1.1 (unsafe)" (Doorgaan naar 192.168.1.1 (onveilig))**.
 
 **Mobiele browsers**:
-- Tik op **"Show Details"**.
-- Tik op **"visit this website"**.
+- Tik op **"Show Details" (Details weergeven)**.
+- Tik op **"visit this website" (deze website bezoeken)**.
 
 **Waarom dit gebeurt**:
 - Het certificaat is **zelfondertekend** en komt niet van een vertrouwde CA zoals Let's Encrypt.
@@ -946,7 +946,7 @@ ______
 | **WiFi-wardriving** | Ja | Nee |
 | **Bluetooth-scans** | Ja (via Pi) | Nee |
 | **Netwerktools** | Ja (DNS-sniffer, ARP-scan, poortscan) | Nee |
-| **Aanvalstools** | Ja (Evil Twin, captive portal, deauth) | Nee |
+| **Aanvalstools** | Ja (Evil Twin, aanmeldportaal, deauth) | Nee |
 | **Privacytools** | Ja (TTL-fix, MAC-spoofing, AdBlock) | Beperkt |
 | **Database met zendmasten** | Basis | Uitgebreid |
 | **AI/ML-analyse** | Nee | Ja (afwijkingen detecteren) |
@@ -992,7 +992,7 @@ ______
 
 **Bijdrage van DagShell**:
 - **Evil Twin AP** om WiFi te testen.
-- **Captive portal** voor demonstraties van social engineering.
+- **Aanmeldportaal** voor demonstraties van social engineering.
 - **Deauth-aanvallen** om weerbaarheid te testen.
 - Tools voor **netwerkverkenning**.
 
@@ -1059,7 +1059,7 @@ ______
 - **WiFi-wardriving** om netwerken van klanten in kaart te brengen
 - **ARP-scanner** om apparaten te ontdekken
 - **Poortscanner** om services te identificeren
-- **Evil Twin/captive portal** om de weerbaarheid tegen social engineering te testen
+- **Evil Twin/aanmeldportaal** om de weerbaarheid tegen social engineering te testen
 - **Bestandsbeheerder** om resultaten op te halen
 
 **Werkwijze**:
@@ -1226,7 +1226,7 @@ ______
 
 **Oplossingen**:
 - *Dit is **normaal** bij zelfondertekende certificaten. De verbinding blijft versleuteld.*
-- Klik telkens op "Advanced" en vervolgens op "Proceed anyway".
+- Klik telkens op "Advanced" (Geavanceerd) en vervolgens op "Proceed anyway" (Toch doorgaan).
 - **Optioneel**: Installeer `root.der` in de certificaatopslag van het apparaat (geavanceerd).
 
 ### Problemen tijdens uitvoering
@@ -1371,7 +1371,7 @@ ______
 | **Mobiel netwerk** | ✅ 4G LTE ingebouwd | ❌ Nee (alleen WiFi) |
 | **GPS** | ✅ Via Pi Companion | ⚠️ Via USB-dongle |
 | **Evil Twin** | ✅ Ja | ✅ Ja |
-| **Captive portal** | ✅ Ja | ✅ Ja |
+| **Aanmeldportaal** | ✅ Ja | ✅ Ja |
 | **Deauth** | ✅ Ja (via Pi) | ✅ Ja |
 | **Wardriving** | ✅ Ja | ✅ Ja |
 | **IMSI-detectie** | ✅ Basis | ❌ Nee |
@@ -1419,7 +1419,7 @@ ______
 ✅ **Privacybescherming** (TTL-maskering, MAC-spoofing, AdBlock)\
 ✅ **Netwerkbewaking** (verbindingen, DNS, routering)\
 ✅ **Hacktools** (IMSI-detectie, poortscans, ARP-detectie)\
-✅ **Aanvalsmogelijkheden** (Evil Twin, captive portal, deauth)\
+✅ **Aanvalsmogelijkheden** (Evil Twin, aanmeldportaal, deauth)\
 ✅ **GPS-wardriving** met WiGLE-integratie\
 ✅ **Uitbreiding met Raspberry Pi** (BLE, WiFi, GPS)\
 ✅ **Draagbaar en werkt op batterij**\

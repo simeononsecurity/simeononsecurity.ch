@@ -1,7 +1,7 @@
 ---
 title: "Firmware personnalisé DagShell pour Orbic RCL400 : guide 2026"
 date: 2026-05-28
-lastmod: 2026-11-15
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Guide technique du firmware DagShell pour Orbic RCL400. Installation, outils de confidentialité, wardriving et limites de la recherche."
@@ -62,7 +62,7 @@ ______
 **Chiffrement** : TLS 1.2 ou supérieur avec certificats auto-signés (PKI à deux niveaux)\
 **Serveur Web** : serveur HTTPS embarqué personnalisé (port 8443)\
 **Interface** : interface terminal dans le navigateur\
-**Licence** : MIT (open source)\
+**Licence** : MIT (licence à code source ouvert)\
 **GitHub** : [github.com/dagnazty/DagShell](https://github.com/dagnazty/DagShell)
 
 ### Design visuel
@@ -752,15 +752,15 @@ reboot
 
 ### Avertissement concernant le certificat de sécurité
 
-En accédant à DagShell, vous verrez un avertissement **"Not Secure"** ou **"Not Trusted"** :
+En accédant à DagShell, vous verrez un avertissement **"Not Secure" (Non sécurisé)** ou **"Not Trusted" (Non fiable)** :
 
 **Navigateurs de bureau** :
-- Cliquer sur **"Advanced"**
-- Cliquer sur **"Proceed to 192.168.1.1 (unsafe)"**
+- Cliquer sur **"Advanced" (Options avancées)**
+- Cliquer sur **"Proceed to 192.168.1.1 (unsafe)" (Continuer vers 192.168.1.1 (non sécurisé))**
 
 **Navigateurs mobiles** :
-- Appuyer sur **"Show Details"**
-- Appuyer sur **"visit this website"**
+- Appuyer sur **"Show Details" (Afficher les détails)**
+- Appuyer sur **"visit this website" (visiter ce site web)**
 
 **Pourquoi cet avertissement ?** :
 - Le certificat est **auto-signé** (il ne vient pas d’une autorité reconnue telle que Let's Encrypt)
@@ -1029,7 +1029,7 @@ ______
 - **Aucune installation à effectuer**
 
 **Installation manuelle** :
-1. **Installer d’abord RayHunter** (voir le [guide complet pour flasher les appareils RayHunter](/articles/how-to-flash-rayhunter-devices-complete-guide/))
+1. **Installer d’abord RayHunter** (voir le [Flasher les appareils Rayhunter : guide complet](/articles/how-to-flash-rayhunter-devices-complete-guide/))
 2. **Installer DagShell ensuite** (les deux peuvent coexister)
 3. **RayHunter** utilise les ports par défaut
 4. **DagShell** utilise le port 8443
@@ -1450,9 +1450,9 @@ ______
 
 ### Pour aller plus loin
 
-- **[Flasher des appareils RayHunter : guide complet](/articles/how-to-flash-rayhunter-devices-complete-guide/)** : installer RayHunter en premier
+- **[Flasher les appareils Rayhunter : guide complet](/articles/how-to-flash-rayhunter-devices-complete-guide/)** : installer RayHunter en premier
 - **[Comparatif d’appareils RayHunter : revue complète](/articles/rayhunter-device-comparison-2026-complete-review/)** : choisir une plateforme
-- **[Projet Flock-You : guide du matériel de contre-surveillance](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** : autres outils de détection
+- **[Projet Flock-You : Guide complet de matériel et de configuration pour la contre-surveillance 2026](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** : autres outils de détection
 
 ### Dernières réflexions
 

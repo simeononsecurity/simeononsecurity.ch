@@ -1,7 +1,7 @@
 ---
 title: "Orbic RCL400 的 DagShell 定制固件：2026 指南"
 date: 2026-05-28
-lastmod: 2026-11-15
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Orbic RCL400 DagShell 固件技术指南，介绍安装、隐私工具、巡行扫描和研究限制。"
@@ -190,7 +190,12 @@ AT+CMGS="PHONE_NUMBER"
 **用途**：监控基站信息，发现可能表明存在 **IMSI catcher/Stingray** 设备的异常
 
 **工作原理**：
-- **从调制解调器查询基站数据**，包括 Cell ID（基站标识）、LAC（位置区代码）、MCC/MNC（移动国家/网络代码）、信号强度（RSSI）和网络代际（2G/3G/4G）
+- 从调制解调器查询**基站数据**：
+  - **Cell ID**（基站标识）
+  - **LAC**（位置区代码）
+  - **MCC/MNC**（移动国家/网络代码）
+  - **信号强度**（RSSI）
+  - **网络代际**（2G/3G/4G）
 - **记录变化**，以发现可疑的基站切换
 - **建立基线**，记录所在区域的常见基站
 
@@ -382,7 +387,14 @@ Vendor: Samsung Electronics
 **工作原理**：
 1. **等待有效 GPS 定位**，避免记录 0,0 坐标
 2. **持续循环**，每 5 秒扫描 WiFi 网络
-3. 记录网络数据，包括 SSID（网络名称）、BSSID（MAC 地址）、加密类型（WPA2、WPA3、开放）、信号强度（dBm 的 RSSI）、频道号、GPS 坐标（经纬度）和时间戳
+3. 记录网络数据：
+   - **SSID**（网络名称）
+   - **BSSID**（MAC 地址）
+   - **加密类型**（WPA2、WPA3、开放）
+   - **信号强度**（dBm 的 RSSI）
+   - **频道号**
+   - **GPS 坐标**（经纬度）
+   - **时间戳**
 4. **导出为 Wigle 兼容的** CSV 格式
 
 **Wigle 集成**：
@@ -635,7 +647,7 @@ ______
 
 ### 方法二：手动安装
 
-适用于希望从源代码构建的高级用户。
+适用于希望从源代码构建的**高级用户**。
 
 #### 步骤 1：安装依赖
 
@@ -740,15 +752,15 @@ reboot
 
 ### 安全证书警告
 
-访问 DagShell 时会看到 **"Not Secure" 或 "Not Trusted"** 警告：
+访问 DagShell 时会看到 **"Not Secure" (不安全) 或 "Not Trusted" (不受信任)** 警告：
 
 **桌面浏览器**：
-- 点击 **"Advanced"**
-- 点击 **"Proceed to 192.168.1.1 (unsafe)"**
+- 点击 **"Advanced" (高级)**
+- 点击 **"Proceed to 192.168.1.1 (unsafe)" (仍要访问 192.168.1.1（不安全）)**
 
 **移动浏览器**：
-- 点击 **"Show Details"**
-- 点击 **"visit this website"**
+- 点击 **"Show Details" (显示详情)**
+- 点击 **"visit this website" (访问此网站)**
 
 **原因**：
 - **证书是自签名的**，并非由 Let's Encrypt 等可信 CA 签发
@@ -766,7 +778,7 @@ ______
 
 ## Raspberry Pi Companion 设置
 
-如需完整功能，建议使用此可选扩展。
+如需完整功能，**建议使用此可选扩展**。
 
 ### 硬件设置
 
@@ -1215,7 +1227,7 @@ ______
 
 **解决方法**：
 - ***自签名证书出现此提示是正常的**，连接仍然经过加密。*
-- 每次都点击“Advanced”->“Proceed anyway”
+- 每次都点击“Advanced” (高级)->“Proceed anyway” (仍要继续)
 - **可选**：将 `root.der` 安装到设备的信任存储中
 
 ### 运行问题

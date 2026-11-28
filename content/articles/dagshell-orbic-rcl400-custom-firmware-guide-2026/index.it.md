@@ -1,12 +1,12 @@
 ---
 title: "Firmware personalizzato DagShell per Orbic RCL400: guida 2026"
 date: 2026-05-28
-lastmod: 2026-11-15
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Guida tecnica al firmware DagShell per Orbic RCL400. Descrive installazione, strumenti per la privacy, wardriving e limiti della ricerca."
-genre: ["Firmware personalizzato", "Sicurezza mobile", "Strumenti per la privacy", "Sicurezza di rete", "Wardriving", "Penetration testing", "Hacking IoT", "Ricerca sulla sicurezza", "Hacking hardware", "Tecnologie per la privacy"]
-tags: ["DagShell", "Orbic RCL400", "Firmware personalizzato", "Hacking degli hotspot", "Strumenti per la privacy", "Correzione TTL", "Spoofing MAC", "Rilevamento di IMSI catcher", "Wardriving", "Tracciamento GPS", "Attacco Evil Twin", "Captive portal", "Sniffer DNS", "Scanner ARP", "Scanner di porte", "Companion Raspberry Pi", "Sicurezza Wi-Fi", "Hotspot mobile", "Monitoraggio di rete", "Penetration testing", "Ricerca sulla sicurezza", "Scansione Bluetooth", "Attacco di deautenticazione", "Scansione Wi-Fi", "Ricerca OUI", "Caricamento su Wigle", "Monitoraggio delle torri cellulari", "Comandi AT", "Gestore firewall", "Blocco degli annunci", "Crittografia TLS", "Integrazione RayHunter", "STS Collective", "Laboratorio di sicurezza mobile", "Analisi di rete", "Firmware per la privacy", "Sicurezza open source", "Cross-compilazione ARM", "Linux embedded", "Toolkit di sicurezza", "Strumenti per hacker", "Red team", "Ricognizione di rete"]
+genre: ["Firmware personalizzato", "Sicurezza mobile", "Strumenti per la privacy", "Sicurezza di rete", "Wardriving", "Test di penetrazione", "Hacking IoT", "Ricerca sulla sicurezza", "Hacking dell'hardware", "Tecnologie per la privacy"]
+tags: ["DagShell", "Orbic RCL400", "Firmware personalizzato", "Hacking degli hotspot", "Strumenti per la privacy", "Correzione TTL", "Spoofing MAC", "Rilevamento di IMSI catcher", "Wardriving", "Tracciamento GPS", "Attacco Evil Twin", "Portale captive", "Sniffer DNS", "Scanner ARP", "Scanner di porte", "Raspberry Pi complementare", "Sicurezza Wi-Fi", "Hotspot mobile", "Monitoraggio di rete", "Test di penetrazione", "Ricerca sulla sicurezza", "Scansione Bluetooth", "Attacco di deautenticazione", "Scansione Wi-Fi", "Ricerca OUI", "Caricamento su Wigle", "Monitoraggio delle torri cellulari", "Comandi AT", "Gestore firewall", "Blocco degli annunci", "Crittografia TLS", "Integrazione RayHunter", "STS Collective", "Laboratorio di sicurezza mobile", "Analisi di rete", "Firmware per la privacy", "Sicurezza open source", "Cross-compilazione ARM", "Linux embedded", "Toolkit di sicurezza", "Strumenti per hacker", "Red team", "Ricognizione di rete"]
 canonical: "https://simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/"
 cover: "/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp"
 coverAlt: "Illustrazione di un hotspot mobile Orbic RCL400 con interfaccia verde luminosa, circondato da rappresentazioni astratte di strumenti di sicurezza come grafici e mappe, su uno sfondo blu navy."
@@ -23,14 +23,14 @@ Questa guida completa illustra:
 - **Cos'è DagShell** e quali funzioni offre
 - **Le istruzioni di installazione dettagliate**, tramite webflasher e metodo manuale
 - **Tutti gli strumenti e le funzionalità**, spiegati nel dettaglio
-- **La configurazione del companion Raspberry Pi** per estendere le funzionalità
+- **La configurazione del Raspberry Pi complementare** per estendere le funzionalità
 - **Perché abbinare DagShell a RayHunter** per la sicurezza mobile
 - **Casi d'uso reali** per ricercatori di sicurezza e sostenitori della privacy
 - **Considerazioni legali ed etiche**
 
 **In breve:** DagShell e RayHunter su Orbic RCL400 formano un **laboratorio mobile completo di sicurezza** per rilevare IMSI catcher, fare wardriving, analizzare reti e proteggere la privacy.
 
-**Dispositivi con firmware preinstallato:** Questo articolo è sponsorizzato da **STS Collective**, che offre hotspot Orbic RCL400 con RayHunter e DagShell già installati e pronti all'uso: [stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot](https://stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot)
+**Dispositivi con firmware preinstallato:** Questo articolo è sponsorizzato da **STS Collective**, che offre hotspot Orbic RCL400 con **RayHunter e DagShell** già installati e pronti all'uso: [stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot](https://stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot)
 
 > 💰 **Sconto esclusivo per i lettori:** Risparmia fino al 20% sui prodotti STS Collective, inclusi i dispositivi Orbic RCL400 con firmware preinstallato. Usa il codice **SIMEONONSECURITY** al pagamento oppure [acquista con lo sconto applicato](https://stscollective.com/discount/SIMEONONSECURITY).
 
@@ -47,9 +47,9 @@ ______
 - **Strumenti per la privacy**, tra cui mascheramento TTL, spoofing MAC e blocco degli annunci tramite DNS
 - **Monitoraggio di rete**, connessioni attive, tabelle di routing e query DNS
 - **Strumenti di hacking**, rilevamento IMSI catcher, scansione di porte e individuazione ARP
-- **Funzionalità di attacco**, Evil Twin AP, captive portal per phishing e attacchi di deautenticazione
+- **Funzionalità di attacco**, Evil Twin AP, portale captive per phishing e attacchi di deautenticazione
 - **Tracciamento GPS e wardriving** con esportazione CSV compatibile con Wigle
-- **Companion Raspberry Pi** per GPS, scansione Bluetooth e ricognizione Wi-Fi
+- **Raspberry Pi complementare** per GPS, scansione Bluetooth e ricognizione Wi-Fi
 - **Accesso al file system** con gestore file nel browser
 - **Funzionalità SMS** tramite comandi AT
 - **Persistenza:** DagShell si avvia automaticamente all'accensione
@@ -62,7 +62,7 @@ ______
 **Crittografia:** TLS 1.2+ con certificati autofirmati (PKI a due livelli)\
 **Web server:** server HTTPS embedded personalizzato (porta 8443)\
 **Interfaccia:** interfaccia terminale basata su browser\
-**Licenza:** MIT (open source)\
+**Licenza:** MIT (codice sorgente aperto)\
 **GitHub:** [github.com/dagnazty/DagShell](https://github.com/dagnazty/DagShell)
 
 ### Design visivo
@@ -114,7 +114,6 @@ AT+CGSN      - Ottieni IMEI (identificatore del dispositivo)
 - Indirizzi IP locali e remoti
 - Numeri di porta e stati delle connessioni
 - Utile per **monitorare le comunicazioni del dispositivo**
-+
 ### 🛡️ Suite di protezione della privacy
 
 #### Correzione TTL
@@ -325,21 +324,21 @@ Vendor: Samsung Electronics
 **Scopo:** creare un punto di accesso Wi-Fi falso che duplica l'SSID di una rete esistente
 
 **Come funziona:**
-- Usa **wlan1**, la seconda interfaccia Wi-Fi, se disponibile tramite il companion Pi
+- Usa **wlan1**, la seconda interfaccia Wi-Fi, se disponibile tramite il Raspberry Pi complementare
 - Duplica **SSID e tipo di crittografia** della rete obiettivo
 - **Cattura i client** che tentano di connettersi
-- Mostra un **captive portal** per raccogliere credenziali
+- Mostra un **portale captive** per raccogliere credenziali
 
 **Scenario di attacco** (laboratorio):
 1. Scansiona le reti Wi-Fi legittime
 2. Crea un **AP falso** con lo stesso SSID
 3. Usa un **attacco di deautenticazione** per disconnettere i client dall'AP reale
 4. I client si riconnettono automaticamente all'**AP falso**
-5. Il captive portal raccoglie le credenziali
+5. Il portale captive raccoglie le credenziali
 
 *Rilevamento: i client vedono **SSID duplicati** se entrambi gli AP sono visibili nello stesso momento.*
 
-#### Captive portal
+#### Portale captive
 
 **Scopo:** modelli di pagine phishing per raccogliere credenziali
 
@@ -362,8 +361,8 @@ Vendor: Samsung Electronics
 
 #### Funzioni GPS
 
-**Fonte GPS:** solo il **companion Raspberry Pi**
-- *Orbic RCL400 **non ha GPS integrato**. Senza il companion Pi, non vengono registrati dati di posizione.*
+**Fonte GPS:** solo il **Raspberry Pi complementare**
+- *Orbic RCL400 **non ha GPS integrato**. Senza il Raspberry Pi complementare, non vengono registrati dati di posizione.*
 - Il Pi collega un **ricevitore GPS USB** con chipset U-Blox 7
 - Il Pi invia le coordinate a Orbic tramite **file di dati condivisi**
 - La conversione **ECEF in latitudine/longitudine** avviene automaticamente
@@ -418,9 +417,9 @@ A1:B2:C3:D4:E5:F6,HomeNetwork,WPA2,2026-05-28 10:30:15,6,-45,40.7128,-74.0060,10
 
 {{< figure src="dagshell-wardriving-gps-wifi-network-mapping-wigle-csv-export.webp" alt="La modalità wardriving di DagShell mostra coordinate GPS e reti Wi-Fi scansionate con SSID, BSSID, tipo di crittografia e potenza del segnale salvati in un CSV compatibile con Wigle." >}}
 
-### 🥧 Companion Raspberry Pi
+### 🥧 Raspberry Pi complementare
 
-Il **companion Raspberry Pi** amplia le funzionalità di DagShell con **hardware esterno**:
+Il **Raspberry Pi complementare** amplia le funzionalità di DagShell con **hardware esterno**:
 
 #### Requisiti hardware
 
@@ -458,7 +457,7 @@ $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
 - Registra i risultati in **formato CSV**
 
 **Controllo remoto:**
-- Avvia o interrompe la scansione dall'interfaccia web di DagShell
+- **Avvia o interrompi la scansione** dall'interfaccia web di DagShell
 - Non serve accedere al Pi tramite SSH
 - Aggiornamenti dello stato in tempo reale
 
@@ -515,7 +514,7 @@ Timestamp,MAC,RSSI,Name,Manufacturer
 
 #### Servizio di avvio automatico
 
-**Servizio systemd:** il companion Pi si avvia automaticamente all'accensione
+**Servizio systemd:** il Raspberry Pi complementare si avvia automaticamente all'accensione
 
 **File del servizio** (`/etc/systemd/system/pi-companion.service`):
 ```ini
@@ -548,7 +547,7 @@ sudo systemctl status pi-companion
 
 **Scopo:** identificare il produttore dal prefisso dell'indirizzo MAC
 
-**Database:** API basata sui prefissi [OUI Master Database](https://standards.ieee.org/products-programs/regauth/)
+**Database:** API basata sui prefissi [Database principale OUI](https://standards.ieee.org/products-programs/regauth/)
 
 **Come funziona:**
 - Estrae i **primi 3 byte** dell'indirizzo MAC, il prefisso OUI
@@ -591,7 +590,6 @@ Vendor: Apple, Inc.
 ______
 
 {{< stscollective-ad "rayhunter" >}}
-+
 ## Guida all'installazione
 
 ### Prerequisiti
@@ -617,18 +615,18 @@ ______
 - URL: [dagnazty.github.io/DagShell/orbic.html](https://dagnazty.github.io/DagShell/orbic.html)
 
 **Passaggio 2:** genera i certificati PKI.
-- Fai clic sul pulsante **"Generate Certificates"**
+- Fai clic sul pulsante **"Generate Certificates"** (Genera i certificati).
 - Il browser genera una **PKI a due livelli**, CA radice e certificato server
 - **Scarica i file:** `root.der` e `server.der`
 
 **Passaggio 3:** abilita la shell root su Orbic.
 - Connettiti alla rete Wi-Fi Orbic
 - Inserisci la **password amministratore** nel modulo web
-- Fai clic su **"Enable Shell"**
+- Fai clic su **"Enable Shell"** (Abilita la shell).
 - La pagina sfrutta l'API Orbic per aprire una **shell root sulla porta 24**
 
 **Passaggio 4:** installa il firmware.
-- Fai clic sul pulsante **"Deploy DagShell"**
+- Fai clic sul pulsante **"Deploy DagShell"** (Installa DagShell).
 - Lo script carica:
   - `orbic_app`, il binario principale del firmware
   - `root.der`, il certificato radice
@@ -752,15 +750,15 @@ reboot
 
 ### Avviso sul certificato di sicurezza
 
-Quando accedi a DagShell, visualizzerai l'avviso **"Not Secure"** o **"Not Trusted"**.
+Quando accedi a DagShell, visualizzerai l'avviso **"Not Secure" (Non sicuro) o "Not Trusted" (Non attendibile)**.
 
 **Browser desktop:**
-- Fai clic su **"Advanced"**
-- Fai clic su **"Proceed to 192.168.1.1 (unsafe)"**
+- Fai clic su **"Advanced"** (Avanzate).
+- Fai clic su **"Proceed to 192.168.1.1 (unsafe)"** (Continua a 192.168.1.1, connessione non sicura).
 
 **Browser mobile:**
-- Tocca **"Show Details"**
-- Tocca **"visit this website"**
+- Tocca **"Show Details"** (Mostra dettagli).
+- Tocca **"visit this website"** (visita questo sito web).
 
 **Perché succede:**
 - Il certificato è **autofirmato**, non proviene da una CA attendibile come Let's Encrypt
@@ -776,7 +774,7 @@ Quando accedi a DagShell, visualizzerai l'avviso **"Not Secure"** o **"Not Trust
 
 ______
 
-## Configurazione del companion Raspberry Pi
+## Configurazione del Raspberry Pi complementare
 
 **Opzionale, ma consigliata** per tutte le funzionalità.
 
@@ -840,7 +838,7 @@ sudo systemctl restart gpsd
 cgps -s  # I dati dei satelliti dovrebbero apparire dopo circa 30 secondi
 ```
 
-**Passaggio 4:** configura il companion Pi.
+**Passaggio 4:** configura il Raspberry Pi complementare.
 
 ```bash
 # Modifica il file di configurazione
@@ -932,7 +930,6 @@ sudo reboot
 ______
 
 ## Perché abbinare DagShell a RayHunter?
-+
 {{< figure src="dagshell-rayhunter-complementary-capabilities.webp" alt="Diagramma affiancato che confronta il wardriving Wi-Fi e gli strumenti di attacco di rete di DagShell con il rilevamento delle anomalie dei protocolli cellulari di RayHunter. Entrambi funzionano sullo stesso hotspot Orbic RCL400." >}}
 
 ### Funzionalità complementari
@@ -946,7 +943,7 @@ ______
 | **Wardriving Wi-Fi** | Sì | No |
 | **Scansione Bluetooth** | Sì, tramite Pi | No |
 | **Strumenti di rete** | Sì, sniffer DNS, scansione ARP e porte | No |
-| **Strumenti di attacco** | Sì, Evil Twin, captive portal e deautenticazione | No |
+| **Strumenti di attacco** | Sì, Evil Twin, portale captive e deautenticazione | No |
 | **Strumenti per la privacy** | Sì, correzione TTL, spoofing MAC e blocco annunci | Minimi |
 | **Database delle torri cellulari** | Di base | Completo |
 | **Analisi AI/ML** | No | Sì, rilevamento anomalie |
@@ -992,7 +989,7 @@ ______
 
 **Contributo di DagShell:**
 - **Evil Twin AP** per test Wi-Fi
-- **Captive portal** per dimostrazioni di ingegneria sociale
+- **Portale captive** per dimostrazioni di ingegneria sociale
 - **Attacchi di deautenticazione** per testare la resilienza
 - Strumenti di **ricognizione di rete**
 
@@ -1059,7 +1056,7 @@ ______
 - **Wardriving Wi-Fi** per mappare le reti del cliente
 - **Scanner ARP** per individuare dispositivi
 - **Scanner di porte** per identificare servizi
-- **Evil Twin e captive portal** per testare la resilienza all'ingegneria sociale
+- **Evil Twin e portale captive** per testare la resilienza all'ingegneria sociale
 - **Esplora file** per estrarre i risultati
 
 **Flusso di lavoro:**
@@ -1196,14 +1193,13 @@ DagShell è uno **strumento di ricerca sulla sicurezza e tutela della privacy**.
 - **Intento**, migliorare la sicurezza o causare danni
 - **Divulgazione**, segnalare i risultati o sfruttarli
 
-Usa DagShell **in modo responsabile ed etico**. *Se non sai se un'attività è legale, fermati e consulta un avvocato prima di procedere.*
+Usa DagShell **responsabilmente** ed **eticamente**. *Se non sai se un'attività è legale, fermati e consulta un avvocato prima di procedere.*
 
 {{< figure src="dagshell-legal-ethical-security-research-responsible-use.webp" alt="Quadro legale ed etico per la ricerca sulla sicurezza con DagShell: usi autorizzati e non autorizzati e leggi applicabili." >}}
 
 ______
 
 ## Risoluzione dei problemi
-+
 ### Problemi di installazione
 
 **Problema:** `enable_shell.py` non riesce a connettersi
@@ -1226,7 +1222,7 @@ ______
 
 **Soluzioni:**
 - *È **normale** con certificati autofirmati. La connessione resta crittografata.*
-- Fai clic su "Advanced" e poi su "Proceed anyway" ogni volta
+- Fai clic su "Advanced" (Avanzate) e poi su "Proceed anyway" (Procedi comunque) ogni volta.
 - **Opzionale:** installa `root.der` nell'archivio attendibile del dispositivo, se hai esperienza
 
 ### Problemi durante l'esecuzione
@@ -1242,7 +1238,7 @@ ______
 **Problema:** il GPS non funziona
 
 **Soluzioni:**
-- Verifica che il **companion Pi** sia in esecuzione: `systemctl status pi-companion`
+- Verifica che il **Raspberry Pi complementare** sia in esecuzione: `systemctl status pi-companion`
 - Controlla che il GPS abbia agganciato i satelliti: `cgps -s` sul Pi
 - Verifica che il ricevitore GPS sia collegato: `lsusb`
 - *Un fix GPS a freddo può richiedere 5–10 minuti. Al primo avvio il fix richiede più tempo all'aperto.*
@@ -1255,13 +1251,13 @@ ______
 - Verifica che venga creato il CSV: `ls -la /data/wardrive_log.csv`
 - Controlla che l'interfaccia Wi-Fi sia attiva: `ifconfig wlan0`
 
-**Problema:** il companion Pi non comunica con Orbic
+**Problema:** il Raspberry Pi complementare non comunica con Orbic
 
 **Soluzioni:**
 - Verifica la connettività di rete: `ping 192.168.1.1`
 - Controlla che il file di configurazione contenga l'IP corretto
 - Verifica che la porta 8443 sia aperta: `telnet 192.168.1.1 8443`
-- Controlla i log del companion Pi: `journalctl -u pi-companion`
+- Controlla i log del Raspberry Pi complementare: `journalctl -u pi-companion`
 
 ### Problemi di prestazioni
 
@@ -1369,9 +1365,9 @@ ______
 |---------|-------------------------|----------------|
 | **Prezzo** | 60–80 USD più il dispositivo | 99–299 USD |
 | **Cellulare** | ✅ 4G LTE integrato | ❌ No, solo Wi-Fi |
-| **GPS** | ✅ Tramite companion Pi | ⚠️ Tramite ricevitore USB |
+| **GPS** | ✅ Tramite Raspberry Pi complementare | ⚠️ Tramite ricevitore USB |
 | **Evil Twin** | ✅ Sì | ✅ Sì |
-| **Captive portal** | ✅ Sì | ✅ Sì |
+| **Portale captive** | ✅ Sì | ✅ Sì |
 | **Deautenticazione** | ✅ Sì, tramite Pi | ✅ Sì |
 | **Wardriving** | ✅ Sì | ✅ Sì |
 | **Rilevamento IMSI** | ✅ Di base | ❌ No |
@@ -1389,7 +1385,7 @@ ______
 | **LTE cellulare** | ✅ Integrato | ❌ Richiede modem USB |
 | **Interfaccia web** | ✅ Sì | ⚠️ Limitata, richiede VNC/SSH |
 | **Numero di strumenti** | Circa 15 | Oltre 600 |
-| **Specializzazione** | Sicurezza mobile | Penetration testing generale |
+| **Specializzazione** | Sicurezza mobile | Test di penetrazione generale |
 | **Portabilità** | ✅ Tascabile | ⚠️ Richiede schermo e alimentazione |
 | **Durata della batteria** | 8–10 ore | 2–4 ore |
 
@@ -1419,7 +1415,7 @@ ______
 ✅ **Protezione della privacy**, mascheramento TTL, spoofing MAC e blocco degli annunci\
 ✅ **Monitoraggio di rete**, connessioni, DNS e routing\
 ✅ **Strumenti di hacking**, rilevamento IMSI, scansione di porte e individuazione ARP\
-✅ **Funzionalità di attacco**, Evil Twin, captive portal e deautenticazione\
+✅ **Funzionalità di attacco**, Evil Twin, portale captive e deautenticazione\
 ✅ **Wardriving GPS** con integrazione Wigle\
 ✅ **Espansione Raspberry Pi**, BLE, Wi-Fi e GPS\
 ✅ **Portabilità e alimentazione a batteria**\

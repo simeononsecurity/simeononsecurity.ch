@@ -1,7 +1,7 @@
 ---
 title: "Firmware personalizado DagShell para Orbic RCL400: guia de 2026"
 date: 2026-05-28
-lastmod: 2026-11-15
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Guia técnico do firmware DagShell para Orbic RCL400, com instalação, ferramentas de privacidade, wardriving e limites de pesquisa."
@@ -400,7 +400,7 @@ Vendor: Samsung Electronics
 **Integração com WiGLE**:
 - **WiGLE** (wigle.net) é um projeto global de mapeamento de redes Wi-Fi.
 - O CSV do DagShell pode ser **enviado diretamente ao WiGLE**.
-- O envio ocorre pelo navegador, na página Files, sem ferramentas externas.
+- **O envio pelo navegador**, na página Files, não exige ferramentas externas.
 - A contribuição integra o **banco de dados público** de localizações de redes Wi-Fi.
 
 **Casos de uso**:
@@ -458,7 +458,7 @@ $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
 - Registra os resultados em **formato CSV**.
 
 **Controle remoto**:
-- Inicia e interrompe a varredura pela interface web do DagShell.
+- **Inicia e interrompe** a varredura pela interface web do DagShell.
 - Não é necessário acessar o Pi por SSH.
 - Exibe atualizações de status em tempo real.
 
@@ -489,7 +489,7 @@ Timestamp,MAC,RSSI,Name,Manufacturer
 **Coordenação**:
 - O Pi e o Orbic **sincronizam** os dados pela marca temporal do GPS.
 - Isso evita entradas duplicadas.
-- As duas fontes de varredura são combinadas em um único registro.
+- **As duas fontes de varredura** são combinadas em um único registro.
 
 #### Ataques de desautenticação
 
@@ -584,7 +584,7 @@ Vendor: Apple, Inc.
 - `arp_scan.txt`: lista de dispositivos de rede
 
 **Envio para WiGLE**:
-- Envio direto pelo navegador na página Files
+- **Envio direto pelo navegador** na página Files
 - Autenticação com uma conta WiGLE
 - Envio do CSV sem precisar baixá-lo primeiro
 
@@ -752,15 +752,15 @@ reboot
 
 ### Aviso sobre o certificado de segurança
 
-Ao acessar o DagShell, você verá um aviso **"Not Secure" ou "Not Trusted"**:
+Ao acessar o DagShell, você verá um aviso **"Not Secure" (Não seguro) ou "Not Trusted" (Não confiável)**:
 
 **Navegadores de computador**:
-- Clique em **"Advanced"**.
-- Clique em **"Proceed to 192.168.1.1 (unsafe)"**.
+- Clique em **"Advanced" (Avançado)**.
+- Clique em **"Proceed to 192.168.1.1 (unsafe)" (Prosseguir para 192.168.1.1 (não seguro))**.
 
 **Navegadores de celular**:
-- Toque em **"Show Details"**.
-- Toque em **"visit this website"**.
+- Toque em **"Show Details" (Mostrar detalhes)**.
+- Toque em **"visit this website" (visitar este site)**.
 
 **Por que isso acontece**:
 - O certificado é **autoassinado**, não foi emitido por uma CA confiável como Let's Encrypt.
@@ -1226,7 +1226,7 @@ ______
 
 **Soluções**:
 - *Isso é **normal** com certificados autoassinados. A conexão continua criptografada.*
-- Clique em "Advanced" e em "Proceed anyway" a cada acesso.
+- Clique em "Advanced" (Avançado) e em "Proceed anyway" (Prosseguir mesmo assim) a cada acesso.
 - **Opcional**: Instale `root.der` no repositório de certificados confiáveis do dispositivo (procedimento avançado).
 
 ### Problemas durante a execução

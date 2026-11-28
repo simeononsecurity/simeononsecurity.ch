@@ -1,7 +1,7 @@
 ---
 title: "Firmware personalizat DagShell pentru Orbic RCL400: Ghidul din 2026"
 date: 2026-05-28
-lastmod: 2026-11-15
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Ghid tehnic pentru firmware-ul DagShell pe Orbic RCL400, cu instalare, instrumente de confidențialitate, wardriving și limitele cercetării."
@@ -20,13 +20,13 @@ coverCaption: ""
 **DagShell** este un firmware personalizat open-source pentru **hotspotul mobil Orbic RCL400**, care transformă un dispozitiv celular obișnuit într-un **set portabil de instrumente pentru cercetare în securitate și confidențialitate**. Creat de cercetătorul în securitate „dag”, firmware-ul cu aspect de terminal oferă **instrumente de hacking, funcții de confidențialitate și monitorizarea rețelei**, într-o interfață elegantă, verde pe negru, cu estetică de hacker.
 
 Acest ghid cuprinzător prezintă:
-- Ce este DagShell și toate funcțiile sale
-- Instrucțiuni de instalare pas cu pas, prin webflasher sau manual
-- Detalii despre toate instrumentele și capacitățile
-- Configurarea companionului Raspberry Pi pentru funcții extinse
-- De ce să asociezi DagShell cu RayHunter pentru securitate mobilă
-- Cazuri reale de utilizare pentru cercetători și susținătorii confidențialității
-- Considerații legale și etice
+- **Ce este DagShell** și toate funcțiile sale
+- **Instrucțiuni de instalare pas cu pas**, prin webflasher sau manual
+- **Detalii despre toate instrumentele** și capacitățile
+- **Configurarea companionului Raspberry Pi** pentru funcții extinse
+- **De ce să asociezi DagShell** cu RayHunter pentru securitate mobilă
+- **Cazuri reale de utilizare** pentru cercetători și susținătorii confidențialității
+- **Considerații legale** și etice
 
 **Pe scurt**: DagShell și RayHunter pe Orbic RCL400 formează un **laborator mobil complet de securitate** pentru detectarea dispozitivelor IMSI catcher, wardriving, analiza rețelei și protejarea confidențialității.
 
@@ -42,17 +42,17 @@ ______
 
 **DagShell** este un firmware personalizat open-source care înlocuiește interfața web standard a Orbic RCL400 cu un **set complet de instrumente de securitate**, care include:
 
-- Interfață în stil terminal, cu artă ASCII și estetică de hacker
+- **Interfață în stil terminal**, cu artă ASCII și estetică de hacker
 - Interfață web criptată **TLS 1.2+**, cu certificat autosemnat
-- Instrumente de confidențialitate: mascarea TTL, MAC spoofing și blocarea reclamelor prin DNS
-- Monitorizarea rețelei: conexiuni active, tabele de rutare și interogări DNS
-- Instrumente de hacking: detectarea IMSI catcher, scanarea porturilor și descoperirea ARP
-- Capacități de atac: Evil Twin AP, phishing prin portal captiv și atacuri de deautentificare
-- Urmărire GPS și wardriving, cu export CSV compatibil Wigle
-- Companion Raspberry Pi pentru GPS, scanare Bluetooth și recunoaștere WiFi
-- Acces la sistemul de fișiere printr-un manager în browser
-- Funcții SMS prin comenzi AT
-- Persistență: pornește automat la boot
+- **Instrumente de confidențialitate**: mascarea TTL, MAC spoofing și blocarea reclamelor prin DNS
+- **Monitorizarea rețelei**: conexiuni active, tabele de rutare și interogări DNS
+- **Instrumente de hacking**: detectarea IMSI catcher, scanarea porturilor și descoperirea ARP
+- **Capacități de atac**: Evil Twin AP, phishing prin portal captiv și atacuri de deautentificare
+- **Urmărire GPS** și wardriving, cu export CSV compatibil Wigle
+- **Companion Raspberry Pi** pentru GPS, scanare Bluetooth și recunoaștere WiFi
+- **Acces la sistemul de fișiere** printr-un manager în browser
+- **Funcții SMS prin comenzi AT**
+- **Persistență**: pornește automat la boot
 
 ### Specificații tehnice
 
@@ -62,17 +62,17 @@ ______
 **Criptare**: TLS 1.2+ cu certificate autosemnate (PKI pe două niveluri)
 **Server web**: server HTTPS încorporat, personalizat (portul 8443)
 **Interfață**: UI de terminal în browser
-**Licență**: MIT (open-source)
+**Licență**: MIT (licență cu cod sursă deschis)
 **GitHub**: [github.com/dagnazty/DagShell](https://github.com/dagnazty/DagShell)
 
 ### Design vizual
 
 DagShell are o **estetică retro de hacker**:
-- Logo ASCII pe fiecare pagină
-- Culori verde pe negru, în stil Matrix
-- Font monospațiat (Fira Code)
-- Efecte de scanare și text luminos
-- Aspect inspirat de terminal
+- **Logo ASCII pe fiecare pagină**
+- **Culori verde pe negru**, în stil Matrix
+- **Font monospațiat** (Fira Code)
+- **Efecte de scanare** și text luminos
+- **Aspect inspirat de terminal**
 
 {{< figure src="dagshell-orbic-rcl400-hacker-terminal-interface-feature-overview.webp" alt="Firmware DagShell care rulează pe Orbic RCL400, cu interfață de terminal verde pe negru, artă ASCII și meniu cu instrumente de securitate" >}}
 
@@ -100,9 +100,9 @@ AT+CGSN      - Obține IMEI (identificatorul dispozitivului)
 ### 🌐 Instrumente de rețea
 
 **Informații despre rețeaua curentă**:
-- Detalii despre adresa IP și interfață
-- Mască de subrețea, gateway și adresă broadcast
-- Statistici de rețea, cu pachete trimise și primite
+- **Detalii despre adresa IP** și interfață
+- **Mască de subrețea**, gateway și adresă broadcast
+- **Statistici de rețea**, cu pachete trimise și primite
 
 **Vizualizatorul tabelei de rutare**:
 - Afișează toate rutele de rețea
@@ -110,10 +110,10 @@ AT+CGSN      - Obține IMEI (identificatorul dispozitivului)
 - Asocierea interfețelor
 
 **Monitorul conexiunilor active**:
-- Listă în timp real cu toate conexiunile TCP/UDP
+- **Listă în timp real** cu toate conexiunile TCP/UDP
 - Adrese IP locale și la distanță
 - Numerele porturilor și starea conexiunilor
-- Util pentru a monitoriza cu cine comunică dispozitivul
+- **Util** pentru a monitoriza cu cine comunică dispozitivul
 
 ### 🔒 Set de protecție a confidențialității
 
@@ -124,7 +124,7 @@ AT+CGSN      - Obține IMEI (identificatorul dispozitivului)
 **Cum funcționează**:
 - Modifică valoarea **Time To Live (TTL)** din pachetele IP la **65**
 - Operatorii detectează tethering-ul prin scăderea TTL-ului (telefon=64, dispozitiv tethered=63)
-- Valoarea TTL 65 face ca tot traficul să pară local
+- **Valoarea TTL 65 face ca tot** traficul să pară local
 
 **Utilizare**: Ocolește restricțiile sau limitarea vitezei impuse de operator pentru tethering
 
@@ -143,8 +143,8 @@ iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 
 **Cum funcționează**:
 - Schimbă adresa MAC a interfeței WiFi **wlan0**
-- Generează o adresă MAC aleatorie sau permite introducerea uneia personalizate
-- Face dispozitivul mai greu de urmărit între sesiuni
+- **Generează o adresă MAC aleatorie** sau permite introducerea uneia personalizate
+- **Face dispozitivul mai greu de urmărit între sesiuni**
 
 **Utilizare**: Împiedică rețelele la care te conectezi să urmărească adresa MAC
 
@@ -159,9 +159,9 @@ iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 **Scop**: Blochează reclamele și urmărirea la nivel DNS
 
 **Cum funcționează**:
-- Modifică fișierul `/etc/hosts` cu o listă de blocare
+- **Modifică fișierul** `/etc/hosts` cu o listă de blocare
 - Domeniile din listă se rezolvă la **127.0.0.1** (localhost)
-- Blochează reclamele pentru toate dispozitivele conectate
+- **Blochează reclamele** pentru toate dispozitivele conectate
 
 **Utilizare**: Blochează reclamele în toată rețeaua fără configurarea fiecărui dispozitiv
 
@@ -170,8 +170,8 @@ iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 ### 📱 Gestionarea SMS-urilor
 
 **Trimite SMS-uri**:
-- Trimite mesaje text modemului prin comenzi AT
-- Util pentru notificări la distanță sau testare
+- **Trimite mesaje text modemului prin comenzi AT**
+- **Util** pentru notificări la distanță sau testare
 
 **Vezi mesajele**:
 - Link către căsuța de mesaje originală Orbic
@@ -190,33 +190,38 @@ Textul mesajului aici^Z
 **Scop**: Monitorizează informațiile despre antenele celulare pentru anomalii care pot indica dispozitive **IMSI catcher/Stingray**
 
 **Cum funcționează**:
-- Solicită modemului date despre antene: Cell ID (identificatorul antenei), LAC (Location Area Code), MCC/MNC (Mobile Country/Network Code), puterea semnalului (RSSI) și generația rețelei (2G/3G/4G)
-- Înregistrează schimbările pentru a detecta comutări suspecte între antene
-- Stabilește un reper cu antenele obișnuite din zonă
+- **Solicită modemului date despre antenele celulare**:
+  - **Cell ID** (identificatorul antenei)
+  - **LAC** (Location Area Code)
+  - **MCC/MNC** (Mobile Country/Network Code)
+  - **Puterea semnalului** (RSSI)
+  - **Generația rețelei** (2G/3G/4G)
+- **Înregistrează schimbările** pentru a detecta comutări suspecte între antene
+- **Stabilește un reper** cu antenele obișnuite din zonă
 
 **Indicatori de detectare**:
-- Schimbarea bruscă a antenei celulare când dispozitivul stă pe loc
-- Trecerea la 2G *(IMSI catcher-ele forțează adesea 2G pentru a elimina criptarea)*
-- Apariția unui Cell ID necunoscut
-- Semnal slab de la o antenă falsă
-- Reconectări frecvente
+- **Schimbarea bruscă a antenei celulare când** dispozitivul stă pe loc
+- **Trecerea la 2G** *(IMSI catcher-ele forțează adesea 2G pentru a elimina criptarea)*
+- **Apariția unui Cell ID necunoscut**
+- **Semnal slab de la o antenă falsă**
+- **Reconectări frecvente**
 
-**Combinarea cu RayHunter**: DagShell monitorizează antenele celulare, iar RayHunter oferă detectarea dedicată a dispozitivelor IMSI catcher prin analize mai sofisticate (vezi secțiunea de mai jos).
+**Combinarea cu RayHunter**: DagShell oferă **monitorizarea antenelor celulare**, iar RayHunter oferă **detectarea dedicată a dispozitivelor IMSI catcher** prin analize mai sofisticate (vezi secțiunea de mai jos).
 
 #### Scaner de porturi
 
 **Scop**: Scanează adrese IP țintă pentru porturi deschise
 
 **Cum funcționează**:
-- Scanarea TCP SYN trimite pachete SYN către porturile țintă
-- Detectarea expirării timpului stabilește dacă portul este deschis, închis sau filtrat
-- Poate scana un port sau intervale de porturi
+- **Scanarea TCP SYN trimite pachete SYN** către porturile țintă
+- **Detectarea expirării timpului stabilește dacă portul este deschis**, închis sau filtrat
+- **Poate scana un port** sau intervale de porturi
 
 **Utilizări**:
-- Recunoașterea rețelei
-- Descoperirea dispozitivelor IoT
-- Auditarea securității rețelelor locale
-- Identificarea serviciilor
+- **Recunoașterea rețelei**
+- **Descoperirea dispozitivelor IoT**
+- **Auditarea securității rețelelor locale**
+- **Identificarea serviciilor**
 
 **Comandă**:
 ```bash
@@ -229,15 +234,15 @@ nc -zv -w 2 TARGET_IP 1-1000 2>&1
 **Scop**: Blochează sau deblochează adrese IP folosind iptables
 
 **Cum funcționează**:
-- Regulile iptables elimină pachetele către sau de la IP-urile specificate
-- Regulile salvate persistă după repornire
-- Funcționalitate de listă permisă și listă blocată
+- **Regulile iptables elimină pachetele către** sau de la IP-urile specificate
+- **Regulile salvate persistă după repornire**
+- **Funcționalitate de listă permisă** și listă blocată
 
 **Utilizări**:
-- Blocarea adreselor IP malițioase
-- Prevenirea accesului neautorizat
-- Modelarea sau filtrarea traficului
-- Control parental
+- **Blocarea adreselor IP malițioase**
+- **Prevenirea accesului neautorizat**
+- **Modelarea** sau filtrarea traficului
+- **Control parental**
 
 **Comenzi**:
 ```bash
@@ -252,23 +257,23 @@ iptables -D OUTPUT -d IP_ADDRESS -j DROP
 
 ### ⚔️ Instrumente de atac
 
-**AVERTISMENT LEGAL IMPORTANT**: Aceste instrumente sunt destinate **NUMAI testării de securitate autorizate**. Utilizarea lor împotriva unor rețele care nu îți aparțin sau pentru care nu ai permisiune scrisă este **ILEGALĂ** în majoritatea jurisdicțiilor. Folosește-le doar în rețele proprii sau în medii de laborator controlate.
+**AVERTISMENT LEGAL IMPORTANT**: Aceste instrumente sunt destinate **NUMAI testării de securitate autorizate**. Utilizarea lor împotriva unor rețele care nu îți aparțin sau pentru care nu ai permisiune scrisă este **ILEGALĂ** în majoritatea jurisdicțiilor. Folosește-le doar în **rețele proprii** sau în **medii de laborator controlate**.
 
 #### Sniffer DNS
 
 **Scop**: Înregistrează interogările DNS ale clienților conectați
 
 **Cum funcționează**:
-- Înregistrează prin iptables traficul de pe portul 53 (DNS)
-- Nu necesită modul promiscuu
+- **Înregistrează prin iptables traficul de pe** portul 53 (DNS)
+- **Nu necesită modul promiscuu**
 - Înregistrează toate cererile DNS ale clienților hotspotului
-- Arată site-urile și serviciile accesate de clienți
+- **Arată site-urile** și serviciile accesate de clienți
 
 **Utilizări** (cu autorizare):
-- Analiza traficului de rețea
-- Monitorizarea propriei familii
-- Cercetarea securității pe propriile dispozitive
-- Analiza comportamentului malware-ului
+- **Analiza traficului de rețea**
+- **Monitorizarea propriei familii**
+- **Cercetarea securității pe propriile dispozitive**
+- **Analiza comportamentului malware-ului**
 
 *Această funcție colectează metadate, precum domeniile vizitate de clienții conectați. Folosește-o doar în rețele pe care le deții sau le administrezi.*
 
@@ -277,16 +282,16 @@ iptables -D OUTPUT -d IP_ADDRESS -j DROP
 **Scop**: Descoperă dispozitive din rețeaua locală
 
 **Cum funcționează**:
-- Trimite cereri ARP către toate adresele IP din subrețea
-- Dispozitivele răspund cu adresele MAC
-- Căutarea OUI identifică producătorul, precum Apple sau Samsung
-- Creează o hartă de rețea cu dispozitivele active
+- **Trimite cereri ARP către toate adresele** IP din subrețea
+- **Dispozitivele răspund** cu adresele MAC
+- **Căutarea OUI identifică producătorul**, precum Apple sau Samsung
+- **Creează o hartă de rețea** cu dispozitivele active
 
 **Utilizări**:
-- Inventarierea rețelei
-- Detectarea dispozitivelor necunoscute
-- Analiza rețelelor BYOD
-- Descoperirea dispozitivelor IoT
+- **Inventarierea rețelei**
+- **Detectarea dispozitivelor necunoscute**
+- **Analiza rețelelor BYOD**
+- **Descoperirea dispozitivelor IoT**
 
 **Exemplu de rezultat**:
 ```
@@ -304,16 +309,16 @@ Vendor: Samsung Electronics
 **Scop**: Vizualizează traseul rețelei către destinație
 
 **Cum funcționează**:
-- Trimite pachete cu valori TTL în creștere
+- **Trimite pachete** cu valori TTL în creștere
 - Fiecare salt reduce TTL și returnează **ICMP Time Exceeded**
-- Dezvăluie routerele și traseul până la destinație
+- **Dezvăluie routerele** și traseul până la destinație
 - Măsoară **Round-Trip Time (RTT)** pentru fiecare salt
 
 **Utilizări**:
-- Depanarea rețelei
-- Analiza rutelor
-- Diagnosticarea latenței
-- Investigarea peering-ului ISP
+- **Depanarea rețelei**
+- **Analiza rutelor**
+- **Diagnosticarea latenței**
+- **Investigarea peering-ului ISP**
 
 #### Evil Twin AP
 
@@ -321,57 +326,57 @@ Vendor: Samsung Electronics
 
 **Cum funcționează**:
 - Folosește **wlan1**, a doua interfață WiFi disponibilă prin companionul Pi
-- Clonează SSID-ul și tipul de criptare ale rețelei țintă
-- Capturează clienții care încearcă să se conecteze
-- Afișează un portal captiv pentru colectarea acreditărilor
+- **Clonează SSID-ul** și tipul de criptare ale rețelei țintă
+- **Capturează clienții** care încearcă să se conecteze
+- **Afișează un portal captiv** pentru colectarea acreditărilor
 
 **Scenariu de atac** (mediu de laborator):
 1. Scanează rețelele WiFi legitime
-2. Creează un AP fals cu același SSID
-3. Folosește un atac de deautentificare pentru a deconecta clienții de la AP-ul real
-4. Clienții se reconectează automat la AP-ul fals
+2. **Creează un AP fals** cu același SSID
+3. **Folosește un atac de deautentificare** pentru a deconecta clienții de la AP-ul real
+4. **Clienții se reconectează automat la AP-ul fals**
 5. Portalul captiv colectează acreditările
 
-*Detectare: Clienții văd SSID-uri duplicate dacă ambele AP-uri sunt vizibile în același timp.*
+***Detectare**: Clienții văd SSID-uri duplicate dacă ambele AP-uri sunt vizibile în același timp.*
 
 #### Portal captiv
 
 **Scop**: Oferă șabloane de pagini de phishing pentru colectarea acreditărilor
 
 **Șabloane incluse**:
-- Pagină de autentificare WiFi în stil generic ISP/hotel
-- Pagini de autentificare care imită Facebook, Twitter și Instagram
-- Portaluri de autentificare corporativă
-- Pagini WiFi pentru aeroporturi și cafenele
+- **Pagină de autentificare WiFi în stil generic ISP/hotel**
+- **Pagini de autentificare** care imită Facebook, Twitter și Instagram
+- **Portaluri de autentificare corporativă**
+- **Pagini WiFi** pentru aeroporturi și cafenele
 
 **Cum funcționează**:
-1. AP-ul Evil Twin redirecționează tot traficul către portal
-2. Clientul vede pagina de autentificare
+1. **AP-ul Evil Twin redirecționează tot traficul către portal**
+2. **Clientul vede pagina de autentificare**
 3. Clientul introduce acreditările
-4. Acreditările sunt înregistrate într-un fișier
+4. **Acreditările sunt înregistrate într-un fișier**
 5. Clientul primește acces la internet sau vede o eroare
 
-**Scop educațional**: Demonstrează riscurile ingineriei sociale și de ce utilizatorii trebuie să verifice URL-urile
+**Scop educațional**: **Demonstrează riscurile ingineriei sociale** și de ce utilizatorii trebuie să verifice URL-urile
 
 ### 📍 Tracker GPS și wardriving
 
 #### Funcționalitatea GPS
 
-**Sursa GPS**: Numai companionul Raspberry Pi
+**Sursa GPS**: **Numai companionul Raspberry Pi**
 - *Orbic RCL400 **nu are GPS încorporat**. Fără companionul Pi, nu există date de localizare.*
-- Pi conectează un dongle GPS USB cu chipset U-Blox 7
-- Pi trimite coordonatele către Orbic prin fișiere de date partajate
-- Conversia ECEF în latitudine/longitudine se face automat
+- **Pi conectează un dongle GPS USB** cu chipset U-Blox 7
+- **Pi trimite coordonatele către Orbic prin** fișiere de date partajate
+- **Conversia ECEF în latitudine/longitudine se face automat**
 
 **Afișare în panou**:
-- Latitudine și longitudine în grade zecimale
-- Altitudine deasupra nivelului mării
-- Starea fixării GPS și precizia
-- Actualizare automată la fiecare 5 secunde
-- Nu apar solicitări de localizare din browser, deoarece nu se folosește API-ul browserului
+- **Latitudine** și longitudine în grade zecimale
+- **Altitudine deasupra nivelului mării**
+- **Starea fixării GPS** și precizia
+- **Actualizare automată la fiecare 5 secunde**
+- **Nu apar solicitări de localizare din browser**, deoarece nu se folosește API-ul browserului
 
 **Stare GPS partajată**:
-- Datele GPS sunt disponibile tuturor proceselor DagShell
+- **Datele GPS sunt disponibile tuturor proceselor DagShell**
 - Wardriving folosește automat GPS-ul
 - Funcțiile nu intră în conflict
 
@@ -380,23 +385,30 @@ Vendor: Samsung Electronics
 **Scop**: Scanează rețele WiFi cu coordonate GPS pentru cartografiere
 
 **Cum funcționează**:
-1. Așteaptă o fixare GPS validă, astfel încât să nu fie înregistrate coordonate 0,0
-2. Scanează rețele WiFi la fiecare 5 secunde, într-o buclă continuă
-3. Înregistrează SSID-ul, BSSID-ul, tipul de criptare (WPA2, WPA3, deschisă), puterea semnalului (RSSI în dBm), numărul canalului, coordonatele GPS și marcajul temporal
-4. Exportă datele în format CSV compatibil Wigle
+1. **Așteaptă o fixare GPS validă**, astfel încât să nu fie înregistrate coordonate 0,0
+2. **Scanează rețele WiFi la fiecare 5 secunde**, într-o buclă continuă
+3. Înregistrează datele rețelei:
+   - **SSID** (numele rețelei)
+   - **BSSID** (adresa MAC)
+   - **Tipul de criptare** (WPA2, WPA3, deschisă)
+   - **Puterea semnalului** (RSSI în dBm)
+   - **Numărul canalului**
+   - **Coordonatele GPS** (latitudine/longitudine)
+   - **Marcajul temporal**
+4. **Exportă datele în format CSV compatibil Wigle**
 
 **Integrare Wigle**:
-- WiGLE (wigle.net) este un proiect global de cartografiere WiFi
-- Fișierul CSV DagShell poate fi încărcat direct pe WiGLE
-- Încărcarea se face din browser, pe pagina Files, fără instrumente externe
-- Contribuie la baza de date publică a locațiilor WiFi
+- **WiGLE (wigle.net) este un proiect global** de cartografiere WiFi
+- **Fișierul CSV DagShell poate fi încărcat** direct pe WiGLE
+- **Încărcarea se face din browser**, pe pagina Files, fără instrumente externe
+- **Contribuie la baza de date publică** a locațiilor WiFi
 
 **Utilizări**:
-- Cartografierea acoperirii WiFi
-- Analizarea rețelelor pentru ISP-uri
-- Analiza puterii semnalului
-- Cercetare de securitate pentru rețele deschise și criptare slabă
-- Analize bazate pe locație
+- **Cartografierea acoperirii WiFi**
+- **Analizarea rețelelor** pentru ISP-uri
+- **Analiza puterii semnalului**
+- **Cercetare de securitate** pentru rețele deschise și criptare slabă
+- **Analize bazate pe locație**
 
 **Exemplu de format CSV**:
 ```csv
@@ -446,7 +458,7 @@ $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
 - Înregistrează datele în **format CSV**
 
 **Control de la distanță**:
-- Pornirea și oprirea scanării din interfața web DagShell
+- **Pornirea** și oprirea scanării din interfața web DagShell
 - Nu este nevoie de conexiune SSH la Pi
 - Afișează starea în timp real
 
@@ -740,15 +752,15 @@ reboot
 
 ### Avertisment privind certificatul de securitate
 
-La accesarea DagShell, veți vedea un avertisment **„Not Secure” sau „Not Trusted”**:
+La accesarea DagShell, veți vedea un avertisment **„Not Secure” (Nesigur) sau „Not Trusted” (Nede încredere)**:
 
 **Browsere desktop**:
-- Apăsați **„Advanced”**
-- Apăsați **„Proceed to 192.168.1.1 (unsafe)”**
+- Apăsați **„Advanced” (Avansat)**
+- Apăsați **„Proceed to 192.168.1.1 (unsafe)” (Continuă la 192.168.1.1 (nesigur))**
 
 **Browsere mobile**:
-- Apăsați **„Show Details”**
-- Apăsați **„visit this website”**
+- Apăsați **„Show Details” (Afișează detaliile)**
+- Apăsați **„visit this website” (vizitează acest site)**
 
 **De ce apare**:
 - Certificatul este **autosemnat** (nu provine de la o CA de încredere precum Let’s Encrypt)
@@ -942,7 +954,7 @@ ______
 
 ### Exemple de utilizare complementară
 
-#### 1. Protecție completă împotriva detectoarelor IMSI
+#### **1. Protecție completă împotriva detectoarelor IMSI**
 
 **Scenariu**: călătorie într-o zonă cu supraveghere intensă
 
@@ -958,7 +970,7 @@ ______
 
 **Rezultatul combinației**: DagShell oferă **monitorizare continuă**, iar RayHunter oferă **analiză aprofundată**
 
-#### 2. Wardriving în condiții de siguranță
+#### **2. Wardriving în condiții de siguranță**
 
 **Scenariu**: cartografierea rețelelor WiFi într-o zonă urbană
 
@@ -974,7 +986,7 @@ ______
 
 **Rezultatul combinației**: wardriving în siguranță, cu **vizibilitate asupra securității celulare**
 
-#### 3. Laborator de cercetare în securitate
+#### **3. Laborator de cercetare în securitate**
 
 **Scenariu**: echipă red team sau testare de penetrare
 
@@ -991,7 +1003,7 @@ ______
 
 **Rezultatul combinației**: instrumente ofensive cu **vizibilitate defensivă**
 
-#### 4. Călătorii axate pe confidențialitate
+#### **4. Călătorii axate pe confidențialitate**
 
 **Scenariu**: jurnalist sau activist într-un mediu sensibil
 
@@ -1014,7 +1026,7 @@ ______
 - Cumpărați de la **STS Collective**: [Orbic RCL400 cu RayHunter și DagShell preinstalate](https://stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot)
 - **Gata de utilizare** imediat
 - Ambele versiuni de firmware sunt **testate și verificate**
-- Fără grija instalării
+- **Fără grija instalării**
 
 **Instalare DIY**:
 1. **Instalați mai întâi RayHunter** (consultați ghidul nostru [Cum să instalați RayHunter: ghid complet](/articles/how-to-flash-rayhunter-devices-complete-guide/))
@@ -1029,7 +1041,7 @@ ______
 - Nu interferează unul cu celălalt
 - Funcționează **simultan**
 
-Doriți să evitați instalarea DIY? [Orbic RCL400 cu RayHunter și DagShell](https://stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot) preinstalate este gata de utilizare. Codul pentru cititori **SIMEONONSECURITY** oferă o reducere de până la 20% la STS Collective.
+Doriți să evitați instalarea DIY? **[Orbic RCL400 cu RayHunter și DagShell](https://stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot)** preinstalate este gata de utilizare. Codul pentru cititori **SIMEONONSECURITY** oferă o reducere de până la 20% la STS Collective.
 
 {{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
   Cumpărați RCL400 cu firmware preinstalat și economisiți 20%
@@ -1142,7 +1154,7 @@ ______
 ❌ **Atacuri de deautentificare** asupra altor rețele (încălcarea regulilor FCC și posibilă infracțiune gravă)
 ❌ Atacuri **Evil Twin** împotriva publicului (fraudă prin comunicații, furt de identitate)
 ❌ **Sniffing DNS** al altor persoane fără consimțământ (interceptare ilegală)
-❌ Ocolirea măsurilor de securitate pentru comiterea unei fraude
+**❌ Ocolirea măsurilor de securitate** pentru comiterea unei fraude
 
 ### Legi de care trebuie să țineți cont
 
@@ -1215,7 +1227,7 @@ ______
 
 **Soluții**:
 - *Este **normal** pentru certificatele autosemnate, conexiunea rămâne criptată*
-- Apăsați „Advanced”, apoi „Proceed anyway” de fiecare dată
+- Apăsați „Advanced” (Avansat), apoi „Proceed anyway” (Continuă oricum) de fiecare dată
 - **Opțional**: instalați `root.der` în depozitul de certificate de încredere al dispozitivului (avansat)
 
 ### Probleme în timpul funcționării

@@ -1,7 +1,7 @@
 ---
 title: "Firmware personalitzat DagShell per a Orbic RCL400: guia de 2026"
 date: 2026-05-28
-lastmod: 2026-11-15
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Guia tècnica del firmware DagShell per a Orbic RCL400. Explica la instal·lació, les eines de privacitat, el wardriving i els límits de la recerca."
@@ -458,7 +458,7 @@ $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
 - Registra les dades en **format CSV**
 
 **Control remot**:
-- Inicia o atura l’escaneig des de la interfície web de DagShell
+- **Inicia o atura l’escaneig** des de la interfície web de DagShell
 - No cal connectar-se al Pi per SSH
 - Mostra l’estat en temps real
 
@@ -617,18 +617,18 @@ ______
 - URL: [dagnazty.github.io/DagShell/orbic.html](https://dagnazty.github.io/DagShell/orbic.html)
 
 **Pas 2**: genera els certificats PKI
-- Fes clic al botó **"Generate Certificates"**
+- Fes clic al botó **"Generate Certificates"** (Genera els certificats).
 - El navegador genera una **PKI de dos nivells** (CA arrel i certificat del servidor)
 - **Descarrega els fitxers**: `root.der` i `server.der`
 
 **Pas 3**: activa el shell root a l’Orbic
 - Connecta’t a la xarxa WiFi de l’Orbic
 - Introdueix la **contrasenya d’administrador** al formulari web
-- Fes clic a **"Enable Shell"**
+- Fes clic a **"Enable Shell"** (Activa el shell).
 - La pàgina web explota l’API de l’Orbic per obrir un **shell root al port 24**
 
 **Pas 4**: desplega el firmware
-- Fes clic al botó **"Deploy DagShell"**
+- Fes clic al botó **"Deploy DagShell"** (Desplega DagShell).
 - L’script puja:
   - `orbic_app` (binari principal del firmware)
   - `root.der` (certificat arrel)
@@ -752,15 +752,15 @@ reboot
 
 ### Avís del certificat de seguretat
 
-En accedir a DagShell, veuràs l’avís **"Not Secure"** o **"Not Trusted"**:
+En accedir a DagShell, veuràs l’avís **"Not Secure" (No és segur) o "Not Trusted" (No és de confiança)**:
 
 **Navegadors d’escriptori**:
-- Fes clic a **"Advanced"**
-- Fes clic a **"Proceed to 192.168.1.1 (unsafe)"**
+- Fes clic a **"Advanced"** (Opcions avançades).
+- Fes clic a **"Proceed to 192.168.1.1 (unsafe)"** (Continua a 192.168.1.1, connexió no segura).
 
 **Navegadors mòbils**:
-- Toca **"Show Details"**
-- Toca **"visit this website"**
+- Toca **"Show Details"** (Mostra els detalls).
+- Toca **"visit this website"** (visita aquest lloc web).
 
 **Per què passa**:
 - El certificat és **autosignat** (no prové d’una CA de confiança com Let's Encrypt)
@@ -1226,7 +1226,7 @@ ______
 
 **Solucions**:
 - *És **normal** amb certificats autosignats: la connexió continua xifrada.*
-- Fes clic a «Advanced» i després a «Proceed anyway» cada vegada
+- Fes clic a «Advanced» (Opcions avançades) i després a «Proceed anyway» (Continua igualment) cada vegada.
 - **Opcional**: instal·la `root.der` al magatzem de confiança del dispositiu (opció avançada)
 
 ### Problemes d’execució

@@ -1,7 +1,7 @@
 ---
 title: "Firmware personalizado DagShell para Orbic RCL400: guía 2026"
 date: 2026-05-28
-lastmod: 2026-11-15
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Guía técnica del firmware DagShell para Orbic RCL400. Explica la instalación, las herramientas de privacidad, el wardriving y los límites de la investigación."
@@ -752,15 +752,15 @@ reboot
 
 ### Aviso del certificado de seguridad
 
-Al acceder a DagShell, verás un aviso **"Not Secure"** o **"Not Trusted"**:
+Al acceder a DagShell, verás un aviso **"Not Secure" (No es seguro)** o **"Not Trusted" (No es de confianza)**:
 
 **Navegadores de escritorio**:
-- Pulsa **"Advanced"**
-- Pulsa **"Proceed to 192.168.1.1 (unsafe)"**
+- Pulsa **"Advanced" (Opciones avanzadas)**
+- Pulsa **"Proceed to 192.168.1.1 (unsafe)" (Continuar a 192.168.1.1 (no seguro))**
 
 **Navegadores móviles**:
-- Pulsa **"Show Details"**
-- Pulsa **"visit this website"**
+- Pulsa **"Show Details" (Mostrar detalles)**
+- Pulsa **"visit this website" (visitar este sitio web)**
 
 **Por qué ocurre**:
 - El certificado es **autofirmado** (no procede de una CA de confianza como Let's Encrypt)
@@ -1226,7 +1226,7 @@ ______
 
 **Soluciones**:
 - *Es **normal** con certificados autofirmados. La conexión sigue cifrada.*
-- Pulsa "Advanced" y luego "Proceed anyway" cada vez
+- Pulsa "Advanced" (Opciones avanzadas) y luego "Proceed anyway" (Continuar de todos modos) cada vez
 - **Opcional**: instala `root.der` en el almacén de confianza del dispositivo (opción avanzada)
 
 ### Problemas durante el uso

@@ -1,12 +1,12 @@
 ---
 title: "DagShell Custom-Firmware für Orbic RCL400: Leitfaden 2026"
 date: 2026-05-28
-lastmod: 2026-11-15
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Technischer Leitfaden zur DagShell-Firmware für Orbic RCL400. Behandelt Installation, Datenschutzwerkzeuge, Wardriving und Forschungsgrenzen."
 genre: ["Custom-Firmware", "Mobile Sicherheit", "Datenschutzwerkzeuge", "Netzwerksicherheit", "Wardriving", "Penetrationstests", "IoT-Hacking", "Sicherheitsforschung", "Hardware-Hacking", "Datenschutztechnik"]
-tags: ["DagShell", "Orbic RCL400", "Custom-Firmware", "Hotspot-Hacking", "Datenschutzwerkzeuge", "TTL-Korrektur", "MAC-Spoofing", "Erkennung von IMSI-Catchern", "Wardriving", "GPS-Ortung", "Evil-Twin-Angriff", "Captive Portal", "DNS-Sniffer", "ARP-Scanner", "Portscanner", "Raspberry-Pi-Begleiter", "Wi-Fi-Sicherheit", "Mobiler Hotspot", "Netzwerküberwachung", "Penetrationstests", "Sicherheitsforschung", "Bluetooth-Scanning", "Deauth-Angriff", "Wi-Fi-Scanning", "OUI-Abfrage", "Wigle-Upload", "Mobilfunkmast-Überwachung", "AT-Befehle", "Firewall-Verwaltung", "Werbeblocker", "TLS-Verschlüsselung", "RayHunter-Integration", "STS Collective", "Mobiles Sicherheitslabor", "Netzwerkanalyse", "Datenschutz-Firmware", "Open-Source-Sicherheit", "ARM-Cross-Compilation", "Embedded Linux", "Sicherheits-Toolkit", "Hacker-Tools", "Red Team", "Netzwerkerkundung"]
+tags: ["DagShell", "Orbic RCL400", "Custom-Firmware", "Hotspot-Hacking", "Datenschutzwerkzeuge", "TTL-Korrektur", "MAC-Spoofing", "Erkennung von IMSI-Catchern", "Wardriving", "GPS-Ortung", "Evil-Twin-Angriff", "Anmeldeportal", "DNS-Sniffer", "ARP-Scanner", "Portscanner", "Raspberry-Pi-Begleiter", "Wi-Fi-Sicherheit", "Mobiler Hotspot", "Netzwerküberwachung", "Penetrationstests", "Sicherheitsforschung", "Bluetooth-Scanning", "Deauth-Angriff", "Wi-Fi-Scanning", "OUI-Abfrage", "Wigle-Upload", "Mobilfunkmast-Überwachung", "AT-Befehle", "Firewall-Verwaltung", "Werbeblocker", "TLS-Verschlüsselung", "RayHunter-Integration", "STS Collective", "Mobiles Sicherheitslabor", "Netzwerkanalyse", "Datenschutz-Firmware", "Open-Source-Sicherheit", "ARM-Cross-Compilation", "Embedded Linux", "Sicherheits-Toolkit", "Hacker-Tools", "Red Team", "Netzwerkerkundung"]
 canonical: "https://simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/"
 cover: "/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp"
 coverAlt: "Illustration eines Orbic-RCL400-Mobilhotspots mit leuchtend grüner Oberfläche. Abstrakte Darstellungen von Sicherheitswerkzeugen wie Diagrammen und Karten umgeben das Gerät vor dunkelblauem Hintergrund."
@@ -30,7 +30,7 @@ Dieser umfassende Leitfaden behandelt:
 
 **Kurzfassung:** DagShell und RayHunter auf dem Orbic RCL400 ergeben ein **vollständiges mobiles Sicherheitslabor** zur Erkennung von IMSI-Catchern, für Wardriving, Netzwerkanalyse und Datenschutz.
 
-**Vorinstallierte Geräte:** Dieser Artikel wird von **STS Collective** gesponsert. Dort gibt es Orbic-RCL400-Hotspots mit vorinstalliertem RayHunter und DagShell, einsatzbereit: [stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot](https://stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot)
+**Vorinstallierte Geräte:** Dieser Artikel wird von **STS Collective** gesponsert. Dort gibt es Orbic-RCL400-Hotspots mit vorinstalliertem **RayHunter und DagShell**, einsatzbereit: [stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot](https://stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot)
 
 > 💰 **Exklusiver Leserrabatt:** Spare bis zu 20 % auf STS-Collective-Produkte, einschließlich vorinstallierter Orbic-RCL400-Geräte. Verwende beim Bezahlen den Code **SIMEONONSECURITY** oder [kaufe mit angewendetem Rabatt](https://stscollective.com/discount/SIMEONONSECURITY).
 
@@ -328,18 +328,18 @@ Vendor: Samsung Electronics
 - Nutzt **wlan1**, die zweite WLAN-Schnittstelle, wenn sie über das Pi-Begleitgerät verfügbar ist
 - Kopiert **SSID und Verschlüsselungstyp** des Zielnetzwerks
 - **Fängt Clients ab**, die eine Verbindung herstellen wollen
-- Zeigt ein **Captive Portal** zur Erfassung von Zugangsdaten
+- Zeigt ein **Anmeldeportal** zur Erfassung von Zugangsdaten
 
 **Angriffsszenario** (Labor):
 1. Suche nach legitimen WLAN-Netzwerken
 2. Erstelle einen **gefälschten AP** mit derselben SSID
 3. Nutze einen **Deauth-Angriff**, um Clients vom echten AP zu trennen
 4. Clients verbinden sich automatisch erneut mit dem **gefälschten AP**
-5. Das Captive Portal erfasst Zugangsdaten
+5. Das Anmeldeportal erfasst Zugangsdaten
 
 *Erkennung: Clients sehen **doppelte SSIDs**, wenn beide APs gleichzeitig sichtbar sind.*
 
-#### Captive Portal
+#### Anmeldeportal
 
 **Zweck:** Phishing-Seitenvorlagen zur Erfassung von Zugangsdaten
 
@@ -751,7 +751,7 @@ reboot
 
 ### Sicherheitswarnung zum Zertifikat
 
-Beim Öffnen von DagShell erscheint die Warnung **„Not Secure“** oder **„Not Trusted“**.
+Beim Öffnen von DagShell erscheint die Warnung **„Not Secure“ oder „Not Trusted“**.
 
 **Desktopbrowser:**
 - Auf **„Advanced“** klicken
@@ -945,7 +945,7 @@ ______
 | **WLAN-Wardriving** | Ja | Nein |
 | **Bluetooth-Scanning** | Ja, über Pi | Nein |
 | **Netzwerkwerkzeuge** | Ja, DNS-Sniffer, ARP-Scan und Portscan | Nein |
-| **Angriffswerkzeuge** | Ja, Evil Twin, Captive Portal, Deauth | Nein |
+| **Angriffswerkzeuge** | Ja, Evil Twin, Anmeldeportal, Deauth | Nein |
 | **Datenschutzwerkzeuge** | Ja, TTL-Korrektur, MAC-Spoofing, Werbeblockierung | Wenige |
 | **Mobilfunkmast-Datenbank** | Einfach | Umfassend |
 | **KI/ML-Analyse** | Nein | Ja, Anomalieerkennung |
@@ -991,7 +991,7 @@ ______
 
 **DagShell-Beitrag:**
 - **Evil-Twin-AP** für WLAN-Tests
-- **Captive Portal** für Social-Engineering-Demonstrationen
+- **Anmeldeportal** für Social-Engineering-Demonstrationen
 - **Deauth-Angriffe** für Belastungstests
 - Werkzeuge zur **Netzwerkerkundung**
 
@@ -1058,7 +1058,7 @@ ______
 - **WLAN-Wardriving**, um Kundennetzwerke zu kartieren
 - **ARP-Scanner** zur Geräteerkennung
 - **Portscanner** zur Diensterkennung
-- **Evil Twin und Captive Portal** zum Testen der Widerstandsfähigkeit gegen Social Engineering
+- **Evil Twin und Anmeldeportal** zum Testen der Widerstandsfähigkeit gegen Social Engineering
 - **Dateimanager** zum Abrufen der Ergebnisse
 
 **Arbeitsablauf:**
@@ -1195,7 +1195,7 @@ DagShell ist ein **Werkzeug für Sicherheitsforschung und Datenschutz**. Seine M
 - **Absicht**, Sicherheit zu verbessern oder Schaden anzurichten
 - **Offenlegung**, Ergebnisse zu melden oder auszunutzen
 
-Nutze DagShell **verantwortungsvoll und ethisch**. *Wenn du nicht sicher bist, ob eine Handlung legal ist, halte an und frage vor dem Fortfahren einen Anwalt.*
+Nutze DagShell **verantwortungsvoll** und **ethisch**. *Wenn du nicht sicher bist, ob eine Handlung legal ist, halte an und frage vor dem Fortfahren einen Anwalt.*
 
 {{< figure src="dagshell-legal-ethical-security-research-responsible-use.webp" alt="Rechtliche und ethische Rahmenbedingungen für Sicherheitsforschung mit DagShell, autorisierte und unzulässige Nutzung sowie geltende Gesetze." >}}
 
@@ -1375,7 +1375,7 @@ ______
 | **Mobilfunk** | ✅ 4G LTE integriert | ❌ Nur WLAN |
 | **GPS** | ✅ Über Pi-Begleiter | ⚠️ Über USB-Dongle |
 | **Evil Twin** | ✅ Ja | ✅ Ja |
-| **Captive Portal** | ✅ Ja | ✅ Ja |
+| **Anmeldeportal** | ✅ Ja | ✅ Ja |
 | **Deauth** | ✅ Ja (über Pi) | ✅ Ja |
 | **Wardriving** | ✅ Ja | ✅ Ja |
 | **IMSI-Erkennung** | ✅ Einfach | ❌ Nein |
@@ -1423,7 +1423,7 @@ ______
 ✅ **Datenschutz** (TTL-Anpassung, MAC-Spoofing, Werbeblocker)
 ✅ **Netzwerküberwachung** (Verbindungen, DNS, Routing)
 ✅ **Hacking-Werkzeugen** (IMSI-Erkennung, Portscans, ARP-Erkennung)
-✅ **Angriffsfunktionen** (Evil Twin, Captive Portal, Deauth)
+✅ **Angriffsfunktionen** (Evil Twin, Anmeldeportal, Deauth)
 ✅ **GPS-Wardriving** mit Wigle-Integration
 ✅ **Erweiterung durch Raspberry Pi** (BLE, WLAN, GPS)
 ✅ **Mobilität und Akkubetrieb**

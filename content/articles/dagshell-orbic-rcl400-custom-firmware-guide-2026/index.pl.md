@@ -1,7 +1,7 @@
 ---
 title: "Niestandardowe oprogramowanie układowe DagShell dla Orbic RCL400: przewodnik na 2026 rok"
 date: 2026-05-28
-lastmod: 2026-11-15
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Techniczny przewodnik po oprogramowaniu DagShell dla Orbic RCL400. Opisuje instalację, narzędzia ochrony prywatności, wardriving i ograniczenia badań."
@@ -30,7 +30,7 @@ Ten obszerny przewodnik opisuje:
 
 **W skrócie:** DagShell i RayHunter na Orbic RCL400 tworzą **kompletne mobilne laboratorium bezpieczeństwa** do wykrywania IMSI catcherów, wardrivingu, analizy sieci i ochrony prywatności.
 
-**Urządzenia z wgranym oprogramowaniem:** Artykuł powstał we współpracy ze **STS Collective**, które oferuje hotspoty Orbic RCL400 z wcześniej zainstalowanymi RayHunterem i DagShell, gotowe do użycia: [stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot](https://stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot)
+**Urządzenia z wgranym oprogramowaniem:** Artykuł powstał we współpracy ze **STS Collective**, które oferuje hotspoty Orbic RCL400 z wcześniej zainstalowanymi **RayHunterem i DagShellem**, gotowe do użycia: [stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot](https://stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot)
 
 > 💰 **Rabat dla czytelników:** Otrzymaj do 20% zniżki na produkty STS Collective, w tym hotspoty Orbic RCL400 z wgranym oprogramowaniem. Przy płatności użyj kodu **SIMEONONSECURITY** lub [przejdź do sklepu z naliczoną zniżką](https://stscollective.com/discount/SIMEONONSECURITY).
 
@@ -62,7 +62,7 @@ ______
 **Szyfrowanie:** TLS 1.2+ z certyfikatami samopodpisanymi (dwupoziomowa infrastruktura PKI)\
 **Serwer WWW:** niestandardowy, wbudowany serwer HTTPS (port 8443)\
 **Interfejs:** terminalowy interfejs w przeglądarce\
-**Licencja:** MIT (open source)\
+**Licencja:** MIT (licencja o otwartym kodzie źródłowym)\
 **GitHub:** [github.com/dagnazty/DagShell](https://github.com/dagnazty/DagShell)
 
 ### Wygląd
@@ -457,7 +457,7 @@ $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
 - Zapisuje wyniki w **formacie CSV**
 
 **Zdalne sterowanie:**
-- Rozpoczynaj i zatrzymuj skanowanie w interfejsie WWW DagShell
+- **Rozpoczynaj i zatrzymuj** skanowanie w interfejsie WWW DagShell
 - Nie trzeba łączyć się z Pi przez SSH
 - Status aktualizuje się na bieżąco
 
@@ -751,15 +751,15 @@ reboot
 
 ### Ostrzeżenie o certyfikacie bezpieczeństwa
 
-Podczas otwierania DagShell zobaczysz ostrzeżenie **„Not Secure”** lub **„Not Trusted”**.
+Podczas otwierania DagShell zobaczysz ostrzeżenie **„Not Secure” (Niezabezpieczona) lub „Not Trusted” (Niezaufana)**.
 
 **Przeglądarki na komputerze:**
-- Kliknij **„Advanced”**
-- Kliknij **„Proceed to 192.168.1.1 (unsafe)”**
+- Kliknij **„Advanced” (Ustawienia zaawansowane)**
+- Kliknij **„Proceed to 192.168.1.1 (unsafe)” (Przejdź do 192.168.1.1 (niebezpieczne))**
 
 **Przeglądarki mobilne:**
-- Kliknij **„Show Details”**
-- Kliknij **„visit this website”**
+- Kliknij **„Show Details” (Pokaż szczegóły)**
+- Kliknij **„visit this website” (odwiedź tę stronę)**
 
 **Przyczyna:**
 - Certyfikat jest **samopodpisany**, nie pochodzi od zaufanego urzędu, takiego jak Let's Encrypt
@@ -1194,7 +1194,7 @@ DagShell to **narzędzie do badań bezpieczeństwa i ochrony prywatności**. Jeg
 - **Zamiaru**, poprawy bezpieczeństwa lub wyrządzenia szkód
 - **Ujawnienia**, zgłoszenia wyników lub wykorzystania ich w ataku
 
-Używaj DagShell **odpowiedzialnie i etycznie**. *Jeśli nie masz pewności, czy dane działanie jest legalne, przerwij je i przed dalszymi krokami skonsultuj się z prawnikiem.*
+Używaj DagShell **odpowiedzialnie** i **etycznie**. *Jeśli nie masz pewności, czy dane działanie jest legalne, przerwij je i przed dalszymi krokami skonsultuj się z prawnikiem.*
 
 {{< figure src="dagshell-legal-ethical-security-research-responsible-use.webp" alt="Ramy prawne i etyczne badań bezpieczeństwa z DagShell, dozwolone i niedozwolone zastosowania oraz przepisy." >}}
 
@@ -1225,7 +1225,7 @@ ______
 
 **Rozwiązania:**
 - *To **normalne** przy certyfikatach samopodpisanych. Połączenie pozostaje szyfrowane.*
-- Za każdym razem kliknij „Advanced” i wybierz „Proceed anyway”.
+- Za każdym razem kliknij „Advanced” (Ustawienia zaawansowane) i wybierz „Proceed anyway” (Mimo to kontynuuj).
 - **Opcjonalnie:** zaawansowani użytkownicy mogą zainstalować `root.der` w magazynie zaufanych certyfikatów.
 
 ### Problemy podczas działania
