@@ -1,7 +1,7 @@
 ---
 title: "Ubiquiti Unifi i TP-Link Omada: quin sistema de xarxa heu de triar?"
 date: 2023-05-06
-lastmod: 2026-11-13
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Compareu els sistemes de xarxa Ubiquiti Unifi i TP-Link Omada pel que fa a gestió, maquinari, assistència, funcions i preus per triar l'opció adequada."
@@ -20,9 +20,9 @@ En les solucions de xarxa per a empreses i llars, sovint destaquen dos noms: [**
 
 ## [Ubiquiti Unifi](https://www.ui.com/)
 
-[**Ubiquiti**](https://www.ui.com/) és una empresa tecnològica dels Estats Units fundada el 2005, especialitzada en solucions de xarxa per a empreses i llars. La línia [Unifi](https://amzn.to/42JBzuH) inclou punts d'accés, commutadors, passarel·les, càmeres de seguretat i altres equips de xarxa. El **sistema Unifi** es gestiona amb una interfície web mitjançant **Unifi Controller**, ara anomenat Unifi Network Application. Permet configurar i administrar tot l'ecosistema de xarxa.
+[**Ubiquiti**](https://www.ui.com/) és **una empresa tecnològica dels** Estats Units fundada el 2005, especialitzada en solucions de xarxa per a empreses **i llars**. La línia [Unifi](https://amzn.to/42JBzuH) inclou punts d'accés, commutadors, passarel·les, càmeres de seguretat i altres equips de xarxa. El **sistema Unifi** es gestiona amb una interfície web mitjançant **Unifi Controller**, ara anomenat Unifi Network **Application. Permet configurar i administrar** tot l'ecosistema de xarxa.
 
-La línia **Unifi** ofereix una àmplia gamma d'equips, com ara **punts d'accés**, **commutadors** i **passarel·les**. Amb **Unifi Controller**, podeu gestionar tota la xarxa des d'una interfície web centralitzada o una aplicació mòbil. Podeu canviar paràmetres, supervisar els dispositius en temps real i aplicar funcions avançades sense coneixements amplis de xarxes.
+La línia **Unifi** ofereix una àmplia gamma d'equips, com ara **punts d'accés**, **commutadors** i **passarel·les**. Amb **Unifi Controller**, podeu **gestionar tota la xarxa des d'una interfície** web centralitzada o una aplicació mòbil. Podeu canviar paràmetres, supervisar els dispositius en temps real i aplicar funcions avançades sense coneixements amplis de xarxes.
 
 ### Productes Unifi principals (2026)
 
@@ -42,9 +42,9 @@ La línia **Unifi** ofereix una àmplia gamma d'equips, com ara **punts d'accés
 - **Unifi Dream Machine Pro Max** - Passarel·la empresarial amb IDS/IPS a velocitat de línia de 10 Gbps.
 - **Unifi Express** - Dispositiu compacte tot en un per a instal·lacions petites, per $149.
 
-La interfície **Unifi Controller** ofereix una navegació intuïtiva i un disseny fàcil d'utilitzar. Permet configurar i personalitzar la xarxa amb rapidesa. Inclou **etiquetatge VLAN**, **regles del tallafoc**, **gestió del trànsit** i **inspecció profunda de paquets** per millorar la seguretat i el rendiment de la xarxa.
+La interfície **Unifi Controller** **ofereix una navegació** **intuïtiva i un disseny** fàcil d'utilitzar. Permet configurar i personalitzar la xarxa amb rapidesa. Inclou **etiquetatge VLAN**, **regles del tallafoc**, **gestió del trànsit** i **inspecció profunda de paquets** per millorar la **seguretat** i el **rendiment de la xarxa**.
 
-Amb els productes Unifi, les empreses i les llars obtenen **escalabilitat**, **gestió fàcil**, **seguretat** i **fiabilitat**. El disseny modular permet ampliar el sistema més endavant.
+Amb els productes Unifi, les empreses i les llars obtenen **escalabilitat**, **gestió fàcil**, **seguretat** i **fiabilitat**. **El disseny** modular permet ampliar el sistema més endavant.
 
 {{< centerbutton href="https://simeononsecurity.com/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/" >}}Llegiu la nostra guia sobre configuracions de xarxa Ubiquiti Unifi ideals, de senzilles a avançades!{{< /centerbutton >}}
 
@@ -52,16 +52,16 @@ Amb els productes Unifi, les empreses i les llars obtenen **escalabilitat**, **g
 
 El **sistema Unifi** ofereix moltes funcions el 2026:
 
-- **Escalabilitat:** Pot créixer des d'un sol punt d'accés fins a milers de dispositius. Els clients empresarials gestionen xarxes de diversos emplaçaments des d'una sola instància del controlador.
-- **Gestió fàcil:** **Unifi Network Application** permet gestionar tota la xarxa des d'una plataforma web central. Podeu configurar, supervisar i controlar els dispositius Unifi. L'accés al núvol permet gestionar-la des de qualsevol lloc.
-- **Seguretat avançada:** Inclou funcions de nivell empresarial com **etiquetatge VLAN**, **regles del tallafoc**, **gestió del trànsit**, **IDS/IPS (Intrusion Detection/Prevention System)**, **DPI (Deep Packet Inspection)** i gestió avançada d'amenaces. Ajuden a protegir la xarxa d'accessos no autoritzats i atacs sofisticats.
-- **Fiabilitat:** El maquinari Unifi està dissenyat per durar i funcionar de manera fiable. Molts productes no tenen ventiladors. La garantia habitual és d'un any, amb ampliacions opcionals.
-- **Optimització amb IA:** El 2026, els sistemes Unifi ajusten automàticament la selecció de canals, la potència de transmissió i la direcció dels clients per optimitzar el rendiment.
-- **Anàlisi en temps real:** Els taulers mostren el rendiment de la xarxa, les estadístiques dels clients, l'ús de les aplicacions i possibles problemes abans que empitjorin.
+- **Escalabilitat:** Pot **créixer des d'un** sol punt **d'accés fins** a milers de dispositius. Els clients empresarials gestionen xarxes de diversos emplaçaments des d'una sola instància del controlador.
+- **Gestió fàcil:** **Unifi Network Application** permet gestionar tota la xarxa des d'una plataforma **web central**. Podeu configurar, **supervisar i** **controlar els dispositius** Unifi. L'accés al núvol permet gestionar-la des de qualsevol lloc.
+- **Seguretat avançada:** Inclou funcions de nivell empresarial com **etiquetatge VLAN**, **regles del tallafoc**, **gestió del trànsit**, **IDS/IPS (sistema de detecció i prevenció d'intrusions)**, **DPI (inspecció profunda de paquets)** i **gestió avançada d'amenaces**. **Ajuden a protegir la** xarxa d'accessos no autoritzats i atacs sofisticats.
+- **Fiabilitat:** El maquinari Unifi **està dissenyat** **per** durar i funcionar de **manera fiable**. Molts productes no tenen ventiladors. La garantia habitual és d'un any, amb ampliacions opcionals.
+- **Optimització amb IA:** El 2026, els sistemes Unifi **ajusten automàticament la selecció** de canals, la potència de transmissió i la direcció dels clients per optimitzar el rendiment.
+- **Anàlisi en temps real:** Els taulers mostren el **rendiment de la xarxa**, les estadístiques dels clients, l'ús de les aplicacions i possibles problemes abans que empitjorin.
 
 ### Preus (2026)
 
-El **sistema Unifi** ofereix funcions empresarials, però acostuma a costar més que les alternatives de consum:
+El **sistema Unifi** **ofereix** funcions empresarials, però acostuma a costar més que les alternatives de consum:
 
 **Punts d'accés:**
 - Unifi U6 Lite: $99
@@ -88,7 +88,7 @@ El **sistema Unifi** ofereix funcions empresarials, però acostuma a costar més
 
 Entre les millores recents de l'ecosistema Unifi hi ha:
 
-- **Compatibilitat amb Wi-Fi 7:** Els punts U7 Pro més recents admeten Wi-Fi 7 i MLO (Multi-Link Operation).
+- **Compatibilitat amb Wi-Fi 7:** Els punts U7 Pro més recents admeten Wi-Fi 7 i MLO (operació multienllaç).
 - **Unifi Protect millorat:** Càmeres 4K amb IA, reconeixement de matrícules i detecció de persones.
 - **Unifi Connect Dashboard:** Aplicació mòbil unificada que integra les funcions network, protect, access i talk.
 - **Més eficiència energètica:** Els commutadors i punts d'accés nous consumeixen un 30% menys que les generacions anteriors.
@@ -97,27 +97,27 @@ Entre les millores recents de l'ecosistema Unifi hi ha:
 
 ### Inconvenients
 
-**Complexitat:** El **sistema Unifi** pot ser més difícil de configurar que els sistemes de consum, sobretot per a qui no coneix les xarxes. Al començament, la gran quantitat de funcions pot aclaparar.
+**Complexitat:** El **sistema Unifi** pot ser més **difícil de configurar que** els sistemes de consum, sobretot per a **qui no coneix les xarxes**. Al començament, la gran quantitat de funcions pot aclaparar.
 
 **Cost:** Tot i les funcions empresarials, els productes Unifi solen costar **un 10-25% més** que el maquinari Omada equivalent.
 
-**Disponibilitat:** De vegades s'esgoten productes Unifi populars. Potser haureu d'esperar que tornin a estar disponibles o comprar-los a un tercer per més diners.
+**Disponibilitat:** De vegades s'esgoten productes Unifi **populars. Potser haureu** d'esperar que tornin a estar disponibles o comprar-los a un tercer per més diners.
 
-**Dependència de l'ecosistema:** L'ecosistema és parcialment propietari. Pot ser difícil combinar productes Unifi amb altres marques i conservar totes les funcions.
+**Dependència de l'ecosistema:** **L'ecosistema és parcialment** propietari. Pot ser difícil combinar productes Unifi amb altres marques i conservar totes les funcions.
 
 ### Punts clau:
-- **Preus més alts** per a funcions de nivell empresarial.
+- **Preus més alts** per a **funcions de nivell empresarial**.
 - Àmplia oferta més enllà de les xarxes, com seguretat, control d'accés i telefonia.
 - **Optimització amb IA** i anàlisi completa.
 - **Actualitzacions del microprogramari** regulars i desenvolupament actiu.
 - **Comunitat** gran i documentació extensa.
-- Corba d'aprenentatge més pronunciada, però més flexibilitat a llarg termini.
+- **Corba d'aprenentatge més pronunciada**, però més flexibilitat a llarg termini.
 
 ______
 
 ## [TP-Link Omada](https://www.tp-link.com/us/omada-sdn/)
 
-[**TP-Link**](https://www.tp-link.com/us/omada-sdn/) és una empresa tecnològica xinesa fundada el 1996 que ofereix solucions de xarxa a empreses i llars de tot el món. La línia [Omada](https://amzn.to/3p5vqKt), presentada el 2016, inclou punts d'accés, commutadors, passarel·les i altres equips de xarxa dissenyats per competir directament amb l'ecosistema Unifi d'Ubiquiti. **Omada Controller** està disponible com a programari, maquinari o servei al núvol i es gestiona amb una interfície web.
+[**TP-Link**](https://www.tp-link.com/us/omada-sdn/) és **una empresa tecnològica** xinesa fundada el 1996 que ofereix **solucions de xarxa** a empreses i llars de tot el món. La línia [Omada](https://amzn.to/3p5vqKt), presentada el 2016, inclou punts d'accés, **commutadors, passarel·les i altres** equips **de xarxa dissenyats** per competir directament amb l'ecosistema Unifi d'Ubiquiti. **Omada Controller** està disponible com a programari, maquinari o servei al núvol i es gestiona **amb una interfície web**.
 
 ### Productes Omada principals (2026)
 
@@ -142,16 +142,16 @@ ______
 
 Omada ofereix un conjunt complet de funcions que competeix amb Unifi:
 
-- **Escalabilitat:** Admet instal·lacions d'un sol emplaçament i xarxes empresarials repartides per diverses ciutats. Omada Cloud permet gestionar centralment xarxes distribuïdes.
-- **Gestió fàcil:** **Omada Controller** permet gestionar tota la xarxa amb programari gratuït, un controlador de maquinari (OC300/OC200) o un servei al núvol. Trieu el model de desplegament que us convingui.
-- **Seguretat:** Ofereix **etiquetatge VLAN**, **ACL (Access Control Lists)**, autenticació **802.1X**, **regles del tallafoc**, **gestió del trànsit** i detecció de punts d'accés no autoritzats.
-- **Fiabilitat:** TP-Link és coneguda per fabricar maquinari fiable i durador. Omada segueix aquesta línia amb components empresarials i dissenys sense ventilador.
-- **Gestió de diversos emplaçaments:** **Omada Cloud-Based Controller** gestiona fins a **100 emplaçaments** des d'un únic tauler, adequat per a MSP (Managed Service Providers) i empreses distribuïdes.
-- **QoS avançada:** El 2026, Omada millora **Quality of Service** amb priorització del trànsit segons les aplicacions i assignació automàtica d'amplada de banda.
+- **Escalabilitat:** Admet instal·**lacions d'un** sol **emplaçament i xarxes** empresarials repartides per diverses ciutats. Omada Cloud permet gestionar centralment xarxes distribuïdes.
+- **Gestió fàcil:** **Omada Controller** permet **gestionar tota la xarxa amb** programari gratuït, un **controlador de maquinari** (**OC300**/OC200) o un **servei al núvol**. Trieu el model de desplegament que us convingui.
+- **Seguretat:** Ofereix **etiquetatge VLAN**, **ACL (llistes de control d'accés)**, autenticació **802.1X**, **regles del tallafoc**, **gestió del trànsit** i detecció **de punts d'accés** **no autoritzats**.
+- **Fiabilitat:** TP-Link és coneguda per fabricar **maquinari fiable i durador**. Omada segueix aquesta línia amb components empresarials i dissenys sense ventilador.
+- **Gestió de diversos emplaçaments:** **Omada Cloud-Based Controller** gestiona fins a **100 emplaçaments** des d'un únic tauler, adequat per a MSP (proveïdors de serveis gestionats) i empreses distribuïdes.
+- **QoS avançada:** El 2026, Omada millora **qualitat del servei** amb priorització del trànsit segons les aplicacions i assignació automàtica d'amplada de banda.
 
 ### Preus (2026)
 
-Omada és coneguda pels preus agressius i la bona relació qualitat-preu:
+Omada és coneguda pels **preus agressius** i la bona **relació qualitat-preu**:
 
 **Punts d'accés:**
 - Omada EAP610 (Wi-Fi 6): $79
@@ -166,13 +166,13 @@ Omada és coneguda pels preus agressius i la bona relació qualitat-preu:
 
 **Passarel·les:**
 - Omada ER605 (Gigabit): $59
-- Omada ER7206 (Multi-Gigabit): $199
+- Omada ER7206 (de diversos gigabits): $199
 - Omada ER8411 (10 Gbps): $699
 
 **Opcions de controlador:**
 - Omada Software Controller: **gratuït**
-- Omada OC200 Hardware Controller: $89
-- Omada OC300 Hardware Controller: $169
+- Omada OC200 controlador de maquinari: $89
+- Omada OC300 controlador de maquinari: $169
 - Omada Cloud-Based Controller: gratuït per a un emplaçament; hi ha plans de pagament.
 
 **Cost habitual d'una instal·lació d'oficina petita:**
@@ -192,19 +192,19 @@ Entre les millores recents de l'ecosistema Omada hi ha:
 
 ### Inconvenients
 
-**Límits de l'ecosistema:** Omada ofereix funcions de xarxa sòlides, però no té l'ecosistema complet d'Ubiquiti. TP-Link no ofereix equivalents directes a Unifi Protect (videovigilància), Unifi Access (control d'accés) o Unifi Talk (telefonia VoIP).
+**Límits de l'ecosistema:** Omada ofereix funcions de xarxa sòlides, **però no té l'ecosistema** complet d'Ubiquiti. TP-Link no ofereix equivalents directes a Unifi Protect (videovigilància), Unifi Access (control d'accés) o Unifi Talk (telefonia VoIP).
 
-**Mida de la comunitat:** La comunitat Omada creix, però és més petita que la d'Unifi. Pot haver-hi menys guies, integracions i recursos comunitaris per resoldre problemes.
+**Mida de la comunitat:** La comunitat **Omada creix, però és més** petita que la d'Unifi. Pot haver-hi menys guies, integracions i recursos comunitaris per resoldre problemes.
 
-**Profunditat de les funcions:** Algunes funcions avançades d'Unifi requereixen més configuració manual a Omada o no estan disponibles en desplegaments especialitzats.
+**Profunditat de les funcions:** Algunes funcions avançades d'Unifi **requereixen més configuració** manual a Omada o no estan disponibles en desplegaments especialitzats.
 
-**Freqüència d'actualització:** Les actualitzacions del microprogramari i del controlador són menys freqüents que les d'Ubiquiti, normalment trimestrals en lloc de mensuals. Les funcions noves poden trigar més a arribar.
+**Freqüència d'actualització:** Les actualitzacions del microprogramari i del **controlador són menys freqüents** que les d'Ubiquiti, normalment trimestrals en lloc de mensuals. Les funcions noves poden trigar més a arribar.
 
 ### Punts clau:
 - **Preus competitius** i bona relació qualitat-preu.
 - Oferta de productes en creixement, centrada principalment en xarxes.
 - **Llindar d'entrada més baix** per a petites empreses i prosumers.
-- Diverses opcions de controlador: programari, maquinari i núvol.
+- **Diverses opcions de controlador: programari**, maquinari i núvol.
 - Maquinari fiable amb **bon suport de garantia**.
 - Comunitat més petita, però en creixement ràpid.
 
@@ -456,12 +456,12 @@ ______
 
 ✓ prioritzeu la **relació preu/rendiment** i voleu **estalviar un 15-20%**<br>
 ✓ necessiteu una **garantia més llarga** (5 anys en lloc d'1)<br>
-✓ preferiu flexibilitat per desplegar el controlador (programari, maquinari o núvol)<br>
+✓ preferiu **flexibilitat per desplegar el controlador** (programari, maquinari o núvol)<br>
 ✓ voleu una **interfície més senzilla** sense perdre funcions essencials<br>
 ✓ no necessiteu videovigilància ni control d'accés integrats<br>
 ✓ valoreu **més ports de commutador** i pressupostos PoE més elevats<br>
-✓ preferiu l'arquitectura tradicional amb encaminador, commutador i punts d'accés separats<br>
-✓ voleu bon rendiment sense pagar preus premium
+✓ preferiu l'arquitectura tradicional amb **encaminador**, commutador i punts d'accés separats<br>
+✓ **voleu bon rendiment** sense pagar preus premium
 
 ### Millor opció per a perfils concrets:
 
