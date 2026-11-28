@@ -1,7 +1,7 @@
 ---
 title: "AWS बनाम Azure बनाम Google Cloud 2026: पूरी तुलना"
 date: 2023-07-01
-lastmod: 2026-11-14
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "AWS, Azure और Google Cloud की 2026 की तुलना, जिसमें मूल्य, सुरक्षा, अनुपालन, सेवाएँ, प्रदर्शन और प्रदाता का चयन शामिल है।"
@@ -78,7 +78,7 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
 - सेवाओं में 7,000+ कार्रवाइयों के लिए सूक्ष्म अनुमतियाँ
 - केंद्रीकृत पहुँच के लिए Identity Center, पहले AWS SSO
 - IAM Access Analyzer अनचाही रिसोर्स पहुँच पहचानता है
-- गतिशील अनुमतियों के लिए attribute-based access control (ABAC)
+- गतिशील अनुमतियों के लिए विशेषता-आधारित अभिगम नियंत्रण (ABAC)
 - ऑन-प्रिमाइसेस वर्कलोड प्रमाणीकरण के लिए IAM Roles Anywhere
 
 **एन्क्रिप्शन और कुंजी प्रबंधन**:
@@ -91,7 +91,7 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
 **नेटवर्क सुरक्षा**:
 - **Security Groups**: इंस्टेंस स्तर पर stateful फ़ायरवॉल
 - **Network ACLs**: सबनेट स्तर पर stateless फ़ायरवॉल
-- **AWS WAF**: SQL injection, XSS और कस्टम हमले के पैटर्न रोकता है
+- **AWS WAF**: SQL क्वेरी में दुर्भावनापूर्ण निर्देश डालने वाले हमलों, XSS और कस्टम हमले के पैटर्न को रोकता है
 - **Shield Standard/Advanced**: DDoS सुरक्षा; Advanced में 24/7 प्रतिक्रिया टीम
 - **Network Firewall**: VPC ट्रैफ़िक निरीक्षण के लिए प्रबंधित फ़ायरवॉल
 - **PrivateLink**: इंटरनेट पर उजागर किए बिना सेवाओं से निजी कनेक्टिविटी
@@ -162,7 +162,7 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
   - निरंतर सुरक्षा मूल्यांकन और सुझाव
   - सर्वर, कंटेनर, स्टोरेज, डेटाबेस और Key Vault के लिए खतरा सुरक्षा
   - नियामक अनुपालन डैशबोर्ड (35+ मानक)
-  - secure score के साथ सुरक्षा स्थिति प्रबंधन
+  - Azure Secure Score (सुरक्षा स्कोर) से सुरक्षा स्थिति प्रबंधन
 - **Sentinel**: क्लाउड-नेटिव SIEM और SOAR प्लेटफ़ॉर्म
   - AI-संचालित खतरा पहचान और हंटिंग
   - Microsoft 365, Azure और तृतीय-पक्ष स्रोतों से एकीकरण
@@ -196,7 +196,7 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
 
 #### मुख्य सुरक्षा सेवाएँ
 
-**Cloud Identity and Access Management**:
+**क्लाउड पहचान और अभिगम प्रबंधन**:
 - सूक्ष्म अनुमतियों वाला रिसोर्स-आधारित IAM
 - संगठन नीति प्रतिबंध
 - अनुरोध विशेषताओं पर आधारित संदर्भ-जागरूक पहुँच
@@ -226,7 +226,7 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
   - कंटेनर और वेब एप्लिकेशन के लिए भेद्यता स्कैनिंग
   - Event Threat Detection और Container Threat Detection से खतरा पहचान
   - गलत कॉन्फ़िगरेशन के लिए Security Health Analytics
-- तृतीय-पक्ष SIEM एकीकरण
+तृतीय-पक्ष SIEM एकीकरण
 - **Chronicle**: Google का SIEM प्लेटफ़ॉर्म (अलग पेशकश)
 - **Policy Intelligence**: अनुमतियों के सुझाव और विश्लेषण
 
@@ -290,7 +290,7 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
 | **सर्वरलेस कंटेनर** | Fargate, App Runner | Container Apps | Cloud Run |
 | **बैच कंप्यूटिंग** | AWS Batch | Azure Batch | Cloud Batch |
 | **HPC** | ParallelCluster | CycleCloud | Cloud HPC Toolkit |
-| **VM मूल्य मॉडल** | मांग पर, आरक्षित, Spot, Savings Plans | उपयोग के अनुसार भुगतान, आरक्षित, Spot | मांग पर, Committed Use, Preemptible |
+| **VM मूल्य मॉडल** | मांग पर, आरक्षित, Spot, Savings Plans | उपयोग के अनुसार भुगतान, आरक्षित, Spot | मांग पर, निश्चित अवधि के लिए प्रतिबद्ध उपयोग (Committed Use), Preemptible |
 
 **2026 के प्रदर्शन बेंचमार्क** (c6a.2xlarge / F8s_v2 / n2-standard-8 के समकक्ष):
 
@@ -312,7 +312,7 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
 | **सर्विस मेश** | App Mesh | Istio (Open Service Mesh) | Istio, Anthos Service Mesh |
 | **अपग्रेड** | मैन्युअल/प्रबंधित | स्वचालित/मैन्युअल | स्वचालित/मैन्युअल (रिलीज़ चैनल) |
 | **निगरानी** | CloudWatch Container Insights | Azure Monitor | Cloud Operations Suite (GKE नेटिव) |
-| **सुरक्षा** | Pod security policies, OPA | Azure Policy, OPA | Binary Authorization, Workload Identity |
+| **सुरक्षा** | Pod सुरक्षा नीतियाँ, OPA | Azure Policy, OPA | Binary Authorization, Workload Identity |
 | **सबसे उपयुक्त** | AWS इकोसिस्टम एकीकरण | एंटरप्राइज़ Kubernetes | क्लाउड-नेटिव ऐप, मल्टी-क्लाउड |
 
 **विजेता**: **Google GKE**, उद्योग-अग्रणी Kubernetes (Google ने Kubernetes बनाया), निःशुल्क कंट्रोल प्लेन, सर्वोत्तम ऑटो-स्केलिंग और शून्य-ऑप्स के लिए Autopilot।
@@ -333,10 +333,10 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
 
 | स्टोरेज श्रेणी | AWS S3 | Azure Blob | Google Cloud Storage |
 |---------------|--------|------------|---------------------|
-| **Standard (हॉट)** | $0.023 | $0.0184 | $0.020 |
+| **मानक (हॉट)** | $0.023 | $0.0184 | $0.020 |
 | **कम बार पहुँच** | $0.0125 | $0.01 | $0.010 |
-| **Archive** | $0.004 | $0.002 | $0.0012 |
-| **Deep Archive** | $0.00099 | लागू नहीं | लागू नहीं |
+| **अभिलेख** | $0.004 | $0.002 | $0.0012 |
+| **दीर्घकालीन अभिलेख** | $0.00099 | लागू नहीं | लागू नहीं |
 
 **विजेता**: **Google Cloud Storage**, सर्वोत्तम मूल्य, सरल स्टोरेज श्रेणियाँ और स्वचालित श्रेणी बदलाव।
 
@@ -423,13 +423,13 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
 | **3-वर्ष आरक्षित (प्रति माह)** | $115.00 (59% बचत) | $139.00 (52% बचत) | $132.00 (52% बचत) |
 | **Spot/Preemptible** | ~$84 (70% बचत) | ~$88 (70% बचत) | ~$83 (70% बचत) |
 
-**विजेता**: **Google Cloud**, सबसे कम ऑन-डिमांड मूल्य, स्वचालित sustained use छूट और committed use छूट।
+**विजेता**: **Google Cloud**, सबसे कम ऑन-डिमांड मूल्य, निरंतर उपयोग पर स्वचालित छूट और निश्चित अवधि के उपयोग पर छूट।
 
 ### स्टोरेज मूल्य
 
 **ऑब्जेक्ट स्टोरेज** (प्रति GB/माह, शुरुआती 50 TB):
 
-| प्रदाता | Standard | कम बार पहुँच | Archive |
+| प्रदाता | मानक | कम बार पहुँच | अभिलेख |
 |----------|----------|-------------------|---------|
 | **AWS S3** | $0.023 | $0.0125 | $0.004 |
 | **Azure Blob** | $0.0184 | $0.01 | $0.002 |
@@ -437,7 +437,7 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
 
 **ब्लॉक स्टोरेज** (SSD, प्रति GB/माह):
 
-| प्रदाता | Standard SSD | उच्च-प्रदर्शन SSD |
+| प्रदाता | मानक SSD | उच्च-प्रदर्शन SSD |
 |----------|--------------|---------------------|
 | **AWS EBS** | $0.10 (gp3) | $0.125 (io2) |
 | **Azure Managed Disks** | $0.12 (Premium SSD) | $0.18 (Ultra Disk) |
@@ -511,11 +511,11 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
 - अनुकूलन सुझावों के लिए Azure Cost Management + Billing उपयोग करें
 
 **Google Cloud लागत अनुकूलन**:
-- Committed Use Discounts (57% तक बचत)
-- Sustained Use Discounts (महीने के 25% से अधिक चलने वाले VM के लिए स्वचालित छूट)
+- निश्चित अवधि के उपयोग पर छूट (Committed Use Discounts), 57% तक बचत
+- महीने के 25% से अधिक चलने वाले VM के लिए निरंतर उपयोग पर स्वचालित छूट (Sustained Use Discounts)
 - Preemptible VM (80% तक छूट)
 - प्रति-सेकंड बिलिंग (कोई न्यूनतम अवधि नहीं, केवल उपयोग का भुगतान)
-- अनुमानित विश्लेषण लागत के लिए BigQuery flat-rate slots
+- अनुमानित विश्लेषण लागत के लिए BigQuery के निश्चित-दर वाले स्लॉट
 - AI-संचालित सुझावों के लिए Active Assist
 
 ## प्रदर्शन और विश्वसनीयता की तुलना
@@ -564,7 +564,7 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
 | टूल | AWS | Azure | Google Cloud |
 |------|-----|-------|--------------|
 | **नेटिव प्रबंधन** | Control Tower (केवल AWS) | Arc (Azure और अन्य) | Anthos (GCP और अन्य) |
-| **कोड के रूप में अवसंरचना** | CloudFormation | ARM templates, Bicep | Deployment Manager |
+| **कोड के रूप में अवसंरचना** | CloudFormation | ARM टेम्पलेट, Bicep | Deployment Manager |
 | **क्रॉस-क्लाउड IaC** | Terraform, Pulumi | Terraform, Pulumi | Terraform, Pulumi |
 | **निगरानी** | CloudWatch | Azure Monitor | Cloud Operations |
 | **क्रॉस-क्लाउड निगरानी** | Datadog, New Relic, Dynatrace | Datadog, New Relic, Dynatrace | Datadog, New Relic, Dynatrace |
@@ -649,7 +649,7 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
 - Dataflow (Apache Beam, एकीकृत बैच/स्ट्रीम प्रोसेसिंग)
 - Pub/Sub (वैश्विक, कम विलंबता वाला मैसेजिंग)
 - Vertex AI (एकीकृत ML प्लेटफ़ॉर्म)
-- ओपन-सोर्स अनुकूल (BigQuery omni-cloud, TensorFlow, Kubeflow)
+- ओपन-सोर्स अनुकूल (BigQuery Omni (मल्टी-क्लाउड एनालिटिक्स), TensorFlow, Kubeflow)
 
 **AWS से पूरक करें**:
 - कुछ ML उपयोग मामलों के लिए SageMaker
@@ -757,7 +757,7 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
 - क्लाउड के लाभों का पूरा उपयोग नहीं होता
 - सर्वोत्तम: समय-संवेदी माइग्रेशन, क्लाउड में शुरुआती प्रवेश
 
-**Replatform ("Lift and Reshape")**:
+**Replatform (मौजूदा अनुप्रयोग में बदलाव करके नए मंच पर ले जाना)**:
 - माइग्रेशन के दौरान छोटे अनुकूलन
 - प्रबंधित डेटाबेस पर जाएँ, CDN उपयोग करें, ऑटो-स्केलिंग लागू करें
 - मध्यम प्रयास और जोखिम
@@ -789,7 +789,7 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
 | **सर्वर माइग्रेशन** | Application Migration Service | Azure Migrate | Migrate for Compute Engine |
 | **डेटाबेस माइग्रेशन** | Database Migration Service | Database Migration Service | Database Migration Service |
 | **डेटा स्थानांतरण** | DataSync, Snow Family | Data Box, File Sync | Transfer Service, Transfer Appliance |
-| **मूल्यांकन** | Migration Hub | Azure Migrate assessments | CloudPhysics, Stratozone |
+| **मूल्यांकन** | Migration Hub | Azure Migrate के स्थानांतरण मूल्यांकन | CloudPhysics, Stratozone |
 
 **तृतीय-पक्ष टूल**: CloudEndure (AWS के स्वामित्व वाला), RiverMeadow, Zerto, Carbonite।
 

@@ -6,13 +6,13 @@ toc: true
 draft: false
 description: "Compare AWS, Azure e Google Cloud em 2026, incluindo preços, segurança, conformidade, serviços, desempenho e escolha do provedor."
 genre: ["Computação em nuvem", "Segurança na nuvem", "AWS", "Azure", "Google Cloud Platform", "Segurança de dados", "Criptografia", "Gerenciamento de identidade e acesso", "Conformidade", "Detecção de ameaças"]
-tags: ["soluções de nuvem seguras", "AWS vs Azure vs Google Cloud Platform", "recursos de segurança na nuvem", "criptografia de dados", "gerenciamento de identidade e acesso", "certificações de conformidade", "detecção de ameaças", "proteção de dados", "segurança de rede", "computação em nuvem", "plataformas de nuvem", "violação de dados", "riscos de segurança", "HIPAA", "ISO 27001", "SOC 2", "SOC 3", "FISMA", "comparação de preços", "escolher a solução de nuvem certa", "necessidades de segurança empresarial", "escalabilidade", "resiliência", "custo-benefício", "medidas de segurança", "provedor de nuvem", "protocolos de criptografia", "requisitos de conformidade", "controle de portas de rede", "firewall", "sistemas de detecção de intrusão", "dados em repouso", "dados em trânsito", "acesso seguro", "ambiente seguro", "computação em nuvem segura", "aws vs azure", "aws vs gcp", "azure vs gcp", "comparação de nuvem 2026", "melhor provedor de nuvem", "comparação de serviços de nuvem", "recursos de plataformas de nuvem", "estratégia multicloud", "nuvem híbrida", "migração para nuvem", "otimização de custos na nuvem", "práticas recomendadas de segurança na nuvem", "computação sem servidor", "Kubernetes na nuvem", "comparação de bancos de dados na nuvem", "preços de armazenamento na nuvem", "custos de computação na nuvem", "soluções de nuvem empresarial", "comparação de fornecedores de nuvem"]
+tags: ["soluções de nuvem seguras", "AWS em comparação com Azure em comparação com Google Cloud Platform", "recursos de segurança na nuvem", "criptografia de dados", "gerenciamento de identidade e acesso", "certificações de conformidade", "detecção de ameaças", "proteção de dados", "segurança de rede", "computação em nuvem", "plataformas de nuvem", "violação de dados", "riscos de segurança", "HIPAA", "ISO 27001", "SOC 2", "SOC 3", "FISMA", "comparação de preços", "escolher a solução de nuvem certa", "necessidades de segurança empresarial", "escalabilidade", "resiliência", "custo-benefício", "medidas de segurança", "provedor de nuvem", "protocolos de criptografia", "requisitos de conformidade", "controle de portas de rede", "firewall", "sistemas de detecção de intrusão", "dados em repouso", "dados em trânsito", "acesso seguro", "ambiente seguro", "computação em nuvem segura", "aws em comparação com azure", "aws em comparação com gcp", "azure em comparação com gcp", "comparação de nuvem 2026", "melhor provedor de nuvem", "comparação de serviços de nuvem", "recursos de plataformas de nuvem", "estratégia multicloud", "nuvem híbrida", "migração para nuvem", "otimização de custos na nuvem", "práticas recomendadas de segurança na nuvem", "computação sem servidor", "Kubernetes na nuvem", "comparação de bancos de dados na nuvem", "preços de armazenamento na nuvem", "custos de computação na nuvem", "soluções de nuvem empresarial", "comparação de fornecedores de nuvem"]
 cover: "/img/cover/aws-vs-azure-vs-google-cloud-platform.webp"
 coverAlt: "Uma ilustração digital abstrata mostra três nuvens distintas que representam AWS, Azure e Google Cloud, iluminadas com cores vibrantes sobre um fundo escuro."
 coverCaption: "Proteja sua empresa na nuvem"
 ---
 
-## AWS vs Azure vs Google Cloud Platform 2026: guia completo de comparação
+## AWS em comparação com Azure em comparação com Google Cloud Platform 2026: guia completo de comparação
 
 Escolher a plataforma de nuvem certa está entre as decisões de infraestrutura mais importantes para as empresas em 2026. **94% das empresas** já adotaram a nuvem, e os gastos globais com nuvem superam **US$ 675 bilhões por ano**. A escolha entre **Amazon Web Services (AWS)**, **Microsoft Azure** e **Google Cloud Platform (GCP)** pode afetar muito a escalabilidade, a segurança, os custos e a vantagem competitiva da sua organização.
 
@@ -162,7 +162,7 @@ A segurança continua sendo uma prioridade máxima para quem adota a nuvem. Os t
   - avaliação de segurança contínua e recomendações
   - proteção contra ameaças para servidores, contêineres, armazenamento, bancos de dados e Key Vault
   - painel de conformidade regulatória (35+ normas)
-  - gerenciamento da postura de segurança com secure score
+  - gerenciamento da postura de segurança com pontuação de segurança (Secure Score)
 - **Sentinel**: plataforma SIEM e SOAR nativa da nuvem
   - detecção e busca de ameaças com IA
   - integração com Microsoft 365, Azure e fontes de terceiros
@@ -226,7 +226,7 @@ A segurança continua sendo uma prioridade máxima para quem adota a nuvem. Os t
   - verificação de vulnerabilidades de contêineres e aplicações web
   - detecção de ameaças por Event Threat Detection e Container Threat Detection
   - Security Health Analytics para configurações incorretas
-- integração com SIEM de terceiros
+Integração com SIEM de terceiros
 - **Chronicle**: plataforma SIEM do Google (oferta separada)
 - **Policy Intelligence**: recomendações e análise de permissões
 
@@ -312,7 +312,7 @@ A segurança continua sendo uma prioridade máxima para quem adota a nuvem. Os t
 | **Malha de serviços** | App Mesh | Istio (Open Service Mesh) | Istio, Anthos Service Mesh |
 | **Atualizações** | Manuais/gerenciadas | Automáticas/manuais | Automáticas/manuais (canais de lançamento) |
 | **Monitoramento** | CloudWatch Container Insights | Azure Monitor | Cloud Operations Suite (nativo do GKE) |
-| **Segurança** | Pod security policies, OPA | Azure Policy, OPA | Binary Authorization, Workload Identity |
+| **Segurança** | políticas de segurança do Pod, OPA | Azure Policy, OPA | Binary Authorization, Workload Identity |
 | **Melhor para** | integração ao ecossistema AWS | Kubernetes empresarial | aplicações nativas da nuvem, multicloud |
 
 **Vencedor**: **Google GKE**, Kubernetes líder do setor (inventado pelo Google), plano de controle gratuito, melhor escalonamento automático e Autopilot com operações mínimas.
@@ -333,10 +333,10 @@ A segurança continua sendo uma prioridade máxima para quem adota a nuvem. Os t
 
 | Classe de armazenamento | AWS S3 | Azure Blob | Google Cloud Storage |
 |---------------|--------|------------|---------------------|
-| **Standard (quente)** | US$ 0,023 | US$ 0,0184 | US$ 0,020 |
+| **Padrão (quente)** | US$ 0,023 | US$ 0,0184 | US$ 0,020 |
 | **Acesso infrequente** | US$ 0,0125 | US$ 0,01 | US$ 0,010 |
-| **Archive** | US$ 0,004 | US$ 0,002 | US$ 0,0012 |
-| **Deep Archive** | US$ 0,00099 | N/A | N/A |
+| **Arquivo** | US$ 0,004 | US$ 0,002 | US$ 0,0012 |
+| **Arquivo profundo** | US$ 0,00099 | N/A | N/A |
 
 **Vencedor**: **Google Cloud Storage**, melhor preço, classes mais simples e transições automáticas entre classes.
 
@@ -429,7 +429,7 @@ A segurança continua sendo uma prioridade máxima para quem adota a nuvem. Os t
 
 **Armazenamento de objetos** (por GB/mês, primeiros 50 TB):
 
-| Provedor | Standard | Acesso infrequente | Archive |
+| Provedor | Padrão | Acesso infrequente | Arquivo |
 |----------|----------|-------------------|---------|
 | **AWS S3** | US$ 0,023 | US$ 0,0125 | US$ 0,004 |
 | **Azure Blob** | US$ 0,0184 | US$ 0,01 | US$ 0,002 |
@@ -437,7 +437,7 @@ A segurança continua sendo uma prioridade máxima para quem adota a nuvem. Os t
 
 **Armazenamento em blocos** (SSD, por GB/mês):
 
-| Provedor | SSD Standard | SSD de alto desempenho |
+| Provedor | SSD padrão | SSD de alto desempenho |
 |----------|--------------|---------------------|
 | **AWS EBS** | US$ 0,10 (gp3) | US$ 0,125 (io2) |
 | **Azure Managed Disks** | US$ 0,12 (Premium SSD) | US$ 0,18 (Ultra Disk) |
@@ -564,7 +564,7 @@ A segurança continua sendo uma prioridade máxima para quem adota a nuvem. Os t
 | Ferramenta | AWS | Azure | Google Cloud |
 |------|-----|-------|--------------|
 | **Gerenciamento nativo** | Control Tower (somente AWS) | Arc (Azure + outros) | Anthos (GCP + outros) |
-| **Infraestrutura como código** | CloudFormation | ARM templates, Bicep | Deployment Manager |
+| **Infraestrutura como código** | CloudFormation | modelos ARM, Bicep | Deployment Manager |
 | **IaC entre nuvens** | Terraform, Pulumi | Terraform, Pulumi | Terraform, Pulumi |
 | **Monitoramento** | CloudWatch | Azure Monitor | Cloud Operations |
 | **Monitoramento entre nuvens** | Datadog, New Relic, Dynatrace | Datadog, New Relic, Dynatrace | Datadog, New Relic, Dynatrace |
@@ -757,7 +757,7 @@ A segurança continua sendo uma prioridade máxima para quem adota a nuvem. Os t
 - não aproveita as vantagens da nuvem
 - melhor para: migrações urgentes, entrada inicial na nuvem
 
-**Replatform ("Lift and Reshape")**:
+**Replatform ("migração e reestruturação")**:
 - pequenas otimizações durante a migração
 - migre para bancos gerenciados, use CDN, implemente escalonamento automático
 - esforço e risco moderados
@@ -789,7 +789,7 @@ A segurança continua sendo uma prioridade máxima para quem adota a nuvem. Os t
 | **Migração de servidor** | Application Migration Service | Azure Migrate | Migrate for Compute Engine |
 | **Migração de banco de dados** | Database Migration Service | Database Migration Service | Database Migration Service |
 | **Transferência de dados** | DataSync, Snow Family | Data Box, File Sync | Transfer Service, Transfer Appliance |
-| **Avaliação** | Migration Hub | Azure Migrate assessments | CloudPhysics, Stratozone |
+| **Avaliação** | Migration Hub | avaliações do Azure Migrate | CloudPhysics, Stratozone |
 
 **Ferramentas de terceiros**: CloudEndure (da AWS), RiverMeadow, Zerto, Carbonite.
 

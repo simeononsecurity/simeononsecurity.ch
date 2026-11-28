@@ -6,13 +6,13 @@ toc: true
 draft: false
 description: "Compara AWS, Azure i Google Cloud el 2026, amb preus, seguretat, compliment normatiu, serveis, rendiment i com triar proveïdor."
 genre: ["Computació al núvol", "Seguretat al núvol", "AWS", "Azure", "Google Cloud Platform", "Seguretat de les dades", "Xifratge", "Gestió d'identitats i accessos", "Compliment normatiu", "Detecció d'amenaces"]
-tags: ["solucions segures al núvol", "AWS vs Azure vs Google Cloud Platform", "funcions de seguretat al núvol", "xifratge de dades", "gestió d'identitats i accessos", "certificacions de compliment", "detecció d'amenaces", "protecció de dades", "seguretat de xarxa", "computació al núvol", "plataformes al núvol", "bretxa de dades", "riscos de seguretat", "HIPAA", "ISO 27001", "SOC 2", "SOC 3", "FISMA", "comparació de preus", "triar la solució al núvol adequada", "necessitats de seguretat empresarial", "escalabilitat", "resiliència", "rendibilitat", "mesures de seguretat", "proveïdor de núvol", "protocols de xifratge", "requisits de compliment", "control dels ports de xarxa", "tallafoc", "sistemes de detecció d'intrusions", "dades en repòs", "dades en trànsit", "accés segur", "entorn segur", "computació segura al núvol", "aws vs azure", "aws vs gcp", "azure vs gcp", "comparació de núvols 2026", "millor proveïdor de núvol", "comparació de serveis al núvol", "funcions de plataformes al núvol", "estratègia multicloud", "núvol híbrid", "migració al núvol", "optimització de costos al núvol", "bones pràctiques de seguretat al núvol", "computació sense servidor", "Kubernetes al núvol", "comparació de bases de dades al núvol", "preus d'emmagatzematge al núvol", "costos de computació al núvol", "solucions de núvol empresarial", "comparació de proveïdors de núvol"]
+tags: ["solucions segures al núvol", "AWS contra Azure contra Google Cloud Platform", "funcions de seguretat al núvol", "xifratge de dades", "gestió d'identitats i accessos", "certificacions de compliment", "detecció d'amenaces", "protecció de dades", "seguretat de xarxa", "computació al núvol", "plataformes al núvol", "bretxa de dades", "riscos de seguretat", "HIPAA", "ISO 27001", "SOC 2", "SOC 3", "FISMA", "comparació de preus", "triar la solució al núvol adequada", "necessitats de seguretat empresarial", "escalabilitat", "resiliència", "rendibilitat", "mesures de seguretat", "proveïdor de núvol", "protocols de xifratge", "requisits de compliment", "control dels ports de xarxa", "tallafoc", "sistemes de detecció d'intrusions", "dades en repòs", "dades en trànsit", "accés segur", "entorn segur", "computació segura al núvol", "aws contra azure", "aws contra gcp", "azure contra gcp", "comparació de núvols 2026", "millor proveïdor de núvol", "comparació de serveis al núvol", "funcions de plataformes al núvol", "estratègia multicloud", "núvol híbrid", "migració al núvol", "optimització de costos al núvol", "bones pràctiques de seguretat al núvol", "computació sense servidor", "Kubernetes al núvol", "comparació de bases de dades al núvol", "preus d'emmagatzematge al núvol", "costos de computació al núvol", "solucions de núvol empresarial", "comparació de proveïdors de núvol"]
 cover: "/img/cover/aws-vs-azure-vs-google-cloud-platform.webp"
 coverAlt: "Una il·lustració digital abstracta mostra tres núvols diferents que representen AWS, Azure i Google Cloud, il·luminats amb colors vius sobre un fons fosc."
 coverCaption: "Protegeix la teva empresa al núvol"
 ---
 
-## AWS vs Azure vs Google Cloud Platform 2026: guia de comparació completa
+## AWS contra Azure contra Google Cloud Platform 2026: guia de comparació completa
 
 Triar la plataforma al núvol adequada és una de les decisions d'infraestructura més importants per a les empreses el 2026. **El 94% de les empreses** ja ha adoptat el núvol, i la despesa global anual en núvol supera els **675.000 milions de dòlars**. Per això, triar entre **Amazon Web Services (AWS)**, **Microsoft Azure** i **Google Cloud Platform (GCP)** pot afectar molt l'escalabilitat, la seguretat, els costos i l'avantatge competitiu de la teva organització.
 
@@ -162,7 +162,7 @@ La seguretat continua sent una prioritat màxima per a les organitzacions que ad
   - avaluació continuada de seguretat i recomanacions
   - protecció d'amenaces per a servidors, contenidors, emmagatzematge, bases de dades i Key Vault
   - tauler de compliment normatiu (més de 35 normes)
-  - gestió de la postura de seguretat amb secure score
+  - gestió de la postura de seguretat amb puntuació de seguretat (Secure Score)
 - **Sentinel**: plataforma SIEM i SOAR nativa del núvol
   - detecció i cerca d'amenaces amb IA
   - integració amb Microsoft 365, Azure i fonts de tercers
@@ -226,7 +226,7 @@ La seguretat continua sent una prioritat màxima per a les organitzacions que ad
   - anàlisi de vulnerabilitats en contenidors i aplicacions web
   - detecció d'amenaces amb Event Threat Detection i Container Threat Detection
   - Security Health Analytics per detectar configuracions incorrectes
-- integració amb SIEM de tercers
+Integració amb SIEM de tercers
 - **Chronicle**: plataforma SIEM de Google (oferta separada)
 - **Policy Intelligence**: recomanacions i anàlisi de permisos
 
@@ -312,7 +312,7 @@ La seguretat continua sent una prioritat màxima per a les organitzacions que ad
 | **Malla de serveis** | App Mesh | Istio (Open Service Mesh) | Istio, Anthos Service Mesh |
 | **Actualitzacions** | Manuals/gestionades | Automàtiques/manuals | Automàtiques/manuals (canals de llançament) |
 | **Monitoratge** | CloudWatch Container Insights | Azure Monitor | Cloud Operations Suite (natiu de GKE) |
-| **Seguretat** | Pod security policies, OPA | Azure Policy, OPA | Binary Authorization, Workload Identity |
+| **Seguretat** | polítiques de seguretat de Pod, OPA | Azure Policy, OPA | Binary Authorization, Workload Identity |
 | **Més adequat per a** | integració amb l'ecosistema AWS | Kubernetes empresarial | aplicacions natives del núvol, multicloud |
 
 **Guanyador**: **Google GKE**, Kubernetes líder del sector (Google el va crear), pla de control gratuït, millor escalat automàtic i Autopilot amb operacions mínimes.
@@ -333,10 +333,10 @@ La seguretat continua sent una prioritat màxima per a les organitzacions que ad
 
 | Classe d'emmagatzematge | AWS S3 | Azure Blob | Google Cloud Storage |
 |---------------|--------|------------|---------------------|
-| **Standard (calent)** | 0,023 $ | 0,0184 $ | 0,020 $ |
+| **Estàndard (calent)** | 0,023 $ | 0,0184 $ | 0,020 $ |
 | **Accés infreqüent** | 0,0125 $ | 0,01 $ | 0,010 $ |
-| **Archive** | 0,004 $ | 0,002 $ | 0,0012 $ |
-| **Deep Archive** | 0,00099 $ | N/A | N/A |
+| **Arxiu** | 0,004 $ | 0,002 $ | 0,0012 $ |
+| **Arxiu profund** | 0,00099 $ | N/A | N/A |
 
 **Guanyador**: **Google Cloud Storage**, millor preu, classes d'emmagatzematge més senzilles i canvis automàtics de classe.
 
@@ -429,7 +429,7 @@ La seguretat continua sent una prioritat màxima per a les organitzacions que ad
 
 **Emmagatzematge d'objectes** (per GB/mes, primers 50 TB):
 
-| Proveïdor | Standard | Accés infreqüent | Archive |
+| Proveïdor | Estàndard | Accés infreqüent | Arxiu |
 |----------|----------|-------------------|---------|
 | **AWS S3** | 0,023 $ | 0,0125 $ | 0,004 $ |
 | **Azure Blob** | 0,0184 $ | 0,01 $ | 0,002 $ |
@@ -437,7 +437,7 @@ La seguretat continua sent una prioritat màxima per a les organitzacions que ad
 
 **Emmagatzematge de blocs** (SSD, per GB/mes):
 
-| Proveïdor | SSD Standard | SSD d'alt rendiment |
+| Proveïdor | SSD estàndard | SSD d'alt rendiment |
 |----------|--------------|---------------------|
 | **AWS EBS** | 0,10 $ (gp3) | 0,125 $ (io2) |
 | **Azure Managed Disks** | 0,12 $ (Premium SSD) | 0,18 $ (Ultra Disk) |
@@ -564,7 +564,7 @@ La seguretat continua sent una prioritat màxima per a les organitzacions que ad
 | Eina | AWS | Azure | Google Cloud |
 |------|-----|-------|--------------|
 | **Gestió nativa** | Control Tower (només AWS) | Arc (Azure + altres) | Anthos (GCP + altres) |
-| **Infraestructura com a codi** | CloudFormation | ARM templates, Bicep | Deployment Manager |
+| **Infraestructura com a codi** | CloudFormation | plantilles ARM, Bicep | Deployment Manager |
 | **IaC entre núvols** | Terraform, Pulumi | Terraform, Pulumi | Terraform, Pulumi |
 | **Monitoratge** | CloudWatch | Azure Monitor | Cloud Operations |
 | **Monitoratge entre núvols** | Datadog, New Relic, Dynatrace | Datadog, New Relic, Dynatrace | Datadog, New Relic, Dynatrace |
@@ -757,7 +757,7 @@ La seguretat continua sent una prioritat màxima per a les organitzacions que ad
 - no aprofita els avantatges del núvol
 - més adequat per a: migracions urgents, entrada inicial al núvol
 
-**Replatform ("Lift and Reshape")**:
+**Replatform ("migració i reconfiguració")**:
 - optimitzacions petites durant la migració
 - passa a bases gestionades, fes servir CDN i implementa escalat automàtic
 - esforç i risc moderats
@@ -789,7 +789,7 @@ La seguretat continua sent una prioritat màxima per a les organitzacions que ad
 | **Migració de servidors** | Application Migration Service | Azure Migrate | Migrate for Compute Engine |
 | **Migració de bases de dades** | Database Migration Service | Database Migration Service | Database Migration Service |
 | **Transferència de dades** | DataSync, Snow Family | Data Box, File Sync | Transfer Service, Transfer Appliance |
-| **Avaluació** | Migration Hub | Azure Migrate assessments | CloudPhysics, Stratozone |
+| **Avaluació** | Migration Hub | avaluacions d'Azure Migrate | CloudPhysics, Stratozone |
 
 **Eines de tercers**: CloudEndure (propietat d'AWS), RiverMeadow, Zerto, Carbonite.
 

@@ -1,208 +1,922 @@
 ---
-title: "AWS, Azure și Google Cloud 2026: comparație completă între platformele cloud"
+title: "AWS, Azure și Google Cloud în 2026: comparație completă"
 date: 2023-07-01
-lastmod: 2026-11-19
+lastmod: 2026-11-27
 toc: true
 draft: false
-description: "Descoperiți principalele caracteristici și certificări de securitate în cloud de la AWS, Azure și Google Cloud Platform pentru a alege cea mai bună soluție de cloud securizată pentru afacerea dumneavoastră."
-genre: ["Cloud Computing", "Securitatea în cloud", "AWS", "Azure", "Platforma Google Cloud", "Securitatea datelor", "Criptare", "Managementul identității și al accesului", "Conformitate", "Detectarea amenințărilor"]
-tags: ["soluții cloud securizate", "AWS vs. Azure vs. Google Cloud Platform", "caracteristici de securitate în cloud", "criptarea datelor", "gestionarea identității și a accesului", "certificări de conformitate", "detectarea amenințărilor", "protecția datelor", "securitatea rețelei", "cloud computing", "platforme cloud", "încălcări ale datelor", "riscuri de securitate", "HIPAA", "ISO 27001", "SOC 2", "SOC 3", "FISMA", "compararea prețurilor", "alegerea soluției cloud potrivite", "nevoile de securitate ale întreprinderilor", "scalabilitate", "flexibilitate", "raportul cost-eficacitate", "măsuri de securitate", "furnizori de cloud", "protocoale de criptare", "cerințe de conformitate", "controlul porturilor de rețea", "firewall-uri", "sisteme de detectare a intruziunilor", "date în repaus", "data în tranzit", "acces securizat", "mediu securizat", "cloud computing securizat"]
-cover: "/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.webp"
-coverAlt: "O ilustrație simbolică în stil artistic care reprezintă un nor cu un lacăt pe el, simbolizând soluțiile de cloud securizate."
-coverCaption: "Asigurați-vă afacerea în cloud"
+description: "Comparație 2026 între AWS, Azure și Google Cloud privind prețurile, securitatea, conformitatea, serviciile, performanța și alegerea furnizorului."
+genre: ["Calcul în cloud", "Securitate în cloud", "AWS", "Azure", "Google Cloud Platform", "Securitatea datelor", "Criptare", "Gestionarea identității și accesului", "Conformitate", "Detectarea amenințărilor"]
+tags: ["soluții cloud securizate", "AWS față de Azure și Google Cloud Platform", "funcții de securitate cloud", "criptarea datelor", "gestionarea identității și accesului", "certificări de conformitate", "detectarea amenințărilor", "protecția datelor", "securitatea rețelei", "calcul în cloud", "platforme cloud", "breșe de date", "riscuri de securitate", "HIPAA", "ISO 27001", "SOC 2", "SOC 3", "FISMA", "comparație de prețuri", "alegerea soluției cloud potrivite", "nevoile de securitate ale afacerii", "scalabilitate", "flexibilitate", "eficiență a costurilor", "măsuri de securitate", "furnizori cloud", "protocoale de criptare", "cerințe de conformitate", "controlul porturilor de rețea", "firewall-uri", "sisteme de detectare a intruziunilor", "date stocate", "date în tranzit", "acces securizat", "mediu securizat", "calcul cloud securizat", "AWS față de Azure", "AWS față de GCP", "Azure față de GCP", "comparație cloud 2026", "cel mai bun furnizor cloud", "comparație servicii cloud", "funcții platforme cloud", "strategie multi-cloud", "cloud hibrid", "migrare în cloud", "optimizarea costurilor cloud", "bune practici de securitate cloud", "calcul fără server", "Kubernetes în cloud", "comparație baze de date cloud", "prețuri stocare cloud", "costuri de calcul cloud", "soluții cloud pentru companii", "comparație furnizori cloud"]
+cover: "/img/cover/aws-vs-azure-vs-google-cloud-platform.webp"
+coverAlt: "Ilustrație digitală abstractă cu trei structuri de cloud distincte, reprezentând AWS, Azure și Google Cloud, luminate în culori vii pe un fundal întunecat."
+coverCaption: "Securizați-vă afacerea în cloud"
 ---
 
-## Soluții cloud securizate: AWS vs. Azure vs. Google Cloud Platform
-
-În era digitală de astăzi, întreprinderile de toate dimensiunile se bazează pe **soluții cloud**. Platformele cloud precum **Amazon Web Services (AWS)**, **Microsoft Azure** și **Google Cloud Platform** oferă organizațiilor scalabilitatea, flexibilitatea și rentabilitatea necesare pentru a răspunde nevoilor lor de afaceri în continuă schimbare. Deși cloud computing oferă o abordare mai eficientă și mai modernă, acesta prezintă, de asemenea, noi provocări în materie de securitate.
-
-### Introducere în securitatea în cloud
-
-**Securitatea în cloud** se referă la protecția datelor unei companii stocate pe servere, aplicații și platforme în cloud. Pe măsură ce organizațiile se bazează din ce în ce mai mult pe cloud computing, securitatea în cloud devine critică. În acest articol, vom discuta măsurile de securitate oferite de **AWS**, **Azure** și **Google Cloud**.
-
-Cloud computing a revoluționat modul în care funcționează afacerile. Acesta a permis companiilor să stocheze și să acceseze date de oriunde din lume, să colaboreze la proiecte în timp real și să își extindă rapid operațiunile. Cu toate acestea, odată cu aceste beneficii, apar noi riscuri de securitate pe care companiile trebuie să le abordeze.
-
-Una dintre cele mai mari preocupări legate de cloud computing este posibilitatea **încălcării datelor**. Hackerii pot obține acces la informațiile sensibile ale unei companii, cum ar fi datele financiare, proprietatea intelectuală și informațiile despre clienți. Acest lucru poate duce la pierderi financiare semnificative, la afectarea reputației unei companii și la repercusiuni juridice.
-
-#### De ce este importantă securitatea în cloud
-
-**Securitatea în cloud contează** pentru că protejează datele unei organizații împotriva accesului neautorizat, a furtului sau a atacurilor cibernetice. În prezent, atacurile malițioase asupra sistemelor cloud ale companiilor sunt în creștere.
-
-Securitatea în cloud nu se referă doar la protejarea datelor împotriva amenințărilor externe. Ea implică, de asemenea, asigurarea securității datelor împotriva amenințărilor interne, cum ar fi erorile angajaților sau activitățile rău intenționate. Companiile trebuie să implementeze **controale stricte de acces**, să monitorizeze activitatea utilizatorilor și să dispună de un **plan de recuperare în caz de dezastru**.
-
-#### Principalele caracteristici de securitate de care trebuie să țineți cont
-
-Atunci când alegeți un furnizor de cloud, unul dintre factorii cheie de care trebuie să țineți cont sunt **caracteristicile de securitate** oferite. Fiecare platformă cloud oferă diferite caracteristici de securitate, cum ar fi **criptarea**, **gestionarea identității și a accesului**, **firewalls** și **detectarea intruziunilor**. Companiile trebuie să își evalueze cerințele pentru a alege cea mai bună platformă potrivită pentru modelul lor de afaceri.
-
-**Criptarea** este o caracteristică de securitate crucială care criptează datele în tranzit și în repaus. Aceasta asigură faptul că datele sunt accesibile doar utilizatorilor autorizați și nu pot fi interceptate de hackeri. **Gestionarea identității și a accesului** permite companiilor să controleze cine are acces la datele lor și ce poate face cu ele. **Firewall-urile** protejează împotriva accesului neautorizat la rețeaua unei companii, în timp ce **detecția intruziunilor** detectează și răspunde la potențiale amenințări la adresa securității.
-
-Pe lângă aceste caracteristici, companiile trebuie să ia în considerare și conformitatea furnizorului de cloud cu standardele și reglementările din industrie. De exemplu, dacă o companie activează în domeniul sănătății, trebuie să se asigure că furnizorul de cloud respectă reglementările **HIPAA**.
-
-În general, **securitatea în cloud** este un aspect critic al infrastructurii IT a oricărei organizații. Companiile trebuie să aleagă un furnizor de cloud care oferă caracteristici de securitate solide, respectă reglementările din industrie și are un istoric dovedit în ceea ce privește protecția datelor clienților lor.
-
-### Securitatea Amazon Web Services (AWS)
-
-#### Prezentare generală a securității AWS
-
-Când vine vorba de cloud computing, securitatea este o prioritate de top. **Securitatea AWS** oferă o serie de caracteristici pentru a proteja datele și aplicațiile clienților. Aceste caracteristici includ acces securizat, firewall-uri și criptarea datelor. AWS oferă un mediu sigur și fiabil pentru ca întreprinderile să își ruleze aplicațiile și să își stocheze datele, fără a se îngrijora de breșe de securitate.
-
-AWS oferă, de asemenea, caracteristici modulare de izolare a datelor, de protecție a datelor și de răspuns la incidente. Aceste caracteristici permit întreprinderilor să își personalizeze setările de securitate și să răspundă rapid la orice incident de securitate care ar putea apărea.
-
-#### Principalele caracteristici de securitate AWS
-
-AWS oferă o gamă largă de caracteristici de securitate pentru a asigura siguranța datelor clienților. **Criptarea** este una dintre caracteristicile cheie oferite de AWS. AWS oferă criptare pentru datele în tranzit și pentru datele în repaus. Astfel, se asigură că datele sunt protejate împotriva accesului neautorizat și a furtului.
-
-**Gestionarea accesului la identitate** este o altă caracteristică importantă oferită de AWS. Această caracteristică permite întreprinderilor să gestioneze accesul utilizatorilor la resurse și aplicații. AWS oferă, de asemenea, evaluări de securitate pentru a ajuta întreprinderile să identifice potențialele riscuri și vulnerabilități de securitate.
-
-**Conformitatea** este, de asemenea, o prioritate de top pentru AWS. AWS deține mai multe certificări de conformitate, inclusiv PCI DSS, HIPAA și SOX. Aceste certificări asigură faptul că AWS respectă cele mai înalte standarde de securitate și oferă securitate fiabilă întreprinderilor.
-
-**Detecția amenințărilor** este o altă caracteristică importantă oferită de AWS. AWS utilizează învățarea automată și inteligența artificială pentru a detecta potențiale amenințări la adresa securității și pentru a răspunde rapid la orice incident care ar putea apărea.
-
-AWS oferă, de asemenea, mecanisme de control și vizibilitate, patch-uri automate de securitate, protecție DDOS și caracteristici de toleranță la erori. Aceste caracteristici asigură faptul că întreprinderile pot funcționa într-un mediu sigur și fiabil, fără să se îngrijoreze de breșe de securitate sau de întreruperi ale activității.
-
-#### Conformitate și certificări AWS
-
-AWS dispune de diverse programe de securitate la nivel mondial care s-au dovedit a asigura o securitate fiabilă pentru întreprinderi. Aceste programe includ conformitatea cu diverse reglementări și certificări, cum ar fi **GDPR, ISO 27001 și FedRAMP**. AWS oferă, de asemenea, rapoarte de conformitate și certificări pentru a ajuta întreprinderile să își îndeplinească cerințele de conformitate.
-
-### Microsoft Azure Security
-
-Microsoft Azure este o platformă de cloud computing care pune la dispoziția întreprinderilor o gamă largă de caracteristici de securitate pentru a-și proteja datele și aplicațiile. Cu Azure, întreprinderile pot fi sigure că datele lor sunt în siguranță, deoarece Microsoft a investit masiv în măsuri de securitate pentru a proteja datele clienților săi.
-
-#### Prezentare generală a securității Azure
-
-Azure oferă numeroase caracteristici de securitate, inclusiv **antivirus, firewall-uri și detectarea intruziunilor**. Aceste caracteristici sunt concepute pentru a proteja întreprinderile de o gamă largă de amenințări, inclusiv malware, viruși și atacuri cibernetice. De asemenea, întreprinderile pot adăuga mai multe măsuri de securitate prin configurarea independentă a funcțiilor de securitate Azure, ceea ce le oferă un control mai mare asupra poziției lor de securitate.
-
-Alte caracteristici oferite de Azure sunt **autentificarea cu mai mulți factori**, **alarmarea și auditul** și **protecția informațiilor**. Autentificarea cu mai mulți factori este o caracteristică de securitate care solicită utilizatorilor să furnizeze două sau mai multe forme de autentificare pentru a-și accesa conturile. Această caracteristică ajută la prevenirea accesului neautorizat la date și aplicații sensibile. Alertele și auditul permit întreprinderilor să își monitorizeze mediul Azure pentru evenimente de securitate și să ia măsuri adecvate atunci când este necesar. Protecția informațiilor permite întreprinderilor să își clasifice și să își eticheteze datele, asigurându-se că acestea sunt accesate doar de personalul autorizat.
-
-#### Principalele caracteristici de securitate Azure
-
-Azure oferă **gestionarea accesului de identitate, criptare, firewall-uri și protecție împotriva amenințărilor**. Gestionarea accesului la identitate este o caracteristică de securitate care controlează accesul la resursele Azure pe baza rolurilor și permisiunilor utilizatorilor. Criptarea este o caracteristică de securitate care protejează datele prin transformarea lor într-un cod care poate fi descifrat numai cu ajutorul unei chei. Firewall-urile sunt o caracteristică de securitate care blochează accesul neautorizat la resursele Azure. Protecția împotriva amenințărilor este o caracteristică de securitate care utilizează algoritmi de învățare automată pentru a detecta și remedia amenințările de securitate în timp real.
-
-De asemenea, Azure permite întreprinderilor să își folosească cheile de criptare, oferă **conformitate cu reglementările** și detectarea și remedierea amenințărilor pe bază de învățare automată. Prin utilizarea cheilor lor de criptare, întreprinderile se pot asigura că datele lor sunt protejate chiar dacă sunt furate. Conformitatea cu reglementările este o caracteristică esențială pentru întreprinderile care operează în industrii reglementate, cum ar fi sănătatea și finanțele. Azure oferă diverse servicii de conformitate și reglementare pentru a ajuta întreprinderile să se adapteze la cele mai bune practici.
-
-#### Conformitate și certificări Azure
-
-Azure respectă diverse standarde la nivel mondial, cum ar fi **HIPAA, ISO/IEC 27001 și SOC**. Aceste standarde asigură faptul că Azure respectă cele mai înalte standarde de securitate și confidențialitate. În plus, Azure oferă diverse servicii de conformitate și reglementare pentru a ajuta întreprinderile să se adapteze la cele mai bune practici. Aceste servicii includ evaluări de conformitate, rapoarte de audit și documentație de conformitate.
-
-În concluzie, Microsoft Azure pune la dispoziția întreprinderilor o gamă largă de caracteristici de securitate pentru a-și proteja datele și aplicațiile. Cu Azure, întreprinderile pot fi sigure că datele lor sunt în siguranță și că sunt conforme cu cele mai recente standarde de securitate și confidențialitate. Indiferent dacă sunteți o mică afacere sau o întreprindere mare, Azure are caracteristicile de securitate de care aveți nevoie pentru a vă proteja datele și aplicațiile.
-
-### Google Cloud Platform Security
-
-#### Prezentare generală a securității Google Cloud
-
-Google Cloud Platform oferă mai multe **funcționalități de securitate** pentru a păstra datele în siguranță. Măsurile de securitate includ **criptarea datelor, analiza securității și securitatea rețelei**. De asemenea, Google Cloud permite clienților să aibă un control granular asupra măsurilor de securitate, cum ar fi controlul porturilor de rețea, accesul filtrat și detectarea intruziunilor.
-
-**Criptarea datelor** este un aspect critic al securității platformei Google Cloud. Google Cloud Platform criptează în mod implicit datele în repaus, utilizând **Criptarea AES-256**. În plus, Google Cloud Platform suportă **chei de criptare gestionate de clienți**, ceea ce permite clienților să aibă control total asupra cheilor de criptare a datelor lor.
-
-**Analizele de securitate** reprezintă o altă caracteristică de securitate importantă a Google Cloud Platform. Analizele de securitate permit clienților să își monitorizeze infrastructura pentru a detecta potențiale amenințări de securitate. Google Cloud Platform oferă o gamă de instrumente pentru analiza securității, inclusiv **Cloud Security Command Center**, care oferă o vedere centralizată a securității în toate serviciile Google Cloud Platform.
-
-**Securitatea rețelei** este, de asemenea, un aspect esențial al securității Google Cloud Platform. Google Cloud Platform oferă o gamă de instrumente pentru securitatea rețelelor, inclusiv **Virtual Private Cloud (VPC)**, care permite clienților să își izoleze resursele într-o rețea privată, și **Cloud Load Balancing**, care asigură echilibrarea încărcăturii și protecția împotriva DDoS.
-
-#### Principalele caracteristici de securitate Google Cloud
-
-Google Cloud Platform oferă **gestionarea cheilor criptografice, module de securitate hardware, analize de securitate și protecția datelor de securitate**. Alte caracteristici includ **protecția identității, a rețelei și a amenințărilor**.
-
-**Gestionarea cheilor criptografice** este un aspect critic al securității Google Cloud Platform. Google Cloud Platform oferă o gamă de instrumente pentru gestionarea cheilor criptografice, inclusiv **Key Management Service (KMS)**, care permite clienților să își gestioneze cheile de criptare în cloud. În plus, Google Cloud Platform acceptă **Module de securitate hardware (HSM)**, care oferă un nivel suplimentar de securitate pentru cheile criptografice.
-
-**Protecția identității** este o altă caracteristică de securitate importantă a Google Cloud Platform. Google Cloud Platform oferă o gamă de instrumente pentru protecția identității, inclusiv **Identity and Access Management (IAM)**, care permite clienților să gestioneze accesul la resursele lor în cloud. În plus, Google Cloud Platform suportă **Autentificarea cu mai mulți factori (MFA)**, care oferă un nivel suplimentar de securitate pentru conturile de utilizator.
-
-**Protecția împotriva amenințărilor** este, de asemenea, un aspect cheie al securității Google Cloud Platform. Google Cloud Platform oferă o gamă de instrumente pentru protecția împotriva amenințărilor, inclusiv **Cloud Armor**, care oferă protecție împotriva atacurilor DDoS, și **Cloud IDS**, care asigură detectarea și prevenirea intruziunilor.
-
-#### Conformitate și certificări Google Cloud
-
-Platforma Google Cloud este conformă cu mai multe standarde internaționale, cum ar fi **HIPAA, ISO/IEC 27001, SOC 2/3 și FISMA**. Echipa Google dedicată conformității actualizează în mod constant platforma pentru a îndeplini cele mai recente cerințe de conformitate.
-
-Conformitatea **HIPAA** este esențială pentru organizațiile din domeniul sănătății care stochează și procesează date sensibile despre pacienți. Google Cloud Platform oferă o gamă de instrumente și servicii care sunt conforme cu HIPAA, inclusiv **Google Cloud Healthcare API**, care permite organizațiilor din domeniul sănătății să stocheze și să proceseze datele pacienților în cloud.
-
-**Conformitatea ISO/IEC 27001** este importantă pentru organizațiile care gestionează informații sensibile. Google Cloud Platform este certificată ISO/IEC 27001, ceea ce înseamnă că Google Cloud Platform îndeplinește cele mai înalte standarde de securitate a informațiilor.
-
-**Conformitatea ISOC 2/3** este importantă pentru organizațiile care gestionează informații financiare sensibile. Google Cloud Platform este conformă cu SOC 2/3, ceea ce înseamnă că Google Cloud Platform îndeplinește cele mai înalte standarde pentru securitatea informațiilor financiare.
-
-**Conformitatea FISMA** este importantă pentru organizațiile care lucrează cu guvernul SUA. Google Cloud Platform este conformă cu FISMA, ceea ce înseamnă că Google Cloud Platform îndeplinește cele mai înalte standarde pentru securitatea informațiilor guvernamentale.
-
-### Compararea securității AWS, Azure și Google Cloud Security
-
-Când vine vorba de cloud computing, securitatea este o prioritate de top. AWS, Azure și Google Cloud sunt trei dintre cele mai populare platforme cloud, fiecare dintre ele oferind caracteristici și beneficii de securitate unice.
-
-#### Comparație între caracteristicile de securitate
-
-Deși toate cele trei platforme sunt concepute pentru a oferi caracteristici de securitate complete, fiecare dintre ele are propriile puncte forte. AWS, de exemplu, este cunoscută pentru funcția **Identity and Access Management (IAM)**, care asigură securitatea controlului accesului. Azure, pe de altă parte, este ideală pentru întreprinderile care au nevoie de o scalabilitate ridicată și de o integrare ușoară cu produsele Microsoft, deoarece Microsoft deține Azure. Google Cloud oferă o **funcție de securitate avansată și de ultimă generație** consumatorilor săi, ceea ce îl face o alegere populară pentru întreprinderile care au nevoie de o securitate de top.
-
-În plus, toate cele trei platforme oferă **criptare pentru datele în repaus și în tranzit**, precum și caracteristici de securitate a rețelei, cum ar fi **firewalls** și **sisteme de detectare a intruziunilor**.
-
-#### Comparație între conformitate și certificare
-
-Respectarea conformității cu reglementările este crucială pentru întreprinderi, iar toate cele trei platforme sunt dedicate respectării diferitelor reglementări, inclusiv HIPAA, SOC, ISO/IEC 27001 și FISMA. AWS este în prezent liderul industriei în ceea ce privește conformitatea, dar Azure și Google Cloud recuperează rapid din urmă. Principala diferență este că AWS este singura platformă care oferă **Government Secret clearance** și **Government Top Secret clearance**, ceea ce o face o alegere populară pentru agențiile guvernamentale și organizațiile care se ocupă cu informații sensibile.
-
-#### Prețuri și comparație a costurilor
-
-În ceea ce privește prețurile, fiecare platformă oferă scheme de tarifare diferite și variază în funcție de utilizare și de numărul de caracteristici utilizate. **AWS**, de exemplu, oferă mai multe scheme de tarifare diferite, inclusiv instanțe la cerere, instanțe rezervate și instanțe punctuale. **Azure** oferă prețuri avantajoase și reduceri pentru contractele pe termen lung, ceea ce o face o alegere populară pentru companiile care au nevoie de o structură de costuri stabilă și previzibilă. **Google Cloud Platform** oferă prețuri în funcție de utilizare și reduceri pentru contracte pe termen lung, ceea ce o face o alegere populară pentru întreprinderile care necesită flexibilitate și scalabilitate.
-
-Este important să luați în considerare atât prețurile, cât și caracteristicile de securitate oferite de fiecare platformă pentru a lua o decizie în cunoștință de cauză. În cele din urmă, cea mai bună alegere va depinde de nevoile și cerințele unice ale afacerii dumneavoastră.
-
-### Alegerea soluției cloud securizate potrivite pentru afacerea dvs.
-
-Alegerea soluției cloud potrivite pentru afacerea dvs. poate fi o sarcină descurajantă. Cu atât de multe opțiuni disponibile, este esențial să vă evaluați cu atenție nevoile și să selectați un furnizor care să vă satisfacă cerințele specifice. În acest articol, vom discuta despre factorii cheie de care trebuie să țineți cont atunci când alegeți o soluție cloud securizată pentru afacerea dvs.
-
-| AWS | Azure | Google Cloud Platform |
-|-----------|------------------------------|------------------------------|-----------------------------|
-Securitatea | Caracteristici de securitate robuste | Caracteristici de securitate complete | Securitate completă | Avansată și de ultimă generație|
-| Identitate și acces | caracteristici și integrare | caracteristici de securitate | caracteristici de securitate | caracteristici de securitate
-| Managementul (IAM) cu produsele Microsoft.
-| Criptare pentru date în repaus | Autentificare cu factori multipli | Autentificare cu factori multipli |
-| și în tranzit (MFA) |
-| | Conformitate cu diverse | Conformitate cu reglementările | Chei criptografice |
-| standarde și certificări | certificări | management și |
-| (HIPAA, PCI DSS, SOC etc.) | (HIPAA, ISO/IEC 27001, SOC) | module de securitate hardware |
-| (HSM-uri) |
-| Prețuri | Scheme multiple de prețuri | Prețuri rentabile și | Prețuri în funcție de utilizare și |
-| (la cerere, rezervată, cu reduceri pe termen lung, cu reduceri pe termen lung).
-| | instanțe, instanțe spot) | contracte | contracte | contracte |
-| | | | |
-Scalabilitate | Foarte scalabil | Foarte scalabil | Integrare ușoară cu | Flexibilitate și scalabilitate |
-| și flexibilă | și flexibilă | produse Microsoft | |
-| | | | |
-| Asistență | Asistență receptivă și | Asistență cuprinzătoare și | Gamă largă de asistență și |
-Servicii | Servicii | Servicii | Servicii | Servicii | Servicii |
-| | | | |
-Popularitate | Popularitate | Utilizat pe scară largă și consacrat | Popularitate în creștere și | Popularitate în creștere |
-| Platforma | cota de piață |
-
-#### Evaluarea nevoilor dvs. de securitate
-
-Securitatea este o prioritate de top pentru orice afacere și este esențial să vă evaluați nevoile de securitate înainte de a selecta un furnizor de cloud computing. Începeți prin a crea o listă de cerințe și comparați-le cu caracteristicile de securitate ale fiecărui furnizor. Luați în considerare **criptarea**, **conformitatea**, **securitatea rețelei** și **gestionarea accesului** în timp ce evaluați furnizorii.
-
-**Criptarea** este o caracteristică de securitate esențială care asigură protecția datelor dvs. împotriva accesului neautorizat. Căutați furnizori de cloud care oferă protocoale de criptare robuste pentru a vă proteja datele în timp ce acestea sunt în tranzit și în repaus.
-
-**Conformitatea** este un alt factor critic de luat în considerare atunci când evaluați furnizorii de cloud. În funcție de industria dvs., este posibil să vă supuneți unor cerințe de reglementare specifice. Căutați furnizori de cloud care oferă certificări de conformitate, cum ar fi **HIPAA**, **PCI DSS** și **SOC 2**, pentru a vă asigura că datele dvs. sunt stocate și procesate în conformitate cu standardele industriei.
-
-**Securitatea rețelei** este, de asemenea, esențială pentru a vă proteja datele de amenințările externe. Căutați furnizori de cloud care oferă caracteristici avansate de securitate a rețelei, cum ar fi **firewall-uri**, **sisteme de detectare și prevenire a intruziunilor** și **protecție împotriva refuzului de serviciu distribuit (DDoS)**.
-
-**Gestionarea accesului** este o altă caracteristică de securitate critică pe care trebuie să o luați în considerare. Căutați furnizori de cloud care oferă mecanisme solide de control al accesului pentru a vă asigura că numai utilizatorii autorizați pot accesa datele dumneavoastră.
-
-#### Evaluarea suportului și serviciilor furnizorului
-
-Asistența și serviciile furnizorului sunt esențiale pentru a vă asigura că datele dvs. sunt protejate și că operațiunile dvs. de afaceri se desfășoară fără probleme. Căutați furnizori de cloud care oferă **sprijin receptiv** și servicii pentru a vă asigura că orice problemă este rezolvată cu promptitudine.
-
-Atunci când evaluați timpul de răspuns al furnizorilor de servicii de asistență în cloud, luați în considerare gravitatea problemei și timpul de răspuns garantat de furnizor. Căutați furnizori care oferă **asistență 24/7** și mai multe canale de comunicare, inclusiv asistență prin telefon, e-mail și chat.
-
-**Serviciul pentru clienți** este un alt factor esențial de luat în considerare atunci când evaluați furnizorii de cloud. Căutați furnizorii care oferă **asistență personalizată** și servicii adaptate la nevoile afacerii dumneavoastră. Luați în considerare furnizorii care oferă instruire și resurse pentru a vă ajuta să profitați la maximum de serviciile lor.
-
-#### Luarea deciziei finale
-
-După ce v-ați evaluat nevoile de securitate și ați evaluat suportul și serviciile furnizorilor, este timpul să luați decizia finală. Atunci când luați decizia, luați în considerare **confortul de utilizare**, **compatibilitatea costurilor**, **eficiența costurilor**, **fiabilitatea** și **caracteristicile de securitate** care se potrivesc operațiunilor companiei dumneavoastră.
-
-**Conveniența de utilizare** este esențială pentru a vă asigura că angajații dvs. pot accesa și utiliza cu ușurință soluția cloud. Căutați furnizori care oferă o interfață prietenoasă și instrumente și caracteristici ușor de utilizat.
-
-**Eficiența costurilor** este un alt factor esențial de care trebuie să țineți cont atunci când selectați un furnizor de cloud. Căutați furnizori care oferă planuri de tarifare flexibile și structuri de prețuri transparente pentru a vă asigura că plătiți doar pentru serviciile de care aveți nevoie.
-
-**Fiabilitatea** este esențială pentru a vă asigura că datele dvs. sunt întotdeauna disponibile atunci când aveți nevoie de ele. Căutați furnizori care oferă acorduri solide privind nivelul de servicii (SLA) și garanții de timp de funcționare pentru a vă asigura că datele dvs. sunt întotdeauna accesibile.
-
-În cele din urmă, **funcțiile de securitate** sunt esențiale pentru a vă proteja datele și pentru a vă asigura că operațiunile de afaceri se desfășoară fără probleme. Căutați furnizori care oferă caracteristici de securitate avansate, cum ar fi criptarea, conformitatea, securitatea rețelei și gestionarea accesului.
-
-Luând în considerare toți acești factori, puteți selecta un furnizor de cloud care să răspundă cel mai bine cerințelor specifice ale companiei dvs. și care să vă ofere securitatea și sprijinul de care aveți nevoie pentru a vă desfășura activitatea cu succes.
-
-### Concluzie: Viitorul securității în cloud
-
-Pe măsură ce cloud computing-ul continuă să crească în popularitate, companiile trebuie să adopte cloud-ul, protejând în același timp datele și securitatea. Furnizorii de cloud investesc în caracteristici de securitate avansate și în noi tehnologii care vor îmbunătăți securitatea cloud. Alegerea se reduce la alegerea unui furnizor de securitate fiabil și cuprinzător. Fără îndoială, **AWS**, **Azure** și **Google Cloud**, toate oferă soluții cloud fiabile și sigure. Comparând caracteristicile de securitate, conformitatea, asistența pentru clienți și prețurile, întreprinderile pot lua o decizie în cunoștință de cauză și pot alege soluția cloud care li se potrivește cel mai bine.
-
+## AWS, Azure și Google Cloud în 2026: ghid de comparație completă
+
+Alegerea platformei cloud potrivite este una dintre cele mai importante decizii de infrastructură pentru companii în 2026. Adoptarea cloudului a ajuns la **94% în rândul întreprinderilor**, iar cheltuielile globale depășesc **675 de miliarde de dolari pe an**. Alegerea dintre **Amazon Web Services (AWS)**, **Microsoft Azure** și **Google Cloud Platform (GCP)** influențează scalabilitatea, securitatea, costurile și avantajul competitiv al organizației.
+
+Acest ghid compară în profunzime cei trei furnizori principali de cloud în 2026. Analizează funcțiile de securitate, modelele de preț, serviciile, performanța, certificările de conformitate și cazurile de utilizare. Fie că migrați în cloud, implementați o strategie multi-cloud sau optimizați infrastructura existentă, comparația vă ajută să luați o decizie informată.
+
+### Starea calculului în cloud în 2026
+
+Peisajul calculului în cloud s-a schimbat considerabil:
+
+- **Lideri de piață**: AWS deține **32% din piață**, Azure **23%**, iar GCP **10%**. Furnizorii mai mici reprezintă restul.
+- **Adoptarea multi-cloud**: **87% dintre întreprinderi** folosesc mai mulți furnizori pentru a evita dependența de un singur furnizor și pentru a optimiza costurile.
+- **Integrarea AI/ML**: Toți trei oferă servicii ample de AI/ML și hardware specializat, inclusiv AWS Trainium, Azure Maia și Google TPU v5.
+- **Sustenabilitate**: Furnizorii și-au asumat neutralitatea carbonului, iar centrele de date folosesc energie regenerabilă.
+- **Calcul la marginea rețelei**: Au extins locațiile edge pentru aplicații cu latență redusă, precum AWS Local Zones, Azure Edge Zones și GCP Edge TPU.
+- **Maturizarea serviciilor fără server**: Acestea rulează acum sarcini de producție la scară largă, cu performanțe și prețuri îmbunătățite.
+
+### Comparație rapidă: furnizorii cloud pe scurt
+
+| Caracteristică | AWS | Azure | Google Cloud Platform |
+|---------|-----|-------|----------------------|
+| **Cotă de piață (2026)** | 32% | 23% | 10% |
+| **Regiuni globale** | 33 de regiuni | Peste 60 de regiuni | 39 de regiuni |
+| **Zone de disponibilitate** | 105 zone | Peste 170 de zone | 118 zone |
+| **Servicii oferite** | Peste 200 | Peste 200 | Peste 150 |
+| **Nivel gratuit** | 12 luni + Always Free | 12 luni + Always Free limitat | Credit de 300 USD pentru 90 de zile + Always Free |
+| **Preț de pornire pentru calcul** | 0,0116 USD/oră (t4g.nano) | 0,0134 USD/oră (seria A) | 0,0104 USD/oră (e2-micro) |
+| **Potrivit pentru** | Servicii variate, ecosistem matur | Integrarea Microsoft, cloud hibrid | Analiza datelor, AI/ML, sursă deschisă |
+| **Punct forte principal** | Lărgimea și profunzimea serviciilor | Integrarea în companii | Inovația și prețurile |
+| **Clienți vizați** | De la startupuri la întreprinderi | Întreprinderi, organizații care folosesc Microsoft | Companii orientate spre date, dezvoltatori |
+| **Kubernetes** | EKS | AKS | GKE (lider în industrie) |
+| **Servicii fără server** | Lambda (matur) | Functions (integrat) | Cloud Functions/Run (flexibil) |
+| **Platformă AI/ML** | SageMaker | Azure ML | Vertex AI |
+
+## Securitatea cloud: analiză comparativă
+
+Securitatea rămâne prioritatea principală pentru adoptarea cloudului. Toți cei trei furnizori investesc miliarde în infrastructura de securitate, dar abordările și funcțiile diferă.
+
+### Comparația arhitecturilor de securitate
+
+| Funcție de securitate | AWS | Azure | Google Cloud |
+|-----------------|-----|-------|--------------|
+| **Gestionarea identității și accesului** | IAM (permisiuni granulare) | Azure AD (orientat spre companii) | Cloud IAM (bazat pe resurse) |
+| **Criptare la stocare** | AES-256 (implicit în majoritatea serviciilor) | AES-256 (implicit) | AES-256 (implicit peste tot) |
+| **Criptare în tranzit** | TLS 1.2/1.3 | TLS 1.2/1.3 | TLS 1.2/1.3 + BoringSSL |
+| **Gestionarea cheilor** | KMS | Key Vault | Cloud KMS |
+| **Module hardware de securitate** | CloudHSM | HSM dedicat | Cloud HSM |
+| **Protecție DDoS** | Shield (Standard/Advanced) | DDoS Protection (Basic/Standard) | Cloud Armor |
+| **Firewall pentru aplicații web** | WAF | Azure WAF | Cloud Armor WAF |
+| **Securitatea rețelei** | Security Groups, NACLs | NSG, Azure Firewall | Reguli firewall, Cloud NAT |
+| **Detectarea amenințărilor** | GuardDuty | Defender for Cloud | Security Command Center |
+| **Monitorizarea conformității** | Config, Security Hub | Policy, Defender | Security Command Center |
+| **Scanarea vulnerabilităților** | Inspector | Defender Vulnerability Management | Container Analysis |
+| **Gestionarea secretelor** | Secrets Manager | Key Vault | Secret Manager |
+| **Arhitectură zero trust** | IAM Identity Center | Azure AD Conditional Access | BeyondCorp Enterprise |
+
+### Funcțiile de securitate AWS (actualizări 2026)
+
+**Amazon Web Services** oferă una dintre cele mai ample game de soluții de securitate din industrie, cu peste 300 de servicii și funcții:
+
+#### Servicii de securitate de bază
+
+**AWS Identity and Access Management (IAM)**:
+- Permisiuni granulare, cu peste 7.000 de acțiuni între servicii.
+- Identity Center pentru acces centralizat, cunoscut anterior ca AWS SSO.
+- IAM Access Analyzer identifică accesul neintenționat la resurse.
+- Controlul accesului bazat pe atribute (ABAC) pentru permisiuni dinamice.
+- IAM Roles Anywhere autentifică sarcini de lucru on-premises.
+
+**Criptare și gestionarea cheilor**:
+- **AWS KMS**: chei de criptare gestionate, validate conform FIPS 140-2.
+- **CloudHSM**: module hardware de securitate cu un singur client.
+- **Certificate Manager**: certificate SSL/TLS gratuite, cu reînnoire automată.
+- **Nitro Enclaves**: medii de calcul izolate pentru prelucrarea datelor sensibile.
+- **Criptare rezistentă la calculul cuantic**: previzualizare în 2026.
+
+**Securitatea rețelei**:
+- **Security Groups**: firewall cu stare la nivelul instanței.
+- **Network ACLs**: firewall fără stare la nivelul subrețelei.
+- **AWS WAF**: blochează injecțiile SQL, XSS și tipare de atac personalizate.
+- **Shield Standard/Advanced**: protecție DDoS. Advanced include o echipă de răspuns disponibilă permanent.
+- **Network Firewall**: firewall gestionat pentru inspectarea traficului VPC.
+- **PrivateLink**: conectivitate privată la servicii, fără expunere la internet.
+
+**Detectarea amenințărilor și răspunsul la incidente**:
+- **GuardDuty**: detectare a amenințărilor cu ML, prin analiza a miliarde de evenimente.
+  - Detectează instanțe compromise, recunoaștere și minare de criptomonede.
+  - Detectează malware în volume EBS și obiecte S3, funcție adăugată în 2026.
+  - Oferă monitorizare la runtime pentru EKS și Lambda, începând din 2026.
+- **Security Hub**: agregă centralizat constatările de securitate.
+- **Detective**: analizează și vizualizează jurnalele pentru investigații de securitate.
+- **Macie**: găsește date sensibile cu ML, inclusiv date personale și financiare.
+
+**Conformitate și guvernanță**:
+- **Config**: urmărește conformitatea resurselor și remedierea abaterilor.
+- **CloudTrail**: înregistrează apelurile API și păstrează piste de audit.
+- **Audit Manager**: automatizează raportarea conformității.
+- **Control Tower**: gestionează conturi multiple și aplică măsuri de protecție.
+
+#### Punctele forte ale securității AWS
+
+✅ **Gamă amplă de servicii**: oferă cele mai extinse instrumente de securitate din industrie.
+✅ **Ecosistem matur**: peste 12 ani de inovație și consolidare a securității.
+✅ **Conformitate**: acceptă peste 143 de standarde și certificări, cele mai multe din industrie.
+✅ **Funcții avansate**: Nitro Enclaves, semnarea codului cu AWS Signer și rotația secretelor în Secrets Manager.
+✅ **Integrări terțe**: cea mai mare piață de soluții de securitate, cu peste 2.500 de opțiuni.
+
+#### Limitările securității AWS
+
+⚠️ **Complexitate**: sute de funcții de securitate creează o curbă de învățare abruptă.
+⚠️ **Efort de configurare**: securizarea AWS cere înțelegerea multor servicii interconectate.
+⚠️ **Costuri imprevizibile**: serviciile de securitate pot adăuga cheltuieli neașteptate.
+
+{{< figure src="aws-security-services-stack-iam-guardduty-shield-kms.webp" alt="Diagramă a stivei de securitate AWS, cu gestionarea permisiunilor IAM, detectarea amenințărilor GuardDuty, protecția DDoS Shield, cheile KMS și Security Hub" >}}
+
+### Funcțiile de securitate Microsoft Azure (actualizări 2026)
+
+**Microsoft Azure** pune accentul pe integrarea securității în întreprinderi și pe scenariile de cloud hibrid:
+
+#### Servicii de securitate de bază
+
+**Azure Active Directory (Azure AD)**:
+- Platformă de identitate cu peste 500 de milioane de utilizatori activi lunar.
+- Conditional Access aplică politici zero trust.
+- Autentificare fără parolă prin FIDO2, Windows Hello și Microsoft Authenticator.
+- Identity Protection folosește acces condiționat în funcție de risc.
+- Privileged Identity Management (PIM) gestionează accesul administratorilor.
+- Verified ID oferă identitate descentralizată, bazată pe blockchain.
+
+**Criptare și gestionarea cheilor**:
+- **Azure Key Vault**: gestionează chei, secrete și certificate.
+- **Managed HSM**: HSM-uri validate la nivelul 3 FIPS 140-2.
+- **Transparent Data Encryption (TDE)**: criptează automat bazele de date SQL.
+- **Criptare dublă**: combină infrastructura cu chei gestionate de client, pentru cerințe de conformitate.
+- **Confidential Computing**: enclavuri Intel SGX criptează datele în timpul utilizării.
+
+**Securitatea rețelei**:
+- **Network Security Groups**: reguli distribuite de firewall.
+- **Azure Firewall**: firewall gestionat, nativ în cloud, cu informații despre amenințări.
+- **DDoS Protection**: protejează nivelurile 3 și 4. Nivelul Standard include reglare adaptivă.
+- **Web Application Firewall**: protecție împotriva celor mai importante 10 riscuri OWASP.
+- **Private Link**: acces privat la serviciile Azure.
+- **Azure Bastion**: acces securizat RDP/SSH fără adrese IP publice.
+
+**Protecția împotriva amenințărilor**:
+- **Microsoft Defender for Cloud**, cunoscut anterior ca Security Center și Defender:
+  - Unifică gestionarea securității în medii hibride și multi-cloud.
+  - Evaluează continuu securitatea și oferă recomandări.
+  - Protejează servere, containere, stocare, baze de date și Key Vault.
+  - Oferă un tablou de conformitate cu reglementările, cu peste 35 de standarde.
+  - Gestionează postura de securitate printr-un scor de securitate.
+- **Sentinel**: platformă SIEM și SOAR nativă în cloud.
+  - Detectează și caută amenințări cu ajutorul AI.
+  - Se integrează cu Microsoft 365, Azure și surse terțe.
+  - Automatizează răspunsul prin planuri de acțiune.
+
+**Conformitate și guvernanță**:
+- **Azure Policy**: definește și aplică standardele organizației.
+- **Blueprints**: grupează politici, șabloane și resurse pentru conformitate.
+- **Cost Management + Billing**: gestionează cheltuielile cloud.
+- **Azure Arc**: extinde guvernanța Azure la mediile on-premises și multi-cloud.
+
+#### Punctele forte ale securității Azure
+
+✅ **Integrare în întreprinderi**: se integrează ușor cu Microsoft 365, Active Directory și Intune.
+✅ **Securitate pentru cloud hibrid**: oferă instrumente de top pentru scenarii hibride și multi-cloud, inclusiv Azure Arc.
+✅ **Expertiză în identitate**: Azure AD oferă gestionare de top a identității și accesului.
+✅ **Gestionare unificată**: Defender for Cloud oferă o interfață comună pentru toate sarcinile de lucru.
+✅ **Conformitate extinsă**: peste 100 de oferte la nivel global.
+
+#### Limitările securității Azure
+
+⚠️ **Dependență de ecosistemul Microsoft**: cel mai bun raport calitate-preț cere folosirea stivei Microsoft.
+⚠️ **Diferențe regionale**: unele funcții de securitate lipsesc din anumite regiuni.
+⚠️ **Complexitatea licențelor**: licențierea funcțiilor de securitate poate fi dificil de înțeles.
+
+{{< figure src="azure-ad-defender-sentinel-security-architecture.webp" alt="Diagramă a arhitecturii de securitate Azure, cu Azure Active Directory, Defender for Cloud și Sentinel conectate la sarcini hibride locale și cloud" >}}
+
+### Funcțiile de securitate Google Cloud Platform (actualizări 2026)
+
+**Google Cloud** folosește experiența de securitate acumulată în protejarea miliardelor de utilizatori:
+
+#### Servicii de securitate de bază
+
+**Cloud Identity and Access Management**:
+- IAM bazat pe resurse, cu permisiuni granulare.
+- Constrângeri prin politici la nivel de organizație.
+- Acces adaptat contextului și atributelor cererii.
+- Identity-Aware Proxy oferă acces zero trust la aplicații.
+- VPC Service Controls protejează împotriva exfiltrării datelor.
+- Workload Identity Federation integrează identități externe.
+
+**Criptare și gestionarea cheilor**:
+- **Criptare implicită**: toate datele stocate sunt criptate automat, fără configurare.
+- **Cloud KMS**: gestionează centralizat cheile și politicile de rotație.
+- **Cloud HSM**: hardware validat la nivelul 3 FIPS 140-2.
+- **External Key Manager (EKM)**: păstrează cheile în afara infrastructurii Google.
+- **Customer-Supplied Encryption Keys**: oferă control complet asupra cheilor.
+- **Confidential Computing**: AMD SEV criptează memoria.
+
+**Securitatea rețelei**:
+- **VPC Firewall Rules**: firewall distribuit, cu stare.
+- **Cloud Armor**: protejează împotriva DDoS și oferă WAF la scara infrastructurii Google.
+- **Cloud NAT**: traducere gestionată a adreselor de rețea.
+- **Private Google Access**: accesează serviciile Google fără internet.
+- **Assured Workloads**: controlează rezidența datelor și accesul personalului.
+- **Packet Mirroring**: inspectează și analizează traficul de rețea.
+
+**Detectarea amenințărilor și conformitatea**:
+- **Security Command Center**, nivelul Premium:
+  - Descoperă și inventariază activele.
+  - Scanează containere și aplicații web pentru vulnerabilități.
+  - Detectează amenințări prin Event Threat Detection și Container Threat Detection.
+  - Security Health Analytics identifică configurările greșite.
+  Integrare cu SIEM-uri terțe.
+- **Chronicle**: platforma SIEM Google, oferită separat.
+- **Policy Intelligence**: analizează și recomandă permisiuni.
+
+**Protecția datelor**:
+- **Data Loss Prevention (DLP)**: identifică și protejează datele sensibile.
+- **Secret Manager**: stochează chei API, parole și certificate.
+- **Binary Authorization**: permite implementarea doar a containerelor de încredere.
+- **Artifact Registry**: depozit securizat pentru containere și pachete.
+
+#### Punctele forte ale securității Google Cloud
+
+✅ **Securitate implicită**: criptează datele peste tot, fără configurare inițială.
+✅ **Arhitectură zero trust**: Google a fost pionier cu modelul BeyondCorp.
+✅ **Securitatea infrastructurii**: beneficiază de infrastructura globală care protejează Search, Gmail și YouTube.
+✅ **Simplitate și consecvență**: are mai puțină complexitate decât AWS și este mai ușor de configurat corect.
+✅ **Securitatea analizelor de date**: BigQuery și serviciile de date beneficiază de protecție de top.
+✅ **Sursă deschisă**: multe instrumente sunt open source, inclusiv gVisor, Knative și Istio.
+
+#### Limitările securității Google Cloud
+
+⚠️ **Ecosistem mai restrâns**: are mai puține integrări de securitate terțe decât AWS sau Azure.
+⚠️ **Funcții pentru întreprinderi**: unele funcții rămân în urma celor oferite de AWS și Azure.
+⚠️ **Maturitatea pieței**: este mai nou în cloudul pentru întreprinderi, fiind fondat în 2008 față de AWS în 2006.
+
+### Comparația conformității și certificărilor (2026)
+
+| Standard de conformitate | AWS | Azure | Google Cloud |
+|---------------------|-----|-------|--------------|
+| **SOC 1/2/3** | ✅ Da | ✅ Da | ✅ Da |
+| **ISO/IEC 27001** | ✅ Da | ✅ Da | ✅ Da |
+| **ISO/IEC 27017** | ✅ Da | ✅ Da | ✅ Da |
+| **ISO/IEC 27018** | ✅ Da | ✅ Da | ✅ Da |
+| **PCI DSS Level 1** | ✅ Da | ✅ Da | ✅ Da |
+| **HIPAA** | ✅ Da (BAA) | ✅ Da (BAA) | ✅ Da (BAA) |
+| **GDPR** | ✅ Da (DPA) | ✅ Da (DPA) | ✅ Da (DPA) |
+| **FedRAMP High** | ✅ Da | ✅ Da | ✅ Da |
+| **FedRAMP Moderate** | ✅ Da | ✅ Da | ✅ Da |
+| **DoD SRG IL4/5/6** | ✅ IL2-IL6 | ✅ IL2-IL6 | ✅ IL2-IL4 |
+| **FISMA** | ✅ Da | ✅ Da | ✅ Da |
+| **ITAR** | ✅ Da (regiuni guvernamentale) | ✅ Da (regiuni guvernamentale) | ❌ Limitat |
+| **CJIS** | ✅ Da | ✅ Da | ✅ Da |
+| **FERPA** | ✅ Da | ✅ Da | ✅ Da |
+| **COPPA** | ✅ Da | ✅ Da | ✅ Da |
+| **Total certificări** | 143+ | 100+ | 60+ |
+
+**Idei principale**:
+- **AWS conduce la numărul certificărilor**: are cele mai multe certificări de conformitate și autorizări guvernamentale.
+- **Azure are acoperire globală extinsă**: oferă peste 100 de opțiuni de conformitate în majoritatea țărilor.
+- **Google Cloud pune accentul pe transparență**: a fost primul care a publicat rapoarte de conformitate.
+
+## Comparația serviciilor cloud în 2026
+
+### Servicii de calcul
+
+| Tip de serviciu | AWS | Azure | Google Cloud |
+|--------------|-----|-------|--------------|
+| **Mașini virtuale** | EC2 (peste 750 de tipuri de instanțe) | Virtual Machines (peste 700 de dimensiuni) | Compute Engine (peste 650 de tipuri de mașini) |
+| **Bare metal** | EC2 Bare Metal | Azure Bare Metal | Bare Metal Solution |
+| **Containere** | ECS, EKS, Fargate | AKS, Container Instances | GKE, Cloud Run, GCE |
+| **Funcții fără server** | Lambda | Azure Functions | Cloud Functions (generația 1/2) |
+| **Containere fără server** | Fargate, App Runner | Container Apps | Cloud Run |
+| **Calcul în lot** | AWS Batch | Azure Batch | Cloud Batch |
+| **Calcul de înaltă performanță (HPC)** | ParallelCluster | CycleCloud | Cloud HPC Toolkit |
+| **Modele de preț pentru VM-uri** | La cerere, rezervate, Spot, Savings Plans | Plătiți pe măsură ce folosiți, rezervate, Spot | La cerere, utilizare angajată, preemptibile |
+
+**Indicatori de performanță în 2026** (echivalente cu c6a.2xlarge / F8s_v2 / n2-standard-8):
+
+| Indicator | AWS | Azure | Google Cloud |
+|--------|-----|-------|--------------|
+| **Timp de pornire** | 42 de secunde | 45 de secunde | 38 de secunde |
+| **Debit de rețea** | Până la 12,5 Gbps | Până la 12 Gbps | Până la 16 Gbps |
+| **IOPS (gp3/Premium SSD)** | 16.000 | 20.000 | 100.000 (hyperdisk) |
+| **Performanță CPU (Geekbench)** | 1.180 / 6.940 | 1.150 / 6.820 | 1.210 / 7.120 |
+
+### Comparație Kubernetes
+
+| Caracteristică | AWS EKS | Azure AKS | Google GKE |
+|---------|---------|-----------|------------|
+| **Costul planului de control** | 0,10 USD/oră (73 USD/lună) | Gratuit | Gratuit (Standard), 0,10 USD/oră (Autopilot) |
+| **Scalare automată** | Cluster Autoscaler, Karpenter | Cluster Autoscaler, KEDA | Cluster Autoscaler (performanță optimă) |
+| **Fără server** | Integrare Fargate | Noduri virtuale | GKE Autopilot (gestionare completă) |
+| **Mai multe clustere** | EKS Anywhere | Kubernetes cu Arc | Anthos (on-premises + cloud) |
+| **Service mesh** | App Mesh | Istio (Open Service Mesh) | Istio, Anthos Service Mesh |
+| **Actualizări** | Manuale/gestionate | Automate/manuale | Automate/manuale (canale de lansare) |
+| **Monitorizare** | CloudWatch Container Insights | Azure Monitor | Cloud Operations Suite (integrat cu GKE) |
+| **Securitate** | Politici de securitate pentru poduri, OPA | Azure Policy, OPA | Binary Authorization, Workload Identity |
+| **Potrivit pentru** | Integrare în ecosistemul AWS | Kubernetes pentru întreprinderi | Aplicații native în cloud, multi-cloud |
+
+**Câștigător**: **Google GKE** conduce în Kubernetes. Google a creat Kubernetes, oferă un plan de control gratuit, o scalare automată performantă și Autopilot pentru operare fără administrare.
+
+### Servicii de stocare
+
+| Tip de stocare | AWS | Azure | Google Cloud |
+|--------------|-----|-------|--------------|
+| **Stocare de obiecte** | S3 (durabilitate 99,999999999%) | Blob Storage | Cloud Storage |
+| **Stocare pe blocuri** | EBS (gp3, io2, st1, sc1) | Managed Disks | Persistent Disk, Hyperdisk |
+| **Stocare de fișiere** | EFS, FSx | Azure Files, NetApp Files | Filestore |
+| **Arhivare** | S3 Glacier (0,004 USD/GB/lună) | Archive Blob (0,002 USD/GB/lună) | Archive (0,0012 USD/GB/lună) |
+| **Copii de rezervă** | AWS Backup | Azure Backup | Cloud Backup (cu Actifio) |
+| **Transfer de date** | DataSync, Snow Family | Azure Data Box | Transfer Service, Transfer Appliance |
+| **Stocare edge** | Snowcone, Snowball, Snowmobile | Azure Stack Edge | Indisponibil |
+
+**Comparația prețurilor de stocare** (per GB/lună, 2026):
+
+| Clasă de stocare | AWS S3 | Azure Blob | Google Cloud Storage |
+|---------------|--------|------------|---------------------|
+| **Standard (activă)** | 0,023 USD | 0,0184 USD | 0,020 USD |
+| **Acces rar** | 0,0125 USD | 0,01 USD | 0,010 USD |
+| **Arhivă** | 0,004 USD | 0,002 USD | 0,0012 USD |
+| **Arhivă profundă** | 0,00099 USD | Nu se aplică | Nu se aplică |
+
+**Câștigător**: **Google Cloud Storage** oferă cele mai bune prețuri, clase de stocare mai simple și tranziții automate între clase.
+
+### Servicii de baze de date
+
+| Tip de bază de date | AWS | Azure | Google Cloud |
+|---------------|-----|-------|--------------|
+| **Relațională (gestionată)** | RDS (7 motoare), Aurora | SQL Database, Database for MySQL/PostgreSQL | Cloud SQL |
+| **Relațională globală** | Aurora Global Database | Cosmos DB (SQL API) | Cloud Spanner |
+| **Document NoSQL** | DocumentDB | Cosmos DB | Firestore |
+| **Cheie-valoare NoSQL** | DynamoDB | Cosmos DB (Table API) | Bigtable, Firestore |
+| **În memorie** | ElastiCache (Redis/Memcached) | Cache for Redis | Memorystore |
+| **Graf** | Neptune | Cosmos DB (Gremlin API) | Nu se aplică (BigQuery, Dataplex) |
+| **Serii temporale** | Timestream | Data Explorer | Bigtable |
+| **Registru** | QLDB | SQL Ledger | Nu se aplică |
+| **Depozit de date** | Redshift | Synapse Analytics | BigQuery (fără server) |
+
+**Indicatori de performanță pentru baze de date** (teste din 2026):
+
+**Compatibile PostgreSQL (16 vCPU, 64 GB RAM)**:
+
+| Indicator | AWS Aurora | Azure PostgreSQL | Cloud SQL PostgreSQL |
+|--------|------------|------------------|---------------------|
+| **Citiri/secundă** | 485.000 | 420.000 | 465.000 |
+| **Scrieri/secundă** | 185.000 | 165.000 | 175.000 |
+| **Latență (citire, p99)** | 2,1 ms | 2,8 ms | 2,3 ms |
+| **Latență (scriere, p99)** | 4,5 ms | 5,2 ms | 4,8 ms |
+
+**Câștigător**: **AWS Aurora** pentru baze de date relaționale și **Google BigQuery** pentru analiză, datorită operării fără server și raportului performanță-cost.
+
+### Servicii AI/ML și de analiză
+
+| Categorie de serviciu | AWS | Azure | Google Cloud |
+|------------------|-----|-------|--------------|
+| **Platformă ML** | SageMaker | Azure ML | Vertex AI |
+| **ML automatizat** | SageMaker Autopilot | Azure AutoML | Vertex AI AutoML |
+| **VM-uri de deep learning** | Deep Learning AMIs | Data Science VM | Deep Learning VM Image |
+| **Modele preantrenate** | Rekognition, Translate, Polly etc. | Cognitive Services | AI APIs (Vision, Natural Language etc.) |
+| **Servicii de vorbire** | Transcribe, Polly | Speech Service | Speech-to-Text, Text-to-Speech |
+| **Depozit de date** | Redshift | Synapse Analytics | BigQuery |
+| **Lac de date** | Lake Formation | Data Lake Storage | Dataplex |
+| **ETL** | Glue | Data Factory | Dataflow, Data Fusion |
+| **Procesare de fluxuri** | Kinesis | Stream Analytics, Event Hubs | Dataflow |
+| **Inteligență de afaceri (BI)** | QuickSight | Power BI | Looker, Data Studio |
+| **Hardware ML personalizat** | Trainium (antrenare), Inferentia (inferență) | Cipuri Maia | TPU v5 (poduri pentru antrenare la scară mare) |
+
+**Puncte forte AI/ML**:
+- **AWS**: cea mai amplă gamă de servicii ML, cu peste 20, potrivită pentru cazuri variate.
+- **Azure**: cea mai bună soluție BI pentru întreprinderi prin Power BI și integrarea cu ecosistemul Microsoft.
+- **Google Cloud**: analiză de date de top prin BigQuery și cercetare AI de avangardă prin DeepMind și Brain.
+
+**Câștigător**: **Google Cloud** pentru analiza datelor și inovația AI, **AWS** pentru varietatea serviciilor ML.
+
+### Servicii de rețea
+
+| Serviciu | AWS | Azure | Google Cloud |
+|---------|-----|-------|--------------|
+| **Livrare de conținut** | CloudFront (peste 410 locații edge) | CDN, Front Door | Cloud CDN (peste 140 de locații) |
+| **DNS** | Route 53 | Azure DNS | Cloud DNS |
+| **Echilibrarea încărcării** | ELB/ALB/NLB/GWLB | Load Balancer, App Gateway | Cloud Load Balancing (global) |
+| **Conectivitate privată** | Direct Connect | ExpressRoute | Cloud Interconnect |
+| **VPN** | VPN site-to-site | VPN Gateway | Cloud VPN |
+| **Service mesh** | App Mesh | Open Service Mesh | Traffic Director |
+| **Gestionarea API-urilor** | API Gateway | API Management | Apigee, API Gateway |
+
+**Performanța rețelei globale** (2026):
+- **AWS**: peste 410 locații edge și 33 de regiuni.
+- **Azure**: peste 170 de locații edge și peste 60 de regiuni, cu cea mai extinsă acoperire geografică.
+- **Google Cloud**: cea mai rapidă rețea globală, cu fibră privată care conectează toate regiunile.
+
+**Câștigător**: **Google Cloud** pentru performanța rețelei prin rutarea premium, **Azure** pentru acoperirea geografică.
+
+## Comparația prețurilor în 2026
+
+### Prețurile serviciilor de calcul
+
+**Instanțe de uz general** (8 vCPU, 32 GB RAM, Linux, estul SUA):
+
+| Tip de instanță | AWS | Azure | Google Cloud |
+|---------------|-----|-------|--------------|
+| **La cerere (pe oră)** | 0,384 USD (m6i.2xlarge) | 0,400 USD (D8s v5) | 0,379 USD (n2-standard-8) |
+| **La cerere (pe lună)** | 280,32 USD | 292,00 USD | 276,67 USD |
+| **Rezervată pe 1 an (pe lună)** | 184,00 USD (economie de 34%) | 208,00 USD (economie de 29%) | 190,00 USD (economie de 31%) |
+| **Rezervată pe 3 ani (pe lună)** | 115,00 USD (economie de 59%) | 139,00 USD (economie de 52%) | 132,00 USD (economie de 52%) |
+| **Spot/preemptibilă** | ~84 USD (economie de 70%) | ~88 USD (economie de 70%) | ~83 USD (economie de 70%) |
+
+**Câștigător**: **Google Cloud** oferă cel mai mic tarif la cerere, reduceri automate pentru utilizare susținută și reduceri pentru utilizarea angajată.
+
+### Prețurile stocării
+
+**Stocare de obiecte** (per GB/lună, primii 50 TB):
+
+| Furnizor | Standard | Acces rar | Arhivă |
+|----------|----------|-------------------|---------|
+| **AWS S3** | 0,023 USD | 0,0125 USD | 0,004 USD |
+| **Azure Blob** | 0,0184 USD | 0,01 USD | 0,002 USD |
+| **Google Cloud Storage** | 0,020 USD | 0,010 USD | 0,0012 USD |
+
+**Stocare pe blocuri** (SSD, per GB/lună):
+
+| Furnizor | SSD standard | SSD de înaltă performanță |
+|----------|--------------|---------------------|
+| **AWS EBS** | 0,10 USD (gp3) | 0,125 USD (io2) |
+| **Azure Managed Disks** | 0,12 USD (Premium SSD) | 0,18 USD (Ultra Disk) |
+| **Google Persistent Disk** | 0,17 USD (Balanced) | 0,10 USD (Hyperdisk Balanced) |
+
+**Câștigător**: **Depinde de utilizare**. AWS gp3 se potrivește sarcinilor standard, iar Google Hyperdisk celor de înaltă performanță.
+
+### Prețurile transferului de date
+
+**Transfer de date la ieșire** (per GB):
+
+| Prag | AWS | Azure | Google Cloud |
+|------|-----|-------|--------------|
+| **Primul GB** | Gratuit (10 GB/lună) | Gratuit (15 GB/lună) | Gratuit (1 GB la nivel mondial) |
+| **Până la 10 TB** | 0,09 USD | 0,087 USD | 0,12 USD (standard) / 0,08 USD (premium) |
+| **10-50 TB** | 0,085 USD | 0,083 USD | 0,11 USD / 0,08 USD |
+| **50-150 TB** | 0,070 USD | 0,081 USD | 0,08 USD / 0,08 USD |
+| **Peste 150 TB** | 0,050 USD | 0,081 USD | 0,08 USD / 0,08 USD |
+
+**Aspect important**: Transferul de date la ieșire poate crea costuri ascunse semnificative. Google Cloud are un tarif inițial mai mare, dar oferă prețuri previzibile. AWS oferă cele mai bune tarife la volume mari, însă are praguri de preț complexe.
+
+### Prețurile bazelor de date
+
+**Compatibile PostgreSQL (16 vCPU, 64 GB RAM, 1 TB stocare, pe lună)**:
+
+| Furnizor | Serviciu | Cost lunar |
+|----------|---------|--------------|
+| **AWS** | Aurora PostgreSQL | 1.420 USD |
+| **AWS** | RDS PostgreSQL | 945 USD |
+| **Azure** | Database for PostgreSQL | 875 USD |
+| **Google Cloud** | Cloud SQL PostgreSQL | 820 USD |
+| **Google Cloud** | AlloyDB (optimizat) | 1.255 USD |
+
+**Câștigător**: **Google Cloud SQL** pentru PostgreSQL standard, **AWS Aurora** pentru sarcini critice de performanță.
+
+### Analiza costului total de deținere (TCO)
+
+**Aplicație web cu trei niveluri** (cost anual):
+- 10 servere de aplicații (8 vCPU, 32 GB RAM).
+- 2 baze de date (16 vCPU, 64 GB RAM, 1 TB stocare).
+- 20 TB de stocare, atât de obiecte, cât și pe blocuri.
+- 10 TB de transfer de date la ieșire pe lună.
+
+| Furnizor | Calcul | Bază de date | Stocare | Transfer de date | **Total anual** |
+|----------|---------|----------|---------|---------------|------------------|
+| **AWS** (instanțe rezervate) | 22.080 USD | 22.800 USD | 3.360 USD | 10.800 USD | **59.040 USD** |
+| **Azure** (VM-uri rezervate) | 24.960 USD | 21.000 USD | 3.600 USD | 10.440 USD | **60.000 USD** |
+| **Google Cloud** (CUD) | 22.800 USD | 19.680 USD | 3.240 USD | 14.400 USD | **60.120 USD** |
+
+**Notă**: Prețurile variază mult în funcție de:
+- Tarife rezervate sau angajate, cu economii de 30-70%.
+- Instanțe Spot/preemptibile, cu economii de până la 90% pentru sarcini tolerante la întreruperi.
+- Programe de reduceri pentru întreprinderi, de obicei încă 5-20%.
+- Contracte multianuale, care oferă reduceri mai mari.
+- Eficiența scalării automate și avantajul facturării Google la secundă.
+
+### Strategii de optimizare a costurilor
+
+**Optimizarea costurilor AWS**:
+- Folosiți Savings Plans pentru angajamente flexibile între familiile de instanțe.
+- Folosiți instanțe Spot pentru reduceri de până la 90% la sarcini tolerante la întreruperi.
+- Dimensionați corect resursele cu recomandările Compute Optimizer.
+- Folosiți S3 Intelligent-Tiering pentru optimizarea automată a stocării.
+- Configurați alerte Cost Anomaly Detection.
+
+**Optimizarea costurilor Azure**:
+- Azure Hybrid Benefit reutilizează licențe Windows Server și economisește 40%.
+- Rezervați instanțe VM pentru economii de până la 72%.
+- Folosiți Azure Spot VMs pentru reduceri de până la 90%.
+- Aplicați prețuri Dev/Test sarcinilor care nu sunt de producție.
+- Folosiți Azure Cost Management + Billing pentru recomandări de optimizare.
+
+**Optimizarea costurilor Google Cloud**:
+- Committed Use Discounts oferă economii de până la 57%.
+- Sustained Use Discounts acordă automat reduceri când VM-urile rulează peste 25% din lună.
+- Preemptible VMs oferă reduceri de până la 80%.
+- Facturarea la secundă nu are un minim, plătiți exact cât utilizați.
+- Folosiți sloturi BigQuery cu tarif fix pentru costuri de analiză previzibile.
+- Active Assist oferă recomandări bazate pe AI.
+
+## Comparația performanței și fiabilității
+
+### Infrastructură globală
+
+| Indicator | AWS | Azure | Google Cloud |
+|--------|-----|-------|--------------|
+| **Regiuni** | 33 | Peste 60 | 39 |
+| **Zone de disponibilitate** | 105 | Peste 170 | 118 |
+| **Locații edge** | Peste 410 | Peste 170 | Peste 140 |
+| **Țări** | 24 | 140 | 40 |
+| **Continente** | 6 | 6 | 6 |
+| **Rețea privată de fibră optică** | Nu (folosește infrastructura internetului) | Nu (folosește infrastructura internetului) | Da (peste 100.000 km de fibră) |
+
+### Comparația SLA-urilor
+
+| Serviciu | AWS | Azure | Google Cloud |
+|---------|-----|-------|--------------|
+| **Calcul (un singur VM)** | 99,9% (credit pentru 90 de zile) | 99,9% | 99,5% (migrarea live reduce timpul de nefuncționare) |
+| **Calcul (mai multe zone)** | 99,99% | 99,99% | 99,99% |
+| **Stocare de obiecte** | 99,9% | 99,9% | 99,95% |
+| **Echilibrator de încărcare** | 99,99% | 99,99% | 99,99% (global), 99,5% (regional) |
+| **Bază de date (mai multe zone)** | 99,95% | 99,99% | 99,95% |
+| **Kubernetes (plan de control)** | 99,95% | 99,95% | 99,5% (Standard), 99,95% (Autopilot) |
+
+**Credite SLA**: Toți furnizorii oferă credite de serviciu, între 10% și 100% din factura lunară, pentru încălcarea SLA-urilor. Solicitați creditele prin echipa de asistență.
+
+### Performanța latenței regionale
+
+**Latența medie între regiuni** (măsurători din 2026, ms):
+
+| Rută | AWS | Azure | Google Cloud |
+|-------|-----|-------|--------------|
+| **Estul SUA către vestul SUA** | 65 ms | 68 ms | 61 ms |
+| **Estul SUA către vestul UE** | 89 ms | 92 ms | 84 ms |
+| **Estul SUA către Asia-Pacific** | 185 ms | 192 ms | 175 ms |
+| **Vestul UE către Asia-Pacific** | 215 ms | 221 ms | 198 ms |
+
+**Câștigător**: **Google Cloud** are cea mai mică latență între regiuni datorită rețelei private de fibră optică.
+
+## Strategii multi-cloud și cloud hibrid
+
+### Gestionarea multi-cloud
+
+| Instrument | AWS | Azure | Google Cloud |
+|------|-----|-------|--------------|
+| **Gestionare nativă** | Control Tower (doar AWS) | Arc (Azure și altele) | Anthos (GCP și altele) |
+| **Infrastructură ca cod** | CloudFormation | Șabloane ARM, Bicep | Deployment Manager |
+| **IaC între clouduri** | Terraform, Pulumi | Terraform, Pulumi | Terraform, Pulumi |
+| **Monitorizare** | CloudWatch | Azure Monitor | Cloud Operations |
+| **Monitorizare între clouduri** | Datadog, New Relic, Dynatrace | Datadog, New Relic, Dynatrace | Datadog, New Relic, Dynatrace |
+
+**Câștigător**: **Azure Arc** oferă cea mai bună gestionare hibridă și multi-cloud și extinde planul de control Azure peste tot.
+
+### Când merită să folosiți mai multe clouduri
+
+**Motive întemeiate**:
+✅ Evitați dependența de un furnizor și obțineți o poziție mai bună la negocieri.
+✅ Respectați cerințele de conformitate, suveranitate a datelor și redundanță.
+✅ Alegeți cele mai bune servicii pentru fiecare scop, de exemplu AWS pentru ML, Azure pentru întreprinderi și GCP pentru analiză.
+✅ Integrați companii achiziționate care folosesc furnizori cloud diferiți.
+✅ Asigurați recuperarea în caz de dezastru între furnizori.
+
+**Motive slabe**:
+❌ Folosirea mai multor clouduri „pentru orice eventualitate”, fără cerințe clare.
+❌ Adăugarea complexității fără beneficii corespunzătoare.
+❌ Evitarea curbei de învățare a unei singure platforme.
+
+### Comparația cloudului hibrid
+
+| Caracteristică | AWS Outposts | Azure Stack Hub/HCI | Google Anthos |
+|---------|-------------|---------------------|---------------|
+| **Model de implementare** | Rack AWS în centrul dvs. de date | Hardware propriu sau sisteme integrate | Software pe infrastructura proprie |
+| **Gestionare** | AWS Console | Azure Portal | Google Cloud Console |
+| **Configurație minimă** | Rack de 42U | Cluster cu 4-16 noduri | Cluster Kubernetes, variază |
+| **Cost** | ~250.000 USD+ | ~50.000 USD+ (HCI) | Licențe software (~10.000 USD/lună) |
+| **Potrivit pentru** | Sarcini AWS native on-premises | Întreprinderi orientate spre Microsoft | Aplicații multi-cloud în containere |
+
+**Câștigător**: **Azure Stack HCI** pentru întreprinderile tradiționale și **Google Anthos** pentru sarcini native în cloud și aplicații în containere.
+
+## Recomandări în funcție de cazul de utilizare
+
+### Startupuri și companii aflate la început
+
+**Recomandare**: **AWS** sau **Google Cloud**.
+
+**Avantajele AWS**:
+- Nivel gratuit extins, valabil 12 luni.
+- Programul AWS Activate oferă până la 100.000 USD în credite prin parteneri de capital de risc.
+- Cel mai mare ecosistem de instrumente și integrări.
+- Cea mai amplă piață de servicii.
+- Scalare dovedită de Netflix, Airbnb și Slack.
+
+**Avantajele Google Cloud**:
+- Credite gratuite de 300 USD pentru 90 de zile.
+- Nivel gratuit generos, disponibil permanent.
+- Prețuri bune, esențiale pentru startupurile cu bugete limitate.
+- Învățare și gestionare mai ușoară, cu mai puțină complexitate.
+- Servicii AI/ML de top pentru diferențierea produselor.
+
+**Evitați**: Azure la început, cu excepția cazului în care produsul se bazează pe Microsoft sau vizează întreprinderi.
+
+### Organizații mari
+
+**Recomandare**: **Azure** sau **AWS**.
+
+**Avantajele Azure**:
+- Integrare fluentă cu Microsoft 365, Active Directory și Teams.
+- Azure Hybrid Benefit reutilizează licențele existente și reduce costurile.
+- Cel mai bun cloud hibrid prin Azure Stack și Arc.
+- Acordurile Enterprise Agreement (EA) includ echipe dedicate pentru clienți.
+- Peste 100 de certificări de conformitate.
+
+**Avantajele AWS**:
+- Cea mai matură platformă, cu cele mai complete funcții.
+- Cel mai amplu catalog, cu peste 200 de servicii.
+- Cea mai mare comunitate de specialiști, ceea ce ușurează recrutarea.
+- Cele mai multe integrări terțe.
+- Certificări guvernamentale Secret și Top Secret.
+
+**Luați în calcul Google Cloud** pentru analiza datelor și AI/ML care oferă avantaj competitiv.
+
+### Companii orientate spre date și analiză
+
+**Recomandare**: **Google Cloud** ca platformă principală și **AWS** ca supliment.
+
+**Avantajele Google Cloud**:
+- BigQuery, depozit de date fără server, performant la scară de petabytes.
+- Looker, soluție de BI de top, obținută prin achiziție.
+- Dataflow, procesare unificată în lot și în flux, bazată pe Apache Beam.
+- Pub/Sub, mesagerie globală cu latență redusă.
+- Vertex AI, platformă ML unificată.
+- Compatibilitate cu sursa deschisă prin BigQuery omni-cloud, TensorFlow și Kubeflow.
+
+**Completați cu AWS**:
+- SageMaker pentru anumite cazuri de utilizare ML.
+- Redshift pentru sarcini existente.
+- Kinesis pentru fluxuri de date în timp real.
+
+### Media și divertisment
+
+**Recomandare**: **AWS**, standardul industriei.
+
+**Servicii media AWS**:
+- Elemental MediaConvert pentru transcodare video.
+- MediaLive pentru transmisiuni video live.
+- MediaPackage pentru livrarea video.
+- MediaStore pentru stocare optimizată pentru media.
+- CloudFront, CDN cu peste 410 puncte de prezență.
+- Scalare dovedită de Prime Video, Netflix și Disney+.
+
+**Alternativă**: **Google Cloud** pentru experiența infrastructurii YouTube și Transcoder API.
+
+### Sănătate și științele vieții
+
+**Recomandare**: **AWS** sau **Azure**, în funcție de cerințe.
+
+**Avantajele AWS**:
+- HealthLake, lac de date medicale compatibil FHIR.
+- Comprehend Medical extrage informații medicale din text.
+- Cele mai multe parteneriate cu furnizori independenți de software medical.
+- Conformitate HIPAA la scară mare.
+
+**Avantajele Azure**:
+- API-uri medicale, inclusiv serviciul FHIR.
+- Microsoft Cloud for Healthcare oferă șabloane pentru industrie.
+- Azure Health Data Services.
+- Integrare solidă cu Epic, sistemul EHR dominant.
+
+**Ambele oferă**: BAA HIPAA, certificare HITRUST și conformitate GxP pentru științele vieții.
+
+### Servicii financiare
+
+**Recomandare**: **AWS**, lider de piață, sau **Azure**, cu parteneriate Microsoft.
+
+**Avantajele AWS**:
+- Lider în inovația fintech prin Stripe, Robinhood și Coinbase.
+- Amazon QLDB, registru imuabil.
+- Cea mai bogată piață de soluții financiare.
+- Conformitate cu reglementări precum PCI DSS Level 1 și FedRAMP High.
+
+**Avantajele Azure**:
+- Parteneriate puternice cu bănci mari.
+- Conformitate dedicată serviciilor financiare.
+- Integrare Microsoft Dynamics pentru ERP/CRM.
+- Cloud guvernamental pentru instituții reglementate.
+
+**Google Cloud**: luați-l în calcul pentru detectarea fraudelor cu AI/ML și analiza BigQuery.
+
+### Jocuri
+
+**Recomandare**: **AWS**, standardul industriei, cu concurență din partea **Google Cloud**.
+
+**Servicii AWS pentru jocuri**:
+- GameLift găzduiește servere de joc gestionate.
+- Motorul de jocuri Lumberyard este gratuit și se integrează cu Twitch.
+- Folosit de Epic Games, Riot Games și Zynga.
+- Latență redusă prin Local Zones.
+
+**Servicii Google Cloud pentru jocuri**:
+- Agones oferă soluții Kubernetes dedicate pentru servere de joc.
+- Posibilități de integrare cu YouTube Gaming.
+- Rețea globală performantă.
+
+**Azure**: PlayFab, platformă backend obținută prin achiziție.
+
+### Învățare automată și inteligență artificială
+
+**Recomandare**: **Google Cloud**, lider în inovație, sau **AWS**, pentru varietatea serviciilor.
+
+**Google Cloud**:
+- Vertex AI, platformă ML unificată.
+- TPU v5, performanță ridicată la antrenarea modelelor mari.
+- Lider în sursă deschisă prin TensorFlow, JAX și Kubeflow.
+- Capacități de cercetare prin DeepMind și Google Brain.
+- AutoML simplifică ML fără cod.
+- Vision AI și Natural Language AI oferă funcții de top.
+
+**AWS**:
+- SageMaker, una dintre cele mai complete platforme ML.
+- Peste 20 de servicii specializate de AI/ML.
+- Cipuri personalizate Trainium și Inferentia.
+- Cea mai mare gamă de modele și modele preantrenate.
+- Cea mai mare comunitate ML.
+
+**Azure**: se potrivește dacă folosiți ecosistemul Microsoft și servicii cognitive.
+
+{{< figure src="aws-azure-gcp-use-case-industry-recommendation-chart.webp" alt="Diagramă cu platformele cloud recomandate pe industrie și caz de utilizare, inclusiv AWS pentru media și finanțe, Azure pentru întreprinderi și sănătate și Google Cloud pentru analiză și învățare automată" >}}
+
+## Strategii de migrare
+
+### Abordări de migrare
+
+**Lift-and-shift (rehospedare)**:
+- Mutați aplicațiile neschimbate pe VM-uri cloud.
+- Cea mai rapidă migrare, de la câteva săptămâni la câteva luni.
+- Schimbări minime și risc mai mic.
+- Nu valorifică avantajele cloudului.
+- Potrivită pentru migrare urgentă și primii pași în cloud.
+
+**Replatformare („lift and reshape”)**:
+- Faceți optimizări minore în timpul migrării.
+- Treceți la baze de date gestionate, folosiți CDN și activați scalarea automată.
+- Efort și risc moderate.
+- Oferă unele beneficii cloud fără reproiectare completă.
+- Potrivită pentru adoptarea practică a cloudului.
+
+**Refactorizare (reproiectare)**:
+- Reproiectați aplicația pentru arhitectură nativă în cloud.
+- Folosiți containere, servicii fără server și microservicii.
+- Cere cel mai mult efort, dar oferă cele mai mari beneficii.
+- Valorifică scalabilitatea, reziliența și eficiența costurilor.
+- Potrivită pentru aplicații critice și investiții pe termen lung.
+
+**Recumpărare (SaaS)**:
+- Înlocuiți soluția cu o alternativă SaaS.
+- Necesită migrare tehnică minimă, de obicei doar a datelor.
+- Reduce efortul de mentenanță.
+- Potrivită pentru aplicații standard, precum e-mail, CRM și HR.
+
+**Retragere**:
+- Dezafectați aplicațiile care nu mai sunt necesare.
+- O companie obișnuită poate retrage 10-20% din portofoliul IT.
+- Reduce costurile imediat.
+
+### Instrumente de migrare
+
+| Tip de migrare | AWS | Azure | Google Cloud |
+|---------------|-----|-------|--------------|
+| **Migrarea serverelor** | Application Migration Service | Azure Migrate | Migrate for Compute Engine |
+| **Migrarea bazelor de date** | Database Migration Service | Database Migration Service | Database Migration Service |
+| **Transfer de date** | DataSync, Snow Family | Data Box, File Sync | Transfer Service, Transfer Appliance |
+| **Evaluare** | Migration Hub | Evaluări Azure Migrate | CloudPhysics, Stratozone |
+
+**Instrumente terțe**: CloudEndure, deținut de AWS, RiverMeadow, Zerto și Carbonite.
+
+## Cadru de decizie
+
+### Arbore de decizie
+
+**Începeți cu întrebarea: care este prioritatea principală?**
+
+#### Prioritatea este optimizarea costurilor
+- **Aveți licențe Microsoft existente?**
+  - **Da** → **Azure**, cu economii de cel puțin 40% prin Hybrid Benefit.
+  - **Nu** → **Google Cloud** pentru prețuri bune sau **AWS** cu Savings Plans.
+
+#### Prioritatea este integrarea în întreprindere
+- **Folosiți Microsoft 365 sau Active Directory?**
+  - **Da** → **Azure**, pentru integrare fluentă.
+  - **Nu** → Continuați.
+
+- **Peste 70% din sarcini rulează pe VM-uri și aplicații tradiționale?**
+  - **Da** → **AWS**, platforma matură, sau **Azure**, pentru un cloud hibrid bun.
+  - **Nu, aplicații native în cloud sau containere** → **Google Cloud**, pentru Kubernetes.
+
+#### Prioritatea este inovația sau leadershipul tehnic
+- **Care este cazul principal de utilizare?**
+  - **AI/ML și analiza datelor** → **Google Cloud**, cu BigQuery și Vertex AI.
+  - **Gamă largă de servicii** → **AWS**, cu peste 200 de servicii.
+  - **Cloud hibrid sau multi-cloud** → **Azure**, cu Arc.
+
+#### Prioritatea este conformitatea sau reglementarea
+- **Guvern sau apărare?**
+  - **Este necesară autorizarea Secret/Top Secret?** → **AWS**, singura opțiune.
+  - **FedRAMP High** → **AWS**, **Azure** sau **Google Cloud**, toate certificate.
+- **Sănătate (HIPAA)?** → Toți trei, cu cel mai puternic ecosistem la AWS.
+- **Finanțe (PCI DSS)?** → Toți trei, cu experiență fintech mai amplă la AWS.
+
+#### Prioritatea este acoperirea geografică
+- **Aveți nevoie de cele mai multe regiuni?** → **Azure**, cu peste 60.
+- **Aveți nevoie de cea mai bună performanță globală a rețelei?** → **Google Cloud**, cu fibră privată.
+- **Aveți nevoie de o regiune anume?** → Verificați disponibilitatea regională.
+
+### Matrice de comparație
+
+| Factor | Pondere | AWS | Azure | Google Cloud |
+|--------|---------|-----|-------|--------------|
+| **Lărgimea serviciilor** | Mare | 10/10 | 9/10 | 7/10 |
+| **Infrastructura globală** | Medie | 8/10 | 10/10 | 8/10 |
+| **Prețuri** | Mare | 7/10 | 7/10 | 9/10 |
+| **Integrare în întreprinderi** | Medie | 7/10 | 10/10 | 6/10 |
+| **Kubernetes** | Medie | 7/10 | 8/10 | 10/10 |
+| **AI/ML** | Mare | 9/10 | 7/10 | 10/10 |
+| **Analiza datelor** | Mare | 8/10 | 7/10 | 10/10 |
+| **Funcții de securitate** | Mare | 10/10 | 9/10 | 8/10 |
+| **Certificări de conformitate** | Mare | 10/10 | 10/10 | 7/10 |
+| **Ușurința în utilizare** | Medie | 6/10 | 7/10 | 9/10 |
+| **Documentație** | Medie | 9/10 | 8/10 | 8/10 |
+| **Calitatea asistenței** | Medie | 8/10 | 8/10 | 7/10 |
+| **Piață și ecosistem** | Medie | 10/10 | 8/10 | 6/10 |
+| **Cloud hibrid** | Medie | 7/10 | 10/10 | 8/10 |
+| **Total (neponderat)** | | 116/140 | 118/140 | 113/140 |
+
+### Recomandarea finală în funcție de scenariu
+
+**Cea mai bună opțiune generală, pentru cele mai multe cazuri**: **AWS**.
+- Cea mai amplă gamă de servicii, ecosistem matur și cea mai mare comunitate.
+- Scalare dovedită de la startupuri la întreprinderi.
+- Cea mai extinsă conformitate.
+
+**Cea mai bună pentru întreprinderi**: **Azure**.
+- Integrare cu ecosistemul Microsoft.
+- Lider în cloud hibrid.
+- Acoperire geografică excelentă.
+- Economii de licențiere prin Hybrid Benefit.
+
+**Cea mai bună pentru inovație**: **Google Cloud**.
+- Lider în AI/ML și analiza datelor.
+- Cea mai bună platformă Kubernetes.
+- Arhitectură simplă și elegantă.
+- Prețuri și facturare la secundă avantajoase.
+
+**Cea mai bună strategie multi-cloud**: **AWS** ca platformă principală și **Google Cloud** pentru analiză și AI.
+- Folosiți AWS pentru calcul general și varietatea serviciilor.
+- Folosiți BigQuery, Vertex AI și GKE în Google Cloud.
+- Gestionați infrastructura cu Terraform.
+
+**Nu se recomandă**: dependența de un singur furnizor fără o arhitectură independentă de cloud.
+
+{{< figure src="aws-azure-gcp-market-share-strengths-comparison-2026.webp" alt="Diagramă comparativă cu cotele de piață AWS de 32%, Azure de 23% și Google Cloud de 10% și principalele puncte forte ale fiecărei platforme" >}}
+
+## Concluzie: viitorul calculului în cloud
+
+Piața cloud se consolidează în jurul „celor trei mari”, dar multi-cloud și strategiile hibride oferă mai multe opțiuni și flexibilitate. În 2026, toți trei oferă securitate, conformitate și infrastructură globală de nivel enterprise.
+
+**Idei principale**:
+
+1. **Nu există un singur furnizor optim**: alegeți pe baza cerințelor concrete, nu a cotei de piață.
+2. **AWS excelează prin varietate**: oferă cele mai multe servicii, cel mai mare ecosistem și scalare dovedită.
+3. **Azure se potrivește întreprinderilor**: integrează cel mai bine produsele Microsoft și conduce în cloud hibrid.
+4. **Google Cloud inovează**: oferă analiză de date, AI/ML și Kubernetes de top.
+5. **Multi-cloud a devenit obișnuit**: 87% dintre întreprinderi folosesc strategic mai multe clouduri.
+6. **Gestionați costurile de la început**: aplicați practici FinOps și optimizați consumul.
+7. **Securitatea este esențială**: toți trei oferă funcții solide, iar implementarea contează cel mai mult.
+8. **Conformitatea diferă**: AWS are cele mai multe certificări, 143, iar Azure are cea mai bună acoperire globală.
+9. **Gestionați dependența de furnizor**: folosiți instrumente independente, precum Kubernetes și Terraform, când este posibil.
+10. **Cunoașterea echipei contează**: competențele și calitatea implementării sunt mai importante decât alegerea furnizorului.
+
+**Recomandările noastre**:
+- **Startupuri**: începeți cu **AWS** pentru ecosistem sau cu **Google Cloud** pentru prețuri și inovație.
+- **Întreprinderi**: alegeți **Azure** pentru integrarea Microsoft sau **AWS** pentru maturitate.
+- **Companii orientate spre date**: folosiți **Google Cloud** ca platformă principală și AWS ca supliment.
+- **Strategie flexibilă**: combinați **AWS** și **Google Cloud** prin Terraform.
+
+Decizia privind cloudul trebuie să reflecte obiectivele afacerii, cerințele tehnice, experiența echipei și strategia pe termen lung. Reevaluați anual strategia, pe măsură ce furnizorii inovează și nevoile se schimbă.
+
+**Acționați**: testați proiecte pilot în mai multe clouduri, măsurați rezultatele față de cerințele dvs. și decideți pe baza datelor, nu a tendințelor.
+
+---
+
+## Referințe și lecturi suplimentare
+
+- [Cadrul AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/)
+- [Cadrul Azure Cloud Adoption](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/)
+- [Cadrul Google Cloud Architecture](https://cloud.google.com/architecture/framework)
+- [Cloud Security Alliance: matricea Cloud Controls](https://cloudsecurityalliance.org/research/cloud-controls-matrix/)
+- [Gartner Magic Quadrant pentru servicii de infrastructură și platformă cloud](https://www.gartner.com/en/documents/magic-quadrant)
+- [Forrester Wave: platforme cloud publice](https://www.forrester.com/report/the-forrester-wave-public-cloud-platforms/)
+- [Calculatorul de preț AWS](https://calculator.aws/)
+- [Calculatorul de preț Azure](https://azure.microsoft.com/en-us/pricing/calculator/)
+- [Calculatorul de preț Google Cloud](https://cloud.google.com/products/calculator)
+- [Instrument de comparație cloud CloudHarmony](https://cloudharmony.com/)

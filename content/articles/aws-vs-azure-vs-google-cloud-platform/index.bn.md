@@ -1,7 +1,7 @@
 ---
 title: "AWS বনাম Azure বনাম Google Cloud 2026: পূর্ণাঙ্গ তুলনা"
 date: 2023-07-01
-lastmod: 2026-11-14
+lastmod: 2026-11-20
 toc: true
 draft: false
 description: "AWS, Azure এবং Google Cloud-এর 2026 সালের তুলনা, যেখানে মূল্য, নিরাপত্তা, সম্মতি, পরিষেবা, কর্মক্ষমতা এবং প্রদানকারী বাছাই আলোচনা করা হয়েছে।"
@@ -91,7 +91,7 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 **নেটওয়ার্ক নিরাপত্তা**:
 - **Security Groups**: প্রতিটি ইনস্ট্যান্সে stateful ফায়ারওয়াল
 - **Network ACLs**: সাবনেট স্তরে stateless ফায়ারওয়াল
-- **AWS WAF**: SQL injection, XSS ও কাস্টম আক্রমণ ধরন ঠেকায়
+- **AWS WAF**: SQL কোয়েরিতে ক্ষতিকর নির্দেশ ঢোকানোর আক্রমণ, XSS ও কাস্টম আক্রমণের ধরন ঠেকায়
 - **Shield Standard/Advanced**: DDoS সুরক্ষা; Advanced-এ সার্বক্ষণিক প্রতিক্রিয়া দল রয়েছে
 - **Network Firewall**: VPC ট্র্যাফিক পরিদর্শনের জন্য পরিচালিত ফায়ারওয়াল
 - **PrivateLink**: ইন্টারনেটে প্রকাশ না করেই পরিষেবায় ব্যক্তিগত সংযোগ
@@ -196,7 +196,7 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 
 #### মূল নিরাপত্তা পরিষেবা
 
-**Cloud Identity and Access Management**:
+**ক্লাউড পরিচয় ও প্রবেশাধিকার ব্যবস্থাপনা**:
 - সূক্ষ্ম অনুমতিসহ রিসোর্সভিত্তিক IAM
 - প্রতিষ্ঠানের নীতি-সংক্রান্ত সীমাবদ্ধতা
 - অনুরোধের বৈশিষ্ট্য অনুযায়ী প্রসঙ্গ-সচেতন প্রবেশাধিকার
@@ -226,7 +226,7 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
   - কন্টেইনার ও ওয়েব অ্যাপে দুর্বলতা স্ক্যান
   - Event Threat Detection ও Container Threat Detection দিয়ে হুমকি শনাক্ত
   - ভুল কনফিগারেশনের জন্য Security Health Analytics
-  - তৃতীয় পক্ষের SIEM সংযোগ
+তৃতীয় পক্ষের SIEM সিস্টেমের সঙ্গে সংযোগ
 - **Chronicle**: Google-এর SIEM প্ল্যাটফর্ম, আলাদা পরিষেবা
 - **Policy Intelligence**: অনুমতির সুপারিশ ও বিশ্লেষণ
 
@@ -290,7 +290,7 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 | **সার্ভারবিহীন কন্টেইনার** | Fargate, App Runner | Container Apps | Cloud Run |
 | **ব্যাচ কম্পিউটিং** | AWS Batch | Azure Batch | Cloud Batch |
 | **উচ্চ কর্মক্ষমতা কম্পিউটিং** | ParallelCluster | CycleCloud | Cloud HPC Toolkit |
-| **VM মূল্য মডেল** | চাহিদা অনুযায়ী, সংরক্ষিত, Spot, Savings Plans | ব্যবহারভিত্তিক বিলিং, সংরক্ষিত, Spot | চাহিদা অনুযায়ী, Committed Use, Preemptible |
+| **VM মূল্য মডেল** | চাহিদা অনুযায়ী, সংরক্ষিত, Spot, Savings Plans | ব্যবহারভিত্তিক বিলিং, সংরক্ষিত, Spot | চাহিদা অনুযায়ী, নির্দিষ্ট মেয়াদের ব্যবহারের প্রতিশ্রুতি (Committed Use), Preemptible |
 
 **2026 সালের কর্মক্ষমতা মানদণ্ড** (c6a.2xlarge / F8s_v2 / n2-standard-8 সমতুল্য):
 
@@ -312,7 +312,7 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 | **সার্ভিস মেশ** | App Mesh | Istio (Open Service Mesh) | Istio, Anthos Service Mesh |
 | **আপগ্রেড** | ম্যানুয়াল/পরিচালিত | স্বয়ংক্রিয়/ম্যানুয়াল | স্বয়ংক্রিয়/ম্যানুয়াল (রিলিজ চ্যানেল) |
 | **পর্যবেক্ষণ** | CloudWatch Container Insights | Azure Monitor | Cloud Operations Suite (GKE-তে অন্তর্নির্মিত) |
-| **নিরাপত্তা** | Pod security policies, OPA | Azure Policy, OPA | Binary Authorization, Workload Identity |
+| **নিরাপত্তা** | Pod-এর নিরাপত্তা নীতি, OPA | Azure Policy, OPA | Binary Authorization, Workload Identity |
 | **সবচেয়ে উপযোগী** | AWS ইকোসিস্টেম সংযোগ | এন্টারপ্রাইজ Kubernetes | ক্লাউড-নেটিভ অ্যাপ, মাল্টি-ক্লাউড |
 
 **বিজয়ী**: **Google GKE**। Google Kubernetes আবিষ্কার করেছে; GKE শিল্পে অগ্রণী, কন্ট্রোল প্লেন বিনামূল্যে, স্বয়ংক্রিয় স্কেলিং সেরা এবং Autopilot-এ পরিচালনার কাজ কম।
@@ -423,13 +423,13 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 | **3 বছরের জন্য সংরক্ষিত (প্রতি মাস)** | 115.00 ডলার (59% সাশ্রয়) | 139.00 ডলার (52% সাশ্রয়) | 132.00 ডলার (52% সাশ্রয়) |
 | **Spot/Preemptible** | প্রায় 84 ডলার (70% সাশ্রয়) | প্রায় 88 ডলার (70% সাশ্রয়) | প্রায় 83 ডলার (70% সাশ্রয়) |
 
-**বিজয়ী**: **Google Cloud**, সর্বনিম্ন চাহিদা অনুযায়ী মূল্য, স্বয়ংক্রিয় ধারাবাহিক ব্যবহার ছাড় এবং Committed Use ছাড়ের জন্য।
+**বিজয়ী**: **Google Cloud**, সর্বনিম্ন চাহিদা অনুযায়ী মূল্য, দীর্ঘ সময় ব্যবহারের স্বয়ংক্রিয় ছাড় এবং নির্দিষ্ট মেয়াদের ব্যবহারের ছাড়ের জন্য।
 
 ### স্টোরেজের মূল্য
 
 **অবজেক্ট স্টোরেজ** (প্রতি GB/মাস, প্রথম 50 TB):
 
-| প্রদানকারী | Standard | Infrequent Access | Archive |
+| প্রদানকারী | স্ট্যান্ডার্ড | কম ঘন ঘন প্রবেশ | আর্কাইভ |
 |----------|----------|-------------------|---------|
 | **AWS S3** | 0.023 ডলার | 0.0125 ডলার | 0.004 ডলার |
 | **Azure Blob** | 0.0184 ডলার | 0.01 ডলার | 0.002 ডলার |
@@ -437,7 +437,7 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 
 **ব্লক স্টোরেজ** (SSD, প্রতি GB/মাস):
 
-| প্রদানকারী | Standard SSD | উচ্চ-কার্যক্ষম SSD |
+| প্রদানকারী | স্ট্যান্ডার্ড SSD | উচ্চ-কার্যক্ষম SSD |
 |----------|--------------|---------------------|
 | **AWS EBS** | 0.10 ডলার (gp3) | 0.125 ডলার (io2) |
 | **Azure Managed Disks** | 0.12 ডলার (Premium SSD) | 0.18 ডলার (Ultra Disk) |
@@ -511,11 +511,11 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 - অপ্টিমাইজেশন সুপারিশের জন্য Azure Cost Management + Billing ব্যবহার
 
 **Google Cloud খরচ অপ্টিমাইজেশন**:
-- Committed Use Discounts-এ সর্বোচ্চ 57% সাশ্রয়
-- মাসের 25%-এর বেশি চলা VM-এ স্বয়ংক্রিয় Sustained Use Discounts
+- নির্দিষ্ট মেয়াদের ব্যবহারের ছাড়ে (Committed Use Discounts) সর্বোচ্চ 57% সাশ্রয়
+- মাসের 25%-এর বেশি সময় চলা VM-এ দীর্ঘ সময় ব্যবহারের স্বয়ংক্রিয় ছাড় (Sustained Use Discounts)
 - Preemptible VM-এ সর্বোচ্চ 80% ছাড়
 - প্রতি-সেকেন্ড বিলিং; ন্যূনতম সময় নেই, প্রকৃত ব্যবহারের মূল্যই দিন
-- পূর্বানুমানযোগ্য অ্যানালিটিক্স খরচে BigQuery flat-rate slots
+- পূর্বানুমানযোগ্য অ্যানালিটিক্স খরচে BigQuery-এর নির্দিষ্ট-দরভিত্তিক স্লট
 - AI-চালিত সুপারিশের জন্য Active Assist
 
 ## কর্মক্ষমতা ও নির্ভরযোগ্যতার তুলনা
@@ -564,7 +564,7 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 | টুল | AWS | Azure | Google Cloud |
 |------|-----|-------|--------------|
 | **স্থানীয় ব্যবস্থাপনা** | Control Tower (শুধু AWS) | Arc (Azure + অন্যান্য) | Anthos (GCP + অন্যান্য) |
-| **কোড হিসেবে অবকাঠামো** | CloudFormation | ARM templates, Bicep | Deployment Manager |
+| **কোড হিসেবে অবকাঠামো** | CloudFormation | ARM টেমপ্লেট, Bicep | Deployment Manager |
 | **ক্লাউডজুড়ে IaC** | Terraform, Pulumi | Terraform, Pulumi | Terraform, Pulumi |
 | **পর্যবেক্ষণ** | CloudWatch | Azure Monitor | Cloud Operations |
 | **ক্লাউডজুড়ে পর্যবেক্ষণ** | Datadog, New Relic, Dynatrace | Datadog, New Relic, Dynatrace | Datadog, New Relic, Dynatrace |
@@ -649,7 +649,7 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 - Apache Beam-ভিত্তিক ব্যাচ ও স্ট্রিম প্রক্রিয়াকরণে Dataflow
 - Pub/Sub, কম লেটেন্সির বৈশ্বিক মেসেজিং
 - Vertex AI, একীভূত ML প্ল্যাটফর্ম
-- BigQuery omni-cloud, TensorFlow ও Kubeflow-সহ ওপেন-সোর্সবান্ধব
+- BigQuery Omni (মাল্টি-ক্লাউড বিশ্লেষণ), TensorFlow ও Kubeflow-সহ ওপেন-সোর্সবান্ধব
 
 **AWS দিয়ে সম্পূরক করুন**:
 - কিছু ML ব্যবহারে SageMaker
@@ -755,27 +755,27 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 - দ্রুততম মাইগ্রেশন, কয়েক সপ্তাহ থেকে কয়েক মাস
 - পরিবর্তন কম, ঝুঁকিও কম
 - ক্লাউডের সুবিধা পুরোপুরি কাজে লাগে না
-- **উপযোগী**: সময়-সংবেদনশীল মাইগ্রেশন, প্রথম ক্লাউড গ্রহণ
+- উপযোগী: সময়-সংবেদনশীল মাইগ্রেশন, প্রথম ক্লাউড গ্রহণ
 
-**Replatform (“Lift and Reshape”)**:
+**Replatform (অ্যাপ্লিকেশন সামঞ্জস্য করে নতুন প্ল্যাটফর্মে নেওয়া)**:
 - মাইগ্রেশনের সময় সামান্য অপ্টিমাইজেশন
 - পরিচালিত ডেটাবেসে যান, CDN ব্যবহার করুন, অটোস্কেলিং চালু করুন
 - মাঝারি পরিশ্রম ও ঝুঁকি
 - পুরো স্থাপত্য না বদলিয়েও কিছু ক্লাউড সুবিধা
-- **উপযোগী**: বাস্তবসম্মত ক্লাউড গ্রহণ
+- উপযোগী: বাস্তবসম্মত ক্লাউড গ্রহণ
 
 **Refactor (Re-architect)**:
 - ক্লাউড-নেটিভ স্থাপত্যে নতুন নকশা
 - কন্টেইনার, সার্ভারবিহীন প্রযুক্তি, মাইক্রোসার্ভিস
 - সর্বোচ্চ পরিশ্রম, সর্বোচ্চ সুবিধা
 - স্কেলযোগ্যতা, স্থিতিস্থাপকতা ও ব্যয় সাশ্রয়ের পূর্ণ সুবিধা
-- **উপযোগী**: গুরুত্বপূর্ণ অ্যাপ ও দীর্ঘমেয়াদি বিনিয়োগ
+- উপযোগী: গুরুত্বপূর্ণ অ্যাপ ও দীর্ঘমেয়াদি বিনিয়োগ
 
 **Repurchase (SaaS)**:
 - SaaS বিকল্প দিয়ে প্রতিস্থাপন
 - প্রযুক্তিগত মাইগ্রেশন কম, মূলত ডেটা স্থানান্তর
 - রক্ষণাবেক্ষণের চাপ কমে
-- **উপযোগী**: সাধারণ অ্যাপ, যেমন ইমেইল, CRM, HR
+- উপযোগী: সাধারণ অ্যাপ, যেমন ইমেইল, CRM, HR
 
 **Retire**:
 - অপ্রয়োজনীয় অ্যাপ বন্ধ করুন
@@ -789,7 +789,7 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 | **সার্ভার মাইগ্রেশন** | Application Migration Service | Azure Migrate | Migrate for Compute Engine |
 | **ডেটাবেস মাইগ্রেশন** | Database Migration Service | Database Migration Service | Database Migration Service |
 | **ডেটা স্থানান্তর** | DataSync, Snow Family | Data Box, File Sync | Transfer Service, Transfer Appliance |
-| **মূল্যায়ন** | Migration Hub | Azure Migrate assessments | CloudPhysics, Stratozone |
+| **মূল্যায়ন** | Migration Hub | Azure Migrate-এর স্থানান্তর মূল্যায়ন | CloudPhysics, Stratozone |
 
 **তৃতীয় পক্ষের টুল**: CloudEndure (AWS-এর মালিকানাধীন), RiverMeadow, Zerto, Carbonite।
 
