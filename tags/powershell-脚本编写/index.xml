@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PowerShell 脚本编写 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>PowerShell 脚本编写 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/powershell-%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99/</link></image><link>https://zh.simeononsecurity.com/tags/powershell-%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99/</link><description>Recent content in PowerShell 脚本编写 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/powershell-%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell 脚本编写</title><link>https://zh.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "编程"
+, "自动化"
+, "Windows"
+, "脚本编写"
+, "IT"
+, "管理任务"
+, "计算机管理"
+, "软件开发"
+, "编码"</category><guid>https://zh.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过这份面向初学者的分步指南，学习 PowerShell 脚本基础知识并自动执行任务，内容涵盖 cmdlet、循环、函数等。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.webp" length="52314" type="image/webp"/></item></channel></rss>

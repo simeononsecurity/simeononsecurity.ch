@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>防火墙配置 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>防火墙配置 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99%E9%85%8D%E7%BD%AE/</link></image><link>https://zh.simeononsecurity.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99%E9%85%8D%E7%BD%AE/</link><description>Recent content in 防火墙配置 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Wed, 22 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows Task Scheduler 与 Linux Cron 的安全性比较</title><link>https://zh.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "操作系统"
+, "系统自动化"
+, "安全工具"
+, "计算机技术"
+, "任务调度"
+, "网络安全防护"
+, "系统管理"
+, "网络防御"
+, "IT 管理"</category><guid>https://zh.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从网络安全和系统加固的角度比较 Windows Task Scheduler 与 Linux Cron 任务。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>掌握最小权限原则</title><link>https://zh.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "Linux 安全"
+, "访问控制"
+, "IT 安全"
+, "网络防护"
+, "信息保护"
+, "数据隐私"
+, "网络威胁"
+, "风险管理"
+, "安全最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过在 Linux 上实施最小权限访问控制来强化网络安全。了解实施步骤、最佳实践和问题排查方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>Windows 10 和 11 的系统加固最佳实践</title><link>https://zh.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows 加固"
+, "Windows 安全"
+, "Windows 10 加固"
+, "Windows 11 加固"
+, "Windows 安全最佳实践"
+, "Windows 安全提示"
+, "视窗安全指南"
+, "确保 Windows 操作系统的安全"
+, "Windows 系统加固"
+, "视窗安全措施"</category><guid>https://zh.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过全面的加固技术和最佳实践，了解增强 Windows 10 和 Windows 11 系统安全性的有效策略。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.webp" length="55200" type="image/webp"/></item></channel></rss>

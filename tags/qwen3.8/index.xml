@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qwen3.8 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>Qwen3.8 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/qwen3.8/</link></image><link>https://zh.simeononsecurity.com/tags/qwen3.8/</link><description>Recent content in Qwen3.8 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/qwen3.8/index.xml" rel="self" type="application/rss+xml"/><item><title>如何选择不受审查的本地 AI 模型</title><link>https://zh.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "自托管 AI"
+, "AI 安全"
+, "GPU 设备"</category><guid>https://zh.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+根据完整回答、能力保留、上下文占用、量化方式和 VRAM 需求比较本地模型变体。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Hermes 本地模型基准测试：我会选择的 GPU 与模型组合</title><link>https://zh.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "本地 AI"
+, "硬件"</category><guid>https://zh.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+我对 Hermes 模型的建议来自在 RTX 5060 Ti、RTX 2000E Ada、RTX 3060 Ti 和 RTX 3070 系统上进行的长上下文、工具、流式输出和视觉测试。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>2x RTX 5060 Ti 对比 GB10：256K 上下文下五款模型的本地 AI 基准测试</title><link>https://zh.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "本地 AI"
+, "GPU 硬件"
+, "基准测试"
+, "计算机硬件"</category><guid>https://zh.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对比 RTX 5060 Ti 与 GB10 上的五款模型，并展示同一主机上 Qwen3.8 Flash-Next Strata 运行至 256K 上下文的基准测试。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>2026 年本地 AI：27B 模型超越 Sonnet 4.6，硬件购买窗口正在关闭</title><link>https://zh.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "自托管 AI"
+, "开源模型"
+, "AI 硬件"
+, "机器学习"
+, "量化"
+, "家庭实验室"
+, "隐私"
+, "AI 经济"
+, "消费级硬件"</category><guid>https://zh.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+根据模型大小、VRAM、内存带宽、功耗、成本和升级选项规划 2026 年本地 AI 主机。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>使用本地模型运行 Claude Cowork 和 Claude Code：2026 设置指南</title><link>https://zh.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "AI 编程工具"
+, "自托管 AI"
+, "开发者工具"
+, "隐私"
+, "开源模型"
+, "自动化"
+, "AI 硬件"</category><guid>https://zh.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过兼容 Anthropic 的 API 配置 Ollama 与 Claude Desktop、Claude Code。了解 2026 年的模型选择和云端专属功能。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item></channel></rss>

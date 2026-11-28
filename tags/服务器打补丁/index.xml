@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>服务器打补丁 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>服务器打补丁 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%93%E8%A1%A5%E4%B8%81/</link></image><link>https://zh.simeononsecurity.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%93%E8%A1%A5%E4%B8%81/</link><description>Recent content in 服务器打补丁 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%93%E8%A1%A5%E4%B8%81/index.xml" rel="self" type="application/rss+xml"/><item><title>为存在漏洞的服务器安装补丁：最佳实践</title><link>https://zh.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"服务器安全"
+, "漏洞管理"
+, "补丁管理"
+, "网络安全"
+, "服务器打补丁"
+, "威胁态势"
+, "渗透测试"
+, "安全更新"
+, "软件补丁"
+, "IT 安全"
+, "数据保护"
+, "系统安全"
+, "风险管理"
+, "安全策略"
+, "预发布环境"
+, "软件漏洞"
+, "关键补丁"
+, "供应商补丁"
+, "安全公告"
+, "信息安全"</category><guid>https://zh.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何为存在漏洞的服务器安装安全补丁，并通过最佳实践防止恶意攻击。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_shield.webp" length="98810" type="image/webp"/></item></channel></rss>

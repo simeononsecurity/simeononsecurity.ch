@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>全系统广告拦截 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>全系统广告拦截 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%85%A8%E7%B3%BB%E7%BB%9F%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%85%A8%E7%B3%BB%E7%BB%9F%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA/</link><description>Recent content in 全系统广告拦截 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%85%A8%E7%B3%BB%E7%BB%9F%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 10 系统范围的广告拦截器脚本，可提供更好的隐私和安全性</title><link>https://zh.simeononsecurity.com/github/system-wide-windows-ad-blocker/</link><pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate><category>
+"视窗 10"
+, "广告拦截器"
+, "遥测阻塞"
+, "PowerShell脚本"
+, "全系统广告拦截"
+, "隐私"
+, "安全"</category><guid>https://zh.simeononsecurity.com/github/system-wide-windows-ad-blocker/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用 PowerShell 脚本在 Windows 中屏蔽 StevenBlack 列表中的域名，同时保留 hosts 文件中的自定义条目。</description></item></channel></rss>

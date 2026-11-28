@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>敏感数据保护 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>敏感数据保护 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E6%95%8F%E6%84%9F%E6%95%B0%E6%8D%AE%E4%BF%9D%E6%8A%A4/</link></image><link>https://zh.simeononsecurity.com/tags/%E6%95%8F%E6%84%9F%E6%95%B0%E6%8D%AE%E4%BF%9D%E6%8A%A4/</link><description>Recent content in 敏感数据保护 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E6%95%8F%E6%84%9F%E6%95%B0%E6%8D%AE%E4%BF%9D%E6%8A%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>提升网络韧性：定期渗透测试的重要性</title><link>https://zh.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</link><pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate><category>
+"渗透测试"
+, "道德黑客"
+, "网络安全策略"
+, "安全措施"
+, "漏洞评估"
+, "事件响应"
+, "法规遵循"
+, "安全控制"
+, "网络韧性"
+, "网络安全的未来"</category><guid>https://zh.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解定期渗透测试如何发现可利用的弱点、支持基于风险的修复，并验证系统与应用程序的防御能力。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/the-importance-of-regular-penetration-testing-for-cybersecurity.webp" length="85258" type="image/webp"/></item><item><title>掌握 OPSEC：数字安全的 6 个关键步骤</title><link>https://zh.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "数字安全"
+, "行动安全"
+, "在线隐私"
+, "数据保护"
+, "信息安全"
+, "互联网安全"
+, "网络防御"
+, "安全措施"
+, "在线威胁"</category><guid>https://zh.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解六个 OPSEC 关键步骤，保护你的数字形象并加强网络安全。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/OPSEC_Steps_Security.webp" length="216778" type="image/webp"/></item><item><title>保护受控非密信息</title><link>https://zh.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</link><pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate><category>
+"数据安全"
+, "信息保护"
+, "隐私管理"
+, "敏感信息处理"
+, "网络安全"
+, "合规"
+, "风险管理"
+, "信息治理"
+, "数据保密"
+, "信息保障"</category><guid>https://zh.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解保护受控非密信息（CUI）的重要性，并学习有效保护敏感数据的方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/CUI-Safeguarding-Sensitive-Data.webp" length="96388" type="image/webp"/></item><item><title>NIST认可的可移动介质清除方法</title><link>https://zh.simeononsecurity.com/articles/nist-800-88-ways-of-sanitizing-removable-media/</link><pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate><category>
+"NIST认可的方法"
+, "可移动介质清除"
+, "硬盘"
+, "SSD"
+, "USB闪存盘"
+, "CD"
+, "DVD"
+, "蓝光光盘"
+, "数据安全"
+, "敏感数据保护"</category><guid>https://zh.simeononsecurity.com/articles/nist-800-88-ways-of-sanitizing-removable-media/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解NIST认可的硬盘、SSD、USB闪存盘和光盘清除方法，防止敏感数据遭未经授权访问。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp" length="91898" type="image/webp"/></item></channel></rss>

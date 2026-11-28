@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>用户身份验证 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>用户身份验证 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E7%94%A8%E6%88%B7%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81/</link></image><link>https://zh.simeononsecurity.com/tags/%E7%94%A8%E6%88%B7%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81/</link><description>Recent content in 用户身份验证 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 14 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E7%94%A8%E6%88%B7%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81/index.xml" rel="self" type="application/rss+xml"/><item><title>保护 Active Directory</title><link>https://zh.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "网络管理"
+, "信息技术"
+, "数据保护"
+, "企业安全"
+, "数字基础设施"
+, "访问控制"
+, "用户身份验证"
+, "IT 最佳实践"
+, "安全意识"</category><guid>https://zh.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解保护 Active Directory、保障数据安全并防止网络基础设施遭受入侵的关键方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item><item><title>掌握最小权限原则</title><link>https://zh.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "Linux 安全"
+, "访问控制"
+, "IT 安全"
+, "网络防护"
+, "信息保护"
+, "数据隐私"
+, "网络威胁"
+, "风险管理"
+, "安全最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过在 Linux 上实施最小权限访问控制来强化网络安全。了解实施步骤、最佳实践和问题排查方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>用于访问控制的生物识别安全技术</title><link>https://zh.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</link><pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "安全"
+, "生物识别"
+, "访问控制"
+, "指纹扫描仪"
+, "人脸识别"
+, "Amazon 产品"
+, "数字安全"
+, "创新"
+, "隐私"</category><guid>https://zh.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Amazon 上提供的指纹扫描仪和人脸识别设备，借助先进的生物识别技术加强访问控制并提升安全感。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/biometric-access-control-fingerprint-facial-recognition-devices-amazon.webp" length="183044" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安全最佳实践 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>安全最佳实践 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E5%AE%89%E5%85%A8%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</link></image><link>https://zh.simeononsecurity.com/genre/%E5%AE%89%E5%85%A8%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</link><description>Recent content in 安全最佳实践 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E5%AE%89%E5%85%A8%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/index.xml" rel="self" type="application/rss+xml"/><item><title>加强电子商务安全</title><link>https://zh.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</link><pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate><category>
+"电子商务安全"
+, "网络安全"
+, "数据保护"
+, "在线业务"
+, "网站安全"
+, "客户信任"
+, "安全交易"
+, "SSL 加密"
+, "密码策略"
+, "安全最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过 TLS、管理员 MFA、软件更新、支付控制、加密、监控、员工培训、防欺诈措施和事件响应保护在线商店。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/the-2024-checklist-for-securing-your-e-commerce-site.webp" length="88770" type="image/webp"/></item><item><title>安全自动化：强化数字防御指南</title><link>https://zh.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><category>
+"安全自动化"
+, "网络安全"
+, "安全领域的机器学习"
+, "自动化合规监控"
+, "安全编排"
+, "事件响应"
+, "持续改进"
+, "安全人工监督"
+, "威胁检测与响应"
+, "安全最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过明确的使用场景、工具集成、人工审核、告警调优、指标和机器学习系统控制来规划安全自动化。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/mastering-security-automation_-streamlining-processes-for-enhanced-protection.webp" length="253188" type="image/webp"/></item><item><title>增强网络安全</title><link>https://zh.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "Windows 组策略"
+, "缩小攻击面"
+, "IT 安全"
+, "网络防护"
+, "数据保护"
+, "数字韧性"
+, "系统加固"
+, "安全最佳实践"
+, "风险缓解"</category><guid>https://zh.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何通过 Windows 组策略设置缩小攻击面并增强防护。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Cybersecurity_Shield_Defense.webp" length="129592" type="image/webp"/></item><item><title>掌握最小权限原则</title><link>https://zh.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "Linux 安全"
+, "访问控制"
+, "IT 安全"
+, "网络防护"
+, "信息保护"
+, "数据隐私"
+, "网络威胁"
+, "风险管理"
+, "安全最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过在 Linux 上实施最小权限访问控制来强化网络安全。了解实施步骤、最佳实践和问题排查方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item></channel></rss>

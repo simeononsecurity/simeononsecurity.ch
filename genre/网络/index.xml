@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>网络 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>网络 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E7%BD%91%E7%BB%9C/</link></image><link>https://zh.simeononsecurity.com/genre/%E7%BD%91%E7%BB%9C/</link><description>Recent content in 网络 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture：2026 年配置 AI 客户端的推理和 MCP</title><link>https://zh.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "开发工具"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过 Tailscale Aperture 转发模型请求和 MCP 工具。为另一台设备或网关配置 Codex、Claude Code、Claude Desktop、OpenCode 和 Hermes。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>使用 VPN 检查浏览器的 DNS 和 WebRTC 泄漏</title><link>https://zh.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"隐私"
+, "浏览器"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+连接 VPN 前后检查浏览器的公网 IP、DNS 解析器和 WebRTC 地址。解读结果并排查路由问题。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>规划并测试 homelab 的 VLAN 分段</title><link>https://zh.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "网络安全"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+为 homelab 制定 VLAN 方案，将可信设备、服务器、IoT 和访客分隔开。记录允许的流量，分阶段配置网络，并测试隔离效果。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Meshtastic、MeshCore 与 Reticulum 对比</title><link>https://zh.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "网状网络"
+, "离网通信"
+, "应急通信"
+, "业余无线电"
+, "开源"
+, "灾害准备"
+, "无线网络"
+, "隐私"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从路由、空中占用时间、基础设施、传输方式和离网用途比较 Meshtastic、MeshCore 与 Reticulum。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>现场部署的供电与环境韧性</title><link>https://zh.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"边缘计算"
+, "现场 IT"
+, "供电系统"
+, "硬件"
+, "灾难恢复"
+, "坚固型计算"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+为现场边缘计算规划供电和环境防护。了解 UPS 容量计算、太阳能板、电池、时间同步、防护等级、接地和浪涌保护。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>现场可部署边缘计算：硬件与机箱选择</title><link>https://zh.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"边缘计算"
+, "现场 IT"
+, "硬件"
+, "家庭实验室"
+, "加固型计算设备"
+, "网络"
+, "灾难恢复"
+, "小型企业 IT"</category><guid>https://zh.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+现场边缘计算硬件与机箱选型指南，涵盖计算设备、机架、散热、存储、管理、布线和电源兼容性。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>值得关注的家庭实验室内容创作者</title><link>https://zh.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络"
+, "DIY"
+, "虚拟化"
+, "家庭实验室"
+, "技术爱好者"
+, "社区"
+, "学习"
+, "创新"
+, "指南"</category><guid>https://zh.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+认识有影响力的家庭实验室创作者，与爱好者交流，开启技术探索之旅。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item><item><title>如何部署无线接入点以优化 Wi-Fi 覆盖</title><link>https://zh.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络"
+, "无线网络"
+, "无线接入点"
+, "Wi-Fi 安装"
+, "网络优化"
+, "家庭网络"
+, "无线连接"
+, "物联网"
+, "网络解决方案"</category><guid>https://zh.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何合理部署无线接入点，改善无线连接、减少干扰，并保持网络稳定运行。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp"/></item><item><title>网络基础：什么是 IP 地址？IPv4 与 IPv6 有何区别？</title><link>https://zh.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><category>
+"网络"
+, "IP 地址"
+, "互联网协议"
+, "IPv4"
+, "IPv6"
+, "网络通信"
+, "互联网连接"
+, "技术"
+, "网络基础设施"
+, "互联网安全"</category><guid>https://zh.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 IP 地址的基础知识、IPv4 与 IPv6 的区别、它们的重要性，以及采用 IPv6 的意义。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_image_of_two_devices_with_speech_bub.webp" length="90028" type="image/webp"/></item><item><title>网络基础：交换机、路由器、防火墙与 DMZ</title><link>https://zh.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"网络"
+, "IT 基础设施"
+, "网络安全"
+, "网络架构"
+, "网络防护"
+, "数据通信"
+, "信息技术"
+, "IT 基础"
+, "网络管理"
+, "互联网连接"</category><guid>https://zh.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解交换机、路由器、网关、子网、防火墙和 DMZ 如何划分网络流量并建立安全边界。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item><item><title>Network+ 课程：ARP 和邻居发现协议</title><link>https://zh.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络"
+, "协议"
+, "Network+ 认证"
+, "故障排除"
+, "网络安全"
+, "IPv4"
+, "IPv6"
+, "网络通信"
+, "地址解析"</category><guid>https://zh.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+学习如何有效利用地址解析协议（ARP）和邻居发现协议（NDP）将 IP 地址解析为 MAC 地址，导航 IPv6 网络，并排查常见问题，以优化网络性能和安全性。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_the_seamless.webp" length="89092" type="image/webp"/></item><item><title>面向连接与无连接通信的区别</title><link>https://zh.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络"
+, "通信"
+, "协议"
+, "计算机科学"
+, "数据传输"
+, "网络基础设施"
+, "互联网"
+, "信息技术"
+, "电信"</category><guid>https://zh.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解网络通信中面向连接与无连接方式的区别，以及相关协议、服务和路由方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_illustration_showing_two_devices_connected.webp" length="39168" type="image/webp"/></item><item><title>什么是家庭实验室？IT 专业人士的搭建指南</title><link>https://zh.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"家庭实验室"
+, "IT专业人士"
+, "学生"
+, "爱好者"
+, "网络"
+, "虚拟化"
+, "自动化"
+, "硬件"
+, "软件"
+, "最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+利用这本为IT专业人士、学生和爱好者设计的全面指南，释放您的家庭实验室潜力，涵盖设置、组件、高级主题和最佳实践。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp" length="167376" type="image/webp"/></item></channel></rss>

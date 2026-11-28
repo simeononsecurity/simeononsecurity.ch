@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安全文件系统 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>安全文件系统 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/</link><description>Recent content in 安全文件系统 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Mon, 22 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux 文件权限：完整指南</title><link>https://zh.simeononsecurity.com/articles/mastering-linux-file-permissions/</link><pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate><category>
+"Linux 文件权限"
+, "安全文件系统"
+, "访问控制"
+, "所有权"
+, "文件权限指南"
+, "Linux 安全"
+, "文件系统安全"
+, "chmod 命令"
+, "chown 命令"
+, "文件权限审计"
+, "最小权限原则"
+, "法规合规"
+, "GDPR"
+, "HIPAA"
+, "权限审查"
+, "法规文档"
+, "系统安全"
+, "网络安全"
+, "加密"
+, "用户管理"</category><guid>https://zh.simeononsecurity.com/articles/mastering-linux-file-permissions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+学习管理 Linux 文件权限、控制文件所有权并采用实用措施，保护文件系统。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp" length="115180" type="image/webp"/></item></channel></rss>

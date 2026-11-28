@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>防火墙规则 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>防火墙规则 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99%E8%A7%84%E5%88%99/</link></image><link>https://zh.simeononsecurity.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99%E8%A7%84%E5%88%99/</link><description>Recent content in 防火墙规则 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99%E8%A7%84%E5%88%99/index.xml" rel="self" type="application/rss+xml"/><item><title>规划并测试 homelab 的 VLAN 分段</title><link>https://zh.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "网络安全"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+为 homelab 制定 VLAN 方案，将可信设备、服务器、IoT 和访客分隔开。记录允许的流量，分阶段配置网络，并测试隔离效果。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Windows 注册表与 Linux 配置文件对比</title><link>https://zh.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link><pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "操作系统"
+, "安全管理"
+, "计算机技术"
+, "数据保护"
+, "系统配置"
+, "IT 安全"
+, "网络安全"
+, "技术比较"
+, "信息安全"</category><guid>https://zh.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较 Windows 注册表与 Linux 配置文件的安全特性，并了解强化这两类系统的实用措施。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp"/></item></channel></rss>

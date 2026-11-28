@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tailscale on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>Tailscale on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/tailscale/</link></image><link>https://zh.simeononsecurity.com/tags/tailscale/</link><description>Recent content in Tailscale on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/tailscale/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture：2026 年配置 AI 客户端的推理和 MCP</title><link>https://zh.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "开发工具"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过 Tailscale Aperture 转发模型请求和 MCP 工具。为另一台设备或网关配置 Codex、Claude Code、Claude Desktop、OpenCode 和 Hermes。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>从 Pi-hole 到本地 AI，分 10 个阶段搭建家庭实验室</title><link>https://zh.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"家庭实验室"
+, "自托管"
+, "本地 AI"
+, "家庭网络"</category><guid>https://zh.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+分十个实用阶段搭建家庭实验室，从全网 DNS 过滤到本地 AI，并介绍各阶段的硬件、成本、技能和取舍。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>深入了解我们的混合式智能体 AI 集群：Hermes、LiteLLM 与 Tailscale</title><link>https://zh.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "自托管 AI"
+, "AI 智能体"
+, "AI 基础设施"
+, "GPU 挖矿"</category><guid>https://zh.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解经过验证的按需加载本地 AI 集群，以及使用 Hermes、LiteLLM、Tailscale Aperture 和 Pearl 挖矿的 T0 至 T4 控制平面。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>Tailscale 为什么使用中继：直连、DERP 和对等中继</title><link>https://zh.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Network Security"
+, "Self-Hosted"</category><guid>https://zh.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Tailscale 使用中继的原因、如何阅读 status 和 netcheck 输出，以及何时需要排查 DERP 或对等中继连接。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/why-tailscale-uses-a-relay.webp" length="103974" type="image/webp"/></item><item><title>为什么端口转发在 T-Mobile Home Internet 上不起作用</title><link>https://zh.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Self-Hosted"
+, "Network Security"</category><guid>https://zh.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 T-Mobile 5G Home Internet 的端口转发限制、运营商 NAT，以及无需公共入站端口访问家用服务器的实用方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/t-mobile-home-internet-port-forwarding.webp" length="103506" type="image/webp"/></item></channel></rss>

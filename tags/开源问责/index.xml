@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>开源问责 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>开源问责 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%BC%80%E6%BA%90%E9%97%AE%E8%B4%A3/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%BC%80%E6%BA%90%E9%97%AE%E8%B4%A3/</link><description>Recent content in 开源问责 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%BC%80%E6%BA%90%E9%97%AE%E8%B4%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>我们标出了146,526台“Flock摄像头”，其中50,278台是ClickShare系统</title><link>https://zh.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link><pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate><category>
+"安全研究"
+, "隐私技术"
+, "开源项目"
+, "数据新闻"
+, "反监控"</category><guid>https://zh.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder审计发现ClickShare等误报，说明证据依据，并记录由此实施的更改。</description></item></channel></rss>

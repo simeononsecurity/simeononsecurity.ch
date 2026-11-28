@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>自托管 VPN on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>自托管 VPN on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E8%87%AA%E6%89%98%E7%AE%A1-vpn/</link></image><link>https://zh.simeononsecurity.com/tags/%E8%87%AA%E6%89%98%E7%AE%A1-vpn/</link><description>Recent content in 自托管 VPN on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E8%87%AA%E6%89%98%E7%AE%A1-vpn/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale 与 Headscale 对比</title><link>https://zh.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "网络安全"
+, "自托管"
+, "WireGuard"
+, "零信任"
+, "网状网络"
+, "开源"
+, "云基础设施"
+, "远程访问"
+, "网络管理"</category><guid>https://zh.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从托管模式、身份管理、功能、成本、运维和支持等方面比较 Tailscale 与 Headscale，帮助你选择符合需求的 WireGuard 网状 VPN。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item></channel></rss>

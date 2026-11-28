@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNS 故障排查 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>DNS 故障排查 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/dns-%E6%95%85%E9%9A%9C%E6%8E%92%E6%9F%A5/</link></image><link>https://zh.simeononsecurity.com/tags/dns-%E6%95%85%E9%9A%9C%E6%8E%92%E6%9F%A5/</link><description>Recent content in DNS 故障排查 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/dns-%E6%95%85%E9%9A%9C%E6%8E%92%E6%9F%A5/index.xml" rel="self" type="application/rss+xml"/><item><title>为什么 DNS 过滤会被绕过：检查解析器路径</title><link>https://zh.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"家庭网络"
+, "DNS"
+, "隐私"</category><guid>https://zh.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+查明设备或浏览器绕过 DNS 过滤的原因。比较直接查询和默认查询，检查日志，再核对加密 DNS、VPN、IPv6 和路由器设置。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>优化网络：掌握 DNS 配置</title><link>https://zh.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><category>
+"网络管理"
+, "网络安全"
+, "IT 基础设施"
+, "技术解决方案"
+, "互联网技术"
+, "DNS 优化"
+, "网络性能"
+, "数字安全"
+, "互联网连接"
+, "技术指南"</category><guid>https://zh.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过了解 DNS 改善网络。了解 DNS 如何影响连接、性能和安全，然后优化配置。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp"/></item><item><title>DNS 如何工作：根 DNS 的作用与故障排查</title><link>https://zh.simeononsecurity.com/articles/how-does-dns-work/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><category>
+"DNS 基础"
+, "根 DNS"
+, "域名系统"
+, "DNS 解析"
+, "DNS 层级"
+, "DNS 缓存"
+, "DNS 故障排查"
+, "DNS 记录"
+, "DNS 管理"
+, "DNS 命令"</category><guid>https://zh.simeononsecurity.com/articles/how-does-dns-work/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 DNS 与根 DNS 的层级结构、名称解析流程、缓存机制和故障排查方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_image_depicting_interconnected_computer_ne.webp" length="167680" type="image/webp"/></item></channel></rss>

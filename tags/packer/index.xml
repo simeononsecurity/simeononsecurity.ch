@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Packer on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>Packer on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/packer/</link></image><link>https://zh.simeononsecurity.com/tags/packer/</link><description>Recent content in Packer on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/packer/index.xml" rel="self" type="application/rss+xml"/><item><title>使用 Packer 实现基础设施即代码</title><link>https://zh.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"Packer"
+, "基础设施即代码"
+, "开发与运维"
+, "自动化"
+, "安全"
+, "可重复性"
+, "可扩展性"
+, "多平台"
+, "版本控制"
+, "云计算"
+, "机器映像"
+, "虚拟化"
+, "配置管理"
+, "持续集成"
+, "持续交付"
+, "软件开发"
+, "最佳实践"
+, "测试"
+, "开源"
+, "多云"</category><guid>https://zh.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何使用 Packer 创建易于维护且安全的机器映像。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.webp" length="175658" type="image/webp"/></item></channel></rss>

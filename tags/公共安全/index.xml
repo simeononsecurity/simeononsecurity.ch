@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>公共安全 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>公共安全 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%85%AC%E5%85%B1%E5%AE%89%E5%85%A8/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%85%AC%E5%85%B1%E5%AE%89%E5%85%A8/</link><description>Recent content in 公共安全 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%85%AC%E5%85%B1%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock摄像头：公共安全工具还是无证监控机器？</title><link>https://zh.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"隐私"
+, "监控"
+, "公民自由"
+, "执法技术"
+, "数字权利"</category><guid>https://zh.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对Flock Safety ALPR摄像头的独立分析：它们的实际工作原理、除车牌之外收集的数据、数据共享如何创建隐蔽的全国数据库，以及为何搜查令问题才是真正的核心问题。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-safety-cameras-public-safety-surveillance.webp" length="257030" type="image/webp"/></item><item><title>Flock Safety 摄像头安全漏洞：发现 50 多项缺陷</title><link>https://zh.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"安全研究"
+, "漏洞分析"
+, "监控技术"
+, "网络安全"
+, "隐私保护"
+, "物联网安全"
+, "物理安全"
+, "网络安全"
+, "关键基础设施"
+, "政府技术"</category><guid>https://zh.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对 Flock Safety 摄像头漏洞的研究分析了暴露的凭据、薄弱的防护、物理访问风险和披露流程的局限。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item></channel></rss>

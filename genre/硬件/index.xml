@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>硬件 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>硬件 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E7%A1%AC%E4%BB%B6/</link></image><link>https://zh.simeononsecurity.com/genre/%E7%A1%AC%E4%BB%B6/</link><description>Recent content in 硬件 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E7%A1%AC%E4%BB%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>Hermes 本地模型基准测试：我会选择的 GPU 与模型组合</title><link>https://zh.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "本地 AI"
+, "硬件"</category><guid>https://zh.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+我对 Hermes 模型的建议来自在 RTX 5060 Ti、RTX 2000E Ada、RTX 3060 Ti 和 RTX 3070 系统上进行的长上下文、工具、流式输出和视觉测试。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>2026 年 Pearl (PRL) 挖矿指南：配置、收益与链的实用性</title><link>https://zh.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"加密货币"
+, "GPU 挖矿"
+, "AI 计算"
+, "DePIN"
+, "区块链"
+, "Linux"
+, "家庭实验室"
+, "硬件"</category><guid>https://zh.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用 SRBMiner 配置 Pearl PRL 挖矿，了解有用工作量证明，估算利润并评估区块链的实际用途。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp" length="266670" type="image/webp"/></item><item><title>现场 IT 小贴士：超越迷你数据中心</title><link>https://zh.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"现场 IT"
+, "边缘计算"
+, "IT 运维"
+, "灾难恢复"
+, "硬件"
+, "最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+关于备件、文档、ESD、固件、启动介质、许可、实体安全、出行和保险的实用现场 IT 指南。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp"/></item><item><title>现场部署的供电与环境韧性</title><link>https://zh.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"边缘计算"
+, "现场 IT"
+, "供电系统"
+, "硬件"
+, "灾难恢复"
+, "坚固型计算"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+为现场边缘计算规划供电和环境防护。了解 UPS 容量计算、太阳能板、电池、时间同步、防护等级、接地和浪涌保护。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>现场可部署边缘计算：硬件与机箱选择</title><link>https://zh.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"边缘计算"
+, "现场 IT"
+, "硬件"
+, "家庭实验室"
+, "加固型计算设备"
+, "网络"
+, "灾难恢复"
+, "小型企业 IT"</category><guid>https://zh.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+现场边缘计算硬件与机箱选型指南，涵盖计算设备、机架、散热、存储、管理、布线和电源兼容性。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>终极 IT 工具包：必备工具、硬件与数码配件</title><link>https://zh.simeononsecurity.com/articles/ultimate-it-toolkit-essential-tools-gadgets/</link><pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate><category>
+"信息技术"
+, "效率"
+, "硬件"
+, "软件"
+, "网络安全"
+, "技术工具"
+, "网络管理"
+, "远程桌面"
+, "办公配件"
+, "科技小工具"</category><guid>https://zh.simeononsecurity.com/articles/ultimate-it-toolkit-essential-tools-gadgets/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何借助面向专业人士的完整工具包提升 IT 工作效率，涵盖实用软件、硬件和配件。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/IT-Toolkit-Essential-Tools-Gadgets.webp" length="133374" type="image/webp"/></item><item><title>Synology、TerraMaster 与 QNAP 对比</title><link>https://zh.simeononsecurity.com/articles/synology-terramaster-qnap-nas-comparison/</link><pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络存储"
+, "NAS 对比"
+, "数据管理"
+, "技术评测"
+, "网络解决方案"
+, "硬件"
+, "数据安全"
+, "存储解决方案"
+, "IT 基础设施"</category><guid>https://zh.simeononsecurity.com/articles/synology-terramaster-qnap-nas-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+全面比较 Synology、TerraMaster 和 QNAP NAS 系统的功能、性能与数据安全。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/nas_comparison_race.webp" length="88326" type="image/webp"/></item><item><title>什么是家庭实验室？IT 专业人士的搭建指南</title><link>https://zh.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"家庭实验室"
+, "IT专业人士"
+, "学生"
+, "爱好者"
+, "网络"
+, "虚拟化"
+, "自动化"
+, "硬件"
+, "软件"
+, "最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+利用这本为IT专业人士、学生和爱好者设计的全面指南，释放您的家庭实验室潜力，涵盖设置、组件、高级主题和最佳实践。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp" length="167376" type="image/webp"/></item><item><title>更换 Nebra Helium Miner SD 卡：分步指南</title><link>https://zh.simeononsecurity.com/other/replacing-nebra-outdoor-indoor-miner-emmc-key/</link><pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate><category>
+"技术"
+, "加密货币"
+, "硬件"
+, "氦气开采"
+, "故障排除"
+, "更换 SD 卡"
+, "同步问题"
+, "树莓派"
+, "Balena Etcher"
+, "Nebra 氦气采矿机"</category><guid>https://zh.simeononsecurity.com/other/replacing-nebra-outdoor-indoor-miner-emmc-key/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过本指南了解如何更换或重新刷新 Nebra 室内和室外版、第一代和第二代 EMMC Key SD 卡，并修复 Helium Miner 同步问题。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_holding_a_Nebra_Helium_M.webp" length="96808" type="image/webp"/></item></channel></rss>

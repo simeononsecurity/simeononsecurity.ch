@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NeoPixel on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>NeoPixel on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/neopixel/</link></image><link>https://zh.simeononsecurity.com/tags/neopixel/</link><description>Recent content in NeoPixel on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/neopixel/index.xml" rel="self" type="application/rss+xml"/><item><title>Eye Spy：ESP32被动监控与追踪器检测器</title><link>https://zh.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"隐私工具"
+, "反监控"
+, "物联网安全"
+, "嵌入式系统"
+, "安全研究"
+, "WiFi安全"
+, "蓝牙安全"
+, "ESP32项目"
+, "硬件安全"
+, "开源安全"</category><guid>https://zh.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Eye Spy v1.1技术参考。这是一款基于ESP32的BLE与WiFi被动检测器，可识别摄像头、追踪器、无人机及相关信号。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>ESP32 WiFi Canary：被动检测 2.4 GHz 威胁</title><link>https://zh.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "WiFi 安全"
+, "物联网安全"
+, "安全研究"
+, "嵌入式系统"
+, "隐私工具"
+, "ESP32 项目"
+, "硬件安全"
+, "无线安全"
+, "开源安全"</category><guid>https://zh.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ESP32 WiFi Canary 技术解析。这款 2.4 GHz 被动传感器可检测 邪恶双胞胎攻击、解除认证、安全降级和信标泛洪。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>

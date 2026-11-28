@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>威胁检测 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>威胁检测 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E5%A8%81%E8%83%81%E6%A3%80%E6%B5%8B/</link></image><link>https://zh.simeononsecurity.com/genre/%E5%A8%81%E8%83%81%E6%A3%80%E6%B5%8B/</link><description>Recent content in 威胁检测 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E5%A8%81%E8%83%81%E6%A3%80%E6%B5%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>常见网络攻击类型及其检测方法</title><link>https://zh.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "威胁检测"
+, "蓝队"
+, "安全运营"
+, "职业发展"</category><guid>https://zh.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解常见网络攻击类型及其在日志和遥测数据中留下的证据，并在家庭安全实验室中练习检测。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item><item><title>AI 提升网络威胁检测与响应的 5 种方式</title><link>https://zh.simeononsecurity.com/articles/5-ways-ai-is-transforming-cyber-threat-detection/</link><pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate><category>
+"网络安全中的 AI"
+, "威胁检测"
+, "变革性技术"
+, "网络安全创新"
+, "数据分析"
+, "实时监控"
+, "安全中的机器学习"
+, "自然语言处理"
+, "深度学习"
+, "自动化响应"</category><guid>https://zh.simeononsecurity.com/articles/5-ways-ai-is-transforming-cyber-threat-detection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 AI 在威胁检测中的五种用途，包括异常分析、行为模型、恶意软件分类、实时监控和响应支持。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/5-ways-ai-is-transforming-cyber-threat-detection.webp" length="242224" type="image/webp"/></item><item><title>构建有韧性的 SOC</title><link>https://zh.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "技术"
+, "商业"
+, "数据保护"
+, "事件响应"
+, "IT 管理"
+, "网络安全"
+, "威胁检测"
+, "信息安全"
+, "风险管理"</category><guid>https://zh.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+建立稳健的安全运营中心（SOC），以应对网络威胁、发现安全事件并保护组织资产。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>强化防御：了解 EDR 网络安全解决方案</title><link>https://zh.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "技术"
+, "威胁检测"
+, "终端安全"
+, "事件响应"
+, "数据保护"
+, "网络防护"
+, "数字防御"
+, "IT 安全"
+, "网络韧性"</category><guid>https://zh.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 EDR 解决方案如何保护终端、检测威胁，并帮助组织选择合适的方案。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp"/></item><item><title>掌握 EDR 安全：端点保护指南</title><link>https://zh.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "端点保护"
+, "EDR 解决方案"
+, "威胁检测"
+, "事件响应"
+, "端点安全"
+, "网络威胁"
+, "IT 安全"
+, "数字防御"
+, "安全策略"</category><guid>https://zh.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 EDR 安全的工作原理、优势和实施挑战，以及保护端点的最佳做法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp"/></item><item><title>2026 年 AWS、Azure 与 Google Cloud 完整对比</title><link>https://zh.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"云计算"
+, "云安全"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "数据安全"
+, "加密"
+, "身份与访问管理"
+, "合规"
+, "威胁检测"</category><guid>https://zh.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对比 2026 年 AWS、Azure 和 Google Cloud 的价格、安全、合规、服务、性能与云服务商选择。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item></channel></rss>

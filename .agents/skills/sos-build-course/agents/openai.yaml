@@ -1,4 +1,0 @@
-interface:
-  display_name: "Build Courses and Quizzes"
-  short_description: "Create linked courses and validated question banks"
-  default_prompt: "Use $sos-build-course for the requested work in this repository."

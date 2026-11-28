@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Copy Fail on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>Copy Fail on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/copy-fail/</link></image><link>https://zh.simeononsecurity.com/tags/copy-fail/</link><description>Recent content in Copy Fail on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/copy-fail/index.xml" rel="self" type="application/rss+xml"/><item><title>2026年，容器已不再是安全边界</title><link>https://zh.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"容器安全"
+, "Linux"
+, "内核安全"
+, "虚拟化"
+, "云安全"
+, "威胁研究"
+, "蓝队"
+, "DevSecOps"</category><guid>https://zh.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年的内核漏洞揭示了多租户容器隔离为何不足。了解 Copy Fail、Dirty Frag、Fragnesia 和 CVE-2026-80521，并比较加固容器与 microVM 边界。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>网络防护 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>网络防护 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E7%BD%91%E7%BB%9C%E9%98%B2%E6%8A%A4/</link></image><link>https://zh.simeononsecurity.com/genre/%E7%BD%91%E7%BB%9C%E9%98%B2%E6%8A%A4/</link><description>Recent content in 网络防护 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E7%BD%91%E7%BB%9C%E9%98%B2%E6%8A%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>Ubiquiti UniFi 防火墙与 pfSense 对比</title><link>https://zh.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "防火墙解决方案"
+, "网络防护"
+, "路由器比较"
+, "技术"
+, "IT 解决方案"
+, "开源防火墙"
+, "Ubiquiti 与 pfSense"
+, "企业网络"
+, "家庭网络"</category><guid>https://zh.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较 Ubiquiti UniFi 防火墙与 pfSense，了解两者如何保护家庭和企业网络。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Ubiquiti_UniFi_Firewall_vs_pfSense.webp" length="192366" type="image/webp"/></item><item><title>最大限度提升网络与云安全</title><link>https://zh.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络安全"
+, "云安全"
+, "网络防护"
+, "数字安全"
+, "数据隐私"
+, "IT安全"
+, "企业技术"
+, "数字防御"
+, "网络威胁"</category><guid>https://zh.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解威胁、防护措施和案例，强化网络与云安全。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp"/></item><item><title>强化防御：了解 EDR 网络安全解决方案</title><link>https://zh.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "技术"
+, "威胁检测"
+, "终端安全"
+, "事件响应"
+, "数据保护"
+, "网络防护"
+, "数字防御"
+, "IT 安全"
+, "网络韧性"</category><guid>https://zh.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 EDR 解决方案如何保护终端、检测威胁，并帮助组织选择合适的方案。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp"/></item><item><title>增强网络安全</title><link>https://zh.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "Windows 组策略"
+, "缩小攻击面"
+, "IT 安全"
+, "网络防护"
+, "数据保护"
+, "数字韧性"
+, "系统加固"
+, "安全最佳实践"
+, "风险缓解"</category><guid>https://zh.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何通过 Windows 组策略设置缩小攻击面并增强防护。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Cybersecurity_Shield_Defense.webp" length="129592" type="image/webp"/></item><item><title>掌握最小权限原则</title><link>https://zh.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "Linux 安全"
+, "访问控制"
+, "IT 安全"
+, "网络防护"
+, "信息保护"
+, "数据隐私"
+, "网络威胁"
+, "风险管理"
+, "安全最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过在 Linux 上实施最小权限访问控制来强化网络安全。了解实施步骤、最佳实践和问题排查方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>掌握 Windows Server 安全</title><link>https://zh.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "IT 安全"
+, "服务器管理"
+, "网络安全"
+, "网络防护"
+, "数据完整性"
+, "IT 基础设施"
+, "最佳实践"
+, "服务器加固"
+, "Windows Server"</category><guid>https://zh.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何保护 Windows Server，从基础加固到高级防护技术，维护基础设施安全。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Windows_Server_Security_Shield_Protection.webp" length="101056" type="image/webp"/></item><item><title>强化家庭网络安全</title><link>https://zh.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</link><pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "家庭网络"
+, "硬件推荐"
+, "网络防护"
+, "数字隐私"
+, "在线安全"
+, "互联网安全"
+, "家庭组网"
+, "技术"
+, "智能家居"</category><guid>https://zh.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解保护家庭网络免受网络威胁所需的硬件，包括硬件防火墙、接入点和监控工具。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/fortified-network-security.webp" length="61592" type="image/webp"/></item><item><title>NextDNS：通过 DNS 过滤和拦截威胁提升在线安全</title><link>https://zh.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</link><pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "DNS 过滤"
+, "互联网安全"
+, "云服务"
+, "在线防护"
+, "网页过滤"
+, "隐私保护"
+, "DNS 拦截替代方案"
+, "网络防护"
+, "上网安全"</category><guid>https://zh.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 NextDNS。这项易用的 DNS 拦截服务通过自动更新和可自定义的过滤策略提升在线安全。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/nextdns_cybersecurity_shield.webp" length="98890" type="image/webp"/></item><item><title>网络基础：交换机、路由器、防火墙与 DMZ</title><link>https://zh.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"网络"
+, "IT 基础设施"
+, "网络安全"
+, "网络架构"
+, "网络防护"
+, "数据通信"
+, "信息技术"
+, "IT 基础"
+, "网络管理"
+, "互联网连接"</category><guid>https://zh.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解交换机、路由器、网关、子网、防火墙和 DMZ 如何划分网络流量并建立安全边界。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item><item><title>释放网络安全技能：TryHackMe 回顾</title><link>https://zh.simeononsecurity.com/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络安全"
+, "在线学习"
+, "道德黑客"
+, "网络防护"
+, "虚拟实验室"
+, "认证"
+, "学习路径"
+, "实践经验"
+, "TryHackMe 评论"</category><guid>https://zh.simeononsecurity.com/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 TryHackMe 的强大功能：功能、定价、认证、网络服务等，让您掌握网络安全技能。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.webp" length="98638" type="image/webp"/></item></channel></rss>

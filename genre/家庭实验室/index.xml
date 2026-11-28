@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>家庭实验室 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>家庭实验室 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E5%AE%B6%E5%BA%AD%E5%AE%9E%E9%AA%8C%E5%AE%A4/</link></image><link>https://zh.simeononsecurity.com/genre/%E5%AE%B6%E5%BA%AD%E5%AE%9E%E9%AA%8C%E5%AE%A4/</link><description>Recent content in 家庭实验室 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E5%AE%B6%E5%BA%AD%E5%AE%9E%E9%AA%8C%E5%AE%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9：减少虚拟磁盘占用并回收空间</title><link>https://zh.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"虚拟化"
+, "Linux 管理"
+, "Proxmox VE 平台"
+, "存储"
+, "家庭实验室"</category><guid>https://zh.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+减少 Proxmox VE 9 VM 和 LXC 的存储占用。比较磁盘格式与存储后端，启用 discard，在 Windows 和 Linux 客户机中执行 trim，并在回收空间前检查快照。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>从 Pi-hole 到本地 AI，分 10 个阶段搭建家庭实验室</title><link>https://zh.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"家庭实验室"
+, "自托管"
+, "本地 AI"
+, "家庭网络"</category><guid>https://zh.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+分十个实用阶段搭建家庭实验室，从全网 DNS 过滤到本地 AI，并介绍各阶段的硬件、成本、技能和取舍。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Proxmox VM 恢复演练：验证来宾系统能够正常运行</title><link>https://zh.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"虚拟化"
+, "备份与恢复"
+, "家庭实验室"</category><guid>https://zh.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过隔离恢复测试 Proxmox VM 备份。无需触碰生产环境，即可检查磁盘覆盖范围、备份模式、来宾数据、服务状态和恢复时间。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>将 Hyper-V 虚拟机迁移到 Proxmox VE：可回退检查清单</title><link>https://zh.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"虚拟化"
+, "系统管理"
+, "家庭实验室"</category><guid>https://zh.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过停机源导出、匹配固件、导入磁盘、隔离启动测试和回滚方案，将一台 Hyper-V 虚拟机迁移到 Proxmox VE。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>为家庭实验室选择 UPS 容量并测试自动关机</title><link>https://zh.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"家庭实验室"
+, "电源保护"
+, "系统管理"</category><guid>https://zh.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+测量家庭实验室的用电量，比较 UPS 的瓦数与 VA 限值，检查实际负载下的续航时间，并在依赖电池供电前测试安全关机。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>2026 年 Pearl (PRL) 挖矿指南：配置、收益与链的实用性</title><link>https://zh.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"加密货币"
+, "GPU 挖矿"
+, "AI 计算"
+, "DePIN"
+, "区块链"
+, "Linux"
+, "家庭实验室"
+, "硬件"</category><guid>https://zh.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用 SRBMiner 配置 Pearl PRL 挖矿，了解有用工作量证明，估算利润并评估区块链的实际用途。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp" length="266670" type="image/webp"/></item><item><title>2026 年本地 AI：27B 模型超越 Sonnet 4.6，硬件购买窗口正在关闭</title><link>https://zh.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "自托管 AI"
+, "开源模型"
+, "AI 硬件"
+, "机器学习"
+, "量化"
+, "家庭实验室"
+, "隐私"
+, "AI 经济"
+, "消费级硬件"</category><guid>https://zh.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+根据模型大小、VRAM、内存带宽、功耗、成本和升级选项规划 2026 年本地 AI 主机。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Proxmox 上 LXC 中的 Docker：可靠性、证据与迁移到 VM</title><link>https://zh.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"虚拟化"
+, "Linux 管理"
+, "家庭实验室"</category><guid>https://zh.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过一项有记录的 AppArmor 故障、对主机冻结报告的审慎解读、诊断命令和 VM 迁移计划，评估在 Proxmox LXC 中运行 Docker。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>现场可部署边缘计算：硬件与机箱选择</title><link>https://zh.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"边缘计算"
+, "现场 IT"
+, "硬件"
+, "家庭实验室"
+, "加固型计算设备"
+, "网络"
+, "灾难恢复"
+, "小型企业 IT"</category><guid>https://zh.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+现场边缘计算硬件与机箱选型指南，涵盖计算设备、机架、散热、存储、管理、布线和电源兼容性。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>Proxmox VE 8 升级到 9 指南</title><link>https://zh.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"虚拟化"
+, "Linux 管理"
+, "Proxmox"
+, "服务器管理"
+, "开源软件"
+, "家庭实验室"</category><guid>https://zh.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过前置检查、手动步骤和自动化，将 Proxmox VE 8 升级到 9，并了解不兼容变更与恢复方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item><item><title>Firewalla 家庭网络安全：保护家庭与家庭实验室</title><link>https://zh.simeononsecurity.com/articles/firewalla-home-network-security-guide/</link><pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络安全"
+, "家庭网络"
+, "网络安全防护"
+, "物联网安全"
+, "在线安全"
+, "家庭实验室"
+, "数字保护"
+, "入侵检测"
+, "内容过滤"</category><guid>https://zh.simeononsecurity.com/articles/firewalla-home-network-security-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Firewalla 如何帮助保护家庭网络、是否适合家庭实验室，以及需要权衡的优点与限制。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/firewalla-home-network-security.webp" length="57452" type="image/webp"/></item><item><title>值得关注的家庭实验室内容创作者</title><link>https://zh.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络"
+, "DIY"
+, "虚拟化"
+, "家庭实验室"
+, "技术爱好者"
+, "社区"
+, "学习"
+, "创新"
+, "指南"</category><guid>https://zh.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+认识有影响力的家庭实验室创作者，与爱好者交流，开启技术探索之旅。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item><item><title>什么是家庭实验室？IT 专业人士的搭建指南</title><link>https://zh.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"家庭实验室"
+, "IT专业人士"
+, "学生"
+, "爱好者"
+, "网络"
+, "虚拟化"
+, "自动化"
+, "硬件"
+, "软件"
+, "最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+利用这本为IT专业人士、学生和爱好者设计的全面指南，释放您的家庭实验室潜力，涵盖设置、组件、高级主题和最佳实践。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp" length="167376" type="image/webp"/></item></channel></rss>

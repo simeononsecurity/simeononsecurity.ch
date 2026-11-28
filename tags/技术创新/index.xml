@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技术创新 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>技术创新 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E6%8A%80%E6%9C%AF%E5%88%9B%E6%96%B0/</link></image><link>https://zh.simeononsecurity.com/tags/%E6%8A%80%E6%9C%AF%E5%88%9B%E6%96%B0/</link><description>Recent content in 技术创新 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E6%8A%80%E6%9C%AF%E5%88%9B%E6%96%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>ECC 内存：预防数据损坏和内存错误</title><link>https://zh.simeononsecurity.com/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/</link><pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate><category>
+"技术教育"
+, "数据安全"
+, "硬件指南"
+, "系统可靠性"
+, "IT 维护"
+, "技术解决方案"
+, "企业计算"
+, "服务器技术"
+, "组件分析"
+, "技术研究"</category><guid>https://zh.simeononsecurity.com/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 ECC 内存如何检测并纠正错误，以及它如何保护服务器、工作站和嵌入式系统中的数据并提升可靠性。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/the-role-of-ecc-memory-in-mitigating-data-corruption.webp" length="137916" type="image/webp"/></item><item><title>计算机文件系统详解：FAT32、NTFS、exFAT 等</title><link>https://zh.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</link><pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate><category>
+"计算机科学"
+, "数据存储"
+, "技术指南"
+, "文件管理"
+, "操作系统"
+, "数字化整理"
+, "技术教育"
+, "软件信息"
+, "系统优化"
+, "技术资源"</category><guid>https://zh.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过这份 FAT32、NTFS、exFAT 等文件系统概览了解它们的功能、限制和兼容性，帮助你更好地管理数据。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/computer-file-systems-explained_-fat32,-ntfs,-exfat,-and-more.webp" length="132294" type="image/webp"/></item><item><title>业内观察：专家解读网络安全趋势</title><link>https://zh.simeononsecurity.com/articles/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity/</link><pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate><category>
+"网络安全洞察"
+, "数字威胁态势"
+, "安全措施"
+, "法规合规"
+, "网络安全挑战"
+, "技术进步"
+, "安全领域的人工智能与机器学习"
+, "区块链技术"
+, "物联网安全"
+, "网络安全未来趋势"
+, "生物识别认证"</category><guid>https://zh.simeononsecurity.com/articles/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+概述当前网络威胁、技能缺口、隐私、人工智能、区块链、物联网安全、量子计算、自动化和生物识别认证。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity.webp" length="117650" type="image/webp"/></item></channel></rss>

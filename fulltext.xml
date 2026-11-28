@@ -1,0 +1,4238 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://zh.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>zh</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>Home Assistant Core 2026.11 回退到 2026.10.4：修复 HTTP 存储版本 3</title><link>https://zh.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><description>Home Assistant Core 2026.11 在 Yellow 上回退到 2026.10.4 后，修复 HTTP 存储版本 3 错误。包含带保护措施的命令和经过验证的输出。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p>Home Assistant Core 2026.11 更新失败后，我的 Yellow CM4 回退到了 2026.10.4。Yellow 仍可通过网络访问，但不再提供仪表盘。回退后，HTTP 设置文件的存储版本为 3.1，而 Core 2026.10.4 支持版本 2.2。我保留了原文件，在严格检查下转换其副本，恢复 HTTP 访问，然后将 Core 更新到 2026.11.1。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>确认版本不匹配。</strong> 将 Core 日志错误与已安装的版本和 HTTP 存储版本对照。</li>
+<li><strong>保留文件。</strong> 恢复前，保留未更改的副本和一份设备外备份。</li>
+<li><strong>验证结果。</strong> 检查 Core 状态、已保存的监听端口、仪表盘和已安装版本。</li>
+</ul>
+<p><strong>针对本案例的修复步骤：</strong>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="保留 HTTP 文件">
+    <meta itemprop="url" content="#preserve-recovery-options">
+    <a href="#preserve-recovery-options"
+    
+        rel="follow me"
+    >保留 HTTP 文件</a>
+</span>
+，
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="创建并验证版本 2.2 候选文件">
+    <meta itemprop="url" content="#apply-the-tested-fix-for-version-31">
+    <a href="#apply-the-tested-fix-for-version-31"
+    
+        rel="follow me"
+    >创建并验证版本 2.2 候选文件</a>
+</span>
+，
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+   
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>如何选择不受审查的本地 AI 模型</title><link>https://zh.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><description>根据完整回答、能力保留、上下文占用、量化方式和 VRAM 需求比较本地模型变体。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p><strong>模型选择</strong>：根据每个变体能完成多少有用回答、能保留多少质量，以及你的工作负载需要多少内存来评估它。拒绝次数少或模型卡片受欢迎，都不能证明这些结果。</p>
+<p><strong>不受审查</strong>没有标准的性能等级。模型发布者会用这个词描述不同的权重编辑、微调和聊天模板。将每个候选模型与原始模型比较，并用你计划执行的任务进行测试。</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <meta itemprop="name" content="我测试了所有不受审查的本地 AI 模型（8GB 至 32GB VRAM）">
+  <meta itemprop="description" content="比较本地模型变体、回答完成情况、上下文设置和 GPU 内存级别。">
+  <meta itemprop="thumbnailUrl" content="https://img.youtube.com/vi/j-VqPVjztJE/maxresdefault.jpg">
+  <meta itemprop="contentUrl" content="https://www.youtube.com/watch?v=j-VqPVjztJE">
+  
+  <meta itemprop="learnin
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Octominer X12 Ultra 电源兼容性：Chicony 与 LiteOn 实测</title><link>https://zh.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><description>在五风扇、三电源的 Octominer X12 Ultra 上进行测试后发现，一台 Chicony 电源能启动设备，而测试过的 LiteOn 电源亮琥珀色灯且无法启动。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p><strong>Chicony R12-1K6P2A 启动了我的五风扇、三电源 Octominer X12 Ultra。</strong> 我测试的 LiteOn PS-2142-2L 电源先亮绿灯，再变为琥珀色，设备未能启动。此结果仅适用于配有 <strong>OCTOMINER (12PIN) 3x DPS1200 rev. 20</strong> 电源背板的这台设备。额定功率相同，或某份独立 X12 转接板清单列出该型号，都不能证明它兼容 Octominer 背板。</p>
+<p>该机箱以 <strong>3,600 W 配置</strong>出售，配有三个电源槽位。
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Octominer 为 X12 Ultra 列出三台 1,200 W 电源的选项">
+    <meta itemprop="url" content="https://octominer.eu/product/octominer-x12-ultra-used/">
+    <a href="https://octominer.eu/product/octominer-x12-ultra-used/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Octominer 为 X12 Ultra 列出三台 1,200 W 电源的选项</a>
+</span>
+，也提供其他配置。请先检查自己设备的标签和电源板，再参考这些结果。</p>
+<h2 id="测试结果">
+  <a href="#%e6%b5%8b%e8%af%95%e7%bb%93%e6%9e%9c" title="测试结果">测试结果</a>
+  <a href="#%e6%b5%8b%e8%af%95%e7%bb%93%e6%9e%9c" class="h-anchor" aria-hidden="true" title="测试结果">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>电源</th>
+					<th>在这台设备上的结果</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Chicony R12-1K6P2A，1,600 W</strong></td>
+					<td>在我的测试中启动了设备。本文未测持续负载，也未测试所有槽位。</td>
+			</tr>
+			<tr>
+					<td><strong>LiteOn PS-2142-2L，1,400 W</strong></td>
+					<td>测试设备先亮绿灯，后亮琥珀色灯，设备未启动。</td>
+			</tr>
+			<tr>
+					<td><strong>Dell/Delta D1200E-S0，Dell 0F37X3</strong></td>
+					<td>不常见的交流电入口导致电源线难以寻找。本次测试没有记录此电源的启动或负载结果。</td>
+			</tr>
+			<tr>
+					<td><strong>HP HSTNS-PD30，1,200 W</strong></td>
+					<td>在同一台设备�
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proxmox VE 9：减少虚拟磁盘占用并回收空间</title><link>https://zh.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><description>减少 Proxmox VE 9 VM 和 LXC 的存储占用。比较磁盘格式与存储后端，启用 discard，在 Windows 和 Linux 客户机中执行 trim，并在回收空间前检查快照。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p><strong>客户机文件系统变小，并不代表 Proxmox 存储占用或费用一定下降。</strong> 要释放主机空间，磁盘必须支持精简配置，VM 必须有可用的 discard 路径，后端存储也不能有快照保留的块。本指南介绍 Proxmox VE 9 VM 和 LXC 容器的设置与检查方法。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>先选择后端存储。</strong> 只有磁盘映像格式或存储后端支持精简配置时，虚拟磁盘的标称大小才会不同于主机实际分配的空间。</li>
+<li><strong>启用 VM discard，然后在客户机中执行 trim。</strong> Windows ReTrim 和 Linux <code>fstrim</code> 会通过虚拟磁盘发送未使用块请求。</li>
+<li><strong>分别检查快照和备份。</strong> 只要快照仍引用旧块，这些块就会继续占用空间。备份文件和 PBS 数据块有各自的保留规则。</li>
+<li><strong>按类型处理 LXC 挂载。</strong> 受 Proxmox 管理的 rootfs 和挂载点卷、bind 挂载及设备挂载在归属和备份行为上各不相同。</li>
+</ul>
+<h2 id="开始之前">
+  <a href="#%e5%bc%80%e5%a7%8b%e4%b9%8b%e5%89%8d" title="开始之前">开始之前</a>
+  <a href="#%e5%bc%80%e5%a7%8b%e4%b9%8b%e5%89%8d" class="h-anchor" aria-hidden="true" title="开始之前">#</a>
+</h2>
+<p>你需要 <strong>Proxmox VE 9 管理员访问权限</strong>、每个受影响客户机的已验证备份，以及足够的操作可用池空间。更改设置前，记录每个客户机的 ID、磁盘总线、卷 ID、存储 ID、快照和当前分配量。使用 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="VM 还原演练">
+    <meta itemprop="url" content="/articles/proxmox-vm-backup-restore-drill/">
+    <a href="/articles/proxmox-vm-backup-restore-drill/"
+    
+        rel="follow me"
+    >VM 还原演练</a>
+</span>
+测试恢复流程。</p>
+<p><strong>预计时间：</strong> 每台客户机 20 至 60 分钟，大型 trim 或�
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Tailscale Aperture：2026 年配置 AI 客户端的推理和 MCP</title><link>https://zh.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><description>通过 Tailscale Aperture 转发模型请求和 MCP 工具。为另一台设备或网关配置 Codex、Claude Code、Claude Desktop、OpenCode 和 Hermes。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <h2 id="简介">
+  <a href="#%e7%ae%80%e4%bb%8b" title="简介">简介</a>
+  <a href="#%e7%ae%80%e4%bb%8b" class="h-anchor" aria-hidden="true" title="简介">#</a>
+</h2>
+<p>Tailscale Aperture 为 AI 客户端提供一个接入 tailnet 的网关，用于模型推理和 Model Context Protocol (MCP) 工具。每个客户端都必须使用与其 API 协议相匹配的路由。MCP 工具使用单独的端点，Aperture 授权决定每个 Tailscale 身份能够访问哪些模型和连接器。</p>
+<p>本指南介绍如何在 macOS、Linux 和 Windows 上配置 Codex、Claude Code、Claude Desktop、OpenCode 和 Hermes。内容涵盖命令行与桌面设置、如何查询当前身份可用的模型 ID，以及一个可复用的匿名化提示词，用于配置另一台设备或 Aperture 实例。</p>
+<p><strong>路由选择：</strong> 端点路径取决于网关和各 API 协议。<code>/codex</code> 这样的 Responses 路由不处理 Anthropic Messages 或 MCP 流量。确认网关主机名和每个客户端的推理路由。修改客户端设置前，请通过自己的 Aperture 访问权限查询模型 ID。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>模型流量</strong>需要与客户端协议相符的 API 路由。</li>
+<li><strong>MCP 流量</strong>使用单独的 <code>/v1/mcp</code> 端点。</li>
+<li><strong>网关权限</strong>必须允许你的 Tailscale 身份使用相应模型和连接器。</li>
+<li><strong>客户端配置</strong>只能证明设置已保存。还要验证真实请求和一次 MCP 工具调用。</li>
+</ul>
+<h2 id="路由如何配合">
+  <a href="#%e8%b7%af%e7%94%b1%e5%a6%82%e4%bd%95%e9%85%8d%e5%90%88" title="路由如何配合">路由如何配合</a>
+  <a href="#%e8%b7%af%e7%94%b1%e5%a6%82%e4%bd%95%e9%85%8d%e5%90%88" class="h-anchor" aria-hidden="true" title="路由如何配合">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>用途</th>
+					<th>客户端请求</th>
+					<th>Aperture 路由</th>
+					<th>路由提供的服务</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Codex 和兼容 Responses 的模型</td>
+					<td>OpenAI Responses API</td>
+					<td>通常为 <code>/v1</code>。<code>/codex</code> 等自定义路径取决于部署。</td>
+					<td>模型推理</td>
+			</tr>
+			<tr>
+					<td>Claude 模型推理</td>
+					<td>Anthropic Messages API</td>
+					<td>网关基础 U
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>自托管 Hindsight：本地智能体记忆与私有模型路由</title><link>https://zh.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/self-hosted-hindsight/</guid><description>通过一个自托管 Hindsight 案例，介绍观察到的本地 Qwen 路由，以及在已检查路径上无需订阅托管推理服务的按请求 GPU 任务。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/self-hosted-hindsight/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p>**我们的 Hindsight 记忆服务运行在我们控制的硬件上。**记忆引擎、数据库、嵌入模型和重排序器在同一个自托管部署中运行。Hindsight 将生成请求发送到私有网关。已检查的共享 Qwen 后端和经过测试的页面刷新路由使用本地模型服务器，无需订阅托管推理服务。</p>
+<p>本文描述的是一个实际运行的部署。**自托管不等于离线。**VPN 使用外部协调服务，软件镜像和模型权重也需要下载。这里的结论只涉及记忆处理和模型推理，不涵盖我们的设备或其他智能体工具发起的所有网络连接。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li>**Hindsight 负责记忆工作流。**Docker 容器提供 API、工作进程和控制平面，记忆库数据存放在持久卷中。</li>
+<li>**小型检索模型留在本地。**嵌入和重排序在 Hindsight 进程内通过 CPU 运行。</li>
+<li>**Qwen 负责文本生成。**Retain、Reflect 和 Consolidation 请求私有别名 Qwen3.5-4B，并关闭推理、限制输出。已检查的后端在本地提供服务。</li>
+<li>**耗时较长的页面刷新使用 GPU。**另一个模型别名为后台请求租用一张显卡，请求完成后再释放显卡。</li>
+<li>**网关隐藏物理部署位置。**Hindsight 选择模型别名，私有路由服务选择模型服务端点。</li>
+</ul>
+<h2 id="先明确边界再选择模型">
+  <a href="#%e5%85%88%e6%98%8e%e7%a1%ae%e8%be%b9%e7%95%8c%e5%86%8d%e9%80%89%e6%8b%a9%e6%a8%a1%e5%9e%8b" title="先明确边界，再选择模型">先明确边界，再选择模型</a>
+  <a href="#%e5%85%88%e6%98%8e%e7%a1%ae%e8%be%b9%e7%95%8c%e5%86%8d%e9%80%89%e6%8b%a9%e6%a8%a1%e5%9e%8b" class="h-anchor" aria-hidden="true" title="先明确边界，再选择模型">#</a>
+</h2>
+<p>**Hindsight 是记忆引擎，不是模型服务器。**完整的 Docker 镜像包含本地嵌入和重排序模型，但语言模型生成需要一个端点。
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https:
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/self-hosted-hindsight/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Chrome 156 安全更新：验证 10 月补丁</title><link>https://zh.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><description>检查 Windows、macOS、Linux 和 Android 上 10 月 27 日发布的 Chrome 156 安全版本。对比已安装的构建版本，完成待处理的重启，并单独检查受管理设备。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p><strong>2026 年 10 月 27 日发布的 Chrome 安全版本</strong>包含 52 项修复。要检查你的安装，请将完整版本号与适用于你操作系统的版本进行比较，然后重启 Chrome 以完成待处理的更新。版本已发布的公告并不能证明你的设备已收到更新。(
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Chrome 桌面版发布公告">
+    <meta itemprop="url" content="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html">
+    <a href="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Chrome 桌面版发布公告</a>
+</span>
+)</p>
+<h2 id="应该看到哪个版本">
+  <a href="#%e5%ba%94%e8%af%a5%e7%9c%8b%e5%88%b0%e5%93%aa%e4%b8%aa%e7%89%88%e6%9c%ac" title="应该看到哪个版本？">应该看到哪个版本？</a>
+  <a href="#%e5%ba%94%e8%af%a5%e7%9c%8b%e5%88%b0%e5%93%aa%e4%b8%aa%e7%89%88%e6%9c%ac" class="h-anchor" aria-hidden="true" title="应该看到哪个版本？">#</a>
+</h2>
+<p>Google 于 2026 年 10 月 27 日发布了以下 Stable 渠道版本。桌面版公告分别列出适用于 Windows 和 macOS 的构建版本，以及适用于 Linux 的构建版本。
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Android 版公告">
+    <meta itemprop="url" content="https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_0160078013.html">
+    <a href="https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_0160078013.html"
+    
+        
+            
+      
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Open WebUI v0.12.4：升级与访问控制检查清单 2026</title><link>https://zh.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><description>备份并将 Open WebUI 升级到 v0.12.4，然后测试聊天共享、导出权限、资源授权、账户和网络访问。</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p>**Open WebUI v0.12.4 包含维护者尚未逐项说明的安全修复。**发行说明建议尽快更新部署，并表示将在分配 CVE 后发布公告。下文列出的聊天共享和权限变更是发行说明中可见的项目，并非尚未披露的全部安全修复。
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Open WebUI v0.12.4 发行说明">
+    <meta itemprop="url" content="https://github.com/open-webui/open-webui/releases/tag/v0.12.4">
+    <a href="https://github.com/open-webui/open-webui/releases/tag/v0.12.4"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Open WebUI v0.12.4 发行说明</a>
+</span>
+</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>先备份。</strong> 更改应用前，保留可恢复的数据卷或数据库副本以及上传文件。</li>
+<li><strong>固定官方版本。</strong> 标准 Docker 镜像使用 <code>ghcr.io/open-webui/open-webui:v0.12.4</code>，pip 使用 <code>open-webui==0.12.4</code>。</li>
+<li><strong>使用真实用户角色测试权限。</strong> 按钮隐藏并不能证明 API 端执行了授权检查。</li>
+<li><strong>保持访问私密。</strong> 要求应用身份验证，并通过 VPN 或经过身份验证的反向代理限制网络访问。</li>
+</ul>
+<h2 id="升级前">
+  <a href="#%e5%8d%87%e7%ba%a7%e5%89%8d" title="升级前">升级前</a>
+  <a href="#%e5%8d%87%e7%ba%a7%e5%89%8d" class="h-anchor" aria-hidden="true" title="升级前">#</a>
+</h2>
+<p>**准备工作：**确认当前安装方式、容器镜像变体、持久数据位置、外部数据库、反向代理和身份验证提供方。安排停机窗口，并保留现有容器配置或服务定义。预留时间在独立实例上演练恢复。以下命令是供应商文档中的模式，并针对固定的这个版本进行了调整。它们不是本指南执行实时升级的结果。
+
+
+
+
+
+
+
+
+
+
+
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Thunderbird 153.6：Windows NTLM 凭据泄露与更新方法（2026）</title><link>https://zh.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><description>显示特制邮件时，Thunderbird 的两项严重漏洞可能泄露 Windows NTLM 身份验证数据。本文介绍两种触发路径、版本检查方法，以及更新期间限制出站 SMB 的措施。</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p>Mozilla 在 Thunderbird 153.6 中修复了两项<strong>可能泄露 Windows 凭据的严重漏洞</strong>。只需显示一封特制邮件，就可能触发 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="MFSA 2026-122">
+    <meta itemprop="url" content="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/">
+    <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >MFSA 2026-122</a>
+</span>
+ 描述的网络请求之一。该公告说明的是 NTLM 数据可能泄露，并未确认每位收件人的凭据都遭到入侵。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>CVE-2026-118174</strong> 涉及托管在外部的 OpenPGP 密钥附件。即使已阻止远程内容，显示邮件仍会在无需用户操作的情况下发出请求。</li>
+<li><strong>CVE-2026-118176</strong> 涉及使用扩展长度 UNC 路径的特殊 <code>mailbox:</code> URL。显示邮件会连接到发件人指定的 SMB 服务器。</li>
+<li><strong>更新 Windows 上的 Thunderbird</strong>，并核实已安装版本。公告将 Thunderbird 153.6 列为修复版本。Thunderbird 发行说明指出对应的 153.6.0esr 构建。</li>
+</ul>
+<h2 id="邮件会触发什么">
+  <a href="#%e9%82%ae%e4%bb%b6%e4%bc%9a%e8%a7%a6%e5%8f%91%e4%bb%80%e4%b9%88" title="邮件会触发什么">邮件会触发什么</a>
+  <a href="#%e9%82%ae%e4%bb%b6%e4%bc%9a%e8%a7%a6%e5%8f%91%e4%bb%80%e4%b9%88" class="h-anchor" aria-hidden="true" title="邮件会触发什么">#</a>
+</h2>
+<p><strong>这两项漏洞的入口不同。</strong> 根据 Mozilla 的说明，两者都不要求收件人点击邮件中的链接。Windows 凭据风险取决于网络请求是否到达攻击者控制的共享资源，以及后续是否发生身份验证交换。Mozilla 的公告没有报告正在发生的利用活�
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>从 Pi-hole 到本地 AI，分 10 个阶段搭建家庭实验室</title><link>https://zh.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><description>分十个实用阶段搭建家庭实验室，从全网 DNS 过滤到本地 AI，并介绍各阶段的硬件、成本、技能和取舍。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/build-home-lab-10-levels/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <h1 id="从-pi-hole-到本地-ai分-10-个阶段搭建家庭实验室">
+  <a href="#%e4%bb%8e-pi-hole-%e5%88%b0%e6%9c%ac%e5%9c%b0-ai%e5%88%86-10-%e4%b8%aa%e9%98%b6%e6%ae%b5%e6%90%ad%e5%bb%ba%e5%ae%b6%e5%ba%ad%e5%ae%9e%e9%aa%8c%e5%ae%a4" title="从 Pi-hole 到本地 AI，分 10 个阶段搭建家庭实验室">从 Pi-hole 到本地 AI，分 10 个阶段搭建家庭实验室</a>
+  <a href="#%e4%bb%8e-pi-hole-%e5%88%b0%e6%9c%ac%e5%9c%b0-ai%e5%88%86-10-%e4%b8%aa%e9%98%b6%e6%ae%b5%e6%90%ad%e5%bb%ba%e5%ae%b6%e5%ba%ad%e5%ae%9e%e9%aa%8c%e5%ae%a4" class="h-anchor" aria-hidden="true" title="从 Pi-hole 到本地 AI，分 10 个阶段搭建家庭实验室">#</a>
+</h1>
+<p><strong>家庭实验室</strong>是一组由你运行的计算机和服务，用来解决日常问题并学习操作真实系统。你可以屏蔽广告、自动控制灯光、存储家庭媒体，或测试虚拟机。**先从一项实用任务开始。**遇到真实瓶颈后再增加硬件。</p>
+<p>本指南从运行 Pi-hole 的小型 Raspberry Pi 开始，逐步介绍运行本地 AI 模型的服务器。**每个阶段都会增加一项能力和一份责任。**以下成本估算采用示例功耗和每千瓦时 $0.15 的电价。购买更多设备前，请确认本地电价并测量设备功耗。</p>
+<h2 id="阶段-1屏蔽整个家庭网络的广告">
+  <a href="#%e9%98%b6%e6%ae%b5-1%e5%b1%8f%e8%94%bd%e6%95%b4%e4%b8%aa%e5%ae%b6%e5%ba%ad%e7%bd%91%e7%bb%9c%e7%9a%84%e5%b9%bf%e5%91%8a" title="阶段 1：屏蔽整个家庭网络的广告">阶段 1：屏蔽整个家庭网络的广告</a>
+  <a href="#%e9%98%b6%e6%ae%b5-1%e5%b1%8f%e8%94%bd%e6%95%b4%e4%b8%aa%e5%ae%b6%e5%ba%ad%e7%bd%91%e7%bb%9c%e7%9a%84%e5%b9%bf%e5%91%8a" class="h-anchor" aria-hidden="true" title="阶段 1：屏蔽整个家庭网络的广告">#</a>
+</h2>
+<p>在 Raspberry Pi 或其他小型 Linux 计算机上安装 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Pi-hole">
+    <meta itemprop="url" content="https://docs.pi-hole.net/">
+    <a href="https://docs.pi-hole.net/"
+    
+        
+            
+                
+                    rel="noopener
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/build-home-lab-10-levels/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Hermes 本地模型基准测试：我会选择的 GPU 与模型组合</title><link>https://zh.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><description>我对 Hermes 模型的建议来自在 RTX 5060 Ti、RTX 2000E Ada、RTX 3060 Ti 和 RTX 3070 系统上进行的长上下文、工具、流式输出和视觉测试。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p>对于 Hermes 的长上下文任务，我会先在两张 16GB RTX 5060 Ti 上运行 Qwen3.5 35B。测试路线通过 LiteLLM 保留了 239,153 个输入 token，并分别通过了工具、流式输出、视觉、排队请求和取消检查。单卡替代方案是 Qwen3.6。在 RTX 3060 Ti 和 RTX 3070 系统上，我会从 Qwen3.5 2B 或 4B 开始。</p>
+<p>这些选择来自在代理实际使用的推理路径上运行模型。我测试了长输入保留、工具往返、流式响应、图像问答和模型释放。我也测试了这些路径依赖的模式与内存设置，因为模型成功加载并不能说明它在代理长请求中是否有用。</p>
+<p>Hermes 在代理调用工具时至少需要 64,000 个上下文 token。我将 65,536 个实际输入 token 作为长上下文资格门槛。输入 token 数量比服务器宣称的上下文大小更重要。(
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Hermes Agent 提供商文档">
+    <meta itemprop="url" content="https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md">
+    <a href="https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Hermes Agent 提供商文档</a>
+</span>
+)</p>
+<h2 id="各系统使用的-gpu">
+  <a href="#%e5%90%84%e7%b3%bb%e7%bb%9f%e4%bd%bf%e7%94%a8%e7%9a%84-gpu" title="各系统使用的 GPU">各系统使用的 GPU</a>
+  <a href="#%e5%90%84%e7%b3%bb%e7%bb%9f%e4%bd%bf%e7%94%a8%e7%9a%84-gpu" class="h-anchor" aria-hidden="true" title="各系统使用的 GPU">#</a>
+</h2>
+<p>结果中的系统字母代表以下硬件组合。</p>
+<table>
+	<thead>
+			<tr>
+					<th>系统</th>
+					<th>此基准测试使用的 GPU</th>
+					<th>我的首选起始模型</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>A</td>
+					<td>2 × GeForce RTX 5060 Ti，每张 16GB</td>
+					<td>两张卡运行 Qwen3.5 35B，或单卡运行 Qwen3.6</td>
+			</tr>
+			<tr>
+					<td>B</td>
+
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>深入了解我们的混合式智能体 AI 集群：Hermes、LiteLLM 与 Tailscale</title><link>https://zh.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><description>了解经过验证的按需加载本地 AI 集群，以及使用 Hermes、LiteLLM、Tailscale Aperture 和 Pearl 挖矿的 T0 至 T4 控制平面。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p><strong>我们部署了按请求分配本地 GPU 的集群，并设计了混合控制平面。</strong> 已验证的路径从 LiteLLM 开始，选择一个模型组，并且每次只在一块 GPU 上加载一个本地模型。Hermes 的分级策略仍是提议方案，Tailscale Aperture 配置文件已准备好进入下一轮集成测试。两者都尚未作为端到端路径的一部分完成验证。</p>
+<p>空闲显卡用于挖掘 Pearl。AI 请求只会暂停已租用显卡上的挖矿，完成请求后卸载模型，再将显卡交还给矿工程序。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>T0 至 T2 处理成本高或要求高的工作。</strong> 这些路径优先使用托管的前沿模型和有序的回退链。</li>
+<li><strong>T3 处理较重的本地工作。</strong> 集群将规划、编码、审查和视觉任务分配给 4B 至 12B 模型。</li>
+<li><strong>T4 处理高频本地工作。</strong> 小型模型负责路由、分类、提取、嵌入，以及范围明确的代码任务。</li>
+<li><strong>每块 GPU 都是独立资源。</strong> 一块显卡处理 AI 请求时，其余显卡继续挖矿。</li>
+<li><strong>本地模型在空闲时保持卸载。</strong> 请求间隔期间，没有模型占用 GPU 内存。</li>
+<li><strong>每个网关都提供相同的逻辑目录。</strong> 共享别名会在符合条件的系统间分配任务。需要精确定位时，可使用带节点前缀的别名。</li>
+<li><strong>实验性代理没有进入生产环境。</strong> 它的金丝雀测试成功处理了一个请求，但未通过正常关闭测试。LiteLLM 继续使用已验证的按请求路径。</li>
+<li><strong>Hermes 和 Aperture 仍处于准备阶段。</strong> 目标设计已经存在，但端到端验收测试尚未完成。</li>
+</ul>
+<p><strong>前提条件：</strong> 多台 Linux GPU 主机、稳定的 NVIDIA 驱动、Tailscale tailnet、systemd、正常运行的矿工程序、模型存储，以及每条模型路径的验收测试。</p>
+<p><strong>时间和难度：</strong> 高级。请为清点资产、下载模型、定义服务、路由测试、故障演练以及逐卡挖矿恢复检查预留数天。</p>
+<p><strong>下文使用的术语：</strong> <strong>tailnet</strong> 是由 Tailscale 身份和设备构成的私有网络。<strong>模型别名</strong>�
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>1Password SSH Agent 和 CLI：只读 AI 代理访问</title><link>https://zh.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><description>使用 1Password CLI、SSH Agent 和 MCP 设计只读 SSH 工作流。使用合成命令、窄权限，并在实时测试前进行人工审批。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p><strong>命令行代理需要的是有用的访问权限，而非所有凭证的副本。</strong> 本指南为 1Password CLI、1Password SSH 代理、Bitbucket Git 访问以及模型上下文协议（MCP）提供了一种有界的设计方案。第一个工作流使用合成名称、只读操作，并在 SSH 边界处进行人工审批。</p>
+<p>关键区别很简单。<strong>交互式 SSH 通过 1Password SSH 代理实现基于同意的认证。无人值守自动化则需要独立的身份、狭窄的访问权限以及不同的密钥生命周期。</strong> 不要将 MCP 连接视为运行上述任一工作流的权限。</p>
+<h2 id="关键要点">
+  <a href="#%e5%85%b3%e9%94%ae%e8%a6%81%e7%82%b9" title="关键要点">关键要点</a>
+  <a href="#%e5%85%b3%e9%94%ae%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="关键要点">#</a>
+</h2>
+<ul>
+<li><strong>私钥保护：</strong> 1Password SSH 代理执行 SSH 认证，同时保持私钥位于 1Password 应用内部。</li>
+<li><strong>公钥处理：</strong> 仅将公钥发布到 Bitbucket 或远程账户。将私钥部分保留在 SSH 密钥条目中。</li>
+<li><strong>交互式同意：</strong> 在 SSH 代理使用密钥之前，由人员批准客户端或终端会话。</li>
+<li><strong>无人值守隔离：</strong> 计划任务需要专用的服务账户和狭窄的保险库范围。交互式 SSH 代理的批准无法满足此需求。</li>
+<li><strong>MCP 边界：</strong> MCP 将代理连接到工具和资源。客户端、服务器、操作系统以及 1Password 策略仍然控制访问权限。</li>
+</ul>
+<h2 id="开始之前">
+  <a href="#%e5%bc%80%e5%a7%8b%e4%b9%8b%e5%89%8d" title="开始之前">开始之前</a>
+  <a href="#%e5%bc%80%e5%a7%8b%e4%b9%8b%e5%89%8d" class="h-anchor" aria-hidden="true" title="开始之前">#</a>
+</h2>
+<p><strong>先决条件：</strong> 安装 1Password 8 和 1Password CLI 2.20.0 或更高版本。通过受支持的 1Password 账户登录。使用 OpenSSH 客户端。创建一个测试用的 Bitbucket 仓库或其他非生产环境目标。保留一条第二管理路径以便回滚。</p>
+<p><strong>时间：</strong> 设计审查和合成演练需要 30 到 45 分钟。</p>
+<p><strong>难度：</strong> 中级。您需要具备基本的 Git、SSH、Shell 和访问控制知识。</p>
+<p>本指南涵盖设计和规划。链接的 Bitbucket 文章涵盖 Bitbucket 特定的访问边界。本指南不测试实时账户、不创建真实密钥、不
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Bitbucket Cloud SSH 密钥：面向 AI 代理的只读 Git 访问</title><link>https://zh.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><description>为 AI 代理的只读工作流配置 Bitbucket Cloud SSH 密钥、Git CLI 访问、REST API 令牌、1Password 和 MCP 工具。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p>**受限的代理工作流将仓库读取、API 读取、机密管理和远程写入分开。**通过 Secure Shell (SSH) 使用 Git 访问源代码，使用只读 Bitbucket 访问密钥执行自动检出，通过 REST API 读取元数据，并使用 Model Context Protocol (MCP) 服务器调用获准的工具。将私钥和 API 令牌保存在 1Password 中。写入操作须经过人工批准。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li>**默认只读：**代理检出仓库时使用仓库或项目访问密钥。两者都不授予 push 权限。</li>
+<li>**个人身份：**与用户帐户关联的交互式工作使用个人 SSH 密钥。</li>
+<li>**机密保管：**使用 1Password SSH Agent，让 Git 发起获准的签名操作，而无需读取私钥。</li>
+<li>**CLI 的含义：**将 <code>git</code>、<code>curl</code> 和经过审计的小型 API 包装器视为实用的 Bitbucket 命令行工具。</li>
+<li>**MCP 边界：**只开放范围有限的读取工具。禁用写入工具，或将它们置于单独的审批流程之后。</li>
+<li>**写入审批：**允许代理检查、比较并准备更改。push、pull request、merge 或设置更新须经人工批准。</li>
+</ul>
+<h2 id="开始之前">
+  <a href="#%e5%bc%80%e5%a7%8b%e4%b9%8b%e5%89%8d" title="开始之前">开始之前</a>
+  <a href="#%e5%bc%80%e5%a7%8b%e4%b9%8b%e5%89%8d" class="h-anchor" aria-hidden="true" title="开始之前">#</a>
+</h2>
+<p>**前提条件：**Bitbucket Cloud 访问权限、Git、OpenSSH 客户端、1Password 8、1Password CLI、已登录的 CLI 或获准的服务帐户，以及支持服务器审批控制的 MCP 主机。预留 45 分钟。难度为中级。</p>
+<p>首次操作请使用测试仓库。替换示例中的所有占位符。下列命令未经测试，仅供示例参考，不代表真实的 Bitbucket 帐户或仓库。</p>
+<p>**版本说明：**本文提供设计建议，不是针对特定版本编写的操作手册。测试前确认已安装的 Git、OpenSSH、1Password CLI、Teamwork Graph CLI、MCP 主机和 MCP 服务器版本。使用 <code>ssh-add -l</code> 前，先为当前操作系统配置 1Password SSH Agent。</p>
+<p>**不要将凭据放入 shell、日志、URL、Git 远程地址或源文件。**使用 <code>&lt;workspace&gt;</code>、<code>&lt;repository&gt;</code>、<code>&lt;api-token&gt;</code> 和 <cod
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proxmox VM 恢复演练：验证来宾系统能够正常运行</title><link>https://zh.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><description>通过隔离恢复测试 Proxmox VM 备份。无需触碰生产环境，即可检查磁盘覆盖范围、备份模式、来宾数据、服务状态和恢复时间。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p>绿色的备份任务表示 Proxmox 已写入备份。它无法说明来宾是否能启动、数据是否足够新，或主要服务是否可用。<strong>请使用新的 VM ID，在隔离网络中恢复一个副本。</strong> 这样你可以在故障迫使你测试之前，先获得恢复能力的证据。</p>
+<p>本演练针对一台 <strong>Proxmox VE 虚拟机</strong>。容器的备份规则不同，尤其是 bind mount 和设备挂载。本站的
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="家庭实验室备份恢复演练">
+    <meta itemprop="url" content="/articles/homelab-backup-restore-drill/">
+    <a href="/articles/homelab-backup-restore-drill/"
+    
+        rel="follow me"
+    >家庭实验室备份恢复演练</a>
+</span>
+涵盖更广泛的文件恢复。这里将测试 Proxmox VM 备份及其工作负载。</p>
+<p><strong>来宾</strong>是运行在虚拟机内部的操作系统。<strong>Bind mount</strong> 和<strong>设备挂载</strong>会向来宾公开主机资源。应通过单独的恢复计划测试这些资源。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>先定义成功条件：</strong> 指定一个数据项、一项服务检查和可接受的恢复时间。</li>
+<li><strong>检查覆盖范围：</strong> VM 备份会跳过标记为 <strong>No backup</strong> 的磁盘，也无法重新创建外部服务或被排除的数据。</li>
+<li><strong>单独恢复：</strong> 使用未占用的 VM ID，并让恢复后的网络与生产环境隔离。</li>
+<li><strong>记录证据：</strong> 测量备份时效、恢复时间、启动情况、磁盘是否存在，以及实际应用检查结果。</li>
+</ul>
+<h2 id="开始之前">
+  <a href="#%e5%bc%80%e5%a7%8b%e4%b9%8b%e5%89%8d" title="开始之前">开始之前</a>
+  <a href="#%e5%bc%80%e5%a7%8b%e4%b9%8b%e5%89%8d" class="h-anchor" aria-hidden="true" title="开始之前">#</a>
+</h2>
+<p>选择一台适合安全测试备份的 VM。你需要 P
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>测试 Mesh Wi-Fi 网络中的访客与 IoT 隔离</title><link>https://zh.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><description>检查 Mesh Wi-Fi 的访客网络和 IoT 网络是否阻止访问家中设备。使用一个正常运行的服务测试每个网络，并记录隔离边界。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p>使用不同的 Wi-Fi 名称，并不能说明哪些设备可以互相通信。Mesh 系统可能把<strong>访客网络</strong>、<strong>IoT 网络</strong>和<strong>无线客户端隔离</strong>视为不同的控制项。本指南帮助你在自己的设备上测试这些路径，不要假设厂商标签就代表实际策略。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li>**先确认目标可用：**测试被阻断的路径前，先从主网络访问一个已知服务。</li>
+<li>**逐一测试边界：**访客到主网络、IoT 到主网络、访客之间的访问回答的是不同问题。</li>
+<li>**记录配置：**型号、固件、路由器或接入点模式，以及连接的 Mesh 节点都会影响结果解释。</li>
+<li>**更改后重新测试：**测试结果只适用于已测试的设备、服务、地址族和配置。</li>
+</ul>
+<h2 id="开始前">
+  <a href="#%e5%bc%80%e5%a7%8b%e5%89%8d" title="开始前">开始前</a>
+  <a href="#%e5%bc%80%e5%a7%8b%e5%89%8d" class="h-anchor" aria-hidden="true" title="开始前">#</a>
+</h2>
+<p>预留约 20 分钟。你需要一台能够连接主 Wi-Fi、访客 Wi-Fi 和 IoT Wi-Fi 的笔记本电脑。主网络上还需要一台可信设备，并运行一个<strong>已知开放的 TCP 服务</strong>，例如 NAS 的 Web 界面。TCP 服务会在编号端口上监听，例如 NAS 网页使用的 443 端口。使用你拥有或管理的服务。记下其本地地址和端口，但不要公开。整个测试期间保持该服务运行。</p>
+<p>记下 Mesh 型号、固件版本、工作模式，以及访客访问、IoT 访问、共享设备和客户端隔离设置。每次切换 Wi-Fi 后确认笔记本电脑连接的 Wi-Fi 名称。如果你的常规策略允许，可在本地路径测试期间断开 VPN 或代理，测试后再恢复。VPN 会改变被测试的路径。</p>
+<blockquote>
+<p>**警告：**只测试自己的设备或获准管理的设备。路由器登录页不能替代主网络上的主机，因为网关访问遵循不同规则。</p>
+</blockquote>
+<p>**局域网（LAN）**是你的家庭专用网络。<strong>IoT</strong>（物联网）包括摄像头、扬声器和智能插座等设备。<strong>客户端隔离</strong>会阻止同一 Wi-Fi 网络中设备之间的直接流量。</p>
+<h2 id="定义边界">
+  <a href="#%e5%ae%9a%e4%b9%89%e8%be%b9%e7%95
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>将 Hyper-V 虚拟机迁移到 Proxmox VE：可回退检查清单</title><link>https://zh.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><description>通过停机源导出、匹配固件、导入磁盘、隔离启动测试和回滚方案，将一台 Hyper-V 虚拟机迁移到 Proxmox VE。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p><strong>Hyper-V 导出</strong> 会保留虚拟机文件，而 Proxmox VE 需要新的客户机配置并导入 VHDX 虚拟磁盘文件。文件复制成功并不能证明客户机可以启动或提供服务。本清单通过源机停机导出、受控启动测试和有明确返回路径的切换来迁移一台虚拟机。</p>
+<h2 id="关键要点">
+  <a href="#%e5%85%b3%e9%94%ae%e8%a6%81%e7%82%b9" title="关键要点">关键要点</a>
+  <a href="#%e5%85%b3%e9%94%ae%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="关键要点">#</a>
+</h2>
+<ul>
+<li><strong>记录源配置：</strong> 导出前记录固件代数、磁盘路径、检查点、网络设置和加密状态。</li>
+<li><strong>停止写入：</strong> 最终导出前关闭 Hyper-V 虚拟机，并在 Proxmox 测试期间保持关机。</li>
+<li><strong>匹配启动路径：</strong> Hyper-V 第 1 代使用传统 BIOS，第 2 代使用 UEFI。</li>
+<li><strong>验证服务：</strong> 退役源机前检查数据、网络访问、备份和客户机健康状况。</li>
+</ul>
+<h2 id="开始前">
+  <a href="#%e5%bc%80%e5%a7%8b%e5%89%8d" title="开始前">开始前</a>
+  <a href="#%e5%bc%80%e5%a7%8b%e5%89%8d" class="h-anchor" aria-hidden="true" title="开始前">#</a>
+</h2>
+<p>安排维护窗口，并先用可丢弃的虚拟机测试。你需要 Hyper-V 和 Proxmox VE 管理员权限、导出存储空间，以及一份与迁移副本分开的已验证备份。留出传输全部虚拟磁盘和测试客户机应用的时间。停机时长取决于磁盘大小和传输速度。</p>
+<p>本流程适用于带虚拟磁盘的普通虚拟机。 <strong>受保护虚拟机、直通磁盘、共享磁盘、集群工作负载和硬件绑定许可</strong> 需要专门计划。记录切换负责人和最晚回滚时间。不要在生产网络上同时启动具有相同机器身份的两份副本。</p>
+<table>
+	<thead>
+			<tr>
+					<th>源端信息</th>
+					<th>用途</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>虚拟机代数和固件</strong></td>
+					<td>在 Proxmox 中选择 SeaBIOS 或 OVMF</td>
+			</tr>
+			<tr>
+					<td><strong>安全启动状态和模板</strong></td>
+					<td>匹配启动策略并注册兼容密钥</td>
+			</tr>
+			<tr>
+					<td><strong>启动盘和数据盘</strong></td>
+					<td>按正确顺序导入所有必需的 VHDX 虚拟磁盘文件</td>
+			</tr>
+			<tr>
+					<td><strong>检查点和 AVHDX 文件</strong></td>
+					<td>避免把差异磁盘当作独立基
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>使用 VPN 检查浏览器的 DNS 和 WebRTC 泄漏</title><link>https://zh.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><description>连接 VPN 前后检查浏览器的公网 IP、DNS 解析器和 WebRTC 地址。解读结果并排查路由问题。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p>虚拟专用网络（VPN）的连接图标无法证明浏览器的每个请求都经过同一路径。请分别测试你的<strong>公网 IP</strong>、<strong>域名系统（DNS）解析器</strong>和<strong>WebRTC 地址</strong>。每项结果回答的问题都不同。本指南提供可重复的检查方法，并说明如何调查异常结果。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li>**比较两种状态：**记录连接 VPN 前后的相同测试结果。</li>
+<li>**分别解读结果：**公网 IP 发生变化，并不能说明 DNS 查询发往何处。</li>
+<li>**检查 WebRTC 候选地址：**留意不属于预期路径的公网地址。私有地址代表不同情况。</li>
+<li>**每次只改一项设置：**每次调整 VPN、浏览器或 DNS 后重新测试。</li>
+</ul>
+<h2 id="开始之前">
+  <a href="#%e5%bc%80%e5%a7%8b%e4%b9%8b%e5%89%8d" title="开始之前">开始之前</a>
+  <a href="#%e5%bc%80%e5%a7%8b%e4%b9%8b%e5%89%8d" class="h-anchor" aria-hidden="true" title="开始之前">#</a>
+</h2>
+<p>使用你打算保护的浏览器和网络连接。确认 VPN 应覆盖整个设备，还是只覆盖选定的应用。如果 VPN 使用分流，请记录测试浏览器是否经过隧道。准备好 VPN 客户端的 DNS 策略以便对照。</p>
+<p><strong>VPN 分流</strong>会让部分应用经过 VPN，其他应用使用普通网络。</p>
+<p>本流程使用 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="BrowserLeaks IP">
+    <meta itemprop="url" content="https://browserleaks.com/ip">
+    <a href="https://browserleaks.com/ip"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >BrowserLeaks IP</a>
+</span>
+、
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>为什么 DNS 过滤会被绕过：检查解析器路径</title><link>https://zh.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><description>查明设备或浏览器绕过 DNS 过滤的原因。比较直接查询和默认查询，检查日志，再核对加密 DNS、VPN、IPv6 和路由器设置。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p>你配置了过滤解析器，但某台设备仍能访问策略中应被阻止的域名。原因可能是规则、设备的 Domain Name System (DNS) 分配、浏览器的加密解析器或 VPN。**先测试路径，再更改设置。**直接查询过滤器与设备的普通查询回答的是不同问题。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li>**先检查规则：**确认过滤器收到并阻止了安全的测试域名。</li>
+<li>**追踪每一层：**路由器、操作系统、浏览器、VPN 和移动设备设置都会影响 DNS 路由。</li>
+<li>**使用新查询：**将新的主机名和时间与过滤器查询日志对应起来。</li>
+<li>**说明证据边界：**一次观察到的查询只证明一条路径，不能证明所有应用或设备的行为。</li>
+</ul>
+<h2 id="开始前">
+  <a href="#%e5%bc%80%e5%a7%8b%e5%89%8d" title="开始前">开始前</a>
+  <a href="#%e5%bc%80%e5%a7%8b%e5%89%8d" class="h-anchor" aria-hidden="true" title="开始前">#</a>
+</h2>
+<p>预留约 20 分钟。你需要访问过滤解析器的查询日志，准备一台出现问题的设备，并记录路由器的 DNS 设置。示例使用 Windows 笔记本和 <strong>Pi-hole</strong>，但任何提供逐客户端查询日志的解析器都适用。先确定过滤器的准确地址。不要在公开报告中粘贴私有客户端地址、查询日志或策略规则。</p>
+<p>选择一个策略已经阻止的<strong>无害测试域名</strong>。也可以在测试配置中临时添加一条精确拒绝规则，目标是你控制的域名。记录规则，并在测试后删除。不要使用仍在活动的恶意软件域名进行探测。被阻止的页面是有用的症状，但解析器日志能提供更有力的路径证据。</p>
+<table>
+	<thead>
+			<tr>
+					<th>层级</th>
+					<th>问题</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>过滤器</strong></td>
+					<td>直接查询是否到达预期解析器并匹配规则？</td>
+			</tr>
+			<tr>
+					<td><strong>设备</strong></td>
+					<td>网络分配了哪些 DNS 服务器？</td>
+			</tr>
+			<tr>
+					<td><strong>浏览器或应用</strong></td>
+					<td>客户端使用设备解析器还是单独的路径？</td>
+			</tr>
+			<tr>
+					<td><strong>VPN 或中继</strong></td>
+					<td>活动隧道是否改变了查询目的地？</td>
+			</tr>
+	</tbody>
+</tabl
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2026 年 AI 基础设施热潮：需求、债务、电力与证据</title><link>https://zh.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><description>对 AI 基础设施支出、数据中心电力需求、融资结构、企业价值，以及在称市场为泡沫前所需证据的事实核查。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p><strong>AI 基础设施的扩张速度，是少数几个技术市场能够达到的水平。</strong> 支出是真实的。电力需求是真实的。融资风险是真实的。回报则更难确定。</p>
+<p>有用的问题不是人工智能是否存在。有用的问题是，未来的收入和生产力增长，是否足以证明支撑这轮建设所需的硬件、数据中心、电力合同、租赁和债务合理。</p>
+<p>本文核查 AI 泡沫争论背后的公开证据。预测会明确标注为预测。企业声明会与独立研究分开。结果无法证明崩盘即将发生。结果展示了财务和运营压力所在的位置。</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <meta itemprop="name" content="AI 泡沫的（迟到的）崩溃">
+  <meta itemprop="description" content="对 AI 基础设施支出、融资、企业估值和 AI 安全声明争论的怀疑性评论。">
+  <meta itemprop="thumbnailUrl" content="https://img.youtube.com/vi/XE
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2x RTX 5060 Ti 对比 GB10：256K 上下文下五款模型的本地 AI 基准测试</title><link>https://zh.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><description>对比 RTX 5060 Ti 与 GB10 上的五款模型，并展示同一主机上 Qwen3.8 Flash-Next Strata 运行至 256K 上下文的基准测试。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p><strong>两张 16 GB RTX 5060 Ti 显卡合计提供 32 GB VRAM。</strong> NVIDIA GB10 系统提供 128 GB 一致性统一内存。新的五模型基准测试比之前仅测试 Qwen 的结果更全面。</p>
+<p>在 256K 设置下，双卡系统的四款模型生成速度更快。GB10 在 Qwen3.8 27B 上明显领先，并为模型、上下文和运行时分配保留更多内存。最佳选择取决于模型和工作负载。</p>
+<p>另一项同主机测试比较了 Strata 上的 Qwen3.8-Flash-Next IQ2_XS 与 Ollama 上的 dense Qwen3.8 27B Q4_K_M。预热后，Flash-Next 的生成速度中位数为每秒 92.8 个 token，提示词含 260,446 个 token。Dense Qwen3.8 使用含 260,444 个 token 的提示词，速度为每秒 0.939 个 token。</p>
+<p>NVIDIA GB10 使用 128 GB 一致性统一内存。NVIDIA 列出的 GB10 平台规格包括 128 GB LPDDR5x 统一内存和 140 W 芯片 TDP。RTX 5060 Ti 每张卡使用 16 GB GDDR7、128 位内存接口，总图形功率为 180 W。
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="NVIDIA RTX 5060 Ti 规格">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/">
+    <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >NVIDIA RTX 5060 Ti 规格</a>
+</span>
+和 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="NVIDIA GB10 规格">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/products/workstations/dgx-spark/">
+    <a href="https://www.nvidia.com/en-us/products/workstation
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI 代理委派：分配工作并审查结果</title><link>https://zh.simeononsecurity.com/articles/effective-ai-agent-delegation/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/effective-ai-agent-delegation/</guid><description>判断何时需要第二个 AI 代理，为每位工作代理分配边界明确的任务，避免编辑冲突，并在主会话中整合证据。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/effective-ai-agent-delegation.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/effective-ai-agent-delegation/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="返回实用 AI 工作流课程">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >返回实用 AI 工作流课程</a>
+</span>
+</p>
+<p><strong>当一个独立问题的工作量足以单独开启会话时，再进行委派。</strong> 工作代理在自己的上下文中检查来源、审查测试，或起草范围明确的改动。主代理检查并整合结果。本课比较文档，同时让主会话继续处理小型实验任务。</p>
+<p>**学习目标：**你将分配一项独立审查工作，并验证工作代理提交的简短证据报告。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li>**协调器：**负责协调任务和最终审查的主代理。</li>
+<li>**工作代理：**负责一个边界明确结果的独立代理。</li>
+<li>**独立工作：**其答案不依赖其他代理未完成结果的子任务。</li>
+<li>**所有权：**分配给单个代理的指定文件或问题。</li>
+<li>**整合：**主代理将工作代理的输出与当前来源进行比较。</li>
+</ul>
+<h2 id="开始之前">
+  <a href="#%e5%bc%80%e5%a7%8b%e4%b9%8b%e5%89%8d" title="开始之前">开始之前</a>
+  <a href="#%e5%bc%80%e5%a7%8b%e4%b9%8b%e5%89%8d" class="h-anchor" aria-hidden="true" title="开始之前">#</a>
+</h2>
+<p>**前置要求：**你的
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="上下文交接">
+    <meta itemprop="url" content="/articles/effective-ai-context-window-management/">
+    <
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/effective-ai-agent-delegation/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI 工作流课程设置：终端、Git 与练习实验室</title><link>https://zh.simeononsecurity.com/articles/effective-ai-course-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/effective-ai-course-setup/</guid><description>准备安全的 AI 练习环境，学习课程中的终端和 Git 术语，并运行入门实验室。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/effective-ai-course-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/effective-ai-course-setup/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="返回实用 AI 工作流课程">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >返回实用 AI 工作流课程</a>
+</span>
+</p>
+<p><strong>使用代理前，先准备一个安全的练习空间。</strong> 第 1 和第 2 课可在浏览器中完成，无需此实验室。如果要学习完整课程，请在第 3 课前回到这里。编程实践课需要 Git、Python 3.10 或更新版本，以及一个编程代理。学习路线会用标记的手动任务替代不可用的代理操作。</p>
+<p>**学习成果：**你将运行入门实验室、保存本地基线，并说明如何重置一次性副本。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li>**浏览器路线：**在 ChatGPT 或 Claude 中完成聊天、规划、来源核验和审查练习。</li>
+<li>**本地路线：**使用终端和随附的 Python 实验室完成编程练习。</li>
+<li>**重置路线：**练习出错时，重新解压一份实验室副本。</li>
+<li>**安全规则：**私人文件、客户记录和凭据应留在实验室之外。</li>
+</ul>
+<h2 id="选择路线">
+  <a href="#%e9%80%89%e6%8b%a9%e8%b7%af%e7%ba%bf" title="选择路线">选择路线</a>
+  <a href="#%e9%80%89%e6%8b%a9%e8%b7%af%e7%ba%bf" class="h-anchor" aria-hidden="true" title="选择路线">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>路线</th>
+					<th>所需条件</th>
+					<th>练习内容</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>浏览器入门</strong></td>
+					<td>当前浏览器和 ChatGPT 或 Claude 账号</td>
+					<td>第 1、2 课，以及第 1 课的聊天任务包</td>
+			</tr>
+			<tr>
+					<td><strong>本地实践</strong></td>
+					<td>Git、Python 3.10 或更新版本、终端和一个编程代理</td>
+					<td>文件、差异、测试和代理修改</td>
+			</tr>
+			<tr>
+					<td><strong>自学课程</str
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/effective-ai-course-setup/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI 工作流综合实践：构建并验证 JSON 报告</title><link>https://zh.simeononsecurity.com/articles/effective-ai-capstone/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/effective-ai-capstone/</guid><description>创建一份新的 JSON 任务报告，包含项目背景、范围明确的代理请求、独立测试、来源审查，以及交给新会话的交接记录。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/effective-ai-capstone.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/effective-ai-capstone/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="返回实用 AI 工作流课程">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >返回实用 AI 工作流课程</a>
+</span>
+</p>
+<p><strong>构建一种新的输出格式，并证明它的行为符合预期。</strong> 之前你添加了状态筛选器。本次综合实践从一份全新的实验环境开始，新增一份供其他程序读取的 JSON 报告。新要求用于检查你是否能把工作流迁移到另一项功能。</p>
+<p>**学习目标：**交付一份经过检查的 JSON 报告、一份来源与工具证据记录，以及一份新会话能够理解的交接说明。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>单独的需求</strong>决定综合实践的功能。</li>
+<li><strong>编程代理的修改</strong>仅限于指定文件。</li>
+<li><strong>独立检查</strong>决定是否验收。</li>
+<li><strong>交给新会话的记录</strong>能让对方还原结果。</li>
+</ul>
+<h2 id="开始之前">
+  <a href="#%e5%bc%80%e5%a7%8b%e4%b9%8b%e5%89%8d" title="开始之前">开始之前</a>
+  <a href="#%e5%bc%80%e5%a7%8b%e4%b9%8b%e5%89%8d" class="h-anchor" aria-hidden="true" title="开始之前">#</a>
+</h2>
+<p>**先决条件：**完成第 0 至 10 课，包括仓库背景、第一次编程任务、MCP 或浏览器替代方案、任务委派和有界循环。第 11 课为选修。预留 90 至 120 分钟。难度为中级。</p>
+<p><strong>重新解压一份</strong>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.or
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/effective-ai-capstone/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI 任务包：更好的提示词与验收标准</title><link>https://zh.simeononsecurity.com/articles/effective-ai-task-packets/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://zh.simeononsecurity.com/articles/effective-ai-task-packets/</guid><description>将含糊的 AI 请求整理成任务包，明确结果、来源、文件范围、检查项和停止条件。</description><content:encoded><![CDATA[
+        
+            <img src="https://zh.simeononsecurity.com/img/cover/effective-ai-task-packets.webp">
+            
+        
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/effective-ai-task-packets/">Read the full article at https://zh.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="返回实用 AI 工作流课程">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >返回实用 AI 工作流课程</a>
+</span>
+</p>
+<p><strong>好的提示词会说明要做什么，以及如何判断结果。</strong> 增加文字无法弥补范围缺失。本课会把含糊请求改写成课程实验所用的任务包。</p>
+<p><strong>学习目标：</strong> 你将编写一个边界明确的任务包，其中包含来源、文件范围、检查项和停止条件。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>结果</strong> 指明所需的产物或行为。</li>
+<li><strong>范围</strong> 指明允许修改的文件和排除的操作。</li>
+<li><strong>来源</strong> 标明已批准的要求。</li>
+<li><strong>验收检查</strong> 让成功变得可观察。</li>
+<li><strong>停止条件</strong> 防止代理猜测或擅自开展后续工作。</li>
+</ul>
+<h2 id="开始之前">
+  <a href="#%e5%bc%80%e5%a7%8b%e4%b9%8b%e5%89%8d" title="开始之前">开始之前</a>
+  <a href="#%e5%bc%80%e5%a7%8b%e4%b9%8b%e5%89%8d" class="h-anchor" aria-hidden="true" title="开始之前">#</a>
+</h2>
+<p><strong>准备事项：</strong> 已解压的实验文件、其中的 <code>docs/requirements.md</code>，以及
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="仓库上下文课程">
+    <meta itemprop="url" content="/articles/effective-ai-agents-md-context/">
+    <a href="/articles/effective-ai-a
+
+        <br>
+        <a href="https://zh.simeononsecurity.com/articles/effective-ai-task-packets/">Read More at https://zh.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>

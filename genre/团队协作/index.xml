@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>团队协作 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>团队协作 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/</link></image><link>https://zh.simeononsecurity.com/genre/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/</link><description>Recent content in 团队协作 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/index.xml" rel="self" type="application/rss+xml"/><item><title>AI 代理偏差恢复与交接工作流</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-drift-recovery-handoffs/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-drift-recovery-handoffs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+识别过时的来源和策略适配器，恢复中断的发布，并验证代理之间的独立交接。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>AI 代理治理试点：章程、权威来源与测试</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+连接 AI 工具前，先定义试点角色、权威来源、策略模板和验收测试。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>AI 来源检索：地图、搜索与可选 RAG</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+先用来源地图查找，再用原生搜索并核验当前来源。可选评估 RAG，但不要改变来源的权威性。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>AI 协作综合实践：GitHub、Confluence 与 Jira</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过以 GitHub 为先的工作流以及 Confluence/Jira 工作流交付合成数据保留期限变更，并记录失败证据和独立审查结果。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>Confluence 与 Jira AI 设置：权限与职责</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-confluence-jira-setup/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-confluence-jira-setup/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+配置 Confluence 正式依据页面和公司管理的 Jira 权限，以支持经过审查的跨团队协作。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>GitHub AI 协作：代码库与审查边界</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-github-repository/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-github-repository/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+为经过审查的 AI 贡献建立来源地图、文件所有权和受保护的发布边界。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>GitHub AI 智能体工作流：AGENTS.md、清单与 Actions</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-github-agents-actions/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-github-agents-actions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+记录上下文清单，加载智能体策略，并通过基于可信基线的 GitHub Actions 检查验证保留期限提案。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>GitHub、Confluence 与 Jira 的 AI 发布工作流</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-confluence-jira-publication/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-confluence-jira-publication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过版本检查和部分发布恢复，在 Confluence、GitHub 与 Jira 中发布固定的保留期限提案。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>非编码人员的 GitHub AI 工作流：Issues 与拉取请求</title><link>https://zh.simeononsecurity.com/articles/ai-collaboration-github-browser-workflow/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "团队协作"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/ai-collaboration-github-browser-workflow/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+无需本地开发环境，即可使用浏览器编辑、Issues、聊天上下文包和经过审查的拉取请求。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>一个事实源，多种工具：混合团队的 AI 协作框架</title><link>https://zh.simeononsecurity.com/articles/one-source-many-tools-ai-collaboration-framework/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "知识管理"
+, "软件工程"
+, "团队协作"</category><guid>https://zh.simeononsecurity.com/articles/one-source-many-tools-ai-collaboration-framework/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+建立共享的 AI 协作体系，明确事实来源与责任人、管理上下文版本和变更审查，并决定何时使用项目地图、何时使用 RAG。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item></channel></rss>

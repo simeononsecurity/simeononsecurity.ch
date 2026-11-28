@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>现场 IT on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>现场 IT on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E7%8E%B0%E5%9C%BA-it/</link></image><link>https://zh.simeononsecurity.com/genre/%E7%8E%B0%E5%9C%BA-it/</link><description>Recent content in 现场 IT on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E7%8E%B0%E5%9C%BA-it/index.xml" rel="self" type="application/rss+xml"/><item><title>现场 IT 小贴士：超越迷你数据中心</title><link>https://zh.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"现场 IT"
+, "边缘计算"
+, "IT 运维"
+, "灾难恢复"
+, "硬件"
+, "最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+关于备件、文档、ESD、固件、启动介质、许可、实体安全、出行和保险的实用现场 IT 指南。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp"/></item><item><title>现场部署的供电与环境韧性</title><link>https://zh.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"边缘计算"
+, "现场 IT"
+, "供电系统"
+, "硬件"
+, "灾难恢复"
+, "坚固型计算"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+为现场边缘计算规划供电和环境防护。了解 UPS 容量计算、太阳能板、电池、时间同步、防护等级、接地和浪涌保护。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>现场部署连接与边缘节点数据安全</title><link>https://zh.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"边缘计算"
+, "现场 IT"
+, "网络安全"
+, "VPN"
+, "加密"
+, "物理安全"
+, "灾难恢复"</category><guid>https://zh.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+介绍如何通过蜂窝、卫星、LoRa、VPN、MFA、网络分段、日志、加密和失窃响应，连接并保护现场边缘计算节点。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item><item><title>现场可部署边缘计算：硬件与机箱选择</title><link>https://zh.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"边缘计算"
+, "现场 IT"
+, "硬件"
+, "家庭实验室"
+, "加固型计算设备"
+, "网络"
+, "灾难恢复"
+, "小型企业 IT"</category><guid>https://zh.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+现场边缘计算硬件与机箱选型指南，涵盖计算设备、机架、散热、存储、管理、布线和电源兼容性。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item></channel></rss>

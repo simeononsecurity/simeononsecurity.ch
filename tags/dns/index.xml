@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNS on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>DNS on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/dns/</link></image><link>https://zh.simeononsecurity.com/tags/dns/</link><description>Recent content in DNS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/dns/index.xml" rel="self" type="application/rss+xml"/><item><title>规划并测试 homelab 的 VLAN 分段</title><link>https://zh.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "网络安全"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+为 homelab 制定 VLAN 方案，将可信设备、服务器、IoT 和访客分隔开。记录允许的流量，分阶段配置网络，并测试隔离效果。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>优化网络：掌握 DNS 配置</title><link>https://zh.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><category>
+"网络管理"
+, "网络安全"
+, "IT 基础设施"
+, "技术解决方案"
+, "互联网技术"
+, "DNS 优化"
+, "网络性能"
+, "数字安全"
+, "互联网连接"
+, "技术指南"</category><guid>https://zh.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过了解 DNS 改善网络。了解 DNS 如何影响连接、性能和安全，然后优化配置。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp"/></item><item><title>DNS 如何工作：根 DNS 的作用与故障排查</title><link>https://zh.simeononsecurity.com/articles/how-does-dns-work/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><category>
+"DNS 基础"
+, "根 DNS"
+, "域名系统"
+, "DNS 解析"
+, "DNS 层级"
+, "DNS 缓存"
+, "DNS 故障排查"
+, "DNS 记录"
+, "DNS 管理"
+, "DNS 命令"</category><guid>https://zh.simeononsecurity.com/articles/how-does-dns-work/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 DNS 与根 DNS 的层级结构、名称解析流程、缓存机制和故障排查方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_image_depicting_interconnected_computer_ne.webp" length="167680" type="image/webp"/></item><item><title>Network Plus 课程：探索网络服务、连接选项和架构</title><link>https://zh.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "联网"
+, "连接性"
+, "数据交换"
+, "网络架构"
+, "云计算"
+, "网络服务"
+, "DNS"
+, "DHCP"
+, "NTP"</category><guid>https://zh.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+探索 DHCP、DNS 和 NTP 服务的功能，了解企业和数据中心网络架构，探索云概念和连接选项，以实现无缝通信和数据管理。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_various_networks.webp" length="250792" type="image/webp"/></item></channel></rss>

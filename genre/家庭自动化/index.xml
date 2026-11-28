@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>家庭自动化 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>家庭自动化 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E5%AE%B6%E5%BA%AD%E8%87%AA%E5%8A%A8%E5%8C%96/</link></image><link>https://zh.simeononsecurity.com/genre/%E5%AE%B6%E5%BA%AD%E8%87%AA%E5%8A%A8%E5%8C%96/</link><description>Recent content in 家庭自动化 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E5%AE%B6%E5%BA%AD%E8%87%AA%E5%8A%A8%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>Home Assistant Core 2026.11 回退到 2026.10.4：修复 HTTP 存储版本 3</title><link>https://zh.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"家庭自动化"
+, "故障排查"</category><guid>https://zh.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Home Assistant Core 2026.11 在 Yellow 上回退到 2026.10.4 后，修复 HTTP 存储版本 3 错误。包含带保护措施的命令和经过验证的输出。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp" length="32856" type="image/webp"/></item><item><title>安全的智能家居中枢</title><link>https://zh.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</link><pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "家庭安全"
+, "智能家居"
+, "家庭自动化"
+, "隐私"
+, "物联网"
+, "数字安全"
+, "联网设备"
+, "家居改善"
+, "消费电子产品"</category><guid>https://zh.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解安全的智能家居中枢，打造安全又便捷的家庭自动化体验。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/secure-smart-home-hubs.webp" length="49576" type="image/webp"/></item><item><title>确保语音助手的安全：隐私问题与缓解策略</title><link>https://zh.simeononsecurity.com/articles/securing-voice-assistants-and-addressing-privacy-concerns/</link><pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate><category>
+"技术新闻"
+, "隐私与安全"
+, "智能家居设备"
+, "数字助理"
+, "数据隐私"
+, "消费电子产品"
+, "科技小玩意"
+, "物联网"
+, "家庭自动化"
+, "数据安全"</category><guid>https://zh.simeononsecurity.com/articles/securing-voice-assistants-and-addressing-privacy-concerns/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何确保语音助手的安全，并通过有效的隐私保护策略来保护您的隐私。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon-style_illustration_showing_a_person.webp" length="93642" type="image/webp"/></item></channel></rss>

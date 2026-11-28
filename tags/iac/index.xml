@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IaC on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>IaC on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/iac/</link></image><link>https://zh.simeononsecurity.com/tags/iac/</link><description>Recent content in IaC on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/iac/index.xml" rel="self" type="application/rss+xml"/><item><title>Terraform 入门：将基础设施作为代码管理</title><link>https://zh.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"Terraform"
+, "基础设施即代码"
+, "IaC"
+, "云计算"
+, "DevOps"
+, "自动化"
+, "AWS"
+, "Azure"
+, "Google Cloud"
+, "云服务提供商"
+, "配置管理"
+, "部署"
+, "资源配置"
+, "资源管理"
+, "可扩展性"
+, "弹性"
+, "安全"
+, "合规"
+, "最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Terraform 这款常用基础设施即代码工具的基础知识，以及如何用它高效管理基础设施。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp" length="122182" type="image/webp"/></item><item><title>今天我学会了如何制作巧克力包装</title><link>https://zh.simeononsecurity.com/til/2022-05-23/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><category>
+"自动化"
+, "Windows 软件包管理"
+, "软件包创建"
+, "软件包管理"
+, "基础设施即代码（IaC）"
+, "Windows 软件部署"
+, "软件包装"
+, "视窗自动化"
+, "软件包存储库"
+, "视窗工具"</category><guid>https://zh.simeononsecurity.com/til/2022-05-23/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+今天，我学到了更多有关 Ansible 条件和变量管理的知识</description></item></channel></rss>

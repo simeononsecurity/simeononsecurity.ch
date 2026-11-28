@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>离线 TOTP 身份验证 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>离线 TOTP 身份验证 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E7%A6%BB%E7%BA%BF-totp-%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81/</link></image><link>https://zh.simeononsecurity.com/tags/%E7%A6%BB%E7%BA%BF-totp-%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81/</link><description>Recent content in 离线 TOTP 身份验证 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E7%A6%BB%E7%BA%BF-totp-%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81/index.xml" rel="self" type="application/rss+xml"/><item><title>现场部署连接与边缘节点数据安全</title><link>https://zh.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"边缘计算"
+, "现场 IT"
+, "网络安全"
+, "VPN"
+, "加密"
+, "物理安全"
+, "灾难恢复"</category><guid>https://zh.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+介绍如何通过蜂窝、卫星、LoRa、VPN、MFA、网络分段、日志、加密和失窃响应，连接并保护现场边缘计算节点。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item></channel></rss>

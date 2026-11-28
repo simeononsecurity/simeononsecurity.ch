@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>Linux on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/linux/</link></image><link>https://zh.simeononsecurity.com/genre/linux/</link><description>Recent content in Linux on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>2026年，容器已不再是安全边界</title><link>https://zh.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"容器安全"
+, "Linux"
+, "内核安全"
+, "虚拟化"
+, "云安全"
+, "威胁研究"
+, "蓝队"
+, "DevSecOps"</category><guid>https://zh.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年的内核漏洞揭示了多租户容器隔离为何不足。了解 Copy Fail、Dirty Frag、Fragnesia 和 CVE-2026-80521，并比较加固容器与 microVM 边界。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>2026 年 Pearl (PRL) 挖矿指南：配置、收益与链的实用性</title><link>https://zh.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"加密货币"
+, "GPU 挖矿"
+, "AI 计算"
+, "DePIN"
+, "区块链"
+, "Linux"
+, "家庭实验室"
+, "硬件"</category><guid>https://zh.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用 SRBMiner 配置 Pearl PRL 挖矿，了解有用工作量证明，估算利润并评估区块链的实际用途。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp" length="266670" type="image/webp"/></item><item><title>保护 Windows 和 Linux</title><link>https://zh.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "脚本语言"
+, "系统安全"
+, "Windows"
+, "Linux"
+, "政府法规"
+, "网络威胁"
+, "安全脚本编写"
+, "合规"
+, "编程"</category><guid>https://zh.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过这篇全面的网络安全分析，了解如何使用 PowerShell 和 Python 加强系统安全。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp"/></item><item><title>Linux 安全与加固的五大技术</title><link>https://zh.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络安全"
+, "Linux"
+, "系统安全"
+, "开源"
+, "加固"
+, "信息技术"
+, "数据保护"
+, "网络安全"
+, "计算机科学"</category><guid>https://zh.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+探索五大 Linux 安全技术，强化您的系统抵御威胁。通过专家级加固措施提升系统完整性，保护敏感数据。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp"/></item></channel></rss>

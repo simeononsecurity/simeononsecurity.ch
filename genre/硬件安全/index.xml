@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>硬件安全 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>硬件安全 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E7%A1%AC%E4%BB%B6%E5%AE%89%E5%85%A8/</link></image><link>https://zh.simeononsecurity.com/genre/%E7%A1%AC%E4%BB%B6%E5%AE%89%E5%85%A8/</link><description>Recent content in 硬件安全 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 12 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E7%A1%AC%E4%BB%B6%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>SenseCAP M1 Raspberry Pi Shield：引脚图与 LoRaWAN 再利用</title><link>https://zh.simeononsecurity.com/articles/sensecap-m1-raspberry-pi-shield/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "IoT"
+, "硬件安全"</category><guid>https://zh.simeononsecurity.com/articles/sensecap-m1-raspberry-pi-shield/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 SenseCAP M1 shield，比较相互冲突的 GPIO 映射，检查 ATECC608，并使用新版 Raspberry Pi OS 规划 LoRaWAN 网关。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/sensecap-wm1302-shield-hardware.webp" length="563558" type="image/webp"/></item><item><title>Eye Spy：ESP32被动监控与追踪器检测器</title><link>https://zh.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"隐私工具"
+, "反监控"
+, "物联网安全"
+, "嵌入式系统"
+, "安全研究"
+, "WiFi安全"
+, "蓝牙安全"
+, "ESP32项目"
+, "硬件安全"
+, "开源安全"</category><guid>https://zh.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Eye Spy v1.1技术参考。这是一款基于ESP32的BLE与WiFi被动检测器，可识别摄像头、追踪器、无人机及相关信号。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>ESP32 WiFi Canary：被动检测 2.4 GHz 威胁</title><link>https://zh.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "WiFi 安全"
+, "物联网安全"
+, "安全研究"
+, "嵌入式系统"
+, "隐私工具"
+, "ESP32 项目"
+, "硬件安全"
+, "无线安全"
+, "开源安全"</category><guid>https://zh.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ESP32 WiFi Canary 技术解析。这款 2.4 GHz 被动传感器可检测 邪恶双胞胎攻击、解除认证、安全降级和信标泛洪。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>Orbic RCL400 的 DagShell 定制固件：2026 指南</title><link>https://zh.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"定制固件"
+, "移动安全"
+, "隐私工具"
+, "网络安全"
+, "巡行扫描"
+, "渗透测试"
+, "IoT 安全"
+, "安全研究"
+, "硬件安全"
+, "隐私技术"</category><guid>https://zh.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Orbic RCL400 DagShell 固件技术指南，介绍安装、隐私工具、巡行扫描和研究限制。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item></channel></rss>

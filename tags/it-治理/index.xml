@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT 治理 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>IT 治理 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/it-%E6%B2%BB%E7%90%86/</link></image><link>https://zh.simeononsecurity.com/tags/it-%E6%B2%BB%E7%90%86/</link><description>Recent content in IT 治理 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/it-%E6%B2%BB%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>保护 Windows 和 Linux</title><link>https://zh.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "脚本语言"
+, "系统安全"
+, "Windows"
+, "Linux"
+, "政府法规"
+, "网络威胁"
+, "安全脚本编写"
+, "合规"
+, "编程"</category><guid>https://zh.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过这篇全面的网络安全分析，了解如何使用 PowerShell 和 Python 加强系统安全。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp"/></item><item><title>保护 Active Directory</title><link>https://zh.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "网络管理"
+, "信息技术"
+, "数据保护"
+, "企业安全"
+, "数字基础设施"
+, "访问控制"
+, "用户身份验证"
+, "IT 最佳实践"
+, "安全意识"</category><guid>https://zh.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解保护 Active Directory、保障数据安全并防止网络基础设施遭受入侵的关键方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item><item><title>NIST Cybersecurity Framework 与 ISO 27001 对比</title><link>https://zh.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "信息安全"
+, "安全框架"
+, "风险管理"
+, "数据保护"
+, "合规"
+, "IT 治理"
+, "网络威胁"
+, "网络防御"
+, "网络风险"</category><guid>https://zh.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 NIST Cybersecurity Framework 与 ISO 27001 的差异，为组织选择合适的安全框架。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_shield_protecting_a_network_of.webp" length="102920" type="image/webp"/></item></channel></rss>

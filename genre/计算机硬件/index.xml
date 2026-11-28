@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>计算机硬件 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>计算机硬件 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6/</link></image><link>https://zh.simeononsecurity.com/genre/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6/</link><description>Recent content in 计算机硬件 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>Octominer X12 Ultra 电源兼容性：Chicony 与 LiteOn 实测</title><link>https://zh.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><category>
+"挖矿硬件"
+, "计算机硬件"</category><guid>https://zh.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+在五风扇、三电源的 Octominer X12 Ultra 上进行测试后发现，一台 Chicony 电源能启动设备，而测试过的 LiteOn 电源亮琥珀色灯且无法启动。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp" length="34962" type="image/webp"/></item><item><title>2x RTX 5060 Ti 对比 GB10：256K 上下文下五款模型的本地 AI 基准测试</title><link>https://zh.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "本地 AI"
+, "GPU 硬件"
+, "基准测试"
+, "计算机硬件"</category><guid>https://zh.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对比 RTX 5060 Ti 与 GB10 上的五款模型，并展示同一主机上 Qwen3.8 Flash-Next Strata 运行至 256K 上下文的基准测试。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>16GB 显存足以胜任高强度本地大语言模型工作吗？</title><link>https://zh.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "计算机硬件"
+, "自托管 AI"</category><guid>https://zh.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+围绕模型权重、KV 缓存和提示词处理，为 16GB 本地大语言模型工作负载规划显存预算。比较 Qwen3.8 27B 的内存需求、GPU 带宽和持有成本。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>64GB DGX Spark 是本地 AI 硬件价格的警示信号</title><link>https://zh.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "AI 硬件"
+, "半导体"
+, "计算机硬件"
+, "AI 经济"
+, "自托管 AI"</category><guid>https://zh.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+分析 64GB DGX Spark 配置、统一内存的取舍，以及到 2027 年底的 DRAM 供应压力。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Qwen 27B 的 32GB VRAM：2026 年 10 月本地 AI 硬件指南</title><link>https://zh.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "AI 硬件"
+, "GPU 基准测试"
+, "自托管 AI"
+, "计算机硬件"
+, "AI 成本"</category><guid>https://zh.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+这份 2026 年 10 月实用指南介绍如何用 32GB 加速器内存运行 Qwen 27B，并比较单卡、多卡、统一内存、二手加速卡、云租用和上下文限制。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>提升连接能力：USB 标准与端口指南</title><link>https://zh.simeononsecurity.com/articles/usb-standards-and-ports_-a-users-guide/</link><pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate><category>
+"技术教程"
+, "USB 连接"
+, "电子设备指南"
+, "计算机硬件"
+, "技术知识"
+, "易用技术"
+, "设备同步"
+, "数据传输技巧"
+, "充电方案"
+, "技术进步"</category><guid>https://zh.simeononsecurity.com/articles/usb-standards-and-ports_-a-users-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 USB 技术和端口的发展历程。认识 USB Type-C 与 USB 4.0，并判断何时需要升级设备。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/usb-standards-and-ports_-a-users-guide.webp" length="14270" type="image/webp"/></item><item><title>让电脑安静下来：解决风扇噪音</title><link>https://zh.simeononsecurity.com/articles/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud/</link><pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate><category>
+"计算机硬件"
+, "电脑维护"
+, "技术提示"
+, "DIY电脑维修"
+, "设备维护"
+, "降噪"
+, "硬件故障排查"
+, "DIY技术"
+, "电脑风扇"
+, "系统升级"</category><guid>https://zh.simeononsecurity.com/articles/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+电脑风扇噪音让你烦恼吗？了解噪音的成因和解决方法，享受安静的电脑使用体验。现在就开始处理。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud.webp" length="244306" type="image/webp"/></item><item><title>支持高速数据传输的总线架构</title><link>https://zh.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</link><pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate><category>
+"数据传输指南"
+, "技术创新"
+, "系统架构"
+, "高性能计算"
+, "计算机硬件"
+, "总线设计"
+, "连接技术"
+, "新兴技术"
+, "计算效率"
+, "技术优化"</category><guid>https://zh.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解总线架构以及加快数据传输的方法。本指南介绍总线类型、优化方式、新兴方案，以及性能和安全方面的挑战。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures.webp" length="305084" type="image/webp"/></item></channel></rss>

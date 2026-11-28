@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>提示词处理 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>提示词处理 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%A4%84%E7%90%86/</link></image><link>https://zh.simeononsecurity.com/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%A4%84%E7%90%86/</link><description>Recent content in 提示词处理 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%A4%84%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>16GB 显存足以胜任高强度本地大语言模型工作吗？</title><link>https://zh.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "计算机硬件"
+, "自托管 AI"</category><guid>https://zh.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+围绕模型权重、KV 缓存和提示词处理，为 16GB 本地大语言模型工作负载规划显存预算。比较 Qwen3.8 27B 的内存需求、GPU 带宽和持有成本。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>该运行哪种本地 AI 模型？2026 年 10 月 GPU 显存、上下文与编码指南</title><link>https://zh.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "AI 硬件"
+, "自托管 AI"
+, "GPU 基准测试"
+, "开发者工具"
+, "AI 经济学"</category><guid>https://zh.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+根据 GPU 显存、系统内存、量化方式和运行时限制，为编码代理选择本地 AI 模型与上下文长度。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

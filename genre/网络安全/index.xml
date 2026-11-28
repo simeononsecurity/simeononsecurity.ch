@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>网络安全 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>网络安全 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</link></image><link>https://zh.simeononsecurity.com/genre/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</link><description>Recent content in 网络安全 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>Open WebUI v0.12.4：升级与访问控制检查清单 2026</title><link>https://zh.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"自托管 AI"
+, "网络安全"
+, "系统管理"</category><guid>https://zh.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+备份并将 Open WebUI 升级到 v0.12.4，然后测试聊天共享、导出权限、资源授权、账户和网络访问。</description></item><item><title>Thunderbird 153.6：Windows NTLM 凭据泄露与更新方法（2026）</title><link>https://zh.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "电子邮件安全"
+, "Windows 安全"</category><guid>https://zh.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+显示特制邮件时，Thunderbird 的两项严重漏洞可能泄露 Windows NTLM 身份验证数据。本文介绍两种触发路径、版本检查方法，以及更新期间限制出站 SMB 的措施。</description></item><item><title>2026 年 AI 基础设施热潮：需求、债务、电力与证据</title><link>https://zh.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "AI 经济学"
+, "数据中心"
+, "云基础设施"
+, "网络安全"</category><guid>https://zh.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对 AI 基础设施支出、数据中心电力需求、融资结构、企业价值，以及在称市场为泡沫前所需证据的事实核查。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>本地 AI 隐私边界：哪些内容留在你的电脑上，哪些不会</title><link>https://zh.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "隐私"
+, "自托管 AI"
+, "网络安全"
+, "AI 经济学"</category><guid>https://zh.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+在选择本地推理或托管 AI 服务前，追踪提示词、模型文件、工具、日志、网络暴露面和电力成本。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>规划并测试 homelab 的 VLAN 分段</title><link>https://zh.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "网络安全"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+为 homelab 制定 VLAN 方案，将可信设备、服务器、IoT 和访客分隔开。记录允许的流量，分阶段配置网络，并测试隔离效果。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>哪种网络安全职业适合你？16个起点，多种发展路径</title><link>https://zh.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "职业发展"</category><guid>https://zh.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过一段以性格类型为主题的视频，了解每种类型对应的多种网络安全岗位，并用实践练习根据实际工作比较职业路径。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/cybersecurity-careers-personality-paths.webp" length="155796" type="image/webp"/></item><item><title>为 Meshtastic 构建保护隐私的 AI 助手</title><link>https://zh.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "隐私"
+, "开源"
+, "自动化"</category><guid>https://zh.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+介绍为 Meshtastic 构建本地 AI 助手的实践经验，涵盖私密配置、排队处理的 TCP 访问、信息检索工具和更安全的仪表板。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Cloudflare Tunnel 与 Access：两者都需要吗？</title><link>https://zh.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "自托管"
+, "云安全"</category><guid>https://zh.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Cloudflare Tunnel 与 Access 的区别，为家庭仪表板选择保护方式，并避免在没有身份验证时公开私有应用。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>Microsoft SOC 家庭实验室：在 2026 年积累网络安全经验</title><link>https://zh.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "云安全"
+, "职业发展"</category><guid>https://zh.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用 Sentinel、Defender、Intune 和 Entra 搭建 Microsoft SOC 家庭实验室。练习事件调查、验证通行密钥策略，并记录作品集证据。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>常见网络攻击类型及其检测方法</title><link>https://zh.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "威胁检测"
+, "蓝队"
+, "安全运营"
+, "职业发展"</category><guid>https://zh.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解常见网络攻击类型及其在日志和遥测数据中留下的证据，并在家庭安全实验室中练习检测。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item><item><title>Flock 摄像头检测竞赛：2026 年发生了什么变化</title><link>https://zh.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"隐私技术"
+, "反监控"
+, "开源项目"
+, "数字权利"
+, "网络安全"
+, "安全研究"
+, "硬件改造"
+, "隐私工具"</category><guid>https://zh.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Flock Safety 检测方式的变化、社区的应对，以及用于识别摄像头系统的红外方案。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>现场部署连接与边缘节点数据安全</title><link>https://zh.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"边缘计算"
+, "现场 IT"
+, "网络安全"
+, "VPN"
+, "加密"
+, "物理安全"
+, "灾难恢复"</category><guid>https://zh.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+介绍如何通过蜂窝、卫星、LoRa、VPN、MFA、网络分段、日志、加密和失窃响应，连接并保护现场边缘计算节点。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item><item><title>Flock Finder：绘制 Flock Safety ALPR 摄像头地图</title><link>https://zh.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"隐私技术"
+, "反监控"
+, "开源项目"
+, "数字权利"
+, "网络安全"
+, "隐私工具"
+, "硬件黑客"
+, "安全研究"</category><guid>https://zh.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder 是一款开源工具，利用 WiGLE WiFi 数据和 OUI 指纹识别，绘制全球 40,000 多台 Flock Safety ALPR 摄像头的地图。了解其工作原理、局限性以及用于实时检测的硬件工具。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>ESP32 WiFi Canary：被动检测 2.4 GHz 威胁</title><link>https://zh.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "WiFi 安全"
+, "物联网安全"
+, "安全研究"
+, "嵌入式系统"
+, "隐私工具"
+, "ESP32 项目"
+, "硬件安全"
+, "无线安全"
+, "开源安全"</category><guid>https://zh.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ESP32 WiFi Canary 技术解析。这款 2.4 GHz 被动传感器可检测 邪恶双胞胎攻击、解除认证、安全降级和信标泛洪。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>Orbic RCL400 的 DagShell 定制固件：2026 指南</title><link>https://zh.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"定制固件"
+, "移动安全"
+, "隐私工具"
+, "网络安全"
+, "巡行扫描"
+, "渗透测试"
+, "IoT 安全"
+, "安全研究"
+, "硬件安全"
+, "隐私技术"</category><guid>https://zh.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Orbic RCL400 DagShell 固件技术指南，介绍安装、隐私工具、巡行扫描和研究限制。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>2026 年网络安全认证对比</title><link>https://zh.simeononsecurity.com/articles/cybersecurity-certifications-comparison-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "IT 认证"
+, "职业发展"
+, "专业培训"
+, "信息安全"
+, "技术教育"
+, "安全培训"
+, "IT 职业路径"
+, "专业发展"
+, "认证指南"</category><guid>https://zh.simeononsecurity.com/articles/cybersecurity-certifications-comparison-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对比 2026 年网络安全认证机构、价格、投资回报和职业路径适配度。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/cybersecurity-certifications-comparison-guide-2026.webp" length="276310" type="image/webp"/></item><item><title>Flock Safety 摄像头安全漏洞：发现 50 多项缺陷</title><link>https://zh.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"安全研究"
+, "漏洞分析"
+, "监控技术"
+, "网络安全"
+, "隐私保护"
+, "物联网安全"
+, "物理安全"
+, "网络安全"
+, "关键基础设施"
+, "政府技术"</category><guid>https://zh.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对 Flock Safety 摄像头漏洞的研究分析了暴露的凭据、薄弱的防护、物理访问风险和披露流程的局限。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>Flock-You检测：反监控设置指南</title><link>https://zh.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"安全硬件"
+, "反监控"
+, "隐私技术"
+, "开源项目"
+, "ESP32开发"
+, "WiFi监控"
+, "隐私工具"
+, "数字权利"
+, "硬件破解"
+, "网络安全"</category><guid>https://zh.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用基于ESP32硬件检测Flock Safety ALPR摄像头的开源Flock-You项目综合技术指南。包括设置说明、固件详情和购买选项。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>Fortinet 与 Cisco：完整的网络安全对比</title><link>https://zh.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "网络安全"
+, "企业网络"
+, "防火墙对比"
+, "IT 基础设施"
+, "网络硬件"
+, "安全解决方案"
+, "网络管理"
+, "技术对比"
+, "IT 决策"</category><guid>https://zh.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+全面比较 Fortinet 和 Cisco 的网络安全解决方案，包括防火墙、交换机、SD-WAN、定价、性能基准以及 2026 年的部署建议。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp"/></item><item><title>Tailscale 与 Headscale 对比</title><link>https://zh.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "网络安全"
+, "自托管"
+, "WireGuard"
+, "零信任"
+, "网状网络"
+, "开源"
+, "云基础设施"
+, "远程访问"
+, "网络管理"</category><guid>https://zh.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从托管模式、身份管理、功能、成本、运维和支持等方面比较 Tailscale 与 Headscale，帮助你选择符合需求的 WireGuard 网状 VPN。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item><item><title>解决 Wi-Fi 问题：常见故障的实用处理方法</title><link>https://zh.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</link><pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate><category>
+"Wi-Fi 故障排除"
+, "无线解决方案"
+, "技术支持"
+, "连接建议"
+, "家庭网络"
+, "互联网指南"
+, "Wi-Fi 优化"
+, "网络安全"
+, "实用技术"
+, "网络性能"</category><guid>https://zh.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过改善信号、减少断连和加强安全的建议，解决 Wi-Fi 问题。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/wireless-connectivity_-troubleshooting-common-wi-fi-problems.webp" length="61888" type="image/webp"/></item><item><title>虚拟化：提升 IT 效率与扩展能力</title><link>https://zh.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</link><pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate><category>
+"虚拟化指南"
+, "IT 基础设施"
+, "技术创新"
+, "云计算"
+, "数据中心管理"
+, "计算效率"
+, "网络解决方案"
+, "网络安全"
+, "软件进展"
+, "硬件优化"</category><guid>https://zh.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解虚拟化如何改善 IT 性能，并掌握其类型、优势以及基础设施管理的实用方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/understanding-virtualization_-concepts-and-applications.webp" length="103918" type="image/webp"/></item><item><title>排查网络连接问题，确保可靠运行</title><link>https://zh.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</link><pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate><category>
+"网络技巧"
+, "IT 解决方案"
+, "业务连续性"
+, "网络安全"
+, "技术故障排查"
+, "数字基础设施"
+, "互联网可靠性"
+, "系统恢复"
+, "网络管理"
+, "技术支持"</category><guid>https://zh.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用经过验证的方法诊断连接问题，保持网络稳定可靠。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/ensuring-network-reliability_-how-to-troubleshoot-connection-issues.webp" length="200054" type="image/webp"/></item><item><title>掌握电子邮件礼仪</title><link>https://zh.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</link><pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate><category>
+"专业沟通"
+, "电子邮件安全"
+, "商务礼仪"
+, "技术技能"
+, "工作效率"
+, "网络安全最佳实践"
+, "数字素养"
+, "在线沟通"
+, "网络安全"
+, "高效写作"</category><guid>https://zh.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解电子邮件礼仪，改善安全、专业的邮件往来。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/email-etiquette_-ensuring-smooth-and-secure-email-operations.webp" length="84144" type="image/webp"/></item><item><title>NAT 与 PAT：网络通信核心指南</title><link>https://zh.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"网络基础"
+, "网络安全"
+, "IT 基础设施"
+, "技术指南"
+, "网络管理"
+, "互联网协议"
+, "通信技术"
+, "系统管理"
+, "网络工程"
+, "数字网络"</category><guid>https://zh.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 NAT 与 PAT，让数字通信顺畅运行。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item></channel></rss>

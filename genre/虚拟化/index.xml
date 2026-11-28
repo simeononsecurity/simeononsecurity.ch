@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>虚拟化 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>虚拟化 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E8%99%9A%E6%8B%9F%E5%8C%96/</link></image><link>https://zh.simeononsecurity.com/genre/%E8%99%9A%E6%8B%9F%E5%8C%96/</link><description>Recent content in 虚拟化 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E8%99%9A%E6%8B%9F%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9：减少虚拟磁盘占用并回收空间</title><link>https://zh.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"虚拟化"
+, "Linux 管理"
+, "Proxmox VE 平台"
+, "存储"
+, "家庭实验室"</category><guid>https://zh.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+减少 Proxmox VE 9 VM 和 LXC 的存储占用。比较磁盘格式与存储后端，启用 discard，在 Windows 和 Linux 客户机中执行 trim，并在回收空间前检查快照。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Proxmox VM 恢复演练：验证来宾系统能够正常运行</title><link>https://zh.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"虚拟化"
+, "备份与恢复"
+, "家庭实验室"</category><guid>https://zh.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过隔离恢复测试 Proxmox VM 备份。无需触碰生产环境，即可检查磁盘覆盖范围、备份模式、来宾数据、服务状态和恢复时间。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>将 Hyper-V 虚拟机迁移到 Proxmox VE：可回退检查清单</title><link>https://zh.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"虚拟化"
+, "系统管理"
+, "家庭实验室"</category><guid>https://zh.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过停机源导出、匹配固件、导入磁盘、隔离启动测试和回滚方案，将一台 Hyper-V 虚拟机迁移到 Proxmox VE。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>2026年，容器已不再是安全边界</title><link>https://zh.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"容器安全"
+, "Linux"
+, "内核安全"
+, "虚拟化"
+, "云安全"
+, "威胁研究"
+, "蓝队"
+, "DevSecOps"</category><guid>https://zh.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年的内核漏洞揭示了多租户容器隔离为何不足。了解 Copy Fail、Dirty Frag、Fragnesia 和 CVE-2026-80521，并比较加固容器与 microVM 边界。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>Proxmox 上 LXC 中的 Docker：可靠性、证据与迁移到 VM</title><link>https://zh.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"虚拟化"
+, "Linux 管理"
+, "家庭实验室"</category><guid>https://zh.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过一项有记录的 AppArmor 故障、对主机冻结报告的审慎解读、诊断命令和 VM 迁移计划，评估在 Proxmox LXC 中运行 Docker。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>Proxmox VE 8 升级到 9 指南</title><link>https://zh.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"虚拟化"
+, "Linux 管理"
+, "Proxmox"
+, "服务器管理"
+, "开源软件"
+, "家庭实验室"</category><guid>https://zh.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过前置检查、手动步骤和自动化，将 Proxmox VE 8 升级到 9，并了解不兼容变更与恢复方法。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item><item><title>VMware vs Hyper-V vs Proxmox：虚拟化对比</title><link>https://zh.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link><pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "虚拟化"
+, "IT 基础设施"
+, "服务器虚拟化"
+, "企业软件"
+, "云计算"
+, "数据中心解决方案"
+, "开源虚拟化"
+, "虚拟机管理"
+, "虚拟化对比"</category><guid>https://zh.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+轻松比较 VMware ESXi、Citrix XenServer、Hyper-V、Proxmox VE 和 XCP-NG，选择理想的虚拟化解决方案，实现业务成功。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp"/></item><item><title>值得关注的家庭实验室内容创作者</title><link>https://zh.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "网络"
+, "DIY"
+, "虚拟化"
+, "家庭实验室"
+, "技术爱好者"
+, "社区"
+, "学习"
+, "创新"
+, "指南"</category><guid>https://zh.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+认识有影响力的家庭实验室创作者，与爱好者交流，开启技术探索之旅。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item><item><title>自动安装 Windows 11：绕过 TPM、安全启动和内存检查</title><link>https://zh.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "视窗 11"
+, "安装"
+, "虚拟化"
+, "自动化"
+, "注册表密钥"
+, "TPM 旁路"
+, "安全启动旁路"
+, "内存旁路"
+, "vTPM"</category><guid>https://zh.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用 autounattend.xml 和 vTPM 绕过 TPM、安全启动和 RAM 检查，简化虚拟环境中的 Windows 11 安装。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/windows11-installation-cartoon.webp" length="56442" type="image/webp"/></item><item><title>使用 vTPM 提高虚拟机安全性：分步指南</title><link>https://zh.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "虚拟化"
+, "虚拟软件"
+, "vSphere"
+, "安全"
+, "可信平台模块"
+, "vTPM"
+, "访客操作系统"
+, "加密"
+, "平台认证"</category><guid>https://zh.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过我们全面的分步指南，使用 vTPM 增强虚拟机安全性，提供平台验证和 BitLocker 加密支持。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/enhanced-vm-security.webp" length="99734" type="image/webp"/></item><item><title>掌握 VMware 安全</title><link>https://zh.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "虚拟化"
+, "IT 基础设施"
+, "自动化"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "合规"
+, "脚本"
+, "数据中心"</category><guid>https://zh.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+本指南介绍如何使用 PowerCLI 应用 VMware STIG 并保护 VMware 环境。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>掌握用于 vSphere 管理的 PowerCLI</title><link>https://zh.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "虚拟化"
+, "VMware"
+, "IT 管理"
+, "自动化"
+, "命令行界面"
+, "脚本编写"
+, "系统管理"
+, "云计算"
+, "数据中心管理"</category><guid>https://zh.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何使用 PowerCLI 管理 VMware vSphere、自动执行任务并提高效率。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>什么是家庭实验室？IT 专业人士的搭建指南</title><link>https://zh.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"家庭实验室"
+, "IT专业人士"
+, "学生"
+, "爱好者"
+, "网络"
+, "虚拟化"
+, "自动化"
+, "硬件"
+, "软件"
+, "最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+利用这本为IT专业人士、学生和爱好者设计的全面指南，释放您的家庭实验室潜力，涵盖设置、组件、高级主题和最佳实践。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp" length="167376" type="image/webp"/></item></channel></rss>

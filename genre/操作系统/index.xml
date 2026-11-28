@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>操作系统 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>操作系统 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link></image><link>https://zh.simeononsecurity.com/genre/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link><description>Recent content in 操作系统 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml"/><item><title>操作系统比较：Windows、Linux 与 macOS 的功能与安全性</title><link>https://zh.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><category>
+"操作系统"
+, "技术评测"
+, "软件比较"
+, "计算机安全"
+, "用户体验设计"
+, "系统性能"
+, "开源软件"
+, "技术指南"
+, "个人计算"
+, "IT 解决方案"</category><guid>https://zh.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+揭示哪款操作系统在安全性与易用性上领先：Windows、Linux 还是 macOS？获取您做决定所需的关键见解，帮助您在投入使用前做出明智选择。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/operating-systems_-windows-linux-and-macos-compared.webp" length="44424" type="image/webp"/></item><item><title>掌握复制功能：高效管理操作系统中的文件</title><link>https://zh.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</link><pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate><category>
+"技术"
+, "文件管理"
+, "操作系统"
+, "数据传输"
+, "数据整理"
+, "计算机技能"
+, "IT技巧"
+, "操作系统效率"
+, "系统管理"
+, "软件工具"</category><guid>https://zh.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解操作系统中的高级复制功能，学习如何快速、高效地管理文件。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems.webp" length="92028" type="image/webp"/></item><item><title>计算机文件系统详解：FAT32、NTFS、exFAT 等</title><link>https://zh.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</link><pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate><category>
+"计算机科学"
+, "数据存储"
+, "技术指南"
+, "文件管理"
+, "操作系统"
+, "数字化整理"
+, "技术教育"
+, "软件信息"
+, "系统优化"
+, "技术资源"</category><guid>https://zh.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过这份 FAT32、NTFS、exFAT 等文件系统概览了解它们的功能、限制和兼容性，帮助你更好地管理数据。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/computer-file-systems-explained_-fat32,-ntfs,-exfat,-and-more.webp" length="132294" type="image/webp"/></item><item><title>Windows 注册表与 Linux 配置文件对比</title><link>https://zh.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link><pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "操作系统"
+, "安全管理"
+, "计算机技术"
+, "数据保护"
+, "系统配置"
+, "IT 安全"
+, "网络安全"
+, "技术比较"
+, "信息安全"</category><guid>https://zh.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较 Windows 注册表与 Linux 配置文件的安全特性，并了解强化这两类系统的实用措施。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp"/></item><item><title>Windows Task Scheduler 与 Linux Cron 的安全性比较</title><link>https://zh.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "操作系统"
+, "系统自动化"
+, "安全工具"
+, "计算机技术"
+, "任务调度"
+, "网络安全防护"
+, "系统管理"
+, "网络防御"
+, "IT 管理"</category><guid>https://zh.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从网络安全和系统加固的角度比较 Windows Task Scheduler 与 Linux Cron 任务。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>Windows GVLKs：释放许可密钥的威力，提升性能</title><link>https://zh.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</link><pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "软件"
+, "生产率"
+, "操作系统"
+, "微软"
+, "视窗"
+, "许可"
+, "关键管理"
+, "IT 解决方案"
+, "增强"</category><guid>https://zh.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Windows GVLK 如何彻底改变性能！探索最佳许可密钥，毫不费力地提高系统生产力。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/windows_gvlks_unlocked.webp" length="71578" type="image/webp"/></item><item><title>NAS 操作系统对比：寻找最佳存储方案</title><link>https://zh.simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/</link><pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "数据存储"
+, "网络附加存储"
+, "操作系统"
+, "数据管理"
+, "IT 解决方案"
+, "文件共享"
+, "数据安全"
+, "云存储"
+, "备份解决方案"</category><guid>https://zh.simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对比主流 NAS 操作系统，找到适合你数据存储需求的方案。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/nas-os-comparison-symbolic-servers.webp" length="135748" type="image/webp"/></item></channel></rss>

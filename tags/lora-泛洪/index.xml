@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LoRa 泛洪 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>LoRa 泛洪 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/lora-%E6%B3%9B%E6%B4%AA/</link></image><link>https://zh.simeononsecurity.com/tags/lora-%E6%B3%9B%E6%B4%AA/</link><description>Recent content in LoRa 泛洪 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/lora-%E6%B3%9B%E6%B4%AA/index.xml" rel="self" type="application/rss+xml"/><item><title>MeshCore 与 Meshtastic 对比</title><link>https://zh.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "网状网络"
+, "离网通信"
+, "应急通信"
+, "战术通信"
+, "业余无线电"
+, "开源"
+, "灾害准备"
+, "无线网络"
+, "隐私"</category><guid>https://zh.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从路由、覆盖范围、发射时间、基础设施、设备支持和部署场景比较 MeshCore 与 Meshtastic。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/meshcore-vs-meshtastic-comparison-guide.webp" length="173676" type="image/webp"/></item></channel></rss>

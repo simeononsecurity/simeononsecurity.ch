@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BSSID 监控 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>BSSID 监控 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/bssid-%E7%9B%91%E6%8E%A7/</link></image><link>https://zh.simeononsecurity.com/tags/bssid-%E7%9B%91%E6%8E%A7/</link><description>Recent content in BSSID 监控 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/bssid-%E7%9B%91%E6%8E%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>ESP32 WiFi Canary：被动检测 2.4 GHz 威胁</title><link>https://zh.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "WiFi 安全"
+, "物联网安全"
+, "安全研究"
+, "嵌入式系统"
+, "隐私工具"
+, "ESP32 项目"
+, "硬件安全"
+, "无线安全"
+, "开源安全"</category><guid>https://zh.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ESP32 WiFi Canary 技术解析。这款 2.4 GHz 被动传感器可检测 邪恶双胞胎攻击、解除认证、安全降级和信标泛洪。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>

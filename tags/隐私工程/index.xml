@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>隐私工程 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>隐私工程 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E9%9A%90%E7%A7%81%E5%B7%A5%E7%A8%8B/</link></image><link>https://zh.simeononsecurity.com/tags/%E9%9A%90%E7%A7%81%E5%B7%A5%E7%A8%8B/</link><description>Recent content in 隐私工程 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E9%9A%90%E7%A7%81%E5%B7%A5%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock-You检测：反监控设置指南</title><link>https://zh.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"安全硬件"
+, "反监控"
+, "隐私技术"
+, "开源项目"
+, "ESP32开发"
+, "WiFi监控"
+, "隐私工具"
+, "数字权利"
+, "硬件破解"
+, "网络安全"</category><guid>https://zh.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用基于ESP32硬件检测Flock Safety ALPR摄像头的开源Flock-You项目综合技术指南。包括设置说明、固件详情和购买选项。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>RayHunter 2026：安全分析与最佳实践</title><link>https://zh.simeononsecurity.com/articles/rayhunter-security-analysis-best-practices-2026/</link><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate><category>
+"RayHunter 设备"
+, "安全分析"
+, "最佳实践"
+, "风险评估"
+, "法规遵从"
+, "IMSI 捕获设备"
+, "监控信号检测"
+, "安全架构"
+, "威胁建模"
+, "隐私保护"
+, "企业安全"
+, "专业部署"
+, "安全标准"
+, "隐私框架"
+, "运营安全"
+, "威胁情报"
+, "安全治理"
+, "隐私工程"
+, "反监控措施"
+, "安全控制"</category><guid>https://zh.simeononsecurity.com/articles/rayhunter-security-analysis-best-practices-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+评估 RayHunter 检测系统的安全风险、部署控制、合规要求和运维实践。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/rayhunter-security-analysis-best-practices-2026.webp" length="192654" type="image/webp"/></item></channel></rss>

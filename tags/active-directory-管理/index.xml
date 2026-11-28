@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Active Directory 管理 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>Active Directory 管理 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/active-directory-%E7%AE%A1%E7%90%86/</link></image><link>https://zh.simeononsecurity.com/tags/active-directory-%E7%AE%A1%E7%90%86/</link><description>Recent content in Active Directory 管理 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/active-directory-%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>理解 WMI 筛选</title><link>https://zh.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows 管理"
+, "组策略"
+, "系统管理"
+, "网络管理"
+, "IT 基础设施"
+, "策略管理"
+, "IT 治理"
+, "IT 自动化"
+, "Active Directory"
+, "安全合规"</category><guid>https://zh.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何使用 WMI 筛选将组策略对象 (GPO) 应用于目标计算机，并查看实用示例和最佳实践。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item></channel></rss>

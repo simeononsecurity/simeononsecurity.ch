@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>知识页面 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>知识页面 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E7%9F%A5%E8%AF%86%E9%A1%B5%E9%9D%A2/</link></image><link>https://zh.simeononsecurity.com/tags/%E7%9F%A5%E8%AF%86%E9%A1%B5%E9%9D%A2/</link><description>Recent content in 知识页面 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E7%9F%A5%E8%AF%86%E9%A1%B5%E9%9D%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>自托管 Hindsight：本地智能体记忆与私有模型路由</title><link>https://zh.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "自托管 AI"
+, "AI 智能体"
+, "AI 基础设施"
+, "隐私"</category><guid>https://zh.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过一个自托管 Hindsight 案例，介绍观察到的本地 Qwen 路由，以及在已检查路径上无需订阅托管推理服务的按请求 GPU 任务。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item></channel></rss>

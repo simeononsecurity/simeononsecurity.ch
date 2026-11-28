@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>开发工具 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>开发工具 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</link></image><link>https://zh.simeononsecurity.com/genre/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</link><description>Recent content in 开发工具 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture：2026 年配置 AI 客户端的推理和 MCP</title><link>https://zh.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "开发工具"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过 Tailscale Aperture 转发模型请求和 MCP 工具。为另一台设备或网关配置 Codex、Claude Code、Claude Desktop、OpenCode 和 Hermes。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>Bitbucket Cloud SSH 密钥：面向 AI 代理的只读 Git 访问</title><link>https://zh.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"云安全"
+, "开发工具"
+, "系统管理"</category><guid>https://zh.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+为 AI 代理的只读工作流配置 Bitbucket Cloud SSH 密钥、Git CLI 访问、REST API 令牌、1Password 和 MCP 工具。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>Visual Studio Code 与 Visual Studio 对比</title><link>https://zh.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"开发工具"
+, "集成开发环境"
+, "软件开发"
+, "编程"
+, "代码编辑器"
+, "Visual Studio"
+, "VS Code"
+, "微软开发"
+, "开发者工具"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年全面比较 Visual Studio Code 与 Visual Studio Community/Professional/Enterprise，包括功能、性能、价格和使用场景，帮助开发者选择合适的IDE。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/visual-studio-code-vs-visual-studio-comparison.webp" length="147806" type="image/webp"/></item><item><title>现代开发者必备的编程语言</title><link>https://zh.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</link><pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate><category>
+"软件开发"
+, "编程教育"
+, "科技职业"
+, "编程教程"
+, "数字技能"
+, "应用开发"
+, "计算机科学"
+, "新兴技术"
+, "编程语言"
+, "开发工具"</category><guid>https://zh.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解构建动态软件所需的重要编程语言。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/fundamentals-of-coding_-languages-you-should-know.webp" length="71288" type="image/webp"/></item><item><title>用于 C++ 开发的最佳 VS Code 扩展</title><link>https://zh.simeononsecurity.com/articles/best-visual-studio-code-extensions-for-cpp-development/</link><pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate><category>
+"编程"
+, "软件开发"
+, "C++ 开发"
+, "Visual Studio Code"
+, "代码编辑器"
+, "生产效率"
+, "开发工具"
+, "IDE"
+, "代码优化"
+, "代码效率"</category><guid>https://zh.simeononsecurity.com/articles/best-visual-studio-code-extensions-for-cpp-development/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解适用于 Visual Studio Code 的优秀 C++ 扩展，改善编码体验并提高效率。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/best-visual-studio-code-extensions-for-cpp-development.webp" length="147434" type="image/webp"/></item></channel></rss>

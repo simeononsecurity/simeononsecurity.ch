@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>高效系统管理 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>高效系统管理 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E9%AB%98%E6%95%88%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/</link></image><link>https://zh.simeononsecurity.com/tags/%E9%AB%98%E6%95%88%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/</link><description>Recent content in 高效系统管理 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Wed, 22 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E9%AB%98%E6%95%88%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows Task Scheduler 与 Linux Cron 的安全性比较</title><link>https://zh.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "操作系统"
+, "系统自动化"
+, "安全工具"
+, "计算机技术"
+, "任务调度"
+, "网络安全防护"
+, "系统管理"
+, "网络防御"
+, "IT 管理"</category><guid>https://zh.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从网络安全和系统加固的角度比较 Windows Task Scheduler 与 Linux Cron 任务。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item></channel></rss>

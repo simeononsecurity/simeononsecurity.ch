@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>执法记录仪检测 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>执法记录仪检测 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E6%89%A7%E6%B3%95%E8%AE%B0%E5%BD%95%E4%BB%AA%E6%A3%80%E6%B5%8B/</link></image><link>https://zh.simeononsecurity.com/tags/%E6%89%A7%E6%B3%95%E8%AE%B0%E5%BD%95%E4%BB%AA%E6%A3%80%E6%B5%8B/</link><description>Recent content in 执法记录仪检测 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E6%89%A7%E6%B3%95%E8%AE%B0%E5%BD%95%E4%BB%AA%E6%A3%80%E6%B5%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>Eye Spy：ESP32被动监控与追踪器检测器</title><link>https://zh.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"隐私工具"
+, "反监控"
+, "物联网安全"
+, "嵌入式系统"
+, "安全研究"
+, "WiFi安全"
+, "蓝牙安全"
+, "ESP32项目"
+, "硬件安全"
+, "开源安全"</category><guid>https://zh.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Eye Spy v1.1技术参考。这是一款基于ESP32的BLE与WiFi被动检测器，可识别摄像头、追踪器、无人机及相关信号。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>奇偶校验位 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>奇偶校验位 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%A5%87%E5%81%B6%E6%A0%A1%E9%AA%8C%E4%BD%8D/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%A5%87%E5%81%B6%E6%A0%A1%E9%AA%8C%E4%BD%8D/</link><description>Recent content in 奇偶校验位 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%A5%87%E5%81%B6%E6%A0%A1%E9%AA%8C%E4%BD%8D/index.xml" rel="self" type="application/rss+xml"/><item><title>ECC 内存：预防数据损坏和内存错误</title><link>https://zh.simeononsecurity.com/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/</link><pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate><category>
+"技术教育"
+, "数据安全"
+, "硬件指南"
+, "系统可靠性"
+, "IT 维护"
+, "技术解决方案"
+, "企业计算"
+, "服务器技术"
+, "组件分析"
+, "技术研究"</category><guid>https://zh.simeononsecurity.com/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 ECC 内存如何检测并纠正错误，以及它如何保护服务器、工作站和嵌入式系统中的数据并提升可靠性。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/the-role-of-ecc-memory-in-mitigating-data-corruption.webp" length="137916" type="image/webp"/></item></channel></rss>

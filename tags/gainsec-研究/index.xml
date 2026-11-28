@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GainSec 研究 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>GainSec 研究 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/gainsec-%E7%A0%94%E7%A9%B6/</link></image><link>https://zh.simeononsecurity.com/tags/gainsec-%E7%A0%94%E7%A9%B6/</link><description>Recent content in GainSec 研究 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/gainsec-%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Safety 摄像头安全漏洞：发现 50 多项缺陷</title><link>https://zh.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"安全研究"
+, "漏洞分析"
+, "监控技术"
+, "网络安全"
+, "隐私保护"
+, "物联网安全"
+, "物理安全"
+, "网络安全"
+, "关键基础设施"
+, "政府技术"</category><guid>https://zh.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对 Flock Safety 摄像头漏洞的研究分析了暴露的凭据、薄弱的防护、物理访问风险和披露流程的局限。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item></channel></rss>

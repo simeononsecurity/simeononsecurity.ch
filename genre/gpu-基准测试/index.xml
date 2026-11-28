@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GPU 基准测试 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>GPU 基准测试 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/gpu-%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95/</link></image><link>https://zh.simeononsecurity.com/genre/gpu-%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95/</link><description>Recent content in GPU 基准测试 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/gpu-%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml"/><item><title>该运行哪种本地 AI 模型？2026 年 10 月 GPU 显存、上下文与编码指南</title><link>https://zh.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "AI 硬件"
+, "自托管 AI"
+, "GPU 基准测试"
+, "开发者工具"
+, "AI 经济学"</category><guid>https://zh.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+根据 GPU 显存、系统内存、量化方式和运行时限制，为编码代理选择本地 AI 模型与上下文长度。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Qwen 27B 的 32GB VRAM：2026 年 10 月本地 AI 硬件指南</title><link>https://zh.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "AI 硬件"
+, "GPU 基准测试"
+, "自托管 AI"
+, "计算机硬件"
+, "AI 成本"</category><guid>https://zh.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+这份 2026 年 10 月实用指南介绍如何用 32GB 加速器内存运行 Qwen 27B，并比较单卡、多卡、统一内存、二手加速卡、云租用和上下文限制。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Vast.ai 上 Llama 3.1 8B 与 Qwen3.8 27B 的 GPU 基准测试</title><link>https://zh.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地人工智能"
+, "GPU 基准测试"
+, "自托管人工智能"
+, "云计算"
+, "人工智能"
+, "人工智能经济学"</category><guid>https://zh.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较 Llama 3.1 8B 与 Qwen3.8 27B 在 Vast.ai GPU 上的 Ollama 实测结果、租用成本和托管方式。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

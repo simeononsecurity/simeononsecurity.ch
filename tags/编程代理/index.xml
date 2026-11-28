@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>编程代理 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>编程代理 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E7%BC%96%E7%A8%8B%E4%BB%A3%E7%90%86/</link></image><link>https://zh.simeononsecurity.com/tags/%E7%BC%96%E7%A8%8B%E4%BB%A3%E7%90%86/</link><description>Recent content in 编程代理 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E7%BC%96%E7%A8%8B%E4%BB%A3%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture：2026 年配置 AI 客户端的推理和 MCP</title><link>https://zh.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "开发工具"
+, "网络"</category><guid>https://zh.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过 Tailscale Aperture 转发模型请求和 MCP 工具。为另一台设备或网关配置 Codex、Claude Code、Claude Desktop、OpenCode 和 Hermes。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>如何有效使用 AI：适合初学者的可靠工作流程</title><link>https://zh.simeononsecurity.com/articles/effective-ai-workflow-foundations/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "效率"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/effective-ai-workflow-foundations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+学习可重复的 AI 工作流程：明确任务、提供相关背景、检查证据，并在使用结果前进行验证。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/effective-ai-workflow-foundations.webp" length="98694" type="image/webp"/></item><item><title>OpenCode 与 Claude Code：2026 年编程代理对比</title><link>https://zh.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "开源软件"</category><guid>https://zh.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从模型选择、本地推理、价格、权限、项目说明和日常编程流程等方面比较 OpenCode 与 Claude Code。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>编程教程 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>编程教程 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/</link></image><link>https://zh.simeononsecurity.com/tags/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/</link><description>Recent content in 编程教程 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Tue, 04 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>使用 Python 优化图像</title><link>https://zh.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "Web 开发"
+, "Python 编程"
+, "图像优化"
+, "SEO"
+, "Web 性能"
+, "用户体验"
+, "软件开发"
+, "自动化"
+, "编程"</category><guid>https://zh.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用 Python 调整图像尺寸、压缩图像并转换格式，通过可重复的 Pillow 流程完成优化。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_illustration_of_a_Python_script_optimizing.webp" length="146766" type="image/webp"/></item></channel></rss>
