@@ -46,7 +46,7 @@ Ora che abbiamo compreso l'importanza della cybersecurity nel lavoro a distanza,
 
 ### Fornire dispositivi sicuri
 
-**I dispositivi devono essere dotati delle necessarie misure di sicurezza, come firewall e software antivirus. Fornendo ai dipendenti dispositivi di proprietà dell'azienda, le organizzazioni possono garantire che queste misure di sicurezza siano in atto e che i dispositivi siano regolarmente aggiornati.
+**I dispositivi devono essere dotati delle necessarie misure di sicurezza, come firewall e software antivirus. Fornendo ai dipendenti dispositivi di proprietà dell'azienda, le organizzazioni possono garantire che queste misure di sicurezza siano in atto e che i dispositivi siano regolarmente aggiornati.**
 
 Ad esempio, **un'azienda può fornire ai dipendenti computer portatili con firewall e software antivirus preinstallati**. I computer portatili devono essere configurati in modo da garantire la protezione delle informazioni sensibili, ad esempio disabilitando le porte USB e richiedendo l'autenticazione a due fattori per il login.
 
@@ -54,7 +54,7 @@ Ad esempio, **un'azienda può fornire ai dipendenti computer portatili con firew
 
 **Se non è possibile fornire ai dipendenti dispositivi di proprietà dell'azienda, le organizzazioni possono fornire linee guida che i dipendenti devono seguire quando utilizzano i loro dispositivi personali per scopi lavorativi.** Ciò può includere la garanzia che i dispositivi abbiano installato un software antivirus, evitare le reti Wi-Fi pubbliche e utilizzare una VPN quando si accede alle risorse aziendali.
 
-**È importante che le organizzazioni si assicurino che la loro forza lavoro remota utilizzi dispositivi sicuri e che questi siano regolarmente aggiornati per proteggere le informazioni sensibili.
+**È importante che le organizzazioni si assicurino che la loro forza lavoro remota utilizzi dispositivi sicuri e che questi siano regolarmente aggiornati per proteggere le informazioni sensibili.**
 
 ### Utilizzare una rete privata virtuale (VPN)
 
@@ -66,7 +66,7 @@ Ad esempio, **un'azienda può fornire ai dipendenti un client VPN da installare 
 
 **È essenziale utilizzare una VPN quando si accede alle reti Wi-Fi pubbliche**, che spesso non sono protette e possono essere facilmente compromesse dai criminali informatici. L'utilizzo di una VPN garantisce la protezione delle informazioni sensibili quando si accede alle risorse aziendali su reti Wi-Fi pubbliche.
 
-**Le organizzazioni dovrebbero incoraggiare i dipendenti a utilizzare una VPN quando accedono alle risorse aziendali e assicurarsi che siano istruiti su come utilizzarla correttamente.
+**Le organizzazioni dovrebbero incoraggiare i dipendenti a utilizzare una VPN quando accedono alle risorse aziendali e assicurarsi che siano istruiti su come utilizzarla correttamente.**
 
 ### Impostare l'autenticazione a due fattori
 

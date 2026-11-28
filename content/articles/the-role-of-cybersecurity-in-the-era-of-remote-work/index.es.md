@@ -4,7 +4,7 @@ date: 2023-02-20
 toc: true
 draft: false
 description: "Una guía completa para que las organizaciones garanticen la seguridad de su personal remoto en la era del trabajo a distancia."
-tags: ["ciberseguridad", "trabajo a distancia", "violaciones de datos", "VPN", "autenticación de dos factores", "medidas de seguridad", "comunicación segura", "amenazas cibernéticas", "antivirus software", "correos electrónicos de phishing", "gestión de contraseñas", "trabajar desde casa", "protección de datos", "seguridad en línea", "seguridad de los empleados", "personal a distancia", "ciberdelincuentes", "videoconferencia", "mensajería cifrada", "red privada virtual"]
+tags: ["ciberseguridad", "trabajo a distancia", "violaciones de datos", "VPN", "autenticación de dos factores", "medidas de seguridad", "comunicación segura", "amenazas cibernéticas", "software antivirus", "correos electrónicos de phishing", "gestión de contraseñas", "trabajar desde casa", "protección de datos", "seguridad en línea", "seguridad de los empleados", "personal a distancia", "ciberdelincuentes", "videoconferencia", "mensajería cifrada", "red privada virtual"]
 cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.webp"
 coverAlt: "Ilustración de dibujos animados de un ordenador portátil con un candado, con un escudo y una espada que representan la ciberseguridad, de fondo."
 coverCaption: ""
@@ -50,9 +50,9 @@ Ahora que entendemos la importancia de la ciberseguridad en el trabajo remoto, v
 
 Por ejemplo, **una empresa puede proporcionar a sus empleados ordenadores portátiles con cortafuegos y antivirus preinstalados**. Los portátiles deben configurarse para garantizar la protección de la información confidencial, por ejemplo, desactivando los puertos USB y exigiendo la autenticación de dos factores para el inicio de sesión.
 
-**Las organizaciones también deben asegurarse de que los dispositivos se actualizan periódicamente con los últimos parches de seguridad y actualizaciones de software, lo que puede ayudar a prevenir vulnerabilidades y garantizar la protección de la información confidencial.
+**Las organizaciones también deben asegurarse de que los dispositivos se actualizan periódicamente con los últimos parches de seguridad y actualizaciones de software, lo que puede ayudar a prevenir vulnerabilidades y garantizar la protección de la información confidencial.**
 
-**Si no es posible proporcionar a los empleados dispositivos de propiedad de la empresa, las organizaciones pueden proporcionar directrices para que los empleados las sigan cuando utilicen sus dispositivos personales con fines de trabajo, por ejemplo, asegurándose de que los dispositivos tengan instalado un software antivirus, evitando las redes Wi-Fi públicas y utilizando una VPN cuando accedan a los recursos de la empresa.
+**Si no es posible proporcionar a los empleados dispositivos de propiedad de la empresa, las organizaciones pueden proporcionar directrices para que los empleados las sigan cuando utilicen sus dispositivos personales con fines de trabajo, por ejemplo, asegurándose de que los dispositivos tengan instalado un software antivirus, evitando las redes Wi-Fi públicas y utilizando una VPN cuando accedan a los recursos de la empresa.**
 
 **En general, proporcionar dispositivos seguros es un aspecto esencial de la ciberseguridad en el trabajo a distancia.** Es importante que las organizaciones se aseguren de que su personal a distancia utiliza dispositivos seguros y de que se actualizan periódicamente para proteger la información confidencial.
 
@@ -60,7 +60,7 @@ Por ejemplo, **una empresa puede proporcionar a sus empleados ordenadores portá
 
 **Una VPN es una herramienta crítica para la ciberseguridad en el trabajo remoto**. Cifra la conexión a Internet y protege la información sensible de accesos no autorizados.
 
-**Una VPN crea una conexión segura entre el dispositivo del empleado y la red de la empresa, garantizando la protección de la información confidencial.
+**Una VPN crea una conexión segura entre el dispositivo del empleado y la red de la empresa, garantizando la protección de la información confidencial.**
 
 Por ejemplo, **una empresa puede proporcionar a los empleados un cliente VPN para que lo instalen en sus dispositivos.** El cliente VPN debe estar configurado para conectarse a la red de la empresa de forma segura. Los empleados deben recibir formación sobre cómo utilizar correctamente el cliente VPN para garantizar que la información sensible no quede expuesta.
 
@@ -100,7 +100,7 @@ Por ejemplo, **una organización puede programar actualizaciones periódicas par
 
 Por ejemplo, **una organización puede proporcionar formación en ciberseguridad a través de cursos en línea o talleres presenciales.** Esta formación puede cubrir temas como la creación de contraseñas seguras, cómo evitar estafas de phishing y cómo utilizar correctamente una VPN.
 
-**Es esencial asegurarse de que la formación en ciberseguridad se adapta a las necesidades de los trabajadores remotos, lo que incluye abordar los retos específicos del trabajo remoto, como el uso de dispositivos personales y redes Wi-Fi públicas.
+**Es esencial asegurarse de que la formación en ciberseguridad se adapta a las necesidades de los trabajadores remotos, lo que incluye abordar los retos específicos del trabajo remoto, como el uso de dispositivos personales y redes Wi-Fi públicas.**
 
 **En general, la formación en ciberseguridad es un aspecto esencial de la ciberseguridad en el trabajo a distancia.** Garantiza que los trabajadores a distancia comprendan los riesgos asociados al trabajo a distancia y estén equipados con los conocimientos necesarios para proteger la información sensible.
 ______
@@ -109,7 +109,7 @@ ______
 
 En conclusión, **el trabajo a distancia se ha convertido en la nueva normalidad, y conlleva retos de ciberseguridad únicos**. Con empleados que trabajan desde casa u otros lugares remotos, las medidas de seguridad tradicionales de las organizaciones pueden no ser suficientes para proteger la información sensible. La ciberseguridad siempre ha sido importante, pero es aún más crítica en la era del trabajo a distancia. Las organizaciones que no cuentan con las medidas de ciberseguridad adecuadas pueden correr el riesgo de sufrir filtraciones de datos, lo que puede resultar costoso y dañar su reputación.
 
-Para garantizar la seguridad de la información sensible en la era del trabajo a distancia, *las organizaciones deben seguir las mejores prácticas descritas en este artículo*. **Entre ellas se incluyen el uso de canales de comunicación seguros, el suministro de dispositivos seguros, el uso de una VPN, el establecimiento de un doble factor de autenticación, la actualización periódica de las medidas de seguridad y la formación en ciberseguridad.
+**Para garantizar la seguridad de la información sensible en la era del trabajo a distancia, *las organizaciones deben seguir las mejores prácticas descritas en este artículo*. **Entre ellas se incluyen el uso de canales de comunicación seguros, el suministro de dispositivos seguros, el uso de una VPN, el establecimiento de un doble factor de autenticación, la actualización periódica de las medidas de seguridad y la formación en ciberseguridad.
 
 Siguiendo estas buenas prácticas, **las organizaciones pueden garantizar que su personal remoto permanezca seguro y que la información sensible esté protegida**. Con las medidas de ciberseguridad adecuadas, el trabajo a distancia puede ser una alternativa productiva y segura al trabajo tradicional en persona.
 
