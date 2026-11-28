@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Eliminació De Permisos on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Eliminació De Permisos on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/eliminaci%C3%B3-de-permisos/</link></image><link>https://ca.simeononsecurity.com/tags/eliminaci%C3%B3-de-permisos/</link><description>Recent content in Eliminació De Permisos on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/eliminaci%C3%B3-de-permisos/index.xml" rel="self" type="application/rss+xml"/><item><title>Com auditar els permisos de vCenter amb PowerCLI</title><link>https://ca.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link><pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate><category>
+"Auditoria de permisos de vCenter"
+, "Automatització amb PowerCLI"
+, "Seguretat de VMware"
+, "Gestió d'infraestructura virtual"
+, "Assignacions de permisos"
+, "Control d'accés d'usuaris"
+, "Vulnerabilitats de seguretat"
+, "Automatització amb PowerShell"
+, "Gestió d'entorns vSphere"
+, "Revisió de permisos d'usuari"</category><guid>https://ca.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apreneu a auditar els permisos de vCenter amb PowerCLI per protegir una infraestructura virtual.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/audit-permissions-vcenter-powercli.webp" length="171996" type="image/webp"/></item></channel></rss>

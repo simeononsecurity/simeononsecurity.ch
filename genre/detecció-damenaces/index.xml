@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Detecció D'amenaces on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Detecció D'amenaces on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/detecci%C3%B3-damenaces/</link></image><link>https://ca.simeononsecurity.com/genre/detecci%C3%B3-damenaces/</link><description>Recent content in Detecció D'amenaces on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/detecci%C3%B3-damenaces/index.xml" rel="self" type="application/rss+xml"/><item><title>Els tipus de ciberatac més habituals i com detectar-los</title><link>https://ca.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Detecció d'amenaces"
+, "Blue Team"
+, "Operacions de seguretat"
+, "Desenvolupament professional"</category><guid>https://ca.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn quins són els ciberatacs més habituals, quins rastres deixen als registres i a la telemetria, i practica la detecció en un laboratori de seguretat domèstic.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item><item><title>5 maneres en què l'AI millora la detecció i la resposta a amenaces cibernètiques</title><link>https://ca.simeononsecurity.com/articles/5-ways-ai-is-transforming-cyber-threat-detection/</link><pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate><category>
+"AI en ciberseguretat"
+, "Detecció d'amenaces"
+, "Tecnologia transformadora"
+, "Innovacions en ciberseguretat"
+, "Anàlisi de dades"
+, "Monitoratge en temps real"
+, "Aprenentatge automàtic en seguretat"
+, "Processament del llenguatge natural"
+, "Aprenentatge profund"
+, "Resposta automatitzada"</category><guid>https://ca.simeononsecurity.com/articles/5-ways-ai-is-transforming-cyber-threat-detection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix cinc usos de l'AI en la detecció d'amenaces, incloent-hi l'anàlisi d'anomalies, els models de comportament, la classificació de malware, el monitoratge en temps real i el suport a la resposta.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/5-ways-ai-is-transforming-cyber-threat-detection.webp" length="242224" type="image/webp"/></item><item><title>Com crear un SOC resilient</title><link>https://ca.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Tecnologia"
+, "Empresa"
+, "Protecció de dades"
+, "Resposta a incidents"
+, "Gestió de TI"
+, "Seguretat de xarxa"
+, "Detecció d'amenaces"
+, "Seguretat de la informació"
+, "Gestió de riscos"</category><guid>https://ca.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Estableix un Centre d'Operacions de Seguretat (SOC) sòlid per defensar-te de les ciberamenaces, detectar incidents i protegir els actius de la teva organització.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>Dominar la seguretat EDR: guia per protegir els endpoints</title><link>https://ca.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Protecció d'endpoints"
+, "Solucions EDR"
+, "Detecció d'amenaces"
+, "Resposta a incidents"
+, "Seguretat d'endpoints"
+, "Ciberamenaces"
+, "Seguretat informàtica"
+, "Defensa digital"
+, "Estratègies de seguretat"</category><guid>https://ca.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix com funciona la seguretat EDR, quins avantatges i reptes d'implantació té i quines bones pràctiques protegeixen els endpoints.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp"/></item><item><title>AWS, Azure i Google Cloud 2026: comparació completa de plataformes al núvol</title><link>https://ca.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Computació al núvol"
+, "Seguretat al núvol"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "Seguretat de les dades"
+, "Xifratge"
+, "Gestió d'identitats i accessos"
+, "Compliment normatiu"
+, "Detecció d'amenaces"</category><guid>https://ca.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara AWS, Azure i Google Cloud el 2026, amb preus, seguretat, compliment normatiu, serveis, rendiment i com triar proveïdor.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item></channel></rss>

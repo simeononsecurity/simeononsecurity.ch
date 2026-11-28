@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Desenvolupament Web on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Desenvolupament Web on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/desenvolupament-web/</link></image><link>https://ca.simeononsecurity.com/genre/desenvolupament-web/</link><description>Recent content in Desenvolupament Web on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/desenvolupament-web/index.xml" rel="self" type="application/rss+xml"/><item><title>Programació segura amb Python</title><link>https://ca.simeononsecurity.com/articles/secure-python-coding-insecure-functions/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><category>
+"Programació"
+, "Ciberseguretat"
+, "Desenvolupament de programari"
+, "Python"
+, "Codificació"
+, "Desenvolupament web"
+, "Codificació segura"
+, "Tecnologia"
+, "Informàtica"
+, "Seguretat de dades"</category><guid>https://ca.simeononsecurity.com/articles/secure-python-coding-insecure-functions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn a escriure codi Python segur, evitar funcions insegures i aplicar bones pràctiques per crear aplicacions robustes i fiables.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/secure-python-coding-wall.webp" length="111414" type="image/webp"/></item><item><title>Funcions C# insegures: pràctiques de programació segura</title><link>https://ca.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Desenvolupament de programari"
+, "Programació en C#"
+, "Ciberseguretat"
+, "Seguretat del codi"
+, "Programació segura"
+, "Bones pràctiques de programació"
+, "Vulnerabilitats de programari"
+, "Criptografia"
+, "Desenvolupament web"
+, "Seguretat d’aplicacions"</category><guid>https://ca.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Alternatives segures a les funcions C# insegures. Aprèn a identificar els riscos per a la seguretat de la memòria i a substituir les operacions vulnerables.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>Bones pràctiques de seguretat amb Python</title><link>https://ca.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><category>
+"Seguretat amb Python"
+, "Seguretat del codi"
+, "Protecció de dades"
+, "Desenvolupament de programari"
+, "Ciberseguretat"
+, "Programació segura"
+, "Desenvolupament web"
+, "Privadesa de dades"
+, "Seguretat d'aplicacions"
+, "Seguretat informàtica"</category><guid>https://ca.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn les pràctiques essencials de seguretat amb Python per protegir el codi i les dades davant de possibles amenaces, preservar la informació i la integritat dels sistemes i generar confiança.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.webp" length="115818" type="image/webp"/></item><item><title>Optimitzar imatges amb Python</title><link>https://ca.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Desenvolupament web"
+, "Programació Python"
+, "Optimització d’imatges"
+, "SEO"
+, "Rendiment web"
+, "Experiència d’usuari"
+, "Desenvolupament de programari"
+, "Automatització"
+, "Programació"</category><guid>https://ca.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Optimitza imatges amb Python canviant-ne la mida, comprimint-les i convertint-ne el format amb processos reproduïbles de Pillow.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/An_illustration_of_a_Python_script_optimizing.webp" length="146766" type="image/webp"/></item><item><title>Programació segura amb Python</title><link>https://ca.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"Programació"
+, "Seguretat d’aplicacions"
+, "Desenvolupament amb Python"
+, "Programació segura"
+, "Desenvolupament web"
+, "Anàlisi de dades"
+, "Intel·ligència artificial"
+, "Desenvolupament de programari"
+, "Ciberseguretat"
+, "Llenguatges de programació"</category><guid>https://ca.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Pràctiques de programació segura amb Python per reduir la injecció SQL, l’scripting entre llocs i altres vulnerabilitats d’aplicacions.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp"/></item></channel></rss>

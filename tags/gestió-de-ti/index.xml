@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gestió De TI on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Gestió De TI on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/gesti%C3%B3-de-ti/</link></image><link>https://ca.simeononsecurity.com/tags/gesti%C3%B3-de-ti/</link><description>Recent content in Gestió De TI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Wed, 22 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/gesti%C3%B3-de-ti/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows Task Scheduler contra Cron de Linux: comparació de seguretat</title><link>https://ca.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Sistemes operatius"
+, "Automatització de sistemes"
+, "Eines de seguretat"
+, "Tecnologia informàtica"
+, "Programació de tasques"
+, "Seguretat de xarxes"
+, "Administració de sistemes"
+, "Defensa cibernètica"
+, "Gestió de TI"</category><guid>https://ca.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Windows Task Scheduler i les tasques Cron de Linux des de la perspectiva de la ciberseguretat i el reforç dels sistemes.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>Com crear un SOC resilient</title><link>https://ca.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Tecnologia"
+, "Empresa"
+, "Protecció de dades"
+, "Resposta a incidents"
+, "Gestió de TI"
+, "Seguretat de xarxa"
+, "Detecció d'amenaces"
+, "Seguretat de la informació"
+, "Gestió de riscos"</category><guid>https://ca.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Estableix un Centre d'Operacions de Seguretat (SOC) sòlid per defensar-te de les ciberamenaces, detectar incidents i protegir els actius de la teva organització.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>Domina PowerCLI per administrar vSphere</title><link>https://ca.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Virtualització"
+, "VMware"
+, "Gestió de TI"
+, "Automatització"
+, "Interfície de línia d'ordres"
+, "Creació de scripts"
+, "Administració de sistemes"
+, "Computació al núvol"
+, "Gestió de centres de dades"</category><guid>https://ca.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn a fer servir PowerCLI per administrar VMware vSphere, automatitzar tasques i millorar la productivitat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item></channel></rss>

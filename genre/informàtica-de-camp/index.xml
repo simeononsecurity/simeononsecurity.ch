@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Informàtica De Camp on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Informàtica De Camp on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/inform%C3%A0tica-de-camp/</link></image><link>https://ca.simeononsecurity.com/genre/inform%C3%A0tica-de-camp/</link><description>Recent content in Informàtica De Camp on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/inform%C3%A0tica-de-camp/index.xml" rel="self" type="application/rss+xml"/><item><title>Computació a la perifèria per al camp: selecció d’equipament i carcassa</title><link>https://ca.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Computació a la perifèria"
+, "Informàtica de camp"
+, "Equipament"
+, "Laboratori domèstic"
+, "Informàtica resistent"
+, "Xarxes"
+, "Recuperació de desastres"
+, "Informàtica per a petites empreses"</category><guid>https://ca.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia del maquinari edge per a desplegaments al camp i de la selecció de carcasses, amb càlcul, bastidors, refrigeració, emmagatzematge, gestió, cablejat i compatibilitat elèctrica.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>Connectivitat i seguretat de les dades per a nodes edge desplegables</title><link>https://ca.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Computació edge"
+, "Informàtica de camp"
+, "Seguretat de xarxa"
+, "VPN"
+, "Xifratge"
+, "Seguretat física"
+, "Recuperació davant desastres"</category><guid>https://ca.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Connecta i protegeix nodes de computació edge al camp amb connexions mòbils, satèl·lit, LoRa, VPN, MFA, segmentació, registres, xifratge i resposta als robatoris.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item><item><title>Consells d’informàtica de camp: més enllà del mini centre de dades</title><link>https://ca.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Informàtica de camp"
+, "Informàtica a la perifèria"
+, "Operacions d’IT"
+, "Recuperació davant desastres"
+, "Maquinari"
+, "Bones pràctiques"</category><guid>https://ca.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia pràctica d’informàtica de camp sobre recanvis, documentació, ESD, microprogramari, mitjans d’arrencada, llicències, seguretat física, viatges i assegurances.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp"/></item></channel></rss>

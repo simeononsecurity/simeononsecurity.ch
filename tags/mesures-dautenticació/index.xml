@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mesures D’autenticació on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Mesures D’autenticació on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/mesures-dautenticaci%C3%B3/</link></image><link>https://ca.simeononsecurity.com/tags/mesures-dautenticaci%C3%B3/</link><description>Recent content in Mesures D’autenticació on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/mesures-dautenticaci%C3%B3/index.xml" rel="self" type="application/rss+xml"/><item><title>L’art de l’enginyeria inversa</title><link>https://ca.simeononsecurity.com/articles/the-art-of-reverse-engineering/</link><pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate><category>
+"enginyeria inversa"
+, "seguretat IoT"
+, "vulnerabilitats"
+, "protocols de seguretat"
+, "anàlisi de dispositius"
+, "xarxes IoT"
+, "funcionament intern"
+, "codi maliciós"
+, "mesures de xifratge"
+, "mesures d’autenticació"
+, "tallafocs"
+, "actualitzacions de programari"</category><guid>https://ca.simeononsecurity.com/articles/the-art-of-reverse-engineering/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix com l’enginyeria inversa ajuda a trobar fallades de seguretat en xarxes IoT i a millorar la seguretat general dels sistemes.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.webp" length="239958" type="image/webp"/></item></channel></rss>

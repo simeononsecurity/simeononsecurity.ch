@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gemma 4 on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Gemma 4 on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/gemma-4/</link></image><link>https://ca.simeononsecurity.com/tags/gemma-4/</link><description>Recent content in Gemma 4 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/gemma-4/index.xml" rel="self" type="application/rss+xml"/><item><title>Com triar un model local d’IA sense censura</title><link>https://ca.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autoallotjada"
+, "Seguretat de la IA"
+, "Maquinari GPU"</category><guid>https://ca.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara variants locals segons les respostes completes, les capacitats conservades, l’ús del context, la quantització i la VRAM necessària.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Dins de la nostra flota híbrida d’agents d’IA: Hermes, LiteLLM i Tailscale</title><link>https://ca.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autoallotjada"
+, "Agents d’IA"
+, "Infraestructura d’IA"
+, "Mineria GPU"</category><guid>https://ca.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobriu una flota local d’IA verificada amb càrrega sota demanda i el seu pla de control T0-T4 amb Hermes, LiteLLM, Tailscale Aperture i mineria Pearl.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item></channel></rss>

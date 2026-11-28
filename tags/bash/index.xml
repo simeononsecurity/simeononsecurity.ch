@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bash on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Bash on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/bash/</link></image><link>https://ca.simeononsecurity.com/tags/bash/</link><description>Recent content in Bash on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/bash/index.xml" rel="self" type="application/rss+xml"/><item><title>Protegir Windows i Linux</title><link>https://ca.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Llenguatges de script"
+, "Seguretat dels sistemes"
+, "Windows"
+, "Linux"
+, "Normatives governamentals"
+, "Amenaces cibernètiques"
+, "Scripts segurs"
+, "Compliment normatiu"
+, "Programació"</category><guid>https://ca.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix com reforçar la seguretat dels sistemes amb PowerShell i Python en aquesta anàlisi completa de ciberseguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp"/></item><item><title>Hauries d'aprendre programació per a TI i ciberseguretat?</title><link>https://ca.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"IT and Cyber Security"
+, "Programming Skills"
+, "Career Advancement"
+, "Automation"
+, "Command Line"
+, "Scripting"
+, "Infrastructure Deployment"
+, "Data Analysis"
+, "Security Testing"
+, "Professional Development"</category><guid>https://ca.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Tria les habilitats de programació útils per a la teva trajectòria en TI o ciberseguretat i comença amb PowerShell, Bash, Python, Ansible, Packer o Terraform.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp" length="111480" type="image/webp"/></item><item><title>Utilitzeu ChatGPT al vostre terminal (Bash, PowerShell, Python): una introducció a l'eina CLI de ChatGPT per a desenvolupadors</title><link>https://ca.simeononsecurity.com/articles/use-chatgpt-in-your-terminal-bash-powershell-python/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><category>
+"ChatGPT"
+, "OpenAI"
+, "Interfície de línia d'ordres"
+, "CLI"
+, "generació de textos"
+, "resposta a la pregunta"
+, "conjunt d'eines per a desenvolupadors"
+, "gestor de paquets pip"
+, "Python 3.5"
+, "PowerShell"
+, "Bash"</category><guid>https://ca.simeononsecurity.com/articles/use-chatgpt-in-your-terminal-bash-powershell-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apreneu a utilitzar el model ChatGPT d'OpenAI mitjançant la còmoda interfície de línia d'ordres (CLI) per generar text i respondre preguntes amb facilitat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_developer_sitting_at_their_computer_typing.webp" length="137644" type="image/webp"/></item></channel></rss>

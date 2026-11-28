@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C++ on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>C++ on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/c++/</link></image><link>https://ca.simeononsecurity.com/tags/c++/</link><description>Recent content in C++ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/c++/index.xml" rel="self" type="application/rss+xml"/><item><title>Eye Spy: detector passiu de vigilància i rastrejadors per a ESP32</title><link>https://ca.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"Eines de privadesa"
+, "Contra-vigilància"
+, "Seguretat IoT"
+, "Sistemes encastats"
+, "Recerca en seguretat"
+, "Seguretat WiFi"
+, "Seguretat Bluetooth"
+, "Projectes ESP32"
+, "Seguretat del maquinari"
+, "Seguretat de codi obert"</category><guid>https://ca.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Referència tècnica d’Eye Spy v1.1, un detector passiu de BLE i WiFi amb ESP32 per a càmeres, rastrejadors, drons i senyals relacionats.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>ESP32 WiFi Canary: detecció passiva d'amenaces a 2,4 GHz</title><link>https://ca.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Seguretat de xarxes"
+, "Seguretat WiFi"
+, "Seguretat IoT"
+, "Recerca de seguretat"
+, "Sistemes encastats"
+, "Eines de privadesa"
+, "Projectes ESP32"
+, "Seguretat de maquinari"
+, "Seguretat sense fil"
+, "Seguretat de codi obert"</category><guid>https://ca.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Anàlisi tècnica d'ESP32 WiFi Canary, un sensor passiu de 2,4 GHz que detecta punts d'accés falsos, desautenticacions, degradacions de seguretat i inundacions de balises.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>Llenguatges de programació essencials per als desenvolupadors moderns</title><link>https://ca.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</link><pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate><category>
+"Desenvolupament de programari"
+, "Educació en programació"
+, "Carreres tecnològiques"
+, "Tutorials de programació"
+, "Competències digitals"
+, "Creació d'aplicacions"
+, "Informàtica"
+, "Tecnologies emergents"
+, "Llenguatges de programació"
+, "Eines de desenvolupament"</category><guid>https://ca.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Coneix els llenguatges de programació necessaris per crear programari dinàmic.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/fundamentals-of-coding_-languages-you-should-know.webp" length="71288" type="image/webp"/></item></channel></rss>

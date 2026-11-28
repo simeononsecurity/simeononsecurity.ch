@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Script Python on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Script Python on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/script-python/</link></image><link>https://ca.simeononsecurity.com/tags/script-python/</link><description>Recent content in Script Python on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Tue, 04 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/script-python/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimitzar imatges amb Python</title><link>https://ca.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Desenvolupament web"
+, "Programació Python"
+, "Optimització d’imatges"
+, "SEO"
+, "Rendiment web"
+, "Experiència d’usuari"
+, "Desenvolupament de programari"
+, "Automatització"
+, "Programació"</category><guid>https://ca.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Optimitza imatges amb Python canviant-ne la mida, comprimint-les i convertint-ne el format amb processos reproduïbles de Pillow.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/An_illustration_of_a_Python_script_optimizing.webp" length="146766" type="image/webp"/></item><item><title>HackTheBox - Challenge - Crypto - RSA feble</title><link>https://ca.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"HackTheBox"
+, "Desafiaments"
+, "Cripto"
+, "RSA feble"
+, "RsaCtfTool"
+, "HTB Weak RSA Crypto"
+, "Repte fàcil"
+, "Xifrat RSA"
+, "flag.enc"
+, "key.pub"
+, "Paquet OpenSSL"
+, "eina automatitzada d'atac RSA"
+, "script python"
+, "RsaCtfTool"
+, "python3"
+, "clau pública"
+, "desxifrar fitxer"
+, "Exemple de bandera"</category><guid>https://ca.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apreneu a utilitzar una eina d'atac RSA automatitzada, RsaCtfTool, per resoldre fàcilment el repte HackTheBox Weak RSA Crypto.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.webp" length="93258" type="image/webp"/></item></channel></rss>

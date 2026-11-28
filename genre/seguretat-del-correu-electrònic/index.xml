@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Seguretat Del Correu Electrònic on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Seguretat Del Correu Electrònic on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/seguretat-del-correu-electr%C3%B2nic/</link></image><link>https://ca.simeononsecurity.com/genre/seguretat-del-correu-electr%C3%B2nic/</link><description>Recent content in Seguretat Del Correu Electrònic on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/seguretat-del-correu-electr%C3%B2nic/index.xml" rel="self" type="application/rss+xml"/><item><title>Thunderbird 153.6: exposició de credencials NTLM al Windows i com actualitzar-lo (2026)</title><link>https://ca.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Seguretat del correu electrònic"
+, "Seguretat del Windows"</category><guid>https://ca.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dues vulnerabilitats greus de Thunderbird exposen dades d’autenticació NTLM al Windows quan es mostra un correu preparat expressament. Coneix els dos vectors, comprova la versió i limita l’SMB sortint mentre actualitzes.</description></item><item><title>Dominar l’etiqueta del correu electrònic</title><link>https://ca.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</link><pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate><category>
+"Comunicació professional"
+, "Seguretat del correu electrònic"
+, "Etiqueta empresarial"
+, "Competències tecnològiques"
+, "Eficiència a la feina"
+, "Bones pràctiques de ciberseguretat"
+, "Alfabetització digital"
+, "Comunicació en línia"
+, "Seguretat de xarxes"
+, "Redacció eficaç"</category><guid>https://ca.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Millora els intercanvis professionals i segurs amb aquests consells d’etiqueta del correu electrònic.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/email-etiquette_-ensuring-smooth-and-secure-email-operations.webp" length="84144" type="image/webp"/></item><item><title>Protecció contra el phishing per a petites empreses: guia completa</title><link>https://ca.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Protecció de petites empreses"
+, "Estafes de phishing"
+, "Formació dels empleats"
+, "Seguretat del correu electrònic"
+, "Autenticació multifactor"
+, "Auditories de seguretat"
+, "Tàctiques d'enginyeria social"
+, "Amenaces digitals"
+, "Seguretat en línia"</category><guid>https://ca.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Protegiu una petita empresa del phishing amb formació del personal, controls del correu electrònic, procediments de verificació, passos per denunciar els atacs i una resposta a incidents provada.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/how-to-protect-your-small-business-from-phishing-scams.webp" length="88634" type="image/webp"/></item><item><title>10 consells essencials de seguretat del correu electrònic</title><link>https://ca.simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/</link><pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate><category>
+"Seguretat del correu electrònic"
+, "Protecció de dades"
+, "Ciberseguretat"
+, "Privadesa en línia"
+, "Robatori d'identitat"
+, "Seguretat de contrasenyes"
+, "Estafes de pesca"
+, "Seguretat a Internet"
+, "Seguretat digital"
+, "Formació dels empleats"</category><guid>https://ca.simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn 10 consells essencials per protegir les teves dades de les amenaces i les filtracions mitjançant la seguretat del correu electrònic.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.webp" length="43346" type="image/webp"/></item></channel></rss>

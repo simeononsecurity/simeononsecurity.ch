@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Auditoria De Seguretat on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Auditoria De Seguretat on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/auditoria-de-seguretat/</link></image><link>https://ca.simeononsecurity.com/tags/auditoria-de-seguretat/</link><description>Recent content in Auditoria De Seguretat on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/auditoria-de-seguretat/index.xml" rel="self" type="application/rss+xml"/><item><title>Vulnerabilitats de les càmeres Flock Safety: més de 50 errors descoberts</title><link>https://ca.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Recerca de seguretat"
+, "Anàlisi de vulnerabilitats"
+, "Tecnologia de vigilància"
+, "Ciberseguretat"
+, "Privadesa i seguretat"
+, "Seguretat de l'IoT"
+, "Seguretat física"
+, "Seguretat de xarxes"
+, "Infraestructura crítica"
+, "Tecnologia governamental"</category><guid>https://ca.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aquesta recerca sobre les vulnerabilitats de les càmeres Flock Safety analitza credencials exposades, proteccions febles, accés físic i límits de divulgació.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>Protegir Active Directory</title><link>https://ca.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Gestió de xarxes"
+, "Tecnologia de la informació"
+, "Protecció de dades"
+, "Seguretat empresarial"
+, "Infraestructura digital"
+, "Control d'accés"
+, "Autenticació d'usuaris"
+, "Bones pràctiques de TI"
+, "Conscienciació sobre seguretat"</category><guid>https://ca.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Coneix tècniques essencials per protegir Active Directory, salvaguardar les dades i impedir intrusions a la infraestructura de xarxa.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item><item><title>Dominar el principi del mínim privilegi</title><link>https://ca.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Seguretat de Linux"
+, "Control d'accés"
+, "Seguretat informàtica"
+, "Seguretat de xarxa"
+, "Protecció de la informació"
+, "Privadesa de les dades"
+, "Amenaces cibernètiques"
+, "Gestió de riscos"
+, "Bones pràctiques de seguretat"</category><guid>https://ca.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Reforça la ciberseguretat amb controls d'accés basats en el mínim privilegi a Linux. Aprèn a implementar-los, aplicar bones pràctiques i resoldre problemes.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>Flipper Zero: guia completa per a hackers i makers</title><link>https://ca.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</link><pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate><category>
+"Pirateria de maquinari"
+, "Ciberseguretat"
+, "Proves de penetració"
+, "Seguretat sense fils"
+, "Exercicis d’equip vermell"</category><guid>https://ca.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia de Flipper Zero sobre ràdio, protocols, firmware, GPIO, BadUSB, proves de seguretat, límits legals i accessoris.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.webp" length="309662" type="image/webp"/></item><item><title>Avantatges i reptes de les eines de seguretat de codi obert</title><link>https://ca.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</link><pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate><category>
+"eines de seguretat de codi obert"
+, "ciberseguretat"
+, "suport comunitari"
+, "transparència"
+, "estalvi de costos"
+, "flexibilitat"
+, "eines propietàries"
+, "riscos de seguretat"
+, "competències"
+, "llicències de programari"
+, "cost total de propietat"
+, "suport comercial"
+, "llenguatges de programació"
+, "integració"
+, "proves de seguretat"
+, "auditoria de seguretat"
+, "NIST"
+, "CISA"
+, "OWASP"
+, "Institut Nacional d'Estàndards i Tecnologia"</category><guid>https://ca.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix els avantatges i els reptes de les eines de seguretat de codi obert i com valorar-les per millorar la seguretat de la teva organització.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.webp" length="58998" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Seguretat IoT on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Seguretat IoT on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/seguretat-iot/</link></image><link>https://ca.simeononsecurity.com/genre/seguretat-iot/</link><description>Recent content in Seguretat IoT on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/seguretat-iot/index.xml" rel="self" type="application/rss+xml"/><item><title>Eye Spy: detector passiu de vigilància i rastrejadors per a ESP32</title><link>https://ca.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"Eines de privadesa"
+, "Contra-vigilància"
+, "Seguretat IoT"
+, "Sistemes encastats"
+, "Recerca en seguretat"
+, "Seguretat WiFi"
+, "Seguretat Bluetooth"
+, "Projectes ESP32"
+, "Seguretat del maquinari"
+, "Seguretat de codi obert"</category><guid>https://ca.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Referència tècnica d’Eye Spy v1.1, un detector passiu de BLE i WiFi amb ESP32 per a càmeres, rastrejadors, drons i senyals relacionats.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>ESP32 WiFi Canary: detecció passiva d'amenaces a 2,4 GHz</title><link>https://ca.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Seguretat de xarxes"
+, "Seguretat WiFi"
+, "Seguretat IoT"
+, "Recerca de seguretat"
+, "Sistemes encastats"
+, "Eines de privadesa"
+, "Projectes ESP32"
+, "Seguretat de maquinari"
+, "Seguretat sense fil"
+, "Seguretat de codi obert"</category><guid>https://ca.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Anàlisi tècnica d'ESP32 WiFi Canary, un sensor passiu de 2,4 GHz que detecta punts d'accés falsos, desautenticacions, degradacions de seguretat i inundacions de balises.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>Firmware personalitzat DagShell per a Orbic RCL400: guia de 2026</title><link>https://ca.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"Firmware personalitzat"
+, "Seguretat mòbil"
+, "Eines de privacitat"
+, "Seguretat de xarxa"
+, "Wardriving"
+, "Proves de penetració"
+, "Seguretat IoT"
+, "Recerca de seguretat"
+, "Seguretat de maquinari"
+, "Tecnologia de privacitat"</category><guid>https://ca.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia tècnica del firmware DagShell per a Orbic RCL400. Explica la instal·lació, les eines de privacitat, el wardriving i els límits de la recerca.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>10 comprovacions essencials de ciberseguretat per a la teva xarxa domèstica</title><link>https://ca.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</link><pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate><category>
+"Seguretat de la xarxa domèstica"
+, "Comprovacions de ciberseguretat"
+, "Defensa digital"
+, "Protecció de la xarxa"
+, "Seguretat IoT"
+, "Privadesa de les dades"
+, "Prevenció d'amenaces cibernètiques"
+, "Seguretat Wi-Fi"
+, "Protecció de la informació personal"
+, "Consells de seguretat digital"</category><guid>https://ca.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Audita la teva xarxa domèstica amb deu comprovacions pràctiques que cobreixen actualitzacions del router, xifratge Wi-Fi, seguretat DNS, inventari de dispositius, còpies de seguretat i monitoratge.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/10-essential-cybersecurity-checks-for-your-home-network.webp" length="141312" type="image/webp"/></item><item><title>Firewalla per a la xarxa domèstica: seguretat per a casa i el laboratori domèstic</title><link>https://ca.simeononsecurity.com/articles/firewalla-home-network-security-guide/</link><pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Ciberseguretat"
+, "Xarxa domèstica"
+, "Seguretat de xarxa"
+, "Seguretat IoT"
+, "Seguretat en línia"
+, "Laboratoris domèstics"
+, "Protecció digital"
+, "Detecció d'intrusions"
+, "Filtratge de contingut"</category><guid>https://ca.simeononsecurity.com/articles/firewalla-home-network-security-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobriu com Firewalla ajuda a protegir una xarxa domèstica, si és adequada per a un laboratori a casa i quins avantatges i límits cal valorar.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/firewalla-home-network-security.webp" length="57452" type="image/webp"/></item></channel></rss>

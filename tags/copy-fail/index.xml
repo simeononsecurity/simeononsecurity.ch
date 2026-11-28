@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Copy Fail on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Copy Fail on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/copy-fail/</link></image><link>https://ca.simeononsecurity.com/tags/copy-fail/</link><description>Recent content in Copy Fail on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/copy-fail/index.xml" rel="self" type="application/rss+xml"/><item><title>El 2026, els contenidors ja no són una frontera de seguretat</title><link>https://ca.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"Seguretat dels contenidors"
+, "Linux"
+, "Seguretat del nucli"
+, "Virtualització"
+, "Seguretat al núvol"
+, "Recerca d’amenaces"
+, "Equip blau"
+, "DevSecOps"</category><guid>https://ca.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Les vulnerabilitats del nucli del 2026 mostren per què l’aïllament de contenidors multiinquilí no és suficient. Coneix Copy Fail, Dirty Frag, Fragnesia i CVE-2026-80521, i compara els contenidors reforçats amb les fronteres de microVM.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item></channel></rss>

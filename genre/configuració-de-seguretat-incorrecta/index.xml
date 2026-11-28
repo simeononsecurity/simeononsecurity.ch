@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Configuració De Seguretat Incorrecta on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Configuració De Seguretat Incorrecta on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/configuraci%C3%B3-de-seguretat-incorrecta/</link></image><link>https://ca.simeononsecurity.com/genre/configuraci%C3%B3-de-seguretat-incorrecta/</link><description>Recent content in Configuració De Seguretat Incorrecta on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/configuraci%C3%B3-de-seguretat-incorrecta/index.xml" rel="self" type="application/rss+xml"/><item><title>OWASP Top 10: Riscos crítics per a la seguretat de les aplicacions web</title><link>https://ca.simeononsecurity.com/articles/owasp-top-10/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><category>
+"Riscos de seguretat de les aplicacions web"
+, "OWASP Top 10"
+, "Atacs d’injecció"
+, "Autenticació"
+, "Gestió de sessions"
+, "Atacs XSS"
+, "Control d’accés"
+, "Configuració de seguretat incorrecta"
+, "Emmagatzematge criptogràfic"
+, "Protecció de la capa de transport"</category><guid>https://ca.simeononsecurity.com/articles/owasp-top-10/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conegueu els riscos més crítics per a la seguretat de les aplicacions web amb OWASP Top 10 i com protegir-vos-en</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.webp" length="80546" type="image/webp"/></item></channel></rss>

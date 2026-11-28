@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNS on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>DNS on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/dns/</link></image><link>https://ca.simeononsecurity.com/genre/dns/</link><description>Recent content in DNS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/dns/index.xml" rel="self" type="application/rss+xml"/><item><title>Per què s’eludeix el filtre DNS: comprova la ruta del resolutor</title><link>https://ca.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Xarxes domèstiques"
+, "DNS"
+, "Privadesa"</category><guid>https://ca.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esbrina per què un dispositiu o navegador se salta el filtre DNS. Compara les consultes directes i normals, revisa els registres i comprova el DNS xifrat, la VPN, IPv6 i el router.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>NextDNS vs. AdGuard: quin bloquejador DNS és millor?</title><link>https://ca.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Ciberseguretat"
+, "Bloqueig de publicitat"
+, "DNS"
+, "Privacitat"
+, "Seguretat a Internet"
+, "Protecció en línia"
+, "Seguretat digital"
+, "Solucions de navegació"
+, "Privacitat en línia"</category><guid>https://ca.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara NextDNS i AdGuard, dos bloquejadors de publicitat basats en DNS, i tria el servei que s'adapta a la teva navegació.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp"/></item></channel></rss>

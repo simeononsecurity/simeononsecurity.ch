@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xarxes Domèstiques on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Xarxes Domèstiques on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/xarxes-dom%C3%A8stiques/</link></image><link>https://ca.simeononsecurity.com/genre/xarxes-dom%C3%A8stiques/</link><description>Recent content in Xarxes Domèstiques on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/xarxes-dom%C3%A8stiques/index.xml" rel="self" type="application/rss+xml"/><item><title>Construeix un laboratori domèstic en 10 nivells, de Pi-hole a la IA local</title><link>https://ca.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Laboratori domèstic"
+, "Autoallotjament"
+, "IA local"
+, "Xarxes domèstiques"</category><guid>https://ca.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Construeix un laboratori domèstic en deu etapes pràctiques, des del filtratge DNS de tota la xarxa fins a la IA local, amb maquinari, costos, habilitats i compensacions per a cada nivell.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Per què s’eludeix el filtre DNS: comprova la ruta del resolutor</title><link>https://ca.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Xarxes domèstiques"
+, "DNS"
+, "Privadesa"</category><guid>https://ca.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esbrina per què un dispositiu o navegador se salta el filtre DNS. Compara les consultes directes i normals, revisa els registres i comprova el DNS xifrat, la VPN, IPv6 i el router.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>Prova l’aïllament de convidats i IoT en una xarxa Wi-Fi de malla</title><link>https://ca.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Xarxes domèstiques"
+, "Seguretat Wi-Fi"
+, "Llars intel·ligents"</category><guid>https://ca.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprova si les xarxes de convidats i IoT de la teva Wi-Fi de malla bloquegen l’accés als dispositius de casa. Prova cada xarxa amb un servei actiu i registra’n els límits.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp" length="102600" type="image/webp"/></item><item><title>Resol els problemes de Wi-Fi: solucions pràctiques als errors habituals</title><link>https://ca.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</link><pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate><category>
+"Resolució de problemes de Wi-Fi"
+, "Solucions sense fil"
+, "Assistència tècnica"
+, "Consells de connectivitat"
+, "Xarxes domèstiques"
+, "Guia d'Internet"
+, "Optimització de Wi-Fi"
+, "Ciberseguretat"
+, "Tecnologia pràctica"
+, "Rendiment de xarxa"</category><guid>https://ca.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Resol problemes de Wi-Fi amb consells per millorar el senyal, reduir les desconnexions i reforçar la seguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/wireless-connectivity_-troubleshooting-common-wi-fi-problems.webp" length="61888" type="image/webp"/></item><item><title>Potencia el WiFi: guia definitiva per millorar el senyal</title><link>https://ca.simeononsecurity.com/articles/boosting-wifi-signal-strength_-strategies-for-a-stronger-connection/</link><pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate><category>
+"Millora del WiFi"
+, "Solucions de connectivitat"
+, "Xarxes domèstiques"
+, "Consells tecnològics d'Internet"
+, "Optimització sense fil"
+, "Guies de gadgets"
+, "Estil de vida digital"
+, "Tecnologia per a la llar intel·ligent"
+, "Tecnologia feta a casa"
+, "Millora de xarxes"</category><guid>https://ca.simeononsecurity.com/articles/boosting-wifi-signal-strength_-strategies-for-a-stronger-connection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Millora la connexió a Internet amb estratègies per potenciar el senyal WiFi. Gaudeix d'una connexió estable per veure vídeos i jugar.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/boosting-wifi-signal-strength_-strategies-for-a-stronger-connection.webp" length="148620" type="image/webp"/></item><item><title>Ubiquiti UniFi és una bona opció per a la xarxa de casa?</title><link>https://ca.simeononsecurity.com/articles/ubiquiti-unifi-good-for-home-use/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><category>
+"Xarxes domèstiques"
+, "Solucions Wi-Fi"
+, "Maquinari de xarxa"
+, "Productes Ubiquiti"
+, "Anàlisis tecnològiques"
+, "Tecnologia per a la llar"
+, "Connectivitat sense fil"
+, "Gestió de xarxes"
+, "Electrònica de consum"
+, "Solucions sense fil"</category><guid>https://ca.simeononsecurity.com/articles/ubiquiti-unifi-good-for-home-use/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Valora si Ubiquiti UniFi s'adapta a una llar, amb una revisió dels avantatges, els costos i les necessitats de gestió.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/ubiquiti-unifi-home-wifi.webp" length="49076" type="image/webp"/></item><item><title>Enforteix la xarxa de casa</title><link>https://ca.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</link><pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Xarxa domèstica"
+, "Recomanacions de maquinari"
+, "Seguretat de xarxes"
+, "Privacitat digital"
+, "Seguretat en línia"
+, "Seguretat d'Internet"
+, "Xarxes domèstiques"
+, "Tecnologia"
+, "Llar intel·ligent"</category><guid>https://ca.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix els components de maquinari essencials per protegir la xarxa de casa davant les ciberamenaces, com ara tallafocs, punts d'accés i eines de supervisió.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/fortified-network-security.webp" length="61592" type="image/webp"/></item><item><title>Els millors sistemes WiFi Mesh del 2026: guia de compra i recomanacions</title><link>https://ca.simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/</link><pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate><category>
+"Sistemes WiFi Mesh"
+, "Xarxes domèstiques"
+, "Tecnologia sense fil"
+, "Connexió a Internet"
+, "Electrònica de consum"
+, "Llars intel·ligents"
+, "Dispositius de xarxa"
+, "Internet de les coses (IoT)"
+, "Encaminadors sense fil"
+, "Connectivitat domèstica"</category><guid>https://ca.simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia del 2026 sobre sistemes mesh WiFi 6E i WiFi 7 per a consumidors, amb comparacions de cobertura, rendiment, configuració i criteris de compra.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_home_with.webp" length="127732" type="image/webp"/></item><item><title>Com col·locar punts d’accés per optimitzar la cobertura Wi-Fi</title><link>https://ca.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Xarxes"
+, "Xarxes sense fil"
+, "Punts d’accés"
+, "Instal·lació de Wi-Fi"
+, "Optimització de xarxes"
+, "Xarxes domèstiques"
+, "Connectivitat sense fil"
+, "Internet de les coses"
+, "Solucions de xarxa"</category><guid>https://ca.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn a col·locar punts d’accés per millorar la connectivitat sense fil, reduir les interferències i mantenir un bon rendiment de la xarxa.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp"/></item></channel></rss>

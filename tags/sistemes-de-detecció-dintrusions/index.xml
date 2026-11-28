@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sistemes De Detecció D'intrusions on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Sistemes De Detecció D'intrusions on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/sistemes-de-detecci%C3%B3-dintrusions/</link></image><link>https://ca.simeononsecurity.com/tags/sistemes-de-detecci%C3%B3-dintrusions/</link><description>Recent content in Sistemes De Detecció D'intrusions on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Wed, 22 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/sistemes-de-detecci%C3%B3-dintrusions/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows Task Scheduler contra Cron de Linux: comparació de seguretat</title><link>https://ca.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Sistemes operatius"
+, "Automatització de sistemes"
+, "Eines de seguretat"
+, "Tecnologia informàtica"
+, "Programació de tasques"
+, "Seguretat de xarxes"
+, "Administració de sistemes"
+, "Defensa cibernètica"
+, "Gestió de TI"</category><guid>https://ca.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Windows Task Scheduler i les tasques Cron de Linux des de la perspectiva de la ciberseguretat i el reforç dels sistemes.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>AWS, Azure i Google Cloud 2026: comparació completa de plataformes al núvol</title><link>https://ca.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Computació al núvol"
+, "Seguretat al núvol"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "Seguretat de les dades"
+, "Xifratge"
+, "Gestió d'identitats i accessos"
+, "Compliment normatiu"
+, "Detecció d'amenaces"</category><guid>https://ca.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara AWS, Azure i Google Cloud el 2026, amb preus, seguretat, compliment normatiu, serveis, rendiment i com triar proveïdor.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item></channel></rss>

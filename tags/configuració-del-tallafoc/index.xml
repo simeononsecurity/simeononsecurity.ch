@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Configuració Del Tallafoc on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Configuració Del Tallafoc on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/configuraci%C3%B3-del-tallafoc/</link></image><link>https://ca.simeononsecurity.com/tags/configuraci%C3%B3-del-tallafoc/</link><description>Recent content in Configuració Del Tallafoc on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/configuraci%C3%B3-del-tallafoc/index.xml" rel="self" type="application/rss+xml"/><item><title>10 comprovacions essencials de ciberseguretat per a la teva xarxa domèstica</title><link>https://ca.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</link><pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate><category>
+"Seguretat de la xarxa domèstica"
+, "Comprovacions de ciberseguretat"
+, "Defensa digital"
+, "Protecció de la xarxa"
+, "Seguretat IoT"
+, "Privadesa de les dades"
+, "Prevenció d'amenaces cibernètiques"
+, "Seguretat Wi-Fi"
+, "Protecció de la informació personal"
+, "Consells de seguretat digital"</category><guid>https://ca.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Audita la teva xarxa domèstica amb deu comprovacions pràctiques que cobreixen actualitzacions del router, xifratge Wi-Fi, seguretat DNS, inventari de dispositius, còpies de seguretat i monitoratge.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/10-essential-cybersecurity-checks-for-your-home-network.webp" length="141312" type="image/webp"/></item><item><title>Windows Task Scheduler contra Cron de Linux: comparació de seguretat</title><link>https://ca.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Sistemes operatius"
+, "Automatització de sistemes"
+, "Eines de seguretat"
+, "Tecnologia informàtica"
+, "Programació de tasques"
+, "Seguretat de xarxes"
+, "Administració de sistemes"
+, "Defensa cibernètica"
+, "Gestió de TI"</category><guid>https://ca.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Windows Task Scheduler i les tasques Cron de Linux des de la perspectiva de la ciberseguretat i el reforç dels sistemes.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>Millora de la ciberseguretat</title><link>https://ca.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Directiva de grup del Windows"
+, "Reducció de la superfície d’atac"
+, "Seguretat informàtica"
+, "Protecció de xarxes"
+, "Protecció de dades"
+, "Resiliència digital"
+, "Protecció de sistemes"
+, "Bones pràctiques de seguretat"
+, "Mitigació de riscos"</category><guid>https://ca.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix com la directiva de grup del Windows redueix la superfície d’atac i reforça la protecció.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/Cybersecurity_Shield_Defense.webp" length="129592" type="image/webp"/></item><item><title>Dominar el principi del mínim privilegi</title><link>https://ca.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Seguretat de Linux"
+, "Control d'accés"
+, "Seguretat informàtica"
+, "Seguretat de xarxa"
+, "Protecció de la informació"
+, "Privadesa de les dades"
+, "Amenaces cibernètiques"
+, "Gestió de riscos"
+, "Bones pràctiques de seguretat"</category><guid>https://ca.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Reforça la ciberseguretat amb controls d'accés basats en el mínim privilegi a Linux. Aprèn a implementar-los, aplicar bones pràctiques i resoldre problemes.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>Bones pràctiques per reforçar la seguretat de Windows 10 i 11</title><link>https://ca.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Reforç de Windows"
+, "Seguretat de Windows"
+, "Reforç de Windows 10"
+, "Reforç de Windows 11"
+, "Bones pràctiques de seguretat de Windows"
+, "Consells de seguretat de Windows"
+, "Directrius de seguretat de Windows"
+, "Protecció dels sistemes operatius Windows"
+, "Reforç del sistema Windows"
+, "Mesures de seguretat de Windows"</category><guid>https://ca.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix estratègies eficaces per protegir els teus sistemes Windows 10 i Windows 11 amb tècniques de reforç i bones pràctiques completes.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.webp" length="55200" type="image/webp"/></item><item><title>Protegeix la teva xarxa domèstica</title><link>https://ca.simeononsecurity.com/articles/building-a-secure-home-network/</link><pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate><category>
+"Seguretat de les xarxes domèstiques"
+, "Ciberseguretat"
+, "Protecció de dispositius"
+, "Seguretat a Internet"
+, "Seguretat de la llar intel·ligent"
+, "Privadesa de xarxa"
+, "Amenaces en línia"
+, "Consells de seguretat a Internet"
+, "Privadesa digital"
+, "Defensa cibernètica"</category><guid>https://ca.simeononsecurity.com/articles/building-a-secure-home-network/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn a protegir la xarxa domèstica i els dispositius connectats davant de les amenaces cibernètiques amb aquests consells i eines essencials.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/building-a-secure-home-network.webp" length="167198" type="image/webp"/></item></channel></rss>

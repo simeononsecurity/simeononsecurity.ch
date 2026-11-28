@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Injecció SQL on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Injecció SQL on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/injecci%C3%B3-sql/</link></image><link>https://ca.simeononsecurity.com/tags/injecci%C3%B3-sql/</link><description>Recent content in Injecció SQL on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/injecci%C3%B3-sql/index.xml" rel="self" type="application/rss+xml"/><item><title>Els tipus de ciberatac més habituals i com detectar-los</title><link>https://ca.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Detecció d'amenaces"
+, "Blue Team"
+, "Operacions de seguretat"
+, "Desenvolupament professional"</category><guid>https://ca.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn quins són els ciberatacs més habituals, quins rastres deixen als registres i a la telemetria, i practica la detecció en un laboratori de seguretat domèstic.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item><item><title>Funcions C# insegures: pràctiques de programació segura</title><link>https://ca.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Desenvolupament de programari"
+, "Programació en C#"
+, "Ciberseguretat"
+, "Seguretat del codi"
+, "Programació segura"
+, "Bones pràctiques de programació"
+, "Vulnerabilitats de programari"
+, "Criptografia"
+, "Desenvolupament web"
+, "Seguretat d’aplicacions"</category><guid>https://ca.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Alternatives segures a les funcions C# insegures. Aprèn a identificar els riscos per a la seguretat de la memòria i a substituir les operacions vulnerables.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>Programació segura amb Python</title><link>https://ca.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"Programació"
+, "Seguretat d’aplicacions"
+, "Desenvolupament amb Python"
+, "Programació segura"
+, "Desenvolupament web"
+, "Anàlisi de dades"
+, "Intel·ligència artificial"
+, "Desenvolupament de programari"
+, "Ciberseguretat"
+, "Llenguatges de programació"</category><guid>https://ca.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Pràctiques de programació segura amb Python per reduir la injecció SQL, l’scripting entre llocs i altres vulnerabilitats d’aplicacions.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp"/></item></channel></rss>

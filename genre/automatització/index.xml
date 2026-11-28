@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automatització on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Automatització on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/automatitzaci%C3%B3/</link></image><link>https://ca.simeononsecurity.com/genre/automatitzaci%C3%B3/</link><description>Recent content in Automatització on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/automatitzaci%C3%B3/index.xml" rel="self" type="application/rss+xml"/><item><title>1Password SSH Agent and CLI: Accés de només lectura per a agents d'IA</title><link>https://ca.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Administració de sistemes"
+, "Seguretat en la núvol"
+, "Automatització"</category><guid>https://ca.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dissenyar un flux de treball SSH de només lectura amb 1Password CLI, l'Agent SSH i MCP. Utilitzar comandes sintètiques, permisos restringits i aprovació humana abans de les proves en directe.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Claude Cowork i Claude Code amb models locals: guia de configuració 2026</title><link>https://ca.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Eines de programació amb IA"
+, "IA autoallotjada"
+, "Eines per a desenvolupadors"
+, "Privadesa"
+, "Models de codi obert"
+, "Automatització"
+, "Maquinari per a IA"</category><guid>https://ca.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Configura Ollama amb Claude Desktop i Claude Code mitjançant una API compatible amb Anthropic. Revisa els models i les funcions exclusives del núvol el 2026.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>Crear un assistent d'IA que protegeix la privadesa per a Meshtastic</title><link>https://ca.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Seguretat de xarxes"
+, "Privadesa"
+, "Codi obert"
+, "Automatització"</category><guid>https://ca.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Experiència pràctica amb un assistent d'IA local per a Meshtastic, amb configuració privada, accés TCP en cua, eines de recuperació i un tauler més segur.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Llibres essencials per a professionals de la ciberseguretat i les TI</title><link>https://ca.simeononsecurity.com/articles/essential-books-cybersecurity-it-professionals/</link><pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Educació"
+, "Llibres"
+, "Ciberseguretat"
+, "Programació"
+, "TI"
+, "Automatització"
+, "Desenvolupament professional"
+, "Creixement professional"
+, "Aprenentatge"</category><guid>https://ca.simeononsecurity.com/articles/essential-books-cybersecurity-it-professionals/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Millora les teves habilitats amb llibres destacats sobre ciberseguretat, automatització, programació i TI.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/coding_conqueror.webp" length="96864" type="image/webp"/></item><item><title>Domina la seguretat de VMware</title><link>https://ca.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Virtualització"
+, "Infraestructura de TI"
+, "Automatització"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "Compliment normatiu"
+, "Scripts"
+, "Centre de dades"</category><guid>https://ca.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn a fer servir PowerCLI per aplicar els STIG de VMware i protegir el teu entorn VMware amb aquesta guia completa.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>Domina PowerCLI per administrar vSphere</title><link>https://ca.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Virtualització"
+, "VMware"
+, "Gestió de TI"
+, "Automatització"
+, "Interfície de línia d'ordres"
+, "Creació de scripts"
+, "Administració de sistemes"
+, "Computació al núvol"
+, "Gestió de centres de dades"</category><guid>https://ca.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn a fer servir PowerCLI per administrar VMware vSphere, automatitzar tasques i millorar la productivitat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>10 bones pràctiques de seguretat de PowerShell per protegir els scripts</title><link>https://ca.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Bones pràctiques de seguretat de PowerShell"
+, "Seguretat dels scripts"
+, "Seguretat de les contrasenyes"
+, "Seguretat informàtica"
+, "Ciberseguretat"
+, "Administració de Windows"
+, "Automatització"
+, "Programació segura"
+, "Seguretat de xarxes"
+, "Protecció de dades"</category><guid>https://ca.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Protegeix els scripts i les sessions de PowerShell amb controls d'execució, signatura de codi, gestió segura dels secrets, límits d'accés i registre.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp" length="76288" type="image/webp"/></item><item><title>Administració d'Active Directory amb PowerShell</title><link>https://ca.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Windows"
+, "PowerShell"
+, "Active Directory"
+, "Administració"
+, "Scripting"
+, "TI"
+, "Automatització"
+, "Windows Server"
+, "Microsoft"</category><guid>https://ca.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix com instal·lar i utilitzar eficaçment el mòdul d'Active Directory per a PowerShell per simplificar les teves tasques d'administració de Windows Active Directory.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/active-directory-module-powershell-installation-usage-guide.webp" length="86330" type="image/webp"/></item><item><title>Sistemes de gestió de vulnerabilitats: redueix el risc de seguretat</title><link>https://ca.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Infraestructura de TI"
+, "Mitigació de riscos"
+, "Compliment"
+, "Seguretat de les dades"
+, "Avaluació de vulnerabilitats"
+, "Postura de seguretat"
+, "Automatització"
+, "Integració"
+, "Informes"</category><guid>https://ca.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Reforça la seguretat de la teva organització i mitiga els riscos amb sistemes de gestió de vulnerabilitats. Avui t'expliquem els seus avantatges i la seva importància.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.webp" length="122958" type="image/webp"/></item><item><title>Optimitzar imatges amb Python</title><link>https://ca.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Desenvolupament web"
+, "Programació Python"
+, "Optimització d’imatges"
+, "SEO"
+, "Rendiment web"
+, "Experiència d’usuari"
+, "Desenvolupament de programari"
+, "Automatització"
+, "Programació"</category><guid>https://ca.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Optimitza imatges amb Python canviant-ne la mida, comprimint-les i convertint-ne el format amb processos reproduïbles de Pillow.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/An_illustration_of_a_Python_script_optimizing.webp" length="146766" type="image/webp"/></item><item><title>Ansible contra Semaphore contra Tower: comparació d'automatització</title><link>https://ca.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automatització"
+, "Gestió de la infraestructura"
+, "Gestió de la configuració"
+, "DevOps"
+, "Operacions de TI"
+, "Codi obert"
+, "Gestió de fluxos de treball"
+, "Escalabilitat"
+, "Col·laboració"
+, "Eines d'Ansible"</category><guid>https://ca.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Ansible bàsic, Ansible Tower i Ansible Semaphore segons el flux de treball, les funcions de gestió i els casos d'ús d'infraestructura.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/ansible-vs-ansible-semaphore-vs-ansible-tower.webp" length="132234" type="image/webp"/></item><item><title>CheckMK: supervisió per a la gestió de la infraestructura informàtica</title><link>https://ca.simeononsecurity.com/articles/what-is-check-mk/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Infraestructura informàtica"
+, "Supervisió de xarxes"
+, "Supervisió d'aplicacions"
+, "Operacions informàtiques"
+, "Anàlisi del rendiment"
+, "Automatització"
+, "Gestió d'esdeveniments"
+, "Escalabilitat"
+, "Flexibilitat"</category><guid>https://ca.simeononsecurity.com/articles/what-is-check-mk/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix les funcions, els avantatges i els usos de CheckMK per supervisar proactivament la infraestructura informàtica.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.webp" length="151812" type="image/webp"/></item><item><title>Scripts amb PowerShell</title><link>https://ca.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Programació"
+, "Automatització"
+, "Windows"
+, "Scripts"
+, "TI"
+, "Tasques administratives"
+, "Gestió d'ordinadors"
+, "Desenvolupament de programari"
+, "Programació"</category><guid>https://ca.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn els conceptes bàsics dels scripts amb PowerShell i automatitza tasques amb aquesta guia pas a pas per a principiants, que tracta cmdlets, bucles, funcions i molt més.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.webp" length="52314" type="image/webp"/></item></channel></rss>

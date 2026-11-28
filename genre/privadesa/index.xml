@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privadesa on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Privadesa on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/privadesa/</link></image><link>https://ca.simeononsecurity.com/genre/privadesa/</link><description>Recent content in Privadesa on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/privadesa/index.xml" rel="self" type="application/rss+xml"/><item><title>Hindsight autohostat: memòria local d’agents i encaminament privat de models</title><link>https://ca.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autohostada"
+, "Agents d’IA"
+, "Infraestructura d’IA"
+, "Privadesa"</category><guid>https://ca.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Un estudi de cas de Hindsight autohostat, les rutes locals de Qwen observades i el treball de GPU per petició sense subscripció a models allotjats en les rutes inspeccionades.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Comprova les fuites de DNS i WebRTC del navegador amb una VPN</title><link>https://ca.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Privadesa"
+, "Navegadors"
+, "Xarxes"</category><guid>https://ca.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprova l'IP pública, el servidor DNS i les adreces WebRTC del navegador abans i després de connectar una VPN. Interpreta els resultats i investiga els problemes d'encaminament.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>Per què s’eludeix el filtre DNS: comprova la ruta del resolutor</title><link>https://ca.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Xarxes domèstiques"
+, "DNS"
+, "Privadesa"</category><guid>https://ca.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esbrina per què un dispositiu o navegador se salta el filtre DNS. Compara les consultes directes i normals, revisa els registres i comprova el DNS xifrat, la VPN, IPv6 i el router.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>Privadesa de la IA local: què queda al vostre ordinador i què no</title><link>https://ca.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Privadesa"
+, "IA autogestionada"
+, "Ciberseguretat"
+, "Economia de la IA"</category><guid>https://ca.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Seguiu els prompts, fitxers de model, eines, registres, exposició de xarxa i costos d'energia abans d'escollir inferència local o un servei d'IA allotjat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Llista de seguretat personal 2026: per on començar i què ometre</title><link>https://ca.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><category>
+"Seguretat personal"
+, "Privadesa"
+, "Higiene digital"
+, "Seguretat de comptes"
+, "Modelatge d'amenaces"
+, "Seguretat del consumidor"
+, "Gestió de contrasenyes"
+, "Protecció de dades"</category><guid>https://ca.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prioritza les mesures de seguretat personal segons l'impacte en els atacs, des de la protecció dels comptes i les còpies de seguretat fins a la privadesa i la recuperació.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/personal-security-checklist-2026-tiered-structure.webp" length="98938" type="image/webp"/></item><item><title>Claude Cowork i Claude Code amb models locals: guia de configuració 2026</title><link>https://ca.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Eines de programació amb IA"
+, "IA autoallotjada"
+, "Eines per a desenvolupadors"
+, "Privadesa"
+, "Models de codi obert"
+, "Automatització"
+, "Maquinari per a IA"</category><guid>https://ca.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Configura Ollama amb Claude Desktop i Claude Code mitjançant una API compatible amb Anthropic. Revisa els models i les funcions exclusives del núvol el 2026.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>IA local el 2026: un model 27B supera Sonnet 4.6 mentre es tanca la finestra per comprar maquinari</title><link>https://ca.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autoallotjada"
+, "Models de codi obert"
+, "Maquinari d'IA"
+, "Aprenentatge automàtic"
+, "Quantització"
+, "Laboratori domèstic"
+, "Privadesa"
+, "Economia de la IA"
+, "Maquinari de consum"</category><guid>https://ca.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planifica un ordinador d'IA local per al 2026 segons la mida del model, la VRAM, l'amplada de banda de memòria, el consum, el cost i les opcions d'actualització.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Crear un assistent d'IA que protegeix la privadesa per a Meshtastic</title><link>https://ca.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Seguretat de xarxes"
+, "Privadesa"
+, "Codi obert"
+, "Automatització"</category><guid>https://ca.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Experiència pràctica amb un assistent d'IA local per a Meshtastic, amb configuració privada, accés TCP en cua, eines de recuperació i un tauler més segur.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Sandboxed Google Play a GrapheneOS, explicat</title><link>https://ca.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Privadesa"
+, "Seguretat mòbil"
+, "Codi obert"</category><guid>https://ca.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix què canvia Sandboxed Google Play a GrapheneOS, quan és útil un perfil separat i com es relacionen els comptes, les notificacions i la compatibilitat de les aplicacions.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp"/></item><item><title>Meshtastic vs. MeshCore vs. Reticulum</title><link>https://ca.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "Xarxes mesh"
+, "Comunicacions fora de xarxa"
+, "Comunicacions d'emergència"
+, "Radioafició"
+, "Codi obert"
+, "Preparació per a desastres"
+, "Xarxes sense fils"
+, "Privadesa"
+, "Xarxes"</category><guid>https://ca.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Meshtastic, MeshCore i Reticulum segons l'encaminament, el temps d'emissió, la infraestructura, el transport i els usos sense connexió a Internet.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Càmeres Flock: Eina de Seguretat Pública o Màquina de Vigilància Sense Ordre Judicial?</title><link>https://ca.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"Privadesa"
+, "Vigilància"
+, "Llibertats Civils"
+, "Tecnologia per a l'Aplicació de la Llei"
+, "Drets Digitals"</category><guid>https://ca.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Una anàlisi independent de les càmeres ALPR de Flock Safety: com funcionen realment, quines dades recullen més enllà de les matrícules, com l'intercanvi de dades crea una base de dades nacional oculta, i per què la qüestió de l'ordre judicial és el problema real.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/flock-safety-cameras-public-safety-surveillance.webp" length="257030" type="image/webp"/></item><item><title>MeshCore o Meshtastic: comparació</title><link>https://ca.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "Xarxes mesh"
+, "Comunicacions fora de xarxa"
+, "Comunicacions d’emergència"
+, "Comunicacions tàctiques"
+, "Radioafició"
+, "Codi obert"
+, "Preparació per a desastres"
+, "Xarxes sense fil"
+, "Privadesa"</category><guid>https://ca.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara MeshCore i Meshtastic segons l’encaminament, l’abast, el temps d’emissió, la infraestructura, els dispositius compatibles i l’ús adequat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/meshcore-vs-meshtastic-comparison-guide.webp" length="173676" type="image/webp"/></item><item><title>Mullvad o ProtonVPN: quina VPN et convé?</title><link>https://ca.simeononsecurity.com/articles/mullvad-vs-protonvpn/</link><pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Seguretat"
+, "Privadesa"
+, "Comparació de VPN"
+, "Anonimat en línia"
+, "Seguretat digital"
+, "Seguretat d’Internet"
+, "Ciberseguretat"
+, "Protecció de dades"
+, "Serveis VPN"</category><guid>https://ca.simeononsecurity.com/articles/mullvad-vs-protonvpn/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Mullvad VPN i ProtonVPN en seguretat, privadesa, rendiment i facilitat d’ús per triar el servei adequat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/mullvad-protonvpn-security-race.webp" length="148320" type="image/webp"/></item><item><title>Protegir els grups vulnerables</title><link>https://ca.simeononsecurity.com/articles/securing-vulnerable-groups-cyber-threats-protection-strategies/</link><pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Privadesa"
+, "Seguretat digital"
+, "Amenaces en línia"
+, "Protecció de dades"
+, "Tecnologia"
+, "Drets digitals"
+, "Seguretat de la informació"
+, "Ciberespionatge"
+, "Privadesa en línia"</category><guid>https://ca.simeononsecurity.com/articles/securing-vulnerable-groups-cyber-threats-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix com els ciberatacs de potències estrangeres afecten els grups vulnerables i quines estratègies eficaces els protegeixen.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/securing_vulnerable_groups_cyber_threats.webp" length="98410" type="image/webp"/></item><item><title>LibreWolf vs Firefox</title><link>https://ca.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Privadesa"
+, "Navegadors web"
+, "Seguretat en línia"
+, "Codi obert"
+, "Privadesa digital"
+, "Programari"
+, "Comparació"
+, "Ciberseguretat"
+, "Privadesa a Internet"</category><guid>https://ca.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explora les característiques de LibreWolf i Firefox, dos navegadors centrats en la privadesa, per prendre una decisió informada que millori la seguretat i la privadesa en línia.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp"/></item><item><title>Concentradors domèstics intel·ligents segurs</title><link>https://ca.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</link><pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Seguretat domèstica"
+, "Llar intel·ligent"
+, "Automatització domèstica"
+, "Privadesa"
+, "Internet de les coses"
+, "Seguretat digital"
+, "Dispositius connectats"
+, "Millores de la llar"
+, "Electrònica de consum"</category><guid>https://ca.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix concentradors domèstics intel·ligents segurs per gaudir d'una automatització còmoda i protegida.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/secure-smart-home-hubs.webp" length="49576" type="image/webp"/></item><item><title>Guia definitiva de seguretat mòbil</title><link>https://ca.simeononsecurity.com/articles/ultimate-guide-mobile-security-laptop-privacy-webcam-covers/</link><pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Ciberseguretat"
+, "Privadesa"
+, "Teletreball"
+, "Informàtica mòbil"
+, "Seguretat digital"
+, "Productivitat"
+, "Privadesa en línia"
+, "Protecció de dades"
+, "Accessoris tecnològics"</category><guid>https://ca.simeononsecurity.com/articles/ultimate-guide-mobile-security-laptop-privacy-webcam-covers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Protegiu el treball mòbil amb filtres de privadesa per a portàtils, tapes per a càmeres web i dispositius de xifratge portàtils. Treballeu amb seguretat i productivitat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/mobile-security-illustration.webp" length="57304" type="image/webp"/></item><item><title>Millora la privadesa de les dades</title><link>https://ca.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</link><pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Seguretat de les dades"
+, "Privadesa"
+, "Ciberseguretat"
+, "Protecció digital"
+, "Accessoris tecnològics"
+, "Xifratge de dades"
+, "Seguretat en línia"
+, "Dispositius sense configuració complexa"
+, "Privadesa digital"</category><guid>https://ca.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix bloquejadors USB de maquinari i unitats xifrades a Amazon per reforçar la seguretat de les dades.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/usb-data-lock-vault.webp" length="94076" type="image/webp"/></item><item><title>Servei de correu segur: més privadesa amb StartMail</title><link>https://ca.simeononsecurity.com/articles/secure-email-service-startmail/</link><pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Privadesa"
+, "Serveis de correu electrònic"
+, "Seguretat en línia"
+, "Privadesa digital"
+, "Xifratge"
+, "Protecció de dades"
+, "Privadesa del correu"
+, "Protecció de la identitat"
+, "Privadesa en línia"</category><guid>https://ca.simeononsecurity.com/articles/secure-email-service-startmail/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobriu els àlies de correu de StartMail, el xifratge PGP, els missatges protegits amb contrasenya i els límits del correu xifrat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/secure_email_guard.webp" length="45872" type="image/webp"/></item><item><title>Autenticació biomètrica: usos i seguretat</title><link>https://ca.simeononsecurity.com/articles/biometric-authentication-use-cases-and-security-considerations/</link><pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Ciberseguretat"
+, "Biometria"
+, "Autenticació"
+, "Seguretat digital"
+, "Verificació d'identitat"
+, "Protecció de dades"
+, "Privadesa"
+, "Tendències emergents"
+, "Experiència d'usuari"</category><guid>https://ca.simeononsecurity.com/articles/biometric-authentication-use-cases-and-security-considerations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Repasseu els usos de l'autenticació biomètrica i les mesures de seguretat per protegir les dades sensibles.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/biometric-authentication-use-cases-and-security-considerations.webp" length="228916" type="image/webp"/></item><item><title>Seguretat dels dispositius mòbils</title><link>https://ca.simeononsecurity.com/articles/secure-your-mobile-device-tips-for-keeping-your-data-safe/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Ciberseguretat"
+, "Seguretat mòbil"
+, "Protecció de dades"
+, "Seguretat en línia"
+, "Privadesa"
+, "Atacs de phishing"
+, "Programari maliciós"
+, "Seguretat Wi-Fi"
+, "Seguretat de contrasenyes"</category><guid>https://ca.simeononsecurity.com/articles/secure-your-mobile-device-tips-for-keeping-your-data-safe/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn a protegir el dispositiu mòbil i les teves dades davant les ciberamenaces amb aquests consells pràctics.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/secure-your-mobile-device.webp" length="102858" type="image/webp"/></item><item><title>Opta per no rebre ofertes de crèdit preaprovades amb optoutprescreen</title><link>https://ca.simeononsecurity.com/articles/opting-out-of-unauthorized-credit-offers-with-credit-opt-outs/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"Finances personals"
+, "Protecció de la identitat"
+, "Drets dels consumidors"
+, "Seguretat financera"
+, "Gestió del crèdit"
+, "Privadesa"
+, "Prevenció del frau"
+, "Seguretat de les dades"
+, "Educació financera"
+, "Informació personal"</category><guid>https://ca.simeononsecurity.com/articles/opting-out-of-unauthorized-credit-offers-with-credit-opt-outs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Redueix el risc de robatori d'identitat demanant l'exclusió de les llistes d'ofertes de crèdit preaprovades amb optoutprescreen i protegeix les teves dades personals contra l'accés no autoritzat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp" length="108062" type="image/webp"/></item></channel></rss>

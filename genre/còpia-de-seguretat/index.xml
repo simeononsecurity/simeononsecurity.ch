@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Còpia De Seguretat on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Còpia De Seguretat on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/c%C3%B2pia-de-seguretat/</link></image><link>https://ca.simeononsecurity.com/genre/c%C3%B2pia-de-seguretat/</link><description>Recent content in Còpia De Seguretat on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/c%C3%B2pia-de-seguretat/index.xml" rel="self" type="application/rss+xml"/><item><title>Fes una prova de restauració de còpies de seguretat del homelab amb Restic</title><link>https://ca.simeononsecurity.com/articles/homelab-backup-restore-drill/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Còpia de seguretat"
+, "Recuperació de desastres"</category><guid>https://ca.simeononsecurity.com/articles/homelab-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprova si una còpia de seguretat del homelab restaura fitxers utilitzables. Defineix un objectiu de recuperació, restaura amb Restic en una altra ubicació, revisa les dades i registra el resultat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/homelab-backup-restore-drill.webp" length="80454" type="image/webp"/></item><item><title>eSATA al descobert: optimitza les solucions d'emmagatzematge</title><link>https://ca.simeononsecurity.com/articles/external-storage-options_-the-versatility-of-esata/</link><pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate><category>
+"Emmagatzematge extern"
+, "Transferència de dades"
+, "Innovació tecnològica"
+, "Dispositius eSATA"
+, "Solucions de maquinari"
+, "Còpia de seguretat"
+, "Emmagatzematge professional"
+, "Consoles de joc"
+, "Dades protegides"
+, "Tendències tecnològiques"</category><guid>https://ca.simeononsecurity.com/articles/external-storage-options_-the-versatility-of-esata/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix la velocitat i la versatilitat d'eSATA per a l'emmagatzematge extern. Tria segons les teves necessitats.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/external-storage-options_-the-versatility-of-esata.webp" length="139218" type="image/webp"/></item></channel></rss>

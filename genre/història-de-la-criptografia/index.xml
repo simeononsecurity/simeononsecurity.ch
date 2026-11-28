@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Història De La Criptografia on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Història De La Criptografia on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/hist%C3%B2ria-de-la-criptografia/</link></image><link>https://ca.simeononsecurity.com/genre/hist%C3%B2ria-de-la-criptografia/</link><description>Recent content in Història De La Criptografia on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/hist%C3%B2ria-de-la-criptografia/index.xml" rel="self" type="application/rss+xml"/><item><title>La criptografia al descobert: tècniques de xifratge explicades</title><link>https://ca.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><category>
+"Història de la criptografia"
+, "Tècniques de xifratge"
+, "Xifratge simètric"
+, "Xifratge asimètric"
+, "Algorisme RSA"
+, "Criptografia de corbes el·líptiques"
+, "Intercanvi de claus Diffie-Hellman"
+, "Confidencialitat de les dades"
+, "Integritat de les dades"
+, "Autenticació de dades"
+, "Amenaces de la computació quàntica"
+, "Auditories de seguretat"
+, "Seguretat dels moneders digitals"</category><guid>https://ca.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn com el xifratge simètric, asimètric i híbrid protegeix les dades, com funciona l’intercanvi de claus i on s’apliquen els mètodes criptogràfics moderns.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques.webp" length="291054" type="image/webp"/></item><item><title>Criptografia: dels secrets antics a la seguretat moderna</title><link>https://ca.simeononsecurity.com/articles/the-evolution-of-cryptography-in-modern-security/</link><pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate><category>
+"Història de la criptografia"
+, "Criptografia antiga"
+, "Criptografia medieval"
+, "Criptografia del Renaixement"
+, "Algorismes criptogràfics moderns"
+, "Algorismes de clau simètrica"
+, "Algorismes de clau asimètrica"
+, "Funcions resum"
+, "Signatures digitals"
+, "Criptoanàlisi"
+, "Atacs criptogràfics"
+, "Protocols de comunicació segura"
+, "Xifratge de dades"
+, "Tecnologia de cadena de blocs"
+, "Criptomoneda"
+, "Seguretat digital"</category><guid>https://ca.simeononsecurity.com/articles/the-evolution-of-cryptography-in-modern-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Segueix l’evolució de la criptografia, dels primers xifrats al xifratge modern, els sistemes de clau pública, la criptoanàlisi, la cadena de blocs i els reptes de l’era quàntica.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/the-evolution-of-cryptography-in-modern-security.webp" length="193094" type="image/webp"/></item></channel></rss>

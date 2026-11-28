@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Protocol D'Internet on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Protocol D'Internet on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/protocol-dinternet/</link></image><link>https://ca.simeononsecurity.com/tags/protocol-dinternet/</link><description>Recent content in Protocol D'Internet on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/protocol-dinternet/index.xml" rel="self" type="application/rss+xml"/><item><title>Conceptes bàsics de xarxes: què és una adreça IP i què són IPv4 i IPv6</title><link>https://ca.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><category>
+"Xarxes"
+, "Adreces IP"
+, "Protocols d'Internet"
+, "IPv4"
+, "IPv6"
+, "Comunicació de xarxa"
+, "Connectivitat a Internet"
+, "Tecnologia"
+, "Infraestructura de xarxa"
+, "Seguretat d'Internet"</category><guid>https://ca.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn què és una adreça IP, quines diferències hi ha entre IPv4 i IPv6, per què són importants i per què cal adoptar IPv6.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoon_image_of_two_devices_with_speech_bub.webp" length="90028" type="image/webp"/></item><item><title>Mecanismes de transició d’IPv4 a IPv6: una guia completa</title><link>https://ca.simeononsecurity.com/articles/ipv4-to-ipv6-transition-mechanisms/</link><pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate><category>
+"IPv4"
+, "IPv6"
+, "xarxes"
+, "mecanismes de transició"
+, "pila dual"
+, "NAT64"
+, "DNS64"
+, "túnel IPv6"
+, "ISATAP"
+, "6to4"
+, "DS-Lite"
+, "MAP-T"
+, "migració IPv6"
+, "protocols de xarxa"
+, "protocol d'internet"
+, "arquitectura de xarxa"
+, "encaminament"
+, "subxarxes"
+, "adreçament"</category><guid>https://ca.simeononsecurity.com/articles/ipv4-to-ipv6-transition-mechanisms/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix els diferents mecanismes que s'utilitzen per passar d'IPv4 a IPv6 en aquesta guia completa.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.webp" length="56020" type="image/webp"/></item></channel></rss>

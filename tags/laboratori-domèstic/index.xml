@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laboratori Domèstic on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Laboratori Domèstic on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/laboratori-dom%C3%A8stic/</link></image><link>https://ca.simeononsecurity.com/tags/laboratori-dom%C3%A8stic/</link><description>Recent content in Laboratori Domèstic on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/laboratori-dom%C3%A8stic/index.xml" rel="self" type="application/rss+xml"/><item><title>Construeix un laboratori domèstic en 10 nivells, de Pi-hole a la IA local</title><link>https://ca.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Laboratori domèstic"
+, "Autoallotjament"
+, "IA local"
+, "Xarxes domèstiques"</category><guid>https://ca.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Construeix un laboratori domèstic en deu etapes pràctiques, des del filtratge DNS de tota la xarxa fins a la IA local, amb maquinari, costos, habilitats i compensacions per a cada nivell.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Els tipus de ciberatac més habituals i com detectar-los</title><link>https://ca.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Detecció d'amenaces"
+, "Blue Team"
+, "Operacions de seguretat"
+, "Desenvolupament professional"</category><guid>https://ca.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn quins són els ciberatacs més habituals, quins rastres deixen als registres i a la telemetria, i practica la detecció en un laboratori de seguretat domèstic.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item><item><title>Construeix un laboratori domèstic assequible i segur per provar informàtica</title><link>https://ca.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</link><pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate><category>
+"laboratori domèstic"
+, "virtualització"
+, "maquinari"
+, "programari"
+, "xarxes"
+, "seguretat"
+, "aprenentatge"
+, "proves"
+, "professional TIC"
+, "entusiasta de la tecnologia"
+, "VMware"
+, "Proxmox"
+, "Hyper-V"
+, "Linux"
+, "Windows"
+, "configuració de xarxa"
+, "gestió de màquines virtuals"
+, "còpia de seguretat i recuperació"
+, "computació al núvol"
+, "ciberseguretat"</category><guid>https://ca.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn a configurar un laboratori domèstic segur i econòmic per adquirir experiència pràctica amb programari, maquinari i xarxes.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.webp" length="163548" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sistemes Operatius on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Sistemes Operatius on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/sistemes-operatius/</link></image><link>https://ca.simeononsecurity.com/genre/sistemes-operatius/</link><description>Recent content in Sistemes Operatius on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/sistemes-operatius/index.xml" rel="self" type="application/rss+xml"/><item><title>Comparació de SO: Característiques i Seguretat de Windows, Linux i macOS</title><link>https://ca.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><category>
+"Sistemes Operatius"
+, "Ressenyes Tecnològiques"
+, "Comparació de Programari"
+, "Seguretat Informàtica"
+, "Disseny d'Experiència d'Usuari"
+, "Rendiment del Sistema"
+, "Programari de Codi Obert"
+, "Guies Tecnològiques"
+, "Informàtica Personal"
+, "Solucions IT"</category><guid>https://ca.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix quin SO és el millor en seguretat i facilitat: Windows, Linux o macOS? Obteniu les claus que NECESSITES per decidir abans de comprometre't!</description><enclosure url="https://ca.simeononsecurity.com/img/cover/operating-systems_-windows-linux-and-macos-compared.webp" length="44424" type="image/webp"/></item><item><title>Domina les funcions de còpia: gestiona fitxers al sistema operatiu</title><link>https://ca.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</link><pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Gestió de fitxers"
+, "Sistemes operatius"
+, "Transferència de dades"
+, "Organització de dades"
+, "Habilitats informàtiques"
+, "Consells d’IT"
+, "Eficiència del sistema operatiu"
+, "Administració de sistemes"
+, "Utilitats de programari"</category><guid>https://ca.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix les funcions avançades de còpia dels sistemes operatius i aprèn a gestionar fitxers de manera ràpida i eficient.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems.webp" length="92028" type="image/webp"/></item><item><title>Sistemes de fitxers: de FAT32 a NTFS i més</title><link>https://ca.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</link><pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate><category>
+"Informàtica"
+, "Emmagatzematge de dades"
+, "Guies tècniques"
+, "Gestió de fitxers"
+, "Sistemes operatius"
+, "Organització digital"
+, "Educació tècnica"
+, "Informació sobre programari"
+, "Optimització del sistema"
+, "Recursos tècnics"</category><guid>https://ca.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Coneix els sistemes de fitxers amb aquesta visió general de FAT32, NTFS, exFAT i altres formats. Compara'n les funcions, els límits i la compatibilitat per gestionar millor les dades.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/computer-file-systems-explained_-fat32,-ntfs,-exfat,-and-more.webp" length="132294" type="image/webp"/></item><item><title>Registre de Windows i fitxers de configuració de Linux</title><link>https://ca.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link><pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Sistemes operatius"
+, "Gestió de la seguretat"
+, "Tecnologia informàtica"
+, "Protecció de dades"
+, "Configuració del sistema"
+, "Seguretat informàtica"
+, "Seguretat de xarxa"
+, "Comparacions tecnològiques"
+, "Seguretat de la informació"</category><guid>https://ca.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara la seguretat del Registre de Windows i dels fitxers de configuració de Linux i aplica mesures pràctiques per reforçar tots dos sistemes.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp"/></item><item><title>Windows Task Scheduler contra Cron de Linux: comparació de seguretat</title><link>https://ca.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Sistemes operatius"
+, "Automatització de sistemes"
+, "Eines de seguretat"
+, "Tecnologia informàtica"
+, "Programació de tasques"
+, "Seguretat de xarxes"
+, "Administració de sistemes"
+, "Defensa cibernètica"
+, "Gestió de TI"</category><guid>https://ca.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Windows Task Scheduler i les tasques Cron de Linux des de la perspectiva de la ciberseguretat i el reforç dels sistemes.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>Comparativa de sistemes operatius NAS: trobar la millor solució d’emmagatzematge</title><link>https://ca.simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/</link><pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Emmagatzematge de dades"
+, "Emmagatzematge connectat a la xarxa"
+, "Sistemes operatius"
+, "Gestió de dades"
+, "Solucions informàtiques"
+, "Compartició de fitxers"
+, "Seguretat de les dades"
+, "Emmagatzematge al núvol"
+, "Solucions de còpia de seguretat"</category><guid>https://ca.simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compareu els principals sistemes operatius NAS i trobeu la solució adequada a les vostres necessitats d’emmagatzematge de dades.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/nas-os-comparison-symbolic-servers.webp" length="135748" type="image/webp"/></item></channel></rss>

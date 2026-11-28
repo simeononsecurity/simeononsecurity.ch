@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Control D'accés Dels Usuaris on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Control D'accés Dels Usuaris on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/control-dacc%C3%A9s-dels-usuaris/</link></image><link>https://ca.simeononsecurity.com/tags/control-dacc%C3%A9s-dels-usuaris/</link><description>Recent content in Control D'accés Dels Usuaris on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/control-dacc%C3%A9s-dels-usuaris/index.xml" rel="self" type="application/rss+xml"/><item><title>10 bones pràctiques de seguretat de PowerShell per protegir els scripts</title><link>https://ca.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Bones pràctiques de seguretat de PowerShell"
+, "Seguretat dels scripts"
+, "Seguretat de les contrasenyes"
+, "Seguretat informàtica"
+, "Ciberseguretat"
+, "Administració de Windows"
+, "Automatització"
+, "Programació segura"
+, "Seguretat de xarxes"
+, "Protecció de dades"</category><guid>https://ca.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Protegeix els scripts i les sessions de PowerShell amb controls d'execució, signatura de codi, gestió segura dels secrets, límits d'accés i registre.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp" length="76288" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gestió De Xarxes on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Gestió De Xarxes on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/gesti%C3%B3-de-xarxes/</link></image><link>https://ca.simeononsecurity.com/genre/gesti%C3%B3-de-xarxes/</link><description>Recent content in Gestió De Xarxes on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/gesti%C3%B3-de-xarxes/index.xml" rel="self" type="application/rss+xml"/><item><title>Comparació entre Tailscale i Headscale</title><link>https://ca.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Seguretat de xarxa"
+, "Allotjament propi"
+, "WireGuard"
+, "Confiança zero"
+, "Xarxes de malla"
+, "Codi obert"
+, "Infraestructura al núvol"
+, "Accés remot"
+, "Gestió de xarxes"</category><guid>https://ca.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Tailscale i Headscale segons el model d'allotjament, la identitat, les funcions, el cost, les operacions i l'assistència per triar una VPN de malla basada en WireGuard que s'adapti a les teves necessitats.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item><item><title>Resol els problemes de connexió de xarxa per obtenir un rendiment fiable</title><link>https://ca.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</link><pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate><category>
+"Consells de xarxa"
+, "Solucions informàtiques"
+, "Continuïtat empresarial"
+, "Ciberseguretat"
+, "Resolució de problemes tècnics"
+, "Infraestructura digital"
+, "Fiabilitat d'Internet"
+, "Recuperació de sistemes"
+, "Gestió de xarxes"
+, "Assistència tècnica"</category><guid>https://ca.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Estabilitza la xarxa amb tècniques provades per diagnosticar problemes de connexió i mantenir un rendiment fiable.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/ensuring-network-reliability_-how-to-troubleshoot-connection-issues.webp" length="200054" type="image/webp"/></item><item><title>NAT i PAT: guia essencial de comunicació en xarxa</title><link>https://ca.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"Fonaments de xarxes"
+, "Ciberseguretat"
+, "Infraestructura de TI"
+, "Guies tecnològiques"
+, "Gestió de xarxes"
+, "Protocols d'Internet"
+, "Tecnologies de comunicació"
+, "Administració de sistemes"
+, "Enginyeria de xarxes"
+, "Xarxes digitals"</category><guid>https://ca.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entén NAT i PAT per facilitar les comunicacions digitals.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item><item><title>Tallafocs de nova generació: funcions essencials per a la vostra empresa</title><link>https://ca.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</link><pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Seguretat de xarxa"
+, "Tecnologia de tallafocs"
+, "Seguretat empresarial"
+, "Integració al núvol"
+, "Amenaces digitals"
+, "Gestió de xarxes"
+, "Solucions de seguretat"
+, "Seguretat en línia"
+, "Tecnologia"</category><guid>https://ca.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Trieu un tallafoc de nova generació segons el control d'aplicacions, la prevenció d'intrusions, la protecció contra amenaces, el suport al núvol, el rendiment, la resiliència i la gestió.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/next-gen-firewalls_-features-you-can%27t-ignore-for-your-business.webp" length="128018" type="image/webp"/></item><item><title>Ubiquiti UniFi és una bona opció per a la xarxa de casa?</title><link>https://ca.simeononsecurity.com/articles/ubiquiti-unifi-good-for-home-use/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><category>
+"Xarxes domèstiques"
+, "Solucions Wi-Fi"
+, "Maquinari de xarxa"
+, "Productes Ubiquiti"
+, "Anàlisis tecnològiques"
+, "Tecnologia per a la llar"
+, "Connectivitat sense fil"
+, "Gestió de xarxes"
+, "Electrònica de consum"
+, "Solucions sense fil"</category><guid>https://ca.simeononsecurity.com/articles/ubiquiti-unifi-good-for-home-use/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Valora si Ubiquiti UniFi s'adapta a una llar, amb una revisió dels avantatges, els costos i les necessitats de gestió.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/ubiquiti-unifi-home-wifi.webp" length="49076" type="image/webp"/></item><item><title>Kit definitiu de TI: eines, maquinari i gadgets essencials</title><link>https://ca.simeononsecurity.com/articles/ultimate-it-toolkit-essential-tools-gadgets/</link><pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tecnologies de la informació"
+, "Productivitat"
+, "Maquinari"
+, "Programari"
+, "Ciberseguretat"
+, "Eines tecnològiques"
+, "Gestió de xarxes"
+, "Escriptori remot"
+, "Accessoris d’oficina"
+, "Gadgets tecnològics"</category><guid>https://ca.simeononsecurity.com/articles/ultimate-it-toolkit-essential-tools-gadgets/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix com millorar la productivitat en TI amb un kit complet per a professionals. Troba programari, maquinari i accessoris útils.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/IT-Toolkit-Essential-Tools-Gadgets.webp" length="133374" type="image/webp"/></item><item><title>pfSense vs Firewalla vs OPNsense</title><link>https://ca.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</link><pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate><category>
+"Seguretat de Xarxa"
+, "Comparació de Tallafocs"
+, "Solucions de Ciberseguretat"
+, "Gestió de Xarxes"
+, "Xarxa Domèstica"
+, "Seguretat Empresarial"
+, "Funcions de Tallafocs"
+, "Programari de Seguretat"
+, "Solucions VPN"
+, "Seguretat de Dispositius IoT"</category><guid>https://ca.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparació exhaustiva 2026 de les solucions de tallafocs pfSense, Firewalla i OPNsense per a la seguretat de xarxes domèstiques i empresarials. Troba l'opció millor per a les teves necessitats.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/Network-Security-Shield.webp" length="111246" type="image/webp"/></item><item><title>Protegir Active Directory</title><link>https://ca.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Gestió de xarxes"
+, "Tecnologia de la informació"
+, "Protecció de dades"
+, "Seguretat empresarial"
+, "Infraestructura digital"
+, "Control d'accés"
+, "Autenticació d'usuaris"
+, "Bones pràctiques de TI"
+, "Conscienciació sobre seguretat"</category><guid>https://ca.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Coneix tècniques essencials per protegir Active Directory, salvaguardar les dades i impedir intrusions a la infraestructura de xarxa.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item><item><title>Entendre el filtratge WMI</title><link>https://ca.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Administració del Windows"
+, "Directiva de grup"
+, "Administració de sistemes"
+, "Gestió de xarxes"
+, "Infraestructura de TI"
+, "Gestió de polítiques"
+, "Governança de TI"
+, "Automatització de TI"
+, "Active Directory"
+, "Compliment de seguretat"</category><guid>https://ca.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn a utilitzar el filtratge WMI per aplicar els objectes de directiva de grup (GPO) als equips adequats, amb exemples pràctics i bones pràctiques.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item><item><title>Conceptes bàsics de xarxes: subxarxes, divisió en subxarxes i disseny de VLAN</title><link>https://ca.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</link><pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate><category>
+"Conceptes bàsics de xarxes"
+, "Divisió en subxarxes"
+, "VLAN"
+, "Gestió de xarxes"
+, "Seguretat de xarxes"
+, "Adreçament IP"
+, "Segmentació de xarxa"
+, "Ús eficient dels recursos"
+, "Rendiment de xarxa"
+, "IPv4"</category><guid>https://ca.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn els conceptes bàsics de subxarxes i VLAN per gestionar les xarxes amb eficiència i més seguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_comp.webp" length="200202" type="image/webp"/></item><item><title>Group Policy Objects (GPOs): una guia per al control de Windows</title><link>https://ca.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"Gestió de Xarxes"
+, "Objectes de Política de Grup"
+, "GPOs"
+, "Administració de Windows"
+, "Infraestructura IT"
+, "Seguretat de Xarxa"
+, "Active Directory"
+, "Gestió de Configuració"
+, "Gestió de Política de Grup"
+, "Optimització de Xarxa"</category><guid>https://ca.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix el poder dels Objectes de Política de Grup (GPOs) i aprèn a gestionar i optimitzar eficientment la configuració i les polítiques de la teva xarxa per a una seguretat millorada i operacions simplificades.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp" length="133218" type="image/webp"/></item><item><title>Ubiquiti Unifi i TP-Link Omada: quin sistema de xarxa heu de triar?</title><link>https://ca.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</link><pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate><category>
+"Sistemes de xarxa"
+, "Gestió de xarxes"
+, "Comparació de maquinari"
+, "Gestió de xarxa basada en web"
+, "Solucions de xarxa escalables"
+, "Funcions de seguretat de xarxa"
+, "Maquinari de xarxa fiable"
+, "Preus competitius per a xarxes"
+, "Atenció al client"
+, "Oferta addicional de productes"</category><guid>https://ca.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compareu els sistemes de xarxa Ubiquiti Unifi i TP-Link Omada pel que fa a gestió, maquinari, assistència, funcions i preus per triar l'opció adequada.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_split-screen_illustration_of_a_complex_network.webp" length="236442" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Maquinari Informàtic on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Maquinari Informàtic on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/maquinari-inform%C3%A0tic/</link></image><link>https://ca.simeononsecurity.com/genre/maquinari-inform%C3%A0tic/</link><description>Recent content in Maquinari Informàtic on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/maquinari-inform%C3%A0tic/index.xml" rel="self" type="application/rss+xml"/><item><title>Compatibilitat de fonts de l’Octominer X12 Ultra: prova de camp de Chicony i LiteOn</title><link>https://ca.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><category>
+"Maquinari de mineria"
+, "Maquinari informàtic"</category><guid>https://ca.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Una prova amb cinc ventiladors i tres fonts en un Octominer X12 Ultra va mostrar que una font Chicony iniciava l’equip, mentre que les LiteOn provades mostraven llum ambre i no s’iniciaven.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp" length="34962" type="image/webp"/></item><item><title>Són suficients 16GB de VRAM per treballar seriosament amb LLM locals?</title><link>https://ca.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Maquinari informàtic"
+, "IA autohostada"</category><guid>https://ca.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dimensiona una configuració d'LLM local de 16GB segons els pesos del model, la memòria cau KV i el processament de prompts. Compara els pressupostos de memòria, l'amplada de banda de GPU i el cost de propietat de Qwen3.8 27B.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>32 GB de VRAM per a Qwen 27B: guia de maquinari d'IA local per a l'octubre de 2026</title><link>https://ca.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Maquinari d'IA"
+, "Benchmarking de GPU"
+, "IA autoallotjada"
+, "Maquinari informàtic"
+, "Economia de la IA"</category><guid>https://ca.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia pràctica d'octubre de 2026 per executar un model Qwen 27B amb 32 GB de memòria utilitzable de l'accelerador. Compara GPU individuals, equips amb dues targetes, memòria unificada, targetes usades de centres de dades, còmput llogat, suport de programari i límits de context complet.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>El DGX Spark de 64 GB és un senyal d'alerta per als preus del maquinari d'IA local</title><link>https://ca.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Maquinari d'IA"
+, "Semiconductors"
+, "Maquinari informàtic"
+, "Economia de la IA"
+, "IA autoallotjada"</category><guid>https://ca.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+La versió de 64 GB del DGX Spark de NVIDIA mostra com la pressió sobre el subministrament de memòria afecta el maquinari d'IA local. Aquesta guia explica la reducció de capacitat, els compromisos de la memòria unificada i per què l'alleujament de la DRAM és poc probable abans de finals de 2027.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Silencia el PC: com solucionar el soroll dels ventiladors</title><link>https://ca.simeononsecurity.com/articles/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud/</link><pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate><category>
+"Maquinari informàtic"
+, "Manteniment del PC"
+, "Consells tecnològics"
+, "Reparació d'ordinadors per compte propi"
+, "Cura dels dispositius"
+, "Reducció del soroll"
+, "Resolució de problemes de maquinari"
+, "Tecnologia DIY"
+, "Ventiladors d'ordinador"
+, "Actualitzacions del sistema"</category><guid>https://ca.simeononsecurity.com/articles/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Et molesten els ventiladors sorollosos de l'ordinador? Descobreix-ne les causes i les solucions per gaudir d'un PC silenciós. Comença avui mateix.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud.webp" length="244306" type="image/webp"/></item><item><title>Arquitectures de bus per a transferències de dades ràpides</title><link>https://ca.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</link><pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate><category>
+"Guia de transferència de dades"
+, "Innovació tecnològica"
+, "Arquitectura de sistemes"
+, "Computació d'alt rendiment"
+, "Maquinari informàtic"
+, "Disseny de busos"
+, "Connectivitat"
+, "Tecnologies emergents"
+, "Eficiència computacional"
+, "Optimització tècnica"</category><guid>https://ca.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn sobre les arquitectures de bus i els mètodes per accelerar la transferència de dades. Aquesta guia tracta els tipus de bus, l'optimització, les noves solucions i els reptes de rendiment i seguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures.webp" length="305084" type="image/webp"/></item></channel></rss>

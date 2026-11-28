@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Accés Root on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Accés Root on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/acc%C3%A9s-root/</link></image><link>https://ca.simeononsecurity.com/tags/acc%C3%A9s-root/</link><description>Recent content in Accés Root on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/acc%C3%A9s-root/index.xml" rel="self" type="application/rss+xml"/><item><title>Què cal fer i què evitar per reforçar el vostre sistema Linux</title><link>https://ca.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><category>
+"seguretat de Linux"
+, "reforç del sistema"
+, "tallafoc"
+, "SELinux"
+, "AppArmor"
+, "política de contrasenyes"
+, "actualitzacions del sistema"
+, "registres del sistema"
+, "mòduls de seguretat"
+, "polítiques de control d’accés"
+, "ciberseguretat"
+, "seguretat del sistema"
+, "seguretat de xarxa"
+, "gestió de vulnerabilitats"
+, "bones pràctiques de seguretat"
+, "seguretat informàtica"
+, "seguretat de la informació"
+, "actualitzacions de programari"
+, "accés root"
+, "gestor de contrasenyes"</category><guid>https://ca.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia per reforçar Linux amb actualitzacions, tallafocs, SELinux o AppArmor, polítiques de contrasenyes i supervisió dels registres.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.webp" length="138234" type="image/webp"/></item></channel></rss>

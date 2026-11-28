@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Seguretat De Xarxes on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Seguretat De Xarxes on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/seguretat-de-xarxes/</link></image><link>https://ca.simeononsecurity.com/genre/seguretat-de-xarxes/</link><description>Recent content in Seguretat De Xarxes on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/seguretat-de-xarxes/index.xml" rel="self" type="application/rss+xml"/><item><title>Crear un assistent d'IA que protegeix la privadesa per a Meshtastic</title><link>https://ca.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Seguretat de xarxes"
+, "Privadesa"
+, "Codi obert"
+, "Automatització"</category><guid>https://ca.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Experiència pràctica amb un assistent d'IA local per a Meshtastic, amb configuració privada, accés TCP en cua, eines de recuperació i un tauler més segur.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>La cursa per detectar les càmeres Flock: què ha canviat el 2026</title><link>https://ca.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"Tecnologia de privadesa"
+, "Contravigilància"
+, "Projectes de codi obert"
+, "Drets digitals"
+, "Seguretat de xarxes"
+, "Recerca en seguretat"
+, "Manipulació de maquinari"
+, "Eines de privadesa"</category><guid>https://ca.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Repassem els canvis comunicats en la detecció de Flock Safety, les respostes de la comunitat i els mètodes d'infraroig per identificar sistemes de càmeres.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>Flock Finder: Mapa de càmeres ALPR de Flock Safety</title><link>https://ca.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Tecnologia de privacitat"
+, "Contravigil·lància"
+, "Projectes de codi obert"
+, "Drets digitals"
+, "Seguretat de xarxes"
+, "Eines de privacitat"
+, "Pirateria de maquinari"
+, "Recerca de seguretat"</category><guid>https://ca.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder és una eina de codi obert que mapeja més de 40.000 càmeres Flock Safety ALPR arreu del món utilitzant dades WiFi de WiGLE i empremta OUI. Aprèn com funciona, les seves limitacions i les eines de maquinari per a la detecció en temps real.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>ESP32 WiFi Canary: detecció passiva d'amenaces a 2,4 GHz</title><link>https://ca.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Seguretat de xarxes"
+, "Seguretat WiFi"
+, "Seguretat IoT"
+, "Recerca de seguretat"
+, "Sistemes encastats"
+, "Eines de privadesa"
+, "Projectes ESP32"
+, "Seguretat de maquinari"
+, "Seguretat sense fil"
+, "Seguretat de codi obert"</category><guid>https://ca.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Anàlisi tècnica d'ESP32 WiFi Canary, un sensor passiu de 2,4 GHz que detecta punts d'accés falsos, desautenticacions, degradacions de seguretat i inundacions de balises.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>Vulnerabilitats de les càmeres Flock Safety: més de 50 errors descoberts</title><link>https://ca.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Recerca de seguretat"
+, "Anàlisi de vulnerabilitats"
+, "Tecnologia de vigilància"
+, "Ciberseguretat"
+, "Privadesa i seguretat"
+, "Seguretat de l'IoT"
+, "Seguretat física"
+, "Seguretat de xarxes"
+, "Infraestructura crítica"
+, "Tecnologia governamental"</category><guid>https://ca.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aquesta recerca sobre les vulnerabilitats de les càmeres Flock Safety analitza credencials exposades, proteccions febles, accés físic i límits de divulgació.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>Dominar l’etiqueta del correu electrònic</title><link>https://ca.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</link><pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate><category>
+"Comunicació professional"
+, "Seguretat del correu electrònic"
+, "Etiqueta empresarial"
+, "Competències tecnològiques"
+, "Eficiència a la feina"
+, "Bones pràctiques de ciberseguretat"
+, "Alfabetització digital"
+, "Comunicació en línia"
+, "Seguretat de xarxes"
+, "Redacció eficaç"</category><guid>https://ca.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Millora els intercanvis professionals i segurs amb aquests consells d’etiqueta del correu electrònic.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/email-etiquette_-ensuring-smooth-and-secure-email-operations.webp" length="84144" type="image/webp"/></item><item><title>Tallafoc Ubiquiti UniFi o pfSense</title><link>https://ca.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate><category>
+"Seguretat de xarxes"
+, "Solucions de tallafoc"
+, "Ciberseguretat"
+, "Comparació d'encaminadors"
+, "Tecnologia"
+, "Solucions informàtiques"
+, "Tallafoc de codi obert"
+, "Ubiquiti o pfSense"
+, "Xarxa empresarial"
+, "Xarxa domèstica"</category><guid>https://ca.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara el tallafoc Ubiquiti UniFi amb pfSense per protegir xarxes domèstiques i empresarials.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/Ubiquiti_UniFi_Firewall_vs_pfSense.webp" length="192366" type="image/webp"/></item><item><title>Windows Task Scheduler contra Cron de Linux: comparació de seguretat</title><link>https://ca.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Sistemes operatius"
+, "Automatització de sistemes"
+, "Eines de seguretat"
+, "Tecnologia informàtica"
+, "Programació de tasques"
+, "Seguretat de xarxes"
+, "Administració de sistemes"
+, "Defensa cibernètica"
+, "Gestió de TI"</category><guid>https://ca.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Windows Task Scheduler i les tasques Cron de Linux des de la perspectiva de la ciberseguretat i el reforç dels sistemes.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>Protegiu la xarxa domèstica: teletreball amb tranquil·litat</title><link>https://ca.simeononsecurity.com/articles/secure-home-network-teleworking/</link><pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate><category>
+"Teletreball"
+, "Seguretat de xarxes"
+, "Xarxa sense fil domèstica"
+, "Treball a distància"
+, "Ciberseguretat"
+, "Treball des de casa"
+, "Seguretat a Internet"
+, "Protecció de dades"
+, "Seguretat digital"
+, "Privadesa en línia"</category><guid>https://ca.simeononsecurity.com/articles/secure-home-network-teleworking/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Teletreballeu amb seguretat i protegiu les vostres dades. Seguiu aquests passos per protegir la xarxa Wi-Fi domèstica i treballar a distància amb seguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/secure-home-network-cartoon.webp" length="74410" type="image/webp"/></item><item><title>Enforteix la xarxa de casa</title><link>https://ca.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</link><pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Xarxa domèstica"
+, "Recomanacions de maquinari"
+, "Seguretat de xarxes"
+, "Privacitat digital"
+, "Seguretat en línia"
+, "Seguretat d'Internet"
+, "Xarxes domèstiques"
+, "Tecnologia"
+, "Llar intel·ligent"</category><guid>https://ca.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix els components de maquinari essencials per protegir la xarxa de casa davant les ciberamenaces, com ara tallafocs, punts d'accés i eines de supervisió.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/fortified-network-security.webp" length="61592" type="image/webp"/></item><item><title>Impulsa la teva carrera en ciberseguretat</title><link>https://ca.simeononsecurity.com/articles/best-cybersecurity-certifications-for-beginners-career-guide/</link><pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate><category>
+"Certificacions de ciberseguretat"
+, "Guia per a principiants"
+, "Carreres de TI"
+, "Seguretat de la informació"
+, "Seguretat de xarxes"
+, "Hacking ètic"
+, "Proves de penetració"
+, "Feines de nivell inicial"</category><guid>https://ca.simeononsecurity.com/articles/best-cybersecurity-certifications-for-beginners-career-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Coneix certificacions de ciberseguretat per a principiants que t’ajudaran a iniciar una carrera i adquirir habilitats útils.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_illustration_representing_a_lock_an.webp" length="50550" type="image/webp"/></item><item><title>10 bones pràctiques de seguretat de PowerShell per protegir els scripts</title><link>https://ca.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Bones pràctiques de seguretat de PowerShell"
+, "Seguretat dels scripts"
+, "Seguretat de les contrasenyes"
+, "Seguretat informàtica"
+, "Ciberseguretat"
+, "Administració de Windows"
+, "Automatització"
+, "Programació segura"
+, "Seguretat de xarxes"
+, "Protecció de dades"</category><guid>https://ca.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Protegeix els scripts i les sessions de PowerShell amb controls d'execució, signatura de codi, gestió segura dels secrets, límits d'accés i registre.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp" length="76288" type="image/webp"/></item><item><title>Entendre els troians d'accés remot</title><link>https://ca.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Programari maliciós"
+, "Seguretat informàtica"
+, "Amenaces digitals"
+, "Troians d'accés remot"
+, "Protecció de dades"
+, "Privacitat"
+, "Delictes cibernètics"
+, "Seguretat de xarxes"
+, "Seguretat de la informació"</category><guid>https://ca.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Coneix els riscos dels troians d'accés remot (RAT) i aprèn mesures eficaces de prevenció i protecció per salvaguardar els sistemes i les dades.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.webp" length="140888" type="image/webp"/></item><item><title>Conceptes bàsics de xarxes: subxarxes, divisió en subxarxes i disseny de VLAN</title><link>https://ca.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</link><pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate><category>
+"Conceptes bàsics de xarxes"
+, "Divisió en subxarxes"
+, "VLAN"
+, "Gestió de xarxes"
+, "Seguretat de xarxes"
+, "Adreçament IP"
+, "Segmentació de xarxa"
+, "Ús eficient dels recursos"
+, "Rendiment de xarxa"
+, "IPv4"</category><guid>https://ca.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn els conceptes bàsics de subxarxes i VLAN per gestionar les xarxes amb eficiència i més seguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_comp.webp" length="200202" type="image/webp"/></item><item><title>Conceptes bàsics de xarxes: commutadors, encaminadors, tallafocs i DMZ</title><link>https://ca.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"Xarxes"
+, "Infraestructura de TI"
+, "Seguretat de xarxes"
+, "Arquitectura de xarxes"
+, "Ciberseguretat"
+, "Comunicació de dades"
+, "Tecnologies de la informació"
+, "Conceptes bàsics de TI"
+, "Administració de xarxes"
+, "Connectivitat a Internet"</category><guid>https://ca.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn com els commutadors, encaminadors, passarel·les, subxarxes, tallafocs i DMZ divideixen el trànsit de xarxa i imposen límits de seguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item><item><title>Desplega les habilitats de ciberseguretat: una ressenya de TryHackMe</title><link>https://ca.simeononsecurity.com/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Ciberseguretat"
+, "Aprenentatge en línia"
+, "Hacking ètic"
+, "Seguretat de xarxes"
+, "Laboratoris virtuals"
+, "Certificacions"
+, "Itineraris d'aprenentatge"
+, "Experiència pràctica"
+, "Ressenya de TryHackMe"</category><guid>https://ca.simeononsecurity.com/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix les funcions, els preus, les certificacions i els serveis de xarxa de TryHackMe per desenvolupar les teves habilitats de ciberseguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.webp" length="98638" type="image/webp"/></item><item><title>Guia professional de ciberseguretat 2026</title><link>https://ca.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</link><pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Tecnologia"
+, "Desenvolupament professional"
+, "Seguretat de la informació"
+, "Seguretat digital"
+, "Habilitats i certificacions"
+, "Oportunitats laborals"
+, "Seguretat de xarxes"
+, "Seguretat al núvol"
+, "Planificació professional"</category><guid>https://ca.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia de carrera en ciberseguretat per al 2026 amb habilitats, certificacions, dades salarials, itineraris professionals i recerca del mercat laboral.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/cybersecurity-career-guide-essential-skills-and-certifications.webp" length="298156" type="image/webp"/></item><item><title>Dominar les proves de penetració: tècniques avançades i exemples reals</title><link>https://ca.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Proves de penetració"
+, "Hacking ètic"
+, "Seguretat de xarxes"
+, "Seguretat d'aplicacions web"
+, "Seguretat sense fil"
+, "Enginyeria social"
+, "Seguretat d'aplicacions mòbils"
+, "Seguretat al núvol"
+, "Desenvolupament professional"</category><guid>https://ca.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descobreix tècniques, eines i exemples reals de proves de penetració per millorar les teves habilitats i la teva carrera en ciberseguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp"/></item><item><title>Security+ contra SSCP: quina certificació t’hauries de treure?</title><link>https://ca.simeononsecurity.com/articles/security-plus-vs-sscp-what-is-the-better-certification/</link><pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguretat"
+, "Seguretat de la informació"
+, "Comparació de certificacions"
+, "Carreres en TI"
+, "Reconeixement del sector"
+, "Oportunitats laborals"
+, "Seguretat de xarxes"
+, "Seguretat de sistemes"
+, "CompTIA"</category><guid>https://ca.simeononsecurity.com/articles/security-plus-vs-sscp-what-is-the-better-certification/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Security+ i SSCP pel temari de l’examen, l’experiència, el cost i els objectius professionals per triar un bon punt de partida en ciberseguretat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_symbolic_artwork_featuring_two_shields_facing_off_against.webp" length="167514" type="image/webp"/></item><item><title>Pla d'estudi per aprovar l'examen de certificació CEH: consells i estratègies</title><link>https://ca.simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</link><pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate><category>
+"ciberseguretat"
+, "seguretat de la informació"
+, "desenvolupament professional"
+, "certificació informàtica"
+, "seguretat de xarxes"
+, "hacking ètic"
+, "preparació d'exàmens"
+, "pla d'estudi"
+, "gestió del temps"
+, "progrés professional"</category><guid>https://ca.simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprèn a crear un pla d'estudi eficaç per aprovar l'examen de certificació CEH, amb consells i estratègies per assolir l'èxit.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.webp" length="78844" type="image/webp"/></item><item><title>HackTheBox o TryHackMe: quina plataforma et convé?</title><link>https://ca.simeononsecurity.com/articles/hackthebox-vs-tryhackme-what-is-best/</link><pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Ciberseguretat"
+, "Proves de penetració"
+, "Hacking ètic"
+, "Seguretat de la informació"
+, "Informàtica forense"
+, "Seguretat de xarxes"
+, "Ciberdefensa"
+, "Seguretat d'aplicacions web"
+, "Amenaces cibernètiques"</category><guid>https://ca.simeononsecurity.com/articles/hackthebox-vs-tryhackme-what-is-best/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara HackTheBox i TryHackMe segons la dificultat, l'acompanyament, la comunitat i l'estructura per aprendre proves de penetració.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoon_hacker_in_a_lab_coat_standing_between_two_doors.webp" length="87086" type="image/webp"/></item></channel></rss>
