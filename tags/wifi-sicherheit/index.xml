@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WiFi-Sicherheit on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>WiFi-Sicherheit on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/wifi-sicherheit/</link></image><link>https://de.simeononsecurity.com/tags/wifi-sicherheit/</link><description>Recent content in WiFi-Sicherheit on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/wifi-sicherheit/index.xml" rel="self" type="application/rss+xml"/><item><title>ESP32 WiFi Canary: Passive Erkennung von Bedrohungen auf 2,4 GHz</title><link>https://de.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Netzwerksicherheit"
+, "WiFi-Sicherheit"
+, "IoT-Sicherheit"
+, "Sicherheitsforschung"
+, "Eingebettete Systeme"
+, "Datenschutzwerkzeuge"
+, "ESP32-Projekte"
+, "Hardwaresicherheit"
+, "Drahtlose Sicherheit"
+, "Open-Source-Sicherheit"</category><guid>https://de.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Technische Analyse von ESP32 WiFi Canary, einem passiven 2,4-GHz-Sensor zur Erkennung von Evil Twins, Deauthentifizierung, Sicherheitsabsenkungen und Beacon-Fluten.</description><enclosure url="https://de.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>simeononsecurity</title><link>https://de.simeononsecurity.com/</link></image><link>https://de.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Rollback von Home Assistant Core 2026.11 auf 2026.10.4: HTTP-Speicherversion 3 beheben</title><link>https://de.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"Hausautomatisierung"
+, "Fehlerbehebung"</category><guid>https://de.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Behebe den Fehler zur HTTP-Speicherversion 3, nachdem Home Assistant Core 2026.11 auf Yellow auf 2026.10.4 zurückgesetzt wurde. Mit abgesicherten Befehlen und geprüften Ausgaben.</description><enclosure url="https://de.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp" length="32856" type="image/webp"/></item><item><title>So wählen Sie ein ungefiltertes lokales KI-Modell aus</title><link>https://de.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Selbst gehostete KI"
+, "KI-Sicherheit"
+, "GPU-Komponenten"</category><guid>https://de.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergleichen Sie lokale Modellvarianten nach vollständigen Antworten, erhaltenen Fähigkeiten, Kontextnutzung, Quantisierung und passendem VRAM-Bedarf.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Octominer X12 Ultra Netzteil-Kompatibilität: Chicony- und LiteOn-Praxistest</title><link>https://de.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><category>
+"Kryptowährungs-Mining-Ausrüstung"
+, "Rechnerhardware"</category><guid>https://de.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ein Test mit fünf Lüftern und drei Netzteilen im Octominer X12 Ultra zeigte: Ein Chicony-Netzteil startete das System, getestete LiteOn-Geräte zeigten dagegen Gelb und starteten nicht.</description><enclosure url="https://de.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp" length="34962" type="image/webp"/></item><item><title>Proxmox VE 9: Virtuelle Festplatten verkleinern und Speicherplatz freigeben</title><link>https://de.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Virtualisierung"
+, "Linux-Systemverwaltung"
+, "Proxmox VE Plattform"
+, "Speicher"
+, "Heimlabor"</category><guid>https://de.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Reduzieren Sie den Speicherbedarf von VMs und LXC-Containern unter Proxmox VE 9. Vergleichen Sie Formate und Speicher-Backends, aktivieren Sie Discard, führen Sie Trim aus und prüfen Sie Snapshots.</description><enclosure url="https://de.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Tailscale Aperture: KI-Clients für Inferenz und MCP im Jahr 2026 konfigurieren</title><link>https://de.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Künstliche Intelligenz"
+, "Entwicklerwerkzeuge"
+, "Netzwerke"</category><guid>https://de.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leiten Sie Modellanfragen und MCP-Werkzeuge über Tailscale Aperture. Richten Sie Codex, Claude Code, Claude Desktop, OpenCode und Hermes auf einem anderen Gerät oder Gateway ein.</description><enclosure url="https://de.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>Self-hosted Hindsight: Lokales Agentengedächtnis und privates Modell-Routing</title><link>https://de.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Selbst gehostete KI"
+, "KI-Agenten"
+, "KI-Infrastruktur"
+, "Datenschutz"</category><guid>https://de.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Fallstudie zu selbst gehostetem Hindsight, beobachteten lokalen Qwen-Routen und GPU-Arbeit pro Anfrage ohne gehostetes Modell-Abo auf den geprüften Routen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Chrome 156 Sicherheitsupdate: Oktober-Patch überprüfen</title><link>https://de.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Browser"
+, "Sicherheit"
+, "Patch-Management"</category><guid>https://de.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prüfe das Sicherheitsrelease von Chrome 156 vom 27. Oktober unter Windows, macOS, Linux und Android. Vergleiche den installierten Build, schließe einen ausstehenden Neustart ab und prüfe verwaltete Geräte separat.</description><enclosure url="https://de.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp"/></item><item><title>Open WebUI v0.12.4: Checkliste für Upgrade und Zugriffskontrolle 2026</title><link>https://de.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Selbst gehostete KI"
+, "Cybersicherheit"
+, "Systemadministration"</category><guid>https://de.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Sichern Sie Open WebUI und aktualisieren Sie auf v0.12.4. Testen Sie anschließend Chatfreigaben, Exportberechtigungen, Ressourcenfreigaben, Konten und Netzwerkzugriff.</description></item><item><title>Thunderbird 153.6: Offenlegung von NTLM-Anmeldedaten unter Windows und Update (2026)</title><link>https://de.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "E-Mail-Sicherheit"
+, "Windows-Sicherheit"</category><guid>https://de.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Zwei schwerwiegende Thunderbird-Schwachstellen legen NTLM-Authentifizierungsdaten unter Windows offen, wenn eine präparierte E-Mail angezeigt wird. Erfahre mehr über beide Wege, prüfe deine Version und begrenze ausgehendes SMB während des Updates.</description></item><item><title>Ein Homelab in 10 Stufen aufbauen, von Pi-hole bis lokaler KI</title><link>https://de.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Self-Hosting"
+, "Lokale KI"
+, "Heimnetzwerke"</category><guid>https://de.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Baue ein Homelab in zehn praktischen Stufen auf, von netzwerkweiter DNS-Filterung bis lokaler KI, mit Hardware, Kosten, Fähigkeiten und Kompromissen pro Stufe.</description><enclosure url="https://de.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Hermes-Modelltests lokal: Welche GPU- und Modellkombinationen ich wählen würde</title><link>https://de.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"Künstliche Intelligenz"
+, "Lokale KI"
+, "Computerhardware"</category><guid>https://de.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Meine Empfehlungen für Hermes beruhen auf Tests mit langem Kontext, Werkzeugen, Streaming und Vision auf RTX-5060-Ti-, RTX-2000E-Ada-, RTX-3060-Ti- und RTX-3070-Systemen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>Einblick in unsere hybride KI-Agentenflotte: Hermes, LiteLLM und Tailscale</title><link>https://de.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Selbst gehostete KI"
+, "KI-Agenten"
+, "KI-Infrastruktur"
+, "GPU-gestütztes Mining"</category><guid>https://de.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entdecke eine verifizierte lokale KI-Flotte mit bedarfsgerechter GPU-Nutzung und einer gestuften T0-bis-T4-Steuerung mit Hermes, LiteLLM, Tailscale Aperture und Pearl-Mining.</description><enclosure url="https://de.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>1Password SSH Agent und CLI: Nur-Lese-Zugriff für KI-Agenten</title><link>https://de.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Systemadministration"
+, "Cloud-Sicherheit"
+, "Automatisierung"</category><guid>https://de.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entwerfen Sie einen nur-lesbaren SSH-Workflow mit 1Password CLI, dem SSH Agent und MCP. Verwenden Sie synthetische Befehle, eingeschränkte Berechtigungen und menschliche Genehmigung vor dem Live-Test.</description><enclosure url="https://de.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Bitbucket Cloud SSH-Schlüssel: schreibgeschützter Git-Zugriff für KI-Agenten</title><link>https://de.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cloud-Sicherheit"
+, "Entwicklertools"
+, "Systemverwaltung"</category><guid>https://de.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Richte Bitbucket Cloud SSH-Schlüssel, Git-CLI-Zugriff, REST-API-Tokens, 1Password und MCP-Tools für schreibgeschützte KI-Agenten-Workflows ein.</description><enclosure url="https://de.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>Browser-DNS- und WebRTC-Lecks mit einem VPN testen</title><link>https://de.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Datenschutz"
+, "Browser"
+, "Netzwerke"</category><guid>https://de.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prüfe die öffentliche IP-Adresse, den DNS-Resolver und die WebRTC-Adressen deines Browsers vor und nach der VPN-Verbindung. Werte die Ergebnisse aus und grenze Routingprobleme ein.</description><enclosure url="https://de.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>Eine Hyper-V-VM zu Proxmox VE migrieren: Reversible Checkliste</title><link>https://de.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualisierung"
+, "Systemadministration"
+, "Heimlabor"</category><guid>https://de.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Migrieren Sie eine Hyper-V-VM mit einem Export bei ausgeschalteter Quelle, passender Firmware, importierten Datenträgern, isoliertem Starttest und Rückfallplan zu Proxmox VE.</description><enclosure url="https://de.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>Gast- und IoT-Isolierung in einem Mesh-WLAN testen</title><link>https://de.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Heimnetzwerke"
+, "WLAN-Sicherheit"
+, "Smart Homes"</category><guid>https://de.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prüfen Sie, ob Gast- und IoT-Netze Ihres Mesh-WLANs den Zugriff auf Ihre Heimgeräte blockieren. Testen Sie jedes Netz mit einem funktionierenden Dienst und halten Sie die Grenzen fest.</description><enclosure url="https://de.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp" length="102600" type="image/webp"/></item><item><title>Proxmox-VM-Wiederherstellungstest: Nachweisen, dass das Gastsystem funktioniert</title><link>https://de.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualisierung"
+, "Sicherung und Wiederherstellung"
+, "Heimlabor"</category><guid>https://de.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prüfen Sie ein Proxmox-VM-Backup durch eine isolierte Wiederherstellung. Kontrollieren Sie Festplattenabdeckung, Backup-Modus, Gastdaten, Dienststatus und Wiederherstellungszeit, ohne die Produktion zu berühren.</description><enclosure url="https://de.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>Warum DNS-Filter umgangen werden: Den Resolverpfad prüfen</title><link>https://de.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Heimnetzwerke"
+, "DNS"
+, "Datenschutz"</category><guid>https://de.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Finde heraus, warum ein Gerät oder Browser deinen DNS-Filter umgeht. Vergleiche direkte und normale Abfragen, prüfe Protokolle sowie verschlüsseltes DNS, VPN, IPv6 und Routereinstellungen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>2x RTX 5060 Ti gegen GB10: Lokaler KI-Benchmark mit fünf Modellen und 256K Kontext</title><link>https://de.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Künstliche Intelligenz"
+, "Lokale KI"
+, "GPU-Hardware"
+, "Benchmarks"
+, "Computerhardware"</category><guid>https://de.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergleich von RTX 5060 Ti und GB10 mit fünf Modellen sowie ein Qwen3.8-Flash-Next-Benchmark mit Strata auf demselben Host und bis zu 256K Kontext.</description><enclosure url="https://de.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>AGENTS.md und CLAUDE.md für Programmieragenten schreiben</title><link>https://de.simeononsecurity.com/articles/effective-ai-agents-md-context/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Künstliche Intelligenz"
+, "Softwareentwicklung"</category><guid>https://de.simeononsecurity.com/articles/effective-ai-agents-md-context/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erstelle eine kurze Repository-Übersicht mit maßgeblicher Quelle und Testbefehl, damit Programmieragenten mit dem richtigen Kontext starten.</description><enclosure url="https://de.simeononsecurity.com/img/cover/effective-ai-agents-md-context.webp" length="124018" type="image/webp"/></item><item><title>Begrenzte KI-Agentenschleifen: Prüfungen, Wiederholungen und Stoppregeln</title><link>https://de.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Künstliche Intelligenz"
+, "Softwareentwicklung"
+, "Produktivität"</category><guid>https://de.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Definieren Sie eine KI-Zielschleife mit beobachtbarem Zustand, Prüfungen, Wiederholungsgrenzen, Stoppbedingungen und klarer Übergabe an einen Menschen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/effective-ai-bounded-agent-loops.webp" length="94174" type="image/webp"/></item><item><title>BitLocker-Wiederherstellungsschlüssel vor der Windows-Neuinstallation finden</title><link>https://de.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Windows-Sicherheit"
+, "Datenwiederherstellung"
+, "Systemverwaltung"</category><guid>https://de.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Finde und prüfe den passenden BitLocker-Wiederherstellungsschlüssel, sichere eine separate Kopie und wähle vor dem Löschen des Laufwerks den passenden Windows-Wiederherstellungs- oder Neuinstallationsweg.</description><enclosure url="https://de.simeononsecurity.com/img/cover/windows-bitlocker-recovery-before-reinstall.webp" length="102534" type="image/webp"/></item><item><title>ChatGPT- und Claude-Projekte: Wiederverwendbaren KI-Kontext einrichten</title><link>https://de.simeononsecurity.com/articles/effective-ai-chat-projects/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Künstliche Intelligenz"
+, "Produktivität"</category><guid>https://de.simeononsecurity.com/articles/effective-ai-chat-projects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Richte ChatGPT- und Claude-Projekte mit klaren Anweisungen, aktuellen Referenzdateien und einem einfachen Test für wiederverwendeten Kontext ein.</description><enclosure url="https://de.simeononsecurity.com/img/cover/effective-ai-chat-projects.webp" length="92048" type="image/webp"/></item><item><title>Datenschutz bei lokaler KI: Was auf Ihrem Computer bleibt und was nicht</title><link>https://de.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Datenschutz"
+, "selbstgehostete KI"
+, "Cybersicherheit"
+, "KI-Ökonomie"</category><guid>https://de.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verfolgen Sie Prompts, Modelldateien, Tools, Protokolle, Netzwerkzugriff und Stromkosten, bevor Sie lokale Inferenz oder einen gehosteten KI-Dienst wählen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item></channel></rss>

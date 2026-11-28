@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sicherheitsaudit on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Sicherheitsaudit on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/sicherheitsaudit/</link></image><link>https://de.simeononsecurity.com/tags/sicherheitsaudit/</link><description>Recent content in Sicherheitsaudit on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/sicherheitsaudit/index.xml" rel="self" type="application/rss+xml"/><item><title>Schwachstellen in Flock-Safety-Kameras: Über 50 Fehler entdeckt</title><link>https://de.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Sicherheitsforschung"
+, "Schwachstellenanalyse"
+, "Überwachungstechnologie"
+, "IT-Sicherheit"
+, "Datenschutz"
+, "IoT-Sicherheit"
+, "Physische Sicherheit"
+, "Netzwerksicherheit"
+, "Kritische Infrastruktur"
+, "Behördentechnologie"</category><guid>https://de.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Die Untersuchung der Schwachstellen in Flock-Safety-Kameras behandelt offengelegte Zugangsdaten, schwache Schutzmaßnahmen, physischen Zugriff und Grenzen der Offenlegung.</description><enclosure url="https://de.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>Active Directory absichern</title><link>https://de.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Netzwerkverwaltung"
+, "Informationstechnologie"
+, "Datenschutz"
+, "Unternehmenssicherheit"
+, "Digitale Infrastruktur"
+, "Zugriffskontrolle"
+, "Benutzerauthentifizierung"
+, "IT-Best Practices"
+, "Sicherheitsbewusstsein"</category><guid>https://de.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahre, wie du Active Directory absicherst, Daten schützt und Angriffe auf deine Netzwerkinfrastruktur verhinderst.</description><enclosure url="https://de.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item><item><title>Das Prinzip der minimalen Rechte meistern</title><link>https://de.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Linux-Sicherheit"
+, "Zugriffskontrolle"
+, "IT-Sicherheit"
+, "Netzwerksicherheit"
+, "Informationsschutz"
+, "Datenschutz"
+, "Cyberbedrohungen"
+, "Risikomanagement"
+, "Bewährte Sicherheitsverfahren"</category><guid>https://de.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verbessere die Cybersicherheit mit Zugriffskontrollen nach dem Prinzip der minimalen Rechte unter Linux. Lerne die Umsetzung, bewährte Verfahren und Fehlerbehebung kennen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Heimlabor on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Heimlabor on simeononsecurity</title><link>https://de.simeononsecurity.com/genre/heimlabor/</link></image><link>https://de.simeononsecurity.com/genre/heimlabor/</link><description>Recent content in Heimlabor on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/genre/heimlabor/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9: Virtuelle Festplatten verkleinern und Speicherplatz freigeben</title><link>https://de.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Virtualisierung"
+, "Linux-Systemverwaltung"
+, "Proxmox VE Plattform"
+, "Speicher"
+, "Heimlabor"</category><guid>https://de.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Reduzieren Sie den Speicherbedarf von VMs und LXC-Containern unter Proxmox VE 9. Vergleichen Sie Formate und Speicher-Backends, aktivieren Sie Discard, führen Sie Trim aus und prüfen Sie Snapshots.</description><enclosure url="https://de.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Eine Hyper-V-VM zu Proxmox VE migrieren: Reversible Checkliste</title><link>https://de.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualisierung"
+, "Systemadministration"
+, "Heimlabor"</category><guid>https://de.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Migrieren Sie eine Hyper-V-VM mit einem Export bei ausgeschalteter Quelle, passender Firmware, importierten Datenträgern, isoliertem Starttest und Rückfallplan zu Proxmox VE.</description><enclosure url="https://de.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>Proxmox-VM-Wiederherstellungstest: Nachweisen, dass das Gastsystem funktioniert</title><link>https://de.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualisierung"
+, "Sicherung und Wiederherstellung"
+, "Heimlabor"</category><guid>https://de.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prüfen Sie ein Proxmox-VM-Backup durch eine isolierte Wiederherstellung. Kontrollieren Sie Festplattenabdeckung, Backup-Modus, Gastdaten, Dienststatus und Wiederherstellungszeit, ohne die Produktion zu berühren.</description><enclosure url="https://de.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>USV für das Homelab dimensionieren und automatische Abschaltung testen</title><link>https://de.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Heimlabor"
+, "Stromversorgungsschutz"
+, "Systemadministration"</category><guid>https://de.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Messen Sie die Leistungsaufnahme im Homelab, vergleichen Sie die Watt- und VA-Grenzen einer USV, prüfen Sie die Laufzeit bei Ihrer Last und testen Sie eine saubere Abschaltung, bevor Sie sich auf die Batterie verlassen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>Lokale KI 2026: Ein 27B-Modell schlägt Sonnet 4.6, während sich das Hardwarefenster schließt</title><link>https://de.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Selbstgehostete KI"
+, "Modelle mit offenen Gewichten"
+, "KI-Hardware"
+, "Maschinelles Lernen"
+, "Quantisierung"
+, "Heimlabor"
+, "Datenschutz"
+, "KI-Ökonomie"
+, "Verbraucherhardware"</category><guid>https://de.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Plane ein lokales KI-System für 2026 anhand von Modellgröße, VRAM, Speicherbandbreite, Strombedarf, Kosten und Aufrüstoptionen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Pearl (PRL) 2026 minen: Einrichtung, Rentabilität und Nutzen der Blockchain</title><link>https://de.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Kryptowährungen"
+, "GPU-Kryptomining"
+, "KI-Rechenleistung"
+, "DePIN"
+, "Blockchains"
+, "Linux"
+, "Heimlabor"
+, "Geräte"</category><guid>https://de.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Richte PRL-Mining mit SRBMiner ein, prüfe Proof of Useful Work, schätze Margen und bewerte den praktischen Nutzen der Blockchain.</description><enclosure url="https://de.simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp" length="266670" type="image/webp"/></item><item><title>Docker in LXC auf Proxmox: Zuverlässigkeit, Belege und VM-Migration</title><link>https://de.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"Virtualisierung"
+, "Linux-Systemverwaltung"
+, "Heimlabor"</category><guid>https://de.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bewerte Docker in Proxmox LXC anhand eines dokumentierten AppArmor-Fehlers, einer sorgfältigen Analyse eines Host-Freezes, Diagnosebefehlen und eines Migrationsplans für eine VM.</description><enclosure url="https://de.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>Randverarbeitung im Feldeinsatz: Geräte und Gehäuse auswählen</title><link>https://de.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Randverarbeitung"
+, "IT im Feldeinsatz"
+, "Geräte"
+, "Heimlabor"
+, "Robuste Computertechnik"
+, "Netzwerke"
+, "Notfallwiederherstellung"
+, "IT für kleine Unternehmen"</category><guid>https://de.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leitfaden zu Edge-Computing-Hardware und Gehäusen für den Feldeinsatz mit Hinweisen zu Rechenleistung, Racks, Kühlung, Speicher, Verwaltung, Verkabelung und Stromversorgung.</description><enclosure url="https://de.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>Proxmox VE 8 auf 9 Upgrade-Anleitung: In-Place-Upgrade mit automatisiertem Skript</title><link>https://de.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Virtualisierung"
+, "Linux-Administration"
+, "Virtualisierung mit Proxmox"
+, "Serververwaltung"
+, "Quelloffene Software"
+, "Heimlabor"</category><guid>https://de.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vollständige Anleitung zum Upgrade von Proxmox VE 8 (Debian Bookworm) auf Proxmox VE 9 (Debian Trixie). Behandelt Voraussetzungen, schrittweises manuelles Upgrade, das Automatisierungsskript pve8to9-upgrade.sh, grundlegende Änderungen und bekannte Probleme.</description><enclosure url="https://de.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item><item><title>Was ist ein Homelab? Ein Einrichtungsleitfaden für IT-Profis</title><link>https://de.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"Heimlabor"
+, "IT-Fachleute"
+, "Studenten"
+, "Bastler"
+, "Vernetzung"
+, "Virtualisierung"
+, "Automatisierung"
+, "Hardware"
+, "Software"
+, "Bewährte Praktiken"</category><guid>https://de.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erschließen Sie das Potenzial Ihres Heimlabors mit diesem umfassenden Leitfaden, der sich an IT-Profis, Studenten und Hobbyisten richtet und die Einrichtung, Komponenten, fortgeschrittene Themen und bewährte Verfahren behandelt.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp" length="167376" type="image/webp"/></item></channel></rss>

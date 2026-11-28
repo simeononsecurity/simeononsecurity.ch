@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Patchverwaltung on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Patchverwaltung on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/patchverwaltung/</link></image><link>https://de.simeononsecurity.com/tags/patchverwaltung/</link><description>Recent content in Patchverwaltung on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/patchverwaltung/index.xml" rel="self" type="application/rss+xml"/><item><title>Anatomie eines Cyberangriffs: Wie Hacker Schutzmaßnahmen umgehen</title><link>https://de.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</link><pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate><category>
+"Cyberbedrohungen"
+, "Hacker-Taktiken"
+, "Digitale Sicherheit"
+, "Cyberangriffsstrategien"
+, "Techniken zur Datenexfiltration"
+, "Phishing-Angriffe"
+, "Malware-Infektionen"
+, "Rechteausweitung"
+, "Laterale Bewegung"
+, "Sicherheitsmaßnahmen"</category><guid>https://de.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verfolge einen Cyberangriff vom ersten Zugriff über Rechteausweitung, laterale Bewegung und Persistenz bis zur Datenexfiltration. Lerne die Schutzmaßnahmen für jede Phase kennen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses.webp" length="296326" type="image/webp"/></item><item><title>Kumulative Sicherheitsupdates in Windows installieren</title><link>https://de.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</link><pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate><category>
+"Windows"
+, "Sicherheitsupdates"
+, "Cybersicherheit"
+, "Systemsicherheit"
+, "Microsoft"
+, "kumulative Updates"
+, "Patchverwaltung"
+, "Datensicherung"
+, "Spectre Meltdown"
+, "Verschlüsselung"
+, "Systemschwachstellen"
+, "Systemupdates"
+, "Patchbereitstellung"
+, "Nicht-Produktionsumgebungen"
+, "Systemkonfiguration"
+, "IT-Sicherheit"
+, "Patchverwaltungssystem"
+, "Schwachstellenscans"
+, "Versionshinweise"
+, "Systemwartung"</category><guid>https://de.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahre, wie du kumulative Sicherheitsupdates in Windows installierst und dein System mit bewährten Verfahren vor Cyberangriffen schützt.</description><enclosure url="https://de.simeononsecurity.com/img/cover/best-practices-for-installing-security-patches-on-windows.webp" length="144532" type="image/webp"/></item></channel></rss>

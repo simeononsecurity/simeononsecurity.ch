@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mandantenisolation on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Mandantenisolation on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/mandantenisolation/</link></image><link>https://de.simeononsecurity.com/tags/mandantenisolation/</link><description>Recent content in Mandantenisolation on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/mandantenisolation/index.xml" rel="self" type="application/rss+xml"/><item><title>Container sind keine Sicherheitsgrenze mehr: Kernel-Ausbrüche im Jahr 2026</title><link>https://de.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"Containersicherheit"
+, "Linux"
+, "Kernel-Sicherheit"
+, "Virtualisierung"
+, "Cloud-Sicherheit"
+, "Bedrohungsforschung"
+, "Verteidigungsteam"
+, "DevSecOps"</category><guid>https://de.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ein Überblick über Container-Ausbruchsforschung aus 2026, die Grenzen der Kernel-Isolation, den Patchdruck und die Rolle von MicroVMs.</description><enclosure url="https://de.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Selbst Gehostete KI on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Selbst Gehostete KI on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/selbst-gehostete-ki/</link></image><link>https://de.simeononsecurity.com/tags/selbst-gehostete-ki/</link><description>Recent content in Selbst Gehostete KI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/selbst-gehostete-ki/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture: KI-Clients für Inferenz und MCP im Jahr 2026 konfigurieren</title><link>https://de.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Künstliche Intelligenz"
+, "Entwicklerwerkzeuge"
+, "Netzwerke"</category><guid>https://de.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leiten Sie Modellanfragen und MCP-Werkzeuge über Tailscale Aperture. Richten Sie Codex, Claude Code, Claude Desktop, OpenCode und Hermes auf einem anderen Gerät oder Gateway ein.</description><enclosure url="https://de.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>Open WebUI v0.12.4: Checkliste für Upgrade und Zugriffskontrolle 2026</title><link>https://de.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Selbst gehostete KI"
+, "Cybersicherheit"
+, "Systemadministration"</category><guid>https://de.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Sichern Sie Open WebUI und aktualisieren Sie auf v0.12.4. Testen Sie anschließend Chatfreigaben, Exportberechtigungen, Ressourcenfreigaben, Konten und Netzwerkzugriff.</description></item><item><title>Einblick in unsere hybride KI-Agentenflotte: Hermes, LiteLLM und Tailscale</title><link>https://de.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Selbst gehostete KI"
+, "KI-Agenten"
+, "KI-Infrastruktur"
+, "GPU-gestütztes Mining"</category><guid>https://de.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entdecke eine verifizierte lokale KI-Flotte mit bedarfsgerechter GPU-Nutzung und einer gestuften T0-bis-T4-Steuerung mit Hermes, LiteLLM, Tailscale Aperture und Pearl-Mining.</description><enclosure url="https://de.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>Lokales KI-Coding auf einer 16-GB-GPU: Strata, OpenCode und Qwen3.8</title><link>https://de.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Entwicklerwerkzeuge"
+, "Selbst gehostete KI"
+, "KI-Hardware"</category><guid>https://de.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Betreibe einen lokalen Coding-Agenten mit Strata und OpenCode. Prüfe gemeldete RTX-4060-Ti-Ergebnisse, RAM-Anforderungen, Prompt-Wiederverwendung, Reasoning-Budgets und die Grenzen eines Ersatzes für ein kostenpflichtiges Abonnement.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>OpenCode vs Claude Code: Vergleich von Coding-Agenten 2026</title><link>https://de.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Entwicklerwerkzeuge"
+, "Künstliche Intelligenz"
+, "Open Source"</category><guid>https://de.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergleich von OpenCode und Claude Code bei Modellauswahl, lokaler Inferenz, Preisen, Berechtigungen, Projektanweisungen und täglichen Coding-Workflows.</description><enclosure url="https://de.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>Llama 3.1 8B und Qwen3.8 27B: GPU-Benchmarks auf Vast.ai</title><link>https://de.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "GPU-Leistungstests"
+, "Selbst gehostete KI"
+, "Cloud-Infrastruktur"
+, "Künstliche Intelligenz"
+, "KI-Wirtschaft"</category><guid>https://de.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergleiche gemessene Ollama-Ergebnisse für Llama 3.1 8B und Qwen3.8 27B auf Vast.ai-GPUs, ihre Kosten und Hosting-Optionen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Einen datenschutzfreundlichen KI-Assistenten für Meshtastic bauen</title><link>https://de.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Netzwerksicherheit"
+, "Datenschutz"
+, "Open-Source-Software"
+, "Automatisierung"</category><guid>https://de.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Praxisbericht über einen lokalen KI-Assistenten für Meshtastic mit privater Konfiguration, eingereihtem TCP-Zugriff, Abrufwerkzeugen und einem sichereren Dashboard.</description><enclosure url="https://de.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item></channel></rss>

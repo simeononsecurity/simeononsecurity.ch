@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lokale KI on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Lokale KI on simeononsecurity</title><link>https://de.simeononsecurity.com/genre/lokale-ki/</link></image><link>https://de.simeononsecurity.com/genre/lokale-ki/</link><description>Recent content in Lokale KI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/genre/lokale-ki/index.xml" rel="self" type="application/rss+xml"/><item><title>So wählen Sie ein ungefiltertes lokales KI-Modell aus</title><link>https://de.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Selbst gehostete KI"
+, "KI-Sicherheit"
+, "GPU-Komponenten"</category><guid>https://de.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergleichen Sie lokale Modellvarianten nach vollständigen Antworten, erhaltenen Fähigkeiten, Kontextnutzung, Quantisierung und passendem VRAM-Bedarf.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Self-hosted Hindsight: Lokales Agentengedächtnis und privates Modell-Routing</title><link>https://de.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Selbst gehostete KI"
+, "KI-Agenten"
+, "KI-Infrastruktur"
+, "Datenschutz"</category><guid>https://de.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Fallstudie zu selbst gehostetem Hindsight, beobachteten lokalen Qwen-Routen und GPU-Arbeit pro Anfrage ohne gehostetes Modell-Abo auf den geprüften Routen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Ein Homelab in 10 Stufen aufbauen, von Pi-hole bis lokaler KI</title><link>https://de.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Self-Hosting"
+, "Lokale KI"
+, "Heimnetzwerke"</category><guid>https://de.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Baue ein Homelab in zehn praktischen Stufen auf, von netzwerkweiter DNS-Filterung bis lokaler KI, mit Hardware, Kosten, Fähigkeiten und Kompromissen pro Stufe.</description><enclosure url="https://de.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Hermes-Modelltests lokal: Welche GPU- und Modellkombinationen ich wählen würde</title><link>https://de.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"Künstliche Intelligenz"
+, "Lokale KI"
+, "Computerhardware"</category><guid>https://de.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Meine Empfehlungen für Hermes beruhen auf Tests mit langem Kontext, Werkzeugen, Streaming und Vision auf RTX-5060-Ti-, RTX-2000E-Ada-, RTX-3060-Ti- und RTX-3070-Systemen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>Einblick in unsere hybride KI-Agentenflotte: Hermes, LiteLLM und Tailscale</title><link>https://de.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Selbst gehostete KI"
+, "KI-Agenten"
+, "KI-Infrastruktur"
+, "GPU-gestütztes Mining"</category><guid>https://de.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entdecke eine verifizierte lokale KI-Flotte mit bedarfsgerechter GPU-Nutzung und einer gestuften T0-bis-T4-Steuerung mit Hermes, LiteLLM, Tailscale Aperture und Pearl-Mining.</description><enclosure url="https://de.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>2x RTX 5060 Ti gegen GB10: Lokaler KI-Benchmark mit fünf Modellen und 256K Kontext</title><link>https://de.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Künstliche Intelligenz"
+, "Lokale KI"
+, "GPU-Hardware"
+, "Benchmarks"
+, "Computerhardware"</category><guid>https://de.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergleich von RTX 5060 Ti und GB10 mit fünf Modellen sowie ein Qwen3.8-Flash-Next-Benchmark mit Strata auf demselben Host und bis zu 256K Kontext.</description><enclosure url="https://de.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Datenschutz bei lokaler KI: Was auf Ihrem Computer bleibt und was nicht</title><link>https://de.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Datenschutz"
+, "selbstgehostete KI"
+, "Cybersicherheit"
+, "KI-Ökonomie"</category><guid>https://de.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verfolgen Sie Prompts, Modelldateien, Tools, Protokolle, Netzwerkzugriff und Stromkosten, bevor Sie lokale Inferenz oder einen gehosteten KI-Dienst wählen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Reichen 16GB VRAM für ernsthafte lokale LLM-Arbeit?</title><link>https://de.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Computerhardware"
+, "Selbstgehostete KI"</category><guid>https://de.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Plane ein lokales LLM-System mit 16GB anhand von Modellgewichten, KV-Cache und Prompt-Verarbeitung. Vergleiche die Speicherbudgets, GPU-Bandbreite und Betriebskosten von Qwen3.8 27B.</description><enclosure url="https://de.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>Lokale KI im Vergleich zu ChatGPT: Wie nah sind wir wirklich?</title><link>https://de.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Künstliche Intelligenz"
+, "KI-Hardware"
+, "Entwicklerwerkzeuge"</category><guid>https://de.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergleiche lokale KI mit ChatGPT und Claude anhand von Benchmarkwerten, Speicherschätzungen, Bereitstellungsgeschwindigkeit und Agentenprüfung. Mit Szenarien für RTX 5090, DGX Spark und Mac Studio.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Lokales KI-Coding auf einer 16-GB-GPU: Strata, OpenCode und Qwen3.8</title><link>https://de.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Entwicklerwerkzeuge"
+, "Selbst gehostete KI"
+, "KI-Hardware"</category><guid>https://de.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Betreibe einen lokalen Coding-Agenten mit Strata und OpenCode. Prüfe gemeldete RTX-4060-Ti-Ergebnisse, RAM-Anforderungen, Prompt-Wiederverwendung, Reasoning-Budgets und die Grenzen eines Ersatzes für ein kostenpflichtiges Abonnement.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>Metas Context Language Models: Besseres Agentengedächtnis, kein Ende der Halluzinationen</title><link>https://de.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Künstliche Intelligenz"
+, "KI-Agenten"
+, "Lokale KI"
+, "KI-Sicherheit"</category><guid>https://de.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Wie Context Language Models das Agentengedächtnis bearbeiten, was die Benchmarks belegen und wie Cachekosten, Modellfähigkeit und nicht vertrauenswürdige Notizen die Zuverlässigkeit beeinflussen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp"/></item><item><title>Welches lokale KI-Modell solltest du ausführen? Ein GPU-, Kontext- und Coding-Leitfaden für Oktober 2026</title><link>https://de.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "KI-Hardware"
+, "Selbst gehostete KI"
+, "GPU-Benchmarking"
+, "Entwicklerwerkzeuge"
+, "KI-Ökonomie"</category><guid>https://de.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ein praktischer Leitfaden für Oktober 2026 zur Auswahl lokaler KI-Modelle für Coding-Agenten. Vergleiche GPU-Speicher, KV-Cache-Wachstum, Kontextgröße, Quantisierungsqualität, Prompt-Verarbeitung, Reasoning-Einstellungen und Cloud-Mietkosten.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>32 GB VRAM für Qwen 27B: Der lokale KI-Hardware-Leitfaden für Oktober 2026</title><link>https://de.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "KI-Hardware"
+, "GPU-Benchmarking"
+, "Self-Hosted-KI"
+, "Computerhardware"
+, "KI-Ökonomie"</category><guid>https://de.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ein praktischer Leitfaden für Oktober 2026 zum Betrieb eines Qwen-27B-Modells mit 32 GB nutzbarem Beschleunigerspeicher. Vergleiche einzelne GPUs, Systeme mit zwei Karten, Unified Memory, gebrauchte Rechenzentrumskarten, gemietete Rechenleistung, Softwareunterstützung und Grenzen bei vollem Kontext.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Der 64-GB-DGX-Spark ist ein Warnsignal für die Preise lokaler KI-Hardware</title><link>https://de.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "KI-Hardware"
+, "Halbleiter"
+, "Computer-Hardware"
+, "KI-Ökonomie"
+, "Selbst gehostete KI"</category><guid>https://de.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Die 64-GB-Stufe des NVIDIA DGX Spark zeigt, wie der Speichermangel lokale KI-Hardware prägt. Dieser Leitfaden erklärt die Kapazitätskürzung, die Nachteile des Unified Memory und warum eine Entlastung bei DRAM vor Ende 2027 unwahrscheinlich ist.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Llama 3.1 8B und Qwen3.8 27B: GPU-Benchmarks auf Vast.ai</title><link>https://de.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "GPU-Leistungstests"
+, "Selbst gehostete KI"
+, "Cloud-Infrastruktur"
+, "Künstliche Intelligenz"
+, "KI-Wirtschaft"</category><guid>https://de.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergleiche gemessene Ollama-Ergebnisse für Llama 3.1 8B und Qwen3.8 27B auf Vast.ai-GPUs, ihre Kosten und Hosting-Optionen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Claude Cowork und Claude Code mit lokalen Modellen: Einrichtungsleitfaden 2026</title><link>https://de.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "KI-Programmierwerkzeuge"
+, "Selbst gehostete KI"
+, "Entwicklerwerkzeuge"
+, "Datenschutz"
+, "Open-Source-Modelle"
+, "Automatisierung"
+, "KI-Hardware"</category><guid>https://de.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Richte Ollama mit Claude Desktop und Claude Code über eine Anthropic-kompatible API ein. Erfahre mehr über Modellauswahl und Cloud-Funktionen im Jahr 2026.</description><enclosure url="https://de.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>Lokale KI 2026: Ein 27B-Modell schlägt Sonnet 4.6, während sich das Hardwarefenster schließt</title><link>https://de.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Selbstgehostete KI"
+, "Modelle mit offenen Gewichten"
+, "KI-Hardware"
+, "Maschinelles Lernen"
+, "Quantisierung"
+, "Heimlabor"
+, "Datenschutz"
+, "KI-Ökonomie"
+, "Verbraucherhardware"</category><guid>https://de.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Plane ein lokales KI-System für 2026 anhand von Modellgröße, VRAM, Speicherbandbreite, Strombedarf, Kosten und Aufrüstoptionen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

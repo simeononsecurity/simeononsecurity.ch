@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyberresilienz on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Cyberresilienz on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/cyberresilienz/</link></image><link>https://de.simeononsecurity.com/tags/cyberresilienz/</link><description>Recent content in Cyberresilienz on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/cyberresilienz/index.xml" rel="self" type="application/rss+xml"/><item><title>Cyberresilienz stärken</title><link>https://de.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</link><pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate><category>
+"Penetrationstests"
+, "Ethisches Hacken"
+, "Cybersicherheitsstrategien"
+, "Sicherheitsmaßnahmen"
+, "Schwachstellenbewertung"
+, "Reaktion auf Sicherheitsvorfälle"
+, "Einhaltung gesetzlicher Vorgaben"
+, "Sicherheitskontrollen"
+, "Cyberresilienz"
+, "Zukunft der Cybersicherheit"</category><guid>https://de.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahre, wie regelmäßige Penetrationstests ausnutzbare Schwachstellen aufdecken, risikobasierte Behebungen unterstützen und Schutzmaßnahmen für Systeme und Anwendungen prüfen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/the-importance-of-regular-penetration-testing-for-cybersecurity.webp" length="85258" type="image/webp"/></item><item><title>Sicherheitsautomatisierung meistern: Strategien und Tools</title><link>https://de.simeononsecurity.com/articles/deep-dive-into-security-automation_-strategies-and-implementation/</link><pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate><category>
+"Sicherheitsautomatisierung"
+, "Cybersicherheitsstrategien"
+, "Automatisierungsframeworks"
+, "Maschinelles Lernen in der Sicherheit"
+, "Reaktion auf Vorfälle"
+, "Kontinuierliche Verbesserung"
+, "Open-Source- und kommerzielle Tools"
+, "Cyberresilienz"
+, "Digitale Bedrohungen"
+, "Sicherheitskennzahlen"</category><guid>https://de.simeononsecurity.com/articles/deep-dive-into-security-automation_-strategies-and-implementation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leitfaden zu Strategien, Tools, Kennzahlen, Umsetzungsgrenzen und KI-gestützten Abläufen für die Sicherheitsautomatisierung.</description><enclosure url="https://de.simeononsecurity.com/img/cover/deep-dive-into-security-automation_-strategies-and-implementation.webp" length="257448" type="image/webp"/></item><item><title>Zum Totlachen: lustige Witze über Cybersicherheit</title><link>https://de.simeononsecurity.com/articles/cybersecurity-jokes-humor-insights/</link><pubDate>Fri, 22 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheitshumor"
+, "Informationssicherheitskomödie"
+, "Technikwitze"
+, "Online-Sicherheit"
+, "Digitale Abwehr"</category><guid>https://de.simeononsecurity.com/articles/cybersecurity-jokes-humor-insights/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entdecke leichte Unterhaltung und nützliche Einblicke in die Welt der Cybersicherheitswitze. Witze über Cybersicherheit, ganz einfach!</description><enclosure url="https://de.simeononsecurity.com/img/cover/cybersecurity-jokes-cartoon-hacker.webp" length="72728" type="image/webp"/></item><item><title>Windows und Linux absichern</title><link>https://de.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Skriptsprachen"
+, "Systemsicherheit"
+, "Windows"
+, "Linux"
+, "Staatliche Vorschriften"
+, "Cyberbedrohungen"
+, "Sicheres Skripting"
+, "Regelkonformität"
+, "Programmierung"</category><guid>https://de.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahre, wie PowerShell und Python die Systemsicherheit verbessern, in dieser umfassenden Analyse zur Cybersicherheit.</description><enclosure url="https://de.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp"/></item><item><title>FISMA: Stärkung der Cybersicherheit des Bundes für sichere Daten</title><link>https://de.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</link><pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Behördliche Vorschriften"
+, "Informationssicherheit"
+, "Datenschutz"
+, "Bundesbehörden"
+, "Risikomanagement"
+, "Sicherheitsstandards"
+, "Kontinuierliche Überwachung"
+, "Cyberbedrohungen"
+, "Digitale Verwaltung"</category><guid>https://de.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie FISMA die Cybersicherheit des Bundes stärkt. Lernen Sie zentrale Merkmale, Abläufe und Auswirkungen auf den Datenschutz kennen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/secure-shield-fisma.webp" length="118222" type="image/webp"/></item><item><title>Schützen Sie Ihr Unternehmen: Vorteile von Incident-Management-Software</title><link>https://de.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Vorfallmanagement"
+, "Datenschutz"
+, "Digitale Sicherheit"
+, "Bedrohungsabwehr"
+, "Technologielösungen"
+, "Cyberabwehr"
+, "Informationssicherheit"
+, "Geschäftskontinuität"
+, "Risikomanagement"</category><guid>https://de.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie Software für Sicherheitsvorfallmanagement Reaktion, Nachverfolgung und Compliance verbessert und digitale Werte schützt.</description><enclosure url="https://de.simeononsecurity.com/img/cover/benefits-of-security-incident-management-software.webp" length="227836" type="image/webp"/></item><item><title>Ein widerstandsfähiges SOC aufbauen</title><link>https://de.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Technologie"
+, "Unternehmen"
+, "Datenschutz"
+, "Reaktion auf Sicherheitsvorfälle"
+, "IT-Management"
+, "Netzwerksicherheit"
+, "Bedrohungserkennung"
+, "Informationssicherheit"
+, "Risikomanagement"</category><guid>https://de.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Richte ein leistungsfähiges Security Operations Center (SOC) ein, um Cyberbedrohungen abzuwehren, Vorfälle zu erkennen und die Werte deiner Organisation zu schützen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>Ihre Abwehr stärken: EDR-Cybersicherheitslösungen verstehen</title><link>https://de.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Technologie"
+, "Bedrohungserkennung"
+, "Endgerätesicherheit"
+, "Incident Response"
+, "Datenschutz"
+, "Netzwerksicherheit"
+, "Digitale Verteidigung"
+, "IT-Sicherheit"
+, "Cyberresilienz"</category><guid>https://de.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie EDR-Lösungen Endgeräte schützen, Bedrohungen erkennen und Unternehmen bei der Auswahl einer passenden Lösung unterstützen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp"/></item><item><title>Eingestufte Daten schützen</title><link>https://de.simeononsecurity.com/articles/benefits-of-protecting-classified-data/</link><pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate><category>
+"Datenschutz"
+, "Cybersicherheit"
+, "Unternehmensethik"
+, "Informationssicherheit"
+, "Datenschutzrechte"
+, "Risikomanagement"
+, "Digitales Vertrauen"
+, "Datenverwaltung"
+, "Wirtschaftliche Auswirkungen"
+, "Persönliche Privatsphäre"</category><guid>https://de.simeononsecurity.com/articles/benefits-of-protecting-classified-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, warum der Schutz eingestufter Daten aus Sicherheits-, Wirtschafts- und Ethikgründen wichtig ist und welche Risiken schwache Kontrollen verursachen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/benefits-of-protecting-classified-data.webp" length="279460" type="image/webp"/></item><item><title>Schutz vor Ransomware</title><link>https://de.simeononsecurity.com/articles/ransomware-protection-strategies/</link><pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Technologie"
+, "Digitale Bedrohungen"
+, "Datensicherheit"
+, "Online-Sicherheit"
+, "Cyberkriminalität"
+, "IT-Sicherheit"
+, "Schadsoftware"
+, "Internetsicherheit"
+, "Datenschutz"</category><guid>https://de.simeononsecurity.com/articles/ransomware-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie Ransomware funktioniert und welche Folgen sie hat. Mit vorbeugenden Maßnahmen stärken Sie Ihre Cybersicherheit.</description><enclosure url="https://de.simeononsecurity.com/img/cover/ransomware-protection-shield.webp" length="62160" type="image/webp"/></item><item><title>Cybersecurity meistern: Dein Leitfaden für eine sicherere digitale Welt</title><link>https://de.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Cybersecurity"
+, "Digitale Sicherheit"
+, "Online-Sicherheit"
+, "Informationsschutz"
+, "Datenschutz"
+, "Digitale Bedrohungen"
+, "Tipps zur Online-Sicherheit"
+, "Cyberabwehr"
+, "Sicheres Computing"</category><guid>https://de.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lerne wichtige Cybersecurity-Praktiken zum Schutz deines digitalen Lebens und deiner Werte kennen. Erfahre mehr über Bedrohungen und bleibe online sicher.</description><enclosure url="https://de.simeononsecurity.com/img/cover/Cybersecurity-Shield-Protection.webp" length="114598" type="image/webp"/></item><item><title>Cybersecurityvorfälle meistern</title><link>https://de.simeononsecurity.com/articles/cybersecurity-incident-response-plan/</link><pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Reaktion auf Sicherheitsvorfälle"
+, "Datenschutzverletzung"
+, "Malware-Angriffe"
+, "Erpressungssoftware"
+, "Finanzielle Verluste"
+, "Reputationsmanagement"
+, "Rechtliche Konformität"
+, "Geschäftskontinuität"
+, "Risikominderung"</category><guid>https://de.simeononsecurity.com/articles/cybersecurity-incident-response-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie Sie einen belastbaren Reaktionsplan für Cybersecurityvorfälle entwickeln, um deren Auswirkungen zu begrenzen und Ihr Unternehmen vor Cyberbedrohungen zu schützen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/cybersecurity_superheroes_shield.webp" length="111036" type="image/webp"/></item></channel></rss>

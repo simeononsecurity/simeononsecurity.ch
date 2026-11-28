@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rollenbasierte Zugriffskontrolle on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Rollenbasierte Zugriffskontrolle on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/rollenbasierte-zugriffskontrolle/</link></image><link>https://de.simeononsecurity.com/tags/rollenbasierte-zugriffskontrolle/</link><description>Recent content in Rollenbasierte Zugriffskontrolle on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/rollenbasierte-zugriffskontrolle/index.xml" rel="self" type="application/rss+xml"/><item><title>Das Prinzip der minimalen Rechte meistern</title><link>https://de.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Linux-Sicherheit"
+, "Zugriffskontrolle"
+, "IT-Sicherheit"
+, "Netzwerksicherheit"
+, "Informationsschutz"
+, "Datenschutz"
+, "Cyberbedrohungen"
+, "Risikomanagement"
+, "Bewährte Sicherheitsverfahren"</category><guid>https://de.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verbessere die Cybersicherheit mit Zugriffskontrollen nach dem Prinzip der minimalen Rechte unter Linux. Lerne die Umsetzung, bewährte Verfahren und Fehlerbehebung kennen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>Sicher programmieren mit Python</title><link>https://de.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"Programmierung"
+, "Anwendungssicherheit"
+, "Python-Entwicklung"
+, "Sicheres Programmieren"
+, "Webentwicklung"
+, "Datenanalyse"
+, "Künstliche Intelligenz"
+, "Softwareentwicklung"
+, "Cybersicherheit"
+, "Programmiersprachen"</category><guid>https://de.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Praktiken für sicheres Programmieren mit Python, um SQL-Injection, Cross-Site-Scripting und andere Anwendungsschwachstellen zu verringern.</description><enclosure url="https://de.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp"/></item><item><title>Effektive Zugangskontrolle: Best Practices für die IT-Sicherheit</title><link>https://de.simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/</link><pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate><category>
+"Zugangskontrolle"
+, "IT-Sicherheit"
+, "Cybersicherheit"
+, "Passwörter"
+, "Biometrische Authentifizierung"
+, "Rollenbasierte Zugriffskontrolle"
+, "Multi-Faktor-Authentifizierung"
+, "Datenschutz"
+, "Risikobewertung"
+, "Ausbildung der Mitarbeiter"
+, "Werkzeuge für Sicherheitsprüfungen"
+, "Werkzeuge für die Berichterstattung"
+, "Penetrationstests"
+, "Bewertung der Anfälligkeit"
+, "Physische Zugangskontrolle"
+, "Logische Zugangskontrolle"
+, "Vorschriften zur Einhaltung"
+, "HIPAA"
+, "GDPR"</category><guid>https://de.simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie Sie sensible Daten und Systeme schützen können, indem Sie wirksame Maßnahmen zur Zugriffskontrolle in Ihrer IT-Umgebung implementieren.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_locked_door_with_a_fingerprint_scanner.webp" length="148694" type="image/webp"/></item></channel></rss>
