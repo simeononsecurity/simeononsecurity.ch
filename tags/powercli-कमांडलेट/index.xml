@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PowerCLI कमांडलेट on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>PowerCLI कमांडलेट on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/powercli-%E0%A4%95%E0%A4%AE%E0%A4%BE%E0%A4%82%E0%A4%A1%E0%A4%B2%E0%A5%87%E0%A4%9F/</link></image><link>https://hi.simeononsecurity.com/tags/powercli-%E0%A4%95%E0%A4%AE%E0%A4%BE%E0%A4%82%E0%A4%A1%E0%A4%B2%E0%A5%87%E0%A4%9F/</link><description>Recent content in PowerCLI कमांडलेट on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/powercli-%E0%A4%95%E0%A4%AE%E0%A4%BE%E0%A4%82%E0%A4%A1%E0%A4%B2%E0%A5%87%E0%A4%9F/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerCLI से vCenter अनुमतियों का ऑडिट कैसे करें</title><link>https://hi.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link><pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate><category>
+"vCenter अनुमति ऑडिट"
+, "PowerCLI स्वचालन"
+, "VMware सुरक्षा"
+, "वर्चुअल इन्फ्रास्ट्रक्चर प्रबंधन"
+, "अनुमति असाइनमेंट"
+, "उपयोगकर्ता पहुंच नियंत्रण"
+, "सुरक्षा कमजोरियां"
+, "PowerShell स्वचालन"
+, "vSphere वातावरण प्रबंधन"
+, "उपयोगकर्ता अनुमतियों की समीक्षा"</category><guid>https://hi.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+वर्चुअल इन्फ्रास्ट्रक्चर की सुरक्षा के लिए PowerCLI से vCenter अनुमतियों का ऑडिट करना सीखें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/audit-permissions-vcenter-powercli.webp" length="171996" type="image/webp"/></item></channel></rss>

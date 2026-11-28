@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>सिस्टम प्रशासन on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>सिस्टम प्रशासन on simeononsecurity</title><link>https://hi.simeononsecurity.com/genre/%E0%A4%B8%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A4%A8/</link></image><link>https://hi.simeononsecurity.com/genre/%E0%A4%B8%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A4%A8/</link><description>Recent content in सिस्टम प्रशासन on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/genre/%E0%A4%B8%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A4%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>Open WebUI v0.12.4: अपग्रेड और पहुँच नियंत्रण जाँच-सूची 2026</title><link>https://hi.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"स्व-होस्टेड AI"
+, "साइबर सुरक्षा"
+, "सिस्टम प्रशासन"</category><guid>https://hi.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Open WebUI का बैकअप लें और उसे v0.12.4 पर अपग्रेड करें। फिर चैट साझा करना, निर्यात अनुमतियाँ, संसाधन पहुँच, खाते और नेटवर्क पहुँच जाँचें।</description></item><item><title>1Password SSH Agent और CLI: AI एजेंटों के लिए केवल-पठन पहुँच</title><link>https://hi.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"सिस्टम प्रशासन"
+, "क्लाउड सुरक्षा"
+, "स्वचालन"</category><guid>https://hi.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+1Password CLI, SSH Agent और MCP के साथ read-only SSH वर्कफ़्लो डिज़ाइन करें। लाइव टेस्टिंग से पहले सिंथेटिक कमांड्स, संकीर्ण अनुमतियाँ और मानवीय अनुमोदन का उपयोग करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Bitbucket Cloud SSH कुंजियाँ: AI एजेंटों के लिए केवल-पठन Git पहुँच</title><link>https://hi.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"क्लाउड सुरक्षा"
+, "डेवलपर उपकरण"
+, "सिस्टम प्रशासन"</category><guid>https://hi.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+केवल-पठन AI एजेंट कार्यप्रवाह के लिए Bitbucket Cloud SSH कुंजियाँ, Git CLI पहुँच, REST API टोकन, 1Password और MCP उपकरण सेट करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>Hyper-V VM को Proxmox VE पर माइग्रेट करें: वापस लौटने योग्य चेकलिस्ट</title><link>https://hi.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"वर्चुअलाइजेशन"
+, "सिस्टम प्रशासन"
+, "होम लैब"</category><guid>https://hi.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+बंद स्रोत VM का निर्यात, फर्मवेयर मिलान, डिस्क आयात, अलग नेटवर्क पर बूट परीक्षण और वापसी योजना के साथ Hyper-V VM को Proxmox VE पर ले जाएँ।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>PowerShell से केवल-पठन Active Directory सूची तैयार करें</title><link>https://hi.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Active Directory"
+, "PowerShell"
+, "सिस्टम प्रशासन"</category><guid>https://hi.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+सीमित PowerShell क्वेरी से Active Directory की संगठनात्मक इकाइयों, उपयोगकर्ताओं और कंप्यूटरों की सूची बनाएँ। निर्देशिका ऑब्जेक्ट बदले बिना जाँच योग्य CSV फ़ाइलें निर्यात करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/active-directory-powershell-read-only-inventory.webp" length="101842" type="image/webp"/></item><item><title>Windows फिर से इंस्टॉल करने से पहले BitLocker रिकवरी कुंजी ढूँढ़ें</title><link>https://hi.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Windows सुरक्षा"
+, "डेटा रिकवरी"
+, "सिस्टम प्रशासन"</category><guid>https://hi.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+सही BitLocker रिकवरी कुंजी ढूँढ़ें और जाँचें, उसकी अलग कॉपी सुरक्षित रखें, और ड्राइव मिटाने से पहले Windows रिकवरी या रीइंस्टॉल का सही तरीका चुनें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/windows-bitlocker-recovery-before-reinstall.webp" length="102534" type="image/webp"/></item><item><title>होमलैब के लिए UPS का आकार तय करें और स्वचालित शटडाउन जाँचें</title><link>https://hi.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"होमलैब"
+, "बिजली सुरक्षा"
+, "सिस्टम प्रशासन"</category><guid>https://hi.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+होमलैब की बिजली खपत मापें, UPS की वाट और VA सीमाओं की तुलना करें, अपने लोड पर बैकअप अवधि जाँचें और बैटरी पर निर्भर होने से पहले सुरक्षित शटडाउन का परीक्षण करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>Ansible बनाम Puppet बनाम Chef 2026: कॉन्फ़िगरेशन प्रबंधन</title><link>https://hi.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "इन्फ्रास्ट्रक्चर ऑटोमेशन"
+, "कॉन्फ़िगरेशन प्रबंधन"
+, "IT संचालन"
+, "क्लाउड कंप्यूटिंग"
+, "सिस्टम प्रशासन"
+, "एंटरप्राइज़ IT"
+, "सॉफ़्टवेयर विकास"
+, "IT इन्फ्रास्ट्रक्चर"
+, "ऑटोमेशन टूल"</category><guid>https://hi.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+आर्किटेक्चर, सुविधाओं, सीखने की अवधि, प्रदर्शन, मूल्य और उपयोग के मामलों के आधार पर 2026 में Ansible, Puppet और Chef की तुलना।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>NAT और PAT: नेटवर्क संचार की आवश्यक मार्गदर्शिका</title><link>https://hi.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"नेटवर्क की मूल बातें"
+, "साइबर सुरक्षा"
+, "आईटी अवसंरचना"
+, "तकनीकी मार्गदर्शिकाएँ"
+, "नेटवर्क प्रबंधन"
+, "इंटरनेट प्रोटोकॉल"
+, "संचार प्रौद्योगिकियाँ"
+, "सिस्टम प्रशासन"
+, "नेटवर्क इंजीनियरिंग"
+, "डिजिटल नेटवर्क"</category><guid>https://hi.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+डिजिटल संचार को सहज बनाने के लिए NAT और PAT को समझें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item><item><title>कॉपी फ़ंक्शन में महारत: ऑपरेटिंग सिस्टम में फ़ाइलों का कुशल प्रबंधन</title><link>https://hi.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</link><pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "फ़ाइल प्रबंधन"
+, "ऑपरेटिंग सिस्टम"
+, "डेटा स्थानांतरण"
+, "डेटा संगठन"
+, "कंप्यूटर कौशल"
+, "आईटी सुझाव"
+, "ऑपरेटिंग सिस्टम दक्षता"
+, "सिस्टम प्रशासन"
+, "सॉफ़्टवेयर उपयोगिताएँ"</category><guid>https://hi.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ऑपरेटिंग सिस्टम के उन्नत कॉपी फ़ंक्शन समझें और फ़ाइलों को तेज़ी और कुशलता से प्रबंधित करना सीखें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems.webp" length="92028" type="image/webp"/></item><item><title>साइबर सुरक्षा और सिस्टम हार्डनिंग में Windows Task Scheduler बनाम Linux Cron</title><link>https://hi.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"साइबर सुरक्षा"
+, "ऑपरेटिंग सिस्टम"
+, "सिस्टम स्वचालन"
+, "सुरक्षा उपकरण"
+, "कंप्यूटर तकनीक"
+, "कार्य निर्धारण"
+, "नेटवर्क सुरक्षा"
+, "सिस्टम प्रशासन"
+, "साइबर रक्षा"
+, "आईटी प्रबंधन"</category><guid>https://hi.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+साइबर सुरक्षा और सिस्टम हार्डनिंग के दृष्टिकोण से Windows Task Scheduler और Linux Cron जॉब्स की तुलना करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>vSphere प्रबंधन के लिए PowerCLI में दक्षता</title><link>https://hi.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "वर्चुअलाइज़ेशन"
+, "VMware"
+, "आईटी प्रबंधन"
+, "स्वचालन"
+, "कमांड लाइन इंटरफ़ेस"
+, "स्क्रिप्टिंग"
+, "सिस्टम प्रशासन"
+, "क्लाउड कंप्यूटिंग"
+, "डेटा सेंटर प्रबंधन"</category><guid>https://hi.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerCLI से VMware vSphere प्रबंधित करने, कार्यों को स्वचालित करने और उत्पादकता बढ़ाने का तरीका जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>WMI फ़िल्टरिंग को समझना</title><link>https://hi.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows प्रबंधन"
+, "Group Policy"
+, "सिस्टम प्रशासन"
+, "नेटवर्क प्रबंधन"
+, "IT अवसंरचना"
+, "नीति प्रबंधन"
+, "IT शासन"
+, "IT स्वचालन"
+, "Active Directory"
+, "सुरक्षा अनुपालन"</category><guid>https://hi.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+जानें कि WMI फ़िल्टरिंग से Group Policy Object (GPO) को सही कंप्यूटरों पर कैसे लागू करें। इसमें व्यावहारिक उदाहरण और बेहतर तरीके शामिल हैं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item></channel></rss>

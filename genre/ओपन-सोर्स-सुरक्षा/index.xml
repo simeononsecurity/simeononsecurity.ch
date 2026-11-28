@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ओपन-सोर्स सुरक्षा on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>ओपन-सोर्स सुरक्षा on simeononsecurity</title><link>https://hi.simeononsecurity.com/genre/%E0%A4%93%E0%A4%AA%E0%A4%A8-%E0%A4%B8%E0%A5%8B%E0%A4%B0%E0%A5%8D%E0%A4%B8-%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE/</link></image><link>https://hi.simeononsecurity.com/genre/%E0%A4%93%E0%A4%AA%E0%A4%A8-%E0%A4%B8%E0%A5%8B%E0%A4%B0%E0%A5%8D%E0%A4%B8-%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE/</link><description>Recent content in ओपन-सोर्स सुरक्षा on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/genre/%E0%A4%93%E0%A4%AA%E0%A4%A8-%E0%A4%B8%E0%A5%8B%E0%A4%B0%E0%A5%8D%E0%A4%B8-%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>ESP32 WiFi Canary: 2.4 GHz पर निष्क्रिय खतरा पहचान</title><link>https://hi.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"नेटवर्क सुरक्षा"
+, "WiFi सुरक्षा"
+, "IoT सुरक्षा"
+, "सुरक्षा अनुसंधान"
+, "एम्बेडेड सिस्टम"
+, "गोपनीयता उपकरण"
+, "ESP32 परियोजनाएँ"
+, "हार्डवेयर सुरक्षा"
+, "वायरलेस सुरक्षा"
+, "ओपन-सोर्स सुरक्षा"</category><guid>https://hi.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ESP32 WiFi Canary का तकनीकी विश्लेषण, 2.4 GHz का निष्क्रिय सेंसर जो evil twin, deauthentication, सुरक्षा में गिरावट और beacon flood पहचानता है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>

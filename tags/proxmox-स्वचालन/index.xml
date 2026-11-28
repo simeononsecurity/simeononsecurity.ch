@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Proxmox स्वचालन on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>Proxmox स्वचालन on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/proxmox-%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8/</link></image><link>https://hi.simeononsecurity.com/tags/proxmox-%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8/</link><description>Recent content in Proxmox स्वचालन on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/proxmox-%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 8 से 9 अपग्रेड गाइड</title><link>https://hi.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"वर्चुअलाइजेशन"
+, "Linux प्रशासन"
+, "Proxmox"
+, "सर्वर प्रबंधन"
+, "ओपन सोर्स"
+, "होम लैब"</category><guid>https://hi.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proxmox VE 8 को 9 में अपग्रेड करने के लिए पूर्व-जांच, मैनुअल चरण, स्वचालन, असंगत बदलाव और रिकवरी निर्देश पाएं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item></channel></rss>

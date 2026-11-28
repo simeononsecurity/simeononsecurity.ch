@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>निष्क्रिय BLE on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>निष्क्रिय BLE on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/%E0%A4%A8%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AF-ble/</link></image><link>https://hi.simeononsecurity.com/tags/%E0%A4%A8%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AF-ble/</link><description>Recent content in निष्क्रिय BLE on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/%E0%A4%A8%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AF-ble/index.xml" rel="self" type="application/rss+xml"/><item><title>Eye Spy: ESP32 के लिए निष्क्रिय निगरानी और ट्रैकर डिटेक्टर</title><link>https://hi.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"गोपनीयता उपकरण"
+, "निगरानी-रोधी सुरक्षा"
+, "IoT सुरक्षा"
+, "एम्बेडेड सिस्टम"
+, "सुरक्षा अनुसंधान"
+, "WiFi सुरक्षा"
+, "Bluetooth सुरक्षा"
+, "ESP32 परियोजनाएँ"
+, "हार्डवेयर सुरक्षा"
+, "मुक्त-स्रोत सुरक्षा"</category><guid>https://hi.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Eye Spy v1.1 का तकनीकी संदर्भ। यह ESP32 पर चलने वाला BLE और WiFi निष्क्रिय डिटेक्टर है, जो कैमरे, ट्रैकर, ड्रोन और संबंधित संकेत पहचानता है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>निजी नेटवर्क on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>निजी नेटवर्क on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/%E0%A4%A8%E0%A4%BF%E0%A4%9C%E0%A5%80-%E0%A4%A8%E0%A5%87%E0%A4%9F%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%95/</link></image><link>https://hi.simeononsecurity.com/tags/%E0%A4%A8%E0%A4%BF%E0%A4%9C%E0%A5%80-%E0%A4%A8%E0%A5%87%E0%A4%9F%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%95/</link><description>Recent content in निजी नेटवर्क on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/%E0%A4%A8%E0%A4%BF%E0%A4%9C%E0%A5%80-%E0%A4%A8%E0%A5%87%E0%A4%9F%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%95/index.xml" rel="self" type="application/rss+xml"/><item><title>Meshtastic के लिए निजता-सुरक्षित AI सहायक बनाना</title><link>https://hi.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"नेटवर्क सुरक्षा"
+, "निजता"
+, "ओपन सोर्स"
+, "स्वचालन"</category><guid>https://hi.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Meshtastic के लिए स्थानीय AI सहायक बनाने का व्यावहारिक अनुभव, जिसमें निजी कॉन्फ़िगरेशन, कतारबद्ध TCP पहुँच, सूचना-प्राप्ति टूल और अधिक सुरक्षित डैशबोर्ड शामिल हैं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>T-Mobile Home Internet में पोर्ट फ़ॉरवर्डिंग काम क्यों नहीं करती</title><link>https://hi.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Self-Hosted"
+, "Network Security"</category><guid>https://hi.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+T-Mobile 5G Home Internet में पोर्ट फ़ॉरवर्डिंग की सीमाएँ, कैरियर NAT और सार्वजनिक इनबाउंड पोर्ट के बिना होम सर्वर तक पहुँचने के व्यावहारिक तरीके जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/t-mobile-home-internet-port-forwarding.webp" length="103506" type="image/webp"/></item><item><title>Tailscale बनाम Headscale</title><link>https://hi.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "नेटवर्क सुरक्षा"
+, "स्वयं होस्टिंग"
+, "WireGuard"
+, "ज़ीरो ट्रस्ट"
+, "मेश नेटवर्किंग"
+, "ओपन सोर्स"
+, "क्लाउड अवसंरचना"
+, "दूरस्थ पहुँच"
+, "नेटवर्क प्रबंधन"</category><guid>https://hi.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+अपनी ज़रूरतों के लिए WireGuard मेश VPN चुनने के लिए होस्टिंग मॉडल, पहचान प्रबंधन, सुविधाओं, लागत, संचालन और सहायता के आधार पर Tailscale और Headscale की तुलना करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item></channel></rss>

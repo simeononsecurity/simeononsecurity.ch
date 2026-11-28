@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>कंप्यूटर हार्डवेयर on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>कंप्यूटर हार्डवेयर on simeononsecurity</title><link>https://hi.simeononsecurity.com/genre/%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9F%E0%A4%B0-%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1%E0%A4%B5%E0%A5%87%E0%A4%AF%E0%A4%B0/</link></image><link>https://hi.simeononsecurity.com/genre/%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9F%E0%A4%B0-%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1%E0%A4%B5%E0%A5%87%E0%A4%AF%E0%A4%B0/</link><description>Recent content in कंप्यूटर हार्डवेयर on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/genre/%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9F%E0%A4%B0-%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1%E0%A4%B5%E0%A5%87%E0%A4%AF%E0%A4%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>Octominer X12 Ultra PSU संगतता: Chicony और LiteOn का फील्ड टेस्ट</title><link>https://hi.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><category>
+"माइनिंग हार्डवेयर"
+, "कंप्यूटर हार्डवेयर"</category><guid>https://hi.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+पाँच पंखों और तीन PSU वाले Octominer X12 Ultra पर किए गए परीक्षण में Chicony PSU ने सिस्टम चालू किया, जबकि जाँचे गए LiteOn यूनिट एम्बर रंग दिखाकर चालू नहीं हुए।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp" length="34962" type="image/webp"/></item><item><title>2x RTX 5060 Ti बनाम GB10: 256K कॉन्टेक्स्ट पर पाँच मॉडलों का स्थानीय AI बेंचमार्क</title><link>https://hi.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"कृत्रिम बुद्धिमत्ता"
+, "स्थानीय AI"
+, "GPU हार्डवेयर"
+, "बेंचमार्किंग"
+, "कंप्यूटर हार्डवेयर"</category><guid>https://hi.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+पाँच मॉडलों की RTX 5060 Ti और GB10 तुलना, साथ में 256K कॉन्टेक्स्ट तक समान होस्ट पर Qwen3.8 Flash-Next Strata बेंचमार्क।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>क्या गंभीर स्थानीय LLM काम के लिए 16GB VRAM पर्याप्त है?</title><link>https://hi.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "कंप्यूटर हार्डवेयर"
+, "स्व-होस्टेड AI"</category><guid>https://hi.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+मॉडल वेट, KV कैश और प्रॉम्प्ट प्रोसेसिंग के आधार पर 16GB स्थानीय LLM सेटअप का आकार तय करें। Qwen3.8 27B के मेमोरी बजट, GPU बैंडविड्थ और स्वामित्व लागत की तुलना करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>64GB DGX Spark स्थानीय AI हार्डवेयर कीमतों के लिए चेतावनी संकेत है</title><link>https://hi.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "AI हार्डवेयर"
+, "सेमीकंडक्टर"
+, "कंप्यूटर हार्डवेयर"
+, "AI अर्थशास्त्र"
+, "स्व-होस्टेड AI"</category><guid>https://hi.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+NVIDIA का 64GB DGX Spark स्तर दिखाता है कि मेमोरी आपूर्ति का दबाव स्थानीय AI हार्डवेयर को कैसे आकार दे रहा है। यह गाइड क्षमता में कटौती, यूनिफाइड मेमोरी के समझौतों और 2027 के अंत से पहले DRAM राहत की कम संभावना को समझाती है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Qwen 27B के लिए 32GB VRAM: अक्टूबर 2026 की लोकल AI हार्डवेयर गाइड</title><link>https://hi.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"लोकल AI"
+, "AI हार्डवेयर"
+, "GPU बेंचमार्किंग"
+, "Self-Hosted AI"
+, "कंप्यूटर हार्डवेयर"
+, "AI अर्थशास्त्र"</category><guid>https://hi.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+32GB उपयोगी accelerator memory के साथ Qwen 27B मॉडल चलाने के लिए अक्टूबर 2026 की व्यावहारिक गाइड। इसमें single GPU, दो कार्ड वाले सिस्टम, unified memory, इस्तेमाल किए गए data-center कार्ड, किराये की computing, software support और full-context सीमाओं की तुलना है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>बेहतर कनेक्टिविटी: USB मानकों और पोर्ट की मार्गदर्शिका</title><link>https://hi.simeononsecurity.com/articles/usb-standards-and-ports_-a-users-guide/</link><pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate><category>
+"तकनीकी मार्गदर्शिकाएँ"
+, "USB कनेक्टिविटी"
+, "इलेक्ट्रॉनिक्स मार्गदर्शिकाएँ"
+, "कंप्यूटर हार्डवेयर"
+, "तकनीकी जानकारी"
+, "आसान तकनीक"
+, "उपकरण सिंक्रनाइज़ेशन"
+, "डेटा ट्रांसफ़र सुझाव"
+, "चार्जिंग समाधान"
+, "तकनीकी प्रगति"</category><guid>https://hi.simeononsecurity.com/articles/usb-standards-and-ports_-a-users-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+USB तकनीक और पोर्ट के विकास को जानें। USB Type-C और USB 4.0 की विशेषताएँ समझें और तय करें कि उपकरण कब अपग्रेड करने चाहिए।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/usb-standards-and-ports_-a-users-guide.webp" length="14270" type="image/webp"/></item><item><title>अपने पीसी को शांत करें: तेज़ आवाज़ वाले पंखे की समस्या ठीक करें</title><link>https://hi.simeononsecurity.com/articles/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud/</link><pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate><category>
+"कंप्यूटर हार्डवेयर"
+, "पीसी रखरखाव"
+, "तकनीकी सुझाव"
+, "कंप्यूटर की स्वयं मरम्मत"
+, "डिवाइस की देखभाल"
+, "शोर कम करना"
+, "हार्डवेयर समस्या निवारण"
+, "स्वयं तकनीकी काम"
+, "कंप्यूटर पंखे"
+, "सिस्टम अपग्रेड"</category><guid>https://hi.simeononsecurity.com/articles/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+क्या कंप्यूटर के तेज़ आवाज़ वाले पंखे परेशान करते हैं? शांत कंप्यूटर के लिए कारण और समाधान जानें। आज ही कदम उठाएँ।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud.webp" length="244306" type="image/webp"/></item><item><title>कंप्यूटर को ठंडा रखें: वेंटिलेशन और लंबी उम्र</title><link>https://hi.simeononsecurity.com/articles/cooling-computer-systems_-ensuring-proper-ventilation-and-system-longevity/</link><pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate><category>
+"तकनीकी रखरखाव"
+, "कंप्यूटर हार्डवेयर"
+, "सिस्टम कूलिंग"
+, "कंप्यूटर स्वास्थ्य"
+, "गर्मी प्रबंधन"
+, "हार्डवेयर अनुकूलन"
+, "कंप्यूटर वेंटिलेशन"
+, "गेमिंग कंप्यूटर"
+, "तकनीकी DIY"
+, "कंप्यूटर की उम्र"</category><guid>https://hi.simeononsecurity.com/articles/cooling-computer-systems_-ensuring-proper-ventilation-and-system-longevity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+अपने कंप्यूटर को ठंडा रखें। वेंटिलेशन सुधारने, धूल नियंत्रित करने और प्रदर्शन बनाए रखने के तरीके जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/cooling-computer-systems_-ensuring-proper-ventilation-and-system-longevity.webp" length="220862" type="image/webp"/></item><item><title>तेज़ डेटा ट्रांसफ़र के लिए बस आर्किटेक्चर</title><link>https://hi.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</link><pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate><category>
+"डेटा ट्रांसफ़र गाइड"
+, "तकनीकी नवाचार"
+, "सिस्टम आर्किटेक्चर"
+, "उच्च-प्रदर्शन कंप्यूटिंग"
+, "कंप्यूटर हार्डवेयर"
+, "बस डिज़ाइन"
+, "कनेक्टिविटी"
+, "उभरती तकनीकें"
+, "कंप्यूटिंग दक्षता"
+, "तकनीकी ऑप्टिमाइज़ेशन"</category><guid>https://hi.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+बस आर्किटेक्चर और डेटा ट्रांसफ़र तेज़ करने के तरीकों को जानें। इस गाइड में बस के प्रकार, ऑप्टिमाइज़ेशन, नए समाधान और प्रदर्शन तथा सुरक्षा से जुड़ी चुनौतियाँ शामिल हैं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures.webp" length="305084" type="image/webp"/></item></channel></rss>

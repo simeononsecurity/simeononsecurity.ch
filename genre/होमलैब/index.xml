@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>होमलैब on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>होमलैब on simeononsecurity</title><link>https://hi.simeononsecurity.com/genre/%E0%A4%B9%E0%A5%8B%E0%A4%AE%E0%A4%B2%E0%A5%88%E0%A4%AC/</link></image><link>https://hi.simeononsecurity.com/genre/%E0%A4%B9%E0%A5%8B%E0%A4%AE%E0%A4%B2%E0%A5%88%E0%A4%AC/</link><description>Recent content in होमलैब on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/genre/%E0%A4%B9%E0%A5%8B%E0%A4%AE%E0%A4%B2%E0%A5%88%E0%A4%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>होमलैब VLAN सेगमेंटेशन की योजना बनाएं और जांचें</title><link>https://hi.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"होमलैब"
+, "नेटवर्क सुरक्षा"
+, "नेटवर्किंग"</category><guid>https://hi.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+होमलैब में भरोसेमंद डिवाइस, सर्वर, IoT और मेहमानों को अलग रखने के लिए VLAN योजना बनाएं। अनुमत ट्रैफ़िक दर्ज करें, नेटवर्क को चरणों में कॉन्फ़िगर करें और अलगाव की जांच करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>होमलैब के लिए UPS का आकार तय करें और स्वचालित शटडाउन जाँचें</title><link>https://hi.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"होमलैब"
+, "बिजली सुरक्षा"
+, "सिस्टम प्रशासन"</category><guid>https://hi.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+होमलैब की बिजली खपत मापें, UPS की वाट और VA सीमाओं की तुलना करें, अपने लोड पर बैकअप अवधि जाँचें और बैटरी पर निर्भर होने से पहले सुरक्षित शटडाउन का परीक्षण करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>Proxmox पर LXC में Docker: विश्वसनीयता, प्रमाण और VM माइग्रेशन</title><link>https://hi.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"वर्चुअलाइज़ेशन"
+, "Linux प्रशासन"
+, "होमलैब"</category><guid>https://hi.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+दस्तावेज़ीकृत AppArmor विफलता, होस्ट के रुकने की रिपोर्ट की सावधानीपूर्वक समीक्षा, निदान कमांड और VM माइग्रेशन योजना के आधार पर Proxmox LXC के भीतर Docker का मूल्यांकन करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>मैदान में तैनात किए जाने वाले एज कंप्यूटिंग: हार्डवेयर और केस का चयन</title><link>https://hi.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"एज कंप्यूटिंग"
+, "फील्ड आईटी"
+, "हार्डवेयर"
+, "होमलैब"
+, "मजबूत कंप्यूटिंग"
+, "नेटवर्क"
+, "आपदा बहाली"
+, "छोटे व्यवसाय की आईटी"</category><guid>https://hi.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+मैदान में उपयोग होने वाले एज कंप्यूटिंग हार्डवेयर और केस चुनने की मार्गदर्शिका। इसमें कंप्यूट, रैक, कूलिंग, स्टोरेज, प्रबंधन, केबलिंग और बिजली की अनुकूलता शामिल है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>शीर्ष होमलैब कंटेंट क्रिएटर</title><link>https://hi.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"तकनीक"
+, "नेटवर्किंग"
+, "स्वयं करें"
+, "वर्चुअलाइजेशन"
+, "होमलैब"
+, "तकनीक प्रेमी"
+, "समुदाय"
+, "सीखना"
+, "नवाचार"
+, "मार्गदर्शिकाएँ"</category><guid>https://hi.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+प्रमुख होमलैब क्रिएटर जानें, उत्साही लोगों से जुड़ें और तकनीक की खोज शुरू करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item></channel></rss>

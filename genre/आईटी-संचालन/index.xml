@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>आईटी संचालन on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>आईटी संचालन on simeononsecurity</title><link>https://hi.simeononsecurity.com/genre/%E0%A4%86%E0%A4%88%E0%A4%9F%E0%A5%80-%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8/</link></image><link>https://hi.simeononsecurity.com/genre/%E0%A4%86%E0%A4%88%E0%A4%9F%E0%A5%80-%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8/</link><description>Recent content in आईटी संचालन on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/genre/%E0%A4%86%E0%A4%88%E0%A4%9F%E0%A5%80-%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>फील्ड आईटी के उपयोगी सुझाव: मिनी डेटा सेंटर से आगे</title><link>https://hi.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"फील्ड आईटी"
+, "एज कंप्यूटिंग"
+, "आईटी संचालन"
+, "आपदा पुनर्प्राप्ति"
+, "हार्डवेयर"
+, "सर्वोत्तम अभ्यास"</category><guid>https://hi.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+स्पेयर पार्ट्स, दस्तावेज़, ESD, फर्मवेयर, बूट मीडिया, लाइसेंस, भौतिक सुरक्षा, यात्रा और बीमा पर फील्ड आईटी की व्यावहारिक मार्गदर्शिका।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp"/></item><item><title>Ansible बनाम Puppet बनाम Chef: स्वचालन टूल की तुलना</title><link>https://hi.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "स्वचालन टूल"
+, "कॉन्फ़िगरेशन प्रबंधन"
+, "आईटी अवसंरचना"
+, "DevOps"
+, "आईटी संचालन"
+, "क्लाउड स्वचालन"
+, "सॉफ़्टवेयर परिनियोजन"
+, "अवसंरचना प्रबंधन"
+, "ओपन-सोर्स टूल"</category><guid>https://hi.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+अपनी संस्था की ज़रूरतों के लिए सही स्वचालन टूल चुनने हेतु Ansible, Puppet और Chef के अंतर की तुलना करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef.webp" length="227428" type="image/webp"/></item><item><title>Ansible बनाम Semaphore बनाम Tower: स्वचालन की तुलना</title><link>https://hi.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"स्वचालन"
+, "बुनियादी ढाँचा प्रबंधन"
+, "कॉन्फ़िगरेशन प्रबंधन"
+, "DevOps"
+, "आईटी संचालन"
+, "ओपन सोर्स"
+, "कार्यप्रवाह प्रबंधन"
+, "स्केलेबिलिटी"
+, "सहयोग"
+, "Ansible टूल"</category><guid>https://hi.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+कार्यप्रवाह, प्रबंधन सुविधाओं और बुनियादी ढाँचे के उपयोग के आधार पर साधारण Ansible, Ansible Tower और Ansible Semaphore की तुलना करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/ansible-vs-ansible-semaphore-vs-ansible-tower.webp" length="132234" type="image/webp"/></item><item><title>CheckMK: आईटी अवसंरचना प्रबंधन के लिए निगरानी</title><link>https://hi.simeononsecurity.com/articles/what-is-check-mk/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "आईटी अवसंरचना"
+, "नेटवर्क निगरानी"
+, "ऐप्लिकेशन निगरानी"
+, "आईटी संचालन"
+, "प्रदर्शन विश्लेषण"
+, "स्वचालन"
+, "घटना प्रबंधन"
+, "विस्तार-क्षमता"
+, "लचीलापन"</category><guid>https://hi.simeononsecurity.com/articles/what-is-check-mk/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+सक्रिय आईटी अवसंरचना प्रबंधन के लिए CheckMK की सुविधाएँ, लाभ और उपयोग जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.webp" length="151812" type="image/webp"/></item></channel></rss>

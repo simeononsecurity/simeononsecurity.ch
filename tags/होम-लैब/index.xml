@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>होम लैब on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>होम लैब on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/%E0%A4%B9%E0%A5%8B%E0%A4%AE-%E0%A4%B2%E0%A5%88%E0%A4%AC/</link></image><link>https://hi.simeononsecurity.com/tags/%E0%A4%B9%E0%A5%8B%E0%A4%AE-%E0%A4%B2%E0%A5%88%E0%A4%AC/</link><description>Recent content in होम लैब on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/%E0%A4%B9%E0%A5%8B%E0%A4%AE-%E0%A4%B2%E0%A5%88%E0%A4%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>Pi-hole से स्थानीय AI तक, 10 स्तरों में होम लैब बनाएँ</title><link>https://hi.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"होम लैब"
+, "सेल्फ़-होस्टिंग"
+, "स्थानीय AI"
+, "होम नेटवर्किंग"</category><guid>https://hi.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+पूरे नेटवर्क की DNS फ़िल्टरिंग से स्थानीय AI तक, दस व्यावहारिक चरणों में होम लैब बनाएँ। हर स्तर के हार्डवेयर, लागत, कौशल और समझौतों को जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>आम साइबर हमलों के प्रकार और उन्हें पहचानने के तरीके</title><link>https://hi.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"साइबर सुरक्षा"
+, "खतरा पहचान"
+, "ब्लू टीम"
+, "सुरक्षा संचालन"
+, "करियर विकास"</category><guid>https://hi.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+आम साइबर हमलों, लॉग और टेलीमेट्री में उनके छोड़े हुए संकेतों और घरेलू सुरक्षा लैब में उन्हें पहचानने के अभ्यास के बारे में जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item><item><title>घरेलू नेटवर्क के लिए Firewalla: घर और होम लैब की सुरक्षा</title><link>https://hi.simeononsecurity.com/articles/firewalla-home-network-security-guide/</link><pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "साइबर सुरक्षा"
+, "घरेलू नेटवर्क"
+, "नेटवर्क सुरक्षा"
+, "IoT सुरक्षा"
+, "ऑनलाइन सुरक्षा"
+, "होम लैब"
+, "डिजिटल सुरक्षा"
+, "घुसपैठ पहचान"
+, "सामग्री फ़िल्टरिंग"</category><guid>https://hi.simeononsecurity.com/articles/firewalla-home-network-security-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+जानें कि Firewalla घरेलू नेटवर्क की सुरक्षा में कैसे मदद करता है, क्या यह होम लैब के लिए उपयुक्त है, और किन लाभों तथा सीमाओं पर विचार करना चाहिए।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/firewalla-home-network-security.webp" length="57452" type="image/webp"/></item><item><title>आईटी परीक्षण और सीखने के लिए किफायती, सुरक्षित होम लैब बनाएँ</title><link>https://hi.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</link><pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate><category>
+"होम लैब"
+, "वर्चुअलाइजेशन"
+, "हार्डवेयर"
+, "सॉफ्टवेयर"
+, "नेटवर्किंग"
+, "सुरक्षा"
+, "सीखना"
+, "परीक्षण"
+, "आईटी पेशेवर"
+, "टेक्नोलॉजी उत्साही"
+, "VMware"
+, "Proxmox"
+, "Hyper-V"
+, "Linux"
+, "Windows"
+, "नेटवर्क कॉन्फ़िगरेशन"
+, "वर्चुअल मशीन प्रबंधन"
+, "बैकअप और रिकवरी"
+, "क्लाउड कंप्यूटिंग"
+, "साइबर सुरक्षा"</category><guid>https://hi.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+सॉफ्टवेयर, हार्डवेयर और नेटवर्किंग का व्यावहारिक अनुभव पाने के लिए कम लागत वाला सुरक्षित होम लैब बनाने का तरीका जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.webp" length="163548" type="image/webp"/></item><item><title>होम लैब क्या है? आईटी पेशेवरों के लिए एक सेटअप मार्गदर्शिका</title><link>https://hi.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"होम लैब"
+, "आईटी पेशेवर"
+, "छात्र"
+, "शौकिया"
+, "नेटवर्किंग"
+, "वर्चुअलाइजेशन"
+, "स्वचालन"
+, "हार्डवेयर"
+, "सॉफ्टवेयर"
+, "सर्वोत्तम प्रथाएं"</category><guid>https://hi.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+अपने होम लैब की क्षमता को इस व्यापक मार्गदर्शिका के साथ अनलॉक करें, जो आईटी पेशेवरों, छात्रों और शौकिया लोगों के लिए डिज़ाइन की गई है, जिसमें सेटअप, घटक, उन्नत विषय और सर्वोत्तम प्रथाओं को शामिल किया गया है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp" length="167376" type="image/webp"/></item></channel></rss>

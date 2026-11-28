@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>Linux on simeononsecurity</title><link>https://hi.simeononsecurity.com/genre/linux/</link></image><link>https://hi.simeononsecurity.com/genre/linux/</link><description>Recent content in Linux on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/genre/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>2026 में कंटेनर अब सुरक्षा सीमा नहीं रहे</title><link>https://hi.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"कंटेनर सुरक्षा"
+, "Linux"
+, "कर्नेल सुरक्षा"
+, "वर्चुअलाइजेशन"
+, "क्लाउड सुरक्षा"
+, "खतरा अनुसंधान"
+, "ब्लू टीम"
+, "DevSecOps"</category><guid>https://hi.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026 की कर्नेल कमजोरियाँ दिखाती हैं कि मल्टी-टेनेंट कंटेनर आइसोलेशन पर्याप्त क्यों नहीं है। Copy Fail, Dirty Frag, Fragnesia और CVE-2026-80521 को समझें, और मजबूत कंटेनरों की तुलना microVM सीमा से करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>2026 में Pearl (PRL) माइनिंग: सेटअप, लाभप्रदता और ब्लॉकचेन की उपयोगिता</title><link>https://hi.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"क्रिप्टोकरेंसी"
+, "GPU माइनिंग"
+, "AI कंप्यूट"
+, "DePIN"
+, "ब्लॉकचेन"
+, "Linux"
+, "घरेलू प्रयोगशाला"
+, "हार्डवेयर"</category><guid>https://hi.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SRBMiner से Pearl PRL माइनिंग सेटअप करें, Proof of Useful Work की समीक्षा करें, मार्जिन का अनुमान लगाएँ और ब्लॉकचेन की व्यावहारिक उपयोगिता परखें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp" length="266670" type="image/webp"/></item><item><title>Windows और Linux को सुरक्षित करना</title><link>https://hi.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><category>
+"साइबर सुरक्षा"
+, "स्क्रिप्टिंग भाषाएँ"
+, "सिस्टम सुरक्षा"
+, "Windows"
+, "Linux"
+, "सरकारी नियम"
+, "साइबर खतरे"
+, "सुरक्षित स्क्रिप्टिंग"
+, "अनुपालन"
+, "प्रोग्रामिंग"</category><guid>https://hi.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+साइबर सुरक्षा के इस विस्तृत विश्लेषण में जानें कि PowerShell और Python से सिस्टम की सुरक्षा कैसे बढ़ाई जा सकती है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp"/></item></channel></rss>

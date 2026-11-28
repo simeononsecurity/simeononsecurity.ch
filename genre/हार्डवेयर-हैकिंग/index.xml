@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>हार्डवेयर हैकिंग on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>हार्डवेयर हैकिंग on simeononsecurity</title><link>https://hi.simeononsecurity.com/genre/%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1%E0%A4%B5%E0%A5%87%E0%A4%AF%E0%A4%B0-%E0%A4%B9%E0%A5%88%E0%A4%95%E0%A4%BF%E0%A4%82%E0%A4%97/</link></image><link>https://hi.simeononsecurity.com/genre/%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1%E0%A4%B5%E0%A5%87%E0%A4%AF%E0%A4%B0-%E0%A4%B9%E0%A5%88%E0%A4%95%E0%A4%BF%E0%A4%82%E0%A4%97/</link><description>Recent content in हार्डवेयर हैकिंग on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/genre/%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1%E0%A4%B5%E0%A5%87%E0%A4%AF%E0%A4%B0-%E0%A4%B9%E0%A5%88%E0%A4%95%E0%A4%BF%E0%A4%82%E0%A4%97/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder: Flock Safety ALPR कैमरों का मानचित्र</title><link>https://hi.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"गोपनीयता तकनीक"
+, "प्रति-निगरानी"
+, "ओपन सोर्स प्रोजेक्ट"
+, "डिजिटल अधिकार"
+, "नेटवर्क सुरक्षा"
+, "गोपनीयता उपकरण"
+, "हार्डवेयर हैकिंग"
+, "सुरक्षा अनुसंधान"</category><guid>https://hi.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder एक ओपन-सोर्स टूल है जो WiGLE WiFi डेटा और OUI फिंगरप्रिंटिंग का उपयोग करके दुनिया भर में 40,000+ Flock Safety ALPR कैमरों का मानचित्र बनाता है। जानें यह कैसे काम करता है, इसकी सीमाएं और रियल-टाइम डिटेक्शन के लिए हार्डवेयर टूल।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Orbic RCL400 के लिए DagShell कस्टम फ़र्मवेयर: 2026 मार्गदर्शिका</title><link>https://hi.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"कस्टम फ़र्मवेयर"
+, "मोबाइल सुरक्षा"
+, "निजता उपकरण"
+, "नेटवर्क सुरक्षा"
+, "वार्ड्राइविंग"
+, "पेनिट्रेशन टेस्टिंग"
+, "IoT हैकिंग"
+, "सुरक्षा शोध"
+, "हार्डवेयर हैकिंग"
+, "निजता तकनीक"</category><guid>https://hi.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Orbic RCL400 के DagShell फ़र्मवेयर की तकनीकी मार्गदर्शिका। इसमें इंस्टॉलेशन, निजता उपकरण, वार्ड्राइविंग और शोध की सीमाएँ शामिल हैं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>Flock-You डिटेक्शन: काउंटर-सर्विलांस सेटअप गाइड</title><link>https://hi.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"सुरक्षा हार्डवेयर"
+, "काउंटर सर्विलांस"
+, "गोपनीयता तकनीक"
+, "ओपन सोर्स प्रोजेक्ट"
+, "ESP32 विकास"
+, "WiFi मॉनिटरिंग"
+, "गोपनीयता उपकरण"
+, "डिजिटल अधिकार"
+, "हार्डवेयर हैकिंग"
+, "नेटवर्क सुरक्षा"</category><guid>https://hi.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ESP32-आधारित हार्डवेयर का उपयोग करके Flock Safety ALPR कैमरों का पता लगाने के लिए ओपन-सोर्स Flock-You प्रोजेक्ट का व्यापक तकनीकी गाइड। इसमें सेटअप निर्देश, फर्मवेयर विवरण और खरीद विकल्प शामिल हैं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>हार्डवेयर हैकिंग की दुनिया को जानें</title><link>https://hi.simeononsecurity.com/articles/hardware-hacker-essential-tools-techniques/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी और हैकिंग"
+, "साइबर सुरक्षा"
+, "हार्डवेयर हैकिंग"
+, "हैकिंग के औज़ार"
+, "इलेक्ट्रॉनिक्स"
+, "इंटरनेट ऑफ़ थिंग्स"
+, "स्वनिर्मित परियोजनाओं की हैकिंग"
+, "रिवर्स इंजीनियरिंग"
+, "माइक्रोकंट्रोलर"
+, "वायरलेस हैकिंग"</category><guid>https://hi.simeononsecurity.com/articles/hardware-hacker-essential-tools-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+हार्डवेयर हैकिंग और इसमें इस्तेमाल होने वाले आवश्यक औज़ारों और तकनीकों को जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_symbolic_art_style_depicting_a_hacker_surrou.webp" length="181862" type="image/webp"/></item><item><title>Flipper Zero: हैकरों और मेकरों के लिए संपूर्ण मार्गदर्शिका</title><link>https://hi.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</link><pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate><category>
+"हार्डवेयर हैकिंग"
+, "साइबर सुरक्षा"
+, "पेनिट्रेशन टेस्टिंग"
+, "वायरलेस सुरक्षा"
+, "रेड टीमिंग"</category><guid>https://hi.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flipper Zero के रेडियो, प्रोटोकॉल, फ़र्मवेयर, GPIO, BadUSB, सुरक्षा परीक्षण, कानूनी सीमाओं और सहायक उपकरणों की मार्गदर्शिका।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.webp" length="309662" type="image/webp"/></item></channel></rss>

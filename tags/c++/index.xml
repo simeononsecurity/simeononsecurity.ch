@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C++ on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>C++ on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/c++/</link></image><link>https://hi.simeononsecurity.com/tags/c++/</link><description>Recent content in C++ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/c++/index.xml" rel="self" type="application/rss+xml"/><item><title>Eye Spy: ESP32 के लिए निष्क्रिय निगरानी और ट्रैकर डिटेक्टर</title><link>https://hi.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"गोपनीयता उपकरण"
+, "निगरानी-रोधी सुरक्षा"
+, "IoT सुरक्षा"
+, "एम्बेडेड सिस्टम"
+, "सुरक्षा अनुसंधान"
+, "WiFi सुरक्षा"
+, "Bluetooth सुरक्षा"
+, "ESP32 परियोजनाएँ"
+, "हार्डवेयर सुरक्षा"
+, "मुक्त-स्रोत सुरक्षा"</category><guid>https://hi.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Eye Spy v1.1 का तकनीकी संदर्भ। यह ESP32 पर चलने वाला BLE और WiFi निष्क्रिय डिटेक्टर है, जो कैमरे, ट्रैकर, ड्रोन और संबंधित संकेत पहचानता है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>ESP32 WiFi Canary: 2.4 GHz पर निष्क्रिय खतरा पहचान</title><link>https://hi.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"नेटवर्क सुरक्षा"
+, "WiFi सुरक्षा"
+, "IoT सुरक्षा"
+, "सुरक्षा अनुसंधान"
+, "एम्बेडेड सिस्टम"
+, "गोपनीयता उपकरण"
+, "ESP32 परियोजनाएँ"
+, "हार्डवेयर सुरक्षा"
+, "वायरलेस सुरक्षा"
+, "ओपन-सोर्स सुरक्षा"</category><guid>https://hi.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ESP32 WiFi Canary का तकनीकी विश्लेषण, 2.4 GHz का निष्क्रिय सेंसर जो evil twin, deauthentication, सुरक्षा में गिरावट और beacon flood पहचानता है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>आधुनिक डेवलपरों के लिए आवश्यक प्रोग्रामिंग भाषाएँ</title><link>https://hi.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</link><pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate><category>
+"सॉफ़्टवेयर विकास"
+, "प्रोग्रामिंग शिक्षा"
+, "तकनीकी करियर"
+, "प्रोग्रामिंग ट्यूटोरियल"
+, "डिजिटल कौशल"
+, "एप्लिकेशन निर्माण"
+, "कंप्यूटर विज्ञान"
+, "उभरती तकनीक"
+, "प्रोग्रामिंग भाषाएँ"
+, "विकास उपकरण"</category><guid>https://hi.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+गतिशील सॉफ़्टवेयर बनाने के लिए उपयोगी प्रमुख प्रोग्रामिंग भाषाओं की दुनिया में प्रवेश करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/fundamentals-of-coding_-languages-you-should-know.webp" length="71288" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>तकनीकी नवाचार on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>तकनीकी नवाचार on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/%E0%A4%A4%E0%A4%95%E0%A4%A8%E0%A5%80%E0%A4%95%E0%A5%80-%E0%A4%A8%E0%A4%B5%E0%A4%BE%E0%A4%9A%E0%A4%BE%E0%A4%B0/</link></image><link>https://hi.simeononsecurity.com/tags/%E0%A4%A4%E0%A4%95%E0%A4%A8%E0%A5%80%E0%A4%95%E0%A5%80-%E0%A4%A8%E0%A4%B5%E0%A4%BE%E0%A4%9A%E0%A4%BE%E0%A4%B0/</link><description>Recent content in तकनीकी नवाचार on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/%E0%A4%A4%E0%A4%95%E0%A4%A8%E0%A5%80%E0%A4%95%E0%A5%80-%E0%A4%A8%E0%A4%B5%E0%A4%BE%E0%A4%9A%E0%A4%BE%E0%A4%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>ECC मेमोरी: डेटा करप्शन और मेमोरी त्रुटियों से बचाव</title><link>https://hi.simeononsecurity.com/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/</link><pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी शिक्षा"
+, "डेटा सुरक्षा"
+, "हार्डवेयर गाइड"
+, "सिस्टम विश्वसनीयता"
+, "आईटी रखरखाव"
+, "प्रौद्योगिकी समाधान"
+, "एंटरप्राइज़ कंप्यूटिंग"
+, "सर्वर प्रौद्योगिकी"
+, "घटक विश्लेषण"
+, "प्रौद्योगिकी अनुसंधान"</category><guid>https://hi.simeononsecurity.com/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+जानें कि ECC मेमोरी त्रुटियों का पता लगाकर उन्हें कैसे ठीक करती है और सर्वर, वर्कस्टेशन तथा एम्बेडेड सिस्टम में डेटा व विश्वसनीयता की रक्षा करती है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/the-role-of-ecc-memory-in-mitigating-data-corruption.webp" length="137916" type="image/webp"/></item><item><title>फ़ाइल सिस्टम: FAT32 से NTFS और आगे</title><link>https://hi.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</link><pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate><category>
+"कंप्यूटर विज्ञान"
+, "डेटा संग्रहण"
+, "तकनीकी मार्गदर्शिकाएँ"
+, "फ़ाइल प्रबंधन"
+, "ऑपरेटिंग सिस्टम"
+, "डिजिटल संगठन"
+, "तकनीकी शिक्षा"
+, "सॉफ़्टवेयर जानकारी"
+, "सिस्टम अनुकूलन"
+, "तकनीकी संसाधन"</category><guid>https://hi.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+FAT32, NTFS, exFAT और अन्य फ़ाइल सिस्टम के बारे में जानें। डेटा प्रबंधन के लिए उनकी सुविधाओं, सीमाओं और संगतता की तुलना करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/computer-file-systems-explained_-fat32,-ntfs,-exfat,-and-more.webp" length="132294" type="image/webp"/></item><item><title>भीतरी दृष्टिकोण: साइबर सुरक्षा के रुझानों पर विशेषज्ञों की राय</title><link>https://hi.simeononsecurity.com/articles/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity/</link><pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate><category>
+"साइबर सुरक्षा अंतर्दृष्टि"
+, "डिजिटल खतरे का परिदृश्य"
+, "सुरक्षा उपाय"
+, "नियामक अनुपालन"
+, "साइबर सुरक्षा की चुनौतियाँ"
+, "तकनीकी प्रगति"
+, "सुरक्षा में AI और मशीन लर्निंग"
+, "ब्लॉकचेन तकनीक"
+, "IoT सुरक्षा"
+, "साइबर सुरक्षा के भविष्य के रुझान"
+, "बायोमेट्रिक प्रमाणीकरण"</category><guid>https://hi.simeononsecurity.com/articles/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+वर्तमान साइबर खतरों, कौशल की कमी, गोपनीयता, AI, ब्लॉकचेन, IoT सुरक्षा, क्वांटम कंप्यूटिंग, स्वचालन और बायोमेट्रिक प्रमाणीकरण की समीक्षा करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/insider-insights_-expert-perspectives-on-the-evolving-landscape-of-cybersecurity.webp" length="117650" type="image/webp"/></item></channel></rss>

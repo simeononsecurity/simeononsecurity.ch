@@ -1,6 +1,0 @@
-{{- with .Page.Params.job_posted }}
-    <li><strong>Date Posted:</strong> <time itemprop="datePosted" datetime="{{ . }}">{{ . }}</time></li>
-{{- end }}
-{{- with .Page.Params.job_reviewed }}
-    <li><strong>Last Updated:</strong> <time datetime="{{ . }}">{{ . }}</time></li>
-{{- end }}

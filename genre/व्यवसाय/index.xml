@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>व्यवसाय on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>व्यवसाय on simeononsecurity</title><link>https://hi.simeononsecurity.com/genre/%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A4%BE%E0%A4%AF/</link></image><link>https://hi.simeononsecurity.com/genre/%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A4%BE%E0%A4%AF/</link><description>Recent content in व्यवसाय on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/genre/%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A4%BE%E0%A4%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>PCI-DSS की व्याख्या: कार्ड लेनदेन की सुरक्षित अनुपालना</title><link>https://hi.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link><pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate><category>
+"साइबर सुरक्षा"
+, "भुगतान कार्ड सुरक्षा"
+, "डेटा संरक्षण"
+, "अनुपालना"
+, "सूचना सुरक्षा"
+, "प्रौद्योगिकी"
+, "व्यवसाय"
+, "जोखिम प्रबंधन"
+, "नियम"
+, "ई-कॉमर्स"</category><guid>https://hi.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+भुगतान कार्ड डेटा की सुरक्षा के लिए PCI-DSS, उसके घटकों, अनुपालना और लाभों के बारे में जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/pci-dss-security-vault.webp" length="88546" type="image/webp"/></item><item><title>GDPR को समझें: डेटा गोपनीयता नियमों की मार्गदर्शिका</title><link>https://hi.simeononsecurity.com/articles/what-is-gdpr-overview-explanation/</link><pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate><category>
+"साइबर सुरक्षा"
+, "डेटा गोपनीयता"
+, "नियम"
+, "अनुपालन"
+, "प्रौद्योगिकी"
+, "व्यवसाय"
+, "यूरोपीय संघ का कानून"
+, "ऑनलाइन गोपनीयता"
+, "डिजिटल अधिकार"
+, "डेटा सुरक्षा"</category><guid>https://hi.simeononsecurity.com/articles/what-is-gdpr-overview-explanation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+जानें कि GDPR निजी डेटा की रक्षा कैसे करता है, यह कौन से सिद्धांत और अधिकार देता है, और इसका व्यवसायों पर क्या प्रभाव पड़ता है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/GDPR_Data_Vault_Security.webp" length="52018" type="image/webp"/></item><item><title>लचीला SOC कैसे बनाएं</title><link>https://hi.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"साइबर सुरक्षा"
+, "प्रौद्योगिकी"
+, "व्यवसाय"
+, "डेटा सुरक्षा"
+, "घटना प्रतिक्रिया"
+, "आईटी प्रबंधन"
+, "नेटवर्क सुरक्षा"
+, "खतरे का पता लगाना"
+, "सूचना सुरक्षा"
+, "जोखिम प्रबंधन"</category><guid>https://hi.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+साइबर खतरों का मुकाबला करने, घटनाओं का पता लगाने और अपने संगठन की संपत्तियों की सुरक्षा के लिए एक मजबूत सुरक्षा संचालन केंद्र (SOC) स्थापित करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>OrangeWebsite होस्टिंग: गति, सुरक्षा और सफलता</title><link>https://hi.simeononsecurity.com/articles/orangwebsite-web-hosting/</link><pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "वेब होस्टिंग"
+, "साइबर सुरक्षा"
+, "व्यवसाय"
+, "डिजिटल सेवाएँ"
+, "वेबसाइट प्रबंधन"
+, "इंटरनेट"
+, "ई-कॉमर्स"
+, "क्लाउड होस्टिंग"
+, "सर्वर होस्टिंग"</category><guid>https://hi.simeononsecurity.com/articles/orangwebsite-web-hosting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+अपने ऑनलाइन कामों के लिए OrangeWebsite वेब होस्टिंग की सुविधाएँ जानें। अपनी वेबसाइट के लिए तेज़, सुरक्षित और भरोसेमंद समाधान पाएँ।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/OrangeWebsite-rocket.webp" length="58398" type="image/webp"/></item><item><title>प्रभावी सूचना प्रणाली प्रबंधकों के लिए प्रमुख कौशल</title><link>https://hi.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</link><pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "व्यवसाय"
+, "प्रबंधन"
+, "सूचना प्रौद्योगिकी"
+, "पेशेवर विकास"
+, "डिजिटल परिवर्तन"
+, "डेटा विश्लेषण"
+, "क्लाउड कंप्यूटिंग"
+, "परियोजना प्रबंधन"
+, "नेतृत्व"</category><guid>https://hi.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+जानें कि आज के कारोबारी माहौल में सफल होने के लिए हर सूचना प्रणाली प्रबंधक को किन पाँच प्रमुख कौशलों की आवश्यकता है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.webp" length="179058" type="image/webp"/></item></channel></rss>

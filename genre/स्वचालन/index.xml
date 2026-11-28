@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>स्वचालन on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>स्वचालन on simeononsecurity</title><link>https://hi.simeononsecurity.com/genre/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8/</link></image><link>https://hi.simeononsecurity.com/genre/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8/</link><description>Recent content in स्वचालन on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/genre/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>1Password SSH Agent और CLI: AI एजेंटों के लिए केवल-पठन पहुँच</title><link>https://hi.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"सिस्टम प्रशासन"
+, "क्लाउड सुरक्षा"
+, "स्वचालन"</category><guid>https://hi.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+1Password CLI, SSH Agent और MCP के साथ read-only SSH वर्कफ़्लो डिज़ाइन करें। लाइव टेस्टिंग से पहले सिंथेटिक कमांड्स, संकीर्ण अनुमतियाँ और मानवीय अनुमोदन का उपयोग करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Meshtastic के लिए निजता-सुरक्षित AI सहायक बनाना</title><link>https://hi.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"नेटवर्क सुरक्षा"
+, "निजता"
+, "ओपन सोर्स"
+, "स्वचालन"</category><guid>https://hi.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Meshtastic के लिए स्थानीय AI सहायक बनाने का व्यावहारिक अनुभव, जिसमें निजी कॉन्फ़िगरेशन, कतारबद्ध TCP पहुँच, सूचना-प्राप्ति टूल और अधिक सुरक्षित डैशबोर्ड शामिल हैं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>साइबर सुरक्षा और आईटी पेशेवरों के लिए आवश्यक पुस्तकें</title><link>https://hi.simeononsecurity.com/articles/essential-books-cybersecurity-it-professionals/</link><pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "शिक्षा"
+, "पुस्तकें"
+, "साइबर सुरक्षा"
+, "प्रोग्रामिंग"
+, "आईटी"
+, "स्वचालन"
+, "पेशेवर विकास"
+, "करियर विकास"
+, "अध्ययन"</category><guid>https://hi.simeononsecurity.com/articles/essential-books-cybersecurity-it-professionals/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+साइबर सुरक्षा, स्वचालन, प्रोग्रामिंग और आईटी पर चुनी हुई पुस्तकों से अपने कौशल बढ़ाएँ।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/coding_conqueror.webp" length="96864" type="image/webp"/></item><item><title>VMware सुरक्षा में निपुण बनें</title><link>https://hi.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"साइबर सुरक्षा"
+, "वर्चुअलाइजेशन"
+, "आईटी अवसंरचना"
+, "स्वचालन"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "अनुपालन"
+, "स्क्रिप्टिंग"
+, "डेटा सेंटर"</category><guid>https://hi.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+इस व्यापक मार्गदर्शिका में जानें कि PowerCLI से VMware STIG लागू करके VMware वातावरण को कैसे सुरक्षित करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>vSphere प्रबंधन के लिए PowerCLI में दक्षता</title><link>https://hi.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "वर्चुअलाइज़ेशन"
+, "VMware"
+, "आईटी प्रबंधन"
+, "स्वचालन"
+, "कमांड लाइन इंटरफ़ेस"
+, "स्क्रिप्टिंग"
+, "सिस्टम प्रशासन"
+, "क्लाउड कंप्यूटिंग"
+, "डेटा सेंटर प्रबंधन"</category><guid>https://hi.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerCLI से VMware vSphere प्रबंधित करने, कार्यों को स्वचालित करने और उत्पादकता बढ़ाने का तरीका जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>PowerShell के साथ Active Directory प्रशासन</title><link>https://hi.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "विंडोज़"
+, "PowerShell"
+, "Active Directory"
+, "प्रशासन"
+, "स्क्रिप्टिंग"
+, "आईटी"
+, "स्वचालन"
+, "Windows Server"
+, "Microsoft"</category><guid>https://hi.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+जानिए कि कैसे प्रभावी रूप से Active Directory मॉड्यूल को PowerShell के लिए इंस्टॉल और उपयोग करें ताकि आपके Windows Active Directory प्रशासन कार्य सरल हो सकें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/active-directory-module-powershell-installation-usage-guide.webp" length="86330" type="image/webp"/></item><item><title>कमज़ोरी प्रबंधन प्रणालियाँ: सुरक्षा जोखिम घटाएँ</title><link>https://hi.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"साइबर सुरक्षा"
+, "आईटी अवसंरचना"
+, "जोखिम न्यूनीकरण"
+, "अनुपालन"
+, "डेटा सुरक्षा"
+, "कमज़ोरी आकलन"
+, "सुरक्षा स्थिति"
+, "स्वचालन"
+, "एकीकरण"
+, "रिपोर्टिंग"</category><guid>https://hi.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+कमज़ोरी प्रबंधन प्रणालियों से अपने संगठन की सुरक्षा मजबूत करें और जोखिम घटाएँ। आज इनके लाभ और महत्व जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.webp" length="122958" type="image/webp"/></item><item><title>स्क्रिप्टों की सुरक्षा के लिए PowerShell की 10 सर्वोत्तम सुरक्षा प्रक्रियाएँ</title><link>https://hi.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"PowerShell सुरक्षा की सर्वोत्तम प्रक्रियाएँ"
+, "स्क्रिप्टिंग सुरक्षा"
+, "पासवर्ड सुरक्षा"
+, "आईटी सुरक्षा"
+, "साइबर सुरक्षा"
+, "Windows प्रशासन"
+, "स्वचालन"
+, "सुरक्षित कोड लेखन"
+, "नेटवर्क सुरक्षा"
+, "डेटा सुरक्षा"</category><guid>https://hi.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+एक्ज़ीक्यूशन नियंत्रण, कोड हस्ताक्षर, गोपनीय जानकारी की सुरक्षा, पहुँच सीमाओं और लॉगिंग से PowerShell स्क्रिप्ट और सत्र सुरक्षित करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp" length="76288" type="image/webp"/></item><item><title>Python से इमेज ऑप्टिमाइज़ करना</title><link>https://hi.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "वेब विकास"
+, "Python प्रोग्रामिंग"
+, "इमेज ऑप्टिमाइज़ेशन"
+, "SEO"
+, "वेब प्रदर्शन"
+, "उपयोगकर्ता अनुभव"
+, "सॉफ़्टवेयर विकास"
+, "स्वचालन"
+, "प्रोग्रामिंग"</category><guid>https://hi.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Python से इमेज का आकार बदलें, उन्हें संपीड़ित करें और Pillow के दोहराए जा सकने वाले वर्कफ़्लो से फ़ॉर्मैट बदलें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/An_illustration_of_a_Python_script_optimizing.webp" length="146766" type="image/webp"/></item><item><title>Ansible बनाम Semaphore बनाम Tower: स्वचालन की तुलना</title><link>https://hi.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"स्वचालन"
+, "बुनियादी ढाँचा प्रबंधन"
+, "कॉन्फ़िगरेशन प्रबंधन"
+, "DevOps"
+, "आईटी संचालन"
+, "ओपन सोर्स"
+, "कार्यप्रवाह प्रबंधन"
+, "स्केलेबिलिटी"
+, "सहयोग"
+, "Ansible टूल"</category><guid>https://hi.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+कार्यप्रवाह, प्रबंधन सुविधाओं और बुनियादी ढाँचे के उपयोग के आधार पर साधारण Ansible, Ansible Tower और Ansible Semaphore की तुलना करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/ansible-vs-ansible-semaphore-vs-ansible-tower.webp" length="132234" type="image/webp"/></item><item><title>CheckMK: आईटी अवसंरचना प्रबंधन के लिए निगरानी</title><link>https://hi.simeononsecurity.com/articles/what-is-check-mk/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "आईटी अवसंरचना"
+, "नेटवर्क निगरानी"
+, "ऐप्लिकेशन निगरानी"
+, "आईटी संचालन"
+, "प्रदर्शन विश्लेषण"
+, "स्वचालन"
+, "घटना प्रबंधन"
+, "विस्तार-क्षमता"
+, "लचीलापन"</category><guid>https://hi.simeononsecurity.com/articles/what-is-check-mk/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+सक्रिय आईटी अवसंरचना प्रबंधन के लिए CheckMK की सुविधाएँ, लाभ और उपयोग जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.webp" length="151812" type="image/webp"/></item><item><title>PowerShell स्क्रिप्टिंग</title><link>https://hi.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "प्रोग्रामिंग"
+, "स्वचालन"
+, "Windows"
+, "स्क्रिप्टिंग"
+, "आईटी"
+, "प्रशासनिक कार्य"
+, "कंप्यूटर प्रबंधन"
+, "सॉफ़्टवेयर विकास"
+, "कोडिंग"</category><guid>https://hi.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerShell स्क्रिप्टिंग की बुनियादी बातें सीखें और कमांडलेट, लूप, फ़ंक्शन आदि पर इस शुरुआती चरण-दर-चरण मार्गदर्शिका से काम स्वचालित करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.webp" length="52314" type="image/webp"/></item><item><title>होम लैब क्या है? आईटी पेशेवरों के लिए एक सेटअप मार्गदर्शिका</title><link>https://hi.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"होम लैब"
+, "आईटी पेशेवर"
+, "छात्र"
+, "शौकिया"
+, "नेटवर्किंग"
+, "वर्चुअलाइजेशन"
+, "स्वचालन"
+, "हार्डवेयर"
+, "सॉफ्टवेयर"
+, "सर्वोत्तम प्रथाएं"</category><guid>https://hi.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+अपने होम लैब की क्षमता को इस व्यापक मार्गदर्शिका के साथ अनलॉक करें, जो आईटी पेशेवरों, छात्रों और शौकिया लोगों के लिए डिज़ाइन की गई है, जिसमें सेटअप, घटक, उन्नत विषय और सर्वोत्तम प्रथाओं को शामिल किया गया है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp" length="167376" type="image/webp"/></item></channel></rss>

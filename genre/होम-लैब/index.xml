@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>होम लैब on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>होम लैब on simeononsecurity</title><link>https://hi.simeononsecurity.com/genre/%E0%A4%B9%E0%A5%8B%E0%A4%AE-%E0%A4%B2%E0%A5%88%E0%A4%AC/</link></image><link>https://hi.simeononsecurity.com/genre/%E0%A4%B9%E0%A5%8B%E0%A4%AE-%E0%A4%B2%E0%A5%88%E0%A4%AC/</link><description>Recent content in होम लैब on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/genre/%E0%A4%B9%E0%A5%8B%E0%A4%AE-%E0%A4%B2%E0%A5%88%E0%A4%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>Pi-hole से स्थानीय AI तक, 10 स्तरों में होम लैब बनाएँ</title><link>https://hi.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"होम लैब"
+, "सेल्फ़-होस्टिंग"
+, "स्थानीय AI"
+, "होम नेटवर्किंग"</category><guid>https://hi.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+पूरे नेटवर्क की DNS फ़िल्टरिंग से स्थानीय AI तक, दस व्यावहारिक चरणों में होम लैब बनाएँ। हर स्तर के हार्डवेयर, लागत, कौशल और समझौतों को जानें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Hyper-V VM को Proxmox VE पर माइग्रेट करें: वापस लौटने योग्य चेकलिस्ट</title><link>https://hi.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"वर्चुअलाइजेशन"
+, "सिस्टम प्रशासन"
+, "होम लैब"</category><guid>https://hi.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+बंद स्रोत VM का निर्यात, फर्मवेयर मिलान, डिस्क आयात, अलग नेटवर्क पर बूट परीक्षण और वापसी योजना के साथ Hyper-V VM को Proxmox VE पर ले जाएँ।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>Proxmox VM पुनर्स्थापन अभ्यास: साबित करें कि गेस्ट सिस्टम काम करता है</title><link>https://hi.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"वर्चुअलाइज़ेशन"
+, "बैकअप और पुनर्प्राप्ति"
+, "होम लैब"</category><guid>https://hi.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+अलग नेटवर्क में पुनर्स्थापन करके Proxmox VM बैकअप जाँचें। प्रोडक्शन को छुए बिना डिस्क कवरेज, बैकअप मोड, गेस्ट डेटा, सेवा की स्थिति और पुनर्प्राप्ति समय जाँचें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>2026 में स्थानीय AI: 27B मॉडल Sonnet 4.6 से आगे, हार्डवेयर खरीदने का अवसर घट रहा है</title><link>https://hi.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "स्व-होस्टेड AI"
+, "ओपन-सोर्स मॉडल"
+, "AI हार्डवेयर"
+, "मशीन लर्निंग"
+, "क्वांटाइज़ेशन"
+, "होम लैब"
+, "गोपनीयता"
+, "AI अर्थव्यवस्था"
+, "उपभोक्ता हार्डवेयर"</category><guid>https://hi.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+मॉडल आकार, VRAM, मेमोरी बैंडविड्थ, बिजली, लागत और अपग्रेड विकल्पों के आधार पर 2026 का स्थानीय AI कंप्यूटर चुनें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Proxmox VE 8 से 9 अपग्रेड गाइड</title><link>https://hi.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"वर्चुअलाइजेशन"
+, "Linux प्रशासन"
+, "Proxmox"
+, "सर्वर प्रबंधन"
+, "ओपन सोर्स"
+, "होम लैब"</category><guid>https://hi.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proxmox VE 8 को 9 में अपग्रेड करने के लिए पूर्व-जांच, मैनुअल चरण, स्वचालन, असंगत बदलाव और रिकवरी निर्देश पाएं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item><item><title>घरेलू नेटवर्क के लिए Firewalla: घर और होम लैब की सुरक्षा</title><link>https://hi.simeononsecurity.com/articles/firewalla-home-network-security-guide/</link><pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate><category>
+"प्रौद्योगिकी"
+, "साइबर सुरक्षा"
+, "घरेलू नेटवर्क"
+, "नेटवर्क सुरक्षा"
+, "IoT सुरक्षा"
+, "ऑनलाइन सुरक्षा"
+, "होम लैब"
+, "डिजिटल सुरक्षा"
+, "घुसपैठ पहचान"
+, "सामग्री फ़िल्टरिंग"</category><guid>https://hi.simeononsecurity.com/articles/firewalla-home-network-security-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+जानें कि Firewalla घरेलू नेटवर्क की सुरक्षा में कैसे मदद करता है, क्या यह होम लैब के लिए उपयुक्त है, और किन लाभों तथा सीमाओं पर विचार करना चाहिए।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/firewalla-home-network-security.webp" length="57452" type="image/webp"/></item><item><title>होम लैब क्या है? आईटी पेशेवरों के लिए एक सेटअप मार्गदर्शिका</title><link>https://hi.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"होम लैब"
+, "आईटी पेशेवर"
+, "छात्र"
+, "शौकिया"
+, "नेटवर्किंग"
+, "वर्चुअलाइजेशन"
+, "स्वचालन"
+, "हार्डवेयर"
+, "सॉफ्टवेयर"
+, "सर्वोत्तम प्रथाएं"</category><guid>https://hi.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+अपने होम लैब की क्षमता को इस व्यापक मार्गदर्शिका के साथ अनलॉक करें, जो आईटी पेशेवरों, छात्रों और शौकिया लोगों के लिए डिज़ाइन की गई है, जिसमें सेटअप, घटक, उन्नत विषय और सर्वोत्तम प्रथाओं को शामिल किया गया है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp" length="167376" type="image/webp"/></item></channel></rss>
