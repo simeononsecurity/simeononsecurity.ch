@@ -921,6 +921,13 @@
   Hugo 0.169 does not accept `--resourceDir`. When a copied render needs an
   isolated resource directory, set `resourceDir` in a task-scoped TOML overlay
   and include that overlay after the locale config in `--config`.
+  Before starting a locale matrix, run `hugo config --config
+  config/_default/config.toml,config/language/<locale>/config.toml,<overlay>`
+  with the exact config list used by the build. Check that the effective
+  `baseURL`, `timeout`, and `resourceDir` match the intended locale and temporary
+  paths. A rendered file left by an earlier attempt does not prove the current
+  build used the overlay or completed successfully. Record a fresh exit status
+  and log for every locale.
 - Mixed-language sentences need a phrase-level check even when the paragraph is
   mostly translated. The strict checker blocks unchanged generic phrases such
   as `incident response`, `best practices`, and `supply chain`; translate them
