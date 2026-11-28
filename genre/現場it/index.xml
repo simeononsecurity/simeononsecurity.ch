@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>現場IT on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>現場IT on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E7%8F%BE%E5%A0%B4it/</link></image><link>https://ja.simeononsecurity.com/genre/%E7%8F%BE%E5%A0%B4it/</link><description>Recent content in 現場IT on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E7%8F%BE%E5%A0%B4it/index.xml" rel="self" type="application/rss+xml"/><item><title>現場ITの実践ヒント：小型データセンターの先へ</title><link>https://ja.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"現場IT"
+, "エッジコンピューティング"
+, "IT運用"
+, "災害復旧"
+, "ハードウェア"
+, "ベストプラクティス"</category><guid>https://ja.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+予備部品、文書、ESD対策、ファームウェア、起動メディア、ライセンス、物理的な安全、出張、保険に関する現場ITの実践ガイドです。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp"/></item><item><title>現場展開型エッジコンピューティング: ハードウェアと筐体の選び方</title><link>https://ja.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"エッジコンピューティング"
+, "現場IT"
+, "ハードウェア"
+, "ホームラボ"
+, "堅牢型コンピューター"
+, "ネットワーク"
+, "災害復旧"
+, "中小企業IT"</category><guid>https://ja.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+現場向けエッジコンピューティング機器と筐体の選定ガイドです。計算機器、ラック、冷却、ストレージ、管理、配線、電源の互換性を扱います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>デジタル防御 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>デジタル防御 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E9%98%B2%E5%BE%A1/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E9%98%B2%E5%BE%A1/</link><description>Recent content in デジタル防御 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E9%98%B2%E5%BE%A1/index.xml" rel="self" type="application/rss+xml"/><item><title>サイバーレジリエンスを高める</title><link>https://ja.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</link><pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate><category>
+"侵入テスト"
+, "倫理的ハッキング"
+, "サイバーセキュリティ戦略"
+, "セキュリティ対策"
+, "脆弱性評価"
+, "インシデント対応"
+, "規制遵守"
+, "セキュリティ管理策"
+, "サイバーレジリエンス"
+, "サイバーセキュリティの将来"</category><guid>https://ja.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+定期的な侵入テストで悪用可能な弱点を見つけ、リスクに基づく修正を支援し、システムとアプリケーションの防御を検証する方法を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/the-importance-of-regular-penetration-testing-for-cybersecurity.webp" length="85258" type="image/webp"/></item><item><title>サイバー保険：契約前に知っておきたいこと</title><link>https://ja.simeononsecurity.com/articles/cyber-insurance_-what-you-need-to-know-before-you-buy/</link><pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><category>
+"サイバー保険の概要"
+, "保険契約の評価"
+, "保険会社の選定"
+, "保険金請求手続き"
+, "サイバー保険のベストプラクティス"
+, "デジタル脅威からの保護"
+, "リスク管理の知見"
+, "企業のセキュリティ戦略"
+, "データ侵害への備え"
+, "従業員向けサイバーセキュリティ研修"</category><guid>https://ja.simeononsecurity.com/articles/cyber-insurance_-what-you-need-to-know-before-you-buy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+自社に適した保険を選ぶ前に、補償範囲、免責事項、限度額、インシデント対応条件、セキュリティ要件を比較しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cyber-insurance_-what-you-need-to-know-before-you-buy.webp" length="77052" type="image/webp"/></item><item><title>人的ファイアウォールを築く：従業員向けセキュリティ研修</title><link>https://ja.simeononsecurity.com/articles/building-a-human-firewall_-training-employees-in-cybersecurity/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ研修"
+, "従業員の能力向上"
+, "人的ファイアウォール戦略"
+, "セキュリティ意識"
+, "デジタル防御技術"
+, "脅威の軽減"
+, "模擬サイバー攻撃"
+, "研修プログラム設計"
+, "研修効果の測定"
+, "継続的改善"</category><guid>https://ja.simeononsecurity.com/articles/building-a-human-firewall_-training-employees-in-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+役割別研修、現実的なフィッシング演習、明確な報告手順、有用な指標、定期的な復習を通じて人的ファイアウォールを構築します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/building-a-human-firewall_-training-employees-in-cybersecurity.webp" length="118578" type="image/webp"/></item><item><title>AIがサイバー脅威の検出と対応を改善する5つの方法</title><link>https://ja.simeononsecurity.com/articles/5-ways-ai-is-transforming-cyber-threat-detection/</link><pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティにおけるAI"
+, "脅威検出"
+, "変革をもたらすテクノロジー"
+, "サイバーセキュリティのイノベーション"
+, "データ分析"
+, "リアルタイム監視"
+, "セキュリティにおける機械学習"
+, "自然言語処理"
+, "深層学習"
+, "自動対応"</category><guid>https://ja.simeononsecurity.com/articles/5-ways-ai-is-transforming-cyber-threat-detection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+異常分析、行動モデル、マルウェア分類、リアルタイム監視、対応支援など、脅威検出におけるAIの5つの活用例を学びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/5-ways-ai-is-transforming-cyber-threat-detection.webp" length="242224" type="image/webp"/></item><item><title>家庭ネットワークのための10の必須サイバーセキュリティチェック</title><link>https://ja.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</link><pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate><category>
+"家庭ネットワークセキュリティ"
+, "サイバーセキュリティチェック"
+, "デジタル防御"
+, "ネットワーク保護"
+, "IoTセキュリティ"
+, "データプライバシー"
+, "サイバー脅威の防止"
+, "Wi-Fiセキュリティ"
+, "個人情報保護"
+, "デジタル安全のヒント"</category><guid>https://ja.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ルーターの更新、Wi-Fi暗号化、DNSセキュリティ、デバイスインベントリ、バックアップ、監視をカバーする10の実践的チェックで家庭ネットワークを監査します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/10-essential-cybersecurity-checks-for-your-home-network.webp" length="141312" type="image/webp"/></item><item><title>サイバーセキュリティでは高度な技術よりユーザー教育が重要な理由</title><link>https://ja.simeononsecurity.com/articles/user-training-vs-advanced-tech-cybersecurity/</link><pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "ユーザー教育"
+, "デジタルセキュリティ"
+, "データ保護"
+, "フィッシング対策"
+, "ソーシャルエンジニアリング"
+, "法令遵守"
+, "従業員教育"
+, "オンライン安全"
+, "情報セキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/user-training-vs-advanced-tech-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバーセキュリティでユーザー教育が高度な技術より重要な理由と、組織のデジタル防御を強化する方法を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/user-training-cybersecurity-defense.webp" length="105250" type="image/webp"/></item><item><title>サイバーセキュリティ用語をわかりやすく解説</title><link>https://ja.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</link><pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "テクノロジー"
+, "デジタルセキュリティ"
+, "オンラインの脅威"
+, "インターネットセキュリティ"
+, "データ保護"
+, "プライバシー"
+, "オンライン防御"
+, "ITセキュリティ"
+, "サイバー脅威"</category><guid>https://ja.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバーセキュリティの用語、脅威、技術、プライバシー規則をわかりやすく解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity-jargon-illustration.webp" length="150724" type="image/webp"/></item><item><title>EDRセキュリティの実践：エンドポイント保護ガイド</title><link>https://ja.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "エンドポイント保護"
+, "EDRソリューション"
+, "脅威検知"
+, "インシデント対応"
+, "エンドポイントセキュリティ"
+, "サイバー脅威"
+, "ITセキュリティ"
+, "デジタル防御"
+, "セキュリティ戦略"</category><guid>https://ja.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+EDRセキュリティの仕組み、利点、導入時の課題、エンドポイントを守るためのベストプラクティスを解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp"/></item></channel></rss>

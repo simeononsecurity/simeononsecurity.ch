@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT管理 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>IT管理 on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/it%E7%AE%A1%E7%90%86/</link></image><link>https://ja.simeononsecurity.com/genre/it%E7%AE%A1%E7%90%86/</link><description>Recent content in IT管理 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Thu, 29 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/it%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>古いサーバーを再生する：レガシーシステムを最新化する方法</title><link>https://ja.simeononsecurity.com/articles/reviving-old-servers_-tips-for-upgrading-legacy-systems/</link><pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate><category>
+"サーバーの更新"
+, "ITの最新化"
+, "データセンターの保守"
+, "テクノロジー基盤"
+, "レガシーシステムの最新化"
+, "システムの最適化"
+, "IT管理"
+, "技術更新の戦略"
+, "企業IT"
+, "エンタープライズコンピューティング"</category><guid>https://ja.simeononsecurity.com/articles/reviving-old-servers_-tips-for-upgrading-legacy-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+古いサーバーを最新化して性能、安全性、互換性を高め、計画的に更新する方法を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/reviving-old-servers_-tips-for-upgrading-legacy-systems.webp" length="94936" type="image/webp"/></item><item><title>最適なデータストレージ: HDD、SSD、クラウドを解説</title><link>https://ja.simeononsecurity.com/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</link><pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate><category>
+"データストレージ"
+, "テクノロジー"
+, "デジタルソリューション"
+, "HDDガイド"
+, "SSDの知識"
+, "クラウドコンピューティング"
+, "IT管理"
+, "ハードウェアレビュー"
+, "ソフトウェアのヒント"
+, "パーソナルコンピューティング"</category><guid>https://ja.simeononsecurity.com/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+HDD、SSD、クラウドストレージの選び方を解説します。あなたに適した選択肢はどれでしょうか。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options.webp" length="118244" type="image/webp"/></item><item><title>Windows Task SchedulerとLinux Cronのセキュリティ比較</title><link>https://ja.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "オペレーティングシステム"
+, "システム自動化"
+, "セキュリティツール"
+, "コンピュータ技術"
+, "タスクスケジューリング"
+, "ネットワークセキュリティ"
+, "システム管理"
+, "サイバー防御"
+, "IT管理"</category><guid>https://ja.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバーセキュリティとシステムの強化という観点から、Windows Task SchedulerとLinuxのCronジョブを比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>レジリエントなSOCを構築する</title><link>https://ja.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "テクノロジー"
+, "ビジネス"
+, "データ保護"
+, "インシデント対応"
+, "IT管理"
+, "ネットワークセキュリティ"
+, "脅威検知"
+, "情報セキュリティ"
+, "リスク管理"</category><guid>https://ja.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+堅牢なセキュリティ運用センター（SOC）を設置し、サイバー脅威に対抗してインシデントを検知し、組織の資産を保護します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>クラウドコンピューティング on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>クラウドコンピューティング on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/</link><description>Recent content in クラウドコンピューティング on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>Vast.ai における Llama 3.1 8B と Qwen3.8 27B の GPU ベンチマーク</title><link>https://ja.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカル AI"
+, "GPU ベンチマーク"
+, "セルフホスト AI"
+, "クラウドコンピューティング"
+, "人工知能"
+, "AI 経済"</category><guid>https://ja.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+主要な Vast.ai GPU で測定した Llama 3.1 8B と Qwen3.8 27B の Ollama ベンチマーク。デコード速度、長いコンテキスト、レンタル費用、セルフホスト、API クレジット、サブスクリプションを比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Ansible vs Puppet vs Chef 2026: 構成管理</title><link>https://ja.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "インフラ自動化"
+, "構成管理"
+, "IT運用"
+, "クラウドコンピューティング"
+, "システム管理"
+, "エンタープライズIT"
+, "ソフトウェア開発"
+, "ITインフラ"
+, "自動化ツール"</category><guid>https://ja.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ansible、Puppet、Chefをアーキテクチャ、機能、学習曲線、性能、価格、用途別に比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>仮想化の基礎：ITの効率性と拡張性を高める</title><link>https://ja.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</link><pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate><category>
+"仮想化ガイド"
+, "ITインフラ"
+, "技術革新"
+, "クラウドコンピューティング"
+, "データセンター管理"
+, "計算効率"
+, "ネットワークソリューション"
+, "サイバーセキュリティ"
+, "ソフトウェアの進歩"
+, "ハードウェア最適化"</category><guid>https://ja.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ITの性能向上に役立つ仮想化を解説します。種類や利点、インフラ管理のベストプラクティスを紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/understanding-virtualization_-concepts-and-applications.webp" length="103918" type="image/webp"/></item><item><title>最適なデータストレージ: HDD、SSD、クラウドを解説</title><link>https://ja.simeononsecurity.com/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</link><pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate><category>
+"データストレージ"
+, "テクノロジー"
+, "デジタルソリューション"
+, "HDDガイド"
+, "SSDの知識"
+, "クラウドコンピューティング"
+, "IT管理"
+, "ハードウェアレビュー"
+, "ソフトウェアのヒント"
+, "パーソナルコンピューティング"</category><guid>https://ja.simeononsecurity.com/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+HDD、SSD、クラウドストレージの選び方を解説します。あなたに適した選択肢はどれでしょうか。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options.webp" length="118244" type="image/webp"/></item><item><title>VMware vs Hyper-V vs Proxmox：仮想化の比較</title><link>https://ja.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link><pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "仮想化"
+, "ITインフラストラクチャ"
+, "サーバー仮想化"
+, "エンタープライズソフトウェア"
+, "クラウドコンピューティング"
+, "データセンターソリューション"
+, "オープンソース仮想化"
+, "仮想マシン管理"
+, "仮想化比較"</category><guid>https://ja.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+VMware ESXi、Citrix XenServer、Hyper-V、Proxmox VE、XCP-NGを簡単に比較し、ビジネス成功のための理想的な仮想化ソリューションを選びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp"/></item><item><title>FedRAMP：政府向けクラウドを安全にする仕組み</title><link>https://ja.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</link><pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "サイバーセキュリティ"
+, "政府"
+, "クラウドサービス"
+, "コンプライアンス"
+, "連邦規制"
+, "情報セキュリティ"
+, "リスク管理"
+, "クラウドコンピューティング"
+, "データ保護"</category><guid>https://ja.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+FedRAMPは米国政府が利用するクラウドソリューションの安全性を高めます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/Secure-Cloud-Government-Shield.webp" length="63200" type="image/webp"/></item><item><title>Azure for Studentsで可能性を広げる</title><link>https://ja.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "クラウドコンピューティング"
+, "学生向けリソース"
+, "ソフトウェア開発"
+, "Microsoft Azure"
+, "Windows Server"
+, "Windows 10"
+, "Windows 11"
+, "Visual Studio"
+, "学習ツール"</category><guid>https://ja.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Microsoft Azure for Studentsの対象条件、提供ソフトウェア、アカウントの制限、利用開始の手順を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/azure_for_students_animated_cloud.webp" length="73614" type="image/webp"/></item><item><title>vSphere 管理のための PowerCLI 活用ガイド</title><link>https://ja.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "仮想化"
+, "VMware"
+, "IT 管理"
+, "自動化"
+, "コマンドラインインターフェース"
+, "スクリプト"
+, "システム管理"
+, "クラウドコンピューティング"
+, "データセンター管理"</category><guid>https://ja.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerCLI を使って VMware vSphere を管理し、作業を自動化して生産性を高める方法を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>サイバーセキュリティとIT担当者向けのOracle無料認定資格</title><link>https://ja.simeononsecurity.com/articles/free-oracle-certifications-cybersecurity-it-professionals/</link><pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "IT認定資格"
+, "専門能力の開発"
+, "Oracle認定資格"
+, "クラウドコンピューティング"
+, "データ管理"
+, "キャリアアップ"
+, "オンライン学習"
+, "技術教育"</category><guid>https://ja.simeononsecurity.com/articles/free-oracle-certifications-cybersecurity-it-professionals/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバーセキュリティとIT職向けのOracle無料認定資格を紹介します。OCIの分野、前提知識、キャリアとの適合性を確認できます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_animated_image_featuring_a_professional_cyb.webp" length="87826" type="image/webp"/></item><item><title>AWS・Azure・Google Cloudを比較 2026年版：クラウドプラットフォーム完全ガイド</title><link>https://ja.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"クラウドコンピューティング"
+, "クラウドセキュリティ"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "データセキュリティ"
+, "暗号化"
+, "IDおよびアクセス管理"
+, "コンプライアンス"
+, "脅威検知"</category><guid>https://ja.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年のAWS、Microsoft Azure、Google Cloud Platformを比較します。料金、セキュリティ、コンプライアンス、サービス、性能を分析し、要件に合うクラウド事業者の選び方を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item><item><title>効果的な情報システム管理者のためのキースキル</title><link>https://ja.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</link><pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate><category>
+"技術情報"
+, "事業内容"
+, "マネジメント"
+, "インフォメーション"
+, "キャリア開発"
+, "デジタルトランスフォーメーション"
+, "データ分析"
+, "クラウドコンピューティング"
+, "プロジェクトマネジメント"
+, "リーダーシップ"</category><guid>https://ja.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+今日のデジタル社会で成功するために、情報システム部門のマネージャーが持つべき5つの重要なスキルをご紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.webp" length="179058" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qwen3.6 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>Qwen3.6 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/qwen3.6/</link></image><link>https://ja.simeononsecurity.com/tags/qwen3.6/</link><description>Recent content in Qwen3.6 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/qwen3.6/index.xml" rel="self" type="application/rss+xml"/><item><title>Hermes向けローカルモデル検証：選びたいGPUとモデルの組み合わせ</title><link>https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ローカルAI"
+, "ハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+RTX 5060 Ti、RTX 2000E Ada、RTX 3060 Ti、RTX 3070での長いコンテキスト、ツール、ストリーミング、画像認識の検証に基づくHermes向けモデルの推奨です。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>RTX 5060 Ti 2枚とGB10を比較: 256Kコンテキストで5モデルのローカルAIを検証</title><link>https://ja.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ローカルAI"
+, "GPUハードウェア"
+, "ベンチマーク"
+, "コンピューターハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+RTX 5060 TiとGB10を5モデルで比較し、同一ホストでQwen3.8 Flash-NextとStrataを256Kコンテキストまで測定します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>MetaのContext Language Models：エージェントの記憶を改善するが、幻覚を終わらせるものではない</title><link>https://ja.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "AIエージェント"
+, "ローカルAI"
+, "AIセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Context Language Modelsによるエージェント記憶の編集方法、ベンチマークが示す内容、キャッシュ費用やモデル能力、信頼できないメモが信頼性に与える影響を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>埋め込み on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>埋め込み on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF/</link></image><link>https://ja.simeononsecurity.com/tags/%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF/</link><description>Recent content in 埋め込み on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF/index.xml" rel="self" type="application/rss+xml"/><item><title>セルフホスト Hindsight: エージェントのローカルメモリとプライベートなモデルルーティング</title><link>https://ja.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"ローカル AI"
+, "セルフホスト AI"
+, "AI エージェント"
+, "AI インフラ"
+, "プライバシー"</category><guid>https://ja.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+セルフホスト Hindsight、観測したローカル Qwen 経路、確認した経路でホスト型モデルの契約なしに行うリクエスト単位の GPU 処理を紹介する事例です。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>ハイブリッドAIエージェントフリートの内部：Hermes、LiteLLM、Tailscale</title><link>https://ja.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "セルフホストAI"
+, "AIエージェント"
+, "AIインフラ"
+, "GPUマイニング"</category><guid>https://ja.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hermes、LiteLLM、Tailscale Aperture、Pearlマイニングを使った、検証済みのオンデマンド型ローカルAIフリートとT0〜T4の制御プレーンを紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>AIソース検索: マップ、検索、オプションのRAG</title><link>https://ja.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "チームコラボレーション"
+, "ソフトウェアエンジニアリング"</category><guid>https://ja.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+権限を変えずに、マップ優先のソース検索、ネイティブ検索、ライブソース検証、オプションのRAG評価を使います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item></channel></rss>

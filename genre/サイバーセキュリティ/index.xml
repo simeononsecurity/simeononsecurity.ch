@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>サイバーセキュリティ on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>サイバーセキュリティ on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link><description>Recent content in サイバーセキュリティ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>Open WebUI v0.12.4：アップグレードとアクセス制御チェックリスト 2026</title><link>https://ja.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"セルフホスト AI"
+, "サイバーセキュリティ"
+, "システム管理"</category><guid>https://ja.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Open WebUI をバックアップして v0.12.4 にアップグレードし、チャット共有、エクスポート権限、リソースへの許可、アカウント、ネットワークアクセスをテストします。</description></item><item><title>Thunderbird 153.6: WindowsでのNTLM認証情報漏えいと更新方法 (2026)</title><link>https://ja.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "メールセキュリティ"
+, "Windowsセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+細工されたメールを表示すると、2つの重大なThunderbirdの脆弱性によりWindowsのNTLM認証データが漏えいするおそれがあります。2つの仕組み、バージョンの確認方法、更新中に送信SMBを制限する方法を説明します。</description></item><item><title>2026年のAIインフラブーム：需要、債務、電力、根拠</title><link>https://ja.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "AI経済"
+, "データセンター"
+, "クラウドインフラ"
+, "サイバーセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AIインフラ投資、データセンターの電力需要、資金調達の構造、企業価値、市場をバブルと呼ぶ前に必要な根拠を検証する記事です。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>ローカルAIのプライバシー境界: コンピューターに残るものと残らないもの</title><link>https://ja.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "プライバシー"
+, "セルフホストAI"
+, "サイバーセキュリティ"
+, "AI経済"</category><guid>https://ja.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ローカル推論かホスト型AIサービスかを選ぶ前に、プロンプト、モデルファイル、ツール、ログ、ネットワーク公開範囲、電力コストを確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>自分に合うサイバーセキュリティの仕事は？16の出発点と多様なキャリア</title><link>https://ja.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "キャリア"</category><guid>https://ja.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+性格タイプをテーマにした動画と各タイプに関連する複数の職種を紹介し、実際の業務に基づいてキャリアを比べるための実践課題を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity-careers-personality-paths.webp" length="155796" type="image/webp"/></item><item><title>Microsoft SOCホームラボ：2026年にサイバーセキュリティ経験を積む</title><link>https://ja.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "クラウドセキュリティ"
+, "キャリア開発"</category><guid>https://ja.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Sentinel、Defender、Intune、Entraを使ってMicrosoft SOCホームラボを構築します。インシデント調査やパスキーポリシーを検証し、ポートフォリオ用の証拠を記録します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>よくあるサイバー攻撃の種類と防御側の検知方法</title><link>https://ja.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "脅威検知"
+, "ブルーチーム"
+, "セキュリティ運用"
+, "キャリア開発"</category><guid>https://ja.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+よくあるサイバー攻撃の種類と、ログやテレメトリーに残る証拠を学び、自宅のセキュリティラボで検知を練習しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item><item><title>Flock Safetyカメラの脆弱性: 50件以上の欠陥を発見</title><link>https://ja.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"セキュリティ研究"
+, "脆弱性分析"
+, "監視技術"
+, "サイバーセキュリティ"
+, "プライバシー保護"
+, "IoTセキュリティ"
+, "物理セキュリティ"
+, "ネットワークセキュリティ"
+, "重要インフラ"
+, "行政技術"</category><guid>https://ja.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safetyカメラの脆弱性調査では、認証情報の露出、脆弱な保護、物理アクセス、脆弱性開示の限界を検証します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>Fortinet対Cisco：ネットワークセキュリティの完全比較</title><link>https://ja.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"ネットワークセキュリティ"
+, "サイバーセキュリティ"
+, "エンタープライズネットワーキング"
+, "ファイアウォール比較"
+, "ITインフラ"
+, "ネットワークハードウェア"
+, "セキュリティソリューション"
+, "ネットワーク管理"
+, "技術比較"
+, "IT意思決定"</category><guid>https://ja.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+FortinetとCiscoのネットワークセキュリティソリューションを包括的に比較。ファイアウォール、スイッチ、SD-WAN、価格、パフォーマンスベンチマーク、2026年の導入推奨を含む。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp"/></item><item><title>サイバーセキュリティ資格比較 2026</title><link>https://ja.simeononsecurity.com/articles/cybersecurity-certifications-comparison-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "IT資格"
+, "キャリア開発"
+, "専門職研修"
+, "情報セキュリティ"
+, "テクノロジー教育"
+, "セキュリティ研修"
+, "ITキャリアパス"
+, "専門能力開発"
+, "資格ガイド"</category><guid>https://ja.simeononsecurity.com/articles/cybersecurity-certifications-comparison-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年のサイバーセキュリティ資格提供機関を比較し、料金、投資対効果、キャリアパスとの適合性を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity-certifications-comparison-guide-2026.webp" length="276310" type="image/webp"/></item><item><title>Wi-Fiの問題を解決する: よくある障害への実用的な対処法</title><link>https://ja.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</link><pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate><category>
+"Wi-Fiのトラブルシューティング"
+, "ワイヤレスソリューション"
+, "技術サポート"
+, "接続のヒント"
+, "ホームネットワーク"
+, "インターネットガイド"
+, "Wi-Fiの最適化"
+, "サイバーセキュリティ"
+, "実用的な技術"
+, "ネットワーク性能"</category><guid>https://ja.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+電波の改善、切断の低減、安全性の強化に役立つ方法でWi-Fiの問題を解決します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/wireless-connectivity_-troubleshooting-common-wi-fi-problems.webp" length="61888" type="image/webp"/></item><item><title>仮想化の基礎：ITの効率性と拡張性を高める</title><link>https://ja.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</link><pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate><category>
+"仮想化ガイド"
+, "ITインフラ"
+, "技術革新"
+, "クラウドコンピューティング"
+, "データセンター管理"
+, "計算効率"
+, "ネットワークソリューション"
+, "サイバーセキュリティ"
+, "ソフトウェアの進歩"
+, "ハードウェア最適化"</category><guid>https://ja.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ITの性能向上に役立つ仮想化を解説します。種類や利点、インフラ管理のベストプラクティスを紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/understanding-virtualization_-concepts-and-applications.webp" length="103918" type="image/webp"/></item><item><title>ネットワーク接続の問題を解決して安定した性能を保つ方法</title><link>https://ja.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</link><pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate><category>
+"ネットワークのヒント"
+, "ITソリューション"
+, "事業継続"
+, "サイバーセキュリティ"
+, "技術的なトラブルシューティング"
+, "デジタルインフラ"
+, "インターネットの信頼性"
+, "システム復旧"
+, "ネットワーク管理"
+, "技術サポート"</category><guid>https://ja.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+実証済みの診断方法で接続の問題を特定し、ネットワークの安定した性能を保ちましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/ensuring-network-reliability_-how-to-troubleshoot-connection-issues.webp" length="200054" type="image/webp"/></item><item><title>NATとPAT：ネットワーク通信の基本ガイド</title><link>https://ja.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"ネットワークの基礎"
+, "サイバーセキュリティ"
+, "ITインフラ"
+, "技術ガイド"
+, "ネットワーク管理"
+, "インターネットプロトコル"
+, "通信技術"
+, "システム管理"
+, "ネットワークエンジニアリング"
+, "デジタルネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+NATとPATを理解し、デジタル通信を円滑にしましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item><item><title>ネットワークを最適化する: 設計とトポロジーを理解する</title><link>https://ja.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><category>
+"ネットワークエンジニアリング"
+, "ITインフラ"
+, "技術ガイド"
+, "ネットワークソリューション"
+, "サイバーセキュリティ"
+, "コンピューターサイエンス"
+, "技術教育"
+, "システムアーキテクチャ"
+, "ネットワーク最適化"
+, "技術革新"</category><guid>https://ja.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ネットワーク設計とトポロジーを理解し、効率を最大化する構成を見極めましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/decoding-network-designs_-types-and-topologies-explained.webp" length="121144" type="image/webp"/></item><item><title>ネットワークを最適化する：DNS設定の基本</title><link>https://ja.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><category>
+"ネットワーク管理"
+, "サイバーセキュリティ"
+, "ITインフラ"
+, "技術ソリューション"
+, "インターネット技術"
+, "DNS最適化"
+, "ネットワーク性能"
+, "デジタルセキュリティ"
+, "インターネット接続"
+, "技術ガイド"</category><guid>https://ja.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+DNSの知識を使ってネットワークを改善しましょう。DNSが接続性、性能、セキュリティに与える影響を学び、設定を最適化します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp"/></item><item><title>EU域外企業のためのGDPRコンプライアンスガイド（2024年）</title><link>https://ja.simeononsecurity.com/articles/understanding-gdpr_-a-guide-for-non-eu-businesses/</link><pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate><category>
+"データ保護"
+, "サイバーセキュリティ"
+, "コンプライアンスガイド"
+, "GDPRの基礎"
+, "プライバシー法"
+, "企業セキュリティ"
+, "国際データ規制"
+, "デジタルコンプライアンス"
+, "EU顧客の信頼"
+, "データセキュリティのベストプラクティス"</category><guid>https://ja.simeononsecurity.com/articles/understanding-gdpr_-a-guide-for-non-eu-businesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+EU域外企業にGDPRが適用される条件と、適法なデータ処理、個人の権利の尊重、侵害の報告、データ移転、委託先管理、記録保存の方法を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/understanding-gdpr_-a-guide-for-non-eu-businesses.webp" length="68080" type="image/webp"/></item><item><title>eコマースのセキュリティを強化する</title><link>https://ja.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</link><pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate><category>
+"eコマースセキュリティ"
+, "サイバーセキュリティ"
+, "データ保護"
+, "オンラインビジネス"
+, "ウェブサイトセキュリティ"
+, "顧客の信頼"
+, "安全な取引"
+, "SSL暗号化"
+, "パスワードポリシー"
+, "セキュリティのベストプラクティス"</category><guid>https://ja.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+TLS、管理者のMFA、ソフトウェア更新、決済管理、暗号化、監視、従業員教育、不正対策、インシデント対応でオンラインストアを保護します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/the-2024-checklist-for-securing-your-e-commerce-site.webp" length="88770" type="image/webp"/></item><item><title>社内脅威から会社を守るための戦略</title><link>https://ja.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</link><pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "企業セキュリティ"
+, "社内脅威"
+, "データ保護"
+, "従業員教育"
+, "セキュリティ対策"
+, "インシデント対応"
+, "行動分析"
+, "ユーザー活動の監視"
+, "セキュリティ文化"</category><guid>https://ja.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+アクセス制御、活動監視、報告窓口、退職時の手順、安全を重視する職場文化によって、社内脅威のリスクを減らします。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/protecting-against-insider-threats_-strategies-for-your-company.webp" length="87882" type="image/webp"/></item><item><title>次世代ファイアウォール：ビジネスに欠かせない機能</title><link>https://ja.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</link><pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "ネットワークセキュリティ"
+, "ファイアウォール技術"
+, "企業セキュリティ"
+, "クラウド統合"
+, "デジタル脅威"
+, "ネットワーク管理"
+, "セキュリティソリューション"
+, "オンライン安全"
+, "テクノロジーの知見"</category><guid>https://ja.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+アプリケーション制御、侵入防止、脅威対策、クラウド対応、スループット、可用性、管理機能を基準に次世代ファイアウォールを選びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/next-gen-firewalls_-features-you-can%27t-ignore-for-your-business.webp" length="128018" type="image/webp"/></item><item><title>秘密を解き明かす</title><link>https://ja.simeononsecurity.com/articles/navigating-the-dark-web-safely_-a-beginners-guide/</link><pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "サイバーセキュリティ"
+, "インターネット上のプライバシー"
+, "ダークウェブの探索"
+, "オンラインの安全"
+, "デジタル上の匿名性"
+, "ウェブの安全"
+, "インターネット倫理"
+, "VPNガイド"
+, "Torネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/navigating-the-dark-web-safely_-a-beginners-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Torやプライバシー設定、詐欺やマルウェアへの対策、法的な境界、本人確認情報の保護、通報手順を理解し、ダークウェブをより安全に閲覧しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/navigating-the-dark-web-safely_-a-beginners-guide.webp" length="90360" type="image/webp"/></item><item><title>インシデント対応計画：段階的な実践ガイド</title><link>https://ja.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "インシデント対応"
+, "企業セキュリティ"
+, "サイバー脅威"
+, "リスク管理"
+, "セキュリティ計画"
+, "データ保護"
+, "ITセキュリティ"
+, "デジタルレジリエンス"
+, "危機管理"</category><guid>https://ja.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+役割、連絡経路、手順書、ツール、演習、指標、継続的な更新方法を定めたインシデント対応計画を作成します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.webp" length="96088" type="image/webp"/></item><item><title>小規模企業向けフィッシング対策：完全ガイド</title><link>https://ja.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "小規模企業の保護"
+, "フィッシング詐欺"
+, "従業員教育"
+, "メールセキュリティ"
+, "多要素認証"
+, "セキュリティ監査"
+, "ソーシャルエンジニアリングの手口"
+, "デジタル脅威"
+, "オンラインセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+従業員教育、メール制御、確認手順、報告方法、検証済みのインシデント対応を通じて、小規模企業をフィッシングから守ります。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/how-to-protect-your-small-business-from-phishing-scams.webp" length="88634" type="image/webp"/></item><item><title>SSL/TLS セキュリティガイド：ウェブサイトのデータを保護する</title><link>https://ja.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "テクノロジー"
+, "ウェブセキュリティ"
+, "データ暗号化"
+, "インターネットプロトコル"
+, "デジタルプライバシー"
+, "オンラインセキュリティ"
+, "SSL/TLS の実装"
+, "サイバー脅威"
+, "サイバーセキュリティの未来"</category><guid>https://ja.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+強力な暗号化でウェブサイトを保護する SSL/TLS の仕組みを学びます。脆弱性、ベストプラクティス、サイバーセキュリティの今後を確認し、今日からサイトの安全性を高めましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/TLS_%20Securing%20Your%20Website%20Data.webp" length="171950" type="image/webp"/></item><item><title>セキュリティ自動化：デジタル防御を強化するためのガイド</title><link>https://ja.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><category>
+"セキュリティ自動化"
+, "サイバーセキュリティ"
+, "セキュリティにおける機械学習"
+, "コンプライアンスの自動監視"
+, "セキュリティオーケストレーション"
+, "インシデント対応"
+, "継続的改善"
+, "セキュリティにおける人の監督"
+, "脅威の検知と対応"
+, "セキュリティのベストプラクティス"</category><guid>https://ja.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+明確なユースケース、ツール連携、人によるレビュー、アラート調整、指標、機械学習システムの統制を通じてセキュリティ自動化を計画します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/mastering-security-automation_-streamlining-processes-for-enhanced-protection.webp" length="253188" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>開発者ツール on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>開発者ツール on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E9%96%8B%E7%99%BA%E8%80%85%E3%83%84%E3%83%BC%E3%83%AB/</link></image><link>https://ja.simeononsecurity.com/tags/%E9%96%8B%E7%99%BA%E8%80%85%E3%83%84%E3%83%BC%E3%83%AB/</link><description>Recent content in 開発者ツール on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E9%96%8B%E7%99%BA%E8%80%85%E3%83%84%E3%83%BC%E3%83%AB/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude Code CLI と Desktop: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ターミナルとデスクトップの Code ワークスペースで Claude Code を比較します。共有設定、セッション引き継ぎ、スクリプト、視覚的なレビュー、権限の選択を扱います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp" length="22556" type="image/webp"/></item><item><title>CLI コーディングエージェント比較: Claude Code、Codex、Gemini、OpenCode、Copilot、Aider</title><link>https://ja.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+6 つのターミナルコーディングエージェントを、ワークフロー、自動化、モデルアクセス、権限、レビュー作業で比較します。再現可能なリポジトリ試験で候補を絞ります。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp" length="39756" type="image/webp"/></item><item><title>Codex CLI 対 Desktop: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ターミナルの Codex と OpenAI のデスクトップ開発環境を比較します。スクリプト、worktree、目視レビュー、スケジュール、実行環境を確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp"/></item><item><title>GitHub Copilot CLI と VS Code: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Copilot のターミナルエージェントと VS Code 体験を比較します。エディターコンテキスト、ビジュアル差分、Agent モード、CLI 統合、アカウントポリシーを扱います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp"/></item><item><title>Visual Studio Code と Visual Studio の比較</title><link>https://ja.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"開発ツール"
+, "IDE"
+, "ソフトウェア開発"
+, "プログラミング"
+, "コードエディター"
+, "Visual Studio"
+, "VS Code"
+, "Microsoft 開発"
+, "開発者ツール"
+, "ソフトウェア工学"</category><guid>https://ja.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Visual Studio Code と Visual Studio Community/Professional/Enterprise の機能、パフォーマンス、価格、ユースケースを網羅的に比較し、開発者が最適なIDEを選択できるよう支援する2026年版総合ガイド。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/visual-studio-code-vs-visual-studio-comparison.webp" length="147806" type="image/webp"/></item><item><title>現代の開発者に必要なプログラミング言語</title><link>https://ja.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</link><pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate><category>
+"ソフトウェア開発"
+, "プログラミング教育"
+, "技術職"
+, "プログラミングチュートリアル"
+, "デジタルスキル"
+, "アプリケーション開発"
+, "コンピューターサイエンス"
+, "新興技術"
+, "プログラミング言語"
+, "開発ツール"</category><guid>https://ja.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+動的なソフトウェアの開発に役立つプログラミング言語を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/fundamentals-of-coding_-languages-you-should-know.webp" length="71288" type="image/webp"/></item><item><title>C++ 開発におすすめの VS Code 拡張機能</title><link>https://ja.simeononsecurity.com/articles/best-visual-studio-code-extensions-for-cpp-development/</link><pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate><category>
+"プログラミング"
+, "ソフトウェア開発"
+, "C++ 開発"
+, "Visual Studio Code"
+, "コードエディター"
+, "生産性"
+, "開発ツール"
+, "IDE"
+, "コード最適化"
+, "コード効率"</category><guid>https://ja.simeononsecurity.com/articles/best-visual-studio-code-extensions-for-cpp-development/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Visual Studio Code でのコーディング体験を改善し、生産性を高めるおすすめの C++ 拡張機能を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/best-visual-studio-code-extensions-for-cpp-development.webp" length="147434" type="image/webp"/></item></channel></rss>

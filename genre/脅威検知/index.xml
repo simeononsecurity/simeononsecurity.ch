@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>脅威検知 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>脅威検知 on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E8%84%85%E5%A8%81%E6%A4%9C%E7%9F%A5/</link></image><link>https://ja.simeononsecurity.com/genre/%E8%84%85%E5%A8%81%E6%A4%9C%E7%9F%A5/</link><description>Recent content in 脅威検知 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E8%84%85%E5%A8%81%E6%A4%9C%E7%9F%A5/index.xml" rel="self" type="application/rss+xml"/><item><title>よくあるサイバー攻撃の種類と防御側の検知方法</title><link>https://ja.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "脅威検知"
+, "ブルーチーム"
+, "セキュリティ運用"
+, "キャリア開発"</category><guid>https://ja.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+よくあるサイバー攻撃の種類と、ログやテレメトリーに残る証拠を学び、自宅のセキュリティラボで検知を練習しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item><item><title>レジリエントなSOCを構築する</title><link>https://ja.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "テクノロジー"
+, "ビジネス"
+, "データ保護"
+, "インシデント対応"
+, "IT管理"
+, "ネットワークセキュリティ"
+, "脅威検知"
+, "情報セキュリティ"
+, "リスク管理"</category><guid>https://ja.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+堅牢なセキュリティ運用センター（SOC）を設置し、サイバー脅威に対抗してインシデントを検知し、組織の資産を保護します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>EDRセキュリティの実践：エンドポイント保護ガイド</title><link>https://ja.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "エンドポイント保護"
+, "EDRソリューション"
+, "脅威検知"
+, "インシデント対応"
+, "エンドポイントセキュリティ"
+, "サイバー脅威"
+, "ITセキュリティ"
+, "デジタル防御"
+, "セキュリティ戦略"</category><guid>https://ja.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+EDRセキュリティの仕組み、利点、導入時の課題、エンドポイントを守るためのベストプラクティスを解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp"/></item><item><title>防御を強化する：EDRサイバーセキュリティソリューション</title><link>https://ja.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "テクノロジー"
+, "脅威検知"
+, "エンドポイントセキュリティ"
+, "インシデント対応"
+, "データ保護"
+, "ネットワークセキュリティ"
+, "デジタル防御"
+, "ITセキュリティ"
+, "サイバーレジリエンス"</category><guid>https://ja.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+EDRソリューションによるエンドポイント保護、脅威検知、組織に適した製品の選び方を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp"/></item><item><title>AWS・Azure・Google Cloudを比較 2026年版：クラウドプラットフォーム完全ガイド</title><link>https://ja.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"クラウドコンピューティング"
+, "クラウドセキュリティ"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "データセキュリティ"
+, "暗号化"
+, "IDおよびアクセス管理"
+, "コンプライアンス"
+, "脅威検知"</category><guid>https://ja.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年のAWS、Microsoft Azure、Google Cloud Platformを比較します。料金、セキュリティ、コンプライアンス、サービス、性能を分析し、要件に合うクラウド事業者の選び方を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item></channel></rss>

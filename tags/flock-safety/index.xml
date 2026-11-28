@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Flock Safety on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>Flock Safety on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/flock-safety/</link></image><link>https://ja.simeononsecurity.com/tags/flock-safety/</link><description>Recent content in Flock Safety on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/flock-safety/index.xml" rel="self" type="application/rss+xml"/><item><title>146,526件の「Flockカメラ」をマッピングした結果、50,278件はClickShareシステムでした</title><link>https://ja.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link><pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate><category>
+"セキュリティ研究"
+, "プライバシー技術"
+, "オープンソースプロジェクト"
+, "データジャーナリズム"
+, "監視への対抗"</category><guid>https://ja.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finderの監査でClickShareなどの誤検出を特定し、根拠と改善内容を説明します。</description></item><item><title>Flock Safety の売り文句：令状なしであらゆる移動にアクセス</title><link>https://ja.simeononsecurity.com/articles/flock-safety-sales-pitch-warrantless-access-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"プライバシー技術"
+, "デジタル権利"
+, "監視"
+, "法的分析"
+, "対監視"</category><guid>https://ja.simeononsecurity.com/articles/flock-safety-sales-pitch-warrantless-access-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safety の販売メッセージ、移動データへのアクセス、令状なしの捜索が提起する憲法上の問題を検討します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-safety-warrantless-access-surveillance-database.webp" length="440804" type="image/webp"/></item><item><title>Flockカメラ検出競争：2026年に変わったこと</title><link>https://ja.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"プライバシー技術"
+, "対監視"
+, "オープンソースプロジェクト"
+, "デジタル権利"
+, "ネットワークセキュリティ"
+, "セキュリティ研究"
+, "ハードウェア改造"
+, "プライバシーツール"</category><guid>https://ja.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safetyの検出方法に報告された変更、コミュニティの対応、カメラを識別する赤外線方式を確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>Flockカメラ：公共安全ツールか、令状なし監視機械か？</title><link>https://ja.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"プライバシー"
+, "監視"
+, "市民的自由"
+, "法執行技術"
+, "デジタル権利"</category><guid>https://ja.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safety ALPRカメラの独立した分析：実際の仕組み、ナンバープレート以外に収集されるデータ、データ共有による影の全国データベースの形成、そして令状問題が真の核心である理由。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-safety-cameras-public-safety-surveillance.webp" length="257030" type="image/webp"/></item><item><title>Flock Finder: Flock Safety ALPRカメラのマッピングツール</title><link>https://ja.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"プライバシー技術"
+, "対監視"
+, "オープンソースプロジェクト"
+, "デジタル権利"
+, "ネットワークセキュリティ"
+, "プライバシーツール"
+, "ハードウェアハッキング"
+, "セキュリティ研究"</category><guid>https://ja.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock FinderはWiGLE WiFiデータとOUIフィンガープリンティングを使用して、世界中の40,000以上のFlock Safety ALPRカメラをマッピングするオープンソースツールです。仕組み、制限事項、およびリアルタイム検出のハードウェアツールについて学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Eye Spy: ESP32向けパッシブ監視・トラッカー検出器</title><link>https://ja.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"プライバシーツール"
+, "対監視"
+, "IoTセキュリティ"
+, "組み込みシステム"
+, "セキュリティ研究"
+, "WiFiセキュリティ"
+, "Bluetoothセキュリティ"
+, "ESP32プロジェクト"
+, "ハードウェアセキュリティ"
+, "オープンソースセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+BLEとWiFiを使うESP32用パッシブ検出器、Eye Spy v1.1の技術資料です。カメラ、トラッカー、ドローンなどの信号を検出します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>Flock Safety カメラ監視：プライバシーと保護</title><link>https://ja.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"プライバシー技術"
+, "監視システム"
+, "デジタル権利"
+, "法執行技術"
+, "プライバシー保護"
+, "対監視"
+, "市民の自由"
+, "技術倫理"
+, "スマートシティインフラ"
+, "セキュリティハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年におけるFlock Safety ALPRカメラの広範な展開を探り、プライバシーへの影響を理解し、検知デバイスを含む効果的な監視対策戦略を学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-safety-camera-surveillance-prevalence-privacy-protection-2026.webp" length="316668" type="image/webp"/></item></channel></rss>

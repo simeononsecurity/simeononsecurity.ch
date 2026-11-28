@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>堅牢型コンピューター on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>堅牢型コンピューター on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E5%A0%85%E7%89%A2%E5%9E%8B%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC/</link></image><link>https://ja.simeononsecurity.com/genre/%E5%A0%85%E7%89%A2%E5%9E%8B%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC/</link><description>Recent content in 堅牢型コンピューター on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E5%A0%85%E7%89%A2%E5%9E%8B%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC/index.xml" rel="self" type="application/rss+xml"/><item><title>現場展開システムの電源と環境耐性</title><link>https://ja.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"エッジコンピューティング"
+, "フィールドIT"
+, "電源システム"
+, "ハードウェア"
+, "災害復旧"
+, "堅牢型コンピューター"
+, "ネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+現場のエッジノード向けに電源と環境保護を計画します。UPS、バッテリー、ソーラーパネル、時刻同期、筐体保護等級、接地、サージ保護を扱います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>現場展開型エッジコンピューティング: ハードウェアと筐体の選び方</title><link>https://ja.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"エッジコンピューティング"
+, "現場IT"
+, "ハードウェア"
+, "ホームラボ"
+, "堅牢型コンピューター"
+, "ネットワーク"
+, "災害復旧"
+, "中小企業IT"</category><guid>https://ja.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+現場向けエッジコンピューティング機器と筐体の選定ガイドです。計算機器、ラック、冷却、ストレージ、管理、配線、電源の互換性を扱います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item></channel></rss>

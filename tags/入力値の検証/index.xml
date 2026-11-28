@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>入力値の検証 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>入力値の検証 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E5%85%A5%E5%8A%9B%E5%80%A4%E3%81%AE%E6%A4%9C%E8%A8%BC/</link></image><link>https://ja.simeononsecurity.com/tags/%E5%85%A5%E5%8A%9B%E5%80%A4%E3%81%AE%E6%A4%9C%E8%A8%BC/</link><description>Recent content in 入力値の検証 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E5%85%A5%E5%8A%9B%E5%80%A4%E3%81%AE%E6%A4%9C%E8%A8%BC/index.xml" rel="self" type="application/rss+xml"/><item><title>安全でないC#関数と安全なコーディングの実践</title><link>https://ja.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"ソフトウェア開発"
+, "C#プログラミング"
+, "サイバーセキュリティ"
+, "コードセキュリティ"
+, "安全なプログラミング"
+, "プログラミングのベストプラクティス"
+, "ソフトウェアの脆弱性"
+, "暗号技術"
+, "Web開発"
+, "アプリケーションセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+安全でないC#関数の安全な代替方法を紹介します。メモリ安全性のリスクを見つけ、危険な操作を置き換える方法を学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item></channel></rss>

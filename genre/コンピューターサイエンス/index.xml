@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>コンピューターサイエンス on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>コンピューターサイエンス on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9/</link><description>Recent content in コンピューターサイエンス on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>現代の開発者に必要なプログラミング言語</title><link>https://ja.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</link><pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate><category>
+"ソフトウェア開発"
+, "プログラミング教育"
+, "技術職"
+, "プログラミングチュートリアル"
+, "デジタルスキル"
+, "アプリケーション開発"
+, "コンピューターサイエンス"
+, "新興技術"
+, "プログラミング言語"
+, "開発ツール"</category><guid>https://ja.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+動的なソフトウェアの開発に役立つプログラミング言語を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/fundamentals-of-coding_-languages-you-should-know.webp" length="71288" type="image/webp"/></item><item><title>ネットワークを最適化する: 設計とトポロジーを理解する</title><link>https://ja.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><category>
+"ネットワークエンジニアリング"
+, "ITインフラ"
+, "技術ガイド"
+, "ネットワークソリューション"
+, "サイバーセキュリティ"
+, "コンピューターサイエンス"
+, "技術教育"
+, "システムアーキテクチャ"
+, "ネットワーク最適化"
+, "技術革新"</category><guid>https://ja.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ネットワーク設計とトポロジーを理解し、効率を最大化する構成を見極めましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/decoding-network-designs_-types-and-topologies-explained.webp" length="121144" type="image/webp"/></item><item><title>ファイルシステム入門: FAT32、NTFS、exFATなど</title><link>https://ja.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</link><pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate><category>
+"コンピューターサイエンス"
+, "データストレージ"
+, "技術ガイド"
+, "ファイル管理"
+, "オペレーティングシステム"
+, "デジタル整理"
+, "技術教育"
+, "ソフトウェア情報"
+, "システム最適化"
+, "技術リソース"</category><guid>https://ja.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+FAT32、NTFS、exFATなどのファイルシステムを解説します。機能、制限、互換性を比較して、データを適切に管理する方法を学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/computer-file-systems-explained_-fat32,-ntfs,-exfat,-and-more.webp" length="132294" type="image/webp"/></item><item><title>Pythonの安全なコーディング</title><link>https://ja.simeononsecurity.com/articles/secure-python-coding-insecure-functions/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><category>
+"プログラミング"
+, "サイバーセキュリティ"
+, "ソフトウェア開発"
+, "Python"
+, "コーディング"
+, "ウェブ開発"
+, "セキュアコーディング"
+, "テクノロジー"
+, "コンピューターサイエンス"
+, "データセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/secure-python-coding-insecure-functions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+危険な関数を避け、堅牢で信頼できるアプリケーションを作るための実践方法を学び、安全なPythonコードを書きましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/secure-python-coding-wall.webp" length="111414" type="image/webp"/></item><item><title>コネクション型通信とコネクションレス通信の違い</title><link>https://ja.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "ネットワーク"
+, "通信"
+, "プロトコル"
+, "コンピューターサイエンス"
+, "データ転送"
+, "ネットワークインフラ"
+, "インターネット"
+, "情報技術"
+, "電気通信"</category><guid>https://ja.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ネットワーク通信におけるコネクション型とコネクションレスの違い、プロトコル、サービス、ルーティング方式を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_illustration_showing_two_devices_connected.webp" length="39168" type="image/webp"/></item></channel></rss>

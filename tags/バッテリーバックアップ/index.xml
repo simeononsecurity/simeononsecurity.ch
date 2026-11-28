@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>バッテリーバックアップ on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>バッテリーバックアップ on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/</link><description>Recent content in バッテリーバックアップ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/index.xml" rel="self" type="application/rss+xml"/><item><title>ホームラボ向けUPSの容量選定と自動シャットダウンのテスト</title><link>https://ja.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ホームラボ"
+, "電源保護"
+, "システム管理"</category><guid>https://ja.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ホームラボの消費電力を測定し、UPSのW数とVAの上限を比較して、実負荷でのバックアップ時間を確認します。バッテリーに頼る前に安全なシャットダウンをテストします。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>停電と停止を防ぐおすすめUPSモデル</title><link>https://ja.simeononsecurity.com/articles/best-ups-models-for-uninterrupted-connectivity/</link><pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "ガジェット"
+, "電子機器"
+, "電源ソリューション"
+, "ホームオフィス"
+, "生産性"
+, "エネルギー効率"
+, "データ保護"
+, "バックアップシステム"
+, "接続性"</category><guid>https://ja.simeononsecurity.com/articles/best-ups-models-for-uninterrupted-connectivity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+機器への電力を途切れさせない、おすすめのUPSモデルを紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/best-ups-models-for-uninterrupted-connectivity.webp" length="160168" type="image/webp"/></item></channel></rss>

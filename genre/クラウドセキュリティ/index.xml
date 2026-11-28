@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>クラウドセキュリティ on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>クラウドセキュリティ on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link><description>Recent content in クラウドセキュリティ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>1Password SSH AgentとCLI: AIエージェント向け読み取り専用アクセス</title><link>https://ja.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"システム管理"
+, "クラウドセキュリティ"
+, "自動化"</category><guid>https://ja.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+1Password CLI、SSH Agent、MCPを使用して、読み取り専用のSSHワークフローを設計します。ライブテストの前に、合成コマンド、権限の制限、人間の承認を使用します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Bitbucket Cloud SSHキー：AIエージェント向け読み取り専用Gitアクセス</title><link>https://ja.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"クラウドセキュリティ"
+, "開発者ツール"
+, "システム管理"</category><guid>https://ja.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AIエージェントの読み取り専用ワークフロー向けに、Bitbucket CloudのSSHキー、Git CLIアクセス、REST APIトークン、1Password、MCPツールを設定します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>2026年、コンテナはもはやセキュリティ境界ではない</title><link>https://ja.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"コンテナセキュリティ"
+, "Linux"
+, "カーネルセキュリティ"
+, "仮想化"
+, "クラウドセキュリティ"
+, "脅威調査"
+, "ブルーチーム"
+, "DevSecOps"</category><guid>https://ja.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年のカーネル脆弱性は、マルチテナント環境でコンテナ分離だけでは不十分な理由を示します。Copy Fail、Dirty Frag、Fragnesia、CVE-2026-80521を解説し、強化コンテナとmicroVMの境界を比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>Cloudflare Tunnel と Access は両方必要？</title><link>https://ja.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"ネットワークセキュリティ"
+, "セルフホスティング"
+, "クラウドセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Cloudflare Tunnel と Access の違いを理解し、自宅のダッシュボードを保護する方法を選び、認証なしで非公開アプリを公開する事態を防ぎます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>Microsoft SOCホームラボ：2026年にサイバーセキュリティ経験を積む</title><link>https://ja.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "クラウドセキュリティ"
+, "キャリア開発"</category><guid>https://ja.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Sentinel、Defender、Intune、Entraを使ってMicrosoft SOCホームラボを構築します。インシデント調査やパスキーポリシーを検証し、ポートフォリオ用の証拠を記録します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>クラウドセキュリティを効果的に守る</title><link>https://ja.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</link><pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate><category>
+"クラウドセキュリティ"
+, "事業のレジリエンス"
+, "CSPMの導入"
+, "プロアクティブな脅威検知"
+, "コンプライアンス管理"
+, "セキュリティポリシー"
+, "部門横断の協力"
+, "クラウドインフラ"
+, "セキュリティの自動化"
+, "リスク低減"</category><guid>https://ja.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+クラウドセキュリティ態勢管理を使って、設定ミスの発見、ポリシー適用、アラート管理、コンプライアンス支援、クラウドアカウント全体の修復を進めます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/leveraging-cloud-security-posture-management-%28cspm%29-for-your-business.webp" length="234272" type="image/webp"/></item><item><title>ネットワークとクラウドのセキュリティを最大限に高める</title><link>https://ja.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "サイバーセキュリティ"
+, "クラウドセキュリティ"
+, "ネットワーク保護"
+, "デジタルセーフティ"
+, "データプライバシー"
+, "ITセキュリティ"
+, "ビジネステクノロジー"
+, "デジタル防御"
+, "サイバー脅威"</category><guid>https://ja.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+脅威や保護対策、事例を把握し、ネットワークとクラウドのセキュリティを強化しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp"/></item><item><title>サイバーセキュリティのキャリアに役立つ Microsoft 認定資格</title><link>https://ja.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "Microsoft 認定資格"
+, "キャリア開発"
+, "情報技術"
+, "クラウドセキュリティ"
+, "データ管理"
+, "ID とアクセスの管理"
+, "人工知能"
+, "機械学習"
+, "求人市場"</category><guid>https://ja.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+スキル分野、目指す職種、前提条件、Azure との関連性を基準に、サイバーセキュリティ職に適した Microsoft 認定資格を選びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_illustration_featuring_a_professiona.webp" length="94814" type="image/webp"/></item><item><title>AWS・Azure・Google Cloudを比較 2026年版：クラウドプラットフォーム完全ガイド</title><link>https://ja.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"クラウドコンピューティング"
+, "クラウドセキュリティ"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "データセキュリティ"
+, "暗号化"
+, "IDおよびアクセス管理"
+, "コンプライアンス"
+, "脅威検知"</category><guid>https://ja.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年のAWS、Microsoft Azure、Google Cloud Platformを比較します。料金、セキュリティ、コンプライアンス、サービス、性能を分析し、要件に合うクラウド事業者の選び方を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item><item><title>サイバーセキュリティキャリアガイド 2026</title><link>https://ja.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</link><pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "テクノロジー"
+, "キャリア形成"
+, "情報セキュリティ"
+, "デジタルセキュリティ"
+, "スキルと資格"
+, "求人情報"
+, "ネットワークセキュリティ"
+, "クラウドセキュリティ"
+, "キャリア計画"</category><guid>https://ja.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年版サイバーセキュリティのキャリアガイド。必要なスキル、資格、給与データ、職種、求人市場の調査を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity-career-guide-essential-skills-and-certifications.webp" length="298156" type="image/webp"/></item><item><title>ペネトレーションテストを極める: 高度な手法と実例</title><link>https://ja.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "ペネトレーションテスト"
+, "倫理的ハッキング"
+, "ネットワークセキュリティ"
+, "Webアプリケーションセキュリティ"
+, "無線セキュリティ"
+, "ソーシャルエンジニアリング"
+, "モバイルアプリケーションセキュリティ"
+, "クラウドセキュリティ"
+, "キャリア開発"</category><guid>https://ja.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ペネトレーションテストの高度な手法、ツール、実例を学び、サイバーセキュリティのスキルとキャリアを高めましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp"/></item></channel></rss>

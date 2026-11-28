@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>XSS攻撃 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>XSS攻撃 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/xss%E6%94%BB%E6%92%83/</link></image><link>https://ja.simeononsecurity.com/tags/xss%E6%94%BB%E6%92%83/</link><description>Recent content in XSS攻撃 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/xss%E6%94%BB%E6%92%83/index.xml" rel="self" type="application/rss+xml"/><item><title>安全でないC#関数と安全なコーディングの実践</title><link>https://ja.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"ソフトウェア開発"
+, "C#プログラミング"
+, "サイバーセキュリティ"
+, "コードセキュリティ"
+, "安全なプログラミング"
+, "プログラミングのベストプラクティス"
+, "ソフトウェアの脆弱性"
+, "暗号技術"
+, "Web開発"
+, "アプリケーションセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+安全でないC#関数の安全な代替方法を紹介します。メモリ安全性のリスクを見つけ、危険な操作を置き換える方法を学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>ペネトレーションテストを極める: 高度な手法と実例</title><link>https://ja.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "ペネトレーションテスト"
+, "倫理的ハッキング"
+, "ネットワークセキュリティ"
+, "Webアプリケーションセキュリティ"
+, "無線セキュリティ"
+, "ソーシャルエンジニアリング"
+, "モバイルアプリケーションセキュリティ"
+, "クラウドセキュリティ"
+, "キャリア開発"</category><guid>https://ja.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ペネトレーションテストの高度な手法、ツール、実例を学び、サイバーセキュリティのスキルとキャリアを高めましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp"/></item><item><title>OWASPトップ10：重要なウェブアプリケーションセキュリティリスク</title><link>https://ja.simeononsecurity.com/articles/owasp-top-10/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><category>
+"ウェブアプリケーションセキュリティ"
+, "OWASPトップ10"
+, "インジェクション攻撃"
+, "オーセンティケーション"
+, "セッション管理"
+, "XSS攻撃"
+, "アクセスコントロール"
+, "セキュリティの誤設定"
+, "暗号化ストレージ"
+, "トランスポート層の保護"</category><guid>https://ja.simeononsecurity.com/articles/owasp-top-10/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+OWASP Top 10による最も重要なWebアプリケーションセキュリティリスクとその対策について学ぶ</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.webp" length="80546" type="image/webp"/></item></channel></rss>

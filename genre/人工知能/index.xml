@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>人工知能 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>人工知能 on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD/</link></image><link>https://ja.simeononsecurity.com/genre/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD/</link><description>Recent content in 人工知能 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture：2026年にAIクライアントの推論とMCPを設定する</title><link>https://ja.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "開発者ツール"
+, "ネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+モデルリクエストとMCPツールをTailscale Aperture経由でルーティングします。別のデバイスやゲートウェイでCodex、Claude Code、Claude Desktop、OpenCode、Hermesを設定します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>Hermes向けローカルモデル検証：選びたいGPUとモデルの組み合わせ</title><link>https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ローカルAI"
+, "ハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+RTX 5060 Ti、RTX 2000E Ada、RTX 3060 Ti、RTX 3070での長いコンテキスト、ツール、ストリーミング、画像認識の検証に基づくHermes向けモデルの推奨です。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>2026年のAIインフラブーム：需要、債務、電力、根拠</title><link>https://ja.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "AI経済"
+, "データセンター"
+, "クラウドインフラ"
+, "サイバーセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AIインフラ投資、データセンターの電力需要、資金調達の構造、企業価値、市場をバブルと呼ぶ前に必要な根拠を検証する記事です。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>AIワークフローコースの準備：ターミナル、Git、練習用ラボ</title><link>https://ja.simeononsecurity.com/articles/effective-ai-course-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェア工学"
+, "教育"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-course-setup/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+安全なAI練習環境を用意し、コースで使うターミナルとGitの用語を学び、スターターラボを実行します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-course-setup.webp" length="112168" type="image/webp"/></item><item><title>AIワークフロー実践課題: JSONレポートを作成して検証する</title><link>https://ja.simeononsecurity.com/articles/effective-ai-capstone/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェアエンジニアリング"
+, "教育"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-capstone/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+プロジェクトの背景、範囲を限定したエージェントへの依頼、独立したテスト、ソース確認、新しいセッションへの引き継ぎを含むJSONタスクレポートを作成します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-capstone.webp" length="96772" type="image/webp"/></item><item><title>AIエージェントの上限付きループ: チェック、再試行、停止ルール</title><link>https://ja.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェア工学"
+, "生産性"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+観察可能な状態、チェック、再試行の上限、停止条件、人への明確な引き継ぎを備えたAI目標ループを定義します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-bounded-agent-loops.webp" length="94174" type="image/webp"/></item><item><title>AIエージェントへの委任: 作業者の割り当てと結果のレビュー</title><link>https://ja.simeononsecurity.com/articles/effective-ai-agent-delegation/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェア工学"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-agent-delegation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2人目のAIエージェントが役立つ場面を判断し、各作業者に範囲を限定したタスクを割り当て、編集の競合を防ぎ、証拠をメインセッションに統合します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-agent-delegation.webp" length="133510" type="image/webp"/></item><item><title>AIコンテキストウィンドウの管理：コーディングエージェントの集中を保つ</title><link>https://ja.simeononsecurity.com/articles/effective-ai-context-window-management/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェア工学"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-context-window-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+選択したファイル、簡潔な引き継ぎ、小さなワーカー出力でAIタスクのアクティブコンテキストを管理し、判断と根拠を保持します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-context-window-management.webp" length="78984" type="image/webp"/></item><item><title>AIタスクパケット：よりよい指示と受け入れ基準</title><link>https://ja.simeononsecurity.com/articles/effective-ai-task-packets/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "生産性"
+, "ソフトウェアエンジニアリング"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-task-packets/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+曖昧なAIへの依頼を、成果、情報源、対象ファイル、確認項目、停止条件を定めたタスクパケットに変えます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-task-packets.webp" length="93042" type="image/webp"/></item><item><title>AIの出力、情報源、テスト、コストを検証する方法</title><link>https://ja.simeononsecurity.com/articles/effective-ai-output-verification/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェア工学"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-output-verification/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+情報源、ファイル範囲、テスト証拠、プライバシー、使用量を確認し、AIの結果に対する受け入れ記録を作成します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-output-verification.webp" length="109102" type="image/webp"/></item><item><title>AIを効果的に使う方法：初心者向けの信頼できるワークフロー</title><link>https://ja.simeononsecurity.com/articles/effective-ai-workflow-foundations/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "生産性"
+, "ソフトウェア工学"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-workflow-foundations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+繰り返し使えるAIワークフローを学びます。タスクを定義し、関連する背景を渡し、根拠を確認してから結果を使います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-workflow-foundations.webp" length="98694" type="image/webp"/></item><item><title>ChatGPTとClaudeのプロジェクト: 再利用できるAIコンテキストを設定する</title><link>https://ja.simeononsecurity.com/articles/effective-ai-chat-projects/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "生産性"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-chat-projects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+焦点を絞った指示、最新の参照ファイル、再利用コンテキストを確かめる簡単なテストを使い、ChatGPTとClaudeのプロジェクトを設定します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-chat-projects.webp" length="92048" type="image/webp"/></item><item><title>MCPサーバーの設定：権限、ツールのテスト、安全な削除</title><link>https://ja.simeononsecurity.com/articles/effective-ai-mcp-server-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "開発者ツール"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-mcp-server-setup/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+読み取り専用のMCPドキュメントサーバーを1つ接続し、ツールを確認して実際に読み取り、接続を削除します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-mcp-server-setup.webp" length="82234" type="image/webp"/></item><item><title>OpenClaw と Hermes Agent：実践的な評価</title><link>https://ja.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェア工学"
+, "生産性"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+アクセス一覧、トリガーの確認、データフロー記録、パイロット判断を使い、特化型および継続稼働型の AI エージェントを評価します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-specialized-agent-evaluation.webp" length="115550" type="image/webp"/></item><item><title>RTX 5060 Ti 2枚とGB10を比較: 256Kコンテキストで5モデルのローカルAIを検証</title><link>https://ja.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ローカルAI"
+, "GPUハードウェア"
+, "ベンチマーク"
+, "コンピューターハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+RTX 5060 TiとGB10を5モデルで比較し、同一ホストでQwen3.8 Flash-NextとStrataを256Kコンテキストまで測定します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>コーディングエージェントで最初のリポジトリ作業を実行する</title><link>https://ja.simeononsecurity.com/articles/effective-ai-coding-agent-first-task/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェアエンジニアリング"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-coding-agent-first-task/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+コーディングエージェントの操作画面を選び、サンプルリポジトリを開き、提案された変更を確認してからチェックを実行し、変更を残します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-coding-agent-first-task.webp" length="85038" type="image/webp"/></item><item><title>コーディングエージェント向けに AGENTS.md と CLAUDE.md を書く</title><link>https://ja.simeononsecurity.com/articles/effective-ai-agents-md-context/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェア工学"</category><guid>https://ja.simeononsecurity.com/articles/effective-ai-agents-md-context/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+コーディングエージェントが適切な文脈で開始できるよう、正とする情報源とテストコマンドを含む短いリポジトリ案内を作成します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/effective-ai-agents-md-context.webp" length="124018" type="image/webp"/></item><item><title>2026年のAIエージェントハーネス：ワークフローで選ぶ</title><link>https://ja.simeononsecurity.com/articles/best-ai-agent-harnesses/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェア開発"
+, "AIセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/best-ai-agent-harnesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Deep Agents、Claude Agent SDK、OpenAI Agents SDK、Pydantic AI、Pi、LangGraphを、ツール実行、メモリ、復旧、統合の負担で比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/ai-agent-execution-components.webp" length="228402" type="image/webp"/></item><item><title>Claude Code CLI と Desktop: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ターミナルとデスクトップの Code ワークスペースで Claude Code を比較します。共有設定、セッション引き継ぎ、スクリプト、視覚的なレビュー、権限の選択を扱います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp" length="22556" type="image/webp"/></item><item><title>Claude Codeのプラグイン、スキル、MCPツール10選：実践ガイド</title><link>https://ja.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "開発者ツール"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+計画、コードレビュー、ナレッジ管理、デザイン、自動化に使うClaude Code拡張を選びます。10個のツール、依存関係、実践的な確認方法を比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp" length="102696" type="image/webp"/></item><item><title>CLI コーディングエージェント比較: Claude Code、Codex、Gemini、OpenCode、Copilot、Aider</title><link>https://ja.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+6 つのターミナルコーディングエージェントを、ワークフロー、自動化、モデルアクセス、権限、レビュー作業で比較します。再現可能なリポジトリ試験で候補を絞ります。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp" length="39756" type="image/webp"/></item><item><title>Codex CLI 対 Desktop: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ターミナルの Codex と OpenAI のデスクトップ開発環境を比較します。スクリプト、worktree、目視レビュー、スケジュール、実行環境を確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp"/></item><item><title>GitHub Copilot CLI と VS Code: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Copilot のターミナルエージェントと VS Code 体験を比較します。エディターコンテキスト、ビジュアル差分、Agent モード、CLI 統合、アカウントポリシーを扱います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp"/></item><item><title>GUIコーディングエージェント比較: Cursor、Windsurf、Cline、Copilot、Continue</title><link>https://ja.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+グラフィカルなコーディングエージェントを比較し、完全なエディターと拡張機能を分け、Roo Codeの終了、モデルアクセス、承認、レビュー手順を確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp" length="36684" type="image/webp"/></item><item><title>MetaのContext Language Models：エージェントの記憶を改善するが、幻覚を終わらせるものではない</title><link>https://ja.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "AIエージェント"
+, "ローカルAI"
+, "AIセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Context Language Modelsによるエージェント記憶の編集方法、ベンチマークが示す内容、キャッシュ費用やモデル能力、信頼できないメモが信頼性に与える影響を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp"/></item></channel></rss>

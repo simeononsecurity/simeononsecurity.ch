@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tailscale on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>Tailscale on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/tailscale/</link></image><link>https://ja.simeononsecurity.com/tags/tailscale/</link><description>Recent content in Tailscale on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/tailscale/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture：2026年にAIクライアントの推論とMCPを設定する</title><link>https://ja.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "開発者ツール"
+, "ネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+モデルリクエストとMCPツールをTailscale Aperture経由でルーティングします。別のデバイスやゲートウェイでCodex、Claude Code、Claude Desktop、OpenCode、Hermesを設定します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>Pi-holeからローカルAIまで、10段階でホームラボを構築する</title><link>https://ja.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"ホームラボ"
+, "セルフホスティング"
+, "ローカルAI"
+, "ホームネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ネットワーク全体のDNSフィルタリングからローカルAIまで、10段階でホームラボを構築します。各段階のハードウェア、費用、スキル、トレードオフを説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>ハイブリッドAIエージェントフリートの内部：Hermes、LiteLLM、Tailscale</title><link>https://ja.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "セルフホストAI"
+, "AIエージェント"
+, "AIインフラ"
+, "GPUマイニング"</category><guid>https://ja.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hermes、LiteLLM、Tailscale Aperture、Pearlマイニングを使った、検証済みのオンデマンド型ローカルAIフリートとT0〜T4の制御プレーンを紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>T-Mobile Home Internet でポート転送が使えない理由</title><link>https://ja.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Self-Hosted"
+, "Network Security"</category><guid>https://ja.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+T-Mobile 5G Home Internet のポート転送の制限、キャリア NAT、公開受信ポートなしで自宅サーバーに接続する方法を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/t-mobile-home-internet-port-forwarding.webp" length="103506" type="image/webp"/></item><item><title>Tailscale がリレーを使う理由: 直接接続、DERP、ピアリレー</title><link>https://ja.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Network Security"
+, "Self-Hosted"</category><guid>https://ja.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Tailscale がリレーを使う理由、status と netcheck の出力の読み方、DERP またはピアリレー接続を調査するタイミングを説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/why-tailscale-uses-a-relay.webp" length="103974" type="image/webp"/></item></channel></rss>

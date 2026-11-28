@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AIハードウェア価格 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>AIハードウェア価格 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/ai%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2%E4%BE%A1%E6%A0%BC/</link></image><link>https://ja.simeononsecurity.com/tags/ai%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2%E4%BE%A1%E6%A0%BC/</link><description>Recent content in AIハードウェア価格 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sat, 03 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/ai%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2%E4%BE%A1%E6%A0%BC/index.xml" rel="self" type="application/rss+xml"/><item><title>64GBのDGX SparkはローカルAIハードウェア価格への警告サインです</title><link>https://ja.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "AIハードウェア"
+, "半導体"
+, "コンピュータハードウェア"
+, "AI経済"
+, "セルフホストAI"</category><guid>https://ja.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+NVIDIAの64GB DGX Sparkの新しい層は、メモリ供給の圧力がローカルAIハードウェアをどう変えているかを示します。このガイドでは、容量削減、ユニファイドメモリのトレードオフ、2027年末より前にDRAMの緩和が起きにくい理由を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

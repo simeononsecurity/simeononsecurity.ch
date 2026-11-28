@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llama.cpp on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>Llama.cpp on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/llama.cpp/</link></image><link>https://ja.simeononsecurity.com/tags/llama.cpp/</link><description>Recent content in Llama.cpp on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/llama.cpp/index.xml" rel="self" type="application/rss+xml"/><item><title>Hermes向けローカルモデル検証：選びたいGPUとモデルの組み合わせ</title><link>https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ローカルAI"
+, "ハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+RTX 5060 Ti、RTX 2000E Ada、RTX 3060 Ti、RTX 3070での長いコンテキスト、ツール、ストリーミング、画像認識の検証に基づくHermes向けモデルの推奨です。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>ハイブリッドAIエージェントフリートの内部：Hermes、LiteLLM、Tailscale</title><link>https://ja.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "セルフホストAI"
+, "AIエージェント"
+, "AIインフラ"
+, "GPUマイニング"</category><guid>https://ja.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hermes、LiteLLM、Tailscale Aperture、Pearlマイニングを使った、検証済みのオンデマンド型ローカルAIフリートとT0〜T4の制御プレーンを紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>ローカルAIのプライバシー境界: コンピューターに残るものと残らないもの</title><link>https://ja.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "プライバシー"
+, "セルフホストAI"
+, "サイバーセキュリティ"
+, "AI経済"</category><guid>https://ja.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ローカル推論かホスト型AIサービスかを選ぶ前に、プロンプト、モデルファイル、ツール、ログ、ネットワーク公開範囲、電力コストを確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>本格的なローカル LLM 作業に 16GB VRAM は十分か</title><link>https://ja.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカル AI"
+, "コンピュータハードウェア"
+, "セルフホスト AI"</category><guid>https://ja.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+モデルウェイト、KV キャッシュ、プロンプト処理を基準に 16GB のローカル LLM 構成を見積もります。Qwen3.8 27B のメモリ予算、GPU 帯域幅、所有コストを比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>MetaのContext Language Models：エージェントの記憶を改善するが、幻覚を終わらせるものではない</title><link>https://ja.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "AIエージェント"
+, "ローカルAI"
+, "AIセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Context Language Modelsによるエージェント記憶の編集方法、ベンチマークが示す内容、キャッシュ費用やモデル能力、信頼できないメモが信頼性に与える影響を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp"/></item><item><title>どのローカルAIモデルを動かすべきか？ 2026年10月版 GPU、コンテキスト、コーディングガイド</title><link>https://ja.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "AIハードウェア"
+, "セルフホストAI"
+, "GPUベンチマーク"
+, "開発者ツール"
+, "AI経済"</category><guid>https://ja.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+コーディングエージェント向けのローカルAIモデル選びを解説する、2026年10月の実践ガイドです。GPUメモリ、KVキャッシュの増加、コンテキスト長、量子化品質、プロンプト処理、推論設定、クラウドレンタル費用を比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Qwen 27Bに32GB VRAM: 2026年10月のローカルAIハードウェアガイド</title><link>https://ja.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "AIハードウェア"
+, "GPUベンチマーク"
+, "セルフホストAI"
+, "コンピュータハードウェア"
+, "AI経済"</category><guid>https://ja.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+32GBの利用可能なアクセラレータメモリでQwen 27Bを実行するための、2026年10月の実用ガイドです。単体GPU、2枚構成、統合メモリ、中古データセンターカード、レンタル計算資源、ソフトウェア対応、フルコンテキストの制限を比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>2026年のローカルAI：27BモデルがSonnet 4.6を上回り、ハードウェア購入の好機が終わる</title><link>https://ja.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "セルフホストAI"
+, "オープンウェイトモデル"
+, "AIハードウェア"
+, "機械学習"
+, "量子化"
+, "ホームラボ"
+, "プライバシー"
+, "AI経済"
+, "一般向けハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+モデルサイズ、VRAM、メモリー帯域、消費電力、費用、アップグレードの選択肢を踏まえて、2026年向けのローカルAI環境を計画します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>ローカルモデルで Claude Cowork と Claude Code を使う: 2026年版セットアップガイド</title><link>https://ja.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "AIコーディングツール"
+, "セルフホストAI"
+, "開発者ツール"
+, "プライバシー"
+, "オープンソースモデル"
+, "自動化"
+, "AIハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Anthropic互換APIを使って、OllamaをClaude DesktopおよびClaude Codeに接続します。2026年のモデル選択とクラウド限定機能も確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item></channel></rss>

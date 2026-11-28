@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>メールセキュリティ on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>メールセキュリティ on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link><description>Recent content in メールセキュリティ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>Thunderbird 153.6: WindowsでのNTLM認証情報漏えいと更新方法 (2026)</title><link>https://ja.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "メールセキュリティ"
+, "Windowsセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+細工されたメールを表示すると、2つの重大なThunderbirdの脆弱性によりWindowsのNTLM認証データが漏えいするおそれがあります。2つの仕組み、バージョンの確認方法、更新中に送信SMBを制限する方法を説明します。</description></item><item><title>メールのエチケットを身につける</title><link>https://ja.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</link><pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate><category>
+"ビジネスコミュニケーション"
+, "メールセキュリティ"
+, "ビジネスマナー"
+, "テクノロジースキル"
+, "職場の効率"
+, "サイバーセキュリティのベストプラクティス"
+, "デジタルリテラシー"
+, "オンラインコミュニケーション"
+, "ネットワークセキュリティ"
+, "効果的な文章作成"</category><guid>https://ja.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+安全でプロフェッショナルなメール交換に役立つエチケットを紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/email-etiquette_-ensuring-smooth-and-secure-email-operations.webp" length="84144" type="image/webp"/></item><item><title>小規模企業向けフィッシング対策：完全ガイド</title><link>https://ja.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "小規模企業の保護"
+, "フィッシング詐欺"
+, "従業員教育"
+, "メールセキュリティ"
+, "多要素認証"
+, "セキュリティ監査"
+, "ソーシャルエンジニアリングの手口"
+, "デジタル脅威"
+, "オンラインセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+従業員教育、メール制御、確認手順、報告方法、検証済みのインシデント対応を通じて、小規模企業をフィッシングから守ります。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/how-to-protect-your-small-business-from-phishing-scams.webp" length="88634" type="image/webp"/></item><item><title>メールセキュリティに欠かせない10のヒント：データを保護し、安全に過ごすために</title><link>https://ja.simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/</link><pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate><category>
+"メールセキュリティ"
+, "データ保護"
+, "サイバーセキュリティ"
+, "オンラインプライバシー"
+, "アイデンティティ・セフト"
+, "パスワードの安全性"
+, "フィッシング詐欺"
+, "インターネットの安全性"
+, "デジタルセキュリティ"
+, "社員教育"</category><guid>https://ja.simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバー脅威や侵害からデータを安全に保護するために、重要なメールセキュリティの10のヒントを学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.webp" length="43346" type="image/webp"/></item><item><title>推奨eメールプロバイダー</title><link>https://ja.simeononsecurity.com/recommendations/email/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"推奨メールプロバイダー"
+, "セキュアメールサービス"
+, "エンド・ツー・エンド・エンクリプション"
+, "メールセキュリティ"
+, "オンラインプライバシー"
+, "データ保護"
+, "フィッシング対策"
+, "マルウェア対策"
+, "セキュアコミュニケーション"
+, "SimeonOnSecurity（シメオンセキュリティ"</category><guid>https://ja.simeononsecurity.com/recommendations/email/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SimeonOnSecurityの推奨リストで、安全で暗号化された通信に最適なメールプロバイダを見つけましょう。エンドツーエンドの暗号化が可能なProtonMailや、暗号化されたメール通信のためのもう一つの安全なオプションであるTutanotaなど、トップピックをご覧ください。</description></item></channel></rss>

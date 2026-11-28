@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>移動指揮所ネットワーク on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>移動指揮所ネットワーク on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E7%A7%BB%E5%8B%95%E6%8C%87%E6%8F%AE%E6%89%80%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/</link></image><link>https://ja.simeononsecurity.com/tags/%E7%A7%BB%E5%8B%95%E6%8C%87%E6%8F%AE%E6%89%80%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/</link><description>Recent content in 移動指揮所ネットワーク on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E7%A7%BB%E5%8B%95%E6%8C%87%E6%8F%AE%E6%89%80%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>現地展開型エッジノードの接続性とデータセキュリティ</title><link>https://ja.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"エッジコンピューティング"
+, "現地IT"
+, "ネットワークセキュリティ"
+, "VPN"
+, "暗号化"
+, "物理セキュリティ"
+, "災害復旧"</category><guid>https://ja.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+セルラー、衛星、LoRa、VPN、MFA、ネットワーク分割、ログ、暗号化、盗難対策を使って現地のエッジコンピューティングノードを接続し、保護する方法を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item></channel></rss>

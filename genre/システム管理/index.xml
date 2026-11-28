@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>システム管理 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>システム管理 on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E7%AE%A1%E7%90%86/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E7%AE%A1%E7%90%86/</link><description>Recent content in システム管理 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>Open WebUI v0.12.4：アップグレードとアクセス制御チェックリスト 2026</title><link>https://ja.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"セルフホスト AI"
+, "サイバーセキュリティ"
+, "システム管理"</category><guid>https://ja.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Open WebUI をバックアップして v0.12.4 にアップグレードし、チャット共有、エクスポート権限、リソースへの許可、アカウント、ネットワークアクセスをテストします。</description></item><item><title>1Password SSH AgentとCLI: AIエージェント向け読み取り専用アクセス</title><link>https://ja.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"システム管理"
+, "クラウドセキュリティ"
+, "自動化"</category><guid>https://ja.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+1Password CLI、SSH Agent、MCPを使用して、読み取り専用のSSHワークフローを設計します。ライブテストの前に、合成コマンド、権限の制限、人間の承認を使用します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Bitbucket Cloud SSHキー：AIエージェント向け読み取り専用Gitアクセス</title><link>https://ja.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"クラウドセキュリティ"
+, "開発者ツール"
+, "システム管理"</category><guid>https://ja.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AIエージェントの読み取り専用ワークフロー向けに、Bitbucket CloudのSSHキー、Git CLIアクセス、REST APIトークン、1Password、MCPツールを設定します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>Hyper-V VMをProxmox VEへ移行する可逆チェックリスト</title><link>https://ja.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"仮想化"
+, "システム管理"
+, "ホームラボ"</category><guid>https://ja.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hyper-VのVMを、停止状態でのエクスポート、ファームウェアの一致、ディスクのインポート、分離した起動テスト、ロールバック計画を使ってProxmox VEへ移行します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>PowerShellで読み取り専用のActive Directoryインベントリを作成する</title><link>https://ja.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Active Directory"
+, "PowerShell"
+, "システム管理"</category><guid>https://ja.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+範囲を限定したPowerShellクエリでActive DirectoryのOU、ユーザー、コンピューターを一覧化します。ディレクトリオブジェクトを変更せず、確認可能なCSVファイルへエクスポートします。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/active-directory-powershell-read-only-inventory.webp" length="101842" type="image/webp"/></item><item><title>Windowsの再インストール前にBitLocker回復キーを見つける</title><link>https://ja.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Windowsセキュリティ"
+, "データ復旧"
+, "システム管理"</category><guid>https://ja.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+正しいBitLocker回復キーを見つけて照合し、別の安全なコピーを用意します。ドライブを消去する前に、適切なWindowsの回復方法または再インストール方法を選びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/windows-bitlocker-recovery-before-reinstall.webp" length="102534" type="image/webp"/></item><item><title>ホームラボ向けUPSの容量選定と自動シャットダウンのテスト</title><link>https://ja.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ホームラボ"
+, "電源保護"
+, "システム管理"</category><guid>https://ja.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ホームラボの消費電力を測定し、UPSのW数とVAの上限を比較して、実負荷でのバックアップ時間を確認します。バッテリーに頼る前に安全なシャットダウンをテストします。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>Ansible vs Puppet vs Chef 2026: 構成管理</title><link>https://ja.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "インフラ自動化"
+, "構成管理"
+, "IT運用"
+, "クラウドコンピューティング"
+, "システム管理"
+, "エンタープライズIT"
+, "ソフトウェア開発"
+, "ITインフラ"
+, "自動化ツール"</category><guid>https://ja.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ansible、Puppet、Chefをアーキテクチャ、機能、学習曲線、性能、価格、用途別に比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>NATとPAT：ネットワーク通信の基本ガイド</title><link>https://ja.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"ネットワークの基礎"
+, "サイバーセキュリティ"
+, "ITインフラ"
+, "技術ガイド"
+, "ネットワーク管理"
+, "インターネットプロトコル"
+, "通信技術"
+, "システム管理"
+, "ネットワークエンジニアリング"
+, "デジタルネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+NATとPATを理解し、デジタル通信を円滑にしましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item><item><title>コピー機能を使いこなす：OSでファイルを効率よく管理する方法</title><link>https://ja.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</link><pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "ファイル管理"
+, "オペレーティングシステム"
+, "データ転送"
+, "データ整理"
+, "コンピューターのスキル"
+, "ITのヒント"
+, "OSの効率化"
+, "システム管理"
+, "ソフトウェアユーティリティ"</category><guid>https://ja.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+OSの高度なコピー機能を理解し、ファイルをすばやく効率的に管理する方法を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems.webp" length="92028" type="image/webp"/></item><item><title>Windows Task SchedulerとLinux Cronのセキュリティ比較</title><link>https://ja.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "オペレーティングシステム"
+, "システム自動化"
+, "セキュリティツール"
+, "コンピュータ技術"
+, "タスクスケジューリング"
+, "ネットワークセキュリティ"
+, "システム管理"
+, "サイバー防御"
+, "IT管理"</category><guid>https://ja.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバーセキュリティとシステムの強化という観点から、Windows Task SchedulerとLinuxのCronジョブを比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>vSphere 管理のための PowerCLI 活用ガイド</title><link>https://ja.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "仮想化"
+, "VMware"
+, "IT 管理"
+, "自動化"
+, "コマンドラインインターフェース"
+, "スクリプト"
+, "システム管理"
+, "クラウドコンピューティング"
+, "データセンター管理"</category><guid>https://ja.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerCLI を使って VMware vSphere を管理し、作業を自動化して生産性を高める方法を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>WMI フィルタリングを理解する</title><link>https://ja.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows 管理"
+, "グループ ポリシー"
+, "システム管理"
+, "ネットワーク管理"
+, "IT インフラストラクチャ"
+, "ポリシー管理"
+, "IT ガバナンス"
+, "IT 自動化"
+, "Active Directory"
+, "セキュリティ コンプライアンス"</category><guid>https://ja.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+WMI フィルタリングを使ってグループ ポリシー オブジェクト（GPO）の適用先を調整する方法を、実例とベストプラクティスとともに紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item></channel></rss>

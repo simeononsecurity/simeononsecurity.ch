@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ネットワーク on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>ネットワーク on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/</link><description>Recent content in ネットワーク on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture：2026年にAIクライアントの推論とMCPを設定する</title><link>https://ja.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "開発者ツール"
+, "ネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+モデルリクエストとMCPツールをTailscale Aperture経由でルーティングします。別のデバイスやゲートウェイでCodex、Claude Code、Claude Desktop、OpenCode、Hermesを設定します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>VPN接続時にブラウザーのDNSとWebRTCの漏えいをテストする</title><link>https://ja.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"プライバシー"
+, "ブラウザー"
+, "ネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+VPN接続の前後で、ブラウザーのパブリックIP、DNSリゾルバー、WebRTCアドレスを確認します。結果を読み取り、ルーティングの問題を調べます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>ホームラボのVLANセグメント化を計画してテストする</title><link>https://ja.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ホームラボ"
+, "ネットワークセキュリティ"
+, "ネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ホームラボで信頼できるデバイス、サーバー、IoT、ゲストを分離するVLAN計画を作成します。許可する通信を記録し、段階的にネットワークを構成して分離状態をテストします。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Meshtastic・MeshCore・Reticulumを比較</title><link>https://ja.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "メッシュネットワーク"
+, "オフグリッド通信"
+, "緊急通信"
+, "アマチュア無線"
+, "オープンソース"
+, "災害対策"
+, "無線ネットワーク"
+, "プライバシー"
+, "ネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Meshtastic、MeshCore、Reticulumを、ルーティング、電波占有時間、インフラ、伝送方式、オフグリッド用途で比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>現場展開システムの電源と環境耐性</title><link>https://ja.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"エッジコンピューティング"
+, "フィールドIT"
+, "電源システム"
+, "ハードウェア"
+, "災害復旧"
+, "堅牢型コンピューター"
+, "ネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+現場のエッジノード向けに電源と環境保護を計画します。UPS、バッテリー、ソーラーパネル、時刻同期、筐体保護等級、接地、サージ保護を扱います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>現場展開型エッジコンピューティング: ハードウェアと筐体の選び方</title><link>https://ja.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"エッジコンピューティング"
+, "現場IT"
+, "ハードウェア"
+, "ホームラボ"
+, "堅牢型コンピューター"
+, "ネットワーク"
+, "災害復旧"
+, "中小企業IT"</category><guid>https://ja.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+現場向けエッジコンピューティング機器と筐体の選定ガイドです。計算機器、ラック、冷却、ストレージ、管理、配線、電源の互換性を扱います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>長距離ネットワークに適したケーブルソリューション</title><link>https://ja.simeononsecurity.com/articles/networking-over-long-distances_-understanding-cabling-types/</link><pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate><category>
+"ネットワーク"
+, "通信技術"
+, "データ配線"
+, "光ファイバー"
+, "ITインフラストラクチャ"
+, "イーサネットネットワーク"
+, "電気通信"
+, "無線ネットワーク"
+, "企業向けITソリューション"
+, "ネットワークエンジニアリング"</category><guid>https://ja.simeononsecurity.com/articles/networking-over-long-distances_-understanding-cabling-types/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+長距離ネットワークに適したケーブルと、通信を改善する方法を紹介します。信頼性の高いソリューションを選ぶIT担当者向けのガイドです。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/networking-over-long-distances_-understanding-cabling-types.webp" length="59222" type="image/webp"/></item><item><title>おすすめのホームラボ系コンテンツクリエイター</title><link>https://ja.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "ネットワーク"
+, "DIY"
+, "仮想化"
+, "ホームラボ"
+, "技術愛好家"
+, "コミュニティ"
+, "学習"
+, "革新"
+, "ガイド"</category><guid>https://ja.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+注目のホームラボ系クリエイターを知り、仲間と交流して、技術探究を始めましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item><item><title>無線アクセスポイントの適切な配置とWi-Fi範囲の最適化</title><link>https://ja.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "ネットワーク"
+, "無線ネットワーク"
+, "アクセスポイント"
+, "Wi-Fi設置"
+, "ネットワーク最適化"
+, "ホームネットワーク"
+, "無線接続"
+, "モノのインターネット"
+, "ネットワークソリューション"</category><guid>https://ja.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+無線接続を改善し、干渉を抑えてネットワークを安定させるアクセスポイントの配置方法を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp"/></item><item><title>ネットワークの基礎：IPアドレスとは何か、IPv4とIPv6の違い</title><link>https://ja.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><category>
+"ネットワーク"
+, "IPアドレス"
+, "インターネットプロトコル"
+, "IPv4"
+, "IPv6"
+, "ネットワーク通信"
+, "インターネット接続"
+, "テクノロジー"
+, "ネットワークインフラ"
+, "インターネットセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+IPアドレスの基本、IPv4とIPv6の違い、重要性、IPv6への移行が必要な理由を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_image_of_two_devices_with_speech_bub.webp" length="90028" type="image/webp"/></item><item><title>ネットワークの基礎：スイッチ、ルーター、ファイアウォール、DMZ</title><link>https://ja.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"ネットワーク"
+, "ITインフラ"
+, "ネットワークセキュリティ"
+, "ネットワークアーキテクチャ"
+, "サイバーセキュリティ"
+, "データ通信"
+, "情報技術"
+, "ITの基礎"
+, "ネットワーク管理"
+, "インターネット接続"</category><guid>https://ja.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+スイッチ、ルーター、ゲートウェイ、サブネット、ファイアウォール、DMZがネットワーク通信を分割し、安全境界を設ける仕組みを解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item><item><title>コネクション型通信とコネクションレス通信の違い</title><link>https://ja.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "ネットワーク"
+, "通信"
+, "プロトコル"
+, "コンピューターサイエンス"
+, "データ転送"
+, "ネットワークインフラ"
+, "インターネット"
+, "情報技術"
+, "電気通信"</category><guid>https://ja.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ネットワーク通信におけるコネクション型とコネクションレスの違い、プロトコル、サービス、ルーティング方式を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_illustration_showing_two_devices_connected.webp" length="39168" type="image/webp"/></item></channel></rss>

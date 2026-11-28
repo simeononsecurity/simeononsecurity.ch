@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SOCアナリスト on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>SOCアナリスト on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/soc%E3%82%A2%E3%83%8A%E3%83%AA%E3%82%B9%E3%83%88/</link></image><link>https://ja.simeononsecurity.com/tags/soc%E3%82%A2%E3%83%8A%E3%83%AA%E3%82%B9%E3%83%88/</link><description>Recent content in SOCアナリスト on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sun, 20 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/soc%E3%82%A2%E3%83%8A%E3%83%AA%E3%82%B9%E3%83%88/index.xml" rel="self" type="application/rss+xml"/><item><title>自分に合うサイバーセキュリティの仕事は？16の出発点と多様なキャリア</title><link>https://ja.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "キャリア"</category><guid>https://ja.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+性格タイプをテーマにした動画と各タイプに関連する複数の職種を紹介し、実際の業務に基づいてキャリアを比べるための実践課題を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity-careers-personality-paths.webp" length="155796" type="image/webp"/></item><item><title>Microsoft SOCホームラボ：2026年にサイバーセキュリティ経験を積む</title><link>https://ja.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "クラウドセキュリティ"
+, "キャリア開発"</category><guid>https://ja.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Sentinel、Defender、Intune、Entraを使ってMicrosoft SOCホームラボを構築します。インシデント調査やパスキーポリシーを検証し、ポートフォリオ用の証拠を記録します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>よくあるサイバー攻撃の種類と防御側の検知方法</title><link>https://ja.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "脅威検知"
+, "ブルーチーム"
+, "セキュリティ運用"
+, "キャリア開発"</category><guid>https://ja.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+よくあるサイバー攻撃の種類と、ログやテレメトリーに残る証拠を学び、自宅のセキュリティラボで検知を練習しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item></channel></rss>

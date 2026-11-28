@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安全な認可 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>安全な認可 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E3%81%AA%E8%AA%8D%E5%8F%AF/</link></image><link>https://ja.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E3%81%AA%E8%AA%8D%E5%8F%AF/</link><description>Recent content in 安全な認可 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E3%81%AA%E8%AA%8D%E5%8F%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>Pythonで安全にコーディングするためのベストプラクティス</title><link>https://ja.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"プログラミング"
+, "アプリケーションセキュリティ"
+, "Python開発"
+, "安全なコーディング"
+, "Web開発"
+, "データ分析"
+, "人工知能"
+, "ソフトウェア開発"
+, "サイバーセキュリティ"
+, "プログラミング言語"</category><guid>https://ja.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SQLインジェクション、クロスサイトスクリプティングなど、アプリケーションの脆弱性を減らすPythonの安全なコーディング手法。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp"/></item></channel></rss>

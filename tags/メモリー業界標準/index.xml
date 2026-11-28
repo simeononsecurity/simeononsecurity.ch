@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>メモリー業界標準 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>メモリー業界標準 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E6%A5%AD%E7%95%8C%E6%A8%99%E6%BA%96/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E6%A5%AD%E7%95%8C%E6%A8%99%E6%BA%96/</link><description>Recent content in メモリー業界標準 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E6%A5%AD%E7%95%8C%E6%A8%99%E6%BA%96/index.xml" rel="self" type="application/rss+xml"/><item><title>ECCメモリ: データ破損とメモリエラーを防ぐ仕組み</title><link>https://ja.simeononsecurity.com/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/</link><pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate><category>
+"テクノロジー教育"
+, "データセキュリティ"
+, "ハードウェアガイド"
+, "システム信頼性"
+, "IT保守"
+, "テクノロジーソリューション"
+, "エンタープライズコンピューティング"
+, "サーバーテクノロジー"
+, "コンポーネント分析"
+, "テクノロジー研究"</category><guid>https://ja.simeononsecurity.com/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ECCメモリがエラーからデータを守る仕組みを解説します。エラー検出と訂正により、信頼性の高いコンピューターシステムを支えます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/the-role-of-ecc-memory-in-mitigating-data-corruption.webp" length="137916" type="image/webp"/></item></channel></rss>

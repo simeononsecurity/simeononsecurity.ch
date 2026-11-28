@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>プライバシー on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>プライバシー on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC/</link><description>Recent content in プライバシー on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC/index.xml" rel="self" type="application/rss+xml"/><item><title>セルフホスト Hindsight: エージェントのローカルメモリとプライベートなモデルルーティング</title><link>https://ja.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"ローカル AI"
+, "セルフホスト AI"
+, "AI エージェント"
+, "AI インフラ"
+, "プライバシー"</category><guid>https://ja.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+セルフホスト Hindsight、観測したローカル Qwen 経路、確認した経路でホスト型モデルの契約なしに行うリクエスト単位の GPU 処理を紹介する事例です。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>DNSフィルタが回避される理由: リゾルバの経路を確認する</title><link>https://ja.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ホームネットワーク"
+, "DNS"
+, "プライバシー"</category><guid>https://ja.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+端末やブラウザがDNSフィルタを迂回する理由を調べます。直接クエリと通常のクエリを比較し、ログ、暗号化DNS、VPN、IPv6、ルーターの設定を確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>VPN接続時にブラウザーのDNSとWebRTCの漏えいをテストする</title><link>https://ja.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"プライバシー"
+, "ブラウザー"
+, "ネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+VPN接続の前後で、ブラウザーのパブリックIP、DNSリゾルバー、WebRTCアドレスを確認します。結果を読み取り、ルーティングの問題を調べます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>ローカルAIのプライバシー境界: コンピューターに残るものと残らないもの</title><link>https://ja.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "プライバシー"
+, "セルフホストAI"
+, "サイバーセキュリティ"
+, "AI経済"</category><guid>https://ja.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ローカル推論かホスト型AIサービスかを選ぶ前に、プロンプト、モデルファイル、ツール、ログ、ネットワーク公開範囲、電力コストを確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>個人セキュリティチェックリスト 2026: 優先すべき対策と後回しにする対策</title><link>https://ja.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><category>
+"個人セキュリティ"
+, "プライバシー"
+, "デジタル衛生"
+, "アカウントセキュリティ"
+, "脅威モデリング"
+, "消費者セキュリティ"
+, "パスワード管理"
+, "データ保護"</category><guid>https://ja.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+攻撃への効果に基づいて個人のセキュリティ対策に優先順位を付けます。アカウント保護やバックアップからプライバシー、復旧計画まで解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/personal-security-checklist-2026-tiered-structure.webp" length="98938" type="image/webp"/></item><item><title>2026年のローカルAI：27BモデルがSonnet 4.6を上回り、ハードウェア購入の好機が終わる</title><link>https://ja.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "セルフホストAI"
+, "オープンウェイトモデル"
+, "AIハードウェア"
+, "機械学習"
+, "量子化"
+, "ホームラボ"
+, "プライバシー"
+, "AI経済"
+, "一般向けハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+モデルサイズ、VRAM、メモリー帯域、消費電力、費用、アップグレードの選択肢を踏まえて、2026年向けのローカルAI環境を計画します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>ローカルモデルで Claude Cowork と Claude Code を使う: 2026年版セットアップガイド</title><link>https://ja.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "AIコーディングツール"
+, "セルフホストAI"
+, "開発者ツール"
+, "プライバシー"
+, "オープンソースモデル"
+, "自動化"
+, "AIハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Anthropic互換APIを使って、OllamaをClaude DesktopおよびClaude Codeに接続します。2026年のモデル選択とクラウド限定機能も確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>プライバシーを守るMeshtastic向けAIアシスタントの構築</title><link>https://ja.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"ネットワークセキュリティ"
+, "プライバシー"
+, "オープンソース"
+, "自動化"</category><guid>https://ja.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+非公開の設定、キュー経由のTCPアクセス、情報取得ツール、安全性を高めたダッシュボードを備えるMeshtastic用ローカルAIアシスタントの構築記録。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>GrapheneOSのSandboxed Google Playを解説</title><link>https://ja.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"プライバシー"
+, "モバイルセキュリティ"
+, "オープンソース"</category><guid>https://ja.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+GrapheneOS上のSandboxed Google Playで何が変わるのか、別のプロファイルが役立つ場面、アカウント、通知、アプリ互換性の関係を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp"/></item><item><title>Meshtastic・MeshCore・Reticulumを比較</title><link>https://ja.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "メッシュネットワーク"
+, "オフグリッド通信"
+, "緊急通信"
+, "アマチュア無線"
+, "オープンソース"
+, "災害対策"
+, "無線ネットワーク"
+, "プライバシー"
+, "ネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Meshtastic、MeshCore、Reticulumを、ルーティング、電波占有時間、インフラ、伝送方式、オフグリッド用途で比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Flockカメラ：公共安全ツールか、令状なし監視機械か？</title><link>https://ja.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"プライバシー"
+, "監視"
+, "市民的自由"
+, "法執行技術"
+, "デジタル権利"</category><guid>https://ja.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safety ALPRカメラの独立した分析：実際の仕組み、ナンバープレート以外に収集されるデータ、データ共有による影の全国データベースの形成、そして令状問題が真の核心である理由。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-safety-cameras-public-safety-surveillance.webp" length="257030" type="image/webp"/></item><item><title>MeshCoreとMeshtasticの比較</title><link>https://ja.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "メッシュネットワーク"
+, "オフグリッド通信"
+, "緊急通信"
+, "戦術通信"
+, "アマチュア無線"
+, "オープンソース"
+, "災害対策"
+, "ワイヤレスネットワーク"
+, "プライバシー"</category><guid>https://ja.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+MeshCoreとMeshtasticを、ルーティング、通信距離、送信時間、インフラ、対応デバイス、用途の観点で比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/meshcore-vs-meshtastic-comparison-guide.webp" length="173676" type="image/webp"/></item><item><title>サイバーセキュリティ用語をわかりやすく解説</title><link>https://ja.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</link><pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "テクノロジー"
+, "デジタルセキュリティ"
+, "オンラインの脅威"
+, "インターネットセキュリティ"
+, "データ保護"
+, "プライバシー"
+, "オンライン防御"
+, "ITセキュリティ"
+, "サイバー脅威"</category><guid>https://ja.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバーセキュリティの用語、脅威、技術、プライバシー規則をわかりやすく解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity-jargon-illustration.webp" length="150724" type="image/webp"/></item><item><title>Mullvad と ProtonVPN：どちらの VPN を選ぶ？</title><link>https://ja.simeononsecurity.com/articles/mullvad-vs-protonvpn/</link><pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "セキュリティ"
+, "プライバシー"
+, "VPN 比較"
+, "オンライン匿名性"
+, "デジタル安全"
+, "インターネットセキュリティ"
+, "サイバーセキュリティ"
+, "データ保護"
+, "VPN サービス"</category><guid>https://ja.simeononsecurity.com/articles/mullvad-vs-protonvpn/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Mullvad VPN と ProtonVPN のセキュリティ、プライバシー、性能、使いやすさを比較し、自分に合うサービスを選びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/mullvad-protonvpn-security-race.webp" length="148320" type="image/webp"/></item><item><title>脆弱な立場にある人々を守る</title><link>https://ja.simeononsecurity.com/articles/securing-vulnerable-groups-cyber-threats-protection-strategies/</link><pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "プライバシー"
+, "デジタル安全"
+, "オンライン上の脅威"
+, "データ保護"
+, "テクノロジー"
+, "デジタル権利"
+, "情報セキュリティ"
+, "サイバー諜報"
+, "オンラインプライバシー"</category><guid>https://ja.simeononsecurity.com/articles/securing-vulnerable-groups-cyber-threats-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+外国勢力によるサイバー攻撃が脆弱な立場にある人々へ与える影響と、有効な保護策を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/securing_vulnerable_groups_cyber_threats.webp" length="98410" type="image/webp"/></item><item><title>LibreWolf対Firefox</title><link>https://ja.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "プライバシー"
+, "ウェブブラウザ"
+, "オンラインセキュリティ"
+, "オープンソース"
+, "デジタルプライバシー"
+, "ソフトウェア"
+, "比較"
+, "サイバーセキュリティ"
+, "インターネットプライバシー"</category><guid>https://ja.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+プライバシー重視のブラウザであるLibreWolfとFirefoxの特徴を探り、オンラインのセキュリティとプライバシーを強化するための情報に基づいた選択をしましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp"/></item><item><title>生体認証によるアクセス制御</title><link>https://ja.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</link><pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "セキュリティ"
+, "生体認証"
+, "アクセス制御"
+, "指紋スキャナー"
+, "顔認識"
+, "Amazon製品"
+, "デジタルセキュリティ"
+, "イノベーション"
+, "プライバシー"</category><guid>https://ja.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Amazonで購入できる指紋スキャナーや顔認識デバイスを使った高度な生体認証セキュリティを紹介します。確実なアクセス制御と安心につながります。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/biometric-access-control-fingerprint-facial-recognition-devices-amazon.webp" length="183044" type="image/webp"/></item><item><title>安全なスマートホームハブ</title><link>https://ja.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</link><pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "ホームセキュリティ"
+, "スマートホーム"
+, "ホームオートメーション"
+, "プライバシー"
+, "モノのインターネット"
+, "デジタルセキュリティ"
+, "接続デバイス"
+, "住宅改善"
+, "家電製品"</category><guid>https://ja.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+安全で便利なホームオートメーションを実現する、セキュアなスマートホームハブを紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/secure-smart-home-hubs.webp" length="49576" type="image/webp"/></item><item><title>モバイルセキュリティ完全ガイド</title><link>https://ja.simeononsecurity.com/articles/ultimate-guide-mobile-security-laptop-privacy-webcam-covers/</link><pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "サイバーセキュリティ"
+, "プライバシー"
+, "リモートワーク"
+, "モバイルコンピューティング"
+, "デジタルセキュリティ"
+, "生産性"
+, "オンラインプライバシー"
+, "データ保護"
+, "テクノロジーアクセサリー"</category><guid>https://ja.simeononsecurity.com/articles/ultimate-guide-mobile-security-laptop-privacy-webcam-covers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ノートPC用プライバシーフィルター、ウェブカメラカバー、携帯型暗号化デバイスでモバイルワークを保護し、安全かつ効率的に作業しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/mobile-security-illustration.webp" length="57304" type="image/webp"/></item><item><title>データプライバシーを強化する</title><link>https://ja.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</link><pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "データセキュリティ"
+, "プライバシー"
+, "サイバーセキュリティ"
+, "デジタル保護"
+, "テックアクセサリー"
+, "データ暗号化"
+, "オンライン安全性"
+, "プラグアンドプレイ機器"
+, "デジタルプライバシー"</category><guid>https://ja.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AmazonでUSBハードウェアブロッカーや暗号化ドライブを探し、データセキュリティを強化しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/usb-data-lock-vault.webp" length="94076" type="image/webp"/></item><item><title>セキュアメールサービス：StartMailでプライバシーを強化</title><link>https://ja.simeononsecurity.com/articles/secure-email-service-startmail/</link><pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "プライバシー"
+, "メールサービス"
+, "オンライン・セキュリティ"
+, "デジタル・プライバシー"
+, "暗号化"
+, "データ保護"
+, "電子メールのプライバシー"
+, "アイデンティティ保護"
+, "オンラインプライバシー"</category><guid>https://ja.simeononsecurity.com/articles/secure-email-service-startmail/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+StartMailのメールエイリアス、PGP暗号化、パスワード保護メッセージ、暗号化メールの制限について説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/secure_email_guard.webp" length="45872" type="image/webp"/></item><item><title>NextDNSとAdGuardを比較：DNS広告ブロッカーはどちらを選ぶ？</title><link>https://ja.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "サイバーセキュリティ"
+, "広告ブロック"
+, "DNS"
+, "プライバシー"
+, "インターネットセキュリティ"
+, "オンライン保護"
+, "デジタルセキュリティ"
+, "ブラウジングソリューション"
+, "オンラインプライバシー"</category><guid>https://ja.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+DNSベースの広告ブロッカーであるNextDNSとAdGuardを比較し、閲覧環境に合うサービスを見つけます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp"/></item><item><title>2026年の最高プライバシーブラウザ：LibreWolf vs Brave vs Tor</title><link>https://ja.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"ブラウザ"
+, "プライバシー"
+, "セキュリティ"
+, "インターネット"
+, "テクノロジー"
+, "デジタルプライバシー"
+, "オンライン安全"
+, "オープンソース"
+, "匿名性"
+, "ウェブ閲覧"</category><guid>https://ja.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年の最高のプライバシー重視ブラウザを包括的に比較：LibreWolf、Brave、Firefox、Torなど。詳細なプライバシーテスト、パフォーマンスベンチマーク、セキュリティ分析でオンラインデータを保護します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp"/></item><item><title>リモート・アクセス・トロイの木馬を理解する：リスク、予防、保護</title><link>https://ja.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "悪意のあるソフトウェア"
+, "コンピュータ・セキュリティ"
+, "デジタルの脅威"
+, "リモート・アクセス・トロイの木馬"
+, "データ保護"
+, "プライバシー"
+, "サイバー犯罪"
+, "ネットワーク・セキュリティ"
+, "情報セキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+リモート・アクセス・トロイの木馬（RAT）がもたらすリスクを発見し、コンピュータ・システムとデータを保護するための効果的な予防策と保護策を学びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.webp" length="140888" type="image/webp"/></item><item><title>生体認証：ユースケースとセキュリティ</title><link>https://ja.simeononsecurity.com/articles/biometric-authentication-use-cases-and-security-considerations/</link><pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "サイバーセキュリティ"
+, "生体認証"
+, "認証"
+, "デジタルセキュリティ"
+, "本人確認"
+, "データ保護"
+, "プライバシー"
+, "新たなトレンド"
+, "ユーザー体験"</category><guid>https://ja.simeononsecurity.com/articles/biometric-authentication-use-cases-and-security-considerations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+機密データを保護するため、生体認証のユースケースとセキュリティ上の注意点を確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/biometric-authentication-use-cases-and-security-considerations.webp" length="228916" type="image/webp"/></item></channel></rss>

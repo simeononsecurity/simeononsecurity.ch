@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ollama on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>Ollama on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/ollama/</link></image><link>https://ja.simeononsecurity.com/tags/ollama/</link><description>Recent content in Ollama on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/ollama/index.xml" rel="self" type="application/rss+xml"/><item><title>無検閲のローカルAIモデルを選ぶ方法</title><link>https://ja.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "セルフホスト型AI"
+, "AI安全性"
+, "GPU機器"</category><guid>https://ja.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+回答の完了率、維持された能力、コンテキストの使用量、量子化、必要なVRAMを基準にローカルモデルの派生版を比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Pi-holeからローカルAIまで、10段階でホームラボを構築する</title><link>https://ja.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"ホームラボ"
+, "セルフホスティング"
+, "ローカルAI"
+, "ホームネットワーク"</category><guid>https://ja.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ネットワーク全体のDNSフィルタリングからローカルAIまで、10段階でホームラボを構築します。各段階のハードウェア、費用、スキル、トレードオフを説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Hermes向けローカルモデル検証：選びたいGPUとモデルの組み合わせ</title><link>https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ローカルAI"
+, "ハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+RTX 5060 Ti、RTX 2000E Ada、RTX 3060 Ti、RTX 3070での長いコンテキスト、ツール、ストリーミング、画像認識の検証に基づくHermes向けモデルの推奨です。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>ハイブリッドAIエージェントフリートの内部：Hermes、LiteLLM、Tailscale</title><link>https://ja.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "セルフホストAI"
+, "AIエージェント"
+, "AIインフラ"
+, "GPUマイニング"</category><guid>https://ja.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hermes、LiteLLM、Tailscale Aperture、Pearlマイニングを使った、検証済みのオンデマンド型ローカルAIフリートとT0〜T4の制御プレーンを紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>OpenCode 対 Claude Code: 2026年コーディングエージェント比較</title><link>https://ja.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "オープンソース"</category><guid>https://ja.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+モデル選択、ローカル推論、料金、権限、プロジェクト指示、日々のコーディング作業について OpenCode と Claude Code を比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>どのローカルAIモデルを動かすべきか？ 2026年10月版 GPU、コンテキスト、コーディングガイド</title><link>https://ja.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "AIハードウェア"
+, "セルフホストAI"
+, "GPUベンチマーク"
+, "開発者ツール"
+, "AI経済"</category><guid>https://ja.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+コーディングエージェント向けのローカルAIモデル選びを解説する、2026年10月の実践ガイドです。GPUメモリ、KVキャッシュの増加、コンテキスト長、量子化品質、プロンプト処理、推論設定、クラウドレンタル費用を比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Vast.ai における Llama 3.1 8B と Qwen3.8 27B の GPU ベンチマーク</title><link>https://ja.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカル AI"
+, "GPU ベンチマーク"
+, "セルフホスト AI"
+, "クラウドコンピューティング"
+, "人工知能"
+, "AI 経済"</category><guid>https://ja.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+主要な Vast.ai GPU で測定した Llama 3.1 8B と Qwen3.8 27B の Ollama ベンチマーク。デコード速度、長いコンテキスト、レンタル費用、セルフホスト、API クレジット、サブスクリプションを比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>2026年のローカルAI：27BモデルがSonnet 4.6を上回り、ハードウェア購入の好機が終わる</title><link>https://ja.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "セルフホストAI"
+, "オープンウェイトモデル"
+, "AIハードウェア"
+, "機械学習"
+, "量子化"
+, "ホームラボ"
+, "プライバシー"
+, "AI経済"
+, "一般向けハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+モデルサイズ、VRAM、メモリー帯域、消費電力、費用、アップグレードの選択肢を踏まえて、2026年向けのローカルAI環境を計画します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Raspberry Pi 4または5で動くAIモデルは？</title><link>https://ja.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "人工知能"
+, "セルフホスティング"</category><guid>https://ja.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Raspberry Pi 4と5の実測値をもとに、メモリ、速度、用途からローカル言語モデルを選びます。小型のLFM2.5から3B以上まで比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item><item><title>プライバシーを守るMeshtastic向けAIアシスタントの構築</title><link>https://ja.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"ネットワークセキュリティ"
+, "プライバシー"
+, "オープンソース"
+, "自動化"</category><guid>https://ja.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+非公開の設定、キュー経由のTCPアクセス、情報取得ツール、安全性を高めたダッシュボードを備えるMeshtastic用ローカルAIアシスタントの構築記録。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item></channel></rss>

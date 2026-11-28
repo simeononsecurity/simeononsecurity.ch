@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>データの機密性 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>データの機密性 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E6%A9%9F%E5%AF%86%E6%80%A7/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E6%A9%9F%E5%AF%86%E6%80%A7/</link><description>Recent content in データの機密性 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E6%A9%9F%E5%AF%86%E6%80%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>暗号技術の仕組み：暗号化方式を解説</title><link>https://ja.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><category>
+"暗号技術の歴史"
+, "暗号化方式"
+, "共通鍵暗号"
+, "公開鍵暗号"
+, "RSAアルゴリズム"
+, "楕円曲線暗号"
+, "Diffie-Hellman鍵交換"
+, "データの機密性"
+, "データの完全性"
+, "データ認証"
+, "量子コンピューターの脅威"
+, "セキュリティ監査"
+, "暗号資産ウォレットの安全性"</category><guid>https://ja.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+共通鍵暗号、公開鍵暗号、ハイブリッド暗号がデータを保護する仕組み、鍵交換の方法、現代の暗号技術の用途を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques.webp" length="291054" type="image/webp"/></item><item><title>企業に欠かせない7つのセキュリティ対策</title><link>https://ja.simeononsecurity.com/articles/7-essential-security-practices-for-any-business/</link><pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate><category>
+"企業セキュリティ"
+, "物理セキュリティ"
+, "サイバーセキュリティ"
+, "インシデント対応"
+, "従業員研修"
+, "データ暗号化"
+, "監視システム"
+, "アクセス制御"
+, "セキュリティプロトコル"
+, "デジタルレジリエンス"</category><guid>https://ja.simeononsecurity.com/articles/7-essential-security-practices-for-any-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+物理的な保護、サイバーセキュリティ、事業継続の計画にわたる、企業向けの実践的な7つのセキュリティ対策を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/7-essential-security-practices-for-any-business.webp" length="235660" type="image/webp"/></item><item><title>管理対象の非機密情報を保護する</title><link>https://ja.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</link><pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate><category>
+"データセキュリティ"
+, "情報保護"
+, "プライバシー管理"
+, "機密情報の取り扱い"
+, "サイバーセキュリティ"
+, "コンプライアンス"
+, "リスク管理"
+, "情報ガバナンス"
+, "データの機密性"
+, "情報保証"</category><guid>https://ja.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+管理対象の非機密情報（CUI）を保護する理由と、機密性の高いデータを効果的に守る方法を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/CUI-Safeguarding-Sensitive-Data.webp" length="96388" type="image/webp"/></item><item><title>Active Directoryのセキュリティ対策</title><link>https://ja.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "ネットワーク管理"
+, "情報技術"
+, "データ保護"
+, "企業セキュリティ"
+, "デジタルインフラ"
+, "アクセス制御"
+, "ユーザー認証"
+, "ITのベストプラクティス"
+, "セキュリティ意識"</category><guid>https://ja.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Active Directoryを保護し、データを守り、ネットワークへの侵入を防ぐ方法を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item><item><title>誰が情報を機密指定し、分類レベルを決めるのか</title><link>https://ja.simeononsecurity.com/articles/who-designates-whether-information-is-classified/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><category>
+"情報セキュリティ"
+, "データ分類"
+, "政府規制"
+, "国家安全保障"
+, "データ保護"
+, "データプライバシー"
+, "セキュリティ対策"
+, "機密情報"
+, "アクセス制御"
+, "データの機密性"</category><guid>https://ja.simeononsecurity.com/articles/who-designates-whether-information-is-classified/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+誰が情報を機密指定するのか、分類レベルがどう決まるのか、米国の手続きがどう機能するのかを解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.webp" length="161990" type="image/webp"/></item></channel></rss>

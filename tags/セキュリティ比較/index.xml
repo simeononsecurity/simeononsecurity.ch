@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>セキュリティ比較 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>セキュリティ比較 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%AF%94%E8%BC%83/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%AF%94%E8%BC%83/</link><description>Recent content in セキュリティ比較 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%AF%94%E8%BC%83/index.xml" rel="self" type="application/rss+xml"/><item><title>オープンソースソフトウェアが独自ソフトウェアより安全性に優れる理由</title><link>https://ja.simeononsecurity.com/articles/open-source-software-security/</link><pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "オープンソース"
+, "ソフトウェアセキュリティ"
+, "政府規制"
+, "共同開発"
+, "デジタル保護"
+, "ITセキュリティ"
+, "技術動向"
+, "オンライン安全"
+, "データプライバシー"</category><guid>https://ja.simeononsecurity.com/articles/open-source-software-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+オープンソースソフトウェアが独自ソフトウェアより安全とされる理由と、透明性や協力がデジタル資産を守る仕組みを紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/open-source-software-security.webp" length="61142" type="image/webp"/></item><item><title>WindowsとLinuxのセキュリティ強化</title><link>https://ja.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "スクリプト言語"
+, "システムセキュリティ"
+, "Windows"
+, "Linux"
+, "政府規制"
+, "サイバー脅威"
+, "安全なスクリプト作成"
+, "コンプライアンス"
+, "プログラミング"</category><guid>https://ja.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバーセキュリティを詳しく分析し、PowerShellとPythonでシステムの安全性を高める方法を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp"/></item><item><title>Windows Task SchedulerとLinux Cronのセキュリティ比較</title><link>https://ja.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "オペレーティングシステム"
+, "システム自動化"
+, "セキュリティツール"
+, "コンピュータ技術"
+, "タスクスケジューリング"
+, "ネットワークセキュリティ"
+, "システム管理"
+, "サイバー防御"
+, "IT管理"</category><guid>https://ja.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバーセキュリティとシステムの強化という観点から、Windows Task SchedulerとLinuxのCronジョブを比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item></channel></rss>

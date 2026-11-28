@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>セキュリティ態勢 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>セキュリティ態勢 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%85%8B%E5%8B%A2/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%85%8B%E5%8B%A2/</link><description>Recent content in セキュリティ態勢 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%85%8B%E5%8B%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>サイバーレジリエンスを高める</title><link>https://ja.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</link><pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate><category>
+"侵入テスト"
+, "倫理的ハッキング"
+, "サイバーセキュリティ戦略"
+, "セキュリティ対策"
+, "脆弱性評価"
+, "インシデント対応"
+, "規制遵守"
+, "セキュリティ管理策"
+, "サイバーレジリエンス"
+, "サイバーセキュリティの将来"</category><guid>https://ja.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+定期的な侵入テストで悪用可能な弱点を見つけ、リスクに基づく修正を支援し、システムとアプリケーションの防御を検証する方法を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/the-importance-of-regular-penetration-testing-for-cybersecurity.webp" length="85258" type="image/webp"/></item><item><title>組織を守る：セキュリティインシデント管理ソフトウェアの利点</title><link>https://ja.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "インシデント管理"
+, "データ保護"
+, "デジタルセキュリティ"
+, "脅威の軽減"
+, "技術ソリューション"
+, "サイバー防御"
+, "情報セキュリティ"
+, "事業継続"
+, "リスク管理"</category><guid>https://ja.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+セキュリティインシデント管理ソフトウェアが対応、追跡、コンプライアンスを改善し、デジタル資産を守る方法を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/benefits-of-security-incident-management-software.webp" length="227836" type="image/webp"/></item><item><title>レジリエントなSOCを構築する</title><link>https://ja.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "テクノロジー"
+, "ビジネス"
+, "データ保護"
+, "インシデント対応"
+, "IT管理"
+, "ネットワークセキュリティ"
+, "脅威検知"
+, "情報セキュリティ"
+, "リスク管理"</category><guid>https://ja.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+堅牢なセキュリティ運用センター（SOC）を設置し、サイバー脅威に対抗してインシデントを検知し、組織の資産を保護します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>防御を強化する：EDRサイバーセキュリティソリューション</title><link>https://ja.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "テクノロジー"
+, "脅威検知"
+, "エンドポイントセキュリティ"
+, "インシデント対応"
+, "データ保護"
+, "ネットワークセキュリティ"
+, "デジタル防御"
+, "ITセキュリティ"
+, "サイバーレジリエンス"</category><guid>https://ja.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+EDRソリューションによるエンドポイント保護、脅威検知、組織に適した製品の選び方を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp"/></item><item><title>サイバーセキュリティの強化</title><link>https://ja.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "Windows グループポリシー"
+, "攻撃対象領域の縮小"
+, "IT セキュリティ"
+, "ネットワーク保護"
+, "データ保護"
+, "デジタルレジリエンス"
+, "システム強化"
+, "セキュリティのベストプラクティス"
+, "リスク軽減"</category><guid>https://ja.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows グループポリシーの設定で攻撃対象領域を縮小し、保護を強化する方法を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/Cybersecurity_Shield_Defense.webp" length="129592" type="image/webp"/></item><item><title>NIST Cybersecurity FrameworkとISO 27001の比較</title><link>https://ja.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "情報セキュリティ"
+, "セキュリティフレームワーク"
+, "リスク管理"
+, "データ保護"
+, "コンプライアンス"
+, "ITガバナンス"
+, "サイバー脅威"
+, "サイバー防御"
+, "サイバーリスク"</category><guid>https://ja.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+NIST Cybersecurity FrameworkとISO 27001の違いを理解し、組織に適したセキュリティフレームワークを選びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_shield_protecting_a_network_of.webp" length="102920" type="image/webp"/></item></channel></rss>
