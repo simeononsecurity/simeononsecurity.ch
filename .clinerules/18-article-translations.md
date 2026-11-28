@@ -928,6 +928,10 @@
   paths. A rendered file left by an earlier attempt does not prove the current
   build used the overlay or completed successfully. Record a fresh exit status
   and log for every locale.
+  When checking generated HTML, capture the `lang` value only up to the next
+  whitespace or `>` character. For example, `<html lang="fr" itemscope>` has
+  language `fr`; a matcher that consumes later attributes reports a false
+  mismatch. Verify the expected article path and exact language value.
 - Mixed-language sentences need a phrase-level check even when the paragraph is
   mostly translated. The strict checker blocks unchanged generic phrases such
   as `incident response`, `best practices`, and `supply chain`; translate them
