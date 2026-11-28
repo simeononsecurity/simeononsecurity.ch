@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Crittografia on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Crittografia on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/crittografia/</link></image><link>https://it.simeononsecurity.com/genre/crittografia/</link><description>Recent content in Crittografia on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/crittografia/index.xml" rel="self" type="application/rss+xml"/><item><title>Connettività e sicurezza dei dati per nodi edge da campo</title><link>https://it.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Edge computing"
+, "IT sul campo"
+, "Sicurezza di rete"
+, "VPN"
+, "Crittografia"
+, "Sicurezza fisica"
+, "Ripristino di emergenza"</category><guid>https://it.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Connetti e proteggi i nodi edge in campo con reti cellulari, satellitari, LoRa, VPN, MFA, segmentazione, registri, crittografia e protezione dai furti.</description><enclosure url="https://it.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item><item><title>Funzioni C# non sicure: pratiche di programmazione sicura</title><link>https://it.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Sviluppo software"
+, "Programmazione C#"
+, "Sicurezza informatica"
+, "Sicurezza del codice"
+, "Programmazione sicura"
+, "Buone pratiche di programmazione"
+, "Vulnerabilità software"
+, "Crittografia"
+, "Sviluppo web"
+, "Sicurezza delle applicazioni"</category><guid>https://it.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Alternative sicure alle funzioni C# non sicure. Scopri come riconoscere i rischi per la sicurezza della memoria e sostituire le operazioni vulnerabili.</description><enclosure url="https://it.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>Servizio e-mail sicuro: Migliorare la privacy con StartMail</title><link>https://it.simeononsecurity.com/articles/secure-email-service-startmail/</link><pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Privacy"
+, "Servizi e-mail"
+, "Sicurezza online"
+, "Privacy digitale"
+, "Crittografia"
+, "Protezione dei dati"
+, "Privacy delle e-mail"
+, "Protezione dell'identità"
+, "Privacy online"</category><guid>https://it.simeononsecurity.com/articles/secure-email-service-startmail/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri gli alias e-mail di StartMail, la crittografia PGP, i messaggi protetti da password e i limiti delle e-mail cifrate.</description><enclosure url="https://it.simeononsecurity.com/img/cover/secure_email_guard.webp" length="45872" type="image/webp"/></item><item><title>Aumentare la sicurezza delle macchine virtuali con vTPM: Guida passo-passo</title><link>https://it.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Virtualizzazione"
+, "VMware"
+, "vSphere"
+, "Sicurezza"
+, "Modulo di piattaforma affidabile"
+, "vTPM"
+, "Ospite OS"
+, "Crittografia"
+, "Attestazione della piattaforma"</category><guid>https://it.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Migliorate la sicurezza delle macchine virtuali utilizzando vTPM con la nostra guida completa passo-passo, che fornisce l'attestazione della piattaforma e il supporto della crittografia BitLocker.</description><enclosure url="https://it.simeononsecurity.com/img/cover/enhanced-vm-security.webp" length="99734" type="image/webp"/></item><item><title>Prova di forza per le e-mail sicure: StartMail vs ProtonMail vs Tutanota</title><link>https://it.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</link><pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Sicurezza informatica"
+, "Data Privacy"
+, "Servizi e-mail"
+, "Sicurezza online"
+, "Crittografia"
+, "Strumenti Internet"
+, "Confronto"
+, "Protezione digitale"
+, "Privacy online"</category><guid>https://it.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri il miglior servizio di posta elettronica sicura! Un confronto dettagliato tra StartMail, ProtonMail e Tutanota, per garantire la vostra privacy online</description><enclosure url="https://it.simeononsecurity.com/img/cover/secure-email-showdown.webp" length="84184" type="image/webp"/></item><item><title>AWS, Azure e Google Cloud nel 2026: confronto completo delle piattaforme cloud</title><link>https://it.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cloud computing"
+, "Sicurezza cloud"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "Sicurezza dei dati"
+, "Crittografia"
+, "Gestione delle identità e degli accessi"
+, "Conformità"
+, "Rilevamento delle minacce"</category><guid>https://it.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronto tra AWS, Microsoft Azure e Google Cloud Platform nel 2026. Analisi di prezzi, sicurezza, conformità, servizi, prestazioni e criteri per scegliere il provider cloud più adatto.</description><enclosure url="https://it.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item><item><title>I migliori gestori di password 2026: Bitwarden vs KeePassXC</title><link>https://it.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Cybersecurity"
+, "Gestione delle password"
+, "Sicurezza online"
+, "Protezione dei dati"
+, "Crittografia"
+, "Privacy digitale"
+, "Strumenti Internet"
+, "Archiviazione cloud"
+, "Confronto software"</category><guid>https://it.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronto del 2026 tra Bitwarden, KeePassXC, 1Password, LastPass, Dashlane e Proton Pass.</description><enclosure url="https://it.simeononsecurity.com/img/cover/bitwarden-and-keepassxc-vs-the-rest.webp" length="241120" type="image/webp"/></item></channel></rss>

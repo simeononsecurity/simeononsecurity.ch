@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Amministrazione Dei Sistemi on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Amministrazione Dei Sistemi on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/amministrazione-dei-sistemi/</link></image><link>https://it.simeononsecurity.com/genre/amministrazione-dei-sistemi/</link><description>Recent content in Amministrazione Dei Sistemi on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/amministrazione-dei-sistemi/index.xml" rel="self" type="application/rss+xml"/><item><title>1Password SSH Agent and CLI: Accesso in sola lettura per agenti AI</title><link>https://it.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Amministrazione dei sistemi"
+, "Sicurezza cloud"
+, "Automazione"</category><guid>https://it.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Progetta un flusso di lavoro SSH in sola lettura con 1Password CLI, SSH Agent e MCP. Utilizza comandi sintetici, permessi ristretti e approvazione umana prima dei test live.</description><enclosure url="https://it.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Ansible vs Puppet vs Chef 2026: gestione della configurazione</title><link>https://it.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "Automazione delle infrastrutture"
+, "Gestione della configurazione"
+, "Operazioni IT"
+, "Cloud computing"
+, "Amministrazione dei sistemi"
+, "IT aziendale"
+, "Sviluppo software"
+, "Infrastruttura IT"
+, "Strumenti di automazione"</category><guid>https://it.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronto 2026 tra Ansible, Puppet e Chef per architettura, funzionalità, curva di apprendimento, prestazioni, prezzi e casi d'uso.</description><enclosure url="https://it.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>Padroneggiare le funzioni di copia: gestire i file nel sistema operativo</title><link>https://it.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</link><pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Gestione dei file"
+, "Sistemi operativi"
+, "Trasferimento dei dati"
+, "Organizzazione dei dati"
+, "Competenze informatiche"
+, "Consigli IT"
+, "Efficienza del sistema operativo"
+, "Amministrazione dei sistemi"
+, "Utilità software"</category><guid>https://it.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri le funzioni di copia avanzate dei sistemi operativi e impara a gestire i file in modo rapido ed efficiente.</description><enclosure url="https://it.simeononsecurity.com/img/cover/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems.webp" length="92028" type="image/webp"/></item><item><title>Windows Task Scheduler e Cron di Linux a confronto: la sicurezza</title><link>https://it.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Sistemi operativi"
+, "Automazione dei sistemi"
+, "Strumenti di sicurezza"
+, "Tecnologia informatica"
+, "Pianificazione delle attività"
+, "Sicurezza di rete"
+, "Amministrazione dei sistemi"
+, "Difesa informatica"
+, "Gestione IT"</category><guid>https://it.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronta Windows Task Scheduler e i processi Cron di Linux dal punto di vista della sicurezza informatica e dell'hardening dei sistemi.</description><enclosure url="https://it.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item></channel></rss>

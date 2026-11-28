@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rilevamento Inondazione Beacon on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Rilevamento Inondazione Beacon on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/rilevamento-inondazione-beacon/</link></image><link>https://it.simeononsecurity.com/tags/rilevamento-inondazione-beacon/</link><description>Recent content in Rilevamento Inondazione Beacon on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/rilevamento-inondazione-beacon/index.xml" rel="self" type="application/rss+xml"/><item><title>ESP32 WiFi Canary: rilevamento passivo delle minacce a 2,4 GHz</title><link>https://it.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Sicurezza di rete"
+, "Sicurezza WiFi"
+, "Sicurezza IoT"
+, "Ricerca sulla sicurezza"
+, "Sistemi embedded"
+, "Strumenti per la privacy"
+, "Progetti ESP32"
+, "Sicurezza hardware"
+, "Sicurezza wireless"
+, "Sicurezza open source"</category><guid>https://it.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Analisi tecnica di ESP32 WiFi Canary, un sensore passivo a 2,4 GHz che rileva evil twin, deautenticazione, downgrade di sicurezza e inondazioni di beacon.</description><enclosure url="https://it.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>

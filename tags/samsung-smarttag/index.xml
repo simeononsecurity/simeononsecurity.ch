@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Samsung SmartTag on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Samsung SmartTag on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/samsung-smarttag/</link></image><link>https://it.simeononsecurity.com/tags/samsung-smarttag/</link><description>Recent content in Samsung SmartTag on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/samsung-smarttag/index.xml" rel="self" type="application/rss+xml"/><item><title>Eye Spy: rilevatore passivo di sorveglianza e tracker per ESP32</title><link>https://it.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"Strumenti per la privacy"
+, "Controsorveglianza"
+, "Sicurezza IoT"
+, "Sistemi embedded"
+, "Ricerca sulla sicurezza"
+, "Sicurezza WiFi"
+, "Sicurezza Bluetooth"
+, "Progetti ESP32"
+, "Sicurezza hardware"
+, "Sicurezza open source"</category><guid>https://it.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Riferimento tecnico per Eye Spy v1.1, un rilevatore passivo BLE e WiFi con ESP32 per telecamere, tracker, droni e segnali correlati.</description><enclosure url="https://it.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item></channel></rss>

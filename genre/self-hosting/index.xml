@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Self-Hosting on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Self-Hosting on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/self-hosting/</link></image><link>https://it.simeononsecurity.com/genre/self-hosting/</link><description>Recent content in Self-Hosting on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/self-hosting/index.xml" rel="self" type="application/rss+xml"/><item><title>Costruisci un home lab in 10 livelli, da Pi-hole all'IA locale</title><link>https://it.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Home lab"
+, "Self-hosting"
+, "IA locale"
+, "Reti domestiche"</category><guid>https://it.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Costruisci un home lab in dieci fasi pratiche, dal filtraggio DNS dell'intera rete all'IA locale, con hardware, costi, competenze e compromessi per ogni livello.</description><enclosure url="https://it.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Quali modelli AI funzionano su Raspberry Pi 4 o 5?</title><link>https://it.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "Intelligenza artificiale"
+, "Self-hosting"</category><guid>https://it.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Usa i risultati misurati su Raspberry Pi 4 e 5 per scegliere modelli linguistici locali in base a memoria, velocità e carico, dai piccoli modelli LFM2.5 alle opzioni 3B e superiori.</description><enclosure url="https://it.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item><item><title>Cloudflare Tunnel e Access: servono entrambi?</title><link>https://it.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Sicurezza di rete"
+, "Self-hosting"
+, "Sicurezza cloud"</category><guid>https://it.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri le differenze tra Cloudflare Tunnel e Access, scegli la protezione per una dashboard domestica ed evita di pubblicare un'app privata senza autenticazione.</description><enclosure url="https://it.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>Aumentare la produttività con Homebox: Gestione dell'inventario e dei beni open source</title><link>https://it.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Gestione dell’inventario"
+, "Gestione dei beni"
+, "software libero"
+, "Produttività"
+, "Piccola impresa"
+, "Gestione della casa"
+, "Self-hosting"
+, "programma informatico"
+, "Organizzazione"</category><guid>https://it.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite la potenza di Homebox, un software open-source per la gestione efficiente dell'inventario e dei beni, che migliora la produttività della vostra casa o della vostra piccola impresa.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp" length="60896" type="image/webp"/></item></channel></rss>

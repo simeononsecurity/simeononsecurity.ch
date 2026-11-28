@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sicurezza Del Codice on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Sicurezza Del Codice on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/sicurezza-del-codice/</link></image><link>https://it.simeononsecurity.com/tags/sicurezza-del-codice/</link><description>Recent content in Sicurezza Del Codice on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/sicurezza-del-codice/index.xml" rel="self" type="application/rss+xml"/><item><title>Programmare in Python in modo sicuro</title><link>https://it.simeononsecurity.com/articles/secure-python-coding-insecure-functions/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><category>
+"Programmazione"
+, "Sicurezza informatica"
+, "Sviluppo software"
+, "Python"
+, "Codifica"
+, "Sviluppo web"
+, "Codifica sicura"
+, "Tecnologia"
+, "Informatica"
+, "Sicurezza dei dati"</category><guid>https://it.simeononsecurity.com/articles/secure-python-coding-insecure-functions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Impara a scrivere codice Python sicuro evitando funzioni rischiose e seguendo buone pratiche per applicazioni robuste e affidabili.</description><enclosure url="https://it.simeononsecurity.com/img/cover/secure-python-coding-wall.webp" length="111414" type="image/webp"/></item><item><title>Funzioni C# non sicure: pratiche di programmazione sicura</title><link>https://it.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Sviluppo software"
+, "Programmazione C#"
+, "Sicurezza informatica"
+, "Sicurezza del codice"
+, "Programmazione sicura"
+, "Buone pratiche di programmazione"
+, "Vulnerabilità software"
+, "Crittografia"
+, "Sviluppo web"
+, "Sicurezza delle applicazioni"</category><guid>https://it.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Alternative sicure alle funzioni C# non sicure. Scopri come riconoscere i rischi per la sicurezza della memoria e sostituire le operazioni vulnerabili.</description><enclosure url="https://it.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>Le migliori pratiche di sicurezza di Python: Proteggere il codice e i dati</title><link>https://it.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza Python"
+, "Codice di sicurezza"
+, "Protezione dei dati"
+, "Sviluppo di software"
+, "Sicurezza informatica"
+, "Codifica sicura"
+, "Sviluppo web"
+, "Privacy dei dati"
+, "Sicurezza delle applicazioni"
+, "Sicurezza informatica"</category><guid>https://it.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Imparate le migliori pratiche di sicurezza di Python per salvaguardare il vostro codice e i vostri dati da potenziali minacce, garantendo la protezione dei dati, l'integrità del sistema e la creazione di fiducia.</description><enclosure url="https://it.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.webp" length="115818" type="image/webp"/></item></channel></rss>

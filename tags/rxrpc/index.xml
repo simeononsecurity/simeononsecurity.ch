@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RxRPC on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>RxRPC on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/rxrpc/</link></image><link>https://it.simeononsecurity.com/tags/rxrpc/</link><description>Recent content in RxRPC on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/rxrpc/index.xml" rel="self" type="application/rss+xml"/><item><title>I container non sono più un confine di sicurezza: le evasioni dal kernel nel 2026</title><link>https://it.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"Sicurezza dei container"
+, "Linux"
+, "Sicurezza del kernel"
+, "Virtualizzazione"
+, "Sicurezza cloud"
+, "Ricerca sulle minacce"
+, "Blue team"
+, "DevSecOps"</category><guid>https://it.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esamina la ricerca del 2026 sulle evasioni dai container, i limiti dell'isolamento del kernel, la pressione sulle patch e il ruolo delle microVM.</description><enclosure url="https://it.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item></channel></rss>

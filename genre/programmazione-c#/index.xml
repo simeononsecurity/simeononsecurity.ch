@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programmazione C# on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Programmazione C# on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/programmazione-c%23/</link></image><link>https://it.simeononsecurity.com/genre/programmazione-c%23/</link><description>Recent content in Programmazione C# on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/programmazione-c%23/index.xml" rel="self" type="application/rss+xml"/><item><title>Funzioni C# non sicure: pratiche di programmazione sicura</title><link>https://it.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Sviluppo software"
+, "Programmazione C#"
+, "Sicurezza informatica"
+, "Sicurezza del codice"
+, "Programmazione sicura"
+, "Buone pratiche di programmazione"
+, "Vulnerabilità software"
+, "Crittografia"
+, "Sviluppo web"
+, "Sicurezza delle applicazioni"</category><guid>https://it.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Alternative sicure alle funzioni C# non sicure. Scopri come riconoscere i rischi per la sicurezza della memoria e sostituire le operazioni vulnerabili.</description><enclosure url="https://it.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item></channel></rss>

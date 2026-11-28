@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rafforzamento Della Sicurezza Del Computer on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Rafforzamento Della Sicurezza Del Computer on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/rafforzamento-della-sicurezza-del-computer/</link></image><link>https://it.simeononsecurity.com/tags/rafforzamento-della-sicurezza-del-computer/</link><description>Recent content in Rafforzamento Della Sicurezza Del Computer on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/rafforzamento-della-sicurezza-del-computer/index.xml" rel="self" type="application/rss+xml"/><item><title>Rafforza la sicurezza del computer disattivando SSL e TLS 1.1 e versioni precedenti</title><link>https://it.simeononsecurity.com/articles/hardening-tls-and-ssl/</link><pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate><category>
+"Rafforzamento della sicurezza del computer"
+, "Disattivazione di SSL e TLS"
+, "Sicurezza dei dati"
+, "POODLE"
+, "BEAST"
+, "Heartbleed"
+, "Editor del Registro di Windows"
+, "Configurazione OpenSSL su Linux"
+, "Apache"
+, "Nginx"</category><guid>https://it.simeononsecurity.com/articles/hardening-tls-and-ssl/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Disattiva SSL e le vecchie versioni di TLS mantenendo TLS 1.2 o successivo. La guida tratta Schannel e .NET su Windows e i servizi Linux.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp" length="106014" type="image/webp"/></item></channel></rss>

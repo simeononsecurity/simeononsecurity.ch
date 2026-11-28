@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Prompt Injection on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Prompt Injection on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/prompt-injection/</link></image><link>https://it.simeononsecurity.com/tags/prompt-injection/</link><description>Recent content in Prompt Injection on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/prompt-injection/index.xml" rel="self" type="application/rss+xml"/><item><title>I Context Language Models di Meta: memoria migliore per gli agenti, non la fine delle allucinazioni</title><link>https://it.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligenza artificiale"
+, "Agenti IA"
+, "IA locale"
+, "Sicurezza dell’IA"</category><guid>https://it.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Come i Context Language Models modificano la memoria degli agenti, cosa dimostrano i benchmark e come costi della cache, capacità del modello e note non attendibili influiscono sull’affidabilità.</description><enclosure url="https://it.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp"/></item><item><title>Cybersecurity dell'IA nel 2026: implementare in fretta, proteggere dopo</title><link>https://it.simeononsecurity.com/articles/state-of-ai-cybersecurity-2026/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><category>
+"sicurezza dell'IA"
+, "cybersecurity dell'IA 2026"
+, "prompt injection"
+, "agenti IA"
+, "sicurezza MCP"
+, "catena di fornitura dell'IA"
+, "shadow AI"
+, "red teaming dell'IA"
+, "sicurezza LLM"
+, "osservabilità dell'IA"
+, "IA agentica"
+, "minacce dell'IA"
+, "attacchi dell'IA"
+, "sicurezza dei modelli"
+, "governance dell'IA"
+, "NIST AI 600-1"
+, "OWASP LLM"
+, "MITRE ATLAS"
+, "risposta agli incidenti IA"
+, "sicurezza dell'IA aziendale"
+, "identità IA"
+, "avvelenamento del contesto"
+, "avvelenamento degli strumenti"
+, "autorizzazione dell'IA"</category><guid>https://it.simeononsecurity.com/articles/state-of-ai-cybersecurity-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Una valutazione dell'adozione della cybersecurity dell'IA, delle lacune operative, delle linee guida attuali e dei controlli pratici per le organizzazioni nel 2026.</description><enclosure url="https://it.simeononsecurity.com/img/cover/state-of-ai-cybersecurity-2026.webp" length="282406" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Raspberry Pi on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Raspberry Pi on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/raspberry-pi/</link></image><link>https://it.simeononsecurity.com/genre/raspberry-pi/</link><description>Recent content in Raspberry Pi on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sun, 20 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/raspberry-pi/index.xml" rel="self" type="application/rss+xml"/><item><title>Quali modelli AI funzionano su Raspberry Pi 4 o 5?</title><link>https://it.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "Intelligenza artificiale"
+, "Self-hosting"</category><guid>https://it.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Usa i risultati misurati su Raspberry Pi 4 e 5 per scegliere modelli linguistici locali in base a memoria, velocità e carico, dai piccoli modelli LFM2.5 alle opzioni 3B e superiori.</description><enclosure url="https://it.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item><item><title>SenseCAP M1 Raspberry Pi Shield: pinout e riuso LoRaWAN</title><link>https://it.simeononsecurity.com/articles/sensecap-m1-raspberry-pi-shield/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "IoT"
+, "Sicurezza hardware"</category><guid>https://it.simeononsecurity.com/articles/sensecap-m1-raspberry-pi-shield/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esamina lo shield SenseCAP M1, confronta le mappature GPIO in conflitto, controlla il chip ATECC608 e pianifica un gateway LoRaWAN con Raspberry Pi OS moderno.</description><enclosure url="https://it.simeononsecurity.com/img/cover/sensecap-wm1302-shield-hardware.webp" length="563558" type="image/webp"/></item><item><title>Sostituzione della scheda SD di Nebra Helium Miner: Guida passo passo</title><link>https://it.simeononsecurity.com/other/replacing-nebra-outdoor-indoor-miner-emmc-key/</link><pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Criptovalute"
+, "Hardware"
+, "Miniere di elio"
+, "Risoluzione dei problemi"
+, "Sostituzione della scheda SD"
+, "Problemi di sincronizzazione"
+, "Raspberry Pi"
+, "Balena Etcher"
+, "Minatore di elio Nebra"</category><guid>https://it.simeononsecurity.com/other/replacing-nebra-outdoor-indoor-miner-emmc-key/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come sostituire o riflashare la scheda SD Nebra Indoor e Outdoor, di prima e seconda generazione, EMMC Key e risolvere i problemi di sincronizzazione di Helium Miner con questa guida.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_holding_a_Nebra_Helium_M.webp" length="96808" type="image/webp"/></item></channel></rss>

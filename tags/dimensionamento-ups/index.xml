@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dimensionamento UPS on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Dimensionamento UPS on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/dimensionamento-ups/</link></image><link>https://it.simeononsecurity.com/tags/dimensionamento-ups/</link><description>Recent content in Dimensionamento UPS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/dimensionamento-ups/index.xml" rel="self" type="application/rss+xml"/><item><title>Dimensionare un UPS per l’homelab e testare lo spegnimento automatico</title><link>https://it.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Laboratorio domestico"
+, "Protezione dell’alimentazione"
+, "Amministrazione di sistema"</category><guid>https://it.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Misura l’assorbimento dell’homelab, confronta i limiti in watt e VA dell’UPS, verifica l’autonomia con il tuo carico e prova uno spegnimento corretto prima di affidarti alla batteria.</description><enclosure url="https://it.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>Alimentazione e resilienza ambientale per sistemi da campo</title><link>https://it.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Edge computing"
+, "IT sul campo"
+, "Sistemi di alimentazione"
+, "Hardware"
+, "Ripristino dopo disastri"
+, "Informatica rugged"
+, "Reti"</category><guid>https://it.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Pianifica l'alimentazione e la protezione ambientale per nodi edge sul campo. Dimensiona UPS, batterie e pannelli solari, sincronizzazione dell'ora, grado di protezione degli involucri, messa a terra e protezione dalle sovratensioni.</description><enclosure url="https://it.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item></channel></rss>

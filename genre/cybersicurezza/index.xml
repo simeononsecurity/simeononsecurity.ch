@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybersicurezza on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Cybersicurezza on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/cybersicurezza/</link></image><link>https://it.simeononsecurity.com/genre/cybersicurezza/</link><description>Recent content in Cybersicurezza on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/cybersicurezza/index.xml" rel="self" type="application/rss+xml"/><item><title>Laboratorio SOC Microsoft domestico: acquisisci esperienza in cybersicurezza nel 2026</title><link>https://it.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cybersicurezza"
+, "Sicurezza cloud"
+, "Sviluppo professionale"</category><guid>https://it.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Crea un laboratorio SOC Microsoft con Sentinel, Defender, Intune ed Entra. Analizza incidenti, verifica le policy delle passkey e documenta prove per il portfolio.</description><enclosure url="https://it.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>Guida alla sicurezza SSL/TLS: proteggi i dati del tuo sito web</title><link>https://it.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><category>
+"Cybersicurezza"
+, "Tecnologia"
+, "Sicurezza web"
+, "Crittografia dei dati"
+, "Protocolli Internet"
+, "Privacy digitale"
+, "Sicurezza online"
+, "Implementazione di SSL/TLS"
+, "Minacce informatiche"
+, "Futuro della cybersicurezza"</category><guid>https://it.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come SSL/TLS protegge il tuo sito web con una crittografia robusta. Esamina vulnerabilità, buone pratiche e futuro della cybersicurezza per rafforzare oggi la sicurezza del tuo sito.</description><enclosure url="https://it.simeononsecurity.com/img/cover/TLS_%20Securing%20Your%20Website%20Data.webp" length="171950" type="image/webp"/></item><item><title>Perché la formazione degli utenti conta più della tecnologia avanzata nella cybersicurezza</title><link>https://it.simeononsecurity.com/articles/user-training-vs-advanced-tech-cybersecurity/</link><pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersicurezza"
+, "Formazione degli utenti"
+, "Sicurezza digitale"
+, "Protezione dei dati"
+, "Prevenzione del phishing"
+, "Ingegneria sociale"
+, "Conformità normativa"
+, "Formazione dei dipendenti"
+, "Sicurezza online"
+, "Sicurezza delle informazioni"</category><guid>https://it.simeononsecurity.com/articles/user-training-vs-advanced-tech-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri perché la formazione degli utenti è più importante della tecnologia avanzata nella cybersicurezza e come rafforza le difese digitali.</description><enclosure url="https://it.simeononsecurity.com/img/cover/user-training-cybersecurity-defense.webp" length="105250" type="image/webp"/></item><item><title>Padroneggiare OPSEC: 6 passaggi essenziali per la sicurezza digitale</title><link>https://it.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersicurezza"
+, "Sicurezza digitale"
+, "Sicurezza operativa"
+, "Privacy online"
+, "Protezione dei dati"
+, "Sicurezza delle informazioni"
+, "Sicurezza su Internet"
+, "Difesa informatica"
+, "Misure di sicurezza"
+, "Minacce online"</category><guid>https://it.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri sei passaggi essenziali di OPSEC per proteggere la tua presenza digitale e rafforzare la cybersicurezza.</description><enclosure url="https://it.simeononsecurity.com/img/cover/OPSEC_Steps_Security.webp" length="216778" type="image/webp"/></item><item><title>Miti esilaranti sulla cybersicurezza: le fantasie di hacking di Hollywood</title><link>https://it.simeononsecurity.com/articles/hilarious-cybersecurity-myths-hollywood-hacking-antics/</link><pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersicurezza"
+, "Hacking"
+, "Intrattenimento"
+, "Cultura pop"
+, "Serie TV"
+, "Film"
+, "Tecnologia"
+, "Umorismo"
+, "Mondo digitale"
+, "Media"</category><guid>https://it.simeononsecurity.com/articles/hilarious-cybersecurity-myths-hollywood-hacking-antics/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri i miti più divertenti sulla cybersicurezza nella cultura pop, da due persone sulla stessa tastiera allo «Zoom Enhance» di CSI.</description><enclosure url="https://it.simeononsecurity.com/img/cover/cybersecurity-hackers-cartoon.webp" length="164288" type="image/webp"/></item><item><title>FISMA: rafforzare la cybersicurezza federale per proteggere i dati</title><link>https://it.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</link><pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersicurezza"
+, "Normative governative"
+, "Garanzia delle informazioni"
+, "Protezione dei dati"
+, "Agenzie federali"
+, "Gestione dei rischi"
+, "Standard di sicurezza"
+, "Monitoraggio continuo"
+, "Minacce informatiche"
+, "Governance digitale"</category><guid>https://it.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come FISMA rafforza la cybersicurezza federale. Approfondisci caratteristiche, processo e impatto sulla protezione dei dati.</description><enclosure url="https://it.simeononsecurity.com/img/cover/secure-shield-fisma.webp" length="118222" type="image/webp"/></item><item><title>Padroneggiare la cybersicurezza</title><link>https://it.simeononsecurity.com/articles/mastering-risk-management-framework-cybersecurity/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersicurezza"
+, "Gestione dei rischi"
+, "Sicurezza delle informazioni"
+, "Normative governative"
+, "Difesa informatica"
+, "Sicurezza IT"
+, "Protezione dei dati"
+, "Controlli di sicurezza"
+, "Linee guida NIST"
+, "Monitoraggio continuo"</category><guid>https://it.simeononsecurity.com/articles/mastering-risk-management-framework-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri il Quadro di gestione dei rischi (RMF) essenziale per la cybersicurezza, i suoi componenti e la sua importanza.</description><enclosure url="https://it.simeononsecurity.com/img/cover/cybersecurity_shield_protection.webp" length="120532" type="image/webp"/></item><item><title>Preparazione alla cybersicurezza: proteggi i dati aziendali</title><link>https://it.simeononsecurity.com/articles/cybersecurity-readiness-guide/</link><pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicurezza"
+, "Sicurezza aziendale"
+, "Protezione dei dati"
+, "Valutazione dei rischi"
+, "Sicurezza delle informazioni"
+, "Sicurezza digitale"
+, "Privacy dei dati"
+, "Minacce informatiche"
+, "Sicurezza di rete"
+, "Gestione dei rischi dei fornitori"</category><guid>https://it.simeononsecurity.com/articles/cybersecurity-readiness-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Valuta la preparazione delle aziende alla cybersicurezza prima di condividere informazioni sensibili o avviare una collaborazione. Proteggi i dati e resta al sicuro.</description><enclosure url="https://it.simeononsecurity.com/img/cover/cybersecurity-shield-protection2.webp" length="102208" type="image/webp"/></item><item><title>Gestire gli incidenti di cybersicurezza</title><link>https://it.simeononsecurity.com/articles/cybersecurity-incident-response-plan/</link><pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersicurezza"
+, "Risposta agli incidenti"
+, "Violazione dei dati"
+, "Attacchi malware"
+, "Software di estorsione"
+, "Perdite finanziarie"
+, "Gestione della reputazione"
+, "Conformità legale"
+, "Continuità operativa"
+, "Mitigazione dei rischi"</category><guid>https://it.simeononsecurity.com/articles/cybersecurity-incident-response-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come sviluppare un solido piano di risposta agli incidenti di cybersicurezza per limitarne l'impatto e proteggere la tua organizzazione dalle minacce informatiche.</description><enclosure url="https://it.simeononsecurity.com/img/cover/cybersecurity_superheroes_shield.webp" length="111036" type="image/webp"/></item><item><title>Hack The Box per principianti nella cybersicurezza</title><link>https://it.simeononsecurity.com/articles/hack-the-box-good-for-beginners-cybersecurity/</link><pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate><category>
+"Cybersicurezza"
+, "Hacking etico"
+, "Test di penetrazione"
+, "Apprendimento pratico"
+, "Adatto ai principianti"
+, "Piattaforme online"
+, "Hack The Box Academy"
+, "TryHackMe"
+, "Risorse di apprendimento"
+, "Supporto della comunità"</category><guid>https://it.simeononsecurity.com/articles/hack-the-box-good-for-beginners-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri se Hack The Box è adatto ai principianti nella cybersicurezza ed esplora alternative come Hack The Box Academy e TryHackMe.</description><enclosure url="https://it.simeononsecurity.com/img/cover/hack_the_box_beginner_cybersecurity.webp" length="114812" type="image/webp"/></item><item><title>Certificazioni Microsoft per una carriera nella cybersicurezza</title><link>https://it.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cybersicurezza"
+, "Certificazioni Microsoft"
+, "Sviluppo professionale"
+, "Tecnologie dell'informazione"
+, "Sicurezza cloud"
+, "Gestione dei dati"
+, "Gestione delle identità e degli accessi"
+, "Intelligenza artificiale"
+, "Apprendimento automatico"
+, "Mercato del lavoro"</category><guid>https://it.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scegli le certificazioni Microsoft per i ruoli di cybersicurezza in base alle competenze, al lavoro desiderato, ai prerequisiti e alla rilevanza di Azure.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_illustration_featuring_a_professiona.webp" length="94814" type="image/webp"/></item><item><title>Esame di certificazione CEH: piano di studio, consigli e strategie</title><link>https://it.simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</link><pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate><category>
+"Cybersicurezza"
+, "Sicurezza delle informazioni"
+, "Sviluppo professionale"
+, "Certificazione IT"
+, "Sicurezza di rete"
+, "Hacking etico"
+, "Preparazione agli esami"
+, "Piano di studio"
+, "Gestione del tempo"
+, "Avanzamento professionale"</category><guid>https://it.simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come creare un piano di studio efficace per superare l’esame di certificazione CEH con consigli e strategie pratiche.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.webp" length="78844" type="image/webp"/></item></channel></rss>

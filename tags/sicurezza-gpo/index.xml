@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sicurezza GPO on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Sicurezza GPO on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/sicurezza-gpo/</link></image><link>https://it.simeononsecurity.com/tags/sicurezza-gpo/</link><description>Recent content in Sicurezza GPO on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/sicurezza-gpo/index.xml" rel="self" type="application/rss+xml"/><item><title>Capire il filtraggio WMI</title><link>https://it.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Gestione Windows"
+, "Criteri di gruppo"
+, "Amministrazione di sistema"
+, "Gestione di rete"
+, "Infrastruttura IT"
+, "Gestione dei criteri"
+, "Governance IT"
+, "Automazione IT"
+, "Active Directory"
+, "Conformità di sicurezza"</category><guid>https://it.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come usare il filtraggio WMI per indirizzare meglio gli oggetti Criteri di gruppo (GPO), con esempi pratici e buone pratiche.</description><enclosure url="https://it.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item></channel></rss>

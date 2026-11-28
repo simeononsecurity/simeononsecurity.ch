@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Isolamento Di Rete on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Isolamento Di Rete on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/isolamento-di-rete/</link></image><link>https://it.simeononsecurity.com/tags/isolamento-di-rete/</link><description>Recent content in Isolamento Di Rete on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/isolamento-di-rete/index.xml" rel="self" type="application/rss+xml"/><item><title>Pianificare e testare la segmentazione VLAN di un homelab</title><link>https://it.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Sicurezza di rete"
+, "Networking"</category><guid>https://it.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Crea un piano VLAN per separare dispositivi fidati, server, IoT e ospiti nel tuo homelab. Definisci il traffico consentito, configura la rete per fasi e verifica l'isolamento.</description><enclosure url="https://it.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Perché la sicurezza informatica di OT, ICS e PLC continua a non funzionare</title><link>https://it.simeononsecurity.com/articles/ot-ics-plc-cybersecurity-fundamentally-broken/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><category>
+"sicurezza OT"
+, "sicurezza ICS"
+, "sicurezza PLC"
+, "sicurezza IoT"
+, "cybersecurity industriale"
+, "sicurezza SCADA"
+, "NIST 800-82"
+, "IEC 62443"
+, "NERC CIP"
+, "tecnologia operativa"
+, "infrastrutture critiche"
+, "sensori analogici"
+, "isolamento di rete"
+, "sistemi legacy"
+, "opinione sulla cybersecurity"
+, "sistemi di controllo industriale"
+, "SCADA"
+, "Stuxnet"
+, "sicurezza dei sistemi di controllo"
+, "sicurezza ciberfisica"
+, "sicurezza della catena di fornitura"
+, "catena di fornitura OT"</category><guid>https://it.simeononsecurity.com/articles/ot-ics-plc-cybersecurity-fundamentally-broken/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri perché i controlli di sicurezza OT restano indietro rispetto alla progettazione legacy, ai vincoli operativi e ai percorsi reali degli attacchi.</description><enclosure url="https://it.simeononsecurity.com/img/cover/ot-ics-plc-cybersecurity-fundamentally-broken.webp" length="257384" type="image/webp"/></item></channel></rss>

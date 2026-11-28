@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rilevamento Delle Minacce on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Rilevamento Delle Minacce on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/rilevamento-delle-minacce/</link></image><link>https://it.simeononsecurity.com/genre/rilevamento-delle-minacce/</link><description>Recent content in Rilevamento Delle Minacce on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/rilevamento-delle-minacce/index.xml" rel="self" type="application/rss+xml"/><item><title>I tipi di attacco informatico più comuni e come rilevarli</title><link>https://it.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Rilevamento delle minacce"
+, "Blue Team"
+, "Operazioni di sicurezza"
+, "Sviluppo professionale"</category><guid>https://it.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri i tipi di attacco informatico più comuni, individua le tracce lasciate nei log e nella telemetria e prova le tecniche di rilevamento in un laboratorio domestico di sicurezza.</description><enclosure url="https://it.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item><item><title>5 modi in cui l'AI migliora il rilevamento e la risposta alle minacce informatiche</title><link>https://it.simeononsecurity.com/articles/5-ways-ai-is-transforming-cyber-threat-detection/</link><pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate><category>
+"AI nella sicurezza informatica"
+, "Rilevamento delle minacce"
+, "Tecnologia trasformativa"
+, "Innovazioni nella sicurezza informatica"
+, "Analisi dei dati"
+, "Monitoraggio in tempo reale"
+, "Machine Learning nella sicurezza"
+, "Elaborazione del linguaggio naturale"
+, "Deep Learning"
+, "Risposta automatizzata"</category><guid>https://it.simeononsecurity.com/articles/5-ways-ai-is-transforming-cyber-threat-detection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri cinque utilizzi dell'AI nel rilevamento delle minacce, tra cui analisi delle anomalie, modelli comportamentali, classificazione del malware, monitoraggio in tempo reale e supporto alla risposta.</description><enclosure url="https://it.simeononsecurity.com/img/cover/5-ways-ai-is-transforming-cyber-threat-detection.webp" length="242224" type="image/webp"/></item><item><title>Costruire un SOC resiliente</title><link>https://it.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Tecnologia"
+, "Aziende"
+, "Protezione dei dati"
+, "Risposta agli incidenti"
+, "Gestione IT"
+, "Sicurezza di rete"
+, "Rilevamento delle minacce"
+, "Sicurezza delle informazioni"
+, "Gestione dei rischi"</category><guid>https://it.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Crea un Security Operations Center (SOC) solido per contrastare le minacce informatiche, rilevare gli incidenti e proteggere le risorse della tua organizzazione.</description><enclosure url="https://it.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>Padroneggiare la sicurezza EDR: guida alla protezione degli endpoint</title><link>https://it.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Protezione degli endpoint"
+, "Soluzioni EDR"
+, "Rilevamento delle minacce"
+, "Risposta agli incidenti"
+, "Sicurezza degli endpoint"
+, "Minacce informatiche"
+, "Sicurezza IT"
+, "Difesa digitale"
+, "Strategie di sicurezza"</category><guid>https://it.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come funziona la sicurezza EDR, quali vantaggi offre, quali difficoltà comporta la sua adozione e quali buone pratiche proteggono gli endpoint.</description><enclosure url="https://it.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp"/></item><item><title>Rafforza la difesa: scopri le soluzioni di cybersecurity EDR</title><link>https://it.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Tecnologia"
+, "Rilevamento delle minacce"
+, "Sicurezza degli endpoint"
+, "Risposta agli incidenti"
+, "Protezione dei dati"
+, "Sicurezza di rete"
+, "Difesa digitale"
+, "Sicurezza informatica"
+, "Resilienza informatica"</category><guid>https://it.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come le soluzioni EDR proteggono gli endpoint, rilevano le minacce e aiutano le organizzazioni a scegliere la soluzione adatta.</description><enclosure url="https://it.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp"/></item><item><title>AWS, Azure e Google Cloud nel 2026: confronto completo delle piattaforme cloud</title><link>https://it.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cloud computing"
+, "Sicurezza cloud"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "Sicurezza dei dati"
+, "Crittografia"
+, "Gestione delle identità e degli accessi"
+, "Conformità"
+, "Rilevamento delle minacce"</category><guid>https://it.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronto tra AWS, Microsoft Azure e Google Cloud Platform nel 2026. Analisi di prezzi, sicurezza, conformità, servizi, prestazioni e criteri per scegliere il provider cloud più adatto.</description><enclosure url="https://it.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item></channel></rss>
