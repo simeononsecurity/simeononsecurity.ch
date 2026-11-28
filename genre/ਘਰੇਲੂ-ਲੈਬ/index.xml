@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਘਰੇਲੂ ਲੈਬ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਘਰੇਲੂ ਲੈਬ on simeononsecurity</title><link>https://pa.simeononsecurity.com/genre/%E0%A8%98%E0%A8%B0%E0%A9%87%E0%A8%B2%E0%A9%82-%E0%A8%B2%E0%A9%88%E0%A8%AC/</link></image><link>https://pa.simeononsecurity.com/genre/%E0%A8%98%E0%A8%B0%E0%A9%87%E0%A8%B2%E0%A9%82-%E0%A8%B2%E0%A9%88%E0%A8%AC/</link><description>Recent content in ਘਰੇਲੂ ਲੈਬ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/genre/%E0%A8%98%E0%A8%B0%E0%A9%87%E0%A8%B2%E0%A9%82-%E0%A8%B2%E0%A9%88%E0%A8%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9: ਵਰਚੁਅਲ ਡਿਸਕ ਦੀ ਵਰਤੋਂ ਘਟਾਓ ਅਤੇ ਥਾਂ ਵਾਪਸ ਲਵੋ</title><link>https://pa.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ"
+, "Linux ਪ੍ਰਸ਼ਾਸਨ"
+, "Proxmox VE ਪਲੇਟਫਾਰਮ"
+, "ਸਟੋਰੇਜ"
+, "ਘਰੇਲੂ ਲੈਬ"</category><guid>https://pa.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proxmox VE 9 ਵਿੱਚ VM ਅਤੇ LXC ਕੰਟੇਨਰਾਂ ਦੀ ਸਟੋਰੇਜ ਵਰਤੋਂ ਘਟਾਓ। ਫਾਰਮੈਟ ਅਤੇ ਬੈਕਐਂਡ ਦੀ ਤੁਲਨਾ ਕਰੋ, discard ਚਾਲੂ ਕਰੋ, trim ਚਲਾਓ ਅਤੇ ਥਾਂ ਵਾਪਸ ਲੈਣ ਤੋਂ ਪਹਿਲਾਂ ਸਨੈਪਸ਼ਾਟ ਜਾਂਚੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Hyper-V VM ਨੂੰ Proxmox VE ਉੱਤੇ ਲਿਜਾਣ ਲਈ ਵਾਪਸੀਯੋਗ ਜਾਂਚ-ਸੂਚੀ</title><link>https://pa.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਘਰੇਲੂ ਲੈਬ"</category><guid>https://pa.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਬੰਦ ਸਰੋਤ VM ਦਾ ਨਿਰਯਾਤ, ਫਰਮਵੇਅਰ ਦਾ ਮੇਲ, ਡਿਸਕ ਆਯਾਤ, ਅਲੱਗ ਬੂਟ ਟੈਸਟ ਅਤੇ ਵਾਪਸੀ ਯੋਜਨਾ ਨਾਲ Hyper-V VM ਨੂੰ Proxmox VE ਉੱਤੇ ਲਿਜਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>2026 ਵਿੱਚ Pearl (PRL) ਮਾਈਨਿੰਗ: ਸੈਟਅੱਪ, ਲਾਭਕਾਰੀਤਾ ਅਤੇ ਬਲੌਕਚੇਨ ਦੀ ਵਰਤੋਂ</title><link>https://pa.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਪਟੋਕਰੰਸੀ"
+, "GPU ਮਾਈਨਿੰਗ"
+, "AI ਗਣਨਾ"
+, "DePIN"
+, "ਬਲੌਕਚੇਨ"
+, "Linux"
+, "ਘਰੇਲੂ ਲੈਬ"
+, "ਸਾਜ਼ੋ-ਸਾਮਾਨ"</category><guid>https://pa.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SRBMiner ਨਾਲ Pearl PRL ਮਾਈਨਿੰਗ ਸੈਟਅੱਪ ਕਰੋ, ਲਾਭਦਾਇਕ ਕੰਮ ਦੇ ਸਬੂਤ ਦੀ ਜਾਂਚ ਕਰੋ, ਮਾਰਜਿਨ ਦਾ ਅੰਦਾਜ਼ਾ ਲਗਾਓ ਅਤੇ ਬਲੌਕਚੇਨ ਦੀ ਅਮਲੀ ਵਰਤੋਂ ਪਰਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp" length="266670" type="image/webp"/></item><item><title>2026 ਵਿੱਚ ਸਥਾਨਕ AI: 27B ਮਾਡਲ Sonnet 4.6 ਤੋਂ ਅੱਗੇ, ਹਾਰਡਵੇਅਰ ਖਰੀਦਣ ਦਾ ਮੌਕਾ ਮੁੱਕ ਰਿਹਾ ਹੈ</title><link>https://pa.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਸਵੈ-ਹੋਸਟ ਕੀਤਾ AI"
+, "ਖੁੱਲ੍ਹੇ ਸਰੋਤ ਦੇ ਮਾਡਲ"
+, "AI ਹਾਰਡਵੇਅਰ"
+, "ਮਸ਼ੀਨ ਲਰਨਿੰਗ"
+, "ਕੁਆਂਟਾਈਜ਼ੇਸ਼ਨ"
+, "ਘਰੇਲੂ ਲੈਬ"
+, "ਪਰਦੇਦਾਰੀ"
+, "AI ਅਰਥਵਿਵਸਥਾ"
+, "ਖਪਤਕਾਰ ਹਾਰਡਵੇਅਰ"</category><guid>https://pa.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮਾਡਲ ਦੇ ਆਕਾਰ, VRAM, ਮੈਮੋਰੀ ਬੈਂਡਵਿਡਥ, ਬਿਜਲੀ, ਲਾਗਤ ਅਤੇ ਅੱਪਗ੍ਰੇਡ ਦੇ ਵਿਕਲਪਾਂ ਦੇ ਆਧਾਰ ’ਤੇ 2026 ਲਈ ਸਥਾਨਕ AI ਕੰਪਿਊਟਰ ਦੀ ਯੋਜਨਾ ਬਣਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>ਮੈਦਾਨ ਵਿੱਚ ਤੈਨਾਤ ਕੀਤੀ ਜਾ ਸਕਣ ਵਾਲੀ ਐਜ ਕੰਪਿਊਟਿੰਗ: ਹਾਰਡਵੇਅਰ ਅਤੇ ਘੇਰੇ ਦੀ ਚੋਣ</title><link>https://pa.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"ਐਜ ਕੰਪਿਊਟਿੰਗ"
+, "ਮੈਦਾਨੀ IT"
+, "ਹਾਰਡਵੇਅਰ"
+, "ਘਰੇਲੂ ਲੈਬ"
+, "ਮਜ਼ਬੂਤ ਕੰਪਿਊਟਿੰਗ"
+, "ਨੈੱਟਵਰਕ"
+, "ਆਫ਼ਤ ਤੋਂ ਬਹਾਲੀ"
+, "ਛੋਟੇ ਕਾਰੋਬਾਰ ਦੀ IT"</category><guid>https://pa.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮੈਦਾਨੀ ਵਰਤੋਂ ਲਈ ਐਜ ਕੰਪਿਊਟਿੰਗ ਹਾਰਡਵੇਅਰ ਅਤੇ ਘੇਰੇ ਦੀ ਚੋਣ ਬਾਰੇ ਮਾਰਗਦਰਸ਼ਨ। ਇਸ ਵਿੱਚ ਕੰਪਿਊਟ, ਰੈਕ, ਕੂਲਿੰਗ, ਸਟੋਰੇਜ, ਪ੍ਰਬੰਧਨ, ਕੇਬਲਿੰਗ ਅਤੇ ਬਿਜਲੀ ਦੀ ਅਨੁਕੂਲਤਾ ਸ਼ਾਮਲ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>Proxmox VE 8 ਤੋਂ 9 ਅੱਪਗ੍ਰੇਡ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ"
+, "Linux ਪ੍ਰਸ਼ਾਸਨ"
+, "Proxmox"
+, "ਸਰਵਰ ਪ੍ਰਬੰਧਨ"
+, "ਓਪਨ ਸੋਰਸ"
+, "ਘਰੇਲੂ ਲੈਬ"</category><guid>https://pa.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proxmox VE 8 ਨੂੰ 9 ਵਿੱਚ ਅੱਪਗ੍ਰੇਡ ਕਰਨ ਲਈ ਪਹਿਲਾਂ ਦੀਆਂ ਜਾਂਚਾਂ, ਹੱਥੀਂ ਕਦਮ, ਆਟੋਮੇਸ਼ਨ, ਅਣਅਨੁਕੂਲ ਬਦਲਾਅ ਅਤੇ ਰਿਕਵਰੀ ਦੀਆਂ ਹਦਾਇਤਾਂ ਵੇਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item></channel></rss>

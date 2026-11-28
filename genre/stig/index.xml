@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>STIG on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>STIG on simeononsecurity</title><link>https://pa.simeononsecurity.com/genre/stig/</link></image><link>https://pa.simeononsecurity.com/genre/stig/</link><description>Recent content in STIG on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/genre/stig/index.xml" rel="self" type="application/rss+xml"/><item><title>VMware ਸੁਰੱਖਿਆ ਵਿੱਚ ਮਾਹਰ ਬਣੋ</title><link>https://pa.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ"
+, "ਆਈਟੀ ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "ਪਾਲਣਾ"
+, "ਸਕ੍ਰਿਪਟਿੰਗ"
+, "ਡਾਟਾ ਸੈਂਟਰ"</category><guid>https://pa.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਇਸ ਵਿਸਥਾਰਪੂਰਵਕ ਗਾਈਡ ਵਿੱਚ PowerCLI ਨਾਲ VMware STIG ਲਾਗੂ ਕਰਕੇ VMware ਵਾਤਾਵਰਣ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਦਾ ਤਰੀਕਾ ਸਿੱਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item></channel></rss>

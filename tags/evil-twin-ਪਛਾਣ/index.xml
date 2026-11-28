@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Evil Twin ਪਛਾਣ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>Evil Twin ਪਛਾਣ on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/evil-twin-%E0%A8%AA%E0%A8%9B%E0%A8%BE%E0%A8%A3/</link></image><link>https://pa.simeononsecurity.com/tags/evil-twin-%E0%A8%AA%E0%A8%9B%E0%A8%BE%E0%A8%A3/</link><description>Recent content in Evil Twin ਪਛਾਣ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/evil-twin-%E0%A8%AA%E0%A8%9B%E0%A8%BE%E0%A8%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>ESP32 WiFi Canary: 2.4 GHz ਖਤਰਿਆਂ ਦੀ ਨਿਸ਼ਕਿਰਿਆ ਪਛਾਣ</title><link>https://pa.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "WiFi ਸੁਰੱਖਿਆ"
+, "IoT ਸੁਰੱਖਿਆ"
+, "ਸੁਰੱਖਿਆ ਖੋਜ"
+, "ਏਮਬੈੱਡਡ ਸਿਸਟਮ"
+, "ਪਰਦੇਦਾਰੀ ਸੰਦ"
+, "ESP32 ਪ੍ਰੋਜੈਕਟ"
+, "ਹਾਰਡਵੇਅਰ ਸੁਰੱਖਿਆ"
+, "ਵਾਇਰਲੈੱਸ ਸੁਰੱਖਿਆ"
+, "ਓਪਨ-ਸੋਰਸ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ESP32 WiFi Canary ਦੀ ਤਕਨੀਕੀ ਜਾਣਕਾਰੀ। ਇਹ 2.4 GHz ਨਿਸ਼ਕਿਰਿਆ ਸੈਂਸਰ ਦੁਸ਼ਟ ਜੁੜਵਾ ਹਮਲਾ, ਡਿਸਅਥੈਂਟੀਕੇਸ਼ਨ, ਸੁਰੱਖਿਆ ਘਟਾਉਣ ਅਤੇ ਬੀਕਨ ਫਲੱਡ ਪਛਾਣਦਾ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>

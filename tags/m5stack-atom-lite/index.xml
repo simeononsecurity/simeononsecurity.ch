@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M5Stack Atom Lite on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>M5Stack Atom Lite on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/m5stack-atom-lite/</link></image><link>https://pa.simeononsecurity.com/tags/m5stack-atom-lite/</link><description>Recent content in M5Stack Atom Lite on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/m5stack-atom-lite/index.xml" rel="self" type="application/rss+xml"/><item><title>Eye Spy: ESP32 ਲਈ ਨਿਸ਼ਕ੍ਰਿਯ ਨਿਗਰਾਨੀ ਅਤੇ ਟ੍ਰੈਕਰ ਖੋਜਕ</title><link>https://pa.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"ਪਰਦੇਦਾਰੀ ਸਾਧਨ"
+, "ਨਿਗਰਾਨੀ-ਵਿਰੋਧੀ"
+, "IoT ਸੁਰੱਖਿਆ"
+, "ਏਮਬੈਡਡ ਸਿਸਟਮ"
+, "ਸੁਰੱਖਿਆ ਖੋਜ"
+, "WiFi ਸੁਰੱਖਿਆ"
+, "Bluetooth ਸੁਰੱਖਿਆ"
+, "ESP32 ਪ੍ਰੋਜੈਕਟ"
+, "ਹਾਰਡਵੇਅਰ ਸੁਰੱਖਿਆ"
+, "ਖੁੱਲ੍ਹੇ ਸਰੋਤ ਦੀ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Eye Spy v1.1 ਲਈ ਤਕਨੀਕੀ ਹਵਾਲਾ। ਇਹ ESP32 ਉੱਤੇ ਚੱਲਣ ਵਾਲਾ BLE ਅਤੇ WiFi ਨਿਸ਼ਕ੍ਰਿਯ ਖੋਜਕ ਹੈ, ਜੋ ਕੈਮਰੇ, ਟ੍ਰੈਕਰ, ਡਰੋਨ ਅਤੇ ਸੰਬੰਧਿਤ ਸੰਕੇਤ ਪਛਾਣਦਾ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>ESP32 WiFi Canary: 2.4 GHz ਖਤਰਿਆਂ ਦੀ ਨਿਸ਼ਕਿਰਿਆ ਪਛਾਣ</title><link>https://pa.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "WiFi ਸੁਰੱਖਿਆ"
+, "IoT ਸੁਰੱਖਿਆ"
+, "ਸੁਰੱਖਿਆ ਖੋਜ"
+, "ਏਮਬੈੱਡਡ ਸਿਸਟਮ"
+, "ਪਰਦੇਦਾਰੀ ਸੰਦ"
+, "ESP32 ਪ੍ਰੋਜੈਕਟ"
+, "ਹਾਰਡਵੇਅਰ ਸੁਰੱਖਿਆ"
+, "ਵਾਇਰਲੈੱਸ ਸੁਰੱਖਿਆ"
+, "ਓਪਨ-ਸੋਰਸ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ESP32 WiFi Canary ਦੀ ਤਕਨੀਕੀ ਜਾਣਕਾਰੀ। ਇਹ 2.4 GHz ਨਿਸ਼ਕਿਰਿਆ ਸੈਂਸਰ ਦੁਸ਼ਟ ਜੁੜਵਾ ਹਮਲਾ, ਡਿਸਅਥੈਂਟੀਕੇਸ਼ਨ, ਸੁਰੱਖਿਆ ਘਟਾਉਣ ਅਤੇ ਬੀਕਨ ਫਲੱਡ ਪਛਾਣਦਾ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>

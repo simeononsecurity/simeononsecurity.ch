@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ on simeononsecurity</title><link>https://pa.simeononsecurity.com/genre/%E0%A8%B8%E0%A8%BF%E0%A8%B8%E0%A8%9F%E0%A8%AE-%E0%A8%AA%E0%A9%8D%E0%A8%B0%E0%A8%B8%E0%A8%BC%E0%A8%BE%E0%A8%B8%E0%A8%A8/</link></image><link>https://pa.simeononsecurity.com/genre/%E0%A8%B8%E0%A8%BF%E0%A8%B8%E0%A8%9F%E0%A8%AE-%E0%A8%AA%E0%A9%8D%E0%A8%B0%E0%A8%B8%E0%A8%BC%E0%A8%BE%E0%A8%B8%E0%A8%A8/</link><description>Recent content in ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/genre/%E0%A8%B8%E0%A8%BF%E0%A8%B8%E0%A8%9F%E0%A8%AE-%E0%A8%AA%E0%A9%8D%E0%A8%B0%E0%A8%B8%E0%A8%BC%E0%A8%BE%E0%A8%B8%E0%A8%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>Bitbucket Cloud SSH ਕੁੰਜੀਆਂ: AI ਏਜੰਟਾਂ ਲਈ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲੀ Git ਪਹੁੰਚ</title><link>https://pa.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਕਲਾਉਡ ਸੁਰੱਖਿਆ"
+, "ਡਿਵੈਲਪਰ ਟੂਲ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"</category><guid>https://pa.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲੇ AI ਏਜੰਟ ਵਰਕਫਲੋ ਲਈ Bitbucket Cloud SSH ਕੁੰਜੀਆਂ, Git CLI ਪਹੁੰਚ, REST API ਟੋਕਨ, 1Password ਅਤੇ MCP ਟੂਲ ਸੈੱਟ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>Hyper-V VM ਨੂੰ Proxmox VE ਉੱਤੇ ਲਿਜਾਣ ਲਈ ਵਾਪਸੀਯੋਗ ਜਾਂਚ-ਸੂਚੀ</title><link>https://pa.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਘਰੇਲੂ ਲੈਬ"</category><guid>https://pa.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਬੰਦ ਸਰੋਤ VM ਦਾ ਨਿਰਯਾਤ, ਫਰਮਵੇਅਰ ਦਾ ਮੇਲ, ਡਿਸਕ ਆਯਾਤ, ਅਲੱਗ ਬੂਟ ਟੈਸਟ ਅਤੇ ਵਾਪਸੀ ਯੋਜਨਾ ਨਾਲ Hyper-V VM ਨੂੰ Proxmox VE ਉੱਤੇ ਲਿਜਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>PowerShell ਨਾਲ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲੀ Active Directory ਸੂਚੀ ਬਣਾਓ</title><link>https://pa.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Active Directory"
+, "PowerShell"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"</category><guid>https://pa.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸੀਮਿਤ PowerShell ਪੁੱਛਗਿੱਛਾਂ ਨਾਲ Active Directory ਦੀਆਂ ਸੰਗਠਨਾਤਮਕ ਇਕਾਈਆਂ, ਵਰਤੋਂਕਾਰਾਂ ਅਤੇ ਕੰਪਿਊਟਰਾਂ ਦੀ ਸੂਚੀ ਬਣਾਓ। ਡਾਇਰੈਕਟਰੀ ਵਸਤੂਆਂ ਬਦਲੇ ਬਿਨਾਂ ਜਾਂਚਯੋਗ CSV ਫ਼ਾਈਲਾਂ ਨਿਰਯਾਤ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/active-directory-powershell-read-only-inventory.webp" length="101842" type="image/webp"/></item><item><title>Windows ਮੁੜ ਇੰਸਟਾਲ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ BitLocker ਰਿਕਵਰੀ ਕੁੰਜੀ ਲੱਭੋ</title><link>https://pa.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Windows ਸੁਰੱਖਿਆ"
+, "ਡਾਟਾ ਰਿਕਵਰੀ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"</category><guid>https://pa.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਹੀ BitLocker ਰਿਕਵਰੀ ਕੁੰਜੀ ਲੱਭੋ ਅਤੇ ਜਾਂਚੋ, ਉਸ ਦੀ ਵੱਖਰੀ ਨਕਲ ਸੁਰੱਖਿਅਤ ਰੱਖੋ, ਅਤੇ ਡਰਾਈਵ ਮਿਟਾਉਣ ਤੋਂ ਪਹਿਲਾਂ Windows ਰਿਕਵਰੀ ਜਾਂ ਮੁੜ ਇੰਸਟਾਲ ਕਰਨ ਦਾ ਢੁੱਕਵਾਂ ਰਾਹ ਚੁਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/windows-bitlocker-recovery-before-reinstall.webp" length="102534" type="image/webp"/></item><item><title>Ansible ਬਨਾਮ Puppet ਬਨਾਮ Chef 2026: ਕਨਫਿਗਰੇਸ਼ਨ ਪ੍ਰਬੰਧਨ</title><link>https://pa.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "ਇੰਫਰਾਸਟ੍ਰਕਚਰ ਆਟੋਮੇਸ਼ਨ"
+, "ਕਨਫਿਗਰੇਸ਼ਨ ਪ੍ਰਬੰਧਨ"
+, "IT ਕਾਰਵਾਈਆਂ"
+, "ਕਲਾਊਡ ਕੰਪਿਊਟਿੰਗ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਐਂਟਰਪ੍ਰਾਈਜ਼ IT"
+, "ਸਾਫਟਵੇਅਰ ਵਿਕਾਸ"
+, "IT ਇੰਫਰਾਸਟ੍ਰਕਚਰ"
+, "ਆਟੋਮੇਸ਼ਨ ਟੂਲ"</category><guid>https://pa.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਆਰਕੀਟੈਕਚਰ, ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ, ਸਿੱਖਣ ਦੇ ਸਮੇਂ, ਕਾਰਗੁਜ਼ਾਰੀ, ਕੀਮਤਾਂ ਅਤੇ ਵਰਤੋਂ ਦੇ ਮਾਮਲਿਆਂ ਅਨੁਸਾਰ 2026 ਵਿੱਚ Ansible, Puppet ਅਤੇ Chef ਦੀ ਤੁਲਨਾ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>NAT ਅਤੇ PAT: ਨੈੱਟਵਰਕ ਸੰਚਾਰ ਲਈ ਜ਼ਰੂਰੀ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕ ਦੀਆਂ ਬੁਨਿਆਦਾਂ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਆਈਟੀ ਢਾਂਚਾ"
+, "ਤਕਨੀਕੀ ਗਾਈਡਾਂ"
+, "ਨੈੱਟਵਰਕ ਪ੍ਰਬੰਧਨ"
+, "ਇੰਟਰਨੈੱਟ ਪ੍ਰੋਟੋਕੋਲ"
+, "ਸੰਚਾਰ ਤਕਨਾਲੋਜੀਆਂ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਨੈੱਟਵਰਕ ਇੰਜੀਨੀਅਰਿੰਗ"
+, "ਡਿਜ਼ਿਟਲ ਨੈੱਟਵਰਕ"</category><guid>https://pa.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਡਿਜ਼ਿਟਲ ਸੰਚਾਰ ਨੂੰ ਸੁਚਾਰੂ ਬਣਾਉਣ ਲਈ NAT ਅਤੇ PAT ਨੂੰ ਸਮਝੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item><item><title>ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਅਤੇ ਸਿਸਟਮ ਮਜ਼ਬੂਤੀ ਲਈ Windows Task Scheduler ਅਤੇ Linux Cron ਦੀ ਤੁਲਨਾ</title><link>https://pa.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ"
+, "ਸਿਸਟਮ ਆਟੋਮੇਸ਼ਨ"
+, "ਸੁਰੱਖਿਆ ਟੂਲ"
+, "ਕੰਪਿਊਟਰ ਤਕਨਾਲੋਜੀ"
+, "ਕੰਮਾਂ ਦੀ ਸਮਾਂ-ਸੂਚੀ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਸਾਈਬਰ ਰੱਖਿਆ"
+, "IT ਪ੍ਰਬੰਧਨ"</category><guid>https://pa.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਅਤੇ ਸਿਸਟਮ ਮਜ਼ਬੂਤੀ ਦੇ ਨਜ਼ਰੀਏ ਤੋਂ Windows Task Scheduler ਅਤੇ Linux Cron ਜੌਬਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>vSphere ਪ੍ਰਬੰਧਨ ਲਈ PowerCLI ਵਿੱਚ ਮਾਹਰ ਬਣੋ</title><link>https://pa.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ"
+, "VMware"
+, "ਆਈਟੀ ਪ੍ਰਬੰਧਨ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "ਕਮਾਂਡ-ਲਾਈਨ ਇੰਟਰਫੇਸ"
+, "ਸਕ੍ਰਿਪਟਿੰਗ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਕਲਾਉਡ ਕੰਪਿਊਟਿੰਗ"
+, "ਡਾਟਾ ਸੈਂਟਰ ਪ੍ਰਬੰਧਨ"</category><guid>https://pa.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerCLI ਨਾਲ VMware vSphere ਦਾ ਪ੍ਰਬੰਧਨ, ਕੰਮਾਂ ਦੀ ਆਟੋਮੇਸ਼ਨ ਅਤੇ ਉਤਪਾਦਕਤਾ ਵਧਾਉਣ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>WMI ਫਿਲਟਰਿੰਗ ਨੂੰ ਸਮਝਣਾ</title><link>https://pa.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows ਪ੍ਰਬੰਧਨ"
+, "Group Policy"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਨੈੱਟਵਰਕ ਪ੍ਰਬੰਧਨ"
+, "IT ਢਾਂਚਾ"
+, "ਨੀਤੀ ਪ੍ਰਬੰਧਨ"
+, "IT ਸ਼ਾਸਨ"
+, "IT ਆਟੋਮੇਸ਼ਨ"
+, "Active Directory"
+, "ਸੁਰੱਖਿਆ ਅਨੁਕੂਲਤਾ"</category><guid>https://pa.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ WMI ਫਿਲਟਰਿੰਗ ਨਾਲ Group Policy Object (GPO) ਨੂੰ ਚੁਣੇ ਹੋਏ ਕੰਪਿਊਟਰਾਂ ਤੱਕ ਕਿਵੇਂ ਸੀਮਿਤ ਕਰੀਏ। ਇਸ ਵਿੱਚ ਅਮਲੀ ਉਦਾਹਰਨਾਂ ਅਤੇ ਚੰਗੇ ਤਰੀਕੇ ਹਨ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item></channel></rss>

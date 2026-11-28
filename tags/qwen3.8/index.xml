@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qwen3.8 on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>Qwen3.8 on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/qwen3.8/</link></image><link>https://pa.simeononsecurity.com/tags/qwen3.8/</link><description>Recent content in Qwen3.8 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/qwen3.8/index.xml" rel="self" type="application/rss+xml"/><item><title>ਬਿਨਾ ਸੈਂਸਰ ਸਥਾਨਕ AI ਮਾਡਲ ਕਿਵੇਂ ਚੁਣੀਏ</title><link>https://pa.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਸਵੈ-ਹੋਸਟ ਕੀਤਾ AI"
+, "AI ਸੁਰੱਖਿਆ"
+, "GPU ਉਪਕਰਣ"</category><guid>https://pa.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮੁਕੰਮਲ ਜਵਾਬਾਂ, ਬਰਕਰਾਰ ਸਮਰੱਥਾ, ਸੰਦਰਭ ਦੀ ਵਰਤੋਂ, ਕੁਆਂਟਾਈਜ਼ੇਸ਼ਨ ਅਤੇ VRAM ਦੀ ਲੋੜ ਦੇ ਆਧਾਰ 'ਤੇ ਸਥਾਨਕ ਮਾਡਲ ਰੂਪਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Hermes ਲੋਕਲ ਮਾਡਲ ਬੈਂਚਮਾਰਕ: ਮੈਂ ਕਿਹੜੇ GPU ਅਤੇ ਮਾਡਲ ਜੋੜ ਚੁਣਾਂਗਾ</title><link>https://pa.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "ਲੋਕਲ AI"
+, "ਹਾਰਡਵੇਅਰ"</category><guid>https://pa.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti ਅਤੇ RTX 3070 ਸਿਸਟਮਾਂ ਉੱਤੇ ਲੰਮੇ ਸੰਦਰਭ, ਟੂਲਾਂ, ਸਟ੍ਰੀਮਿੰਗ ਅਤੇ ਵਿਜ਼ਨ ਟੈਸਟਾਂ ਤੋਂ ਮੇਰੀਆਂ Hermes ਮਾਡਲ ਸਿਫ਼ਾਰਸ਼ਾਂ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>2x RTX 5060 Ti ਬਨਾਮ GB10: 256K ਸੰਦਰਭ ’ਤੇ ਪੰਜ ਮਾਡਲਾਂ ਦਾ ਸਥਾਨਕ AI ਬੈਂਚਮਾਰਕ</title><link>https://pa.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "ਸਥਾਨਕ AI"
+, "GPU ਹਾਰਡਵੇਅਰ"
+, "ਬੈਂਚਮਾਰਕਿੰਗ"
+, "ਕੰਪਿਊਟਰ ਹਾਰਡਵੇਅਰ"</category><guid>https://pa.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਪੰਜ ਮਾਡਲਾਂ ਦੀ RTX 5060 Ti ਅਤੇ GB10 ਤੁਲਨਾ, ਨਾਲ ਹੀ 256K ਸੰਦਰਭ ਤੱਕ ਇੱਕੋ ਹੋਸਟ ’ਤੇ Qwen3.8 Flash-Next Strata ਬੈਂਚਮਾਰਕ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>2026 ਵਿੱਚ ਸਥਾਨਕ AI: 27B ਮਾਡਲ Sonnet 4.6 ਤੋਂ ਅੱਗੇ, ਹਾਰਡਵੇਅਰ ਖਰੀਦਣ ਦਾ ਮੌਕਾ ਮੁੱਕ ਰਿਹਾ ਹੈ</title><link>https://pa.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਸਵੈ-ਹੋਸਟ ਕੀਤਾ AI"
+, "ਖੁੱਲ੍ਹੇ ਸਰੋਤ ਦੇ ਮਾਡਲ"
+, "AI ਹਾਰਡਵੇਅਰ"
+, "ਮਸ਼ੀਨ ਲਰਨਿੰਗ"
+, "ਕੁਆਂਟਾਈਜ਼ੇਸ਼ਨ"
+, "ਘਰੇਲੂ ਲੈਬ"
+, "ਪਰਦੇਦਾਰੀ"
+, "AI ਅਰਥਵਿਵਸਥਾ"
+, "ਖਪਤਕਾਰ ਹਾਰਡਵੇਅਰ"</category><guid>https://pa.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮਾਡਲ ਦੇ ਆਕਾਰ, VRAM, ਮੈਮੋਰੀ ਬੈਂਡਵਿਡਥ, ਬਿਜਲੀ, ਲਾਗਤ ਅਤੇ ਅੱਪਗ੍ਰੇਡ ਦੇ ਵਿਕਲਪਾਂ ਦੇ ਆਧਾਰ ’ਤੇ 2026 ਲਈ ਸਥਾਨਕ AI ਕੰਪਿਊਟਰ ਦੀ ਯੋਜਨਾ ਬਣਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>ਸਥਾਨਕ ਮਾਡਲਾਂ ਨਾਲ Claude Cowork ਅਤੇ Claude Code: 2026 ਸੈੱਟਅੱਪ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "AI ਪ੍ਰੋਗਰਾਮਿੰਗ ਟੂਲ"
+, "ਆਪਣੇ ਸਰਵਰ ਤੇ ਚੱਲਦਾ AI"
+, "ਡਿਵੈਲਪਰ ਟੂਲ"
+, "ਨਿੱਜਤਾ"
+, "ਓਪਨ-ਸੋਰਸ ਮਾਡਲ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "AI ਹਾਰਡਵੇਅਰ"</category><guid>https://pa.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Anthropic-ਅਨੁਕੂਲ API ਰਾਹੀਂ Claude Desktop ਅਤੇ Claude Code ਨਾਲ Ollama ਕੌਂਫਿਗਰ ਕਰੋ। 2026 ਦੇ ਮਾਡਲਾਂ ਅਤੇ ਕਲਾਊਡ-ਨਿਰਭਰ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item></channel></rss>

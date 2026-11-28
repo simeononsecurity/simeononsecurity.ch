@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>API ਏਕੀਕਰਨ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>API ਏਕੀਕਰਨ on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/api-%E0%A8%8F%E0%A8%95%E0%A9%80%E0%A8%95%E0%A8%B0%E0%A8%A8/</link></image><link>https://pa.simeononsecurity.com/tags/api-%E0%A8%8F%E0%A8%95%E0%A9%80%E0%A8%95%E0%A8%B0%E0%A8%A8/</link><description>Recent content in API ਏਕੀਕਰਨ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Tue, 10 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/api-%E0%A8%8F%E0%A8%95%E0%A9%80%E0%A8%95%E0%A8%B0%E0%A8%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>ਉੱਨਤ RayHunter 2026: ਤਕਨੀਕਾਂ ਅਤੇ ਸਮੱਸਿਆ ਨਿਵਾਰਨ</title><link>https://pa.simeononsecurity.com/articles/advanced-rayhunter-techniques-troubleshooting-2026/</link><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate><category>
+"Rayhunter"
+, "ਉੱਨਤ ਤਕਨੀਕਾਂ"
+, "ਸਮੱਸਿਆ ਨਿਵਾਰਨ"
+, "ਮਾਹਰ ਕਨਫਿਗਰੇਸ਼ਨ"
+, "IMSI catcher"
+, "ਨਿਗਰਾਨੀ ਪਛਾਣ"
+, "ਹਿਊਰਿਸਟਿਕ ਅਨੁਕੂਲਨ"
+, "API ਏਕੀਕਰਨ"
+, "ਵਿਸ਼ਲੇਸ਼ਣ ਵਰਕਫਲੋ"
+, "ਖ਼ਤਰਾ ਮਾਡਲਿੰਗ"
+, "ਸੈਲੂਲਰ ਸੁਰੱਖਿਆ"
+, "ਵਾਇਰਲੈੱਸ ਫੋਰੈਂਸਿਕਸ"
+, "ਪਛਾਣ ਅਨੁਕੂਲਨ"
+, "ਕਸਟਮ ਕਨਫਿਗਰੇਸ਼ਨ"
+, "ਉੱਨਤ ਤੈਨਾਤੀ"
+, "ਸੁਰੱਖਿਆ ਖੋਜ"
+, "ਨੈੱਟਵਰਕ ਵਿਸ਼ਲੇਸ਼ਣ"
+, "RF ਵਿਸ਼ਲੇਸ਼ਣ"
+, "ਨਿਗਰਾਨੀ ਵਿਰੋਧੀ ਉਪਾਅ"
+, "ਪਰਦੇਦਾਰੀ ਸੰਦ"</category><guid>https://pa.simeononsecurity.com/articles/advanced-rayhunter-techniques-troubleshooting-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+RayHunter ਦੀਆਂ ਉੱਨਤ ਤਕਨੀਕਾਂ, ਸਮੱਸਿਆ ਨਿਵਾਰਨ, ਕਸਟਮ ਕਨਫਿਗਰੇਸ਼ਨ, API ਏਕੀਕਰਨ ਅਤੇ IMSI catcher ਪਛਾਣ ਵਰਕਫਲੋ ਲਈ ਤਕਨੀਕੀ ਗਾਈਡ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/advanced-rayhunter-techniques-troubleshooting-2026.webp" length="278838" type="image/webp"/></item><item><title>Python ਨਾਲ ਚਿੱਤਰਾਂ ਨੂੰ ਅਨੁਕੂਲ ਬਣਾਉਣਾ</title><link>https://pa.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਵੈੱਬ ਵਿਕਾਸ"
+, "Python ਪ੍ਰੋਗਰਾਮਿੰਗ"
+, "ਚਿੱਤਰ ਅਨੁਕੂਲਤਾ"
+, "SEO"
+, "ਵੈੱਬ ਕਾਰਗੁਜ਼ਾਰੀ"
+, "ਵਰਤੋਂਕਾਰ ਅਨੁਭਵ"
+, "ਸਾਫਟਵੇਅਰ ਵਿਕਾਸ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "ਪ੍ਰੋਗਰਾਮਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Python ਨਾਲ ਚਿੱਤਰਾਂ ਦਾ ਆਕਾਰ ਬਦਲੋ, ਸੰਕੁਚਿਤ ਕਰੋ ਅਤੇ Pillow ਦੀ ਦੁਹਰਾਈ ਜਾ ਸਕਣ ਵਾਲੀ ਪ੍ਰਕਿਰਿਆ ਰਾਹੀਂ ਫਾਰਮੈਟ ਬਦਲੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_illustration_of_a_Python_script_optimizing.webp" length="146766" type="image/webp"/></item></channel></rss>

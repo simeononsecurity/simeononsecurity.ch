@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਸਕ੍ਰਿਪਟਿੰਗ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਸਕ੍ਰਿਪਟਿੰਗ on simeononsecurity</title><link>https://pa.simeononsecurity.com/genre/%E0%A8%B8%E0%A8%95%E0%A9%8D%E0%A8%B0%E0%A8%BF%E0%A8%AA%E0%A8%9F%E0%A8%BF%E0%A9%B0%E0%A8%97/</link></image><link>https://pa.simeononsecurity.com/genre/%E0%A8%B8%E0%A8%95%E0%A9%8D%E0%A8%B0%E0%A8%BF%E0%A8%AA%E0%A8%9F%E0%A8%BF%E0%A9%B0%E0%A8%97/</link><description>Recent content in ਸਕ੍ਰਿਪਟਿੰਗ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/genre/%E0%A8%B8%E0%A8%95%E0%A9%8D%E0%A8%B0%E0%A8%BF%E0%A8%AA%E0%A8%9F%E0%A8%BF%E0%A9%B0%E0%A8%97/index.xml" rel="self" type="application/rss+xml"/><item><title>VMware ਸੁਰੱਖਿਆ ਵਿੱਚ ਮਾਹਰ ਬਣੋ</title><link>https://pa.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ"
+, "ਆਈਟੀ ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "ਪਾਲਣਾ"
+, "ਸਕ੍ਰਿਪਟਿੰਗ"
+, "ਡਾਟਾ ਸੈਂਟਰ"</category><guid>https://pa.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਇਸ ਵਿਸਥਾਰਪੂਰਵਕ ਗਾਈਡ ਵਿੱਚ PowerCLI ਨਾਲ VMware STIG ਲਾਗੂ ਕਰਕੇ VMware ਵਾਤਾਵਰਣ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਦਾ ਤਰੀਕਾ ਸਿੱਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>vSphere ਪ੍ਰਬੰਧਨ ਲਈ PowerCLI ਵਿੱਚ ਮਾਹਰ ਬਣੋ</title><link>https://pa.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ"
+, "VMware"
+, "ਆਈਟੀ ਪ੍ਰਬੰਧਨ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "ਕਮਾਂਡ-ਲਾਈਨ ਇੰਟਰਫੇਸ"
+, "ਸਕ੍ਰਿਪਟਿੰਗ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਕਲਾਉਡ ਕੰਪਿਊਟਿੰਗ"
+, "ਡਾਟਾ ਸੈਂਟਰ ਪ੍ਰਬੰਧਨ"</category><guid>https://pa.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerCLI ਨਾਲ VMware vSphere ਦਾ ਪ੍ਰਬੰਧਨ, ਕੰਮਾਂ ਦੀ ਆਟੋਮੇਸ਼ਨ ਅਤੇ ਉਤਪਾਦਕਤਾ ਵਧਾਉਣ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>ਪਾਵਰਸ਼ੈੱਲ ਨਾਲ ਐਕਟਿਵ ਡਾਇਰੈਕਟਰੀ ਪ੍ਰਸ਼ਾਸਨ</title><link>https://pa.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"ਟੈਕਨੋਲੋਜੀ"
+, "ਵਿੰਡੋਜ਼"
+, "ਪਾਵਰਸ਼ੈੱਲ"
+, "ਐਕਟਿਵ ਡਾਇਰੈਕਟਰੀ"
+, "ਪ੍ਰਸ਼ਾਸਨ"
+, "ਸਕ੍ਰਿਪਟਿੰਗ"
+, "ਆਈਟੀ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "ਵਿੰਡੋਜ਼ ਸਰਵਰ"
+, "ਮਾਈਕ੍ਰੋਸੌਫਟ"</category><guid>https://pa.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਆਪਣੇ Windows ਐਕਟਿਵ ਡਾਇਰੈਕਟਰੀ ਪ੍ਰਸ਼ਾਸਨ ਕਾਰਜਾਂ ਨੂੰ ਸਧਾਰਨ ਬਣਾਉਣ ਲਈ ਪਾਵਰਸ਼ੈੱਲ ਲਈ ਐਕਟਿਵ ਡਾਇਰੈਕਟਰੀ ਮੋਡੀਊਲ ਨੂੰ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਤਰੀਕੇ ਨਾਲ ਇੰਸਟਾਲ ਅਤੇ ਵਰਤਣ ਦਾ ਤਰੀਕਾ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/active-directory-module-powershell-installation-usage-guide.webp" length="86330" type="image/webp"/></item><item><title>PowerShell ਸਕ੍ਰਿਪਟਿੰਗ</title><link>https://pa.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਪ੍ਰੋਗਰਾਮਿੰਗ"
+, "ਸਵੈਚਾਲਨ"
+, "Windows"
+, "ਸਕ੍ਰਿਪਟਿੰਗ"
+, "ਆਈਟੀ"
+, "ਪ੍ਰਸ਼ਾਸਕੀ ਕੰਮ"
+, "ਕੰਪਿਊਟਰ ਪ੍ਰਬੰਧਨ"
+, "ਸਾਫਟਵੇਅਰ ਵਿਕਾਸ"
+, "ਕੋਡਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਕਮਾਂਡਲੇਟ, ਲੂਪ, ਫੰਕਸ਼ਨ ਅਤੇ ਹੋਰ ਵਿਸ਼ਿਆਂ ਵਾਲੀ ਇਸ ਕਦਮ-ਦਰ-ਕਦਮ ਸ਼ੁਰੂਆਤੀ ਗਾਈਡ ਨਾਲ PowerShell ਸਕ੍ਰਿਪਟਿੰਗ ਦੀਆਂ ਬੁਨਿਆਦਾਂ ਸਿੱਖੋ ਅਤੇ ਕੰਮ ਸਵੈਚਾਲਿਤ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.webp" length="52314" type="image/webp"/></item><item><title>ਕੀ IT ਅਤੇ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਲਈ ਪ੍ਰੋਗਰਾਮਿੰਗ ਸਿੱਖਣੀ ਚਾਹੀਦੀ ਹੈ?</title><link>https://pa.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"IT ਅਤੇ ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਪ੍ਰੋਗਰਾਮਿੰਗ ਹੁਨਰ"
+, "ਕਰੀਅਰ ਵਿੱਚ ਤਰੱਕੀ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "ਕਮਾਂਡ ਲਾਈਨ"
+, "ਸਕ੍ਰਿਪਟਿੰਗ"
+, "ਬੁਨਿਆਦੀ ਢਾਂਚੇ ਦੀ ਤਾਇਨਾਤੀ"
+, "ਡਾਟਾ ਵਿਸ਼ਲੇਸ਼ਣ"
+, "ਸੁਰੱਖਿਆ ਜਾਂਚ"
+, "ਪੇਸ਼ਾਵਰ ਵਿਕਾਸ"</category><guid>https://pa.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+IT ਜਾਂ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਵਿੱਚ ਆਪਣੇ ਕਰੀਅਰ ਲਈ ਲਾਹੇਵੰਦ ਪ੍ਰੋਗਰਾਮਿੰਗ ਹੁਨਰ ਚੁਣੋ ਅਤੇ PowerShell, Bash, Python, Ansible, Packer ਜਾਂ Terraform ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp" length="111480" type="image/webp"/></item></channel></rss>

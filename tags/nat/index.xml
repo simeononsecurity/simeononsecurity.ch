@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NAT on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>NAT on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/nat/</link></image><link>https://pa.simeononsecurity.com/tags/nat/</link><description>Recent content in NAT on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/nat/index.xml" rel="self" type="application/rss+xml"/><item><title>T-Mobile Home Internet ਵਿੱਚ ਪੋਰਟ ਫਾਰਵਰਡਿੰਗ ਕਿਉਂ ਕੰਮ ਨਹੀਂ ਕਰਦੀ</title><link>https://pa.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Self-Hosted"
+, "Network Security"</category><guid>https://pa.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+T-Mobile 5G Home Internet ਦੀਆਂ ਪੋਰਟ ਫਾਰਵਰਡਿੰਗ ਸੀਮਾਵਾਂ, ਕੈਰੀਅਰ NAT ਅਤੇ ਜਨਤਕ ਇਨਬਾਊਂਡ ਪੋਰਟ ਤੋਂ ਬਿਨਾਂ ਘਰੇਲੂ ਸਰਵਰ ਤੱਕ ਪਹੁੰਚਣ ਦੇ ਤਰੀਕੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/t-mobile-home-internet-port-forwarding.webp" length="103506" type="image/webp"/></item><item><title>NAT ਅਤੇ PAT: ਨੈੱਟਵਰਕ ਸੰਚਾਰ ਲਈ ਜ਼ਰੂਰੀ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕ ਦੀਆਂ ਬੁਨਿਆਦਾਂ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਆਈਟੀ ਢਾਂਚਾ"
+, "ਤਕਨੀਕੀ ਗਾਈਡਾਂ"
+, "ਨੈੱਟਵਰਕ ਪ੍ਰਬੰਧਨ"
+, "ਇੰਟਰਨੈੱਟ ਪ੍ਰੋਟੋਕੋਲ"
+, "ਸੰਚਾਰ ਤਕਨਾਲੋਜੀਆਂ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਨੈੱਟਵਰਕ ਇੰਜੀਨੀਅਰਿੰਗ"
+, "ਡਿਜ਼ਿਟਲ ਨੈੱਟਵਰਕ"</category><guid>https://pa.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਡਿਜ਼ਿਟਲ ਸੰਚਾਰ ਨੂੰ ਸੁਚਾਰੂ ਬਣਾਉਣ ਲਈ NAT ਅਤੇ PAT ਨੂੰ ਸਮਝੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item></channel></rss>

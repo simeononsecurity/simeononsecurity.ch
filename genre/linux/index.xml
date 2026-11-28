@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>Linux on simeononsecurity</title><link>https://pa.simeononsecurity.com/genre/linux/</link></image><link>https://pa.simeononsecurity.com/genre/linux/</link><description>Recent content in Linux on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/genre/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>ਕੰਟੇਨਰ ਹੁਣ ਸੁਰੱਖਿਆ ਦੀ ਹੱਦ ਨਹੀਂ ਰਹੇ: 2026 ਵਿੱਚ ਕਰਨਲ ਤੋਂ ਬਾਹਰ ਨਿਕਲਣ ਦੇ ਹਮਲੇ</title><link>https://pa.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਕੰਟੇਨਰ ਸੁਰੱਖਿਆ"
+, "Linux"
+, "ਕਰਨਲ ਸੁਰੱਖਿਆ"
+, "ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ"
+, "ਕਲਾਉਡ ਸੁਰੱਖਿਆ"
+, "ਖਤਰੇ ਦੀ ਖੋਜ"
+, "ਬਲੂ ਟੀਮ"
+, "DevSecOps"</category><guid>https://pa.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026 ਦੇ ਕੰਟੇਨਰ-ਬਚਾਅ ਅਧਿਐਨਾਂ, ਕਰਨਲ ਆਇਸੋਲੇਸ਼ਨ ਦੀਆਂ ਹੱਦਾਂ, ਪੈਚਾਂ ਦੇ ਦਬਾਅ ਅਤੇ microVM ਦੀ ਭੂਮਿਕਾ ਦੀ ਸਮੀਖਿਆ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>2026 ਵਿੱਚ Pearl (PRL) ਮਾਈਨਿੰਗ: ਸੈਟਅੱਪ, ਲਾਭਕਾਰੀਤਾ ਅਤੇ ਬਲੌਕਚੇਨ ਦੀ ਵਰਤੋਂ</title><link>https://pa.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਪਟੋਕਰੰਸੀ"
+, "GPU ਮਾਈਨਿੰਗ"
+, "AI ਗਣਨਾ"
+, "DePIN"
+, "ਬਲੌਕਚੇਨ"
+, "Linux"
+, "ਘਰੇਲੂ ਲੈਬ"
+, "ਸਾਜ਼ੋ-ਸਾਮਾਨ"</category><guid>https://pa.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SRBMiner ਨਾਲ Pearl PRL ਮਾਈਨਿੰਗ ਸੈਟਅੱਪ ਕਰੋ, ਲਾਭਦਾਇਕ ਕੰਮ ਦੇ ਸਬੂਤ ਦੀ ਜਾਂਚ ਕਰੋ, ਮਾਰਜਿਨ ਦਾ ਅੰਦਾਜ਼ਾ ਲਗਾਓ ਅਤੇ ਬਲੌਕਚੇਨ ਦੀ ਅਮਲੀ ਵਰਤੋਂ ਪਰਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp" length="266670" type="image/webp"/></item><item><title>Windows ਅਤੇ Linux ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨਾ</title><link>https://pa.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਸਕ੍ਰਿਪਟਿੰਗ ਭਾਸ਼ਾਵਾਂ"
+, "ਸਿਸਟਮ ਸੁਰੱਖਿਆ"
+, "Windows"
+, "Linux"
+, "ਸਰਕਾਰੀ ਨਿਯਮ"
+, "ਸਾਈਬਰ ਖਤਰੇ"
+, "ਸੁਰੱਖਿਅਤ ਸਕ੍ਰਿਪਟਿੰਗ"
+, "ਪਾਲਣਾ"
+, "ਪ੍ਰੋਗਰਾਮਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੇ ਇਸ ਵਿਸਤ੍ਰਿਤ ਵਿਸ਼ਲੇਸ਼ਣ ਵਿੱਚ ਜਾਣੋ ਕਿ PowerShell ਅਤੇ Python ਨਾਲ ਸਿਸਟਮ ਦੀ ਸੁਰੱਖਿਆ ਕਿਵੇਂ ਵਧਾਈ ਜਾ ਸਕਦੀ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp"/></item></channel></rss>

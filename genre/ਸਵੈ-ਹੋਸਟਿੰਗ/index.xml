@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਸਵੈ-ਹੋਸਟਿੰਗ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਸਵੈ-ਹੋਸਟਿੰਗ on simeononsecurity</title><link>https://pa.simeononsecurity.com/genre/%E0%A8%B8%E0%A8%B5%E0%A9%88-%E0%A8%B9%E0%A9%8B%E0%A8%B8%E0%A8%9F%E0%A8%BF%E0%A9%B0%E0%A8%97/</link></image><link>https://pa.simeononsecurity.com/genre/%E0%A8%B8%E0%A8%B5%E0%A9%88-%E0%A8%B9%E0%A9%8B%E0%A8%B8%E0%A8%9F%E0%A8%BF%E0%A9%B0%E0%A8%97/</link><description>Recent content in ਸਵੈ-ਹੋਸਟਿੰਗ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sun, 20 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/genre/%E0%A8%B8%E0%A8%B5%E0%A9%88-%E0%A8%B9%E0%A9%8B%E0%A8%B8%E0%A8%9F%E0%A8%BF%E0%A9%B0%E0%A8%97/index.xml" rel="self" type="application/rss+xml"/><item><title>Raspberry Pi 4 ਜਾਂ 5 ਉੱਤੇ ਕਿਹੜੇ AI ਮਾਡਲ ਚੱਲਦੇ ਹਨ?</title><link>https://pa.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "ਸਵੈ-ਹੋਸਟਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Raspberry Pi 4 ਅਤੇ 5 ਦੇ ਮਾਪੇ ਨਤੀਜਿਆਂ ਤੋਂ ਮੈਮੋਰੀ, ਗਤੀ ਅਤੇ ਕੰਮ ਮੁਤਾਬਕ ਸਥਾਨਕ ਭਾਸ਼ਾ ਮਾਡਲ ਚੁਣੋ, ਛੋਟੇ LFM2.5 ਤੋਂ 3B ਅਤੇ ਵੱਡੇ ਵਿਕਲਪਾਂ ਤੱਕ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item><item><title>Cloudflare Tunnel ਅਤੇ Access: ਕੀ ਤੁਹਾਨੂੰ ਦੋਵੇਂ ਚਾਹੀਦੇ ਹਨ?</title><link>https://pa.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਸਵੈ-ਹੋਸਟਿੰਗ"
+, "ਕਲਾਉਡ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Cloudflare Tunnel ਅਤੇ Access ਦਾ ਫਰਕ ਸਮਝੋ, ਘਰੇਲੂ ਡੈਸ਼ਬੋਰਡ ਲਈ ਸੁਰੱਖਿਆ ਚੁਣੋ ਅਤੇ ਬਿਨਾਂ ਪ੍ਰਮਾਣਿਕਤਾ ਦੇ ਨਿੱਜੀ ਐਪ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰਨ ਤੋਂ ਬਚੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>Tailscale ਅਤੇ Headscale ਦੀ ਤੁਲਨਾ</title><link>https://pa.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਸਵੈ-ਹੋਸਟਿੰਗ"
+, "WireGuard"
+, "ਜ਼ੀਰੋ ਟਰੱਸਟ"
+, "ਮੇਸ਼ ਨੈੱਟਵਰਕਿੰਗ"
+, "ਖੁੱਲ੍ਹਾ ਸਰੋਤ"
+, "ਕਲਾਊਡ ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਦੂਰਵਰਤੀ ਪਹੁੰਚ"
+, "ਨੈੱਟਵਰਕ ਪ੍ਰਬੰਧਨ"</category><guid>https://pa.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਆਪਣੀਆਂ ਲੋੜਾਂ ਲਈ WireGuard ਮੇਸ਼ VPN ਚੁਣਨ ਵਾਸਤੇ ਹੋਸਟਿੰਗ ਮਾਡਲ, ਪਛਾਣ, ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ, ਲਾਗਤ, ਸੰਚਾਲਨ ਅਤੇ ਸਹਾਇਤਾ ਦੇ ਆਧਾਰ ’ਤੇ Tailscale ਅਤੇ Headscale ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item><item><title>Homebox ਨਾਲ ਵਸਤੂ-ਸੂਚੀ ਅਤੇ ਸੰਪਤੀ ਪ੍ਰਬੰਧਨ</title><link>https://pa.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਵਸਤੂ-ਸੂਚੀ ਪ੍ਰਬੰਧਨ"
+, "ਸੰਪਤੀ ਪ੍ਰਬੰਧਨ"
+, "ਓਪਨ ਸੋਰਸ"
+, "ਉਤਪਾਦਕਤਾ"
+, "ਛੋਟਾ ਕਾਰੋਬਾਰ"
+, "ਘਰ ਦਾ ਪ੍ਰਬੰਧਨ"
+, "ਸਵੈ-ਹੋਸਟਿੰਗ"
+, "ਸਾਫਟਵੇਅਰ"
+, "ਸੰਗਠਨ"</category><guid>https://pa.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Homebox ਬਾਰੇ ਜਾਣੋ। ਇਹ ਘਰ ਜਾਂ ਛੋਟੇ ਕਾਰੋਬਾਰ ਦੀਆਂ ਚੀਜ਼ਾਂ ਅਤੇ ਸੰਪਤੀਆਂ ਨੂੰ ਸੁਚੱਜਾ ਰੱਖਣ ਲਈ ਸਵੈ-ਹੋਸਟ ਕੀਤਾ ਓਪਨ-ਸੋਰਸ ਸਾਫਟਵੇਅਰ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp" length="60896" type="image/webp"/></item></channel></rss>

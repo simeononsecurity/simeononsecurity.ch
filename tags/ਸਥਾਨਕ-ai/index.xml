@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਸਥਾਨਕ AI on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਸਥਾਨਕ AI on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/%E0%A8%B8%E0%A8%A5%E0%A8%BE%E0%A8%A8%E0%A8%95-ai/</link></image><link>https://pa.simeononsecurity.com/tags/%E0%A8%B8%E0%A8%A5%E0%A8%BE%E0%A8%A8%E0%A8%95-ai/</link><description>Recent content in ਸਥਾਨਕ AI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/%E0%A8%B8%E0%A8%A5%E0%A8%BE%E0%A8%A8%E0%A8%95-ai/index.xml" rel="self" type="application/rss+xml"/><item><title>ਸਵੈ-ਹੋਸਟ ਕੀਤਾ Hindsight: ਏਜੰਟਾਂ ਦੀ ਸਥਾਨਕ ਯਾਦ ਅਤੇ ਨਿੱਜੀ ਮਾਡਲ ਰੂਟਿੰਗ</title><link>https://pa.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਸਵੈ-ਹੋਸਟ ਕੀਤੀ AI"
+, "AI ਏਜੰਟ"
+, "AI ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਨਿੱਜਤਾ"</category><guid>https://pa.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਵੈ-ਹੋਸਟ ਕੀਤੇ Hindsight ਦਾ ਕੇਸ ਅਧਿਐਨ, ਵੇਖੇ ਗਏ ਸਥਾਨਕ Qwen ਰੂਟ ਅਤੇ ਜਾਂਚੇ ਗਏ ਰਸਤੇ ਉੱਤੇ ਹੋਸਟ ਕੀਤੀ ਇਨਫਰੈਂਸ ਦੀ ਗਾਹਕੀ ਤੋਂ ਬਿਨਾਂ ਹਰ ਬੇਨਤੀ ਲਈ GPU ਕੰਮ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Pi-hole ਤੋਂ ਸਥਾਨਕ AI ਤੱਕ, 10 ਪੱਧਰਾਂ ਵਿੱਚ ਹੋਮ ਲੈਬ ਬਣਾਓ</title><link>https://pa.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਹੋਮ ਲੈਬ"
+, "ਸੈਲਫ਼-ਹੋਸਟਿੰਗ"
+, "ਸਥਾਨਕ AI"
+, "ਘਰੇਲੂ ਨੈੱਟਵਰਕਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਪੂਰੇ ਨੈੱਟਵਰਕ ਦੀ DNS ਫਿਲਟਰਿੰਗ ਤੋਂ ਸਥਾਨਕ AI ਤੱਕ, ਦਸ ਕਾਰਗਰ ਪੜਾਵਾਂ ਵਿੱਚ ਹੋਮ ਲੈਬ ਬਣਾਓ। ਹਰ ਪੱਧਰ ਲਈ ਹਾਰਡਵੇਅਰ, ਖ਼ਰਚੇ, ਹੁਨਰ ਅਤੇ ਸਮਝੌਤੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>64GB DGX Spark ਸਥਾਨਕ AI ਹਾਰਡਵੇਅਰ ਕੀਮਤਾਂ ਲਈ ਚੇਤਾਵਨੀ ਸੰਕੇਤ ਹੈ</title><link>https://pa.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "AI ਹਾਰਡਵੇਅਰ"
+, "ਸੈਮੀਕੰਡਕਟਰ"
+, "ਕੰਪਿਊਟਰ ਹਾਰਡਵੇਅਰ"
+, "AI ਅਰਥਸ਼ਾਸਤਰ"
+, "ਸਵੈ-ਹੋਸਟਡ AI"</category><guid>https://pa.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+NVIDIA ਦਾ 64GB DGX Spark ਪੱਧਰ ਦਿਖਾਉਂਦਾ ਹੈ ਕਿ ਮੈਮੋਰੀ ਸਪਲਾਈ ਦਾ ਦਬਾਅ ਸਥਾਨਕ AI ਹਾਰਡਵੇਅਰ ਨੂੰ ਕਿਵੇਂ ਪ੍ਰਭਾਵਿਤ ਕਰ ਰਿਹਾ ਹੈ। ਇਹ ਗਾਈਡ ਸਮਰੱਥਾ ਵਿੱਚ ਕਮੀ, ਯੂਨੀਫਾਈਡ ਮੈਮੋਰੀ ਦੇ ਸਮਝੌਤੇ ਅਤੇ 2027 ਦੇ ਅੰਤ ਤੋਂ ਪਹਿਲਾਂ DRAM ਰਾਹਤ ਘੱਟ ਸੰਭਾਵਿਤ ਹੋਣ ਦੇ ਕਾਰਨਾਂ ਨੂੰ ਸਮਝਾਉਂਦੀ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Qwen 27B ਲਈ 32GB VRAM: ਅਕਤੂਬਰ 2026 ਦੀ ਸਥਾਨਕ AI ਹਾਰਡਵੇਅਰ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "AI ਹਾਰਡਵੇਅਰ"
+, "GPU ਬੈਂਚਮਾਰਕਿੰਗ"
+, "ਸਵੈ-ਹੋਸਟਡ AI"
+, "ਕੰਪਿਊਟਰ ਹਾਰਡਵੇਅਰ"
+, "AI ਅਰਥਸ਼ਾਸਤਰ"</category><guid>https://pa.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਅਕਤੂਬਰ 2026 ਦੀ ਇਹ ਕਾਰਗਰ ਗਾਈਡ 32GB ਵਰਤਣਯੋਗ ਐਕਸਲੇਰੇਟਰ ਮੈਮੋਰੀ ਨਾਲ Qwen 27B ਮਾਡਲ ਚਲਾਉਣ ਦੇ ਤਰੀਕੇ ਦੱਸਦੀ ਹੈ। ਸਿੰਗਲ GPU, ਦੋ-ਕਾਰਡ ਬਿਲਡ, ਯੂਨੀਫਾਈਡ ਮੈਮੋਰੀ, ਵਰਤੇ ਡਾਟਾ-ਸੈਂਟਰ ਕਾਰਡ, ਕਿਰਾਏ ਦੀ ਕੰਪਿਊਟਿੰਗ, ਸਾਫਟਵੇਅਰ ਸਹਾਇਤਾ ਅਤੇ ਪੂਰੇ ਕਾਂਟੈਕਸਟ ਦੀਆਂ ਹੱਦਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>2026 ਵਿੱਚ ਸਥਾਨਕ AI: 27B ਮਾਡਲ Sonnet 4.6 ਤੋਂ ਅੱਗੇ, ਹਾਰਡਵੇਅਰ ਖਰੀਦਣ ਦਾ ਮੌਕਾ ਮੁੱਕ ਰਿਹਾ ਹੈ</title><link>https://pa.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਸਵੈ-ਹੋਸਟ ਕੀਤਾ AI"
+, "ਖੁੱਲ੍ਹੇ ਸਰੋਤ ਦੇ ਮਾਡਲ"
+, "AI ਹਾਰਡਵੇਅਰ"
+, "ਮਸ਼ੀਨ ਲਰਨਿੰਗ"
+, "ਕੁਆਂਟਾਈਜ਼ੇਸ਼ਨ"
+, "ਘਰੇਲੂ ਲੈਬ"
+, "ਪਰਦੇਦਾਰੀ"
+, "AI ਅਰਥਵਿਵਸਥਾ"
+, "ਖਪਤਕਾਰ ਹਾਰਡਵੇਅਰ"</category><guid>https://pa.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮਾਡਲ ਦੇ ਆਕਾਰ, VRAM, ਮੈਮੋਰੀ ਬੈਂਡਵਿਡਥ, ਬਿਜਲੀ, ਲਾਗਤ ਅਤੇ ਅੱਪਗ੍ਰੇਡ ਦੇ ਵਿਕਲਪਾਂ ਦੇ ਆਧਾਰ ’ਤੇ 2026 ਲਈ ਸਥਾਨਕ AI ਕੰਪਿਊਟਰ ਦੀ ਯੋਜਨਾ ਬਣਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Raspberry Pi 4 ਜਾਂ 5 ਉੱਤੇ ਕਿਹੜੇ AI ਮਾਡਲ ਚੱਲਦੇ ਹਨ?</title><link>https://pa.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "ਸਵੈ-ਹੋਸਟਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Raspberry Pi 4 ਅਤੇ 5 ਦੇ ਮਾਪੇ ਨਤੀਜਿਆਂ ਤੋਂ ਮੈਮੋਰੀ, ਗਤੀ ਅਤੇ ਕੰਮ ਮੁਤਾਬਕ ਸਥਾਨਕ ਭਾਸ਼ਾ ਮਾਡਲ ਚੁਣੋ, ਛੋਟੇ LFM2.5 ਤੋਂ 3B ਅਤੇ ਵੱਡੇ ਵਿਕਲਪਾਂ ਤੱਕ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item><item><title>Meshtastic ਲਈ ਨਿੱਜਤਾ-ਸੁਰੱਖਿਅਤ AI ਸਹਾਇਕ ਬਣਾਉਣਾ</title><link>https://pa.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਨਿੱਜਤਾ"
+, "ਓਪਨ ਸੋਰਸ"
+, "ਆਟੋਮੇਸ਼ਨ"</category><guid>https://pa.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Meshtastic ਲਈ ਸਥਾਨਕ AI ਸਹਾਇਕ ਬਣਾਉਣ ਦਾ ਅਮਲੀ ਵੇਰਵਾ। ਇਸ ਵਿੱਚ ਨਿੱਜੀ ਸੰਰਚਨਾ, ਕਤਾਰ ਰਾਹੀਂ TCP ਪਹੁੰਚ, ਜਾਣਕਾਰੀ ਲੈਣ ਵਾਲੇ ਔਜ਼ਾਰ ਅਤੇ ਵਧੇਰੇ ਸੁਰੱਖਿਅਤ ਡੈਸ਼ਬੋਰਡ ਸ਼ਾਮਲ ਹਨ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item></channel></rss>

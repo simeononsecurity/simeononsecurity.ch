@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LiteLLM on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>LiteLLM on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/litellm/</link></image><link>https://pa.simeononsecurity.com/tags/litellm/</link><description>Recent content in LiteLLM on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/litellm/index.xml" rel="self" type="application/rss+xml"/><item><title>ਸਵੈ-ਹੋਸਟ ਕੀਤਾ Hindsight: ਏਜੰਟਾਂ ਦੀ ਸਥਾਨਕ ਯਾਦ ਅਤੇ ਨਿੱਜੀ ਮਾਡਲ ਰੂਟਿੰਗ</title><link>https://pa.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਸਵੈ-ਹੋਸਟ ਕੀਤੀ AI"
+, "AI ਏਜੰਟ"
+, "AI ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਨਿੱਜਤਾ"</category><guid>https://pa.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਵੈ-ਹੋਸਟ ਕੀਤੇ Hindsight ਦਾ ਕੇਸ ਅਧਿਐਨ, ਵੇਖੇ ਗਏ ਸਥਾਨਕ Qwen ਰੂਟ ਅਤੇ ਜਾਂਚੇ ਗਏ ਰਸਤੇ ਉੱਤੇ ਹੋਸਟ ਕੀਤੀ ਇਨਫਰੈਂਸ ਦੀ ਗਾਹਕੀ ਤੋਂ ਬਿਨਾਂ ਹਰ ਬੇਨਤੀ ਲਈ GPU ਕੰਮ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>ਸਾਡੇ ਹਾਈਬ੍ਰਿਡ ਏਜੰਟਿਕ AI ਫਲੀਟ ਦੇ ਅੰਦਰ: Hermes, LiteLLM ਅਤੇ Tailscale</title><link>https://pa.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਸਵੈ-ਹੋਸਟ ਕੀਤਾ AI"
+, "AI ਏਜੰਟ"
+, "AI ਢਾਂਚਾ"
+, "GPU ਮਾਈਨਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hermes, LiteLLM, Tailscale Aperture ਅਤੇ Pearl ਮਾਈਨਿੰਗ ਵਾਲੇ ਤਸਦੀਕਸ਼ੁਦਾ lazy-loaded ਸਥਾਨਕ AI ਫਲੀਟ ਅਤੇ ਇਸ ਦੇ T0 ਤੋਂ T4 ਕੰਟਰੋਲ ਪਲੇਨ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item></channel></rss>

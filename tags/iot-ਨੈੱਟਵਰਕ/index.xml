@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IoT ਨੈੱਟਵਰਕ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>IoT ਨੈੱਟਵਰਕ on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/iot-%E0%A8%A8%E0%A9%88%E0%A9%B1%E0%A8%9F%E0%A8%B5%E0%A8%B0%E0%A8%95/</link></image><link>https://pa.simeononsecurity.com/tags/iot-%E0%A8%A8%E0%A9%88%E0%A9%B1%E0%A8%9F%E0%A8%B5%E0%A8%B0%E0%A8%95/</link><description>Recent content in IoT ਨੈੱਟਵਰਕ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/iot-%E0%A8%A8%E0%A9%88%E0%A9%B1%E0%A8%9F%E0%A8%B5%E0%A8%B0%E0%A8%95/index.xml" rel="self" type="application/rss+xml"/><item><title>ਹੋਮਲੈਬ VLAN ਵੰਡ ਦੀ ਯੋਜਨਾ ਬਣਾਓ ਅਤੇ ਜਾਂਚੋ</title><link>https://pa.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਹੋਮਲੈਬ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਨੈੱਟਵਰਕਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਹੋਮਲੈਬ ਵਿੱਚ ਭਰੋਸੇਯੋਗ ਡਿਵਾਈਸਾਂ, ਸਰਵਰਾਂ, IoT ਅਤੇ ਮਹਿਮਾਨਾਂ ਨੂੰ ਵੱਖ ਕਰਨ ਲਈ VLAN ਯੋਜਨਾ ਬਣਾਓ। ਮਨਜ਼ੂਰ ਟ੍ਰੈਫਿਕ ਦਰਜ ਕਰੋ, ਨੈੱਟਵਰਕ ਨੂੰ ਪੜਾਵਾਂ ਵਿੱਚ ਸੰਰਚਿਤ ਕਰੋ ਅਤੇ ਅਲੱਗਾਵ ਦੀ ਜਾਂਚ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>ਕ੍ਰੈਂਕ ਬਨਾਮ ਹੀਲੀਅਮ ਆਈਓਟੀ: ਆਈਓਟੀ ਨੈਟਵਰਕਸ ਦੀ ਇੱਕ ਵਿਆਪਕ ਤੁਲਨਾ</title><link>https://pa.simeononsecurity.com/other/crankk-vs-helium-which-is-best/</link><pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰੈਂਕ ਬਨਾਮ ਹੀਲੀਅਮ ਆਈਓਟੀ"
+, "IoT ਨੈੱਟਵਰਕ"
+, "ਸਹਿਮਤੀ ਮਾਡਲ"
+, "ਮਾਈਨਿੰਗ ਹਾਰਡਵੇਅਰ"
+, "ਗੈਸ ਫੀਸ"
+, "ਬਲਾਕਚੈਨ"
+, "ਲੋਰਾਵਾਨ"
+, "IoT ਕਨੈਕਟੀਵਿਟੀ"
+, "ਬੇਤਾਰ ਸੰਚਾਰ"
+, "ਚੀਜ਼ਾਂ ਦਾ ਇੰਟਰਨੈਟ"
+, "ਵਿਕੇਂਦਰੀਕ੍ਰਿਤ ਨੈੱਟਵਰਕ"
+, "ਘੱਟ-ਪਾਵਰ ਜੰਤਰ"
+, "IoT ਹੱਲ"
+, "ਸਮਾਰਟ ਜੰਤਰ"
+, "IoT ਐਪਲੀਕੇਸ਼ਨ"
+, "ਡਾਟਾ ਸੰਚਾਰ"
+, "ਕਨੈਕਟੀਵਿਟੀ ਹੱਲ"
+, "ਆਈਓਟੀ ਤਕਨਾਲੋਜੀ"
+, "ਨੈੱਟਵਰਕ ਤੁਲਨਾ"
+, "ਵਾਇਰਲੈੱਸ ਨੈੱਟਵਰਕ"</category><guid>https://pa.simeononsecurity.com/other/crankk-vs-helium-which-is-best/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Crankk ਅਤੇ Helium IoT ਨੈੱਟਵਰਕਾਂ, ਉਹਨਾਂ ਦੇ ਸਹਿਮਤੀ ਵਾਲੇ ਮਾਡਲਾਂ, ਮਾਈਨਿੰਗ ਹਾਰਡਵੇਅਰ, ਗੈਸ ਫੀਸਾਂ ਅਤੇ ਹੋਰ ਬਹੁਤ ਕੁਝ ਵਿਚਕਾਰ ਅੰਤਰ ਖੋਜੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.webp" length="140316" type="image/webp"/></item><item><title>ਰਿਵਰਸ ਇੰਜੀਨੀਅਰਿੰਗ ਦੀ ਕਲਾ</title><link>https://pa.simeononsecurity.com/articles/the-art-of-reverse-engineering/</link><pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate><category>
+"ਰਿਵਰਸ ਇੰਜੀਨੀਅਰਿੰਗ"
+, "IoT ਸੁਰੱਖਿਆ"
+, "ਕਮਜ਼ੋਰੀਆਂ"
+, "ਸੁਰੱਖਿਆ ਪ੍ਰੋਟੋਕੋਲ"
+, "ਡਿਵਾਈਸ ਵਿਸ਼ਲੇਸ਼ਣ"
+, "IoT ਨੈੱਟਵਰਕ"
+, "ਅੰਦਰੂਨੀ ਕਾਰਜਪ੍ਰਣਾਲੀ"
+, "ਖ਼ਤਰਨਾਕ ਕੋਡ"
+, "ਇਨਕ੍ਰਿਪਸ਼ਨ ਉਪਾਅ"
+, "ਪ੍ਰਮਾਣੀਕਰਨ ਉਪਾਅ"
+, "ਫਾਇਰਵਾਲ"
+, "ਸਾਫਟਵੇਅਰ ਅੱਪਡੇਟ"</category><guid>https://pa.simeononsecurity.com/articles/the-art-of-reverse-engineering/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ ਰਿਵਰਸ ਇੰਜੀਨੀਅਰਿੰਗ IoT ਨੈੱਟਵਰਕ ਦੀਆਂ ਸੁਰੱਖਿਆ ਖਾਮੀਆਂ ਲੱਭਣ ਅਤੇ ਸਮੁੱਚੀ ਸਿਸਟਮ ਸੁਰੱਖਿਆ ਸੁਧਾਰਨ ਵਿੱਚ ਕਿਵੇਂ ਮਦਦ ਕਰਦੀ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.webp" length="239958" type="image/webp"/></item></channel></rss>

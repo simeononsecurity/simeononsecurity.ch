@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNS on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>DNS on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/dns/</link></image><link>https://pa.simeononsecurity.com/tags/dns/</link><description>Recent content in DNS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/dns/index.xml" rel="self" type="application/rss+xml"/><item><title>ਹੋਮਲੈਬ VLAN ਵੰਡ ਦੀ ਯੋਜਨਾ ਬਣਾਓ ਅਤੇ ਜਾਂਚੋ</title><link>https://pa.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਹੋਮਲੈਬ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਨੈੱਟਵਰਕਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਹੋਮਲੈਬ ਵਿੱਚ ਭਰੋਸੇਯੋਗ ਡਿਵਾਈਸਾਂ, ਸਰਵਰਾਂ, IoT ਅਤੇ ਮਹਿਮਾਨਾਂ ਨੂੰ ਵੱਖ ਕਰਨ ਲਈ VLAN ਯੋਜਨਾ ਬਣਾਓ। ਮਨਜ਼ੂਰ ਟ੍ਰੈਫਿਕ ਦਰਜ ਕਰੋ, ਨੈੱਟਵਰਕ ਨੂੰ ਪੜਾਵਾਂ ਵਿੱਚ ਸੰਰਚਿਤ ਕਰੋ ਅਤੇ ਅਲੱਗਾਵ ਦੀ ਜਾਂਚ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>ਆਪਣੇ ਨੈੱਟਵਰਕ ਨੂੰ ਸੁਧਾਰੋ: DNS ਕੌਂਫਿਗਰੇਸ਼ਨ ਸਮਝੋ</title><link>https://pa.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "IT ਇੰਫਰਾਸਟਰਕਚਰ"
+, "ਤਕਨੀਕੀ ਹੱਲ"
+, "ਇੰਟਰਨੈੱਟ ਤਕਨਾਲੋਜੀ"
+, "DNS ਅਨੁਕੂਲਨ"
+, "ਨੈੱਟਵਰਕ ਕਾਰਗੁਜ਼ਾਰੀ"
+, "ਡਿਜ਼ਿਟਲ ਸੁਰੱਖਿਆ"
+, "ਇੰਟਰਨੈੱਟ ਕਨੈਕਟੀਵਿਟੀ"
+, "ਤਕਨੀਕੀ ਗਾਈਡਾਂ"</category><guid>https://pa.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+DNS ਦੀ ਜਾਣਕਾਰੀ ਨਾਲ ਆਪਣਾ ਨੈੱਟਵਰਕ ਸੁਧਾਰੋ। ਜਾਣੋ ਕਿ DNS ਕਨੈਕਟੀਵਿਟੀ, ਕਾਰਗੁਜ਼ਾਰੀ ਅਤੇ ਸੁਰੱਖਿਆ ਉੱਤੇ ਕਿਵੇਂ ਅਸਰ ਪਾਉਂਦਾ ਹੈ, ਫਿਰ ਕੌਂਫਿਗਰੇਸ਼ਨ ਅਨੁਕੂਲ ਬਣਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp"/></item><item><title>DNS ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ: ਰੂਟ DNS, ਮਹੱਤਵ ਅਤੇ ਸਮੱਸਿਆ ਹੱਲ</title><link>https://pa.simeononsecurity.com/articles/how-does-dns-work/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><category>
+"DNS ਦੀਆਂ ਬੁਨਿਆਦੀ ਗੱਲਾਂ"
+, "ਰੂਟ DNS"
+, "ਡੋਮੇਨ ਨੇਮ ਸਿਸਟਮ"
+, "DNS ਨਾਮ ਹੱਲ"
+, "DNS ਦੀ ਲੜੀਵਾਰ ਬਣਤਰ"
+, "DNS ਕੈਸ਼ਿੰਗ"
+, "DNS ਸਮੱਸਿਆ ਹੱਲ"
+, "DNS ਰਿਕਾਰਡ"
+, "DNS ਪ੍ਰਬੰਧਨ"
+, "DNS ਕਮਾਂਡਾਂ"</category><guid>https://pa.simeononsecurity.com/articles/how-does-dns-work/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+DNS ਅਤੇ ਰੂਟ DNS ਦੀ ਬਣਤਰ, ਨਾਮ ਹੱਲ ਕਰਨ ਦੀ ਪ੍ਰਕਿਰਿਆ, ਕੈਸ਼ਿੰਗ ਅਤੇ ਸਮੱਸਿਆਵਾਂ ਦੀ ਜਾਂਚ ਦੇ ਤਰੀਕੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_image_depicting_interconnected_computer_ne.webp" length="167680" type="image/webp"/></item></channel></rss>

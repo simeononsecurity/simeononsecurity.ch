@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qwen3.8 27b on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>Qwen3.8 27b on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/qwen3.8-27b/</link></image><link>https://pa.simeononsecurity.com/tags/qwen3.8-27b/</link><description>Recent content in Qwen3.8 27b on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/qwen3.8-27b/index.xml" rel="self" type="application/rss+xml"/><item><title>ਕੀ ਗੰਭੀਰ ਲੋਕਲ LLM ਕੰਮ ਲਈ 16GB VRAM ਕਾਫ਼ੀ ਹੈ?</title><link>https://pa.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਲੋਕਲ AI"
+, "ਕੰਪਿਊਟਰ ਹਾਰਡਵੇਅਰ"
+, "ਸਵੈ-ਹੋਸਟਡ AI"</category><guid>https://pa.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮਾਡਲ ਵਜ਼ਨ, KV ਕੈਸ਼ ਅਤੇ ਪ੍ਰੌਂਪਟ ਪ੍ਰੋਸੈਸਿੰਗ ਦੇ ਆਧਾਰ ਤੇ 16GB ਲੋਕਲ LLM ਸੈਟਅੱਪ ਦਾ ਆਕਾਰ ਨਿਰਧਾਰਤ ਕਰੋ। Qwen3.8 27B ਮੈਮੋਰੀ ਬਜਟ, GPU ਬੈਂਡਵਿਡਥ ਅਤੇ ਮਾਲਕੀ ਲਾਗਤ ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>Qwen 27B ਲਈ 32GB VRAM: ਅਕਤੂਬਰ 2026 ਦੀ ਸਥਾਨਕ AI ਹਾਰਡਵੇਅਰ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "AI ਹਾਰਡਵੇਅਰ"
+, "GPU ਬੈਂਚਮਾਰਕਿੰਗ"
+, "ਸਵੈ-ਹੋਸਟਡ AI"
+, "ਕੰਪਿਊਟਰ ਹਾਰਡਵੇਅਰ"
+, "AI ਅਰਥਸ਼ਾਸਤਰ"</category><guid>https://pa.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਅਕਤੂਬਰ 2026 ਦੀ ਇਹ ਕਾਰਗਰ ਗਾਈਡ 32GB ਵਰਤਣਯੋਗ ਐਕਸਲੇਰੇਟਰ ਮੈਮੋਰੀ ਨਾਲ Qwen 27B ਮਾਡਲ ਚਲਾਉਣ ਦੇ ਤਰੀਕੇ ਦੱਸਦੀ ਹੈ। ਸਿੰਗਲ GPU, ਦੋ-ਕਾਰਡ ਬਿਲਡ, ਯੂਨੀਫਾਈਡ ਮੈਮੋਰੀ, ਵਰਤੇ ਡਾਟਾ-ਸੈਂਟਰ ਕਾਰਡ, ਕਿਰਾਏ ਦੀ ਕੰਪਿਊਟਿੰਗ, ਸਾਫਟਵੇਅਰ ਸਹਾਇਤਾ ਅਤੇ ਪੂਰੇ ਕਾਂਟੈਕਸਟ ਦੀਆਂ ਹੱਦਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Vast.ai ਉੱਤੇ Llama 3.1 8B ਅਤੇ Qwen3.8 27B ਦੇ GPU ਬੈਂਚਮਾਰਕ</title><link>https://pa.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "GPU ਬੈਂਚਮਾਰਕ"
+, "ਆਪਣੇ ਸਰਵਰ ਉੱਤੇ ਚਲਾਈ AI"
+, "ਕਲਾਉਡ ਕੰਪਿਊਟਿੰਗ"
+, "ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "AI ਅਰਥ-ਵਿਵਸਥਾ"</category><guid>https://pa.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vast.ai ਦੇ GPU ਉੱਤੇ Llama 3.1 8B ਅਤੇ Qwen3.8 27B ਦੇ ਮਾਪੇ ਹੋਏ Ollama ਨਤੀਜਿਆਂ, ਕਿਰਾਏ ਦੀ ਲਾਗਤ ਅਤੇ ਹੋਸਟਿੰਗ ਵਿਕਲਪਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।</description></item><item><title>2026 ਵਿੱਚ ਸਥਾਨਕ AI: 27B ਮਾਡਲ Sonnet 4.6 ਤੋਂ ਅੱਗੇ, ਹਾਰਡਵੇਅਰ ਖਰੀਦਣ ਦਾ ਮੌਕਾ ਮੁੱਕ ਰਿਹਾ ਹੈ</title><link>https://pa.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਸਵੈ-ਹੋਸਟ ਕੀਤਾ AI"
+, "ਖੁੱਲ੍ਹੇ ਸਰੋਤ ਦੇ ਮਾਡਲ"
+, "AI ਹਾਰਡਵੇਅਰ"
+, "ਮਸ਼ੀਨ ਲਰਨਿੰਗ"
+, "ਕੁਆਂਟਾਈਜ਼ੇਸ਼ਨ"
+, "ਘਰੇਲੂ ਲੈਬ"
+, "ਪਰਦੇਦਾਰੀ"
+, "AI ਅਰਥਵਿਵਸਥਾ"
+, "ਖਪਤਕਾਰ ਹਾਰਡਵੇਅਰ"</category><guid>https://pa.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮਾਡਲ ਦੇ ਆਕਾਰ, VRAM, ਮੈਮੋਰੀ ਬੈਂਡਵਿਡਥ, ਬਿਜਲੀ, ਲਾਗਤ ਅਤੇ ਅੱਪਗ੍ਰੇਡ ਦੇ ਵਿਕਲਪਾਂ ਦੇ ਆਧਾਰ ’ਤੇ 2026 ਲਈ ਸਥਾਨਕ AI ਕੰਪਿਊਟਰ ਦੀ ਯੋਜਨਾ ਬਣਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

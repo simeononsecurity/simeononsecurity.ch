@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਇੰਟਰਨੈੱਟ ਪ੍ਰੋਟੋਕੋਲ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਇੰਟਰਨੈੱਟ ਪ੍ਰੋਟੋਕੋਲ on simeononsecurity</title><link>https://pa.simeononsecurity.com/genre/%E0%A8%87%E0%A9%B0%E0%A8%9F%E0%A8%B0%E0%A8%A8%E0%A9%88%E0%A9%B1%E0%A8%9F-%E0%A8%AA%E0%A9%8D%E0%A8%B0%E0%A9%8B%E0%A8%9F%E0%A9%8B%E0%A8%95%E0%A9%8B%E0%A8%B2/</link></image><link>https://pa.simeononsecurity.com/genre/%E0%A8%87%E0%A9%B0%E0%A8%9F%E0%A8%B0%E0%A8%A8%E0%A9%88%E0%A9%B1%E0%A8%9F-%E0%A8%AA%E0%A9%8D%E0%A8%B0%E0%A9%8B%E0%A8%9F%E0%A9%8B%E0%A8%95%E0%A9%8B%E0%A8%B2/</link><description>Recent content in ਇੰਟਰਨੈੱਟ ਪ੍ਰੋਟੋਕੋਲ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Tue, 13 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/genre/%E0%A8%87%E0%A9%B0%E0%A8%9F%E0%A8%B0%E0%A8%A8%E0%A9%88%E0%A9%B1%E0%A8%9F-%E0%A8%AA%E0%A9%8D%E0%A8%B0%E0%A9%8B%E0%A8%9F%E0%A9%8B%E0%A8%95%E0%A9%8B%E0%A8%B2/index.xml" rel="self" type="application/rss+xml"/><item><title>NAT ਅਤੇ PAT: ਨੈੱਟਵਰਕ ਸੰਚਾਰ ਲਈ ਜ਼ਰੂਰੀ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕ ਦੀਆਂ ਬੁਨਿਆਦਾਂ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਆਈਟੀ ਢਾਂਚਾ"
+, "ਤਕਨੀਕੀ ਗਾਈਡਾਂ"
+, "ਨੈੱਟਵਰਕ ਪ੍ਰਬੰਧਨ"
+, "ਇੰਟਰਨੈੱਟ ਪ੍ਰੋਟੋਕੋਲ"
+, "ਸੰਚਾਰ ਤਕਨਾਲੋਜੀਆਂ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਨੈੱਟਵਰਕ ਇੰਜੀਨੀਅਰਿੰਗ"
+, "ਡਿਜ਼ਿਟਲ ਨੈੱਟਵਰਕ"</category><guid>https://pa.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਡਿਜ਼ਿਟਲ ਸੰਚਾਰ ਨੂੰ ਸੁਚਾਰੂ ਬਣਾਉਣ ਲਈ NAT ਅਤੇ PAT ਨੂੰ ਸਮਝੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item><item><title>SSL/TLS ਸੁਰੱਖਿਆ ਗਾਈਡ: ਆਪਣੀ ਵੈੱਬਸਾਈਟ ਦਾ ਡਾਟਾ ਸੁਰੱਖਿਅਤ ਕਰੋ</title><link>https://pa.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਤਕਨਾਲੋਜੀ"
+, "ਵੈੱਬ ਸੁਰੱਖਿਆ"
+, "ਡਾਟਾ ਇਨਕ੍ਰਿਪਸ਼ਨ"
+, "ਇੰਟਰਨੈੱਟ ਪ੍ਰੋਟੋਕੋਲ"
+, "ਡਿਜ਼ਿਟਲ ਪਰਦੇਦਾਰੀ"
+, "ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ"
+, "SSL/TLS ਲਾਗੂ ਕਰਨਾ"
+, "ਸਾਈਬਰ ਖ਼ਤਰੇ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦਾ ਭਵਿੱਖ"</category><guid>https://pa.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ ਮਜ਼ਬੂਤ ਇਨਕ੍ਰਿਪਸ਼ਨ ਨਾਲ SSL/TLS ਤੁਹਾਡੀ ਵੈੱਬਸਾਈਟ ਦੀ ਰੱਖਿਆ ਕਿਵੇਂ ਕਰਦਾ ਹੈ। ਕਮਜ਼ੋਰੀਆਂ, ਚੰਗੇ ਅਮਲ ਅਤੇ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੇ ਭਵਿੱਖ ਬਾਰੇ ਜਾਣ ਕੇ ਅੱਜ ਹੀ ਆਪਣੀ ਸਾਈਟ ਦੀ ਸੁਰੱਖਿਆ ਵਧਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/TLS_%20Securing%20Your%20Website%20Data.webp" length="171950" type="image/webp"/></item><item><title>ਨੈੱਟਵਰਕ ਦੀਆਂ ਬੁਨਿਆਦੀ ਗੱਲਾਂ: IP ਪਤਾ ਕੀ ਹੁੰਦਾ ਹੈ ਅਤੇ IPv4 ਤੇ IPv6 ਕੀ ਹਨ?</title><link>https://pa.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕਿੰਗ"
+, "IP ਪਤੇ"
+, "ਇੰਟਰਨੈੱਟ ਪ੍ਰੋਟੋਕੋਲ"
+, "IPv4"
+, "IPv6"
+, "ਨੈੱਟਵਰਕ ਸੰਚਾਰ"
+, "ਇੰਟਰਨੈੱਟ ਕਨੈਕਟੀਵਿਟੀ"
+, "ਤਕਨਾਲੋਜੀ"
+, "ਨੈੱਟਵਰਕ ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਇੰਟਰਨੈੱਟ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+IP ਪਤਿਆਂ, IPv4 ਅਤੇ IPv6 ਵਿਚਲੇ ਫ਼ਰਕ, ਉਨ੍ਹਾਂ ਦੀ ਅਹਿਮੀਅਤ ਅਤੇ IPv6 ਅਪਣਾਉਣ ਦੇ ਕਾਰਨਾਂ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_image_of_two_devices_with_speech_bub.webp" length="90028" type="image/webp"/></item></channel></rss>

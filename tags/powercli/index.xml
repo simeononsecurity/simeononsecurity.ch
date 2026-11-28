@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PowerCLI on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>PowerCLI on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/powercli/</link></image><link>https://pa.simeononsecurity.com/tags/powercli/</link><description>Recent content in PowerCLI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/powercli/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerCLI ਨਾਲ vCenter ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ ਦਾ ਆਡਿਟ ਕਿਵੇਂ ਕਰੀਏ</title><link>https://pa.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link><pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate><category>
+"vCenter ਇਜਾਜ਼ਤ ਆਡਿਟ"
+, "PowerCLI ਆਟੋਮੇਸ਼ਨ"
+, "VMware ਸੁਰੱਖਿਆ"
+, "ਵਰਚੁਅਲ ਬੁਨਿਆਦੀ ਢਾਂਚਾ ਪ੍ਰਬੰਧਨ"
+, "ਇਜਾਜ਼ਤਾਂ ਦੀਆਂ ਨਿਯੁਕਤੀਆਂ"
+, "ਵਰਤੋਂਕਾਰ ਪਹੁੰਚ ਨਿਯੰਤਰਣ"
+, "ਸੁਰੱਖਿਆ ਕਮਜ਼ੋਰੀਆਂ"
+, "PowerShell ਆਟੋਮੇਸ਼ਨ"
+, "vSphere ਵਾਤਾਵਰਣ ਪ੍ਰਬੰਧਨ"
+, "ਵਰਤੋਂਕਾਰ ਇਜਾਜ਼ਤ ਸਮੀਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਵਰਚੁਅਲ ਬੁਨਿਆਦੀ ਢਾਂਚੇ ਦੀ ਰੱਖਿਆ ਲਈ PowerCLI ਨਾਲ vCenter ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ ਦਾ ਆਡਿਟ ਕਰਨਾ ਸਿੱਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/audit-permissions-vcenter-powercli.webp" length="171996" type="image/webp"/></item><item><title>VMware ਸੁਰੱਖਿਆ ਵਿੱਚ ਮਾਹਰ ਬਣੋ</title><link>https://pa.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ"
+, "ਆਈਟੀ ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "ਪਾਲਣਾ"
+, "ਸਕ੍ਰਿਪਟਿੰਗ"
+, "ਡਾਟਾ ਸੈਂਟਰ"</category><guid>https://pa.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਇਸ ਵਿਸਥਾਰਪੂਰਵਕ ਗਾਈਡ ਵਿੱਚ PowerCLI ਨਾਲ VMware STIG ਲਾਗੂ ਕਰਕੇ VMware ਵਾਤਾਵਰਣ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਦਾ ਤਰੀਕਾ ਸਿੱਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>vSphere ਪ੍ਰਬੰਧਨ ਲਈ PowerCLI ਵਿੱਚ ਮਾਹਰ ਬਣੋ</title><link>https://pa.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ"
+, "VMware"
+, "ਆਈਟੀ ਪ੍ਰਬੰਧਨ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "ਕਮਾਂਡ-ਲਾਈਨ ਇੰਟਰਫੇਸ"
+, "ਸਕ੍ਰਿਪਟਿੰਗ"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਕਲਾਉਡ ਕੰਪਿਊਟਿੰਗ"
+, "ਡਾਟਾ ਸੈਂਟਰ ਪ੍ਰਬੰਧਨ"</category><guid>https://pa.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerCLI ਨਾਲ VMware vSphere ਦਾ ਪ੍ਰਬੰਧਨ, ਕੰਮਾਂ ਦੀ ਆਟੋਮੇਸ਼ਨ ਅਤੇ ਉਤਪਾਦਕਤਾ ਵਧਾਉਣ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਸਾਫਟਵੇਅਰ ਦੀਆਂ ਕਮਜ਼ੋਰੀਆਂ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਸਾਫਟਵੇਅਰ ਦੀਆਂ ਕਮਜ਼ੋਰੀਆਂ on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/%E0%A8%B8%E0%A8%BE%E0%A8%AB%E0%A8%9F%E0%A8%B5%E0%A9%87%E0%A8%85%E0%A8%B0-%E0%A8%A6%E0%A9%80%E0%A8%86%E0%A8%82-%E0%A8%95%E0%A8%AE%E0%A8%9C%E0%A8%BC%E0%A9%8B%E0%A8%B0%E0%A9%80%E0%A8%86%E0%A8%82/</link></image><link>https://pa.simeononsecurity.com/tags/%E0%A8%B8%E0%A8%BE%E0%A8%AB%E0%A8%9F%E0%A8%B5%E0%A9%87%E0%A8%85%E0%A8%B0-%E0%A8%A6%E0%A9%80%E0%A8%86%E0%A8%82-%E0%A8%95%E0%A8%AE%E0%A8%9C%E0%A8%BC%E0%A9%8B%E0%A8%B0%E0%A9%80%E0%A8%86%E0%A8%82/</link><description>Recent content in ਸਾਫਟਵੇਅਰ ਦੀਆਂ ਕਮਜ਼ੋਰੀਆਂ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/%E0%A8%B8%E0%A8%BE%E0%A8%AB%E0%A8%9F%E0%A8%B5%E0%A9%87%E0%A8%85%E0%A8%B0-%E0%A8%A6%E0%A9%80%E0%A8%86%E0%A8%82-%E0%A8%95%E0%A8%AE%E0%A8%9C%E0%A8%BC%E0%A9%8B%E0%A8%B0%E0%A9%80%E0%A8%86%E0%A8%82/index.xml" rel="self" type="application/rss+xml"/><item><title>ਖੁੱਲ੍ਹੇ ਸਰੋਤ ਵਾਲਾ ਸਾਫਟਵੇਅਰ ਸੁਰੱਖਿਆ ਵਿੱਚ ਮਾਲਕੀ ਵਾਲੇ ਸਾਫਟਵੇਅਰ ਤੋਂ ਅੱਗੇ ਕਿਉਂ ਹੈ</title><link>https://pa.simeononsecurity.com/articles/open-source-software-security/</link><pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਖੁੱਲ੍ਹਾ ਸਰੋਤ"
+, "ਸਾਫਟਵੇਅਰ ਸੁਰੱਖਿਆ"
+, "ਸਰਕਾਰੀ ਨਿਯਮ"
+, "ਸਹਿਯੋਗੀ ਵਿਕਾਸ"
+, "ਡਿਜੀਟਲ ਸੁਰੱਖਿਆ"
+, "ਸੂਚਨਾ ਤਕਨਾਲੋਜੀ ਸੁਰੱਖਿਆ"
+, "ਤਕਨੀਕੀ ਰੁਝਾਨ"
+, "ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ"
+, "ਡਾਟਾ ਦੀ ਨਿੱਜਤਾ"</category><guid>https://pa.simeononsecurity.com/articles/open-source-software-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ ਖੁੱਲ੍ਹੇ ਸਰੋਤ ਵਾਲੇ ਸਾਫਟਵੇਅਰ ਨੂੰ ਮਾਲਕੀ ਵਾਲੇ ਸਾਫਟਵੇਅਰ ਨਾਲੋਂ ਵੱਧ ਸੁਰੱਖਿਅਤ ਕਿਉਂ ਮੰਨਿਆ ਜਾਂਦਾ ਹੈ ਅਤੇ ਪਾਰਦਰਸ਼ਤਾ ਤੇ ਸਹਿਯੋਗ ਤੁਹਾਡੀ ਡਿਜੀਟਲ ਸੰਪਤੀ ਦੀ ਰੱਖਿਆ ਕਿਵੇਂ ਕਰਦੇ ਹਨ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/open-source-software-security.webp" length="61142" type="image/webp"/></item><item><title>ਅਸੁਰੱਖਿਅਤ C# ਫੰਕਸ਼ਨ: ਸੁਰੱਖਿਅਤ ਕੋਡਿੰਗ ਦੇ ਤਰੀਕੇ</title><link>https://pa.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਫਟਵੇਅਰ ਵਿਕਾਸ"
+, "C# ਪ੍ਰੋਗਰਾਮਿੰਗ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਕੋਡ ਸੁਰੱਖਿਆ"
+, "ਸੁਰੱਖਿਅਤ ਪ੍ਰੋਗਰਾਮਿੰਗ"
+, "ਪ੍ਰੋਗਰਾਮਿੰਗ ਦੇ ਚੰਗੇ ਤਰੀਕੇ"
+, "ਸਾਫਟਵੇਅਰ ਦੀਆਂ ਕਮਜ਼ੋਰੀਆਂ"
+, "ਕ੍ਰਿਪਟੋਗ੍ਰਾਫੀ"
+, "ਵੈੱਬ ਵਿਕਾਸ"
+, "ਐਪਲੀਕੇਸ਼ਨ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਅਸੁਰੱਖਿਅਤ C# ਫੰਕਸ਼ਨਾਂ ਦੇ ਸੁਰੱਖਿਅਤ ਬਦਲ ਜਾਣੋ। ਮੈਮੋਰੀ ਸੁਰੱਖਿਆ ਦੇ ਜੋਖਮ ਪਛਾਣੋ ਅਤੇ ਖਤਰਨਾਕ ਕਾਰਵਾਈਆਂ ਨੂੰ ਬਦਲਣਾ ਸਿੱਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>ਰਿਮੋਟ ਐਕਸੈੱਸ ਟ੍ਰੋਜਨ ਨੂੰ ਸਮਝਣਾ</title><link>https://pa.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਖ਼ਤਰਨਾਕ ਸਾਫਟਵੇਅਰ"
+, "ਕੰਪਿਊਟਰ ਸੁਰੱਖਿਆ"
+, "ਡਿਜ਼ਿਟਲ ਖ਼ਤਰੇ"
+, "ਰਿਮੋਟ ਐਕਸੈੱਸ ਟ੍ਰੋਜਨ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਨਿੱਜਤਾ"
+, "ਸਾਈਬਰ ਅਪਰਾਧ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਜਾਣਕਾਰੀ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਰਿਮੋਟ ਐਕਸੈੱਸ ਟ੍ਰੋਜਨ (RAT) ਦੇ ਖ਼ਤਰੇ ਜਾਣੋ ਅਤੇ ਕੰਪਿਊਟਰ ਸਿਸਟਮਾਂ ਤੇ ਡਾਟੇ ਦੀ ਰੱਖਿਆ ਲਈ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਰੋਕਥਾਮ ਅਤੇ ਸੁਰੱਖਿਆ ਦੇ ਤਰੀਕੇ ਸਿੱਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.webp" length="140888" type="image/webp"/></item><item><title>ਬੱਗ ਬਾਊਂਟੀ ਪ੍ਰੋਗਰਾਮ: ਭਾਈਚਾਰੇ ਦੀ ਭਾਗੀਦਾਰੀ ਨਾਲ ਸੁਰੱਖਿਆ ਜਾਂਚ</title><link>https://pa.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</link><pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਬੱਗ ਬਾਊਂਟੀ ਪ੍ਰੋਗਰਾਮ"
+, "ਭਾਈਚਾਰਕ ਜਾਂਚ"
+, "ਕਮਜ਼ੋਰੀ ਪ੍ਰਬੰਧਨ"
+, "ਡਿਜ਼ਿਟਲ ਸੁਰੱਖਿਆ"
+, "ਨੈਤਿਕ ਹੈਕਿੰਗ"
+, "ਸਾਈਬਰ ਖ਼ਤਰੇ"
+, "ਸੁਰੱਖਿਆ ਜਾਂਚ"
+, "ਸਾਈਬਰ ਰੱਖਿਆ"
+, "ਸਾਫਟਵੇਅਰ ਦੀਆਂ ਕਮਜ਼ੋਰੀਆਂ"</category><guid>https://pa.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ ਬੱਗ ਬਾਊਂਟੀ ਪ੍ਰੋਗਰਾਮ ਕਮਜ਼ੋਰੀਆਂ ਦੀ ਰਿਪੋਰਟਿੰਗ, ਸੁਰੱਖਿਆ ਜਾਂਚ ਅਤੇ ਜ਼ਿੰਮੇਵਾਰ ਖੁਲਾਸੇ ਵਿੱਚ ਕਿਵੇਂ ਮਦਦ ਕਰਦੇ ਹਨ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/bug-bounty-programs-engaging-the-crowd-in-security-testing.webp" length="238912" type="image/webp"/></item></channel></rss>

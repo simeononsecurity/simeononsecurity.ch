@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਡਾਟੇ ਦੀ ਗੁਪਤਤਾ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਡਾਟੇ ਦੀ ਗੁਪਤਤਾ on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/%E0%A8%A1%E0%A8%BE%E0%A8%9F%E0%A9%87-%E0%A8%A6%E0%A9%80-%E0%A8%97%E0%A9%81%E0%A8%AA%E0%A8%A4%E0%A8%A4%E0%A8%BE/</link></image><link>https://pa.simeononsecurity.com/tags/%E0%A8%A1%E0%A8%BE%E0%A8%9F%E0%A9%87-%E0%A8%A6%E0%A9%80-%E0%A8%97%E0%A9%81%E0%A8%AA%E0%A8%A4%E0%A8%A4%E0%A8%BE/</link><description>Recent content in ਡਾਟੇ ਦੀ ਗੁਪਤਤਾ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/%E0%A8%A1%E0%A8%BE%E0%A8%9F%E0%A9%87-%E0%A8%A6%E0%A9%80-%E0%A8%97%E0%A9%81%E0%A8%AA%E0%A8%A4%E0%A8%A4%E0%A8%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>ਕ੍ਰਿਪਟੋਗ੍ਰਾਫੀ ਦੇ ਭੇਦ: ਇਨਕ੍ਰਿਪਸ਼ਨ ਤਰੀਕਿਆਂ ਦੀ ਵਿਆਖਿਆ</title><link>https://pa.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਪਟੋਗ੍ਰਾਫੀ ਦਾ ਇਤਿਹਾਸ"
+, "ਇਨਕ੍ਰਿਪਸ਼ਨ ਤਰੀਕੇ"
+, "ਸਮਮਿਤ ਇਨਕ੍ਰਿਪਸ਼ਨ"
+, "ਅਸਮਮਿਤ ਇਨਕ੍ਰਿਪਸ਼ਨ"
+, "RSA ਐਲਗੋਰਿਦਮ"
+, "ਅੰਡਾਕਾਰ ਵਕਰ ਕ੍ਰਿਪਟੋਗ੍ਰਾਫੀ"
+, "Diffie-Hellman ਕੁੰਜੀ ਅਦਾਨ-ਪ੍ਰਦਾਨ"
+, "ਡਾਟੇ ਦੀ ਗੁਪਤਤਾ"
+, "ਡਾਟੇ ਦੀ ਅਖੰਡਤਾ"
+, "ਡਾਟੇ ਦੀ ਪ੍ਰਮਾਣਿਕਤਾ"
+, "ਕੁਆਂਟਮ ਕੰਪਿਊਟਿੰਗ ਦੇ ਖ਼ਤਰੇ"
+, "ਸੁਰੱਖਿਆ ਆਡਿਟ"
+, "ਡਿਜ਼ਿਟਲ ਵਾਲਿਟ ਦੀ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ ਸਮਮਿਤ, ਅਸਮਮਿਤ ਅਤੇ ਹਾਈਬ੍ਰਿਡ ਇਨਕ੍ਰਿਪਸ਼ਨ ਡਾਟੇ ਦੀ ਰੱਖਿਆ ਕਿਵੇਂ ਕਰਦੀ ਹੈ, ਕੁੰਜੀਆਂ ਦਾ ਅਦਾਨ-ਪ੍ਰਦਾਨ ਕਿਵੇਂ ਹੁੰਦਾ ਹੈ ਅਤੇ ਆਧੁਨਿਕ ਕ੍ਰਿਪਟੋਗ੍ਰਾਫਿਕ ਤਰੀਕੇ ਕਿੱਥੇ ਵਰਤੇ ਜਾਂਦੇ ਹਨ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques.webp" length="291054" type="image/webp"/></item><item><title>ਨਿਯੰਤਰਿਤ ਗੈਰ-ਵਰਗੀਕ੍ਰਿਤ ਜਾਣਕਾਰੀ ਦੀ ਸੁਰੱਖਿਆ</title><link>https://pa.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</link><pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate><category>
+"ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਜਾਣਕਾਰੀ ਦੀ ਸੁਰੱਖਿਆ"
+, "ਨਿੱਜਤਾ ਪ੍ਰਬੰਧਨ"
+, "ਸੰਵੇਦਨਸ਼ੀਲ ਜਾਣਕਾਰੀ ਦੀ ਸੰਭਾਲ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਨਿਯਮਾਂ ਦੀ ਪਾਲਣਾ"
+, "ਜੋਖਮ ਪ੍ਰਬੰਧਨ"
+, "ਜਾਣਕਾਰੀ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਡਾਟੇ ਦੀ ਗੁਪਤਤਾ"
+, "ਜਾਣਕਾਰੀ ਭਰੋਸਾ"</category><guid>https://pa.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਨਿਯੰਤਰਿਤ ਗੈਰ-ਵਰਗੀਕ੍ਰਿਤ ਜਾਣਕਾਰੀ (CUI) ਦੀ ਸੁਰੱਖਿਆ ਦਾ ਮਹੱਤਵ ਜਾਣੋ ਅਤੇ ਸੰਵੇਦਨਸ਼ੀਲ ਡਾਟੇ ਨੂੰ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਢੰਗ ਨਾਲ ਬਚਾਉਣ ਦੇ ਤਰੀਕੇ ਸਿੱਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/CUI-Safeguarding-Sensitive-Data.webp" length="96388" type="image/webp"/></item><item><title>Active Directory ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ</title><link>https://pa.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਨੈੱਟਵਰਕ ਪ੍ਰਬੰਧਨ"
+, "ਸੂਚਨਾ ਤਕਨਾਲੋਜੀ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਉਦਯੋਗਿਕ ਸੁਰੱਖਿਆ"
+, "ਡਿਜ਼ਿਟਲ ਢਾਂਚਾ"
+, "ਪਹੁੰਚ ਨਿਯੰਤਰਣ"
+, "ਵਰਤੋਂਕਾਰ ਪ੍ਰਮਾਣੀਕਰਨ"
+, "ਆਈਟੀ ਦੇ ਵਧੀਆ ਤਰੀਕੇ"
+, "ਸੁਰੱਖਿਆ ਜਾਗਰੂਕਤਾ"</category><guid>https://pa.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Active Directory ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ, ਡਾਟੇ ਦੀ ਰੱਖਿਆ ਕਰਨ ਅਤੇ ਨੈੱਟਵਰਕ ਢਾਂਚੇ ਵਿੱਚ ਘੁਸਪੈਠ ਰੋਕਣ ਦੀਆਂ ਜ਼ਰੂਰੀ ਤਕਨੀਕਾਂ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item></channel></rss>
