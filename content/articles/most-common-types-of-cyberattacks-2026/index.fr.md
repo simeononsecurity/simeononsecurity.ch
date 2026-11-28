@@ -1,12 +1,12 @@
 ---
 title: "Les types de cyberattaques les plus courants et leur détection"
 date: 2026-09-11
-lastmod: 2026-11-13
+lastmod: "2026-11-27"
 toc: true
 draft: false
 description: "Découvrez les cyberattaques les plus courantes, les traces qu'elles laissent dans les journaux et la télémétrie, et entraînez-vous à les détecter dans un laboratoire de sécurité à domicile."
-genre: ["Cybersécurité", "Détection des menaces", "Blue Team", "Opérations de sécurité", "Développement de carrière"]
-tags: ["types de cyberattaques", "logiciel malveillant", "rançongiciel", "hameçonnage", "spear phishing", "ingénierie sociale", "usurpation", "attaques basées sur l'identité", "credential stuffing", "password spraying", "injection SQL", "cross-site scripting", "attaque de la chaîne d'approvisionnement", "menace interne", "tunnel DNS", "attaques IoT", "attaques basées sur l'IA", "déni de service", "ingénierie de détection", "analyste SOC", "Blue Team", "laboratoire à domicile", "analyse des journaux", "réponse aux incidents", "MITRE ATT&CK", "carrière en cybersécurité", "recherche de menaces", "centre des opérations de sécurité", "télémétrie", "triage des alertes"]
+genre: ["Cybersécurité", "Détection des menaces", "Équipe bleue", "Opérations de sécurité", "Développement de carrière"]
+tags: ["types de cyberattaques", "logiciel malveillant", "rançongiciel", "hameçonnage", "hameçonnage ciblé", "ingénierie sociale", "usurpation", "attaques basées sur l'identité", "bourrage d'identifiants", "pulvérisation de mots de passe", "injection SQL", "script intersites (XSS)", "attaque de la chaîne d'approvisionnement", "menace interne", "tunnel DNS", "attaques IoT", "attaques basées sur l'IA", "déni de service", "ingénierie de détection", "analyste SOC", "Équipe bleue", "laboratoire à domicile", "analyse des journaux", "réponse aux incidents", "MITRE ATT&CK", "carrière en cybersécurité", "recherche de menaces", "centre des opérations de sécurité", "télémétrie", "triage des alertes"]
 cover: "/img/cover/types-of-cyberattacks-icons-illustration.webp"
 coverAlt: "Illustration numérique sur fond sombre, avec des icônes abstraites et colorées représentant différents types de cyberattaques, comme les rançongiciels, le hameçonnage et le déni de service."
 coverCaption: ""
@@ -262,12 +262,12 @@ Commencez par la catégorie liée à l'identité. Créez un utilisateur de test,
 5. **Testez la règle** avec l'exercice et vérifiez qu'elle se déclenche pour le comportement attendu.
 6. **Consignez les limites** de la règle, y compris les activités qu'elle ne détecte pas.
 
-Le [guide Microsoft SOC Home Lab](/articles/microsoft-soc-home-lab-2026/) détaille la création de l'environnement : licences, segmentation du réseau, collecte des journaux et tests de contrôle des identités. Le [guide Mad Hat Cyber Range](https://madhat.io/pages/cyber-range-guide) développe la même idée avec une configuration d'atelier comprenant un exercice d'attaque, de détection et de défense.
+Le [tutoriel de laboratoire SOC Microsoft à domicile](/articles/microsoft-soc-home-lab-2026/) détaille la création de l'environnement : licences, segmentation du réseau, collecte des journaux et tests de contrôle des identités. Le [guide Mad Hat Cyber Range](https://madhat.io/pages/cyber-range-guide) développe la même idée avec une configuration d'atelier comprenant un exercice d'attaque, de détection et de défense.
 
 Pour utiliser un vocabulaire cohérent, associez le comportement observé à la technique correspondante de [MITRE ATT&CK](https://attack.mitre.org/). Considérez cette correspondance comme une aide pour l'analyste, et non comme une preuve d'attribution. Conservez l'événement brut, la requête, la version de la règle et ses angles morts connus avec le compte rendu de l'exercice.
 
 {{< centerbutton href="/articles/microsoft-soc-home-lab-2026/" >}}
-  Lire le guide Microsoft SOC Home Lab
+  Lire le tutoriel de laboratoire SOC Microsoft à domicile
 {{< /centerbutton >}}
 
 ______
@@ -276,7 +276,7 @@ ______
 
 Commencez par une catégorie et un exercice. Ajoutez une deuxième catégorie après avoir terminé et documenté la première. L'objectif est d'approfondir une enquête, pas de créer une liste d'outils.
 
-- **[Guide Microsoft SOC Home Lab](/articles/microsoft-soc-home-lab-2026/)** construit l'environnement nécessaire à ces exercices.
+- **[Tutoriel de laboratoire SOC Microsoft à domicile](/articles/microsoft-soc-home-lab-2026/)** construit l'environnement nécessaire à ces exercices.
 - **[Créer un laboratoire informatique à domicile](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)** décrit l'infrastructure sous-jacente à un laboratoire de sécurité.
 - **[Conseils pour rédiger un CV informatique](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/)** montre comment présenter un laboratoire documenté comme une expérience pratique.
 - **[Les cinq principaux vecteurs de cyberattaque et leurs mesures d'atténuation](/articles/the-top-five-cyber-attack-vectors-and-mitigations/)** réduit la liste aux vecteurs les plus fréquents.
