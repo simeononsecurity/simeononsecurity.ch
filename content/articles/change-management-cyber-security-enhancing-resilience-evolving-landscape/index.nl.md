@@ -1,12 +1,12 @@
 ---
-title: "Cybersecurityweerbaarheid versterken met change management"
+title: "Cybersecurityweerbaarheid versterken met wijzigingsbeheer"
 date: 2023-07-26
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
-description: "Lees waarom change management belangrijk is voor cybersecurity en hoe je de weerbaarheid in het huidige dreigingslandschap vergroot."
-genre: ["Cybersecurity", "Wijzigingsbeheer", "Weerbaarheid", "IT-infrastructuur", "Risicobeoordeling", "Compliance", "Incidentrespons", "Best practices", "ITIL", "Beveiligingsmaatregelen"]
-tags: ["Cybersecurity", "Wijzigingsbeheer", "Weerbaarheid", "Digitale assets", "Beveiligingsincidenten", "Compliance", "IT-infrastructuur", "Risicobeoordeling", "Testen en valideren", "Communicatie", "Samenwerking", "Documentatie", "Best practices", "ITIL", "Beveiligingsmaatregelen", "Dreigingslandschap", "Bedrijfsvoering", "Systeemstoringen", "Datalekken", "Kwetsbaarheden", "Wettelijke vereisten", "Impactbeoordelingen", "Training en bewustwording", "Gebruik van middelen", "Continue verbetering", "IT-systemen", "IT-beleid", "IT-procedures", "Gecontroleerde omgeving", "Betrokkenheid van belanghebbenden"]
+description: "Lees waarom wijzigingsbeheer belangrijk is voor cybersecurity en hoe je de weerbaarheid in het huidige dreigingslandschap vergroot."
+genre: ["Cybersecurity", "Wijzigingsbeheer", "Weerbaarheid", "IT-infrastructuur", "Risicobeoordeling", "Compliance", "Incidentrespons", "Beproefde werkwijzen", "ITIL", "Beveiligingsmaatregelen"]
+tags: ["Cybersecurity", "Wijzigingsbeheer", "Weerbaarheid", "Digitale assets", "Beveiligingsincidenten", "Compliance", "IT-infrastructuur", "Risicobeoordeling", "Testen en valideren", "Communicatie", "Samenwerking", "Documentatie", "Beproefde werkwijzen", "ITIL", "Beveiligingsmaatregelen", "Dreigingslandschap", "Bedrijfsvoering", "Systeemstoringen", "Datalekken", "Kwetsbaarheden", "Wettelijke vereisten", "Impactbeoordelingen", "Training en bewustwording", "Gebruik van middelen", "Continue verbetering", "IT-systemen", "IT-beleid", "IT-procedures", "Gecontroleerde omgeving", "Betrokkenheid van belanghebbenden"]
 cover: "/img/cover/A_team_of_professionals_working_together_to_bu.webp"
 coverAlt: "Een team professionals bouwt samen een schild rond een netwerkserver. Dit staat voor bescherming en weerbaarheid tegen cyberdreigingen."
 coverCaption: "Weerbare beveiliging opbouwen: je digitale assets beschermen"
@@ -14,19 +14,19 @@ coverCaption: "Weerbare beveiliging opbouwen: je digitale assets beschermen"
 
 ## Inleiding
 
-In het digitale tijdperk worden **cyberdreigingen** steeds geavanceerder en vaker ingezet. Organisaties moeten zich voortdurend aanpassen om hun **digitale assets** en gevoelige informatie te beschermen. **Change management** helpt organisaties om **cybersecurityuitdagingen** aan te pakken en de risico's van systeemwijzigingen, updates en upgrades te beperken. Dit artikel behandelt **change management binnen cybersecurity**, het belang ervan en best practices voor de invoering binnen een organisatie.
+In het digitale tijdperk worden **cyberdreigingen** steeds geavanceerder en vaker ingezet. Organisaties moeten zich voortdurend aanpassen om hun **digitale assets** en gevoelige informatie te beschermen. **Wijzigingsbeheer** helpt organisaties om **cybersecurityuitdagingen** aan te pakken en de risico's van systeemwijzigingen, updates en upgrades te beperken. Dit artikel behandelt **wijzigingsbeheer binnen cybersecurity**, het belang ervan en beproefde werkwijzen voor de invoering binnen een organisatie.
 
-## Change management binnen cybersecurity
+## Wijzigingsbeheer binnen cybersecurity
 
-**Change management** binnen **cybersecurity** is een systematische aanpak voor het beheren van wijzigingen aan de IT-infrastructuur, systemen, beleidsregels en procedures van een organisatie. Het doel is een veilige omgeving te behouden. De aanpak omvat **wijzigingen plannen, uitvoeren en beheersen** om het effect op de beveiliging te beperken en de bedrijfsvoering voort te zetten.
+**Wijzigingsbeheer** binnen **cybersecurity** is een systematische aanpak voor het beheren van wijzigingen aan de IT-infrastructuur, systemen, beleidsregels en procedures van een organisatie. Het doel is een veilige omgeving te behouden. De aanpak omvat **wijzigingen plannen, uitvoeren en beheersen** om het effect op de beveiliging te beperken en de bedrijfsvoering voort te zetten.
 
-### Waarom change management nodig is
+### Waarom wijzigingsbeheer nodig is
 
-In het veranderlijke **cybersecuritylandschap** zijn wijzigingen onvermijdelijk. Ze volgen bijvoorbeeld uit **technologische ontwikkelingen, wettelijke vereisten, nieuwe dreigingen** of **behoeften van de organisatie**. Slecht beheer van wijzigingen leidt tot **kwetsbaarheden, systeemstoringen, datalekken** en andere **beveiligingsincidenten**. **Change management** helpt organisaties om de risico's van wijzigingen te **beperken** en **doeltreffend te reageren** op veranderende cyberdreigingen.
+In het veranderlijke **cybersecuritylandschap** zijn wijzigingen onvermijdelijk. Ze volgen bijvoorbeeld uit **technologische ontwikkelingen, wettelijke vereisten, nieuwe dreigingen** of **behoeften van de organisatie**. Slecht beheer van wijzigingen leidt tot **kwetsbaarheden, systeemstoringen, datalekken** en andere **beveiligingsincidenten**. **Wijzigingsbeheer** helpt organisaties om de risico's van wijzigingen te **beperken** en **doeltreffend te reageren** op veranderende cyberdreigingen.
 
-### Belangrijke onderdelen van change management
+### Belangrijke onderdelen van wijzigingsbeheer
 
-Change management binnen **cybersecurity** bestaat uit verschillende belangrijke onderdelen:
+Wijzigingsbeheer binnen **cybersecurity** bestaat uit verschillende belangrijke onderdelen:
 
 1. **Wijzigingsbeheer:** Stel formele processen en beheersmaatregelen in om wijzigingen te beheren en goed te keuren. Leg **wijzigingsverzoeken** vast, beoordeel het beveiligingseffect, verkrijg de vereiste goedkeuringen en zorg voor een juiste uitvoering. Met degelijk wijzigingsbeheer zorgen organisaties ervoor dat alleen **goedgekeurde wijzigingen** in hun IT-infrastructuur worden aangebracht. Dit verkleint de kans op ongeoorloofde toegang en systeemstoringen.
 
@@ -36,43 +36,43 @@ Change management binnen **cybersecurity** bestaat uit verschillende belangrijke
 
 4. **Documentatie en communicatie:** Houd **volledige documentatie** bij van alle wijzigingen in de IT-omgeving. Leg de wijziging, de reden, de goedkeuringen en de resultaten vast. Goede communicatie zorgt ervoor dat **belanghebbenden op de hoogte zijn van wijzigingen** en van hun mogelijke gevolgen. Met gedetailleerde documentatie en open communicatie krijgen alle betrokkenen inzicht in de wijzigingen. Dit ondersteunt **transparantie, verantwoording en een gedeeld begrip**.
 
-5. **Training en bewustwording:** Bied medewerkers **training en bewustwordingsprogramma's** over het belang van change management en hun rol bij het beveiligen van de omgeving. Dit helpt een **beveiligingsbewuste cultuur** op te bouwen en verkleint de kans op menselijke fouten tijdens wijzigingen. **Cybersecuritybewustzijnstraining** leert medewerkers bijvoorbeeld over de risico's van ongeoorloofde wijzigingen en het belang van de juiste procedures.
+5. **Training en bewustwording:** Bied medewerkers **training en bewustwordingsprogramma's** over het belang van wijzigingsbeheer en hun rol bij het beveiligen van de omgeving. Dit helpt een **beveiligingsbewuste cultuur** op te bouwen en verkleint de kans op menselijke fouten tijdens wijzigingen. **Cybersecuritybewustzijnstraining** leert medewerkers bijvoorbeeld over de risico's van ongeoorloofde wijzigingen en het belang van de juiste procedures.
 
-### Voordelen van change management binnen cybersecurity
+### Voordelen van wijzigingsbeheer binnen cybersecurity
 
-Doeltreffend change management binnen **cybersecurity** biedt verschillende voordelen:
+Doeltreffend wijzigingsbeheer binnen **cybersecurity** biedt verschillende voordelen:
 
 - **Minder beveiligingsincidenten:** Door wijzigingen systematisch te beheren, kunnen organisaties beveiligingsrisico's vroeg herkennen en beperken. Zo daalt de kans op **beveiligingsincidenten** en **datalekken**. Een gestructureerd proces kan bijvoorbeeld kwetsbaarheden in een voorgestelde software-update aan het licht brengen, zodat de organisatie beveiligingsmaatregelen neemt voordat aanvallers ze misbruiken.
 
-- **Betere compliance:** Change management helpt organisaties te voldoen aan relevante **wettelijke vereisten** en **best practices in de sector**. Dit ondersteunt **compliance** en helpt boetes of juridische gevolgen te voorkomen. Door alle wijzigingen en goedkeuringen te documenteren, kunnen organisaties hun inspanningen aantonen tijdens audits en inspecties.
+- **Betere compliance:** Wijzigingsbeheer helpt organisaties te voldoen aan relevante **wettelijke vereisten** en **beproefde werkwijzen in de sector**. Dit ondersteunt **compliance** en helpt boetes of juridische gevolgen te voorkomen. Door alle wijzigingen en goedkeuringen te documenteren, kunnen organisaties hun inspanningen aantonen tijdens audits en inspecties.
 
-- **Meer weerbaarheid:** Change management versterkt de weerbaarheid tegen **cyberdreigingen**. Het helpt voorkomen dat wijzigingen kwetsbaarheden introduceren of bestaande **beveiligingsmaatregelen** verzwakken. Met grondig **testen en valideren** kunnen organisaties zwaktes opsporen en oplossen voordat ze wijzigingen uitvoeren. Zo behouden ze een **sterke beveiligingsstatus**.
+- **Meer weerbaarheid:** Wijzigingsbeheer versterkt de weerbaarheid tegen **cyberdreigingen**. Het helpt voorkomen dat wijzigingen kwetsbaarheden introduceren of bestaande **beveiligingsmaatregelen** verzwakken. Met grondig **testen en valideren** kunnen organisaties zwaktes opsporen en oplossen voordat ze wijzigingen uitvoeren. Zo behouden ze een **sterke beveiligingsstatus**.
 
 - **Snellere incidentrespons:** Goede documentatie en communicatie over wijzigingen maken het eenvoudiger om de oorzaak van beveiligingsincidenten te vinden. Teams kunnen sneller reageren en de gevolgen beperken. Na een datalek helpt een volledig overzicht van recente wijzigingen bijvoorbeeld om snel te bepalen of een wijziging heeft bijgedragen aan het incident en welke herstelmaatregelen nodig zijn.
 
-- **Efficiënter gebruik van middelen:** Goed change management beperkt systeemstoringen en uitval. Organisaties gebruiken hun IT-middelen daardoor efficiënter en houden de **bedrijfsvoering** soepel. Door wijzigingen zorgvuldig te plannen en in te roosteren, voorkomen ze onnodige onderbrekingen en verdelen ze middelen beter.
+- **Efficiënter gebruik van middelen:** Goed wijzigingsbeheer beperkt systeemstoringen en uitval. Organisaties gebruiken hun IT-middelen daardoor efficiënter en houden de **bedrijfsvoering** soepel. Door wijzigingen zorgvuldig te plannen en in te roosteren, voorkomen ze onnodige onderbrekingen en verdelen ze middelen beter.
 
-## Best practices voor cybersecurity-change management
+## Beproefde werkwijzen voor cybersecurity-wijzigingsbeheer
 
-Volg best practices om de voordelen van change management te vergroten en de bijbehorende risico's te beperken. Deze praktijken helpen bij de invoering:
+Volg beproefde werkwijzen om de voordelen van wijzigingsbeheer te vergroten en de bijbehorende risico's te beperken. Deze praktijken helpen bij de invoering:
 
-### 1. Stel een change-managementframework op
+### 1. Stel een wijzigingsbeheerframework op
 
-Stel een degelijk framework voor change management binnen cybersecurity op. Beschrijf daarin de processen, rollen en verantwoordelijkheden. Stem het framework af op industriestandaarden zoals **ITIL** (Information Technology Infrastructure Library) en verwerk **best practices voor cybersecurity**.
+Stel een degelijk framework voor wijzigingsbeheer binnen cybersecurity op. Beschrijf daarin de processen, rollen en verantwoordelijkheden. Stem het framework af op industriestandaarden zoals **ITIL** (bibliotheek voor IT-infrastructuur, Engels: Information Technology Infrastructure Library) en verwerk **beproefde werkwijzen voor cybersecurity**.
 
-Een change-managementframework bevat doorgaans deze onderdelen:
+Een wijzigingsbeheerframework bevat doorgaans deze onderdelen:
 
-- **Proces voor wijzigingsverzoeken:** Definieer een vaste manier om wijzigingsverzoeken in te dienen en te beoordelen. Gebruik bijvoorbeeld een ticketsysteem of een speciaal hulpmiddel voor change management. Organisaties kunnen **Jira** of **ServiceNow** gebruiken om het proces te vereenvoudigen.
+- **Proces voor wijzigingsverzoeken:** Definieer een vaste manier om wijzigingsverzoeken in te dienen en te beoordelen. Gebruik bijvoorbeeld een ticketsysteem of een speciaal hulpmiddel voor wijzigingsbeheer. Organisaties kunnen **Jira** of **ServiceNow** gebruiken om het proces te vereenvoudigen.
 
 - **Wijzigingsraad:** Stel een **Change Review Board** (CRB) of een vergelijkbaar bestuursorgaan in dat wijzigingsverzoeken beoordeelt. Betrek vertegenwoordigers van verschillende afdelingen, waaronder IT, beveiliging en bedrijfsonderdelen. De raad beoordeelt het beveiligingseffect van voorgestelde wijzigingen en besluit of ze worden goedgekeurd of afgewezen.
 
-- **Documentatie voor change management:** Maak sjablonen en documentatie voor de belangrijkste gegevens bij wijzigingsverzoeken. Leg de wijziging, de onderbouwing, mogelijke risico's en verkregen goedkeuringen vast. Deze documentatie vormt een auditspoor en ondersteunt communicatie en samenwerking tussen belanghebbenden.
+- **Documentatie voor wijzigingsbeheer:** Maak sjablonen en documentatie voor de belangrijkste gegevens bij wijzigingsverzoeken. Leg de wijziging, de onderbouwing, mogelijke risico's en verkregen goedkeuringen vast. Deze documentatie vormt een auditspoor en ondersteunt communicatie en samenwerking tussen belanghebbenden.
 
-- **Implementatieplan voor wijzigingen:** Maak een gestructureerd plan voor goedgekeurde wijzigingen. Neem stappen op voor testen, valideren en uitrollen. Organisaties kunnen bijvoorbeeld **hulpmiddelen voor change management** zoals **Ansible** of **Puppet** gebruiken om uitrol te automatiseren en consistent te houden.
+- **Implementatieplan voor wijzigingen:** Maak een gestructureerd plan voor goedgekeurde wijzigingen. Neem stappen op voor testen, valideren en uitrollen. Organisaties kunnen bijvoorbeeld **hulpmiddelen voor wijzigingsbeheer** zoals **Ansible** of **Puppet** gebruiken om uitrol te automatiseren en consistent te houden.
 
 - **Communicatie over wijzigingen:** Stel duidelijke communicatiekanalen in om belanghebbenden over geplande wijzigingen te informeren. Gebruik e-mailmeldingen, wijzigingskalenders of samenwerkingsplatforms zoals **Slack** en **Microsoft Teams**. Goede communicatie helpt belanghebbenden zich voor te bereiden op mogelijke gevolgen voor hun systemen en processen.
 
-Met een framework voor change management behandelen organisaties wijzigingen systematisch en gecontroleerd. Dat verkleint de kans op storingen en beveiligingsincidenten.
+Met een framework voor wijzigingsbeheer behandelen organisaties wijzigingen systematisch en gecontroleerd. Dat verkleint de kans op storingen en beveiligingsincidenten.
 
 ### 2. Beoordeel de impact
 
@@ -108,13 +108,13 @@ Met deze prioritering stemmen organisaties middelen af op risico's, bedrijfsimpa
 
 3. **Gebruikersacceptatietests:** Betrek belanghebbenden en eindgebruikers bij **gebruikersacceptatietests**. Controleer of de wijzigingen aan hun eisen en verwachtingen voldoen. Beoordeel het gebruiksgemak, de prestaties en de compatibiliteit voor de beoogde gebruikers. Laat representatieve gebruikers een software-upgrade testen als deze bijvoorbeeld de interface verandert.
 
-4. **Doorlopende testpraktijken:** Beoordeel en actualiseer **testprocedures regelmatig** om gelijke tred te houden met nieuwe dreigingen en kwetsbaarheden. Volg de nieuwste beveiligingsstandaarden, best practices en wettelijke vereisten. Door testpraktijken voortdurend te verbeteren, passen organisaties zich aan veranderende cyberdreigingen aan en houden ze change management doeltreffend.
+4. **Doorlopende testpraktijken:** Beoordeel en actualiseer **testprocedures regelmatig** om gelijke tred te houden met nieuwe dreigingen en kwetsbaarheden. Volg de nieuwste beveiligingsstandaarden, beproefde werkwijzen en wettelijke vereisten. Door testpraktijken voortdurend te verbeteren, passen organisaties zich aan veranderende cyberdreigingen aan en houden ze wijzigingsbeheer doeltreffend.
 
 Grondig testen en valideren helpt problemen en kwetsbaarheden te vinden voordat wijzigingen naar productie gaan. Dit verkleint de kans op storingen en beveiligingsincidenten.
 
 ### 5. Communiceer en werk samen
 
-**Effectieve communicatie en samenwerking** zijn essentieel voor goed change management. Houd alle belanghebbenden op de hoogte van geplande wijzigingen, hun doel en hun mogelijke effect. Zo verloopt de invoering soepeler en neemt weerstand af. Let op deze punten:
+**Effectieve communicatie en samenwerking** zijn essentieel voor goed wijzigingsbeheer. Houd alle belanghebbenden op de hoogte van geplande wijzigingen, hun doel en hun mogelijke effect. Zo verloopt de invoering soepeler en neemt weerstand af. Let op deze punten:
 
 1. **Betrokkenheid van belanghebbenden:** Breng alle relevante belanghebbenden in kaart en betrek hen, waaronder IT-teams, bedrijfsonderdelen en het senior management. Communiceer de geplande wijzigingen, de doelen en de voordelen. **Stimuleer actieve deelname** en geef belanghebbenden ruimte om vragen te stellen en zorgen te delen. Dit helpt om begrip en steun op te bouwen.
 
@@ -128,26 +128,26 @@ Met goede communicatie en samenwerking creëren organisaties een **ondersteunend
 
 ### 6. Documenteer en beoordeel wijzigingen
 
-**Wijzigingen documenteren en beoordelen** is essentieel voor change management. Houd een volledig wijzigingslogboek bij met alle noodzakelijke informatie over elke wijziging, waaronder goedkeuringen, uitvoeringsdetails en resultaten. Neem deze punten mee:
+**Wijzigingen documenteren en beoordelen** is essentieel voor wijzigingsbeheer. Houd een volledig wijzigingslogboek bij met alle noodzakelijke informatie over elke wijziging, waaronder goedkeuringen, uitvoeringsdetails en resultaten. Neem deze punten mee:
 
-1. **Wijzigingslogboek:** Stel een **centraal wijzigingslogboek** in met alle relevante informatie. Gebruik een document, een hulpmiddel voor change management of een ticketsysteem. Leg het verzoek, de reden, de betrokken personen, de goedkeuringen, het implementatieplan en bevindingen of problemen na de uitvoering vast.
+1. **Wijzigingslogboek:** Stel een **centraal wijzigingslogboek** in met alle relevante informatie. Gebruik een document, een hulpmiddel voor wijzigingsbeheer of een ticketsysteem. Leg het verzoek, de reden, de betrokken personen, de goedkeuringen, het implementatieplan en bevindingen of problemen na de uitvoering vast.
 
 2. **Consistentie en nauwkeurigheid:** Houd de informatie in het wijzigingslogboek **consistent, nauwkeurig en actueel**. Leg alle noodzakelijke gegevens vast en documenteer afwijkingen en onverwachte resultaten. Beoordeel en valideer de informatie regelmatig om de integriteit ervan te behouden.
 
-3. **Regelmatige beoordelingen:** Beoordeel het wijzigingslogboek **periodiek** om trends, patronen en verbeterpunten te vinden. Analyseer de gegevens om te zien hoe goed change management werkt, waar knelpunten ontstaan en welke problemen zich herhalen. Gebruik de uitkomsten om de strategie te verbeteren.
+3. **Regelmatige beoordelingen:** Beoordeel het wijzigingslogboek **periodiek** om trends, patronen en verbeterpunten te vinden. Analyseer de gegevens om te zien hoe goed wijzigingsbeheer werkt, waar knelpunten ontstaan en welke problemen zich herhalen. Gebruik de uitkomsten om de strategie te verbeteren.
 
-4. **Geleerde lessen:** Verwerk een aanpak voor **geleerde lessen** in change management. Moedig belanghebbenden aan ervaringen, problemen en successen te delen. Documenteer de lessen en gebruik ze om toekomstige wijzigingen te verbeteren.
+4. **Geleerde lessen:** Verwerk een aanpak voor **geleerde lessen** in wijzigingsbeheer. Moedig belanghebbenden aan ervaringen, problemen en successen te delen. Documenteer de lessen en gebruik ze om toekomstige wijzigingen te verbeteren.
 
 5. **Continue verbetering:** Gebruik inzichten uit beoordelingen van het wijzigingslogboek voor **continue verbetering**. Zoek waar processen efficiënter kunnen, beheersmaatregelen sterker kunnen of communicatie beter kan. Voer corrigerende maatregelen uit en verfijn het framework op basis van de geleerde lessen.
 
-Door wijzigingen te documenteren en te beoordelen, behouden organisaties **verantwoording**, vinden ze verbeterpunten en bouwen ze aan een cultuur van continu leren en betere change-managementpraktijken.
+Door wijzigingen te documenteren en te beoordelen, behouden organisaties **verantwoording**, vinden ze verbeterpunten en bouwen ze aan een cultuur van continu leren en betere wijzigingsbeheerpraktijken.
 
 ## Conclusie
 
-Change management is **essentieel** voor een **sterke cybersecuritystatus** in het huidige **snel veranderende dreigingslandschap**. Door **best practices** te volgen en een **proactieve aanpak** te kiezen, kunnen organisaties wijzigingen **doeltreffend beheren**, **risico's beperken** en hun **weerbaarheid tegen cyberdreigingen vergroten**. Door change management als **vast onderdeel van de cybersecuritystrategie** te behandelen, **beschermen organisaties hun kritieke assets**, **voldoen ze aan vereisten** en waarborgen ze de **continuïteit van de bedrijfsvoering**.
+Wijzigingsbeheer is **essentieel** voor een **sterke cybersecuritystatus** in het huidige **snel veranderende dreigingslandschap**. Door **beproefde werkwijzen** te volgen en een **proactieve aanpak** te kiezen, kunnen organisaties wijzigingen **doeltreffend beheren**, **risico's beperken** en hun **weerbaarheid tegen cyberdreigingen vergroten**. Door wijzigingsbeheer als **vast onderdeel van de cybersecuritystrategie** te behandelen, **beschermen organisaties hun kritieke assets**, **voldoen ze aan vereisten** en waarborgen ze de **continuïteit van de bedrijfsvoering**.
 
 ## Bronnen
 
 - National Institute of Standards and Technology (NIST). (2017). NIST Special Publication 800-37: Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy. Opgehaald van [https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final)
 
-- Information Technology Infrastructure Library (ITIL). (z.d.). ITIL Best Practice Framework. [https://www.axelos.com/best-practice-solutions/itil](https://www.axelos.com/best-practice-solutions/itil)
+- Information Technology Infrastructure Library (ITIL). (z.d.). ITIL-raamwerk voor beproefde werkwijzen. [https://www.axelos.com/best-practice-solutions/itil](https://www.axelos.com/best-practice-solutions/itil)

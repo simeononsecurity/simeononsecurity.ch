@@ -1,7 +1,7 @@
 ---
 title: "পরিবর্তন ব্যবস্থাপনার মাধ্যমে সাইবার নিরাপত্তার স্থিতিস্থাপকতা বাড়ানো"
 date: 2023-07-26
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "সাইবার নিরাপত্তায় পরিবর্তন ব্যবস্থাপনার গুরুত্ব জানুন এবং বদলে যাওয়া হুমকির পরিবেশে স্থিতিস্থাপকতা বাড়ানোর উপায় শিখুন।"
@@ -58,7 +58,7 @@ coverCaption: "স্থিতিস্থাপক নিরাপত্তা 
 
 ### 1. পরিবর্তন ব্যবস্থাপনার কাঠামো তৈরি করুন
 
-সাইবার নিরাপত্তায় পরিবর্তন কার্যকরভাবে পরিচালনার জন্য প্রক্রিয়া, ভূমিকা ও দায়িত্ব নির্ধারণ করে এমন একটি শক্তিশালী কাঠামো তৈরি করুন। কাঠামোটিকে **ITIL** (Information Technology Infrastructure Library)-এর মতো শিল্পমানের সঙ্গে সামঞ্জস্যপূর্ণ করুন এবং **সাইবার নিরাপত্তার সেরা অনুশীলন** যুক্ত করুন।
+সাইবার নিরাপত্তায় পরিবর্তন কার্যকরভাবে পরিচালনার জন্য প্রক্রিয়া, ভূমিকা ও দায়িত্ব নির্ধারণ করে এমন একটি শক্তিশালী কাঠামো তৈরি করুন। কাঠামোটিকে **ITIL** (তথ্যপ্রযুক্তি অবকাঠামো গ্রন্থাগার)-এর মতো শিল্পমানের সঙ্গে সামঞ্জস্যপূর্ণ করুন এবং **সাইবার নিরাপত্তার সেরা অনুশীলন** যুক্ত করুন।
 
 পরিবর্তন ব্যবস্থাপনার কাঠামোতে সাধারণত এসব উপাদান থাকে:
 
@@ -150,4 +150,4 @@ coverCaption: "স্থিতিস্থাপক নিরাপত্তা 
 
 - National Institute of Standards and Technology (NIST). (2017). NIST Special Publication 800-37: Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy. সূত্র: [https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final)
 
-- Information Technology Infrastructure Library (ITIL). (n.d.). ITIL Best Practice Framework. [https://www.axelos.com/best-practice-solutions/itil](https://www.axelos.com/best-practice-solutions/itil)
+- Information Technology Infrastructure Library (ITIL). (n.d.). ITIL-এর সর্বোত্তম অনুশীলন কাঠামো। [https://www.axelos.com/best-practice-solutions/itil](https://www.axelos.com/best-practice-solutions/itil)
