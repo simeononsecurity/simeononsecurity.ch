@@ -1,10 +1,11 @@
 ---
-title: "Соревнования по безопасности в облаке: AWS vs Azure vs Google Cloud Platform"
+title: "Соревнования по безопасности в облаке: AWS против Azure против Google Cloud Platform"
 date: 2023-03-29
+lastmod: 2026-11-28
 toc: true
 draft: false
 description: "Сравните AWS, Azure и Google Cloud Platform с точки зрения безопасности облачных вычислений и узнайте о различиях, чтобы принять обоснованное решение для своей организации."
-tags: ["AWS", "Лазурь", "Облако Google", "облачная безопасность", "IAM", "GuardDuty", "Центр безопасности", "Командный пункт охраны", "Защита от DDoS-атак", "Облачная броня", "WAF", "Частная ссылка", "DLP", "облачные вычисления", "облачные сервисы", "облачные провайдеры", "защита информации", "кибербезопасность", "безопасность инфраструктуры"]
+tags: ["AWS", "Azure", "Google Cloud", "облачная безопасность", "IAM", "GuardDuty", "Security Center", "Security Command Center", "Защита от DDoS-атак", "Cloud Armor", "WAF", "Private Link", "DLP", "облачные вычисления", "облачные сервисы", "облачные провайдеры", "защита информации", "кибербезопасность", "безопасность инфраструктуры"]
 cover: "/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.webp"
 coverAlt: "Яркое 3D-анимационное изображение, демонстрирующее три различные облачные структуры, представляющие AWS, Azure и Google Cloud Platform, с наложенными на каждое облако символами щита, символизирующими их предложения по безопасности."
 coverCaption: ""
@@ -106,9 +107,9 @@ ______
 
 ## Ссылки
 
-1. [Amazon Web Services (AWS) - Security](https://aws.amazon.com/security/)
-2. [Microsoft Azure - Security and Compliance](https://azure.microsoft.com/en-us/overview/security/)
-3. [Google Cloud Platform - Security](https://cloud.google.com/security)
+1. [Amazon Web Services (AWS) - Безопасность](https://aws.amazon.com/security/)
+2. [Microsoft Azure - Безопасность и соответствие требованиям](https://azure.microsoft.com/en-us/overview/security/)
+3. [Google Cloud Platform - Безопасность](https://cloud.google.com/security)
 4. [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)
 5. [Azure Active Directory (AD)](https://azure.microsoft.com/en-us/services/active-directory/)
 6. [Google Cloud Identity and Access Management (IAM)](https://cloud.google.com/iam)

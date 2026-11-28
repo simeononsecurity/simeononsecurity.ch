@@ -1,10 +1,11 @@
 ---
-title: "云安全对决：AWS vs Azure vs Google Cloud Platform"
+title: "云安全对决：AWS 对比 Azure 对比 Google Cloud Platform"
 date: 2023-03-29
+lastmod: 2026-11-28
 toc: true
 draft: false
 description: "比较 AWS、Azure 和 Google 云平台在云安全方面的优势，了解它们的不同之处，以便为您的组织做出明智的决定。"
-tags: ["AWS", "天蓝色", "谷歌云", "云安全", "IAM", "值班警卫", "安全中心", "安全指挥中心", "DDoS 保护", "云装甲", "WAF", "私人链接", "DLP", "云计算", "云服务", "云提供商", "数据保护", "网络安全", "基础设施安全"]
+tags: ["AWS", "Azure", "谷歌云", "云安全", "IAM", "GuardDuty", "Security Center", "Security Command Center", "DDoS 保护", "Cloud Armor", "WAF", "Private Link", "DLP", "云计算", "云服务", "云提供商", "数据保护", "网络安全", "基础设施安全"]
 cover: "/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.webp"
 coverAlt: "一幅生动的三维动画展示了代表 AWS、Azure 和 Google 云平台的三种不同的云结构，每种云上都覆盖了盾牌符号，象征着它们的安全产品。"
 coverCaption: ""
@@ -24,7 +25,7 @@ ______
 
 **AWS IAM** 是一项服务，使您能够安全地管理对 AWS 服务和资源的访问。您可以创建和管理 AWS 用户、组和权限，以允许或拒绝访问资源。
 
-#### 亚马逊 GuardDuty
+### 亚马逊 GuardDuty
 
 **Amazon GuardDuty** 是一项威胁检测服务，可持续监控恶意活动和未经授权的行为，以保护您的 AWS 账户和工作负载。
 
@@ -42,7 +43,7 @@ ______
 
 ______
 
-### Azure 安全功能
+## Azure 安全功能
 
 ### Azure 活动目录 (AD)
 
@@ -106,9 +107,9 @@ ______
 
 ## 参考文献
 
-1. [Amazon Web Services (AWS) - Security](https://aws.amazon.com/security/)
-2. [Microsoft Azure - Security and Compliance](https://azure.microsoft.com/en-us/overview/security/)
-3. [Google Cloud Platform - Security](https://cloud.google.com/security)
+1. [Amazon Web Services (AWS) - 安全](https://aws.amazon.com/security/)
+2. [Microsoft Azure - 安全与合规](https://azure.microsoft.com/en-us/overview/security/)
+3. [Google Cloud Platform - 安全](https://cloud.google.com/security)
 4. [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)
 5. [Azure Active Directory (AD)](https://azure.microsoft.com/en-us/services/active-directory/)
 6. [Google Cloud Identity and Access Management (IAM)](https://cloud.google.com/iam)

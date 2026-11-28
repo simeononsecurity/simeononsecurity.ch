@@ -5,7 +5,7 @@ lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Vergelijk AWS, Azure en Google Cloud Platform op het gebied van cloudbeveiliging en leer de verschillen om een weloverwogen beslissing te nemen voor jouw organisatie."
-tags: ["AWS", "Azuur", "Google cloud", "cloudbeveiliging", "IAM", "GuardDuty", "Beveiligingscentrum", "Beveiligingscommandocentrum", "DDoS-bescherming", "Wolkenpantser", "WAF", "Privéverbinding", "DLP", "cloudcomputing", "clouddiensten", "cloudaanbieders", "gegevensbescherming", "cyberbeveiliging", "infrastructuurbeveiliging"]
+tags: ["AWS", "Azure", "Google Cloud", "cloudbeveiliging", "IAM", "GuardDuty", "Security Center", "Security Command Center", "DDoS-bescherming", "Cloud Armor", "WAF", "Private Link", "DLP", "cloudcomputing", "clouddiensten", "cloudaanbieders", "gegevensbescherming", "cyberbeveiliging", "infrastructuurbeveiliging"]
 cover: "/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.webp"
 coverAlt: "Een levendige, 3D geanimeerde afbeelding die drie verschillende cloudstructuren laat zien die AWS, Azure en Google Cloud Platform voorstellen, met schildsymbolen over elke cloud om hun beveiligingsaanbod te symboliseren."
 coverCaption: ""
@@ -49,7 +49,7 @@ ______
 
 **Azure AD** is Microsofts cloudgebaseerde service voor identiteits- en toegangsbeheer, waarmee uw werknemers zich kunnen aanmelden en toegang krijgen tot bronnen.
 
-### Beveiligingscentrum
+### Azure Security Center
 
 **Azure Security Center** biedt uniform beveiligingsbeheer en geavanceerde bescherming tegen bedreigingen voor hybride cloudworkloads.
 
@@ -77,7 +77,7 @@ ______
 
 **Google Cloud Security Command Center** helpt beveiligingsteams bedreigingen te voorkomen, te detecteren en erop te reageren vanuit één uniform dashboard.
 
-### Google cloud pantser
+### Google Cloud Armor
 
 **Google Cloud Armor** is een cloudgebaseerde beveiligingsservice die DDoS- en webtoepassingsfirewallbescherming biedt voor uw toepassingen.
 
@@ -107,9 +107,9 @@ ______
 
 ## Referenties
 
-1. [Amazon Web Services (AWS) - Security](https://aws.amazon.com/security/)
-2. [Microsoft Azure - Security and Compliance](https://azure.microsoft.com/en-us/overview/security/)
-3. [Google Cloud Platform - Security](https://cloud.google.com/security)
+1. [Amazon Web Services (AWS) - Beveiliging](https://aws.amazon.com/security/)
+2. [Microsoft Azure - Beveiliging en naleving](https://azure.microsoft.com/en-us/overview/security/)
+3. [Google Cloud Platform - Beveiliging](https://cloud.google.com/security)
 4. [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)
 5. [Azure Active Directory (AD)](https://azure.microsoft.com/en-us/services/active-directory/)
 6. [Google Cloud Identity and Access Management (IAM)](https://cloud.google.com/iam)

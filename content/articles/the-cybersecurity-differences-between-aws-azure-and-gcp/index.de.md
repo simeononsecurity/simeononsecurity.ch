@@ -5,7 +5,7 @@ lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Vergleichen Sie AWS, Azure und Google Cloud Platform in Bezug auf die Cloud-Sicherheit, und lernen Sie die Unterschiede kennen, um eine fundierte Entscheidung für Ihr Unternehmen zu treffen."
-tags: ["AWS", "Azure", "Google Cloud", "Cloud-Sicherheit", "IAM", "GuardDuty", "Sicherheitszentrum", "Sicherheitskommandozentrale", "DDoS-Schutz", "Wolken-Rüstung", "WAF", "Private Link", "DLP", "Cloud Computing", "Cloud-Dienste", "Cloud-Anbieter", "datenschutz", "Cybersicherheit", "Sicherheit der Infrastruktur"]
+tags: ["AWS", "Azure", "Google Cloud", "Cloud-Sicherheit", "IAM", "GuardDuty", "Security Center", "Security Command Center", "DDoS-Schutz", "Cloud Armor", "WAF", "Private Link", "DLP", "Cloud Computing", "Cloud-Dienste", "Cloud-Anbieter", "Datenschutz", "Cybersicherheit", "Infrastruktursicherheit"]
 cover: "/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.webp"
 coverAlt: "Ein lebhaftes, animiertes 3D-Bild, das drei verschiedene Cloud-Strukturen zeigt, die AWS, Azure und Google Cloud Platform repräsentieren, mit Schildsymbolen, die jede Cloud überlagern, um ihre Sicherheitsangebote zu symbolisieren."
 coverCaption: ""
@@ -107,9 +107,9 @@ ______
 
 ## Referenzen
 
-1. [Amazon Web Services (AWS) - Security](https://aws.amazon.com/security/)
-2. [Microsoft Azure - Security and Compliance](https://azure.microsoft.com/en-us/overview/security/)
-3. [Google Cloud Platform - Security](https://cloud.google.com/security)
+1. [Amazon Web Services (AWS) - Sicherheit](https://aws.amazon.com/security/)
+2. [Microsoft Azure - Sicherheit und Compliance](https://azure.microsoft.com/en-us/overview/security/)
+3. [Google Cloud Platform - Sicherheit](https://cloud.google.com/security)
 4. [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)
 5. [Azure Active Directory (AD)](https://azure.microsoft.com/en-us/services/active-directory/)
 6. [Google Cloud Identity and Access Management (IAM)](https://cloud.google.com/iam)

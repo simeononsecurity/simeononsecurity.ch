@@ -1,6 +1,7 @@
 ---
 title: "クラウドセキュリティ対決：AWSとAzureとGoogle Cloud Platformの比較"
 date: 2023-03-29
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "クラウドセキュリティの観点からAWS、Azure、Google Cloud Platformを比較し、その違いを学ぶことで、組織にとって十分な情報を得た上で決断することができます。"
@@ -14,7 +15,7 @@ coverCaption: ""
 
 ## 序章
 
-クラウドコンピューティングの世界では、**Amazon Web Services（AWS）**、*Microsoft Azure**、*Google Cloud Platform（GCP）**が3大プロバイダーとして知られています。各プラットフォームには独自の機能と利点がありますが、クラウドセキュリティに関しては、これらのプロバイダーの違いを理解することが非常に重要です。この記事では、AWS、Azure、GCPのセキュリティ機能と違いについて説明し、組織のために十分な情報を得た上で決断することを支援します。
+クラウドコンピューティングの世界では、**Amazon Web Services（AWS）**、**Microsoft Azure**、**Google Cloud Platform（GCP）**が3大プロバイダーとして知られています。各プラットフォームには独自の機能と利点がありますが、クラウドセキュリティに関しては、これらのプロバイダーの違いを理解することが非常に重要です。この記事では、AWS、Azure、GCPのセキュリティ機能と違いについて説明し、組織のために十分な情報を得た上で決断することを支援します。
 
 ______
 
@@ -80,7 +81,7 @@ ______
 
 **Google Cloud Armor** は、アプリケーションの DDoS および Web アプリケーションファイアウォール保護を提供する、クラウドベースのセキュリティサービスです。
 
-Google Cloud Data Loss Prevention (DLP) ### Google Cloud Data Loss Prevention (DLP)
+### Google Cloud Data Loss Prevention (DLP)
 
 **Google Cloud DLP** は、アプリケーション内の機密データを検出、分類、保護するサービスです。
 
@@ -106,22 +107,22 @@ ______
 
 ## 参考文献
 
-1.[Amazon Web Services (AWS) - Security](https://aws.amazon.com/security/)
-2.[Microsoft Azure - Security and Compliance](https://azure.microsoft.com/en-us/overview/security/)
-3.[Google Cloud Platform - Security](https://cloud.google.com/security)
-4.[AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)
-5.[Azure Active Directory (AD)](https://azure.microsoft.com/en-us/services/active-directory/)
-6.[Google Cloud Identity and Access Management (IAM)](https://cloud.google.com/iam)
-7.[Amazon GuardDuty](https://aws.amazon.com/guardduty/)
-8.[Azure Security Center](https://azure.microsoft.com/en-us/services/security-center/)
-9.[Google Cloud Security Command Center](https://cloud.google.com/security-command-center)
-10.[AWS Security Hub](https://aws.amazon.com/security-hub/)
-11.[Azure DDoS Protection](https://azure.microsoft.com/en-us/services/ddos-protection/)
-12.[Google Cloud Armor](https://cloud.google.com/armor)
-13.[AWS Shield](https://aws.amazon.com/shield/)
-14.[Azure Firewall](https://azure.microsoft.com/en-us/services/azure-firewall/)
-15.[AWS WAF](https://aws.amazon.com/waf/)
-16.[Azure Private Link](https://azure.microsoft.com/en-us/services/private-link/)
-17.[Google Cloud Data Loss Prevention (DLP)](https://cloud.google.com/dlp)
+1. [Amazon Web Services (AWS) - セキュリティ](https://aws.amazon.com/security/)
+2. [Microsoft Azure - セキュリティとコンプライアンス](https://azure.microsoft.com/en-us/overview/security/)
+3. [Google Cloud Platform - セキュリティ](https://cloud.google.com/security)
+4. [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)
+5. [Azure Active Directory (AD)](https://azure.microsoft.com/en-us/services/active-directory/)
+6. [Google Cloud Identity and Access Management (IAM)](https://cloud.google.com/iam)
+7. [Amazon GuardDuty](https://aws.amazon.com/guardduty/)
+8. [Azure Security Center](https://azure.microsoft.com/en-us/services/security-center/)
+9. [Google Cloud Security Command Center](https://cloud.google.com/security-command-center)
+10. [AWS Security Hub](https://aws.amazon.com/security-hub/)
+11. [Azure DDoS Protection](https://azure.microsoft.com/en-us/services/ddos-protection/)
+12. [Google Cloud Armor](https://cloud.google.com/armor)
+13. [AWS Shield](https://aws.amazon.com/shield/)
+14. [Azure Firewall](https://azure.microsoft.com/en-us/services/azure-firewall/)
+15. [AWS WAF](https://aws.amazon.com/waf/)
+16. [Azure Private Link](https://azure.microsoft.com/en-us/services/private-link/)
+17. [Google Cloud Data Loss Prevention (DLP)](https://cloud.google.com/dlp)
 
 

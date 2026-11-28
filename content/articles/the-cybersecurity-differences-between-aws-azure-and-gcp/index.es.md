@@ -1,6 +1,7 @@
 ---
-title: "Enfrentamiento de seguridad en la nube: AWS vs Azure vs Google Cloud Platform"
+title: "Enfrentamiento de seguridad en la nube: AWS frente a Azure frente a Google Cloud Platform"
 date: 2023-03-29
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Compare AWS, Azure y Google Cloud Platform en términos de seguridad en la nube, y conozca las diferencias para tomar una decisión informada para su organización."
@@ -106,9 +107,9 @@ ______
 
 ## Referencias
 
-1. [Amazon Web Services (AWS) - Security](https://aws.amazon.com/security/)
-2. [Microsoft Azure - Security and Compliance](https://azure.microsoft.com/en-us/overview/security/)
-3. [Google Cloud Platform - Security](https://cloud.google.com/security)
+1. [Amazon Web Services (AWS) - Seguridad](https://aws.amazon.com/security/)
+2. [Microsoft Azure - Seguridad y cumplimiento normativo](https://azure.microsoft.com/en-us/overview/security/)
+3. [Google Cloud Platform - Seguridad](https://cloud.google.com/security)
 4. [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)
 5. [Azure Active Directory (AD)](https://azure.microsoft.com/en-us/services/active-directory/)
 6. [Google Cloud Identity and Access Management (IAM)](https://cloud.google.com/iam)

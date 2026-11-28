@@ -1,6 +1,7 @@
 ---
-title: "Prova di sicurezza del cloud: AWS vs Azure vs Google Cloud Platform"
+title: "Prova di sicurezza del cloud: AWS contro Azure contro Google Cloud Platform"
 date: 2023-03-29
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Confrontate AWS, Azure e Google Cloud Platform in termini di sicurezza del cloud e imparate le differenze per prendere una decisione consapevole per la vostra organizzazione."
@@ -106,22 +107,22 @@ ______
 
 ## Riferimenti
 
-1.[Amazon Web Services (AWS) - Security](https://aws.amazon.com/security/)
-2.[Microsoft Azure - Security and Compliance](https://azure.microsoft.com/en-us/overview/security/)
-3.[Google Cloud Platform - Security](https://cloud.google.com/security)
-4.[AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)
-5.[Azure Active Directory (AD)](https://azure.microsoft.com/en-us/services/active-directory/)
-6.[Google Cloud Identity and Access Management (IAM)](https://cloud.google.com/iam)
-7.[Amazon GuardDuty](https://aws.amazon.com/guardduty/)
-8.[Azure Security Center](https://azure.microsoft.com/en-us/services/security-center/)
-9.[Google Cloud Security Command Center](https://cloud.google.com/security-command-center)
-10.[AWS Security Hub](https://aws.amazon.com/security-hub/)
-11.[Azure DDoS Protection](https://azure.microsoft.com/en-us/services/ddos-protection/)
-12.[Google Cloud Armor](https://cloud.google.com/armor)
-13.[AWS Shield](https://aws.amazon.com/shield/)
-14.[Azure Firewall](https://azure.microsoft.com/en-us/services/azure-firewall/)
-15.[AWS WAF](https://aws.amazon.com/waf/)
-16.[Azure Private Link](https://azure.microsoft.com/en-us/services/private-link/)
-17.[Google Cloud Data Loss Prevention (DLP)](https://cloud.google.com/dlp)
+1. [Amazon Web Services (AWS) - Sicurezza](https://aws.amazon.com/security/)
+2. [Microsoft Azure - Sicurezza e conformità](https://azure.microsoft.com/en-us/overview/security/)
+3. [Google Cloud Platform - Sicurezza](https://cloud.google.com/security)
+4. [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)
+5. [Azure Active Directory (AD)](https://azure.microsoft.com/en-us/services/active-directory/)
+6. [Google Cloud Identity and Access Management (IAM)](https://cloud.google.com/iam)
+7. [Amazon GuardDuty](https://aws.amazon.com/guardduty/)
+8. [Azure Security Center](https://azure.microsoft.com/en-us/services/security-center/)
+9. [Google Cloud Security Command Center](https://cloud.google.com/security-command-center)
+10. [AWS Security Hub](https://aws.amazon.com/security-hub/)
+11. [Azure DDoS Protection](https://azure.microsoft.com/en-us/services/ddos-protection/)
+12. [Google Cloud Armor](https://cloud.google.com/armor)
+13. [AWS Shield](https://aws.amazon.com/shield/)
+14. [Azure Firewall](https://azure.microsoft.com/en-us/services/azure-firewall/)
+15. [AWS WAF](https://aws.amazon.com/waf/)
+16. [Azure Private Link](https://azure.microsoft.com/en-us/services/private-link/)
+17. [Google Cloud Data Loss Prevention (DLP)](https://cloud.google.com/dlp)
 
 

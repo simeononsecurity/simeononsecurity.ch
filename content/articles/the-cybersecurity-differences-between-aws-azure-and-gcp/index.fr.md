@@ -1,16 +1,17 @@
 ---
-title: "L'épreuve de force de la sécurité dans l'informatique dématérialisée : AWS vs Azure vs Google Cloud Platform"
+title: "L'épreuve de force de la sécurité dans l'informatique dématérialisée : AWS contre Azure contre Google Cloud Platform"
 date: 2023-03-29
+lastmod: 2026-11-28
 toc: true
 draft: false
 description: "Comparez AWS, Azure et Google Cloud Platform en termes de sécurité du cloud, et découvrez les différences pour prendre une décision éclairée pour votre organisation."
-tags: ["AWS", "Azure", "Google Cloud", "sécurité des nuages", "IAM", "Service de garde", "Centre de sécurité", "Centre de commandement de sécurité", "Protection contre les attaques DDoS", "Armure de nuage", "WAF", "Lien privé", "DLP", "informatique en nuage", "services en nuage", "fournisseurs d'informatique en nuage", "protection des données", "cybersécurité", "sécurité des infrastructures"]
+tags: ["AWS", "Azure", "Google Cloud", "sécurité des nuages", "IAM", "GuardDuty", "Security Center", "Security Command Center", "Protection contre les attaques DDoS", "Cloud Armor", "WAF", "Private Link", "DLP", "informatique en nuage", "services en nuage", "fournisseurs d'informatique en nuage", "protection des données", "cybersécurité", "sécurité des infrastructures"]
 cover: "/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.webp"
 coverAlt: "Une image animée en 3D présentant trois structures distinctes de nuage représentant AWS, Azure et Google Cloud Platform, avec des symboles de bouclier recouvrant chaque nuage pour symboliser leurs offres de sécurité."
 coverCaption: ""
 ---
 
-**Les différences entre AWS, Azure et Google Cloud Platform en matière de sécurité informatique dématérialisée **.
+**Les différences entre AWS, Azure et Google Cloud Platform en matière de sécurité informatique dématérialisée**.
 
 ## Introduction
 
@@ -22,7 +23,7 @@ ______
 
 ### Gestion des identités et des accès (IAM)
 
-**L'IAM**AWS est un service qui vous permet de gérer l'accès aux services et ressources AWS en toute sécurité. Vous pouvez créer et gérer des utilisateurs, des groupes et des autorisations AWS afin d'autoriser ou de refuser l'accès aux ressources.
+**AWS IAM** est un service qui vous permet de gérer l'accès aux services et ressources AWS en toute sécurité. Vous pouvez créer et gérer des utilisateurs, des groupes et des autorisations AWS afin d'autoriser ou de refuser l'accès aux ressources.
 
 ### Amazon GuardDuty
 
@@ -74,7 +75,7 @@ ______
 
 ### Centre de commande de la sécurité de Google Cloud
 
-**Le Centre de commandement de la sécurité du cloud de Google aide les équipes de sécurité à prévenir, détecter et répondre aux menaces à partir d'un tableau de bord unique et unifié.
+**Le Centre de commandement de la sécurité du cloud de Google aide les équipes de sécurité à prévenir, détecter et répondre aux menaces à partir d'un tableau de bord unique et unifié.**
 
 ### Google Cloud Armor
 
@@ -106,9 +107,9 @@ ______
 
 ## Références
 
-1. [Amazon Web Services (AWS) - Security](https://aws.amazon.com/security/)
-2. [Microsoft Azure - Security and Compliance](https://azure.microsoft.com/en-us/overview/security/)
-3. [Google Cloud Platform - Security](https://cloud.google.com/security)
+1. [Amazon Web Services (AWS) - Sécurité](https://aws.amazon.com/security/)
+2. [Microsoft Azure - Sécurité et conformité](https://azure.microsoft.com/en-us/overview/security/)
+3. [Google Cloud Platform - Sécurité](https://cloud.google.com/security)
 4. [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)
 5. [Azure Active Directory (AD)](https://azure.microsoft.com/en-us/services/active-directory/)
 6. [Google Cloud Identity and Access Management (IAM)](https://cloud.google.com/iam)
