@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Evil-Twindetectie on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Evil-Twindetectie on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/evil-twindetectie/</link></image><link>https://nl.simeononsecurity.com/tags/evil-twindetectie/</link><description>Recent content in Evil-Twindetectie on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/evil-twindetectie/index.xml" rel="self" type="application/rss+xml"/><item><title>ESP32 WiFi Canary: passieve detectie van 2,4GHz-bedreigingen</title><link>https://nl.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Netwerkbeveiliging"
+, "WiFi-beveiliging"
+, "IoT-beveiliging"
+, "Beveiligingsonderzoek"
+, "Ingebedde systemen"
+, "Privacytools"
+, "ESP32-projecten"
+, "Hardwarebeveiliging"
+, "Draadloze beveiliging"
+, "Open-sourcebeveiliging"</category><guid>https://nl.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een technische bespreking van ESP32 WiFi Canary, een passieve 2,4GHz-sensor die evil twins, deauthenticatie, beveiligingsverlagingen en beacon-overstromingen detecteert.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>

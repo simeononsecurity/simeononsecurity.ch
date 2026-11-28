@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux-Beheer on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Linux-Beheer on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/linux-beheer/</link></image><link>https://nl.simeononsecurity.com/genre/linux-beheer/</link><description>Recent content in Linux-Beheer on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/linux-beheer/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9: gebruik van virtuele schijven beperken en ruimte terugwinnen</title><link>https://nl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Virtualisatie"
+, "Linux-beheer"
+, "Proxmox VE-platform"
+, "Opslag"
+, "Thuislab"</category><guid>https://nl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Beperk het opslaggebruik van VM's en LXC-containers in Proxmox VE 9. Vergelijk formaten en backends, schakel discard in, voer trim uit en controleer snapshots voordat je ruimte terugwint.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Docker in LXC op Proxmox: betrouwbaarheid, bewijs en VM-migratie</title><link>https://nl.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"Virtualisatie"
+, "Linux-beheer"
+, "thuislab"</category><guid>https://nl.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Beoordeel Docker binnen Proxmox LXC aan de hand van een gedocumenteerde AppArmor-fout, een zorgvuldige lezing van een melding over een vastlopende host, diagnosecommando’s en een migratieplan naar een VM.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>Handleiding voor de upgrade van Proxmox VE 8 naar 9</title><link>https://nl.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Virtualisatie"
+, "Linux-beheer"
+, "Proxmox"
+, "Serverbeheer"
+, "Opensourcesoftware"
+, "Thuislab"</category><guid>https://nl.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Upgrade Proxmox VE 8 naar 9 met controles vooraf, handmatige stappen, automatisering, ingrijpende wijzigingen en hersteladvies.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item></channel></rss>

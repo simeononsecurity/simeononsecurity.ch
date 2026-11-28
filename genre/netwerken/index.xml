@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Netwerken on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Netwerken on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/netwerken/</link></image><link>https://nl.simeononsecurity.com/genre/netwerken/</link><description>Recent content in Netwerken on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/netwerken/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale Aperture: AI-clients configureren voor inferentie en MCP in 2026</title><link>https://nl.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Ontwikkelaarstools"
+, "Netwerken"</category><guid>https://nl.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leid modelverzoeken en MCP-tools via Tailscale Aperture. Stel Codex, Claude Code, Claude Desktop, OpenCode en Hermes in op een ander apparaat of een andere gateway.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>Test DNS- en WebRTC-lekken in je browser met een VPN</title><link>https://nl.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Privacy"
+, "Browsers"
+, "Netwerken"</category><guid>https://nl.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Controleer het openbare IP-adres, de DNS-resolver en WebRTC-adressen van je browser voor en na het verbinden met een VPN. Interpreteer de resultaten en onderzoek routeringsproblemen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>VLAN-segmentatie voor een homelab plannen en testen</title><link>https://nl.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Netwerkbeveiliging"
+, "Netwerken"</category><guid>https://nl.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Maak een VLAN-plan om vertrouwde apparaten, servers, IoT en gasten in je homelab te scheiden. Leg toegestaan verkeer vast, configureer het netwerk stap voor stap en test de isolatie.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Meshtastic vs. MeshCore vs. Reticulum</title><link>https://nl.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "Meshnetwerken"
+, "Communicatie zonder infrastructuur"
+, "Noodcommunicatie"
+, "Amateurradio"
+, "Software met open broncode"
+, "Rampenvoorbereiding"
+, "Draadloze netwerken"
+, "Privacy"
+, "Netwerken"</category><guid>https://nl.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk Meshtastic, MeshCore en Reticulum op basis van routering, zendtijd, infrastructuur, transport en gebruik zonder internetverbinding.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Stroomvoorziening en omgevingsbestendigheid voor veldsystemen</title><link>https://nl.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Edge computing"
+, "IT in het veld"
+, "Stroomsystemen"
+, "Hardware"
+, "Rampenherstel"
+, "Robuuste computers"
+, "Netwerken"</category><guid>https://nl.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Plan stroomvoorziening en omgevingsbescherming voor edge-computing in het veld. Bereken UPS-capaciteit en behandel zonnepanelen, accu's, tijdsynchronisatie, behuizingsklassen, aarding en overspanningsbeveiliging.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>Veldinzetbare randcomputing: apparatuur en behuizing kiezen</title><link>https://nl.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Randcomputing"
+, "IT in het veld"
+, "Apparatuur"
+, "Thuislab"
+, "Robuuste computertechniek"
+, "Netwerken"
+, "Rampenherstel"
+, "IT voor kleine bedrijven"</category><guid>https://nl.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Gids voor edge-computing in het veld en de keuze van behuizingen, met aandacht voor compute, racks, koeling, opslag, beheer, bekabeling en stroomcompatibiliteit.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>Maximaliseer netwerken over lange afstanden met de beste bekabelingsoplossingen</title><link>https://nl.simeononsecurity.com/articles/networking-over-long-distances_-understanding-cabling-types/</link><pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate><category>
+"Netwerken"
+, "Communicatietechnologie"
+, "Databekabeling"
+, "Glasvezel"
+, "IT-infrastructuur"
+, "Ethernetnetwerken"
+, "Telecommunicatie"
+, "Draadloze netwerken"
+, "Zakelijke IT-oplossingen"
+, "Netwerkengineering"</category><guid>https://nl.simeononsecurity.com/articles/networking-over-long-distances_-understanding-cabling-types/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de beste netwerkkabels voor lange afstanden en verbeter uw communicatie. Deze gids helpt IT-professionals bij het kiezen van betrouwbare oplossingen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/networking-over-long-distances_-understanding-cabling-types.webp" length="59222" type="image/webp"/></item><item><title>De beste homelab-contentmakers</title><link>https://nl.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Netwerken"
+, "Doe-het-zelf"
+, "Virtualisatie"
+, "Homelabs"
+, "Technologieliefhebbers"
+, "Community"
+, "Leren"
+, "Innovatie"
+, "Handleidingen"</category><guid>https://nl.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer invloedrijke homelab-makers kennen, ontmoet andere enthousiastelingen en begin aan je technische ontdekkingstocht.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item><item><title>Toegangspunten plaatsen voor optimale wifi-dekking</title><link>https://nl.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Netwerken"
+, "Draadloze netwerken"
+, "Toegangspunten"
+, "Wifi-installatie"
+, "Netwerkoptimalisatie"
+, "Thuisnetwerken"
+, "Draadloze verbinding"
+, "Internet der dingen"
+, "Netwerkoplossingen"</category><guid>https://nl.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees hoe je toegangspunten het beste plaatst voor een betere draadloze verbinding, minder storing en betrouwbare netwerkprestaties.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp"/></item><item><title>Network Plus Cursus: Beheersing van Netwerksoftwaretools...</title><link>https://nl.simeononsecurity.com/network-plus/network-plus-course-network-software-tools-commands/</link><pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate><category>
+"Netwerken"
+, "Netwerktools"
+, "Commandoregelhulpmiddelen"
+, "Netwerktroubleshooting"
+, "CompTIA Network+ Certificering"
+, "Netwerkbeheer"
+, "Netwerkconfiguratie"
+, "WiFi-analyse"
+, "Pakketcaptatie"
+, "Bandbreedtetest"</category><guid>https://nl.simeononsecurity.com/network-plus/network-plus-course-network-software-tools-commands/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek essentiële netwerksoftwaretools en commandoregelhulpmiddelen, leer hun gebruik en los problemen op als een professional met deze uitgebreide Network+ Certificeringsexamen cursus.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_engaging_cartoon-style_illustration_showing_a_network_professional.webp" length="147920" type="image/webp"/></item><item><title>Netwerkbasis: wat is een IP-adres en wat zijn IPv4 en IPv6?</title><link>https://nl.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><category>
+"Netwerken"
+, "IP-adressen"
+, "Internetprotocollen"
+, "IPv4"
+, "IPv6"
+, "Netwerkcommunicatie"
+, "Internetverbinding"
+, "Technologie"
+, "Netwerkinfrastructuur"
+, "Internetbeveiliging"</category><guid>https://nl.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees wat IP-adressen zijn, hoe IPv4 en IPv6 verschillen en waarom de overstap naar IPv6 belangrijk is.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon_image_of_two_devices_with_speech_bub.webp" length="90028" type="image/webp"/></item><item><title>Netwerkbasics: switches, routers, firewalls en DMZ's</title><link>https://nl.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"Netwerken"
+, "IT-infrastructuur"
+, "Netwerkbeveiliging"
+, "Netwerkarchitectuur"
+, "Cyberveiligheid"
+, "Datacommunicatie"
+, "Informatietechnologie"
+, "IT-basiskennis"
+, "Netwerkbeheer"
+, "Internetverbinding"</category><guid>https://nl.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees hoe switches, routers, gateways, subnetten, firewalls en DMZ's netwerkverkeer verdelen en beveiligingsgrenzen afdwingen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item><item><title>Netwerk Plus Cursus: Verkennen van draadloze standaarden en technologieën</title><link>https://nl.simeononsecurity.com/network-plus/network-plus-course-wireless-standards-technologies/</link><pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Netwerken"
+, "Draadloze netwerken"
+, "Certificeringsexamen"
+, "CompTIA Netwerk+"
+, "IT-opleiding"
+, "IT-certificering"
+, "Draadloze standaarden"
+, "Draadloze technologieën"
+, "Informatie Technologie"</category><guid>https://nl.simeononsecurity.com/network-plus/network-plus-course-wireless-standards-technologies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de verschillende 802.11 standaarden, frequenties, bereik en encryptie in draadloze netwerken ter voorbereiding op het CompTIA Network+ certificeringsexamen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_different_wi.webp" length="171798" type="image/webp"/></item><item><title>Network+ Cursus: ARP en Neighbor Discovery Protocol</title><link>https://nl.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Netwerken"
+, "Protocollen"
+, "Network+ Certificering"
+, "Probleemoplossing"
+, "Netwerkbeveiliging"
+, "IPv4"
+, "IPv6"
+, "Netwerkcommunicatie"
+, "Adresresolutie"</category><guid>https://nl.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe je het Address Resolution Protocol (ARP) en Neighbor Discovery Protocol (NDP) effectief kunt gebruiken om IP-adressen naar MAC-adressen te vertalen, IPv6-netwerken te navigeren en veelvoorkomende problemen op te lossen voor geoptimaliseerde netwerkprestaties en beveiliging.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_the_seamless.webp" length="89092" type="image/webp"/></item><item><title>Netwerk Plus Cursus: Routing protocollen, concepten en optimalisatie</title><link>https://nl.simeononsecurity.com/network-plus/routing-technologies-concepts/</link><pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Netwerken"
+, "Routing"
+, "Netwerkprotocollen"
+, "Netwerkbeheer"
+, "Dynamisch routeren"
+, "Statisch routeren"
+, "Beheer bandbreedte"
+, "Kwaliteit van service"
+, "Netwerkapparaten"</category><guid>https://nl.simeononsecurity.com/network-plus/routing-technologies-concepts/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verken de wereld van routeringstechnologieën en -concepten, van dynamische routeringsprotocollen zoals RIP, OSPF, EIGRP en BGP tot link state, afstandsvector en hybride routeringsprotocollen, evenals de configuratie van statische routering en standaardroutes.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_illustration_of_interconnected_network_devi.webp" length="62296" type="image/webp"/></item><item><title>Cursus Netwerk Plus: Netwerkservices, verbindingsopties en architectuur verkennen</title><link>https://nl.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Netwerken"
+, "Connectiviteit"
+, "Uitwisseling van gegevens"
+, "Netwerkarchitectuur"
+, "Cloud computing"
+, "Netwerkdiensten"
+, "DNS"
+, "DHCP"
+, "NTP"</category><guid>https://nl.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de functionaliteiten van DHCP, DNS en NTP-services, begrijp de netwerkarchitectuur van bedrijven en datacenters en verken cloudconcepten en connectiviteitsopties voor naadloze communicatie en gegevensbeheer.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_various_networks.webp" length="250792" type="image/webp"/></item><item><title>Verbindingsgerichte en verbindingsloze communicatie</title><link>https://nl.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Netwerken"
+, "Communicatie"
+, "Protocollen"
+, "Informatica"
+, "Gegevensoverdracht"
+, "Netwerkinfrastructuur"
+, "Internet"
+, "Informatietechnologie"
+, "Telecommunicatie"</category><guid>https://nl.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees over de verschillen tussen verbindingsgerichte en verbindingsloze communicatie, met aandacht voor protocollen, diensten en routeringsmethoden.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_illustration_showing_two_devices_connected.webp" length="39168" type="image/webp"/></item><item><title>Netwerk Plus Cursus: Het OSI-model, topologieën en netwerktypes begrijpen</title><link>https://nl.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Netwerken"
+, "IT-infrastructuur"
+, "Netwerkarchitectuur"
+, "Informatica"
+, "Datacommunicatie"
+, "Informatie Technologie"
+, "Netwerkbeveiliging"
+, "Netwerkbeheer"
+, "Internet"</category><guid>https://nl.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek het belang van netwerkfundamenten, waaronder het OSI-model, netwerktopologieën en verschillende soorten netwerken, voor het bouwen van efficiënte en betrouwbare infrastructuren.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_nodes.webp" length="91778" type="image/webp"/></item></channel></rss>

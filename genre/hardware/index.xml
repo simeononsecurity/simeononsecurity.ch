@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hardware on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Hardware on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/hardware/</link></image><link>https://nl.simeononsecurity.com/genre/hardware/</link><description>Recent content in Hardware on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/hardware/index.xml" rel="self" type="application/rss+xml"/><item><title>Praktische veld-IT: verder dan het mini-datacenter</title><link>https://nl.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Veld-IT"
+, "Edge computing"
+, "IT-beheer"
+, "Disaster recovery"
+, "Hardware"
+, "Best practices"</category><guid>https://nl.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Praktische veld-IT-richtlijnen voor reserveonderdelen, documentatie, ESD, firmware, opstartmedia, licenties, fysieke beveiliging, reizen en verzekeringen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp"/></item><item><title>Stroomvoorziening en omgevingsbestendigheid voor veldsystemen</title><link>https://nl.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Edge computing"
+, "IT in het veld"
+, "Stroomsystemen"
+, "Hardware"
+, "Rampenherstel"
+, "Robuuste computers"
+, "Netwerken"</category><guid>https://nl.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Plan stroomvoorziening en omgevingsbescherming voor edge-computing in het veld. Bereken UPS-capaciteit en behandel zonnepanelen, accu's, tijdsynchronisatie, behuizingsklassen, aarding en overspanningsbeveiliging.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>Synology vergeleken met TerraMaster en QNAP</title><link>https://nl.simeononsecurity.com/articles/synology-terramaster-qnap-nas-comparison/</link><pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Netwerkopslag"
+, "NAS-vergelijking"
+, "Gegevensbeheer"
+, "Techniekrecensies"
+, "Netwerkoplossingen"
+, "Hardware"
+, "Gegevensbeveiliging"
+, "Opslagoplossingen"
+, "IT-infrastructuur"</category><guid>https://nl.simeononsecurity.com/articles/synology-terramaster-qnap-nas-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk Synology-, TerraMaster- en QNAP-NAS-systemen op functies, prestaties, software en gegevensbeveiliging.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/nas_comparison_race.webp" length="88326" type="image/webp"/></item><item><title>Nebra Helium Miner SD-kaart vervangen: Stap-voor-stap handleiding</title><link>https://nl.simeononsecurity.com/other/replacing-nebra-outdoor-indoor-miner-emmc-key/</link><pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Cryptocurrency"
+, "Hardware"
+, "Helium mijnbouw"
+, "Problemen oplossen"
+, "SD-kaart vervangen"
+, "Problemen met synchroniseren"
+, "Raspberry Pi"
+, "Balena Escher"
+, "Nebra Helium Miner"</category><guid>https://nl.simeononsecurity.com/other/replacing-nebra-outdoor-indoor-miner-emmc-key/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe je de Nebra Indoor en Outdoor, Eerste en Tweede generatie, EMMC Key SD-kaart vervangt of opnieuw flasht en hoe je Helium Miner synchronisatieproblemen oplost met deze handleiding.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_holding_a_Nebra_Helium_M.webp" length="96808" type="image/webp"/></item></channel></rss>

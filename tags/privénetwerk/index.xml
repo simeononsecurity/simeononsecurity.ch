@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privénetwerk on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Privénetwerk on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/priv%C3%A9netwerk/</link></image><link>https://nl.simeononsecurity.com/tags/priv%C3%A9netwerk/</link><description>Recent content in Privénetwerk on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/priv%C3%A9netwerk/index.xml" rel="self" type="application/rss+xml"/><item><title>Een privacyvriendelijke AI-assistent voor Meshtastic bouwen</title><link>https://nl.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Netwerkbeveiliging"
+, "Gegevensbescherming"
+, "Openbronsoftware"
+, "Automatisering"</category><guid>https://nl.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Praktijkervaring met een lokale AI-assistent voor Meshtastic, met privéconfiguratie, TCP-toegang via een wachtrij, ophaaltools en een veiliger dashboard.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Waarom port forwarding niet werkt bij T-Mobile Home Internet</title><link>https://nl.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Self-Hosted"
+, "Network Security"</category><guid>https://nl.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees meer over de beperkingen voor port forwarding bij T-Mobile 5G Home Internet, carrier NAT en praktische manieren om een homeserver te bereiken zonder openbare inkomende poort.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/t-mobile-home-internet-port-forwarding.webp" length="103506" type="image/webp"/></item><item><title>Tailscale versus Headscale</title><link>https://nl.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Netwerkbeveiliging"
+, "Zelfgehost"
+, "WireGuard"
+, "Zero Trust"
+, "Meshnetwerken"
+, "Openbronsoftware"
+, "Cloudinfrastructuur"
+, "Externe toegang"
+, "Netwerkbeheer"</category><guid>https://nl.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk Tailscale en Headscale op hostingmodel, identiteitsbeheer, functies, kosten, beheer en ondersteuning om een WireGuard-mesh-VPN te kiezen die bij je past.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item></channel></rss>

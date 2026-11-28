@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>simeononsecurity</title><link>https://nl.simeononsecurity.com/</link></image><link>https://nl.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Terugval van Home Assistant Core 2026.11 naar 2026.10.4: HTTP-opslagversie 3 herstellen</title><link>https://nl.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"Huisautomatisering"
+, "Probleemoplossing"</category><guid>https://nl.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Herstel de fout over HTTP-opslagversie 3 nadat Home Assistant Core 2026.11 op Yellow is teruggevallen naar 2026.10.4. Met beveiligde opdrachten en gecontroleerde uitvoer.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp" length="32856" type="image/webp"/></item><item><title>Zo kies je een ongecensureerd lokaal AI-model</title><link>https://nl.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Zelfgehoste AI"
+, "AI-veiligheid"
+, "GPU-apparatuur"</category><guid>https://nl.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk lokale modelvarianten op voltooide antwoorden, behouden mogelijkheden, contextgebruik, kwantisatie en passend VRAM-gebruik.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Voedingscompatibiliteit van de Octominer X12 Ultra: praktijktest van Chicony en LiteOn</title><link>https://nl.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><category>
+"Mininghardware"
+, "Computerhardware"</category><guid>https://nl.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een test met vijf ventilatoren en drie voedingen in een Octominer X12 Ultra liet zien dat een Chicony-voeding het systeem startte, terwijl geteste LiteOn-units amberkleurig licht toonden en niet startten.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp" length="34962" type="image/webp"/></item><item><title>Proxmox VE 9: gebruik van virtuele schijven beperken en ruimte terugwinnen</title><link>https://nl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Virtualisatie"
+, "Linux-beheer"
+, "Proxmox VE-platform"
+, "Opslag"
+, "Thuislab"</category><guid>https://nl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Beperk het opslaggebruik van VM's en LXC-containers in Proxmox VE 9. Vergelijk formaten en backends, schakel discard in, voer trim uit en controleer snapshots voordat je ruimte terugwint.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Tailscale Aperture: AI-clients configureren voor inferentie en MCP in 2026</title><link>https://nl.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Ontwikkelaarstools"
+, "Netwerken"</category><guid>https://nl.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leid modelverzoeken en MCP-tools via Tailscale Aperture. Stel Codex, Claude Code, Claude Desktop, OpenCode en Hermes in op een ander apparaat of een andere gateway.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp"/></item><item><title>Zelfgehoste Hindsight: lokaal agentgeheugen en privé modelroutering</title><link>https://nl.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Zelfgehoste AI"
+, "AI-agenten"
+, "AI-infrastructuur"
+, "Privacy"</category><guid>https://nl.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een casestudy van zelfgehoste Hindsight, waargenomen lokale Qwen-routes en GPU-werk per aanvraag zonder gehost inferentieabonnement op de onderzochte paden.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Chrome 156-beveiligingsupdate: controleer de patch van oktober</title><link>https://nl.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Browsers"
+, "Beveiliging"
+, "Patchbeheer"</category><guid>https://nl.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Controleer de Chrome 156-beveiligingsrelease van 27 oktober op Windows, macOS, Linux en Android. Vergelijk de geïnstalleerde build, voltooi een openstaande herstart en controleer beheerde apparaten afzonderlijk.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp"/></item><item><title>Open WebUI v0.12.4: checklist voor upgrades en toegangsbeheer 2026</title><link>https://nl.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Zelf gehoste AI"
+, "Cyberbeveiliging"
+, "Systeembeheer"</category><guid>https://nl.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Maak een back-up en upgrade Open WebUI naar v0.12.4. Test daarna chatdeling, exportrechten, resourcetoegang, accounts en netwerktoegang.</description></item><item><title>Thunderbird 153.6: Windows NTLM-gegevenslek en hoe je bijwerkt (2026)</title><link>https://nl.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "E-mailbeveiliging"
+, "Windows-beveiliging"</category><guid>https://nl.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Twee ernstige Thunderbird-kwetsbaarheden kunnen NTLM-authenticatiegegevens lekken wanneer je een speciaal gemaakte e-mail weergeeft. Lees hoe beide routes werken, controleer je versie en beperk uitgaand SMB-verkeer tijdens het bijwerken.</description></item><item><title>Bouw een homelab in 10 niveaus, van Pi-hole tot lokale AI</title><link>https://nl.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Zelf hosten"
+, "Lokale AI"
+, "Thuisnetwerken"</category><guid>https://nl.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bouw een homelab in tien praktische stappen, van netwerkbrede DNS-filtering tot lokale AI, met hardware, kosten, vaardigheden en afwegingen per niveau.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Hermes-modellen lokaal testen: welke GPU- en modelcombinaties ik zou kiezen</title><link>https://nl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Lokale AI"
+, "Hardwareonderdelen"</category><guid>https://nl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Mijn modeladviezen voor Hermes zijn gebaseerd op tests met lange context, tools, streaming en beeldherkenning op RTX 5060 Ti-, RTX 2000E Ada-, RTX 3060 Ti- en RTX 3070-systemen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>Binnen onze hybride AI-agentenvloot: Hermes, LiteLLM en Tailscale</title><link>https://nl.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Zelf gehoste AI"
+, "AI-agenten"
+, "AI-infrastructuur"
+, "GPU-mijnbouw"</category><guid>https://nl.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bekijk een geverifieerde lokale AI-vloot die modellen pas op verzoek laadt en het T0-tot-T4-besturingsvlak met Hermes, LiteLLM, Tailscale Aperture en Pearl-minen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>1Password SSH Agent en CLI: Alleen-lezen AI-agent-toegang</title><link>https://nl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Systeembeheer"
+, "Cloudbeveiliging"
+, "Automatisering"</category><guid>https://nl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontwerp een alleen-lezen SSH-workflow met 1Password CLI, de SSH Agent en MCP. Gebruik synthetische commando's, beperkte machtigingen en menselijke goedkeuring voordat u live test.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Bitbucket Cloud SSH-sleutels: alleen-lezen Git-toegang voor AI-agents</title><link>https://nl.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cloudbeveiliging"
+, "Ontwikkelaarstools"
+, "Systeembeheer"</category><guid>https://nl.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Stel Bitbucket Cloud SSH-sleutels, Git CLI-toegang, REST API-tokens, 1Password en MCP-tools in voor alleen-lezen workflows met AI-agents.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>Een Hyper-V-VM naar Proxmox VE migreren: een omkeerbare checklist</title><link>https://nl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualisatie"
+, "Systeembeheer"
+, "Thuislab"</category><guid>https://nl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verplaats een Hyper-V-VM naar Proxmox VE met een export terwijl de bron uitstaat, passende firmware, geïmporteerde schijven, een geïsoleerde opstarttest en een terugdraaiplan.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>Gast- en IoT-isolatie op een mesh-wifi-netwerk testen</title><link>https://nl.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Thuisnetwerken"
+, "Wifi-beveiliging"
+, "Slimme woningen"</category><guid>https://nl.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Controleer of de gast- en IoT-netwerken van je mesh-wifi toegang tot je thuisapparaten blokkeren. Test elk netwerk met een werkende dienst en leg de grenzen vast.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp" length="102600" type="image/webp"/></item><item><title>Proxmox VM-hersteltest: bewijs dat de gastmachine werkt</title><link>https://nl.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualisatie"
+, "Back-up en herstel"
+, "Homelab"</category><guid>https://nl.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Test een Proxmox VM-back-up met een geïsoleerd herstel. Controleer schijfdekking, back-upmodus, gastgegevens, servicestatus en hersteltijd zonder productie aan te raken.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>Test DNS- en WebRTC-lekken in je browser met een VPN</title><link>https://nl.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Privacy"
+, "Browsers"
+, "Netwerken"</category><guid>https://nl.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Controleer het openbare IP-adres, de DNS-resolver en WebRTC-adressen van je browser voor en na het verbinden met een VPN. Interpreteer de resultaten en onderzoek routeringsproblemen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>Waarom DNS-filtering wordt omzeild: test het resolverpad</title><link>https://nl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Thuisnetwerken"
+, "DNS"
+, "Privacy"</category><guid>https://nl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Achterhaal waarom een apparaat of browser je DNS-filter overslaat. Vergelijk directe en normale queries, controleer logs en bekijk versleutelde DNS, VPN, IPv6 en routerinstellingen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>2x RTX 5060 Ti versus GB10: lokale AI-benchmark met vijf modellen bij 256K context</title><link>https://nl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Lokale AI"
+, "GPU-hardware"
+, "Benchmarking"
+, "Computerhardware"</category><guid>https://nl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijking van vijf modellen op RTX 5060 Ti en GB10, plus een benchmark op dezelfde host van Qwen3.8 Flash-Next Strata tot 256K context.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>AGENTS.md en CLAUDE.md schrijven voor codeeragenten</title><link>https://nl.simeononsecurity.com/articles/effective-ai-agents-md-context/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Softwareontwikkeling"</category><guid>https://nl.simeononsecurity.com/articles/effective-ai-agents-md-context/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Maak een korte repositorykaart met de gezaghebbende bron en testopdracht, zodat codeeragenten met de juiste context beginnen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/effective-ai-agents-md-context.webp" length="124018" type="image/webp"/></item><item><title>AI effectief gebruiken: een betrouwbare werkwijze voor beginners</title><link>https://nl.simeononsecurity.com/articles/effective-ai-workflow-foundations/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Productiviteit"
+, "Softwareontwikkeling"</category><guid>https://nl.simeononsecurity.com/articles/effective-ai-workflow-foundations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer een herhaalbare AI-werkwijze: bepaal de taak, geef relevante context, bekijk het bewijs en controleer het resultaat voordat je het gebruikt.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/effective-ai-workflow-foundations.webp" length="98694" type="image/webp"/></item><item><title>AI-agenten delegeren: taken verdelen en resultaten beoordelen</title><link>https://nl.simeononsecurity.com/articles/effective-ai-agent-delegation/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Software-engineering"</category><guid>https://nl.simeononsecurity.com/articles/effective-ai-agent-delegation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bepaal wanneer een tweede AI-agent helpt, geef elke werker een afgebakende taak, voorkom bewerkingsconflicten en voeg bewijs samen in de hoofdsessie.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/effective-ai-agent-delegation.webp" length="133510" type="image/webp"/></item><item><title>AI-contextvenster beheren: houd codeeragents gefocust</title><link>https://nl.simeononsecurity.com/articles/effective-ai-context-window-management/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Software-engineering"</category><guid>https://nl.simeononsecurity.com/articles/effective-ai-context-window-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Beheer de actieve context van een AI-taak met geselecteerde bestanden, compacte overdrachten en korte workeruitvoer, met behoud van besluiten en bewijs.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/effective-ai-context-window-management.webp" length="78984" type="image/webp"/></item><item><title>AI-taakpakketten: betere prompts en acceptatiecriteria</title><link>https://nl.simeononsecurity.com/articles/effective-ai-task-packets/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Productiviteit"
+, "Software-engineering"</category><guid>https://nl.simeononsecurity.com/articles/effective-ai-task-packets/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Zet vage AI-verzoeken om in taakpakketten met een vast resultaat, bron, bestandsbereik, controles en stopvoorwaarde.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/effective-ai-task-packets.webp" length="93042" type="image/webp"/></item></channel></rss>

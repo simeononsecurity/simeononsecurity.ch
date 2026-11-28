@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>E-Mailbeveiliging on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>E-Mailbeveiliging on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/e-mailbeveiliging/</link></image><link>https://nl.simeononsecurity.com/genre/e-mailbeveiliging/</link><description>Recent content in E-Mailbeveiliging on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/e-mailbeveiliging/index.xml" rel="self" type="application/rss+xml"/><item><title>Thunderbird 153.6: Windows NTLM-gegevenslek en hoe je bijwerkt (2026)</title><link>https://nl.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "E-mailbeveiliging"
+, "Windows-beveiliging"</category><guid>https://nl.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Twee ernstige Thunderbird-kwetsbaarheden kunnen NTLM-authenticatiegegevens lekken wanneer je een speciaal gemaakte e-mail weergeeft. Lees hoe beide routes werken, controleer je versie en beperk uitgaand SMB-verkeer tijdens het bijwerken.</description></item><item><title>E-mailetiquette beheersen</title><link>https://nl.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</link><pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate><category>
+"Professionele communicatie"
+, "E-mailbeveiliging"
+, "Zakelijke etiquette"
+, "Technologische vaardigheden"
+, "Efficiënt werken"
+, "Beste practices voor cyberbeveiliging"
+, "Digitale geletterdheid"
+, "Onlinecommunicatie"
+, "Netwerkbeveiliging"
+, "Effectief schrijven"</category><guid>https://nl.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verbeter veilige, professionele e-mailuitwisselingen met deze tips voor e-mailetiquette.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/email-etiquette_-ensuring-smooth-and-secure-email-operations.webp" length="84144" type="image/webp"/></item><item><title>Bescherming tegen phishing voor kleine bedrijven: complete gids</title><link>https://nl.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Bescherming van kleine bedrijven"
+, "Phishingfraude"
+, "Medewerkerstraining"
+, "E-mailbeveiliging"
+, "Multifactorauthenticatie"
+, "Beveiligingsaudits"
+, "Social-engineeringtactieken"
+, "Digitale bedreigingen"
+, "Online beveiliging"</category><guid>https://nl.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bescherm een klein bedrijf tegen phishing met personeelstraining, e-mailbeveiliging, verificatieprocedures, meldstappen en een geteste incidentrespons.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/how-to-protect-your-small-business-from-phishing-scams.webp" length="88634" type="image/webp"/></item></channel></rss>

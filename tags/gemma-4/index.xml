@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gemma 4 on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Gemma 4 on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/gemma-4/</link></image><link>https://nl.simeononsecurity.com/tags/gemma-4/</link><description>Recent content in Gemma 4 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/gemma-4/index.xml" rel="self" type="application/rss+xml"/><item><title>Zo kies je een ongecensureerd lokaal AI-model</title><link>https://nl.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Zelfgehoste AI"
+, "AI-veiligheid"
+, "GPU-apparatuur"</category><guid>https://nl.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk lokale modelvarianten op voltooide antwoorden, behouden mogelijkheden, contextgebruik, kwantisatie en passend VRAM-gebruik.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Binnen onze hybride AI-agentenvloot: Hermes, LiteLLM en Tailscale</title><link>https://nl.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Zelf gehoste AI"
+, "AI-agenten"
+, "AI-infrastructuur"
+, "GPU-mijnbouw"</category><guid>https://nl.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bekijk een geverifieerde lokale AI-vloot die modellen pas op verzoek laadt en het T0-tot-T4-besturingsvlak met Hermes, LiteLLM, Tailscale Aperture en Pearl-minen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item></channel></rss>

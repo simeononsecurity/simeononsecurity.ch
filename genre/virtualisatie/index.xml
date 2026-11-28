@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Virtualisatie on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Virtualisatie on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/virtualisatie/</link></image><link>https://nl.simeononsecurity.com/genre/virtualisatie/</link><description>Recent content in Virtualisatie on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/virtualisatie/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9: gebruik van virtuele schijven beperken en ruimte terugwinnen</title><link>https://nl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Virtualisatie"
+, "Linux-beheer"
+, "Proxmox VE-platform"
+, "Opslag"
+, "Thuislab"</category><guid>https://nl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Beperk het opslaggebruik van VM's en LXC-containers in Proxmox VE 9. Vergelijk formaten en backends, schakel discard in, voer trim uit en controleer snapshots voordat je ruimte terugwint.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Een Hyper-V-VM naar Proxmox VE migreren: een omkeerbare checklist</title><link>https://nl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualisatie"
+, "Systeembeheer"
+, "Thuislab"</category><guid>https://nl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verplaats een Hyper-V-VM naar Proxmox VE met een export terwijl de bron uitstaat, passende firmware, geïmporteerde schijven, een geïsoleerde opstarttest en een terugdraaiplan.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>Proxmox VM-hersteltest: bewijs dat de gastmachine werkt</title><link>https://nl.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualisatie"
+, "Back-up en herstel"
+, "Homelab"</category><guid>https://nl.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Test een Proxmox VM-back-up met een geïsoleerd herstel. Controleer schijfdekking, back-upmodus, gastgegevens, servicestatus en hersteltijd zonder productie aan te raken.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>Containers zijn geen beveiligingsgrens meer: kernel-escapes in 2026</title><link>https://nl.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"Containerbeveiliging"
+, "Linux"
+, "Kernelbeveiliging"
+, "Virtualisatie"
+, "Cloudbeveiliging"
+, "Dreigingsonderzoek"
+, "Blue team"
+, "DevSecOps"</category><guid>https://nl.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bekijk het container-escape-onderzoek uit 2026, de grenzen van kernelisolatie, de patchdruk en de rol van microVM's.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>Docker in LXC op Proxmox: betrouwbaarheid, bewijs en VM-migratie</title><link>https://nl.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"Virtualisatie"
+, "Linux-beheer"
+, "thuislab"</category><guid>https://nl.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Beoordeel Docker binnen Proxmox LXC aan de hand van een gedocumenteerde AppArmor-fout, een zorgvuldige lezing van een melding over een vastlopende host, diagnosecommando’s en een migratieplan naar een VM.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>Handleiding voor de upgrade van Proxmox VE 8 naar 9</title><link>https://nl.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Virtualisatie"
+, "Linux-beheer"
+, "Proxmox"
+, "Serverbeheer"
+, "Opensourcesoftware"
+, "Thuislab"</category><guid>https://nl.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Upgrade Proxmox VE 8 naar 9 met controles vooraf, handmatige stappen, automatisering, ingrijpende wijzigingen en hersteladvies.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item><item><title>VMware vs Hyper-V vs Proxmox: Virtualisatie Vergelijken</title><link>https://nl.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link><pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Virtualisatie"
+, "IT-Infrastructuur"
+, "Servervirtualisatie"
+, "Enterprise Software"
+, "Cloud Computing"
+, "Datacenteroplossingen"
+, "Open Source Virtualisatie"
+, "Beheer van Virtuele Machines"
+, "Virtualisatievergelijking"</category><guid>https://nl.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de moeiteloze vergelijking van VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE en XCP-NG en kies uw ideale virtualisatieoplossing voor zakelijk succes.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp"/></item><item><title>De beste homelab-contentmakers</title><link>https://nl.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Netwerken"
+, "Doe-het-zelf"
+, "Virtualisatie"
+, "Homelabs"
+, "Technologieliefhebbers"
+, "Community"
+, "Leren"
+, "Innovatie"
+, "Handleidingen"</category><guid>https://nl.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer invloedrijke homelab-makers kennen, ontmoet andere enthousiastelingen en begin aan je technische ontdekkingstocht.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item><item><title>Windows 11-installatie automatiseren: TPM, Secure Boot en RAM-controles omzeilen</title><link>https://nl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Windows 11"
+, "Installatie"
+, "Virtualisatie"
+, "Automatisering"
+, "Registersleutels"
+, "TPM omleiding"
+, "Beveiligd opstarten omzeilen"
+, "RAM omleiding"
+, "vTPM"</category><guid>https://nl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Stroomlijn de installatie van Windows 11 in gevirtualiseerde omgevingen door TPM, Secure Boot en RAM-controles te omzeilen met autounattend.xml en vTPM.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/windows11-installation-cartoon.webp" length="56442" type="image/webp"/></item><item><title>Verbeter de beveiliging van virtuele machines met vTPM: Stap-voor-stap handleiding</title><link>https://nl.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Virtualisatie"
+, "VMware"
+, "vSphere"
+, "Beveiliging"
+, "Vertrouwde platformmodule"
+, "vTPM"
+, "Gast OS"
+, "Encryptie"
+, "Platform Attest"</category><guid>https://nl.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verbeter de beveiliging van virtuele machines met behulp van vTPM met onze uitgebreide stap-voor-stap handleiding, die ondersteuning biedt voor platform-attestatie en BitLocker-encryptie.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/enhanced-vm-security.webp" length="99734" type="image/webp"/></item><item><title>VMware-beveiliging beheersen</title><link>https://nl.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Virtualisatie"
+, "IT-infrastructuur"
+, "Automatisering"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "Compliance"
+, "Scripting"
+, "Datacenter"</category><guid>https://nl.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer in deze uitgebreide gids hoe je met PowerCLI VMware-STIG’s toepast en je VMware-omgeving beveiligt.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>PowerCLI beheersen voor vSphere-beheer</title><link>https://nl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Virtualisatie"
+, "VMware"
+, "IT-beheer"
+, "Automatisering"
+, "Opdrachtregelinterface"
+, "Scripting"
+, "Systeembeheer"
+, "Cloudcomputing"
+, "Datacenterbeheer"</category><guid>https://nl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer VMware vSphere beheren met PowerCLI, taken automatiseren en productiever werken.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item></channel></rss>

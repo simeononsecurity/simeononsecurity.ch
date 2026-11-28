@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hardwarebeveiliging on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>Hardwarebeveiliging on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/hardwarebeveiliging/</link></image><link>https://nl.simeononsecurity.com/genre/hardwarebeveiliging/</link><description>Recent content in Hardwarebeveiliging on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sat, 12 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/hardwarebeveiliging/index.xml" rel="self" type="application/rss+xml"/><item><title>SenseCAP M1 Raspberry Pi Shield: pinout en hergebruik voor LoRaWAN</title><link>https://nl.simeononsecurity.com/articles/sensecap-m1-raspberry-pi-shield/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "IoT"
+, "Hardwarebeveiliging"</category><guid>https://nl.simeononsecurity.com/articles/sensecap-m1-raspberry-pi-shield/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bekijk de SenseCAP M1-shield, vergelijk tegenstrijdige GPIO-schema's, inspecteer de ATECC608 en plan met modern Raspberry Pi OS een LoRaWAN-gateway.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/sensecap-wm1302-shield-hardware.webp" length="563558" type="image/webp"/></item><item><title>Eye Spy: passieve bewakings- en trackerdetectie met ESP32</title><link>https://nl.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"Privacyhulpmiddelen"
+, "Tegenbewaking"
+, "IoT-beveiliging"
+, "Ingebedde systemen"
+, "Beveiligingsonderzoek"
+, "WiFi-beveiliging"
+, "Bluetooth-beveiliging"
+, "ESP32-projecten"
+, "Hardwarebeveiliging"
+, "Open-sourcebeveiliging"</category><guid>https://nl.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Technische referentie voor Eye Spy v1.1, een passieve ESP32-detector voor BLE en WiFi die camera's, trackers, drones en verwante signalen opspoort.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>ESP32 WiFi Canary: passieve detectie van 2,4GHz-bedreigingen</title><link>https://nl.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Netwerkbeveiliging"
+, "WiFi-beveiliging"
+, "IoT-beveiliging"
+, "Beveiligingsonderzoek"
+, "Ingebedde systemen"
+, "Privacytools"
+, "ESP32-projecten"
+, "Hardwarebeveiliging"
+, "Draadloze beveiliging"
+, "Open-sourcebeveiliging"</category><guid>https://nl.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een technische bespreking van ESP32 WiFi Canary, een passieve 2,4GHz-sensor die evil twins, deauthenticatie, beveiligingsverlagingen en beacon-overstromingen detecteert.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>

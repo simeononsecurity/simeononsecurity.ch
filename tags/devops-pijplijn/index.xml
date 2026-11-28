@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevOps-Pijplijn on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>DevOps-Pijplijn on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/devops-pijplijn/</link></image><link>https://nl.simeononsecurity.com/tags/devops-pijplijn/</link><description>Recent content in DevOps-Pijplijn on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/devops-pijplijn/index.xml" rel="self" type="application/rss+xml"/><item><title>Een veilige DevOps-pijplijn bouwen en onderhouden: Beste praktijken en casestudies</title><link>https://nl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "beveiliging"
+, "DevOps-pijplijn"
+, "continue integratie"
+, "continue levering"
+, "automatisering"
+, "containerisatie"
+, "veilig programmeren"
+, "scannen op kwetsbaarheden"
+, "bewaking"
+, "terugkoppeling"
+, "versiebeheer"
+, "toegangscontrole"
+, "noodherstel"
+, "bedrijfscontinuïteit"
+, "casestudy"
+, "Spring"
+, "Django"
+, "OWASP"
+, "Netflix"
+, "Capital One"</category><guid>https://nl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer in deze uitgebreide gids hoe u een veilige DevOps-pijplijn kunt bouwen en onderhouden aan de hand van best practices en voorbeelden uit de praktijk.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/building-and-maintaining-a-secure-devops-pipeline.webp" length="212424" type="image/webp"/></item></channel></rss>

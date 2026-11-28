@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNS Over HTTPS on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>DNS Over HTTPS on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/dns-over-https/</link></image><link>https://nl.simeononsecurity.com/tags/dns-over-https/</link><description>Recent content in DNS Over HTTPS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/dns-over-https/index.xml" rel="self" type="application/rss+xml"/><item><title>Test DNS- en WebRTC-lekken in je browser met een VPN</title><link>https://nl.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Privacy"
+, "Browsers"
+, "Netwerken"</category><guid>https://nl.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Controleer het openbare IP-adres, de DNS-resolver en WebRTC-adressen van je browser voor en na het verbinden met een VPN. Interpreteer de resultaten en onderzoek routeringsproblemen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>Waarom DNS-filtering wordt omzeild: test het resolverpad</title><link>https://nl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Thuisnetwerken"
+, "DNS"
+, "Privacy"</category><guid>https://nl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Achterhaal waarom een apparaat of browser je DNS-filter overslaat. Vergelijk directe en normale queries, controleer logs en bekijk versleutelde DNS, VPN, IPv6 en routerinstellingen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>NextDNS: DNS-filtering en blokkering voor online beveiliging</title><link>https://nl.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</link><pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "DNS-filtering"
+, "Internetbeveiliging"
+, "Cloudservice"
+, "Online bescherming"
+, "Webfiltering"
+, "Privacybescherming"
+, "Alternatief voor DNS-blokkering"
+, "Netwerkbeveiliging"
+, "Internetveiligheid"</category><guid>https://nl.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek NextDNS, een gebruiksvriendelijke DNS-blokkeringsdienst die online beveiliging verbetert met automatische vernieuwingen en aanpasbaar filterbeleid.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/nextdns_cybersecurity_shield.webp" length="98890" type="image/webp"/></item></channel></rss>
