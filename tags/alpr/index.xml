@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ALPR on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>ALPR on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/alpr/</link></image><link>https://fr.simeononsecurity.com/tags/alpr/</link><description>Recent content in ALPR on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/alpr/index.xml" rel="self" type="application/rss+xml"/><item><title>Nous avons cartographié 146 526 « caméras Flock ». 50 278 étaient des systèmes ClickShare</title><link>https://fr.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link><pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate><category>
+"Recherche en sécurité"
+, "Technologies de confidentialité"
+, "Projets open source"
+, "Journalisme de données"
+, "Contre-surveillance"</category><guid>https://fr.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+L’audit de Flock Finder révèle ClickShare et d’autres faux positifs, explique les preuves et documente les corrections.</description></item><item><title>Le discours commercial de Flock Safety : accès sans mandat à chaque déplacement</title><link>https://fr.simeononsecurity.com/articles/flock-safety-sales-pitch-warrantless-access-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Technologie de la confidentialité"
+, "Droits numériques"
+, "Surveillance"
+, "Analyse juridique"
+, "Contre-surveillance"</category><guid>https://fr.simeononsecurity.com/articles/flock-safety-sales-pitch-warrantless-access-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Examinez le discours commercial de Flock Safety, l’accès aux données de déplacement et les questions constitutionnelles soulevées par les fouilles sans mandat.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/flock-safety-warrantless-access-surveillance-database.webp" length="440804" type="image/webp"/></item><item><title>Course à la détection des caméras Flock : les changements de 2026</title><link>https://fr.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"Technologies de confidentialité"
+, "Contre-surveillance"
+, "Projets open source"
+, "Droits numériques"
+, "Sécurité réseau"
+, "Recherche en sécurité"
+, "Modification de matériel"
+, "Outils de confidentialité"</category><guid>https://fr.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Passe en revue les changements signalés dans la détection de Flock Safety, les réponses de la communauté et les méthodes infrarouges pour repérer les caméras.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>Caméras Flock : Outil de Sécurité Publique ou Machine de Surveillance sans Mandat ?</title><link>https://fr.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"Vie Privée"
+, "Surveillance"
+, "Libertés Civiles"
+, "Technologie des Forces de l'Ordre"
+, "Droits Numériques"</category><guid>https://fr.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Une analyse indépendante des caméras ALPR de Flock Safety : comment elles fonctionnent réellement, quelles données elles collectent au-delà des plaques d'immatriculation, comment le partage de données crée une base de données nationale fantôme, et pourquoi la question du mandat est le véritable enjeu.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/flock-safety-cameras-public-safety-surveillance.webp" length="257030" type="image/webp"/></item><item><title>Flock Finder : Carte des caméras ALPR Flock Safety</title><link>https://fr.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Technologie de confidentialité"
+, "Contre-surveillance"
+, "Projets open-source"
+, "Droits numériques"
+, "Sécurité des réseaux"
+, "Outils de confidentialité"
+, "Piratage matériel"
+, "Recherche en sécurité"</category><guid>https://fr.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder est un outil open-source qui cartographie plus de 40 000 caméras Flock Safety ALPR dans le monde entier en utilisant les données WiFi de WiGLE et l'empreinte OUI. Découvrez comment il fonctionne, ses limites et les outils matériels pour la détection en temps réel.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ia Locale on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Ia Locale on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/ia-locale/</link></image><link>https://fr.simeononsecurity.com/tags/ia-locale/</link><description>Recent content in Ia Locale on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/ia-locale/index.xml" rel="self" type="application/rss+xml"/><item><title>Hindsight auto-hébergé : mémoire locale pour agents et routage privé des modèles</title><link>https://fr.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "IA auto-hébergée"
+, "Agents IA"
+, "Infrastructure IA"
+, "Vie privée"</category><guid>https://fr.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Étude de cas sur Hindsight auto-hébergé, les routes Qwen locales observées et le travail GPU par requête sans abonnement à un modèle hébergé sur les routes inspectées.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Construire un homelab en 10 niveaux, de Pi-hole à l’IA locale</title><link>https://fr.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Auto-hébergement"
+, "IA locale"
+, "Réseaux domestiques"</category><guid>https://fr.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Construisez un homelab en dix étapes pratiques, du filtrage DNS sur tout le réseau à l’IA locale, avec le matériel, les coûts, les compétences et les compromis de chaque niveau.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>16 Go de VRAM suffisent-ils pour un travail LLM local sérieux ?</title><link>https://fr.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Matériel informatique"
+, "IA auto-hébergée"</category><guid>https://fr.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dimensionnez une configuration LLM locale de 16 Go autour des poids du modèle, du cache KV et du traitement des prompts. Comparez les budgets mémoire, la bande passante GPU et les coûts de possession de Qwen3.8 27B.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>OpenCode contre Claude Code : comparaison des agents de codage en 2026</title><link>https://fr.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Outils pour développeurs"
+, "Intelligence artificielle"
+, "Open source"</category><guid>https://fr.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez OpenCode et Claude Code pour le choix des modèles, l'inférence locale, les prix, les permissions, les instructions de projet et les flux de travail de développement quotidiens.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>32 Go de VRAM pour Qwen 27B : guide du matériel IA local pour octobre 2026</title><link>https://fr.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Matériel IA"
+, "Benchmarks GPU"
+, "IA auto-hébergée"
+, "Matériel informatique"
+, "Économie de l'IA"</category><guid>https://fr.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guide pratique d'octobre 2026 pour exécuter un modèle Qwen 27B avec 32 Go de mémoire d'accélérateur utilisable. Comparez les GPU uniques, les configurations à deux cartes, la mémoire unifiée, les cartes de centre de données d'occasion, le calcul loué, le support logiciel et les limites du contexte complet.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Le DGX Spark de 64 Go est un signal d'alerte pour les prix du matériel d'IA locale</title><link>https://fr.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Matériel d'IA"
+, "Semi-conducteurs"
+, "Matériel informatique"
+, "Économie de l'IA"
+, "IA auto-hébergée"</category><guid>https://fr.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Le niveau DGX Spark de 64 Go de NVIDIA montre comment la pression sur l'approvisionnement en mémoire façonne le matériel d'IA locale. Ce guide explique la réduction de capacité, les compromis de la mémoire unifiée et pourquoi un répit sur la DRAM reste improbable avant la fin de 2027.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>IA locale en 2026 : un modèle 27B dépasse Sonnet 4.6 alors que la fenêtre matérielle se referme</title><link>https://fr.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "IA auto-hébergée"
+, "Modèles à poids ouverts"
+, "Matériel IA"
+, "Apprentissage automatique"
+, "Quantification"
+, "Laboratoire à domicile"
+, "Confidentialité"
+, "Économie de l’IA"
+, "Matériel grand public"</category><guid>https://fr.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planifiez une configuration d’IA locale pour 2026 selon la taille du modèle, la VRAM, la bande passante mémoire, la puissance, le coût et les possibilités d’évolution.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Quels modèles d’IA fonctionnent sur un Raspberry Pi 4 ou 5 ?</title><link>https://fr.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "Intelligence artificielle"
+, "Auto-hébergement"</category><guid>https://fr.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Choisissez un modèle de langage local selon la mémoire, la vitesse et l’usage à partir de mesures sur Raspberry Pi 4 et 5, des petits modèles LFM2.5 aux options 3B et plus.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item><item><title>Créer un assistant IA respectueux de la vie privée pour Meshtastic</title><link>https://fr.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Sécurité réseau"
+, "Vie privée"
+, "Logiciel à code source ouvert"
+, "Automatisation"</category><guid>https://fr.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Retour pratique sur un assistant IA local pour Meshtastic, avec configuration privée, accès TCP en file d'attente, outils de récupération et tableau de bord plus sûr.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item></channel></rss>

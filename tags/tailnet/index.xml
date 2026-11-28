@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tailnet on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Tailnet on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/tailnet/</link></image><link>https://fr.simeononsecurity.com/tags/tailnet/</link><description>Recent content in Tailnet on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/tailnet/index.xml" rel="self" type="application/rss+xml"/><item><title>Pourquoi Tailscale utilise un relais : connexions directes, DERP et relais pair à pair</title><link>https://fr.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Network Security"
+, "Self-Hosted"</category><guid>https://fr.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez pourquoi Tailscale utilise un relais, comment lire les sorties de status et netcheck, et quand examiner une connexion DERP ou par relais pair à pair.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/why-tailscale-uses-a-relay.webp" length="103974" type="image/webp"/></item><item><title>Tailscale ou Headscale ?</title><link>https://fr.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Sécurité réseau"
+, "Auto-hébergement"
+, "WireGuard"
+, "Confiance zéro"
+, "Réseaux maillés"
+, "Logiciel libre"
+, "Infrastructure cloud"
+, "Accès à distance"
+, "Gestion réseau"</category><guid>https://fr.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez Tailscale et Headscale selon leur mode d’hébergement, leur gestion des identités, leurs fonctionnalités, leurs coûts, leur exploitation et leur assistance pour choisir un VPN maillé WireGuard adapté à vos besoins.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item></channel></rss>

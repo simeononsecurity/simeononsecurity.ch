@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scripts on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Scripts on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/scripts/</link></image><link>https://fr.simeononsecurity.com/tags/scripts/</link><description>Recent content in Scripts on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/scripts/index.xml" rel="self" type="application/rss+xml"/><item><title>Maîtriser la sécurité VMware</title><link>https://fr.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Virtualisation"
+, "Infrastructure informatique"
+, "Automatisation"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "Conformité"
+, "Scripting"
+, "Centre de données"</category><guid>https://fr.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apprenez à utiliser PowerCLI pour appliquer les STIG VMware et sécuriser votre environnement VMware dans ce guide complet.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>Commandes PowerShell de Windows Defender pour la sécurité du système</title><link>https://fr.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows Defender"
+, "Commandes PowerShell"
+, "sécurité du système"
+, "contrôle de la ligne de commande"
+, "antivirus"
+, "Systèmes d'exploitation Windows"
+, "protection contre les logiciels malveillants"
+, "paramètres de sécurité avancés"
+, "automatiser les opérations de sécurité"
+, "Windows PowerShell"</category><guid>https://fr.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez la puissance des commandes PowerShell de Windows Defender et apprenez à renforcer la sécurité de votre système grâce au contrôle de la ligne de commande.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.webp" length="86638" type="image/webp"/></item><item><title>PowerShell pour la cybersécurité : automatisation et défense</title><link>https://fr.simeononsecurity.com/articles/powershell-for-cybersecurity/</link><pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "Cybersécurité"
+, "Opérations"
+, "Conformité"
+, "Automatisation"
+, "Exigences de la STIG SRG"
+, "Guide NSACyber"
+, "Systèmes Windows"
+, "Défense de l'équipe bleue"
+, "Scripts"
+, "Outils"
+, "Projets C Sharp"</category><guid>https://fr.simeononsecurity.com/articles/powershell-for-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez la puissance de PowerShell pour améliorer les opérations de cybersécurité et assurer la conformité aux normes industrielles grâce à l'automatisation et à la rationalisation des processus.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp" length="203438" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Administration Système on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Administration Système on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/administration-syst%C3%A8me/</link></image><link>https://fr.simeononsecurity.com/genre/administration-syst%C3%A8me/</link><description>Recent content in Administration Système on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/administration-syst%C3%A8me/index.xml" rel="self" type="application/rss+xml"/><item><title>Open WebUI v0.12.4 : checklist de mise à niveau et de contrôle d’accès 2026</title><link>https://fr.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA auto-hébergée"
+, "Cybersécurité"
+, "Administration système"</category><guid>https://fr.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Sauvegardez et mettez à niveau Open WebUI vers v0.12.4, puis testez le partage des chats, les autorisations d’exportation, les accès aux ressources, les comptes et l’accès réseau.</description></item><item><title>1Password SSH Agent and CLI: Accès en lecture seule pour les agents IA</title><link>https://fr.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Administration système"
+, "Sécurité cloud"
+, "Automatisation"</category><guid>https://fr.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Concevez un flux de travail SSH en lecture seule avec 1Password CLI, l'agent SSH et MCP. Utilisez des commandes synthétiques, des permissions restreintes et une approbation humaine avant les tests en direct.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Clés SSH Bitbucket Cloud : accès Git en lecture seule pour les agents IA</title><link>https://fr.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Sécurité cloud"
+, "Outils de développement"
+, "Administration système"</category><guid>https://fr.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Configurez les clés SSH Bitbucket Cloud, l’accès Git CLI, les jetons REST API, 1Password et les outils MCP pour des workflows d’agents IA en lecture seule.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>Migrer une VM Hyper-V vers Proxmox VE : liste de contrôle réversible</title><link>https://fr.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualisation"
+, "Administration système"
+, "Laboratoire à domicile"</category><guid>https://fr.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Migrez une machine virtuelle Hyper-V vers Proxmox VE avec une exportation source arrêtée, un firmware adapté, l’importation des disques, un démarrage de test isolé et un plan de retour arrière.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>Créer un inventaire Active Directory en lecture seule avec PowerShell</title><link>https://fr.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Active Directory"
+, "PowerShell"
+, "Administration système"</category><guid>https://fr.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Inventoriez les unités d’organisation, les utilisateurs et les ordinateurs Active Directory avec des requêtes PowerShell ciblées. Exportez des fichiers CSV vérifiables sans modifier les objets de l’annuaire.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/active-directory-powershell-read-only-inventory.webp" length="101842" type="image/webp"/></item><item><title>Dimensionner un onduleur pour un homelab et tester l’arrêt automatique</title><link>https://fr.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Laboratoire domestique"
+, "Protection électrique"
+, "Administration système"</category><guid>https://fr.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Mesurez la consommation de votre homelab, comparez les limites en watts et en VA de l’onduleur, vérifiez l’autonomie selon votre charge et testez un arrêt propre avant de vous fier à la batterie.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>Trouver la clé de récupération BitLocker avant de réinstaller Windows</title><link>https://fr.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Sécurité Windows"
+, "Récupération de données"
+, "Administration système"</category><guid>https://fr.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Trouvez et vérifiez la bonne clé de récupération BitLocker, protégez-en une copie distincte et choisissez la bonne méthode de récupération ou de réinstallation Windows avant d'effacer un lecteur.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/windows-bitlocker-recovery-before-reinstall.webp" length="102534" type="image/webp"/></item><item><title>Ansible vs Puppet vs Chef 2026 : gestion de la configuration</title><link>https://fr.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "Automatisation des infrastructures"
+, "Gestion de la configuration"
+, "Opérations IT"
+, "Cloud computing"
+, "Administration système"
+, "IT d’entreprise"
+, "Développement logiciel"
+, "Infrastructure IT"
+, "Outils d’automatisation"</category><guid>https://fr.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparatif 2026 d’Ansible, Puppet et Chef portant sur l’architecture, les fonctionnalités, la courbe d’apprentissage, les performances, les prix et les usages.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>Comprendre NAT et PAT : guides essentiels des communications réseau</title><link>https://fr.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"Essentiels des réseaux"
+, "Cybersécurité"
+, "Infrastructure informatique"
+, "Guides technologiques"
+, "Gestion des réseaux"
+, "Protocoles Internet"
+, "Technologies de communication"
+, "Administration système"
+, "Ingénierie réseau"
+, "Réseaux numériques"</category><guid>https://fr.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez les secrets de NAT et PAT pour fluidifier vos communications numériques.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item><item><title>Maîtriser les fonctions de copie : gérer les fichiers dans votre système d’exploitation</title><link>https://fr.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</link><pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Gestion des fichiers"
+, "Systèmes d’exploitation"
+, "Transfert de données"
+, "Organisation des données"
+, "Compétences informatiques"
+, "Conseils IT"
+, "Efficacité du système d’exploitation"
+, "Administration système"
+, "Utilitaires logiciels"</category><guid>https://fr.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez les fonctions de copie avancées des systèmes d’exploitation et apprenez à gérer les fichiers rapidement et efficacement.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems.webp" length="92028" type="image/webp"/></item><item><title>Windows Task Scheduler ou Cron sous Linux : comparaison de sécurité</title><link>https://fr.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Systèmes d’exploitation"
+, "Automatisation des systèmes"
+, "Outils de sécurité"
+, "Technologie informatique"
+, "Planification des tâches"
+, "Sécurité réseau"
+, "Administration système"
+, "Défense cyber"
+, "Gestion informatique"</category><guid>https://fr.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez Windows Task Scheduler et les tâches Cron sous Linux du point de vue de la cybersécurité et du renforcement des systèmes.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>Maîtriser PowerCLI pour administrer vSphere</title><link>https://fr.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Virtualisation"
+, "VMware"
+, "Gestion informatique"
+, "Automatisation"
+, "Interface en ligne de commande"
+, "Scripting"
+, "Administration système"
+, "Cloud"
+, "Gestion de centre de données"</category><guid>https://fr.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apprenez à utiliser PowerCLI pour administrer VMware vSphere, automatiser les tâches et gagner en productivité.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>Comprendre le filtrage WMI</title><link>https://fr.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Gestion Windows"
+, "Stratégie de groupe"
+, "Administration système"
+, "Gestion réseau"
+, "Infrastructure informatique"
+, "Gestion des stratégies"
+, "Gouvernance informatique"
+, "Automatisation informatique"
+, "Active Directory"
+, "Conformité de sécurité"</category><guid>https://fr.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez le filtrage WMI et son utilisation pour mieux cibler les objets de stratégie de groupe (GPO), avec des exemples pratiques et des bonnes pratiques.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNS on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>DNS on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/dns/</link></image><link>https://fr.simeononsecurity.com/genre/dns/</link><description>Recent content in DNS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/dns/index.xml" rel="self" type="application/rss+xml"/><item><title>Pourquoi le filtrage DNS est contourné : vérifier le chemin du résolveur</title><link>https://fr.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Réseaux domestiques"
+, "DNS"
+, "Confidentialité"</category><guid>https://fr.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Déterminez pourquoi un appareil ou un navigateur ignore votre filtre DNS. Comparez les requêtes directes et normales, consultez les journaux, puis vérifiez le DNS chiffré, le VPN, IPv6 et le routeur.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>NextDNS ou AdGuard : quel bloqueur DNS choisir ?</title><link>https://fr.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Cybersécurité"
+, "Blocage des publicités"
+, "DNS"
+, "Vie privée"
+, "Sécurité sur Internet"
+, "Protection en ligne"
+, "Sécurité numérique"
+, "Solutions de navigation"
+, "Confidentialité en ligne"</category><guid>https://fr.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez NextDNS et AdGuard, deux bloqueurs de publicité basés sur le DNS, et choisissez celui qui convient à votre navigation.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp"/></item><item><title>Cours Réseau Plus : Exploration des services de réseau, des options de connectivité et de l'architecture</title><link>https://fr.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Mise en réseau"
+, "Connectivité"
+, "Échange de données"
+, "Architecture du réseau"
+, "Informatique en nuage"
+, "Services de réseau"
+, "DNS"
+, "DHCP"
+, "NTP"</category><guid>https://fr.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez les fonctionnalités des services DHCP, DNS et NTP, comprenez l'architecture des réseaux d'entreprise et des centres de données, et explorez les concepts de cloud et les options de connectivité pour une communication et une gestion des données transparentes.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_various_networks.webp" length="250792" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Journalisation Syslog Centralisée on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Journalisation Syslog Centralisée on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/journalisation-syslog-centralis%C3%A9e/</link></image><link>https://fr.simeononsecurity.com/tags/journalisation-syslog-centralis%C3%A9e/</link><description>Recent content in Journalisation Syslog Centralisée on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/journalisation-syslog-centralis%C3%A9e/index.xml" rel="self" type="application/rss+xml"/><item><title>Connectivité et sécurité des données pour les nœuds edge déployés sur le terrain</title><link>https://fr.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Edge computing"
+, "Informatique de terrain"
+, "Sécurité réseau"
+, "VPN"
+, "Chiffrement"
+, "Sécurité physique"
+, "Reprise après sinistre"</category><guid>https://fr.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Connectez et protégez les nœuds edge déployés sur le terrain avec le cellulaire, le satellite, LoRa, un VPN, MFA, la segmentation, la journalisation, le chiffrement et la lutte contre le vol.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item></channel></rss>

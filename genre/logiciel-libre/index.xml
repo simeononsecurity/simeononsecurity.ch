@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Logiciel Libre on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Logiciel Libre on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/logiciel-libre/</link></image><link>https://fr.simeononsecurity.com/genre/logiciel-libre/</link><description>Recent content in Logiciel Libre on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/logiciel-libre/index.xml" rel="self" type="application/rss+xml"/><item><title>Sandboxed Google Play sur GrapheneOS expliqué</title><link>https://fr.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Confidentialité"
+, "Sécurité mobile"
+, "Logiciel libre"</category><guid>https://fr.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez ce que change Sandboxed Google Play sur GrapheneOS, quand un profil distinct est utile et comment s’articulent comptes, notifications et compatibilité des applications.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp"/></item><item><title>Guide de mise à niveau Proxmox VE 8 vers 9 : mise à niveau sur place avec script automatisé</title><link>https://fr.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Virtualisation"
+, "Administration Linux"
+, "Virtualisation Proxmox"
+, "Gestion de serveurs"
+, "Logiciel libre"
+, "Laboratoire à domicile"</category><guid>https://fr.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guide complet pour mettre à niveau Proxmox VE 8 (Debian Bookworm) vers Proxmox VE 9 (Debian Trixie). Couvre les prérequis, la mise à niveau manuelle étape par étape, le script d'automatisation pve8to9-upgrade.sh, les changements majeurs et les problèmes connus.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item><item><title>Tailscale ou Headscale ?</title><link>https://fr.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Sécurité réseau"
+, "Auto-hébergement"
+, "WireGuard"
+, "Confiance zéro"
+, "Réseaux maillés"
+, "Logiciel libre"
+, "Infrastructure cloud"
+, "Accès à distance"
+, "Gestion réseau"</category><guid>https://fr.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez Tailscale et Headscale selon leur mode d’hébergement, leur gestion des identités, leurs fonctionnalités, leurs coûts, leur exploitation et leur assistance pour choisir un VPN maillé WireGuard adapté à vos besoins.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item></channel></rss>

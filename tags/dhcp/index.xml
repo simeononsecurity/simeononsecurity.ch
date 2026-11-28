@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DHCP on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>DHCP on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/dhcp/</link></image><link>https://fr.simeononsecurity.com/tags/dhcp/</link><description>Recent content in DHCP on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/dhcp/index.xml" rel="self" type="application/rss+xml"/><item><title>Planifier et tester la segmentation VLAN d'un homelab</title><link>https://fr.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Sécurité réseau"
+, "Réseaux"</category><guid>https://fr.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Élaborez un plan VLAN pour les appareils de confiance, les serveurs, l'IoT et les visiteurs. Cartographiez les flux autorisés, configurez le réseau par étapes et vérifiez l'isolation.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Réseaux : qu'est-ce qu'une adresse IP, IPv4 et IPv6 ?</title><link>https://fr.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><category>
+"Réseaux"
+, "Adresses IP"
+, "Protocoles Internet"
+, "IPv4"
+, "IPv6"
+, "Communication réseau"
+, "Connectivité Internet"
+, "Technologie"
+, "Infrastructure réseau"
+, "Sécurité Internet"</category><guid>https://fr.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprenez les adresses IP, les différences entre IPv4 et IPv6, leur importance et les raisons d'adopter IPv6.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoon_image_of_two_devices_with_speech_bub.webp" length="90028" type="image/webp"/></item><item><title>Cours Réseau Plus : Exploration des services de réseau, des options de connectivité et de l'architecture</title><link>https://fr.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Mise en réseau"
+, "Connectivité"
+, "Échange de données"
+, "Architecture du réseau"
+, "Informatique en nuage"
+, "Services de réseau"
+, "DNS"
+, "DHCP"
+, "NTP"</category><guid>https://fr.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez les fonctionnalités des services DHCP, DNS et NTP, comprenez l'architecture des réseaux d'entreprise et des centres de données, et explorez les concepts de cloud et les options de connectivité pour une communication et une gestion des données transparentes.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_various_networks.webp" length="250792" type="image/webp"/></item></channel></rss>

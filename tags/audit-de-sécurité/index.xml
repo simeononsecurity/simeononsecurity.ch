@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Audit De Sécurité on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Audit De Sécurité on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/audit-de-s%C3%A9curit%C3%A9/</link></image><link>https://fr.simeononsecurity.com/tags/audit-de-s%C3%A9curit%C3%A9/</link><description>Recent content in Audit De Sécurité on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/audit-de-s%C3%A9curit%C3%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>Vulnérabilités des caméras Flock Safety : plus de 50 failles découvertes</title><link>https://fr.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Recherche en sécurité"
+, "Analyse de vulnérabilités"
+, "Technologies de surveillance"
+, "Cybersécurité"
+, "Protection de la vie privée"
+, "Sécurité de l'IoT"
+, "Sécurité physique"
+, "Sécurité réseau"
+, "Infrastructures critiques"
+, "Technologies gouvernementales"</category><guid>https://fr.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Cette enquête sur les vulnérabilités des caméras Flock Safety couvre les identifiants exposés, les protections faibles, l'accès physique et les limites du processus de divulgation.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>Sécuriser Active Directory</title><link>https://fr.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Gestion réseau"
+, "Technologies de l'information"
+, "Protection des données"
+, "Sécurité des entreprises"
+, "Infrastructure numérique"
+, "Contrôle d'accès"
+, "Authentification des utilisateurs"
+, "Bonnes pratiques IT"
+, "Sensibilisation à la sécurité"</category><guid>https://fr.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apprenez à sécuriser Active Directory, à protéger les données et à empêcher les intrusions dans votre infrastructure réseau.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item><item><title>Maîtriser le principe du moindre privilège</title><link>https://fr.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Sécurité Linux"
+, "Contrôle d'accès"
+, "Sécurité informatique"
+, "Sécurité réseau"
+, "Protection de l'information"
+, "Confidentialité des données"
+, "Cybermenaces"
+, "Gestion des risques"
+, "Bonnes pratiques de sécurité"</category><guid>https://fr.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Renforcez la cybersécurité grâce au contrôle d'accès fondé sur le moindre privilège sous Linux. Découvrez sa mise en œuvre, les bonnes pratiques et le dépannage.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>Avantages et défis des outils de sécurité open source</title><link>https://fr.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</link><pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate><category>
+"outils de sécurité open source"
+, "cybersécurité"
+, "soutien communautaire"
+, "transparence"
+, "économies de coûts"
+, "flexibilité"
+, "outils propriétaires"
+, "risques de sécurité"
+, "compétences"
+, "frais de licence logicielle"
+, "coût total de possession"
+, "support commercial"
+, "langages de programmation"
+, "intégration"
+, "tests de sécurité"
+, "audit de sécurité"
+, "NIST"
+, "CISA"
+, "OWASP"
+, "Institut national des normes et de la technologie"</category><guid>https://fr.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explorez les avantages et les défis liés à l'utilisation d'outils de sécurité open source pour améliorer la position de votre organisation en matière de sécurité.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.webp" length="58998" type="image/webp"/></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://fr.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisation"
+, "Conformité"
+, "Ansible"
+, "Manuels Ansible"
+, "Collections Ansible"
+, "Sécurité Windows"
+, "Administration Windows"
+, "Conformité en matière de sécurité"
+, "Automatisation des technologies de l'information"
+, "Gestion de la configuration"</category><guid>https://fr.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;SimeonOnSecurity a appris l&amp;rsquo;existence de ce site et l&amp;rsquo;a trouvé intéressant aujourd&amp;rsquo;hui**&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity a appris et découvert aujourd&amp;rsquo;hui plusieurs choses intéressantes liées à la sécurité Windows et à l&amp;rsquo;automatisation à l&amp;rsquo;aide d&amp;rsquo;Ansible.&lt;/p&gt;
+&lt;p&gt;Tout d&amp;rsquo;abord, deux référentiels nouveaux et mis à jour ont été identifiés. Le dépôt Windows_STIG_Ansible fournit une solution complète pour configurer les systèmes Windows afin de répondre aux exigences du Guide de mise en œuvre technique de la sécurité (STIG), en utilisant la plateforme d&amp;rsquo;automatisation Ansible. Le référentiel windows_stigs est une collection de rôles Ansible pour configurer les systèmes Windows afin de répondre aux exigences du STIG, et il est disponible sur Ansible Galaxy, un référentiel central pour le partage du contenu Ansible.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Informatique en Nuage on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Informatique en Nuage on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/informatique-en-nuage/</link></image><link>https://fr.simeononsecurity.com/genre/informatique-en-nuage/</link><description>Recent content in Informatique en Nuage on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/informatique-en-nuage/index.xml" rel="self" type="application/rss+xml"/><item><title>Benchmarks GPU de Llama 3.1 8B et Qwen3.8 27B sur Vast.ai</title><link>https://fr.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Benchmarks GPU"
+, "IA auto-hébergée"
+, "Informatique en nuage"
+, "Intelligence artificielle"
+, "Économie de l’IA"</category><guid>https://fr.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Benchmarks Ollama mesurés de Llama 3.1 8B et Qwen3.8 27B sur les principaux GPU Vast.ai. Comparez la vitesse de décodage, le long contexte, le coût de location, l'auto-hébergement, les crédits API et les abonnements.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Comprendre la virtualisation : efficacité et évolutivité des TI</title><link>https://fr.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</link><pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate><category>
+"Guide de virtualisation"
+, "Infrastructure TI"
+, "Innovations technologiques"
+, "Informatique en nuage"
+, "Gestion des centres de données"
+, "Efficacité informatique"
+, "Solutions réseau"
+, "Perspectives de cybersécurité"
+, "Évolution logicielle"
+, "Optimisation matérielle"</category><guid>https://fr.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Maîtrisez la virtualisation pour améliorer les performances des TI. Découvrez ses types, ses avantages et les bonnes pratiques de gestion des infrastructures.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/understanding-virtualization_-concepts-and-applications.webp" length="103918" type="image/webp"/></item><item><title>Les meilleures solutions de stockage des données : HDD, SSD et cloud</title><link>https://fr.simeononsecurity.com/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</link><pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate><category>
+"Stockage des données"
+, "Technologie"
+, "Solutions numériques"
+, "Guides HDD"
+, "Informations SSD"
+, "Informatique en nuage"
+, "Gestion informatique"
+, "Tests de matériel"
+, "Conseils logiciels"
+, "Informatique personnelle"</category><guid>https://fr.simeononsecurity.com/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez comment choisir entre HDD, SSD et stockage cloud. Quelle solution vous convient ?</description><enclosure url="https://fr.simeononsecurity.com/img/cover/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options.webp" length="118244" type="image/webp"/></item><item><title>VMware vs Hyper-V vs Proxmox : Comparaison de la virtualisation</title><link>https://fr.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link><pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Virtualisation"
+, "Infrastructure informatique"
+, "Virtualisation de serveurs"
+, "Logiciel d'entreprise"
+, "Informatique en nuage"
+, "Solutions pour centres de données"
+, "Virtualisation Open Source"
+, "Gestion des machines virtuelles"
+, "Comparaison de la virtualisation"</category><guid>https://fr.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez la comparaison facile de VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE et XCP-NG et choisissez votre solution de virtualisation idéale pour le succès de votre entreprise.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp"/></item><item><title>FedRAMP : sécuriser le cloud pour les administrations</title><link>https://fr.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</link><pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Cybersécurité"
+, "Administration"
+, "Services cloud"
+, "Conformité"
+, "Réglementation fédérale"
+, "Sécurité de l’information"
+, "Gestion des risques"
+, "Informatique en nuage"
+, "Protection des données"</category><guid>https://fr.simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+FedRAMP renforce la sécurité des solutions cloud utilisées par les administrations américaines.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/Secure-Cloud-Government-Shield.webp" length="63200" type="image/webp"/></item><item><title>Développez votre potentiel avec Azure for Students</title><link>https://fr.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Informatique en nuage"
+, "Ressources pour étudiants"
+, "Développement logiciel"
+, "Microsoft Azure"
+, "Windows Server"
+, "Windows 10"
+, "Windows 11"
+, "Visual Studio"
+, "Outils d’apprentissage"</category><guid>https://fr.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez Microsoft Azure for Students : critères d’admissibilité, logiciels inclus, limites du compte et étapes pratiques de démarrage.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/azure_for_students_animated_cloud.webp" length="73614" type="image/webp"/></item><item><title>Certifications Oracle gratuites pour la cybersécurité et l’informatique</title><link>https://fr.simeononsecurity.com/articles/free-oracle-certifications-cybersecurity-it-professionals/</link><pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Certifications informatiques"
+, "Développement professionnel"
+, "Certifications Oracle"
+, "Informatique en nuage"
+, "Gestion des données"
+, "Évolution professionnelle"
+, "Apprentissage en ligne"
+, "Formation technologique"</category><guid>https://fr.simeononsecurity.com/articles/free-oracle-certifications-cybersecurity-it-professionals/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez les certifications Oracle gratuites pour les métiers de la cybersécurité et de l’informatique, les thèmes OCI, les prérequis et les débouchés.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/An_animated_image_featuring_a_professional_cyb.webp" length="87826" type="image/webp"/></item><item><title>Parcours de carrière en informatique : débouchés, compétences et évolution</title><link>https://fr.simeononsecurity.com/articles/navigating-it-career-paths-explore-opportunities-skills-growth/</link><pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate><category>
+"Métiers de l’informatique"
+, "Parcours professionnels"
+, "Développement des compétences"
+, "Qualifications"
+, "Perspectives d’évolution"
+, "Secteur technologique"
+, "Cybersécurité"
+, "Développement logiciel"
+, "Science des données"
+, "Informatique en nuage"</category><guid>https://fr.simeononsecurity.com/articles/navigating-it-career-paths-explore-opportunities-skills-growth/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explorez les métiers de l’informatique, développez les compétences essentielles et trouvez des possibilités d’évolution à l’ère du numérique.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/An_illustration_featuring_a_group_of_diverse_p.webp" length="206102" type="image/webp"/></item><item><title>Cours Réseau Plus : Exploration des services de réseau, des options de connectivité et de l'architecture</title><link>https://fr.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Mise en réseau"
+, "Connectivité"
+, "Échange de données"
+, "Architecture du réseau"
+, "Informatique en nuage"
+, "Services de réseau"
+, "DNS"
+, "DHCP"
+, "NTP"</category><guid>https://fr.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez les fonctionnalités des services DHCP, DNS et NTP, comprenez l'architecture des réseaux d'entreprise et des centres de données, et explorez les concepts de cloud et les options de connectivité pour une communication et une gestion des données transparentes.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_various_networks.webp" length="250792" type="image/webp"/></item><item><title>AWS, Azure et Google Cloud en 2026 : comparaison complète des plateformes cloud</title><link>https://fr.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Informatique en nuage"
+, "Sécurité cloud"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "Sécurité des données"
+, "Chiffrement"
+, "Gestion des identités et des accès"
+, "Conformité"
+, "Détection des menaces"</category><guid>https://fr.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparaison d’AWS, Microsoft Azure et Google Cloud Platform en 2026. Analyse des tarifs, de la sécurité, de la conformité, des services, des performances et des critères de choix d’un fournisseur cloud.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item><item><title>Compétences clés pour les gestionnaires de systèmes informatiques efficaces</title><link>https://fr.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</link><pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Entreprises"
+, "gestion"
+, "informatique"
+, "Développement de carrière"
+, "Transformation numérique"
+, "Analyse des données"
+, "Informatique en nuage"
+, "Gestion de projet"
+, "direction"</category><guid>https://fr.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez les 5 compétences clés que tout responsable des systèmes informatiques doit posséder pour réussir dans le monde numérique d'aujourd'hui.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.webp" length="179058" type="image/webp"/></item></channel></rss>

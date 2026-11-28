@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Attaques XSS on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Attaques XSS on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/attaques-xss/</link></image><link>https://fr.simeononsecurity.com/tags/attaques-xss/</link><description>Recent content in Attaques XSS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/attaques-xss/index.xml" rel="self" type="application/rss+xml"/><item><title>Fonctions C# dangereuses : pratiques de programmation sécurisée</title><link>https://fr.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Développement logiciel"
+, "Programmation C#"
+, "Cybersécurité"
+, "Sécurité du code"
+, "Programmation sécurisée"
+, "Bonnes pratiques de programmation"
+, "Vulnérabilités logicielles"
+, "Cryptographie"
+, "Développement web"
+, "Sécurité des applications"</category><guid>https://fr.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Des alternatives sûres aux fonctions C# dangereuses. Apprenez à repérer les risques pour la sécurité de la mémoire et à remplacer les opérations vulnérables.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>Maîtriser les tests d’intrusion : techniques avancées</title><link>https://fr.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Tests d’intrusion"
+, "Piratage éthique"
+, "Sécurité réseau"
+, "Sécurité des applications web"
+, "Sécurité sans fil"
+, "Ingénierie sociale"
+, "Sécurité des applications mobiles"
+, "Sécurité du cloud"
+, "Développement de carrière"</category><guid>https://fr.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez des techniques avancées, des outils et des exemples réels de tests d’intrusion pour développer vos compétences en cybersécurité et votre carrière.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp"/></item><item><title>OWASP Top 10 : Risques critiques pour la sécurité des applications web</title><link>https://fr.simeononsecurity.com/articles/owasp-top-10/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><category>
+"Sécurité des applications web"
+, "Top 10 de l'OWASP"
+, "Attaques par injection"
+, "Authentification"
+, "Gestion des sessions"
+, "Attaques XSS"
+, "Contrôle d'accès"
+, "Mauvaise configuration de la sécurité"
+, "Stockage cryptographique"
+, "Protection de la couche transport"</category><guid>https://fr.simeononsecurity.com/articles/owasp-top-10/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez les risques les plus critiques en matière de sécurité des applications web avec le Top 10 de l'OWASP et comment vous en protéger</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.webp" length="80546" type="image/webp"/></item></channel></rss>

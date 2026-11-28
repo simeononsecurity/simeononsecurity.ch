@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AF_ALG on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>AF_ALG on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/af_alg/</link></image><link>https://fr.simeononsecurity.com/tags/af_alg/</link><description>Recent content in AF_ALG on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/af_alg/index.xml" rel="self" type="application/rss+xml"/><item><title>En 2026, les conteneurs ne sont plus une frontière de sécurité</title><link>https://fr.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"Sécurité des conteneurs"
+, "Linux"
+, "Sécurité du noyau"
+, "Virtualisation"
+, "Sécurité du cloud"
+, "Recherche sur les menaces"
+, "Équipe bleue"
+, "DevSecOps"</category><guid>https://fr.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Les vulnérabilités du noyau de 2026 montrent pourquoi l’isolation des conteneurs multi-locataires ne suffit pas. Découvrez Copy Fail, Dirty Frag, Fragnesia et CVE-2026-80521, et comparez les conteneurs renforcés aux microVM.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item></channel></rss>

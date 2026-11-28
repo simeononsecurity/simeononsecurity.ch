@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gestion Informatique on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Gestion Informatique on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/gestion-informatique/</link></image><link>https://fr.simeononsecurity.com/genre/gestion-informatique/</link><description>Recent content in Gestion Informatique on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Thu, 29 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/gestion-informatique/index.xml" rel="self" type="application/rss+xml"/><item><title>Moderniser les anciens serveurs : réussir leur mise à niveau</title><link>https://fr.simeononsecurity.com/articles/reviving-old-servers_-tips-for-upgrading-legacy-systems/</link><pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate><category>
+"Mise à niveau de serveurs"
+, "Modernisation informatique"
+, "Maintenance de centres de données"
+, "Infrastructure technologique"
+, "Modernisation de systèmes hérités"
+, "Optimisation des systèmes"
+, "Gestion informatique"
+, "Stratégies de mise à niveau technologique"
+, "Informatique d’entreprise"
+, "Informatique professionnelle"</category><guid>https://fr.simeononsecurity.com/articles/reviving-old-servers_-tips-for-upgrading-legacy-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez comment moderniser d’anciens serveurs pour améliorer les performances, la sécurité et la compatibilité, et planifier leur mise à niveau.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/reviving-old-servers_-tips-for-upgrading-legacy-systems.webp" length="94936" type="image/webp"/></item><item><title>Les meilleures solutions de stockage des données : HDD, SSD et cloud</title><link>https://fr.simeononsecurity.com/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</link><pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate><category>
+"Stockage des données"
+, "Technologie"
+, "Solutions numériques"
+, "Guides HDD"
+, "Informations SSD"
+, "Informatique en nuage"
+, "Gestion informatique"
+, "Tests de matériel"
+, "Conseils logiciels"
+, "Informatique personnelle"</category><guid>https://fr.simeononsecurity.com/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez comment choisir entre HDD, SSD et stockage cloud. Quelle solution vous convient ?</description><enclosure url="https://fr.simeononsecurity.com/img/cover/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options.webp" length="118244" type="image/webp"/></item><item><title>Windows Task Scheduler ou Cron sous Linux : comparaison de sécurité</title><link>https://fr.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Systèmes d’exploitation"
+, "Automatisation des systèmes"
+, "Outils de sécurité"
+, "Technologie informatique"
+, "Planification des tâches"
+, "Sécurité réseau"
+, "Administration système"
+, "Défense cyber"
+, "Gestion informatique"</category><guid>https://fr.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez Windows Task Scheduler et les tâches Cron sous Linux du point de vue de la cybersécurité et du renforcement des systèmes.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>Créer un SOC résilient</title><link>https://fr.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Technologie"
+, "Entreprise"
+, "Protection des données"
+, "Réponse aux incidents"
+, "Gestion informatique"
+, "Sécurité réseau"
+, "Détection des menaces"
+, "Sécurité de l’information"
+, "Gestion des risques"</category><guid>https://fr.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Mettez en place un centre des opérations de sécurité (SOC) robuste pour contrer les cybermenaces, détecter les incidents et protéger les actifs de votre organisation.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>Maîtriser PowerCLI pour administrer vSphere</title><link>https://fr.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Virtualisation"
+, "VMware"
+, "Gestion informatique"
+, "Automatisation"
+, "Interface en ligne de commande"
+, "Scripting"
+, "Administration système"
+, "Cloud"
+, "Gestion de centre de données"</category><guid>https://fr.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apprenez à utiliser PowerCLI pour administrer VMware vSphere, automatiser les tâches et gagner en productivité.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>PowerShell Scripting : Un guide pas à pas pour les débutants afin d'automatiser les tâches</title><link>https://fr.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Programmation"
+, "Automatisation"
+, "Fenêtres"
+, "Scripting"
+, "IT"
+, "Tâches administratives"
+, "Gestion informatique"
+, "Développement de logiciels"
+, "Codage"</category><guid>https://fr.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apprenez les bases de l'écriture de scripts PowerShell et automatisez des tâches grâce à ce guide pas à pas pour les débutants, qui couvre les cmdlets, les boucles, les fonctions et bien plus encore.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.webp" length="52314" type="image/webp"/></item></channel></rss>

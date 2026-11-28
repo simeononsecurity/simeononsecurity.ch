@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sécurité Cloud on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Sécurité Cloud on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/s%C3%A9curit%C3%A9-cloud/</link></image><link>https://fr.simeononsecurity.com/genre/s%C3%A9curit%C3%A9-cloud/</link><description>Recent content in Sécurité Cloud on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/s%C3%A9curit%C3%A9-cloud/index.xml" rel="self" type="application/rss+xml"/><item><title>1Password SSH Agent and CLI: Accès en lecture seule pour les agents IA</title><link>https://fr.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Administration système"
+, "Sécurité cloud"
+, "Automatisation"</category><guid>https://fr.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Concevez un flux de travail SSH en lecture seule avec 1Password CLI, l'agent SSH et MCP. Utilisez des commandes synthétiques, des permissions restreintes et une approbation humaine avant les tests en direct.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Clés SSH Bitbucket Cloud : accès Git en lecture seule pour les agents IA</title><link>https://fr.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Sécurité cloud"
+, "Outils de développement"
+, "Administration système"</category><guid>https://fr.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Configurez les clés SSH Bitbucket Cloud, l’accès Git CLI, les jetons REST API, 1Password et les outils MCP pour des workflows d’agents IA en lecture seule.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>Cloudflare Tunnel et Access : avez-vous besoin des deux ?</title><link>https://fr.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Sécurité réseau"
+, "Auto-hébergement"
+, "Sécurité cloud"</category><guid>https://fr.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprenez la différence entre Cloudflare Tunnel et Access, choisissez une protection pour un tableau de bord domestique et évitez de publier une application privée sans authentification.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>Laboratoire SOC Microsoft à domicile : acquérir une expérience en cybersécurité en 2026</title><link>https://fr.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Sécurité cloud"
+, "Développement de carrière"</category><guid>https://fr.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Créez un laboratoire SOC Microsoft avec Sentinel, Defender, Intune et Entra. Enquêtez sur des incidents, vérifiez les règles de clés d’accès et documentez des preuves pour votre portfolio.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>Sécuriser le cloud efficacement</title><link>https://fr.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</link><pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate><category>
+"Sécurité cloud"
+, "Résilience de l’entreprise"
+, "Mise en œuvre de CSPM"
+, "Détection proactive des menaces"
+, "Gestion de la conformité"
+, "Règles de sécurité"
+, "Collaboration interfonctionnelle"
+, "Infrastructure cloud"
+, "Sécurité automatisée"
+, "Réduction des risques"</category><guid>https://fr.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Utilisez la gestion de la posture de sécurité cloud pour repérer les mauvaises configurations, appliquer les règles, gérer les alertes, soutenir la conformité et guider la correction dans vos comptes cloud.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/leveraging-cloud-security-posture-management-%28cspm%29-for-your-business.webp" length="234272" type="image/webp"/></item><item><title>AWS, Azure et Google Cloud en 2026 : comparaison complète des plateformes cloud</title><link>https://fr.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Informatique en nuage"
+, "Sécurité cloud"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "Sécurité des données"
+, "Chiffrement"
+, "Gestion des identités et des accès"
+, "Conformité"
+, "Détection des menaces"</category><guid>https://fr.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparaison d’AWS, Microsoft Azure et Google Cloud Platform en 2026. Analyse des tarifs, de la sécurité, de la conformité, des services, des performances et des critères de choix d’un fournisseur cloud.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item><item><title>Guide de carrière en cybersécurité 2026 : Compétences essentielles, certifications et données salariales</title><link>https://fr.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</link><pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Technologie"
+, "Développement de carrière"
+, "Sécurité de l'information"
+, "Sécurité numérique"
+, "Compétences et certifications"
+, "Opportunités d'emploi"
+, "Sécurité réseau"
+, "Sécurité cloud"
+, "Planification de carrière"</category><guid>https://fr.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guide complet de carrière en cybersécurité 2026 couvrant les compétences essentielles, les meilleures certifications, les données salariales, les parcours professionnels et les perspectives du marché de l'emploi pour les futurs professionnels de la sécurité.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/cybersecurity-career-guide-essential-skills-and-certifications.webp" length="298156" type="image/webp"/></item></channel></rss>
