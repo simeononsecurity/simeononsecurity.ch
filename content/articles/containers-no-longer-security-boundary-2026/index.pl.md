@@ -97,7 +97,7 @@ Każda z tych podatności daje roota z nieuprzywilejowanego konta lokalnego. Ża
 |---|---|---|---|---|
 | **Copy Fail** | CVE-2026-31431 | `algif_aead` / AF_ALG | Zapis 4 bajtów do page cache dowolnego pliku, który da się odczytać | Theori, pomoc AI |
 | **Dirty Frag** | CVE-2026-43284 + CVE-2026-43500 | XFRM ESP, RxRPC | Zapis 4 bajtów do page cache przez dwie połączone odmiany | Hyunwoo Kim |
-| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP | Zapisy pojedynczych bajtów do page cache | Hyunwoo Kim |
+| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP (ESP enkapsulowany w TCP) | Zapisy pojedynczych bajtów do page cache | Hyunwoo Kim |
 | **AF_UNIX UAF** | CVE-2026-80521 | Gniazda AF_UNIX | Use-after-free w mechanizmie garbage collection `unix_vertex` | DepthFirst, pomoc AI |
 
 Wszystkie cztery łączy wzorzec, na który warto zwrócić uwagę. **Atakują page cache, a nie dysk.**

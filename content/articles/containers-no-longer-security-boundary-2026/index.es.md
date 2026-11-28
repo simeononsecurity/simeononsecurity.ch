@@ -97,7 +97,7 @@ Cada vulnerabilidad concede root a una cuenta local sin privilegios. Ninguna exi
 |---|---|---|---|---|
 | **Copy Fail** | CVE-2026-31431 | `algif_aead` / AF_ALG | Escritura de 4 bytes en la caché de páginas de cualquier archivo legible | Theori, con ayuda de IA |
 | **Dirty Frag** | CVE-2026-43284 + CVE-2026-43500 | XFRM ESP, RxRPC | Escritura de 4 bytes en la caché de páginas mediante dos variantes encadenadas | Hyunwoo Kim |
-| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP | Escrituras de un solo byte en la caché de páginas | Hyunwoo Kim |
+| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP (ESP encapsulado en TCP) | Escrituras de un solo byte en la caché de páginas | Hyunwoo Kim |
 | **AF_UNIX UAF** | CVE-2026-80521 | Sockets AF_UNIX | Use-after-free en la recolección de basura de `unix_vertex` | DepthFirst, con ayuda de IA |
 
 Las cuatro comparten un patrón de diseño importante: **atacan la caché de páginas, no el disco.**

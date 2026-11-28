@@ -97,7 +97,7 @@ Cadascuna d’aquestes vulnerabilitats dona root a un compte local sense privile
 |---|---|---|---|---|
 | **Copy Fail** | CVE-2026-31431 | `algif_aead` / AF_ALG | Escriptura de 4 bytes a la memòria cau de pàgines de qualsevol fitxer llegible | Theori, amb ajuda d’IA |
 | **Dirty Frag** | CVE-2026-43284 + CVE-2026-43500 | XFRM ESP, RxRPC | Escriptura de 4 bytes a la memòria cau de pàgines mitjançant dues variants encadenades | Hyunwoo Kim |
-| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP | Escriptures d’un byte a la memòria cau de pàgines | Hyunwoo Kim |
+| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP (ESP encapsulat dins de TCP) | Escriptures d’un byte a la memòria cau de pàgines | Hyunwoo Kim |
 | **AF_UNIX UAF** | CVE-2026-80521 | Sòcols AF_UNIX | Use-after-free a la recollida de brossa de `unix_vertex` | DepthFirst, amb ajuda d’IA |
 
 Les quatre comparteixen un patró de disseny que cal remarcar: **ataquen la memòria cau de pàgines, no el disc.**

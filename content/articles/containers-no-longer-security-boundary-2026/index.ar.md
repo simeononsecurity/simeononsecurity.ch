@@ -97,7 +97,7 @@ ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubern
 |---|---|---|---|---|
 | **Copy Fail** | CVE-2026-31431 | `algif_aead` / AF_ALG | كتابة 4 بايتات في ذاكرة تخزين أي ملف قابل للقراءة المؤقتة للصفحات | Theori، بمساعدة الذكاء الاصطناعي |
 | **Dirty Frag** | CVE-2026-43284 + CVE-2026-43500 | XFRM ESP، وRxRPC | كتابة 4 بايتات في ذاكرة تخزين الصفحات عبر نسختين مترابطتين | Hyunwoo Kim |
-| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP | عمليات كتابة بايت واحد في ذاكرة تخزين الصفحات | Hyunwoo Kim |
+| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP (تغليف ESP ضمن TCP) | عمليات كتابة بايت واحد في ذاكرة تخزين الصفحات | Hyunwoo Kim |
 | **AF_UNIX UAF** | CVE-2026-80521 | مقابس AF_UNIX | use-after-free في جمع البيانات المهملة لـ `unix_vertex` | DepthFirst، بمساعدة الذكاء الاصطناعي |
 
 تشترك الثغرات الأربع في نمط تصميم جدير بالملاحظة: **إنها تهاجم ذاكرة تخزين الصفحات المؤقتة بدلًا من القرص.**

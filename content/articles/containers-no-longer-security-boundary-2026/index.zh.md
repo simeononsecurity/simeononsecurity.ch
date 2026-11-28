@@ -1,7 +1,7 @@
 ---
 title: "2026年，容器已不再是安全边界"
 date: 2026-09-28
-lastmod: 2026-11-13
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "2026年的内核漏洞揭示了多租户容器隔离为何不足。了解 Copy Fail、Dirty Frag、Fragnesia 和 CVE-2026-80521，并比较加固容器与 microVM 边界。"
@@ -83,7 +83,7 @@ ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubern
 | **CVE-2026-80521** | Zhenpeng（Leo）Lin，DepthFirst | 使用针对漏洞检测训练的内部 AI 模型 **dfs-large1** 发现 |
 | **CVE-2026-80521**，独立发现 | Kyle，**OpenAI** | 独立发现同一漏洞，并在同一天报告 |
 
-再看第三行。两家组织使用不同的 AI 工具，发现了 **AF_UNIX 中同一个 use-after-free**，并在**同一天**报告给 `security@kernel.org`。这不是人才巧合，而是一个可重复的流程两次得出同样结果。
+再看第三行。两家组织使用不同的 AI 工具，发现了 **AF_UNIX 中同一个释放后使用漏洞（UAF）**，并在**同一天**报告给 `security@kernel.org`。这不是人才巧合，而是一个可重复的流程两次得出同样结果。
 
 DepthFirst 直接说明了规模：**截至2026年9月，已发布近6,000个内核 CVE**。数量增长曲线跟随 AI 辅助能力的普及，而非内核开发者人数。
 
@@ -97,8 +97,8 @@ DepthFirst 直接说明了规模：**截至2026年9月，已发布近6,000个内
 |---|---|---|---|---|
 | **Copy Fail** | CVE-2026-31431 | `algif_aead` / AF_ALG | 向任意可读文件的页缓存写入4字节 | Theori，AI 辅助 |
 | **Dirty Frag** | CVE-2026-43284 + CVE-2026-43500 | XFRM ESP、RxRPC | 通过两个链式变体向页缓存写入4字节 | Hyunwoo Kim |
-| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP | 向页缓存写入单字节 | Hyunwoo Kim |
-| **AF_UNIX UAF** | CVE-2026-80521 | AF_UNIX 套接字 | `unix_vertex` 垃圾回收中的 use-after-free | DepthFirst，AI 辅助 |
+| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP (在 TCP 中封装的 ESP) | 向页缓存写入单字节 | Hyunwoo Kim |
+| **AF_UNIX UAF** | CVE-2026-80521 | AF_UNIX 套接字 | `unix_vertex` 垃圾回收中的释放后使用漏洞 | DepthFirst，AI 辅助 |
 
 这四个漏洞有一个值得注意的共同设计模式：**它们攻击页缓存，而不是磁盘。**
 
@@ -110,7 +110,7 @@ Copy Fail 是四者中最直接、也最令人担忧的漏洞。
 
 利用链使用 `splice()` 将页缓存页面放入操作，然后滥用原位 AEAD 路径向该页面写入**四个受控字节**。受损页面**从不标记为 dirty**，因此不会写回磁盘。磁盘上的文件保持完整，校验和与完整性检查都会通过，但内存中的副本已经被修改。
 
-一个 **732 字节的 Python 脚本**能在2017年以来发布的所有 Linux 发行版上取得 root。漏洞由 `algif_aead` 中的**2017年优化**引入，2026年的补丁只是撤销该优化。Mainline commit `a664bf3d603d`。
+一个 **732 字节的 Python 脚本**能在2017年以来发布的所有 Linux 发行版上取得 root。漏洞由 `algif_aead` 中的**2017年优化**引入，2026年的补丁只是撤销该优化。主线提交 `a664bf3d603d`。
 
 *该漏洞在所有主流发行版中潜伏近十年，AI 工具约一小时就发现了它。*
 
@@ -120,10 +120,10 @@ Dirty Frag 的名称准确描述了它的脉络：**Dirty Pipe 覆盖 `struct pi
 
 它由**两个串联的漏洞**组成，串联方式正是巧妙之处：
 
-- **CVE-2026-43284** 利用 `esp_input()` 跳过 copy-on-write 路径，再对 splice 插入的片段进行原位解密。它需要创建 **user namespace** 的权限，部分发行版会限制该权限。
-- **CVE-2026-43500** 利用 `rxkad_verify_packet_1()` 对片段进行原位解密。它不需要 namespace 权限，但大多数发行版没有 `rxrpc` 模块。Ubuntu 默认加载该模块。
+- **CVE-2026-43284** 利用 `esp_input()` 跳过 copy-on-write 路径，再对 splice 插入的片段进行原位解密。它需要创建 **用户命名空间** 的权限，部分发行版会限制该权限。
+- **CVE-2026-43500** 利用 `rxkad_verify_packet_1()` 对片段进行原位解密。它不需要命名空间权限，但大多数发行版没有 `rxrpc` 模块。Ubuntu 默认加载该模块。
 
-**单独使用时，每个变体都有盲点。组合后，它们相互补足。** 允许 user namespace 时，ESP 路径先运行。若其受限但存在 `rxrpc`，则改走 RxRPC 路径。这样，一个 exploit 二进制就能适配多个发行版。RxRPC 变体会清空 `/etc/passwd` 中一个字段，并利用 PAM 的 `nullok` 接受空密码，从而获得 root。
+**单独使用时，每个变体都有盲点。组合后，它们相互补足。** 允许用户命名空间时，ESP 路径先运行。若其受限但存在 `rxrpc`，则改走 RxRPC 路径。这样，一个漏洞利用二进制程序就能适配多个发行版。RxRPC 变体会清空 `/etc/passwd` 中一个字段，并利用 PAM 的 `nullok` 接受空密码，从而获得 root。
 
 **对防御者最重要的发现是：** 无论 **`algif_aead` 是否可用**，Dirty Frag 都会触发。广泛传播的 Copy Fail 缓解措施通过屏蔽该模块，**完全无法防御 Dirty Frag**。
 
@@ -133,9 +133,9 @@ Fragnesia 与 Dirty Frag 属于同一类，但针对 XFRM 的 **ESP-in-TCP** 路
 
 该漏洞利用 `skb` 合并过程中对共享页面片段处理不当。攻击者在套接字切换到 `espintcp` 上层协议模式前，将文件支持的页面 splice 到 TCP 接收队列中。ESP 处理启用后，内核会**原位解密**队列数据，AES-GCM 密钥流操纵会破坏底层页缓存。攻击者能对缓存文件页面反复执行**单字节写入**。
 
-该 exploit 通过用小型 ELF payload 覆盖 `/usr/bin/su` 的开头字节来取得 root。**改动只存在于内存中，不会触及磁盘上的二进制文件。**
+该漏洞利用通过用小型 ELF 载荷覆盖 `/usr/bin/su` 的开头字节来取得 root。**改动只存在于内存中，不会触及磁盘上的二进制文件。**
 
-无特权的 **user 和 network namespaces** 在隔离的命名空间内提供 `CAP_NET_ADMIN`，随后 NETLINK_XFRM 安装精心构造的安全关联。
+无特权的 **用户命名空间和网络命名空间** 在隔离的命名空间内提供 `CAP_NET_ADMIN`，随后 NETLINK_XFRM 安装精心构造的安全关联。
 
 *请仔细读这句话：* Fragnesia 是**修复最初 Dirty Frag 漏洞的某个补丁带来的意外副作用**。修复 Dirty Frag 反而产生了一个可独立利用的新 root 漏洞。
 
@@ -143,13 +143,13 @@ Fragnesia 与 Dirty Frag 属于同一类，但针对 XFRM 的 **ESP-in-TCP** 路
 
 AF_UNIX 竞态终结了“这只是理论风险”的说法。
 
-该漏洞是 `SCM_RIGHTS` 消息垃圾回收机制中的 **heap use-after-free**。进程通过 `SCM_RIGHTS` 相互传递文件描述符。在回收循环套接字引用时发生竞态，释放了 `struct unix_vertex`，但仍存活的套接字 SCC 环中还保留着它的指针。下一轮回收会遍历过期的环并解引用已释放的内存。
+该漏洞是 `SCM_RIGHTS` 消息垃圾回收机制中的 **堆上释放后使用漏洞（UAF）**。进程通过 `SCM_RIGHTS` 相互传递文件描述符。在回收循环套接字引用时发生竞态，释放了 `struct unix_vertex`，但仍存活的套接字 SCC 环中还保留着它的指针。下一轮回收会遍历过期的环并解引用已释放的内存。
 
 它的意义不止于 Linux，因为 **AF_UNIX 是本地 IPC 的基础**。本地数据库、`systemd`，甚至 Docker 本身都依赖它。DepthFirst 指出，这个漏洞影响大多数基于内核构建的操作系统级 sandbox，**包括 `nsjail`、`Firejail` 和 `Bubblewrap`**，以及现代容器运行时。
 
 DepthFirst 于 **2026年7月24日**凭此漏洞赢得 **Google kernelCTF 名额**，于 **8月5日**在 `lts-6.12.95` 名额中获得确认，当天报告给 `security@kernel.org`，随后得知 **OpenAI 的 Kyle 也报告了同一个漏洞**。上游补丁于 **8月6日**合入。研究成果于 **9月22日**发布。
 
-他们发布了针对 **Ubuntu 26.04** 的可用 exploit，以及另一个利用 CVE-2026-52910 逃逸 **Ubuntu 24.04** 的 exploit。
+他们发布了针对 **Ubuntu 26.04** 的可用漏洞利用程序，以及另一个利用 CVE-2026-52910 逃逸 **Ubuntu 24.04** 的漏洞利用程序。
 
 {{< figure src="kernel-page-cache-overwrite-container-escape.webp" alt="示意图展示容器内的无特权进程损坏页缓存页面，在内存中修改 setuid 二进制并提升为 root，随后越过容器边界进入主机内核" >}}
 
@@ -161,14 +161,14 @@ DepthFirst 于 **2026年7月24日**凭此漏洞赢得 **Google kernelCTF 名额*
 |---|---|---|
 | 将 **`algif_aead`** 加入黑名单 | Copy Fail | **Dirty Frag 的任何部分都不行**，它完全不依赖该模块 |
 | 将 **`esp4`、`esp6`、`rxrpc`** 加入黑名单 | Dirty Frag、Fragnesia | 需要 IPsec 的团队。全新的子系统也会遗漏 |
-| 限制**无特权 user namespaces** | ESP 变体 | RxRPC 变体不需要 namespace。AppArmor 策略也只是**部分**缓解 |
+| 限制**无特权用户命名空间** | ESP 变体 | RxRPC 变体不需要命名空间。AppArmor 策略也只是**部分**缓解 |
 | **修补内核** | 已修复的漏洞 | 下一个漏洞，以及补丁引入的任何漏洞 |
 
 有两个模式值得注意。
 
 **第一，变通方案彼此冲突。** 禁用 `algif_aead` 可以缓解 Copy Fail。Dirty Frag **无论该模块是否存在都会触发**。Fragnesia 需要禁用 `esp4` 和 `esp6`，这会影响任何使用 IPsec 的人。没有一份模块黑名单能覆盖整个漏洞系列。
 
-**第二，更糟的是，打补丁并非毫无代价的胜利。** Fragnesia 是由 **Dirty Frag 补丁引入的**。每个补丁都有引入新逻辑错误的风险，而在这个子系统中，逻辑错误会变成 root exploit。
+**第二，更糟的是，打补丁并非毫无代价的胜利。** Fragnesia 是由 **Dirty Frag 补丁引入的**。每个补丁都有引入新逻辑错误的风险，而在这个子系统中，逻辑错误会导致获取 root 权限的漏洞利用。
 
 *令人不安的结论是：这些漏洞都在页缓存中，都能从无特权代码触达，而且都是由每季度都在改进的工具发现的。任何黑名单都无法一直保持完整。*
 
@@ -212,7 +212,7 @@ KVM 的攻击面确实存在。Google 专门运行 **kvmCTF** 来发现此类漏
 - **KVM** 将这些机制提供给 Linux 内核，让内核充当虚拟机监控程序。
 - **VMM（虚拟机监控程序）**，如 Firecracker 或 QEMU，通过 KVM 创建并运行 guest。
 
-由于 guest 运行自己的内核，**guest 内部的**内核 exploit 只会危及 guest。攻击者没有共享内核可攻击。接下来攻击者必须逃出虚拟机监控程序本身，而 KVM 漏洞所在的攻击面更小。
+由于 guest 运行自己的内核，**guest 内部的**内核漏洞利用程序只会危及 guest。攻击者没有共享内核可攻击。接下来攻击者必须逃出虚拟机监控程序本身，而 KVM 漏洞所在的攻击面更小。
 
 实际应用中有两种重要实现，DepthFirst 的建议也都提到了：
 
@@ -233,7 +233,7 @@ KVM 的攻击面确实存在。Google 专门运行 **kvmCTF** 来发现此类漏
 |---|---|---|
 | **运行自己的代码**，单租户 | 低 | 保留容器。及时打补丁、移除 capabilities，并将根文件系统设为只读 |
 | **多租户主机**，用户可使用 shell | **高** | 将不可信工作负载迁移到 microVM。这是 DepthFirst 首先指出的情况 |
-| **运行不可信 PR 的 CI runner** | **高** | pull request 会在 runner 上获得 root。将每项任务隔离到自己的 VM 中 |
+| **运行不可信拉取请求的 CI 运行器** | **高** | 拉取请求中的代码会在运行器上获得 root 权限。将每项任务隔离到自己的 VM 中 |
 | **Notebook、agent sandbox、serverless** | **高** | 租户代码会成为主机 root。每个租户使用一个 microVM |
 | **Kubernetes 集群** | **较高** | 页缓存由主机共享。使用合适原语的 pod 会危及节点并跨越租户边界 |
 
@@ -283,13 +283,13 @@ echo 1 | tee /proc/sys/vm/drop_caches
 
 技术层面的答案很明确。战略层面的答案取决于多数团队忽略的一个问题。
 
-**如果你的威胁模型是好奇的用户或粗心的开发者，容器仍然够用。** 容器逃逸需要本地代码执行和内核 exploit。两者都不轻松，把所有工作负载迁移到 microVM 的运维成本也是真实存在的。
+**如果你的威胁模型是好奇的用户或粗心的开发者，容器仍然够用。** 容器逃逸需要本地代码执行和内核漏洞利用代码。两者都不轻松，把所有工作负载迁移到 microVM 的运维成本也是真实存在的。
 
 **如果威胁模型包括能在你的基础设施上运行代码的对手，那么容器如今只是一个小障碍。** DepthFirst 的结论值得直接引用：
 
 > “将这些漏洞武器化的门槛已大幅降低，因此我们必须假设攻击者已经能够随意逃逸标准容器。”
 
-这是有产品要销售的安全供应商在为某种架构辩护，对其保持质疑是合理的。**不过，这一论点并不依赖供应商。** 6,000 个 CVE 的数字是公开的，exploit 已发布，而且内核在设计上就是共享的。
+这是有产品要销售的安全供应商在为某种架构辩护，对其保持质疑是合理的。**不过，这一论点并不依赖供应商。** 6,000 个 CVE 的数字是公开的，漏洞利用代码已发布，而且内核在设计上就是共享的。
 
 *坦率地说：对于已经进入系统的攻击者，容器作为边界的价值正在下降；对于其他威胁，其价值没有变化。*
 
@@ -299,7 +299,7 @@ echo 1 | tee /proc/sys/vm/drop_caches
 
 以下三项结论按可信度排序：
 
-1. **技术前提已经明确。** 容器共享主机内核。本文中的四个漏洞都从无特权账户越过了边界，而且 exploit 已公开。
+1. **技术前提已经明确。** 容器共享主机内核。本文中的四个漏洞都从无特权账户越过了边界，而且漏洞利用代码已公开。
 
 2. **AI 改变了速度，而非原理。** 内核 LPE 一直存在。现在发现一个漏洞约需**一小时 AI 扫描**，而非数月专家工作；两家组织还在同一天独立发现了同一个零日漏洞。
 
@@ -324,7 +324,7 @@ echo 1 | tee /proc/sys/vm/drop_caches
 
 ## 后续步骤
 
-1. **阅读问题分析和已发布的 exploit：** **[容器不再是安全边界 - DepthFirst](https://depthfirst.com/research/containers-are-no-longer-safe)**
+1. **阅读问题分析和已发布的漏洞利用程序：** **[容器不再是安全边界 - DepthFirst](https://depthfirst.com/research/containers-are-no-longer-safe)**
 2. **查看 Copy Fail 系列的权威公告和缓解指导：** **[CERT/CC VU#260001](https://www.kb.cert.org/vuls/id/260001/)**
 3. **阅读 Dirty Frag 技术分析**，了解漏洞链及 `algif_aead` 缓解为何失效：**[Dirty Frag 技术分析](https://github.com/V4bel/dirtyfrag)**
 4. **查看 kvmCTF 规则和奖励等级**，了解虚拟机监控程序的攻击面：**[kvmCTF 概览](https://google.github.io/security-research/kvmctf/rules.html)**
@@ -347,11 +347,11 @@ echo 1 | tee /proc/sys/vm/drop_caches
 
 1. [容器不再是安全边界 - DepthFirst（Zhenpeng Lin，2026年9月22日）](https://depthfirst.com/research/containers-are-no-longer-safe)
 2. [CERT/CC Vulnerability Note VU#260001 - Copy Fail（CVE-2026-31431）](https://www.kb.cert.org/vuls/id/260001/)
-3. [Copy Fail 官方披露网站和 exploit 分析](https://copy.fail/)
+3. [Copy Fail 官方披露网站和漏洞利用分析](https://copy.fail/)
 4. [Dirty Frag 技术分析 - Hyunwoo Kim（CVE-2026-43284、CVE-2026-43500）](https://github.com/V4bel/dirtyfrag)
 5. [Fragnesia：通过 ESP-in-TCP 在 Linux 内核中本地提升权限 - Wiz（CVE-2026-46300）](https://www.wiz.io/blog/fragnesia-linux-kernel-local-privilege-escalation-via-esp-in-tcp)
 6. [kvmCTF 概览及奖励等级 - Google](https://google.github.io/security-research/kvmctf/rules.html)
 7. [CVE-2026-31431 的 NVD 条目](https://nvd.nist.gov/vuln/detail/CVE-2026-31431)
 8. [Copy Fail 的上游 mainline 修复提交](https://github.com/torvalds/linux/commit/a664bf3d603dc3bdcf9ae47cc21e0daec706d7a5)
 9. [Ubuntu 关于 Copy Fail 修复的安全公告](https://ubuntu.com/blog/copy-fail-vulnerability-fixes-available)
-10. [KernelCTF exploit 和提交记录 - Google Security Research](https://github.com/google/security-research/tree/master/pocs/linux/kernelctf)
+10. [KernelCTF 漏洞利用代码与提交记录 - Google Security Research](https://github.com/google/security-research/tree/master/pocs/linux/kernelctf)

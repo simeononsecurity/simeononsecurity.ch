@@ -97,7 +97,7 @@ Fiecare dintre aceste vulnerabilități oferă root unui cont local fără privi
 |---|---|---|---|---|
 | **Copy Fail** | CVE-2026-31431 | `algif_aead` / AF_ALG | Scriere de 4 octeți în cache-ul de pagini al oricărui fișier care poate fi citit | Theori, cu ajutor AI |
 | **Dirty Frag** | CVE-2026-43284 + CVE-2026-43500 | XFRM ESP, RxRPC | Scriere de 4 octeți în cache-ul de pagini prin două variante înlănțuite | Hyunwoo Kim |
-| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP | Scrieri de un singur octet în cache-ul de pagini | Hyunwoo Kim |
+| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP (ESP încapsulat în TCP) | Scrieri de un singur octet în cache-ul de pagini | Hyunwoo Kim |
 | **AF_UNIX UAF** | CVE-2026-80521 | Socketuri AF_UNIX | Use-after-free în colectarea gunoiului pentru `unix_vertex` | DepthFirst, cu ajutor AI |
 
 Toate patru au un tipar de proiectare demn de remarcat: **atacă cache-ul de pagini, nu discul.**

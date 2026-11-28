@@ -97,7 +97,7 @@ Ognuna di queste vulnerabilità consente di ottenere root da un account locale n
 |---|---|---|---|---|
 | **Copy Fail** | CVE-2026-31431 | `algif_aead` / AF_ALG | Scrittura di 4 byte nella page cache di qualsiasi file leggibile | Theori, con AI |
 | **Dirty Frag** | CVE-2026-43284 + CVE-2026-43500 | XFRM ESP, RxRPC | Scrittura di 4 byte nella page cache tramite due varianti concatenate | Hyunwoo Kim |
-| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP | Scritture di singoli byte nella page cache | Hyunwoo Kim |
+| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP (ESP incapsulato in TCP) | Scritture di singoli byte nella page cache | Hyunwoo Kim |
 | **AF_UNIX UAF** | CVE-2026-80521 | Socket AF_UNIX | Use-after-free nel garbage collection di `unix_vertex` | DepthFirst, con AI |
 
 Tutte e quattro condividono un modello che merita attenzione. **Attaccano la page cache, non il disco.**
@@ -210,7 +210,7 @@ Lo stack ha tre livelli da conoscere:
 
 - **La CPU** fornisce meccanismi hardware per isolare regioni di memoria.
 - **KVM** espone questi meccanismi al kernel Linux, che opera così come hypervisor.
-- **Una VMM (virtual machine monitor)**, come Firecracker o QEMU, controlla KVM per creare ed eseguire il guest.
+- **Una VMM (monitor di macchina virtuale)**, come Firecracker o QEMU, controlla KVM per creare ed eseguire il guest.
 
 Poiché il guest esegue un proprio kernel, un exploit del kernel **dentro il guest** compromette solo il guest. Non c'è un kernel condiviso da attaccare. L'attaccante dovrebbe poi evadere dall'hypervisor, la superficie più piccola in cui si trovano i bug KVM.
 

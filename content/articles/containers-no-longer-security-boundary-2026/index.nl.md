@@ -97,7 +97,7 @@ Elk van deze kwetsbaarheden geeft rootrechten vanaf een niet-bevoorrecht lokaal 
 |---|---|---|---|---|
 | **Copy Fail** | CVE-2026-31431 | `algif_aead` / AF_ALG | Schrijft 4 bytes naar de page cache van elk leesbaar bestand | Theori, met AI-ondersteuning |
 | **Dirty Frag** | CVE-2026-43284 + CVE-2026-43500 | XFRM ESP, RxRPC | Schrijft 4 bytes naar de page cache via twee gekoppelde varianten | Hyunwoo Kim |
-| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP | Schrijft afzonderlijke bytes naar de page cache | Hyunwoo Kim |
+| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP (ESP ingekapseld in TCP) | Schrijft afzonderlijke bytes naar de page cache | Hyunwoo Kim |
 | **AF_UNIX UAF** | CVE-2026-80521 | AF_UNIX-sockets | Use-after-free in de garbagecollection van `unix_vertex` | DepthFirst, met AI-ondersteuning |
 
 Deze vier kwetsbaarheden delen een patroon dat aandacht verdient. **Ze vallen de page cache aan, niet de schijf.**

@@ -22,7 +22,7 @@ Cet article explique comment les conteneurs isolent les charges de travail, pour
 
 ## Réponse courte
 
-| Question | Réponse courte |
+| Question examinée | Réponse courte |
 |---|---|
 | **Les conteneurs isolent-ils ?** | Oui, au niveau des processus et du système de fichiers. Tous partagent un noyau, donc les bogues du noyau représentent un risque commun |
 | **Pourquoi maintenant ?** | La recherche de bogues assistée par IA a réduit le coût de découverte des failles du noyau. Près de **6 000 CVE du noyau** avaient été publiées en septembre 2026 |
@@ -97,7 +97,7 @@ Chacune de ces vulnérabilités accorde root à un compte local sans privilèges
 |---|---|---|---|---|
 | **Copy Fail** | CVE-2026-31431 | `algif_aead` / AF_ALG | Écriture de 4 octets dans le cache de pages de tout fichier lisible | Theori, avec l’aide de l’IA |
 | **Dirty Frag** | CVE-2026-43284 + CVE-2026-43500 | XFRM ESP, RxRPC | Écriture de 4 octets dans le cache de pages via deux variantes enchaînées | Hyunwoo Kim |
-| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP | Écritures d’un seul octet dans le cache de pages | Hyunwoo Kim |
+| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP (ESP encapsulé dans TCP) | Écritures d’un seul octet dans le cache de pages | Hyunwoo Kim |
 | **AF_UNIX UAF** | CVE-2026-80521 | Sockets AF_UNIX | Use-after-free dans le ramasse-miettes de `unix_vertex` | DepthFirst, avec l’aide de l’IA |
 
 Les quatre partagent un schéma de conception à noter : **elles attaquent le cache de pages, et non le disque.**

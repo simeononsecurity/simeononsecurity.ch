@@ -1,7 +1,7 @@
 ---
 title: "2026年、コンテナはもはやセキュリティ境界ではない"
 date: 2026-09-28
-lastmod: 2026-11-13
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "2026年のカーネル脆弱性は、マルチテナント環境でコンテナ分離だけでは不十分な理由を示します。Copy Fail、Dirty Frag、Fragnesia、CVE-2026-80521を解説し、強化コンテナとmicroVMの境界を比較します。"
@@ -97,7 +97,7 @@ DepthFirstは規模を明示しています。**2026年9月までに約6,000件�
 |---|---|---|---|---|
 | **Copy Fail** | CVE-2026-31431 | `algif_aead` / AF_ALG | 読み取り可能な任意のファイルのページキャッシュへ4バイト書き込み | Theori、AI支援 |
 | **Dirty Frag** | CVE-2026-43284 + CVE-2026-43500 | XFRM ESP、RxRPC | 連鎖する2つの変種によるページキャッシュへの4バイト書き込み | Hyunwoo Kim |
-| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP | ページキャッシュへの1バイト書き込み | Hyunwoo Kim |
+| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP (TCP内のESPカプセル化) | ページキャッシュへの1バイト書き込み | Hyunwoo Kim |
 | **AF_UNIX UAF** | CVE-2026-80521 | AF_UNIXソケット | `unix_vertex`のガベージコレクションにおけるuse-after-free | DepthFirst、AI支援 |
 
 4つに共通する設計パターンがあります。**ディスクではなくページキャッシュを攻撃します。**
@@ -110,7 +110,7 @@ LinuxのLPEの多くは時間的な隙間やカーネル固有のメモリオフ
 
 攻撃チェーンは`splice()`でページキャッシュのページを処理に入れ、インプレースAEAD経路を悪用して、そのページに**制御した4バイト**を書き込みます。破損したページは**dirtyとしてマークされない**ため、ディスクに書き戻されません。ディスク上のファイルは正常なままなので、メモリ内コピーが変更されてもチェックサムと完全性検証は成功します。
 
-**732バイトのPythonスクリプト**で、2017年以降にリリースされた全Linuxディストリビューションでrootを取得できます。`algif_aead`の**2017年の最適化**がバグを導入し、2026年のパッチはその最適化を元に戻します。Mainline commit `a664bf3d603d`。
+**732バイトのPythonスクリプト**で、2017年以降にリリースされた全Linuxディストリビューションでrootを取得できます。`algif_aead`の**2017年の最適化**がバグを導入し、2026年のパッチはその最適化を元に戻します。メインラインのコミット `a664bf3d603d`。
 
 *このバグは約10年間すべての主要ディストリビューションに潜み、AIツールは約1時間で見つけました。*
 
@@ -120,10 +120,10 @@ Dirty Fragという名前は由来を正確に表します。**Dirty Pipeは`str
 
 **2つの脆弱性が連鎖**しており、その連鎖が巧妙です。
 
-- **CVE-2026-43284**は、`esp_input()`がcopy-on-write経路を飛ばして、spliceされたフラグメントをインプレース復号する点を悪用します。一部のディストリビューションが制限する**user namespace**作成権限が必要です。
-- **CVE-2026-43500**は、`rxkad_verify_packet_1()`によるフラグメントのインプレース復号を悪用します。namespace権限は不要ですが、`rxrpc`モジュールはほとんどのディストリビューションにありません。Ubuntuはデフォルトで読み込みます。
+- **CVE-2026-43284**は、`esp_input()`がcopy-on-write経路を飛ばして、spliceされたフラグメントをインプレース復号する点を悪用します。一部のディストリビューションが制限する**ユーザー名前空間**作成権限が必要です。
+- **CVE-2026-43500**は、`rxkad_verify_packet_1()`によるフラグメントのインプレース復号を悪用します。名前空間の権限は不要ですが、`rxrpc`モジュールはほとんどのディストリビューションにありません。Ubuntuはデフォルトで読み込みます。
 
-**単独ではそれぞれに盲点があります。2つを合わせると互いを補います。** user namespaceが許可されていればESP経路が先に動きます。禁止されていても`rxrpc`があればRxRPC経路が動きます。1つのexploitバイナリで複数のディストリビューションに対応し、RxRPC変種は`/etc/passwd`のフィールドを空にし、PAMの`nullok`で空パスワードを受け入れさせてrootを取得します。
+**単独ではそれぞれに盲点があります。2つを合わせると互いを補います。** ユーザー名前空間が許可されていればESP経路が先に動きます。禁止されていても`rxrpc`があればRxRPC経路が動きます。1つのエクスプロイトの実行ファイルで複数のディストリビューションに対応し、RxRPC変種は`/etc/passwd`のフィールドを空にし、PAMの`nullok`で空パスワードを受け入れさせてrootを取得します。
 
 **防御側に最も重要な発見：** **`algif_aead`の有無にかかわらず**Dirty Fragは発動します。Copy Fail対策として広く知られるモジュールのブラックリストは、**Dirty Fragをまったく防ぎません**。
 
@@ -135,7 +135,7 @@ FragnesiaはDirty Fragと同じ種類ですが、XFRMの**ESP-in-TCP**経路を�
 
 小さなELFペイロードで`/usr/bin/su`の先頭バイトを上書きし、rootを取得します。**変更はメモリ内だけで起き、ディスク上のバイナリには触れません。**
 
-非特権の**userおよびnetwork namespaces**で、分離名前空間内の`CAP_NET_ADMIN`が使えます。その後NETLINK_XFRMが細工されたセキュリティ関連付けをインストールします。
+非特権の**ユーザー名前空間およびネットワーク名前空間**で、分離名前空間内の`CAP_NET_ADMIN`が使えます。その後NETLINK_XFRMが細工されたセキュリティ関連付けをインストールします。
 
 *この一文は立ち止まって考えてください。* Fragnesiaは、元のDirty Frag脆弱性を修正するパッチの**意図しない副作用**として発生しました。Dirty Fragを修正した結果、独立してrootを取得できる新しいバグが生まれました。
 
@@ -149,7 +149,7 @@ Linux以外にも影響するのは、**AF_UNIXがローカルIPCの基盤だか
 
 DepthFirstはこの脆弱性で**Google kernelCTFの枠**を**2026年7月24日**に獲得し、**8月5日**に`lts-6.12.95`枠で確認を受け、同日に`security@kernel.org`へ報告しました。その後、**OpenAIのKyleも同じバグを報告していた**と知りました。上流パッチは**8月6日**に入り、調査結果は**9月22日**に公開されました。
 
-**Ubuntu 26.04**を標的にした実用的なexploitと、**Ubuntu 24.04**から脱出するCVE-2026-52910のexploitも公開されました。
+**Ubuntu 26.04**を標的にした実用的なエクスプロイトと、**Ubuntu 24.04**から脱出するCVE-2026-52910のエクスプロイトも公開されました。
 
 {{< figure src="kernel-page-cache-overwrite-container-escape.webp" alt="コンテナ内の非特権プロセスがページキャッシュを破損させ、setuidバイナリをメモリ上で変更してrootを取得し、コンテナ境界を越えてホストカーネルへ出る様子を示す図" >}}
 
@@ -161,14 +161,14 @@ DepthFirstはこの脆弱性で**Google kernelCTFの枠**を**2026年7月24日**
 |---|---|---|
 | **`algif_aead`**をブラックリストに追加 | Copy Fail | モジュールを完全に無視する**Dirty Fragは何も防げない** |
 | **`esp4`、`esp6`、`rxrpc`**をブラックリストに追加 | Dirty Frag、Fragnesia | IPsecが必要なチーム。また、まったく新しいサブシステムも対象外 |
-| **非特権user namespaces**を制限 | ESP変種 | RxRPC変種にはnamespaceが不要。AppArmorポリシーも**部分的**な緩和にすぎない |
+| **非特権ユーザー名前空間**を制限 | ESP変種 | RxRPC変種には名前空間が不要。AppArmorポリシーも**部分的**な緩和にすぎない |
 | **カーネルにパッチを適用** | 修正対象のバグ | 次のバグと、パッチが導入するすべてのバグ |
 
 2つの傾向が目立ちます。
 
 **第一に、回避策同士が矛盾します。** `algif_aead`を無効化すればCopy Failを緩和できます。Dirty Fragはモジュールの有無に**関係なく**発動します。Fragnesiaを防ぐには`esp4`と`esp6`を無効化する必要があり、IPsec利用者には問題です。すべての脆弱性群をカバーする単一のモジュールブラックリストはありません。
 
-**第二に、さらに悪いことに、パッチ適用はリスクのない勝利ではありません。** Fragnesiaは**Dirty Fragのパッチによって導入されました**。どのパッチにも新しいロジックエラーを生むリスクがあり、このサブシステムではロジックエラーがroot exploitになります。
+**第二に、さらに悪いことに、パッチ適用はリスクのない勝利ではありません。** Fragnesiaは**Dirty Fragのパッチによって導入されました**。どのパッチにも新しいロジックエラーを生むリスクがあり、このサブシステムではロジックエラーがroot権限を取得するエクスプロイトになります。
 
 *不都合な結論：脆弱性はすべてページキャッシュにあり、非特権コードから到達でき、四半期ごとに改善するツールで発見されました。完全なブラックリストを維持することはできません。*
 
@@ -212,7 +212,7 @@ KVMの攻撃面は現実のものです。Googleはバグを見つけるため�
 - **KVM**はその機構をLinuxカーネルに公開し、カーネルをハイパーバイザーとして動作させます。
 - FirecrackerやQEMUなどの**VMM（仮想マシンモニター）**がKVMを操作して、ゲストを作成・実行します。
 
-ゲストは独自のカーネルを実行するため、ゲスト**内の**カーネルexploitが侵害するのはゲストだけです。攻撃対象となる共有カーネルはありません。攻撃者はさらにハイパーバイザー自体から脱出する必要があり、KVMのバグが存在する面は小さくなります。
+ゲストは独自のカーネルを実行するため、ゲスト**内の**カーネルエクスプロイトが侵害するのはゲストだけです。攻撃対象となる共有カーネルはありません。攻撃者はさらにハイパーバイザー自体から脱出する必要があり、KVMのバグが存在する面は小さくなります。
 
 実運用で重要な実装が2つあり、DepthFirstの推奨にも両方が含まれます。
 
@@ -233,7 +233,7 @@ Kataは既存のコンテナイメージとツールを受け入れるため、�
 |---|---|---|
 | **自分のコードを実行**、単一テナント | 低 | コンテナを維持。速やかにパッチを適用し、capabilitiesを削除し、ルートファイルシステムを読み取り専用にする |
 | **マルチテナントホスト**、ユーザーにshellアクセスを許可 | **高** | 信頼できないワークロードをmicroVMへ移行。DepthFirstが最初に指摘したケース |
-| **信頼できないPRを実行するCIランナー** | **高** | Pull Requestがランナー上でrootになる。各ジョブを専用VMに分離 |
+| **信頼できないプルリクエストを実行するCIランナー** | **高** | プルリクエストがランナー上でrootになる。各ジョブを専用VMに分離 |
 | **ノートブック、エージェント用サンドボックス、serverless** | **高** | テナントのコードがホストrootになる。テナントごとにmicroVMを用意 |
 | **Kubernetesクラスター** | **高め** | ページキャッシュはホストで共有される。適切なプリミティブを使うpodはノードを侵害し、テナント境界を越える |
 
@@ -283,13 +283,13 @@ echo 1 | tee /proc/sys/vm/drop_caches
 
 技術的な答えは明確です。戦略的な答えは、多くのチームが省略する問い次第です。
 
-**脅威モデルが好奇心のあるユーザーや不注意な開発者なら、コンテナで十分です。** コンテナ脱出にはローカルでのコード実行とカーネルexploitが必要です。どちらも簡単ではなく、すべてをmicroVMへ移す運用コストも現実にあります。
+**脅威モデルが好奇心のあるユーザーや不注意な開発者なら、コンテナで十分です。** コンテナ脱出にはローカルでのコード実行とカーネルエクスプロイトが必要です。どちらも簡単ではなく、すべてをmicroVMへ移す運用コストも現実にあります。
 
 **脅威モデルにインフラ上でコードを実行する攻撃者が含まれるなら、コンテナは小さな障害物にすぎません。** DepthFirstの結論は言い換えずに引用する価値があります。
 
 > 「これらの脆弱性を武器化する参入障壁は大幅に下がったため、攻撃者は標準コンテナから自由に脱出できる能力をすでに持つと想定する必要があります。」
 
-これは製品を販売するセキュリティベンダーが、特定のアーキテクチャを推す主張です。疑って見るのは妥当です。**ただし論拠はベンダーに依存しません。** 6,000件のCVEは公開情報で、exploitも公開済みで、設計上カーネルは共有されています。
+これは製品を販売するセキュリティベンダーが、特定のアーキテクチャを推す主張です。疑って見るのは妥当です。**ただし論拠はベンダーに依存しません。** 6,000件のCVEは公開情報で、エクスプロイトも公開済みで、設計上カーネルは共有されています。
 
 *率直に言えば、足場を得た攻撃者に対するコンテナ境界の価値は下がっています。それ以外に対する価値は変わりません。*
 
@@ -299,7 +299,7 @@ echo 1 | tee /proc/sys/vm/drop_caches
 
 確信度順の3つの主張です。
 
-1. **技術的な前提は確立しています。** コンテナはホストカーネルを共有します。本記事の4つの脆弱性はすべて、非特権アカウントから境界を突破し、exploitも公開されています。
+1. **技術的な前提は確立しています。** コンテナはホストカーネルを共有します。本記事の4つの脆弱性はすべて、非特権アカウントから境界を突破し、エクスプロイトも公開されています。
 
 2. **AIが変えたのは原理ではなく速度です。** カーネルLPEは以前から存在します。今では専門家が数カ月かける代わりに、**AIスキャン約1時間**で1件を発見できます。2つの組織が同じゼロデイを同日に独立発見しました。
 
@@ -324,7 +324,7 @@ echo 1 | tee /proc/sys/vm/drop_caches
 
 ## 次のステップ
 
-1. **問題の分析と公開済みexploitを読む：** **[コンテナはもはやセキュリティ境界ではない - DepthFirst](https://depthfirst.com/research/containers-are-no-longer-safe)**
+1. **問題の分析と公開済みエクスプロイトを読む：** **[コンテナはもはやセキュリティ境界ではない - DepthFirst](https://depthfirst.com/research/containers-are-no-longer-safe)**
 2. **Copy Fail群の公式勧告と緩和策を確認する：** **[CERT/CC VU#260001](https://www.kb.cert.org/vuls/id/260001/)**
 3. **Dirty Fragの技術解説を読み**、連鎖の仕組みと`algif_aead`対策が失敗する理由を理解する：**[Dirty Frag技術解説](https://github.com/V4bel/dirtyfrag)**
 4. **kvmCTFのルールと報奨金を確認し**、ハイパーバイザー攻撃面を把握する：**[kvmCTF概要](https://google.github.io/security-research/kvmctf/rules.html)**
@@ -347,11 +347,11 @@ echo 1 | tee /proc/sys/vm/drop_caches
 
 1. [コンテナはもはやセキュリティ境界ではない - DepthFirst（Zhenpeng Lin、2026年9月22日）](https://depthfirst.com/research/containers-are-no-longer-safe)
 2. [CERT/CC Vulnerability Note VU#260001 - Copy Fail（CVE-2026-31431）](https://www.kb.cert.org/vuls/id/260001/)
-3. [Copy Fail公式開示サイトとexploit分析](https://copy.fail/)
+3. [Copy Fail公式開示サイトとエクスプロイト分析](https://copy.fail/)
 4. [Dirty Frag技術解説 - Hyunwoo Kim（CVE-2026-43284、CVE-2026-43500）](https://github.com/V4bel/dirtyfrag)
 5. [Fragnesia：ESP-in-TCPによるLinuxカーネルのローカル権限昇格 - Wiz（CVE-2026-46300）](https://www.wiz.io/blog/fragnesia-linux-kernel-local-privilege-escalation-via-esp-in-tcp)
 6. [kvmCTF概要と報奨金レベル - Google](https://google.github.io/security-research/kvmctf/rules.html)
 7. [CVE-2026-31431のNVDエントリー](https://nvd.nist.gov/vuln/detail/CVE-2026-31431)
 8. [Copy Failの上流mainline修正コミット](https://github.com/torvalds/linux/commit/a664bf3d603dc3bdcf9ae47cc21e0daec706d7a5)
 9. [Copy Fail修正に関するUbuntuセキュリティ通知](https://ubuntu.com/blog/copy-fail-vulnerability-fixes-available)
-10. [KernelCTFのexploitと提出物 - Google Security Research](https://github.com/google/security-research/tree/master/pocs/linux/kernelctf)
+10. [KernelCTFのエクスプロイトと提出物 - Google Security Research](https://github.com/google/security-research/tree/master/pocs/linux/kernelctf)

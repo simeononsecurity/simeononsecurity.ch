@@ -1,7 +1,7 @@
 ---
 title: "Container sind keine Sicherheitsgrenze mehr: Kernel-Ausbrüche im Jahr 2026"
 date: 2026-09-28
-lastmod: 2026-11-13
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Ein Überblick über Container-Ausbruchsforschung aus 2026, die Grenzen der Kernel-Isolation, den Patchdruck und die Rolle von MicroVMs."
@@ -97,7 +97,7 @@ Jede dieser Schwachstellen verschafft einem nicht privilegierten lokalen Konto R
 |---|---|---|---|---|
 | **Copy Fail** | CVE-2026-31431 | `algif_aead` / AF_ALG | Schreibt 4 Byte in den Page Cache jeder lesbaren Datei | Theori, KI-gestützt |
 | **Dirty Frag** | CVE-2026-43284 + CVE-2026-43500 | XFRM ESP, RxRPC | Schreibt 4 Byte über zwei verkettete Varianten in den Page Cache | Hyunwoo Kim |
-| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP | Einzelne Byte-Schreibvorgänge in den Page Cache | Hyunwoo Kim |
+| **Fragnesia** | CVE-2026-46300 | XFRM ESP-in-TCP (ESP in TCP gekapselt) | Einzelne Byte-Schreibvorgänge in den Page Cache | Hyunwoo Kim |
 | **AF_UNIX UAF** | CVE-2026-80521 | AF_UNIX-Sockets | Use-after-free bei der Garbage Collection von `unix_vertex` | DepthFirst, KI-gestützt |
 
 Alle vier haben ein gemeinsames Muster, das auffällt: **Sie greifen den Page Cache an, nicht den Datenträger.**
@@ -210,7 +210,7 @@ Der Stack hat drei wichtige Ebenen:
 
 - **Die CPU** stellt Hardwaremechanismen bereit, die Speicherbereiche voneinander isolieren.
 - **KVM** stellt diese Mechanismen dem Linux-Kernel zur Verfügung, sodass der Kernel als Hypervisor arbeitet.
-- **Eine VMM (Virtual Machine Monitor)** wie Firecracker oder QEMU steuert KVM, um den Gast zu erstellen und auszuführen.
+- **Ein VMM (System zur Steuerung virtueller Maschinen)** wie Firecracker oder QEMU steuert KVM, um den Gast zu erstellen und auszuführen.
 
 Da der Gast einen eigenen Kernel ausführt, kompromittiert ein Kernel-Exploit **im Gast** nur den Gast. Es gibt keinen gemeinsamen Kernel, den man angreifen kann. Ein Angreifer müsste danach aus dem Hypervisor ausbrechen, der kleineren Angriffsfläche, in der KVM-Fehler liegen.
 
@@ -267,7 +267,7 @@ echo 1 | tee /proc/sys/vm/drop_caches
 - Laden von esp4, esp6 oder rxrpc auf Hosts ohne IPsec und AFS
 ```
 
-> **Warnung: `drop_caches` verwirft die veränderte Speicherkopie und beseitigt dadurch die Korruption. Es entfernt aber keinen Angreifer, der bereits Root erreicht hat. Behandle dies als Incident Response, nicht als Behebung.**
+> **Warnung: `drop_caches` verwirft die veränderte Speicherkopie und beseitigt dadurch die Korruption. Es entfernt aber keinen Angreifer, der bereits Root erreicht hat. Behandle dies als Reaktion auf einen Sicherheitsvorfall, nicht als Behebung.**
 
 ### Das Problem mit dem Patch-Zyklus
 
