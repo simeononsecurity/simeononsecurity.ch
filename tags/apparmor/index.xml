@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AppArmor on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>AppArmor on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/apparmor/</link></image><link>https://ar.simeononsecurity.com/tags/apparmor/</link><description>Recent content in AppArmor on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/apparmor/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker داخل LXC على Proxmox: الموثوقية والأدلة والترحيل إلى VM</title><link>https://ar.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "إدارة لينكس"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قيّم Docker داخل Proxmox LXC بالاستناد إلى خلل موثّق في AppArmor، وقراءة متأنية لتقرير عن تجمّد المضيف، وأوامر تشخيصية، وخطة ترحيل إلى VM.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>أهم ما ينبغي فعله وما يجب تجنبه لتقوية نظام Linux</title><link>https://ar.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><category>
+"أمن Linux"
+, "تقوية النظام"
+, "جدار الحماية"
+, "SELinux"
+, "AppArmor"
+, "سياسة كلمات المرور"
+, "تحديثات النظام"
+, "سجلات النظام"
+, "وحدات الأمان"
+, "سياسات التحكم بالوصول"
+, "الأمن السيبراني"
+, "أمن النظام"
+, "أمن الشبكات"
+, "إدارة الثغرات"
+, "أفضل ممارسات الأمان"
+, "أمن تقنية المعلومات"
+, "أمن المعلومات"
+, "تحديثات البرامج"
+, "وصول الجذر"
+, "مدير كلمات المرور"</category><guid>https://ar.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+إرشادات لتقوية Linux تشمل التحديثات وجدران الحماية وSELinux أو AppArmor وسياسات كلمات المرور ومراقبة السجلات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.webp" length="138234" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>مختبر منزلي on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>مختبر منزلي on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/%D9%85%D8%AE%D8%AA%D8%A8%D8%B1-%D9%85%D9%86%D8%B2%D9%84%D9%8A/</link></image><link>https://ar.simeononsecurity.com/tags/%D9%85%D8%AE%D8%AA%D8%A8%D8%B1-%D9%85%D9%86%D8%B2%D9%84%D9%8A/</link><description>Recent content in مختبر منزلي on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/%D9%85%D8%AE%D8%AA%D8%A8%D8%B1-%D9%85%D9%86%D8%B2%D9%84%D9%8A/index.xml" rel="self" type="application/rss+xml"/><item><title>أنشئ مختبرًا منزليًا في 10 مستويات، من Pi-hole إلى الذكاء الاصطناعي المحلي</title><link>https://ar.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"مختبر منزلي"
+, "استضافة ذاتية"
+, "ذكاء اصطناعي محلي"
+, "شبكات منزلية"</category><guid>https://ar.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أنشئ مختبرًا منزليًا عبر عشر مراحل عملية، من تصفية DNS للشبكة كلها إلى الذكاء الاصطناعي المحلي، مع الأجهزة والتكاليف والمهارات والمفاضلات في كل مستوى.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>أكثر أنواع الهجمات السيبرانية شيوعًا وكيفية اكتشافها</title><link>https://ar.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "اكتشاف التهديدات"
+, "الفريق الأزرق"
+, "العمليات الأمنية"
+, "التطوير المهني"</category><guid>https://ar.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على أنواع الهجمات السيبرانية الشائعة، وآثارها في السجلات والقياسات عن بُعد، وتدرّب على اكتشافها في مختبر أمني منزلي.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item><item><title>إنشاء مختبر منزلي اقتصادي وآمن لاختبار تقنيات المعلومات</title><link>https://ar.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</link><pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate><category>
+"مختبر منزلي"
+, "الافتراضية"
+, "الأجهزة"
+, "البرمجيات"
+, "الشبكات"
+, "الأمان"
+, "التعلم"
+, "الاختبار"
+, "تقنية المعلومات"
+, "عشاق التقنية"
+, "VMware"
+, "Proxmox"
+, "Hyper-V"
+, "Linux"
+, "Windows"
+, "إعداد الشبكة"
+, "إدارة الآلات الافتراضية"
+, "النسخ الاحتياطي والاستعادة"
+, "الحوسبة السحابية"
+, "الأمن السيبراني"</category><guid>https://ar.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف إلى إعداد مختبر منزلي آمن ومنخفض التكلفة لاكتساب خبرة عملية وتجربة البرمجيات والأجهزة ومفاهيم الشبكات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.webp" length="163548" type="image/webp"/></item><item><title>ما هو المختبر المنزلي؟ دليل الإعداد لمحترفي تكنولوجيا المعلومات</title><link>https://ar.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"مختبر منزلي"
+, "محترفو تكنولوجيا المعلومات"
+, "الطلاب"
+, "الهواة"
+, "الشبكات"
+, "الافتراضية"
+, "الأتمتة"
+, "الأجهزة"
+, "البرمجيات"
+, "أفضل الممارسات"</category><guid>https://ar.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+افتح إمكانيات مختبرك المنزلي مع هذا الدليل الشامل، المصمم لمحترفي تكنولوجيا المعلومات والطلاب والهواة، ويغطي الإعداد والمكونات والمواضيع المتقدمة وأفضل الممارسات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp" length="167376" type="image/webp"/></item></channel></rss>

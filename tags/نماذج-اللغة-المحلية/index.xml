@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>نماذج اللغة المحلية on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>نماذج اللغة المحلية on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/%D9%86%D9%85%D8%A7%D8%B0%D8%AC-%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D9%85%D8%AD%D9%84%D9%8A%D8%A9/</link></image><link>https://ar.simeononsecurity.com/tags/%D9%86%D9%85%D8%A7%D8%B0%D8%AC-%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D9%85%D8%AD%D9%84%D9%8A%D8%A9/</link><description>Recent content in نماذج اللغة المحلية on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/%D9%86%D9%85%D8%A7%D8%B0%D8%AC-%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D9%85%D8%AD%D9%84%D9%8A%D8%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>Hindsight مستضاف ذاتيًا: ذاكرة محلية للوكلاء وتوجيه خاص للنماذج</title><link>https://ar.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتيًا"
+, "وكلاء الذكاء الاصطناعي"
+, "بنية الذكاء الاصطناعي"
+, "الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دراسة حالة عن Hindsight المستضاف ذاتيًا، ومسارات Qwen المحلية التي فُحصت، وعمل GPU المرتبط بالطلب من دون اشتراك استدلال مستضاف في المسارات التي فُحصت.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>اختبارات Hermes للنماذج المحلية: تركيبات GPU والنماذج التي سأختارها</title><link>https://ar.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي"
+, "الذكاء الاصطناعي المحلي"
+, "الأجهزة"</category><guid>https://ar.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تستند توصياتي لنماذج Hermes إلى اختبارات السياق الطويل والأدوات والبث والرؤية على أنظمة RTX 5060 Ti وRTX 2000E Ada وRTX 3060 Ti وRTX 3070.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>خصوصية الذكاء الاصطناعي المحلي: ما يبقى على حاسوبك وما لا يبقى</title><link>https://ar.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الخصوصية"
+, "الذكاء الاصطناعي المستضاف ذاتياً"
+, "الأمن السيبراني"
+, "اقتصاديات الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تتبّع المطالبات وملفات النماذج والأدوات والسجلات والتعرض الشبكي وتكاليف الطاقة قبل اختيار الاستدلال المحلي أو خدمة ذكاء اصطناعي مستضافة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>معايير أداء وحدات GPU لنموذجي Llama 3.1 8B وQwen3.8 27B على Vast.ai</title><link>https://ar.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "معايير أداء GPU"
+, "الذكاء الاصطناعي المستضاف ذاتياً"
+, "الحوسبة السحابية"
+, "الذكاء الاصطناعي"
+, "اقتصاديات الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن نتائج Ollama المقاسة لنموذجي Llama 3.1 8B وQwen3.8 27B على وحدات GPU في Vast.ai، من حيث التكلفة والاستضافة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

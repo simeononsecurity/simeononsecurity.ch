@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>البرمجة الآمنة on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>البرمجة الآمنة on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D8%A7%D9%84%D8%A2%D9%85%D9%86%D8%A9/</link></image><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D8%A7%D9%84%D8%A2%D9%85%D9%86%D8%A9/</link><description>Recent content in البرمجة الآمنة on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D8%A7%D9%84%D8%A2%D9%85%D9%86%D8%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>البرمجة الآمنة بلغة Python</title><link>https://ar.simeononsecurity.com/articles/secure-python-coding-insecure-functions/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><category>
+"البرمجة"
+, "الأمن السيبراني"
+, "تطوير البرمجيات"
+, "Python"
+, "كتابة الشيفرة"
+, "تطوير الويب"
+, "البرمجة الآمنة"
+, "التقنية"
+, "علوم الحاسوب"
+, "أمن البيانات"</category><guid>https://ar.simeononsecurity.com/articles/secure-python-coding-insecure-functions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعلّم كتابة شيفرة Python آمنة، وتجنب الدوال غير الآمنة، واتبع أفضل الممارسات لبناء تطبيقات موثوقة ومتينة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/secure-python-coding-wall.webp" length="111414" type="image/webp"/></item><item><title>دوال C# غير الآمنة: ممارسات البرمجة الآمنة</title><link>https://ar.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"تطوير البرمجيات"
+, "البرمجة بلغة C#"
+, "الأمن السيبراني"
+, "أمن الشيفرة"
+, "البرمجة الآمنة"
+, "أفضل ممارسات البرمجة"
+, "ثغرات البرمجيات"
+, "التشفير"
+, "تطوير الويب"
+, "أمن التطبيقات"</category><guid>https://ar.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+بدائل آمنة لدوال C# غير الآمنة. تعرّف على مخاطر سلامة الذاكرة واستبدال العمليات الخطرة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>أفضل ممارسات أمان Python</title><link>https://ar.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><category>
+"أمن Python"
+, "أمن الشيفرة"
+, "حماية البيانات"
+, "تطوير البرمجيات"
+, "الأمن السيبراني"
+, "البرمجة الآمنة"
+, "تطوير الويب"
+, "خصوصية البيانات"
+, "أمن التطبيقات"
+, "أمن تقنية المعلومات"</category><guid>https://ar.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على ممارسات أمان Python الأساسية لحماية الشيفرة والبيانات من التهديدات، وصون البيانات وسلامة الأنظمة وبناء الثقة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.webp" length="115818" type="image/webp"/></item><item><title>10 من أفضل ممارسات أمان PowerShell لحماية البرامج النصية</title><link>https://ar.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"أفضل ممارسات أمان PowerShell"
+, "أمان البرمجة النصية"
+, "أمان كلمات المرور"
+, "أمان تقنية المعلومات"
+, "الأمن السيبراني"
+, "إدارة Windows"
+, "الأتمتة"
+, "البرمجة الآمنة"
+, "أمان الشبكات"
+, "حماية البيانات"</category><guid>https://ar.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أمّن نصوص PowerShell وجلساته باستخدام ضوابط التنفيذ وتوقيع الشيفرة والتعامل مع الأسرار وتقييد الوصول والتسجيل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp" length="76288" type="image/webp"/></item><item><title>أفضل ممارسات البرمجة الآمنة بلغة Python</title><link>https://ar.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"البرمجة"
+, "أمن التطبيقات"
+, "تطوير Python"
+, "البرمجة الآمنة"
+, "تطوير الويب"
+, "تحليل البيانات"
+, "الذكاء الاصطناعي"
+, "تطوير البرمجيات"
+, "الأمن السيبراني"
+, "لغات البرمجة"</category><guid>https://ar.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ممارسات البرمجة الآمنة بلغة Python للحد من حقن SQL والبرمجة النصية عبر المواقع وغيرها من ثغرات التطبيقات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp"/></item></channel></rss>

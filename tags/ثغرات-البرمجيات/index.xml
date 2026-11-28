@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ثغرات البرمجيات on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>ثغرات البرمجيات on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/%D8%AB%D8%BA%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA/</link></image><link>https://ar.simeononsecurity.com/tags/%D8%AB%D8%BA%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA/</link><description>Recent content in ثغرات البرمجيات on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/%D8%AB%D8%BA%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA/index.xml" rel="self" type="application/rss+xml"/><item><title>لماذا يتفوق أمن البرمجيات مفتوحة المصدر على البرمجيات الاحتكارية</title><link>https://ar.simeononsecurity.com/articles/open-source-software-security/</link><pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "المصدر المفتوح"
+, "أمن البرمجيات"
+, "اللوائح الحكومية"
+, "التطوير التعاوني"
+, "الحماية الرقمية"
+, "أمن تقنية المعلومات"
+, "اتجاهات التقنية"
+, "السلامة على الإنترنت"
+, "خصوصية البيانات"</category><guid>https://ar.simeononsecurity.com/articles/open-source-software-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على أسباب اعتبار البرمجيات مفتوحة المصدر أكثر أمانًا من البرمجيات الاحتكارية، وكيف تساعد الشفافية والتعاون على حماية أصولك الرقمية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/open-source-software-security.webp" length="61142" type="image/webp"/></item><item><title>دوال C# غير الآمنة: ممارسات البرمجة الآمنة</title><link>https://ar.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"تطوير البرمجيات"
+, "البرمجة بلغة C#"
+, "الأمن السيبراني"
+, "أمن الشيفرة"
+, "البرمجة الآمنة"
+, "أفضل ممارسات البرمجة"
+, "ثغرات البرمجيات"
+, "التشفير"
+, "تطوير الويب"
+, "أمن التطبيقات"</category><guid>https://ar.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+بدائل آمنة لدوال C# غير الآمنة. تعرّف على مخاطر سلامة الذاكرة واستبدال العمليات الخطرة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>فهم أحصنة طروادة للوصول عن بُعد</title><link>https://ar.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "البرامج الضارة"
+, "أمن الحاسوب"
+, "التهديدات الرقمية"
+, "أحصنة طروادة للوصول عن بُعد"
+, "حماية البيانات"
+, "الخصوصية"
+, "الجريمة السيبرانية"
+, "أمن الشبكات"
+, "أمن المعلومات"</category><guid>https://ar.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على مخاطر أحصنة طروادة للوصول عن بُعد (RATs)، وتعلّم إجراءات فعالة للوقاية والحماية وصون أنظمة الحاسوب والبيانات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.webp" length="140888" type="image/webp"/></item><item><title>برامج مكافآت اكتشاف الثغرات: اختبار أمني بمشاركة الجمهور</title><link>https://ar.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</link><pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "برامج مكافآت اكتشاف الثغرات"
+, "الاختبار بمشاركة الجمهور"
+, "إدارة الثغرات"
+, "الأمن الرقمي"
+, "الاختراق الأخلاقي"
+, "التهديدات السيبرانية"
+, "اختبار الأمان"
+, "الدفاع السيبراني"
+, "ثغرات البرمجيات"</category><guid>https://ar.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على كيفية دعم برامج مكافآت اكتشاف الثغرات للإبلاغ عن الثغرات الأمنية واختبار الأمان والإفصاح المسؤول.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/bug-bounty-programs-engaging-the-crowd-in-security-testing.webp" length="238912" type="image/webp"/></item></channel></rss>

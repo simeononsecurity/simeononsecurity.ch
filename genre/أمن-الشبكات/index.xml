@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>أمن الشبكات on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>أمن الشبكات on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/</link></image><link>https://ar.simeononsecurity.com/genre/%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/</link><description>Recent content in أمن الشبكات on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/index.xml" rel="self" type="application/rss+xml"/><item><title>خطط لتقسيم VLAN في مختبرك المنزلي واختبره</title><link>https://ar.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"المختبر المنزلي"
+, "أمن الشبكات"
+, "الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أنشئ خطة VLAN تفصل الأجهزة الموثوقة والخوادم وأجهزة IoT والضيوف في مختبرك المنزلي. سجّل حركة المرور المسموح بها، واضبط الشبكة على مراحل، واختبر العزل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>بناء مساعد ذكاء اصطناعي يحمي الخصوصية لـ Meshtastic</title><link>https://ar.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"أمن الشبكات"
+, "الخصوصية"
+, "مفتوح المصدر"
+, "الأتمتة"</category><guid>https://ar.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تجربة عملية لبناء مساعد ذكاء اصطناعي محلي لـ Meshtastic، مع إعدادات خاصة ووصول TCP عبر طابور وأدوات لجلب المعلومات ولوحة تحكم أكثر أمانًا.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Cloudflare Tunnel وAccess: هل تحتاج إلى كليهما؟</title><link>https://ar.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"أمن الشبكات"
+, "الاستضافة الذاتية"
+, "أمن السحابة"</category><guid>https://ar.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على الفرق بين Cloudflare Tunnel وAccess، واختر حماية لوحة تحكم منزلية، وتجنب نشر تطبيق خاص دون مصادقة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>سباق كشف كاميرات Flock: ما الذي تغير في 2026</title><link>https://ar.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"تقنية الخصوصية"
+, "مكافحة المراقبة"
+, "مشروعات مفتوحة المصدر"
+, "الحقوق الرقمية"
+, "أمن الشبكات"
+, "أبحاث الأمن"
+, "اختراق العتاد"
+, "أدوات الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+استعرض التغييرات المبلغ عنها في وسائل كشف Flock Safety، وردود المجتمع، وأساليب الأشعة تحت الحمراء للتعرف على أنظمة الكاميرات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>الاتصال وأمن البيانات لعقد الحافة القابلة للنشر ميدانيًا</title><link>https://ar.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"الحوسبة الطرفية"
+, "تقنية المعلومات الميدانية"
+, "أمن الشبكات"
+, "VPN"
+, "التشفير"
+, "الأمن المادي"
+, "التعافي من الكوارث"</category><guid>https://ar.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل لتوصيل عقد الحوسبة الطرفية الميدانية وحمايتها باستخدام الشبكات الخلوية والأقمار الصناعية وLoRa وVPN وMFA وتقسيم الشبكات والسجلات والتشفير والاستجابة للسرقة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item><item><title>Flock Finder: خريطة كاميرات Flock Safety ALPR</title><link>https://ar.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"تقنية الخصوصية"
+, "مراقبة مضادة"
+, "مشاريع مفتوحة المصدر"
+, "الحقوق الرقمية"
+, "أمن الشبكات"
+, "أدوات الخصوصية"
+, "اختراق الأجهزة"
+, "بحث الأمن"</category><guid>https://ar.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder هو أداة مفتوحة المصدر ترسم خرائط لأكثر من 40,000 كاميرا Flock Safety ALPR حول العالم باستخدام بيانات WiGLE WiFi وبصمة OUI. تعرف على آلية عملها وقيودها وأدوات الأجهزة للكشف في الوقت الفعلي.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>ESP32 WiFi Canary: اكتشاف التهديدات السلبية في نطاق 2.4 غيغاهرتز</title><link>https://ar.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"أمن الشبكات"
+, "أمن WiFi"
+, "أمن إنترنت الأشياء"
+, "أبحاث الأمن"
+, "الأنظمة المضمنة"
+, "أدوات الخصوصية"
+, "مشاريع ESP32"
+, "أمن الأجهزة"
+, "الأمن اللاسلكي"
+, "أمن المصادر المفتوحة"</category><guid>https://ar.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تحليل تقني لـ ESP32 WiFi Canary، وهو مستشعر سلبي بتردد 2.4 غيغاهرتز لاكتشاف evil twin وإلغاء المصادقة وخفض الحماية وإغراق beacon.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>دليل DagShell للبرامج الثابتة المخصصة لجهاز Orbic RCL400 لعام 2026</title><link>https://ar.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"برامج ثابتة مخصصة"
+, "أمن الأجهزة المحمولة"
+, "أدوات الخصوصية"
+, "أمن الشبكات"
+, "القيادة لمسح الشبكات"
+, "اختبار الاختراق"
+, "أمن إنترنت الأشياء"
+, "أبحاث الأمن"
+, "أمن الأجهزة"
+, "تقنيات الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل تقني لبرنامج DagShell الثابت على Orbic RCL400، يشمل التثبيت وأدوات الخصوصية والقيادة لمسح الشبكات وحدود البحث.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>ثغرات كاميرات Flock Safety: اكتشاف أكثر من 50 خللاً</title><link>https://ar.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"أبحاث الأمن"
+, "تحليل الثغرات"
+, "تقنيات المراقبة"
+, "الأمن السيبراني"
+, "خصوصية المعلومات"
+, "أمن إنترنت الأشياء"
+, "الأمن المادي"
+, "أمن الشبكات"
+, "البنية التحتية الحيوية"
+, "التقنيات الحكومية"</category><guid>https://ar.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+يستعرض هذا البحث ثغرات كاميرات Flock Safety، بما فيها بيانات الاعتماد المكشوفة وضعف الحماية والوصول المادي وحدود الإفصاح.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>فورتينت مقابل سيسكو: مقارنة كاملة لأمن الشبكات</title><link>https://ar.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"أمن الشبكات"
+, "الأمن السيبراني"
+, "شبكات المؤسسات"
+, "مقارنة الجدران النارية"
+, "البنية التحتية لتكنولوجيا المعلومات"
+, "معدات الشبكات"
+, "حلول الأمان"
+, "إدارة الشبكات"
+, "مقارنة التكنولوجيا"
+, "اتخاذ قرارات تكنولوجيا المعلومات"</category><guid>https://ar.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+مقارنة شاملة لحلول أمن الشبكات من فورتينت وسيسكو تشمل الجدران النارية، المحولات، SD-WAN، التسعير، معايير الأداء، وتوصيات النشر لعام 2026.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp"/></item><item><title>مشروع Flock-You للكشف: دليل إعداد مضادات المراقبة</title><link>https://ar.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"أجهزة أمنية"
+, "مضادات المراقبة"
+, "تقنية الخصوصية"
+, "مشاريع مفتوحة المصدر"
+, "تطوير ESP32"
+, "مراقبة WiFi"
+, "أدوات الخصوصية"
+, "الحقوق الرقمية"
+, "اختراق الأجهزة"
+, "أمن الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل تقني شامل لمشروع Flock-You مفتوح المصدر للكشف عن كاميرات ALPR الخاصة بـ Flock Safety باستخدام أجهزة ESP32. يتضمن تعليمات الإعداد وتفاصيل البرامج الثابتة وخيارات الشراء.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>مقارنة بين Tailscale وHeadscale</title><link>https://ar.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "أمن الشبكات"
+, "الاستضافة الذاتية"
+, "WireGuard"
+, "انعدام الثقة"
+, "الشبكات المتداخلة"
+, "المصدر المفتوح"
+, "البنية التحتية السحابية"
+, "الوصول عن بُعد"
+, "إدارة الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن بين Tailscale وHeadscale من حيث نموذج الاستضافة والهوية والميزات والتكلفة والتشغيل والدعم، لتختار شبكة VPN متداخلة تستند إلى WireGuard وتناسب احتياجاتك.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item><item><title>إتقان آداب البريد الإلكتروني</title><link>https://ar.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</link><pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate><category>
+"التواصل المهني"
+, "أمن البريد الإلكتروني"
+, "آداب الأعمال"
+, "المهارات التقنية"
+, "الكفاءة في مكان العمل"
+, "أفضل ممارسات الأمن السيبراني"
+, "الثقافة الرقمية"
+, "التواصل عبر الإنترنت"
+, "أمن الشبكات"
+, "الكتابة الفعالة"</category><guid>https://ar.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+حسّن مراسلاتك المهنية والآمنة باتباع نصائح آداب البريد الإلكتروني هذه.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/email-etiquette_-ensuring-smooth-and-secure-email-operations.webp" length="84144" type="image/webp"/></item><item><title>جدران الحماية من الجيل التالي: ميزات أساسية لشركتك</title><link>https://ar.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</link><pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "أمن الشبكات"
+, "تقنية جدران الحماية"
+, "أمن الشركات"
+, "التكامل مع السحابة"
+, "التهديدات الرقمية"
+, "إدارة الشبكات"
+, "حلول الأمان"
+, "الأمان عبر الإنترنت"
+, "رؤى تقنية"</category><guid>https://ar.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اختر جدار حماية من الجيل التالي بناءً على التحكم في التطبيقات ومنع التسلل والحماية من التهديدات ودعم السحابة ومعدل النقل والمرونة والإدارة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/next-gen-firewalls_-features-you-can%27t-ignore-for-your-business.webp" length="128018" type="image/webp"/></item><item><title>Ubiquiti UniFi Express: مراجعة بوابة مدمجة ونقطة وصول WiFi 6</title><link>https://ar.simeononsecurity.com/articles/exploring-unifi-express-all-in-one-network-gateway/</link><pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate><category>
+"مراجعات تقنية"
+, "حلول الشبكات"
+, "إعداد الشبكة المنزلية"
+, "أجهزة WiFi 6"
+, "دليل UniFi Express"
+, "بوابة مدمجة"
+, "نقاط وصول لاسلكية"
+, "منتجات Ubiquiti"
+, "أمن الشبكات"
+, "شبكات الشركات الصغيرة"</category><guid>https://ar.simeononsecurity.com/articles/exploring-unifi-express-all-in-one-network-gateway/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+مراجعة UniFi Express بوصفه بوابة مدمجة تضم نقطة وصول WiFi 6 وتوفر إدارة مبسطة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/UniFi_Express_Connectivity.webp" length="64240" type="image/webp"/></item><item><title>مقارنة Ubiquiti UniFi Firewall وpfSense</title><link>https://ar.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate><category>
+"أمن الشبكات"
+, "حلول الجدران النارية"
+, "الأمن السيبراني"
+, "مقارنة أجهزة التوجيه"
+, "التقنية"
+, "حلول تقنية المعلومات"
+, "جدار ناري مفتوح المصدر"
+, "Ubiquiti مقابل pfSense"
+, "شبكة أعمال"
+, "شبكة منزلية"</category><guid>https://ar.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن Ubiquiti UniFi Firewall وpfSense لحماية شبكتك بفعالية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/Ubiquiti_UniFi_Firewall_vs_pfSense.webp" length="192366" type="image/webp"/></item><item><title>سجل Windows مقابل ملفات إعداد Linux</title><link>https://ar.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link><pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "أنظمة التشغيل"
+, "إدارة الأمن"
+, "تقنية الحاسوب"
+, "حماية البيانات"
+, "إعداد النظام"
+, "أمن تقنية المعلومات"
+, "أمن الشبكات"
+, "مقارنات تقنية"
+, "أمن المعلومات"</category><guid>https://ar.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن ميزات الأمان في سجل Windows وملفات إعداد Linux، وتعرّف إلى تدابير عملية لتقوية النظامين.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp"/></item><item><title>مقارنة Windows Task Scheduler بوظائف Cron في Linux</title><link>https://ar.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "أنظمة التشغيل"
+, "أتمتة الأنظمة"
+, "أدوات الأمان"
+, "تقنية الحاسوب"
+, "جدولة المهام"
+, "أمن الشبكات"
+, "إدارة الأنظمة"
+, "الدفاع السيبراني"
+, "إدارة تقنية المعلومات"</category><guid>https://ar.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن Windows Task Scheduler بوظائف Cron في Linux من منظور الأمن السيبراني وتقوية الأنظمة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>pfSense مقابل Firewalla مقابل OPNsense</title><link>https://ar.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</link><pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate><category>
+"أمن الشبكات"
+, "مقارنة الجدران النارية"
+, "حلول الأمن السيبراني"
+, "إدارة الشبكات"
+, "شبكة منزلية"
+, "أمن المؤسسات"
+, "ميزات الجدار الناري"
+, "برمجيات الأمان"
+, "حلول VPN"
+, "أمن أجهزة إنترنت الأشياء"</category><guid>https://ar.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+مقارنة شاملة لعام 2026 بين حلول الجدران النارية pfSense و Firewalla و OPNsense لأمن الشبكات المنزلية والمؤسسية. اعثر على الخيار الأفضل لاحتياجاتك.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/Network-Security-Shield.webp" length="111246" type="image/webp"/></item><item><title>Firewalla لأمان الشبكة المنزلية</title><link>https://ar.simeononsecurity.com/articles/firewalla-home-network-security-guide/</link><pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الأمن السيبراني"
+, "الشبكة المنزلية"
+, "أمن الشبكات"
+, "أمن إنترنت الأشياء"
+, "السلامة عبر الإنترنت"
+, "المختبرات المنزلية"
+, "الحماية الرقمية"
+, "كشف التسلل"
+, "تصفية المحتوى"</category><guid>https://ar.simeononsecurity.com/articles/firewalla-home-network-security-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف إلى كيفية مساعدة Firewalla في حماية الشبكة المنزلية، ومدى ملاءمتها للمختبر المنزلي، وأهم مزاياها وحدودها.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/firewalla-home-network-security.webp" length="57452" type="image/webp"/></item><item><title>بناء مركز عمليات أمنية مرن</title><link>https://ar.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "التقنية"
+, "الأعمال"
+, "حماية البيانات"
+, "الاستجابة للحوادث"
+, "إدارة تقنية المعلومات"
+, "أمن الشبكات"
+, "اكتشاف التهديدات"
+, "أمن المعلومات"
+, "إدارة المخاطر"</category><guid>https://ar.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أنشئ مركز عمليات أمنية (SOC) متينًا لمواجهة التهديدات السيبرانية واكتشاف الحوادث وحماية أصول مؤسستك.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>عزّز دفاعك: حلول EDR للأمن السيبراني</title><link>https://ar.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "التقنية"
+, "اكتشاف التهديدات"
+, "أمن الأجهزة الطرفية"
+, "الاستجابة للحوادث"
+, "حماية البيانات"
+, "أمن الشبكات"
+, "الدفاع الرقمي"
+, "أمن تقنية المعلومات"
+, "المرونة السيبرانية"</category><guid>https://ar.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف إلى كيفية حماية حلول EDR للأجهزة الطرفية واكتشاف التهديدات ومساعدة المؤسسات على اختيار الحل المناسب.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp"/></item><item><title>أمّن شبكتك المنزلية: اعمل عن بُعد بأمان وراحة بال</title><link>https://ar.simeononsecurity.com/articles/secure-home-network-teleworking/</link><pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate><category>
+"العمل عن بُعد"
+, "أمن الشبكات"
+, "الشبكة اللاسلكية المنزلية"
+, "العمل عن بُعد"
+, "الأمن السيبراني"
+, "العمل من المنزل"
+, "أمان الإنترنت"
+, "حماية البيانات"
+, "الأمن الرقمي"
+, "الخصوصية عبر الإنترنت"</category><guid>https://ar.simeononsecurity.com/articles/secure-home-network-teleworking/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اعمل عن بُعد بأمان واحمِ بياناتك. اتبع هذه الخطوات لتأمين شبكة Wi-Fi المنزلية والعمل من المنزل بأمان.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/secure-home-network-cartoon.webp" length="74410" type="image/webp"/></item><item><title>الاستعداد للأمن السيبراني: حماية بيانات شركتك</title><link>https://ar.simeononsecurity.com/articles/cybersecurity-readiness-guide/</link><pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "أمن الأعمال"
+, "حماية البيانات"
+, "تقييم المخاطر"
+, "أمن المعلومات"
+, "السلامة الرقمية"
+, "خصوصية البيانات"
+, "التهديدات السيبرانية"
+, "أمن الشبكات"
+, "إدارة مخاطر المورّدين"</category><guid>https://ar.simeononsecurity.com/articles/cybersecurity-readiness-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قيّم استعداد الشركات للأمن السيبراني قبل مشاركة معلومات حساسة أو التعامل معها. احمِ بياناتك وحافظ على سلامتها.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/cybersecurity-shield-protection2.webp" length="102208" type="image/webp"/></item><item><title>إتقان مبدأ أقلّ الامتيازات</title><link>https://ar.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "أمن Linux"
+, "التحكم في الوصول"
+, "أمن تقنية المعلومات"
+, "أمن الشبكات"
+, "حماية المعلومات"
+, "خصوصية البيانات"
+, "التهديدات السيبرانية"
+, "إدارة المخاطر"
+, "أفضل ممارسات الأمن"</category><guid>https://ar.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+عزّز الأمن السيبراني باستخدام التحكم في الوصول وفق مبدأ أقلّ الامتيازات على Linux. تعرّف إلى خطوات التطبيق وأفضل الممارسات واستكشاف المشكلات وإصلاحها.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item></channel></rss>

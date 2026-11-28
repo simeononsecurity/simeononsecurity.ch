@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>الذكاء الاصطناعي المستضاف ذاتيًا on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>الذكاء الاصطناعي المستضاف ذاتيًا on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%B6%D8%A7%D9%81-%D8%B0%D8%A7%D8%AA%D9%8A%D9%8B%D8%A7/</link></image><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%B6%D8%A7%D9%81-%D8%B0%D8%A7%D8%AA%D9%8A%D9%8B%D8%A7/</link><description>Recent content in الذكاء الاصطناعي المستضاف ذاتيًا on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%B6%D8%A7%D9%81-%D8%B0%D8%A7%D8%AA%D9%8A%D9%8B%D8%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>Hindsight مستضاف ذاتيًا: ذاكرة محلية للوكلاء وتوجيه خاص للنماذج</title><link>https://ar.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتيًا"
+, "وكلاء الذكاء الاصطناعي"
+, "بنية الذكاء الاصطناعي"
+, "الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دراسة حالة عن Hindsight المستضاف ذاتيًا، ومسارات Qwen المحلية التي فُحصت، وعمل GPU المرتبط بالطلب من دون اشتراك استدلال مستضاف في المسارات التي فُحصت.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Open WebUI v0.12.4: قائمة التحقق من الترقية والتحكم في الوصول 2026</title><link>https://ar.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المستضاف ذاتيًا"
+, "الأمن السيبراني"
+, "إدارة الأنظمة"</category><guid>https://ar.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أنشئ نسخة احتياطية من Open WebUI ورقّه إلى v0.12.4، ثم اختبر مشاركة المحادثات وأذونات التصدير ومنح صلاحيات الموارد والحسابات والوصول إلى الشبكة.</description></item><item><title>داخل أسطولنا الهجين لوكلاء الذكاء الاصطناعي: Hermes وLiteLLM وTailscale</title><link>https://ar.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتيًا"
+, "وكلاء الذكاء الاصطناعي"
+, "بنية الذكاء الاصطناعي"
+, "تعدين GPU"</category><guid>https://ar.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على أسطول ذكاء اصطناعي محلي موثّق بتحميل كسول، وخطة التحكم المرحلية من T0 إلى T4 باستخدام Hermes وLiteLLM وTailscale Aperture وتعدين Pearl.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>البرمجة بالذكاء الاصطناعي المحلي على وحدة معالجة رسومية بسعة 16GB: Strata وOpenCode وQwen3.8</title><link>https://ar.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "أدوات المطورين"
+, "الذكاء الاصطناعي المستضاف ذاتيًا"
+, "عتاد الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+شغّل وكيل برمجة محليًا باستخدام Strata وOpenCode. افحص نتائج RTX 4060 Ti المعلنة، ومتطلبات الذاكرة، وإعادة استخدام المطالبات، وميزانيات الاستدلال، وحدود استبدال الاشتراك المدفوع.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>الذكاء الاصطناعي المحلي في 2026: نموذج 27B يتفوق على Sonnet 4.6 ونافذة شراء العتاد تضيق</title><link>https://ar.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتيًا"
+, "نماذج مفتوحة المصدر"
+, "عتاد الذكاء الاصطناعي"
+, "التعلم الآلي"
+, "التكميم"
+, "مختبر منزلي"
+, "الخصوصية"
+, "اقتصاد الذكاء الاصطناعي"
+, "عتاد استهلاكي"</category><guid>https://ar.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+خطط لجهاز ذكاء اصطناعي محلي في 2026 وفق حجم النموذج وذاكرة VRAM وعرض نطاق الذاكرة والطاقة والتكلفة وخيارات الترقية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

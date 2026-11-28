@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>الافتراضية on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>الافتراضية on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%A7%D9%81%D8%AA%D8%B1%D8%A7%D8%B6%D9%8A%D8%A9/</link></image><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%A7%D9%81%D8%AA%D8%B1%D8%A7%D8%B6%D9%8A%D8%A9/</link><description>Recent content in الافتراضية on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%A7%D9%81%D8%AA%D8%B1%D8%A7%D8%B6%D9%8A%D8%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9: خفّض استخدام الأقراص الافتراضية واستعد المساحة</title><link>https://ar.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "إدارة Linux"
+, "منصة Proxmox VE"
+, "التخزين"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+خفّض مساحة التخزين التي تستخدمها الآلات الافتراضية وحاويات LXC في Proxmox VE 9. قارن الصيغ والأنظمة الخلفية، فعّل discard، شغّل trim وافحص اللقطات قبل استعادة المساحة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>اختبار استعادة آلة Proxmox الافتراضية: إثبات عمل النظام الضيف</title><link>https://ar.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "النسخ الاحتياطي والاستعادة"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اختبر نسخة احتياطية لآلة Proxmox افتراضية باستعادة معزولة. افحص تغطية الأقراص ووضع النسخ الاحتياطي وبيانات الضيف وحالة الخدمة وزمن الاستعادة من دون المساس ببيئة الإنتاج.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>ترحيل آلة Hyper-V افتراضية إلى Proxmox VE: قائمة تحقق قابلة للتراجع</title><link>https://ar.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "إدارة الأنظمة"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+انقل آلة Hyper-V افتراضية إلى Proxmox VE عبر تصدير المصدر بعد إيقافه، ومطابقة البرنامج الثابت، واستيراد الأقراص، واختبار إقلاع معزول، وخطة تراجع.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>لم تعد الحاويات تشكّل حدودًا أمنية في عام 2026</title><link>https://ar.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"أمن الحاويات"
+, "Linux"
+, "أمن النواة"
+, "الافتراضية"
+, "أمن السحابة"
+, "أبحاث التهديدات"
+, "الفريق الأزرق"
+, "DevSecOps"</category><guid>https://ar.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تكشف ثغرات النواة في عام 2026 سبب عدم كفاية عزل الحاويات متعددة المستأجرين. تعرّف على Copy Fail وDirty Frag وFragnesia وCVE-2026-80521، وقارن بين الحاويات المقوّاة والآلات الافتراضية المصغّرة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>Docker داخل LXC على Proxmox: الموثوقية والأدلة والترحيل إلى VM</title><link>https://ar.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "إدارة لينكس"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قيّم Docker داخل Proxmox LXC بالاستناد إلى خلل موثّق في AppArmor، وقراءة متأنية لتقرير عن تجمّد المضيف، وأوامر تشخيصية، وخطة ترحيل إلى VM.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>دليل ترقية Proxmox VE من الإصدار 8 إلى 9</title><link>https://ar.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "إدارة Linux"
+, "افتراضية Proxmox"
+, "إدارة الخوادم"
+, "برمجيات مفتوحة المصدر"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+رقِّ Proxmox VE من الإصدار 8 إلى 9 باستخدام فحوصات المتطلبات المسبقة والخطوات اليدوية والأتمتة، مع مراجعة التغييرات غير المتوافقة وإرشادات الاسترداد.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item><item><title>أفضل صُنّاع محتوى المختبرات المنزلية</title><link>https://ar.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الشبكات"
+, "مشروعات ذاتية"
+, "الافتراضية"
+, "المختبرات المنزلية"
+, "هواة التقنية"
+, "المجتمع"
+, "التعلّم"
+, "الابتكار"
+, "أدلة إرشادية"</category><guid>https://ar.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف إلى أبرز صُنّاع محتوى المختبرات المنزلية، وتواصل مع الهواة، وابدأ رحلتك التقنية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item><item><title>إتقان أمان VMware</title><link>https://ar.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "الافتراضية"
+, "البنية التحتية لتقنية المعلومات"
+, "الأتمتة"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "الامتثال"
+, "البرمجة النصية"
+, "مركز البيانات"</category><guid>https://ar.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف إلى استخدام PowerCLI لتطبيق معايير VMware STIG وتأمين بيئة VMware في هذا الدليل الشامل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>إتقان PowerCLI لإدارة vSphere</title><link>https://ar.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الافتراضية"
+, "VMware"
+, "إدارة تقنية المعلومات"
+, "الأتمتة"
+, "واجهة سطر الأوامر"
+, "البرمجة النصية"
+, "إدارة الأنظمة"
+, "الحوسبة السحابية"
+, "إدارة مراكز البيانات"</category><guid>https://ar.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على استخدام PowerCLI لإدارة VMware vSphere وأتمتة المهام وتحسين الإنتاجية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>ما هو المختبر المنزلي؟ دليل الإعداد لمحترفي تكنولوجيا المعلومات</title><link>https://ar.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"مختبر منزلي"
+, "محترفو تكنولوجيا المعلومات"
+, "الطلاب"
+, "الهواة"
+, "الشبكات"
+, "الافتراضية"
+, "الأتمتة"
+, "الأجهزة"
+, "البرمجيات"
+, "أفضل الممارسات"</category><guid>https://ar.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+افتح إمكانيات مختبرك المنزلي مع هذا الدليل الشامل، المصمم لمحترفي تكنولوجيا المعلومات والطلاب والهواة، ويغطي الإعداد والمكونات والمواضيع المتقدمة وأفضل الممارسات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp" length="167376" type="image/webp"/></item></channel></rss>

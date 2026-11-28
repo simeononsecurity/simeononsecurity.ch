@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>الفريق الأزرق on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>الفريق الأزرق on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82-%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82/</link></image><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82-%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82/</link><description>Recent content in الفريق الأزرق on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82-%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82/index.xml" rel="self" type="application/rss+xml"/><item><title>لم تعد الحاويات تشكّل حدودًا أمنية في عام 2026</title><link>https://ar.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"أمن الحاويات"
+, "Linux"
+, "أمن النواة"
+, "الافتراضية"
+, "أمن السحابة"
+, "أبحاث التهديدات"
+, "الفريق الأزرق"
+, "DevSecOps"</category><guid>https://ar.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تكشف ثغرات النواة في عام 2026 سبب عدم كفاية عزل الحاويات متعددة المستأجرين. تعرّف على Copy Fail وDirty Frag وFragnesia وCVE-2026-80521، وقارن بين الحاويات المقوّاة والآلات الافتراضية المصغّرة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>أكثر أنواع الهجمات السيبرانية شيوعًا وكيفية اكتشافها</title><link>https://ar.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "اكتشاف التهديدات"
+, "الفريق الأزرق"
+, "العمليات الأمنية"
+, "التطوير المهني"</category><guid>https://ar.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على أنواع الهجمات السيبرانية الشائعة، وآثارها في السجلات والقياسات عن بُعد، وتدرّب على اكتشافها في مختبر أمني منزلي.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item></channel></rss>

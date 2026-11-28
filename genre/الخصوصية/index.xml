@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>الخصوصية on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>الخصوصية on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9/</link></image><link>https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9/</link><description>Recent content in الخصوصية on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>Hindsight مستضاف ذاتيًا: ذاكرة محلية للوكلاء وتوجيه خاص للنماذج</title><link>https://ar.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتيًا"
+, "وكلاء الذكاء الاصطناعي"
+, "بنية الذكاء الاصطناعي"
+, "الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دراسة حالة عن Hindsight المستضاف ذاتيًا، ومسارات Qwen المحلية التي فُحصت، وعمل GPU المرتبط بالطلب من دون اشتراك استدلال مستضاف في المسارات التي فُحصت.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>اختبر تسرب DNS وWebRTC في المتصفح مع VPN</title><link>https://ar.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"الخصوصية"
+, "المتصفحات"
+, "الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تحقق من عنوان IP العام ومحلل DNS وعناوين WebRTC في المتصفح قبل الاتصال بـVPN وبعده. افهم النتائج وابحث عن مشكلات التوجيه.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>لماذا يجري تجاوز تصفية DNS: تحقّق من مسار المحلّل</title><link>https://ar.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"الشبكات المنزلية"
+, "DNS"
+, "الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اكتشف سبب تجاوز جهاز أو متصفح لمرشح DNS. قارن الاستعلامات المباشرة والافتراضية، وافحص السجلات، ثم تحقق من DNS المشفر وVPN وIPv6 وإعدادات الموجّه.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>خصوصية الذكاء الاصطناعي المحلي: ما يبقى على حاسوبك وما لا يبقى</title><link>https://ar.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الخصوصية"
+, "الذكاء الاصطناعي المستضاف ذاتياً"
+, "الأمن السيبراني"
+, "اقتصاديات الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تتبّع المطالبات وملفات النماذج والأدوات والسجلات والتعرض الشبكي وتكاليف الطاقة قبل اختيار الاستدلال المحلي أو خدمة ذكاء اصطناعي مستضافة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>قائمة أمنك الشخصي لعام 2026: من أين تبدأ وما الذي تتجاوزه</title><link>https://ar.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><category>
+"الأمن الشخصي"
+, "الخصوصية"
+, "النظافة الرقمية"
+, "أمن الحسابات"
+, "نمذجة التهديدات"
+, "أمن المستهلك"
+, "إدارة كلمات المرور"
+, "حماية البيانات"</category><guid>https://ar.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+رتّب إجراءات الأمن الشخصي بحسب أثرها على الهجمات، من حماية الحسابات والنسخ الاحتياطية إلى الخصوصية وخطط استعادة الوصول.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/personal-security-checklist-2026-tiered-structure.webp" length="98938" type="image/webp"/></item><item><title>Claude Cowork وClaude Code مع نماذج محلية: دليل الإعداد لعام 2026</title><link>https://ar.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "أدوات البرمجة بالذكاء الاصطناعي"
+, "ذكاء اصطناعي مستضاف ذاتياً"
+, "أدوات المطورين"
+, "الخصوصية"
+, "نماذج مفتوحة المصدر"
+, "الأتمتة"
+, "عتاد الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اضبط Ollama مع Claude Desktop وClaude Code عبر واجهة API متوافقة مع Anthropic. تعرّف على النماذج المناسبة والميزات السحابية لعام 2026.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>الذكاء الاصطناعي المحلي في 2026: نموذج 27B يتفوق على Sonnet 4.6 ونافذة شراء العتاد تضيق</title><link>https://ar.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتيًا"
+, "نماذج مفتوحة المصدر"
+, "عتاد الذكاء الاصطناعي"
+, "التعلم الآلي"
+, "التكميم"
+, "مختبر منزلي"
+, "الخصوصية"
+, "اقتصاد الذكاء الاصطناعي"
+, "عتاد استهلاكي"</category><guid>https://ar.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+خطط لجهاز ذكاء اصطناعي محلي في 2026 وفق حجم النموذج وذاكرة VRAM وعرض نطاق الذاكرة والطاقة والتكلفة وخيارات الترقية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>بناء مساعد ذكاء اصطناعي يحمي الخصوصية لـ Meshtastic</title><link>https://ar.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"أمن الشبكات"
+, "الخصوصية"
+, "مفتوح المصدر"
+, "الأتمتة"</category><guid>https://ar.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تجربة عملية لبناء مساعد ذكاء اصطناعي محلي لـ Meshtastic، مع إعدادات خاصة ووصول TCP عبر طابور وأدوات لجلب المعلومات ولوحة تحكم أكثر أمانًا.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>شرح Google Play المعزول على GrapheneOS</title><link>https://ar.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"الخصوصية"
+, "أمن الأجهزة المحمولة"
+, "مفتوح المصدر"</category><guid>https://ar.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على التغييرات التي يجلبها Sandboxed Google Play إلى GrapheneOS، ومتى يفيد الملف الشخصي المنفصل، وكيف ترتبط الحسابات والإشعارات وتوافق التطبيقات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp"/></item><item><title>Meshtastic مقابل MeshCore مقابل Reticulum</title><link>https://ar.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "شبكات Mesh"
+, "اتصالات خارج الشبكة"
+, "اتصالات الطوارئ"
+, "هواة الراديو"
+, "مفتوح المصدر"
+, "الاستعداد للكوارث"
+, "الشبكات اللاسلكية"
+, "الخصوصية"
+, "الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن Meshtastic وMeshCore وReticulum من حيث التوجيه ووقت البث والبنية التحتية ووسائط النقل واستخدامات الاتصال خارج الشبكة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>كاميرات Flock: أداة للسلامة العامة أم آلة مراقبة بلا أوامر قضائية؟</title><link>https://ar.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"الخصوصية"
+, "المراقبة"
+, "الحريات المدنية"
+, "تكنولوجيا إنفاذ القانون"
+, "الحقوق الرقمية"</category><guid>https://ar.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تحليل مستقل لكاميرات Flock Safety ALPR: كيف تعمل فعلياً، وما البيانات التي تجمعها بما يتجاوز لوحات الترخيص، وكيف يُنشئ تبادل البيانات قاعدة بيانات وطنية موازية، ولماذا يُعدّ مسألة أوامر التفتيش هي القضية الحقيقية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/flock-safety-cameras-public-safety-surveillance.webp" length="257030" type="image/webp"/></item><item><title>مقارنة MeshCore وMeshtastic</title><link>https://ar.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "الشبكات المتداخلة"
+, "اتصالات خارج الشبكة"
+, "اتصالات الطوارئ"
+, "الاتصالات التكتيكية"
+, "هواة اللاسلكي"
+, "مفتوح المصدر"
+, "الاستعداد للكوارث"
+, "الشبكات اللاسلكية"
+, "الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن MeshCore وMeshtastic من حيث التوجيه والمدى ووقت الإرسال والبنية التحتية ودعم الأجهزة وملاءمة النشر.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/meshcore-vs-meshtastic-comparison-guide.webp" length="173676" type="image/webp"/></item><item><title>شرح مصطلحات الأمن السيبراني</title><link>https://ar.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</link><pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "التقنية"
+, "الأمن الرقمي"
+, "التهديدات عبر الإنترنت"
+, "أمن الإنترنت"
+, "حماية البيانات"
+, "الخصوصية"
+, "الدفاع عبر الإنترنت"
+, "أمن تقنية المعلومات"
+, "التهديدات السيبرانية"</category><guid>https://ar.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل واضح لمصطلحات الأمن السيبراني والتهديدات والتقنيات وقواعد الخصوصية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/cybersecurity-jargon-illustration.webp" length="150724" type="image/webp"/></item><item><title>Mullvad أم ProtonVPN: أي خدمة VPN تناسبك؟</title><link>https://ar.simeononsecurity.com/articles/mullvad-vs-protonvpn/</link><pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الأمان"
+, "الخصوصية"
+, "مقارنة VPN"
+, "إخفاء الهوية عبر الإنترنت"
+, "السلامة الرقمية"
+, "أمان الإنترنت"
+, "الأمن السيبراني"
+, "حماية البيانات"
+, "خدمات VPN"</category><guid>https://ar.simeononsecurity.com/articles/mullvad-vs-protonvpn/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن بين Mullvad وProtonVPN من حيث الأمان والخصوصية والأداء وسهولة الاستخدام لمساعدتك على اختيار الخدمة المناسبة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/mullvad-protonvpn-security-race.webp" length="148320" type="image/webp"/></item><item><title>حماية الفئات المعرّضة للخطر</title><link>https://ar.simeononsecurity.com/articles/securing-vulnerable-groups-cyber-threats-protection-strategies/</link><pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "الخصوصية"
+, "السلامة الرقمية"
+, "التهديدات عبر الإنترنت"
+, "حماية البيانات"
+, "التكنولوجيا"
+, "الحقوق الرقمية"
+, "أمن المعلومات"
+, "التجسس السيبراني"
+, "الخصوصية عبر الإنترنت"</category><guid>https://ar.simeononsecurity.com/articles/securing-vulnerable-groups-cyber-threats-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف إلى تأثير الهجمات السيبرانية التي تشنها قوى أجنبية على الفئات المعرّضة للخطر، واستراتيجيات الحماية الفعّالة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/securing_vulnerable_groups_cyber_threats.webp" length="98410" type="image/webp"/></item><item><title>LibreWolf مقابل Firefox</title><link>https://ar.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><category>
+"تكنولوجيا"
+, "الخصوصية"
+, "متصفحات الويب"
+, "الأمان على الإنترنت"
+, "مفتوح المصدر"
+, "الخصوصية الرقمية"
+, "البرمجيات"
+, "مقارنة"
+, "الأمن السيبراني"
+, "خصوصية الإنترنت"</category><guid>https://ar.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+استكشف ميزات LibreWolf و Firefox، متصفحين يركزان على الخصوصية، لاتخاذ قرار مستنير لتعزيز الأمان والخصوصية على الإنترنت.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp"/></item><item><title>الأمان البيومتري للتحكم في الوصول</title><link>https://ar.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</link><pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الأمان"
+, "القياسات الحيوية"
+, "التحكم في الوصول"
+, "ماسحات بصمات الأصابع"
+, "التعرف على الوجه"
+, "منتجات Amazon"
+, "الأمان الرقمي"
+, "الابتكار"
+, "الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على وسائل الأمان البيومترية المتقدمة، مثل ماسحات بصمات الأصابع وأجهزة التعرف على الوجه المتاحة على Amazon، لتعزيز التحكم في الوصول والاطمئنان.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/biometric-access-control-fingerprint-facial-recognition-devices-amazon.webp" length="183044" type="image/webp"/></item><item><title>مراكز المنزل الذكي الآمنة</title><link>https://ar.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</link><pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate><category>
+"التكنولوجيا"
+, "أمن المنزل"
+, "المنزل الذكي"
+, "أتمتة المنزل"
+, "الخصوصية"
+, "إنترنت الأشياء"
+, "الأمن الرقمي"
+, "الأجهزة المتصلة"
+, "تحسين المنزل"
+, "الإلكترونيات الاستهلاكية"</category><guid>https://ar.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على مراكز المنزل الذكي الآمنة لتجربة أتمتة منزلية مريحة تحافظ على سلامتك وخصوصيتك.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/secure-smart-home-hubs.webp" length="49576" type="image/webp"/></item><item><title>الدليل الشامل للأمان أثناء التنقل</title><link>https://ar.simeononsecurity.com/articles/ultimate-guide-mobile-security-laptop-privacy-webcam-covers/</link><pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الأمن السيبراني"
+, "الخصوصية"
+, "العمل عن بُعد"
+, "الحوسبة المحمولة"
+, "الأمان الرقمي"
+, "الإنتاجية"
+, "الخصوصية عبر الإنترنت"
+, "حماية البيانات"
+, "ملحقات تقنية"</category><guid>https://ar.simeononsecurity.com/articles/ultimate-guide-mobile-security-laptop-privacy-webcam-covers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+احمِ العمل أثناء التنقل باستخدام شاشات خصوصية للحاسوب المحمول وأغطية للكاميرا وأجهزة تشفير محمولة. اعمل بأمان وإنتاجية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/mobile-security-illustration.webp" length="57304" type="image/webp"/></item><item><title>تعزيز خصوصية البيانات</title><link>https://ar.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</link><pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "أمن البيانات"
+, "الخصوصية"
+, "الأمن السيبراني"
+, "الحماية الرقمية"
+, "ملحقات التقنية"
+, "تشفير البيانات"
+, "الأمان عبر الإنترنت"
+, "أجهزة التوصيل والتشغيل"
+, "الخصوصية الرقمية"</category><guid>https://ar.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على أدوات حظر USB المادية ومحركات التخزين المشفرة على Amazon لتعزيز أمن بياناتك.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/usb-data-lock-vault.webp" length="94076" type="image/webp"/></item><item><title>خدمة البريد الإلكتروني الآمن: تعزيز الخصوصية مع StartMail</title><link>https://ar.simeononsecurity.com/articles/secure-email-service-startmail/</link><pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "الخصوصية"
+, "خدمات البريد الإلكتروني"
+, "الأمن عبر الإنترنت"
+, "الخصوصية الرقمية"
+, "التشفير"
+, "حماية البيانات"
+, "خصوصية البريد الإلكتروني"
+, "حماية الهوية"
+, "الخصوصية عبر الإنترنت"</category><guid>https://ar.simeononsecurity.com/articles/secure-email-service-startmail/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+استكشف عناوين StartMail المستعارة وتشفير PGP والرسائل المحمية بكلمة مرور وحدود البريد المشفّر.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/secure_email_guard.webp" length="45872" type="image/webp"/></item><item><title>NextDNS أم AdGuard: أي حاجب لإعلانات DNS أفضل؟</title><link>https://ar.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الأمن السيبراني"
+, "حجب الإعلانات"
+, "DNS"
+, "الخصوصية"
+, "أمن الإنترنت"
+, "الحماية عبر الإنترنت"
+, "الأمن الرقمي"
+, "حلول التصفح"
+, "الخصوصية عبر الإنترنت"</category><guid>https://ar.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن بين NextDNS وAdGuard، وهما خدمتان لحجب الإعلانات عبر DNS، واختر ما يناسب طريقة تصفحك.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp"/></item><item><title>أفضل متصفحات الخصوصية 2026: LibreWolf مقابل Brave مقابل Tor</title><link>https://ar.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"المتصفحات"
+, "الخصوصية"
+, "الأمان"
+, "الإنترنت"
+, "التكنولوجيا"
+, "الخصوصية الرقمية"
+, "السلامة على الإنترنت"
+, "المصدر المفتوح"
+, "إخفاء الهوية"
+, "تصفح الويب"</category><guid>https://ar.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+مقارنة شاملة لعام 2026 لأفضل المتصفحات التي تركز على الخصوصية: LibreWolf، Brave، Firefox، Tor، والمزيد. اختبارات خصوصية مفصلة، معايير أداء، وتحليل أمني لحماية بياناتك على الإنترنت.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp"/></item><item><title>فهم أحصنة طروادة للوصول عن بُعد</title><link>https://ar.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "البرامج الضارة"
+, "أمن الحاسوب"
+, "التهديدات الرقمية"
+, "أحصنة طروادة للوصول عن بُعد"
+, "حماية البيانات"
+, "الخصوصية"
+, "الجريمة السيبرانية"
+, "أمن الشبكات"
+, "أمن المعلومات"</category><guid>https://ar.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على مخاطر أحصنة طروادة للوصول عن بُعد (RATs)، وتعلّم إجراءات فعالة للوقاية والحماية وصون أنظمة الحاسوب والبيانات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.webp" length="140888" type="image/webp"/></item><item><title>المصادقة البيومترية: الاستخدامات والأمان</title><link>https://ar.simeononsecurity.com/articles/biometric-authentication-use-cases-and-security-considerations/</link><pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate><category>
+"التكنولوجيا"
+, "الأمن السيبراني"
+, "القياسات الحيوية"
+, "المصادقة"
+, "الأمن الرقمي"
+, "التحقق من الهوية"
+, "حماية البيانات"
+, "الخصوصية"
+, "الاتجاهات الناشئة"
+, "تجربة المستخدم"</category><guid>https://ar.simeononsecurity.com/articles/biometric-authentication-use-cases-and-security-considerations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على استخدامات المصادقة البيومترية واعتبارات الأمان لحماية البيانات الحساسة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/biometric-authentication-use-cases-and-security-considerations.webp" length="228916" type="image/webp"/></item></channel></rss>

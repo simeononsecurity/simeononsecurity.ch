@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNS on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>DNS on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/dns/</link></image><link>https://ar.simeononsecurity.com/genre/dns/</link><description>Recent content in DNS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/dns/index.xml" rel="self" type="application/rss+xml"/><item><title>لماذا يجري تجاوز تصفية DNS: تحقّق من مسار المحلّل</title><link>https://ar.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"الشبكات المنزلية"
+, "DNS"
+, "الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اكتشف سبب تجاوز جهاز أو متصفح لمرشح DNS. قارن الاستعلامات المباشرة والافتراضية، وافحص السجلات، ثم تحقق من DNS المشفر وVPN وIPv6 وإعدادات الموجّه.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>NextDNS أم AdGuard: أي حاجب لإعلانات DNS أفضل؟</title><link>https://ar.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الأمن السيبراني"
+, "حجب الإعلانات"
+, "DNS"
+, "الخصوصية"
+, "أمن الإنترنت"
+, "الحماية عبر الإنترنت"
+, "الأمن الرقمي"
+, "حلول التصفح"
+, "الخصوصية عبر الإنترنت"</category><guid>https://ar.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن بين NextDNS وAdGuard، وهما خدمتان لحجب الإعلانات عبر DNS، واختر ما يناسب طريقة تصفحك.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp"/></item></channel></rss>

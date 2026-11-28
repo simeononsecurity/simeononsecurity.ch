@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M5Stack Atom Lite on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>M5Stack Atom Lite on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/m5stack-atom-lite/</link></image><link>https://ar.simeononsecurity.com/tags/m5stack-atom-lite/</link><description>Recent content in M5Stack Atom Lite on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/m5stack-atom-lite/index.xml" rel="self" type="application/rss+xml"/><item><title>Eye Spy: كاشف سلبي للمراقبة وأجهزة التتبع على ESP32</title><link>https://ar.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"أدوات الخصوصية"
+, "مكافحة المراقبة"
+, "أمن إنترنت الأشياء"
+, "الأنظمة المضمنة"
+, "أبحاث الأمن"
+, "أمن WiFi"
+, "أمن Bluetooth"
+, "مشروعات ESP32"
+, "أمن الأجهزة"
+, "أمن البرمجيات مفتوحة المصدر"</category><guid>https://ar.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+مرجع تقني لـ Eye Spy v1.1، كاشف BLE وWiFi سلبي يعمل على ESP32 ويرصد الكاميرات وأجهزة التتبع والطائرات المسيّرة والإشارات المرتبطة بها.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>ESP32 WiFi Canary: اكتشاف التهديدات السلبية في نطاق 2.4 غيغاهرتز</title><link>https://ar.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"أمن الشبكات"
+, "أمن WiFi"
+, "أمن إنترنت الأشياء"
+, "أبحاث الأمن"
+, "الأنظمة المضمنة"
+, "أدوات الخصوصية"
+, "مشاريع ESP32"
+, "أمن الأجهزة"
+, "الأمن اللاسلكي"
+, "أمن المصادر المفتوحة"</category><guid>https://ar.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تحليل تقني لـ ESP32 WiFi Canary، وهو مستشعر سلبي بتردد 2.4 غيغاهرتز لاكتشاف evil twin وإلغاء المصادقة وخفض الحماية وإغراق beacon.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>

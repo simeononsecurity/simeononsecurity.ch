@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker Hub on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>Docker Hub on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/docker-hub/</link></image><link>https://ar.simeononsecurity.com/tags/docker-hub/</link><description>Recent content in Docker Hub on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Fri, 24 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/docker-hub/index.xml" rel="self" type="application/rss+xml"/><item><title>إنشاء حاويات Docker فعّالة وآمنة</title><link>https://ar.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</link><pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate><category>
+"Docker"
+, "الحاويات"
+, "تقنية الحاويات"
+, "DevOps"
+, "النشر"
+, "قابلية النقل"
+, "الكفاءة"
+, "الأمان"
+, "أفضل الممارسات"
+, "Dockerfile"
+, "الصور الأساسية"
+, "متغيرات البيئة"
+, "تركيب وحدات التخزين"
+, "المستخدم الجذر"
+, "الصور المحدثة"
+, "تطوير البرمجيات"
+, "صور الحاويات"
+, "Docker Hub"
+, "تنسيق الحاويات"
+, "Kubernetes"</category><guid>https://ar.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعلّم إنشاء حاويات Docker فعّالة وآمنة باستخدام أفضل الممارسات والنصائح والتعليمات خطوة بخطوة في هذا الدليل الشامل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.webp" length="88710" type="image/webp"/></item></channel></rss>

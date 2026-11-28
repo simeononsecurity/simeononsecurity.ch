@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qwen3.8 on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>Qwen3.8 on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/qwen3.8/</link></image><link>https://ar.simeononsecurity.com/tags/qwen3.8/</link><description>Recent content in Qwen3.8 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/qwen3.8/index.xml" rel="self" type="application/rss+xml"/><item><title>كيف تختار نموذج ذكاء اصطناعي محلي غير خاضع للرقابة</title><link>https://ar.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتياً"
+, "سلامة الذكاء الاصطناعي"
+, "عتاد GPU"</category><guid>https://ar.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن بين إصدارات النماذج المحلية وفق اكتمال الإجابات والقدرات المحفوظة واستخدام السياق والكمّ ومتطلبات VRAM.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>اختبارات Hermes للنماذج المحلية: تركيبات GPU والنماذج التي سأختارها</title><link>https://ar.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي"
+, "الذكاء الاصطناعي المحلي"
+, "الأجهزة"</category><guid>https://ar.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تستند توصياتي لنماذج Hermes إلى اختبارات السياق الطويل والأدوات والبث والرؤية على أنظمة RTX 5060 Ti وRTX 2000E Ada وRTX 3060 Ti وRTX 3070.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>بطاقتا RTX 5060 Ti مقابل GB10: اختبار محلي لخمس نماذج ذكاء اصطناعي بسياق 256K</title><link>https://ar.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي"
+, "الذكاء الاصطناعي المحلي"
+, "عتاد GPU"
+, "اختبارات الأداء"
+, "عتاد الحاسوب"</category><guid>https://ar.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+مقارنة RTX 5060 Ti وGB10 عبر خمس نماذج، واختبار Qwen3.8 Flash-Next على Strata في المضيف نفسه حتى سياق 256K.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Claude Cowork وClaude Code مع نماذج محلية: دليل الإعداد لعام 2026</title><link>https://ar.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "أدوات البرمجة بالذكاء الاصطناعي"
+, "ذكاء اصطناعي مستضاف ذاتياً"
+, "أدوات المطورين"
+, "الخصوصية"
+, "نماذج مفتوحة المصدر"
+, "الأتمتة"
+, "عتاد الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اضبط Ollama مع Claude Desktop وClaude Code عبر واجهة API متوافقة مع Anthropic. تعرّف على النماذج المناسبة والميزات السحابية لعام 2026.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>الذكاء الاصطناعي المحلي في 2026: نموذج 27B يتفوق على Sonnet 4.6 ونافذة شراء العتاد تضيق</title><link>https://ar.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتيًا"
+, "نماذج مفتوحة المصدر"
+, "عتاد الذكاء الاصطناعي"
+, "التعلم الآلي"
+, "التكميم"
+, "مختبر منزلي"
+, "الخصوصية"
+, "اقتصاد الذكاء الاصطناعي"
+, "عتاد استهلاكي"</category><guid>https://ar.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+خطط لجهاز ذكاء اصطناعي محلي في 2026 وفق حجم النموذج وذاكرة VRAM وعرض نطاق الذاكرة والطاقة والتكلفة وخيارات الترقية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

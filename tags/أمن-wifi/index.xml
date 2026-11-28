@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>أمن WiFi on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>أمن WiFi on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/%D8%A3%D9%85%D9%86-wifi/</link></image><link>https://ar.simeononsecurity.com/tags/%D8%A3%D9%85%D9%86-wifi/</link><description>Recent content in أمن WiFi on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/%D8%A3%D9%85%D9%86-wifi/index.xml" rel="self" type="application/rss+xml"/><item><title>ESP32 WiFi Canary: اكتشاف التهديدات السلبية في نطاق 2.4 غيغاهرتز</title><link>https://ar.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"أمن الشبكات"
+, "أمن WiFi"
+, "أمن إنترنت الأشياء"
+, "أبحاث الأمن"
+, "الأنظمة المضمنة"
+, "أدوات الخصوصية"
+, "مشاريع ESP32"
+, "أمن الأجهزة"
+, "الأمن اللاسلكي"
+, "أمن المصادر المفتوحة"</category><guid>https://ar.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تحليل تقني لـ ESP32 WiFi Canary، وهو مستشعر سلبي بتردد 2.4 غيغاهرتز لاكتشاف evil twin وإلغاء المصادقة وخفض الحماية وإغراق beacon.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>دليل DagShell للبرامج الثابتة المخصصة لجهاز Orbic RCL400 لعام 2026</title><link>https://ar.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"برامج ثابتة مخصصة"
+, "أمن الأجهزة المحمولة"
+, "أدوات الخصوصية"
+, "أمن الشبكات"
+, "القيادة لمسح الشبكات"
+, "اختبار الاختراق"
+, "أمن إنترنت الأشياء"
+, "أبحاث الأمن"
+, "أمن الأجهزة"
+, "تقنيات الخصوصية"</category><guid>https://ar.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل تقني لبرنامج DagShell الثابت على Orbic RCL400، يشمل التثبيت وأدوات الخصوصية والقيادة لمسح الشبكات وحدود البحث.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item></channel></rss>

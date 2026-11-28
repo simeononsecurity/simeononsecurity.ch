@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>إدارة Linux on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>إدارة Linux on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-linux/</link></image><link>https://ar.simeononsecurity.com/genre/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-linux/</link><description>Recent content in إدارة Linux on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9: خفّض استخدام الأقراص الافتراضية واستعد المساحة</title><link>https://ar.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "إدارة Linux"
+, "منصة Proxmox VE"
+, "التخزين"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+خفّض مساحة التخزين التي تستخدمها الآلات الافتراضية وحاويات LXC في Proxmox VE 9. قارن الصيغ والأنظمة الخلفية، فعّل discard، شغّل trim وافحص اللقطات قبل استعادة المساحة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>دليل ترقية Proxmox VE من الإصدار 8 إلى 9</title><link>https://ar.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "إدارة Linux"
+, "افتراضية Proxmox"
+, "إدارة الخوادم"
+, "برمجيات مفتوحة المصدر"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+رقِّ Proxmox VE من الإصدار 8 إلى 9 باستخدام فحوصات المتطلبات المسبقة والخطوات اليدوية والأتمتة، مع مراجعة التغييرات غير المتوافقة وإرشادات الاسترداد.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item></channel></rss>

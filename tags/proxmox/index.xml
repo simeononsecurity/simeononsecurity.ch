@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Proxmox on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>Proxmox on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/proxmox/</link></image><link>https://ar.simeononsecurity.com/tags/proxmox/</link><description>Recent content in Proxmox on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/proxmox/index.xml" rel="self" type="application/rss+xml"/><item><title>أنشئ مختبرًا منزليًا في 10 مستويات، من Pi-hole إلى الذكاء الاصطناعي المحلي</title><link>https://ar.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"مختبر منزلي"
+, "استضافة ذاتية"
+, "ذكاء اصطناعي محلي"
+, "شبكات منزلية"</category><guid>https://ar.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أنشئ مختبرًا منزليًا عبر عشر مراحل عملية، من تصفية DNS للشبكة كلها إلى الذكاء الاصطناعي المحلي، مع الأجهزة والتكاليف والمهارات والمفاضلات في كل مستوى.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>إنشاء مختبر منزلي اقتصادي وآمن لاختبار تقنيات المعلومات</title><link>https://ar.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</link><pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate><category>
+"مختبر منزلي"
+, "الافتراضية"
+, "الأجهزة"
+, "البرمجيات"
+, "الشبكات"
+, "الأمان"
+, "التعلم"
+, "الاختبار"
+, "تقنية المعلومات"
+, "عشاق التقنية"
+, "VMware"
+, "Proxmox"
+, "Hyper-V"
+, "Linux"
+, "Windows"
+, "إعداد الشبكة"
+, "إدارة الآلات الافتراضية"
+, "النسخ الاحتياطي والاستعادة"
+, "الحوسبة السحابية"
+, "الأمن السيبراني"</category><guid>https://ar.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف إلى إعداد مختبر منزلي آمن ومنخفض التكلفة لاكتساب خبرة عملية وتجربة البرمجيات والأجهزة ومفاهيم الشبكات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.webp" length="163548" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>الوضع Promiscuous on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>الوضع Promiscuous on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/%D8%A7%D9%84%D9%88%D8%B6%D8%B9-promiscuous/</link></image><link>https://ar.simeononsecurity.com/tags/%D8%A7%D9%84%D9%88%D8%B6%D8%B9-promiscuous/</link><description>Recent content in الوضع Promiscuous on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/%D8%A7%D9%84%D9%88%D8%B6%D8%B9-promiscuous/index.xml" rel="self" type="application/rss+xml"/><item><title>ESP32 WiFi Canary: اكتشاف التهديدات السلبية في نطاق 2.4 غيغاهرتز</title><link>https://ar.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"أمن الشبكات"
+, "أمن WiFi"
+, "أمن إنترنت الأشياء"
+, "أبحاث الأمن"
+, "الأنظمة المضمنة"
+, "أدوات الخصوصية"
+, "مشاريع ESP32"
+, "أمن الأجهزة"
+, "الأمن اللاسلكي"
+, "أمن المصادر المفتوحة"</category><guid>https://ar.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تحليل تقني لـ ESP32 WiFi Canary، وهو مستشعر سلبي بتردد 2.4 غيغاهرتز لاكتشاف evil twin وإلغاء المصادقة وخفض الحماية وإغراق beacon.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>مختبر منزلي on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>مختبر منزلي on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/%D9%85%D8%AE%D8%AA%D8%A8%D8%B1-%D9%85%D9%86%D8%B2%D9%84%D9%8A/</link></image><link>https://ar.simeononsecurity.com/genre/%D9%85%D8%AE%D8%AA%D8%A8%D8%B1-%D9%85%D9%86%D8%B2%D9%84%D9%8A/</link><description>Recent content in مختبر منزلي on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/%D9%85%D8%AE%D8%AA%D8%A8%D8%B1-%D9%85%D9%86%D8%B2%D9%84%D9%8A/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9: خفّض استخدام الأقراص الافتراضية واستعد المساحة</title><link>https://ar.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "إدارة Linux"
+, "منصة Proxmox VE"
+, "التخزين"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+خفّض مساحة التخزين التي تستخدمها الآلات الافتراضية وحاويات LXC في Proxmox VE 9. قارن الصيغ والأنظمة الخلفية، فعّل discard، شغّل trim وافحص اللقطات قبل استعادة المساحة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>أنشئ مختبرًا منزليًا في 10 مستويات، من Pi-hole إلى الذكاء الاصطناعي المحلي</title><link>https://ar.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"مختبر منزلي"
+, "استضافة ذاتية"
+, "ذكاء اصطناعي محلي"
+, "شبكات منزلية"</category><guid>https://ar.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أنشئ مختبرًا منزليًا عبر عشر مراحل عملية، من تصفية DNS للشبكة كلها إلى الذكاء الاصطناعي المحلي، مع الأجهزة والتكاليف والمهارات والمفاضلات في كل مستوى.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>اختبار استعادة آلة Proxmox الافتراضية: إثبات عمل النظام الضيف</title><link>https://ar.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "النسخ الاحتياطي والاستعادة"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اختبر نسخة احتياطية لآلة Proxmox افتراضية باستعادة معزولة. افحص تغطية الأقراص ووضع النسخ الاحتياطي وبيانات الضيف وحالة الخدمة وزمن الاستعادة من دون المساس ببيئة الإنتاج.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>ترحيل آلة Hyper-V افتراضية إلى Proxmox VE: قائمة تحقق قابلة للتراجع</title><link>https://ar.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "إدارة الأنظمة"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+انقل آلة Hyper-V افتراضية إلى Proxmox VE عبر تصدير المصدر بعد إيقافه، ومطابقة البرنامج الثابت، واستيراد الأقراص، واختبار إقلاع معزول، وخطة تراجع.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>اختيار سعة UPS لمختبرك المنزلي واختبار الإيقاف التلقائي</title><link>https://ar.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"مختبر منزلي"
+, "حماية الطاقة"
+, "إدارة الأنظمة"</category><guid>https://ar.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قِس استهلاك مختبرك المنزلي، وقارن حدود الواط وVA في UPS، وتحقق من زمن التشغيل عند حملك، واختبر الإيقاف السليم قبل الاعتماد على البطارية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>الذكاء الاصطناعي المحلي في 2026: نموذج 27B يتفوق على Sonnet 4.6 ونافذة شراء العتاد تضيق</title><link>https://ar.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي المستضاف ذاتيًا"
+, "نماذج مفتوحة المصدر"
+, "عتاد الذكاء الاصطناعي"
+, "التعلم الآلي"
+, "التكميم"
+, "مختبر منزلي"
+, "الخصوصية"
+, "اقتصاد الذكاء الاصطناعي"
+, "عتاد استهلاكي"</category><guid>https://ar.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+خطط لجهاز ذكاء اصطناعي محلي في 2026 وفق حجم النموذج وذاكرة VRAM وعرض نطاق الذاكرة والطاقة والتكلفة وخيارات الترقية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>تعدين Pearl (PRL) في 2026: الإعداد والربحية وفائدة الشبكة</title><link>https://ar.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"العملات المشفرة"
+, "تعدين GPU"
+, "حوسبة الذكاء الاصطناعي"
+, "DePIN"
+, "بلوكتشين"
+, "Linux"
+, "مختبر منزلي"
+, "أجهزة"</category><guid>https://ar.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+أعدّ تعدين PRL باستخدام SRBMiner، وتعرّف إلى إثبات العمل المفيد، وقدّر الهوامش، وقيّم الفائدة العملية للشبكة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp" length="266670" type="image/webp"/></item><item><title>Docker داخل LXC على Proxmox: الموثوقية والأدلة والترحيل إلى VM</title><link>https://ar.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "إدارة لينكس"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قيّم Docker داخل Proxmox LXC بالاستناد إلى خلل موثّق في AppArmor، وقراءة متأنية لتقرير عن تجمّد المضيف، وأوامر تشخيصية، وخطة ترحيل إلى VM.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>الحوسبة الطرفية القابلة للنشر ميدانيًا: اختيار الأجهزة والهيكل</title><link>https://ar.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"الحوسبة الطرفية"
+, "تقنية المعلومات الميدانية"
+, "الأجهزة"
+, "مختبر منزلي"
+, "الحوسبة المتينة"
+, "الشبكات"
+, "التعافي من الكوارث"
+, "تقنية معلومات الشركات الصغيرة"</category><guid>https://ar.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل لأجهزة الحوسبة الطرفية الميدانية واختيار هياكلها، ويغطي الحوسبة والرفوف والتبريد والتخزين والإدارة والكابلات وتوافق الطاقة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>دليل ترقية Proxmox VE من الإصدار 8 إلى 9</title><link>https://ar.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"الافتراضية"
+, "إدارة Linux"
+, "افتراضية Proxmox"
+, "إدارة الخوادم"
+, "برمجيات مفتوحة المصدر"
+, "مختبر منزلي"</category><guid>https://ar.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+رقِّ Proxmox VE من الإصدار 8 إلى 9 باستخدام فحوصات المتطلبات المسبقة والخطوات اليدوية والأتمتة، مع مراجعة التغييرات غير المتوافقة وإرشادات الاسترداد.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item><item><title>ما هو المختبر المنزلي؟ دليل الإعداد لمحترفي تكنولوجيا المعلومات</title><link>https://ar.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"مختبر منزلي"
+, "محترفو تكنولوجيا المعلومات"
+, "الطلاب"
+, "الهواة"
+, "الشبكات"
+, "الافتراضية"
+, "الأتمتة"
+, "الأجهزة"
+, "البرمجيات"
+, "أفضل الممارسات"</category><guid>https://ar.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+افتح إمكانيات مختبرك المنزلي مع هذا الدليل الشامل، المصمم لمحترفي تكنولوجيا المعلومات والطلاب والهواة، ويغطي الإعداد والمكونات والمواضيع المتقدمة وأفضل الممارسات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp" length="167376" type="image/webp"/></item></channel></rss>

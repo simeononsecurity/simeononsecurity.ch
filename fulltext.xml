@@ -1,0 +1,2650 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://ar.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>ar</language><lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>التراجع من Home Assistant Core 2026.11 إلى 2026.10.4: إصلاح إصدار تخزين HTTP 3</title><link>https://ar.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid><description>أصلح خطأ إصدار تخزين HTTP 3 بعد رجوع Home Assistant Core 2026.11 إلى 2026.10.4 على Yellow. يتضمن أوامر محمية ومخرجات جرى التحقق منها.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>أعاد فشل تحديث Home Assistant Core 2026.11 جهاز Yellow CM4 لدي إلى الإصدار 2026.10.4. ظل Yellow متاحًا عبر الشبكة، لكنه توقف عن عرض لوحة التحكم. ترك التراجع ملف إعدادات HTTP بإصدار تخزين 3.1، بينما يدعم Core 2026.10.4 الإصدار 2.2. احتفظت بالملف، وحولت نسخة منه ضمن فحوص صارمة، وأعدت الوصول عبر HTTP، ثم حدثت Core إلى 2026.11.1.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>تحقق من عدم التطابق.</strong> قارن خطأ سجل Core بالإصدار المثبت وإصدار تخزين HTTP.</li>
+<li><strong>احتفظ بالملف.</strong> احتفظ بنسخة غير معدلة ونسخة احتياطية خارج الجهاز قبل الاسترداد.</li>
+<li><strong>تحقق من النتيجة.</strong> افحص حالة Core وإعداد المستمع المحفوظ ولوحة التحكم والإصدار المثبت.</li>
+</ul>
+<p><strong>إصلاح هذه الحالة تحديدًا:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="احتفظ بملف HTTP">
+    <meta itemprop="url" content="#preserve-recovery-options">
+    <a href="#preserve-recovery-options"
+    
+        rel="follow me"
+    >احتفظ بملف HTTP</a>
+</span>
+، و
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="أنشئ �
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>كيف تختار نموذج ذكاء اصطناعي محلي غير خاضع للرقابة</title><link>https://ar.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid><description>قارن بين إصدارات النماذج المحلية وفق اكتمال الإجابات والقدرات المحفوظة واستخدام السياق والكمّ ومتطلبات VRAM.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>اختيار النموذج:</strong> قيّم كل إصدار بحسب الإجابات المفيدة التي يكملها والجودة التي يحتفظ بها والذاكرة التي يحتاج إليها عبء العمل لديك. لا يثبت انخفاض عدد حالات الرفض أو شهرة بطاقة النموذج هذه النتائج.</p>
+<p>لا يحمل وصف <strong>غير خاضع للرقابة</strong> مقياساً موحداً للأداء. يستخدمه ناشرو النماذج للإشارة إلى تعديلات مختلفة للأوزان وضبط دقيق وقوالب محادثة. قارن كل مرشح بالنموذج الأصلي واختبره على المهام التي تنوي تنفيذها.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <meta itemprop="name" content="اختبرت كل نماذج الذكاء الاصطناعي المحلية غير الخاضعة للرقابة (من 8GB إلى 
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>توافق مزودات الطاقة مع Octominer X12 Ultra: اختبار عملي لـ Chicony وLiteOn</title><link>https://ar.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid><description>أظهر اختبار Octominer X12 Ultra بخمس مراوح وثلاثة مزودات طاقة أن مزود Chicony شغّل الجهاز، بينما أضاءت وحدات LiteOn المختبرة باللون الكهرماني ولم تبدأ التشغيل.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>شغّل مزود Chicony R12-1K6P2A جهاز Octominer X12 Ultra الخاص بي، المزود بخمس مراوح وثلاثة مزودات طاقة.</strong> أظهرت مزودات LiteOn PS-2142-2L التي اختبرتها ضوءًا أخضر، ثم تحولت إلى الكهرماني ولم تشغّل الجهاز. تنطبق النتيجة على جهازي المزود بلوحة طاقة <strong>OCTOMINER (12PIN) 3x DPS1200 rev. 20</strong>. لا تثبت القدرة الاسمية المماثلة أو قائمة مخصصة للوحة X12 منفصلة توافق مزود الطاقة مع لوحة Octominer.</p>
+<p>بيع الهيكل بتكوين <strong>3,600 واط</strong> وثلاثة مواضع لمزودات الطاقة. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="تدرج Octominer خيارًا بثلاثة مزودات قدرة كل منها 1,200 واط">
+    <meta itemprop="url" content="https://octominer.eu/product/octominer-x12-ultra-used/">
+    <a href="https://octominer.eu/product/octominer-x12-ultra-used/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >تدرج Octominer خيارًا بثلاثة مزودات قدرة كل منها 1,200 واط</a>
+</span>
+ لجهاز X12 Ultra، إلى جانب تكوينات أخرى. افحص الملصق ولوحة الطاقة في جهازك قبل تطبيق هذه النتائج.</p>
+<h2 id="نتائج-الاختبار">
+  <a href="#%d9%86%d8%aa%d8%a7%d8%a6%d8%ac-%d8%a7%d9%84%d8%a7%d8%ae%d8%aa%d8%a8%d8%a7%d8%b1" title="نتائج الاختبار">نتائج الاختبار</a>
+  <a href="#%d9%86%d8%aa%d8%a7%d8%a6%d8%ac-%d8%a7%d9%84%d8%a7%d8%ae%d8%aa%d8%a8%d8%a7%d8%b1" class="h-anchor" aria-hidden="true" title="نتائج الاختبار">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>مزود الطاقة</th>
+					<th>النتيجة في هذا الجهاز</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Chicony R12-1K6P2A، 1,600 واط</strong></td>
+					<td>شغ
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proxmox VE 9: خفّض استخدام الأقراص الافتراضية واستعد المساحة</title><link>https://ar.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><description>خفّض مساحة التخزين التي تستخدمها الآلات الافتراضية وحاويات LXC في Proxmox VE 9. قارن الصيغ والأنظمة الخلفية، فعّل discard، شغّل trim وافحص اللقطات قبل استعادة المساحة.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>انخفاض حجم نظام ملفات الضيف لا يعني دائمًا انخفاض مساحة التخزين المستخدمة في Proxmox.</strong> لتحرير مساحة على المضيف، تحتاج إلى قرص يدعم التخصيص الرقيق، ومسار discard يعمل للآلات الافتراضية، ونظام تخزين خلفي لا تحتفظ لقطاته بكتل قديمة. يشرح هذا الدليل إعدادات وفحوص Proxmox VE 9 للآلات الافتراضية وحاويات LXC.</p>
+<h2 id="النقاط-الرئيسية">
+  <a href="#%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9" title="النقاط الرئيسية">النقاط الرئيسية</a>
+  <a href="#%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9" class="h-anchor" aria-hidden="true" title="النقاط الرئيسية">#</a>
+</h2>
+<ul>
+<li><strong>اختر نظام التخزين الخلفي أولًا.</strong> لا يختلف الحجم المعلن للقرص الافتراضي عن المساحة المخصصة على المضيف إلا إذا كانت صيغة الصورة أو نظام التخزين يدعم التخصيص الرقيق.</li>
+<li><strong>فعّل discard للآلة الافتراضية، ثم شغّل trim داخل الضيف.</strong> يرسل Windows ReTrim وLinux <code>fstrim</code> طلبات الكتل غير المستخدمة عبر القرص الافتراضي.</li>
+<li><strong>افحص اللقطات والنسخ الاحتياطية كلًّا على حدة.</strong> تبقى الكتل القديمة مخصصة ما دامت لقطة تشير إليها. تخضع ملفات النسخ وكتل PBS لقواعد احتفاظ مستقلة.</li>
+<li><strong>صنّف نقاط تركيب LXC حسب النوع.</strong> تختلف ملكية وحدات تخزين rootfs ونقاط التركيب المُدارة، ونقاط bind، ونقاط تركيب الأجهزة وسلوك نسخها الاحتياطية.</li>
+</ul>
+<h2 id="قبل-البدء">
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%a8%d8%af%d8%a1" title="قبل البدء">قبل البدء</a>
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%a8%d8%af%d8%a1" class="h-anchor" aria-hidden="true" title="قبل البدء">#</a>
+</h2>
+<p>تحتاج إلى <strong>صلاحية مسؤول في Proxmox VE 9</strong>، ونسخة احتياطية موثّقة لكل ض�
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Tailscale Aperture: إعداد عملاء الذكاء الاصطناعي للاستدلال وMCP في 2026</title><link>https://ar.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid><description>مرّر طلبات النماذج وأدوات MCP عبر Tailscale Aperture. أعدّ Codex وClaude Code وClaude Desktop وOpenCode وHermes على جهاز أو بوابة أخرى.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <h2 id="المقدمة">
+  <a href="#%d8%a7%d9%84%d9%85%d9%82%d8%af%d9%85%d8%a9" title="المقدمة">المقدمة</a>
+  <a href="#%d8%a7%d9%84%d9%85%d9%82%d8%af%d9%85%d8%a9" class="h-anchor" aria-hidden="true" title="المقدمة">#</a>
+</h2>
+<p>يوفر Tailscale Aperture لعملاء الذكاء الاصطناعي بوابة واحدة متصلة بشبكة tailnet لاستدلال النماذج وأدوات Model Context Protocol ‏(MCP). يجب أن يستخدم كل عميل مساراً متوافقاً مع بروتوكول API الخاص به. تستخدم أدوات MCP نقطة نهاية منفصلة، وتتحكم منح Aperture في النماذج والموصلات التي يمكن لكل هوية Tailscale الوصول إليها.</p>
+<p>يشرح هذا الدليل إعداد Codex وClaude Code وClaude Desktop وOpenCode وHermes على macOS وLinux وWindows. يغطي إعدادات سطر الأوامر وتطبيقات سطح المكتب، ويوضح كيفية العثور على معرّفات النماذج المتاحة لهويتك، ويتضمن مطالبة مجهّلة لإعادة استخدامها عند إعداد جهاز أو نسخة Aperture أخرى.</p>
+<p><strong>اختيار المسار:</strong> تعتمد مسارات نقاط النهاية على البوابة وبروتوكول API لكل عميل. لا يخدم مسار Responses مثل <code>/codex</code> حركة Anthropic Messages أو MCP. تحقّق من اسم مضيف البوابة ومسار الاستدلال لكل عميل. اعثر على معرّفات النماذج عبر وصولك الخاص إلى Aperture قبل تغيير إعدادات العملاء.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>حركة النماذج</strong> تحتاج إلى مسار API الخاص ببروتوكول العميل.</li>
+<li><strong>حركة MCP</strong> تستخدم نقطة النهاية المنفصلة <code>/v1/mcp</code>.</li>
+<li><strong>أذونات البوابة</strong> يجب أن تسمح لهوية Tailscale باستخدام كل نموذج وموصل.</li>
+<li><strong>إعداد العميل</strong> يثبت حفظ الإعدادات فقط. تحقّق 
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Hindsight مستضاف ذاتيًا: ذاكرة محلية للوكلاء وتوجيه خاص للنماذج</title><link>https://ar.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/self-hosted-hindsight/</guid><description>دراسة حالة عن Hindsight المستضاف ذاتيًا، ومسارات Qwen المحلية التي فُحصت، وعمل GPU المرتبط بالطلب من دون اشتراك استدلال مستضاف في المسارات التي فُحصت.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/self-hosted-hindsight/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>تعمل خدمة ذاكرة Hindsight لدينا على أجهزة نتحكم بها.</strong> يعمل محرك الذاكرة وقاعدة البيانات ونموذج التضمين ونموذج إعادة الترتيب في نشر واحد مستضاف ذاتيًا. يرسل Hindsight طلبات التوليد إلى بوابة خاصة. يستخدم مسار Qwen المشترك الذي فُحص ومسار تحديث الصفحات المختبر خوادم نماذج محلية من دون اشتراك استدلال مستضاف.</p>
+<p>هذا وصف لنشر واحد يعمل لدينا. <strong>الاستضافة الذاتية لا تعني العمل دون اتصال.</strong> يستخدم VPN خدمة تنسيق خارجية، وتتطلب صور البرامج وأوزان النماذج تنزيلًا. يقتصر الادعاء هنا على معالجة الذاكرة واستدلال النماذج، ولا يشمل كل اتصال شبكي تجريه أجهزتنا أو أدوات الوكلاء الأخرى.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>يتولى Hindsight سير عمل الذاكرة.</strong> تخدم حاوية Docker واجهة API والعاملين ولوحة التحكم، وتخزن وحدة تخزين دائمة بيانات البنوك.</li>
+<li><strong>تبقى نماذج الاسترجاع الصغيرة محلية.</strong> تعمل التضمينات وإعادة الترتيب داخل عملية Hindsight على CPU.</li>
+<li><strong>يتولى Qwen توليد النص.</strong> تطلب عمليات Retain وReflect والدمج الاسم المستعار الخاص لـ Qwen3.5-4B مع تعطيل الاستدلال وتحديد خرج محدود. يخدم المسار الذي فُحص الطلب محليًا.</li>
+<li><strong>يحصل تحديث الصفحات البطيء على GPU.</strong> يستعير اسم مستعار منفصل للنموذج بطاقة واحدة لطلب يعمل في الخلفية، ثم يحررها بعد اكتمال الطلب.</li>
+<li><strong>تخفي البوابة موقع المعالجة الفعلي.</strong> يختار Hindsight اسمًا مستعارًا للنموذج، وت�
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/self-hosted-hindsight/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Open WebUI v0.12.4: قائمة التحقق من الترقية والتحكم في الوصول 2026</title><link>https://ar.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><description>أنشئ نسخة احتياطية من Open WebUI ورقّه إلى v0.12.4، ثم اختبر مشاركة المحادثات وأذونات التصدير ومنح صلاحيات الموارد والحسابات والوصول إلى الشبكة.</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>يتضمن Open WebUI v0.12.4 إصلاحات أمنية لم يفصّلها القائمون على المشروع بعد.</strong> توصي ملاحظات الإصدار بتحديث عمليات النشر سريعًا، وتذكر أن الإشعارات الأمنية ستصدر بعد تعيين أرقام CVE. التغييرات المذكورة أدناه بشأن مشاركة المحادثات والأذونات هي العناصر الظاهرة في ملاحظات الإصدار، وليست قائمة كاملة بالإصلاحات الأمنية غير المعلنة. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="ملاحظات إصدار Open WebUI v0.12.4">
+    <meta itemprop="url" content="https://github.com/open-webui/open-webui/releases/tag/v0.12.4">
+    <a href="https://github.com/open-webui/open-webui/releases/tag/v0.12.4"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >ملاحظات إصدار Open WebUI v0.12.4</a>
+</span>
+</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>أنشئ نسخة احتياطية أولًا.</strong> احتفظ بنسخة قابلة للاستعادة من وحدة تخزين البيانات أو قاعدة البيانات والملفات المرفوعة قبل تغيير التطبيق.</li>
+<li><strong>ثبّت الإصدار الرسمي.</strong> استخدم <code>ghcr.io/open-webui/open-webui:v0.12.4</code> لصورة Docker القياسية أو <code>open-webui==0.12.4</code> مع pip.</li>
+<li><strong>اختبر الأذونات بأدوار مستخدمين حقيقية.</strong> لا يثبت إخفاء زر وجود فحص تفويض على مستوى واجهة API.</li>
+<li><strong>حافظ على خصوصية الوصو�
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Thunderbird 153.6: كشف بيانات اعتماد NTLM على Windows وكيفية التحديث (2026)</title><link>https://ar.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><description>تكشف ثغرتان خطيرتان في Thunderbird بيانات مصادقة NTLM على Windows عند عرض رسالة بريد مصممة خصيصًا. تعرّف على مساري الهجوم، وافحص الإصدار، وقيّد SMB الصادر أثناء التحديث.</description><content:encoded><![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>أصلحت Mozilla ثغرتين <strong>خطيرتين تكشفان بيانات اعتماد Windows</strong> في Thunderbird 153.6. كان عرض رسالة بريد ضارة كافيًا لبدء أي من طلبَي الشبكة الواردين في 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="MFSA 2026-122">
+    <meta itemprop="url" content="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/">
+    <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >MFSA 2026-122</a>
+</span>
+. يصف التنبيه احتمال كشف بيانات NTLM، وليس اختراقًا مؤكدًا لبيانات كل مستلم.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li>تعلقت <strong>CVE-2026-118174</strong> بمرفق مفتاح OpenPGP مستضاف خارجيًا. أدى عرض الرسالة إلى إرسال طلب دون تفاعل المستخدم، حتى مع حظر المحتوى البعيد.</li>
+<li>تعلقت <strong>CVE-2026-118176</strong> بعنوان <code>mailbox:</code> مصمم خصيصًا ويستخدم مسار UNC ممتدًا. أدى عرض الرسالة إلى اتصال SMB بخادم يختاره المرسل.</li>
+<li><strong>حدّث Thunderbird على Windows</strong> وتحقق من الإصدار المثبت. يذكر التنبيه Thunderbird 153.6 بوصفه الإصدار الذي يتضمن الإصلاح. وتحدد ملاحظات إصدار Thunderbird البناء المقابل 153.6.0esr.</li>
+</ul>
+<h2 id="ما-الذي-تفعله-الرسالة">
+  <a href="#%d9%85%d8%a7-%d8%a7%d9%84%d8%b0%d9%8a-%d8%aa%d9%81%d8%b9%d9%84%d9%87-%d8%a7%d9%84%d8%b1%d8%b3%d8%a7%d9%84%d8%a9" title="ما
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>تحديث أمان Chrome 156: التحقق من تصحيح أكتوبر</title><link>https://ar.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid><description>تحقق من إصدار أمان Chrome 156 الصادر في 27 أكتوبر على Windows وmacOS وLinux وAndroid. قارن رقم البناء المثبت، وأكمل إعادة التشغيل المعلقة، وافحص الأجهزة المُدارة بشكل منفصل.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>يتضمن إصدار أمان Chrome الصادر في 27 أكتوبر 2026</strong> عدد 52 إصلاحًا. للتحقق من التثبيت، قارن رقم الإصدار الكامل بالإصدار الخاص بنظام التشغيل لديك، ثم أعد تشغيل Chrome لإكمال أي تحديث معلّق. لا يثبت الإعلان عن إصدار أن جهازك قد تلقى التحديث. (
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="إصدار Chrome لأجهزة الكمبيوتر">
+    <meta itemprop="url" content="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html">
+    <a href="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >إصدار Chrome لأجهزة الكمبيوتر</a>
+</span>
+)</p>
+<h2 id="ما-الإصدار-الذي-ينبغي-أن-تراه">
+  <a href="#%d9%85%d8%a7-%d8%a7%d9%84%d8%a5%d8%b5%d8%af%d8%a7%d8%b1-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d9%86%d8%a8%d8%ba%d9%8a-%d8%a3%d9%86-%d8%aa%d8%b1%d8%a7%d9%87" title="ما الإصدار الذي ينبغي أن تراه؟">ما الإصدار الذي ينبغي أن تراه؟</a>
+  <a href="#%d9%85%d8%a7-%d8%a7%d9%84%d8%a5%d8%b5%d8%af%d8%a7%d8%b1-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d9%86%d8%a8%d8%ba%d9%8a-%d8%a3%d9%86-%d8%aa%d8%b1%d8%a7%d9%87" class="h-anchor" aria-hidden="true" title="ما الإصدار الذي ينبغي أن تراه؟">#</a>
+</h2>
+<p>نشرت Google إصدارات القناة Stable التالية في 27 أكتوبر 2026. يذكر إصدار أجهزة الكمبيوتر أرقام بناء منفصلة لـ Windows وmacOS، ورقمًا آخر لـ Linux. ويذكر 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>أنشئ مختبرًا منزليًا في 10 مستويات، من Pi-hole إلى الذكاء الاصطناعي المحلي</title><link>https://ar.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><description>أنشئ مختبرًا منزليًا عبر عشر مراحل عملية، من تصفية DNS للشبكة كلها إلى الذكاء الاصطناعي المحلي، مع الأجهزة والتكاليف والمهارات والمفاضلات في كل مستوى.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/build-home-lab-10-levels/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <h1 id="أنشئ-مختبرا-منزليا-في-10-مستويات-من-pi-hole-إلى-الذكاء-الاصطناعي-المحلي">
+  <a href="#%d8%a3%d9%86%d8%b4%d8%a6-%d9%85%d8%ae%d8%aa%d8%a8%d8%b1%d8%a7-%d9%85%d9%86%d8%b2%d9%84%d9%8a%d8%a7-%d9%81%d9%8a-10-%d9%85%d8%b3%d8%aa%d9%88%d9%8a%d8%a7%d8%aa-%d9%85%d9%86-pi-hole-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%a7%d9%84%d9%85%d8%ad%d9%84%d9%8a" title="أنشئ مختبرًا منزليًا في 10 مستويات، من Pi-hole إلى الذكاء الاصطناعي المحلي">أنشئ مختبرًا منزليًا في 10 مستويات، من Pi-hole إلى الذكاء الاصطناعي المحلي</a>
+  <a href="#%d8%a3%d9%86%d8%b4%d8%a6-%d9%85%d8%ae%d8%aa%d8%a8%d8%b1%d8%a7-%d9%85%d9%86%d8%b2%d9%84%d9%8a%d8%a7-%d9%81%d9%8a-10-%d9%85%d8%b3%d8%aa%d9%88%d9%8a%d8%a7%d8%aa-%d9%85%d9%86-pi-hole-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%a7%d9%84%d9%85%d8%ad%d9%84%d9%8a" class="h-anchor" aria-hidden="true" title="أنشئ مختبرًا منزليًا في 10 مستويات، من Pi-hole إلى الذكاء الاصطناعي المحلي">#</a>
+</h1>
+<p><strong>المختبر المنزلي</strong> مجموعة من أجهزة الكمبيوتر والخدمات التي تشغّلها لحل مشكلات يومية وتعلّم تشغيل أنظمة حقيقية. يمكنك حظر الإعلانات أو أتمتة الإضاءة أو تخزين الوسائط العائلية أو اختبار الأجهزة الافتراضية. <strong>ابدأ بمهمة مفيدة واحدة.</strong> أضف الأجهزة عندما يظهر قيد فعلي.</p>
+<p>ينتقل هذا الدليل من Raspberry Pi صغير يشغّل Pi-hole إلى خادم يشغّل نماذج ذكاء اصطناعي محلية. <strong>يضيف كل مستوى قدرة ومسؤولية جديدة.</strong> تعتمد تقديرات التكلفة أدناه على استهلاك توضيحي وسعر كهرباء افتراضي قدره $0.15 لكل كيلوواط ساعة. تحقّق من السعر المحلي وقِس أجهزتك قبل شراء المزيد.</p>
+<h2 id="المستوى-1-احظر-الإعلانات-عبر-شبكتك-المنزلية">
+  <a href="#%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%88%d9%89-1-%d8%a7%d8%ad%d8%b8%d8%b1-%d8%a7%d9%84%d8%a5%d8%b9%d9%84%d8%a7%d9%86%d8%
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/build-home-lab-10-levels/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>اختبارات Hermes للنماذج المحلية: تركيبات GPU والنماذج التي سأختارها</title><link>https://ar.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><description>تستند توصياتي لنماذج Hermes إلى اختبارات السياق الطويل والأدوات والبث والرؤية على أنظمة RTX 5060 Ti وRTX 2000E Ada وRTX 3060 Ti وRTX 3070.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>لأعمال Hermes ذات السياق الطويل، سأبدأ بـ Qwen3.5 35B على بطاقتي RTX 5060 Ti بسعة 16GB لكل منهما. احتفظ المسار المختبَر بـ 239,153 رمز إدخال عبر LiteLLM واجتاز اختبارات منفصلة للأدوات والبث والرؤية والطلبات الموضوعة في قائمة الانتظار والإلغاء. ويمثل Qwen3.6 خياري عند استخدام بطاقة واحدة. أما على نظامي RTX 3060 Ti وRTX 3070 فسأبدأ بـ Qwen3.5 2B أو 4B.</p>
+<p>تأتي هذه الخيارات من تشغيل النماذج عبر مسارات الاستدلال التي يستخدمها الوكيل. اختبرت الاحتفاظ بالمدخلات الطويلة، ودورات استخدام الأدوات، والاستجابات المتدفقة، والأسئلة عن الصور، وتحرير النموذج من الذاكرة. كما اختبرت الأوضاع وإعدادات الذاكرة التي تعتمد عليها المسارات، لأن نجاح تحميل نموذج لا يخبرنا كثيرًا عن فائدته أثناء طلب طويل من الوكيل.</p>
+<p>يتطلب Hermes سياقًا لا يقل عن 64,000 رمز لاستخدام الوكيل مع الأدوات. واعتمدت 65,536 رمز إدخال فعليًا حدًا لتأهيل السياق الطويل. وعدد رموز الإدخال أهم من حجم السياق الذي يعلنه الخادم. (
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="وثائق موفري Hermes Agent">
+    <meta itemprop="url" content="https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md">
+    <a href="https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >وثائق موفري Hermes Agent</a>
+</span>
+)</p>
+<h2 id="بطاقات-gpu-في-كل-نظام">
+  
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>داخل أسطولنا الهجين لوكلاء الذكاء الاصطناعي: Hermes وLiteLLM وTailscale</title><link>https://ar.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><description>تعرّف على أسطول ذكاء اصطناعي محلي موثّق بتحميل كسول، وخطة التحكم المرحلية من T0 إلى T4 باستخدام Hermes وLiteLLM وTailscale Aperture وتعدين Pearl.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>نشرنا أسطول GPU محليًا يخصص الموارد لكل طلب، وصممنا مستوى تحكم هجينًا له.</strong> يبدأ المسار المتحقق منه في LiteLLM، ثم يختار مجموعة نماذج ويحمّل نموذجًا محليًا على GPU واحد في كل مرة. سياسة مستويات Hermes مقترحة، كما أن عنصر إعداد Tailscale Aperture جاهز لاختبار التكامل التالي. لم يُتحقق من أي منهما بوصفه جزءًا من مسار متكامل من البداية إلى النهاية.</p>
+<p>تُعدّن البطاقات الخاملة Pearl. يوقف طلب الذكاء الاصطناعي التعدين على البطاقة المستأجرة وحدها، ويعالج الطلب، ويفرغ النموذج، ثم يعيد البطاقة إلى برنامج التعدين.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>تتولى المستويات T0 إلى T2 الأعمال المكلفة أو الصعبة.</strong> تفضّل هذه المسارات النماذج السحابية المتقدمة وسلاسل الرجوع المرتبة.</li>
+<li><strong>يتولى T3 الأعمال المحلية الكبيرة.</strong> يوزع الأسطول التخطيط والبرمجة والمراجعة والرؤية على نماذج من 4B إلى 12B.</li>
+<li><strong>يتولى T4 الأعمال المحلية كثيرة التكرار.</strong> توجه النماذج الصغيرة الطلبات وتصنف البيانات وتستخرجها وتنتج التضمينات وتنجز مهام برمجية محدودة.</li>
+<li><strong>كل GPU مورد مستقل.</strong> تخدم بطاقة واحدة مهام الذكاء الاصطناعي بينما تواصل البطاقات الأخرى التعدين.</li>
+<li><strong>تبقى النماذج المحلية غير محمّلة وقت الخمول.</strong> لا يحتفظ أي نموذج بذاكرة GPU بين فترات الطلبات.</li>
+<li><strong>تعرض كل بوابة الكتالوج المنطقي نفسه.</strong> توزع الأسماء المستعارة المشتركة العمل على ال
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>1Password SSH Agent and CLI: وصول وكيل الذكاء الاصطناعي للقراءة فقط</title><link>https://ar.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><description>صمّم سير عمل SSH للقراءة فقط باستخدام 1Password CLI و SSH Agent و MCP. استخدم أوامر اصطناعية وصلاحيات محدودة وموافقة بشرية قبل الاختبار المباشر.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>يحتاج وكيل سطر الأوامر إلى وصول مفيد، وليس نسخة من كل بيانات الاعتماد.</strong> تقدم هذه الدليل تصميمًا محدودًا لـ 1Password CLI، ووكيل 1Password SSH، ووصول Bitbucket Git، وبروتوكول سياق النموذج (MCP). يستخدم سير العمل الأول أسماء اصطناعية، وإجراءات للقراءة فقط، وموافقة بشرية عند حد SSH.</p>
+<p>التمييز الرئيسي بسيط. <strong>يستخدم SSH التفاعلي الموافقة من خلال وكيل 1Password SSH. أما الأتمتة غير المراقبة فتحتاج إلى هوية منفصلة، ووصول ضيق، ودورة حياة مختلفة للمفتاح.</strong> لا تعامل اتصال MCP كإذن لتنفيذ أي من سيري العمل.</p>
+<h2 id="النقاط-الرئيسية">
+  <a href="#%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9" title="النقاط الرئيسية">النقاط الرئيسية</a>
+  <a href="#%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9" class="h-anchor" aria-hidden="true" title="النقاط الرئيسية">#</a>
+</h2>
+<ul>
+<li><strong>حماية المفتاح الخاص:</strong> يقوم وكيل 1Password SSH بمصادقة SSH مع إبقاء المفاتيح الخاصة داخل تطبيق 1Password.</li>
+<li><strong>معالجة المفتاح العام:</strong> انشر مفتاحًا عامًا فقط إلى Bitbucket أو حساب بعيد. احتفظ بالنصف الخاص في عنصر مفتاح SSH.</li>
+<li><strong>الموافقة التفاعلية:</strong> يوافق شخص على عميل أو جلسة طرفية قبل أن يستخدم وكيل SSH المفتاح.</li>
+<li><strong>الفصل غير المراقب:</strong> يحتاج مهمة مجدولة إلى حساب خدمة مخصص ونطاق خزانة ضيق. لا تلبي موافقة وكيل SSH التفاعلية هذا الاحتياج.</li>
+<li><strong>حدود MCP:</strong> يربط MCP الوكيل بالأدوات والموارد. لا يزال العميل، والخادم، ونظام التشغيل، وسياسة 1Password تتحكم في الوصول.</li>
+</ul>
+<h2 id="قبل-أن-تبدأ">
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a3%d9%86-%d8%aa%d8%a8%d8%af%d8%a3" title="قبل أن تبدأ">قبل أن تبدأ</a>
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>اختبار استعادة آلة Proxmox الافتراضية: إثبات عمل النظام الضيف</title><link>https://ar.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><description>اختبر نسخة احتياطية لآلة Proxmox افتراضية باستعادة معزولة. افحص تغطية الأقراص ووضع النسخ الاحتياطي وبيانات الضيف وحالة الخدمة وزمن الاستعادة من دون المساس ببيئة الإنتاج.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>تعني مهمة النسخ الاحتياطي الخضراء أن Proxmox كتب نسخة احتياطية. لكنها لا توضح ما إذا كان النظام الضيف يقلع أو كانت بياناته حديثة أو كانت خدمته الرئيسية تعمل. <strong>استعد نسخة تحت معرّف آلة افتراضية جديد وعلى شبكة معزولة.</strong> تمنحك النتيجة دليلاً على إمكانية الاستعادة قبل أن يفرض انقطاع الخدمة الاختبار.</p>
+<p>يتناول هذا التمرين <strong>آلة افتراضية في Proxmox VE</strong>. تختلف قواعد النسخ الاحتياطي للحاويات، خاصةً مع عمليات ربط المجلدات وتركيب الأجهزة. يغطي 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="اختبار النسخ الاحتياطي والاستعادة للمختبر المنزلي">
+    <meta itemprop="url" content="/articles/homelab-backup-restore-drill/">
+    <a href="/articles/homelab-backup-restore-drill/"
+    
+        rel="follow me"
+    >اختبار النسخ الاحتياطي والاستعادة للمختبر المنزلي</a>
+</span>
+ على الموقع استعادة الملفات على نطاق أوسع. هنا ستختبر نسخة Proxmox الاحتياطية للآلة الافتراضية وأعباء عملها.</p>
+<p><strong>الضيف</strong> هو نظام التشغيل الذي يعمل داخل آلة افتراضية. تكشف <strong>عمليات ربط المجلدات</strong> <strong>وتركيب الأجهزة</strong> موارد المضيف للضيف. اختبر هذه الموارد وفق خطة استعادة منفصلة.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>حدّد النجاح أولا�
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>اختبر تسرب DNS وWebRTC في المتصفح مع VPN</title><link>https://ar.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><description>تحقق من عنوان IP العام ومحلل DNS وعناوين WebRTC في المتصفح قبل الاتصال بـVPN وبعده. افهم النتائج وابحث عن مشكلات التوجيه.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>لا تثبت أيقونة اتصال الشبكة الخاصة الافتراضية (VPN) أن كل طلب من المتصفح يمر بالمسار نفسه. اختبر <strong>عنوان IP العام</strong> و<strong>محلل نظام أسماء النطاقات (DNS)</strong> و<strong>عناوين WebRTC</strong> كلًّا على حدة. تجيب كل نتيجة عن سؤال مختلف. يقدم هذا الدليل فحصًا قابلًا للتكرار وطريقة للتحقق من النتائج غير المتوقعة.</p>
+<h2 id="النقاط-الأساسية">
+  <a href="#%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" title="النقاط الأساسية">النقاط الأساسية</a>
+  <a href="#%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="h-anchor" aria-hidden="true" title="النقاط الأساسية">#</a>
+</h2>
+<ul>
+<li><strong>قارن حالتين:</strong> سجّل الاختبارات نفسها قبل اتصال VPN وبعده.</li>
+<li><strong>اقرأ كل نتيجة بمفردها:</strong> لا يوضح تغير عنوان IP العام وجهة استعلامات DNS.</li>
+<li><strong>افحص مرشحي WebRTC:</strong> ابحث عن عنوان عام خارج المسار المتوقع. وللعنوان الخاص معنى مختلف.</li>
+<li><strong>غيّر إعدادًا واحدًا في كل مرة:</strong> أعد الاختبار بعد كل تغيير في VPN أو المتصفح أو DNS.</li>
+</ul>
+<h2 id="قبل-البدء">
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%a8%d8%af%d8%a1" title="قبل البدء">قبل البدء</a>
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%a8%d8%af%d8%a1" class="h-anchor" aria-hidden="true" title="قبل البدء">#</a>
+</h2>
+<p>استخدم المتصفح واتصال الشبكة اللذين تريد حمايتهما. حدّد ما إذا كان VPN سيغطي الجهاز كله أم تطبيقات مختارة فقط. إذا كان VPN يستخدم تقسيم النفق، فسجّل ما إذا كان متصفح الاختبار يمر عبر النفق. احتفظ بسياسة DNS الخاصة بعميل VPN للمقارنة.</p>
+<p>يرسل <strong>تقسيم النفق</strong> تطبيقات مختارة عبر VPN، بينما تستخدم التطبيقات الأخرى الشبكة العادية.</p>
+<p>تستخدم هذه الخطوات صفحات 
+
+
+
+
+
+
+
+
+
+
+
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>اختبر عزل شبكة الضيوف وأجهزة إنترنت الأشياء على شبكة Wi-Fi شبكية</title><link>https://ar.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid><description>تحقق مما إذا كانت شبكتا الضيوف وإنترنت الأشياء في نظام Wi-Fi الشبكي تمنعان الوصول إلى أجهزتك المنزلية. اختبر كل شبكة بخدمة تعمل وسجّل حدود العزل.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>لا يكشف اسم Wi-Fi منفصل الأجهزة التي تتواصل فيما بينها. قد يتعامل نظام الشبكة الشبكية مع <strong>شبكة الضيوف</strong> و<strong>شبكة إنترنت الأشياء</strong> و<strong>عزل العملاء اللاسلكي</strong> بوصفها وسائل تحكم مختلفة. يساعدك هذا الدليل على اختبار المسارات على أجهزتك، من دون افتراض أن تسمية الشركة المصنّعة تصف السياسة المطبقة.</p>
+<h2 id="النقاط-الرئيسية">
+  <a href="#%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9" title="النقاط الرئيسية">النقاط الرئيسية</a>
+  <a href="#%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9" class="h-anchor" aria-hidden="true" title="النقاط الرئيسية">#</a>
+</h2>
+<ul>
+<li><strong>تأكد أولًا من عمل الوجهة:</strong> اتصل بخدمة معروفة من الشبكة الرئيسية قبل اختبار مسار محظور.</li>
+<li><strong>اختبر كل حد:</strong> الوصول من الضيوف إلى الشبكة الرئيسية، ومن إنترنت الأشياء إلى الرئيسية، والاتصال بين الضيوف تجيب عنها اختبارات مختلفة.</li>
+<li><strong>سجّل الإعداد:</strong> يؤثر الطراز والبرنامج الثابت ووضع الموجّه أو نقطة الوصول وعقدة الشبكة المتصلة في تفسير النتائج.</li>
+<li><strong>أعد الاختبار بعد التغييرات:</strong> تنطبق النتيجة على الأجهزة والخدمة وعائلة العناوين والإعدادات التي اختبرتها فقط.</li>
+</ul>
+<h2 id="قبل-البدء">
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%a8%d8%af%d8%a1" title="قبل البدء">قبل البدء</a>
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%a8%d8%af%d8%a1" class="h-anchor" aria-hidden="true" title="قبل البدء">#</a>
+</h2>
+<p>خصص نحو 20 دقيقة. تحتاج إلى حاسوب محمول يستطيع الاتصال بشبكات Wi-Fi الرئيسية والضيوف وإنترنت الأشياء. تحتاج أيضًا إلى جهاز موثوق على الشبكة الرئيسية يشغّل <strong>خدمة TCP مفتوحة معروفة</strong>، مثل واجهة 
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>ترحيل آلة Hyper-V افتراضية إلى Proxmox VE: قائمة تحقق قابلة للتراجع</title><link>https://ar.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><description>انقل آلة Hyper-V افتراضية إلى Proxmox VE عبر تصدير المصدر بعد إيقافه، ومطابقة البرنامج الثابت، واستيراد الأقراص، واختبار إقلاع معزول، وخطة تراجع.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>يحافظ <strong>تصدير Hyper-V</strong> على ملفات الآلة الافتراضية، بينما يحتاج Proxmox VE إلى إعداد جديد للضيف وملفات أقراص VHDX افتراضية مستوردة. لا يثبت نجاح النسخ أن الضيف سيقلع أو سيقدم الخدمة للمستخدمين. تنقل هذه القائمة آلة واحدة عبر تصدير المصدر بعد إيقافه، واختبار إقلاع مضبوط، وتحويل له مسار عودة واضح.</p>
+<h2 id="النقاط-الأساسية">
+  <a href="#%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" title="النقاط الأساسية">النقاط الأساسية</a>
+  <a href="#%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="h-anchor" aria-hidden="true" title="النقاط الأساسية">#</a>
+</h2>
+<ul>
+<li><strong>سجّل المصدر:</strong> دوّن جيل البرنامج الثابت ومسارات الأقراص ونقاط التحقق وإعدادات الشبكة والتشفير قبل التصدير.</li>
+<li><strong>أوقف الكتابة:</strong> أوقف آلة Hyper-V قبل التصدير النهائي واتركها متوقفة أثناء اختبار Proxmox.</li>
+<li><strong>طابق مسار الإقلاع:</strong> يستخدم Hyper-V الجيل الأول BIOS القديم، ويستخدم الجيل الثاني UEFI.</li>
+<li><strong>تحقق من الخدمة:</strong> افحص البيانات والوصول إلى الشبكة والنسخ الاحتياطية وسلامة الضيف قبل إخراج المصدر من الخدمة.</li>
+</ul>
+<h2 id="قبل-البدء">
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%a8%d8%af%d8%a1" title="قبل البدء">قبل البدء</a>
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%a8%d8%af%d8%a1" class="h-anchor" aria-hidden="true" title="قبل البدء">#</a>
+</h2>
+<p>حدّد نافذة صيانة واختبر الإجراء أولاً على آلة افتراضية يمكن التخلص منها. تحتاج إلى صلاحيات مسؤول في Hyper-V وProxmox VE، ومساحة للتصدير، ونسخة احتياطية متحقق منها ومنفصلة عن نسخة الترحيل. خصص وقتاً لنقل كل الأقراص الافتراضية واختبار تطبيق الضيف. يحدد حجم القرص وسرعة النقل مدة ا�
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>لماذا يجري تجاوز تصفية DNS: تحقّق من مسار المحلّل</title><link>https://ar.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><description>اكتشف سبب تجاوز جهاز أو متصفح لمرشح DNS. قارن الاستعلامات المباشرة والافتراضية، وافحص السجلات، ثم تحقق من DNS المشفر وVPN وIPv6 وإعدادات الموجّه.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>أعددت محلّلًا يرشّح الطلبات، لكن أحد الأجهزة ما زال يصل إلى نطاق تحظره سياستك. قد يكون السبب القاعدة أو تعيين Domain Name System (DNS) للجهاز أو محلّلًا مشفرًا في المتصفح أو VPN. <strong>اختبر المسار قبل تغيير الإعدادات.</strong> يجيب الاستعلام المباشر إلى المرشح عن سؤال مختلف عن الاستعلام العادي للجهاز.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>افحص القاعدة أولًا:</strong> تأكد من أن المرشح يستقبل نطاق اختبار آمنًا ويحظره.</li>
+<li><strong>تتبّع كل طبقة:</strong> يؤثر الموجّه ونظام التشغيل والمتصفح وVPN وإعدادات الهاتف في توجيه DNS.</li>
+<li><strong>استخدم استعلامات جديدة:</strong> طابق اسم مضيف جديدًا ووقته مع سجل استعلامات المرشح.</li>
+<li><strong>اذكر حدود الاختبار:</strong> يثبت الاستعلام المرصود مسارًا واحدًا، لا سلوك كل تطبيق أو جهاز.</li>
+</ul>
+<h2 id="قبل-أن-تبدأ">
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a3%d9%86-%d8%aa%d8%a8%d8%af%d8%a3" title="قبل أن تبدأ">قبل أن تبدأ</a>
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a3%d9%86-%d8%aa%d8%a8%d8%af%d8%a3" class="h-anchor" aria-hidden="true" title="قبل أن تبدأ">#</a>
+</h2>
+<p>خصص نحو 20 دقيقة. ستحتاج إلى سجل استعلامات محلّل التصفية، وجهاز واحد تظهر عليه المشكلة، وسجل لإعدادات DNS في الموجّه. تستخدم الأمثلة حاسوبًا محمولًا يعمل بنظام Windows و<strong>Pi-hole</strong>، لكن المقارنة نفسها تصلح لأي محلّل يعرض السجلات لكل عميل. حدّد عنوان المرشح بدقة أولًا. لا تضع عناوين العملاء الخاصة أو سجلات الاستعلامات أو قواعد السياسات في تقرير عام.</p>
+<p>اختر <strong>نطاق اختبار غير ضار</
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>مفاتيح SSH في Bitbucket Cloud: وصول Git للقراءة فقط لوكلاء الذكاء الاصطناعي</title><link>https://ar.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><description>أعدّ مفاتيح SSH في Bitbucket Cloud، ووصول Git CLI، ورموز REST API، و1Password، وأدوات MCP لسير عمل وكلاء الذكاء الاصطناعي المقتصر على القراءة.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>يفصل سير عمل الوكيل المحدود قراءة المستودع وقراءة API والتعامل مع الأسرار والكتابة عن بُعد.</strong> استخدم Git عبر Secure Shell (SSH) للوصول إلى المصدر، ومفتاح وصول Bitbucket للقراءة فقط للاستنساخ الآلي، وREST API للبيانات الوصفية، وخادم Model Context Protocol (MCP) للأدوات المعتمدة. خزّن المفاتيح الخاصة ورموز API في 1Password. اشترط موافقة بشرية قبل أي كتابة.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>القراءة فقط افتراضيًا:</strong> استخدم مفتاح وصول للمستودع أو المشروع لاستنساخ الوكيل. لا يمنح أي منهما صلاحية push.</li>
+<li><strong>هوية شخصية:</strong> استخدم مفتاح SSH شخصيًا للعمل التفاعلي المرتبط بحساب مستخدم.</li>
+<li><strong>حفظ الأسرار:</strong> استخدم 1Password SSH Agent ليطلب Git عملية توقيع مصرحًا بها دون قراءة المفتاح الخاص.</li>
+<li><strong>مقصود CLI:</strong> اعتبر <code>git</code> و<code>curl</code> وواجهة API صغيرة مدققة أدوات سطر أوامر Bitbucket العملية.</li>
+<li><strong>حد MCP:</strong> أتح أدوات قراءة ضيقة النطاق. عطّل أدوات الكتابة أو ضعها خلف مسار موافقة منفصل.</li>
+<li><strong>بوابة الكتابة:</strong> اسمح للوكيل بالفحص والمقارنة وإعداد التغيير. اطلب موافقة شخص قبل push أو pull request أو الدمج أو تحديث الإعدادات.</li>
+</ul>
+<h2 id="قبل-البدء">
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%a8%d8%af%d8%a1" title="قبل البدء">قبل البدء</a>
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%a8%d8%af%d8%a1" class="h-anchor" aria-hidden="true" title="قبل البدء">#</a>
+</h2>
+<p><strong>المتطلبات:</strong> وصول إلى Bitbucket Cloud وGit وعميل OpenSSH و1Password 8 و1Password CLI وCLI مسجّل الد
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>OpenClaw وHermes Agent: تقييم عملي</title><link>https://ar.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</guid><description>قيّم وكلاء الذكاء الاصطناعي المتخصصين والدائمين باستخدام جرد للصلاحيات، ومراجعة للمحفزات، وسجل لتدفق البيانات، وقرار للتجربة الأولية.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/effective-ai-specialized-agent-evaluation.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="العودة إلى دورة سير العمل العملي للذكاء الاصطناعي">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >العودة إلى دورة سير العمل العملي للذكاء الاصطناعي</a>
+</span>
+</p>
+<p><strong>اختر وكيلاً متخصصاً وفق المهمة والصلاحيات التي يحتاج إليها.</strong> يختلف وكيل مهام يراجع ملفاً واحداً عن نظام دائم يستقبل الرسائل ويحفظ الذاكرة وينفذ إجراءات مجدولة. يستخدم هذا الدرس الاختياري OpenClaw وHermes Agent مثالين، ثم يقدم ورقة تقييم قبل التثبيت.</p>
+<p><strong>هدف التعلم:</strong> ستقارن صلاحيات الوكلاء ومحفزاتهم، ثم تسجل قراراً بشأن تجربة محدودة.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>وكيل مهام محدد الدور:</strong> وكيل مكلّف بسؤال أو عنصر عمل واحد.</li>
+<li><strong>وكيل دائم:</strong> خدمة أو جلسة تحتفظ بالحالة أو تستجيب لمحفزات لاحقة.</li>
+<li><strong>المحفز:</strong> حدث أو رسالة أو جدول يبدأ العمل.</li>
+<li><strong>جرد الصلاحيات:</strong> قائمة بالأدوات والحسابات والملفات ونطاقات الكتابة التي يحصل عليها الوكيل.</li>
+<li><strong>قرار التجربة:</strong> الرفض أو إجراء اختبار محدود أو الموافقة على استخدام محدد.</li>
+</ul>
+<h2 id="قبل-أن-تبدأ">
+  <a href="#%d9%82%d8%a8%d
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>إدارة نافذة سياق الذكاء الاصطناعي: حافظ على تركيز وكلاء البرمجة</title><link>https://ar.simeononsecurity.com/articles/effective-ai-context-window-management/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/effective-ai-context-window-management/</guid><description>تحكم في السياق النشط لمهمة الذكاء الاصطناعي باستخدام ملفات مختارة وتسليمات موجزة ومخرجات صغيرة للعاملين، مع الحفاظ على القرارات والأدلة.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/effective-ai-context-window-management.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/effective-ai-context-window-management/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="العودة إلى دورة سير العمل العملي للذكاء الاصطناعي">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >العودة إلى دورة سير العمل العملي للذكاء الاصطناعي</a>
+</span>
+</p>
+<p><strong>نافذة السياق هي النص والمواد الأخرى التي يعالجها النموذج في الدور الحالي.</strong> تشغل المطالبات والتعليمات وتعريفات الأدوات ومقتطفات الملفات ومخرجات الأدوات وسجل المحادثة مساحة من السياق. يشرح هذا الدرس كيفية إبقاء المهمة التالية مركزة وترك تسليم موثوق.</p>
+<p><strong>هدف التعلم:</strong> أنشئ تسليماً موجزاً واختبره في جلسة جديدة.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>الرموز (Tokens):</strong> وحدات يستخدمها النموذج لمعالجة المدخلات والمخرجات.</li>
+<li><strong>السياق النشط:</strong> المواد المتاحة في دور واحد، ضمن حدود المنتج.</li>
+<li><strong>المصادر الدائمة:</strong> ملفات أو سجلات للمشروع خارج المحادثة.</li>
+<li><strong>ضغط السياق:</strong> يلخص السياق الأقدم أو يحذفه، وقد يسقط تفصيلاً مطلوباً.</li>
+<li><strong>التسليم:</strong> يوجّه الجلسة الجديدة إلى المصادر الحالية والعمل المتحقق منه.</li>
+</ul>
+<h2 id="قبل-أن-تبدأ">
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a3%d9%86-%d8%aa%d8%a8%d8%af%
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/effective-ai-context-window-management/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>إعداد خادم MCP: الأذونات واختبار الأدوات والإزالة الآمنة</title><link>https://ar.simeononsecurity.com/articles/effective-ai-mcp-server-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/effective-ai-mcp-server-setup/</guid><description>صِل خادم توثيق MCP واحدًا للقراءة فقط، وافحص أدواته، ونفّذ قراءة فعلية، ثم أزل الاتصال.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/effective-ai-mcp-server-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/effective-ai-mcp-server-setup/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="العودة إلى دورة سير العمل العملي للذكاء الاصطناعي">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >العودة إلى دورة سير العمل العملي للذكاء الاصطناعي</a>
+</span>
+</p>
+<p><strong>استخدم خادم MCP عندما تحتاج المهمة إلى أداة قابلة لإعادة الاستخدام أو معلومات حديثة خارج المشروع.</strong> يحدد Model Context Protocol، أو MCP، كيفية تبادل العميل والخادم معلومات الأدوات والموارد والمطالبات. وجود إدخال للخادم لا يثبت أن الأداة تعمل. يختبر هذا الدرس اتصالًا واحدًا بتوثيق للقراءة فقط.</p>
+<p><strong>هدف التعلم:</strong> ستميّز بين الإعداد وقراءة MCP فعلية، وستوثق الإزالة الآمنة.</p>
+<h2 id="النقاط-الأساسية">
+  <a href="#%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" title="النقاط الأساسية">النقاط الأساسية</a>
+  <a href="#%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="h-anchor" aria-hidden="true" title="النقاط الأساسية">#</a>
+</h2>
+<ul>
+<li><strong>مضيف MCP:</strong> تطبيق ذكاء اصطناعي ينسق المستخدمين والنماذج والأذونات والعملاء.</li>
+<li><strong>عميل MCP:</strong> مكوّن البروتوكول الذي يتواصل مع خادم واحد.</li>
+<li><strong>خادم MCP:</strong> برنامج أو خدمة بعيدة توفر أدوات أو موارد أو مطالبات.</li>
+<li><strong>اكتشاف الأداة:</strong> دليل على ظهور قدرة مسماة في العميل.</li>
+<li><strong>تنفيذ الأداة:</strong> دليل على استدعاء فعلي وم�
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/effective-ai-mcp-server-setup/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>إعداد دورة سير عمل الذكاء الاصطناعي: الطرفية وGit ومختبر التدريب</title><link>https://ar.simeononsecurity.com/articles/effective-ai-course-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/effective-ai-course-setup/</guid><description>جهّز مساحة آمنة للتدرب على الذكاء الاصطناعي، وتعلّم مصطلحات الطرفية وGit في الدورة، وشغّل المختبر التمهيدي.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/effective-ai-course-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/effective-ai-course-setup/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="العودة إلى دورة سير عمل الذكاء الاصطناعي العملية">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >العودة إلى دورة سير عمل الذكاء الاصطناعي العملية</a>
+</span>
+</p>
+<p><strong>جهّز مساحة تدريب آمنة قبل استخدام وكيل.</strong> يمكن تنفيذ الدرسين 1 و2 في المتصفح دون هذا المختبر. عُد إلى هنا قبل الدرس 3 إذا أردت إكمال الدورة كاملة. تستخدم دروس البرمجة العملية Git وPython 3.10 أو إصدارًا أحدث ووكيل برمجة واحدًا. يستبدل مسار الدراسة إجراءات الوكيل غير المتاحة بمهام يدوية موضحة.</p>
+<p><strong>هدف التعلم:</strong> ستشغّل المختبر التمهيدي، وتحفظ خط أساس محليًا، وتشرح كيفية إعادة ضبط نسخة مؤقتة.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>مسار المتصفح:</strong> أكمل تمارين المحادثة والتخطيط والتحقق من المصادر والمراجعة في ChatGPT أو Claude.</li>
+<li><strong>المسار المحلي:</strong> استخدم الطرفية ومختبر Python المرفق لتمارين البرمجة.</li>
+<li><strong>مسار إعادة الضبط:</strong> استخرج نسخة جديدة من المختبر إذا تعذر إكمال تمرين.</li>
+<li><strong>قاعدة السلامة:</strong> أبقِ الملفات الخاصة وسجلات العملاء وبيانات الاعتماد خارج المختبر.</li>
+</ul>
+<h2 id="اختر
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/effective-ai-course-setup/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>إنشاء جرد للقراءة فقط في Active Directory باستخدام PowerShell</title><link>https://ar.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</guid><description>احصر الوحدات التنظيمية والمستخدمين وأجهزة الكمبيوتر في Active Directory باستخدام استعلامات PowerShell محددة النطاق. صدّر ملفات CSV قابلة للمراجعة من دون تغيير كائنات الدليل.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/active-directory-powershell-read-only-inventory.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>يبدأ تنظيف Active Directory بقائمة موثوقة للكائنات الموجودة. يجمع هذا <strong>الجرد المخصص للقراءة فقط</strong> الوحدات التنظيمية والمستخدمين وأجهزة الكمبيوتر ضمن نطاق تختاره. ويصدّر ثلاثة ملفات CSV (قيم مفصولة بفواصل) للمراجعة من دون تغيير كائنات الدليل. احمِ هذه الملفات أيضًا، لأن الأسماء وتفاصيل الأجهزة تكشف جزءًا من بيئتك.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>اختر نطاقًا:</strong> استعلم عن وحدة تنظيمية واحدة قبل توسيع البحث ليشمل المجال كله.</li>
+<li><strong>استخدم أوامر القراءة:</strong> تسترجع <code>Get-ADOrganizationalUnit</code> و<code>Get-ADUser</code> و<code>Get-ADComputer</code> الكائنات.</li>
+<li><strong>اختر الحقول:</strong> صدّر الخصائص اللازمة للمهمة فقط.</li>
+<li><strong>تحقق من النتائج:</strong> قارن العدد وبعض الصفوف النموذجية قبل الاعتماد على التقرير.</li>
+</ul>
+<h2 id="قبل-البدء">
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%a8%d8%af%d8%a1" title="قبل البدء">قبل البدء</a>
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%a8%d8%af%d8%a1" class="h-anchor" aria-hidden="true" title="قبل البدء">#</a>
+</h2>
+<p>تحتاج إلى مضيف إدارة يعمل بنظام Windows مع DNS سليم واتصال شبكي بوحدة تحكم المجال، ووحدة PowerShell النمطية <strong>ActiveDirectory</strong>، وحساب مصرح له بقراءة الكائنات المحددة، ومجلد محمي لملفات CSV. في عميل Windows، تأتي الوحدة مع أدوات Active Directory ضمن Remote Server Administration Tools (RSAT). يشرح 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+ 
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>اختيار سعة UPS لمختبرك المنزلي واختبار الإيقاف التلقائي</title><link>https://ar.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><description>قِس استهلاك مختبرك المنزلي، وقارن حدود الواط وVA في UPS، وتحقق من زمن التشغيل عند حملك، واختبر الإيقاف السليم قبل الاعتماد على البطارية.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>يمنحك <strong>UPS</strong>، أو مزود الطاقة غير المنقطع، وقتًا لحفظ العمل وإيقاف الأنظمة في مختبرك المنزلي عند انقطاع الكهرباء. لا يوضح الملصق وحده مدة تشغيل الخوادم. تحتاج إلى معرفة حمل الأجهزة وحدود الواط وVA في UPS وتقدير زمن التشغيل عند هذا الحمل ومسار إيقاف تم اختباره.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>قِس الحمل:</strong> سجّل استهلاك الواط العادي والمرتفع لكل جهاز تريد إبقاءه على البطارية.</li>
+<li><strong>تحقق من التصنيفين:</strong> يجب أن يفي UPS بمتطلبات الأجهزة المتصلة من الواط وVA.</li>
+<li><strong>اقرأ منحنى زمن التشغيل:</strong> يتغير الزمن حسب الحمل وحالة البطارية. استخدم تقديرًا خاصًا بالطراز.</li>
+<li><strong>اختبر الإيقاف:</strong> تحقق من وصول إشارة UPS إلى كل مضيف ومن توقف المضيفين قبل نفاد البطارية.</li>
+</ul>
+<h2 id="قبل-أن-تبدأ">
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a3%d9%86-%d8%aa%d8%a8%d8%af%d8%a3" title="قبل أن تبدأ">قبل أن تبدأ</a>
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a3%d9%86-%d8%aa%d8%a8%d8%af%d8%a3" class="h-anchor" aria-hidden="true" title="قبل أن تبدأ">#</a>
+</h2>
+<p>تحتاج إلى مقياس قدرة مناسب لمصدر الكهرباء المحلي، وقائمة بالأجهزة ومحولات الطاقة، وإمكانية الوصول إلى مواصفات كل طراز UPS تفكر فيه ومنحنى زمن تشغيله. ولاختبار الإيقاف التلقائي تحتاج أيضًا إلى اتصال USB أو إدارة شبكة مدعوم وبرنامج لكل مضيف. خصص وقتًا لقياس الحمل العادي ومراقبة الحمل المرتفع وإجراء اختبار صيانة مخطط له. هذه مهمة متوسطة المستوى في المختبر المنزلي لأن اختبار الإيقاف الكامل ي�
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>أمن البريد الإلكتروني on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>أمن البريد الإلكتروني on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%AF-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A/</link></image><link>https://ar.simeononsecurity.com/tags/%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%AF-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A/</link><description>Recent content in أمن البريد الإلكتروني on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%AF-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A/index.xml" rel="self" type="application/rss+xml"/><item><title>Thunderbird 153.6: كشف بيانات اعتماد NTLM على Windows وكيفية التحديث (2026)</title><link>https://ar.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "أمن البريد الإلكتروني"
+, "أمن Windows"</category><guid>https://ar.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تكشف ثغرتان خطيرتان في Thunderbird بيانات مصادقة NTLM على Windows عند عرض رسالة بريد مصممة خصيصًا. تعرّف على مساري الهجوم، وافحص الإصدار، وقيّد SMB الصادر أثناء التحديث.</description></item><item><title>إتقان الأمن السيبراني</title><link>https://ar.simeononsecurity.com/articles/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe/</link><pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate><category>
+"ممارسات الأمن السيبراني"
+, "الأمن الرقمي"
+, "الأمن عبر الإنترنت"
+, "الوقاية من التهديدات السيبرانية"
+, "حماية البيانات"
+, "الخصوصية على الإنترنت"
+, "إجراءات أمنية"
+, "أمن التكنولوجيا"
+, "أمن المعلومات"
+, "النظافة السيبرانية"</category><guid>https://ar.simeononsecurity.com/articles/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اتبع عادات يومية لحماية كلمات المرور والأجهزة والشبكة المنزلية والبيانات والخصوصية من التهديدات السيبرانية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe.webp" length="175160" type="image/webp"/></item><item><title>خدمة البريد الإلكتروني الآمن: تعزيز الخصوصية مع StartMail</title><link>https://ar.simeononsecurity.com/articles/secure-email-service-startmail/</link><pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate><category>
+"الأمن السيبراني"
+, "الخصوصية"
+, "خدمات البريد الإلكتروني"
+, "الأمن عبر الإنترنت"
+, "الخصوصية الرقمية"
+, "التشفير"
+, "حماية البيانات"
+, "خصوصية البريد الإلكتروني"
+, "حماية الهوية"
+, "الخصوصية عبر الإنترنت"</category><guid>https://ar.simeononsecurity.com/articles/secure-email-service-startmail/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+استكشف عناوين StartMail المستعارة وتشفير PGP والرسائل المحمية بكلمة مرور وحدود البريد المشفّر.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/secure_email_guard.webp" length="45872" type="image/webp"/></item><item><title>10 نصائح أساسية لأمن البريد الإلكتروني</title><link>https://ar.simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/</link><pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate><category>
+"أمن البريد الإلكتروني"
+, "حماية البيانات"
+, "الأمن السيبراني"
+, "الخصوصية على الإنترنت"
+, "سرقة الهوية"
+, "أمن كلمات المرور"
+, "عمليات التصيد"
+, "السلامة على الإنترنت"
+, "الأمن الرقمي"
+, "تدريب الموظفين"</category><guid>https://ar.simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على 10 نصائح مهمة لأمن البريد الإلكتروني لحماية بياناتك من التهديدات والهجمات الرقمية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.webp" length="43346" type="image/webp"/></item><item><title>10 نصائح أساسية لسلامة الإنترنت للجميع</title><link>https://ar.simeononsecurity.com/articles/ten-essential-internet-safety-tips-for-everyone/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><category>
+"سلامة الإنترنت"
+, "الأمن عبر الإنترنت"
+, "نصائح للأمن السيبراني"
+, "حماية الخصوصية"
+, "الأمن الرقمي"
+, "التهديدات عبر الإنترنت"
+, "أمن البيانات"
+, "ممارسات إنترنت آمنة"
+, "حماية المعلومات الشخصية"
+, "الخصوصية عبر الإنترنت"</category><guid>https://ar.simeononsecurity.com/articles/ten-essential-internet-safety-tips-for-everyone/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على 10 نصائح لسلامة الإنترنت لحماية خصوصيتك وأمنك وأموالك، والحفاظ على سلامة أسرتك من التهديدات الرقمية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/10-essential-internet-safety-tips-for-everyone.webp" length="33794" type="image/webp"/></item><item><title>احمِ أجهزتك من البرمجيات الخبيثة</title><link>https://ar.simeononsecurity.com/articles/how-to-protect-your-devices-from-malware/</link><pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate><category>
+"الحماية من البرمجيات الخبيثة"
+, "أمن الأجهزة"
+, "نصائح الأمن السيبراني"
+, "برامج مكافحة الفيروسات"
+, "عادات التصفح الآمن"
+, "أمن كلمات المرور"
+, "المصادقة الثنائية"
+, "الوعي بالهندسة الاجتماعية"
+, "أمن الشبكة المنزلية"
+, "أمن البرمجيات"
+, "نسخ البيانات احتياطيًا"
+, "أخبار الأمن السيبراني"
+, "تحديثات نظام التشغيل"
+, "أمن البريد الإلكتروني"
+, "منع التصيد الاحتيالي"
+, "السلامة على الإنترنت"
+, "التهديدات السيبرانية"
+, "الأمن الرقمي"
+, "الخصوصية على الإنترنت"
+, "الدفاع السيبراني"</category><guid>https://ar.simeononsecurity.com/articles/how-to-protect-your-devices-from-malware/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على خطوات عملية لحماية أجهزتك من البرمجيات الخبيثة والحفاظ على أمان معلوماتك الحساسة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/An_animated_shield_guarding_devices_against_malware_threats.webp" length="107390" type="image/webp"/></item></channel></rss>

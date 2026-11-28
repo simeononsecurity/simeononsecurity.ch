@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Active Directory on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>Active Directory on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/active-directory/</link></image><link>https://ar.simeononsecurity.com/genre/active-directory/</link><description>Recent content in Active Directory on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/active-directory/index.xml" rel="self" type="application/rss+xml"/><item><title>إنشاء جرد للقراءة فقط في Active Directory باستخدام PowerShell</title><link>https://ar.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Active Directory"
+, "PowerShell"
+, "إدارة الأنظمة"</category><guid>https://ar.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+احصر الوحدات التنظيمية والمستخدمين وأجهزة الكمبيوتر في Active Directory باستخدام استعلامات PowerShell محددة النطاق. صدّر ملفات CSV قابلة للمراجعة من دون تغيير كائنات الدليل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/active-directory-powershell-read-only-inventory.webp" length="101842" type="image/webp"/></item><item><title>إدارة Active Directory باستخدام PowerShell</title><link>https://ar.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"تكنولوجيا"
+, "ويندوز"
+, "PowerShell"
+, "Active Directory"
+, "الإدارة"
+, "البرمجة النصية"
+, "تكنولوجيا المعلومات"
+, "الأتمتة"
+, "خادم ويندوز"
+, "مايكروسوفت"</category><guid>https://ar.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اكتشف كيفية تثبيت واستخدام وحدة Active Directory لـ PowerShell بفعالية لتبسيط مهام إدارة Active Directory في Windows.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/active-directory-module-powershell-installation-usage-guide.webp" length="86330" type="image/webp"/></item><item><title>فهم تصفية WMI</title><link>https://ar.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"إدارة Windows"
+, "نهج المجموعة"
+, "إدارة الأنظمة"
+, "إدارة الشبكات"
+, "بنية تقنية المعلومات"
+, "إدارة السياسات"
+, "حوكمة تقنية المعلومات"
+, "أتمتة تقنية المعلومات"
+, "Active Directory"
+, "الامتثال الأمني"</category><guid>https://ar.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرّف على استخدام تصفية WMI لتوجيه كائنات نهج المجموعة (GPO) إلى الحواسيب المناسبة، مع أمثلة عملية وممارسات موصى بها.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item></channel></rss>
