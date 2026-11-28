@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>এনক্রিপশন on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>এনক্রিপশন on simeononsecurity</title><link>https://bn.simeononsecurity.com/genre/%E0%A6%8F%E0%A6%A8%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A6%B6%E0%A6%A8/</link></image><link>https://bn.simeononsecurity.com/genre/%E0%A6%8F%E0%A6%A8%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A6%B6%E0%A6%A8/</link><description>Recent content in এনক্রিপশন on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/genre/%E0%A6%8F%E0%A6%A8%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A6%B6%E0%A6%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>মাঠে স্থাপনযোগ্য এজ নোডের সংযোগ ও ডেটা সুরক্ষা</title><link>https://bn.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"এজ কম্পিউটিং"
+, "মাঠপর্যায়ের আইটি"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "VPN"
+, "এনক্রিপশন"
+, "শারীরিক নিরাপত্তা"
+, "দুর্যোগ পুনরুদ্ধার"</category><guid>https://bn.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সেলুলার, স্যাটেলাইট, LoRa, VPN, MFA, নেটওয়ার্ক সেগমেন্টেশন, লগিং, এনক্রিপশন এবং চুরি-প্রতিক্রিয়া দিয়ে মাঠের এজ কম্পিউটিং নোড সংযুক্ত ও সুরক্ষিত করার নির্দেশিকা।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item><item><title>নিরাপদ ইমেইল পরিষেবা: StartMail দিয়ে গোপনীয়তা বাড়ান</title><link>https://bn.simeononsecurity.com/articles/secure-email-service-startmail/</link><pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "গোপনীয়তা"
+, "ইমেইল পরিষেবা"
+, "অনলাইন নিরাপত্তা"
+, "ডিজিটাল গোপনীয়তা"
+, "এনক্রিপশন"
+, "তথ্য সুরক্ষা"
+, "ইমেইল গোপনীয়তা"
+, "পরিচয় সুরক্ষা"
+, "অনলাইন গোপনীয়তা"</category><guid>https://bn.simeononsecurity.com/articles/secure-email-service-startmail/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+StartMail-এর ইমেইল alias, PGP এনক্রিপশন, পাসওয়ার্ড-সুরক্ষিত বার্তা এবং এনক্রিপ্ট করা ইমেইলের সীমা জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/secure_email_guard.webp" length="45872" type="image/webp"/></item><item><title>নিরাপদ ইমেইল তুলনা: StartMail বনাম ProtonMail বনাম Tutanota</title><link>https://bn.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</link><pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "সাইবার নিরাপত্তা"
+, "তথ্য গোপনীয়তা"
+, "ইমেইল পরিষেবা"
+, "অনলাইন নিরাপত্তা"
+, "এনক্রিপশন"
+, "ইন্টারনেট সরঞ্জাম"
+, "তুলনা"
+, "ডিজিটাল সুরক্ষা"
+, "অনলাইন গোপনীয়তা"</category><guid>https://bn.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সেরা নিরাপদ ইমেইল পরিষেবা খুঁজে নিন। অনলাইনে গোপনীয়তা রক্ষায় StartMail, ProtonMail ও Tutanota-এর বিস্তারিত তুলনা।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/secure-email-showdown.webp" length="84184" type="image/webp"/></item><item><title>AWS বনাম Azure বনাম Google Cloud 2026: পূর্ণাঙ্গ তুলনা</title><link>https://bn.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"ক্লাউড কম্পিউটিং"
+, "ক্লাউড নিরাপত্তা"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "ডেটা নিরাপত্তা"
+, "এনক্রিপশন"
+, "পরিচয় ও প্রবেশাধিকার ব্যবস্থাপনা"
+, "সম্মতি"
+, "হুমকি শনাক্তকরণ"</category><guid>https://bn.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AWS, Azure এবং Google Cloud-এর 2026 সালের তুলনা, যেখানে মূল্য, নিরাপত্তা, সম্মতি, পরিষেবা, কর্মক্ষমতা এবং প্রদানকারী বাছাই আলোচনা করা হয়েছে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item><item><title>২০২৬ সালের সেরা পাসওয়ার্ড ম্যানেজার: Bitwarden বনাম KeePassXC</title><link>https://bn.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "সাইবার নিরাপত্তা"
+, "পাসওয়ার্ড ব্যবস্থাপনা"
+, "অনলাইন নিরাপত্তা"
+, "ডেটা সুরক্ষা"
+, "এনক্রিপশন"
+, "ডিজিটাল গোপনীয়তা"
+, "ইন্টারনেট সরঞ্জাম"
+, "ক্লাউড স্টোরেজ"
+, "সফটওয়্যার তুলনা"</category><guid>https://bn.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bitwarden, KeePassXC, 1Password, LastPass, Dashlane এবং Proton Pass নিয়ে ২০২৬ সালের পাসওয়ার্ড ম্যানেজার তুলনা।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/bitwarden-and-keepassxc-vs-the-rest.webp" length="241120" type="image/webp"/></item></channel></rss>

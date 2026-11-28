@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>UDP on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>UDP on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/udp/</link></image><link>https://bn.simeononsecurity.com/tags/udp/</link><description>Recent content in UDP on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/udp/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale কেন রিলে ব্যবহার করে: সরাসরি সংযোগ, DERP ও পিয়ার রিলে</title><link>https://bn.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Network Security"
+, "Self-Hosted"</category><guid>https://bn.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Tailscale কেন রিলে ব্যবহার করে, status ও netcheck আউটপুট কীভাবে পড়বেন এবং কখন DERP বা পিয়ার-রিলে সংযোগ পরীক্ষা করবেন তা জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/why-tailscale-uses-a-relay.webp" length="103974" type="image/webp"/></item><item><title>সংযোগভিত্তিক ও সংযোগবিহীন যোগাযোগের পার্থক্য</title><link>https://bn.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "নেটওয়ার্কিং"
+, "যোগাযোগ"
+, "প্রোটোকল"
+, "কম্পিউটার বিজ্ঞান"
+, "ডেটা স্থানান্তর"
+, "নেটওয়ার্ক অবকাঠামো"
+, "ইন্টারনেট"
+, "তথ্যপ্রযুক্তি"
+, "টেলিযোগাযোগ"</category><guid>https://bn.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+নেটওয়ার্ক যোগাযোগে সংযোগভিত্তিক ও সংযোগবিহীন পদ্ধতির পার্থক্য, প্রোটোকল, সেবা এবং রাউটিং পদ্ধতি জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/An_illustration_showing_two_devices_connected.webp" length="39168" type="image/webp"/></item></channel></rss>

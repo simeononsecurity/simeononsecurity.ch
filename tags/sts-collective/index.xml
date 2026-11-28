@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>STS Collective on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>STS Collective on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/sts-collective/</link></image><link>https://bn.simeononsecurity.com/tags/sts-collective/</link><description>Recent content in STS Collective on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/sts-collective/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock ক্যামেরা শনাক্তকরণের প্রতিযোগিতা: ২০২৬ সালে কী বদলেছে</title><link>https://bn.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"গোপনীয়তা প্রযুক্তি"
+, "নজরদারি প্রতিরোধ"
+, "ওপেন সোর্স প্রকল্প"
+, "ডিজিটাল অধিকার"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "নিরাপত্তা গবেষণা"
+, "হার্ডওয়্যার পরিবর্তন"
+, "গোপনীয়তার সরঞ্জাম"</category><guid>https://bn.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safety শনাক্তকরণে রিপোর্ট করা পরিবর্তন, কমিউনিটির প্রতিক্রিয়া, এবং ক্যামেরা সিস্টেম শনাক্তে ইনফ্রারেড পদ্ধতি পর্যালোচনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>Flock Finder: Flock Safety ALPR ক্যামেরার মানচিত্র</title><link>https://bn.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"গোপনীয়তা প্রযুক্তি"
+, "পাল্টা নজরদারি"
+, "ওপেন সোর্স প্রকল্প"
+, "ডিজিটাল অধিকার"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "গোপনীয়তা সরঞ্জাম"
+, "হার্ডওয়্যার হ্যাকিং"
+, "নিরাপত্তা গবেষণা"</category><guid>https://bn.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder একটি ওপেন-সোর্স টুল যা WiGLE WiFi ডেটা এবং OUI ফিঙ্গারপ্রিন্টিং ব্যবহার করে বিশ্বজুড়ে ৪০,০০০+ Flock Safety ALPR ক্যামেরার মানচিত্র তৈরি করে। এটি কীভাবে কাজ করে, এর সীমাবদ্ধতা এবং রিয়েল-টাইম সনাক্তকরণের জন্য হার্ডওয়্যার টুল সম্পর্কে জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Orbic RCL400-এর জন্য DagShell কাস্টম ফার্মওয়্যার: ২০২৬ নির্দেশিকা</title><link>https://bn.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"কাস্টম ফার্মওয়্যার"
+, "মোবাইল নিরাপত্তা"
+, "গোপনীয়তা সরঞ্জাম"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "ওয়ারড্রাইভিং"
+, "পেনেট্রেশন টেস্টিং"
+, "IoT নিরাপত্তা"
+, "নিরাপত্তা গবেষণা"
+, "হার্ডওয়্যার নিরাপত্তা"
+, "গোপনীয়তা প্রযুক্তি"</category><guid>https://bn.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Orbic RCL400-এর DagShell ফার্মওয়্যারের প্রযুক্তিগত নির্দেশিকা। ইনস্টলেশন, গোপনীয়তা সরঞ্জাম, ওয়ারড্রাইভিং ও গবেষণার সীমা ব্যাখ্যা করা হয়েছে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>Flock-You সনাক্তকরণ: কাউন্টার-সার্ভেইল্যান্স সেটআপ গাইড</title><link>https://bn.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"নিরাপত্তা হার্ডওয়্যার"
+, "কাউন্টার সার্ভেইল্যান্স"
+, "গোপনীয়তা প্রযুক্তি"
+, "ওপেন সোর্স প্রকল্প"
+, "ESP32 ডেভেলপমেন্ট"
+, "WiFi মনিটরিং"
+, "গোপনীয়তা সরঞ্জাম"
+, "ডিজিটাল অধিকার"
+, "হার্ডওয়্যার হ্যাকিং"
+, "নেটওয়ার্ক নিরাপত্তা"</category><guid>https://bn.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ESP32-ভিত্তিক হার্ডওয়্যার ব্যবহার করে Flock Safety ALPR ক্যামেরা সনাক্ত করার জন্য ওপেন-সোর্স Flock-You প্রকল্পের ব্যাপক প্রযুক্তিগত গাইড। সেটআপ নির্দেশাবলী, ফার্মওয়্যার বিবরণ এবং ক্রয় বিকল্প অন্তর্ভুক্ত।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item></channel></rss>

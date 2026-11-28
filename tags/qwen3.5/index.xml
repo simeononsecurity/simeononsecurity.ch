@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qwen3.5 on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>Qwen3.5 on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/qwen3.5/</link></image><link>https://bn.simeononsecurity.com/tags/qwen3.5/</link><description>Recent content in Qwen3.5 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/qwen3.5/index.xml" rel="self" type="application/rss+xml"/><item><title>স্ব-হোস্টেড Hindsight: স্থানীয় এজেন্ট মেমরি ও ব্যক্তিগত মডেল রাউটিং</title><link>https://bn.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "স্ব-হোস্টেড AI"
+, "AI এজেন্ট"
+, "AI অবকাঠামো"
+, "গোপনীয়তা"</category><guid>https://bn.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+স্ব-হোস্টেড Hindsight, পর্যবেক্ষিত স্থানীয় Qwen রুট এবং পরীক্ষিত পথে হোস্টেড মডেল সাবস্ক্রিপশন ছাড়া অনুরোধভিত্তিক GPU কাজের একটি কেস স্টাডি।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Hermes স্থানীয় মডেল বেঞ্চমার্ক: আমি যে GPU ও মডেল সমন্বয় বেছে নেব</title><link>https://bn.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"কৃত্রিম বুদ্ধিমত্তা"
+, "স্থানীয় AI"
+, "হার্ডওয়্যার"</category><guid>https://bn.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti ও RTX 3070 সিস্টেমে দীর্ঘ প্রসঙ্গ, টুল, স্ট্রিমিং এবং ভিশন পরীক্ষার ভিত্তিতে আমার Hermes মডেল সুপারিশ।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>আমাদের হাইব্রিড এজেন্টিক AI ফ্লিটের ভেতরে: Hermes, LiteLLM ও Tailscale</title><link>https://bn.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "স্ব-হোস্ট করা AI"
+, "AI এজেন্ট"
+, "AI অবকাঠামো"
+, "GPU মাইনিং"</category><guid>https://bn.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hermes, LiteLLM, Tailscale Aperture ও Pearl mining-সহ যাচাইকৃত lazy-loaded local AI fleet এবং এর T0 থেকে T4 control plane সম্পর্কে জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>2টি RTX 5060 Ti বনাম GB10: 256K কনটেক্সটে পাঁচটি মডেলের স্থানীয় AI বেঞ্চমার্ক</title><link>https://bn.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"কৃত্রিম বুদ্ধিমত্তা"
+, "স্থানীয় AI"
+, "GPU হার্ডওয়্যার"
+, "বেঞ্চমার্ক"
+, "কম্পিউটার হার্ডওয়্যার"</category><guid>https://bn.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+পাঁচটি মডেলে RTX 5060 Ti ও GB10-এর তুলনা, সঙ্গে একই হোস্টে 256K কনটেক্সট পর্যন্ত Qwen3.8 Flash-Next Strata বেঞ্চমার্ক।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item></channel></rss>

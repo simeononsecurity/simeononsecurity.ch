@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>লোকাল AI on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>লোকাল AI on simeononsecurity</title><link>https://bn.simeononsecurity.com/genre/%E0%A6%B2%E0%A7%8B%E0%A6%95%E0%A6%BE%E0%A6%B2-ai/</link></image><link>https://bn.simeononsecurity.com/genre/%E0%A6%B2%E0%A7%8B%E0%A6%95%E0%A6%BE%E0%A6%B2-ai/</link><description>Recent content in লোকাল AI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/genre/%E0%A6%B2%E0%A7%8B%E0%A6%95%E0%A6%BE%E0%A6%B2-ai/index.xml" rel="self" type="application/rss+xml"/><item><title>16GB GPU-তে লোকাল AI কোডিং: Strata, OpenCode এবং Qwen3.8</title><link>https://bn.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"লোকাল AI"
+, "ডেভেলপার টুল"
+, "স্ব-হোস্টেড AI"
+, "AI হার্ডওয়্যার"</category><guid>https://bn.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Strata এবং OpenCode দিয়ে একটি লোকাল কোডিং এজেন্ট চালান। প্রকাশিত RTX 4060 Ti ফলাফল, RAM প্রয়োজনীয়তা, প্রম্পট পুনর্ব্যবহার, reasoning বাজেট এবং পেইড সাবস্ক্রিপশন বদলানোর সীমা পরীক্ষা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>Qwen 27B-এর জন্য 32GB VRAM: অক্টোবর 2026-এর লোকাল AI হার্ডওয়্যার গাইড</title><link>https://bn.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"লোকাল AI"
+, "AI হার্ডওয়্যার"
+, "GPU বেঞ্চমার্কিং"
+, "সেল্ফ-হোস্টেড AI"
+, "কম্পিউটার হার্ডওয়্যার"
+, "AI অর্থনীতি"</category><guid>https://bn.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+অক্টোবর 2026-এর ব্যবহারিক গাইড। 32GB ব্যবহারযোগ্য অ্যাক্সিলারেটর মেমরিতে Qwen 27B মডেল চালানো, একক GPU, দুই-কার্ড বিল্ড, unified memory, ব্যবহৃত ডেটা-সেন্টার কার্ড, ভাড়া করা কম্পিউট, সফটওয়্যার সমর্থন এবং পূর্ণ-কনটেক্সট সীমা তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

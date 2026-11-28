@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>নেটওয়ার্ক নিরাপত্তা on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>নেটওয়ার্ক নিরাপত্তা on simeononsecurity</title><link>https://bn.simeononsecurity.com/genre/%E0%A6%A8%E0%A7%87%E0%A6%9F%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE/</link></image><link>https://bn.simeononsecurity.com/genre/%E0%A6%A8%E0%A7%87%E0%A6%9F%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE/</link><description>Recent content in নেটওয়ার্ক নিরাপত্তা on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/genre/%E0%A6%A8%E0%A7%87%E0%A6%9F%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>হোমল্যাব VLAN সেগমেন্টেশন পরিকল্পনা ও পরীক্ষা করুন</title><link>https://bn.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"হোমল্যাব"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "নেটওয়ার্কিং"</category><guid>https://bn.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+হোমল্যাবে বিশ্বস্ত ডিভাইস, সার্ভার, IoT ও অতিথিদের আলাদা রাখতে VLAN পরিকল্পনা তৈরি করুন। অনুমোদিত ট্র্যাফিক লিখে রাখুন, ধাপে ধাপে নেটওয়ার্ক কনফিগার করুন এবং আইসোলেশন পরীক্ষা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Meshtastic-এর জন্য গোপনীয়তা-সুরক্ষিত AI সহকারী তৈরি</title><link>https://bn.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"নেটওয়ার্ক নিরাপত্তা"
+, "গোপনীয়তা"
+, "ওপেন সোর্স"
+, "স্বয়ংক্রিয়করণ"</category><guid>https://bn.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Meshtastic-এর জন্য স্থানীয় AI সহকারী তৈরির ব্যবহারিক অভিজ্ঞতা, যেখানে ব্যক্তিগত কনফিগারেশন, সারিবদ্ধ TCP অ্যাক্সেস, তথ্য সংগ্রহের টুল এবং আরও নিরাপদ ড্যাশবোর্ড রয়েছে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Cloudflare Tunnel ও Access: দুটিই কি আপনার দরকার?</title><link>https://bn.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"নেটওয়ার্ক নিরাপত্তা"
+, "স্ব-হোস্টিং"
+, "ক্লাউড নিরাপত্তা"</category><guid>https://bn.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Cloudflare Tunnel ও Access-এর পার্থক্য বুঝুন, বাড়ির ড্যাশবোর্ডের জন্য সুরক্ষা বেছে নিন এবং প্রমাণীকরণ ছাড়া ব্যক্তিগত অ্যাপ প্রকাশ করা এড়ান।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>Flock ক্যামেরা শনাক্তকরণের প্রতিযোগিতা: ২০২৬ সালে কী বদলেছে</title><link>https://bn.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"গোপনীয়তা প্রযুক্তি"
+, "নজরদারি প্রতিরোধ"
+, "ওপেন সোর্স প্রকল্প"
+, "ডিজিটাল অধিকার"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "নিরাপত্তা গবেষণা"
+, "হার্ডওয়্যার পরিবর্তন"
+, "গোপনীয়তার সরঞ্জাম"</category><guid>https://bn.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safety শনাক্তকরণে রিপোর্ট করা পরিবর্তন, কমিউনিটির প্রতিক্রিয়া, এবং ক্যামেরা সিস্টেম শনাক্তে ইনফ্রারেড পদ্ধতি পর্যালোচনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>মাঠে স্থাপনযোগ্য এজ নোডের সংযোগ ও ডেটা সুরক্ষা</title><link>https://bn.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"এজ কম্পিউটিং"
+, "মাঠপর্যায়ের আইটি"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "VPN"
+, "এনক্রিপশন"
+, "শারীরিক নিরাপত্তা"
+, "দুর্যোগ পুনরুদ্ধার"</category><guid>https://bn.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সেলুলার, স্যাটেলাইট, LoRa, VPN, MFA, নেটওয়ার্ক সেগমেন্টেশন, লগিং, এনক্রিপশন এবং চুরি-প্রতিক্রিয়া দিয়ে মাঠের এজ কম্পিউটিং নোড সংযুক্ত ও সুরক্ষিত করার নির্দেশিকা।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item><item><title>Flock Finder: Flock Safety ALPR ক্যামেরার মানচিত্র</title><link>https://bn.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"গোপনীয়তা প্রযুক্তি"
+, "পাল্টা নজরদারি"
+, "ওপেন সোর্স প্রকল্প"
+, "ডিজিটাল অধিকার"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "গোপনীয়তা সরঞ্জাম"
+, "হার্ডওয়্যার হ্যাকিং"
+, "নিরাপত্তা গবেষণা"</category><guid>https://bn.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder একটি ওপেন-সোর্স টুল যা WiGLE WiFi ডেটা এবং OUI ফিঙ্গারপ্রিন্টিং ব্যবহার করে বিশ্বজুড়ে ৪০,০০০+ Flock Safety ALPR ক্যামেরার মানচিত্র তৈরি করে। এটি কীভাবে কাজ করে, এর সীমাবদ্ধতা এবং রিয়েল-টাইম সনাক্তকরণের জন্য হার্ডওয়্যার টুল সম্পর্কে জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>ESP32 WiFi Canary: 2.4 GHz-এ নিষ্ক্রিয় হুমকি শনাক্তকরণ</title><link>https://bn.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"নেটওয়ার্ক নিরাপত্তা"
+, "WiFi নিরাপত্তা"
+, "IoT নিরাপত্তা"
+, "নিরাপত্তা গবেষণা"
+, "এম্বেডেড সিস্টেম"
+, "গোপনীয়তার সরঞ্জাম"
+, "ESP32 প্রকল্প"
+, "হার্ডওয়্যার নিরাপত্তা"
+, "ওয়্যারলেস নিরাপত্তা"
+, "ওপেন-সোর্স নিরাপত্তা"</category><guid>https://bn.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ESP32 WiFi Canary-এর প্রযুক্তিগত বিশ্লেষণ। এই নিষ্ক্রিয় 2.4 GHz সেন্সর evil twin, deauthentication, নিরাপত্তা হ্রাস এবং beacon flood শনাক্ত করে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>Orbic RCL400-এর জন্য DagShell কাস্টম ফার্মওয়্যার: ২০২৬ নির্দেশিকা</title><link>https://bn.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"কাস্টম ফার্মওয়্যার"
+, "মোবাইল নিরাপত্তা"
+, "গোপনীয়তা সরঞ্জাম"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "ওয়ারড্রাইভিং"
+, "পেনেট্রেশন টেস্টিং"
+, "IoT নিরাপত্তা"
+, "নিরাপত্তা গবেষণা"
+, "হার্ডওয়্যার নিরাপত্তা"
+, "গোপনীয়তা প্রযুক্তি"</category><guid>https://bn.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Orbic RCL400-এর DagShell ফার্মওয়্যারের প্রযুক্তিগত নির্দেশিকা। ইনস্টলেশন, গোপনীয়তা সরঞ্জাম, ওয়ারড্রাইভিং ও গবেষণার সীমা ব্যাখ্যা করা হয়েছে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>Flock-You সনাক্তকরণ: কাউন্টার-সার্ভেইল্যান্স সেটআপ গাইড</title><link>https://bn.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"নিরাপত্তা হার্ডওয়্যার"
+, "কাউন্টার সার্ভেইল্যান্স"
+, "গোপনীয়তা প্রযুক্তি"
+, "ওপেন সোর্স প্রকল্প"
+, "ESP32 ডেভেলপমেন্ট"
+, "WiFi মনিটরিং"
+, "গোপনীয়তা সরঞ্জাম"
+, "ডিজিটাল অধিকার"
+, "হার্ডওয়্যার হ্যাকিং"
+, "নেটওয়ার্ক নিরাপত্তা"</category><guid>https://bn.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ESP32-ভিত্তিক হার্ডওয়্যার ব্যবহার করে Flock Safety ALPR ক্যামেরা সনাক্ত করার জন্য ওপেন-সোর্স Flock-You প্রকল্পের ব্যাপক প্রযুক্তিগত গাইড। সেটআপ নির্দেশাবলী, ফার্মওয়্যার বিবরণ এবং ক্রয় বিকল্প অন্তর্ভুক্ত।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>Tailscale বনাম Headscale</title><link>https://bn.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "নিজস্ব হোস্টিং"
+, "WireGuard"
+, "জিরো ট্রাস্ট"
+, "মেশ নেটওয়ার্কিং"
+, "ওপেন সোর্স"
+, "ক্লাউড অবকাঠামো"
+, "দূরবর্তী অ্যাক্সেস"
+, "নেটওয়ার্ক ব্যবস্থাপনা"</category><guid>https://bn.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+আপনার প্রয়োজনের উপযোগী WireGuard মেশ VPN বেছে নিতে হোস্টিং পদ্ধতি, পরিচয় ব্যবস্থাপনা, ফিচার, খরচ, পরিচালনা ও সহায়তার দিক থেকে Tailscale এবং Headscale-এর তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item><item><title>ইমেইল শিষ্টাচার আয়ত্ত করা</title><link>https://bn.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</link><pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate><category>
+"পেশাগত যোগাযোগ"
+, "ইমেইল নিরাপত্তা"
+, "ব্যবসায়িক শিষ্টাচার"
+, "প্রযুক্তিগত দক্ষতা"
+, "কর্মক্ষেত্রের দক্ষতা"
+, "সাইবার নিরাপত্তার উত্তম চর্চা"
+, "ডিজিটাল সাক্ষরতা"
+, "অনলাইন যোগাযোগ"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "কার্যকর লেখা"</category><guid>https://bn.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+নিরাপদ ও পেশাদার ইমেইল আদান-প্রদানের জন্য শিষ্টাচারের এই পরামর্শগুলো অনুসরণ করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/email-etiquette_-ensuring-smooth-and-secure-email-operations.webp" length="84144" type="image/webp"/></item><item><title>নেক্সট-জেন ফায়ারওয়াল: ব্যবসার জন্য জরুরি বৈশিষ্ট্য</title><link>https://bn.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</link><pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "ফায়ারওয়াল প্রযুক্তি"
+, "ব্যবসার নিরাপত্তা"
+, "ক্লাউড ইন্টিগ্রেশন"
+, "ডিজিটাল হুমকি"
+, "নেটওয়ার্ক ব্যবস্থাপনা"
+, "নিরাপত্তা সমাধান"
+, "অনলাইন নিরাপত্তা"
+, "প্রযুক্তি বিষয়ক তথ্য"</category><guid>https://bn.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+অ্যাপ্লিকেশন নিয়ন্ত্রণ, অনুপ্রবেশ প্রতিরোধ, হুমকি সুরক্ষা, ক্লাউড সমর্থন, থ্রুপুট, স্থিতিস্থাপকতা ও ব্যবস্থাপনার ভিত্তিতে নেক্সট-জেন ফায়ারওয়াল বেছে নিন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/next-gen-firewalls_-features-you-can%27t-ignore-for-your-business.webp" length="128018" type="image/webp"/></item><item><title>Ubiquiti UniFi Express: WiFi 6 অ্যাক্সেস পয়েন্টসহ কমপ্যাক্ট গেটওয়ের পর্যালোচনা</title><link>https://bn.simeononsecurity.com/articles/exploring-unifi-express-all-in-one-network-gateway/</link><pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি পর্যালোচনা"
+, "নেটওয়ার্ক সমাধান"
+, "হোম নেটওয়ার্ক সেটআপ"
+, "WiFi 6 ডিভাইস"
+, "UniFi Express পরিচিতি"
+, "কমপ্যাক্ট গেটওয়ে"
+, "ওয়্যারলেস অ্যাক্সেস পয়েন্ট"
+, "Ubiquiti পণ্য"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "ছোট ব্যবসার নেটওয়ার্ক"</category><guid>https://bn.simeononsecurity.com/articles/exploring-unifi-express-all-in-one-network-gateway/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+WiFi 6 অ্যাক্সেস পয়েন্ট ও সহজ ব্যবস্থাপনাসহ কমপ্যাক্ট গেটওয়ে UniFi Express-এর পর্যালোচনা।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/UniFi_Express_Connectivity.webp" length="64240" type="image/webp"/></item><item><title>Ubiquiti UniFi Firewall বনাম pfSense</title><link>https://bn.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate><category>
+"নেটওয়ার্ক নিরাপত্তা"
+, "ফায়ারওয়াল সমাধান"
+, "সাইবার নিরাপত্তা"
+, "রাউটার তুলনা"
+, "প্রযুক্তি"
+, "আইটি সমাধান"
+, "ওপেন সোর্স ফায়ারওয়াল"
+, "Ubiquiti বনাম pfSense"
+, "ব্যবসায়িক নেটওয়ার্ক"
+, "হোম নেটওয়ার্ক"</category><guid>https://bn.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+নেটওয়ার্কের শক্তিশালী সুরক্ষার জন্য Ubiquiti UniFi Firewall ও pfSense তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/Ubiquiti_UniFi_Firewall_vs_pfSense.webp" length="192366" type="image/webp"/></item><item><title>Windows Registry বনাম Linux কনফিগারেশন ফাইল</title><link>https://bn.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link><pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "অপারেটিং সিস্টেম"
+, "নিরাপত্তা ব্যবস্থাপনা"
+, "কম্পিউটার প্রযুক্তি"
+, "তথ্য সুরক্ষা"
+, "সিস্টেম কনফিগারেশন"
+, "আইটি নিরাপত্তা"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "প্রযুক্তি তুলনা"
+, "তথ্য নিরাপত্তা"</category><guid>https://bn.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows Registry ও Linux কনফিগারেশন ফাইলের নিরাপত্তা তুলনা করুন এবং দুই সিস্টেম শক্তিশালী করার ব্যবহারিক ব্যবস্থা জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp"/></item><item><title>সাইবার নিরাপত্তায় Windows Task Scheduler বনাম Linux Cron</title><link>https://bn.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "অপারেটিং সিস্টেম"
+, "সিস্টেম অটোমেশন"
+, "নিরাপত্তা সরঞ্জাম"
+, "কম্পিউটার প্রযুক্তি"
+, "কাজের সময়সূচি"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "সিস্টেম প্রশাসন"
+, "সাইবার প্রতিরক্ষা"
+, "তথ্যপ্রযুক্তি ব্যবস্থাপনা"</category><guid>https://bn.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সাইবার নিরাপত্তা ও সিস্টেম শক্তিশালী করার দৃষ্টিতে Windows Task Scheduler এবং Linux Cron-এ নির্ধারিত কাজ তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>বাড়ির নেটওয়ার্কে Firewalla: ঘর ও হোম ল্যাবের নিরাপত্তা</title><link>https://bn.simeononsecurity.com/articles/firewalla-home-network-security-guide/</link><pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "সাইবার নিরাপত্তা"
+, "বাড়ির নেটওয়ার্ক"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "IoT নিরাপত্তা"
+, "অনলাইন নিরাপত্তা"
+, "হোম ল্যাব"
+, "ডিজিটাল সুরক্ষা"
+, "অনুপ্রবেশ শনাক্তকরণ"
+, "কনটেন্ট ফিল্টারিং"</category><guid>https://bn.simeononsecurity.com/articles/firewalla-home-network-security-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+জানুন Firewalla কীভাবে বাড়ির নেটওয়ার্ক সুরক্ষায় সাহায্য করে, এটি হোম ল্যাবের জন্য উপযোগী কি না, এবং কোন সুবিধা ও সীমাবদ্ধতা বিবেচনা করা দরকার।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/firewalla-home-network-security.webp" length="57452" type="image/webp"/></item><item><title>স্থিতিশীল SOC গড়ে তোলা</title><link>https://bn.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "প্রযুক্তি"
+, "ব্যবসা"
+, "ডেটা সুরক্ষা"
+, "ঘটনা মোকাবিলা"
+, "আইটি ব্যবস্থাপনা"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "হুমকি শনাক্তকরণ"
+, "তথ্য নিরাপত্তা"
+, "ঝুঁকি ব্যবস্থাপনা"</category><guid>https://bn.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সাইবার হুমকি মোকাবিলা, ঘটনা শনাক্ত এবং প্রতিষ্ঠানের সম্পদ রক্ষার জন্য একটি শক্তিশালী নিরাপত্তা অপারেশনস সেন্টার (SOC) গড়ে তুলুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>প্রতিরক্ষা জোরদার করুন: EDR সাইবার নিরাপত্তা সমাধান</title><link>https://bn.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "প্রযুক্তি"
+, "হুমকি শনাক্তকরণ"
+, "এন্ডপয়েন্ট নিরাপত্তা"
+, "ঘটনায় সাড়া"
+, "তথ্য সুরক্ষা"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "ডিজিটাল প্রতিরক্ষা"
+, "আইটি নিরাপত্তা"
+, "সাইবার স্থিতিস্থাপকতা"</category><guid>https://bn.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+EDR সমাধান কীভাবে এন্ডপয়েন্ট সুরক্ষা দেয়, হুমকি শনাক্ত করে এবং প্রতিষ্ঠানকে উপযুক্ত সমাধান বেছে নিতে সাহায্য করে তা জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp"/></item><item><title>বাড়ির নেটওয়ার্ক সুরক্ষিত রাখুন: নিশ্চিন্তে টেলিওয়ার্ক করুন</title><link>https://bn.simeononsecurity.com/articles/secure-home-network-teleworking/</link><pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate><category>
+"টেলিওয়ার্ক"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "বাড়ির ওয়্যারলেস নেটওয়ার্ক"
+, "দূরবর্তী কাজ"
+, "সাইবার নিরাপত্তা"
+, "বাড়ি থেকে কাজ"
+, "ইন্টারনেট নিরাপত্তা"
+, "তথ্য সুরক্ষা"
+, "ডিজিটাল নিরাপত্তা"
+, "অনলাইন গোপনীয়তা"</category><guid>https://bn.simeononsecurity.com/articles/secure-home-network-teleworking/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+নিরাপদে টেলিওয়ার্ক করুন এবং আপনার তথ্য সুরক্ষিত রাখুন। বাড়ির ওয়্যারলেস নেটওয়ার্ক সুরক্ষিত করে দূর থেকে নিরাপদে কাজ করতে এই ধাপগুলো অনুসরণ করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/secure-home-network-cartoon.webp" length="74410" type="image/webp"/></item><item><title>সাইবার নিরাপত্তার প্রস্তুতি: ব্যবসার ডেটা সুরক্ষা</title><link>https://bn.simeononsecurity.com/articles/cybersecurity-readiness-guide/</link><pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "ব্যবসার নিরাপত্তা"
+, "ডেটা সুরক্ষা"
+, "ঝুঁকি মূল্যায়ন"
+, "তথ্য নিরাপত্তা"
+, "ডিজিটাল নিরাপত্তা"
+, "ডেটার গোপনীয়তা"
+, "সাইবার হুমকি"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "সরবরাহকারীর ঝুঁকি ব্যবস্থাপনা"</category><guid>https://bn.simeononsecurity.com/articles/cybersecurity-readiness-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সংবেদনশীল তথ্য ভাগ করা বা ব্যবসায়িক সম্পর্ক শুরু করার আগে কোম্পানির সাইবার নিরাপত্তার প্রস্তুতি যাচাই করুন। ডেটা সুরক্ষিত রাখুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/cybersecurity-shield-protection2.webp" length="102208" type="image/webp"/></item><item><title>সর্বনিম্ন বিশেষাধিকার নীতি আয়ত্ত করুন</title><link>https://bn.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "Linux নিরাপত্তা"
+, "প্রবেশাধিকার নিয়ন্ত্রণ"
+, "তথ্যপ্রযুক্তি নিরাপত্তা"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "তথ্য সুরক্ষা"
+, "তথ্য গোপনীয়তা"
+, "সাইবার হুমকি"
+, "ঝুঁকি ব্যবস্থাপনা"
+, "নিরাপত্তার উত্তম অনুশীলন"</category><guid>https://bn.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Linux-এ সর্বনিম্ন বিশেষাধিকারভিত্তিক প্রবেশাধিকার নিয়ন্ত্রণ দিয়ে সাইবার নিরাপত্তা জোরদার করুন। বাস্তবায়নের ধাপ, উত্তম অনুশীলন এবং সমস্যা সমাধান শিখুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>আপনার বাড়ির নেটওয়ার্ক সুরক্ষিত করুন</title><link>https://bn.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</link><pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "বাড়ির নেটওয়ার্ক"
+, "হার্ডওয়্যার সুপারিশ"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "ডিজিটাল গোপনীয়তা"
+, "অনলাইন সুরক্ষা"
+, "ইন্টারনেট নিরাপত্তা"
+, "হোম নেটওয়ার্কিং"
+, "প্রযুক্তি"
+, "স্মার্ট হোম"</category><guid>https://bn.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সাইবার হুমকি থেকে বাড়ির নেটওয়ার্ক রক্ষার জন্য প্রয়োজনীয় হার্ডওয়্যার সম্পর্কে জানুন। হার্ডওয়্যার ফায়ারওয়াল, অ্যাক্সেস পয়েন্ট এবং মনিটরিং টুলের ব্যবহার দেখুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/fortified-network-security.webp" length="61592" type="image/webp"/></item><item><title>NextDNS বনাম AdGuard বনাম Quad9 বনাম Cloudflare: ২০২৬ সালের DNS তুলনা</title><link>https://bn.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "DNS তুলনা"
+, "গোপনীয়তা সুরক্ষা"
+, "বিজ্ঞাপন ব্লক"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "ইন্টারনেট নিরাপত্তা"
+, "DNS রিজলভার"
+, "অনলাইন গোপনীয়তা"
+, "ওয়েব নিরাপত্তা"
+, "DNS ফিল্টারিং"</category><guid>https://bn.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+নিরাপত্তা, গোপনীয়তা ও কর্মক্ষমতার দিক থেকে NextDNS, AdGuard DNS, Quad9, Cloudflare DNS এবং Pi-hole-এর ২০২৬ সালের তুলনা।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp"/></item><item><title>NextDNS: অনলাইন নিরাপত্তার জন্য DNS ফিল্টারিং ও হুমকি ব্লক করা</title><link>https://bn.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</link><pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "DNS ফিল্টারিং"
+, "ইন্টারনেট নিরাপত্তা"
+, "ক্লাউড পরিষেবা"
+, "অনলাইন সুরক্ষা"
+, "ওয়েব ফিল্টারিং"
+, "গোপনীয়তা সুরক্ষা"
+, "DNS ব্লকিংয়ের বিকল্প"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "ইন্টারনেট সুরক্ষা"</category><guid>https://bn.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+NextDNS-এর সঙ্গে পরিচিত হোন। এটি সহজে ব্যবহারযোগ্য DNS ব্লকিং পরিষেবা, যা স্বয়ংক্রিয় আপডেট এবং কাস্টমাইজযোগ্য ফিল্টারিং নীতির মাধ্যমে অনলাইন নিরাপত্তা বাড়ায়।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/nextdns_cybersecurity_shield.webp" length="98890" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WAF on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>WAF on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/waf/</link></image><link>https://bn.simeononsecurity.com/tags/waf/</link><description>Recent content in WAF on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/waf/index.xml" rel="self" type="application/rss+xml"/><item><title>Microsoft Defender for Cloud দিয়ে আপনার ক্লাউড পরিবেশ সুরক্ষিত করুন</title><link>https://bn.simeononsecurity.com/articles/how-to-secure-your-cloud-environment-with-azure-security-center/</link><pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate><category>
+"Azure"
+, "Security Center"
+, "ক্লাউড নিরাপত্তা"
+, "Azure Sentinel"
+, "Azure Defender"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "পরিচয় ব্যবস্থাপনা"
+, "তথ্য নিরাপত্তা"
+, "হুমকি শনাক্তকরণ"
+, "হুমকির প্রতিক্রিয়া"
+, "MFA"
+, "RBAC"
+, "NSGs"
+, "Azure Firewall"
+, "WAF"
+, "Azure AD"
+, "Azure Information Protection"
+, "Azure Storage Service Encryption"
+, "Azure Disk Encryption"</category><guid>https://bn.simeononsecurity.com/articles/how-to-secure-your-cloud-environment-with-azure-security-center/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Microsoft Defender for Cloud দিয়ে Azure ওয়ার্কলোড সুরক্ষিত করুন। Azure Security Center-এর পুরোনো পরিভাষা, সুপারিশ, নীতি এবং প্রতিক্রিয়ার ধাপগুলো পর্যালোচনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_shield_icon_surrounded_by_cloud_symbols.webp" length="100186" type="image/webp"/></item></channel></rss>

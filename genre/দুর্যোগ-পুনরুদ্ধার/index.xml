@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>দুর্যোগ পুনরুদ্ধার on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>দুর্যোগ পুনরুদ্ধার on simeononsecurity</title><link>https://bn.simeononsecurity.com/genre/%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%AA%E0%A7%81%E0%A6%A8%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0/</link></image><link>https://bn.simeononsecurity.com/genre/%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%AA%E0%A7%81%E0%A6%A8%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0/</link><description>Recent content in দুর্যোগ পুনরুদ্ধার on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/genre/%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%AA%E0%A7%81%E0%A6%A8%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>Restic দিয়ে Homelab ব্যাকআপ পুনরুদ্ধার অনুশীলন করুন</title><link>https://bn.simeononsecurity.com/articles/homelab-backup-restore-drill/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "ব্যাকআপ"
+, "দুর্যোগ পুনরুদ্ধার"</category><guid>https://bn.simeononsecurity.com/articles/homelab-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Homelab ব্যাকআপ থেকে ব্যবহারযোগ্য ফাইল ফেরত আসে কি না যাচাই করুন। পুনরুদ্ধারের লক্ষ্য নির্ধারণ করুন, Restic দিয়ে আলাদা স্থানে ডেটা ফেরান, পরীক্ষা করুন এবং ফল নথিভুক্ত করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/homelab-backup-restore-drill.webp" length="80454" type="image/webp"/></item><item><title>মাঠপর্যায়ে বিদ্যুৎ ও পরিবেশগত স্থিতিস্থাপকতা</title><link>https://bn.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"এজ কম্পিউটিং"
+, "মাঠপর্যায়ের আইটি"
+, "বিদ্যুৎ ব্যবস্থা"
+, "হার্ডওয়্যার"
+, "দুর্যোগ পুনরুদ্ধার"
+, "রাগড কম্পিউটিং"
+, "নেটওয়ার্কিং"</category><guid>https://bn.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+মাঠপর্যায়ের এজ কম্পিউটিংয়ের জন্য বিদ্যুৎ ও পরিবেশগত সুরক্ষা পরিকল্পনা করুন। UPS-এর মাপ নির্ধারণ, সৌর প্যানেল, ব্যাটারি, সময় সমন্বয়, সুরক্ষা রেটিং, গ্রাউন্ডিং ও সার্জ সুরক্ষা সম্পর্কে জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>মাঠপর্যায়ের আইটি পরামর্শ: ছোট ডেটা সেন্টারের বাইরেও</title><link>https://bn.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"মাঠপর্যায়ের আইটি"
+, "এজ কম্পিউটিং"
+, "আইটি পরিচালনা"
+, "দুর্যোগ পুনরুদ্ধার"
+, "হার্ডওয়্যার"
+, "উত্তম চর্চা"</category><guid>https://bn.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+খুচরা যন্ত্রাংশ, নথি, ESD, ফার্মওয়্যার, বুট মিডিয়া, লাইসেন্স, ভৌত নিরাপত্তা, ভ্রমণ ও বিমা নিয়ে মাঠপর্যায়ের আইটির ব্যবহারিক নির্দেশিকা।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp"/></item><item><title>মাঠে স্থাপনযোগ্য এজ কম্পিউটিং: হার্ডওয়্যার ও এনক্লোজার নির্বাচন</title><link>https://bn.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"এজ কম্পিউটিং"
+, "মাঠ পর্যায়ের আইটি"
+, "হার্ডওয়্যার"
+, "হোমল্যাব"
+, "মজবুত কম্পিউটিং"
+, "নেটওয়ার্ক"
+, "দুর্যোগ পুনরুদ্ধার"
+, "ছোট ব্যবসার আইটি"</category><guid>https://bn.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+মাঠে ব্যবহারের এজ কম্পিউটিং হার্ডওয়্যার ও এনক্লোজার নির্বাচনের নির্দেশিকা। এতে কম্পিউট, র্যাক, কুলিং, স্টোরেজ, ব্যবস্থাপনা, কেবল এবং বিদ্যুৎ-সামঞ্জস্য রয়েছে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>মাঠে স্থাপনযোগ্য এজ নোডের সংযোগ ও ডেটা সুরক্ষা</title><link>https://bn.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"এজ কম্পিউটিং"
+, "মাঠপর্যায়ের আইটি"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "VPN"
+, "এনক্রিপশন"
+, "শারীরিক নিরাপত্তা"
+, "দুর্যোগ পুনরুদ্ধার"</category><guid>https://bn.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সেলুলার, স্যাটেলাইট, LoRa, VPN, MFA, নেটওয়ার্ক সেগমেন্টেশন, লগিং, এনক্রিপশন এবং চুরি-প্রতিক্রিয়া দিয়ে মাঠের এজ কম্পিউটিং নোড সংযুক্ত ও সুরক্ষিত করার নির্দেশিকা।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item><item><title>আপনার ভবিষ্যৎ সুরক্ষিত করুন: জরুরি অবস্থার জন্য প্রয়োজনীয় প্রযুক্তি</title><link>https://bn.simeononsecurity.com/articles/emergency-tech-preparedness-gadgets/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "নিরাপত্তা"
+, "জরুরি প্রস্তুতি"
+, "টিকে থাকা"
+, "গ্যাজেট"
+, "যোগাযোগ"
+, "সুরক্ষা"
+, "দুর্যোগ পুনরুদ্ধার"
+, "সহনশীলতা"
+, "সংযোগ"</category><guid>https://bn.simeononsecurity.com/articles/emergency-tech-preparedness-gadgets/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+নিরাপত্তা ও জরুরি প্রস্তুতির জন্য সোলার চার্জার, স্যাটেলাইট মেসেঞ্জারসহ গুরুত্বপূর্ণ টিকে থাকার সরঞ্জাম সম্পর্কে জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/emergency-preparedness-solar-gadgets.webp" length="167932" type="image/webp"/></item></channel></rss>

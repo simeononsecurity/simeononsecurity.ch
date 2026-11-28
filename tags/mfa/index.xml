@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MFA on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>MFA on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/mfa/</link></image><link>https://bn.simeononsecurity.com/tags/mfa/</link><description>Recent content in MFA on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/mfa/index.xml" rel="self" type="application/rss+xml"/><item><title>Cloudflare Tunnel ও Access: দুটিই কি আপনার দরকার?</title><link>https://bn.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"নেটওয়ার্ক নিরাপত্তা"
+, "স্ব-হোস্টিং"
+, "ক্লাউড নিরাপত্তা"</category><guid>https://bn.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Cloudflare Tunnel ও Access-এর পার্থক্য বুঝুন, বাড়ির ড্যাশবোর্ডের জন্য সুরক্ষা বেছে নিন এবং প্রমাণীকরণ ছাড়া ব্যক্তিগত অ্যাপ প্রকাশ করা এড়ান।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>Flock ক্যামেরা: জননিরাপত্তার হাতিয়ার না পরোয়ানাবিহীন নজরদারি যন্ত্র?</title><link>https://bn.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"গোপনীয়তা"
+, "নজরদারি"
+, "নাগরিক স্বাধীনতা"
+, "আইন প্রয়োগকারী প্রযুক্তি"
+, "ডিজিটাল অধিকার"</category><guid>https://bn.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safety ALPR ক্যামেরার একটি স্বাধীন বিশ্লেষণ: এগুলো আসলে কীভাবে কাজ করে, নম্বরপ্লেটের বাইরে কী তথ্য সংগ্রহ করে, ডেটা শেয়ারিং কীভাবে একটি ছায়া জাতীয় ডেটাবেস তৈরি করে, এবং কেন পরোয়ানার প্রশ্নটিই আসল সমস্যা।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/flock-safety-cameras-public-safety-surveillance.webp" length="257030" type="image/webp"/></item><item><title>Microsoft Defender for Cloud দিয়ে আপনার ক্লাউড পরিবেশ সুরক্ষিত করুন</title><link>https://bn.simeononsecurity.com/articles/how-to-secure-your-cloud-environment-with-azure-security-center/</link><pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate><category>
+"Azure"
+, "Security Center"
+, "ক্লাউড নিরাপত্তা"
+, "Azure Sentinel"
+, "Azure Defender"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "পরিচয় ব্যবস্থাপনা"
+, "তথ্য নিরাপত্তা"
+, "হুমকি শনাক্তকরণ"
+, "হুমকির প্রতিক্রিয়া"
+, "MFA"
+, "RBAC"
+, "NSGs"
+, "Azure Firewall"
+, "WAF"
+, "Azure AD"
+, "Azure Information Protection"
+, "Azure Storage Service Encryption"
+, "Azure Disk Encryption"</category><guid>https://bn.simeononsecurity.com/articles/how-to-secure-your-cloud-environment-with-azure-security-center/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Microsoft Defender for Cloud দিয়ে Azure ওয়ার্কলোড সুরক্ষিত করুন। Azure Security Center-এর পুরোনো পরিভাষা, সুপারিশ, নীতি এবং প্রতিক্রিয়ার ধাপগুলো পর্যালোচনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_shield_icon_surrounded_by_cloud_symbols.webp" length="100186" type="image/webp"/></item><item><title>মাল্টি-ফ্যাক্টর অথেনটিকেশনের সুবিধা ও অসুবিধা (MFA)</title><link>https://bn.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</link><pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate><category>
+"মাল্টি-ফ্যাক্টর অথেনটিকেশন"
+, "MFA"
+, "ব্যবসায়িক নিরাপত্তা"
+, "সাইবার নিরাপত্তা"
+, "তথ্য সুরক্ষা"
+, "নিয়ন্ত্রক সম্মতি"
+, "ব্যবহারকারীর অভিজ্ঞতা"
+, "ফিশিং"
+, "ব্রুট-ফোর্স আক্রমণ"
+, "প্রযুক্তিগত জটিলতা"
+, "ব্যবহারকারীর অনীহা"
+, "স্মার্টফোন"
+, "টোকেন"
+, "স্মার্ট কার্ড"
+, "আঙুলের ছাপ"
+, "মুখ শনাক্তকরণ"
+, "কণ্ঠ শনাক্তকরণ"
+, "PCI DSS"
+, "HIPAA"
+, "তথ্য ফাঁস"</category><guid>https://bn.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+মাল্টি-ফ্যাক্টর অথেনটিকেশন (MFA)-এর সুবিধা ও সীমাবদ্ধতা জানুন এবং প্রতিষ্ঠানের নিরাপত্তার জন্য উপযুক্ত সমাধান বেছে নিন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.webp" length="57990" type="image/webp"/></item></channel></rss>

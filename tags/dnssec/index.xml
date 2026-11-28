@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNSSEC on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>DNSSEC on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/dnssec/</link></image><link>https://bn.simeononsecurity.com/tags/dnssec/</link><description>Recent content in DNSSEC on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/dnssec/index.xml" rel="self" type="application/rss+xml"/><item><title>নেটওয়ার্ক উন্নত করুন: DNS কনফিগারেশনে দক্ষতা অর্জন</title><link>https://bn.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><category>
+"নেটওয়ার্ক প্রশাসন"
+, "সাইবার নিরাপত্তা"
+, "IT অবকাঠামো"
+, "প্রযুক্তিগত সমাধান"
+, "ইন্টারনেট প্রযুক্তি"
+, "DNS অপ্টিমাইজেশন"
+, "নেটওয়ার্ক কর্মক্ষমতা"
+, "ডিজিটাল নিরাপত্তা"
+, "ইন্টারনেট সংযোগ"
+, "প্রযুক্তিগত নির্দেশিকা"</category><guid>https://bn.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+DNS সম্পর্কে জেনে দক্ষ নেটওয়ার্কিং গড়ুন। DNS কীভাবে সংযোগ, কর্মক্ষমতা ও নিরাপত্তা উন্নত করে তা জানুন, তারপর কনফিগারেশন অপ্টিমাইজ করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp"/></item><item><title>NextDNS বনাম AdGuard বনাম Quad9 বনাম Cloudflare: ২০২৬ সালের DNS তুলনা</title><link>https://bn.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "DNS তুলনা"
+, "গোপনীয়তা সুরক্ষা"
+, "বিজ্ঞাপন ব্লক"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "ইন্টারনেট নিরাপত্তা"
+, "DNS রিজলভার"
+, "অনলাইন গোপনীয়তা"
+, "ওয়েব নিরাপত্তা"
+, "DNS ফিল্টারিং"</category><guid>https://bn.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+নিরাপত্তা, গোপনীয়তা ও কর্মক্ষমতার দিক থেকে NextDNS, AdGuard DNS, Quad9, Cloudflare DNS এবং Pi-hole-এর ২০২৬ সালের তুলনা।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp"/></item></channel></rss>

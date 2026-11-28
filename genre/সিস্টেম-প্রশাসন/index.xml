@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>সিস্টেম প্রশাসন on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>সিস্টেম প্রশাসন on simeononsecurity</title><link>https://bn.simeononsecurity.com/genre/%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%AE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8/</link></image><link>https://bn.simeononsecurity.com/genre/%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%AE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8/</link><description>Recent content in সিস্টেম প্রশাসন on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/genre/%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%AE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>Open WebUI v0.12.4: আপগ্রেড ও অ্যাক্সেস নিয়ন্ত্রণের চেকলিস্ট 2026</title><link>https://bn.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"স্ব-হোস্টেড AI"
+, "সাইবার নিরাপত্তা"
+, "সিস্টেম প্রশাসন"</category><guid>https://bn.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Open WebUI-এর ব্যাকআপ নিন এবং v0.12.4-এ আপগ্রেড করুন। এরপর চ্যাট শেয়ারিং, রপ্তানির অনুমতি, রিসোর্স অ্যাক্সেস, অ্যাকাউন্ট ও নেটওয়ার্ক অ্যাক্সেস পরীক্ষা করুন।</description></item><item><title>Bitbucket Cloud SSH কী: AI এজেন্টের জন্য শুধু-পঠন Git প্রবেশাধিকার</title><link>https://bn.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ক্লাউড নিরাপত্তা"
+, "ডেভেলপার টুল"
+, "সিস্টেম প্রশাসন"</category><guid>https://bn.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+শুধু-পঠন AI এজেন্ট কর্মপ্রবাহের জন্য Bitbucket Cloud SSH কী, Git CLI প্রবেশাধিকার, REST API টোকেন, 1Password এবং MCP টুল সেট আপ করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>PowerShell দিয়ে শুধু-পঠনযোগ্য Active Directory ইনভেন্টরি তৈরি করুন</title><link>https://bn.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Active Directory"
+, "PowerShell"
+, "সিস্টেম প্রশাসন"</category><guid>https://bn.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+নির্দিষ্ট PowerShell কোয়েরি দিয়ে Active Directory-র OU, ব্যবহারকারী ও কম্পিউটার ইনভেন্টরি করুন। ডিরেক্টরি অবজেক্ট না বদলে পর্যালোচনাযোগ্য CSV ফাইল রপ্তানি করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/active-directory-powershell-read-only-inventory.webp" length="101842" type="image/webp"/></item><item><title>Windows পুনরায় ইনস্টল করার আগে BitLocker পুনরুদ্ধার কী খুঁজুন</title><link>https://bn.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Windows নিরাপত্তা"
+, "ডেটা পুনরুদ্ধার"
+, "সিস্টেম প্রশাসন"</category><guid>https://bn.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সঠিক BitLocker পুনরুদ্ধার কী খুঁজে যাচাই করুন, আলাদা কপি সুরক্ষিত রাখুন, এবং ড্রাইভ মুছে ফেলার আগে Windows পুনরুদ্ধার বা পুনরায় ইনস্টল করার উপযুক্ত পথ বেছে নিন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/windows-bitlocker-recovery-before-reinstall.webp" length="102534" type="image/webp"/></item><item><title>হোমল্যাবের UPS-এর ক্ষমতা নির্ধারণ এবং স্বয়ংক্রিয় বন্ধ পরীক্ষা</title><link>https://bn.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"হোমল্যাব"
+, "বিদ্যুৎ সুরক্ষা"
+, "সিস্টেম প্রশাসন"</category><guid>https://bn.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+হোমল্যাবের বিদ্যুৎ খরচ মাপুন, UPS-এর ওয়াট ও VA সীমা তুলনা করুন, আপনার লোডে ব্যাকআপ সময় যাচাই করুন এবং ব্যাটারির ওপর নির্ভর করার আগে নিরাপদ বন্ধ পরীক্ষা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>Ansible বনাম Puppet বনাম Chef 2026: কনফিগারেশন ব্যবস্থাপনা</title><link>https://bn.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "অবকাঠামো অটোমেশন"
+, "কনফিগারেশন ব্যবস্থাপনা"
+, "আইটি অপারেশন"
+, "ক্লাউড কম্পিউটিং"
+, "সিস্টেম প্রশাসন"
+, "এন্টারপ্রাইজ আইটি"
+, "সফটওয়্যার উন্নয়ন"
+, "আইটি অবকাঠামো"
+, "অটোমেশন টুল"</category><guid>https://bn.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026 সালে Ansible, Puppet এবং Chef-এর তুলনা, যেখানে আর্কিটেকচার, ফিচার, শেখার সময়, পারফরম্যান্স, মূল্য এবং ব্যবহারক্ষেত্র অন্তর্ভুক্ত।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>NAT ও PAT: নেটওয়ার্ক যোগাযোগের প্রয়োজনীয় নির্দেশিকা</title><link>https://bn.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate><category>
+"নেটওয়ার্কের মূল ধারণা"
+, "সাইবার নিরাপত্তা"
+, "আইটি অবকাঠামো"
+, "প্রযুক্তি নির্দেশিকা"
+, "নেটওয়ার্ক ব্যবস্থাপনা"
+, "ইন্টারনেট প্রোটোকল"
+, "যোগাযোগ প্রযুক্তি"
+, "সিস্টেম প্রশাসন"
+, "নেটওয়ার্ক প্রকৌশল"
+, "ডিজিটাল নেটওয়ার্ক"</category><guid>https://bn.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+NAT ও PAT সম্পর্কে জানুন, ডিজিটাল যোগাযোগ আরও নির্বিঘ্ন করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp"/></item><item><title>কপি ফাংশনে দক্ষতা: অপারেটিং সিস্টেমে ফাইল ব্যবস্থাপনা</title><link>https://bn.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</link><pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "ফাইল ব্যবস্থাপনা"
+, "অপারেটিং সিস্টেম"
+, "ডেটা স্থানান্তর"
+, "ডেটা সংগঠন"
+, "কম্পিউটার দক্ষতা"
+, "আইটি পরামর্শ"
+, "অপারেটিং সিস্টেমের দক্ষতা"
+, "সিস্টেম প্রশাসন"
+, "সফটওয়্যার উপযোগিতা"</category><guid>https://bn.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+অপারেটিং সিস্টেমের উন্নত কপি ফাংশন সম্পর্কে জানুন এবং দ্রুত ও দক্ষভাবে ফাইল পরিচালনা শিখুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems.webp" length="92028" type="image/webp"/></item><item><title>সাইবার নিরাপত্তায় Windows Task Scheduler বনাম Linux Cron</title><link>https://bn.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "অপারেটিং সিস্টেম"
+, "সিস্টেম অটোমেশন"
+, "নিরাপত্তা সরঞ্জাম"
+, "কম্পিউটার প্রযুক্তি"
+, "কাজের সময়সূচি"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "সিস্টেম প্রশাসন"
+, "সাইবার প্রতিরক্ষা"
+, "তথ্যপ্রযুক্তি ব্যবস্থাপনা"</category><guid>https://bn.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সাইবার নিরাপত্তা ও সিস্টেম শক্তিশালী করার দৃষ্টিতে Windows Task Scheduler এবং Linux Cron-এ নির্ধারিত কাজ তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>vSphere পরিচালনার জন্য PowerCLI দক্ষভাবে ব্যবহার</title><link>https://bn.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "ভার্চুয়ালাইজেশন"
+, "VMware"
+, "আইটি ব্যবস্থাপনা"
+, "স্বয়ংক্রিয়করণ"
+, "কমান্ড-লাইন ইন্টারফেস"
+, "স্ক্রিপ্টিং"
+, "সিস্টেম প্রশাসন"
+, "ক্লাউড কম্পিউটিং"
+, "ডেটা সেন্টার ব্যবস্থাপনা"</category><guid>https://bn.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerCLI দিয়ে VMware vSphere পরিচালনা, কাজ স্বয়ংক্রিয় করা এবং উৎপাদনশীলতা বাড়ানোর পদ্ধতি জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>WMI ফিল্টারিং বুঝে নেওয়া</title><link>https://bn.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows ব্যবস্থাপনা"
+, "Group Policy"
+, "সিস্টেম প্রশাসন"
+, "নেটওয়ার্ক ব্যবস্থাপনা"
+, "IT অবকাঠামো"
+, "নীতি ব্যবস্থাপনা"
+, "IT শাসন"
+, "IT স্বয়ংক্রিয়করণ"
+, "Active Directory"
+, "নিরাপত্তা অনুবর্তিতা"</category><guid>https://bn.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+WMI ফিল্টারিং ব্যবহার করে Group Policy Object (GPO) কীভাবে নির্দিষ্ট কম্পিউটারে প্রয়োগ করবেন তা জানুন। সঙ্গে রয়েছে ব্যবহারিক উদাহরণ ও উত্তম পদ্ধতি।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item></channel></rss>

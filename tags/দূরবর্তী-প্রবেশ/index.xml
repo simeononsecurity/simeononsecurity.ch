@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>দূরবর্তী প্রবেশ on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>দূরবর্তী প্রবেশ on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/%E0%A6%A6%E0%A7%82%E0%A6%B0%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%80-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A7%87%E0%A6%B6/</link></image><link>https://bn.simeononsecurity.com/tags/%E0%A6%A6%E0%A7%82%E0%A6%B0%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%80-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A7%87%E0%A6%B6/</link><description>Recent content in দূরবর্তী প্রবেশ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/%E0%A6%A6%E0%A7%82%E0%A6%B0%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%80-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A7%87%E0%A6%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>T-Mobile Home Internet-এ পোর্ট ফরোয়ার্ডিং কেন কাজ করে না</title><link>https://bn.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Self-Hosted"
+, "Network Security"</category><guid>https://bn.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+T-Mobile 5G Home Internet-এ পোর্ট ফরোয়ার্ডিংয়ের সীমা, ক্যারিয়ার NAT এবং প্রকাশ্য ইনবাউন্ড পোর্ট ছাড়া হোম সার্ভারে পৌঁছানোর ব্যবহারিক উপায় জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/t-mobile-home-internet-port-forwarding.webp" length="103506" type="image/webp"/></item><item><title>Tailscale কেন রিলে ব্যবহার করে: সরাসরি সংযোগ, DERP ও পিয়ার রিলে</title><link>https://bn.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Network Security"
+, "Self-Hosted"</category><guid>https://bn.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Tailscale কেন রিলে ব্যবহার করে, status ও netcheck আউটপুট কীভাবে পড়বেন এবং কখন DERP বা পিয়ার-রিলে সংযোগ পরীক্ষা করবেন তা জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/why-tailscale-uses-a-relay.webp" length="103974" type="image/webp"/></item><item><title>SSH নির্দেশিকা: নিরাপদ দূরবর্তী প্রবেশ, কী ও ফাইল স্থানান্তর</title><link>https://bn.simeononsecurity.com/articles/what-is-ssh/</link><pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate><category>
+"SSH"
+, "Secure Shell"
+, "দূরবর্তী প্রবেশ"
+, "দূরবর্তী ব্যবস্থাপনা"
+, "এনক্রিপশন"
+, "প্রমাণীকরণ"
+, "ডেটার অখণ্ডতা"
+, "বহনযোগ্যতা"
+, "ফাইল স্থানান্তর"
+, "SCP"
+, "SFTP"
+, "SSH কী"
+, "Ed25519"
+, "SSH কনফিগারেশন"
+, "পরিচিত হোস্ট"
+, "নেটওয়ার্ক প্রোটোকল"
+, "দূরবর্তী কমান্ড চালানো"
+, "OpenSSH"
+, "দ্বি-ধাপ প্রমাণীকরণ"
+, "পাবলিক-কী ক্রিপ্টোগ্রাফি"
+, "IP ঠিকানা"
+, "ডোমেইন নাম"
+, "টার্মিনাল"
+, "কমান্ড প্রম্পট"
+, "নিরাপত্তা"
+, "সিস্টেম প্রশাসক"
+, "ডেভেলপার"
+, "প্রমাণীকরণ পদ্ধতি"
+, "টানেলিং"</category><guid>https://bn.simeononsecurity.com/articles/what-is-ssh/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SSH কী করে, কীভাবে কী তৈরি ও হোস্ট কী যাচাই করতে হয়, ফাইল স্থানান্তর করতে হয় এবং ক্লায়েন্ট ও সার্ভারের সেটিং পরিচালনা করতে হয় তা জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.webp" length="86174" type="image/webp"/></item></channel></rss>

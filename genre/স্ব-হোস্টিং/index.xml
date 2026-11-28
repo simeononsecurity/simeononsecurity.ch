@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>স্ব-হোস্টিং on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>স্ব-হোস্টিং on simeononsecurity</title><link>https://bn.simeononsecurity.com/genre/%E0%A6%B8%E0%A7%8D%E0%A6%AC-%E0%A6%B9%E0%A7%8B%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%82/</link></image><link>https://bn.simeononsecurity.com/genre/%E0%A6%B8%E0%A7%8D%E0%A6%AC-%E0%A6%B9%E0%A7%8B%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%82/</link><description>Recent content in স্ব-হোস্টিং on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/genre/%E0%A6%B8%E0%A7%8D%E0%A6%AC-%E0%A6%B9%E0%A7%8B%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%82/index.xml" rel="self" type="application/rss+xml"/><item><title>Pi-hole থেকে স্থানীয় AI পর্যন্ত ১০ ধাপে হোম ল্যাব তৈরি করুন</title><link>https://bn.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"হোম ল্যাব"
+, "স্ব-হোস্টিং"
+, "স্থানীয় AI"
+, "হোম নেটওয়ার্কিং"</category><guid>https://bn.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+পুরো নেটওয়ার্কে DNS ফিল্টারিং থেকে স্থানীয় AI পর্যন্ত দশটি ব্যবহারিক ধাপে হোম ল্যাব তৈরি করুন। প্রতিটি ধাপে হার্ডওয়্যার, খরচ, দক্ষতা ও সুবিধা-অসুবিধা জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Raspberry Pi 4 বা 5-এ কোন AI মডেল চলে?</title><link>https://bn.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "কৃত্রিম বুদ্ধিমত্তা"
+, "স্ব-হোস্টিং"</category><guid>https://bn.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Raspberry Pi 4 ও 5-এর পরিমাপ করা ফল থেকে মেমরি, গতি ও কাজের ধরন অনুযায়ী স্থানীয় ভাষার মডেল বাছুন, ছোট LFM2.5 থেকে 3B ও বড় বিকল্প পর্যন্ত।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item><item><title>Cloudflare Tunnel ও Access: দুটিই কি আপনার দরকার?</title><link>https://bn.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"নেটওয়ার্ক নিরাপত্তা"
+, "স্ব-হোস্টিং"
+, "ক্লাউড নিরাপত্তা"</category><guid>https://bn.simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Cloudflare Tunnel ও Access-এর পার্থক্য বুঝুন, বাড়ির ড্যাশবোর্ডের জন্য সুরক্ষা বেছে নিন এবং প্রমাণীকরণ ছাড়া ব্যক্তিগত অ্যাপ প্রকাশ করা এড়ান।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>Homebox দিয়ে ইনভেন্টরি ও সম্পদ ব্যবস্থাপনা</title><link>https://bn.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "ইনভেন্টরি ব্যবস্থাপনা"
+, "সম্পদ ব্যবস্থাপনা"
+, "ওপেন সোর্স"
+, "উৎপাদনশীলতা"
+, "ছোট ব্যবসা"
+, "বাড়ি ব্যবস্থাপনা"
+, "স্ব-হোস্টিং"
+, "সফটওয়্যার"
+, "সংগঠন"</category><guid>https://bn.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Homebox সম্পর্কে জানুন। এটি বাড়ি বা ছোট ব্যবসার জিনিসপত্র ও সম্পদ গুছিয়ে রাখার জন্য স্ব-হোস্ট করা ওপেন সোর্স সফটওয়্যার।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp" length="60896" type="image/webp"/></item></channel></rss>

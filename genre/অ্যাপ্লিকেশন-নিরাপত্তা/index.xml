@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>অ্যাপ্লিকেশন নিরাপত্তা on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>অ্যাপ্লিকেশন নিরাপত্তা on simeononsecurity</title><link>https://bn.simeononsecurity.com/genre/%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B6%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE/</link></image><link>https://bn.simeononsecurity.com/genre/%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B6%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE/</link><description>Recent content in অ্যাপ্লিকেশন নিরাপত্তা on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/genre/%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B6%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>অনিরাপদ C# ফাংশন: নিরাপদ কোডিং অনুশীলন</title><link>https://bn.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"সফটওয়্যার উন্নয়ন"
+, "C# প্রোগ্রামিং"
+, "সাইবার নিরাপত্তা"
+, "কোড নিরাপত্তা"
+, "নিরাপদ প্রোগ্রামিং"
+, "প্রোগ্রামিংয়ের উত্তম চর্চা"
+, "সফটওয়্যার দুর্বলতা"
+, "ক্রিপ্টোগ্রাফি"
+, "ওয়েব উন্নয়ন"
+, "অ্যাপ্লিকেশন নিরাপত্তা"</category><guid>https://bn.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+অনিরাপদ C# ফাংশনের নিরাপদ বিকল্প জানুন। মেমরির নিরাপত্তার ঝুঁকি শনাক্ত করে ঝুঁকিপূর্ণ অপারেশন বদলাতে শিখুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>Python নিরাপত্তার সেরা অনুশীলন</title><link>https://bn.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><category>
+"Python নিরাপত্তা"
+, "কোড নিরাপত্তা"
+, "ডেটা সুরক্ষা"
+, "সফটওয়্যার উন্নয়ন"
+, "সাইবার নিরাপত্তা"
+, "নিরাপদ কোডিং"
+, "ওয়েব উন্নয়ন"
+, "ডেটা গোপনীয়তা"
+, "অ্যাপ্লিকেশন নিরাপত্তা"
+, "তথ্যপ্রযুক্তি নিরাপত্তা"</category><guid>https://bn.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সম্ভাব্য হুমকি থেকে আপনার কোড ও ডেটা রক্ষার জন্য Python নিরাপত্তার জরুরি অনুশীলনগুলো শিখুন, যাতে ডেটা সুরক্ষা, সিস্টেমের অখণ্ডতা এবং আস্থা বজায় থাকে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.webp" length="115818" type="image/webp"/></item><item><title>Python-এ নিরাপদ কোডিংয়ের সেরা অনুশীলন</title><link>https://bn.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"প্রোগ্রামিং"
+, "অ্যাপ্লিকেশন নিরাপত্তা"
+, "Python উন্নয়ন"
+, "নিরাপদ কোডিং"
+, "ওয়েব উন্নয়ন"
+, "ডেটা বিশ্লেষণ"
+, "কৃত্রিম বুদ্ধিমত্তা"
+, "সফটওয়্যার উন্নয়ন"
+, "সাইবার নিরাপত্তা"
+, "প্রোগ্রামিং ভাষা"</category><guid>https://bn.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SQL injection, cross-site scripting এবং অ্যাপ্লিকেশনের অন্যান্য দুর্বলতা কমাতে Python-এ নিরাপদ কোডিংয়ের অনুশীলন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp"/></item></channel></rss>

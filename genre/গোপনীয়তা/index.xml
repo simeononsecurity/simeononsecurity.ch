@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>গোপনীয়তা on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>গোপনীয়তা on simeononsecurity</title><link>https://bn.simeononsecurity.com/genre/%E0%A6%97%E0%A7%8B%E0%A6%AA%E0%A6%A8%E0%A7%80%E0%A6%AF%E0%A6%BC%E0%A6%A4%E0%A6%BE/</link></image><link>https://bn.simeononsecurity.com/genre/%E0%A6%97%E0%A7%8B%E0%A6%AA%E0%A6%A8%E0%A7%80%E0%A6%AF%E0%A6%BC%E0%A6%A4%E0%A6%BE/</link><description>Recent content in গোপনীয়তা on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/genre/%E0%A6%97%E0%A7%8B%E0%A6%AA%E0%A6%A8%E0%A7%80%E0%A6%AF%E0%A6%BC%E0%A6%A4%E0%A6%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>স্ব-হোস্টেড Hindsight: স্থানীয় এজেন্ট মেমরি ও ব্যক্তিগত মডেল রাউটিং</title><link>https://bn.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "স্ব-হোস্টেড AI"
+, "AI এজেন্ট"
+, "AI অবকাঠামো"
+, "গোপনীয়তা"</category><guid>https://bn.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+স্ব-হোস্টেড Hindsight, পর্যবেক্ষিত স্থানীয় Qwen রুট এবং পরীক্ষিত পথে হোস্টেড মডেল সাবস্ক্রিপশন ছাড়া অনুরোধভিত্তিক GPU কাজের একটি কেস স্টাডি।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>DNS ফিল্টার কেন পাশ কাটানো হচ্ছে: রিজলভার পথ পরীক্ষা করুন</title><link>https://bn.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"হোম নেটওয়ার্ক"
+, "DNS"
+, "গোপনীয়তা"</category><guid>https://bn.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+কোনো ডিভাইস বা ব্রাউজার কেন DNS ফিল্টার এড়িয়ে যাচ্ছে তা খুঁজে বের করুন। সরাসরি ও স্বাভাবিক query তুলনা করুন, log দেখুন, তারপর encrypted DNS, VPN, IPv6 ও router সেটিং পরীক্ষা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp"/></item><item><title>VPN দিয়ে ব্রাউজারের DNS ও WebRTC লিক পরীক্ষা করুন</title><link>https://bn.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"গোপনীয়তা"
+, "ব্রাউজার"
+, "নেটওয়ার্কিং"</category><guid>https://bn.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+VPN সংযোগের আগে ও পরে ব্রাউজারের পাবলিক IP, DNS resolver এবং WebRTC ঠিকানা পরীক্ষা করুন। ফলাফল বুঝুন এবং রাউটিং সমস্যা অনুসন্ধান করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp"/></item><item><title>ব্যক্তিগত নিরাপত্তা তালিকা ২০২৬: কোথা থেকে শুরু করবেন, কী বাদ দেবেন</title><link>https://bn.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><category>
+"ব্যক্তিগত নিরাপত্তা"
+, "গোপনীয়তা"
+, "ডিজিটাল পরিচ্ছন্নতা"
+, "অ্যাকাউন্ট নিরাপত্তা"
+, "হুমকি মডেলিং"
+, "ভোক্তা নিরাপত্তা"
+, "পাসওয়ার্ড ব্যবস্থাপনা"
+, "তথ্য সুরক্ষা"</category><guid>https://bn.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+আক্রমণে প্রভাব অনুযায়ী ব্যক্তিগত নিরাপত্তার ব্যবস্থা সাজান, অ্যাকাউন্ট সুরক্ষা ও ব্যাকআপ থেকে গোপনীয়তা এবং পুনরুদ্ধার পর্যন্ত।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/personal-security-checklist-2026-tiered-structure.webp" length="98938" type="image/webp"/></item><item><title>২০২৬ সালের স্থানীয় AI: 27B মডেল Sonnet 4.6-কে ছাড়িয়েছে, আর হার্ডওয়্যার কেনার সুযোগ শেষ হচ্ছে</title><link>https://bn.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "স্ব-হোস্টেড AI"
+, "ওপেন-সোর্স মডেল"
+, "AI হার্ডওয়্যার"
+, "মেশিন লার্নিং"
+, "কোয়ান্টাইজেশন"
+, "হোম ল্যাব"
+, "গোপনীয়তা"
+, "AI অর্থনীতি"
+, "ভোক্তা হার্ডওয়্যার"</category><guid>https://bn.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+মডেলের আকার, VRAM, মেমরি ব্যান্ডউইথ, বিদ্যুৎ, খরচ এবং আপগ্রেডের সুযোগ ধরে ২০২৬ সালের স্থানীয় AI কম্পিউটার পরিকল্পনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>স্থানীয় মডেলে Claude Cowork ও Claude Code: ২০২৬ সালের সেটআপ গাইড</title><link>https://bn.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় এআই"
+, "এআই প্রোগ্রামিং টুল"
+, "স্ব-হোস্ট করা এআই"
+, "ডেভেলপার টুল"
+, "গোপনীয়তা"
+, "ওপেন সোর্স মডেল"
+, "স্বয়ংক্রিয়করণ"
+, "এআই হার্ডওয়্যার"</category><guid>https://bn.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Anthropic-সামঞ্জস্যপূর্ণ API ব্যবহার করে Claude Desktop ও Claude Code-এর সঙ্গে Ollama কনফিগার করুন। ২০২৬ সালের মডেল ও ক্লাউড-নির্ভর ফিচারগুলো দেখুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>Meshtastic-এর জন্য গোপনীয়তা-সুরক্ষিত AI সহকারী তৈরি</title><link>https://bn.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"নেটওয়ার্ক নিরাপত্তা"
+, "গোপনীয়তা"
+, "ওপেন সোর্স"
+, "স্বয়ংক্রিয়করণ"</category><guid>https://bn.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Meshtastic-এর জন্য স্থানীয় AI সহকারী তৈরির ব্যবহারিক অভিজ্ঞতা, যেখানে ব্যক্তিগত কনফিগারেশন, সারিবদ্ধ TCP অ্যাক্সেস, তথ্য সংগ্রহের টুল এবং আরও নিরাপদ ড্যাশবোর্ড রয়েছে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>GrapheneOS-এ Sandboxed Google Play-এর ব্যাখ্যা</title><link>https://bn.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"গোপনীয়তা"
+, "মোবাইল নিরাপত্তা"
+, "ওপেন সোর্স"</category><guid>https://bn.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+GrapheneOS-এ Sandboxed Google Play কী বদলায়, কখন আলাদা প্রোফাইল কাজে আসে এবং অ্যাকাউন্ট, বিজ্ঞপ্তি ও অ্যাপের সামঞ্জস্য কীভাবে সম্পর্কিত তা জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp"/></item><item><title>Meshtastic বনাম MeshCore বনাম Reticulum</title><link>https://bn.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "মেশ নেটওয়ার্কিং"
+, "অফ-গ্রিড যোগাযোগ"
+, "জরুরি যোগাযোগ"
+, "হ্যাম রেডিও"
+, "ওপেন সোর্স"
+, "দুর্যোগ প্রস্তুতি"
+, "ওয়্যারলেস নেটওয়ার্ক"
+, "গোপনীয়তা"
+, "নেটওয়ার্কিং"</category><guid>https://bn.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+রাউটিং, এয়ারটাইম, অবকাঠামো, ট্রান্সপোর্ট এবং অফ-গ্রিড ব্যবহারের ভিত্তিতে Meshtastic, MeshCore ও Reticulum তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Flock ক্যামেরা: জননিরাপত্তার হাতিয়ার না পরোয়ানাবিহীন নজরদারি যন্ত্র?</title><link>https://bn.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"গোপনীয়তা"
+, "নজরদারি"
+, "নাগরিক স্বাধীনতা"
+, "আইন প্রয়োগকারী প্রযুক্তি"
+, "ডিজিটাল অধিকার"</category><guid>https://bn.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safety ALPR ক্যামেরার একটি স্বাধীন বিশ্লেষণ: এগুলো আসলে কীভাবে কাজ করে, নম্বরপ্লেটের বাইরে কী তথ্য সংগ্রহ করে, ডেটা শেয়ারিং কীভাবে একটি ছায়া জাতীয় ডেটাবেস তৈরি করে, এবং কেন পরোয়ানার প্রশ্নটিই আসল সমস্যা।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/flock-safety-cameras-public-safety-surveillance.webp" length="257030" type="image/webp"/></item><item><title>MeshCore ও Meshtastic তুলনা</title><link>https://bn.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "মেশ নেটওয়ার্ক"
+, "অফ-গ্রিড যোগাযোগ"
+, "জরুরি যোগাযোগ"
+, "কৌশলগত যোগাযোগ"
+, "অ্যামেচার রেডিও"
+, "ওপেন সোর্স"
+, "দুর্যোগ প্রস্তুতি"
+, "ওয়্যারলেস নেটওয়ার্ক"
+, "গোপনীয়তা"</category><guid>https://bn.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+রাউটিং, পরিসর, সম্প্রচার সময়, অবকাঠামো, ডিভাইস সমর্থন এবং উপযোগী ব্যবহারের ভিত্তিতে MeshCore ও Meshtastic তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/meshcore-vs-meshtastic-comparison-guide.webp" length="173676" type="image/webp"/></item><item><title>সাইবার নিরাপত্তার পরিভাষা সহজভাবে বুঝুন</title><link>https://bn.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</link><pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "প্রযুক্তি"
+, "ডিজিটাল নিরাপত্তা"
+, "অনলাইন হুমকি"
+, "ইন্টারনেট নিরাপত্তা"
+, "তথ্য সুরক্ষা"
+, "গোপনীয়তা"
+, "অনলাইন প্রতিরক্ষা"
+, "আইটি নিরাপত্তা"
+, "সাইবার হুমকি"</category><guid>https://bn.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সাইবার নিরাপত্তার পরিভাষা, হুমকি, প্রযুক্তি ও গোপনীয়তার নিয়ম নিয়ে সহজ নির্দেশিকা।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/cybersecurity-jargon-illustration.webp" length="150724" type="image/webp"/></item><item><title>Mullvad নাকি ProtonVPN: কোন VPN আপনার জন্য উপযুক্ত?</title><link>https://bn.simeononsecurity.com/articles/mullvad-vs-protonvpn/</link><pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "নিরাপত্তা"
+, "গোপনীয়তা"
+, "VPN তুলনা"
+, "অনলাইন পরিচয় গোপন"
+, "ডিজিটাল নিরাপত্তা"
+, "ইন্টারনেট নিরাপত্তা"
+, "সাইবার নিরাপত্তা"
+, "তথ্য সুরক্ষা"
+, "VPN সেবা"</category><guid>https://bn.simeononsecurity.com/articles/mullvad-vs-protonvpn/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+নিরাপত্তা, গোপনীয়তা, কর্মক্ষমতা ও ব্যবহার-সহজতার দিক থেকে Mullvad VPN এবং ProtonVPN তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/mullvad-protonvpn-security-race.webp" length="148320" type="image/webp"/></item><item><title>ঝুঁকিপূর্ণ গোষ্ঠীর সুরক্ষা</title><link>https://bn.simeononsecurity.com/articles/securing-vulnerable-groups-cyber-threats-protection-strategies/</link><pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "গোপনীয়তা"
+, "ডিজিটাল নিরাপত্তা"
+, "অনলাইন হুমকি"
+, "তথ্য সুরক্ষা"
+, "প্রযুক্তি"
+, "ডিজিটাল অধিকার"
+, "তথ্য নিরাপত্তা"
+, "সাইবার গুপ্তচরবৃত্তি"
+, "অনলাইন গোপনীয়তা"</category><guid>https://bn.simeononsecurity.com/articles/securing-vulnerable-groups-cyber-threats-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+বিদেশি শক্তির সাইবার আক্রমণ কীভাবে ঝুঁকিপূর্ণ গোষ্ঠীকে প্রভাবিত করে এবং কোন কার্যকর কৌশল তাদের সুরক্ষা দেয় তা জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/securing_vulnerable_groups_cyber_threats.webp" length="98410" type="image/webp"/></item><item><title>LibreWolf বনাম Firefox</title><link>https://bn.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "গোপনীয়তা"
+, "ওয়েব ব্রাউজার"
+, "অনলাইন নিরাপত্তা"
+, "ওপেন সোর্স"
+, "ডিজিটাল গোপনীয়তা"
+, "সফটওয়্যার"
+, "তুলনা"
+, "সাইবারসিকিউরিটি"
+, "ইন্টারনেট গোপনীয়তা"</category><guid>https://bn.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+LibreWolf এবং Firefox, দুটি গোপনীয়তা-কেন্দ্রিক ব্রাউজারের বৈশিষ্ট্যগুলি অন্বেষণ করুন, উন্নত অনলাইন নিরাপত্তা এবং গোপনীয়তার জন্য একটি তথ্যভিত্তিক পছন্দ করতে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp"/></item><item><title>অ্যাক্সেস নিয়ন্ত্রণে বায়োমেট্রিক নিরাপত্তা</title><link>https://bn.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</link><pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "নিরাপত্তা"
+, "বায়োমেট্রিক্স"
+, "অ্যাক্সেস নিয়ন্ত্রণ"
+, "ফিঙ্গারপ্রিন্ট স্ক্যানার"
+, "মুখ শনাক্তকরণ"
+, "Amazon পণ্য"
+, "ডিজিটাল নিরাপত্তা"
+, "উদ্ভাবন"
+, "গোপনীয়তা"</category><guid>https://bn.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Amazon-এ পাওয়া ফিঙ্গারপ্রিন্ট স্ক্যানার ও মুখ শনাক্তকরণ যন্ত্রের উন্নত বায়োমেট্রিক নিরাপত্তা সম্পর্কে জানুন, যা শক্তিশালী অ্যাক্সেস নিয়ন্ত্রণ ও নিশ্চিন্ততা দেয়।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/biometric-access-control-fingerprint-facial-recognition-devices-amazon.webp" length="183044" type="image/webp"/></item><item><title>নিরাপদ স্মার্ট হোম হাব</title><link>https://bn.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</link><pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "বাড়ির নিরাপত্তা"
+, "স্মার্ট হোম"
+, "হোম অটোমেশন"
+, "গোপনীয়তা"
+, "ইন্টারনেট অব থিংস"
+, "ডিজিটাল নিরাপত্তা"
+, "সংযুক্ত ডিভাইস"
+, "বাড়ির উন্নয়ন"
+, "ভোক্তা ইলেকট্রনিক্স"</category><guid>https://bn.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+নিরাপদ ও সুবিধাজনক হোম অটোমেশন অভিজ্ঞতার জন্য নিরাপদ স্মার্ট হোম হাব সম্পর্কে জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/secure-smart-home-hubs.webp" length="49576" type="image/webp"/></item><item><title>মোবাইল নিরাপত্তার পূর্ণাঙ্গ নির্দেশিকা</title><link>https://bn.simeononsecurity.com/articles/ultimate-guide-mobile-security-laptop-privacy-webcam-covers/</link><pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "সাইবার নিরাপত্তা"
+, "গোপনীয়তা"
+, "দূরবর্তী কাজ"
+, "মোবাইল কম্পিউটিং"
+, "ডিজিটাল নিরাপত্তা"
+, "উৎপাদনশীলতা"
+, "অনলাইন গোপনীয়তা"
+, "ডেটা সুরক্ষা"
+, "প্রযুক্তি আনুষঙ্গিক"</category><guid>https://bn.simeononsecurity.com/articles/ultimate-guide-mobile-security-laptop-privacy-webcam-covers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ল্যাপটপ প্রাইভেসি স্ক্রিন, ওয়েবক্যাম কভার এবং বহনযোগ্য এনক্রিপশন ডিভাইস দিয়ে চলার পথে কাজ সুরক্ষিত রাখুন। নিরাপদ ও উৎপাদনশীল থাকুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/mobile-security-illustration.webp" length="57304" type="image/webp"/></item><item><title>ডেটার গোপনীয়তা জোরদার করুন</title><link>https://bn.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</link><pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "ডেটা নিরাপত্তা"
+, "গোপনীয়তা"
+, "সাইবার নিরাপত্তা"
+, "ডিজিটাল সুরক্ষা"
+, "প্রযুক্তি আনুষঙ্গিক"
+, "ডেটা এনক্রিপশন"
+, "অনলাইন নিরাপত্তা"
+, "সহজে ব্যবহারযোগ্য ডিভাইস"
+, "ডিজিটাল গোপনীয়তা"</category><guid>https://bn.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ডেটা সুরক্ষা জোরদার করতে Amazon-এ USB হার্ডওয়্যার ব্লকার ও এনক্রিপ্ট করা ড্রাইভ সম্পর্কে জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/usb-data-lock-vault.webp" length="94076" type="image/webp"/></item><item><title>নিরাপদ ইমেইল পরিষেবা: StartMail দিয়ে গোপনীয়তা বাড়ান</title><link>https://bn.simeononsecurity.com/articles/secure-email-service-startmail/</link><pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "গোপনীয়তা"
+, "ইমেইল পরিষেবা"
+, "অনলাইন নিরাপত্তা"
+, "ডিজিটাল গোপনীয়তা"
+, "এনক্রিপশন"
+, "তথ্য সুরক্ষা"
+, "ইমেইল গোপনীয়তা"
+, "পরিচয় সুরক্ষা"
+, "অনলাইন গোপনীয়তা"</category><guid>https://bn.simeononsecurity.com/articles/secure-email-service-startmail/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+StartMail-এর ইমেইল alias, PGP এনক্রিপশন, পাসওয়ার্ড-সুরক্ষিত বার্তা এবং এনক্রিপ্ট করা ইমেইলের সীমা জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/secure_email_guard.webp" length="45872" type="image/webp"/></item><item><title>NextDNS বনাম AdGuard: কোন DNS বিজ্ঞাপন-ব্লকার ভালো?</title><link>https://bn.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "সাইবার নিরাপত্তা"
+, "বিজ্ঞাপন ব্লক"
+, "DNS"
+, "গোপনীয়তা"
+, "ইন্টারনেট নিরাপত্তা"
+, "অনলাইন সুরক্ষা"
+, "ডিজিটাল নিরাপত্তা"
+, "ব্রাউজিং সমাধান"
+, "অনলাইন গোপনীয়তা"</category><guid>https://bn.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+DNS-ভিত্তিক বিজ্ঞাপন-ব্লকার NextDNS ও AdGuard তুলনা করে আপনার ব্রাউজিংয়ের জন্য উপযুক্তটি বেছে নিন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp"/></item><item><title>সেরা গোপনীয়তা ব্রাউজার ২০২৬: LibreWolf বনাম Brave বনাম Tor</title><link>https://bn.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"ব্রাউজার"
+, "গোপনীয়তা"
+, "নিরাপত্তা"
+, "ইন্টারনেট"
+, "প্রযুক্তি"
+, "ডিজিটাল গোপনীয়তা"
+, "অনলাইন নিরাপত্তা"
+, "ওপেন সোর্স"
+, "অজ্ঞাতনামা"
+, "ওয়েব ব্রাউজিং"</category><guid>https://bn.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সেরা গোপনীয়তা-কেন্দ্রিক ব্রাউজারগুলোর ২০২৬ সালের বিস্তৃত তুলনা: LibreWolf, Brave, Firefox, Tor, এবং আরও অনেক। বিস্তারিত গোপনীয়তা পরীক্ষা, কর্মক্ষমতা বেঞ্চমার্ক, এবং নিরাপত্তা বিশ্লেষণ যা আপনার অনলাইন ডেটা রক্ষা করবে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp"/></item><item><title>রিমোট অ্যাক্সেস ট্রোজান সম্পর্কে জানুন</title><link>https://bn.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "ক্ষতিকর সফটওয়্যার"
+, "কম্পিউটার নিরাপত্তা"
+, "ডিজিটাল হুমকি"
+, "রিমোট অ্যাক্সেস ট্রোজান"
+, "তথ্য সুরক্ষা"
+, "গোপনীয়তা"
+, "সাইবার অপরাধ"
+, "নেটওয়ার্ক নিরাপত্তা"
+, "তথ্য নিরাপত্তা"</category><guid>https://bn.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+রিমোট অ্যাক্সেস ট্রোজান (RAT)-এর ঝুঁকি জানুন এবং কম্পিউটার সিস্টেম ও তথ্য সুরক্ষার কার্যকর প্রতিরোধ ও সুরক্ষা ব্যবস্থা শিখুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.webp" length="140888" type="image/webp"/></item><item><title>বায়োমেট্রিক প্রমাণীকরণ: ব্যবহার ও নিরাপত্তা</title><link>https://bn.simeononsecurity.com/articles/biometric-authentication-use-cases-and-security-considerations/</link><pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "সাইবার নিরাপত্তা"
+, "বায়োমেট্রিক্স"
+, "প্রমাণীকরণ"
+, "ডিজিটাল নিরাপত্তা"
+, "পরিচয় যাচাই"
+, "ডেটা সুরক্ষা"
+, "গোপনীয়তা"
+, "নতুন প্রবণতা"
+, "ব্যবহারকারীর অভিজ্ঞতা"</category><guid>https://bn.simeononsecurity.com/articles/biometric-authentication-use-cases-and-security-considerations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সংবেদনশীল ডেটা সুরক্ষায় বায়োমেট্রিক প্রমাণীকরণের ব্যবহার ও নিরাপত্তার বিষয়গুলো জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/biometric-authentication-use-cases-and-security-considerations.webp" length="228916" type="image/webp"/></item><item><title>মোবাইল ডিভাইসের নিরাপত্তা</title><link>https://bn.simeononsecurity.com/articles/secure-your-mobile-device-tips-for-keeping-your-data-safe/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "সাইবার নিরাপত্তা"
+, "মোবাইল নিরাপত্তা"
+, "তথ্য সুরক্ষা"
+, "অনলাইন নিরাপত্তা"
+, "গোপনীয়তা"
+, "ফিশিং আক্রমণ"
+, "ক্ষতিকর সফটওয়্যার"
+, "Wi-Fi নিরাপত্তা"
+, "পাসওয়ার্ড নিরাপত্তা"</category><guid>https://bn.simeononsecurity.com/articles/secure-your-mobile-device-tips-for-keeping-your-data-safe/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+কার্যকর কিছু পরামর্শের সাহায্যে কীভাবে মোবাইল ডিভাইস সুরক্ষিত রাখবেন এবং সাইবার হুমকি থেকে তথ্য রক্ষা করবেন তা জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/secure-your-mobile-device.webp" length="102858" type="image/webp"/></item></channel></rss>

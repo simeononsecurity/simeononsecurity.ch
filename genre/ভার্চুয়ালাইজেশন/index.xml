@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ভার্চুয়ালাইজেশন on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>ভার্চুয়ালাইজেশন on simeononsecurity</title><link>https://bn.simeononsecurity.com/genre/%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9A%E0%A7%81%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%9C%E0%A7%87%E0%A6%B6%E0%A6%A8/</link></image><link>https://bn.simeononsecurity.com/genre/%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9A%E0%A7%81%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%9C%E0%A7%87%E0%A6%B6%E0%A6%A8/</link><description>Recent content in ভার্চুয়ালাইজেশন on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/genre/%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9A%E0%A7%81%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%9C%E0%A7%87%E0%A6%B6%E0%A6%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9: ভার্চুয়াল ডিস্কের ব্যবহার কমিয়ে জায়গা ফেরত নিন</title><link>https://bn.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"ভার্চুয়ালাইজেশন"
+, "Linux প্রশাসন"
+, "Proxmox VE প্ল্যাটফর্ম"
+, "স্টোরেজ"
+, "হোম ল্যাব"</category><guid>https://bn.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proxmox VE 9-এ VM ও LXC কনটেইনারের স্টোরেজ ব্যবহার কমান। ফরম্যাট ও ব্যাকএন্ড তুলনা করুন, discard চালু করুন, trim চালান এবং জায়গা ফেরত নেওয়ার আগে snapshot পরীক্ষা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Hyper-V VM-কে Proxmox VE-তে স্থানান্তর: ফেরত-যোগ্য যাচাইতালিকা</title><link>https://bn.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ভার্চুয়ালাইজেশন"
+, "সিস্টেম পরিচালনা"
+, "হোম ল্যাব"</category><guid>https://bn.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+বন্ধ উৎস VM রপ্তানি, ফার্মওয়্যার মেলানো, ডিস্ক আমদানি, বিচ্ছিন্ন বুট পরীক্ষা এবং ফেরার পরিকল্পনা দিয়ে Hyper-V VM-কে Proxmox VE-তে নিন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>Proxmox VM পুনরুদ্ধার পরীক্ষা: গেস্ট সিস্টেম কাজ করে প্রমাণ করুন</title><link>https://bn.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"ভার্চুয়ালাইজেশন"
+, "ব্যাকআপ ও পুনরুদ্ধার"
+, "হোম ল্যাব"</category><guid>https://bn.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+বিচ্ছিন্ন পুনরুদ্ধারের মাধ্যমে Proxmox VM ব্যাকআপ পরীক্ষা করুন। উৎপাদন পরিবেশে হাত না দিয়ে ডিস্কের কভারেজ, ব্যাকআপ মোড, গেস্ট ডেটা, সার্ভিসের অবস্থা ও পুনরুদ্ধারের সময় যাচাই করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>২০২৬ সালে কনটেইনার আর নিরাপত্তার সীমানা নয়</title><link>https://bn.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"কনটেইনার নিরাপত্তা"
+, "Linux"
+, "কার্নেল নিরাপত্তা"
+, "ভার্চুয়ালাইজেশন"
+, "ক্লাউড নিরাপত্তা"
+, "হুমকি গবেষণা"
+, "ব্লু টিম"
+, "DevSecOps"</category><guid>https://bn.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+২০২৬ সালের কার্নেল দুর্বলতাগুলো দেখায় কেন বহু-টেন্যান্ট কনটেইনার আইসোলেশন যথেষ্ট নয়। Copy Fail, Dirty Frag, Fragnesia এবং CVE-2026-80521 সম্পর্কে জানুন, আর শক্তিশালী কনটেইনারের সঙ্গে মাইক্রোভিএম সীমার তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>Proxmox LXC-তে Docker: নির্ভরযোগ্যতা, প্রমাণ ও VM-এ স্থানান্তর</title><link>https://bn.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"ভার্চুয়ালাইজেশন"
+, "লিনাক্স প্রশাসন"
+, "হোমল্যাব"</category><guid>https://bn.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+নথিভুক্ত AppArmor ত্রুটি, হোস্ট স্থবিরতার প্রতিবেদন সতর্কভাবে পর্যালোচনা, নির্ণয় কমান্ড এবং VM-এ স্থানান্তর পরিকল্পনার ভিত্তিতে Proxmox LXC-এর ভেতরে Docker মূল্যায়ন করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>Proxmox VE 8 থেকে 9 আপগ্রেড নির্দেশিকা</title><link>https://bn.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"ভার্চুয়ালাইজেশন"
+, "Linux প্রশাসন"
+, "Proxmox"
+, "সার্ভার ব্যবস্থাপনা"
+, "ওপেন সোর্স"
+, "হোমল্যাব"</category><guid>https://bn.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+পূর্বশর্ত যাচাই, হাতে করা ধাপ, স্বয়ংক্রিয়তা, পরিবর্তন এবং পুনরুদ্ধার নির্দেশনাসহ Proxmox VE 8 থেকে 9-এ আপগ্রেড করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item><item><title>VMware বনাম Hyper-V বনাম Proxmox: ভার্চুয়ালাইজেশন তুলনা</title><link>https://bn.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link><pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "ভার্চুয়ালাইজেশন"
+, "আইটি অবকাঠামো"
+, "সার্ভার ভার্চুয়ালাইজেশন"
+, "এন্টারপ্রাইজ সফটওয়্যার"
+, "ক্লাউড কম্পিউটিং"
+, "ডেটা সেন্টার সমাধান"
+, "ওপেন সোর্স ভার্চুয়ালাইজেশন"
+, "ভার্চুয়াল মেশিন ব্যবস্থাপনা"
+, "ভার্চুয়ালাইজেশন তুলনা"</category><guid>https://bn.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+সহজেই VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE, এবং XCP-NG এর তুলনা আবিষ্কার করুন এবং ব্যবসায়িক সফলতার জন্য আপনার আদর্শ ভার্চুয়ালাইজেশন সমাধান নির্বাচন করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp"/></item><item><title>সেরা হোমল্যাব কনটেন্ট নির্মাতারা</title><link>https://bn.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "নেটওয়ার্কিং"
+, "নিজে করুন"
+, "ভার্চুয়ালাইজেশন"
+, "হোমল্যাব"
+, "প্রযুক্তিপ্রেমী"
+, "কমিউনিটি"
+, "শেখা"
+, "উদ্ভাবন"
+, "নির্দেশিকা"</category><guid>https://bn.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+প্রভাবশালী হোমল্যাব নির্মাতাদের খুঁজুন, উৎসাহীদের সঙ্গে যুক্ত হন এবং প্রযুক্তি শেখার যাত্রা শুরু করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item><item><title>VMware নিরাপত্তায় দক্ষতা অর্জন</title><link>https://bn.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"সাইবার নিরাপত্তা"
+, "ভার্চুয়ালাইজেশন"
+, "আইটি অবকাঠামো"
+, "অটোমেশন"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "সম্মতি"
+, "স্ক্রিপ্টিং"
+, "ডেটা সেন্টার"</category><guid>https://bn.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+এই বিস্তৃত নির্দেশিকায় PowerCLI দিয়ে VMware STIG প্রয়োগ করে VMware পরিবেশ সুরক্ষিত করার পদ্ধতি জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>vSphere পরিচালনার জন্য PowerCLI দক্ষভাবে ব্যবহার</title><link>https://bn.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"প্রযুক্তি"
+, "ভার্চুয়ালাইজেশন"
+, "VMware"
+, "আইটি ব্যবস্থাপনা"
+, "স্বয়ংক্রিয়করণ"
+, "কমান্ড-লাইন ইন্টারফেস"
+, "স্ক্রিপ্টিং"
+, "সিস্টেম প্রশাসন"
+, "ক্লাউড কম্পিউটিং"
+, "ডেটা সেন্টার ব্যবস্থাপনা"</category><guid>https://bn.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerCLI দিয়ে VMware vSphere পরিচালনা, কাজ স্বয়ংক্রিয় করা এবং উৎপাদনশীলতা বাড়ানোর পদ্ধতি জানুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item></channel></rss>
