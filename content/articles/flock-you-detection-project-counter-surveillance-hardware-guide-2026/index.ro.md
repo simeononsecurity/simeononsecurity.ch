@@ -1,7 +1,7 @@
 ---
 title: "Detectarea Flock-You: Ghid de Configurare pentru Contra-Supraveghere"
 date: 2026-05-24
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Ghid tehnic complet al proiectului open-source Flock-You pentru detectarea camerelor ALPR Flock Safety folosind hardware bazat pe ESP32. Include instrucțiuni de configurare, detalii despre firmware și opțiuni de achiziție."
@@ -19,11 +19,27 @@ canonical: "https://simeononsecurity.com/articles/flock-you-detection-project-co
 
 **Proiectul Flock-You** este o **inițiativă open-source, condusă de comunitate** pentru detectarea și cartografierea infrastructurii de supraveghere ALPR a Flock Safety. Găzduit pe GitHub la **colonelpanichacks/flock-you**, acest proiect utilizează hardware accesibil bazat pe ESP32 pentru a identifica camerele Flock prin **semnăturile lor de rețea WiFi**.
 
+**Flock-You detectează doar camerele Flock Safety prin Wi-Fi.** Nu detectează simulatoare de stații celulare precum Stingray și nici trackere personale care se deplasează cu tine. Pentru acestea, consultă **[Cum instalezi Rayhunter pe dispozitive: ghid complet](/articles/how-to-flash-rayhunter-devices-complete-guide/)** pentru detectarea captatoarelor IMSI și **[Eye Spy: detector pasiv de supraveghere pentru M5Stack Atom Lite](/articles/eye-spy-passive-surveillance-detector-esp32-2026/)** pentru AirTag-uri și trackere. Toate trei rulează pe aceeași familie accesibilă de hardware ESP32.
+
 Acest ghid cuprinzător acoperă totul, de la **metodologia tehnică** din spatele detectării Flock până la **instrucțiunile pas cu pas** pentru trei platforme hardware, **instalarea firmware-ului** și **informații despre achiziție de la furnizori autorizați**. Fie că ești un avocat al confidențialității, un cercetător de securitate sau un cetățean preocupat, acest ghid te va ajuta să construiești sau să achiziționezi propriul dispozitiv de detectare.
+
+
+*Hardware-ul Flock Safety este instalat aproape în întregime în Statele Unite, cu o prezență mai redusă în Canada. În afara Americii de Nord, lista OUI și semnăturile de probe de mai jos nu se vor potrivi cu niciun dispozitiv din apropiere. Hardware-ul rămâne util pentru cercetare, dar nu va găsi o infrastructură care nu există acolo.*
 
 Pentru context despre de ce contează această tehnologie și despre peisajul mai larg al supravegherii, citește articolul nostru companion: **[Supravegherea prin camere Flock Safety: Prevalență, Probleme de Confidențialitate și Strategii de Protecție](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)**.
 
 Vrei să vezi unde au fost deja cartografiate camerele Flock? **[Flock Finder](https://simeononsecurity.github.io/flock-finder/)** este un instrument open-source care trasează 40.000+ camere Flock Safety suspectate în toată lumea folosind date WiGLE WiFi și amprentare OUI — actualizat zilnic. Sursa pe **[GitHub](https://github.com/simeononsecurity/flock-finder)**.
+
+### Pe scurt: trei platforme
+
+*Specificațiile complete, avantajele și dezavantajele platformelor sunt mai jos. Accesează [instrucțiunile de configurare](#instrucțiuni-de-configurare-pas-cu-pas) dacă știi deja ce alegi.*
+
+
+| Platformă | Preț | Configurare | Potrivit pentru |
+|---|---|---|---|
+| **DIY ESP32** | 5–12 $ | Breadboard fără lipire, 10–15 min | Proiecte cu buget redus și învățarea modului de detectare |
+| **M5 Atom Lite** (preflash-uit) | 49,99 $ | Conectează și folosește, fără configurare | Utilizare imediată, fără asamblare DIY |
+| **OUI-SPY** | 85 $ | Flash-uiește o dată și alege modul din meniul Wi-Fi | Detectare în mai multe moduri (ALPR, drone, BLE) |
 
 ______
 
@@ -113,9 +129,14 @@ Metodologia Flock-You atinge o precizie ridicată:
 
 ______
 
+{{< figure src="flockyou-oui-detection-methodology-overview.webp" alt="Diagramă de detectare Flock-You: ESP32 în modul Wi-Fi promiscuu compară MAC cu OUI cunoscute, verifică sonde wildcard și evaluează RSSI" >}}
+
+{{< stscollective-ad "flockyou" >}}
+
 ## Compararea Platformelor Hardware
 
 Trei platforme principale sunt disponibile pentru detectarea Flock-You, fiecare cu avantaje distincte:
+*Toate cele trei platforme folosesc aceeași metodă de bază pentru detectare: scanare pasivă în modul WiFi promiscuu pentru a căuta OUI cunoscute ale camerelor Flock și semnături de solicitări probe wildcard. Niciuna nu detectează Bluetooth. Firmware-ul Flock-You a renunțat la detectarea BLE în primăvara lui 2026, după ce aceasta nu a mai funcționat fiabil. Prin urmare, toate platformele de aici folosesc doar WiFi.*
 
 ### Tabel de Prezentare Generală a Platformelor
 
@@ -133,7 +154,7 @@ Trei platforme principale sunt disponibile pentru detectarea Flock-You, fiecare 
 | **Carcasă** | Imprimare 3D sau niciunul | Modul plastic compact | Niciunul (PCB gol) |
 | **Firmware** | Flashare manuală | FlockYou pre-încărcat | Multi-mod (4 firmware-uri) |
 | **Cel mai bun pentru** | Entuziaști DIY, învățare | Buget gata de utilizare | Detectare multi-scop |
-| **Dificultate de Configurare** | Moderat-Avansat | Plug-and-play | Plug-and-play |
+| **Dificultate de Configurare** | Moderat-Avansat | Fără configurare | Fără configurare |
 | **Greutate** | 20-50g (variază) | 18g (gol) | ~40g |
 | **Dimensiuni** | Variabil | 24×24×14mm | Placă PCB |
 
@@ -144,7 +165,7 @@ Trei platforme principale sunt disponibile pentru detectarea Flock-You, fiecare 
 **Prezentare generală**: Cea mai accesibilă opțiune folosind plăci de dezvoltare standard ESP32 cu firmware open-source.
 
 **Specificații Hardware**:
-- **Microcontroler**: ESP32-WROOM-32 sau similar (dual-core, 240MHz)
+- **Microcontroler**: ESP32-WROOM-32 sau similar (cu două nuclee, 240 MHz)
 - **WiFi**: 802.11 b/g/n, capabil de mod promiscuu
 - **Memorie**: 520KB SRAM, 4MB+ Flash
 - **Afișaj**: Opțional (LED-ul de pe placă este suficient)
@@ -158,7 +179,7 @@ Trei platforme principale sunt disponibile pentru detectarea Flock-You, fiecare 
 - Melodie de pornire din Super Mario Bros. (confirmă funcționarea buzzerului)
 - Două bip-uri ascendente rapide la detectare nouă
 - Bip-uri heartbeat la fiecare 10 secunde când urmărirea este activă
-- Suport dashboard Flask pentru wardriving GPS
+- Suport dashboard Flask pentru cartografierea rețelelor Wi-Fi în deplasare cu GPS
 - Export în formate JSON, CSV, KML
 
 **Opțiuni de Construcție**:
@@ -196,12 +217,14 @@ Trei platforme principale sunt disponibile pentru detectarea Flock-You, fiecare 
 
 ---
 
+{{< figure src="flockyou-diy-esp32-solderless-breadboard-build.webp" alt="Montaj Flock-You cu ESP32 pe breadboard fără lipire, DevKit, buzzer pasiv și fire către GPIO 25, 2 și 17" >}}
+
 #### 2. M5 Atom Lite Pre-Flashat de STS Collective ($39.99)
 
 **Prezentare generală**: Dispozitiv de detectare compact pre-flashat, gata de utilizare imediat din cutie.
 
 **Specificații Hardware**:
-- **Microcontroler**: ESP32-PICO-D4 (dual-core, 240MHz)
+- **Microcontroler**: ESP32-PICO-D4 (cu două nuclee, 240 MHz)
 - **WiFi**: 802.11 b/g/n, capabil de mod promiscuu
 - **Memorie**: 520KB SRAM, 4MB Flash
 - **Afișaj**: Matrice LED RGB 5×5 (WS2812C NeoPixel)
@@ -218,7 +241,7 @@ Trei platforme principale sunt disponibile pentru detectarea Flock-You, fiecare 
 - Alertă LED albastru la detectarea camerei Flock
 - Bazat pe cercetarea FlockYou a colonelpanichacks
 - Nu necesită configurare sau flashare
-- Operare simplă plug-and-play
+- Operare simplă, fără configurări complexe
 - Suport opțional pentru dashboard
 
 **Avantaje**:
@@ -246,12 +269,14 @@ Trei platforme principale sunt disponibile pentru detectarea Flock-You, fiecare 
 
 ---
 
+{{< figure src="flockyou-m5-atom-lite-pocket-size-comparison.webp" alt="M5 Atom Lite preflash-uit între două degete, care arată dimensiunea compactă și LED-ul RGB albastru de detectare" >}}
+
 #### 3. OUI-SPY de Colonel Panic Tech ($85)
 
 **Prezentare generală**: Placă de detectare a supravegherii multi-mod cu patru moduri diferite de firmware selectabile prin meniu WiFi.
 
 **Specificații Hardware**:
-- **Microcontroler**: ESP32-S3 dual-core Xtensa LX7, 8MB flash
+- **Microcontroler**: ESP32-S3 cu două nuclee Xtensa LX7, 8 MB de memorie flash
 - **WiFi**: 802.11 b/g/n, capabil de mod promiscuu
 - **Memorie**: 8MB Flash
 - **Afișaj**: Niciunul (PCB gol cu indicatoare LED)
@@ -267,7 +292,7 @@ Trei platforme principale sunt disponibile pentru detectarea Flock-You, fiecare 
 **Firmware**: OUI-SPY Unified Blue cu **4 moduri selectabile**:
 1. **Modul Detector**: Scanner BLE multi-țintă cu filtrare OUI + portal de configurare web
 2. **Modul Foxhunter**: Tracker de proximitate RSSI cu o singură țintă pentru radiogoniometrie
-3. **Modul Flock-You**: Detectarea camerelor Flock Safety & Raven cu wardriving GPS, export JSON/CSV/KML
+3. **Modul Flock-You**: Detectarea camerelor Flock Safety & Raven cu cartografierea rețelelor Wi-Fi în deplasare cu GPS, export JSON/CSV/KML
 4. **Modul Sky Spy**: Detector de RemoteID pentru drone (OpenDroneID / ASTM F3411) cu urmărire multi-dronă
 
 **Selectarea Modului**:
@@ -283,7 +308,6 @@ Trei platforme principale sunt disponibile pentru detectarea Flock-You, fiecare 
 - ✅ Buzzer integrat cu melodii de pornire personalizate
 - ✅ Design PCB de calitate profesională
 - ✅ Multi-scop: ALPR, drone, BLE, radiogoniometrie RF
-- ✅ Suport pentru antena externă pentru rază extinsă
 - ✅ De la creatorul original al proiectului Flock-You
 - ✅ Dezvoltare activă și actualizări
 
@@ -293,14 +317,15 @@ Trei platforme principale sunt disponibile pentru detectarea Flock-You, fiecare 
 - ❌ Nicio baterie integrată
 - ❌ Niciun afișaj (feedback numai audio pentru majoritatea modurilor)
 - ❌ *Complexitate inutilă pentru detectarea de bază*
-- ❌ GPS extern necesar pentru funcțiile de wardriving
+- ❌ GPS extern necesar pentru funcțiile de cartografiere a rețelelor Wi-Fi în deplasare
 
 **Cel mai bun pentru**: Detectare supraveghere multi-scop, utilizatori care doresc detectare drone + ALPR + BLE într-un singur dispozitiv, aplicații de radiogoniometrie RF, cei care apreciază antene comutabile și caracteristici avansate.
 
 **Achiziție**: [colonelpanic.tech](https://colonelpanic.tech/products/oui-spy)
 
-
 ______
+
+{{< figure src="flockyou-oui-spy-multimode-board-pcb.webp" alt="Placă OUI-SPY ESP32-S3 fără carcasă, cu antenă, buzzer și buton de pornire; ecranul arată meniul Wi-Fi cu patru moduri" >}}
 
 ## Instrucțiuni de Configurare Pas cu Pas
 
@@ -346,7 +371,7 @@ ______
    - **Heartbeat**: Două bip-uri la fiecare 10 secunde în timp ce urmărirea este activă
    - **LED**: Clipește la fiecare detectare
 
-6. **Wardriving GPS** (opțional):
+6. **Cartografierea rețelelor Wi-Fi în deplasare cu GPS** (opțional):
    - Conectează la computer prin USB
    - Rulează dashboardul Flask: `cd api && python flockyou.py`
    - Deschide http://localhost:5000
@@ -431,7 +456,6 @@ ______
    - Implicit: Folosește antena ceramică de pe placă
    - Conectați antena MMCX la conectorul MMCX
    - Firmware-ul comută automat la antena externă
-   - Utilizați antena direcțională/Yagi pentru detectare pe distanță lungă
 
 #### Montare
 
@@ -446,7 +470,7 @@ ______
 
 #### Export Date (Modul Flock-You)
 
-8. **Wardriving GPS**:
+8. **Cartografierea rețelelor Wi-Fi în deplasare cu GPS**:
    - Conectați modulul GPS extern (neinclus)
    - Dispozitivul înregistrează detectările cu coordonate
    - Descărcați fișierele de date prin interfața web
@@ -455,8 +479,6 @@ ______
 **Notă**: Verificați colonelpanic.tech pentru actualizările firmware și documentația specifică OUI-SPY Unified Blue.
 
 ---
-
-
 
 ______
 
@@ -540,8 +562,8 @@ ______
 | Dispozitiv | Preț de Bază | Add-on-uri Opționale | Investiție Totală | Timp de Configurare |
 |--------|------------|------------------|------------------|------------|
 | **DIY ESP32** | $5-12 | Carcasă 3D, baterie | $5-20 | 15-30 min |
-| **M5 Atom Lite** | $39.99 | Baterie externă $10 | $40-50 | Plug-and-play |
-| **OUI-SPY** | $85 | Antenă externă $20, carcasă | $85-115 | Plug-and-play |
+| **M5 Atom Lite** | $39.99 | Baterie externă $10 | $40-50 | Gata de utilizare |
+| **OUI-SPY** | $85 | Antenă externă $20, carcasă | $85-115 | Gata de utilizare |
 
 ______
 
@@ -595,6 +617,9 @@ ______
 - Date pentru solicitări de documente publice
 - Conștientizare pentru decizii personale de confidențialitate
 
+*Viteza de mers contează mai mult decât se așteaptă mulți. Firmware-ul schimbă canalul WiFi aproximativ la fiecare 250 ms pentru a ține pasul cu frecvența schimbării canalului de către cameră. Dacă mergi pe jos sau cu bicicleta repede, poți depăși fereastra de detectare înainte ca schimbarea canalului să se sincronizeze. Dacă rezultatele unui traseu de verificare pe jos sunt neregulate, încetinește la intersecții în loc să încerci mai întâi o antenă cu câștig mai mare. O antenă standard, cu o oprire de 30–60 de secunde în fiecare loc, detectează mult mai multe camere decât o antenă cu câștig mare folosită în mers rapid.*
+
+
 ### Scenariul 3: Evaluarea Confidențialității în Călătorii
 
 **Obiectiv**: Înțelegerea expunerii la supraveghere în timpul călătoriilor.
@@ -629,6 +654,8 @@ ______
 - Corelați cu statistici criminalistice (sau lipsa acestora)
 
 ______
+
+{{< figure src="flockyou-detection-device-driving-scenario.webp" alt="Șoferul privește detectorul FlockYou din suportul de pahare; LED-ul semnalează o cameră Flock apropiată" >}}
 
 ## Analiză Tehnică Detaliată: Înțelegerea Codului
 
@@ -710,6 +737,7 @@ bool is_wildcard_probe_request(wifi_promiscuous_pkt_t *pkt) {
 ______
 
 ## Depanarea Problemelor Comune
+{{< figure src="flockyou-troubleshooting-firmware-flash-flowchart.webp" alt="Diagramă de depanare pentru firmware-ul FlockYou și detectare, de la alimentare la rezultate OUI fals pozitive" >}}
 
 ### Problema: Nicio Detectare Deși Camera Este Cunoscută în Apropiere
 
@@ -717,7 +745,8 @@ ______
 1. **Camera offline/oprită**: Camerele Flock sunt temporar inactive uneori
 2. **Semnal blocat**: Materialele de construcție absorb WiFi (metal, beton)
 3. **În afara razei**: Raza efectivă ~30-90 de metri în funcție de obstacole
-4. **Problemă de firmware**: Firmware-ul depășit ratează variantele OUI mai noi
+4. **Deplasare prea rapidă**: schimbarea canalelor favorizează mersul lent sau oprirea completă, nu pasul grăbit ori deplasarea cu vehiculul
+5. **Problemă de firmware**: Firmware-ul depășit ratează variantele OUI mai noi
 
 **Soluții**:
 - Confirmați că camera este vizibilă și pare funcțională (panouri solare, lumini)
@@ -884,27 +913,31 @@ ______
 
 **Proiectul de detectare Flock-You** reprezintă o democratizare puternică a tehnologiei de contra-supraveghere. Pentru mai puțin decât costul unui abonament lunar de streaming, indivizii obțin conștientizare cu privire la infrastructura de supraveghere din jurul lor. Fie că alegeți **construcția DIY ESP32 ($5-12)**, **M5 Atom Lite gata de utilizare ($40)** sau **OUI-SPY multi-mod ($85)**, investiți în conștientizarea confidențialității și autonomia digitală.
 
+
+*Ține minte ce acoperă acest hardware și ce nu: detectează camerele Flock prin WiFi. Nu detectează Stingray sau trackere personale care se deplasează cu tine. Dacă ai nevoie de o acoperire mai largă, combină-l cu Rayhunter și Eye Spy, menționate mai jos.*
+
 ### Puncte Principale
 
-✅ **Autonomizare open-source**: Dezvoltarea condusă de comunitate asigură accesibilitatea
-✅ **Tehnologie accesibilă**: Hardware-ul de consum (ESP32) face detectarea accesibilă
-✅ **Platforme multiple**: Opțiuni pentru diferite bugete și niveluri de competență tehnică
-✅ **Dezvoltare activă**: Actualizări regulate cu noi semnături OUI și funcționalități
-✅ **Legal și etic**: Monitorizarea pasivă respectă legile comunicațiilor
-✅ **Beneficiu comunitar**: Contribuie la conștientizarea publică și discuțiile de politici
+- **Open source și modificabil gratuit**: dezvoltarea comunității menține actualizate lista OUI și firmware-ul
+- **Hardware accesibil**: un ESP32 simplu costă 5–12 $; fiecare nivel superior adaugă confort, nu capacități noi de detectare
+- **Doar monitorizare pasivă**: dispozitivul primește cadre Wi-Fi transmise public și nu transmite nimic
+- **Actualizări regulate**: noile semnături OUI și cercetările despre sonde wildcard intră în firmware când se schimbă hardware-ul Flock
+- **Verificat în teren**: comunitatea DeFlockJoplin a detectat 11 din 12 camere cunoscute într-un test real cu mașina
 
 ### Pașii Următori
 
-1. **Aflați mai multe** despre de ce contează detectarea: [Supravegherea prin camere Flock Safety: Prevalență și Probleme de Confidențialitate](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)
-2. **Alegeți platforma**: Decideți ce dispozitiv se potrivește nevoilor și bugetului vostru
-3. **Comandați hardware**: Achiziționați de la furnizori autorizați
-4. **Configurați și configurați**: Urmați ghidurile detaliate din acest articol
-5. **Alăturați-vă comunității**: Angajați-vă cu alți utilizatori, împărtășiți descoperiri, contribuiți cu îmbunătățiri
-6. **Acționați**: Folosiți datele pentru advocacy, conștientizare și decizii informate
+1. **Citește contextul**: [Supravegherea prin camere Flock Safety: Prevalență, Probleme de Confidențialitate și Strategii de Protecție](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)
+2. **Alege platforma**: potrivește DIY ESP32, M5 Atom Lite sau OUI-SPY cu bugetul și nivelul tău de experiență
+3. **Comandă hardware-ul**: cumpără de la un furnizor autorizat enumerat mai sus
+4. **Flash-uiește și configurează**: urmează ghidul platformei alese
+5. **Alătură-te comunității**: împărtășește rezultatele și contribuie cu detectări la proiect
+6. **Acoperă limitele dispozitivului**: folosește [Cum instalezi Rayhunter pe dispozitive: ghid complet](/articles/how-to-flash-rayhunter-devices-complete-guide/) pentru dispozitive de captare IMSIe și [Eye Spy: detector pasiv de supraveghere pentru M5Stack Atom Lite](/articles/eye-spy-passive-surveillance-detector-esp32-2026/) pentru AirTag și alți trackeri
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  Cumpără dispozitive FlockYou gata de utilizare și economisește 20%
+{{< /centerbutton >}}
 
 Proliferarea supravegherii ALPR reprezintă o schimbare semnificativă în dinamica confidențialității. Tehnologiile de contra-supraveghere precum Flock-You oferă o capacitate crucială: **conștientizare**. Când înțelegem domeniul și scala supravegherii, luăm decizii informate cu privire la mișcările noastre, advocacy-ul nostru și așteptările noastre de confidențialitate în spațiile publice.
-
-**Tehnologia a permis supravegherea pervasivă. Tehnologia îi ajută și pe cei care valorizează confidențialitatea.** Proiectul Flock-You este un testament al puterii colaborării open-source în protejarea libertăților civile.
 
 ______
 
@@ -914,25 +947,29 @@ ______
 |---------|-------------|
 | **[Supravegherea prin camere Flock Safety: Prevalență, Probleme de Confidențialitate și Strategii de Protecție](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)** | Ghidul definitiv pentru rețeaua ALPR a Flock Safety, abuzuri documentate, resurse de organizare comunitară și ce puteți face pentru a vă proteja |
 | **[Flock Finder: Cartografiați Fiecare Cameră Flock Safety Suspectată din Apropierea Dvs.](/articles/flock-finder-alpr-surveillance-mapping-tool/)** | Cum să folosiți instrumentul open-source Flock Finder pentru a vizualiza 40.000+ camere Flock suspectate în toată lumea folosind date WiGLE și amprentare OUI |
-| **[Cum să Flashezi Rayhunter pe Dispozitive de Detectare IMSI Catcher](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | Ghid pas cu pas pentru flasharea firmware-ului Rayhunter pentru detectarea IMSI catcher-elor și stingray-urilor — completează detectarea ALPR |
-| **[Firmware Personalizat DagShell pentru Orbic RCL400](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | Ghid complet pentru instalarea DagShell pe Orbic RCL400 pentru monitorizarea avansată a rețelei celulare și detectarea IMSI catcher |
+| **[Eye Spy: detector pasiv de supraveghere pentru M5Stack Atom Lite](/articles/eye-spy-passive-surveillance-detector-esp32-2026/)** | Detector BLE și Wi-Fi care acoperă ce nu detectează Flock-You: AirTag-uri, trackere Tile, camere corporale și drone, pe aceeași familie de hardware. |
+| **[Cum să Flashezi Rayhunter pe Dispozitive de Detectare captatoare IMSI](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | Ghid pas cu pas pentru flasharea firmware-ului Rayhunter pentru detectarea dispozitivelor de captare IMSI și stingray-urilor — completează detectarea ALPR |
+| **[Firmware Personalizat DagShell pentru Orbic RCL400](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | Ghid complet pentru instalarea DagShell pe Orbic RCL400 pentru monitorizarea avansată a rețelei celulare și detectarea dispozitive de captare IMSI |
 | **[Compararea Dispozitivelor Rayhunter 2026](/articles/rayhunter-device-comparison-2026-complete-review/)** | Comparație side-by-side a dispozitivelor suportate de Rayhunter pentru a vă ajuta să alegeți hardware-ul potrivit pentru setul de instrumente de contra-supraveghere |
+
+Cauți un instrument care să perturbe activ trackerele, nu doar să le detecteze? [Simulacra](https://github.com/Em3ritus/simulacra) este un proiect open source independent și neafiliat. Răspândește dispozitive-capcană BLE și Wi-Fi pentru a ascunde semnalul dispozitivului tău real. Rezolvă altă problemă decât dispozitivele din acest ghid și poate fi util dacă detectarea pasivă nu este suficientă pentru modelul tău de amenințare.
 
 ______
 
 ## Referințe
 
-1. [Repository GitHub Flock-You - colonelpanichacks](https://github.com/colonelpanichacks/flock-you)
-2. [Flock Finder - Hartă Interactivă Camere ALPR](https://simeononsecurity.github.io/flock-finder/)
-3. [Flock Finder - Repository GitHub](https://github.com/simeononsecurity/flock-finder)
-4. [Colonel Panic Tech - Furnizor Oficial](https://colonelpanic.tech)
-5. [STS Collective - M5 Atom Lite Pre-Flashat](https://stscollective.com)
-4. [Documentație Oficială M5Stack](https://docs.m5stack.com/en/core/atom_lite)
-5. [Documentație Tehnică Espressif ESP32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
-6. [Tutorial Mod Promiscuu WiFi](https://esp32developer.com/wifi-promiscuous-mode)
-7. [Cercetare Comunitate DeFlockJoplin](https://deflockjoplin.org/)
-8. [Electronic Frontier Foundation - ALPR](https://www.eff.org/issues/automated-license-plate-readers)
-9. [Descărcare Oficială Arduino IDE](https://www.arduino.cc/en/software)
-10. [Documentație Platform.io](https://docs.platformio.org/)
-11. [Baza de Date OUI - Standarde IEEE](https://standards.ieee.org/products-programs/regauth/)
-12. [Referință Structură Frame 802.11](https://mrncciew.com/2014/10/08/802-11-mgmt-beacon-frame/)
+1. [Depozitul GitHub Flock-You - colonelpanichacks](https://github.com/colonelpanichacks/flock-you)
+2. [Flock Finder - hartă interactivă a camerelor ALPR](https://simeononsecurity.github.io/flock-finder/)
+3. [Depozitul GitHub Flock Finder](https://github.com/simeononsecurity/flock-finder)
+4. [Colonel Panic Tech - site-ul oficial al furnizorului](https://colonelpanic.tech)
+5. [STS Collective - M5 Atom Lite cu firmware preinstalat](https://stscollective.com)
+6. [Documentația oficială M5Stack Atom Lite](https://docs.m5stack.com/en/core/ATOM%20Lite)
+7. [Documentația API WiFi ESP32 de la Espressif](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_wifi.html)
+8. [Referință pentru cereri și răspunsuri Probe 802.11](https://mrncciew.com/2014/10/27/cwap-802-11-probe-requestresponse/)
+9. [DeFlock Joplin - cercetare comunitară ALPR](https://deflockjoplin.today)
+10. [DeFlock - hartă și date ALPR colaborative](https://deflock.me/)
+11. [Electronic Frontier Foundation - ce este ALPR?](https://www.eff.org/pages/what-alpr)
+12. [Descărcare oficială Arduino IDE](https://www.arduino.cc/en/software)
+13. [Documentația Platform.io](https://docs.platformio.org/)
+14. [IEEE Registration Authority - bloc mare de adrese MAC (OUI)](https://standards.ieee.org/products-programs/regauth/oui/)
+15. [Referință privind structura cadrelor Beacon 802.11](https://mrncciew.com/2014/10/08/802-11-mgmt-beacon-frame/)

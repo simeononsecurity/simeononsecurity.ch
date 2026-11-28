@@ -1,7 +1,7 @@
 ---
 title: "Flock-You検出：カウンター監視セットアップガイド"
 date: 2026-05-24
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "ESP32ベースのハードウェアを使用してFlock Safety ALPRカメラを検出するオープンソースFlock-Youプロジェクトの包括的な技術ガイド。セットアップ手順、ファームウェアの詳細、購入オプションを含む。"
@@ -19,11 +19,27 @@ canonical: "https://simeononsecurity.com/articles/flock-you-detection-project-co
 
 **Flock-Youプロジェクト**は、Flock SafetyのALPR監視インフラを検出・マッピングするための**オープンソースのコミュニティ主導の取り組み**です。GitHubの**colonelpanichacks/flock-you**でホストされているこのプロジェクトは、手頃な価格のESP32ベースのハードウェアを使用して、**WiFiネットワーク署名**によってFlockカメラを識別します。
 
+**Flock-YouがWi-Fi経由で検出するのはFlock Safetyカメラだけです。Stingray型の携帯基地局シミュレーターや、一緒に移動する個人トラッカーは検出しません。IMSIキャッチャーの検出には**[Rayhunter デバイスのフラッシュ方法: 完全ガイド](/articles/how-to-flash-rayhunter-devices-complete-guide/)**、AirTagや追跡デバイスの検出には**[Eye Spy：M5Stack Atom Lite向けパッシブ監視検出器](/articles/eye-spy-passive-surveillance-detector-esp32-2026/)**を参照してください。3つとも低価格なESP32系ハードウェアで動作します。**
+
 この包括的なガイドは、Flock検出の背後にある**技術的方法論**から、3つのハードウェアプラットフォームの**ステップバイステップのセットアップ手順**、**ファームウェアのインストール**、および**認定販売業者からの購入情報**まで、すべてをカバーしています。プライバシー支持者、セキュリティ研究者、または懸念を持つ市民であっても、このガイドにより、独自の検出デバイスを構築または購入できるようになります。
+
+
+*Flock Safetyのハードウェアはほぼすべて米国に設置されており、カナダでの設置は比較的少数です。北米以外では、以下のOUIリストやプローブのシグネチャに一致する機器は周辺にないでしょう。このハードウェアは研究には引き続き役立ちますが、存在しない設備は検出できません。*
 
 この技術が重要である理由と、より広い監視の状況については、コンパニオン記事をお読みください：**[Flock Safetyカメラ監視：普及、プライバシーの懸念、保護戦略](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)**。
 
 Flockカメラがすでにどこにマッピングされているか確認したいですか？**[Flock Finder](https://simeononsecurity.github.io/flock-finder/)**は、WiGLE WiFiデータとOUIフィンガープリンティングを使用して、世界中の40,000以上の疑わしいFlock Safetyカメラをプロットするオープンソースツールです — 毎日更新されます。ソースは**[GitHub](https://github.com/simeononsecurity/flock-finder)**にあります。
+
+### 概要：3つのプラットフォーム
+
+*各プラットフォームの仕様、長所、短所は以下にあります。選択が決まっている場合は[セットアップ手順](#ステップバイステップのセットアップ手順)へ進んでください。*
+
+
+| プラットフォーム | 価格 | セットアップ | 最適な用途 |
+|---|---|---|---|
+| **DIY ESP32** | $5〜12 | はんだ付け不要のブレッドボード、10〜15分 | 低予算での自作、検出の仕組みを学ぶ |
+| **M5 Atom Lite**（書き込み済み） | $49.99 | 接続するだけ、設定不要 | DIYの手間をかけずにすぐ使う |
+| **OUI-SPY** | $85 | 一度書き込み、Wi-Fiメニューからモードを選択 | 複数モードの検出（ALPR、ドローン、BLE） |
 
 ______
 
@@ -113,9 +129,14 @@ Flock-You方法論は高い精度を達成します：
 
 ______
 
+{{< figure src="flockyou-oui-detection-methodology-overview.webp" alt="Flock-You検出図：Wi-FiプロミスキャスモードのESP32がMACを既知のFlock OUIと照合し、ワイルドカードプローブを確認してRSSIを評価" >}}
+
+{{< stscollective-ad "flockyou" >}}
+
 ## ハードウェアプラットフォーム比較
 
 Flock-You検出には3つの主要プラットフォームが利用可能で、それぞれに異なる利点があります：
+*3つのプラットフォームはいずれも同じ基本的な検出方式を使います。既知のFlockカメラのOUIとワイルドカードのプローブシグネチャを探すため、WiFiのプロミスキャスモードで受動的にスキャンします。Bluetoothはどのプラットフォームでも検出できません。Flock-Youファームウェアは、BLE検出が安定して動作しなくなったため、2026年春にそのサポートを終了しました。そのため、ここで紹介する全プラットフォームはWiFi専用です。*
 
 ### プラットフォーム概要テーブル
 
@@ -158,7 +179,7 @@ Flock-You検出には3つの主要プラットフォームが利用可能で、�
 - Super Mario Bros.起動メロディ（ブザーの動作確認）
 - 新規検出時に2回の素早い上昇ビープ
 - トラッキングアクティブ時の10秒ハートビートビープ
-- GPS wardrivingのためのFlaskダッシュボードサポート
+- GPSを使った車でのWi-Fiネットワーク調査のためのFlaskダッシュボードサポート
 - JSON、CSV、KML形式へのエクスポート
 
 **ビルドオプション**：
@@ -196,6 +217,8 @@ Flock-You検出には3つの主要プラットフォームが利用可能で、�
 
 ---
 
+{{< figure src="flockyou-diy-esp32-solderless-breadboard-build.webp" alt="はんだ付け不要のESP32 Flock-You構成。DevKit、パッシブブザー、GPIO 25、2、17への配線を示す" >}}
+
 #### 2. STS CollectiveによるM5 Atom Lite事前フラッシュ済み（$39.99）
 
 **概要**：事前フラッシュ済みのコンパクトな検出デバイス、箱から出してすぐに使用可能。
@@ -216,7 +239,7 @@ Flock-You検出には3つの主要プラットフォームが利用可能で、�
 **ファームウェア**：STS CollectiveによるカスタムFlockYouポート（プロプライエタリ）：
 - プリロードされてすぐに使用可能
 - Flockカメラ検出時の青色LEDアラート
-- colonelpanichacks FlockYou研究に基づく
+- Flock-Youに関するcolonelpanichacksの調査に基づく
 - セットアップやフラッシュ不要
 - シンプルなプラグアンドプレイ操作
 - オプションのダッシュボードサポート
@@ -246,6 +269,8 @@ Flock-You検出には3つの主要プラットフォームが利用可能で、�
 
 ---
 
+{{< figure src="flockyou-m5-atom-lite-pocket-size-comparison.webp" alt="指の間に置いた書き込み済みM5 Atom Lite。小型サイズと青いRGB検出LEDを示す" >}}
+
 #### 3. Colonel Panic TechによるOUI-SPY（$85）
 
 **概要**：WiFiメニューから選択可能な4つの異なるファームウェアモードを備えたマルチモード監視検出ボード。
@@ -267,7 +292,7 @@ Flock-You検出には3つの主要プラットフォームが利用可能で、�
 **ファームウェア**：OUI-SPY Unified Blue、**4つの選択可能モード**：
 1. **Detectorモード**：OUIフィルタリング + Webコンフィグポータル付きマルチターゲットBLEスキャナー
 2. **Foxhunterモード**：無線方向探知のシングルターゲットRSSI近接トラッカー
-3. **Flock-Youモード**：GPS wardriving、JSON/CSV/KMLエクスポート付きFlock SafetyおよびRavenカメラ検出
+3. **Flock-Youモード**：GPSを使った車でのWi-Fiネットワーク調査、JSON/CSV/KMLエクスポート付きFlock SafetyおよびRavenカメラ検出
 4. **Sky Spyモード**：マルチドローントラッキング付きドローンRemoteID（OpenDroneID / ASTM F3411）検出器
 
 **モード選択**：
@@ -283,7 +308,6 @@ Flock-You検出には3つの主要プラットフォームが利用可能で、�
 - ✅ カスタムブートメロディ付き内蔵ブザー
 - ✅ プロフェッショナルグレードのPCBデザイン
 - ✅ 多目的：ALPR、ドローン、BLE、RF方向探知
-- ✅ 拡張範囲のための外部アンテナサポート
 - ✅ オリジナルFlock-Youプロジェクト作成者から
 - ✅ アクティブな開発とアップデート
 
@@ -293,14 +317,15 @@ Flock-You検出には3つの主要プラットフォームが利用可能で、�
 - ❌ 内蔵バッテリーなし
 - ❌ ディスプレイなし（ほとんどのモードで音声フィードバックのみ）
 - ❌ *基本的な検出には不必要な複雑さ*
-- ❌ wardriving機能には外部GPSが必要
+- ❌ 車でのWi-Fiネットワーク調査機能には外部GPSが必要
 
 **最適**：多目的監視検出、1台のデバイスでドローン + ALPR + BLE検出を望むユーザー、RF方向探知アプリケーション、切替可能なアンテナと高度な機能を重視する人。
 
 **購入**：[colonelpanic.tech](https://colonelpanic.tech/products/oui-spy)
 
-
 ______
+
+{{< figure src="flockyou-oui-spy-multimode-board-pcb.webp" alt="アンテナ、ブザー、ブートボタン付きの裸のOUI-SPY ESP32-S3基板。接続画面に4モードWi-Fiメニューを表示" >}}
 
 ## ステップバイステップのセットアップ手順
 
@@ -346,7 +371,7 @@ ______
    - **ハートビート**：トラッキング中に10秒ごとに2回のビープ
    - **LED**：検出のたびに点滅
 
-6. **GPS Wardriving**（オプション）：
+6. **GPSを使った車でのWi-Fiネットワーク調査**（オプション）：
    - USB経由でコンピューターに接続
    - Flaskダッシュボードを実行：`cd api && python flockyou.py`
    - http://localhost:5000を開く
@@ -431,7 +456,6 @@ ______
    - デフォルト：オンボードセラミックアンテナを使用
    - MMCXコネクターにMMCXアンテナを接続
    - ファームウェアが自動的に外部アンテナに切り替え
-   - 長距離検出には指向性/八木アンテナを使用
 
 #### マウンティング
 
@@ -446,7 +470,7 @@ ______
 
 #### データエクスポート（Flock-Youモード）
 
-8. **GPS Wardriving**：
+8. **GPSを使った車でのWi-Fiネットワーク調査**：
    - 外部GPSモジュールを接続（付属なし）
    - デバイスが座標付きで検出を記録
    - Webインターフェース経由でデータファイルをダウンロード
@@ -455,8 +479,6 @@ ______
 **注意**：OUI-SPY Unified Blue固有のファームウェアアップデートとドキュメントについては、colonelpanic.techをご確認ください。
 
 ---
-
-
 
 ______
 
@@ -595,6 +617,9 @@ ______
 - 公開記録申請のためのデータ
 - 個人のプライバシー判断のための認識
 
+*歩く速度は、多くの人が考える以上に重要です。ファームウェアはカメラ自体のチャンネル変更頻度に合わせるため、およそ250 msごとにWiFiチャンネルを切り替えます。徒歩や自転車で速く移動すると、チャンネル切替のタイミングが合う前にカメラの検出範囲を通り過ぎることがあります。徒歩調査で検出結果にばらつきがある場合は、先に高利得アンテナを試すのではなく、交差点で速度を落としてください。各地点で30～60秒待つ標準アンテナの方が、速く通り過ぎながら使う高利得アンテナより多くのカメラを検出できます。*
+
+
 ### シナリオ3：旅行プライバシー評価
 
 **目的**：移動中の監視露出を理解する。
@@ -629,6 +654,8 @@ ______
 - 犯罪統計（またはその欠如）との相関
 
 ______
+
+{{< figure src="flockyou-detection-device-driving-scenario.webp" alt="カップホルダーのFlockYou検出器を見る運転者。LEDが近くのFlockカメラを知らせる" >}}
 
 ## 技術的詳細分析：コードの理解
 
@@ -710,6 +737,7 @@ bool is_wildcard_probe_request(wifi_promiscuous_pkt_t *pkt) {
 ______
 
 ## 一般的な問題のトラブルシューティング
+{{< figure src="flockyou-troubleshooting-firmware-flash-flowchart.webp" alt="FlockYouの書き込みと検出の問題を解決する図。電源問題からOUI誤検知までを扱う" >}}
 
 ### 問題：既知のカメラが近くにあるにもかかわらず検出されない
 
@@ -717,7 +745,8 @@ ______
 1. **カメラがオフライン/電源オフ**：Flockカメラは一時的に非アクティブになることがある
 2. **信号がブロック**：建材がWiFiを吸収する（金属、コンクリート）
 3. **範囲外**：障害物によって有効範囲は約30-90メートル
-4. **ファームウェアの問題**：古いファームウェアでは新しいOUIバリアントを見逃す
+4. **移動が速すぎる**：チャネル切替のタイミング上、速歩きや車の速度より、ゆっくり歩くか完全に停止する方が検出しやすい
+5. **ファームウェアの問題**：古いファームウェアでは新しいOUIバリアントを見逃す
 
 **解決策**：
 - カメラが見えて動作しているように見えることを確認（ソーラーパネル、ライト）
@@ -884,27 +913,31 @@ ______
 
 **Flock-You検出プロジェクト**は、カウンター監視技術の強力な民主化を表しています。毎月のストリーミングサブスクリプションのコスト以下で、個人は周囲の監視インフラを認識できます。**DIY ESP32ビルド（$5-12）**、**すぐに使えるM5 Atom Lite（$40）**、または**マルチモードOUI-SPY（$85）**のいずれかを選択しても、プライバシーの認識とデジタル自律性への投資をしています。
 
+
+*このハードウェアで検出できるものとできないものを確認してください。WiFi経由でFlockカメラを検出しますが、Stingrayや一緒に移動する個人用トラッカーは検出しません。より広い範囲をカバーするには、下記のRayhunterとEye Spyを組み合わせてください。*
+
 ### 主なポイント
 
-✅ **オープンソースのエンパワーメント**：コミュニティ主導の開発がアクセシビリティを確保
-✅ **手頃な技術**：コンシューマーグレードのハードウェア（ESP32）で検出をアクセス可能に
-✅ **複数のプラットフォーム**：さまざまな予算と技術スキルレベルのためのオプション
-✅ **アクティブな開発**：新しいOUI署名と機能を含む定期的な更新
-✅ **法的かつ倫理的**：受動的モニタリングは通信法に準拠
-✅ **コミュニティへの恩恵**：公衆の認識と政策議論への貢献
+- **オープンソースで自由に変更可能**：コミュニティ主導の開発でOUIリストとファームウェアを最新に保つ
+- **手頃なハードウェア**：ESP32単体は$5〜12で、上位機種は検出能力ではなく利便性を加える
+- **受信のみの監視**：公開Wi-Fiフレームを受信し、何も送信しない
+- **定期的に更新**：Flockのハードウェア変更に合わせ、新しいOUI署名やワイルドカードプローブの調査をファームウェアに反映
+- **実地検証済み**：DeFlockJoplinのコミュニティは実際の走行試験で既知カメラ12台のうち11台を検出
 
 ### 次のステップ
 
-1. **詳細を学ぶ**：検出が重要な理由：[Flock Safetyカメラ監視：普及とプライバシーの懸念](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)
-2. **プラットフォームを選択**：ニーズと予算に合ったデバイスを決定
-3. **ハードウェアを注文**：認定販売業者から購入
-4. **セットアップと設定**：この記事の詳細ガイドに従う
-5. **コミュニティに参加**：他のユーザーと関わり、調査結果を共有し、改善に貢献
-6. **行動する**：アドボカシー、認識、情報に基づいた決断のためにデータを活用
+1. **背景を読む**: [Flock Safetyカメラ監視：普及、プライバシーの懸念、保護戦略](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)
+2. **プラットフォームを選ぶ**：DIY ESP32、M5 Atom Lite、OUI-SPYを予算とスキルに合わせる
+3. **ハードウェアを注文する**：上記の認定販売業者から購入する
+4. **書き込みと設定を行う**：選んだプラットフォームのセットアップ手順に従う
+5. **コミュニティに参加する**：結果を共有し、検出情報をプロジェクトに提供する
+6. **検出範囲の限界を補う**：IMSIキャッチャーには[Rayhunter デバイスのフラッシュ方法: 完全ガイド](/articles/how-to-flash-rayhunter-devices-complete-guide/)、AirTagなどの追跡機器には[Eye Spy：M5Stack Atom Lite向けパッシブ監視検出器](/articles/eye-spy-passive-surveillance-detector-esp32-2026/)を組み合わせる
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  すぐ使えるFlockYouデバイスを購入して20%割引
+{{< /centerbutton >}}
 
 ALPR監視の普及は、プライバシーのダイナミクスにおける重大な変化を表しています。Flock-Youのようなカウンター監視技術は重要な能力を提供します：**認識**。監視の範囲とスケールを理解するとき、私たちは移動、アドボカシー、公共スペースでのプライバシーの期待について情報に基づいた決断を下します。
-
-**技術が広範な監視を可能にしました。技術はプライバシーを重視する人々も支援します。** Flock-Youプロジェクトは、市民的自由の保護におけるオープンソース協力の力の証明です。
 
 ______
 
@@ -914,25 +947,29 @@ ______
 |---------|-------------|
 | **[Flock Safetyカメラ監視：普及、プライバシーの懸念、保護戦略](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)** | Flock SafetyのALPRネットワーク、記録された悪用、コミュニティ組織リソース、および自己保護のためにできることの決定版ガイド |
 | **[Flock Finder：近くの疑わしいFlock Safetyカメラをすべてマップ](/articles/flock-finder-alpr-surveillance-mapping-tool/)** | WiGLEデータとOUIフィンガープリンティングを使用して世界中の40,000以上の疑わしいFlockカメラを可視化するオープンソースFlock Finderツールの使い方 |
+| **[Eye Spy：M5Stack Atom Lite向けパッシブ監視検出器](/articles/eye-spy-passive-surveillance-detector-esp32-2026/)** | BLEとWi-Fiの検出器。AirTag、Tileトラッカー、ボディカメラ、ドローンを検出し、同じハードウェア系統でFlock-Youを補完します。 |
 | **[IMSIキャッチャー検出デバイスにRayhunterをフラッシュする方法](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | IMSIキャッチャーとスティングレイを検出するためのRayhunterファームウェアのフラッシュに関するステップバイステップガイド — ALPR検出を補完 |
 | **[Orbic RCL400のDagShellカスタムファームウェア](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | 高度な携帯電話ネットワーク監視とIMSIキャッチャー検出のためのOrbic RCL400へのDagShellインストールの完全ガイド |
 | **[Rayhunterデバイス比較2026](/articles/rayhunter-device-comparison-2026-complete-review/)** | カウンター監視ツールキットに最適なハードウェアを選ぶのに役立つRayhunterサポートデバイスの並べて比較 |
+
+トラッカーを検出するだけでなく、積極的に妨害するツールを探していますか？[Simulacra](https://github.com/Em3ritus/simulacra)は独立した無関係のオープンソースプロジェクトで、偽のBLE・Wi-Fiデバイスを周囲に配置し、本物のデバイスの信号を埋もれさせます。このガイドの機器とは別の問題を解決するもので、受動検出だけでは脅威モデルに足りない場合に役立ちます。
 
 ______
 
 ## 参考文献
 
-1. [Flock-You GitHub Repository - colonelpanichacks](https://github.com/colonelpanichacks/flock-you)
-2. [Flock Finder - Interactive ALPR Camera Map](https://simeononsecurity.github.io/flock-finder/)
-3. [Flock Finder - GitHub Repository](https://github.com/simeononsecurity/flock-finder)
-4. [Colonel Panic Tech - Official Vendor](https://colonelpanic.tech)
-5. [STS Collective - M5 Atom Lite Pre-Flashed](https://stscollective.com)
-4. [M5Stack Official Documentation](https://docs.m5stack.com/en/core/atom_lite)
-5. [Espressif ESP32 Technical Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
-6. [WiFi Promiscuous Mode Tutorial](https://esp32developer.com/wifi-promiscuous-mode)
-7. [DeFlockJoplin Community Research](https://deflockjoplin.org/)
-8. [Electronic Frontier Foundation - ALPR](https://www.eff.org/issues/automated-license-plate-readers)
-9. [Arduino IDE Official Download](https://www.arduino.cc/en/software)
-10. [Platform.io Documentation](https://docs.platformio.org/)
-11. [OUI Database - IEEE Standards](https://standards.ieee.org/products-programs/regauth/)
-12. [802.11 Frame Structure Reference](https://mrncciew.com/2014/10/08/802-11-mgmt-beacon-frame/)
+1. [Flock-You GitHubリポジトリ - colonelpanichacks](https://github.com/colonelpanichacks/flock-you)
+2. [Flock Finder - ALPRカメラのインタラクティブマップ](https://simeononsecurity.github.io/flock-finder/)
+3. [Flock Finder - GitHubリポジトリ](https://github.com/simeononsecurity/flock-finder)
+4. [Colonel Panic Tech - 公式ベンダーサイト](https://colonelpanic.tech)
+5. [STS Collective - ファームウェア書き込み済みM5 Atom Lite](https://stscollective.com)
+6. [M5Stack Atom Lite公式ドキュメント](https://docs.m5stack.com/en/core/ATOM%20Lite)
+7. [EspressifのESP32 esp_wifiインターフェース資料](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_wifi.html)
+8. [802.11 Probe要求と応答のリファレンス](https://mrncciew.com/2014/10/27/cwap-802-11-probe-requestresponse/)
+9. [DeFlock Joplin - コミュニティによるALPR調査](https://deflockjoplin.today)
+10. [DeFlock - 共同作成のALPRマップとデータ](https://deflock.me/)
+11. [Electronic Frontier Foundation - ALPRとは](https://www.eff.org/pages/what-alpr)
+12. [Arduino IDE公式ダウンロード](https://www.arduino.cc/en/software)
+13. [Platform.ioドキュメント](https://docs.platformio.org/)
+14. [IEEE Registration Authority - 大規模MACアドレスブロック (OUI)](https://standards.ieee.org/products-programs/regauth/oui/)
+15. [802.11 Beaconフレーム構造リファレンス](https://mrncciew.com/2014/10/08/802-11-mgmt-beacon-frame/)

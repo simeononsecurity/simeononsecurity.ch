@@ -1,12 +1,12 @@
 ---
 title: "Flock-You Detectie: Handleiding voor Contra-Surveillance"
 date: 2026-05-24
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Uitgebreide technische handleiding voor het open-source Flock-You project voor het detecteren van Flock Safety ALPR-camera's met ESP32-hardware. Inclusief installatie-instructies, firmware-details en aankoopinformatie."
-genre: ["Beveiligingshardware", "Contra-surveillance", "Privacytechnologie", "Open Source Projecten", "ESP32 Ontwikkeling", "WiFi Monitoring", "Privacytools", "Digitale Rechten", "Hardware Hacking", "Netwerkbeveiliging"]
-tags: ["Flock-You Project", "ALPR Detectie", "ESP32-S3", "WiFi OUI Detectie", "Contra-surveillance Hardware", "Flock Safety Detectie", "Open Source Beveiliging", "Privacy Hardware", "M5 Atom Lite", "OUI-SPY", "mesh-detect v2", "Promiscuous Mode WiFi", "802.11 Monitoring", "Colonel Panic Tech", "STS Collective", "Privacyapparaten", "Surveillance Detectie", "WiFi Scanning", "GitHub Project", "colonelpanichacks", "ESP32 Firmware", "Hardware Setup Handleiding", "DIY Privacytools", "Netwerkmonitoring", "OUI Database", "Wildcard Probe Detectie", "Frame Analyse", "ALPR Camera Detectie", "Privacytechnologie", "Detectie Hardware", "Arduino ESP32", "Platform.io", "Embedded Systemen", "RF Detectie", "Signaalverwerking", "Privacy Engineering", "Contra-technologie", "Beveiligingsonderzoek", "Privacy Advocacy", "Open Hardware", "Privacy Verdediging", "Detectie Firmware", "Mobiele Detectie", "Privacy Projecten", "Hardware Vergelijking"]
+genre: ["Beveiligingshardware", "Contra-surveillance", "Privacytechnologie", "open-sourceprojecten", "ESP32 Ontwikkeling", "wifi-bewaking", "Privacytools", "Digitale Rechten", "hardwarehacking", "Netwerkbeveiliging"]
+tags: ["Flock-You-project", "ALPR Detectie", "ESP32-S3", "WiFi OUI Detectie", "hardware voor contra-surveillance", "Flock Safety Detectie", "open-sourcebeveiliging", "privacyhardware", "M5 Atom Lite", "OUI-SPY", "mesh-detect v2", "wifi-meeluistermodus", "802.11-bewaking", "Colonel Panic Tech", "STS Collective", "Privacyapparaten", "detectie van bewaking", "WiFi-scannen", "GitHub-project", "colonelpanichacks", "ESP32-firmware", "hardware-installatiehandleiding", "DIY-privacyhulpmiddelen", "netwerkbewaking", "OUI-database", "detectie van jokerprobes", "frameanalyse", "ALPR-cameradetectie", "Privacytechnologie", "detectiehardware", "Arduino ESP32", "Platform.io", "ingebedde systemen", "RF-detectie", "Signaalverwerking", "privacy-engineering", "Contra-technologie", "Beveiligingsonderzoek", "privacybehartiging", "open hardware", "privacybescherming", "detectiefirmware", "mobiele detectie", "privacyprojecten", "hardwarevergelijking"]
 cover: "/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp"
 coverAlt: "Een illustratie van een ESP32-apparaat op de voorgrond dat WiFi-signalen scant. Kleurrijke golven vertegenwoordigen verschillende signaalsterktes tegen een donkere achtergrond."
 coverCaption: "Open-source hardwareoplossingen voor het detecteren van ALPR-bewakingscamera's"
@@ -19,11 +19,27 @@ canonical: "https://simeononsecurity.com/articles/flock-you-detection-project-co
 
 Het **Flock-You project** is een **open-source, door de gemeenschap gedreven initiatief** om de ALPR-bewakingsinfrastructuur van Flock Safety te detecteren en in kaart te brengen. Gehost op GitHub als **colonelpanichacks/flock-you**, gebruikt dit project betaalbare ESP32-hardware om Flock-camera's te identificeren via hun **WiFi-netwerksignaturen**.
 
+**Flock-You detecteert alleen Flock Safety-camera’s via WiFi.** Het detecteert geen mobiele-zendersimulators zoals Stingray en geen persoonlijke trackers die met je meebewegen. Gebruik daarvoor **[Rayhunter-apparaten flashen: complete handleiding](/articles/how-to-flash-rayhunter-devices-complete-guide/)** om IMSI-catchers te detecteren en **[Eye Spy: passieve surveillancedetector voor de M5Stack Atom Lite](/articles/eye-spy-passive-surveillance-detector-esp32-2026/)** voor AirTags en volgers. Alle drie werken op dezelfde betaalbare ESP32-hardwarefamilie.
+
 Deze uitgebreide handleiding behandelt alles, van de **technische methodologie** achter Flock-detectie tot **stapsgewijze installatie-instructies** voor drie hardwareplatforms, **firmware-installatie** en **aankoopinformatie van erkende leveranciers**. Of u nu een privacyadvocaat, beveiligingsonderzoeker of bezorgde burger bent, deze handleiding stelt u in staat uw eigen detectieapparaat te bouwen of aan te schaffen.
+
+
+*Flock Safety-hardware staat vrijwel volledig in de Verenigde Staten, met een kleinere aanwezigheid in Canada. Buiten Noord-Amerika komen de OUI-lijst en probe-signaturen hieronder niet overeen met apparaten in de buurt. De hardware blijft nuttig voor onderzoek, maar vindt geen infrastructuur die daar niet aanwezig is.*
 
 Voor context over waarom deze technologie belangrijk is en het bredere surveillancelandschap, lees ons aanvullende artikel: **[Flock Safety Camera Bewaking: Prevalentie, Privacyzorgen en Beschermingsstrategieën](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)**.
 
 Wilt u zien waar Flock-camera's al in kaart zijn gebracht? **[Flock Finder](https://simeononsecurity.github.io/flock-finder/)** is een open-source tool die 40.000+ vermoedelijke Flock Safety-camera's wereldwijd plot op basis van WiGLE WiFi-data en OUI-fingerprinting — dagelijks bijgewerkt. Broncode op **[GitHub](https://github.com/simeononsecurity/flock-finder)**.
+
+### In één oogopslag: drie platforms
+
+*Volledige specificaties, plus- en minpunten van elk platform staan hieronder. Ga naar de [installatie-instructies](#stapsgewijze-installatie-instructies) als je al weet welk platform je kiest.*
+
+
+| Platform | Prijs | Installatie | Geschikt voor |
+|---|---|---|---|
+| **DIY ESP32** | $5–12 | Soldeerloos breadboard, 10–15 min | Budgetbouw en leren hoe detectie werkt |
+| **M5 Atom Lite** (vooraf geflasht) | $49,99 | Aansluiten en starten, geen installatie | Direct gebruik zonder doe-het-zelfwerk |
+| **OUI-SPY** | $85 | Eenmalig flashen, modus kiezen in het Wi-Fi-menu | Detectie in meerdere modi (ALPR, drones, BLE) |
 
 ______
 
@@ -58,33 +74,33 @@ Aanvullende OUI’s die in Flock-installaties zijn geïdentificeerd:
 [... nog 21 OUI’s van fabrikanten ...]
 ```
 
-Wanneer een detectieapparaat WiFi-verkeer in promiscuous modus scant, **identificeert het elk apparaat dat frames met deze OUI's uitzendt**.
+Wanneer een detectieapparaat WiFi-verkeer in meeluistermodus scant, **identificeert het elk apparaat dat frames met deze OUI's uitzendt**.
 
-#### 2. Wildcard Probe Request Detectie
+#### 2. Detectie van generieke sondeeraanvragen
 
-Flock-camera's sturen periodiek **wildcard probe requests** om beschikbare netwerken te zoeken. Deze hebben onderscheidende kenmerken:
+Flock-camera's sturen periodiek **generieke sondeeraanvragen** om beschikbare netwerken te zoeken. Deze hebben onderscheidende kenmerken:
 
-- **802.11 Management Frame**: Type=0, Subtype=4
-- **SSID Information Element**: Length=0 (leeg/wildcard)
+- **802.11-beheerframe**: Type=0, Subtype=4
+- **SSID Information Element**: Length=0 (leeg/joker, wildcard)
 - **Framestructuur**: Voorspelbaar patroon in probe-timing
 - **Vendor-specifieke IE's**: Aanvullende indicatoren in de frame-payload
 
-Detectiefirmware analyseert deze **probe request-patronen** om de betrouwbaarheid van Flock-camera-identificatie te vergroten, verder dan eenvoudige OUI-matching.
+Detectiefirmware analyseert deze **patronen van sondeeraanvragen** om de betrouwbaarheid van Flock-camera-identificatie te vergroten, verder dan eenvoudige OUI-matching.
 
 #### 3. Promiscuous Modus WiFi-Monitoring
 
 Standaard WiFi-werking ontvangt alleen frames die naar uw apparaat zijn geadresseerd. **Promiscuous modus** legt alle WiFi-frames in het bereik vast:
 
 - **802.11 framestructuur**: Analyse van addr1, addr2, addr3 velden
-- **Management frames**: Probe requests, beacon frames, associatieverzoeken
+- **Beheerframes**: sondeeraanvragen, bakenframes (beacon frames) en associatieverzoeken
 - **Data frames**: Onthullen netwerksgedragspatronen
 - **Controle frames**: ACK's, RTS's, CTS's bieden tijdinformatie
 
-ESP32-microcontrollers ondersteunen promiscuous modus via de **esp_wifi API**, waardoor goedkope detectiehardware mogelijk is.
+ESP32-microcontrollers ondersteunen meeluistermodus via de **esp_wifi API**, waardoor goedkope detectiehardware mogelijk is.
 
 #### 4. Signaalsterkte-analyse
 
-Detectieapparaten meten **RSSI (Received Signal Strength Indicator)** om:
+Detectieapparaten meten **RSSI (indicator voor de ontvangen signaalsterkte)** om:
 - **Afstand te schatten** tot gedetecteerde camera's
 - **Locaties te trianguleren** met meerdere metingen
 - **Valse positieven te filteren** op basis van verwachte signaalkenmerken
@@ -113,9 +129,14 @@ De Flock-You-methodologie bereikt hoge nauwkeurigheid:
 
 ______
 
+{{< figure src="flockyou-oui-detection-methodology-overview.webp" alt="Flock-You-detectiediagram: ESP32 in Wi-Fi-promiscue modus vergelijkt MAC-adressen met bekende Flock-OUIs, controleert wildcard-probes en beoordeelt RSSI" >}}
+
+{{< stscollective-ad "flockyou" >}}
+
 ## Vergelijking van Hardwareplatforms
 
 Drie primaire platforms zijn beschikbaar voor Flock-You-detectie, elk met afzonderlijke voordelen:
+*Alle drie de platforms gebruiken dezelfde onderliggende detectiemethode: passief scannen in de WiFi-promiscuousmodus naar bekende OUI's van Flock-camera's en wildcardsignaturen van probeverzoeken. Geen ervan detecteert Bluetooth. De Flock-You-firmware liet BLE-detectie in het voorjaar van 2026 vallen nadat die niet meer betrouwbaar werkte. Daarom gebruiken alle platforms hier uitsluitend WiFi.*
 
 ### Overzichtstabel van Platforms
 
@@ -133,7 +154,7 @@ Drie primaire platforms zijn beschikbaar voor Flock-You-detectie, elk met afzond
 | **Behuizing** | 3D-print of geen | Compact plastic module | Geen (kale PCB) |
 | **Firmware** | Handmatig flashen | Vooraf geladen FlockYou | Multi-modus (4 firmware's) |
 | **Beste voor** | DIY-enthousiastelingen, leren | Betaalbaar en gebruiksklaar | Multi-doel detectie |
-| **Installatiemoeilijkheid** | Gemiddeld-Gevorderd | Plug-and-play | Plug-and-play |
+| **Installatiemoeilijkheid** | Gemiddeld-Gevorderd | Geen installatie nodig | Geen installatie nodig |
 | **Gewicht** | 20-50g (variabel) | 18g (kaal) | ~40g |
 | **Afmetingen** | Variabel | 24×24×14mm | PCB-bord |
 
@@ -144,8 +165,8 @@ Drie primaire platforms zijn beschikbaar voor Flock-You-detectie, elk met afzond
 **Overzicht**: Meest betaalbare optie met standaard ESP32-ontwikkelborden en open-source firmware.
 
 **Hardwarespecificaties**:
-- **Microcontroller**: ESP32-WROOM-32 of vergelijkbaar (dual-core, 240MHz)
-- **WiFi**: 802.11 b/g/n, promiscuous modus mogelijk
+- **Microcontroller**: ESP32-WROOM-32 of vergelijkbaar (met twee kernen, 240 MHz)
+- **WiFi**: 802.11 b/g/n, meeluistermodus mogelijk
 - **Geheugen**: 520KB SRAM, 4MB+ Flash
 - **Scherm**: Optioneel (ingebouwde LED voldoende)
 - **Voeding**: USB-gevoed of batterijpack
@@ -158,7 +179,7 @@ Drie primaire platforms zijn beschikbaar voor Flock-You-detectie, elk met afzond
 - Super Mario Bros. opstartmelodie (bevestigt dat buzzer werkt)
 - Twee snelle oplopende piepjes bij nieuwe detectie
 - Hartslag-piepjes van 10 seconden bij actief volgen
-- Flask-dashboard ondersteuning voor GPS-wardriving
+- Flask-dashboard ondersteuning voor GPS-wifinetwerkverkenning onderweg
 - Export naar JSON, CSV, KML-formaten
 
 **Bouwopties**:
@@ -196,13 +217,15 @@ Drie primaire platforms zijn beschikbaar voor Flock-You-detectie, elk met afzond
 
 ---
 
+{{< figure src="flockyou-diy-esp32-solderless-breadboard-build.webp" alt="Soldeerloze Flock-You-opstelling met ESP32 op breadboard, DevKit, passieve zoemer en draden naar GPIO 25, 2 en 17" >}}
+
 #### 2. M5 Atom Lite Vooraf Geflasht door STS Collective ($39,99)
 
 **Overzicht**: Vooraf geflasht compact detectieapparaat, direct bruikbaar uit de doos.
 
 **Hardwarespecificaties**:
-- **Microcontroller**: ESP32-PICO-D4 (dual-core, 240MHz)
-- **WiFi**: 802.11 b/g/n, promiscuous modus mogelijk
+- **Microcontroller**: ESP32-PICO-D4 (met twee kernen, 240 MHz)
+- **WiFi**: 802.11 b/g/n, meeluistermodus mogelijk
 - **Geheugen**: 520KB SRAM, 4MB Flash
 - **Scherm**: 5×5 RGB LED-matrix (WS2812C NeoPixel)
 - **Voeding**: 5V via USB-C of Grove-connector
@@ -218,7 +241,7 @@ Drie primaire platforms zijn beschikbaar voor Flock-You-detectie, elk met afzond
 - Blauwe LED-melding bij detectie van Flock-camera
 - Gebaseerd op colonelpanichacks FlockYou-onderzoek
 - Geen installatie of flashen vereist
-- Eenvoudige plug-and-play-bediening
+- Eenvoudige bediening zonder ingewikkelde installatie
 - Optionele dashboard-ondersteuning
 
 **Voordelen**:
@@ -246,13 +269,15 @@ Drie primaire platforms zijn beschikbaar voor Flock-You-detectie, elk met afzond
 
 ---
 
+{{< figure src="flockyou-m5-atom-lite-pocket-size-comparison.webp" alt="Vooraf geflashte M5 Atom Lite tussen twee vingers, met compact formaat en blauwe RGB-detectie-led" >}}
+
 #### 3. OUI-SPY door Colonel Panic Tech ($85)
 
 **Overzicht**: Multi-modus bewakingsdetectiebord met vier verschillende firmwaremodi selecteerbaar via een WiFi-menu.
 
 **Hardwarespecificaties**:
-- **Microcontroller**: ESP32-S3 dual-core Xtensa LX7, 8MB flash
-- **WiFi**: 802.11 b/g/n, promiscuous modus mogelijk
+- **Microcontroller**: ESP32-S3 met twee Xtensa-LX7-kernen, 8 MB flash
+- **WiFi**: 802.11 b/g/n, meeluistermodus mogelijk
 - **Geheugen**: 8MB Flash
 - **Scherm**: Geen (kale PCB met LED-indicatoren)
 - **Batterij**: Niet inbegrepen
@@ -267,7 +292,7 @@ Drie primaire platforms zijn beschikbaar voor Flock-You-detectie, elk met afzond
 **Firmware**: OUI-SPY Unified Blue met **4 selecteerbare modi**:
 1. **Detectormodus**: Multi-doel BLE-scanner met OUI-filtering + webconfiguratiepaneel
 2. **Foxhunter-modus**: Enkeldoel RSSI-nabijheidstracker voor radio-richtingvinding
-3. **Flock-You-modus**: Flock Safety & Raven-cameradetectie met GPS-wardriving, JSON/CSV/KML-export
+3. **Flock-You-modus**: Flock Safety & Raven-cameradetectie met GPS-wifinetwerkverkenning onderweg, JSON/CSV/KML-export
 4. **Sky Spy-modus**: Drone RemoteID (OpenDroneID / ASTM F3411) detector met multi-drone tracking
 
 **Modusselectie**:
@@ -283,7 +308,6 @@ Drie primaire platforms zijn beschikbaar voor Flock-You-detectie, elk met afzond
 - ✅ Geïntegreerde buzzer met aangepaste opstartmelodieën
 - ✅ PCB-ontwerp van professionele kwaliteit
 - ✅ Multi-doel: ALPR, drones, BLE, RF-richtingvinding
-- ✅ Externe antenneondersteuning voor uitgebreid bereik
 - ✅ Van de oorspronkelijke Flock-You-projectmaker
 - ✅ Actieve ontwikkeling en updates
 
@@ -293,14 +317,15 @@ Drie primaire platforms zijn beschikbaar voor Flock-You-detectie, elk met afzond
 - ❌ Geen ingebouwde batterij
 - ❌ Geen scherm (alleen audio-feedback voor de meeste modi)
 - ❌ *Complexiteit onnodig voor basisdetectie*
-- ❌ Externe GPS vereist voor wardriving-functies
+- ❌ Externe GPS vereist voor wifinetwerkverkenning onderweg
 
 **Beste voor**: Multi-doel bewakingsdetectie, gebruikers die drone + ALPR + BLE-detectie in één apparaat willen, RF-richtingvinding toepassingen, degenen die schakelbare antennes en geavanceerde functies waarderen.
 
 **Aankoop**: [colonelpanic.tech](https://colonelpanic.tech/products/oui-spy)
 
-
 ______
+
+{{< figure src="flockyou-oui-spy-multimode-board-pcb.webp" alt="Kale OUI-SPY ESP32-S3-printplaat met antenne, zoemer en bootknop; scherm toont Wi-Fi-menu met vier modi" >}}
 
 ## Stapsgewijze Installatie-instructies
 
@@ -346,7 +371,7 @@ ______
    - **Hartslag**: Twee piepjes elke 10 seconden tijdens volgen
    - **LED**: Knippert bij elke detectie
 
-6. **GPS Wardriving** (optioneel):
+6. **GPS-wifinetwerkverkenning onderweg** (optioneel):
    - Verbind met computer via USB
    - Start Flask-dashboard: `cd api && python flockyou.py`
    - Open http://localhost:5000
@@ -431,7 +456,6 @@ ______
    - Standaard: Gebruikt ingebouwde keramische antenne
    - Verbind MMCX-antenne met MMCX-connector
    - Firmware schakelt automatisch over naar externe antenne
-   - Gebruik directionele/Yagi-antenne voor langeafstandsdetectie
 
 #### Montage
 
@@ -446,7 +470,7 @@ ______
 
 #### Gegevens Export (Flock-You Modus)
 
-8. **GPS Wardriving**:
+8. **GPS-wifinetwerkverkenning onderweg**:
    - Verbind externe GPS-module (niet inbegrepen)
    - Apparaat logt detecties met coördinaten
    - Download gegevensbestanden via webinterface
@@ -455,8 +479,6 @@ ______
 **Opmerking**: Controleer colonelpanic.tech voor firmware-updates en documentatie specifiek voor OUI-SPY Unified Blue.
 
 ---
-
-
 
 ______
 
@@ -540,8 +562,8 @@ ______
 | Apparaat | Basisprijs | Optionele Add-ons | Totale Investering | Installatietijd |
 |--------|------------|------------------|------------------|------------|
 | **DIY ESP32** | $5-12 | 3D-behuizing, batterij | $5-20 | 15-30 min |
-| **M5 Atom Lite** | $39,99 | Batterijpack $10 | $40-50 | Plug-and-play |
-| **OUI-SPY** | $85 | Externe antenne $20, behuizing | $85-115 | Plug-and-play |
+| **M5 Atom Lite** | $39,99 | Batterijpack $10 | $40-50 | Direct klaar voor gebruik |
+| **OUI-SPY** | $85 | Externe antenne $20, behuizing | $85-115 | Direct klaar voor gebruik |
 
 ______
 
@@ -595,6 +617,9 @@ ______
 - Data voor verzoeken om openbare documenten
 - Bewustzijn voor persoonlijke privacybeslissingen
 
+*De loopsnelheid is belangrijker dan veel mensen verwachten. De firmware wisselt ongeveer elke 250 ms van WiFi-kanaal om bij te blijven met hoe vaak de camera zelf van kanaal wisselt. Als je snel loopt of fietst, ben je mogelijk voorbij het detectievenster voordat een kanaalwissel samenvalt. Krijg je tijdens een lopende meting wisselende resultaten, vertraag dan bij kruispunten in plaats van meteen een antenne met meer versterking te proberen. Een standaardantenne met 30 tot 60 seconden wachttijd per stop vindt veel meer camera’s dan een antenne met hoge versterking terwijl je er stevig langs loopt.*
+
+
 ### Scenario 3: Reisprivacy Beoordeling
 
 **Doel**: Bewakingsblootstelling begrijpen bij reizen.
@@ -630,6 +655,8 @@ ______
 
 ______
 
+{{< figure src="flockyou-detection-device-driving-scenario.webp" alt="Bestuurder kijkt naar FlockYou-detector in bekerhouder; led waarschuwt voor camera dichtbij" >}}
+
 ## Technische gedetailleerde uiteenzetting: De Code Begrijpen
 
 ### Kern Detectie-algoritme (Vereenvoudigd)
@@ -647,7 +674,7 @@ const uint8_t FLOCK_OUI_LIST[][3] = {
     // ... nog 28 OUI’s ...
 };
 
-// Callback voor promiscuous modus
+// Callback voor meeluistermodus
 void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     wifi_promiscuous_pkt_t *pkt = (wifi_promiscuous_pkt_t*)buf;
 
@@ -699,17 +726,18 @@ bool is_wildcard_probe_request(wifi_promiscuous_pkt_t *pkt) {
 - `addr2`: Zendadres (bevat OUI)
 - `addr3`: Adres van eindbestemming/bron
 
-**RSSI (Received Signal Strength Indicator)**: Signaalsterkte in dBm (negatieve decibels relatief aan 1 milliwatt). Typische waarden:
+**RSSI (indicator voor de ontvangen signaalsterkte)**: Signaalsterkte in dBm (negatieve decibels relatief aan 1 milliwatt). Typische waarden:
 - -30 dBm: Extreem sterk (zeer dichtbij)
 - -50 dBm: Sterk signaal
 - -70 dBm: Zwak maar bruikbaar
 - -90 dBm: Zeer zwak (rand van bereik)
 
-**Probe Requests**: WiFi-apparaten sturen probe requests om beschikbare netwerken te ontdekken. *Wildcard-probes (lege SSID) zoeken naar elk netwerk, wat gebruikelijk is bij IoT-apparaten zoals Flock-camera's, waardoor ze betrouwbaar detecteerbaar zijn.*
+**Sondeeraanvragen**: WiFi-apparaten sturen sondeeraanvragen om beschikbare netwerken te ontdekken. *Jokerprobes met een lege SSID zoeken naar elk netwerk. IoT-apparaten zoals Flock-camera's gebruiken dit vaak, waardoor ze betrouwbaar detecteerbaar zijn.*
 
 ______
 
 ## Problemen Oplossen
+{{< figure src="flockyou-troubleshooting-firmware-flash-flowchart.webp" alt="Stroomschema voor problemen met flashen en detecteren, van stroomproblemen tot foutieve OUI-treffers" >}}
 
 ### Probleem: Geen Detecties Ondanks Bekende Camera in de Buurt
 
@@ -717,7 +745,8 @@ ______
 1. **Camera offline/uitgeschakeld**: Flock-camera's zijn soms tijdelijk inactief
 2. **Signaal geblokkeerd**: Bouwmaterialen absorberen WiFi (metaal, beton)
 3. **Buiten bereik**: Effectief bereik ~30-90 meter afhankelijk van obstakels
-4. **Firmwareprobleem**: Verouderde firmware mist nieuwere OUI-varianten
+4. **Te snel bewegen**: door het wisselen van kanalen werkt langzaam lopen of volledig stilstaan beter dan stevig doorlopen of rijden
+5. **Firmwareprobleem**: Verouderde firmware mist nieuwere OUI-varianten
 
 **Oplossingen**:
 - Bevestig dat camera zichtbaar is en operationeel lijkt (zonnepanelen, lampjes)
@@ -735,7 +764,7 @@ ______
 
 **Oplossingen**:
 - Verlaag gevoeligheidsinstelling
-- Schakel wildcard probe detectie in (hogere betrouwbaarheid)
+- Schakel detectie van generieke sondeeraanvragen in (hogere betrouwbaarheid)
 - Verificeer detecties fysiek voor logging
 - Gebruik signaalsterkte om te filteren (alleen waarschuwen bij sterke signalen)
 - Update OUI-database om te focussen op bevestigde Flock OUI's
@@ -884,27 +913,31 @@ ______
 
 Het **Flock-You detectieproject** vertegenwoordigt een krachtige democratisering van contra-surveillancetechnologie. Voor minder dan de kosten van een maandelijks streamingabonnement krijgen individuen inzicht in de bewakingsinfrastructuur om hen heen. Of u nu kiest voor de **DIY ESP32-bouw ($5-12)**, de **gebruiksklare M5 Atom Lite ($40)** of de **multi-modus OUI-SPY ($85)**, u investeert in privacybewustzijn en digitale autonomie.
 
+
+*Houd rekening met wat deze hardware wel en niet detecteert: Flock-camera’s via WiFi. Stingrays en persoonlijke trackers die met je meebewegen detecteert hij niet. Combineer hem met Rayhunter en Eye Spy hieronder als je een bredere dekking nodig hebt.*
+
 ### Kernpunten
 
-✅ **Open-source empowerment**: Door de gemeenschap gedreven ontwikkeling garandeert toegankelijkheid
-✅ **Betaalbare technologie**: Consumentenhardware (ESP32) maakt detectie toegankelijk
-✅ **Meerdere platforms**: Opties voor verschillende budgetten en technische vaardigheidsniveaus
-✅ **Actieve ontwikkeling**: Regelmatige updates met nieuwe OUI-handtekeningen en functies
-✅ **Legaal en ethisch**: Passieve monitoring voldoet aan communicatiewetten
-✅ **Gemeenschapsvoordeel**: Draagt bij aan publiek bewustzijn en beleidsdiscussie
+- **Open source en gratis aanpasbaar**: ontwikkeling door de gemeenschap houdt de OUI-lijst en firmware actueel
+- **Betaalbare hardware**: een losse ESP32 kost $5–12; hogere niveaus voegen gemak toe, geen nieuwe detectiemogelijkheden
+- **Alleen passieve bewaking**: het apparaat ontvangt openbaar uitgezonden Wi-Fi-frames en zendt niets uit
+- **Regelmatig bijgewerkt**: nieuwe OUI-signaturen en onderzoek naar wildcard-probes worden toegevoegd wanneer Flock-hardware verandert
+- **In het veld getest**: de DeFlockJoplin-gemeenschap detecteerde 11 van 12 bekende camera’s tijdens een echte testrit
 
 ### Volgende Stappen
 
-1. **Meer leren** over waarom detectie belangrijk is: [Flock Safety Camera Bewaking: Prevalentie en Privacyzorgen](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)
-2. **Kies uw platform**: Bepaal welk apparaat bij uw behoeften en budget past
-3. **Bestel hardware**: Koop bij erkende leveranciers
-4. **Installeer en configureer**: Volg de gedetailleerde handleidingen in dit artikel
-5. **Sluit u aan bij de gemeenschap**: Engage met andere gebruikers, deel bevindingen, draag verbeteringen bij
-6. **Onderneem actie**: Gebruik uw data voor advocacy, bewustzijn en geïnformeerde beslissingen
+1. **Lees de achtergrond**: [Flock Safety Camera Bewaking: Prevalentie, Privacyzorgen en Beschermingsstrategieën](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)
+2. **Kies je platform**: stem DIY ESP32, M5 Atom Lite of OUI-SPY af op budget en vaardigheden
+3. **Bestel hardware**: koop bij een hierboven genoemde erkende verkoper
+4. **Flash en configureer**: volg de installatiehandleiding voor je gekozen platform
+5. **Doe mee met de gemeenschap**: deel bevindingen en draag detecties bij aan het project
+6. **Vul de beperkingen aan**: gebruik [Rayhunter-apparaten flashen: complete handleiding](/articles/how-to-flash-rayhunter-devices-complete-guide/) voor IMSI-catchers en [Eye Spy: passieve surveillancedetector voor de M5Stack Atom Lite](/articles/eye-spy-passive-surveillance-detector-esp32-2026/) voor AirTags en andere trackers
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  Koop kant-en-klare FlockYou-apparaten en bespaar 20%
+{{< /centerbutton >}}
 
 De proliferatie van ALPR-bewaking vertegenwoordigt een significante verschuiving in privacydynamica. Contra-surveillancetechnologieën zoals Flock-You bieden een cruciale mogelijkheid: **bewustzijn**. Wanneer we de omvang en schaal van bewaking begrijpen, nemen we geïnformeerde beslissingen over onze bewegingen, onze advocacy en onze verwachtingen van privacy in openbare ruimten.
-
-**Technologie maakte alomtegenwoordige bewaking mogelijk. Technologie helpt ook degenen die privacy waarderen.** Het Flock-You project is een bewijs van de kracht van open-source samenwerking in het beschermen van burgerrechten.
 
 ______
 
@@ -914,25 +947,29 @@ ______
 |---------|-------------|
 | **[Flock Safety Camera Bewaking: Prevalentie, Privacyzorgen en Beschermingsstrategieën](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)** | De definitieve gids voor het ALPR-netwerk van Flock Safety, gedocumenteerde misbruiken, bronnen voor gemeenschapsorganisatie en wat u kunt doen om uzelf te beschermen |
 | **[Flock Finder: Breng Elke Vermoedelijke Flock Safety Camera bij U in Kaart](/articles/flock-finder-alpr-surveillance-mapping-tool/)** | Hoe de open-source Flock Finder-tool te gebruiken om 40.000+ vermoedelijke Flock-camera's wereldwijd te visualiseren met WiGLE-data en OUI-fingerprinting |
-| **[Hoe Rayhunter te Flashen op IMSI Catcher Detectieapparaten](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | Stapsgewijze handleiding voor het flashen van Rayhunter-firmware voor het detecteren van IMSI catchers en stingrays — complementeert ALPR-detectie |
-| **[DagShell Aangepaste Firmware voor de Orbic RCL400](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | Volledige handleiding voor het installeren van DagShell op de Orbic RCL400 voor geavanceerde mobiele netwerkmonitoring en IMSI catcher-detectie |
+| **[Eye Spy: passieve surveillancedetector voor de M5Stack Atom Lite](/articles/eye-spy-passive-surveillance-detector-esp32-2026/)** | BLE- en WiFi-detector voor AirTags, Tile-trackers, bodycams en drones, als aanvulling op Flock-You binnen dezelfde hardwarefamilie. |
+| **[Rayhunter-apparaten flashen: complete handleiding](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | Stapsgewijze handleiding voor het flashen van Rayhunter-firmware om IMSI-catchers en Stingrays te detecteren, als aanvulling op ALPR-detectie |
+| **[DagShell Aangepaste Firmware voor de Orbic RCL400](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | Volledige handleiding voor het installeren van DagShell op de Orbic RCL400 voor geavanceerde mobiele netwerkmonitoring en detectie van IMSI-afluisterapparatuur |
 | **[Rayhunter Apparaatvergelijking 2026](/articles/rayhunter-device-comparison-2026-complete-review/)** | Zij-aan-zij vergelijking van apparaten ondersteund door Rayhunter om u te helpen de juiste hardware te kiezen voor uw contra-surveillance toolkit |
+
+Zoek je een hulpmiddel dat trackers actief verstoort in plaats van ze alleen te detecteren? [Simulacra](https://github.com/Em3ritus/simulacra) is een onafhankelijk open-sourceproject zonder banden met deze gids. Het verspreidt lokapparaten voor BLE en WiFi om het signaal van je echte apparaat te verbergen. Het lost een ander probleem op dan de apparaten in deze gids en is nuttig als passieve detectie niet volstaat voor je dreigingsmodel.
 
 ______
 
 ## Referenties
 
-1. [Flock-You GitHub Repository - colonelpanichacks](https://github.com/colonelpanichacks/flock-you)
-2. [Flock Finder - Interactieve ALPR Camerakaart](https://simeononsecurity.github.io/flock-finder/)
-3. [Flock Finder - GitHub Repository](https://github.com/simeononsecurity/flock-finder)
-4. [Colonel Panic Tech - Officiële Leverancier](https://colonelpanic.tech)
-5. [STS Collective - M5 Atom Lite Vooraf Geflasht](https://stscollective.com)
-4. [M5Stack Officiële Documentatie](https://docs.m5stack.com/en/core/atom_lite)
-5. [Espressif ESP32 Technische Documentatie](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
-6. [WiFi Promiscuous Modus Tutorial](https://esp32developer.com/wifi-promiscuous-mode)
-7. [DeFlockJoplin Gemeenschapsonderzoek](https://deflockjoplin.org/)
-8. [Electronic Frontier Foundation - ALPR](https://www.eff.org/issues/automated-license-plate-readers)
-9. [Arduino IDE Officiële Download](https://www.arduino.cc/en/software)
-10. [Platform.io Documentatie](https://docs.platformio.org/)
-11. [OUI Database - IEEE Standaarden](https://standards.ieee.org/products-programs/regauth/)
-12. [802.11 Frame Structuur Referentie](https://mrncciew.com/2014/10/08/802-11-mgmt-beacon-frame/)
+1. [Flock-You GitHub-repository - colonelpanichacks](https://github.com/colonelpanichacks/flock-you)
+2. [Flock Finder - interactieve kaart met ALPR-camera’s](https://simeononsecurity.github.io/flock-finder/)
+3. [Flock Finder - GitHub-repository](https://github.com/simeononsecurity/flock-finder)
+4. [Colonel Panic Tech - officiële leverancierssite](https://colonelpanic.tech)
+5. [STS Collective - M5 Atom Lite met vooraf geïnstalleerde firmware](https://stscollective.com)
+6. [Officiële documentatie voor M5Stack Atom Lite](https://docs.m5stack.com/en/core/ATOM%20Lite)
+7. [Espressif-documentatie voor de ESP32 WiFi-API](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_wifi.html)
+8. [Naslag voor 802.11-probeaanvragen en -antwoorden](https://mrncciew.com/2014/10/27/cwap-802-11-probe-requestresponse/)
+9. [DeFlock Joplin - gemeenschappelijk ALPR-onderzoek](https://deflockjoplin.today)
+10. [DeFlock - gezamenlijke ALPR-kaart en gegevens](https://deflock.me/)
+11. [Electronic Frontier Foundation - wat is ALPR?](https://www.eff.org/pages/what-alpr)
+12. [Officiële download van Arduino IDE](https://www.arduino.cc/en/software)
+13. [Platform.io-documentatie](https://docs.platformio.org/)
+14. [IEEE Registration Authority - groot MAC-adresblok (OUI)](https://standards.ieee.org/products-programs/regauth/oui/)
+15. [Naslag voor de structuur van 802.11-beaconframes](https://mrncciew.com/2014/10/08/802-11-mgmt-beacon-frame/)

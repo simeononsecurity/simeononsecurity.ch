@@ -1,15 +1,15 @@
 ---
-title: "Flock-You Detection: Guida alla Configurazione del Contro-Sorveglianza"
+title: "Rilevamento Flock-You: guida alla configurazione di hardware anti-sorveglianza"
 date: 2026-05-24
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Guida tecnica completa al progetto open-source Flock-You per il rilevamento delle telecamere ALPR di Flock Safety tramite hardware basato su ESP32. Include istruzioni di configurazione, dettagli firmware e opzioni di acquisto."
-genre: ["Hardware di Sicurezza", "Contro Sorveglianza", "Tecnologia per la Privacy", "Progetti Open Source", "Sviluppo ESP32", "Monitoraggio WiFi", "Strumenti per la Privacy", "Diritti Digitali", "Hardware Hacking", "Sicurezza di Rete"]
-tags: ["Flock-You Project", "ALPR Detection", "ESP32-S3", "WiFi OUI Detection", "Counter Surveillance Hardware", "Flock Safety Detection", "Open Source Security", "Privacy Hardware", "M5 Atom Lite", "OUI-SPY", "mesh-detect v2", "Promiscuous Mode WiFi", "802.11 Monitoring", "Colonel Panic Tech", "STS Collective", "Privacy Devices", "Surveillance Detection", "WiFi Scanning", "GitHub Project", "colonelpanichacks", "ESP32 Firmware", "Hardware Setup Guide", "DIY Privacy Tools", "Network Monitoring", "OUI Database", "Wildcard Probe Detection", "Frame Analysis", "ALPR Camera Detection", "Privacy Technology", "Detection Hardware", "Arduino ESP32", "Platform.io", "Embedded Systems", "RF Detection", "Signal Processing", "Privacy Engineering", "Counter Technology", "Security Research", "Privacy Advocacy", "Open Hardware", "Privacy Defense", "Detection Firmware", "Mobile Detection", "Privacy Projects", "Hardware Comparison"]
+genre: ["Hardware di Sicurezza", "Contro Sorveglianza", "Tecnologia per la Privacy", "Progetti Open Source", "Sviluppo ESP32", "Monitoraggio WiFi", "Strumenti per la Privacy", "Diritti Digitali", "Hacking dell’hardware", "Sicurezza di Rete"]
+tags: ["Progetto Flock-You", "Rilevamento ALPR", "ESP32-S3", "Rilevamento OUI WiFi", "Hardware per la contro-sorveglianza", "Rilevamento Flock Safety", "Sicurezza open source", "Hardware per la privacy", "M5 Atom Lite", "OUI-SPY", "mesh-detect v2", "Modalità promiscua WiFi", "Monitoraggio 802.11", "Colonel Panic Tech", "STS Collective", "Dispositivi per la privacy", "Rilevamento della sorveglianza", "Scansione WiFi", "Progetto GitHub", "colonelpanichacks", "Firmware ESP32", "Guida alla configurazione hardware", "Strumenti fai-da-te per la privacy", "Monitoraggio della rete", "Database OUI", "Rilevamento delle richieste probe wildcard", "Analisi dei frame", "Rilevamento delle telecamere ALPR", "Tecnologia per la privacy", "Hardware di rilevamento", "Arduino ESP32", "Platform.io", "Sistemi embedded", "Rilevamento RF", "Elaborazione del segnale", "Ingegneria della privacy", "Tecnologia di contrasto", "Ricerca sulla sicurezza", "Attivismo per la privacy", "Hardware aperto", "Difesa della privacy", "Firmware di rilevamento", "Rilevamento mobile", "Progetti per la privacy", "Confronto hardware"]
 cover: "/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp"
 coverAlt: "Un'illustrazione che mostra un dispositivo basato su ESP32 in primo piano che scansiona segnali WiFi. Onde colorate rappresentano diverse intensità di segnale su uno sfondo scuro."
-coverCaption: "Soluzioni hardware open-source per il rilevamento delle telecamere di sorveglianza ALPR"
+coverCaption: "Soluzioni hardware a codice sorgente aperto per rilevare le telecamere di sorveglianza ALPR"
 canonical: "https://simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/"
 ---
 
@@ -19,11 +19,27 @@ canonical: "https://simeononsecurity.com/articles/flock-you-detection-project-co
 
 Il **progetto Flock-You** è un'**iniziativa open-source guidata dalla comunità** per rilevare e mappare l'infrastruttura di sorveglianza ALPR di Flock Safety. Ospitato su GitHub all'indirizzo **colonelpanichacks/flock-you**, questo progetto utilizza hardware economico basato su ESP32 per identificare le telecamere Flock attraverso le loro **firme di rete WiFi**.
 
+**Flock-You rileva solo le telecamere Flock Safety tramite Wi-Fi.** Non rileva simulatori di celle telefoniche come Stingray né tracker personali che si muovono con te. Per questi casi, consulta **[Come installare Rayhunter sui dispositivi: guida completa](/articles/how-to-flash-rayhunter-devices-complete-guide/)** per rilevare i captatori IMSI e **[Eye Spy: rilevatore passivo di sorveglianza e tracker con ESP32](/articles/eye-spy-passive-surveillance-detector-esp32-2026/)** per rilevare AirTag e tracker. Tutti e tre funzionano sulla stessa famiglia economica di hardware ESP32.
+
 Questa guida completa copre tutto, dalla **metodologia tecnica** dietro il rilevamento Flock alle **istruzioni di configurazione passo dopo passo** per tre piattaforme hardware, **installazione del firmware** e **informazioni sull'acquisto da rivenditori autorizzati**. Che tu sia un sostenitore della privacy, un ricercatore di sicurezza o un cittadino preoccupato, questa guida ti consentirà di costruire o acquistare il tuo dispositivo di rilevamento.
 
-Per il contesto su perché questa tecnologia è importante e il panorama più ampio della sorveglianza, leggi il nostro articolo correlato: **[Sorveglianza con Telecamere Flock Safety: Prevalenza, Preoccupazioni per la Privacy e Strategie di Protezione](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)**.
+
+*L'hardware Flock Safety è distribuito quasi interamente negli Stati Uniti, con una presenza minore in Canada. Fuori dal Nord America, l'elenco OUI e le firme delle richieste di sonda riportati sotto non corrisponderanno a dispositivi nelle vicinanze. L'hardware resta utile per la ricerca, ma non rileverà infrastrutture che lì non esistono.*
+
+Per il contesto su perché questa tecnologia è importante e il panorama più ampio della sorveglianza, leggi il nostro articolo correlato: **[Sorveglianza con Telecamere Flock Safety: Privacy e Protezione](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)**.
 
 Vuoi vedere dove le telecamere Flock sono già state mappate? **[Flock Finder](https://simeononsecurity.github.io/flock-finder/)** è uno strumento open-source che traccia oltre 40.000 telecamere Flock Safety sospette in tutto il mondo utilizzando i dati WiFi WiGLE e il fingerprinting OUI — aggiornato quotidianamente. Sorgente su **[GitHub](https://github.com/simeononsecurity/flock-finder)**.
+
+### In breve: tre piattaforme
+
+*Le specifiche complete, i pro e i contro di ogni piattaforma sono riportati sotto. Vai alle [istruzioni di configurazione](#istruzioni-di-configurazione-passo-dopo-passo) se sai già quale vuoi.*
+
+
+| Piattaforma | Prezzo | Configurazione | Ideale per |
+|---|---|---|---|
+| **DIY ESP32** | 5–12 $ | Breadboard senza saldature, 10–15 min | Progetti economici e apprendimento del funzionamento del rilevamento |
+| **M5 Atom Lite** (preflashato) | 49,99 $ | Collega e usa, senza configurazione | Uso immediato senza assemblaggio fai-da-te |
+| **OUI-SPY** | 85 $ | Flash una volta e scegli la modalità dal menu Wi-Fi | Rilevamento multimodale (ALPR, droni e BLE) |
 
 ______
 
@@ -113,9 +129,14 @@ La metodologia Flock-You raggiunge un'elevata precisione:
 
 ______
 
+{{< figure src="flockyou-oui-detection-methodology-overview.webp" alt="Diagramma di rilevamento Flock-You: ESP32 in modalità Wi-Fi promiscua confronta i MAC con OUI noti, controlla probe wildcard e valuta RSSI" >}}
+
+{{< stscollective-ad "flockyou" >}}
+
 ## Confronto delle Piattaforme Hardware
 
 Sono disponibili tre piattaforme principali per il rilevamento Flock-You, ciascuna con vantaggi distinti:
+*Tutte e tre le piattaforme usano lo stesso metodo di rilevamento di base: scansione passiva in modalità promiscua WiFi per cercare gli OUI noti delle telecamere Flock e le firme delle richieste di sonda wildcard. Nessuna rileva il Bluetooth. Il firmware Flock-You ha abbandonato il supporto al rilevamento BLE nella primavera del 2026, dopo che ha smesso di funzionare in modo affidabile. Perciò tutte le piattaforme qui descritte usano solo WiFi.*
 
 ### Tabella Panoramica delle Piattaforme
 
@@ -133,18 +154,18 @@ Sono disponibili tre piattaforme principali per il rilevamento Flock-You, ciascu
 | **Custodia** | Stampa 3D o nessuna | Modulo plastico compatto | Nessuna (PCB nudo) |
 | **Firmware** | Flash manuale | FlockYou precaricato | Multi-modo (4 firmware) |
 | **Ideale Per** | Appassionati DIY, apprendimento | Soluzione economica pronta | Rilevamento multiuso |
-| **Difficoltà di Configurazione** | Medio-Avanzato | Plug-and-play | Plug-and-play |
+| **Difficoltà di Configurazione** | Medio-Avanzato | Nessuna configurazione | Nessuna configurazione |
 | **Peso** | 20-50g (variabile) | 18g (nudo) | ~40g |
 | **Dimensioni** | Variabile | 24×24×14mm | Scheda PCB |
 
 ### Analisi Dettagliata delle Piattaforme
 
-#### 1. Build DIY ESP32 ($5-12)
+#### 1. Assemblaggio fai-da-te con ESP32 ($5-12)
 
 **Panoramica**: L'opzione più economica che utilizza schede di sviluppo ESP32 standard con firmware open-source.
 
 **Specifiche Hardware**:
-- **Microcontrollore**: ESP32-WROOM-32 o simile (dual-core, 240MHz)
+- **Microcontrollore**: ESP32-WROOM-32 o simile (con due core, 240 MHz)
 - **WiFi**: 802.11 b/g/n, modalità promiscua abilitata
 - **Memoria**: 520KB SRAM, 4MB+ Flash
 - **Display**: Opzionale (LED integrato sufficiente)
@@ -158,7 +179,7 @@ Sono disponibili tre piattaforme principali per il rilevamento Flock-You, ciascu
 - Melodia di avvio di Super Mario Bros. (conferma funzionamento buzzer)
 - Due bip crescenti rapidi al nuovo rilevamento
 - Bip heartbeat ogni 10 secondi durante il tracciamento attivo
-- Supporto dashboard Flask per wardriving GPS
+- Supporto dashboard Flask per ricognizione delle reti Wi-Fi con GPS durante gli spostamenti
 - Esportazione in formato JSON, CSV, KML
 
 **Opzioni di Build**:
@@ -196,12 +217,14 @@ Sono disponibili tre piattaforme principali per il rilevamento Flock-You, ciascu
 
 ---
 
+{{< figure src="flockyou-diy-esp32-solderless-breadboard-build.webp" alt="Montaggio Flock-You con ESP32 su breadboard senza saldature, DevKit, buzzer passivo e fili ai GPIO 25, 2 e 17" >}}
+
 #### 2. M5 Atom Lite Pre-Flashato da STS Collective ($39,99)
 
 **Panoramica**: Dispositivo di rilevamento compatto pre-flashato, pronto all'uso fuori dalla scatola.
 
 **Specifiche Hardware**:
-- **Microcontrollore**: ESP32-PICO-D4 (dual-core, 240MHz)
+- **Microcontrollore**: ESP32-PICO-D4 (con due core, 240 MHz)
 - **WiFi**: 802.11 b/g/n, modalità promiscua abilitata
 - **Memoria**: 520KB SRAM, 4MB Flash
 - **Display**: Matrice LED RGB 5×5 (WS2812C NeoPixel)
@@ -218,7 +241,7 @@ Sono disponibili tre piattaforme principali per il rilevamento Flock-You, ciascu
 - Avviso LED blu al rilevamento di telecamere Flock
 - Basato sulla ricerca FlockYou di colonelpanichacks
 - Nessuna configurazione o flash richiesta
-- Operazione semplice plug-and-play
+- Funzionamento semplice senza configurazioni complesse
 - Supporto dashboard opzionale
 
 **Vantaggi**:
@@ -246,12 +269,14 @@ Sono disponibili tre piattaforme principali per il rilevamento Flock-You, ciascu
 
 ---
 
+{{< figure src="flockyou-m5-atom-lite-pocket-size-comparison.webp" alt="M5 Atom Lite preflashato tra due dita, che mostra dimensioni compatte e LED RGB blu di rilevamento" >}}
+
 #### 3. OUI-SPY di Colonel Panic Tech ($85)
 
 **Panoramica**: Scheda di rilevamento sorveglianza multi-modo con quattro diverse modalità firmware selezionabili tramite menu WiFi.
 
 **Specifiche Hardware**:
-- **Microcontrollore**: ESP32-S3 dual-core Xtensa LX7, 8MB flash
+- **Microcontrollore**: ESP32-S3 con due core Xtensa LX7, 8 MB di flash
 - **WiFi**: 802.11 b/g/n, modalità promiscua abilitata
 - **Memoria**: 8MB Flash
 - **Display**: Nessuno (PCB nudo con indicatori LED)
@@ -267,7 +292,7 @@ Sono disponibili tre piattaforme principali per il rilevamento Flock-You, ciascu
 **Firmware**: OUI-SPY Unified Blue con **4 modalità selezionabili**:
 1. **Modalità Detector**: Scanner BLE multi-target con filtro OUI + portale di configurazione web
 2. **Modalità Foxhunter**: Tracker di prossimità RSSI a singolo target per il radiogoniometro
-3. **Modalità Flock-You**: Rilevamento telecamere Flock Safety e Raven con wardriving GPS, esportazione JSON/CSV/KML
+3. **Modalità Flock-You**: Rilevamento telecamere Flock Safety e Raven con ricognizione delle reti Wi-Fi con GPS durante gli spostamenti, esportazione JSON/CSV/KML
 4. **Modalità Sky Spy**: Rilevatore RemoteID droni (OpenDroneID / ASTM F3411) con tracciamento multi-drone
 
 **Selezione Modalità**:
@@ -283,7 +308,6 @@ Sono disponibili tre piattaforme principali per il rilevamento Flock-You, ciascu
 - ✅ Buzzer integrato con melodie di avvio personalizzate
 - ✅ Design PCB di livello professionale
 - ✅ Multiuso: ALPR, droni, BLE, radiogoniometro
-- ✅ Supporto antenna esterna per portata estesa
 - ✅ Dal creatore originale del progetto Flock-You
 - ✅ Sviluppo attivo e aggiornamenti
 
@@ -293,18 +317,19 @@ Sono disponibili tre piattaforme principali per il rilevamento Flock-You, ciascu
 - ❌ Nessuna batteria integrata
 - ❌ Nessun display (solo feedback audio per la maggior parte delle modalità)
 - ❌ *Complessità non necessaria per il rilevamento di base*
-- ❌ GPS esterno richiesto per le funzioni di wardriving
+- ❌ GPS esterno richiesto per le funzioni di ricognizione delle reti Wi-Fi durante gli spostamenti
 
 **Ideale Per**: Rilevamento sorveglianza multiuso, utenti che desiderano rilevamento droni + ALPR + BLE in un unico dispositivo, applicazioni di radiogoniometro, chi valorizza le antenne commutabili e le funzionalità avanzate.
 
 **Acquisto**: [colonelpanic.tech](https://colonelpanic.tech/products/oui-spy)
 
-
 ______
+
+{{< figure src="flockyou-oui-spy-multimode-board-pcb.webp" alt="Scheda nuda OUI-SPY ESP32-S3 con antenna, buzzer e pulsante di avvio; uno schermo mostra il menu Wi-Fi a quattro modalità" >}}
 
 ## Istruzioni di Configurazione Passo dopo Passo
 
-### Guida alla Configurazione 1: Build DIY ESP32
+### Guida alla configurazione 1: assemblaggio fai-da-te con ESP32
 
 **Per istruzioni complete e dettagliate**, visita il repository GitHub: [github.com/simeononsecurity/flock-you-esp32](https://github.com/simeononsecurity/flock-you-esp32)
 
@@ -346,7 +371,7 @@ ______
    - **Heartbeat**: Due bip ogni 10 secondi durante il tracciamento
    - **LED**: Lampeggia ad ogni rilevamento
 
-6. **Wardriving GPS** (opzionale):
+6. **Ricognizione delle reti Wi-Fi con GPS durante gli spostamenti** (opzionale):
    - Collega al computer tramite USB
    - Esegui dashboard Flask: `cd api && python flockyou.py`
    - Apri http://localhost:5000
@@ -431,7 +456,6 @@ ______
    - Per impostazione predefinita: Utilizza l'antenna ceramica integrata
    - Collega l'antenna MMCX al connettore MMCX
    - Il firmware passa automaticamente all'antenna esterna
-   - Usa un'antenna direzionale/Yagi per il rilevamento a lungo raggio
 
 #### Montaggio
 
@@ -446,7 +470,7 @@ ______
 
 #### Esportazione Dati (Modalità Flock-You)
 
-8. **Wardriving GPS**:
+8. **Ricognizione delle reti Wi-Fi con GPS durante gli spostamenti**:
    - Collega modulo GPS esterno (non incluso)
    - Il dispositivo registra i rilevamenti con le coordinate
    - Scarica i file dati tramite l'interfaccia web
@@ -455,8 +479,6 @@ ______
 **Nota**: Consulta colonelpanic.tech per aggiornamenti firmware e documentazione specifici per OUI-SPY Unified Blue.
 
 ---
-
-
 
 ______
 
@@ -540,8 +562,8 @@ ______
 | Dispositivo | Prezzo Base | Add-on Opzionali | Investimento Totale | Tempo di Configurazione |
 |--------|------------|------------------|------------------|------------|
 | **DIY ESP32** | $5-12 | Custodia 3D, batteria | $5-20 | 15-30 min |
-| **M5 Atom Lite** | $39,99 | Power bank $10 | $40-50 | Plug-and-play |
-| **OUI-SPY** | $85 | Antenna esterna $20, custodia | $85-115 | Plug-and-play |
+| **M5 Atom Lite** | $39,99 | Power bank $10 | $40-50 | Pronto all’uso |
+| **OUI-SPY** | $85 | Antenna esterna $20, custodia | $85-115 | Pronto all’uso |
 
 ______
 
@@ -595,6 +617,9 @@ ______
 - Dati per le richieste di documenti pubblici
 - Consapevolezza per le decisioni personali sulla privacy
 
+*La velocità a piedi conta più di quanto molti si aspettino. Il firmware cambia canale WiFi circa ogni 250 ms per stare al passo con la frequenza con cui la telecamera stessa cambia canale. Camminando o pedalando velocemente si può superare la finestra di rilevamento prima che coincida un cambio di canale. Se durante un sopralluogo a piedi i rilevamenti sono irregolari, rallenta agli incroci invece di provare subito un’antenna con guadagno maggiore. Un’antenna standard con una sosta di 30–60 secondi in ogni punto rileva molte più telecamere di un’antenna ad alto guadagno usata passando rapidamente.*
+
+
 ### Scenario 3: Valutazione della Privacy durante i Viaggi
 
 **Obiettivo**: Comprendere l'esposizione alla sorveglianza durante gli spostamenti.
@@ -629,6 +654,8 @@ ______
 - Correla con le statistiche sulla criminalità (o la loro assenza)
 
 ______
+
+{{< figure src="flockyou-detection-device-driving-scenario.webp" alt="Un conducente guarda il rilevatore FlockYou nel portabicchieri, il cui LED segnala una telecamera Flock vicina" >}}
 
 ## Analisi Tecnica Dettagliata: Comprensione del Codice
 
@@ -710,6 +737,7 @@ bool is_wildcard_probe_request(wifi_promiscuous_pkt_t *pkt) {
 ______
 
 ## Risoluzione dei Problemi Comuni
+{{< figure src="flockyou-troubleshooting-firmware-flash-flowchart.webp" alt="Diagramma per risolvere problemi di flash del firmware FlockYou e rilevamento, dall’alimentazione ai falsi positivi OUI" >}}
 
 ### Problema: Nessun Rilevamento Nonostante una Telecamera Nota nelle Vicinanze
 
@@ -717,7 +745,8 @@ ______
 1. **Telecamera offline/spenta**: Le telecamere Flock sono temporaneamente inattive a volte
 2. **Segnale bloccato**: I materiali da costruzione assorbono il WiFi (metallo, cemento)
 3. **Fuori portata**: Portata effettiva ~30-90 metri a seconda degli ostacoli
-4. **Problema firmware**: Il firmware obsoleto manca delle varianti OUI più recenti
+4. **Muoversi troppo velocemente**: i cambi di canale favoriscono una camminata lenta o una sosta completa, non il passo svelto o la velocità di un veicolo
+5. **Problema firmware**: Il firmware obsoleto manca delle varianti OUI più recenti
 
 **Soluzioni**:
 - Conferma che la telecamera sia visibile e sembri operativa (pannelli solari, luci)
@@ -884,27 +913,31 @@ ______
 
 Il **progetto di rilevamento Flock-You** rappresenta una potente democratizzazione della tecnologia di contro-sorveglianza. Per meno del costo di un abbonamento mensile in streaming, gli individui acquisiscono consapevolezza dell'infrastruttura di sorveglianza che li circonda. Che tu scelga la **build DIY ESP32 ($5-12)**, il **M5 Atom Lite pronto all'uso ($40)** o il **multi-modo OUI-SPY ($85)**, stai investendo nella consapevolezza della privacy e nell'autonomia digitale.
 
+
+*Ricorda cosa copre questo hardware e cosa no: rileva le telecamere Flock tramite WiFi. Non rileva Stingray né tracker personali che si spostano con te. Se ti serve una copertura più ampia, abbinalo a Rayhunter ed Eye Spy, collegati qui sotto.*
+
 ### Punti Principali
 
-✅ **Empowerment open-source**: Lo sviluppo guidato dalla comunità garantisce l'accessibilità
-✅ **Tecnologia accessibile**: L'hardware consumer (ESP32) rende il rilevamento accessibile
-✅ **Piattaforme multiple**: Opzioni per diversi budget e livelli di competenza tecnica
-✅ **Sviluppo attivo**: Aggiornamenti regolari con nuove firme OUI e funzionalità
-✅ **Legale ed etico**: Il monitoraggio passivo è conforme alle leggi sulle comunicazioni
-✅ **Beneficio comunitario**: Contribuisce alla consapevolezza pubblica e alla discussione politica
+- **Open source e modificabile gratuitamente**: lo sviluppo della comunità mantiene aggiornati l’elenco OUI e il firmware
+- **Hardware accessibile**: un ESP32 nudo costa $5–12; ogni livello superiore aggiunge comodità, non nuove capacità di rilevamento
+- **Solo monitoraggio passivo**: il dispositivo riceve frame Wi-Fi trasmessi pubblicamente e non trasmette nulla
+- **Aggiornamenti regolari**: nuove firme OUI e ricerche sulle probe wildcard vengono integrate quando cambia l’hardware Flock
+- **Verificato sul campo**: la comunità DeFlockJoplin ha rilevato 11 delle 12 telecamere note in una prova reale in auto
 
 ### Prossimi Passi
 
-1. **Scopri di più** sul perché il rilevamento è importante: [Sorveglianza con Telecamere Flock Safety: Prevalenza e Preoccupazioni per la Privacy](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)
-2. **Scegli la tua piattaforma**: Decidi quale dispositivo si adatta alle tue esigenze e al tuo budget
-3. **Ordina hardware**: Acquista da rivenditori autorizzati
-4. **Configura e imposta**: Segui le guide dettagliate in questo articolo
-5. **Unisciti alla comunità**: Interagisci con altri utenti, condividi i risultati, contribuisci ai miglioramenti
-6. **Agisci**: Usa i tuoi dati per advocacy, consapevolezza e decisioni informate
+1. **Leggi il contesto**: [Sorveglianza con Telecamere Flock Safety: Privacy e Protezione](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)
+2. **Scegli la piattaforma**: abbina DIY ESP32, M5 Atom Lite o OUI-SPY al tuo budget e alle tue competenze
+3. **Ordina l’hardware**: acquistalo da un rivenditore autorizzato elencato sopra
+4. **Installa e configura**: segui la guida per la piattaforma scelta
+5. **Unisciti alla comunità**: condividi i risultati e contribuisci con rilevamenti al progetto
+6. **Copri i limiti del dispositivo**: abbinalo a [Come installare Rayhunter sui dispositivi: guida completa](/articles/how-to-flash-rayhunter-devices-complete-guide/) per rilevare i captatori IMSI e a [Eye Spy: rilevatore passivo di sorveglianza e tracker con ESP32](/articles/eye-spy-passive-surveillance-detector-esp32-2026/) per AirTag e altri tracker
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  Acquista dispositivi FlockYou pronti all’uso e risparmia il 20%
+{{< /centerbutton >}}
 
 La proliferazione della sorveglianza ALPR rappresenta un cambiamento significativo nelle dinamiche della privacy. Le tecnologie di contro-sorveglianza come Flock-You offrono una capacità cruciale: **consapevolezza**. Quando comprendiamo l'ambito e la scala della sorveglianza, prendiamo decisioni informate sui nostri movimenti, la nostra advocacy e le nostre aspettative di privacy negli spazi pubblici.
-
-**La tecnologia ha abilitato la sorveglianza pervasiva. La tecnologia aiuta anche chi valorizza la privacy.** Il progetto Flock-You è una testimonianza del potere della collaborazione open-source nella protezione delle libertà civili.
 
 ______
 
@@ -912,27 +945,31 @@ ______
 
 | Articolo | Descrizione |
 |---------|-------------|
-| **[Sorveglianza con Telecamere Flock Safety: Prevalenza, Preoccupazioni per la Privacy e Strategie di Protezione](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)** | La guida definitiva alla rete ALPR di Flock Safety, abusi documentati, risorse per l'organizzazione della comunità e cosa puoi fare per proteggerti |
-| **[Flock Finder: Mappa Ogni Telecamera Flock Safety Sospetta Vicino a Te](/articles/flock-finder-alpr-surveillance-mapping-tool/)** | Come usare lo strumento open-source Flock Finder per visualizzare oltre 40.000 telecamere Flock sospette in tutto il mondo usando dati WiGLE e fingerprinting OUI |
-| **[Come Flashare Rayhunter sui Dispositivi di Rilevamento IMSI Catcher](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | Guida passo dopo passo per flashare il firmware Rayhunter per rilevare IMSI catcher e stingray — complementa il rilevamento ALPR |
-| **[Firmware Personalizzato DagShell per Orbic RCL400](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | Guida completa all'installazione di DagShell su Orbic RCL400 per il monitoraggio avanzato della rete cellulare e il rilevamento IMSI catcher |
+| **[Sorveglianza con Telecamere Flock Safety: Privacy e Protezione](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)** | La guida definitiva alla rete ALPR di Flock Safety, abusi documentati, risorse per l'organizzazione della comunità e cosa puoi fare per proteggerti |
+| **[Flock Finder: Mappa delle telecamere ALPR di Flock Safety](/articles/flock-finder-alpr-surveillance-mapping-tool/)** | Come usare lo strumento open-source Flock Finder per visualizzare oltre 40.000 telecamere Flock sospette in tutto il mondo usando dati WiGLE e fingerprinting OUI |
+| **[Eye Spy: rilevatore passivo di sorveglianza e tracker con ESP32](/articles/eye-spy-passive-surveillance-detector-esp32-2026/)** | Rilevatore BLE e WiFi che copre ciò che Flock-You non rileva: AirTag, tracker Tile, bodycam e droni sulla stessa famiglia di hardware |
+| **[Come installare Rayhunter sui dispositivi: guida completa](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | Guida passo dopo passo per flashare il firmware Rayhunter per rilevare captatore IMSI e stingray — complementa il rilevamento ALPR |
+| **[Firmware personalizzato DagShell per Orbic RCL400: guida 2026](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | Guida completa all'installazione di DagShell su Orbic RCL400 per il monitoraggio avanzato della rete cellulare e il rilevamento captatore IMSI |
 | **[Confronto Dispositivi Rayhunter 2026](/articles/rayhunter-device-comparison-2026-complete-review/)** | Confronto fianco a fianco dei dispositivi supportati da Rayhunter per aiutarti a scegliere l'hardware giusto per il tuo kit di contro-sorveglianza |
+
+Cerchi uno strumento che contrasti attivamente i tracker invece di limitarsi a rilevarli? [Simulacra](https://github.com/Em3ritus/simulacra) è un progetto open source indipendente e non affiliato che diffonde dispositivi BLE e Wi-Fi esca per nascondere il segnale del dispositivo reale. Risolve un problema diverso dai dispositivi di questa guida e può essere utile se il rilevamento passivo non basta per il tuo modello di minaccia.
 
 ______
 
 ## Riferimenti
 
-1. [Flock-You GitHub Repository - colonelpanichacks](https://github.com/colonelpanichacks/flock-you)
-2. [Flock Finder - Interactive ALPR Camera Map](https://simeononsecurity.github.io/flock-finder/)
-3. [Flock Finder - GitHub Repository](https://github.com/simeononsecurity/flock-finder)
-4. [Colonel Panic Tech - Official Vendor](https://colonelpanic.tech)
-5. [STS Collective - M5 Atom Lite Pre-Flashed](https://stscollective.com)
-4. [M5Stack Official Documentation](https://docs.m5stack.com/en/core/atom_lite)
-5. [Espressif ESP32 Technical Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
-6. [WiFi Promiscuous Mode Tutorial](https://esp32developer.com/wifi-promiscuous-mode)
-7. [DeFlockJoplin Community Research](https://deflockjoplin.org/)
-8. [Electronic Frontier Foundation - ALPR](https://www.eff.org/issues/automated-license-plate-readers)
-9. [Arduino IDE Official Download](https://www.arduino.cc/en/software)
-10. [Platform.io Documentation](https://docs.platformio.org/)
-11. [OUI Database - IEEE Standards](https://standards.ieee.org/products-programs/regauth/)
-12. [802.11 Frame Structure Reference](https://mrncciew.com/2014/10/08/802-11-mgmt-beacon-frame/)
+1. [Repository GitHub di Flock-You - colonelpanichacks](https://github.com/colonelpanichacks/flock-you)
+2. [Flock Finder - mappa interattiva delle telecamere ALPR](https://simeononsecurity.github.io/flock-finder/)
+3. [Repository GitHub di Flock Finder](https://github.com/simeononsecurity/flock-finder)
+4. [Colonel Panic Tech - sito ufficiale del fornitore](https://colonelpanic.tech)
+5. [STS Collective - M5 Atom Lite con firmware preinstallato](https://stscollective.com)
+6. [Documentazione ufficiale M5Stack Atom Lite](https://docs.m5stack.com/en/core/ATOM%20Lite)
+7. [Documentazione API WiFi ESP32 di Espressif](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_wifi.html)
+8. [Riferimento alle richieste e risposte Probe 802.11](https://mrncciew.com/2014/10/27/cwap-802-11-probe-requestresponse/)
+9. [DeFlock Joplin - ricerca comunitaria su ALPR](https://deflockjoplin.today)
+10. [DeFlock - mappa e dati ALPR collaborativi](https://deflock.me/)
+11. [Electronic Frontier Foundation - cos’è ALPR?](https://www.eff.org/pages/what-alpr)
+12. [Download ufficiale di Arduino IDE](https://www.arduino.cc/en/software)
+13. [Documentazione Platform.io](https://docs.platformio.org/)
+14. [IEEE Registration Authority - blocco grande di indirizzi MAC (OUI)](https://standards.ieee.org/products-programs/regauth/oui/)
+15. [Riferimento alla struttura dei frame Beacon 802.11](https://mrncciew.com/2014/10/08/802-11-mgmt-beacon-frame/)
