@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ICANN on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>ICANN on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/icann/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/icann/</link>
+
+    <description>Recent content in ICANN on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 20 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/icann/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как работает DNS: корневая зона DNS, ее значение и устранение неполадок</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-does-dns-work/</link>
+        
+        <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Основы DNS"
+            
+              , "Корневая зона DNS"
+            
+              , "Система доменных имен"
+            
+              , "Разрешение DNS"
+            
+              , "Иерархия DNS"
+            
+              , "Кеширование DNS"
+            
+              , "Диагностика DNS"
+            
+              , "Записи DNS"
+            
+              , "Управление DNS"
+            
+              , "Команды DNS"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-does-dns-work/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как работают DNS и корневая зона DNS, как устроены их иерархия, разрешение имен и кеширование, а также как диагностировать проблемы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_image_depicting_interconnected_computer_ne.webp" length="167680" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

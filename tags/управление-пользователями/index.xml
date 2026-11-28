@@ -1,0 +1,407 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Управление Пользователями on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Управление Пользователями on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%D0%BC%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%D0%BC%D0%B8/</link>
+
+    <description>Recent content in Управление Пользователями on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 14 Oct 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%D0%BC%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита Active Directory</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/active-directory-security-best-practices/</link>
+        
+        <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Управление сетью"
+            
+              , "Информационные технологии"
+            
+              , "Защита данных"
+            
+              , "Корпоративная безопасность"
+            
+              , "Цифровая инфраструктура"
+            
+              , "Контроль доступа"
+            
+              , "Аутентификация пользователей"
+            
+              , "Рекомендации по IT"
+            
+              , "Осведомленность о безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/active-directory-security-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить Active Directory, сохранить данные и предотвратить вторжения в сетевую инфраструктуру.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Топ-5 техник безопасности и укрепления Linux</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link>
+        
+        <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Linux"
+            
+              , "Безопасность системы"
+            
+              , "Открытый исходный код"
+            
+              , "Укрепление"
+            
+              , "ИТ"
+            
+              , "Защита данных"
+            
+              , "Сетевая безопасность"
+            
+              , "Информатика"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя топ-5 техник безопасности Linux, чтобы укрепить вашу систему против угроз. Повышайте целостность системы и защищайте конфиденциальные данные с помощью экспертных мер по укреплению.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как провести аудит разрешений для vCenter с помощью PowerCLI</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link>
+        
+        <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Аудит разрешений vCenter"
+            
+              , "Автоматизация PowerCLI"
+            
+              , "Безопасность VMware"
+            
+              , "Управление виртуальной инфраструктурой"
+            
+              , "Разрешительные задания"
+            
+              , "Управление доступом пользователей"
+            
+              , "Уязвимые места в системе безопасности"
+            
+              , "Автоматизация с помощью PowerShell"
+            
+              , "Управление средой vSphere"
+            
+              , "Анализ прав доступа пользователей"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как с помощью PowerCLI эффективно проводить аудит разрешений для vCenter, обеспечивая безопасность виртуальной инфраструктуры.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/audit-permissions-vcenter-powercli.webp" length="171996" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Права доступа к файлам в Linux: полное руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-linux-file-permissions/</link>
+        
+        <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "права доступа к файлам Linux"
+            
+              , "защищённая файловая система"
+            
+              , "контроль доступа"
+            
+              , "владение"
+            
+              , "руководство по правам файлов"
+            
+              , "безопасность Linux"
+            
+              , "безопасность файловой системы"
+            
+              , "команда chmod"
+            
+              , "команда chown"
+            
+              , "аудит прав доступа"
+            
+              , "принцип минимальных привилегий"
+            
+              , "соответствие нормативам"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "аудит разрешений файлов"
+            
+              , "документирование правил"
+            
+              , "безопасность системы"
+            
+              , "безопасность сети"
+            
+              , "шифрование"
+            
+              , "управление пользователями"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-linux-file-permissions/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как управлять правами доступа к файлам в Linux, контролировать владельцев и применять рекомендации для защиты файловой системы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp" length="115180" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сценарии PowerShell</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Программирование"
+            
+              , "Автоматизация"
+            
+              , "Windows"
+            
+              , "Сценарии"
+            
+              , "ИТ"
+            
+              , "Административные задачи"
+            
+              , "Управление компьютерами"
+            
+              , "Разработка программного обеспечения"
+            
+              , "Написание кода"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите основы сценариев PowerShell и автоматизируйте задачи с помощью этого пошагового руководства для начинающих: в нем рассматриваются командлеты, циклы, функции и многое другое.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.webp" length="52314" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

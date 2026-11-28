@@ -1,0 +1,387 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Сетевые Решения on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Сетевые Решения on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F/</link>
+
+    <description>Recent content in Сетевые Решения on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Виртуализация: эффективность и масштабируемость ИТ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</link>
+        
+        <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Руководство по виртуализации"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Технологические инновации"
+            
+              , "Облачные вычисления"
+            
+              , "Управление центрами обработки данных"
+            
+              , "Эффективность вычислений"
+            
+              , "Сетевые решения"
+            
+              , "Кибербезопасность"
+            
+              , "Развитие программного обеспечения"
+            
+              , "Оптимизация оборудования"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите виртуализацию, чтобы повысить производительность ИТ. Узнайте о ее видах, преимуществах и рекомендациях по управлению инфраструктурой.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/understanding-virtualization_-concepts-and-applications.webp" length="103918" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизация сети: проектирование и топологии</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</link>
+        
+        <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сетевая инженерия"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Технологические руководства"
+            
+              , "Сетевые решения"
+            
+              , "Кибербезопасность"
+            
+              , "Информатика"
+            
+              , "Технологическое образование"
+            
+              , "Архитектура систем"
+            
+              , "Оптимизация сетей"
+            
+              , "Технологические инновации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите проекты и топологии сетей и оцените, какие решения обеспечивают максимальную эффективность.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/decoding-network-designs_-types-and-topologies-explained.webp" length="121144" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubiquiti UniFi Express: обзор компактного шлюза с точкой доступа WiFi 6</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/exploring-unifi-express-all-in-one-network-gateway/</link>
+        
+        <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Обзоры техники"
+            
+              , "Сетевые решения"
+            
+              , "Настройка домашней сети"
+            
+              , "Устройства WiFi 6"
+            
+              , "Обзор UniFi Express"
+            
+              , "Компактный шлюз"
+            
+              , "Беспроводные точки доступа"
+            
+              , "Продукты Ubiquiti"
+            
+              , "Безопасность сети"
+            
+              , "Сети малого бизнеса"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/exploring-unifi-express-all-in-one-network-gateway/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Обзор UniFi Express как компактного шлюза со встроенной точкой доступа WiFi 6 и простым управлением.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/UniFi_Express_Connectivity.webp" length="64240" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Synology против TerraMaster и QNAP</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/synology-terramaster-qnap-nas-comparison/</link>
+        
+        <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Сетевое хранилище"
+            
+              , "Сравнение NAS"
+            
+              , "Управление данными"
+            
+              , "Обзоры техники"
+            
+              , "Сетевые решения"
+            
+              , "Оборудование"
+            
+              , "Защита данных"
+            
+              , "Системы хранения"
+            
+              , "ИТ-инфраструктура"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/synology-terramaster-qnap-nas-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните NAS-системы Synology, TerraMaster и QNAP по функциям, производительности, программному обеспечению и защите данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/nas_comparison_race.webp" length="88326" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как разместить точки доступа для оптимального покрытия Wi-Fi</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link>
+        
+        <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Сети"
+            
+              , "Беспроводные сети"
+            
+              , "Точки доступа"
+            
+              , "Установка Wi-Fi"
+            
+              , "Оптимизация сети"
+            
+              , "Домашние сети"
+            
+              , "Беспроводное соединение"
+            
+              , "Интернет вещей"
+            
+              , "Сетевые решения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как разместить точки доступа, улучшить беспроводное соединение, уменьшить помехи и обеспечить стабильную работу сети.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

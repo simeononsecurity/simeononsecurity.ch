@@ -1,0 +1,137 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ISO 42001 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>ISO 42001 on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/iso-42001/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/iso-42001/</link>
+
+    <description>Recent content in ISO 42001 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/iso-42001/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сертификации по кибербезопасности ИИ: отставание от практики</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ai-cybersecurity-governance-certifications-disappointing/</link>
+        
+        <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность ИИ"
+            
+              , "Управление ИИ"
+            
+              , "Сертификации ИИ"
+            
+              , "NIST AI RMF"
+            
+              , "NIST AI 600-1"
+            
+              , "ISO 42001"
+            
+              , "IAPP AIGP"
+            
+              , "инъекция промпта"
+            
+              , "Кибербезопасность ИИ"
+            
+              , "Безопасность LLM"
+            
+              , "OWASP LLM Top 10"
+            
+              , "MITRE ATLAS"
+            
+              , "Управление рисками ИИ"
+            
+              , "Соответствие требованиям ИИ"
+            
+              , "Безопасность машинного обучения"
+            
+              , "Цепочка поставки моделей"
+            
+              , "Адверсариальный ИИ"
+            
+              , "Агенты ИИ"
+            
+              , "Безопасность MCP"
+            
+              , "Тестирование ИИ красной командой"
+            
+              , "Сертификации по управлению ИИ"
+            
+              , "Агентный ИИ"
+            
+              , "Google SAIF"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ai-cybersecurity-governance-certifications-disappointing/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Мнение о разрыве между сертификациями по управлению ИИ и практикой безопасности ИИ, основанное на опыте сертификации и текущих ограничениях поверхности атаки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp" length="339504" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

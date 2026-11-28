@@ -1,0 +1,135 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Киберфизическая Безопасность on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Киберфизическая Безопасность on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D1%84%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D1%84%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</link>
+
+    <description>Recent content in Киберфизическая Безопасность on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D1%84%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Почему кибербезопасность OT, ICS и PLC по-прежнему не работает</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ot-ics-plc-cybersecurity-fundamentally-broken/</link>
+        
+        <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "безопасность OT"
+            
+              , "безопасность ICS"
+            
+              , "безопасность PLC"
+            
+              , "безопасность IoT"
+            
+              , "промышленная кибербезопасность"
+            
+              , "безопасность SCADA"
+            
+              , "NIST 800-82"
+            
+              , "IEC 62443"
+            
+              , "NERC CIP"
+            
+              , "операционные технологии"
+            
+              , "критическая инфраструктура"
+            
+              , "аналоговые датчики"
+            
+              , "изоляция сети"
+            
+              , "устаревшие системы"
+            
+              , "мнение о кибербезопасности"
+            
+              , "промышленные системы управления"
+            
+              , "SCADA"
+            
+              , "Stuxnet"
+            
+              , "безопасность систем управления"
+            
+              , "киберфизическая безопасность"
+            
+              , "безопасность цепочки поставок"
+            
+              , "цепочка поставок OT"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ot-ics-plc-cybersecurity-fundamentally-broken/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Разбор того, почему защита OT отстает из-за устаревшей архитектуры, эксплуатационных ограничений и реальных путей атаки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ot-ics-plc-cybersecurity-fundamentally-broken.webp" length="257384" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

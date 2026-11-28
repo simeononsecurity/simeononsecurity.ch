@@ -1,0 +1,476 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Беспроводные Сети on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Беспроводные Сети on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%B1%D0%B5%D1%81%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5-%D1%81%D0%B5%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%B1%D0%B5%D1%81%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5-%D1%81%D0%B5%D1%82%D0%B8/</link>
+
+    <description>Recent content in Беспроводные Сети on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%B1%D0%B5%D1%81%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5-%D1%81%D0%B5%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Meshtastic, MeshCore и Reticulum: сравнение</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link>
+        
+        <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "LoRa"
+            
+              , "Mesh-сети"
+            
+              , "Автономная связь"
+            
+              , "Экстренная связь"
+            
+              , "Любительское радио"
+            
+              , "Открытый исходный код"
+            
+              , "Готовность к катастрофам"
+            
+              , "Беспроводные сети"
+            
+              , "Конфиденциальность"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните Meshtastic, MeshCore и Reticulum по маршрутизации, времени в эфире, инфраструктуре, транспортам и сценариям автономной связи.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>MeshCore и Meshtastic: сравнение</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</link>
+        
+        <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "LoRa"
+            
+              , "Mesh-сети"
+            
+              , "Связь вне сети"
+            
+              , "Аварийная связь"
+            
+              , "Тактическая связь"
+            
+              , "Любительская радиосвязь"
+            
+              , "Открытый исходный код"
+            
+              , "Подготовка к катастрофам"
+            
+              , "Беспроводные сети"
+            
+              , "Конфиденциальность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение MeshCore и Meshtastic по маршрутизации, дальности связи, времени передачи, инфраструктуре, поддержке устройств и сценариям применения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/meshcore-vs-meshtastic-comparison-guide.webp" length="173676" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Надежные решения для сетей на больших расстояниях</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/networking-over-long-distances_-understanding-cabling-types/</link>
+        
+        <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Компьютерные сети"
+            
+              , "Технологии связи"
+            
+              , "Кабельные системы передачи данных"
+            
+              , "Оптоволокно"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Сети Ethernet"
+            
+              , "Телекоммуникации"
+            
+              , "Беспроводные сети"
+            
+              , "ИТ-решения для бизнеса"
+            
+              , "Сетевые технологии"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/networking-over-long-distances_-understanding-cabling-types/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, какие сетевые кабели подходят для больших расстояний и как улучшить связь. Это руководство поможет ИТ-специалистам выбрать надежное решение.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/networking-over-long-distances_-understanding-cabling-types.webp" length="59222" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как разместить точки доступа для оптимального покрытия Wi-Fi</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link>
+        
+        <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Сети"
+            
+              , "Беспроводные сети"
+            
+              , "Точки доступа"
+            
+              , "Установка Wi-Fi"
+            
+              , "Оптимизация сети"
+            
+              , "Домашние сети"
+            
+              , "Беспроводное соединение"
+            
+              , "Интернет вещей"
+            
+              , "Сетевые решения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как разместить точки доступа, улучшить беспроводное соединение, уменьшить помехи и обеспечить стабильную работу сети.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Курс Сеть Плюс: Безопасность беспроводных сетей и доступ к IoT</title>
+        
+          <link>https://ru.simeononsecurity.com/network-plus/network-plus-course-wireless-security-iot-access/</link>
+        
+        <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сертификационный экзамен CompTIA Network Plus"
+            
+              , "Беспроводная безопасность"
+            
+              , "Доступ к IoT"
+            
+              , "Фильтрация MAC-адресов"
+            
+              , "Размещение антенны"
+            
+              , "Уровни мощности"
+            
+              , "Изоляция заказчика"
+            
+              , "Изоляция гостевой сети"
+            
+              , "Предварительно распределенные ключи"
+            
+              , "EAP"
+            
+              , "Геозондирование"
+            
+              , "Портал неволи"
+            
+              , "Безопасность IoT"
+            
+              , "Беспроводные сети"
+            
+              , "Кибербезопасность"
+            
+              , "ИТ-сертификация"
+            
+              , "Основы сетевых технологий"
+            
+              , "Информационные технологии"
+            
+              , "Онлайн-обучение"
+            
+              , "Профессиональное развитие"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/network-plus/network-plus-course-wireless-security-iot-access/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Расширьте свои знания в области безопасности беспроводных сетей и доступа к IoT с помощью этого комплексного курса Network+. Узнайте о фильтрации MAC-адресов, размещении антенн, настройке уровня мощности, распределенных ключах, EAP, геозонировании и безопасности устройств IoT.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_lock_securing_a_wi.webp" length="47096" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Курс Сеть Плюс: Изучение стандартов и технологий беспроводной связи</title>
+        
+          <link>https://ru.simeononsecurity.com/network-plus/network-plus-course-wireless-standards-technologies/</link>
+        
+        <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Работа в сети"
+            
+              , "Беспроводные сети"
+            
+              , "Сертификационный экзамен"
+            
+              , "CompTIA Network&#43;"
+            
+              , "Обучение в области информационных технологий"
+            
+              , "ИТ-сертификация"
+            
+              , "Стандарты беспроводной связи"
+            
+              , "Беспроводные технологии"
+            
+              , "Информационные технологии"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/network-plus/network-plus-course-wireless-standards-technologies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с различными стандартами 802.11, частотами, диапазоном и шифрованием в беспроводных сетях, чтобы подготовиться к сертификационному экзамену CompTIA Network+.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_different_wi.webp" length="171798" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,249 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Сетевые Решения on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Сетевые Решения on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F/</link>
+
+    <description>Recent content in Сетевые Решения on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 25 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Надежные решения для сетей на больших расстояниях</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/networking-over-long-distances_-understanding-cabling-types/</link>
+        
+        <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Компьютерные сети"
+            
+              , "Технологии связи"
+            
+              , "Кабельные системы передачи данных"
+            
+              , "Оптоволокно"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Сети Ethernet"
+            
+              , "Телекоммуникации"
+            
+              , "Беспроводные сети"
+            
+              , "ИТ-решения для бизнеса"
+            
+              , "Сетевые технологии"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/networking-over-long-distances_-understanding-cabling-types/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, какие сетевые кабели подходят для больших расстояний и как улучшить связь. Это руководство поможет ИТ-специалистам выбрать надежное решение.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/networking-over-long-distances_-understanding-cabling-types.webp" length="59222" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшее оборудование для домашней лаборатории</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ultimate-tech-homelab-guide/</link>
+        
+        <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Образование"
+            
+              , "Инновации"
+            
+              , "Развитие навыков"
+            
+              , "Обучение дома"
+            
+              , "Личное развитие"
+            
+              , "Эксперименты"
+            
+              , "ИТ-энтузиасты"
+            
+              , "Профессиональное развитие"
+            
+              , "Изучение технологий"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ultimate-tech-homelab-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Учитесь на практике с доступной домашней технической лабораторией. Рассмотрите оборудование, сети и возможности для экспериментов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Homelab_Innovation_Tech.webp" length="191718" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubiquiti Unifi и TP-Link Omada: какую сетевую систему выбрать?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</link>
+        
+        <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сетевые системы"
+            
+              , "Управление сетью"
+            
+              , "Сравнение оборудования"
+            
+              , "Веб-управление сетью"
+            
+              , "Масштабируемые сетевые решения"
+            
+              , "Функции сетевой безопасности"
+            
+              , "Надежное сетевое оборудование"
+            
+              , "Конкурентные цены на сетевое оборудование"
+            
+              , "Поддержка клиентов"
+            
+              , "Дополнительные предложения продуктов"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните сетевые системы Ubiquiti Unifi и TP-Link Omada по управлению, оборудованию, поддержке, функциям и ценам, чтобы выбрать подходящий вариант.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_split-screen_illustration_of_a_complex_network.webp" length="236442" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

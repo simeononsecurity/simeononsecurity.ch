@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Этичный Взлом on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Этичный Взлом on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%8D%D1%82%D0%B8%D1%87%D0%BD%D1%8B%D0%B9-%D0%B2%D0%B7%D0%BB%D0%BE%D0%BC/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%8D%D1%82%D0%B8%D1%87%D0%BD%D1%8B%D0%B9-%D0%B2%D0%B7%D0%BB%D0%BE%D0%BC/</link>
+
+    <description>Recent content in Этичный Взлом on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%8D%D1%82%D0%B8%D1%87%D0%BD%D1%8B%D0%B9-%D0%B2%D0%B7%D0%BB%D0%BE%D0%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Укрепление киберустойчивости</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</link>
+        
+        <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Тестирование на проникновение"
+            
+              , "Этичный взлом"
+            
+              , "Стратегии кибербезопасности"
+            
+              , "Меры защиты"
+            
+              , "Оценка уязвимостей"
+            
+              , "Реагирование на инциденты"
+            
+              , "Соответствие требованиям"
+            
+              , "Средства контроля безопасности"
+            
+              , "Киберустойчивость"
+            
+              , "Будущее кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как регулярные тесты на проникновение выявляют уязвимости, пригодные для эксплуатации, помогают устранять риски по приоритету и проверяют защиту систем и приложений.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-importance-of-regular-penetration-testing-for-cybersecurity.webp" length="85258" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Осваиваем Google Dorks</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-google-dorks-osint-hacking-power/</link>
+        
+        <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "SEO"
+            
+              , "Кибербезопасность"
+            
+              , "Поиск в интернете"
+            
+              , "Google Dorks"
+            
+              , "Разведка по открытым источникам"
+            
+              , "Методы взлома"
+            
+              , "Цифровые навыки"
+            
+              , "Веб-поиск"
+            
+              , "Безопасность интернета"
+            
+              , "Поиск данных"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-google-dorks-osint-hacking-power/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Используйте операторы Google для авторизованного OSINT: примеры запросов, границы сбора данных и рекомендации по защитному сообщению об уязвимостях.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cartoon-magnifying-glass-uncovering-data.webp" length="158948" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

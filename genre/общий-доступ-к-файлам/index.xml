@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Общий Доступ К Файлам on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Общий Доступ К Файлам on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%BE%D0%B1%D1%89%D0%B8%D0%B9-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF-%D0%BA-%D1%84%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%BE%D0%B1%D1%89%D0%B8%D0%B9-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF-%D0%BA-%D1%84%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC/</link>
+
+    <description>Recent content in Общий Доступ К Файлам on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%BE%D0%B1%D1%89%D0%B8%D0%B9-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF-%D0%BA-%D1%84%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение ОС для NAS: как выбрать лучшее решение для хранения данных</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/</link>
+        
+        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Хранение данных"
+            
+              , "Сетевое хранилище"
+            
+              , "Операционные системы"
+            
+              , "Управление данными"
+            
+              , "ИТ-решения"
+            
+              , "Общий доступ к файлам"
+            
+              , "Защита данных"
+            
+              , "Облачное хранилище"
+            
+              , "Резервное копирование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните популярные операционные системы для NAS и выберите подходящее решение для хранения данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/nas-os-comparison-symbolic-servers.webp" length="135748" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

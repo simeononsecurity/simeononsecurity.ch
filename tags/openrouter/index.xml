@@ -1,0 +1,166 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Openrouter on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Openrouter on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/openrouter/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/openrouter/</link>
+
+    <description>Recent content in Openrouter on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/openrouter/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Маршрутизация провайдеров OpenRouter: качество моделей, лимиты токенов и реальные расходы</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link>
+        
+        <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Инфраструктура"
+            
+              , "открытый исходный код"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Диагностируйте нестабильные ответы OpenRouter, сравнивайте лимиты endpoint и расходы на кэширование, а также настраивайте маршрутизацию провайдеров без случайного отключения контроля качества.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp" length="117470" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Локальный ИИ в 2026 году: модель 27B превосходит Sonnet 4.6, а окно для покупки железа закрывается</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link>
+        
+        <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "Самостоятельно размещаемый ИИ"
+            
+              , "Модели с открытыми весами"
+            
+              , "Оборудование для ИИ"
+            
+              , "Машинное обучение"
+            
+              , "Квантование"
+            
+              , "Домашняя лаборатория"
+            
+              , "Конфиденциальность"
+            
+              , "Экономика ИИ"
+            
+              , "Потребительское оборудование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Спланируйте локальную систему ИИ на 2026 год с учетом размера модели, VRAM, пропускной способности памяти, энергопотребления, цены и вариантов обновления.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

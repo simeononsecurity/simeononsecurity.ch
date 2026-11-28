@@ -1,0 +1,107 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KernelCTF on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>KernelCTF on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/kernelctf/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/kernelctf/</link>
+
+    <description>Recent content in KernelCTF on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/kernelctf/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Контейнеры больше не являются границей безопасности: выходы из ядра в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link>
+        
+        <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность контейнеров"
+            
+              , "Linux"
+            
+              , "Безопасность ядра"
+            
+              , "Виртуализация"
+            
+              , "Облачная безопасность"
+            
+              , "Исследования угроз"
+            
+              , "Синяя команда"
+            
+              , "DevSecOps"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Обзор исследований выхода из контейнеров за 2026 год, ограничений изоляции ядра, давления на процесс установки исправлений и роли microVM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

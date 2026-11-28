@@ -1,0 +1,2077 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Тестирование На Проникновение on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Тестирование На Проникновение on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-%D0%BF%D1%80%D0%BE%D0%BD%D0%B8%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-%D0%BF%D1%80%D0%BE%D0%BD%D0%B8%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+
+    <description>Recent content in Тестирование На Проникновение on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 20 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-%D0%BF%D1%80%D0%BE%D0%BD%D0%B8%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D0%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Какая карьера в кибербезопасности подходит вам? 16 отправных точек и множество путей</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</link>
+        
+        <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Карьера"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Посмотрите видео о типах личности, изучите несколько ролей в кибербезопасности для каждого типа и сравните карьерные пути с помощью практических заданий, отражающих реальную работу.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity-careers-personality-paths.webp" length="155796" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>DagShell: кастомная прошивка для Orbic RCL400, руководство 2026</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link>
+        
+        <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кастомная прошивка"
+            
+              , "Мобильная безопасность"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Сетевая безопасность"
+            
+              , "Вардрайвинг"
+            
+              , "Тестирование на проникновение"
+            
+              , "Взлом IoT"
+            
+              , "Исследования безопасности"
+            
+              , "Аппаратный хакинг"
+            
+              , "Технологии конфиденциальности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Техническое руководство по прошивке DagShell для Orbic RCL400. Установка, инструменты защиты конфиденциальности, вар-драйвинг и ограничения исследований.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Уязвимости камер Flock Safety: обнаружено более 50 проблем</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Исследования безопасности"
+            
+              , "Анализ уязвимостей"
+            
+              , "Технологии наблюдения"
+            
+              , "Кибербезопасность"
+            
+              , "Защита конфиденциальности"
+            
+              , "Безопасность IoT"
+            
+              , "Физическая безопасность"
+            
+              , "Сетевая безопасность"
+            
+              , "Критическая инфраструктура"
+            
+              , "Государственные технологии"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Исследование уязвимостей камер Flock Safety рассматривает раскрытые учетные данные, слабые средства защиты, физический доступ и ограничения раскрытия информации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасность блокчейна: не только криптовалюты</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/demystifying-blockchain-security_-more-than-just-cryptocurrency/</link>
+        
+        <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность блокчейна"
+            
+              , "Технологии криптовалют"
+            
+              , "Цифровая безопасность"
+            
+              , "Децентрализованные сети"
+            
+              , "Разработка блокчейна"
+            
+              , "Аудит смарт-контрактов"
+            
+              , "Криптографические технологии"
+            
+              , "Защита конфиденциальности данных"
+            
+              , "Новые технологии безопасности"
+            
+              , "Аудит безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/demystifying-blockchain-security_-more-than-just-cryptocurrency/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как безопасность блокчейна зависит от консенсуса, криптографии, контроля смарт-контрактов, защиты ключей, мониторинга и эффективного управления.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/demystifying-blockchain-security_-more-than-just-cryptocurrency.webp" length="194346" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Hack The Box для начинающих в сфере кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hack-the-box-good-for-beginners-cybersecurity/</link>
+        
+        <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Этичный хакинг"
+            
+              , "Тестирование на проникновение"
+            
+              , "Практическое обучение"
+            
+              , "Для начинающих"
+            
+              , "Онлайн-платформы"
+            
+              , "Hack The Box Academy"
+            
+              , "TryHackMe"
+            
+              , "Учебные ресурсы"
+            
+              , "Поддержка сообщества"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hack-the-box-good-for-beginners-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, подходит ли Hack The Box начинающим в сфере кибербезопасности, и рассмотрите альтернативы, такие как Hack The Box Academy и TryHackMe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/hack_the_box_beginner_cybersecurity.webp" length="114812" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение уровня кибербезопасности: Лучшие сертификаты для начинающих</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/best-cybersecurity-certifications-for-beginners-career-guide/</link>
+        
+        <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сертификация в области кибербезопасности"
+            
+              , "Руководство для начинающих"
+            
+              , "Карьера в области информационных технологий"
+            
+              , "Информационная безопасность"
+            
+              , "Сетевая безопасность"
+            
+              , "Этический хакинг"
+            
+              , "Тестирование на проникновение"
+            
+              , "Вакансии начального уровня"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/best-cybersecurity-certifications-for-beginners-career-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучшие сертификаты по кибербезопасности для начинающих, чтобы начать свою карьеру и получить необходимые навыки для успешной работы в этой области.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_representing_a_lock_an.webp" length="50550" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Раскройте свой потенциал в области кибербезопасности с помощью Академии Hackthebox</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/unlock-cybersecurity-potential-hackthebox-academy/</link>
+        
+        <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Обучение кибербезопасности"
+            
+              , "Практические занятия"
+            
+              , "Практические упражнения"
+            
+              , "Пути обучения"
+            
+              , "Сотрудничество с общественностью"
+            
+              , "Навыки в области кибербезопасности"
+            
+              , "Онлайн-платформа"
+            
+              , "Реальные сценарии"
+            
+              , "Учебные пособия и документация"
+            
+              , "Премиальная подписка"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/unlock-cybersecurity-potential-hackthebox-academy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя комплексное обучение и практические задачи, предлагаемые Академией Hackthebox, чтобы раскрыть свой потенциал в области кибербезопасности и повысить свою квалификацию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_group_of_diverse_individuals_working_togethe.webp" length="82138" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освойте тестирование на проникновение: продвинутые методы и реальные примеры</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link>
+        
+        <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Тестирование на проникновение"
+            
+              , "Этичный хакинг"
+            
+              , "Безопасность сетей"
+            
+              , "Безопасность веб-приложений"
+            
+              , "Безопасность беспроводных сетей"
+            
+              , "Социальная инженерия"
+            
+              , "Безопасность мобильных приложений"
+            
+              , "Облачная безопасность"
+            
+              , "Развитие карьеры"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите продвинутые методы, инструменты и реальные примеры тестирования на проникновение, чтобы развить навыки и карьеру в кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Предотвращение утечки информации: Лучшие практики и стратегии повышения безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</link>
+        
+        <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "информационная безопасность"
+            
+              , "защита информации"
+            
+              , "секретная информация"
+            
+              , "утечка информации"
+            
+              , "стратегии профилактики"
+            
+              , "передовой опыт"
+            
+              , "контроль доступа"
+            
+              , "шифрование"
+            
+              , "обучение сотрудников"
+            
+              , "кибербезопасность"
+            
+              , "предотвращение потери данных"
+            
+              , "оценки безопасности"
+            
+              , "постановления правительства"
+            
+              , "NIST"
+            
+              , "внутренние угрозы"
+            
+              , "уязвимости кибербезопасности"
+            
+              , "человеческий фактор"
+            
+              , "информационные программы"
+            
+              , "информированность о фишинге"
+            
+              , "DLP-решения"
+            
+              , "управление доступом на основе ролей"
+            
+              , "многофакторная аутентификация"
+            
+              , "управление ключами шифрования"
+            
+              , "защита конечных точек"
+            
+              , "проверка содержания"
+            
+              , "аудиты безопасности"
+            
+              , "тестирование на проникновение"
+            
+              , "планирование мер реагирования на инциденты"
+            
+              , "протоколы безопасности"
+            
+              , "защита информации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о лучших методах и стратегиях предотвращения утечки информации и защиты конфиденциальных данных, обеспечивающих повышенную безопасность и защиту.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/best-practices-to-prevent-spillage.webp" length="195784" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Изучение Metasploit: Комплексная платформа для тестирования на проникновение и разработки эксплойтов</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/what-is-metasploit/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Metasploit"
+            
+              , "тестирование на проникновение"
+            
+              , "разработка эксплойтов"
+            
+              , "сканирование уязвимостей"
+            
+              , "формирование полезной нагрузки"
+            
+              , "постэксплуатационные действия"
+            
+              , "этичное хакерство"
+            
+              , "кибербезопасность"
+            
+              , "с открытым исходным кодом"
+            
+              , "фреймворк безопасности"
+            
+              , "оценка уязвимости"
+            
+              , "социальная инженерия"
+            
+              , "Metasploit Framework"
+            
+              , "Metasploit Pro"
+            
+              , "компьютерная безопасность"
+            
+              , "HD Moore"
+            
+              , "Rapid7"
+            
+              , "решения по безопасности"
+            
+              , "постановления правительства"
+            
+              , "Закон о компьютерном мошенничестве и злоупотреблениях"
+            
+              , "CFAA"
+            
+              , "информированность о безопасности"
+            
+              , "инструменты взлома"
+            
+              , "средства кибербезопасности"
+            
+              , "сообщество кибербезопасности"
+            
+              , "ресурсы по кибербезопасности"
+            
+              , "специалисты по кибербезопасности"
+            
+              , "передовые методы обеспечения кибербезопасности"
+            
+              , "соблюдение требований кибербезопасности"
+            
+              , "законы о кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/what-is-metasploit/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Metasploit, фреймворка с открытым исходным кодом для тестирования на проникновение и разработки эксплойтов, обладающего широкими возможностями и большим сообществом.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.webp" length="97762" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сила тестирования на проникновение в кибербезопасности: Методы, инструменты и лучшие практики</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/</link>
+        
+        <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "тестирование на проникновение"
+            
+              , "кибербезопасность"
+            
+              , "этический хакерский подход"
+            
+              , "уязвимости"
+            
+              , "снижение рисков"
+            
+              , "соответствие"
+            
+              , "реагирование на инциденты"
+            
+              , "доверие клиентов"
+            
+              , "тестирование черного ящика"
+            
+              , "тестирование белого ящика"
+            
+              , "тестирование серого ящика"
+            
+              , "Metasploit"
+            
+              , "Nmap"
+            
+              , "Набор для отрыжки"
+            
+              , "Wireshark"
+            
+              , "сканирование сети"
+            
+              , "безопасность веб-приложений"
+            
+              , "защита информации"
+            
+              , "предотвращение киберугроз"
+            
+              , "оценка цифровой безопасности"
+            
+              , "повышение уровня безопасности"
+            
+              , "анализатор сетевых протоколов"
+            
+              , "стратегия кибербезопасности"
+            
+              , "уязвимости системы"
+            
+              , "укрепление обороноспособности"
+            
+              , "защита цифровых активов"
+            
+              , "преимущества тестирования на проникновение"
+            
+              , "передовые методы обеспечения кибербезопасности"
+            
+              , "соблюдение нормативных требований"
+            
+              , "безопасность данных клиентов"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя важнейшую роль тестирования на проникновение в кибербезопасности, узнайте об эффективных методах, основных инструментах и лучших практиках.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_image_depicting_a_hacker_wearing_a_black_hat.webp" length="95200" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие дистрибутивы Linux для обеспечения конфиденциальности и безопасности: Защита данных</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-best-linux-distros-for-privacy-and-security/</link>
+        
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Дистрибутивы Linux"
+            
+              , "конфиденциальность и безопасность"
+            
+              , "Хвосты"
+            
+              , "Qubes OS"
+            
+              , "Whonix"
+            
+              , "Parrot Security OS"
+            
+              , "Ubuntu Privacy Remix"
+            
+              , "OpenBSD"
+            
+              , "защита информации"
+            
+              , "безопасные вычисления"
+            
+              , "анонимный просмотр"
+            
+              , "виртуализация"
+            
+              , "тестирование безопасности"
+            
+              , "судебная экспертиза"
+            
+              , "тестирование на проникновение"
+            
+              , "средства шифрования"
+            
+              , "безопасное удаление"
+            
+              , "анонимность"
+            
+              , "кибербезопасность"
+            
+              , "корректность кода"
+            
+              , "безопасность в Интернете"
+            
+              , "защита пользовательских данных"
+            
+              , "конфиденциальность"
+            
+              , "восстановление данных"
+            
+              , "интернет-банкинг"
+            
+              , "конфиденциальность в Интернете"
+            
+              , "безопасная среда"
+            
+              , "безопасный просмотр веб-страниц"
+            
+              , "Сеть Tor"
+            
+              , "меры безопасности"
+            
+              , "безопасный по умолчанию"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-best-linux-distros-for-privacy-and-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучшие дистрибутивы Linux для обеспечения конфиденциальности и безопасности, гарантирующие защиту ваших данных и безопасность вашей деятельности в Интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.webp" length="130594" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Flipper Zero: полное руководство для хакеров и мейкеров</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</link>
+        
+        <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Взлом аппаратуры"
+            
+              , "Кибербезопасность"
+            
+              , "Тестирование на проникновение"
+            
+              , "Безопасность беспроводных систем"
+            
+              , "Красная команда"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Руководство по Flipper Zero: радиосвязь, протоколы, прошивки, GPIO, BadUSB, сценарии тестирования, правовые ограничения и аксессуары.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.webp" length="309662" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>План подготовки к сертификационному экзамену CEH: советы и стратегии</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</link>
+        
+        <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Информационная безопасность"
+            
+              , "Профессиональное развитие"
+            
+              , "ИТ-сертификация"
+            
+              , "Сетевая безопасность"
+            
+              , "Этический хакинг"
+            
+              , "Подготовка к экзаменам"
+            
+              , "Учебный план"
+            
+              , "Управление временем"
+            
+              , "Карьерный рост"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как составить эффективный учебный план для сдачи сертификационного экзамена CEH с советами и стратегиями для достижения успеха.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.webp" length="78844" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Эффективный контроль доступа: лучшие практики для ИТ-безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/</link>
+        
+        <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Контроль доступа"
+            
+              , "ИТ-безопасность"
+            
+              , "Кибербезопасность"
+            
+              , "Пароли"
+            
+              , "Биометрическая аутентификация"
+            
+              , "Ролевое управление доступом"
+            
+              , "Многофакторная аутентификация"
+            
+              , "Защита данных"
+            
+              , "Оценка рисков"
+            
+              , "Обучение сотрудников"
+            
+              , "Средства аудита"
+            
+              , "Средства отчетности"
+            
+              , "Тестирование на проникновение"
+            
+              , "Оценка уязвимостей"
+            
+              , "Физический контроль доступа"
+            
+              , "Логический контроль доступа"
+            
+              , "Нормативные требования"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить конфиденциальные данные и системы с помощью эффективных мер контроля доступа в вашей ИТ-среде.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_locked_door_with_a_fingerprint_scanner.webp" length="148694" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасное и совместимое резервное копирование и восстановление данных в облаке: Исчерпывающее руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</link>
+        
+        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "облачное резервное копирование"
+            
+              , "восстановление данных"
+            
+              , "защита информации"
+            
+              , "соответствие"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "FISMA"
+            
+              , "поставщик облачных услуг"
+            
+              , "шифрование"
+            
+              , "контроль доступа"
+            
+              , "безопасность"
+            
+              , "регламент"
+            
+              , "стандарты"
+            
+              , "передовой опыт"
+            
+              , "оценка уязвимости"
+            
+              , "тестирование на проникновение"
+            
+              , "аудиторские проверки"
+            
+              , "управление рисками"
+            
+              , "масштабируемость"
+            
+              , "мониторинг"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как создать безопасное и отвечающее всем требованиям решение для защиты данных в облаке.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.webp" length="90486" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kali Purple 2023.1: обновления и ключевые функции</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/kali-purple-2023.1-a-review/</link>
+        
+        <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Kali Linux"
+            
+              , "Kali Purple"
+            
+              , "2023.1"
+            
+              , "этичный хакинг"
+            
+              , "тестирование на проникновение"
+            
+              , "кибербезопасность"
+            
+              , "инструменты"
+            
+              , "фреймворк эксплуатации"
+            
+              , "обновления Kali ARM"
+            
+              , "Kali NetHunter"
+            
+              , "документация Kali"
+            
+              , "поддержка ядра"
+            
+              , "поддержка Bluetooth"
+            
+              , "LineageOS"
+            
+              , "OneUI"
+            
+              , "Radxa Zero"
+            
+              , "одноплатный компьютер"
+            
+              , "исправления ядра"
+            
+              , "вклад сообщества"
+            
+              , "Kali Discord"
+            
+              , "обновления Linux"
+            
+              , "дистрибутив для этичного хакинга"
+            
+              , "новые функции"
+            
+              , "улучшения"
+            
+              , "Xfce"
+            
+              , "KDE"
+            
+              , "GNOME"
+            
+              , "Xfce 4.18"
+            
+              , "KDE Plasma 5.27"
+            
+              , "новые инструменты и пакеты"
+            
+              , "поддержка устройств ARM"
+            
+              , "документация Kali"
+            
+              , "государственные нормы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/kali-purple-2023.1-a-review/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Обзор исторических функций, инструментов и улучшений Kali Purple 2023.1 с актуальными ссылками для лабораторий безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_3D_animated_Kali_Linux_dragon_mascot_surrounded.webp" length="162086" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита веб-приложений с помощью OWASP ASVS</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</link>
+        
+        <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "безопасность веб-приложений"
+            
+              , "OWASP"
+            
+              , "ASVS"
+            
+              , "безопасность приложений"
+            
+              , "стандарты безопасности"
+            
+              , "кибербезопасность"
+            
+              , "управление уязвимостями"
+            
+              , "безопасное программирование"
+            
+              , "тестирование на проникновение"
+            
+              , "моделирование угроз"
+            
+              , "меры безопасности"
+            
+              , "оценка безопасности"
+            
+              , "автоматизированное тестирование безопасности"
+            
+              , "ручное тестирование безопасности"
+            
+              , "безопасный жизненный цикл разработки"
+            
+              , "рекомендации по безопасности"
+            
+              , "безопасность данных"
+            
+              , "управление рисками"
+            
+              , "соответствие требованиям"
+            
+              , "информационная безопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Используйте OWASP ASVS, чтобы упорядочить требования безопасности веб-приложений, тесты и подтверждающие материалы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.webp" length="119972" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Исчерпывающее руководство для начинающих по инструментам и методам тестирования на проникновение</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/a-beginners-guide-to-penetration-testing-tools-and-techniques/</link>
+        
+        <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "тестирование на проникновение"
+            
+              , "кибербезопасность"
+            
+              , "этический хакерский подход"
+            
+              , "инструменты"
+            
+              , "методики"
+            
+              , "руководство для начинающих"
+            
+              , "Nmap"
+            
+              , "Metasploit"
+            
+              , "Wireshark"
+            
+              , "Набор для отрыжки"
+            
+              , "OSSTMM"
+            
+              , "PTES"
+            
+              , "OWASP"
+            
+              , "CEH"
+            
+              , "OSCP"
+            
+              , "GPEN"
+            
+              , "тестирование безопасности"
+            
+              , "оценка уязвимости"
+            
+              , "безопасность сети"
+            
+              , "информационная безопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/a-beginners-guide-to-penetration-testing-tools-and-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с основными инструментами и методами тестирования на проникновение, методологиями и сертификатами, чтобы начать свою карьеру в области кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/a-beginners-guide-to-penetration-testing-tools-and-techniques.webp" length="251176" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>5 лучших сертификатов по кибербезопасности для продвижения по карьерной лестнице</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-top-five-cybersecurity-certifications-for-career-advancement/</link>
+        
+        <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Сертификаты"
+            
+              , "CompTIA Security&#43;"
+            
+              , "CISSP"
+            
+              , "Offensive Security OSCP"
+            
+              , "Cisco CCNA"
+            
+              , "(ISC2) CCSP"
+            
+              , "ИТ-безопасность"
+            
+              , "Сетевая безопасность"
+            
+              , "Облачная безопасность"
+            
+              , "Профессиональное развитие"
+            
+              , "Карьерный рост"
+            
+              , "Проверка квалификации"
+            
+              , "Информационная безопасность"
+            
+              , "Этический хакинг"
+            
+              , "Тестирование на проникновение"
+            
+              , "Сетевое администрирование"
+            
+              , "Облачные вычисления"
+            
+              , "Управление безопасностью"
+            
+              , "Оценка уязвимости"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-top-five-cybersecurity-certifications-for-career-advancement/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните пять сертификатов по кибербезопасности по опыту, роли, темам экзамена и пользе для карьеры.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.webp" length="77246" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство для начинающих: Использование командной строки Linux для обеспечения кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/a-beginners-guide-to-using-the-linux-command-line/</link>
+        
+        <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Linux"
+            
+              , "Командная строка"
+            
+              , "Кибербезопасность"
+            
+              , "Руководство для начинающих"
+            
+              , "Сканирование сети"
+            
+              , "Тестирование уязвимостей"
+            
+              , "Анализ вредоносного ПО"
+            
+              , "Разрешения"
+            
+              , "Сетевой трафик"
+            
+              , "Состояние процесса"
+            
+              , "Сетевая статистика"
+            
+              , "Поиск файлов"
+            
+              , "Wireshark"
+            
+              , "TCPDump"
+            
+              , "Nmap"
+            
+              , "интерфейс командной строки Linux"
+            
+              , "Безопасность"
+            
+              , "Тестирование на проникновение"
+            
+              , "Цифровая криминалистика"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/a-beginners-guide-to-using-the-linux-command-line/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как использовать командную строку Linux для обеспечения кибербезопасности с помощью базовых и расширенных команд.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/a-beginners-guide-to-using-the-linux-command-line.webp" length="236274" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Установка исправлений на уязвимые серверы: рекомендации</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность серверов"
+            
+              , "Управление уязвимостями"
+            
+              , "Управление исправлениями"
+            
+              , "Кибербезопасность"
+            
+              , "Установка исправлений на серверы"
+            
+              , "Ландшафт угроз"
+            
+              , "Тестирование на проникновение"
+            
+              , "Обновления безопасности"
+            
+              , "Исправления программного обеспечения"
+            
+              , "ИТ-безопасность"
+            
+              , "Защита данных"
+            
+              , "Безопасность систем"
+            
+              , "Управление рисками"
+            
+              , "Политики безопасности"
+            
+              , "Тестовые среды"
+            
+              , "Уязвимости программного обеспечения"
+            
+              , "Критические исправления"
+            
+              , "Исправления от поставщиков"
+            
+              , "Бюллетени безопасности"
+            
+              , "Информационная безопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как устанавливать обновления безопасности на уязвимые серверы и предотвращать вредоносные атаки, следуя рекомендациям.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_shield.webp" length="98810" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox или TryHackMe: что выбрать?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hackthebox-vs-tryhackme-what-is-best/</link>
+        
+        <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Тестирование на проникновение"
+            
+              , "Этичный хакинг"
+            
+              , "Информационная безопасность"
+            
+              , "Цифровая криминалистика"
+            
+              , "Безопасность сетей"
+            
+              , "Киберзащита"
+            
+              , "Безопасность веб-приложений"
+            
+              , "Киберугрозы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hackthebox-vs-tryhackme-what-is-best/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните HackTheBox и TryHackMe по сложности, поддержке, сообществу и структуре обучения тестированию на проникновение.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_hacker_in_a_lab_coat_standing_between_two_doors.webp" length="87086" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Пошаговое руководство по началу карьеры в ИТ и кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/getting-started-in-it-and-cybersecurity/</link>
+        
+        <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ИТ и кибербезопасность"
+            
+              , "Руководство по карьере"
+            
+              , "Сертификаты CompTIA"
+            
+              , "MCSA"
+            
+              , "Linux&#43;"
+            
+              , "CCNA"
+            
+              , "Тестирование на проникновение"
+            
+              , "Этичный хакинг"
+            
+              , "OSCP"
+            
+              , "Скриптинг"
+            
+              , "Работа в ИТ"
+            
+              , "Работа в кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/getting-started-in-it-and-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как начать карьеру в ИТ и кибербезопасности: от первой должности до развития навыков и получения сертификатов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp" length="203438" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемые сертификаты</title>
+        
+          <link>https://ru.simeononsecurity.com/recommendations/certifications/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемые сертификаты"
+            
+              , "Лучшие кибер- и ИТ-сертификаты"
+            
+              , "Лучшие сертификаты для тех, кто ищет работу"
+            
+              , "Рекомендации по сертификации SimeonOnSecurity"
+            
+              , "Сертификаты CompTIA"
+            
+              , "Сертификация Cisco"
+            
+              , "Сертификация EC-Council"
+            
+              , "Сертификация ISC2"
+            
+              , "Сертификация Juniper"
+            
+              , "Сертификация Microsoft"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/recommendations/certifications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          SimeonOnSecurity рекомендует лучшие кибер- и ИТ-сертификации для тех, кто собирается поступать на работу. В список включены сертификаты CompTIA, Cisco, EC-Council, ISC2, Juniper, Microsoft и Offensive Security с различными уровнями квалификации - начальный, ассоциированный, профессиональный и экспертный. Все перечисленные сертификаты имеют прямое отношение к должностям в сфере кибербезопасности и принесут большую пользу кандидату. Ознакомьтесь с интерактивной дорожной картой сертификации, чтобы получить наглядное представление. Также доступны такие учебные ресурсы, как книги и тренинги.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

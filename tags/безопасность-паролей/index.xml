@@ -1,0 +1,1046 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Безопасность Паролей on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Безопасность Паролей on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D0%B5%D0%B9/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D0%B5%D0%B9/</link>
+
+    <description>Recent content in Безопасность Паролей on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D0%B5%D0%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Анатомия кибератаки: как хакеры обходят защиту</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</link>
+        
+        <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Киберугрозы"
+            
+              , "Тактика хакеров"
+            
+              , "Цифровая безопасность"
+            
+              , "Стратегии кибератак"
+            
+              , "Методы эксфильтрации данных"
+            
+              , "Фишинговые атаки"
+            
+              , "Заражение вредоносным ПО"
+            
+              , "Повышение привилегий"
+            
+              , "Боковое перемещение"
+            
+              , "Меры безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проследите путь кибератаки от первоначального доступа через повышение привилегий, боковое перемещение и закрепление до эксфильтрации данных. Узнайте о мерах защиты на каждом этапе.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses.webp" length="296326" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Почему обучение пользователей важнее передовых технологий в кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/user-training-vs-advanced-tech-cybersecurity/</link>
+        
+        <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Обучение пользователей"
+            
+              , "Цифровая безопасность"
+            
+              , "Защита данных"
+            
+              , "Профилактика фишинга"
+            
+              , "Социальная инженерия"
+            
+              , "Соблюдение нормативных требований"
+            
+              , "Обучение сотрудников"
+            
+              , "Безопасность в интернете"
+            
+              , "Информационная безопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/user-training-vs-advanced-tech-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему обучение пользователей важнее передовых технологий в кибербезопасности и как оно укрепляет цифровую защиту.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/user-training-cybersecurity-defense.webp" length="105250" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Почему правила сложности паролей устарели</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/password-complexity-security-article/</link>
+        
+        <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Безопасность паролей"
+            
+              , "Методы аутентификации"
+            
+              , "Онлайн-угрозы"
+            
+              , "Обучение пользователей"
+            
+              , "Рекомендации NIST"
+            
+              , "Современная аутентификация"
+            
+              , "Защита от фишинга"
+            
+              , "Цифровая безопасность"
+            
+              , "Безопасность в интернете"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/password-complexity-security-article/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему правила сложности паролей теряют эффективность и как на практике повысить безопасность в интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/password-complexity-security.webp" length="115670" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Укрепление кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</link>
+        
+        <pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Групповая политика Windows"
+            
+              , "Сокращение поверхности атаки"
+            
+              , "ИТ-безопасность"
+            
+              , "Защита сети"
+            
+              , "Защита данных"
+            
+              , "Цифровая устойчивость"
+            
+              , "Укрепление систем"
+            
+              , "Рекомендации по безопасности"
+            
+              , "Снижение рисков"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как параметры групповой политики Windows сокращают поверхность атаки и усиливают защиту.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Cybersecurity_Shield_Defense.webp" length="129592" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как выбрать менеджер паролей: полное руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-choose-a-password-manager/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "менеджер паролей"
+            
+              , "выбор менеджера паролей"
+            
+              , "Bitwarden"
+            
+              , "KeePassXC"
+            
+              , "безопасность в интернете"
+            
+              , "безопасность паролей"
+            
+              , "управление паролями"
+            
+              , "надежные пароли"
+            
+              , "уникальные пароли"
+            
+              , "утечки данных"
+            
+              , "шифрование"
+            
+              , "кроссплатформенная совместимость"
+            
+              , "синхронизация паролей"
+            
+              , "резервное копирование"
+            
+              , "интерфейс пользователя"
+            
+              , "генератор паролей"
+            
+              , "2FA"
+            
+              , "сквозное шифрование"
+            
+              , "архитектура нулевого разглашения"
+            
+              , "открытый исходный код"
+            
+              , "безопасный обмен паролями"
+            
+              , "автоматический ввод"
+            
+              , "поддержка вложений"
+            
+              , "плагины"
+            
+              , "рекомендации менеджеров паролей"
+            
+              , "сравнение менеджеров паролей"
+            
+              , "советы по безопасности паролей"
+            
+              , "функции менеджеров паролей"
+            
+              , "преимущества менеджеров паролей"
+            
+              , "скачать менеджер паролей"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-choose-a-password-manager/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, на что обратить внимание при выборе менеджера паролей и почему мы рекомендуем Bitwarden и KeePassXC.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.webp" length="40028" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как защититься от атак социальной инженерии</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-protect-yourself-from-social-engineering/</link>
+        
+        <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Атаки социальной инженерии"
+            
+              , "Защита от социальной инженерии"
+            
+              , "Стратегии кибербезопасности"
+            
+              , "Профилактика фишинга"
+            
+              , "Укрепление паролей"
+            
+              , "Защита от фишинговых атак"
+            
+              , "Защита устройств"
+            
+              , "Распознавание подозрительных писем и звонков"
+            
+              , "Сообщение об инцидентах"
+            
+              , "Осведомленность и обучение кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-protect-yourself-from-social-engineering/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защититься от социальной инженерии с помощью действенных стратегий и рекомендаций.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_shield_protecting_a_person_from_social_engineering_attack.webp" length="146720" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасные привычки при работе в интернете</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Безопасность в интернете"
+            
+              , "Безопасный просмотр веб-страниц"
+            
+              , "Безопасность интернета"
+            
+              , "Защита личных данных"
+            
+              , "Конфиденциальность в интернете"
+            
+              , "Интернет-угрозы"
+            
+              , "Предотвращение киберпреступлений"
+            
+              , "Предотвращение кражи личности"
+            
+              , "Безопасность в сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Практические привычки безопасного просмотра веб-страниц помогают снизить сетевые угрозы и защитить личные данные.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/developing-secure-browsing-habit-for-a-safer-online-experience.webp" length="36240" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основы кибербезопасности: руководство по защите цифровой жизни</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/cybersecurity-for-beginners-a-non-technical-guide/</link>
+        
+        <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Безопасность в интернете"
+            
+              , "Цифровая безопасность"
+            
+              , "Киберугрозы"
+            
+              , "Конфиденциальность в интернете"
+            
+              , "Защита данных"
+            
+              , "Информационная безопасность"
+            
+              , "Технологии"
+            
+              , "Киберзащита"
+            
+              , "Осведомленность о кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/cybersecurity-for-beginners-a-non-technical-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите основы кибербезопасности и практические способы защиты цифровой жизни от киберугроз.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity-for-beginners.webp" length="31318" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как создать надежные пароли в 2026 году: полное руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-create-strong-passwords/</link>
+        
+        <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "надежные пароли"
+            
+              , "безопасность паролей"
+            
+              , "парольные фразы"
+            
+              , "менеджеры паролей"
+            
+              , "Bitwarden"
+            
+              , "безопасность в интернете"
+            
+              , "кибербезопасность"
+            
+              , "стойкость пароля"
+            
+              , "защита данных"
+            
+              , "цифровая безопасность"
+            
+              , "рекомендации по паролям"
+            
+              , "советы по паролям"
+            
+              , "безопасные пароли"
+            
+              , "инструменты управления паролями"
+            
+              , "конфиденциальность в интернете"
+            
+              , "защита учетных записей"
+            
+              , "защита данных"
+            
+              , "сложность пароля"
+            
+              , "генератор паролей"
+            
+              , "двухфакторная аутентификация"
+            
+              , "создание надежных паролей"
+            
+              , "руководство по управлению паролями"
+            
+              , "советы по безопасности паролей"
+            
+              , "создание безопасных паролей"
+            
+              , "защита паролей"
+            
+              , "безопасное управление паролями"
+            
+              , "преимущества менеджеров паролей"
+            
+              , "безопасность парольных фраз"
+            
+              , "рекомендации по менеджерам паролей"
+            
+              , "рекомендации по использованию менеджера паролей"
+            
+              , "безопасность менеджеров паролей"
+            
+              , "функции менеджеров паролей"
+            
+              , "безопасность паролей в 2026 году"
+            
+              , "взлом паролей с помощью ИИ"
+            
+              , "ключи доступа"
+            
+              , "беспарольная аутентификация"
+            
+              , "подстановка учетных данных"
+            
+              , "утечки паролей"
+            
+              , "энтропия пароля"
+            
+              , "гигиена паролей"
+            
+              , "шифрование с нулевым разглашением"
+            
+              , "хранилище паролей"
+            
+              , "биометрическая аутентификация"
+            
+              , "аппаратные ключи безопасности"
+            
+              , "политики паролей"
+            
+              , "безопасность учетных записей"
+            
+              , "защита личности"
+            
+              , "методы аутентификации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-create-strong-passwords/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Создавайте надежные пароли с помощью парольных фраз, уникальных учетных данных, менеджеров паролей и многофакторной аутентификации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.webp" length="26220" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защитите устройства от вредоносных программ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-protect-your-devices-from-malware/</link>
+        
+        <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "защита от вредоносных программ"
+            
+              , "безопасность устройств"
+            
+              , "советы по кибербезопасности"
+            
+              , "антивирусное программное обеспечение"
+            
+              , "безопасный веб-серфинг"
+            
+              , "безопасность паролей"
+            
+              , "двухфакторная аутентификация"
+            
+              , "осведомленность о социальной инженерии"
+            
+              , "безопасность домашней сети"
+            
+              , "безопасность программного обеспечения"
+            
+              , "резервное копирование данных"
+            
+              , "новости кибербезопасности"
+            
+              , "обновления операционной системы"
+            
+              , "безопасность электронной почты"
+            
+              , "защита от фишинга"
+            
+              , "безопасность в интернете"
+            
+              , "киберугрозы"
+            
+              , "цифровая безопасность"
+            
+              , "конфиденциальность в интернете"
+            
+              , "киберзащита"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-protect-your-devices-from-malware/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о практических мерах, которые помогут защитить устройства от вредоносных программ и сохранить конфиденциальность данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_animated_shield_guarding_devices_against_malware_threats.webp" length="107390" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство по лучшим практикам защиты и управления паролями</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/</link>
+        
+        <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "безопасность паролей"
+            
+              , "управление паролями"
+            
+              , "безопасность в сети"
+            
+              , "киберугрозы"
+            
+              , "надежные пароли"
+            
+              , "двухфакторная аутентификация"
+            
+              , "менеджер паролей"
+            
+              , "безопасность данных"
+            
+              , "кража личности"
+            
+              , "фишинговые аферы"
+            
+              , "общественные сети Wi-Fi"
+            
+              , "конфиденциальность в Интернете"
+            
+              , "безопасность пользователей в сети"
+            
+              , "цифровая безопасность"
+            
+              , "безопасность Интернета"
+            
+              , "кибербезопасность"
+            
+              , "защита данных"
+            
+              , "безопасность учетной записи"
+            
+              , "онлайн-учетные записи"
+            
+              , "защита в сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о важности безопасности паролей и ознакомьтесь с лучшими методами управления паролями для защиты вашей личной информации и идентификации в Интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.webp" length="81294" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как распознать фишинговые письма, SMS и звонки</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-identify-phishing/</link>
+        
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "фишинг"
+            
+              , "безопасность в интернете"
+            
+              , "безопасность электронной почты"
+            
+              , "кибербезопасность"
+            
+              , "интернет-безопасность"
+            
+              , "фишинговые письма"
+            
+              , "фишинговые SMS"
+            
+              , "фишинговые звонки"
+            
+              , "цифровые угрозы"
+            
+              , "кража личности"
+            
+              , "защита данных"
+            
+              , "интернет-мошенничество"
+            
+              , "онлайн-мошенничество"
+            
+              , "конфиденциальность в интернете"
+            
+              , "советы по безопасности в интернете"
+            
+              , "киберпреступность"
+            
+              , "информационная безопасность"
+            
+              , "безопасность паролей"
+            
+              , "защита данных"
+            
+              , "осведомлённость о безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-identify-phishing/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как распознавать фишинг в письмах, SMS и телефонных звонках, чтобы защитить личные данные.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp" length="63564" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

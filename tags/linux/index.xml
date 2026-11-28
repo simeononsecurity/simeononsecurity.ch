@@ -1,0 +1,708 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Linux on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/linux/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/linux/</link>
+
+    <description>Recent content in Linux on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита Windows и Linux</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link>
+        
+        <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Языки сценариев"
+            
+              , "Безопасность систем"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "Государственные нормативы"
+            
+              , "Киберугрозы"
+            
+              , "Безопасное написание сценариев"
+            
+              , "Соответствие требованиям"
+            
+              , "Программирование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как PowerShell и Python помогают усилить защиту систем, в этом подробном анализе кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как работает DNS: корневая зона DNS, ее значение и устранение неполадок</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-does-dns-work/</link>
+        
+        <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Основы DNS"
+            
+              , "Корневая зона DNS"
+            
+              , "Система доменных имен"
+            
+              , "Разрешение DNS"
+            
+              , "Иерархия DNS"
+            
+              , "Кеширование DNS"
+            
+              , "Диагностика DNS"
+            
+              , "Записи DNS"
+            
+              , "Управление DNS"
+            
+              , "Команды DNS"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-does-dns-work/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как работают DNS и корневая зона DNS, как устроены их иерархия, разрешение имен и кеширование, а также как диагностировать проблемы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_image_depicting_interconnected_computer_ne.webp" length="167680" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Создайте доступную и безопасную домашнюю лабораторию для ИТ-тестирования</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</link>
+        
+        <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "домашняя лаборатория"
+            
+              , "виртуализация"
+            
+              , "оборудование"
+            
+              , "программное обеспечение"
+            
+              , "сети"
+            
+              , "безопасность"
+            
+              , "обучение"
+            
+              , "тестирование"
+            
+              , "ИТ-специалист"
+            
+              , "энтузиаст технологий"
+            
+              , "VMware"
+            
+              , "Proxmox"
+            
+              , "Hyper-V"
+            
+              , "Linux"
+            
+              , "Windows"
+            
+              , "настройка сети"
+            
+              , "управление виртуальными машинами"
+            
+              , "резервное копирование и восстановление"
+            
+              , "облачные вычисления"
+            
+              , "кибербезопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как настроить недорогую безопасную домашнюю лабораторию для практической работы с программами, оборудованием и сетями.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.webp" length="163548" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство для начинающих: Использование командной строки Linux для обеспечения кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/a-beginners-guide-to-using-the-linux-command-line/</link>
+        
+        <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Linux"
+            
+              , "Командная строка"
+            
+              , "Кибербезопасность"
+            
+              , "Руководство для начинающих"
+            
+              , "Сканирование сети"
+            
+              , "Тестирование уязвимостей"
+            
+              , "Анализ вредоносного ПО"
+            
+              , "Разрешения"
+            
+              , "Сетевой трафик"
+            
+              , "Состояние процесса"
+            
+              , "Сетевая статистика"
+            
+              , "Поиск файлов"
+            
+              , "Wireshark"
+            
+              , "TCPDump"
+            
+              , "Nmap"
+            
+              , "интерфейс командной строки Linux"
+            
+              , "Безопасность"
+            
+              , "Тестирование на проникновение"
+            
+              , "Цифровая криминалистика"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/a-beginners-guide-to-using-the-linux-command-line/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как использовать командную строку Linux для обеспечения кибербезопасности с помощью базовых и расширенных команд.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/a-beginners-guide-to-using-the-linux-command-line.webp" length="236274" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible для начинающих 2026</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ansible-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Введение в Ansible"
+            
+              , "Автоматизация управления ИТ-инфраструктурой"
+            
+              , "Основы Ansible"
+            
+              , "Автоматизация ИТ-инфраструктуры"
+            
+              , "Управление конфигурацией"
+            
+              , "Развертывание приложений"
+            
+              , "Подготовка инфраструктуры"
+            
+              , "Непрерывная доставка"
+            
+              , "Безопасность и соответствие требованиям"
+            
+              , "Оркестрация"
+            
+              , "YAML"
+            
+              , "Модули Ansible"
+            
+              , "Роли"
+            
+              , "Лучшие практики"
+            
+              , "Контроль версий"
+            
+              , "Тестирование"
+            
+              , "Red Hat"
+            
+              , "Системные администраторы"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Windows"
+            
+              , "Установка Ansible"
+            
+              , "Инвентаризация Ansible"
+            
+              , "Плейбуки Ansible"
+            
+              , "Модули Ansible"
+            
+              , "Роли Ansible"
+            
+              , "Лучшие практики Ansible"
+            
+              , "Тестирование Ansible"
+            
+              , "Инструмент автоматизации ИТ-инфраструктуры"
+            
+              , "Учебник по Ansible"
+            
+              , "Автоматизация управления инфраструктурой"
+            
+              , "Ansible для начинающих"
+            
+              , "Изучение Ansible"
+            
+              , "Учебник Ansible 2026"
+            
+              , "Ansible и Terraform"
+            
+              , "Ansible и Puppet"
+            
+              , "Примеры плейбуков Ansible"
+            
+              , "Автоматизация Ansible"
+            
+              , "Инструменты DevOps"
+            
+              , "Инфраструктура как код"
+            
+              , "Ansible AWX"
+            
+              , "Ansible Tower"
+            
+              , "Коллекции Ansible"
+            
+              , "Ansible Galaxy"
+            
+              , "Ansible Vault"
+            
+              , "Облачная автоматизация Ansible"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ansible-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Руководство по Ansible на 2026 год: установка, плейбуки, роли, примеры, лучшие практики и сравнение с Terraform, Puppet и Chef.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ansible-for-beginners.webp" length="153600" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Linux для начинающих: как изучать дистрибутивы на базе Debian и RHEL</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-do-i-learn-linux/</link>
+        
+        <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Linux"
+            
+              , "Debian"
+            
+              , "Ubuntu"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "Red Hat"
+            
+              , "Операционная система"
+            
+              , "Открытый исходный код"
+            
+              , "Системное администрирование"
+            
+              , "Команды"
+            
+              , "Терминал"
+            
+              , "Сообщество"
+            
+              , "Корпоративная среда"
+            
+              , "Профессионалы"
+            
+              , "Обучение"
+            
+              , "Сети"
+            
+              , "Безопасность"
+            
+              , "Настройка"
+            
+              , "Стабильность"
+            
+              , "Гибкость"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-do-i-learn-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, с чего начать работу с Linux, и найдите материалы по дистрибутивам Debian и RHEL и основным командам.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.webp" length="95298" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемые сертификаты</title>
+        
+          <link>https://ru.simeononsecurity.com/recommendations/certifications/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемые сертификаты"
+            
+              , "Лучшие кибер- и ИТ-сертификаты"
+            
+              , "Лучшие сертификаты для тех, кто ищет работу"
+            
+              , "Рекомендации по сертификации SimeonOnSecurity"
+            
+              , "Сертификаты CompTIA"
+            
+              , "Сертификация Cisco"
+            
+              , "Сертификация EC-Council"
+            
+              , "Сертификация ISC2"
+            
+              , "Сертификация Juniper"
+            
+              , "Сертификация Microsoft"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/recommendations/certifications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          SimeonOnSecurity рекомендует лучшие кибер- и ИТ-сертификации для тех, кто собирается поступать на работу. В список включены сертификаты CompTIA, Cisco, EC-Council, ISC2, Juniper, Microsoft и Offensive Security с различными уровнями квалификации - начальный, ассоциированный, профессиональный и экспертный. Все перечисленные сертификаты имеют прямое отношение к должностям в сфере кибербезопасности и принесут большую пользу кандидату. Ознакомьтесь с интерактивной дорожной картой сертификации, чтобы получить наглядное представление. Также доступны такие учебные ресурсы, как книги и тренинги.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемый антивирус</title>
+        
+          <link>https://ru.simeononsecurity.com/recommendations/anti-virus/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемый антивирус"
+            
+              , "AV"
+            
+              , "Антивирус"
+            
+              , "Антивирус"
+            
+              , "Домашнее использование"
+            
+              , "Использование в бизнесе"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "MacOS"
+            
+              , "Кибербезопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/recommendations/anti-virus/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В данной статье представлен список рекомендуемых антивирусных продуктов для домашнего и корпоративного использования, составленный компанией SimeonOnSecurity. Рейтинг составлен на основе профессионального мнения и тестирования на вредоносных образцах и учитывает только возможности антивируса, его обнаружение, удобство использования и производительность. Пользователи Windows могут выбирать как платные, так и бесплатные варианты, в то время как пользователи Linux и MacOS ограничены в выборе, причем платные варианты доступны только для Linux. Отметим, что использование антивируса в Linux и MacOS не является обязательным, а использование VPN или менеджера паролей, поставляемых вместе с антивирусным пакетом, не рекомендуется. В статье также даны рекомендации по VPN-провайдерам. Рекомендации по использованию в бизнесе находятся в стадии разработки.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

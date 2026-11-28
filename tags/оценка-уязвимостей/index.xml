@@ -1,0 +1,968 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Оценка Уязвимостей on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Оценка Уязвимостей on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D0%B0-%D1%83%D1%8F%D0%B7%D0%B2%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B5%D0%B9/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D0%B0-%D1%83%D1%8F%D0%B7%D0%B2%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B5%D0%B9/</link>
+
+    <description>Recent content in Оценка Уязвимостей on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D0%B0-%D1%83%D1%8F%D0%B7%D0%B2%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B5%D0%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Уязвимости камер Flock Safety: обнаружено более 50 проблем</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Исследования безопасности"
+            
+              , "Анализ уязвимостей"
+            
+              , "Технологии наблюдения"
+            
+              , "Кибербезопасность"
+            
+              , "Защита конфиденциальности"
+            
+              , "Безопасность IoT"
+            
+              , "Физическая безопасность"
+            
+              , "Сетевая безопасность"
+            
+              , "Критическая инфраструктура"
+            
+              , "Государственные технологии"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Исследование уязвимостей камер Flock Safety рассматривает раскрытые учетные данные, слабые средства защиты, физический доступ и ограничения раскрытия информации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Укрепление киберустойчивости</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</link>
+        
+        <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Тестирование на проникновение"
+            
+              , "Этичный взлом"
+            
+              , "Стратегии кибербезопасности"
+            
+              , "Меры защиты"
+            
+              , "Оценка уязвимостей"
+            
+              , "Реагирование на инциденты"
+            
+              , "Соответствие требованиям"
+            
+              , "Средства контроля безопасности"
+            
+              , "Киберустойчивость"
+            
+              , "Будущее кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как регулярные тесты на проникновение выявляют уязвимости, пригодные для эксплуатации, помогают устранять риски по приоритету и проверяют защиту систем и приложений.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-importance-of-regular-penetration-testing-for-cybersecurity.webp" length="85258" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защитите организацию: преимущества ПО для управления инцидентами</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</link>
+        
+        <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Управление инцидентами"
+            
+              , "Защита данных"
+            
+              , "Цифровая безопасность"
+            
+              , "Снижение угроз"
+            
+              , "Технологические решения"
+            
+              , "Киберзащита"
+            
+              , "Информационная безопасность"
+            
+              , "Непрерывность бизнеса"
+            
+              , "Управление рисками"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как ПО для управления инцидентами безопасности улучшает реагирование, отслеживание и соблюдение требований, защищая цифровые активы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/benefits-of-security-incident-management-software.webp" length="227836" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита Active Directory</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/active-directory-security-best-practices/</link>
+        
+        <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Управление сетью"
+            
+              , "Информационные технологии"
+            
+              , "Защита данных"
+            
+              , "Корпоративная безопасность"
+            
+              , "Цифровая инфраструктура"
+            
+              , "Контроль доступа"
+            
+              , "Аутентификация пользователей"
+            
+              , "Рекомендации по IT"
+            
+              , "Осведомленность о безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/active-directory-security-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить Active Directory, сохранить данные и предотвратить вторжения в сетевую инфраструктуру.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Топ-5 техник безопасности и укрепления Linux</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link>
+        
+        <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Linux"
+            
+              , "Безопасность системы"
+            
+              , "Открытый исходный код"
+            
+              , "Укрепление"
+            
+              , "ИТ"
+            
+              , "Защита данных"
+            
+              , "Сетевая безопасность"
+            
+              , "Информатика"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя топ-5 техник безопасности Linux, чтобы укрепить вашу систему против угроз. Повышайте целостность системы и защищайте конфиденциальные данные с помощью экспертных мер по укреплению.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освойте тестирование на проникновение: продвинутые методы и реальные примеры</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link>
+        
+        <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Тестирование на проникновение"
+            
+              , "Этичный хакинг"
+            
+              , "Безопасность сетей"
+            
+              , "Безопасность веб-приложений"
+            
+              , "Безопасность беспроводных сетей"
+            
+              , "Социальная инженерия"
+            
+              , "Безопасность мобильных приложений"
+            
+              , "Облачная безопасность"
+            
+              , "Развитие карьеры"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите продвинутые методы, инструменты и реальные примеры тестирования на проникновение, чтобы развить навыки и карьеру в кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>План подготовки к сертификационному экзамену CEH: советы и стратегии</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</link>
+        
+        <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Информационная безопасность"
+            
+              , "Профессиональное развитие"
+            
+              , "ИТ-сертификация"
+            
+              , "Сетевая безопасность"
+            
+              , "Этический хакинг"
+            
+              , "Подготовка к экзаменам"
+            
+              , "Учебный план"
+            
+              , "Управление временем"
+            
+              , "Карьерный рост"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как составить эффективный учебный план для сдачи сертификационного экзамена CEH с советами и стратегиями для достижения успеха.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.webp" length="78844" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Эффективный контроль доступа: лучшие практики для ИТ-безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/</link>
+        
+        <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Контроль доступа"
+            
+              , "ИТ-безопасность"
+            
+              , "Кибербезопасность"
+            
+              , "Пароли"
+            
+              , "Биометрическая аутентификация"
+            
+              , "Ролевое управление доступом"
+            
+              , "Многофакторная аутентификация"
+            
+              , "Защита данных"
+            
+              , "Оценка рисков"
+            
+              , "Обучение сотрудников"
+            
+              , "Средства аудита"
+            
+              , "Средства отчетности"
+            
+              , "Тестирование на проникновение"
+            
+              , "Оценка уязвимостей"
+            
+              , "Физический контроль доступа"
+            
+              , "Логический контроль доступа"
+            
+              , "Нормативные требования"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить конфиденциальные данные и системы с помощью эффективных мер контроля доступа в вашей ИТ-среде.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_locked_door_with_a_fingerprint_scanner.webp" length="148694" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ключевая роль аналитики угроз в реагировании на инциденты</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-role-of-threat-intelligence-in-incident-reponse-and-mitigations/</link>
+        
+        <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Аналитика угроз"
+            
+              , "Реагирование на инциденты"
+            
+              , "Кибербезопасность"
+            
+              , "Снижение последствий"
+            
+              , "Кибератаки"
+            
+              , "Анализ данных"
+            
+              , "Информационные системы"
+            
+              , "Управление рисками"
+            
+              , "Оценка уязвимостей"
+            
+              , "Возможности обнаружения"
+            
+              , "Меры защиты"
+            
+              , "Стратегическая аналитика"
+            
+              , "Тактическая аналитика"
+            
+              , "Оперативная аналитика"
+            
+              , "Ландшафт угроз"
+            
+              , "Новые тенденции"
+            
+              , "Осведомленность о безопасности"
+            
+              , "Цифровая криминалистика"
+            
+              , "Киберугрозы"
+            
+              , "Темная сеть"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-role-of-threat-intelligence-in-incident-reponse-and-mitigations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как аналитика угроз укрепляет кибербезопасность, помогая снижать ущерб от кибератак и реагировать на них.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.webp" length="195232" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как провести оценку рисков безопасности в организации</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-conduct-a-security-risk-assessment/</link>
+        
+        <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Оценка рисков безопасности"
+            
+              , "Кибербезопасность"
+            
+              , "Оценка уязвимостей"
+            
+              , "Выявление угроз"
+            
+              , "Управление рисками"
+            
+              , "Стратегии снижения рисков"
+            
+              , "Физическая безопасность"
+            
+              , "Информационная безопасность"
+            
+              , "Защита активов"
+            
+              , "Защита данных"
+            
+              , "Приоритизация рисков"
+            
+              , "Протоколы безопасности"
+            
+              , "ИТ-системы"
+            
+              , "Обучение сотрудников"
+            
+              , "Пересмотр оценки рисков"
+            
+              , "Внутренние угрозы"
+            
+              , "Внешние угрозы"
+            
+              , "Угрозы безопасности"
+            
+              , "Предотвращение утечек данных"
+            
+              , "Анализ рисков"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-conduct-a-security-risk-assessment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как провести комплексную оценку рисков безопасности, чтобы защитить конфиденциальную информацию и активы организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.webp" length="98508" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как создать безопасную и соответствующую требованиям облачную среду</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/building-a-secure-and-compliant-cloud-environment/</link>
+        
+        <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "облачные вычисления"
+            
+              , "кибербезопасность"
+            
+              , "конфиденциальность данных"
+            
+              , "соответствие требованиям"
+            
+              , "HIPAA"
+            
+              , "PCI DSS"
+            
+              , "GDPR"
+            
+              , "резервное копирование данных"
+            
+              , "аварийное восстановление"
+            
+              , "шифрование"
+            
+              , "контроль доступа"
+            
+              , "многофакторная аутентификация"
+            
+              , "непрерывный мониторинг"
+            
+              , "оценка уязвимостей"
+            
+              , "утечки данных"
+            
+              , "внутренние угрозы"
+            
+              , "ошибочная конфигурация"
+            
+              , "потеря данных"
+            
+              , "облачный провайдер"
+            
+              , "меры безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/building-a-secure-and-compliant-cloud-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как создать безопасную и соответствующую требованиям облачную среду для вашей компании с помощью этого подробного руководства.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/building-a-secure-and-compliant-cloud-environment.webp" length="248838" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита сетевой инфраструктуры от APT-атак</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-harden-your-network-against-advanced-persistent-threats-apts/</link>
+        
+        <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "безопасность сети"
+            
+              , "кибербезопасность"
+            
+              , "целевые устойчивые угрозы"
+            
+              , "сетевая инфраструктура"
+            
+              , "контроль доступа"
+            
+              , "шифрование данных"
+            
+              , "обучение сотрудников"
+            
+              , "план реагирования на инциденты"
+            
+              , "оценка уязвимостей"
+            
+              , "политика безопасности"
+            
+              , "мониторинг сетевого трафика"
+            
+              , "фишинговые атаки"
+            
+              , "защита конечных устройств"
+            
+              , "обнаружение вторжений"
+            
+              , "межсетевые экраны"
+            
+              , "SIEM"
+            
+              , "резервное копирование данных"
+            
+              , "сегментация сети"
+            
+              , "киберугрозы"
+            
+              , "конфиденциальность данных"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-harden-your-network-against-advanced-persistent-threats-apts/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, какие шаги помогут укрепить сетевую инфраструктуру против целевых устойчивых угроз (APT) и защитить организацию от кибератак.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.webp" length="55588" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

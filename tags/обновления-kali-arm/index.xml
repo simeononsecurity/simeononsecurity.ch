@@ -1,0 +1,157 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Обновления Kali ARM on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Обновления Kali ARM on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-kali-arm/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-kali-arm/</link>
+
+    <description>Recent content in Обновления Kali ARM on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 08 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-kali-arm/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kali Purple 2023.1: обновления и ключевые функции</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/kali-purple-2023.1-a-review/</link>
+        
+        <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Kali Linux"
+            
+              , "Kali Purple"
+            
+              , "2023.1"
+            
+              , "этичный хакинг"
+            
+              , "тестирование на проникновение"
+            
+              , "кибербезопасность"
+            
+              , "инструменты"
+            
+              , "фреймворк эксплуатации"
+            
+              , "обновления Kali ARM"
+            
+              , "Kali NetHunter"
+            
+              , "документация Kali"
+            
+              , "поддержка ядра"
+            
+              , "поддержка Bluetooth"
+            
+              , "LineageOS"
+            
+              , "OneUI"
+            
+              , "Radxa Zero"
+            
+              , "одноплатный компьютер"
+            
+              , "исправления ядра"
+            
+              , "вклад сообщества"
+            
+              , "Kali Discord"
+            
+              , "обновления Linux"
+            
+              , "дистрибутив для этичного хакинга"
+            
+              , "новые функции"
+            
+              , "улучшения"
+            
+              , "Xfce"
+            
+              , "KDE"
+            
+              , "GNOME"
+            
+              , "Xfce 4.18"
+            
+              , "KDE Plasma 5.27"
+            
+              , "новые инструменты и пакеты"
+            
+              , "поддержка устройств ARM"
+            
+              , "документация Kali"
+            
+              , "государственные нормы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/kali-purple-2023.1-a-review/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Обзор исторических функций, инструментов и улучшений Kali Purple 2023.1 с актуальными ссылками для лабораторий безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_3D_animated_Kali_Linux_dragon_mascot_surrounded.webp" length="162086" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

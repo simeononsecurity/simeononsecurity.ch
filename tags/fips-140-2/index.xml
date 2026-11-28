@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FIPS 140-2 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>FIPS 140-2 on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/fips-140-2/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/fips-140-2/</link>
+
+    <description>Recent content in FIPS 140-2 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 13 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/fips-140-2/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита конфиденциальности данных</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</link>
+        
+        <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Безопасность данных"
+            
+              , "Конфиденциальность"
+            
+              , "Кибербезопасность"
+            
+              , "Цифровая защита"
+            
+              , "Технические аксессуары"
+            
+              , "Шифрование данных"
+            
+              , "Безопасность в интернете"
+            
+              , "Устройства готовый к использованию"
+            
+              , "Цифровая конфиденциальность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о USB-блокираторах данных и зашифрованных накопителях на Amazon, чтобы усилить защиту данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/usb-data-lock-vault.webp" length="94076" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

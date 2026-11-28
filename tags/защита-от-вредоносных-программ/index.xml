@@ -1,0 +1,1060 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Защита От Вредоносных Программ on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Защита От Вредоносных Программ on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BE%D1%82-%D0%B2%D1%80%D0%B5%D0%B4%D0%BE%D0%BD%D0%BE%D1%81%D0%BD%D1%8B%D1%85-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BE%D1%82-%D0%B2%D1%80%D0%B5%D0%B4%D0%BE%D0%BD%D0%BE%D1%81%D0%BD%D1%8B%D1%85-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC/</link>
+
+    <description>Recent content in Защита От Вредоносных Программ on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BE%D1%82-%D0%B2%D1%80%D0%B5%D0%B4%D0%BE%D0%BD%D0%BE%D1%81%D0%BD%D1%8B%D1%85-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство по защите конечных устройств для удалённых команд</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</link>
+        
+        <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защита конечных устройств"
+            
+              , "Безопасность удалённой работы"
+            
+              , "Руководство по кибербезопасности"
+            
+              , "Защита данных"
+            
+              , "Практики ИТ-безопасности"
+            
+              , "Будущие тенденции в безопасности"
+            
+              , "Безопасная удалённая работа"
+            
+              , "Предотвращение киберугроз"
+            
+              , "Защита конфиденциальности данных"
+            
+              , "Решения для ИТ-безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите удалённые устройства с помощью инвентаризации, укрепления конфигурации, обновлений, MFA, шифрования, EDR, политик доступа, мониторинга и плана реагирования.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-ultimate-guide-to-endpoint-security-for-remote-teams.webp" length="58154" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита мобильных устройств от вредоносных программ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-rise-of-mobile-malware_-staying-safe-on-the-go/</link>
+        
+        <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Мобильные вредоносные программы"
+            
+              , "Киберугрозы"
+            
+              , "Мобильная безопасность"
+            
+              , "Развитие вредоносных программ"
+            
+              , "Меры предосторожности для мобильных устройств"
+            
+              , "Сложные вредоносные программы"
+            
+              , "Защита от мобильных вредоносных программ"
+            
+              , "Новые киберугрозы"
+            
+              , "Рекомендации по кибербезопасности"
+            
+              , "Меры безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-rise-of-mobile-malware_-staying-safe-on-the-go/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите мобильные устройства от троянов, программ-вымогателей, шпионских программ, фишинга, вредоносных приложений, небезопасных сетей и кражи учетных записей с помощью практических мер.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-rise-of-mobile-malware_-staying-safe-on-the-go.webp" length="59624" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освойте кибербезопасность</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe/</link>
+        
+        <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Практики кибербезопасности"
+            
+              , "Цифровая безопасность"
+            
+              , "Безопасность в интернете"
+            
+              , "Предотвращение киберугроз"
+            
+              , "Защита данных"
+            
+              , "Конфиденциальность в интернете"
+            
+              , "Меры безопасности"
+            
+              , "Технологическая безопасность"
+            
+              , "Информационная безопасность"
+            
+              , "Кибергигиена"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Выработайте ежедневные привычки для защиты паролей, устройств, домашней сети, данных и конфиденциальности от киберугроз.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe.webp" length="175160" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Создание человеческого фаервола: обучение сотрудников безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/building-a-human-firewall_-training-employees-in-cybersecurity/</link>
+        
+        <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Обучение кибербезопасности"
+            
+              , "Расширение возможностей сотрудников"
+            
+              , "Стратегии человеческого фаервола"
+            
+              , "Осведомленность о безопасности"
+            
+              , "Методы цифровой защиты"
+            
+              , "Снижение угроз"
+            
+              , "Имитация кибератак"
+            
+              , "Разработка учебной программы"
+            
+              , "Измерение результатов обучения"
+            
+              , "Постоянное улучшение"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/building-a-human-firewall_-training-employees-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Создайте человеческий фаервол с помощью обучения по ролям, реалистичных фишинговых упражнений, понятных процедур сообщения, полезных показателей и регулярного повторения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/building-a-human-firewall_-training-employees-in-cybersecurity.webp" length="118578" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 основных проверок кибербезопасности для домашней сети</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</link>
+        
+        <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность домашней сети"
+            
+              , "Проверки кибербезопасности"
+            
+              , "Цифровая защита"
+            
+              , "Защита сети"
+            
+              , "Безопасность IoT"
+            
+              , "Конфиденциальность данных"
+            
+              , "Предотвращение киберугроз"
+            
+              , "Безопасность Wi-Fi"
+            
+              , "Защита персональной информации"
+            
+              , "Советы по цифровой безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проведите аудит домашней сети с помощью десяти практических проверок, охватывающих обновления роутера, шифрование Wi-Fi, безопасность DNS, инвентаризацию устройств, резервное копирование и мониторинг.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/10-essential-cybersecurity-checks-for-your-home-network.webp" length="141312" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Максимальное усиление безопасности сетей и облачной среды</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link>
+        
+        <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасность облака"
+            
+              , "Защита сетей"
+            
+              , "Цифровая безопасность"
+            
+              , "Конфиденциальность данных"
+            
+              , "ИТ-безопасность"
+            
+              , "Бизнес-технологии"
+            
+              , "Цифровая защита"
+            
+              , "Киберугрозы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об угрозах, мерах защиты и примерах инцидентов, чтобы усилить безопасность сетей и облачной среды.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защитите домашнюю сеть: работайте удаленно спокойно и безопасно</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/secure-home-network-teleworking/</link>
+        
+        <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Удаленная работа"
+            
+              , "Безопасность сетей"
+            
+              , "Домашняя беспроводная сеть"
+            
+              , "Работа на удаленке"
+            
+              , "Кибербезопасность"
+            
+              , "Работа из дома"
+            
+              , "Безопасность в интернете"
+            
+              , "Защита данных"
+            
+              , "Цифровая безопасность"
+            
+              , "Конфиденциальность в интернете"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/secure-home-network-teleworking/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Работайте удаленно безопасно и защищайте свои данные. Выполните эти шаги, чтобы защитить домашнюю беспроводную сеть и безопасно работать вне офиса.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/secure-home-network-cartoon.webp" length="74410" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS против AdGuard: какой DNS-блокировщик рекламы лучше?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link>
+        
+        <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Блокировка рекламы"
+            
+              , "DNS"
+            
+              , "Конфиденциальность"
+            
+              , "Безопасность в интернете"
+            
+              , "Защита в сети"
+            
+              , "Цифровая безопасность"
+            
+              , "Решения для браузера"
+            
+              , "Конфиденциальность в сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните NextDNS и AdGuard, два DNS-блокировщика рекламы, и выберите сервис для своих привычек просмотра сайтов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS, AdGuard, Quad9 и Cloudflare: сравнение DNS в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link>
+        
+        <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Сравнение DNS"
+            
+              , "Защита конфиденциальности"
+            
+              , "Блокировка рекламы"
+            
+              , "Безопасность сети"
+            
+              , "Безопасность Интернета"
+            
+              , "DNS-резолвер"
+            
+              , "Конфиденциальность в сети"
+            
+              , "Веб-безопасность"
+            
+              , "Фильтрация DNS"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение NextDNS, AdGuard DNS, Quad9, Cloudflare DNS и Pi-hole в 2026 году по безопасности, конфиденциальности и производительности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасные привычки при работе в интернете</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Безопасность в интернете"
+            
+              , "Безопасный просмотр веб-страниц"
+            
+              , "Безопасность интернета"
+            
+              , "Защита личных данных"
+            
+              , "Конфиденциальность в интернете"
+            
+              , "Интернет-угрозы"
+            
+              , "Предотвращение киберпреступлений"
+            
+              , "Предотвращение кражи личности"
+            
+              , "Безопасность в сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Практические привычки безопасного просмотра веб-страниц помогают снизить сетевые угрозы и защитить личные данные.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/developing-secure-browsing-habit-for-a-safer-online-experience.webp" length="36240" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основы кибербезопасности: руководство по защите цифровой жизни</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/cybersecurity-for-beginners-a-non-technical-guide/</link>
+        
+        <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Безопасность в интернете"
+            
+              , "Цифровая безопасность"
+            
+              , "Киберугрозы"
+            
+              , "Конфиденциальность в интернете"
+            
+              , "Защита данных"
+            
+              , "Информационная безопасность"
+            
+              , "Технологии"
+            
+              , "Киберзащита"
+            
+              , "Осведомленность о кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/cybersecurity-for-beginners-a-non-technical-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите основы кибербезопасности и практические способы защиты цифровой жизни от киберугроз.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity-for-beginners.webp" length="31318" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как избежать фишинга: тактика, предотвращение и защита</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/</link>
+        
+        <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "фишинговые аферы"
+            
+              , "информационная безопасность"
+            
+              , "онлайн-угрозы"
+            
+              , "подмена электронной почты"
+            
+              , "социальная инженерия"
+            
+              , "защита от вредоносных программ"
+            
+              , "онлайн-безопасность"
+            
+              , "безопасность данных"
+            
+              , "кража личных данных"
+            
+              , "защита паролем"
+            
+              , "двухфакторная аутентификация"
+            
+              , "обновления программного обеспечения"
+            
+              , "правительственные постановления"
+            
+              , "онлайн-конфиденциальность"
+            
+              , "киберосведомленность"
+            
+              , "цифровое мошенничество"
+            
+              , "осведомленность о фишинге"
+            
+              , "безопасность в социальных сетях"
+            
+              , "онлайн-мошенничество"
+            
+              , "предотвращение киберпреступлений"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о тактике, используемой фишинговыми мошенниками, и откройте для себя эффективные стратегии, чтобы не стать жертвой.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp" length="74014" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защитите устройства от вредоносных программ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-protect-your-devices-from-malware/</link>
+        
+        <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "защита от вредоносных программ"
+            
+              , "безопасность устройств"
+            
+              , "советы по кибербезопасности"
+            
+              , "антивирусное программное обеспечение"
+            
+              , "безопасный веб-серфинг"
+            
+              , "безопасность паролей"
+            
+              , "двухфакторная аутентификация"
+            
+              , "осведомленность о социальной инженерии"
+            
+              , "безопасность домашней сети"
+            
+              , "безопасность программного обеспечения"
+            
+              , "резервное копирование данных"
+            
+              , "новости кибербезопасности"
+            
+              , "обновления операционной системы"
+            
+              , "безопасность электронной почты"
+            
+              , "защита от фишинга"
+            
+              , "безопасность в интернете"
+            
+              , "киберугрозы"
+            
+              , "цифровая безопасность"
+            
+              , "конфиденциальность в интернете"
+            
+              , "киберзащита"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-protect-your-devices-from-malware/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о практических мерах, которые помогут защитить устройства от вредоносных программ и сохранить конфиденциальность данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_animated_shield_guarding_devices_against_malware_threats.webp" length="107390" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Окончательный сценарий настройки защиты Applocker: повышение безопасности Windows</title>
+        
+          <link>https://ru.simeononsecurity.com/github/applocker-hardening/</link>
+        
+        <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность Windows"
+            
+              , "Блокировщик приложений"
+            
+              , "Сценарий конфигурации"
+            
+              , "Информационная безопасность"
+            
+              , "Защита от вредоносных программ"
+            
+              , "Предотвращение угроз"
+            
+              , "Сценарий PowerShell"
+            
+              , "Рекомендуемые Microsoft правила блокировки"
+            
+              , "Согласие"
+            
+              , "Руководство NSA Cyber Bitlocker"
+            
+              , "Управление приложениями"
+            
+              , "Закалка окон"
+            
+              , "Киберугрозы"
+            
+              , "Защита компьютера"
+            
+              , "Киберзащита"
+            
+              , "Безопасные окна"
+            
+              , "Окончательный список обхода Applocker"
+            
+              , "Защитник Windows"
+            
+              , "Блокировка системы"
+            
+              , "sos-applockerhardening.ps1"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/github/applocker-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите свою систему Windows от злонамеренных атак с помощью сценария настройки Ultimate Applocker Hardening.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

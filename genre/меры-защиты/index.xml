@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Меры Защиты on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Меры Защиты on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%BC%D0%B5%D1%80%D1%8B-%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D1%8B/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%BC%D0%B5%D1%80%D1%8B-%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D1%8B/</link>
+
+    <description>Recent content in Меры Защиты on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%BC%D0%B5%D1%80%D1%8B-%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Укрепление киберустойчивости</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</link>
+        
+        <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Тестирование на проникновение"
+            
+              , "Этичный взлом"
+            
+              , "Стратегии кибербезопасности"
+            
+              , "Меры защиты"
+            
+              , "Оценка уязвимостей"
+            
+              , "Реагирование на инциденты"
+            
+              , "Соответствие требованиям"
+            
+              , "Средства контроля безопасности"
+            
+              , "Киберустойчивость"
+            
+              , "Будущее кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как регулярные тесты на проникновение выявляют уязвимости, пригодные для эксплуатации, помогают устранять риски по приоритету и проверяют защиту систем и приложений.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-importance-of-regular-penetration-testing-for-cybersecurity.webp" length="85258" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

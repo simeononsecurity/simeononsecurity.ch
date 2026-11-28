@@ -1,0 +1,939 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Цифровая Защита on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Цифровая Защита on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0/</link>
+
+    <description>Recent content in Цифровая Защита on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Укрепление киберустойчивости</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</link>
+        
+        <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Тестирование на проникновение"
+            
+              , "Этичный взлом"
+            
+              , "Стратегии кибербезопасности"
+            
+              , "Меры защиты"
+            
+              , "Оценка уязвимостей"
+            
+              , "Реагирование на инциденты"
+            
+              , "Соответствие требованиям"
+            
+              , "Средства контроля безопасности"
+            
+              , "Киберустойчивость"
+            
+              , "Будущее кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как регулярные тесты на проникновение выявляют уязвимости, пригодные для эксплуатации, помогают устранять риски по приоритету и проверяют защиту систем и приложений.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-importance-of-regular-penetration-testing-for-cybersecurity.webp" length="85258" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Киберстрахование: что нужно знать перед покупкой</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/cyber-insurance_-what-you-need-to-know-before-you-buy/</link>
+        
+        <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Обзор киберстрахования"
+            
+              , "Оценка страхового полиса"
+            
+              , "Выбор страховщика"
+            
+              , "Порядок подачи страховых требований"
+            
+              , "Рекомендации по киберстрахованию"
+            
+              , "Защита от цифровых угроз"
+            
+              , "Анализ управления рисками"
+            
+              , "Стратегии безопасности бизнеса"
+            
+              , "Подготовка к утечке данных"
+            
+              , "Обучение сотрудников кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/cyber-insurance_-what-you-need-to-know-before-you-buy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните объем покрытия, исключения, лимиты, условия реагирования на инциденты и требования к безопасности, прежде чем выбирать полис для своей компании.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cyber-insurance_-what-you-need-to-know-before-you-buy.webp" length="77052" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Создание человеческого фаервола: обучение сотрудников безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/building-a-human-firewall_-training-employees-in-cybersecurity/</link>
+        
+        <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Обучение кибербезопасности"
+            
+              , "Расширение возможностей сотрудников"
+            
+              , "Стратегии человеческого фаервола"
+            
+              , "Осведомленность о безопасности"
+            
+              , "Методы цифровой защиты"
+            
+              , "Снижение угроз"
+            
+              , "Имитация кибератак"
+            
+              , "Разработка учебной программы"
+            
+              , "Измерение результатов обучения"
+            
+              , "Постоянное улучшение"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/building-a-human-firewall_-training-employees-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Создайте человеческий фаервол с помощью обучения по ролям, реалистичных фишинговых упражнений, понятных процедур сообщения, полезных показателей и регулярного повторения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/building-a-human-firewall_-training-employees-in-cybersecurity.webp" length="118578" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>5 способов, которыми AI улучшает обнаружение и реагирование на киберугрозы</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/5-ways-ai-is-transforming-cyber-threat-detection/</link>
+        
+        <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "AI в кибербезопасности"
+            
+              , "Обнаружение угроз"
+            
+              , "Преобразующая технология"
+            
+              , "Инновации в кибербезопасности"
+            
+              , "Анализ данных"
+            
+              , "Мониторинг в реальном времени"
+            
+              , "Машинное обучение в безопасности"
+            
+              , "Обработка естественного языка"
+            
+              , "Глубокое обучение"
+            
+              , "Автоматизированное реагирование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/5-ways-ai-is-transforming-cyber-threat-detection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о пяти способах применения AI для обнаружения угроз, включая анализ аномалий, модели поведения, классификацию вредоносных программ, мониторинг в реальном времени и поддержку реагирования.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/5-ways-ai-is-transforming-cyber-threat-detection.webp" length="242224" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 основных проверок кибербезопасности для домашней сети</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</link>
+        
+        <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность домашней сети"
+            
+              , "Проверки кибербезопасности"
+            
+              , "Цифровая защита"
+            
+              , "Защита сети"
+            
+              , "Безопасность IoT"
+            
+              , "Конфиденциальность данных"
+            
+              , "Предотвращение киберугроз"
+            
+              , "Безопасность Wi-Fi"
+            
+              , "Защита персональной информации"
+            
+              , "Советы по цифровой безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проведите аудит домашней сети с помощью десяти практических проверок, охватывающих обновления роутера, шифрование Wi-Fi, безопасность DNS, инвентаризацию устройств, резервное копирование и мониторинг.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/10-essential-cybersecurity-checks-for-your-home-network.webp" length="141312" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Почему обучение пользователей важнее передовых технологий в кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/user-training-vs-advanced-tech-cybersecurity/</link>
+        
+        <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Обучение пользователей"
+            
+              , "Цифровая безопасность"
+            
+              , "Защита данных"
+            
+              , "Профилактика фишинга"
+            
+              , "Социальная инженерия"
+            
+              , "Соблюдение нормативных требований"
+            
+              , "Обучение сотрудников"
+            
+              , "Безопасность в интернете"
+            
+              , "Информационная безопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/user-training-vs-advanced-tech-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему обучение пользователей важнее передовых технологий в кибербезопасности и как оно укрепляет цифровую защиту.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/user-training-cybersecurity-defense.webp" length="105250" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Почему программное обеспечение с открытым исходным кодом безопаснее проприетарного</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/open-source-software-security/</link>
+        
+        <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Открытый исходный код"
+            
+              , "Безопасность программного обеспечения"
+            
+              , "Государственные нормы"
+            
+              , "Совместная разработка"
+            
+              , "Цифровая защита"
+            
+              , "ИТ-безопасность"
+            
+              , "Технологические тенденции"
+            
+              , "Безопасность в интернете"
+            
+              , "Конфиденциальность данных"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/open-source-software-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему программное обеспечение с открытым исходным кодом считают более безопасным, чем проприетарное, и как прозрачность и сотрудничество защищают цифровые активы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/open-source-software-security.webp" length="61142" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Постройте будущее в кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/microsoft-security-certification-path/</link>
+        
+        <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Сертификации"
+            
+              , "Microsoft"
+            
+              , "Профессиональное развитие"
+            
+              , "Обучение ИТ"
+            
+              , "Информационная безопасность"
+            
+              , "Профессиональные навыки"
+            
+              , "Технологическое образование"
+            
+              , "Киберзащита"
+            
+              , "Онлайн-обучение"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/microsoft-security-certification-path/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о пути сертификации безопасности Microsoft и о том, как сертификаты помогут в карьере в сфере кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Термины кибербезопасности простыми словами</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</link>
+        
+        <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Технологии"
+            
+              , "Цифровая безопасность"
+            
+              , "Онлайн-угрозы"
+            
+              , "Безопасность в Интернете"
+            
+              , "Защита данных"
+            
+              , "Конфиденциальность"
+            
+              , "Онлайн-защита"
+            
+              , "ИТ-безопасность"
+            
+              , "Киберугрозы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/demystifying-cybersecurity-jargon-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Понятный справочник по терминам кибербезопасности, угрозам, технологиям и правилам конфиденциальности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity-jargon-illustration.webp" length="150724" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Firewalla для домашней сети: защита дома и лаборатории</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/firewalla-home-network-security-guide/</link>
+        
+        <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Домашняя сеть"
+            
+              , "Безопасность сети"
+            
+              , "Безопасность IoT"
+            
+              , "Безопасность в интернете"
+            
+              , "Домашние лаборатории"
+            
+              , "Цифровая защита"
+            
+              , "Обнаружение вторжений"
+            
+              , "Фильтрация контента"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/firewalla-home-network-security-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как Firewalla помогает защищать домашнюю сеть, подходит ли она для домашней лаборатории и какие преимущества и ограничения следует учитывать.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/firewalla-home-network-security.webp" length="57452" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защитите организацию: преимущества ПО для управления инцидентами</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</link>
+        
+        <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Управление инцидентами"
+            
+              , "Защита данных"
+            
+              , "Цифровая безопасность"
+            
+              , "Снижение угроз"
+            
+              , "Технологические решения"
+            
+              , "Киберзащита"
+            
+              , "Информационная безопасность"
+            
+              , "Непрерывность бизнеса"
+            
+              , "Управление рисками"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как ПО для управления инцидентами безопасности улучшает реагирование, отслеживание и соблюдение требований, защищая цифровые активы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/benefits-of-security-incident-management-software.webp" length="227836" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Осваиваем защиту EDR: руководство по безопасности конечных точек</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link>
+        
+        <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Защита конечных точек"
+            
+              , "Решения EDR"
+            
+              , "Обнаружение угроз"
+            
+              , "Реагирование на инциденты"
+            
+              , "Безопасность конечных точек"
+            
+              , "Киберугрозы"
+            
+              , "ИТ-безопасность"
+            
+              , "Цифровая защита"
+            
+              , "Стратегии безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как работает защита EDR, какие преимущества и сложности внедрения она дает и какие практики помогают защищать конечные точки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита конфиденциальности данных</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</link>
+        
+        <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Безопасность данных"
+            
+              , "Конфиденциальность"
+            
+              , "Кибербезопасность"
+            
+              , "Цифровая защита"
+            
+              , "Технические аксессуары"
+            
+              , "Шифрование данных"
+            
+              , "Безопасность в интернете"
+            
+              , "Устройства готовый к использованию"
+            
+              , "Цифровая конфиденциальность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о USB-блокираторах данных и зашифрованных накопителях на Amazon, чтобы усилить защиту данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/usb-data-lock-vault.webp" length="94076" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IMSI-Ловушка on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>IMSI-Ловушка on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/imsi-%D0%BB%D0%BE%D0%B2%D1%83%D1%88%D0%BA%D0%B0/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/imsi-%D0%BB%D0%BE%D0%B2%D1%83%D1%88%D0%BA%D0%B0/</link>
+
+    <description>Recent content in IMSI-Ловушка on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 10 Mar 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/imsi-%D0%BB%D0%BE%D0%B2%D1%83%D1%88%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>RayHunter 2026: анализ безопасности и лучшие практики</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/rayhunter-security-analysis-best-practices-2026/</link>
+        
+        <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "устройство Рэйхантер"
+            
+              , "анализ безопасности"
+            
+              , "лучшие практики"
+            
+              , "оценка рисков"
+            
+              , "соответствие требованиям"
+            
+              , "IMSI-ловушка"
+            
+              , "обнаружение слежки"
+            
+              , "архитектура безопасности"
+            
+              , "моделирование угроз"
+            
+              , "защита конфиденциальности"
+            
+              , "корпоративная безопасность"
+            
+              , "профессиональное развертывание"
+            
+              , "стандарты безопасности"
+            
+              , "нормативы конфиденциальности"
+            
+              , "эксплуатационная безопасность"
+            
+              , "разведка угроз"
+            
+              , "управление безопасностью"
+            
+              , "проектирование защиты конфиденциальности"
+            
+              , "противодействие слежке"
+            
+              , "меры безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/rayhunter-security-analysis-best-practices-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оцените риски безопасности RayHunter, меры защиты при развертывании, требования нормативного соответствия и эксплуатационные практики систем обнаружения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/rayhunter-security-analysis-best-practices-2026.webp" length="192654" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

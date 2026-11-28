@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Внедрение SSL/TLS on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Внедрение SSL/TLS on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%B2%D0%BD%D0%B5%D0%B4%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-ssl/tls/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%B2%D0%BD%D0%B5%D0%B4%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-ssl/tls/</link>
+
+    <description>Recent content in Внедрение SSL/TLS on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%B2%D0%BD%D0%B5%D0%B4%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-ssl/tls/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство по безопасности SSL/TLS: защитите данные своего сайта</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</link>
+        
+        <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Технологии"
+            
+              , "Веб-безопасность"
+            
+              , "Шифрование данных"
+            
+              , "Интернет-протоколы"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Безопасность в сети"
+            
+              , "Внедрение SSL/TLS"
+            
+              , "Киберугрозы"
+            
+              , "Будущее кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как SSL/TLS защищает сайт с помощью надежного шифрования. Изучите уязвимости, рекомендации и будущее кибербезопасности, чтобы уже сегодня повысить безопасность сайта.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/TLS_%20Securing%20Your%20Website%20Data.webp" length="171950" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

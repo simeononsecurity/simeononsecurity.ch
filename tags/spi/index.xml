@@ -1,0 +1,101 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SPI on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>SPI on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/spi/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/spi/</link>
+
+    <description>Recent content in SPI on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/spi/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Flipper Zero: полное руководство для хакеров и мейкеров</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</link>
+        
+        <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Взлом аппаратуры"
+            
+              , "Кибербезопасность"
+            
+              , "Тестирование на проникновение"
+            
+              , "Безопасность беспроводных систем"
+            
+              , "Красная команда"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Руководство по Flipper Zero: радиосвязь, протоколы, прошивки, GPIO, BadUSB, сценарии тестирования, правовые ограничения и аксессуары.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.webp" length="309662" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

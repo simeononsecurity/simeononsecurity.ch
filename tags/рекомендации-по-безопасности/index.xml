@@ -1,0 +1,1598 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Рекомендации По Безопасности on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Рекомендации По Безопасности on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8-%D0%BF%D0%BE-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8-%D0%BF%D0%BE-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+
+    <description>Recent content in Рекомендации По Безопасности on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8-%D0%BF%D0%BE-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство по защите конечных устройств для удалённых команд</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</link>
+        
+        <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защита конечных устройств"
+            
+              , "Безопасность удалённой работы"
+            
+              , "Руководство по кибербезопасности"
+            
+              , "Защита данных"
+            
+              , "Практики ИТ-безопасности"
+            
+              , "Будущие тенденции в безопасности"
+            
+              , "Безопасная удалённая работа"
+            
+              , "Предотвращение киберугроз"
+            
+              , "Защита конфиденциальности данных"
+            
+              , "Решения для ИТ-безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите удалённые устройства с помощью инвентаризации, укрепления конфигурации, обновлений, MFA, шифрования, EDR, политик доступа, мониторинга и плана реагирования.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-ultimate-guide-to-endpoint-security-for-remote-teams.webp" length="58154" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Укрепите безопасность интернет-магазина</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</link>
+        
+        <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность электронной торговли"
+            
+              , "Кибербезопасность"
+            
+              , "Защита данных"
+            
+              , "Онлайн-бизнес"
+            
+              , "Безопасность сайта"
+            
+              , "Доверие клиентов"
+            
+              , "Безопасные транзакции"
+            
+              , "SSL-шифрование"
+            
+              , "Правила паролей"
+            
+              , "Рекомендации по безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите интернет-магазин с помощью TLS, MFA администраторов, обновлений, контроля платежей, шифрования, мониторинга, обучения сотрудников, защиты от мошенничества и реагирования на инциденты.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-2024-checklist-for-securing-your-e-commerce-site.webp" length="88770" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Стратегии защиты компании от внутренних угроз</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</link>
+        
+        <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Корпоративная безопасность"
+            
+              , "Внутренние угрозы"
+            
+              , "Защита данных"
+            
+              , "Обучение сотрудников"
+            
+              , "Меры безопасности"
+            
+              , "Реагирование на инциденты"
+            
+              , "Аналитика поведения"
+            
+              , "Мониторинг активности пользователей"
+            
+              , "Культура безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Снизьте риск внутренних угроз с помощью контроля доступа, мониторинга активности, каналов сообщений, процедур увольнения и культуры безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/protecting-against-insider-threats_-strategies-for-your-company.webp" length="87882" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Межсетевые экраны нового поколения: важные функции для бизнеса</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</link>
+        
+        <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Безопасность сетей"
+            
+              , "Технологии межсетевых экранов"
+            
+              , "Безопасность бизнеса"
+            
+              , "Интеграция с облаком"
+            
+              , "Цифровые угрозы"
+            
+              , "Управление сетями"
+            
+              , "Решения для безопасности"
+            
+              , "Безопасность в интернете"
+            
+              , "Технологии"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Выбирайте межсетевой экран нового поколения с учетом контроля приложений, предотвращения вторжений, защиты от угроз, поддержки облака, пропускной способности, отказоустойчивости и управления.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/next-gen-firewalls_-features-you-can%27t-ignore-for-your-business.webp" length="128018" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Эффективная защита облака</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</link>
+        
+        <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность облака"
+            
+              , "Устойчивость бизнеса"
+            
+              , "Внедрение CSPM"
+            
+              , "Проактивное обнаружение угроз"
+            
+              , "Управление соответствием требованиям"
+            
+              , "Политики безопасности"
+            
+              , "Межфункциональное взаимодействие"
+            
+              , "Облачная инфраструктура"
+            
+              , "Автоматизация безопасности"
+            
+              , "Снижение рисков"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Используйте управление состоянием безопасности облака, чтобы находить ошибки конфигурации, применять политики, обрабатывать оповещения, поддерживать соответствие требованиям и направлять устранение проблем в облачных учетных записях.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/leveraging-cloud-security-posture-management-%28cspm%29-for-your-business.webp" length="234272" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Планирование реагирования на инциденты: пошаговое руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</link>
+        
+        <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Реагирование на инциденты"
+            
+              , "Безопасность бизнеса"
+            
+              , "Киберугрозы"
+            
+              , "Управление рисками"
+            
+              , "Планирование безопасности"
+            
+              , "Защита данных"
+            
+              , "ИТ-безопасность"
+            
+              , "Цифровая устойчивость"
+            
+              , "Управление кризисами"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Составьте план реагирования на инциденты с определёнными ролями, каналами связи, сценариями, инструментами, учениями, метриками и регулярным обновлением.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.webp" length="96088" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освойте кибербезопасность</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe/</link>
+        
+        <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Практики кибербезопасности"
+            
+              , "Цифровая безопасность"
+            
+              , "Безопасность в интернете"
+            
+              , "Предотвращение киберугроз"
+            
+              , "Защита данных"
+            
+              , "Конфиденциальность в интернете"
+            
+              , "Меры безопасности"
+            
+              , "Технологическая безопасность"
+            
+              , "Информационная безопасность"
+            
+              , "Кибергигиена"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Выработайте ежедневные привычки для защиты паролей, устройств, домашней сети, данных и конфиденциальности от киберугроз.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe.webp" length="175160" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Криптография без тайн: методы шифрования</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</link>
+        
+        <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "История криптографии"
+            
+              , "Методы шифрования"
+            
+              , "Симметричное шифрование"
+            
+              , "Асимметричное шифрование"
+            
+              , "Алгоритм RSA"
+            
+              , "Криптография на эллиптических кривых"
+            
+              , "Обмен ключами Диффи — Хеллмана"
+            
+              , "Конфиденциальность данных"
+            
+              , "Целостность данных"
+            
+              , "Аутентификация данных"
+            
+              , "Угрозы квантовых вычислений"
+            
+              , "Аудиты безопасности"
+            
+              , "Безопасность криптокошельков"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как симметричное, асимметричное и гибридное шифрование защищает данные, как работает обмен ключами и где применяются современные криптографические методы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques.webp" length="291054" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация безопасности: руководство по укреплению цифровой защиты</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</link>
+        
+        <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация безопасности"
+            
+              , "Кибербезопасность"
+            
+              , "Машинное обучение в сфере безопасности"
+            
+              , "Автоматизированный контроль соответствия требованиям"
+            
+              , "Оркестрация безопасности"
+            
+              , "Реагирование на инциденты"
+            
+              , "Непрерывное улучшение"
+            
+              , "Контроль человека в сфере безопасности"
+            
+              , "Обнаружение угроз и реагирование на них"
+            
+              , "Рекомендации по безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Планируйте автоматизацию безопасности с четкими сценариями применения, интеграцией инструментов, проверкой человеком, настройкой оповещений, метриками и средствами контроля систем машинного обучения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/mastering-security-automation_-streamlining-processes-for-enhanced-protection.webp" length="253188" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>7 основных практик безопасности для бизнеса</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/7-essential-security-practices-for-any-business/</link>
+        
+        <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность бизнеса"
+            
+              , "Физическая безопасность"
+            
+              , "Кибербезопасность"
+            
+              , "Реагирование на инциденты"
+            
+              , "Обучение сотрудников"
+            
+              , "Шифрование данных"
+            
+              , "Системы наблюдения"
+            
+              , "Контроль доступа"
+            
+              , "Протоколы безопасности"
+            
+              , "Цифровая устойчивость"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/7-essential-security-practices-for-any-business/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Семь практических мер защиты бизнеса: от физической безопасности и киберзащиты до планирования устойчивости.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/7-essential-security-practices-for-any-business.webp" length="235660" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Реестр Windows и файлы конфигурации Linux</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link>
+        
+        <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Операционные системы"
+            
+              , "Управление безопасностью"
+            
+              , "Компьютерные технологии"
+            
+              , "Защита данных"
+            
+              , "Конфигурация системы"
+            
+              , "ИТ-безопасность"
+            
+              , "Сетевая безопасность"
+            
+              , "Сравнение технологий"
+            
+              , "Информационная безопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните безопасность реестра Windows и файлов конфигурации Linux и узнайте практические меры для защиты обеих систем.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Максимальное усиление безопасности сетей и облачной среды</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link>
+        
+        <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасность облака"
+            
+              , "Защита сетей"
+            
+              , "Цифровая безопасность"
+            
+              , "Конфиденциальность данных"
+            
+              , "ИТ-безопасность"
+            
+              , "Бизнес-технологии"
+            
+              , "Цифровая защита"
+            
+              , "Киберугрозы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об угрозах, мерах защиты и примерах инцидентов, чтобы усилить безопасность сетей и облачной среды.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита Active Directory</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/active-directory-security-best-practices/</link>
+        
+        <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Управление сетью"
+            
+              , "Информационные технологии"
+            
+              , "Защита данных"
+            
+              , "Корпоративная безопасность"
+            
+              , "Цифровая инфраструктура"
+            
+              , "Контроль доступа"
+            
+              , "Аутентификация пользователей"
+            
+              , "Рекомендации по IT"
+            
+              , "Осведомленность о безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/active-directory-security-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить Active Directory, сохранить данные и предотвратить вторжения в сетевую инфраструктуру.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Укрепление кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</link>
+        
+        <pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Групповая политика Windows"
+            
+              , "Сокращение поверхности атаки"
+            
+              , "ИТ-безопасность"
+            
+              , "Защита сети"
+            
+              , "Защита данных"
+            
+              , "Цифровая устойчивость"
+            
+              , "Укрепление систем"
+            
+              , "Рекомендации по безопасности"
+            
+              , "Снижение рисков"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как параметры групповой политики Windows сокращают поверхность атаки и усиливают защиту.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Cybersecurity_Shield_Defense.webp" length="129592" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освойте принцип минимальных привилегий</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link>
+        
+        <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Безопасность Linux"
+            
+              , "Контроль доступа"
+            
+              , "ИТ-безопасность"
+            
+              , "Сетевая безопасность"
+            
+              , "Защита информации"
+            
+              , "Конфиденциальность данных"
+            
+              , "Киберугрозы"
+            
+              , "Управление рисками"
+            
+              , "Лучшие практики безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Укрепите кибербезопасность с помощью контроля доступа по принципу минимальных привилегий в Linux. Изучите этапы внедрения, лучшие практики и устранение проблем.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освоение кибербезопасности: Изучение новейших CVE и действующих лиц угроз</title>
+        
+          <link>https://ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/</link>
+        
+        <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "CVEs"
+            
+              , "субъекты угроз"
+            
+              , "сканирование уязвимостей"
+            
+              , "разведка угроз"
+            
+              , "обмен информацией"
+            
+              , "отраслевое сотрудничество"
+            
+              , "рекомендации по безопасности"
+            
+              , "NVD"
+            
+              , "CVE"
+            
+              , "US-CERT"
+            
+              , "CERT"
+            
+              , "Болтер ATT&amp;CK®"
+            
+              , "OpenCTI"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "уязвимости кибербезопасности"
+            
+              , "возникающие угрозы"
+            
+              , "проактивная защита"
+            
+              , "автоматизированное сканирование уязвимостей"
+            
+              , "разведка из открытых источников"
+            
+              , "Анализ угроз в режиме реального времени"
+            
+              , "тактика и техника действий субъектов угроз"
+            
+              , "Технический OSINT"
+            
+              , "Базы данных CVE"
+            
+              , "рекомендации поставщиков средств защиты"
+            
+              , "блоги по безопасности"
+            
+              , "информационные потоки об угрозах"
+            
+              , "сообщества по обмену информацией"
+            
+              , "постановления правительства"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Опережайте киберугрозы, узнавая о последних CVE и действующих лицах с помощью эффективных стратегий и ресурсов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.webp" length="127370" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита веб-приложений с помощью OWASP ASVS</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</link>
+        
+        <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "безопасность веб-приложений"
+            
+              , "OWASP"
+            
+              , "ASVS"
+            
+              , "безопасность приложений"
+            
+              , "стандарты безопасности"
+            
+              , "кибербезопасность"
+            
+              , "управление уязвимостями"
+            
+              , "безопасное программирование"
+            
+              , "тестирование на проникновение"
+            
+              , "моделирование угроз"
+            
+              , "меры безопасности"
+            
+              , "оценка безопасности"
+            
+              , "автоматизированное тестирование безопасности"
+            
+              , "ручное тестирование безопасности"
+            
+              , "безопасный жизненный цикл разработки"
+            
+              , "рекомендации по безопасности"
+            
+              , "безопасность данных"
+            
+              , "управление рисками"
+            
+              , "соответствие требованиям"
+            
+              , "информационная безопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Используйте OWASP ASVS, чтобы упорядочить требования безопасности веб-приложений, тесты и подтверждающие материалы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.webp" length="119972" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Что следует и чего не следует делать для защиты системы Linux</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</link>
+        
+        <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "безопасность Linux"
+            
+              , "защита системы"
+            
+              , "брандмауэр"
+            
+              , "SELinux"
+            
+              , "AppArmor"
+            
+              , "политика паролей"
+            
+              , "обновления системы"
+            
+              , "системные журналы"
+            
+              , "модули безопасности"
+            
+              , "политики контроля доступа"
+            
+              , "кибербезопасность"
+            
+              , "безопасность системы"
+            
+              , "безопасность сети"
+            
+              , "управление уязвимостями"
+            
+              , "рекомендации по безопасности"
+            
+              , "ИТ-безопасность"
+            
+              , "информационная безопасность"
+            
+              , "обновления программ"
+            
+              , "доступ root"
+            
+              , "менеджер паролей"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Рекомендации по защите Linux: обновления, брандмауэр, SELinux или AppArmor, политика паролей и мониторинг журналов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.webp" length="138234" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как сдать экзамен CompTIA Security&#43; SY0-601: советы и ресурсы</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/</link>
+        
+        <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Professor Messer"
+            
+              , "Dr. Messer"
+            
+              , "состязательный искусственный интеллект"
+            
+              , "кампания влияния"
+            
+              , "атака IV"
+            
+              , "сетевой MDF"
+            
+              , "атака Christmas tree"
+            
+              , "SY0-601"
+            
+              , "CompTIA Security"
+            
+              , "подавление беспроводного сигнала"
+            
+              , "IDF и MDF"
+            
+              , "примеры применения криптографии"
+            
+              , "атаки посредника"
+            
+              , "экзамен CompTIA Security SY0-601"
+            
+              , "сертификация по кибербезопасности"
+            
+              , "учебное руководство"
+            
+              , "цели экзамена"
+            
+              , "подготовка к экзамену"
+            
+              , "учебные материалы"
+            
+              , "пробные тесты"
+            
+              , "онлайн-курсы"
+            
+              , "учебные группы"
+            
+              , "оборудование и программное обеспечение"
+            
+              , "стратегии сдачи экзамена"
+            
+              , "сдать экзамен"
+            
+              , "отраслевые тенденции"
+            
+              , "карьерный рост"
+            
+              , "информационная безопасность"
+            
+              , "сертификаты безопасности"
+            
+              , "специалисты по кибербезопасности"
+            
+              , "безопасность сетей"
+            
+              , "защита данных"
+            
+              , "управление уязвимостями"
+            
+              , "реагирование на инциденты"
+            
+              , "политики безопасности"
+            
+              , "контроль доступа"
+            
+              , "меры безопасности"
+            
+              , "методы шифрования"
+            
+              , "оценка рисков"
+            
+              , "осведомлённость о безопасности"
+            
+              , "рекомендации по безопасности"
+            
+              , "стандарты безопасности"
+            
+              , "структуры безопасности"
+            
+              , "защита сетей"
+            
+              , "практические задания Security Plus"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как сдать экзамен CompTIA Security+ SY0-601 с помощью советов, учебных ресурсов и стратегий подготовки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_person_studying_with_a_laptop_and_books_in_front_of_them.webp" length="81278" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендации экспертов SimeonOnSecurity по продуктам и ресурсам для обеспечения безопасности и конфиденциальности</title>
+        
+          <link>https://ru.simeononsecurity.com/recommendhome/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "рекомендации по безопасности"
+            
+              , "продукты конфиденциальности"
+            
+              , "инструменты кибербезопасности"
+            
+              , "защита данных"
+            
+              , "конфиденциальность в Интернете"
+            
+              , "антивирус"
+            
+              , "книги"
+            
+              , "плагины для браузера"
+            
+              , "сертификаты"
+            
+              , "провайдеры электронной почты"
+            
+              , "каждый день носить"
+            
+              , "хакерский инструментарий"
+            
+              , "наушники"
+            
+              , "микрофоны"
+            
+              , "динамики"
+            
+              , "образовательные ресурсы"
+            
+              , "клиенты мессенджера"
+            
+              , "организации для поддержки"
+            
+              , "ресурсы конфиденциальности"
+            
+              , "SIP DID VOIP провайдеры"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/recommendhome/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с рекомендациями экспертов SimeonOnSecurity по надежным и высоко оцененным продуктам и ресурсам, связанным с безопасностью и конфиденциальностью.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.webp" length="113812" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

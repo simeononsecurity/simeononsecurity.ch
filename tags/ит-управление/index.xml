@@ -1,0 +1,293 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ИТ-Управление on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>ИТ-Управление on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%B8%D1%82-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%B8%D1%82-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+
+    <description>Recent content in ИТ-Управление on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 02 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%B8%D1%82-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освойте PowerCLI для управления vSphere</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link>
+        
+        <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Виртуализация"
+            
+              , "VMware"
+            
+              , "ИТ-управление"
+            
+              , "Автоматизация"
+            
+              , "Интерфейс командной строки"
+            
+              , "Скрипты"
+            
+              , "Системное администрирование"
+            
+              , "Облачные вычисления"
+            
+              , "Управление дата-центром"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как управлять VMware vSphere с помощью PowerCLI, автоматизировать задачи и повысить продуктивность.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение NIST Cybersecurity Framework и ISO 27001</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</link>
+        
+        <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Информационная безопасность"
+            
+              , "Модели кибербезопасности"
+            
+              , "Управление рисками"
+            
+              , "Защита данных"
+            
+              , "Соответствие требованиям"
+            
+              , "ИТ-управление"
+            
+              , "Киберугрозы"
+            
+              , "Киберзащита"
+            
+              , "Киберриск"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, чем отличаются NIST Cybersecurity Framework и ISO 27001, чтобы обоснованно выбрать подходящую модель кибербезопасности для вашей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_shield_protecting_a_network_of.webp" length="102920" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автономное обновление прошивки для Ubiquiti Unifi UDM Pro и UDM SE через командную строку SSH</title>
+        
+          <link>https://ru.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Обновление прошивки Ubiquiti"
+            
+              , "УДМ Про"
+            
+              , "УДМ ЮВ"
+            
+              , "автономное обновление прошивки"
+            
+              , "командная строка SSH"
+            
+              , "управление сетью"
+            
+              , "сетевая безопасность"
+            
+              , "Обновление прошивки"
+            
+              , "SSH-соединение"
+            
+              , "файл прошивки"
+            
+              , "Сетевой контроллер UniFi"
+            
+              , "исправление ошибок"
+            
+              , "улучшения производительности"
+            
+              , "исправления безопасности"
+            
+              , "сеть"
+            
+              , "сетевые устройства"
+            
+              , "технологии"
+            
+              , "ИТ-управление"
+            
+              , "процесс обновления прошивки"
+            
+              , "оптимизация сети"
+            
+              , "Обновление прошивки Ubiquiti Networks"
+            
+              , "Обновление прошивки УДМ Про"
+            
+              , "Обновление прошивки УДМ SE"
+            
+              , "автономный процесс обновления прошивки"
+            
+              , "Обновление прошивки SSH"
+            
+              , "управление сетевыми устройствами"
+            
+              , "обновления безопасности сети"
+            
+              , "стратегии обновления прошивки"
+            
+              , "автономное управление прошивкой"
+            
+              , "оптимизация производительности сети"
+            
+              , "управление исправлениями безопасности"
+            
+              , "обновления сетевых технологий"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как обновить прошивку Ubiquiti Unifi UDM Pro и UDM SE в автономном режиме через командную строку SSH для обеспечения оптимальной производительности и безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_computer_connecting.webp" length="51278" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,166 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DNS-Резолвер on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>DNS-Резолвер on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/dns-%D1%80%D0%B5%D0%B7%D0%BE%D0%BB%D0%B2%D0%B5%D1%80/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/dns-%D1%80%D0%B5%D0%B7%D0%BE%D0%BB%D0%B2%D0%B5%D1%80/</link>
+
+    <description>Recent content in DNS-Резолвер on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/dns-%D1%80%D0%B5%D0%B7%D0%BE%D0%BB%D0%B2%D0%B5%D1%80/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Проверьте утечки DNS и WebRTC в браузере при использовании VPN</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Конфиденциальность"
+            
+              , "Браузеры"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проверьте публичный IP-адрес, DNS-резолвер и адреса WebRTC в браузере до и после подключения VPN. Разберите результаты и исследуйте проблемы маршрутизации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS, AdGuard, Quad9 и Cloudflare: сравнение DNS в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link>
+        
+        <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Сравнение DNS"
+            
+              , "Защита конфиденциальности"
+            
+              , "Блокировка рекламы"
+            
+              , "Безопасность сети"
+            
+              , "Безопасность Интернета"
+            
+              , "DNS-резолвер"
+            
+              , "Конфиденциальность в сети"
+            
+              , "Веб-безопасность"
+            
+              , "Фильтрация DNS"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение NextDNS, AdGuard DNS, Quad9, Cloudflare DNS и Pi-hole в 2026 году по безопасности, конфиденциальности и производительности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

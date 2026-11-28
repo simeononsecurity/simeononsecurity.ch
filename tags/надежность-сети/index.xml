@@ -1,0 +1,318 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Надежность Сети on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Надежность Сети on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%81%D0%B5%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%81%D0%B5%D1%82%D0%B8/</link>
+
+    <description>Recent content in Надежность Сети on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%81%D0%B5%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Устранение проблем с сетевым подключением для надежной работы</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</link>
+        
+        <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Советы по сетям"
+            
+              , "ИТ-решения"
+            
+              , "Непрерывность бизнеса"
+            
+              , "Кибербезопасность"
+            
+              , "Устранение технических неполадок"
+            
+              , "Цифровая инфраструктура"
+            
+              , "Надежность интернета"
+            
+              , "Восстановление систем"
+            
+              , "Управление сетью"
+            
+              , "Техническая поддержка"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Стабилизируйте сеть с помощью проверенных методов диагностики проблем подключения и поддержания надежной работы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ensuring-network-reliability_-how-to-troubleshoot-connection-issues.webp" length="200054" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизация сети: настройка DNS</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link>
+        
+        <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Администрирование сетей"
+            
+              , "Кибербезопасность"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Технические решения"
+            
+              , "Интернет-технологии"
+            
+              , "Оптимизация DNS"
+            
+              , "Производительность сети"
+            
+              , "Цифровая безопасность"
+            
+              , "Подключение к Интернету"
+            
+              , "Технические руководства"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как DNS влияет на подключение, производительность и безопасность сети, и оптимизируйте его конфигурацию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Соединение-ориентированная и бессоединительная связь</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Сети"
+            
+              , "Связь"
+            
+              , "Протоколы"
+            
+              , "Информатика"
+            
+              , "Передача данных"
+            
+              , "Сетевая инфраструктура"
+            
+              , "Интернет"
+            
+              , "Информационные технологии"
+            
+              , "Телекоммуникации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о различиях между соединение-ориентированной и бессоединительной связью, их протоколах, службах и методах маршрутизации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_illustration_showing_two_devices_connected.webp" length="39168" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubiquiti Unifi и TP-Link Omada: какую сетевую систему выбрать?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</link>
+        
+        <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сетевые системы"
+            
+              , "Управление сетью"
+            
+              , "Сравнение оборудования"
+            
+              , "Веб-управление сетью"
+            
+              , "Масштабируемые сетевые решения"
+            
+              , "Функции сетевой безопасности"
+            
+              , "Надежное сетевое оборудование"
+            
+              , "Конкурентные цены на сетевое оборудование"
+            
+              , "Поддержка клиентов"
+            
+              , "Дополнительные предложения продуктов"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните сетевые системы Ubiquiti Unifi и TP-Link Omada по управлению, оборудованию, поддержке, функциям и ценам, чтобы выбрать подходящий вариант.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_split-screen_illustration_of_a_complex_network.webp" length="236442" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

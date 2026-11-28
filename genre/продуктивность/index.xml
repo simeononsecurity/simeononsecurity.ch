@@ -1,0 +1,461 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Продуктивность on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Продуктивность on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</link>
+
+    <description>Recent content in Продуктивность on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как эффективно использовать ИИ: надежный рабочий процесс для начинающих</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/effective-ai-workflow-foundations/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Продуктивность"
+            
+              , "Разработка ПО"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/effective-ai-workflow-foundations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Освойте повторяемый процесс работы с ИИ: определите задачу, предоставьте нужный контекст, изучите доказательства и проверьте результат до его использования.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/effective-ai-workflow-foundations.webp" length="98694" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ограниченные циклы ИИ-агентов: проверки, повторы и правила остановки</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Разработка ПО"
+            
+              , "Продуктивность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/effective-ai-bounded-agent-loops/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Определите цикл цели ИИ с наблюдаемым состоянием, проверками, лимитами повторов, условиями остановки и понятной передачей задачи человеку.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/effective-ai-bounded-agent-loops.webp" length="94174" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Пакеты задач для ИИ: точные запросы и критерии приемки</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/effective-ai-task-packets/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Продуктивность"
+            
+              , "Разработка программного обеспечения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/effective-ai-task-packets/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Преобразуйте расплывчатые запросы к ИИ в пакеты задач с определенными результатом, источником, областью файлов, проверками и условием остановки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/effective-ai-task-packets.webp" length="93042" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Проекты ChatGPT и Claude: настройка повторно используемого контекста ИИ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/effective-ai-chat-projects/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Продуктивность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/effective-ai-chat-projects/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Настройте проекты ChatGPT и Claude с точными инструкциями, актуальными справочными файлами и простой проверкой повторно используемого контекста.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/effective-ai-chat-projects.webp" length="92048" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>ATS Resume Improver: бесплатная оптимизация резюме с ИИ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</link>
+        
+        <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Инструменты для карьеры"
+            
+              , "Проекты с открытым исходным кодом"
+            
+              , "Искусственный интеллект"
+            
+              , "Технологии конфиденциальности"
+            
+              , "Инструменты разработчика"
+            
+              , "Поиск работы"
+            
+              , "Продуктивность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          ATS Resume Improver — бесплатный инструмент с открытым исходным кодом, который работает в браузере и анализирует, оценивает, сопоставляет, оптимизирует и экспортирует резюме с помощью облачных или локальных моделей.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp" length="158574" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Полный набор ИТ-инструментов: необходимое оборудование и гаджеты</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ultimate-it-toolkit-essential-tools-gadgets/</link>
+        
+        <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Информационные технологии"
+            
+              , "Продуктивность"
+            
+              , "Оборудование"
+            
+              , "Программное обеспечение"
+            
+              , "Кибербезопасность"
+            
+              , "Технологические инструменты"
+            
+              , "Управление сетями"
+            
+              , "Удаленный рабочий стол"
+            
+              , "Офисные аксессуары"
+            
+              , "Технологические гаджеты"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ultimate-it-toolkit-essential-tools-gadgets/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как повысить продуктивность в ИТ с помощью полного набора для специалистов. Здесь собраны полезные программы, оборудование и аксессуары.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/IT-Toolkit-Essential-Tools-Gadgets.webp" length="133374" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие расширения VS Code для разработки на C&#43;&#43;</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/best-visual-studio-code-extensions-for-cpp-development/</link>
+        
+        <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Программирование"
+            
+              , "Разработка программного обеспечения"
+            
+              , "Разработка на C&#43;&#43;"
+            
+              , "Visual Studio Code"
+            
+              , "Редакторы кода"
+            
+              , "Продуктивность"
+            
+              , "Инструменты разработки"
+            
+              , "IDE"
+            
+              , "Оптимизация кода"
+            
+              , "Эффективность кода"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/best-visual-studio-code-extensions-for-cpp-development/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с лучшими расширениями C++ для Visual Studio Code, которые упрощают программирование и повышают продуктивность.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/best-visual-studio-code-extensions-for-cpp-development.webp" length="147434" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

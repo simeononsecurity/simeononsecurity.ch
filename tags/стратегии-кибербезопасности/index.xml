@@ -1,0 +1,387 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Стратегии Кибербезопасности on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Стратегии Кибербезопасности on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D0%B8-%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D0%B8-%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+
+    <description>Recent content in Стратегии Кибербезопасности on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D0%B8-%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Укрепление киберустойчивости</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</link>
+        
+        <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Тестирование на проникновение"
+            
+              , "Этичный взлом"
+            
+              , "Стратегии кибербезопасности"
+            
+              , "Меры защиты"
+            
+              , "Оценка уязвимостей"
+            
+              , "Реагирование на инциденты"
+            
+              , "Соответствие требованиям"
+            
+              , "Средства контроля безопасности"
+            
+              , "Киберустойчивость"
+            
+              , "Будущее кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как регулярные тесты на проникновение выявляют уязвимости, пригодные для эксплуатации, помогают устранять риски по приоритету и проверяют защиту систем и приложений.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-importance-of-regular-penetration-testing-for-cybersecurity.webp" length="85258" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Почему правила сложности паролей устарели</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/password-complexity-security-article/</link>
+        
+        <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Безопасность паролей"
+            
+              , "Методы аутентификации"
+            
+              , "Онлайн-угрозы"
+            
+              , "Обучение пользователей"
+            
+              , "Рекомендации NIST"
+            
+              , "Современная аутентификация"
+            
+              , "Защита от фишинга"
+            
+              , "Цифровая безопасность"
+            
+              , "Безопасность в интернете"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/password-complexity-security-article/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему правила сложности паролей теряют эффективность и как на практике повысить безопасность в интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/password-complexity-security.webp" length="115670" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как защититься от программ-вымогателей</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ransomware-protection-strategies/</link>
+        
+        <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Технологии"
+            
+              , "Цифровые угрозы"
+            
+              , "Защита данных"
+            
+              , "Безопасность в интернете"
+            
+              , "Киберпреступность"
+            
+              , "ИТ-безопасность"
+            
+              , "Вредоносные программы"
+            
+              , "Интернет-безопасность"
+            
+              , "Защита информации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ransomware-protection-strategies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как работают программы-вымогатели, к чему приводят их атаки и какие меры помогают укрепить кибербезопасность.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ransomware-protection-shield.webp" length="62160" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Расширение возможностей национальной безопасности: Электрокибернетическое воздействие биткойна</title>
+        
+          <link>https://ru.simeononsecurity.com/other/empowered-national-security-bitcoin-electro-cyber/</link>
+        
+        <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Криптовалюта"
+            
+              , "Кибербезопасность"
+            
+              , "Технология"
+            
+              , "Национальная безопасность"
+            
+              , "Исследование"
+            
+              , "Финансы"
+            
+              , "Инновации"
+            
+              , "Цифровая валюта"
+            
+              , "Разработка политики"
+            
+              , "Blockchain"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/other/empowered-national-security-bitcoin-electro-cyber/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите новаторскую теорию проекции мощности и ее последствия для национальной безопасности, поскольку биткойн превращается в мощную технологию электрокибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/empowered-national-security.webp" length="155026" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Предполагать, что каждое устройство уже скомпрометировано: Укрепление цифровой безопасности во взаимосвязанном мире</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/why-you-should-assume-every-device-you-touch-is-compromised/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защита персональных данных"
+            
+              , "Строгая аутентификация и пароли"
+            
+              , "Конфиденциальность в социальных сетях"
+            
+              , "Безопасная связь"
+            
+              , "Гигиена устройства"
+            
+              , "Резервное копирование данных"
+            
+              , "Лучшие практики в области кибербезопасности"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Советы по обеспечению безопасности в Интернете"
+            
+              , "Защита чувствительной информации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/why-you-should-assume-every-device-you-touch-is-compromised/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему важно считать, что каждое устройство уже скомпрометировано, и изучите практические меры по повышению уровня цифровой безопасности в современном взаимосвязанном мире.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.webp" length="89340" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

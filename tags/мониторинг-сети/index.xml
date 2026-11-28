@@ -1,0 +1,1264 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Мониторинг Сети on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Мониторинг Сети on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3-%D1%81%D0%B5%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3-%D1%81%D0%B5%D1%82%D0%B8/</link>
+
+    <description>Recent content in Мониторинг Сети on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 28 May 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3-%D1%81%D0%B5%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>DagShell: кастомная прошивка для Orbic RCL400, руководство 2026</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link>
+        
+        <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кастомная прошивка"
+            
+              , "Мобильная безопасность"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Сетевая безопасность"
+            
+              , "Вардрайвинг"
+            
+              , "Тестирование на проникновение"
+            
+              , "Взлом IoT"
+            
+              , "Исследования безопасности"
+            
+              , "Аппаратный хакинг"
+            
+              , "Технологии конфиденциальности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Техническое руководство по прошивке DagShell для Orbic RCL400. Установка, инструменты защиты конфиденциальности, вар-драйвинг и ограничения исследований.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Fortinet против Cisco: полное сравнение сетевой безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сетевая безопасность"
+            
+              , "Кибербезопасность"
+            
+              , "Корпоративные сети"
+            
+              , "Сравнение межсетевых экранов"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Сетевое оборудование"
+            
+              , "Решения по безопасности"
+            
+              , "Управление сетью"
+            
+              , "Сравнение технологий"
+            
+              , "Принятие ИТ-решений"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Всестороннее сравнение решений Fortinet и Cisco для сетевой безопасности, включая межсетевые экраны, коммутаторы, SD-WAN, цены, показатели производительности и рекомендации по развертыванию на 2026 год.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Видеонаблюдение Flock Safety: Конфиденциальность и Защита</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии конфиденциальности"
+            
+              , "Системы видеонаблюдения"
+            
+              , "Цифровые права"
+            
+              , "Правоохранительные технологии"
+            
+              , "Защита конфиденциальности"
+            
+              , "Противодействие слежке"
+            
+              , "Гражданские свободы"
+            
+              , "Технологическая этика"
+            
+              , "Инфраструктура умного города"
+            
+              , "Оборудование безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о широком распространении камер ALPR Flock Safety в 2026 году, разберитесь в последствиях для конфиденциальности и изучите эффективные стратегии противодействия слежке, включая устройства обнаружения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-safety-camera-surveillance-prevalence-privacy-protection-2026.webp" length="316668" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Обнаружение Flock-You: Руководство по настройке контрнаблюдения</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защитное оборудование"
+            
+              , "Контрнаблюдение"
+            
+              , "Технологии конфиденциальности"
+            
+              , "Проекты с открытым исходным кодом"
+            
+              , "Разработка ESP32"
+            
+              , "Мониторинг WiFi"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Цифровые права"
+            
+              , "Аппаратный хакинг"
+            
+              , "Сетевая безопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Полное техническое руководство по открытому проекту Flock-You для обнаружения ALPR-камер Flock Safety с использованием оборудования на базе ESP32. Включает инструкции по настройке, детали прошивки и варианты покупки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Киберугрозы: контекст 2024 года и защитный список действий на 2026 год</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2024/</link>
+        
+        <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Угрозы"
+            
+              , "Программы-вымогатели"
+            
+              , "Фишинг"
+            
+              , "Безопасность IoT"
+            
+              , "Внутренние угрозы"
+            
+              , "Облачная безопасность"
+            
+              , "Резервное копирование данных"
+            
+              , "Многофакторная аутентификация"
+            
+              , "Исправления безопасности"
+            
+              , "Обучение сотрудников"
+            
+              , "Контроль доступа"
+            
+              , "Проверка биографии"
+            
+              , "Предотвращение утечек данных"
+            
+              , "Облачные провайдеры"
+            
+              , "Шифрование данных"
+            
+              , "Безопасность сети"
+            
+              , "Защита конечных точек"
+            
+              , "Мониторинг сети"
+            
+              , "Сканирование уязвимостей"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2024/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Обзор категорий угроз, обсуждавшихся в 2024 году, и датированный список мер защиты на 2026 год от программ-вымогателей, фишинга, рисков IoT, внутренних угроз и облачных рисков.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.webp" length="115136" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Устранение проблем с сетевым подключением для надежной работы</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</link>
+        
+        <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Советы по сетям"
+            
+              , "ИТ-решения"
+            
+              , "Непрерывность бизнеса"
+            
+              , "Кибербезопасность"
+            
+              , "Устранение технических неполадок"
+            
+              , "Цифровая инфраструктура"
+            
+              , "Надежность интернета"
+            
+              , "Восстановление систем"
+            
+              , "Управление сетью"
+            
+              , "Техническая поддержка"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Стабилизируйте сеть с помощью проверенных методов диагностики проблем подключения и поддержания надежной работы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ensuring-network-reliability_-how-to-troubleshoot-connection-issues.webp" length="200054" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Максимальное усиление безопасности сетей и облачной среды</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link>
+        
+        <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасность облака"
+            
+              , "Защита сетей"
+            
+              , "Цифровая безопасность"
+            
+              , "Конфиденциальность данных"
+            
+              , "ИТ-безопасность"
+            
+              , "Бизнес-технологии"
+            
+              , "Цифровая защита"
+            
+              , "Киберугрозы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об угрозах, мерах защиты и примерах инцидентов, чтобы усилить безопасность сетей и облачной среды.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Усильте защиту: решения EDR для кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link>
+        
+        <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Технологии"
+            
+              , "Обнаружение угроз"
+            
+              , "Защита конечных устройств"
+            
+              , "Реагирование на инциденты"
+            
+              , "Защита данных"
+            
+              , "Сетевая безопасность"
+            
+              , "Цифровая защита"
+            
+              , "ИТ-безопасность"
+            
+              , "Киберустойчивость"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как решения EDR защищают конечные устройства, выявляют угрозы и помогают организациям выбрать подходящий вариант.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как снизить внутренние угрозы</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mitigating-insider-threats-strategies-prevention/</link>
+        
+        <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Защита данных"
+            
+              , "Внутренние угрозы"
+            
+              , "Информационная безопасность"
+            
+              , "Цифровая безопасность"
+            
+              , "Поведение сотрудников"
+            
+              , "Управление рисками"
+            
+              , "Конфиденциальность данных"
+            
+              , "Корпоративная безопасность"
+            
+              , "Профилактические меры"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mitigating-insider-threats-strategies-prevention/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите эффективные способы предотвращать внутренние угрозы, защищать конфиденциальные данные и развивать культуру безопасности в организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Security_Shield_Network_Protection.webp" length="94966" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защитите домашнюю сеть</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</link>
+        
+        <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Домашняя сеть"
+            
+              , "Рекомендации по оборудованию"
+            
+              , "Безопасность сети"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Безопасность в интернете"
+            
+              , "Интернет-безопасность"
+            
+              , "Домашние сети"
+            
+              , "Технологии"
+            
+              , "Умный дом"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, какое оборудование поможет защитить домашнюю сеть от киберугроз. В статье рассматриваются аппаратные межсетевые экраны, точки доступа и средства мониторинга.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/fortified-network-security.webp" length="61592" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Признаки внутренних угроз</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/insider-threat-indicators-and-identifying-potential-risk/</link>
+        
+        <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "признаки внутренних угроз"
+            
+              , "снижение внутренних угроз"
+            
+              , "потенциальные риски"
+            
+              , "кибербезопасность"
+            
+              , "безопасность данных"
+            
+              , "мониторинг сотрудников"
+            
+              , "контроль доступа"
+            
+              , "аналитика поведения пользователей"
+            
+              , "обучение по вопросам безопасности"
+            
+              , "соответствие нормативным требованиям"
+            
+              , "защита данных"
+            
+              , "мониторинг сети"
+            
+              , "поведение сотрудников"
+            
+              , "доступ к данным"
+            
+              , "необычная сетевая активность"
+            
+              , "изменение рабочего распорядка"
+            
+              , "финансовые трудности"
+            
+              , "недовольство"
+            
+              , "поведение в интернете"
+            
+              , "политики безопасности"
+            
+              , "план реагирования на инциденты"
+            
+              , "NISPOM"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "управление рисками"
+            
+              , "обнаружение угроз"
+            
+              , "снижение внутренних угроз"
+            
+              , "привилегированный доступ"
+            
+              , "подозрительное поведение"
+            
+              , "предотвращение внутренних угроз"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/insider-threat-indicators-and-identifying-potential-risk/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о возможных признаках внутренних угроз и эффективных способах снижения рисков для защиты организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_animated_illustration_showing_a_team_of_diverse.webp" length="107600" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>7 основных мер сетевой безопасности для защиты бизнеса от киберугроз</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/seven-essential-network-security-measures-to-protect-your-business/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "меры по обеспечению безопасности сети"
+            
+              , "безопасность бизнес-сети"
+            
+              , "киберугрозы"
+            
+              , "политика сетевой безопасности"
+            
+              , "межсетевые экраны и системы предотвращения вторжений"
+            
+              , "безопасность беспроводных сетей"
+            
+              , "обновление программного и аппаратного обеспечения"
+            
+              , "многофакторная аутентификация"
+            
+              , "мониторинг сетевой активности"
+            
+              , "реагирование на нарушения безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/seven-essential-network-security-measures-to-protect-your-business/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с семью основными мерами сетевой безопасности, которые позволят обезопасить ваш бизнес от киберугроз и обеспечить защиту данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/7-essential-network-security-measures.webp" length="46910" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 важнейших советов по безопасности в Интернете: Защитите себя и свою семью в Интернете</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ten-essential-internet-safety-tips-for-everyone/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность в Интернете"
+            
+              , "Безопасность в Интернете"
+            
+              , "Советы по кибербезопасности"
+            
+              , "Защита конфиденциальности"
+            
+              , "Цифровая безопасность"
+            
+              , "Угрозы в Интернете"
+            
+              , "Безопасность данных"
+            
+              , "Безопасные методы работы в Интернете"
+            
+              , "Защита персональной информации"
+            
+              , "Конфиденциальность в Интернете"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ten-essential-internet-safety-tips-for-everyone/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте 10 важных советов по безопасности в Интернете, чтобы защитить свою частную жизнь, безопасность и финансы в сети и обезопасить свою семью от киберугроз.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/10-essential-internet-safety-tips-for-everyone.webp" length="33794" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>CheckMK: комплексное решение по мониторингу для эффективного управления ИТ-инфраструктурой</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/what-is-check-mk/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Мониторинг сети"
+            
+              , "Мониторинг приложений"
+            
+              , "ИТ-операции"
+            
+              , "Аналитика производительности"
+            
+              , "Автоматизация"
+            
+              , "Управление событиями"
+            
+              , "Масштабируемость"
+            
+              , "Гибкость"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/what-is-check-mk/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с возможностями, преимуществами и вариантами использования CheckMK, комплексного решения для проактивного управления ИТ-инфраструктурой.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.webp" length="151812" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита приложений для совместного доступа в Интернет: Эффективные меры для усиления защиты</title>
+        
+          <link>https://ru.simeononsecurity.com/other/how-to-secure-internet-sharing-applications/</link>
+        
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность Linux"
+            
+              , "приложения для совместного использования интернета"
+            
+              , "защита от вредоносного ПО"
+            
+              , "блокировка трекера"
+            
+              , "Блокировка трафика Tor"
+            
+              , "предотвращение торрентов"
+            
+              , "безопасность сети"
+            
+              , "Snort"
+            
+              , "Securita"
+            
+              , "Защита DNS"
+            
+              , "расширенные правила межсетевого экрана"
+            
+              , "Обновления Ubuntu"
+            
+              , "автоматические обновления"
+            
+              , "мониторинг сети"
+            
+              , "кибербезопасность"
+            
+              , "Интернет-безопасность Linux"
+            
+              , "Безопасность приложений в Linux"
+            
+              , "блокировка вредоносных программ"
+            
+              , "Предотвращение трафика Tor"
+            
+              , "защита торрентов"
+            
+              , "сетевой брандмауэр"
+            
+              , "Сетевая безопасность Linux"
+            
+              , "безопасное совместное использование Интернета"
+            
+              , "Защита DNS в Linux"
+            
+              , "расширенная сетевая безопасность"
+            
+              , "Обновление системы Linux"
+            
+              , "средства мониторинга сети"
+            
+              , "Меры кибербезопасности в Linux"
+            
+              , "Методы обеспечения безопасности в Linux"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/other/how-to-secure-internet-sharing-applications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить приложения для совместного доступа к Интернету в Linux с помощью передовых мер по блокированию вредоносного ПО, трекеров, трафика Tor и торрентов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.webp" length="133366" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освоение Wireshark: Исчерпывающее руководство по сетевому анализу для начинающих</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/a-beginners-guide-to-using-wireshark-for-network-analysis-and-troubleshooting/</link>
+        
+        <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wireshark"
+            
+              , "анализ сети"
+            
+              , "поиск и устранение неисправностей"
+            
+              , "руководство для начинающих"
+            
+              , "мониторинг сети"
+            
+              , "захват пакетов"
+            
+              , "сетевые протоколы"
+            
+              , "TCP IP"
+            
+              , "визуализация данных"
+            
+              , "безопасность сети"
+            
+              , "фильтры улавливания"
+            
+              , "фильтры дисплея"
+            
+              , "сетевые устройства"
+            
+              , "Ethernet"
+            
+              , "топология сети"
+            
+              , "диагностика сети"
+            
+              , "сетевое администрирование"
+            
+              , "производительность сети"
+            
+              , "Учебное пособие по Wireshark"
+            
+              , "пакеты данных"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/a-beginners-guide-to-using-wireshark-for-network-analysis-and-troubleshooting/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом подробном руководстве для начинающих вы узнаете, как эффективно использовать Wireshark для анализа и устранения неполадок в сети.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.webp" length="187074" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

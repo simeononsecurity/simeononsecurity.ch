@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Защита Конфиденциальности Данных on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Защита Конфиденциальности Данных on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/</link>
+
+    <description>Recent content in Защита Конфиденциальности Данных on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство по защите конечных устройств для удалённых команд</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</link>
+        
+        <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защита конечных устройств"
+            
+              , "Безопасность удалённой работы"
+            
+              , "Руководство по кибербезопасности"
+            
+              , "Защита данных"
+            
+              , "Практики ИТ-безопасности"
+            
+              , "Будущие тенденции в безопасности"
+            
+              , "Безопасная удалённая работа"
+            
+              , "Предотвращение киберугроз"
+            
+              , "Защита конфиденциальности данных"
+            
+              , "Решения для ИТ-безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите удалённые устройства с помощью инвентаризации, укрепления конфигурации, обновлений, MFA, шифрования, EDR, политик доступа, мониторинга и плана реагирования.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-ultimate-guide-to-endpoint-security-for-remote-teams.webp" length="58154" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасность блокчейна: не только криптовалюты</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/demystifying-blockchain-security_-more-than-just-cryptocurrency/</link>
+        
+        <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность блокчейна"
+            
+              , "Технологии криптовалют"
+            
+              , "Цифровая безопасность"
+            
+              , "Децентрализованные сети"
+            
+              , "Разработка блокчейна"
+            
+              , "Аудит смарт-контрактов"
+            
+              , "Криптографические технологии"
+            
+              , "Защита конфиденциальности данных"
+            
+              , "Новые технологии безопасности"
+            
+              , "Аудит безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/demystifying-blockchain-security_-more-than-just-cryptocurrency/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как безопасность блокчейна зависит от консенсуса, криптографии, контроля смарт-контрактов, защиты ключей, мониторинга и эффективного управления.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/demystifying-blockchain-security_-more-than-just-cryptocurrency.webp" length="194346" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

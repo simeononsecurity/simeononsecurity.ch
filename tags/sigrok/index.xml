@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sigrok on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Sigrok on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/sigrok/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/sigrok/</link>
+
+    <description>Recent content in Sigrok on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 02 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/sigrok/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Мир аппаратного хакинга и его инструменты</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hardware-hacker-essential-tools-techniques/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии и хакинг"
+            
+              , "Кибербезопасность"
+            
+              , "Аппаратный хакинг"
+            
+              , "Инструменты хакера"
+            
+              , "Электроника"
+            
+              , "Интернет вещей"
+            
+              , "Самостоятельный хакинг"
+            
+              , "Обратная разработка"
+            
+              , "Микроконтроллеры"
+            
+              , "Беспроводной хакинг"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hardware-hacker-essential-tools-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об аппаратном хакинге, а также об основных инструментах и методах анализа и модификации электронных устройств.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_art_style_depicting_a_hacker_surrou.webp" length="181862" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

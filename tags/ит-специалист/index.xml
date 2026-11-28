@@ -1,0 +1,200 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ИТ-Специалист on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>ИТ-Специалист on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%B8%D1%82-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D1%81%D1%82/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%B8%D1%82-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D1%81%D1%82/</link>
+
+    <description>Recent content in ИТ-Специалист on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%B8%D1%82-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D1%81%D1%82/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Путь к успеху в кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/cybersecurity-career-transition-certifications/</link>
+        
+        <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Карьерное развитие"
+            
+              , "Обучение кибербезопасности"
+            
+              , "Удаленная работа"
+            
+              , "Стратегии сертификации"
+            
+              , "Развитие карьеры в ИТ"
+            
+              , "Советы по смене профессии"
+            
+              , "Профессиональное развитие"
+            
+              , "Технологические профессии"
+            
+              , "Сертификация кибербезопасности"
+            
+              , "Успех удаленной работы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/cybersecurity-career-transition-certifications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оцените сертификаты кибербезопасности при смене карьеры с учетом соответствия должности, стоимости обучения и применимости удаленной работы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Cybersecurity_Success_Key.webp" length="60188" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Создайте доступную и безопасную домашнюю лабораторию для ИТ-тестирования</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</link>
+        
+        <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "домашняя лаборатория"
+            
+              , "виртуализация"
+            
+              , "оборудование"
+            
+              , "программное обеспечение"
+            
+              , "сети"
+            
+              , "безопасность"
+            
+              , "обучение"
+            
+              , "тестирование"
+            
+              , "ИТ-специалист"
+            
+              , "энтузиаст технологий"
+            
+              , "VMware"
+            
+              , "Proxmox"
+            
+              , "Hyper-V"
+            
+              , "Linux"
+            
+              , "Windows"
+            
+              , "настройка сети"
+            
+              , "управление виртуальными машинами"
+            
+              , "резервное копирование и восстановление"
+            
+              , "облачные вычисления"
+            
+              , "кибербезопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как настроить недорогую безопасную домашнюю лабораторию для практической работы с программами, оборудованием и сетями.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.webp" length="163548" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

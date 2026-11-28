@@ -1,0 +1,151 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Чат-Боты on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Чат-Боты on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%87%D0%B0%D1%82-%D0%B1%D0%BE%D1%82%D1%8B/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%87%D0%B0%D1%82-%D0%B1%D0%BE%D1%82%D1%8B/</link>
+
+    <description>Recent content in Чат-Боты on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%87%D0%B0%D1%82-%D0%B1%D0%BE%D1%82%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Машинное обучение и глубокое обучение</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/machine-learning-vs-deep-learning-understanding-the-difference/</link>
+        
+        <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "машинное обучение"
+            
+              , "глубокое обучение"
+            
+              , "искусственный интеллект"
+            
+              , "ИИ"
+            
+              , "наука о данных"
+            
+              , "алгоритм"
+            
+              , "нейронные сети"
+            
+              , "инженерия признаков"
+            
+              , "неструктурированные данные"
+            
+              , "деревья решений"
+            
+              , "логистическая регрессия"
+            
+              , "размеченные данные"
+            
+              , "неразмеченные данные"
+            
+              , "вычислительные ресурсы"
+            
+              , "обнаружение мошенничества"
+            
+              , "системы рекомендаций"
+            
+              , "прогнозное обслуживание"
+            
+              , "распознавание изображений"
+            
+              , "обработка естественного языка"
+            
+              , "открытие лекарств"
+            
+              , "бизнес-приложения"
+            
+              , "сложность алгоритма"
+            
+              , "представление данных"
+            
+              , "государственное регулирование"
+            
+              , "компьютерное зрение"
+            
+              , "распознавание лиц"
+            
+              , "чат-боты"
+            
+              , "перевод языков"
+            
+              , "обучение моделей"
+            
+              , "прогнозная аналитика"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/machine-learning-vs-deep-learning-understanding-the-difference/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, чем отличаются машинное и глубокое обучение, два направления ИИ со своими особенностями и областями применения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_a_machine_learning.webp" length="140220" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

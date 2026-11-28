@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Сервисы Azure on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Сервисы Azure on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B-azure/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B-azure/</link>
+
+    <description>Recent content in Сервисы Azure on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B-azure/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Раскройте свой потенциал с Azure for Students</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</link>
+        
+        <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Облачные вычисления"
+            
+              , "Ресурсы для студентов"
+            
+              , "Разработка ПО"
+            
+              , "Microsoft Azure"
+            
+              , "Windows Server"
+            
+              , "Windows 10"
+            
+              , "Windows 11"
+            
+              , "Visual Studio"
+            
+              , "Средства обучения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о Microsoft Azure for Students: требованиях, доступном ПО, ограничениях учетной записи и практических шагах для начала работы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/azure_for_students_animated_cloud.webp" length="73614" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

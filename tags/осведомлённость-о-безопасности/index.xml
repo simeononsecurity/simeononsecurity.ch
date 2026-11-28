@@ -1,0 +1,615 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Осведомлённость О Безопасности on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Осведомлённость О Безопасности on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BE%D1%81%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BB%D1%91%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%BE-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BE%D1%81%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BB%D1%91%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%BE-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+
+    <description>Recent content in Осведомлённость О Безопасности on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BE%D1%81%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BB%D1%91%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%BE-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>ESP32 WiFi Canary: пассивное обнаружение угроз в диапазоне 2,4 ГГц</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link>
+        
+        <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность сетей"
+            
+              , "Безопасность WiFi"
+            
+              , "Безопасность IoT"
+            
+              , "Исследования безопасности"
+            
+              , "Встраиваемые системы"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Проекты ESP32"
+            
+              , "Безопасность оборудования"
+            
+              , "Беспроводная безопасность"
+            
+              , "Безопасность открытого ПО"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Технический обзор ESP32 WiFi Canary, пассивного датчика 2,4 ГГц для обнаружения evil twin, деаутентификации, снижения уровня защиты и beacon-флуда.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Планирование реагирования на инциденты: пошаговое руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</link>
+        
+        <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Реагирование на инциденты"
+            
+              , "Безопасность бизнеса"
+            
+              , "Киберугрозы"
+            
+              , "Управление рисками"
+            
+              , "Планирование безопасности"
+            
+              , "Защита данных"
+            
+              , "ИТ-безопасность"
+            
+              , "Цифровая устойчивость"
+            
+              , "Управление кризисами"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Составьте план реагирования на инциденты с определёнными ролями, каналами связи, сценариями, инструментами, учениями, метриками и регулярным обновлением.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.webp" length="96088" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие мемы о кибербезопасности и отсылки к поп-культуре</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/best-cybersecurity-memes-pop-culture-references/</link>
+        
+        <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Интернет-культура"
+            
+              , "Мемы"
+            
+              , "Поп-культура"
+            
+              , "Безопасность в сети"
+            
+              , "Цифровой юмор"
+            
+              , "Обучение кибербезопасности"
+            
+              , "Киберугрозы"
+            
+              , "Безопасность интернета"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/best-cybersecurity-memes-pop-culture-references/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Мемы и отсылки к поп-культуре помогают доступно и с юмором говорить о кибербезопасности и защите в интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/hacker-cat-meme.webp" length="113576" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Мастерство реагирования на инциденты кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-cybersecurity-incident-response-guide/</link>
+        
+        <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Реагирование на инциденты"
+            
+              , "Защита информации"
+            
+              , "Защита данных"
+            
+              , "Киберзащита"
+            
+              , "Цифровые угрозы"
+            
+              , "Безопасность ИТ"
+            
+              , "Цифровая безопасность"
+            
+              , "Утечка данных"
+            
+              , "Реагирование на чрезвычайные ситуации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-cybersecurity-incident-response-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Это подробное руководство объясняет, как эффективно реагировать на инциденты кибербезопасности, защищать организации от угроз и повышать их устойчивость.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Cybersecurity_Incident_Response_Fortress.webp" length="137924" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как снизить внутренние угрозы</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mitigating-insider-threats-strategies-prevention/</link>
+        
+        <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Защита данных"
+            
+              , "Внутренние угрозы"
+            
+              , "Информационная безопасность"
+            
+              , "Цифровая безопасность"
+            
+              , "Поведение сотрудников"
+            
+              , "Управление рисками"
+            
+              , "Конфиденциальность данных"
+            
+              , "Корпоративная безопасность"
+            
+              , "Профилактические меры"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mitigating-insider-threats-strategies-prevention/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите эффективные способы предотвращать внутренние угрозы, защищать конфиденциальные данные и развивать культуру безопасности в организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Security_Shield_Network_Protection.webp" length="94966" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как распознать фишинговые письма, SMS и звонки</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-identify-phishing/</link>
+        
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "фишинг"
+            
+              , "безопасность в интернете"
+            
+              , "безопасность электронной почты"
+            
+              , "кибербезопасность"
+            
+              , "интернет-безопасность"
+            
+              , "фишинговые письма"
+            
+              , "фишинговые SMS"
+            
+              , "фишинговые звонки"
+            
+              , "цифровые угрозы"
+            
+              , "кража личности"
+            
+              , "защита данных"
+            
+              , "интернет-мошенничество"
+            
+              , "онлайн-мошенничество"
+            
+              , "конфиденциальность в интернете"
+            
+              , "советы по безопасности в интернете"
+            
+              , "киберпреступность"
+            
+              , "информационная безопасность"
+            
+              , "безопасность паролей"
+            
+              , "защита данных"
+            
+              , "осведомлённость о безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-identify-phishing/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как распознавать фишинг в письмах, SMS и телефонных звонках, чтобы защитить личные данные.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp" length="63564" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как сдать экзамен CompTIA Security&#43; SY0-601: советы и ресурсы</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/</link>
+        
+        <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Professor Messer"
+            
+              , "Dr. Messer"
+            
+              , "состязательный искусственный интеллект"
+            
+              , "кампания влияния"
+            
+              , "атака IV"
+            
+              , "сетевой MDF"
+            
+              , "атака Christmas tree"
+            
+              , "SY0-601"
+            
+              , "CompTIA Security"
+            
+              , "подавление беспроводного сигнала"
+            
+              , "IDF и MDF"
+            
+              , "примеры применения криптографии"
+            
+              , "атаки посредника"
+            
+              , "экзамен CompTIA Security SY0-601"
+            
+              , "сертификация по кибербезопасности"
+            
+              , "учебное руководство"
+            
+              , "цели экзамена"
+            
+              , "подготовка к экзамену"
+            
+              , "учебные материалы"
+            
+              , "пробные тесты"
+            
+              , "онлайн-курсы"
+            
+              , "учебные группы"
+            
+              , "оборудование и программное обеспечение"
+            
+              , "стратегии сдачи экзамена"
+            
+              , "сдать экзамен"
+            
+              , "отраслевые тенденции"
+            
+              , "карьерный рост"
+            
+              , "информационная безопасность"
+            
+              , "сертификаты безопасности"
+            
+              , "специалисты по кибербезопасности"
+            
+              , "безопасность сетей"
+            
+              , "защита данных"
+            
+              , "управление уязвимостями"
+            
+              , "реагирование на инциденты"
+            
+              , "политики безопасности"
+            
+              , "контроль доступа"
+            
+              , "меры безопасности"
+            
+              , "методы шифрования"
+            
+              , "оценка рисков"
+            
+              , "осведомлённость о безопасности"
+            
+              , "рекомендации по безопасности"
+            
+              , "стандарты безопасности"
+            
+              , "структуры безопасности"
+            
+              , "защита сетей"
+            
+              , "практические задания Security Plus"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как сдать экзамен CompTIA Security+ SY0-601 с помощью советов, учебных ресурсов и стратегий подготовки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_person_studying_with_a_laptop_and_books_in_front_of_them.webp" length="81278" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

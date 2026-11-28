@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Виртуальная Машина Для Docker on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Виртуальная Машина Для Docker on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%B0-%D0%B4%D0%BB%D1%8F-docker/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%B0-%D0%B4%D0%BB%D1%8F-docker/</link>
+
+    <description>Recent content in Виртуальная Машина Для Docker on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%B0-%D0%B4%D0%BB%D1%8F-docker/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Docker в LXC на Proxmox: надёжность, факты и миграция на виртуальную машину</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link>
+        
+        <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Виртуализация"
+            
+              , "Администрирование Linux"
+            
+              , "Домашняя лаборатория"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оцените Docker внутри Proxmox LXC по документированной ошибке AppArmor, разбору сообщения о зависании хоста, диагностическим командам и плану миграции на виртуальную машину.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

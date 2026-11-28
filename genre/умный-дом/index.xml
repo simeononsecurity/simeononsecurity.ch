@@ -1,0 +1,304 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Умный Дом on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Умный Дом on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D1%83%D0%BC%D0%BD%D1%8B%D0%B9-%D0%B4%D0%BE%D0%BC/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D1%83%D0%BC%D0%BD%D1%8B%D0%B9-%D0%B4%D0%BE%D0%BC/</link>
+
+    <description>Recent content in Умный Дом on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D1%83%D0%BC%D0%BD%D1%8B%D0%B9-%D0%B4%D0%BE%D0%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Проверка изоляции гостевой сети и сети IoT в Mesh Wi-Fi</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Домашние сети"
+            
+              , "Безопасность Wi-Fi"
+            
+              , "Умный дом"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проверьте, блокируют ли гостевая сеть и сеть IoT в вашей Mesh Wi-Fi-системе доступ к домашним устройствам. Протестируйте каждую сеть с работающей службой и зафиксируйте ограничения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp" length="102600" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасные центры управления умным домом</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</link>
+        
+        <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Безопасность дома"
+            
+              , "Умный дом"
+            
+              , "Домашняя автоматизация"
+            
+              , "Конфиденциальность"
+            
+              , "Интернет вещей"
+            
+              , "Цифровая безопасность"
+            
+              , "Подключенные устройства"
+            
+              , "Улучшение дома"
+            
+              , "Бытовая электроника"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/secure-smart-home-hubs-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о безопасных центрах управления умным домом для удобной и защищенной автоматизации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/secure-smart-home-hubs.webp" length="49576" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защитите домашнюю сеть</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</link>
+        
+        <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Домашняя сеть"
+            
+              , "Рекомендации по оборудованию"
+            
+              , "Безопасность сети"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Безопасность в интернете"
+            
+              , "Интернет-безопасность"
+            
+              , "Домашние сети"
+            
+              , "Технологии"
+            
+              , "Умный дом"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, какое оборудование поможет защитить домашнюю сеть от киберугроз. В статье рассматриваются аппаратные межсетевые экраны, точки доступа и средства мониторинга.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/fortified-network-security.webp" length="61592" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие Wi-Fi mesh-системы 2026: руководство по покупке и рекомендуемые модели</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/</link>
+        
+        <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wi-Fi mesh-системы"
+            
+              , "Домашние сети"
+            
+              , "Беспроводные технологии"
+            
+              , "Подключение к интернету"
+            
+              , "Бытовая электроника"
+            
+              , "Умный дом"
+            
+              , "Сетевые устройства"
+            
+              , "Интернет вещей (IoT)"
+            
+              , "Беспроводные маршрутизаторы"
+            
+              , "Домашняя сеть"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Руководство 2026 года по бытовым mesh-системам Wi-Fi 6E и Wi-Fi 7 с сопоставлением покрытия, производительности, настройки и критериев выбора.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_home_with.webp" length="127732" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

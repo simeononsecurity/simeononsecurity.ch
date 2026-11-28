@@ -1,0 +1,162 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Тест GPU on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Тест GPU on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%82%D0%B5%D1%81%D1%82-gpu/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%82%D0%B5%D1%81%D1%82-gpu/</link>
+
+    <description>Recent content in Тест GPU on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%82%D0%B5%D1%81%D1%82-gpu/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>2x RTX 5060 Ti против GB10: локальный тест ИИ на пяти моделях с контекстом 256K</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Локальный ИИ"
+            
+              , "Оборудование GPU"
+            
+              , "Тестирование"
+            
+              , "Компьютерное оборудование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение RTX 5060 Ti и GB10 на пяти моделях, а также тест Qwen3.8 Flash-Next в Strata на одном хосте с контекстом до 256K.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Тесты GPU для Llama 3.1 8B и Qwen3.8 27B на Vast.ai</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link>
+        
+        <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "Тесты GPU"
+            
+              , "Самостоятельное размещение ИИ"
+            
+              , "Облачная инфраструктура"
+            
+              , "Искусственный интеллект"
+            
+              , "Экономика ИИ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните измеренные результаты Ollama для Llama 3.1 8B и Qwen3.8 27B на GPU Vast.ai, их стоимость и варианты размещения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

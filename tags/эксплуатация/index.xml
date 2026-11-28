@@ -1,0 +1,297 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Эксплуатация on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Эксплуатация on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D0%B0%D1%86%D0%B8%D1%8F/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D0%B0%D1%86%D0%B8%D1%8F/</link>
+
+    <description>Recent content in Эксплуатация on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D0%B0%D1%86%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение NIST Cybersecurity Framework и ISO 27001</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</link>
+        
+        <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Информационная безопасность"
+            
+              , "Модели кибербезопасности"
+            
+              , "Управление рисками"
+            
+              , "Защита данных"
+            
+              , "Соответствие требованиям"
+            
+              , "ИТ-управление"
+            
+              , "Киберугрозы"
+            
+              , "Киберзащита"
+            
+              , "Киберриск"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, чем отличаются NIST Cybersecurity Framework и ISO 27001, чтобы обоснованно выбрать подходящую модель кибербезопасности для вашей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_shield_protecting_a_network_of.webp" length="102920" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освойте тестирование на проникновение: продвинутые методы и реальные примеры</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link>
+        
+        <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Тестирование на проникновение"
+            
+              , "Этичный хакинг"
+            
+              , "Безопасность сетей"
+            
+              , "Безопасность веб-приложений"
+            
+              , "Безопасность беспроводных сетей"
+            
+              , "Социальная инженерия"
+            
+              , "Безопасность мобильных приложений"
+            
+              , "Облачная безопасность"
+            
+              , "Развитие карьеры"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите продвинутые методы, инструменты и реальные примеры тестирования на проникновение, чтобы развить навыки и карьеру в кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Введение в DevOps</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/introduction-to-devops/</link>
+        
+        <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "разработка программного обеспечения"
+            
+              , "эксплуатация"
+            
+              , "сотрудничество"
+            
+              , "непрерывная интеграция"
+            
+              , "непрерывная поставка"
+            
+              , "инфраструктура как код"
+            
+              , "мониторинг"
+            
+              , "циклы обратной связи"
+            
+              , "срок выхода на рынок"
+            
+              , "эффективность"
+            
+              , "качество"
+            
+              , "надежность"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "соответствие требованиям"
+            
+              , "безопасность"
+            
+              , "аудит"
+            
+              , "прослеживаемость"
+            
+              , "автоматизация"
+            
+              , "коммуникация"
+            
+              , "гибкая разработка"
+            
+              , "CICD"
+            
+              , "развертывание ПО"
+            
+              , "жизненный цикл ПО"
+            
+              , "программные системы"
+            
+              , "индустрия ПО"
+            
+              , "безопасность данных"
+            
+              , "нормативные требования"
+            
+              , "обновления ПО"
+            
+              , "конкурентное преимущество"
+            
+              , "конфиденциальность данных"
+            
+              , "защита данных"
+            
+              , "развитие индустрии ПО"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/introduction-to-devops/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как DevOps объединяет разработку и эксплуатацию, упрощает поставку программного обеспечения и повышает эффективность.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_developers_and_operations.webp" length="84556" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

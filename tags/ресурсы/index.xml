@@ -1,0 +1,129 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ресурсы on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Ресурсы on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/</link>
+
+    <description>Recent content in Ресурсы on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 27 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Разработка сайтов для начинающих: руководство по HTML, CSS и JavaScript</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/getting-in-to-website-development-with-html-css-javascript-for-beginners/</link>
+        
+        <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "веб-разработка"
+            
+              , "HTML"
+            
+              , "CSS"
+            
+              , "JavaScript"
+            
+              , "программирование"
+            
+              , "руководство"
+            
+              , "обучение"
+            
+              , "начинающим"
+            
+              , "CodePen"
+            
+              , "W3Schools"
+            
+              , "лучшие практики"
+            
+              , "ресурсы"
+            
+              , "freeCodeCamp"
+            
+              , "MDN Web Docs"
+            
+              , "Codecademy"
+            
+              , "Udacity"
+            
+              , "сотрудничество"
+            
+              , "отладка"
+            
+              , "проекты"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/getting-in-to-website-development-with-html-css-javascript-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите основы разработки сайтов, включая HTML, CSS и JavaScript, с помощью этого руководства для начинающих.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.webp" length="217102" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

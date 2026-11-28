@@ -1,0 +1,1417 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/</link>
+
+    <description>Recent content on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как выбрать локальную модель ИИ без цензуры</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link>
+        
+        <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "Самостоятельно размещённый ИИ"
+            
+              , "Безопасность ИИ"
+            
+              , "Оборудование GPU"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнивайте локальные варианты по завершённым ответам, сохранённым возможностям, использованию контекста, квантованию и требованиям к VRAM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Откат Home Assistant Core 2026.11 до 2026.10.4: исправление версии 3 хранилища HTTP</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link>
+        
+        <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Домашняя автоматизация"
+            
+              , "Устранение неполадок"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Исправьте ошибку версии 3 хранилища HTTP после отката Home Assistant Core 2026.11 до 2026.10.4 на Yellow. В статье приведены защищённые команды и проверенные результаты.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp" length="32856" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Совместимость блоков питания Octominer X12 Ultra: испытание Chicony и LiteOn</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link>
+        
+        <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Оборудование для майнинга"
+            
+              , "Компьютерное оборудование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Испытание Octominer X12 Ultra с пятью вентиляторами и тремя блоками питания показало, что блок Chicony запустил систему, а проверенные LiteOn загорелись оранжевым и не запустились.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp" length="34962" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Proxmox VE 9: уменьшение использования виртуального диска и возврат места</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link>
+        
+        <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Виртуализация"
+            
+              , "Администрирование Linux"
+            
+              , "платформа Proxmox VE"
+            
+              , "Хранение данных"
+            
+              , "Домашняя лаборатория"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сократите использование хранилища VM и LXC в Proxmox VE 9. Сравните форматы дисков и серверные хранилища, включите discard, выполните trim в гостевых Windows и Linux, проверьте снимки перед возвратом места.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tailscale Aperture: настройка ИИ-клиентов для инференса и MCP в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link>
+        
+        <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Инструменты разработчика"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Направляйте запросы к моделям и инструменты MCP через Tailscale Aperture. Настройте Codex, Claude Code, Claude Desktop, OpenCode и Hermes на другом устройстве или шлюзе.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Self-Hosted Hindsight: локальная память агентов и приватная маршрутизация моделей</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/self-hosted-hindsight/</link>
+        
+        <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "Самостоятельный хостинг ИИ"
+            
+              , "ИИ-агенты"
+            
+              , "Инфраструктура ИИ"
+            
+              , "Конфиденциальность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/self-hosted-hindsight/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Разбор одного развертывания Hindsight на собственном оборудовании, наблюдавшихся локальных маршрутов Qwen и выделения GPU для отдельных запросов без подписки на облачный инференс на проверенных путях.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Open WebUI v0.12.4: контрольный список обновления и управления доступом 2026</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link>
+        
+        <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локально размещенный ИИ"
+            
+              , "Кибербезопасность"
+            
+              , "Системное администрирование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Создайте резервную копию и обновите Open WebUI до v0.12.4. Затем проверьте совместный доступ к чатам, разрешения на экспорт, права на ресурсы, учетные записи и сетевой доступ.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Thunderbird 153.6: утечка учетных данных NTLM в Windows и обновление (2026)</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link>
+        
+        <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Безопасность электронной почты"
+            
+              , "Безопасность Windows"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Две серьезные уязвимости Thunderbird могут раскрыть данные аутентификации NTLM в Windows при отображении специально подготовленного письма. Узнайте о двух сценариях, проверьте версию и ограничьте исходящий SMB-трафик во время обновления.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Обновление безопасности Chrome 156: проверка октябрьского исправления</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link>
+        
+        <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Браузеры"
+            
+              , "Безопасность"
+            
+              , "Управление исправлениями"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проверьте выпуск Chrome 156 от 27 октября на Windows, macOS, Linux и Android. Сверьте установленную сборку, завершите ожидающий перезапуск и отдельно проверьте управляемые устройства.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Соберите домашнюю лабораторию за 10 уровней: от Pi-hole до локального ИИ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/build-home-lab-10-levels/</link>
+        
+        <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Домашняя лаборатория"
+            
+              , "Самостоятельный хостинг"
+            
+              , "Локальный ИИ"
+            
+              , "Домашние сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/build-home-lab-10-levels/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Соберите домашнюю лабораторию в десять практических этапов: от DNS-фильтрации всей сети до локального ИИ, с описанием оборудования, затрат, навыков и компромиссов для каждого уровня.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Локальные тесты моделей Hermes: какие сочетания GPU и моделей я бы выбрал</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link>
+        
+        <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Локальный ИИ"
+            
+              , "Аппаратное обеспечение"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Мои рекомендации по моделям Hermes основаны на тестах длинного контекста, инструментов, потоковой передачи и зрения на системах RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti и RTX 3070.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Гибридный парк ИИ-агентов изнутри: Hermes, LiteLLM и Tailscale</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link>
+        
+        <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "ИИ на собственных ресурсах"
+            
+              , "ИИ-агенты"
+            
+              , "ИИ-инфраструктура"
+            
+              , "Майнинг на GPU"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о проверенном локальном парке ИИ с загрузкой по запросу и его ступенчатой плоскости управления T0–T4 на базе Hermes, LiteLLM, Tailscale Aperture и майнинга Pearl.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>1Password SSH Agent и CLI: доступ агентам ИИ только для чтения</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Системное администрирование"
+            
+              , "Облачная безопасность"
+            
+              , "Автоматизация"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Спроектируйте workflow только для чтения с использованием 1Password CLI, SSH Agent и MCP. Используйте синтетические команды, ограниченные разрешения и одобрение человеком перед живым тестированием.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ключи SSH Bitbucket Cloud: доступ Git только для чтения для ИИ-агентов</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность облака"
+            
+              , "Инструменты разработчика"
+            
+              , "Системное администрирование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Настройте ключи SSH Bitbucket Cloud, доступ Git CLI, токены REST API, 1Password и инструменты MCP для рабочих процессов ИИ-агентов только для чтения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Перенос виртуальной машины Hyper-V в Proxmox VE: обратимый контрольный список</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Виртуализация"
+            
+              , "Системное администрирование"
+            
+              , "Домашняя лаборатория"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Перенесите VM Hyper-V в Proxmox VE: экспортируйте выключенный источник, согласуйте прошивку, импортируйте диски, проверьте загрузку в изоляции и подготовьте откат.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Почему DNS-фильтр обходят: проверьте путь резолвера</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Домашние сети"
+            
+              , "DNS"
+            
+              , "Конфиденциальность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему устройство или браузер обходят DNS-фильтр. Сравните прямые и обычные запросы, проверьте журналы, зашифрованный DNS, VPN, IPv6 и настройки маршрутизатора.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Проверка восстановления Proxmox VM: убедитесь, что гостевая система работает</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Виртуализация"
+            
+              , "Резервное копирование и восстановление"
+            
+              , "Домашняя лаборатория"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проверьте резервную копию Proxmox VM с помощью восстановления в изолированной сети. Убедитесь, что учтены диски, режим копирования, данные гостя, состояние службы и время восстановления, не затрагивая рабочую среду.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Проверка изоляции гостевой сети и сети IoT в Mesh Wi-Fi</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Домашние сети"
+            
+              , "Безопасность Wi-Fi"
+            
+              , "Умный дом"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проверьте, блокируют ли гостевая сеть и сеть IoT в вашей Mesh Wi-Fi-системе доступ к домашним устройствам. Протестируйте каждую сеть с работающей службой и зафиксируйте ограничения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp" length="102600" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Проверьте утечки DNS и WebRTC в браузере при использовании VPN</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Конфиденциальность"
+            
+              , "Браузеры"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проверьте публичный IP-адрес, DNS-резолвер и адреса WebRTC в браузере до и после подключения VPN. Разберите результаты и исследуйте проблемы маршрутизации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>2x RTX 5060 Ti против GB10: локальный тест ИИ на пяти моделях с контекстом 256K</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Локальный ИИ"
+            
+              , "Оборудование GPU"
+            
+              , "Тестирование"
+            
+              , "Компьютерное оборудование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение RTX 5060 Ti и GB10 на пяти моделях, а также тест Qwen3.8 Flash-Next в Strata на одном хосте с контекстом до 256K.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>OpenClaw и Hermes Agent: практическая оценка</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Разработка программного обеспечения"
+            
+              , "Производительность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оцените специализированных и постоянно работающих ИИ-агентов с помощью описи доступа, проверки триггеров, записи о потоках данных и решения о пилотном запуске.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/effective-ai-specialized-agent-evaluation.webp" length="115550" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Бум инфраструктуры ИИ в 2026 году: спрос, долг, энергия и доказательства</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Экономика ИИ"
+            
+              , "Дата-центры"
+            
+              , "Облачная инфраструктура"
+            
+              , "Кибербезопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Фактологический обзор расходов на инфраструктуру ИИ, потребления электроэнергии дата-центрами, финансовых схем, стоимости компаний и доказательств, необходимых до объявления рынка пузырём.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Выполните первую задачу в репозитории с помощью агента для программирования</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/effective-ai-coding-agent-first-task/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Разработка программного обеспечения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/effective-ai-coding-agent-first-task/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Выберите интерфейс агента для программирования, откройте пример репозитория, проверьте предложенное изменение и выполните проверки, прежде чем сохранять его.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/effective-ai-coding-agent-first-task.webp" length="85038" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Делегирование задач ИИ-агентам: распределение работы и проверка результатов</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/effective-ai-agent-delegation/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Разработка программного обеспечения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/effective-ai-agent-delegation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Определите, когда нужен второй ИИ-агент, поручите каждому исполнителю ограниченную задачу, предотвращайте конфликты правок и объединяйте доказательства в основном сеансе.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/effective-ai-agent-delegation.webp" length="133510" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Итоговый проект по ИИ-рабочему процессу: создайте и проверьте JSON-отчёт</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/effective-ai-capstone/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Разработка ПО"
+            
+              , "Образование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/effective-ai-capstone/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Создайте JSON-отчёт о задачах с контекстом проекта, ограниченным запросом агенту, независимыми тестами, проверкой источников и передачей работы новой сессии.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/effective-ai-capstone.webp" length="96772" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

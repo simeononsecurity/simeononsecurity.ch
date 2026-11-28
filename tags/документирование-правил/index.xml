@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Документирование Правил on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Документирование Правил on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB/</link>
+
+    <description>Recent content in Документирование Правил on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 22 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Права доступа к файлам в Linux: полное руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-linux-file-permissions/</link>
+        
+        <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "права доступа к файлам Linux"
+            
+              , "защищённая файловая система"
+            
+              , "контроль доступа"
+            
+              , "владение"
+            
+              , "руководство по правам файлов"
+            
+              , "безопасность Linux"
+            
+              , "безопасность файловой системы"
+            
+              , "команда chmod"
+            
+              , "команда chown"
+            
+              , "аудит прав доступа"
+            
+              , "принцип минимальных привилегий"
+            
+              , "соответствие нормативам"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "аудит разрешений файлов"
+            
+              , "документирование правил"
+            
+              , "безопасность системы"
+            
+              , "безопасность сети"
+            
+              , "шифрование"
+            
+              , "управление пользователями"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-linux-file-permissions/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как управлять правами доступа к файлам в Linux, контролировать владельцев и применять рекомендации для защиты файловой системы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp" length="115180" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

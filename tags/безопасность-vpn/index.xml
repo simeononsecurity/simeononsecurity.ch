@@ -1,0 +1,269 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Безопасность Vpn on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Безопасность Vpn on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-vpn/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-vpn/</link>
+
+    <description>Recent content in Безопасность Vpn on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-vpn/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение Tailscale и Headscale</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "VPN"
+            
+              , "Сетевая безопасность"
+            
+              , "Самостоятельное размещение"
+            
+              , "WireGuard"
+            
+              , "Нулевое доверие"
+            
+              , "Ячеистые сети"
+            
+              , "Открытый исходный код"
+            
+              , "Облачная инфраструктура"
+            
+              , "Удалённый доступ"
+            
+              , "Управление сетями"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните модели размещения, управление учётными записями, функции, стоимость, эксплуатацию и поддержку Tailscale и Headscale, чтобы выбрать ячеистую VPN на базе WireGuard под свои задачи.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство по защите конечных устройств для удалённых команд</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</link>
+        
+        <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защита конечных устройств"
+            
+              , "Безопасность удалённой работы"
+            
+              , "Руководство по кибербезопасности"
+            
+              , "Защита данных"
+            
+              , "Практики ИТ-безопасности"
+            
+              , "Будущие тенденции в безопасности"
+            
+              , "Безопасная удалённая работа"
+            
+              , "Предотвращение киберугроз"
+            
+              , "Защита конфиденциальности данных"
+            
+              , "Решения для ИТ-безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите удалённые устройства с помощью инвентаризации, укрепления конфигурации, обновлений, MFA, шифрования, EDR, политик доступа, мониторинга и плана реагирования.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-ultimate-guide-to-endpoint-security-for-remote-teams.webp" length="58154" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасная и надежная настройка VPN для корпоративных удаленных сотрудников</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/a-beginners-guide-to-setting-up-a-secure-and-resilient-vpn-for-remote-workers/</link>
+        
+        <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "VPN"
+            
+              , "удалённая работа"
+            
+              , "корпоративная VPN"
+            
+              , "безопасность сети"
+            
+              , "шифрование"
+            
+              , "протоколы туннелирования"
+            
+              , "Настройка VPN"
+            
+              , "VPN-сервер"
+            
+              , "Безопасность VPN"
+            
+              , "Обслуживание VPN"
+            
+              , "Мониторинг VPN"
+            
+              , "VPN-решение"
+            
+              , "аутентификация"
+            
+              , "безопасность данных"
+            
+              , "конфиденциальность"
+            
+              , "производительность"
+            
+              , "масштабируемость"
+            
+              , "совместимость"
+            
+              , "обучение сотрудников"
+            
+              , "передовой опыт"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/a-beginners-guide-to-setting-up-a-secure-and-resilient-vpn-for-remote-workers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как настроить надежную и устойчивую VPN для удаленных сотрудников, обеспечив безопасный доступ к ресурсам компании.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/a-beginners-guide-to-setting-up-a-secure-and-resilient-vpn-for-remote-workers.webp" length="222860" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

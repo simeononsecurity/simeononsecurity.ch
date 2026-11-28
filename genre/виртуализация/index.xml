@@ -1,0 +1,806 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Виртуализация on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Виртуализация on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</link>
+
+    <description>Recent content in Виртуализация on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Proxmox VE 9: уменьшение использования виртуального диска и возврат места</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link>
+        
+        <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Виртуализация"
+            
+              , "Администрирование Linux"
+            
+              , "платформа Proxmox VE"
+            
+              , "Хранение данных"
+            
+              , "Домашняя лаборатория"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сократите использование хранилища VM и LXC в Proxmox VE 9. Сравните форматы дисков и серверные хранилища, включите discard, выполните trim в гостевых Windows и Linux, проверьте снимки перед возвратом места.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Перенос виртуальной машины Hyper-V в Proxmox VE: обратимый контрольный список</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Виртуализация"
+            
+              , "Системное администрирование"
+            
+              , "Домашняя лаборатория"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Перенесите VM Hyper-V в Proxmox VE: экспортируйте выключенный источник, согласуйте прошивку, импортируйте диски, проверьте загрузку в изоляции и подготовьте откат.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Проверка восстановления Proxmox VM: убедитесь, что гостевая система работает</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Виртуализация"
+            
+              , "Резервное копирование и восстановление"
+            
+              , "Домашняя лаборатория"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проверьте резервную копию Proxmox VM с помощью восстановления в изолированной сети. Убедитесь, что учтены диски, режим копирования, данные гостя, состояние службы и время восстановления, не затрагивая рабочую среду.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Контейнеры больше не являются границей безопасности: выходы из ядра в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link>
+        
+        <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность контейнеров"
+            
+              , "Linux"
+            
+              , "Безопасность ядра"
+            
+              , "Виртуализация"
+            
+              , "Облачная безопасность"
+            
+              , "Исследования угроз"
+            
+              , "Синяя команда"
+            
+              , "DevSecOps"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Обзор исследований выхода из контейнеров за 2026 год, ограничений изоляции ядра, давления на процесс установки исправлений и роли microVM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Docker в LXC на Proxmox: надёжность, факты и миграция на виртуальную машину</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link>
+        
+        <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Виртуализация"
+            
+              , "Администрирование Linux"
+            
+              , "Домашняя лаборатория"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оцените Docker внутри Proxmox LXC по документированной ошибке AppArmor, разбору сообщения о зависании хоста, диагностическим командам и плану миграции на виртуальную машину.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство по обновлению Proxmox VE 8 до версии 9</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link>
+        
+        <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Виртуализация"
+            
+              , "Администрирование Linux"
+            
+              , "Виртуализация Proxmox"
+            
+              , "Управление серверами"
+            
+              , "Программное обеспечение с открытым исходным кодом"
+            
+              , "Домашняя лаборатория"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Обновите Proxmox VE 8 до версии 9: проверьте предварительные требования, выполните ручные шаги или автоматизацию, учтите несовместимые изменения и подготовьте восстановление.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>VMware против Hyper-V против Proxmox: сравнение виртуализации</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link>
+        
+        <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Виртуализация"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Виртуализация серверов"
+            
+              , "Корпоративное программное обеспечение"
+            
+              , "Облачные вычисления"
+            
+              , "Решения для дата-центров"
+            
+              , "Виртуализация с открытым исходным кодом"
+            
+              , "Управление виртуальными машинами"
+            
+              , "Сравнение виртуализации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя простое сравнение VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE и XCP-NG и выберите идеальное решение для виртуализации для успеха вашего бизнеса.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие авторы контента о домашней лаборатории</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link>
+        
+        <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Сети"
+            
+              , "Сделай сам"
+            
+              , "Виртуализация"
+            
+              , "Домашние лаборатории"
+            
+              , "Любители технологий"
+            
+              , "Сообщество"
+            
+              , "Обучение"
+            
+              , "Инновации"
+            
+              , "Руководства"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Познакомьтесь с авторами о домашних лабораториях, найдите единомышленников и начните техническое путешествие.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация установки Windows 11: Обход проверок TPM, безопасной загрузки и оперативной памяти</title>
+        
+          <link>https://ru.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link>
+        
+        <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Windows 11"
+            
+              , "Установка"
+            
+              , "Виртуализация"
+            
+              , "Автоматизация"
+            
+              , "Ключи реестра"
+            
+              , "Обходной путь TPM"
+            
+              , "Обход безопасной загрузки"
+            
+              , "Обход оперативной памяти"
+            
+              , "vTPM"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оптимизация установки Windows 11 в виртуальных средах за счет обхода проверок TPM, Secure Boot и оперативной памяти с помощью autounattend.xml и vTPM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/windows11-installation-cartoon.webp" length="56442" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение безопасности виртуальных машин с помощью vTPM: Пошаговое руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link>
+        
+        <pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Виртуализация"
+            
+              , "VMware"
+            
+              , "vSphere"
+            
+              , "Безопасность"
+            
+              , "Модуль доверенной платформы"
+            
+              , "vTPM"
+            
+              , "Гостевая ОС"
+            
+              , "Шифрование"
+            
+              , "Аттестация платформы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Повышение безопасности виртуальных машин с использованием vTPM с помощью нашего исчерпывающего пошагового руководства, обеспечивающего аттестацию платформы и поддержку шифрования BitLocker.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/enhanced-vm-security.webp" length="99734" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освойте защиту VMware</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link>
+        
+        <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Виртуализация"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Автоматизация"
+            
+              , "PowerShell"
+            
+              , "VMware"
+            
+              , "STIG"
+            
+              , "Соответствие требованиям"
+            
+              , "Скрипты"
+            
+              , "Центр обработки данных"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом подробном руководстве вы узнаете, как применять VMware STIG с помощью PowerCLI и защищать среду VMware.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освойте PowerCLI для управления vSphere</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link>
+        
+        <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Виртуализация"
+            
+              , "VMware"
+            
+              , "ИТ-управление"
+            
+              , "Автоматизация"
+            
+              , "Интерфейс командной строки"
+            
+              , "Скрипты"
+            
+              , "Системное администрирование"
+            
+              , "Облачные вычисления"
+            
+              , "Управление дата-центром"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как управлять VMware vSphere с помощью PowerCLI, автоматизировать задачи и повысить продуктивность.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

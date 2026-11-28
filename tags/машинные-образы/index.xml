@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Машинные Образы on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Машинные Образы on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D1%8B/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D1%8B/</link>
+
+    <description>Recent content in Машинные Образы on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Введение в Packer для инфраструктуры как кода</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Packer"
+            
+              , "Инфраструктура как код"
+            
+              , "Разработка и эксплуатация"
+            
+              , "Автоматизация"
+            
+              , "Безопасность"
+            
+              , "Повторяемость"
+            
+              , "Масштабируемость"
+            
+              , "Мультиплатформенность"
+            
+              , "Контроль версий"
+            
+              , "Облачные вычисления"
+            
+              , "Машинные образы"
+            
+              , "Виртуализация"
+            
+              , "Управление конфигурацией"
+            
+              , "Непрерывная интеграция"
+            
+              , "Непрерывная доставка"
+            
+              , "Разработка ПО"
+            
+              , "Лучшие практики"
+            
+              , "Тестирование"
+            
+              , "Открытый исходный код"
+            
+              , "Мультиоблако"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как использовать Packer для создания простых в обслуживании и безопасных машинных образов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.webp" length="175658" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

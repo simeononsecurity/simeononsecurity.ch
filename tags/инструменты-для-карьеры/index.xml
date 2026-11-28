@@ -1,0 +1,105 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Инструменты Для Карьеры on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Инструменты Для Карьеры on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%8C%D0%B5%D1%80%D1%8B/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%8C%D0%B5%D1%80%D1%8B/</link>
+
+    <description>Recent content in Инструменты Для Карьеры on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%8C%D0%B5%D1%80%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>ATS Resume Improver: бесплатная оптимизация резюме с ИИ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</link>
+        
+        <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Инструменты для карьеры"
+            
+              , "Проекты с открытым исходным кодом"
+            
+              , "Искусственный интеллект"
+            
+              , "Технологии конфиденциальности"
+            
+              , "Инструменты разработчика"
+            
+              , "Поиск работы"
+            
+              , "Продуктивность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          ATS Resume Improver — бесплатный инструмент с открытым исходным кодом, который работает в браузере и анализирует, оценивает, сопоставляет, оптимизирует и экспортирует резюме с помощью облачных или локальных моделей.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp" length="158574" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

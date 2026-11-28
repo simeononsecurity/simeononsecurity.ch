@@ -1,0 +1,174 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VPN on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>VPN on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/vpn/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/vpn/</link>
+
+    <description>Recent content in VPN on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/vpn/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Связь и защита данных для полевых периферийных узлов</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Периферийные вычисления"
+            
+              , "Полевые ИТ-системы"
+            
+              , "Сетевая безопасность"
+            
+              , "VPN"
+            
+              , "Шифрование"
+            
+              , "Физическая безопасность"
+            
+              , "Аварийное восстановление"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Подключайте и защищайте периферийные вычислительные узлы в полевых условиях с помощью сотовой и спутниковой связи, LoRa, VPN, MFA, сегментации, журналирования, шифрования и защиты от кражи.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение Tailscale и Headscale</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "VPN"
+            
+              , "Сетевая безопасность"
+            
+              , "Самостоятельное размещение"
+            
+              , "WireGuard"
+            
+              , "Нулевое доверие"
+            
+              , "Ячеистые сети"
+            
+              , "Открытый исходный код"
+            
+              , "Облачная инфраструктура"
+            
+              , "Удалённый доступ"
+            
+              , "Управление сетями"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните модели размещения, управление учётными записями, функции, стоимость, эксплуатацию и поддержку Tailscale и Headscale, чтобы выбрать ячеистую VPN на базе WireGuard под свои задачи.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Prepare Content Images"
-  short_description: "Generate and verify article covers and figures"
-  default_prompt: "Use $sos-content-media for the requested work in this repository."

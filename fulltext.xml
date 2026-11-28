@@ -1,0 +1,2793 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>simeononsecurity</title>
+    <link>https://ru.simeononsecurity.com/</link>
+    <description>Recent content on simeononsecurity</description>
+    <generator>1337 H4X0R Generator</generator>
+    <language>ru</language>
+    <lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ru.simeononsecurity.com/fulltext.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Как выбрать локальную модель ИИ без цензуры</title>
+      <link>https://ru.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid>
+      <description>Сравнивайте локальные варианты по завершённым ответам, сохранённым возможностям, использованию контекста, квантованию и требованиям к VRAM.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p><strong>Выбор модели:</strong> оценивайте каждый вариант по полезным ответам, которые он завершает, сохранённому качеству и объёму памяти, необходимому для вашей нагрузки. Низкое число отказов или популярная карточка модели не подтверждают такие результаты.</p>
+<p>У обозначения <strong>без цензуры</strong> нет стандартной шкалы производительности. Публикаторы моделей используют его для разных изменений весов, дообучений и шаблонов чата. Сравнивайте каждый вариант с исходной моделью и проверяйте задачи, которые собираетесь выполнять.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position: relative; padding-bottom: 5
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Откат Home Assistant Core 2026.11 до 2026.10.4: исправление версии 3 хранилища HTTP</title>
+      <link>https://ru.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid>
+      <description>Исправьте ошибку версии 3 хранилища HTTP после отката Home Assistant Core 2026.11 до 2026.10.4 на Yellow. В статье приведены защищённые команды и проверенные результаты.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p>Неудачное обновление Home Assistant Core 2026.11 откатило мой Yellow CM4 до версии 2026.10.4. Yellow оставался доступен в сети, но перестал показывать панель. После отката файл настроек HTTP остался в версии хранилища 3.1, а Core 2026.10.4 поддерживает версию 2.2. Я сохранил файл, преобразовал его копию с помощью строгих проверок, восстановил доступ по HTTP, а затем обновил Core до версии 2026.11.1.</p>
+<h2 id="главное">
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" title="Главное">Главное</a>
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" class="h-anchor" aria-hidden="true" title="Главное">#</a>
+</h2>
+<ul>
+<li><strong>Подтвердите несовместимость.</strong> Сопоставьте ошибку в журнале Core с установленной версией и версией хранилища HTTP.</li>
+<li><strong>Сохраните файл.</strong> До восстановления оставьте неизменённую копию и резервную копию за пределами устройства.</li>
+<li><strong>Проверьте результат.</strong> Проверьте состояние Core, сохранённый порт прослушивания, панель и установленную версию.</li>
+</ul>
+<p><strong>Исправление именно для этого случая:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Сохраните файл HTTP">
+    <meta itemprop="url" content="#preserve-recovery-options">
+    <a href="#preserve-recovery-options"
+    
+        rel="follow me"
+    >Сохраните файл HTTP</a>
+</span>
+, 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Совместимость блоков питания Octominer X12 Ultra: испытание Chicony и LiteOn</title>
+      <link>https://ru.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid>
+      <description>Испытание Octominer X12 Ultra с пятью вентиляторами и тремя блоками питания показало, что блок Chicony запустил систему, а проверенные LiteOn загорелись оранжевым и не запустились.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p><strong>Блок Chicony R12-1K6P2A запустил мой Octominer X12 Ultra с пятью вентиляторами и тремя блоками питания.</strong> Проверенные LiteOn PS-2142-2L сначала показывали зелёный индикатор, затем он менялся на оранжевый, а система не запускалась. Этот результат относится к моему экземпляру с платой питания <strong>OCTOMINER (12PIN) 3x DPS1200 rev. 20</strong>. Одинаковая мощность или упоминание в списке для отдельной платы-переходника X12 не подтверждают совместимость с платой Octominer.</p>
+<p>Корпус продавался в <strong>конфигурации на 3 600 Вт</strong> с тремя отсеками для блоков питания. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Octominer указывает вариант с тремя блоками по 1 200 Вт">
+    <meta itemprop="url" content="https://octominer.eu/product/octominer-x12-ultra-used/">
+    <a href="https://octominer.eu/product/octominer-x12-ultra-used/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Octominer указывает вариант с тремя блоками по 1 200 Вт</a>
+</span>
+ для X12 Ultra, наряду с другими конфигурациями. Перед применением этих результатов проверьте маркировку и плату питания своего устройства.</p>
+<h2 id="результаты-испытаний">
+  <a href="#%d1%80%d0%b5%d0%b7%d1%83%d0%bb%d1%8c%d1%82%d0%b0%d1%82%d1%8b-%d0%b8%d1%81%d0%bf%d1%8b%d1%82%d0%b0%d0%bd%d0%b8%d0%b9" title="Результаты испытаний">Результаты испытаний</a>
+  <a href="#%d1%80%d0%b5%d0%b7%d1%83%d0%bb%d1%8c%d1%82%d0%b0%d1%82
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Proxmox VE 9: уменьшение использования виртуального диска и возврат места</title>
+      <link>https://ru.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid>
+      <description>Сократите использование хранилища VM и LXC в Proxmox VE 9. Сравните форматы дисков и серверные хранилища, включите discard, выполните trim в гостевых Windows и Linux, проверьте снимки перед возвратом места.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p><strong>Уменьшение размера файловой системы гостевой системы не всегда сокращает расходы на хранилище Proxmox.</strong> Чтобы освободить место на хосте, нужен диск с тонким выделением, работающий путь discard для VM и базовое хранилище без блоков, удерживаемых снимками. В этом руководстве рассматриваются настройки и проверки VM и контейнеров LXC в Proxmox VE 9.</p>
+<h2 id="главное">
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" title="Главное">Главное</a>
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" class="h-anchor" aria-hidden="true" title="Главное">#</a>
+</h2>
+<ul>
+<li><strong>Сначала выберите базовое хранилище.</strong> Заявленный размер виртуального диска отличается от объема, выделенного на хосте, только при поддержке тонкого выделения форматом образа или серверным хранилищем.</li>
+<li><strong>Включите discard для VM, затем запустите trim в гостевой системе.</strong> Windows ReTrim и Linux <code>fstrim</code> передают запросы для неиспользуемых блоков через виртуальный диск.</li>
+<li><strong>Отдельно проверьте снимки и резервные копии.</strong> Старые блоки остаются выделенными, пока на них ссылается снимок. Для файлов резервных копий и фрагментов PBS действуют отдельные правила хранения.</li>
+<li><strong>Учитывайте тип точек монтирования LXC.</strong> Управляемые rootfs и тома точек монтирования, bind-монтирования и монтирования устройств имеют разные правила владения и резервного копирования.</li>
+</ul>
+<h2 id="перед-началом">
+  <a href="#%d0%bf%d0%b5%d1%80%d0%b5%d0%b4-%d0%bd%d0%b0%d1%87%d0%b0%d0%bb%d0%be%d0%bc" title="Перед началом">Перед начало
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Tailscale Aperture: настройка ИИ-клиентов для инференса и MCP в 2026 году</title>
+      <link>https://ru.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid>
+      <description>Направляйте запросы к моделям и инструменты MCP через Tailscale Aperture. Настройте Codex, Claude Code, Claude Desktop, OpenCode и Hermes на другом устройстве или шлюзе.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <h2 id="введение">
+  <a href="#%d0%b2%d0%b2%d0%b5%d0%b4%d0%b5%d0%bd%d0%b8%d0%b5" title="Введение">Введение</a>
+  <a href="#%d0%b2%d0%b2%d0%b5%d0%b4%d0%b5%d0%bd%d0%b8%d0%b5" class="h-anchor" aria-hidden="true" title="Введение">#</a>
+</h2>
+<p>Tailscale Aperture предоставляет ИИ-клиентам единый шлюз в tailnet для инференса моделей и инструментов Model Context Protocol (MCP). Каждый клиент должен использовать маршрут, соответствующий его протоколу API. Инструменты MCP используют отдельную конечную точку, а разрешения Aperture определяют, к каким моделям и коннекторам может обращаться каждая идентичность Tailscale.</p>
+<p>В этом руководстве описана настройка Codex, Claude Code, Claude Desktop, OpenCode и Hermes в macOS, Linux и Windows. Здесь разобраны параметры CLI и настольных приложений, показано, как найти доступные вашей идентичности ID моделей, а также приведён обезличенный запрос, который можно использовать при настройке другого устройства или экземпляра Aperture.</p>
+<p><strong>Выбор маршрута:</strong> Пути конечных точек зависят от шлюза и протокола API. Маршрут Responses, например <code>/codex</code>, не обслуживает трафик Anthropic Messages или MCP. Проверьте имя узла шлюза и маршрут инференса для каждого клиента. Перед изменением настроек клиента найдите ID моделей через собственный доступ к Aperture.</p>
+<h2 id="главное">
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" title="Главное">Главное</a>
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" class="h-anchor" aria-hidden="true" title="Главное">#</a>
+</h2>
+<ul>
+<li><strong>Трафику моделей</strong> нужен маршрут API для протокола клиента.</li>
+<li><strong>Трафик MCP</strong> использует �
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Self-Hosted Hindsight: локальная память агентов и приватная маршрутизация моделей</title>
+      <link>https://ru.simeononsecurity.com/articles/self-hosted-hindsight/</link>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/self-hosted-hindsight/</guid>
+      <description>Разбор одного развертывания Hindsight на собственном оборудовании, наблюдавшихся локальных маршрутов Qwen и выделения GPU для отдельных запросов без подписки на облачный инференс на проверенных путях.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/self-hosted-hindsight/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p><strong>Наша служба памяти Hindsight работает на оборудовании под нашим контролем.</strong> Механизм памяти, база данных, модель эмбеддингов и переранжировщик работают в одном развертывании на собственном хостинге. Hindsight отправляет запросы на генерацию через частный шлюз. Проверенный общий бэкенд Qwen и протестированный маршрут обновления страниц используют локальные серверы моделей без подписки на облачный инференс.</p>
+<p>Здесь описано одно работающее развертывание. <strong>Самостоятельный хостинг не означает работу без сети.</strong> VPN использует внешнюю службу координации, а образы программ и веса моделей нужно загружать. Это утверждение относится к обработке памяти и инференсу моделей, но не ко всем сетевым подключениям наших устройств или других инструментов агентов.</p>
+<h2 id="главное">
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" title="Главное">Главное</a>
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" class="h-anchor" aria-hidden="true" title="Главное">#</a>
+</h2>
+<ul>
+<li><strong>Hindsight управляет рабочим процессом памяти.</strong> Контейнер Docker предоставляет API, рабочие процессы и плоскость управления, а данные банков хранятся в постоянном томе.</li>
+<li><strong>Небольшие модели поиска работают локально.</strong> Эмбеддинги и переранжирование выполняются в процессе Hindsight на CPU.</li>
+<li><strong>Qwen генерирует текст.</strong> Операции Retain, Reflect и Consolidation обращаются к частному псевдониму Qwen3.5-4B с выключенным рассуждением и ограниченным объемом вывода. 
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/self-hosted-hindsight/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Open WebUI v0.12.4: контрольный список обновления и управления доступом 2026</title>
+      <link>https://ru.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid>
+      <description>Создайте резервную копию и обновите Open WebUI до v0.12.4. Затем проверьте совместный доступ к чатам, разрешения на экспорт, права на ресурсы, учетные записи и сетевой доступ.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p><strong>Open WebUI v0.12.4 содержит исправления безопасности, которые сопровождающие проекта пока не перечислили.</strong> В примечаниях к выпуску рекомендуется своевременно обновлять установки и говорится, что бюллетени появятся после присвоения CVE. Перечисленные ниже изменения совместного доступа к чатам и разрешений видны в примечаниях к выпуску, но не составляют полный список нераскрытых исправлений безопасности. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Примечания к выпуску Open WebUI v0.12.4">
+    <meta itemprop="url" content="https://github.com/open-webui/open-webui/releases/tag/v0.12.4">
+    <a href="https://github.com/open-webui/open-webui/releases/tag/v0.12.4"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Примечания к выпуску Open WebUI v0.12.4</a>
+</span>
+</p>
+<h2 id="краткие-выводы">
+  <a href="#%d0%ba%d1%80%d0%b0%d1%82%d0%ba%d0%b8%d0%b5-%d0%b2%d1%8b%d0%b2%d0%be%d0%b4%d1%8b" title="Краткие выводы">Краткие выводы</a>
+  <a href="#%d0%ba%d1%80%d0%b0%d1%82%d0%ba%d0%b8%d0%b5-%d0%b2%d1%8b%d0%b2%d0%be%d0%b4%d1%8b" class="h-anchor" aria-hidden="true" title="Краткие выводы">#</a>
+</h2>
+<ul>
+<li><strong>Сначала создайте резервную копию.</strong> До изменения приложения сохраните копию тома данных или базы данных и загруженных файлов, которую можно восстановить.</li>
+<li><strong>Зафиксируйте официальный выпуск.</strong> Для стандартного образа Docker использу
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Thunderbird 153.6: утечка учетных данных NTLM в Windows и обновление (2026)</title>
+      <link>https://ru.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid>
+      <description>Две серьезные уязвимости Thunderbird могут раскрыть данные аутентификации NTLM в Windows при отображении специально подготовленного письма. Узнайте о двух сценариях, проверьте версию и ограничьте исходящий SMB-трафик во время обновления.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            
+            
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p>Mozilla устранила в Thunderbird 153.6 две <strong>серьезные уязвимости, раскрывавшие учетные данные Windows</strong>. Для запуска одного из сетевых запросов, описанных в 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="MFSA 2026-122">
+    <meta itemprop="url" content="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/">
+    <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >MFSA 2026-122</a>
+</span>
+, было достаточно отобразить специально подготовленное письмо. В бюллетене говорится о возможном раскрытии данных NTLM, а не о подтвержденной компрометации учетных данных каждого получателя.</p>
+<h2 id="главное">
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" title="Главное">Главное</a>
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" class="h-anchor" aria-hidden="true" title="Главное">#</a>
+</h2>
+<ul>
+<li><strong>CVE-2026-118174</strong> затрагивала размещенное на внешнем сервере вложение с ключом OpenPGP. При отображении письма запускался запрос без участия пользователя, даже если удаленное содержимое было заблокировано.</li>
+<li><strong>CVE-2026-118176</strong> затрагивала специально сформированный URL <code>mailbox:</code> с UNC-путем увеличенной длины. При отображении письма устанавливалось SMB-соединение с сервером, выбранным отправителем.</li>
+<li><strong>Обновите Thunderbird в Windows</stro
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Обновление безопасности Chrome 156: проверка октябрьского исправления</title>
+      <link>https://ru.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</link>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/chrome-156-patch-verification-guide/</guid>
+      <description>Проверьте выпуск Chrome 156 от 27 октября на Windows, macOS, Linux и Android. Сверьте установленную сборку, завершите ожидающий перезапуск и отдельно проверьте управляемые устройства.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p><strong>В выпуске Chrome для исправления проблем безопасности от 27 октября 2026 года</strong> перечислено 52 исправления. Чтобы проверить установку, сравните полную версию с выпуском для вашей операционной системы, затем перезапустите Chrome, чтобы завершить ожидающее обновление. Объявленная версия не доказывает, что устройство уже получило обновление. (
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Выпуск Chrome для компьютеров">
+    <meta itemprop="url" content="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html">
+    <a href="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Выпуск Chrome для компьютеров</a>
+</span>
+)</p>
+<h2 id="какая-версия-должна-отображаться">
+  <a href="#%d0%ba%d0%b0%d0%ba%d0%b0%d1%8f-%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d1%8f-%d0%b4%d0%be%d0%bb%d0%b6%d0%bd%d0%b0-%d0%be%d1%82%d0%be%d0%b1%d1%80%d0%b0%d0%b6%d0%b0%d1%82%d1%8c%d1%81%d1%8f" title="Какая версия должна отображаться?">Какая версия должна отображаться?</a>
+  <a href="#%d0%ba%d0%b0%d0%ba%d0%b0%d1%8f-%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d1%8f-%d0%b4%d0%be%d0%bb%d0%b6%d0%bd%d0%b0-%d0%be%d1%82%d0%be%d0%b1%d1%80%d0%b0%d0%b6%d0%b0%d1%82%d1%8c%d1%81%d1%8f" class="h-anchor" aria-hidden="true" title="Какая версия должна отображаться?">#</a>
+</h2>
+<p>27 октября 2026 года Google опубликовала следующие версии канала Stable. В выпуске для компьютеров указаны отдельные
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/chrome-156-patch-verification-guide/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Соберите домашнюю лабораторию за 10 уровней: от Pi-hole до локального ИИ</title>
+      <link>https://ru.simeononsecurity.com/articles/build-home-lab-10-levels/</link>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/build-home-lab-10-levels/</guid>
+      <description>Соберите домашнюю лабораторию в десять практических этапов: от DNS-фильтрации всей сети до локального ИИ, с описанием оборудования, затрат, навыков и компромиссов для каждого уровня.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/build-home-lab-10-levels/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <h1 id="соберите-домашнюю-лабораторию-за-10-уровней-от-pi-hole-до-локального-ии">
+  <a href="#%d1%81%d0%be%d0%b1%d0%b5%d1%80%d0%b8%d1%82%d0%b5-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d1%8e%d1%8e-%d0%bb%d0%b0%d0%b1%d0%be%d1%80%d0%b0%d1%82%d0%be%d1%80%d0%b8%d1%8e-%d0%b7%d0%b0-10-%d1%83%d1%80%d0%be%d0%b2%d0%bd%d0%b5%d0%b9-%d0%be%d1%82-pi-hole-%d0%b4%d0%be-%d0%bb%d0%be%d0%ba%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d0%b8%d0%b8" title="Соберите домашнюю лабораторию за 10 уровней: от Pi-hole до локального ИИ">Соберите домашнюю лабораторию за 10 уровней: от Pi-hole до локального ИИ</a>
+  <a href="#%d1%81%d0%be%d0%b1%d0%b5%d1%80%d0%b8%d1%82%d0%b5-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d1%8e%d1%8e-%d0%bb%d0%b0%d0%b1%d0%be%d1%80%d0%b0%d1%82%d0%be%d1%80%d0%b8%d1%8e-%d0%b7%d0%b0-10-%d1%83%d1%80%d0%be%d0%b2%d0%bd%d0%b5%d0%b9-%d0%be%d1%82-pi-hole-%d0%b4%d0%be-%d0%bb%d0%be%d0%ba%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d0%b8%d0%b8" class="h-anchor" aria-hidden="true" title="Соберите домашнюю лабораторию за 10 уровней: от Pi-hole до локального ИИ">#</a>
+</h1>
+<p><strong>Домашняя лаборатория</strong> — это набор компьютеров и служб, которые вы запускаете для решения повседневных задач и изучения реальных систем. Можно блокировать рекламу, автоматизировать освещение, хранить семейные медиаматериалы или тестировать виртуальные машины. <strong>Начните с одной полезной задачи.</strong> Добавляйте оборудование, когда появится реальное ограничение.</p>
+<p>Руководство начинается с небольшого Raspberry Pi с Pi-hole и доходит до сервера с локальными моделями ИИ. <strong>Каждый уровень добавляет возможности и новые обязанности.</strong> Оценки затрат используют примерное энергопотребление и условную цену $0.15 за киловатт-час. Проверьте местный тариф и измерьте
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/build-home-lab-10-levels/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Локальные тесты моделей Hermes: какие сочетания GPU и моделей я бы выбрал</title>
+      <link>https://ru.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid>
+      <description>Мои рекомендации по моделям Hermes основаны на тестах длинного контекста, инструментов, потоковой передачи и зрения на системах RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti и RTX 3070.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p>Для задач Hermes с длинным контекстом я бы начал с Qwen3.5 35B на двух RTX 5060 Ti по 16 ГБ. Проверенный маршрут сохранил 239 153 входных токена через LiteLLM и прошел отдельные проверки инструментов, потоковой передачи, зрения, очереди запросов и отмены. Qwen3.6 подойдет как вариант на одной карте. На системах RTX 3060 Ti и RTX 3070 я бы начал с Qwen3.5 2B или 4B.</p>
+<p>Эти рекомендации основаны на запуске моделей через пути инференса, которыми пользуется агент. Я проверил сохранение длинного ввода, циклы вызова инструментов, потоковые ответы, вопросы по изображениям и выгрузку модели. Также я проверил режимы и настройки памяти, потому что успешная загрузка мало говорит о пользе модели при долгом запросе агента.</p>
+<p>Для работы агента с инструментами Hermes требует не менее 64 000 токенов контекста. Порогом длинного контекста я выбрал 65 536 фактически обработанных входных токенов. Число входных токенов важнее размера контекста, заявленного сервером. (
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Документация провайдера Hermes Agent">
+    <meta itemprop="url" content="https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md">
+    <a href="https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md"
+    
+        
+            
+                
+                    rel="noopener
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Гибридный парк ИИ-агентов изнутри: Hermes, LiteLLM и Tailscale</title>
+      <link>https://ru.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid>
+      <description>Узнайте о проверенном локальном парке ИИ с загрузкой по запросу и его ступенчатой плоскости управления T0–T4 на базе Hermes, LiteLLM, Tailscale Aperture и майнинга Pearl.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p><strong>Мы развернули локальный парк GPU с выделением ресурсов под отдельные запросы и спроектировали гибридную плоскость управления.</strong> Проверенный путь начинается в LiteLLM, выбирает группу моделей и загружает одну локальную модель на одну GPU за раз. Политика уровней Hermes предложена, а артефакт конфигурации Tailscale Aperture готов к следующему интеграционному тесту. Ни одно из решений не проверено как часть единого сквозного маршрута.</p>
+<p>Простаивающие карты майнят Pearl. Запрос ИИ приостанавливает майнинг только на выделенной карте, обслуживает запрос, выгружает модель и возвращает карту майнеру.</p>
+<h2 id="основные-выводы">
+  <a href="#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%b2%d1%8b%d0%b2%d0%be%d0%b4%d1%8b" title="Основные выводы">Основные выводы</a>
+  <a href="#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%b2%d1%8b%d0%b2%d0%be%d0%b4%d1%8b" class="h-anchor" aria-hidden="true" title="Основные выводы">#</a>
+</h2>
+<ul>
+<li><strong>T0–T2 обрабатывают дорогие или сложные задачи.</strong> Эти маршруты предпочитают размещенные frontier-модели и упорядоченные цепочки резервирования.</li>
+<li><strong>T3 выполняет значительную часть локальной работы.</strong> Парк распределяет планирование, программирование, проверку и обработку изображений между моделями от 4B до 12B.</li>
+<li><strong>T4 выполняет большой объем локальных задач.</strong> Малые модели маршрутизируют, классифицируют, извлекают данные, создают эмбеддинги и выполняют ограниченные задачи программирования.</li>
+<li><strong>Каждая GPU — отдельный ре
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>1Password SSH Agent и CLI: доступ агентам ИИ только для чтения</title>
+      <link>https://ru.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid>
+      <description>Спроектируйте workflow только для чтения с использованием 1Password CLI, SSH Agent и MCP. Используйте синтетические команды, ограниченные разрешения и одобрение человеком перед живым тестированием.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p><strong>Агенту командной строки нужен полезный доступ, а не копия всех учётных данных.</strong> В этом руководстве представлена ограниченная по объёму модель для 1Password CLI, агента SSH 1Password, доступа к Bitbucket Git и протокола контекста модели (MCP). Первый рабочий процесс использует синтетические имена, действия только на чтение и одобрение человеком на границе SSH.</p>
+<p>Ключевое различие просто. <strong>Интерактивный SSH использует согласие через агента SSH 1Password. Автоматизация без участия человека требует отдельной учётной записи, узкого доступа и другого жизненного цикла ключей.</strong> Не рассматривайте подключение MCP как разрешение на выполнение любого из этих рабочих процессов.</p>
+<h2 id="ключевые-выводы">
+  <a href="#%d0%ba%d0%bb%d1%8e%d1%87%d0%b5%d0%b2%d1%8b%d0%b5-%d0%b2%d1%8b%d0%b2%d0%be%d0%b4%d1%8b" title="Ключевые выводы">Ключевые выводы</a>
+  <a href="#%d0%ba%d0%bb%d1%8e%d1%87%d0%b5%d0%b2%d1%8b%d0%b5-%d0%b2%d1%8b%d0%b2%d0%be%d0%b4%d1%8b" class="h-anchor" aria-hidden="true" title="Ключевые выводы">#</a>
+</h2>
+<ul>
+<li><strong>Защита закрытого ключа:</strong> Агент SSH 1Password выполняет аутентификацию SSH, сохраняя закрытые ключи внутри приложения 1Password.</li>
+<li><strong>Обработка открытого ключа:</strong> Публикуйте только открытый ключ в Bitbucket или удалённую учётную запись. Храните закрытую часть в элементе SSH Key.</li>
+<li><strong>Интерактивное согласие:</strong> Человек одобряет клиент или сеанс терминала перед тем, как агент SSH использует ключ.</li>
+<li><strong>Разделение для автоматизации:</strong> Периодическая задача требует выд
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Ключи SSH Bitbucket Cloud: доступ Git только для чтения для ИИ-агентов</title>
+      <link>https://ru.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid>
+      <description>Настройте ключи SSH Bitbucket Cloud, доступ Git CLI, токены REST API, 1Password и инструменты MCP для рабочих процессов ИИ-агентов только для чтения.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p><strong>Ограниченный рабочий процесс агента разделяет чтение репозитория, чтение API, управление секретами и удаленную запись.</strong> Используйте Git через Secure Shell (SSH) для доступа к исходникам, ключ доступа Bitbucket только для чтения для автоматического checkout, REST API для метаданных и сервер Model Context Protocol (MCP) для разрешенных инструментов. Храните закрытые ключи и API-токены в 1Password. Оставляйте запись за этапом подтверждения человеком.</p>
+<h2 id="основные-выводы">
+  <a href="#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%b2%d1%8b%d0%b2%d0%be%d0%b4%d1%8b" title="Основные выводы">Основные выводы</a>
+  <a href="#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%b2%d1%8b%d0%b2%d0%be%d0%b4%d1%8b" class="h-anchor" aria-hidden="true" title="Основные выводы">#</a>
+</h2>
+<ul>
+<li><strong>По умолчанию только чтение:</strong> используйте ключ доступа к репозиторию или проекту для checkout агента. Ни один из них не дает права push.</li>
+<li><strong>Личная идентичность:</strong> используйте личный SSH-ключ для интерактивной работы, связанной с учетной записью пользователя.</li>
+<li><strong>Хранение секретов:</strong> используйте 1Password SSH Agent, чтобы Git выполнял разрешенное подписание без чтения закрытого ключа.</li>
+<li><strong>Значение CLI:</strong> считайте <code>git</code>, <code>curl</code> и небольшой проверенный API-wrapper практическими инструментами командной строки Bitbucket.</li>
+<li><strong>Граница MCP:</strong> предоставляйте узкий набор инструментов чтения. Отключайте инструменты записи или защищайте их отдельным процессом подтверждения.</li>
+<li><strong>Контроль записи:</stro
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Перенос виртуальной машины Hyper-V в Proxmox VE: обратимый контрольный список</title>
+      <link>https://ru.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid>
+      <description>Перенесите VM Hyper-V в Proxmox VE: экспортируйте выключенный источник, согласуйте прошивку, импортируйте диски, проверьте загрузку в изоляции и подготовьте откат.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p><strong>Экспорт Hyper-V</strong> сохраняет файлы виртуальной машины, но Proxmox VE требует новой конфигурации гостя и импортированных файлов виртуальных дисков VHDX. Успешное копирование не доказывает, что гость загрузится и будет обслуживать пользователей. Этот список помогает перенести одну VM через экспорт выключенного источника, контролируемый тест загрузки и переключение с понятным путем возврата.</p>
+<h2 id="главное">
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" title="Главное">Главное</a>
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" class="h-anchor" aria-hidden="true" title="Главное">#</a>
+</h2>
+<ul>
+<li><strong>Запишите параметры источника:</strong> до экспорта укажите поколение прошивки, пути к дискам, контрольные точки, сеть и шифрование.</li>
+<li><strong>Остановите запись:</strong> выключите VM Hyper-V перед финальным экспортом и не включайте ее во время теста в Proxmox.</li>
+<li><strong>Согласуйте загрузку:</strong> Hyper-V поколения 1 использует старый BIOS, поколения 2 использует UEFI.</li>
+<li><strong>Проверьте службу:</strong> перед выводом источника из эксплуатации проверьте данные, сетевой доступ, резервные копии и состояние гостя.</li>
+</ul>
+<h2 id="перед-началом">
+  <a href="#%d0%bf%d0%b5%d1%80%d0%b5%d0%b4-%d0%bd%d0%b0%d1%87%d0%b0%d0%bb%d0%be%d0%bc" title="Перед началом">Перед началом</a>
+  <a href="#%d0%bf%d0%b5%d1%80%d0%b5%d0%b4-%d0%bd%d0%b0%d1%87%d0%b0%d0%bb%d0%be%d0%bc" class="h-anchor" aria-hidden="true" title="Перед началом">#</a>
+</h2>
+<p>Запланируйте окно обслуживания и сначала проверьте процедуру на одноразовой VM. Нужны права администратора Hyper-V и Proxmox VE, место для экспор
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Почему DNS-фильтр обходят: проверьте путь резолвера</title>
+      <link>https://ru.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid>
+      <description>Узнайте, почему устройство или браузер обходят DNS-фильтр. Сравните прямые и обычные запросы, проверьте журналы, зашифрованный DNS, VPN, IPv6 и настройки маршрутизатора.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p>Вы настроили фильтрующий резолвер, но одно устройство по-прежнему открывает домен, заблокированный политикой. Причиной может быть правило, назначение Domain Name System (DNS) на устройстве, зашифрованный резолвер браузера или VPN. <strong>Проверьте путь до изменения настроек.</strong> Прямой запрос к фильтру отвечает на другой вопрос, чем обычный запрос устройства.</p>
+<h2 id="главное">
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" title="Главное">Главное</a>
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" class="h-anchor" aria-hidden="true" title="Главное">#</a>
+</h2>
+<ul>
+<li><strong>Сначала проверьте правило:</strong> Убедитесь, что фильтр получает и блокирует безопасный тестовый домен.</li>
+<li><strong>Проследите каждый уровень:</strong> Маршрутизатор, операционная система, браузер, VPN и мобильные настройки влияют на маршрутизацию DNS.</li>
+<li><strong>Используйте новые запросы:</strong> Сопоставьте новое имя узла и время с журналом запросов фильтра.</li>
+<li><strong>Учитывайте ограничение:</strong> Один наблюдаемый запрос подтверждает один путь, а не работу каждого приложения или устройства.</li>
+</ul>
+<h2 id="подготовка">
+  <a href="#%d0%bf%d0%be%d0%b4%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%ba%d0%b0" title="Подготовка">Подготовка</a>
+  <a href="#%d0%bf%d0%be%d0%b4%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%ba%d0%b0" class="h-anchor" aria-hidden="true" title="Подготовка">#</a>
+</h2>
+<p>Выделите около 20 минут. Вам понадобится доступ к журналу запросов фильтрующего резолвера, устройство с проблемой и запись DNS-настроек маршрутизатора. В примерах используется ноутбук Windows и <strong>Pi-hole</strong>, но �
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Проверка восстановления Proxmox VM: убедитесь, что гостевая система работает</title>
+      <link>https://ru.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid>
+      <description>Проверьте резервную копию Proxmox VM с помощью восстановления в изолированной сети. Убедитесь, что учтены диски, режим копирования, данные гостя, состояние службы и время восстановления, не затрагивая рабочую среду.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p>Зелёное задание показывает, что Proxmox записал резервную копию. Оно не подтверждает, что гость загрузится, данные будут актуальными, а основная служба заработает. <strong>Восстановите копию с новым ID VM в изолированной сети.</strong> Результат станет доказательством восстановления до того, как сбой вынудит вас проводить проверку.</p>
+<p>Эта проверка охватывает одну <strong>виртуальную машину Proxmox VE</strong>. Для контейнеров действуют другие правила резервного копирования, особенно для bind mount и подключённых устройств. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Проверка резервного копирования и восстановления домашней лаборатории">
+    <meta itemprop="url" content="/articles/homelab-backup-restore-drill/">
+    <a href="/articles/homelab-backup-restore-drill/"
+    
+        rel="follow me"
+    >Проверка резервного копирования и восстановления домашней лаборатории</a>
+</span>
+ на сайте охватывает более широкий сценарий восстановления файлов. Здесь вы проверите резервную копию Proxmox VM и её рабочую нагрузку.</p>
+<p><strong>Гость</strong> — операционная система внутри виртуальной машины. <strong>Bind mount</strong> и <strong>подключения устройств</strong> предоставляют гостю ресурсы хоста. Проверяйте эти ресурсы по отдельному плану восстановления.</p>
+<h2 id="основные-выводы">
+  <a 
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Проверка изоляции гостевой сети и сети IoT в Mesh Wi-Fi</title>
+      <link>https://ru.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid>
+      <description>Проверьте, блокируют ли гостевая сеть и сеть IoT в вашей Mesh Wi-Fi-системе доступ к домашним устройствам. Протестируйте каждую сеть с работающей службой и зафиксируйте ограничения.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p>Отдельное имя Wi-Fi не показывает, какие устройства могут обмениваться данными. Mesh-система может считать <strong>гостевую сеть</strong>, <strong>сеть IoT</strong> и <strong>изоляцию беспроводных клиентов</strong> разными механизмами. Это руководство поможет проверить пути на вашем оборудовании. Не исходите из того, что название функции у производителя описывает применяемую политику.</p>
+<h2 id="главное">
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" title="Главное">Главное</a>
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" class="h-anchor" aria-hidden="true" title="Главное">#</a>
+</h2>
+<ul>
+<li><strong>Сначала убедитесь, что цель доступна:</strong> подключитесь к известной службе из основной сети, прежде чем проверять заблокированный путь.</li>
+<li><strong>Проверяйте каждую границу:</strong> доступ гостя к основной сети, IoT к основной сети и гостя к гостю отвечают на разные вопросы.</li>
+<li><strong>Запишите конфигурацию:</strong> модель, прошивка, режим маршрутизатора или точки доступа и подключенный узел Mesh влияют на интерпретацию.</li>
+<li><strong>Повторите тест после изменений:</strong> результат относится только к проверенным устройствам, службе, семейству адресов и конфигурации.</li>
+</ul>
+<h2 id="перед-началом">
+  <a href="#%d0%bf%d0%b5%d1%80%d0%b5%d0%b4-%d0%bd%d0%b0%d1%87%d0%b0%d0%bb%d0%be%d0%bc" title="Перед началом">Перед началом</a>
+  <a href="#%d0%bf%d0%b5%d1%80%d0%b5%d0%b4-%d0%bd%d0%b0%d1%87%d0%b0%d0%bb%d0%be%d0%bc" class="h-anchor" aria-hidden="true" title="Перед началом">#</a>
+</h2>
+<p>Выделите около 20 минут. Вам понадобится ноутбук, который подключается к основной, гостевой и IoT-с�
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Проверьте утечки DNS и WebRTC в браузере при использовании VPN</title>
+      <link>https://ru.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid>
+      <description>Проверьте публичный IP-адрес, DNS-резолвер и адреса WebRTC в браузере до и после подключения VPN. Разберите результаты и исследуйте проблемы маршрутизации.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p>Значок подключения виртуальной частной сети (VPN) не доказывает, что все запросы браузера проходят одним маршрутом. Проверьте отдельно <strong>публичный IP-адрес</strong>, <strong>резолвер системы доменных имен (DNS)</strong> и <strong>адреса WebRTC</strong>. Каждый результат отвечает на отдельный вопрос. В этом руководстве описана повторяемая проверка и способ изучить неожиданные результаты.</p>
+<h2 id="главное">
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" title="Главное">Главное</a>
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" class="h-anchor" aria-hidden="true" title="Главное">#</a>
+</h2>
+<ul>
+<li><strong>Сравните два состояния:</strong> Запишите результаты одних и тех же проверок до и после подключения VPN.</li>
+<li><strong>Разбирайте каждый результат отдельно:</strong> Изменение публичного IP не показывает, куда отправлялись DNS-запросы.</li>
+<li><strong>Проверьте кандидаты WebRTC:</strong> Найдите публичный адрес вне ожидаемого маршрута. Частный адрес означает другое.</li>
+<li><strong>Меняйте по одной настройке:</strong> Повторяйте проверку после каждого изменения VPN, браузера или DNS.</li>
+</ul>
+<h2 id="перед-началом">
+  <a href="#%d0%bf%d0%b5%d1%80%d0%b5%d0%b4-%d0%bd%d0%b0%d1%87%d0%b0%d0%bb%d0%be%d0%bc" title="Перед началом">Перед началом</a>
+  <a href="#%d0%bf%d0%b5%d1%80%d0%b5%d0%b4-%d0%bd%d0%b0%d1%87%d0%b0%d0%bb%d0%be%d0%bc" class="h-anchor" aria-hidden="true" title="Перед началом">#</a>
+</h2>
+<p>Используйте браузер и сетевое подключение, которые нужно защитить. Определите, должна ли VPN охватывать все устройство или только выбранные приложения. Если VPN применяет раздельное туннелирование, зап�
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>2x RTX 5060 Ti против GB10: локальный тест ИИ на пяти моделях с контекстом 256K</title>
+      <link>https://ru.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid>
+      <description>Сравнение RTX 5060 Ti и GB10 на пяти моделях, а также тест Qwen3.8 Flash-Next в Strata на одном хосте с контекстом до 256K.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p><strong>Две карты RTX 5060 Ti с 16 ГБ обеспечивают в сумме 32 ГБ VRAM.</strong> Система NVIDIA GB10 предоставляет 128 ГБ когерентной унифицированной памяти. Новый тест пяти моделей дает более сбалансированную картину, чем прежний тест только с Qwen.</p>
+<p>При настройке 256K система с двумя картами генерирует быстрее на четырех из пяти моделей. GB10 заметно опережает ее на Qwen3.8 27B и оставляет больше памяти для моделей, контекста и выделений среды выполнения. Лучший выбор зависит от модели и нагрузки.</p>
+<p>В отдельном запуске на том же хосте сравнили Qwen3.8-Flash-Next IQ2_XS в Strata и плотную модель Qwen3.8 27B Q4_K_M в Ollama. Медианная скорость генерации Flash-Next после прогрева составила 92.8 токена в секунду при запросе длиной 260,446 токенов. Плотная Qwen3.8 достигла 0.939 токена в секунду при запросе длиной 260,444 токена.</p>
+<p>NVIDIA GB10 использует 128 ГБ когерентной унифицированной памяти. NVIDIA указывает для платформы GB10 128 ГБ унифицированной памяти LPDDR5x и TDP чипа 140 Вт. На каждой RTX 5060 Ti установлено 16 ГБ GDDR7, интерфейс памяти имеет ширину 128 бит, а заявленная мощность видеокарты составляет 180 Вт. Разницу оборудования описывают 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="характеристики NVIDIA RTX 5060 Ti">
+    <meta itemprop="url" content="https://www.nvidia.com/en-u
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>OpenClaw и Hermes Agent: практическая оценка</title>
+      <link>https://ru.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</link>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</guid>
+      <description>Оцените специализированных и постоянно работающих ИИ-агентов с помощью описи доступа, проверки триггеров, записи о потоках данных и решения о пилотном запуске.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/effective-ai-specialized-agent-evaluation.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Вернуться к практическому курсу по рабочим процессам с ИИ">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Вернуться к практическому курсу по рабочим процессам с ИИ</a>
+</span>
+</p>
+<p><strong>Выбирайте специализированного агента с учётом задачи и необходимого доступа.</strong> Рабочий агент, проверяющий один файл, отличается от постоянно работающей системы, которая получает сообщения, сохраняет память и выполняет действия по расписанию. В этом дополнительном уроке OpenClaw и Hermes Agent служат примерами, а затем предлагается лист оценки перед установкой.</p>
+<p><strong>Цель обучения:</strong> вы сравните доступы и триггеры агентов, а затем зафиксируете решение об ограниченном пилоте.</p>
+<h2 id="главное">
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" title="Главное">Главное</a>
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" class="h-anchor" aria-hidden="true" title="Главное">#</a>
+</h2>
+<ul>
+<li><strong>Рабочий агент с ограниченной ролью:</strong> агент, которому поручен один вопрос или материал.</li>
+<li><strong>Постоянный агент:</strong> служба или сеанс, сохраняющий состояние или реагирующий на последующие триггеры.</li>
+<li><strong>Триггер:</strong> событие, сообщение или расписание, запускающее рабо�
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Бум инфраструктуры ИИ в 2026 году: спрос, долг, энергия и доказательства</title>
+      <link>https://ru.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid>
+      <description>Фактологический обзор расходов на инфраструктуру ИИ, потребления электроэнергии дата-центрами, финансовых схем, стоимости компаний и доказательств, необходимых до объявления рынка пузырём.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p><strong>Инфраструктура ИИ расширяется темпами, с которыми сравнивались лишь немногие технологические рынки.</strong> Расходы реальны. Спрос на энергию реален. Финансовый риск реален. Окупаемость менее определённа.</p>
+<p>Полезный вопрос состоит не в том, существует ли искусственный интеллект. Нужно понять, оправдают ли будущая выручка и рост производительности оборудование, дата-центры, контракты на электроэнергию, аренду и долг, поддерживающие этот рост.</p>
+<p>В статье проверяются открытые данные, лежащие в основе спора о пузыре ИИ. Прогнозы обозначены как прогнозы. Заявления компаний отделены от независимых исследований. Результат не доказывает скорый обвал. Он показывает, где находятся финансовое и операционное давление.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid 
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Выполните первую задачу в репозитории с помощью агента для программирования</title>
+      <link>https://ru.simeononsecurity.com/articles/effective-ai-coding-agent-first-task/</link>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/effective-ai-coding-agent-first-task/</guid>
+      <description>Выберите интерфейс агента для программирования, откройте пример репозитория, проверьте предложенное изменение и выполните проверки, прежде чем сохранять его.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/effective-ai-coding-agent-first-task.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/effective-ai-coding-agent-first-task/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Вернуться к курсу «Практический рабочий процесс с ИИ»">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Вернуться к курсу «Практический рабочий процесс с ИИ»</a>
+</span>
+</p>
+<p><strong>Агент для программирования читает файлы, предлагает изменения и запускает инструменты в рабочей области.</strong> В этом уроке вы выполните небольшую задачу в репозитории. Выберите Codex в настольном приложении ChatGPT или CLI, Claude Code CLI либо OpenCode TUI. Затем проверьте изменение, прежде чем принимать его.</p>
+<p><strong>Цель обучения:</strong> вы выполните или примените вручную одно ограниченное изменение и проверите его diff и поведение.</p>
+<h2 id="главное">
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" title="Главное">Главное</a>
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" class="h-anchor" aria-hidden="true" title="Главное">#</a>
+</h2>
+<ul>
+<li><strong>Codex в настольном приложении ChatGPT</strong> предоставляет визуальную рабочую область для задач и проверки изменений.</li>
+<li><strong>Codex CLI</strong> запускает сеанс Codex в терминале.</li>
+<li><strong>Claude Code CLI</strong> выполняет рабочий процесс программирования Claude из терминала.</li>
+<li><strong>OpenCode TUI</strong> предлагает работу в терминале с настраиваемыми поставщиками и разрешениями.</li>
+<li><s
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/effective-ai-coding-agent-first-task/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Делегирование задач ИИ-агентам: распределение работы и проверка результатов</title>
+      <link>https://ru.simeononsecurity.com/articles/effective-ai-agent-delegation/</link>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/effective-ai-agent-delegation/</guid>
+      <description>Определите, когда нужен второй ИИ-агент, поручите каждому исполнителю ограниченную задачу, предотвращайте конфликты правок и объединяйте доказательства в основном сеансе.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/effective-ai-agent-delegation.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/effective-ai-agent-delegation/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Вернуться к практическому курсу по рабочим процессам ИИ">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Вернуться к практическому курсу по рабочим процессам ИИ</a>
+</span>
+</p>
+<p><strong>Делегируйте задачу, если независимый вопрос заслуживает отдельного сеанса.</strong> Рабочий агент изучает источники, проверяет тесты или готовит ограниченное изменение в собственном контексте. Главный агент проверяет и интегрирует результат. В этом уроке сравнивается документация, а основной сеанс сохраняет небольшую лабораторную задачу.</p>
+<p><strong>Результат обучения:</strong> вы поручите независимую проверку рабочему агенту и проверите его краткий отчёт с доказательствами.</p>
+<h2 id="главное">
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" title="Главное">Главное</a>
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" class="h-anchor" aria-hidden="true" title="Главное">#</a>
+</h2>
+<ul>
+<li><strong>Координатор:</strong> главный агент, который координирует задачу и итоговую проверку.</li>
+<li><strong>Рабочий агент:</strong> отдельный агент, которому поручен один ограниченный результат.</li>
+<li><strong>Независимая работа:</strong> подзадача, ответ на которую не зависит от незавершённого результата другого аг
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/effective-ai-agent-delegation/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>Итоговый проект по ИИ-рабочему процессу: создайте и проверьте JSON-отчёт</title>
+      <link>https://ru.simeononsecurity.com/articles/effective-ai-capstone/</link>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ru.simeononsecurity.com/articles/effective-ai-capstone/</guid>
+      <description>Создайте JSON-отчёт о задачах с контекстом проекта, ограниченным запросом агенту, независимыми тестами, проверкой источников и передачей работы новой сессии.</description>
+      <content:encoded>
+      <![CDATA[
+        
+            <img src="https://ru.simeononsecurity.com/img/cover/effective-ai-capstone.webp">
+            
+        
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/effective-ai-capstone/">Read the full article at https://ru.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Вернуться к курсу «Практический ИИ-рабочий процесс»">
+    <meta itemprop="url" content="/effective-ai-course-start/">
+    <a href="/effective-ai-course-start/"
+    
+        rel="follow me"
+    >Вернуться к курсу «Практический ИИ-рабочий процесс»</a>
+</span>
+</p>
+<p><strong>Создайте новый формат вывода и подтвердите его работу.</strong> Ранее вы добавили фильтр статуса. Этот итоговый проект начинается с новой лабораторной копии и добавляет JSON-отчёт, который прочитает другая программа. Новое требование проверяет, умеете ли вы переносить рабочий процесс на другую функцию.</p>
+<p><strong>Результат обучения:</strong> вы подготовите проверенный JSON-отчёт, журнал доказательств по источникам и инструментам и передачу, понятную новой сессии.</p>
+<h2 id="главное">
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" title="Главное">Главное</a>
+  <a href="#%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5" class="h-anchor" aria-hidden="true" title="Главное">#</a>
+</h2>
+<ul>
+<li><strong>Отдельное требование</strong> определяет функцию итогового проекта.</li>
+<li><strong>Изменение агента-программиста</strong> ограничено названными файлами.</li>
+<li><strong>Независимые проверки</strong> определяют приёмку.</li>
+<li><strong>Передача новой сессии</strong> позволяет восстановить ход работы.</li>
+</ul>
+<h2 id="перед-началом">
+  <a href="#%d0%bf%d0%b5%d1%80%d0%b5
+
+        <br>
+        <a href="https://ru.simeononsecurity.com/articles/effective-ai-capstone/">Read More at https://ru.simeononsecurity.com/</a>
+                            
+        
+
+      ]]>
+      </content:encoded>
+    </item>
+    
+  </channel>
+</rss>

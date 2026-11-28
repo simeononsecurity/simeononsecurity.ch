@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Порт Доступа on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Порт Доступа on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D1%80%D1%82-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%B0/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D1%80%D1%82-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%B0/</link>
+
+    <description>Recent content in Порт Доступа on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D1%80%D1%82-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Планирование и проверка сегментации VLAN в homelab</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Homelab"
+            
+              , "Безопасность сети"
+            
+              , "Сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Создайте план VLAN, чтобы разделить доверенные устройства, серверы, IoT и гостевые устройства в homelab. Определите разрешенный трафик, настраивайте сеть поэтапно и проверьте изоляцию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

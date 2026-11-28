@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows VM В Proxmox on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Windows VM В Proxmox on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/windows-vm-%D0%B2-proxmox/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/windows-vm-%D0%B2-proxmox/</link>
+
+    <description>Recent content in Windows VM В Proxmox on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/windows-vm-%D0%B2-proxmox/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Перенос виртуальной машины Hyper-V в Proxmox VE: обратимый контрольный список</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Виртуализация"
+            
+              , "Системное администрирование"
+            
+              , "Домашняя лаборатория"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Перенесите VM Hyper-V в Proxmox VE: экспортируйте выключенный источник, согласуйте прошивку, импортируйте диски, проверьте загрузку в изоляции и подготовьте откат.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

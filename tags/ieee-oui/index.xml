@@ -1,0 +1,96 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IEEE OUI on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>IEEE OUI on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/ieee-oui/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/ieee-oui/</link>
+
+    <description>Recent content in IEEE OUI on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/ieee-oui/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Мы нанесли на карту 146 526 «камер Flock». 50 278 оказались системами ClickShare</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link>
+        
+        <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Исследования безопасности"
+            
+              , "Технологии конфиденциальности"
+            
+              , "Проекты с открытым кодом"
+            
+              , "Дата-журналистика"
+            
+              , "Противодействие слежке"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Аудит Flock Finder выявил ClickShare и другие ложные срабатывания, объяснил доказательства и задокументировал изменения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Устойчивость Сети on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Устойчивость Сети on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D1%83%D1%81%D1%82%D0%BE%D0%B9%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%8C-%D1%81%D0%B5%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D1%83%D1%81%D1%82%D0%BE%D0%B9%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%8C-%D1%81%D0%B5%D1%82%D0%B8/</link>
+
+    <description>Recent content in Устойчивость Сети on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 02 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D1%83%D1%81%D1%82%D0%BE%D0%B9%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%8C-%D1%81%D0%B5%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Динамика децентрализации</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/decentralization-dynamics-3-2-1-rule-blockchain/</link>
+        
+        <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология блокчейна"
+            
+              , "Криптовалюты"
+            
+              , "Стратегии децентрализации"
+            
+              , "Сети Proof of Work"
+            
+              , "Безопасность данных"
+            
+              , "Устойчивость сети"
+            
+              , "Технологические тенденции"
+            
+              , "Цифровые инновации"
+            
+              , "Лучшие практики блокчейна"
+            
+              , "Децентрализованные системы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/decentralization-dynamics-3-2-1-rule-blockchain/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Объясните правило децентрализации блокчейна 3.2.1-1 и оцените компромиссы в безопасности, эффективности и работе сети.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/decentralization-dynamics-3-2-1-rule-blockchain.webp" length="168608" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

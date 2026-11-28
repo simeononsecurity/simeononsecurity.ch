@@ -1,0 +1,249 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VMware on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>VMware on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/vmware/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/vmware/</link>
+
+    <description>Recent content in VMware on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 02 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/vmware/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение безопасности виртуальных машин с помощью vTPM: Пошаговое руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link>
+        
+        <pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Виртуализация"
+            
+              , "VMware"
+            
+              , "vSphere"
+            
+              , "Безопасность"
+            
+              , "Модуль доверенной платформы"
+            
+              , "vTPM"
+            
+              , "Гостевая ОС"
+            
+              , "Шифрование"
+            
+              , "Аттестация платформы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Повышение безопасности виртуальных машин с использованием vTPM с помощью нашего исчерпывающего пошагового руководства, обеспечивающего аттестацию платформы и поддержку шифрования BitLocker.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/enhanced-vm-security.webp" length="99734" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освойте защиту VMware</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link>
+        
+        <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Виртуализация"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Автоматизация"
+            
+              , "PowerShell"
+            
+              , "VMware"
+            
+              , "STIG"
+            
+              , "Соответствие требованиям"
+            
+              , "Скрипты"
+            
+              , "Центр обработки данных"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом подробном руководстве вы узнаете, как применять VMware STIG с помощью PowerCLI и защищать среду VMware.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освойте PowerCLI для управления vSphere</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link>
+        
+        <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Виртуализация"
+            
+              , "VMware"
+            
+              , "ИТ-управление"
+            
+              , "Автоматизация"
+            
+              , "Интерфейс командной строки"
+            
+              , "Скрипты"
+            
+              , "Системное администрирование"
+            
+              , "Облачные вычисления"
+            
+              , "Управление дата-центром"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как управлять VMware vSphere с помощью PowerCLI, автоматизировать задачи и повысить продуктивность.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

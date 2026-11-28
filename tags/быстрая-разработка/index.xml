@@ -1,0 +1,151 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Быстрая Разработка on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Быстрая Разработка on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%B0%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%B0%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</link>
+
+    <description>Recent content in Быстрая Разработка on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%B0%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Нативная и гибридная разработка мобильных приложений</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/comparing-mobile-app-development-native-vs-hybrid/</link>
+        
+        <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "разработка нативных приложений"
+            
+              , "разработка гибридных приложений"
+            
+              , "разработка мобильных приложений"
+            
+              , "сравнение подходов к разработке приложений"
+            
+              , "нативная или гибридная разработка"
+            
+              , "подходы к разработке приложений"
+            
+              , "оптимизация производительности"
+            
+              , "функции платформ"
+            
+              , "пользовательский опыт"
+            
+              , "сроки разработки"
+            
+              , "стоимость разработки"
+            
+              , "затраты на обслуживание"
+            
+              , "кроссплатформенная совместимость"
+            
+              , "быстрая разработка"
+            
+              , "простое обслуживание"
+            
+              , "производительность приложения"
+            
+              , "ограничения платформ"
+            
+              , "выбор способа разработки приложения"
+            
+              , "проект мобильного приложения"
+            
+              , "рекомендации по разработке приложений"
+            
+              , "критерии разработки приложений"
+            
+              , "решения о разработке приложений"
+            
+              , "рекомендации по мобильным приложениям"
+            
+              , "разработка приложений для iOS"
+            
+              , "разработка приложений для Android"
+            
+              , "государственные требования"
+            
+              , "документация по разработке приложений"
+            
+              , "ресурсы по разработке приложений"
+            
+              , "рынок мобильных приложений"
+            
+              , "тенденции разработки приложений"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/comparing-mobile-app-development-native-vs-hybrid/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните различия и преимущества нативной и гибридной разработки, чтобы выбрать подход для следующего мобильного проекта.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/comparing-mobile-app-development-native-vs-hybrid.webp" length="120740" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

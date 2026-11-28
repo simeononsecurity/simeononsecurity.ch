@@ -1,0 +1,476 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Родительский Контроль on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Родительский Контроль on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%80%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%80%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C/</link>
+
+    <description>Recent content in Родительский Контроль on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 13 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%80%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Firewalla для домашней сети: защита дома и лаборатории</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/firewalla-home-network-security-guide/</link>
+        
+        <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Домашняя сеть"
+            
+              , "Безопасность сети"
+            
+              , "Безопасность IoT"
+            
+              , "Безопасность в интернете"
+            
+              , "Домашние лаборатории"
+            
+              , "Цифровая защита"
+            
+              , "Обнаружение вторжений"
+            
+              , "Фильтрация контента"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/firewalla-home-network-security-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как Firewalla помогает защищать домашнюю сеть, подходит ли она для домашней лаборатории и какие преимущества и ограничения следует учитывать.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/firewalla-home-network-security.webp" length="57452" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS против AdGuard: какой DNS-блокировщик рекламы лучше?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link>
+        
+        <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Блокировка рекламы"
+            
+              , "DNS"
+            
+              , "Конфиденциальность"
+            
+              , "Безопасность в интернете"
+            
+              , "Защита в сети"
+            
+              , "Цифровая безопасность"
+            
+              , "Решения для браузера"
+            
+              , "Конфиденциальность в сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните NextDNS и AdGuard, два DNS-блокировщика рекламы, и выберите сервис для своих привычек просмотра сайтов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS, AdGuard, Quad9 и Cloudflare: сравнение DNS в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link>
+        
+        <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Сравнение DNS"
+            
+              , "Защита конфиденциальности"
+            
+              , "Блокировка рекламы"
+            
+              , "Безопасность сети"
+            
+              , "Безопасность Интернета"
+            
+              , "DNS-резолвер"
+            
+              , "Конфиденциальность в сети"
+            
+              , "Веб-безопасность"
+            
+              , "Фильтрация DNS"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение NextDNS, AdGuard DNS, Quad9, Cloudflare DNS и Pi-hole в 2026 году по безопасности, конфиденциальности и производительности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS: DNS-фильтрация и блокировка угроз для безопасности в интернете</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</link>
+        
+        <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "DNS-фильтрация"
+            
+              , "Безопасность интернета"
+            
+              , "Облачная служба"
+            
+              , "Защита в сети"
+            
+              , "Веб-фильтрация"
+            
+              , "Защита конфиденциальности"
+            
+              , "Альтернатива DNS-блокировке"
+            
+              , "Безопасность сети"
+            
+              , "Безопасность в интернете"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Познакомьтесь с NextDNS — удобной службой DNS-блокировки, которая повышает безопасность в интернете благодаря автоматическим обновлениям и настраиваемым правилам фильтрации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/nextdns_cybersecurity_shield.webp" length="98890" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие Wi-Fi mesh-системы 2026: руководство по покупке и рекомендуемые модели</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/</link>
+        
+        <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wi-Fi mesh-системы"
+            
+              , "Домашние сети"
+            
+              , "Беспроводные технологии"
+            
+              , "Подключение к интернету"
+            
+              , "Бытовая электроника"
+            
+              , "Умный дом"
+            
+              , "Сетевые устройства"
+            
+              , "Интернет вещей (IoT)"
+            
+              , "Беспроводные маршрутизаторы"
+            
+              , "Домашняя сеть"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Руководство 2026 года по бытовым mesh-системам Wi-Fi 6E и Wi-Fi 7 с сопоставлением покрытия, производительности, настройки и критериев выбора.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_home_with.webp" length="127732" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасность детей в интернете: как защитить ребёнка онлайн</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/internet-safety-for-kids-strategies-for-keeping-your-children-safe-online/</link>
+        
+        <pubDate>Sat, 13 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "безопасность в интернете"
+            
+              , "безопасность в сети"
+            
+              , "безопасность детей"
+            
+              , "родительский контроль"
+            
+              , "кибербуллинг"
+            
+              , "цифровая грамотность"
+            
+              , "онлайн-хищники"
+            
+              , "социальные сети"
+            
+              , "игры"
+            
+              , "мобильные устройства"
+            
+              , "конфиденциальность"
+            
+              , "защита"
+            
+              , "безопасное использование интернета"
+            
+              , "советы по безопасности в интернете"
+            
+              , "защита детей в сети"
+            
+              , "воспитание в цифровую эпоху"
+            
+              , "конфиденциальность детей в сети"
+            
+              , "интернет-угрозы для детей"
+            
+              , "безопасные привычки в интернете"
+            
+              , "обучение интернет-безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/internet-safety-for-kids-strategies-for-keeping-your-children-safe-online/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Практические советы помогут защитить детей от интернет-угроз и сформировать безопасные привычки при работе в сети.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.webp" length="80374" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

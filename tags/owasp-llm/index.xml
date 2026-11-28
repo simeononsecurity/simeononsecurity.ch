@@ -1,0 +1,139 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OWASP LLM on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>OWASP LLM on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/owasp-llm/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/owasp-llm/</link>
+
+    <description>Recent content in OWASP LLM on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/owasp-llm/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Кибербезопасность ИИ в 2026 году: быстрое внедрение, защита потом</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/state-of-ai-cybersecurity-2026/</link>
+        
+        <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "безопасность ИИ"
+            
+              , "кибербезопасность ИИ 2026"
+            
+              , "инъекция промпта"
+            
+              , "ИИ-агенты"
+            
+              , "безопасность MCP"
+            
+              , "цепочка поставок ИИ"
+            
+              , "теневой ИИ"
+            
+              , "редтиминг ИИ"
+            
+              , "безопасность LLM"
+            
+              , "наблюдаемость ИИ"
+            
+              , "агентный ИИ"
+            
+              , "угрозы ИИ"
+            
+              , "атаки ИИ"
+            
+              , "безопасность моделей"
+            
+              , "управление ИИ"
+            
+              , "NIST AI 600-1"
+            
+              , "OWASP LLM"
+            
+              , "MITRE ATLAS"
+            
+              , "реагирование на инциденты ИИ"
+            
+              , "корпоративная безопасность ИИ"
+            
+              , "идентичность ИИ"
+            
+              , "отравление контекста"
+            
+              , "отравление инструментов"
+            
+              , "авторизация ИИ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/state-of-ai-cybersecurity-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оценка внедрения ИИ в сфере кибербезопасности, операционных пробелов, актуальных рекомендаций и практических мер защиты для организаций в 2026 году.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/state-of-ai-cybersecurity-2026.webp" length="282406" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

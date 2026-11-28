@@ -1,0 +1,200 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DNS-Сервер on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>DNS-Сервер on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/dns-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/dns-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80/</link>
+
+    <description>Recent content in DNS-Сервер on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 26 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/dns-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS: DNS-фильтрация и блокировка угроз для безопасности в интернете</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</link>
+        
+        <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "DNS-фильтрация"
+            
+              , "Безопасность интернета"
+            
+              , "Облачная служба"
+            
+              , "Защита в сети"
+            
+              , "Веб-фильтрация"
+            
+              , "Защита конфиденциальности"
+            
+              , "Альтернатива DNS-блокировке"
+            
+              , "Безопасность сети"
+            
+              , "Безопасность в интернете"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Познакомьтесь с NextDNS — удобной службой DNS-блокировки, которая повышает безопасность в интернете благодаря автоматическим обновлениям и настраиваемым правилам фильтрации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/nextdns_cybersecurity_shield.webp" length="98890" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Распространённые ошибки при использовании VPN и случайная утечка публичного IP-адреса</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/common-mistakes-while-using-a-vpn/</link>
+        
+        <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ошибки VPN"
+            
+              , "Утечки IP"
+            
+              , "Конфиденциальность в интернете"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасность интернета"
+            
+              , "Виртуальная частная сеть"
+            
+              , "WebRTC"
+            
+              , "DNS-сервер"
+            
+              , "Провайдер VPN"
+            
+              , "Двухфакторная аутентификация"
+            
+              , "Программа VPN"
+            
+              , "Аварийный выключатель"
+            
+              , "Конфиденциальность данных"
+            
+              , "Интернет-приватность"
+            
+              , "Киберугрозы"
+            
+              , "Защита данных"
+            
+              , "Сетевая безопасность"
+            
+              , "Безопасность в интернете"
+            
+              , "Анонимность в интернете"
+            
+              , "Анонимный просмотр"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/common-mistakes-while-using-a-vpn/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите конфиденциальность в интернете и избегайте распространённых ошибок VPN, из-за которых может раскрыться ваш публичный IP-адрес.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.webp" length="36286" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

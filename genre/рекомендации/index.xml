@@ -1,0 +1,241 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Рекомендации on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Рекомендации on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8/</link>
+
+    <description>Recent content in Рекомендации on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Практические советы для полевой ИТ: за пределами мини-центра обработки данных</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Полевая ИТ"
+            
+              , "Периферийные вычисления"
+            
+              , "ИТ-операции"
+            
+              , "Аварийное восстановление"
+            
+              , "Оборудование"
+            
+              , "Рекомендации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Практические советы по полевой ИТ: запасные части, документация, защита от ESD, прошивки, загрузочные носители, лицензии, физическая безопасность, поездки и страхование.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Комплексная защита Windows Server</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</link>
+        
+        <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "ИТ-безопасность"
+            
+              , "Администрирование серверов"
+            
+              , "Кибербезопасность"
+            
+              , "Защита сети"
+            
+              , "Целостность данных"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Рекомендации"
+            
+              , "Укрепление серверов"
+            
+              , "Windows Server"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mastering-windows-server-security-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите меры защиты Windows Server: от основ укрепления конфигурации до передовых методов защиты инфраструктуры.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Windows_Server_Security_Shield_Protection.webp" length="101056" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение киберустойчивости с помощью управления изменениями</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/change-management-cyber-security-enhancing-resilience-evolving-landscape/</link>
+        
+        <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Управление изменениями"
+            
+              , "Устойчивость"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Оценка рисков"
+            
+              , "Соответствие требованиям"
+            
+              , "Реагирование на инциденты"
+            
+              , "Рекомендации"
+            
+              , "ITIL"
+            
+              , "Меры безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/change-management-cyber-security-enhancing-resilience-evolving-landscape/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему управление изменениями важно для кибербезопасности и как повысить устойчивость организации к меняющимся угрозам.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_team_of_professionals_working_together_to_bu.webp" length="141276" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

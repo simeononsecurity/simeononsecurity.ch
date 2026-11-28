@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VBScript on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>VBScript on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/vbscript/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/vbscript/</link>
+
+    <description>Recent content in VBScript on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/vbscript/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита Windows и Linux</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link>
+        
+        <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Языки сценариев"
+            
+              , "Безопасность систем"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "Государственные нормативы"
+            
+              , "Киберугрозы"
+            
+              , "Безопасное написание сценариев"
+            
+              , "Соответствие требованиям"
+            
+              , "Программирование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как PowerShell и Python помогают усилить защиту систем, в этом подробном анализе кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

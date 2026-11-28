@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Фишинговые Схемы on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Фишинговые Схемы on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%84%D0%B8%D1%88%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2%D1%8B%D0%B5-%D1%81%D1%85%D0%B5%D0%BC%D1%8B/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%84%D0%B8%D1%88%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2%D1%8B%D0%B5-%D1%81%D1%85%D0%B5%D0%BC%D1%8B/</link>
+
+    <description>Recent content in Фишинговые Схемы on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%84%D0%B8%D1%88%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2%D1%8B%D0%B5-%D1%81%D1%85%D0%B5%D0%BC%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защитите домашнюю сеть</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/building-a-secure-home-network/</link>
+        
+        <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность домашней сети"
+            
+              , "Кибербезопасность"
+            
+              , "Защита устройств"
+            
+              , "Безопасность в интернете"
+            
+              , "Безопасность умного дома"
+            
+              , "Конфиденциальность сети"
+            
+              , "Онлайн-угрозы"
+            
+              , "Советы по безопасности в интернете"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Киберзащита"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/building-a-secure-home-network/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить домашнюю сеть и подключенные устройства от киберугроз с помощью важных советов и инструментов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/building-a-secure-home-network.webp" length="167198" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

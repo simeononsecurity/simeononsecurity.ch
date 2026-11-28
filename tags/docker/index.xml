@@ -1,0 +1,1066 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Docker on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/docker/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/docker/</link>
+
+    <description>Recent content in Docker on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Self-Hosted Hindsight: локальная память агентов и приватная маршрутизация моделей</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/self-hosted-hindsight/</link>
+        
+        <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "Самостоятельный хостинг ИИ"
+            
+              , "ИИ-агенты"
+            
+              , "Инфраструктура ИИ"
+            
+              , "Конфиденциальность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/self-hosted-hindsight/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Разбор одного развертывания Hindsight на собственном оборудовании, наблюдавшихся локальных маршрутов Qwen и выделения GPU для отдельных запросов без подписки на облачный инференс на проверенных путях.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Соберите домашнюю лабораторию за 10 уровней: от Pi-hole до локального ИИ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/build-home-lab-10-levels/</link>
+        
+        <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Домашняя лаборатория"
+            
+              , "Самостоятельный хостинг"
+            
+              , "Локальный ИИ"
+            
+              , "Домашние сети"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/build-home-lab-10-levels/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Соберите домашнюю лабораторию в десять практических этапов: от DNS-фильтрации всей сети до локального ИИ, с описанием оборудования, затрат, навыков и компромиссов для каждого уровня.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Локальное программирование с ИИ на GPU 16 ГБ: Strata, OpenCode и Qwen3.8</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "Инструменты разработчика"
+            
+              , "Самостоятельный хостинг ИИ"
+            
+              , "Оборудование для ИИ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Запустите локального агента программирования с Strata и OpenCode. Изучите заявленные результаты RTX 4060 Ti, требования к ОЗУ, повторное использование промпта, бюджеты рассуждений и ограничения замены платной подписки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>ATS Resume Improver: бесплатная оптимизация резюме с ИИ</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</link>
+        
+        <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Инструменты для карьеры"
+            
+              , "Проекты с открытым исходным кодом"
+            
+              , "Искусственный интеллект"
+            
+              , "Технологии конфиденциальности"
+            
+              , "Инструменты разработчика"
+            
+              , "Поиск работы"
+            
+              , "Продуктивность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          ATS Resume Improver — бесплатный инструмент с открытым исходным кодом, который работает в браузере и анализирует, оценивает, сопоставляет, оптимизирует и экспортирует резюме с помощью облачных или локальных моделей.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp" length="158574" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Установите Mysterium: Децентрализованный VPN и служба веб-скрепинга</title>
+        
+          <link>https://ru.simeononsecurity.com/other/install-mysterium-easily-using-docker/</link>
+        
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Тайна"
+            
+              , "VPN"
+            
+              , "веб-скрепинг"
+            
+              , "децентрализованный"
+            
+              , "конфиденциальность"
+            
+              , "безопасность"
+            
+              , "блокчейн"
+            
+              , "Ethereum"
+            
+              , "Полигон"
+            
+              , "просмотр интернет-страниц"
+            
+              , "возможность получения дохода"
+            
+              , "Docker"
+            
+              , "настройка"
+            
+              , "переадресация портов"
+            
+              , "децентрализованная VPN"
+            
+              , "услуга веб-скрепинга"
+            
+              , "безопасный просмотр веб-страниц"
+            
+              , "заработок"
+            
+              , "технология блокчейн"
+            
+              , "конфиденциальность в Интернете"
+            
+              , "Контейнер Docker"
+            
+              , "настройка узла"
+            
+              , "IP-адрес"
+            
+              , "Кошелек ERC20"
+            
+              , "Метамаска адреса"
+            
+              , "Ключ API"
+            
+              , "инструкции по пробросу портов"
+            
+              , "PortForward.com"
+            
+              , "Документация Mysterium"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/other/install-mysterium-easily-using-docker/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Mysterium, децентрализованного VPN и сервиса веб-скрайбинга, построенного на технологии блокчейн и предлагающего безопасный просмотр веб-страниц и возможность получения дохода.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_a_computer.webp" length="52136" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как защитить среду Docker и Kubernetes</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link>
+        
+        <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Kubernetes"
+            
+              , "Безопасность"
+            
+              , "Контейнеры"
+            
+              , "Сетевая безопасность"
+            
+              , "RBAC"
+            
+              , "API-сервер"
+            
+              , "Уязвимости"
+            
+              , "Мониторинг"
+            
+              , "Журналирование"
+            
+              , "Межсетевые экраны"
+            
+              , "TLS"
+            
+              , "Anchore"
+            
+              , "Clair"
+            
+              , "Aqua Security"
+            
+              , "ELK Stack"
+            
+              , "Splunk"
+            
+              , "Prometheus"
+            
+              , "Кибербезопасность"
+            
+              , "Рекомендации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о лучших практиках защиты среды Docker и Kubernetes: использовании официальных образов, ограничении разрешений и настройке сетевой безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp" length="126938" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Чатбот Discord Typecast GPT: Дружелюбный и знающий агент поддержки на базе Discord</title>
+        
+          <link>https://ru.simeononsecurity.com/github/discord-typecast-gpt-chatbot/</link>
+        
+        <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Чатбот Discord"
+            
+              , "агент поддержки"
+            
+              , "поддержка сервера"
+            
+              , "запросы пользователей"
+            
+              , "соответствующие ресурсы"
+            
+              , "позитивная среда"
+            
+              , "мнения"
+            
+              , "предпочтения"
+            
+              , "рекомендации"
+            
+              , "вовлекающее взаимодействие"
+            
+              , "дружественный бот"
+            
+              , "знающий бот"
+            
+              , "Бот на основе Discord"
+            
+              , "виртуальный ассистент"
+            
+              , "автоматизированная поддержка"
+            
+              , "разговорный бот"
+            
+              , "информационные ответы"
+            
+              , "находчивый бот"
+            
+              , "интерактивный чатбот"
+            
+              , "управление сервером"
+            
+              , "поддержка пользователей"
+            
+              , "Бот с искусственным интеллектом"
+            
+              , "discord.io"
+            
+              , "чатбот в действии"
+            
+              , "docker"
+            
+              , "python"
+            
+              , "развертывание ботов"
+            
+              , "виртуальная среда"
+            
+              , "архитектура ботов"
+            
+              , "контроллеры ботов"
+            
+              , "бот-сервисы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/github/discord-typecast-gpt-chatbot/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Усовершенствуйте свой сервер Discord с помощью дружелюбного и компетентного чат-бота, который будет давать полезные ответы, помогать в решении вопросов, связанных с сервером, и создавать увлекательные взаимодействия.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Создание эффективных и безопасных контейнеров Docker</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</link>
+        
+        <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "контейнеры"
+            
+              , "контейнеризация"
+            
+              , "DevOps"
+            
+              , "развертывание"
+            
+              , "переносимость"
+            
+              , "эффективность"
+            
+              , "безопасность"
+            
+              , "рекомендации"
+            
+              , "Dockerfile"
+            
+              , "базовые образы"
+            
+              , "переменные среды"
+            
+              , "монтирование томов"
+            
+              , "пользователь root"
+            
+              , "актуальные образы"
+            
+              , "разработка ПО"
+            
+              , "образы контейнеров"
+            
+              , "Docker Hub"
+            
+              , "оркестрация контейнеров"
+            
+              , "Kubernetes"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом подробном руководстве вы узнаете, как создавать эффективные и безопасные контейнеры Docker, следуя рекомендациям, советам и пошаговым инструкциям.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.webp" length="88710" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Киберсценарий Discord: повышение уровня подготовки и осведомленности в области кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/github/discord-cyber-scenario-bot/</link>
+        
+        <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Discord бот"
+            
+              , "обучение кибербезопасности"
+            
+              , "осведомленность о кибербезопасности"
+            
+              , "сценарный бот"
+            
+              , "викторина-бот"
+            
+              , "таблица лидеров"
+            
+              , "команды инструментов"
+            
+              , "Docker"
+            
+              , "Python"
+            
+              , "автоматизированное тестирование"
+            
+              , "Discord API"
+            
+              , "документация разработчика"
+            
+              , "вклад"
+            
+              , "Лицензия MIT"
+            
+              , "CyberScenarioBot"
+            
+              , "CyberSentinels"
+            
+              , "повышение эффективности обучения"
+            
+              , "информационная программа"
+            
+              , "сценарии кибербезопасности"
+            
+              , "серверная среда"
+            
+              , "настраиваемые команды"
+            
+              , "развертывание и управление"
+            
+              , "контрольные работы и сценарии"
+            
+              , "команды инструментов"
+            
+              , "информационные команды"
+            
+              , "проблемы и вклад"
+            
+              , "Приложение для разработчиков Discord"
+            
+              , "Документация по Discord.py"
+            
+              , "работа с разработчиками"
+            
+              , "Discord-сервер сообщества"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/github/discord-cyber-scenario-bot/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как CyberScenarioBot может повысить эффективность программы обучения и повышения осведомленности в области кибербезопасности на Discord, предлагая викторины, сценарии, отслеживание в таблице лидеров и мощные инструментальные команды.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible, Docker и Kubernetes для кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ansible"
+            
+              , "Docker"
+            
+              , "Kubernetes"
+            
+              , "Автоматизация кибербезопасности"
+            
+              , "Оценка уязвимости"
+            
+              , "Управление исправлениями"
+            
+              , "Оркестровка контейнеров"
+            
+              , "Сегментация сети"
+            
+              , "Управление доступом на основе ролей"
+            
+              , "Секретное управление"
+            
+              , "Сканирование системы безопасности"
+            
+              , "Подписание изображений"
+            
+              , "Средства автоматизации"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Предотвращение утечек данных"
+            
+              , "Повышение эффективности"
+            
+              , "Автоматизация систем безопасности"
+            
+              , "Управление конфигурацией"
+            
+              , "Развертывание приложений"
+            
+              , "Контейнеризация"
+            
+              , "Безопасность контейнеров"
+            
+              , "Масштабируемые системы"
+            
+              , "Безопасные среды"
+            
+              , "Сетевая безопасность"
+            
+              , "Лучшие практики в области кибербезопасности"
+            
+              , "Снижение рисков"
+            
+              , "Управление безопасностью"
+            
+              , "ИТ-операции"
+            
+              , "Эффективные рабочие процессы"
+            
+              , "Автоматизация систем безопасности"
+            
+              , "Эффективность ИТ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Ansible, Docker и Kubernetes для автоматизации процессов кибербезопасности и снижения риска утечки данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ansible-docker-kubernetes-for-cybersecurity.webp" length="194350" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Docker и виртуальные машины в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/docker-vs-vms/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Виртуальные машины"
+            
+              , "ВМ"
+            
+              , "Облачные вычисления"
+            
+              , "Контейнеры"
+            
+              , "Kubernetes"
+            
+              , "Простота"
+            
+              , "Масштабируемость"
+            
+              , "Безопасность"
+            
+              , "Экономичность"
+            
+              , "Dockerfile"
+            
+              , "Docker или ВМ"
+            
+              , "Контейнеры или ВМ"
+            
+              , "Контейнеры Docker"
+            
+              , "Виртуализация"
+            
+              , "Контейнеризация"
+            
+              , "Сборка, тестирование и развертывание"
+            
+              , "Изоляция"
+            
+              , "История безопасности"
+            
+              , "Сравнение стоимости"
+            
+              , "VMware"
+            
+              , "Hyper-V"
+            
+              , "KVM"
+            
+              , "Оркестрация контейнеров"
+            
+              , "Микросервисы"
+            
+              , "DevOps"
+            
+              , "Инфраструктура"
+            
+              , "Облачные приложения"
+            
+              , "Сравнение производительности"
+            
+              , "Эффективность ресурсов"
+            
+              , "Гибридный подход"
+            
+              , "Производительность Docker"
+            
+              , "Производительность ВМ"
+            
+              , "Когда использовать Docker"
+            
+              , "Когда использовать ВМ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/docker-vs-vms/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение контейнеров Docker и виртуальных машин в 2026 году по производительности, безопасности, стоимости, сценариям использования и развертыванию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.webp" length="90762" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Раскрытие возможностей Docker: основное руководство по трансформации предприятия</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-power-of-docker/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Трансформация предприятия"
+            
+              , "Переносимость приложений"
+            
+              , "Повышение эффективности"
+            
+              , "Повышенная безопасность"
+            
+              , "Упрощенная разработка и развертывание"
+            
+              , "Программные приложения"
+            
+              , "Контейнеры"
+            
+              , "Производительность"
+            
+              , "Время выхода на рынок"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-power-of-docker/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Docker и его преимущества для трансформации предприятий в этом комплексном руководстве по улучшению переносимости, безопасности, эффективности и разработки приложений.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/a_blue_whale_giving_off_lighting.webp" length="99856" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

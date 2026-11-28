@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Самомотивация on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Самомотивация on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%81%D0%B0%D0%BC%D0%BE%D0%BC%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D1%8F/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%81%D0%B0%D0%BC%D0%BE%D0%BC%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D1%8F/</link>
+
+    <description>Recent content in Самомотивация on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 06 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%81%D0%B0%D0%BC%D0%BE%D0%BC%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Hack The Box для начинающих в сфере кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hack-the-box-good-for-beginners-cybersecurity/</link>
+        
+        <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Этичный хакинг"
+            
+              , "Тестирование на проникновение"
+            
+              , "Практическое обучение"
+            
+              , "Для начинающих"
+            
+              , "Онлайн-платформы"
+            
+              , "Hack The Box Academy"
+            
+              , "TryHackMe"
+            
+              , "Учебные ресурсы"
+            
+              , "Поддержка сообщества"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hack-the-box-good-for-beginners-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, подходит ли Hack The Box начинающим в сфере кибербезопасности, и рассмотрите альтернативы, такие как Hack The Box Academy и TryHackMe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/hack_the_box_beginner_cybersecurity.webp" length="114812" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

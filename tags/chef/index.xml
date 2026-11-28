@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chef on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Chef on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/chef/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/chef/</link>
+
+    <description>Recent content in Chef on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/chef/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible vs Puppet vs Chef 2026: управление конфигурацией</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "Автоматизация инфраструктуры"
+            
+              , "Управление конфигурацией"
+            
+              , "ИТ-операции"
+            
+              , "Облачные вычисления"
+            
+              , "Системное администрирование"
+            
+              , "Корпоративные ИТ"
+            
+              , "Разработка ПО"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Инструменты автоматизации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение Ansible, Puppet и Chef в 2026 году: архитектура, функции, обучение, производительность, цены и сценарии использования.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible, Puppet и Chef: сравнение средств автоматизации</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link>
+        
+        <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Средства автоматизации"
+            
+              , "Управление конфигурацией"
+            
+              , "ИТ-инфраструктура"
+            
+              , "DevOps"
+            
+              , "ИТ-операции"
+            
+              , "Облачная автоматизация"
+            
+              , "Развертывание программного обеспечения"
+            
+              , "Управление инфраструктурой"
+            
+              , "Инструменты с открытым исходным кодом"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом комплексном сравнении вы узнаете о различиях между Ansible, Puppet и Chef, чтобы выбрать подходящее средство автоматизации для нужд вашей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef.webp" length="227428" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

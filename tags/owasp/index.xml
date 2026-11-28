@@ -1,0 +1,469 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OWASP on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>OWASP on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/owasp/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/owasp/</link>
+
+    <description>Recent content in OWASP on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/owasp/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие практики безопасности Python: Защита кода и данных</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link>
+        
+        <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность Python"
+            
+              , "Кодовая безопасность"
+            
+              , "Защита информации"
+            
+              , "Разработка программного обеспечения"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасное кодирование"
+            
+              , "Веб-разработка"
+            
+              , "Конфиденциальность данных"
+            
+              , "Безопасность приложений"
+            
+              , "ИТ-безопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с передовыми методами обеспечения безопасности на языке Python, которые позволят защитить код и данные от потенциальных угроз, обеспечить защиту данных, целостность системы и доверие.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.webp" length="115818" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Преимущества и проблемы инструментов безопасности с открытым исходным кодом</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</link>
+        
+        <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "средства защиты с открытым исходным кодом"
+            
+              , "кибербезопасность"
+            
+              , "поддержка сообщества"
+            
+              , "прозрачность"
+            
+              , "экономия средств"
+            
+              , "гибкость"
+            
+              , "проприетарные инструменты"
+            
+              , "риски безопасности"
+            
+              , "набор навыков"
+            
+              , "лицензионные платежи за программное обеспечение"
+            
+              , "совокупная стоимость владения"
+            
+              , "коммерческая поддержка"
+            
+              , "языки программирования"
+            
+              , "интеграция"
+            
+              , "тестирование безопасности"
+            
+              , "аудит безопасности"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "OWASP"
+            
+              , "Национальный институт стандартов и технологий"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите преимущества и проблемы использования средств защиты с открытым исходным кодом для повышения уровня безопасности вашей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.webp" length="58998" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита веб-приложений с помощью OWASP ASVS</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</link>
+        
+        <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "безопасность веб-приложений"
+            
+              , "OWASP"
+            
+              , "ASVS"
+            
+              , "безопасность приложений"
+            
+              , "стандарты безопасности"
+            
+              , "кибербезопасность"
+            
+              , "управление уязвимостями"
+            
+              , "безопасное программирование"
+            
+              , "тестирование на проникновение"
+            
+              , "моделирование угроз"
+            
+              , "меры безопасности"
+            
+              , "оценка безопасности"
+            
+              , "автоматизированное тестирование безопасности"
+            
+              , "ручное тестирование безопасности"
+            
+              , "безопасный жизненный цикл разработки"
+            
+              , "рекомендации по безопасности"
+            
+              , "безопасность данных"
+            
+              , "управление рисками"
+            
+              , "соответствие требованиям"
+            
+              , "информационная безопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Используйте OWASP ASVS, чтобы упорядочить требования безопасности веб-приложений, тесты и подтверждающие материалы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.webp" length="119972" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Исчерпывающее руководство для начинающих по инструментам и методам тестирования на проникновение</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/a-beginners-guide-to-penetration-testing-tools-and-techniques/</link>
+        
+        <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "тестирование на проникновение"
+            
+              , "кибербезопасность"
+            
+              , "этический хакерский подход"
+            
+              , "инструменты"
+            
+              , "методики"
+            
+              , "руководство для начинающих"
+            
+              , "Nmap"
+            
+              , "Metasploit"
+            
+              , "Wireshark"
+            
+              , "Набор для отрыжки"
+            
+              , "OSSTMM"
+            
+              , "PTES"
+            
+              , "OWASP"
+            
+              , "CEH"
+            
+              , "OSCP"
+            
+              , "GPEN"
+            
+              , "тестирование безопасности"
+            
+              , "оценка уязвимости"
+            
+              , "безопасность сети"
+            
+              , "информационная безопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/a-beginners-guide-to-penetration-testing-tools-and-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с основными инструментами и методами тестирования на проникновение, методологиями и сертификатами, чтобы начать свою карьеру в области кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/a-beginners-guide-to-penetration-testing-tools-and-techniques.webp" length="251176" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Построение безопасного конвейера DevOps: лучшие практики</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "безопасность"
+            
+              , "конвейер"
+            
+              , "непрерывная интеграция"
+            
+              , "непрерывная доставка"
+            
+              , "автоматизация"
+            
+              , "контейнеризация"
+            
+              , "безопасное программирование"
+            
+              , "сканирование уязвимостей"
+            
+              , "мониторинг"
+            
+              , "обратная связь"
+            
+              , "контроль версий"
+            
+              , "контроль доступа"
+            
+              , "аварийное восстановление"
+            
+              , "непрерывность бизнеса"
+            
+              , "пример из практики"
+            
+              , "Spring"
+            
+              , "Django"
+            
+              , "OWASP"
+            
+              , "Netflix"
+            
+              , "Capital One"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как создавать и поддерживать безопасный конвейер DevOps с помощью лучших практик и реальных примеров.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/building-and-maintaining-a-secure-devops-pipeline.webp" length="212424" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

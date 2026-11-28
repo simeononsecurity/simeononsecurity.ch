@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Архитектура Систем on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Архитектура Систем on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC/</link>
+
+    <description>Recent content in Архитектура Систем on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизация сети: проектирование и топологии</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</link>
+        
+        <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сетевая инженерия"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Технологические руководства"
+            
+              , "Сетевые решения"
+            
+              , "Кибербезопасность"
+            
+              , "Информатика"
+            
+              , "Технологическое образование"
+            
+              , "Архитектура систем"
+            
+              , "Оптимизация сетей"
+            
+              , "Технологические инновации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/decoding-network-designs_-types-and-topologies-explained/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите проекты и топологии сетей и оцените, какие решения обеспечивают максимальную эффективность.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/decoding-network-designs_-types-and-topologies-explained.webp" length="121144" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Архитектуры шин для высокоскоростной передачи данных</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</link>
+        
+        <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Передача данных"
+            
+              , "Технологические инновации"
+            
+              , "Архитектура систем"
+            
+              , "Высокопроизводительные вычисления"
+            
+              , "Компьютерное оборудование"
+            
+              , "Проектирование шин"
+            
+              , "Связь"
+            
+              , "Новые технологии"
+            
+              , "Эффективность вычислений"
+            
+              , "Техническая оптимизация"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об архитектурах шин и способах ускорения передачи данных. В руководстве рассматриваются типы шин, оптимизация, новые решения и вопросы производительности и безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures.webp" length="305084" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

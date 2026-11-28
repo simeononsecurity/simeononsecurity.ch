@@ -1,0 +1,166 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ProtonVPN on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>ProtonVPN on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/protonvpn/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/protonvpn/</link>
+
+    <description>Recent content in ProtonVPN on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/protonvpn/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mullvad или ProtonVPN: какой VPN выбрать?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mullvad-vs-protonvpn/</link>
+        
+        <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Безопасность"
+            
+              , "Конфиденциальность"
+            
+              , "Сравнение VPN"
+            
+              , "Анонимность в сети"
+            
+              , "Цифровая безопасность"
+            
+              , "Безопасность интернета"
+            
+              , "Кибербезопасность"
+            
+              , "Защита данных"
+            
+              , "Сервисы VPN"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mullvad-vs-protonvpn/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните Mullvad VPN и ProtonVPN по безопасности, конфиденциальности, скорости и удобству, чтобы выбрать подходящий сервис.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/mullvad-protonvpn-security-race.webp" length="148320" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемые VPN-провайдеры</title>
+        
+          <link>https://ru.simeononsecurity.com/recommendations/vpns/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендации"
+            
+              , "Рекомендуемые VPN-провайдеры"
+            
+              , "Mole VPN"
+            
+              , "ProtonVPN"
+            
+              , "Виртуальная частная сеть"
+            
+              , "Конфиденциальность"
+            
+              , "Безопасность в Интернете"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/recommendations/vpns/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Найдите лучших VPN-провайдеров с помощью списка рекомендаций SimeonOnSecurity. Оставайтесь в безопасности и защищайте свою конфиденциальность в Интернете с помощью таких высококлассных провайдеров, как Mullvad VPN и ProtonVPN.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,2127 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Безопасность on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Безопасность on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</link>
+
+    <description>Recent content in Безопасность on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 21 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Почему соблюдение нормативных требований не гарантирует безопасность</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</link>
+        
+        <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Соответствие требованиям"
+            
+              , "Практики безопасности"
+            
+              , "Защита данных"
+            
+              , "Киберугрозы"
+            
+              , "Нормативные стандарты"
+            
+              , "Информационная безопасность"
+            
+              , "Управление рисками"
+            
+              , "Безопасность бизнеса"
+            
+              , "Цифровая конфиденциальность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, какие пробелы в безопасности оставляют контрольные списки соответствия требованиям. Усильте защиту с помощью оценки рисков, тестирования, мониторинга, обучения и аудитов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/compliance-security-shield.webp" length="87866" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>SyncThing и FreeFileSync: сравнение</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/syncthing-vs-freefilesync-comparison/</link>
+        
+        <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Программное обеспечение"
+            
+              , "Синхронизация файлов"
+            
+              , "Управление данными"
+            
+              , "Сравнение"
+            
+              , "Программные инструменты"
+            
+              , "Цифровая продуктивность"
+            
+              , "Открытое программное обеспечение"
+            
+              , "Резервное копирование данных"
+            
+              , "Конфиденциальность и безопасность"
+            
+              , "Кроссплатформенные решения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/syncthing-vs-freefilesync-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение SyncThing и FreeFileSync по конфиденциальности, поддержке платформ, автоматизации, интерфейсу и стоимости.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/SyncThing-vs-FreeFileSync-Symbolic-Sync.webp" length="127636" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mullvad или ProtonVPN: какой VPN выбрать?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/mullvad-vs-protonvpn/</link>
+        
+        <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Безопасность"
+            
+              , "Конфиденциальность"
+            
+              , "Сравнение VPN"
+            
+              , "Анонимность в сети"
+            
+              , "Цифровая безопасность"
+            
+              , "Безопасность интернета"
+            
+              , "Кибербезопасность"
+            
+              , "Защита данных"
+            
+              , "Сервисы VPN"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/mullvad-vs-protonvpn/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните Mullvad VPN и ProtonVPN по безопасности, конфиденциальности, скорости и удобству, чтобы выбрать подходящий сервис.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/mullvad-protonvpn-security-race.webp" length="148320" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>LibreWolf против Firefox</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link>
+        
+        <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Конфиденциальность"
+            
+              , "Веб-браузеры"
+            
+              , "Онлайн-безопасность"
+            
+              , "Открытый исходный код"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Программное обеспечение"
+            
+              , "Сравнение"
+            
+              , "Кибербезопасность"
+            
+              , "Интернет-конфиденциальность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите особенности LibreWolf и Firefox, двух браузеров, ориентированных на конфиденциальность, чтобы сделать осознанный выбор для повышения безопасности и приватности в интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защитите домашнюю сеть</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</link>
+        
+        <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Домашняя сеть"
+            
+              , "Рекомендации по оборудованию"
+            
+              , "Безопасность сети"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Безопасность в интернете"
+            
+              , "Интернет-безопасность"
+            
+              , "Домашние сети"
+            
+              , "Технологии"
+            
+              , "Умный дом"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, какое оборудование поможет защитить домашнюю сеть от киберугроз. В статье рассматриваются аппаратные межсетевые экраны, точки доступа и средства мониторинга.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/fortified-network-security.webp" length="61592" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Хостинг OrangeWebsite: Развертывание успеха в Интернете с помощью скорости и безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/orangwebsite-web-hosting/</link>
+        
+        <pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Веб-хостинг"
+            
+              , "Кибербезопасность"
+            
+              , "Бизнес"
+            
+              , "Цифровые услуги"
+            
+              , "Управление сайтом"
+            
+              , "Интернет"
+            
+              , "Электронная коммерция"
+            
+              , "Облачный хостинг"
+            
+              , "Хостинг серверов"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/orangwebsite-web-hosting/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности хостинга OrangeWebsite - быстрые, безопасные и надежные решения для всех ваших веб-сайтов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/OrangeWebsite-rocket.webp" length="58398" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие браузеры для конфиденциальности 2026: LibreWolf против Brave против Tor</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link>
+        
+        <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Браузеры"
+            
+              , "Конфиденциальность"
+            
+              , "Безопасность"
+            
+              , "Интернет"
+            
+              , "Технологии"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Онлайн-безопасность"
+            
+              , "Открытый исходный код"
+            
+              , "Анонимность"
+            
+              , "Веб-серфинг"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Полное сравнение лучших браузеров с акцентом на конфиденциальность в 2026 году: LibreWolf, Brave, Firefox, Tor и другие. Подробные тесты конфиденциальности, показатели производительности и анализ безопасности для защиты ваших данных в интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основы сетей: что такое IP-адрес, IPv4 и IPv6</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</link>
+        
+        <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сети"
+            
+              , "IP-адреса"
+            
+              , "Интернет-протоколы"
+            
+              , "IPv4"
+            
+              , "IPv6"
+            
+              , "Сетевая связь"
+            
+              , "Подключение к интернету"
+            
+              , "Технологии"
+            
+              , "Сетевая инфраструктура"
+            
+              , "Безопасность интернета"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/networking-basics-what-is-an-ip-address/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, что такое IP-адреса, чем IPv4 отличается от IPv6, почему они важны и зачем нужен переход на IPv6.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_image_of_two_devices_with_speech_bub.webp" length="90028" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Мир аппаратного хакинга и его инструменты</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hardware-hacker-essential-tools-techniques/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии и хакинг"
+            
+              , "Кибербезопасность"
+            
+              , "Аппаратный хакинг"
+            
+              , "Инструменты хакера"
+            
+              , "Электроника"
+            
+              , "Интернет вещей"
+            
+              , "Самостоятельный хакинг"
+            
+              , "Обратная разработка"
+            
+              , "Микроконтроллеры"
+            
+              , "Беспроводной хакинг"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hardware-hacker-essential-tools-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об аппаратном хакинге, а также об основных инструментах и методах анализа и модификации электронных устройств.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_art_style_depicting_a_hacker_surrou.webp" length="181862" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Раскрытие потенциала технологии блокчейн: Исследование возможностей применения за пределами криптовалют</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/applications-for-blockchain-technologies-beyond-cryptocurrencies/</link>
+        
+        <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология блокчейн"
+            
+              , "Криптовалюта"
+            
+              , "Финансы"
+            
+              , "Управление цепями поставок"
+            
+              , "Здравоохранение"
+            
+              , "Энергия"
+            
+              , "Утилиты"
+            
+              , "Децентрализованное финансирование"
+            
+              , "Смарт-контракты"
+            
+              , "Трансграничные платежи"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/applications-for-blockchain-technologies-beyond-cryptocurrencies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя разнообразные области применения технологии blockchain, выходящие за рамки криптовалют и революционизирующие финансы, управление цепочками поставок, здравоохранение, энергетику и многое другое.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/applications-for-blockchain-technologies-beyond-cryptocurrencies.webp" length="250538" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сила SSH: безопасный удаленный доступ и управление с легкостью</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/what-is-ssh/</link>
+        
+        <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "SSH"
+            
+              , "Secure Shell"
+            
+              , "удаленный доступ"
+            
+              , "удаленное управление"
+            
+              , "шифрование"
+            
+              , "аутентификация"
+            
+              , "целостность данных"
+            
+              , "портативность"
+            
+              , "передача файлов"
+            
+              , "SCP"
+            
+              , "SSH-ключи"
+            
+              , "Конфигурация SSH"
+            
+              , "сетевой протокол"
+            
+              , "удаленное выполнение команд"
+            
+              , "OpenSSH"
+            
+              , "двухфакторная аутентификация"
+            
+              , "криптография с открытым ключом"
+            
+              , "IP-адрес"
+            
+              , "доменное имя"
+            
+              , "терминал"
+            
+              , "командная строка"
+            
+              , "безопасность"
+            
+              , "системные администраторы"
+            
+              , "разработчики"
+            
+              , "универсальность"
+            
+              , "методы аутентификации"
+            
+              , "хэш-функции"
+            
+              , "проходка"
+            
+              , "пользовательские опции"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/what-is-ssh/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя преимущества SSH, научитесь генерировать SSH-ключи, подключаться к удаленным серверам, безопасно передавать файлы и настраивать конфигурации SSH.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.webp" length="86174" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Введение в DevOps</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/introduction-to-devops/</link>
+        
+        <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "разработка программного обеспечения"
+            
+              , "эксплуатация"
+            
+              , "сотрудничество"
+            
+              , "непрерывная интеграция"
+            
+              , "непрерывная поставка"
+            
+              , "инфраструктура как код"
+            
+              , "мониторинг"
+            
+              , "циклы обратной связи"
+            
+              , "срок выхода на рынок"
+            
+              , "эффективность"
+            
+              , "качество"
+            
+              , "надежность"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "соответствие требованиям"
+            
+              , "безопасность"
+            
+              , "аудит"
+            
+              , "прослеживаемость"
+            
+              , "автоматизация"
+            
+              , "коммуникация"
+            
+              , "гибкая разработка"
+            
+              , "CICD"
+            
+              , "развертывание ПО"
+            
+              , "жизненный цикл ПО"
+            
+              , "программные системы"
+            
+              , "индустрия ПО"
+            
+              , "безопасность данных"
+            
+              , "нормативные требования"
+            
+              , "обновления ПО"
+            
+              , "конкурентное преимущество"
+            
+              , "конфиденциальность данных"
+            
+              , "защита данных"
+            
+              , "развитие индустрии ПО"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/introduction-to-devops/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как DevOps объединяет разработку и эксплуатацию, упрощает поставку программного обеспечения и повышает эффективность.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_developers_and_operations.webp" length="84556" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Установите Mysterium: Децентрализованный VPN и служба веб-скрепинга</title>
+        
+          <link>https://ru.simeononsecurity.com/other/install-mysterium-easily-using-docker/</link>
+        
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Тайна"
+            
+              , "VPN"
+            
+              , "веб-скрепинг"
+            
+              , "децентрализованный"
+            
+              , "конфиденциальность"
+            
+              , "безопасность"
+            
+              , "блокчейн"
+            
+              , "Ethereum"
+            
+              , "Полигон"
+            
+              , "просмотр интернет-страниц"
+            
+              , "возможность получения дохода"
+            
+              , "Docker"
+            
+              , "настройка"
+            
+              , "переадресация портов"
+            
+              , "децентрализованная VPN"
+            
+              , "услуга веб-скрепинга"
+            
+              , "безопасный просмотр веб-страниц"
+            
+              , "заработок"
+            
+              , "технология блокчейн"
+            
+              , "конфиденциальность в Интернете"
+            
+              , "Контейнер Docker"
+            
+              , "настройка узла"
+            
+              , "IP-адрес"
+            
+              , "Кошелек ERC20"
+            
+              , "Метамаска адреса"
+            
+              , "Ключ API"
+            
+              , "инструкции по пробросу портов"
+            
+              , "PortForward.com"
+            
+              , "Документация Mysterium"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/other/install-mysterium-easily-using-docker/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Mysterium, децентрализованного VPN и сервиса веб-скрайбинга, построенного на технологии блокчейн и предлагающего безопасный просмотр веб-страниц и возможность получения дохода.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_a_computer.webp" length="52136" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизируйте управление пакетами Windows с помощью Chocolatey: упростите обновления и повысьте безопасность</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</link>
+        
+        <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Управление пакетами Windows"
+            
+              , "Шоколадный"
+            
+              , "обновления программного обеспечения"
+            
+              , "менеджер пакетов"
+            
+              , "Интерфейс командной строки"
+            
+              , "автоматические обновления"
+            
+              , "плановое обслуживание"
+            
+              , "безопасность"
+            
+              , "стабильность"
+            
+              , "интеграция"
+            
+              , "правительственные постановления"
+            
+              , "согласие"
+            
+              , "Кукольный"
+            
+              , "шеф-повар"
+            
+              , "Ансибль"
+            
+              , "NuGet-пакеты"
+            
+              , "МО СТИГ"
+            
+              , "упростить управление пакетами"
+            
+              , "уязвимости программного обеспечения"
+            
+              , "инструменты развертывания"
+            
+              , "обновления Windows"
+            
+              , "Обновления пакетов Windows"
+            
+              , "Управление программным обеспечением Windows"
+            
+              , "Менеджер пакетов Windows"
+            
+              , "инструмент управления пакетами"
+            
+              , "автоматические обновления пакетов"
+            
+              , "Обновления безопасности Windows"
+            
+              , "установка программного пакета"
+            
+              , "Развертывание программного обеспечения Windows"
+            
+              , "система управления пакетами"
+            
+              , "Репозиторий программного обеспечения Windows"
+            
+              , "Кэш программного обеспечения Windows"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя преимущества использования Chocolatey для управления пакетами Windows: автоматизируйте обновления, экономьте время и обеспечьте безопасность системы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.webp" length="192020" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Исчерпывающее руководство: установка GrapheneOS на устройство Google Pixel</title>
+        
+          <link>https://ru.simeononsecurity.com/guides/how-to-install-graphine-os/</link>
+        
+        <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "GrapheneOS"
+            
+              , "Google Pixel"
+            
+              , "конфиденциальность"
+            
+              , "безопасность"
+            
+              , "Android"
+            
+              , "мобильные устройства"
+            
+              , "операционная система"
+            
+              , "руководство по установке"
+            
+              , "кастомная прошивка"
+            
+              , "защита данных"
+            
+              , "безопасная ОС"
+            
+              , "открытый исходный код"
+            
+              , "fastboot"
+            
+              , "bootloader"
+            
+              , "верифицированная загрузка"
+            
+              , "Pixel 10"
+            
+              , "Pixel 9"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/guides/how-to-install-graphine-os/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как установить GrapheneOS на устройство Google Pixel для повышения конфиденциальности и безопасности с помощью веб-установщика или метода CLI.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/how-to-install-graphine-os.webp" length="114158" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NVIDIA RTX 3090 vs RTX 4090: Сравнение производительности при взломе паролей</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/password-cracking-and-hashing-results-nvidia-rtx-3090-vs-4090/</link>
+        
+        <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "NVIDIA RTX 3090"
+            
+              , "NVIDIA RTX 4090"
+            
+              , "взлом паролей"
+            
+              , "производительность"
+            
+              , "безопасность"
+            
+              , "защита паролем"
+            
+              , "кибербезопасность"
+            
+              , "эталон"
+            
+              , "GPU"
+            
+              , "менеджер паролей"
+            
+              , "надежные пароли"
+            
+              , "двухфакторная аутентификация"
+            
+              , "постановления правительства"
+            
+              , "CISA"
+            
+              , "GDPR"
+            
+              , "безопасность данных"
+            
+              , "сравнение оборудования"
+            
+              , "защита паролем"
+            
+              , "графическая карта"
+            
+              , "надежность пароля"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/password-cracking-and-hashing-results-nvidia-rtx-3090-vs-4090/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Обнаружен разрыв в производительности между NVIDIA RTX 3090 и RTX 4090 при взломе паролей, показаны последствия для безопасности и меры защиты.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.webp" length="152490" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита детей в интернете: руководство для родителей о кибербуллинге</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/cyberbullying-a-parents-guide-to-keeping-kids-safe-online/</link>
+        
+        <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербуллинг"
+            
+              , "Безопасность в интернете"
+            
+              , "Воспитание детей"
+            
+              , "Дети"
+            
+              , "Психическое здоровье"
+            
+              , "Государственные нормы"
+            
+              , "Политики интернет-безопасности"
+            
+              , "Мониторинг активности в интернете"
+            
+              , "Профилактика"
+            
+              , "Травля в интернете"
+            
+              , "Кибербезопасность"
+            
+              , "Цифровое родительство"
+            
+              , "Социальные сети"
+            
+              , "Цифровая гражданственность"
+            
+              , "Цифровой след"
+            
+              , "Травля"
+            
+              , "Закон"
+            
+              , "Технологии"
+            
+              , "Безопасность"
+            
+              , "Образование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/cyberbullying-a-parents-guide-to-keeping-kids-safe-online/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить детей от кибербуллинга, из этого подробного руководства для родителей.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.webp" length="84456" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubiquiti Unifi и TP-Link Omada: какую сетевую систему выбрать?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</link>
+        
+        <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сетевые системы"
+            
+              , "Управление сетью"
+            
+              , "Сравнение оборудования"
+            
+              , "Веб-управление сетью"
+            
+              , "Масштабируемые сетевые решения"
+            
+              , "Функции сетевой безопасности"
+            
+              , "Надежное сетевое оборудование"
+            
+              , "Конкурентные цены на сетевое оборудование"
+            
+              , "Поддержка клиентов"
+            
+              , "Дополнительные предложения продуктов"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните сетевые системы Ubiquiti Unifi и TP-Link Omada по управлению, оборудованию, поддержке, функциям и ценам, чтобы выбрать подходящий вариант.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_split-screen_illustration_of_a_complex_network.webp" length="236442" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Введение в Packer для инфраструктуры как кода</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Packer"
+            
+              , "Инфраструктура как код"
+            
+              , "Разработка и эксплуатация"
+            
+              , "Автоматизация"
+            
+              , "Безопасность"
+            
+              , "Повторяемость"
+            
+              , "Масштабируемость"
+            
+              , "Мультиплатформенность"
+            
+              , "Контроль версий"
+            
+              , "Облачные вычисления"
+            
+              , "Машинные образы"
+            
+              , "Виртуализация"
+            
+              , "Управление конфигурацией"
+            
+              , "Непрерывная интеграция"
+            
+              , "Непрерывная доставка"
+            
+              , "Разработка ПО"
+            
+              , "Лучшие практики"
+            
+              , "Тестирование"
+            
+              , "Открытый исходный код"
+            
+              , "Мультиоблако"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как использовать Packer для создания простых в обслуживании и безопасных машинных образов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.webp" length="175658" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Начало работы с Terraform для инфраструктуры как кода</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Terraform"
+            
+              , "Инфраструктура как код"
+            
+              , "IaC"
+            
+              , "Облачные вычисления"
+            
+              , "DevOps"
+            
+              , "Автоматизация"
+            
+              , "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud"
+            
+              , "Облачные провайдеры"
+            
+              , "Управление конфигурацией"
+            
+              , "Развертывание"
+            
+              , "Подготовка ресурсов"
+            
+              , "Управление ресурсами"
+            
+              , "Масштабируемость"
+            
+              , "Отказоустойчивость"
+            
+              , "Безопасность"
+            
+              , "Соответствие требованиям"
+            
+              , "Рекомендации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите основы Terraform, популярного инструмента для инфраструктуры как кода, и узнайте, как эффективно управлять инфраструктурой с его помощью.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp" length="122182" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оркестрация контейнеров в современных средах DevOps</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</link>
+        
+        <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "оркестровка контейнеров"
+            
+              , "DevOps"
+            
+              , "Kubernetes"
+            
+              , "Docker Swarm"
+            
+              , "Apache Mesos"
+            
+              , "масштабируемость"
+            
+              , "высокая доступность"
+            
+              , "балансировка нагрузки"
+            
+              , "безопасность"
+            
+              , "автоматическое развертывание приложений"
+            
+              , "HIPAA"
+            
+              , "SOX"
+            
+              , "GDPR"
+            
+              , "соответствие"
+            
+              , "разработка программного обеспечения"
+            
+              , "облачные вычисления"
+            
+              , "контейнеризация"
+            
+              , "технология"
+            
+              , "автоматизация"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о значении и преимуществах оркестровки контейнеров в современном DevOps, а также о популярных инструментах оркестровки контейнеров и государственных нормативных актах, касающихся контейнеризации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp" length="120220" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасное и совместимое резервное копирование и восстановление данных в облаке: Исчерпывающее руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</link>
+        
+        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "облачное резервное копирование"
+            
+              , "восстановление данных"
+            
+              , "защита информации"
+            
+              , "соответствие"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "FISMA"
+            
+              , "поставщик облачных услуг"
+            
+              , "шифрование"
+            
+              , "контроль доступа"
+            
+              , "безопасность"
+            
+              , "регламент"
+            
+              , "стандарты"
+            
+              , "передовой опыт"
+            
+              , "оценка уязвимости"
+            
+              , "тестирование на проникновение"
+            
+              , "аудиторские проверки"
+            
+              , "управление рисками"
+            
+              , "масштабируемость"
+            
+              , "мониторинг"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как создать безопасное и отвечающее всем требованиям решение для защиты данных в облаке.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.webp" length="90486" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как защитить среду Docker и Kubernetes</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link>
+        
+        <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Kubernetes"
+            
+              , "Безопасность"
+            
+              , "Контейнеры"
+            
+              , "Сетевая безопасность"
+            
+              , "RBAC"
+            
+              , "API-сервер"
+            
+              , "Уязвимости"
+            
+              , "Мониторинг"
+            
+              , "Журналирование"
+            
+              , "Межсетевые экраны"
+            
+              , "TLS"
+            
+              , "Anchore"
+            
+              , "Clair"
+            
+              , "Aqua Security"
+            
+              , "ELK Stack"
+            
+              , "Splunk"
+            
+              , "Prometheus"
+            
+              , "Кибербезопасность"
+            
+              , "Рекомендации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о лучших практиках защиты среды Docker и Kubernetes: использовании официальных образов, ограничении разрешений и настройке сетевой безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp" length="126938" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerShell DSC: начальное руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link>
+        
+        <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "DSC"
+            
+              , "Управление конфигурацией"
+            
+              , "Автоматизация"
+            
+              , "Windows"
+            
+              , "Системное администрирование"
+            
+              , "Лучшие практики"
+            
+              , "Соответствие требованиям"
+            
+              , "Безопасность"
+            
+              , "Инфраструктура"
+            
+              , "DevOps"
+            
+              , "Конфигурация сервера"
+            
+              , "Тестирование"
+            
+              , "Git"
+            
+              , "Контроль источников"
+            
+              , "Государственное регулирование"
+            
+              , "NIST"
+            
+              , "CIS"
+            
+              , "Дрейф конфигурации"
+            
+              , "Пользовательские ресурсы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Познакомьтесь с возможностями PowerShell Desired State Configuration (DSC) для автоматизации и управления конфигурациями системы в целях обеспечения безопасности и соответствия требованиям среды.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp" length="141768" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Плюсы и минусы биометрической аутентификации для доступа</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-benefits-and-risks-of-using-biometric-authentication/</link>
+        
+        <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "биометрическая аутентификация"
+            
+              , "контроль доступа"
+            
+              , "безопасность"
+            
+              , "конфиденциальность"
+            
+              , "защита данных"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "ложноположительные результаты"
+            
+              , "ложноотрицательные результаты"
+            
+              , "многофакторная аутентификация"
+            
+              , "тестирование системы"
+            
+              , "политики безопасности"
+            
+              , "эффективность"
+            
+              , "удобство"
+            
+              , "уникальная идентичность"
+            
+              , "упрощённые рабочие процессы"
+            
+              , "уязвимости"
+            
+              , "снижение рисков"
+            
+              , "пользовательский опыт"
+            
+              , "кибербезопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-benefits-and-risks-of-using-biometric-authentication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оцените биометрическую аутентификацию с точки зрения точности, конфиденциальности, риска подмены, резервного доступа, хранения данных и практических мер контроля при внедрении.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.webp" length="181430" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

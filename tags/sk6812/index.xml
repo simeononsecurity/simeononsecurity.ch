@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SK6812 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>SK6812 on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/sk6812/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/sk6812/</link>
+
+    <description>Recent content in SK6812 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/sk6812/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Eye Spy: пассивный детектор слежки и трекеров на ESP32</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link>
+        
+        <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Инструменты конфиденциальности"
+            
+              , "Контрнаблюдение"
+            
+              , "Безопасность IoT"
+            
+              , "Встраиваемые системы"
+            
+              , "Исследования безопасности"
+            
+              , "Безопасность WiFi"
+            
+              , "Безопасность Bluetooth"
+            
+              , "Проекты ESP32"
+            
+              , "Аппаратная безопасность"
+            
+              , "Безопасность с открытым исходным кодом"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Технический справочник по Eye Spy v1.1, пассивному детектору BLE и WiFi на ESP32, который обнаруживает камеры, трекеры, дроны и связанные сигналы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>ESP32 WiFi Canary: пассивное обнаружение угроз в диапазоне 2,4 ГГц</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link>
+        
+        <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность сетей"
+            
+              , "Безопасность WiFi"
+            
+              , "Безопасность IoT"
+            
+              , "Исследования безопасности"
+            
+              , "Встраиваемые системы"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Проекты ESP32"
+            
+              , "Безопасность оборудования"
+            
+              , "Беспроводная безопасность"
+            
+              , "Безопасность открытого ПО"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Технический обзор ESP32 WiFi Canary, пассивного датчика 2,4 ГГц для обнаружения evil twin, деаутентификации, снижения уровня защиты и beacon-флуда.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

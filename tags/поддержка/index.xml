@@ -1,0 +1,481 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Поддержка on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Поддержка on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0/</link>
+
+    <description>Recent content in Поддержка on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение NIST Cybersecurity Framework и ISO 27001</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</link>
+        
+        <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Информационная безопасность"
+            
+              , "Модели кибербезопасности"
+            
+              , "Управление рисками"
+            
+              , "Защита данных"
+            
+              , "Соответствие требованиям"
+            
+              , "ИТ-управление"
+            
+              , "Киберугрозы"
+            
+              , "Киберзащита"
+            
+              , "Киберриск"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, чем отличаются NIST Cybersecurity Framework и ISO 27001, чтобы обоснованно выбрать подходящую модель кибербезопасности для вашей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_shield_protecting_a_network_of.webp" length="102920" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubiquiti Unifi и TP-Link Omada: какую сетевую систему выбрать?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</link>
+        
+        <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сетевые системы"
+            
+              , "Управление сетью"
+            
+              , "Сравнение оборудования"
+            
+              , "Веб-управление сетью"
+            
+              , "Масштабируемые сетевые решения"
+            
+              , "Функции сетевой безопасности"
+            
+              , "Надежное сетевое оборудование"
+            
+              , "Конкурентные цены на сетевое оборудование"
+            
+              , "Поддержка клиентов"
+            
+              , "Дополнительные предложения продуктов"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните сетевые системы Ubiquiti Unifi и TP-Link Omada по управлению, оборудованию, поддержке, функциям и ценам, чтобы выбрать подходящий вариант.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_split-screen_illustration_of_a_complex_network.webp" length="236442" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox Academy или TryHackMe</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hackthebox-academy-vs-tryhackme-what-is-best/</link>
+        
+        <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "HackTheBox Academy"
+            
+              , "TryHackMe"
+            
+              , "обучение"
+            
+              , "начинающий"
+            
+              , "интерактивные лаборатории"
+            
+              , "вызовы"
+            
+              , "упражнения"
+            
+              , "руководство"
+            
+              , "поддержка"
+            
+              , "сценарии из реальной жизни"
+            
+              , "навыки"
+            
+              , "сетевой безопасность"
+            
+              , "безопасность веб-приложений"
+            
+              , "криптография"
+            
+              , "программирование"
+            
+              , "сообщество"
+            
+              , "онлайн обучение"
+            
+              , "структурированное обучение"
+            
+              , "hackthebox против tryhackme"
+            
+              , "tryhackme против hackthebox"
+            
+              , "платформы для тестирования на проникновение"
+            
+              , "обучение кибербезопасности"
+            
+              , "младший специалист по тестированию на проникновение"
+            
+              , "вызовы с виртуальными машинами"
+            
+              , "навыки сетевой безопасности"
+            
+              , "безопасность веб-приложений"
+            
+              , "обучение криптографии"
+            
+              , "программирование для кибербезопасности"
+            
+              , "онлайн платформы обучения"
+            
+              , "структурированный опыт обучения"
+            
+              , "креативное мышление в кибербезопасности"
+            
+              , "начинающий в кибербезопасности"
+            
+              , "поддержка сообщества"
+            
+              , "сценарии кибербезопасности из реальной жизни"
+            
+              , "развитие навыков кибербезопасности"
+            
+              , "сообщество hackthebox"
+            
+              , "сообщество tryhackme"
+            
+              , "вызовы по кибербезопасности"
+            
+              , "обучение кибербезопасности"
+            
+              , "навыки тестирования на проникновение"
+            
+              , "обучение кибербезопасности"
+            
+              , "практическое обучение кибербезопасности"
+            
+              , "направленное обучение кибербезопасности"
+            
+              , "вызовы hackthebox"
+            
+              , "вызовы tryhackme"
+            
+              , "применение навыков кибербезопасности"
+            
+              , "образование в области кибербезопасности"
+            
+              , "онлайн платформы кибербезопасности"
+            
+              , "подписка hackthebox"
+            
+              , "подписка tryhackme"
+            
+              , "поддержка hackthebox"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hackthebox-academy-vs-tryhackme-what-is-best/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Полное сравнение 2026 года HackTheBox Academy и TryHackMe, включая цены, функции, учебные пути и показатели эффективности, чтобы помочь новичкам выбрать лучшую платформу для изучения навыков кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/An_animated_image_featuring_two_characters.webp" length="141542" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox или TryHackMe: что выбрать?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/hackthebox-vs-tryhackme-what-is-best/</link>
+        
+        <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Тестирование на проникновение"
+            
+              , "Этичный хакинг"
+            
+              , "Информационная безопасность"
+            
+              , "Цифровая криминалистика"
+            
+              , "Безопасность сетей"
+            
+              , "Киберзащита"
+            
+              , "Безопасность веб-приложений"
+            
+              , "Киберугрозы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/hackthebox-vs-tryhackme-what-is-best/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните HackTheBox и TryHackMe по сложности, поддержке, сообществу и структуре обучения тестированию на проникновение.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_hacker_in_a_lab_coat_standing_between_two_doors.webp" length="87086" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемые организации для поддержки</title>
+        
+          <link>https://ru.simeononsecurity.com/recommendations/organizations/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемые организации"
+            
+              , "Поддержка"
+            
+              , "Конфиденциальность в Интернете"
+            
+              , "Свобода слова"
+            
+              , "Демократические ценности"
+            
+              , "EPIC"
+            
+              , "EFF"
+            
+              , "Конфиденциальность"
+            
+              , "Гражданские свободы"
+            
+              , "Права человека"
+            
+              , "Цифровой активизм"
+            
+              , "Некоммерческие организации"
+            
+              , "Пожертвование"
+            
+              , "Цифровые права"
+            
+              , "Защита информации"
+            
+              , "Кибербезопасность"
+            
+              , "Нейтралитет"
+            
+              , "Анонимность в Интернете"
+            
+              , "Цензура"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/recommendations/organizations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Поддержите Информационный центр по защите частной жизни в Интернете (EPIC) и Фонд электронных рубежей (EFF), чтобы защитить частную жизнь в Интернете, свободу слова и демократические ценности. Пожертвовать на защиту прав и свобод человека в цифровом мире.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>
