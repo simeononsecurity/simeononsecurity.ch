@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Controle De Acesso on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Controle De Acesso on simeononsecurity</title><link>https://pt.simeononsecurity.com/genre/controle-de-acesso/</link></image><link>https://pt.simeononsecurity.com/genre/controle-de-acesso/</link><description>Recent content in Controle De Acesso on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/genre/controle-de-acesso/index.xml" rel="self" type="application/rss+xml"/><item><title>7 práticas essenciais de segurança para empresas</title><link>https://pt.simeononsecurity.com/articles/7-essential-security-practices-for-any-business/</link><pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate><category>
+"Segurança empresarial"
+, "Segurança física"
+, "Cibersegurança"
+, "Resposta a incidentes"
+, "Treinamento de funcionários"
+, "Criptografia de dados"
+, "Sistemas de vigilância"
+, "Controle de acesso"
+, "Protocolos de segurança"
+, "Resiliência digital"</category><guid>https://pt.simeononsecurity.com/articles/7-essential-security-practices-for-any-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Sete práticas de segurança para empresas, da proteção física e cibersegurança ao planejamento da resiliência.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/7-essential-security-practices-for-any-business.webp" length="235660" type="image/webp"/></item><item><title>Proteja o Active Directory</title><link>https://pt.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Gestão de redes"
+, "Tecnologia da informação"
+, "Proteção de dados"
+, "Segurança empresarial"
+, "Infraestrutura digital"
+, "Controle de acesso"
+, "Autenticação de usuários"
+, "Boas práticas de TI"
+, "Conscientização sobre segurança"</category><guid>https://pt.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça técnicas essenciais para proteger o Active Directory, resguardar dados e impedir invasões na infraestrutura da sua rede.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item><item><title>Dominar o princípio do menor privilégio</title><link>https://pt.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Segurança Linux"
+, "Controle de acesso"
+, "Segurança de TI"
+, "Segurança de rede"
+, "Proteção da informação"
+, "Privacidade de dados"
+, "Ameaças cibernéticas"
+, "Gestão de riscos"
+, "Boas práticas de segurança"</category><guid>https://pt.simeononsecurity.com/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Reforce a cibersegurança com controles de acesso baseados no menor privilégio no Linux. Aprenda os passos de implementação, as boas práticas e a solução de problemas.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/secure-access-control-linux.webp" length="91246" type="image/webp"/></item><item><title>Segurança biométrica para controle de acesso</title><link>https://pt.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</link><pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Segurança"
+, "Biometria"
+, "Controle de acesso"
+, "Leitores de impressão digital"
+, "Reconhecimento facial"
+, "Produtos da Amazon"
+, "Segurança digital"
+, "Inovação"
+, "Privacidade"</category><guid>https://pt.simeononsecurity.com/articles/biometric-access-control-fingerprint-facial-recognition-devices-amazon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça a segurança biométrica avançada com leitores de impressão digital e dispositivos de reconhecimento facial disponíveis na Amazon, para um controle de acesso eficaz e mais tranquilidade.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/biometric-access-control-fingerprint-facial-recognition-devices-amazon.webp" length="183044" type="image/webp"/></item><item><title>Quem designa e determina os níveis de classificação</title><link>https://pt.simeononsecurity.com/articles/who-designates-whether-information-is-classified/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><category>
+"Segurança da informação"
+, "Classificação de dados"
+, "Regulamentação governamental"
+, "Segurança nacional"
+, "Proteção de dados"
+, "Privacidade de dados"
+, "Medidas de segurança"
+, "Informações classificadas"
+, "Controle de acesso"
+, "Sensibilidade dos dados"</category><guid>https://pt.simeononsecurity.com/articles/who-designates-whether-information-is-classified/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Saiba quem designa uma informação como classificada, como os níveis de classificação são determinados e como funciona o processo nos Estados Unidos.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.webp" length="161990" type="image/webp"/></item><item><title>OWASP Top 10: Riscos críticos de segurança de aplicações Web</title><link>https://pt.simeononsecurity.com/articles/owasp-top-10/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><category>
+"Riscos de segurança de aplicações Web"
+, "OWASP Top 10"
+, "Ataques de injeção"
+, "Autenticação"
+, "Gerenciamento de sessões"
+, "Ataques XSS"
+, "Controle de acesso"
+, "Configuração incorreta de segurança"
+, "Armazenamento criptográfico"
+, "Proteção da camada de transporte"</category><guid>https://pt.simeononsecurity.com/articles/owasp-top-10/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça os riscos mais críticos de segurança de aplicações Web no OWASP Top 10 e saiba como se proteger</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.webp" length="80546" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Relatórios De Auditoria on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Relatórios De Auditoria on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/relat%C3%B3rios-de-auditoria/</link></image><link>https://pt.simeononsecurity.com/tags/relat%C3%B3rios-de-auditoria/</link><description>Recent content in Relatórios De Auditoria on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/relat%C3%B3rios-de-auditoria/index.xml" rel="self" type="application/rss+xml"/><item><title>Como auditar permissões do vCenter com PowerCLI</title><link>https://pt.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link><pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate><category>
+"Auditoria de permissões do vCenter"
+, "Automação com PowerCLI"
+, "Segurança da VMware"
+, "Gestão de infraestrutura virtual"
+, "Atribuições de permissões"
+, "Controlo de acesso de utilizadores"
+, "Vulnerabilidades de segurança"
+, "Automação com PowerShell"
+, "Gestão de ambientes vSphere"
+, "Revisão de permissões de utilizadores"</category><guid>https://pt.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a auditar permissões do vCenter com PowerCLI para proteger uma infraestrutura virtual.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/audit-permissions-vcenter-powercli.webp" length="171996" type="image/webp"/></item></channel></rss>

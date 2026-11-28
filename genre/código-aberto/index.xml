@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Código Aberto on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Código Aberto on simeononsecurity</title><link>https://pt.simeononsecurity.com/genre/c%C3%B3digo-aberto/</link></image><link>https://pt.simeononsecurity.com/genre/c%C3%B3digo-aberto/</link><description>Recent content in Código Aberto on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/genre/c%C3%B3digo-aberto/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenCode versus Claude Code: comparação de agentes de programação em 2026</title><link>https://pt.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Ferramentas para desenvolvedores"
+, "Inteligência artificial"
+, "Código aberto"</category><guid>https://pt.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare OpenCode e Claude Code na escolha de modelos, inferência local, preços, permissões, instruções de projeto e fluxos diários de programação.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>Roteamento de provedores no OpenRouter: qualidade do modelo, limites de tokens e custos reais</title><link>https://pt.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligência Artificial"
+, "Infraestrutura"
+, "código aberto"</category><guid>https://pt.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Diagnostique respostas inconsistentes do OpenRouter, compare limites de endpoints e custos de cache, e configure o roteamento de provedores sem desativar controles de qualidade por acidente.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp" length="117470" type="image/webp"/></item><item><title>Criar um assistente de IA com privacidade para Meshtastic</title><link>https://pt.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Segurança de redes"
+, "Privacidade"
+, "Código aberto"
+, "Automação"</category><guid>https://pt.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Relato prático da criação de um assistente local de IA para Meshtastic, com configuração privada, acesso TCP em fila, ferramentas de busca e um painel mais seguro.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Sandboxed Google Play no GrapheneOS: explicado</title><link>https://pt.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Privacidade"
+, "Segurança móvel"
+, "Código aberto"</category><guid>https://pt.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Saiba o que o Sandboxed Google Play muda no GrapheneOS, quando um perfil separado ajuda e como contas, notificações e compatibilidade de aplicativos se relacionam.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp"/></item><item><title>Meshtastic vs. MeshCore vs. Reticulum</title><link>https://pt.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "Redes mesh"
+, "Comunicação fora da rede"
+, "Comunicação de emergência"
+, "Radioamadorismo"
+, "Código aberto"
+, "Preparação para desastres"
+, "Redes sem fio"
+, "Privacidade"
+, "Redes"</category><guid>https://pt.simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare Meshtastic, MeshCore e Reticulum por roteamento, tempo de transmissão, infraestrutura, transporte e casos de uso offline.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Guia de atualização do Proxmox VE 8 para 9</title><link>https://pt.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Virtualização"
+, "Administração Linux"
+, "Proxmox"
+, "Gerenciamento de servidores"
+, "Código aberto"
+, "Laboratório doméstico"</category><guid>https://pt.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Atualize o Proxmox VE 8 para 9 com verificações prévias, etapas manuais, automação, mudanças incompatíveis e orientações de recuperação.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item><item><title>MeshCore ou Meshtastic: comparação</title><link>https://pt.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "Redes mesh"
+, "Comunicações offline"
+, "Comunicações de emergência"
+, "Comunicações táticas"
+, "Radioamadorismo"
+, "Código aberto"
+, "Preparação para desastres"
+, "Redes sem fio"
+, "Privacidade"</category><guid>https://pt.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare MeshCore e Meshtastic em roteamento, alcance, tempo de transmissão, infraestrutura, suporte a dispositivos e adequação ao uso.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/meshcore-vs-meshtastic-comparison-guide.webp" length="173676" type="image/webp"/></item><item><title>Tailscale em comparação com Headscale</title><link>https://pt.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Segurança de Redes"
+, "Alojamento Próprio"
+, "WireGuard"
+, "Confiança Zero"
+, "Redes em Malha"
+, "Código Aberto"
+, "Infraestrutura na Nuvem"
+, "Acesso Remoto"
+, "Gestão de Redes"</category><guid>https://pt.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare o Tailscale e o Headscale quanto ao alojamento, à gestão de identidades, às funcionalidades, aos custos, à operação e ao suporte para escolher uma VPN em malha WireGuard adequada às suas necessidades.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item><item><title>Por que o software de código aberto supera o software proprietário em segurança</title><link>https://pt.simeononsecurity.com/articles/open-source-software-security/</link><pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Código aberto"
+, "Segurança de software"
+, "Regulamentações governamentais"
+, "Desenvolvimento colaborativo"
+, "Proteção digital"
+, "Segurança de TI"
+, "Tendências tecnológicas"
+, "Segurança on-line"
+, "Privacidade de dados"</category><guid>https://pt.simeononsecurity.com/articles/open-source-software-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Saiba por que o software de código aberto é considerado mais seguro que o proprietário e como a transparência e a colaboração protegem seus ativos digitais.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/open-source-software-security.webp" length="61142" type="image/webp"/></item><item><title>LibreWolf vs Firefox</title><link>https://pt.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Privacidade"
+, "Navegadores Web"
+, "Segurança Online"
+, "Código Aberto"
+, "Privacidade Digital"
+, "Software"
+, "Comparação"
+, "Cibersegurança"
+, "Privacidade na Internet"</category><guid>https://pt.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore os recursos do LibreWolf e do Firefox, dois navegadores focados em privacidade, para fazer uma escolha informada visando maior segurança e privacidade online.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp"/></item><item><title>Top 5 Técnicas de Segurança e Endurecimento no Linux</title><link>https://pt.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Cibersegurança"
+, "Linux"
+, "Segurança do Sistema"
+, "Código Aberto"
+, "Endurecimento"
+, "TI"
+, "Proteção de Dados"
+, "Segurança de Rede"
+, "Ciência da Computação"</category><guid>https://pt.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra as 5 principais técnicas de segurança no Linux para fortalecer seu sistema contra ameaças. Melhore a integridade do sistema e proteja dados sensíveis com medidas especializadas de endurecimento.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp"/></item><item><title>Melhores Navegadores de Privacidade 2026: LibreWolf vs Brave vs Tor</title><link>https://pt.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"Navegadores"
+, "Privacidade"
+, "Segurança"
+, "Internet"
+, "Tecnologia"
+, "Privacidade Digital"
+, "Segurança Online"
+, "Código Aberto"
+, "Anonimato"
+, "Navegação Web"</category><guid>https://pt.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparação abrangente de 2026 dos melhores navegadores focados em privacidade: LibreWolf, Brave, Firefox, Tor e mais. Testes detalhados de privacidade, benchmarks de desempenho e análise de segurança para proteger seus dados online.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp"/></item><item><title>Ansible, Semaphore e Tower: comparação de automação</title><link>https://pt.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automação"
+, "Gestão de infraestrutura"
+, "Gestão de configuração"
+, "DevOps"
+, "Operações de TI"
+, "Código aberto"
+, "Gestão de fluxo de trabalho"
+, "Escalabilidade"
+, "Colaboração"
+, "Ferramentas Ansible"</category><guid>https://pt.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare o Ansible simples, o Ansible Tower e o Ansible Semaphore pelos fluxos de trabalho, recursos de gestão e casos de uso de infraestrutura.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/ansible-vs-ansible-semaphore-vs-ansible-tower.webp" length="132234" type="image/webp"/></item><item><title>Gestão de inventário e ativos com Homebox</title><link>https://pt.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Gestão de inventário"
+, "Gestão de ativos"
+, "Código aberto"
+, "Produtividade"
+, "Pequena empresa"
+, "Gestão doméstica"
+, "Auto-hospedagem"
+, "programa informático"
+, "Organização"</category><guid>https://pt.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça o Homebox, um software de código aberto e auto-hospedado para organizar os itens da casa ou os ativos de uma pequena empresa.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp" length="60896" type="image/webp"/></item><item><title>TrueNAS vs. Unraid: qual é o melhor sistema operacional NAS?</title><link>https://pt.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</link><pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Sistemas de armazenamento"
+, "Armazenamento conectado à rede"
+, "Gerenciamento de dados"
+, "Sistemas operacionais NAS"
+, "Comparação"
+, "Proteção de dados"
+, "Armazenamento doméstico"
+, "Armazenamento empresarial"
+, "Código aberto"</category><guid>https://pt.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare TrueNas e Unraid por design do armazenamento, facilidade de uso, recursos, documentação, comunidade e adequação à sua carga de trabalho.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.webp" length="189060" type="image/webp"/></item></channel></rss>

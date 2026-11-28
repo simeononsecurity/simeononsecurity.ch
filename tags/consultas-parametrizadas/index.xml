@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Consultas Parametrizadas on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Consultas Parametrizadas on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/consultas-parametrizadas/</link></image><link>https://pt.simeononsecurity.com/tags/consultas-parametrizadas/</link><description>Recent content in Consultas Parametrizadas on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/consultas-parametrizadas/index.xml" rel="self" type="application/rss+xml"/><item><title>Funções C# inseguras: práticas de programação segura</title><link>https://pt.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Desenvolvimento de software"
+, "Programação em C#"
+, "Cibersegurança"
+, "Segurança do código"
+, "Programação segura"
+, "Boas práticas de programação"
+, "Vulnerabilidades de software"
+, "Criptografia"
+, "Desenvolvimento web"
+, "Segurança de aplicações"</category><guid>https://pt.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Alternativas seguras às funções C# inseguras. Saiba identificar riscos à segurança da memória e substituir operações vulneráveis.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item></channel></rss>

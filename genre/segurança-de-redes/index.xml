@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Segurança De Redes on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Segurança De Redes on simeononsecurity</title><link>https://pt.simeononsecurity.com/genre/seguran%C3%A7a-de-redes/</link></image><link>https://pt.simeononsecurity.com/genre/seguran%C3%A7a-de-redes/</link><description>Recent content in Segurança De Redes on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/genre/seguran%C3%A7a-de-redes/index.xml" rel="self" type="application/rss+xml"/><item><title>Criar um assistente de IA com privacidade para Meshtastic</title><link>https://pt.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Segurança de redes"
+, "Privacidade"
+, "Código aberto"
+, "Automação"</category><guid>https://pt.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Relato prático da criação de um assistente local de IA para Meshtastic, com configuração privada, acesso TCP em fila, ferramentas de busca e um painel mais seguro.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Corrida pela detecção de câmeras Flock: o que mudou em 2026</title><link>https://pt.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"Tecnologia da privacidade"
+, "Contravigilância"
+, "Projetos de código aberto"
+, "Direitos digitais"
+, "Segurança de redes"
+, "Pesquisa em segurança"
+, "Modificação de hardware"
+, "Ferramentas de privacidade"</category><guid>https://pt.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Veja as mudanças relatadas nos métodos de detecção da Flock Safety, as respostas da comunidade e as abordagens infravermelhas para identificar sistemas de câmeras.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>Conectividade para Implantação em Campo e Segurança de Dados em Nós de Borda</title><link>https://pt.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Computação de Borda"
+, "TI de Campo"
+, "Segurança de Redes"
+, "VPN"
+, "Criptografia"
+, "Segurança Física"
+, "Recuperação de Desastres"</category><guid>https://pt.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia para conectar e proteger nós de computação de borda em campo com celular, satélite, LoRa, VPN, MFA, segmentação, logs, criptografia e resposta a roubos.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item><item><title>ESP32 WiFi Canary: deteção passiva de ameaças em 2,4 GHz</title><link>https://pt.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Segurança de redes"
+, "Segurança WiFi"
+, "Segurança IoT"
+, "Pesquisa de segurança"
+, "Sistemas embarcados"
+, "Ferramentas de privacidade"
+, "Projetos ESP32"
+, "Segurança de hardware"
+, "Segurança sem fios"
+, "Segurança de código aberto"</category><guid>https://pt.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Análise técnica do ESP32 WiFi Canary, um sensor passivo de 2,4 GHz que deteta evil twins, desautenticação, degradações de segurança e inundações de beacons.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>Tailscale em comparação com Headscale</title><link>https://pt.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Segurança de Redes"
+, "Alojamento Próprio"
+, "WireGuard"
+, "Confiança Zero"
+, "Redes em Malha"
+, "Código Aberto"
+, "Infraestrutura na Nuvem"
+, "Acesso Remoto"
+, "Gestão de Redes"</category><guid>https://pt.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare o Tailscale e o Headscale quanto ao alojamento, à gestão de identidades, às funcionalidades, aos custos, à operação e ao suporte para escolher uma VPN em malha WireGuard adequada às suas necessidades.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item><item><title>Dominar a etiqueta do e-mail</title><link>https://pt.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</link><pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate><category>
+"Comunicação profissional"
+, "Segurança do e-mail"
+, "Etiqueta empresarial"
+, "Competências tecnológicas"
+, "Eficiência no trabalho"
+, "Boas práticas de cibersegurança"
+, "Literacia digital"
+, "Comunicação online"
+, "Segurança de redes"
+, "Redação eficaz"</category><guid>https://pt.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Melhore suas trocas profissionais e seguras com estas dicas de etiqueta do e-mail.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/email-etiquette_-ensuring-smooth-and-secure-email-operations.webp" length="84144" type="image/webp"/></item><item><title>Firewalls de próxima geração: recursos essenciais para sua empresa</title><link>https://pt.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</link><pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Segurança de redes"
+, "Tecnologia de firewall"
+, "Segurança empresarial"
+, "Integração com a nuvem"
+, "Ameaças digitais"
+, "Gerenciamento de redes"
+, "Soluções de segurança"
+, "Segurança online"
+, "Informações sobre tecnologia"</category><guid>https://pt.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Escolha um firewall de próxima geração considerando controle de aplicações, prevenção de intrusões, proteção contra ameaças, suporte à nuvem, throughput, resiliência e gerenciamento.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/next-gen-firewalls_-features-you-can%27t-ignore-for-your-business.webp" length="128018" type="image/webp"/></item><item><title>Registro do Windows e arquivos de configuração do Linux</title><link>https://pt.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link><pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Sistemas operacionais"
+, "Gestão de segurança"
+, "Tecnologia da informação"
+, "Proteção de dados"
+, "Configuração do sistema"
+, "Segurança de TI"
+, "Segurança de redes"
+, "Comparações tecnológicas"
+, "Segurança da informação"</category><guid>https://pt.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare a segurança do Registro do Windows e dos arquivos de configuração do Linux e aplique medidas práticas de proteção nos dois sistemas.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp"/></item><item><title>Windows Task Scheduler ou Cron no Linux: comparação de segurança</title><link>https://pt.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Sistemas operacionais"
+, "Automação de sistemas"
+, "Ferramentas de segurança"
+, "Tecnologia da computação"
+, "Agendamento de tarefas"
+, "Segurança de redes"
+, "Administração de sistemas"
+, "Defesa cibernética"
+, "Gestão de TI"</category><guid>https://pt.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare o Windows Task Scheduler e as tarefas Cron no Linux sob a perspectiva da cibersegurança e do reforço dos sistemas.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>Como criar um SOC resiliente</title><link>https://pt.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Tecnologia"
+, "Negócios"
+, "Proteção de dados"
+, "Resposta a incidentes"
+, "Gestão de TI"
+, "Segurança de redes"
+, "Deteção de ameaças"
+, "Segurança da informação"
+, "Gestão de riscos"</category><guid>https://pt.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Estabeleça um Centro de Operações de Segurança (SOC) robusto para combater ameaças cibernéticas, detetar incidentes e proteger os ativos da sua organização.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp"/></item><item><title>Reforce a segurança da sua rede doméstica</title><link>https://pt.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</link><pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Rede doméstica"
+, "Recomendações de hardware"
+, "Segurança de redes"
+, "Privacidade digital"
+, "Segurança online"
+, "Segurança da Internet"
+, "Redes domésticas"
+, "Tecnologia"
+, "Casa inteligente"</category><guid>https://pt.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça os equipamentos essenciais para proteger sua rede doméstica contra ameaças cibernéticas, incluindo firewalls de hardware, pontos de acesso e ferramentas de monitoramento.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/fortified-network-security.webp" length="61592" type="image/webp"/></item><item><title>Impulsione sua carreira em segurança cibernética</title><link>https://pt.simeononsecurity.com/articles/best-cybersecurity-certifications-for-beginners-career-guide/</link><pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate><category>
+"Certificações de segurança cibernética"
+, "Guia para iniciantes"
+, "Carreiras em TI"
+, "Segurança da informação"
+, "Segurança de redes"
+, "Hacking ético"
+, "Testes de penetração"
+, "Vagas de nível inicial"</category><guid>https://pt.simeononsecurity.com/articles/best-cybersecurity-certifications-for-beginners-career-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça certificações de segurança cibernética para iniciantes e desenvolva habilidades úteis para começar sua carreira.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_symbolic_illustration_representing_a_lock_an.webp" length="50550" type="image/webp"/></item><item><title>10 melhores práticas de segurança do PowerShell para proteger scripts</title><link>https://pt.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Melhores práticas de segurança do PowerShell"
+, "Segurança de scripts"
+, "Segurança de senhas"
+, "Segurança de TI"
+, "Cibersegurança"
+, "Administração do Windows"
+, "Automação"
+, "Programação segura"
+, "Segurança de redes"
+, "Proteção de dados"</category><guid>https://pt.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proteja scripts e sessões do PowerShell com controles de execução, assinatura de código, tratamento seguro de segredos, limites de acesso e registros.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp" length="76288" type="image/webp"/></item><item><title>Entendendo os trojans de acesso remoto</title><link>https://pt.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Software malicioso"
+, "Segurança de computadores"
+, "Ameaças digitais"
+, "Trojans de acesso remoto"
+, "Proteção de dados"
+, "Privacidade"
+, "Cibercrime"
+, "Segurança de redes"
+, "Segurança da informação"</category><guid>https://pt.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça os riscos dos trojans de acesso remoto (RATs) e aprenda medidas eficazes de prevenção e proteção para resguardar sistemas e dados.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.webp" length="140888" type="image/webp"/></item><item><title>Fundamentos de redes: sub-redes, divisão em sub-redes e projeto de VLAN</title><link>https://pt.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</link><pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate><category>
+"Fundamentos de redes"
+, "Divisão em sub-redes"
+, "VLAN"
+, "Gestão de redes"
+, "Segurança de redes"
+, "Endereçamento IP"
+, "Segmentação de rede"
+, "Uso eficiente de recursos"
+, "Desempenho de rede"
+, "IPv4"</category><guid>https://pt.simeononsecurity.com/articles/networking-basics-what-are-subnets-and-vlans/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda os fundamentos de sub-redes, divisão em sub-redes e VLAN para administrar redes com eficiência e reforçar a segurança.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_comp.webp" length="200202" type="image/webp"/></item><item><title>Fundamentos de redes: switches, roteadores, firewalls e DMZs</title><link>https://pt.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"Redes"
+, "Infraestrutura de TI"
+, "Segurança de redes"
+, "Arquitetura de redes"
+, "Cibersegurança"
+, "Comunicação de dados"
+, "Tecnologia da informação"
+, "Fundamentos de TI"
+, "Gerenciamento de redes"
+, "Conectividade com a internet"</category><guid>https://pt.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entenda como switches, roteadores, gateways, sub-redes, firewalls e DMZs dividem o tráfego de rede e impõem limites de segurança.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp"/></item><item><title>Desenvolva habilidades de cibersegurança: uma análise do TryHackMe</title><link>https://pt.simeononsecurity.com/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Cibersegurança"
+, "Aprendizagem online"
+, "Hacking ético"
+, "Segurança de redes"
+, "Laboratórios virtuais"
+, "Certificações"
+, "Trilhas de aprendizagem"
+, "Experiência prática"
+, "Análise do TryHackMe"</category><guid>https://pt.simeononsecurity.com/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça os recursos, preços, certificações e serviços de rede do TryHackMe e veja como a plataforma ajuda a desenvolver habilidades de cibersegurança.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.webp" length="98638" type="image/webp"/></item><item><title>Guia de carreira em cibersegurança 2026</title><link>https://pt.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</link><pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Tecnologia"
+, "Desenvolvimento de carreira"
+, "Segurança da informação"
+, "Segurança digital"
+, "Competências e certificações"
+, "Oportunidades de emprego"
+, "Segurança de redes"
+, "Segurança em nuvem"
+, "Planejamento de carreira"</category><guid>https://pt.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia de carreira em cibersegurança para 2026 com competências, certificações, dados salariais, caminhos profissionais e pesquisa do mercado de trabalho.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/cybersecurity-career-guide-essential-skills-and-certifications.webp" length="298156" type="image/webp"/></item><item><title>Dominar testes de penetração: técnicas avançadas</title><link>https://pt.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Testes de penetração"
+, "Hacking ético"
+, "Segurança de redes"
+, "Segurança de aplicações web"
+, "Segurança sem fio"
+, "Engenharia social"
+, "Segurança de aplicações móveis"
+, "Segurança em nuvem"
+, "Desenvolvimento de carreira"</category><guid>https://pt.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça técnicas avançadas, ferramentas e exemplos reais de testes de penetração para desenvolver suas habilidades de cibersegurança e sua carreira.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp"/></item><item><title>Security+ e SSCP: qual certificação você deve obter?</title><link>https://pt.simeononsecurity.com/articles/security-plus-vs-sscp-what-is-the-better-certification/</link><pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Segurança da informação"
+, "Comparação de certificações"
+, "Carreiras em TI"
+, "Reconhecimento no setor"
+, "Oportunidades de emprego"
+, "Segurança de redes"
+, "Segurança de sistemas"
+, "CompTIA"</category><guid>https://pt.simeononsecurity.com/articles/security-plus-vs-sscp-what-is-the-better-certification/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare Security+ e SSCP em escopo do exame, experiência, custo e metas profissionais para escolher um bom ponto de partida em cibersegurança.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_symbolic_artwork_featuring_two_shields_facing_off_against.webp" length="167514" type="image/webp"/></item><item><title>Plano de estudos para o exame de certificação CEH: dicas e estratégias</title><link>https://pt.simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</link><pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate><category>
+"cibersegurança"
+, "segurança da informação"
+, "desenvolvimento profissional"
+, "certificação de TI"
+, "segurança de redes"
+, "hacking ético"
+, "preparação para exames"
+, "plano de estudos"
+, "gestão do tempo"
+, "progressão na carreira"</category><guid>https://pt.simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a criar um plano de estudos eficaz para passar no exame de certificação CEH, com dicas e estratégias para alcançar bons resultados.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.webp" length="78844" type="image/webp"/></item><item><title>HackTheBox vs. TryHackMe: qual é ideal para você?</title><link>https://pt.simeononsecurity.com/articles/hackthebox-vs-tryhackme-what-is-best/</link><pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Cibersegurança"
+, "Testes de invasão"
+, "Hacking ético"
+, "Segurança da informação"
+, "Computação forense"
+, "Segurança de redes"
+, "Defesa cibernética"
+, "Segurança de aplicações web"
+, "Ameaças cibernéticas"</category><guid>https://pt.simeononsecurity.com/articles/hackthebox-vs-tryhackme-what-is-best/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare HackTheBox e TryHackMe em dificuldade, orientação, comunidade e estrutura para aprender testes de invasão.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_cartoon_hacker_in_a_lab_coat_standing_between_two_doors.webp" length="87086" type="image/webp"/></item></channel></rss>

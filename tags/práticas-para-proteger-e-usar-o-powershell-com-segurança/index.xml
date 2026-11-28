@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Práticas Para Proteger E Usar O PowerShell Com Segurança on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Práticas Para Proteger E Usar O PowerShell Com Segurança on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/pr%C3%A1ticas-para-proteger-e-usar-o-powershell-com-seguran%C3%A7a/</link></image><link>https://pt.simeononsecurity.com/tags/pr%C3%A1ticas-para-proteger-e-usar-o-powershell-com-seguran%C3%A7a/</link><description>Recent content in Práticas Para Proteger E Usar O PowerShell Com Segurança on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/pr%C3%A1ticas-para-proteger-e-usar-o-powershell-com-seguran%C3%A7a/index.xml" rel="self" type="application/rss+xml"/><item><title>10 melhores práticas de segurança do PowerShell para proteger scripts</title><link>https://pt.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Melhores práticas de segurança do PowerShell"
+, "Segurança de scripts"
+, "Segurança de senhas"
+, "Segurança de TI"
+, "Cibersegurança"
+, "Administração do Windows"
+, "Automação"
+, "Programação segura"
+, "Segurança de redes"
+, "Proteção de dados"</category><guid>https://pt.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proteja scripts e sessões do PowerShell com controles de execução, assinatura de código, tratamento seguro de segredos, limites de acesso e registros.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp" length="76288" type="image/webp"/></item></channel></rss>

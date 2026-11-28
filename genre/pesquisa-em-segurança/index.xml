@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pesquisa Em Segurança on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Pesquisa Em Segurança on simeononsecurity</title><link>https://pt.simeononsecurity.com/genre/pesquisa-em-seguran%C3%A7a/</link></image><link>https://pt.simeononsecurity.com/genre/pesquisa-em-seguran%C3%A7a/</link><description>Recent content in Pesquisa Em Segurança on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/genre/pesquisa-em-seguran%C3%A7a/index.xml" rel="self" type="application/rss+xml"/><item><title>Corrida pela detecção de câmeras Flock: o que mudou em 2026</title><link>https://pt.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"Tecnologia da privacidade"
+, "Contravigilância"
+, "Projetos de código aberto"
+, "Direitos digitais"
+, "Segurança de redes"
+, "Pesquisa em segurança"
+, "Modificação de hardware"
+, "Ferramentas de privacidade"</category><guid>https://pt.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Veja as mudanças relatadas nos métodos de detecção da Flock Safety, as respostas da comunidade e as abordagens infravermelhas para identificar sistemas de câmeras.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>Eye Spy: detector passivo de vigilância e rastreadores para ESP32</title><link>https://pt.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"Ferramentas de privacidade"
+, "Contravigilância"
+, "Segurança de IoT"
+, "Sistemas embarcados"
+, "Pesquisa em segurança"
+, "Segurança WiFi"
+, "Segurança Bluetooth"
+, "Projetos ESP32"
+, "Segurança de hardware"
+, "Segurança de código aberto"</category><guid>https://pt.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Referência técnica do Eye Spy v1.1, um detector passivo de BLE e WiFi para ESP32 que identifica câmeras, rastreadores, drones e sinais relacionados.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item></channel></rss>

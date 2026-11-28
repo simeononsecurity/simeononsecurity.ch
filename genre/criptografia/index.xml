@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Criptografia on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Criptografia on simeononsecurity</title><link>https://pt.simeononsecurity.com/genre/criptografia/</link></image><link>https://pt.simeononsecurity.com/genre/criptografia/</link><description>Recent content in Criptografia on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/genre/criptografia/index.xml" rel="self" type="application/rss+xml"/><item><title>Conectividade para Implantação em Campo e Segurança de Dados em Nós de Borda</title><link>https://pt.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Computação de Borda"
+, "TI de Campo"
+, "Segurança de Redes"
+, "VPN"
+, "Criptografia"
+, "Segurança Física"
+, "Recuperação de Desastres"</category><guid>https://pt.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia para conectar e proteger nós de computação de borda em campo com celular, satélite, LoRa, VPN, MFA, segmentação, logs, criptografia e resposta a roubos.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item><item><title>Funções C# inseguras: práticas de programação segura</title><link>https://pt.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Desenvolvimento de software"
+, "Programação em C#"
+, "Cibersegurança"
+, "Segurança do código"
+, "Programação segura"
+, "Boas práticas de programação"
+, "Vulnerabilidades de software"
+, "Criptografia"
+, "Desenvolvimento web"
+, "Segurança de aplicações"</category><guid>https://pt.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Alternativas seguras às funções C# inseguras. Saiba identificar riscos à segurança da memória e substituir operações vulneráveis.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>Serviço de e-mail seguro: mais privacidade com StartMail</title><link>https://pt.simeononsecurity.com/articles/secure-email-service-startmail/</link><pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Privacidade"
+, "Serviços de e-mail"
+, "Segurança on-line"
+, "Privacidade digital"
+, "Criptografia"
+, "Proteção de dados"
+, "Privacidade de e-mail"
+, "Proteção de identidade"
+, "Privacidade on-line"</category><guid>https://pt.simeononsecurity.com/articles/secure-email-service-startmail/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça os aliases de e-mail do StartMail, a criptografia PGP, as mensagens protegidas por senha e os limites do e-mail criptografado.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/secure_email_guard.webp" length="45872" type="image/webp"/></item><item><title>Comparativo de e-mails seguros: StartMail, ProtonMail e Tutanota</title><link>https://pt.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</link><pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Cibersegurança"
+, "Privacidade de dados"
+, "Serviços de e-mail"
+, "Segurança on-line"
+, "Criptografia"
+, "Ferramentas da internet"
+, "Comparativo"
+, "Proteção digital"
+, "Privacidade on-line"</category><guid>https://pt.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra qual serviço de e-mail seguro atende melhor às suas necessidades. Este comparativo detalhado entre StartMail, ProtonMail e Tutanota mostra como cada um protege sua privacidade on-line.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/secure-email-showdown.webp" length="84184" type="image/webp"/></item><item><title>AWS, Azure e Google Cloud 2026: comparação completa de plataformas de nuvem</title><link>https://pt.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Computação em nuvem"
+, "Segurança na nuvem"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "Segurança de dados"
+, "Criptografia"
+, "Gerenciamento de identidade e acesso"
+, "Conformidade"
+, "Detecção de ameaças"</category><guid>https://pt.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare AWS, Azure e Google Cloud em 2026, incluindo preços, segurança, conformidade, serviços, desempenho e escolha do provedor.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item><item><title>Melhores gerenciadores de senhas 2026: Bitwarden vs KeePassXC</title><link>https://pt.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Cibersegurança"
+, "Gerenciamento de senhas"
+, "Segurança online"
+, "Proteção de dados"
+, "Criptografia"
+, "Privacidade digital"
+, "Ferramentas de internet"
+, "Armazenamento em nuvem"
+, "Comparação de software"</category><guid>https://pt.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparação de gerenciadores de senhas em 2026, incluindo Bitwarden, KeePassXC, 1Password, LastPass, Dashlane e Proton Pass.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/bitwarden-and-keepassxc-vs-the-rest.webp" length="241120" type="image/webp"/></item></channel></rss>

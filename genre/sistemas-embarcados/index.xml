@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sistemas Embarcados on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Sistemas Embarcados on simeononsecurity</title><link>https://pt.simeononsecurity.com/genre/sistemas-embarcados/</link></image><link>https://pt.simeononsecurity.com/genre/sistemas-embarcados/</link><description>Recent content in Sistemas Embarcados on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/genre/sistemas-embarcados/index.xml" rel="self" type="application/rss+xml"/><item><title>Eye Spy: detector passivo de vigilância e rastreadores para ESP32</title><link>https://pt.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"Ferramentas de privacidade"
+, "Contravigilância"
+, "Segurança de IoT"
+, "Sistemas embarcados"
+, "Pesquisa em segurança"
+, "Segurança WiFi"
+, "Segurança Bluetooth"
+, "Projetos ESP32"
+, "Segurança de hardware"
+, "Segurança de código aberto"</category><guid>https://pt.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Referência técnica do Eye Spy v1.1, um detector passivo de BLE e WiFi para ESP32 que identifica câmeras, rastreadores, drones e sinais relacionados.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>ESP32 WiFi Canary: deteção passiva de ameaças em 2,4 GHz</title><link>https://pt.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Segurança de redes"
+, "Segurança WiFi"
+, "Segurança IoT"
+, "Pesquisa de segurança"
+, "Sistemas embarcados"
+, "Ferramentas de privacidade"
+, "Projetos ESP32"
+, "Segurança de hardware"
+, "Segurança sem fios"
+, "Segurança de código aberto"</category><guid>https://pt.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Análise técnica do ESP32 WiFi Canary, um sensor passivo de 2,4 GHz que deteta evil twins, desautenticação, degradações de segurança e inundações de beacons.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>

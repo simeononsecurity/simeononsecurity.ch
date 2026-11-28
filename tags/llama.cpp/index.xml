@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llama.cpp on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Llama.cpp on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/llama.cpp/</link></image><link>https://pt.simeononsecurity.com/tags/llama.cpp/</link><description>Recent content in Llama.cpp on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/llama.cpp/index.xml" rel="self" type="application/rss+xml"/><item><title>Benchmarks de modelos locais do Hermes: as combinações de GPU e modelo que eu escolheria</title><link>https://pt.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligência artificial"
+, "IA local"
+, "Informática"</category><guid>https://pt.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Minhas recomendações de modelos Hermes vêm de testes de contexto longo, ferramentas, streaming e visão nos sistemas RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti e RTX 3070.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>Por dentro da nossa frota híbrida de agentes de IA: Hermes, LiteLLM e Tailscale</title><link>https://pt.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA auto-hospedada"
+, "Agentes de IA"
+, "Infraestrutura de IA"
+, "Mineração de GPU"</category><guid>https://pt.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça uma frota local de IA verificada com carregamento sob demanda e seu plano de controle T0 a T4 com Hermes, LiteLLM, Tailscale Aperture e mineração Pearl.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>Privacidade da IA local: o que permanece no seu computador e o que não permanece</title><link>https://pt.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Privacidade"
+, "IA auto-hospedada"
+, "Cibersegurança"
+, "Economia da IA"</category><guid>https://pt.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Rastreie prompts, arquivos de modelos, ferramentas, logs, exposição de rede e custos de energia antes de escolher inferência local ou um serviço de IA hospedado.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>16 GB de VRAM são suficientes para trabalho sério com LLM local?</title><link>https://pt.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Hardware de computador"
+, "IA auto-hospedada"</category><guid>https://pt.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dimensione uma configuração de LLM local de 16 GB com base nos pesos do modelo, no cache KV e no processamento de prompts. Compare os orçamentos de memória do Qwen3.8 27B, a largura de banda da GPU e os custos de propriedade.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>Modelos de Linguagem de Contexto da Meta: melhor memória para agentes, não o fim das alucinações</title><link>https://pt.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligência artificial"
+, "Agentes de IA"
+, "IA local"
+, "Segurança de IA"</category><guid>https://pt.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Como os Context Language Models editam a memória de agentes, o que os benchmarks demonstram e como custos de cache, capacidade do modelo e notas não confiáveis afetam a confiabilidade.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp"/></item><item><title>Qual modelo de IA local você deve executar? Guia de GPU, contexto e programação para outubro de 2026</title><link>https://pt.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Hardware de IA"
+, "IA autohospedada"
+, "Benchmark de GPU"
+, "Ferramentas de desenvolvimento"
+, "Economia de IA"</category><guid>https://pt.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Um guia prático de outubro de 2026 para escolher modelos de IA locais para agentes de programação. Compare memória da GPU, crescimento do KV cache, tamanho do contexto, qualidade da quantização, processamento de prompts, configurações de raciocínio e custos de aluguel na nuvem.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>32 GB de VRAM para Qwen 27B: guia de hardware de IA local para outubro de 2026</title><link>https://pt.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Hardware de IA"
+, "Benchmark de GPU"
+, "IA auto-hospedada"
+, "Hardware de computador"
+, "Economia de IA"</category><guid>https://pt.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Um guia prático de outubro de 2026 para executar um modelo Qwen 27B com 32 GB de memória útil do acelerador. Compare GPUs únicas, configurações com duas placas, memória unificada, placas de data center usadas, computação alugada, suporte de software e limites de contexto completo.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Claude Cowork e Claude Code com modelos locais: guia de configuração 2026</title><link>https://pt.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Ferramentas de programação com IA"
+, "IA auto-hospedada"
+, "Ferramentas para desenvolvedores"
+, "Privacidade"
+, "Modelos de código aberto"
+, "Automação"
+, "Hardware de IA"</category><guid>https://pt.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Configure o Ollama com Claude Desktop e Claude Code por meio de uma API compatível com Anthropic. Veja modelos e recursos exclusivos da nuvem em 2026.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>IA local em 2026: modelo 27B supera Sonnet 4.6 enquanto a janela para comprar equipamentos se fecha</title><link>https://pt.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA auto-hospedada"
+, "Modelos de código aberto"
+, "Hardware de IA"
+, "Aprendizado de máquina"
+, "Quantização"
+, "Laboratório doméstico"
+, "Privacidade"
+, "Economia da IA"
+, "Hardware de consumo"</category><guid>https://pt.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planeje um PC de IA local para 2026 considerando tamanho do modelo, VRAM, largura de banda da memória, energia, custo e opções de atualização.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

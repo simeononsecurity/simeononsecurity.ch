@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Virtualização on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Virtualização on simeononsecurity</title><link>https://pt.simeononsecurity.com/genre/virtualiza%C3%A7%C3%A3o/</link></image><link>https://pt.simeononsecurity.com/genre/virtualiza%C3%A7%C3%A3o/</link><description>Recent content in Virtualização on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/genre/virtualiza%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9: reduza o uso dos discos virtuais e recupere espaço</title><link>https://pt.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Virtualização"
+, "Administração Linux"
+, "plataforma Proxmox VE"
+, "Armazenamento"
+, "Laboratório doméstico"</category><guid>https://pt.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Reduza o armazenamento usado por VMs e contêineres LXC no Proxmox VE 9. Compare formatos e backends, ative discard, execute trim e verifique snapshots antes de recuperar espaço.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Migrar uma VM do Hyper-V para o Proxmox VE: checklist reversível</title><link>https://pt.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualização"
+, "Administração de sistemas"
+, "Laboratório doméstico"</category><guid>https://pt.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Migre uma máquina virtual do Hyper-V para o Proxmox VE com uma exportação da origem desligada, firmware equivalente, importação de discos, teste de inicialização isolado e plano de reversão.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>Teste de restauração de VM Proxmox: comprove que o sistema convidado funciona</title><link>https://pt.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualização"
+, "Backup e recuperação"
+, "Laboratório doméstico"</category><guid>https://pt.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Teste um backup de VM Proxmox com uma restauração isolada. Verifique os discos incluídos, o modo de backup, os dados do convidado, o estado do serviço e o tempo de recuperação sem tocar na produção.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>Em 2026, contêineres deixaram de ser uma fronteira de segurança</title><link>https://pt.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"Segurança de contêineres"
+, "Linux"
+, "Segurança do kernel"
+, "Virtualização"
+, "Segurança em nuvem"
+, "Pesquisa de ameaças"
+, "equipe de defesa"
+, "DevSecOps"</category><guid>https://pt.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+As vulnerabilidades do kernel em 2026 mostram por que o isolamento de contêineres multi-tenant não basta. Conheça Copy Fail, Dirty Frag, Fragnesia e CVE-2026-80521, e compare contêineres reforçados com a fronteira de microVM.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>Docker em LXC no Proxmox: confiabilidade, evidências e migração para VM</title><link>https://pt.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"Virtualização"
+, "Administração Linux"
+, "laboratório doméstico"</category><guid>https://pt.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Avalie o Docker dentro do Proxmox LXC com uma falha documentada do AppArmor, uma análise cuidadosa de um relato de travamento do host, comandos de diagnóstico e um plano de migração para VM.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>Guia de atualização do Proxmox VE 8 para 9</title><link>https://pt.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Virtualização"
+, "Administração Linux"
+, "Proxmox"
+, "Gerenciamento de servidores"
+, "Código aberto"
+, "Laboratório doméstico"</category><guid>https://pt.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Atualize o Proxmox VE 8 para 9 com verificações prévias, etapas manuais, automação, mudanças incompatíveis e orientações de recuperação.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item><item><title>VMware vs Hyper-V vs Proxmox: Virtualização Comparada</title><link>https://pt.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link><pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Virtualização"
+, "Infraestrutura de TI"
+, "Virtualização de Servidores"
+, "Software Empresarial"
+, "Computação em Nuvem"
+, "Soluções para Data Center"
+, "Virtualização Open Source"
+, "Gerenciamento de Máquinas Virtuais"
+, "Comparação de Virtualização"</category><guid>https://pt.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra a comparação fácil entre VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE e XCP-NG e escolha sua solução ideal de virtualização para o sucesso empresarial.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp"/></item><item><title>Principais criadores de conteúdo sobre homelab</title><link>https://pt.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Redes"
+, "Faça você mesmo"
+, "Virtualização"
+, "Homelabs"
+, "Entusiastas de tecnologia"
+, "Comunidade"
+, "Aprendizado"
+, "Inovação"
+, "Guias"</category><guid>https://pt.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça criadores influentes de homelab, conecte-se com entusiastas e comece sua jornada tecnológica.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item><item><title>Domine a segurança do VMware</title><link>https://pt.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Virtualização"
+, "Infraestrutura de TI"
+, "Automação"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "Conformidade"
+, "Scripting"
+, "Data center"</category><guid>https://pt.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a usar o PowerCLI para aplicar os STIGs do VMware e proteger seu ambiente VMware com este guia abrangente.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item><item><title>Domine o PowerCLI para gerenciar o vSphere</title><link>https://pt.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Virtualização"
+, "VMware"
+, "Gestão de TI"
+, "Automação"
+, "Interface de linha de comando"
+, "Scripting"
+, "Administração de sistemas"
+, "Computação em nuvem"
+, "Gestão de datacenter"</category><guid>https://pt.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a usar o PowerCLI para gerenciar VMware vSphere, automatizar tarefas e aumentar a produtividade.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item></channel></rss>

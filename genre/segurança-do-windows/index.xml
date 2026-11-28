@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Segurança Do Windows on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Segurança Do Windows on simeononsecurity</title><link>https://pt.simeononsecurity.com/genre/seguran%C3%A7a-do-windows/</link></image><link>https://pt.simeononsecurity.com/genre/seguran%C3%A7a-do-windows/</link><description>Recent content in Segurança Do Windows on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/genre/seguran%C3%A7a-do-windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Thunderbird 153.6: Exposição de credenciais NTLM no Windows e como atualizar (2026)</title><link>https://pt.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cibersegurança"
+, "Segurança de e-mail"
+, "Segurança do Windows"</category><guid>https://pt.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Duas falhas graves do Thunderbird podem expor dados de autenticação NTLM do Windows quando uma mensagem manipulada é exibida. Entenda os dois caminhos, confira a versão e limite o SMB de saída durante a atualização.</description></item><item><title>Encontre a chave de recuperação do BitLocker antes de reinstalar o Windows</title><link>https://pt.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Segurança do Windows"
+, "Recuperação de dados"
+, "Administração de sistemas"</category><guid>https://pt.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Encontre e verifique a chave de recuperação correta do BitLocker, proteja uma cópia separada e escolha o caminho adequado de recuperação ou reinstalação do Windows antes de apagar uma unidade.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/windows-bitlocker-recovery-before-reinstall.webp" length="102534" type="image/webp"/></item><item><title>Melhores práticas de hardening para Windows 10 e 11</title><link>https://pt.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Hardening do Windows"
+, "Segurança do Windows"
+, "Hardening do Windows 10"
+, "Hardening do Windows 11"
+, "Boas práticas de segurança do Windows"
+, "Dicas de segurança do Windows"
+, "Diretrizes de segurança do Windows"
+, "Proteção dos sistemas operacionais Windows"
+, "Hardening do sistema Windows"
+, "Medidas de segurança do Windows"</category><guid>https://pt.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça estratégias eficazes para aumentar a segurança dos sistemas Windows 10 e Windows 11 com técnicas abrangentes de hardening e boas práticas.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.webp" length="55200" type="image/webp"/></item><item><title>Melhores soluções de criptografia de disco completo para PCs Windows</title><link>https://pt.simeononsecurity.com/articles/best-full-disk-encryption-solutions-windows/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><category>
+"Segurança de dados"
+, "Cibersegurança"
+, "Criptografia do Windows"
+, "Criptografia de disco"
+, "Proteção de dados"
+, "Software de criptografia"
+, "Soluções de segurança"
+, "Segurança do Windows"
+, "Privacidade de dados"
+, "Segurança de computadores"</category><guid>https://pt.simeononsecurity.com/articles/best-full-disk-encryption-solutions-windows/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça as principais soluções de criptografia de disco completo para Windows, que protegem dados confidenciais contra acesso não autorizado.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/best-full-disk-encryption-solutions-windows.webp" length="243946" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pve8to9 on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Pve8to9 on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/pve8to9/</link></image><link>https://pt.simeononsecurity.com/tags/pve8to9/</link><description>Recent content in Pve8to9 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/pve8to9/index.xml" rel="self" type="application/rss+xml"/><item><title>Guia de atualização do Proxmox VE 8 para 9</title><link>https://pt.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Virtualização"
+, "Administração Linux"
+, "Proxmox"
+, "Gerenciamento de servidores"
+, "Código aberto"
+, "Laboratório doméstico"</category><guid>https://pt.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Atualize o Proxmox VE 8 para 9 com verificações prévias, etapas manuais, automação, mudanças incompatíveis e orientações de recuperação.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item></channel></rss>

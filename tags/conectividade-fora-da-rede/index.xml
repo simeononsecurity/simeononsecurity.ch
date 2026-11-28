@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Conectividade Fora Da Rede on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Conectividade Fora Da Rede on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/conectividade-fora-da-rede/</link></image><link>https://pt.simeononsecurity.com/tags/conectividade-fora-da-rede/</link><description>Recent content in Conectividade Fora Da Rede on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/conectividade-fora-da-rede/index.xml" rel="self" type="application/rss+xml"/><item><title>Conectividade para Implantação em Campo e Segurança de Dados em Nós de Borda</title><link>https://pt.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Computação de Borda"
+, "TI de Campo"
+, "Segurança de Redes"
+, "VPN"
+, "Criptografia"
+, "Segurança Física"
+, "Recuperação de Desastres"</category><guid>https://pt.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia para conectar e proteger nós de computação de borda em campo com celular, satélite, LoRa, VPN, MFA, segmentação, logs, criptografia e resposta a roubos.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item></channel></rss>

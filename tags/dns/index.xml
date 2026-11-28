@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNS on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>DNS on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/dns/</link></image><link>https://pt.simeononsecurity.com/tags/dns/</link><description>Recent content in DNS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/dns/index.xml" rel="self" type="application/rss+xml"/><item><title>Planeje e teste a segmentação VLAN de um homelab</title><link>https://pt.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Segurança de rede"
+, "Redes"</category><guid>https://pt.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Crie um plano VLAN para dispositivos confiáveis, servidores, IoT e visitantes. Registre o tráfego permitido, configure a rede por etapas e teste o isolamento.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Otimize sua rede: domine a configuração de DNS</title><link>https://pt.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><category>
+"Administração de redes"
+, "Cibersegurança"
+, "Infraestrutura de TI"
+, "Soluções técnicas"
+, "Tecnologia da Internet"
+, "Otimização de DNS"
+, "Desempenho de rede"
+, "Segurança digital"
+, "Conectividade com a Internet"
+, "Guias técnicos"</category><guid>https://pt.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Melhore sua rede com conhecimento sobre DNS. Entenda como ele afeta conectividade, desempenho e segurança, e otimize a configuração.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp"/></item><item><title>Como funciona o DNS: DNS raiz, importância e solução de problemas</title><link>https://pt.simeononsecurity.com/articles/how-does-dns-work/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><category>
+"Fundamentos de DNS"
+, "DNS raiz"
+, "Sistema de Nomes de Domínio"
+, "Resolução DNS"
+, "Hierarquia DNS"
+, "Cache DNS"
+, "Solução de problemas de DNS"
+, "Registros DNS"
+, "Gerenciamento de DNS"
+, "Comandos DNS"</category><guid>https://pt.simeononsecurity.com/articles/how-does-dns-work/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entenda o funcionamento do DNS e do DNS raiz, a hierarquia, o processo de resolução, o cache e a solução de problemas.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/An_image_depicting_interconnected_computer_ne.webp" length="167680" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guias Técnicos on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Guias Técnicos on simeononsecurity</title><link>https://pt.simeononsecurity.com/genre/guias-t%C3%A9cnicos/</link></image><link>https://pt.simeononsecurity.com/genre/guias-t%C3%A9cnicos/</link><description>Recent content in Guias Técnicos on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/genre/guias-t%C3%A9cnicos/index.xml" rel="self" type="application/rss+xml"/><item><title>Como evitar danos por eletricidade estática: aterramento e proteção ESD</title><link>https://pt.simeononsecurity.com/articles/the-ground-connection_-protecting-your-electronics-from-static-damage/</link><pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate><category>
+"Segurança eletrônica"
+, "Guias técnicos"
+, "Procedimentos no local de trabalho"
+, "Manutenção de dispositivos"
+, "Educação tecnológica"
+, "Proteção de hardware"
+, "Normas industriais"
+, "Recursos de treinamento para funcionários"
+, "Medidas preventivas"
+, "Soluções de controle estático"</category><guid>https://pt.simeononsecurity.com/articles/the-ground-connection_-protecting-your-electronics-from-static-damage/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proteja seus dispositivos eletrônicos contra a eletricidade estática. Saiba como o aterramento e as ferramentas antiestáticas ajudam a evitar danos e reparos caros.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/the-ground-connection_-protecting-your-electronics-from-static-damage.webp" length="120956" type="image/webp"/></item><item><title>Comparando SO: Recursos e Segurança do Windows, Linux e macOS</title><link>https://pt.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><category>
+"Sistemas Operacionais"
+, "Avaliações Técnicas"
+, "Comparação de Software"
+, "Segurança de Computadores"
+, "Design de Experiência do Usuário"
+, "Desempenho do Sistema"
+, "Software de Código Aberto"
+, "Guias Técnicos"
+, "Computação Pessoal"
+, "Soluções de TI"</category><guid>https://pt.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra Qual SO é o Melhor em Segurança e Facilidade: Windows, Linux ou macOS? Obtenha os principais insights que VOCÊ PRECISA para decidir – antes de se comprometer!</description><enclosure url="https://pt.simeononsecurity.com/img/cover/operating-systems_-windows-linux-and-macos-compared.webp" length="44424" type="image/webp"/></item><item><title>Como prolongar a autonomia e a vida útil da bateria do portátil</title><link>https://pt.simeononsecurity.com/articles/laptop-battery-life_-maximizing-performance-and-longevity/</link><pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate><category>
+"Manutenção tecnológica"
+, "Cuidados com o portátil"
+, "Estado da bateria"
+, "Eletrónica"
+, "Dicas para dispositivos"
+, "Gestão de energia"
+, "Durabilidade do hardware"
+, "Computadores pessoais"
+, "Guias técnicos"
+, "Tecnologia portátil"</category><guid>https://pt.simeononsecurity.com/articles/laptop-battery-life_-maximizing-performance-and-longevity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a prolongar a bateria do portátil com ajustes adequados, bons hábitos de carregamento e manutenção.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/laptop-battery-life_-maximizing-performance-and-longevity.webp" length="160258" type="image/webp"/></item><item><title>Otimize sua rede: domine a configuração de DNS</title><link>https://pt.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><category>
+"Administração de redes"
+, "Cibersegurança"
+, "Infraestrutura de TI"
+, "Soluções técnicas"
+, "Tecnologia da Internet"
+, "Otimização de DNS"
+, "Desempenho de rede"
+, "Segurança digital"
+, "Conectividade com a Internet"
+, "Guias técnicos"</category><guid>https://pt.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Melhore sua rede com conhecimento sobre DNS. Entenda como ele afeta conectividade, desempenho e segurança, e otimize a configuração.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp"/></item><item><title>Sistemas de arquivos: de FAT32 a NTFS e além</title><link>https://pt.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</link><pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate><category>
+"Ciência da computação"
+, "Armazenamento de dados"
+, "Guias técnicos"
+, "Gerenciamento de arquivos"
+, "Sistemas operacionais"
+, "Organização digital"
+, "Educação técnica"
+, "Informações sobre software"
+, "Otimização do sistema"
+, "Recursos técnicos"</category><guid>https://pt.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça os sistemas de arquivos com esta visão geral de FAT32, NTFS, exFAT e outros formatos. Compare recursos, limites e compatibilidade para gerenciar melhor seus dados.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/computer-file-systems-explained_-fat32,-ntfs,-exfat,-and-more.webp" length="132294" type="image/webp"/></item></channel></rss>

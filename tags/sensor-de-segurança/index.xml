@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sensor De Segurança on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Sensor De Segurança on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/sensor-de-seguran%C3%A7a/</link></image><link>https://pt.simeononsecurity.com/tags/sensor-de-seguran%C3%A7a/</link><description>Recent content in Sensor De Segurança on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/sensor-de-seguran%C3%A7a/index.xml" rel="self" type="application/rss+xml"/><item><title>ESP32 WiFi Canary: deteção passiva de ameaças em 2,4 GHz</title><link>https://pt.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Segurança de redes"
+, "Segurança WiFi"
+, "Segurança IoT"
+, "Pesquisa de segurança"
+, "Sistemas embarcados"
+, "Ferramentas de privacidade"
+, "Projetos ESP32"
+, "Segurança de hardware"
+, "Segurança sem fios"
+, "Segurança de código aberto"</category><guid>https://pt.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Análise técnica do ESP32 WiFi Canary, um sensor passivo de 2,4 GHz que deteta evil twins, desautenticação, degradações de segurança e inundações de beacons.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>
