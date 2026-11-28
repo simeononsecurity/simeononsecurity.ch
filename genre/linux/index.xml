@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Linux on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/linux/</link></image><link>https://es.simeononsecurity.com/genre/linux/</link><description>Recent content in Linux on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>En 2026, los contenedores dejaron de ser una frontera de seguridad</title><link>https://es.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><category>
+"Seguridad de contenedores"
+, "Linux"
+, "Seguridad del kernel"
+, "Virtualización"
+, "Seguridad en la nube"
+, "Investigación de amenazas"
+, "Equipo azul"
+, "DevSecOps"</category><guid>https://es.simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Las vulnerabilidades del kernel de 2026 muestran por qué el aislamiento de contenedores multiinquilino no basta. Conoce Copy Fail, Dirty Frag, Fragnesia y CVE-2026-80521, y compara los contenedores reforzados con el límite de una microVM.</description><enclosure url="https://es.simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp" length="356330" type="image/webp"/></item><item><title>Minería de Pearl (PRL) en 2026: configuración, rentabilidad y utilidad de la red</title><link>https://es.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Criptomonedas"
+, "Minería con GPU"
+, "Computación de IA"
+, "DePIN"
+, "Tecnología de cadena de bloques"
+, "Linux"
+, "Laboratorio doméstico"
+, "Equipo"</category><guid>https://es.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Configura la minería de Pearl PRL con SRBMiner, revisa la prueba de trabajo útil, estima los márgenes y evalúa la utilidad práctica de la red.</description><enclosure url="https://es.simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp" length="266670" type="image/webp"/></item><item><title>Proteger Windows y Linux</title><link>https://es.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Lenguajes de scripting"
+, "Seguridad de sistemas"
+, "Windows"
+, "Linux"
+, "Normativas gubernamentales"
+, "Amenazas cibernéticas"
+, "Scripting seguro"
+, "Cumplimiento"
+, "Programación"</category><guid>https://es.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre cómo reforzar la seguridad de los sistemas con PowerShell y Python en este análisis completo de ciberseguridad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp"/></item><item><title>Las 5 Mejores Técnicas de Seguridad y Endurecimiento en Linux</title><link>https://es.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Ciberseguridad"
+, "Linux"
+, "Seguridad del Sistema"
+, "Código abierto"
+, "Endurecimiento"
+, "TI"
+, "Protección de Datos"
+, "Seguridad de Redes"
+, "Ciencias de la Computación"</category><guid>https://es.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre las 5 mejores técnicas de seguridad en Linux para fortalecer tu sistema contra amenazas. Mejora la integridad del sistema y protege datos sensibles con medidas expertas de endurecimiento.</description><enclosure url="https://es.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp"/></item><item><title>Antivirus recomendado</title><link>https://es.simeononsecurity.com/recommendations/anti-virus/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"Antivirus recomendado"
+, "AV"
+, "Antivirus"
+, "Antivirus"
+, "Uso doméstico"
+, "Uso comercial"
+, "Windows"
+, "Linux"
+, "MacOS"
+, "Ciberseguridad"</category><guid>https://es.simeononsecurity.com/recommendations/anti-virus/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Este artículo proporciona una lista de productos antivirus recomendados para uso doméstico y empresarial, según la clasificación de SimeonOnSecurity. Las clasificaciones se basan en la opinión de profesionales y en pruebas con muestras maliciosas, y sólo cubren las capacidades antivirus, la detección, la experiencia del usuario y el rendimiento. Los usuarios de Windows pueden elegir entre opciones de pago y gratuitas, mientras que los de Linux y MacOS tienen opciones limitadas, con opciones de pago sólo disponibles para Linux. Tenga en cuenta que los antivirus no son necesarios en Linux o MacOS y que no se recomienda utilizar ninguna VPN o gestor de contraseñas proporcionado con el paquete antivirus. El artículo también ofrece recomendaciones sobre proveedores de VPN. Actualmente se está trabajando en las recomendaciones para uso empresarial.</description></item></channel></rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Active Directory on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Active Directory on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/active-directory/</link></image><link>https://es.simeononsecurity.com/genre/active-directory/</link><description>Recent content in Active Directory on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/active-directory/index.xml" rel="self" type="application/rss+xml"/><item><title>Crear un inventario de Active Directory de solo lectura con PowerShell</title><link>https://es.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Active Directory"
+, "PowerShell"
+, "Administración de sistemas"</category><guid>https://es.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Inventaría unidades organizativas, usuarios y equipos de Active Directory con consultas de PowerShell delimitadas. Exporta archivos CSV verificables sin cambiar objetos del directorio.</description><enclosure url="https://es.simeononsecurity.com/img/cover/active-directory-powershell-read-only-inventory.webp" length="101842" type="image/webp"/></item><item><title>Entender el filtrado WMI</title><link>https://es.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Administración de Windows"
+, "Directiva de grupo"
+, "Administración de sistemas"
+, "Gestión de redes"
+, "Infraestructura de TI"
+, "Gestión de directivas"
+, "Gobernanza de TI"
+, "Automatización de TI"
+, "Active Directory"
+, "Cumplimiento de seguridad"</category><guid>https://es.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende a usar el filtrado WMI para mejorar la selección de destinos de los objetos de directiva de grupo (GPO), con ejemplos prácticos y buenas prácticas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item><item><title>Objetos de directiva de grupo (GPOs): guía para el control de Windows</title><link>https://es.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"Gestión de Redes"
+, "Objetos de Directiva de Grupo"
+, "GPOs"
+, "Administración de Windows"
+, "Infraestructura de TI"
+, "Seguridad de Red"
+, "Active Directory"
+, "Gestión de Configuración"
+, "Gestión de Directivas de Grupo"
+, "Optimización de Redes"</category><guid>https://es.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre el poder de los Objetos de Directiva de Grupo (GPOs) y aprende a gestionar y optimizar eficientemente la configuración y políticas de tu red para mejorar la seguridad y simplificar las operaciones.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp" length="133218" type="image/webp"/></item></channel></rss>

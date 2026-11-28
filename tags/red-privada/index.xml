@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Red Privada on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Red Privada on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/red-privada/</link></image><link>https://es.simeononsecurity.com/tags/red-privada/</link><description>Recent content in Red Privada on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/red-privada/index.xml" rel="self" type="application/rss+xml"/><item><title>Crear un asistente de IA que proteja la privacidad para Meshtastic</title><link>https://es.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Seguridad de redes"
+, "Privacidad"
+, "Código abierto"
+, "Automatización"</category><guid>https://es.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Experiencia práctica al crear un asistente de IA local para Meshtastic, con configuración privada, acceso TCP en cola, herramientas de recuperación y un panel más seguro.</description><enclosure url="https://es.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Por qué el reenvío de puertos no funciona en T-Mobile Home Internet</title><link>https://es.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Self-Hosted"
+, "Network Security"</category><guid>https://es.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conoce las limitaciones del reenvío de puertos en T-Mobile 5G Home Internet, el NAT del operador y opciones prácticas para acceder a un servidor doméstico sin un puerto público de entrada.</description><enclosure url="https://es.simeononsecurity.com/img/cover/t-mobile-home-internet-port-forwarding.webp" length="103506" type="image/webp"/></item><item><title>Tailscale frente a Headscale</title><link>https://es.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Seguridad de redes"
+, "Alojamiento propio"
+, "WireGuard"
+, "Confianza cero"
+, "Redes en malla"
+, "Código abierto"
+, "Infraestructura en la nube"
+, "Acceso remoto"
+, "Gestión de redes"</category><guid>https://es.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Tailscale y Headscale por su modelo de alojamiento, gestión de identidades, funciones, costes, operación y soporte para elegir una VPN en malla con WireGuard que se ajuste a tus necesidades.</description><enclosure url="https://es.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item></channel></rss>

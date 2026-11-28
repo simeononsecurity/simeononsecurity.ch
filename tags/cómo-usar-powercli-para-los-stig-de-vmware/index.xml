@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cómo Usar PowerCLI Para Los STIG De VMware on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Cómo Usar PowerCLI Para Los STIG De VMware on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/c%C3%B3mo-usar-powercli-para-los-stig-de-vmware/</link></image><link>https://es.simeononsecurity.com/tags/c%C3%B3mo-usar-powercli-para-los-stig-de-vmware/</link><description>Recent content in Cómo Usar PowerCLI Para Los STIG De VMware on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/c%C3%B3mo-usar-powercli-para-los-stig-de-vmware/index.xml" rel="self" type="application/rss+xml"/><item><title>Domina la seguridad de VMware</title><link>https://es.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Virtualización"
+, "Infraestructura de TI"
+, "Automatización"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "Cumplimiento"
+, "Scripting"
+, "Centro de datos"</category><guid>https://es.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende a usar PowerCLI para aplicar los STIG de VMware y proteger tu entorno de VMware con esta guía completa.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp"/></item></channel></rss>

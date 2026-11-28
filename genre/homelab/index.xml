@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Homelab on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Homelab on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/homelab/</link></image><link>https://es.simeononsecurity.com/genre/homelab/</link><description>Recent content in Homelab on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/homelab/index.xml" rel="self" type="application/rss+xml"/><item><title>Planificar y probar la segmentación VLAN de un homelab</title><link>https://es.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Seguridad de redes"
+, "Redes"</category><guid>https://es.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Crea un plan VLAN para dispositivos de confianza, servidores, IoT e invitados. Registra el tráfico permitido, configura la red por etapas y comprueba el aislamiento.</description><enclosure url="https://es.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Realiza un simulacro de restauración de copias de seguridad en tu homelab con Restic</title><link>https://es.simeononsecurity.com/articles/homelab-backup-restore-drill/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Copias de seguridad"
+, "Recuperación ante desastres"</category><guid>https://es.simeononsecurity.com/articles/homelab-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprueba si una copia de seguridad de tu homelab restaura archivos utilizables. Define un objetivo de recuperación, restaura con Restic en otra ubicación, revisa los datos y registra el resultado.</description><enclosure url="https://es.simeononsecurity.com/img/cover/homelab-backup-restore-drill.webp" length="80454" type="image/webp"/></item><item><title>Los mejores creadores de contenido sobre homelab</title><link>https://es.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Redes"
+, "Hazlo tú mismo"
+, "Virtualización"
+, "Homelab"
+, "Entusiastas de la tecnología"
+, "Comunidad"
+, "Aprendizaje"
+, "Innovación"
+, "Guías"</category><guid>https://es.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conoce a creadores destacados de homelab, conecta con otros aficionados e inicia tu recorrido tecnológico.</description><enclosure url="https://es.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp"/></item></channel></rss>

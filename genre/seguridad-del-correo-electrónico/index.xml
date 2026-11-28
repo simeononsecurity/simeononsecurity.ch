@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Seguridad Del Correo Electrónico on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Seguridad Del Correo Electrónico on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/seguridad-del-correo-electr%C3%B3nico/</link></image><link>https://es.simeononsecurity.com/genre/seguridad-del-correo-electr%C3%B3nico/</link><description>Recent content in Seguridad Del Correo Electrónico on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/seguridad-del-correo-electr%C3%B3nico/index.xml" rel="self" type="application/rss+xml"/><item><title>Thunderbird 153.6: exposición de credenciales NTLM en Windows y cómo actualizar (2026)</title><link>https://es.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Seguridad del correo electrónico"
+, "Seguridad de Windows"</category><guid>https://es.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dos fallos graves de Thunderbird pueden exponer datos de autenticación NTLM en Windows al mostrar un correo preparado. Conoce las dos vías, comprueba tu versión y limita el SMB saliente mientras actualizas.</description></item><item><title>Dominar la etiqueta del correo electrónico</title><link>https://es.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</link><pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate><category>
+"Comunicación profesional"
+, "Seguridad del correo electrónico"
+, "Etiqueta empresarial"
+, "Competencias tecnológicas"
+, "Eficiencia laboral"
+, "Buenas prácticas de ciberseguridad"
+, "Alfabetización digital"
+, "Comunicación en línea"
+, "Seguridad de redes"
+, "Redacción eficaz"</category><guid>https://es.simeononsecurity.com/articles/email-etiquette_-ensuring-smooth-and-secure-email-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Mejora tus correos con consejos de etiqueta para intercambios seguros y profesionales. Aprende cómo hacerlo.</description><enclosure url="https://es.simeononsecurity.com/img/cover/email-etiquette_-ensuring-smooth-and-secure-email-operations.webp" length="84144" type="image/webp"/></item><item><title>Protección contra el phishing para pequeñas empresas: guía completa</title><link>https://es.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Protección de pequeñas empresas"
+, "Estafas de phishing"
+, "Capacitación de empleados"
+, "Seguridad del correo electrónico"
+, "Autenticación multifactor"
+, "Auditorías de seguridad"
+, "Tácticas de ingeniería social"
+, "Amenazas digitales"
+, "Seguridad en línea"</category><guid>https://es.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proteja una pequeña empresa contra el phishing mediante capacitación del personal, controles de correo electrónico, procedimientos de verificación, pasos para denunciar incidentes y una respuesta a incidentes probada.</description><enclosure url="https://es.simeononsecurity.com/img/cover/how-to-protect-your-small-business-from-phishing-scams.webp" length="88634" type="image/webp"/></item><item><title>10 consejos esenciales para la seguridad del correo electrónico: Proteja sus datos y manténgase a salvo</title><link>https://es.simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/</link><pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate><category>
+"Seguridad del correo electrónico"
+, "Protección de datos"
+, "Ciberseguridad"
+, "Privacidad en línea"
+, "Robo de identidad"
+, "Seguridad de contraseñas"
+, "Estafas de phishing"
+, "Seguridad en Internet"
+, "Seguridad digital"
+, "Formación de los empleados"</category><guid>https://es.simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conozca 10 consejos cruciales de seguridad del correo electrónico para mantener sus datos seguros y protegidos de las ciberamenazas y las infracciones.</description><enclosure url="https://es.simeononsecurity.com/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.webp" length="43346" type="image/webp"/></item><item><title>Proveedores de correo electrónico recomendados</title><link>https://es.simeononsecurity.com/recommendations/email/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"Proveedores de correo electrónico recomendados"
+, "Servicios de correo electrónico seguro"
+, "Cifrado de extremo a extremo"
+, "Seguridad del correo electrónico"
+, "Privacidad en línea"
+, "Protección de datos"
+, "Protección contra el phishing"
+, "Protección contra malware"
+, "Comunicación segura"
+, "SimeonOnSecurity"</category><guid>https://es.simeononsecurity.com/recommendations/email/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Encuentre los mejores proveedores de correo electrónico para comunicaciones seguras y cifradas con la lista recomendada de SimeonOnSecurity. Descubra las mejores opciones, incluyendo ProtonMail, la opción preferida con cifrado de extremo a extremo, y Tutanota, otra opción segura para comunicaciones de correo electrónico cifradas.</description></item></channel></rss>

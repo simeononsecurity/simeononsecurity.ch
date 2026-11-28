@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recuperación Ante Desastres on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Recuperación Ante Desastres on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/recuperaci%C3%B3n-ante-desastres/</link></image><link>https://es.simeononsecurity.com/genre/recuperaci%C3%B3n-ante-desastres/</link><description>Recent content in Recuperación Ante Desastres on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/recuperaci%C3%B3n-ante-desastres/index.xml" rel="self" type="application/rss+xml"/><item><title>Realiza un simulacro de restauración de copias de seguridad en tu homelab con Restic</title><link>https://es.simeononsecurity.com/articles/homelab-backup-restore-drill/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Copias de seguridad"
+, "Recuperación ante desastres"</category><guid>https://es.simeononsecurity.com/articles/homelab-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprueba si una copia de seguridad de tu homelab restaura archivos utilizables. Define un objetivo de recuperación, restaura con Restic en otra ubicación, revisa los datos y registra el resultado.</description><enclosure url="https://es.simeononsecurity.com/img/cover/homelab-backup-restore-drill.webp" length="80454" type="image/webp"/></item><item><title>Alimentación y resiliencia ambiental para sistemas de campo</title><link>https://es.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Computación en el borde"
+, "Informática de campo"
+, "Sistemas de alimentación"
+, "Hardware"
+, "Recuperación ante desastres"
+, "Computadoras reforzadas"
+, "Redes"</category><guid>https://es.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planifica la alimentación y protección ambiental de nodos edge desplegados en campo. Dimensiona UPS, baterías y paneles solares, y gestiona sincronización horaria, clasificación de gabinetes, puesta a tierra y protección contra sobretensiones.</description><enclosure url="https://es.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>Computación periférica desplegable en campo: selección de equipos y carcasa</title><link>https://es.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Computación periférica"
+, "Informática de campo"
+, "Equipos"
+, "Laboratorio doméstico"
+, "Informática reforzada"
+, "Redes"
+, "Recuperación ante desastres"
+, "Informática para pequeñas empresas"</category><guid>https://es.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía de hardware edge para despliegues en campo y selección de carcasas, con computación, racks, refrigeración, almacenamiento, administración, cableado y compatibilidad eléctrica.</description><enclosure url="https://es.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>Conectividad y seguridad de datos para nodos edge desplegables</title><link>https://es.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Computación edge"
+, "TI de campo"
+, "Seguridad de redes"
+, "VPN"
+, "Cifrado"
+, "Seguridad física"
+, "Recuperación ante desastres"</category><guid>https://es.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conecta y protege nodos de computación edge en campo con redes móviles, satélite, LoRa, VPN, MFA, segmentación, registros, cifrado y respuesta ante robos.</description><enclosure url="https://es.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item><item><title>Consejos de informática de campo: más allá del mini centro de datos</title><link>https://es.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Informática de campo"
+, "Computación en el borde"
+, "Operaciones de TI"
+, "Recuperación ante desastres"
+, "Hardware"
+, "Buenas prácticas"</category><guid>https://es.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía práctica de informática de campo sobre repuestos, documentación, ESD, firmware, medios de arranque, licencias, seguridad física, viajes y seguros.</description><enclosure url="https://es.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp"/></item><item><title>Protege tu futuro: tecnología esencial para emergencias</title><link>https://es.simeononsecurity.com/articles/emergency-tech-preparedness-gadgets/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Seguridad"
+, "Preparación ante emergencias"
+, "Supervivencia"
+, "Gadgets"
+, "Comunicación"
+, "Protección"
+, "Recuperación ante desastres"
+, "Resiliencia"
+, "Conectividad"</category><guid>https://es.simeononsecurity.com/articles/emergency-tech-preparedness-gadgets/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conoce equipos de supervivencia para la seguridad y la preparación ante emergencias, como cargadores solares, mensajeros satelitales y más.</description><enclosure url="https://es.simeononsecurity.com/img/cover/emergency-preparedness-solar-gadgets.webp" length="167932" type="image/webp"/></item></channel></rss>

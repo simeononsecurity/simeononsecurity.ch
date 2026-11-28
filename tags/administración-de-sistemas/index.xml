@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Administración De Sistemas on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Administración De Sistemas on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/administraci%C3%B3n-de-sistemas/</link></image><link>https://es.simeononsecurity.com/tags/administraci%C3%B3n-de-sistemas/</link><description>Recent content in Administración De Sistemas on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/administraci%C3%B3n-de-sistemas/index.xml" rel="self" type="application/rss+xml"/><item><title>1Password SSH Agent and CLI: Acceso de solo lectura para agentes de IA</title><link>https://es.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Administración de sistemas"
+, "Seguridad en la nube"
+, "Automatización"</category><guid>https://es.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Diseñe un flujo de trabajo SSH de solo lectura con 1Password CLI, el SSH Agent y MCP. Utilice comandos sintéticos, permisos restringidos y aprobación humana antes de las pruebas en vivo.</description><enclosure url="https://es.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Registro de Windows frente a archivos de configuración de Linux</title><link>https://es.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link><pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Sistemas operativos"
+, "Gestión de seguridad"
+, "Tecnología informática"
+, "Protección de datos"
+, "Configuración del sistema"
+, "Seguridad informática"
+, "Seguridad de redes"
+, "Comparativas tecnológicas"
+, "Seguridad de la información"</category><guid>https://es.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara la seguridad del Registro de Windows y los archivos de configuración de Linux, junto con medidas prácticas para reforzar ambos sistemas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp"/></item><item><title>Windows Task Scheduler frente a Cron de Linux: comparación de seguridad</title><link>https://es.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Sistemas operativos"
+, "Automatización de sistemas"
+, "Herramientas de seguridad"
+, "Tecnología informática"
+, "Programación de tareas"
+, "Seguridad de redes"
+, "Administración de sistemas"
+, "Defensa cibernética"
+, "Gestión de TI"</category><guid>https://es.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Windows Task Scheduler y las tareas Cron de Linux desde la perspectiva de la ciberseguridad y el endurecimiento de sistemas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp"/></item><item><title>Domina PowerCLI para administrar vSphere</title><link>https://es.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Virtualización"
+, "VMware"
+, "Gestión de TI"
+, "Automatización"
+, "Interfaz de línea de comandos"
+, "Programación de scripts"
+, "Administración de sistemas"
+, "Computación en la nube"
+, "Gestión de centros de datos"</category><guid>https://es.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende a usar PowerCLI para administrar VMware vSphere, automatizar tareas y mejorar la productividad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp"/></item><item><title>Entender el filtrado WMI</title><link>https://es.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Administración de Windows"
+, "Directiva de grupo"
+, "Administración de sistemas"
+, "Gestión de redes"
+, "Infraestructura de TI"
+, "Gestión de directivas"
+, "Gobernanza de TI"
+, "Automatización de TI"
+, "Active Directory"
+, "Cumplimiento de seguridad"</category><guid>https://es.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende a usar el filtrado WMI para mejorar la selección de destinos de los objetos de directiva de grupo (GPO), con ejemplos prácticos y buenas prácticas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item><item><title>¿Qué es la administración de sistemas?</title><link>https://es.simeononsecurity.com/articles/what-is-system-administration/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"Administración de sistemas"
+, "Administración de redes"
+, "Administración de Windows"
+, "Administración de Linux"
+, "Administración de hardware"
+, "Administración de software"
+, "Virtualización"
+, "Plataformas en la nube"
+, "IaaS"
+, "SaaS"
+, "HaaS"</category><guid>https://es.simeononsecurity.com/articles/what-is-system-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conoce las competencias básicas de administración de sistemas para Windows, Linux, hardware, software, virtualización y servicios en la nube.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_image_of_a_system_administrator_sitting_at_a_desk.webp" length="141022" type="image/webp"/></item></channel></rss>

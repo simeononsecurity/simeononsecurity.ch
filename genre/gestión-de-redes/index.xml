@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gestión De Redes on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Gestión De Redes on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/gesti%C3%B3n-de-redes/</link></image><link>https://es.simeononsecurity.com/genre/gesti%C3%B3n-de-redes/</link><description>Recent content in Gestión De Redes on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/gesti%C3%B3n-de-redes/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale frente a Headscale</title><link>https://es.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Seguridad de redes"
+, "Alojamiento propio"
+, "WireGuard"
+, "Confianza cero"
+, "Redes en malla"
+, "Código abierto"
+, "Infraestructura en la nube"
+, "Acceso remoto"
+, "Gestión de redes"</category><guid>https://es.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Tailscale y Headscale por su modelo de alojamiento, gestión de identidades, funciones, costes, operación y soporte para elegir una VPN en malla con WireGuard que se ajuste a tus necesidades.</description><enclosure url="https://es.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item><item><title>Soluciona los problemas de conexión de red para lograr un rendimiento fiable</title><link>https://es.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</link><pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate><category>
+"Consejos de redes"
+, "Soluciones de TI"
+, "Continuidad empresarial"
+, "Ciberseguridad"
+, "Solución de problemas técnicos"
+, "Infraestructura digital"
+, "Fiabilidad de Internet"
+, "Recuperación de sistemas"
+, "Gestión de redes"
+, "Asistencia técnica"</category><guid>https://es.simeononsecurity.com/articles/ensuring-network-reliability_-how-to-troubleshoot-connection-issues/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Estabiliza tu red con técnicas probadas para diagnosticar problemas de conexión y mantener un rendimiento fiable.</description><enclosure url="https://es.simeononsecurity.com/img/cover/ensuring-network-reliability_-how-to-troubleshoot-connection-issues.webp" length="200054" type="image/webp"/></item><item><title>Kit definitivo de TI: herramientas, hardware y gadgets esenciales</title><link>https://es.simeononsecurity.com/articles/ultimate-it-toolkit-essential-tools-gadgets/</link><pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tecnología de la información"
+, "Productividad"
+, "Equipos"
+, "Programas"
+, "Ciberseguridad"
+, "Herramientas tecnológicas"
+, "Gestión de redes"
+, "Escritorio remoto"
+, "Accesorios de oficina"
+, "Gadgets tecnológicos"</category><guid>https://es.simeononsecurity.com/articles/ultimate-it-toolkit-essential-tools-gadgets/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre cómo mejorar la productividad en TI con un kit completo para profesionales. Encuentra software, hardware y accesorios útiles.</description><enclosure url="https://es.simeononsecurity.com/img/cover/IT-Toolkit-Essential-Tools-Gadgets.webp" length="133374" type="image/webp"/></item><item><title>Proteger Active Directory</title><link>https://es.simeononsecurity.com/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Gestión de redes"
+, "Tecnologías de la información"
+, "Protección de datos"
+, "Seguridad empresarial"
+, "Infraestructura digital"
+, "Control de acceso"
+, "Autenticación de usuarios"
+, "Buenas prácticas de TI"
+, "Concienciación sobre seguridad"</category><guid>https://es.simeononsecurity.com/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende a proteger Active Directory, salvaguardar los datos y prevenir intrusiones en la infraestructura de red.</description><enclosure url="https://es.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp"/></item><item><title>Curso Network Plus: Dominando las Herramientas de Software de Red...</title><link>https://es.simeononsecurity.com/network-plus/network-plus-course-network-software-tools-commands/</link><pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate><category>
+"Redes"
+, "Herramientas de Red"
+, "Utilidades de Línea de Comandos"
+, "Solución de Problemas de Red"
+, "Certificación CompTIA Network+"
+, "Gestión de Redes"
+, "Configuración de Red"
+, "Análisis WiFi"
+, "Captura de Paquetes"
+, "Prueba de Ancho de Banda"</category><guid>https://es.simeononsecurity.com/network-plus/network-plus-course-network-software-tools-commands/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explora las herramientas esenciales de software de red y utilidades de línea de comandos, aprende su uso y soluciona problemas como un profesional con este curso completo para el Examen de Certificación Network+.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_engaging_cartoon-style_illustration_showing_a_network_professional.webp" length="147920" type="image/webp"/></item><item><title>Entender el filtrado WMI</title><link>https://es.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Administración de Windows"
+, "Directiva de grupo"
+, "Administración de sistemas"
+, "Gestión de redes"
+, "Infraestructura de TI"
+, "Gestión de directivas"
+, "Gobernanza de TI"
+, "Automatización de TI"
+, "Active Directory"
+, "Cumplimiento de seguridad"</category><guid>https://es.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende a usar el filtrado WMI para mejorar la selección de destinos de los objetos de directiva de grupo (GPO), con ejemplos prácticos y buenas prácticas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp"/></item><item><title>Curso Network Plus: Protocolos de enrutamiento, conceptos y optimización</title><link>https://es.simeononsecurity.com/network-plus/routing-technologies-concepts/</link><pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Red"
+, "Enrutamiento"
+, "Protocolos de red"
+, "Gestión de redes"
+, "Enrutamiento dinámico"
+, "Enrutamiento estático"
+, "Gestión del ancho de banda"
+, "Calidad del servicio"
+, "Dispositivos de red"</category><guid>https://es.simeononsecurity.com/network-plus/routing-technologies-concepts/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore el mundo de las tecnologías y conceptos de enrutamiento, desde protocolos de enrutamiento dinámico como RIP, OSPF, EIGRP y BGP hasta protocolos de estado de enlace, vector distancia y enrutamiento híbrido, así como la configuración de enrutamiento estático y rutas por defecto.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_illustration_of_interconnected_network_devi.webp" length="62296" type="image/webp"/></item><item><title>Curso Network Plus: Comprensión del modelo OSI, topologías y tipos de red</title><link>https://es.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Red"
+, "Infraestructura informática"
+, "Arquitectura de red"
+, "Informática"
+, "Comunicación de datos"
+, "Tecnologías de la información"
+, "Seguridad de las redes"
+, "Gestión de redes"
+, "Internet"</category><guid>https://es.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore la importancia de los fundamentos de las redes, incluido el modelo OSI, las topologías de red y los distintos tipos de redes, para crear infraestructuras eficientes y fiables.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_nodes.webp" length="91778" type="image/webp"/></item><item><title>Objetos de directiva de grupo (GPOs): guía para el control de Windows</title><link>https://es.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"Gestión de Redes"
+, "Objetos de Directiva de Grupo"
+, "GPOs"
+, "Administración de Windows"
+, "Infraestructura de TI"
+, "Seguridad de Red"
+, "Active Directory"
+, "Gestión de Configuración"
+, "Gestión de Directivas de Grupo"
+, "Optimización de Redes"</category><guid>https://es.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre el poder de los Objetos de Directiva de Grupo (GPOs) y aprende a gestionar y optimizar eficientemente la configuración y políticas de tu red para mejorar la seguridad y simplificar las operaciones.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp" length="133218" type="image/webp"/></item><item><title>Ubiquiti Unifi y TP-Link Omada: ¿qué sistema de red elegir?</title><link>https://es.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</link><pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate><category>
+"Sistemas de red"
+, "Gestión de redes"
+, "Comparación de hardware"
+, "Gestión de redes basada en web"
+, "Soluciones de red escalables"
+, "Funciones de seguridad de red"
+, "Hardware de red fiable"
+, "Precios competitivos para redes"
+, "Atención al cliente"
+, "Oferta adicional de productos"</category><guid>https://es.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara los sistemas de red Ubiquiti Unifi y TP-Link Omada en gestión, hardware, soporte, funciones y precios para elegir la opción adecuada para tus necesidades.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_split-screen_illustration_of_a_complex_network.webp" length="236442" type="image/webp"/></item></channel></rss>

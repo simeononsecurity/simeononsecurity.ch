@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Seguridad De Código Abierto on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Seguridad De Código Abierto on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/seguridad-de-c%C3%B3digo-abierto/</link></image><link>https://es.simeononsecurity.com/tags/seguridad-de-c%C3%B3digo-abierto/</link><description>Recent content in Seguridad De Código Abierto on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/seguridad-de-c%C3%B3digo-abierto/index.xml" rel="self" type="application/rss+xml"/><item><title>La carrera por detectar las cámaras Flock: qué cambió en 2026</title><link>https://es.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"Tecnología de privacidad"
+, "Contravigilancia"
+, "Proyectos de código abierto"
+, "Derechos digitales"
+, "Seguridad de redes"
+, "Investigación de seguridad"
+, "Modificación de hardware"
+, "Herramientas de privacidad"</category><guid>https://es.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Repasa los cambios reportados en la detección de Flock Safety, las respuestas de la comunidad y los métodos infrarrojos para identificar cámaras.</description><enclosure url="https://es.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>Flock Finder: Mapa de cámaras ALPR de Flock Safety</title><link>https://es.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Tecnología de privacidad"
+, "Contravigilancia"
+, "Proyectos de código abierto"
+, "Derechos digitales"
+, "Seguridad de redes"
+, "Herramientas de privacidad"
+, "Modificación de hardware"
+, "Investigación de seguridad"</category><guid>https://es.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder es una herramienta de código abierto que mapea más de 40.000 cámaras Flock Safety ALPR en todo el mundo utilizando datos WiFi de WiGLE y huellas digitales OUI. Aprende cómo funciona, sus limitaciones y las herramientas de hardware para la detección en tiempo real.</description><enclosure url="https://es.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Firmware personalizado DagShell para Orbic RCL400: guía 2026</title><link>https://es.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"Firmware personalizado"
+, "Seguridad móvil"
+, "Herramientas de privacidad"
+, "Seguridad de redes"
+, "Wardriving"
+, "Pruebas de penetración"
+, "Seguridad IoT"
+, "Investigación de seguridad"
+, "Seguridad de hardware"
+, "Tecnología de privacidad"</category><guid>https://es.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía técnica del firmware DagShell para Orbic RCL400. Explica la instalación, las herramientas de privacidad, el wardriving y los límites de la investigación.</description><enclosure url="https://es.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>Proyecto Flock-You: Guía completa de hardware de contravigilancia y configuración 2026</title><link>https://es.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Hardware de seguridad"
+, "Contravigilancia"
+, "Tecnología de privacidad"
+, "Proyectos de código abierto"
+, "Desarrollo ESP32"
+, "Monitoreo WiFi"
+, "Herramientas de privacidad"
+, "Derechos digitales"
+, "Modificación de hardware"
+, "Seguridad de red"</category><guid>https://es.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía técnica completa del proyecto de código abierto Flock-You para detectar cámaras ALPR de Flock Safety usando hardware basado en ESP32. Incluye instrucciones de configuración, detalles de firmware y opciones de compra.</description><enclosure url="https://es.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>Ubiquiti UniFi Firewall frente a pfSense</title><link>https://es.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate><category>
+"Seguridad de redes"
+, "Soluciones de firewall"
+, "Ciberseguridad"
+, "Comparativa de routers"
+, "Tecnología"
+, "Soluciones de TI"
+, "Firewall de código abierto"
+, "Ubiquiti frente a pfSense"
+, "Red empresarial"
+, "Red doméstica"</category><guid>https://es.simeononsecurity.com/articles/ubiquiti-unifi-firewall-vs-pfsense-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Ubiquiti UniFi Firewall y pfSense para proteger tu red con eficacia.</description><enclosure url="https://es.simeononsecurity.com/img/cover/Ubiquiti_UniFi_Firewall_vs_pfSense.webp" length="192366" type="image/webp"/></item><item><title>Herramientas de seguridad de código abierto frente a las comerciales: Ventajas e inconvenientes</title><link>https://es.simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/</link><pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate><category>
+"seguridad de código abierto"
+, "herramientas de seguridad comercial"
+, "rentabilidad"
+, "flexibilidad"
+, "personalización"
+, "apoyo comunitario"
+, "apoyo limitado"
+, "documentación"
+, "retos de integración"
+, "calidad y fiabilidad"
+, "integración perfecta"
+, "bloqueo del proveedor"
+, "Recursos informáticos"
+, "infraestructura de seguridad"
+, "soluciones de seguridad"
+, "limitaciones presupuestarias"
+, "requisitos específicos"
+, "compatibilidad del software"
+, "objetivos de seguridad"
+, "toma de decisiones"</category><guid>https://es.simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore las ventajas y desventajas de las herramientas de seguridad comerciales y de código abierto, que le ayudarán a tomar decisiones informadas para la estrategia de seguridad de su organización.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_cartoon-style_image_of_two_contrasting_characters.webp" length="54028" type="image/webp"/></item></channel></rss>

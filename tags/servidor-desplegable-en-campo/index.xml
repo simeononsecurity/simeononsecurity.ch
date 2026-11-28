@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Servidor Desplegable en Campo on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Servidor Desplegable en Campo on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/servidor-desplegable-en-campo/</link></image><link>https://es.simeononsecurity.com/tags/servidor-desplegable-en-campo/</link><description>Recent content in Servidor Desplegable en Campo on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/servidor-desplegable-en-campo/index.xml" rel="self" type="application/rss+xml"/><item><title>Alimentación y resiliencia ambiental para sistemas de campo</title><link>https://es.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Computación en el borde"
+, "Informática de campo"
+, "Sistemas de alimentación"
+, "Hardware"
+, "Recuperación ante desastres"
+, "Computadoras reforzadas"
+, "Redes"</category><guid>https://es.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planifica la alimentación y protección ambiental de nodos edge desplegados en campo. Dimensiona UPS, baterías y paneles solares, y gestiona sincronización horaria, clasificación de gabinetes, puesta a tierra y protección contra sobretensiones.</description><enclosure url="https://es.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item><item><title>Conectividad y seguridad de datos para nodos edge desplegables</title><link>https://es.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Computación edge"
+, "TI de campo"
+, "Seguridad de redes"
+, "VPN"
+, "Cifrado"
+, "Seguridad física"
+, "Recuperación ante desastres"</category><guid>https://es.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conecta y protege nodos de computación edge en campo con redes móviles, satélite, LoRa, VPN, MFA, segmentación, registros, cifrado y respuesta ante robos.</description><enclosure url="https://es.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item></channel></rss>

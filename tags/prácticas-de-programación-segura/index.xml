@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Prácticas De Programación Segura on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Prácticas De Programación Segura on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/pr%C3%A1cticas-de-programaci%C3%B3n-segura/</link></image><link>https://es.simeononsecurity.com/tags/pr%C3%A1cticas-de-programaci%C3%B3n-segura/</link><description>Recent content in Prácticas De Programación Segura on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/pr%C3%A1cticas-de-programaci%C3%B3n-segura/index.xml" rel="self" type="application/rss+xml"/><item><title>Por qué el software de código abierto supera al software propietario en seguridad</title><link>https://es.simeononsecurity.com/articles/open-source-software-security/</link><pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Código abierto"
+, "Seguridad del software"
+, "Normativa gubernamental"
+, "Desarrollo colaborativo"
+, "Protección digital"
+, "Seguridad informática"
+, "Tendencias tecnológicas"
+, "Seguridad en línea"
+, "Privacidad de datos"</category><guid>https://es.simeononsecurity.com/articles/open-source-software-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre por qué se considera más seguro el software de código abierto que el propietario, y cómo la transparencia y la colaboración protegen tus activos digitales.</description><enclosure url="https://es.simeononsecurity.com/img/cover/open-source-software-security.webp" length="61142" type="image/webp"/></item><item><title>Programación segura en Python</title><link>https://es.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"Programación"
+, "Seguridad de aplicaciones"
+, "Desarrollo en Python"
+, "Programación segura"
+, "Desarrollo web"
+, "Análisis de datos"
+, "Inteligencia artificial"
+, "Desarrollo de software"
+, "Ciberseguridad"
+, "Lenguajes de programación"</category><guid>https://es.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prácticas de programación segura en Python para reducir la inyección SQL, el cross-site scripting y otras vulnerabilidades de aplicaciones.</description><enclosure url="https://es.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp"/></item></channel></rss>

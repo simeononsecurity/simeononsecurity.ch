@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qwen3.5 on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Qwen3.5 on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/qwen3.5/</link></image><link>https://es.simeononsecurity.com/tags/qwen3.5/</link><description>Recent content in Qwen3.5 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/qwen3.5/index.xml" rel="self" type="application/rss+xml"/><item><title>Hindsight autohospedado: memoria local para agentes y enrutamiento privado de modelos</title><link>https://es.simeononsecurity.com/articles/self-hosted-hindsight/</link><pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autohospedada"
+, "Agentes de IA"
+, "Infraestructura de IA"
+, "Privacidad"</category><guid>https://es.simeononsecurity.com/articles/self-hosted-hindsight/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Caso de estudio de Hindsight autohospedado, rutas locales de Qwen observadas y trabajo de GPU por solicitud sin una suscripción a modelos alojados en las rutas inspeccionadas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp"/></item><item><title>Benchmarks de modelos locales de Hermes: las combinaciones de GPU y modelos que elegiría</title><link>https://es.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligencia artificial"
+, "IA local"
+, "Informática"</category><guid>https://es.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Mis recomendaciones de modelos para Hermes se basan en pruebas de contexto largo, herramientas, transmisión y visión en sistemas RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti y RTX 3070.</description><enclosure url="https://es.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp"/></item><item><title>Dentro de nuestra flota híbrida de agentes de IA: Hermes, LiteLLM y Tailscale</title><link>https://es.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autohospedada"
+, "Agentes de IA"
+, "Infraestructura de IA"
+, "Minería de GPU"</category><guid>https://es.simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conoce una flota local de IA bajo demanda verificada y su plano de control escalonado T0 a T4 con Hermes, LiteLLM, Tailscale Aperture y minería Pearl.</description><enclosure url="https://es.simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>2x RTX 5060 Ti frente a GB10: benchmark local de IA con cinco modelos y contexto 256K</title><link>https://es.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligencia artificial"
+, "IA local"
+, "Hardware GPU"
+, "Benchmarking"
+, "Hardware informático"</category><guid>https://es.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparación de RTX 5060 Ti y GB10 con cinco modelos, más un benchmark de Qwen3.8 Flash-Next en Strata en el mismo host hasta 256K de contexto.</description><enclosure url="https://es.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item></channel></rss>

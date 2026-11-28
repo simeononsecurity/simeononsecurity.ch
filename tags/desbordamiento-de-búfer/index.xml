@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Desbordamiento De Búfer on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Desbordamiento De Búfer on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/desbordamiento-de-b%C3%BAfer/</link></image><link>https://es.simeononsecurity.com/tags/desbordamiento-de-b%C3%BAfer/</link><description>Recent content in Desbordamiento De Búfer on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/desbordamiento-de-b%C3%BAfer/index.xml" rel="self" type="application/rss+xml"/><item><title>Funciones de C# inseguras: prácticas de programación segura</title><link>https://es.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Desarrollo de software"
+, "Programación en C#"
+, "Ciberseguridad"
+, "Seguridad del código"
+, "Programación segura"
+, "Buenas prácticas de programación"
+, "Vulnerabilidades de software"
+, "Criptografía"
+, "Desarrollo web"
+, "Seguridad de aplicaciones"</category><guid>https://es.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Alternativas seguras a las funciones de C# inseguras. Aprende a identificar riesgos para la seguridad de la memoria y sustituir operaciones vulnerables.</description><enclosure url="https://es.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp"/></item><item><title>Programación segura en Python</title><link>https://es.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"Programación"
+, "Seguridad de aplicaciones"
+, "Desarrollo en Python"
+, "Programación segura"
+, "Desarrollo web"
+, "Análisis de datos"
+, "Inteligencia artificial"
+, "Desarrollo de software"
+, "Ciberseguridad"
+, "Lenguajes de programación"</category><guid>https://es.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prácticas de programación segura en Python para reducir la inyección SQL, el cross-site scripting y otras vulnerabilidades de aplicaciones.</description><enclosure url="https://es.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp"/></item></channel></rss>

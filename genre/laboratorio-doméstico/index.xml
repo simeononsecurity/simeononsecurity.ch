@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laboratorio Doméstico on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Laboratorio Doméstico on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/laboratorio-dom%C3%A9stico/</link></image><link>https://es.simeononsecurity.com/genre/laboratorio-dom%C3%A9stico/</link><description>Recent content in Laboratorio Doméstico on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/laboratorio-dom%C3%A9stico/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 9: Reduce el uso de discos virtuales y recupera espacio</title><link>https://es.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><category>
+"Virtualización"
+, "Administración de Linux"
+, "plataforma Proxmox VE"
+, "Almacenamiento"
+, "Laboratorio doméstico"</category><guid>https://es.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Reduce el almacenamiento de VM y contenedores LXC en Proxmox VE 9. Compara formatos y backends, activa discard, ejecuta trim y revisa las instantáneas antes de recuperar espacio.</description><enclosure url="https://es.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp"/></item><item><title>Construye un laboratorio doméstico en 10 niveles, de Pi-hole a la IA local</title><link>https://es.simeononsecurity.com/articles/build-home-lab-10-levels/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><category>
+"Laboratorio doméstico"
+, "Autoalojamiento"
+, "IA local"
+, "Redes domésticas"</category><guid>https://es.simeononsecurity.com/articles/build-home-lab-10-levels/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Construye un laboratorio doméstico en diez etapas prácticas, desde el filtrado DNS de toda la red hasta la IA local, con hardware, costos, habilidades y compromisos para cada nivel.</description><enclosure url="https://es.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp"/></item><item><title>Migrar una VM de Hyper-V a Proxmox VE: lista de verificación reversible</title><link>https://es.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualización"
+, "Administración de sistemas"
+, "Laboratorio doméstico"</category><guid>https://es.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Migre una máquina virtual de Hyper-V a Proxmox VE mediante una exportación con el origen apagado, firmware equivalente, importación de discos, prueba de arranque aislada y un plan de reversión.</description><enclosure url="https://es.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp"/></item><item><title>Prueba de restauración de una VM Proxmox: demuestra que el sistema invitado funciona</title><link>https://es.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Virtualización"
+, "Copia de seguridad y recuperación"
+, "Laboratorio doméstico"</category><guid>https://es.simeononsecurity.com/articles/proxmox-vm-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prueba una copia de seguridad de una VM Proxmox con una restauración aislada. Comprueba los discos incluidos, el modo de copia, los datos del invitado, el estado del servicio y el tiempo de recuperación sin tocar producción.</description><enclosure url="https://es.simeononsecurity.com/img/cover/proxmox-vm-backup-restore-drill.webp" length="185644" type="image/webp"/></item><item><title>Dimensiona un SAI para tu homelab y prueba el apagado automático</title><link>https://es.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Laboratorio doméstico"
+, "Protección eléctrica"
+, "Administración de sistemas"</category><guid>https://es.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Mide el consumo de tu homelab, compara los límites en vatios y VA del SAI, comprueba la autonomía con tu carga y prueba un apagado limpio antes de confiar en la batería.</description><enclosure url="https://es.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp"/></item><item><title>IA local en 2026: un modelo 27B supera a Sonnet 4.6 mientras se cierra la ventana para comprar equipos</title><link>https://es.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "IA autoalojada"
+, "Modelos de pesos abiertos"
+, "Equipos para IA"
+, "Aprendizaje automático"
+, "Cuantización"
+, "Laboratorio doméstico"
+, "Privacidad"
+, "Economía de la IA"
+, "Equipos de consumo"</category><guid>https://es.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Planifica un equipo de IA local para 2026 según el tamaño del modelo, la VRAM, el ancho de banda de memoria, el consumo, el coste y las opciones de ampliación.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Minería de Pearl (PRL) en 2026: configuración, rentabilidad y utilidad de la red</title><link>https://es.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Criptomonedas"
+, "Minería con GPU"
+, "Computación de IA"
+, "DePIN"
+, "Tecnología de cadena de bloques"
+, "Linux"
+, "Laboratorio doméstico"
+, "Equipo"</category><guid>https://es.simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Configura la minería de Pearl PRL con SRBMiner, revisa la prueba de trabajo útil, estima los márgenes y evalúa la utilidad práctica de la red.</description><enclosure url="https://es.simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp" length="266670" type="image/webp"/></item><item><title>Docker en LXC sobre Proxmox: fiabilidad, pruebas y migración a VM</title><link>https://es.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"Virtualización"
+, "Administración de Linux"
+, "laboratorio doméstico"</category><guid>https://es.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Evalúa Docker dentro de Proxmox LXC con un fallo documentado de AppArmor, un análisis cuidadoso de un informe sobre bloqueos del host, comandos de diagnóstico y un plan de migración a una VM.</description><enclosure url="https://es.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>Computación periférica desplegable en campo: selección de equipos y carcasa</title><link>https://es.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Computación periférica"
+, "Informática de campo"
+, "Equipos"
+, "Laboratorio doméstico"
+, "Informática reforzada"
+, "Redes"
+, "Recuperación ante desastres"
+, "Informática para pequeñas empresas"</category><guid>https://es.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía de hardware edge para despliegues en campo y selección de carcasas, con computación, racks, refrigeración, almacenamiento, administración, cableado y compatibilidad eléctrica.</description><enclosure url="https://es.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp"/></item><item><title>Guía de actualización de Proxmox VE 8 a 9: actualización en sitio con script automatizado</title><link>https://es.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Virtualización"
+, "Administración Linux"
+, "Virtualización de Proxmox"
+, "Gestión de servidores"
+, "Código abierto"
+, "Laboratorio doméstico"</category><guid>https://es.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía completa para actualizar Proxmox VE 8 (Debian Bookworm) a Proxmox VE 9 (Debian Trixie). Cubre requisitos previos, actualización manual paso a paso, el script de automatización pve8to9-upgrade.sh, cambios importantes y problemas conocidos.</description><enclosure url="https://es.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item></channel></rss>

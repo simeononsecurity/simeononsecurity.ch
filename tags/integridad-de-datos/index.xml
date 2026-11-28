@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Integridad De Datos on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>Integridad De Datos on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/integridad-de-datos/</link></image><link>https://es.simeononsecurity.com/tags/integridad-de-datos/</link><description>Recent content in Integridad De Datos on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/integridad-de-datos/index.xml" rel="self" type="application/rss+xml"/><item><title>Realiza un simulacro de restauración de copias de seguridad en tu homelab con Restic</title><link>https://es.simeononsecurity.com/articles/homelab-backup-restore-drill/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Copias de seguridad"
+, "Recuperación ante desastres"</category><guid>https://es.simeononsecurity.com/articles/homelab-backup-restore-drill/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprueba si una copia de seguridad de tu homelab restaura archivos utilizables. Define un objetivo de recuperación, restaura con Restic en otra ubicación, revisa los datos y registra el resultado.</description><enclosure url="https://es.simeononsecurity.com/img/cover/homelab-backup-restore-drill.webp" length="80454" type="image/webp"/></item><item><title>Memoria ECC: cómo prevenir la corrupción de datos y los errores de memoria</title><link>https://es.simeononsecurity.com/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/</link><pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate><category>
+"Educación tecnológica"
+, "Seguridad de datos"
+, "Guías de hardware"
+, "Fiabilidad del sistema"
+, "Mantenimiento de TI"
+, "Soluciones tecnológicas"
+, "Computación empresarial"
+, "Tecnología de servidores"
+, "Análisis de componentes"
+, "Investigación tecnológica"</category><guid>https://es.simeononsecurity.com/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubre cómo la memoria ECC protege tus datos frente a errores. Aprende cómo la detección y corrección de errores mejora la fiabilidad de los sistemas informáticos.</description><enclosure url="https://es.simeononsecurity.com/img/cover/the-role-of-ecc-memory-in-mitigating-data-corruption.webp" length="137916" type="image/webp"/></item><item><title>Cómo resolver errores de disco: guía completa para revisar unidades</title><link>https://es.simeononsecurity.com/articles/navigating-disk-errors_-tools-and-techniques-for-disk-checks/</link><pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate><category>
+"Mantenimiento informático"
+, "Recuperación de datos"
+, "Soluciones técnicas"
+, "Gestión de discos"
+, "Optimización del sistema"
+, "Mantenimiento de hardware"
+, "Solución de problemas"
+, "Buenas prácticas de TI"
+, "Utilidades de software"
+, "Salud digital"</category><guid>https://es.simeononsecurity.com/articles/navigating-disk-errors_-tools-and-techniques-for-disk-checks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende métodos prácticos para diagnosticar y mantener unidades. Protege tus datos con copias de seguridad fiables y comprobaciones específicas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/navigating-disk-errors_-tools-and-techniques-for-disk-checks.webp" length="36266" type="image/webp"/></item><item><title>Sistemas de archivos: de FAT32 a NTFS y más</title><link>https://es.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</link><pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate><category>
+"Informática"
+, "Almacenamiento de datos"
+, "Guías técnicas"
+, "Gestión de archivos"
+, "Sistemas operativos"
+, "Organización digital"
+, "Educación técnica"
+, "Información sobre software"
+, "Optimización del sistema"
+, "Recursos técnicos"</category><guid>https://es.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conoce los sistemas de archivos con este resumen de FAT32, NTFS, exFAT y otros formatos. Compara sus funciones, límites y compatibilidad para gestionar mejor tus datos.</description><enclosure url="https://es.simeononsecurity.com/img/cover/computer-file-systems-explained_-fat32,-ntfs,-exfat,-and-more.webp" length="132294" type="image/webp"/></item><item><title>Maximizar la seguridad de redes y de la nube</title><link>https://es.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Ciberseguridad"
+, "Seguridad en la nube"
+, "Protección de redes"
+, "Seguridad digital"
+, "Privacidad de datos"
+, "Seguridad informática"
+, "Tecnología empresarial"
+, "Defensa digital"
+, "Ciberamenazas"</category><guid>https://es.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conozca las amenazas, las medidas de protección y los casos prácticos para reforzar la seguridad de redes y de la nube.</description><enclosure url="https://es.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp"/></item><item><title>Protección de la información no clasificada controlada</title><link>https://es.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</link><pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate><category>
+"Seguridad de datos"
+, "Protección de la información"
+, "Gestión de la privacidad"
+, "Tratamiento de información sensible"
+, "Ciberseguridad"
+, "Cumplimiento"
+, "Gestión de riesgos"
+, "Gobernanza de la información"
+, "Confidencialidad de datos"
+, "Aseguramiento de la información"</category><guid>https://es.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conozca por qué debe proteger la información no clasificada controlada (CUI) y cómo resguardar datos sensibles de forma eficaz.</description><enclosure url="https://es.simeononsecurity.com/img/cover/CUI-Safeguarding-Sensitive-Data.webp" length="96388" type="image/webp"/></item><item><title>NextDNS vs AdGuard DNS vs Quad9 vs Cloudflare DNS vs Pi-hole: La comparación definitiva de seguridad DNS 2026</title><link>https://es.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Comparación DNS"
+, "Protección de privacidad"
+, "Bloqueo de anuncios"
+, "Seguridad de red"
+, "Seguridad en Internet"
+, "Resolvedor DNS"
+, "Privacidad en línea"
+, "Seguridad web"
+, "Filtrado DNS"</category><guid>https://es.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparación completa 2026 de NextDNS, AdGuard DNS, Quad9, Cloudflare DNS y Pi-hole para seguridad, privacidad y rendimiento. Encuentre el mejor resolvedor DNS para sus necesidades.</description><enclosure url="https://es.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp"/></item></channel></rss>
