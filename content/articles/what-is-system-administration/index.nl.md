@@ -1,7 +1,7 @@
 ---
 title: "Wat is systeembeheer?"
 date: 2023-02-12
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Lees over de kernvaardigheden voor systeembeheer van Windows, Linux, hardware, software, virtualisatie en clouddiensten."
@@ -61,11 +61,11 @@ ______
 
 - **Cloudplatforms**: Cloudplatforms zoals Amazon Web Services (AWS) en Microsoft Azure worden steeds populairder voor het hosten en beheren van systemen en toepassingen.
 
-- **Infrastructure as a Service (IaaS)**: In dit model huren organisaties computerinfrastructuur, zoals servers en opslagapparaten, op basis van gebruik. Dit is een populaire keuze voor organisaties die hun computercapaciteit snel en eenvoudig moeten uitbreiden.
+- **infrastructuur als dienst (IaaS)**: In dit model huren organisaties computerinfrastructuur, zoals servers en opslagapparaten, op basis van gebruik. Dit is een populaire keuze voor organisaties die hun computercapaciteit snel en eenvoudig moeten uitbreiden.
 
-- **Software as a Service (SaaS)**: In dit model gebruiken organisaties softwaretoepassingen via internet, zonder deze lokaal te installeren en onderhouden. Dit is een populaire keuze voor organisaties die toepassingen nodig hebben zonder het lokale installatie- en onderhoudswerk.
+- **software als dienst (SaaS)**: In dit model gebruiken organisaties softwaretoepassingen via internet, zonder deze lokaal te installeren en onderhouden. Dit is een populaire keuze voor organisaties die toepassingen nodig hebben zonder het lokale installatie- en onderhoudswerk.
 
-- **Hardware as a Service (HaaS)**: In dit model huren organisaties hardware, zoals servers en opslagapparaten, op basis van gebruik. Dit is een populaire keuze voor organisaties die hun computercapaciteit snel en eenvoudig moeten uitbreiden.
+- **hardware als dienst (HaaS)**: In dit model huren organisaties hardware, zoals servers en opslagapparaten, op basis van gebruik. Dit is een populaire keuze voor organisaties die hun computercapaciteit snel en eenvoudig moeten uitbreiden.
 
 ______
 

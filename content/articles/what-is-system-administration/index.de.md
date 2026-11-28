@@ -1,7 +1,7 @@
 ---
 title: "Was ist Systemadministration?"
 date: 2023-02-12
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Lernen Sie die Kernkompetenzen der Systemadministration für Windows, Linux, Hardware, Software, Virtualisierung und Cloud-Dienste kennen."
@@ -61,11 +61,11 @@ ______
 
 - **Cloud-Plattformen**: Cloud-Plattformen wie Amazon Web Services (AWS) und Microsoft Azure werden immer beliebter, um Systeme und Anwendungen zu hosten und zu verwalten.
 
-- **Infrastructure as a Service (IaaS)**: Bei diesem Modell mieten Organisationen Recheninfrastruktur wie Server und Speichergeräte je nach Nutzung. Es ist eine beliebte Option für Organisationen, die ihre Rechenressourcen schnell und unkompliziert skalieren müssen.
+- **Infrastruktur als Dienstleistung (IaaS)**: Bei diesem Modell mieten Organisationen Recheninfrastruktur wie Server und Speichergeräte je nach Nutzung. Es ist eine beliebte Option für Organisationen, die ihre Rechenressourcen schnell und unkompliziert skalieren müssen.
 
-- **Software as a Service (SaaS)**: Bei diesem Modell nutzen Organisationen Softwareanwendungen über das Internet, ohne sie lokal installieren und warten zu müssen. Es ist eine beliebte Option für Organisationen, die Anwendungen benötigen, sich aber nicht mit deren lokaler Installation und Wartung befassen möchten.
+- **Software als Dienstleistung (SaaS)**: Bei diesem Modell nutzen Organisationen Softwareanwendungen über das Internet, ohne sie lokal installieren und warten zu müssen. Es ist eine beliebte Option für Organisationen, die Anwendungen benötigen, sich aber nicht mit deren lokaler Installation und Wartung befassen möchten.
 
-- **Hardware as a Service (HaaS)**: Bei diesem Modell mieten Organisationen Hardware wie Server und Speichergeräte je nach Nutzung. Es ist eine beliebte Option für Organisationen, die ihre Rechenressourcen schnell und unkompliziert skalieren müssen.
+- **Hardware als Dienstleistung (HaaS)**: Bei diesem Modell mieten Organisationen Hardware wie Server und Speichergeräte je nach Nutzung. Es ist eine beliebte Option für Organisationen, die ihre Rechenressourcen schnell und unkompliziert skalieren müssen.
 
 ______
 

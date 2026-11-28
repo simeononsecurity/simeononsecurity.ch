@@ -1,7 +1,7 @@
 ---
 title: "O que é administração de sistemas?"
 date: 2023-02-12
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Conheça as competências fundamentais da administração de sistemas para Windows, Linux, hardware, software, virtualização e serviços em nuvem."
@@ -61,11 +61,11 @@ ______
 
 - **Plataformas em nuvem**: Plataformas como Amazon Web Services (AWS) e Microsoft Azure estão a tornar-se populares para alojar e gerir sistemas e aplicações.
 
-- **Infrastructure as a Service (IaaS)**: Neste modelo, as organizações alugam infraestrutura informática, como servidores e dispositivos de armazenamento, consoante a utilização. É uma opção popular para organizações que precisam de aumentar os recursos informáticos de forma rápida e simples.
+- **infraestrutura como serviço (IaaS)**: Neste modelo, as organizações alugam infraestrutura informática, como servidores e dispositivos de armazenamento, consoante a utilização. É uma opção popular para organizações que precisam de aumentar os recursos informáticos de forma rápida e simples.
 
-- **Software as a Service (SaaS)**: Neste modelo, as organizações utilizam aplicações de software através da Internet, sem as instalar e manter localmente. É uma opção popular para organizações que precisam de aplicações, mas não querem tratar da instalação e manutenção locais.
+- **software como serviço (SaaS)**: Neste modelo, as organizações utilizam aplicações de software através da Internet, sem as instalar e manter localmente. É uma opção popular para organizações que precisam de aplicações, mas não querem tratar da instalação e manutenção locais.
 
-- **Hardware as a Service (HaaS)**: Neste modelo, as organizações alugam hardware, como servidores e dispositivos de armazenamento, consoante a utilização. É uma opção popular para organizações que precisam de aumentar os recursos informáticos de forma rápida e simples.
+- **hardware como serviço (HaaS)**: Neste modelo, as organizações alugam hardware, como servidores e dispositivos de armazenamento, consoante a utilização. É uma opção popular para organizações que precisam de aumentar os recursos informáticos de forma rápida e simples.
 
 ______
 

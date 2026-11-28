@@ -1,11 +1,11 @@
 ---
 title: "What is System Administration?"
 date: 2023-02-12
-lastmod: 2026-10-11
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Learn the core skills of system administration across Windows, Linux, hardware, software, virtualization, and cloud services."
-tags: ["System Administration", "Network Administration", "Windows Administration", "Linux Administration", "Hardware Administration", Software Administration", "Virtualization", "Cloud Platforms", "IaaS", "SaaS", "HaaS"]
+tags: ["System Administration", "Network Administration", "Windows Administration", "Linux Administration", "Hardware Administration", "Software Administration", "Virtualization", "Cloud Platforms", "IaaS", "SaaS", "HaaS"]
 cover: "/img/cover/An_image_of_a_system_administrator_sitting_at_a_desk.webp"
 coverAlt: "An image of a system administrator sitting at a desk with multiple computer screens displaying system status, network activity, and security alerts."
 coverCaption: ""

@@ -1,7 +1,7 @@
 ---
 title: "Ce este administrarea sistemelor?"
 date: 2023-02-12
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Află competențele de bază pentru administrarea sistemelor Windows și Linux, a hardware-ului, software-ului, virtualizării și serviciilor cloud."
@@ -61,11 +61,11 @@ ______
 
 - **Platforme cloud**: Platforme precum Amazon Web Services (AWS) și Microsoft Azure devin tot mai populare pentru găzduirea și gestionarea sistemelor și aplicațiilor.
 
-- **Infrastructure as a Service (IaaS)**: În acest model, organizațiile închiriază infrastructură de calcul, precum servere și dispozitive de stocare, în funcție de utilizare. Este o opțiune populară pentru organizațiile care trebuie să-și extindă resursele de calcul rapid și ușor.
+- **infrastructură ca serviciu (IaaS)**: În acest model, organizațiile închiriază infrastructură de calcul, precum servere și dispozitive de stocare, în funcție de utilizare. Este o opțiune populară pentru organizațiile care trebuie să-și extindă resursele de calcul rapid și ușor.
 
-- **Software as a Service (SaaS)**: În acest model, organizațiile folosesc aplicații software prin internet, fără să le instaleze și să le întrețină local. Este o opțiune populară pentru organizațiile care au nevoie de aplicații, dar nu vor să se ocupe de instalarea și întreținerea lor locală.
+- **software ca serviciu (SaaS)**: În acest model, organizațiile folosesc aplicații software prin internet, fără să le instaleze și să le întrețină local. Este o opțiune populară pentru organizațiile care au nevoie de aplicații, dar nu vor să se ocupe de instalarea și întreținerea lor locală.
 
-- **Hardware as a Service (HaaS)**: În acest model, organizațiile închiriază hardware, precum servere și dispozitive de stocare, în funcție de utilizare. Este o opțiune populară pentru organizațiile care trebuie să-și extindă resursele de calcul rapid și ușor.
+- **hardware ca serviciu (HaaS)**: În acest model, organizațiile închiriază hardware, precum servere și dispozitive de stocare, în funcție de utilizare. Este o opțiune populară pentru organizațiile care trebuie să-și extindă resursele de calcul rapid și ușor.
 
 ______
 

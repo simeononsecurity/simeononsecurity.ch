@@ -1,7 +1,7 @@
 ---
 title: "Che cos’è l’amministrazione di sistema?"
 date: 2023-02-12
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Scopri le competenze fondamentali dell’amministrazione di sistema per Windows, Linux, hardware, software, virtualizzazione e servizi cloud."
@@ -61,11 +61,11 @@ ______
 
 - **Piattaforme cloud**: Piattaforme come Amazon Web Services (AWS) e Microsoft Azure sono sempre più diffuse per ospitare e gestire sistemi e applicazioni.
 
-- **Infrastructure as a Service (IaaS)**: In questo modello, le organizzazioni noleggiano infrastrutture informatiche, come server e dispositivi di archiviazione, in base all’utilizzo. È un’opzione diffusa per chi deve aumentare le risorse informatiche in modo rapido e semplice.
+- **infrastruttura come servizio (IaaS)**: In questo modello, le organizzazioni noleggiano infrastrutture informatiche, come server e dispositivi di archiviazione, in base all’utilizzo. È un’opzione diffusa per chi deve aumentare le risorse informatiche in modo rapido e semplice.
 
-- **Software as a Service (SaaS)**: In questo modello, le organizzazioni usano applicazioni software via Internet senza installarle e mantenerle localmente. È un’opzione diffusa per chi ha bisogno di applicazioni senza occuparsi della loro installazione e manutenzione locale.
+- **software come servizio (SaaS)**: In questo modello, le organizzazioni usano applicazioni software via Internet senza installarle e mantenerle localmente. È un’opzione diffusa per chi ha bisogno di applicazioni senza occuparsi della loro installazione e manutenzione locale.
 
-- **Hardware as a Service (HaaS)**: In questo modello, le organizzazioni noleggiano hardware, come server e dispositivi di archiviazione, in base all’utilizzo. È un’opzione diffusa per chi deve aumentare le risorse informatiche in modo rapido e semplice.
+- **hardware come servizio (HaaS)**: In questo modello, le organizzazioni noleggiano hardware, come server e dispositivi di archiviazione, in base all’utilizzo. È un’opzione diffusa per chi deve aumentare le risorse informatiche in modo rapido e semplice.
 
 ______
 

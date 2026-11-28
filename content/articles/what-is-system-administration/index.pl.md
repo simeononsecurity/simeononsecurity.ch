@@ -1,7 +1,7 @@
 ---
 title: "Czym jest administracja systemami?"
 date: 2023-02-12
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Poznaj podstawowe umiejętności administracji systemami Windows i Linux, sprzętem, oprogramowaniem, wirtualizacją oraz usługami chmurowymi."
@@ -61,11 +61,11 @@ ______
 
 - **Platformy chmurowe**: Platformy takie jak Amazon Web Services (AWS) i Microsoft Azure zyskują popularność w hostowaniu i zarządzaniu systemami oraz aplikacjami.
 
-- **Infrastructure as a Service (IaaS)**: W tym modelu organizacje wynajmują infrastrukturę obliczeniową, taką jak serwery i urządzenia pamięci masowej, na podstawie wykorzystania. To popularny wybór dla organizacji, które muszą szybko i łatwo zwiększać zasoby obliczeniowe.
+- **infrastruktura jako usługa (IaaS)**: W tym modelu organizacje wynajmują infrastrukturę obliczeniową, taką jak serwery i urządzenia pamięci masowej, na podstawie wykorzystania. To popularny wybór dla organizacji, które muszą szybko i łatwo zwiększać zasoby obliczeniowe.
 
-- **Software as a Service (SaaS)**: W tym modelu organizacje korzystają z aplikacji przez Internet, bez konieczności instalowania ich i utrzymywania lokalnie. To popularny wybór dla organizacji, które potrzebują aplikacji, ale nie chcą zajmować się ich lokalną instalacją i utrzymaniem.
+- **oprogramowanie jako usługa (SaaS)**: W tym modelu organizacje korzystają z aplikacji przez Internet, bez konieczności instalowania ich i utrzymywania lokalnie. To popularny wybór dla organizacji, które potrzebują aplikacji, ale nie chcą zajmować się ich lokalną instalacją i utrzymaniem.
 
-- **Hardware as a Service (HaaS)**: W tym modelu organizacje wynajmują sprzęt, taki jak serwery i urządzenia pamięci masowej, na podstawie wykorzystania. To popularny wybór dla organizacji, które muszą szybko i łatwo zwiększać zasoby obliczeniowe.
+- **sprzęt jako usługa (HaaS)**: W tym modelu organizacje wynajmują sprzęt, taki jak serwery i urządzenia pamięci masowej, na podstawie wykorzystania. To popularny wybór dla organizacji, które muszą szybko i łatwo zwiększać zasoby obliczeniowe.
 
 ______
 
