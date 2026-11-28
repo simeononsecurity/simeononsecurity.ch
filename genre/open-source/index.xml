@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>Open-Source on simeononsecurity</title><link>https://simeononsecurity.com/genre/open-source/</link></image><link>https://simeononsecurity.com/genre/open-source/</link><description>Recent content in Open-Source on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 21 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/genre/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Lesson 3: The OpenAI-Compatible AI Broker: One Endpoint for Every Local Model</title><link>https://simeononsecurity.com/hermes-local-ai-broker-course/03-openai-compatible-broker/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI"
+, "Local AI"
+, "Self-Hosted"
+, "API Gateway"
+, "LLM Infrastructure"
+, "Open Source"
+, "MLOps"
+, "Inference"
+, "Reverse Proxy"
+, "Agentic Workflows"</category><guid>https://simeononsecurity.com/hermes-local-ai-broker-course/03-openai-compatible-broker/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Put one OpenAI-compatible broker in front of Ollama, vLLM, llama.cpp, and Strata. Learn lazy loading, idle unload, pools, failover, retries, and non-loading health checks.</description><enclosure url="https://simeononsecurity.com/img/cover/openai-compatible-ai-broker-one-endpoint-2026.webp" length="141640" type="image/webp"/></item><item><title>OpenCode vs Claude Code: 2026 Coding Agent Comparison</title><link>https://simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Developer Tools"
+, "Artificial Intelligence"
+, "Open Source"</category><guid>https://simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare OpenCode and Claude Code across model choice, local inference, pricing, permissions, project instructions, and daily coding workflows.</description><enclosure url="https://simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>OpenRouter Provider Routing: Model Quality, Token Limits, and Real Costs</title><link>https://simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Infrastructure"
+, "Open Source"</category><guid>https://simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Diagnose inconsistent OpenRouter answers, compare endpoint limits and caching costs, and configure provider routing without disabling quality controls by accident.</description><enclosure url="https://simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp" length="117470" type="image/webp"/></item><item><title>Sibling Sites - SimeonOnSecurity's Standalone Cybersecurity Tools</title><link>https://simeononsecurity.com/sibling-sites/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Privacy"
+, "Open Source"
+, "Network Tools"
+, "Surveillance"
+, "Self-Hosted"</category><guid>https://simeononsecurity.com/sibling-sites/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Every SimeonOnSecurity sibling site in one place. Seven standalone tools on their own subdomains, covering WiFi data maps, ALPR surveillance mapping, ESP32 counter-surveillance firmware, and resume optimization.</description><enclosure url="https://simeononsecurity.com/img/cover/sibling-sites-simeononsecurity-cybersecurity-tools.webp" length="114820" type="image/webp"/></item><item><title>Building a Privacy-Preserving AI Assistant for Meshtastic</title><link>https://simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Network Security"
+, "Privacy"
+, "Open Source"
+, "Automation"</category><guid>https://simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A practical account of building a local AI assistant for Meshtastic, with private configuration, queued TCP access, retrieval tools, and a safer dashboard.</description><enclosure url="https://simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>GrapheneOS Sandboxed Google Play Explained</title><link>https://simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Privacy"
+, "Mobile Security"
+, "Open Source"</category><guid>https://simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn what sandboxed Google Play changes on GrapheneOS, when a separate profile helps, and how accounts, notifications, and app compatibility fit together.</description><enclosure url="https://simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp"/></item><item><title>Meshtastic vs MeshCore vs Reticulum</title><link>https://simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "Mesh Networking"
+, "Off-Grid Communications"
+, "Emergency Communications"
+, "Ham Radio"
+, "Open Source"
+, "Disaster Preparedness"
+, "Wireless Networks"
+, "Privacy"
+, "Networking"</category><guid>https://simeononsecurity.com/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare Meshtastic, MeshCore, and Reticulum by routing, airtime, infrastructure, transport, and off-grid use cases.</description><enclosure url="https://simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Proxmox VE 8 to 9 Upgrade Guide</title><link>https://simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Virtualization"
+, "Linux Administration"
+, "Proxmox"
+, "Server Management"
+, "Open Source"
+, "Homelab"</category><guid>https://simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Upgrade Proxmox VE 8 to 9 with prerequisite checks, manual steps, automation, breaking changes, and recovery guidance.</description><enclosure url="https://simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item><item><title>MeshCore vs Meshtastic</title><link>https://simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><category>
+"LoRa"
+, "Mesh Networking"
+, "Off-Grid Communications"
+, "Emergency Communications"
+, "Tactical Communications"
+, "Ham Radio"
+, "Open Source"
+, "Disaster Preparedness"
+, "Wireless Networks"
+, "Privacy"</category><guid>https://simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare MeshCore and Meshtastic by routing, range, airtime, infrastructure, device support, and deployment fit.</description><enclosure url="https://simeononsecurity.com/img/cover/meshcore-vs-meshtastic-comparison-guide.webp" length="173676" type="image/webp"/></item><item><title>Tailscale vs Headscale</title><link>https://simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Network Security"
+, "Self-Hosted"
+, "WireGuard"
+, "Zero Trust"
+, "Mesh Networking"
+, "Open Source"
+, "Cloud Infrastructure"
+, "Remote Access"
+, "Network Management"</category><guid>https://simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare Tailscale and Headscale by hosting model, identity, features, cost, operations, and support to choose a WireGuard mesh VPN for your needs.</description><enclosure url="https://simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item><item><title>CompTIA Linux+ XK0-006 Course and Lab Path</title><link>https://simeononsecurity.com/linux-plus-start/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA Linux+ Course"
+, "Linux Certification"
+, "System Administration"
+, "Linux Security"
+, "Shell Scripting"
+, "CompTIA Certification"
+, "DevOps"
+, "Container Technologies"
+, "Linux Troubleshooting"
+, "Open Source"</category><guid>https://simeononsecurity.com/linux-plus-start/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Build a disposable Ubuntu 24.04 Linux+ XK0-006 lab. Practice system management, services, security, scripting, and fault recovery with evidence.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-linux-plus-xk0-005-study-guide-illustration.webp" length="201088" type="image/webp"/></item><item><title>Why Open Source Software Outshines Proprietary Security</title><link>https://simeononsecurity.com/articles/open-source-software-security/</link><pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Open Source"
+, "Software Security"
+, "Government Regulations"
+, "Collaborative Development"
+, "Digital Protection"
+, "IT Security"
+, "Tech Trends"
+, "Online Safety"
+, "Data Privacy"</category><guid>https://simeononsecurity.com/articles/open-source-software-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover why 'Open Source Software is More Secure Than Proprietary Software' in this effortless guide, ensuring your digital assets stay protected.</description><enclosure url="https://simeononsecurity.com/img/cover/open-source-software-security.webp" length="61142" type="image/webp"/></item><item><title>Budget-Friendly 10g pfSense Build with HP t740 for...</title><link>https://simeononsecurity.com/guides/budget-friendly-10g-pfsense-build-hp-t740/</link><pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Cybersecurity"
+, "Hardware"
+, "DIY"
+, "Open-Source"
+, "Small Business"
+, "Home Network"
+, "Technology"
+, "IT Solutions"
+, "Network Security"</category><guid>https://simeononsecurity.com/guides/budget-friendly-10g-pfsense-build-hp-t740/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how to effortlessly build a 10 gigabit capable pfSense router and firewall on a budget using the HP t740, ensuring high-performance networking for your needs.</description><enclosure url="https://simeononsecurity.com/img/cover/budget-friendly-10g-pfsense-build-hp-t740.webp" length="214942" type="image/webp"/></item><item><title>LibreWolf vs Firefox</title><link>https://simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Privacy"
+, "Web Browsers"
+, "Online Security"
+, "Open Source"
+, "Digital Privacy"
+, "Software"
+, "Comparison"
+, "Cybersecurity"
+, "Internet Privacy"</category><guid>https://simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the features of LibreWolf and Firefox, two privacy-focused browsers, to make an informed choice for enhanced online security and privacy.</description><enclosure url="https://simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp"/></item><item><title>Top 5 Linux Security and Hardening Techniques</title><link>https://simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Cybersecurity"
+, "Linux"
+, "System Security"
+, "Open-source"
+, "Hardening"
+, "IT"
+, "Data Protection"
+, "Network Security"
+, "Computer Science"</category><guid>https://simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Five Linux security techniques for system hardening, integrity protection, and threat reduction.</description><enclosure url="https://simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp"/></item><item><title>Best Privacy Browsers 2026: LibreWolf vs Brave vs Tor</title><link>https://simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"Browsers"
+, "Privacy"
+, "Security"
+, "Internet"
+, "Technology"
+, "Digital Privacy"
+, "Online Safety"
+, "Open Source"
+, "Anonymity"
+, "Web Browsing"</category><guid>https://simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A 2026 comparison of LibreWolf, Brave, Firefox, Tor, and other privacy-focused browsers by privacy, performance, and security.</description><enclosure url="https://simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp"/></item><item><title>Ansible vs Semaphore vs Tower: Automation Compared</title><link>https://simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Infrastructure Management"
+, "Configuration Management"
+, "DevOps"
+, "IT Operations"
+, "Open Source"
+, "Workflow Management"
+, "Scalability"
+, "Collaboration"
+, "Ansible Tools"</category><guid>https://simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare plain Ansible, Ansible Tower, and Ansible Semaphore by workflow, management features, and infrastructure use case.</description><enclosure url="https://simeononsecurity.com/img/cover/ansible-vs-ansible-semaphore-vs-ansible-tower.webp" length="132234" type="image/webp"/></item><item><title>Boost Productivity with Homebox</title><link>https://simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Inventory Management"
+, "Asset Management"
+, "Open Source"
+, "Productivity"
+, "Small Business"
+, "Home Management"
+, "Self-hosted"
+, "Software"
+, "Organization"</category><guid>https://simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of Homebox, an open-source software for efficient inventory and asset management, enhancing productivity for your home or small business.</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp" length="60896" type="image/webp"/></item><item><title>TrueNAS vs Unraid: Which NAS Operating System Wins?</title><link>https://simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</link><pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Storage Systems"
+, "Network-Attached Storage"
+, "Data Management"
+, "NAS Operating Systems"
+, "Comparison"
+, "Data Protection"
+, "Home Storage"
+, "Enterprise Storage"
+, "Open-Source"</category><guid>https://simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare TrueNAS and Unraid by storage design, usability, features, documentation, community, and workload fit.</description><enclosure url="https://simeononsecurity.com/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.webp" length="189060" type="image/webp"/></item></channel></rss>

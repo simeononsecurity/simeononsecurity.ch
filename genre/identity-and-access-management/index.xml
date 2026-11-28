@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Identity and Access Management on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>Identity and Access Management on simeononsecurity</title><link>https://simeononsecurity.com/genre/identity-and-access-management/</link></image><link>https://simeononsecurity.com/genre/identity-and-access-management/</link><description>Recent content in Identity and Access Management on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/genre/identity-and-access-management/index.xml" rel="self" type="application/rss+xml"/><item><title>Cloud IAM and Zero Trust Capstone</title><link>https://simeononsecurity.com/cloud-iam-zero-trust-course/08-capstone/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cloud Security"
+, "Identity and Access Management"
+, "Zero Trust"
+, "Security Lab"</category><guid>https://simeononsecurity.com/cloud-iam-zero-trust-course/08-capstone/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Review synthetic cloud access, design a least-privilege target state, test the offline simulator or a provider sandbox, and submit closure evidence.</description><enclosure url="https://simeononsecurity.com/img/cover/cloud-iam-zero-trust-capstone.webp" length="117386" type="image/webp"/></item><item><title>Cloud IAM and Zero Trust Capstone Answer Key</title><link>https://simeononsecurity.com/cloud-iam-zero-trust-course/10-capstone-answer-key/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cloud Security"
+, "Identity and Access Management"
+, "Zero Trust"
+, "Security Lab"</category><guid>https://simeononsecurity.com/cloud-iam-zero-trust-course/10-capstone-answer-key/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Review the Cloud IAM and Zero Trust capstone reference design, evidence boundaries, simulator results, migration order, and scoring requirements.</description><enclosure url="https://simeononsecurity.com/img/cover/cloud-iam-capstone-answer-key.webp" length="181318" type="image/webp"/></item><item><title>Cloud IAM and Zero Trust Lab Course</title><link>https://simeononsecurity.com/cloud-iam-zero-trust-course-start/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cloud Security"
+, "Identity and Access Management"
+, "Zero Trust"
+, "Security Lab"</category><guid>https://simeononsecurity.com/cloud-iam-zero-trust-course-start/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare IAM across AWS, Azure, and Google Cloud, then test and close one disposable provider lab or offline simulator.</description><enclosure url="https://simeononsecurity.com/img/cover/cloud-iam-zero-trust-course.webp" length="119466" type="image/webp"/></item><item><title>Cloud IAM and Zero Trust Quiz</title><link>https://simeononsecurity.com/cloud-iam-zero-trust-course/07-quiz/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cloud Security"
+, "Identity and Access Management"
+, "Zero Trust"</category><guid>https://simeononsecurity.com/cloud-iam-zero-trust-course/07-quiz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Test cloud identity, effective permissions, human and workload access, zero trust policy, and teardown before reviewing the answer key.</description><enclosure url="https://simeononsecurity.com/img/cover/cloud-iam-zero-trust-quiz.webp" length="87732" type="image/webp"/></item><item><title>Cloud IAM and Zero Trust Quiz Answer Key</title><link>https://simeononsecurity.com/cloud-iam-zero-trust-course/09-quiz-answer-key/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cloud Security"
+, "Identity and Access Management"
+, "Zero Trust"</category><guid>https://simeononsecurity.com/cloud-iam-zero-trust-course/09-quiz-answer-key/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Score the Cloud IAM and Zero Trust quiz, review each reason, and route missed topics back to the course lessons.</description><enclosure url="https://simeononsecurity.com/img/cover/cloud-iam-quiz-answer-key.webp" length="124300" type="image/webp"/></item><item><title>Cloud IAM Lesson 1: Identity Model</title><link>https://simeononsecurity.com/cloud-iam-zero-trust-course/01-identity-model/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cloud Security"
+, "Identity and Access Management"</category><guid>https://simeononsecurity.com/cloud-iam-zero-trust-course/01-identity-model/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Model human and workload principals, credentials, sessions, policies, roles, resources, and trust relationships across major cloud providers.</description><enclosure url="https://simeononsecurity.com/img/cover/cloud-iam-identity-model.webp" length="87392" type="image/webp"/></item><item><title>Cloud IAM Lesson 2: Effective Permissions</title><link>https://simeononsecurity.com/cloud-iam-zero-trust-course/02-effective-permissions/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cloud Security"
+, "Identity and Access Management"</category><guid>https://simeononsecurity.com/cloud-iam-zero-trust-course/02-effective-permissions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Evaluate cloud access across identity policies, resource policies, boundaries, hierarchy controls, conditions, inheritance, and explicit denies.</description><enclosure url="https://simeononsecurity.com/img/cover/cloud-effective-permissions.webp" length="83846" type="image/webp"/></item><item><title>Cloud IAM Lesson 3: Human Access</title><link>https://simeononsecurity.com/cloud-iam-zero-trust-course/03-human-access/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cloud Security"
+, "Identity and Access Management"
+, "Zero Trust"</category><guid>https://simeononsecurity.com/cloud-iam-zero-trust-course/03-human-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Design federated human access with strong authentication, short sessions, privileged activation, emergency recovery, and continuous review.</description><enclosure url="https://simeononsecurity.com/img/cover/cloud-human-access.webp" length="120232" type="image/webp"/></item><item><title>Cloud IAM Lesson 4: Workload Identity</title><link>https://simeononsecurity.com/cloud-iam-zero-trust-course/04-workload-identity/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cloud Security"
+, "Identity and Access Management"
+, "DevSecOps"</category><guid>https://simeononsecurity.com/cloud-iam-zero-trust-course/04-workload-identity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Design workload identity with federation, managed identities, service accounts, short-lived tokens, narrow roles, and verified rotation or revocation.</description><enclosure url="https://simeononsecurity.com/img/cover/cloud-workload-identity.webp" length="92256" type="image/webp"/></item><item><title>Cloud IAM Lesson 5: Zero Trust Policy</title><link>https://simeononsecurity.com/cloud-iam-zero-trust-course/05-zero-trust-policy/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cloud Security"
+, "Zero Trust"
+, "Identity and Access Management"</category><guid>https://simeononsecurity.com/cloud-iam-zero-trust-course/05-zero-trust-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Turn zero trust principles into explicit cloud access decisions using identity, resource, device, workload, context, policy enforcement, and telemetry.</description><enclosure url="https://simeononsecurity.com/img/cover/cloud-zero-trust-policy.webp" length="99844" type="image/webp"/></item><item><title>Cloud IAM Lesson 6: Disposable Provider Lab</title><link>https://simeononsecurity.com/cloud-iam-zero-trust-course/06-disposable-cloud-lab/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cloud Security"
+, "Identity and Access Management"
+, "Security Lab"</category><guid>https://simeononsecurity.com/cloud-iam-zero-trust-course/06-disposable-cloud-lab/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Run a deterministic offline IAM simulator or create a read-only identity in one cloud sandbox, then record policy and teardown evidence.</description><enclosure url="https://simeononsecurity.com/img/cover/disposable-cloud-iam-lab.webp" length="100342" type="image/webp"/></item><item><title>Microsoft Certifications for Cybersecurity Careers</title><link>https://simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Microsoft Certifications"
+, "Career Development"
+, "Information Technology"
+, "Cloud Security"
+, "Data Management"
+, "Identity and Access Management"
+, "Artificial Intelligence"
+, "Machine Learning"
+, "Job Market"</category><guid>https://simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Choose Microsoft certifications for cybersecurity roles by skill area, job target, prerequisites, and Azure relevance.</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon_illustration_featuring_a_professiona.webp" length="94814" type="image/webp"/></item><item><title>AWS vs Azure vs Google Cloud 2026: Complete Comparison</title><link>https://simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cloud Computing"
+, "Cloud Security"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "Data Security"
+, "Encryption"
+, "Identity and Access Management"
+, "Compliance"
+, "Threat Detection"</category><guid>https://simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A 2026 comparison of AWS, Azure, and Google Cloud covering pricing, security, compliance, services, performance, and provider selection.</description><enclosure url="https://simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp"/></item></channel></rss>
