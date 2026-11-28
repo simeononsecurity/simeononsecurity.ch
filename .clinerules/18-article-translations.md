@@ -935,6 +935,11 @@
   titles and product or organization names in their source language when
   needed, but translate descriptive reference labels such as `Best Practice
   Framework`. Record the reason when an English title or name remains.
+- Compare every target locale's reader-facing prose, table cells, and repeated
+  section rows against the English source and its target language. The
+  English-fallback gate does not detect text copied from another locale, so
+  inspect parallel German, French, Italian, and other language files for
+  cross-language carryover before freezing the candidate.
 - The repository-wide CI regression gate uses
   `--fail-on-english-body-fallback` to block copied English bodies or prose
   paragraphs and English-dominant bodies without failing on unrelated legacy
@@ -994,7 +999,10 @@
   paths no longer appear in `git diff --cached --name-only` and confirm all
   unrelated staged paths remain unchanged. Do not reset the whole shared index.
 - Merge each approved bundle into the existing local `master` or `main` checkout
-  as soon as validation and worktree state allow. Preserve unrelated changes and
-  avoid creating additional worktrees when an existing main checkout is usable.
-- Do not push, publish, or deploy unless the user separately authorizes that
-  action. A commit or local merge does not imply permission to publish.
+  at the timing the user directs. In a parallel campaign, the user may require
+  waiting until every active batch finishes before syncing approved commits.
+  Preserve unrelated changes and avoid creating additional worktrees when an
+  existing main checkout is usable.
+- Push only with explicit user authorization, and use the requested remote
+  branch. A commit or local merge does not imply permission to publish. Treat
+  publishing and deployment as separate actions requiring their own approval.
