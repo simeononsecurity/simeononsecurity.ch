@@ -1,7 +1,7 @@
 ---
 title: "2026年最佳隐私浏览器：LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-11-14
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: 2026年最全面的隐私浏览器对比：LibreWolf、Brave、Firefox、Tor等。详细的隐私测试、性能基准和安全分析，保护您的在线数据。
@@ -308,7 +308,7 @@ layers.acceleration.force-enabled = true
 
 **基本隐私设置：**
 ```
-设置 > Shields:
+设置 > Shields（防护功能）：
 ✓ 跟踪器和广告拦截：严格
 ✓ 将连接升级为 HTTPS
 ✓ 阻止脚本（敏感浏览时）
@@ -658,7 +658,7 @@ privacy.resistFingerprinting.letterboxing = true
 ### 下载 Tor
 
 - **桌面版**：[Tor Project](https://www.torproject.org/download/)
-- **Android**：[Tor 浏览器 for Android](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+- **Android**：[Android 版 Tor 浏览器](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
 - **iOS**：使用 Onion Browser（第三方，安全性较低）
 
 ## 隐私浏览器性能对比

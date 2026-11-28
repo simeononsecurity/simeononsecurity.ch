@@ -1,7 +1,7 @@
 ---
 title: "Najlepsze Przeglądarki Prywatności 2026: LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-11-14
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: 'Kompleksowe porównanie najlepszych przeglądarek skoncentrowanych na prywatności w 2026 roku: LibreWolf, Brave, Firefox, Tor i inne. Szczegółowe testy prywatności, benchmarki wydajności oraz analiza bezpieczeństwa chroniąca Twoje dane online.'
@@ -13,7 +13,7 @@ genre:
 - Technologia
 - Prywatność Cyfrowa
 - Bezpieczeństwo Online
-- Open Source
+- Otwarte oprogramowanie
 - Anonimowość
 - Przeglądanie Sieci
 tags:
@@ -25,7 +25,7 @@ tags:
 - Bezpieczeństwo
 - Przeglądanie
 - Prywatność Online
-- Open Source
+- Otwarte oprogramowanie
 - Anonimowość
 - Przeglądarka Internetowa
 - Blokowanie Trackerów
@@ -308,7 +308,7 @@ layers.acceleration.force-enabled = true
 
 **Podstawowe ustawienia prywatności:**
 ```
-Ustawienia > Shields:
+Ustawienia > Shields (ochrona):
 ✓ Blokowanie elementów śledzących i reklam: ścisłe
 ✓ Ulepszaj połączenia do HTTPS
 ✓ Blokuj skrypty (podczas wrażliwego przeglądania)
@@ -792,9 +792,9 @@ Miejsce 3: Firefox Focus (prostota)
 **Temporary Containers**: Izoluje strony w kontenerach
 **CanvasBlocker**: Zapobiega śledzeniu przez fingerprinting canvas
 
-## Przewodnik migracji do Privacy Browser
+## Przewodnik migracji do przeglądarki chroniącej prywatność
 
-### Przejście z Chrome do Privacy Browser
+### Przejście z Chrome do przeglądarki chroniącej prywatność
 
 **Krok 1: Wybierz przeglądarkę**
 - Użytkownik techniczny → LibreWolf

@@ -1,7 +1,7 @@
 ---
 title: "Melhores Navegadores de Privacidade 2026: LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-11-14
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: 'Comparação abrangente de 2026 dos melhores navegadores focados em privacidade: LibreWolf, Brave, Firefox, Tor e mais. Testes detalhados de privacidade, benchmarks de desempenho e análise de segurança para proteger seus dados online.'
@@ -308,7 +308,7 @@ layers.acceleration.force-enabled = true
 
 **Configurações Essenciais de Privacidade:**
 ```
-Configurações > Shields:
+Configurações > Shields (proteções):
 ✓ Bloqueio de rastreadores e anúncios: rigoroso
 ✓ Atualize conexões para HTTPS
 ✓ Bloqueie scripts (para navegação sensível)

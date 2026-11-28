@@ -1,7 +1,7 @@
 ---
 title: "Cele Mai Bune Browsere pentru Confidențialitate 2026: LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-11-14
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: 'Comparație cuprinzătoare pentru 2026 a celor mai bune browsere axate pe confidențialitate: LibreWolf, Brave, Firefox, Tor și altele. Teste detaliate de confidențialitate, repere de performanță și analiză de securitate pentru a-ți proteja datele online.'
@@ -13,7 +13,7 @@ genre:
 - Tehnologie
 - Confidențialitate Digitală
 - Siguranță Online
-- Open Source
+- Software cu sursă deschisă
 - Anonimat
 - Navigare Web
 tags:
@@ -25,7 +25,7 @@ tags:
 - Securitate
 - Navigare
 - Confidențialitate Online
-- Open Source
+- Software cu sursă deschisă
 - Anonimat
 - Browser Web
 - Blocare Trackere
@@ -308,7 +308,7 @@ layers.acceleration.force-enabled = true
 
 **Setări esențiale de confidențialitate:**
 ```
-Setări > Shields:
+Setări > Shields (protecții):
 ✓ Blocarea trackerelor și reclamelor: strictă
 ✓ Actualizează conexiunile la HTTPS
 ✓ Blochează scripturile (pentru navigare sensibilă)
@@ -792,9 +792,9 @@ Ai nevoie de un browser mobil care protejează confidențialitatea?
 **Temporary Containers**: Izolează site-urile în containere
 **CanvasBlocker**: Previne amprentarea canvas
 
-## Ghid de Migrare către Privacy Browser
+## Ghid de migrare către un browser orientat spre confidențialitate
 
-### Trecerea de la Chrome la Privacy Browser
+### Trecerea de la Chrome la un browser orientat spre confidențialitate
 
 **Pasul 1: Alege Browserul**
 - Utilizator tehnic → LibreWolf

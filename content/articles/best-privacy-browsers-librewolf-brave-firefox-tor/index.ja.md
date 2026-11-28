@@ -1,7 +1,7 @@
 ---
 title: "2026年の最高プライバシーブラウザ：LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-11-14
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: 2026年の最高のプライバシー重視ブラウザを包括的に比較：LibreWolf、Brave、Firefox、Torなど。詳細なプライバシーテスト、パフォーマンスベンチマーク、セキュリティ分析でオンラインデータを保護します。
@@ -308,7 +308,7 @@ layers.acceleration.force-enabled = true
 
 **必須プライバシー設定:**
 ```
-設定 > Shields:
+設定 > Shields（保護機能）:
 ✓ トラッカーと広告のブロック: 強
 ✓ 接続をHTTPSにアップグレード
 ✓ スクリプトをブロック（慎重な閲覧時）
@@ -658,7 +658,7 @@ privacy.resistFingerprinting.letterboxing = true
 ### Tor ダウンロード
 
 - **デスクトップ**: [Tor Project](https://www.torproject.org/download/)
-- **Android**: [Tor Browser for Android](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+- **Android**: [Android版 Tor Browser](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
 - **iOS**: Onion Browserを使用（サードパーティ、やや安全性低）
 
 ## プライバシーブラウザ性能比較
@@ -987,8 +987,8 @@ ______
 2. [Brave公式サイト](https://brave.com/)
 3. [Mozilla Firefox](https://www.mozilla.org/firefox/)
 4. [Tor Project公式サイト](https://www.torproject.org/)
-5. [Firefox Focus for Android](https://play.google.com/store/apps/details?id=org.mozilla.focus)
-6. [Firefox Focus for iOS](https://apps.apple.com/us/app/firefox-focus-privacy-browser/id1055677337)
+5. [Android版 Firefox Focus](https://play.google.com/store/apps/details?id=org.mozilla.focus)
+6. [iOS版 Firefox Focus](https://apps.apple.com/us/app/firefox-focus-privacy-browser/id1055677337)
 7. [EFF Cover Your Tracks](https://coveryourtracks.eff.org/)
 8. [AmIUniqueブラウザ指紋認証](https://www.amiunique.org/)
 9. [Browserleaksプライバシーテスト](https://browserleaks.com/)
