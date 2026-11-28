@@ -1,0 +1,353 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fałszywe Alarmy on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Fałszywe Alarmy on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/fa%C5%82szywe-alarmy/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/fa%C5%82szywe-alarmy/</link>
+
+    <description>Recent content in Fałszywe Alarmy on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/fa%C5%82szywe-alarmy/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zmapowaliśmy 146 526 „kamer Flock”. 50 278 z nich to systemy ClickShare</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link>
+        
+        <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Badania nad bezpieczeństwem"
+            
+              , "Technologia prywatności"
+            
+              , "Projekty open source"
+            
+              , "Dziennikarstwo danych"
+            
+              , "Przeciwdziałanie inwigilacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Audyt Flock Finder wykrywa ClickShare i inne fałszywe alarmy, wyjaśnia dowody i opisuje wprowadzone zmiany.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczeństwo EDR od podstaw: przewodnik po ochronie punktów końcowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link>
+        
+        <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Ochrona punktów końcowych"
+            
+              , "Rozwiązania EDR"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Bezpieczeństwo punktów końcowych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona cyfrowa"
+            
+              , "Strategie bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj działanie, zalety i wyzwania związane z wdrażaniem EDR oraz dobre praktyki, które pomagają chronić punkty końcowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ręczne a automatyczne testowanie oprogramowania: Wybór właściwej strategii</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/software-testing-strategies-manual-vs-automated/</link>
+        
+        <pubDate>Sat, 03 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "testowanie oprogramowania"
+            
+              , "testy ręczne"
+            
+              , "testy automatyczne"
+            
+              , "strategie testowania"
+            
+              , "rozwój oprogramowania"
+            
+              , "zapewnianie jakości"
+            
+              , "przypadki testowe"
+            
+              , "pokrycie testami"
+            
+              , "testy eksploracyjne"
+            
+              , "doświadczenie użytkownika"
+            
+              , "efektywność"
+            
+              , "możliwość ponownego użycia"
+            
+              , "adaptacyjność"
+            
+              , "błąd ludzki"
+            
+              , "fałszywe alarmy"
+            
+              , "fałszywe wyniki negatywne"
+            
+              , "automatyzacja testów"
+            
+              , "testowanie hybrydowe"
+            
+              , "optymalizacja zasobów"
+            
+              , "praktyki testowania oprogramowania"
+            
+              , "wybór strategii testowania"
+            
+              , "zalety testów ręcznych"
+            
+              , "wady testów automatycznych"
+            
+              , "łączenie testów ręcznych i automatycznych"
+            
+              , "optymalizacja procesu testowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/software-testing-strategies-manual-vs-automated/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zalety i wady ręcznego i automatycznego testowania oprogramowania, aby podjąć świadomą decyzję dla swojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp" length="114932" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Threat Hunting: Proaktywna obrona przed cyberatakami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-threat-hunting-in-proactive-cybersecurity/</link>
+        
+        <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "polowanie na zagrożenia"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "proaktywna obrona"
+            
+              , "cyberataki"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczeństwo punktów końcowych"
+            
+              , "analiza dziennika"
+            
+              , "analiza behawioralna"
+            
+              , "analiza zagrożeń"
+            
+              , "ręczne dochodzenie"
+            
+              , "zautomatyzowane dochodzenie"
+            
+              , "redukcja ryzyka"
+            
+              , "fałszywe alarmy"
+            
+              , "wymagania dotyczące zestawu umiejętności"
+            
+              , "wymagania dotyczące zasobów"
+            
+              , "Krótszy czas reakcji"
+            
+              , "ulepszone wykrywanie"
+            
+              , "zmniejszone ryzyko"
+            
+              , "instytucje finansowe"
+            
+              , "dostawcy opieki zdrowotnej"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-threat-hunting-in-proactive-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, w jaki sposób wyszukiwanie zagrożeń może zapobiegać cyberatakom oraz jakie korzyści i wyzwania wiążą się z wdrożeniem go jako proaktywnego środka cyberbezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.webp" length="112446" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

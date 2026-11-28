@@ -1,0 +1,164 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lokalny Agent Programistyczny AI on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Lokalny Agent Programistyczny AI on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/lokalny-agent-programistyczny-ai/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/lokalny-agent-programistyczny-ai/</link>
+
+    <description>Recent content in Lokalny Agent Programistyczny AI on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/lokalny-agent-programistyczny-ai/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Lokalne programowanie AI na GPU 16 GB: Strata, OpenCode i Qwen3.8</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalne AI"
+            
+              , "Narzędzia programistyczne"
+            
+              , "Samodzielnie hostowane AI"
+            
+              , "Sprzęt AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Uruchom lokalnego agenta programistycznego ze Stratą i OpenCode. Sprawdź zgłoszone wyniki RTX 4060 Ti, wymagania RAM, ponowne użycie promptów, budżety rozumowania oraz ograniczenia zastępowania płatnej subskrypcji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Claude Cowork i Claude Code z lokalnymi modelami: przewodnik konfiguracji na 2026 rok</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link>
+        
+        <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Narzędzia AI do programowania"
+            
+              , "Samodzielnie hostowana AI"
+            
+              , "Narzędzia dla programistów"
+            
+              , "Prywatność"
+            
+              , "Modele open source"
+            
+              , "Automatyzacja"
+            
+              , "Sprzęt AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Skonfiguruj Ollama z Claude Desktop i Claude Code przez interfejs API zgodny z Anthropic. Poznaj wybór modeli i funkcje dostępne wyłącznie w chmurze w 2026 roku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wady on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Wady on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wady/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wady/</link>
+
+    <description>Recent content in Wady on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 06 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wady/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubiquiti Unifi a TP-Link Omada: który system sieciowy wybrać?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</link>
+        
+        <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Systemy sieciowe"
+            
+              , "Zarządzanie siecią"
+            
+              , "Porównanie sprzętu"
+            
+              , "Zarządzanie siecią przez Internet"
+            
+              , "Skalowalne rozwiązania sieciowe"
+            
+              , "Funkcje bezpieczeństwa sieci"
+            
+              , "Niezawodny sprzęt sieciowy"
+            
+              , "Konkurencyjne ceny sprzętu sieciowego"
+            
+              , "Obsługa klienta"
+            
+              , "Dodatkowa oferta produktów"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj systemy sieciowe Ubiquiti Unifi i TP-Link Omada pod kątem zarządzania, sprzętu, wsparcia, funkcji i cen, aby wybrać rozwiązanie odpowiadające Twoim potrzebom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_split-screen_illustration_of_a_complex_network.webp" length="236442" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

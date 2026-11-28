@@ -1,0 +1,392 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Informacje Wrażliwe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Informacje Wrażliwe on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/informacje-wra%C5%BCliwe/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/informacje-wra%C5%BCliwe/</link>
+
+    <description>Recent content in Informacje Wrażliwe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 22 Oct 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/informacje-wra%C5%BCliwe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona kontrolowanych informacji nieklasyfikowanych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</link>
+        
+        <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo danych"
+            
+              , "Ochrona informacji"
+            
+              , "Zarządzanie prywatnością"
+            
+              , "Postępowanie z informacjami wrażliwymi"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Zgodność z przepisami"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Ład informacyjny"
+            
+              , "Poufność danych"
+            
+              , "Zapewnianie bezpieczeństwa informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj znaczenie ochrony kontrolowanych informacji nieklasyfikowanych (CUI) i dowiedz się, jak skutecznie zabezpieczać wrażliwe dane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/CUI-Safeguarding-Sensitive-Data.webp" length="96388" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zapobieganie atakom inżynierii społecznej: Strategie i najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</link>
+        
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "inżynieria społeczna"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prewencja"
+            
+              , "szkolenie pracowników"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "antywirus"
+            
+              , "bezpieczeństwo fizyczne"
+            
+              , "przepisy rządowe"
+            
+              , "FISMA"
+            
+              , "HIPAA"
+            
+              , "ochrona danych"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "informacje wrażliwe"
+            
+              , "cyberprzestępczość"
+            
+              , "zgodność"
+            
+              , "strategia bezpieczeństwa cybernetycznego"
+            
+              , "bezpieczeństwo danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zapobiegać atakom socjotechnicznym i chronić wrażliwe informacje organizacji dzięki szkoleniom pracowników, polityce bezpieczeństwa i nie tylko.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.webp" length="85016" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie stacji roboczych: Przewodnik oparty na zaleceniach NIST</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/general-guidance-on-securing-your-workstations-by-nist-summarized/</link>
+        
+        <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecenia NIST"
+            
+              , "bezpieczeństwo stacji roboczych"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "szyfrowanie danych"
+            
+              , "ochrona zapory sieciowej"
+            
+              , "oprogramowanie antywirusowe"
+            
+              , "kontrole dostępu"
+            
+              , "informacje wrażliwe"
+            
+              , "cyberataki"
+            
+              , "kopia zapasowa danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/general-guidance-on-securing-your-workstations-by-nist-summarized/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zabezpiecz stacje robocze zgodnie z zaleceniami NIST dotyczącymi kontroli dostępu, aktualizacji, antywirusa, zapór, szyfrowania i kopii zapasowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_person_sitting_at_their_workstation.webp" length="71050" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zgodność i profesjonalizm w pracy w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/</link>
+        
+        <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "działalność gospodarcza"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "informacje wrażliwe"
+            
+              , "cyberataki"
+            
+              , "technologia"
+            
+              , "oprogramowanie"
+            
+              , "profesjonalizm"
+            
+              , "zgodność"
+            
+              , "standardy branżowe"
+            
+              , "przepisy"
+            
+              , "najlepsze praktyki"
+            
+              , "priorytet"
+            
+              , "kultura bezpieczeństwa"
+            
+              , "naruszenia danych"
+            
+              , "własność intelektualna"
+            
+              , "proaktywne podejście"
+            
+              , "niski priorytet"
+            
+              , "brak środków"
+            
+              , "szkolenie"
+            
+              , "zaangażowanie w bezpieczeństwo"
+            
+              , "urzędnicy ds. bezpieczeństwa informacji (ISSO)"
+            
+              , "systemy zarządzania bezpieczeństwem informacji (ISSM)"
+            
+              , "przeszkolenie i doświadczenie"
+            
+              , "zagrożenia dla bezpieczeństwa"
+            
+              , "100% sukcesów w audytach zgodności"
+            
+              , "przepisy"
+            
+              , "normy"
+            
+              , "najlepsze praktyki"
+            
+              , "Seria NIST 800"
+            
+              , "gra polityczna"
+            
+              , "zaufanie"
+            
+              , "uczciwość"
+            
+              , "współpraca"
+            
+              , "ścieżka audytowa"
+            
+              , "przejrzystość"
+            
+              , "odpowiedzialność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zasady zarządzania, udokumentowane procedury i profesjonalne postępowanie wspierają działania z zakresu cyberbezpieczeństwa oraz ograniczają ryzyko, któremu można zapobiec.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_group_of_cybersecurity_professionals.webp" length="179970" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

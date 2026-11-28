@@ -1,0 +1,1068 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Docker on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/docker/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/docker/</link>
+
+    <description>Recent content in Docker on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Hindsight hostowany samodzielnie: lokalna pamięć agentów i prywatne trasowanie modeli</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/self-hosted-hindsight/</link>
+        
+        <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Samodzielnie hostowana AI"
+            
+              , "Agenci AI"
+            
+              , "Infrastruktura AI"
+            
+              , "Prywatność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/self-hosted-hindsight/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Studium przypadku samodzielnie hostowanego Hindsight, zaobserwowanych lokalnych tras Qwen i pracy GPU przypisanej do żądań, bez subskrypcji hostowanego wnioskowania na sprawdzonych ścieżkach.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/self-hosted-hindsight-local-model-routing.webp" length="58336" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zbuduj domowe laboratorium w 10 etapach, od Pi-hole do lokalnej AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/build-home-lab-10-levels/</link>
+        
+        <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Domowe laboratorium"
+            
+              , "Samodzielny hosting"
+            
+              , "Lokalna AI"
+            
+              , "Sieci domowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/build-home-lab-10-levels/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zbuduj domowe laboratorium w dziesięciu praktycznych etapach, od filtrowania DNS w całej sieci po lokalną AI, poznając sprzęt, koszty, umiejętności i kompromisy dla każdego poziomu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Lokalne programowanie AI na GPU 16 GB: Strata, OpenCode i Qwen3.8</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalne AI"
+            
+              , "Narzędzia programistyczne"
+            
+              , "Samodzielnie hostowane AI"
+            
+              , "Sprzęt AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Uruchom lokalnego agenta programistycznego ze Stratą i OpenCode. Sprawdź zgłoszone wyniki RTX 4060 Ti, wymagania RAM, ponowne użycie promptów, budżety rozumowania oraz ograniczenia zastępowania płatnej subskrypcji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>ATS Resume Improver: darmowy optymalizator CV oparty na AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</link>
+        
+        <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Narzędzia kariery"
+            
+              , "Projekty open source"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Technologie prywatności"
+            
+              , "Narzędzia dla programistów"
+            
+              , "Poszukiwanie pracy"
+            
+              , "Produktywność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          ATS Resume Improver to darmowe narzędzie open source działające po stronie klienta. Analizuje, ocenia, dopasowuje, optymalizuje i eksportuje CV z użyciem modeli chmurowych lub lokalnych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp" length="158574" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zainstaluj Mysterium: Zdecentralizowana sieć VPN i usługa skrobania stron internetowych</title>
+        
+          <link>https://pl.simeononsecurity.com/other/install-mysterium-easily-using-docker/</link>
+        
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Tajemnica"
+            
+              , "VPN"
+            
+              , "web scraping"
+            
+              , "zdecentralizowany"
+            
+              , "prywatność"
+            
+              , "bezpieczeństwo"
+            
+              , "blockchain"
+            
+              , "Ethereum"
+            
+              , "Wielokąt"
+            
+              , "przeglądanie internetu"
+            
+              , "możliwość uzyskania dochodu"
+            
+              , "Docker"
+            
+              , "konfiguracja"
+            
+              , "przekierowanie portów"
+            
+              , "Zdecentralizowana sieć VPN"
+            
+              , "Usługa skrobania stron internetowych"
+            
+              , "bezpieczne przeglądanie"
+            
+              , "zarobki"
+            
+              , "technologia blockchain"
+            
+              , "prywatność online"
+            
+              , "Kontener Docker"
+            
+              , "konfiguracja węzła"
+            
+              , "Adres IP"
+            
+              , "Portfel ERC20"
+            
+              , "Adres MetaMask"
+            
+              , "Klucz API"
+            
+              , "instrukcje przekierowania portów"
+            
+              , "PortForward.com"
+            
+              , "Dokumentacja Mysterium"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/other/install-mysterium-easily-using-docker/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Mysterium, zdecentralizowanej sieci VPN i usługi skrobania stron internetowych opartej na technologii blockchain, oferującej bezpieczne przeglądanie i możliwości zarobkowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_a_computer.webp" length="52136" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak zabezpieczyć środowisko Docker i Kubernetes</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link>
+        
+        <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Kubernetes"
+            
+              , "Bezpieczeństwo"
+            
+              , "Pojemniki"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "RBAC"
+            
+              , "Serwer API"
+            
+              , "Podatności"
+            
+              , "Monitoring"
+            
+              , "Rejestrowanie"
+            
+              , "Firewalle"
+            
+              , "TLS"
+            
+              , "Anchore"
+            
+              , "Clair"
+            
+              , "Aqua Security"
+            
+              , "ELK Stack"
+            
+              , "Splunk"
+            
+              , "Prometheus"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Najlepsze praktyki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki zabezpieczania środowiska Docker i Kubernetes, w tym korzystanie z oficjalnych obrazów, ograniczanie uprawnień i wdrażanie zabezpieczeń sieciowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp" length="126938" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie wydajnych i bezpiecznych kontenerów Docker: Przewodnik dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</link>
+        
+        <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "docker"
+            
+              , "pojemniki"
+            
+              , "konteneryzacja"
+            
+              , "devops"
+            
+              , "wdrożenie"
+            
+              , "przenośność"
+            
+              , "efektywność"
+            
+              , "bezpieczeństwo"
+            
+              , "najlepsze praktyki"
+            
+              , "Dockerfile"
+            
+              , "obrazy bazowe"
+            
+              , "zmienne środowiskowe"
+            
+              , "montowanie woluminów"
+            
+              , "użytkownik root"
+            
+              , "aktualne obrazy"
+            
+              , "rozwój oprogramowania"
+            
+              , "obrazy kontenerów"
+            
+              , "Docker Hub"
+            
+              , "orkiestracja kontenerów"
+            
+              , "Kubernetes"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak tworzyć wydajne i bezpieczne kontenery Docker za pomocą najlepszych praktyk, wskazówek i instrukcji krok po kroku w tym kompleksowym przewodniku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.webp" length="88710" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Discord Cyber Scenario Bot: Wzmocnienie szkoleń i świadomości w zakresie cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/github/discord-cyber-scenario-bot/</link>
+        
+        <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bot Discorda"
+            
+              , "szkolenie w zakresie cyberbezpieczeństwa"
+            
+              , "świadomość cyberbezpieczeństwa"
+            
+              , "bot scenariusza"
+            
+              , "bot quizowy"
+            
+              , "tabela liderów"
+            
+              , "polecenia narzędzi"
+            
+              , "Docker"
+            
+              , "Python"
+            
+              , "testowanie automatyczne"
+            
+              , "Discord API"
+            
+              , "dokumentacja deweloperska"
+            
+              , "wnoszący wkład"
+            
+              , "Licencja MIT"
+            
+              , "CyberScenarioBot"
+            
+              , "CyberSentinels"
+            
+              , "usprawnienie szkolenia"
+            
+              , "program uświadamiający"
+            
+              , "scenariusze cyberbezpieczeństwa"
+            
+              , "środowisko serwera"
+            
+              , "niestandardowe polecenia"
+            
+              , "wdrażanie i zarządzanie"
+            
+              , "quizy i scenariusze"
+            
+              , "polecenia narzędzi"
+            
+              , "polecenia informacyjne"
+            
+              , "kwestie i wkład"
+            
+              , "Aplikacja deweloperska Discord"
+            
+              , "Dokumentacja Discord.py"
+            
+              , "współpraca z deweloperami"
+            
+              , "Społecznościowy serwer Discord"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/discord-cyber-scenario-bot/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj, w jaki sposób CyberScenarioBot może podnieść poziom szkolenia w zakresie cyberbezpieczeństwa i programu podnoszenia świadomości na Discordzie, oferując quizy, scenariusze, śledzenie w tabeli liderów i potężne polecenia narzędziowe.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zbuduj dochodową skrzynkę dochodu pasywnego za pomocą sprzętu o małej mocy: Poradnik</title>
+        
+          <link>https://pl.simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/</link>
+        
+        <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zbuduj dochodową skrzynkę dochodu pasywnego"
+            
+              , "Sprzęt o małej mocy"
+            
+              , "Dochód pasywny"
+            
+              , "Crypto Miner"
+            
+              , "Raspberry Pi"
+            
+              , "Intel NUC"
+            
+              , "Przewodnik"
+            
+              , "Wymagania sprzętowe"
+            
+              , "Instalacja systemu operacyjnego"
+            
+              , "Instalacja oprogramowania"
+            
+              , "Docker"
+            
+              , "Automatyczne aktualizacje kontenerów Docker"
+            
+              , "Ubuntu Server"
+            
+              , "Pulpit Ubuntu"
+            
+              , "Raspbian"
+            
+              , "Budżet"
+            
+              , "USFF"
+            
+              , "Tiny"
+            
+              , "Mini"
+            
+              , "Micro PC"
+            
+              , "Doświadczenie techniczne"
+            
+              , "EarnApp"
+            
+              , "MYST"
+            
+              , "Peer2Profit"
+            
+              , "HoneyGain"
+            
+              , "TraffMonitizer"
+            
+              , "Strażnica"
+            
+              , "Bitping"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skonfigurować nisko zasilany pasywny dochód crypto miner przy użyciu Raspberry Pi lub Intel NUC, i zarabiać $10-$20 miesięcznie na pudełko z tym przewodnikiem
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.webp" length="202870" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible, Docker i Kubernetes dla cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ansible"
+            
+              , "Docker"
+            
+              , "Kubernetes"
+            
+              , "Automatyzacja cyberbezpieczeństwa"
+            
+              , "Oceny podatności"
+            
+              , "Zarządzanie poprawkami"
+            
+              , "Orkiestracja kontenerów"
+            
+              , "Segmentacja sieci"
+            
+              , "Kontrola dostępu oparta na rolach"
+            
+              , "Zarządzanie sekretami"
+            
+              , "Skanowanie bezpieczeństwa"
+            
+              , "Podpisywanie obrazów"
+            
+              , "Narzędzia automatyzacji"
+            
+              , "Infrastruktura IT"
+            
+              , "Zapobieganie naruszeniom danych"
+            
+              , "Zwiększanie wydajności"
+            
+              , "Automatyzacja bezpieczeństwa"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrażanie aplikacji"
+            
+              , "Konteneryzacja"
+            
+              , "Bezpieczeństwo kontenerów"
+            
+              , "Skalowalne systemy"
+            
+              , "Bezpieczne środowiska"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Najlepsze praktyki cyberbezpieczeństwa"
+            
+              , "Ograniczanie ryzyka"
+            
+              , "Zarządzanie bezpieczeństwem"
+            
+              , "Operacje IT"
+            
+              , "Wydajne przepływy pracy"
+            
+              , "Automatyzacja systemów bezpieczeństwa"
+            
+              , "Wydajność IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Ansible, Docker i Kubernetes w automatyzacji procesów cyberbezpieczeństwa i zmniejszaniu ryzyka naruszenia danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ansible-docker-kubernetes-for-cybersecurity.webp" length="194350" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Docker a maszyny wirtualne: porównanie w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/docker-vs-vms/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Maszyny wirtualne"
+            
+              , "VM"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Kontenery"
+            
+              , "Kubernetes"
+            
+              , "Prostota"
+            
+              , "Skalowalność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Opłacalność"
+            
+              , "Dockerfile"
+            
+              , "Docker czy VM"
+            
+              , "Kontenery czy VM"
+            
+              , "Kontenery Docker"
+            
+              , "Wirtualizacja"
+            
+              , "Konteneryzacja"
+            
+              , "Budowanie, testowanie i wdrażanie"
+            
+              , "Izolacja"
+            
+              , "Historia bezpieczeństwa"
+            
+              , "Porównanie kosztów"
+            
+              , "VMware"
+            
+              , "Hyper-V"
+            
+              , "KVM"
+            
+              , "Orkiestracja kontenerów"
+            
+              , "Mikroserwisy"
+            
+              , "DevOps"
+            
+              , "Infrastruktura"
+            
+              , "Aplikacje chmurowe"
+            
+              , "Porównanie wydajności"
+            
+              , "Efektywne wykorzystanie zasobów"
+            
+              , "Podejście hybrydowe"
+            
+              , "Wydajność Docker"
+            
+              , "Wydajność VM"
+            
+              , "Kiedy używać Docker"
+            
+              , "Kiedy używać VM"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/docker-vs-vms/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie kontenerów Docker i maszyn wirtualnych w 2026 roku pod względem wydajności, bezpieczeństwa, kosztów, zastosowań i wdrażania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.webp" length="90762" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uwolnić moc Dockera: Niezbędny przewodnik po transformacji przedsiębiorstwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-power-of-docker/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Transformacja przedsiębiorstwa"
+            
+              , "Przenośność aplikacji"
+            
+              , "Zwiększona wydajność"
+            
+              , "Zwiększone bezpieczeństwo"
+            
+              , "Uproszczone opracowywanie i wdrażanie"
+            
+              , "Oprogramowanie Aplikacyjne"
+            
+              , "Pojemniki"
+            
+              , "Wydajność"
+            
+              , "Czas wprowadzenia na rynek"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-power-of-docker/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj potęgę Dockera i jego korzyści dla transformacji przedsiębiorstwa w tym kompleksowym przewodniku poprawiającym przenośność, bezpieczeństwo, wydajność i rozwój aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/a_blue_whale_giving_off_lighting.webp" length="99856" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

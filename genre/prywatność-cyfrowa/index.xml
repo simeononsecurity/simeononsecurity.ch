@@ -1,0 +1,1128 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prywatność Cyfrowa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Prywatność Cyfrowa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/prywatno%C5%9B%C4%87-cyfrowa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/prywatno%C5%9B%C4%87-cyfrowa/</link>
+
+    <description>Recent content in Prywatność Cyfrowa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/prywatno%C5%9B%C4%87-cyfrowa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak wyłączyć płatności zbliżeniowe na karcie kredytowej</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</link>
+        
+        <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo płatności"
+            
+              , "Prywatność cyfrowa"
+            
+              , "NFC"
+            
+              , "Bezpieczeństwo osobiste"
+            
+              , "Technologie konsumenckie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyczny poradnik wyłączania płatności zbliżeniowych na zapasowej karcie kredytowej przy zachowaniu płatności czipem i paskiem magnetycznym, z ograniczeniami bezpieczeństwa i lepszymi alternatywami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp" length="108062" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik po bezpieczeństwie SSL/TLS: chroń dane swojej witryny</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</link>
+        
+        <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Technologia"
+            
+              , "Bezpieczeństwo WWW"
+            
+              , "Szyfrowanie danych"
+            
+              , "Protokoły internetowe"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Implementacja SSL/TLS"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Przyszłość cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/decoding-ssl/tls_-securing-your-website-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak SSL/TLS chroni witrynę dzięki silnemu szyfrowaniu. Poznaj podatności, dobre praktyki i przyszłość cyberbezpieczeństwa, aby już dziś zwiększyć bezpieczeństwo witryny.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/TLS_%20Securing%20Your%20Website%20Data.webp" length="171950" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego zgodność z przepisami nie gwarantuje bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</link>
+        
+        <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Praktyki bezpieczeństwa"
+            
+              , "Ochrona danych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Normy regulacyjne"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Bezpieczeństwo firmy"
+            
+              , "Prywatność cyfrowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj luki, które pozostawiają listy kontrolne zgodności, a następnie wzmocnij ochronę dzięki ocenie ryzyka, testom, monitorowaniu, szkoleniom i audytom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/compliance-security-shield.webp" length="87866" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>LibreWolf kontra Firefox</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link>
+        
+        <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Prywatność"
+            
+              , "Przeglądarki internetowe"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Open Source"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Oprogramowanie"
+            
+              , "Porównanie"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Prywatność w internecie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj funkcje LibreWolf i Firefox, dwóch przeglądarek skoncentrowanych na prywatności, aby dokonać świadomego wyboru dla zwiększonego bezpieczeństwa i prywatności online.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze produkty blokujące RFID: chroń dane w dobrym stylu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/rfid-blocking-products-guide/</link>
+        
+        <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo osobiste"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Recenzje produktów"
+            
+              , "Gadżety"
+            
+              , "Ochrona danych"
+            
+              , "Kradzież tożsamości"
+            
+              , "Handel elektroniczny"
+            
+              , "Porady konsumenckie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/rfid-blocking-products-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj produkty blokujące RFID pod kątem ekranowania, zastosowań, materiałów i kryteriów zakupu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/rfid-blocking-products.webp" length="59800" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Większa ochrona prywatności danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</link>
+        
+        <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Prywatność"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona cyfrowa"
+            
+              , "Akcesoria techniczne"
+            
+              , "Szyfrowanie danych"
+            
+              , "Bezpieczeństwo w sieci"
+            
+              , "Urządzenia gotowe do użycia"
+            
+              , "Prywatność cyfrowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sprzętowe blokady USB i szyfrowane dyski dostępne na Amazonie. Wzmocnij ochronę swoich danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/usb-data-lock-vault.webp" length="94076" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpiecz swoją sieć domową</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</link>
+        
+        <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Sieć domowa"
+            
+              , "Rekomendacje sprzętu"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Bezpieczeństwo Internetu"
+            
+              , "Sieci domowe"
+            
+              , "Technologia"
+            
+              , "Inteligentny dom"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sprzęt potrzebny do ochrony domowej sieci przed cyberzagrożeniami. Artykuł omawia sprzętowe zapory, punkty dostępowe i narzędzia monitorujące.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/fortified-network-security.webp" length="61592" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczna poczta e-mail: Zwiększenie prywatności dzięki StartMail</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-email-service-startmail/</link>
+        
+        <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Prywatność"
+            
+              , "Usługi e-mail"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Szyfrowanie"
+            
+              , "Ochrona danych"
+            
+              , "Prywatność poczty e-mail"
+            
+              , "Ochrona tożsamości"
+            
+              , "Prywatność online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-email-service-startmail/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj aliasy e-mail StartMail, szyfrowanie PGP, wiadomości chronione hasłem oraz ograniczenia szyfrowanej poczty.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure_email_guard.webp" length="45872" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Karty Wirtualne Privacy.com: Jak działa prywatność płatności</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</link>
+        
+        <pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo płatności"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Karty wirtualne"
+            
+              , "Prywatność finansowa"
+            
+              , "Zapobieganie oszustwom"
+            
+              , "Bezpieczeństwo konsumenta"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Co jest przechowywane na karcie płatniczej, dlaczego pasek magnetyczny jest jej najsłabszą częścią, co widzi sprzedawca, gdy płacisz wirtualnym numerem, oraz jak w praktyce działają typy kart i limity Privacy.com.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/privacy_virtual_cards.webp" length="71286" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze Przeglądarki Prywatności 2026: LibreWolf vs Brave vs Tor</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link>
+        
+        <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przeglądarki"
+            
+              , "Prywatność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Internet"
+            
+              , "Technologia"
+            
+              , "Prywatność Cyfrowa"
+            
+              , "Bezpieczeństwo Online"
+            
+              , "Otwarte oprogramowanie"
+            
+              , "Anonimowość"
+            
+              , "Przeglądanie Sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowe porównanie najlepszych przeglądarek skoncentrowanych na prywatności w 2026 roku: LibreWolf, Brave, Firefox, Tor i inne. Szczegółowe testy prywatności, benchmarki wydajności oraz analiza bezpieczeństwa chroniąca Twoje dane online.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Chroń swoją prywatność: usługa usuwania danych OneRep</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/onerep-data-removal-privacy-service/</link>
+        
+        <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Rozwiązania dotyczące prywatności"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Bezpieczeństwo w internecie"
+            
+              , "Dane osobowe"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Ochrona tożsamości"
+            
+              , "Zarządzanie danymi"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/onerep-data-removal-privacy-service/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak OneRep pomaga usuwać dane osobowe i chronić prywatność w internecie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/onerep-privacy-shield.webp" length="48096" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bitwa o Prywatność Danych: Albine DeleteMe vs OneRep vs Incogni</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/data-privacy-battle-albine-blur-onerep-incogni/</link>
+        
+        <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Prywatność Danych"
+            
+              , "Bezpieczeństwo Online"
+            
+              , "Ochrona Danych"
+            
+              , "Rozwiązania Prywatności"
+            
+              , "Zapobieganie Kradzieży Tożsamości"
+            
+              , "Prywatność Cyfrowa"
+            
+              , "Usuwanie Informacji Osobistych"
+            
+              , "Pośrednicy Danych"
+            
+              , "Automatyczne Usuwanie Danych"
+            
+              , "Zarządzanie Prywatnością"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/data-privacy-battle-albine-blur-onerep-incogni/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze usługi usuwania danych! Porównaj Albine DeleteMe, OneRep i Incogni, aby uzyskać najwyższą ochronę prywatności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/data_privacy_warriors.webp" length="299552" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Co zrobić, gdy zostałeś doxxedowany: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-to-do-when-youve-been-doxxed-guide/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Ochrona prywatności"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Ochrona danych osobowych"
+            
+              , "Zapobieganie cyberprzestępczości"
+            
+              , "Kradzież tożsamości"
+            
+              , "Nękanie online"
+            
+              , "Cyfrowa samoobrona"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-to-do-when-youve-been-doxxed-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj podstawowe kroki, które należy podjąć, gdy zostałeś doxxed, w tym jak usunąć dane osobowe, wzmocnić bezpieczeństwo online, zgłosić incydent, szukać wsparcia i zbadać możliwości prawne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_protecting_their_personal_information.webp" length="89182" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Odkrywanie Dark Webu: ukryte usługi i zagrożenia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/exploring-the-dark-web/</link>
+        
+        <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia i internet"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Działalność przestępcza"
+            
+              , "Kryptowaluty"
+            
+              , "Rynki internetowe"
+            
+              , "Platformy komunikacyjne"
+            
+              , "Ujawnianie nieprawidłowości"
+            
+              , "Prawa cyfrowe"
+            
+              , "Organy ścigania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/exploring-the-dark-web/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj Dark Web, jego ukryte usługi i potencjalne zagrożenia po mniej widocznej stronie internetu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_cartoon-style_image_depicting_a_locked_door_with.webp" length="214932" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpiecz swoją sieć domową</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-a-secure-home-network/</link>
+        
+        <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo sieci domowej"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona urządzeń"
+            
+              , "Bezpieczeństwo w internecie"
+            
+              , "Bezpieczeństwo inteligentnego domu"
+            
+              , "Prywatność w sieci"
+            
+              , "Zagrożenia internetowe"
+            
+              , "Wskazówki dotyczące bezpieczeństwa w internecie"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Obrona cybernetyczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-a-secure-home-network/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak chronić sieć domową i podłączone urządzenia przed cyberzagrożeniami, korzystając z tych ważnych wskazówek i narzędzi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/building-a-secure-home-network.webp" length="167198" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze menedżery haseł 2026: Bitwarden kontra KeePassXC</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/</link>
+        
+        <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie hasłami"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Ochrona danych"
+            
+              , "Szyfrowanie"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Narzędzia internetowe"
+            
+              , "Przechowywanie w chmurze"
+            
+              , "Porównanie oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie menedżerów haseł z 2026 roku. Obejmuje Bitwarden, KeePassXC, 1Password, LastPass, Dashlane i Proton Pass.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/bitwarden-and-keepassxc-vs-the-rest.webp" length="241120" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

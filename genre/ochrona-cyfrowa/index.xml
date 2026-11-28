@@ -1,0 +1,387 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ochrona Cyfrowa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Ochrona Cyfrowa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/ochrona-cyfrowa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/ochrona-cyfrowa/</link>
+
+    <description>Recent content in Ochrona Cyfrowa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/ochrona-cyfrowa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego oprogramowanie open source przewyższa oprogramowanie własnościowe pod względem bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/open-source-software-security/</link>
+        
+        <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Oprogramowanie o otwartym kodzie źródłowym"
+            
+              , "Bezpieczeństwo oprogramowania"
+            
+              , "Regulacje rządowe"
+            
+              , "Rozwój oparty na współpracy"
+            
+              , "Ochrona cyfrowa"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Trendy technologiczne"
+            
+              , "Bezpieczeństwo w sieci"
+            
+              , "Prywatność danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/open-source-software-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, dlaczego oprogramowanie open source uchodzi za bezpieczniejsze od własnościowego oraz jak przejrzystość i współpraca chronią zasoby cyfrowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/open-source-software-security.webp" length="61142" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Firewalla w domu: zabezpieczenia sieci domowej i homelabu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/firewalla-home-network-security-guide/</link>
+        
+        <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Sieć domowa"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Homelaby"
+            
+              , "Ochrona cyfrowa"
+            
+              , "Wykrywanie włamań"
+            
+              , "Filtrowanie treści"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/firewalla-home-network-security-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, jak Firewalla wspiera bezpieczeństwo sieci domowej, czy sprawdza się w homelabie oraz jakie ma zalety i ograniczenia.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/firewalla-home-network-security.webp" length="57452" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczeństwo EDR od podstaw: przewodnik po ochronie punktów końcowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link>
+        
+        <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Ochrona punktów końcowych"
+            
+              , "Rozwiązania EDR"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Bezpieczeństwo punktów końcowych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona cyfrowa"
+            
+              , "Strategie bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj działanie, zalety i wyzwania związane z wdrażaniem EDR oraz dobre praktyki, które pomagają chronić punkty końcowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Większa ochrona prywatności danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</link>
+        
+        <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Prywatność"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona cyfrowa"
+            
+              , "Akcesoria techniczne"
+            
+              , "Szyfrowanie danych"
+            
+              , "Bezpieczeństwo w sieci"
+            
+              , "Urządzenia gotowe do użycia"
+            
+              , "Prywatność cyfrowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sprzętowe blokady USB i szyfrowane dyski dostępne na Amazonie. Wzmocnij ochronę swoich danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/usb-data-lock-vault.webp" length="94076" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Porównanie bezpiecznych usług e-mail: StartMail, ProtonMail czy Tutanota?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</link>
+        
+        <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Prywatność danych"
+            
+              , "Usługi e-mail"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Szyfrowanie"
+            
+              , "Narzędzia internetowe"
+            
+              , "Porównanie"
+            
+              , "Ochrona cyfrowa"
+            
+              , "Prywatność online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepszą bezpieczną usługę e-mail! Szczegółowe porównanie StartMail, ProtonMail i Tutanota, zapewniające prywatność online
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-email-showdown.webp" length="84184" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

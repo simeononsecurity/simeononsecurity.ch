@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryzyka Wewnętrzne on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Ryzyka Wewnętrzne on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ryzyka-wewn%C4%99trzne/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ryzyka-wewn%C4%99trzne/</link>
+
+    <description>Recent content in Ryzyka Wewnętrzne on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ryzyka-wewn%C4%99trzne/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Strategie ochrony firmy przed zagrożeniami wewnętrznymi</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</link>
+        
+        <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo korporacyjne"
+            
+              , "Zagrożenia wewnętrzne"
+            
+              , "Ochrona danych"
+            
+              , "Szkolenia pracowników"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Analiza zachowań"
+            
+              , "Monitorowanie aktywności użytkowników"
+            
+              , "Kultura bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ogranicz ryzyko zagrożeń wewnętrznych dzięki kontroli dostępu, monitorowaniu aktywności, kanałom zgłaszania, procedurom offboardingu i kulturze bezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/protecting-against-insider-threats_-strategies-for-your-company.webp" length="87882" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

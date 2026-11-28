@@ -1,0 +1,103 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zestaw Odzyskiwania Po Awarii on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Zestaw Odzyskiwania Po Awarii on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zestaw-odzyskiwania-po-awarii/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zestaw-odzyskiwania-po-awarii/</link>
+
+    <description>Recent content in Zestaw Odzyskiwania Po Awarii on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zestaw-odzyskiwania-po-awarii/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Praktyczne porady dla terenowego IT: poza mini centrum danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Terenowe IT"
+            
+              , "Edge computing"
+            
+              , "Operacje IT"
+            
+              , "Odzyskiwanie po awarii"
+            
+              , "Sprzęt"
+            
+              , "Dobre praktyki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/field-it-tidbits-beyond-the-mini-datacenter/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyczny przewodnik po terenowym IT: części zapasowe, dokumentacja, ESD, firmware, nośniki rozruchowe, licencje, ochrona fizyczna, podróże i ubezpieczenie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/field-it-deployment-spares-kit.webp" length="263632" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

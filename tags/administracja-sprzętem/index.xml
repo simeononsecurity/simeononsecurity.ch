@@ -1,0 +1,113 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Administracja Sprzętem on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Administracja Sprzętem on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/administracja-sprz%C4%99tem/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/administracja-sprz%C4%99tem/</link>
+
+    <description>Recent content in Administracja Sprzętem on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 12 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/administracja-sprz%C4%99tem/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czym jest administracja systemami?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-system-administration/</link>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Administracja systemami"
+            
+              , "Administracja sieciami"
+            
+              , "Administracja Windows"
+            
+              , "Administracja Linux"
+            
+              , "Administracja sprzętem"
+            
+              , "Administracja oprogramowaniem"
+            
+              , "Wirtualizacja"
+            
+              , "Platformy chmurowe"
+            
+              , "IaaS"
+            
+              , "SaaS"
+            
+              , "HaaS"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-system-administration/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawowe umiejętności administracji systemami Windows i Linux, sprzętem, oprogramowaniem, wirtualizacją oraz usługami chmurowymi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_system_administrator_sitting_at_a_desk.webp" length="141022" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

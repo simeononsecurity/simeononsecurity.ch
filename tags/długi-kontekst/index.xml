@@ -1,0 +1,278 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Długi Kontekst on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Długi Kontekst on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/d%C5%82ugi-kontekst/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/d%C5%82ugi-kontekst/</link>
+
+    <description>Recent content in Długi Kontekst on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/d%C5%82ugi-kontekst/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Lokalne modele Hermes w testach: jakie zestawy GPU i modeli bym wybrał</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link>
+        
+        <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Lokalna AI"
+            
+              , "Sprzęt komputerowy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Moje rekomendacje modeli Hermes wynikają z testów długiego kontekstu, narzędzi, strumieniowania i obrazów na systemach RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti oraz RTX 3070.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>2x RTX 5060 Ti kontra GB10: lokalny benchmark AI pięciu modeli przy kontekście 256K</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Lokalna AI"
+            
+              , "Sprzęt GPU"
+            
+              , "Benchmarki"
+            
+              , "Sprzęt komputerowy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie RTX 5060 Ti z GB10 dla pięciu modeli oraz benchmark Qwen3.8 Flash-Next na Strata, wykonany na tym samym hoście przy kontekście do 256K.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>32 GB VRAM dla Qwen 27B: przewodnik po sprzęcie lokalnej AI na październik 2026</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link>
+        
+        <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Sprzęt AI"
+            
+              , "Benchmarking GPU"
+            
+              , "Samodzielnie hostowana AI"
+            
+              , "Sprzęt komputerowy"
+            
+              , "Ekonomia AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyczny przewodnik na październik 2026 dotyczący uruchamiania modelu Qwen 27B z 32 GB użytecznej pamięci akceleratora. Porównaj pojedyncze GPU, zestawy z dwiema kartami, pamięć współdzieloną, używane karty centrów danych, wynajmowaną moc obliczeniową, obsługę oprogramowania i limity pełnego kontekstu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Benchmarki GPU modeli Llama 3.1 8B i Qwen3.8 27B na Vast.ai</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link>
+        
+        <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna sztuczna inteligencja"
+            
+              , "Benchmarki GPU"
+            
+              , "Samodzielnie hostowana AI"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Ekonomia AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj zmierzone wyniki Ollama dla Llama 3.1 8B i Qwen3.8 27B na GPU Vast.ai, ich koszty i opcje hostingu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

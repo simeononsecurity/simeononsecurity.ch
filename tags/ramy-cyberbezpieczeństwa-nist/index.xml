@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ramy Cyberbezpieczeństwa NIST on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Ramy Cyberbezpieczeństwa NIST on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ramy-cyberbezpiecze%C5%84stwa-nist/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ramy-cyberbezpiecze%C5%84stwa-nist/</link>
+
+    <description>Recent content in Ramy Cyberbezpieczeństwa NIST on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 21 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ramy-cyberbezpiecze%C5%84stwa-nist/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego zgodność z przepisami nie gwarantuje bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</link>
+        
+        <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Praktyki bezpieczeństwa"
+            
+              , "Ochrona danych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Normy regulacyjne"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Bezpieczeństwo firmy"
+            
+              , "Prywatność cyfrowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj luki, które pozostawiają listy kontrolne zgodności, a następnie wzmocnij ochronę dzięki ocenie ryzyka, testom, monitorowaniu, szkoleniom i audytom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/compliance-security-shield.webp" length="87866" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie systemów Windows i Linux</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link>
+        
+        <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Języki skryptowe"
+            
+              , "Bezpieczeństwo systemów"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "Regulacje rządowe"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Bezpieczne skrypty"
+            
+              , "Zgodność"
+            
+              , "Programowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sposoby wzmacniania zabezpieczeń systemów za pomocą PowerShell i Python w tej analizie cyberbezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

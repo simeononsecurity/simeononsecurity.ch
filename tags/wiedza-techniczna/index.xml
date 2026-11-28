@@ -1,0 +1,291 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wiedza Techniczna on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Wiedza Techniczna on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wiedza-techniczna/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wiedza-techniczna/</link>
+
+    <description>Recent content in Wiedza Techniczna on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wiedza-techniczna/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najważniejsze języki programowania dla współczesnych programistów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</link>
+        
+        <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Tworzenie oprogramowania"
+            
+              , "Edukacja programistyczna"
+            
+              , "Kariera w IT"
+            
+              , "Samouczki programowania"
+            
+              , "Umiejętności cyfrowe"
+            
+              , "Tworzenie aplikacji"
+            
+              , "Informatyka"
+            
+              , "Nowe technologie"
+            
+              , "Języki programowania"
+            
+              , "Narzędzia programistyczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj języki programowania potrzebne do tworzenia dynamicznego oprogramowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/fundamentals-of-coding_-languages-you-should-know.webp" length="71288" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Znajdowanie i zabezpieczanie zdalnych ofert pracy w cyberbezpieczeństwie: Twój przewodnik po sukcesie</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/how-to-find-and-get-the-best-remote-cybersecurity-job/</link>
+        
+        <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "zdalne oferty pracy w obszarze cyberbezpieczeństwa"
+            
+              , "Znajdowanie pracy zdalnej"
+            
+              , "zabezpieczanie pracy zdalnej"
+            
+              , "kariery w cyberbezpieczeństwie"
+            
+              , "możliwości pracy zdalnej"
+            
+              , "Platformy pracy online"
+            
+              , "cyberbezpieczeństwo poszukiwanie pracy"
+            
+              , "równowaga między życiem zawodowym a prywatnym"
+            
+              , "satysfakcja z pracy"
+            
+              , "globalny rynek pracy"
+            
+              , "strategie poszukiwania pracy"
+            
+              , "ogłoszenia o pracę"
+            
+              , "networking"
+            
+              , "freelancing"
+            
+              , "kontrakty rządowe"
+            
+              , "wiedza techniczna"
+            
+              , "certyfikaty cyberbezpieczeństwa"
+            
+              , "umiejętności rozwiązywania problemów"
+            
+              , "umiejętności komunikacyjne"
+            
+              , "Motywacja własna"
+            
+              , "wywiady zdalne"
+            
+              , "wskazówki dotyczące CV"
+            
+              , "wskazówki dotyczące listu motywacyjnego"
+            
+              , "podstawy cyberbezpieczeństwa"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "analiza zagrożeń"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "reakcja na incydent"
+            
+              , "Trendy w branży cyberbezpieczeństwa"
+            
+              , "wirtualna współpraca"
+            
+              , "umiejętności zarządzania czasem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/how-to-find-and-get-the-best-remote-cybersecurity-job/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak znaleźć i zabezpieczyć najlepsze zdalne oferty pracy w obszarze cyberbezpieczeństwa, wykorzystując elastyczność i globalne możliwości w tej rozwijającej się dziedzinie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_working_on_a_laptop_with.webp" length="118806" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>TrueNAS vs Unraid: który system operacyjny NAS jest najlepszy?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</link>
+        
+        <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Systemy pamięci masowej"
+            
+              , "Pamięć masowa w sieci"
+            
+              , "Zarządzanie danymi"
+            
+              , "Systemy operacyjne NAS"
+            
+              , "Porównanie"
+            
+              , "Ochrona danych"
+            
+              , "Pamięć domowa"
+            
+              , "Pamięć firmowa"
+            
+              , "Otwarte oprogramowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj TrueNas i Unraid pod kątem projektu pamięci masowej, łatwości obsługi, funkcji, dokumentacji, społeczności i dopasowania do obciążenia.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.webp" length="189060" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

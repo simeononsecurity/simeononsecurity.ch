@@ -1,0 +1,168 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ai Chroniąca Prywatność on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Ai Chroniąca Prywatność on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ai-chroni%C4%85ca-prywatno%C5%9B%C4%87/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ai-chroni%C4%85ca-prywatno%C5%9B%C4%87/</link>
+
+    <description>Recent content in Ai Chroniąca Prywatność on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ai-chroni%C4%85ca-prywatno%C5%9B%C4%87/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Lokalna AI w 2026 roku: model 27B pokonuje Sonnet 4.6, a okno na sprzęt się zamyka</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link>
+        
+        <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Samodzielnie hostowana AI"
+            
+              , "Modele z otwartymi wagami"
+            
+              , "Sprzęt AI"
+            
+              , "Uczenie maszynowe"
+            
+              , "Kwantyzacja"
+            
+              , "Domowe laboratorium"
+            
+              , "Prywatność"
+            
+              , "Ekonomia AI"
+            
+              , "Sprzęt konsumencki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zaplanuj lokalny zestaw AI na 2026 rok, uwzględniając rozmiar modelu, VRAM, przepustowość pamięci, pobór mocy, koszt i możliwości rozbudowy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowa asystenta AI chroniącego prywatność dla Meshtastic</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link>
+        
+        <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo sieci"
+            
+              , "Prywatność"
+            
+              , "Oprogramowanie open source"
+            
+              , "Automatyzacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyczny opis lokalnego asystenta AI dla Meshtastic z prywatną konfiguracją, kolejkowanym dostępem TCP, narzędziami pobierania danych i bezpieczniejszym panelem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infekcje Złośliwym Oprogramowaniem on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Infekcje Złośliwym Oprogramowaniem on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/infekcje-z%C5%82o%C5%9Bliwym-oprogramowaniem/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/infekcje-z%C5%82o%C5%9Bliwym-oprogramowaniem/</link>
+
+    <description>Recent content in Infekcje Złośliwym Oprogramowaniem on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/infekcje-z%C5%82o%C5%9Bliwym-oprogramowaniem/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Anatomia cyberataku: jak hakerzy przełamują zabezpieczenia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</link>
+        
+        <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zagrożenia cybernetyczne"
+            
+              , "Taktyki hakerskie"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Strategie cyberataków"
+            
+              , "Techniki eksfiltracji danych"
+            
+              , "Ataki phishingowe"
+            
+              , "Infekcje złośliwym oprogramowaniem"
+            
+              , "Eskalacja uprawnień"
+            
+              , "Ruch boczny"
+            
+              , "Środki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj przebieg cyberataku od początkowego dostępu przez eskalację uprawnień, ruch boczny i utrwalenie obecności po eksfiltrację danych. Sprawdź zabezpieczenia dla każdego etapu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses.webp" length="296326" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

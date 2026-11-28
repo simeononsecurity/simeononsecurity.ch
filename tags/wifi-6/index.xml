@@ -1,0 +1,222 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WiFi 6 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>WiFi 6 on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wifi-6/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wifi-6/</link>
+
+    <description>Recent content in WiFi 6 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wifi-6/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubiquiti UniFi Express: test kompaktowej bramy i punktu dostępowego WiFi 6</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/exploring-unifi-express-all-in-one-network-gateway/</link>
+        
+        <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Recenzje techniczne"
+            
+              , "Rozwiązania sieciowe"
+            
+              , "Konfiguracja sieci domowej"
+            
+              , "Urządzenia WiFi 6"
+            
+              , "Informacje o UniFi Express"
+            
+              , "Kompaktowa brama"
+            
+              , "Bezprzewodowe punkty dostępowe"
+            
+              , "Produkty Ubiquiti"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Sieci małych firm"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/exploring-unifi-express-all-in-one-network-gateway/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj UniFi Express, kompaktową bramę z punktem dostępowym WiFi 6 i uproszczonym zarządzaniem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/UniFi_Express_Connectivity.webp" length="64240" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ostateczna konfiguracja UniFi: prosta i zaawansowana z montażem w szafie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "UniFi"
+            
+              , "sieć domowa"
+            
+              , "rozwiązanie okablowania"
+            
+              , "UniFi Dream Router"
+            
+              , "kompletna konfiguracja"
+            
+              , "sprzęt sieciowy"
+            
+              , "kable Ethernet"
+            
+              , "panel krosowy"
+            
+              , "płytki ścienne"
+            
+              , "gniazda keystone"
+            
+              , "szafa serwerowa sieci"
+            
+              , "UniFi Switch"
+            
+              , "UniFi Flex"
+            
+              , "UniFi Dream Machine"
+            
+              , "WiFi 6"
+            
+              , "przewodnik po okablowaniu domowym"
+            
+              , "niezawodne połączenie"
+            
+              , "zaawansowane zabezpieczenia"
+            
+              , "płynna integracja"
+            
+              , "zarządzanie kablami"
+            
+              , "profesjonalna instalacja"
+            
+              , "akcesoria sieciowe"
+            
+              , "skalowalność"
+            
+              , "sieć odporna na przyszłość"
+            
+              , "prosta sieć domowa"
+            
+              , "kompletne okablowanie domu"
+            
+              , "sieć o wysokiej wydajności"
+            
+              , "produkty UniFi"
+            
+              , "infrastruktura sieciowa"
+            
+              , "łączność internetowa"
+            
+              , "płynne przeglądanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj idealną konfigurację UniFi dla potrzeb okablowania domowego, od prostego i ekonomicznego rozwiązania po kompletną sieć z zaawansowanymi funkcjami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_home_with_interconnected_devices.webp" length="88568" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

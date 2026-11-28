@@ -1,0 +1,137 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zgodność Systemu Windows on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Zgodność Systemu Windows on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zgodno%C5%9B%C4%87-systemu-windows/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zgodno%C5%9B%C4%87-systemu-windows/</link>
+
+    <description>Recent content in Zgodność Systemu Windows on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zgodno%C5%9B%C4%87-systemu-windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Standalone-Windows-STIG-Script: utwórz zgodny komputer</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Skrypt STIG"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Zgodny system Windows"
+            
+              , "Utwardzanie systemu"
+            
+              , "Windows STIG"
+            
+              , "Bezpieczny Windows"
+            
+              , "Zgodność systemu Windows"
+            
+              , "Instalacja ręczna"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Adobe Reader"
+            
+              , "Firefox"
+            
+              , "Chrome"
+            
+              , "Internet Explorer 11"
+            
+              , ".NET Framework"
+            
+              , "Office"
+            
+              , "OneDrive"
+            
+              , "Java"
+            
+              , "Windows Defender"
+            
+              , "Zapora systemu Windows"
+            
+              , "Środki ograniczające ryzyko"
+            
+              , "Nessus PID"
+            
+              , "VMware Horizon"
+            
+              , "Opcjonalne utwardzanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Instrukcja krok po kroku korzystania ze Standalone-Windows-STIG-Script w zgodnych systemach Windows, z parametrami i weryfikacją.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script.webp" length="159414" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,732 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Obrona Cybernetyczna on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Obrona Cybernetyczna on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/obrona-cybernetyczna/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/obrona-cybernetyczna/</link>
+
+    <description>Recent content in Obrona Cybernetyczna on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/obrona-cybernetyczna/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanuj OPSEC: 6 kluczowych kroków do bezpieczeństwa cyfrowego</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</link>
+        
+        <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Bezpieczeństwo operacyjne"
+            
+              , "Prywatność w Internecie"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Bezpieczeństwo internetowe"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Zagrożenia online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sześć kluczowych kroków OPSEC, które chronią Twoją obecność cyfrową i wzmacniają cyberbezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/OPSEC_Steps_Security.webp" length="216778" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zbuduj swoją przyszłość w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/microsoft-security-certification-path/</link>
+        
+        <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Certyfikaty"
+            
+              , "Microsoft"
+            
+              , "Rozwój kariery"
+            
+              , "Szkolenia IT"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Kompetencje zawodowe"
+            
+              , "Edukacja technologiczna"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Nauka online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/microsoft-security-certification-path/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj ścieżkę certyfikacji bezpieczeństwa Microsoft i dowiedz się, jak certyfikaty wspierają karierę w cyberbezpieczeństwie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity-padlock-shield.webp" length="124498" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Task Scheduler a Linux Cron: porównanie bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link>
+        
+        <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Systemy operacyjne"
+            
+              , "Automatyzacja systemów"
+            
+              , "Narzędzia bezpieczeństwa"
+            
+              , "Technologia komputerowa"
+            
+              , "Planowanie zadań"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Administracja systemami"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Zarządzanie IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj Windows Task Scheduler i zadania Cron w systemie Linux z perspektywy cyberbezpieczeństwa i utwardzania systemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mistrzostwo w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-risk-management-framework-cybersecurity/</link>
+        
+        <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Przepisy rządowe"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona danych"
+            
+              , "Mechanizmy bezpieczeństwa"
+            
+              , "Wytyczne NIST"
+            
+              , "Ciągłe monitorowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-risk-management-framework-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kluczowe ramy zarządzania ryzykiem (RMF) w cyberbezpieczeństwie, ich elementy i znaczenie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_shield_protection.webp" length="120532" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mistrzowskie reagowanie na incydenty cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-cybersecurity-incident-response-guide/</link>
+        
+        <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Ochrona danych"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Naruszenie danych"
+            
+              , "Reagowanie kryzysowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-cybersecurity-incident-response-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zasady skutecznego reagowania na incydenty cyberbezpieczeństwa. Ten obszerny poradnik pomoże chronić organizację przed zagrożeniami i zwiększyć jej odporność.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cybersecurity_Incident_Response_Fortress.webp" length="137924" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Cyberbezpieczeństwo od podstaw: przewodnik po bezpieczniejszym świecie cyfrowym</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</link>
+        
+        <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Bezpieczeństwo w sieci"
+            
+              , "Ochrona informacji"
+            
+              , "Prywatność danych"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Wskazówki dotyczące bezpieczeństwa w sieci"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Bezpieczna praca z komputerem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kluczowe praktyki cyberbezpieczeństwa, które chronią Twoje cyfrowe życie i zasoby. Dowiedz się więcej o zagrożeniach i bezpiecznym korzystaniu z sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cybersecurity-Shield-Protection.webp" length="114598" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Chroń swoją prywatność: usługa usuwania danych OneRep</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/onerep-data-removal-privacy-service/</link>
+        
+        <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Rozwiązania dotyczące prywatności"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Bezpieczeństwo w internecie"
+            
+              , "Dane osobowe"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Ochrona tożsamości"
+            
+              , "Zarządzanie danymi"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/onerep-data-removal-privacy-service/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak OneRep pomaga usuwać dane osobowe i chronić prywatność w internecie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/onerep-privacy-shield.webp" length="48096" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NIST Cybersecurity Framework a ISO 27001: porównanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</link>
+        
+        <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Ramy bezpieczeństwa"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Ochrona danych"
+            
+              , "Zgodność"
+            
+              , "Ład IT"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Ryzyko cybernetyczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice między NIST Cybersecurity Framework a ISO 27001, aby świadomie wybrać ramy bezpieczeństwa odpowiednie dla swojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_shield_protecting_a_network_of.webp" length="102920" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpiecz swoją sieć domową</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-a-secure-home-network/</link>
+        
+        <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo sieci domowej"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona urządzeń"
+            
+              , "Bezpieczeństwo w internecie"
+            
+              , "Bezpieczeństwo inteligentnego domu"
+            
+              , "Prywatność w sieci"
+            
+              , "Zagrożenia internetowe"
+            
+              , "Wskazówki dotyczące bezpieczeństwa w internecie"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Obrona cybernetyczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-a-secure-home-network/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak chronić sieć domową i podłączone urządzenia przed cyberzagrożeniami, korzystając z tych ważnych wskazówek i narzędzi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/building-a-secure-home-network.webp" length="167198" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox czy TryHackMe: co wybrać?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hackthebox-vs-tryhackme-what-is-best/</link>
+        
+        <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Testy penetracyjne"
+            
+              , "Etyczne hakowanie"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Informatyka śledcza"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Bezpieczeństwo aplikacji internetowych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hackthebox-vs-tryhackme-what-is-best/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj HackTheBox i TryHackMe pod względem trudności, wsparcia, społeczności i ścieżki nauki testów penetracyjnych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_in_a_lab_coat_standing_between_two_doors.webp" length="87086" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

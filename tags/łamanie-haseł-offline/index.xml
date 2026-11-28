@@ -1,0 +1,89 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Łamanie Haseł Offline on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Łamanie Haseł Offline on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/%C5%82amanie-hase%C5%82-offline/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/%C5%82amanie-hase%C5%82-offline/</link>
+
+    <description>Recent content in Łamanie Haseł Offline on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/%C5%82amanie-hase%C5%82-offline/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Thunderbird 153.6: Ujawnienie danych uwierzytelniających NTLM w Windows i aktualizacja (2026)</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link>
+        
+        <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo poczty e-mail"
+            
+              , "Bezpieczeństwo Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dwie poważne luki w Thunderbirdzie mogą ujawnić dane uwierzytelniające NTLM w Windows po wyświetleniu spreparowanej wiadomości. Poznaj oba mechanizmy, sprawdź wersję programu i ogranicz wychodzący ruch SMB podczas aktualizacji.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

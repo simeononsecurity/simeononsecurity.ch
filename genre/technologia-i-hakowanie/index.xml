@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technologia I Hakowanie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Technologia I Hakowanie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/technologia-i-hakowanie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/technologia-i-hakowanie/</link>
+
+    <description>Recent content in Technologia I Hakowanie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 02 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/technologia-i-hakowanie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Odkrywamy świat hakera sprzętowego</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hardware-hacker-essential-tools-techniques/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia i hakowanie"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Hakowanie sprzętu"
+            
+              , "Narzędzia hakerskie"
+            
+              , "Elektronika"
+            
+              , "Internet rzeczy"
+            
+              , "Samodzielne hakowanie"
+            
+              , "Inżynieria wsteczna"
+            
+              , "Mikrokontrolery"
+            
+              , "Hakowanie łączności bezprzewodowej"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hardware-hacker-essential-tools-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj świat hakowania sprzętu oraz podstawowe narzędzia i techniki wykorzystywane do analizy i modyfikowania urządzeń elektronicznych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_art_style_depicting_a_hacker_surrou.webp" length="181862" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

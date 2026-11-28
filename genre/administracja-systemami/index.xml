@@ -1,0 +1,778 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Administracja Systemami on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Administracja Systemami on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/administracja-systemami/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/administracja-systemami/</link>
+
+    <description>Recent content in Administracja Systemami on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/administracja-systemami/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Open WebUI v0.12.4: lista kontrolna aktualizacji i kontroli dostępu 2026</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link>
+        
+        <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Samodzielnie hostowana sztuczna inteligencja"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Administracja systemami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Utwórz kopię zapasową Open WebUI i zaktualizuj je do wersji v0.12.4. Następnie sprawdź udostępnianie czatów, uprawnienia eksportu, dostęp do zasobów, konta i dostęp sieciowy.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>1Password SSH Agent i CLI: dostęp tylko do odczytu dla agentów AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Administracja systemami"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Automatyzacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zaprojektuj workflow tylko do odczytu z użyciem 1Password CLI, SSH Agent oraz MCP. Wykorzystaj syntetyczne polecenia, zawężone uprawnienia i zatwierdzenie przez człowieka przed testami na żywo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Klucze SSH Bitbucket Cloud: dostęp Git tylko do odczytu dla agentów AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo chmury"
+            
+              , "Narzędzia dla programistów"
+            
+              , "Administracja systemami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Skonfiguruj klucze SSH Bitbucket Cloud, dostęp Git CLI, tokeny REST API, 1Password i narzędzia MCP dla procesów agentów AI działających tylko do odczytu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Migracja maszyny wirtualnej Hyper-V do Proxmox VE: odwracalna lista kontrolna</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wirtualizacja"
+            
+              , "Administracja systemami"
+            
+              , "Domowe laboratorium"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hyper-v-to-proxmox-migration-checklist/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przenieś maszynę wirtualną Hyper-V do Proxmox VE przez eksport wyłączonego źródła, dopasowanie firmware, import dysków, odizolowany test rozruchu i plan wycofania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/hyper-v-to-proxmox-migration-checklist.webp" length="113814" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dobierz zasilacz UPS do homelabu i przetestuj automatyczne wyłączanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Laboratorium domowe"
+            
+              , "Ochrona zasilania"
+            
+              , "Administracja systemami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ups-runtime-sizing-shutdown-test/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zmierz pobór mocy homelabu, porównaj limity W i VA zasilacza UPS, sprawdź czas pracy przy swoim obciążeniu i przetestuj bezpieczne wyłączanie, zanim zaufasz zasilaniu z baterii.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ups-runtime-sizing-shutdown-test.webp" length="107200" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Znajdź klucz odzyskiwania BitLocker przed ponowną instalacją Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zabezpieczenia Windows"
+            
+              , "Odzyskiwanie danych"
+            
+              , "Administracja systemami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-bitlocker-recovery-before-reinstall/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Znajdź i sprawdź właściwy klucz odzyskiwania BitLocker, zabezpiecz oddzielną kopię zapasową i wybierz właściwą metodę odzyskiwania lub ponownej instalacji Windows przed wymazaniem dysku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/windows-bitlocker-recovery-before-reinstall.webp" length="102534" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible vs Puppet vs Chef 2026: zarządzanie konfiguracją</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "Automatyzacja infrastruktury"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Operacje IT"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Administracja systemami"
+            
+              , "IT dla przedsiębiorstw"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Infrastruktura IT"
+            
+              , "Narzędzia automatyzacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie Ansible, Puppet i Chef z 2026 roku obejmujące architekturę, funkcje, krzywą uczenia, wydajność, ceny i zastosowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NAT i PAT: niezbędny przewodnik po komunikacji sieciowej</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</link>
+        
+        <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Podstawy sieci"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Infrastruktura IT"
+            
+              , "Poradniki techniczne"
+            
+              , "Zarządzanie siecią"
+            
+              , "Protokoły internetowe"
+            
+              , "Technologie komunikacyjne"
+            
+              , "Administracja systemami"
+            
+              , "Inżynieria sieciowa"
+            
+              , "Sieci cyfrowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/demystifying-network-address-translation-nat-and-port-address-translation-pat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj NAT i PAT, aby usprawnić komunikację cyfrową.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/demystifying-network-address-translation-%28nat%29-and-port-address-translation-%28pat%29.webp" length="177524" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanuj funkcje kopiowania: sprawniejsze zarządzanie plikami w systemie operacyjnym</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</link>
+        
+        <pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Zarządzanie plikami"
+            
+              , "Systemy operacyjne"
+            
+              , "Przesyłanie danych"
+            
+              , "Organizacja danych"
+            
+              , "Umiejętności komputerowe"
+            
+              , "Porady IT"
+            
+              , "Wydajność systemu operacyjnego"
+            
+              , "Administracja systemami"
+            
+              , "Narzędzia programowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zaawansowane funkcje kopiowania w systemach operacyjnych i dowiedz się, jak szybko zarządzać plikami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/copying-with-intelligence_-understanding-different-copy-functions-in-operating-systems.webp" length="92028" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Task Scheduler a Linux Cron: porównanie bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link>
+        
+        <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Systemy operacyjne"
+            
+              , "Automatyzacja systemów"
+            
+              , "Narzędzia bezpieczeństwa"
+            
+              , "Technologia komputerowa"
+            
+              , "Planowanie zadań"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Administracja systemami"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Zarządzanie IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj Windows Task Scheduler i zadania Cron w systemie Linux z perspektywy cyberbezpieczeństwa i utwardzania systemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerCLI w zarządzaniu vSphere</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link>
+        
+        <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Wirtualizacja"
+            
+              , "VMware"
+            
+              , "Zarządzanie IT"
+            
+              , "Automatyzacja"
+            
+              , "Interfejs wiersza poleceń"
+            
+              , "Skrypty"
+            
+              , "Administracja systemami"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Zarządzanie centrum danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj PowerCLI do zarządzania VMware vSphere, automatyzacji zadań i zwiększania produktywności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumieć filtrowanie WMI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zarządzanie systemem Windows"
+            
+              , "Zasady grupy"
+            
+              , "Administracja systemami"
+            
+              , "Zarządzanie siecią"
+            
+              , "Infrastruktura IT"
+            
+              , "Zarządzanie zasadami"
+            
+              , "Ład IT"
+            
+              , "Automatyzacja IT"
+            
+              , "Active Directory"
+            
+              , "Zgodność z wymaganiami bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak filtrowanie WMI pomaga kierować obiekty zasad grupy (GPO) do właściwych komputerów. Poznaj praktyczne przykłady i dobre praktyki.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Profil Właściciela on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Profil Właściciela on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/profil-w%C5%82a%C5%9Bciciela/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/profil-w%C5%82a%C5%9Bciciela/</link>
+
+    <description>Recent content in Profil Właściciela on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/profil-w%C5%82a%C5%9Bciciela/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Sandboxed Google Play na GrapheneOS: wyjaśnienie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link>
+        
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Prywatność"
+            
+              , "Bezpieczeństwo urządzeń mobilnych"
+            
+              , "Oprogramowanie open source"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, co zmienia Sandboxed Google Play w GrapheneOS, kiedy przydaje się osobny profil oraz jak współdziałają konta, powiadomienia i zgodność aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

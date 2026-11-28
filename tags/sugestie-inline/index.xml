@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sugestie Inline on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Sugestie Inline on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/sugestie-inline/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/sugestie-inline/</link>
+
+    <description>Recent content in Sugestie Inline on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/sugestie-inline/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>GitHub Copilot CLI a VS Code: porównanie przepływu pracy w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Narzędzia deweloperskie"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Tworzenie oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj agenta terminalowego Copilot z jego środowiskiem w VS Code, uwzględniając kontekst edytora, wizualne różnice, tryb agenta, integrację CLI i zasady konta.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

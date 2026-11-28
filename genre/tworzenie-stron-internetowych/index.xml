@@ -1,0 +1,387 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tworzenie Stron Internetowych on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Tworzenie Stron Internetowych on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/tworzenie-stron-internetowych/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/tworzenie-stron-internetowych/</link>
+
+    <description>Recent content in Tworzenie Stron Internetowych on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/tworzenie-stron-internetowych/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne programowanie w Pythonie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-python-coding-insecure-functions/</link>
+        
+        <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Programowanie"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Python"
+            
+              , "Kodowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Technologia"
+            
+              , "Informatyka"
+            
+              , "Bezpieczeństwo danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-python-coding-insecure-functions/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak pisać bezpieczny kod w Pythonie, unikać niebezpiecznych funkcji i tworzyć niezawodne aplikacje.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-python-coding-wall.webp" length="111414" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Niebezpieczne funkcje C#: bezpieczne praktyki programowania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link>
+        
+        <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Tworzenie oprogramowania"
+            
+              , "Programowanie w C#"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo kodu"
+            
+              , "Bezpieczne programowanie"
+            
+              , "Dobre praktyki programistyczne"
+            
+              , "Luki w oprogramowaniu"
+            
+              , "Kryptografia"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Bezpieczne zamienniki niebezpiecznych funkcji C#. Dowiedz się, jak rozpoznawać zagrożenia dla bezpieczeństwa pamięci i zastępować ryzykowne operacje.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze praktyki bezpieczeństwa w Pythonie: Ochrona kodu i danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link>
+        
+        <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo Python"
+            
+              , "Bezpieczeństwo kodu"
+            
+              , "Ochrona danych"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+              , "Bezpieczeństwo IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najważniejsze najlepsze praktyki bezpieczeństwa Python, aby zabezpieczyć swój kod i dane przed potencjalnymi zagrożeniami, zapewniając ochronę danych, integralność systemu i budowanie zaufania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.webp" length="115818" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Optymalizacja obrazów za pomocą Pythona</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</link>
+        
+        <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Programowanie w Pythonie"
+            
+              , "Optymalizacja obrazów"
+            
+              , "SEO"
+            
+              , "Wydajność witryn"
+            
+              , "Doświadczenie użytkownika"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Automatyzacja"
+            
+              , "Programowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Optymalizuj obrazy w Pythonie przez zmianę rozmiaru, kompresję i konwersję formatów w powtarzalnych procesach Pillow.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_Python_script_optimizing.webp" length="146766" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne programowanie w Pythonie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Programowanie"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+              , "Programowanie w Pythonie"
+            
+              , "Bezpieczne programowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Analiza danych"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Języki programowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyki bezpiecznego programowania w Pythonie, które ograniczają ryzyko wstrzyknięcia SQL, cross-site scripting i innych podatności aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

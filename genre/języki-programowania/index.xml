@@ -1,0 +1,249 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Języki Programowania on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Języki Programowania on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/j%C4%99zyki-programowania/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/j%C4%99zyki-programowania/</link>
+
+    <description>Recent content in Języki Programowania on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/j%C4%99zyki-programowania/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najważniejsze języki programowania dla współczesnych programistów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</link>
+        
+        <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Tworzenie oprogramowania"
+            
+              , "Edukacja programistyczna"
+            
+              , "Kariera w IT"
+            
+              , "Samouczki programowania"
+            
+              , "Umiejętności cyfrowe"
+            
+              , "Tworzenie aplikacji"
+            
+              , "Informatyka"
+            
+              , "Nowe technologie"
+            
+              , "Języki programowania"
+            
+              , "Narzędzia programistyczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/fundamentals-of-coding_-languages-you-should-know/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj języki programowania potrzebne do tworzenia dynamicznego oprogramowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/fundamentals-of-coding_-languages-you-should-know.webp" length="71288" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne programowanie w Pythonie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Programowanie"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+              , "Programowanie w Pythonie"
+            
+              , "Bezpieczne programowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Analiza danych"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Języki programowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyki bezpiecznego programowania w Pythonie, które ograniczają ryzyko wstrzyknięcia SQL, cross-site scripting i innych podatności aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Visual Studio Code vs Visual Studio Community i Enterprise: Co jest najlepsze dla deweloperów?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-community-and-enterprise/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Rozwój oprogramowania"
+            
+              , "Zintegrowane środowisko programistyczne (IDE)"
+            
+              , "Narzędzia programistyczne Microsoft"
+            
+              , "Edytory kodu"
+            
+              , "Platformy programistyczne"
+            
+              , "Porównanie oprogramowania"
+            
+              , "Języki programowania"
+            
+              , "Wspólny rozwój"
+            
+              , "Rozwój oprogramowania dla przedsiębiorstw"
+            
+              , "Debugowanie kodu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-community-and-enterprise/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice między Visual Studio Code, Visual Studio Community i Visual Studio Enterprise, aby określić idealny wybór dla swoich potrzeb programistycznych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.webp" length="87414" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,2175 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testy Penetracyjne on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Testy Penetracyjne on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/testy-penetracyjne/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/testy-penetracyjne/</link>
+
+    <description>Recent content in Testy Penetracyjne on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 20 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/testy-penetracyjne/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Która ścieżka kariery w cyberbezpieczeństwie pasuje do Ciebie? 16 punktów wyjścia, wiele możliwości</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</link>
+        
+        <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Kariera"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj film o typach osobowości, wiele ról w cyberbezpieczeństwie dla każdego typu oraz praktyczne ćwiczenia, które pomogą porównać ścieżki kariery na podstawie codziennej pracy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity-careers-personality-paths.webp" length="155796" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Niestandardowe oprogramowanie układowe DagShell dla Orbic RCL400: przewodnik na 2026 rok</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link>
+        
+        <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Niestandardowe oprogramowanie układowe"
+            
+              , "Bezpieczeństwo urządzeń mobilnych"
+            
+              , "Narzędzia ochrony prywatności"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Wardriving"
+            
+              , "Testy penetracyjne"
+            
+              , "Hakowanie IoT"
+            
+              , "Badania bezpieczeństwa"
+            
+              , "Hakowanie sprzętu"
+            
+              , "Technologie ochrony prywatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Techniczny przewodnik po oprogramowaniu DagShell dla Orbic RCL400. Opisuje instalację, narzędzia ochrony prywatności, wardriving i ograniczenia badań.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podatności kamer Flock Safety: ponad 50 wykrytych luk</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Badania bezpieczeństwa"
+            
+              , "Analiza podatności"
+            
+              , "Technologie nadzoru"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona prywatności"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "Bezpieczeństwo fizyczne"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Infrastruktura krytyczna"
+            
+              , "Technologie rządowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Badanie podatności kamer Flock Safety obejmuje ujawnione dane uwierzytelniające, słabe zabezpieczenia, dostęp fizyczny i ograniczenia procesu ujawniania luk.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczeństwo blockchaina: coś więcej niż kryptowaluty</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/demystifying-blockchain-security_-more-than-just-cryptocurrency/</link>
+        
+        <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo blockchaina"
+            
+              , "Technologia kryptowalut"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Sieci zdecentralizowane"
+            
+              , "Rozwój blockchaina"
+            
+              , "Audyt inteligentnych kontraktów"
+            
+              , "Wiedza o kryptografii"
+            
+              , "Ochrona prywatności danych"
+            
+              , "Nowe technologie bezpieczeństwa"
+            
+              , "Audyty bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/demystifying-blockchain-security_-more-than-just-cryptocurrency/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zależność bezpieczeństwa blockchaina od konsensusu, kryptografii, kontroli inteligentnych kontraktów, ochrony kluczy, monitorowania i skutecznego zarządzania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/demystifying-blockchain-security_-more-than-just-cryptocurrency.webp" length="194346" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego zgodność z przepisami nie gwarantuje bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</link>
+        
+        <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Praktyki bezpieczeństwa"
+            
+              , "Ochrona danych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Normy regulacyjne"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Bezpieczeństwo firmy"
+            
+              , "Prywatność cyfrowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj luki, które pozostawiają listy kontrolne zgodności, a następnie wzmocnij ochronę dzięki ocenie ryzyka, testom, monitorowaniu, szkoleniom i audytom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/compliance-security-shield.webp" length="87866" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Hack The Box dla początkujących w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hack-the-box-good-for-beginners-cybersecurity/</link>
+        
+        <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Etyczny hacking"
+            
+              , "Testy penetracyjne"
+            
+              , "Nauka praktyczna"
+            
+              , "Dla początkujących"
+            
+              , "Platformy online"
+            
+              , "Hack The Box Academy"
+            
+              , "TryHackMe"
+            
+              , "Materiały do nauki"
+            
+              , "Wsparcie społeczności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hack-the-box-good-for-beginners-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, czy Hack The Box jest odpowiedni dla początkujących w cyberbezpieczeństwie, i poznaj alternatywy, takie jak Hack The Box Academy i TryHackMe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/hack_the_box_beginner_cybersecurity.webp" length="114812" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększ swoją karierę w cyberbezpieczeństwie: Najlepsze certyfikaty dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-cybersecurity-certifications-for-beginners-career-guide/</link>
+        
+        <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Certyfikaty cyberbezpieczeństwa"
+            
+              , "Przewodnik dla początkujących"
+            
+              , "Kariera w IT"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Ethical Hacking"
+            
+              , "Testy penetracyjne"
+            
+              , "Praca dla początkujących"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-cybersecurity-certifications-for-beginners-career-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze certyfikaty cyberbezpieczeństwa dla początkujących, aby rozpocząć karierę i zdobyć umiejętności niezbędne do osiągnięcia doskonałości w tej dziedzinie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_representing_a_lock_an.webp" length="50550" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uwolnij swój potencjał cyberbezpieczeństwa dzięki Hackthebox Academy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/unlock-cybersecurity-potential-hackthebox-academy/</link>
+        
+        <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Szkolenie w zakresie cyberbezpieczeństwa"
+            
+              , "Praktyczne laboratoria"
+            
+              , "Ćwiczenia praktyczne"
+            
+              , "Ścieżki kształcenia"
+            
+              , "Współpraca społeczności"
+            
+              , "Umiejętności w zakresie cyberbezpieczeństwa"
+            
+              , "Platforma internetowa"
+            
+              , "Rzeczywiste scenariusze"
+            
+              , "Samouczki i dokumentacja"
+            
+              , "Subskrypcja Premium"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/unlock-cybersecurity-potential-hackthebox-academy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kompleksowe szkolenia i praktyczne wyzwania oferowane przez Hackthebox Academy, aby uwolnić swój potencjał w zakresie cyberbezpieczeństwa i zwiększyć swoje umiejętności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_group_of_diverse_individuals_working_togethe.webp" length="82138" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zaawansowane techniki testów penetracyjnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</link>
+        
+        <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Testy penetracyjne"
+            
+              , "Etyczne hakowanie"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo aplikacji internetowych"
+            
+              , "Bezpieczeństwo sieci bezprzewodowych"
+            
+              , "Inżynieria społeczna"
+            
+              , "Bezpieczeństwo aplikacji mobilnych"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Rozwój kariery"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-penetration-testing-advanced-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zaawansowane techniki, narzędzia i przykłady z praktyki testów penetracyjnych, aby rozwijać umiejętności z cyberbezpieczeństwa i karierę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.webp" length="204116" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zapobieganie wyciekom informacji: Najlepsze praktyki i strategie zwiększania bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</link>
+        
+        <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo informacji"
+            
+              , "ochrona danych"
+            
+              , "informacje niejawne"
+            
+              , "wyciek informacji"
+            
+              , "strategie zapobiegania"
+            
+              , "najlepsze praktyki"
+            
+              , "kontrola dostępu"
+            
+              , "szyfrowanie"
+            
+              , "szkolenie pracowników"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "zapobieganie utracie danych"
+            
+              , "oceny bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "NIST"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "luki w cyberbezpieczeństwie"
+            
+              , "błąd ludzki"
+            
+              , "programy uświadamiające"
+            
+              , "świadomość phishingu"
+            
+              , "Rozwiązania DLP"
+            
+              , "Kontrola dostępu oparta na rolach"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "Zarządzanie kluczami szyfrowania"
+            
+              , "ochrona punktów końcowych"
+            
+              , "kontrola zawartości"
+            
+              , "audyty bezpieczeństwa"
+            
+              , "testy penetracyjne"
+            
+              , "Planowanie reakcji na incydenty"
+            
+              , "protokoły bezpieczeństwa"
+            
+              , "ochrona informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki i strategie zapobiegania wyciekom informacji i ochrony wrażliwych danych, zapewniając zwiększone bezpieczeństwo i ochronę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/best-practices-to-prevent-spillage.webp" length="195784" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Poznaj Metasploit: kompleksowy framework do testów penetracyjnych i tworzenia exploitów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-metasploit/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Metasploit"
+            
+              , "testy penetracyjne"
+            
+              , "rozwój exploitów"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "generowanie ładunku"
+            
+              , "działania posteksploatacyjne"
+            
+              , "etyczne hakowanie"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "open-source"
+            
+              , "ramy bezpieczeństwa"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "inżynieria społeczna"
+            
+              , "Metasploit Framework"
+            
+              , "Metasploit Pro"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "HD Moore"
+            
+              , "Rapid7"
+            
+              , "rozwiązania bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "Ustawa o oszustwach i nadużyciach komputerowych"
+            
+              , "CFAA"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "narzędzia hakerskie"
+            
+              , "narzędzia cyberbezpieczeństwa"
+            
+              , "społeczność cyberbezpieczeństwa"
+            
+              , "zasoby cyberbezpieczeństwa"
+            
+              , "specjaliści ds. cyberbezpieczeństwa"
+            
+              , "najlepsze praktyki cyberbezpieczeństwa"
+            
+              , "zgodność z cyberbezpieczeństwem"
+            
+              , "przepisy dotyczące cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-metasploit/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Metasploit, frameworka open-source do testów penetracyjnych i tworzenia exploitów, z solidnymi funkcjami i dużą społecznością.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.webp" length="97762" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Potęga testów penetracyjnych w cyberbezpieczeństwie: Metody, narzędzia i najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/</link>
+        
+        <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "testy penetracyjne"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "etyczne hakowanie"
+            
+              , "podatności"
+            
+              , "ograniczanie ryzyka"
+            
+              , "zgodność"
+            
+              , "reakcja na incydent"
+            
+              , "zaufanie klientów"
+            
+              , "Testy czarnej skrzynki"
+            
+              , "testowanie białej skrzynki"
+            
+              , "testowanie w szarej strefie"
+            
+              , "Metasploit"
+            
+              , "Nmap"
+            
+              , "Burp Suite"
+            
+              , "Wireshark"
+            
+              , "skanowanie sieci"
+            
+              , "bezpieczeństwo aplikacji internetowych"
+            
+              , "ochrona danych"
+            
+              , "Zapobieganie cyberzagrożeniom"
+            
+              , "ocena bezpieczeństwa cyfrowego"
+            
+              , "poprawa stanu bezpieczeństwa"
+            
+              , "analizator protokołów sieciowych"
+            
+              , "strategia cyberbezpieczeństwa"
+            
+              , "luki w zabezpieczeniach systemu"
+            
+              , "wzmocnienie obrony"
+            
+              , "ochrona zasobów cyfrowych"
+            
+              , "korzyści z testów penetracyjnych"
+            
+              , "najlepsze praktyki cyberbezpieczeństwa"
+            
+              , "zgodność z przepisami"
+            
+              , "bezpieczeństwo danych klientów"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kluczową rolę testów penetracyjnych w cyberbezpieczeństwie i poznaj skuteczne metody, niezbędne narzędzia i najlepsze praktyki.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_image_depicting_a_hacker_wearing_a_black_hat.webp" length="95200" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rola języków programowania w cyberbezpieczeństwie: Odkrywanie kluczowych narzędzi i aplikacji</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/</link>
+        
+        <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "języki programowania"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "kluczowe narzędzia"
+            
+              , "aplikacje"
+            
+              , "bezpieczne systemy"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "aplikacje internetowe"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "testy penetracyjne"
+            
+              , "bezpieczne kodowanie"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "języki skryptowe"
+            
+              , "automatyzacja"
+            
+              , "bezpieczna komunikacja"
+            
+              , "analiza danych"
+            
+              , "uczenie maszynowe"
+            
+              , "reakcja na incydent"
+            
+              , "rozwój exploitów"
+            
+              , "ramy bezpieczeństwa"
+            
+              , "utwardzanie systemu"
+            
+              , "analiza dziennika"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "protokoły sieciowe"
+            
+              , "tworzenie stron internetowych"
+            
+              , "praktyki bezpiecznego kodowania"
+            
+              , "usługi kryptograficzne"
+            
+              , "sandboxing"
+            
+              , "kontrola dostępu"
+            
+              , "inżynieria odwrotna"
+            
+              , "wykrywanie zagrożeń"
+            
+              , "zarządzanie bezpieczeństwem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kluczową rolę języków programowania w cyberbezpieczeństwie i zagłęb się w ich zastosowania, narzędzia i znaczenie w zabezpieczaniu systemów cyfrowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.webp" length="130016" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze dystrybucje Linuksa dla prywatności i bezpieczeństwa: Ochrona danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-best-linux-distros-for-privacy-and-security/</link>
+        
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Dystrybucje Linuksa"
+            
+              , "prywatność i bezpieczeństwo"
+            
+              , "Ogony"
+            
+              , "Qubes OS"
+            
+              , "Whonix"
+            
+              , "Parrot Security OS"
+            
+              , "Ubuntu Privacy Remix"
+            
+              , "OpenBSD"
+            
+              , "ochrona danych"
+            
+              , "bezpieczne przetwarzanie danych"
+            
+              , "anonimowe przeglądanie"
+            
+              , "wirtualizacja"
+            
+              , "testy bezpieczeństwa"
+            
+              , "analiza kryminalistyczna"
+            
+              , "testy penetracyjne"
+            
+              , "narzędzia szyfrujące"
+            
+              , "bezpieczne usuwanie"
+            
+              , "anonymity"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "poprawność kodu"
+            
+              , "bezpieczeństwo online"
+            
+              , "ochrona danych użytkownika"
+            
+              , "poufność"
+            
+              , "odzyskiwanie danych"
+            
+              , "bankowość internetowa"
+            
+              , "prywatność online"
+            
+              , "bezpieczne środowisko"
+            
+              , "bezpieczne przeglądanie"
+            
+              , "Sieć Tor"
+            
+              , "środki bezpieczeństwa"
+            
+              , "domyślnie bezpieczny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-best-linux-distros-for-privacy-and-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze dystrybucje Linuksa zapewniające prywatność i bezpieczeństwo, zapewniając ochronę danych i bezpieczeństwo działań online.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.webp" length="130594" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Flipper Zero: kompletny przewodnik dla hakerów i makerów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</link>
+        
+        <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Flipper Zero"
+            
+              , "urządzenie przenośne"
+            
+              , "hakowanie sprzętu"
+            
+              , "inżynieria odwrotna"
+            
+              , "analiza komunikacji bezprzewodowej"
+            
+              , "kontrola urządzenia"
+            
+              , "audyt bezpieczeństwa"
+            
+              , "testy penetracyjne"
+            
+              , "codzienny towarzysz technologiczny"
+            
+              , "oprogramowanie otwartoźródłowe"
+            
+              , "Bluetooth"
+            
+              , "NFC"
+            
+              , "RFID"
+            
+              , "IR"
+            
+              , "emulacja"
+            
+              , "testy bezpieczeństwa"
+            
+              , "Kali Linux"
+            
+              , "Wyświetlacz e-papierowy"
+            
+              , "Kody QR"
+            
+              , "automatyka domowa"
+            
+              , "luki w zabezpieczeniach"
+            
+              , "protokoły bezprzewodowe"
+            
+              , "Ekstrakcja oprogramowania układowego"
+            
+              , "miganie"
+            
+              , "debugowanie"
+            
+              , "systemy fizycznej kontroli dostępu"
+            
+              , "inteligentne systemy automatyki domowej"
+            
+              , "emulacja urządzenia"
+            
+              , "luki w zabezpieczeniach systemów bezprzewodowych"
+            
+              , "środki zaradcze"
+            
+              , "kompaktowy gadżet"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj różnorodne zastosowania Flipper Zero, najlepszego podręcznego gadżetu do hakowania sprzętu, analizy komunikacji bezprzewodowej i codziennych potrzeb technicznych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.webp" length="309662" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Plan nauki do egzaminu certyfikacyjnego CEH: wskazówki i strategie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</link>
+        
+        <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "rozwój zawodowy"
+            
+              , "certyfikacja IT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "etyczne hakowanie"
+            
+              , "przygotowanie do egzaminu"
+            
+              , "plan nauki"
+            
+              , "zarządzanie czasem"
+            
+              , "rozwój kariery"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sposoby tworzenia skutecznego planu nauki do egzaminu certyfikacyjnego CEH oraz strategie zwiększające szanse na sukces.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.webp" length="78844" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skuteczna kontrola dostępu: Najlepsze praktyki w zakresie bezpieczeństwa IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/</link>
+        
+        <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Kontrola dostępu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Hasła"
+            
+              , "Uwierzytelnianie biometryczne"
+            
+              , "Kontrola dostępu oparta na rolach"
+            
+              , "Uwierzytelnianie wieloskładnikowe"
+            
+              , "Ochrona danych"
+            
+              , "Ocena ryzyka"
+            
+              , "Szkolenie pracowników"
+            
+              , "Narzędzia do audytu"
+            
+              , "Narzędzia do raportowania"
+            
+              , "Testy penetracyjne"
+            
+              , "Ocena podatności na zagrożenia"
+            
+              , "Fizyczna kontrola dostępu"
+            
+              , "Logiczna kontrola dostępu"
+            
+              , "Przepisy dotyczące zgodności"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak chronić wrażliwe dane i systemy, wdrażając skuteczne środki kontroli dostępu do środowiska IT.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_locked_door_with_a_fingerprint_scanner.webp" length="148694" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne i zgodne z przepisami tworzenie kopii zapasowych i odzyskiwanie danych w chmurze: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</link>
+        
+        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "kopia zapasowa w chmurze"
+            
+              , "odzyskiwanie danych"
+            
+              , "ochrona danych"
+            
+              , "zgodność"
+            
+              , "RODO"
+            
+              , "HIPAA"
+            
+              , "FISMA"
+            
+              , "dostawca usług w chmurze"
+            
+              , "szyfrowanie"
+            
+              , "kontrola dostępu"
+            
+              , "bezpieczeństwo"
+            
+              , "przepisy"
+            
+              , "standardy"
+            
+              , "najlepsze praktyki"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "testy penetracyjne"
+            
+              , "audyty"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "skalowalność"
+            
+              , "monitoring"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak stworzyć bezpieczne i zgodne z przepisami rozwiązanie do tworzenia kopii zapasowych danych w chmurze.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.webp" length="90486" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kali Purple 2023.1: aktualizacje i kluczowe funkcje</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/kali-purple-2023.1-a-review/</link>
+        
+        <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Kali Linux"
+            
+              , "Kali Purple"
+            
+              , "2023.1"
+            
+              , "etyczne hakowanie"
+            
+              , "testy penetracyjne"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "narzędzia"
+            
+              , "framework exploitów"
+            
+              , "aktualizacje Kali ARM"
+            
+              , "Kali NetHunter"
+            
+              , "dokumentacja Kali"
+            
+              , "obsługa jądra"
+            
+              , "obsługa Bluetooth"
+            
+              , "LineageOS"
+            
+              , "OneUI"
+            
+              , "Radxa Zero"
+            
+              , "komputer jednopłytkowy"
+            
+              , "łatki jądra"
+            
+              , "wkład społeczności"
+            
+              , "Kali Discord"
+            
+              , "aktualizacje Linux"
+            
+              , "dystrybucja do etycznego hakowania"
+            
+              , "nowe funkcje"
+            
+              , "ulepszenia"
+            
+              , "Xfce"
+            
+              , "KDE"
+            
+              , "GNOME"
+            
+              , "Xfce 4.18"
+            
+              , "KDE Plasma 5.27"
+            
+              , "nowe narzędzia i pakiety"
+            
+              , "obsługa urządzeń ARM"
+            
+              , "dokumentacja Kali"
+            
+              , "przepisy rządowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/kali-purple-2023.1-a-review/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przegląd Kali Purple 2023.1 i ówczesnych narzędzi oraz ulepszeń z aktualnymi odnośnikami dla laboratoriów bezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_Kali_Linux_dragon_mascot_surrounded.webp" length="162086" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpiecz swoje aplikacje internetowe za pomocą OWASP ASVS</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</link>
+        
+        <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo aplikacji internetowych"
+            
+              , "OWASP"
+            
+              , "ASVS"
+            
+              , "bezpieczeństwo aplikacji"
+            
+              , "normy bezpieczeństwa"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "zarządzanie podatnościami"
+            
+              , "bezpieczne kodowanie"
+            
+              , "testy penetracyjne"
+            
+              , "modelowanie zagrożeń"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "ocena bezpieczeństwa"
+            
+              , "zautomatyzowane testy bezpieczeństwa"
+            
+              , "ręczne testowanie bezpieczeństwa"
+            
+              , "bezpieczny cykl życia oprogramowania"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "bezpieczeństwo danych"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "zgodność"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Uporządkuj wymagania bezpieczeństwa aplikacji internetowych, testy i dowody weryfikacji za pomocą OWASP ASVS.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.webp" length="119972" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompleksowy przewodnik dla początkujących po narzędziach i technikach testów penetracyjnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-penetration-testing-tools-and-techniques/</link>
+        
+        <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "testy penetracyjne"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "etyczne hakowanie"
+            
+              , "narzędzia"
+            
+              , "techniki"
+            
+              , "przewodnik dla początkujących"
+            
+              , "Nmap"
+            
+              , "Metasploit"
+            
+              , "Wireshark"
+            
+              , "Burp Suite"
+            
+              , "OSSTMM"
+            
+              , "PTES"
+            
+              , "OWASP"
+            
+              , "CEH"
+            
+              , "OSCP"
+            
+              , "GPEN"
+            
+              , "testy bezpieczeństwa"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-penetration-testing-tools-and-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawowe narzędzia i techniki testów penetracyjnych, metodologie i certyfikaty, aby rozpocząć karierę w dziedzinie cyberbezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/a-beginners-guide-to-penetration-testing-tools-and-techniques.webp" length="251176" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>5 najlepszych certyfikatów cyberbezpieczeństwa dla rozwoju kariery</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-top-five-cybersecurity-certifications-for-career-advancement/</link>
+        
+        <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Certyfikaty"
+            
+              , "CompTIA Security&#43;"
+            
+              , "CISSP"
+            
+              , "Offensive Security OSCP"
+            
+              , "Cisco CCNA"
+            
+              , "(ISC2) CCSP"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo w chmurze"
+            
+              , "Rozwój zawodowy"
+            
+              , "Rozwój kariery"
+            
+              , "Weryfikacja umiejętności"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Etyczne hakowanie"
+            
+              , "Testy penetracyjne"
+            
+              , "Administracja siecią"
+            
+              , "Przetwarzanie w chmurze"
+            
+              , "Zarządzanie bezpieczeństwem"
+            
+              , "Ocena podatności na zagrożenia"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-top-five-cybersecurity-certifications-for-career-advancement/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj pięć certyfikatów cyberbezpieczeństwa według doświadczenia, roli, tematów egzaminu i wartości dla kariery.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.webp" length="77246" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących: Korzystanie z wiersza poleceń Linux dla cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-the-linux-command-line/</link>
+        
+        <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Linux"
+            
+              , "Wiersz poleceń"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Przewodnik dla początkujących"
+            
+              , "Skanowanie sieci"
+            
+              , "Testowanie podatności"
+            
+              , "Analiza złośliwego oprogramowania"
+            
+              , "Uprawnienia"
+            
+              , "Ruch sieciowy"
+            
+              , "Status procesu"
+            
+              , "Statystyki sieciowe"
+            
+              , "Wyszukiwanie plików"
+            
+              , "Wireshark"
+            
+              , "TCPDump"
+            
+              , "Nmap"
+            
+              , "interfejs wiersza poleceń systemu Linux"
+            
+              , "Bezpieczeństwo"
+            
+              , "Testy penetracyjne"
+            
+              , "Kryminalistyka cyfrowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-the-linux-command-line/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak korzystać z wiersza poleceń systemu Linux w celu zapewnienia cyberbezpieczeństwa za pomocą podstawowych i zaawansowanych poleceń.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/a-beginners-guide-to-using-the-linux-command-line.webp" length="236274" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wdrażanie poprawek dla podatnych serwerów: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo serwera"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Zarządzanie poprawkami"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Łatanie serwera"
+            
+              , "Krajobraz zagrożeń"
+            
+              , "Testy penetracyjne"
+            
+              , "Aktualizacje zabezpieczeń"
+            
+              , "Poprawki oprogramowania"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo systemu"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Zasady bezpieczeństwa"
+            
+              , "Środowiska przejściowe"
+            
+              , "Luki w oprogramowaniu"
+            
+              , "Krytyczne poprawki"
+            
+              , "Poprawki dostawcy"
+            
+              , "Biuletyny bezpieczeństwa"
+            
+              , "Bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wdrożyć poprawki zabezpieczeń dla podatnych serwerów, stosując najlepsze praktyki i zapobiegając złośliwym atakom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_shield.webp" length="98810" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox czy TryHackMe: co wybrać?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hackthebox-vs-tryhackme-what-is-best/</link>
+        
+        <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Testy penetracyjne"
+            
+              , "Etyczne hakowanie"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Informatyka śledcza"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Bezpieczeństwo aplikacji internetowych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hackthebox-vs-tryhackme-what-is-best/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj HackTheBox i TryHackMe pod względem trudności, wsparcia, społeczności i ścieżki nauki testów penetracyjnych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_in_a_lab_coat_standing_between_two_doors.webp" length="87086" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

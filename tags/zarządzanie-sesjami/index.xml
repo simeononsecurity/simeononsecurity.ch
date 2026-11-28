@@ -1,0 +1,460 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zarządzanie Sesjami on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Zarządzanie Sesjami on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-sesjami/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-sesjami/</link>
+
+    <description>Recent content in Zarządzanie Sesjami on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-sesjami/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne programowanie w Pythonie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Programowanie"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+              , "Programowanie w Pythonie"
+            
+              , "Bezpieczne programowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Analiza danych"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Języki programowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyki bezpiecznego programowania w Pythonie, które ograniczają ryzyko wstrzyknięcia SQL, cross-site scripting i innych podatności aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Standardy bezpiecznego kodowania dla programistów C#</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/</link>
+        
+        <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczne kodowanie"
+            
+              , "Rozwój w C#"
+            
+              , "Programowanie w języku C#"
+            
+              , "praktyki bezpiecznego kodowania"
+            
+              , "Bezpieczeństwo C#"
+            
+              , "Bezpieczeństwo ASP.NET"
+            
+              , "Bezpieczeństwo .NET Core"
+            
+              , "walidacja danych wejściowych"
+            
+              , "haszowanie haseł"
+            
+              , "kryptografia"
+            
+              , "najmniejszy przywilej"
+            
+              , "statyczny analizator kodu"
+            
+              , "bezpieczeństwo aplikacji internetowych"
+            
+              , "Zapobieganie iniekcjom SQL"
+            
+              , "Zapobieganie atakom typu cross-site scripting"
+            
+              , "ochrona danych"
+            
+              , "kontrole stanu zdrowia"
+            
+              , "zarządzanie sesjami"
+            
+              , "Najlepsze praktyki OWASP"
+            
+              , "Standardy bezpiecznego kodowania C#"
+            
+              , "Wytyczne dotyczące bezpieczeństwa C#"
+            
+              , "wskazówki dotyczące bezpiecznego kodowania"
+            
+              , "bezpieczne tworzenie oprogramowania"
+            
+              , "bezpieczne ramy kodowania"
+            
+              , "techniki bezpiecznego kodowania"
+            
+              , "zalecenia dotyczące bezpiecznego kodowania"
+            
+              , "Bezpieczne programowanie w języku C#"
+            
+              , "Luki w bezpiecznym kodowaniu"
+            
+              , "narzędzia do bezpiecznego kodowania"
+            
+              , "samouczki bezpiecznego kodowania"
+            
+              , "Najlepsze praktyki bezpiecznego kodowania w C#"
+            
+              , "Wytyczne dotyczące bezpiecznego kodowania C#"
+            
+              , "Standardy bezpiecznego kodowania dla programistów C#"
+            
+              , "Praktyki bezpiecznego kodowania w C#"
+            
+              , "Jak wdrożyć bezpieczne kodowanie w C#"
+            
+              , "Wskazówki dotyczące bezpiecznego kodowania dla programistów C#"
+            
+              , "Bezpieczne kodowanie w aplikacjach internetowych C#"
+            
+              , "Bezpieczne ramy kodowania w języku C#"
+            
+              , "Techniki bezpiecznego kodowania dla programistów C#"
+            
+              , "Narzędzia do bezpiecznego kodowania C#"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki bezpiecznego kodowania w języku C#, aby zminimalizować ryzyko naruszenia bezpieczeństwa i chronić wrażliwe dane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_developer_with_a_lock_icon_as_the_head_surrounded.webp" length="224142" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Standardy bezpiecznego kodowania dla Pythona: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-python/</link>
+        
+        <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Python"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Zagrożenia bezpieczeństwa"
+            
+              , "Walidacja danych wejściowych"
+            
+              , "Biblioteki kryptograficzne"
+            
+              , "Minimalne uprawnienia"
+            
+              , "Statyczny analizator kodu"
+            
+              , "Aplikacje internetowe"
+            
+              , "Frameworki Python"
+            
+              , "Django"
+            
+              , "Flask"
+            
+              , "System uwierzytelniania"
+            
+              , "Haszowanie haseł"
+            
+              , "System szablonów"
+            
+              , "Zarządzanie sesjami"
+            
+              , "MarkupSafe"
+            
+              , "WTForms"
+            
+              , "Blinker"
+            
+              , "Ochrona danych"
+            
+              , "Luki w zabezpieczeniach"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Python"
+            
+              , "Zagrożenia bezpieczeństwa"
+            
+              , "Walidacja danych wejściowych"
+            
+              , "Biblioteki kryptograficzne"
+            
+              , "Minimalne uprawnienia"
+            
+              , "Statyczny analizator kodu"
+            
+              , "Aplikacje internetowe"
+            
+              , "Frameworki Python"
+            
+              , "Django"
+            
+              , "Flask"
+            
+              , "System uwierzytelniania"
+            
+              , "Haszowanie haseł"
+            
+              , "System szablonów"
+            
+              , "Zarządzanie sesjami"
+            
+              , "MarkupSafe"
+            
+              , "WTForms"
+            
+              , "Blinker"
+            
+              , "Ochrona danych"
+            
+              , "Luki w zabezpieczeniach"
+            
+              , "Bezpieczeństwo kodu Python"
+            
+              , "Przegląd kodu"
+            
+              , "Narzędzia analizy statycznej"
+            
+              , "Bezpieczne tworzenie aplikacji internetowych"
+            
+              , "Bezpieczne praktyki kodowania"
+            
+              , "Luki w zabezpieczeniach"
+            
+              , "Najlepsze praktyki bezpieczeństwa kodu"
+            
+              , "Szyfrowanie danych"
+            
+              , "Zasada minimalnych uprawnień"
+            
+              , "Analiza kodu"
+            
+              , "Bezpieczeństwo sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki bezpiecznego kodowania w Pythonie, aby zminimalizować ryzyko naruszenia bezpieczeństwa i chronić wrażliwe dane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_shield_with_the_word_Python.webp" length="169722" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>OWASP Top 10: Krytyczne zagrożenia bezpieczeństwa aplikacji internetowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/owasp-top-10/</link>
+        
+        <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo aplikacji internetowych"
+            
+              , "OWASP Top 10"
+            
+              , "Ataki typu injection"
+            
+              , "Uwierzytelnianie"
+            
+              , "Zarządzanie sesjami"
+            
+              , "Ataki XSS"
+            
+              , "Kontrola dostępu"
+            
+              , "Błędna konfiguracja zabezpieczeń"
+            
+              , "Pamięć kryptograficzna"
+            
+              , "Ochrona warstwy transportowej"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/owasp-top-10/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o najbardziej krytycznych zagrożeniach bezpieczeństwa aplikacji internetowych z OWASP Top 10 i jak się przed nimi chronić
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.webp" length="80546" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

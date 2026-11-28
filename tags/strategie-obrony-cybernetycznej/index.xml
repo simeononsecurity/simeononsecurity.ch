@@ -1,0 +1,212 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Strategie Obrony Cybernetycznej on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Strategie Obrony Cybernetycznej on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/strategie-obrony-cybernetycznej/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/strategie-obrony-cybernetycznej/</link>
+
+    <description>Recent content in Strategie Obrony Cybernetycznej on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/strategie-obrony-cybernetycznej/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanuj OPSEC: 6 kluczowych kroków do bezpieczeństwa cyfrowego</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</link>
+        
+        <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Bezpieczeństwo operacyjne"
+            
+              , "Prywatność w Internecie"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Bezpieczeństwo internetowe"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Zagrożenia online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sześć kluczowych kroków OPSEC, które chronią Twoją obecność cyfrową i wzmacniają cyberbezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/OPSEC_Steps_Security.webp" length="216778" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Writeupy i Przewodniki SimeonOnSecurity</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "wyzwania HackTheBox"
+            
+              , "techniki kryptograficzne"
+            
+              , "odkrycia w cyberbezpieczeństwie"
+            
+              , "dekodowanie szyfrów"
+            
+              , "odkodowywanie tonów DTMF"
+            
+              , "szyfry z liczb pierwszych"
+            
+              , "dekodowanie szyfru Fernet"
+            
+              , "dekodowanie szyfru Malboge"
+            
+              , "narzędzia do ataków RSA"
+            
+              , "wyzwanie zaproszenia"
+            
+              , "umiejętności testów penetracyjnych"
+            
+              , "platformy Windows i Linux"
+            
+              , "wyzwania cybernetyczne"
+            
+              , "algorytmy bezpieczeństwa"
+            
+              , "metody szyfrowania"
+            
+              , "gry kryptograficzne"
+            
+              , "techniki etycznego hakerstwa"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "rozwój umiejętności cybernetycznych"
+            
+              , "writeupy bezpieczeństwa"
+            
+              , "rozwiązania cybernetyczne"
+            
+              , "strategie dekodowania flag"
+            
+              , "metody kryptoanalizy"
+            
+              , "strategie obrony cybernetycznej"
+            
+              , "konkursy cybernetyczne"
+            
+              , "zasoby cyberbezpieczeństwa"
+            
+              , "analiza szyfrów"
+            
+              , "spostrzeżenia dotyczące bezpieczeństwa"
+            
+              , "nauka cybernetyki"
+            
+              , "społeczność cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zbadaj writeupy SimeonOnSecurity dotyczące wyzwań HackTheBox, szyfrów kryptograficznych i technik cyberbezpieczeństwa. Naucz się i odkryj ukryte flagi dzięki wyjaśnieniom krok po kroku.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

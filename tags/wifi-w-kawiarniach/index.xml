@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WiFi W Kawiarniach on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>WiFi W Kawiarniach on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wifi-w-kawiarniach/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wifi-w-kawiarniach/</link>
+
+    <description>Recent content in WiFi W Kawiarniach on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wifi-w-kawiarniach/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>ESP32 WiFi Canary: pasywne wykrywanie zagrożeń w paśmie 2,4 GHz</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link>
+        
+        <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo WiFi"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "Badania bezpieczeństwa"
+            
+              , "Systemy wbudowane"
+            
+              , "Narzędzia ochrony prywatności"
+            
+              , "Projekty ESP32"
+            
+              , "Bezpieczeństwo sprzętu"
+            
+              , "Bezpieczeństwo bezprzewodowe"
+            
+              , "Bezpieczeństwo open source"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Techniczny opis ESP32 WiFi Canary, pasywnego czujnika 2,4 GHz wykrywającego evil twin, deautentykację, obniżenie zabezpieczeń i zalewanie beaconami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

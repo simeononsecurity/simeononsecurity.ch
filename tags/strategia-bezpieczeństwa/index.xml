@@ -1,0 +1,471 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Strategia Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Strategia Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/strategia-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/strategia-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Strategia Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 22 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/strategia-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Task Scheduler a Linux Cron: porównanie bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link>
+        
+        <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Systemy operacyjne"
+            
+              , "Automatyzacja systemów"
+            
+              , "Narzędzia bezpieczeństwa"
+            
+              , "Technologia komputerowa"
+            
+              , "Planowanie zadań"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Administracja systemami"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Zarządzanie IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj Windows Task Scheduler i zadania Cron w systemie Linux z perspektywy cyberbezpieczeństwa i utwardzania systemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Chroń swoją organizację: zalety oprogramowania do zarządzania incydentami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</link>
+        
+        <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie incydentami"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Ograniczanie zagrożeń"
+            
+              , "Rozwiązania technologiczne"
+            
+              , "Cyberobrona"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Ciągłość działania"
+            
+              , "Zarządzanie ryzykiem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj oprogramowanie do zarządzania incydentami bezpieczeństwa, które usprawnia reagowanie, śledzenie i zgodność oraz chroni zasoby cyfrowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/benefits-of-security-incident-management-software.webp" length="227836" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Programy ochrony przed zagrożeniami wewnętrznymi: elementy i ograniczanie ryzyka</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/enhancing-security-insider-threat-programs/</link>
+        
+        <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Strategia bezpieczeństwa"
+            
+              , "Zagrożenia wewnętrzne"
+            
+              , "Szkolenia pracowników"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Bezpieczeństwo organizacji"
+            
+              , "Ograniczanie zagrożeń"
+            
+              , "Kultura bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/enhancing-security-insider-threat-programs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak programy ochrony przed zagrożeniami wewnętrznymi wzmacniają bezpieczeństwo przez ograniczanie ryzyka pochodzącego z organizacji. Poznaj ich główne elementy, wyzwania i przykłady skutecznego działania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Insider_Threat_Protection_Shield.webp" length="82326" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie Active Directory</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/active-directory-security-best-practices/</link>
+        
+        <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie siecią"
+            
+              , "Technologia informacyjna"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Infrastruktura cyfrowa"
+            
+              , "Kontrola dostępu"
+            
+              , "Uwierzytelnianie użytkowników"
+            
+              , "Dobre praktyki IT"
+            
+              , "Świadomość bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/active-directory-security-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sposoby zabezpieczania Active Directory, ochrony danych i zapobiegania włamaniom do infrastruktury sieciowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>5 najważniejszych certyfikatów cyberbezpieczeństwa dla profesjonalistów biznesowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/top-five-cybersecurity-certifications-for-business-professionals/</link>
+        
+        <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "certyfikaty cyberbezpieczeństwa"
+            
+              , "certyfikaty nietechniczne"
+            
+              , "profesjonaliści biznesowi"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "zarządzanie prywatnością"
+            
+              , "umiejętności cyberbezpieczeństwa"
+            
+              , "ochrona danych"
+            
+              , "programy certyfikacyjne"
+            
+              , "CISSP"
+            
+              , "CIPP E"
+            
+              , "CIPM"
+            
+              , "CISM"
+            
+              , "CIPP US"
+            
+              , "ład bezpieczeństwa"
+            
+              , "przepisy dotyczące prywatności"
+            
+              , "zgodność"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "prywatność informacji"
+            
+              , "bezpieczeństwo biznesu"
+            
+              , "prywatność danych"
+            
+              , "certyfikaty 2026"
+            
+              , "przywództwo w obszarze bezpieczeństwa"
+            
+              , "specjalista ds. prywatności"
+            
+              , "cyberbezpieczeństwo biznesowe"
+            
+              , "certyfikaty dla kadry kierowniczej"
+            
+              , "certyfikaty zarządzania"
+            
+              , "zgodność bezpieczeństwa"
+            
+              , "zgodność z GDPR"
+            
+              , "zgodność z CCPA"
+            
+              , "zgodność z HIPAA"
+            
+              , "inspektor ochrony danych"
+            
+              , "inspektor prywatności"
+            
+              , "menedżer bezpieczeństwa"
+            
+              , "ład cyberbezpieczeństwa"
+            
+              , "ocena ryzyka"
+            
+              , "ramy bezpieczeństwa"
+            
+              , "ramy prywatności"
+            
+              , "koszt certyfikacji"
+            
+              , "zwrot z certyfikacji"
+            
+              , "rozwój kariery"
+            
+              , "wzrost wynagrodzenia"
+            
+              , "umiejętności bezpieczeństwa biznesowego"
+            
+              , "bezpieczeństwo przedsiębiorstwa"
+            
+              , "bezpieczeństwo organizacji"
+            
+              , "strategia bezpieczeństwa"
+            
+              , "strategia prywatności"
+            
+              , "zarządzanie zgodnością"
+            
+              , "zarządzanie programem bezpieczeństwa"
+            
+              , "zarządzanie programem prywatności"
+            
+              , "zarządzanie ryzykiem biznesowym"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "polityka prywatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/top-five-cybersecurity-certifications-for-business-professionals/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj certyfikaty cyberbezpieczeństwa dla profesjonalistów biznesowych pod względem kosztów, zakresu, wartości dla kariery i odpowiedzialności za ochronę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_featuring_a_group_of_diverse_business_professional.webp" length="117450" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

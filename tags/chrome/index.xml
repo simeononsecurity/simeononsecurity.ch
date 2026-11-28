@@ -1,0 +1,218 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chrome on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Chrome on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/chrome/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/chrome/</link>
+
+    <description>Recent content in Chrome on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Standalone-Windows-STIG-Script: utwórz zgodny komputer</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Skrypt STIG"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Zgodny system Windows"
+            
+              , "Utwardzanie systemu"
+            
+              , "Windows STIG"
+            
+              , "Bezpieczny Windows"
+            
+              , "Zgodność systemu Windows"
+            
+              , "Instalacja ręczna"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Adobe Reader"
+            
+              , "Firefox"
+            
+              , "Chrome"
+            
+              , "Internet Explorer 11"
+            
+              , ".NET Framework"
+            
+              , "Office"
+            
+              , "OneDrive"
+            
+              , "Java"
+            
+              , "Windows Defender"
+            
+              , "Zapora systemu Windows"
+            
+              , "Środki ograniczające ryzyko"
+            
+              , "Nessus PID"
+            
+              , "VMware Horizon"
+            
+              , "Opcjonalne utwardzanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Instrukcja krok po kroku korzystania ze Standalone-Windows-STIG-Script w zgodnych systemach Windows, z parametrami i weryfikacją.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script.webp" length="159414" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona systemu Windows przed atakami typu Speculative Execution Side-Channel.</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link>
+        
+        <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Spectre Meltdown Mitigation Script"
+            
+              , "Ataki typu Speculative Execution Side-Channel"
+            
+              , "Microsoft"
+            
+              , "Intel"
+            
+              , "AMD"
+            
+              , "VIA"
+            
+              , "ARM"
+            
+              , "Android"
+            
+              , "Chrome"
+            
+              , "iOS"
+            
+              , "macOS"
+            
+              , "Branch Target Injection"
+            
+              , "Kontrola granic Obejście"
+            
+              , "Rogue Data Cache Load"
+            
+              , "Obejście sklepu spekulacyjnego"
+            
+              , "Mikroarchitektoniczne próbkowanie danych"
+            
+              , "CVEs"
+            
+              , "Aktualizacje oprogramowania sprzętowego"
+            
+              , "Repozytorium GitHub"
+            
+              , "PowerShell"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zabezpieczyć system Windows przed atakami typu speculative execution side-channel za pomocą skryptu łagodzącego Microsoftu i aktualizacji oprogramowania sprzętowego
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

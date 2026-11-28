@@ -1,0 +1,123 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kryptografia Renesansowa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Kryptografia Renesansowa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/kryptografia-renesansowa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/kryptografia-renesansowa/</link>
+
+    <description>Recent content in Kryptografia Renesansowa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/kryptografia-renesansowa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kryptografia: od starożytnych sekretów do współczesnego bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-evolution-of-cryptography-in-modern-security/</link>
+        
+        <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Historia kryptografii"
+            
+              , "Starożytna kryptografia"
+            
+              , "Średniowieczna kryptografia"
+            
+              , "Kryptografia renesansowa"
+            
+              , "Nowoczesne algorytmy kryptograficzne"
+            
+              , "Algorytmy klucza symetrycznego"
+            
+              , "Algorytmy klucza asymetrycznego"
+            
+              , "Funkcje skrótu"
+            
+              , "Podpisy cyfrowe"
+            
+              , "Kryptoanaliza"
+            
+              , "Ataki kryptograficzne"
+            
+              , "Bezpieczne protokoły komunikacyjne"
+            
+              , "Szyfrowanie danych"
+            
+              , "Technologia blockchain"
+            
+              , "Kryptowaluta"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-evolution-of-cryptography-in-modern-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj rozwój kryptografii: od wczesnych szyfrów przez nowoczesne szyfrowanie i systemy klucza publicznego po kryptoanalizę, blockchain oraz zagrożenia ery kwantowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-evolution-of-cryptography-in-modern-security.webp" length="193094" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

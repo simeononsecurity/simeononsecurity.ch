@@ -1,0 +1,312 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Praktyki Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Praktyki Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/praktyki-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/praktyki-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Praktyki Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 19 Oct 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/praktyki-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ograniczanie zagrożeń wewnętrznych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mitigating-insider-threats-strategies-prevention/</link>
+        
+        <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Ochrona danych"
+            
+              , "Zagrożenia wewnętrzne"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Zachowania pracowników"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo korporacyjne"
+            
+              , "Środki zapobiegawcze"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mitigating-insider-threats-strategies-prevention/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj skuteczne sposoby zapobiegania zagrożeniom wewnętrznym, ochrony wrażliwych danych i budowania kultury bezpieczeństwa w organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Security_Shield_Network_Protection.webp" length="94966" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak chronić się przed ransomware</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ransomware-protection-strategies/</link>
+        
+        <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Technologia"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Cyberprzestępczość"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Złośliwe oprogramowanie"
+            
+              , "Bezpieczeństwo w internecie"
+            
+              , "Ochrona danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ransomware-protection-strategies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj działanie ransomware, skutki jego ataków i środki zapobiegawcze, które wzmacniają cyberbezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ransomware-protection-shield.webp" length="62160" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Cyberbezpieczeństwo od podstaw: przewodnik po bezpieczniejszym świecie cyfrowym</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</link>
+        
+        <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Bezpieczeństwo w sieci"
+            
+              , "Ochrona informacji"
+            
+              , "Prywatność danych"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Wskazówki dotyczące bezpieczeństwa w sieci"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Bezpieczna praca z komputerem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kluczowe praktyki cyberbezpieczeństwa, które chronią Twoje cyfrowe życie i zasoby. Dowiedz się więcej o zagrożeniach i bezpiecznym korzystaniu z sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cybersecurity-Shield-Protection.webp" length="114598" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dziś dowiedziałem się więcej o tworzeniu i wdrażaniu zasad WDAC</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2022-05-18/</link>
+        
+        <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Kontrola aplikacji"
+            
+              , "Windows Defender"
+            
+              , "WDAC"
+            
+              , "Powershell"
+            
+              , "Ochrona przed zagrożeniami"
+            
+              , "Windows Server 2019"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Zarządzanie polityką"
+            
+              , "Najlepsze praktyki w zakresie bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2022-05-18/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dziś dowiedziałem się więcej o warunkach Ansible i zarządzaniu zmiennymi
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

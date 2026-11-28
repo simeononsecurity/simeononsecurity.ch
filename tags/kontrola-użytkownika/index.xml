@@ -1,0 +1,224 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kontrola Użytkownika on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Kontrola Użytkownika on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/kontrola-u%C5%BCytkownika/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/kontrola-u%C5%BCytkownika/</link>
+
+    <description>Recent content in Kontrola Użytkownika on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/kontrola-u%C5%BCytkownika/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS kontra AdGuard: Który bloker DNS wygrywa?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</link>
+        
+        <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Blokowanie reklam"
+            
+              , "DNS"
+            
+              , "Prywatność"
+            
+              , "Bezpieczeństwo internetowe"
+            
+              , "Ochrona online"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Rozwiązania do przeglądania"
+            
+              , "Prywatność online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj NextDNS i AdGuard, dwa blokery reklam oparte na DNS, i sprawdź, który lepiej pasuje do Twojego sposobu korzystania z internetu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/dns_adblocker_showdown.webp" length="75306" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opcje smartwatcha zapewniające prywatność dla użytkowników dbających o dane</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/smartwatches-for-privacy-and-security-enthusiasts/</link>
+        
+        <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "opcje smartwatcha"
+            
+              , "urządzenia skoncentrowane na prywatności"
+            
+              , "bezpieczeństwo danych"
+            
+              , "kontrola użytkownika"
+            
+              , "AsteroidOS"
+            
+              , "PineTime"
+            
+              , "The Watchy"
+            
+              , "Smartwatch Open"
+            
+              , "smartwatch Bangle.js 2"
+            
+              , "Gadgetbridge"
+            
+              , "technologia ubieralna"
+            
+              , "prywatność danych"
+            
+              , "Konfigurowalne doświadczenie"
+            
+              , "ochrona danych osobowych"
+            
+              , "smartwatche open source"
+            
+              , "śledzenie kondycji"
+            
+              , "powiadomienia"
+            
+              , "oprogramowanie smartwatcha"
+            
+              , "osoby dbające o prywatność"
+            
+              , "urządzenia obsługiwane przez Gadgetbridge"
+            
+              , "zegarek Amazfit Bip"
+            
+              , "Zegarki Garmin"
+            
+              , "Modele Fitbit"
+            
+              , "zegarek PineTime"
+            
+              , "The Watchy firmy Squarofumi"
+            
+              , "Otwarty smartwatch od Pauls_3D_Things"
+            
+              , "Smartwatch Bangle.js 2"
+            
+              , "kompatybilność z Gadgetbridge"
+            
+              , "urządzenia obsługiwane przez AsteroidOS"
+            
+              , "funkcje prywatności smartwatcha"
+            
+              , "technologia open-source do noszenia"
+            
+              , "rozwiązania w zakresie prywatności danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/smartwatches-for-privacy-and-security-enthusiasts/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze smartwatche dostosowane do potrzeb entuzjastów prywatności, kładące nacisk na bezpieczeństwo danych i kontrolę użytkownika.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Illustration_of_a_smartwatch_with_a_shield_symbolizing_data.webp" length="46750" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

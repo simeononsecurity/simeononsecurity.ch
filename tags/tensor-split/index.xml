@@ -1,0 +1,103 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tensor Split on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Tensor Split on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/tensor-split/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/tensor-split/</link>
+
+    <description>Recent content in Tensor Split on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 03 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/tensor-split/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>32 GB VRAM dla Qwen 27B: przewodnik po sprzęcie lokalnej AI na październik 2026</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link>
+        
+        <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Sprzęt AI"
+            
+              , "Benchmarking GPU"
+            
+              , "Samodzielnie hostowana AI"
+            
+              , "Sprzęt komputerowy"
+            
+              , "Ekonomia AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyczny przewodnik na październik 2026 dotyczący uruchamiania modelu Qwen 27B z 32 GB użytecznej pamięci akceleratora. Porównaj pojedyncze GPU, zestawy z dwiema kartami, pamięć współdzieloną, używane karty centrów danych, wynajmowaną moc obliczeniową, obsługę oprogramowania i limity pełnego kontekstu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

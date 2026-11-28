@@ -1,0 +1,192 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Obiekty Zasad Grupy on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Obiekty Zasad Grupy on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/obiekty-zasad-grupy/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/obiekty-zasad-grupy/</link>
+
+    <description>Recent content in Obiekty Zasad Grupy on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/obiekty-zasad-grupy/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumieć filtrowanie WMI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zarządzanie systemem Windows"
+            
+              , "Zasady grupy"
+            
+              , "Administracja systemami"
+            
+              , "Zarządzanie siecią"
+            
+              , "Infrastruktura IT"
+            
+              , "Zarządzanie zasadami"
+            
+              , "Ład IT"
+            
+              , "Automatyzacja IT"
+            
+              , "Active Directory"
+            
+              , "Zgodność z wymaganiami bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak filtrowanie WMI pomaga kierować obiekty zasad grupy (GPO) do właściwych komputerów. Poznaj praktyczne przykłady i dobre praktyki.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp" length="41002" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Optymalizacja komputera z systemem Windows za pomocą Windows-Optimize-Debloat</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-optimize-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows-Optimize-Debloat"
+            
+              , "Optymalizacja systemu Windows"
+            
+              , "Debloating Windows"
+            
+              , "Przyspieszenie systemu Windows"
+            
+              , "Optymalizacja wydajności systemu Windows"
+            
+              , "Zwiększenie wydajności systemu Windows"
+            
+              , "Optymalizacja systemu Windows"
+            
+              , "Microsoft"
+            
+              , "Prywatność"
+            
+              , "Usuwanie zbędnego oprogramowania"
+            
+              , "Windows 10"
+            
+              , "Windows 11"
+            
+              , "Windows Defender"
+            
+              , "Windows Update"
+            
+              , "Cortona"
+            
+              , "Obiekty zasad grupy"
+            
+              , "Telemetria"
+            
+              , "Sklep Windows"
+            
+              , "Windows 10 Professional"
+            
+              , "Windows 10 Home"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-optimize-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Popraw wydajność i prywatność swojego systemu operacyjnego Windows za pomocą Windows-Optimize-Debloat, kompleksowego skryptu, który pomaga usunąć bloatware i zoptymalizować ustawienia systemowe.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

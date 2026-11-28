@@ -1,0 +1,731 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sprzęt Komputerowy on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Sprzęt Komputerowy on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/sprz%C4%99t-komputerowy/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/sprz%C4%99t-komputerowy/</link>
+
+    <description>Recent content in Sprzęt Komputerowy on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/sprz%C4%99t-komputerowy/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zgodność zasilaczy Octominer X12 Ultra: test Chicony i LiteOn w praktyce</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</link>
+        
+        <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sprzęt do kopania kryptowalut"
+            
+              , "Sprzęt komputerowy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/octominer-x12-ultra-psu-compatibility/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Test Octominer X12 Ultra z pięcioma wentylatorami i trzema zasilaczami wykazał, że Chicony uruchomił urządzenie, a testowane LiteOn sygnalizowały bursztynowym światłem i nie uruchomiły systemu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/octominer-x12-ultra-psu-compatibility.webp" length="34962" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Lokalne modele Hermes w testach: jakie zestawy GPU i modeli bym wybrał</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</link>
+        
+        <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Lokalna AI"
+            
+              , "Sprzęt komputerowy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hermes-local-model-gpu-qualification-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Moje rekomendacje modeli Hermes wynikają z testów długiego kontekstu, narzędzi, strumieniowania i obrazów na systemach RTX 5060 Ti, RTX 2000E Ada, RTX 3060 Ti oraz RTX 3070.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/hermes-local-model-gpu-benchmarks.webp" length="95440" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>2x RTX 5060 Ti kontra GB10: lokalny benchmark AI pięciu modeli przy kontekście 256K</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Lokalna AI"
+            
+              , "Sprzęt GPU"
+            
+              , "Benchmarki"
+            
+              , "Sprzęt komputerowy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie RTX 5060 Ti z GB10 dla pięciu modeli oraz benchmark Qwen3.8 Flash-Next na Strata, wykonany na tym samym hoście przy kontekście do 256K.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czy 16 GB VRAM wystarczy do poważnej pracy z lokalnym LLM?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link>
+        
+        <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Sprzęt komputerowy"
+            
+              , "Samodzielnie hostowana AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dobierz lokalny zestaw LLM z 16 GB, uwzględniając wagi modelu, pamięć podręczną KV i przetwarzanie promptu. Porównaj budżety pamięci Qwen3.8 27B, przepustowość GPU i koszty posiadania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>32 GB VRAM dla Qwen 27B: przewodnik po sprzęcie lokalnej AI na październik 2026</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link>
+        
+        <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Sprzęt AI"
+            
+              , "Benchmarking GPU"
+            
+              , "Samodzielnie hostowana AI"
+            
+              , "Sprzęt komputerowy"
+            
+              , "Ekonomia AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyczny przewodnik na październik 2026 dotyczący uruchamiania modelu Qwen 27B z 32 GB użytecznej pamięci akceleratora. Porównaj pojedyncze GPU, zestawy z dwiema kartami, pamięć współdzieloną, używane karty centrów danych, wynajmowaną moc obliczeniową, obsługę oprogramowania i limity pełnego kontekstu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>64GB DGX Spark ostrzega przed cenami sprzętu lokalnego AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link>
+        
+        <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalne AI"
+            
+              , "Sprzęt AI"
+            
+              , "Półprzewodniki"
+            
+              , "Sprzęt komputerowy"
+            
+              , "Ekonomia AI"
+            
+              , "Samodzielnie hostowane AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wersja 64GB DGX Spark firmy NVIDIA pokazuje, jak presja na podaż pamięci kształtuje sprzęt do lokalnego AI. Ten przewodnik wyjaśnia ograniczenie pojemności, kompromisy pamięci współdzielonej oraz powody, dla których ulga na rynku DRAM jest mało prawdopodobna przed końcem 2027 roku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Większa łączność: przewodnik po standardach i portach USB</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/usb-standards-and-ports_-a-users-guide/</link>
+        
+        <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Poradniki technologiczne"
+            
+              , "Łączność USB"
+            
+              , "Przewodniki po elektronice"
+            
+              , "Sprzęt komputerowy"
+            
+              , "Wskazówki technologiczne"
+            
+              , "Przystępna technologia"
+            
+              , "Synchronizacja urządzeń"
+            
+              , "Porady dotyczące przesyłania danych"
+            
+              , "Rozwiązania do ładowania"
+            
+              , "Postęp technologiczny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/usb-standards-and-ports_-a-users-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj ewolucję technologii i portów USB. Dowiedz się więcej o USB Type-C i USB 4.0, a następnie oceń, kiedy warto zaktualizować sprzęt.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/usb-standards-and-ports_-a-users-guide.webp" length="14270" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak wybrać najlepszy zasilacz: serce komputera</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/demystifying-computer-power-supplies_-how-to-choose-install-and-troubleshoot/</link>
+        
+        <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sprzęt komputerowy"
+            
+              , "Samodzielny montaż komputerów"
+            
+              , "Poradniki techniczne"
+            
+              , "Komputery do gier"
+            
+              , "Składanie komputerów"
+            
+              , "Podzespoły elektryczne"
+            
+              , "Instalacja sprzętu"
+            
+              , "Rozwiązywanie problemów technicznych"
+            
+              , "Optymalizacja wydajności"
+            
+              , "Efektywność energetyczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/demystifying-computer-power-supplies_-how-to-choose-install-and-troubleshoot/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak dobrać zasilacz zapewniający stabilność i wydajność komputera. Zapewnij swojemu systemowi odpowiednie zasilanie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/demystifying-computer-power-supplies_-how-to-choose-install-and-troubleshoot.webp" length="82442" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wycisz komputer: jak skutecznie rozwiązać problem głośnych wentylatorów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud/</link>
+        
+        <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sprzęt komputerowy"
+            
+              , "Konserwacja komputera"
+            
+              , "Porady techniczne"
+            
+              , "Samodzielna naprawa komputerów"
+            
+              , "Dbanie o urządzenia"
+            
+              , "Redukcja hałasu"
+            
+              , "Rozwiązywanie problemów sprzętowych"
+            
+              , "Samodzielna naprawa sprzętu"
+            
+              , "Wentylatory komputerowe"
+            
+              , "Modernizacje systemu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Denerwują Cię głośne wentylatory komputera? Poznaj przyczyny i sposoby naprawy, aby korzystać ze spokojnego komputera. Zacznij działać już teraz.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud.webp" length="244306" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skuteczne chłodzenie komputera: wentylacja i trwałość</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cooling-computer-systems_-ensuring-proper-ventilation-and-system-longevity/</link>
+        
+        <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Konserwacja sprzętu"
+            
+              , "Sprzęt komputerowy"
+            
+              , "Chłodzenie systemu"
+            
+              , "Kondycja komputera"
+            
+              , "Zarządzanie temperaturą"
+            
+              , "Optymalizacja sprzętu"
+            
+              , "Wentylacja komputera"
+            
+              , "Komputer gamingowy"
+            
+              , "Technika DIY"
+            
+              , "Trwałość komputera"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cooling-computer-systems_-ensuring-proper-ventilation-and-system-longevity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zadbaj o chłodzenie komputera. Poznaj wentylację, kontrolę kurzu i sposoby utrzymania wydajności. Dowiedz się, jak chłodzić komputer.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cooling-computer-systems_-ensuring-proper-ventilation-and-system-longevity.webp" length="220862" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Architektury magistral dla szybkiego transferu danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</link>
+        
+        <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Transfer danych"
+            
+              , "Innowacje technologiczne"
+            
+              , "Architektura systemów"
+            
+              , "Obliczenia wysokiej wydajności"
+            
+              , "Sprzęt komputerowy"
+            
+              , "Projektowanie magistral"
+            
+              , "Łączność"
+            
+              , "Nowe technologie"
+            
+              , "Wydajność obliczeń"
+            
+              , "Optymalizacja techniczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj architektury magistral i metody przyspieszania transferu danych. Artykuł omawia typy magistral, optymalizację, nowe rozwiązania oraz wyzwania związane z wydajnością i bezpieczeństwem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/achieving-high-speed-data-transfers_-a-guide-to-bus-architectures.webp" length="305084" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

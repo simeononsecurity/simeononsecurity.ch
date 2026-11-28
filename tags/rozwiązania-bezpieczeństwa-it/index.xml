@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rozwiązania Bezpieczeństwa IT on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Rozwiązania Bezpieczeństwa IT on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/rozwi%C4%85zania-bezpiecze%C5%84stwa-it/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/rozwi%C4%85zania-bezpiecze%C5%84stwa-it/</link>
+
+    <description>Recent content in Rozwiązania Bezpieczeństwa IT on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/rozwi%C4%85zania-bezpiecze%C5%84stwa-it/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik po zabezpieczaniu urządzeń końcowych w zespołach zdalnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</link>
+        
+        <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zabezpieczanie urządzeń końcowych"
+            
+              , "Bezpieczeństwo pracy zdalnej"
+            
+              , "Przewodnik po cyberbezpieczeństwie"
+            
+              , "Ochrona danych"
+            
+              , "Praktyki bezpieczeństwa IT"
+            
+              , "Przyszłe trendy w bezpieczeństwie"
+            
+              , "Bezpieczna praca zdalna"
+            
+              , "Zapobieganie cyberzagrożeniom"
+            
+              , "Ochrona prywatności danych"
+            
+              , "Rozwiązania bezpieczeństwa IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Chroń zdalne urządzenia końcowe dzięki ewidencji sprzętu, wzmacnianiu zabezpieczeń, poprawkom, MFA, szyfrowaniu, EDR, zasadom dostępu, monitorowaniu i planowaniu reagowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-ultimate-guide-to-endpoint-security-for-remote-teams.webp" length="58154" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona małej firmy przed phishingiem: kompletny przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</link>
+        
+        <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Ochrona małych firm"
+            
+              , "Oszustwa phishingowe"
+            
+              , "Szkolenia pracowników"
+            
+              , "Bezpieczeństwo poczty e-mail"
+            
+              , "Uwierzytelnianie wieloskładnikowe"
+            
+              , "Audyty bezpieczeństwa"
+            
+              , "Taktyki socjotechniczne"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Bezpieczeństwo w internecie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-protect-your-small-business-from-phishing-scams/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Chroń małą firmę przed phishingiem dzięki szkoleniom pracowników, zabezpieczeniom poczty, procedurom weryfikacji, zasadom zgłaszania oraz przetestowanej reakcji na incydenty.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/how-to-protect-your-small-business-from-phishing-scams.webp" length="88634" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

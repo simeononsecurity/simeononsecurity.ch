@@ -1,0 +1,153 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test Praktyczny Linux Plus on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Test Praktyczny Linux Plus on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/test-praktyczny-linux-plus/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/test-praktyczny-linux-plus/</link>
+
+    <description>Recent content in Test Praktyczny Linux Plus on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 23 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/test-praktyczny-linux-plus/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wskazówki i porady dotyczące zdawania egzaminu CompTIA Linux&#43; XK0-005</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/passing-comptias-linux-plus-xk0-005/</link>
+        
+        <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Aktualizacje systemu Linux"
+            
+              , "Ubuntu"
+            
+              , "Debian"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "aktualizacje offline"
+            
+              , "lokalne repozytorium"
+            
+              , "pamięć podręczna"
+            
+              , "konfiguracja serwera"
+            
+              , "konfiguracja klienta"
+            
+              , "apt-mirror"
+            
+              , "debmirror"
+            
+              , "createrepo"
+            
+              , "apt-cacher-ng"
+            
+              , "yum-cron"
+            
+              , "Aktualizacje systemu Linux"
+            
+              , "aktualizacje pakietów offline"
+            
+              , "aktualizacje oprogramowania offline"
+            
+              , "lokalne repozytorium pakietów"
+            
+              , "lokalna pamięć podręczna pakietów"
+            
+              , "Aktualizacje systemu Linux w trybie offline"
+            
+              , "obsługa aktualizacji offline"
+            
+              , "metody aktualizacji offline"
+            
+              , "konserwacja systemu offline"
+            
+              , "Aktualizacje serwerów Linux"
+            
+              , "Aktualizacje klienta Linux"
+            
+              , "Zarządzanie oprogramowaniem offline"
+            
+              , "Zarządzanie pakietami offline"
+            
+              , "strategie aktualizacji"
+            
+              , "Aktualizacje zabezpieczeń systemu Linux"
+            
+              , "Test praktyczny Linux Plus"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/passing-comptias-linux-plus-xk0-005/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj cenne wskazówki i triki, które pomogą Ci zdać egzamin CompTIA Linux+ XK0-005 i rozwinąć karierę profesjonalisty Linux.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.webp" length="151018" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

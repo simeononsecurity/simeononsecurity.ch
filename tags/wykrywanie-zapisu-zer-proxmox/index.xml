@@ -1,0 +1,101 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wykrywanie Zapisu Zer Proxmox on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Wykrywanie Zapisu Zer Proxmox on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wykrywanie-zapisu-zer-proxmox/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wykrywanie-zapisu-zer-proxmox/</link>
+
+    <description>Recent content in Wykrywanie Zapisu Zer Proxmox on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wykrywanie-zapisu-zer-proxmox/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Proxmox VE 9: ogranicz zużycie dysków wirtualnych i odzyskaj miejsce</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</link>
+        
+        <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wirtualizacja"
+            
+              , "Administracja Linuksem"
+            
+              , "platforma Proxmox VE"
+            
+              , "Pamięć masowa"
+            
+              , "Domowe laboratorium"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/proxmox-ve-9-virtual-disk-space-reclamation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ogranicz zużycie pamięci masowej przez VM i kontenery LXC w Proxmox VE 9. Porównaj formaty i backendy, włącz discard, uruchom trim i sprawdź migawki przed odzyskaniem miejsca.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/proxmox-ve-9-virtual-disk-space-reclamation.webp" length="34190" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,209 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Przekazanie Agentowi on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Przekazanie Agentowi on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/przekazanie-agentowi/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/przekazanie-agentowi/</link>
+
+    <description>Recent content in Przekazanie Agentowi on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/przekazanie-agentowi/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Projekt końcowy przepływu pracy z AI: zbuduj i zweryfikuj raport JSON</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-capstone/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Inżynieria oprogramowania"
+            
+              , "Edukacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-capstone/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Utwórz raport zadań JSON z kontekstem projektu, ograniczonym zakresem polecenia dla agenta, niezależnymi testami, kontrolą źródeł i przekazaniem pracy do nowej sesji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-capstone.webp" length="96772" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jedno źródło, wiele narzędzi: framework współpracy AI dla mieszanych zespołów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/one-source-many-tools-ai-collaboration-framework/</link>
+        
+        <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Zarządzanie wiedzą"
+            
+              , "Inżynieria oprogramowania"
+            
+              , "Współpraca zespołowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/one-source-many-tools-ai-collaboration-framework/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zbuduj wspólny system współpracy z AI, określając **właścicieli źródeł**, wersjonowanie kontekstu, trwały przegląd zmian oraz wybór między mapą projektu a RAG.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Odzyskiwanie po rozjechaniu kontekstu agenta AI i przekazywanie pracy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ai-collaboration-drift-recovery-handoffs/</link>
+        
+        <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Współpraca zespołowa"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ai-collaboration-drift-recovery-handoffs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wykrywaj nieaktualne źródła i adaptery polityk, wznawiaj przerwaną publikację oraz weryfikuj niezależne przekazania między agentami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

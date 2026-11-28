@@ -1,0 +1,405 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wytyczne NIST on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Wytyczne NIST on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wytyczne-nist/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wytyczne-nist/</link>
+
+    <description>Recent content in Wytyczne NIST on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wytyczne-nist/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego zasady złożoności haseł są przestarzałe</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/password-complexity-security-article/</link>
+        
+        <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo haseł"
+            
+              , "Metody uwierzytelniania"
+            
+              , "Zagrożenia online"
+            
+              , "Edukacja użytkowników"
+            
+              , "Wytyczne NIST"
+            
+              , "Nowoczesne uwierzytelnianie"
+            
+              , "Świadomość phishingu"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Bezpieczeństwo online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/password-complexity-security-article/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, dlaczego zasady złożoności haseł tracą skuteczność i jak praktycznie poprawić bezpieczeństwo w sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/password-complexity-security.webp" length="115670" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanuj OPSEC: 6 kluczowych kroków do bezpieczeństwa cyfrowego</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</link>
+        
+        <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Bezpieczeństwo operacyjne"
+            
+              , "Prywatność w Internecie"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Bezpieczeństwo internetowe"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Zagrożenia online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/essential-opsec-steps-for-digital-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sześć kluczowych kroków OPSEC, które chronią Twoją obecność cyfrową i wzmacniają cyberbezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/OPSEC_Steps_Security.webp" length="216778" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>FISMA: wzmocnienie federalnego cyberbezpieczeństwa i ochrona danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</link>
+        
+        <pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Przepisy rządowe"
+            
+              , "Zapewnienie bezpieczeństwa informacji"
+            
+              , "Ochrona danych"
+            
+              , "Agencje federalne"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Standardy bezpieczeństwa"
+            
+              , "Ciągły monitoring"
+            
+              , "Cyberzagrożenia"
+            
+              , "Zarządzanie cyfrowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak FISMA wzmacnia federalne cyberbezpieczeństwo. Poznaj jej główne cechy, proces i wpływ na ochronę danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-shield-fisma.webp" length="118222" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mistrzostwo w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-risk-management-framework-cybersecurity/</link>
+        
+        <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Przepisy rządowe"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona danych"
+            
+              , "Mechanizmy bezpieczeństwa"
+            
+              , "Wytyczne NIST"
+            
+              , "Ciągłe monitorowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-risk-management-framework-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kluczowe ramy zarządzania ryzykiem (RMF) w cyberbezpieczeństwie, ich elementy i znaczenie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_shield_protection.webp" length="120532" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>DevSecOps: radzenie sobie z wyzwaniami, wykorzystywanie możliwości.</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</link>
+        
+        <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevSecOps"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "testy bezpieczeństwa"
+            
+              , "metodyki zwinne"
+            
+              , "współpraca"
+            
+              , "regulacje rządowe"
+            
+              , "automatyzacja"
+            
+              , "rozwój aplikacji"
+            
+              , "skalowalność"
+            
+              , "ciągłe monitorowanie"
+            
+              , "wytyczne NIST"
+            
+              , "pętle sprzężenia zwrotnego"
+            
+              , "modułowość"
+            
+              , "podatności"
+            
+              , "zapewnienie jakości"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "infrastruktura IT"
+            
+              , "narzędzia do tworzenia oprogramowania"
+            
+              , "zarządzanie ryzykiem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten artykuł analizuje wyzwania i możliwości DevSecOps w organizacjach, w tym lepszą współpracę, lepszą skalowalność, integrację z przepisami rządowymi i nie tylko.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.webp" length="104930" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

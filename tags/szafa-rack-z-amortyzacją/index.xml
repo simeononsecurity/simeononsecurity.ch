@@ -1,0 +1,107 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Szafa Rack Z Amortyzacją on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Szafa Rack Z Amortyzacją on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/szafa-rack-z-amortyzacj%C4%85/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/szafa-rack-z-amortyzacj%C4%85/</link>
+
+    <description>Recent content in Szafa Rack Z Amortyzacją on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/szafa-rack-z-amortyzacj%C4%85/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przenośne obliczenia brzegowe: dobór urządzeń i obudowy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Obliczenia brzegowe"
+            
+              , "Informatyka terenowa"
+            
+              , "Urządzenia"
+            
+              , "Domowe laboratorium"
+            
+              , "Sprzęt wzmocniony"
+            
+              , "Sieci"
+            
+              , "Odzyskiwanie po awarii"
+            
+              , "IT dla małych firm"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przewodnik po sprzęcie edge computing do pracy w terenie i wyborze obudowy, obejmujący komputery, szafy, chłodzenie, pamięć masową, zarządzanie, okablowanie i zasilanie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,249 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Etyczny Hacking on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Etyczny Hacking on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/etyczny-hacking/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/etyczny-hacking/</link>
+
+    <description>Recent content in Etyczny Hacking on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/etyczny-hacking/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmacnianie cyberodporności</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</link>
+        
+        <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Testy penetracyjne"
+            
+              , "Etyczny hacking"
+            
+              , "Strategie cyberbezpieczeństwa"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Ocena podatności"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Zgodność z przepisami"
+            
+              , "Kontrole bezpieczeństwa"
+            
+              , "Cyberodporność"
+            
+              , "Przyszłość cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak regularne testy penetracyjne ujawniają podatności możliwe do wykorzystania, wspierają naprawy oparte na ryzyku i sprawdzają zabezpieczenia systemów oraz aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-importance-of-regular-penetration-testing-for-cybersecurity.webp" length="85258" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Hack The Box dla początkujących w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hack-the-box-good-for-beginners-cybersecurity/</link>
+        
+        <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Etyczny hacking"
+            
+              , "Testy penetracyjne"
+            
+              , "Nauka praktyczna"
+            
+              , "Dla początkujących"
+            
+              , "Platformy online"
+            
+              , "Hack The Box Academy"
+            
+              , "TryHackMe"
+            
+              , "Materiały do nauki"
+            
+              , "Wsparcie społeczności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hack-the-box-good-for-beginners-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, czy Hack The Box jest odpowiedni dla początkujących w cyberbezpieczeństwie, i poznaj alternatywy, takie jak Hack The Box Academy i TryHackMe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/hack_the_box_beginner_cybersecurity.webp" length="114812" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Programy bug bounty: crowdsourcing testów bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</link>
+        
+        <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Programy bug bounty"
+            
+              , "Testy crowdsourcingowe"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Etyczny hacking"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Testy bezpieczeństwa"
+            
+              , "Cyberobrona"
+            
+              , "Podatności oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak programy bug bounty wspierają zgłaszanie podatności, testy bezpieczeństwa i odpowiedzialne ujawnianie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/bug-bounty-programs-engaging-the-crowd-in-security-testing.webp" length="238912" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

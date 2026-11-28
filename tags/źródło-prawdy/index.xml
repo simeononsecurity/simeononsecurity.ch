@@ -1,0 +1,152 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Źródło Prawdy on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Źródło Prawdy on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/%C5%BAr%C3%B3d%C5%82o-prawdy/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/%C5%BAr%C3%B3d%C5%82o-prawdy/</link>
+
+    <description>Recent content in Źródło Prawdy on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/%C5%BAr%C3%B3d%C5%82o-prawdy/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Napisz AGENTS.md i CLAUDE.md dla agentów kodujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-agents-md-context/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-agents-md-context/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Utwórz krótką mapę repozytorium ze źródłem prawdy i poleceniem testów, aby agenci zaczynali z właściwym kontekstem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-agents-md-context.webp" length="124018" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jedno źródło, wiele narzędzi: framework współpracy AI dla mieszanych zespołów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/one-source-many-tools-ai-collaboration-framework/</link>
+        
+        <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Zarządzanie wiedzą"
+            
+              , "Inżynieria oprogramowania"
+            
+              , "Współpraca zespołowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/one-source-many-tools-ai-collaboration-framework/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zbuduj wspólny system współpracy z AI, określając **właścicieli źródeł**, wersjonowanie kontekstu, trwały przegląd zmian oraz wybór między mapą projektu a RAG.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

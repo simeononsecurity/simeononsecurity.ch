@@ -1,0 +1,611 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sieci on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Sieci on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/sieci/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/sieci/</link>
+
+    <description>Recent content in Sieci on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/sieci/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tailscale Aperture: konfiguracja klientów AI do inferencji i MCP w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</link>
+        
+        <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Narzędzia dla programistów"
+            
+              , "Sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/tailscale-aperture-client-setup-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kieruj żądania modeli i narzędzia MCP przez Tailscale Aperture. Skonfiguruj Codex, Claude Code, Claude Desktop, OpenCode i Hermes na innym urządzeniu lub bramie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/tailscale-aperture-agent-setup.webp" length="53996" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Testuj wycieki DNS i WebRTC w przeglądarce z VPN</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Prywatność"
+            
+              , "Przeglądarki"
+            
+              , "Sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź publiczny adres IP, resolver DNS i adresy WebRTC przeglądarki przed połączeniem VPN i po nim. Zinterpretuj wyniki i zbadaj problemy z trasowaniem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Planowanie i testowanie segmentacji VLAN w homelabie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Homelab"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przygotuj plan VLAN, który rozdzieli zaufane urządzenia, serwery, IoT i gości w homelabie. Określ dozwolony ruch, skonfiguruj sieć etapami i przetestuj izolację.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przenośne obliczenia brzegowe: dobór urządzeń i obudowy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Obliczenia brzegowe"
+            
+              , "Informatyka terenowa"
+            
+              , "Urządzenia"
+            
+              , "Domowe laboratorium"
+            
+              , "Sprzęt wzmocniony"
+            
+              , "Sieci"
+            
+              , "Odzyskiwanie po awarii"
+            
+              , "IT dla małych firm"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/field-deployable-edge-compute-hardware-and-enclosure-selection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przewodnik po sprzęcie edge computing do pracy w terenie i wyborze obudowy, obejmujący komputery, szafy, chłodzenie, pamięć masową, zarządzanie, okablowanie i zasilanie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp" length="252952" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zasilanie i odporność środowiskowa systemów terenowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Edge computing"
+            
+              , "Informatyka terenowa"
+            
+              , "Systemy zasilania"
+            
+              , "Sprzęt"
+            
+              , "Odzyskiwanie po awarii"
+            
+              , "Komputery wzmocnione"
+            
+              , "Sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zaplanuj zasilanie i ochronę środowiskową dla terenowych węzłów edge. Dobierz UPS, akumulatory i panele słoneczne, synchronizację czasu, stopień ochrony obudowy, uziemienie oraz zabezpieczenie przeciwprzepięciowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsi twórcy treści o homelabach</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</link>
+        
+        <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Sieci"
+            
+              , "Zrób to sam"
+            
+              , "Wirtualizacja"
+            
+              , "Homelaby"
+            
+              , "Pasjonaci technologii"
+            
+              , "Społeczność"
+            
+              , "Nauka"
+            
+              , "Innowacje"
+            
+              , "Poradniki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/top-homelab-content-creators-connect-explore/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj wpływowych twórców homelabów, nawiąż kontakt z pasjonatami i rozpocznij technologiczną przygodę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Homelab-Content-Creators-Connect-Explore.webp" length="105722" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak rozmieścić punkty dostępowe, aby poprawić zasięg Wi-Fi</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link>
+        
+        <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Sieci"
+            
+              , "Sieci bezprzewodowe"
+            
+              , "Punkty dostępowe"
+            
+              , "Instalacja Wi-Fi"
+            
+              , "Optymalizacja sieci"
+            
+              , "Sieci domowe"
+            
+              , "Łączność bezprzewodowa"
+            
+              , "Internet rzeczy"
+            
+              , "Rozwiązania sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sprawdzone sposoby rozmieszczania punktów dostępowych, które poprawiają łączność bezprzewodową, ograniczają zakłócenia i zapewniają stabilne działanie sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podstawy sieci: przełączniki, routery, zapory i DMZ</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link>
+        
+        <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sieci"
+            
+              , "Infrastruktura IT"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Architektura sieci"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Komunikacja danych"
+            
+              , "Technologia informacyjna"
+            
+              , "Podstawy IT"
+            
+              , "Zarządzanie siecią"
+            
+              , "Łączność internetowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sposób, w jaki przełączniki, routery, bramy, podsieci, zapory i strefy DMZ dzielą ruch sieciowy i egzekwują granice bezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected.webp" length="136174" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Komunikacja połączeniowa i bezpołączeniowa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Sieci"
+            
+              , "Komunikacja"
+            
+              , "Protokoły"
+            
+              , "Informatyka"
+            
+              , "Transmisja danych"
+            
+              , "Infrastruktura sieciowa"
+            
+              , "Internet"
+            
+              , "Technologia informacyjna"
+            
+              , "Telekomunikacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice między komunikacją połączeniową i bezpołączeniową, w tym protokoły, usługi i metody routingu w sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_showing_two_devices_connected.webp" length="39168" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

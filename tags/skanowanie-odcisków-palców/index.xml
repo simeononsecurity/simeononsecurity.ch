@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skanowanie Odcisków Palców on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Skanowanie Odcisków Palców on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/skanowanie-odcisk%C3%B3w-palc%C3%B3w/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/skanowanie-odcisk%C3%B3w-palc%C3%B3w/</link>
+
+    <description>Recent content in Skanowanie Odcisków Palców on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 16 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/skanowanie-odcisk%C3%B3w-palc%C3%B3w/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uwierzytelnianie biometryczne: zastosowania i bezpieczeństwo</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/biometric-authentication-use-cases-and-security-considerations/</link>
+        
+        <pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Biometria"
+            
+              , "Uwierzytelnianie"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Weryfikacja tożsamości"
+            
+              , "Ochrona danych"
+            
+              , "Prywatność"
+            
+              , "Nowe trendy"
+            
+              , "Doświadczenie użytkownika"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/biometric-authentication-use-cases-and-security-considerations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zastosowania i zagadnienia bezpieczeństwa uwierzytelniania biometrycznego, które pomaga chronić poufne dane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/biometric-authentication-use-cases-and-security-considerations.webp" length="228916" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

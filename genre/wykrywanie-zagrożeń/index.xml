@@ -1,0 +1,446 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wykrywanie Zagrożeń on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Wykrywanie Zagrożeń on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/wykrywanie-zagro%C5%BCe%C5%84/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/wykrywanie-zagro%C5%BCe%C5%84/</link>
+
+    <description>Recent content in Wykrywanie Zagrożeń on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/wykrywanie-zagro%C5%BCe%C5%84/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najczęstsze rodzaje cyberataków i metody ich wykrywania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link>
+        
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Blue team"
+            
+              , "Operacje bezpieczeństwa"
+            
+              , "Rozwój kariery"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj częste rodzaje cyberataków, ślady pozostawiane w logach i telemetrii oraz ćwicz ich wykrywanie w domowym laboratorium bezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>5 sposobów, w jakie AI usprawnia wykrywanie i reagowanie na cyberzagrożenia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/5-ways-ai-is-transforming-cyber-threat-detection/</link>
+        
+        <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "AI w cyberbezpieczeństwie"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Technologia transformacyjna"
+            
+              , "Innowacje w cyberbezpieczeństwie"
+            
+              , "Analiza danych"
+            
+              , "Monitorowanie w czasie rzeczywistym"
+            
+              , "Uczenie maszynowe w bezpieczeństwie"
+            
+              , "Przetwarzanie języka naturalnego"
+            
+              , "Uczenie głębokie"
+            
+              , "Automatyczne reagowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/5-ways-ai-is-transforming-cyber-threat-detection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj pięć zastosowań AI w wykrywaniu zagrożeń, w tym analizę anomalii, modele zachowań, klasyfikację złośliwego oprogramowania, monitorowanie w czasie rzeczywistym i wsparcie reagowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/5-ways-ai-is-transforming-cyber-threat-detection.webp" length="242224" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowa odpornego SOC</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link>
+        
+        <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Technologia"
+            
+              , "Biznes"
+            
+              , "Ochrona danych"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Zarządzanie IT"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Zarządzanie ryzykiem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Utwórz solidne centrum operacji bezpieczeństwa (SOC), aby przeciwdziałać cyberzagrożeniom, wykrywać incydenty i chronić zasoby organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczeństwo EDR od podstaw: przewodnik po ochronie punktów końcowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link>
+        
+        <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Ochrona punktów końcowych"
+            
+              , "Rozwiązania EDR"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Bezpieczeństwo punktów końcowych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona cyfrowa"
+            
+              , "Strategie bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj działanie, zalety i wyzwania związane z wdrażaniem EDR oraz dobre praktyki, które pomagają chronić punkty końcowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmocnij ochronę: rozwiązania EDR w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link>
+        
+        <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Technologia"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Bezpieczeństwo punktów końcowych"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Obrona cyfrowa"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Odporność cybernetyczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak rozwiązania EDR chronią punkty końcowe, wykrywają zagrożenia i pomagają organizacjom wybrać odpowiednie rozwiązanie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>AWS, Azure i Google Cloud 2026: pełne porównanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Chmura obliczeniowa"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud Platform"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Szyfrowanie"
+            
+              , "Zarządzanie tożsamością i dostępem"
+            
+              , "Zgodność"
+            
+              , "Wykrywanie zagrożeń"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie AWS, Azure i Google Cloud z 2026 roku obejmujące ceny, bezpieczeństwo, zgodność, usługi, wydajność i wybór dostawcy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,105 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VPN Dla Lokalizacji Zdalnej on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>VPN Dla Lokalizacji Zdalnej on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/vpn-dla-lokalizacji-zdalnej/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/vpn-dla-lokalizacji-zdalnej/</link>
+
+    <description>Recent content in VPN Dla Lokalizacji Zdalnej on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/vpn-dla-lokalizacji-zdalnej/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Łączność i bezpieczeństwo danych dla wdrażanych w terenie węzłów edge</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link>
+        
+        <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Edge computing"
+            
+              , "Informatyka terenowa"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "VPN"
+            
+              , "Szyfrowanie"
+            
+              , "Bezpieczeństwo fizyczne"
+            
+              , "Odzyskiwanie po awarii"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Podłącz i zabezpiecz terenowe węzły edge computing za pomocą sieci komórkowej, satelitarnej, LoRa, VPN, MFA, segmentacji, logowania, szyfrowania i ochrony przed kradzieżą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

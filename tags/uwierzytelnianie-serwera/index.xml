@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uwierzytelnianie Serwera on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Uwierzytelnianie Serwera on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/uwierzytelnianie-serwera/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/uwierzytelnianie-serwera/</link>
+
+    <description>Recent content in Uwierzytelnianie Serwera on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/uwierzytelnianie-serwera/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>OpenCode CLI a aplikacja desktopowa: porównanie przepływów pracy w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Narzędzia dla programistów"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Tworzenie oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie terminalowego i desktopowego klienta OpenCode pod kątem architektury serwera, konfiguracji dostawcy, skryptów, stanu sesji i rozwiązywania problemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp" length="34248" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

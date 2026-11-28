@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aplikacje Czasu Rzeczywistego on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Aplikacje Czasu Rzeczywistego on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/aplikacje-czasu-rzeczywistego/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/aplikacje-czasu-rzeczywistego/</link>
+
+    <description>Recent content in Aplikacje Czasu Rzeczywistego on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 02 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/aplikacje-czasu-rzeczywistego/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Komunikacja połączeniowa i bezpołączeniowa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Sieci"
+            
+              , "Komunikacja"
+            
+              , "Protokoły"
+            
+              , "Informatyka"
+            
+              , "Transmisja danych"
+            
+              , "Infrastruktura sieciowa"
+            
+              , "Internet"
+            
+              , "Technologia informacyjna"
+            
+              , "Telekomunikacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice między komunikacją połączeniową i bezpołączeniową, w tym protokoły, usługi i metody routingu w sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_showing_two_devices_connected.webp" length="39168" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

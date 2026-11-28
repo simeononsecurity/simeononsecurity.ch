@@ -1,0 +1,178 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sprzęt Hakerski on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Sprzęt Hakerski on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/sprz%C4%99t-hakerski/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/sprz%C4%99t-hakerski/</link>
+
+    <description>Recent content in Sprzęt Hakerski on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 02 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/sprz%C4%99t-hakerski/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Odkrywamy świat hakera sprzętowego</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hardware-hacker-essential-tools-techniques/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia i hakowanie"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Hakowanie sprzętu"
+            
+              , "Narzędzia hakerskie"
+            
+              , "Elektronika"
+            
+              , "Internet rzeczy"
+            
+              , "Samodzielne hakowanie"
+            
+              , "Inżynieria wsteczna"
+            
+              , "Mikrokontrolery"
+            
+              , "Hakowanie łączności bezprzewodowej"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hardware-hacker-essential-tools-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj świat hakowania sprzętu oraz podstawowe narzędzia i techniki wykorzystywane do analizy i modyfikowania urządzeń elektronicznych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_art_style_depicting_a_hacker_surrou.webp" length="181862" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecany sprzęt dla hakerów</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/hacker_hardware/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecany sprzęt dla hakerów"
+            
+              , "Narzędzia hakerskie RFID NFC"
+            
+              , "Urządzenia hakerskie WiFi"
+            
+              , "Bezprzewodowy sprzęt hakerski"
+            
+              , "Rekomendacje dotyczące sprzętu dla hakerów"
+            
+              , "Narzędzia cyberbezpieczeństwa"
+            
+              , "Klonowanie sygnału RFID NFC"
+            
+              , "Uwierzytelnianie WiFi"
+            
+              , "Sniffing sygnału bezprzewodowego"
+            
+              , "Geolokalizacja WiFi oparta na GPS"
+            
+              , "Platformy radiowe definiowane programowo"
+            
+              , "Mini PC Firewall"
+            
+              , "Uwierzytelnianie klucza bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/hacker_hardware/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj polecany przez SimeonOnSecurity sprzęt dla hakerów, w tym narzędzia do RFID, NFC, hakowania WiFi, hakowania bezprzewodowego i nie tylko. Kupuj najlepsze produkty takich marek jak Hak5, Chameleon Tiny, Alfa i nie tylko. Znajdź idealne narzędzie dla swoich potrzeb dzięki kompleksowym i profesjonalnym rekomendacjom SimeonOnSecurity.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

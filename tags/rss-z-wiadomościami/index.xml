@@ -1,0 +1,99 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RSS Z Wiadomościami on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>RSS Z Wiadomościami on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/rss-z-wiadomo%C5%9Bciami/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/rss-z-wiadomo%C5%9Bciami/</link>
+
+    <description>Recent content in RSS Z Wiadomościami on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/rss-z-wiadomo%C5%9Bciami/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowa asystenta AI chroniącego prywatność dla Meshtastic</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link>
+        
+        <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo sieci"
+            
+              , "Prywatność"
+            
+              , "Oprogramowanie open source"
+            
+              , "Automatyzacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyczny opis lokalnego asystenta AI dla Meshtastic z prywatną konfiguracją, kolejkowanym dostępem TCP, narzędziami pobierania danych i bezpieczniejszym panelem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wskaźniki Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Wskaźniki Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wska%C5%BAniki-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wska%C5%BAniki-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Wskaźniki Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wska%C5%BAniki-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie ludzkiej zapory: szkolenie pracowników z bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-a-human-firewall_-training-employees-in-cybersecurity/</link>
+        
+        <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Szkolenia z cyberbezpieczeństwa"
+            
+              , "Wzmacnianie pracowników"
+            
+              , "Strategie ludzkiej zapory"
+            
+              , "Świadomość bezpieczeństwa"
+            
+              , "Techniki ochrony cyfrowej"
+            
+              , "Ograniczanie zagrożeń"
+            
+              , "Symulowane cyberataki"
+            
+              , "Projektowanie programów szkoleniowych"
+            
+              , "Pomiar efektów szkoleń"
+            
+              , "Ciągłe doskonalenie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-a-human-firewall_-training-employees-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zbuduj ludzką zaporę dzięki szkoleniom dopasowanym do ról, realistycznym ćwiczeniom phishingowym, jasnym procedurom zgłaszania, użytecznym wskaźnikom i regularnym powtórkom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/building-a-human-firewall_-training-employees-in-cybersecurity.webp" length="118578" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanuj automatyzację bezpieczeństwa: strategie i narzędzia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/deep-dive-into-security-automation_-strategies-and-implementation/</link>
+        
+        <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja bezpieczeństwa"
+            
+              , "Strategie cyberbezpieczeństwa"
+            
+              , "Struktury automatyzacji"
+            
+              , "Uczenie maszynowe w bezpieczeństwie"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Ciągłe doskonalenie"
+            
+              , "Narzędzia open source i komercyjne"
+            
+              , "Odporność cybernetyczna"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Wskaźniki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/deep-dive-into-security-automation_-strategies-and-implementation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przewodnik po strategiach i narzędziach automatyzacji bezpieczeństwa, wskaźnikach, ograniczeniach wdrożenia oraz procesach wspieranych przez AI.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/deep-dive-into-security-automation_-strategies-and-implementation.webp" length="257448" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

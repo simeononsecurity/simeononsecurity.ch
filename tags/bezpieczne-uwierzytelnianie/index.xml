@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczne Uwierzytelnianie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczne Uwierzytelnianie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpieczne-uwierzytelnianie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpieczne-uwierzytelnianie/</link>
+
+    <description>Recent content in Bezpieczne Uwierzytelnianie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 15 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpieczne-uwierzytelnianie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpiecz swoje transakcje</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-transactions-amazon-hardware-tokens/</link>
+        
+        <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Transakcje cyfrowe"
+            
+              , "Uwierzytelnianie dwuskładnikowe"
+            
+              , "Urządzenia Amazon"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo internetowe"
+            
+              , "Handel elektroniczny"
+            
+              , "Zgodność z przepisami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-transactions-amazon-hardware-tokens/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj fizyczne klucze sprzętowe polecane przez Amazon i dowiedz się, jak wzmacniają uwierzytelnianie kont internetowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure_transactions_shield.webp" length="69502" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne programowanie w Pythonie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Programowanie"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+              , "Programowanie w Pythonie"
+            
+              , "Bezpieczne programowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Analiza danych"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Języki programowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyki bezpiecznego programowania w Pythonie, które ograniczają ryzyko wstrzyknięcia SQL, cross-site scripting i innych podatności aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

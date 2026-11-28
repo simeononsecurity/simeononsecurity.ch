@@ -1,0 +1,403 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agenci AI on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Agenci AI on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/agenci-ai/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/agenci-ai/</link>
+
+    <description>Recent content in Agenci AI on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/agenci-ai/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Lokalna sztuczna inteligencja kontra ChatGPT: jak blisko jesteśmy?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Sprzęt AI"
+            
+              , "Narzędzia dla programistów"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie lokalnej AI z ChatGPT i Claude na podstawie wyników testów, szacunków pamięci, szybkości obsługi i weryfikacji agentów. Omówiono RTX 5090, DGX Spark i Mac Studio.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Routing dostawców OpenRouter: jakość modeli, limity tokenów i rzeczywiste koszty</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link>
+        
+        <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Infrastruktura"
+            
+              , "otwarte oprogramowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Diagnozuj niespójne odpowiedzi OpenRouter, porównuj limity endpointów i koszty buforowania oraz konfiguruj routing dostawców bez przypadkowego wyłączania kontroli jakości.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp" length="117470" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jedno źródło, wiele narzędzi: framework współpracy AI dla mieszanych zespołów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/one-source-many-tools-ai-collaboration-framework/</link>
+        
+        <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Zarządzanie wiedzą"
+            
+              , "Inżynieria oprogramowania"
+            
+              , "Współpraca zespołowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/one-source-many-tools-ai-collaboration-framework/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zbuduj wspólny system współpracy z AI, określając **właścicieli źródeł**, wersjonowanie kontekstu, trwały przegląd zmian oraz wybór między mapą projektu a RAG.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Certyfikaty cyberbezpieczeństwa AI: nie nadążają za praktyką</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ai-cybersecurity-governance-certifications-disappointing/</link>
+        
+        <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo AI"
+            
+              , "Zarządzanie AI"
+            
+              , "Certyfikaty AI"
+            
+              , "NIST AI RMF"
+            
+              , "NIST AI 600-1"
+            
+              , "ISO 42001"
+            
+              , "IAPP AIGP"
+            
+              , "wstrzykiwanie promptów"
+            
+              , "Cyberbezpieczeństwo AI"
+            
+              , "Bezpieczeństwo LLM"
+            
+              , "OWASP LLM Top 10"
+            
+              , "MITRE ATLAS"
+            
+              , "Zarządzanie ryzykiem AI"
+            
+              , "Zgodność AI"
+            
+              , "Bezpieczeństwo uczenia maszynowego"
+            
+              , "Łańcuch dostaw modeli"
+            
+              , "Adwersarialne AI"
+            
+              , "Agenci AI"
+            
+              , "Bezpieczeństwo MCP"
+            
+              , "Testy zespołu czerwonego AI"
+            
+              , "Certyfikaty zarządzania AI"
+            
+              , "Agentowa AI"
+            
+              , "Google SAIF"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ai-cybersecurity-governance-certifications-disappointing/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Opinia o różnicy między certyfikatami zarządzania AI a praktyką bezpieczeństwa AI, oparta na doświadczeniach z certyfikacją i obecnych ograniczeniach powierzchni ataku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp" length="339504" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Cyberbezpieczeństwo AI w 2026 roku: szybkie wdrażanie, późniejsze zabezpieczanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/state-of-ai-cybersecurity-2026/</link>
+        
+        <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo AI"
+            
+              , "cyberbezpieczeństwo AI 2026"
+            
+              , "wstrzykiwanie promptów"
+            
+              , "agenci AI"
+            
+              , "bezpieczeństwo MCP"
+            
+              , "łańcuch dostaw AI"
+            
+              , "shadow AI"
+            
+              , "red teaming AI"
+            
+              , "bezpieczeństwo LLM"
+            
+              , "obserwowalność AI"
+            
+              , "agentowa AI"
+            
+              , "zagrożenia AI"
+            
+              , "ataki AI"
+            
+              , "bezpieczeństwo modeli"
+            
+              , "zarządzanie AI"
+            
+              , "NIST AI 600-1"
+            
+              , "OWASP LLM"
+            
+              , "MITRE ATLAS"
+            
+              , "reagowanie na incydenty AI"
+            
+              , "bezpieczeństwo AI w przedsiębiorstwie"
+            
+              , "tożsamość AI"
+            
+              , "zatruwanie kontekstu"
+            
+              , "zatruwanie narzędzi"
+            
+              , "autoryzacja AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/state-of-ai-cybersecurity-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ocena wdrażania AI w cyberbezpieczeństwie, luk operacyjnych, aktualnych wytycznych i praktycznych zabezpieczeń dla organizacji w 2026 roku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/state-of-ai-cybersecurity-2026.webp" length="282406" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

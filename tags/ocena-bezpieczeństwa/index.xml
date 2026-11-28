@@ -1,0 +1,491 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ocena Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Ocena Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ocena-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ocena-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Ocena Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 22 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ocena-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skuteczna ochrona chmury</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</link>
+        
+        <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo chmury"
+            
+              , "Odporność firmy"
+            
+              , "Wdrożenie CSPM"
+            
+              , "Proaktywne wykrywanie zagrożeń"
+            
+              , "Zarządzanie zgodnością"
+            
+              , "Zasady bezpieczeństwa"
+            
+              , "Współpraca między zespołami"
+            
+              , "Infrastruktura chmurowa"
+            
+              , "Automatyzacja bezpieczeństwa"
+            
+              , "Ograniczanie ryzyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Użyj zarządzania stanem bezpieczeństwa chmury, aby wykrywać błędne konfiguracje, egzekwować zasady, obsługiwać alerty i zgodność oraz kierować naprawą w kontach chmurowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/leveraging-cloud-security-posture-management-%28cspm%29-for-your-business.webp" length="234272" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PCI-DSS: bezpieczna zgodność przy transakcjach kartowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link>
+        
+        <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo kart płatniczych"
+            
+              , "Ochrona danych"
+            
+              , "Zgodność z wymaganiami"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Technologia"
+            
+              , "Biznes"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Regulacje"
+            
+              , "Handel elektroniczny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj PCI-DSS, jego elementy, zasady zgodności i korzyści dla ochrony danych kart płatniczych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/pci-dss-security-vault.webp" length="88546" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Nmap: przewodnik po skanowaniu sieci i wykrywaniu usług</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-nmap/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "nmap"
+            
+              , "skanowanie sieci"
+            
+              , "ocena bezpieczeństwa"
+            
+              , "skanowanie portów"
+            
+              , "wykrywanie usług"
+            
+              , "wykrywanie systemu operacyjnego"
+            
+              , "Silnik skryptowy Nmap"
+            
+              , "etyczne hakowanie"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "infrastruktura sieciowa"
+            
+              , "wykrywanie luk w zabezpieczeniach"
+            
+              , "skanowanie ping"
+            
+              , "Skanowanie TCP SYN"
+            
+              , "pozwolenie"
+            
+              , "legalność"
+            
+              , "wpływ sieci"
+            
+              , "skanowanie ukierunkowane"
+            
+              , "ochrona danych"
+            
+              , "CFAA"
+            
+              , "RODO"
+            
+              , "mapowanie sieci"
+            
+              , "rozpoznawanie sieci"
+            
+              , "narzędzia bezpieczeństwa sieci"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "narzędzie open-source"
+            
+              , "narzędzie wiersza poleceń"
+            
+              , "wykrywanie hosta"
+            
+              , "inteligencja sieciowa"
+            
+              , "zbieranie informacji"
+            
+              , "luki w zabezpieczeniach sieci"
+            
+              , "bezpieczne środowisko sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-nmap/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skutecznie używać Nmap do skanowania sieci, skanowania portów, wykrywania usług i identyfikacji systemu operacyjnego w celu oceny bezpieczeństwa sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.webp" length="184036" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po certyfikacji CISSP: Wskazówki dotyczące przygotowania do egzaminu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/</link>
+        
+        <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Certyfikacja CISSP"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "przygotowanie do egzaminu"
+            
+              , "plan studiów"
+            
+              , "egzaminy praktyczne"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "rozwój zawodowy"
+            
+              , "egzamin certyfikacyjny"
+            
+              , "ISC2"
+            
+              , "możliwości kariery"
+            
+              , "architektura bezpieczeństwa"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "kontrola dostępu"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "szyfrowanie"
+            
+              , "operacje bezpieczeństwa"
+            
+              , "bezpieczeństwo fizyczne"
+            
+              , "ciągłość działania"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "zgodność"
+            
+              , "wskazówki do egzaminu CISSP"
+            
+              , "materiały do nauki CISSP"
+            
+              , "wymagania CISSP"
+            
+              , "format egzaminu CISSP"
+            
+              , "testy praktyczne CISSP"
+            
+              , "rejestracja CISSP"
+            
+              , "certyfikacja bezpieczeństwa informacji"
+            
+              , "certyfikacja specjalisty ds. bezpieczeństwa"
+            
+              , "zarządzanie bezpieczeństwem"
+            
+              , "ocena bezpieczeństwa"
+            
+              , "bezpieczeństwo oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak przygotować się i zdać egzamin CISSP, prestiżowy certyfikat dla specjalistów ds. bezpieczeństwa informacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.webp" length="98504" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpiecz swoje aplikacje internetowe za pomocą OWASP ASVS</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</link>
+        
+        <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo aplikacji internetowych"
+            
+              , "OWASP"
+            
+              , "ASVS"
+            
+              , "bezpieczeństwo aplikacji"
+            
+              , "normy bezpieczeństwa"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "zarządzanie podatnościami"
+            
+              , "bezpieczne kodowanie"
+            
+              , "testy penetracyjne"
+            
+              , "modelowanie zagrożeń"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "ocena bezpieczeństwa"
+            
+              , "zautomatyzowane testy bezpieczeństwa"
+            
+              , "ręczne testowanie bezpieczeństwa"
+            
+              , "bezpieczny cykl życia oprogramowania"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "bezpieczeństwo danych"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "zgodność"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Uporządkuj wymagania bezpieczeństwa aplikacji internetowych, testy i dowody weryfikacji za pomocą OWASP ASVS.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.webp" length="119972" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,510 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczne Programowanie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczne Programowanie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpieczne-programowanie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpieczne-programowanie/</link>
+
+    <description>Recent content in Bezpieczne Programowanie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpieczne-programowanie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie systemów Windows i Linux</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link>
+        
+        <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Języki skryptowe"
+            
+              , "Bezpieczeństwo systemów"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "Regulacje rządowe"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Bezpieczne skrypty"
+            
+              , "Zgodność"
+            
+              , "Programowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sposoby wzmacniania zabezpieczeń systemów za pomocą PowerShell i Python w tej analizie cyberbezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Niebezpieczne funkcje C#: bezpieczne praktyki programowania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link>
+        
+        <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Tworzenie oprogramowania"
+            
+              , "Programowanie w C#"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo kodu"
+            
+              , "Bezpieczne programowanie"
+            
+              , "Dobre praktyki programistyczne"
+            
+              , "Luki w oprogramowaniu"
+            
+              , "Kryptografia"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Bezpieczne zamienniki niebezpiecznych funkcji C#. Dowiedz się, jak rozpoznawać zagrożenia dla bezpieczeństwa pamięci i zastępować ryzykowne operacje.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze praktyki bezpieczeństwa w Pythonie: Ochrona kodu i danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link>
+        
+        <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo Python"
+            
+              , "Bezpieczeństwo kodu"
+            
+              , "Ochrona danych"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+              , "Bezpieczeństwo IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najważniejsze najlepsze praktyki bezpieczeństwa Python, aby zabezpieczyć swój kod i dane przed potencjalnymi zagrożeniami, zapewniając ochronę danych, integralność systemu i budowanie zaufania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.webp" length="115818" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne programowanie w Pythonie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Programowanie"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+              , "Programowanie w Pythonie"
+            
+              , "Bezpieczne programowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Analiza danych"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Języki programowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyki bezpiecznego programowania w Pythonie, które ograniczają ryzyko wstrzyknięcia SQL, cross-site scripting i innych podatności aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/best-practices-for-secure-coding-in-python.webp" length="178342" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowa bezpiecznego potoku DevOps: dobre praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "bezpieczeństwo"
+            
+              , "potok DevOps"
+            
+              , "integracja ciągła"
+            
+              , "ciągłe dostarczanie"
+            
+              , "automatyzacja"
+            
+              , "konteneryzacja"
+            
+              , "bezpieczne programowanie"
+            
+              , "skanowanie podatności"
+            
+              , "monitorowanie"
+            
+              , "informacja zwrotna"
+            
+              , "kontrola wersji"
+            
+              , "kontrola dostępu"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "ciągłość działania"
+            
+              , "studium przypadku"
+            
+              , "Spring"
+            
+              , "Django"
+            
+              , "OWASP"
+            
+              , "Netflix"
+            
+              , "Capital One"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj dobre praktyki i przykłady z życia, które pomogą Ci budować i utrzymywać bezpieczny potok DevOps.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/building-and-maintaining-a-secure-devops-pipeline.webp" length="212424" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Artykuły SimeonOnSecurity</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "porady z zakresu cyberbezpieczeństwa"
+            
+              , "techniki automatyzacji"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "bezpieczeństwo IT"
+            
+              , "zapobieganie hakowaniu"
+            
+              , "bezpieczne programowanie"
+            
+              , "infrastruktura sieciowa"
+            
+              , "śledztwo cyfrowe"
+            
+              , "bezpieczeństwo chmury"
+            
+              , "wywiad w zakresie cyberzagrożeń"
+            
+              , "reagowanie na incydenty"
+            
+              , "ocena podatności"
+            
+              , "testy penetracyjne"
+            
+              , "zarządzanie tożsamością"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "analiza złośliwego oprogramowania"
+            
+              , "szyfrowanie danych"
+            
+              , "konfiguracja zapory ogniowej"
+            
+              , "bezpieczne tworzenie stron internetowych"
+            
+              , "monitorowanie sieci"
+            
+              , "ramy cyberbezpieczeństwa"
+            
+              , "bezpieczeństwo IoT"
+            
+              , "bezpieczeństwo mobilne"
+            
+              , "zapobieganie phishingowi"
+            
+              , "najlepsze praktyki w zakresie cyberbezpieczeństwa"
+            
+              , "polowanie na zagrożenia"
+            
+              , "obrona przed inżynierią społeczną"
+            
+              , "kontrola dostępu"
+            
+              , "segmentacja sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Twoje osobiste przewodniki po cyberbezpieczeństwie, technologii informatycznej i automatyzacji. Przeglądaj pouczające artykuły, osobiste doświadczenia i porady ekspertów na temat bezpiecznego świata cyfrowego.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,218 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OneDrive on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>OneDrive on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/onedrive/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/onedrive/</link>
+
+    <description>Recent content in OneDrive on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/onedrive/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Standalone-Windows-STIG-Script: utwórz zgodny komputer</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Skrypt STIG"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Zgodny system Windows"
+            
+              , "Utwardzanie systemu"
+            
+              , "Windows STIG"
+            
+              , "Bezpieczny Windows"
+            
+              , "Zgodność systemu Windows"
+            
+              , "Instalacja ręczna"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Adobe Reader"
+            
+              , "Firefox"
+            
+              , "Chrome"
+            
+              , "Internet Explorer 11"
+            
+              , ".NET Framework"
+            
+              , "Office"
+            
+              , "OneDrive"
+            
+              , "Java"
+            
+              , "Windows Defender"
+            
+              , "Zapora systemu Windows"
+            
+              , "Środki ograniczające ryzyko"
+            
+              , "Nessus PID"
+            
+              , "VMware Horizon"
+            
+              , "Opcjonalne utwardzanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Instrukcja krok po kroku korzystania ze Standalone-Windows-STIG-Script w zgodnych systemach Windows, z parametrami i weryfikacją.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script.webp" length="159414" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Optymalizacja i wzmocnienie systemu Windows za pomocą skryptu Windows-Optimize-Harden-Debloat</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Optymalizacja systemu Windows"
+            
+              , "Hartowanie systemu Windows"
+            
+              , "Usuwanie skutków awarii systemu Windows"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Wydajność systemu Windows"
+            
+              , "Prywatność systemu Windows"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Obiekty polityki grupowej"
+            
+              , "Adobe Acrobat Reader"
+            
+              , "Firefox"
+            
+              , "Google Chrome"
+            
+              , "Internet Explorer"
+            
+              , "Microsoft Chromium Edge"
+            
+              , "Dot Net 4"
+            
+              , "Microsoft Office"
+            
+              , "Onedrive"
+            
+              , "Oracle Java JRE 8"
+            
+              , "Zapora systemu Windows"
+            
+              , "Windows Defender"
+            
+              , "Applocker"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten kompleksowy przewodnik zawiera instrukcje krok po kroku, jak zoptymalizować, utwardzić i usunąć z systemu Windows, aby zwiększyć jego wydajność, bezpieczeństwo i prywatność.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

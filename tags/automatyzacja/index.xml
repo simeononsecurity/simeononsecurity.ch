@@ -1,0 +1,2021 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automatyzacja on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Automatyzacja on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/automatyzacja/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/automatyzacja/</link>
+
+    <description>Recent content in Automatyzacja on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/automatyzacja/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Codex CLI a aplikacja desktopowa: porównanie przepływów pracy w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/codex-cli-vs-desktop/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Narzędzia dla programistów"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Tworzenie oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wybierz między Codex w terminalu a desktopowym środowiskiem programistycznym OpenAI. Porównaj skrypty, worktree, przegląd wizualny, harmonogramy i środowiska wykonywania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>GitHub Copilot CLI a VS Code: porównanie przepływu pracy w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Narzędzia deweloperskie"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Tworzenie oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj agenta terminalowego Copilot z jego środowiskiem w VS Code, uwzględniając kontekst edytora, wizualne różnice, tryb agenta, integrację CLI i zasady konta.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Task Scheduler a Linux Cron: porównanie bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link>
+        
+        <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Systemy operacyjne"
+            
+              , "Automatyzacja systemów"
+            
+              , "Narzędzia bezpieczeństwa"
+            
+              , "Technologia komputerowa"
+            
+              , "Planowanie zadań"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Administracja systemami"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Zarządzanie IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj Windows Task Scheduler i zadania Cron w systemie Linux z perspektywy cyberbezpieczeństwa i utwardzania systemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_system_shield.webp" length="123466" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Niezbędne książki dla specjalistów ds. cyberbezpieczeństwa i IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/essential-books-cybersecurity-it-professionals/</link>
+        
+        <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Edukacja"
+            
+              , "Książki"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Programowanie"
+            
+              , "IT"
+            
+              , "Automatyzacja"
+            
+              , "Rozwój zawodowy"
+            
+              , "Rozwój kariery"
+            
+              , "Nauka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/essential-books-cybersecurity-it-professionals/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Rozwijaj umiejętności dzięki najlepszym książkom o cyberbezpieczeństwie, automatyzacji, programowaniu i IT.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/coding_conqueror.webp" length="96864" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja instalacji Windows 11: Obejście TPM, bezpiecznego rozruchu i kontroli pamięci RAM</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link>
+        
+        <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Windows 11"
+            
+              , "Instalacja"
+            
+              , "Wirtualizacja"
+            
+              , "Automatyzacja"
+            
+              , "Klucze rejestru"
+            
+              , "Obejście TPM"
+            
+              , "Bezpieczne obejście rozruchu"
+            
+              , "Obejście pamięci RAM"
+            
+              , "vTPM"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Usprawnij instalację Windows 11 w środowiskach zwirtualizowanych, omijając kontrole TPM, Secure Boot i pamięci RAM za pomocą autounattend.xml i vTPM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/windows11-installation-cartoon.webp" length="56442" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak przeprowadzić audyt uprawnień dla vCenter za pomocą PowerCLI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link>
+        
+        <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Audyt uprawnień vCenter"
+            
+              , "Automatyzacja PowerCLI"
+            
+              , "Bezpieczeństwo VMware"
+            
+              , "Zarządzanie infrastrukturą wirtualną"
+            
+              , "Przydział uprawnień"
+            
+              , "Kontrola dostępu użytkownika"
+            
+              , "Luki w zabezpieczeniach"
+            
+              , "Automatyzacja PowerShell"
+            
+              , "Zarządzanie środowiskiem vSphere"
+            
+              , "Przegląd uprawnień użytkowników"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skutecznie audytować uprawnienia dla vCenter za pomocą PowerCLI, zapewniając bezpieczną infrastrukturę wirtualną.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/audit-permissions-vcenter-powercli.webp" length="171996" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Poznaj zabezpieczenia VMware</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link>
+        
+        <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Wirtualizacja"
+            
+              , "Infrastruktura IT"
+            
+              , "Automatyzacja"
+            
+              , "PowerShell"
+            
+              , "VMware"
+            
+              , "STIG"
+            
+              , "Zgodność"
+            
+              , "Skrypty"
+            
+              , "Centrum danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          W tym obszernym przewodniku dowiesz się, jak używać PowerCLI do wdrażania STIG VMware i zabezpieczania środowiska VMware.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.webp" length="57080" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerCLI w zarządzaniu vSphere</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link>
+        
+        <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Wirtualizacja"
+            
+              , "VMware"
+            
+              , "Zarządzanie IT"
+            
+              , "Automatyzacja"
+            
+              , "Interfejs wiersza poleceń"
+            
+              , "Skrypty"
+            
+              , "Administracja systemami"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Zarządzanie centrum danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj PowerCLI do zarządzania VMware vSphere, automatyzacji zadań i zwiększania produktywności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Systemy zarządzania podatnościami: zmniejszanie ryzyka bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Infrastruktura IT"
+            
+              , "Ograniczanie ryzyka"
+            
+              , "Zgodność"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Ocena podatności na zagrożenia"
+            
+              , "Postawa w zakresie bezpieczeństwa"
+            
+              , "Automatyzacja"
+            
+              , "Integracja"
+            
+              , "Raportowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wzmocnij bezpieczeństwo swojej organizacji i ogranicz ryzyko dzięki systemom zarządzania podatnościami. Dowiedz się o ich zaletach i znaczeniu w dzisiejszym cyfrowym krajobrazie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.webp" length="122958" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Optymalizacja obrazów za pomocą Pythona</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</link>
+        
+        <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Programowanie w Pythonie"
+            
+              , "Optymalizacja obrazów"
+            
+              , "SEO"
+            
+              , "Wydajność witryn"
+            
+              , "Doświadczenie użytkownika"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Automatyzacja"
+            
+              , "Programowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/optimizing-images-python-tips-tricks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Optymalizuj obrazy w Pythonie przez zmianę rozmiaru, kompresję i konwersję formatów w powtarzalnych procesach Pillow.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_Python_script_optimizing.webp" length="146766" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible kontra Semaphore kontra Tower: porównanie automatyzacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zarządzanie infrastrukturą"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "DevOps"
+            
+              , "Operacje IT"
+            
+              , "Open Source"
+            
+              , "Zarządzanie przepływem pracy"
+            
+              , "Skalowalność"
+            
+              , "Współpraca"
+            
+              , "Narzędzia Ansible"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc automatyzacji Ansible dzięki porównaniu zwykłego Ansible, Ansible Tower i Ansible Semaphore i wybierz odpowiednie narzędzie do wydajnego zarządzania infrastrukturą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ansible-vs-ansible-semaphore-vs-ansible-tower.webp" length="132234" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>CheckMK: Kompleksowe rozwiązanie monitorujące do efektywnego zarządzania infrastrukturą IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-check-mk/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Infrastruktura IT"
+            
+              , "Monitorowanie sieci"
+            
+              , "Monitorowanie aplikacji"
+            
+              , "Operacje IT"
+            
+              , "Analiza wydajności"
+            
+              , "Automatyzacja"
+            
+              , "Zarządzanie wydarzeniami"
+            
+              , "Skalowalność"
+            
+              , "Elastyczność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-check-mk/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj funkcje, korzyści i przypadki użycia CheckMK, kompleksowego rozwiązania monitorującego do proaktywnego zarządzania infrastrukturą IT.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.webp" length="151812" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rola języków programowania w cyberbezpieczeństwie: Odkrywanie kluczowych narzędzi i aplikacji</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/</link>
+        
+        <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "języki programowania"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "kluczowe narzędzia"
+            
+              , "aplikacje"
+            
+              , "bezpieczne systemy"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "aplikacje internetowe"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "testy penetracyjne"
+            
+              , "bezpieczne kodowanie"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "języki skryptowe"
+            
+              , "automatyzacja"
+            
+              , "bezpieczna komunikacja"
+            
+              , "analiza danych"
+            
+              , "uczenie maszynowe"
+            
+              , "reakcja na incydent"
+            
+              , "rozwój exploitów"
+            
+              , "ramy bezpieczeństwa"
+            
+              , "utwardzanie systemu"
+            
+              , "analiza dziennika"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "protokoły sieciowe"
+            
+              , "tworzenie stron internetowych"
+            
+              , "praktyki bezpiecznego kodowania"
+            
+              , "usługi kryptograficzne"
+            
+              , "sandboxing"
+            
+              , "kontrola dostępu"
+            
+              , "inżynieria odwrotna"
+            
+              , "wykrywanie zagrożeń"
+            
+              , "zarządzanie bezpieczeństwem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kluczową rolę języków programowania w cyberbezpieczeństwie i zagłęb się w ich zastosowania, narzędzia i znaczenie w zabezpieczaniu systemów cyfrowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.webp" length="130016" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wprowadzenie do DevOps: wypełnianie luki między rozwojem a operacjami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-devops/</link>
+        
+        <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "rozwój oprogramowania"
+            
+              , "operacje"
+            
+              , "współpraca"
+            
+              , "ciągła integracja"
+            
+              , "ciągłe dostarczanie"
+            
+              , "infrastruktura jako kod"
+            
+              , "monitoring"
+            
+              , "pętle sprzężenia zwrotnego"
+            
+              , "czas wprowadzenia na rynek"
+            
+              , "efektywność"
+            
+              , "jakość"
+            
+              , "niezawodność"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+              , "zgodność"
+            
+              , "bezpieczeństwo"
+            
+              , "audyt"
+            
+              , "identyfikowalność"
+            
+              , "automatyzacja"
+            
+              , "komunikacja"
+            
+              , "zwinny"
+            
+              , "CICD"
+            
+              , "wdrażanie oprogramowania"
+            
+              , "cykl życia oprogramowania"
+            
+              , "systemy oprogramowania"
+            
+              , "przemysł oprogramowania"
+            
+              , "bezpieczeństwo danych"
+            
+              , "przepisy"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "przewaga konkurencyjna"
+            
+              , "prywatność danych"
+            
+              , "ochrona danych"
+            
+              , "Ewolucja branży oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-devops/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak DevOps wypełnia lukę między rozwojem a operacjami, usprawniając dostarczanie oprogramowania i maksymalizując wydajność.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_developers_and_operations.webp" length="84556" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Pomysły na projekty do domowego laboratorium: odkryj nowe możliwości</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/home-lab-project-ideas/</link>
+        
+        <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "projekty domowego laboratorium"
+            
+              , "środowisko wirtualizacji"
+            
+              , "laboratorium bezpieczeństwa sieci"
+            
+              , "domowy serwer multimediów"
+            
+              , "system automatyki domowej"
+            
+              , "praktyczne doświadczenie"
+            
+              , "umiejętności informatyczne"
+            
+              , "technologia"
+            
+              , "oprogramowanie"
+            
+              , "sprzęt"
+            
+              , "eksperymentowanie"
+            
+              , "nauka"
+            
+              , "architektura sieci"
+            
+              , "konfiguracje oprogramowania"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "zapora sieciowa"
+            
+              , "ruter"
+            
+              , "strumieniowanie multimediów"
+            
+              , "sieć domowa"
+            
+              , "inteligentne urządzenia"
+            
+              , "automatyzacja"
+            
+              , "Raspberry Pi"
+            
+              , "Z-Wave"
+            
+              , "Zigbee"
+            
+              , "Plex"
+            
+              , "Kodi"
+            
+              , "Emby"
+            
+              , "VMware vSphere"
+            
+              , "Microsoft Hyper-V"
+            
+              , "Proxmox VE"
+            
+              , "zbuduj domowe środowisko wirtualizacji"
+            
+              , "utwórz laboratorium bezpieczeństwa sieci z pfSense"
+            
+              , "skonfiguruj domowy serwer multimediów z Plex"
+            
+              , "zbuduj system automatyki domowej z Raspberry Pi"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/home-lab-project-ideas/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj ekscytujące i innowacyjne pomysły na projekty w domowym laboratorium, aby poszerzyć swoją wiedzę i rozwinąć umiejętności informatyczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_image_depicting_a_person_working.webp" length="205010" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Packer dla infrastruktury jako kod: dobre praktyki i korzyści</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Packer"
+            
+              , "Infrastruktura jako kod"
+            
+              , "Rozwój i operacje"
+            
+              , "Automatyzacja"
+            
+              , "Bezpieczeństwo"
+            
+              , "Powtarzalność"
+            
+              , "Skalowalność"
+            
+              , "Wieloplatformowość"
+            
+              , "Kontrola wersji"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Obrazy maszyn"
+            
+              , "Wirtualizacja"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Ciągła integracja"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Dobre praktyki"
+            
+              , "Testowanie"
+            
+              , "Otwarte oprogramowanie"
+            
+              , "Wiele chmur"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak używać Packera do tworzenia obrazów maszyn, które są łatwe do utrzymania i bezpieczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.webp" length="175658" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>DevSecOps: radzenie sobie z wyzwaniami, wykorzystywanie możliwości.</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</link>
+        
+        <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevSecOps"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "testy bezpieczeństwa"
+            
+              , "metodyki zwinne"
+            
+              , "współpraca"
+            
+              , "regulacje rządowe"
+            
+              , "automatyzacja"
+            
+              , "rozwój aplikacji"
+            
+              , "skalowalność"
+            
+              , "ciągłe monitorowanie"
+            
+              , "wytyczne NIST"
+            
+              , "pętle sprzężenia zwrotnego"
+            
+              , "modułowość"
+            
+              , "podatności"
+            
+              , "zapewnienie jakości"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "infrastruktura IT"
+            
+              , "narzędzia do tworzenia oprogramowania"
+            
+              , "zarządzanie ryzykiem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten artykuł analizuje wyzwania i możliwości DevSecOps w organizacjach, w tym lepszą współpracę, lepszą skalowalność, integrację z przepisami rządowymi i nie tylko.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.webp" length="104930" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerShell DSC: przewodnik dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link>
+        
+        <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "DSC"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Automatyzacja"
+            
+              , "Windows"
+            
+              , "Administracja systemem"
+            
+              , "Najlepsze praktyki"
+            
+              , "Zgodność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Infrastruktura"
+            
+              , "DevOps"
+            
+              , "Konfiguracja serwera"
+            
+              , "Testowanie"
+            
+              , "Git"
+            
+              , "Kontrola źródła"
+            
+              , "Przepisy rządowe"
+            
+              , "NIST"
+            
+              , "CIS"
+            
+              , "Dryft konfiguracji"
+            
+              , "Zasoby niestandardowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj możliwości PowerShell Desired State Configuration (DSC), aby zautomatyzować i zarządzać konfiguracjami systemu w celu zapewnienia bezpiecznego i zgodnego środowiska.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp" length="141768" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po analizie zagrożeń dla cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-threat-intelligence/</link>
+        
+        <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Analiza zagrożeń"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Przewodnik dla początkujących"
+            
+              , "Taktyka"
+            
+              , "Techniki"
+            
+              , "Procedury"
+            
+              , "Analiza danych"
+            
+              , "Podatności"
+            
+              , "Operacje bezpieczeństwa"
+            
+              , "Uczenie maszynowe"
+            
+              , "Eksploracja danych"
+            
+              , "Podejmowanie decyzji"
+            
+              , "Automatyzacja"
+            
+              , "Wspólnota"
+            
+              , "Monitorowanie ciemnej sieci"
+            
+              , "Wewnętrzne dzienniki sieciowe"
+            
+              , "Reakcja na incydent"
+            
+              , "Kampanie phishingowe"
+            
+              , "Malware"
+            
+              , "Planowanie strategiczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-threat-intelligence/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Popraw swoją postawę w zakresie cyberbezpieczeństwa dzięki temu przewodnikowi dla początkujących na temat analizy zagrożeń i jej znaczenia.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.webp" length="170604" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Etyczne rozważania i wyzwania związane z AI w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-ethical-condsiderations-and-challenges-of-using-ai-in-cybersecurity/</link>
+        
+        <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "AI"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "względy etyczne"
+            
+              , "stronniczość"
+            
+              , "prywatność"
+            
+              , "odpowiedzialność"
+            
+              , "złożoność"
+            
+              , "adaptacyjność"
+            
+              , "nadzór ludzki"
+            
+              , "zapotrzebowanie na zasoby"
+            
+              , "prywatność danych"
+            
+              , "uczenie maszynowe"
+            
+              , "analiza informacji o zagrożeniach"
+            
+              , "ochrona danych"
+            
+              , "technologia"
+            
+              , "automatyzacja"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "zgodność z przepisami"
+            
+              , "transformacja cyfrowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-ethical-condsiderations-and-challenges-of-using-ai-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o etycznych rozważaniach i wyzwaniach związanych z wykorzystaniem AI w cyberbezpieczeństwie oraz o tym, jak można je rozwiązać w celu efektywnego wykorzystania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.webp" length="204976" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowa bezpiecznego potoku DevOps: dobre praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "bezpieczeństwo"
+            
+              , "potok DevOps"
+            
+              , "integracja ciągła"
+            
+              , "ciągłe dostarczanie"
+            
+              , "automatyzacja"
+            
+              , "konteneryzacja"
+            
+              , "bezpieczne programowanie"
+            
+              , "skanowanie podatności"
+            
+              , "monitorowanie"
+            
+              , "informacja zwrotna"
+            
+              , "kontrola wersji"
+            
+              , "kontrola dostępu"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "ciągłość działania"
+            
+              , "studium przypadku"
+            
+              , "Spring"
+            
+              , "Django"
+            
+              , "OWASP"
+            
+              , "Netflix"
+            
+              , "Capital One"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj dobre praktyki i przykłady z życia, które pomogą Ci budować i utrzymywać bezpieczny potok DevOps.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/building-and-maintaining-a-secure-devops-pipeline.webp" length="212424" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zabezpieczeń i hartowania: Kompleksowe zasoby dotyczące zabezpieczeń</title>
+        
+          <link>https://pl.simeononsecurity.com/github/awesome-hardening/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "utwardzanie systemu"
+            
+              , "utwardzanie aplikacji"
+            
+              , "Zgodność ze standardem STIG"
+            
+              , "Optymalizacja systemu Windows"
+            
+              , "Wzmocnienie Windows Defender"
+            
+              , "Wzmocnienie serwera WWW Apache"
+            
+              , "Skrypt .NET STIG"
+            
+              , "Skrypt Adobe Reader DC STIG"
+            
+              , "Skrypt STIG dla przeglądarki Firefox"
+            
+              , "Simeononsecurity"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "automatyzacja"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "wzmocnienie zabezpieczeń"
+            
+              , "automatyzacja zabezpieczeń"
+            
+              , "Hartowanie systemu Windows"
+            
+              , "Wzmocnienie serwera WWW"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/awesome-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kolekcję skryptów i konfiguracji, aby zoptymalizować i wzmocnić swoje systemy, czyniąc je zgodnymi z STIG i odpornymi na włamania.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zgodności z przepisami bezpieczeństwa za pomocą skryptów STIG</title>
+        
+          <link>https://pl.simeononsecurity.com/github/awesome-stigs/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Skrypty STIG"
+            
+              , "zgodność z przepisami bezpieczeństwa"
+            
+              , "automatyzacja"
+            
+              , "Windows"
+            
+              , "aplikacje"
+            
+              , ".NET"
+            
+              , "Adobe Reader DC"
+            
+              , "Oracle JRE 8"
+            
+              , "FireFox"
+            
+              , "Podręczniki Ansible"
+            
+              , "przygotowanie domeny"
+            
+              , "Windows Defender"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "skrypt"
+            
+              , "Zgodność z STIG"
+            
+              , "zarządzanie konfiguracją"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "zarządzanie poprawkami"
+            
+              , "administracja systemem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/awesome-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kolekcję skryptów STIG do automatyzacji zgodności z zabezpieczeniami dla systemu Windows i popularnych aplikacji, w tym .NET, Adobe Reader DC i Oracle JRE 8.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego Twoja firma powinna zaktualizować system do Windows Server 2022</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/switching-to-server-2022-over-server-2019/</link>
+        
+        <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Server 2022"
+            
+              , "Aktualizacja"
+            
+              , "Biznes"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zarządzanie"
+            
+              , "Automatyzacja"
+            
+              , "Wydajność"
+            
+              , "Skalowalność"
+            
+              , "Windows Server 2019"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/switching-to-server-2022-over-server-2019/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj Windows Server 2022 i Server 2019 pod względem bezpieczeństwa, zarządzania, automatyzacji, wydajności i planowania aktualizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.webp" length="239476" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerShell w cyberbezpieczeństwie: automatyzacja i obrona</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/powershell-for-cybersecurity/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Operacje"
+            
+              , "Zgodność"
+            
+              , "Automatyzacja"
+            
+              , "Wymagania STIG SRG"
+            
+              , "Wytyczne NSACyber"
+            
+              , "Systemy Windows"
+            
+              , "Obrona niebieskiej drużyny"
+            
+              , "Skrypty"
+            
+              , "Narzędzia"
+            
+              , "Projekty C Sharp"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/powershell-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj moc PowerShell w zwiększaniu operacji cyberbezpieczeństwa i osiąganiu zgodności ze standardami branżowymi poprzez automatyzację i usprawnienie procesów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp" length="203438" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,135 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo SCADA on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczeństwo SCADA on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-scada/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-scada/</link>
+
+    <description>Recent content in Bezpieczeństwo SCADA on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-scada/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego cyberbezpieczeństwo OT, ICS i PLC nadal nie działa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ot-ics-plc-cybersecurity-fundamentally-broken/</link>
+        
+        <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo OT"
+            
+              , "bezpieczeństwo ICS"
+            
+              , "bezpieczeństwo PLC"
+            
+              , "bezpieczeństwo IoT"
+            
+              , "cyberbezpieczeństwo przemysłowe"
+            
+              , "bezpieczeństwo SCADA"
+            
+              , "NIST 800-82"
+            
+              , "IEC 62443"
+            
+              , "NERC CIP"
+            
+              , "technologia operacyjna"
+            
+              , "infrastruktura krytyczna"
+            
+              , "czujniki analogowe"
+            
+              , "izolacja sieci"
+            
+              , "starsze systemy"
+            
+              , "opinia o cyberbezpieczeństwie"
+            
+              , "przemysłowe systemy sterowania"
+            
+              , "SCADA"
+            
+              , "Stuxnet"
+            
+              , "bezpieczeństwo systemów sterowania"
+            
+              , "bezpieczeństwo cyberfizyczne"
+            
+              , "bezpieczeństwo łańcucha dostaw"
+            
+              , "łańcuch dostaw OT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ot-ics-plc-cybersecurity-fundamentally-broken/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, dlaczego zabezpieczenia OT nie nadążają za starszą architekturą, ograniczeniami operacyjnymi i rzeczywistymi ścieżkami ataku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ot-ics-plc-cybersecurity-fundamentally-broken.webp" length="257384" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

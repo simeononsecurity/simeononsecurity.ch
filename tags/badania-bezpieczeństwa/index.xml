@@ -1,0 +1,338 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Badania Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Badania Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/badania-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/badania-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Badania Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 28 May 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/badania-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Niestandardowe oprogramowanie układowe DagShell dla Orbic RCL400: przewodnik na 2026 rok</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link>
+        
+        <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Niestandardowe oprogramowanie układowe"
+            
+              , "Bezpieczeństwo urządzeń mobilnych"
+            
+              , "Narzędzia ochrony prywatności"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Wardriving"
+            
+              , "Testy penetracyjne"
+            
+              , "Hakowanie IoT"
+            
+              , "Badania bezpieczeństwa"
+            
+              , "Hakowanie sprzętu"
+            
+              , "Technologie ochrony prywatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Techniczny przewodnik po oprogramowaniu DagShell dla Orbic RCL400. Opisuje instalację, narzędzia ochrony prywatności, wardriving i ograniczenia badań.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podatności kamer Flock Safety: ponad 50 wykrytych luk</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Badania bezpieczeństwa"
+            
+              , "Analiza podatności"
+            
+              , "Technologie nadzoru"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona prywatności"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "Bezpieczeństwo fizyczne"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Infrastruktura krytyczna"
+            
+              , "Technologie rządowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Badanie podatności kamer Flock Safety obejmuje ujawnione dane uwierzytelniające, słabe zabezpieczenia, dostęp fizyczny i ograniczenia procesu ujawniania luk.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wykrywanie Flock-You: przewodnik konfiguracji sprzętu do wykrywania nadzoru</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sprzęt zabezpieczający"
+            
+              , "Antynadzór"
+            
+              , "Technologia prywatności"
+            
+              , "Projekty open source"
+            
+              , "Programowanie ESP32"
+            
+              , "Monitorowanie WiFi"
+            
+              , "Narzędzia prywatności"
+            
+              , "Prawa cyfrowe"
+            
+              , "Modyfikacje sprzętu"
+            
+              , "Bezpieczeństwo sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowy przewodnik techniczny po projekcie open-source Flock-You do wykrywania kamer ALPR Flock Safety za pomocą sprzętu opartego na ESP32. Zawiera instrukcje konfiguracji, szczegóły oprogramowania i opcje zakupu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zaawansowany RayHunter 2026: techniki i diagnostyka</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/advanced-rayhunter-techniques-troubleshooting-2026/</link>
+        
+        <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Rayhunter"
+            
+              , "zaawansowane techniki"
+            
+              , "diagnostyka"
+            
+              , "konfiguracja ekspercka"
+            
+              , "IMSI-catcher"
+            
+              , "wykrywanie inwigilacji"
+            
+              , "optymalizacja heurystyk"
+            
+              , "integracja API"
+            
+              , "przepływy analizy"
+            
+              , "modelowanie zagrożeń"
+            
+              , "bezpieczeństwo sieci komórkowych"
+            
+              , "analiza śledcza sieci bezprzewodowych"
+            
+              , "optymalizacja wykrywania"
+            
+              , "własne konfiguracje"
+            
+              , "zaawansowane wdrożenie"
+            
+              , "badania bezpieczeństwa"
+            
+              , "analiza sieci"
+            
+              , "analiza RF"
+            
+              , "przeciwdziałanie inwigilacji"
+            
+              , "narzędzia ochrony prywatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/advanced-rayhunter-techniques-troubleshooting-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Techniczny przewodnik po zaawansowanych technikach RayHunter, diagnostyce, własnych konfiguracjach, integracji API i przepływach wykrywania IMSI-catcherów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/advanced-rayhunter-techniques-troubleshooting-2026.webp" length="278838" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,1015 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dobre Praktyki Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Dobre Praktyki Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/dobre-praktyki-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/dobre-praktyki-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Dobre Praktyki Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/dobre-praktyki-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik po zabezpieczaniu urządzeń końcowych w zespołach zdalnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</link>
+        
+        <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zabezpieczanie urządzeń końcowych"
+            
+              , "Bezpieczeństwo pracy zdalnej"
+            
+              , "Przewodnik po cyberbezpieczeństwie"
+            
+              , "Ochrona danych"
+            
+              , "Praktyki bezpieczeństwa IT"
+            
+              , "Przyszłe trendy w bezpieczeństwie"
+            
+              , "Bezpieczna praca zdalna"
+            
+              , "Zapobieganie cyberzagrożeniom"
+            
+              , "Ochrona prywatności danych"
+            
+              , "Rozwiązania bezpieczeństwa IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-ultimate-guide-to-endpoint-security-for-remote-teams/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Chroń zdalne urządzenia końcowe dzięki ewidencji sprzętu, wzmacnianiu zabezpieczeń, poprawkom, MFA, szyfrowaniu, EDR, zasadom dostępu, monitorowaniu i planowaniu reagowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-ultimate-guide-to-endpoint-security-for-remote-teams.webp" length="58154" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmocnij bezpieczeństwo e-commerce</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</link>
+        
+        <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo e-commerce"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona danych"
+            
+              , "Biznes internetowy"
+            
+              , "Bezpieczeństwo witryny"
+            
+              , "Zaufanie klientów"
+            
+              , "Bezpieczne transakcje"
+            
+              , "Szyfrowanie SSL"
+            
+              , "Zasady dotyczące haseł"
+            
+              , "Dobre praktyki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zabezpiecz sklep internetowy za pomocą TLS, MFA administratorów, aktualizacji, kontroli płatności, szyfrowania, monitorowania, szkoleń, ochrony przed oszustwami i reagowania na incydenty.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-2024-checklist-for-securing-your-e-commerce-site.webp" length="88770" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Strategie ochrony firmy przed zagrożeniami wewnętrznymi</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</link>
+        
+        <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo korporacyjne"
+            
+              , "Zagrożenia wewnętrzne"
+            
+              , "Ochrona danych"
+            
+              , "Szkolenia pracowników"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Analiza zachowań"
+            
+              , "Monitorowanie aktywności użytkowników"
+            
+              , "Kultura bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ogranicz ryzyko zagrożeń wewnętrznych dzięki kontroli dostępu, monitorowaniu aktywności, kanałom zgłaszania, procedurom offboardingu i kulturze bezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/protecting-against-insider-threats_-strategies-for-your-company.webp" length="87882" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zapory nowej generacji: kluczowe funkcje dla Twojej firmy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</link>
+        
+        <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Technologia zapór sieciowych"
+            
+              , "Bezpieczeństwo firmy"
+            
+              , "Integracja z chmurą"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Zarządzanie siecią"
+            
+              , "Rozwiązania bezpieczeństwa"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Wiedza o technologii"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/next-gen-firewalls_-features-you-cant-ignore-for-your-business/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wybierz zaporę nowej generacji, uwzględniając kontrolę aplikacji, zapobieganie włamaniom, ochronę przed zagrożeniami, obsługę chmury, przepustowość, odporność i zarządzanie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/next-gen-firewalls_-features-you-can%27t-ignore-for-your-business.webp" length="128018" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skuteczna ochrona chmury</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</link>
+        
+        <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo chmury"
+            
+              , "Odporność firmy"
+            
+              , "Wdrożenie CSPM"
+            
+              , "Proaktywne wykrywanie zagrożeń"
+            
+              , "Zarządzanie zgodnością"
+            
+              , "Zasady bezpieczeństwa"
+            
+              , "Współpraca między zespołami"
+            
+              , "Infrastruktura chmurowa"
+            
+              , "Automatyzacja bezpieczeństwa"
+            
+              , "Ograniczanie ryzyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/leveraging-cloud-security-posture-management-cspm-for-your-business/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Użyj zarządzania stanem bezpieczeństwa chmury, aby wykrywać błędne konfiguracje, egzekwować zasady, obsługiwać alerty i zgodność oraz kierować naprawą w kontach chmurowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/leveraging-cloud-security-posture-management-%28cspm%29-for-your-business.webp" length="234272" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Planowanie reagowania na incydenty: przewodnik krok po kroku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</link>
+        
+        <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Bezpieczeństwo firmy"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Planowanie bezpieczeństwa"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Odporność cyfrowa"
+            
+              , "Zarządzanie kryzysowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/incident-response-planning_-a-step-by-step-guide-for-businesses/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Opracuj plan reagowania na incydenty z jasno określonymi rolami, kanałami komunikacji, procedurami, narzędziami, ćwiczeniami, miernikami i aktualizacjami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.webp" length="96088" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubezpieczenie cybernetyczne: co wiedzieć przed zakupem polisy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cyber-insurance_-what-you-need-to-know-before-you-buy/</link>
+        
+        <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przegląd ubezpieczeń cybernetycznych"
+            
+              , "Ocena polisy"
+            
+              , "Wybór ubezpieczyciela"
+            
+              , "Obsługa roszczeń"
+            
+              , "Dobre praktyki ubezpieczeń cybernetycznych"
+            
+              , "Ochrona przed zagrożeniami cyfrowymi"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Strategie bezpieczeństwa firmy"
+            
+              , "Przygotowanie na naruszenie danych"
+            
+              , "Szkolenia pracowników z cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cyber-insurance_-what-you-need-to-know-before-you-buy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj zakres ochrony, wyłączenia, limity, warunki reagowania na incydenty i wymagania bezpieczeństwa przed wyborem polisy dla firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cyber-insurance_-what-you-need-to-know-before-you-buy.webp" length="77052" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kryptografia bez tajemnic: wyjaśnienie technik szyfrowania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</link>
+        
+        <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Historia kryptografii"
+            
+              , "Techniki szyfrowania"
+            
+              , "Szyfrowanie symetryczne"
+            
+              , "Szyfrowanie asymetryczne"
+            
+              , "Algorytm RSA"
+            
+              , "Kryptografia krzywych eliptycznych"
+            
+              , "Wymiana kluczy Diffiego-Hellmana"
+            
+              , "Poufność danych"
+            
+              , "Integralność danych"
+            
+              , "Uwierzytelnianie danych"
+            
+              , "Zagrożenia związane z komputerami kwantowymi"
+            
+              , "Audyty bezpieczeństwa"
+            
+              , "Bezpieczeństwo portfeli"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sposoby, w jakie szyfrowanie symetryczne, asymetryczne i hybrydowe chroni dane, dowiedz się, jak działa wymiana kluczy i gdzie stosuje się współczesne metody kryptograficzne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques.webp" length="291054" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja bezpieczeństwa: przewodnik po wzmacnianiu ochrony cyfrowej</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</link>
+        
+        <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja bezpieczeństwa"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Uczenie maszynowe w bezpieczeństwie"
+            
+              , "Zautomatyzowany monitoring zgodności"
+            
+              , "Orkiestracja bezpieczeństwa"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Ciągłe doskonalenie"
+            
+              , "Nadzór człowieka nad bezpieczeństwem"
+            
+              , "Wykrywanie zagrożeń i reagowanie"
+            
+              , "Dobre praktyki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-security-automation_-streamlining-processes-for-enhanced-protection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zaplanuj automatyzację bezpieczeństwa dzięki jasnym przypadkom użycia, integracji narzędzi, kontroli człowieka, dostrajaniu alertów, metrykom i zabezpieczeniom systemów uczenia maszynowego.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/mastering-security-automation_-streamlining-processes-for-enhanced-protection.webp" length="253188" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rejestr Windows a pliki konfiguracyjne Linux</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link>
+        
+        <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Systemy operacyjne"
+            
+              , "Zarządzanie bezpieczeństwem"
+            
+              , "Technologia komputerowa"
+            
+              , "Ochrona danych"
+            
+              , "Konfiguracja systemu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Porównania technologii"
+            
+              , "Bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj zabezpieczenia Rejestru Windows i plików konfiguracyjnych Linux oraz poznaj praktyczne sposoby wzmacniania obu systemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/windows-linux-security.webp" length="47978" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalizacja bezpieczeństwa sieci i chmury</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</link>
+        
+        <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Ochrona sieci"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Technologie biznesowe"
+            
+              , "Obrona cyfrowa"
+            
+              , "Zagrożenia cybernetyczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/maximize-network-cloud-security-defense-protection-strategies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zagrożenia, środki ochrony i przykłady naruszeń, aby wzmocnić bezpieczeństwo sieci i chmury.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Digital-Network-Security-Shield.webp" length="212780" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie Active Directory</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/active-directory-security-best-practices/</link>
+        
+        <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie siecią"
+            
+              , "Technologia informacyjna"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Infrastruktura cyfrowa"
+            
+              , "Kontrola dostępu"
+            
+              , "Uwierzytelnianie użytkowników"
+            
+              , "Dobre praktyki IT"
+            
+              , "Świadomość bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/active-directory-security-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sposoby zabezpieczania Active Directory, ochrony danych i zapobiegania włamaniom do infrastruktury sieciowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/active-directory-security-best-practices.webp" length="211496" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zdaj egzamin CompTIA Security&#43; SY0-601: Porady i materiały</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/</link>
+        
+        <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Professor Messer"
+            
+              , "Dr. Messer"
+            
+              , "adwersarialna sztuczna inteligencja"
+            
+              , "kampania wpływu"
+            
+              , "atak IV"
+            
+              , "sieciowy MDF"
+            
+              , "atak Christmas tree"
+            
+              , "SY0-601"
+            
+              , "CompTIA Security"
+            
+              , "zakłócanie łączności bezprzewodowej"
+            
+              , "IDF a MDF"
+            
+              , "zastosowania kryptografii"
+            
+              , "ataki on-path"
+            
+              , "egzamin CompTIA Security SY0-601"
+            
+              , "certyfikacja cyberbezpieczeństwa"
+            
+              , "przewodnik do nauki"
+            
+              , "cele egzaminu"
+            
+              , "przygotowanie do egzaminu"
+            
+              , "materiały do nauki"
+            
+              , "testy próbne"
+            
+              , "kursy online"
+            
+              , "grupy nauki"
+            
+              , "sprzęt i oprogramowanie"
+            
+              , "strategie rozwiązywania testu"
+            
+              , "zdanie egzaminu"
+            
+              , "trendy branżowe"
+            
+              , "rozwój kariery"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "certyfikaty bezpieczeństwa"
+            
+              , "specjaliści cyberbezpieczeństwa"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "zarządzanie podatnościami"
+            
+              , "reagowanie na incydenty"
+            
+              , "polityki bezpieczeństwa"
+            
+              , "kontrola dostępu"
+            
+              , "zabezpieczenia"
+            
+              , "techniki szyfrowania"
+            
+              , "ocena ryzyka"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "dobre praktyki bezpieczeństwa"
+            
+              , "standardy bezpieczeństwa"
+            
+              , "struktury bezpieczeństwa"
+            
+              , "obrona sieci"
+            
+              , "pytania praktyczne Security Plus"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zdać egzamin CompTIA Security+ SY0-601 z poradami, materiałami do nauki i strategiami rozwiązywania testów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_studying_with_a_laptop_and_books_in_front_of_them.webp" length="81278" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

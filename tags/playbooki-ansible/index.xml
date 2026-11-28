@@ -1,0 +1,252 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Playbooki Ansible on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Playbooki Ansible on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/playbooki-ansible/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/playbooki-ansible/</link>
+
+    <description>Recent content in Playbooki Ansible on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/playbooki-ansible/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible vs Puppet vs Chef 2026: zarządzanie konfiguracją</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "Automatyzacja infrastruktury"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Operacje IT"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Administracja systemami"
+            
+              , "IT dla przedsiębiorstw"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Infrastruktura IT"
+            
+              , "Narzędzia automatyzacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie Ansible, Puppet i Chef z 2026 roku obejmujące architekturę, funkcje, krzywą uczenia, wydajność, ceny i zastosowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible dla początkujących 2026</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wprowadzenie do Ansible"
+            
+              , "Automatyzacja zarządzania infrastrukturą IT"
+            
+              , "Podstawy Ansible"
+            
+              , "Automatyzacja infrastruktury IT"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrażanie aplikacji"
+            
+              , "Przygotowanie infrastruktury"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Zgodność i bezpieczeństwo"
+            
+              , "Orkiestracja"
+            
+              , "YAML"
+            
+              , "Moduły Ansible"
+            
+              , "Role"
+            
+              , "Dobre praktyki"
+            
+              , "Kontrola wersji"
+            
+              , "Testowanie"
+            
+              , "Red Hat"
+            
+              , "Administratorzy systemów"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Windows"
+            
+              , "Instalacja Ansible"
+            
+              , "Inwentarz Ansible"
+            
+              , "Playbooki Ansible"
+            
+              , "Moduły Ansible"
+            
+              , "Role Ansible"
+            
+              , "Dobre praktyki Ansible"
+            
+              , "Testowanie Ansible"
+            
+              , "Narzędzie do automatyzacji infrastruktury IT"
+            
+              , "Samouczek Ansible"
+            
+              , "Automatyzacja zarządzania infrastrukturą"
+            
+              , "Ansible dla początkujących"
+            
+              , "Nauka Ansible"
+            
+              , "Samouczek Ansible 2026"
+            
+              , "Ansible a Terraform"
+            
+              , "Ansible a Puppet"
+            
+              , "Przykłady playbooków Ansible"
+            
+              , "Automatyzacja Ansible"
+            
+              , "Narzędzia DevOps"
+            
+              , "Infrastruktura jako kod"
+            
+              , "Ansible AWX"
+            
+              , "Ansible Tower"
+            
+              , "Kolekcje Ansible"
+            
+              , "Ansible Galaxy"
+            
+              , "Ansible Vault"
+            
+              , "Automatyzacja chmury Ansible"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przewodnik po Ansible na 2026 rok: instalacja, playbooki, role, przykłady, dobre praktyki oraz porównanie z Terraform, Puppet i Chef.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ansible-for-beginners.webp" length="153600" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

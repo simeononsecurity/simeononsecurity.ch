@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mesh Taktyczny on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Mesh Taktyczny on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/mesh-taktyczny/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/mesh-taktyczny/</link>
+
+    <description>Recent content in Mesh Taktyczny on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/mesh-taktyczny/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>MeshCore czy Meshtastic: porównanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</link>
+        
+        <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "LoRa"
+            
+              , "Sieci mesh"
+            
+              , "Komunikacja offline"
+            
+              , "Łączność awaryjna"
+            
+              , "Łączność taktyczna"
+            
+              , "Krótkofalarstwo"
+            
+              , "Oprogramowanie otwartoźródłowe"
+            
+              , "Przygotowanie na katastrofy"
+            
+              , "Sieci bezprzewodowe"
+            
+              , "Prywatność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/meshcore-vs-meshtastic-comparison-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj MeshCore i Meshtastic pod kątem routingu, zasięgu, czasu nadawania, infrastruktury, obsługiwanych urządzeń i zastosowań.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/meshcore-vs-meshtastic-comparison-guide.webp" length="173676" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

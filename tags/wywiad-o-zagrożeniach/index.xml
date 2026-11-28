@@ -1,0 +1,427 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wywiad O Zagrożeniach on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Wywiad O Zagrożeniach on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wywiad-o-zagro%C5%BCeniach/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wywiad-o-zagro%C5%BCeniach/</link>
+
+    <description>Recent content in Wywiad O Zagrożeniach on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wywiad-o-zagro%C5%BCeniach/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowa odpornego SOC</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</link>
+        
+        <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Technologia"
+            
+              , "Biznes"
+            
+              , "Ochrona danych"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Zarządzanie IT"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Zarządzanie ryzykiem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/establishing-security-operations-center-best-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Utwórz solidne centrum operacji bezpieczeństwa (SOC), aby przeciwdziałać cyberzagrożeniom, wykrywać incydenty i chronić zasoby organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/SOC-Security-Analysts-Collaboration.webp" length="130446" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmocnij ochronę: rozwiązania EDR w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</link>
+        
+        <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Technologia"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Bezpieczeństwo punktów końcowych"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Obrona cyfrowa"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Odporność cybernetyczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/empower-edr-cyber-security-solutions/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak rozwiązania EDR chronią punkty końcowe, wykrywają zagrożenia i pomagają organizacjom wybrać odpowiednie rozwiązanie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cybersecurity_EDR_Shield_Protection.webp" length="134542" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mistrzowskie reagowanie na incydenty cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-cybersecurity-incident-response-guide/</link>
+        
+        <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Ochrona danych"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Naruszenie danych"
+            
+              , "Reagowanie kryzysowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-cybersecurity-incident-response-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zasady skutecznego reagowania na incydenty cyberbezpieczeństwa. Ten obszerny poradnik pomoże chronić organizację przed zagrożeniami i zwiększyć jej odporność.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cybersecurity_Incident_Response_Fortress.webp" length="137924" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kluczowa rola wywiadu o zagrożeniach w reagowaniu na incydenty</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-threat-intelligence-in-incident-reponse-and-mitigations/</link>
+        
+        <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wywiad o zagrożeniach"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ograniczanie skutków"
+            
+              , "Cyberataki"
+            
+              , "Analiza danych"
+            
+              , "Systemy informacyjne"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Ocena podatności"
+            
+              , "Możliwości wykrywania"
+            
+              , "Mechanizmy bezpieczeństwa"
+            
+              , "Wywiad strategiczny"
+            
+              , "Wywiad taktyczny"
+            
+              , "Wywiad operacyjny"
+            
+              , "Krajobraz zagrożeń"
+            
+              , "Nowe trendy"
+            
+              , "Świadomość bezpieczeństwa"
+            
+              , "Informatyka śledcza"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Ciemna sieć"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-threat-intelligence-in-incident-reponse-and-mitigations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wywiad o zagrożeniach wzmacnia cyberbezpieczeństwo, pomagając ograniczać cyberataki i reagować na nie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.webp" length="195232" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Sztuka reagowania na incydenty: Najlepsze praktyki i przykłady z prawdziwego świata</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-art-of-incident-response/</link>
+        
+        <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "reakcja na incydent"
+            
+              , "cybersecurity"
+            
+              , "NIST"
+            
+              , "najlepsze praktyki"
+            
+              , "wywiad o zagrożeniach"
+            
+              , "komunikacja"
+            
+              , "analiza powypadkowa"
+            
+              , "Equifax"
+            
+              , "NotPetya"
+            
+              , "SolarWinds"
+            
+              , "Rurociąg Colonial"
+            
+              , "Microsoft Exchange Server"
+            
+              , "podatności"
+            
+              , "wykrywanie włamań"
+            
+              , "izolacja"
+            
+              , "odzyskiwanie"
+            
+              , "przygotowanie"
+            
+              , "cyberataki"
+            
+              , "cyberprzestępczość"
+            
+              , "incydenty związane z bezpieczeństwem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-art-of-incident-response/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki reagowania na incydenty zgodnie z NIST SP 800-61 Rev. 2 i odkryj rzeczywiste przykłady skutecznych strategii reagowania na incydenty.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.webp" length="173840" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,1326 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chmura Obliczeniowa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Chmura Obliczeniowa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/chmura-obliczeniowa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/chmura-obliczeniowa/</link>
+
+    <description>Recent content in Chmura Obliczeniowa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/chmura-obliczeniowa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wirtualizacja: większa wydajność i skalowalność IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</link>
+        
+        <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przewodnik po wirtualizacji"
+            
+              , "Infrastruktura IT"
+            
+              , "Innowacje technologiczne"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Zarządzanie centrami danych"
+            
+              , "Wydajność obliczeniowa"
+            
+              , "Rozwiązania sieciowe"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Optymalizacja sprzętu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-virtualization_-concepts-and-applications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj wirtualizację, aby poprawić wydajność IT. Sprawdź jej rodzaje, zalety i dobre praktyki zarządzania infrastrukturą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/understanding-virtualization_-concepts-and-applications.webp" length="103918" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>VMware vs Hyper-V vs Proxmox: Porównanie Wirtualizacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link>
+        
+        <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Wirtualizacja"
+            
+              , "Infrastruktura IT"
+            
+              , "Wirtualizacja serwerów"
+            
+              , "Oprogramowanie dla przedsiębiorstw"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Rozwiązania dla centrów danych"
+            
+              , "Wirtualizacja Open Source"
+            
+              , "Zarządzanie maszynami wirtualnymi"
+            
+              , "Porównanie wirtualizacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj łatwe porównanie VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE i XCP-NG i wybierz idealne rozwiązanie wirtualizacyjne dla sukcesu biznesowego.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rozwiń swój potencjał dzięki Azure for Students</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</link>
+        
+        <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Zasoby dla studentów"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Microsoft Azure"
+            
+              , "Windows Server"
+            
+              , "Windows 10"
+            
+              , "Windows 11"
+            
+              , "Visual Studio"
+            
+              , "Narzędzia edukacyjne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/unleash-potential-azure-students-free-software/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj Microsoft Azure for Students: wymagania, dostępne oprogramowanie, limity konta i praktyczne kroki na początek.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/azure_for_students_animated_cloud.webp" length="73614" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerCLI w zarządzaniu vSphere</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</link>
+        
+        <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Wirtualizacja"
+            
+              , "VMware"
+            
+              , "Zarządzanie IT"
+            
+              , "Automatyzacja"
+            
+              , "Interfejs wiersza poleceń"
+            
+              , "Skrypty"
+            
+              , "Administracja systemami"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Zarządzanie centrum danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-use-powercli-for-vsphere-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj PowerCLI do zarządzania VMware vSphere, automatyzacji zadań i zwiększania produktywności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp" length="135518" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpłatne certyfikaty Oracle dla specjalistów ds. cyberbezpieczeństwa i IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/free-oracle-certifications-cybersecurity-it-professionals/</link>
+        
+        <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Certyfikaty IT"
+            
+              , "Rozwój zawodowy"
+            
+              , "Certyfikaty Oracle"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Zarządzanie danymi"
+            
+              , "Rozwój kariery"
+            
+              , "Nauka online"
+            
+              , "Edukacja technologiczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/free-oracle-certifications-cybersecurity-it-professionals/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj bezpłatne certyfikaty Oracle dla specjalistów ds. cyberbezpieczeństwa i IT, tematy OCI, wymagania wstępne i możliwości zawodowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_image_featuring_a_professional_cyb.webp" length="87826" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ścieżki kariery w IT: możliwości, umiejętności i rozwój</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/navigating-it-career-paths-explore-opportunities-skills-growth/</link>
+        
+        <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Kariera w IT"
+            
+              , "Ścieżki kariery"
+            
+              , "Rozwój umiejętności"
+            
+              , "Kwalifikacje"
+            
+              , "Możliwości rozwoju"
+            
+              , "Branża technologiczna"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Nauka o danych"
+            
+              , "Chmura obliczeniowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/navigating-it-career-paths-explore-opportunities-skills-growth/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różne ścieżki kariery w IT, zdobądź potrzebne umiejętności i znajdź możliwości rozwoju zawodowego w erze cyfrowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_featuring_a_group_of_diverse_p.webp" length="206102" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>AWS, Azure i Google Cloud 2026: pełne porównanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Chmura obliczeniowa"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud Platform"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Szyfrowanie"
+            
+              , "Zarządzanie tożsamością i dostępem"
+            
+              , "Zgodność"
+            
+              , "Wykrywanie zagrożeń"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie AWS, Azure i Google Cloud z 2026 roku obejmujące ceny, bezpieczeństwo, zgodność, usługi, wydajność i wybór dostawcy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/aws-vs-azure-vs-google-cloud-platform.webp" length="280218" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kluczowe umiejętności dla skutecznych menedżerów systemów informatycznych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Biznes"
+            
+              , "Zarządzanie"
+            
+              , "informatyka"
+            
+              , "Rozwój kariery"
+            
+              , "Transformacja cyfrowa"
+            
+              , "Analiza danych"
+            
+              , "Przetwarzanie w chmurze"
+            
+              , "Zarządzanie projektami"
+            
+              , "Przywództwo"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj 5 kluczowych umiejętności, które powinien posiadać każdy menedżer systemów informatycznych, aby odnieść sukces w dzisiejszym cyfrowym świecie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.webp" length="179058" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Packer dla infrastruktury jako kod: dobre praktyki i korzyści</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Packer"
+            
+              , "Infrastruktura jako kod"
+            
+              , "Rozwój i operacje"
+            
+              , "Automatyzacja"
+            
+              , "Bezpieczeństwo"
+            
+              , "Powtarzalność"
+            
+              , "Skalowalność"
+            
+              , "Wieloplatformowość"
+            
+              , "Kontrola wersji"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Obrazy maszyn"
+            
+              , "Wirtualizacja"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Ciągła integracja"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Dobre praktyki"
+            
+              , "Testowanie"
+            
+              , "Otwarte oprogramowanie"
+            
+              , "Wiele chmur"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak używać Packera do tworzenia obrazów maszyn, które są łatwe do utrzymania i bezpieczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.webp" length="175658" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rozpoczęcie pracy z Terraform dla Infrastructure as Code</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Terraform"
+            
+              , "Infrastruktura jako kod"
+            
+              , "IaC"
+            
+              , "Chmura obliczeniowa"
+            
+              , "DevOps"
+            
+              , "Automatyka"
+            
+              , "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud"
+            
+              , "Dostawcy usług w chmurze"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrożenie"
+            
+              , "Aprowizacja"
+            
+              , "Zarządzanie zasobami"
+            
+              , "Skalowalność"
+            
+              , "Odporność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Najlepsze praktyki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy Terraform, popularnego narzędzia Infrastructure as Code, i dowiedz się, jak wykorzystać je do efektywnego zarządzania infrastrukturą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp" length="122182" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Orkiestracja kontenerów w nowoczesnych środowiskach DevOps</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</link>
+        
+        <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "orkiestracja kontenerów"
+            
+              , "DevOps"
+            
+              , "Kubernetes"
+            
+              , "Docker Swarm"
+            
+              , "Apache Mesos"
+            
+              , "skalowalność"
+            
+              , "wysoka dostępność"
+            
+              , "równoważenie obciążenia"
+            
+              , "bezpieczeństwo"
+            
+              , "zautomatyzowane wdrożenia aplikacji"
+            
+              , "HIPAA"
+            
+              , "SOX"
+            
+              , "RODO"
+            
+              , "zgodność"
+            
+              , "rozwój oprogramowania"
+            
+              , "chmura obliczeniowa"
+            
+              , "konteneryzacja"
+            
+              , "technologia"
+            
+              , "automatyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj znaczenie i korzyści orkiestracji kontenerów w nowoczesnym DevOps, wraz z popularnymi narzędziami do orkiestracji kontenerów oraz regulacjami rządowymi istotnymi dla konteneryzacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp" length="120220" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczeństwo w chmurach AWS, Azure i Google Cloud: porównanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-cybersecurity-differences-between-aws-azure-and-gcp/</link>
+        
+        <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud"
+            
+              , "bezpieczeństwo w chmurze"
+            
+              , "IAM"
+            
+              , "GuardDuty"
+            
+              , "Centrum bezpieczeństwa"
+            
+              , "Centrum dowodzenia bezpieczeństwem"
+            
+              , "Ochrona przed atakami DDoS"
+            
+              , "Cloud Armor"
+            
+              , "WAF"
+            
+              , "Prywatne łącze"
+            
+              , "DLP"
+            
+              , "chmura obliczeniowa"
+            
+              , "usługi w chmurze"
+            
+              , "dostawcy chmury"
+            
+              , "ochrona danych"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo infrastruktury"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-cybersecurity-differences-between-aws-azure-and-gcp/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj AWS, Azure i Google Cloud Platform pod względem bezpieczeństwa w chmurze i poznaj różnice, aby podjąć świadomą decyzję dla swojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.webp" length="113076" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zbuduj niedrogie, bezpieczne domowe laboratorium do testów IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</link>
+        
+        <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "domowe laboratorium"
+            
+              , "wirtualizacja"
+            
+              , "sprzęt"
+            
+              , "oprogramowanie"
+            
+              , "sieci komputerowe"
+            
+              , "bezpieczeństwo"
+            
+              , "nauka"
+            
+              , "testowanie"
+            
+              , "Profesjonalista IT"
+            
+              , "entuzjasta technologii"
+            
+              , "VMware"
+            
+              , "Proxmox"
+            
+              , "Hyper-V"
+            
+              , "Linux"
+            
+              , "Windows"
+            
+              , "konfiguracja sieci"
+            
+              , "zarządzanie maszynami wirtualnymi"
+            
+              , "tworzenie kopii zapasowych i odzyskiwanie danych"
+            
+              , "chmura obliczeniowa"
+            
+              , "cyberbezpieczeństwo"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak stworzyć ekonomiczne i bezpieczne domowe laboratorium, aby zdobyć praktyczne doświadczenie IT, eksperymentując z oprogramowaniem, sprzętem i koncepcjami sieciowymi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.webp" length="163548" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tworzenie bezpiecznego i zgodnego z przepisami środowiska chmury: Przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-a-secure-and-compliant-cloud-environment/</link>
+        
+        <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "chmura obliczeniowa"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prywatność danych"
+            
+              , "zgodność z przepisami"
+            
+              , "HIPAA"
+            
+              , "PCI DSS"
+            
+              , "RODO"
+            
+              , "kopie zapasowe danych"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "szyfrowanie"
+            
+              , "kontrola dostępu"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "ciągły monitoring"
+            
+              , "oceny podatności"
+            
+              , "naruszenia danych"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "błędna konfiguracja"
+            
+              , "utrata danych"
+            
+              , "dostawca chmury"
+            
+              , "środki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-a-secure-and-compliant-cloud-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zbudować bezpieczne i zgodne z przepisami środowisko chmurowe dla swojej firmy, korzystając z naszego kompleksowego przewodnika.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/building-a-secure-and-compliant-cloud-environment.webp" length="248838" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Darmowe certyfikaty Microsoft dla studentów i absolwentów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/free-microsoft-certifications-for-students/</link>
+        
+        <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Certyfikaty Microsoft"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Sztuczna inteligencja"
+            
+              , "MSFT Student Cert"
+            
+              , "Azure Fundamentals"
+            
+              , "AI Fundamentals"
+            
+              , "Microsoft 365 Fundamentals"
+            
+              , "Power Platform Fundamentals"
+            
+              , "Dynamics 365 Fundamentals CRM"
+            
+              , "Dynamics 365 Fundamentals ERP"
+            
+              , "Security, Compliance and Identity"
+            
+              , "CloudReadySkills"
+            
+              , "Edukacja online"
+            
+              , "Rozwój kariery"
+            
+              , "Certyfikat IT"
+            
+              , "Bezpłatna edukacja"
+            
+              , "Nauka online"
+            
+              , "Umiejętności techniczne"
+            
+              , "Awans zawodowy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/free-microsoft-certifications-for-students/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj bezpłatne certyfikaty Microsoft dla studentów, wymagania, dostępne egzaminy i sposób rejestracji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_smiling_graduate_holding_a_laptop.webp" length="70412" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Docker a maszyny wirtualne: porównanie w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/docker-vs-vms/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Maszyny wirtualne"
+            
+              , "VM"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Kontenery"
+            
+              , "Kubernetes"
+            
+              , "Prostota"
+            
+              , "Skalowalność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Opłacalność"
+            
+              , "Dockerfile"
+            
+              , "Docker czy VM"
+            
+              , "Kontenery czy VM"
+            
+              , "Kontenery Docker"
+            
+              , "Wirtualizacja"
+            
+              , "Konteneryzacja"
+            
+              , "Budowanie, testowanie i wdrażanie"
+            
+              , "Izolacja"
+            
+              , "Historia bezpieczeństwa"
+            
+              , "Porównanie kosztów"
+            
+              , "VMware"
+            
+              , "Hyper-V"
+            
+              , "KVM"
+            
+              , "Orkiestracja kontenerów"
+            
+              , "Mikroserwisy"
+            
+              , "DevOps"
+            
+              , "Infrastruktura"
+            
+              , "Aplikacje chmurowe"
+            
+              , "Porównanie wydajności"
+            
+              , "Efektywne wykorzystanie zasobów"
+            
+              , "Podejście hybrydowe"
+            
+              , "Wydajność Docker"
+            
+              , "Wydajność VM"
+            
+              , "Kiedy używać Docker"
+            
+              , "Kiedy używać VM"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/docker-vs-vms/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie kontenerów Docker i maszyn wirtualnych w 2026 roku pod względem wydajności, bezpieczeństwa, kosztów, zastosowań i wdrażania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.webp" length="90762" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,269 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wykrywanie Anomalii on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Wykrywanie Anomalii on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wykrywanie-anomalii/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wykrywanie-anomalii/</link>
+
+    <description>Recent content in Wykrywanie Anomalii on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wykrywanie-anomalii/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Strategie ochrony firmy przed zagrożeniami wewnętrznymi</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</link>
+        
+        <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo korporacyjne"
+            
+              , "Zagrożenia wewnętrzne"
+            
+              , "Ochrona danych"
+            
+              , "Szkolenia pracowników"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Analiza zachowań"
+            
+              , "Monitorowanie aktywności użytkowników"
+            
+              , "Kultura bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/protecting-against-insider-threats_-strategies-for-your-company/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ogranicz ryzyko zagrożeń wewnętrznych dzięki kontroli dostępu, monitorowaniu aktywności, kanałom zgłaszania, procedurom offboardingu i kulturze bezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/protecting-against-insider-threats_-strategies-for-your-company.webp" length="87882" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczeństwo EDR od podstaw: przewodnik po ochronie punktów końcowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</link>
+        
+        <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Ochrona punktów końcowych"
+            
+              , "Rozwiązania EDR"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Bezpieczeństwo punktów końcowych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona cyfrowa"
+            
+              , "Strategie bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-edr-security-endpoint-protection-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj działanie, zalety i wyzwania związane z wdrażaniem EDR oraz dobre praktyki, które pomagają chronić punkty końcowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/EDR-Security-Hero-Shield.webp" length="126860" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wpływ uczenia maszynowego na bezpieczeństwo cybernetyczne</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-impact-of-machine-learning-on-cybersecurity/</link>
+        
+        <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Uczenie maszynowe"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Adaptacja"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Ochrona danych"
+            
+              , "W czasie rzeczywistym"
+            
+              , "Uczenie się pod nadzorem"
+            
+              , "Uczenie bez nadzoru"
+            
+              , "Uczenie się przez wzmocnienie"
+            
+              , "Fałszywe pozytywy"
+            
+              , "Fałszywe negatywy"
+            
+              , "Szkolenie pracowników"
+            
+              , "Rozwiązania w zakresie bezpieczeństwa"
+            
+              , "Analityka danych"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo w chmurze"
+            
+              , "Rozpoznawanie wzorów"
+            
+              , "Wykrywanie anomalii"
+            
+              , "Cyberzagrożenia"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-impact-of-machine-learning-on-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak uczenie maszynowe wspiera wykrywanie i priorytetyzację zagrożeń oraz reagowanie na nie, a także poznaj ograniczenia wdrożenia i zagrożenia dla bezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_robot_standing_guard_in_front.webp" length="56498" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

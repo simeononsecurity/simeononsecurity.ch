@@ -1,0 +1,663 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zarządzanie Danymi on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Zarządzanie Danymi on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/zarz%C4%85dzanie-danymi/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/zarz%C4%85dzanie-danymi/</link>
+
+    <description>Recent content in Zarządzanie Danymi on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/zarz%C4%85dzanie-danymi/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>SyncThing kontra FreeFileSync</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/syncthing-vs-freefilesync-comparison/</link>
+        
+        <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Oprogramowanie"
+            
+              , "Synchronizacja plików"
+            
+              , "Zarządzanie danymi"
+            
+              , "Porównanie"
+            
+              , "Narzędzia programowe"
+            
+              , "Produktywność cyfrowa"
+            
+              , "Oprogramowanie open source"
+            
+              , "Kopie zapasowe danych"
+            
+              , "Prywatność i bezpieczeństwo"
+            
+              , "Rozwiązania wieloplatformowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/syncthing-vs-freefilesync-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie SyncThing i FreeFileSync pod kątem prywatności, obsługiwanych platform, automatyzacji, interfejsu i kosztów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/SyncThing-vs-FreeFileSync-Symbolic-Sync.webp" length="127636" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona danych niejawnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/benefits-of-protecting-classified-data/</link>
+        
+        <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ochrona danych"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Etyka biznesu"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Prawo do prywatności"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Zaufanie cyfrowe"
+            
+              , "Zarządzanie danymi"
+            
+              , "Wpływ ekonomiczny"
+            
+              , "Prywatność osobista"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/benefits-of-protecting-classified-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj powody, dla których warto chronić dane niejawne ze względów bezpieczeństwa, ekonomii i etyki, oraz ryzyko słabych zabezpieczeń.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/benefits-of-protecting-classified-data.webp" length="279460" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Synology kontra TerraMaster i QNAP</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/synology-terramaster-qnap-nas-comparison/</link>
+        
+        <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Pamięć sieciowa"
+            
+              , "Porównanie NAS"
+            
+              , "Zarządzanie danymi"
+            
+              , "Recenzje sprzętu"
+            
+              , "Rozwiązania sieciowe"
+            
+              , "Sprzęt"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Rozwiązania pamięci masowej"
+            
+              , "Infrastruktura IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/synology-terramaster-qnap-nas-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj systemy NAS firm Synology, TerraMaster i QNAP pod względem funkcji, wydajności, oprogramowania i bezpieczeństwa danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/nas_comparison_race.webp" length="88326" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Porównanie systemów NAS: wybór najlepszego rozwiązania do przechowywania danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/</link>
+        
+        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Przechowywanie danych"
+            
+              , "Pamięć masowa podłączona do sieci"
+            
+              , "Systemy operacyjne"
+            
+              , "Zarządzanie danymi"
+            
+              , "Rozwiązania IT"
+            
+              , "Udostępnianie plików"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Pamięć masowa w chmurze"
+            
+              , "Rozwiązania do tworzenia kopii zapasowych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj popularne systemy NAS i wybierz rozwiązanie odpowiednie do swoich potrzeb w zakresie przechowywania danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/nas-os-comparison-symbolic-servers.webp" length="135748" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Chroń swoją prywatność: usługa usuwania danych OneRep</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/onerep-data-removal-privacy-service/</link>
+        
+        <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Rozwiązania dotyczące prywatności"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Bezpieczeństwo w internecie"
+            
+              , "Dane osobowe"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Ochrona tożsamości"
+            
+              , "Zarządzanie danymi"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/onerep-data-removal-privacy-service/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak OneRep pomaga usuwać dane osobowe i chronić prywatność w internecie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/onerep-privacy-shield.webp" length="48096" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpłatne certyfikaty Oracle dla specjalistów ds. cyberbezpieczeństwa i IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/free-oracle-certifications-cybersecurity-it-professionals/</link>
+        
+        <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Certyfikaty IT"
+            
+              , "Rozwój zawodowy"
+            
+              , "Certyfikaty Oracle"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Zarządzanie danymi"
+            
+              , "Rozwój kariery"
+            
+              , "Nauka online"
+            
+              , "Edukacja technologiczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/free-oracle-certifications-cybersecurity-it-professionals/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj bezpłatne certyfikaty Oracle dla specjalistów ds. cyberbezpieczeństwa i IT, tematy OCI, wymagania wstępne i możliwości zawodowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_image_featuring_a_professional_cyb.webp" length="87826" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Certyfikaty Microsoft w karierze związanej z cyberbezpieczeństwem</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Certyfikaty Microsoft"
+            
+              , "Rozwój zawodowy"
+            
+              , "Technologia informacyjna"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Zarządzanie danymi"
+            
+              , "Zarządzanie tożsamością i dostępem"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Uczenie maszynowe"
+            
+              , "Rynek pracy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/microsoft-certifications-cybersecurity-career-success/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wybierz certyfikaty Microsoft do ról w cyberbezpieczeństwie według obszaru umiejętności, docelowego stanowiska, wymagań wstępnych i znaczenia Azure.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_featuring_a_professiona.webp" length="94814" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Prawda o informacjach jawnych: Charakterystyka, ochrona i przepisy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/safeguarding-unclassified-information/</link>
+        
+        <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo informacji"
+            
+              , "Zarządzanie danymi"
+            
+              , "Przepisy rządowe"
+            
+              , "Udostępnianie informacji"
+            
+              , "Ochrona danych"
+            
+              , "Poufność"
+            
+              , "Ograniczanie ryzyka"
+            
+              , "Zarządzanie informacjami"
+            
+              , "Klasyfikacja danych"
+            
+              , "Dostęp do informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/safeguarding-unclassified-information/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj prawdziwą naturę informacji jawnych, ich kluczowe cechy, środki zabezpieczające i odpowiednie przepisy dotyczące skutecznej ochrony.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.webp" length="114978" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>TrueNAS vs Unraid: który system operacyjny NAS jest najlepszy?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</link>
+        
+        <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Systemy pamięci masowej"
+            
+              , "Pamięć masowa w sieci"
+            
+              , "Zarządzanie danymi"
+            
+              , "Systemy operacyjne NAS"
+            
+              , "Porównanie"
+            
+              , "Ochrona danych"
+            
+              , "Pamięć domowa"
+            
+              , "Pamięć firmowa"
+            
+              , "Otwarte oprogramowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj TrueNas i Unraid pod kątem projektu pamięci masowej, łatwości obsługi, funkcji, dokumentacji, społeczności i dopasowania do obciążenia.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.webp" length="189060" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

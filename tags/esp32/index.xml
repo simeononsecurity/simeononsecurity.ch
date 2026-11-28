@@ -1,0 +1,364 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ESP32 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>ESP32 on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/esp32/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/esp32/</link>
+
+    <description>Recent content in ESP32 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/esp32/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zmapowaliśmy 146 526 „kamer Flock”. 50 278 z nich to systemy ClickShare</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link>
+        
+        <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Badania nad bezpieczeństwem"
+            
+              , "Technologia prywatności"
+            
+              , "Projekty open source"
+            
+              , "Dziennikarstwo danych"
+            
+              , "Przeciwdziałanie inwigilacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Audyt Flock Finder wykrywa ClickShare i inne fałszywe alarmy, wyjaśnia dowody i opisuje wprowadzone zmiany.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wyścig wykrywania kamer Flock: co zmieniło się w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link>
+        
+        <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologie ochrony prywatności"
+            
+              , "Kontrnadzór"
+            
+              , "Projekty open source"
+            
+              , "Prawa cyfrowe"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Badania bezpieczeństwa"
+            
+              , "Modyfikowanie sprzętu"
+            
+              , "Narzędzia prywatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zgłaszane zmiany w wykrywaniu kamer Flock Safety, reakcje społeczności i metody podczerwieni do rozpoznawania systemów kamer.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Flock Finder: Mapa kamer ALPR Flock Safety</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link>
+        
+        <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia prywatności"
+            
+              , "Kontrwywiad"
+            
+              , "Projekty open source"
+            
+              , "Prawa cyfrowe"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Narzędzia prywatności"
+            
+              , "Hakowanie sprzętu"
+            
+              , "Badania bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Flock Finder to narzędzie open source, które mapuje ponad 40 000 kamer Flock Safety ALPR na całym świecie, korzystając z danych WiFi WiGLE i odcisku palca OUI. Dowiedz się, jak działa, jakie ma ograniczenia i jakie narzędzia sprzętowe służą do wykrywania w czasie rzeczywistym.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Eye Spy: pasywny wykrywacz nadzoru i trackerów na ESP32</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link>
+        
+        <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Narzędzia ochrony prywatności"
+            
+              , "Kontrnadzór"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "Systemy wbudowane"
+            
+              , "Badania bezpieczeństwa"
+            
+              , "Bezpieczeństwo WiFi"
+            
+              , "Bezpieczeństwo Bluetooth"
+            
+              , "Projekty ESP32"
+            
+              , "Bezpieczeństwo sprzętu"
+            
+              , "Bezpieczeństwo open source"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Techniczne omówienie Eye Spy v1.1, pasywnego wykrywacza BLE i WiFi na ESP32, który wykrywa kamery, trackery, drony i powiązane sygnały.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>ESP32 WiFi Canary: pasywne wykrywanie zagrożeń w paśmie 2,4 GHz</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link>
+        
+        <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo WiFi"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "Badania bezpieczeństwa"
+            
+              , "Systemy wbudowane"
+            
+              , "Narzędzia ochrony prywatności"
+            
+              , "Projekty ESP32"
+            
+              , "Bezpieczeństwo sprzętu"
+            
+              , "Bezpieczeństwo bezprzewodowe"
+            
+              , "Bezpieczeństwo open source"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Techniczny opis ESP32 WiFi Canary, pasywnego czujnika 2,4 GHz wykrywającego evil twin, deautentykację, obniżenie zabezpieczeń i zalewanie beaconami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

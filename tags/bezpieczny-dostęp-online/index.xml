@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczny Dostęp Online on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczny Dostęp Online on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpieczny-dost%C4%99p-online/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpieczny-dost%C4%99p-online/</link>
+
+    <description>Recent content in Bezpieczny Dostęp Online on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpieczny-dost%C4%99p-online/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego zasady złożoności haseł są przestarzałe</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/password-complexity-security-article/</link>
+        
+        <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo haseł"
+            
+              , "Metody uwierzytelniania"
+            
+              , "Zagrożenia online"
+            
+              , "Edukacja użytkowników"
+            
+              , "Wytyczne NIST"
+            
+              , "Nowoczesne uwierzytelnianie"
+            
+              , "Świadomość phishingu"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Bezpieczeństwo online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/password-complexity-security-article/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, dlaczego zasady złożoności haseł tracą skuteczność i jak praktycznie poprawić bezpieczeństwo w sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/password-complexity-security.webp" length="115670" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

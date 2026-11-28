@@ -1,0 +1,95 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home Assistant Yellow on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Home Assistant Yellow on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/home-assistant-yellow/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/home-assistant-yellow/</link>
+
+    <description>Recent content in Home Assistant Yellow on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/home-assistant-yellow/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Powrót Home Assistant Core 2026.11 do wersji 2026.10.4: naprawa wersji 3 magazynu HTTP</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</link>
+        
+        <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyka domowa"
+            
+              , "Rozwiązywanie problemów"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/home-assistant-yellow-core-rollback-http-recovery/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Napraw błąd wersji 3 magazynu HTTP po powrocie Home Assistant Core 2026.11 do wersji 2026.10.4 na Yellow. Artykuł zawiera zabezpieczone polecenia i zweryfikowane wyniki.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp" length="32856" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,249 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Konfiguracje RAID on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Konfiguracje RAID on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/konfiguracje-raid/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/konfiguracje-raid/</link>
+
+    <description>Recent content in Konfiguracje RAID on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 09 Mar 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/konfiguracje-raid/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Technologia RAID wyjaśniona</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-raid_-types-and-their-uses-in-data-storage/</link>
+        
+        <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Rozwiązania do tworzenia kopii zapasowych"
+            
+              , "Technologie pamięci masowej wyjaśnione"
+            
+              , "Porady techniczne dla firm"
+            
+              , "Infrastruktura serwerowa"
+            
+              , "Ochrona danych IT"
+            
+              , "Sieci komputerowe"
+            
+              , "Informacje o sprzęcie komputerowym"
+            
+              , "Zarządzanie centrami danych"
+            
+              , "Strategie przechowywania danych w chmurze"
+            
+              , "IT w przedsiębiorstwach"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-raid_-types-and-their-uses-in-data-storage/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Popraw integralność danych i dostępność systemu dzięki konfiguracjom RAID. Ten przewodnik omawia różne poziomy RAID i ich zastosowania w przechowywaniu danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/understanding-raid_-types-and-their-uses-in-data-storage.webp" length="117364" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>eSATA odkryte: zoptymalizuj dziś swoje rozwiązania pamięci masowej</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/external-storage-options_-the-versatility-of-esata/</link>
+        
+        <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Pamięć zewnętrzna"
+            
+              , "Transfer danych"
+            
+              , "Innowacje techniczne"
+            
+              , "Urządzenia eSATA"
+            
+              , "Rozwiązania sprzętowe"
+            
+              , "Kopie zapasowe"
+            
+              , "Pamięć dla profesjonalistów"
+            
+              , "Konsole do gier"
+            
+              , "Bezpieczne dane"
+            
+              , "Trendy technologiczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/external-storage-options_-the-versatility-of-esata/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj szybkość i wszechstronność eSATA w zewnętrznych nośnikach. Wybieraj świadomie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/external-storage-options_-the-versatility-of-esata.webp" length="139218" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Synology kontra TerraMaster i QNAP</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/synology-terramaster-qnap-nas-comparison/</link>
+        
+        <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Pamięć sieciowa"
+            
+              , "Porównanie NAS"
+            
+              , "Zarządzanie danymi"
+            
+              , "Recenzje sprzętu"
+            
+              , "Rozwiązania sieciowe"
+            
+              , "Sprzęt"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Rozwiązania pamięci masowej"
+            
+              , "Infrastruktura IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/synology-terramaster-qnap-nas-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj systemy NAS firm Synology, TerraMaster i QNAP pod względem funkcji, wydajności, oprogramowania i bezpieczeństwa danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/nas_comparison_race.webp" length="88326" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

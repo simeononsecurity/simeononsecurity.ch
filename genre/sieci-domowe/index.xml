@@ -1,0 +1,623 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sieci Domowe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Sieci Domowe on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/sieci-domowe/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/sieci-domowe/</link>
+
+    <description>Recent content in Sieci Domowe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/sieci-domowe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zbuduj domowe laboratorium w 10 etapach, od Pi-hole do lokalnej AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/build-home-lab-10-levels/</link>
+        
+        <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Domowe laboratorium"
+            
+              , "Samodzielny hosting"
+            
+              , "Lokalna AI"
+            
+              , "Sieci domowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/build-home-lab-10-levels/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zbuduj domowe laboratorium w dziesięciu praktycznych etapach, od filtrowania DNS w całej sieci po lokalną AI, poznając sprzęt, koszty, umiejętności i kompromisy dla każdego poziomu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/build-home-lab-10-levels.webp" length="34936" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego filtrowanie DNS jest omijane: sprawdź ścieżkę resolvera</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sieci domowe"
+            
+              , "DNS"
+            
+              , "Prywatność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, dlaczego urządzenie lub przeglądarka omija filtr DNS. Porównaj zapytania bezpośrednie i domyślne, przejrzyj logi oraz ustawienia szyfrowanego DNS, VPN, IPv6 i routera.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Testowanie izolacji sieci gościnnej i IoT w sieci Wi-Fi mesh</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sieci domowe"
+            
+              , "Bezpieczeństwo Wi-Fi"
+            
+              , "Inteligentny dom"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mesh-wifi-guest-iot-isolation-test/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, czy sieci gościnna i IoT w systemie Wi-Fi mesh blokują dostęp do domowych urządzeń. Przetestuj każdą sieć przy użyciu działającej usługi i zapisz ograniczenia.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/mesh-wifi-guest-iot-isolation-test.webp" length="102600" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rozwiązywanie problemów z Wi-Fi: praktyczne sposoby na typowe usterki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</link>
+        
+        <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Rozwiązywanie problemów z Wi-Fi"
+            
+              , "Rozwiązania bezprzewodowe"
+            
+              , "Pomoc techniczna"
+            
+              , "Wskazówki dotyczące łączności"
+            
+              , "Sieci domowe"
+            
+              , "Poradnik internetowy"
+            
+              , "Optymalizacja Wi-Fi"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Praktyczna technologia"
+            
+              , "Wydajność sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Rozwiąż problemy z Wi-Fi dzięki wskazówkom dotyczącym sygnału, przerw w połączeniu i bezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/wireless-connectivity_-troubleshooting-common-wi-fi-problems.webp" length="61888" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmocnij Wi-Fi: kompletny poradnik poprawy sygnału</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/boosting-wifi-signal-strength_-strategies-for-a-stronger-connection/</link>
+        
+        <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Poprawa Wi-Fi"
+            
+              , "Rozwiązania łączności"
+            
+              , "Sieci domowe"
+            
+              , "Porady o internecie i technologii"
+            
+              , "Optymalizacja łączności bezprzewodowej"
+            
+              , "Poradniki o gadżetach"
+            
+              , "Cyfrowy styl życia"
+            
+              , "Technologia inteligentnego domu"
+            
+              , "Technologia zrób to sam"
+            
+              , "Ulepszanie sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/boosting-wifi-signal-strength_-strategies-for-a-stronger-connection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Popraw internet dzięki praktycznym sposobom na wzmocnienie sygnału Wi-Fi. Uzyskaj stabilniejsze połączenie do streamingu i gier.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/boosting-wifi-signal-strength_-strategies-for-a-stronger-connection.webp" length="148620" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czy Ubiquiti UniFi sprawdzi się w sieci domowej?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ubiquiti-unifi-good-for-home-use/</link>
+        
+        <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sieci domowe"
+            
+              , "Rozwiązania Wi-Fi"
+            
+              , "Sprzęt sieciowy"
+            
+              , "Produkty Ubiquiti"
+            
+              , "Recenzje technologii"
+            
+              , "Technologia domowa"
+            
+              , "Łączność bezprzewodowa"
+            
+              , "Zarządzanie siecią"
+            
+              , "Elektronika użytkowa"
+            
+              , "Rozwiązania bezprzewodowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ubiquiti-unifi-good-for-home-use/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, czy Ubiquiti UniFi pasuje do domu, poznaj zalety sieci, koszty oraz wymagania dotyczące zarządzania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ubiquiti-unifi-home-wifi.webp" length="49076" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpiecz swoją sieć domową</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</link>
+        
+        <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Sieć domowa"
+            
+              , "Rekomendacje sprzętu"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Bezpieczeństwo Internetu"
+            
+              , "Sieci domowe"
+            
+              , "Technologia"
+            
+              , "Inteligentny dom"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/fortify-home-network-hardware-recommendations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sprzęt potrzebny do ochrony domowej sieci przed cyberzagrożeniami. Artykuł omawia sprzętowe zapory, punkty dostępowe i narzędzia monitorujące.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/fortified-network-security.webp" length="61592" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze systemy Wi-Fi mesh 2026: poradnik zakupowy i polecane modele</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/</link>
+        
+        <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Systemy Wi-Fi mesh"
+            
+              , "Sieci domowe"
+            
+              , "Technologie bezprzewodowe"
+            
+              , "Łączność internetowa"
+            
+              , "Elektronika użytkowa"
+            
+              , "Inteligentne domy"
+            
+              , "Urządzenia sieciowe"
+            
+              , "Internet rzeczy (IoT)"
+            
+              , "Routery bezprzewodowe"
+            
+              , "Sieci domowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poradnik z 2026 roku poświęcony konsumenckim systemom mesh Wi-Fi 6E i Wi-Fi 7. Porównuje zasięg, wydajność, konfigurację i kryteria zakupu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_home_with.webp" length="127732" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak rozmieścić punkty dostępowe, aby poprawić zasięg Wi-Fi</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</link>
+        
+        <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Sieci"
+            
+              , "Sieci bezprzewodowe"
+            
+              , "Punkty dostępowe"
+            
+              , "Instalacja Wi-Fi"
+            
+              , "Optymalizacja sieci"
+            
+              , "Sieci domowe"
+            
+              , "Łączność bezprzewodowa"
+            
+              , "Internet rzeczy"
+            
+              , "Rozwiązania sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-properly-place-access-points-optimize-wireless-connectivity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sprawdzone sposoby rozmieszczania punktów dostępowych, które poprawiają łączność bezprzewodową, ograniczają zakłócenia i zapewniają stabilne działanie sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_person.webp" length="170380" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,107 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ollama Cloud on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Ollama Cloud on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ollama-cloud/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ollama-cloud/</link>
+
+    <description>Recent content in Ollama Cloud on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ollama-cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Claude Cowork i Claude Code z lokalnymi modelami: przewodnik konfiguracji na 2026 rok</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link>
+        
+        <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Narzędzia AI do programowania"
+            
+              , "Samodzielnie hostowana AI"
+            
+              , "Narzędzia dla programistów"
+            
+              , "Prywatność"
+            
+              , "Modele open source"
+            
+              , "Automatyzacja"
+            
+              , "Sprzęt AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Skonfiguruj Ollama z Claude Desktop i Claude Code przez interfejs API zgodny z Anthropic. Poznaj wybór modeli i funkcje dostępne wyłącznie w chmurze w 2026 roku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

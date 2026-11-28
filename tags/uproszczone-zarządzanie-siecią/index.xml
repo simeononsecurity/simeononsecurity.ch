@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uproszczone Zarządzanie Siecią on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Uproszczone Zarządzanie Siecią on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/uproszczone-zarz%C4%85dzanie-sieci%C4%85/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/uproszczone-zarz%C4%85dzanie-sieci%C4%85/</link>
+
+    <description>Recent content in Uproszczone Zarządzanie Siecią on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/uproszczone-zarz%C4%85dzanie-sieci%C4%85/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubiquiti UniFi Express: test kompaktowej bramy i punktu dostępowego WiFi 6</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/exploring-unifi-express-all-in-one-network-gateway/</link>
+        
+        <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Recenzje techniczne"
+            
+              , "Rozwiązania sieciowe"
+            
+              , "Konfiguracja sieci domowej"
+            
+              , "Urządzenia WiFi 6"
+            
+              , "Informacje o UniFi Express"
+            
+              , "Kompaktowa brama"
+            
+              , "Bezprzewodowe punkty dostępowe"
+            
+              , "Produkty Ubiquiti"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Sieci małych firm"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/exploring-unifi-express-all-in-one-network-gateway/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj UniFi Express, kompaktową bramę z punktem dostępowym WiFi 6 i uproszczonym zarządzaniem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/UniFi_Express_Connectivity.webp" length="64240" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

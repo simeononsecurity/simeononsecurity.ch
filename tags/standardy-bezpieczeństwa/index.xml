@@ -1,0 +1,477 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Standardy Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Standardy Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/standardy-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/standardy-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Standardy Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 10 Mar 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/standardy-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>RayHunter 2026: analiza bezpieczeństwa i dobre praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/rayhunter-security-analysis-best-practices-2026/</link>
+        
+        <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "urządzenie RayHunter"
+            
+              , "analiza bezpieczeństwa"
+            
+              , "dobre praktyki"
+            
+              , "ocena ryzyka"
+            
+              , "zgodność"
+            
+              , "urządzenie przechwytujące IMSI"
+            
+              , "wykrywanie inwigilacji"
+            
+              , "architektura bezpieczeństwa"
+            
+              , "modelowanie zagrożeń"
+            
+              , "ochrona prywatności"
+            
+              , "bezpieczeństwo przedsiębiorstwa"
+            
+              , "wdrożenie profesjonalne"
+            
+              , "standardy bezpieczeństwa"
+            
+              , "ramy ochrony prywatności"
+            
+              , "bezpieczeństwo operacyjne"
+            
+              , "analiza zagrożeń"
+            
+              , "zarządzanie bezpieczeństwem"
+            
+              , "inżynieria prywatności"
+            
+              , "przeciwdziałanie inwigilacji"
+            
+              , "zabezpieczenia"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/rayhunter-security-analysis-best-practices-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Oceń ryzyka bezpieczeństwa RayHunter, zabezpieczenia wdrożenia, wymagania zgodności i praktyki operacyjne systemów wykrywania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/rayhunter-security-analysis-best-practices-2026.webp" length="192654" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>FISMA: wzmocnienie federalnego cyberbezpieczeństwa i ochrona danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</link>
+        
+        <pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Przepisy rządowe"
+            
+              , "Zapewnienie bezpieczeństwa informacji"
+            
+              , "Ochrona danych"
+            
+              , "Agencje federalne"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Standardy bezpieczeństwa"
+            
+              , "Ciągły monitoring"
+            
+              , "Cyberzagrożenia"
+            
+              , "Zarządzanie cyfrowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/fisma-federal-cybersecurity-overview/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak FISMA wzmacnia federalne cyberbezpieczeństwo. Poznaj jej główne cechy, proces i wpływ na ochronę danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-shield-fisma.webp" length="118222" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PCI-DSS: bezpieczna zgodność przy transakcjach kartowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link>
+        
+        <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo kart płatniczych"
+            
+              , "Ochrona danych"
+            
+              , "Zgodność z wymaganiami"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Technologia"
+            
+              , "Biznes"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Regulacje"
+            
+              , "Handel elektroniczny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj PCI-DSS, jego elementy, zasady zgodności i korzyści dla ochrony danych kart płatniczych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/pci-dss-security-vault.webp" length="88546" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Chroń swoją organizację: zalety oprogramowania do zarządzania incydentami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</link>
+        
+        <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie incydentami"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Ograniczanie zagrożeń"
+            
+              , "Rozwiązania technologiczne"
+            
+              , "Cyberobrona"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Ciągłość działania"
+            
+              , "Zarządzanie ryzykiem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/benefits-of-security-incident-management-software/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj oprogramowanie do zarządzania incydentami bezpieczeństwa, które usprawnia reagowanie, śledzenie i zgodność oraz chroni zasoby cyfrowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/benefits-of-security-incident-management-software.webp" length="227836" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zdaj egzamin CompTIA Security&#43; SY0-601: Porady i materiały</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/</link>
+        
+        <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Professor Messer"
+            
+              , "Dr. Messer"
+            
+              , "adwersarialna sztuczna inteligencja"
+            
+              , "kampania wpływu"
+            
+              , "atak IV"
+            
+              , "sieciowy MDF"
+            
+              , "atak Christmas tree"
+            
+              , "SY0-601"
+            
+              , "CompTIA Security"
+            
+              , "zakłócanie łączności bezprzewodowej"
+            
+              , "IDF a MDF"
+            
+              , "zastosowania kryptografii"
+            
+              , "ataki on-path"
+            
+              , "egzamin CompTIA Security SY0-601"
+            
+              , "certyfikacja cyberbezpieczeństwa"
+            
+              , "przewodnik do nauki"
+            
+              , "cele egzaminu"
+            
+              , "przygotowanie do egzaminu"
+            
+              , "materiały do nauki"
+            
+              , "testy próbne"
+            
+              , "kursy online"
+            
+              , "grupy nauki"
+            
+              , "sprzęt i oprogramowanie"
+            
+              , "strategie rozwiązywania testu"
+            
+              , "zdanie egzaminu"
+            
+              , "trendy branżowe"
+            
+              , "rozwój kariery"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "certyfikaty bezpieczeństwa"
+            
+              , "specjaliści cyberbezpieczeństwa"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "zarządzanie podatnościami"
+            
+              , "reagowanie na incydenty"
+            
+              , "polityki bezpieczeństwa"
+            
+              , "kontrola dostępu"
+            
+              , "zabezpieczenia"
+            
+              , "techniki szyfrowania"
+            
+              , "ocena ryzyka"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "dobre praktyki bezpieczeństwa"
+            
+              , "standardy bezpieczeństwa"
+            
+              , "struktury bezpieczeństwa"
+            
+              , "obrona sieci"
+            
+              , "pytania praktyczne Security Plus"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zdać egzamin CompTIA Security+ SY0-601 z poradami, materiałami do nauki i strategiami rozwiązywania testów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_studying_with_a_laptop_and_books_in_front_of_them.webp" length="81278" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

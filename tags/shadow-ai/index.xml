@@ -1,0 +1,139 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shadow AI on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Shadow AI on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/shadow-ai/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/shadow-ai/</link>
+
+    <description>Recent content in Shadow AI on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/shadow-ai/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Cyberbezpieczeństwo AI w 2026 roku: szybkie wdrażanie, późniejsze zabezpieczanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/state-of-ai-cybersecurity-2026/</link>
+        
+        <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo AI"
+            
+              , "cyberbezpieczeństwo AI 2026"
+            
+              , "wstrzykiwanie promptów"
+            
+              , "agenci AI"
+            
+              , "bezpieczeństwo MCP"
+            
+              , "łańcuch dostaw AI"
+            
+              , "shadow AI"
+            
+              , "red teaming AI"
+            
+              , "bezpieczeństwo LLM"
+            
+              , "obserwowalność AI"
+            
+              , "agentowa AI"
+            
+              , "zagrożenia AI"
+            
+              , "ataki AI"
+            
+              , "bezpieczeństwo modeli"
+            
+              , "zarządzanie AI"
+            
+              , "NIST AI 600-1"
+            
+              , "OWASP LLM"
+            
+              , "MITRE ATLAS"
+            
+              , "reagowanie na incydenty AI"
+            
+              , "bezpieczeństwo AI w przedsiębiorstwie"
+            
+              , "tożsamość AI"
+            
+              , "zatruwanie kontekstu"
+            
+              , "zatruwanie narzędzi"
+            
+              , "autoryzacja AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/state-of-ai-cybersecurity-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ocena wdrażania AI w cyberbezpieczeństwie, luk operacyjnych, aktualnych wytycznych i praktycznych zabezpieczeń dla organizacji w 2026 roku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/state-of-ai-cybersecurity-2026.webp" length="282406" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

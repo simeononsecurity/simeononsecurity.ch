@@ -1,0 +1,289 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczne Transakcje on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczne Transakcje on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpieczne-transakcje/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpieczne-transakcje/</link>
+
+    <description>Recent content in Bezpieczne Transakcje on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpieczne-transakcje/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmocnij bezpieczeństwo e-commerce</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</link>
+        
+        <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo e-commerce"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona danych"
+            
+              , "Biznes internetowy"
+            
+              , "Bezpieczeństwo witryny"
+            
+              , "Zaufanie klientów"
+            
+              , "Bezpieczne transakcje"
+            
+              , "Szyfrowanie SSL"
+            
+              , "Zasady dotyczące haseł"
+            
+              , "Dobre praktyki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-checklist-for-securing-your-e-commerce-site/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zabezpiecz sklep internetowy za pomocą TLS, MFA administratorów, aktualizacji, kontroli płatności, szyfrowania, monitorowania, szkoleń, ochrony przed oszustwami i reagowania na incydenty.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-2024-checklist-for-securing-your-e-commerce-site.webp" length="88770" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PCI-DSS: bezpieczna zgodność przy transakcjach kartowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link>
+        
+        <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo kart płatniczych"
+            
+              , "Ochrona danych"
+            
+              , "Zgodność z wymaganiami"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Technologia"
+            
+              , "Biznes"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Regulacje"
+            
+              , "Handel elektroniczny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj PCI-DSS, jego elementy, zasady zgodności i korzyści dla ochrony danych kart płatniczych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/pci-dss-security-vault.webp" length="88546" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne zakupy online: Wskazówki dotyczące bezpiecznych transakcji e-commerce</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/</link>
+        
+        <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "zakupy online"
+            
+              , "bezpieczny handel elektroniczny"
+            
+              , "bezpieczne transakcje"
+            
+              , "ochrona prywatności"
+            
+              , "usługi maskowania"
+            
+              , "Albine Blur"
+            
+              , "privacy.com"
+            
+              , "Skrytka pocztowa"
+            
+              , "CMRA"
+            
+              , "bezpieczne hasła"
+            
+              , "uwierzytelnianie dwuskładnikowe"
+            
+              , "zapobieganie phishingowi"
+            
+              , "zaufane strony internetowe"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "recenzje sprzedawców"
+            
+              , "publiczne Wi-Fi"
+            
+              , "VPN"
+            
+              , "prywatność online"
+            
+              , "Zapobieganie kradzieży tożsamości"
+            
+              , "oszustwa związane z kartami kredytowymi"
+            
+              , "wskazówki dotyczące cyberbezpieczeństwa"
+            
+              , "ochrona danych"
+            
+              , "Środki bezpieczeństwa online"
+            
+              , "tymczasowe numery telefonów"
+            
+              , "tymczasowe adresy e-mail"
+            
+              , "renomowani sprzedawcy online"
+            
+              , "ochrona przed złośliwym oprogramowaniem"
+            
+              , "Zapobieganie cyberzagrożeniom"
+            
+              , "bezpieczne transakcje online"
+            
+              , "bezpieczeństwo danych osobowych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak bezpiecznie robić zakupy online i chronić swoje dane osobowe dzięki tym poradom ekspertów i usługom maskowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.webp" length="63580" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

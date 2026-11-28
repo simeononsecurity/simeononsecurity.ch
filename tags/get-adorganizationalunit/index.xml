@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Get-ADOrganizationalUnit on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Get-ADOrganizationalUnit on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/get-adorganizationalunit/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/get-adorganizationalunit/</link>
+
+    <description>Recent content in Get-ADOrganizationalUnit on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/get-adorganizationalunit/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tworzenie inwentaryzacji Active Directory tylko do odczytu w PowerShell</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Active Directory"
+            
+              , "PowerShell"
+            
+              , "System Administration"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/active-directory-powershell-read-only-inventory/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Inwentaryzuj jednostki OU, użytkowników i komputery Active Directory za pomocą zapytań PowerShell o określonym zakresie. Eksportuj kontrolowane pliki CSV bez zmieniania obiektów katalogowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/active-directory-powershell-read-only-inventory.webp" length="101842" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

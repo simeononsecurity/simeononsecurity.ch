@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programowanie W C# on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Programowanie W C# on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/programowanie-w-c%23/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/programowanie-w-c%23/</link>
+
+    <description>Recent content in Programowanie W C# on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/programowanie-w-c%23/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Niebezpieczne funkcje C#: bezpieczne praktyki programowania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link>
+        
+        <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Tworzenie oprogramowania"
+            
+              , "Programowanie w C#"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo kodu"
+            
+              , "Bezpieczne programowanie"
+            
+              , "Dobre praktyki programistyczne"
+            
+              , "Luki w oprogramowaniu"
+            
+              , "Kryptografia"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Bezpieczne zamienniki niebezpiecznych funkcji C#. Dowiedz się, jak rozpoznawać zagrożenia dla bezpieczeństwa pamięci i zastępować ryzykowne operacje.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-coding-shield.webp" length="94088" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

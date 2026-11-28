@@ -1,0 +1,249 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Regulacje Rządowe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Regulacje Rządowe on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/regulacje-rz%C4%85dowe/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/regulacje-rz%C4%85dowe/</link>
+
+    <description>Recent content in Regulacje Rządowe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/regulacje-rz%C4%85dowe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego oprogramowanie open source przewyższa oprogramowanie własnościowe pod względem bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/open-source-software-security/</link>
+        
+        <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Oprogramowanie o otwartym kodzie źródłowym"
+            
+              , "Bezpieczeństwo oprogramowania"
+            
+              , "Regulacje rządowe"
+            
+              , "Rozwój oparty na współpracy"
+            
+              , "Ochrona cyfrowa"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Trendy technologiczne"
+            
+              , "Bezpieczeństwo w sieci"
+            
+              , "Prywatność danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/open-source-software-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, dlaczego oprogramowanie open source uchodzi za bezpieczniejsze od własnościowego oraz jak przejrzystość i współpraca chronią zasoby cyfrowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/open-source-software-security.webp" length="61142" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Cyberbezpieczeństwo w kosmosie: ochrona sygnałów GPS</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-in-space-protecting-gps-signals/</link>
+        
+        <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Technologia kosmiczna"
+            
+              , "Bezpieczeństwo GPS"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Technologia wojskowa"
+            
+              , "Bezpieczeństwo satelitarne"
+            
+              , "Nawigacja kosmiczna"
+            
+              , "Spoofing GPS"
+            
+              , "Naziemne stacje GPS"
+            
+              , "Regulacje rządowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-in-space-protecting-gps-signals/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zagrożenia dla kosmicznych sygnałów GPS, ryzyko spoofingu i środki ochrony krytycznych systemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity-in-space-protecting-gps.webp" length="132354" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie systemów Windows i Linux</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link>
+        
+        <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Języki skryptowe"
+            
+              , "Bezpieczeństwo systemów"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "Regulacje rządowe"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Bezpieczne skrypty"
+            
+              , "Zgodność"
+            
+              , "Programowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj sposoby wzmacniania zabezpieczeń systemów za pomocą PowerShell i Python w tej analizie cyberbezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.webp" length="152496" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

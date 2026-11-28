@@ -1,0 +1,150 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agenci Roboczy on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Agenci Roboczy on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/agenci-roboczy/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/agenci-roboczy/</link>
+
+    <description>Recent content in Agenci Roboczy on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/agenci-roboczy/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Delegowanie zadań agentom AI: przydzielanie pracy i przegląd wyników</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-agent-delegation/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-agent-delegation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ustal, kiedy drugi agent AI pomoże, przydziel każdemu pracownikowi ograniczone zadanie, zapobiegaj konfliktom edycji i integruj dowody w głównej sesji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-agent-delegation.webp" length="133510" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>OpenClaw i Hermes Agent: praktyczna ocena</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Inżynieria oprogramowania"
+            
+              , "Produktywność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/effective-ai-specialized-agent-evaluation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Oceń wyspecjalizowanych i działających długotrwale agentów AI za pomocą wykazu dostępu, przeglądu wyzwalaczy, zapisu przepływu danych i decyzji o pilotażu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/effective-ai-specialized-agent-evaluation.webp" length="115550" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

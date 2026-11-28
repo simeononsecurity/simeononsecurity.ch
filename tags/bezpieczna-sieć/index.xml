@@ -1,0 +1,456 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczna Sieć on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczna Sieć on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpieczna-sie%C4%87/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpieczna-sie%C4%87/</link>
+
+    <description>Recent content in Bezpieczna Sieć on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 13 Mar 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpieczna-sie%C4%87/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rozwiązywanie problemów z Wi-Fi: praktyczne sposoby na typowe usterki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</link>
+        
+        <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Rozwiązywanie problemów z Wi-Fi"
+            
+              , "Rozwiązania bezprzewodowe"
+            
+              , "Pomoc techniczna"
+            
+              , "Wskazówki dotyczące łączności"
+            
+              , "Sieci domowe"
+            
+              , "Poradnik internetowy"
+            
+              , "Optymalizacja Wi-Fi"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Praktyczna technologia"
+            
+              , "Wydajność sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/wireless-connectivity_-troubleshooting-common-wi-fi-problems/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Rozwiąż problemy z Wi-Fi dzięki wskazówkom dotyczącym sygnału, przerw w połączeniu i bezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/wireless-connectivity_-troubleshooting-common-wi-fi-problems.webp" length="61888" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Optymalizacja sieci: konfiguracja DNS w praktyce</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</link>
+        
+        <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Administracja siecią"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Infrastruktura IT"
+            
+              , "Rozwiązania techniczne"
+            
+              , "Technologie internetowe"
+            
+              , "Optymalizacja DNS"
+            
+              , "Wydajność sieci"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Łączność internetowa"
+            
+              , "Poradniki techniczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/configuring-your-network_-the-role-of-dns/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj DNS, aby usprawnić sieć. Dowiedz się, jak DNS wpływa na łączność, wydajność i bezpieczeństwo, a potem zoptymalizuj konfigurację.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/configuring-your-network_-the-role-of-dns.webp" length="191010" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PCI-DSS: bezpieczna zgodność przy transakcjach kartowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link>
+        
+        <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo kart płatniczych"
+            
+              , "Ochrona danych"
+            
+              , "Zgodność z wymaganiami"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Technologia"
+            
+              , "Biznes"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Regulacje"
+            
+              , "Handel elektroniczny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj PCI-DSS, jego elementy, zasady zgodności i korzyści dla ochrony danych kart płatniczych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/pci-dss-security-vault.webp" length="88546" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpiecz sieć domową: bezpieczna praca zdalna</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-home-network-teleworking/</link>
+        
+        <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Praca zdalna"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Domowa sieć bezprzewodowa"
+            
+              , "Telepraca"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Praca z domu"
+            
+              , "Bezpieczeństwo w internecie"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Prywatność online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-home-network-teleworking/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Pracuj zdalnie bezpiecznie i chroń swoje dane. Wykonaj te kroki, aby zabezpieczyć domową sieć Wi-Fi i bezpiecznie łączyć się z usługami służbowymi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-home-network-cartoon.webp" length="74410" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpiecz swoją sieć domową</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-a-secure-home-network/</link>
+        
+        <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo sieci domowej"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona urządzeń"
+            
+              , "Bezpieczeństwo w internecie"
+            
+              , "Bezpieczeństwo inteligentnego domu"
+            
+              , "Prywatność w sieci"
+            
+              , "Zagrożenia internetowe"
+            
+              , "Wskazówki dotyczące bezpieczeństwa w internecie"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Obrona cybernetyczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-a-secure-home-network/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak chronić sieć domową i podłączone urządzenia przed cyberzagrożeniami, korzystając z tych ważnych wskazówek i narzędzi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/building-a-secure-home-network.webp" length="167198" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubiquiti Unifi a TP-Link Omada: który system sieciowy wybrać?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</link>
+        
+        <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Systemy sieciowe"
+            
+              , "Zarządzanie siecią"
+            
+              , "Porównanie sprzętu"
+            
+              , "Zarządzanie siecią przez Internet"
+            
+              , "Skalowalne rozwiązania sieciowe"
+            
+              , "Funkcje bezpieczeństwa sieci"
+            
+              , "Niezawodny sprzęt sieciowy"
+            
+              , "Konkurencyjne ceny sprzętu sieciowego"
+            
+              , "Obsługa klienta"
+            
+              , "Dodatkowa oferta produktów"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj systemy sieciowe Ubiquiti Unifi i TP-Link Omada pod kątem zarządzania, sprzętu, wsparcia, funkcji i cen, aby wybrać rozwiązanie odpowiadające Twoim potrzebom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_split-screen_illustration_of_a_complex_network.webp" length="236442" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

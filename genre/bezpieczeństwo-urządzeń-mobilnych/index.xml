@@ -1,0 +1,235 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo Urządzeń Mobilnych on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczeństwo Urządzeń Mobilnych on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/bezpiecze%C5%84stwo-urz%C4%85dze%C5%84-mobilnych/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/bezpiecze%C5%84stwo-urz%C4%85dze%C5%84-mobilnych/</link>
+
+    <description>Recent content in Bezpieczeństwo Urządzeń Mobilnych on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/bezpiecze%C5%84stwo-urz%C4%85dze%C5%84-mobilnych/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Sandboxed Google Play na GrapheneOS: wyjaśnienie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link>
+        
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Prywatność"
+            
+              , "Bezpieczeństwo urządzeń mobilnych"
+            
+              , "Oprogramowanie open source"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, co zmienia Sandboxed Google Play w GrapheneOS, kiedy przydaje się osobny profil oraz jak współdziałają konta, powiadomienia i zgodność aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Niestandardowe oprogramowanie układowe DagShell dla Orbic RCL400: przewodnik na 2026 rok</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link>
+        
+        <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Niestandardowe oprogramowanie układowe"
+            
+              , "Bezpieczeństwo urządzeń mobilnych"
+            
+              , "Narzędzia ochrony prywatności"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Wardriving"
+            
+              , "Testy penetracyjne"
+            
+              , "Hakowanie IoT"
+            
+              , "Badania bezpieczeństwa"
+            
+              , "Hakowanie sprzętu"
+            
+              , "Technologie ochrony prywatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Techniczny przewodnik po oprogramowaniu DagShell dla Orbic RCL400. Opisuje instalację, narzędzia ochrony prywatności, wardriving i ograniczenia badań.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Chroń urządzenia mobilne przed złośliwym oprogramowaniem</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-rise-of-mobile-malware_-staying-safe-on-the-go/</link>
+        
+        <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Złośliwe oprogramowanie mobilne"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Bezpieczeństwo urządzeń mobilnych"
+            
+              , "Rozwój złośliwego oprogramowania"
+            
+              , "Środki ostrożności dla urządzeń mobilnych"
+            
+              , "Zaawansowane złośliwe oprogramowanie"
+            
+              , "Ochrona przed złośliwym oprogramowaniem mobilnym"
+            
+              , "Nowe zagrożenia cybernetyczne"
+            
+              , "Dobre praktyki cyberbezpieczeństwa"
+            
+              , "Środki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-rise-of-mobile-malware_-staying-safe-on-the-go/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Chroń urządzenia mobilne przed trojanami, ransomware, spyware, phishingiem, złośliwymi aplikacjami, niebezpiecznymi sieciami i kradzieżą kont dzięki praktycznym zabezpieczeniom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-rise-of-mobile-malware_-staying-safe-on-the-go.webp" length="59624" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

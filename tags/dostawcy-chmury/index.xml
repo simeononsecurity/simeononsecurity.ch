@@ -1,0 +1,287 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dostawcy Chmury on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Dostawcy Chmury on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/dostawcy-chmury/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/dostawcy-chmury/</link>
+
+    <description>Recent content in Dostawcy Chmury on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/dostawcy-chmury/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zagrożenia cyberbezpieczeństwa: kontekst z 2024 r. i lista obronna na 2026 r.</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2024/</link>
+        
+        <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zagrożenia"
+            
+              , "Ransomware"
+            
+              , "Phishing"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "Zagrożenia wewnętrzne"
+            
+              , "Bezpieczeństwo chmury"
+            
+              , "Kopie zapasowe danych"
+            
+              , "Uwierzytelnianie wieloskładnikowe"
+            
+              , "Poprawki bezpieczeństwa"
+            
+              , "Szkolenia pracowników"
+            
+              , "Kontrola dostępu"
+            
+              , "Weryfikacja przeszłości"
+            
+              , "Zapobieganie utracie danych"
+            
+              , "Dostawcy chmury"
+            
+              , "Szyfrowanie danych"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo punktów końcowych"
+            
+              , "Monitorowanie sieci"
+            
+              , "Skanowanie podatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2024/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kategorie zagrożeń omawiane w 2024 r. i skorzystaj z datowanej listy kontrolnej na 2026 r. dotyczącej ransomware, phishingu, IoT, zagrożeń wewnętrznych i chmury.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.webp" length="115136" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ścieżki kariery w IT: możliwości, umiejętności i rozwój</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/navigating-it-career-paths-explore-opportunities-skills-growth/</link>
+        
+        <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Kariera w IT"
+            
+              , "Ścieżki kariery"
+            
+              , "Rozwój umiejętności"
+            
+              , "Kwalifikacje"
+            
+              , "Możliwości rozwoju"
+            
+              , "Branża technologiczna"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Nauka o danych"
+            
+              , "Chmura obliczeniowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/navigating-it-career-paths-explore-opportunities-skills-growth/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różne ścieżki kariery w IT, zdobądź potrzebne umiejętności i znajdź możliwości rozwoju zawodowego w erze cyfrowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_featuring_a_group_of_diverse_p.webp" length="206102" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczeństwo w chmurach AWS, Azure i Google Cloud: porównanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-cybersecurity-differences-between-aws-azure-and-gcp/</link>
+        
+        <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud"
+            
+              , "bezpieczeństwo w chmurze"
+            
+              , "IAM"
+            
+              , "GuardDuty"
+            
+              , "Centrum bezpieczeństwa"
+            
+              , "Centrum dowodzenia bezpieczeństwem"
+            
+              , "Ochrona przed atakami DDoS"
+            
+              , "Cloud Armor"
+            
+              , "WAF"
+            
+              , "Prywatne łącze"
+            
+              , "DLP"
+            
+              , "chmura obliczeniowa"
+            
+              , "usługi w chmurze"
+            
+              , "dostawcy chmury"
+            
+              , "ochrona danych"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo infrastruktury"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-cybersecurity-differences-between-aws-azure-and-gcp/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj AWS, Azure i Google Cloud Platform pod względem bezpieczeństwa w chmurze i poznaj różnice, aby podjąć świadomą decyzję dla swojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.webp" length="113076" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

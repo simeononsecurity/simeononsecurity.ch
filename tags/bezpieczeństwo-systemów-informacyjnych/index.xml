@@ -1,0 +1,218 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo Systemów Informacyjnych on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczeństwo Systemów Informacyjnych on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-system%C3%B3w-informacyjnych/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-system%C3%B3w-informacyjnych/</link>
+
+    <description>Recent content in Bezpieczeństwo Systemów Informacyjnych on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-system%C3%B3w-informacyjnych/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mistrzostwo w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-risk-management-framework-cybersecurity/</link>
+        
+        <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Przepisy rządowe"
+            
+              , "Obrona cybernetyczna"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona danych"
+            
+              , "Mechanizmy bezpieczeństwa"
+            
+              , "Wytyczne NIST"
+            
+              , "Ciągłe monitorowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-risk-management-framework-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kluczowe ramy zarządzania ryzykiem (RMF) w cyberbezpieczeństwie, ich elementy i znaczenie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity_shield_protection.webp" length="120532" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podręcznik DoD 8140.03: program dla kadry cyberprzestrzeni</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dod-manual-8140.03-cyberspace-workforce-qualification-and-management-program/</link>
+        
+        <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Podręcznik DoD 8140.03"
+            
+              , "kadra cyberprzestrzeni"
+            
+              , "program kwalifikacji"
+            
+              , "personel DoD"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "kwalifikacje w cyberprzestrzeni"
+            
+              , "zarządzanie cyberprzestrzenią"
+            
+              , "rozwój kadry cyberprzestrzeni"
+            
+              , "polityki DoD dotyczące cyberprzestrzeni"
+            
+              , "personel cyberbezpieczeństwa"
+            
+              , "kwalifikacje cyberbezpieczeństwa"
+            
+              , "szkolenie cyberbezpieczeństwa"
+            
+              , "edukacja cyberbezpieczeństwa"
+            
+              , "certyfikaty cyberbezpieczeństwa"
+            
+              , "role cyberbezpieczeństwa"
+            
+              , "stanowiska cyberbezpieczeństwa"
+            
+              , "zarządzanie personelem cyber"
+            
+              , "kwalifikacje stanowisk cyberprzestrzeni"
+            
+              , "administrowanie personelem cyber"
+            
+              , "program kwalifikacji cyber"
+            
+              , "rozwój zawodowy cyber"
+            
+              , "kompetencje kadry cyberprzestrzeni"
+            
+              , "certyfikaty personelu cyber"
+            
+              , "wymagania szkoleń cyber"
+            
+              , "standardy cyberbezpieczeństwa"
+            
+              , "kompetencje personelu cyberprzestrzeni"
+            
+              , "obrona przed zagrożeniami cyber"
+            
+              , "bezpieczeństwo systemów informacyjnych"
+            
+              , "bezpieczeństwo sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dod-manual-8140.03-cyberspace-workforce-qualification-and-management-program/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj program kwalifikacji i zarządzania kadrą cyberprzestrzeni DoD opisany w podręczniku 8140.03.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_computer_screen_displaying_a_cybersecurity_dashboard.webp" length="144288" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

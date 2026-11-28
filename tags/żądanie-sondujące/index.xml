@@ -1,0 +1,96 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Żądanie Sondujące on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Żądanie Sondujące on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/%C5%BC%C4%85danie-sonduj%C4%85ce/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/%C5%BC%C4%85danie-sonduj%C4%85ce/</link>
+
+    <description>Recent content in Żądanie Sondujące on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/%C5%BC%C4%85danie-sonduj%C4%85ce/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zmapowaliśmy 146 526 „kamer Flock”. 50 278 z nich to systemy ClickShare</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link>
+        
+        <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Badania nad bezpieczeństwem"
+            
+              , "Technologia prywatności"
+            
+              , "Projekty open source"
+            
+              , "Dziennikarstwo danych"
+            
+              , "Przeciwdziałanie inwigilacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Audyt Flock Finder wykrywa ClickShare i inne fałszywe alarmy, wyjaśnia dowody i opisuje wprowadzone zmiany.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+          
+        </item>
+      
+  </channel>
+</rss>

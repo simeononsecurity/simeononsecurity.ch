@@ -1,0 +1,515 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dobre Praktyki Cyberbezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Dobre Praktyki Cyberbezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/dobre-praktyki-cyberbezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/dobre-praktyki-cyberbezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Dobre Praktyki Cyberbezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/dobre-praktyki-cyberbezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Chroń urządzenia mobilne przed złośliwym oprogramowaniem</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-rise-of-mobile-malware_-staying-safe-on-the-go/</link>
+        
+        <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Złośliwe oprogramowanie mobilne"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Bezpieczeństwo urządzeń mobilnych"
+            
+              , "Rozwój złośliwego oprogramowania"
+            
+              , "Środki ostrożności dla urządzeń mobilnych"
+            
+              , "Zaawansowane złośliwe oprogramowanie"
+            
+              , "Ochrona przed złośliwym oprogramowaniem mobilnym"
+            
+              , "Nowe zagrożenia cybernetyczne"
+            
+              , "Dobre praktyki cyberbezpieczeństwa"
+            
+              , "Środki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-rise-of-mobile-malware_-staying-safe-on-the-go/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Chroń urządzenia mobilne przed trojanami, ransomware, spyware, phishingiem, złośliwymi aplikacjami, niebezpiecznymi sieciami i kradzieżą kont dzięki praktycznym zabezpieczeniom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-rise-of-mobile-malware_-staying-safe-on-the-go.webp" length="59624" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmacnianie cyberodporności</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</link>
+        
+        <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Testy penetracyjne"
+            
+              , "Etyczny hacking"
+            
+              , "Strategie cyberbezpieczeństwa"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Ocena podatności"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Zgodność z przepisami"
+            
+              , "Kontrole bezpieczeństwa"
+            
+              , "Cyberodporność"
+            
+              , "Przyszłość cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-importance-of-regular-penetration-testing-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak regularne testy penetracyjne ujawniają podatności możliwe do wykorzystania, wspierają naprawy oparte na ryzyku i sprawdzają zabezpieczenia systemów oraz aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/the-importance-of-regular-penetration-testing-for-cybersecurity.webp" length="85258" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Anatomia cyberataku: jak hakerzy przełamują zabezpieczenia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</link>
+        
+        <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zagrożenia cybernetyczne"
+            
+              , "Taktyki hakerskie"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Strategie cyberataków"
+            
+              , "Techniki eksfiltracji danych"
+            
+              , "Ataki phishingowe"
+            
+              , "Infekcje złośliwym oprogramowaniem"
+            
+              , "Eskalacja uprawnień"
+            
+              , "Ruch boczny"
+            
+              , "Środki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj przebieg cyberataku od początkowego dostępu przez eskalację uprawnień, ruch boczny i utrwalenie obecności po eksfiltrację danych. Sprawdź zabezpieczenia dla każdego etapu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses.webp" length="296326" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanuj automatyzację bezpieczeństwa: strategie i narzędzia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/deep-dive-into-security-automation_-strategies-and-implementation/</link>
+        
+        <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja bezpieczeństwa"
+            
+              , "Strategie cyberbezpieczeństwa"
+            
+              , "Struktury automatyzacji"
+            
+              , "Uczenie maszynowe w bezpieczeństwie"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Ciągłe doskonalenie"
+            
+              , "Narzędzia open source i komercyjne"
+            
+              , "Odporność cybernetyczna"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Wskaźniki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/deep-dive-into-security-automation_-strategies-and-implementation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przewodnik po strategiach i narzędziach automatyzacji bezpieczeństwa, wskaźnikach, ograniczeniach wdrożenia oraz procesach wspieranych przez AI.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/deep-dive-into-security-automation_-strategies-and-implementation.webp" length="257448" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Śmiechu warte: zabawne dowcipy o cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-jokes-humor-insights/</link>
+        
+        <pubDate>Fri, 22 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Humor o cyberbezpieczeństwie"
+            
+              , "Komedia o bezpieczeństwie informacji"
+            
+              , "Dowcipy technologiczne"
+            
+              , "Bezpieczeństwo w sieci"
+            
+              , "Obrona cyfrowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-jokes-humor-insights/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj lekkie żarty i przydatne wskazówki ze świata dowcipów o cyberbezpieczeństwie. Żarty o cyberbezpieczeństwie w prostym wydaniu!
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity-jokes-cartoon-hacker.webp" length="72728" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego szkolenie użytkowników jest ważniejsze niż zaawansowana technologia w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/user-training-vs-advanced-tech-cybersecurity/</link>
+        
+        <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Szkolenie użytkowników"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Ochrona danych"
+            
+              , "Zapobieganie phishingowi"
+            
+              , "Inżynieria społeczna"
+            
+              , "Zgodność z przepisami"
+            
+              , "Edukacja pracowników"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/user-training-vs-advanced-tech-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, dlaczego szkolenie użytkowników ma większe znaczenie niż zaawansowana technologia i jak wzmacnia ochronę cyfrową organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/user-training-cybersecurity-defense.webp" length="105250" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego zgodność z przepisami nie gwarantuje bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</link>
+        
+        <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Praktyki bezpieczeństwa"
+            
+              , "Ochrona danych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Normy regulacyjne"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Bezpieczeństwo firmy"
+            
+              , "Prywatność cyfrowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj luki, które pozostawiają listy kontrolne zgodności, a następnie wzmocnij ochronę dzięki ocenie ryzyka, testom, monitorowaniu, szkoleniom i audytom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/compliance-security-shield.webp" length="87866" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

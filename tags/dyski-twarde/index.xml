@@ -1,0 +1,249 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dyski Twarde on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Dyski Twarde on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/dyski-twarde/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/dyski-twarde/</link>
+
+    <description>Recent content in Dyski Twarde on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 04 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/dyski-twarde/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Systemy plików: od FAT32 przez NTFS po inne rozwiązania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</link>
+        
+        <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Informatyka"
+            
+              , "Przechowywanie danych"
+            
+              , "Poradniki techniczne"
+            
+              , "Zarządzanie plikami"
+            
+              , "Systemy operacyjne"
+            
+              , "Organizacja cyfrowa"
+            
+              , "Edukacja techniczna"
+            
+              , "Informacje o oprogramowaniu"
+            
+              , "Optymalizacja systemu"
+            
+              , "Materiały techniczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/computer-file-systems-explained_-fat32-ntfs-exfat-and-more/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj systemy plików dzięki przeglądowi FAT32, NTFS, exFAT i innych rozwiązań. Sprawdź ich funkcje, ograniczenia i zgodność, aby lepiej zarządzać danymi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/computer-file-systems-explained_-fat32,-ntfs,-exfat,-and-more.webp" length="132294" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Metody sanityzacji nośników wymiennych zatwierdzone przez NIST</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/nist-800-88-ways-of-sanitizing-removable-media/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Metody zatwierdzone przez NIST"
+            
+              , "Sanityzacja nośników wymiennych"
+            
+              , "Dyski twarde"
+            
+              , "SSD"
+            
+              , "Pamięci flash USB"
+            
+              , "CD"
+            
+              , "DVD"
+            
+              , "Dyski Blu-ray"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Ochrona poufnych danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/nist-800-88-ways-of-sanitizing-removable-media/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj metody NIST sanityzacji dysków twardych, SSD, pamięci USB i nośników optycznych, które chronią poufne dane przed nieuprawnionym dostępem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp" length="91898" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zatwierdzone przez NIST metody sanityzacji wymiennych nośników danych</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-800-88-ways-of-sanitizing-removable-media/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Metody zatwierdzone przez NIST"
+            
+              , "Odkażanie nośników wymiennych"
+            
+              , "Dyski twarde"
+            
+              , "Dyski SSD"
+            
+              , "Pamięci flash USB"
+            
+              , "Płyty CD"
+            
+              , "DVD"
+            
+              , "Dyski Blu-ray"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Ochrona wrażliwych danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-800-88-ways-of-sanitizing-removable-media/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o zatwierdzonych przez NIST sposobach sanityzacji dysków twardych, dysków SSD, pamięci flash USB, płyt CD, DVD i Blu-ray w celu ochrony poufnych danych przed nieautoryzowanym dostępem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp" length="91898" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,99 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nieocenzurowana Lokalna AI on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Nieocenzurowana Lokalna AI on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/nieocenzurowana-lokalna-ai/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/nieocenzurowana-lokalna-ai/</link>
+
+    <description>Recent content in Nieocenzurowana Lokalna AI on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/nieocenzurowana-lokalna-ai/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak wybrać nieocenzurowany lokalny model AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</link>
+        
+        <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "AI hostowana samodzielnie"
+            
+              , "Bezpieczeństwo AI"
+            
+              , "Sprzęt GPU"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/choosing-uncensored-local-llm-models/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj lokalne warianty pod kątem pełnych odpowiedzi, zachowanych możliwości, użycia kontekstu, kwantyzacji i wymagań VRAM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

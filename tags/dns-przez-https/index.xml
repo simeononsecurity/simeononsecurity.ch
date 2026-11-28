@@ -1,0 +1,286 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DNS Przez HTTPS on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>DNS Przez HTTPS on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/dns-przez-https/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/dns-przez-https/</link>
+
+    <description>Recent content in DNS Przez HTTPS on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/dns-przez-https/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego filtrowanie DNS jest omijane: sprawdź ścieżkę resolvera</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sieci domowe"
+            
+              , "DNS"
+            
+              , "Prywatność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dns-filtering-bypass-troubleshooting/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź, dlaczego urządzenie lub przeglądarka omija filtr DNS. Porównaj zapytania bezpośrednie i domyślne, przejrzyj logi oraz ustawienia szyfrowanego DNS, VPN, IPv6 i routera.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/dns-filtering-bypass-troubleshooting.webp" length="124234" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Testuj wycieki DNS i WebRTC w przeglądarce z VPN</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</link>
+        
+        <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Prywatność"
+            
+              , "Przeglądarki"
+            
+              , "Sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/privacy-browser-leak-test-dns-webrtc/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Sprawdź publiczny adres IP, resolver DNS i adresy WebRTC przeglądarki przed połączeniem VPN i po nim. Zinterpretuj wyniki i zbadaj problemy z trasowaniem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/privacy-browser-leak-test-dns-webrtc.webp" length="69052" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Lista kontrolna bezpieczeństwa osobistego 2026: od czego zacząć i co pominąć</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</link>
+        
+        <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo osobiste"
+            
+              , "Prywatność"
+            
+              , "Higiena cyfrowa"
+            
+              , "Bezpieczeństwo kont"
+            
+              , "Modelowanie zagrożeń"
+            
+              , "Bezpieczeństwo konsumentów"
+            
+              , "Zarządzanie hasłami"
+            
+              , "Ochrona danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ustal priorytety działań dotyczących bezpieczeństwa osobistego według ich wpływu na ataki, od ochrony kont i kopii zapasowych po prywatność i odzyskiwanie dostępu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/personal-security-checklist-2026-tiered-structure.webp" length="98938" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NextDNS: filtrowanie DNS i blokowanie zagrożeń dla bezpieczeństwa online</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</link>
+        
+        <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Filtrowanie DNS"
+            
+              , "Bezpieczeństwo Internetu"
+            
+              , "Usługa w chmurze"
+            
+              , "Ochrona online"
+            
+              , "Filtrowanie stron"
+            
+              , "Ochrona prywatności"
+            
+              , "Alternatywa dla blokowania DNS"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo w Internecie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/nextdns-great-dns-blocking-alternative/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj NextDNS, łatwą w obsłudze usługę blokowania DNS, która zwiększa bezpieczeństwo online dzięki automatycznym aktualizacjom i konfigurowalnym zasadom filtrowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/nextdns_cybersecurity_shield.webp" length="98890" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

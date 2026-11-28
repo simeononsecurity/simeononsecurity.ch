@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryzyko Stron Trzecich on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Ryzyko Stron Trzecich on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ryzyko-stron-trzecich/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ryzyko-stron-trzecich/</link>
+
+    <description>Recent content in Ryzyko Stron Trzecich on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 17 Oct 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ryzyko-stron-trzecich/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Gotowość w zakresie cyberbezpieczeństwa: ochrona danych firmy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-readiness-guide/</link>
+        
+        <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo firm"
+            
+              , "Ochrona danych"
+            
+              , "Ocena ryzyka"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Prywatność danych"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Zarządzanie ryzykiem dostawców"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-readiness-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Oceń gotowość firm w zakresie cyberbezpieczeństwa, zanim udostępnisz poufne informacje lub nawiążesz współpracę. Chroń dane i zachowaj bezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity-shield-protection2.webp" length="102208" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

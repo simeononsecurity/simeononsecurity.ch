@@ -1,0 +1,235 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prawa Cyfrowe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Prawa Cyfrowe on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/prawa-cyfrowe/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/prawa-cyfrowe/</link>
+
+    <description>Recent content in Prawa Cyfrowe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/prawa-cyfrowe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Oferta sprzedażowa Flock Safety: dostęp do każdego ruchu bez nakazu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flock-safety-sales-pitch-warrantless-access-2026/</link>
+        
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologie prywatności"
+            
+              , "Prawa cyfrowe"
+            
+              , "Nadzór"
+            
+              , "Analiza prawna"
+            
+              , "Kontrnadzór"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flock-safety-sales-pitch-warrantless-access-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Analiza przekazu sprzedażowego Flock Safety, dostępu do danych o przemieszczaniu się oraz pytań konstytucyjnych związanych z przeszukaniami bez nakazu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/flock-safety-warrantless-access-surveillance-database.webp" length="440804" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Flock Finder: Mapa kamer ALPR Flock Safety</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link>
+        
+        <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia prywatności"
+            
+              , "Kontrwywiad"
+            
+              , "Projekty open source"
+            
+              , "Prawa cyfrowe"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Narzędzia prywatności"
+            
+              , "Hakowanie sprzętu"
+            
+              , "Badania bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Flock Finder to narzędzie open source, które mapuje ponad 40 000 kamer Flock Safety ALPR na całym świecie, korzystając z danych WiFi WiGLE i odcisku palca OUI. Dowiedz się, jak działa, jakie ma ograniczenia i jakie narzędzia sprzętowe służą do wykrywania w czasie rzeczywistym.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Odkrywanie Dark Webu: ukryte usługi i zagrożenia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/exploring-the-dark-web/</link>
+        
+        <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia i internet"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Działalność przestępcza"
+            
+              , "Kryptowaluty"
+            
+              , "Rynki internetowe"
+            
+              , "Platformy komunikacyjne"
+            
+              , "Ujawnianie nieprawidłowości"
+            
+              , "Prawa cyfrowe"
+            
+              , "Organy ścigania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/exploring-the-dark-web/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj Dark Web, jego ukryte usługi i potencjalne zagrożenia po mniej widocznej stronie internetu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_cartoon-style_image_depicting_a_locked_door_with.webp" length="214932" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
