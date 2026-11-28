@@ -1,45 +1,45 @@
 ---
 title: "স্থানীয় AI গোপনীয়তা: আপনার কম্পিউটারে কী থাকে এবং কী থাকে না"
 date: 2026-10-10
-lastmod: 2026-11-13
+lastmod: 2026-11-19
 toc: true
 draft: false
-description: "স্থানীয় inference বা hosted AI service বেছে নেওয়ার আগে prompt, model file, tool, log, network exposure এবং বিদ্যুৎ খরচ অনুসরণ করুন।"
+description: "স্থানীয়ভাবে চালানো AI বা অনলাইন AI সেবা বেছে নেওয়ার আগে অনুরোধ, মডেল-ফাইল, টুল, লগ, নেটওয়ার্কে উন্মুক্ততা এবং বিদ্যুতের খরচ যাচাই করুন।"
 genre: ["স্থানীয় AI", "গোপনীয়তা", "নিজে হোস্ট করা AI", "সাইবার নিরাপত্তা", "AI অর্থনীতি"]
 tags: ["স্থানীয় AI গোপনীয়তা", "স্থানীয় ইনফারেন্স", "ক্লাউডে AI", "AI ডেটার গোপনীয়তা", "নিজে হোস্ট করা AI", "LLM গোপনীয়তা", "GPU মালিকানার খরচ", "AI বিদ্যুতের খরচ", "RTX 5070", "Claude Haiku 5.5", "Ollama গোপনীয়তা", "llama.cpp", "AI নিরাপত্তা", "অফলাইন AI", "স্থানীয় ভাষার মডেল", "প্রম্পটের গোপনীয়তা", "AI হুমকি-মডেল", "GPU খরচ-সমতার বিন্দু", "AI ডেটার সীমা", "ব্যক্তিগত AI"]
 cover: "/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp"
-coverAlt: "দৃশ্যমান data path দিয়ে cloud service-এ যুক্ত একটি local AI workstation"
-coverCaption: "স্থানীয় ও hosted AI data path-এর চিত্র"
+coverAlt: "দৃশ্যমান তথ্যপথ দিয়ে ক্লাউড সেবায় যুক্ত স্থানীয় AI কম্পিউটার"
+coverCaption: "স্থানীয় ও অনলাইন AI-এর তথ্যপথের চিত্র"
 ---
 
-**স্থানীয় AI আপনার data boundary ছোট করে।** Model, tool, log এবং network path local থাকলে local runtime-এ process করা prompt আপনার device-এই থাকে। Local GPU একটি computer-কে sealed system বানায় না।
+**স্থানীয় AI তথ্যের চলাচলের সীমানা ছোট করে।** মডেল, টুল, লগ ও নেটওয়ার্কপথ স্থানীয় থাকলে স্থানীয় চালনা-ব্যবস্থায় প্রক্রিয়াকৃত অনুরোধ আপনার যন্ত্রেই থাকে। স্থানীয় গ্রাফিক্স কার্ড কম্পিউটারকে সম্পূর্ণ সুরক্ষিত ব্যবস্থা বানায় না।
 
-Model runtime, tool plugin, browser extension, remote access, exposed API এবং model download আপনার risk নির্ধারণ করে। Cost-ও গুরুত্বপূর্ণ। Electricity hosted token price-এর নিচে থাকতে পারে, কিন্তু hardware ownership পূর্ণ break-even অনেক দূরে ঠেলে দেয়।
+মডেল চালানোর সফটওয়্যার, সহায়ক টুল, ব্রাউজারের সংযোজন, দূর থেকে প্রবেশের সুযোগ, উন্মুক্ত অ্যাপ্লিকেশন সংযোগ এবং মডেল নামানোর উৎস আপনার ঝুঁকি নির্ধারণ করে। খরচও গুরুত্বপূর্ণ। বিদ্যুতের খরচ অনলাইন সেবায় টোকেন ব্যবহারের দামের চেয়ে কম হতে পারে, কিন্তু যন্ত্র কেনার ব্যয় পুষিয়ে নিতে অনেক সময় লাগে।
 
-এই guide আগে privacy boundary map করে। এরপর current vendor price, একটি স্পষ্ট power assumption এবং supplied video-র reported figure দিয়ে cost পরীক্ষা করে।
+এই নির্দেশিকায় প্রথমে গোপনীয়তার সীমানা চিহ্নিত করা হয়েছে। এরপর বর্তমান সেবামূল্য, বিদ্যুৎ-ব্যয়ের একটি ঘোষিত অনুমান এবং সরবরাহ করা ভিডিওতে জানানো পরিমাপ দিয়ে খরচ যাচাই করা হয়েছে।
 
 <!--more-->
 
-নিচের formula বোঝার জন্য এই local-versus-hosted cost comparison ব্যবহার করুন। একই model file এবং runtime আপনার hardware-এ test না করে throughput figure কপি করবেন না।
+নিচের সূত্রগুলো বুঝতে স্থানীয় ও অনলাইন ব্যবস্থার খরচের এই তুলনা কাজে লাগবে। একই মডেল-ফাইল ও চালনা-ব্যবস্থা নিজের যন্ত্রে পরীক্ষা না করে গতি-সংক্রান্ত পরিমাপ নকল করবেন না।
 
-{{< youtube id="DmkuFpoMYmc" enable="true" title="Is local AI worth it? We did the math vs Claude Haiku 5.5" description="A local-versus-hosted AI cost comparison." >}}
+{{< youtube id="DmkuFpoMYmc" enable="true" title="স্থানীয় AI কি সার্থক? Claude Haiku 5.5-এর সঙ্গে খরচের তুলনা করেছি" description="স্থানীয় ও হোস্টেড AI-এর খরচের তুলনা।" >}}
 
-ভিডিওটি 2 মিনিট 31 সেকেন্ড runtime report করে। Watch page দিয়ে title ও runtime যাচাই করেছি। Hardware test পুনরাবৃত্তি করিনি, তাই reported speed source-reported measurement হিসেবেই থাকছে।
+ভিডিওটির সময়কাল 2 মিনিট 31 সেকেন্ড। ভিডিওর পাতায় শিরোনাম ও সময়কাল যাচাই করেছি। হার্ডওয়্যার পরীক্ষা আবার করিনি, তাই গতির অঙ্কগুলো ভিডিওতে জানানো পরিমাপ হিসেবেই ধরুন।
 
 ## সংক্ষিপ্ত উত্তর
 
-- **নিয়ন্ত্রিত data path-এর জন্য local inference বেছে নিন।** Model server device-এ রাখুন, loopback-এ bind করুন এবং tool access সীমিত করুন।
-- **মাঝে মাঝে কাজের জন্য hosted inference বেছে নিন।** Workload ছোট হলে বা পছন্দের model system-এ না চললে hardware খরচ এড়ান।
-- **Local cost-কে দুইটি সংখ্যা হিসেবে দেখুন।** Active hour-এর electricity এবং hardware ownership আলাদা করুন।
-- **Privacy-কে system property হিসেবে দেখুন।** Plugin file upload করলে বা local API সব network interface-এ শুনলে private model-এর সুবিধা হারায়।
+- **নিয়ন্ত্রিত তথ্যপথ চাইলে স্থানীয়ভাবে মডেল চালান।** মডেল-সার্ভার নিজের যন্ত্রে রাখুন, কেবল সেই যন্ত্রে সংযোগ সীমিত করুন এবং টুলের প্রবেশাধিকার নিয়ন্ত্রণ করুন।
+- **মাঝে মাঝে কাজের জন্য অনলাইন সেবা বেছে নিন।** কাজের পরিমাণ কম হলে বা পছন্দের মডেলটি আপনার যন্ত্রে না চললে হার্ডওয়্যারের খরচ এড়ান।
+- **স্থানীয় ব্যবস্থার খরচ দুটি অঙ্কে দেখুন।** ব্যবহারের প্রতি ঘণ্টার বিদ্যুৎ-খরচ এবং যন্ত্র কেনা ও রাখার খরচ আলাদা হিসাব করুন।
+- **গোপনীয়তাকে পুরো ব্যবস্থার বৈশিষ্ট্য হিসেবে দেখুন।** কোনো সংযোজিত টুল ফাইল পাঠালে বা স্থানীয় সংযোগ সব নেটওয়ার্ক ঠিকানায় উন্মুক্ত থাকলে ব্যক্তিগত মডেল ব্যবহারের সুবিধা নষ্ট হয়।
 
-Sensitive text workstation বা isolated network-এর ভিতরে রাখার দরকার হলে local inference সহায়ক। Offline operation, fixed model version বা provider quota ছাড়া predictable access দরকার হলেও এটি সহায়ক।
+সংবেদনশীল লেখা নিজের কম্পিউটার বা বিচ্ছিন্ন নেটওয়ার্কের ভেতরে রাখতে হলে স্থানীয় চালনা সহায়ক। ইন্টারনেট ছাড়া কাজ, মডেলের নির্দিষ্ট সংস্করণ, অথবা সেবাদাতার ব্যবহারসীমা ছাড়া নির্ভরযোগ্য প্রবেশ দরকার হলেও এটি কাজে আসে।
 
-এই সুবিধাগুলি better answer প্রমাণ করে না। Hosted model কোনো task-এ বেশি উপযুক্ত, দ্রুততর বা কম maintenance-এর হতে পারে। Hardware কেনার আগে workload মাপুন।
+এই সুবিধাগুলো ভালো উত্তর নিশ্চিত করে না। কোনো কাজে অনলাইন মডেল বেশি উপযুক্ত, দ্রুততর বা কম রক্ষণাবেক্ষণসাপেক্ষ হতে পারে। হার্ডওয়্যার কেনার আগে নিজের কাজের চাপ মাপুন।
 
 ## ডেটার প্রবাহ অনুসরণ করুন
 
-Request-এর প্রতিটি component map করুন। শুধু model name data কোথায় যায় তা দেখায় না।
+অনুরোধের প্রতিটি অংশ কোন পথে যায় তা চিহ্নিত করুন। শুধু মডেলের নাম দেখে তথ্য কোথায় যায় বোঝা যায় না।
 
 | উপাদান | গোপনীয়তার প্রশ্ন | যে প্রমাণ সংগ্রহ করবেন |
 |---|---|---|
@@ -50,25 +50,25 @@ Request-এর প্রতিটি component map করুন। শুধু 
 | **মডেল ডাউনলোড** | কোন কোড ও ওজন হোস্টে যোগ হয়? | উৎস রিপোজিটরি, লাইসেন্স, রিলিজের চেকসাম এবং ডাউনলোডের পথ |
 | **স্থানীয় লগ** | প্রম্পট ও টুলের ফলাফল কোথায় সংরক্ষিত থাকে? | রানটাইম লগ, শেল ইতিহাস, ক্র্যাশ রিপোর্ট এবং ব্যাকআপের পরিধি |
 
-**Local model prompt path থেকে একটি provider সরায়।** বাকি path review করার প্রয়োজন সরায় না।
+**স্থানীয় মডেল চালালে অনুরোধের পথে একটি সেবাদাতা বাদ যায়।** তবুও বাকি পথগুলো পরীক্ষা করতে হবে।
 
 ## স্থানীয় হলেই প্রাথমিক সেটিংয়ে গোপনীয়তা থাকে না
 
-[Ollama-এর গোপনীয়তা নীতি](https://ollama.com/privacy) বলে, model locally চললে Ollama prompt বা data দেখে না। Policy local operation এবং cloud-hosted model আলাদা করে। একই application দুই mode চালালেও cloud model একটি service boundary তৈরি করে।
+[Ollama-র গোপনীয়তা নীতি](https://ollama.com/privacy) বলে, মডেল নিজের যন্ত্রে চললে Ollama অনুরোধ বা তথ্য দেখে না। নীতিতে স্থানীয় চালনা ও ক্লাউডে চালানো মডেলের পার্থক্যও ব্যাখ্যা করা হয়েছে। একই অ্যাপে দুই ব্যবস্থা থাকলে ক্লাউড মডেল আলাদা সেবা-সীমানা তৈরি করে।
 
-[llama.cpp সার্ভারের ডকুমেন্টেশন](https://github.com/ggml-org/llama.cpp/tree/master/tools/server) অনুযায়ী local server default-এ `127.0.0.1:8080` শোনে। Docker example-এ `--host 0.0.0.0`-ও আছে, যা সব interface-এ service প্রকাশ করে। Wider bind address access boundary বদলায়।
+[llama.cpp সার্ভারের নথি](https://github.com/ggml-org/llama.cpp/tree/master/tools/server) অনুযায়ী স্থানীয় সার্ভার সাধারণত `127.0.0.1:8080` ঠিকানায় সংযোগ শোনে। Docker-এর উদাহরণে `--host 0.0.0.0`-ও আছে, যা সব নেটওয়ার্ক সংযোগস্থলে সেবাটি উন্মুক্ত করে। বিস্তৃত ঠিকানায় সংযোগ শুনলে প্রবেশের সীমানা বদলে যায়।
 
-Sensitive text পাঠানোর আগে listening address দেখুন:
+সংবেদনশীল লেখা পাঠানোর আগে কোন নেটওয়ার্ক ঠিকানায় সংযোগ শোনা হচ্ছে তা দেখুন:
 
 ```bash
 lsof -nP -iTCP -sTCP:LISTEN | rg 'ollama|llama|8080|11434'
 ```
 
-সাধারণ ক্ষেত্রে `127.0.0.1` বা `localhost` access একই host-এ সীমিত করে। LAN address বা `0.0.0.0`-এর জন্য firewall rule এবং authentication plan দরকার। দুটো test না করে model endpoint network-এ প্রকাশ করবেন না।
+সাধারণত `127.0.0.1` বা `localhost` একই যন্ত্রে প্রবেশ সীমিত রাখে। স্থানীয় নেটওয়ার্কের ঠিকানা বা `0.0.0.0` ব্যবহার করলে অগ্নিপ্রাচীরের নিয়ম ও পরিচয় যাচাই দরকার। দুই অবস্থাই পরীক্ষা না করে মডেলের সংযোগস্থল নেটওয়ার্কে উন্মুক্ত করবেন না।
 
-Selected model name-ও দেখুন। Ollama cloud documentation cloud model-কে আলাদা service path বলে। Local interface local execution প্রমাণ করে না।
+নির্বাচিত মডেলের নামও পরীক্ষা করুন। Ollama-র ক্লাউড-সংক্রান্ত নথি বলে, ক্লাউড মডেল আলাদা সেবা-পথ ব্যবহার করে। স্থানীয় পর্দা দেখালেই মডেলটি আপনার যন্ত্রে চলছে, এমন প্রমাণ হয় না।
 
-Ollama [FAQ](https://docs.ollama.com/faq) local-only mode document করে। Service restart-এর আগে `disable_ollama_cloud` variable-টি `~/.ollama/server.json` file-এ set করুন, অথবা `OLLAMA_NO_CLOUD=1` set করুন। এটি selected runtime থেকে Ollama cloud model এবং web search সরায়। Host-এর অন্য application, browser tool, plugin বা network access সীমিত করে না।
+Ollama-র [প্রশ্নোত্তর](https://docs.ollama.com/faq) শুধু স্থানীয় চালনার ব্যবস্থা বর্ণনা করে। সেবা পুনরায় চালানোর আগে `disable_ollama_cloud` চলকটি `~/.ollama/server.json` ফাইলে সেট করুন, অথবা `OLLAMA_NO_CLOUD=1` সেট করুন। এই সেটিং Ollama-র নির্বাচিত স্থানীয় চালনা থেকে ক্লাউড মডেল ও ওয়েব অনুসন্ধান বাদ দেয়। একই যন্ত্রের অন্য অ্যাপ, ব্রাউজার টুল, সংযোজন বা নেটওয়ার্ক প্রবেশ এতে সীমিত হয় না।
 
 ```json
 {
@@ -76,34 +76,34 @@ Ollama [FAQ](https://docs.ollama.com/faq) local-only mode document করে। 
 }
 ```
 
-Restart-এর পর setting verify করুন। Local-only runtime একটি path সংকুচিত করে। এটি private host তৈরি করে না।
+আবার চালানোর পরে সেটিং যাচাই করুন। শুধু স্থানীয় চালনা তথ্যের একটি পথ ছোট করে। এতে আপনার যন্ত্র পুরোপুরি সুরক্ষিত হয় না।
 
 
 ## Ollama-র স্পিচ ও নেটওয়ার্ক সীমা
 
-*[Ollama v0.40.11 রিলিজ](https://github.com/ollama/ollama/releases/tag/v0.40.11) macOS-এ speech generation ঘোষণা করে। এর [API রেফারেন্স](https://docs.ollama.com/api/openai-compatibility) `/v1/audio/speech` এন্ডপয়েন্টের সময় v0.40.8-এ নির্ধারণ করে, তাই v0.40.11 এন্ডপয়েন্টের নথিভুক্ত প্রথম সংস্করণ নয়।* এটি **text-to-speech**, speech-to-text নয়: অনুরোধে speech model-এ, যেমন Phonon-এ, text পাঠানো হয় এবং streamed audio ফেরত আসে। [স্পিচ গাইড](https://docs.ollama.com/capabilities/speech)-এ `ollama run phonon` দিয়ে স্থানীয়ভাবে audio চালানো বা output redirect করলে WAV file লেখার উদাহরণও আছে।
+*[Ollama-র v0.40.11 প্রকাশনা](https://github.com/ollama/ollama/releases/tag/v0.40.11) macOS-এ কথা থেকে শব্দ তৈরির সুবিধার ঘোষণা দেয়। এর [অ্যাপ্লিকেশন সংযোগস্থলের নথি](https://docs.ollama.com/api/openai-compatibility) `/v1/audio/speech` সংযোগটি v0.40.8 থেকেই চিহ্নিত করে, তাই v0.40.11 এই সংযোগের প্রথম নথিভুক্ত সংস্করণ নয়।* এটি **লেখা থেকে কথা**, কথা থেকে লেখা নয়। অনুরোধে Phonon-এর মতো কথাসৃষ্টির মডেলে লেখা পাঠানো হয়, আর সেখান থেকে শব্দ ফেরত আসে। [কথাসৃষ্টির নির্দেশিকা](https://docs.ollama.com/capabilities/speech)-তে `ollama run phonon` দিয়ে স্থানীয়ভাবে শব্দ চালানো বা নির্গত শব্দ WAV ফাইলে লেখার উদাহরণ আছে।
 
-**স্থানীয় স্পিচ পথের** জন্য ডাউনলোড করা স্থানীয় model ও স্থানীয় server লাগে। Ollama-র [FAQ](https://docs.ollama.com/faq) বলেছে, server ডিফল্টভাবে `127.0.0.1:11434`-এ bind করে এবং **`OLLAMA_HOST`** bind address বদলায়। ডিফল্ট এখনও কার্যকর ধরে না নিয়ে, আগের `lsof` command দিয়ে সক্রিয় listener পরীক্ষা করুন। Ollama-র [API পরিচিতি](https://docs.ollama.com/api/introduction) বলেছে, স্থানীয় request-এ API key লাগে না। ব্যক্তিগত text পাঠানোর আগে wider bind-কে firewall ও access control দিয়ে সীমাবদ্ধ করুন।
+**স্থানীয়ভাবে কথা তৈরি করতে** মডেলটি নামিয়ে স্থানীয় সার্ভারে চালাতে হয়। Ollama-র [প্রশ্নোত্তর](https://docs.ollama.com/faq) অনুযায়ী সার্ভার সাধারণত `127.0.0.1:11434` ঠিকানায় সংযোগ শোনে, আর **`OLLAMA_HOST`** সেই ঠিকানা বদলায়। আগের `lsof` নির্দেশ দিয়ে বর্তমানে চালু সংযোগ পরীক্ষা করুন, সাধারণ ঠিকানাই এখনও ব্যবহৃত হচ্ছে ধরে নেবেন না। Ollama-র [অ্যাপ্লিকেশন সংযোগস্থলের পরিচিতি](https://docs.ollama.com/api/introduction) বলে, স্থানীয় অনুরোধে সংযোগ-চাবি লাগে না। ব্যক্তিগত লেখা পাঠানোর আগে বিস্তৃত সংযোগ-ঠিকানা ফায়ারওয়াল ও প্রবেশ-নিয়ন্ত্রণ দিয়ে সীমিত করুন।
 
-**Loopback bind-ই পুরো সীমা নয়।** Ollama তার HTTP server reverse proxy বা tunnel দিয়ে forward করার নির্দেশনা দেয়। Ollama নিজে loopback-এ listen করলেও প্রতিটি proxy-র listener, authentication ও request logging পরীক্ষা করুন। আপনার পাঠানো text এবং ফেরত audio proxy connection পেরিয়ে যায়। Ollama-র [সমস্যা সমাধানের গাইড](https://docs.ollama.com/troubleshooting) server log চিহ্নিত করে, কিন্তু speech documentation audio retention-এর প্রতিশ্রুতি দেয় না। client কোথায় WAV output save করে এবং proxy বা app log কোথায় থাকে তা দেখুন। Ollama-র FAQ বলে, local run-এ Ollama prompt বা data দেখে না। model download-এ network লাগে, আর cloud model আলাদা পথ ব্যবহার করে। শুধু Ollama-র স্থানীয় model setup হলে, আগের বর্ণিত `OLLAMA_NO_CLOUD=1` setting Ollama-র cloud feature বন্ধ করে। এটি অন্য application নিয়ন্ত্রণ করে না।
+**নিজের যন্ত্রে সংযোগ শুনলেও পুরো সীমানা তৈরি হয় না।** Ollama তার HTTP সার্ভারকে মধ্যবর্তী সার্ভার বা সুড়ঙ্গ-সংযোগ দিয়ে বাইরে পাঠানোর পদ্ধতি বর্ণনা করে। Ollama নিজে কেবল নিজের যন্ত্রে সংযোগ নিলেও প্রতিটি মধ্যবর্তী সার্ভারের সংযোগ-ঠিকানা, পরিচয় যাচাই এবং অনুরোধের নথি পরীক্ষা করুন। আপনার পাঠানো লেখা ও ফেরত আসা শব্দ মধ্যবর্তী সংযোগ দিয়ে যায়। Ollama-র [সমস্যা সমাধানের নির্দেশিকা](https://docs.ollama.com/troubleshooting) সার্ভারের নথি দেখায়, কিন্তু শব্দ কতক্ষণ রাখা হয় সে বিষয়ে নিশ্চয়তা দেয় না। ব্যবহারকারীর যন্ত্রে WAV শব্দ-ফাইল কোথায় জমা হয় এবং মধ্যবর্তী সার্ভার বা অ্যাপের নথি কোথায় থাকে দেখুন। Ollama-র প্রশ্নোত্তর বলে, স্থানীয়ভাবে চালালে Ollama আপনার অনুরোধ বা তথ্য দেখে না। মডেল নামাতে নেটওয়ার্ক লাগে, আর ক্লাউড মডেল আলাদা পথ ব্যবহার করে। শুধু Ollama-র স্থানীয় ব্যবস্থার ক্ষেত্রে আগের `OLLAMA_NO_CLOUD=1` সেটিং ক্লাউড সুবিধা বন্ধ করে। অন্য অ্যাপের ওপর এর নিয়ন্ত্রণ নেই।
 
 ## হোস্টেড সেবার খরচ গণনা করুন
 
-Token price input এবং output আলাদা করে। [Anthropic Claude Haiku 5.5-এর জন্য 100,000 token পর্যন্ত prompt-এ প্রতি million input token $0.10 এবং প্রতি million output token $0.50 তালিকাভুক্ত করে](https://www.anthropic.com/claude/haiku)। 100,000-এর বেশি prompt-এ উচ্চতর rate প্রযোজ্য।
+টোকেনের মূল্য ইনপুট ও আউটপুটের জন্য আলাদা। [Anthropic জানায়, Claude Haiku 5.5-এ 100,000 টোকেন পর্যন্ত অনুরোধের প্রতি দশ লক্ষ ইনপুট টোকেনের দাম $0.10 এবং প্রতি দশ লক্ষ আউটপুট টোকেনের দাম $0.50](https://www.anthropic.com/claude/haiku)। 100,000-এর বেশি টোকেনের অনুরোধে বেশি হার প্রযোজ্য।
 
 [OpenAI-এর টোকেন নির্দেশিকা](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens) ব্যাখ্যা করে কেন শব্দের সংখ্যা টোকেনের সংখ্যার সমান নয়। এটি ইনপুট, আউটপুট, ক্যাশ করা ইনপুট এবং যুক্তি-সংক্রান্ত টোকেনও আলাদা করে। শব্দ গোনার ভিত্তিতে অনুমান না করে সরবরাহকারীর ব্যবহার-তথ্য ব্যবহার করুন।
 
-সহজ comparison-এ এক million generated token এবং এক million input token আলাদা workload হিসেবে নিন। Coding agent repeated context পাঠায় এবং ছোট answer দেয়, তাই এক combined token figure cost mix লুকায়।
+সহজ তুলনার জন্য এক মিলিয়ন তৈরি করা টোকেন ও এক মিলিয়ন প্রবেশ করানো টোকেনকে আলাদা কাজ হিসেবে ধরুন। কোডিং সহায়ক একই প্রসঙ্গ বারবার পাঠিয়ে ছোট উত্তর দিতে পারে, তাই একত্রিত টোকেন-সংখ্যা খরচের প্রকৃত অনুপাত আড়াল করে।
 
 ## স্থানীয় বিদ্যুতের খরচ হিসাব করুন
 
-[NVIDIA RTX 5070 উন্মোচন ঘোষণায়](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/) প্রারম্ভিক দাম $549 বলা হয়েছে। [NVIDIA RTX 5070 পরিবারের পৃষ্ঠা](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/) Founders Edition-এর রেফারেন্স নকশায় 12 GB মেমোরি এবং 250 W মোট গ্রাফিক্স ক্ষমতা উল্লেখ করে। NVIDIA-এর পণ্য পৃষ্ঠায় এখনও $549 দাম দেখানো হয়েছে, এবং এই পর্যালোচনার সময় কার্ডটি স্টকে ছিল না।
+[NVIDIA-র RTX 5070 প্রকাশনা](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/) প্রাথমিক দাম $549 জানায়। [RTX 5070 পরিবারের পাতা](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/) Founders Edition নকশায় 12 GB মেমোরি ও 250 W মোট গ্রাফিক্স ক্ষমতার কথা বলে। NVIDIA-র পণ্যের পাতায় এখনও $549 দাম দেখানো হয়েছিল, তবে এই পর্যালোচনার সময় কার্ডটি মজুত ছিল না।
 
-GPU power figure whole-system power নয়। PC-র জন্য wall meter ব্যবহার করুন। নিচের example-এ **400 W whole-system draw** ধরা হয়েছে, যেখানে GPU, processor, memory, storage, fan এবং power-supply loss আছে। এটি arithmetic assumption, measured result নয়।
+গ্রাফিক্স কার্ডের বিদ্যুৎ-ক্ষমতা পুরো কম্পিউটারের বিদ্যুৎ-ব্যবহার নয়। কম্পিউটারের জন্য দেয়ালের সকেটে লাগানো বিদ্যুৎ-মাপক ব্যবহার করুন। নিচের উদাহরণে পুরো ব্যবস্থা **400 W** ব্যবহার করছে বলে ধরা হয়েছে। এতে গ্রাফিক্স কার্ড, প্রসেসর, মেমোরি, সংরক্ষণ-যন্ত্র, পাখা ও বিদ্যুৎ সরবরাহের ক্ষতি ধরা আছে। এটি হিসাবের অনুমান, মাপা ফল নয়।
 
 [যুক্তরাষ্ট্রের জ্বালানি তথ্য প্রশাসনের পূর্বাভাস](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os) 2026 সালের গড় আবাসিক বিদ্যুতের দাম প্রতি কিলোওয়াট-ঘণ্টায় 18.2 সেন্ট ধরে। আপনার বিদ্যুতের হার ফলাফল বদলে দেয়।
 
-Generated output-এর জন্য formula:
+তৈরি হওয়া লেখার জন্য এই সূত্র ব্যবহার করুন:
 
 ```text
 প্রতি 1M আউটপুট টোকেনের স্থানীয় খরচ =
@@ -112,7 +112,7 @@ Generated output-এর জন্য formula:
 × electricity_price_per_kWh
 ```
 
-400 W এবং প্রতি kilowatt-hour $0.182 হলে system-এর active hour প্রতি খরচ $0.0728।
+400 W ব্যবহার এবং প্রতি কিলোওয়াট-ঘণ্টায় $0.182 দরে কম্পিউটার চালানোর প্রতি ঘণ্টায় $0.0728 খরচ হয়।
 
 | আউটপুট টোকেনের গতি | ১০ লক্ষ টোকেনের সময় | ১০ লক্ষ টোকেনের বিদ্যুতের খরচ |
 |---:|---:|---:|
@@ -120,50 +120,50 @@ Generated output-এর জন্য formula:
 | **50 টোকেন প্রতি সেকেন্ড** | 5 ঘণ্টা 33 মিনিট | **$0.40** |
 | **94 টোকেন প্রতি সেকেন্ড** | 2 ঘণ্টা 57 মিনিট | **$0.22** |
 
-50 output token per second-এ local power Haiku 5.5-এর $0.50 output price-এর কম। 20 output token per second-এ local power বেশি। এই assumption-এ output-speed threshold প্রায় 40 token per second।
+প্রতি সেকেন্ডে 50টি আউটপুট টোকেন তৈরি হলে স্থানীয় বিদ্যুতের খরচ Haiku 5.5-এর $0.50 আউটপুট-মূল্যের চেয়ে কম। প্রতি সেকেন্ডে 20টি টোকেন হলে স্থানীয় বিদ্যুতের খরচ বেশি। এই অনুমানে খরচ সমান হওয়ার গতি প্রতি সেকেন্ডে প্রায় 40টি টোকেন।
 
-Input calculation একই formula ব্যবহার করে। 2,650 input token per second-এ 1M input token প্রায় 6 মিনিট 17 সেকেন্ড এবং power cost প্রায় $0.008। 1,000 input token per second-এ একই কাজের খরচ প্রায় $0.020।
+ইনপুটের হিসাবেও একই সূত্র চলে। প্রতি সেকেন্ডে 2,650টি ইনপুট টোকেন হলে এক মিলিয়ন টোকেনে প্রায় 6 মিনিট 17 সেকেন্ড লাগে এবং বিদ্যুতের খরচ প্রায় $0.008। প্রতি সেকেন্ডে 1,000টি ইনপুট টোকেনে একই কাজের খরচ প্রায় $0.020।
 
-Supplied transcript RTX 5070 example-এর জন্য 94 output token per second এবং 2,650 input token per second report করে। 400 W assumption-এ উপরের arithmetic ওই figure-এর সঙ্গে মেলে। Transcript-এ independent lab record, model file hash, runtime build, prompt বা wall-meter reading নেই। Speed-কে reference result ধরুন, purchase guarantee নয়।
+দেওয়া প্রতিলিপিতে RTX 5070-এর উদাহরণে প্রতি সেকেন্ডে 94টি আউটপুট টোকেন ও 2,650টি ইনপুট টোকেন তৈরির কথা বলা হয়েছে। 400 W অনুমানে ওপরের হিসাব এই অঙ্কগুলোর সঙ্গে মেলে। প্রতিলিপিতে স্বাধীন পরীক্ষাগারের নথি, মডেল-ফাইলের যাচাই-চিহ্ন, চালনা-সফটওয়্যারের সংস্করণ, অনুরোধ বা বিদ্যুৎ-মাপকের পাঠ নেই। এই গতিকে উৎসে জানানো পরিমাপ ধরুন, কেনার নিশ্চয়তা নয়।
 
 ## হার্ডওয়্যার বদলালে খরচ-সমতার বিন্দু
 
-শুধু power saving hardware শোধ করে না। Full purchase-এর সঙ্গে hosted output cost এবং local variable cost-এর difference তুলনা করুন।
+শুধু বিদ্যুৎ সাশ্রয় করে হার্ডওয়্যারের দাম উঠে আসে না। পুরো কেনার খরচের সঙ্গে অনলাইন আউটপুট-ব্যয় ও স্থানীয় পরিবর্তনশীল খরচের পার্থক্য তুলনা করুন।
 
-50 output token per second-এ:
+প্রতি সেকেন্ডে 50টি আউটপুট টোকেন তৈরি হলে:
 
 ```text
 $0.50 হোস্ট করা আউটপুটের দাম - $0.40 স্থানীয় বিদ্যুৎ খরচ = প্রতি 1M আউটপুট টোকেনে $0.10 সাশ্রয়
 $549 GPU-এর দাম / $0.10 = প্রায় 5.5 বিলিয়ন আউটপুট টোকেন
 ```
 
-94 output token per second-এ rounded saving প্রতি million token প্রায় $0.28। $549 GPU recover করতে প্রায় 2 billion output token দরকার। দুটো figure-ই system memory, storage, motherboard, power supply, cooling, maintenance এবং resale value বাদ দেয়।
+প্রতি সেকেন্ডে 94টি আউটপুট টোকেন হলে গোল করা সাশ্রয় প্রতি দশ লক্ষ টোকেনে প্রায় $0.28। $549-এর গ্রাফিক্স কার্ডের দাম পুষিয়ে নিতে প্রায় 2 বিলিয়ন আউটপুট টোকেন লাগবে। দুই হিসাবেই কম্পিউটারের মেমোরি, সংরক্ষণ-যন্ত্র, মূল বোর্ড, বিদ্যুৎ সরবরাহ, ঠান্ডা রাখার ব্যবস্থা, রক্ষণাবেক্ষণ ও পুনর্বিক্রয় মূল্য বাদ।
 
-Launch price universal purchase quote নয়। NVIDIA current page official price দেখিয়েছে, stock নয়। Break-even model-এ $819 seller listing বসানোর আগে আলাদা verification দরকার। নিজের invoice এবং measured wall power ব্যবহার করুন।
+প্রকাশের সময়কার দাম সবার জন্য প্রযোজ্য ক্রয়মূল্য নয়। NVIDIA-র বর্তমান পৃষ্ঠায় ঘোষিত দাম ছিল, কিন্তু পণ্য মজুত ছিল না। খরচ-সমতার হিসাবের জন্য বিক্রেতার $819 তালিকামূল্য নেওয়ার আগে সেটি আলাদাভাবে যাচাই করুন। নিজের রসিদ ও দেয়াল-সংযোগে মাপা বিদ্যুৎ ব্যবহার করুন।
 
-**Existing hardware decision বদলায়।** Workstation-এ যথেষ্ট memory এবং suitable GPU থাকলে পরের task-এর জন্য hardware cost sunk। Power, time, quality, privacy এবং maintenance তুলনা করুন। Complete system কিনতে হলে full system-এর সঙ্গে hosted use তুলনা করুন।
+**আগে থেকে থাকা যন্ত্র সিদ্ধান্ত বদলে দেয়।** আপনার কম্পিউটারে যথেষ্ট মেমোরি ও উপযুক্ত গ্রাফিক্স কার্ড থাকলে পরের কাজের জন্য কেনার খরচ ইতিমধ্যেই হয়েছে। বিদ্যুৎ, সময়, গুণমান, গোপনীয়তা ও রক্ষণাবেক্ষণ তুলনা করুন। পুরো কম্পিউটার কিনতে হলে সম্পূর্ণ ব্যবস্থার খরচ অনলাইন সেবা ব্যবহারের খরচের সঙ্গে তুলনা করুন।
 
 মডেল উপযোগিতার বিস্তারিত জানতে [স্থানীয় AI মডেল ও GPU প্রসঙ্গ নির্দেশিকা](/articles/local-ai-model-gpu-context-guide/) এবং [16GB VRAM পরিমাপ নির্দেশিকা](/articles/is-16gb-vram-enough-local-llm/) পড়ুন। স্থানীয় কোডিং-এজেন্টের বর্ণিত সেটআপ জানতে [Strata ও OpenCode নির্দেশিকা](/articles/strata-opencode-local-coding-agent-16gb/) পড়ুন।
 
 ## স্থানীয় গোপনীয়তা কী দেয়
 
-- **ছোট data path:** inference local থাকলে prompt model provider-এ পৌঁছাতে হয় না।
-- **Offline operation:** downloaded model এবং local runtime text generation-এর জন্য live provider connection চায় না।
-- **Version control:** automatic provider change-এর বদলে model file এবং runtime version আপনি বেছে নেন।
-- **Usage control:** hardware ownership এবং power হিসাবের পর local inference প্রতি request cloud meter এড়ায়।
-- **Network policy control:** firewall এবং host control model endpoint-এ কার access থাকবে নির্ধারণ করে।
+- **তথ্যপথ ছোট হয়:** মডেল নিজের যন্ত্রে চললে অনুরোধ মডেল-সেবাদাতার কাছে পাঠাতে হয় না।
+- **ইন্টারনেট ছাড়া কাজ:** নামানো মডেল ও স্থানীয় চালনা-ব্যবস্থা লেখার জন্য সরাসরি সেবাদাতার সঙ্গে সংযোগ চায় না।
+- **সংস্করণ নিয়ন্ত্রণ:** সেবাদাতা স্বয়ংক্রিয়ভাবে বদলে দেওয়ার বদলে আপনি মডেল-ফাইল ও চালনা-সংস্করণ বেছে নেন।
+- **ব্যবহারের খরচ নিয়ন্ত্রণ:** যন্ত্র কেনা ও বিদ্যুৎ হিসাব করার পর স্থানীয় চালনা প্রতিটি অনুরোধের অনলাইন মাশুল এড়ায়।
+- **নেটওয়ার্ক প্রবেশ-নিয়ন্ত্রণ:** ফায়ারওয়াল ও কম্পিউটারের নিরাপত্তা-নিয়ম ঠিক করে মডেলের সংযোগস্থলে কারা পৌঁছাতে পারবে।
 
-Source code, client record, unreleased design, private note এবং disconnected environment-এর কাজে লাভ বেশি। Local inference-এর জন্য disk encryption, host update, account separation এবং restricted tool-ও দরকার।
+উৎস-কোড, গ্রাহকের নথি, অপ্রকাশিত নকশা, ব্যক্তিগত লেখা এবং বিচ্ছিন্ন পরিবেশে কাজের সময় সুবিধা বেশি। স্থানীয়ভাবে মডেল চালালেও ডিস্ক-তথ্য সংকেতায়িত রাখা, কম্পিউটার হালনাগাদ করা, আলাদা হিসাব ব্যবহার এবং টুলের প্রবেশ সীমিত করা দরকার।
 
 ## স্থানীয় গোপনীয়তা কী দেয় না
 
-- **Quality guarantee নয়:** ছোট বা quantized model-কে real acceptance criteria-র বিরুদ্ধে test করতে হয়।
-- **Supply-chain guarantee নয়:** model file, runtime, plugin এবং container image-এর trusted source ও integrity check দরকার।
-- **Clean host নয়:** malware, browser extension, backup, crash reporter এবং remote administration এখনও host data দেখে।
-- **Safe network endpoint নয়:** every-interface server নতুন defend করার service তৈরি করে।
-- **Free system নয়:** electricity, storage, cooling, hardware wear এবং maintenance-এর cost আছে।
+- **উত্তরের মান নিশ্চিত নয়:** ছোট বা সংকুচিত মডেলকে আপনার গ্রহণযোগ্যতার শর্ত অনুযায়ী পরীক্ষা করুন।
+- **সরবরাহ-শৃঙ্খল নিরাপদ এমন নিশ্চয়তা নেই:** মডেল-ফাইল, চালনা-সফটওয়্যার, সংযোজন ও ধারক-ছবি বিশ্বস্ত উৎস থেকে নিন এবং অখণ্ডতা যাচাই করুন।
+- **যন্ত্র নিজে নিরাপদ হয় না:** ক্ষতিকর সফটওয়্যার, ব্রাউজার সংযোজন, অনুলিপি, বিপর্যয়-নথি ও দূরবর্তী পরিচালনা এখনও যন্ত্রের তথ্য দেখতে পারে।
+- **নেটওয়ার্ক সংযোগ নিরাপদ হয় না:** সব নেটওয়ার্ক ঠিকানায় সংযোগ নেওয়া সার্ভার নতুন একটি সেবা তৈরি করে, যেটি আপনাকে সুরক্ষিত রাখতে হবে।
+- **পুরো ব্যবস্থা বিনা খরচে চলে না:** বিদ্যুৎ, সংরক্ষণ, ঠান্ডা রাখা, যন্ত্রের ক্ষয় ও রক্ষণাবেক্ষণে খরচ হয়।
 
-[Strata-এর স্থানীয় কোডিং-এজেন্ট নির্দেশিকা](/articles/strata-opencode-local-coding-agent-16gb/) দেখায় কেন সিস্টেম মেমোরি, প্রসঙ্গ, টুল অ্যাক্সেস এবং রানটাইম সেটিংস মূল্যায়নের অংশ। GPU memory একা privacy বা performance boundary নির্ধারণ করে না।
+[Strata-র স্থানীয় কোডিং সহায়ক নির্দেশিকা](/articles/strata-opencode-local-coding-agent-16gb/) দেখায় কেন কম্পিউটারের মেমোরি, কথোপকথনের প্রসঙ্গ, টুলের প্রবেশাধিকার এবং চালনার সেটিং মূল্যায়ন করতে হয়। গ্রাফিক্স কার্ডের মেমোরি একা গোপনীয়তা বা কার্যক্ষমতার সীমানা ঠিক করে না।
 
 ## সঠিক সীমা বেছে নিন
 
@@ -175,35 +175,35 @@ Source code, client record, unreleased design, private note এবং disconnect
 | **যাচাইকৃত স্থানীয় মডেল নিয়ে নিয়মিত বড় পরিমাণের কাজ** | স্থানীয় বা মিশ্র ব্যবস্থা | বিদ্যুৎ, গুণমান, সহায়তার সময় এবং সেবা প্রদানকারীর মূল্য তুলনা করুন |
 | **মিশ্র কাজের চাপ** | মিশ্র পদ্ধতিতে রাউটিং | সংবেদনশীল কাজ স্থানীয় রাখুন এবং অনুমোদিত সাধারণ কাজ হোস্ট করা মডেলে পাঠান |
 
-**Hybrid routing-এর explicit classification rule দরকার।** Data-কে local-only, hosted processing-এর জন্য approved, অথবা review না হওয়া পর্যন্ত forbidden হিসেবে mark করুন। Rule enforce করতে model name বা application icon-এর ওপর নির্ভর করবেন না।
+**দুই পথে কাজ পাঠালে স্পষ্ট শ্রেণিবিভাগের নিয়ম দরকার।** তথ্যকে “শুধু স্থানীয়”, “অনলাইন প্রক্রিয়াকরণের অনুমোদিত”, অথবা “পর্যালোচনা না হওয়া পর্যন্ত নিষিদ্ধ” হিসেবে চিহ্নিত করুন। নিয়ম কার্যকর করতে মডেলের নাম বা অ্যাপের চিহ্নের ওপর নির্ভর করবেন না।
 
 ## বিশ্বাস করার আগে যাচাই করুন
 
-1. **Model path লিখুন।** Model identifier, runtime, version এবং download source record করুন।
-2. **Bind address দেখুন।** Wider path-এর documented need না থাকলে server loopback-এ শোনে নিশ্চিত করুন।
-3. **সব tool তালিকাভুক্ত করুন।** File, shell, browser, network এবং plugin access review করুন।
-4. **Persistence inspect করুন।** Prompt log, tool output, crash report, backup এবং shared model directory খুঁজুন।
-5. **Network behavior test করুন।** Representative prompt দিয়ে sensitive test-এর সময় connection observe করুন।
-6. **System measure করুন।** Wall power, output speed, input speed, context length এবং retry record করুন।
-7. **Accepted work test করুন।** শুধু token per second নয়, completed task এবং review effort তুলনা করুন।
+1. **মডেলের পথ লিখুন।** মডেলের পরিচয়, চালনা-সফটওয়্যার, সংস্করণ ও নামানোর উৎস লিখে রাখুন।
+2. **সংযোগের ঠিকানা দেখুন।** বেশি দূর পর্যন্ত সংযোগ উন্মুক্ত করার নির্দিষ্ট প্রয়োজন না থাকলে সার্ভার কেবল নিজের যন্ত্রে সংযোগ নিচ্ছে নিশ্চিত করুন।
+3. **সব টুলের তালিকা করুন।** ফাইল, কমান্ড-শেল, ব্রাউজার, নেটওয়ার্ক ও সংযোজনের প্রবেশাধিকার যাচাই করুন।
+4. **তথ্য কোথায় জমে দেখুন।** অনুরোধের নথি, টুলের ফলাফল, বিপর্যয়-নথি, অনুলিপি ও ভাগ করা মডেল-ফোল্ডার খুঁজুন।
+5. **নেটওয়ার্ক আচরণ পরীক্ষা করুন।** সংবেদনশীল পরীক্ষা চালানোর সময় পরিচিত একটি অনুরোধ পাঠিয়ে সংযোগগুলো লক্ষ্য করুন।
+6. **পুরো ব্যবস্থা মাপুন।** সকেটের বিদ্যুৎ, আউটপুট ও ইনপুটের গতি, প্রসঙ্গের দৈর্ঘ্য ও পুনরায় চেষ্টার সংখ্যা লিখুন।
+7. **কাজের ফল পরীক্ষা করুন।** প্রতি সেকেন্ডের টোকেন নয়, সম্পন্ন কাজ ও পর্যালোচনার সময় তুলনা করুন।
 
-[স্থানীয় AI ও ChatGPT তুলনা নির্দেশিকা](/articles/local-ai-vs-chatgpt-how-close-are-we/) মডেলের সক্ষমতার পার্থক্য ব্যাখ্যা করে। Quality test-এর পাশে এই privacy checklist ব্যবহার করুন।
+[স্থানীয় AI ও ChatGPT-র তুলনা](/articles/local-ai-vs-chatgpt-how-close-are-we/) মডেলের সক্ষমতার পার্থক্য বোঝায়। মান যাচাইয়ের সঙ্গে এই গোপনীয়তা-তালিকাও ব্যবহার করুন।
 
 ## তথ্যসূত্র
 
-- [Video, Is local AI worth it? We did the math vs Claude Haiku 5.5](https://www.youtube.com/watch?v=DmkuFpoMYmc)
-- [NVIDIA Blackwell GeForce RTX 50 Series launch announcement](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/)
-- [NVIDIA GeForce RTX 5070 family specifications](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/)
-- [NVIDIA GeForce RTX 5070 product page](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5070/)
-- [U.S. Energy Information Administration, October 2026 Short-Term Energy Outlook](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os)
+- [ভিডিও: স্থানীয় AI কি সার্থক? Claude Haiku 5.5-এর সঙ্গে খরচের তুলনা](https://www.youtube.com/watch?v=DmkuFpoMYmc)
+- [NVIDIA Blackwell GeForce RTX 50 Series প্রকাশনার ঘোষণা](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/)
+- [NVIDIA GeForce RTX 5070 পরিবারের বৈশিষ্ট্য](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/)
+- [NVIDIA GeForce RTX 5070 পণ্যের পাতা](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5070/)
+- [যুক্তরাষ্ট্রের জ্বালানি তথ্য প্রশাসন, ২০২৬ সালের অক্টোবরের স্বল্পমেয়াদি জ্বালানি পূর্বাভাস](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os)
 - [Anthropic Claude Haiku 5.5](https://www.anthropic.com/claude/haiku)
-- [Anthropic Claude Platform pricing](https://platform.claude.com/docs/en/about-claude/pricing)
-- [OpenAI, Understanding and counting tokens](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
+- [Anthropic ক্লড প্ল্যাটফর্মের মূল্যতালিকা](https://platform.claude.com/docs/en/about-claude/pricing)
+- [OpenAI, টোকেন বোঝা ও গণনা](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
 - [Ollama-এর গোপনীয়তা নীতি](https://ollama.com/privacy)
 - [Ollama v0.40.11 রিলিজ নোট](https://github.com/ollama/ollama/releases/tag/v0.40.11)
 - [Ollama স্পিচ গাইড](https://docs.ollama.com/capabilities/speech)
 - [Ollama OpenAI-সামঞ্জস্য API রেফারেন্স](https://docs.ollama.com/api/openai-compatibility)
 - [Ollama API পরিচিতি](https://docs.ollama.com/api/introduction)
-- [Ollama FAQ: server configuration, cloud settings ও reverse proxy](https://docs.ollama.com/faq)
-- [Ollama সমস্যা সমাধান ও server log](https://docs.ollama.com/troubleshooting)
+- [Ollama প্রশ্নোত্তর: সার্ভার সেটিং, ক্লাউড সুবিধা ও মধ্যবর্তী সার্ভার](https://docs.ollama.com/faq)
+- [Ollama-র সমস্যা সমাধান ও সার্ভারের নথি](https://docs.ollama.com/troubleshooting)
 - [llama.cpp সার্ভারের ডকুমেন্টেশন](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)

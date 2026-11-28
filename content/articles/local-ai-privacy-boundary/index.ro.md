@@ -1,7 +1,7 @@
 ---
 title: "Confidențialitatea AI local: ce rămâne pe computer și ce nu"
 date: 2026-10-10
-lastmod: 2026-11-13
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Urmărește prompturile, fișierele modelelor, instrumentele, logurile, expunerea rețelei și costurile energiei înainte de a alege inferență locală sau un serviciu AI găzduit."
@@ -22,7 +22,7 @@ Acest ghid mapează mai întâi granița de confidențialitate. Apoi verifică p
 
 Această comparație a costurilor locale și găzduite oferă context pentru formulele de mai jos. Nu copia cifrele de throughput fără să testezi același fișier de model și runtime pe hardware-ul tău.
 
-{{< youtube id="DmkuFpoMYmc" enable="true" title="Is local AI worth it? We did the math vs Claude Haiku 5.5" description="A local-versus-hosted AI cost comparison." >}}
+{{< youtube id="DmkuFpoMYmc" enable="true" title="Merită IA locală? Am comparat costurile cu Claude Haiku 5.5" description="Comparație a costurilor între IA locală și cea găzduită." >}}
 
 Videoclipul raportează un runtime de 2 minute și 31 de secunde. I-am verificat titlul și durata prin pagina videoclipului. Nu am repetat testul hardware, deci vitezele raportate rămân măsurători furnizate de sursă.
 
@@ -191,7 +191,7 @@ Aceste câștiguri contează mai ales pentru cod sursă, date de clienți, proie
 
 ## Referințe
 
-- [Video: Merită AI locală? Comparație cu Claude Haiku 5.5](https://www.youtube.com/watch?v=DmkuFpoMYmc)
+- [Video: Merită IA locală? Comparație cu Claude Haiku 5.5](https://www.youtube.com/watch?v=DmkuFpoMYmc)
 - [Anunțul de lansare NVIDIA Blackwell GeForce RTX 50 Series](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/)
 - [Specificațiile familiei NVIDIA GeForce RTX 5070](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/)
 - [Pagina produsului NVIDIA GeForce RTX 5070](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5070/)

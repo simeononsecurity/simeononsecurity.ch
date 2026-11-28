@@ -1,7 +1,7 @@
 ---
 title: "Privacidade da IA local: o que permanece no seu computador e o que não permanece"
 date: 2026-10-10
-lastmod: 2026-11-13
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Rastreie prompts, arquivos de modelos, ferramentas, logs, exposição de rede e custos de energia antes de escolher inferência local ou um serviço de IA hospedado."
@@ -22,7 +22,7 @@ Este guia mapeia primeiro o limite de privacidade. Depois verifica o custo usand
 
 Esta comparação de custos local e hospedado fornece contexto para as fórmulas abaixo. Não copie os números de throughput sem testar o mesmo arquivo de modelo e runtime no seu hardware.
 
-{{< youtube id="DmkuFpoMYmc" enable="true" title="Is local AI worth it? We did the math vs Claude Haiku 5.5" description="A local-versus-hosted AI cost comparison." >}}
+{{< youtube id="DmkuFpoMYmc" enable="true" title="A IA local compensa? Comparamos os custos com Claude Haiku 5.5" description="Comparação de custos entre IA local e hospedada." >}}
 
 O vídeo relata um runtime de 2 minutos e 31 segundos. Verifiquei seu título e runtime pela página de exibição. Não repeti o teste de hardware, então suas velocidades continuam sendo medições relatadas pela fonte.
 

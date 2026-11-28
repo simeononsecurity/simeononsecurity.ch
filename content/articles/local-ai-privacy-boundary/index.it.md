@@ -1,12 +1,12 @@
 ---
 title: "Privacy dell'IA locale: cosa resta sul computer e cosa no"
 date: 2026-10-10
-lastmod: 2026-11-13
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Traccia prompt, file del modello, strumenti, log, esposizione di rete e costi energetici prima di scegliere l'inferenza locale o un servizio IA ospitato."
-genre: ["IA locale", "Riservatezza", "IA self-hosted", "Sicurezza informatica", "Economia dell'IA"]
-tags: ["privacy IA locale", "inferenza locale", "IA cloud", "privacy dati IA", "IA self-hosted", "privacy LLM", "costo possesso GPU", "costo elettricità IA", "RTX 5070", "Claude Haiku 5.5", "privacy Ollama", "llama.cpp", "sicurezza IA", "IA offline", "modelli linguistici locali", "privacy prompt", "modello minacce IA", "break-even GPU", "confine dati IA", "IA privata"]
+genre: ["IA locale", "Riservatezza", "IA autogestita", "Sicurezza informatica", "Economia dell'IA"]
+tags: ["privacy IA locale", "inferenza locale", "IA cloud", "privacy dati IA", "IA autogestita", "privacy LLM", "costo possesso GPU", "costo elettricità IA", "RTX 5070", "Claude Haiku 5.5", "privacy Ollama", "llama.cpp", "sicurezza IA", "IA offline", "modelli linguistici locali", "privacy prompt", "modello minacce IA", "punto di pareggio della GPU", "confine dati IA", "IA privata"]
 cover: "/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp"
 coverAlt: "Una workstation IA locale collegata a un servizio cloud da percorsi dati visibili"
 coverCaption: "Illustrazione dei percorsi dati dell'IA locale e ospitata"
@@ -101,7 +101,7 @@ Per un confronto semplice, usa un milione di token generati e un milione di toke
 
 Il dato di potenza della GPU non è il consumo dell'intero sistema. Usa un wattmetro per il PC. L'esempio seguente assume un **consumo dell'intero sistema di 400 W**, includendo GPU, processore, memoria, archiviazione, ventole e perdite dell'alimentatore. È un'ipotesi per il calcolo, non una misura.
 
-[La previsione della U.S. Energy Information Administration](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os) usava 18,2 centesimi per kilowattora come prezzo medio residenziale dell'elettricità nel 2026. La tua tariffa cambia il risultato.
+[La previsione dell’Amministrazione per l’informazione energetica degli Stati Uniti](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os) usava 18,2 centesimi per kilowattora come prezzo medio residenziale dell'elettricità nel 2026. La tua tariffa cambia il risultato.
 
 Usa questa formula per l'output generato:
 
@@ -195,7 +195,7 @@ La [guida IA locale contro ChatGPT](/articles/local-ai-vs-chatgpt-how-close-are-
 - [Annuncio di lancio NVIDIA Blackwell GeForce RTX 50 Series](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/)
 - [Specifiche della famiglia NVIDIA GeForce RTX 5070](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/)
 - [Pagina prodotto NVIDIA GeForce RTX 5070](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5070/)
-- [U.S. Energy Information Administration, Short-Term Energy Outlook di ottobre 2026](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os)
+- [Amministrazione per l’informazione energetica degli Stati Uniti, Short-Term Energy Outlook di ottobre 2026](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os)
 - [Anthropic Claude Haiku 5.5](https://www.anthropic.com/claude/haiku)
 - [Prezzi della piattaforma Anthropic Claude](https://platform.claude.com/docs/en/about-claude/pricing)
 - [OpenAI, comprendere e contare i token](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)

@@ -143,7 +143,7 @@ Le prix de lancement n'est pas un devis d'achat universel. La page actuelle de N
 
 **Le matériel existant change la décision.** Si votre poste possède déjà assez de mémoire et un GPU adapté, le coût matériel est amorti pour la prochaine tâche. Comparez la puissance, le temps, la qualité, la confidentialité et la maintenance. Si vous devez acheter un système complet, comparez le système complet à l'usage hébergé.
 
-Pour les détails d'adéquation des modèles, lisez le [guide des modèles d'IA locale et du contexte GPU](/articles/local-ai-model-gpu-context-guide/) et le [guide de dimensionnement de 16 Go de VRAM](/articles/is-16gb-vram-enough-local-llm/). Pour une configuration d'agent de codage local rapportée, lisez le [guide Strata et OpenCode](/articles/strata-opencode-local-coding-agent-16gb/).
+Pour les détails d'adéquation des modèles, lisez le [présentation des modèles d'IA locale et du contexte du processeur graphique](/articles/local-ai-model-gpu-context-guide/) et le [tutoriel pour dimensionner 16 Go de mémoire vidéo](/articles/is-16gb-vram-enough-local-llm/). Pour une configuration d'agent de codage local rapportée, lisez le [tutoriel Strata et OpenCode](/articles/strata-opencode-local-coding-agent-16gb/).
 
 ## Ce que la confidentialité locale vous apporte
 
@@ -163,11 +163,11 @@ Ces gains comptent surtout pour le code source, les dossiers clients, les design
 - **Un endpoint réseau sûr :** un serveur lié à toutes les interfaces crée un nouveau service à défendre.
 - **Un système gratuit :** l'électricité, le stockage, le refroidissement, l'usure du matériel et la maintenance ont toujours un coût.
 
-Le [guide d'agent de codage local Strata](/articles/strata-opencode-local-coding-agent-16gb/) montre pourquoi la mémoire système, le contexte, l'accès aux outils et les paramètres du runtime appartiennent à l'évaluation. La mémoire du GPU seule ne définit ni la frontière de confidentialité ni celle des performances.
+Le [tutoriel d'agent de codage local Strata](/articles/strata-opencode-local-coding-agent-16gb/) montre pourquoi la mémoire système, le contexte, l'accès aux outils et les paramètres du runtime appartiennent à l'évaluation. La mémoire du GPU seule ne définit ni la frontière de confidentialité ni celle des performances.
 
 ## Choisissez la bonne frontière
 
-| Situation | Premier choix préférable | Raison |
+| Cas | Premier choix préférable | Raison |
 |---|---|---|
 | **Documents sensibles et PC compatible existant** | Inférence locale | Garder les invites dans un hôte contrôlé et éviter une nouvelle dépense matérielle |
 | **Rédaction générique occasionnelle** | API ou service de chat hébergé | Payer la petite charge et éviter la maintenance |
@@ -187,7 +187,7 @@ Le [guide d'agent de codage local Strata](/articles/strata-opencode-local-coding
 6. **Mesurez le système.** Notez la puissance au mur, la vitesse de sortie, la vitesse d'entrée, la longueur du contexte et les nouvelles tentatives.
 7. **Testez le travail accepté.** Comparez les tâches terminées et l'effort de revue, pas seulement les tokens par seconde.
 
-Le [guide IA locale contre ChatGPT](/articles/local-ai-vs-chatgpt-how-close-are-we/) couvre les compromis de capacité des modèles. Utilisez cette liste de confidentialité avec le test de qualité.
+Le [comparatif entre IA locale et ChatGPT](/articles/local-ai-vs-chatgpt-how-close-are-we/) couvre les compromis de capacité des modèles. Utilisez cette liste de confidentialité avec le test de qualité.
 
 ## Références
 

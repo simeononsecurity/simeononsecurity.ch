@@ -1,7 +1,7 @@
 ---
 title: "Privadesa de la IA local: què queda al vostre ordinador i què no"
 date: 2026-10-10
-lastmod: 2026-11-13
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Seguiu els prompts, fitxers de model, eines, registres, exposició de xarxa i costos d'energia abans d'escollir inferència local o un servei d'IA allotjat."
@@ -22,7 +22,7 @@ Aquesta guia mapeja primer el límit de privadesa. Després comprova el cost amb
 
 La comparació de costos local i allotjat dona context a les fórmules següents. No copieu xifres de rendiment sense provar el mateix fitxer de model i runtime al vostre maquinari.
 
-{{< youtube id="DmkuFpoMYmc" enable="true" title="Is local AI worth it? We did the math vs Claude Haiku 5.5" description="A local-versus-hosted AI cost comparison." >}}
+{{< youtube id="DmkuFpoMYmc" enable="true" title="Val la pena la IA local? Hem calculat el cost en comparació amb Claude Haiku 5.5" description="Comparació de costos entre la IA local i la IA allotjada." >}}
 
 El vídeo informa d'un runtime de 2 minuts i 31 segons. N'he verificat el títol i la durada a la pàgina de visualització. No he repetit la prova de maquinari. Les velocitats continuen sent mesures informades per la font.
 
@@ -37,7 +37,7 @@ La inferència local ajuda amb text sensible, operació sense connexió, version
 
 ## Seguiu la ruta de dades
 
-| Component | Pregunta de privadesa | Evidència a recollir |
+| Element | Pregunta de privadesa | Evidència a recollir |
 |---|---|---|
 | **Servidor de model local** | El prompt queda a l'host? | Configuració del procés, adreça d'escolta i trànsit sortint |
 | **Model al núvol** | Quins textos, fitxers i resultats d'eines surten de l'host? | Endpoint API, termes del proveïdor, registres i configuració del compte |
@@ -97,7 +97,7 @@ Per a una comparació simple, useu un milió de tokens generats i un milió d'en
 
 La xifra de potència de la GPU no és la potència de tot el sistema. Useu un mesurador a la paret. L'exemple assumeix **400 W de consum de tot el sistema**, amb GPU, processador, memòria, emmagatzematge, ventiladors i pèrdues de la font. És una hipòtesi de càlcul, no una mesura.
 
-[La previsió de la U.S. Energy Information Administration](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os) va usar 18,2 cèntims per kWh com a preu residencial mitjà de l'electricitat el 2026. La vostra tarifa canvia el resultat.
+[La previsió de l’Administració d’Informació Energètica dels Estats Units](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os) va usar 18,2 cèntims per kWh com a preu residencial mitjà de l'electricitat el 2026. La vostra tarifa canvia el resultat.
 
 ```text
 cost local per 1M tokens de sortida =
@@ -183,14 +183,14 @@ La [guia d'IA local contra ChatGPT](/articles/local-ai-vs-chatgpt-how-close-are-
 
 ## Referències
 
-- [Video, Is local AI worth it? We did the math vs Claude Haiku 5.5](https://www.youtube.com/watch?v=DmkuFpoMYmc)
-- [NVIDIA Blackwell GeForce RTX 50 Series launch announcement](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/)
-- [NVIDIA GeForce RTX 5070 family specifications](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/)
-- [NVIDIA GeForce RTX 5070 product page](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5070/)
-- [U.S. Energy Information Administration, October 2026 Short-Term Energy Outlook](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os)
+- [Vídeo: Val la pena la IA local? Hem comparat el cost amb Claude Haiku 5.5](https://www.youtube.com/watch?v=DmkuFpoMYmc)
+- [Anunci del llançament de NVIDIA Blackwell GeForce RTX 50 Series](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/)
+- [Especificacions de la família NVIDIA GeForce RTX 5070](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/)
+- [Pàgina del producte NVIDIA GeForce RTX 5070](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5070/)
+- [Administració d’Informació Energètica dels Estats Units, Short-Term Energy Outlook d’octubre de 2026](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os)
 - [Anthropic Claude Haiku 5.5](https://www.anthropic.com/claude/haiku)
-- [Anthropic Claude Platform pricing](https://platform.claude.com/docs/en/about-claude/pricing)
-- [OpenAI, Understanding and counting tokens](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
+- [Preus de la plataforma Claude d’Anthropic](https://platform.claude.com/docs/en/about-claude/pricing)
+- [Guia d’OpenAI per entendre i comptar els tokens](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
 - [Política de privadesa d'Ollama](https://ollama.com/privacy)
 - [Notes de la versió v0.40.11 d’Ollama](https://github.com/ollama/ollama/releases/tag/v0.40.11)
 - [Guia de veu d’Ollama](https://docs.ollama.com/capabilities/speech)

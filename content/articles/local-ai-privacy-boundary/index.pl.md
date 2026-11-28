@@ -1,7 +1,7 @@
 ---
 title: "Prywatność lokalnej AI: co pozostaje na komputerze, a co nie"
 date: 2026-10-10
-lastmod: 2026-11-13
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Prześledź prompty, pliki modeli, narzędzia, logi, ekspozycję sieciową i koszty energii przed wyborem lokalnego wnioskowania albo hostowanej usługi AI."
@@ -22,7 +22,7 @@ Ten poradnik najpierw mapuje granicę prywatności. Potem sprawdza koszt przy u�
 
 To porównanie kosztów lokalnych i hostowanych daje kontekst dla poniższych wzorów. Nie kopiuj wyników przepustowości bez przetestowania tego samego pliku modelu i środowiska na swoim sprzęcie.
 
-{{< youtube id="DmkuFpoMYmc" enable="true" title="Is local AI worth it? We did the math vs Claude Haiku 5.5" description="A local-versus-hosted AI cost comparison." >}}
+{{< youtube id="DmkuFpoMYmc" enable="true" title="Czy lokalna AI się opłaca? Porównaliśmy koszty z Claude Haiku 5.5" description="Porównanie kosztów lokalnej i hostowanej AI." >}}
 
 Film podaje czas działania 2 minuty 31 sekund. Zweryfikowałem jego tytuł i czas na stronie filmu. Nie odtworzyłem testu sprzętu, więc zgłoszone prędkości pozostają pomiarami podanymi przez źródło.
 

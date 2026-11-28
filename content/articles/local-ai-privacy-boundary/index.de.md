@@ -1,7 +1,7 @@
 ---
 title: "Datenschutz bei lokaler KI: Was auf Ihrem Computer bleibt und was nicht"
 date: 2026-10-10
-lastmod: 2026-11-13
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Verfolgen Sie Prompts, Modelldateien, Tools, Protokolle, Netzwerkzugriff und Stromkosten, bevor Sie lokale Inferenz oder einen gehosteten KI-Dienst wählen."
@@ -22,7 +22,7 @@ Dieser Leitfaden kartiert zuerst die Datenschutzgrenze. Danach prüft er die Kos
 
 Der Kostenvergleich zwischen lokal und gehostet liefert den Kontext für die folgenden Formeln. Übernehmen Sie keine Durchsatzzahlen, ohne dieselbe Modelldatei und Laufzeit auf Ihrer Hardware zu testen.
 
-{{< youtube id="DmkuFpoMYmc" enable="true" title="Is local AI worth it? We did the math vs Claude Haiku 5.5" description="A local-versus-hosted AI cost comparison." >}}
+{{< youtube id="DmkuFpoMYmc" enable="true" title="Lohnt sich lokale KI? Wir haben die Kosten mit Claude Haiku 5.5 verglichen" description="Kostenvergleich zwischen lokaler und gehosteter KI." >}}
 
 Das Video nennt eine Laufzeit von 2 Minuten 31 Sekunden. Titel und Laufzeit wurden über die Watch-Seite geprüft. Der Hardwaretest wurde nicht wiederholt. Die Geschwindigkeiten bleiben daher Messwerte aus der Quelle.
 
@@ -97,7 +97,7 @@ Für einen einfachen Vergleich verwenden Sie eine Million erzeugte und eine Mill
 
 Die GPU-Leistung ist nicht die Gesamtleistung des Systems. Nutzen Sie ein Wattmeter an der Steckdose. Das Beispiel nimmt **400 W Gesamtverbrauch** an, einschließlich GPU, Prozessor, Speicher, Laufwerken, Lüftern und Netzteilverlusten. Dies ist eine Rechenannahme, kein Messwert.
 
-Die [Prognose der U.S. Energy Information Administration](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os) verwendete für 2026 einen durchschnittlichen Haushaltsstrompreis von 18,2 Cent pro Kilowattstunde. Ihr Tarif verändert das Ergebnis.
+Die [Prognose der US-Energieinformationsbehörde](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os) verwendete für 2026 einen durchschnittlichen Haushaltsstrompreis von 18,2 Cent pro Kilowattstunde. Ihr Tarif verändert das Ergebnis.
 
 ```text
 lokale Kosten pro 1M Ausgabetoken =
@@ -159,7 +159,7 @@ Der [Strata-Leitfaden für lokale Coding-Agents](/articles/strata-opencode-local
 
 ## Wählen Sie die richtige Grenze
 
-| Situation | Erste Wahl | Grund |
+| Ausgangslage | Erste Wahl | Grund |
 |---|---|---|
 | **Sensible Dokumente und vorhandener kompatibler PC** | Lokale Inferenz | Prompts im kontrollierten Host halten und neue Hardwareausgaben vermeiden |
 | **Gelegentliche allgemeine Entwürfe** | Gehostete API oder Chatdienst | Kleinen Workload bezahlen und Wartung vermeiden |
@@ -183,14 +183,14 @@ Der [Leitfaden lokale KI gegen ChatGPT](/articles/local-ai-vs-chatgpt-how-close-
 
 ## Quellen
 
-- [Video, Is local AI worth it? We did the math vs Claude Haiku 5.5](https://www.youtube.com/watch?v=DmkuFpoMYmc)
-- [NVIDIA Blackwell GeForce RTX 50 Series launch announcement](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/)
-- [NVIDIA GeForce RTX 5070 family specifications](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/)
-- [NVIDIA GeForce RTX 5070 product page](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5070/)
-- [U.S. Energy Information Administration, October 2026 Short-Term Energy Outlook](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os)
+- [Video: Lohnt sich lokale KI? Wir haben die Kosten mit Claude Haiku 5.5 verglichen](https://www.youtube.com/watch?v=DmkuFpoMYmc)
+- [Ankündigung zur Einführung der NVIDIA Blackwell GeForce RTX 50 Series](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/)
+- [Technische Daten der NVIDIA GeForce RTX 5070 Familie](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/)
+- [Produktseite der NVIDIA GeForce RTX 5070](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5070/)
+- [US-Energieinformationsbehörde, Short-Term Energy Outlook vom Oktober 2026](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os)
 - [Anthropic Claude Haiku 5.5](https://www.anthropic.com/claude/haiku)
-- [Anthropic Claude Platform pricing](https://platform.claude.com/docs/en/about-claude/pricing)
-- [OpenAI, Understanding and counting tokens](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
+- [Preise der Claude Platform von Anthropic](https://platform.claude.com/docs/en/about-claude/pricing)
+- [OpenAI-Leitfaden zum Verstehen und Zählen von Tokens](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
 - [Ollamas Datenschutzrichtlinie](https://ollama.com/privacy)
 - [Ollama-Versionshinweise v0.40.11](https://github.com/ollama/ollama/releases/tag/v0.40.11)
 - [Ollama-Sprachleitfaden](https://docs.ollama.com/capabilities/speech)

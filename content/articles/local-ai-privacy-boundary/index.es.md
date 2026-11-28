@@ -1,10 +1,10 @@
 ---
 title: "Privacidad de la IA local: qué permanece en su ordenador y qué no"
 date: 2026-10-10
-lastmod: 2026-11-13
+lastmod: 2026-11-19
 toc: true
 draft: false
-description: "Trace prompts, archivos de modelos, herramientas, registros, exposición de red y costes de energía antes de elegir inferencia local o un servicio de IA alojado."
+description: "Siga el recorrido de las solicitudes, los archivos de modelos, las herramientas, los registros, la exposición de red y los costes de energía antes de elegir inferencia local o un servicio de IA alojado."
 genre: ["IA local", "Privacidad", "IA autoalojada", "Ciberseguridad", "Economía de la IA"]
 tags: ["privacidad de la IA local", "inferencia local", "IA en la nube", "privacidad de los datos de IA", "IA autoalojada", "privacidad de los LLM", "costo de propiedad de la GPU", "costo eléctrico de la IA", "RTX 5070", "Claude Haiku 5.5", "privacidad de Ollama", "llama.cpp", "seguridad de la IA", "IA sin conexión", "modelos de lenguaje locales", "privacidad de los prompts", "modelo de amenazas de IA", "punto de equilibrio de la GPU", "límite de datos de IA", "IA privada"]
 cover: "/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp"
@@ -22,7 +22,7 @@ Esta guía traza primero el límite de privacidad. Después comprueba el coste c
 
 Esta comparación de costes local y alojado proporciona contexto para las fórmulas siguientes. No copie cifras de rendimiento sin probar el mismo archivo de modelo y runtime en su hardware.
 
-{{< youtube id="DmkuFpoMYmc" enable="true" title="Is local AI worth it? We did the math vs Claude Haiku 5.5" description="A local-versus-hosted AI cost comparison." >}}
+{{< youtube id="DmkuFpoMYmc" enable="true" title="¿Merece la pena la IA local? Calculamos el coste frente a Claude Haiku 5.5" description="Comparación de costes entre IA local e IA alojada." >}}
 
 El vídeo informa de un runtime de 2 minutos y 31 segundos. Verifiqué su título y duración mediante la página de visualización. No repetí la prueba de hardware. Sus velocidades siguen siendo medidas informadas por la fuente.
 
@@ -97,7 +97,7 @@ Para una comparación simple, use un millón de tokens generados y un millón de
 
 La cifra de potencia de la GPU no es la potencia de todo el sistema. Use un medidor en la pared. El ejemplo supone **400 W de consumo de todo el sistema**, incluida GPU, procesador, memoria, almacenamiento, ventiladores y pérdidas de la fuente. Es una hipótesis para el cálculo, no un resultado medido.
 
-[La previsión de la U.S. Energy Information Administration](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os) usó 18,2 centavos por kilovatio-hora como precio residencial medio de la electricidad en 2026. Su tarifa cambia el resultado.
+[La previsión de la Administración de Información Energética de Estados Unidos](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os) usó 18,2 centavos por kilovatio-hora como precio residencial medio de la electricidad en 2026. Su tarifa cambia el resultado.
 
 ```text
 coste local por 1M tokens de salida =
@@ -183,14 +183,14 @@ La [guía de IA local frente a ChatGPT](/articles/local-ai-vs-chatgpt-how-close-
 
 ## Referencias
 
-- [Video, Is local AI worth it? We did the math vs Claude Haiku 5.5](https://www.youtube.com/watch?v=DmkuFpoMYmc)
-- [NVIDIA Blackwell GeForce RTX 50 Series launch announcement](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/)
-- [NVIDIA GeForce RTX 5070 family specifications](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/)
-- [NVIDIA GeForce RTX 5070 product page](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5070/)
-- [U.S. Energy Information Administration, October 2026 Short-Term Energy Outlook](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os)
+- [Vídeo: ¿Merece la pena la IA local? Comparamos el coste con Claude Haiku 5.5](https://www.youtube.com/watch?v=DmkuFpoMYmc)
+- [Anuncio del lanzamiento de NVIDIA Blackwell GeForce RTX 50 Series](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/)
+- [Especificaciones de la familia NVIDIA GeForce RTX 5070](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/)
+- [Página del producto NVIDIA GeForce RTX 5070](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5070/)
+- [Administración de Información Energética de Estados Unidos, Short-Term Energy Outlook de octubre de 2026](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os)
 - [Anthropic Claude Haiku 5.5](https://www.anthropic.com/claude/haiku)
-- [Anthropic Claude Platform pricing](https://platform.claude.com/docs/en/about-claude/pricing)
-- [OpenAI, Understanding and counting tokens](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
+- [Precios de la plataforma Claude de Anthropic](https://platform.claude.com/docs/en/about-claude/pricing)
+- [Guía de OpenAI para entender y contar tokens](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
 - [Política de privacidad de Ollama](https://ollama.com/privacy)
 - [Notas de la versión v0.40.11 de Ollama](https://github.com/ollama/ollama/releases/tag/v0.40.11)
 - [Guía de voz de Ollama](https://docs.ollama.com/capabilities/speech)

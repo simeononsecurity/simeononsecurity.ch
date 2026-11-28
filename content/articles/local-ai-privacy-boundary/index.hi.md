@@ -1,7 +1,7 @@
 ---
 title: "लोकल AI की गोपनीयता: आपके कंप्यूटर पर क्या रहता है और क्या नहीं"
 date: 2026-10-10
-lastmod: 2026-11-13
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "लोकल इन्फरेंस या होस्टेड AI सेवा चुनने से पहले प्रॉम्प्ट, मॉडल फाइल, टूल, लॉग, नेटवर्क एक्सपोज़र और बिजली की लागत का पता लगाएं।"
@@ -81,11 +81,11 @@ Ollama का [FAQ](https://docs.ollama.com/faq) लोकल-ओनली म�
 
 ## Ollama की वाक्-सुविधा और नेटवर्क सीमा
 
-*Ollama की [v0.40.11 रिलीज़](https://github.com/ollama/ollama/releases/tag/v0.40.11) macOS पर speech generation की घोषणा करती है। इसकी [API संदर्भ](https://docs.ollama.com/api/openai-compatibility) `/v1/audio/speech` को v0.40.8 से जोड़ती है, इसलिए v0.40.11 इस endpoint का दस्तावेज़ित पहला संस्करण नहीं है।* यह **पाठ से वाक्** है, वाक् से पाठ नहीं: request Phonon जैसे speech model को text भेजती है और streamed audio पाती है। [वाक् मार्गदर्शिका](https://docs.ollama.com/capabilities/speech) में `ollama run phonon` से audio स्थानीय रूप से चलाने या output redirect होने पर WAV file लिखने का उदाहरण भी है।
+*Ollama की [v0.40.11 रिलीज़](https://github.com/ollama/ollama/releases/tag/v0.40.11) macOS पर वाणी बनाने की सुविधा घोषित करती है। इसका [एप्लिकेशन इंटरफ़ेस संदर्भ](https://docs.ollama.com/api/openai-compatibility) `/v1/audio/speech` को v0.40.8 से जोड़ता है, इसलिए v0.40.11 इस सुविधा के दर्ज इतिहास का पहला संस्करण नहीं है।* यह **पाठ से वाणी** है, वाणी से पाठ नहीं। अनुरोध Phonon जैसे वाणी-मॉडल को पाठ भेजता है और लगातार ध्वनि लौटाता है। [वाणी मार्गदर्शिका](https://docs.ollama.com/capabilities/speech) में `ollama run phonon` से ध्वनि स्थानीय रूप से चलाने या WAV ध्वनि-फ़ाइल में सहेजने का उदाहरण है।
 
-**स्थानीय वाक् पथ** के लिए डाउनलोड किया हुआ local model और local server चाहिए। Ollama की [FAQ](https://docs.ollama.com/faq) कहती है कि server डिफ़ॉल्ट रूप से `127.0.0.1:11434` पर bind होता है और **`OLLAMA_HOST`** bind address बदलता है। पहले वाले `lsof` command से active listener जांचें, यह मानकर न चलें कि default अभी भी लागू है। Ollama का [API परिचय](https://docs.ollama.com/api/introduction) बताता है कि local requests को API key नहीं चाहिए। निजी text भेजने से पहले किसी भी व्यापक bind को firewall और access controls से सीमित करें।
+**स्थानीय वाक् सुविधा** के लिए डाउनलोड किया हुआ स्थानीय मॉडल और स्थानीय सर्वर चाहिए। Ollama की [अक्सर पूछे जाने वाले प्रश्न](https://docs.ollama.com/faq) बताती है कि सर्वर सामान्यतः `127.0.0.1:11434` पर सुनता है और **`OLLAMA_HOST`** उस पते को बदलता है। पहले दिए `lsof` निर्देश से चालू सुनने वाला पता जांचें, यह न मानें कि सामान्य पता अब भी लागू है। Ollama का [एप्लिकेशन इंटरफेस परिचय](https://docs.ollama.com/api/introduction) बताता है कि स्थानीय अनुरोधों के लिए API कुंजी नहीं चाहिए। निजी पाठ भेजने से पहले किसी व्यापक पते पर सुनने की सुविधा को फ़ायरवॉल और पहुंच-नियंत्रण से सीमित करें।
 
-**Loopback bind पूरी सीमा नहीं है।** Ollama अपने HTTP server को reverse proxy या tunnel से forward करने का तरीका बताता है। हर proxy का listener, authentication और request logging जांचें, भले Ollama स्वयं loopback पर ही सुन रहा हो। भेजा गया text और लौटा audio proxy connection से गुजरता है। Ollama की [समस्या-समाधान मार्गदर्शिका](https://docs.ollama.com/troubleshooting) server logs की पहचान करती है, लेकिन speech documentation audio retention का वादा नहीं करती। देखें कि clients WAV output कहां सहेजते हैं और proxy या application logs कहां बने रहते हैं। Ollama की FAQ कहती है कि local runs में Ollama prompts या data नहीं देखता। Model downloads को network चाहिए और cloud models अलग रास्ता अपनाते हैं। केवल Ollama local model setup के लिए ऊपर बताई `OLLAMA_NO_CLOUD=1` setting Ollama cloud features बंद करती है। यह दूसरी applications को नियंत्रित नहीं करती।
+**केवल इसी कंप्यूटर पर सुनना पूरी सुरक्षा-सीमा नहीं है।** Ollama अपने HTTP सर्वर को मध्यस्थ सर्वर या सुरंग के माध्यम से आगे भेजने का तरीका बताता है। Ollama स्वयं इसी कंप्यूटर पर सुन रहा हो, तब भी हर मध्यस्थ सर्वर का सुनने वाला पता, पहचान-जांच और अनुरोध-लेखांकन देखें। भेजा गया पाठ और लौटने वाली ध्वनि मध्यस्थ संपर्क से गुजरती है। Ollama की [समस्या-समाधान मार्गदर्शिका](https://docs.ollama.com/troubleshooting) सर्वर के लेखे दिखाती है, पर ध्वनि को कितने समय रखा जाएगा इसकी गारंटी नहीं देती। देखें कि उपयोगकर्ता WAV ध्वनि-फ़ाइल कहां सहेजते हैं और मध्यस्थ सर्वर या ऐप के लेखे कहां रहते हैं। Ollama के प्रश्नोत्तर के अनुसार स्थानीय संचालन में Ollama आपके अनुरोध या जानकारी नहीं देखता। मॉडल डाउनलोड करने के लिए नेटवर्क चाहिए और क्लाउड मॉडल अलग रास्ता अपनाते हैं। केवल Ollama की स्थानीय व्यवस्था में ऊपर दी गई `OLLAMA_NO_CLOUD=1` सेटिंग उसकी क्लाउड सुविधाएं बंद करती है। इससे दूसरे ऐप नियंत्रित नहीं होते।
 
 ## होस्टेड लागत गिनें
 
@@ -195,7 +195,7 @@ $549 GPU कीमत / $0.10 = लगभग 5.5 अरब आउटपुट �
 - [NVIDIA Blackwell GeForce RTX 50 Series लॉन्च घोषणा](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/)
 - [NVIDIA GeForce RTX 5070 परिवार विनिर्देश](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/)
 - [NVIDIA GeForce RTX 5070 उत्पाद पेज](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5070/)
-- [U.S. Energy Information Administration, अक्टूबर 2026 Short-Term Energy Outlook](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os)
+- [अमेरिकी ऊर्जा सूचना प्रशासन, अक्टूबर 2026 का अल्पकालिक ऊर्जा परिदृश्य](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os)
 - [Anthropic Claude Haiku 5.5](https://www.anthropic.com/claude/haiku)
 - [Anthropic Claude प्लेटफॉर्म कीमत](https://platform.claude.com/docs/en/about-claude/pricing)
 - [OpenAI, टोकन समझना और गिनना](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
@@ -204,6 +204,6 @@ $549 GPU कीमत / $0.10 = लगभग 5.5 अरब आउटपुट �
 - [Ollama वाक् मार्गदर्शिका](https://docs.ollama.com/capabilities/speech)
 - [Ollama OpenAI-संगतता API संदर्भ](https://docs.ollama.com/api/openai-compatibility)
 - [Ollama API परिचय](https://docs.ollama.com/api/introduction)
-- [Ollama FAQ: server configuration, cloud settings और reverse proxies](https://docs.ollama.com/faq)
-- [Ollama समस्या-समाधान और server logs](https://docs.ollama.com/troubleshooting)
+- [Ollama के प्रश्नोत्तर: सर्वर की व्यवस्था, क्लाउड विकल्प और मध्यस्थ सर्वर](https://docs.ollama.com/faq)
+- [Ollama समस्या-समाधान मार्गदर्शिका और सर्वर अभिलेख](https://docs.ollama.com/troubleshooting)
 - [llama.cpp सर्वर दस्तावेज](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)
