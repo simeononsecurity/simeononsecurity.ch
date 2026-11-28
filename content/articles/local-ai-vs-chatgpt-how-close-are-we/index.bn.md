@@ -1,7 +1,7 @@
 ---
 title: "স্থানীয় AI বনাম ChatGPT: আমরা আসলে কতটা কাছাকাছি?"
 date: 2026-10-06
-lastmod: 2026-11-13
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "বেঞ্চমার্ক স্কোর, মেমরি অনুমান, সার্ভিং গতি এবং এজেন্ট যাচাইয়ের মাধ্যমে স্থানীয় AI-এর সঙ্গে ChatGPT ও Claude-এর তুলনা করুন। RTX 5090, DGX Spark এবং Mac Studio-এর পরিস্থিতিও অন্তর্ভুক্ত।"
@@ -35,9 +35,9 @@ coverCaption: "স্থানীয় এবং হোস্টেড AI-এ�
 | **Qwen3.8 27B, xhigh** | 34 | ডাউনলোডযোগ্য ওজন |
 | **GLM-5.3, max** | 45 | ডাউনলোডযোগ্য ওজন |
 | **GPT-6 Astra, max** | 53 | হোস্টেড সার্ভিস |
-| **Claude Opus 5.5, max with fallback** | 58 | হোস্টেড সার্ভিস |
+| **Claude Opus 5.5, max, ফলব্যাকসহ** | 58 | হোস্টেড সার্ভিস |
 
-**ইনডেক্স পয়েন্ট** বুদ্ধিমত্তা বা কাজের সাফল্যের শতাংশ নয়। GLM ও Claude-এর ১৩ পয়েন্ট ব্যবধান আপনার কোডিং ফলাফলে ১৩% ব্যবধান প্রমাণ করে না। একই মডেলের এন্ট্রি তুলনায় reasoning সেটিংও গুরুত্বপূর্ণ।
+**ইনডেক্স পয়েন্ট** বুদ্ধিমত্তা বা কাজের সাফল্যের শতাংশ নয়। GLM ও Claude-এর ১৩ পয়েন্ট ব্যবধান আপনার কোডিং ফলাফলে ১৩% ব্যবধান প্রমাণ করে না। একই মডেলের এন্ট্রি তুলনায় রিজনিং সেটিংও গুরুত্বপূর্ণ।
 
 [প্রকাশিত মূল্যায়ন পদ্ধতি](https://artificialanalysis.ai/methodology/intelligence-benchmarking) পরীক্ষার পরিবেশ ব্যাখ্যা করে। কিছু পরীক্ষায় টুল ও এজেন্ট অবকাঠামো থাকে। অন্য অ্যাপ্লিকেশনে চলা সংকুচিত স্থানীয় কপিতে স্কোর সরাসরি প্রয়োগ করবেন না।
 
@@ -45,18 +45,18 @@ coverCaption: "স্থানীয় এবং হোস্টেড AI-এ�
 
 ## পুরো অনুরোধের বাজেট করুন
 
-**মেমরি ফিট** তিনটি বরাদ্দ দিয়ে শুরু হয়। মডেল ওজন শেখা প্যারামিটার রাখে। কী-ভ্যালু ক্যাশ, বা **KV ক্যাশ**, ইনফারেন্সে ব্যবহৃত attention তথ্য ধরে রাখে। রানটাইম বাফার ও সফটওয়্যার বাকি জায়গা ব্যবহার করে।
+**মেমরি ফিট** তিনটি বরাদ্দ দিয়ে শুরু হয়। মডেল ওজন শেখা প্যারামিটার রাখে। কী-ভ্যালু ক্যাশ, বা **KV ক্যাশ**, ইনফারেন্সে ব্যবহৃত অ্যাটেনশন তথ্য ধরে রাখে। রানটাইম বাফার ও সফটওয়্যার বাকি জায়গা ব্যবহার করে।
 
 ```text
-প্রয়োজনীয় মেমরি = resident weights + context cache + runtime allowance
-উপলভ্য মেমরি = physical capacity - operating system and application reserve
+প্রয়োজনীয় মেমরি = স্থায়ী ওজন + কনটেক্সট ক্যাশ + রানটাইমের জন্য বরাদ্দ
+উপলভ্য মেমরি = মোট মেমরি ক্ষমতা - অপারেটিং সিস্টেম ও অ্যাপ্লিকেশনের জন্য সংরক্ষিত অংশ
 ```
 
 **কোয়ান্টাইজেশন** মডেল ওজনের সংরক্ষণ নির্ভুলতা কমায়। কম নির্ভুলতায় মেমরি কম লাগে, তবে মান মডেল ও কোয়ান্টাইজড বিল্ডের উপর নির্ভর করে। ক্যাশের নির্ভুলতা আলাদা সেটিং। Q4 ওজন ফাইল চার-বিট ক্যাশ প্রমাণ করে না।
 
 ২৭ বিলিয়ন প্যারামিটারে ১৬ বিটে প্রায় ৫০.৩ GiB, ৮ বিটে ২৫.১ GiB এবং ৪ বিটে ১২.৬ GiB লাগে। **প্রকাশিত ফাইলের আকার** মেটাডেটা, প্যাকিং এবং মিশ্র নির্ভুলতাও ধরে। পরিকল্পনায় নির্দিষ্ট ফাইল ব্যবহার করুন।
 
-[Qwen3.8-27B মডেল কার্ড](https://huggingface.co/Qwen/Qwen3.8-27B) এবং [GLM-5.3 মডেল কার্ড](https://huggingface.co/zai-org/GLM-5.3) আলাদা আর্কিটেকচার বর্ণনা করে। **Mixture-of-experts মডেল** প্রতি টোকেনে প্যারামিটারের একটি অংশ সক্রিয় করে, কিন্তু বাকি ওজন সংরক্ষণে লাগে। Offloading স্থান ও latency বদলায়, ওজন বাদ দেয় না।
+[Qwen3.8-27B মডেল কার্ড](https://huggingface.co/Qwen/Qwen3.8-27B) এবং [GLM-5.3 মডেল কার্ড](https://huggingface.co/zai-org/GLM-5.3) আলাদা আর্কিটেকচার বর্ণনা করে। **মিশ্র-বিশেষজ্ঞ (MoE) মডেল** প্রতি টোকেনে প্যারামিটারের একটি অংশ সক্রিয় করে, কিন্তু বাকি ওজন সংরক্ষণে লাগে। অফলোডিংয়ের ফলে জায়গা ও লেটেন্সি বদলায়, তবে ওজনের প্রয়োজন কমে না।
 
 ## প্রকাশিত ফাইল দিয়ে শুরু করুন
 
@@ -69,54 +69,54 @@ coverCaption: "স্থানীয় এবং হোস্টেড AI-এ�
 | **GLM-5.3 UD-Q4_K_XL** | 467 | 434.9 |
 | **GLM-5.3 UD-IQ2_M** | 239 | 222.6 |
 
-**ফাইলের উৎস:** [Qwen Q4_0](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/blob/main/Qwen3.8-27B-Q4_0.gguf), [Qwen Q8_0](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/blob/main/Qwen3.8-27B-Q8_0.gguf), [GLM UD-Q4_K_XL shards](https://huggingface.co/unsloth/GLM-5.3-GGUF/tree/main/UD-Q4_K_XL), এবং [GLM UD-IQ2_M shards](https://huggingface.co/unsloth/GLM-5.3-GGUF/tree/main/UD-IQ2_M)। মানগুলি ৬ অক্টোবর ২০২৬-এর যাচাই করা rounded listing। GiB রূপান্তরে দশমিক bytes-কে 2³⁰ দিয়ে ভাগ করা হয়েছে।
+**ফাইলের উৎস:** [Qwen Q4_0](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/blob/main/Qwen3.8-27B-Q4_0.gguf), [Qwen Q8_0](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/blob/main/Qwen3.8-27B-Q8_0.gguf), [GLM UD-Q4_K_XL শার্ড ফাইল](https://huggingface.co/unsloth/GLM-5.3-GGUF/tree/main/UD-Q4_K_XL), এবং [GLM UD-IQ2_M শার্ড ফাইল](https://huggingface.co/unsloth/GLM-5.3-GGUF/tree/main/UD-IQ2_M)। মানগুলি ৬ অক্টোবর ২০২৬-এ যাচাই করা তালিকার গোল করা আকার। GiB-তে রূপান্তরের জন্য দশমিক বাইটকে 2³⁰ দিয়ে ভাগ করা হয়েছে।
 
-এগুলি **ওজন ফাইলের আকার**, মোট resident-memory মাপ নয়। লোডিং, ক্যাশ, অস্থায়ী বাফার এবং অন্যান্য মডেল অংশ চলমান প্রক্রিয়াকে প্রভাবিত করে। একক রূপান্তর ছাড়া ২৯ GB ডাউনলোডকে ৩০ GiB বরাদ্দের সঙ্গে তুলনা করবেন না।
+এগুলি **ওজন ফাইলের আকার**, চলমান অবস্থায় মোট মেমরি ব্যবহারের মাপ নয়। লোডিং, ক্যাশ, অস্থায়ী বাফার এবং মডেলের অন্যান্য অংশ চলমান প্রক্রিয়ার মেমরি ব্যবহার বাড়ায়। একক রূপান্তর ছাড়া ২৯ GB ডাউনলোডকে ৩০ GiB বরাদ্দের সঙ্গে তুলনা করবেন না।
 
 ## কনটেক্সট ফিট বদলে দেয়
 
-**Qwen attention cache** একটি হিসাবের উদাহরণ। এর [প্রকাশিত কনফিগারেশন](https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/config.json)-এ ৬৪ স্তর, প্রতি চতুর্থ স্তরে full attention, চারটি key-value head এবং ২৫৬ head dimension আছে।
+**Qwen-এর অ্যাটেনশন ক্যাশ** একটি হিসাবের উদাহরণ। এর [প্রকাশিত কনফিগারেশন](https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/config.json)-এ ৬৪টি স্তর, প্রতি চতুর্থ স্তরে পূর্ণ অ্যাটেনশন, চারটি কী-ভ্যালু হেড এবং ২৫৬টি হেডের মাত্রা আছে।
 
 ```text
 প্রতি টোকেনে পূর্ণ-অ্যাটেনশন KV বাইট:
-16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes
-= 65,536 bytes
+16 স্তর × 4 KV হেড × 256 মাত্রা × 2 (K ও V) × 2 বাইট
+= 65,536 বাইট
 
-8,192 tokens  = 0.5 GiB
-32,768 tokens = 2.0 GiB
+8,192 টোকেন = 0.5 GiB
+32,768 টোকেন = 2.0 GiB
 ```
 
-এই **হিসাব করা cache component** একটি sequence-এর ১৬-বিট key ও value ধরে। Linear-attention state, runtime buffer, allocator overhead এবং ঐচ্ছিক vision বা speculative-decoding component এতে নেই। সেগুলোর জন্যও reserve দরকার।
+এই **হিসাব করা ক্যাশ অংশে** একটি সিকোয়েন্সের ১৬-বিট কী ও মান ধরা হয়েছে। এতে লিনিয়ার-অ্যাটেনশন স্টেট, রানটাইম বাফার, মেমরি বরাদ্দকারীর অতিরিক্ত ব্যবহার এবং ঐচ্ছিক ভিশন বা স্পেকুলেটিভ ডিকোডিং অংশ নেই। সেগুলোর জন্যও মেমরি সংরক্ষণ করতে হবে।
 
-**উদাহরণ পরিকল্পনা বাজেটে** rounded weight size-এর সঙ্গে বাকি বরাদ্দের জন্য ৩–৫ GiB যোগ করুন। নির্বাচিত runtime-এর মাপ দিয়ে এই অনুমান বদলান।
+**উদাহরণ পরিকল্পনা বাজেটে** গোল করা ওজনের আকারের সঙ্গে বাকি বরাদ্দের জন্য ৩–৫ GiB যোগ করুন। নির্বাচিত রানটাইমের মাপ দিয়ে এই অনুমান বদলান।
 
-| বিল্ড ও কনটেক্সট | হিসাব করা planning range |
+| মডেল বিল্ড ও কনটেক্সট | হিসাব করা পরিকল্পনার পরিসর |
 |---|---|
 | **Qwen Q4_0, 8K** | 18.5–20.5 GiB |
 | **Qwen Q8_0, 8K** | 30.5–32.5 GiB |
 | **Qwen Q8_0, 32K** | 32.0–34.0 GiB |
 
-**৩০ GiB ব্যবহারযোগ্য বরাদ্দ** Q4 উদাহরণের জন্য যথেষ্ট জায়গা রাখে, কিন্তু এই অনুমানে Q8 পরিস্থিতি তা অতিক্রম করে। ছোট prompt সফল হওয়া দীর্ঘ coding session-এর ক্ষমতা প্রমাণ করে না।
+**৩০ GiB ব্যবহারযোগ্য বরাদ্দ** Q4 উদাহরণের জন্য যথেষ্ট জায়গা রাখে, কিন্তু এই অনুমানে Q8 পরিস্থিতি তা অতিক্রম করে। ছোট প্রম্পট সফল হওয়া দীর্ঘ কোডিং সেশনের সক্ষমতা প্রমাণ করে না।
 
-**একসঙ্গে চলা অনুরোধ** আরও একটি মাত্রা যোগ করে। Ollama parallel request-এ context-memory বৃদ্ধি এবং আলাদা cache-precision control নথিভুক্ত করে। Q8 cache প্রায় F16 cache-এর অর্ধেক মেমরি এবং Q4 প্রায় এক-চতুর্থাংশ ব্যবহার করে। মডেলভেদে মানের সমঝোতা থাকে। [Ollama runtime FAQ](https://docs.ollama.com/faq) দেখুন।
+**একসঙ্গে চলা অনুরোধ** মেমরির ব্যবহার আরও বাড়ায়। Ollama-র নথিতে সমান্তরাল অনুরোধে কনটেক্সট ক্যাশের মেমরি বৃদ্ধি এবং ক্যাশের নির্ভুলতা আলাদাভাবে নিয়ন্ত্রণের কথা বলা হয়েছে। Q8 ক্যাশে F16 ক্যাশের প্রায় অর্ধেক এবং Q4 ক্যাশে প্রায় এক-চতুর্থাংশ মেমরি লাগে। মডেলভেদে মানের সমঝোতা থাকে। [Ollama-র রানটাইম-সংক্রান্ত FAQ](https://docs.ollama.com/faq) দেখুন।
 
 ## হার্ডওয়ার বরাদ্দের সঙ্গে মেলান
 
-**RTX 5090**-এ ৩২ GB dedicated graphics memory আছে। ১২৮ GB-এর DGX Spark shared memory ব্যবহার করে। Artificial Analysis দুই কনফিগারেশনই নথিভুক্ত করে। বেশি capacity বড় allocation দেয়, সার্ভিং গতি প্রমাণ করে না।
+**RTX 5090**-এ ৩২ GB নির্দিষ্ট গ্রাফিক্স মেমরি আছে। ১২৮ GB-এর DGX Spark ভাগ করা মেমরি ব্যবহার করে। Artificial Analysis দুই কনফিগারেশনই নথিভুক্ত করেছে। বেশি ধারণক্ষমতা বড় বরাদ্দের সুযোগ দেয়, কিন্তু সার্ভিং গতি প্রমাণ করে না।
 
 | হার্ডওয়ার পরিস্থিতি | ব্যবহারিক অর্থ |
 |---|---|
-| **RTX 5090, 32 GB** | Qwen Q4, Q8-এর চেয়ে বেশি context headroom রাখে |
-| **DGX Spark, 128 GB** | দুই Qwen build-এর জন্য জায়গা, runtime overhead এখনও দরকার |
-| **Mac Studio, 256 GB** | বড় weight set প্রার্থী, runtime ও allocation সীমার অধীন |
+| **RTX 5090, 32 GB** | Qwen Q4, Q8-এর চেয়ে বেশি কনটেক্সট মেমরি রাখে |
+| **DGX Spark, 128 GB** | দুই Qwen মডেল বিল্ডের জন্য জায়গা, রানটাইমের অতিরিক্ত মেমরি এখনও দরকার |
+| **Mac Studio, 256 GB** | বড় ওজনসমষ্টির সম্ভাব্য বিকল্প, রানটাইম ও বরাদ্দের সীমার অধীন |
 
-**GLM UD-Q4_K_XL** cache যোগ করার আগেই তিন capacity অতিক্রম করে। প্রায় ২২২.৬ GiB IQ2 weight set-ও ১২৮ GB system-এর চেয়ে বড়। ২৫৬ GB Mac-এ কার্যকারিতা GPU-accessible allocation এবং বাকি overhead-এর উপর নির্ভর করে। [Apple specifications](https://www.apple.com/mac-studio/specs/) hardware option বলে, guaranteed inference allocation নয়।
+**GLM UD-Q4_K_XL** ক্যাশ যোগ করার আগেই তিনটি মেমরি ধারণক্ষমতাই অতিক্রম করে। প্রায় ২২২.৬ GiB-এর IQ2 ওজনসমষ্টিও ১২৮ GB সিস্টেমের চেয়ে বড়। ২৫৬ GB Mac-এ কার্যকারিতা GPU-তে ব্যবহারযোগ্য মেমরি বরাদ্দ এবং বাকি অতিরিক্ত মেমরির ওপর নির্ভর করে। [Apple-এর প্রযুক্তিগত বিবরণ](https://www.apple.com/mac-studio/specs/) একটি হার্ডওয়্যার বিকল্প জানায়, ইনফারেন্সের জন্য নিশ্চিত মেমরি বরাদ্দ নয়।
 
-**২৪০ GiB ব্যবহারযোগ্য বাজেট** IQ2 weight-এর পরে প্রায় ১৭.৪ GiB রাখে। ১৯২ GiB বাজেট weights-only পর্যায়েই ব্যর্থ। কোনওটিই OS default, compressed-cache support, useful throughput বা গ্রহণযোগ্য IQ2 quality প্রমাণ করে না। কেনার আগে চালু runtime configuration দেখুন।
+**২৪০ GiB ব্যবহারযোগ্য বাজেট** IQ2 ওজনের পরে প্রায় ১৭.৪ GiB রাখে। ১৯২ GiB বাজেট শুধু ওজনের হিসাবেই ব্যর্থ হয়। কোনওটিই OS-এর ডিফল্ট, সংকুচিত ক্যাশের সমর্থন, ব্যবহারযোগ্য থ্রুপুট বা গ্রহণযোগ্য IQ2 মান প্রমাণ করে না। কেনার আগে চালু রানটাইমের বিন্যাস পরীক্ষা করুন।
 
 ## গতি আলাদা ফল
 
-**Artificial Analysis local inference benchmark** ১৬৮ model turn-এর recorded workload replay করে। [Laptop এবং workstation results](https://artificialanalysis.ai/hardware-inference-stack/laptops-workstations/) পরীক্ষিত Qwen3.8 27B configuration-এর সময় দেখায়।
+**Artificial Analysis-এর স্থানীয় ইনফারেন্স বেঞ্চমার্কে** ১৬৮টি মডেল-পর্বের রেকর্ড করা কাজ পুনরায় চালানো হয়েছে। [ল্যাপটপ ও ওয়ার্কস্টেশনের ফলাফল](https://artificialanalysis.ai/hardware-inference-stack/laptops-workstations/) পরীক্ষিত Qwen3.8 27B কনফিগারেশনের সময় দেখায়।
 
 | সিস্টেম | পরিবেশন পুনঃচালনার সময় |
 |---|---|
@@ -124,82 +124,82 @@ coverCaption: "স্থানীয় এবং হোস্টেড AI-এ�
 | **RTX 5090** | 4.9 মিনিট |
 | **Mac Studio, 256 GB** | এই তুলনায় ফল নেই |
 
-RTX ফল Spark সময়ের প্রায় এক-পঞ্চমাংশ। **Serving configuration গুরুত্বপূর্ণ**, তাই এটি universal hardware ratio নয়। পরীক্ষিত serving build-ও উপরের GGUF planning example থেকে আলাদা।
+RTX-এর সময় Spark-এর প্রায় এক-পঞ্চমাংশ। **সার্ভিং কনফিগারেশন গুরুত্বপূর্ণ**, তাই এটি হার্ডওয়্যারের সর্বজনীন অনুপাত নয়। পরীক্ষিত সার্ভিং বিল্ডও উপরের GGUF পরিকল্পনার উদাহরণ থেকে আলাদা।
 
-**Replay timing** tool execution বাদ দেয় এবং recorded response length চাপিয়ে দেয়। এটি উত্তরটি মূল কাজ সমাধান করেছে কি না মাপে না। MacBook measurement Mac Studio performance প্রমাণ করে না।
+**পুনরায় চালানোর সময়** টুলের কাজ সম্পাদন বাদ দেয় এবং রেকর্ড করা উত্তরের দৈর্ঘ্য নির্দিষ্ট করে দেয়। এটি মাপে না উত্তরটি মূল কাজ সমাধান করেছে কি না। MacBook-এর পরিমাপ Mac Studio-র কর্মক্ষমতা প্রমাণ করে না।
 
 ## এজেন্টকে প্রতিক্রিয়া দিন
 
-একটি **agent execution system** tool, context, action loop এবং verification দেয়। মডেল ওই ব্যবস্থার মধ্যে action লেখে বা বেছে নেয়। CSV export-এ project file পড়া, code বদলানো, test চালানো এবং error পাওয়া দরকার।
+একটি **এজেন্ট পরিচালনাব্যবস্থা** সরঞ্জাম, কনটেক্সট, কাজের পুনরাবৃত্ত চক্র এবং যাচাইয়ের ব্যবস্থা দেয়। মডেল ওই ব্যবস্থার মধ্যে কাজের ধাপ লেখে বা বেছে নেয়। CSV রপ্তানির কাজে প্রকল্পের ফাইল পড়া, কোড বদলানো, পরীক্ষা চালানো এবং ত্রুটি পাওয়া দরকার।
 
-একটি **illustrative export task** বিবেচনা করুন, measured experiment নয়। এজেন্ট download feature লেখে কিন্তু ভুল date format ব্যবহার করে। Visual review ভুলটি দেখে না। Test exported file খুলে তার date required format-এর সঙ্গে তুলনা করে। এজেন্ট failure পায়, formatter বদলায় এবং check আবার চালায়।
+একটি **উদাহরণস্বরূপ রপ্তানির কাজ** বিবেচনা করুন, এটি পরিমাপভিত্তিক পরীক্ষা নয়। এজেন্ট ডাউনলোডের সুবিধা তৈরি করে, কিন্তু তারিখের ভুল বিন্যাস ব্যবহার করে। চোখে দেখে পর্যালোচনায় ভুলটি ধরা পড়ে না। পরীক্ষা রপ্তানি করা ফাইল খুলে তারিখটি নির্ধারিত বিন্যাসের সঙ্গে মেলায়। এজেন্ট ত্রুটি পায়, বিন্যাসকারী বদলায় এবং যাচাই আবার চালায়।
 
 | অনুপস্থিত অংশ | সম্ভাব্য ব্যর্থতা |
 |---|---|
-| **Relevant context** | unrelated file edit করে |
-| **Execution tools** | fix প্রয়োগ না করে বর্ণনা করে |
-| **Verification step** | plausible code-এর পর থামে |
-| **Error feedback** | ব্যর্থ পদ্ধতি পুনরাবৃত্তি করে |
+| **প্রাসঙ্গিক কনটেক্সট** | সম্পর্কহীন ফাইল সম্পাদনা করে |
+| **কাজের সরঞ্জাম** | সমাধান প্রয়োগ না করে শুধু বর্ণনা করে |
+| **যাচাইয়ের ধাপ** | দেখতে ঠিকঠাক কোডের পর থেমে যায় |
+| **ত্রুটির প্রতিক্রিয়া** | ব্যর্থ পদ্ধতিই আবার ব্যবহার করে |
 
-**LangChain reports** GPT-5.2-Codex স্থির রেখে Terminal Bench 2.0-এ ৫২.৮% থেকে ৬৬.৫%-এ পরিবর্তন। [Agent engineering report](https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering)-এ verification guidance, environment context, repeated-edit detection এবং reasoning-budget change বর্ণিত।
+**LangChain-এর প্রতিবেদনে** GPT-5.2-Codex অপরিবর্তিত রেখে Terminal Bench 2.0-এর ফল ৫২.৮% থেকে ৬৬.৫%-এ উন্নীত হয়েছে। [এজেন্ট প্রকৌশল প্রতিবেদন](https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering)-এ যাচাইয়ের নির্দেশনা, পরিবেশের কনটেক্সট, বারবার সম্পাদনা শনাক্তকরণ এবং রিজনিং বাজেটের পরিবর্তন বর্ণিত হয়েছে।
 
-এটি **vendor-reported evidence**, ছোট local model frontier model-এর সমান এমন প্রমাণ নয়। সীমিত সিদ্ধান্ত হলো model selection একা agent outcome ব্যাখ্যা করে না। LangChain maximum reasoning সব সময় চালালে timeout-এর কারণে খারাপ ফলও জানায়।
+এটি **বিক্রেতার দেওয়া প্রমাণ**, ছোট স্থানীয় মডেল সর্বোচ্চ সক্ষমতার মডেলের সমান, এমন প্রমাণ নয়। সীমিত সিদ্ধান্ত হলো, শুধু মডেল নির্বাচন এজেন্টের ফল ব্যাখ্যা করে না। LangChain আরও জানায়, সর্বোচ্চ রিজনিং সব সময় চালালে টাইমআউটের কারণে ফল খারাপ হতে পারে।
 
 ## কাজের সঙ্গে যাচাই মিলিয়ে নিন
 
-একটি **passing check** কেবল তার coverage প্রমাণ করে। Column name যাচাই করা CSV test date format, quoting, Unicode এবং access control পরীক্ষা করে না। কী ফল চাই তা আগে নির্ধারণ করুন।
+একটি **সফল যাচাই** কেবল তার পরিধির মধ্যে থাকা বিষয়ই প্রমাণ করে। কলামের নাম যাচাই করা CSV পরীক্ষা তারিখের বিন্যাস, উদ্ধৃতিচিহ্ন, Unicode এবং প্রবেশাধিকার নিয়ন্ত্রণ পরীক্ষা করে না। কী ফল চান তা আগে নির্ধারণ করুন।
 
-| কাজ | কার্যকর completion evidence |
+| কাজ | কার্যকর সম্পন্নতার প্রমাণ |
 |---|---|
-| **Code change** | relevant test এবং ফলের আচরণ পরিদর্শন |
-| **Research answer** | পৃথক claim সমর্থনকারী source |
-| **Booking বা refund** | সঠিক stored state এবং প্রযোজ্য policy |
-| **Document export** | চাওয়া field ও format মেলা parsed output |
+| **কোডের পরিবর্তন** | প্রাসঙ্গিক পরীক্ষা এবং ফলের আচরণ পরিদর্শন |
+| **গবেষণার উত্তর** | প্রতিটি দাবিকে সমর্থনকারী আলাদা উৎস |
+| **বুকিং বা ফেরত** | সংরক্ষিত সঠিক অবস্থা এবং প্রযোজ্য নীতি |
+| **নথি রপ্তানি** | চাওয়া ক্ষেত্র ও বিন্যাসের সঙ্গে মেলে এমন বিশ্লেষিত ফল |
 
-**τ-bench study** tool, user এবং domain rule-এর সঙ্গে কাজ করা agent পরীক্ষা করে। [Research paper](https://arxiv.org/abs/2406.12045) final database state expected outcome-এর সঙ্গে মিলিয়ে দেখে। তাই transaction-এর জন্য fluent confirmation যথেষ্ট নয়।
+**τ-bench গবেষণা** সরঞ্জাম, ব্যবহারকারী এবং বিষয়ভিত্তিক নিয়মের সঙ্গে কাজ করা এজেন্টকে পরীক্ষা করে। [গবেষণাপত্র](https://arxiv.org/abs/2406.12045) চূড়ান্ত ডেটাবেসের অবস্থা প্রত্যাশিত ফলের সঙ্গে মেলায়। তাই লেনদেন সফল হয়েছে বলার জন্য সাবলীল নিশ্চয়তাই যথেষ্ট নয়।
 
 ## স্থানীয় মানে অফলাইন নয়
 
-**Local inference** মডেল কোথায় চলে তা নিয়ন্ত্রণ করে। চারপাশের application এখনও ঠিক করে document, search query, trace এবং tool result কোথায় যায়। Remote search বা cloud tool-এ যুক্ত local coding model networked system।
+**স্থানীয় ইনফারেন্স** মডেল কোথায় চলে তা নিয়ন্ত্রণ করে। চারপাশের অ্যাপ্লিকেশন এখনও ঠিক করে নথি, অনুসন্ধান-প্রশ্ন, ট্রেস এবং টুলের ফল কোথায় যায়। দূরবর্তী অনুসন্ধান বা ক্লাউড টুলে যুক্ত স্থানীয় কোডিং মডেলও নেটওয়ার্ক-সংযুক্ত ব্যবস্থা।
 
-Ollama বলে local execution-এ prompt বা answer পায় না এবং cloud feature বন্ধ করার পদ্ধতি নথিভুক্ত করে। এটি **runtime-specific statement**, প্রতিটি connected agent-এর privacy guarantee নয়। [Runtime documentation](https://docs.ollama.com/faq) দেখে endpoint ও integration যাচাই করুন।
+Ollama জানায়, স্থানীয়ভাবে চালালে তারা প্রম্পট বা উত্তর পায় না এবং ক্লাউড সুবিধা বন্ধ করার পদ্ধতিও নথিভুক্ত করেছে। এটি **রানটাইম-নির্দিষ্ট বক্তব্য**, সংযুক্ত প্রতিটি এজেন্টের গোপনীয়তার নিশ্চয়তা নয়। [রানটাইমের নথি](https://docs.ollama.com/faq) দেখে এন্ডপয়েন্ট ও ইন্টিগ্রেশন যাচাই করুন।
 
-| Data path | কী পরীক্ষা করবেন |
+| ডেটার প্রবাহ | কী পরীক্ষা করবেন |
 |---|---|
-| **Inference endpoint** | local process, remote server বা automatic fallback |
-| **অনুসন্ধান ও পুনরুদ্ধার** | বাইরে পাঠানো query ও document fragment |
-| **Tool connections** | প্রতিটি service-এ প্রকাশিত file ও record |
-| **লগ ও ট্রেস** | storage location, retained content এবং access |
+| **ইনফারেন্স এন্ডপয়েন্ট** | স্থানীয় প্রক্রিয়া, দূরবর্তী সার্ভার বা স্বয়ংক্রিয় বিকল্প ব্যবস্থা |
+| **অনুসন্ধান ও পুনরুদ্ধার** | বাইরে পাঠানো অনুসন্ধান-প্রশ্ন ও নথির অংশ |
+| **টুল সংযোগ** | প্রতিটি সেবায় প্রকাশিত ফাইল ও রেকর্ড |
+| **লগ ও ট্রেস** | সংরক্ষণের স্থান, রেখে দেওয়া বিষয়বস্তু এবং প্রবেশাধিকার |
 
-একটি **hybrid workflow**-এর স্পষ্ট handoff rule দরকার। Private document extraction local রাখুন, approved aggregate result-ই hosted analysis-এ পাঠান। বাইরে যাওয়া উপাদান পরীক্ষা করুন। Name, customer detail বা confidential finding থাকলে summary-ও sensitive।
+একটি **হাইব্রিড কর্মপ্রবাহে** স্পষ্ট হস্তান্তর-নিয়ম দরকার। ব্যক্তিগত নথি থেকে তথ্য সংগ্রহ স্থানীয়ভাবে রাখুন, আর কেবল অনুমোদিত সারসংক্ষেপ হোস্টেড বিশ্লেষণে পাঠান। বাইরে যাওয়া উপাদান পরীক্ষা করুন। নাম, গ্রাহকের বিবরণ বা গোপনীয় তথ্য থাকলে সারসংক্ষেপও সংবেদনশীল।
 
 ## কেনার আগে পরীক্ষা করুন
 
-স্পষ্ট finish condition-সহ **repeated task** বেছে নিন। Tool-সহ local setup-কে ব্যবহৃত hosted product-এর সঙ্গে তুলনা করুন। একই input ও acceptance criteria দিন, কয়েকটি representative example-এ কাজটি পুনরাবৃত্তি করুন।
+স্পষ্ট সমাপ্তির শর্তসহ **বারবার চালানো কাজ** বেছে নিন। টুলসহ স্থানীয় সেটআপকে ব্যবহৃত হোস্টেড পণ্যের সঙ্গে তুলনা করুন। একই ইনপুট ও গ্রহণযোগ্যতার মানদণ্ড দিন, কয়েকটি প্রতিনিধিত্বমূলক উদাহরণে কাজটি পুনরাবৃত্তি করুন।
 
-1. **Configuration record করুন:** exact model file, quantization, backend version, context limit এবং reasoning setting।
-2. **Success define করুন:** expected artifact, required behavior এবং forbidden side effect।
-3. **Completion মাপুন:** elapsed time, passed check, failed attempt এবং manual repair।
-4. **Ownership cost যোগ করুন:** hardware, electricity, API fee, maintenance এবং আপনার সময়।
-5. **Failure classify করুন:** reasoning error, memory limit, latency, missing context অথবা missing verification।
+1. **কনফিগারেশন লিখে রাখুন:** নির্দিষ্ট মডেল ফাইল, কোয়ান্টাইজেশন, ব্যাকএন্ড সংস্করণ, কনটেক্সট সীমা এবং রিজনিং সেটিং।
+2. **সাফল্য নির্ধারণ করুন:** প্রত্যাশিত আউটপুট, প্রয়োজনীয় আচরণ এবং নিষিদ্ধ পার্শ্বপ্রতিক্রিয়া।
+3. **সম্পন্ন হওয়া মাপুন:** অতিবাহিত সময়, উত্তীর্ণ পরীক্ষা, ব্যর্থ চেষ্টা এবং হাতে করা মেরামত।
+4. **মালিকানার খরচ যোগ করুন:** হার্ডওয়্যার, বিদ্যুৎ, API ফি, রক্ষণাবেক্ষণ এবং আপনার সময়।
+5. **ব্যর্থতার ধরন নির্ধারণ করুন:** রিজনিংয়ের ত্রুটি, মেমরির সীমা, লেটেন্সি, অনুপস্থিত কনটেক্সট অথবা অনুপস্থিত যাচাই।
 
-**Local inference** উপযুক্ত যখন measured quality ও latency আপনার চাহিদা পূরণ করে। অতিরিক্ত capability failure বা review effort কমালে hosted model উপকারী থাকে। কোন data machine-এর বাইরে যাবে তা ঠিক করে hybrid workflow task ভাগ করে।
+**স্থানীয় ইনফারেন্স** উপযুক্ত, যখন পরিমাপ করা গুণমান ও লেটেন্সি আপনার চাহিদা পূরণ করে। অতিরিক্ত সক্ষমতা ব্যর্থতা বা পর্যালোচনার শ্রম কমালে হোস্টেড মডেল উপকারী থাকে। কোন ডেটা মেশিনের বাইরে যাবে, তা নির্ধারণ করে হাইব্রিড কর্মপ্রবাহ কাজ ভাগ করে।
 
 ## গৃহীত ফলাফলের খরচ হিসাব করুন
 
-**Human repair time** অর্থনীতিকে বদলে দেয়। দশ মিনিট correction দরকার এমন দ্রুত local response, review পাস করা ধীর response-এর চেয়ে বেশি কাজের সময় খরচ করে। Inference expense-এর সঙ্গে accepted result গুনুন।
+**মানুষের হাতে সংশোধনের সময়** খরচের হিসাব বদলে দেয়। দশ মিনিট সংশোধন দরকার এমন দ্রুত স্থানীয় উত্তর, পর্যালোচনায় উত্তীর্ণ ধীর উত্তরের চেয়ে বেশি কাজের সময় খরচ করে। ইনফারেন্সের খরচের সঙ্গে গৃহীত ফলাফলের সংখ্যা হিসাব করুন।
 
 ```text
 গৃহীত প্রতিটি কাজের খরচ =
 (হার্ডওয়্যার বরাদ্দ + বিদ্যুৎ + পরিষেবা ফি + রক্ষণাবেক্ষণ + পর্যালোচনার সময়)
-÷ accepted tasks
+÷ গৃহীত কাজের সংখ্যা
 ```
 
-**Illustrative review cost:** ঘণ্টায় ৩০ ডলার ধরে আট মিনিট correction প্রতি task-এ ৪ ডলার। এমন ১০০ task-এ review time ৪০০ ডলার। এগুলি arithmetic example, measured local-model failure rate নয়।
+**পর্যালোচনার খরচের উদাহরণ:** ঘণ্টায় ৩০ ডলার ধরে আট মিনিট সংশোধনে প্রতি কাজে ৪ ডলার খরচ হয়। এমন ১০০টি কাজে পর্যালোচনার সময়ের খরচ ৪০০ ডলার। এগুলি গাণিতিক উদাহরণ, স্থানীয় মডেলের ব্যর্থতার পরিমাপ করা হার নয়।
 
-**সমতুল্য outcome তুলনা করুন।** rejected attempt-ও time ও cost-এ রাখুন। Owned hardware-এর purchase cost বাস্তব service period ও task volume-এ ভাগ করুন। Hosted service-এ subscription বা API expense এবং বাকি review work যোগ করুন।
+**সমতুল্য ফল তুলনা করুন।** বাতিল হওয়া চেষ্টার সময় ও খরচও ধরুন। নিজের হার্ডওয়্যারের কেনার খরচ বাস্তব ব্যবহারের মেয়াদ ও কাজের সংখ্যায় ভাগ করুন। হোস্টেড সেবার সাবস্ক্রিপশন বা API খরচ এবং বাকি পর্যালোচনার শ্রম যোগ করুন।
 
-Hardware-এর জন্য [local model, GPU এবং context guide](/articles/local-ai-model-gpu-context-guide/) পড়ুন। Capacity ও pricing-এর জন্য [DGX Spark memory comparison](/articles/dgx-spark-64gb-memory-crisis-2027/) পড়ুন। Quality, speed এবং data requirement পূরণ করা সবচেয়ে ছোট setup বেছে নিতে task result ব্যবহার করুন।
+হার্ডওয়্যারের জন্য [কোন স্থানীয় AI মডেল চালাবেন? অক্টোবর ২০২৬-এর GPU কনটেক্সট ও কোডিং গাইড](/articles/local-ai-model-gpu-context-guide/) পড়ুন। ধারণক্ষমতা ও দামের জন্য [64GB DGX Spark স্থানীয় AI হার্ডওয়্যারের দামের জন্য সতর্কবার্তা](/articles/dgx-spark-64gb-memory-crisis-2027/) পড়ুন। গুণমান, গতি এবং ডেটার চাহিদা পূরণ করা সবচেয়ে ছোট সেটআপ বেছে নিতে কাজের ফল ব্যবহার করুন।
 
 ## রেফারেন্স ভিডিও
 
@@ -211,6 +211,6 @@ Hardware-এর জন্য [local model, GPU এবং context guide](/article
 - **Artificial Analysis:** [মডেল ফল](https://artificialanalysis.ai/leaderboards/models), [মূল্যায়ন পদ্ধতি](https://artificialanalysis.ai/methodology/intelligence-benchmarking), এবং [স্থানীয় ইনফারেন্স ফল](https://artificialanalysis.ai/hardware-inference-stack/laptops-workstations/)।
 - **মডেল প্রকাশক:** [Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) এবং [GLM-5.3](https://huggingface.co/zai-org/GLM-5.3)।
 - **Unsloth:** [Qwen GGUF বিল্ড](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/tree/main) এবং [GLM GGUF বিল্ড](https://huggingface.co/unsloth/GLM-5.3-GGUF/tree/main)।
-- **Ollama:** [runtime, memory এবং privacy documentation](https://docs.ollama.com/faq)।
-- **LangChain:** [agent engineering ফল](https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering)।
+- **Ollama:** [রানটাইম, মেমরি ও গোপনীয়তা-সংক্রান্ত নথি](https://docs.ollama.com/faq)।
+- **LangChain:** [এজেন্ট প্রকৌশল প্রতিবেদন](https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering)।
 - **τ-bench:** [টুল-এজেন্ট-ব্যবহারকারী মূল্যায়ন গবেষণা](https://arxiv.org/abs/2406.12045)।

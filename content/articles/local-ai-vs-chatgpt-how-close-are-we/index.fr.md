@@ -1,7 +1,7 @@
 ---
 title: "IA locale contre ChatGPT : où en sommes-nous vraiment ?"
 date: 2026-10-06
-lastmod: 2026-11-13
+lastmod: "2026-11-27"
 toc: true
 draft: false
 description: "Comparez l'IA locale à ChatGPT et Claude avec des scores de référence, des estimations de mémoire, la vitesse de service et la vérification des agents. Inclut des scénarios RTX 5090, DGX Spark et Mac Studio."
@@ -79,11 +79,11 @@ Le **cache d'attention de Qwen** fournit un exemple calculé. Sa [configuration 
 
 ```text
 Octets KV en attention complète par jeton :
-16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes
-= 65,536 bytes
+16 couches × 4 têtes KV × 256 dimensions × 2 (K et V) × 2 octets
+= 65 536 octets
 
-8,192 tokens  = 0.5 GiB
-32,768 tokens = 2.0 GiB
+8 192 jetons = 0,5 GiB
+32 768 jetons = 2,0 GiB
 ```
 
 Ce **composant de cache calculé** suppose des clés et valeurs 16 bits pour une séquence. Il exclut l'état d'attention linéaire, les tampons d'exécution, la surcharge de l'allocateur et les composants optionnels de vision ou de décodage spéculatif. Ces allocations exigent encore une réserve.
@@ -143,6 +143,8 @@ Considérez une **tâche d'export indicative**, pas une expérience mesurée. L'
 
 **LangChain rapporte** un passage de 52,8 % à 66,5 % sur Terminal Bench 2.0 avec GPT-5.2-Codex constant. Son [rapport d'ingénierie des agents](https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering) décrit les consignes de vérification, le contexte de l'environnement, la détection des modifications répétées et les changements de budget de raisonnement.
 
+Il s’agit d’une **preuve rapportée par le fournisseur**, et non de la preuve qu’un petit modèle local égale un modèle de pointe. Cela étaye une conclusion plus limitée : le choix du modèle n’explique pas à lui seul les résultats des agents. LangChain indique également que l’utilisation systématique du raisonnement maximal a dégradé les résultats en raison des délais d’attente dépassés.
+
 ## Adapter les contrôles au travail
 
 Un **contrôle réussi** établit seulement ce qu'il couvre. Un test CSV qui valide les noms de colonnes laisse non testés le format des dates, les guillemets, Unicode et le contrôle d'accès. Définissez le résultat demandé avant de choisir la vérification.
@@ -197,11 +199,11 @@ Coût par tâche acceptée =
 
 **Comparez des résultats équivalents.** Incluez les essais rejetés dans le temps et le coût. Pour un matériel possédé, répartissez le prix d'achat sur une période d'utilisation et un volume de tâches réalistes. Pour un service hébergé, incluez l'abonnement ou les frais d'API applicables et le travail de revue restant.
 
-Pour les détails matériels, consultez le [guide des modèles locaux, GPU et contextes](/articles/local-ai-model-gpu-context-guide/). Pour les capacités et les prix, lisez la [comparaison mémoire DGX Spark](/articles/dgx-spark-64gb-memory-crisis-2027/). Utilisez vos résultats de tâches pour choisir la configuration minimale répondant à vos exigences de qualité, de vitesse et de données.
+Pour les détails matériels, consultez l’article [Quel modèle d'IA local devriez-vous exécuter ? Guide GPU, contexte et programmation pour octobre 2026](/articles/local-ai-model-gpu-context-guide/). Pour les capacités et les prix, consultez [Le DGX Spark de 64 Go est un signal d'alerte pour les prix du matériel d'IA locale](/articles/dgx-spark-64gb-memory-crisis-2027/). Utilisez vos résultats de tâches pour choisir la configuration minimale répondant à vos exigences de qualité, de vitesse et de données.
 
 ## Vidéo de référence
 
-{{< youtube id="siZ3f_06k8M" enable="true" title="Local AI vs ChatGPT: How Close Are We Really?" description="Local and hosted AI models, memory requirements, serving performance, and agent verification." >}}
+{{< youtube id="siZ3f_06k8M" enable="true" title="Local AI vs ChatGPT: How Close Are We Really?" description="Modèles d’IA locaux et hébergés, besoins en mémoire, performances d’inférence et vérification par des agents." >}}
 
 ## Références
 

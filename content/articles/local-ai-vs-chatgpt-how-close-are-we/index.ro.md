@@ -1,12 +1,12 @@
 ---
-title: "AI locală vs ChatGPT: cât de aproape suntem?"
+title: "AI locală comparată cu ChatGPT: cât de aproape suntem?"
 date: 2026-10-06
-lastmod: 2026-11-13
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Compară AI locală cu ChatGPT și Claude prin scoruri de benchmark, estimări de memorie, viteză de servire și verificarea agenților. Include RTX 5090, DGX Spark și Mac Studio."
 genre: ["AI locală", "Inteligență artificială", "Hardware AI", "Instrumente pentru dezvoltatori"]
-tags: ["AI locală vs ChatGPT", "AI locală vs Claude", "LLM local", "agenți AI", "greutăți open source", "Qwen3.8 27B", "GLM-5.3", "GPT-6 Astra", "Claude Opus 5.5", "RTX 5090", "DGX Spark", "Mac Studio", "cuantizare", "cache KV", "memorie unificată", "VRAM", "Artificial Analysis", "verificarea agenților", "inferință locală", "AI hibridă", "agenți de cod", "benchmarkuri AI"]
+tags: ["AI locală vs ChatGPT", "AI locală comparată cu Claude", "LLM local", "agenți AI", "greutăți open source", "Qwen3.8 27B", "GLM-5.3", "GPT-6 Astra", "Claude Opus 5.5", "RTX 5090", "DGX Spark", "Mac Studio", "cuantizare", "cache KV", "memorie unificată", "VRAM", "Artificial Analysis", "verificarea agenților", "inferință locală", "AI hibridă", "agenți de cod", "benchmarkuri AI"]
 cover: "/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp"
 coverAlt: "Stație de lucru conectată printr-o cale luminoasă la un nor abstract de puncte de rețea pe fundal întunecat"
 coverCaption: "Ilustrație conceptuală a AI locale și găzduite."
@@ -79,11 +79,11 @@ Pentru 27 de miliarde de parametri la 16 biți, greutățile cer aproximativ 50,
 
 ```text
 Octeți KV per token cu atenție completă:
-16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes
-= 65,536 bytes
+16 straturi × 4 capete KV × 256 de dimensiuni × 2 (K și V) × 2 octeți
+= 65.536 octeți
 
-8,192 tokens  = 0.5 GiB
-32,768 tokens = 2.0 GiB
+8.192 tokenuri = 0,5 GiB
+32.768 tokenuri = 2,0 GiB
 ```
 
 Acest **component calculat al cache-ului** presupune chei și valori de 16 biți pentru o secvență. Exclude starea atenției liniare, bufferele runtime, overheadul alocatorului și componentele opționale de viziune sau decodare speculativă. Păstrează rezervă pentru ele.
@@ -203,11 +203,11 @@ Pentru hardware, continuă cu [ghidul modelelor locale, GPU și context](/articl
 
 ## Videoclip de referință
 
-{{< youtube id="siZ3f_06k8M" enable="true" title="AI locală vs ChatGPT: cât de aproape suntem?" description="Modele AI locale și găzduite, necesarul de memorie, performanța servirii și verificarea agenților." >}}
+{{< youtube id="siZ3f_06k8M" enable="true" title="AI locală comparată cu ChatGPT: cât de aproape suntem?" description="Modele AI locale și găzduite, necesarul de memorie, performanța servirii și verificarea agenților." >}}
 
 ## Referințe
 
-- **AI Mechanics:** [AI locală vs ChatGPT: cât de aproape suntem?](https://www.youtube.com/watch?v=siZ3f_06k8M).
+- **AI Mechanics:** [AI locală comparată cu ChatGPT: cât de aproape suntem?](https://www.youtube.com/watch?v=siZ3f_06k8M).
 - **Artificial Analysis:** [rezultate modele](https://artificialanalysis.ai/leaderboards/models), [metodologia evaluării](https://artificialanalysis.ai/methodology/intelligence-benchmarking) și [rezultate inferență locală](https://artificialanalysis.ai/hardware-inference-stack/laptops-workstations/).
 - **Editorii modelelor:** [Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) și [GLM-5.3](https://huggingface.co/zai-org/GLM-5.3).
 - **Unsloth:** [builduri Qwen GGUF](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/tree/main) și [builduri GLM GGUF](https://huggingface.co/unsloth/GLM-5.3-GGUF/tree/main).

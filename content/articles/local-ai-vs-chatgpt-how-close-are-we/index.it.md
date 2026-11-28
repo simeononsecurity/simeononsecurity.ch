@@ -1,7 +1,7 @@
 ---
 title: "IA locale contro ChatGPT: quanto siamo davvero vicini?"
 date: 2026-10-06
-lastmod: 2026-11-13
+lastmod: "2026-11-27"
 toc: true
 draft: false
 description: "Confronta l'IA locale con ChatGPT e Claude usando punteggi benchmark, stime della memoria, velocità di servizio e verifica degli agenti. Include scenari con RTX 5090, DGX Spark e Mac Studio."
@@ -79,11 +79,11 @@ La **cache di attenzione di Qwen** offre un esempio calcolato. La [configurazion
 
 ```text
 Byte KV per token con attenzione completa:
-16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes
-= 65,536 bytes
+16 strati × 4 teste KV × 256 dimensioni × 2 (K e V) × 2 byte
+= 65.536 byte
 
-8,192 tokens  = 0.5 GiB
-32,768 tokens = 2.0 GiB
+8.192 token = 0,5 GiB
+32.768 token = 2,0 GiB
 ```
 
 Questo **componente di cache calcolato** presume chiavi e valori a 16 bit per una sequenza. Esclude stato dell'attenzione lineare, buffer del runtime, overhead dell'allocatore e componenti opzionali di visione o speculative decoding. Serve spazio anche per queste allocazioni.
@@ -143,6 +143,8 @@ Considera un'**attività di export indicativa**, non un esperimento misurato. L'
 
 **LangChain riporta** un passaggio dal 52,8% al 66,5% su Terminal Bench 2.0 mantenendo fisso GPT-5.2-Codex. Il suo [rapporto sull'ingegneria degli agenti](https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering) descrive indicazioni di verifica, contesto dell'ambiente, rilevamento di modifiche ripetute e cambiamenti al budget di ragionamento.
 
+Questa è **una prova riferita dal fornitore**, non la dimostrazione che un piccolo modello locale eguagli un modello di frontiera. Sostiene una conclusione più circoscritta: la sola scelta del modello non spiega i risultati degli agenti. LangChain riferisce anche risultati peggiori con il ragionamento massimo attivo per tutto il tempo, a causa dei timeout.
+
 ## Abbinare i controlli al lavoro
 
 Un **controllo superato** dimostra solo ciò che copre. Un test CSV che valida i nomi delle colonne lascia non verificati formato delle date, virgolette, Unicode e controllo degli accessi. Definisci il risultato richiesto prima di scegliere la verifica.
@@ -201,7 +203,7 @@ Per i dettagli hardware, continua con la [guida a modello locale, GPU e contesto
 
 ## Video di riferimento
 
-{{< youtube id="siZ3f_06k8M" enable="true" title="Local AI vs ChatGPT: How Close Are We Really?" description="Local and hosted AI models, memory requirements, serving performance, and agent verification." >}}
+{{< youtube id="siZ3f_06k8M" enable="true" title="Local AI vs ChatGPT: How Close Are We Really?" description="Modelli di IA locali e ospitati, requisiti di memoria, prestazioni di inferenza e verifica degli agenti." >}}
 
 ## Riferimenti
 

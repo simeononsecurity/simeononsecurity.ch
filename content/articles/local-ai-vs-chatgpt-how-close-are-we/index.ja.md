@@ -1,7 +1,7 @@
 ---
 title: "ローカルAIとChatGPTの比較。本当にどこまで近づいたのか"
 date: 2026-10-06
-lastmod: 2026-11-13
+lastmod: "2026-11-27"
 toc: true
 draft: false
 description: "ベンチマークスコア、メモリ見積もり、サービング速度、エージェント検証を使い、ローカルAIとChatGPTおよびClaudeを比較します。RTX 5090、DGX Spark、Mac Studioの構成も扱います。"
@@ -35,7 +35,7 @@ coverCaption: "ローカルAIとホスト型AIの概念図。"
 | **Qwen3.8 27B, xhigh** | 34 | ダウンロード可能なウェイト |
 | **GLM-5.3, max** | 45 | ダウンロード可能なウェイト |
 | **GPT-6 Astra, max** | 53 | ホスト型サービス |
-| **Claude Opus 5.5, max with fallback** | 58 | ホスト型サービス |
+| **Claude Opus 5.5, max（フォールバックあり）** | 58 | ホスト型サービス |
 
 **インデックスポイント**は知能や作業成功率の割合ではありません。GLMとClaudeの13ポイント差は、コーディング結果の13%差を示しません。同じモデルを比べるときは推論設定も影響します。
 
@@ -79,11 +79,11 @@ coverCaption: "ローカルAIとホスト型AIの概念図。"
 
 ```text
 フルアテンションのトークンあたりKVバイト数:
-16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes
-= 65,536 bytes
+16層 × 4 KVヘッド × 256次元 × 2（KとV）× 2バイト
+= 65,536バイト
 
-8,192 tokens  = 0.5 GiB
-32,768 tokens = 2.0 GiB
+8,192トークン = 0.5 GiB
+32,768トークン = 2.0 GiB
 ```
 
 この**計算上のキャッシュ構成**は、1シーケンスの16ビットキーと値を仮定します。線形アテンション状態、ランタイムバッファ、アロケータのオーバーヘッド、画像や投機的デコードの任意部品は含みません。これらにも予備容量が必要です。
@@ -143,6 +143,8 @@ RTXの結果はSparkの約5分の1です。**サービング構成が影響す�
 
 **LangChainは** GPT-5.2-Codexを固定し、Terminal Bench 2.0で52.8%から66.5%への変化を報告しています。[エージェント工学レポート](https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering)は、検証ガイダンス、環境コンテキスト、反復編集の検出、推論予算の変更を説明します。
 
+これは**ベンダーが報告した証拠**であり、小規模なローカルモデルが最先端モデルに匹敵する証明ではありません。ここから導ける結論はより限定的です。エージェントの結果はモデルの選択だけでは説明できません。LangChainはまた、最大推論を常時使用するとタイムアウトにより結果が悪化したと報告しています。
+
 ## 作業に合うチェックを選ぶ
 
 **チェックの合格**が示すのは、そのチェックが対象にした範囲だけです。CSVテストで列名を検証しても、日付形式、引用符、Unicode、アクセス制御は未検証です。検証方法を決める前に要求結果を定義してください。
@@ -190,7 +192,7 @@ Ollamaはローカル実行ではプロンプトや回答を受け取らない�
 ```text
 受理されたタスクあたりのコスト =
 (ハードウェア配賦 + 電気代 + サービス料金 + 保守費用 + レビュー時間)
-÷ accepted tasks
+÷ 受理されたタスク
 ```
 
 **レビュー費用の例:** 1時間30ドルと仮定すると、8分の修正は1作業4ドルです。100件ならレビュー時間は400ドルです。これは算術例であり、ローカルモデルの測定済み失敗率ではありません。
@@ -201,7 +203,7 @@ Ollamaはローカル実行ではプロンプトや回答を受け取らない�
 
 ## 参考動画
 
-{{< youtube id="siZ3f_06k8M" enable="true" title="Local AI vs ChatGPT: How Close Are We Really?" description="Local and hosted AI models, memory requirements, serving performance, and agent verification." >}}
+{{< youtube id="siZ3f_06k8M" enable="true" title="Local AI vs ChatGPT: How Close Are We Really?" description="ローカルおよびホスト型AIモデル、メモリ要件、推論性能、エージェントによる検証。" >}}
 
 ## 参考資料
 

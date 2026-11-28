@@ -1,7 +1,7 @@
 ---
 title: "Lokalna sztuczna inteligencja kontra ChatGPT: jak blisko jesteśmy?"
 date: 2026-10-06
-lastmod: 2026-11-13
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Porównanie lokalnej AI z ChatGPT i Claude na podstawie wyników testów, szacunków pamięci, szybkości obsługi i weryfikacji agentów. Omówiono RTX 5090, DGX Spark i Mac Studio."
@@ -79,11 +79,11 @@ W przybliżonym przykładzie dotyczącym samych wag 27 miliardów parametrów pr
 
 ```text
 Bajty KV na token przy pełnej uwadze:
-16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes
-= 65,536 bytes
+16 warstw × 4 głowy KV × 256 wymiarów × 2 (K i V) × 2 bajty
+= 65 536 bajtów
 
-8,192 tokens  = 0.5 GiB
-32,768 tokens = 2.0 GiB
+8 192 tokenów = 0,5 GiB
+32 768 tokenów = 2,0 GiB
 ```
 
 Ten **obliczony składnik cache** zakłada 16-bitowe klucze i wartości dla jednej sekwencji. Nie obejmuje stanu uwagi liniowej, buforów środowiska, narzutu alokatora ani opcjonalnych składników wizji lub dekodowania spekulatywnego. Te alokacje także wymagają rezerwy.

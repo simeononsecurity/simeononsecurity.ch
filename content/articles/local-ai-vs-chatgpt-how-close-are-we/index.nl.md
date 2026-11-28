@@ -1,12 +1,12 @@
 ---
 title: "Lokale AI versus ChatGPT: hoe dichtbij zijn we echt?"
 date: 2026-10-06
-lastmod: 2026-11-13
+lastmod: "2026-11-27"
 toc: true
 draft: false
 description: "Vergelijk lokale AI met ChatGPT en Claude aan de hand van benchmarkscores, geheugenschattingen, servicesnelheid en agentverificatie. Met scenario's voor RTX 5090, DGX Spark en Mac Studio."
 genre: ["Lokale AI", "Kunstmatige intelligentie", "AI-hardware", "Ontwikkelaarstools"]
-tags: ["lokale AI versus ChatGPT", "lokale AI versus Claude", "lokale LLM", "AI-agents", "open gewichten", "Qwen3.8 27B", "GLM-5.3", "GPT-6 Astra", "Claude Opus 5.5", "RTX 5090", "DGX Spark", "Mac Studio", "kwantisatie", "KV-cache", "unified memory", "VRAM", "Artificial Analysis", "agentverificatie", "lokale inferentie", "hybride AI", "codeeragents", "AI-benchmarks"]
+tags: ["lokale AI versus ChatGPT", "lokale AI versus Claude", "lokale LLM", "AI-agenten", "open gewichten", "Qwen3.8 27B", "GLM-5.3", "GPT-6 Astra", "Claude Opus 5.5", "RTX 5090", "DGX Spark", "Mac Studio", "kwantisatie", "KV-cache", "uniform geheugen", "VRAM", "Artificial Analysis", "agentverificatie", "lokale inferentie", "hybride AI", "codeeragents", "AI-benchmarktests"]
 cover: "/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp"
 coverAlt: "Een desktopwerkstation verbonden via een lichtgevend pad met een abstracte wolk van netwerkpunten op een donkere achtergrond"
 coverCaption: "Conceptuele illustratie van lokale en gehoste AI."
@@ -79,11 +79,11 @@ De **aandachtscache van Qwen** geeft een uitgewerkt voorbeeld. De [gepubliceerde
 
 ```text
 KV-bytes per token bij volledige aandacht:
-16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes
-= 65,536 bytes
+16 lagen × 4 KV-koppen × 256 dimensies × 2 (K en V) × 2 bytes
+= 65.536 bytes
 
-8,192 tokens  = 0.5 GiB
-32,768 tokens = 2.0 GiB
+8.192 tokens = 0,5 GiB
+32.768 tokens = 2,0 GiB
 ```
 
 Dit **berekende cacheonderdeel** gaat uit van 16-bits sleutels en waarden voor één reeks. Lineaire-aandachtsstatus, runtimebuffers, allocator-overhead en optionele visie- of speculatieve decodeeronderdelen ontbreken. Voor die toewijzingen blijft reserve nodig.
@@ -143,6 +143,8 @@ Neem een **illustratieve exporttaak**, geen gemeten experiment. De agent schrijf
 
 **LangChain meldt** een verandering van 52,8% naar 66,5% op Terminal Bench 2.0 met GPT-5.2-Codex constant. Het [rapport over agentengineering](https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering) beschrijft verificatieadvies, omgevingscontext, detectie van herhaalde edits en wijzigingen in redeneerbudget.
 
+Dit is **door de leverancier gerapporteerd bewijs**, geen bewijs dat een klein lokaal model een frontiermodel evenaart. Het ondersteunt een beperktere conclusie: de modelkeuze alleen verklaart de resultaten van agents niet. LangChain meldt ook slechtere resultaten bij voortdurend maximaal redeneren, door time-outs.
+
 ## Controles aan het werk koppelen
 
 Een **geslaagde controle** bewijst alleen wat de controle afdekt. Een CSV-test die kolomnamen valideert laat datumnotatie, aanhalingstekens, Unicode en toegangsbeheer ongetest. Definieer het gewenste resultaat voordat je verificatie kiest.
@@ -201,7 +203,7 @@ Voor hardwaredetails lees je de [gids voor lokale modellen, GPU's en context](/a
 
 ## Referentievideo
 
-{{< youtube id="siZ3f_06k8M" enable="true" title="Local AI vs ChatGPT: How Close Are We Really?" description="Local and hosted AI models, memory requirements, serving performance, and agent verification." >}}
+{{< youtube id="siZ3f_06k8M" enable="true" title="Local AI vs ChatGPT: How Close Are We Really?" description="Lokale en gehoste AI-modellen, geheugenvereisten, inferentieprestaties en verificatie door agents." >}}
 
 ## Referenties
 

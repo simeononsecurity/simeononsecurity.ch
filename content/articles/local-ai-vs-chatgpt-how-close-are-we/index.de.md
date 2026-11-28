@@ -1,7 +1,7 @@
 ---
-title: "Lokale KI vs. ChatGPT: Wie nah sind wir wirklich?"
+title: "Lokale KI im Vergleich zu ChatGPT: Wie nah sind wir wirklich?"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Vergleiche lokale KI mit ChatGPT und Claude anhand von Benchmarkwerten, Speicherschätzungen, Bereitstellungsgeschwindigkeit und Agentenprüfung. Mit Szenarien für RTX 5090, DGX Spark und Mac Studio."

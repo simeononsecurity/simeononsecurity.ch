@@ -175,7 +175,7 @@ Un **flux híbrid** necessita una regla explícita de traspàs. Mantén local l'
 
 ## Prova abans de comprar
 
-**Tria una tasca repetida** amb una condició final clara. Compara la configuració local amb el producte allotjat que uses, incloses les eines. Dona a tots dos les mateixes entrades i criteris d'acceptació i repeteix la tasca amb diversos exemples.
+**Tria una tasca repetida** amb una condició final clara. Compara la configuració local amb el producte allotjat i les eines que inclou. Dona a tots dos les mateixes entrades i criteris d'acceptació i repeteix la tasca amb diversos exemples.
 
 1. **Registra la configuració:** fitxer del model, quantització, versió del backend, límit de context i raonament.
 2. **Defineix l'èxit:** artefacte esperat, comportament requerit i efectes secundaris prohibits.
