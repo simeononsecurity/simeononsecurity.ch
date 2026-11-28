@@ -1,7 +1,7 @@
 ---
 title: "Laboratório SOC Microsoft em casa: desenvolva experiência em cibersegurança em 2026"
 date: 2026-09-11
-lastmod: 2026-11-12
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Monte um laboratório SOC Microsoft com Sentinel, Defender, Intune e Entra. Investigue incidentes, valide políticas de passkeys e documente evidências para seu portfólio."
@@ -36,10 +36,10 @@ Prepare uma conta administrativa separada e um usuário de teste sem privilégio
 |---|---|
 | **Sentinel** | Gerenciamento de informações e eventos de segurança (SIEM) para fontes de log conectadas |
 | **Defender XDR** | Correlação e investigação entre serviços Microsoft de segurança licenciados |
-| **Defender for Endpoint** | Detecção e resposta em endpoints integrados |
+| **Defender for Endpoint** (proteção de endpoints) | Detecção e resposta em endpoints integrados |
 | **Intune** | Inscrição de dispositivos e gerenciamento de políticas de segurança de endpoints |
 | **Entra ID** | Identidades, registros de entrada e avaliação de políticas de acesso |
-| **Defender for Servers** | Proteção de servidores pelo Defender for Cloud |
+| **Defender for Servers** (proteção de servidores) | Proteção de servidores pelo Defender for Cloud |
 
 ## Confira as licenças primeiro
 
@@ -78,7 +78,7 @@ Mantenha RDP e SSH fechados à Internet pública. Restrinja o tráfego administr
 
 ## Conecte o Sentinel e os logs
 
-**Configuração do portal:** crie um workspace do Log Analytics e habilite o Sentinel nele. Se o workspace não aparecer no portal Defender, abra **System > Settings > Microsoft Sentinel > Connect a workspace**. Verifique o tenant e as funções Azure e Entra exigidas nos [pré-requisitos de integração](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
+**Configuração do portal:** crie um workspace do Log Analytics e habilite o Sentinel nele. Se o workspace não aparecer no portal Defender, abra **System > Settings > Microsoft Sentinel > Connect a workspace** (Sistema > Configurações > Microsoft Sentinel > Conectar um espaço de trabalho). Verifique o tenant e as funções Azure e Entra exigidas nos [pré-requisitos de integração](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
 
 **A coleta de logs é uma etapa separada.** No Entra, configure as definições de diagnóstico para enviar as categorias de atividade necessárias ao mesmo workspace. Comece com entradas interativas e eventos de auditoria. O [guia de integração de logs Entra](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) explica permissões e destino.
 
@@ -101,7 +101,7 @@ Execute este exemplo de **Kusto Query Language (KQL)** na exibição Logs do wor
 
 **A inscrição no Intune e a integração EDR** são etapas separadas. Conecte Intune e Defender for Endpoint, inscreva um cliente Windows compatível e atribua uma política de integração EDR ao grupo de laboratório. O registro Entra, sozinho, não confirma nenhuma etapa.
 
-No Intune, confira **Endpoint security > Defender for Endpoint**. Se a conexão não estiver disponível, habilite a conexão Intune nos recursos avançados de endpoint do Defender. Siga as etapas específicas da plataforma no [guia de integração do Intune e Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
+No Intune, confira **Endpoint security > Defender for Endpoint** (Segurança de endpoint > Defender for Endpoint (proteção de endpoints)). Se a conexão não estiver disponível, habilite a conexão Intune nos recursos avançados de endpoint do Defender. Siga as etapas específicas da plataforma no [guia de integração do Intune e Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
 
 | Verificação | Evidência a registrar |
 |---|---|
@@ -135,11 +135,11 @@ Comece registrando uma entrada legítima e os detalhes da autenticação. Revise
 
 **Passkeys (FIDO2)** usam credenciais vinculadas ao serviço legítimo, em vez de códigos reutilizáveis digitados em uma página de entrada retransmitida. Habilite um perfil de passkey apropriado ao grupo piloto e registre o método antes de aplicar uma política. Consulte o [guia Microsoft de configuração de passkeys](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) para autenticadores aceitos e restrições.
 
-**Exercício de Conditional Access:** crie uma política direcionada apenas ao grupo piloto do laboratório, exclua contas de acesso de emergência e escolha **Require authentication strength > Phishing-resistant MFA strength**. Comece em **Report-only**, revise o impacto e então habilite a política. Adapte o [exemplo Microsoft de política administrativa](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) a um grupo pequeno de teste.
+**Exercício de Conditional Access (acesso condicional):** crie uma política direcionada apenas ao grupo piloto do laboratório, exclua contas de acesso de emergência e escolha **Require authentication strength > Phishing-resistant MFA strength** (nível de autenticação e MFA resistente a phishing). Comece em **Report-only (somente relatório)**, revise o impacto e então habilite a política. Adapte o [exemplo Microsoft de política administrativa](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) a um grupo pequeno de teste.
 
 | Teste | Evidência a coletar |
 |---|---|
-| **Política Report-only** | Registro de entrada que mostra a avaliação da política proposta |
+| **Política Report-only (somente relatório)** | Registro de entrada que mostra a avaliação da política proposta |
 | **Política aplicada, método mais fraco** | Nova autenticação exige método mais forte antes de conceder acesso |
 | **Política aplicada, passkey registrada** | Entrada bem-sucedida que atende à força exigida |
 
@@ -179,7 +179,7 @@ Um laboratório demonstra prática independente. **O trabalho em um SOC de produ
 | **Dispositivo visível sem telemetria** | Estado real da integração, saúde do sensor e conectividade de saída |
 | **Política de integração não aplicada** | Escopo de atribuição, plataforma e sincronização recente |
 | **Sem alerta de risco de identidade** | Pré-requisitos do sinal e atividade registrada, sem presumir detecção determinística |
-| **Acesso permitido inesperadamente** | Status Report-only, exclusões, escopo do recurso e sessão existente |
+| **Acesso permitido inesperadamente** | Status Report-only (somente relatório), exclusões, escopo do recurso e sessão existente |
 | **Cobranças após desligar** | Estado de alocação e recursos cobrados fora da computação |
 
 **Ordem de solução:** comprove primeiro que o evento ocorreu, depois que a coleta funcionou e então analise a lógica de detecção. Registre cada falha e correção nas notas do projeto.

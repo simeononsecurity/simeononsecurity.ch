@@ -1,12 +1,12 @@
 ---
 title: "Microsoft SOC হোম ল্যাব: ২০২৬ সালে সাইবার নিরাপত্তার অভিজ্ঞতা গড়ুন"
 date: 2026-09-11
-lastmod: 2026-11-12
+lastmod: 2026-11-27
 toc: true
 draft: false
-description: "Sentinel, Defender, Intune ও Entra দিয়ে Microsoft SOC ল্যাব তৈরি করুন। ঘটনা তদন্ত করুন, passkey নীতি যাচাই করুন এবং পোর্টফোলিওর জন্য প্রমাণ লিখে রাখুন।"
+description: "Sentinel, Defender, Intune ও Entra দিয়ে Microsoft SOC ল্যাব তৈরি করুন। ঘটনা তদন্ত করুন, প্রবেশচাবি নীতি যাচাই করুন এবং পোর্টফোলিওর জন্য প্রমাণ লিখে রাখুন।"
 genre: ["সাইবার নিরাপত্তা", "ক্লাউড নিরাপত্তা", "পেশাগত উন্নয়ন"]
-tags: ["SOC হোম ল্যাব", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure হোম ল্যাব", "সাইবার নিরাপত্তার অভিজ্ঞতা", "SOC বিশ্লেষক", "নিরাপত্তা কার্যক্রম কেন্দ্র", "ঘটনা প্রতিক্রিয়া", "KQL", "Log Analytics", "Conditional Access", "ফিশিং-প্রতিরোধী MFA", "passkey", "পরিচয় নিরাপত্তা", "সাইবার নিরাপত্তা পোর্টফোলিও", "ক্লাউড খরচ ব্যবস্থাপনা", "endpoint নিরাপত্তা"]
+tags: ["SOC হোম ল্যাব", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure হোম ল্যাব", "সাইবার নিরাপত্তার অভিজ্ঞতা", "SOC বিশ্লেষক", "নিরাপত্তা কার্যক্রম কেন্দ্র", "ঘটনা প্রতিক্রিয়া", "KQL", "Log Analytics", "Conditional Access (শর্তসাপেক্ষ প্রবেশাধিকার)", "ফিশিং-প্রতিরোধী MFA", "প্রবেশচাবি", "পরিচয় নিরাপত্তা", "সাইবার নিরাপত্তা পোর্টফোলিও", "ক্লাউড খরচ ব্যবস্থাপনা", "এন্ডপয়েন্ট সুরক্ষা"]
 cover: "/img/cover/microsoft-soc-home-lab.webp"
 coverAlt: "বাড়ির ডেস্কে ল্যাপটপে নিরাপত্তা ঘটনার সময়রেখা দেখা যাচ্ছে, ওপরে সার্ভার ও endpoint-সহ একটি মেঘ।"
 coverCaption: ""
@@ -26,7 +26,7 @@ coverCaption: ""
 
 ## শুরু করার আগে
 
-**পূর্বশর্ত:** Windows প্রশাসন ও নেটওয়ার্কিংয়ের প্রাথমিক জ্ঞান এবং ভার্চুয়াল মেশিনের সঙ্গে পরিচিতি। ল্যাবের জন্য আলাদা Microsoft Entra tenant ও Azure subscription ব্যবহার করুন। উৎপাদন পরিচয়, ব্যক্তিগত ফাইল এবং নিয়োগকর্তার সিস্টেম এই অনুশীলনের বাইরে রাখুন।
+**পূর্বশর্ত:** Windows প্রশাসন ও নেটওয়ার্কিংয়ের প্রাথমিক জ্ঞান এবং ভার্চুয়াল মেশিনের সঙ্গে পরিচিতি। ল্যাবের জন্য আলাদা Microsoft Entra টেন্যান্ট ও Azure সাবস্ক্রিপশন ব্যবহার করুন। উৎপাদন পরিচয়, ব্যক্তিগত ফাইল এবং নিয়োগকর্তার সিস্টেম এই অনুশীলনের বাইরে রাখুন।
 
 **সময় অনুমান:** প্রাথমিক সেটআপের জন্য একটি সপ্তাহান্ত রাখুন, এরপর লক্ষ্যভিত্তিক তদন্ত সেশন করুন। এটি পরিকল্পনার অনুমান। পরীক্ষার অনুমোদন, কোটা এবং পরিষেবা চালু হওয়ার সময় প্রকৃত সময়কে প্রভাবিত করে। **কঠিনতা:** মাঝারি।
 
@@ -36,16 +36,16 @@ coverCaption: ""
 |---|---|
 | **Sentinel** | যুক্ত লগ উৎসের জন্য নিরাপত্তা তথ্য ও ঘটনা ব্যবস্থাপনা (SIEM) |
 | **Defender XDR** | লাইসেন্সযুক্ত Microsoft নিরাপত্তা পরিষেবায় পারস্পরিক সম্পর্ক ও তদন্ত |
-| **Defender for Endpoint** | সংযুক্ত ডিভাইসে endpoint শনাক্তকরণ ও প্রতিক্রিয়া |
+| **Defender for Endpoint** (এন্ডপয়েন্ট সুরক্ষা) | সংযুক্ত ডিভাইসে endpoint শনাক্তকরণ ও প্রতিক্রিয়া |
 | **Intune** | ডিভাইস নথিভুক্তি এবং endpoint নিরাপত্তা নীতি ব্যবস্থাপনা |
 | **Entra ID** | পরিচয়, সাইন-ইন রেকর্ড ও প্রবেশাধিকার নীতি মূল্যায়ন |
-| **Defender for Servers** | Defender for Cloud দিয়ে সার্ভার সুরক্ষা |
+| **Defender for Servers** (সার্ভার সুরক্ষা) | Defender for Cloud দিয়ে সার্ভার সুরক্ষা |
 
 ## আগে লাইসেন্স দেখুন
 
 **Microsoft 365 E5** বিস্তৃত ল্যাবের একটি উপায়, তবে প্রবেশাধিকার নির্ভর করে অংশগ্রহণকারী ব্যবহারকারীদের দেওয়া পরিষেবা পরিকল্পনা ও লাইসেন্সের ওপর। Office 365 E5 এবং Microsoft 365 E5 আলাদা প্যাকেজ। একজন প্রশাসকের লাইসেন্সে সব পরীক্ষামূলক ব্যবহারকারী বা কাজের চাপ অন্তর্ভুক্ত হয় না। subscription বেছে নেওয়ার আগে [Defender XDR-এর পূর্বশর্ত](https://learn.microsoft.com/en-us/defender-xdr/prerequisites) দেখুন।
 
-**Defender পোর্টালে Sentinel** E5 বা Defender XDR ছাড়াই কাজ করে। XDR যোগ করলে আলাদা লাইসেন্স ও কনফিগারেশনের শর্ত আসে। খালি incident view E5 লাইসেন্স না থাকার প্রমাণ নয়। [Sentinel onboarding নথি](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) দুই কনফিগারেশনই ব্যাখ্যা করে।
+**Defender পোর্টালে Sentinel** E5 বা Defender XDR ছাড়াই কাজ করে। XDR যোগ করলে আলাদা লাইসেন্স ও কনফিগারেশনের শর্ত আসে। খালি ঘটনার দৃশ্য E5 লাইসেন্স না থাকার প্রমাণ নয়। [Sentinel সংযোগ স্থাপনের নির্দেশিকা](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) দুই কনফিগারেশনই ব্যাখ্যা করে।
 
 **সার্ভার সুরক্ষার** লাইসেন্স ব্যবস্থা আলাদা। সমর্থিত সার্ভার কাজের ক্ষেত্রে Defender for Servers, Defender for Endpoint-এর সঙ্গে যুক্ত হয়। Windows ক্লায়েন্ট অপারেটিং সিস্টেমের উপযুক্ত ক্লায়েন্ট কভারেজ দরকার। প্রতিটি Azure VM স্বয়ংক্রিয়ভাবে সার্ভার লাইসেন্স পায় বলে ধরে নেবেন না। [Defender for Endpoint সংযোগের নথি](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint) দেখুন।
 
@@ -68,7 +68,7 @@ coverCaption: ""
 
 ## নেটওয়ার্ক তৈরি করুন
 
-**প্রস্তাবিত বিন্যাস:** Azure সম্পদ স্পষ্ট নামে একটি গ্রুপে রাখুন, যেমন **`rg-soc-lab`**। ক্লায়েন্ট ও সার্ভারের জন্য আলাদা subnet, network security group-এর স্পষ্ট নিয়ম এবং ব্যক্তিগত প্রশাসনিক প্রবেশাধিকার ব্যবহার করুন। শুধু subnet আলাদা করলে কাজের চাপগুলোর মধ্যে ট্র্যাফিক আটকায় না।
+**প্রস্তাবিত বিন্যাস:** Azure সম্পদ স্পষ্ট নামে একটি গ্রুপে রাখুন, যেমন **`rg-soc-lab`**। ক্লায়েন্ট ও সার্ভারের জন্য আলাদা subnet, নেটওয়ার্ক সুরক্ষা গোষ্ঠী-এর স্পষ্ট নিয়ম এবং ব্যক্তিগত প্রশাসনিক প্রবেশাধিকার ব্যবহার করুন। শুধু subnet আলাদা করলে কাজের চাপগুলোর মধ্যে ট্র্যাফিক আটকায় না।
 
 আলাদা **Azure Bastion** স্থাপনে SKU-এর শর্ত মানুন। এর মধ্যে সংরক্ষিত নাম **`AzureBastionSubnet`** এবং বর্তমান স্থাপনার জন্য **`/26`** বা তার বড় subnet রয়েছে। Developer SKU-তে স্থাপনার পদ্ধতি আলাদা। নকশা ঠিক করার আগে [Bastion কনফিগারেশন সেটিংস](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings) পড়ুন।
 
@@ -78,11 +78,11 @@ RDP ও SSH-কে পাবলিক ইন্টারনেট থেকে �
 
 ## Sentinel ও লগ যুক্ত করুন
 
-**পোর্টাল সেটআপ:** Log Analytics workspace তৈরি করুন এবং সেখানে Sentinel চালু করুন। Defender পোর্টালে workspace না থাকলে **System > Settings > Microsoft Sentinel > Connect a workspace** খুলুন। [Onboarding পূর্বশর্ত](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) অনুযায়ী tenant এবং প্রয়োজনীয় Azure ও Entra ভূমিকা যাচাই করুন।
+**পোর্টাল সেটআপ:** Log Analytics কর্মক্ষেত্র তৈরি করুন এবং সেখানে Sentinel চালু করুন। Defender পোর্টালে workspace না থাকলে **System > Settings > Microsoft Sentinel > Connect a workspace** (সিস্টেম > সেটিংস > Microsoft Sentinel > কর্মক্ষেত্র সংযুক্ত করুন) খুলুন। [Onboarding পূর্বশর্ত](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) অনুযায়ী tenant এবং প্রয়োজনীয় Azure ও Entra ভূমিকা যাচাই করুন।
 
 **লগ সংগ্রহ আলাদা ধাপ।** Entra-তে diagnostic setting এমনভাবে করুন যাতে দরকারি কার্যকলাপের বিভাগ একই workspace-এ যায়। ইন্টারেক্টিভ সাইন-ইন ও audit ঘটনা দিয়ে শুরু করুন। [Entra লগ সংযোগ নির্দেশিকা](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) অনুমতি ও গন্তব্য ব্যাখ্যা করে।
 
-বর্তমান Sentinel প্রবাহ Microsoft Defender পোর্টাল থেকেও সংযোগ সমর্থন করে। খালি টেবিলের সমস্যা দেখার আগে নিশ্চিত করুন primary workspace সঠিক, tenant পরীক্ষামূলক পরিচয়ের সঙ্গে মেলে এবং অ্যাকাউন্টে প্রয়োজনীয় ভূমিকা আছে। পোর্টালে দেখা যাওয়া ডেটা গ্রহণের প্রমাণ নয়। [Defender পোর্টালে Sentinel onboarding](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-onboard)
+বর্তমান Sentinel প্রবাহ Microsoft Defender পোর্টাল থেকেও সংযোগ সমর্থন করে। খালি টেবিলের সমস্যা দেখার আগে নিশ্চিত করুন প্রধান কর্মক্ষেত্র সঠিক, tenant পরীক্ষামূলক পরিচয়ের সঙ্গে মেলে এবং অ্যাকাউন্টে প্রয়োজনীয় ভূমিকা আছে। পোর্টালে দেখা যাওয়া ডেটা গ্রহণের প্রমাণ নয়। [Defender পোর্টালে Sentinel সংযোগ স্থাপনের নির্দেশিকা](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-onboard)
 
 ```kusto
 SigninLogs
@@ -99,9 +99,9 @@ SigninLogs
 
 ## প্রথম endpoint অন্তর্ভুক্ত করুন
 
-**Intune নথিভুক্তি ও EDR onboarding** আলাদা যাচাই ধাপ। Intune ও Defender for Endpoint যুক্ত করুন, সমর্থিত Windows ক্লায়েন্ট নথিভুক্ত করুন এবং তার ল্যাব গ্রুপে EDR onboarding নীতি দিন। শুধু Entra registration কোনো ধাপই নিশ্চিত করে না।
+**Intune নথিভুক্তি ও EDR সংযুক্তকরণ** আলাদা যাচাই ধাপ। Intune ও Defender for Endpoint যুক্ত করুন, সমর্থিত Windows ক্লায়েন্ট নথিভুক্ত করুন এবং তার ল্যাব গ্রুপে EDR সংযুক্তকরণ নীতি দিন। শুধু Entra নিবন্ধন কোনো ধাপই নিশ্চিত করে না।
 
-Intune-এ **Endpoint security > Defender for Endpoint** দেখুন। সংযোগ না থাকলে Defender-এর endpoint advanced features-এ Intune সংযোগ চালু করুন। [Intune ও Defender সংযোগ নির্দেশিকা](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration)-তে প্ল্যাটফর্মের ধাপ অনুসরণ করুন।
+Intune-এ **Endpoint security > Defender for Endpoint** (এন্ডপয়েন্ট নিরাপত্তা > Defender for Endpoint) দেখুন। সংযোগ না থাকলে Defender-এর endpoint-এর উন্নত বৈশিষ্ট্যে Intune সংযোগ চালু করুন। [Intune ও Defender সংযোগ নির্দেশিকা](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration)-তে প্ল্যাটফর্মের ধাপ অনুসরণ করুন।
 
 | যাচাই ধাপ | সংগ্রহের প্রমাণ |
 |---|---|
@@ -119,7 +119,7 @@ Intune-এ **Endpoint security > Defender for Endpoint** দেখুন। স�
 সতর্কতাটিকে তদন্তের অনুশীলন হিসেবে নিন। পণ্যের দেওয়া নাম কেবল শুরু। কী ঘটেছে তা স্থির করে প্রমাণ দিয়ে সিদ্ধান্ত সমর্থন করুন।
 
 1. **প্রাথমিক বাছাই:** সতর্কতার উৎস, ডিভাইস, অ্যাকাউন্ট ও ঘটনার সময় শনাক্ত করুন।
-2. **পরিদর্শন:** process tree, command line, ফাইলের বিবরণ এবং উপলভ্য নেটওয়ার্ক কার্যকলাপ দেখুন।
+2. **পরিদর্শন:** প্রসেস ট্রি, কমান্ড লাইন, ফাইলের বিবরণ এবং উপলভ্য নেটওয়ার্ক কার্যকলাপ দেখুন।
 3. **পরিধি:** পরীক্ষামূলক পরিচয় ও অন্য ল্যাব ডিভাইসে সংশ্লিষ্ট কার্যকলাপ খুঁজুন।
 4. **মূল্যায়ন:** প্রমাণ পরিকল্পিত অনুশীলনের সঙ্গে মেলে, নাকি অন্য ঘটনার সঙ্গে, ব্যাখ্যা করুন।
 5. **প্রতিক্রিয়া:** নির্বাচিত প্রতিক্রিয়া, প্রভাব ও পুনরুদ্ধার নথিভুক্ত করুন। অনুশীলনে দরকার হলেই সমর্থিত containment করুন।
@@ -133,13 +133,13 @@ Intune-এ **Endpoint security > Defender for Endpoint** দেখুন। স�
 
 বৈধ সাইন-ইন ও তার authentication বিবরণ আগে লিখে রাখুন। ঝুঁকির সংকেত ব্যাখ্যার আগে Microsoft-এর [Entra ঝুঁকি শনাক্তকরণ তথ্য](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks) পড়ুন। সংকেতভেদে শর্ত ও প্রক্রিয়া আলাদা। নতুন IP বা ব্যর্থ সাইন-ইন AiTM সতর্কতা নিশ্চিত করে না।
 
-**Passkey (FIDO2)** বৈধ পরিষেবার সঙ্গে বাঁধা credential ব্যবহার করে, অন্যদিকে রিলে করা লগইন পাতায় পুনর্ব্যবহারযোগ্য কোড লাগে। পাইলট দলের জন্য উপযুক্ত passkey profile চালু করুন এবং নীতি বলবৎ করার আগে পদ্ধতি নিবন্ধন করুন। সমর্থিত authenticator ও সীমার জন্য [Microsoft passkey কনফিগারেশন নির্দেশিকা](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) দেখুন।
+**Passkey (FIDO2)** বৈধ পরিষেবার সঙ্গে বাঁধা credential ব্যবহার করে, অন্যদিকে রিলে করা লগইন পাতায় পুনর্ব্যবহারযোগ্য কোড লাগে। পাইলট দলের জন্য উপযুক্ত পাসকি প্রোফাইল চালু করুন এবং নীতি বলবৎ করার আগে পদ্ধতি নিবন্ধন করুন। সমর্থিত authenticator ও সীমার জন্য [Microsoft passkey কনফিগারেশন নির্দেশিকা](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) দেখুন।
 
-**Conditional Access অনুশীলন:** কেবল ল্যাব পাইলট দলকে লক্ষ্য করে নীতি তৈরি করুন, জরুরি প্রবেশাধিকার অ্যাকাউন্ট বাদ দিন এবং **Require authentication strength > Phishing-resistant MFA strength** বাছুন। প্রথমে **Report-only** চালিয়ে প্রভাব দেখুন, তারপর নীতি সক্রিয় করুন। ছোট পরীক্ষামূলক দলের জন্য [Microsoft প্রশাসক নীতির উদাহরণ](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) মানানসই করুন।
+**Conditional Access (শর্তসাপেক্ষ প্রবেশাধিকার) অনুশীলন:** কেবল ল্যাব পাইলট দলকে লক্ষ্য করে নীতি তৈরি করুন, জরুরি প্রবেশাধিকার অ্যাকাউন্ট বাদ দিন এবং **Require authentication strength > Phishing-resistant MFA strength** (প্রমাণীকরণের শক্তি আবশ্যক > ফিশিং-প্রতিরোধী MFA শক্তি) বাছুন। প্রথমে **Report-only (শুধু প্রতিবেদন)** চালিয়ে প্রভাব দেখুন, তারপর নীতি সক্রিয় করুন। ছোট পরীক্ষামূলক দলের জন্য [Microsoft প্রশাসক নীতির উদাহরণ](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) মানানসই করুন।
 
 | পরীক্ষা | সংগ্রহের প্রমাণ |
 |---|---|
-| **Report-only নীতি** | প্রস্তাবিত নীতির মূল্যায়ন দেখানো সাইন-ইন রেকর্ড |
+| **Report-only (শুধু প্রতিবেদন) নীতি** | প্রস্তাবিত নীতির মূল্যায়ন দেখানো সাইন-ইন রেকর্ড |
 | **বলবৎ নীতি, দুর্বল পদ্ধতি** | প্রবেশের আগে নতুন authentication আরও শক্তিশালী পদ্ধতি চায় |
 | **বলবৎ নীতি, নিবন্ধিত passkey** | প্রয়োজনীয় শক্তি পূরণ করা সফল সাইন-ইন |
 
@@ -165,7 +165,7 @@ Intune-এ **Endpoint security > Defender for Endpoint** দেখুন। স�
 
 প্রতিটি ঘর নিজের পর্যবেক্ষণ দিয়ে পূরণ করুন। **Export পরিষ্কার করুন:** screenshot বা query ফল প্রকাশের আগে credential, session তথ্য, ব্যক্তিগত তথ্য ও অপ্রয়োজনীয় পরিচয় মুছুন।
 
-**জীবনবৃত্তান্তের উদাহরণ:** “Microsoft নিরাপত্তা ল্যাব তৈরি করেছি, পরিচয় লগ Sentinel-এ যুক্ত করেছি, endpoint পরীক্ষার সতর্কতা তদন্ত করেছি এবং Conditional Access যাচাই নথিভুক্ত করেছি।” কাজগুলো শেষ করার পরেই এই ভাষা ব্যবহার করুন। প্রকৃত তারিখ ও পরিধিসহ প্রকল্প বা ব্যবহারিক প্রশিক্ষণের অংশে রাখুন।
+**জীবনবৃত্তান্তের উদাহরণ:** “Microsoft নিরাপত্তা ল্যাব তৈরি করেছি, পরিচয় লগ Sentinel-এ যুক্ত করেছি, endpoint পরীক্ষার সতর্কতা তদন্ত করেছি এবং Conditional Access (শর্তসাপেক্ষ প্রবেশাধিকার) যাচাই নথিভুক্ত করেছি।” কাজগুলো শেষ করার পরেই এই ভাষা ব্যবহার করুন। প্রকৃত তারিখ ও পরিধিসহ প্রকল্প বা ব্যবহারিক প্রশিক্ষণের অংশে রাখুন।
 
 ল্যাব স্বাধীন অনুশীলন দেখায়। **উৎপাদন SOC-এর কাজ** ব্যবসায়িক প্রভাব, escalation, পরিষেবা অঙ্গীকার এবং অন্য দলের সঙ্গে সমন্বয়ও অন্তর্ভুক্ত করে। কোন অংশ অনুশীলন করেছেন এবং কোনগুলো এখনও অভিজ্ঞতার বাইরে তা ব্যাখ্যা করুন।
 
@@ -179,21 +179,21 @@ Intune-এ **Endpoint security > Defender for Endpoint** দেখুন। স�
 | **ডিভাইস দেখা যায়, টেলিমেট্রি নেই** | প্রকৃত onboarding অবস্থা, sensor স্বাস্থ্য এবং outbound সংযোগ |
 | **Onboarding নীতি প্রযোজ্য হয়নি** | বরাদ্দের পরিধি, ডিভাইস প্ল্যাটফর্ম এবং সাম্প্রতিক check-in |
 | **পরিচয় ঝুঁকির সতর্কতা নেই** | সংকেতের শর্ত ও রেকর্ড করা কার্যকলাপ। নিশ্চিত শনাক্তকরণ ধরে নেবেন না |
-| **অপ্রত্যাশিত প্রবেশাধিকার মঞ্জুর** | Report-only অবস্থা, বাদ দেওয়া অ্যাকাউন্ট, সম্পদের পরিধি ও বিদ্যমান সেশন |
+| **অপ্রত্যাশিত প্রবেশাধিকার মঞ্জুর** | Report-only (শুধু প্রতিবেদন) অবস্থা, বাদ দেওয়া অ্যাকাউন্ট, সম্পদের পরিধি ও বিদ্যমান সেশন |
 | **বন্ধ করার পরও খরচ** | Allocation অবস্থা এবং compute ছাড়া বিল হওয়া সম্পদ |
 
 **সমস্যা সমাধানের ক্রম:** ঘটনা ঘটেছে প্রমাণ করুন, তারপর সংগ্রহ কাজ করেছে প্রমাণ করুন, এরপর শনাক্তকরণের যুক্তি দেখুন। প্রতিটি ব্যর্থতা ও সমাধান প্রকল্পের নোটে লিখুন।
 
 ## ল্যাব থামান বা সরান
 
-**Deallocation** VM-এর compute বরাদ্দ ছেড়ে দেয়। শুধু guest operating system বন্ধ করলে deallocation নিশ্চিত হয় না। Azure-তে দেখানো power অবস্থা যাচাই করুন এবং Microsoft-এর [VM অবস্থা ও বিলিং নথি](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing) দেখুন।
+**Deallocation** VM-এর compute বরাদ্দ ছেড়ে দেয়। শুধু অতিথি অপারেটিং সিস্টেম বন্ধ করলে deallocation নিশ্চিত হয় না। Azure-তে দেখানো power অবস্থা যাচাই করুন এবং Microsoft-এর [VM অবস্থা ও বিলিং নথি](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing) দেখুন।
 
 **রেখে দেওয়া সম্পদও** পর্যালোচনা দরকার। Disk, snapshot, নেটওয়ার্ক পরিষেবা, লগ ধরে রাখা এবং ব্যবহারকারীর subscription-এর জীবনচক্র আলাদা। প্রতিটি পরীক্ষাকাল শেষ হওয়ার আগে স্মরণিকা দিন এবং পরিষ্কারের পরে পরের ব্যবহার প্রতিবেদন দেখুন।
 
-ল্যাব resource group মুছবার আগে রাখতে চাওয়া প্রমাণ export করে পরীক্ষা করুন। **Resource group মুছে ফেলা ধ্বংসাত্মক**, কারণ ভেতরের সম্পদ মুছে যায়। Tenant ব্যবহারকারী, Intune ও Conditional Access নীতি, subscription এবং subscription-স্তরের নিরাপত্তা সেটিং আলাদা করে পরিষ্কার করতে হতে পারে।
+ল্যাব রিসোর্স গোষ্ঠী মুছবার আগে রাখতে চাওয়া প্রমাণ export করে পরীক্ষা করুন। **রিসোর্স গোষ্ঠী মুছে ফেলা ধ্বংসাত্মক**, কারণ ভেতরের সম্পদ মুছে যায়। Tenant ব্যবহারকারী, Intune ও Conditional Access (শর্তসাপেক্ষ প্রবেশাধিকার) নীতি, subscription এবং subscription-স্তরের নিরাপত্তা সেটিং আলাদা করে পরিষ্কার করতে হতে পারে।
 
 ## পরবর্তী পদক্ষেপ
 
 আরেকটি কাজের চাপ যোগ করার আগে **একটি নথিভুক্ত তদন্ত শেষ করুন**। তারপর স্পষ্ট পরীক্ষার শর্তসহ সার্ভার, পরিচয় অনুশীলন বা শনাক্তকরণ নিয়ম যোগ করুন। নতুন উপাদান কী শেখায় ও কত খরচ করে লিখুন।
 
-ইনফ্রাস্ট্রাকচার অনুশীলনে [IT home lab নির্দেশিকা](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/) এবং কাজ উপস্থাপনে [IT resume নির্দেশিকা](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/) ব্যবহার করুন। পরের প্রকল্প ছোট রাখুন, যেন সেটআপ, প্রমাণ ও পরিষ্কার করার ধাপ ব্যাখ্যা করা যায়।
+ইনফ্রাস্ট্রাকচার অনুশীলনে [আইটি হোম ল্যাব নির্দেশিকা](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/) এবং কাজ উপস্থাপনে [IT resume নির্দেশিকা](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/) ব্যবহার করুন। পরের প্রকল্প ছোট রাখুন, যেন সেটআপ, প্রমাণ ও পরিষ্কার করার ধাপ ব্যাখ্যা করা যায়।

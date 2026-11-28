@@ -1,12 +1,12 @@
 ---
 title: "Microsoft SOC 家庭实验室：在 2026 年积累网络安全经验"
 date: 2026-09-11
-lastmod: 2026-11-12
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "使用 Sentinel、Defender、Intune 和 Entra 搭建 Microsoft SOC 家庭实验室。练习事件调查、验证通行密钥策略，并记录作品集证据。"
 genre: ["网络安全", "云安全", "职业发展"]
-tags: ["SOC 家庭实验室", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure 家庭实验室", "网络安全经验", "SOC 分析师", "安全运营中心", "事件响应", "KQL", "Log Analytics", "Conditional Access", "抗钓鱼 MFA", "通行密钥", "身份安全", "网络安全作品集", "云成本管理", "端点安全"]
+tags: ["SOC 家庭实验室", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure 家庭实验室", "网络安全经验", "SOC 分析师", "安全运营中心", "事件响应", "KQL", "Log Analytics", "Conditional Access (条件访问)", "抗钓鱼 MFA", "通行密钥", "身份安全", "网络安全作品集", "云成本管理", "端点安全"]
 cover: "/img/cover/microsoft-soc-home-lab.webp"
 coverAlt: "家中桌上的笔记本电脑显示安全事件时间线，上方的云中包含服务器和端点。"
 coverCaption: ""
@@ -36,10 +36,10 @@ coverCaption: ""
 |---|---|
 | **Sentinel** | 为已连接的日志源提供安全信息和事件管理（SIEM） |
 | **Defender XDR** | 关联并调查已获许可的 Microsoft 安全服务中的活动 |
-| **Defender for Endpoint** | 对已接入设备进行端点检测与响应（EDR） |
+| **Defender for Endpoint** (终端保护) | 对已接入设备进行端点检测与响应（EDR） |
 | **Intune** | 设备注册和端点安全策略管理 |
 | **Entra ID** | 身份、登录记录和访问策略评估 |
-| **Defender for Servers** | 通过 Defender for Cloud 保护服务器 |
+| **Defender for Servers** (服务器保护) | 通过 Defender for Cloud 保护服务器 |
 
 ## 先检查许可证
 
@@ -78,7 +78,7 @@ coverCaption: ""
 
 ## 连接 Sentinel 和日志
 
-**门户配置：** 创建 Log Analytics 工作区并启用 Sentinel。如果 Defender 门户中没有该工作区，请打开 **System > Settings > Microsoft Sentinel > Connect a workspace**。按照[接入前置要求](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard)检查租户以及所需的 Azure 和 Entra 角色。
+**门户配置：** 创建 Log Analytics 工作区并启用 Sentinel。如果 Defender 门户中没有该工作区，请打开 **System > Settings > Microsoft Sentinel > Connect a workspace** (系统 > 设置 > Microsoft Sentinel > 连接工作区)。按照[接入前置要求](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard)检查租户以及所需的 Azure 和 Entra 角色。
 
 **日志收集是单独的步骤。** 在 Entra 中配置诊断设置，将所需活动类别发送到同一工作区。先从交互式登录和审核事件开始。[Entra 日志集成指南](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs)说明了权限和目标位置。
 
@@ -101,7 +101,7 @@ SigninLogs
 
 **Intune 注册和 EDR 接入**是两个独立检查点。连接 Intune 和 Defender for Endpoint，注册受支持的 Windows 客户端，然后向实验室设备组分配端点检测与响应接入策略。仅在 Entra 中注册并不能证明任何一个检查点已完成。
 
-在 Intune 中查看 **Endpoint security > Defender for Endpoint**。如果无法连接，请在 Defender 的端点高级功能中启用 Intune 连接。按照 Microsoft 的 [Intune 与 Defender 集成指南](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration)完成对应平台的步骤。
+在 Intune 中查看 **Endpoint security > Defender for Endpoint** (终结点安全 > Defender for Endpoint)。如果无法连接，请在 Defender 的端点高级功能中启用 Intune 连接。按照 Microsoft 的 [Intune 与 Defender 集成指南](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration)完成对应平台的步骤。
 
 | 检查点 | 要收集的证据 |
 |---|---|
@@ -135,11 +135,11 @@ SigninLogs
 
 **通行密钥（FIDO2）**使用绑定到合法服务的凭据，而不是在中继登录页中输入的可重复使用代码。为试点组启用适当的通行密钥配置，并在强制策略前注册此方法。支持的验证器和限制见[通行密钥配置指南](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2)。
 
-**Conditional Access 练习：** 创建只针对实验室试点组的策略，排除紧急访问账户，然后选择 **Require authentication strength > Phishing-resistant MFA strength**。先使用 **Report-only** 模式并检查影响，再启用策略。这是将 Microsoft 的[管理员策略示例](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa)调整为小范围测试组。
+**Conditional Access (条件访问) 练习：** 创建只针对实验室试点组的策略，排除紧急访问账户，然后选择 **Require authentication strength > Phishing-resistant MFA strength** (要求身份验证强度 > 抗网络钓鱼的 MFA 强度)。先使用 **Report-only (仅报告)** 模式并检查影响，再启用策略。这是将 Microsoft 的[管理员策略示例](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa)调整为小范围测试组。
 
 | 测试 | 要收集的证据 |
 |---|---|
-| **Report-only 策略** | 显示建议策略评估结果的登录记录 |
+| **Report-only (仅报告) 策略** | 显示建议策略评估结果的登录记录 |
 | **强制策略，较弱方法** | 新身份验证要求在允许访问前使用更强的方法 |
 | **强制策略，已注册通行密钥** | 满足所需强度的成功登录 |
 
@@ -165,7 +165,7 @@ SigninLogs
 
 每个字段都填写自己的观察结果。发布截图或查询结果前，**清理导出内容：** 删除凭据、会话资料、个人信息和不必要的标识符。
 
-**简历示例：**“搭建 Microsoft 安全实验室，将身份日志连接到 Sentinel，调查端点测试警报，并记录 Conditional Access 验证结果。”只有完成这些任务后才使用此描述。将其放在项目或实践培训部分，并标注真实日期和范围。
+**简历示例：**“搭建 Microsoft 安全实验室，将身份日志连接到 Sentinel，调查端点测试警报，并记录 Conditional Access (条件访问) 验证结果。”只有完成这些任务后才使用此描述。将其放在项目或实践培训部分，并标注真实日期和范围。
 
 实验室能够证明自主练习。**生产环境中的 SOC 工作**还涉及业务影响、升级处理、服务承诺以及与其他团队协调。说明你练习了哪些内容，哪些内容超出了实际经验。
 
@@ -179,7 +179,7 @@ SigninLogs
 | **设备可见但没有遥测** | 实际接入状态、传感器运行状况和出站连接 |
 | **接入策略未应用** | 分配范围、设备平台和最近签到时间 |
 | **没有身份风险警报** | 信号前置要求和已记录的活动，不要假设检测必然发生 |
-| **意外允许访问** | Report-only 状态、排除项、资源范围和现有会话 |
+| **意外允许访问** | Report-only (仅报告) 状态、排除项、资源范围和现有会话 |
 | **关机后仍产生费用** | 资源分配状态以及计算资源以外的计费项目 |
 
 **故障排查顺序：** 先证明事件发生，再确认数据收集有效，最后调查检测逻辑。在项目记录中写下每次故障和修复。
@@ -190,7 +190,7 @@ SigninLogs
 
 **保留的资源**也需要检查。磁盘、快照、网络服务、日志保留和用户订阅都有独立的生命周期。每个试用到期前设置提醒，清理后再检查下一份使用报告。
 
-删除实验室资源组之前，先导出计划保留的证据并检查内容。**删除资源组会破坏其中的资源。** 租户用户、Intune 策略、Conditional Access 策略、订阅和订阅级安全设置在适用时需要单独清理。
+删除实验室资源组之前，先导出计划保留的证据并检查内容。**删除资源组会破坏其中的资源。** 租户用户、Intune 策略、Conditional Access (条件访问) 策略、订阅和订阅级安全设置在适用时需要单独清理。
 
 ## 后续步骤
 

@@ -1,7 +1,7 @@
 ---
 title: "Laboratoire SOC Microsoft à domicile : acquérir une expérience en cybersécurité en 2026"
 date: 2026-09-11
-lastmod: 2026-11-12
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Créez un laboratoire SOC Microsoft avec Sentinel, Defender, Intune et Entra. Enquêtez sur des incidents, vérifiez les règles de clés d’accès et documentez des preuves pour votre portfolio."
@@ -36,10 +36,10 @@ Préparez un compte d’administration distinct et un utilisateur de test sans p
 |---|---|
 | **Sentinel** | Gestion des informations et événements de sécurité (SIEM) pour les sources de journaux connectées |
 | **Defender XDR** | Corrélation et enquête dans les services de sécurité Microsoft sous licence |
-| **Defender for Endpoint** | Détection et réponse aux incidents sur les appareils intégrés |
+| **Defender for Endpoint** (protection des terminaux) | Détection et réponse aux incidents sur les appareils intégrés |
 | **Intune** | Inscription des appareils et gestion des règles de sécurité des terminaux |
 | **Entra ID** | Identités, journaux de connexion et évaluation des règles d’accès |
-| **Defender for Servers** | Protection des serveurs par Defender for Cloud |
+| **Defender for Servers** (protection des serveurs) | Protection des serveurs par Defender for Cloud |
 
 ## Vérifiez d’abord les licences
 
@@ -78,7 +78,7 @@ Laissez RDP et SSH fermés à Internet. Limitez l’administration au chemin cho
 
 ## Connectez Sentinel et les journaux
 
-**Configuration du portail :** créez un espace de travail Log Analytics et activez-y Sentinel. S’il n’apparaît pas dans le portail Defender, ouvrez **System > Settings > Microsoft Sentinel > Connect a workspace**. Vérifiez le tenant et les rôles Azure et Entra requis dans les [prérequis d’intégration](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
+**Configuration du portail :** créez un espace de travail Log Analytics et activez-y Sentinel. S’il n’apparaît pas dans le portail Defender, ouvrez **System > Settings > Microsoft Sentinel > Connect a workspace** (Système > Paramètres > Microsoft Sentinel > Connecter un espace de travail). Vérifiez le tenant et les rôles Azure et Entra requis dans les [prérequis d’intégration](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
 
 **La collecte des journaux est une étape distincte.** Dans Entra, configurez les paramètres de diagnostic pour envoyer les catégories d’activité requises au même espace de travail. Commencez par les connexions interactives et les événements d’audit. Le [guide d’intégration des journaux Entra](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) détaille les autorisations et la destination.
 
@@ -101,7 +101,7 @@ Exécutez cet exemple en **Kusto Query Language (KQL)** dans la vue Logs de l’
 
 **L’inscription Intune et l’intégration EDR** sont deux étapes distinctes. Connectez Intune et Defender for Endpoint, inscrivez un client Windows pris en charge, puis attribuez une règle d’intégration EDR à son groupe de laboratoire. L’inscription Entra seule ne valide aucune de ces étapes.
 
-Dans Intune, vérifiez **Endpoint security > Defender for Endpoint**. Si la connexion n’est pas disponible, activez la connexion Intune dans les fonctions avancées des terminaux de Defender. Suivez les étapes propres à la plateforme dans le [guide d’intégration Intune et Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
+Dans Intune, vérifiez **Endpoint security > Defender for Endpoint** (Sécurité des terminaux > Defender for Endpoint (protection des terminaux)). Si la connexion n’est pas disponible, activez la connexion Intune dans les fonctions avancées des terminaux de Defender. Suivez les étapes propres à la plateforme dans le [guide d’intégration Intune et Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
 
 | Point de contrôle | Preuve à recueillir |
 |---|---|
@@ -135,11 +135,11 @@ Commencez par consigner une connexion légitime et ses détails d’authentifica
 
 **Les clés d’accès (FIDO2)** utilisent des identifiants liés au service légitime plutôt que des codes réutilisables saisis sur une page de connexion relayée. Activez un profil adapté pour le groupe pilote et inscrivez la méthode avant d’appliquer une règle. Consultez le [guide Microsoft de configuration des clés d’accès](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) pour les authentificateurs pris en charge et leurs limites.
 
-**Exercice Conditional Access :** créez une règle ciblant uniquement le groupe pilote du laboratoire, excluez les comptes d’accès d’urgence et choisissez **Require authentication strength > Phishing-resistant MFA strength**. Commencez en mode **Report-only**, examinez l’impact, puis activez la règle. Adaptez l’[exemple de règle administrateur Microsoft](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) à un petit groupe de test.
+**Exercice Conditional Access (accès conditionnel) :** créez une règle ciblant uniquement le groupe pilote du laboratoire, excluez les comptes d’accès d’urgence et choisissez **Require authentication strength > Phishing-resistant MFA strength** (niveau d’authentification et MFA résistante à l’hameçonnage). Commencez en mode **Report-only (rapport uniquement)**, examinez l’impact, puis activez la règle. Adaptez l’[exemple de règle administrateur Microsoft](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) à un petit groupe de test.
 
-| Test | Preuve à recueillir |
+| Vérification | Preuve à recueillir |
 |---|---|
-| **Règle en mode Report-only** | Enregistrement de connexion montrant l’évaluation de la règle proposée |
+| **Règle en mode Report-only (rapport uniquement)** | Enregistrement de connexion montrant l’évaluation de la règle proposée |
 | **Règle appliquée, méthode plus faible** | Une nouvelle authentification exige une méthode plus forte avant l’accès |
 | **Règle appliquée, clé d’accès inscrite** | Connexion réussie qui satisfait au niveau de sécurité exigé |
 
@@ -179,7 +179,7 @@ Un laboratoire montre une pratique individuelle. **Le travail dans un SOC de pro
 | **Appareil visible sans télémétrie** | État réel d’intégration, santé du capteur et connectivité sortante |
 | **Règle d’intégration non appliquée** | Périmètre d’attribution, plateforme et synchronisation récente |
 | **Aucune alerte de risque d’identité** | Prérequis du signal et activité enregistrée, sans supposer une détection déterministe |
-| **Accès autorisé de façon inattendue** | Mode Report-only, exclusions, périmètre de ressource et session existante |
+| **Accès autorisé de façon inattendue** | Mode Report-only (rapport uniquement), exclusions, périmètre de ressource et session existante |
 | **Frais après arrêt** | État d’allocation et ressources facturées indépendamment du calcul |
 
 **Ordre de dépannage :** prouvez d’abord que l’événement s’est produit, puis que la collecte a fonctionné, puis examinez la logique de détection. Notez chaque panne et sa correction dans les notes du projet.

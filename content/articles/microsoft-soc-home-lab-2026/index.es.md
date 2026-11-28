@@ -1,12 +1,12 @@
 ---
 title: "Laboratorio SOC de Microsoft en casa: adquiere experiencia en ciberseguridad en 2026"
 date: 2026-09-11
-lastmod: 2026-11-12
+lastmod: 2026-11-27
 toc: true
 draft: false
-description: "Crea un laboratorio SOC de Microsoft con Sentinel, Defender, Intune y Entra. Investiga incidentes, valida políticas de passkeys y documenta evidencias para tu portfolio."
+description: "Crea un laboratorio SOC de Microsoft con Sentinel, Defender, Intune y Entra. Investiga incidentes, valida políticas de claves de acceso y documenta evidencias para tu portfolio."
 genre: ["Ciberseguridad", "Seguridad en la nube", "Desarrollo profesional"]
-tags: ["laboratorio SOC doméstico", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "laboratorio Azure doméstico", "experiencia en ciberseguridad", "analista SOC", "centro de operaciones de seguridad", "respuesta a incidentes", "KQL", "Log Analytics", "Conditional Access", "MFA resistente al phishing", "passkeys", "seguridad de identidad", "portfolio de ciberseguridad", "gestión de costos de nube", "seguridad de endpoints"]
+tags: ["laboratorio SOC doméstico", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "laboratorio Azure doméstico", "experiencia en ciberseguridad", "analista SOC", "centro de operaciones de seguridad", "respuesta a incidentes", "KQL", "Log Analytics", "Conditional Access", "MFA resistente al phishing", "claves de acceso", "seguridad de identidad", "portfolio de ciberseguridad", "gestión de costos de nube", "seguridad de endpoints"]
 cover: "/img/cover/microsoft-soc-home-lab.webp"
 coverAlt: "Un portátil muestra cronologías de incidentes de seguridad en un escritorio doméstico, bajo una nube con servidores y endpoints."
 coverCaption: ""
@@ -36,10 +36,10 @@ Prepara una cuenta administrativa separada y un usuario de prueba sin privilegio
 |---|---|
 | **Sentinel** | Gestión de información y eventos de seguridad (SIEM) para fuentes de registros conectadas |
 | **Defender XDR** | Correlación e investigación en servicios de seguridad de Microsoft con licencia |
-| **Defender for Endpoint** | Detección y respuesta en endpoints incorporados |
+| **Defender for Endpoint** (protección de puntos de conexión) | Detección y respuesta en endpoints incorporados |
 | **Intune** | Inscripción de dispositivos y administración de políticas de seguridad de endpoints |
 | **Entra ID** | Identidades, registros de inicio de sesión y evaluación de políticas de acceso |
-| **Defender for Servers** | Protección de servidores mediante Defender for Cloud |
+| **Defender for Servers** (protección de servidores) | Protección de servidores mediante Defender for Cloud |
 
 ## Comprueba primero las licencias
 
@@ -78,7 +78,7 @@ Mantén RDP y SSH cerrados a Internet público. Restringe el tráfico de adminis
 
 ## Conecta Sentinel y los registros
 
-**Configuración del portal:** crea un espacio de trabajo de Log Analytics y habilita Sentinel allí. Si no aparece en el portal de Defender, abre **System > Settings > Microsoft Sentinel > Connect a workspace**. Verifica el tenant y los roles de Azure y Entra requeridos en los [requisitos previos de incorporación](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
+**Configuración del portal:** crea un espacio de trabajo de Log Analytics y habilita Sentinel allí. Si no aparece en el portal de Defender, abre **System > Settings > Microsoft Sentinel > Connect a workspace** (Sistema > Configuración > Microsoft Sentinel > Conectar un espacio de trabajo). Verifica el tenant y los roles de Azure y Entra requeridos en los [requisitos previos de incorporación](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
 
 **La recopilación de registros es un paso separado.** En Entra, configura los ajustes de diagnóstico para enviar las categorías de actividad necesarias al mismo espacio de trabajo. Empieza con inicios de sesión interactivos y eventos de auditoría. La [guía de integración de registros de Entra](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) explica los permisos y el destino.
 
@@ -101,7 +101,7 @@ Ejecuta este ejemplo de **Kusto Query Language (KQL)** en la vista Logs del espa
 
 **La inscripción de Intune y la incorporación EDR** son puntos de control distintos. Conecta Intune y Defender for Endpoint, inscribe un cliente Windows compatible y asigna una política de incorporación EDR a su grupo de laboratorio. El registro de Entra por sí solo no confirma ninguno de esos pasos.
 
-En Intune, revisa **Endpoint security > Defender for Endpoint**. Si la conexión no está disponible, habilita la conexión de Intune en las funciones avanzadas de endpoints de Defender. Sigue los pasos de la plataforma en la [guía de integración de Intune y Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
+En Intune, revisa **Endpoint security > Defender for Endpoint** (Seguridad de puntos de conexión > Defender for Endpoint (protección de puntos de conexión)). Si la conexión no está disponible, habilita la conexión de Intune en las funciones avanzadas de endpoints de Defender. Sigue los pasos de la plataforma en la [guía de integración de Intune y Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
 
 | Punto de control | Evidencia que debes guardar |
 |---|---|
@@ -135,11 +135,11 @@ Empieza registrando un inicio de sesión legítimo y sus detalles de autenticaci
 
 **Las passkeys (FIDO2)** usan credenciales vinculadas al servicio legítimo en vez de códigos reutilizables introducidos en una página de inicio de sesión retransmitida. Habilita un perfil de passkey adecuado para el grupo piloto y registra el método antes de aplicar una política. Consulta la [guía de configuración de passkeys](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) para ver autenticadores admitidos y restricciones.
 
-**Ejercicio de Conditional Access:** crea una política dirigida solo al grupo piloto del laboratorio, excluye las cuentas de acceso de emergencia y selecciona **Require authentication strength > Phishing-resistant MFA strength**. Empieza en **Report-only**, revisa el impacto y luego habilita la política. Adapta el [ejemplo de política de administrador de Microsoft](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) a un grupo pequeño de prueba.
+**Ejercicio de Conditional Access (acceso condicional):** crea una política dirigida solo al grupo piloto del laboratorio, excluye las cuentas de acceso de emergencia y selecciona **Require authentication strength > Phishing-resistant MFA strength** (nivel de autenticación y MFA resistente al phishing). Empieza en **Report-only (solo informe)**, revisa el impacto y luego habilita la política. Adapta el [ejemplo de política de administrador de Microsoft](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) a un grupo pequeño de prueba.
 
 | Prueba | Evidencia que debes recopilar |
 |---|---|
-| **Política en modo Report-only** | Registro de inicio de sesión que muestra cómo se evalúa la política propuesta |
+| **Política en modo Report-only (solo informe)** | Registro de inicio de sesión que muestra cómo se evalúa la política propuesta |
 | **Política aplicada, método más débil** | Una autenticación nueva requiere un método más fuerte antes de conceder acceso |
 | **Política aplicada, passkey registrada** | Inicio de sesión correcto que satisface el nivel requerido |
 
@@ -179,7 +179,7 @@ Un laboratorio demuestra práctica independiente. **El trabajo en un SOC de prod
 | **Dispositivo visible sin telemetría** | Estado real de incorporación, estado del sensor y conectividad saliente |
 | **Política de incorporación no aplicada** | Alcance de asignación, plataforma y sincronización reciente |
 | **Sin alerta de riesgo de identidad** | Requisitos de la señal y actividad registrada, sin suponer detección determinista |
-| **Acceso permitido de forma inesperada** | Estado Report-only, exclusiones, alcance del recurso y sesión existente |
+| **Acceso permitido de forma inesperada** | Estado Report-only (solo informe), exclusiones, alcance del recurso y sesión existente |
 | **Cargos después del apagado** | Estado de asignación y recursos cobrados aparte del cómputo |
 
 **Orden para solucionar problemas:** demuestra primero que ocurrió el evento, después que funcionó la recopilación y por último examina la lógica de detección. Anota cada fallo y corrección en las notas del proyecto.

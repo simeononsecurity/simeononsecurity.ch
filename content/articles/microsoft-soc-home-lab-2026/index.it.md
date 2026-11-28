@@ -1,7 +1,7 @@
 ---
 title: "Laboratorio SOC Microsoft domestico: acquisisci esperienza in cybersicurezza nel 2026"
 date: 2026-09-11
-lastmod: 2026-11-12
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Crea un laboratorio SOC Microsoft con Sentinel, Defender, Intune ed Entra. Analizza incidenti, verifica le policy delle passkey e documenta prove per il portfolio."
@@ -36,10 +36,10 @@ Prepara un account amministrativo separato e un utente di test senza privilegi. 
 |---|---|
 | **Sentinel** | Gestione delle informazioni e degli eventi di sicurezza (SIEM) per le origini di log collegate |
 | **Defender XDR** | Correlazione e indagine tra servizi di sicurezza Microsoft coperti da licenza |
-| **Defender for Endpoint** | Rilevamento e risposta endpoint sui dispositivi integrati |
+| **Defender for Endpoint** (protezione degli endpoint) | Rilevamento e risposta endpoint sui dispositivi integrati |
 | **Intune** | Registrazione dei dispositivi e gestione dei criteri di sicurezza endpoint |
 | **Entra ID** | Identità, registri di accesso e valutazione dei criteri di accesso |
-| **Defender for Servers** | Protezione dei server tramite Defender for Cloud |
+| **Defender for Servers** (protezione dei server) | Protezione dei server tramite Defender for Cloud |
 
 ## Verifica prima le licenze
 
@@ -78,7 +78,7 @@ Mantieni RDP e SSH chiusi a Internet pubblico. Limita il traffico amministrativo
 
 ## Collega Sentinel e i log
 
-**Configurazione del portale:** crea un’area di lavoro Log Analytics e abilita Sentinel. Se non compare nel portale Defender, apri **System > Settings > Microsoft Sentinel > Connect a workspace**. Verifica il tenant e i ruoli Azure ed Entra richiesti nei [prerequisiti di onboarding](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
+**Configurazione del portale:** crea un’area di lavoro Log Analytics e abilita Sentinel. Se non compare nel portale Defender, apri **System > Settings > Microsoft Sentinel > Connect a workspace** (Sistema > Impostazioni > Microsoft Sentinel > Connetti un’area di lavoro). Verifica il tenant e i ruoli Azure ed Entra richiesti nei [prerequisiti di onboarding](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
 
 **La raccolta dei log è un passaggio separato.** In Entra, configura le impostazioni diagnostiche per inviare le categorie di attività richieste alla stessa area di lavoro. Inizia con gli accessi interattivi e gli eventi di controllo. La [guida di integrazione dei log Entra](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) descrive permessi e destinazione.
 
@@ -101,7 +101,7 @@ Esegui questo esempio di **Kusto Query Language (KQL)** nella vista Logs dell’
 
 **L’iscrizione a Intune e l’onboarding EDR** sono verifiche separate. Collega Intune e Defender for Endpoint, iscrivi un client Windows supportato e assegna una policy di onboarding EDR al suo gruppo di laboratorio. La registrazione Entra da sola non conferma nessuna delle due.
 
-In Intune controlla **Endpoint security > Defender for Endpoint**. Se la connessione non è disponibile, abilita il collegamento Intune nelle funzionalità avanzate per endpoint di Defender. Segui i passaggi specifici della piattaforma nella [guida d’integrazione Intune e Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
+In Intune controlla **Endpoint security > Defender for Endpoint** (Sicurezza degli endpoint > Defender for Endpoint (protezione degli endpoint)). Se la connessione non è disponibile, abilita il collegamento Intune nelle funzionalità avanzate per endpoint di Defender. Segui i passaggi specifici della piattaforma nella [guida d’integrazione Intune e Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
 
 | Verifica | Prova da raccogliere |
 |---|---|
@@ -135,11 +135,11 @@ Inizia registrando un accesso legittimo e i relativi dettagli di autenticazione.
 
 **Le passkey (FIDO2)** usano credenziali legate al servizio legittimo invece di codici riutilizzabili inseriti in una pagina di accesso inoltrata. Abilita un profilo passkey adatto al gruppo pilota e registra il metodo prima di applicare una policy. Consulta la [guida Microsoft alla configurazione delle passkey](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) per autenticatore supportati e limitazioni.
 
-**Esercizio Conditional Access:** crea una policy rivolta soltanto al gruppo pilota del laboratorio, escludi gli account di accesso di emergenza e seleziona **Require authentication strength > Phishing-resistant MFA strength**. Inizia in modalità **Report-only**, esamina l’impatto e poi abilita la policy. Adatta l’[esempio Microsoft di policy amministratore](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) a un piccolo gruppo di test.
+**Esercizio Conditional Access (accesso condizionale):** crea una policy rivolta soltanto al gruppo pilota del laboratorio, escludi gli account di accesso di emergenza e seleziona **Require authentication strength > Phishing-resistant MFA strength** (livello di autenticazione e MFA resistente al phishing). Inizia in modalità **Report-only (solo report)**, esamina l’impatto e poi abilita la policy. Adatta l’[esempio Microsoft di policy amministratore](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) a un piccolo gruppo di test.
 
-| Test | Prova da raccogliere |
+| Verifica | Prova da raccogliere |
 |---|---|
-| **Policy Report-only** | Record di accesso che mostra la valutazione della policy proposta |
+| **Policy Report-only (solo report)** | Record di accesso che mostra la valutazione della policy proposta |
 | **Policy applicata, metodo più debole** | Una nuova autenticazione richiede un metodo più forte prima di concedere l’accesso |
 | **Policy applicata, passkey registrata** | Accesso riuscito che soddisfa la robustezza richiesta |
 
@@ -179,7 +179,7 @@ Un laboratorio dimostra pratica individuale. **Il lavoro in un SOC di produzione
 | **Dispositivo visibile senza telemetria** | Stato reale di onboarding, integrità del sensore e connettività in uscita |
 | **Policy di onboarding non applicata** | Ambito di assegnazione, piattaforma e sincronizzazione recente |
 | **Nessun avviso di rischio d’identità** | Prerequisiti del segnale e attività registrata, senza presumere un rilevamento deterministico |
-| **Accesso concesso in modo inatteso** | Stato Report-only, esclusioni, ambito risorse e sessione esistente |
+| **Accesso concesso in modo inatteso** | Stato Report-only (solo report), esclusioni, ambito risorse e sessione esistente |
 | **Addebiti dopo l’arresto** | Stato di allocazione e risorse fatturate a prescindere dal calcolo |
 
 **Ordine di risoluzione:** dimostra prima che l’evento è avvenuto, poi che la raccolta ha funzionato e infine esamina la logica di rilevamento. Registra ogni guasto e correzione nelle note del progetto.

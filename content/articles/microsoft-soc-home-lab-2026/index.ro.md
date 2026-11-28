@@ -1,7 +1,7 @@
 ---
 title: "Laborator SOC Microsoft acasă: dezvoltă experiență în securitate cibernetică în 2026"
 date: 2026-09-11
-lastmod: 2026-11-12
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Construiește un laborator SOC Microsoft cu Sentinel, Defender, Intune și Entra. Investighează incidente, validează politicile de passkey și documentează dovezi pentru portofoliu."
@@ -36,10 +36,10 @@ Pregătește un cont administrativ separat și un utilizator de test fără priv
 |---|---|
 | **Sentinel** | Gestionarea informațiilor și evenimentelor de securitate (SIEM) pentru sursele de jurnale conectate |
 | **Defender XDR** | Corelare și investigare între serviciile Microsoft de securitate licențiate |
-| **Defender for Endpoint** | Detectare și răspuns pe endpointurile integrate |
+| **Defender for Endpoint** (protecția dispozitivelor) | Detectare și răspuns pe endpointurile integrate |
 | **Intune** | Înrolarea dispozitivelor și gestionarea politicilor de securitate pentru endpointuri |
 | **Entra ID** | Identități, înregistrări de conectare și evaluarea politicilor de acces |
-| **Defender for Servers** | Protecția serverelor prin Defender for Cloud |
+| **Defender for Servers** (protecția serverelor) | Protecția serverelor prin Defender for Cloud |
 
 ## Verifică mai întâi licențele
 
@@ -78,7 +78,7 @@ Pentru o implementare dedicată **Azure Bastion**, respectă cerințele SKU, inc
 
 ## Conectează Sentinel și jurnalele
 
-**Configurarea portalului:** creează un spațiu de lucru Log Analytics și activează Sentinel pe el. Dacă spațiul lipsește din portalul Defender, deschide **System > Settings > Microsoft Sentinel > Connect a workspace**. Verifică tenantul și rolurile Azure și Entra necesare din [cerințele de onboarding](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
+**Configurarea portalului:** creează un spațiu de lucru Log Analytics și activează Sentinel pe el. Dacă spațiul lipsește din portalul Defender, deschide **System > Settings > Microsoft Sentinel > Connect a workspace** (Sistem > Setări > Microsoft Sentinel > Conectează un spațiu de lucru). Verifică tenantul și rolurile Azure și Entra necesare din [cerințele de onboarding](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
 
 **Colectarea jurnalelor este un pas separat.** În Entra, configurează setările de diagnosticare pentru a trimite categoriile de activitate cerute către același spațiu de lucru. Începe cu conectări interactive și evenimente de audit. [Ghidul de integrare a jurnalelor Entra](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) descrie permisiunile și destinația.
 
@@ -101,7 +101,7 @@ Rulează exemplul **Kusto Query Language (KQL)** în vizualizarea Logs a spațiu
 
 **Înrolarea Intune și onboardingul EDR** sunt puncte de verificare separate. Conectează Intune și Defender for Endpoint, înrolează un client Windows acceptat și atribuie o politică de onboarding EDR grupului său de laborator. Înregistrarea Entra nu confirmă singură niciunul dintre puncte.
 
-În Intune, verifică **Endpoint security > Defender for Endpoint**. Dacă legătura nu este disponibilă, activează conectarea Intune în funcțiile avansate pentru endpointuri ale Defender. Urmează pașii specifici platformei din [ghidul de integrare Intune și Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
+În Intune, verifică **Endpoint security > Defender for Endpoint** (Securitatea endpointurilor > Defender for Endpoint (protecția endpointurilor)). Dacă legătura nu este disponibilă, activează conectarea Intune în funcțiile avansate pentru endpointuri ale Defender. Urmează pașii specifici platformei din [ghidul de integrare Intune și Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
 
 | Punct de verificare | Dovezi de păstrat |
 |---|---|
@@ -135,11 +135,11 @@ Tratează alerta generată drept exercițiu de investigare. Titlul produsului es
 
 **Passkey-urile (FIDO2)** folosesc acreditări legate de serviciul legitim, nu coduri reutilizabile introduse într-o pagină de conectare redirecționată. Activează un profil potrivit pentru grupul-pilot și înregistrează metoda înainte să impui politica. [Ghidul Microsoft de configurare a passkey-urilor](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) descrie autentificatoarele acceptate și restricțiile.
 
-**Exercițiu Conditional Access:** creează o politică pentru grupul-pilot de laborator, exclude conturile de acces de urgență și alege **Require authentication strength > Phishing-resistant MFA strength**. Începe în **Report-only**, verifică efectul, apoi activează politica. Adaptează [exemplul Microsoft de politică pentru administratori](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) unui grup restrâns de test.
+**Exercițiu Conditional Access (acces condiționat):** creează o politică pentru grupul-pilot de laborator, exclude conturile de acces de urgență și alege **Require authentication strength > Phishing-resistant MFA strength** (nivel de autentificare și MFA rezistentă la phishing). Începe în **Report-only (doar raportare)**, verifică efectul, apoi activează politica. Adaptează [exemplul Microsoft de politică pentru administratori](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) unui grup restrâns de test.
 
-| Test | Dovezi de colectat |
+| Verificare | Dovezi de colectat |
 |---|---|
-| **Politică Report-only** | Înregistrare de conectare care arată evaluarea politicii propuse |
+| **Politică Report-only (doar raportare)** | Înregistrare de conectare care arată evaluarea politicii propuse |
 | **Politică impusă, metodă mai slabă** | O autentificare nouă cere o metodă mai puternică înainte de acces |
 | **Politică impusă, passkey înregistrat** | Conectare reușită care respectă nivelul cerut |
 
@@ -179,7 +179,7 @@ Un laborator demonstrează practică individuală. **Munca într-un SOC de produ
 | **Dispozitiv vizibil fără telemetrie** | Starea reală de onboarding, starea senzorului și conectivitatea de ieșire |
 | **Politică de onboarding neaplicată** | Domeniul atribuirii, platforma dispozitivului și sincronizarea recentă |
 | **Fără alertă de risc de identitate** | Cerințele semnalului și activitatea înregistrată, fără a presupune detectare deterministă |
-| **Acces permis neașteptat** | Starea Report-only, excluderile, domeniul resursei și sesiunea existentă |
+| **Acces permis neașteptat** | Starea Report-only (doar raportare), excluderile, domeniul resursei și sesiunea existentă |
 | **Costuri după oprire** | Starea de alocare și resursele facturate independent de calcul |
 
 **Ordinea depanării:** dovedește întâi că evenimentul s-a produs, apoi că colectarea a funcționat și abia după aceea investighează logica de detectare. Notează fiecare problemă și remediere în jurnalul proiectului.

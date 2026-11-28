@@ -1,12 +1,12 @@
 ---
 title: "Microsoft SOC-thuislab: bouw cybersecurityervaring op in 2026"
 date: 2026-09-11
-lastmod: 2026-11-12
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Bouw een Microsoft SOC-lab met Sentinel, Defender, Intune en Entra. Onderzoek incidenten, toets passkeybeleid en documenteer bewijs voor je portfolio."
 genre: ["Cybersecurity", "Cloudbeveiliging", "Loopbaanontwikkeling"]
-tags: ["SOC-thuislab", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure-thuislab", "cybersecurityervaring", "SOC-analist", "security operations center", "incidentrespons", "KQL", "Log Analytics", "Conditional Access", "phishingbestendige MFA", "passkeys", "identiteitsbeveiliging", "cybersecurityportfolio", "cloudkostenbeheer", "endpointbeveiliging"]
+tags: ["SOC-thuislab", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure-thuislab", "cybersecurityervaring", "SOC-analist", "beveiligingsoperatiecentrum", "incidentrespons", "KQL", "Log Analytics", "Conditional Access", "phishingbestendige MFA", "passkeys", "identiteitsbeveiliging", "cybersecurityportfolio", "cloudkostenbeheer", "endpointbeveiliging"]
 cover: "/img/cover/microsoft-soc-home-lab.webp"
 coverAlt: "Een laptop toont tijdlijnen van beveiligingsincidenten op een bureau thuis onder een wolk met servers en endpoints."
 coverCaption: ""
@@ -36,10 +36,10 @@ Bereid een aparte beheerdersaccount en een ongeprivilegieerde testgebruiker voor
 |---|---|
 | **Sentinel** | Beheer van beveiligingsinformatie en gebeurtenissen (SIEM) voor verbonden logbronnen |
 | **Defender XDR** | Correlatie en onderzoek over gelicentieerde Microsoft-beveiligingsdiensten |
-| **Defender for Endpoint** | Detectie en reactie op ingeschreven endpoints |
+| **Defender for Endpoint** (eindpuntbeveiliging) | Detectie en reactie op ingeschreven endpoints |
 | **Intune** | Apparaatinschrijving en beheer van endpointbeveiligingsbeleid |
 | **Entra ID** | Identiteiten, aanmeldingsrecords en beoordeling van toegangsbeleid |
-| **Defender for Servers** | Serverbeveiliging via Defender for Cloud |
+| **Defender for Servers** (serverbeveiliging) | Serverbeveiliging via Defender for Cloud |
 
 ## Controleer eerst licenties
 
@@ -78,7 +78,7 @@ Houd RDP en SSH gesloten voor het openbare internet. Beperk beheer naar het geko
 
 ## Verbind Sentinel en logs
 
-**Portaal instellen:** maak een Log Analytics-werkruimte en schakel Sentinel daarop in. Staat de werkruimte niet in de Defender-portal, open dan **System > Settings > Microsoft Sentinel > Connect a workspace**. Controleer de tenant en vereiste Azure- en Entra-rollen aan de hand van de [onboardingvereisten](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
+**Portaal instellen:** maak een Log Analytics-werkruimte en schakel Sentinel daarop in. Staat de werkruimte niet in de Defender-portal, open dan **System > Settings > Microsoft Sentinel > Connect a workspace** (Systeem > Instellingen > Microsoft Sentinel > Een werkruimte verbinden). Controleer de tenant en vereiste Azure- en Entra-rollen aan de hand van de [onboardingvereisten](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
 
 **Logverzameling is een aparte stap.** Stel in Entra diagnostische instellingen in die de vereiste activiteitcategorieën naar dezelfde werkruimte sturen. Begin met interactieve aanmeldingen en auditgebeurtenissen. De [Entra-logintegratiegids](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) beschrijft rechten en bestemming.
 
@@ -101,7 +101,7 @@ Voer dit **Kusto Query Language (KQL)**-voorbeeld uit in de Logs-weergave van de
 
 **Intune-inschrijving en EDR-onboarding** zijn aparte controlepunten. Verbind Intune en Defender for Endpoint, schrijf een ondersteunde Windows-client in en wijs een EDR-onboardingbeleid toe aan de labgroep. Entra-registratie alleen bevestigt geen van beide punten.
 
-Controleer in Intune **Endpoint security > Defender for Endpoint**. Is de verbinding niet beschikbaar, schakel dan de Intune-verbinding in bij de geavanceerde endpointfuncties van Defender. Volg de platformspecifieke stappen in de [integratiegids voor Intune en Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
+Controleer in Intune **Endpoint security > Defender for Endpoint** (Endpointbeveiliging > Defender for Endpoint (beveiliging van eindpunten)). Is de verbinding niet beschikbaar, schakel dan de Intune-verbinding in bij de geavanceerde endpointfuncties van Defender. Volg de platformspecifieke stappen in de [integratiegids voor Intune en Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
 
 | Controlepunt | Te verzamelen bewijs |
 |---|---|
@@ -135,11 +135,11 @@ Leg eerst een legitieme aanmelding en de authenticatiedetails vast. Lees Microso
 
 **Passkeys (FIDO2)** gebruiken aanmeldgegevens die aan de legitieme dienst zijn gebonden, in plaats van herbruikbare codes op een doorgestuurde aanmeldpagina. Schakel een passend passkeyprofiel in voor de pilotgroep en registreer de methode voordat je een beleid afdwingt. De [Microsoft-gids voor passkeyconfiguratie](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) beschrijft ondersteunde authenticators en beperkingen.
 
-**Conditional Access-oefening:** maak een beleid voor alleen de labpilotgroep, sluit noodtoegangsaccounts uit en kies **Require authentication strength > Phishing-resistant MFA strength**. Begin met **Report-only**, beoordeel de gevolgen en schakel het beleid daarna in. Pas het [Microsoft-voorbeeldbeleid voor beheerders](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) aan op een kleine testgroep.
+**Conditional Access-oefening (voorwaardelijke toegang):** maak een beleid voor alleen de labpilotgroep, sluit noodtoegangsaccounts uit en kies **Require authentication strength > Phishing-resistant MFA strength** (sterke authenticatie en phishingbestendige MFA). Begin met **Report-only (alleen rapporteren)**, beoordeel de gevolgen en schakel het beleid daarna in. Pas het [Microsoft-voorbeeldbeleid voor beheerders](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) aan op een kleine testgroep.
 
-| Test | Te verzamelen bewijs |
+| Controle | Te verzamelen bewijs |
 |---|---|
-| **Report-only-beleid** | Aanmeldrecord dat laat zien hoe het voorgestelde beleid wordt beoordeeld |
+| **Report-only (alleen rapporteren)-beleid** | Aanmeldrecord dat laat zien hoe het voorgestelde beleid wordt beoordeeld |
 | **Afgedwongen beleid, zwakkere methode** | Nieuwe authenticatie vereist een sterkere methode vóór toegang |
 | **Afgedwongen beleid, geregistreerde passkey** | Geslaagde aanmelding die aan het vereiste niveau voldoet |
 
@@ -179,7 +179,7 @@ Een lab toont zelfstandige oefening. **Werk in een productie-SOC** omvat ook bed
 | **Apparaat zichtbaar zonder telemetrie** | Werkelijke onboardingstatus, sensorstatus en uitgaande verbinding |
 | **Onboardingbeleid niet toegepast** | Toewijzingsscope, apparaatplatform en recente check-in |
 | **Geen identiteitsrisicomelding** | Signaalvereisten en vastgelegde activiteit, zonder deterministische detectie aan te nemen |
-| **Toegang onverwacht toegestaan** | Report-only-status, uitzonderingen, resourcescope en bestaande sessie |
+| **Toegang onverwacht toegestaan** | Report-only (alleen rapporteren)-status, uitzonderingen, resourcescope en bestaande sessie |
 | **Kosten na afsluiten** | Allocatiestatus en resources die buiten rekenkracht worden gefactureerd |
 
 **Volgorde van probleemoplossing:** bewijs eerst dat de gebeurtenis plaatsvond, controleer daarna of verzameling werkte en onderzoek vervolgens de detectielogica. Noteer storingen en oplossingen in de projectnotities.

@@ -1,12 +1,12 @@
 ---
 title: "Microsoft-SOC-Heimlabor: 2026 Cybersicherheitserfahrung aufbauen"
 date: 2026-09-11
-lastmod: 2026-11-12
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Richten Sie ein Microsoft-SOC-Heimlabor mit Sentinel, Defender, Intune und Entra ein. Üben Sie Incident-Untersuchungen, prüfen Sie Passkey-Richtlinien und dokumentieren Sie Belege für Ihr Portfolio."
 genre: ["Cybersicherheit", "Cloudsicherheit", "Karriereentwicklung"]
-tags: ["SOC-Heimlabor", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure-Heimlabor", "Cybersicherheitserfahrung", "SOC-Analyst", "Security Operations Center", "Incident Response", "KQL", "Log Analytics", "Conditional Access", "phishingresistente MFA", "Passkeys", "Identitätssicherheit", "Cybersicherheitsportfolio", "Cloud-Kostenverwaltung", "Endpunktsicherheit"]
+tags: ["SOC-Heimlabor", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure-Heimlabor", "Cybersicherheitserfahrung", "SOC-Analyst", "Sicherheitsoperationszentrum", "Reaktion auf Sicherheitsvorfälle", "KQL", "Log Analytics", "Conditional Access", "phishingresistente MFA", "Passkeys", "Identitätssicherheit", "Cybersicherheitsportfolio", "Cloud-Kostenverwaltung", "Endpunktsicherheit"]
 cover: "/img/cover/microsoft-soc-home-lab.webp"
 coverAlt: "Ein Laptop zeigt Zeitachsen von Sicherheitsvorfällen auf einem Schreibtisch zu Hause unter einer Wolke mit Servern und Endpunkten."
 coverCaption: ""
@@ -36,10 +36,10 @@ Richten Sie ein separates Administratorkonto und einen unprivilegierten Testbenu
 |---|---|
 | **Sentinel** | SIEM zur Verwaltung von Sicherheitsinformationen und Ereignissen verbundener Logquellen |
 | **Defender XDR** | Korrelation und Untersuchung über lizenzierte Microsoft-Sicherheitsdienste hinweg |
-| **Defender for Endpoint** | Endpunkterkennung und -reaktion auf eingebundenen Geräten |
+| **Defender for Endpoint** (Endgeräteschutz) | Endpunkterkennung und -reaktion auf eingebundenen Geräten |
 | **Intune** | Geräteanmeldung und Verwaltung von Endpunktsicherheitsrichtlinien |
 | **Entra ID** | Identitäten, Anmeldeprotokolle und Bewertung von Zugriffsrichtlinien |
-| **Defender for Servers** | Serversicherheit über Defender for Cloud |
+| **Defender for Servers** (Serverschutz) | Serversicherheit über Defender for Cloud |
 
 ## Lizenzen zuerst prüfen
 
@@ -78,7 +78,7 @@ Halten Sie RDP und SSH vom öffentlichen Internet getrennt. Begrenzen Sie Verwal
 
 ## Sentinel und Logs verbinden
 
-**Portal einrichten:** Erstellen Sie einen Log-Analytics-Arbeitsbereich und aktivieren Sie Sentinel darin. Fehlt der Arbeitsbereich im Defender-Portal, öffnen Sie **System > Settings > Microsoft Sentinel > Connect a workspace**. Prüfen Sie Tenant sowie erforderliche Azure- und Entra-Rollen anhand der [Onboarding-Voraussetzungen](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
+**Portal einrichten:** Erstellen Sie einen Log-Analytics-Arbeitsbereich und aktivieren Sie Sentinel darin. Fehlt der Arbeitsbereich im Defender-Portal, öffnen Sie **System > Settings > Microsoft Sentinel > Connect a workspace** (System > Einstellungen > Microsoft Sentinel > Arbeitsbereich verbinden). Prüfen Sie Tenant sowie erforderliche Azure- und Entra-Rollen anhand der [Onboarding-Voraussetzungen](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
 
 **Logsammlung ist ein eigener Schritt.** Konfigurieren Sie in Entra Diagnosestellungen, die erforderliche Aktivitätskategorien an denselben Arbeitsbereich senden. Beginnen Sie mit interaktiven Anmeldungen und Auditereignissen. Der [Entra-Leitfaden zur Logintegration](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) beschreibt Berechtigungen und Ziel.
 
@@ -101,7 +101,7 @@ Führen Sie dieses **Kusto Query Language (KQL)**-Beispiel in der Logs-Ansicht d
 
 **Intune-Anmeldung und EDR-Onboarding** sind getrennte Prüfpunkte. Verbinden Sie Intune und Defender for Endpoint, melden Sie einen unterstützten Windows-Client an und weisen Sie dessen Laborgruppe eine EDR-Onboardingrichtlinie zu. Die Entra-Registrierung allein bestätigt keinen der beiden Punkte.
 
-Prüfen Sie in Intune **Endpoint security > Defender for Endpoint**. Falls die Verbindung fehlt, aktivieren Sie die Intune-Verbindung in den erweiterten Endpunktfunktionen von Defender. Folgen Sie den plattformspezifischen Schritten im [Intune- und Defender-Integrationsleitfaden](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
+Prüfen Sie in Intune **Endpoint security > Defender for Endpoint** (Endpunktsicherheit > Defender for Endpoint (Schutz für Endgeräte)). Falls die Verbindung fehlt, aktivieren Sie die Intune-Verbindung in den erweiterten Endpunktfunktionen von Defender. Folgen Sie den plattformspezifischen Schritten im [Intune- und Defender-Integrationsleitfaden](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
 
 | Prüfpunkt | Zu erfassender Nachweis |
 |---|---|
@@ -135,11 +135,11 @@ Dokumentieren Sie zuerst eine legitime Anmeldung und deren Authentifizierungsdet
 
 **Passkeys (FIDO2)** verwenden Anmeldedaten, die an den echten Dienst gebunden sind, statt wiederverwendbarer Codes auf einer weitergeleiteten Anmeldeseite. Aktivieren Sie für die Pilotgruppe ein passendes Passkey-Profil und registrieren Sie die Methode vor der Richtlinienerzwingung. Der [Microsoft-Leitfaden zur Passkey-Konfiguration](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) nennt unterstützte Authentifikatoren und Einschränkungen.
 
-**Conditional-Access-Übung:** Erstellen Sie eine Richtlinie nur für die Labor-Pilotgruppe, schließen Sie Notfallzugriffskonten aus und wählen Sie **Require authentication strength > Phishing-resistant MFA strength**. Beginnen Sie mit **Report-only**, prüfen Sie die Auswirkungen und aktivieren Sie danach die Richtlinie. Passen Sie das [Microsoft-Beispiel für eine Administrationsrichtlinie](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) an eine kleine Testgruppe an.
+**Conditional-Access-Übung (bedingter Zugriff):** Erstellen Sie eine Richtlinie nur für die Labor-Pilotgruppe, schließen Sie Notfallzugriffskonten aus und wählen Sie **Require authentication strength > Phishing-resistant MFA strength** (Authentifizierungsstärke und phishingresistente MFA). Beginnen Sie mit **Report-only (nur Bericht)**, prüfen Sie die Auswirkungen und aktivieren Sie danach die Richtlinie. Passen Sie das [Microsoft-Beispiel für eine Administrationsrichtlinie](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) an eine kleine Testgruppe an.
 
-| Test | Zu erfassender Nachweis |
+| Prüfschritt | Zu erfassender Nachweis |
 |---|---|
-| **Report-only-Richtlinie** | Anmeldeprotokoll mit Auswertung der vorgeschlagenen Richtlinie |
+| **Report-only (nur Bericht)-Richtlinie** | Anmeldeprotokoll mit Auswertung der vorgeschlagenen Richtlinie |
 | **Erzwungene Richtlinie, schwächere Methode** | Neue Authentifizierung verlangt vor dem Zugriff eine stärkere Methode |
 | **Erzwungene Richtlinie, registrierter Passkey** | Erfolgreiche Anmeldung mit der erforderlichen Stärke |
 
@@ -179,7 +179,7 @@ Ein Labor zeigt selbstständige Praxis. **Arbeit in einem Produktions-SOC** umfa
 | **Gerät sichtbar, aber keine Telemetrie** | Tatsächlicher Onboardingstatus, Sensorzustand und ausgehende Verbindung |
 | **Onboardingrichtlinie nicht angewendet** | Zuweisungsumfang, Geräteplattform und aktuelle Synchronisierung |
 | **Keine Identitätsrisikowarnung** | Signalvoraussetzungen und aufgezeichnete Aktivität, ohne deterministische Erkennung anzunehmen |
-| **Zugriff unerwartet gewährt** | Report-only-Status, Ausschlüsse, Ressourcenbereich und bestehende Sitzung |
+| **Zugriff unerwartet gewährt** | Report-only (nur Bericht)-Status, Ausschlüsse, Ressourcenbereich und bestehende Sitzung |
 | **Kosten nach dem Herunterfahren** | Zuweisungsstatus und unabhängig vom Rechnen abgerechnete Ressourcen |
 
 **Reihenfolge der Fehlersuche:** Belegen Sie zuerst, dass das Ereignis stattfand. Prüfen Sie dann die Sammlung und zuletzt die Erkennungslogik. Halten Sie Fehler und Korrekturen in den Projektnotizen fest.

@@ -1,7 +1,7 @@
 ---
 title: "Domowe laboratorium SOC Microsoft: zdobądź doświadczenie w cyberbezpieczeństwie w 2026 roku"
 date: 2026-09-11
-lastmod: 2026-11-12
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Zbuduj domowe laboratorium SOC Microsoft z Sentinel, Defender, Intune i Entra. Ćwicz analizę incydentów, sprawdzaj zasady dotyczące kluczy dostępu i dokumentuj dowody do portfolio."
@@ -36,10 +36,10 @@ Przygotuj oddzielne konto administracyjne i użytkownika testowego bez uprawnie�
 |---|---|
 | **Sentinel** | Zarządzanie informacjami i zdarzeniami bezpieczeństwa (SIEM) dla podłączonych źródeł dzienników |
 | **Defender XDR** | Korelacja i analiza w usługach bezpieczeństwa Microsoft objętych licencją |
-| **Defender for Endpoint** | Wykrywanie i reagowanie na zagrożenia na podłączonych urządzeniach |
+| **Defender for Endpoint** (ochrona punktów końcowych) | Wykrywanie i reagowanie na zagrożenia na podłączonych urządzeniach |
 | **Intune** | Rejestrowanie urządzeń oraz zarządzanie zasadami ich zabezpieczeń |
 | **Entra ID** | Tożsamości, rejestry logowania i ocena zasad dostępu |
-| **Defender for Servers** | Ochrona serwerów za pośrednictwem Defender for Cloud |
+| **Defender for Servers** (ochrona serwerów) | Ochrona serwerów za pośrednictwem Defender for Cloud |
 
 ## Najpierw sprawdź licencje
 
@@ -78,7 +78,7 @@ Nie wystawiaj RDP ani SSH do publicznego internetu. Ogranicz ruch administracyjn
 
 ## Połącz Sentinel i dzienniki
 
-**Konfiguracja w portalu:** utwórz obszar roboczy Log Analytics i włącz w nim Sentinel. Jeśli obszaru roboczego nie ma w portalu Defender, otwórz **System > Settings > Microsoft Sentinel > Connect a workspace**. Sprawdź dzierżawę i wymagane role Azure oraz Entra zgodnie z [wymaganiami wstępnymi wdrożenia](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
+**Konfiguracja w portalu:** utwórz obszar roboczy Log Analytics i włącz w nim Sentinel. Jeśli obszaru roboczego nie ma w portalu Defender, otwórz **System > Settings > Microsoft Sentinel > Connect a workspace** (System > Ustawienia > Microsoft Sentinel > Połącz obszar roboczy). Sprawdź dzierżawę i wymagane role Azure oraz Entra zgodnie z [wymaganiami wstępnymi wdrożenia](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
 
 **Zbieranie dzienników to osobny etap.** W Entra skonfiguruj ustawienia diagnostyczne tak, aby wymagane kategorie aktywności trafiały do tego samego obszaru roboczego. Zacznij od interaktywnych logowań i zdarzeń audytowych. Przewodnik Microsoft dotyczący [integracji dzienników Entra](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) opisuje uprawnienia i konfigurację miejsca docelowego.
 
@@ -101,7 +101,7 @@ Uruchom ten przykład w **języku zapytań Kusto (KQL)** w widoku Logs obszaru r
 
 **Rejestrowanie urządzenia w Intune i wdrażanie EDR** to osobne etapy. Połącz Intune z Defender for Endpoint, zarejestruj obsługiwany klient Windows, a następnie przypisz do jego grupy laboratoryjnej zasady wdrażania funkcji wykrywania i reagowania na punktach końcowych. Sama rejestracja w Entra nie potwierdza wykonania żadnego z tych etapów.
 
-W Intune sprawdź **Endpoint security > Defender for Endpoint**. Jeśli połączenie jest niedostępne, włącz połączenie Intune w zaawansowanych funkcjach punktów końcowych Defender. Postępuj zgodnie z instrukcjami dla danej platformy w [przewodniku integracji Intune i Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
+W Intune sprawdź **Endpoint security > Defender for Endpoint** (Zabezpieczenia punktów końcowych > Defender for Endpoint (ochrona punktów końcowych)). Jeśli połączenie jest niedostępne, włącz połączenie Intune w zaawansowanych funkcjach punktów końcowych Defender. Postępuj zgodnie z instrukcjami dla danej platformy w [przewodniku integracji Intune i Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
 
 | Etap kontrolny | Dowody do zebrania |
 |---|---|
@@ -135,9 +135,9 @@ Zacznij od zapisania prawidłowego logowania i szczegółów uwierzytelniania. P
 
 **Klucze dostępu (FIDO2)** wykorzystują poświadczenia powiązane z prawdziwą usługą, a nie kody wielokrotnego użytku wpisywane na stronie logowania pośredniczącej w uwierzytelnieniu. Włącz odpowiedni profil kluczy dostępu dla grupy pilotażowej i zarejestruj tę metodę przed wymuszeniem zasad. Informacje o obsługiwanych uwierzytelniaczach i ograniczeniach znajdziesz w [przewodniku Microsoft dotyczącym konfiguracji kluczy dostępu](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2).
 
-**Ćwiczenie z Conditional Access:** utwórz zasadę obejmującą tylko laboratoryjną grupę pilotażową, wyklucz konta dostępu awaryjnego i wybierz **Require authentication strength > Phishing-resistant MFA strength**. Najpierw ustaw tryb **Report-only**, sprawdź jego wpływ, a następnie włącz zasadę. Dostosuj do wąskiej grupy testowej [przykładową zasadę administratora Microsoft](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa).
+**Ćwiczenie z Conditional Access (dostęp warunkowy):** utwórz zasadę obejmującą tylko laboratoryjną grupę pilotażową, wyklucz konta dostępu awaryjnego i wybierz **Require authentication strength > Phishing-resistant MFA strength** (poziom uwierzytelniania i MFA odporne na phishing). Najpierw ustaw tryb **Report-only (tylko raportowanie)**, sprawdź jego wpływ, a następnie włącz zasadę. Dostosuj do wąskiej grupy testowej [przykładową zasadę administratora Microsoft](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa).
 
-| Test | Dowody do zebrania |
+| Sprawdzenie | Dowody do zebrania |
 |---|---|
 | **Zasada w trybie raportowania** | Rekord logowania pokazujący ocenę proponowanej zasady |
 | **Wymuszona zasada, słabsza metoda** | Świeże uwierzytelnienie wymaga silniejszej metody przed udzieleniem dostępu |

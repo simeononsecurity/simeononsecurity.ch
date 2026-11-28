@@ -1,7 +1,7 @@
 ---
 title: "Laboratori SOC domèstic de Microsoft: desenvolupa experiència en ciberseguretat el 2026"
 date: 2026-09-11
-lastmod: 2026-11-12
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Crea un laboratori SOC Microsoft amb Sentinel, Defender, Intune i Entra. Investiga incidents, valida polítiques de claus d’accés i documenta proves per al portfolio."
@@ -32,14 +32,14 @@ Aquesta guia amplia l’enfocament de laboratori descrit al vídeo professional 
 
 Prepara un compte administratiu separat i un usuari de prova sense privilegis. Abans de provar les polítiques d’accés, estableix i verifica l’accés d’emergència. Assigna privilegis per a cada tasca de configuració i utilitza un compte de menys privilegis per a les investigacions habituals.
 
-| Component | Ús al laboratori |
+| Element | Ús al laboratori |
 |---|---|
 | **Sentinel** | Gestió d’informació i esdeveniments de seguretat (SIEM) per a fonts de registre connectades |
 | **Defender XDR** | Correlació i investigació entre serveis de seguretat Microsoft amb llicència |
-| **Defender for Endpoint** | Detecció i resposta als endpoints incorporats |
+| **Defender for Endpoint** (protecció dels dispositius) | Detecció i resposta als endpoints incorporats |
 | **Intune** | Inscripció de dispositius i gestió de polítiques de seguretat dels endpoints |
 | **Entra ID** | Identitats, registres d’inici de sessió i avaluació de polítiques d’accés |
-| **Defender for Servers** | Protecció de servidors mitjançant Defender for Cloud |
+| **Defender for Servers** (protecció dels servidors) | Protecció de servidors mitjançant Defender for Cloud |
 
 ## Comprova primer les llicències
 
@@ -78,7 +78,7 @@ Mantén RDP i SSH tancats a Internet públic. Limita el trànsit administratiu a
 
 ## Connecta Sentinel i els registres
 
-**Configuració del portal:** crea un espai de treball Log Analytics i habilita-hi Sentinel. Si no apareix al portal Defender, obre **System > Settings > Microsoft Sentinel > Connect a workspace**. Comprova el tenant i els rols Azure i Entra necessaris als [requisits d’incorporació](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
+**Configuració del portal:** crea un espai de treball Log Analytics i habilita-hi Sentinel. Si no apareix al portal Defender, obre **System > Settings > Microsoft Sentinel > Connect a workspace** (Sistema > Configuració > Microsoft Sentinel > Connecta un espai de treball). Comprova el tenant i els rols Azure i Entra necessaris als [requisits d’incorporació](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
 
 **La recollida de registres és un pas separat.** A Entra, configura els paràmetres de diagnòstic perquè enviïn les categories d’activitat necessàries al mateix espai de treball. Comença amb inicis de sessió interactius i esdeveniments d’auditoria. La [guia d’integració de registres Entra](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) explica els permisos i la destinació.
 
@@ -101,7 +101,7 @@ Executa aquest exemple de **Kusto Query Language (KQL)** a la vista Logs de l’
 
 **La inscripció d’Intune i la incorporació EDR** són punts de control diferents. Connecta Intune i Defender for Endpoint, inscriu un client Windows compatible i assigna una política d’incorporació EDR al seu grup de laboratori. El registre d’Entra, tot sol, no confirma cap dels dos punts.
 
-A Intune, comprova **Endpoint security > Defender for Endpoint**. Si la connexió no està disponible, habilita la connexió Intune a les funcions avançades d’endpoint de Defender. Segueix els passos específics de la plataforma a la [guia d’integració d’Intune i Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
+A Intune, comprova **Endpoint security > Defender for Endpoint** (Seguretat dels punts d’extrem > Defender for Endpoint (protecció dels punts d’extrem)). Si la connexió no està disponible, habilita la connexió Intune a les funcions avançades d’endpoint de Defender. Segueix els passos específics de la plataforma a la [guia d’integració d’Intune i Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
 
 | Punt de control | Prova que cal recollir |
 |---|---|
@@ -135,11 +135,11 @@ Comença registrant un inici de sessió legítim i els seus detalls d’autentic
 
 **Les claus d’accés (FIDO2)** utilitzen credencials vinculades al servei legítim, no codis reutilitzables introduïts en una pàgina d’inici de sessió retransmesa. Habilita un perfil adequat per al grup pilot i registra el mètode abans d’aplicar una política. Consulta la [guia Microsoft de configuració de claus d’accés](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) per conèixer els autenticadors admesos i les restriccions.
 
-**Exercici Conditional Access:** crea una política només per al grup pilot del laboratori, exclou els comptes d’accés d’emergència i selecciona **Require authentication strength > Phishing-resistant MFA strength**. Comença en **Report-only**, revisa l’impacte i després habilita la política. Adapta l’[exemple Microsoft de política d’administrador](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) a un grup de prova reduït.
+**Exercici Conditional Access (accés condicional):** crea una política només per al grup pilot del laboratori, exclou els comptes d’accés d’emergència i selecciona **Require authentication strength > Phishing-resistant MFA strength** (nivell d’autenticació i MFA resistent a la pesca). Comença en **Report-only (només per informar)**, revisa l’impacte i després habilita la política. Adapta l’[exemple Microsoft de política d’administrador](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) a un grup de prova reduït.
 
 | Prova | Evidència que cal recollir |
 |---|---|
-| **Política Report-only** | Registre d’inici de sessió que mostra l’avaluació de la política proposada |
+| **Política Report-only (només per informar)** | Registre d’inici de sessió que mostra l’avaluació de la política proposada |
 | **Política aplicada, mètode més feble** | Una nova autenticació exigeix un mètode més fort abans de concedir accés |
 | **Política aplicada, clau d’accés registrada** | Inici de sessió correcte que satisfà el nivell de seguretat exigit |
 
@@ -179,7 +179,7 @@ Un laboratori demostra pràctica independent. **La feina en un SOC de producció
 | **Dispositiu visible sense telemetria** | Estat real d’incorporació, salut del sensor i connectivitat de sortida |
 | **Política d’incorporació no aplicada** | Abast de l’assignació, plataforma i sincronització recent |
 | **Sense alerta de risc d’identitat** | Requisits del senyal i activitat registrada, sense pressuposar detecció determinista |
-| **Accés concedit inesperadament** | Estat Report-only, exclusions, abast del recurs i sessió existent |
+| **Accés concedit inesperadament** | Estat Report-only (només per informar), exclusions, abast del recurs i sessió existent |
 | **Càrrecs després d’apagar** | Estat d’assignació i recursos facturats independentment del càlcul |
 
 **Ordre de resolució:** demostra primer que l’esdeveniment ha passat, després que la recollida ha funcionat i finalment investiga la lògica de detecció. Anota cada fallada i correcció a les notes del projecte.

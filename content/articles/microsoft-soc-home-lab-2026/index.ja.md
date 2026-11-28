@@ -1,12 +1,12 @@
 ---
 title: "Microsoft SOCホームラボ：2026年にサイバーセキュリティ経験を積む"
 date: 2026-09-11
-lastmod: 2026-11-12
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Sentinel、Defender、Intune、Entraを使ってMicrosoft SOCホームラボを構築します。インシデント調査やパスキーポリシーを検証し、ポートフォリオ用の証拠を記録します。"
 genre: ["サイバーセキュリティ", "クラウドセキュリティ", "キャリア開発"]
-tags: ["SOCホームラボ", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azureホームラボ", "サイバーセキュリティ経験", "SOCアナリスト", "セキュリティオペレーションセンター", "インシデント対応", "KQL", "Log Analytics", "Conditional Access", "フィッシング耐性MFA", "パスキー", "IDセキュリティ", "サイバーセキュリティポートフォリオ", "クラウドコスト管理", "エンドポイントセキュリティ"]
+tags: ["SOCホームラボ", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azureホームラボ", "サイバーセキュリティ経験", "SOCアナリスト", "セキュリティオペレーションセンター", "インシデント対応", "KQL", "Log Analytics", "Conditional Access (条件付きアクセス)", "フィッシング耐性MFA", "パスキー", "IDセキュリティ", "サイバーセキュリティポートフォリオ", "クラウドコスト管理", "エンドポイントセキュリティ"]
 cover: "/img/cover/microsoft-soc-home-lab.webp"
 coverAlt: "自宅の机のノートパソコンにセキュリティインシデントのタイムラインが表示され、サーバーとエンドポイントを含むクラウドが上に描かれている。"
 coverCaption: ""
@@ -36,10 +36,10 @@ coverCaption: ""
 |---|---|
 | **Sentinel** | 接続したログソースを扱うセキュリティ情報イベント管理（SIEM） |
 | **Defender XDR** | ライセンス対象のMicrosoftセキュリティサービス間の相関と調査 |
-| **Defender for Endpoint** | 登録済みデバイスのエンドポイント検知・対応（EDR） |
+| **Defender for Endpoint** (エンドポイント保護) | 登録済みデバイスのエンドポイント検知・対応（EDR） |
 | **Intune** | デバイス登録とエンドポイントセキュリティポリシー管理 |
 | **Entra ID** | ID、サインイン記録、アクセス方針の評価 |
-| **Defender for Servers** | Defender for Cloudによるサーバー保護 |
+| **Defender for Servers** (サーバー保護) | Defender for Cloudによるサーバー保護 |
 
 ## まずライセンスを確認
 
@@ -78,7 +78,7 @@ RDPとSSHをインターネットに公開しないでください。選んだ�
 
 ## Sentinelとログを接続する
 
-**ポータルの設定：** Log Analyticsワークスペースを作成し、Sentinelを有効にします。Defenderポータルにワークスペースがない場合は、**System > Settings > Microsoft Sentinel > Connect a workspace**を開きます。[オンボードの前提条件](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard)を参照し、テナントとAzure、Entraの必要なロールを確認してください。
+**ポータルの設定：** Log Analyticsワークスペースを作成し、Sentinelを有効にします。Defenderポータルにワークスペースがない場合は、**System > Settings > Microsoft Sentinel > Connect a workspace** (システム > 設定 > Microsoft Sentinel > ワークスペースを接続)を開きます。[オンボードの前提条件](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard)を参照し、テナントとAzure、Entraの必要なロールを確認してください。
 
 **ログ収集は別の手順です。** Entraで診断設定を構成し、必要なアクティビティカテゴリを同じワークスペースに送ります。対話型サインインと監査イベントから始めます。[Entraログ連携ガイド](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs)に権限と送信先の説明があります。
 
@@ -101,7 +101,7 @@ SigninLogs
 
 **Intune登録とEDRオンボード**は別々の確認項目です。IntuneとDefender for Endpointを接続し、対応するWindowsクライアントを登録し、ラボグループにEDRオンボードポリシーを割り当てます。Entraへの登録だけでは、どちらも完了したことになりません。
 
-Intuneで**Endpoint security > Defender for Endpoint**を確認します。接続できない場合は、Defenderのエンドポイント詳細機能でIntune連携を有効にします。[IntuneとDefenderの連携ガイド](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration)でプラットフォームごとの手順を確認してください。
+Intuneで**Endpoint security > Defender for Endpoint** (エンドポイント セキュリティ > Defender for Endpoint)を確認します。接続できない場合は、Defenderのエンドポイント詳細機能でIntune連携を有効にします。[IntuneとDefenderの連携ガイド](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration)でプラットフォームごとの手順を確認してください。
 
 | 確認項目 | 収集する証拠 |
 |---|---|
@@ -135,11 +135,11 @@ Intuneで**Endpoint security > Defender for Endpoint**を確認します。接�
 
 **パスキー（FIDO2）**は、正規サービスに結び付いた資格情報を使い、中継ログインページに入力する再利用可能なコードを避けます。パイロットグループに適切なパスキープロファイルを有効にし、ポリシー適用前に認証方法を登録します。対応する認証器と制約は[パスキー設定ガイド](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2)で確認します。
 
-**Conditional Access演習：** ラボのパイロットグループだけを対象にするポリシーを作成し、緊急アクセスアカウントを除外して、**Require authentication strength > Phishing-resistant MFA strength**を選択します。まず**Report-only**で影響を確認し、その後有効にします。これはMicrosoftの[管理者ポリシー例](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa)を小規模なテストグループ向けに適用したものです。
+**Conditional Access (条件付きアクセス)演習：** ラボのパイロットグループだけを対象にするポリシーを作成し、緊急アクセスアカウントを除外して、**Require authentication strength > Phishing-resistant MFA strength** (認証強度を要求 > フィッシング耐性 MFA 強度)を選択します。まず**Report-only (レポートのみ)**で影響を確認し、その後有効にします。これはMicrosoftの[管理者ポリシー例](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa)を小規模なテストグループ向けに適用したものです。
 
 | テスト | 収集する証拠 |
 |---|---|
-| **Report-onlyポリシー** | 提案されたポリシーの評価を示すサインイン記録 |
+| **Report-only (レポートのみ)ポリシー** | 提案されたポリシーの評価を示すサインイン記録 |
 | **強制ポリシー、弱い方式** | 新しい認証でアクセス前により強い方式が求められる |
 | **強制ポリシー、登録済みパスキー** | 必要な強度を満たしたサインイン成功 |
 
@@ -165,7 +165,7 @@ Intuneで**Endpoint security > Defender for Endpoint**を確認します。接�
 
 各欄を自分の観察結果で埋めます。スクリーンショットやクエリ結果を公開する前に、**エクスポートをサニタイズ：** 資格情報、セッション情報、個人情報、不要な識別子を削除します。
 
-**履歴書の例：**「Microsoftセキュリティラボを構築し、IDログをSentinelに接続し、エンドポイントのテストアラートを調査し、Conditional Accessを検証した。」これらを完了した場合に限って使います。実際の日付と範囲を添えて、プロジェクトまたは実習経験に記載します。
+**履歴書の例：**「Microsoftセキュリティラボを構築し、IDログをSentinelに接続し、エンドポイントのテストアラートを調査し、Conditional Access (条件付きアクセス)を検証した。」これらを完了した場合に限って使います。実際の日付と範囲を添えて、プロジェクトまたは実習経験に記載します。
 
 ラボは自主的な練習を示します。**本番SOC業務**には、事業への影響、エスカレーション、サービス基準、他チームとの調整もあります。練習した内容と経験していない内容を説明します。
 
@@ -179,7 +179,7 @@ Intuneで**Endpoint security > Defender for Endpoint**を確認します。接�
 | **デバイスは見えるがテレメトリがない** | 実際のオンボード状態、センサーの状態、外向き接続 |
 | **オンボードポリシーが未適用** | 割り当て範囲、デバイスのプラットフォーム、最近のチェックイン |
 | **IDリスクアラートがない** | 信号の前提条件と記録済み活動。検知が確実だと思い込まない |
-| **予期しないアクセス許可** | Report-only状態、除外、リソース範囲、既存セッション |
+| **予期しないアクセス許可** | Report-only (レポートのみ)状態、除外、リソース範囲、既存セッション |
 | **停止後も料金が発生** | 割り当て状態とコンピューティング以外で課金されるリソース |
 
 **トラブルシューティングの順番：** イベントが発生した証拠を確認し、収集の動作を確かめてから検知ロジックを調べます。各失敗と修正をプロジェクトノートに記録します。
@@ -190,7 +190,7 @@ Intuneで**Endpoint security > Defender for Endpoint**を確認します。接�
 
 **保持中のリソース**も確認が必要です。ディスク、スナップショット、ネットワークサービス、ログ保持、ユーザーサブスクリプションには別々のライフサイクルがあります。試用期限の前に通知を設定し、削除後の使用状況レポートも確認します。
 
-ラボのリソースグループを削除する前に、保持したい証拠をエクスポートして内容を確認します。**リソースグループの削除は破壊的な操作**で、含まれるリソースが削除されます。テナントユーザー、Intuneポリシー、Conditional Accessポリシー、サブスクリプション、サブスクリプションレベルのセキュリティ設定は別途クリーンアップが必要な場合があります。
+ラボのリソースグループを削除する前に、保持したい証拠をエクスポートして内容を確認します。**リソースグループの削除は破壊的な操作**で、含まれるリソースが削除されます。テナントユーザー、Intuneポリシー、Conditional Access (条件付きアクセス)ポリシー、サブスクリプション、サブスクリプションレベルのセキュリティ設定は別途クリーンアップが必要な場合があります。
 
 ## 次のステップ
 
