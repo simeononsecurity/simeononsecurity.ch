@@ -1,7 +1,7 @@
 ---
-title: "Security+ vs SSCP: quina certificació t’hauries de treure?"
+title: "Security+ contra SSCP: quina certificació t’hauries de treure?"
 date: 2023-06-09
-lastmod: 2026-11-13
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Compara Security+ i SSCP pel temari de l’examen, l’experiència, el cost i els objectius professionals per triar un bon punt de partida en ciberseguretat."
@@ -12,7 +12,7 @@ coverAlt: "Il·lustració simbòlica de dos escuts encarats en una postura dinà
 coverCaption: "Tria la certificació adequada per al teu itinerari professional en ciberseguretat."
 ---
 
-## Security+ vs SSCP: quina és millor?
+## Security+ contra SSCP: quina és millor?
 
 ### Introducció
 

@@ -1,18 +1,18 @@
 ---
 title: "Security+ frente a SSCP: ¿qué certificación deberías obtener?"
 date: 2023-06-09
-lastmod: 2026-11-13
+lastmod: 2026-11-27
 toc: true
 draft: false
 description: "Comparación de las certificaciones Security+ y SSCP para determinar cuál es la mejor opción para los profesionales de la ciberseguridad que buscan oportunidades laborales, reconocimiento en el sector y una amplia cobertura de conocimientos."
 genre: ["Ciberseguridad", "Seguridad de la información", "Comparación de certificaciones", "Empleo en TI", "Reconocimiento del sector", "Oportunidades de empleo", "Seguridad de las redes", "Seguridad de los sistemas", "CompTIA"]
-tags: ["seguridad plus", "SSCP", "certificación en ciberseguridad", "comparación de certificaciones", "oportunidades de empleo", "reconocimiento del sector", "cobertura de conocimientos", "CompTIA", "seguridad de la red", "seguridad de los sistemas", "seguridad de la información", "Carreras informáticas", "profesionales de la ciberseguridad", "empleos en ciberseguridad", "certificaciones de ciberseguridad", "industria de la ciberseguridad", "conocimientos de ciberseguridad", "competencias en ciberseguridad", "cimientos de la ciberseguridad", "Certificaciones informáticas", "certificaciones independientes del proveedor", "analistas de seguridad", "consultores de seguridad", "administradores de seguridad", "analistas de seguridad de sistemas", "ingenieros de seguridad de redes", "Auditores informáticos", "certificaciones de seguridad", "Seguridad informática", "educación en ciberseguridad"]
+tags: ["Security+", "SSCP", "certificación en ciberseguridad", "comparación de certificaciones", "oportunidades de empleo", "reconocimiento del sector", "cobertura de conocimientos", "CompTIA", "seguridad de la red", "seguridad de los sistemas", "seguridad de la información", "Carreras informáticas", "profesionales de la ciberseguridad", "empleos en ciberseguridad", "certificaciones de ciberseguridad", "industria de la ciberseguridad", "conocimientos de ciberseguridad", "competencias en ciberseguridad", "cimientos de la ciberseguridad", "Certificaciones informáticas", "certificaciones independientes del proveedor", "analistas de seguridad", "consultores de seguridad", "administradores de seguridad", "analistas de seguridad de sistemas", "ingenieros de seguridad de redes", "Auditores informáticos", "certificaciones de seguridad", "Seguridad informática", "educación en ciberseguridad"]
 cover: "/img/cover/A_symbolic_artwork_featuring_two_shields_facing_off_against.webp"
 coverAlt: "Una obra de arte simbólica con dos escudos enfrentados en una pose dinámica, que representa la comparación entre las dos certificaciones."
 coverCaption: "Elegir la certificación adecuada para su trayectoria profesional en ciberseguridad."
 ---
 
-## Security+ frente a SSCP: ¿cuál es la mejor opción?
+## Security+ frente a SSCP: ¿qué certificación es mejor?
 
 ### Introducción
 
